@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: 5b9e381c154420c57a66e5b41b25bd4754036c60
+source-git-commit: ac75a1c085e13cd934af0f09ceba89c54bbc560a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -28,7 +28,6 @@ Adobe Campaignには、組み込みのプロファイルテーブルが付属し
 * 非標準の構造を持つプロファイルデータベースの使用：単一のインスタンスを使用して、様々な構造を持つ様々なテーブルに保存されたプロファイルに配信できる可能性。
 
 この節では、Adobe Campaign内の既存の表をマップするための重要なポイントと、任意の表に基づいて配信を実行するために適用される設定について説明します。 また、エンドユーザー向けのクエリーインターフェイスを設計する方法についても説明します。
-
 
 >[!CAUTION]
 >
