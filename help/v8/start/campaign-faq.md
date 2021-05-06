@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 49%
 
 ---
@@ -45,7 +45,7 @@ Campaign Classic の操作について疑問がある場合は、以下に示す
 
 1. ワークフローの実行を監視できますか？
 
-   :arrow_upper_right:Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)のキャンペーンワークフローの実行[を監視する方法を理解します。
+   :arrow_upper_right:Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)のキャンペーンワークフローの実行[を監視する方法を理解します。
 
 1. v8と互換性のあるキャンペーンとコンポーネントはどれですか。
 
@@ -53,7 +53,7 @@ Campaign Classic の操作について疑問がある場合は、以下に示す
 
 1. キャンペーンv8のリリースノートはどこですか？
 
-   :bulb:このページ](release-notes.md)では、最新キャンペーンのリリースノート[にアクセスできます。
+   :bulb:最新キャンペーンのリリースノートはこちらからアクセスできます。
 
 1. ドメイン構成の手順
 
