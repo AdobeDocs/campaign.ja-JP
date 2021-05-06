@@ -7,9 +7,9 @@ breadcrumb-title: キャンペーンv8
 title: キャンペーンv8ドキュメント
 hide: true
 translation-type: tm+mt
-source-git-commit: 1bdc1f03a824f8867ae6066196e8e3984fa73af7
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '164'
 ht-degree: 43%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 43%
    + [Profiles &amp; Audiences](start/audiences.md)
    + [データの読み込み](start/import.md)
    + [キャンペーンの作成](start/campaigns.md)
+   + [購読の管理](start/subscriptions.md)
    + [メッセージの送信](start/create-message.md)
    + [追跡と監視](start/tracking.md)
    + [指標とレポート](start/reporting.md)
@@ -80,6 +81,7 @@ ht-degree: 43%
       + [入力フォーム](dev/forms.md)
    + API {#api}
       + [はじめに](dev/api.md)
+      + [新しいAPI](dev/new-apis.md)
       + [キャンペーンv8 API](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
 
 
