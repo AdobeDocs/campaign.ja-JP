@@ -8,20 +8,14 @@ role: Data Engineer
 level: Beginner
 exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075
 translation-type: tm+mt
-source-git-commit: 1eab5e9c54f2653b4b8ca9a7c2c4b06231980ed5
+source-git-commit: fa46fc3218d3bdc90c27d1abc9e944d73c7b91bc
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 55%
+source-wordcount: '348'
+ht-degree: 56%
 
 ---
 
 # キャンペーンv8 {#help-support-options}のヘルプとサポートのオプション
-
-
->[!AVAILABILITY]
->
-> :warning:**このページはキャンペーンv8**&#x200B;には適用されません。 [詳細情報](campaign-faq.md)。
-
 
 FAQ、ベストプラクティス、オンラインリソース、サポートポータルなどのサポートを利用できます。また、キャンペーンコミュニティに参加したり、専門家に質問したり、問題の記録を行ったりすることもできます
 
