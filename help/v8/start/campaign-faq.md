@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: e802857529d2b72995ccc08563b2356d809e5309
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 55%
+source-wordcount: '384'
+ht-degree: 49%
 
 ---
 
@@ -41,11 +41,11 @@ Campaign Classic の操作について疑問がある場合は、以下に示す
 
    Adobe Campaign には、E メール配信を監視するための一連のダッシュボードおよびツールが用意されています。
 
-   メッセージが送信されていることの確認、実行の監視、エラーが発生した場合の対処の方法について[詳しくは、ここをクリック](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html)してください。
+   [Campaign Classicv7のドキュメントを読み、メッセージが送信されていることを確認し、実行を監視し、エラーが発生した場合にアクションを実行する方法を](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) 確認します。
 
 1. ワークフローの実行を監視できますか？
 
-   :arrow_upper_right:このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)のキャンペーンワークフローの実行[を監視する方法を説明します。
+   :arrow_upper_right:Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)のキャンペーンワークフローの実行[を監視する方法を理解します。
 
 1. v8と互換性のあるキャンペーンとコンポーネントはどれですか。
 
