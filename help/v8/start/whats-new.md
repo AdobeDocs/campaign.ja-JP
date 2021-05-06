@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
+source-git-commit: c3eaaecd33c70be0b8c7e9e69a78aa43cf5d18b8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Adobe Campaignv8は、インフラストラクチャ、セキュリティ、配�
 
 ## シンプル化とパフォーマンス向上
 
-キャンペーンv8でデータ管理を簡素化：インデックスなし、データベースの保守は不要。 キャンペーンv8では、Cloud Databaseにインデックスは不要です。 必要なのは、テーブルの作成、データのコピー、開始だけです。
+キャンペーンv8は、**フルFederated Data Access** (FDA)の概念を導入します。すべてのデータがクラウドデータベース上でリモートになりました。
+
+この新しいアーキテクチャにより、キャンペーンv8はデータ管理をシンプル化します。クラウドデータベースにインデックスは必要ありません。 必要なのは、テーブルの作成、データのコピー、開始だけです。
 
 [!DNL Snowflake] はキャンペーンクラウドデータベースであり、次のような速度と耐久性を実現します。システムアクティビティのピーク時に過負荷が発生しない。
 
