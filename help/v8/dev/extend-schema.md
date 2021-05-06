@@ -4,82 +4,61 @@ product: campaign
 title: キャンペーンスキーマの拡張
 description: キャンペーンスキーマを拡張する方法を学ぶ
 translation-type: tm+mt
-source-git-commit: 779542ab70f0bf3812358884c698203bab98d1ce
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 6%
+source-wordcount: '237'
+ht-degree: 1%
 
 ---
 
 # スキーマの拡張{#extend-schemas}
 
-この記事では、Adobe Campaignデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法について説明します。
+テクニカルユーザーは、導入のニーズに合わせてキャンペーンデータモデルをカスタマイズできます。既存の要素へのスキーマの追加、スキーマ内の要素の変更または要素の削除を行います。
+
+キャンペーンデータモデルをカスタマイズする主な手順は次のとおりです。
+
+1. 拡張スキーマの作成
+1. キャンペーンデータベースの更新
+1. 入力フォームの調整
+
+>[!CAUTION]
+>組み込みスキーマは直接変更できません。 組み込みのスキーマを適応させる必要がある場合は、拡張する必要があります。
 
 :bulb:キャンペーンの組み込みテーブルとそのやり取りについての詳細は、[このページ](datamodel.md)を参照してください。
 
-アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。**スキーマ**&#x200B;と呼ばれるAdobe Campaign固有の文法に従います。
+スキーマを拡張するには、次の手順に従います。
 
-スキーマは、データベーステーブルに関連付けられたXMLドキュメントです。 データ構造を定義し、表のSQL定義を説明します。
+1. エクスプローラーの&#x200B;**[!UICONTROL 管理/設定/データスキーマー]**&#x200B;フォルダーに移動します。
+1. 「**新規**」ボタンをクリックし、「**[!UICONTROL 拡張スキーマを使用してテーブルのデータを拡張する]**」を選択します。
 
-* テーブルの名前
-* フィールド
-* 他のテーブルとのリンク
+   ![](assets/extend-schema-option.png)
 
-また、データの格納に使用するXML構造についても説明します。
+1. 拡張する組み込みスキーマを特定し、選択します。
 
-* 要素と属性
-* 要素の階層
-* 要素と属性の種類
-* デフォルト値
-* ラベル、説明、およびその他のプロパティ。
+   ![](assets/extend-schema-select.png)
 
-スキーマを使用すると、データベース内にエンティティを定義できます。 エンティティごとにスキーマがあります。
+   規則に従って、拡張スキーマに組み込みスキーマと同じ名前を付け、カスタム名前空間を使用します。
 
-## スキーマの構文{#syntax-of-schemas}
+   ![](assets/extend-schema-validate.png)
 
-スキーマのルート要素は&#x200B;**`<srcschema>`**&#x200B;です。 **`<element>`**&#x200B;と&#x200B;**`<attribute>`**&#x200B;のサブ要素が含まれます。
+1. スキーマエディタで、コンテキストメニューを使用して必要な要素を追加し、保存します。
 
-最初の&#x200B;**`<element>`**&#x200B;サブ要素は、エンティティのルートに一致します。
+   ![](assets/extend-schema-edit.png)
 
-```
-<srcSchema name="recipient" namespace="cus">
-  <element name="recipient">  
-    <attribute name="lastName"/>
-    <attribute name="email"/>
-    <element name="location">
-      <attribute name="city"/>
+   以下の例では、Membership Year属性を追加し、姓の長さ制限を設定し（この制限はデフォルトの名前に上書きします）、組み込みスキーマから生年月日を削除します。
+
+   ```
+   <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
+           img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
+           mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
+   <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+           name="recipient">
+   <attribute name="Membership Year" label="memberYear" type="long"/>
+   <attribute length="50" name="lastName"/>
+   <attribute _operation="delete" name="birthDate"/>
    </element>
-  </element>
-</srcSchema>
-```
+   </srcSchema> 
+   ```
 
->[!NOTE]
->
->エンティティのルートスキーマは、要素と同じ名前を持ちます。
-
-![](assets/schema_and_entity.png)
-
-**`<element>`**&#x200B;タグはエンティティ要素の名前を定義します。 **`<attribute>`** スキーマのタグは、リンク先の **`<element>`** タグの属性の名前を定義します。
-
-## スキーマのID {#identification-of-a-schema}
-
-データスキーマは、名前と名前空間で識別されます。
-
-名前空間を使用すると、スキーマのセットを目標領域別にグループ化できます。 例えば、**cus**&#x200B;名前空間は、顧客固有の設定(**customers**)に使用します。
-
->[!CAUTION]
->
->標準として、名前空間名は簡潔にし、XML命名規則に従って、許可された文字のみを含める必要があります。
->
->識別子の先頭を数字にすることはできません。
-
-特定の名前空間は、Adobe Campaignアプリケーションの操作に必要なシステムエンティティの説明のために予約されています。
-
-* **xl**:Cloudデータベーススキーマに関する、
-* **xtk**:プラットフォームシステムデータについて
-* **nl**:出願の全体的な使用に関して
-* **nms**:配信(受信者、配信、追跡等)に関する
-* **ncm**:コンテンツ管理に関して
-* **temp**:一時スキーマ用に予約。
-
-スキーマのIDキーは、名前空間と名前をコロンで区切った文字列です。例：**nms:受信者**。
+1. データベース構造を更新して、変更を適用します。 [詳細情報](update-database-structure.md)
+1. データベースに変更が実装されたら、受信者入力フォームを適合させて、変更を表示することができます。 [詳細情報](forms.md)
