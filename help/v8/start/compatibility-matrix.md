@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 translation-type: tm+mt
-source-git-commit: 29f3a760f2fc55290c4d53d70af89061b9c9f8ba
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 33%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 33%
 
 * **Microsoft Azure Synapse Analytics**
 * **Amazon Redshift**
-* **Snowflake**
+* **[!DNL Snowflake]**
 * **Oracle** 19c、18c、12c、11G
 * **PostgreSQL**  12.x、11.x、10.x、9.6.x、9.5.x、9.4.x
 * **Microsoft SQL Server**  2019、2017、2016、2014、2012 SP1およびSP2
