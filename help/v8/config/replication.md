@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
 translation-type: tm+mt
-source-git-commit: 54837c7da2382696718ace7ec0ebde956efd33f4
+source-git-commit: 369ddafcc64fa418a479ab03092d3475f1c811b2
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '559'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,8 @@ Adobe Campaignには組み込みテクニカルワークフローが付属して
 すぐに複製このワークフローは、特定の外部アカウントのXSデータを複製します。
 
 これらのテクニカルワークフローは、キャンペーンエクスプローラーの&#x200B;**[!UICONTROL 管理/本番環境/テクニカルワークフロー/完全なFFDAレプリケーション]**&#x200B;ノードから利用できます。
+
+**こ追加れ？https://wiki.corp.adobe.com/display/neolane/Full+FDA+%3A%3A+Replication+strategy**
 
 
 **関連トピック**
