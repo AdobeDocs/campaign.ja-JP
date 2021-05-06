@@ -5,9 +5,9 @@ title: 一般的なアーキテクチャ
 description: キャンペーンv8一般アーキテクチャ
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 translation-type: tm+mt
-source-git-commit: 1bdc1f03a824f8867ae6066196e8e3984fa73af7
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Adobe Campaignにはネイティブの電子メールブロードキャスト機
 
 ## データベースコンテナ{#db-containers}
 
-Adobe Campaignクラウドデータベースは、機能データ(プロファイル、購読、コンテンツなど)、技術データ(配信ジョブ、ログ、トラッキングログなど)を含むSnowflakeに依存しています。 およびソリューションの作業データ（購入、リード）と、すべてのAdobe Campaignコンポーネントがデータベースと通信し、それぞれの特定のタスクを実行します。
+Adobe Campaignクラウドデータベースは、[!DNL Snowflake]に依存しています。このには、機能データ(プロファイル、購読、コンテンツなど)、技術データ(配信ジョブやログ、トラッキングログなど)が含まれています。 およびソリューションの作業データ（購入、リード）と、すべてのAdobe Campaignコンポーネントがデータベースと通信し、それぞれの特定のタスクを実行します。
 
 お客様は、定義済みのデータマートとスキーマを使用してAdobe Campaignをデプロイでき、さらに拡張することもできます。 データマート内のすべてのデータは、SQL呼び出しを介してAdobe Campaignからアクセスされます。 また、Adobe Campaignは、システムとの間でのデータのインポートおよびエクスポートを実行するための、Extract Transform and Load(ETL)ツールの完全な補完も提供します。
 
