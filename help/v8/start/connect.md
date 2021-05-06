@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 translation-type: tm+mt
-source-git-commit: 97cc2dd6f78fac2723306f06bea74e808c84b4ad
+source-git-commit: c26e3b1af2f1706dbe2ca6cf9078f3e427e345cb
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '684'
 ht-degree: 13%
 
 ---
@@ -36,12 +36,6 @@ ht-degree: 13%
 >[!CAUTION]
 >
 >Adobeでは、**[!UICONTROL 「]**&#x200B;この質問を選択しないでください。」を選択すると、コンソールの新しいバージョンが利用できる場合にすべてのユーザーに警告が表示されます。  このオプションを選択すると、新しい利用可能なバージョンは通知されません。
-
-### チュートリアルビデオ
-
-このビデオでは、Adobe Campaignクライアントのインストールとセットアップの方法を示します。
-
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 ## 接続の作成
 
