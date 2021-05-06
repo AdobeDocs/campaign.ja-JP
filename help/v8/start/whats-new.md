@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 9dcde5cff8b3bdbf240b01967cb27f9de8178f98
+source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Adobe Campaignv8の新機能{#ac-gs-what-is-new}
 
-Adobe Campaignv8は、インフラストラクチャ、セキュリティ、配信品質、監視機能を大幅に強化します。 クラウド・データベース・テクノロジーであるSnowflakeを活用することで、Adobe Campaignは、プロファイルの規模と速度を大幅に向上し、より多くの顧客を管理でき、1時間あたりの配信率とトランザクション数も大幅に向上します。
+Adobe Campaignv8は、インフラストラクチャ、セキュリティ、配信品質、監視機能を大幅に強化します。 クラウドデータベーステクノロジ[!DNL Snowflake]を活用することで、Adobe Campaignは、1時間あたりの配信率とトランザクション数を大幅に向上し、プロファイルの規模と速度を大幅に向上できます。
 
 主な機能は次のとおりです。
 
@@ -40,7 +40,7 @@ Adobe Campaignv8は、インフラストラクチャ、セキュリティ、配�
 
 キャンペーンv8でデータ管理を簡素化：インデックスなし、データベースの保守は不要。 キャンペーンv8では、Cloud Databaseにインデックスは不要です。 必要なのは、テーブルの作成、データのコピー、開始だけです。
 
-Snowflake(Cloud Database)は、次のような速度と耐久性を提供します。システムアクティビティのピーク時に過負荷が発生しない。
+[!DNL Snowflake] はキャンペーンクラウドデータベースであり、次のような速度と耐久性を実現します。システムアクティビティのピーク時に過負荷が発生しない。
 
 Cloudデータベーステクノロジーでは、パフォーマンスレベルを保証するために特定のメンテナンスを行う必要はありません。
 
