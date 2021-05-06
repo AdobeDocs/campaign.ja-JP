@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
 translation-type: tm+mt
-source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
+source-git-commit: a67c83eb531c795d621fdf36696ae4bde2151dba
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---
@@ -44,9 +44,13 @@ Adobe Campaignには組み込みテクニカルワークフローが付属して
 
 レプリケーション・ポリシーは、テーブルのサイズに基づいています。 一部のテーブルがレプリケートされます。 一部のテーブルはリアルタイムでレプリケートされ、別のテーブルは時間単位でレプリケートされます。 一部のテーブルは、他のテーブルが置き換えられると、増分更新を持ちます。
 
-**全てのテーブルをリストすべきか？**
-
-確認する
+| 名前空間 | テーブル | ワークフロー複製 | リアルタイム・レプリケーション |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | --------------------- |
+| XTK | xtk:enum<br>xtk:enumValue<br>xtk:enumAlias<br>xtk:folder<br>xtk:formRendering<br>xtk:operator<br>xtk:group<br>xtk:report<br>olap8/>xdimenop<br>xtk:olapMeasure<br>xtk:dictionaryString<br><br> | ○（増分） | はい |
+| XTK | xtk:opsecurity<br>xtk:rights<br>xtk:operatorGroup<br>xtk:reportHistory<br>xtk:reportRights | はい（フル） | はい |
+| NMS | nms:budget<br>nms:operation<br>nms:operation<br>nms:plan<br>nms:typology<br>nms:typology<br>nms:extAccount<br>nms:deliveryMapping<br>配信（即時レプリケーション）<br>:seedMember<br>nms:webApp<br>nms:trackingUrl （即時レプリケーション）<br>nms:service<br>nms:offerEnv<br>nms:offerCategory<br>nms:offerSpace<br>nms:オファー<br>nms:offerView<br>nms:受信者（増分？）<br>nms:<br>groupnms:<br>dlvExclusionnms:stock | ○（増分） | はい |
+| NMS | nms:country<br>nms:localOrgUnit<br>nms:state<br>nms:suppressionAddress<br>nms:suppressionDomain<br>nms:design<br>nms:trackingUrlInfo<br>nms:webTrackingLog<br>nmsmobileApp<br>nms:budgetCategory<br>nms:costType<br>nms:costCenter<br>nms:costStructure<br>nms:stockLine<br>nms:expenseLine<br>cost:ms行 | はい（フル） | はい |
+| NMS | nms:address<br>nms:userAgent<br>nms:userAgentReject<br>nms:userAgentStats<br>nms:broadLogMsg<br>nms:broadLog<br>nms:trackingLog<br>nms:deleliveryLog<br>nms:appSubscription<br>nms:proposition<br>nms:rcpGrpRel<br>nms:broadLogRcp<br>nms:excludeLogRcp<br>nms:trackingLogRcp<br>nms:propositionRcp<br>nms:localValidationRcp<br>nms:訪問者<br>nms:broadLogVisitor<br>nms:trackingLogVisitor<br>nms:propositiona19/>nms:webAppLogRcp<br>nms:appSubscriptionRcp<br>nms:broadLogAppSubRcp<br>nms:excludeLogAppSubRcp<br>nms:trackingLogAppSubRcp<br>nms:eventHisto<br>nms:broadLogEventHisto<br>nms:trackingLogEventHisto<br>nms:購読<br>nms:subHisto29/>nms:trackingStats (Snowflakeの使用のみ)<br>nms:tmpBroadcast (Snowflakeの使用のみ)<br>nms:tmpBroadcastExclusion (Snowflakeの使用のみ)<br>nms:tmpBroadcastPaper (Snowflakeの使用のみ)<br><br> | いいえ | いいえ |
 
 **関連トピック**
 
