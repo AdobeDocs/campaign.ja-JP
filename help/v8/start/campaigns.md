@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 translation-type: tm+mt
-source-git-commit: d7d026422d43e8baef43b114936366071f7086e5
+source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 23%
+source-wordcount: '747'
+ht-degree: 21%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign では、ターゲティングおよびパーソナライズさ�
 
 Adobe Campaignを使用すると、統合コントロールセンターからすべてのマーケティングキャンペーンを作成、構成、実行、分析できます。
 
-:arrow_upper_right:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)のマーケティングキャンペーンにアクセスして導入する方法を見つけ出す
+:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)で、マーケティングキャンペーンにアクセスして導入する方法を発見します。
 
 
 ## 開始の主な手順
@@ -56,50 +56,33 @@ Adobe Campaignを使用すると、統合コントロールセンターからす
 
    階層とスケジュールの定義、予算の設定、リソースの追加、演算子の選択を行います。
 
-   :arrow_upper_right:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)でマーケティングプランの作成とキャンペーンの設定について説明します。
+   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)でマーケティングプランの作成とキャンペーンの設定の方法を説明します。
 
    すべてのマーケティングキャンペーンはテンプレートに基づいており、テンプレートには主な設定と機能が保存されています。 特定の設定が定義されていないキャンペーンを作成するために、組み込みのテンプレートが用意されています。 キャンペーンテンプレートを作成および設定して、そのテンプレートからキャンペーンを作成することができます。
 
-   :arrow_upper_right:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)のキャンペーンテンプレートの使い方を学ぶ
+   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)のキャンペーンテンプレートの使い方を学ぶ
 
-   :arrow_upper_right:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)で定期的なキャンペーンを検出し、設定する方法を確認します。
+   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)で定期的なキャンペーンを検出し、その設定方法を確認します。
 
 1. **オーディエンスの定義**
 
    ワークフロー内にオーディエンスを構築したり、受信者リスト、ニュースレターの購読者、以前の配信の受信者、任意のフィルタリング条件などの既存のグループを選択したりできます。
 
-   :arrow_upper_right:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)でメッセージのオーディエンスを定義する方法を学びます
+   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)でメッセージのオーディエンスを定義する方法を説明します。
 
 1. **配信の作成**
 
    「チャネル」を選択し、メッセージの内容と開始配信を定義します。
 
-   :arrow_upper_right:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)でマーケティングキャンペーン配信の作成と開始方法を学びます。
+   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)でマーケティングキャンペーン配信の作成および開始方法を説明します。
 
    キャンペーンには、次の様々なドキュメントを関連付けることができます。レポート、写真、Webページ、図など
 
-   :arrow_upper_right:関連するドキュメントについての詳細は、[このセクション](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)を参照してください
+   :arrow_upper_right:関連するドキュメントについて詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)を参照してください
 
 1. **承認プロセスの設定**
 
    Adobe Campaignを使用すると、マーケティングキャンペーンのメインステージに対する共同承認プロセスを設定できます。 キャンペーンごとに、配信のターゲット、コンテンツおよびコストを承認できます。 承認担当のAdobe Campaignオペレーターは、電子メールで通知し、コンソールまたはWeb接続を介して承認を受け取ったり拒否したりできます。
 
-   :arrow_upper_right:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)で承認の設定と管理の方法を説明します。
+   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)で承認の設定と管理の方法を説明します。
 
-
-1. メッセージの監視：制御配信と実行 詳細情報.
-
-1. キャンペーンと関連コストを計画します。 詳細情報.
-
-## 承認と検証
-
-
-## サービスと購読
-
-サービスの作成と購読/購読解除の管理
-
-## レポート
-
-キャンペーンに関するレポート
-
-:bulb:
