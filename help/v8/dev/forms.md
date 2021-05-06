@@ -4,7 +4,7 @@ product: campaign
 title: キャンペーン入力フォーム
 description: 入力フォームのカスタマイズ方法
 translation-type: tm+mt
-source-git-commit: b4d5ed24bcca46591543b835b2fec1c18b26fc74
+source-git-commit: 8e90eb762a6e08077270d4f5852bfc37ac783122
 workflow-type: tm+mt
 source-wordcount: '2579'
 ht-degree: 3%
@@ -290,9 +290,7 @@ ht-degree: 3%
 
 ドロップダウンリストを使用して、既に作成されたレコードのリストからターゲット要素を選択します。
 
-**[!UICONTROL リンク]**（フォルダー）を変更アイコンをクリックすると、ターゲット要素とフィルターゾーンのリストを含む選択フォームが起動します。
-
-![](assets/do-not-localize/form_exemple10.png)
+**[!UICONTROL リンク]**&#x200B;を変更（フォルダー）アイコンをクリックすると、ターゲット要素とフィルターゾーンのリストを含む選択フォームが起動します。
 
 **[!UICONTROL リンクを編集]** （虫めがね）アイコンをクリックすると、リンクされた要素の編集フォームが起動します。 デフォルトでは、対象スキーマのキーに基づいて使用されるフォームが推定されます。 **form**&#x200B;属性を使用すると、編集フォームの名前(&quot;cus:会社2&quot;)。
 
@@ -433,8 +431,6 @@ ht-degree: 3%
 
 このコントロールは、「追加」ボタンと「削除」ボタンを含むツールバー付きの編集可能な列リストを表示しています。
 
-![](assets/do-not-localize/form_exemple13.png)
-
 ```
 <input xpath="rcpEvent" type="list">
   <input xpath="@label"/>
@@ -452,8 +448,6 @@ ht-degree: 3%
 
 ツールバーのボタンは、水平方向に並べることができます。
 
-![](assets/do-not-localize/form_exemple14.png)
-
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true">
   <input xpath="@label"/>
@@ -466,8 +460,6 @@ ht-degree: 3%
 ### リストのズームインを有効にする{#zoom-in-a-list}
 
 リスト内のデータの挿入と編集は、別の編集フォームに入力できます。
-
-![](assets/do-not-localize/form_exemple15.png)
 
 ```
 <input nolabel="true" toolbarCaption="List of events" type="list" xpath="rcpEvent" zoom="true" zoomOnAdd="true">
@@ -640,8 +632,6 @@ ht-degree: 3%
   ...
 </form>
 ```
-
-![](assets/do-not-localize/form_exemple19.png)
 
 `<form>`要素に&#x200B;**type=&quot;wizard&quot;**&#x200B;属性が存在する場合は、フォームの構築時にウィザードモードを定義できます。 ページは`<container>`要素（`<form>`要素の子）から完成します。 ページの`<container>`要素には、titleとdescのタイトル属性が設定され、ページタイトルの下に説明が表示されます。 **[!UICONTROL 前へ]**&#x200B;ボタンと&#x200B;**[!UICONTROL 次へ]**&#x200B;ボタンが自動的に追加され、ページ間を移動できます。
 
