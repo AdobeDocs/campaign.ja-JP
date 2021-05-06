@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 1eab5e9c54f2653b4b8ca9a7c2c4b06231980ed5
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 80%
+source-wordcount: '358'
+ht-degree: 63%
 
 ---
 
@@ -28,28 +28,29 @@ ht-degree: 80%
 
 ## コントロールパネルにアクセスするには？
 
-コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/accessing-control-panel.html)してください。
+コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html)してください。
 
 ## コントロールパネルのよくある質問（FAQ）
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://docs.adobe.com/content/help/ja-JP/control-panel/using/faq.html)します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html)します。
 
 ## SFTP 管理
 
-コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html)してください。
+コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)してください。
 
 ## サブドメインおよび証明書
 
 サブドメインとその証明書を監視できます。 詳細情報：
-* [サブドメインのブランディング](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
-* [新しいサブドメインの設定](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
-* [SSL 証明書の監視](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html)
+* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
+* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
 ## インスタンス設定
 
 コントロールパネルでの Campaign インスタンス設定の管理方法を説明します。 
-* [許可リストの IP](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/ip-whitelisting-instance-access.html)
-* [URL へのアクセス権限](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/url-permissions.html)
-* [インスタンスの詳細](https://docs.adobe.com/content/help/ja-JP/control-panel/using/instances-settings/instance-details.html)
+* [許可リストの IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
+* [URL へのアクセス権限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html)
+* [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
+* [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
 :arrow_upper_right:[このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)のCampaign コントロールパネル機能をすべて検出
