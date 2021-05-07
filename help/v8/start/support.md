@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: ヘルプとサポートを検索
 description: キャンペーンv8を使用する場合のサポートの検索方法を説明します。
 feature: 概要
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 1c45e005-1dd1-4b91-b928-7d0f4a51e075
 translation-type: tm+mt
-source-git-commit: fa46fc3218d3bdc90c27d1abc9e944d73c7b91bc
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 56%
