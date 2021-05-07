@@ -1,10 +1,10 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: PI表示を制限
 description: PI表示を制限する方法を学ぶ
 translation-type: tm+mt
-source-git-commit: 8c9f59067cd0e5a39e84315e5836a32bdf7a0864
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
