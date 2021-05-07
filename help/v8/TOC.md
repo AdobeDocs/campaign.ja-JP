@@ -3,13 +3,14 @@ solution: Campaign
 product: campaign
 audience: end-user
 user-guide-title: Campaign v8
+description: キャンペーンv8ドキュメント
 breadcrumb-title: キャンペーンv8
 title: キャンペーンv8ドキュメント
 hide: true
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 7b8de5083836e906f563250e1a86b46abcd68650
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '167'
 ht-degree: 43%
 
 ---
