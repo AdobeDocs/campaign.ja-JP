@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: キャンペーンとTwitterの使用
 description: キャンペーンとTwitterの使い方を学ぶ
 feature: 概要
@@ -10,7 +10,7 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 hidefromtoc: true
 hide: true
 translation-type: tm+mt
-source-git-commit: 244879e35ed2270cdb132e69feaf1380f08d299d
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 23%
