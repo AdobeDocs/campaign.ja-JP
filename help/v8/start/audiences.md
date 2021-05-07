@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: オーディエンスを使い始める
 description: オーディエンスを使い始める
 feature: オーディエンス
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: ca8d75825bcf73226f381b59825ee14afb1c1e15
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 43%
