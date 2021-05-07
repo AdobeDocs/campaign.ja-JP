@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Campaign データモデルの概要
 description: Campaign データモデルの概要
 feature: 概要
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
 translation-type: tm+mt
-source-git-commit: e509feb4624b26e33d43f2a1d926b563ab52a8c4
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 4%
