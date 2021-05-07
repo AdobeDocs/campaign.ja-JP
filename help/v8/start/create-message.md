@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: メッセージの基本を学ぶ
 description: メッセージの基本を学ぶ
 feature: 概要
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 translation-type: tm+mt
-source-git-commit: 87836271deb6bd69b7fed07108884e49a55f814a
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 25%
