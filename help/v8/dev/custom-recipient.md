@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: デフォルトの受信者テーブルの変更
 description: カスタム受信者テーブルの使い方
 feature: 概要
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: ac75a1c085e13cd934af0f09ceba89c54bbc560a
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
