@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: マーケティングキャンペーンの基本を学ぶ
 description: マーケティングキャンペーンの基本を学ぶ
 feature: オーディエンス
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 translation-type: tm+mt
-source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 21%
