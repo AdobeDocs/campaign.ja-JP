@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: プロファイルの基本を学ぶ
 description: プロファイルの基本を学ぶ
 feature: プロファイル
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 translation-type: tm+mt
-source-git-commit: 805deadf994e2c4fdfb850ea5b1c3dedf565ef2d
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 12%
