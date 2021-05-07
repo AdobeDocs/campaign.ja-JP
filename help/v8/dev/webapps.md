@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: キャンペーンのWebアプリケーションとWebフォーム
 description: WebアプリケーションとWebフォームの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 7cb9f1029cbec70d8cacb912c213e2b4b1a42431
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 31%
