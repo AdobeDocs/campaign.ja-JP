@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Campaign API の概要
 description: Campaign API の概要
 feature: 概要
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: 87836271deb6bd69b7fed07108884e49a55f814a
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 15%
