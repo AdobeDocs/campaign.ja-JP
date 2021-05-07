@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 221adcce8951a3884b83d5e5e2de1a73fbe96050
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 25%
+source-wordcount: '693'
+ht-degree: 24%
 
 ---
 
@@ -32,6 +32,7 @@ Adobe Campaignv8には次の配信チャネルが付属しています。
 * **モバイルチャネル**:モバイルチャネルの配信を使用すると、パーソナライズされたSMSをターゲットの人口に送信できます。詳細は[このページ](../send/sms.md)を参照
 
 * **モバイルアプリケーションチャネル**：モバイルアプリ配信では通知を iOS システムおよび Android システムに送信できます。詳細は[このページ](../send/push.md)を参照
+* **行チャネル**:LINE配信を使用すると、すべてのスマートフォンで利用できるインスタントメッセージングアプリケーションであるLINEでメッセージを送信できます。詳細は[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)を参照
 
 ## メッセージの送信方法を選択する
 
