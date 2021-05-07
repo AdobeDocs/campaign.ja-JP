@@ -1,10 +1,10 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: キャンペーン入力フォーム
 description: 入力フォームのカスタマイズ方法
 translation-type: tm+mt
-source-git-commit: 5adbec5dfc738c2bec260c0d2a7f80e5a232056c
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '2579'
 ht-degree: 3%
