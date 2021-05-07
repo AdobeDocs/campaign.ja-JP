@@ -8,16 +8,16 @@ role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: cebe3fedb97a5570aa404bf97709e6b26bf90d7c
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 55%
+source-wordcount: '804'
+ht-degree: 46%
 
 ---
 
 # Adobe Campaignの使用を開始する{#gs-ac-v8}
 
-Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを構築するための基盤を提供し、視覚的なキャンペーンのオーケストレーションや、リアルタイムの対話管理、クロスチャネルのキャンペーン展開に必要な環境を提供します。
+Adobe Campaignは、チャネル間の顧客エクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムの対話管理およびクロスチャネル実行のための環境を提供します。
 
 キャンペーンを使用して、次のことを行います。
 
@@ -74,13 +74,13 @@ Adobe Campaign では、顧客のデータおよびプロファイルを段階�
 
 ## Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
 
-Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスのパーソナライズを支援するために作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target または Adobe Experience Cloud Triggers など）と組み合わせることができます。Adobe IMS と統合し、Adobe ID を使用して Campaign にログインすることもできます。
+Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスのパーソナライズを支援するために作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target または Adobe Experience Cloud Triggers など）と組み合わせることができます。
 
 :bulb:[このセクション](../connect/integration.md)では、Adobeサービスおよびソリューションとの統合方法を説明します。
 
 ## キャンペーン機能の詳細{#core-capabilities-and-add-ons}
 
-Adobe Campaign は、ニーズやアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を備えています。これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。製品の詳細については、以下を参照してください。[Adobe Campaignv8製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)。
+Adobe Campaignオファーは、ニーズやアーキテクチャに応じて会話マーケティング機能を導入し、最適化するのに役立つ一連の機能を備えています。 その中にはコア機能を持つものもあり、設定にパッケージをインストールすることに依存するものもあります。 製品の詳細については、以下を参照してください。[Adobe Campaignv8製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)。
 
 :bulb:Campaign Classicに詳しい？ [このページ](capability-matrix.md)で、Campaign Classicとキャンペーンv8の主な違いを説明します。
 
