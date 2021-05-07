@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: キャンペーンv8に関するよくある質問
 description: Discoverキャンペーン共通のQ&A
 feature: 概要
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 49%
