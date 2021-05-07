@@ -8,7 +8,7 @@ breadcrumb-title: キャンペーンv8
 title: キャンペーンv8ドキュメント
 hide: true
 translation-type: tm+mt
-source-git-commit: 7b8de5083836e906f563250e1a86b46abcd68650
+source-git-commit: 21172287921c9188037fe6e4306f755826d783f8
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 43%
@@ -28,8 +28,8 @@ ht-degree: 43%
    + [Profiles &amp; Audiences](start/audiences.md)
    + [データの読み込み](start/import.md)
    + [キャンペーンの作成](start/campaigns.md)
-   + [購読の管理](start/subscriptions.md)
    + [メッセージの送信](start/create-message.md)
+   + [購読の管理](start/subscriptions.md)
    + [追跡と監視](start/tracking.md)
    + [指標とレポート](start/reporting.md)
    + [よくある質問](start/campaign-faq.md)
