@@ -1,10 +1,10 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: キャンペーンスキーマ構造
 description: キャンペーンスキーマ構造
 translation-type: tm+mt
-source-git-commit: 090db663cc467d991f4b83859a0012c38717a141
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 12%
