@@ -1,6 +1,6 @@
 ---
 solution: Campaign
-product: campaign
+product: Adobe Campaign
 audience: end-user
 user-guide-title: Campaign v8
 description: キャンペーンv8ドキュメント
@@ -8,7 +8,7 @@ breadcrumb-title: キャンペーンv8
 title: キャンペーンv8ドキュメント
 hide: true
 translation-type: tm+mt
-source-git-commit: 21172287921c9188037fe6e4306f755826d783f8
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 43%
