@@ -4,10 +4,10 @@ product: Adobe Campaign
 title: キャンペーンセキュリティのベストプラクティス
 description: キャンペーンセキュリティのベストプラクティスの概要
 translation-type: tm+mt
-source-git-commit: d758b6ffaee5fdab3f600f58be5a81694162d269
+source-git-commit: 5592dd4e79391d953a4bc54cdd47475417e07b56
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 40%
+source-wordcount: '515'
+ht-degree: 32%
 
 ---
 
@@ -40,9 +40,9 @@ Adobeでは、デジタルエクスペリエンスのセキュリティを非常
 
 ## データの制限
 
-権限レベルの低い認証ユーザーは暗号化されたパスワードにアクセスできないようにする必要があります。これを実現するには、主に 2 つの方法があります。パスワードフィールドへのアクセスを制限する方法と、エンティティ全体へのアクセスを制限する方法です（ビルド 8770 以降が必要です）。
+権限レベルの低い認証ユーザーは暗号化されたパスワードにアクセスできないようにする必要があります。そのためには、主に次の2つの方法があります。パスワードフィールドへのアクセスのみ、またはエンティティ全体に対するアクセスを制限する。
 
-この制限をおこなうと、パスワードフィールドを削除する一方で、外部アカウントは全ユーザー向けのインターフェイスからアクセス可能にできます。詳しくは、[このページ](../dev/restrict-pi-view.md)を参照してください。
+この制限により、パスワードフィールドを削除できますが、外部アカウントはインターフェイスからアクセスでき、すべてのユーザにアクセスできます。 詳しくは、[このページ](../dev/restrict-pi-view.md)を参照してください。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL データスキーマ]**&#x200B;に移動します。
 
@@ -98,7 +98,7 @@ Adobeでは、デジタルエクスペリエンスのセキュリティを非常
 
    >[!NOTE]
    >
-   >`$(loginId) = 0 or $(login) = 'admin'`を`hasNamedRight('admin')`で削除すると、管理者権限を持つすべてのユーザーにこれらのパスワードを表示できます。
+   >`$(loginId) = 0 or $(login) = 'admin'`を`hasNamedRight('admin')`で置き換えて、管理者権限を持つすべてのユーザーにこれらのパスワードを表示させることができます。
 
 
 ## アクセス管理
@@ -115,10 +115,10 @@ Adobeでは、デジタルエクスペリエンスのセキュリティを非常
 
 Adobe Campaign(ワークフロー、JavaScript、JSSPなど)で開発する場合は、次のガイドラインに従ってください。
 
-* スクリプティング：SQL 文は使用しないようにします。文字列連結ではなく、パラメーター化関数を使用します。使用する SQL 関数を許可リストに追加して、SQL インジェクションを回避します。
+* **スクリプティング**：SQL 文は使用しないようにします。文字列連結ではなく、パラメーター化関数を使用します。使用する SQL 関数を許可リストに追加して、SQL インジェクションを回避します。
 
-* データモデルの保護：ネームド権限を使用して演算子のアクションを制限し、システム・フィルターを追加(sysFilter)
+* **データモデルの保護**:ネームド権限を使用して演算子のアクションを制限し、システム・フィルターを追加(sysFilter)
 
-* webアプリケ追加ーションのcaptchas:公開ランディングページおよび購読ページにcaptchasを追加します。
+* **Webアプリケーション追加でのcaptchas**:公開ランディングページおよび購読ページにcaptchasを追加します。
 
 :arrow_upper_right:詳細は[Adobe Campaign Classicのドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)を参照
