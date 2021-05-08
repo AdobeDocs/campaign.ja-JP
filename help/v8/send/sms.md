@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: bbaa603e73d4c1618f326624600ea3d357b265e6
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 26%
+source-wordcount: '309'
+ht-degree: 22%
 
 ---
 
@@ -30,9 +30,9 @@ SMSを送信するための主な手順は、次のセクションで説明し�
 SMS の送信を開始する前：
 
 * 受信者プロファイルに少なくとも携帯電話番号が含まれていることを確認します。
-* Adobe Campaign Classic[配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages)を読み上げます。これはキャンペーンv8にも当てはまります。
+* キャンペーンv8にも当てはまるAdobe Campaign Classic[配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages)を確認します。
 
-また、SMS のプロトコルと設定についても熟知している必要があります。Adobe Campaign と SMPP プロバイダーの間の接続設定については、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)で確認します。
+また、SMSのプロトコルと設定についても詳しくなければなりません。 Adobe Campaign と SMPP プロバイダーの間の接続設定については、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)で確認します。
 
 配信の作成方法のグローバル情報については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages)を参照してください。
 
