@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e068642c1bc5bf5f0329fc09f7ca6ddbd1683d6a
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1546'
 ht-degree: 77%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 77%
 
 :speech_balloon:管理対象Cloud Servicesのユーザーとして、[Adobe](../start/support.md#support)に連絡して、キャンペーントランザクションメッセージを環境にインストールして設定します。
 
-トランザクションメッセージは、次の目的で使用します。
+トランザクションメッセージは、次の送信に使用されます。
 
 * 通知（注文の確認やパスワードのリセットなど）
-* 顧客の行動に対する個々のリアルタイム対応を送る
+* 顧客行動に対する個々のリアルタイム対応
 * 宣伝以外の内容
 
 :bulb:トランザクションメッセージングの設定については、[このセクション](../config/transactional-msg-settings.md)で詳しく説明します。
@@ -116,7 +116,7 @@ ht-degree: 77%
 
    ![](assets/messagecenter_create_seed_4.png)
 
-1. テストデータを挿入します。 詳しくは、[この節](#personalization-data)を参照してください。
+1. テストデータを挿入します。 [こちらの節](#personalization-data)を参照してください。
 
    ![](assets/messagecenter_create_custo_3.png)
 
