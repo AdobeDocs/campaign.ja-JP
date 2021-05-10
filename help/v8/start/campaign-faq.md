@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: 0f9827319484a84e762cf651fed18d704d4af66e
+source-git-commit: f413844de6b71b6a7d5b681af9ceb47a1f5ecaae
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 46%
@@ -25,7 +25,7 @@ ht-degree: 46%
 
    この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対する体験を向上させ、最新かつ最大限の情報を手に入れることを目的としています。これが、最新バージョンの Adobe Campaign を実行することが非常に重要であると考える理由です。
 
-   環境をアップグレードするには、カスタマーケアチームにお問い合わせください。
+   環境をアップグレードするには、Adobeカスタマーケアチームにお問い合わせください。
 
 1. キャンペーンv8に接続する方法
 
