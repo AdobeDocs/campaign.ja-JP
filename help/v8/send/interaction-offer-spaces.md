@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 45%
+source-wordcount: '651'
+ht-degree: 42%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 45%
 オファーカタログのコンテンツはオファースペースで設定します。 デフォルトでは、コンテンツに含めることができるフィールドは、**[!UICONTROL タイトル]**、**[!UICONTROL 宛先 URL]**、**[!UICONTROL 画像 URL]**、**[!UICONTROL HTML コンテンツ]**&#x200B;および&#x200B;**[!UICONTROL テキストコンテンツ]**&#x200B;です。フィールドの順序は、オファースペースで設定します。
 
 **技術管理者**&#x200B;として、Design環境でオファースペースを作成できます。 オファースペースのサブフォルダにアクセスできる必要があります。 作成したオファースペースは、オファーの承認時に自動的にライブ環境に複製されます。
-
-詳細設定パラメーターでは、コンタクト先の識別キーを指定できます（識別キーは、名前や E メールフィールドなど、様々な要素を同時に使用して作成できます）。詳しくは、[識別されたオファーの提示](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer)の節を参照してください。
 
 HTMLレンダリングはレンダリング関数を介して作成されます。 レンダリング関数で定義するフィールドの順序は、コンテンツに設定した順序と同じである必要があります。
 
@@ -66,8 +64,6 @@ HTMLレンダリングはレンダリング関数を介して作成されます�
 1. レンダリング関数を挿入します。
 
    ![](assets/offer_space_create_007.png)
-
-必要に応じて、HTMLおよびテキストレンダリング関数をオーバーロードできます。 [詳細情報](../../interaction/using/about-inbound-channels.md)。
 
 ## オファーの提案ステータス {#offer-proposition-statuses}
 
@@ -161,5 +157,5 @@ As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL 
 ![](assets/offer_space_overview_001.png)
 
 <!--
-The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).
+The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to Extension example.
 -->
