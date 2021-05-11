@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 translation-type: tm+mt
-source-git-commit: e94080bc5e56e642494de48ff4b739b806c6e2e7
+source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 33%
+source-wordcount: '307'
+ht-degree: 31%
 
 ---
 
@@ -50,37 +50,16 @@ ht-degree: 33%
    * HDInsight 3.4 (HDP 2.4)、3.5 (HDP 2.5)、3.6 (HDP 2.6)
    * Cloudera CDH6.x
 
-### クライアントコンソールのオペレーティングシステム{#ClientConsoleoperatingsystems}
+### クライアントコンソール{#ClientConsoleoperatingsystems}
+
+:warning:キャンペーンクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
+
+**オペレーティングシステム**
 
 * **Microsoft Windows Server**  2016、2012
 * **Microsoft Windows**  8、10（日本語インスタンスの場合に推奨）
 
-## クライアントコンソール {#ClientConsoleoperatingsystems}
-
-:warning:キャンペーンクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
-
-### オペレーティングシステム
-
-<table>
-<tbody>
-<tr>
-<td>Microsoft Windows Server</td>
-<td>
-<p>2016</p>
-<p>2012</p>
-</td>
-</tr>
-<tr>
-<td>Microsoft Windows</td>
-<td>
-<p>8</p>
-<p>10（日本語インスタンスの場合に推奨）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### ブラウザー
+**ブラウザー**
 
 <table>
 <tbody>
@@ -100,7 +79,7 @@ ht-degree: 33%
 * **Android**  7.x、8.x、9.0 （モバイルSDK搭載）ビルド1.0.27
 * **Apple iOS** 9 - 14 with mobile SDKビルド1.0.26（32ビットおよび64ビットバージョンと互換）。
 
-## サポートされるブラウザ{#Browsers}
+### サポートされるブラウザ{#Browsers}
 
 次のブラウザーは、Web Accessのキャンペーンーと互換性があります。
 
