@@ -8,10 +8,10 @@ breadcrumb-title: キャンペーンv8
 title: キャンペーンv8ドキュメント
 hide: true
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 43%
+source-wordcount: '194'
+ht-degree: 41%
 
 ---
 
@@ -51,6 +51,16 @@ ht-degree: 43%
    + [プッシュ通知](send/push.md)
    + [ダイレクトメール](send/direct-mail.md)
    + [トランザクションメッセージ](send/transactional.md)
+   + オファーを追加{#interaction}
+      + [インタラクションを使い始める](send/interaction.md)
+      + 設定を定義{#interaction}
+         + [オペレーターの作成](send/interaction-operators.md)
+         + [環境の作成](send/interaction-env.md)
+         + [定義済みのフィルターの作成](send/interaction-predefined-filters.md)
+      + [オファーカタログの作成](send/interaction-offer-catalog.md)
+      + [オファーの作成](send/interaction-offer.md)
+      + [オファーの送信](send/interaction-send-offers.md)
+      + [使用例](send/interaction-use-cases.md)
 + 設定 {#config}
    + [自動化](config/workflows.md)
    + [データの管理](config/replication.md)
