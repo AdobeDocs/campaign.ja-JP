@@ -8,10 +8,10 @@ breadcrumb-title: キャンペーンv8
 title: キャンペーンv8ドキュメント
 hide: true
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 41%
+source-wordcount: '197'
+ht-degree: 42%
 
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 41%
          + [オペレーターの作成](send/interaction-operators.md)
          + [環境の作成](send/interaction-env.md)
          + [定義済みのフィルターの作成](send/interaction-predefined-filters.md)
+         + [オファースペースの作成](send/interaction-offer-spaces.md)
       + [オファーカタログの作成](send/interaction-offer-catalog.md)
       + [オファーの作成](send/interaction-offer.md)
       + [オファーの送信](send/interaction-send-offers.md)
