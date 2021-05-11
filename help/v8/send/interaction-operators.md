@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 113f4b3e91c40438c4809bdb97976b58935a2f18
+source-git-commit: 4bc62dcf806abd71e8230ce209d9151a4188b62e
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '412'
 ht-degree: 40%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 40%
 
 1. 新しいオペレーターを作成します。
 
-キャンペーンで演算子を作成する手順については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください
+   :arrow_upper_right:キャンペーンで演算子を作成する手順については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください
 
 1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
 
@@ -48,7 +48,9 @@ ht-degree: 40%
 
 ## 配信マネージャの演算子{#delivery-manager}を作成します
 
-1. 新しいオペレーターを作成します。キャンペーンで演算子を作成する手順については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください
+1. 新しいオペレーターを作成します。
+
+   :arrow_upper_right:キャンペーンで演算子を作成する手順については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください
 
 1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信責任者]**」グループを選択します。
 
