@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 translation-type: tm+mt
-source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
+source-git-commit: 3419ede105f652f0a33362468a7d119687c078de
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 31%
 
 ---
@@ -61,18 +61,7 @@ ht-degree: 31%
 
 **ブラウザー**
 
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Internet Explorer</p>
-</td>
-<td>
-<p>11</p>
-</td>
-</tr>
-</tbody>
-</table>
+Microsoft Internet Explorer 11
 
 ### モバイル SDK{#MobileSDK}
 
