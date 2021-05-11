@@ -8,9 +8,9 @@ breadcrumb-title: キャンペーンv8
 title: キャンペーンv8ドキュメント
 hide: true
 translation-type: tm+mt
-source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
+source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 42%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 42%
    + [電子メール](send/email.md)
    + [SMS](send/sms.md)
    + [プッシュ通知](send/push.md)
+   + [LINEメッセージ](send/line.md)
    + [ダイレクトメール](send/direct-mail.md)
    + [トランザクションメッセージ](send/transactional.md)
    + オファーを追加{#interaction}
