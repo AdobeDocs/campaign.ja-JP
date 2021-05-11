@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 37%
@@ -67,7 +67,7 @@ ht-degree: 37%
 
 1. ユーザープロファイルを作成します。 [詳細情報](interaction-operators.md)。
 1. （オプション）各ターゲティングディメンションに対してオファー環境を作成します。 [詳細情報](interaction-env.md)
-1. 各環境のタイポロジルールを作成します。 [詳細情報](interaction-offers.md#offer-presentation)。
+1. 各環境のタイポロジルールを作成します。 [詳細情報](interaction-offer.md#offer-presentation)。
 1. 各環境のオファースペースを作成し、レンダリング関数を設定します。 [詳細情報](interaction-offer-spaces.md).
 スペースが識別モードで単一のチャネルによって定義される場合は、このスペースの詳細設定パラメーターを指定する必要があります。
 
