@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 67%
@@ -188,9 +188,9 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 :arrow_upper_right:詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)を参照してください
 
-## オファープレゼンテーションの管理
+## オファープレゼンテーションの管理{#offer-presentation}
 
-キャンペーンを使用すると、プレゼンテーションルールを使用してオファーの提案の流れを制御できます。 キャンペーンの操作に固有のこれらのルールは、タイポロジルールです。 タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。ルールは環境内で参照されます。.
+キャンペーンを使用すると、プレゼンテーションルールを使用してオファーの提案の流れを制御できます。 キャンペーンの操作に固有のこれらのルールは、**タイポロジルール**&#x200B;です。 タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。ルールは環境内で参照されます。.
 
 :arrow_upper_right:詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)を参照してください
 
