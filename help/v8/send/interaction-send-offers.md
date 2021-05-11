@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1357'
 ht-degree: 75%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 75%
 
 次の方法でこの情報を保存することができます。
 
-1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。[詳細情報](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine)。
+1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。[詳細情報](#specifying-an-offer-or-a-call-to-the-offer-engine)。
 1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -203,8 +203,7 @@ ht-degree: 75%
 
       ![](assets/int_offer_per_cell1.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。詳しくは、[配信へのオファー提案の挿入](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery)の節を参照してください。
-
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。
 
 <!--
 
