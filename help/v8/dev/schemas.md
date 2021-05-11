@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: キャンペーンスキーマの操作
 description: スキーマを使い始める
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1249'
 ht-degree: 7%
 
 ---
