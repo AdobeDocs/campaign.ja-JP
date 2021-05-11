@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 42%
@@ -58,7 +58,7 @@ HTMLレンダリングはレンダリング関数を介して作成されます�
 
    **注意** - XML形式は、一時的に使用できない受信インタラクションに制限されます。[詳細情報](../start/capability-matrix.md#gs-unavailable-features)
 
-   ![](assets/offer_spacecreate_006.png)_
+   ![](assets/offer_space_create_006.png)_
 
 1. 「**[!UICONTROL HTML レンダリング]**」タブに移動して、「**[!UICONTROL HTML レンダリング関数をオーバーロード]**」を選択します。
 1. レンダリング関数を挿入します。
