@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: 985cc0d9698e3046fccfe85fbce1c1a88d6d2f19
+source-git-commit: 9bc94c213d65b828444888f553722e42fc029165
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '707'
 ht-degree: 40%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign では、受信者は配信（E メール、SMS など）の送�
 
 :arrow_forward:[ビデオ](https://video.tv.adobe.com/v/35611?quality=12)のプロファイルを理解する
 
-:arrow_upper_right:[このガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html)でプロファイルの管理方法を説明します。
+:arrow_upper_right:[このガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html/?target=_blank)でプロファイルの管理方法を説明します。
 
 ## プライバシーと同意
 
