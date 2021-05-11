@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 1ac6b58e1d5731d4df4d6d7c6a9b25f0f41ff563
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 13%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 13%
 
 キャンペーンクライアントコンソールは、キャンペーンアプリケーションサーバーに接続できるリッチクライアントです。
 
->[!CAUTION]
->
->起動する前に、キャンペーン[互換表](compatibility-matrix.md)を確認し、キャンペーンサーバーのURLとユーザーの資格情報を取得する必要があります。
+開始する前に、次の操作を行う必要があります。
+
+* [互換表](compatibility-matrix.md)のAdobe Campaignとの互換性を確認してください
+* キャンペーンサーバーのURLを取得する
+* ユーザー資格情報の取得
 
 ## クライアントコンソールのダウンロードとインストール
 
@@ -93,7 +95,6 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 ユーザーの詳細と、ユーザーの権限の定義方法については、[このセクション](permissions.md)を参照してください。
 
 キャンペーン管理者は、オペレーターを作成し、ユーザーと資格情報を共有する必要があります。
-
 
 ## Adobe IDとキャンペーンに接続{#connect-ims}
 
