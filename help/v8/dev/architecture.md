@@ -7,10 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 6%
 
 ---
@@ -23,15 +22,15 @@ ht-degree: 6%
 
 キャンペーンCloud Serviceでは、次の3種類の環境を使用できます。
 
-* 実稼働環境:ビジネス・プラクティショナー用のアプリケーションをホストします。
+* **実稼働環境**:ビジネス・プラクティショナー用のアプリケーションをホストします。
 
-* ステージ環境:アプリケーションに対する変更を実稼働環境にプッシュする前の、様々なパフォーマンスと品質のテストに使用します。
+* **ステージ環境**:アプリケーションに対する変更を実稼働環境にプッシュする前の、様々なパフォーマンスと品質のテストに使用します。
 
-* 開発環境:開発者は、ステージおよび実稼働環境と同じ実行時条件でキャンペーンを実装できます。
+* **開発環境**:開発者は、ステージおよび実稼働環境と同じ実行時条件でキャンペーンを実装できます。
 
 環境間でパッケージを書き出したり読み込んだりすることができます。
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=en#about-data-packages)のパッケージの詳細
+:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)のパッケージの詳細
 
 ## ミッドソーシングへのデプロイメント{#mid-sourcing-deployment}
 
