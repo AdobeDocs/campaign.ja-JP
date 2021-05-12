@@ -4,10 +4,9 @@ product: Adobe Campaign
 title: 一般的なアーキテクチャ
 description: キャンペーンv8一般アーキテクチャ
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -123,3 +122,10 @@ Adobe Campaignクラウドデータベースは、[!DNL Snowflake]に依存し�
 お客様は、定義済みのデータマートとスキーマを使用してAdobe Campaignをデプロイでき、さらに拡張することもできます。 データマート内のすべてのデータは、SQL呼び出しを介してAdobe Campaignからアクセスされます。 また、Adobe Campaignは、システムとの間でのデータのインポートおよびエクスポートを実行するための、Extract Transform and Load(ETL)ツールの完全な補完も提供します。
 
 ![](assets/data-flow-diagram.png)
+
+
+>[!CAUTION]
+>
+>**キャンペーン管理Cloud Services**&#x200B;を使用すると、環境と初期設定は、使用許諾契約の条件に従ってAdobeが設定します。 インストールされている組み込みのパッケージ、組み込みのスキーマ、またはレポートを変更することはできません。
+>
+>キャンペーンのアドオンまたはプロビジョニングされていない特定の機能を使用する必要がある場合は、**Adobeカスタマーケア**&#x200B;にお問い合わせください。
