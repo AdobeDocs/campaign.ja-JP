@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
+source-git-commit: 3870395ec74dd51ed42944981a3851d1052ee255
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ Adobe Campaignv8は、インフラストラクチャ、セキュリティ、配�
 
 * **Adobe Experience Platformとのつながり**。Adobe Campaignv8は、Adobe Experience Platform/RT-CDPとのData Connectors、統合カスタマープロファイル、Journey Orchestrationとのネイティブ統合をサポートしています。 これらの投資により、Adobe Campaignの顧客体験が最適化され、個別のリアルタイム顧客ジャーニーをキャンペーンに追加できるなどの新しい使用例が明らかになります。
 
-* **管理対象Cloud Services**。Adobe Campaignv8は、クラス最高の管理対象Cloud Servicesとして&#x200B;**唯一**&#x200B;提供され、プロアクティブな監視、タイムリーな警告、サービス・ガバナンスを提供します。 マーケティング担当者にとっての価値は、チャネル間のキャンペーン管理の機敏性と拡張性に優れています。
+* **管理対象Cloud Services**。Adobe Campaignv8は、クラス最高の管理Cloud Servicesとして利用でき、プロアクティブな監視、タイムリーな警告、サービス・ガバナンスを提供します。 マーケティング担当者にとっての価値は、チャネル間のキャンペーン管理の機敏性と拡張性に優れています。
 
 >[!CAUTION]
 >
->現時点では、キャンペーンv8は管理対象Cloud Serviceとしてのみ使用できます。 キャンペーンv8は、オンプレミスデプロイメントまたはハイブリッドデプロイメントに実装できません。 Campaign Classicv7環境からの移行はまだ利用できません。
+>現時点では、キャンペーンv8は管理対象Cloud Serviceとして使用できる&#x200B;**唯一**&#x200B;であり、オンプレミスまたはハイブリッド環境には展開できません。
+>
+>既存のCampaign Classicv7環境からの移行はまだ利用できません。
 
 
 ## サイズ
