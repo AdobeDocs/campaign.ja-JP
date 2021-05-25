@@ -1,65 +1,64 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: インスタンスのカスタマイズ
-description: インスタンスをカスタマイズする方法を学びます
+description: インスタンスのカスタマイズ方法の詳細
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-translation-type: tm+mt
-source-git-commit: ddf60fb823cb0df99bdf3bc99f17d7a1abe6a33b
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '569'
 ht-degree: 14%
 
 ---
 
 # インスタンスのカスタマイズ{#gs-ac-custom}
 
-**キャンペーンインスタンスをカスタマイズする方法**
+**Campaignインスタンスのカスタマイズ**&#x200B;方法を説明します。
 
 >[!CAUTION]
 >
->Adobe Campaignのカスタマイズは、エキスパートユーザーのみが予約しています。
+>Adobe Campaignのカスタマイズは、エキスパートユーザーのみが利用できます。
 
 ## 新しいデータフィールドとスキーマの作成
 
-Adobe Campaignはデータスキーマを利用して次のことを行います。
+Adobe Campaignは、データスキーマを使用して次のことをおこないます。
 
-* アプリケーション内のデータ・オブジェクトと基礎となるデータベース表との関連付け方法の定義
-* キャンペーンアプリケーション内の様々なデータオブジェクト間のリンクの定義
+* アプリケーション内のデータ・オブジェクトが基盤となるデータベース・テーブルにどのように結び付けられるかの定義
+* Campaignアプリケーション内での様々なデータオブジェクト間のリンクの定義
 * 各オブジェクトに含まれる個々のフィールドの定義と説明
 
-例えば、受信者テーブル(nms:受信者)など、既存のテーブルにフィールドを追加するには、そのスキーマを拡張する必要があります。
+例えば、受信者テーブル(nms:recipient)などの既存のテーブルにフィールドを追加するには、そのスキーマを拡張する必要があります。
 
 次の2つのテーブル拡張モードを使用できます。
 
-* インターフェースを通じて、**新しいフィールド**&#x200B;アシスタントを使用します。
+* インターフェイスを介して、**新しいフィールド**&#x200B;アシスタントを使用します。
 
-   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)で、キャンペーンに新しいフィールドをすばやく追加する方法を説明します。
+   :arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)でCampaignに新しいフィールドをすばやく追加する方法を説明します
 
-* スキーマを拡張することにより、プログラムによって
+* プログラムによる、スキーマの拡張
 
-   :bulb:[このセクション](../dev/extend-schema.md)で、既存のスキーマを拡張する方法を説明します。
+   :bulb:[この節](../dev/extend-schema.md)で既存のスキーマを拡張する方法を説明します。
 
 
-また、キャンペーンデータベース内に新しいテーブルを作成し、組み込みデータモデルを拡張することもできます。
+また、Campaignデータベースに新しいテーブルを作成し、組み込みデータモデルを拡張することもできます。
 
-Adobe Campaignにあらかじめ用意されているタイプのデータをまったく新しく追加するには（例えば契約表）、カスタムスキーマを直接作成します。 詳しくは、[この例](../dev/create-schema.md#example--creating-a-contract-table)を参照してください。
+既製で存在しないまったく新しいタイプのデータをAdobe Campaignに追加する（例えば契約のテーブル）には、カスタムスキーマを直接作成できます。 詳しくは、[この例](../dev/create-schema.md#example--creating-a-contract-table)を参照してください。
 
 **関連トピック**
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)のスキーマ版の例
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)のスキーマエディションの例
 
-:arrow_upper_right:使用例：[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)の既存の参照テーブルにフィールドをリンクする
+:arrow_upper_right:使用例：[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)の既存の参照テーブルにフィールドをリンクする
 
 
 ## 入力フォームの変更
 
-キャンペーン入力フォームは、実装に合わせて調整できます。 XMLコンテンツを変更して、フォームフィールドを追加または削除できます。
+Campaignの入力フォームは、実装に合わせて調整できます。 XMLコンテンツを変更して、フォームフィールドを追加または削除できます。
 
-:bulb:既存の入力フォームを変更する方法、または新しいフォームを作成する方法については、[このセクション](../dev/forms.md)を参照してください。
+:bulb:既存の入力フォームを変更する方法、または[新しいフォームを作成する方法については、この節](../dev/forms.md)を参照してください。
 
 ## ダッシュボードのカスタマイズ{#gs-custom-dashboards}
 
@@ -67,25 +66,25 @@ Adobe Campaign インターフェイスは、受信者、配信、キャンペ�
 
 標準の Web アプリケーションは、管理／設定／Web アプリケーションノードに格納されています。
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)のキャンペーンで概要ページを作成する方法を説明します。
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)のCampaignで概要ページを作成する方法を説明します
 
 
 ## リストのカスタマイズとフィルターの作成{#gs-lists-and-filters}
 
-### ダッシュボードのデータへのアクセス
+### ダッシュボードからのデータへのアクセス
 
-キャンペーンリストには、ナビゲーションやデータの視覚化を容易にする定義済みフィルターが付属しています。
+キャンペーンリストには、ナビゲーションやデータの視覚化を容易にする定義済みフィルターが含まれています。
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)のフィルターオプションの詳細
-
-
-### エクスプローラからデータにアクセスする
-
-Adobe Campaignエクスプローラのツリー内を移動すると、データベースに含まれるデータがリストに表示されます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えを行うことができます。
-
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)にリストを設定し、リストの設定を保存する方法を説明します。
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)のフィルタリングオプションについての詳細
 
 
-これらのリストにフィルターを適用すると、演算子で必要なデータのみを表示できます。 その後、フィルタリングされたデータに対してアクションを実行できます。 フィルター設定を使用すると、リストから動的にデータを選択できます。データが変更されると、フィルターされたデータは更新されます。
+### エクスプローラーからのデータへのアクセス
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)でデータをフィルタリングする方法を学ぶ
+Adobe Campaign Explorerツリー内を移動すると、データベースに含まれているデータがリストに表示されます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えを行うことができます。
+
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)でリストを設定し、リスト設定を保存する方法を説明します。
+
+
+これらのリストにフィルターを適用して、オペレーターが必要とするデータのみを表示できます。 その後、フィルターされたデータに対してアクションを実行できます。 フィルター設定を使用すると、リストから動的にデータを選択できます。データが変更されると、フィルターされたデータは更新されます。
+
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)のデータをフィルターする方法を説明します
