@@ -1,29 +1,28 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンのWebアプリケーションとWebフォーム
+title: Campaign WebアプリケーションとWebフォーム
 description: WebアプリケーションとWebフォームの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 31%
 
 ---
 
-# WebアプリケーションとWebフォームの概要{#gs-ac-web}
+# WebアプリケーションおよびWebフォームの概要{#gs-ac-web}
 
-Adobe Campaignは、**Web フォーム**&#x200B;の定義と公開用のグラフィカルモジュールを統合して、入力フィールドと選択フィールドを含むページを作成し、データベースにデータを含めることができます。 これにより、ユーザーがアクセスして情報を表示または入力できる Web ページをデザインおよび投稿できます。
+Adobe Campaignには、**Webフォーム**&#x200B;を定義して公開するためのグラフィカルなモジュールが統合されており、入力および選択フィールドを含むページを作成し、データベース内のデータを含めることができます。 これにより、ユーザーがアクセスして情報を表示または入力できる Web ページをデザインおよび投稿できます。
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=en#designing-content)でWebフォームを作成し発行する方法を学びます
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=en#designing-content)でWebフォームを作成して発行する方法を説明します。
 
 ![](assets/sample.png)
 
-また、Adobe Campaignを使用すると、接続されたユーザーの権限に合わせた、データベースやコンテンツのデータを使用して、動的でインタラクティブな&#x200B;**Web アプリケーション**&#x200B;を作成し、公開できます。
+Adobe Campaignでは、データベースのデータと、接続したユーザーの権限に応じたコンテンツを使用して、動的でインタラクティブな&#x200B;**Webアプリケーション**&#x200B;を作成し、公開することもできます。
 
 エクストラネット上の編集フォームのほか、データベースからのデータを含み、テーブル、グラフ、入力フォームなどを備えた通知フォームなど、ページの作成が可能です。この機能を使用すると、ユーザーが情報を調べたり入力したりできる Web ページをデザインおよび投稿できます。
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=en#designing-content)でWebアプリケーションの作成および公開方法を学ぶ
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=en#designing-content)でWebアプリケーションを作成して公開する方法を説明します。
