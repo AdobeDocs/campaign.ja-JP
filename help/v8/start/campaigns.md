@@ -1,23 +1,22 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: マーケティングキャンペーンの基本を学ぶ
 description: マーケティングキャンペーンの基本を学ぶ
-feature: オーディエンス
+feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-translation-type: tm+mt
-source-git-commit: b39cac492f4605b7d1d7aeb75f6af26a20bf43e6
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '754'
 ht-degree: 21%
 
 ---
 
-# マーケティングキャンペーンの使い始めに{#gs-ac-campaigns}
+# マーケティングキャンペーンの概要{#gs-ac-campaigns}
 
-Adobe Campaignオファーは、オンラインおよびオフラインのすべてのチャネルにわたってキャンペーンをパーソナライズし、提供するのに役立つ一連のソリューションです。 マーケティングキャンペーンは、作成、設定、実行および分析が可能です。 すべてのマーケティングキャンペーンを統合コントロールセンターから管理できます。この節では、マーケティングキャンペーンを参照して作成する方法を見つけます。
+Adobe Campaignは、オンラインおよびオフラインのすべてのチャネルにわたってキャンペーンをパーソナライズし、実施するのに役立つソリューションセットを提供します。 マーケティングキャンペーンは、作成、設定、実行および分析できます。 すべてのマーケティングキャンペーンを統合コントロールセンターから管理できます。マーケティングキャンペーンの参照方法と作成方法については、この節を参照してください。
 
 キャンペーンには、アクション（配信）とプロセス（ファイルのインポートまたは抽出）だけでなく、マーケティングドキュメントや配信の概要といったリソースも含まれます。これらはマーケティングキャンペーンで使用されます。キャンペーンはプログラムの一部で、プログラムは 1 つのキャンペーンプランに含まれます。
 
@@ -29,26 +28,26 @@ Adobe Campaign では、ターゲティングおよびパーソナライズさ�
 
 マーケティングキャンペーンの実装を開始する前に、次の概念を理解しておく必要があります。
 
-* **マーケティングキャンペーン**:キャンペーンは、マーケティングキャンペーンに関連するすべての要素を集中化します。配信、ターゲットルール、コスト、エクスポートファイル、関連ドキュメントなど各キャンペーンはプログラムに接続されます。
+* **マーケティングキャンペーン**:キャンペーンは、マーケティングキャンペーンに関連するすべての要素を一元管理します。配信、ターゲットルール、コスト、エクスポートファイル、関連ドキュメントなど各キャンペーンは、プログラムに添付されます。
 
-* **プログラム**:プログラムを使用すると、カレンダー期間のマーケティングアクションを定義できます。打ち上げ、キャンバス、忠誠度など各プログラムには、カレンダーにリンクされたキャンペーンが含まれており、このカレンダーは全体的な表示を提供します。
+* **プログラム**:プログラムを使用して、カレンダー期間のマーケティングアクションを定義できます。ローンチ、キャンバス、忠誠度など。各プログラムには、カレンダーにリンクされたキャンペーンが含まれ、全体像が表示されます。
 
 * **プラン**:マーケティングプランには複数のプログラムを含めることができます。マーケティングプランは 1 つのカレンダー期間にリンクされ、予算が割り当てられています。また、ドキュメントや目標にリンクすることもできます。
 
-* **キャンペーンワークフロー**:キャンペーンワークフローには、キャンペーンロジックを作成するアクティビティが含まれています。キャンペーンワークフローを使用して、オーディエンスを定義し、使用可能なすべてのチャネルの配信を作成します。
+* **キャンペーンワークフロー**:キャンペーンワークフローには、キャンペーンロジックを作成するアクティビティが含まれます。キャンペーンワークフローを使用して、オーディエンスを定義し、使用可能なすべてのチャネル用の配信を作成します。
 
-* **定期キャンペーン**:反復キャンペーンは、実行するワークフローテンプレートと実行スケジュールを定義する特定のテンプレートから作成される。
+* **繰り返しキャンペーン**:繰り返しキャンペーンは、実行するワークフローテンプレートと実行スケジュールを定義する特定のテンプレートから作成します。
 
-* **定期的なキャンペーン**:定期的なキャンペーンとは、テンプレートの実行スケジュールに従って自動的に作成されるキャンペーンです。
+* **定期的なキャンペーン**:定期的なキャンペーンは、キャンペーンのテンプレートの実行スケジュールに従って自動的に作成されるキャンペーンです。
 
-## マーケティングキャンペーンワークスペース
+## Marketing campaignワークスペース
 
-Adobe Campaignを使用すると、統合コントロールセンターからすべてのマーケティングキャンペーンを作成、構成、実行、分析できます。
+Adobe Campaignでは、統合コントロールセンターから、すべてのマーケティングキャンペーンを作成、設定、実行および分析できます。
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)で、マーケティングキャンペーンにアクセスして導入する方法を発見します。
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)でマーケティングキャンペーンにアクセスして実装する方法を確認します。
 
 
-## 開始の主な手順
+## 開始するための主な手順
 
 クロスチャネルマーケティングキャンペーンを作成する主な手順は次のとおりです。
 
@@ -56,33 +55,33 @@ Adobe Campaignを使用すると、統合コントロールセンターからす
 
    階層とスケジュールの定義、予算の設定、リソースの追加、演算子の選択を行います。
 
-   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)でマーケティングプランの作成とキャンペーンの設定の方法を説明します。
+   :arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)でマーケティングプランを作成し、キャンペーンを設定する方法を説明します
 
-   すべてのマーケティングキャンペーンはテンプレートに基づいており、テンプレートには主な設定と機能が保存されています。 特定の設定が定義されていないキャンペーンを作成するために、組み込みのテンプレートが用意されています。 キャンペーンテンプレートを作成および設定して、そのテンプレートからキャンペーンを作成することができます。
+   すべてのマーケティングキャンペーンは、メイン設定と機能を保存するテンプレートに基づいています。 特定の設定が定義されていないキャンペーンを作成するために、組み込みのテンプレートが用意されています。 キャンペーンテンプレートを作成および設定して、そのテンプレートからキャンペーンを作成することができます。
 
-   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)のキャンペーンテンプレートの使い方を学ぶ
+   :arrow_upper_right:キャンペーンテンプレートの使用方法については、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)を参照してください。
 
-   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)で定期的なキャンペーンを検出し、その設定方法を確認します。
+   :arrow_upper_right:繰り返しキャンペーンの発見と[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)での設定方法
 
 1. **オーディエンスの定義**
 
-   ワークフロー内にオーディエンスを構築したり、受信者リスト、ニュースレターの購読者、以前の配信の受信者、任意のフィルタリング条件などの既存のグループを選択したりできます。
+   ワークフローでオーディエンスを構築したり、既存のグループ（受信者リスト、ニュースレターの購読者、前回の配信の受信者、フィルター条件など）を選択したりできます。
 
-   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)でメッセージのオーディエンスを定義する方法を説明します。
+   :arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)でメッセージのオーディエンスを定義する方法を説明します
 
 1. **配信の作成**
 
-   「チャネル」を選択し、メッセージの内容と開始配信を定義します。
+   チャネルを選択し、メッセージコンテンツを定義して、配信を開始します。
 
-   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)でマーケティングキャンペーン配信の作成および開始方法を説明します。
+   :arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)でマーケティングキャンペーン配信を作成し、開始する方法を説明します
 
-   キャンペーンには、次の様々なドキュメントを関連付けることができます。レポート、写真、Webページ、図など
+   様々なドキュメントをキャンペーンに関連付けることができます。レポート、写真、Webページ、図など。
 
-   :arrow_upper_right:関連するドキュメントについて詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)を参照してください
+   :arrow_upper_right:関連ドキュメントの詳細については、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)を参照してください。
 
 1. **承認プロセスの設定**
 
-   Adobe Campaignを使用すると、マーケティングキャンペーンのメインステージに対する共同承認プロセスを設定できます。 キャンペーンごとに、配信のターゲット、コンテンツおよびコストを承認できます。 承認担当のAdobe Campaignオペレーターは、電子メールで通知し、コンソールまたはWeb接続を介して承認を受け取ったり拒否したりできます。
+   Adobe Campaignでは、マーケティングキャンペーンのメインステージの協調承認プロセスを設定できます。 キャンペーンごとに、配信ターゲット、コンテンツおよびコストを承認できます。 承認を担当するAdobe Campaignオペレーターは、Eメールで通知を受け、コンソールから、またはWeb接続を介して、承認を許可または却下できます。
 
-   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)で承認の設定と管理の方法を説明します。
+   :arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)で承認を設定および管理する方法を説明します
 
