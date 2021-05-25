@@ -1,52 +1,74 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: テクニカルワークフローとデータ・レプリケーション
-description: テクニカルワークフローとデータ・レプリケーション
+title: テクニカルワークフローとデータレプリケーション
+description: テクニカルワークフローとデータレプリケーション
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 4%
+source-wordcount: '389'
+ht-degree: 6%
 
 ---
 
-# テクニカルワークフローとデータ・レプリケーション
+# テクニカルワークフローとデータレプリケーション
 
-## テクニカルワークフロー
+## テクニカルワークフロー{#tech-wf}
 
-Adobe Campaignには組み込みテクニカルワークフローが付属しています。 テクニカルワークフローは、サーバーに基づいて定期的にスケジュールされたプロセスまたはジョブを実行します。
+Adobe Campaignには、組み込みのテクニカルワークフローが用意されています。 テクニカルワークフローは、サーバー上で定期的にスケジュールされた、プロセスまたはジョブを実行します。
 
-これらのワークフローは、データベースに対する保守操作を実行し、配信ログの追跡情報を利用し、定期的なキャンペーンを作成します。
+これらのワークフローは、データベースのメンテナンス操作を実行し、配信ログのトラッキング情報を活用し、繰り返しキャンペーンを作成します。
 
-:arrow_upper_right:テクニカルワークフローの完全なリストについては、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=en#overview)で詳しく説明しています
+:arrow_upper_right:テクニカルワークフローの完全なリストについては、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)で詳しく説明しています。
 
-これらのテクニカルワークフローに加えて、キャンペーンv8は[データ複製](#data-replication)を管理するために、特定のテクニカルワークフローに依存しています。
 
-* **[!UICONTROL 参照]**
-テーブルの複製このワークフローは、キャンペーンのローカルデータベース(Postgres)とクラウドデータベース([!DNL Snowflake])に存在する必要がある組み込みテーブルの自動レプリケーションを実行します。1時間ごとに1日1回実行するようにスケジュールされます。 **lastModified**&#x200B;フィールドが存在する場合、レプリケーションは増分的に行われます。そうでない場合は、テーブル全体がレプリケートされます。 次のアレイ内のテーブルの順序は、レプリケーション・ワークフローで使用される順序です。
-* **[!UICONTROL ステージング]**
-データの複製このワークフローは、一元呼び出し用にステージングデータを複製します。1時間ごとに1日1回実行するようにスケジュールされます。
+Campaign v8では、これらのテクニカルワークフローに加えて、[データレプリケーション](#data-replication)を管理するための固有のテクニカルワークフローを利用します。
+
+* **[!UICONTROL 参照テーブ]**
+ルのレプリケートこのワークフローは、Campaignローカルデータベース(Postgres)およびCloudデータベース([!DNL Snowflake])に存在する必要がある組み込みテーブルの自動レプリケーションを実行します。毎時、毎日実行されるようにスケジュールされます。 **lastModified**&#x200B;フィールドが存在する場合、レプリケーションは増分的に行われます。それ以外の場合は、テーブル全体がレプリケートされます。 以下の配列内のテーブルの順序は、レプリケーションワークフローで使用される順序です。
+* **[!UICONTROL ステージングデータのレ]**
+プリケートこのワークフローは、単一の呼び出し用にステージングデータをレプリケートします。毎時、毎日実行されるようにスケジュールされます。
 * **[!UICONTROL 直ちに FFDA をデプロイ]**\
-   このワークフローは、Cloudデータベースへの即時のデプロイメントを実行します。
-* **[!UICONTROL FFDAデータを]**
-すぐに複製このワークフローは、特定の外部アカウントのXSデータを複製します。
+   このワークフローは、Cloudデータベースへの即時デプロイメントを実行します。
+* **[!UICONTROL FFDAデータを直ち]**
+にレプリケートこのワークフローは、特定の外部アカウントのXSデータをレプリケートします。
 
-これらのテクニカルワークフローは、キャンペーンエクスプローラーの&#x200B;**[!UICONTROL 管理/本番環境/テクニカルワークフロー/完全なFFDAレプリケーション]**&#x200B;ノードから利用できます。 **これらは変更できません。**
+これらのテクニカルワークフローは、Campaignエクスプローラーの&#x200B;**[!UICONTROL 管理/プロダクション/テクニカルワークフロー/完全なFFDAレプリケーション]**&#x200B;ノードから使用できます。 **これらは変更できません。**
+
+必要に応じて、データの同期を手動で開始できます。 これを実行するには、**スケジューラー**&#x200B;アクティビティを右クリックし、「**保留中のタスクを今すぐ実行**」を選択します。
 
 ## データレプリケーション{#data-replication}
 
-一部の組み込みテーブルは、上述の専用ワークフローを介してキャンペーンデータベースから[!DNL Snowflake] Cloudデータベースに複製されます。
+一部の組み込みテーブルは、前述の専用ワークフローを使用して、Campaignローカルデータベースから[!DNL Snowflake]クラウドデータベースにレプリケートされます。
 
-レプリケーション・ポリシーは、テーブルのサイズに基づいています。 一部のテーブルはリアルタイムでレプリケートされ、別のテーブルは時間単位でレプリケートされます。 一部のテーブルは、他のテーブルが置き換えられると、増分更新を持ちます。
+レプリケーションポリシーは、テーブルのサイズに基づいています。 一部のテーブルはリアルタイムでレプリケートされ、他のテーブルは時間単位でレプリケートされます。 一部のテーブルは、置き換えられる際に増分更新がおこなわれます。
+
+組み込みの&#x200B;**参照テーブルのレプリケート**&#x200B;テクニカルワークフローに加えて、ワークフローでデータレプリケーションを強制できます。
+
+次の操作をおこなうことができます。
+
+* 次のコードを含む特定の&#x200B;**JavaScriptコード**&#x200B;アクティビティを追加します。
+
+```
+nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
+```
+
+![](assets/jscode.png)
+
+
+* 次のコマンドを使用して、特定の&#x200B;**nlmodule**&#x200B;アクティビティを追加します。
+
+```
+nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
+```
+
+![](assets/nlmodule.png)
 
 **関連トピック**
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)で、ワークフローの使い始め方を学ぶ
+:arrow_upper_right:[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)でワークフローの使用を開始する方法を説明します
 
-:bulb:[このセクション](../dev/datamodel-best-practices.md#data-retention)のデータ保持期間へのアクセス
-
+:bulb:[このセクション](../dev/datamodel-best-practices.md#data-retention)のデータ保持期間にアクセスする
