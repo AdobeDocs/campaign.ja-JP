@@ -1,31 +1,30 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンとAdobe Experience Managerの使用
-description: キャンペーンとAdobe Experience Managerの使い方を学ぶ
+title: CampaignとAdobe Experience Managerの使用
+description: CampaignとAdobe Experience Managerの使用方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 556cd7727c7c2bf0158d59d71ae0131b4c1013ee
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 22%
+source-wordcount: '170'
+ht-degree: 17%
 
 ---
 
-# キャンペーンとAdobe Experience Managerの使用
+# CampaignとAdobe Experience Managerの使用
 
 Adobe Campaign と Adobe Experience Manager の間の統合では、E メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
 
-また、Adobe Campaign内の電子メールまたはランディングページを編集中に、Adobe Experience Managerアセットライブラリからアセットを直接挿入することもできます。 この機能について詳しくは、アセット章で説明しています。**追加リンク**
+また、Adobe CampaignでEメールまたはランディングページを編集中に、Adobe Experience Manager Assetsライブラリからアセットを直接挿入することもできます。 この機能について詳しくは、Adobe Experience Manager Assetsの[章](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html)で説明しています。
 
-つまり、Adobe Experience Managerのコンテンツ編集機能とAdobe Campaign配信機能の両方を最大限に活用できます。
+つまり、Adobe Experience Managerのコンテンツ編集機能とAdobe Campaignの配信機能の両方を最大限に活用できます。
 
-:arrow_upper_right:[このドキュメントで詳しく](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
+:arrow_upper_right: [詳しくは、このドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)を参照してください。
 
-:arrow_upper_right:[このエンドツーエンドのサンプル](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)で統合を発見してください
+:arrow_upper_right: [このエンドツーエンドのサンプル](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en)で、この統合を確認します。
 
-:speech_balloon:管理対象Cloud Servicesのユーザーとして、[Adobe](../start/support.md#support)に連絡し、Adobe Experience Managerをキャンペーンと統合します。
+:speech_balloon:管理対象Cloud Servicesユーザーの場合は、[Adobe](../start/campaign-faq.md#support)に連絡して、Adobe Experience ManagerをCampaignと統合します。
 
