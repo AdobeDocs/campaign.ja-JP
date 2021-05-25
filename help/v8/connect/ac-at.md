@@ -1,42 +1,41 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンとAdobe Targetの使用
-description: キャンペーンとAdobe Targetの使い方を学ぶ
+title: CampaignとAdobe Targetの使用
+description: CampaignとAdobe Targetの使用方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 57%
+source-wordcount: '1047'
+ht-degree: 54%
 
 ---
 
-# キャンペーンとAdobe Targetの使用
+# CampaignとAdobe Targetの使用
 
-キャンペーンとターゲットを接続し、Adobe TargetからのオファーをAdobe Campaignの電子メール配信に含めます。
+CampaignとTargetを接続して、Adobe TargetのオファーをAdobe CampaignのEメール配信に含めます。
 
-この統合は、次のような使用例の実装に役立ちます。受信者がAdobe Campaign経由で送信された電子メールを開くと、Adobe Targetへの呼び出しによって、コンテンツの動的なバージョンを表示できます。 この動的バージョンは、E メールを作成したときに事前に指定したルールに応じて自動生成されます。
+この統合により、次のような使用例を実装できます。Adobe Campaign経由で送信されたEメールを受信者が開くと、Adobe Targetを呼び出すことで、コンテンツの動的バージョンを表示できます。 この動的バージョンは、E メールを作成したときに事前に指定したルールに応じて自動生成されます。
 
 >[!NOTE]
->この統合が対応するのは、静的画像だけです。残りのコンテンツをパーソナライズすることはできません。
+>この統合が対応するのは、静的画像だけです。その他のタイプのコンテンツはパーソナライズできません。
 
-:speech_balloon:管理対象Cloud Servicesのユーザーとして、[Adobe](../start/support.md#support)に連絡し、Experience Cloudトリガーをキャンペーンに実装します。
+:speech_balloon:管理対象Cloud Servicesユーザーの場合は、[Adobe](../start/campaign-faq.md#support)に連絡して、CampaignでExperience Cloudトリガーを実装します。
 
-Adobe Targetでは、次の種類のデータを使用できます。
+Adobe Targetでは、次のタイプのデータを使用できます。
 
-* Adobe Campaign データマートからのデータ
-* Adobe Target で訪問者 ID にリンクされたセグメント。ただし、使用されるデータに法的制限がない場合に限ります。
+* Adobe Campaignデータベースからのデータ
+* Adobe Targetで訪問者IDにリンクされたセグメント（使用するデータが法的制限の対象でない場合のみ）
 * Adobe Target データ：ユーザーエージェント、IP アドレス、位置情報データ
 
 ## 動的コンテンツの挿入
 
-次の例では、Adobe TargetからのダイナミックオファーをAdobe Campaign電子メールに統合する方法を学習します。
+以下の例では、Adobe Targetの&#x200B;**動的なオファー**&#x200B;をAdobe CampaignのEメールに統合する方法を学びます。
 
-受信者の国に応じて動的に変化する画像を使ってメッセージを作成したいと思います。 データは、各 mbox リクエストごとに、訪問者の IP アドレスに基づいて送信されます。
+受信者の国に応じて動的に変化する画像を含むメッセージを作成したいと考えています。 データは、各 mbox リクエストごとに、訪問者の IP アドレスに基づいて送信されます。
 
 この E メールでは、画像の 1 つが次のユーザーエクスペリエンスに従って動的に変化します。
 
@@ -46,19 +45,19 @@ Adobe Targetでは、次の種類のデータを使用できます。
 
 ![](assets/target_4.png)
 
-以下の手順は、Adobe CampaignとAdobe Targetで達成する必要があります。
+次の手順は、Adobe CampaignとAdobe Targetで実行する必要があります。
 
-1. [ダイナミックオファーを電子メールに挿入する](#inserting-dynamic-offer)
+1. [ダイナミックオファーのEメールへの挿入](#inserting-dynamic-offer)
 1. [リダイレクトオファーの作成](#create-redirect-offers)
 1. [オーディエンスの作成](#audiences-target)
 1. [エクスペリエンスのターゲット設定アクティビティの作成](#creating-targeting-activity)
-1. [プレビューしてメッセージを送信する](#preview-send-email)
+1. [プレビューとメッセージの送信](#preview-send-email)
 
-### ダイナミックオファーを電子メールに挿入{#inserting-dynamic-offer}
+### ダイナミックオファーをEメールに挿入します。{#inserting-dynamic-offer}
 
-「Adobe Campaign」で、電子メールのターゲットとコンテンツを定義します。 動的な画像は、Adobe Targetから挿入できます。
+Adobe Campaignで、Eメールのターゲットとコンテンツを定義します。 Adobe Targetから動的画像を挿入できます。
 
-これを行うには、初期設定の画像のURL、場所名、Adobe Targetに転送するフィールドを指定します。
+これをおこなうには、デフォルトの画像のURL、場所名、Adobe Targetに転送するフィールドを指定します。
 
 Adobe Campaign では、2 通りの方法で Target から E メールに動的イメージを挿入できます。
 
@@ -70,12 +69,12 @@ Adobe Campaign では、2 通りの方法で Target から E メールに動的�
 
    ![](assets/target_12.png)
 
-その後、画像のパラメーターを定義できます。
+次に、画像パラメーターを定義します。
 
-* **[!UICONTROL デフォルトの画像]**&#x200B;のURLは、条件が満たされなかった場合に表示される画像です。 アセットライブラリから画像を選択することもできます。
-* **[!UICONTROL ターゲットの場所]**&#x200B;は、ダイナミックオファーの場所の名前です。 この場所は、Adobe Targetアクティビティで選択する必要があります。
-* **[!UICONTROL ランディングページ]**&#x200B;を使用すると、デフォルトのランディングページをデフォルトのイメージにリダイレクトできます。 このURLは、デフォルトの画像が最終的な電子メールに表示される場合にのみ適用されます。 これはオプションです。
-* **[!UICONTROL 追加の決定パラメーター]**&#x200B;は、Adobe Targetセグメントで定義されたフィールドとAdobe Campaignフィールドの対応付けを定義します。 使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。この例では、「国」フィールドを追加しています。
+* **[!UICONTROL デフォルトの画像]**&#x200B;のURLは、どの条件も満たされない場合に表示される画像です。 アセットライブラリから画像を選択することもできます。
+* **[!UICONTROL ターゲットの場所]**&#x200B;は、ダイナミックオファーの場所の名前です。 Adobe Targetアクティビティでこの場所を選択する必要があります。
+* **[!UICONTROL ランディングページ]**&#x200B;を使用すると、デフォルトの画像をデフォルトのランディングページにリダイレクトできます。 このURLは、デフォルト画像が最終的なEメールに表示される場合にのみ適用されます。 これはオプションです。
+* **[!UICONTROL 追加の判定パラメーター]**&#x200B;は、Adobe Targetセグメントで定義されたフィールドとAdobe Campaignフィールドの間のマッピングを定義します。 使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。この例では、「国」フィールドを追加しています。
 
 Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=en#administer)を参照してください。
 
@@ -83,7 +82,7 @@ Adobe Target の設定で Enterprise 権限を使用している場合は、対�
 
 ### リダイレクトオファーの作成{#create-redirect-offers}
 
-Adobe Targetでは、異なるバージョンのオファーを作成できます。 各ユーザーエクスペリエンスに応じて、リダイレクトオファーを作成し、表示される画像を指定できます。
+Adobe Targetでは、様々なバージョンのオファーを作成できます。 各ユーザーエクスペリエンスに応じて、リダイレクトオファーを作成し、表示される画像を指定できます。
 
 ここでは、2 つのリダイレクトオファーが必要です。3 番目（デフォルト）のものは、Adobe Campaign で定義します。
 
@@ -101,7 +100,7 @@ Adobe Targetでは、異なるバージョンのオファーを作成できま�
 
 ### オーディエンスの作成{#audiences-target}
 
-Adobe Targetでは、オファーを訪問した人が異なるコンテンツを配信するために分類される2つのオーディエンスを作成する必要があります。 オーディエンスごとに、オファーを表示できる人を定義するルールを追加します。
+Adobe Targetでは、2つのオーディエンスを作成し、オファーを訪問する人を分類して、異なるコンテンツを配信する必要があります。 オーディエンスごとに、オファーを表示できる人を定義するルールを追加します。
 
 1. Target で新しいオーディエンスを作成するには、「**[!UICONTROL オーディエンス]**」タブで「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 
@@ -115,9 +114,9 @@ Adobe Targetでは、オファーを訪問した人が異なるコンテンツ�
 
 1. 残りのオーディエンスについても同じ手順を繰り返します。
 
-### エクスペリエンスのターゲット設定アクティビティの作成{#creating-targeting-activity}
+### エクスペリエンスのターゲット設定アクティビティ{#creating-targeting-activity}の作成
 
-Adobe Targetで、エクスペリエンスのターゲット設定アクティビティを作成し、異なるエクスペリエンスを定義し、対応するオファーに関連付ける必要があります。
+Adobe Targetで、エクスペリエンスのターゲット設定アクティビティを作成し、様々なエクスペリエンスを定義して、対応するオファーに関連付ける必要があります。
 
 最初に、オーディエンスを定義する必要があります。
 
@@ -137,7 +136,7 @@ Adobe Targetで、エクスペリエンスのターゲット設定アクティ�
 
 1. 「**[!UICONTROL エクスペリエンスのターゲットを追加]**」をクリックして、別のエクスペリエンスを作成します。
 
-次に、各オーディエンスにコンテンツを追加します。
+次に、各オーディエンスのコンテンツを追加します。
 
 1. Adobe Campaign でダイナミックオファーを挿入する際に選択した場所名を選択します。
 
@@ -163,7 +162,7 @@ Adobe Targetで、エクスペリエンスのターゲット設定アクティ�
 
 ![](assets/target_experience_2.png)
 
-## プレビューを送信し、メッセージ{#preview-send-email}を送信
+## メッセージ{#preview-send-email}をプレビューして送信します。
 
 Adobe Campaign では、E メールをプレビューして、様々な受信者に対するレンダリングをテストできます。
 
