@@ -1,15 +1,14 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーン対話オファー
-description: オファーの作成方法
+title: Campaignインタラクションオファー
+description: オファーの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: 58f294b3d17de5eca64c82fdf7720b2734320bad
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '960'
 ht-degree: 67%
 
 ---
@@ -28,25 +27,25 @@ ht-degree: 67%
 
    オファーが、プラットフォームで利用できるようになり、コンテンツを設定できるようになります。
 
-## 適格性の設定
+## 実施要件の設定
 
-「**[!UICONTROL 適格性]**」タブを使用して、次の項目を定義できるようになりました。
+「**[!UICONTROL 実施要件]**」タブを使用して、次の項目を定義できるようになりました。
 
-* オファーの適格期間。 [詳細情報](#eligibility-period)
-* オファーターゲット母集団のフィルター。 [詳細情報](#filters-on-the-target)
-* オファー重み付け。 [詳細情報](#offer-weight)
+* 実施期間。 [詳細情報](#eligibility-period)
+* オファーのターゲット母集団に対するフィルター。 [詳細情報](#filters-on-the-target)
+* オファーの重み付け。 [詳細情報](#offer-weight)
 
-### オファー適格期間{#eligibility-period}
+### オファーの実施期間{#eligibility-period}
 
-オファーの&#x200B;**[!UICONTROL Eligibility]**&#x200B;タブで、オファーの適格性の期間を定義します。 ドロップダウンリストを使用して、カレンダーの開始と終了日を選択します。
+オファーの「**[!UICONTROL 実施要件]**」タブで、オファーの実施期間を定義します。 ドロップダウンリストを使用して、カレンダーの開始日と終了日を選択します。
 
 ![](assets/offer_eligibility_create_002.png)
 
 この期間を超えると、オファーは選択されません。 また、オファーカテゴリの実施日も設定されている場合は、最も厳しい制限期間が適用されます。
 
-### ターゲット追加のフィルター{#filters-on-the-target}
+### ターゲット{#filters-on-the-target}にフィルターを追加します。
 
-オファーの&#x200B;**[!UICONTROL Eligibility]**&#x200B;タブで、オファーターゲットにフィルターを適用します。
+オファーの「**[!UICONTROL 実施要件]**」タブで、オファーターゲットにフィルターを適用します。
 
 フィルターを適用するには、「**[!UICONTROL クエリを編集]**」リンクをクリックし、適用するフィルターを選択します
 
@@ -56,7 +55,7 @@ ht-degree: 67%
 
 ![](assets/offer_eligibility_create_004.png)
 
-### オファー重み付けを設定{#offer-weight}
+### オファーの重み付けを設定{#offer-weight}
 
 ターゲットが複数のオファーの実施要件を満たす場合のために、エンジンにどのオファーを選択させるかの条件を設定するには、オファーに重み付けを 1 つまたは複数割り当てます。また、必要に応じてターゲットにフィルターを適用したり、重み付けを適用するオファースペースを制限したりすることもできます。エンジンは、重み付けの小さいオファーよりも大きいオファーを優先して選択します。
 
@@ -70,7 +69,7 @@ ht-degree: 67%
 
 オファーの重み付けを作成するには、次の手順に従います。
 
-1. オファーの「**[!UICONTROL Eligibility]**」タブで、「**[!UICONTROL 追加]**」をクリックします。
+1. オファーの「**[!UICONTROL 実施要件]**」タブで、「**[!UICONTROL 追加]**」をクリックします。
 
    ![](assets/offer_weight_create_001.png)
 
@@ -110,16 +109,16 @@ ht-degree: 67%
 
 ![](assets/offer_eligibility_create_005.png)
 
-## オファーコンテンツの作成{#creating-the-offer-content}
+## オファーコンテンツ{#creating-the-offer-content}の作成
 
-「**[!UICONTROL コンテンツ]**」タブを使用して、オファーの内容を定義します。
+「**[!UICONTROL コンテンツ]**」タブを使用して、オファーコンテンツを定義します。
 
 ![](assets/offer_content_create_001.png)
 
 1. オファーコンテンツの様々なパラメーターを定義します。
 
    * **[!UICONTROL タイトル]**：オファーに表示させるタイトルを指定します。警告：これは、「**[!UICONTROL 一般]**」タブで定義されるオファーのラベルとは異なります。
-   * **[!UICONTROL 宛先 URL]**：オファーの URL を指定します。&quot;http://&quot;または&quot;https://&quot;と開始する必要があります。
+   * **[!UICONTROL 宛先 URL]**：オファーの URL を指定します。「http://」または「https://」で始まる必要があります。
    * **[!UICONTROL 画像 URL]**：オファーの画像を示す URL またはアクセスパスを指定します。
    * **[!UICONTROL HTML コンテンツ]**／**[!UICONTROL テキストコンテンツ]**：オファーの本文を、目的のタブに入力します。トラッキングを生成するには、**[!UICONTROL HTML コンテンツ]**&#x200B;が、`<div>` タイプの要素に含めることができる HTML 要素で構成されている必要があります。例えば、HTML ページ内の `<table>` 要素の結果は次のようになります。
 
@@ -138,7 +137,7 @@ ht-degree: 67%
       </div>
    ```
 
-   [このセクション](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)で受け入れURLを定義する方法を説明します。
+   [この節](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)で受け入れURLを定義する方法を説明します。
 
    ![](assets/offer_content_create_002.png)
 
@@ -148,9 +147,9 @@ ht-degree: 67%
 
    この例では、オファーには、タイトル、画像、HTML コンテンツ、宛先 URL を含める必要があります。
 
-## オファーのプレビュー{#previewing-the-offer}
+## オファー{#previewing-the-offer}のプレビュー
 
-オファーのコンテンツが設定されたら、オファーが受信者に表示されるとおりにプレビューできます。
+オファーコンテンツを設定したら、受信者に表示される状態でオファーをプレビューできます。
 
 手順は次のとおりです。
 
@@ -163,8 +162,6 @@ ht-degree: 67%
    ![](assets/offer_preview_create_002.png)
 
 1. オファーコンテンツがパーソナライズされている場合、パーソナライゼーションを表示するオファーターゲットを選択します。
-
-   ![](assets/offer_preview_create_003.png)
 
 <!--
 
@@ -184,20 +181,20 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 ## オファーの承認と有効化{#approve-offers}
 
-これで、オファーを承認してアクティブ化し、**ライブ**&#x200B;環境で使用できるようにすることができます。
+これで、オファーを承認してアクティブ化し、**ライブ**&#x200B;環境で利用できるようになります。
 
-:arrow_upper_right:詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)を参照してください
+:arrow_upper_right:詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)を参照してください。
 
 ## オファープレゼンテーションの管理{#offer-presentation}
 
-キャンペーンを使用すると、プレゼンテーションルールを使用してオファーの提案の流れを制御できます。 キャンペーンの操作に固有のこれらのルールは、**タイポロジルール**&#x200B;です。 タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。ルールは環境内で参照されます。.
+キャンペーンでは、プレゼンテーションルールを使用して、オファーの提案のフローを制御できます。 キャンペーンのインタラクションに固有のルールは、**タイポロジルール**&#x200B;です。 タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。ルールは環境内で参照されます。.
 
-:arrow_upper_right:詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)を参照してください
+:arrow_upper_right:詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)を参照してください。
 
-## オファーシミュレーション
+## オファーのシミュレーション
 
 シミュレーションモジュールを使用すると、提案を受信者に送信する前に、1 つのカテゴリまたは環境に属するオファーの配分をテストできます。
 
-シミュレーションでは、オファーとそのプレゼンテーションルールに以前適用したコンテキストと実施要件ルールを考慮に入れています。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
+シミュレーションでは、オファーとそのプレゼンテーションルールに以前に適用されたコンテキストと実施要件ルールが考慮されます。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
 
-:arrow_upper_right:オファーのシミュレーションについて詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)を参照してください
+:arrow_upper_right:オファーのシミュレーションについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)を参照してください。
