@@ -1,22 +1,27 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: ダイレクトLINEメッセージとAdobe Campaignの送信
-description: LINEメッセージを使い始める
+title: Adobe CampaignでのダイレクトLINEメッセージの送信
+description: LINEメッセージの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 3fe4156149e9ff8724dd1ff5fc17b538e6055ef8
+hidefromtoc: true
+hide: true
+source-git-commit: c659c31c15916077e71c63f3b3f4ca135d4d7f7d
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 20%
+source-wordcount: '64'
+ht-degree: 18%
 
 ---
 
 # LINE 配信を作成
 
-LINEは、無料のインスタントメッセージング、音声、ビデオ通話を行うためのアプリケーションで、すべてのモバイルデバイスとPCで利用できます。 Adobe Campaign では、LINE メッセージを送信できます。
 
-:arrow_upper_right:詳細については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)を参照してください
+**まだ利用できません**
+
+
+LINEは、すべてのモバイルデバイスとPCで利用可能な、無料のインスタントメッセージング、音声通話、ビデオ通話用のアプリケーションです。 Adobe Campaign では、LINE メッセージを送信できます。
+
+:arrow_upper_right:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)を参照してください。
 
