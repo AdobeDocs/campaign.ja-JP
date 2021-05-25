@@ -1,20 +1,19 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンインタラクション演算子
-description: オファー管理演算子の作成
+title: Campaignインタラクション演算子
+description: オファー管理オペレーターの作成
 feature: 概要
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 40%
 
 ---
 
-# ライブおよびデザインの環境{#live-design-environments}
+# ライブ環境とデザイン環境{#live-design-environments}
 
 インタラクションは、次の 2 つのオファー環境を使用して運用されます。
 
@@ -25,30 +24,30 @@ ht-degree: 40%
 
 各&#x200B;**[!UICONTROL デザイン]**&#x200B;環境は、**[!UICONTROL ライブ]**&#x200B;環境にリンクされています。オファーの作成が完了すると、そのコンテンツと実施要件ルールは、承認サイクルに進みます。承認サイクルを完了したオファーは、**[!UICONTROL ライブ]**&#x200B;環境に自動的にデプロイされ、その瞬間から、配信できるようになります。
 
-デフォルトでは、キャンペーンには&#x200B;**[!UICONTROL デザイン]**&#x200B;環境と&#x200B;**[!UICONTROL ライブ]**&#x200B;環境がリンクされています。 両方の環境は、[組み込みの受信者テーブル](../dev/datamodel.md#ootb-profiles)をターゲットするように事前に設定されています。
+デフォルトでは、Campaignには、**[!UICONTROL デザイン]**&#x200B;環境と、それにリンクされた&#x200B;**[!UICONTROL ライブ]**&#x200B;環境が用意されています。 両方の環境は、[組み込みの受信者テーブル](../dev/datamodel.md#ootb-profiles)をターゲットとするように事前に設定されています。
 
 >[!NOTE]
 >
->ターゲット受信者テーブルを作成するには、ターゲットマッピングアシスタントを使用して環境を作成する必要があります。 [詳細情報](#creating-an-offer-environment)。
+>受信者テーブルをターゲットにするには、ターゲットマッピングアシスタントを使用して環境を作成する必要があります。 [詳細情報](#creating-an-offer-environment)。
 
 ![](assets/offer_environments_overview_002.png)
 
-配信管理者は、**[!UICONTROL ライブ]**&#x200B;環境の表示のみを行い、オファーを利用して配信できます。 オファーマネージャーは、**[!UICONTROL デザイン]**&#x200B;環境を表示して使用し、**[!UICONTROL ライブ]**&#x200B;環境を表示できます。 [詳細情報](interaction-operators.md)。
+配信責任者は、**[!UICONTROL ライブ]**&#x200B;環境のみを表示し、オファーを活用して配信できます。 オファーマネージャーは、**[!UICONTROL デザイン]**&#x200B;環境を表示および使用し、**[!UICONTROL ライブ]**&#x200B;環境を表示できます。 [詳細情報](interaction-operators.md)。
 
 ## オファー環境の作成{#creating-an-offer-environment}
 
-デフォルトでは、キャンペーンには、受信者テーブル(識別されたオファー)のターゲットに対する環境が組み込まれています。 別の表をターゲットするには、次の手順に従います。
+デフォルトでは、Campaignには、受信者テーブルをターゲットにする組み込み環境（識別されたオファー）が用意されています。 別のテーブルをターゲットにするには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**/**[!UICONTROL キャンペーン管理]**/**[!UICONTROL 配信マッピング]**&#x200B;を参照し、使用する配信マッピングを右クリックして、**[!UICONTROL アクション]**/**[!UICONTROL ターゲティングディメンション]**&#x200B;のオプションを変更します。
+1. **[!UICONTROL 管理]** / **[!UICONTROL キャンペーン管理]** / **[!UICONTROL ターゲットマッピング]**&#x200B;を表示し、使用するターゲットマッピングを右クリックして、**[!UICONTROL アクション]** / **[!UICONTROL ターゲティングディメンションのオプションを変更します。]**
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. 「**[!UICONTROL 次へ]**」をクリックし、「**[!UICONTROL ストレージスキーマを作成して配置]**」オプションを選択して、「**[!UICONTROL 保存]**」をクリックします。
+1. 「**[!UICONTROL 次へ]**」をクリックし、「**[!UICONTROL 提案のストレージスキーマを生成]**」オプションを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/offer_env_anonymous_002.png)
 
    >[!NOTE]
    >
-   >このオプションが既にチェックされている場合は、チェックを外してから再度チェックを行います。
+   >このオプションが既にオンになっている場合は、オフにしてから再度オンにします。
 
-1. Adobe Campaignは、以前に有効にしたターゲットマッピングのターゲット情報を使用して、**[!UICONTROL デザイン]**&#x200B;と&#x200B;**[!UICONTROL ライブ]**&#x200B;の2つの環境を作成します。 この環境には、ターゲティング情報があらかじめ設定されています。
+1. Adobe Campaignは、前に有効にしたターゲットマッピングからのターゲティング情報を使用して、2つの環境（**[!UICONTROL デザイン]**&#x200B;と&#x200B;**[!UICONTROL ライブ]**）を作成します。 この環境には、ターゲティング情報があらかじめ設定されています。
