@@ -1,22 +1,25 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Campaign コントロールパネル
 description: Campaign コントロールパネル
 feature: 概要
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+hidefromtoc: true
+hide: true
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '361'
 ht-degree: 63%
 
 ---
 
 # Campaign コントロールパネル
 
-キャンペーンCampaign コントロールパネルを使用すると、設定を管理し、各インスタンスの使用状況を追跡できるので、Adobe Campaignの製品管理者としての作業の効率を向上できます。 直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト登録、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
+まだ利用できません
+
+CampaignCampaign コントロールパネルを使用すると、各インスタンスの設定を管理し、使用状況を追跡できるので、Adobe Campaignの製品管理者としての作業の効率を向上できます。 直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト登録、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
 
 主な利点：
 
@@ -24,7 +27,7 @@ ht-degree: 63%
 * 様々なタイミングで様々なビジネスニーズに基づいて設定できます。
 * ニーズごとにアクセス設定を制御することでセキュリティを強化できます。
 
-また、キャンペーンCampaign コントロールパネルを使用して、IP許可の一覧表示、URL権限、インスタンスに関する情報の取得などのインスタンス設定を行うこともできます。
+また、CampaignCampaign コントロールパネルを使用して、IPの許可リストへの登録、URLへのアクセス権限、インスタンスに関する情報の取得など、インスタンスの設定をおこなうこともできます。
 
 ## コントロールパネルにアクセスするには？
 
@@ -53,4 +56,4 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
 * [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
-:arrow_upper_right:[このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)のCampaign コントロールパネル機能をすべて検出
+:arrow_upper_right:[このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)のCampaign コントロールパネル機能をすべて確認する
