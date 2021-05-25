@@ -1,7 +1,6 @@
 ---
-source-git-commit: 4884271a9fcd96b4ad1da2e2aed5d25c8f267a7f
+source-git-commit: 098bb2252708f4c59e2ee186d4c3d0074ebec1fd
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -13,6 +12,7 @@ ht-degree: 100%
 ## アドビオープンソース行動規範
 
 このプロジェクトでは、[アドビオープンソース行動規範](code-of-conduct.md)または [.NET Foundation 行動規範](https://dotnetfoundation.org/code-of-conduct)を採用しています。詳しくは、[投稿](contributing.md)の記事を参照してください。
+
 
 ## アドビコンテンツへの投稿について
 
