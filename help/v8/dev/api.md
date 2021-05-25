@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Campaign API の概要
 description: Campaign API の概要
@@ -7,43 +7,57 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 15%
+source-wordcount: '329'
+ht-degree: 5%
 
 ---
 
-# キャンペーンAPIの使用を開始する{#gs-ac-api}
+# [!DNL Campaign] APIの概要{#gs-ac-api}
 
-Adobe Campaignには、次の機能を使用できるJavaScript関数のセットが用意されています。
+[!DNL Adobe Campaign] には、次の使用可能なJavaScript関数のセットが付属しています。
 
-* スクリプト内 —Adobe Campaignワークフロー内
-* API経由 — 外部システムから
+* スクリプト内 — [!DNL Adobe Campaign]ワークフロー内
+* APIを介した外部システムからの
 
-[このドキュメントには、すべてのJavaScript関数が一覧表示されます](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html)
+JavaScript APIを使用して、Campaignクラウドデータベースに書き込んだり、データベースから読み取ったりできます。
 
-JavaScript APIを使用して、キャンペーンクラウドデータベースに書き込んだり、データベースから読み取ったりできます。
+* 各オブジェクトに対して操作できる、ビジネス固有のAPI:配信、ワークフロー、購読など 詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)を参照してください。
+* 汎用データは、データモデルデータに対するクエリ用のAPIにアクセスします。 詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)を参照してください。
 
-* 各オブジェクトに対して操作を行えるビジネス固有のAPI:配信、ワークフロー、購読など [「ビジネス指向API](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)」を参照してください。
-* 汎用データは、データモデルデータをクエリするためのAPIにアクセスします。 [データ指向API](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)を参照してください。
+Campaign v8は、2つのデータベースで動作します。リアルタイムメッセージングと単一クエリ、APIを介した書き込みを行うユーザーインターフェイス用のローカルデータベースと、キャンペーンの実行、レポート、データ取得、バッチクエリ、ワークフローの実行のためのCloudデータベース。
+
+>[!CAUTION]
+>
+>[!DNL Adobe Campaign] v8には、APIレイヤーのスループット(TPS)に制限があります。この制限を超えると、標準HTTPエラー(429)が発生します。 管理対象Cloud Servicesのユーザーは、Adobeに連絡して、各APIのスロットリングを調整できます。
 
 
 ## 前提条件
 
-Adobe CampaignAPIを使用する前に、次のトピックに関する知識が必要です。
+[!DNL Adobe Campaign] APIを使用する前に、次のトピックに精通しておく必要があります。
 
 * JavaScript
 * SOAPプロトコル
-* Adobe Campaignデータモデル
+* [!DNL Adobe Campaign] データモデル
 
-APIを使用し、Adobe Campaignとやり取りするには、データモデルに精通している必要もあります。
+APIを使用して[!DNL Adobe Campaign]とやり取りするには、データモデルに関する知識も必要です。
 
 >[!NOTE]
->データモデルに関する完全な説明を生成できます。 詳しくは、[このページ](datamodel.md)を参照してください。
+>データモデルの完全な説明を生成できます。 詳しくは、[このページ](datamodel.md)を参照してください。
 
+## [!DNL Campaign] APIのステージングメカニズム
+
+[!DNL Campaign] Cloudデータベースでは、パフォーマンス（待ち時間と同時実行性）のため、単一呼び出しのブラストは推奨されません。 バッチ操作は常に推奨されます。 APIの最適なパフォーマンスを保証するために、CampaignはAPI呼び出しの処理をローカルデータベースレベルで継続します。
+
+:bulb:[APIステージングメカニズムについて詳しくは、このページ](staging.md)を参照してください。
+
+## 新しいAPI
+
+[!DNL Campaign]ローカルデータベースとCloudデータベース間のデータ同期を管理する新しいAPIが追加されました。 また、遅延を回避し、全体的なパフォーマンスを向上させるために、ローカルデータベースレベルでAPI呼び出しを処理する新しいメカニズムが導入されました
+
+:bulb:[新しいAPIについて詳しくは、このページ](new-apis.md)を参照してください。
 
 **関連トピック**
 
-* [Datamodelのベストプラクティス](datamodel-best-practices.md)
+* [データモデルのベストプラクティス](datamodel-best-practices.md)
