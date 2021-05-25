@@ -1,24 +1,23 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンとCRMの連携
-description: 'キャンペーンとCRMの使い方 '
+title: CampaignとCRMの使用
+description: 'CampaignとCRMの使用方法を説明します。 '
 feature: 概要
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 31%
+source-wordcount: '278'
+ht-degree: 30%
 
 ---
 
-# CRMとキャンペーン{#gs-crm}の接続
+# CRMをCampaignに接続します{#gs-crm}
 
 Adobe Campaign では、Adobe Campaign プラットフォームをサードパーティのシステムにリンクするための様々な CRM コネクタが提供されています。これらの CRM コネクタにより、連絡先、アカウント、購入などを同期したり、アプリケーションを様々なサードパーティおよびビジネスアプリケーションと簡単に統合したりすることができます。
 
-これらのコネクターを使用すると、データをすばやく簡単に統合できます。Adobe Campaignには、CRMで使用できる表を収集して選択するための専用のアシスタントが用意されています。 これにより、システム全体でデータを常に最新にするための双方向の同期が保証されます。
+これらのコネクタを使用すると、データをすばやく簡単に統合できます。Adobe Campaignは、CRMで使用できるテーブルを収集および選択するための専用のアシスタントを提供します。 これにより、システム全体でデータを常に最新にするための双方向の同期が保証されます。
 
 >[!NOTE]
 >
@@ -28,16 +27,16 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 サポートされている CRM とそのバージョンについて詳しくは、Campaign の[互換性マトリックス](../start/compatibility-matrix.md)を参照してください。
 
-**注意** - CRMコネクタは、セキュリティで保護されたURL(https)でのみ機能します。
+:speech_balloon:CRMコネクタは、セキュリティで保護されたURL(https)でのみ機能します。
 
 ## 実装手順 {#crm-implementation-steps}
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)でキャンペーンとMicrosoft Dynamicsを接続する手順を順を追って説明します
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)でCampaignとMicrosoft Dynamicsを接続する手順を説明します。
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)で、キャンペーンとSalesforceを接続する手順を順を追って説明します。
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)でCampaignとSalesforceを接続する手順を説明します。
 
 
-Adobe CampaignとCRMとの間のデータ同期は、専用のワークフローアクティビティを介して行われる。 ワークフローを構築して、キャンペーンとCRM間の同期を自動化します。 Microsoft Dynamicsを介して連絡先をインポートし、既存のAdobe Campaignデータと同期し、重複の連絡先を削除して、Adobe Campaignデータベースを更新するワークフローを作成できます。
+Adobe CampaignとCRM間のデータ同期は、専用のワークフローアクティビティで実行されます。 ワークフローを構築して、CampaignとCRM間の同期を自動化します。 Microsoft Dynamicsを介して連絡先をインポートし、それらを既存のAdobe Campaignデータと同期し、重複する連絡先を削除してAdobe Campaignデータベースを更新するワークフローを作成できます。
 
-:arrow_upper_right:詳細については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)を参照してください
+:arrow_upper_right:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)を参照してください。
 
