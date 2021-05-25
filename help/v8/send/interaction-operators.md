@@ -1,36 +1,35 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンインタラクション演算子
-description: オファー管理演算子の作成
+title: Campaignインタラクション演算子
+description: オファー管理オペレーターの作成
 feature: 概要
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 4bc62dcf806abd71e8230ce209d9151a4188b62e
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '414'
 ht-degree: 40%
 
 ---
 
 
-# 演算子プロファイル{#operator-profiles}
+# オペレータープロファイル{#operator-profiles}
 
-2種類の演算子でキャンペーンのインタラクションを使用できます。**オファーマネージャ**&#x200B;と&#x200B;**配信マネージャ**。 それぞれに、特定の権限と制限があります。 キャンペーン演算子と権限について詳しくは、[このページ](../start/permissions.md)を参照してください。
+キャンペーンのインタラクションは、次の2種類のオペレーターが使用できます。**オファーマネージャー**&#x200B;および&#x200B;**配信責任者**。 それぞれに固有の権限と制限があります。 Campaignのオペレーターと権限について詳しくは、[このページ](../start/permissions.md)を参照してください。
 
-* **[!UICONTROL オファーマネージャ]**&#x200B;は、オファーを作成し管理します。
-* **[!UICONTROL 配信マネージャー]**&#x200B;がオファーを承認し、使用します
+* **[!UICONTROL オファーマネージャー]**&#x200B;がオファーを作成し、管理します。
+* **[!UICONTROL 配信責任者]**&#x200B;がオファーを承認し、使用します
 
-## オファーマネージャの演算子{#offer-manager}を作成します
+## オファーマネージャーのオペレーター{#offer-manager}の作成
 
 1. 新しいオペレーターを作成します。
 
-   :arrow_upper_right:キャンペーンで演算子を作成する手順については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください
+   :arrow_upper_right:Campaignでのオペレーターの作成手順について詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
 
 1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
 
-オファーマネージャーに割り当てられた権限により、ユーザーは次のタスクを実行できます。
+オファーマネージャーに割り当てられる権限によって、オファー管理者は次のタスクを実行できます。
 
 * **[!UICONTROL デザイン]**&#x200B;環境を修正する。
 * **[!UICONTROL ライブ]**&#x200B;環境を表示する。
@@ -40,21 +39,21 @@ ht-degree: 40%
 * オファーの実施要件を設定する。
 * オファーを承認する。
 
-ワークフローでオファーを使用する場合、ワークフローを実行するには、演算子を&#x200B;**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;演算子グループに追加する必要があります。
+ワークフローでオファーを使用する場合は、そのオペレーターを&#x200B;**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;オペレーターグループに追加して、ワークフローを実行する必要があります。
 
 >[!NOTE]
 >
->**オファーマネージャ**&#x200B;は、レビューアが指定されていない場合、またはオファーの基になるオファーテンプレートでレビューアとして宣言されている場合にのみ、オファーを承認できます。
+>**オファーマネージャー**&#x200B;は、レビュー担当者が指定されていない場合、またはオファーの基となったオファーテンプレートでレビュー担当者として宣言されている場合にのみ、オファーを承認できます。
 
-## 配信マネージャの演算子{#delivery-manager}を作成します
+## 配信責任者オペレーター{#delivery-manager}の作成
 
 1. 新しいオペレーターを作成します。
 
-   :arrow_upper_right:キャンペーンで演算子を作成する手順については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください
+   :arrow_upper_right:Campaignでのオペレーターの作成手順について詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
 
 1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信責任者]**」グループを選択します。
 
-配信マネージャに割り当てられた権限は、ユーザが次のタスクを実行できるようにします。
+配信責任者に割り当てられる権限で実行できるタスクは次のとおりです。
 
 * **[!UICONTROL ライブ]**&#x200B;環境を表示する。
 * オファーカテゴリを表示および修正する。
@@ -62,16 +61,16 @@ ht-degree: 40%
 
    >[!NOTE]
    >
-   >**配信マネージャ**&#x200B;は、オファーの設定中にレビュー担当者として宣言された場合にのみオファーを承認できます。
+   >**配信責任者**&#x200B;は、オファーの設定時にレビュー担当者として宣言された場合にのみ、オファーを承認できます。
 
-## 操作演算子ごとの権限行列{#recap-of-rights-according-to-operator}
+## インタラクション演算子{#recap-of-rights-according-to-operator}ごとの権限マトリックス
 
 <table> 
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>オファーマネージャ（デザイン環境）</strong><br /> </td> 
-   <td> <strong>オファーマネージャ（ライブ環境）</strong><br /> </td> 
+   <td> <strong>オファーマネージャー（デザイン環境）</strong><br /> </td> 
+   <td> <strong>オファーマネージャー（ライブ環境）</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ツリー構造のレベル</strong><br /> </td> 
@@ -130,8 +129,8 @@ ht-degree: 40%
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>配信マネージャ（デザイン環境）</strong><br /> </td> 
-   <td> <strong>配信マネージャ（ライブ環境）</strong><br /> </td> 
+   <td> <strong>配信責任者（デザイン環境）</strong><br /> </td> 
+   <td> <strong>配信責任者（ライブ環境）</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ツリー構造のレベル</strong><br /> </td> 
