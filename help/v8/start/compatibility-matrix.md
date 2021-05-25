@@ -1,35 +1,34 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンv8互換表
-description: キャンペーンv8と互換性のあるシステムとバージョンを学ぶ
+title: Campaign v8互換表
+description: Campaign v8と互換性のあるシステムとバージョンについて説明します。
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-translation-type: tm+mt
-source-git-commit: 1ac6b58e1d5731d4df4d6d7c6a9b25f0f41ff563
+source-git-commit: ffdfc9a2e1bec191b5a3cc7f7b40683b2456bf3e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 30%
+source-wordcount: '274'
+ht-degree: 31%
 
 ---
 
-# キャンペーンv8互換表
+# Campaign v8互換表
 
-このドキュメントリストは、**Adobe Campaignv8**&#x200B;の最新ビルドでサポートされるすべてのシステムとコンポーネントをします。 このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
+このドキュメントでは、**Adobe Campaign v8**&#x200B;の最新ビルドでサポートされているすべてのシステムとコンポーネントを示します。 このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 
 >[!CAUTION]
 >
 >* 特に断りのない限り、すべてのマイナーリリースがサポートされます。
->* これらのサードパーティ製システムおよびツールの特定のバージョンが提供終了(EOL)に達すると、Adobe Campaignはこれらのバージョンとの互換性がなくなり、この互換表から削除されます。 問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
+>* これらのサードパーティ製システムおよびツールの特定のバージョンが提供終了(EOL)に達すると、Adobe Campaignはこれらのバージョンとの互換性を失い、この互換性マトリックスから削除されます。 問題を回避するため、互換性マトリックスに記載されているシステムのサポート対象バージョンを使用していることを確認してください。
 
 
 ## 対応するシステム
 
 ### クライアントコンソール{#ClientConsoleoperatingsystems}
 
-:warning:キャンペーンクライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
+:warning: Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
 
 **オペレーティングシステム**
 
@@ -38,7 +37,7 @@ ht-degree: 30%
 
 **ブラウザー**
 
-**Microsoft Internet Explorer**  11
+**Microsoft Internet Explorer** 11
 
 ### CRM コネクタ{#CRMconnectors}
 
@@ -47,40 +46,31 @@ ht-degree: 30%
 
 ### Federated Data Access（FDA）{#FederatedDataAccessFDA}
 
-* **Microsoft Azure Synapse Analytics**
 * **Amazon Redshift**
 * **[!DNL Snowflake]**
-* **Oracle** 19c、18c、12c、11G
-* **PostgreSQL**  12.x、11.x、10.x、9.6.x、9.5.x、9.4.x
-* **Microsoft SQL Server**  2019、2017、2016、2014、2012 SP1およびSP2
-* **MySQL** 5.7
-* **Teradata** 16.20、16、15.10、15.0
-* **Netezza** 7.2
-* **sybase IQ** 16、ASE 15.7
-* **SAP** HANAバージョン1 SPS 12
-* **HiveSQL による Hadoop**
-   * HortonWorks HDP 2.4.x、2.5.x、2.6.x
-   * HDInsight 3.4 (HDP 2.4)、3.5 (HDP 2.5)、3.6 (HDP 2.6)
-   * Cloudera CDH6.x
 
 ### モバイル SDK{#MobileSDK}
 
-* **Android**  7.x、8.x、9.0 （モバイルSDK搭載）ビルド1.0.27
-* **Apple iOS** 9 - 14 with mobile SDKビルド1.0.26（32ビットおよび64ビットバージョンと互換）。
+* **Android**  7.x、8.x、9.0（モバイルSDKビルド1.0.27を使用）。
+* **Apple iOS**  9 ～ 14（モバイルSDKビルド1.0.26を使用）。32および64ビットバージョンと互換性。
 
-### サポートされるブラウザ{#Browsers}
+### サポートされているブラウザー {#Browsers}
 
-次のブラウザーは、Web Accessのキャンペーンーと互換性があります。
+次のブラウザーは Campaign for Web Access と互換性があります。
 
 * **Microsoft Edge**、 **Mozilla Firefox**、 **Google Chrome**、 **Safari** （最新バージョン）
 
-* **Internet Explorer**  11
+* **Internet Explorer** 11
 
-## キャンペーンのバージョンを確認する方法
+## Campaignのバージョンの確認方法
 
-**ヘルプ/バージョン情報…**&#x200B;メニューを使用すると、次の情報にアクセスできます。
+**ヘルプ/バージョン情報…**&#x200B;メニューを使用して、バージョンを確認します。
 
-* キャンペーンクライアントコンソールとアプリケーションサーバーのバージョン番号
-* キャンペーン・クライアント・コンソールとアプリケーション・サーバのビルド番号
-* アドビカスタマーサポートに連絡するためのリンク
-* アドビのプライバシーポリシー、利用条件、Cookie ポリシーへのリンク
+![](assets/ac-version.png)
+
+次の情報にアクセスします。
+
+* クライアントコンソールとアプリケーションサーバーの&#x200B;**バージョン**&#x200B;番号。 上記のサンプルでは、クライアントコンソールとアプリケーションサーバーの両方でバージョンが8.1.5です。
+* 括弧の間のSHA番号。
+* カスタマーケアに問い合わせるAdobeへのリンク。
+* Adobeのプライバシーポリシー、利用条件、Cookieポリシーへのリンクです。
