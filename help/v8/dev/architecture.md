@@ -1,68 +1,67 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンアーキテクチャの概要
-description: キャンペーンアーキテクチャの概要
+title: Campaignのアーキテクチャの概要
+description: Campaignのアーキテクチャの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
+source-git-commit: c659c31c15916077e71c63f3b3f4ca135d4d7f7d
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '642'
 ht-degree: 6%
 
 ---
 
-# キャンペーンアーキテクチャの概要{#gs-ac-archi}
+# Campaignアーキテクチャの概要{#gs-ac-archi}
 
 ## 環境
 
-キャンペーンは、完全なキャンペーン環境を表す各インスタンスを持つ個々のインスタンスとして使用可能になります。
+Campaignは、個々のインスタンスとして使用でき、各インスタンスは完全なCampaign環境を表します。
 
-キャンペーンCloud Serviceでは、次の3種類の環境を使用できます。
+Campaign環境では、次の3種類の環境をCloud Serviceできます。
 
-* **実稼働環境**:ビジネス・プラクティショナー用のアプリケーションをホストします。
+* **実稼動環境**:実務担当者向けのアプリケーションをホストします。
 
-* **ステージ環境**:アプリケーションに対する変更を実稼働環境にプッシュする前の、様々なパフォーマンスと品質のテストに使用します。
+* **ステージ環境**:アプリケーションに対する変更が実稼動環境にプッシュされる前に、様々なパフォーマンステストと品質テストに使用されます。
 
-* **開発環境**:開発者は、ステージおよび実稼働環境と同じ実行時条件でキャンペーンを実装できます。
+* **開発環境**:を使用すると、開発者は、ステージ環境と実稼動環境と同じランタイム条件でCampaignを実装できます。
 
-環境間でパッケージを書き出したり読み込んだりすることができます。
+ある環境から別の環境にパッケージをエクスポートおよびインポートできます。
 
-:arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)のパッケージの詳細
+:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)のパッケージの詳細
 
 ## ミッドソーシングへのデプロイメント{#mid-sourcing-deployment}
 
-サーバとプロセス間の一般的な通信は、次のスキーマに従って行われます。
+サーバーとプロセス間の一般的な通信は、次のスキーマに従って実行されます。
 
 ![](assets/architecture.png)
 
-* 実行とバウンスの管理モジュールがインスタンスで無効になっています。
+* 実行およびバウンス管理モジュールは、インスタンスでは無効になっています。
 
 * アプリケーションは、SOAP呼び出し（HTTPまたはHTTPS経由）を使用して駆動されるリモートの「ミッドソース」サーバーでメッセージ実行を実行するように設定されます。
 
 >[!NOTE]
 >
-> キャンペーンv8はハイブリッドアーキテクチャに依存しています。 Campaign Classicv7から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。
-> その結果、キャンペーンv8では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。
-
+> Campaign v8はハイブリッドアーキテクチャに依存しています。 Campaign Classicv7から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。
+> その結果、Campaign v8では内部ルーティングが&#x200B;**不可能**&#x200B;で、それに応じて外部アカウントが無効になります。
 
 ## Message Centerのアーキテクチャ{#transac-msg-archi}
 
-トランザクションメッセージング(Message Center)は、トリガーメッセージの管理を目的としたキャンペーンモジュールです。
+トランザクションメッセージ(Message Center)は、トリガーメッセージを管理するために設計されたCampaignモジュールです。
 
-:bulb:[このセクション](../send/transactional.md)でトランザクションメッセージを送信する方法を説明します。
+:bulb:トランザクションメッセージを送信する方法については、[この節](../send/transactional.md)を参照してください。
 
-顧客がWebサイト上で行動すると、イベントがREST APIを介してキャンペーンを送信され、API呼び出しを介して提供された情報やデータがメッセージテンプレートに入力され、トランザクションメッセージがリアルタイムで顧客に送信されます。 これらのメッセージは、個々に、またはまとめて、E メール、SMS またはプッシュ通知経由で送信することができます。
+Webサイトでの顧客のアクションに応じて、イベントがREST APIを介してCampaignに送信され、メッセージテンプレートにAPI呼び出しを介して提供される情報やデータが入力され、トランザクションメッセージがリアルタイムで顧客に送信されます。 これらのメッセージは、個々に、またはまとめて、E メール、SMS またはプッシュ通知経由で送信することができます。
 
 この特定のアーキテクチャでは、高可用性と負荷管理を確保するために、実行セルがコントロールインスタンスから分離されます。
 
-* **コントロールインスタンス**（またはマーケティングインスタンス）は、マーケターやITチームがメッセージテンプレートの作成、設定および発行に使用します。 また、イベントの監視と履歴も一元化します。
+* **コントロールインスタンス**（またはマーケティングインスタンス）は、メッセージテンプレートの作成、設定、パブリッシュをおこなうために、マーケターやITチームが使用します。 また、このインスタンスは、イベントの監視と履歴を一元化します。
 
-   :arrow_upper_right:[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/introduction.html?lang=en#transactional-messaging)で、メッセージテンプレートの作成および公開方法を説明します。
+   :bulb:[この節](../send/transactional.md)で、メッセージテンプレートを作成して公開する方法を説明します。
 
-* **実行インスタンス**&#x200B;は、受信イベント（パスワードのリセットやWebサイトからの注文など）を取得し、パーソナライズされたメッセージを送信します。 ロードバランサーを介してメッセージを処理し、最大限の可用性を確保するために処理するイベント数を増やすには、複数の実行インスタンスが考えられます。
+* **実行インスタンス**&#x200B;は、受信イベント（例えば、パスワードのリセットやWebサイトからの注文）を取得し、パーソナライズされたメッセージを送信します。 ロードバランサーを介してメッセージを処理する実行インスタンスが複数あり、処理されるイベント数をスケールして最大限の可用性を実現できます。
 
 >[!CAUTION]
 >
@@ -70,18 +69,17 @@ ht-degree: 6%
 
 ![](assets/messagecenter_diagram.png)
 
-:arrow_upper_right:Message Centerのアーキテクチャは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)に記載されています
-
+:arrow_upper_right:Message Centerのアーキテクチャについては、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)を参照してください。
 
 ### 認証
 
-これらの機能を使用するには、Adobe Campaignユーザーはコントロールインスタンスにログオンしてトランザクションメッセージテンプレートを作成し、シードリストを使用してメッセージプレビューを生成し、レポートを表示し、実行インスタンスを監視します。
+これらの機能を使用するには、Adobe Campaignユーザーはコントロールインスタンスにログオンして、トランザクションメッセージテンプレートを作成し、シードリストを使用してメッセージのプレビューを生成し、レポートを表示し、実行インスタンスを監視します。
 
 * 単一実行インスタンス
-AdobeがホストするMessage Center実行インスタンスと対話する際、外部システムは、提供されたアカウントのログインとパスワードを使用して、セッションログオンメソッドにapi呼び出しを行うことで、最初にセッショントークンを取得できます（デフォルトでは24時間で期限切れになります）。
-次に、上記の呼び出しに応答して実行インスタンスが提供するsessionTokenを使用すると、外部アプリケーションはSOAP api呼び出し（rtEventsまたはbatchEvents）を行って通信を送信でき、各SOAP呼び出しにアカウントのログインとパスワードを含める必要はありません。
+AdobeがホストするMessage Center実行インスタンスとやり取りする際、外部システムは、提供されたアカウントのログインとパスワードを使用してセッションログオンメソッドに対するapi呼び出しをおこなうことで、最初にセッショントークン（デフォルトでは24時間で期限切れ）を取得できます。
+次に、上記の呼び出しに応答して実行インスタンスが提供するsessionTokenを使用すると、外部アプリケーションはSOAP api呼び出し（rtEventsまたはbatchEvents）を実行して通信を送信できます。各SOAP呼び出しにアカウントのログインとパスワードを含める必要はありません。
 
 * 複数の実行インスタンス
-ロードバランサーの背後に複数の実行インスタンスがある複数セルの実行アーキテクチャでは、外部アプリケーションが呼び出すログオンメソッドはロードバランサーを経由して行われます。そのため、トークンベースの認証は使用できません。 ユーザー/パスワードベースの認証が必要です。
+ロードバランサーの背後に複数の実行インスタンスがあるマルチセル実行アーキテクチャでは、外部アプリケーションによって呼び出されるログオンメソッドは、ロードバランサーを経由します。そのため、トークンベースの認証は使用できません。 ユーザー/パスワードベースの認証が必要です。
 
-:arrow_upper_right:トランザクションメッセージングのイベントについて詳しくは、[Campaign Classicドキュメント](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)を参照してください
+:arrow_upper_right:トランザクションメッセージイベントについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)を参照してください。
