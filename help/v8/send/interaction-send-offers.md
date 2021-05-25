@@ -1,30 +1,29 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーン対話オファーカタログ
-description: オファーカタログの作成方法
+title: キャンペーンインタラクションオファーカタログ
+description: オファーカタログの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: fcc0165aeba4347a53d33bed95aa7fbb5fa27005
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1360'
 ht-degree: 75%
 
 ---
 
 # オファーの送信
 
-オファーがオファーエンジンによって選択されるためには、承認済みで、**ライブ**&#x200B;環境で使用できます。 [詳細情報](interaction-offer.md#approve-offers)
+オファーがオファーエンジンによって選択されるように、承認され、**ライブ**&#x200B;環境で利用できます。 [詳細情報](interaction-offer.md#approve-offers)
 
-送信通信チャネルを介したオファー提示は、ダイレクトメール、電子メール、またはモバイル配信を介して行う。 また、トランザクションメッセージング(Message Center)でユニタリモードを使用することもできます。
+アウトバウンドの通信チャネルを使用したオファープレゼンテーションは、ダイレクトメール、Eメールまたはモバイル配信を使用して実行されます。 また、トランザクションメッセージ(Message Center)と一元モードを使用することもできます。
 
-## オファーを配信に挿入{#offer-into-a-delivery}
+## 配信にオファーを挿入する{#offer-into-a-delivery}
 
-配信にオファーの提案を挿入するには、次の手順に従います。
+オファーの提案を配信に挿入するには、次の手順に従います。
 
-1. 配信ウィンドウで、**オファー**&#x200B;アイコンをクリックします。
+1. 配信ウィンドウで、「**オファー**」アイコンをクリックします。
 
    ![](assets/offer_delivery_001.png)
 
@@ -46,15 +45,15 @@ ht-degree: 75%
 
    ![](assets/offer_delivery_006.png)
 
-1. 必要に応じて、「**[!UICONTROL オファーが選択されていない場合は何も表示しない]**」オプションを選択します。 [詳細情報](#parameters-for-calling-offer-engine)。
+1. 必要に応じて、「**[!UICONTROL オファーが選択されていない場合は表示しない]**」オプションを選択します。 [詳細情報](#parameters-for-calling-offer-engine)。
 
    ![](assets/offer_delivery_007.png)
 
-1. 差し込み印刷フィールドを使用して、配信コンテンツにプロパティを挿入します。 使用可能な提案の数は、エンジンの呼び出しがどのように設定されているかによって異なります。また、提案の順序は、オファーの優先順位によって異なります。
+1. 結合フィールドを使用して、プロパティを配信コンテンツに挿入します。 使用可能な提案の数は、エンジンの呼び出しがどのように設定されているかによって異なります。また、提案の順序は、オファーの優先順位によって異なります。
 
    ![](assets/offer_delivery_008.png)
 
-1. コンテンツを完成させ、配信をテストして送信します。
+1. コンテンツを完成させ、テストして配信を送信します。
 
    ![](assets/offer_delivery_010.png)
 
@@ -70,7 +69,7 @@ ht-degree: 75%
 
 ## ワークフローでのオファーの送信
 
-ワークフローアクティビティの中には、オファーの表示方法を定義できるものもあります。
+いくつかのワークフローアクティビティで、オファーの表示方法を定義できます。
 
 * エンリッチメント
 * オファーエンジン
@@ -78,9 +77,9 @@ ht-degree: 75%
 
 ### エンリッチメント {#enrichment}
 
-**エンリッチメント**&#x200B;アクティビティを使用すると、配信受信者のオファーにオファーやリンクを追加できます。
+**エンリッチメント**&#x200B;アクティビティを使用して、配信の受信者向けのオファーにオファーやリンクを追加できます。
 
-:arrow_upper_right:エンリッチメントアクティビティについて詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)を参照してください
+:arrow_upper_right:「エンリッチメント」アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)を参照してください。
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
@@ -91,11 +90,11 @@ ht-degree: 75%
 * オファーまたはオファーエンジンの呼び出しを指定する。
 * オファーへのリンクを参照する。
 
-#### オファーまたはオファーエンジン{#specifying-an-offer-or-a-call-to-the-offer-engine}への呼び出しを指定
+#### オファーまたはオファーエンジン呼び出しの指定{#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-**クエリ**&#x200B;アクティビティの設定後：
+**クエリ**&#x200B;アクティビティを設定した後：
 
-1. 追加&#x200B;**エンリッチメント**&#x200B;アクティビティを開きます。
+1. **エンリッチメント**&#x200B;アクティビティを追加して開きます。
 1. 「**[!UICONTROL エンリッチメント]**」タブで、「**[!UICONTROL データを追加]**」を選択します。
 1. 追加するデータタイプで「**[!UICONTROL オファーの提案]**」を選択します。
 
@@ -120,7 +119,7 @@ ht-degree: 75%
 
 #### オファーへのリンクの参照{#referencing-a-link-to-an-offer}
 
-また、**エンリッチメント**&#x200B;アクティビティ内のオファーへのリンクを参照することもできます。
+また、**エンリッチメント**&#x200B;アクティビティで、オファーへのリンクを参照することもできます。
 
 それには、次の手順に従います。
 
@@ -140,9 +139,9 @@ ht-degree: 75%
    >
    >プレビュー可能な提案の数は、配信で実行された設定によって決まります。
 
-#### オファーのランクと重み付け{#storing-offer-rankings-and-weights}
+#### 店舗オファーのランク付けと重み付け{#storing-offer-rankings-and-weights}
 
-デフォルトでは、**エンリッチメント**&#x200B;アクティビティを使用してオファーを配信する場合、ランクとその重み付けは提案テーブルに保存されません。
+デフォルトでは、オファーの配信に&#x200B;**エンリッチメント**&#x200B;アクティビティを使用すると、オファーのランク付けと重み付けが提案テーブルに格納されません。
 
 >[!NOTE]
 >
@@ -167,13 +166,13 @@ ht-degree: 75%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティも、配信の前にオファーエンジンの呼び出しを指定できます。
 
-:arrow_upper_right:**オファーエンジン**&#x200B;のアクティビティについて詳しくは、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)を参照してください
+:arrow_upper_right:**オファーエンジン**&#x200B;アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)を参照してください。
 
-このアクティビティは、配信の前に、エンジンが計算したオファーでインバウンド母集団データを富化することにより、エンジンコールを使用する&#x200B;**エンリッチメント**&#x200B;アクティビティと同じ原則に基づいて動作します。
+このアクティビティは、配信の前に、エンジンによって計算されたオファーでインバウンド母集団データをエンリッチメントすることで、エンジン呼び出しを使用する「**エンリッチメント**」アクティビティと同じ原則に従って動作します。
 
 ![](assets/int_offerengine_activity2.png)
 
-**クエリ**&#x200B;アクティビティの設定後：
+**クエリ**&#x200B;アクティビティを設定した後：
 
 1. 「**[!UICONTROL オファーエンジン]**」アクティビティを追加し、開きます。
 1. 使用可能な各種フィールドに入力して、オファーエンジンパラメーター（オファースペース、カテゴリまたはテーマ、コンタクト日、保持するオファー数）への呼び出しを指定します。エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。
@@ -190,7 +189,7 @@ ht-degree: 75%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-:arrow_upper_right:**セル**&#x200B;オファーの詳細については、[Campaign Classicドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)を参照してください
+:arrow_upper_right:**セル別オファー**&#x200B;アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)を参照してください。
 
 それには、次の手順に従います。
 
