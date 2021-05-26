@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 54%
 
 ---
@@ -23,7 +23,7 @@ CampaignとTargetを接続して、Adobe TargetのオファーをAdobe Campaign�
 >[!NOTE]
 >この統合が対応するのは、静的画像だけです。その他のタイプのコンテンツはパーソナライズできません。
 
-:speech_balloon:管理対象Cloud Servicesユーザーの場合は、[Adobe](../start/campaign-faq.md#support)に連絡して、CampaignでExperience Cloudトリガーを実装します。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに連絡 [し](../start/campaign-faq.md#support) て、CampaignのExperience Cloudトリガーを実装します。
 
 Adobe Targetでは、次のタイプのデータを使用できます。
 
