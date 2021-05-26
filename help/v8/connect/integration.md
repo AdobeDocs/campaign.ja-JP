@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 11%
@@ -40,9 +40,9 @@ Campaign v8は、次のものと接続できます。
 
 また、Experience Cloudソリューション全体で&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を、アセット共有およびオーディエンス共有機能と組み合わせることもできます。
 
-:[!DNL :arrow_upper_right:]:**CampaignとExperience Cloudソリューション間のオーディエンス共有**&#x200B;について詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)を参照してください。
+[!DNL :arrow_upper_right:] CampaignとExperience Cloudソリ **ューシ** ョン間でのオーディエンスの共有について詳しくは、 [Campaign Classicv7ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:[!DNL :arrow_upper_right:]:**CampaignとExperience Cloudソリューション間のアセット共有**&#x200B;について詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)を参照してください。
+[!DNL :arrow_upper_right:] CampaignとExperience Cloudソリ **ュー** ション間でのアセットの共有について詳しくは、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ## CRM コネクタ{#gs-crm-connectors}
 
