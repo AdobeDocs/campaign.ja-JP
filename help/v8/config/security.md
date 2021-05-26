@@ -1,35 +1,35 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: Campaignのセキュリティのベストプラクティス
-description: Campaignのセキュリティのベストプラクティスの概要
+title: Campaign セキュリティのベストプラクティス
+description: Campaign セキュリティのベストプラクティスの概要
 source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 33%
+ht-degree: 93%
 
 ---
 
-# Campaignのセキュリティのベストプラクティス{#ac-security}
+# Campaign セキュリティのベストプラクティス {#ac-security}
 
-Adobeでは、デジタルエクスペリエンスのセキュリティを非常に重視しています。 セキュリティ対策は、社内のソフトウェア開発および運用プロセスとツールに深く根ざしており、社内の部門間チームがインシデントを防ぎ、検出し、適切な方法で対応するために厳格に従っています。
+アドビでは、デジタルエクスペリエンスのセキュリティを非常に重要視しています。 セキュリティ対策は、社内のソフトウェア開発と運用プロセスおよびツールに深く根付いており、インシデントを適切な方法で防止、検出、対応するために、部門の枠を超えたチームが厳しくフォローしています。
 
-さらに、パートナー、リーディング研究者、セキュリティ研究機関、その他の業界団体との連携により、最新の脅威や脆弱性を常に把握し、提供する製品やサービスに高度なセキュリティ技術を定期的に取り入れています。
+さらに、パートナー、主要な研究者、セキュリティ研究機関、その他の業界団体との共同作業により、最新の脅威や脆弱性を常に把握し、オファーする製品やサービスに高度なセキュリティ技術を定期的に取り入れています。
 
 ## プライバシー
 
-プライバシー設定と強化は、セキュリティを最適化するうえで重要な要素です。プライバシーに関して従うべきベストプラクティスを以下に示します。
+プライバシー設定と強化は、セキュリティを最適化するうえで重要な要素です。 プライバシーに関するベストプラクティスをいくつか示します。
 
-* HTTPではなくHTTPSを使用して、顧客の個人情報(PI)をProtectする
-* [PIビューの制限](../dev/restrict-pi-view.md)を使用して、プライバシーを保護し、データの誤用を防ぎます
-* 暗号化されたパスワードが制限されていることを確認します。
-* ミラーページや Web アプリケーションのように、個人情報を含む可能性があるページを保護します。
+* HTTP ではなく HTTPS を使用して、顧客の個人情報（PI）を保護する
+* [PI 表示制限](../dev/restrict-pi-view.md)を使用して、プライバシーを保護し、データの誤用を防ぐ
+* 暗号化されたパスワードが制限されていることを確認する
+* ミラーページや Web アプリケーションなどのように、個人情報を含む可能性があるページを保護します。
 
 [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーとして、Adobeはお客様と連携し、お客様の環境にこれらの設定を実装します。
 
 ## パーソナライゼーション
 
-コンテンツにパーソナライズされたリンクを追加する場合、潜在的なセキュリティギャップを回避するために、URL のホスト名部分にパーソナライゼーションを含めないようにしてください。 次の例は、すべてのURL属性&lt;`a href="">`または`<img src="">`で使用しないでください。
+コンテンツにパーソナライズされたリンクを追加する場合、潜在的なセキュリティギャップを回避するために、URL のホスト名部分にパーソナライゼーションを含めないようにしてください。 次の例は、すべての URL 属性 &lt;`a href="">` または `<img src="">` で使用しないでください。
 
 * `<%= url >`
 * `https://<%= url >`
@@ -39,9 +39,9 @@ Adobeでは、デジタルエクスペリエンスのセキュリティを非常
 
 ## データの制限
 
-権限レベルの低い認証ユーザーは暗号化されたパスワードにアクセスできないようにする必要があります。それには、主に次の2つの方法があります。パスワードフィールドのみ、またはエンティティ全体へのアクセスを制限します。
+権限レベルの低い認証ユーザーは暗号化されたパスワードにアクセスできないようにする必要があります。これには、主に 2 つの方法があります。パスワードフィールドのみへのアクセスを制限する方法と、エンティティ全体へのアクセスを制限する方法です。
 
-この制限を適用すると、パスワードフィールドを削除できますが、外部アカウントはすべてのユーザー向けのインターフェイスからアクセス可能なままになります。 詳しくは、[このページ](../dev/restrict-pi-view.md)を参照してください。
+この制限をおこなうと、パスワードフィールドを削除できますが、すべてのユーザーがインターフェイスから外部アカウントにアクセスできるようになります。 詳しくは、[このページ](../dev/restrict-pi-view.md)を参照してください。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL データスキーマ]**&#x200B;に移動します。
 
@@ -49,9 +49,9 @@ Adobeでは、デジタルエクスペリエンスのセキュリティを非常
 
 1. **[!UICONTROL 外部アカウント]**（extAccount）を選択します。
 
-1. 最後の画面で、新しいsrcSchemaを編集して、すべてのパスワードフィールドへのアクセスを制限できます。
+1. 最後の画面で、新しい srcSchema を編集して、すべてのパスワードフィールドへのアクセスを制限できます。
 
-   メイン要素(`<element name="extAccount" ... >`)は次のように置き換えることができます。
+   メイン要素（`<element name="extAccount" ... >`）は、次の方法で置き換えることができます。
 
    ```
    <element name="extAccount">
@@ -72,7 +72,7 @@ Adobeでは、デジタルエクスペリエンスのセキュリティを非常
    </element>
    ```
 
-   拡張されたsrcSchemaは次のようになります。
+   したがって、拡張された srcSchema は次のようになります。
 
    ```
    <...>
@@ -97,27 +97,27 @@ Adobeでは、デジタルエクスペリエンスのセキュリティを非常
 
    >[!NOTE]
    >
-   >`$(loginId) = 0 or $(login) = 'admin'`を`hasNamedRight('admin')`に置き換えて、管理者権限を持つすべてのユーザーにこれらのパスワードを表示させることができます。
+   >`$(loginId) = 0 or $(login) = 'admin'` を `hasNamedRight('admin')` に置き換えて、管理者権限を持つすべてのユーザーにこれらのパスワードを表示させることができます。
 
 
 ## アクセス管理
 
-アクセス管理は、セキュリティ強化の重要な要素です。ここでは、主なベストプラクティスを紹介します。
+アクセス管理は、セキュリティ強化の重要な部分です。 ここでは、主なベストプラクティスを紹介します。
 
 * 十分なセキュリティグループを作成する
-* 各オペレーターのアクセス権が適切であることをチェックする
-* 管理オペレーターを使用しないようにし、さらに管理グループのオペレーターが多くなりすぎないようにする
+* 各オペレーターのアクセス権が適切であることを確認する
+* 管理オペレーターの使用を避け、管理グループのオペレーターが多くなりすぎないようにする
 
-[!DNL :arrow_upper_right:] 詳しくは、  [Adobe Campaign Classic v7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator)
+[!DNL :arrow_upper_right:] 詳しくは、  [Adobe Campaign Classic v7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=ja#webapp-operator)
 
 ## コーディングのガイドライン
 
-Adobe Campaign（ワークフロー、JavaScript、JSSPなど）で開発する場合は、常に次のガイドラインに従います。
+Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する場合、常に次のガイドラインに従います。
 
 * **スクリプティング**：SQL 文は使用しないようにします。文字列連結ではなく、パラメーター化関数を使用します。使用する SQL 関数を許可リストに追加して、SQL インジェクションを回避します。
 
-* **データモデルの保護**:ネームド権限を使用してオペレーターの操作を制限し、システムフィルターを追加する(sysFilter)
+* **データモデルの保護**：ネームド権限を使用してオペレーターのアクションを制限し、システムフィルター（sysFilter）を追加します
 
-* **WebアプリケーションにCaptchaを追加します**。公開ランディングページと公開購読ページにcaptchaを追加します。
+* **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-[!DNL :arrow_upper_right:] 詳しくは、  [Adobe Campaign Classic v7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
+[!DNL :arrow_upper_right:] 詳しくは、  [Adobe Campaign Classic v7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic)
