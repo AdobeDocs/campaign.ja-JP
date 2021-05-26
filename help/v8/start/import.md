@@ -7,10 +7,10 @@ feature: プロファイル
 role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 905003b74a1f875432f08c5c70edf3d0451b861f
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 9%
+source-wordcount: '306'
+ht-degree: 11%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 9%
 
 Campaignは、連絡先をCloudデータベースに追加する際に役立ちます。 ファイルの読み込み、複数の連絡先の更新のスケジュール設定と自動化、Webでのデータの収集、受信者テーブルへのプロファイル情報の直接入力を行うことができます。
 
-:bulb:[audiences](audiences.md)の概要
-:bulb:Campaignの[データモデル](../dev/datamodel.md)について
+[!DNL :bulb:] オーディエンスの概 [](audiences.md)
+[!DNL :bulb:] 要Campaignデータモデ [ル](../dev/datamodel.md)
 
 ## ワークフローでのプロファイルのインポート
 
@@ -29,11 +29,11 @@ Campaignは、連絡先をCloudデータベースに追加する際に役立ち�
 
 詳しくは、Campaign Classicv7のドキュメントを参照してください。
 
-:arrow_upper_right:[インポートとエクスポートの概要](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
+:[!DNL :arrow_upper_right:]:[インポートおよびエクスポートの概要](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
 
-:arrow_upper_right:[インポートおよびエクスポートのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
+:[!DNL :arrow_upper_right:]: [インポートとエクスポートのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
 
-:arrow_upper_right:[インポートの設定と実行](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
+:[!DNL :arrow_upper_right:]:[インポートの設定と実行](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
 
 ## 単一インポートの実行
 
@@ -41,7 +41,7 @@ Campaignは、連絡先をCloudデータベースに追加する際に役立ち�
 
 ![](assets/new-import.png)
 
-:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html)でデータベースにフィードする単一インポートジョブを実行する方法を説明します。
+:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html)でデータベースにフィードする単一インポートジョブを実行する方法を説明します。
 
 ## Webアプリを通じたプロファイルの収集
 
@@ -49,7 +49,7 @@ Campaignを使用してWebフォームを作成し、プロファイル情報を
 
 ![](assets/web-form-page.png)
 
-:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html)でWebフォームを作成する方法を説明します。
+:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html)でWebフォームを作成する方法を説明します。
 
 **関連トピック**
 
