@@ -1,15 +1,15 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーントランザクションメッセージの設定
-description: キャンペーントランザクションメッセージの設定
+title: Campaign トランザクションメッセージの設定
+description: Campaign トランザクションメッセージの設定
 feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 21%
+ht-degree: 82%
 
 ---
 
@@ -23,38 +23,38 @@ ht-degree: 21%
 
 ## 権限の定義
 
-Adobe Cloud でホストされる Message Center 実行インスタンスの新しいユーザーを作成するには、アドビカスタマーケアに連絡する必要があります。Message Centerユーザーは、「リアルタイムイベント」(nmsRtEvent)フォルダーにアクセスするための専用の権限を必要とする特定のオペレーターです。
+Adobe Cloud でホストされる Message Center 実行インスタンスの新しいユーザーを作成するには、アドビカスタマーケアに連絡する必要があります。 Message Center ユーザーは、「リアルタイムイベント」（nmsRtEvent）フォルダーにアクセスするための専用の権限を必要とする特定のオペレーターです。
 
 ## スキーマ拡張
 
-コントロールインスタンスまたは実行インスタンスで&#x200B;**Message Centerテクニカルワークフロー**&#x200B;で使用されるスキーマに対しておこなわれるすべてのスキーマ拡張は、Adobe Campaignトランザクションメッセージモジュールで使用される他のインスタンスで複製する必要があります。
+コントロールインスタンスまたは実行インスタンスのいずれかで **Message Center テクニカルワークフロー**&#x200B;が使用するスキーマで作成されたすべてのスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールが使用する別のインスタンスに複製する必要があります。
 
-[!DNL :arrow_upper_right:] Message Centerのテクニカルワークフローについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)
+[!DNL :arrow_upper_right:] Message Centerのテクニカルワークフローについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=ja#control-instance-workflows)
 
 ## トランザクションプッシュ通知の送信
 
-トランザクションメッセージでは、モバイルアプリチャネルモジュールと組み合わせることで、通知を通じてモバイルデバイスにトランザクションメッセージをプッシュできます。
+トランザクションメッセージでは、モバイルアプリチャネルモジュールと組み合わせることで、モバイルデバイスの通知を介してトランザクションメッセージをプッシュすることができます。
 
-[!DNL :arrow_upper_right:] モバイルアプリチャネルについて詳しくは、 [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)を参照してください。
+[!DNL :arrow_upper_right:] モバイルアプリチャネルについて詳しくは、 [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=ja#sending-messages)を参照してください。
 
-トランザクションプッシュ通知を送信するには、次の設定を実行する必要があります。
+トランザクションプッシュ通知を送信するには、次の設定をおこなう必要があります。
 
 1. **モバイルアプリチャネル**&#x200B;パッケージをコントロールインスタンスと実行インスタンス上にインストールします。
 
    >[!CAUTION]
    >
-   >新しいCampaign組み込みパッケージをインストールする前に、使用許諾契約を確認してください。
+   >新しい Campaign 組み込みパッケージをインストールする前に、使用許諾契約書を確認してください。
 
-1. **モバイルアプリケーション**&#x200B;サービスおよび関連するモバイルアプリケーションを実行インスタンスにレプリケートします。
+1. **モバイルアプリケーション**&#x200B;サービスと、関連するモバイルアプリケーションを実行インスタンスに複製します。
 
-Campaignがトランザクションプッシュ通知を送信するには、イベントに次の要素を含める必要があります。
+Campaign がトランザクションプッシュ通知を送信するには、イベントに次の要素が含まれている必要があります。
 
-* モバイルデバイスID:Androidの場合は&#x200B;**registrationId**、iOSの場合は&#x200B;**deviceToken**&#x200B;です。 この ID が、通知を送信する宛先の「アドレス」を表します。
-* モバイルアプリケーションへのリンクまたは統合キー(**uuid**)。アプリケーション固有の接続情報を取得できます。
-* 通知が送信されるチャネル（**wishedChannel**）：iOS は 41、Android は 42 です.
+* モバイルデバイス ID：Android では **registrationId**、iOS では **deviceToken**。 この ID が、通知を送信する宛先の「アドレス」を表します。
+* アプリケーションに固有の接続情報を取得できるモバイルアプリケーションまたは統合キー（**uuid**）へのリンク。
+* 通知が送信されるチャネル（**wishedChannel**）：iOS は 41、Android は 42 です。
 * パーソナライゼーションに活用するその他のデータ。
 
-以下は、この情報を含むイベントの例です。
+この情報を含むイベントの例を次に示します。
 
 ```
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
