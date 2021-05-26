@@ -2,7 +2,7 @@
 solution: Campaign v8
 product: Adobe Campaign
 title: 実装のガイドライン
-description: Campaign v8の実装方法を説明します
+description: Campaign v8 の実装方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
@@ -10,18 +10,18 @@ exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 5%
+ht-degree: 77%
 
 ---
 
-# Campaign実装のガイドライン
+# Campaign 実装のガイドライン
 
-この節では、会社の要件に合わせてAdobe Campaignを調整する方法を学びます。 次のガイドラインに従って、実装を構造化し、整理します。
+この節では、会社の要件に合わせて Adobe Campaign を調整する方法を説明します。次のガイドラインに従って、実装を構成し整理します。
 
-1. **設定の定義**:アクセス権の付与、クライアントコンソールの共有、チャネルの設定（eメール、プッシュ、sms）
-1. **環境の準備**:プロファイルのインポート、オーディエンスの作成、ワークフローとキャンペーンテンプレートのデザイン、タイポロジルールの作成
-1. **インスタンスのカスタマイズ**:新しいデータフィールドの作成、テーブル/スキーマの追加
-1. **デプロイメントの拡張**:Adobeソリューション、その他の製品およびシステムへの接続 — コネクタ、マルチソリューション設定
+1. **設定の定義**：アクセスの許可、クライアントコンソールの共有、チャネルの設定（E メール、プッシュ、SMS）
+1. **環境の準備**：プロファイルのインポート，オーディエンスの作成，ワークフローとキャンペーンテンプレートの設計、タイポロジルールの作成
+1. **インスタンスのカスタマイズ**：新しいデータフィールドの作成、テーブル／スキーマの追加
+1. **デプロイメントの拡張**：Adobe ソリューションや、コネクタ、マルチソリューション設定などのその他の製品およびシステムへの接続
 
 >[!CAUTION]
 >
@@ -31,79 +31,79 @@ ht-degree: 5%
 
 ## 開始する前に
 
-この節では、実際の実装を開始する前に確認し、考慮する必要がある、プライバシーとセキュリティに関する重要な情報について説明します。
+この節には、実際に実装を始める前に確認し考慮する必要があるプライバシーとセキュリティに関する重要な情報が含まれています。
 
 ### プライバシー
 
-Adobe Campaignには、適用されるデータプライバシー法や受信者の好みに従ってCampaignを使用できるプロセスと設定が用意されています。 以下を管理できます。
+Adobe Campaign には、該当するデータプライバシー保護法や受信者の環境設定に応じて Campaign を使用できるプロセスと設定が用意されています。以下を管理できます。
 
-* **データの取得**:Adobe Campaignでは、個人情報や機密情報などのデータを収集できます。したがって、受信者から同意を受け取り、管理する必要があります。 詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)を参照してください。
+* **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。したがって、受信者の同意を得て、管理する必要があります。詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)を参照してください。
 
-* **ユーザーの同意とデータ保持**:ユーザーの同意を得る方法、二重のオプトインサブスクリプションメカニズムを設定する方法、オプトアウトを容易にする方法、および [Campaign Classicプライバシーに関するドキュメントでのデータ保持の設定方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
+* **ユーザーの同意とデータ保持**：ユーザーの同意を得る方法、ダブルオプトインの購読メカニズムを設定する方法、オプトアウトを容易にする方法、データ保持を設定する方法については、[Campaign Classic のプライバシーに関するドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)を参照してください。
 
-* **プライバシーとデータ保護規制**:欧州連合 [の一般データ保護規則(GDPR)、カリフォルニア州消費者プライバシー法(CCPA)およびその他の国際的なプライバシー要件、およびこれらの規制が組織およびAdobe Campaignに与える影響について詳しく](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) は、Campaign Classicのプライバシーに関するドキュメントを参照してください。
+* **プライバシーとデータ保護に関する規制**：EU 一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）、その他の国際的なプライバシー要件、およびこれらの規制がご自身の企業や Adobe Campaign に与える影響については、[Campaign Classic のプライバシーに関するドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html)を参照してください。
 
 ### セキュリティ
 
 Adobe Campaignのセキュリティガイドラインと原則については、Campaignセキュリティチェックリスト](../config/security.md)を参照してください。[
 
-## キャンペーン設定の定義
+## Campaign 設定の定義
 
 ### ユーザーの追加と権限の付与
 
-Campaignに手動でユーザーを追加し、ロール階層に合わせてグループに関連付けることができます。 その後、ユーザーはログインし、適切なデータと権限にアクセスできます。
+Campaign にユーザーを手動で追加し、それらのユーザーを、役割の階層に合わせてグループに関連付けることができます。 その後、ユーザーはログインし、適切なデータと権限にアクセスできます。
 
-[!DNL :arrow_upper_right:] ユーザーをAdobe Campaignに追加する方法については、この節 [を参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)。
+[!DNL :arrow_upper_right:] ユーザーをAdobe Campaignに追加する方法については、この節 [を参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja#getting-started)。
 
-### Campaignクライアントコンソールのインストール
+### Campaign クライアントコンソールのインストール
 
-アプリケーションのメインユーザーインターフェイスは、リッチクライアント、つまり、Adobe Campaignアプリケーションサーバーと標準のインターネットプロトコル（SOAP、HTTPなど）でのみ通信するネイティブアプリケーション(Windows)です。 Adobe Campaign Client Consoleは、生産性を高める優れたユーザーフレンドリー性を備え、（ローカルキャッシュを使用して）帯域幅をほとんど使用せず、簡単にデプロイできるように設計されています。 このコンソールは、インターネットブラウザーから導入でき、自動的に更新でき、HTTP(S)トラフィックのみを生成するので、特定のネットワーク設定は不要です。
+アプリケーションのメインユーザーインターフェイスはリッチクライアントです。つまり、標準のインターネットプロトコル（SOAP、HTTP など）でのみ Adobe Campaign アプリケーションサーバーを通信するネイティブアプリケーション（Windows）です。Adobe Campaign クライアントコンソールは、生産性に優れた使いやすさを備え、帯域幅をほとんど使用せず（ローカルキャッシュを使用）、デプロイメントが容易になるよう設計されています。 このコンソールはインターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク構成は不要です。
 
 [!DNL :bulb:] [Campaignクライアントコンソールの詳細を説明します](connect.md)。
 
 ## 環境の準備
 
-メッセージの送信とマーケティングキャンペーンの作成を開始する前に、次の操作が必要です。
+メッセージの送信とマーケティングキャンペーンの作成を開始する前に、以下を行う必要があります。
 
 1. プロファイルのインポートとオーディエンスの作成
 
-   Campaignは、連絡先をCloudデータベースに追加する際に役立ちます。 ファイルの読み込み、複数の連絡先の更新のスケジュール設定と自動化、Webでのデータの収集、受信者テーブルへのプロファイル情報の直接入力を行うことができます。
+   Campaign を使用すると、クラウドデータベースに連絡先を追加できます。 ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。
 
    [!DNL :bulb:] [プロファイルのインポート方法を説明します](import.md)。
 
-   オーディエンスはリストにグループ化され、ワークフロー全体で作成できます。 その後、クロスチャネル配信でターゲットに設定できます。
+   オーディエンスはリストにグループ化され、ワークフローを通じて作成できます。その後、クロスチャネル配信でターゲットに設定できます。
 
    [!DNL :bulb:] [オーディエンスの定義方法について説明します](audiences.md)。
 
 1. テンプレートの作成
 
-   キャンペーン、配信、ジョブ、ワークフローはすべて、主要な設定と機能を格納するテンプレートに基づいています。 各コンポーネントには組み込みのテンプレートが提供され、特定の設定が定義されていません。 テンプレートをニーズに合わせて設定および調整し、エンドユーザーが使用できるようにする必要があります。
+   キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。組み込みテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。 ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
 
-   [!DNL :arrow_upper_right:] [電子メールテンプレートの詳細を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [電子メールテンプレートの詳細を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja)
 
-   [!DNL :arrow_upper_right:] キャンペーンテンプレートの使用方法については、このページを [参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] キャンペーンテンプレートの使用方法については、このページを [参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ja#orchestrating-campaigns)
 
-   [!DNL :arrow_upper_right:] このページでは、ワークフローテンプレートの設定方法につ [いて説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)
+   [!DNL :arrow_upper_right:] このページでは、ワークフローテンプレートの設定方法につ [いて説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=ja#workflow-templates)
 
 1. タイポロジルールの設定
 
-   キャンペーンタイポロジルールを活用して、配信の送信をフィルター、制御および監視します。 例えば、疲労ルールは、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。 実装すると、タイポロジルールが配信で参照されます。
+   Campaign タイポロジルールを活用して、配信送信をフィルタリング、制御、監視します。例えば、疲労ルールでは、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。実装が完了すると、タイポロジルールが配信で参照されます。
 
-   [!DNL :arrow_upper_right:] [タイポロジと疲労管理の詳細を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] [タイポロジと疲労管理の詳細を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=ja#orchestrating-campaigns)
 
-1. Campaignの組み込みデータモデルの概要
+1. Campaign の組み込みデータモデルの理解
 
-   Adobe Campaign には、事前定義済みのデータモデルが付属します。環境を実装およびカスタマイズするには、Adobe Campaignデータモデルの組み込みのテーブルと、それらの相互関係について理解している必要があります。
+   Adobe Campaign には、事前定義済みのデータモデルが付属しています。環境を実装およびカスタマイズするには、Adobe Campaign データモデルの組み込みテーブルとそれらの関係を理解しておく必要があります。
 
    [!DNL :bulb:] [Campaignデータモデルの詳細情報を参照してください](../dev/datamodel.md)。
 
 ## インスタンスのカスタマイズ
 
-様々なCampaign領域および機能をカスタマイズできます。 ほとんどのお客様は、次の3つをカスタマイズします。
+Campaign の様々な領域や機能をカスタマイズできます。ほとんどの顧客がカスタマイズしているのは、次の 3 つです。
 
 1. **テーブルとスキーマ**
 
-   Adobe Campaignには、データを識別する次のような一般的なスキーマが用意されています。受信者、配信ログ、購読などが含まれます。
+   Adobe Campaign には、受信者、配信ログ、購読などのデータを識別するための一般的なスキーマが用意されています。
 
    [!DNL :bulb:] Campaignの組み込みデータモデルについて詳しく [は、この節を参照してください](../dev/datamodel.md)。
 
@@ -111,67 +111,67 @@ Campaignに手動でユーザーを追加し、ロール階層に合わせてグ
 
 1. **ダッシュボードとリスト**
 
-   リストの設定、フィールドの追加と削除、列のカスタマイズを簡単に行うことができます。
+   リストの設定、フィールドの追加と削除、列のカスタマイズなどを簡単に行えます。
 
    [!DNL :bulb:] Campaignでフィルターとリストを管理する方法については、このページを [参照してください](../dev/customize.md#gs-lists-and-filters)。
 
-   また、必要に応じてCampaignデータを表示する新しいダッシュボードを作成することもできます。
+   また、必要に応じて、Campaign データを表示する新しいダッシュボードを作成することもできます。
 
-   [!DNL :bulb:][詳しくは、このページ](../dev/customize.md#gs-custom-dashboards)を参照してください。
+   [!DNL :bulb:]詳しくは、[このページ](../dev/customize.md#gs-custom-dashboards)を参照してください。
 
 1. **レポート**
 
-   Campaignには、配信の監視、URLとクリックストリーム、トラッキング、配信品質の指標などに関する組み込みレポートが用意されています。
+   Campaign には、配信の監視、URL およびクリックストリーム、トラッキング、配信品質インジケーターなどに関する一連の組み込みレポートが用意されています。
 
-   Adobe Campaign では、組み込みレポートのほかにも、様々なコンテキストで様々なニーズに応えるレポートを生成できます。このドキュメントでは、使用モードと実装モードの基本事項について詳しく説明します。
+   組み込みレポートに加えて、Adobe Campaign では、様々なコンテキストで様々なニーズに応えるレポートを生成できます。このドキュメントでは、使用モードと実装モードの原則について詳しく説明します。
 
    [!DNL :bulb:] Campaignのレポート機能について詳しくは、このページを [参照してください](reporting.md)。
 
 
-## キャンペーンの自動化の設定
+## キャンペーン自動処理の設定
 
-複数のチャネルをまたいで複雑なマーケティングキャンペーンを様々なオーディエンスに調整するには、キャンペーンの自動化機能を利用します。
+複数のチャネルにわたって複雑なマーケティングキャンペーンを様々なオーディエンスに合わせて調整するには、Campaign 自動処理機能を利用します。
 
 * ワークフロー：プロセスとデータの管理
 
 * 購読とランディングページ
 
-* タイポロジルール：疲労および制御管理
+* タイポロジルール：疲労と制御の管理
 
 ## デプロイメントの拡張
 
-### マルチソリューションの実装
+### 複数のソリューションの実装
 
-他のAdobeソリューションを使用している場合は、Campaign環境に接続し、機能を組み合わせることができます。
+他のアドビのソリューションを使用している場合は、それらを Campaign 環境に接続して機能を組み合わせることができます。
 
-* Campaign -Journey Orchestration
-* キャンペーン — リアルタイムCDP
-* Campaign -Experience Cloudトリガー
-* Campaign -Experience Manager
+* Campaign - Journey Orchestration
+* Campaign - リアルタイム CDP
+* Campaign - Experience Cloud トリガー
+* Campaign - Experience Manager
 * Campaign - Target
-* Campaign -Audience Manager/Peopleコアサービス
-* キャンペーン — アセット
-* Campaign - Analytics Dataコネクタ
+* Campaign - Audience Manager／People コアサービス
+* Campaign - Asset
+* Campaign - Analytics Data Connector
 
 
-シングルサインオン(SSO)を使用してCampaignに接続することもできます。 詳しくは、[このページ](connect.md)を参照してください。
+シングルサインオン（SSO）を使用して Campaign に接続することもできます。詳しくは、[このページ](connect.md)を参照してください。
 
 [!DNL :bulb:] Adobe Campaignと統合できるAdobeソリューションの完全なリストにつ [いては、このページ](../connect/integration.md)を参照してください。
 
 ### コネクタ
 
-Campaignをサードパーティのシステムと接続して、幅広い機能を組み合わせ、プロセスを自動化します。
+Campaign をサードパーティシステムに接続して、幅広い機能を組み合わせ、プロセスを自動化します。
 
 [!DNL :bulb:] 使用可能なコネクタについて詳しくは、この節 [を参照してください](../connect/integration.md)。
 
-**CRMをCampaignに接続**
+**Campaign への CRM の接続**
 
-Adobe CampaignプラットフォームをCRMサードパーティシステムに接続し、データを同期できます。連絡先、アカウント、購入など
+Adobe Campaign プラットフォームを CRM サードパーティシステムに接続し、連絡先、アカウント、購入などのデータを同期できます。
 
 [!DNL :bulb:] CRMシステムをCampaignに接続する方法については、この節を参 [照してください](../connect/integration.md#gs-crm-connectors)
 
 **外部データベースへの接続**
 
-Federated Data Access(FDA)モジュールを使用して、Campaign Cloudデータベースを外部システムに接続できます。
+Federated Data Access（FDA）モジュールを通じて、Campaign クラウドデータベースを外部システムに接続できます。
 
 [!DNL :bulb:] Campaign FDAモジュールを設定してアクセスパラメーターを定義する方法については、この節を [参照してください](../connect/integration.md#gs-fda)
