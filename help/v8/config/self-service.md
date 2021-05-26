@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 63%
@@ -56,4 +56,4 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html)
 * [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html)
 
-:[!DNL :arrow_upper_right:]:[このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)のCampaign コントロールパネル機能をすべて確認する
+[!DNL :arrow_upper_right:] このドキュメント内のすべてのCampaign コントロールパネル [機能を確認する](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
