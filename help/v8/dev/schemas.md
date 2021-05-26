@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaignスキーマの使用
 description: スキーマの概要
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1253'
 ht-degree: 7%
 
 ---
@@ -98,11 +98,11 @@ Campaignの組み込みテーブルとそのインタラクションについて
 
 受信者テーブル(nms:recipient)など、Campaignのコアデータスキーマの1つにフィールドまたは他の要素を追加するには、そのスキーマを拡張する必要があります。
 
-:bulb:詳しくは、[スキーマの拡張](extend-schema.md)を参照してください。
+[!DNL :bulb:] 詳しくは、スキーマの拡張を [参照してください](extend-schema.md)。
 
 Adobe Campaignに存在しないまったく新しいタイプのデータ（例えば契約のテーブル）を追加するには、カスタムスキーマを直接作成します。
 
-:bulb:詳しくは、[新しいスキーマの作成](create-schema.md)を参照してください。
+[!DNL :bulb:] 詳しくは、新しいスキーマの作 [成を参照してください](create-schema.md)。
 
 ![](assets/schemaextension_1.png)
 
@@ -154,7 +154,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >新しいスキーマを作成するときや、スキーマ拡張の際には、スキーマ全体で同じプライマリキーシーケンス値（@pkSequence）を維持する必要があります。
 
-:bulb:キーについて詳しくは、[この節](database-mapping.md#management-of-keys)を参照してください。
+[!DNL :bulb:] キーについて詳しくは、この節 [を参照してください](database-mapping.md#management-of-keys)。
 
 ## 属性（フィールド） {#attributes--fields-}
 
@@ -164,7 +164,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 属性の完全なリストは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)の`<attribute>`要素の節で参照できます。 よく使用される属性の一部を次に示します。**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**, **@name**, **@notNull**, **@required**, **@ref**, **&lt;a2@xml/>5/>、**@type **。**
 
-:arrow_upper_right:各属性について詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)の属性の説明を参照してください。
+:[!DNL :arrow_upper_right:]:各属性について詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)の属性の説明を参照してください。
 
 ### 例 {#examples}
 
