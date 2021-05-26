@@ -1,8 +1,8 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: CampaignとAdobe Targetの使用
-description: CampaignとAdobe Targetの使用方法を説明します
+title: Campaign と Adobe Target の連携
+description: Campaign と Adobe Target の連携方法について説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
@@ -10,22 +10,22 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 54%
+ht-degree: 89%
 
 ---
 
-# CampaignとAdobe Targetの使用
+# Campaign と Adobe Target の連携
 
-CampaignとTargetを接続して、Adobe TargetのオファーをAdobe CampaignのEメール配信に含めます。
+Campaign と Target を接続すると、Adobe Target からのオファーを Adobe Campaign の E メール配信に組み込むことができます。
 
-この統合により、次のような使用例を実装できます。Adobe Campaign経由で送信されたEメールを受信者が開くと、Adobe Targetを呼び出すことで、コンテンツの動的バージョンを表示できます。 この動的バージョンは、E メールを作成したときに事前に指定したルールに応じて自動生成されます。
+この統合により、次のような使用例を実装できます。Adobe Campaign経由で送信されたEメールを受信者が開くと、Adobe Targetを呼び出すことで、コンテンツの動的バージョンを表示できます。 この動的バージョンは、E メールの作成時に事前に指定したルールに応じて自動生成されます。
 
 >[!NOTE]
 >この統合が対応するのは、静的画像だけです。その他のタイプのコンテンツはパーソナライズできません。
 
 [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに連絡 [し](../start/campaign-faq.md#support) て、CampaignのExperience Cloudトリガーを実装します。
 
-Adobe Targetでは、次のタイプのデータを使用できます。
+Adobe Target では、次の種類のデータを使用できます。
 
 * Adobe Campaignデータベースからのデータ
 * Adobe Targetで訪問者IDにリンクされたセグメント（使用するデータが法的制限の対象でない場合のみ）
@@ -35,7 +35,7 @@ Adobe Targetでは、次のタイプのデータを使用できます。
 
 以下の例では、Adobe Targetの&#x200B;**動的なオファー**&#x200B;をAdobe CampaignのEメールに統合する方法を学びます。
 
-受信者の国に応じて動的に変化する画像を含むメッセージを作成したいと考えています。 データは、各 mbox リクエストごとに、訪問者の IP アドレスに基づいて送信されます。
+メッセージに含まれる画像が、受信者の国に応じて動的に変化するようなメッセージを作成します。データは、各 mbox リクエストごとに、訪問者の IP アドレスに基づいて送信されます。
 
 この E メールでは、画像の 1 つが次のユーザーエクスペリエンスに従って動的に変化します。
 
@@ -45,19 +45,19 @@ Adobe Targetでは、次のタイプのデータを使用できます。
 
 ![](assets/target_4.png)
 
-次の手順は、Adobe CampaignとAdobe Targetで実行する必要があります。
+以下の手順は、Adobe Campaign と Adobe Target で実行する必要があります。
 
-1. [ダイナミックオファーのEメールへの挿入](#inserting-dynamic-offer)
+1. [E メールへの動的なオファーの挿入](#inserting-dynamic-offer)
 1. [リダイレクトオファーの作成](#create-redirect-offers)
 1. [オーディエンスの作成](#audiences-target)
-1. [エクスペリエンスのターゲット設定アクティビティの作成](#creating-targeting-activity)
-1. [プレビューとメッセージの送信](#preview-send-email)
+1. [「エクスペリエンスのターゲット設定」アクティビティの作成 ](#creating-targeting-activity)
+1. [メッセージのプレビューと送信](#preview-send-email)
 
-### ダイナミックオファーをEメールに挿入します。{#inserting-dynamic-offer}
+### E メールへの動的なオファーの挿入 {#inserting-dynamic-offer}
 
-Adobe Campaignで、Eメールのターゲットとコンテンツを定義します。 Adobe Targetから動的画像を挿入できます。
+Adobe Campaign で、E メールのターゲットとコンテンツを定義します。Adobe Target からの動的な画像を挿入できます。
 
-これをおこなうには、デフォルトの画像のURL、場所名、Adobe Targetに転送するフィールドを指定します。
+それには、デフォルト画像の URL、場所名、Adobe Target に転送するフィールドを指定します。
 
 Adobe Campaign では、2 通りの方法で Target から E メールに動的イメージを挿入できます。
 
@@ -69,20 +69,20 @@ Adobe Campaign では、2 通りの方法で Target から E メールに動的�
 
    ![](assets/target_12.png)
 
-次に、画像パラメーターを定義します。
+次に、画像のパラメーターを定義します。
 
-* **[!UICONTROL デフォルトの画像]**&#x200B;のURLは、どの条件も満たされない場合に表示される画像です。 アセットライブラリから画像を選択することもできます。
-* **[!UICONTROL ターゲットの場所]**&#x200B;は、ダイナミックオファーの場所の名前です。 Adobe Targetアクティビティでこの場所を選択する必要があります。
-* **[!UICONTROL ランディングページ]**&#x200B;を使用すると、デフォルトの画像をデフォルトのランディングページにリダイレクトできます。 このURLは、デフォルト画像が最終的なEメールに表示される場合にのみ適用されます。 これはオプションです。
-* **[!UICONTROL 追加の判定パラメーター]**&#x200B;は、Adobe Targetセグメントで定義されたフィールドとAdobe Campaignフィールドの間のマッピングを定義します。 使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。この例では、「国」フィールドを追加しています。
+* **[!UICONTROL デフォルト画像]**&#x200B;の URL は、条件を満たすものがない場合に表示される画像です。アセットライブラリから画像を選択することもできます。
+* **[!UICONTROL ターゲットの場所]**&#x200B;は、動的なオファーの場所の名前です。 この場所は、Adobe Target のアクティビティで選択する必要があります。
+* **[!UICONTROL ランディングページ]**&#x200B;は、デフォルト画像からリダイレクトされて開くデフォルトのページです。この URL は、デフォルト画像が最終的な E メールに表示される場合にのみ適用されます。 これはオプションです。
+* **[!UICONTROL 追加の決定パラメーター]**&#x200B;は、Adobe Target セグメントで定義されたフィールドと Adobe Campaign のフィールドとのマッピングを指定します。使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。この例では、「国」フィールドを追加しています。
 
-Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=en#administer)を参照してください。
+Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=ja#administer)を参照してください。
 
 ![](assets/target_13.png)
 
-### リダイレクトオファーの作成{#create-redirect-offers}
+### リダイレクトオファーの作成 {#create-redirect-offers}
 
-Adobe Targetでは、様々なバージョンのオファーを作成できます。 各ユーザーエクスペリエンスに応じて、リダイレクトオファーを作成し、表示される画像を指定できます。
+Adobe Target では、オファーのさまざまなバージョンを作成できます。各ユーザーエクスペリエンスに応じて、リダイレクトオファーを作成し、表示される画像を指定できます。
 
 ここでは、2 つのリダイレクトオファーが必要です。3 番目（デフォルト）のものは、Adobe Campaign で定義します。
 
@@ -96,11 +96,11 @@ Adobe Targetでは、様々なバージョンのオファーを作成できま�
 
    ![](assets/target_6.png)
 
-1. 残りのリダイレクトオファーについても同じ手順を繰り返します。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=en#experiences)を参照してください。
+1. 残りのリダイレクトオファーについても同じ手順を繰り返します。詳しくは、この[ページ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja#experiences)を参照してください。
 
-### オーディエンスの作成{#audiences-target}
+### オーディエンスの作成 {#audiences-target}
 
-Adobe Targetでは、2つのオーディエンスを作成し、オファーを訪問する人を分類して、異なるコンテンツを配信する必要があります。 オーディエンスごとに、オファーを表示できる人を定義するルールを追加します。
+Adobe Target では、2 つのオーディエンスを作成する必要があります。オファーに訪問する人はそれらのオーディエンスに分類され、この分類ごとに、異なるコンテンツが配信されます。オーディエンスごとに、オファーを表示できる人を定義するルールを追加します。
 
 1. Target で新しいオーディエンスを作成するには、「**[!UICONTROL オーディエンス]**」タブで「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 
@@ -114,11 +114,11 @@ Adobe Targetでは、2つのオーディエンスを作成し、オファーを�
 
 1. 残りのオーディエンスについても同じ手順を繰り返します。
 
-### エクスペリエンスのターゲット設定アクティビティ{#creating-targeting-activity}の作成
+### 「エクスペリエンスのターゲット設定」アクティビティの作成 {#creating-targeting-activity}
 
-Adobe Targetで、エクスペリエンスのターゲット設定アクティビティを作成し、様々なエクスペリエンスを定義して、対応するオファーに関連付ける必要があります。
+Adobe Target では、「エクスペリエンスのターゲット設定」アクティビティを作成し、様々なエクスペリエンスを定義して、対応するオファーに関連付ける必要があります。
 
-最初に、オーディエンスを定義する必要があります。
+まず、オーディエンスを定義する必要があります。
 
 1. エクスペリエンスターゲット設定アクティビティを作成するには、「**[!UICONTROL アクティビティ]**」タブで、「**[!UICONTROL アクティビティを作成]**」をクリックし、「**[!UICONTROL エクスペリエンスターゲット設定]**」をクリックします。
 
@@ -136,7 +136,7 @@ Adobe Targetで、エクスペリエンスのターゲット設定アクティ�
 
 1. 「**[!UICONTROL エクスペリエンスのターゲットを追加]**」をクリックして、別のエクスペリエンスを作成します。
 
-次に、各オーディエンスのコンテンツを追加します。
+次に、オーディエンスごとにコンテンツを追加します。
 
 1. Adobe Campaign でダイナミックオファーを挿入する際に選択した場所名を選択します。
 
@@ -162,12 +162,12 @@ Adobe Targetで、エクスペリエンスのターゲット設定アクティ�
 
 ![](assets/target_experience_2.png)
 
-## メッセージ{#preview-send-email}をプレビューして送信します。
+## メッセージのプレビューと送信 {#preview-send-email}
 
-Adobe Campaign では、E メールをプレビューして、様々な受信者に対するレンダリングをテストできます。
+Adobe Campaign では、E メールをプレビューして、様々な受信者でのレンダリングをテストできます。
 
-作成されたエクスペリエンスごとに画像が変化することがわかります。
+作成される様々なエクスペリエンスに従って画像が変化することがわかります。
 
-これで、Target からのダイナミックオファーを含む E メールを送信する準備ができました。
+これで、Target からの動的なオファーを含んだ E メールを送信する準備が整いました。
 
 ![](assets/target_20.png)
