@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 23%
@@ -41,14 +41,15 @@ Adobe Campaign v8には、次の配信チャネルが付属しています。
 メッセージを作成し、そのコンテンツをデザインおよびテストしたら、メッセージの送信方法を選択できます。 Campaignには、次の一連の機能が用意されています。
 
 * メインターゲットへの手動でのメッセージの送信
-:[!DNL :arrow_upper_right:]:[メッセージの送信方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
+   [!DNL :arrow_upper_right:] [メッセージの送信方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html)
 * [マーケティングキャンペーン](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html)に関連付けられたメッセージの送信
-:[!DNL :arrow_upper_right:]:[キャンペーン](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html)のコンテキストでメッセージを送信する方法を説明します。
+   [!DNL :arrow_upper_right:] [キャンペーンのコンテキストでメッセージを送信する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html)。
 * [ワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)を介したメッセージの送信
-:[!DNL :arrow_upper_right:]:[Eメール配信を自動化する方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
-* [トリガー](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html) メッセージ：[!DNL :arrow_upper_right:]: [使用例：添付ファイルを含むトランザクションEメールの送信方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
+   [!DNL :arrow_upper_right:] [Eメール配信を自動化する方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html)
+* [トリガー](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html) メッセージ
+   [!DNL :arrow_upper_right:] [使用例：添付ファイルを含むトランザクションEメールの送信方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html)
 * メッセージのスケジュール
-:[!DNL :arrow_upper_right:]:[使用例：スケジュールを設定して誕生日のeメールを送信する方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
+   [!DNL :arrow_upper_right:] [使用例：誕生日のEメールのスケジュールと送信方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?)
 
 
 ## パーソナライゼーションを追加
@@ -57,9 +58,12 @@ Adobe Campaignが配信するメッセージは、様々な方法でパーソナ
 
 次の操作をおこなうことができます。
 
-* パーソナライゼーションフィールドの動的な挿入：:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)のパーソナライゼーションフィールドの使用方法を説明します
-* 定義済みパーソナライゼーションブロックの挿入：:[!DNL :arrow_upper_right:]:パーソナライゼーションブロックとは何か、および[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)でパーソナライゼーションブロックを使用する方法について説明します
-* 条件付きコンテンツの作成：:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)に条件付きコンテンツを挿入する方法を説明します
+* パーソナライゼーションフィールドの動的な挿入：
+   [!DNL :arrow_upper_right:] パーソナライゼーションフィールドの使用方法について詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
+* 定義済みパーソナライゼーションブロックの挿入：
+   [!DNL :arrow_upper_right:] パーソナライゼーションブロックとは何か、および [Campaign Classicv7ドキュメントでのパーソナライゼーションブロックの使用方法について説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html)
+* 条件付きコンテンツの作成：
+   [!DNL :arrow_upper_right:] 条件付きコンテンツを [Campaign Classicv7ドキュメントに挿入する方法](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html)
 
 ## トランザクションメッセージの送信
 
