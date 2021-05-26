@@ -6,7 +6,7 @@ description: CampaignでのEメールの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 Eメール配信により、ターゲット母集団にパーソナライズされたEメールを送信できます。
 
-:[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)を参照してください。
+[!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html)を参照してください。
 
 ## 最初のEメール配信を作成する
 
 残りの顧客体験と一貫した、パーソナライズされた文脈に応じたEメールを作成する。
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメントでEメール配信を作成する方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
+[!DNL :arrow_upper_right:] [Eメール配信の作成方法については、Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
 Eメールコンテンツに加えて、オーディエンスを直接Campaignに作成したりインポートしたりできます。 以下のリンクを使用して、以下の方法を学習してください。
 
@@ -43,7 +43,7 @@ Eメールコンテンツに加えて、オーディエンスを直接Campaign�
 
 Campaignには、Eメールをオーディエンスに送信する前にテストおよび検証する方法がいくつか用意されています。
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)にリストされているベストプラクティスを適用します。
+[!DNL :arrow_upper_right:] [Campaign Classicv7ドキュメントに記載されているベストプラクティスの適用](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
 
 次の操作をおこなうことができます。
 
@@ -53,11 +53,11 @@ Campaignには、Eメールをオーディエンスに送信する前にテス�
 * コントロール母集団の使用
 * Eメールのレンダリングを確認する
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメントの詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+[!DNL :arrow_upper_right:] [詳しくは、Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 ## Eメールの監視
 
 送信後、配信ダッシュボードで配信ステータスを確認し、配信ログとレポートにアクセスして、メッセージが正しく送信されたことを確認します。
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメントの詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
+[!DNL :arrow_upper_right:] [詳しくは、Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
