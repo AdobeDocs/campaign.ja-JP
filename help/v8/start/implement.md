@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 5%
@@ -37,11 +37,11 @@ ht-degree: 5%
 
 Adobe Campaignには、適用されるデータプライバシー法や受信者の好みに従ってCampaignを使用できるプロセスと設定が用意されています。 以下を管理できます。
 
-* **データの取得**:Adobe Campaignでは、個人情報や機密情報などのデータを収集できます。したがって、受信者から同意を受け取り、管理する必要があります。 詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)を参照してください。
+* **データの取得**:Adobe Campaignでは、個人情報や機密情報などのデータを収集できます。したがって、受信者から同意を受け取り、管理する必要があります。 詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#data-acquisition)を参照してください。
 
-* **ユーザーの同意とデータ保持**:ユーザーの同意を得る方法、二重のオプトインサブスクリプションメカニズムを設定する方法、オプトアウトを容易にする方法、および [Campaign Classicプライバシーに関するドキュメントでのデータ保持の設定方法を説明します](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
+* **ユーザーの同意とデータ保持**:ユーザーの同意を得る方法、二重のオプトインサブスクリプションメカニズムを設定する方法、オプトアウトを容易にする方法、および [Campaign Classicプライバシーに関するドキュメントでのデータ保持の設定方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=en#consent)
 
-* **プライバシーとデータ保護規制**:欧州連合 [の一般データ保護規則(GDPR)、カリフォルニア州消費者プライバシー法(CCPA)およびその他の国際的なプライバシー要件、およびこれらの規制が組織およびAdobe Campaignに与える影響について詳しく](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) は、Campaign Classicのプライバシーに関するドキュメントを参照してください。
+* **プライバシーとデータ保護規制**:欧州連合 [の一般データ保護規則(GDPR)、カリフォルニア州消費者プライバシー法(CCPA)およびその他の国際的なプライバシー要件、およびこれらの規制が組織およびAdobe Campaignに与える影響について詳しく](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html) は、Campaign Classicのプライバシーに関するドキュメントを参照してください。
 
 ### セキュリティ
 
