@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 5%
@@ -79,17 +79,17 @@ Campaignに手動でユーザーを追加し、ロール階層に合わせてグ
 
    キャンペーン、配信、ジョブ、ワークフローはすべて、主要な設定と機能を格納するテンプレートに基づいています。 各コンポーネントには組み込みのテンプレートが提供され、特定の設定が定義されていません。 テンプレートをニーズに合わせて設定および調整し、エンドユーザーが使用できるようにする必要があります。
 
-   :[!DNL :arrow_upper_right:]:[電子メールテンプレートの詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [電子メールテンプレートの詳細を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 
-   :[!DNL :arrow_upper_right:]:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)でキャンペーンテンプレートの使用方法を説明します。
+   [!DNL :arrow_upper_right:] キャンペーンテンプレートの使用方法については、このページを [参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
 
-   :[!DNL :arrow_upper_right:]:[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)でワークフローテンプレートを設定する方法を説明します。
+   [!DNL :arrow_upper_right:] このページでは、ワークフローテンプレートの設定方法につ [いて説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=en#workflow-templates)
 
 1. タイポロジルールの設定
 
    キャンペーンタイポロジルールを活用して、配信の送信をフィルター、制御および監視します。 例えば、疲労ルールは、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。 実装すると、タイポロジルールが配信で参照されます。
 
-   :[!DNL :arrow_upper_right:]:[タイポロジと疲労管理の詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] [タイポロジと疲労管理の詳細を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=en#orchestrating-campaigns)
 
 1. Campaignの組み込みデータモデルの概要
 
