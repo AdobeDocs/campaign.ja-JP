@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 15b11b144d0086adf8aade0e2a3c9b388d6163dd
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1212'
 ht-degree: 18%
 
 ---
@@ -50,21 +50,21 @@ Adobe Campaignのワークフローを使用して、セグメントの作成、
 
 繰り返しワークフローをデザインし、ワークフローを実行するたびに新しい配信インスタンスを作成します。 例えば、ワークフローが週に1回実行するように設計されている場合、1年後には52件の配信がおこなわれます。 また、ログは各配信インスタンスで区切られます。
 
-:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)で繰り返しキャンペーンを作成する方法を説明します。
+:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)で繰り返しキャンペーンを作成する方法を説明します。
 
 
 ## トリガーイベントの活用
 
 Campaignトランザクションメッセージを使用して、情報システムからトリガーされるイベントから生成されるメッセージを自動化します。 例えば、これらのトランザクションメッセージには、請求書、注文確認、発送確認、パスワード変更、製品の利用不可通知、アカウント明細、Webサイトアカウントの作成などが含まれます。 これらのメッセージは、個別に、またはバッチで、Eメール、SMS、プッシュ通知経由で送信できます。
 
-:arrow_upper_right:トランザクションメッセージ機能について詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging)を参照してください。
+:[!DNL :arrow_upper_right:]:トランザクションメッセージ機能について詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging)を参照してください。
 
 
 Adobe CampaignとAdobe Analyticsを接続して、ユーザーのアクションを取得し、ほぼリアルタイムでパーソナライズされたメッセージを送信します。
 
-:arrow_upper_right:[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud)で、CampaignをAnalyticsトリガーと統合する方法を説明します。
+:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud)で、CampaignをAnalyticsトリガーと統合する方法を説明します。
 
-:bulb:[この節](../start/connect.md)でCampaignを他のソリューションと統合する方法を説明します。
+[!DNL :bulb:] Campaignを他のソリューションと統合する方法については、この節を [参照してください](../start/connect.md)
 
 
 ## ワークフローのエンドツーエンドの使用例{#end-to-end-uc}
