@@ -1,19 +1,19 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: 新しいCampaign v8 API
-description: 新しいCampaign v8 API
+title: Campaign v8 の新しい API
+description: Campaign v8 の新しい API
 feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: d872702fe8933a1ef200b690f21efcbd8e5ab3bc
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# 新しいキャンペーンAPI{#gs-new-api}
+# Campaign の新しい API{#gs-new-api}
 
 Campaign v8には、CampaignローカルデータベースとCloudデータベースの間のデータを管理する3つの新しいAPIが付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細情報](staging.md)。
 
