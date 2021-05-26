@@ -6,10 +6,10 @@ description: 'CampaignとCRMの使用方法を説明します。 '
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 31%
+source-wordcount: '267'
+ht-degree: 35%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 サポートされている CRM とそのバージョンについて詳しくは、Campaign の[互換性マトリックス](../start/compatibility-matrix.md)を参照してください。
 
-:speech_balloon:CRMコネクタは、セキュリティで保護されたURL(https)でのみ機能します。
+[!DNL :speech_balloon:]CRM コネクタはセキュア URL（https）でのみ動作します。
 
 ## 実装手順 {#crm-implementation-steps}
 
