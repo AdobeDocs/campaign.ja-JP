@@ -6,7 +6,7 @@ description: Campaign v8での購読と購読解除の管理方法を説明し�
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 25%
@@ -23,25 +23,25 @@ Adobe Campaignを使用して、ニュースレターなどの情報サービス
 
 * 受信者プロファイルにサービスを手動で追加するには：これをおこなうには、プロファイルの「**[!UICONTROL 購読]**」タブで「**[!UICONTROL 追加]**」をクリックし、関連する情報サービスを選択します。
 
-   :[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)を参照してください。
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
 * 一連の受信者を自動的にサービスに購読登録します。 受信者のリストは、フィルター操作、グループ、フォルダー、インポートまたは直接手動による選択から取得できます。 この受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション/サービスの購読選択…を選択します。]**、該当するサービスを選択し、操作を開始します。
 
-   :[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)を参照してください。
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
 
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
 
-   :[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=en#step-5---additional-step-when-importing-recipients)を参照してください。
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=en#step-5---additional-step-when-importing-recipients)
 
 * 受信者をサービスに購読登録できる Web フォームを使用します。
 
-   :[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)を参照してください。
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 
 * ターゲティングワークフローを作成し、**[!UICONTROL 購読サービス]**&#x200B;アクティビティを使用します。
 
-   :[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)を参照してください。
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
 
 
 プロファイルをサービスから購読解除（オプトアウト）するには、次のオプションを使用できます。
