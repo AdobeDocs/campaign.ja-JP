@@ -7,9 +7,9 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '772'
 ht-degree: 11%
 
 ---
@@ -104,13 +104,13 @@ Campaignユーザーは、AdobeIdentity Managementシステム(IMS)を使用し�
 * パスワード管理ポリシーの強化。
 * Federated ID アカウント（外部の ID プロバイダー）を使用します。
 
-:speech_balloon:管理対象Cloud Servicesユーザーの場合は、[Adobe](campaign-faq.md#support)に連絡して、CampaignでAdobeIMSを実装します。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡し](campaign-faq.md#support) て、CampaignとのAdobeIMSを実装します。
 
 ## LDAPログインを使用したCampaignへの接続
 
 Adobe Campaignは、ユーザーがLDAP認証を使用してプラットフォームにアクセスするように設定できます。
 
-:speech_balloon:管理対象Cloud Servicesのユーザーとして、[Adobe](campaign-faq.md#support)に連絡し、CampaignとのLDAP統合を設定します。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーとして、アドビに [連絡](campaign-faq.md#support) し、CampaignとのLDAP統合を設定してください。
 
 
 ## Webアクセス{#web-access}
