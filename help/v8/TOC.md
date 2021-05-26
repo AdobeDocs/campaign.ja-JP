@@ -3,49 +3,49 @@ solution: Campaign v8
 product: Adobe Campaign
 audience: end-user
 user-guide-title: Campaign v8
-description: Campaign v8ドキュメント
+description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
-title: Campaign v8ドキュメント
+title: Campaign v8 ドキュメント
 hide: true
 source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 39%
+ht-degree: 87%
 
 ---
 
 
-# Adobe Campaign v8ドキュメント{#campaign-v8}
+# Adobe Campaign v8 ドキュメント {#campaign-v8}
 
-+ [Campaign v8ドキュメント](campaign-home.md)
++ [Campaign v8 ドキュメント](campaign-home.md)
 + 新機能{#start}
    + [主な機能](start/whats-new.md)
    + [リリースノート](start/release-notes.md)
    + [既知の制限事項](start/known-limitations.md)
-   + [Classic v7からv8](start/capability-matrix.md)
+   + [Classic v7 から v8](start/capability-matrix.md)
 + 開始 {#start}
    + [はじめに](start/get-started.md)
-   + [Profiles &amp; Audiences](start/audiences.md)
-   + [データのインポート](start/import.md)
+   + [プロファイルとオーディエンス](start/audiences.md)
+   + [データの読み込み](start/import.md)
    + [キャンペーンの作成](start/campaigns.md)
    + [メッセージの送信](start/create-message.md)
    + [購読の管理](start/subscriptions.md)
    + [追跡と監視](start/tracking.md)
-   + [指標およびレポート](start/reporting.md)
+   + [指標とレポート](start/reporting.md)
    + [よくある質問](start/campaign-faq.md)
-+ {#implement}の実装
++ 実装 {#implement}
    + [実装の手順](start/implement.md)
    + [インスタンスのカスタマイズ](dev/customize.md)
    + [セキュリティガイドライン](config/security.md)
-   + [Webアプリとフォームのデザイン](dev/webapps.md)
+   + [web アプリとフォームの設計](dev/webapps.md)
    + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
 + デプロイ {#deploy}
    + [互換性マトリックス](start/compatibility-matrix.md)
-   + [Campaign に接続](start/connect.md)
+   + [Campaign への接続](start/connect.md)
    + [権限](start/permissions.md)
    + [Campaign コントロールパネル](config/self-service.md)
 + 送信 {#send}
-   + [Eメール](send/email.md)
+   + [E メール](send/email.md)
    + [SMS](send/sms.md)
    + [プッシュ通知](send/push.md)
    + [LINEメッセージ](send/line.md)
@@ -65,33 +65,33 @@ ht-degree: 39%
 + 設定 {#config}
    + [ワークフローを使用した自動化](config/workflows.md)
    + [データの管理](config/replication.md)
-   + [電子メールの設定](config/email-settings.md)
+   + [E メールの設定](config/email-settings.md)
    + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
    + [外部アカウント](config/external-accounts.md)
 + 接続 {#connect}
    + [他のソリューションとの接続](connect/integration.md)
-   + [Campaign + Analytics](connect/ac-aa.md)
-   + [キャンペーン+Experience Manager](connect/ac-aem.md)
-   + [Campaign + Target](connect/ac-at.md)
-   + [Campaign + RTCDP](connect/ac-rtcdp.md)
-   + [Campaign + Twitter](connect/ac-tw.md)
-   + [Campaign +外部データベース](connect/fda.md)
-   + [CampaignとCRM](connect/crm.md)
-+ 開発者リソース{#architecture}
-   + [グローバルな原則](dev/general-architecture.md)
+   + [Campaign と Analytics の統合](connect/ac-aa.md)
+   + [Campaign と Experience Manager の統合](connect/ac-aem.md)
+   + [Campaign と Target の統合](connect/ac-at.md)
+   + [Campaign と RTCDP の統合](connect/ac-rtcdp.md)
+   + [Campaign と Twitter の統合](connect/ac-tw.md)
+   + [Campaign と外部データベースの統合](connect/fda.md)
+   + [Campaign と CRM の統合](connect/crm.md)
++ 開発者向けリソース {#architecture}
+   + [グローバル原則](dev/general-architecture.md)
    + [アーキテクチャ](dev/architecture.md)
    + [データモデル](dev/datamodel.md)
-   + スキーマとフォーム{#shemas-forms}
+   + スキーマとフォーム {#shemas-forms}
       + [スキーマの操作](dev/schemas.md)
       + [スキーマの作成](dev/create-schema.md)
       + [スキーマの拡張](dev/extend-schema.md)
       + [スキーマの構造](dev/schema-structure.md)
-      + [データベースマッピング](dev/database-mapping.md)
-      + [PIビューを制限](dev/restrict-pi-view.md)
+      + [データベースのマッピング](dev/database-mapping.md)
+      + [PI の閲覧を制限](dev/restrict-pi-view.md)
       + [カスタム受信者テーブルの使用](dev/custom-recipient.md)
       + [データベースの更新](dev/update-database-structure.md)
       + [入力フォーム](dev/forms.md)
    + API {#api}
       + [はじめに](dev/api.md)
-      + [新しいAPI](dev/new-apis.md)
+      + [新しい API](dev/new-apis.md)
       + [APIのステージングメカニズム](dev/staging.md)
