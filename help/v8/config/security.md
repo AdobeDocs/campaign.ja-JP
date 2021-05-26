@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaignのセキュリティのベストプラクティス
 description: Campaignのセキュリティのベストプラクティスの概要
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '509'
 ht-degree: 33%
 
 ---
@@ -25,7 +25,7 @@ Adobeでは、デジタルエクスペリエンスのセキュリティを非常
 * 暗号化されたパスワードが制限されていることを確認します。
 * ミラーページや Web アプリケーションのように、個人情報を含む可能性があるページを保護します。
 
-:speech_balloon:管理対象Cloud Servicesのユーザーとして、Adobeはお客様と連携し、お客様の環境にこれらの設定を実装します。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーとして、Adobeはお客様と連携し、お客様の環境にこれらの設定を実装します。
 
 ## パーソナライゼーション
 
