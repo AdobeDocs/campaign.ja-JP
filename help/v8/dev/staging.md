@@ -6,9 +6,9 @@ description: キャンペーンAPIのステージングメカニズム
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ Campaign Classicv7 APIは引き続き使用できますが、この新しいス�
    </srcSchema>
    ```
 
-   :bulb:[このページ](create-schema.md)でのカスタムスキーマの作成について詳しく説明します。
+   [!DNL :bulb:] カスタムスキーマの作成について詳しくは、このペ [ージを参照してください](create-schema.md)。
 
 1. データベース構造を保存して更新します。  [詳細情報](update-database-structure.md)
 
