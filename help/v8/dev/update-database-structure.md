@@ -6,13 +6,13 @@ description: データベース構造の更新
 source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# データベース構造{#updating-the-database-structure}の更新
+# データベース構造の更新{#updating-the-database-structure}
 
-スキーマに対する変更を適用するには、データベース更新ウィザードを起動します。 このアシスタントには、 **[!UICONTROL ツール/詳細設定/データベース構造を更新]**&#x200B;からアクセスできます。 データベースの物理構造が論理的な説明と一致するかどうかを確認し、SQL更新スクリプトを実行します。
+スキーマに加えた変更を適用するには、データベース更新ウィザードを起動します。この機能は、**[!UICONTROL ツール／詳細／データベース構造を更新]**&#x200B;から利用できます。 データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL 更新スクリプトを実行します。
 
 ![](assets/schema_update.png)
 
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 ![](assets/schema_update_select2.png)
 
-次の手順に従い、データベース更新SQLスクリプトを表示します。
+手順に従い、データベース更新 SQL スクリプトを表示します。
 
 ![](assets/schema_update2.png)
 
 >[!NOTE]
 >
->これは編集フィールドにあり、SQLコードを削除または追加するために変更できます。
+>このスクリプトは編集フィールドにあり、編集して SQL コードを削除または追加することもできます。
 
-次に、データベースの更新を開始します。
+次に、データベースの更新を起動します。
 
 ![](assets/schema_update3.png)
