@@ -6,9 +6,9 @@ description: CampaignのEメールチャネル設定
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 44%
 
 ---
@@ -32,7 +32,7 @@ Adobe Campaign自体は、アーカイブされたファイルを管理しませ
 
 * 正常に送信された電子メールのみが考慮され、バウンスは考慮されません。
 
-:speech_balloon:管理対象Cloud Servicesのユーザーとして、[Adobe](../start/campaign-faq.md#support)に連絡し、CampaignでEメールのBCCを有効にします。 選択したBCC電子メールアドレスは、ユーザーに設定を依頼するAdobeチームに提供する必要があります。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesユーザーとして、Adobeに連絡 [し、Campaign](../start/campaign-faq.md#support) でEメールのBCCを有効化してもらいます。選択したBCC電子メールアドレスは、ユーザーに設定を依頼するAdobeチームに提供する必要があります。
 
 EメールBCCを設定したら、配信テンプレートまたは配信で、「**BCCでEメールを送信**」オプションを使用してこの機能が有効になっていることを確認します。
 
