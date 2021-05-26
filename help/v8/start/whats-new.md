@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -57,5 +57,5 @@ Campaignは、次のような強力なAdobeソリューションと統合でき�
 
 また、ジャーニーAIを使用して、予測送信時間の最適化と予測エンゲージメントスコアリングを設定し、開封率、クリック数、売上高を増やすこともできます。
 
-:bulb:[Campaign統合の詳細](../connect/integration.md)
+[!DNL :bulb:] [Campaign統合の詳細を説明します](../connect/integration.md)
 
