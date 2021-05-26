@@ -1,8 +1,8 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: CampaignとTwitterの使用
-description: CampaignとTwitterの使用方法を説明します
+title: Campaign と Twitter の連携
+description: Campaign と Twitter の連携方法について学ぶ
 feature: 概要
 role: Data Engineer
 level: Beginner
@@ -12,36 +12,36 @@ hide: true
 source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
-# CampaignとTwitterの使用
+# Campaign と Twitter の連携
 
 **まだ利用できません**
 
-twitterを介して顧客や見込み客とやり取りするには、**ソーシャルネットワークの管理（ソーシャルマーケティング）**&#x200B;オプションを使用します。
+**ソーシャルネットワーク（ソーシャルマーケティング）の管理**&#x200B;オプションを使用すると、顧客や見込み顧客と Twitter でやり取りできるようになります。
 
-* メッセージの送信 — Adobe Campaign Social Marketingを使用して、Twitterでメッセージを送信します。 Adobe Campaignでは、twitterアカウントに直接メッセージを投稿できます。 また、 フォロワー全員にダイレクトメッセージを送信することもできます。
+* メッセージの送信 - Adobe Campaign のソーシャルマーケティングを使用して、Twitter でメッセージを送信します。Adobe Campaign を使用すると、メッセージを直接 twitter アカウントに投稿できます。フォロワー全員にダイレクトメッセージを送信することも可能です。
 
-* 新しい連絡先の収集 — Adobe Campaign Social Marketingを使用すると、Facebookを介して新しい連絡先を簡単に取得できます。ユーザーに問い合わせ、自分のプロファイル情報を共有したいかどうかを尋ねます。 ユーザーが同意した場合、Adobe Campaign はデータを自動的に回収します。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略を導入できます。
+* 新しい連絡先の収集 - Adobe Campaign ソーシャルマーケティングを使用すると、Facebook で新しい連絡先を簡単に取得できます。ユーザーに連絡して、プロファイル情報を共有してよいか尋ねます。ユーザーが同意すると、Adobe Campaign で情報が自動的に収集されます。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略も導入できます。
 
 ## 設定の手順
 
 情報の取得元：
 
-https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/configuration/configuring-publishing-on-twitter.html?lang=en#integrating-with-social-media
+https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/configuration/configuring-publishing-on-twitter.html?lang=ja#integrating-with-social-media
 
 
 ## Twitter での公開
 
 情報の取得元：
 
-https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/publishing-on-facebook-twitter/publishing-on-twitter.html?lang=en#integrating-with-social-media
+https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/publishing-on-facebook-twitter/publishing-on-twitter.html?lang=ja#integrating-with-social-media
 
 
 ## トラッキング
 
 情報の取得元：
 
-https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/annexes/tracking.html?lang=en#integrating-with-social-media
+https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-social-media/annexes/tracking.html?lang=ja#integrating-with-social-media
