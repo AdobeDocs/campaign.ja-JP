@@ -6,16 +6,16 @@ description: キャンペーントランザクションメッセージの設定
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 21%
 
 ---
 
 # トランザクションメッセージの設定
 
-:speech_balloon:管理対象Cloud Servicesのユーザーは、[Adobe](../start/campaign-faq.md#support)に連絡して、お使いの環境にCampaignトランザクションメッセージをインストールして設定します。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに連絡 [し](../start/campaign-faq.md#support) て、お使いの環境にCampaignトランザクションメッセージをインストールおよび設定してください。
 
 [!DNL :bulb:] トランザクションメッセージ機能について詳しく [は、この節](../send/transactional.md)を参照してください。
 
