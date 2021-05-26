@@ -6,7 +6,7 @@ description: オファーカタログの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 76%
@@ -79,7 +79,7 @@ ht-degree: 76%
 
 **エンリッチメント**&#x200B;アクティビティを使用して、配信の受信者向けのオファーにオファーやリンクを追加できます。
 
-:[!DNL :arrow_upper_right:]:「エンリッチメント」アクティビティについて詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)を参照してください。
+[!DNL :arrow_upper_right:] 「エンリッチメント」アクティビティについて詳しくは、 [Campaign Classicv7ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
@@ -166,7 +166,7 @@ ht-degree: 76%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティも、配信の前にオファーエンジンの呼び出しを指定できます。
 
-:[!DNL :arrow_upper_right:]:**オファーエンジン**&#x200B;アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)を参照してください。
+[!DNL :arrow_upper_right:] オファーエンジニアクティビ **ティにつ** いて詳しくは、 [Campaign Classicv7ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
 このアクティビティは、配信の前に、エンジンによって計算されたオファーでインバウンド母集団データをエンリッチメントすることで、エンジン呼び出しを使用する「**エンリッチメント**」アクティビティと同じ原則に従って動作します。
 
@@ -189,7 +189,7 @@ ht-degree: 76%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-:[!DNL :arrow_upper_right:]:**セル別オファー**&#x200B;アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)を参照してください。
+[!DNL :arrow_upper_right:] セルアクティビティ別のオファ **ーについて** 詳しくは、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
 
 それには、次の手順に従います。
 
