@@ -6,7 +6,7 @@ description: Campaign外部アカウント
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 24%
@@ -146,7 +146,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 これらの外部アカウントは、**[!UICONTROL ファイル]**&#x200B;転送ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポートするために使用できます。
 
-:[!DNL :arrow_upper_right:]:ワークフローでのファイル転送について詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)を参照してください。
+[!DNL :arrow_upper_right:] ワークフローでのファイル転送について詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
 
 * **FTPとSFTP**
 
