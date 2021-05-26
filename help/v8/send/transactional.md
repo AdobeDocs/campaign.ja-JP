@@ -6,9 +6,9 @@ description: トランザクションメッセージの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1545'
 ht-degree: 73%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらのメッセージは、情報システムからトリガーされたイベントから生成されます。例えば、請求書、オーダー確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、Web サイトアカウント作成などのメッセージがあります。
 
-:speech_balloon:管理対象Cloud Servicesのユーザーは、[Adobe](../start/campaign-faq.md#support)に連絡して、お使いの環境にCampaignトランザクションメッセージをインストールして設定します。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに連絡 [し](../start/campaign-faq.md#support) て、お使いの環境にCampaignトランザクションメッセージをインストールおよび設定してください。
 
 トランザクションメッセージは、次の送信に使用されます。
 
