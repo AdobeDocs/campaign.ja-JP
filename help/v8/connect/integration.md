@@ -10,54 +10,54 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 11%
+ht-degree: 80%
 
 ---
 
 # Campaignをソリューションと接続する{#gs-ac-connectors}
 
-CampaignインスタンスをAdobe Experience Cloudソリューションと接続して、機能を組み合わせることができます。
+Campaign インスタンスを Adobe Experience Cloud ソリューションと接続して、それぞれの機能を組み合わせることができます。
 
-Adobe Campaignには、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有、同期を可能にするコネクタがいくつか用意されています。
+Adobe Campaign にはいくつかのコネクタが付属しており、それらを使用して、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期などを行うことができます。
 
-## Adobe・ソリューションの活用{#gs-ac-integration}
+## Adobe ソリューションの活用 {#gs-ac-integration}
 
-実装を最新化し、すべてのAdobe Experience Cloud機能を活用します。
+実装を最新化し、Adobe Experience Cloud のすべての機能を活用します。
 
-[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、Adobeに問い合わせ [て、](../start/campaign-faq.md#support) CampaignをAdobe Experience Cloudのサービスおよびソリューションと接続します。AdobeIdentity Managementサービス(IMS)を実装する必要があります。 [詳細情報](../start/connect.md#connect-ims)
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、Adobeに問い合わせ [て、](../start/campaign-faq.md#support) CampaignをAdobe Experience Cloudのサービスおよびソリューションと接続します。Adobe Identity Management Service（IMS）を実装する必要があります。[詳細情報](../start/connect.md#connect-ims)
 
-Campaign v8は、次のものと接続できます。
+キャンペーン v8 は以下と接続できます。
 
-* [AdobeJourney Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)
+* [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=ja)
 
-* [リアルタイムCDP](../connect/ac-rtcdp.md)
+* [Real-Time CDP](../connect/ac-rtcdp.md)
 
-* [Adobe Analytics Data Connector](../connect/ac-aa.md)
+* [Adobe Analytics コネクタ](../connect/ac-aa.md)
 
 * [Adobe Experience Manager](../connect/ac-aem.md)
 
 * [Adobe Target](../connect/ac-at.md)
 
-また、Experience Cloudソリューション全体で&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を、アセット共有およびオーディエンス共有機能と組み合わせることもできます。
+アセット共有機能とオーディエンス共有機能を使用すると、複数の Experience Cloud ソリューションにわたって&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
 
-[!DNL :arrow_upper_right:] CampaignとExperience Cloudソリ **ューシ** ョン間でのオーディエンスの共有について詳しくは、 [Campaign Classicv7ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+[!DNL :arrow_upper_right:] CampaignとExperience Cloudソリ **ューシ** ョン間でのオーディエンスの共有について詳しくは、 [Campaign Classicv7ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)
 
-[!DNL :arrow_upper_right:] CampaignとExperience Cloudソリ **ュー** ション間でのアセットの共有について詳しくは、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+[!DNL :arrow_upper_right:] CampaignとExperience Cloudソリ **ュー** ション間でのアセットの共有について詳しくは、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)
 
 ## CRM コネクタ{#gs-crm-connectors}
 
-Adobe Campaignプラットフォームを&#x200B;**CRMサードパーティシステム**&#x200B;に接続し、データを同期できます。連絡先、アカウント、購入など
+Adobe Campaign プラットフォームを&#x200B;**サードパーティの CRM システム**&#x200B;に接続して、連絡先、アカウント、購入などのデータを同期することができます。
 
-クロスチャネル通信でCRMデータをアクティブ化します。CRMシステムからAdobe Campaignに連絡先を渡し、Adobe CampaignからCRMシステムにキャンペーンデータを共有する方法を説明します。
-CRMコネクタを使用すると、データをすばやく簡単に統合できます。Adobe Campaignは、CRMで使用できるテーブルを収集および選択するための専用のアシスタントを提供します。 これにより、システム全体でデータを常に最新にするための双方向の同期が保証されます。
+CRM データをチャネル間通信でアクティブ化します。CRM システムから Adobe Campaign に連絡先を渡し、Adobe Campaign から CRM システムにキャンペーンデータを共有する方法について説明します。
+CRM コネクタを使用すると、すばやく簡単にデータを統合できます。Adobe Campaign に用意されている専用のウィザードを使用すると、使用可能なテーブルを CRM で収集し、そこから選択することができます。これにより双方向の同期が確保され、システム全体でデータを常に最新に保つことができます。
 
 [!DNL :bulb:] CampaignをMicrosoft Dynamics 365およびSalesforce.comと統合する方法については、このページを参照し [てください](crm.md)
 
 ## Federated Data Access（FDA）{#gs-fda}
 
-FDAコネクタ(Federated Data Access)を使用して、Campaignを1つ以上の&#x200B;**外部データベース**&#x200B;に接続し、Campaign Cloudデータベースデータに影響を与えることなく、それらに保存された情報を処理します。
+FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 つまたは複数の&#x200B;**外部データベース**&#x200B;に接続して、Campaign Cloud データベースのデータに影響を与えることなく、外部データベースに格納された情報を処理できます。
 
-[!DNL :bulb:] 詳しくは、このページを [参照してください。](fda.md)
+[!DNL :bulb:]詳しくは、[このページ](fda.md)を参照してください。
 
 
 <!-- 
