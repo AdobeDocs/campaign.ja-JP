@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 17%
 
 ---
@@ -35,7 +35,7 @@ Adobe Campaignには、次の一連のレポートツールが用意されてい
 クエリ、計算、ボリュームの複雑さに応じて、これらのレポートで分析されたデータをクエリを使用して収集し、リスト（データ管理タイプのワークフロー）またはキューブ（マーケティング分析を使用）で事前に集計できます。 データはピボットテーブルまたはグループリストの形式で表示されます。
 
 
-:arrow_upper_right:レポート機能について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html)を参照してください。
+:[!DNL :arrow_upper_right:]:レポート機能について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html)を参照してください。
 
 Adobe Campaignレポートは最適化され、Campaign Classicv7よりも優れたスケール機能を提供します。 キューブに関する既存の制限は適用されません。
 
