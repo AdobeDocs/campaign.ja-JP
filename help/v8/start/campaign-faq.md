@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 45%
+source-wordcount: '638'
+ht-degree: 46%
 
 ---
 
@@ -24,7 +24,7 @@ Campaignの操作に関してヘルプが必要な場合は、 以下のよく�
 
    この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対する体験を向上させ、最新かつ最大限の情報を手に入れることを目的としています。これが、最新バージョンの Adobe Campaign を実行することが非常に重要であると考える理由です。
 
-   :speech_balloon:管理対象Cloud Servicesのユーザーは、新しいリリースのたびに、Adobeによってインスタンスがアップグレードされます。
+   [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、新しいリリースのたびに、Adobeによってインスタンスがアップグレードされます。
 
 1. **Campaign v8に接続するにはどうすればよいですか？**
 
@@ -62,7 +62,7 @@ Campaignの操作に関してヘルプが必要な場合は、 以下のよく�
 
    サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 
-   :speech_balloon:管理対象Cloud Servicesのユーザーとして、[Adobe](../start/campaign-faq.md#support)に連絡し、サブドメインをAdobeにデリゲートします。
+   [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに問い合わ [せ](../start/campaign-faq.md#support) て、サブドメインをAdobeにデリゲートします。
 
 1. **Campaign Classicv7ユーザーは、Campaign v8に移行できますか。**
 
