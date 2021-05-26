@@ -7,7 +7,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 22%
@@ -44,7 +44,7 @@ Adobe Campaign では、ターゲティングおよびパーソナライズさ�
 
 Adobe Campaignでは、統合コントロールセンターから、すべてのマーケティングキャンペーンを作成、設定、実行および分析できます。
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)でマーケティングキャンペーンにアクセスして実装する方法を確認する
+[!DNL :arrow_upper_right:] マーケティングキャンペーンへのアクセス方法と実装方法については、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=en#orchestrating-campaigns)
 
 
 ## 開始するための主な手順
