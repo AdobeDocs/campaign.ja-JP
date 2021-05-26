@@ -1,29 +1,29 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: Campaignおよび外部データベースの使用(FDA)
-description: Campaignおよび外部データベースの使用方法を説明します。
+title: Campaign および外部データベースの操作（FDA）
+description: Campaign および外部データベースを操作する方法
 feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: 6f50be1e5c03937544e81582c2989b4345bb335d
 workflow-type: tm+mt
 source-wordcount: '1923'
-ht-degree: 54%
+ht-degree: 58%
 
 ---
 
 # Federated Data Access（FDA）{#gs-fda}
 
-FDAコネクタ(Federated Data Access)を使用して、Campaignを1つ以上の&#x200B;**外部データベース**&#x200B;に接続し、Campaign Cloudデータベースデータに影響を与えることなく、それらに保存された情報を処理します。 その後、Adobe Campaignデータの構造を変更せずに、外部データにアクセスできます。
+FDA コネクタ（Federated Data Access）を使用し、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign クラウドデータベースデータに影響を与えることなく、それらに保存されている情報を処理できます。 その後、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。
 
 >[!NOTE]
 >
 >FDA用の互換性のあるデータベースは、互換性マトリックス[に記載されています。](../start/compatibility-matrix.md)
 
-Campaign FDAオプションを使用すると、サードパーティのデータベースでデータモデルを拡張できます。 ターゲットテーブルの構造を自動的に検出し、SQL ソースのデータを使用します。
+Campaign FDA オプションを使用すると、サードパーティのデータベースでデータモデルを拡張できます。 ターゲットテーブルの構造を自動的に検出し、SQL ソースのデータを使用します。
 
-[!DNL Adobe Campaign]と外部データベースで、相互にやり取りする特定の&#x200B;**権限**&#x200B;が必要です。 詳しくは、 [この節](#fda-permissions)を参照してください。
+[!DNL Adobe Campaign]と外部データベースで、相互にやり取りする特定の&#x200B;**権限**&#x200B;が必要です。 詳細については、[この節](#fda-permissions)を参照してください。
 
 ## ベストプラクティスと制限事項
 
