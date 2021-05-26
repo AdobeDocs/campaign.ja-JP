@@ -11,7 +11,7 @@ hide: true
 source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 58%
 
 metadata.md ファイルには、リポジトリ内のユーザガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。ユーザガイドの metadata.md の内容を変更する場合は、任意の TOC.md ファイルで変更します。
 
-[ソリューション&#x200B;**、**&#x200B;製品&#x200B;**、** type **の有効な値のリストについては、**&#x200B;メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=en)を参照してください。
+**ソリューション**、**製品**&#x200B;および&#x200B;**タイプ**&#x200B;の有効な値のリストについては、[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=ja)を参照してください。
