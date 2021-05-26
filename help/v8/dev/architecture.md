@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 6%
@@ -30,7 +30,7 @@ Campaign環境では、次の3種類の環境をCloud Serviceできます。
 
 ある環境から別の環境にパッケージをエクスポートおよびインポートできます。
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)のパッケージの詳細
+[!DNL :arrow_upper_right:] パッケージについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## ミッドソーシングへのデプロイメント{#mid-sourcing-deployment}
 
@@ -69,7 +69,7 @@ Webサイトでの顧客のアクションに応じて、イベントがREST API
 
 ![](assets/messagecenter_diagram.png)
 
-:[!DNL :arrow_upper_right:]:Message Centerのアーキテクチャについては、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)を参照してください。
+[!DNL :arrow_upper_right:] Message Centerのアーキテクチャについては、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=en#transactional-messaging)
 
 ### 認証
 
@@ -82,4 +82,4 @@ AdobeがホストするMessage Center実行インスタンスとやり取りす�
 * 複数の実行インスタンス
 ロードバランサーの背後に複数の実行インスタンスがあるマルチセル実行アーキテクチャでは、外部アプリケーションによって呼び出されるログオンメソッドは、ロードバランサーを経由します。そのため、トークンベースの認証は使用できません。 ユーザー/パスワードベースの認証が必要です。
 
-:[!DNL :arrow_upper_right:]:トランザクションメッセージイベントについて詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)を参照してください。
+[!DNL :arrow_upper_right:] トランザクションメッセージイベントについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
