@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 17%
 
 ---
@@ -26,5 +26,5 @@ Adobe Campaign と Adobe Experience Manager の間の統合では、E メール�
 
 [!DNL :arrow_upper_right:] [このエンドツーエンドのサンプルでこの統合を確認する](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:speech_balloon:管理対象Cloud Servicesユーザーの場合は、[Adobe](../start/campaign-faq.md#support)に連絡して、Adobe Experience ManagerをCampaignと統合します。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡](../start/campaign-faq.md#support) して、Adobe Experience ManagerをCampaignと統合してください。
 
