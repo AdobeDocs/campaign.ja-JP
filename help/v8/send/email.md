@@ -6,7 +6,7 @@ description: CampaignでのEメールの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -28,15 +28,15 @@ Eメール配信により、ターゲット母集団にパーソナライズさ�
 Eメールコンテンツに加えて、オーディエンスを直接Campaignに作成したりインポートしたりできます。 以下のリンクを使用して、以下の方法を学習してください。
 
 * CampaignでのEメールのデザイン
-:[!DNL :arrow_upper_right:]:[Eメールのデザイン方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
+   [!DNL :arrow_upper_right:] [Eメールのデザイン方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
 * Eメールコンテンツのインポート
-:[!DNL :arrow_upper_right:]:[使用例：配信コンテンツを読み込むワークフローの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+   [!DNL :arrow_upper_right:] [使用例：配信コンテンツを読み込むワークフローの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
 * 電子メールテンプレートの作成と使用
-:[!DNL :arrow_upper_right:]:[電子メールテンプレートの詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [電子メールテンプレートの詳細を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 * Eメールのオーディエンスを選択します
-:[!DNL :arrow_upper_right:]:[ターゲット母集団を定義する方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+   [!DNL :arrow_upper_right:] [ターゲット母集団の定義方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * 配信の検証と配達確認の送信
-:[!DNL :arrow_upper_right:]:[配信を検証するための主な手順を説明します。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+   [!DNL :arrow_upper_right:] [配信を検証するための主な手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 * [シードアドレス](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)を追加します。
 
 ## 電子メールのテストと検証
