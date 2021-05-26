@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 44%
+source-wordcount: '642'
+ht-degree: 45%
 
 ---
 
@@ -30,7 +30,7 @@ Campaignの操作に関してヘルプが必要な場合は、 以下のよく�
 
    Adobe Campaignに接続するには、Campaignクライアントコンソールをダウンロードしてインストールする必要があります。
 
-   :bulb:[詳しくはここをクリック](connect.md)してください。
+   [!DNL :bulb:][詳しくはここをクリック](connect.md)してください。
 
 1. **Campaign v8をオンプレミス環境またはハイブリッド環境にインストールできますか？**
 
@@ -40,9 +40,9 @@ Campaignの操作に関してヘルプが必要な場合は、 以下のよく�
 
    Eメールの配信品質は、すべての送信者のマーケティングプログラムを成功させるうえで重要な要素で、常に変化する条件とルールに特徴があります。 このデジタル世界で効果的にナビゲートするには、配信品質の主要なトレンドを考慮して、オーディエンスに最適な方法でEメール戦略を定期的に調整する必要があります。
 
-   :arrow_upper_right:[配信のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)については、このガイドを参照してください。
+   :[!DNL :arrow_upper_right:]:[配信のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)については、このガイドを参照してください。
 
-   :arrow_upper_right:Campaignでの配信品質の実装方法については、このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)を参照してください。[
+   :[!DNL :arrow_upper_right:]:Campaignでの配信品質の実装方法については、このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)を参照してください。[
 
 1. **配信をエラーなく確実に送信するにはどうすればよいですか？**
 
@@ -52,7 +52,7 @@ Campaignの操作に関してヘルプが必要な場合は、 以下のよく�
 
 1. **ワークフローの実行を監視できますか？**
 
-   :arrow_upper_right:Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)でCampaignワークフローの実行[を監視する方法を説明します。
+   :[!DNL :arrow_upper_right:]:Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)でCampaignワークフローの実行[を監視する方法を説明します。
 
 1. **Campaign v8と互換性のあるシステムおよびコンポーネントはどれですか？**
 
