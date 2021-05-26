@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaignデータベースマッピング
 description: Campaignデータベースマッピング
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -257,7 +257,7 @@ Federated Database Accessを使用した結合リレーションの場合：
 * ![](assets/do-not-localize/join_fda_11.png) :基数1-1
 * ![](assets/do-not-localize/join_fda_1m.png) :基数1-N
 
-:bulb:FDAテーブルについて詳しくは、[Federated Data Access](../connect/fda.md)を参照してください。
+[!DNL :bulb:] FDAテーブルについて詳しくは、 [Federated Data Access](../connect/fda.md)を参照してください。
 
 リンクは、メイン要素を介してリンクされたテーブルの外部キーを含むスキーマ内で宣言する必要があります。
 
@@ -388,7 +388,7 @@ Federated Database Accessを使用した結合リレーションの場合：
 
 デフォルト値は、「DefaultFolder(&#39;nmsFolder&#39;)」関数で入力された、最初の有効なパラメータータイプファイルの識別子を返します。
 
-### 例5 {#example-5}
+### 例4 {#example-5}
 
 この例では、**xlink**&#x200B;属性と(&quot;email&quot;)テーブルのフィールドを持つリンク（&quot;company&quot; to &quot;cus:company&quot;スキーマ）のキーを作成します。
 
