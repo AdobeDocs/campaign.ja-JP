@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: a48e69a3f34c48ed4828bf29b8a02a3dc07bfa7e
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 64%
+source-wordcount: '453'
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 
 主な機能は次のとおりです。
 
-* **速度と拡張性**。Adobe Campaign v8 は、Cloud Database Manager を活用して、クエリの実行速度を最大 200 倍、数ペタバイト規模に向上し、1 時間あたりのメッセージ数を最大 2,000 万ないし 150 万トランザクションメッセージに増やし、最大 2 億件のアクティブなプロファイル数を管理できます（10 億件まで増やせる余裕があります）。
+* **速度と拡張性**。Adobe Campaign v8はCloud Database Managerを活用して、クエリのパフォーマンスを最大200倍高速化し、マルチペタバイト規模で、1時間あたりのメッセージ数を増やし、トランザクションメッセージに最大20M/時または1M/時で、最大200Mのアクティブなプロファイルを1Bに到達できます。
 
 * **Adobe Experience Platform への接続**。Adobe Campaign v8 は、Adobe Experience Platform／RT-CDP との Data Connector、統合カスタマープロファイル、Journey Orchestration とのネイティブ統合をサポートしています。これらの投資により、Adobe Campaign の顧客体験が最適化され、パーソナライズされたリアルタイムのカスタマージャーニーをキャンペーンに追加できるなど、新しいユースケースが可能になります。
 
@@ -31,6 +31,8 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 >現時点では、Campaign v8は管理対象Cloud Serviceとして&#x200B;**のみ**&#x200B;使用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
 >
 >既存のCampaign Classicv7環境からの移行は、まだ使用できません。
+>
+>デプロイメントモデルが不明な場合や、質問がある場合は、アカウントチームにお問い合わせください。
 
 
 ## 規模の拡張と縮小
