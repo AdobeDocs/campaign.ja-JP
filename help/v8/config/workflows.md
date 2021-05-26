@@ -1,8 +1,8 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: キャンペーンの自動化の概要
-description: キャンペーンの自動化の概要
+title: Campaign 自動処理の概要
+description: Campaign 自動処理の概要
 feature: 概要
 role: Data Engineer
 level: Beginner
@@ -10,58 +10,58 @@ exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: 8ede6bc1bc08a27e74dde6a427561c33f154a883
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 18%
+ht-degree: 45%
 
 ---
 
 # プロセスの管理と自動化
 
-強力なマーケティングキャンペーン自動化機能を活用するようにCampaignを設定します。
+Campaign を設定して、マーケティングキャンペーンの強力な自動処理機能を活用します。
 
-以下を設定できます。
+次の設定をおこなうことができます。
 
 * ワークフロー
 * 繰り返しキャンペーン
 * エンドツーエンドの検証サイクル
 * アラート
 * レポートの自動送信
-* トリガーされたイベント
+* トリガーされるイベント
 
-## ワークフローの設計と使用{#gs-ac-wf}
+## ワークフローのデザインと使用{#gs-ac-wf}
 
-Adobe Campaignのワークフローを使用して、セグメントの作成、メッセージの準備から配信まで、マーケティングキャンペーンのあらゆる側面の速度とスケールを向上させます。
+Adobe Campaign ワークフローを使用すると、セグメントの作成とメッセージの準備から配信に至るまでの、マーケティングキャンペーンのあらゆる側面でスピードとスケールを改善できます。
 
 これらの[エンドツーエンドの使用例](#end-to-end-uc)でワークフローを設計する方法を説明します。
 
 ワークフローユーザーインターフェイスと実行について詳しくは、Campaign Classicv7のドキュメントを参照してください。
 
-[!DNL :arrow_upper_right:]  [ワークフローの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
-* ワークフローアクティビティ：
-   * [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html):クエリ、リスト読み込み、エンリッチメント、和集合、その他
-   * [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html):スケジューラ、フォーク、アラート、外部シグナルなど
-   * [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):クロスチャネル配信、JavaScriptコード、CRMアクティビティ、集計の更新など
-   * [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):ファイル転送、Webダウンロードなど
-      [!DNL :arrow_upper_right:]  [マーケティングキャンペーンワークフローでのオーディエンスの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
+[!DNL :arrow_upper_right:]  [ワークフローの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows)
+* ワークフローアクティビティ:
+   * [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html?lang=ja)：クエリ、リスト読み込み、エンリッチメント、和集合など
+   * [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html?lang=ja)：スケジューラー、フォーク、警告、外部信号など
+   * [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja)：チャネル間の配信、JavaScript コード、CRM アクティビティ、集計の更新など
+   * [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html)：ファイル転送、Web ダウンロードなど
+      [!DNL :arrow_upper_right:]  [マーケティングキャンペーンワークフローでのオーディエンスのビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#building-the-main-target-in-a-workflow)
 
-      [!DNL :arrow_upper_right:]  [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
-      [!DNL :arrow_upper_right:] [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
-      [!DNL :arrow_upper_right:] [ワークフローの実行の監視](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
+      [!DNL :arrow_upper_right:]  [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja)
+      [!DNL :arrow_upper_right:] [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)
+      [!DNL :arrow_upper_right:] [ワークフロー実行の監視](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=ja)
 
 
 ## 繰り返しキャンペーンの設定
 
-繰り返しワークフローをデザインし、ワークフローを実行するたびに新しい配信インスタンスを作成します。 例えば、ワークフローが週に1回実行するように設計されている場合、1年後には52件の配信がおこなわれます。 また、ログは各配信インスタンスで区切られます。
+繰り返しワークフローをデザインし、ワークフローを実行するたびに新しい配信インスタンスを作成します。 たとえば、ワークフローが週に 1 回実行されるよう設計されている場合、1 年後には 52 件の配信が存在することになります。つまり、ログは各配信インスタンスで区切られます。
 
-[!DNL :arrow_upper_right:] 繰り返しキャンペーンの作成方法については、 [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)を参照してください。
+[!DNL :arrow_upper_right:] 繰り返しキャンペーンの作成方法については、 [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns)を参照してください。
 
 
 ## トリガーイベントの活用
 
-Campaignトランザクションメッセージを使用して、情報システムからトリガーされるイベントから生成されるメッセージを自動化します。 例えば、これらのトランザクションメッセージには、請求書、注文確認、発送確認、パスワード変更、製品の利用不可通知、アカウント明細、Webサイトアカウントの作成などが含まれます。 これらのメッセージは、個別に、またはバッチで、Eメール、SMS、プッシュ通知経由で送信できます。
+Campaign トランザクションメッセージを使用すると、情報システムからトリガーされるイベントに基づいて、メッセージを自動的に生成できます。 トランザクションメッセージの例としては、請求書送付、注文確認、配送確認、パスワード変更、商品の在庫切れ通知、取引明細書送付、Web サイトのアカウント作成などがあります。 これらのメッセージは、個別に、またはバッチで、Eメール、SMS、プッシュ通知経由で送信できます。
 
 [!DNL :bulb:] トランザクションメッセージ機能について詳しくは、この節 [を参照してください](../send/transactional.md)。
 
-Adobe CampaignとAdobe Analyticsを接続して、ユーザーのアクションを取得し、ほぼリアルタイムでパーソナライズされたメッセージを送信します。
+Adobe Campaign と Adobe Analytics を接続すると、ユーザーの行動を把握し、パーソナライズされたメッセージをリアルタイムに送信できます。
 
 [!DNL :bulb:] Campaignを他のソリューションと統合する方法については、この節を [参照してください](../start/connect.md)
 
