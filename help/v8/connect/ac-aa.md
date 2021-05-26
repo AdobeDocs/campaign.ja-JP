@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 556cd7727c7c2bf0158d59d71ae0131b4c1013ee
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '364'
 ht-degree: 34%
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaignでは、Adobe Analyticsコネクタを使用してインターネ
 
 [このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html)でAdobe CampaignとAdobe Analyticsについて詳しく知る
 
-:speech_balloon: 管理対象Cloud Servicesユーザーの場合、[連絡先Adobe](../start/campaign-faq.md#support)に連絡して、Adobe Analytics Data ConnectorをCampaignと統合します。
+[!DNL :speech_balloon:]  管理対象Cloud Servicesのユーザーは、アドビに [連絡](../start/campaign-faq.md#support) して、Adobe Analytics Data ConnectorをCampaignと統合してください。
 
 
 ## Experience Cloud Triggers
@@ -49,4 +49,4 @@ Experience Cloudトリガーを使用して、パイプラインを使用してA
 
 Adobe CampaignとExperience Cloudのトリガーについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en)を参照してください。
 
-:speech_balloon: 管理対象Cloud Servicesユーザーの場合は、[Adobe](../start/campaign-faq.md#support)に連絡して、CampaignでExperience Cloudトリガーを実装します。
+[!DNL :speech_balloon:]  管理対象Cloud Servicesのユーザーは、アドビに連絡 [し](../start/campaign-faq.md#support) て、CampaignのExperience Cloudトリガーを実装します。
