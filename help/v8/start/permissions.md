@@ -1,39 +1,39 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: Campaign v8への権限の付与
-description: Campaign v8に権限を付与する方法を説明します。
-feature: Audiences
+title: Campaign v8 への権限の付与
+description: Campaign v8 に権限を付与する方法を学ぶ
+feature: オーディエンス
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '241'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# 権限の基本を学ぶ
+# 権限の概要
 
-Adobe Campaignでは、ユーザーは&#x200B;**演算子**&#x200B;で、**演算子グループ**&#x200B;はユーザーの役割を表します。
+Adobe Campaign では、ユーザーは&#x200B;**オペレーター**&#x200B;または&#x200B;**オペレーターグループ**&#x200B;です。
 
-Adobe Campaignには、キャンペーンマネージャーやワークフロースーパーバイザーなどの組み込みオペレーターグループが用意されています。 すべての組み込みグループは、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups)に一覧表示されます。
+Adobe Campaign には、Campaign マネージャーや Workflow スーパーバイザーなどの組み込みのオペレーターグループが用意されています。 組み込みグループの一覧については、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=ja#default-groups)を参照してください。
 
-オペレーターグループのメンバーとして、ユーザーは「ネームド権限」と呼ばれる操作を実行する権限を持ち、**エクスプローラー**&#x200B;ビュー内のフォルダーに含まれるデータにアクセスできます。 オペレーターは、複数のオペレーターグループのメンバーにすることができます。権限とアクセス権限は追加的です。
+オペレーターグループのメンバーが実行できるユーザー権限は「ネームド権限」と呼ばれ、**エクスプローラー**&#x200B;ビューのフォルダー内にあるデータにアクセスできます。 1 人のオペレーターは複数のオペレーターグループに所属でき、アクセス権限は追加的に付与されます。
 
-ネームド権限は次の権限を付与します。
+ネームド権限では、次の権限を付与します。
 
 * 操作の実行
-例えば、配信エディターの「**分析**」ボタンが、**配信の準備**&#x200B;ネームド権限を持つ&#x200B;**配信オペレーター**&#x200B;グループのメンバーに対して有効化されます。
+たとえば、配信エディターの「**分析**」ボタンは、**配信準備**&#x200B;ネームド権限を持つ&#x200B;**配信オペレーター**&#x200B;グループのメンバーに対して有効になります。
 
 * フォルダーへのアクセス
-オペレーターグループのメンバーシップは、フォルダー](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder)の[セキュリティ設定を変更することで、フォルダーに対するアクセス権を付与または制限できます。 例えば、次のような影響が出る場合があります。**書き込みアクセス** ：新しいエンティティ（配信、プロファイルなど）を作成し、**読み取りアクセス**&#x200B;でエンティティを使用し、**削除アクセス**&#x200B;でエンティティを削除します。
+オペレーターグループのメンバーであれば、[フォルダーのセキュリティ設定](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=ja#permissions-on-a-folder)を変更することにより、フォルダーへのアクセス権を付与したり削除したりすることができます。たとえば、新しいエンティティ（配信、プロファイルなど）を作成するための&#x200B;**書き込みアクセス**、エンティティを使用するための&#x200B;**読み取りアクセス**、エンティティを削除するための&#x200B;**削除アクセス**&#x200B;などの権限を変更できます。
 
 **詳細情報**
 
-* [組み込みのネームド権限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html)
+* [組み込みのネームド権限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html?lang=ja)
 
-* [組み込みオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups)
+* [組み込みのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups)
 
-* [権限の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html)
+* [権限の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja)
