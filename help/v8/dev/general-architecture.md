@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: 一般的なアーキテクチャ
 description: Campaign v8の一般的なアーキテクチャ
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ ht-degree: 0%
 
 * **クライアントコンソール**:アプリケーションのメインユーザーインターフェイスは、標準のインターネットプロトコル（SOAP、HTTPなど）でAdobe Campaignアプリケーションサーバーと通信するネイティブアプリケーション（Windows上）です。Adobe Campaign Client Consoleは、生産性を高める優れたユーザーフレンドリー性を備え、（ローカルキャッシュを使用して）帯域幅をほとんど使用せず、簡単にデプロイできるように設計されています。 このコンソールは、インターネットブラウザーから導入でき、自動的に更新でき、HTTP(S)トラフィックのみを生成するので、特定のネットワーク設定は不要です。
 
-   :bulb:[Campaignクライアントコンソール](../start/connect.md)の詳細をご覧ください。
+   [!DNL :bulb:] [Campaignクライアントコンソールの詳細を説明します](../start/connect.md)。
 
 * **Webアクセス**:アプリケーションの一部は、レポートモジュール、配信承認ステージ、インスタンスの監視など、HTMLユーザーインターフェイスを使用して、シンプルなwebブラウザーでアクセスできます。
 
-   :bulb:[Campaign Webアクセスの詳細](../start/connect.md)。
+   [!DNL :bulb:] [Campaign Webアクセスの詳細情報](../start/connect.md)を参照してください。
 
 * **キャンペーンAPI**:場合によっては、SOAPプロトコルで公開されたWebサービスAPIを使用して、システムを外部アプリケーションから呼び出すことができます。
 
-   :bulb:[Campaign APIの詳細](../dev/api.md)をご覧ください。
+   [!DNL :bulb:] [Campaign APIについて詳しくは、](../dev/api.md)を参照してください。
 
 ## 開発環境{#dev-env}
 
