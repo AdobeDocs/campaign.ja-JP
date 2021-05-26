@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 45%
@@ -40,9 +40,9 @@ Campaignの操作に関してヘルプが必要な場合は、 以下のよく�
 
    Eメールの配信品質は、すべての送信者のマーケティングプログラムを成功させるうえで重要な要素で、常に変化する条件とルールに特徴があります。 このデジタル世界で効果的にナビゲートするには、配信品質の主要なトレンドを考慮して、オーディエンスに最適な方法でEメール戦略を定期的に調整する必要があります。
 
-   :[!DNL :arrow_upper_right:]:[配信のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)については、このガイドを参照してください。
+   [!DNL :arrow_upper_right:] 配信のベストプラクティスについては、この [ガイドを参照してください](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)。
 
-   :[!DNL :arrow_upper_right:]:Campaignでの配信品質の実装方法については、このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)を参照してください。[
+   [!DNL :arrow_upper_right:] Campaignでの配信品質の実装方法について [は、このガイドを参照してください](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
 
 1. **配信をエラーなく確実に送信するにはどうすればよいですか？**
 
@@ -52,7 +52,7 @@ Campaignの操作に関してヘルプが必要な場合は、 以下のよく�
 
 1. **ワークフローの実行を監視できますか？**
 
-   :[!DNL :arrow_upper_right:]:Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)でCampaignワークフローの実行[を監視する方法を説明します。
+   [!DNL :arrow_upper_right:] Campaignワークフローの実行を監視する方法については、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html)。
 
 1. **Campaign v8と互換性のあるシステムおよびコンポーネントはどれですか？**
 
