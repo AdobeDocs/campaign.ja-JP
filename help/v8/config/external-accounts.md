@@ -1,24 +1,24 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: Campaign外部アカウント
-description: Campaign外部アカウント
+title: Campaign 外部アカウント
+description: Campaign 外部アカウント
 feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 24%
+ht-degree: 29%
 
 ---
 
 
 # 外部アカウントの設定
 
-Adobe Campaign には、事前定義済みの外部アカウントのセットが付属します。外部システムとの接続を設定するには、新しい外部アカウントを作成できます。
+Adobe Campaign には、事前に定義された一連の外部アカウントが付属しています。外部システムとの接続を設定する場合は、新しい外部アカウントを作成します。
 
-外部アカウントは、テクニカルワークフローやキャンペーンワークフロー等の技術プロセスで使用されます。例えば、ワークフロー内のファイル転送や、他のアプリケーション(Adobe Target、Experience Managerなど)とのデータ交換を設定する場合は、外部アカウントを選択する必要があります。
+外部アカウントは、テクニカルワークフローやキャンペーンワークフローなどの技術プロセスで使用されます。例えば、ワークフローにおけるファイル転送や、他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換などをセットアップする場合、外部アカウントを選択する必要がありす。
 
 Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部アカウントにアクセスできます。**[!UICONTROL 管理]** `>` **[!UICONTROL プラットフォーム]** `>` **[!UICONTROL 外部アカウント]**&#x200B;を参照します。
 
