@@ -6,9 +6,9 @@ description: Campaign外部アカウント
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1124'
 ht-degree: 24%
 
 ---
@@ -36,7 +36,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 次のテクニカルアカウントは、Adobe Campaignで特定のプロセスを有効にして実行するために使用されます。
 
-:speech_balloon:管理対象Cloud Servicesユーザーとして、Adobeは、Campaign固有のすべての外部アカウントを設定します。
+[!DNL :speech_balloon:] 管理対象Cloud Servicesユーザーとして、Adobeは、Campaign固有のすべての外部アカウントを設定します。
 
 * **バウンスメール (POP3)**
 
@@ -76,7 +76,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
    [!DNL :bulb:] AdobeIdentity Managementサービス(IMS)について詳しくは、この節を参 [照してください](../start/connect.md#connect-ims)。
 
-   :speech_balloon:管理対象Cloud Servicesユーザーの場合は、[Adobe](../start/campaign-faq.md#support)に連絡して、CampaignでAdobeIMSを実装します。
+   [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡し](../start/campaign-faq.md#support) て、CampaignとのAdobeIMSを実装します。
 
 * **Web 分析**
 
@@ -84,14 +84,14 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
    [!DNL :bulb:] Adobe CampaignとAdobe Analyticsの統合について詳しくは、このペ [ージを参照してください](../connect/ac-aa.md)。
 
-   :speech_balloon:管理対象Cloud Servicesユーザーの場合は、[Adobe](../start/campaign-faq.md#support)に連絡して、Adobe AnalyticsをCampaignと統合します。
+   [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡](../start/campaign-faq.md#support) して、Adobe AnalyticsをCampaignと統合してください。
 
    * **Adobe Experience Manager**
    **[!UICONTROL AEM]**&#x200B;外部アカウントを使用すると、Eメール配信とフォームのコンテンツをAdobe Experience Managerで直接管理できます。
 
    [!DNL :bulb:] Adobe CampaignとAdobe Analyticsの統合について詳しくは、このペ [ージを参照してください](../connect/ac-aem.md)。
 
-   :speech_balloon:管理対象Cloud Servicesのユーザーとして、[Adobe](../start/campaign-faq.md#support)に連絡し、Adobe Experience ManagerとAdobe Campaignを統合します。
+   [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡](../start/campaign-faq.md#support) して、Adobe Experience ManagerとAdobe Campaignを統合してください。
 
 
 ## CRMコネクタの外部アカウント
