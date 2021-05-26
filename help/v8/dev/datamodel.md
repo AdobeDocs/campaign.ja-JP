@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Adobe Campaignデータモデルの基本構造は、次のように記述でき
 
 * **受信者テーブル**:このデータモデルは、受信者テーブル(nmsRecipient)であるメインテーブルに依存します。この表には、すべてのマーケティングプロファイルを格納できます。
 
-   :bulb:受信者テーブルについて詳しくは、[この節](#ootb-profiles)を参照してください。
+   [!DNL :bulb:] 受信者テーブルについて詳しくは、この節を参 [照してください](#ootb-profiles)。
 
 * **配信テーブル**:データモデルには、すべてのマーケティングアクティビティを保存するためのパーツも含まれています。通常は、配信テーブル(NmsDelivery)です。 このテーブルの各レコードは、配信アクションまたは配信テンプレートを表します。 配信を実行するために必要なすべてのパラメーター（ターゲット、コンテンツなど）が含まれています。
 
@@ -45,7 +45,7 @@ Adobe Campaignを使用する場合は、デフォルトのデータモデルを
 * [新しいフィールドを含む既](extend-schema.md) 存のテーブルを拡張します。例えば、受信者テーブルに新しい「ロイヤルティ」フィールドを追加できます。
 * [新しいテーブル](create-schema.md)（例えば、データベースの各プロファイルがおこなったすべての購入をリストする「購入品」テーブル）を作成し、受信者テーブルにリンクします。
 
-:bulb:[この節](datamodel-best-practices.md)でCampaignデータモデルを使用する際のベストプラクティスを紹介します。
+[!DNL :bulb:] Campaignデータモデルを使用する際のベストプラクティスについては、この節 [を参照してください](datamodel-best-practices.md)。
 
 ## 組み込みプロファイルテーブル{#ootb-profiles}
 
@@ -60,9 +60,9 @@ Adobe Campaignに組み込まれている受信者テーブル(nmsrecipient)は�
 
 受信者テーブルを拡張することは可能ですが、テーブル内のフィールドやリンクの数を減らすことはできません。
 
-:bulb:[この節](extend-schema.md)で既存のスキーマを拡張する方法を説明します。
+[!DNL :bulb:] 既存のスキーマを拡張する方法については、この節 [を参照してください](extend-schema.md)。
 
-:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)に組み込みの受信者テーブル拡張の例を示します
+:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)に組み込みの受信者テーブル拡張の例を示します
 
 また、ビジネス要件や機能要件に合わせて別の受信者テーブルを使用することもできます。 この方法には制限があり、[この節](custom-recipient.md)で説明します。
 
@@ -70,9 +70,9 @@ Adobe Campaignに組み込まれている受信者テーブル(nmsrecipient)は�
 
 Campaign v8のテーブル管理について理解を深めるために、CampaignとそのSnowflakeCloudデータベースの間でテーブルがレプリケートされる点に注意してください。
 
-:bulb:レプリケーション戦略とメカニズムについて詳しくは、[この節](../config/replication.md)を参照してください。
+[!DNL :bulb:] レプリケーション戦略とメカニズムについて詳しくは、この節 [を参照してください](../config/replication.md)。
 
 **関連トピック**
 
-:bulb:[このセクション](../start/import.md)でプロファイルをインポートする方法を説明します。
-:bulb:Campaignオーディエンスについて詳しくは、[この節](../start/audiences.md)を参照してください。
+[!DNL :bulb:] この節でプロファイルをインポートする方 [法につ](../start/import.md)
+[!DNL :bulb:] いて詳しくは、この節でCampaignオーディエンスに [ついて説明します](../start/audiences.md)
