@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 93004d69f33fce39f8f2abb18eec2562177a7adf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 66%
+source-wordcount: '623'
+ht-degree: 57%
 
 ---
 
@@ -69,9 +69,9 @@ Campaign v8 オブジェクトは、**UUID（ユニバーサルに一意の ID�
 
 Campaign ユーザーは、データベースの専門家である必要はありません。データベースの複雑なメンテナンス作業やテーブルの複雑なインデックス作成は不要になりました。
 
-## 一時的に使用できない機能{#gs-unavailable-features}
+## 使用できない機能{#gs-unavailable-features}
 
-この最初のバージョンでは、以下の機能はまだ利用できません。
+この最初のバージョンでは、次のような一部の機能は使用できません。
 
 * マーケティングリソース管理
 * 分散型マーケティング
@@ -79,6 +79,14 @@ Campaign ユーザーは、データベースの専門家である必要はあ�
 * キャンペーンの最適化
 * Response Manager
 * ハイブリッドまたはオンプレミスのデプロイメントモデル
+
+>[!CAUTION]
+>
+>現時点では、Campaign v8は管理対象Cloud Serviceとして&#x200B;**のみ**&#x200B;使用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
+>
+>既存のCampaign Classicv7環境からの移行は、まだ使用できません。
+>
+>デプロイメントモデルが不明な場合や、質問がある場合は、アカウントチームにお問い合わせください。
 
 ## 削除された機能{#gs-removed}
 
