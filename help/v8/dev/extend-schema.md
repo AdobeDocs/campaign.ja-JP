@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaignスキーマの拡張
 description: Campaignスキーマの拡張方法を説明します
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Campaignデータモデルをカスタマイズする主な手順は次のとお
 >[!CAUTION]
 >組み込みスキーマは直接変更できません。 組み込みスキーマを適応させる必要がある場合は、拡張する必要があります。
 
-:bulb:Campaignの組み込みテーブルとそのインタラクションについての詳細は、[このページ](datamodel.md)を参照してください。
+[!DNL :bulb:] Campaignの組み込みテーブルとそのインタラクションについて詳しくは、このページを参 [照してください](datamodel.md)。
 
 スキーマを拡張するには、次の手順に従います。
 
