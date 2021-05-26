@@ -10,21 +10,21 @@ exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 5%
+ht-degree: 32%
 
 ---
 
 # [!DNL Campaign] APIの概要{#gs-ac-api}
 
-[!DNL Adobe Campaign] には、次の使用可能なJavaScript関数のセットが付属しています。
+[!DNL Adobe Campaign] には、次の機能を使用できる一連の JavaScript 関数が備わっています。
 
 * スクリプト内 — [!DNL Adobe Campaign]ワークフロー内
-* APIを介した外部システムからの
+* API 経由 - 外部システムから
 
-JavaScript APIを使用して、Campaignクラウドデータベースに書き込んだり、データベースから読み取ったりできます。
+JavaScript API を使用すると、Campaign クラウドデータベースへの書き込みや読み取りを実行できます。
 
-* 各オブジェクトに対して操作できる、ビジネス固有のAPI:配信、ワークフロー、購読など 詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html)を参照してください。
-* 汎用データは、データモデルデータに対するクエリ用のAPIにアクセスします。 詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html)を参照してください。
+* 目的の対象ごとにアクションをおこなえる、ビジネスに特化した API。配信、ワークフロー、サブスクリプションなど。詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja)を参照してください。
+* 汎用的なデータアクセス用の API。データモデルの情報をクエリできます。詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja)を参照してください。
 
 Campaign v8は、2つのデータベースで動作します。リアルタイムメッセージングと単一クエリ、APIを介した書き込みを行うユーザーインターフェイス用のローカルデータベースと、キャンペーンの実行、レポート、データ取得、バッチクエリ、ワークフローの実行のためのCloudデータベース。
 
@@ -38,13 +38,13 @@ Campaign v8は、2つのデータベースで動作します。リアルタイ�
 [!DNL Adobe Campaign] APIを使用する前に、次のトピックに精通しておく必要があります。
 
 * JavaScript
-* SOAPプロトコル
+* SOAP プロトコル
 * [!DNL Adobe Campaign] データモデル
 
 APIを使用して[!DNL Adobe Campaign]とやり取りするには、データモデルに関する知識も必要です。
 
 >[!NOTE]
->データモデルの完全な説明を生成できます。 詳しくは、[このページ](datamodel.md)を参照してください。
+>データモデルを完全に記述できる必要があります。詳しくは、[このページ](datamodel.md)を参照してください。
 
 ## [!DNL Campaign] APIのステージングメカニズム
 
@@ -52,7 +52,7 @@ APIを使用して[!DNL Adobe Campaign]とやり取りするには、データ�
 
 [!DNL :bulb:] [APIステージングメカニズムについて詳しくは、このページを参照してください。](staging.md)
 
-## 新しいAPI
+## 新しい API
 
 [!DNL Campaign]ローカルデータベースとCloudデータベース間のデータ同期を管理する新しいAPIが追加されました。 また、遅延を回避し、全体的なパフォーマンスを向上させるために、ローカルデータベースレベルでAPI呼び出しを処理する新しいメカニズムが導入されました
 
