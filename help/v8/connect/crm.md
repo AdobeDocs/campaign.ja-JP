@@ -6,7 +6,7 @@ description: 'CampaignとCRMの使用方法を説明します。 '
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 31%
@@ -31,12 +31,12 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ## 実装手順 {#crm-implementation-steps}
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)でCampaignとMicrosoft Dynamicsを接続する手順を説明します。
+[!DNL :arrow_upper_right:]  [Campaign Classicv7のドキュメントでCampaignとMicrosoft Dynamicsを接続する手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)
 
-:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)でCampaignとSalesforceを接続する手順を説明します。
+[!DNL :arrow_upper_right:]  [Campaign Classicv7のドキュメントで、CampaignとSalesforceを接続する手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)
 
 
 Adobe CampaignとCRM間のデータ同期は、専用のワークフローアクティビティで実行されます。 ワークフローを構築して、CampaignとCRM間の同期を自動化します。 Microsoft Dynamicsを介して連絡先をインポートし、それらを既存のAdobe Campaignデータと同期し、重複する連絡先を削除してAdobe Campaignデータベースを更新するワークフローを作成できます。
 
-:[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)を参照してください。
+[!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
 
