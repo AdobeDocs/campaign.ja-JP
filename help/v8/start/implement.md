@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 5%
@@ -53,7 +53,7 @@ Adobe Campaignのセキュリティガイドラインと原則については、
 
 Campaignに手動でユーザーを追加し、ロール階層に合わせてグループに関連付けることができます。 その後、ユーザーはログインし、適切なデータと権限にアクセスできます。
 
-:[!DNL :arrow_upper_right:]:[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)で、Adobe Campaignにユーザーを追加する方法を説明します。
+[!DNL :arrow_upper_right:] ユーザーをAdobe Campaignに追加する方法については、この節 [を参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=en#getting-started)。
 
 ### Campaignクライアントコンソールのインストール
 
