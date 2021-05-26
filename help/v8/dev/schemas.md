@@ -3,7 +3,7 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaignスキーマの使用
 description: スキーマの概要
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 7%
@@ -164,7 +164,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 属性の完全なリストは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model)の`<attribute>`要素の節で参照できます。 よく使用される属性の一部を次に示します。**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**, **@name**, **@notNull**, **@required**, **@ref**, **&lt;a2@xml/>5/>、**@type **。**
 
-:[!DNL :arrow_upper_right:]:各属性について詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)の属性の説明を参照してください。
+[!DNL :arrow_upper_right:] 各属性について詳しくは、 [Campaign Classicv7ドキュメントの属性の説明](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)を参照してください。
 
 ### 例 {#examples}
 
