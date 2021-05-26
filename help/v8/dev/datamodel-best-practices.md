@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: データモデルのベストプラクティス
 description: Campaignデータモデル拡張機能のベストプラクティスについて説明します。
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '2688'
+source-wordcount: '2686'
 ht-degree: 4%
 
 ---
@@ -18,9 +18,9 @@ Adobe Campaignシステムは非常に柔軟で、最初の実装を超えて拡
 
 Campaignの組み込みテーブルとそれらの関係について詳しくは、 [この節](datamodel.md)を参照してください。
 
-:bulb:Campaignスキーマの概要については、[この節](schemas.md)を参照してください。
+[!DNL :bulb:] Campaignスキーマの [概要に](schemas.md) ついては、この節を参照してください。
 
-:bulb:Adobe Campaignデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法については、このページ](extend-schema.md)を参照してください。[
+[!DNL :bulb:] Adobe Campaignデータベースの概念的データモデルを拡張するための拡張スキーマの設定方法については、このページ [を参照してください](extend-schema.md)。
 
 ## データモデルアーキテクチャ{#data-model-architecture}
 
