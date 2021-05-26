@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 15%
@@ -36,7 +36,7 @@ Adobe Campaignは、データスキーマを使用して次のことをおこな
 
 * インターフェイスを介して、**新しいフィールド**&#x200B;アシスタントを使用します。
 
-   :[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)でCampaignに新しいフィールドをすばやく追加する方法を説明します
+   [!DNL :arrow_upper_right:]  [Campaign Classicv7のドキュメントで、Campaignに新しいフィールドをすばやく追加する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
 
 * プログラムによる、スキーマの拡張
 
