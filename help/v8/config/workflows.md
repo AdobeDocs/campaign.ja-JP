@@ -7,9 +7,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1223'
 ht-degree: 18%
 
 ---
@@ -31,19 +31,21 @@ ht-degree: 18%
 
 Adobe Campaignのワークフローを使用して、セグメントの作成、メッセージの準備から配信まで、マーケティングキャンペーンのあらゆる側面の速度とスケールを向上させます。
 
-ワークフローについて詳しくは、次の節を参照してください。
+これらの[エンドツーエンドの使用例](#end-to-end-uc)でワークフローを設計する方法を説明します。
 
-* [ワークフローの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
-* ワークフローアクティビティ
+ワークフローユーザーインターフェイスと実行について詳しくは、Campaign Classicv7のドキュメントを参照してください。
+
+[!DNL :arrow_upper_right:]  [ワークフローの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
+* ワークフローアクティビティ：
    * [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html):クエリ、リスト読み込み、エンリッチメント、和集合、その他
    * [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html):スケジューラ、フォーク、アラート、外部シグナルなど
    * [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):クロスチャネル配信、JavaScriptコード、CRMアクティビティ、集計の更新など
    * [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html):ファイル転送、Webダウンロードなど
-* [エンドツーエンドの使用例を通じて学ぶ](#end-to-end-uc)
-* [マーケティングキャンペーンワークフローでのオーディエンスの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
-* [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
-* [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
-* [ワークフローの実行の監視](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
+      [!DNL :arrow_upper_right:]  [マーケティングキャンペーンワークフローでのオーディエンスの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
+
+      [!DNL :arrow_upper_right:]  [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
+      [!DNL :arrow_upper_right:] [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
+      [!DNL :arrow_upper_right:] [ワークフローの実行の監視](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
 
 
 ## 繰り返しキャンペーンの設定
