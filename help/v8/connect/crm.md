@@ -6,10 +6,10 @@ description: 'CampaignとCRMの使用方法を説明します。 '
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 30%
+source-wordcount: '269'
+ht-degree: 31%
 
 ---
 
@@ -31,12 +31,12 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ## 実装手順 {#crm-implementation-steps}
 
-:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)でCampaignとMicrosoft Dynamicsを接続する手順を説明します。
+:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=en#microsoft-dynamics-implementation-steps)でCampaignとMicrosoft Dynamicsを接続する手順を説明します。
 
-:arrow_upper_right:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)でCampaignとSalesforceを接続する手順を説明します。
+:[!DNL :arrow_upper_right:]:[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=en#getting-started)でCampaignとSalesforceを接続する手順を説明します。
 
 
 Adobe CampaignとCRM間のデータ同期は、専用のワークフローアクティビティで実行されます。 ワークフローを構築して、CampaignとCRM間の同期を自動化します。 Microsoft Dynamicsを介して連絡先をインポートし、それらを既存のAdobe Campaignデータと同期し、重複する連絡先を削除してAdobe Campaignデータベースを更新するワークフローを作成できます。
 
-:arrow_upper_right:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)を参照してください。
+:[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)を参照してください。
 
