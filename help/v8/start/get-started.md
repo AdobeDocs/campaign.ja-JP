@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 43%
+source-wordcount: '882'
+ht-degree: 44%
 
 ---
 
@@ -32,9 +32,9 @@ Campaignを使用して、次のことができます。
 
 Adobe Campaign では、受信者は配信（E メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
 
-:bulb:プロファイル管理の基本については、[この節](audiences.md)で説明します。
+[!DNL :bulb:] プロファイル管理の基本については、この節 [を参照してください](audiences.md)。
 
-:bulb:Campaignにプロファイルを追加する方法については、[この節](import.md)を参照してください。
+[!DNL :bulb:] Campaignにプロファイルを追加する方法については、この節 [を参照してください](import.md)。
 
 ## ターゲティングされたセグメント {#targeted-segmentation}
 
@@ -42,13 +42,13 @@ Adobe Campaign には、高度にターゲティングされた最適なオフ�
 
 高度なデータ管理機能は、データ処理機能を強化します。データマートでモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。
 
-:bulb:セグメント化、オーディエンス作成、パーソナライゼーションについて詳しくは、[この節](audiences.md)を参照してください。
+[!DNL :bulb:] セグメント化、オーディエンス作成、パーソナライゼーションについて詳しくは、この節 [を参照してください](audiences.md)。
 
 ## クロスチャネルのキャンペーンオーケストレーション {#cross-channel-campaign-orchestration}
 
 Adobe Campaign では、ターゲティングおよびパーソナライズされたキャンペーンの設計と編成を複数のチャネル（E メール、ダイレクトメール、SMS、プッシュ通知）でおこなうことができます。すべてのキャンペーンおよび通信をスケジュール、編成、設定、パーソナライズ、自動化、実行および測定するために必要なすべての機能が、単一のインターフェイスに用意されています。
 
-:bulb:キャンペーンの設計、スケジュール、実行方法については、[この節](campaigns.md)を参照してください。
+[!DNL :bulb:] キャンペーンの設計、スケジュール、実行方法については、この節 [を参照してください](campaigns.md)。
 
 ## ワークフロー
 
@@ -63,41 +63,41 @@ Adobe Campaignは、セグメント化、キャンペーン実行、ファイル
 * Campaignデータベースにデータをインポートします。
 * データベースのクリーンアップ、トラッキング情報のリカバリなどの技術的なプロセス
 
-:bulb:[この節](../config/workflows.md)では、ワークフローの設計と実行の方法について説明します。
+[!DNL :bulb:] ワークフローの設計と実行の方法については、この節 [を参照してください](../config/workflows.md)。
 
 ## レポートと分析{#analysis-and-reporting}
 
 Adobe Campaign では、顧客のデータおよびプロファイルを段階的にエンリッチメントすることによって、顧客の行動を監視および解釈できます。レポートおよび分析ツールを使用すると、各新規キャンペーンから利益を得たり、マーケティング戦略のターゲティングを向上させたり、投資への影響および投資利益率を最適化したりできます。
 
-:bulb:レポートおよびトラッキング機能について詳しくは、[この節](reporting.md)を参照してください。
+[!DNL :bulb:] レポートおよびトラッキング機能について詳しくは、この節 [を参照してください](reporting.md)。
 
 ## Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスのパーソナライズを支援するために作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target または Adobe Experience Cloud Triggers など）と組み合わせることができます。
 
-:bulb:[この節](../connect/integration.md)で、Adobeサービスやソリューションとの統合方法を説明します。
+[!DNL :bulb:] との統合方法については、この節を参照し [てください](../connect/integration.md)。
 
 ## Campaign機能の詳細{#core-capabilities-and-add-ons}
 
 Adobe Campaignは、ニーズやアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を備えています。 コア機能と、設定にパッケージをインストールすることに依存する機能があります。 詳しい製品説明は、以下を参照してください。[Adobe Campaign v8の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-classic---product-description.html)。
 
-:bulb:Campaign Classic? [このページ](capability-matrix.md)では、Campaign ClassicとCampaign v8の主な違いを説明します。
+[!DNL :bulb:] Campaign Classic?[このページ](capability-matrix.md)では、Campaign ClassicとCampaign v8の主な違いを説明します。
 
 ## Workspaceとカスタマイズ
 
 Campaignワークスペースは、[クライアントコンソール](../dev/general-architecture.md)で使用できます。
 
-:bulb:[Campaignクライアントコンソール](../start/connect.md)の詳細をご覧ください。
+[!DNL :bulb:] [Campaignクライアントコンソールの詳細を説明します](../start/connect.md)。
 
 Campaignのワークスペースは、ニーズに応じて調整できます。
 
-:arrow_upper_right: [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)のCampaignワークスペースの使用方法を説明します
+:[!DNL :arrow_upper_right:]: [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)のCampaignワークスペースの使用方法を説明します
 
-:arrow_upper_right: [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)でリストをカスタマイズする方法を説明します
+:[!DNL :arrow_upper_right:]: [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)のリストをカスタマイズする方法を説明します
 
 一部の機能には、Web経由でアクセスすることもできます。
 
-:bulb:[Campaign Webアクセスの詳細](../start/connect.md#web-access)。
+[!DNL :bulb:] [Campaign Webアクセスの詳細情報](../start/connect.md#web-access)を参照してください。
 
 
 ## 言語
