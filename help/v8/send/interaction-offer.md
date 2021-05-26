@@ -6,7 +6,7 @@ description: オファーの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 68%
@@ -183,13 +183,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 これで、オファーを承認してアクティブ化し、**ライブ**&#x200B;環境で利用できるようになります。
 
-:[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)を参照してください。
+[!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
 ## オファープレゼンテーションの管理{#offer-presentation}
 
 キャンペーンでは、プレゼンテーションルールを使用して、オファーの提案のフローを制御できます。 キャンペーンのインタラクションに固有のルールは、**タイポロジルール**&#x200B;です。 タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。ルールは環境内で参照されます。.
 
-:[!DNL :arrow_upper_right:]:詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)を参照してください。
+[!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
 ## オファーのシミュレーション
 
@@ -197,4 +197,4 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 シミュレーションでは、オファーとそのプレゼンテーションルールに以前に適用されたコンテキストと実施要件ルールが考慮されます。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
 
-:[!DNL :arrow_upper_right:]:オファーのシミュレーションについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)を参照してください。
+[!DNL :arrow_upper_right:] オファーのシミュレーションについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
