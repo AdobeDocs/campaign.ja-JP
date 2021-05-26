@@ -1,34 +1,34 @@
 ---
 solution: Campaign v8
 product: Adobe Campaign
-title: Campaignでの新しいスキーマの作成
-description: Campaignで新しいスキーマを作成する方法を説明します
+title: Campaign での新しいスキーマの作成
+description: Campaign で新しいスキーマを作成する方法を説明します
 source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 2%
+ht-degree: 98%
 
 ---
 
-# 新しいスキーマ{#create-new-schema}を作成します。
+# 新しいスキーマの作成{#create-new-schema}
 
-スキーマを編集、作成および設定するには、Adobe Campaignクライアントコンソールの&#x200B;**[!UICONTROL 管理/設定/データスキーマ]**&#x200B;ノードをクリックします。
+スキーマを編集、作成および設定するには、Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードをクリックします。
 
 >[!NOTE]
 >
->組み込みデータスキーマは、Adobe Campaign Classicコンソールの管理者のみが削除できます。
+>組み込みデータスキーマは、Adobe Campaign Classic コンソールの管理者のみが削除できます。
 
 ![](assets/schema_navtree.png)
 
-「**[!UICONTROL 編集]**」タブには、スキーマのXMLコンテンツが表示されます。
+「**[!UICONTROL 編集]**」タブには、スキーマの XML コンテンツが表示されます。
 
 ![](assets/schema_edition.png)
 
 >[!NOTE]
 >
->「名前」編集コントロールを使用して、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマのXML編集ゾーンで自動的に更新されます。 一部の名前空間は内部のみであることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)。
+>「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマの XML 編集ゾーンで自動的に更新されます。一部の名前空間は内部のみであることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)。
 
-「**[!UICONTROL プレビュー]**」タブでは、拡張スキーマが自動的に生成されます。
+「**[!UICONTROL プレビュー]**」タブでは、次のように拡張スキーマが自動的に生成されます。
 
 ![](assets/schema_edition2.png)
 
@@ -36,15 +36,15 @@ ht-degree: 2%
 >
 >ソーススキーマを保存すると、拡張スキーマの生成が自動的に開始されます。
 
-スキーマの構造全体を確認する必要がある場合は、「**[!UICONTROL プレビュー]**」タブを使用できます。 スキーマが拡張されると、そのすべての拡張を視覚化できます。 補集合として、「**[!UICONTROL ドキュメント]**」タブには、すべてのスキーマの属性と要素と、そのプロパティ（SQLフィールド、タイプ/長さ、ラベル、説明）が表示されます。 「**[!UICONTROL ドキュメント]**」タブは、生成されたスキーマにのみ適用されます。
+スキーマの完全な構造を確認する必要がある場合は、「**[!UICONTROL プレビュー]**」タブを使用します。 スキーマを拡張すると、そのすべての拡張を視覚化できます。 「**[!UICONTROL ドキュメント]**」タブには、補足情報として、すべてのスキーマ属性と要素、およびそのプロパティ（SQL フィールド、タイプ／長さ、ラベル、説明）が表示されます。 「**[!UICONTROL ドキュメント]**」タブは、生成されたスキーマにのみ適用されます。
 
-## 使用例：契約テーブル{#example--creating-a-contract-table}を作成します。
+## ユースケース：契約テーブルの作成 {#example--creating-a-contract-table}
 
-次の例では、データベース内に&#x200B;**contracts**&#x200B;の新しいテーブルを作成します。 この表には、契約ごとに、所有者および共同所有者の姓と名とEメールアドレスを保存できます。
+次の例では、**契約**&#x200B;の新しいテーブルをデータベースに作成します。 このテーブルには、契約ごとに、所有者と共同所有者の姓と名および E メールアドレスを格納できます。
 
-これをおこなうには、テーブルのスキーマを作成し、対応するテーブルを生成するためにデータベース構造を更新する必要があります。 詳細な手順を以下に示します。
+それには、テーブルのスキーマを作成し、対応するテーブルを生成するためのデータベース構造を更新する必要があります。 詳細な手順は次のとおりです。
 
-1. Adobe Campaignツリーの&#x200B;**[!UICONTROL 管理/設定/データスキーマ]**&#x200B;ノードを編集し、「**[!UICONTROL 新規]**」をクリックします。
+1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを編集し、「**[!UICONTROL 新規]**」をクリックします。
 1. 「**[!UICONTROL データテンプレートに新しいテーブルを作成]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/create_new_schema.png)
@@ -55,13 +55,13 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマの識別](extend-schema.md#identification-of-a-schema)を参照してください。
+   >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマの ID](extend-schema.md#identification-of-a-schema) を参照してください。
 
-1. テーブルのコンテンツを作成します。 専用のアシスタントを使用して、設定が欠落していないことを確認することをお勧めします。 追加するには、「****&#x200B;を挿入」ボタンをクリックし、追加する設定のタイプを選択します。
+1. テーブルの内容を作成します。 設定の見落としがないように、専用のウィザードを使用することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
 
    ![](assets/create_new_content.png)
 
-1. 契約表の設定を定義します。
+1. 契約テーブルの設定を定義します。
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
@@ -81,7 +81,7 @@ ht-degree: 2%
    </srcSchema>
    ```
 
-   契約列挙のタイプを追加します。
+   契約タイプの定義済みリストを追加します。
 
    ```
    <srcSchema created="AA-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png" label="Contracts" labelSingular="Contract" AA-MM-DD HH:MM:SS.TZ"mappingType="sql" name="Contracts" namespace="cus" xtkschema="xtk:srcSchema">
