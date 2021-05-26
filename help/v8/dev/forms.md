@@ -3,7 +3,7 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Campaign入力フォーム
 description: 入力フォームのカスタマイズ方法を説明します
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 3%
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 デフォルトでは、各フィールドは1行に表示され、データのタイプに応じて、使用可能なすべてのスペースを占有します。
 
-:[!DNL :arrow_upper_right:]:すべてのフォーム属性は、[Campaign Classicv7ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)に記載されています。
+[!DNL :arrow_upper_right:] すべてのフォーム属性は、 [Campaign Classicv7ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)に記載されています。
 
 ## 書式設定 {#formatting}
 
