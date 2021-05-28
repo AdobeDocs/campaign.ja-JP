@@ -7,7 +7,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
+source-git-commit: f4a78f13256a56bef82cbd465339a646a36bfbc1
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 48%
