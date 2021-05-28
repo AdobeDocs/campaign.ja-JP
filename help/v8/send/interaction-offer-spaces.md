@@ -6,7 +6,7 @@ description: オファースペースの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 42%
@@ -70,7 +70,7 @@ HTMLレンダリングは、レンダリング関数を使用して作成され�
 
 >[!NOTE]
 >
->ステータスの更新は非同期プロセスです。 更新処理は、1 時間ごとにトリガーされるトラッキングワークフローによって実行されます。
+>ステータスの更新は、**非同期**&#x200B;プロセスです。 更新処理は、1 時間ごとにトリガーされるトラッキングワークフローによって実行されます。
 
 ### オファーステータスリスト{#status-list}
 
