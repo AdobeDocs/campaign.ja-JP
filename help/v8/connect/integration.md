@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 80%
+source-wordcount: '342'
+ht-degree: 78%
 
 ---
 
@@ -29,13 +29,10 @@ Adobe Campaign にはいくつかのコネクタが付属しており、それ�
 キャンペーン v8 は以下と接続できます。
 
 * [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=ja)
-
 * [Real-Time CDP](../connect/ac-rtcdp.md)
-
-* [Adobe Analytics コネクタ](../connect/ac-aa.md)
-
+* [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
-
+* [Adobe Experience Cloudトリガー](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
 
 アセット共有機能とオーディエンス共有機能を使用すると、複数の Experience Cloud ソリューションにわたって&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
