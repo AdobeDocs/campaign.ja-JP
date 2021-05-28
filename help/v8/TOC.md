@@ -7,10 +7,10 @@ description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
 hide: true
-source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 87%
+source-wordcount: '197'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
    + [既知の制限事項](start/known-limitations.md)
    + [Classic v7 から v8](start/capability-matrix.md)
 + 開始 {#start}
-   + [はじめに](start/get-started.md)
+   + [基本を学ぶ](start/get-started.md)
    + [プロファイルとオーディエンス](start/audiences.md)
    + [データの読み込み](start/import.md)
    + [キャンペーンの作成](start/campaigns.md)
@@ -34,7 +34,7 @@ ht-degree: 87%
    + [指標とレポート](start/reporting.md)
    + [よくある質問](start/campaign-faq.md)
 + 実装 {#implement}
-   + [実装の手順](start/implement.md)
+   + [実装手順](start/implement.md)
    + [インスタンスのカスタマイズ](dev/customize.md)
    + [セキュリティガイドライン](config/security.md)
    + [web アプリとフォームの設計](dev/webapps.md)
@@ -61,7 +61,7 @@ ht-degree: 87%
       + [オファーカタログの作成](send/interaction-offer-catalog.md)
       + [オファーの作成](send/interaction-offer.md)
       + [オファーの送信](send/interaction-send-offers.md)
-      + [使用例](send/interaction-use-cases.md)
+      + [ユースケース](send/interaction-use-cases.md)
 + 設定 {#config}
    + [ワークフローを使用した自動化](config/workflows.md)
    + [データの管理](config/replication.md)
@@ -73,6 +73,7 @@ ht-degree: 87%
    + [Campaign と Analytics の統合](connect/ac-aa.md)
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
    + [Campaign と Target の統合](connect/ac-at.md)
+   + [キャンペーン+Experience Cloudトリガー](connect/ac-triggers.md)
    + [Campaign と RTCDP の統合](connect/ac-rtcdp.md)
    + [Campaign と Twitter の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
@@ -86,12 +87,12 @@ ht-degree: 87%
       + [スキーマの作成](dev/create-schema.md)
       + [スキーマの拡張](dev/extend-schema.md)
       + [スキーマの構造](dev/schema-structure.md)
-      + [データベースのマッピング](dev/database-mapping.md)
+      + [データベースマッピング](dev/database-mapping.md)
       + [PI の閲覧を制限](dev/restrict-pi-view.md)
       + [カスタム受信者テーブルの使用](dev/custom-recipient.md)
       + [データベースの更新](dev/update-database-structure.md)
       + [入力フォーム](dev/forms.md)
    + API {#api}
-      + [はじめに](dev/api.md)
+      + [基本を学ぶ](dev/api.md)
       + [新しい API](dev/new-apis.md)
       + [APIのステージングメカニズム](dev/staging.md)
