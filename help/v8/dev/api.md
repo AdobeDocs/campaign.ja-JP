@@ -7,10 +7,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 93ab81f60c96a44ca702cfc278b87903a977763c
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 32%
+source-wordcount: '331'
+ht-degree: 18%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 32%
 * スクリプト内 — [!DNL Adobe Campaign]ワークフロー内
 * API 経由 - 外部システムから
 
-JavaScript API を使用すると、Campaign クラウドデータベースへの書き込みや読み取りを実行できます。
+JavaScript APIを使用して、Campaignクラウドデータベースに書き込んだり、データベースから読み取ったりできます。
 
-* 目的の対象ごとにアクションをおこなえる、ビジネスに特化した API。配信、ワークフロー、サブスクリプションなど。詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja)を参照してください。
-* 汎用的なデータアクセス用の API。データモデルの情報をクエリできます。詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja)を参照してください。
+* 各オブジェクトに対して操作できる、ビジネス固有のAPI:配信、ワークフロー、購読など。 詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja)を参照してください。
+* データモデルデータに対するクエリ用の汎用データアクセスAPI。 詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja)を参照してください。
 
 Campaign v8は、2つのデータベースで動作します。リアルタイムメッセージングと単一クエリ、APIを介した書き込みを行うユーザーインターフェイス用のローカルデータベースと、キャンペーンの実行、レポート、データ取得、バッチクエリ、ワークフローの実行のためのCloudデータベース。
 
@@ -44,7 +44,7 @@ Campaign v8は、2つのデータベースで動作します。リアルタイ�
 APIを使用して[!DNL Adobe Campaign]とやり取りするには、データモデルに関する知識も必要です。
 
 >[!NOTE]
->データモデルを完全に記述できる必要があります。詳しくは、[このページ](datamodel.md)を参照してください。
+>データモデルの完全な説明を生成できます。 詳しくは、[このページ](datamodel.md)を参照してください。
 
 ## [!DNL Campaign] APIのステージングメカニズム
 
@@ -54,7 +54,7 @@ APIを使用して[!DNL Adobe Campaign]とやり取りするには、データ�
 
 ## 新しい API
 
-[!DNL Campaign]ローカルデータベースとCloudデータベース間のデータ同期を管理する新しいAPIが追加されました。 また、遅延を回避し、全体的なパフォーマンスを向上させるために、ローカルデータベースレベルでAPI呼び出しを処理する新しいメカニズムが導入されました
+[!DNL Campaign]ローカルデータベースとCloudデータベース間のデータ同期を管理する新しいAPIが追加されました。 また、遅延を回避し、全体的なパフォーマンスを向上させるために、ローカルデータベースレベルでAPI呼び出しを処理する新しいメカニズムが導入されました。
 
 [!DNL :bulb:] [新しいAPIについて詳しくは、このページを参照してください。](new-apis.md)
 
