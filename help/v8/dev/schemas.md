@@ -1,9 +1,8 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Adobe Campaign スキーマの操作
 description: スキーマの基本を学ぶ
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 90%
@@ -109,7 +108,7 @@ Campaign に存在しない新しいタイプのデータ（契約書のテー�
 
 作成または拡張したスキーマの XML コンテンツ要素は、次に示す順序で定義するのがよいでしょう。
 
-## 定義済みリスト {#enumerations}
+## 列挙 {#enumerations}
 
 定義済みリストは、スキーマのメイン要素より先に定義します。 これにより、特定のフィールドに使用できる値のリストを表示して、ユーザーによる選択肢を制限することができます。
 
