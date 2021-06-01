@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: キャンペーンインタラクションオファーの事前定義フィルター
 description: 事前定義済みフィルターの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 55%
