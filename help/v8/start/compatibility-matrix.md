@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign v8 互換性マトリックス
 description: Campaign v8 と互換性のあるシステムとバージョン
@@ -7,7 +6,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: ffdfc9a2e1bec191b5a3cc7f7b40683b2456bf3e
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 75%
