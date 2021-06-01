@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign メールチャネルの設定
 description: Campaign メールチャネルの設定
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 60%
