@@ -1,9 +1,8 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign のスキーマ構造
 description: Campaign のスキーマ構造
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 99%
@@ -219,7 +218,7 @@ ht-degree: 99%
 
 `<sqldefault>`：フィールドの作成時に値を追加できます。この値は SQL 結果として表示されます。 スキーマを更新時に、この値の影響を受けるのは新しいレコードだけです。
 
-### 定義済みリスト {#enumerations}
+### 列挙 {#enumerations}
 
 #### 任意の定義済みリスト{#free-enumeration}
 
