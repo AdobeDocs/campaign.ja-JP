@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: オーディエンスの概要
 description: オーディエンスの概要
@@ -7,7 +6,7 @@ feature: オーディエンス
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 345d324363782df6f7753d5099c4382628f5a048
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 57%
