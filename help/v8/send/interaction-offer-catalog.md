@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: キャンペーンインタラクションオファーカタログ
 description: オファーカタログの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 58f294b3d17de5eca64c82fdf7720b2734320bad
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 27%
