@@ -1,9 +1,8 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign 入力フォーム
 description: 入力フォームのカスタマイズ方法を学ぶ
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 99%
@@ -87,7 +86,7 @@ ht-degree: 99%
 
 [!DNL :arrow_upper_right:] すべてのフォーム属性は、 [Campaign Classicv7ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)に記載されています。
 
-## 書式設定 {#formatting}
+## フォーマット設定 {#formatting}
 
 コントロールのレイアウトは、HTML テーブルで使用するレイアウトに似ています。1 つのコントロールを複数の列に分割したり、複数の要素を組み合わせたり、空きスペースの占有を指定したりできます。ただし、書式設定は領域を縦横比で分割する場合にのみ使用できます。オブジェクトの固定寸法を指定することはできません。
 
