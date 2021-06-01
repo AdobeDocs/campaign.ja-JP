@@ -1,19 +1,18 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: キャンペーンインタラクションの使用例
 description: インタラクションの使用例
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 10%
 
 ---
 
-# 使用例
+# ユースケース
 
 Campaign Classicv7ドキュメントで利用可能なこれらのステップバイステップの使用例を通じて、Campaignのインタラクション機能を活用します。
 
