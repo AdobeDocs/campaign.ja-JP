@@ -1,9 +1,8 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Campaign データベースのマッピング
 description: Campaign データベースのマッピング
-source-git-commit: 1b731045783565c93a2db0923dea6b6d100471ad
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 99%
