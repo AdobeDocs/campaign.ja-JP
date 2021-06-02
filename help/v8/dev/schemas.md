@@ -2,10 +2,10 @@
 product: Adobe Campaign
 title: Adobe Campaign スキーマの操作
 description: スキーマの基本を学ぶ
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 90%
+source-wordcount: '1254'
+ht-degree: 88%
 
 ---
 
@@ -135,7 +135,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## キー {#keys}
 
-各テーブルには少なくとも 1 つのキーが必要です。通常、**@autouuid=true** 属性を「true」に設定すると、スキーマのメイン要素にキーが自動的に設定されます。
+各テーブルには少なくとも1つのキーが必要で、多くの場合、**true**&#x200B;に設定された&#x200B;**@autouuid**&#x200B;属性と&#x200B;**autopk**&#x200B;属性を使用して、スキーマのメイン要素に自動的に確立されます。
 
 プライマリキーは、**internal** 属性を使用して定義することもできます。
 
