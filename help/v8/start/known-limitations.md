@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 1%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
@@ -25,6 +25,6 @@ Adobe Campaign v8には、次の制限があります。
 * この節](capability-matrix.md#gs-unavailable-features)で示す機能は、現在のCampaign v8ビルドでは使用できません。[
 * 使用できない機能や削除された機能の一部は、ユーザーインターフェイスに表示されます
 * 購読（オプトイン）と購読解除（オプトアウト）のメカニズムと、モバイル登録は非同期プロセスです。 リクエストは、特定のテクニカルワークフローを通じて1時間ごとに処理されます。 [詳細情報](../config/replication.md#tech-wf)
-* ID管理 — 重複 — 確認+詳細
+* 重複は、エンドユーザーが手動で処理する必要があります。 [詳細情報](../dev/keys.md)
 * LINE — 詳細を確認する
 * 遅延 — +詳細の確認
