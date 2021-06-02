@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 69%
+source-wordcount: '601'
+ht-degree: 67%
 
 ---
 
@@ -41,11 +41,11 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
 * メインターゲットへの手動でのメッセージの送信
    [!DNL :arrow_upper_right:] [メッセージの送信方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ja)
-* [マーケティングキャンペーン](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja)に関連付けられたメッセージの送信
+* [マーケティングキャンペーン](campaigns.md)に関連付けられたメッセージの送信
    [!DNL :arrow_upper_right:] [キャンペーンのコンテキストでメッセージを送信する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=ja)。
-* [ワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)を介したメッセージの送信
+* [ワークフロー](../config/workflows.md)を介したメッセージの送信
    [!DNL :arrow_upper_right:] [Eメール配信を自動化する方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=ja)
-* [トリガー](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ja) メッセージ
+* [トリガー](../send/transactional.md) メッセージ
    [!DNL :arrow_upper_right:] [使用例：添付ファイルを含むトランザクションEメールの送信方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=ja)
 * メッセージのスケジュール
    [!DNL :arrow_upper_right:] [使用例：誕生日のEメールのスケジュールと送信方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ja)
