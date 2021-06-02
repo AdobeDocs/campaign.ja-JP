@@ -5,9 +5,9 @@ description: Campaign でのメールの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: d1e96b1311d9de24ceb918230186cd3cad609ab2
+source-git-commit: 5762e58aafb11932d0e28d87df84704974c09564
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '821'
 ht-degree: 76%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 76%
 
    * Web アプリケーションへのリンクの統合
 
-      デジタルコンテンツエディターを使用すると、Adobe Campaign コンソールから Web アプリケーションへのリンクを統合できます（ランディングページやフォームページなど）。詳しくは、[Web アプリケーションへのリンク](../../web/using/editing-content.md#link-to-a-web-application)を参照してください。
+      デジタルコンテンツエディターを使用すると、Adobe Campaign コンソールから Web アプリケーションへのリンクを統合できます（ランディングページやフォームページなど）。
 
       Web アプリケーションへのリンクのテキストフィールドを選択して、最初のアイコンをクリックします。**[!UICONTROL Web アプリケーションへのリンク]**&#x200B;を選択し、「**Web アプリケーション**」フィールドの末尾にあるアイコンをクリックして、目的のアプリケーションを選択します。
 
