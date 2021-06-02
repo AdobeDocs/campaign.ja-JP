@@ -6,10 +6,10 @@ description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
 hide: true
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 85%
+source-wordcount: '201'
+ht-degree: 83%
 
 ---
 
@@ -83,6 +83,7 @@ ht-degree: 85%
    + [データモデル](dev/datamodel.md)
    + スキーマとフォーム {#shemas-forms}
       + [スキーマの操作](dev/schemas.md)
+      + [鍵の管理と共同性](dev/keys.md)
       + [スキーマの作成](dev/create-schema.md)
       + [スキーマの拡張](dev/extend-schema.md)
       + [スキーマの構造](dev/schema-structure.md)
