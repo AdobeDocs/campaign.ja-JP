@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Campaignの主要な管理 '
 description: 鍵の管理の概要
-source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
+source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Adobeキャンペーンv8には、Snowflakeがコアデータベースとして�
 
 リレーショナルデータベースの一貫性を維持するには、キー、特にプライマリキーに対する重複を避けることが必須です。 プライマリキーでの重複は、**クエリ**、**紐付け**、**更新データ**&#x200B;など、データ管理ワークフローのアクティビティに問題を引き起こします。
 
-Adobe Campaignは、データの紐付け、データベース内の存在に応じたデータの挿入または更新（**紐付け**）、およびデータの取り込み（**重複排除**）の前の重複の削除をおこなう強力なデータ管理ツールを提案しています。 ベストプラクティスとして、Adobeでは、重複したキーがデータベースに読み込まれた場合に、データ管理プロセス全体の一部として[検出](#detect-duplicates)と[正しい](#correct-duplicates)戦略を採用することをお勧めします。
+ベストプラクティスとして、Adobeでは、重複したキーがデータベースに読み込まれた場合に、データ管理プロセス全体の一部として[検出](#detect-duplicates)と[正しい](#correct-duplicates)戦略を採用することをお勧めします。
 
 ## 重複の検出{#detect-duplicates}
 
