@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
 title: Adobe Campaign と Adobe Analytics の連携
-description: Adobe Campaign と Adobe Analytics の連携方法について説明します
+description: CampaignとAnalyticsの統合方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 7bb480eb69aa92e8876acaf2322e532dbb2f1f96
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 48%
+source-wordcount: '1299'
+ht-degree: 33%
 
 ---
 
@@ -19,22 +19,15 @@ Adobe Analyticsを設定して、CampaignとAnalyticsを統合できます。
 
 この統合により、Adobe CampaignとAdobe Analyticsは、**Web分析コネクタ**&#x200B;アドオンを介してやり取りできます。 この統合は、Adobe CampaignからAdobe Analyticsに配信されたEメールキャンペーンの指標と属性を送信します。
 
+[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、Adobeに問い合わせ [て、](../start/campaign-faq.md#support) CampaignをAdobe Experience Cloudのサービスおよびソリューションと接続します。AdobeIdentity Managementサービス(IMS)をインスタンスに実装する必要があります。 [詳細情報](../start/connect.md#connect-ims)。Web分析コネクタアドオンは、専用パッケージを使用して、お使いの環境にインストールする必要があります。
+
 Adobe Campaignでは、Adobe Analyticsコネクタを使用してインターネットオーディエンスを測定できます（Web分析）。 Web分析ツールを使用すると、Adobe Campaignは指標とキャンペーン属性をAnalyticsに転送できます。
 
 各ツールの動作の周長は次のとおりです。
 
-* **Adobe Analytics**
+* **Adobe** Analyticsは、Adobe Campaignで開始されたEメールキャンペーンをスマートにします
 
-   * Adobe Campaign で開始された E メールキャンペーンにマークを付けます。
-   * 受信者がキャンペーンメールのクリック後に参照したサイトでの行動をセグメントの形式で保存します。セグメントは、離脱した製品（閲覧されたが、カートへの追加や購入は行われなかった）、購入またはカート放棄を対象とします。
-
-* **Adobe Campaign**
-
-   * 指標およびキャンペーン属性をコネクタに送信します。コネクタはそれを web 分析ツールに転送します。
-   * セグメントを復元し分析します。
-   * リマーケティングキャンペーンをトリガーします。
-
-[!DNL :speech_balloon:]  管理対象Cloud Servicesのユーザーは、アドビに [連絡](../start/campaign-faq.md#support) して、Adobe AnalyticsコネクタをCampaignと統合してください。Web分析コネクタアドオンは、専用パッケージを使用して、お使いの環境にインストールする必要があります。
+* **Adobe** キャンペーンは指標とキャンペーン属性をコネクタに送信し、コネクタはそれらをWeb分析ツールに転送します
 
 
 >[!CAUTION]
@@ -47,7 +40,7 @@ CampaignとAnalyticsの接続を設定するには、次の操作を実行する
 1. [コンバージョン変数と成功イベントの設定](#configure-conversion-success)
 1. [Adobe Campaignでの外部アカウントの設定](#external-account-ac)
 
-## Adobe Analytics {#report-suite-analytics}でのレポートスイートの作成
+## Analyticsレポートスイート{#report-suite-analytics}の作成
 
 **[!UICONTROL [!DNL Adobe Analytics]にレポートスイート]**&#x200B;を作成するには、次の手順に従います。
 
@@ -122,7 +115,7 @@ CampaignとAnalyticsの接続を設定するには、次の操作を実行する
 
 レポートスイートを設定する際に、Adobe Campaignで&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
 
-## Adobe Campaign {#external-account-ac}での外部アカウントの設定
+## Campaign外部アカウントの設定{#external-account-ac}
 
 次に、Adobe Campaignで&#x200B;**[!UICONTROL Web Analytics]**&#x200B;外部アカウントを設定して、2つのソリューション間の同期を有効にする必要があります。
 
@@ -192,7 +185,7 @@ CampaignとAnalyticsの接続を設定するには、次の操作を実行する
 >
 >複数のオーディエンス測定ツールを使用する場合は、外部アカウントの作成時に&#x200B;**[!UICONTROL パートナー]**&#x200B;ドロップダウンリストで「**[!UICONTROL その他]**」を選択できます。配信プロパティの 1 つの外部アカウントのみを参照できます。そのため、トラッキングされる URL の式を調整する必要があります。調整するには、Adobe および使用される他のすべての測定ツールで想定されているパラメーターを追加します。
 
-## Web 分析プロセスのテクニカルワークフロー {#technical-workflows-of-web-analytics-processes}
+## Web分析プロセスのテクニカルワークフロー{#technical-workflows-of-web-analytics-processes}
 
 Adobe CampaignとAdobe Analytics間のデータ交換は、バックグラウンドタスクとして実行されるテクニカルワークフローで処理されます。
 
@@ -232,7 +225,7 @@ Adobe CampaignとAdobe Analytics間のデータ交換は、バックグラウン
 * **[!UICONTROL タグ 3]** (webAnalytics/@tag3)
 * **[!UICONTROL コンタクト日]** (scheduling/@contactDate)
 
-## Adobe Campaign での配信のトラッキング {#tracking-deliveries-in-adobe-campaign}
+## 配信の追跡{#tracking-deliveries-in-adobe-campaign}
 
 Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト上のアクティビティをトラッキングできるようにするには、配信プロパティで対応するコネクタを参照する必要があります。それには、次の手順に従います。
 
@@ -246,46 +239,6 @@ Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト
    ![](assets/webanalytics_delivery_properties_002.png)
 
 1. 配信を送信し、Adobe Analytics でそのレポートにアクセスできるようになりました。
-
-## リマーケティングキャンペーンの作成 {#creating-a-re-marketing-campaign}
-
-リマーケティングキャンペーンを準備するには、リマーケティングタイプのキャンペーンに使用する配信テンプレートを作成します。次に、リマーケティングキャンペーンを設定し、セグメントにリンクします。セグメントごとに異なるリマーケティングキャンペーンが必要です。
-
-Adobe Campaign で最初のキャンペーンでターゲットとした受信者の行動を分析し、セグメントの収集が終了すると、リマーケティングキャンペーンが自動的に開始されます。カートが放棄されたか、製品を表示しても購入に至らなかった場合、サイトのブラウジングが購入につながるように、対象の受信者に配信が送信されます。
-
-Adobe Campaign にはパーソナライズされた配信テンプレートが用意されており、これを使用するか、またはこれをベースとして使用することによってキャンペーンを準備することができます。
-
-1. **[!UICONTROL エクスプローラー]**&#x200B;から、Adobe Campaignツリーの&#x200B;**[!UICONTROL リソース]** / **[!UICONTROL テンプレート]** / **[!UICONTROL 配信テンプレート]**&#x200B;フォルダーに移動します。
-
-1. 「**[!UICONTROL E メール配信（リマーケティング）]**」テンプレートまたは Adobe Campaign に用意されているリマーケティングテンプレートのサンプルを複製します。
-
-   ![](assets/webanalytics_delivery_model.png)
-
-1. ニーズに合わせてテンプレートをパーソナライズし、保存します。
-
-1. 新しいキャンペーンを作成し、ドロップダウンリストから「**[!UICONTROL リマーケティングキャンペーン]**」テンプレートを選択します。
-
-   ![](assets/webanalytics_remarketing_campaign_002.png)
-
-1. **[!UICONTROL 設定...]** リンクをクリックして、キャンペーンにリンクされたセグメントおよび配信テンプレートを指定します。
-
-1. 前に設定した外部アカウントを選択します。
-
-   ![](assets/webanalytics_remarketing_campaign_003.png)
-
-1. 対象のセグメントを選択します。
-
-   ![](assets/webanalytics_remarketing_campaign_005.png)
-
-1. このリマーケティングキャンペーンに使用する配信テンプレートを選択し、「**[!UICONTROL 完了]**」をクリックしてウィンドウを閉じます。
-
-   ![](assets/webanalytics_remarketing_campaign_006.png)
-
-1. 「**[!UICONTROL OK]**」をクリックしてキャンペーンウィンドウを閉じます。
-
-**[!UICONTROL リマーケティングの効率]**&#x200B;レポートは、グローバルレポートページからアクセスします。このレポートでは、Adobe Campaign のリマーケティングキャンペーン後における、カート放棄数に対するコンバージョンされた連絡先（何かを購入したなど）数を表示できます。週ごと、月ごとまたは Adobe Campaign と Web 分析ツール間の同期開始以降のコンバージョン率が計算されます。
-
-![](assets/webanalytics_reporting.png)
 
 
 **関連トピック**
