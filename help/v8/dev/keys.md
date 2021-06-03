@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Campaignの主要な管理 '
 description: 鍵の管理の概要
-source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobeキャンペーンv8には、Snowflakeがコアデータベースとして�
 ## 重複の検出{#detect-duplicates}
 
 Campaignには、配信の準備中に、重複したUUIDをオーディエンスから自動的に削除する新しいガードレールが追加されました。 この新しいメカニズムは、配信の準備中にエラーが発生するのを防ぎます。
+
+>[!CAUTION]
+>
+>重複したキーはUUIDに制限されません。 これは、カスタムテーブルで作成されたカスタムキーを含む、IDを持つで発生する可能性があります。
 
 エンドユーザーは、次の情報を配信ログで確認できます。キーが重複しているので、一部の受信者をメインターゲットから除外できます。 その場合、次の警告が表示されます。`Exclusion of duplicates (based on the primary key or targeted records)`.
 
