@@ -5,7 +5,7 @@ description: Campaign におけるプッシュ通知の概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 72%
@@ -54,4 +54,4 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 >[!CAUTION]
 >
->Campaign v8モバイル登録では、**非同期**&#x200B;になりました。 [詳細情報](../dev/staging.md)。
+>Campaign v8モバイル登録では、**非同期**&#x200B;になりました。 [詳細情報](../dev/staging.md)
