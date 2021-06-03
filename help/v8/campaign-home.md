@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 48aa738c81a811ccf314ca9cc710c34a685060c5
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 83%
+source-wordcount: '95'
+ht-degree: 74%
 
 ---
 
@@ -65,3 +65,4 @@ ht-degree: 83%
 * [測定とトラッキング](start/reporting.md)
 * [他のソリューションとの接続](connect/integration.md)
 * [Campaign v8に関するFAQ](start/campaign-faq.md)
+* [Adobe Campaign v8の製品説明](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)を参照してください。
