@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: データモデルのベストプラクティス
 description: Adobe Campaign データモデル拡張のベストプラクティスを説明します
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 91%
@@ -66,7 +66,6 @@ Adobe Campaign で必要な属性であるかどうかを判断するには、�
 ### フィールドの選択 {#choice-of-fields}
 
 ターゲティングやパーソナライゼーションに利用するフィールドは、テーブルに格納する必要があります。パーソナライズされたメール送信やクエリの条件に使用しないフィールドを格納すると、不必要にディスク領域を消費してしまいます。
-
 
 ### キーの選択 {#choice-of-keys}
 
