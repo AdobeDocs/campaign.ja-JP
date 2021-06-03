@@ -5,10 +5,10 @@ description: オファー管理の概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -28,19 +28,19 @@ Campaignには&#x200B;**インタラクション**&#x200B;モジュールが付�
 
 開始する前に、キャンペーン&#x200B;**管理者**&#x200B;として、デザイン環境で次のタスクを実行していることを確認してください。
 
-1. ユーザープロファイルを作成します。 [詳細情報](interaction-operators.md)。
+1. ユーザープロファイルを作成します。 [詳細情報](interaction-operators.md)
 1. （オプション）ターゲティングディメンションごとにオファー環境を作成します。 [詳細情報](interaction-env.md)
-1. 各環境でタイポロジルールを作成します。 [詳細情報](interaction-offer.md#offer-presentation)。
-1. 各環境用にオファースペースを作成し、レンダリング関数を設定します。 [詳細情報](interaction-offer-spaces.md).
-スペースが識別モードで単一のチャネルによって定義される場合は、このスペースの詳細設定パラメーターを指定する必要があります。
+1. 各環境でタイポロジルールを作成します。 [詳細情報](interaction-offer.md#offer-presentation)
+1. 各環境用にオファースペースを作成し、レンダリング関数を設定します。 [詳細](interaction-offer-spaces.md)
+情報スペースが識別モードで単一のチャネルによって定義される場合は、このスペースの詳細設定パラメーターを指定する必要があります。
 
 ### オファーカタログ{#managing-the-offer-catalog-}を作成して公開します。
 
 **オファーマネージャー**&#x200B;は、次のタスクを実行する必要があります。
 
-1. デザイン環境にオファーカテゴリを作成します。 [詳細情報](interaction-offer-catalog.md#creating-offer-categories)。
-1. デザイン環境でオファーを作成します。 [詳細情報](interaction-offer.md)。
-1. 1つまたは複数のスペースでオファーを承認してパブリッシュし、ライブ環境で配信責任者が使用できるようにします。 [詳細情報](interaction-offer.md#approve-offers)。
+1. デザイン環境にオファーカテゴリを作成します。 [詳細情報](interaction-offer-catalog.md#creating-offer-categories)
+1. デザイン環境でオファーを作成します。 [詳細情報](interaction-offer.md)
+1. 1つまたは複数のスペースでオファーを承認してパブリッシュし、ライブ環境で配信責任者が使用できるようにします。 [詳細情報](interaction-offer.md#approve-offers)
 
 ### オファーカタログ{#using-the-offer-catalog-}を活用
 
