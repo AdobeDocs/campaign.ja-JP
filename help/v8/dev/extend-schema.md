@@ -2,10 +2,10 @@
 product: Adobe Campaign
 title: Campaign スキーマの拡張
 description: Campaign スキーマの拡張方法を学ぶ
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 91%
+source-wordcount: '269'
+ht-degree: 75%
 
 ---
 
@@ -22,7 +22,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 >[!CAUTION]
 >組み込みスキーマは直接変更できません。 組み込みのスキーマを適合させる必要がある場合は、スキーマを拡張します。
 
-[!DNL :bulb:] Campaignの組み込みテーブルとそのインタラクションについて詳しくは、このページを参 [照してください](datamodel.md)。
+[!DNL :bulb:] Campaignの組み込みテーブルとそのインタラクションについて詳しくは、このページを参 [照してください](datamodel.md)。[このページ](create-schema.md)で新しいスキーマを作成する際の推奨事項も参照してください。
 
 スキーマを拡張するには、次の手順に従います。
 
@@ -43,7 +43,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 
    ![](assets/extend-schema-edit.png)
 
-   以下の例では、MembershipYear 属性を追加、姓の長さの制限を設定し（この制限はデフォルト値を上書きします）、組み込みスキーマから生年月日を削除します。
+   次の例では、**MembershipYear**&#x200B;属性を追加し、姓の長さの制限を設定し（この制限はデフォルトの名前に上書きします）、組み込みスキーマから生年月日を削除します。
 
    ![](assets/extend-schema-sample.png)
 
