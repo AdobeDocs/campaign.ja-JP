@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Campaign スキーマの拡張
 description: Campaign スキーマの拡張方法を学ぶ
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 75%
@@ -35,7 +35,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 
    ![](assets/extend-schema-select.png)
 
-   慣例に従い、拡張スキーマに組み込みスキーマと同じ名前を付け、カスタム名前空間を使用します。一部の名前空間は内部のみであることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)。
+   慣例に従い、拡張スキーマに組み込みスキーマと同じ名前を付け、カスタム名前空間を使用します。一部の名前空間は内部のみであることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
