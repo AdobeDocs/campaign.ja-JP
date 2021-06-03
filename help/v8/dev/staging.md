@@ -5,7 +5,7 @@ description: キャンペーンAPIのステージングメカニズム
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 4%
@@ -20,7 +20,7 @@ Campaign Cloudデータベースでは、パフォーマンス（待ち時間お
 
 * データスキーマ構造がローカルのステージングテーブルに複製されています
 * データの取り込みフローをローカルのステージングテーブルに直接送るための新しいAPI。 [詳細情報](new-apis.md)
-* スケジュールされたワークフローで、1時間ごとにトリガーし、データをクラウドデータベースに同期します。 [詳細情報](../config/replication.md)。
+* スケジュールされたワークフローで、1時間ごとにトリガーし、データをクラウドデータベースに同期します。 [詳細情報](../config/replication.md)
 
 一部の組み込みスキーマは、デフォルトでステージングされます（nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipientなど）。
 
