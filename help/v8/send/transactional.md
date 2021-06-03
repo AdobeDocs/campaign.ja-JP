@@ -5,10 +5,10 @@ description: トランザクションメッセージの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 93%
+source-wordcount: '1540'
+ht-degree: 91%
 
 ---
 
@@ -219,7 +219,7 @@ ht-degree: 93%
 
 トランザクションメッセージテンプレートを非公開にするには、次の手順に従います。
 
-1. コントロールインスタンス内で、ツリーの **[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーに移動します。
+1. コントロールインスタンスで、**[!UICONTROL Message Center/トランザクションメッセージテンプレート]**&#x200B;フォルダーを参照します。
 1. 非公開にするテンプレートを選択します。
 1. 「**[!UICONTROL 非公開にする]**」をクリックします。
 1. 「**[!UICONTROL 開始]**」をクリックします。
