@@ -5,7 +5,7 @@ description: Campaign v8 の新しい API
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Campaign の新しい API{#gs-new-api}
 
-Campaign v8には、CampaignローカルデータベースとCloudデータベースの間のデータを管理する2つの新しいAPIが付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細情報](staging.md)。
+Campaign v8には、CampaignローカルデータベースとCloudデータベースの間のデータを管理する2つの新しいAPIが付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細情報](staging.md)
 
 * 取得API:**xtk.session.ingest**
 
