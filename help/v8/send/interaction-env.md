@@ -5,7 +5,7 @@ description: オファー管理オペレーターの作成
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 40%
@@ -31,7 +31,7 @@ ht-degree: 40%
 
 ![](assets/offer_environments_overview_002.png)
 
-配信責任者は、**[!UICONTROL ライブ]**&#x200B;環境のみを表示し、オファーを活用して配信できます。 オファーマネージャーは、**[!UICONTROL デザイン]**&#x200B;環境を表示および使用し、**[!UICONTROL ライブ]**&#x200B;環境を表示できます。 [詳細情報](interaction-operators.md)。
+配信責任者は、**[!UICONTROL ライブ]**&#x200B;環境のみを表示し、オファーを活用して配信できます。 オファーマネージャーは、**[!UICONTROL デザイン]**&#x200B;環境を表示および使用し、**[!UICONTROL ライブ]**&#x200B;環境を表示できます。 [詳細情報](interaction-operators.md)
 
 ## オファー環境の作成{#creating-an-offer-environment}
 
