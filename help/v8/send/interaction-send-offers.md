@@ -5,7 +5,7 @@ description: オファーカタログの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 76%
@@ -40,11 +40,11 @@ ht-degree: 76%
 
    ![](assets/offer_delivery_005.png)
 
-1. 必要に応じて、「**[!UICONTROL 不適格な受信者を除外]**」オプションを選択します。[詳細情報](#parameters-for-calling-offer-engine)。
+1. 必要に応じて、「**[!UICONTROL 不適格な受信者を除外]**」オプションを選択します。[詳細情報](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. 必要に応じて、「**[!UICONTROL オファーが選択されていない場合は表示しない]**」オプションを選択します。 [詳細情報](#parameters-for-calling-offer-engine)。
+1. 必要に応じて、「**[!UICONTROL オファーが選択されていない場合は表示しない]**」オプションを選択します。 [詳細情報](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -110,7 +110,7 @@ ht-degree: 76%
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#offer-into-a-delivery)。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -132,7 +132,7 @@ ht-degree: 76%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#offer-into-a-delivery)。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ ht-degree: 76%
 
 次の方法でこの情報を保存することができます。
 
-1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。[詳細情報](#specifying-an-offer-or-a-call-to-the-offer-engine)。
+1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。[詳細情報](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -182,7 +182,7 @@ ht-degree: 76%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#inserting-an-offer-proposition-into-a-delivery)。
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#inserting-an-offer-proposition-into-a-delivery)
 
 ### オファー（セル別） {#offers-by-cell}
 
