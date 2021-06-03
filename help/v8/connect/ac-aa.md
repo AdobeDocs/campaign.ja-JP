@@ -6,7 +6,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 7bb480eb69aa92e8876acaf2322e532dbb2f1f96
+source-git-commit: a7309c9ec735f958f038c6ea4e702c99c726f8bd
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 33%
@@ -135,10 +135,13 @@ CampaignとAnalyticsの接続を設定するには、次の操作を実行する
 
 1. **[!UICONTROL Analytics統合の設定]**&#x200B;ウィンドウで、以前に作成したレポートスイートに外部アカウントをマッピングし、次の情報を提供します。
 
+   ![](assets/analytics_connector_0.png)
+
    * **[!UICONTROL E メール]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics の会社]**
    * **[!UICONTROL レポートスイート]**
+
 
 1. **[!UICONTROL eVars]**&#x200B;カテゴリから、[!DNL Adobe Analytics]で設定した2つの&#x200B;**[!UICONTROL コンバージョン変数]**&#x200B;をマッピングします。
 
