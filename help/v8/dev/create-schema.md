@@ -2,10 +2,10 @@
 product: Adobe Campaign
 title: Campaign での新しいスキーマの作成
 description: Campaign で新しいスキーマを作成する方法を説明します
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 98%
+source-wordcount: '433'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->組み込みデータスキーマは、Adobe Campaign Classic コンソールの管理者のみが削除できます。
+>組み込みデータスキーマは、Adobe Campaign コンソールの管理者のみが削除できます。
 
 ![](assets/schema_navtree.png)
 
@@ -61,6 +61,8 @@ ht-degree: 98%
    ![](assets/create_new_content.png)
 
 1. 契約テーブルの設定を定義します。
+
+   ベストプラクティスとして、`dataSource="nms:extAccount:ffda"`属性を追加して、Cloudデータベースにテーブルを作成します。 この属性は、新しいテーブルを作成する際にデフォルトで追加されます。
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
