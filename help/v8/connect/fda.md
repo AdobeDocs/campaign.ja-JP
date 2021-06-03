@@ -5,7 +5,7 @@ description: Campaign および外部データベースを操作する方法
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1923'
 ht-degree: 58%
@@ -54,7 +54,7 @@ Campaign FDA オプションを使用すると、サードパーティのデー�
 FDAを使用して外部データベースへのアクセスを設定するには、次の設定手順を実行します。
 
 1. Adobe Managed Servicesのユーザーは、Adobeに連絡して、Campaignインスタンスにドライバーをインストールします。
-1. ドライバーをインストールしたら、Adobe Campaignサーバー上のデータベースに対応する外部アカウントを設定し、外部アカウントをテストします。 [詳細情報](#fda-external-account)。
+1. ドライバーをインストールしたら、Adobe Campaignサーバー上のデータベースに対応する外部アカウントを設定し、外部アカウントをテストします。 [詳細情報](#fda-external-account)
 1. Adobe Campaign で、外部データベースのスキーマを作成します。これにより、外部データベースのデータ構造を識別できます。 [詳細情報](#create-data-schema)
 1. 必要に応じて、以前に作成したスキーマから新しいターゲットマッピングを作成します。 これは、配信の受信者が外部データベースから来ている場合に必要です。 この実装には、メッセージのパーソナライゼーションに関する制限があります。 [詳細情報](#define-data-mapping)
 
