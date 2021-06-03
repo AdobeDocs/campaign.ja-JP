@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 81%
+source-wordcount: '626'
+ht-degree: 73%
 
 ---
 
@@ -68,17 +68,17 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 
 ![](assets/messagecenter_diagram.png)
 
-[!DNL :arrow_upper_right:] Message Centerのアーキテクチャについては、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/transactional-messaging-architecture.html?lang=ja#transactional-messaging)
+[!DNL :arrow_upper_right:] Message Centerのアーキテクチャについては、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture.html)
 
 ### 認証
 
 これらの機能を使用するため、Adobe Campaign のユーザーはコントロールインスタンスにログオンして、トランザクションメッセージテンプレートの作成、シードリストを使用したメッセージプレビューの生成、レポートの表示、実行インスタンスの監視をおこないます。
 
 * 単一の実行インスタンス
-アドビがホストする Message Center 実行インスタンスとやり取りする場合、外部システムは、提供されたアカウントのログインとパスワードを使用して、セッションログオンメソッドへの API 呼び出しを行うことで、最初にセッショントークン（デフォルトでは 24 時間で期限切れ）を取得できます。
+AdobeがホストするMessage Center実行インスタンスとやり取りする際、外部システムは、提供されたアカウントのログインとパスワードを使用してセッションログオンメソッドに対するapi呼び出しをおこなうことで、最初にセッショントークン（デフォルトでは24時間で期限切れ）を取得できます。
 次に、上記の呼び出しに応答して実行インスタンスが提供する sessionToken を使用して、外部アプリケーションは SOAP API 呼び出し（rtEvents または batchEvents）を行って通信を送信できます。各 SOAP 呼び出しにアカウントのログインとパスワードを含める必要はありません。
 
 * 複数の実行インスタンス
 ロードバランサーの背後に複数の実行インスタンスがある複数セル実行アーキテクチャでは、外部アプリケーションが呼び出すログオンメソッドはロードバランサーを経由します。そのため、トークンベースの認証は使用できません。 ユーザー／パスワードベースの認証が必要です。
 
-[!DNL :arrow_upper_right:] トランザクションメッセージイベントについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
+[!DNL :arrow_upper_right:] トランザクションメッセージイベントについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
