@@ -5,7 +5,7 @@ description: オファーの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 68%
@@ -50,7 +50,7 @@ ht-degree: 68%
 
 ![](assets/offer_eligibility_create_003.png)
 
-定義済みフィルターが既にある場合は、ユーザーフィルターのリストから選択できます。[詳細情報](interaction-predefined-filters.md)。
+定義済みフィルターが既にある場合は、ユーザーフィルターのリストから選択できます。[詳細情報](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -64,7 +64,7 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->オファーに割り当てた重み付けの値を、そのオファーが属するカテゴリのパラメーターに従って一時的に修正させることもできます。[詳細情報](interaction-offer-catalog.md#creating-offer-categories)。
+>オファーに割り当てた重み付けの値を、そのオファーが属するカテゴリのパラメーターに従って一時的に修正させることもできます。[詳細情報](interaction-offer-catalog.md#creating-offer-categories)
 
 オファーの重み付けを作成するには、次の手順に従います。
 
@@ -140,7 +140,7 @@ ht-degree: 68%
 
    ![](assets/offer_content_create_002.png)
 
-   オファースペースの設定時に定義された必須フィールドを確認するには、「**[!UICONTROL コンテンツ定義]**」リンクをクリックします。[詳細情報](interaction-offer-spaces.md)。
+   オファースペースの設定時に定義された必須フィールドを確認するには、「**[!UICONTROL コンテンツ定義]**」リンクをクリックします。[詳細情報](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
