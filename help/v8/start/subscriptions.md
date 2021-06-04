@@ -5,10 +5,10 @@ description: Campaign v8 で購読と購読解除を管理する方法を説明�
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
+source-git-commit: 4cdf1b30584088d1c5de301d89c6d09bf5429ca1
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 42%
+source-wordcount: '532'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,13 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
-* 一連の受信者を自動的にサービスに購読登録します。 受信者のリストは、フィルター操作、グループ、フォルダー、インポートまたは直接手動による選択から取得できます。 この受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション/サービスの購読選択…を選択します。]**、該当するサービスを選択し、操作を開始します。
+* 一連の受信者を自動的にサービスに購読登録します。 受信者のリストは、フィルター操作、グループ、フォルダー、インポートまたは直接手動による選択から取得できます。 この受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション/サービスの購読選択…を選択します。]**.
+
+   ![](assets/subscribe-selection.png)
+
+   該当するサービスを選択し、操作を開始します。
+
+   ![](assets/subscribe-confirm.png)
 
    [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
@@ -37,13 +43,20 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 * 受信者をサービスに購読登録できる Web フォームを使用します。
 
+   ![](assets/opt-in-webapp.png)
+
+   Campaignには、オプトインを管理するためのデフォルトのWebフォームが用意されています。 これをパーソナライズし、プロファイルデータをマッピングできます。
+
+   ![](assets/web-app.png)
+
    [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 
 * ターゲティングワークフローを作成し、**[!UICONTROL 購読サービス]**&#x200B;アクティビティを使用します。
 
-   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
+   ![](assets/wf-subscription.png)
 
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/subscription-services.html?lang=en#example--subscribe-a-list-of-recipients-to-a-newsletter)
 
 プロファイルをサービスから購読解除（オプトアウト）するには、次のオプションを使用できます。
 
@@ -56,7 +69,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 **自動購読解除**
 
 * 情報サービスの期間制限を指定します。有効期間が終了すると、受信者は自動的に購読解除されます。 この期間は、サービスプロパティの「編集」タブで指定します。期間は日数で表します。
-* 母集団の購読解除ワークフローの設定
+* 母集団の購読解除ワークフローを設定します。
 
 [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
 
