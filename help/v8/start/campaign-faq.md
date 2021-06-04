@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 1f3af0a9ea29506296710024791511ceafddc824
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 67%
+source-wordcount: '640'
+ht-degree: 68%
 
 ---
 
@@ -78,7 +78,7 @@ Campaign を使用しているときにヘルプが必要な場合は、以下�
 
 1. **Campaignエキスパートと連絡を取ることはできますか？**
 
-   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。 [会話への参加](https://experienceleaguecommunities.adobe.com/?profile.language=en)
+   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
 
 1. **問題をログに記録する方法を教えてください。**
