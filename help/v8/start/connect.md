@@ -6,10 +6,10 @@ feature: オーディエンス
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 03585f0c1514a80b0b0cba5a2d05fa3f44398405
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 80%
+source-wordcount: '819'
+ht-degree: 77%
 
 ---
 
@@ -117,6 +117,16 @@ Adobe Campaign のプラットフォームにアクセスするユーザーを�
 HTMLユーザーインターフェイスを使用して、シンプルなWebブラウザーでアプリケーションの特定の部分にアクセスできます。キャンペーンダッシュボード、キューブレポート、インスタンス監視など。
 
 [!DNL :arrow_upper_right:] Webアクセスについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+
+Webアクセスには、コンソールに似たインターフェイスが用意されていますが、機能が少なくなります。
+
+例えば、特定のオペレーターの場合、キャンペーンはコンソールに次のオプションと共に表示されます。
+
+![](assets/campaign-from-console.png)
+
+一方、Web アクセスで見たときには、次のようなオプションが表示されます。
+
+![](assets/campaign-from-web.png)
 
 Webアクセスは、検証プロセスでも使用されます。オペレーターは、承認リクエストのEメールをクリックし、Webブラウザーを通じてCampaignに接続して、配信コンテンツや予算を検証または却下できます。
 
