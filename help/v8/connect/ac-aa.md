@@ -6,7 +6,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a7309c9ec735f958f038c6ea4e702c99c726f8bd
+source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 33%
@@ -135,8 +135,6 @@ CampaignとAnalyticsの接続を設定するには、次の操作を実行する
 
 1. **[!UICONTROL Analytics統合の設定]**&#x200B;ウィンドウで、以前に作成したレポートスイートに外部アカウントをマッピングし、次の情報を提供します。
 
-   ![](assets/analytics_connector_0.png)
-
    * **[!UICONTROL E メール]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics の会社]**
@@ -160,6 +158,8 @@ CampaignとAnalyticsの接続を設定するには、次の操作を実行する
    ![](assets/analytics_connnector_12.png)
 
 1. 必要に応じて、「**[!UICONTROL セグメントを更新]**」タブでセグメントを追加または削除できます。
+
+   ![](assets/analytics_connnector_12a.png)
 
 1. **[!UICONTROL 外部アカウント]**&#x200B;から、「**[!UICONTROL 数式をエンリッチメント…」をクリックします。]**&#x200B;リンクをクリックして、Web分析ツールの統合情報（キャンペーンID）と、アクティビティを追跡する必要があるサイトのドメインを指定する、URLの計算式を変更します。
 
