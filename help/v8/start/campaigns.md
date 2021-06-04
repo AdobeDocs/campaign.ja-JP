@@ -6,7 +6,7 @@ feature: オーディエンス
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 032bee3b58948b558efe50796efa789a046ff5e4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 85%
@@ -22,6 +22,8 @@ Adobe Campaign が提供する一連のソリューションを使用すると�
 ## クロスチャネルキャンペーンのオーケストレーション
 
 Adobe Campaign を使用すると、メール、ダイレクトメール、SMS、プッシュ通知などの複数のチャネルで、ターゲットを絞りパーソナライズしたキャンペーンの設計とオーケストレーションを行えます。1 つのインターフェイスを通して、すべてのキャンペーンとコミュニケーションのスケジュール作成、オーケストレーション、設定、パーソナライズ、自動化、実施、測定などに必要なすべての機能を利用することができます。
+
+![](assets/campaign-tab.png)
 
 ### 主要コンセプト
 
@@ -42,6 +44,8 @@ Adobe Campaign を使用すると、メール、ダイレクトメール、SMS�
 ## マーケティングキャンペーンのワークスペース
 
 Adobe Campaign を使用すると、すべてのマーケティングキャンペーンの作成、設定、実施、分析を統合コントロールセンターで行うことができます。
+
+![](assets/calendar.png)
 
 [!DNL :arrow_upper_right:] マーケティングキャンペーンへのアクセス方法と実装方法については、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=ja#orchestrating-campaigns)
 
