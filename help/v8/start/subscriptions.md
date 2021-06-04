@@ -5,7 +5,7 @@ description: Campaign v8 で購読と購読解除を管理する方法を説明�
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 42%
@@ -21,6 +21,8 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 プロファイルをサービスに購読登録（オプトイン）するには、次のオプションを使用できます。
 
 * 受信者プロファイルにサービスを手動で追加するには：これをおこなうには、プロファイルの「**[!UICONTROL 購読]**」タブで「**[!UICONTROL 追加]**」をクリックし、関連する情報サービスを選択します。
+
+   ![](assets/subscribe-to-a-service.png)
 
    [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
