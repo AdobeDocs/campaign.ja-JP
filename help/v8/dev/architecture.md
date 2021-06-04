@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
+source-git-commit: e6086620909277eaaf5966335df9b71c6830e726
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 73%
+source-wordcount: '608'
+ht-degree: 75%
 
 ---
 
@@ -67,8 +67,6 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 >コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。同じ Campaign インスタンスを共有できなくなります。
 
 ![](assets/messagecenter_diagram.png)
-
-[!DNL :arrow_upper_right:] Message Centerのアーキテクチャについては、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture.html)
 
 ### 認証
 
