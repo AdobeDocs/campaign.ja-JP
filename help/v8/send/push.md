@@ -5,7 +5,7 @@ description: Campaign におけるプッシュ通知の概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: c6f1cfdec3d05a81f8885cc73b370723024f858f
+source-git-commit: b0fcdefb638a2424e9464cf520724cc492fabc55
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 67%
@@ -97,19 +97,19 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 1. 「**[!UICONTROL Android配信(android)]**」配信テンプレートを選択します。
 
-   ![](assets/push-template-android.png)
+   <!--![](assets/push-template-android.png)-->
 
 1. 通知のターゲットを定義するには、**[!UICONTROL 宛先]**&#x200B;リンク／**[!UICONTROL 追加]**&#x200B;をクリックします。
 
-   ![](assets/nmac_delivery_android_2.png)
+   <!--![](assets/nmac_delivery_android_2.png)-->
 
 1. 「**[!UICONTROL Android モバイルアプリケーションの購読者]**」を選択してモバイルアプリケーション（この場合は Neotrips）に関連するサービスを選択し、アプリケーションの Android バージョンを選択します。
 
-   ![](assets/push-android-select-target.png)
+   <!--![](assets/push-android-select-target.png)-->
 
 1. 次に通知の内容を入力します。
 
-   ![](assets/push-android-content.png)
+   <!--![](assets/push-android-content.png)-->
 
 1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックして、プッシュ通知に顔文字を挿入します。
 
@@ -117,7 +117,7 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 
-   ![](assets/push-android-preview.png)
+   <!--![](assets/push-android-preview.png)-->
 
 ## プッシュ通知のテスト、送信、監視
 
