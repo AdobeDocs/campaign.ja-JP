@@ -5,10 +5,10 @@ description: Campaign におけるプッシュ通知の概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: b0fcdefb638a2424e9464cf520724cc492fabc55
+source-git-commit: 09979331284757527fc9a24479a53d2d488f4649
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 67%
+source-wordcount: '836'
+ht-degree: 53%
 
 ---
 
@@ -51,7 +51,7 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 ここでは、iOS および Android の通知の配信に固有な設定について説明します。
 
-[!DNL :arrow_upper_right:] プッシュ通知を作成するすべての手順について詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=ja#sending-notifications-on-ios)
+[!DNL :arrow_upper_right:] プッシュ通知を作成するすべての手順について詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
 
 >[!CAUTION]
 >
@@ -61,7 +61,9 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 ![](assets/delivery_step_1.png)
 
-### iOS で通知を送信する {#sending-notifications-on-ios}
+[!DNL :arrow_upper_right:] 配信の作成方法に関する全体的な情報については、 [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages)を参照してください。
+
+### iOSで通知を送信する{#send-notifications-on-ios}
 
 1. 「**[!UICONTROL iOS配信]**」配信テンプレートを選択し、「**[!UICONTROL 続行]**」をクリックします。
 
@@ -83,33 +85,37 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 1. 選択した通知タイプに基づいて、**[!UICONTROL メッセージ]**&#x200B;と&#x200B;**[!UICONTROL バッジの値]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL アクションボタン]**」を使用すると、アラート通知に表示されるアクションボタンのラベルを定義できます（ペイロードの **action_loc_key** フィールド）。
+1. 次の要素も定義できます。
 
-1. 「**[!UICONTROL サウンドを再生]**」フィールドで、通知を受信したときにモバイル端末で再生されるサウンドを選択します。
+   * 「**[!UICONTROL アクションボタン]**」を使用すると、アラート通知に表示されるアクションボタンのラベルを定義できます（ペイロードの **action_loc_key** フィールド）。
 
-1. 「**[!UICONTROL アプリケーション変数]**」フィールドで、それぞれの変数の値を入力します。例えば、ユーザーが通知を有効化したときに表示される特定のアプリケーション画面を設定できます。
+   * 「**[!UICONTROL サウンドを再生]**」フィールドで、通知を受信したときにモバイル端末で再生されるサウンドを選択します。
+
+   * 「**[!UICONTROL アプリケーション変数]**」フィールドで、それぞれの変数の値を入力します。例えば、ユーザーが通知を有効化したときに表示される特定のアプリケーション画面を設定できます。
 
 1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 
    ![](assets/push-ios-preview.png)
 
-### Android で通知を送信する {#sending-notifications-on-android}
+[!DNL :arrow_upper_right:] iOSでプッシュ通知を作成して送信するための詳細な手順については、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=ja#sending-notifications-on-ios)
+
+### Androidで通知を送信する{#send-notifications-on-android}
 
 1. 「**[!UICONTROL Android配信(android)]**」配信テンプレートを選択します。
 
-   <!--![](assets/push-template-android.png)-->
+   ![](assets/push-template-android.png)
 
 1. 通知のターゲットを定義するには、**[!UICONTROL 宛先]**&#x200B;リンク／**[!UICONTROL 追加]**&#x200B;をクリックします。
 
-   <!--![](assets/nmac_delivery_android_2.png)-->
+   ![](assets/push-android-select-target.png)
 
 1. 「**[!UICONTROL Android モバイルアプリケーションの購読者]**」を選択してモバイルアプリケーション（この場合は Neotrips）に関連するサービスを選択し、アプリケーションの Android バージョンを選択します。
 
-   <!--![](assets/push-android-select-target.png)-->
+   ![](assets/push-ios-subscribers.png)
 
 1. 次に通知の内容を入力します。
 
-   <!--![](assets/push-android-content.png)-->
+   ![](assets/push-android-content.png)
 
 1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックして、プッシュ通知に顔文字を挿入します。
 
@@ -119,8 +125,22 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
    <!--![](assets/push-android-preview.png)-->
 
+[!DNL :arrow_upper_right:] Androidでプッシュ通知を作成して送信するための詳細な手順については、  [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
+
 ## プッシュ通知のテスト、送信、監視
 
-配達確認や最終配信を送信するには、E メール配信と同じプロセスを使用します。
+配達確認や最終配信を送信するには、E メール配信と同じプロセスを使用します。詳しくは、Campaign Classicv7のドキュメントを参照してください。
 
-メッセージを送信した後は、配信を監視およびトラッキングできます。
+* 配信の検証と配達確認の送信
+   [!DNL :arrow_upper_right:] [配信を検証するための主な手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja)
+
+* 配信の確認と送信
+   [!DNL :arrow_upper_right:] [配信を送信するための主な手順を説明します](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
+
+メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、Campaign Classicv7のドキュメントを参照してください。
+
+* プッシュ通知の強制隔離
+   [!DNL :arrow_upper_right:] [プッシュ通知の強制隔離の詳細を説明します](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
+
+* トラブルシューティング
+   [!DNL :arrow_upper_right:] [プッシュ通知のトラブルシューティング方法を説明します](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
