@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 51%
+ht-degree: 41%
 
 ---
 
@@ -44,7 +44,7 @@ Campaign v8は、ターゲティングから最終的なレポートまで、プ
 
 ## シンプル化とパフォーマンス向上
 
-Campaign v8 では、**完全な Federated Data Access**（FDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。
+Campaign v8では、**Full Federated Data Access**(FFDA)の概念を実現します。すべてのデータがクラウドデータベース上でリモートになりました。
 
 この新しいアーキテクチャにより、Campaign v8はデータ管理をシンプル化します。クラウドデータベースにインデックスは必要ありません。 テーブルを作成し、データをコピーし、利用を開始するだけです。
 
@@ -54,7 +54,7 @@ Campaign v8 では、**完全な Federated Data Access**（FDA）の概念が導
 
 ## 統合されたエコシステム
 
-Campaign は、Adobe Analytics、Workfront、Journey Orchestration、Real-Time CDP などの一連の強力な Adobe ソリューションと統合できます。
+Campaignは、次のような強力なAdobeソリューションと統合できます。Adobe Analytics、AdobeJourney Orchestration、リアルタイムCDPなど。
 
 また、ジャーニー AI を使用して、予測送信時間の最適化と予測エンゲージメントスコアを設定し、オープン率、クリック数、売上高を増やすこともできます。
 
