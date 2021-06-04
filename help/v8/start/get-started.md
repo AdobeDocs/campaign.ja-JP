@@ -6,7 +6,7 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 0e99b836dc035c0076f6771b5b430dfd1bd8edaf
+source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 79%
@@ -85,6 +85,8 @@ Adobe Campaign は、ニーズとアーキテクチャに応じて対話型マ�
 ## Workspace とカスタマイズ
 
 Campaignワークスペースは、[クライアントコンソール](../dev/general-architecture.md)で使用できます。
+
+![](assets/home-page.png)
 
 [!DNL :bulb:] [Campaignクライアントコンソールの詳細を説明します](../start/connect.md)。
 
