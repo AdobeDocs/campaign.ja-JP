@@ -5,9 +5,9 @@ description: Adobe Campaign での SMS の基本を学ぶ
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
+source-git-commit: 04f9d80e26fab372a1819590f8e79298c7a69ab5
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '590'
 ht-degree: 42%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign を使用すると、パーソナライズされた SMS メッセ
 
 * この外部アカウントの参照元となる配信テンプレート。
 
-!DNL :arrow_upper_right:] [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=ja#sending-messages)でSMSチャネルを設定する方法を説明します。
+[!DNL :arrow_upper_right:]   [Campaign Classicv7のドキュメントでSMSチャネルを設定する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=ja#sending-messages)
 
 SMS の送信を開始する前：
 
