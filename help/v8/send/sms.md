@@ -5,7 +5,7 @@ description: Adobe Campaign での SMS の基本を学ぶ
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 04f9d80e26fab372a1819590f8e79298c7a69ab5
+source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 42%
@@ -51,9 +51,9 @@ SMS の送信を開始する前：
 
    ![](assets/sms-template-list.png)
 
-   [!DNL :arrow_upper_right:]  [Campaign Classicv7ドキュメントでSMPP外部アカウントを作成する方法を説明します](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
+   [!DNL :arrow_upper_right:]  [Campaign Classicv7ドキュメントでSMPP外部アカウントを作成する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#creating-an-smpp-external-account)
 
-   [!DNL :arrow_upper_right:] モバイルに配信する配信テンプレートを作成する方法については、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
+   [!DNL :arrow_upper_right:] モバイルに配信する配信テンプレートを作成する方法については、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up.html?lang=en#changing-the-delivery-template)
 
 1. ラベル、コードおよび説明を設定して配信を識別します。
 
@@ -69,11 +69,11 @@ SMSを作成およびデザインするための主な手順については、Ca
 
 * SMS の作成
 
-   [!DNL :arrow_upper_right:] [SMS配信の作成方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=ja#sending-messages)
+   [!DNL :arrow_upper_right:] [SMS配信の作成方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#sending-messages)
 
 * SMSコンテンツのデザイン
 
-   [!DNL :arrow_upper_right:] [SMSコンテンツの定義方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=ja#defining-the-sms-content)
+   [!DNL :arrow_upper_right:] [SMSコンテンツの定義方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content)
 
 * Eメールのオーディエンスを選択します
 
@@ -100,7 +100,7 @@ SMSを送信および監視する主な手順については、Campaign Classicv
 
 * SMS 配信の送信、監視、追跡
 
-   [!DNL :arrow_upper_right:] [SMSを送信、監視、および追跡するためのツールについて説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=ja#sending-messages)
+   [!DNL :arrow_upper_right:] [SMSを送信、監視、および追跡するためのツールについて説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages)
 * SMS配信のトラブルシューティング
 
-   [!DNL :arrow_upper_right:] [SMSのトラブルシューティングの詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=ja#sending-messages)
+   [!DNL :arrow_upper_right:] [SMSのトラブルシューティングの詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=en#sending-messages)
