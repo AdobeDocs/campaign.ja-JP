@@ -5,16 +5,57 @@ description: Campaign におけるダイレクトメールの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 67657fa19f3ff4594f7901f30d0d49ac75dcfbe0
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 85%
+source-wordcount: '413'
+ht-degree: 34%
 
 ---
 
 # ダイレクトメール配信の作成
 
-ダイレクトメール配信では、ターゲット母集団に関するデータを含む抽出ファイルを生成できます。
+ダイレクトメール配信では、ターゲット母集団に関するデータを含む抽出ファイルを生成できます。その後、このファイルを、ターゲット母集団にメッセージを配信するプロバイダーと共有できます。
 
-[!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=ja)
+ファイルを生成する手順は次のとおりです。
 
+1. 配信の作成
+
+   テンプレートに基づいてダイレクトメール配信を作成します。 **[!UICONTROL ダイレクトメールで配信（紙）]**&#x200B;組み込みテンプレートを複製し、設定できます。
+
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html)
+
+1. オーディエンスの定義
+
+   受信者のプロファイルには、少なくとも受信者の名前と郵送先住所が登録されている必要があります。
+
+   郵送先住所は、計算フィールドです。1 つのアドレスは、デフォルトで最大 6 つの行から構成されます。最初の行には名前の姓および名、続く数行には郵送先住所の番地など、最後の行には、郵便番号や市区町村が含まれます。
+
+   名前、郵便番号、市区町村フィールドが空でない場合、アドレスは完全に入力されているとみなされます。
+
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja)
+
+1. ファイルのコンテンツの定義
+
+   抽出ウィザードを使用して、出力ファイルに書き出す情報（列）を定義します。
+
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html)
+
+1. 配信の検証
+
+   分析の結果と出力ファイルの内容を確認します。
+
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html)
+
+   マーケティングキャンペーンのコンテキストでは、抽出日に抽出ファイルが作成されます。 抽出したファイルのコンテンツを表示したり、ファイルを承認したり、形式を変更したり、必要に応じて抽出を再度開始したりできます。 ファイルが承認されたら、通知 E メールを発送担当に送信できます。
+
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html#approving-an-extraction-file)
+
+1. 配信の開始
+
+   抽出ファイルの検証が完了したら、「**配信を確定**」をクリックして、配信を開始することを確認するメッセージを表示します。
+
+   確認が表示され、指定したファイルへのデータ抽出が開始されます。
+
+   マーケティングキャンペーンのコンテキストでは、すべての承認が付与されると、抽出ファイルは特別なワークフローを使用して作成されます。このワークフローは、デフォルト設定で、ダイレクトメール配信が抽出保留中の場合に自動的に開始されます。
+
+   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html#starting-an-offline-delivery)
