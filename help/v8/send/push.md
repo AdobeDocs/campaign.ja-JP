@@ -5,10 +5,10 @@ description: Campaign におけるプッシュ通知の概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 09979331284757527fc9a24479a53d2d488f4649
+source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
@@ -51,7 +51,7 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 ここでは、iOS および Android の通知の配信に固有な設定について説明します。
 
-[!DNL :arrow_upper_right:] プッシュ通知を作成するすべての手順について詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
+[!DNL :arrow_upper_right:] プッシュ通知を作成するすべての手順について詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=ja)
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
    <!--![](assets/push-android-preview.png)-->
 
-[!DNL :arrow_upper_right:] Androidでプッシュ通知を作成して送信するための詳細な手順については、  [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
+[!DNL :arrow_upper_right:] Androidでプッシュ通知を作成して送信するための詳細な手順については、  [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
 
 ## プッシュ通知のテスト、送信、監視
 
@@ -135,12 +135,12 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
    [!DNL :arrow_upper_right:] [配信を検証するための主な手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja)
 
 * 配信の確認と送信
-   [!DNL :arrow_upper_right:] [配信を送信するための主な手順を説明します](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
+   [!DNL :arrow_upper_right:] [配信を送信するための主な手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、Campaign Classicv7のドキュメントを参照してください。
 
 * プッシュ通知の強制隔離
-   [!DNL :arrow_upper_right:] [プッシュ通知の強制隔離の詳細を説明します](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
+   [!DNL :arrow_upper_right:] [プッシュ通知の強制隔離の詳細を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
 
 * トラブルシューティング
-   [!DNL :arrow_upper_right:] [プッシュ通知のトラブルシューティング方法を説明します](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
+   [!DNL :arrow_upper_right:] [プッシュ通知のトラブルシューティング方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
