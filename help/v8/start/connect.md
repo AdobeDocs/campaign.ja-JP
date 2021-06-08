@@ -1,12 +1,12 @@
 ---
 product: Adobe Campaign
-title: Campaign v8 への接続方法を学ぶ
-description: Campaign v8 への接続
+title: Campaign v8 への接続
+description: Campaign v8 への接続方法を学ぶ
 feature: オーディエンス
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 03585f0c1514a80b0b0cba5a2d05fa3f44398405
+source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 77%
