@@ -159,7 +159,7 @@ ht-degree: 99%
 </srcSchema>
 ```
 
-## 「PROPERTIES」タブ {#properties}
+## プロパティ {#properties}
 
 データスキーマの **`<elements>`** 要素と **`<attributes>`** 要素は、様々なプロパティを使用して強化できます。 現在の要素を説明するためにラベルを入力できます。
 
