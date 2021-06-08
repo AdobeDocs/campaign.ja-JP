@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
 title: Campaign v8 の概要
-description: 主要な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。
+description: Campaignを初めてお使いの場合 使い始める方法を理解する
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
+source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 79%
+source-wordcount: '894'
+ht-degree: 78%
 
 ---
 
@@ -119,3 +119,8 @@ Campaign v8ユーザーインターフェイスは、次の言語で使用でき
 
 言語が影響を受ける日付および時間の形式。 詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time)を参照してください。
 
+**関連項目：**
+
+* [Campaign v8互換性マトリックス](compatibility-matrix.md)
+* [Campaign への接続](connect.md)
+* [よくある質問（FAQ）](campaign-faq.md)
