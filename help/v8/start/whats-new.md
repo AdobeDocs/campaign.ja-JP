@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
 title: Campaign v8 の新機能
-description: 主な機能の詳細
+description: Campaign v8の主な機能の確認
 feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
+source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 41%
+source-wordcount: '455'
+ht-degree: 40%
 
 ---
 
