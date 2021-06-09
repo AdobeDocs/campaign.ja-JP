@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 9ecd0af7a6e8e173a89106c84a78de8b2311fef7
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 67%
+source-wordcount: '600'
+ht-degree: 64%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
    [!DNL :arrow_upper_right:] [Eメール配信を自動化する方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=ja)
 * [トリガー](../send/transactional.md) メッセージ
-   [!DNL :arrow_upper_right:] [使用例：添付ファイルを含むトランザクションEメールの送信方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=ja)
+   [!DNL :arrow_upper_right:] [使用例：添付ファイルを含むトランザクションEメールの送信方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 * メッセージのスケジュール
 
    ![](assets/schedule-send.png)
@@ -87,7 +87,7 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 [!DNL :bulb:] トランザクションメッセージを設定して送信する手順について詳しくは、このページを [参照してください](../send/transactional.md)
 
-[!DNL :arrow_upper_right:]  [Campaign Classicv7ドキュメントのエンドツーエンドの使用例でこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=ja#transactional-messaging)
+[!DNL :arrow_upper_right:]  [Campaign Classicv7ドキュメントのエンドツーエンドの使用例でこの機能を確認する](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 
 ## 配信とトラッキングログ
 
