@@ -5,10 +5,10 @@ description: Campaign におけるプッシュ通知の概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
+source-git-commit: 42a83fefb9c4ae3cea906c5dce8ecf725909b4eb
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 55%
+source-wordcount: '845'
+ht-degree: 54%
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作を実�
 ### Campaign SDK の統合
 
 Campaign SDK を使用すると、ご利用のモバイルアプリケーションを Adobe Campaign プラットフォームへと容易に統合できます。
+
+互換性のあるSDKバージョンは、[Campaign互換性マトリックス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
 
 [!DNL :arrow_upper_right:]  [Campaign Classicv7のドキュメントで、Campaign SDKをアプリと統合する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=ja#loading-campaign-sdk)
 
