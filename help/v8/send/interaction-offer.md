@@ -5,10 +5,10 @@ description: オファーの作成方法を説明します
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 67%
 
 ---
 
@@ -196,4 +196,4 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 シミュレーションでは、オファーとそのプレゼンテーションルールに以前に適用されたコンテキストと実施要件ルールが考慮されます。 ターゲットの受信者はシミュレーションの影響を受けないので、これにより、実際にオファーを使用したり、ターゲットを拡大または縮小したりしなくても、オファーの提案の様々なバージョンをテストして調整できます。
 
-[!DNL :arrow_upper_right:] オファーのシミュレーションについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.htm)
+[!DNL :arrow_upper_right:] オファーのシミュレーションについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)
