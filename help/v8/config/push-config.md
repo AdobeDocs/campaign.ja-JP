@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 6ea6922b8b6d41612eea000edd2e62417288e020
+source-git-commit: ee0ea4c1e086ee579e63e391683cc8e896d09f0b
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -91,7 +91,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    {
        super.onCreate(savedInstanceState);
    
-       // initialize Neolane sdk
+       // initialize Campaign SDK
        SharedPreferences settings = getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
        Neolane.getInstance().setIntegrationKey(settings.getString(YourApplicationActivity.APPUUID_NAME, YourApplicationActivity.DFT_APPUUID));
@@ -147,7 +147,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
        {
            additionnalParam = null;
        }
-       // Neolane Registration
+       // Campaign Registration
        neolaneAs.registerDevice(registrationId, userKey, additionnalParam, ctx, new RequestListener() {
        public void onComplete(String e, Object obj)
        {
@@ -366,63 +366,56 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    ```
    /** Called when the activity is first created. */
-       @Override
-       public void onCreate(Bundle savedInstanceState){
+   @Override
+   public void onCreate(Bundle savedInstanceState)
+   {
        super.onCreate(savedInstanceState);
    
        SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
-       // Initialize Campaign SDK
+       // initialize Neolane sdk
        Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
        Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
        Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
-       ...
-       ...
-       ...
-       // Manage open/receive tracking of message notification
-           Intent intent = getIntent();
-           Bundle data = intent.getExtras();
-           String messageId = null, deliveryId = null;
-           if( data != null )
-           {
-           if (data.containsKey("_mId")) messageId = data.get("_mId").toString();
-           if (data.containsKey("_dId")) deliveryId = data.get("_dId").toString();
-           if ( messageId != null && deliveryId != null) 
-           {
-               Log.i(TAG, "Notify opening from backgroun click_action");
-               NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-               nas.notifyOpening(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() 
-               {
-               public void onNeolaneException(NeolaneException arg0, Object arg1) 
-               {
-                   toastMessage( "error", getString(R.string.open_track_sdk_error) + arg0.getErrorCode());
-               }
-               public void onIOException(IOException arg0, Object arg1) 
-               {
-                   toastMessage( "error", getString(R.string.open_track_io_error) +  arg0.getLocalizedMessage());
-               }
-               public void onComplete(String arg0, Object arg1) 
-               {
-                   toastMessage( "error", getString(R.string.open_track_ok));
-               }
-           });
-               nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() 
-               {
-               public void onNeolaneException(NeolaneException arg0, Object arg1) 
-               {
-                   toastMessage( "error", getString(R.string.rec_track_sdk_error) + arg0.getErrorCode());
-               }
-               public void onIOException(IOException arg0, Object arg1) 
-               {
-                   toastMessage( "error", getString(R.string.rec_track_io_error) +  arg0.getLocalizedMessage());
-               }
-               public void onComplete(String arg0, Object arg1) 
-               {
-                   toastMessage( "error", getString(R.string.rec_track_ok));
-               }
-               });
+   ...
+   ...
+   ...
+   
+       // Manage opening/receive tracking of message notification
+       Intent intent = getIntent();
+       Bundle data = intent.getExtras();
+       String messageId = null, deliveryId = null;
+       if( data != null ) {
+       if (data.containsKey("_mId")) messageId = data.get("_mId").toString();
+       if (data.containsKey("_dId")) deliveryId = data.get("_dId").toString();
+       if ( messageId != null && deliveryId != null) {
+           Log.i(TAG, "Notify opening from backgroun click_action");
+           NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
+           nas.notifyOpening(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
+           public void onNeolaneException(NeolaneException arg0, Object arg1) {
+               toastMessage( "error", getString(R.string.open_track_sdk_error) + arg0.getErrorCode());
            }
+           public void onIOException(IOException arg0, Object arg1) {
+               toastMessage( "error", getString(R.string.open_track_io_error) +  arg0.getLocalizedMessage());
+           }
+           public void onComplete(String arg0, Object arg1) {
+               toastMessage( "error", getString(R.string.open_track_ok));
+           }
+           });
+           nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+           public void onNeolaneException(NeolaneException arg0, Object arg1) {
+               toastMessage( "error", getString(R.string.rec_track_sdk_error) + arg0.getErrorCode());
+           }
+           public void onIOException(IOException arg0, Object arg1) {
+               toastMessage( "error", getString(R.string.rec_track_io_error) +  arg0.getLocalizedMessage());
+           }
+           public void onComplete(String arg0, Object arg1) {
+               toastMessage( "error", getString(R.string.rec_track_ok));
+           }
+           });
        }
+       }
+   }
    ```
 
 >[!NOTE]
@@ -483,7 +476,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras){
        .....
        .....
-           // notify Neolane that a notification just arrived
+           // notify Campaign that a notification just arrived
            SharedPreferences settings = context.getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
            Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
            Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
@@ -516,7 +509,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    
            SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
-           // initialize Neolane sdk
+           // initialize Campaign SDK
            Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
            Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
            Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
@@ -696,7 +689,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    ```
    //  Neolane_SDK.h
-   //  Neolane SDK
+   //  Campaign SDK
    ..
    .. 
    // Register Device Status Enum
@@ -744,7 +737,7 @@ completionHandler(UIBackgroundFetchResultNoData);
           NSString *strIntegrationKey = [defaults objectForKey:@"integrationKey"];
           userKey = [defaults objectForKey:@"userKey"];
       
-          // Configure Neolane SDK on first launch
+          // Configure Campaign SDK on first launch
           Neolane_SDK *nl = [Neolane_SDK getInstance];
           [nl setMarketingHost:strMktHost];
           [nl setTrackingHost:strTckHost];
