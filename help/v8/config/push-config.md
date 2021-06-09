@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: ee0ea4c1e086ee579e63e391683cc8e896d09f0b
+source-git-commit: 170a80942aff9951859646942657938e206959fe
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
 * **Android**：
 
-   ```
+   ```sql
    Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
    Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
    Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
@@ -49,7 +49,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
 * **iOS**：
 
-   ```
+   ```sql
    Neolane_SDK *nl = [Neolane_SDK getInstance];
    [nl setMarketingHost:strMktHost];
    [nl setTrackingHost:strTckHost];
@@ -84,7 +84,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    Android SDKを使用する前に、初期化する必要があります。 SDKの初期化は、アクティビティの`onCreate`関数でおこなえます。
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -112,7 +112,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    デバイスをAdobe Campaignに登録する必要があります。登録は、アプリの初期化時またはユーザー操作時におこないます。 `registerDevice`メソッドを使用すると、簡単に実行できます。
 
-   ```
+   ```sql
    public void onClick(View v)
    {
    SharedPreferences settings = this.context.getSharedPreferences(YourApplicationActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
@@ -127,7 +127,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    YourApplicationActivity.java
 
-   ```
+   ```sql
    public static void registerOnNeolane(final Context ctx, String registrationId, String userKey)
    {
        NeolaneAsyncRunner neolaneAs = new NeolaneAsyncRunner(Neolane.getInstance());
@@ -188,7 +188,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    YourApplicationFirebaseInstanceIDService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -225,7 +225,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    YourApplicationMessagingService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -270,7 +270,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    Campaign Android SDK v1.1.1の場合
 
-   ```
+   ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras)
    {
        if( message == null ) message = "No Content";
@@ -330,7 +330,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    Campaign Android SDK v1.1.1の場合
 
-   ```
+   ```sql
    public class NotificationActivity extends Activity {
        public void onCreate(Bundle savedBundle) {
            [...]
@@ -359,12 +359,13 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
            }
        }
    }
-   
+   ```
+
 1. **通知メッセージの開封数およびクリック数の追跡**
 
    通知メッセージの場合、開封/クリックの追跡は、次に示すように、アプリケーション起動アクティビティ内の`notifyOpening`関数を使用しておこなう必要があります。
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
    @Override
    public void onCreate(Bundle savedInstanceState)
@@ -373,7 +374,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    
        SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
-       // initialize Neolane sdk
+       // initialize Campaign SDK
        Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
        Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
        Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
@@ -429,7 +430,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    YourApplicationMessagingService.java
 
-   ```
+   ```sql
    package com.android.YourApplication;
    
    import android.content.Context;
@@ -472,7 +473,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    }
    ```
 
-   ```
+   ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras){
        .....
        .....
@@ -500,7 +501,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    開封数/クリック数の追跡と同時におこなう必要があります。
 
-   ```
+   ```sql
    /** Called when the activity is first created. */
        @Override
        public void onCreate(Bundle savedInstanceState)
@@ -564,7 +565,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    * 通知 ID またはプッシュ ID（iOS の deviceToken および Android の registrationID）を Adobe Campaign に送信します。
    * 紐付けキーまたは userKey（例えば E メールやアカウント番号）を復元します。
 
-   ```
+   ```sql
    // Callback called on successful registration to the APNs
     - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
    {
@@ -576,18 +577,18 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 1. **トラッキング関数の有効化**
 
-トラッキング関数を使用すると、通知の有効化（オープン）を追跡できます。
+   トラッキング関数を使用すると、通知の有効化（オープン）を追跡できます。
 
-```
-(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{
-if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
-*nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
-...  
-completionHandler(UIBackgroundFetchResultNoData);
-}
-```
+   ```sql
+   (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+   fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+   {
+   if( launchOptions ) { // Retrieve notification parameters here ... // Track application opening Neolane_SDK
+   *nl = [Neolane_SDK getInstance]; [nl track:launchOptions:NL_TRACK_CLICK]; } 
+   ...  
+   completionHandler(UIBackgroundFetchResultNoData);
+   }
+   ```
 
 1. **無音の通知のトラッキング**
 
@@ -595,7 +596,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    無音の通知をトラッキングするには、以下の例に従います。
 
-   ```
+   ```sql
    // AppDelegate.m
    ...
    ...
@@ -610,7 +611,7 @@ completionHandler(UIBackgroundFetchResultNoData);
    if (launchOptions) NSLog(@"IN launchOptions: %@", [launchOptions description]);
    NSLog(@"Application state: %ld", (long)application.applicationState);
    
-   // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user doesn't have click/open the notification)
+   // Silent Notification (specific case, can use NL_TRACK_RECEIVE as the user does not have click/open the notification)
    if ([launchOptions[@"aps"][@"content-available"] intValue] == 1 )
        {
    NSLog(@"Silent Push Notification");
@@ -629,13 +630,13 @@ completionHandler(UIBackgroundFetchResultNoData);
    }
    ```
 
-1. 登録ステータスの設定
+1. **登録ステータスの設定**
 
    デリゲートプロトコルを使用すると、 **registerDevice**&#x200B;呼び出しの結果を取得し、これを使用して登録中にエラーが発生したかどうかを知ることができます。
 
    **registerDeviceStatus** プロトタイプ：
 
-   ```
+   ```sql
    - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    ```
 
@@ -687,7 +688,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    **Neolane_SDKDelegate** プロトコルと **registerDeviceStatus** デリゲートの定義は次のとおりです。
 
-   ```
+   ```sql
    //  Neolane_SDK.h
    //  Campaign SDK
    ..
@@ -721,7 +722,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. SDK の初期化中に **setDelegate** を実装します。
 
-      ```
+      ```sql
       // AppDelegate.m
       ...
       ... 
@@ -750,7 +751,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. クラスの **@interface** にプロトコルを追加します。
 
-      ```
+      ```sql
       //  AppDelegate.h
       
       #import <UIKit/UIKit.h>
@@ -772,7 +773,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    1. **AppDelegate** にデリゲートを実装します。
 
-      ```
+      ```sql
       //  AppDelegate.m
       
       #import "AppDelegate.h"
@@ -832,7 +833,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
 * **Android**：
 
-   ```
+   ```sql
    public void onReceive(Context context, Intent intent) {
         ...
        String event = intent.getStringExtra("VAR");
@@ -842,7 +843,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
 * **iOS**：
 
-   ```
+   ```sql
    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
    {
        ....
@@ -880,7 +881,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
 メディアは通知サービス拡張レベルでダウンロードする必要があります。
 
-```
+```sql
 #import "NotificationService.h"
 
 @interface NotificationService ()
@@ -926,7 +927,7 @@ completionHandler(UIBackgroundFetchResultNoData);
 
    メディアデータをウィジェットに送るためのコードを追加する必要があります。画像用のコードの例を次に示します。
 
-   ```
+   ```sql
    #import "NotificationViewController.h"
    #import <UserNotifications/UserNotifications.h>
    #import <UserNotificationsUI/UserNotificationsUI.h>
