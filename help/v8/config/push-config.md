@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: f1a854c6aa91755add4dfe422879ffd12e8d297b
+source-git-commit: afc624ffdcc3c537bdfa23989c1ed95271edabdb
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1286'
 ht-degree: 43%
 
 ---
@@ -103,7 +103,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    `IntegrationKey`は、このAndroidアプリケーションにリンクされているAdobe Campaignモバイルアプリケーションの「IntegrationKey」セットと一致する必要があります。
 
-2. **モバイルデバイスをAdobe Campaignサーバーに登録する**
+1. **モバイルデバイスをAdobe Campaignサーバーに登録する**
 
    登録関数によってできることは次のとおりです。
 
