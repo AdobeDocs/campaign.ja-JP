@@ -5,10 +5,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
+source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 83%
+source-wordcount: '204'
+ht-degree: 82%
 
 ---
 
@@ -65,6 +65,7 @@ ht-degree: 83%
    + [データの管理](config/replication.md)
    + [E メールの設定](config/email-settings.md)
    + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
+   + [モバイルアプリの設定](config/push-config.md)
    + [外部アカウント](config/external-accounts.md)
 + 接続 {#connect}
    + [他のソリューションとの接続](connect/integration.md)
