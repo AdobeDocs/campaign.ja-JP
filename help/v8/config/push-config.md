@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: afc624ffdcc3c537bdfa23989c1ed95271edabdb
+source-git-commit: 6ea6922b8b6d41612eea000edd2e62417288e020
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 43%
@@ -367,53 +367,60 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    ```
    /** Called when the activity is first created. */
        @Override
-       public void onCreate(Bundle savedInstanceState)
-       {
+       public void onCreate(Bundle savedInstanceState){
        super.onCreate(savedInstanceState);
    
        SharedPreferences settings = getSharedPreferences(NeoTripActivity.APPLICATION_PREF_NAME, Context.MODE_PRIVATE);
    
-       // initialize Neolane sdk
+       // Initialize Campaign SDK
        Neolane.getInstance().setIntegrationKey(settings.getString(NeoTripActivity.APPUUID_NAME, NeoTripActivity.DFT_APPUUID));
        Neolane.getInstance().setMarketingHost(settings.getString(NeoTripActivity.SOAPRT_NAME, NeoTripActivity.DFT_SOAPRT));
        Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
        ...
        ...
        ...
-   
-           // Manage opening/receive tracking of message notification
+       // Manage open/receive tracking of message notification
            Intent intent = getIntent();
            Bundle data = intent.getExtras();
            String messageId = null, deliveryId = null;
-           if( data != null ) {
+           if( data != null )
+           {
            if (data.containsKey("_mId")) messageId = data.get("_mId").toString();
            if (data.containsKey("_dId")) deliveryId = data.get("_dId").toString();
-           if ( messageId != null && deliveryId != null) {
+           if ( messageId != null && deliveryId != null) 
+           {
                Log.i(TAG, "Notify opening from backgroun click_action");
                NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-               nas.notifyOpening(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
-               public void onNeolaneException(NeolaneException arg0, Object arg1) {
+               nas.notifyOpening(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() 
+               {
+               public void onNeolaneException(NeolaneException arg0, Object arg1) 
+               {
                    toastMessage( "error", getString(R.string.open_track_sdk_error) + arg0.getErrorCode());
                }
-               public void onIOException(IOException arg0, Object arg1) {
+               public void onIOException(IOException arg0, Object arg1) 
+               {
                    toastMessage( "error", getString(R.string.open_track_io_error) +  arg0.getLocalizedMessage());
                }
-               public void onComplete(String arg0, Object arg1) {
+               public void onComplete(String arg0, Object arg1) 
+               {
                    toastMessage( "error", getString(R.string.open_track_ok));
                }
-               });
-               nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
-               public void onNeolaneException(NeolaneException arg0, Object arg1) {
+           });
+               nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() 
+               {
+               public void onNeolaneException(NeolaneException arg0, Object arg1) 
+               {
                    toastMessage( "error", getString(R.string.rec_track_sdk_error) + arg0.getErrorCode());
                }
-               public void onIOException(IOException arg0, Object arg1) {
+               public void onIOException(IOException arg0, Object arg1) 
+               {
                    toastMessage( "error", getString(R.string.rec_track_io_error) +  arg0.getLocalizedMessage());
                }
-               public void onComplete(String arg0, Object arg1) {
+               public void onComplete(String arg0, Object arg1) 
+               {
                    toastMessage( "error", getString(R.string.rec_track_ok));
                }
                });
-           }
            }
        }
    ```
