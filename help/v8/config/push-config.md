@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 9f05209e47f35c91720f68d56593812115726817
+source-git-commit: 673d2d3ace355a9552ecf54a3cab0104943e6a99
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 33%
+source-wordcount: '1289'
+ht-degree: 43%
 
 ---
 
@@ -644,153 +644,154 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    * **ErrorReason**：発生したエラーに関する詳細情報を提供します。使用可能なエラーとその説明について詳しくは、以下の表を参照してください。
 
-| ステータス | 説明 | ErrorReason |
-| ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-| ACCRegisterDeviceStatusSuccess | 登録が成功しました | 空 |
-| ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC マーケティングサーバーのホスト名が空であるか、設定されていません。 | 空 |
-| ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 統合キーが空であるか、設定されていません。 | 空 |
-| ACCRegisterDeviceStatusFailureConnectionIssue | ACC との接続の問題 | （OS の現在の言語での）詳細情報 |
-| ACCRegisterDeviceStatusFailureUnknownUUID | 指定された UUID（統合キー）が不明です。 | 空 |
-| ACCRegisterDeviceStatusFailureUnexpectedError | 予期しないエラーが ACC サーバーに返されました。 | エラーメッセージが ACC に返されました。 |
+   | ステータス | 説明 | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRegisterDeviceStatusSuccess | 登録が成功しました | 空 |
+   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC マーケティングサーバーのホスト名が空であるか、設定されていません。 | 空 |
+   | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 統合キーが空であるか、設定されていません。 | 空 |
+   | ACCRegisterDeviceStatusFailureConnectionIssue | ACC との接続の問題 | （OS の現在の言語での）詳細情報 |
+   | ACCRegisterDeviceStatusFailureUnknownUUID | 指定された UUID（統合キー）が不明です。 | 空 |
+   | ACCRegisterDeviceStatusFailureUnexpectedError | 予期しないエラーが ACC サーバーに返されました。 | エラーメッセージが ACC に返されました。 |
 
-{style=&quot;table-layout:auto&quot;}
+   {style=&quot;table-layout:auto&quot;}
 
-    **Neolane_SDKDelegate**プロトコルと**registerDeviceStatus**デリゲート定義は、
-    
-    &#39;sql
-    // Neolane_SDK.h
-    // Campaign SDK
-    のようになります。
-    ..
-    //デバイスステータス
-    の登録NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
-    ACCRegisterDeviceStatusSuccess, //登録
-    SucceACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty, // The Campaign marketing server hostname is Empty or not 
-    setACCRegisterDeviceStatusFailureIntegrationKeyEmpty, //統合キーが空か、setACCRegisterDeviceStatusFailureConnectionIssue、/ Campaignとの接続の問題、詳細情報
-    errorReasonACCRegisterDeviceStatusFailureUnknownUUID, //指定されたUUID（統合キー）は不明で
-    す。ACCRegisterDeviceStatusFailureUnexpectedError // Campaignサーバーから予期しないエラーが返されます。errorReason
-    }に詳細を表示；
-    ;
-    //DeviceStatusデリゲート
-    @protocol Neolane_SDKDelegate  &lt;nsobject>
-    @optional
-    - (void) registerDeviceStatus:(ACCRegisterDeviceStatus) status :(NSString *) errorReason;
-    @end
-    @interface Neolane_SDK:NSObject {
-    }
-    ...
-    ...
-    // registerDeviceStatus delegate
-     @property (nonatomic, weak) idデリゲ &lt;neolane_sdkdelegate> ート；
-     ...
-    ...
-    @end
-    」
-    
-     **registerDeviceStatus**デリゲートを実装するには、次の手順に従います。
-    
-     1.SDKの初期化中に**setDelegate**を実装します。
-    
-    &quot;&#39;sql
-    // AppDelegate.m
-    ...
-    ...
-    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-     {
-    ...
-    ...
-    //格納された
-    
-    設定NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-     NSString *strMktHost = [defaults objectForKey:@&quot;mktHost&quot;];
-    NSString *TckHost =ForKey:@&quot;tckHost&quot;];
-     NSString *strIntegrationKey = [defaults objectForKey:@&quot;integrationKey&quot;];
-     userKey = [defaults objectForKey:@&quot;userKey&quot;];
-    
-    //最初の
-    NeolaneでCampaign SDKを設定SDK *nl = [Neolane_SDK getInstance];
-    [nl setMarketingHost:strMktHost];
-    [nl setTrackingHost:strTckHost];
-    [nl setIntegrationKey:strIntegrationKey];
-    [nl setDelegate:self];//ここ
-    ...
-    ...
-    }
-    &quot;&#39;
-    
-    1.クラスの**@interface*にプロトコルを追加します。
-    
-    &quot;&#39;sql
-    // AppDelegate.h
-    
-    #import  &lt;uikit>
-    #import  &lt;corelocation>
-    #import &quot;Neolane_SDK.h&quot;
-    
-    @class LandingPageViewController;
-    
-    @interface AppDelegate :UIResponder  &lt;uiapplicationdelegate> {
-    CLLocationManager *locationManager;
-    NSString *userKey;
-    NSString *mktServerUrl;
-    NSString *tckServerUrl;
-    NSString *homeURL;
-    NSString*strLandingPageUrl;
-    NSTimer *timer;
-    }
-    &quot;&#39;
-    
-    1.デリゲートを**AppDelegate**に実装します。
-    
-    &quot;&#39;sql
-    // AppDelegate.m
-    
-    #import &quot;AppDelegate.h&quot;
-     #import &quot;Neolane_SDK.h&quot;
-    #import &quot;LandingPageViewController.h&quot;
-    #import &quot;RootViewController.h&quot;
-    ..
-    ...
-    - (void) registerDeviceStatus:(ACCRegisterDeviceStatus) status :(NSString *) errorReason
-     {
-    NSLog(@&quot;registerStatus:%lu&quot;,status);
-    
-    if ( errorReason != nil )
-    NSLog(@&quot;errorReason:%@&quot;,errorReason);
-    
-    if( status == ACCRegisterDeviceStatusSuccess )
-    {
-    ///登録成功
-    ...
-    ...
-    }
-    else { //エラーが発生しました
-    NSString *message;
-    switch ( status ){
-    case ACCRegisterDeviceStatusFailureUnknownUUID:
-    message = @&quot;Unkown IntegrationKey (UID))&quot;;
-    break;
-    case ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty:
-    message = @&quot;Marketing URL not set or Empty&quot;;
-    ;
-    caseACCRgegisterDeviceStatusFailureIntegrationKeyEmpty:
-    message = @&quot;Integration Key not set or empty&quot;;
-    break;
-    case ACCRegisterDeviceStatusFailureConnectionIssue:
-    message = [NSSString stringWithFormat:@&quot;%@ %@&quot;,@&quot;Connection issue:&quot;,errorReason];
-    break;
-    case ACCRegisterDeviceStatusFailureUnexpectedError:
-    default:
-    message = [NSSSSINGING STRINGWithFormat:@&quot;%@ %@&quot;,@&quot;UnEXPECTED Error&quot;,ERRORReASON];&lt;A25/>BREAK;&lt;A26/>}&lt;A27/>...
-    ...
-    }
-    }
-    @end
-    &quot;&#39;
+   **Neolane_SDKDelegate** プロトコルと **registerDeviceStatus** デリゲートの定義は次のとおりです。
 
-    
-    
-    
+   ```sql
+   //  Neolane_SDK.h
+   //  Campaign SDK
+   ..
+   .. 
+   // Register Device Status Enum
+   typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
+   ACCRegisterDeviceStatusSuccess,                               // Resistration Succeed
+   ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty,   // The Campaign marketing server hostname is Empty or not set
+   ACCRegisterDeviceStatusFailureIntegrationKeyEmpty,            // The integration key is empty or not set
+   ACCRegisterDeviceStatusFailureConnectionIssue,                // Connection issue with Campaign, more information in errorReason
+   ACCRegisterDeviceStatusFailureUnknownUUID,                    // The provided UUID (integration key) is unknown
+   ACCRegisterDeviceStatusFailureUnexpectedError                 // Unexpected error returned by Campaign server, more information in errorReason
+   };
+   // define the protocol for the registerDeviceStatus delegate
+   @protocol Neolane_SDKDelegate <NSObject>
+   @optional
+   - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason;
+   @end
+   @interface Neolane_SDK: NSObject {
+   } 
+   ...
+   ...
+   // registerDeviceStatus delegate
+   @property (nonatomic, weak) id <Neolane_SDKDelegate> delegate;
+   ...
+   ...
+   @end
+   ```
+
+   **registerDeviceStatus** デリゲートを実装するには、以下の手順を実行します。
+
+   1. SDK の初期化中に **setDelegate** を実装します。
+
+      ```sql
+      // AppDelegate.m
+      ...
+      ... 
+      - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+      {
+      ...
+      ...
+          // Get the stored settings
+      
+          NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+          NSString *strMktHost = [defaults objectForKey:@"mktHost"];
+          NSString *strTckHost = [defaults objectForKey:@"tckHost"];
+          NSString *strIntegrationKey = [defaults objectForKey:@"integrationKey"];
+          userKey = [defaults objectForKey:@"userKey"];
+      
+          // Configure Campaign SDK on first launch
+          Neolane_SDK *nl = [Neolane_SDK getInstance];
+          [nl setMarketingHost:strMktHost];
+          [nl setTrackingHost:strTckHost];
+          [nl setIntegrationKey:strIntegrationKey];
+          [nl setDelegate:self];    // HERE
+      ...
+      ...
+      }
+      ```
+
+   1. クラスの **@interface** にプロトコルを追加します。
+
+      ```sql
+      //  AppDelegate.h
+      
+      #import <UIKit/UIKit.h>
+      #import <CoreLocation/CoreLocation.h>
+      #import "Neolane_SDK.h"
+      
+      @class LandingPageViewController;
+      
+      @interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
+          CLLocationManager *locationManager;
+          NSString *userKey;
+          NSString *mktServerUrl;
+          NSString *tckServerUrl;
+          NSString *homeURL;
+          NSString *strLandingPageUrl;
+          NSTimer *timer;
+      }
+      ```
+
+   1. **AppDelegate** にデリゲートを実装します。
+
+      ```sql
+      //  AppDelegate.m
+      
+      #import "AppDelegate.h"
+      #import "Neolane_SDK.h"
+      #import "LandingPageViewController.h"
+      #import "RootViewController.h"
+      ...
+      ...
+      - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason
+      {
+          NSLog(@"registerStatus: %lu",status);
+      
+          if ( errorReason != nil )
+              NSLog(@"errorReason: %@",errorReason);
+      
+          if( status == ACCRegisterDeviceStatusSuccess )
+          {
+              // Registration successful
+              ...
+              ...
+          }
+          else { // An error occurred
+              NSString *message;
+              switch ( status ){
+                  case ACCRegisterDeviceStatusFailureUnknownUUID:
+                      message = @"Unkown IntegrationKey (UUID)";
+                      break;
+                  case ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty:
+                      message = @"Marketing URL not set or Empty";
+                      break;
+                  case ACCRegisterDeviceStatusFailureIntegrationKeyEmpty:
+                      message = @"Integration Key not set or empty";
+                      break;
+                  case ACCRegisterDeviceStatusFailureConnectionIssue:
+                      message = [NSString stringWithFormat:@"%@ %@",@"Connection issue:",errorReason];
+                      break;
+                  case ACCRegisterDeviceStatusFailureUnexpectedError:
+                  default:
+                      message = [NSString stringWithFormat:@"%@ %@",@"Unexpected Error",errorReason];
+                      break;
+              }
+          ...
+          ...
+          }
+      }
+      @end
+      ```
+
+
 ## 変数 {#variables}
 
 変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaignコンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
