@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 170a80942aff9951859646942657938e206959fe
+source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 43%
+source-wordcount: '1348'
+ht-degree: 46%
 
 ---
 
@@ -419,9 +419,9 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    }
    ```
 
->[!NOTE]
->
-> ユーザーがターゲットアクティビティ内で`click_action`オプションを使用している場合は、同様の管理をおこなう必要があります。
+   >[!NOTE]
+   >
+   > ユーザーがターゲットアクティビティ内で`click_action`オプションを使用している場合は、同様の管理をおこなう必要があります。
 
 
 1. **データメッセージのトラッキングの受信**
@@ -644,6 +644,15 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    * **ErrorReason**：発生したエラーに関する詳細情報を提供します。使用可能なエラーとその説明について詳しくは、以下の表を参照してください。
 
+
+      | ステータス | 説明 | ErrorReason |
+      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+      | ACCRegisterDeviceStatusSuccess | 登録が成功しました | 空 |
+      | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC マーケティングサーバーのホスト名が空であるか、設定されていません。 | 空 |
+      | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 統合キーが空であるか、設定されていません。 | 空 |
+      | ACCRegisterDeviceStatusFailureConnectionIssue | ACC との接続の問題 | （OS の現在の言語での）詳細情報 |
+      | ACCRegisterDeviceStatusFailureUnknownUUID | 指定された UUID（統合キー）が不明です。 | 空 |
+      | ACCRegisterDeviceStatusFailureUnexpectedError | 予期しないエラーが ACC サーバーに返されました。 | エラーメッセージが ACC に返されました。 |
    <table> 
     <thead>
     <tr>
