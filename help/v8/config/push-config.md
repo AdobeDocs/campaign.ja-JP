@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 673d2d3ace355a9552ecf54a3cab0104943e6a99
+source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1287'
 ht-degree: 43%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 43%
 
 iOSおよびAndroid用のCampaign SDKを使用すると、モバイルアプリケーションをAdobe Campaignプラットフォームに容易に統合できます。
 
-Campaign v8用のAndroidおよびiOSがサポートされているバージョンとCampaign SDKと互換性のあるバージョンは、互換性マトリックス[](../start/compatibility-matrix.md#MobileSDK)に記載されています。
+AndroidおよびiOSでサポートされているバージョン、およびCampaign v8用のCampaign SDK互換バージョンは、互換性マトリックス[に記載されています。](../start/compatibility-matrix.md#MobileSDK)
 
 >[!NOTE]
 >
@@ -61,6 +61,10 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 Android SDKは、JAVAで記述されたjarライブラリです。 Android開発者は、次の方法でAdobe Campaignと統合できます。新しいデバイスの登録、ユーザーとのデバイスのリンク、行動の追跡などを行います。
 
 この節では、[Google Firebase Cloud Messaging(FCM)](https://firebase.google.com/docs/cloud-messaging/)を実装するAndroidアプリケーションでAndroid SDKを使用する方法について説明します。
+
+>[!CAUTION]
+>
+> Campaign v8の場合は、Campaign Android SDK v1.1.1を使用します。
 
 ### FCMの設定
 
@@ -268,7 +272,6 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
        }   
    ```
 
-   Campaign Android SDK v1.1.1の場合
 
    ```sql
    public static void handleNotification(Context context, String message, String title, String url, String messageId, String deliveryId, Bundle extras)
@@ -327,8 +330,6 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 1. **データメッセージの開封数の追跡**
 
    データメッセージの場合は、`notifyOpening`関数を使用して、ユーザーが通知をクリックして開いた時点を追跡できます。 通知アクティビティは、ユーザーが通知をクリックすると作成されます（`onMessageReceived`関数の呼び出し時に作成されます）。
-
-   Campaign Android SDK v1.1.1の場合
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -403,7 +404,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
                toastMessage( "error", getString(R.string.open_track_ok));
            }
            });
-           nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+           nas.notifyReceive(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
            public void onNeolaneException(NeolaneException arg0, Object arg1) {
                toastMessage( "error", getString(R.string.rec_track_sdk_error) + arg0.getErrorCode());
            }
@@ -484,7 +485,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
            Neolane.getInstance().setTrackingHost(settings.getString(NeoTripActivity.TRACKRT_NAME, NeoTripActivity.DFT_TRACKRT));
    
            NeolaneAsyncRunner nas = new NeolaneAsyncRunner(Neolane.getInstance());
-           nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+           nas.notifyReceive(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
                public void onNeolaneException(NeolaneException arg0, Object arg1) {}
                public void onIOException(IOException arg0, Object arg1) {}
                public void onComplete(String arg0, Object arg1){}
@@ -539,7 +540,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
                toastMessage( "error", getString(R.string.open_track_ok));
            }
            });
-           nas.notifyReceive(Integer.valueOf(messageId), deliveryId, new NeolaneAsyncRunner.RequestListener() {
+           nas.notifyReceive(messageId, deliveryId, new NeolaneAsyncRunner.RequestListener() {
            public void onNeolaneException(NeolaneException arg0, Object arg1) {
                toastMessage( "error", getString(R.string.rec_track_sdk_error) + arg0.getErrorCode());
            }
