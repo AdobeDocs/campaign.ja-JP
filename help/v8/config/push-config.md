@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: eec769a09d59034dde59983bd0a53a4ac4fddde5
+source-git-commit: 9f05209e47f35c91720f68d56593812115726817
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 33%
@@ -644,7 +644,6 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    * **ErrorReason**：発生したエラーに関する詳細情報を提供します。使用可能なエラーとその説明について詳しくは、以下の表を参照してください。
 
-
 | ステータス | 説明 | ErrorReason |
 | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
 | ACCRegisterDeviceStatusSuccess | 登録が成功しました | 空 |
@@ -653,7 +652,6 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 | ACCRegisterDeviceStatusFailureConnectionIssue | ACC との接続の問題 | （OS の現在の言語での）詳細情報 |
 | ACCRegisterDeviceStatusFailureUnknownUUID | 指定された UUID（統合キー）が不明です。 | 空 |
 | ACCRegisterDeviceStatusFailureUnexpectedError | 予期しないエラーが ACC サーバーに返されました。 | エラーメッセージが ACC に返されました。 |
-
 
 {style=&quot;table-layout:auto&quot;}
 
