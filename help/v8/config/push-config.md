@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
+source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 46%
+source-wordcount: '1286'
+ht-degree: 43%
 
 ---
 
@@ -644,56 +644,15 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    * **ErrorReason**：発生したエラーに関する詳細情報を提供します。使用可能なエラーとその説明について詳しくは、以下の表を参照してください。
 
+   | ステータス | 説明 | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRegisterDeviceStatusSuccess | 登録が成功しました | 空 |
+   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC マーケティングサーバーのホスト名が空であるか、設定されていません。 | 空 |
+   | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 統合キーが空であるか、設定されていません。 | 空 |
+   | ACCRegisterDeviceStatusFailureConnectionIssue | ACC との接続の問題 | （OS の現在の言語での）詳細情報 |
+   | ACCRegisterDeviceStatusFailureUnknownUUID | 指定された UUID（統合キー）が不明です。 | 空 |
+   | ACCRegisterDeviceStatusFailureUnexpectedError | 予期しないエラーが ACC サーバーに返されました。 | エラーメッセージが ACC に返されました。 |
 
-      | ステータス | 説明 | ErrorReason |
-      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-      | ACCRegisterDeviceStatusSuccess | 登録が成功しました | 空 |
-      | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | ACC マーケティングサーバーのホスト名が空であるか、設定されていません。 | 空 |
-      | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | 統合キーが空であるか、設定されていません。 | 空 |
-      | ACCRegisterDeviceStatusFailureConnectionIssue | ACC との接続の問題 | （OS の現在の言語での）詳細情報 |
-      | ACCRegisterDeviceStatusFailureUnknownUUID | 指定された UUID（統合キー）が不明です。 | 空 |
-      | ACCRegisterDeviceStatusFailureUnexpectedError | 予期しないエラーが ACC サーバーに返されました。 | エラーメッセージが ACC に返されました。 |
-   <table> 
-    <thead>
-    <tr>
-    <th> ステータス<br /> </th>
-    <th> 説明<br /> </th>
-    <th> ErrorReason<br /> </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td> ACCRegisterDeviceStatusSuccess <br /> </td>
-    <td> 登録が成功しました<br /> </td>
-    <td> 空<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
-    <td> ACC マーケティングサーバーのホスト名が空であるか、設定されていません。<br /> </td>
-    <td> 空<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
-    <td> 統合キーが空であるか、設定されていません。<br /> </td>
-    <td> 空<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
-    <td> ACC との接続の問題<br /> </td>
-    <td> （OS の現在の言語での）詳細情報<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
-    <td> 指定された UUID（統合キー）が不明です。<br /> </td>
-    <td> 空<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td>
-    <td> 予期しないエラーが ACC サーバーに返されました。<br /> </td>
-    <td> エラーメッセージが ACC に返されました。<br /> </td>
-    </tr>
-    </tbody>
-    </table>
 
    **Neolane_SDKDelegate** プロトコルと **registerDeviceStatus** デリゲートの定義は次のとおりです。
 
@@ -830,6 +789,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
       }
       @end
       ```
+
 
 
 ## 変数 {#variables}
