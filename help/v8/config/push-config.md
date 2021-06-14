@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
+source-git-commit: 68cd7d5a20dafeea3c19f35f5c9547b623319ba2
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1289'
 ht-degree: 43%
 
 ---
@@ -652,6 +652,9 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    | ACCRegisterDeviceStatusFailureConnectionIssue | ACC との接続の問題 | （OS の現在の言語での）詳細情報 |
    | ACCRegisterDeviceStatusFailureUnknownUUID | 指定された UUID（統合キー）が不明です。 | 空 |
    | ACCRegisterDeviceStatusFailureUnexpectedError | 予期しないエラーが ACC サーバーに返されました。 | エラーメッセージが ACC に返されました。 |
+
+
+   {style=&quot;table-layout:auto&quot;}
 
 
    **Neolane_SDKDelegate** プロトコルと **registerDeviceStatus** デリゲートの定義は次のとおりです。
