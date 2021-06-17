@@ -9,7 +9,7 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 89%
 
 Campaign と Target を接続すると、Adobe Target からのオファーを Adobe Campaign の E メール配信に組み込むことができます。
 
-この統合により、次のような使用例を実装できます。Adobe Campaign経由で送信されたEメールを受信者が開くと、Adobe Targetを呼び出すことで、コンテンツの動的バージョンを表示できます。 この動的バージョンは、E メールの作成時に事前に指定したルールに応じて自動生成されます。
+この統合により、Adobe Campaign で送信したメールを受信者が開くと、Adobe Target を呼び出して動的なバージョンのコンテンツを表示する、というようなユースケースを実装することもできます。この動的バージョンは、E メールの作成時に事前に指定したルールに応じて自動生成されます。
 
 >[!NOTE]
->この統合が対応するのは、静的画像だけです。その他のタイプのコンテンツはパーソナライズできません。
+>この統合では、静的画像のみをサポートします。その他のタイプのコンテンツはパーソナライズできません。
 
-[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに連絡 [し](../start/campaign-faq.md#support) て、CampaignのExperience Cloudトリガーを実装します。
+[!DNL :speech_balloon:] Managed Cloud Services のユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 Adobe Target では、次の種類のデータを使用できます。
 
-* Adobe Campaignデータベースからのデータ
-* Adobe Targetで訪問者IDにリンクされたセグメント（使用するデータが法的制限の対象でない場合のみ）
-* Adobe Target データ：ユーザーエージェント、IP アドレス、位置情報データ
+* Adobe Campaign データベースからのデータ
+* Adobe Target で訪問者 ID にリンクされたセグメント。ただし、使用するデータが法的制限の対象とならない場合に限ります。
+* Adobe Target のデータ。ユーザーエージェント、IP アドレス、位置情報データなど
 
 ## 動的コンテンツの挿入
 
-以下の例では、Adobe Targetの&#x200B;**動的なオファー**&#x200B;をAdobe CampaignのEメールに統合する方法を学びます。
+次の例では、Adobe Target からの&#x200B;**動的なオファー**&#x200B;を Adobe Campaign のメールに統合する方法を説明します。
 
 メッセージに含まれる画像が、受信者の国に応じて動的に変化するようなメッセージを作成します。データは、各 mbox リクエストごとに、訪問者の IP アドレスに基づいて送信されます。
 
@@ -46,7 +46,7 @@ Adobe Target では、次の種類のデータを使用できます。
 
 以下の手順は、Adobe Campaign と Adobe Target で実行する必要があります。
 
-1. [E メールへの動的なオファーの挿入](#inserting-dynamic-offer)
+1. [メールへの動的なオファーの挿入](#inserting-dynamic-offer)
 1. [リダイレクトオファーの作成](#create-redirect-offers)
 1. [オーディエンスの作成](#audiences-target)
 1. [「エクスペリエンスのターゲット設定」アクティビティの作成 ](#creating-targeting-activity)
