@@ -1,18 +1,18 @@
 ---
 product: Adobe Campaign
-title: キャンペーンAPIのステージングメカニズム
-description: キャンペーンAPIのステージングメカニズム
+title: Campaign API のステージングメカニズム
+description: Campaign API のステージングメカニズム
 feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 4%
+ht-degree: 58%
 
 ---
 
-# キャンペーンAPIのステージングメカニズム
+# Campaign API のステージングメカニズム
 
 Campaign Cloudデータベースでは、パフォーマンス（待ち時間および同時実行性）に関して、単一呼び出しのブラストはお勧めしません。 バッチ処理は常に推奨されます。 パフォーマンスを向上させるために、取得APIはローカルデータベースにリダイレクトされます。
 
@@ -20,11 +20,11 @@ Campaign Cloudデータベースでは、パフォーマンス（待ち時間お
 
 * データスキーマ構造がローカルのステージングテーブルに複製されています
 * データの取り込みフローをローカルのステージングテーブルに直接送るための新しいAPI。 [詳細情報](new-apis.md)
-* スケジュールされたワークフローで、1時間ごとにトリガーし、データをクラウドデータベースに同期します。 [詳細情報](../config/replication.md)
+* スケジュールされたワークフローを 1 時間ごとにトリガーし、データをクラウドデータベースに同期します。 [詳細情報](../config/replication.md)
 
-一部の組み込みスキーマは、デフォルトでステージングされます（nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipientなど）。
+一部の組み込みスキーマ（nmsSubscriptionRcp、nmsAppSubscriptionRcp、nmsRecipient など）は、デフォルトによりステージ化されます。
 
-Campaign Classicv7 APIは引き続き使用できますが、この新しいステージングメカニズムのメリットは得られません。API呼び出しは、に直接Cloudデータベースに送られます。 Adobeでは、Campaign Cloudデータベースの全体的な頻度と待ち時間を減らすために、できる限り新しいステージングメカニズムを使用することをお勧めします。
+Campaign Classic v7 API は引き続き使用できますが、この新しいステージングメカニズムのメリットは得られません。API 呼び出しは、直接クラウドデータベースに送られます。 アドビでは、Campaign クラウドデータベースの全体的な負荷と待ち時間を減らすために、新しいステージングメカニズムをできる限り使用することをお勧めします。
 
 >[!CAUTION]
 >
@@ -39,9 +39,9 @@ Campaign Classicv7 APIは引き続き使用できますが、この新しいス�
 
 ## 実装手順{#implement-staging}
 
-特定のテーブルにCampaignのステージングメカニズムを実装するには、次の手順に従います。
+Campaign のステージングメカニズムを特定のテーブルに実装するには、次の手順に従います。
 
-1. Campaign Cloudデータベースにサンプルのカスタムスキーマを作成します。 この手順では、ステージングは有効になっていません。
+1. Campaign クラウドデータベースでサンプルのカスタムスキーマを作成します。 この段階では、ステージングは有効になっていません。
 
    ```
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
@@ -56,11 +56,11 @@ Campaign Classicv7 APIは引き続き使用できますが、この新しいス�
    </srcSchema>
    ```
 
-   [!DNL :bulb:] カスタムスキーマの作成について詳しくは、このペ [ージを参照してください](create-schema.md)。
+   [!DNL :bulb:] カスタムスキーマの作成の詳細については、[このページ](create-schema.md)を参照してください。
 
-1. データベース構造を保存して更新します。  [詳細情報](update-database-structure.md)
+1. データベース構造を保存して更新します。[詳細情報](update-database-structure.md)
 
-1. **autoStg=&quot;true&quot;**&#x200B;パラメーターを追加して、スキーマ定義でステージングメカニズムを有効にします。
+1. **autoStg=&quot;true&quot;** パラメーターを追加して、スキーマ定義のステージングメカニズムを有効にします。
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
@@ -79,4 +79,4 @@ Campaign Classicv7 APIは引き続き使用できますが、この新しいス�
 
    ![](assets/staging-mechanism.png)
 
-1. データベース構造の更新. ステージングテーブルは、Campaignローカルデータベースに作成されます。
+1. データベース構造を更新します。ステージングテーブルが、Campaign ローカルデータベースに作成されます。
