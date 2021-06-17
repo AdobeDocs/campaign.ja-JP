@@ -5,7 +5,7 @@ description: Campaign スキーマの拡張方法を学ぶ
 source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 75%
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 >[!CAUTION]
 >組み込みスキーマは直接変更できません。 組み込みのスキーマを適合させる必要がある場合は、スキーマを拡張します。
 
-[!DNL :bulb:] Campaignの組み込みテーブルとそのインタラクションについて詳しくは、このページを参 [照してください](datamodel.md)。[このページ](create-schema.md)で新しいスキーマを作成する際の推奨事項も参照してください。
+[!DNL :bulb:] Campaign の組み込みテーブルとその連携について詳しくは、[このページ](datamodel.md)を参照してください。[このページ](create-schema.md)で新しいスキーマを作成する際の推奨事項も参照してください。
 
 スキーマを拡張するには、次の手順に従います。
 
@@ -35,7 +35,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 
    ![](assets/extend-schema-select.png)
 
-   慣例に従い、拡張スキーマに組み込みスキーマと同じ名前を付け、カスタム名前空間を使用します。一部の名前空間は内部のみであることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)
+   慣例に従い、拡張スキーマに組み込みスキーマと同じ名前を付け、カスタム名前空間を使用します。一部の名前空間は社内専用であることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
