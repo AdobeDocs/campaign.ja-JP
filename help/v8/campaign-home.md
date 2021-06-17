@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 58632224858391f673dfdc87b49417d65b2f9b09
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 76%
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 ## 新着情報
 
-* **[ [!DNL Adobe Campaign]](start/get-started.md)** とは — 主な機能と使用例
+* **[ [!DNL Adobe Campaign]](start/get-started.md)**&#x200B;とは - 主な機能とユースケース
 
 * **[v8 の新機能](start/whats-new.md)** - Campaing v8 の機能を確認します
 
@@ -63,6 +63,6 @@ ht-degree: 76%
 * [既知の制限事項](start/known-limitations.md)
 * [アーキテクチャ](dev/architecture.md)
 * [測定とトラッキング](start/reporting.md)
-* [他のソリューションとの接続](connect/integration.md)
-* [Campaign v8に関するFAQ](start/campaign-faq.md)
+* [他のソリューションとの連携](connect/integration.md)
+* [Campaign v8 に関する FAQ](start/campaign-faq.md)
 * [Adobe Campaign v8の製品説明](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
