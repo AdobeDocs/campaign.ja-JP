@@ -1,6 +1,6 @@
 ---
 product: Adobe Campaign
-title: Campaignインタラクション演算子
+title: Campaign インタラクションオペレーター
 description: オファー管理オペレーターの作成
 feature: 概要
 role: Data Engineer
@@ -8,27 +8,27 @@ level: Beginner
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
 
 # オペレータープロファイル{#operator-profiles}
 
-キャンペーンのインタラクションは、次の2種類のオペレーターが使用できます。**オファーマネージャー**&#x200B;および&#x200B;**配信責任者**。 それぞれに固有の権限と制限があります。 Campaignのオペレーターと権限について詳しくは、[このページ](../start/permissions.md)を参照してください。
+Campaign インタラクションを利用できるオペレーターには、**オファーマネージャー**&#x200B;と&#x200B;**配信マネージャー**&#x200B;の 2 つの種類があります。それぞれに固有の権限と制限があります。 Campaign オペレーターと権限の詳細については、[このページ](../start/permissions.md)を参照してください。
 
-* **[!UICONTROL オファーマネージャー]**&#x200B;がオファーを作成し、管理します。
-* **[!UICONTROL 配信責任者]**&#x200B;がオファーを承認し、使用します
+* **[!UICONTROL オファーマネージャー]**&#x200B;は、オファーを作成および管理します。
+* **[!UICONTROL 配信マネージャー]**&#x200B;は、オファーを承認および使用します。
 
-## オファーマネージャーのオペレーター{#offer-manager}の作成
+## オファーマネージャーオペレーターの作成{#offer-manager}
 
 1. 新しいオペレーターを作成します。
 
-   [!DNL :arrow_upper_right:] Campaignでのオペレーターの作成手順について詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   [!DNL :arrow_upper_right:] Campaignでオペレーターを作成する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
 
-1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
+1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
 
-オファーマネージャーに割り当てられる権限によって、オファー管理者は次のタスクを実行できます。
+オファーマネージャーに割り当てられる権限で実行できるタスクは次のとおりです。
 
 * **[!UICONTROL デザイン]**&#x200B;環境を修正する。
 * **[!UICONTROL ライブ]**&#x200B;環境を表示する。
@@ -38,21 +38,21 @@ ht-degree: 40%
 * オファーの実施要件を設定する。
 * オファーを承認する。
 
-ワークフローでオファーを使用する場合は、そのオペレーターを&#x200B;**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;オペレーターグループに追加して、ワークフローを実行する必要があります。
+ワークフローでオファーを使用する場合は、ワークフローを実行するオペレーターを&#x200B;**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;のオペレーターグループに追加する必要があります。
 
 >[!NOTE]
 >
->**オファーマネージャー**&#x200B;は、レビュー担当者が指定されていない場合、またはオファーの基となったオファーテンプレートでレビュー担当者として宣言されている場合にのみ、オファーを承認できます。
+>**オファーマネージャー**&#x200B;がオファーを承認できるのは、レビュー担当者が指定されていない場合、またはオファーの基となるオファーテンプレートでレビュー担当者として宣言されている場合に限られます。
 
-## 配信責任者オペレーター{#delivery-manager}の作成
+## 配信マネージャーオペレーターの作成{#delivery-manager}
 
 1. 新しいオペレーターを作成します。
 
-   [!DNL :arrow_upper_right:] Campaignでのオペレーターの作成手順について詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   [!DNL :arrow_upper_right:] Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
 
-1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信責任者]**」グループを選択します。
+1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信マネージャー]**」グループを選択します。
 
-配信責任者に割り当てられる権限で実行できるタスクは次のとおりです。
+配信マネージャーに割り当てられる権限で実行できるタスクは次のとおりです。
 
 * **[!UICONTROL ライブ]**&#x200B;環境を表示する。
 * オファーカテゴリを表示および修正する。
@@ -60,9 +60,9 @@ ht-degree: 40%
 
    >[!NOTE]
    >
-   >**配信責任者**&#x200B;は、オファーの設定時にレビュー担当者として宣言された場合にのみ、オファーを承認できます。
+   >**配信マネージャー**&#x200B;がオファーを承認できるのは、オファーの設定時に、自分がレビュー担当者として定義されている場合に限られます。
 
-## インタラクション演算子{#recap-of-rights-according-to-operator}ごとの権限マトリックス
+## インタラクションオペレーターごとの権限マトリックス{#recap-of-rights-according-to-operator}
 
 <table> 
  <tbody> 
@@ -128,8 +128,8 @@ ht-degree: 40%
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>配信責任者（デザイン環境）</strong><br /> </td> 
-   <td> <strong>配信責任者（ライブ環境）</strong><br /> </td> 
+   <td> <strong>配信マネージャー（デザイン環境）</strong><br /> </td> 
+   <td> <strong>配信マネージャー（ライブ環境）</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ツリー構造のレベル</strong><br /> </td> 
