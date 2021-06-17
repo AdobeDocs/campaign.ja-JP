@@ -5,7 +5,7 @@ description: Campaign で新しいスキーマを作成する方法を説明し�
 source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマの XML 編集ゾーンで自動的に更新されます。一部の名前空間は内部のみであることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)
+>「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマの XML 編集ゾーンで自動的に更新されます。一部の名前空間は社内専用であることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)
 
 「**[!UICONTROL プレビュー]**」タブでは、次のように拡張スキーマが自動的に生成されます。
 
