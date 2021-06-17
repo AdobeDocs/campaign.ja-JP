@@ -1,24 +1,24 @@
 ---
 product: Adobe Campaign
-title: キャンペーンインタラクションオファーの事前定義フィルター
-description: 事前定義済みフィルターの作成方法を説明します
+title: Campaign インタラクションオファーの事前定義フィルター
+description: 定義済みフィルターの作成方法を学ぶ
 feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 # 定義済みフィルターの作成{#creating-predefined-filters}
 
-定義済みフィルターを作成して、オファー作成時に再利用しやすい、ターゲット母集団の実施要件ルールを定義します。 定義済みフィルターは、各環境に特化し、オファーのパラメーターが考慮されます。
+定義済みフィルターを作成してターゲット母集団用の実施要件ルールを定義しておくと、オファー作成時に簡単に再利用できます。定義済みフィルターは各環境に固有で、オファーのパラメーターが考慮されます。
 
 定義済みフィルターを作成するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**&#x200B;フォルダーを参照し、「**[!UICONTROL 定義済みオファーフィルター]**」を選択します。
+1. **[!UICONTROL 管理]**&#x200B;フォルダーで「**[!UICONTROL 定義済みオファーフィルター]**」を選択します。
 
    ![](assets/offer_filter_create_005.png)
 
