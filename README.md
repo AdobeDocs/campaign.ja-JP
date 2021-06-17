@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## アドビコンテンツへの投稿について
 
-[アドビドキュメント投稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
+[アドビドキュメント投稿者ガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
 
 投稿の方法は、投稿者の立場および提供される変更の内容によって異なります。
 
