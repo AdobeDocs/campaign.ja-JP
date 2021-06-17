@@ -9,7 +9,7 @@ exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,17 +21,17 @@ Adobe Campaign データモデルの基本構造は、次のように説明で�
 
 * **受信者テーブル**：データモデルは、デフォルトで受信者テーブル（nmsRecipient）であるメインテーブルに基づいています。このテーブルを使用すると、すべてのマーケティングプロファイルを格納できます。
 
-   [!DNL :bulb:] 受信者テーブルについて詳しくは、この節を参 [照してください](#ootb-profiles)。
+   [!DNL :bulb:] 受信者テーブルの詳細については、[この節](#ootb-profiles)を参照してください。
 
 * **配信テーブル**：データモデルには、すべてのマーケティングアクティビティを格納するための専用部分も含まれています。通常、これは配信テーブル（NmsDelivery）です。このテーブルの各レコードは、配信アクションまたは配信テンプレートを表します。ターゲットやコンテンツなどの配信を実行するために必要なすべてのパラメーターが含まれています。
 
 * **ログテーブル**：このテーブルには、キャンペーンの実行に関連するすべてのログが格納されます。
 
-   配信ログとは、すべてのチャネルの受信者またはデバイスに送信されるすべてのメッセージです。メインの配信ログテーブル(NmsBroadLogRcp)には、すべての受信者の配信ログが含まれます。
-メインのトラッキングログテーブル(NmsTrackingLogRcp)には、すべての受信者のトラッキングログが格納されます。 トラッキングログは、E メールの開封数やクリック数など、受信者の反応を指します。各反応はトラッキングログに対応します。
+   配信ログとは、すべてのチャネルの受信者またはデバイスに送信されるすべてのメッセージです。メイン配信ログテーブル（NmsBroadLogRcp）には、すべての受信者の配信ログが格納されています。
+メイントラッキングログテーブル（NmsTrackingLogRcp）には、すべての受信者のトラッキングログが格納されています。トラッキングログは、E メールの開封数やクリック数など、受信者の反応を指します。各反応はトラッキングログに対応します。
 配信ログとトラッキングログは、一定期間の後に削除されます。 この期間は Adobe Campaign で指定され、変更可能です。したがって、ログを定期的にエクスポートすることを強くお勧めします。
 
-* **テクニカルテーブル**:オペレーターおよびユーザー権限(xtkGroup)、フォルダー(XtkFolder)など、アプリケーションプロセスで使用する技術データを収集します。
+* **テクニカルテーブル**&#x200B;は、オペレーターやユーザーの権限（xtkGroup）、フォルダー（XtkFolder）など、アプリケーションプロセスに使用される技術データを収集したものです。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 * 新しいフィールドで[既存のテーブルを拡張](extend-schema.md)する。例えば、受信者テーブルに新しい「忠誠度」フィールドを追加できます。
 * [新しいテーブルを作成](create-schema.md)する。例えば、データベースの各プロファイルが行った購入をすべてリストする「購入」テーブルを作成して、受信者テーブルにリンクします。
 
-[!DNL :bulb:] Campaignデータモデルを使用する際のベストプラクティスについては、この節 [を参照してください](datamodel-best-practices.md)。
+[!DNL :bulb:] Campaign データモデルを使用する際のベストプラクティスについては、[この節](datamodel-best-practices.md)を参照してください。
 
 ## 組み込みプロファイルテーブル {#ootb-profiles}
 
@@ -59,9 +59,9 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 受信者テーブルは拡張できますが、テーブル内のフィールドやリンクの数を減らすことはできません。
 
-[!DNL :bulb:] 既存のスキーマを拡張する方法については、この節 [を参照してください](extend-schema.md)。
+[!DNL :bulb:] 既存のスキーマを拡張する方法については、[この節](extend-schema.md)を参照してください。
 
-[!DNL :arrow_upper_right:]  [Campaign Classicv7のドキュメントに組み込みの受信者テーブル拡張の例を示します](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table)
+[!DNL :arrow_upper_right:] 組み込み受信者テーブルの拡張例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table)を参照してください。
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。この方法には制限があり、[この節](custom-recipient.md)で説明します。
 
@@ -69,9 +69,9 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 Campaign v8 のテーブル管理をより深く理解するために、テーブルは Campaign とその Snowflake クラウドデータベースの間で複製されることに注意してください。
 
-[!DNL :bulb:] レプリケーション戦略とメカニズムについて詳しくは、この節 [を参照してください](../config/replication.md)。
+[!DNL :bulb:] レプリケーションの戦略とメカニズムの詳細については、[この節](../config/replication.md)を参照してください。
 
 **関連トピック**
 
-[!DNL :bulb:] この節でプロファイルをインポートする方 [法につ](../start/import.md)
-[!DNL :bulb:] いて詳しくは、この節でCampaignオーディエンスに [ついて説明します](../start/audiences.md)
+[!DNL :bulb:] プロファイルをインポートする方法については、[この節](../start/import.md)を参照してください。
+[!DNL :bulb:] Campaign オーディエンスの詳細については、[この節](../start/audiences.md)を参照してください。
