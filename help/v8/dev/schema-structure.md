@@ -5,7 +5,7 @@ description: Campaign のスキーマ構造
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 99%
 
 データタイプは、**`<attribute>`** 要素と **`<element>`** 要素の **type** 属性を介して入力されます。
 
-詳細なリストは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic)に記載されています。
+詳細なリストについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic)を参照してください。
 
 この属性が空の場合、要素に子要素が含まれていない限り、**string** がデフォルトのデータタイプになります。 子要素が含まれる場合は、要素を階層的に構成するためにのみ使用します（この例では&#x200B;**`<location>`**&#x200B;要素）。
 
@@ -284,7 +284,7 @@ ht-degree: 99%
 
 ### 例 {#example}
 
-プロパティが設定されたスキーマの例を次に示します。
+プロパティが設定されたスキーマの例を示します。
 
 ```
 <srcSchema name="recipient" namespace="cus">
