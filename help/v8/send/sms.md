@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 35814053bff993d0b130bf598c8601c3f5adc407
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 42%
+ht-degree: 53%
 
 ---
 
@@ -41,11 +41,11 @@ SMS の送信を開始する前：
 
 ## 最初のSMS配信を作成する
 
-1. 新しい配信を作成するには、「**[!UICONTROL キャンペーン]**」タブを参照し、「**[!UICONTROL 配信]**」をクリックして、既存の配信のリストの上にある「**[!UICONTROL 作成]**」ボタンをクリックします。
+1. 新しい配信を作成するには、「**[!UICONTROL キャンペーン]**」タブで「**[!UICONTROL 配信]**」をクリックし、既存の配信一覧の上部の「**[!UICONTROL 作成]**」ボタンをクリックします。
 
    ![](assets/delivery_step_1.png)
 
-   [!DNL :arrow_upper_right:] 配信の作成方法に関する全体的な情報については、 [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages)を参照してください。
+   [!DNL :arrow_upper_right:]配信の作成方法に関する全般的な情報については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages)を参照してください。
 
 1. SMS配信を送信するための、関連する外部アカウントを参照する配信テンプレートを選択します。
 
@@ -75,9 +75,9 @@ SMSを作成およびデザインするための主な手順については、Ca
 
    [!DNL :arrow_upper_right:] [SMSコンテンツの定義方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=en#defining-the-sms-content)
 
-* Eメールのオーディエンスを選択します
+* メールのオーディエンスを選択
 
-   [!DNL :arrow_upper_right:] [ターゲット母集団の定義方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja)
+   [!DNL :arrow_upper_right:] [ターゲット母集団の定義方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja)
 
 [!DNL :bulb:] オーディエンスを定義する手順について詳しくは、このペ [ージを参照してください](../start/audiences.md)。
 
@@ -90,7 +90,7 @@ SMSを作成およびデザインするための主な手順については、Ca
 配達確認を送信するには、次のCampaign Classicv7ドキュメントの節を参照してください。
 
 * 配信の検証と配達確認の送信
-   [!DNL :arrow_upper_right:] [配信を検証するための主な手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja)
+   [!DNL :arrow_upper_right:] [配信を検証するための主な手順を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja)
 * シードアドレスの追加
    [!DNL :arrow_upper_right:] [シードアドレスの詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=ja)
 
