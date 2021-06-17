@@ -8,33 +8,33 @@ level: Beginner
 source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '432'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Campaign の新しい API{#gs-new-api}
 
-Campaign v8には、CampaignローカルデータベースとCloudデータベースの間のデータを管理する2つの新しいAPIが付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細情報](staging.md)
+Campaign v8 には、Campaign ローカルデータベースと Cloud データベースの間でデータを管理する 2 つの新しい API が付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細情報](staging.md)
 
-* 取得API:**xtk.session.ingest**
+* 取得 API：**xtk.session.ingest**
 
-   このAPIは、データ挿入専用です。 [詳細情報](#data-insert-api)
+   この API は、データ挿入専用です。 [詳細情報](#data-insert-api)
 
-* データ更新/削除API:**xtk.session.ingestExt**
+* データ更新／削除 API：**xtk.session.ingestExt**
 
-   このAPIは、データを更新または削除するために使用されます。 [詳細情報](#data-update-api)
+   この API は、データを更新または削除するために使用されます。 [詳細情報](#data-update-api)
 
-専用の組み込みワークフローが、クラウドデータベースのデータを同期します。
+専用の組み込みワークフローが、Cloud データベースのデータを同期します。
 
 ## データの挿入{#data-insert-api}
 
-**xtk.session.ingest** APIは、データ挿入専用です。 更新/削除はありません。
+**xtk.session.ingest** API は、データ挿入専用です。 更新／削除はありません。
 
 ### 紐付けなしで挿入
 
 **ワークフロー内**
 
-**Javascriptコード**&#x200B;アクティビティで次のコードを使用して、紐付けなしでCloudデータベースにデータを挿入します。
+**Javascript コード**&#x200B;アクティビティで次のコードを使用して、紐付けなしで Cloud データベースにデータを挿入します。
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -48,10 +48,10 @@ logInfo(strUuid);
 
 ワークフローが実行されると、ステージングテーブルが期待どおりにフィードされます。
 
-**SOAP呼び出しから**
+**SOAP 呼び出しから**
 
 1. 認証トークンを取得します。
-1. APIのトリガー。 ペイロードは次のとおりです。
+1. API のトリガー。 ペイロードは次のとおりです。
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -71,7 +71,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. UUIDがSOAP応答に返されます。
+1. UUID が SOAP 応答に返されます。
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -87,11 +87,11 @@ logInfo(strUuid);
 
 ![](assets/no-reconciliation.png)
 
-### 紐付けと共に挿入
+### 紐付けして挿入
 
 **ワークフロー内**
 
-**Javascriptコード**&#x200B;アクティビティで次のコードを使用し、紐付けを使用してCloudデータベースにデータを挿入します。
+**Javascript コード**&#x200B;アクティビティで次のコードを使用し、紐付けを使用して Cloud データベースにデータを挿入します。
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -108,10 +108,10 @@ logInfo(strUuid);
 ![](assets/with-reconciliation.png)
 
 
-**SOAP呼び出しから**
+**SOAP 呼び出しから**
 
 1. 認証トークンを取得します。
-1. APIのトリガー。 ペイロードは次のとおりです。
+1. API のトリガー。 ペイロードは次のとおりです。
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -131,7 +131,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. この場合、UUIDはペイロードで指定されているので、応答に返されません。 応答は次のとおりです。
+1. この場合、UUID はペイロードで提供されているため、応答には返されません。応答は次のとおりです。
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -147,13 +147,13 @@ logInfo(strUuid);
 
 ## データの更新または削除{#data-update-api}
 
-**xtk.session.IngestExt** APIは、データの更新/削除用に最適化されます。 挿入のみを行う場合は、**xtk.session.ingest**&#x200B;を選択します。 レコードキーがステージングテーブルにないかどうかを示す挿入が機能します。
+**xtk.session.IngestExt** API は、データの更新／削除用に最適化されています。 挿入のみをおこなう場合は、**xtk.session.ingest** を選択します。 レコードキーがステージングテーブルにない場合でも、挿入は機能します。
 
-### 挿入/更新
+### 挿入／更新
 
 **ワークフロー内**
 
-**JavaScriptコード**&#x200B;アクティビティで次のコードを使用して、Cloudデータベース内のデータを更新します。
+**JavaScript コード**&#x200B;アクティビティで次のコードを使用して、Cloud データベース内のデータを更新します。
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -168,11 +168,11 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ![](assets/updated-data.png)
 
-**SOAP呼び出しから**
+**SOAP 呼び出しから**
 
 
 1. 認証トークンを取得します。
-1. APIのトリガー。 ペイロードは次のとおりです。
+1. API のトリガー。 ペイロードは次のとおりです。
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -192,7 +192,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
    </soapenv:Envelope>
    ```
 
-1. SOAP応答は次のとおりです。
+1. SOAP 応答は次のとおりです。
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -206,11 +206,11 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ## 購読管理 {#sub-apis}
 
-Campaignの購読管理については、[このページ](../start/subscriptions.md)で説明しています。
+Campaign の購読管理については、[このページ](../start/subscriptions.md)を参照してください。
 
-購読および購読解除データを挿入するには、Campaignローカルデータベースの[ステージングメカニズム](staging.md)が必要です。 購読者情報は、ローカルデータベースのステージングテーブルに一時的に格納され、同期ワークフローは、このデータをローカルデータベースからCloudデータベースに送信します。 その結果、購読プロセスと購読解除プロセスは&#x200B;**非同期**&#x200B;になります。 オプトインおよびオプトアウトのリクエストは、特定のテクニカルワークフローを通じて1時間ごとに処理されます。 [詳細情報](../config/replication.md#tech-wf)
+購読や購読解除のデータは、Campaign ローカルデータベースの[ステージングメカニズム](staging.md)を使用して挿入されます。購読者の情報は、ローカルデータベースのステージングテーブルにいったん格納され、同期ワークフローによってローカルデータベースからクラウドデータベースに送信されます。 そのため、購読や購読解除のプロセスは&#x200B;**非同期**&#x200B;でおこなわれます。オプトインやオプトアウトのリクエストは、特定のテクニカルワークフローによって 1 時間ごとに処理されます。 [詳細情報](../config/replication.md#tech-wf)
 
 
 **関連トピック**
 
-* [Campaign Classicv7 JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html)
+* [Campaign Classic v7 JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html)
