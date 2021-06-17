@@ -10,7 +10,7 @@ hide: true
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,4 +55,4 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja)
 * [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja)
 
-[!DNL :arrow_upper_right:] このドキュメント内のすべてのCampaign コントロールパネル [機能を確認する](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
+[!DNL :arrow_upper_right:] コントロールパネルのすべての機能については、[このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を参照してください
