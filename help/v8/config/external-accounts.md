@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: ff2c49a2b4f22cde7ebb798d9f565e133c0268fc
 workflow-type: tm+mt
 source-wordcount: '1124'
-ht-degree: 29%
+ht-degree: 99%
 
 ---
 
@@ -19,110 +19,110 @@ Adobe Campaign には、事前に定義された一連の外部アカウント�
 
 外部アカウントは、テクニカルワークフローやキャンペーンワークフローなどの技術プロセスで使用されます。例えば、ワークフローにおけるファイル転送や、他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換などをセットアップする場合、外部アカウントを選択する必要がありす。
 
-Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部アカウントにアクセスできます。**[!UICONTROL 管理]** `>` **[!UICONTROL プラットフォーム]** `>` **[!UICONTROL 外部アカウント]**&#x200B;を参照します。
+Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部アカウントにアクセスできます。**[!UICONTROL 管理]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL 外部アカウント]**&#x200B;を参照します。
 
 ![](assets/external-accounts.png)
 
 
 >[!CAUTION]
 >
->特定の&#x200B;**[!UICONTROL 完全なFDA]**(ffda)外部アカウントは、CampaignローカルデータベースとCloudデータベース([!DNL Snowflake])間の接続を管理します。
+>Campaign のローカルデータベースとクラウドのデータベース（[!DNL Snowflake]）の間の接続は、特定の&#x200B;**[!UICONTROL フル FDA]**（ffda）外部アカウントで管理されます。
 >
->管理対象Cloud Servicesユーザーは、この外部アカウントをAdobeでインスタンスに設定します。 この値は変更できません。
+>Managed Cloud Services のユーザー場合、この外部アカウントは、お使いのインスタンス用にアドビが設定します。これは変更できません。
 
 
-## キャンペーン固有の外部アカウント
+## Campaign 固有の外部アカウント
 
-次のテクニカルアカウントは、Adobe Campaignで特定のプロセスを有効にして実行するために使用されます。
+次の技術アカウントは、Adobe Campaign で特定のプロセスを有効にして実行するために使用されます。
 
-[!DNL :speech_balloon:] 管理対象Cloud Servicesユーザーとして、Adobeは、Campaign固有のすべての外部アカウントを設定します。
+[!DNL :speech_balloon:] Managed Cloud Services ユーザーとして、アドビは、Campaign 固有の外部アカウントすべてを設定します。
 
-* **バウンスメール (POP3)**
+* **バウンスメール（POP3）**
 
-   **バウンスメール**&#x200B;外部アカウントで、電子メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
+   **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
-   [!DNL :arrow_upper_right:] インバウンドEメールについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
+   [!DNL :arrow_upper_right:]インバウンド電子メールについて詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html?lang=ja)を参照してください。
 
-* **Routing**
+* **ルーティング**
 
    **[!UICONTROL ルーティング]**&#x200B;外部アカウントを使用すると、インストールしているパッケージに応じて、Adobe Campaign で利用可能な各チャネルを設定できます。
 
    >[!CAUTION]
    >
-   >Adobe Campaign v8で&#x200B;**[!UICONTROL 内部Eメール配信ルーティング]**(defaultEmailBulk)外部アカウント&#x200B;**を有効にしてはいけません**。
+   >Adobe Campaign v8 では&#x200B;**[!UICONTROL 内部電子メール配信ルーティング]**（defaultEmailBulk）外部アカウントを、有効に&#x200B;**しないでください**。
 
 * **実行インスタンス**
 
-   トランザクションメッセージのコンテキストでは、実行インスタンスはコントロールインスタンスにリンクされ、接続されます。 トランザクションメッセージテンプレートは実行インスタンスにデプロイされます。
+   トランザクションメッセージのコンテキストでは、実行インスタンスはコントロールインスタンスにリンクされ、接続されます。 トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
 
-   [!DNL :bulb:] Message Centerのアーキテクチャについて詳しくは、このペ [ージを参照してください](../dev/architecture.md#transac-msg-archi)。
+   [!DNL :bulb:] Message Center のアーキテクチャについて詳しくは、[このページ](../dev/architecture.md#transac-msg-archi)を参照してください。
 
-## 外部システム外部アカウントへのアクセス
+## 外部システムの外部アカウントへのアクセス
 
-* **外部データベース(FDA)**
+* **外部データベース（FDA）**
 
-   **外部データベース**&#x200B;タイプの外部アカウントを使用して、FDAを介して外部データベースに接続します。
+   **外部データベース**&#x200B;タイプの外部アカウントを使用して、FDA 経由で外部データベースに接続します。
 
-   Adobe Campaign v8と互換性のある外部データベースは、互換性マトリックス[](../start/compatibility-matrix.md)に記載されています。
+   Adobe Campaign v8 と互換性のある外部データベースは、[互換性マトリックス](../start/compatibility-matrix.md)に記載されています。
 
-   [!DNL :bulb:] Federated Data Access(FDA)オプションについて詳しくは、この節 [を参照してください](../connect/fda.md)。
+   [!DNL :bulb:]Federated Data Access（FDA）オプションについて詳しくは、[この節](../connect/fda.md)を参照してください。
 
-## Adobeソリューション統合の外部アカウント
+## Adobe ソリューション統合外部アカウント
 
 * **Adobe Experience Cloud**
 
-   Adobe IDを使用してAdobe Campaignコンソールに接続するには、**[!UICONTROL Adobe Experience Cloud]**&#x200B;外部アカウントを設定する必要があります。
+   Adobe ID を使用して Adobe Campaign コンソールに接続するには、**[!UICONTROL Adobe Experience Cloud]** 外部アカウントを設定する必要があります。
 
-   [!DNL :bulb:] AdobeIdentity Managementサービス(IMS)について詳しくは、この節を参 [照してください](../start/connect.md#connect-ims)。
+   [!DNL :bulb:]Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#connect-ims)を参照してください。
 
-   [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡し](../start/campaign-faq.md#support) て、CampaignとのAdobeIMSを実装します。
+   [!DNL :speech_balloon:]Managed Cloud Services のユーザーとして Adobe IMS を Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 * **Web 分析**
 
-   Adobe AnalyticsからAdobe Campaignへのデータ転送を設定するには、**[!UICONTROL Web Analytics(Adobe Analytics)]**&#x200B;外部アカウントを使用します。
+   Adobe Analytics から Adobe Campaign へのデータ転送を設定するには、**[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントを使用します。
 
-   [!DNL :bulb:] Adobe CampaignとAdobe Analyticsの統合について詳しくは、このペ [ージを参照してください](../connect/ac-aa.md)。
+   [!DNL :bulb:]Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
-   [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡](../start/campaign-faq.md#support) して、Adobe AnalyticsをCampaignと統合してください。
+   [!DNL :speech_balloon:]Managed Cloud Services のユーザーとして Adobe Analytics を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
    * **Adobe Experience Manager**
-   **[!UICONTROL AEM]**&#x200B;外部アカウントを使用すると、Eメール配信とフォームのコンテンツをAdobe Experience Managerで直接管理できます。
+   **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
 
-   [!DNL :bulb:] Adobe CampaignとAdobe Analyticsの統合について詳しくは、このペ [ージを参照してください](../connect/ac-aem.md)。
+   [!DNL :bulb:]Adobe Campaign と Adobe Analytics の統合について詳しくは、[このペ ージ](../connect/ac-aem.md)を参照してください。
 
-   [!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡](../start/campaign-faq.md#support) して、Adobe Experience ManagerとAdobe Campaignを統合してください。
+   [!DNL :speech_balloon:]Managed Cloud Services のユーザーとして Adobe Experience Manager を Adobe Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 
-## CRMコネクタの外部アカウント
+## CRM コネクタの外部アカウント
 
 * **Microsoft Dynamics CRM**
 
-   **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントがあれば、Microsoft Dynamics データを Adobe Campaign にインポートおよびエクスポートできます。
+   **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign に読み込みおよび書き出しできます。
 
-   [!DNL :bulb:] Adobe CampaignとMicrosoft Dynamics CRMの統合について詳しくは、このページ [を参照してください](../connect/crm.md)。
+   [!DNL :bulb:]Adobe Campaign と Microsoft Dynamics CRM の統合について詳しくは、[このページ](../connect/crm.md)を参照してください。
 
    **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL パスワード資格情報]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 
-   * **[!UICONTROL アカウント]**:Microsoft CRMへのログインに使用するアカウント。
+   * **[!UICONTROL アカウント]** Microsoft CRM へのログインに使用するアカウント。
 
-   * **[!UICONTROL サーバー]**:Microsoft CRMサーバーのURL。
+   * **[!UICONTROL サーバー]**：Microsoft CRM サーバーの URL。
 
-   * **[!UICONTROL クライアント識別子]**:Microsoft Azure管理ポータルの「コーデックを更新」フィールドにあ **[!UICONTROL るクラ]** イアント **[!UICONTROL ID]** です。
+   * **[!UICONTROL クライアント識別子]**：**[!UICONTROL コードを更新]**&#x200B;カテゴリ、**[!UICONTROL クライアント ID]** フィールドの Microsoft Azure 管理ポータルにあるクライアント ID。
 
-   * **[!UICONTROL CRMバージョン]**: **[!UICONTROL Dynamics CRM 2007]**、 **[!UICONTROL Dynamics CRM 2015]** 、または **[!UICONTROL Dynamics CRM 2016]**&#x200B;のCRMのバージョン。
+   * **[!UICONTROL CRM バージョン]**：**[!UICONTROL Dynamics CRM 2007]**、**[!UICONTROL Dynamics CRM 2015]** または **[!UICONTROL Dynamics CRM 2016]** の CRM バージョン。
    **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL 証明書]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
 
-   * **[!UICONTROL サーバー]**:Microsoft CRMサーバーのURL。
+   * **[!UICONTROL サーバー]**：Microsoft CRM サーバーの URL。
 
-   * **[!UICONTROL 秘密鍵（Base64エンコード）]**:Base64にエンコードされた秘密鍵
+   * **[!UICONTROL 秘密鍵（Base64 エンコード）]**:Base64 にエンコードされた秘密鍵
 
    * **[!UICONTROL カスタムキー識別子]**
 
    * **[!UICONTROL キー ID]**
 
-   * **[!UICONTROL クライアント識別子]**:**[!UICONTROL コード]**&#x200B;を更新カテゴリ、**[!UICONTROL クライアントID]**&#x200B;フィールドのMicrosoft Azure管理ポータルにあるクライアントID。
+   * **[!UICONTROL クライアント識別子]**：**[!UICONTROL コードを更新]**&#x200B;カテゴリ、**[!UICONTROL クライアント ID]** フィールドの Microsoft Azure 管理ポータルにあるクライアント ID。
 
-   * **[!UICONTROL CRMバージョン]**: **[!UICONTROL Dynamics CRM 2007]**、 **[!UICONTROL Dynamics CRM 2015]** 、または **[!UICONTROL Dynamics CRM 2016]**&#x200B;のCRMのバージョン。
+   * **[!UICONTROL CRM バージョン]**：**[!UICONTROL Dynamics CRM 2007]**、**[!UICONTROL Dynamics CRM 2015]** または **[!UICONTROL Dynamics CRM 2016]** の CRM バージョン。
 
 
 * **Salesforce.com**
@@ -131,48 +131,47 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
    Salesforce CRM 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報を提供する必要があります。
 
-   * **[!UICONTROL アカウント]**:Salesforce CRMへのログインに使用するアカウント。
+   * **[!UICONTROL アカウント]**：Salesforce CRM へのログインに使用するアカウント。
 
-   * **[!UICONTROL パスワード]**:Salesforce CRMへのログインに使用するパスワード。
+   * **[!UICONTROL パスワード]**：Salesforce CRM へのログインに使用するパスワード。
 
-   * **[!UICONTROL クライアント識別子]**:クライアント識別子の見つけ方については、このペ [ージを参照してください](https://help.salesforce.com/articleView?id=000205876&amp;type=1)。
+   * **[!UICONTROL クライアント識別情報]**：クライアント識別情報の見つけ方については、[このページ](https://help.salesforce.com/articleView?id=000205876&amp;type=1)を参照してください。
 
-   * **[!UICONTROL セキュリティトークン]**:セキュリティトークンの見つけ方については、このペ [ージを参照してください](https://help.salesforce.com/articleView?id=000205876&amp;type=1)。
+   * **[!UICONTROL セキュリティトークン]**：セキュリティトークンの見つけ方については、[このペ ージ](https://help.salesforce.com/articleView?id=000205876&amp;type=1)を参照してください。
 
-   * **[!UICONTROL APIバージョン]**:APIのバージョンを選択します。この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
+   * **[!UICONTROL API バージョン]**：API のバージョンを選択します。この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
 
 ## データ転送外部アカウント
 
-これらの外部アカウントは、**[!UICONTROL ファイル]**&#x200B;転送ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポートするために使用できます。
+これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。
 
-[!DNL :arrow_upper_right:] ワークフローでのファイル転送について詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
+[!DNL :arrow_upper_right:]ワークフローでのファイル転送について詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html?lang=ja)を参照してください
 
-* **FTPとSFTP**
+* **FTP と SFTP**
 
-   **FTP**外部アカウントを使用して、Adobe Campaign外のサーバーへのアクセスを設定およびテストできます。 外部システム（SFTPやFTPサーバー898など、ファイル転送に使用される）との接続をセットアップするには、独自の外部アカウントを作成できます。
-これをおこなうには、この外部アカウントで、SFTPまたはFTPサーバーへの接続を確立するために使用するアドレスと資格情報を指定します。
+   **FTP** 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。これをおこなうには、SFTP サーバーまたは FTP サーバーへの接続を確立するために使用するアドレスと資格情報を、この外部アカウントで指定します。
 
-* **Amazon Simple Storage Service(S3)**
+* **Amazon Simple Storage Service（S3）**
 
-   **AWS S3**&#x200B;コネクタを使用して、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポートできます。 この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
+   **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータの読み込みまたは書き出しをおこなうために使用できます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
-   * **[!UICONTROL AWS S3 アカウントサーバー]**:サーバーのURL。次のように入力します。   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
+   * **[!UICONTROL AWS S3アカウントサーバー]**:サーバーのURL。次のように入力します。    ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
-   * **[!UICONTROL AWSアクセスキーID]**:AWSアクセスキーIDを見つける方法については、 [Amazonのドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) を参照してください。
+   * **[!UICONTROL AWS アクセスキー ID]**：AWS アクセスキー ID を見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
-   * **[!UICONTROL AWSへの秘密アクセスキー]**:AWSへの秘密アクセスキーを見つける方法については、 [Amazonのドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
+   * **[!UICONTROL AWS への秘密アクセスキー]**：AWS への秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
 
-   * **[!UICONTROL AWSリージョン]**:AWSリージョンについて詳しくは、 [Amazonのドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
+   * **[!UICONTROL AWS リージョン]**：AWS リージョンについて詳しくは、 [Amazon ドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
 
-   * **[!UICONTROL サーバー側の暗号化を使用]**&#x200B;チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。アクセスキーIDと秘密アクセスキーを見つける方法については、[Amazonのドキュメント](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+   * 「**[!UICONTROL サーバー側の暗号化を使用]**」チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。アクセスキー ID と秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
 * **Azure Blob ストレージ**
 
-   **Azure**&#x200B;外部アカウントを使用して、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポートできます。 Adobe Campaignと連携するように&#x200B;**Azure**&#x200B;外部アカウントを設定するには、次の情報を提供する必要があります。
+   **Azure** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティで Adobe Campaign との間でデータをインポートまたはエクスポートできます。**Azure** 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
 
-   * **[!UICONTROL サーバー]**:Azure BLOBストレージサーバーのURL。
+   * **[!UICONTROL サーバー]**：Azure BLOB ストレージサーバーの URL。
 
-   * **[!UICONTROL 暗号化]**:非SSL間の暗号化 **** のタ **[!UICONTROL イプ]**。
+   * **[!UICONTROL 暗号化]**：暗号化のタイプ。**[!UICONTROL なし]** または **[!UICONTROL SSL]**。
 
-   * **[!UICONTROL アクセスキー]**:MicrosoftドキュメントでAccessキーを **[!UICONTROL 検索す]** る方 [法を説明します](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)。
+   * **[!UICONTROL アクセスキー]**：ご利用の&#x200B;**[!UICONTROL アクセスキー]**&#x200B;を確認する方法については、[Microsoft ドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)を参照してください。
 
