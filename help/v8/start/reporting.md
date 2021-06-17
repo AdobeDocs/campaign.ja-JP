@@ -9,7 +9,7 @@ exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d25755
 source-git-commit: 983b3cfc2f1569cd071848805e6b6b3411b4d6c6
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 24%
+ht-degree: 40%
 
 ---
 
@@ -51,10 +51,10 @@ Adobe Campaignには、このページにリストされている一連のレポ
 
    ![](assets/create-a-report.png)
 
-   クエリ、計算、ボリュームの複雑さに応じて、これらのレポートで分析されたデータをクエリを使用して収集し、リスト（データ管理タイプのワークフロー）またはキューブ（マーケティング分析を使用）で事前に集計できます。 データは、ピボットテーブルやグループリストの形式で表示されます。
+   これらのレポートで分析するデータは、クエリ、計算、量などの複雑さに応じて、クエリで収集したり、リスト（データ管理タイプのワークフロー）やキューブ（Marketing Analytics を使用）で事前に集計したりすることができます。データは、ピボットテーブルやグループリストの形式で表示されます。
 
    [!DNL :arrow_upper_right:] キューブの作成方法については、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
 
 
-Adobe Campaignレポートは最適化され、Campaign Classicv7よりも優れたスケール機能を提供します。 キューブに関する既存の制限は適用されません。
+Adobe Campaign レポートは最適化されており、Campaign Classic v7 よりも優れたスケール機能を提供します。 キューブに関する既存の制限は適用されません。
 
