@@ -8,7 +8,7 @@ title: Campaign v8 ドキュメント
 source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 82%
    + [実装手順](start/implement.md)
    + [インスタンスのカスタマイズ](dev/customize.md)
    + [セキュリティガイドライン](config/security.md)
-   + [web アプリとフォームの設計](dev/webapps.md)
+   + [Web アプリとフォームのデザイン](dev/webapps.md)
    + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
 + デプロイ {#deploy}
    + [互換性マトリックス](start/compatibility-matrix.md)
@@ -43,15 +43,15 @@ ht-degree: 82%
    + [権限](start/permissions.md)
    + [Campaign コントロールパネル](config/self-service.md)
 + 送信 {#send}
-   + [E メール](send/email.md)
+   + [メール](send/email.md)
    + [SMS](send/sms.md)
    + [プッシュ通知](send/push.md)
-   + [LINEメッセージ](send/line.md)
+   + [LINE メッセージ](send/line.md)
    + [ダイレクトメール](send/direct-mail.md)
    + [トランザクションメッセージ](send/transactional.md)
    + オファーを追加{#interaction}
       + [インタラクションの概要](send/interaction.md)
-      + 設定を定義{#interaction}
+      + 設定の定義{#interaction}
          + [オペレーターの作成](send/interaction-operators.md)
          + [環境の作成](send/interaction-env.md)
          + [定義済みフィルターの作成](send/interaction-predefined-filters.md)
@@ -63,16 +63,16 @@ ht-degree: 82%
 + 設定 {#config}
    + [ワークフローを使用した自動化](config/workflows.md)
    + [データの管理](config/replication.md)
-   + [E メールの設定](config/email-settings.md)
+   + [メールの設定](config/email-settings.md)
    + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
    + [モバイルアプリの設定](config/push-config.md)
    + [外部アカウント](config/external-accounts.md)
 + 接続 {#connect}
-   + [他のソリューションとの接続](connect/integration.md)
+   + [他のソリューションとの連携](connect/integration.md)
    + [Campaign と Analytics の統合](connect/ac-aa.md)
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
    + [Campaign と Target の統合](connect/ac-at.md)
-   + [キャンペーン+Experience Cloudトリガー](connect/ac-triggers.md)
+   + [Campaign と Experience Cloud トリガーの統合](connect/ac-triggers.md)
    + [Campaign と RTCDP の統合](connect/ac-rtcdp.md)
    + [Campaign と Twitter の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
@@ -83,16 +83,16 @@ ht-degree: 82%
    + [データモデル](dev/datamodel.md)
    + スキーマとフォーム {#shemas-forms}
       + [スキーマの操作](dev/schemas.md)
-      + [鍵の管理と共同性](dev/keys.md)
+      + [鍵の管理と単一性](dev/keys.md)
       + [スキーマの作成](dev/create-schema.md)
       + [スキーマの拡張](dev/extend-schema.md)
       + [スキーマの構造](dev/schema-structure.md)
       + [データベースマッピング](dev/database-mapping.md)
-      + [PI の閲覧を制限](dev/restrict-pi-view.md)
+      + [PI ビューの制限](dev/restrict-pi-view.md)
       + [カスタム受信者テーブルの使用](dev/custom-recipient.md)
       + [データベースの更新](dev/update-database-structure.md)
       + [入力フォーム](dev/forms.md)
    + API {#api}
       + [基本を学ぶ](dev/api.md)
       + [新しい API](dev/new-apis.md)
-      + [APIのステージングメカニズム](dev/staging.md)
+      + [API のステージングメカニズム](dev/staging.md)
