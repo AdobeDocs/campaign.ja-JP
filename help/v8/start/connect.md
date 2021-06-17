@@ -9,7 +9,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 77%
+ht-degree: 95%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 77%
 
 Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。
 
-開始する前に、次の操作が必要です。
+始める前に、次の手順を実行する必要があります。
 
-* [互換性マトリックス](compatibility-matrix.md)のAdobe Campaignとのシステムおよびツールの互換性を確認してください
-* CampaignサーバーURLの取得
-* ユーザー資格情報の取得
+* お使いのシステムとツールについて、Adobe Campaign クライアントコンソールとの互換性を[互換性マトリックス](compatibility-matrix.md)で確認してください。
+* Campaign サーバーの URL を取得する
+* ユーザー資格情報を取得する
 
 ## クライアントコンソールのダウンロードとインストール
 
@@ -103,20 +103,20 @@ Campaign ユーザーは、Adobe Identity Management System（IMS）から Adobe
 * 強力なパスワード管理ポリシーを適用します。
 * Federated ID アカウント（外部の ID プロバイダー）を使用します。
 
-[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに [連絡し](campaign-faq.md#support) て、CampaignとのAdobeIMSを実装します。
+[!DNL :speech_balloon:] Managed Cloud Services のユーザーとして Adobe IMS を Campaign で実装する場合は、[アドビにお問い合わせ](campaign-faq.md#support)ください。
 
 ## LDAP ログインを使用した Campaign への接続
 
 Adobe Campaign のプラットフォームにアクセスするユーザーを、LDAP で認証することができます。
 
-[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーとして、アドビに [連絡](campaign-faq.md#support) し、CampaignとのLDAP統合を設定してください。
+[!DNL :speech_balloon:] Managed Cloud Services のユーザーとして LDAP と Campaign の統合を設定する場合は、[アドビにお問い合わせ](campaign-faq.md#support)ください。
 
 
 ## Web アクセス{#web-access}
 
-HTMLユーザーインターフェイスを使用して、シンプルなWebブラウザーでアプリケーションの特定の部分にアクセスできます。キャンペーンダッシュボード、キューブレポート、インスタンス監視など。
+アプリケーションの特定の機能（Campaign ダッシュボード、キューブレポート、インスタンス監視など）へは、HTML ユーザーインターフェイスを使用して、シンプルな Web ブラウザーからアクセスできます。
 
-[!DNL :arrow_upper_right:] Webアクセスについて詳しくは、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+[!DNL :arrow_upper_right:] Web アクセスの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja#console-and-web-access)を参照してください
 
 Webアクセスには、コンソールに似たインターフェイスが用意されていますが、機能が少なくなります。
 
@@ -128,6 +128,6 @@ Webアクセスには、コンソールに似たインターフェイスが用�
 
 ![](assets/campaign-from-web.png)
 
-Webアクセスは、検証プロセスでも使用されます。オペレーターは、承認リクエストのEメールをクリックし、Webブラウザーを通じてCampaignに接続して、配信コンテンツや予算を検証または却下できます。
+Web アクセスは、検証プロセスでも使用します。オペレーターは、承認依頼のメールをクリックし、web ブラウザーで Campaign に接続し、配信コンテンツや予算の検証や却下をおこなうことができます。
 
-[!DNL :arrow_upper_right:]  [Campaign Classicv7ドキュメントで承認を設定および管理する方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ja#orchestrating-campaigns)
+[!DNL :arrow_upper_right:] 承認の設定と管理の方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ja#orchestrating-campaigns)を参照してください
