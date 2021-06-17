@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 サポートされている CRM とそのバージョンについて詳しくは、Campaign の[互換性マトリックス](../start/compatibility-matrix.md)を参照してください。
 
-[!DNL :speech_balloon:]CRM コネクタはセキュア URL（https）でのみ動作します。
+[!DNL :speech_balloon:] CRM コネクタはセキュア URL（https）でのみ動作します。
 
 ## 実装手順 {#crm-implementation-steps}
 
-[!DNL :arrow_upper_right:]  [Campaign Classicv7のドキュメントでCampaignとMicrosoft Dynamicsを接続する手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ja#microsoft-dynamics-implementation-steps)
+[!DNL :arrow_upper_right:] Campaign と Microsoft Dynamics を接続する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ja#microsoft-dynamics-implementation-steps)を参照してください。
 
-[!DNL :arrow_upper_right:]  [Campaign Classicv7のドキュメントで、CampaignとSalesforceを接続する手順を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=ja#getting-started)
+[!DNL :arrow_upper_right:] Campaign と Salesforce を接続する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=ja#getting-started)を参照してください。
 
 
 Adobe Campaign と CRM は、専用のワークフローアクティビティでデータを同期します。Campaign と CRM の同期を自動化するワークフローを作成します。 Microsoft Dynamics 経由で読み込んだ連絡先を、既存の Adobe Campaign データと同期し、重複する連絡先は削除してから、Adobe Campaign のデータベースを更新するワークフローを作成できます。
 
-[!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=ja#getting-started)
+[!DNL :arrow_upper_right:] 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=ja#getting-started)を参照してください。
 
