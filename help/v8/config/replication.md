@@ -9,7 +9,7 @@ exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign には、一連の組み込みテクニカルワークフロー�
 
 これらのワークフローでは、データベースに対する保守操作の実行、配信ログのトラッキング情報の利用、繰り返しキャンペーンの作成などを行います。
 
-[!DNL :arrow_upper_right:] テクニカルワークフローの完全なリストについては、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)
+[!DNL :arrow_upper_right:] テクニカルワークフローの完全なリストについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)を参照してください
 
 
 これらのテクニカルワークフローに加えて、キャンペーン v8 では、[データレプリケーション](#data-replication)を管理するための特定のテクニカルワークフローも利用します。
@@ -37,19 +37,19 @@ Adobe Campaign には、一連の組み込みテクニカルワークフロー�
 
 これらのテクニカルワークフローは、キャンペーンエクスプローラーの&#x200B;**[!UICONTROL 管理／本番環境／テクニカルワークフロー／完全な FFDA レプリケーション]**&#x200B;ノードから利用できます。 **これらは変更できません。**
 
-必要に応じて、データの同期を手動で開始できます。 これを実行するには、**スケジューラー**&#x200B;アクティビティを右クリックし、「**保留中のタスクを今すぐ実行**」を選択します。
+必要に応じて、データの同期を手動で開始できます。これを実行するには、「**スケジューラー**」アクティビティを右クリックし、「**保留中のタスクを今すぐ実行**」を選択します。
 
 ## データレプリケーション{#data-replication}
 
-一部の組み込みテーブルは、前述の専用ワークフローを使用して、Campaignローカルデータベースから[!DNL Snowflake]クラウドデータベースにレプリケートされます。
+一部の組み込みテーブルは、上述の専用ワークフローを介して、Campaign のローカルデータベースから [!DNL Snowflake] クラウドデータベースにレプリケートされます。
 
 レプリケーションポリシーはテーブルのサイズに基づいています。 リアルタイムでレプリケートされるテーブルもあれば、時間単位でレプリケートされるテーブルもあります。 増分的に更新されるテーブルもあれば、全体が置き換えられるテーブルもあります。
 
-組み込みの&#x200B;**参照テーブルのレプリケート**&#x200B;テクニカルワークフローに加えて、ワークフローでデータレプリケーションを強制できます。
+組み込みの&#x200B;**参照テーブルのレプリケート**&#x200B;テクニカルワークフローに加えて、独自のワークフローでデータレプリケーションを強制することもできます。
 
-次の操作をおこなうことができます。
+次をおこなうことができます。
 
-* 次のコードを含む特定の&#x200B;**JavaScriptコード**&#x200B;アクティビティを追加します。
+* 次のコードを使用して特定の **JavaScript コード**&#x200B;アクティビティを追加する：
 
 ```
 nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
@@ -58,7 +58,7 @@ nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
 ![](assets/jscode.png)
 
 
-* 次のコマンドを使用して、特定の&#x200B;**nlmodule**&#x200B;アクティビティを追加します。
+* 次のコマンドを使用して、特定の **nlmodule** アクティビティを追加する：
 
 ```
 nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
@@ -68,6 +68,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **関連トピック**
 
-[!DNL :arrow_upper_right:] ワークフローの使用を開始する方法については、 [Campaign Classicv7のドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows)
+[!DNL :arrow_upper_right:] ワークフローの始め方については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows)を参照してください
 
-[!DNL :bulb:] この節のデータ保持期間にア [クセスする](../dev/datamodel-best-practices.md#data-retention)
+[!DNL :bulb:] データ保持期間については、[この節](../dev/datamodel-best-practices.md#data-retention)を参照してください
