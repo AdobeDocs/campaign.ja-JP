@@ -1,6 +1,6 @@
 ---
 product: Adobe Campaign
-title: Campaign v8の既知の制限
+title: Campaign v8 の既知の制限
 description: 既知の制限事項
 feature: 概要
 role: Data Engineer
@@ -9,22 +9,22 @@ hidefromtoc: true
 source-git-commit: cf00895f988514fc029d0060d7404bdef0c8b30e
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 2%
+ht-degree: 87%
 
 ---
 
 # 既知の制限事項
 
-既知の制限により、このリリースの製品でサポートされていない機能、アーキテクチャ、プロセス、または製品との相互運用性が正しくないプロセスが特定されます。 これらの制限事項は慎重に確認してください。
+既知の制限では、このリリースの製品ではサポートしていない機能、アーキテクチャ、プロセス、またはこのリリースの製品とは正しく相互運用できないプロセスを特定します。 これらの制限事項は慎重に確認してください。
 
-Adobe Campaign v8には、次の制限があります。
+Adobe Campaign v8 には、次の制限があります。
 
-* Adobe Campaign v8は、オンプレミス/ハイブリッドデプロイメントには使用できません。Adobe管理Cloud Serviceとしてのみリリースされます。
-* 既存のお客様は、既存のAdobe Campaign環境からAdobe Campaign v8に移行できない
-* 双方向のデータ・レプリケーションは不要：レプリケーションは、CampaignローカルデータベースからCloudデータベースにのみ発生します
-* この節](capability-matrix.md#gs-unavailable-features)で示す機能は、現在のCampaign v8ビルドでは使用できません。[
-* 使用できない機能や削除された機能の一部は、ユーザーインターフェイスに表示されます
-* 購読（オプトイン）と購読解除（オプトアウト）のメカニズムと、モバイル登録は非同期プロセスです。 リクエストは、特定のテクニカルワークフローを通じて1時間ごとに処理されます。 [詳細情報](../config/replication.md#tech-wf)
+* Adobe Campaign v8 は、オンプレミスやハイブリッドの環境では使用できません。アドビの Managed Cloud Service としてのみリリースされています。
+* 既存のお客様は、既存の Adobe Campaign 環境から Adobe Campaign v8 に移行することはできません。
+* 双方向のデータレプリケーションはおこなわれません。レプリケーションは、Campaign ローカルデータベースからクラウドデータベースに対してのみ発生します。
+* [この節](capability-matrix.md#gs-unavailable-features)で示す機能は、現在の Campaign v8 のビルドでは使用できません。
+* 使用できない機能や削除された機能の中には、ユーザーインターフェイスに表示されたままになっているものもあります。
+* 購読（オプトイン）と購読解除（オプトアウト）のメカニズム、およびモバイル登録は非同期のプロセスです。 リクエストは、特定のテクニカルワークフローを通じて 1 時間ごとに処理されます。 [詳細情報](../config/replication.md#tech-wf)
 * 重複は、エンドユーザーが手動で処理する必要があります。 [詳細情報](../dev/keys.md)
 * Adobe Campaign v8は、APIおよびWebアプリケーションでの拡張スループットをサポートしていません。 具体的なニーズがある場合は、Adobeに問い合わせてガイダンスを得てください。
 
