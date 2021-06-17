@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらのメッセージは、情報システムからトリガーされたイベントから生成されます。例えば、請求書、オーダー確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、Web サイトアカウント作成などのメッセージがあります。
 
-[!DNL :speech_balloon:] 管理対象Cloud Servicesのユーザーは、アドビに連絡 [し](../start/campaign-faq.md#support) て、お使いの環境にCampaignトランザクションメッセージをインストールおよび設定してください。
+[!DNL :speech_balloon:]Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 トランザクションメッセージは、次の送信に使用します。
 
@@ -24,9 +24,9 @@ ht-degree: 90%
 * 個々の顧客のアクションに対するリアルタイムでの応答
 * 宣伝以外のコンテンツ
 
-[!DNL :bulb:] トランザクションメッセージの設定について詳しく [は、この節](../config/transactional-msg-settings.md)を参照してください。
+[!DNL :bulb:] トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
 
-[!DNL :bulb:] トランザクションメッセージのアーキテクチャにつ [いては、このページ](../dev/architecture.md)を参照してください。
+[!DNL :bulb:] トランザクションメッセージのアーキテクチャについては、[このページ](../dev/architecture.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -96,11 +96,11 @@ ht-degree: 90%
 
 シードアドレスを使用すると、メッセージを送信する前に、メッセージのプレビューを表示したり、配達確認を送信したり、メッセージのパーソナライズ機能を検証したりできます。シードアドレスはこの配信に関連付けられており、その他の配信に利用することはできません。
 
-1. トランザクションメッセージテンプレートで、「**[!UICONTROL シードアドレス]**」タブをクリックし、「**[!UICONTROL 追加]**」ボタンをクリックします。
+1. トランザクションメッセージテンプレートで「**[!UICONTROL シードアドレス]**」タブをクリックし、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
    ![](assets/messagecenter_create_seed_1.png)
 
-1. 後で簡単に選択できるようにラベルを割り当て、シードアドレス（通信チャネルに応じてEメールまたは携帯電話）を入力します。
+1. 後で簡単に選択できるようにラベルを割り当て、シードアドレス（通信チャネルに応じてメールまたは携帯電話）を入力します。
 
 1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 + E メールなど）を入力することができます。Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントとを照合することができます。
 
@@ -137,7 +137,7 @@ ht-degree: 90%
 
 1 つまたは複数のシードアドレスとメッセージ本文を作成したら、メッセージをプレビューして、パーソナライゼーションを確認することができます。
 
-1. メッセージテンプレートで、「**[!UICONTROL プレビュー]**」タブをクリックし、ドロップダウンリストで「**[!UICONTROL シードアドレス]**」を選択します。
+1. メッセージテンプレートで「**[!UICONTROL プレビュー]**」タブをクリックし、ドロップダウンリストで「**[!UICONTROL シードアドレス]**」を選択します。
 
    ![](assets/messagecenter_preview_1.png)
 
@@ -151,7 +151,7 @@ ht-degree: 90%
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-[!DNL :arrow_upper_right:] 配達確認について詳しくは、 [Campaign Classicv7ドキュメントを参照してください]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
+[!DNL :arrow_upper_right:] 配達確認の詳細については、[Campaign Classic v7 ドキュメント]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))を参照してください。
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 
@@ -219,7 +219,7 @@ ht-degree: 90%
 
 トランザクションメッセージテンプレートを非公開にするには、次の手順に従います。
 
-1. コントロールインスタンスで、**[!UICONTROL Message Center/トランザクションメッセージテンプレート]**&#x200B;フォルダーを参照します。
+1. コントロールインスタンスで、**[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーを表示します。
 1. 非公開にするテンプレートを選択します。
 1. 「**[!UICONTROL 非公開にする]**」をクリックします。
 1. 「**[!UICONTROL 開始]**」をクリックします。
