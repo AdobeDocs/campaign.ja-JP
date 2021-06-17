@@ -5,7 +5,7 @@ description: 入力フォームのカスタマイズ方法を学ぶ
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '2577'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 99%
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
 
-[!DNL :arrow_upper_right:] すべてのフォーム属性は、 [Campaign Classicv7ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)に記載されています。
+[!DNL :arrow_upper_right:] すべてのフォーム属性については、[Campaign Classic v7 ドキュメント](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html)を参照してください。
 
 ## フォーマット設定 {#formatting}
 
@@ -610,7 +610,7 @@ ht-degree: 99%
 </leave>
 ```
 
-## アシスタント（ウィザード）  {#wizards}
+## アシスタント（ウィザード） {#wizards}
 
 アシスタントが、ページ形式の一連のデータ入力手順をガイドします。 入力したデータは、フォームを検証するときに保存されます。
 
