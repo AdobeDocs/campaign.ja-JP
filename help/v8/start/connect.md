@@ -6,9 +6,9 @@ feature: オーディエンス
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '823'
 ht-degree: 95%
 
 ---
@@ -116,7 +116,7 @@ Adobe Campaign のプラットフォームにアクセスするユーザーを�
 
 アプリケーションの特定の機能（Campaign ダッシュボード、キューブレポート、インスタンス監視など）へは、HTML ユーザーインターフェイスを使用して、シンプルな Web ブラウザーからアクセスできます。
 
-[!DNL :arrow_upper_right:] Web アクセスの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja#console-and-web-access)を参照してください
+[!DNL :arrow_upper_right:] Web アクセスの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja#console-and-web-access)を参照してください{target=&quot;_blank&quot;}
 
 Webアクセスには、コンソールに似たインターフェイスが用意されていますが、機能が少なくなります。
 
@@ -130,4 +130,4 @@ Webアクセスには、コンソールに似たインターフェイスが用�
 
 Web アクセスは、検証プロセスでも使用します。オペレーターは、承認依頼のメールをクリックし、web ブラウザーで Campaign に接続し、配信コンテンツや予算の検証や却下をおこなうことができます。
 
-[!DNL :arrow_upper_right:] 承認の設定と管理の方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ja#orchestrating-campaigns)を参照してください
+[!DNL :arrow_upper_right:] 承認の設定と管理の方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ja#orchestrating-campaigns)を参照してください{target=&quot;_blank&quot;}
