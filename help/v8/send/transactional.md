@@ -5,9 +5,9 @@ description: トランザクションメッセージの概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1550'
 ht-degree: 98%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 98%
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-[!DNL :arrow_upper_right:] 配達確認の詳細については、[Campaign Classic v7 ドキュメント]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))を参照してください。
+[!DNL :arrow_upper_right:] 配達確認の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 
