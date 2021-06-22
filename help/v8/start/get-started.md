@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 98%
+source-wordcount: '900'
+ht-degree: 95%
 
 ---
 
@@ -92,9 +92,9 @@ Adobe Campaign は、ニーズとアーキテクチャに応じて対話型マ�
 
 Campaign Workspace は、ニーズに応じて調整できます。
 
-[!DNL :arrow_upper_right:] Campaign Workspace の使用方法については、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja)を参照してください
+[!DNL :arrow_upper_right:] Campaign Workspace の使用方法については、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja)を参照してください{target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] リストをカスタマイズする方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ja)を参照してください
+[!DNL :arrow_upper_right:]   [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ja){target=&quot;_blank&quot;}のリストをカスタマイズする方法を説明します
 
 また、一部の機能は Web からアクセスできます。
 
@@ -117,7 +117,7 @@ Campaign v8 ユーザーインターフェイスは、次の言語で使用で�
 >
 >インスタンス作成後に言語を変更することはできません。
 
-言語の影響を受ける日付および時間の形式。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja#date-and-time)を参照してください。
+言語の影響を受ける日付および時間の形式。 詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja#date-and-time){target=&quot;_blank&quot;}を参照してください。
 
 **関連項目：**
 
