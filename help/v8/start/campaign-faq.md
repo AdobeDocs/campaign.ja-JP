@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 1f3af0a9ea29506296710024791511ceafddc824
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 82%
 
 ---
 
@@ -39,19 +39,19 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要な要素であり、条件とルールが常に変化し続けるという特徴があります。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
-   [!DNL :arrow_upper_right:] 詳しくは、[配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)のガイドを参照してください。
+   [!DNL :arrow_upper_right:] 配信のベストプラクテ [ィス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}については、このガイドを参照してください。
 
-   [!DNL :arrow_upper_right:] Campaign に配信品質を実装する方法については、[このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja)を参照してください
+   [!DNL :arrow_upper_right:] Campaignでの配信品質の実装方法につ [いては、このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. **配信がエラーなしで送信されたことを確認するにはどうすればよいですか？**
 
    Adobe Campaign には、E メール配信を監視するための一連のダッシュボードおよびツールが付属しています。
 
-   メッセージが送信されていることを確認し、実行を監視し、エラーが発生した場合にアクションを実行する方法については、[Campaign Classic v7 のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja)を参照してください。
+   [Campaign Classicv7のドキュメントを読み、メッセージが送信されていることを確認し、実行を監視し、エラーが発生した場合に対処する方法を確認します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja)。{target=&quot;_blank&quot;}
 
 1. **ワークフローの実行を監視できますか？**
 
-   [!DNL :arrow_upper_right:] Campaign ワークフローの実行を監視する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ja)を参照してください。
+   [!DNL :arrow_upper_right:] Campaign Classicv7ドキュメント [のCampaignワークフローの実行を監視する方法の理解](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ja){target=&quot;_blank&quot;}
 
 1. **Campaign v8 と互換性があるシステムやコンポーネントはどれですか？**
 
@@ -71,19 +71,19 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    インストールプログラムとクライアントコンソールは、Adobe ダウンロードセンターから入手できます。
 
-   Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)してください。
+   [ここをクリックして](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)、Experience Cloudソフトウェア配布にアクセスします。
 
-   Distribution Center については、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja)を参照してください。
+   配布センター[の詳細については、このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. **Campaign の専門家と連絡を取ることはできますか？**
 
-   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target=&quot;_blank&quot;}
 
 
 1. **問題をログに記録するにはどうすればよいですか？**
 
    ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-   新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminConsole.adobe.com/overview)に接続します。
+   この新しいシステムで問題をログに記録したり、チャットセッションを開始したりするには、[Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;}に接続します。
 
-   このシステムでは、各ユーザーに対して、正しい権限を持つアカウントが個別に必要です。Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=ja)
+   このシステムでは、各ユーザーに対して、正しい権限を持つアカウントが個別に必要です。Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=ja){target=&quot;_blank&quot;}
