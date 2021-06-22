@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 100%
+source-wordcount: '1214'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign には、該当するデータプライバシー保護法や受�
 
 * **ユーザーの同意とデータ保持**：ユーザーの同意を得る方法、ダブルオプトインの購読メカニズムを設定する方法、オプトアウトを容易にする方法、データ保持を設定する方法については、[Campaign Classic のプライバシーに関するドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent)を参照してください。
 
-* **プライバシーとデータ保護に関する規制**：EU 一般データ保護規則（GDPR）、カリフォルニア州消費者プライバシー法（CCPA）、その他の国際的なプライバシー要件、およびこれらの規制がご自身の企業や Adobe Campaign に与える影響については、[Campaign Classic のプライバシーに関するドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja)を参照してください。
+* **プライバシーとデータ保護規制**:欧州連合(EU)の一般データ保護規則(GDPR)、カリフォルニア州消費者プライバシー法(CCPA)およびその他の国際的なプライバシー要件、およびこれらの規制が組織およびAdobe Campaignに与える影響について詳しくは、 [Campaign Classicプライバシーに関するドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ### セキュリティ
 
@@ -52,7 +52,7 @@ Adobe Campaign のセキュリティガイドラインと原則については�
 
 Campaign にユーザーを手動で追加し、それらのユーザーを、役割の階層に合わせてグループに関連付けることができます。 その後、ユーザーはログインし、適切なデータと権限にアクセスできます。
 
-[!DNL :arrow_upper_right:] Adobe Campaign にユーザーを追加する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja#getting-started)を参照してください。
+[!DNL :arrow_upper_right:] Adobe Campaignにユーザーを追加する方法について [は、この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
 
 ### Campaign クライアントコンソールのインストール
 
@@ -78,17 +78,17 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
    キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。組み込みテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。 ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
 
-   [!DNL :arrow_upper_right:] [ メールテンプレートの詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja)
+   [!DNL :arrow_upper_right:] [ メールテンプレートの詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] キャンペーンテンプレートの使用方法については、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ja#orchestrating-campaigns)を参照してください
+   [!DNL :arrow_upper_right:]  [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ja#orchestrating-campaigns){target=&quot;_blank&quot;}でキャンペーンテンプレートの使用方法を説明します。
 
-   [!DNL :arrow_upper_right:] ワークフローテンプレートの設定方法については、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=ja#workflow-templates)を参照してください
+   [!DNL :arrow_upper_right:]  [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=ja#workflow-templates){target=&quot;_blank&quot;}でワークフローテンプレートを設定する方法を説明します。
 
 1. タイポロジルールの設定
 
    Campaign タイポロジルールを活用して、配信送信をフィルタリング、制御、監視します。例えば、疲労ルールでは、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。実装が完了すると、タイポロジルールが配信で参照されます。
 
-   [!DNL :arrow_upper_right:] [ タイポロジと疲労管理の詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=ja#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] タイポロジと疲労管理について詳しくは、 [Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=ja#orchestrating-campaigns){target=&quot;_blank&quot;}を参照してください
 
 1. Campaign の組み込みデータモデルの理解
 
