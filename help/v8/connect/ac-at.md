@@ -52,7 +52,7 @@ Adobe Target では、次の種類のデータを使用できます。
 1. [「エクスペリエンスのターゲット設定」アクティビティの作成 ](#creating-targeting-activity)
 1. [メッセージのプレビューと送信](#preview-send-email)
 
-### E メールへの動的なオファーの挿入 {#inserting-dynamic-offer}
+### メールへの動的なオファーの挿入 {#inserting-dynamic-offer}
 
 Adobe Campaign で、E メールのターゲットとコンテンツを定義します。Adobe Target からの動的な画像を挿入できます。
 
@@ -113,7 +113,7 @@ Adobe Target では、2 つのオーディエンスを作成する必要があ�
 
 1. 残りのオーディエンスについても同じ手順を繰り返します。
 
-### 「エクスペリエンスのターゲット設定」アクティビティの作成 {#creating-targeting-activity}
+### 「エクスペリエンスのターゲット設定」アクティビティの作成  {#creating-targeting-activity}
 
 Adobe Target では、「エクスペリエンスのターゲット設定」アクティビティを作成し、様々なエクスペリエンスを定義して、対応するオファーに関連付ける必要があります。
 
