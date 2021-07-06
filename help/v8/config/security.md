@@ -5,11 +5,11 @@ description: Campaign セキュリティのベストプラクティスの概要
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
-# Campaign セキュリティのベストプラクティス {#ac-security}
+# Campaign のセキュリティのベストプラクティス {#ac-security}
 
 アドビでは、デジタルエクスペリエンスのセキュリティを非常に重要視しています。 セキュリティ対策は、社内のソフトウェア開発と運用プロセスおよびツールに深く根付いており、インシデントを適切な方法で防止、検出、対応するために、部門の枠を超えたチームが厳しくフォローしています。
 
@@ -107,7 +107,7 @@ ht-degree: 99%
 * 各オペレーターのアクセス権が適切であることを確認する
 * 管理オペレーターの使用を避け、管理グループのオペレーターが多くなりすぎないようにする
 
-[!DNL :arrow_upper_right:] 詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=ja#webapp-operator)を参照してください。{target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:] 詳しくは、 [Adobe Campaign Classic v7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=ja#webapp-operator){target=&quot;_blank&quot;}を参照してください
 
 ## コーディングのガイドライン
 
@@ -119,4 +119,4 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-[!DNL :arrow_upper_right:] 詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic)を参照してください。{target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:] 詳しくは、 [Adobe Campaign Classic v7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target=&quot;_blank&quot;}を参照してください
