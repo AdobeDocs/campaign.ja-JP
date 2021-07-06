@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: Campaign v8 の新機能
-description: Campaign v8の主な機能の確認
+description: Campaign v8 の主な機能の確認
 feature: 概要
 role: Data Engineer
 level: Beginner
@@ -9,13 +9,13 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign v8 の新機能{#ac-gs-what-is-new}
+# Adobe Campaign v8 の新機能 {#ac-gs-what-is-new}
 
-Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されました。 クラウドデータベース技術である [[!DNL Snowflake]](https://www.snowflake.com/) を活用することで、Adobe Campaign はその速度と拡張性を劇的に改善、管理できる顧客プロファイルの数を大幅に増加、1 時間あたりの配信数やトランザクション数を大幅に向上させます。
+Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されました。クラウドデータベース技術である [[!DNL Snowflake]](https://www.snowflake.com/) を活用することで、Adobe Campaign はその速度と拡張性を劇的に改善、管理できる顧客プロファイルの数を大幅に増加、1 時間あたりの配信数やトランザクション数を大幅に向上させます。
 
 主な機能は次のとおりです。
 
@@ -43,9 +43,9 @@ Campaign v8 では、ターゲティングから最終的なレポートまで�
 * セグメント化とターゲティングのためのクエリのパフォーマンスと、データの取り込みと取り出しのパフォーマンスを拡張
 * 配信準備の拡大・縮小（数時間から数分まで）
 
-## シンプル化とパフォーマンス向上
+## 簡素化とパフォーマンスの向上
 
-Campaign v8では、**Full Federated Data Access**(FFDA)の概念を実現します。すべてのデータがクラウドデータベース上でリモートになりました。
+Campaign v8 では、**完全な Federated Data Access**（FDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。
 
 この新しいアーキテクチャにより、Campaign v8 ではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。 テーブルを作成して、データをコピーし、利用を開始するだけです。
 
@@ -55,7 +55,7 @@ Campaign v8では、**Full Federated Data Access**(FFDA)の概念を実現しま
 
 ## 統合されたエコシステム
 
-Campaignは、次のような強力なAdobeソリューションと統合できます。Adobe Analytics、AdobeJourney Orchestration、リアルタイムCDPなど。
+Campaign は、Adobe Analytics、Adobe Journey Orchestration、Real-Time CDP などの一連の強力な Adobe ソリューションと統合できます。
 
 また、ジャーニー AI を使用して、予測送信時間の最適化と予測エンゲージメントスコアを設定し、オープン率、クリック数、売上高を増やすこともできます。
 
