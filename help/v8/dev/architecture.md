@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: Campaign アーキテクチャの基本を学ぶ
-description: 環境と導入の基本を理解する
+description: 環境とデプロイメントの基本を確認する
 feature: 概要
 role: Data Engineer
 level: Beginner
@@ -9,7 +9,7 @@ exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign Cloud Service では、次の 3 種類の環境を利用できます。
 
 [!DNL :arrow_upper_right:] パッケージの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja)を参照してください
 
-## ミッドソーシングデプロイメント{#mid-sourcing-deployment}
+## ミッドソーシングへのデプロイメント{#mid-sourcing-deployment}
 
 サーバーとプロセス間の一般的な通信は、次のスキーマに従って実行されます。
 
@@ -73,10 +73,10 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 これらの機能を使用するため、Adobe Campaign のユーザーはコントロールインスタンスにログオンして、トランザクションメッセージテンプレートの作成、シードリストを使用したメッセージプレビューの生成、レポートの表示、実行インスタンスの監視をおこないます。
 
 * 単一の実行インスタンス
-AdobeがホストするMessage Center実行インスタンスとやり取りする際、外部システムは、提供されたアカウントのログインとパスワードを使用してセッションログオンメソッドに対するapi呼び出しをおこなうことで、最初にセッショントークン（デフォルトでは24時間で期限切れ）を取得できます。
+アドビがホストする Message Center 実行インスタンスとやり取りする場合、外部システムは、提供されたアカウントのログインとパスワードを使用して、セッションログオンメソッドへの API 呼び出しを行うことで、最初にセッショントークン（デフォルトでは 24 時間で期限切れ）を取得できます。
 次に、上記の呼び出しに応答して実行インスタンスが提供する sessionToken を使用して、外部アプリケーションは SOAP API 呼び出し（rtEvents または batchEvents）を行って通信を送信できます。各 SOAP 呼び出しにアカウントのログインとパスワードを含める必要はありません。
 
 * 複数の実行インスタンス
 ロードバランサーの背後に複数の実行インスタンスがある複数セル実行アーキテクチャでは、外部アプリケーションが呼び出すログオンメソッドはロードバランサーを経由します。そのため、トークンベースの認証は使用できません。 ユーザー／パスワードベースの認証が必要です。
 
-[!DNL :arrow_upper_right:] トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)を参照してください
+[!DNL :arrow_upper_right:] トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja#about-transactional-messaging-datamodel)を参照してください
