@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: Campaign をお使いのソリューションと接続する
-description: Campaignとソリューションを接続する方法を説明します
+description: Campaign とお使いのソリューションを接続する方法を学ぶ
 feature: 概要
 role: Data Engineer
 level: Beginner
@@ -9,7 +9,7 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Adobe Campaign にはいくつかのコネクタが付属しており、それ�
 キャンペーン v8 は以下と接続できます。
 
 
-* [Adobe Experience Cloud Real-Time CDP](../connect/ac-rtcdp.md)
+* [Adobe Experience Cloud のリアルタイム CDP](../connect/ac-rtcdp.md)
 * [Adobe Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=ja).
 
-   [ここ](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=ja)のエンドツーエンドの使用例を参照してください。
+   [こちら](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=ja)でエンドツーエンドの使用例を参照してください。
 
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
@@ -55,7 +55,7 @@ CRM コネクタを使用すると、すばやく簡単にデータを統合で�
 
 ## Federated Data Access（FDA）{#gs-fda}
 
-FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 つまたは複数の&#x200B;**外部データベース**&#x200B;に接続して、Campaign Cloud データベースのデータに影響を与えることなく、外部データベースに格納された情報を処理できます。
+FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign Cloud データベースのデータに影響を与えることなく、外部データベースに格納された情報を処理できます。
 
 [!DNL :bulb:] 詳しくは、[このページ](fda.md)を参照してください
 
