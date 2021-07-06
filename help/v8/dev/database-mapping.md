@@ -9,9 +9,9 @@ ht-degree: 100%
 
 ---
 
-# データベースのマッピング{#database-mapping}
+# データベースマッピング{#database-mapping}
 
-サンプルスキーマの SQL マッピングにより、次の XML ドキュメントが得られます。
+サンプルスキーマの SQL マッピングでは、次の XML ドキュメントを入手できます。
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
@@ -371,7 +371,7 @@ Adobe Campaign テーブルのプライマリキーは、データベースエ�
 
 ### 例 3 {#example-3}
 
-「cus:extension」スキーマテーブルと一対一の関係：
+「cus:extension」スキーマテーブルとの一対一の関係：
 
 ```
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
