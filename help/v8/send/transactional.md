@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
 source-wordcount: '1550'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Adobe Campaignが処理する予定のイベントタイプは、コントロールインスタンス上でAdobeごとに作成する必要があります。
+   Adobe Campaign で処理する予定のイベントのタイプは、Adobe がコントロールインスタンスで作成する必要があります。
 
    >[!NOTE]
    >
