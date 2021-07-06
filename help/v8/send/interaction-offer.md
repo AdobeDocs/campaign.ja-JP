@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
 この期間以外では、オファーは選択されません。 オファーカテゴリの実施要件となる日付も設定している場合は、より厳しい制限期間が適用されます。
 
-### ターゲットにフィルターを追加 {#filters-on-the-target}
+### ターゲットでのフィルターの追加 {#filters-on-the-target}
 
 オファーの「**[!UICONTROL 実施要件]**」タブで、オファーターゲットにフィルターを適用します。
 
@@ -50,11 +50,11 @@ ht-degree: 98%
 
 ![](assets/offer_eligibility_create_003.png)
 
-定義済みフィルターがすでにある場合は、ユーザーフィルターのリストから選択できます。[詳細情報](interaction-predefined-filters.md)
+定義済みフィルターがすでにある場合は、ユーザーフィルターのリストから選択できます。[詳細](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
-### オファーの重み付けの設定{#offer-weight}
+### オファーの重み付けの設定 {#offer-weight}
 
 ターゲットが複数のオファーの実施要件を満たす場合のために、エンジンにどのオファーを選択させるかの条件を設定するには、オファーに重み付けを 1 つまたは複数割り当てます。また、必要に応じてターゲットにフィルターを適用したり、重み付けを適用するオファースペースを制限したりすることもできます。エンジンは、重み付けの小さいオファーよりも大きいオファーを優先して選択します。
 
@@ -64,7 +64,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->オファーに割り当てた重み付けの値を、そのオファーが属するカテゴリのパラメーターに従って一時的に修正させることもできます。[詳細情報](interaction-offer-catalog.md#creating-offer-categories)
+>オファーに割り当てた重み付けの値を、そのオファーが属するカテゴリのパラメーターに従って一時的に修正させることもできます。[詳細](interaction-offer-catalog.md#creating-offer-categories)
 
 オファーの重み付けを作成するには、次の手順に従います。
 
@@ -140,13 +140,13 @@ ht-degree: 98%
 
    ![](assets/offer_content_create_002.png)
 
-   オファースペースの設定時に定義した必須フィールドを確認するには、「**[!UICONTROL コンテンツ定義]**」リンクをクリックして一覧を表示します。[詳細情報](interaction-offer-spaces.md)
+   オファースペースの設定時に定義した必須フィールドを確認するには、「**[!UICONTROL コンテンツ定義]**」リンクをクリックして一覧を表示します。[詳細](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
    この例では、オファーには、タイトル、画像、HTML コンテンツ、宛先 URL を含める必要があります。
 
-## オファーのプレビュー{#previewing-the-offer}
+## オファーのプレビュー {#previewing-the-offer}
 
 オファーコンテンツを設定すると、そのオファーが受信者にどのように表示されるかをプレビューできるようになります。
 
@@ -184,7 +184,7 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 [!DNL :arrow_upper_right:] 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ja#approving-offer-content)を参照してください。
 
-## オファー表示の管理{#offer-presentation}
+## オファープレゼンテーションの管理{#offer-presentation}
 
 Campaign では、プレゼンテーションルールを使用してオファーの提案のフローを制御できます。Campaign インタラクションに固有のこれらのルールを、「**タイポロジルール**」と呼びます。タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。ルールは環境内で参照されます。.
 
@@ -196,4 +196,4 @@ Campaign では、プレゼンテーションルールを使用してオファ�
 
 シミュレーションでは、オファーやプレゼンテーションルールにあらかじめ適用されているコンテキストと実施要件ルールが考慮されます。 シミュレーションであればターゲットの受信者に影響を与えないので、実際にターゲットにオファーをおこなったり、過剰や過少に勧誘したりしなくても、オファーの提案をさまざまなバージョンでテストして調整できます。
 
-[!DNL :arrow_upper_right:] オファーシミュレーションの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=en)を参照してください。
+[!DNL :arrow_upper_right:] オファーシミュレーションの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=ja)を参照してください。
