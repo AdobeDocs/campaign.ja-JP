@@ -5,7 +5,7 @@ description: Campaign スキーマの拡張方法を学ぶ
 source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 >[!CAUTION]
 >組み込みスキーマは直接変更できません。 組み込みのスキーマを適合させる必要がある場合は、スキーマを拡張します。
 
-[!DNL :bulb:] Campaign の組み込みテーブルとその連携について詳しくは、[このページ](datamodel.md)を参照してください。[このページ](create-schema.md)で新しいスキーマを作成する際の推奨事項も参照してください。
+[!DNL :bulb:]Campaign の組み込みテーブルとそのインタラクションについて詳しくは、[このページ](datamodel.md)を参照してください。[このページ](create-schema.md)で新しいスキーマを作成する際の推奨事項も参照してください。
 
 スキーマを拡張するには、次の手順に従います。
 
@@ -35,7 +35,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 
    ![](assets/extend-schema-select.png)
 
-   慣例に従い、拡張スキーマに組み込みスキーマと同じ名前を付け、カスタム名前空間を使用します。一部の名前空間は社内専用であることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)
+   慣例に従い、拡張スキーマに組み込みスキーマと同じ名前を付け、カスタム名前空間を使用します。一部の名前空間は社内専用であることに注意してください。 [詳細](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
@@ -43,7 +43,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 
    ![](assets/extend-schema-edit.png)
 
-   次の例では、**MembershipYear**&#x200B;属性を追加し、姓の長さの制限を設定し（この制限はデフォルトの名前に上書きします）、組み込みスキーマから生年月日を削除します。
+   以下の例では、**MembershipYear** 属性を追加、姓の長さの制限を設定し（この制限はデフォルト値を上書きします）、組み込みスキーマから生年月日を削除します。
 
    ![](assets/extend-schema-sample.png)
 
