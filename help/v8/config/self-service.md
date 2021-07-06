@@ -10,7 +10,7 @@ hide: true
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -45,14 +45,14 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 サブドメインとその証明書を監視できます。 詳細情報：
 * [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja){target=&quot;_blank&quot;}
 * [新しいサブドメイン](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja){target=&quot;_blank&quot;}の設定
-* [SSL証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target=&quot;_blank&quot;}
+* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target=&quot;_blank&quot;}
 
 ## インスタンス設定
 
 コントロールパネルでの Campaign インスタンス設定の管理方法を説明します。
-* [許可リストのIP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja) {target=&quot;_blank&quot;}
-* [URLアクセス許可](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja){target=&quot;_blank&quot;}
+* [許可リストの IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja) {target=&quot;_blank&quot;}
+* [URL の権限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja){target=&quot;_blank&quot;}
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja){target=&quot;_blank&quot;}
-* [GPGキー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja){target=&quot;_blank&quot;}
+* [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] このドキュメン [トのすべてのCampaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:]コントロールパネルのすべての機能については、 [このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;} を参照してください
