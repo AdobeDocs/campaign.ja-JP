@@ -8,11 +8,11 @@ level: Beginner
 source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# オファースペースの作成 {#creating-offer-spaces}
+# オファースペースの作成{#creating-offer-spaces}
 
 オファーカタログのコンテンツは、オファースペースで設定します。デフォルトでは、コンテンツに含めることができるフィールドは、**[!UICONTROL タイトル]**、**[!UICONTROL 宛先 URL]**、**[!UICONTROL 画像 URL]**、**[!UICONTROL HTML コンテンツ]**&#x200B;および&#x200B;**[!UICONTROL テキストコンテンツ]**&#x200B;です。フィールドの順序は、オファースペースで設定します。
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 
    これは、オファースペース上にオファー表示域を生成するために使用される関数です。使用可能な形式：HTML またはテキスト。
 
-   **注意**  - XML形式は、このバージョンの製品では使用できないインバウンドインタラクションに制限されます。[詳細情報](../start/capability-matrix.md#gs-unavailable-features)
+   **注意** - XML 形式は、このバージョンの製品では使用できないインバウンドインタラクションに制限されます。[詳細情報](../start/capability-matrix.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 >
 >ステータスの更新は、**非同期**&#x200B;プロセスです。 これは、1 時間ごとにトリガーされるトラッキングワークフローによって実行されます。
 
-### オファーステータスリスト{#status-list}
+### オファーのステータスのリスト {#status-list}
 
 利用可能なオファーのステータスは次のとおりです。
 
@@ -88,7 +88,7 @@ ht-degree: 97%
 >
 >「送信済み」ステータスの配信にオファーがリンクされると、そのオファーの提案のステータスは自動的に「提示済み」に変わります。
 
-### 提案作成時のオファーステータス {#configuring-the-status-when-the-proposition-is-created}
+### 提案作成時のオファーのステータス {#configuring-the-status-when-the-proposition-is-created}
 
 オファーの提案が&#x200B;**作成**&#x200B;されると、そのステータスが更新されます。
 
@@ -101,7 +101,7 @@ ht-degree: 97%
 
    ![](assets/offer_update_status_001.png)
 
-### 提案承認時のオファーのステータス{#configuring-the-status-when-the-proposition-is-accepted}
+### 提案承認時のオファーのステータス {#configuring-the-status-when-the-proposition-is-accepted}
 
 オファーの提案が&#x200B;**承認**&#x200B;されると、デフォルトで提供される値のいずれかを使用して、提案の新しいステータスを設定できます。受信者がオファーのリンクをクリックすると、更新が適用されます。
 
