@@ -178,7 +178,7 @@ ht-degree: 100%
 
 コンテナを使用して、ページ形式の一連のフィールドを使用した複雑なコントロールを作成します。
 
-### タブの追加（ノートブック）{#tab-container}
+### タブの追加（notebook） {#tab-container}
 
 **notebook** コンテナを使用して、タブからアクセス可能なページのデータの形式を設定します。
 
@@ -205,7 +205,7 @@ ht-degree: 100%
 
 `<container style="down" type="notebook">  ... </container>`
 
-### アイコンの追加（iconbox） {#icon-list}
+### アイコンの追加（iconbox）  {#icon-list}
 
 このコンテナを使用すると、表示するページを選択できる垂直アイコンバーを表示できます。
 
@@ -230,7 +230,7 @@ ht-degree: 100%
 
 画像は、**[!UICONTROL 管理／設定／画像]**&#x200B;ノードから入手できます。
 
-### コンテナを非表示（visibleGroup）{#visibility-container}
+### コンテナを非表示（visibleGroup） {#visibility-container}
 
 動的条件を使用して、一連のコントロールを非表示にできます。
 
@@ -253,7 +253,7 @@ ht-degree: 100%
 * **visibleIf=&quot;@gender >= 1 and @gender != 2&quot;**：数値の条件です。
 * **visibleIf=&quot;@boolean1=true or @boolean2=false&quot;**：ブール値フィールドをテストします。
 
-### 条件付き表示（enabledGroup）{#enabling-container}
+### 条件付き表示（enabledGroup） {#enabling-container}
 
 このコンテナを使用すると、動的条件に基づく一連のデータを有効または無効にできます。 コントロールを無効にすると、コントロールを編集できなくなります。 次の例は、「性別」フィールドの値からコントロールを有効にする方法を示しています。
 
@@ -324,7 +324,7 @@ ht-degree: 100%
 * **noZoom**：リンク上に編集フォームがない（値が「true」の場合）
 * **form**：ターゲット要素の編集フォームをオーバーロードします
 
-## リンクのリストの追加（非連結） {#list-of-links}
+## リンクのリストの追加（非連結）  {#list-of-links}
 
 コレクション要素（unbound = &quot;true&quot;）としてデータスキーマに入力されたリンクは、そのリンクに関連付けられたすべての要素を表示するためにリストを経由する必要があります。
 
@@ -406,7 +406,7 @@ ht-degree: 100%
 >
 >**xpathEditTarget** 属性を使用すると、入力したリンク上で選択した行を強制的に編集できます。
 
-### リストのプロパティ{#list-properties}
+### リストのプロパティ {#list-properties}
 
 * **noToolbar**：ツールバーを非表示にする（値「true」）
 * **toolbarCaption**：ツールバーのラベルをオーバーロードする
@@ -547,7 +547,7 @@ ht-degree: 100%
 
 ## 式フィールドの追加 {#expression-field}
 
-式フィールドは、式からフィールドを動的に更新します。 **`<input>`** タグは、更新するフィールドのパスを入力するための **xpath** 属性と、更新式を含む **expr** 属性とともに使用されます。
+式フィールドは、式からフィールドを動的に更新します。**`<input>`** タグは、更新するフィールドのパスを入力するための **xpath** 属性と、更新式を含む **expr** 属性とともに使用されます。
 
 ```
 <!-- Example: updating the boolean1 field from the value contained in the field with path /tmp/@flag -->
@@ -559,7 +559,7 @@ ht-degree: 100%
 
 入力フォームを実行すると、編集するエンティティのデータを含む XML ドキュメントが初期化されます。 このドキュメントはフォームのコンテキストを表し、ワークスペースとして使用できます。
 
-### コンテキストを更新 {#updating-the-context}
+### コンテキストの更新 {#updating-the-context}
 
 フォームのコンテキストを変更するには、`<set expr="<value>" xpath="<field>"/>` タグを使用します。`<field>` は出力先フィールド、`<value>` は更新式または値です。
 
