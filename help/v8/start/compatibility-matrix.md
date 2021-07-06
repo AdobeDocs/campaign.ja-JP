@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 92%
+source-wordcount: '277'
+ht-degree: 100%
 
 ---
 
@@ -52,8 +52,8 @@ ht-degree: 92%
 
 ### Mobile SDK{#MobileSDK}
 
-* **Android**  7.x、8.x、9.0（Campaign Android SDKビルド1.1.1を使用）。
-* **Apple iOS**  9 ～ 14（Campaign iOS SDKビルド1.0.26を使用）。32および64ビットバージョンと互換性。
+* **Android** 7.x、8.x、9.0、Campaign Android SDK ビルド 1.1.1
+* **Apple iOS** 9 ～ 14、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョン
 
 ### サポートしているブラウザー {#Browsers}
 
@@ -63,7 +63,7 @@ ht-degree: 92%
 
 * **Internet Explorer** 11
 
-## Campaign のバージョン確認方法 とビルド
+## Campaign のバージョン確認方法とビルド
 
 **ヘルプ／バージョン情報…**&#x200B;メニューを使用して、バージョンを確認します。
 
