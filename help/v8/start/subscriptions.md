@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    [!DNL :arrow_upper_right:] 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab)を参照してください{target=&quot;_blank&quot;}
 
-* 受信者のセットを、このサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。これらの受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション/サービスの購読選択…を選択します。]**.
+* 受信者のセットを、このサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。これらの受信者を購読登録するには、プロファイルを選択して右クリックします。 **[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
 
    ![](assets/subscribe-selection.png)
 
@@ -34,22 +34,22 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    ![](assets/subscribe-confirm.png)
 
-   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;}を参照してください
+   [!DNL :arrow_upper_right:]詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;} を参照してください
 
 
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
 
-   [!DNL :arrow_upper_right:] 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ja#step-5---additional-step-when-importing-recipients)を参照してください{target=&quot;_blank&quot;}
+   [!DNL :arrow_upper_right:]詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ja#step-5---additional-step-when-importing-recipients){target=&quot;_blank&quot;} を参照してください
 
-* 受信者がサービスに購読登録できる web フォームを使用します。
+* 受信者がサービスの購読を登録できる Web フォームを使用します。
 
    ![](assets/opt-in-webapp.png)
 
-   Campaignには、オプトインを管理するためのデフォルトのWebフォームが用意されています。 これをパーソナライズし、プロファイルデータをマッピングできます。
+   Campaign には、オプトインを管理するためのデフォルトの Web フォームが用意されています。 これをパーソナライズし、プロファイルデータをマッピングできます。
 
    ![](assets/web-app.png)
 
-   [!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=ja#create-a-subscription--form-with-double-opt-in){target=&quot;_blank&quot;}を参照してください
+   [!DNL :arrow_upper_right:]詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=ja#create-a-subscription--form-with-double-opt-in){target=&quot;_blank&quot;} を参照してください
 
 
 * **[!UICONTROL 購読サービス]**&#x200B;アクティビティを使用して.ターゲティングワークフローを作成します。
@@ -71,7 +71,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 * 情報サービスの期限を指定します。有効期間が終了すると、受信者は自動的に購読解除されます。 この期間は、サービスプロパティの「編集」タブで指定します。期間は日数で表します。
 * 母集団の購読解除ワークフローの設定.
 
-[!DNL :arrow_upper_right:] 詳しくは、 [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja#unsubscribing-a-recipient-from-a-service){target=&quot;_blank&quot;}を参照してください
+[!DNL :arrow_upper_right:]詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja#unsubscribing-a-recipient-from-a-service){target=&quot;_blank&quot;} を参照してください
 
 
 >[!CAUTION]
@@ -80,4 +80,4 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 配信受信者が友人にメッセージを転送できるようにすることもできます。 それには、関連リンクを配信に挿入します。 この共有プロセスと、該当するページへのアクセス数もトラッキングできます。
 
-[!DNL :arrow_upper_right:] この機能について詳しくは、 [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=ja#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;}を参照してください。
+[!DNL :arrow_upper_right:]この機能について詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=ja#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;} を参照してください。
