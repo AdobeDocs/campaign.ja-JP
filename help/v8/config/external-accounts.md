@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
    **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータの読み込みまたは書き出しをおこなうために使用できます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
-   * **[!UICONTROL AWS S3アカウントサーバー]**:サーバーのURL。次のように入力します。    ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
+   * **[!UICONTROL AWS S3 アカウントサーバー]**：サーバーの URL は、次のように入力する必要があります。   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
    * **[!UICONTROL AWS アクセスキー ID]**：AWS アクセスキー ID を見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
