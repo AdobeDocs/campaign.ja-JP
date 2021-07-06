@@ -68,7 +68,7 @@ Adobe Campaign インターフェイスでは、受信者、配信、キャン�
 [!DNL :arrow_upper_right:] Campaign での概要ページの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases—creating-overviews.html?lang=ja#creating-a-single-page-web-application)を参照してください。
 
 
-## リストのカスタマイズとフィルターの作成{#gs-lists-and-filters}
+## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}
 
 ### ダッシュボードからのデータへのアクセス
 
