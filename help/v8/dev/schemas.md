@@ -93,9 +93,9 @@ Adobe Campaign キャンペーンの組み込みテーブルとそのやり取�
 
 スキーマの識別キーは、名前空間と名前をコロンで区切った文字列です（例：**nms:recipient**）。
 
-## Adobe Campaign スキーマの作成または拡張 {#create-or-extend-schemas}
+## Campaign スキーマの作成または拡張 {#create-or-extend-schemas}
 
-Campaign の中核となるデータスキーマ（受信者テーブル nms:recipient など）にフィールドなどの要素を追加する場合は、スキーマの拡張を行う必要があります。
+Campaign の中核となるデータスキーマ（受信者テーブル nms:recipient など）にフィールドなどの要素を追加する場合は、スキーマを拡張する必要があります。
 
 [!DNL :bulb:] 詳しくは、[スキーマの拡張](extend-schema.md)を参照してください。
 
@@ -155,7 +155,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 [!DNL :bulb:] キーの詳細については、[この節](database-mapping.md#management-of-keys)を参照してください。
 
-## 属性（フィールド）{#attributes--fields-}
+## 属性（フィールド） {#attributes--fields-}
 
 属性を使用すると、データオブジェクトを構成するフィールドを定義できます。 スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。詳細については、[この節](create-schema.md)を参照してください。
 
