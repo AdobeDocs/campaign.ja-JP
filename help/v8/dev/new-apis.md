@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Campaign の新しい API{#gs-new-api}
 
-Campaign v8 には、Campaign ローカルデータベースと Cloud データベースの間でデータを管理する 2 つの新しい API が付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細情報](staging.md)
+Campaign v8 には、Campaign ローカルデータベースと Cloud データベースの間でデータを管理する 2 つの新しい API が付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細](staging.md)
 
 * 取得 API：**xtk.session.ingest**
 
