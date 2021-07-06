@@ -1,12 +1,12 @@
 ---
 product: Adobe Campaign
 title: 一般的なアーキテクチャ
-description: Campaignのアーキテクチャとコンポーネントの詳細を説明します
+description: Campaign のアーキテクチャとコンポーネントの詳細
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 
    リレーショナルデータベース技術を活用して、Adobe Campaign クラウドデータベースの顧客データベースコンテナに、すべての顧客情報、キャンペーンの構成要素、オファー、ワークフロー、キャンペーンの結果などを格納します。
 
-## パーソナライズされたクライアント環境{#client-env}
+## パーソナライズされたクライアント環境 {#client-env}
 
 アプリケーションには、リッチクライアント、シンクライアント、API 統合など、さまざまな方法でアクセスできます。
 
