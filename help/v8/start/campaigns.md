@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: マーケティングキャンペーンの基本を学ぶ
 description: マーケティングキャンペーンの基本を学ぶ
-feature: オーディエンス
+feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -62,9 +62,9 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    すべてのマーケティングキャンペーンは、主な設定と機能を定義したテンプレートに基づいています。特定の設定が定義されていないキャンペーンを作成するために、組み込みのテンプレートが用意されています。 キャンペーンテンプレートを作成および設定して、そのテンプレートからキャンペーンを作成することができます。
 
-   [!DNL :arrow_upper_right:] キャンペーンテンプレートの使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ja#orchestrating-campaigns)を参照してください。{target=&quot;_blank&quot;}
+   [!DNL :arrow_upper_right:]Campaign テンプレートの使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ja#orchestrating-campaigns){target=&quot;_blank&quot;}を参照してください。
 
-   [!DNL :arrow_upper_right:] 繰り返しキャンペーンの検出と [Campaign Classicv7ドキュメントでの設定方法](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
+   [!DNL :arrow_upper_right:] 繰り返しキャンペーンとその設定方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}を参照してください
 
 1. **オーディエンスの定義**
 
