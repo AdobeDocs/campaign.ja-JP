@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ![](assets/offer_environments_overview_002.png)
 
-配信責任者は、**[!UICONTROL ライブ]**&#x200B;環境のみを表示可能で、オファーを活用して配信できます。オファーマネージャーは、**[!UICONTROL デザイン]**&#x200B;環境を表示および使用したり、**[!UICONTROL ライブ]**&#x200B;環境を表示したりできます。[詳細情報](interaction-operators.md)
+配信責任者は、**[!UICONTROL ライブ]**&#x200B;環境のみを表示可能で、オファーを活用して配信できます。オファーマネージャーは、**[!UICONTROL デザイン]**&#x200B;環境を表示および使用したり、**[!UICONTROL ライブ]**&#x200B;環境を表示したりできます。[詳細](interaction-operators.md)
 
 ## オファー環境の作成 {#creating-an-offer-environment}
 
