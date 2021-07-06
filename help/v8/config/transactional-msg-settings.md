@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
 コントロールインスタンスまたは実行インスタンスのいずれかで **Message Center テクニカルワークフロー**&#x200B;が使用するスキーマで作成されたすべてのスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールが使用する別のインスタンスに複製する必要があります。
 
-[!DNL :arrow_upper_right:] Message Center のテクニカルワークフローに関する詳細は、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)を参照してください
+[!DNL :arrow_upper_right:] Message Center のテクニカルワークフローに関する詳細は、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=ja#technical-workflows)を参照してください
 
 ## トランザクションプッシュ通知の送信
 
