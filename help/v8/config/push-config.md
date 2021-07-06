@@ -1,7 +1,7 @@
 ---
 product: Adobe Campaign
 title: Campaign SDKとアプリの統合
-description: Campaign AndroidおよびiOS SDKをアプリに統合する方法について説明します
+description: Campaign AndroidおよびiOS SDKをアプリケーションに統合する方法について学ぶ
 version: v8
 feature: プッシュ
 role: Developer
@@ -11,22 +11,22 @@ hidefromtoc: true
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
 source-wordcount: '1291'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
-# Campaign SDKとアプリ{#integrate-campaign-sdk}の統合
+# Campaign SDKとアプリの統合 {#integrate-campaign-sdk}
 
-iOSおよびAndroid用のCampaign SDKを使用すると、モバイルアプリケーションをAdobe Campaignプラットフォームに容易に統合できます。
+iOS および Android 用の Campaign SDK を使用すると、モバイルアプリケーションを Adobe Campaign プラットフォームに簡単に統合できます。
 
-AndroidおよびiOSでサポートされているバージョン、およびCampaign v8用のCampaign SDK互換バージョンは、互換性マトリックス[に記載されています。](../start/compatibility-matrix.md#MobileSDK)
+Android および iOS でサポートされているバージョン、Campaign v8 用の Campaign SDK 互換バージョンは、[互換性マトリックス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
 
 >[!NOTE]
 >
->Campaign管理者は、[Experience Cloudソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)からCampaign SDKをダウンロードできます。 詳しくは、[Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=ja)にお問い合わせください。
+>Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=ja)にお問い合わせください。
 
 
-## 統合設定を宣言{#declaring-integration-settings}
+## 統合設定の宣言 {#declaring-integration-settings}
 
 Campaign SDK をモバイルアプリケーションに統合するには、担当の管理者がデベロッパーに次の情報を提供する必要があります。
 
@@ -34,7 +34,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
    >[!NOTE]
    >
-   >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#creating-ios-app)を参照してください。
+   >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。[Campaign Classic v7 のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja#creating-ios-app)を参照してください。
 
 * **トラッキング URL**：Adobe Campaign トラッキングサーバーのアドレスと一致します。
 * **マーケティング URL**：購読のコレクションを有効にします。
@@ -56,19 +56,19 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
    [nl setIntegrationKey:strIntegrationKey];
    ```
 
-## Android SDKの統合
+## Android SDK の統合
 
-Android SDKは、JAVAで記述されたjarライブラリです。 Android開発者は、次の方法でAdobe Campaignと統合できます。新しいデバイスの登録、ユーザーとのデバイスのリンク、行動の追跡などを行います。
+Android SDK は、JAVA で記述された jar ライブラリです。 Android 開発者は Adobe Campaign と統合し、新しいデバイスの登録、デバイスとユーザーのリンク、動作の追跡などをおこなうことができます。
 
-この節では、[Google Firebase Cloud Messaging(FCM)](https://firebase.google.com/docs/cloud-messaging/)を実装するAndroidアプリケーションでAndroid SDKを使用する方法について説明します。
+このセクションでは、[Google Firebase Cloud Messaging（FCM）](https://firebase.google.com/docs/cloud-messaging/)を実装する Android アプリケーションで Android SDK を使用する方法について説明します。
 
 >[!CAUTION]
 >
-> Campaign v8の場合は、Campaign Android SDK v1.1.1を使用します。
+> Campaign v8 の場合は、Campaign Android SDK v1.1.1 を使用します。
 
-### FCMの設定
+### FCM の設定
 
-Androidでプッシュ通知を使用するには、FCMアカウントを持っている、通知を受け取るようにAndroidアプリケーションを設定し、アプリケーションをFCMアカウントにリンクする必要があります。 詳しくは、[Googleドキュメント](https://firebase.google.com/docs/cloud-messaging/)を参照してください。
+Android でプッシュ通知を使用するには、FCM アカウントを持ち、通知を受信するように Android アプリケーションを設定し、アプリケーションを FCM アカウントにリンクする必要があります。詳しくは、[Google ドキュメント](https://firebase.google.com/docs/cloud-messaging/)を参照してください。
 
 AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメント](https://firebase.google.com/docs/android/setup)を参照してください。
 
@@ -76,17 +76,17 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 >[!NOTE]
 >
-> * google-services.jsonをダウンロードしてプロジェクトに追加することを忘れないでください。
+> * 必ず google-services.json をダウンロードしてプロジェクトに追加してください。
    >
    > 
-* `apiKey`は、このAndroidアプリケーションにリンクされているAdobe Campaignモバイルアプリケーションの`projectKey`セットと一致する必要があります。
+* `apiKey`は、この Android アプリケーションにリンクされている Adobe Campaign モバイルアプリケーションの `projectKey` セットと一致する必要があります。
 
 
-### Android SDKの設定
+### Android SDK の設定
 
-1. **SDKの初期化**
+1. **SDK の初期化**
 
-   Android SDKを使用する前に、初期化する必要があります。 SDKの初期化は、アクティビティの`onCreate`関数でおこなえます。
+   Android SDK を使用する前に、初期化する必要があります。 SDK の初期化は、アクティビティの `onCreate` 関数で実行できます。
 
    ```sql
    /** Called when the activity is first created. */
@@ -105,16 +105,16 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    }
    ```
 
-   `IntegrationKey`は、このAndroidアプリケーションにリンクされているAdobe Campaignモバイルアプリケーションの「IntegrationKey」セットと一致する必要があります。
+   `IntegrationKey` は、この Android アプリケーションにリンクされている Adobe Campaign モバイルアプリケーションの「IntegrationKey」セットと一致する必要があります。
 
-1. **モバイルデバイスをAdobe Campaignサーバーに登録する**
+1. **モバイルデバイスを Adobe Campaign サーバーに登録する**
 
    登録関数によってできることは次のとおりです。
 
    * 通知 ID またはプッシュ ID（iOS の deviceToken および Android の registrationID）を Adobe Campaign に送信します。
    * 紐付けキーまたは userKey（例えば E メールやアカウント番号）を復元します。
 
-   デバイスをAdobe Campaignに登録する必要があります。登録は、アプリの初期化時またはユーザー操作時におこないます。 `registerDevice`メソッドを使用すると、簡単に実行できます。
+   アプリケーションの初期化時またはユーザーの操作時に、デバイスを Adobe Campaign に登録する必要があります。`registerDevice` メソッドを使用すると、簡単に実行できます。
 
    ```sql
    public void onClick(View v)
@@ -184,9 +184,9 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    }
    ```
 
-1. **ユーザーのモバイルデバイストークンが変更されたらCampaignに通知する**
+1. **ユーザーのモバイルデバイストークンが変更されたら Campaign に通知する**
 
-   `onTokenRefresh`関数を呼び出してAdobe Campaignにユーザーのモバイルデバイストークンの変更を通知する際には、 `registerDevice`関数を使用することをお勧めします。
+   `onTokenRefresh` 関数を呼び出して Adobe Campaign にユーザーのモバイルデバイストークンの変更を通知する際には、`registerDevice` 関数を使用することをお勧めします。
 
    例：
 
@@ -223,9 +223,9 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    }
    ```
 
-1. **Firebase Messagingサービスの設定**
+1. **Firebase Messaging サービスの設定**
 
-   `onMessageReceived`コールバックで`FirebaseMessagingService`を拡張して、メッセージを受信します。 `onMessageReceived`コールバックが呼び出されたら、 `notifyReceive`関数を呼び出して、モバイルデバイスでの通知受信のトラッキングを有効にすることをお勧めします。 Adobe Campaignでは、この名前は&#x200B;**print**&#x200B;通知になります。この関数は、OSに通知の表示をリクエストする直前に呼び出す必要があります。
+   `onMessageReceived` コールバックで `FirebaseMessagingService` を拡張して、メッセージを受信します。`onMessageReceived` コールバックが呼び出されたら、`notifyReceive` 関数を呼び出して、モバイルデバイスでの通知受信のトラッキングを有効にすることをお勧めします。Adobe Campaign では、この名前は **print** 通知になります。この関数は、OS に通知の表示をリクエストする直前に呼び出す必要があります。
 
    YourApplicationMessagingService.java
 
@@ -327,9 +327,9 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    }
    ```
 
-1. **データメッセージの開封数の追跡**
+1. **データメッセージの開封数のトラック**
 
-   データメッセージの場合は、`notifyOpening`関数を使用して、ユーザーが通知をクリックして開いた時点を追跡できます。 通知アクティビティは、ユーザーが通知をクリックすると作成されます（`onMessageReceived`関数の呼び出し時に作成されます）。
+   データメッセージの場合は、`notifyOpening` 関数を使用して、ユーザーが通知をクリックして開いたタイミングを追跡できます。通知アクティビティは、ユーザーが通知をクリックすると作成されます（`onMessageReceived` 関数の呼び出し時に作成される）。
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -362,9 +362,9 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    }
    ```
 
-1. **通知メッセージの開封数およびクリック数の追跡**
+1. **通知メッセージの開封数およびクリック数のトラック**
 
-   通知メッセージの場合、開封/クリックの追跡は、次に示すように、アプリケーション起動アクティビティ内の`notifyOpening`関数を使用しておこなう必要があります。
+   通知メッセージの場合、開封／クリックの追跡は、次に示すように、アプリケーション起動アクティビティ内の `notifyOpening` 関数を使用しておこなう必要があります。
 
    ```sql
    /** Called when the activity is first created. */
@@ -422,12 +422,12 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    >[!NOTE]
    >
-   > ユーザーがターゲットアクティビティ内で`click_action`オプションを使用している場合は、同様の管理をおこなう必要があります。
+   > ユーザーがターゲットアクティビティ内で `click_action` オプションを使用している場合は、同様の管理をおこなう必要があります。
 
 
 1. **データメッセージのトラッキングの受信**
 
-   データメッセージの場合、トラッキングは`onMessageReceived`呼び出しレベルで受信されます。 &#39;notifyReceive&#39;関数を呼び出す必要があります。
+   データメッセージの場合、トラッキングは `onMessageReceived` 呼び出しレベルで受信されます。「notifyReceive」関数を呼び出す必要があります。
 
    YourApplicationMessagingService.java
 
@@ -495,12 +495,12 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 1. **通知メッセージのトラッキングの受信**
 
-   通知メッセージの場合、トラッキングの受信は次の2つのレベルで設定する必要があります。
+   通知メッセージの場合、トラッキングの受信は次の 2 つのレベルで設定する必要があります。
 
-   * `onMessageReceived` （アプリケーションがバックグラウンドにない場合）:実装は前の節で行われました
-   * `onCreate` 」アクティビティ(関数を使用する場合は「ターゲット設定」ア `click_action`クティビティ)に関連付けます。（アプリケーションがバックグラウンドになっていない）。
+   * `onMessageReceived` （アプリケーションがバックグラウンドにない場合）：実装は前の節で行われました
+   * 起動アクティビティ（または `click_action` 関数を使用する場合はターゲット設定アクティビティ）の `onCreate`（アプリケーションがバックグラウンドになっていない）。
 
-   開封数/クリック数の追跡と同時におこなう必要があります。
+   開封数／クリック数のトラッキングと同時におこなう必要があります。
 
    ```sql
    /** Called when the activity is first created. */
@@ -557,9 +557,9 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    ```
 
 
-## iOS SDKの統合
+## iOS SDK の統合
 
-1. **モバイルデバイスをAdobe Campaignサーバーに登録する**
+1. **モバイルデバイスを Adobe Campaign サーバーに登録する**
 
    登録関数によってできることは次のとおりです。
 
@@ -578,7 +578,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 1. **トラッキング関数の有効化**
 
-   トラッキング関数を使用すると、通知の有効化（オープン）を追跡できます。
+   トラッキング関数を使用すると、通知が有効化されたタイミング（開封数）を追跡できます。
 
    ```sql
    (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
@@ -591,7 +591,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    }
    ```
 
-1. **無音の通知のトラッキング**
+1. **サイレント通知のトラッキング**
 
    iOS では、無音の通知（表示されることなくモバイルアプリケーションに直接送信される通知またはデータ）を送信できます。Adobe Campaign では、このような通知をトラッキングすることができます。
 
@@ -633,7 +633,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 1. **登録ステータスの設定**
 
-   デリゲートプロトコルを使用すると、 **registerDevice**&#x200B;呼び出しの結果を取得し、これを使用して登録中にエラーが発生したかどうかを知ることができます。
+   このデリゲートプロトコルを使用すると、**registerDevice** 呼び出しの結果を取得し、これを使用して登録時にエラーが発生したかどうかを知ることができます。
 
    **registerDeviceStatus** プロトタイプ：
 
@@ -795,11 +795,11 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 ## 変数 {#variables}
 
-変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaignコンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
+変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign コンソールの専用モバイルアプリケーションサービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
 
-[!DNL :arrow_upper_right:] 詳しくは、モバイルア **プリのCampaign Classicv7ドキ** ュメントを参照してください。 [iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html) {target=&quot;_blank&quot;}の設定手順とAndoid [](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja) {target=&quot;_blank&quot;}の設定手順。
+[!DNL :arrow_upper_right:] 詳しくは、モバイルアプリの **Campaign Classic v7 ドキュメント**：[iOS の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target=&quot;_blank&quot;}と [Andoid の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-以下は、モバイルアプリケーションが通知で追加された変数を収集できるコードの例です。 この例では、「VAR」変数を使用しています。
+次に、通知で追加された変数をモバイルアプリケーションで収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
 
 * **Android**：
 
