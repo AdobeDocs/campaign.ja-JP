@@ -18,7 +18,7 @@ ht-degree: 100%
 
 アウトバウンドの通信チャネルを使用したオファーの提示は、ダイレクトメール、メールまたはモバイル配信を使用しておこなわれます。 トランザクションメッセージ（Message Center）で単一モードを使用することもできます。
 
-## 配信へのオファーの挿入{#offer-into-a-delivery}
+## 配信へのオファーの挿入 {#offer-into-a-delivery}
 
 オファーの提案を配信に挿入するには、次の手順に従います。
 
@@ -40,11 +40,11 @@ ht-degree: 100%
 
    ![](assets/offer_delivery_005.png)
 
-1. 必要に応じて、「**[!UICONTROL 不適格な受信者を除外]**」オプションを選択します。[詳細情報](#parameters-for-calling-offer-engine)
+1. 必要に応じて、「**[!UICONTROL 不適格な受信者を除外]**」オプションを選択します。[詳細](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. 必要に応じて「**[!UICONTROL 選択されているオファーがない場合は表示しない]**」オプションを選択します。[詳細情報](#parameters-for-calling-offer-engine)
+1. 必要に応じて「**[!UICONTROL 選択されているオファーがない場合は表示しない]**」オプションを選択します。[詳細](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -57,7 +57,7 @@ ht-degree: 100%
    ![](assets/offer_delivery_010.png)
 
 
-### オファーエンジンのパラメーター{#parameters-for-calling-offer-engine}
+### オファーエンジンのパラメーター {#parameters-for-calling-offer-engine}
 
 * **[!UICONTROL スペース]**：オファーエンジンを有効化するために選択する必要がある、オファー環境のスペース。
 * **[!UICONTROL カテゴリ]**：オファーが分類される特定のフォルダー。カテゴリが指定されてない場合、テーマが選択されていない限り、その環境に含まれるすべてのオファーがオファーエンジンによって考慮されます。
@@ -89,7 +89,7 @@ ht-degree: 100%
 * オファーまたはオファーエンジンの呼び出しを指定する。
 * オファーへのリンクを参照する。
 
-#### オファーまたはオファーエンジン呼び出しの指定 {#specifying-an-offer-or-a-call-to-the-offer-engine}
+#### オファーまたはオファーエンジンに対する呼び出しの指定 {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
 **クエリ**&#x200B;アクティビティを設定した後：
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
       ![](assets/int_enrichment_offer4.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#offer-into-a-delivery)
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -132,13 +132,13 @@ ht-degree: 100%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#offer-into-a-delivery)
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細](#offer-into-a-delivery)
 
    >[!NOTE]
    >
    >プレビューできる提案の数は、配信で実行した設定で決まります。
 
-#### オファーのランク付けと重み付けの格納 {#storing-offer-rankings-and-weights}
+#### オファーのランク付けと重み付けの保存 {#storing-offer-rankings-and-weights}
 
 デフォルトでは、オファーの配信に&#x200B;**エンリッチメント**&#x200B;アクティビティを使用しても、オファーのランク付けと重み付けが提案テーブルに格納されません。
 
@@ -148,7 +148,7 @@ ht-degree: 100%
 
 次の方法でこの情報を保存することができます。
 
-1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。[詳細情報](#specifying-an-offer-or-a-call-to-the-offer-engine)
+1. エンリッチメントアクティビティ内で、クエリの後、配信アクティビティの前に、オファーエンジンの呼び出しを作成します。[詳細](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -163,7 +163,7 @@ ht-degree: 100%
 
 ### オファーエンジン {#offer-engine}
 
-「**[!UICONTROL オファーエンジン]**」アクティビティも、配信の前にオファーエンジンの呼び出しを指定できます。
+「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンに対する呼び出しを指定できます。
 
 [!DNL :arrow_upper_right:] **オファーエンジン**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html?lang=ja)を参照してください。
 
@@ -182,7 +182,7 @@ ht-degree: 100%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#inserting-an-offer-proposition-into-a-delivery)
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細](#inserting-an-offer-proposition-into-a-delivery)
 
 ### オファー（セル別） {#offers-by-cell}
 
