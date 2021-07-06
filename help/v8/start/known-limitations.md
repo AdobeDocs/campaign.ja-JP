@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: cf00895f988514fc029d0060d7404bdef0c8b30e
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,6 +26,6 @@ Adobe Campaign v8 には、次の制限があります。
 * 使用できない機能や削除された機能の中には、ユーザーインターフェイスに表示されたままになっているものもあります。
 * 購読（オプトイン）と購読解除（オプトアウト）のメカニズム、およびモバイル登録は非同期のプロセスです。 リクエストは、特定のテクニカルワークフローを通じて 1 時間ごとに処理されます。 [詳細情報](../config/replication.md#tech-wf)
 * 重複は、エンドユーザーが手動で処理する必要があります。 [詳細情報](../dev/keys.md)
-* Adobe Campaign v8は、APIおよびWebアプリケーションでの拡張スループットをサポートしていません。 具体的なニーズがある場合は、Adobeに問い合わせてガイダンスを得てください。
+* Adobe Campaign v8 は、API および Web アプリケーションでの拡張スループットをサポートしていません。 具体的なニーズがある場合は、Adobe にお問い合わせください。
 
 
