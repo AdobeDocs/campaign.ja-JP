@@ -8,7 +8,7 @@ level: Beginner
 source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ Campaign では、メールをオーディエンスに送信する前にテス�
 
 ## メールの監視
 
-送信後、配信ダッシュボードで配信ステータスを確認し、配信ログとレポートにアクセスして、メッセージが正しく送信されたことを確認します。
+送信されたメッセージは、配信ダッシュボードで配信のステータスを確認し、配信ログとレポートで正しく送信されたことを確認します。
 
-[!DNL :arrow_upper_right:] 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja)を参照してください
+[!DNL :arrow_upper_right:] [詳細は、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja)
 
