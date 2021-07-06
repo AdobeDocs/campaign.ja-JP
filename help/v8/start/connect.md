@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: Campaign v8 への接続
 description: Campaign v8 への接続方法を学ぶ
-feature: オーディエンス
+feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -118,13 +118,13 @@ Adobe Campaign のプラットフォームにアクセスするユーザーを�
 
 [!DNL :arrow_upper_right:] Web アクセスの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja#console-and-web-access)を参照してください{target=&quot;_blank&quot;}
 
-Webアクセスには、コンソールに似たインターフェイスが用意されていますが、機能が少なくなります。
+web アクセス用のインターフェイスはコンソールに似ていますが、機能が限定されています。
 
-例えば、特定のオペレーターの場合、キャンペーンはコンソールに次のオプションと共に表示されます。
+例えば、特定のオペレーターの場合、あるキャンペーンをコンソールで確認すると、次のようなオプションが表示されます。 
 
 ![](assets/campaign-from-console.png)
 
-一方、Web アクセスで見たときには、次のようなオプションが表示されます。
+一方、Web アクセスで確認すると、次のようなオプションが表示されます。
 
 ![](assets/campaign-from-web.png)
 
