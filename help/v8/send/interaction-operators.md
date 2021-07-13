@@ -5,10 +5,10 @@ description: オファー管理オペレーターの作成
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 1. 新しいオペレーターを作成します。
 
-   [!DNL :arrow_upper_right:] Campaignでオペレーターを作成する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
+   ↗️ Campaignでオペレーターを作成する手順について詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
 
 1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
 
@@ -48,7 +48,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 1. 新しいオペレーターを作成します。
 
-   [!DNL :arrow_upper_right:] Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
+   ↗️ Campaignでオペレーターを作成する手順について詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
 
 1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信マネージャー]**」グループを選択します。
 
