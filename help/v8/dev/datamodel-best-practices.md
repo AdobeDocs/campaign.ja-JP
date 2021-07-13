@@ -2,10 +2,10 @@
 product: Adobe Campaign
 title: データモデルのベストプラクティス
 description: Adobe Campaign データモデル拡張のベストプラクティスを説明します
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '2688'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -17,9 +17,9 @@ Adobe Campaign システムは非常に柔軟性が高く、初期の実装を�
 
 Campaign の組み込みテーブルとそれらの相互関係について詳しくは、[この](datamodel.md)を参照してください。
 
-[!DNL :bulb:] キャンペーンスキーマの概要については、[この節](schemas.md)を参照してください。
+??Campaignスキーマの概要については、[この節](schemas.md)を参照してください。
 
-[!DNL :bulb:]Adobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法については、[このページ](extend-schema.md)を参照してください。
+??Adobe Campaignデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法については、このページ](extend-schema.md)を参照してください。[
 
 ## データモデルアーキテクチャ {#data-model-architecture}
 
@@ -175,7 +175,7 @@ Adobe Campaign 内のレコードの必要性を最小限に抑えるには、�
 
 「deleteStatus」属性はスキーマで宣言できます。 レコードを削除済みとマークしてから、後でクリーンアップタスクで削除する方が効率的です。
 
-[!DNL :speech_balloon:] Managed Cloud Services のユーザーとしてリテンションの詳細を確認する場合や、カスタムテーブルにリテンションを設定する必要がある場合は、アドビのコンサルタントまたは技術管理者にお問い合わせください。
+??管理対象Cloud Servicesのユーザーは、Adobeコンサルタントまたは技術管理者に連絡して、リテンションの詳細を確認したり、カスタムテーブルのリテンションを設定する必要がある場合は、
 
 ## パフォーマンス {#performance}
 
