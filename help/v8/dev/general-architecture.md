@@ -3,10 +3,10 @@ product: Adobe Campaign
 title: 一般的なアーキテクチャ
 description: Campaign のアーキテクチャとコンポーネントの詳細
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,15 +32,15 @@ ht-degree: 100%
 
 * **クライアントコンソール**：アプリケーションの主要なユーザーインターフェイスは、（Windows 上の）ネイティブアプリケーションであり、標準のインターネットプロトコル（SOAP、HTTP など）で Adobe Campaign アプリケーションサーバーと通信します。Adobe Campaign クライアントコンソールは、生産性を向上する使いやすさを備え、帯域幅をほとんど使用せず（ローカルキャッシュを使用）、デプロイメントが容易になるよう設計されています。 このコンソールはインターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク構成は不要です。
 
-   [!DNL :bulb:] [Campaign クライアントコンソールの詳細情報細](../start/connect.md)。
+   ??[Campaignクライアントコンソール](../start/connect.md)の詳細をご覧ください。
 
 * **Web アクセス**：アプリケーションの一部の機能（レポートモジュール、配信の承認段階、インスタンスの監視など）へは、HTML ユーザーインターフェイスを使用してシンプルな web ブラウザーからアクセスできます。
 
-   [!DNL :bulb:] [Campaign Web アクセスの詳細情報](../start/connect.md)。
+   ??[Campaign Webアクセスの詳細](../start/connect.md)。
 
 * **Campaign API**：SOAP プロトコルで公開されている Web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。
 
-   [!DNL :bulb:] [Campaign API の詳細情報](../dev/api.md)。
+   ??[Campaign APIの詳細](../dev/api.md)をご覧ください。
 
 ## 開発環境 {#dev-env}
 
