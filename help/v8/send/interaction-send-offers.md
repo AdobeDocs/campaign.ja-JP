@@ -5,10 +5,10 @@ description: オファーカタログの作成方法を学ぶ
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1351'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 **エンリッチメント**&#x200B;アクティビティを使用すると、配信の受信者へのオファーに、オファーやリンクを追加できます。
 
-[!DNL :arrow_upper_right:] エンリッチメントアクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html?lang=ja)を参照してください
+↗️ エンリッチメントアクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html?lang=ja)を参照してください
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
@@ -165,7 +165,7 @@ ht-degree: 100%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンに対する呼び出しを指定できます。
 
-[!DNL :arrow_upper_right:] **オファーエンジン**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html?lang=ja)を参照してください。
+↗️ **オファーエンジン**&#x200B;アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html?lang=ja)を参照してください。
 
 このアクティビティは、**エンリッチメント**&#x200B;アクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信前にエンジンで計算したオファーでインバウンド母集団のデータを強化します。
 
@@ -188,7 +188,7 @@ ht-degree: 100%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-[!DNL :arrow_upper_right:] **セル別オファー**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html?lang=ja)を参照してください。
+↗️ **セル別のオファー**&#x200B;アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html?lang=ja)を参照してください。
 
 それには、次の手順に従います。
 
