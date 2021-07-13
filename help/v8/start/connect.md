@@ -6,10 +6,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 87%
+source-wordcount: '713'
+ht-degree: 85%
 
 ---
 
@@ -75,7 +75,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 
-1. その後、Campaignにログインできます。
+1. その後、[Adobe ID](#connect-ims)を使用してCampaignにログインできます。
 
    ![](assets/adobeID.png)
 
@@ -99,11 +99,9 @@ AdobeIMSについて詳しくは、[このページ](https://helpx.adobe.com/jp/
 
 ## Web アクセス{#web-access}
 
-アプリケーションの特定の機能（Campaign ダッシュボード、キューブレポート、インスタンス監視など）へは、HTML ユーザーインターフェイスを使用して、シンプルな Web ブラウザーからアクセスできます。
+HTMLユーザーインターフェイスを使用して、Webブラウザーを介してアプリケーションの特定の部分にアクセスできます。レポート、配信の承認、インスタンスの監視など。
 
-↗️ [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=ja#console-and-web-access){target=&quot;_blank&quot;}でのWebアクセスの詳細
-
-web アクセス用のインターフェイスはコンソールに似ていますが、機能が限定されています。
+Web アクセス用のインターフェイスはコンソールに似ていますが、機能が限定されています。
 
 例えば、特定のオペレーターの場合、あるキャンペーンをコンソールで確認すると、次のようなオプションが表示されます。 
 
@@ -115,4 +113,4 @@ web アクセス用のインターフェイスはコンソールに似ていま�
 
 Web アクセスは、検証プロセスでも使用します。オペレーターは、承認依頼のメールをクリックし、web ブラウザーで Campaign に接続し、配信コンテンツや予算の検証や却下をおこなうことができます。
 
-↗️[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ja#orchestrating-campaigns){target=&quot;_blank&quot;}で承認を設定および管理する方法について説明します
+WebからCampaignインスタンスにアクセスするためのURLは次のとおりです。 `https://<your adobe campaign server>:<port number>/view/home`.
