@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1249'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -34,34 +34,34 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 ワークフローのユーザーインターフェイスと実行について詳しくは、Campaign Classic v7 のドキュメントを参照してください。
 
-[!DNL :arrow_upper_right:]  [ワークフローの概要](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;}
+↗️  [ワークフローの概要](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;}
 * ワークフローアクティビティ：
    * [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html?lang=ja){target=&quot;_blank&quot;}：クエリー、リスト読み込み、エンリッチメント、和集合など
    * [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html?lang=ja){target=&quot;_blank&quot;}：スケジューラー、分岐、アラート、外部シグナルなど
    * [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：クロスチャネル配信、JavaScript コード、CRM アクティビティ、集計の更新など
    * [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}：ファイル転送、web ダウンロードなど
-      [!DNL :arrow_upper_right:]  [マーケティングキャンペーンワークフローでのオーディエンスの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:]  [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja){target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:] [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}
-      [!DNL :arrow_upper_right:] [ワークフロー監視の実行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=ja){target=&quot;_blank&quot;}
+↗️ [マーケティングキャンペーンワークフローでオーディエンスを構築](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+↗️ [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja){target=&quot;_blank&quot;}
+↗️ [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}
+↗️ [ワークフローの実行を監視](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=ja){target=&quot;_blank&quot;}
 
 
 ## 繰り返しキャンペーンの設定
 
 繰り返しワークフローをデザインし、ワークフローを実行するたびに新しい配信インスタンスを作成します。 たとえば、ワークフローが週に 1 回実行されるよう設計されている場合、1 年後には 52 件の配信が存在することになります。つまり、ログは各配信インスタンスで区切られます。
 
-[!DNL :arrow_upper_right:] 繰り返しキャンペーンの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}を参照してください。
+↗️ [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}で繰り返しキャンペーンを作成する方法を説明します
 
 
 ## トリガーイベントの活用
 
 Campaign トランザクションメッセージを使用すると、情報システムからトリガーされるイベントに基づいて、メッセージを自動的に生成できます。 トランザクションメッセージの例としては、請求書送付、注文確認、配送確認、パスワード変更、商品の在庫切れ通知、取引明細書送付、Web サイトのアカウント作成などがあります。 これらのメッセージは、個別に送信することも、メール、SMS、またはプッシュ通知を介してバッチで送信することもできます。
 
-[!DNL :bulb:]トランザクションメッセージ機能について詳しくは、[この節](../send/transactional.md)を参照してください。
+??トランザクションメッセージ機能について詳しくは、[この節](../send/transactional.md)を参照してください。
 
 Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクションを把握し、パーソナライズされたメッセージをほぼリアルタイムで送信できます。
 
-[!DNL :bulb:]Campaign を他のソリューションと統合する方法については、[この節](../start/connect.md)を参照してください
+??[この節](../start/connect.md)でCampaignを他のソリューションと統合する方法を説明します。
 
 
 ## ワークフローのエンドツーエンドのユースケース{#end-to-end-uc}
