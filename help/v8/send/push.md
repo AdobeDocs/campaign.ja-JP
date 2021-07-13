@@ -5,10 +5,10 @@ description: Campaign におけるプッシュ通知の概要
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: 3aed82c4c054b45b7e1d90082dee6af7ba02ea69
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作を実�
 1. このサービスに、iOS バージョンと Android バージョンのアプリケーションを追加します。
 1. iOS と Android の両方用に配信を作成します。
 
-[!DNL :arrow_upper_right:] モバイルアプリの概要については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}
+↗️ [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=ja){target=&quot;_blank&quot;}でモバイルアプリの使用を開始する方法を説明します
 
 ## Adobe SDK との統合
 
@@ -33,21 +33,21 @@ Campaign SDK を使用すると、ご利用のモバイルアプリケーショ�
 
 互換性のある SDK バージョンは [Campaign 互換性マトリクス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
 
-[!DNL :bulb:]Campaign Android および iOS SDK をアプリと統合する方法については、[この節](../config/push-config.md)を参照してください
+??[この節](../config/push-config.md)でCampaign AndroidおよびiOS SDKをアプリに統合する方法を説明します。
 
 ### Launch での Campaign 拡張機能の設定
 
 Campaign Classic の拡張機能を利用すると、Adobe Experience Platform Launch SDK と Campaign を統合できます。
 
-[!DNL :arrow_upper_right:] 詳しくは、[Adobe Mobile SDK ドキュメント](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic)を参照してください{target=&quot;_blank&quot;}
+↗️詳しくは、[AdobeモバイルSDKドキュメント](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target=&quot;_blank&quot;}を参照してください
 
 ## Campaign でのアプリ設定
 
 iOS アプリと Android アプリの設定は、Adobe Campaign で定義する必要があります。
 
-[!DNL :arrow_upper_right:] 詳しい iOS 版構成ガイドについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja#sending-messages)を参照してください{target=&quot;_blank&quot;}
+↗️ iOSの設定ガイドラインについて詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja#sending-messages){target=&quot;_blank&quot;}を参照してください
 
-[!DNL :arrow_upper_right:] 詳しい Android 版構成ガイドについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja#sending-messages){target=&quot;_blank&quot;}を参照してください
+↗️ Androidの設定ガイドラインについて詳しくは、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja#sending-messages){target=&quot;_blank&quot;}を参照してください
 
 ## 最初のプッシュ通知の作成
 
@@ -61,7 +61,7 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 ![](assets/delivery_step_1.png)
 
-[!DNL :arrow_upper_right:] 配信の作成方法に関する全般的な情報については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages){target=&quot;_blank&quot;}を参照してください。
+↗️配信の作成方法に関する全体的な情報については、[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages){target=&quot;_blank&quot;}を参照してください。
 
 ### iOS で通知を送信する {#send-notifications-on-ios}
 
@@ -129,15 +129,15 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 配達確認や最終配信を送信するには、メール配信と同じプロセスを使用します。詳しくは、次の Campaign Classic v7 ドキュメントを参照してください：
 
 * 配信の検証と配達確認の送信
-   [!DNL :arrow_upper_right:] [配信を検証するための主な手順を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}
+↗️ [配信を検証するための主な手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}を説明します。
 
 * 配信の確認と送信
-   [!DNL :arrow_upper_right:] [配信を送信するための主な手順を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja){target=&quot;_blank&quot;}
+↗️ [配信を送信するための主な手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja){target=&quot;_blank&quot;}を学習します
 
 メッセージを送信した後は、配信を監視およびトラッキングできます。詳しくは、次の Campaign Classic v7 ドキュメントを参照してください：
 
 * プッシュ通知の強制隔離
-   [!DNL :arrow_upper_right:] [プッシュ通知の強制隔離の詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=ja#push-notification-quarantines){target=&quot;_blank&quot;}
+↗️ [プッシュ通知の強制隔離の詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=ja#push-notification-quarantines){target=&quot;_blank&quot;}
 
 * トラブルシューティング
-   [!DNL :arrow_upper_right:] [プッシュ通知のトラブルシューティング方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=ja){target=&quot;_blank&quot;}
+↗️ [プッシュ通知のトラブルシューティング方法を説明します。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=ja){target=&quot;_blank&quot;}
