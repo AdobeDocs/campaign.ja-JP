@@ -6,10 +6,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 136209f05cf302a1e73a2aa18c051260edeb0762
+source-git-commit: a468597714e3974c85e4ada3b6c2ee405717106a
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 85%
+source-wordcount: '702'
+ht-degree: 84%
 
 ---
 
@@ -51,7 +51,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
    例えば、[`https://<machine>.<domain>.com`](https://myserver.adobe.com) タイプの URL を使用できます。
 
-1. Adobe Identity Management System（IMS）が組織に対して設定されている場合は、「**[!UICONTROL Adobe ID で接続]**」オプションをオンにします。
+1. 「**[!UICONTROL Adobe IDに接続]**」オプションをオンにします。
 
 1. 「**[!UICONTROL OK]**」をクリックして設定を保存します。
 
