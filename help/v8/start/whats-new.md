@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,5 +59,5 @@ Campaign は、Adobe Analytics、Adobe Journey Orchestration、Real-Time CDP な
 
 また、ジャーニー AI を使用して、予測送信時間の最適化と予測エンゲージメントスコアを設定し、オープン率、クリック数、売上高を増やすこともできます。
 
-[!DNL :bulb:] Campaign 統合の詳細については、[こちら](../connect/integration.md)を参照してください。
+??[Campaign統合の詳細](../connect/integration.md)
 
