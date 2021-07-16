@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
+source-git-commit: 610a818c1f5d8a43ea55659a3c5b46676405415d
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 96%
 
 ---
 
@@ -23,39 +23,39 @@ ht-degree: 100%
 >* サードパーティ製のシステムやツールの特定のバージョンは、サービス終了（EOL）になると Adobe Campaign との互換性がなくなり、この互換性マトリックスから削除されます。問題を回避するため、互換性マトリックスに記載されているサポート対象バージョンのシステムをご使用ください。
 
 
-## 互換性のあるシステム
+## クライアントコンソール{#ClientConsoleoperatingsystems}
 
-### クライアントコンソール{#ClientConsoleoperatingsystems}
+>[!CAUTION]
+>
+>  Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
 
-:warning: Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。
-
-**オペレーティングシステム**
+### オペレーティングシステム
 
 * **Microsoft Windows Server** 2016、2012
 * **Microsoft Windows** 8、10 (日本語インスタンスの場合に推奨))
 
-**ブラウザー**
+### ブラウザー
 
 **Microsoft Internet Explorer** 11
 
-### CRM コネクタ{#CRMconnectors}
+## CRM コネクタ{#CRMconnectors}
 
 * **Salesforce** コネクタ API バージョン 49
 * **Microsoft Dynamics** コネクタ、Web API：Dynamics 365 オンプレミスおよびオンライン
 
-### Federated Data Access（FDA）{#FederatedDataAccessFDA}
+## Federated Data Access（FDA）{#FederatedDataAccessFDA}
 
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
 
-### Mobile SDK{#MobileSDK}
+## Mobile SDK{#MobileSDK}
 
 * **Android** 7.x、8.x、9.0、Campaign Android SDK ビルド 1.1.1
 * **Apple iOS** 9 ～ 14、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョン
 
-### サポートしているブラウザー {#Browsers}
+## Web アクセス
 
 次のブラウザーは Campaign for Web Access と互換性があります。
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ## Campaign のバージョン確認方法とビルド
 
-**ヘルプ／バージョン情報…**&#x200B;メニューを使用して、バージョンを確認します。
+**ヘルプ/バージョン情報…**&#x200B;メニューにアクセスして、バージョンを確認します。
 
 ![](assets/ac-version.png)
 
