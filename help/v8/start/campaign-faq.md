@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 89%
+source-wordcount: '663'
+ht-degree: 87%
 
 ---
 
@@ -61,7 +61,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 
-   ??管理対象Cloud Servicesのユーザーとして、[Adobe](../start/campaign-faq.md#support)に連絡し、サブドメインをAdobeにデリゲートします。
+   ??管理対象Cloud Servicesのユーザーは、Adobeに連絡してサブドメインをAdobeにデリゲートします。
 
 1. **Campaign Classic v7 ユーザーは、Campaign v8 に移行できますか？**
 
@@ -71,7 +71,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    インストールプログラムとクライアントコンソールは、Adobe ダウンロードセンターから入手できます。
 
-   Experience Cloud ソフトウェア配布にアクセスするには、[ここをクリック](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html){target=&quot;_blank&quot;}します。
+   管理者ユーザーは、Adobe[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html) {target=&quot;_blank&quot;}にアクセスして、Adobe Campaignをダウンロードします。
 
    Distribution Center については、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
