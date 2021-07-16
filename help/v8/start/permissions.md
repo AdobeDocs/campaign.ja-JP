@@ -6,9 +6,9 @@ description: Campaign v8 に権限を付与する方法を学ぶ
 feature: Audiences
 role: Data Engineer
 level: Beginner
-source-git-commit: a57855556751e85e7a1f7751a103ca157f434a8a
+source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '391'
 ht-degree: 75%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign には、Campaign マネージャーや Workflow スーパーバ�
 
 オペレーターは、コンソール内のプロファイルからセキュリティゾーンにリンクされ、**[!UICONTROL 管理/アクセス管理/オペレーター]**&#x200B;ノードでアクセスできます。
 
-??管理対象Cloud Servicesのユーザーとして、Adobeがセキュリティゾーンを設定します。 詳しくは、[コンタクトAdobe](support.md#support)を参照してください。
+??管理対象Cloud Servicesのユーザーとして、Adobeがセキュリティゾーンを設定します。 詳しくは、[コンタクトAdobe](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}を参照してください。
 
 **詳しくは、Campaign Classic v7 ドキュメント**&#x200B;を参照してください。
 
