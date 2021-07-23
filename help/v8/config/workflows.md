@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: cc8707c7765a47fc00d46283eb6588e63a98499d
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 95%
+source-wordcount: '1590'
+ht-degree: 79%
 
 ---
 
@@ -34,34 +34,77 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 ワークフローのユーザーインターフェイスと実行について詳しくは、Campaign Classic v7 のドキュメントを参照してください。
 
-↗️  [ワークフローの概要](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;}
-* ワークフローアクティビティ：
-   * [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html?lang=ja){target=&quot;_blank&quot;}：クエリー、リスト読み込み、エンリッチメント、和集合など
-   * [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html?lang=ja){target=&quot;_blank&quot;}：スケジューラー、分岐、アラート、外部シグナルなど
-   * [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：クロスチャネル配信、JavaScript コード、CRM アクティビティ、集計の更新など
-   * [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}：ファイル転送、web ダウンロードなど
-↗️ [マーケティングキャンペーンワークフローでオーディエンスを構築](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
-↗️ [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja){target=&quot;_blank&quot;}
-↗️ [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}
-↗️ [ワークフローの実行を監視](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=ja){target=&quot;_blank&quot;}
+↗️ [ワークフローの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;}
 
+↗️ [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja){target=&quot;_blank&quot;}
+
+↗️ [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}
+
+↗️ [ワークフロー監視の実行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=ja){target=&quot;_blank&quot;}
+
+↗️  [マーケティングキャンペーンワークフローでのオーディエンスの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+
+## ワークフローアクティビティ {#wf-activities}
+
+↗️使用可能なワークフローアクティビティの詳細[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}
+
+ワークフローアクティビティはカテゴリごとにグループ分けされます。次の4つのアクティビティカテゴリを使用できます。
+
+* [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}：クエリー、リスト読み込み、エンリッチメント、和集合など
+* [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html?lang=ja){target=&quot;_blank&quot;}：スケジューラー、分岐、アラート、外部シグナルなど
+* [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：クロスチャネル配信、JavaScript コード、CRM アクティビティ、集計の更新など
+* [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}：ファイル転送、web ダウンロードなど
+
+### データソースアクティビティの変更 {#change-data-source-activity}
+
+「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。 これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースをまたいで、より柔軟にデータを管理できます。
+
+**[!UICONTROL 作業用テーブル]**を使用すると、Adobe Campaignワークフローでデータを処理し、ワークフローアクティビティとデータを共有できます。
+デフォルトでは、**[!UICONTROL 作業用テーブル]**&#x200B;は、クエリ対象のデータのソースと同じデータベースに作成されます。
+
+例えば、Cloudデータベースに格納された&#x200B;**[!UICONTROL Profiles]**&#x200B;テーブルに対してクエリを実行する場合、同じCloudデータベースに&#x200B;**[!UICONTROL 作業用テーブル]**を作成します。
+これを変更するには、「**[!UICONTROL データソースを変更]**」アクティビティを追加して、**[!UICONTROL 作業用テーブル]**&#x200B;に別のデータソースを選択します。
+
+「**[!UICONTROL データソースを変更]**」アクティビティを使用する場合、ワークフローの実行を続行するには、Cloudデータベースに戻す必要があります。
+
+「**[!UICONTROL データソースを変更]**」アクティビティを使用するには：
+
+1. ワークフローの作成.
+
+1. **[!UICONTROL クエリ]**&#x200B;アクティビティでターゲット受信者にクエリを実行します。
+
+   「**[!UICONTROL クエリ]**」アクティビティの詳細については、Campaign ClassicV7のドキュメントの[クエリ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query)のページを参照してください。
+
+1. 「**[!UICONTROL ターゲティング]**」タブから、「**[!UICONTROL データソースを変更]**」アクティビティを追加し、ダブルクリックして「**[!UICONTROL デフォルトのデータソース]**」を選択します。
+
+   次に、クエリの結果を含む作業用テーブルが、デフォルトのPostgreSQLデータベースに移動されます。
+
+1. 「**[!UICONTROL アクション]**」タブから、**[!UICONTROL JavaScriptコード]**&#x200B;アクティビティをドラッグ&amp;ドロップして、作業用テーブルに対して単一の操作を実行します。
+
+   **[!UICONTROL JavaScriptコード]**&#x200B;アクティビティの詳細については、Campaign ClassicV7のドキュメントの[JavaScriptコードと高度なJavaScriptコード](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code)のページを参照してください。
+
+1. 別の「**[!UICONTROL データソース]**&#x200B;を変更」アクティビティを追加して、クラウドデータベースに切り替えます。
+
+   アクティビティをダブルクリックし、「**[!UICONTROL アクティブなFDA外部アカウント]**」を選択してから、対応する外部アカウントを選択します。
+
+1. これで、ワークフローを開始できます。
 
 ## 繰り返しキャンペーンの設定
 
 繰り返しワークフローをデザインし、ワークフローを実行するたびに新しい配信インスタンスを作成します。 たとえば、ワークフローが週に 1 回実行されるよう設計されている場合、1 年後には 52 件の配信が存在することになります。つまり、ログは各配信インスタンスで区切られます。
 
-↗️ [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}で繰り返しキャンペーンを作成する方法を説明します
+↗️ 繰り返しキャンペーンの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}を参照してください
 
 
 ## トリガーイベントの活用
 
 Campaign トランザクションメッセージを使用すると、情報システムからトリガーされるイベントに基づいて、メッセージを自動的に生成できます。 トランザクションメッセージの例としては、請求書送付、注文確認、配送確認、パスワード変更、商品の在庫切れ通知、取引明細書送付、Web サイトのアカウント作成などがあります。 これらのメッセージは、個別に送信することも、メール、SMS、またはプッシュ通知を介してバッチで送信することもできます。
 
-??トランザクションメッセージ機能について詳しくは、[この節](../send/transactional.md)を参照してください。
+トランザクションメッセージ機能の詳細については、[この節](../send/transactional.md)を参照してください。
 
-Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクションを把握し、パーソナライズされたメッセージをほぼリアルタイムで送信できます。
+Adobe Campaign と Adobe Analytics を接続すると、ユーザーのアクションを取得し、パーソナライズされたメッセージをほぼリアルタイムで送信することができます。
 
-??[この節](../start/connect.md)でCampaignを他のソリューションと統合する方法を説明します。
+Campaign を他のソリューションと統合する方法については、[この節](../start/connect.md)を参照してください
 
 
 ## ワークフローのエンドツーエンドのユースケース{#end-to-end-uc}
@@ -163,4 +206,34 @@ Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクショ
 * [クエリでのインスタンス変数の呼び出し](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=ja#example){target=&quot;_blank&quot;}
 
    インスタンス変数を使用して、母集団に適用する分割率を動的に計算する方法について説明します。
+
+<!--
+### Change data source activity {#data-source-uc}
+
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. 
+
+In this use case, learn how to use the **[!UICONTROL Change data source]** activity to perform unitary operations to insert or update information to the recipient table.
+
+![](assets/wf_data_source_uc.png)
+
+1. Create a workflow and add a **[!UICONTROL Start]** activity.
+
+1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
+
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+
+1. 
+
+1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
+    
+    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
+
+1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
+
+1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
+    
+    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
+
+1. Add an **[!UICONTROL End]** activity and start your workflow.
+-->
 
