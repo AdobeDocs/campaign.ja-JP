@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1285'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Analytics を設定して、Campaign と Analytics を統合できます�
 
 この統合により、Adobe Campaign と Adobe Analytics は、**Web 分析コネクタ**&#x200B;アドオンを介してやり取りできるようになります。この統合では、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。
 
-??管理対象Cloud Servicesのユーザーとして、[Adobe](../start/campaign-faq.md#support)に連絡し、CampaignをAdobe Experience Cloudのサービスおよびソリューションと接続します。 専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
+Managed Cloud Services ユーザーの場合、Campaign を Adobe Experience Cloud のサービスやソリューションと接続するには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
 
 Adobe Analytics Connector を使用すると、Adobe Campaign はインターネットのオーディエンスを測定できます（Web 分析）。Web 分析ツールを使用すると、Adobe Campaign は指標とキャンペーン属性を Analytics に転送できます。
 
