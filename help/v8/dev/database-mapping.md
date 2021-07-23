@@ -3,9 +3,9 @@ product: Adobe Campaign
 title: Campaign データベースのマッピング
 description: Campaign データベースのマッピング
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1463'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -256,7 +256,7 @@ Adobe Campaign テーブルのプライマリキーは、データベースエ�
 * ![](assets/do-not-localize/join_fda_11.png)：一対一のカーディナリティ
 * ![](assets/do-not-localize/join_fda_1m.png)：一対多のカーディナリティ
 
-??FDAテーブルについて詳しくは、[Federated Data Access](../connect/fda.md)を参照してください。
+FDA テーブルの詳細については、[Federated Data Access](../connect/fda.md) を参照してください。
 
 メインの要素を介してリンクされたテーブルの、外部キーを含むスキーマで、リンクを宣言する必要があります。
 
