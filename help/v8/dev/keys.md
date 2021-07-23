@@ -3,7 +3,7 @@ product: Adobe Campaign
 title: 'Campaign における鍵の管理 '
 description: 鍵の管理の概要
 source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
 ht-degree: 100%
 
