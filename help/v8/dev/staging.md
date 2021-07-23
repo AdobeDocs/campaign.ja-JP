@@ -6,9 +6,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Campaign のステージングメカニズムを特定のテーブルに実装�
    </srcSchema>
    ```
 
-   ??[このページ](create-schema.md)でのカスタムスキーマの作成について詳しく説明します。
+   カスタムスキーマの作成の詳細については、[このページ](create-schema.md)を参照してください。
 
 1. データベース構造を保存して更新します。[詳細情報](update-database-structure.md)
 
