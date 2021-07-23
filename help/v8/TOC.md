@@ -5,9 +5,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: 6a3dc9579a8002876ff3c38a5920236d4e18ce7f
+source-git-commit: c626776351cafa55acbeb9a898bb2c44e00d02d3
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 100%
 # Adobe Campaign v8 ドキュメント {#campaign-v8}
 
 + [Campaign v8 ドキュメント](campaign-home.md)
-+ 新機能{#start}
-   + [主な機能](start/whats-new.md)
-   + [リリースノート](start/release-notes.md)
-   + [既知の制限事項](start/known-limitations.md)
-   + [Classic v7 から v8](start/capability-matrix.md)
 + 開始 {#start}
    + [基本を学ぶ](start/get-started.md)
    + [プロファイルとオーディエンス](start/audiences.md)
