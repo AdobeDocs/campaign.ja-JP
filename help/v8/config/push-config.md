@@ -9,9 +9,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1291'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Android および iOS でサポートされているバージョン、Campaign v
 
 >[!NOTE]
 >
->Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=ja)にお問い合わせください。
+>Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 
 ## 統合設定の宣言 {#declaring-integration-settings}
@@ -688,7 +688,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    @end
    ```
 
-   **registerDeviceStatus** デリゲートを実装するには、以下の手順を実行します。
+   **RegisterDeviceStatus** デリゲートを実装するには、以下の手順を実行します。
 
    1. SDK の初期化中に **setDelegate** を実装します。
 
@@ -797,7 +797,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign コンソールの専用モバイルアプリケーションサービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
 
-↗️詳しくは、モバイルアプリの&#x200B;**Campaign Classicv7ドキュメント**&#x200B;を参照してください。[iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target=&quot;_blank&quot;}の設定手順と[Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja){target=&quot;_blank&quot;}の設定手順。
+↗️ 詳細については、モバイルアプリに関する **Campaign Classic v7 ドキュメント**&#x200B;で、[iOS の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target=&quot;_blank&quot;}と [Andoid の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 次に、通知で追加された変数をモバイルアプリケーションで収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
 
