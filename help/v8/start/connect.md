@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 44ddce019de74be96a955eefbc940e41e060a6d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 次の 2 つのオプションを使用できます。
 
-1. Campaign 管理者として、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)に接続し、クライアントコンソールのインストールプログラムをダウンロードします。 その後、ローカルマシンにインストールできます。
+1. Campaign 管理者として、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)に接続し、クライアントコンソールのインストールプログラムをダウンロードします。 その後、ローカルマシンにインストールできます。
 
 1. アドビは、エンドユーザーとしてコンソールをデプロイできます。コンソールが更新されると、ポップアップウィンドウに最新のクライアントコンソールのバージョンをダウンロードするように求められます。
 
@@ -51,7 +51,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
    例えば、[`https://<machine>.<domain>.com`](https://myserver.adobe.com) タイプの URL を使用できます。
 
-1. 「**[!UICONTROL Adobe IDに接続]**」オプションをオンにします。
+1. 「**[!UICONTROL Adobe ID を使用して接続]**」オプションをオンにします。
 
 1. 「**[!UICONTROL OK]**」をクリックして設定を保存します。
 
@@ -75,7 +75,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 1. 「**[!UICONTROL OK]**」をクリックします。
 
-1. その後、[Adobe ID](#connect-ims)を使用してCampaignにログインできます。
+1. これにより、[Adobe ID](#connect-ims) を使用して Campaign にログインできるようになります。
 
    ![](assets/adobeID.png)
 
@@ -93,15 +93,15 @@ Campaign 管理者は、オペレーターを作成し、ユーザーと資格�
 
 ## Adobe ID で Campaign に接続{#connect-ims}
 
-Campaignユーザーは、AdobeIdentity Management System(IMS)を使用して、Adobe IDを使用してAdobe Campaignコンソールに接続します。 すべてのAdobeソリューションで同じIDを使用できます。 接続は、Adobe Campaignを他のソリューションと共に使用する場合に保存されます。
+Campaign ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。Adobe Campaign を他のソリューションと共に使用する場合、接続は保存されます。
 
-AdobeIMSについて詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
+Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html)を参照してください。
 
 ## Web アクセス{#web-access}
 
-HTMLユーザーインターフェイスを使用して、Webブラウザーを介してアプリケーションの特定の部分にアクセスできます。レポート、配信の承認、インスタンスの監視など。
+アプリケーションの特定の機能（レポート、配信の承認、インスタンスの監視など）へは、HTML ユーザーインターフェイスを使用して、web ブラウザーからアクセスできます。
 
-Web アクセス用のインターフェイスはコンソールに似ていますが、機能が限定されています。
+Web アクセスでは、コンソールと同様のインターフェースを提供しますが、機能は限定されています。
 
 例えば、特定のオペレーターの場合、あるキャンペーンをコンソールで確認すると、次のようなオプションが表示されます。 
 
@@ -111,6 +111,6 @@ Web アクセス用のインターフェイスはコンソールに似ていま�
 
 ![](assets/campaign-from-web.png)
 
-Web アクセスは、検証プロセスでも使用します。オペレーターは、承認依頼のメールをクリックし、web ブラウザーで Campaign に接続し、配信コンテンツや予算の検証や却下をおこなうことができます。
+Web アクセスは、検証プロセスでも使用します。オペレーターは、承認依頼のメールをクリックし、web ブラウザーで Campaign に接続して、配信コンテンツまたは予算の検証または却下を行うことができます。
 
-WebからCampaignインスタンスにアクセスするためのURLは次のとおりです。 `https://<your adobe campaign server>:<port number>/view/home`.
+Web から Campaign インスタンスにアクセスするための URL は `https://<your adobe campaign server>:<port number>/view/home` です。
