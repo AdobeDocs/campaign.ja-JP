@@ -6,9 +6,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 98%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンに対する呼び出しを指定できます。
 
-↗️ **オファーエンジン**&#x200B;アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html?lang=ja)を参照してください。
+↗️ **オファーエンジン**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html?lang=ja)を参照してください
 
 このアクティビティは、**エンリッチメント**&#x200B;アクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信前にエンジンで計算したオファーでインバウンド母集団のデータを強化します。
 
@@ -188,7 +188,7 @@ ht-degree: 98%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-↗️ **セル別のオファー**&#x200B;アクティビティについて詳しくは、[Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html?lang=ja)を参照してください。
+↗️ **セル別オファー**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html?lang=ja)を参照してください
 
 それには、次の手順に従います。
 
