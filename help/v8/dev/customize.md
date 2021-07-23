@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Adobe Campaign はデータスキーマを利用して次のことを行いま�
 
 * インターフェースで&#x200B;**新しいフィールド**&#x200B;ウィザードを使用する
 
-   ↗️[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic)でCampaignに新しいフィールドをすばやく追加する方法を説明します
+   ↗️ Campaign に新しいフィールドを迅速に追加する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic)を参照してください。
 
-* プログラムによってスキーマを拡張する
+* プログラムでスキーマを拡張する
 
-   ??[この節](../dev/extend-schema.md)で既存のスキーマを拡張する方法を説明します。
+   既存のスキーマを拡張する方法については、[この節](../dev/extend-schema.md)を参照してください。
 
 
 また、Adobe Campaign データベース内に新しいテーブルを作成し、組み込みデータモデルを拡張することもできます。
@@ -48,16 +48,16 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 **関連トピック**
 
-↗️[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic)のスキーマエディションの例
+↗️ スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic)を参照してください
 
-↗️使用例：[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link)の既存の参照テーブルにフィールドをリンクする
+ ↗️ ユースケース「既存の参照テーブルにフィールドをリンクする」については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link)を参照してください
 
 
 ## 入力フォームの変更
 
 Adobe Campaign 入力フォームは、実装に合わせて調整できます。 XML コンテンツを変更して、フォームフィールドを追加または削除できます。
 
-??既存の入力フォームを変更する方法、または[新しいフォームを作成する方法については、この節](../dev/forms.md)を参照してください。
+既存の入力フォームを変更する方法や新しいフォームを作成する方法については、[この節](../dev/forms.md)を参照してください。
 
 ## ダッシュボードのカスタマイズ{#gs-custom-dashboards}
 
@@ -65,7 +65,7 @@ Adobe Campaign インターフェイスでは、受信者、配信、キャン�
 
 標準提供の web アプリケーションは、管理／設定／Web アプリケーションノードに格納されています。
 
-↗️ [Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases—creating-overviews.html?lang=ja#creating-a-single-page-web-application)のCampaignで概要ページを作成する方法を説明します
+↗️ Campaign での概要ページの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases—creating-overviews.html?lang=ja#creating-a-single-page-web-application)を参照してください
 
 
 ## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}
@@ -81,9 +81,9 @@ Adobe Campaign インターフェイスでは、受信者、配信、キャン�
 
 Adobe Campaign エクスプローラーのツリー内を移動すると、データベースに含まれているデータがリストに表示されます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えなどを行うことができます。
 
-↗️[Campaign Classicv7ドキュメント](hhttps://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ja#getting-started)でリストを設定し、リスト設定を保存する方法を説明します。
+↗️ リストの設定方法およびリスト設定の保存方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ja#getting-started)を参照してください
 
 
 これらのリストにフィルターを適用すると、演算子で必要なデータのみを表示できます。 これにより、フィルターされたデータに対してアクションを実行できます。フィルター設定を使用すると、リストから動的にデータを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
-↗️[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=ja#typology-of-available-filters)のデータをフィルタリングする方法を説明します
+↗️ データのフィルタリング方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=ja#typology-of-available-filters)を参照してください
