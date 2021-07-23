@@ -6,9 +6,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 
 * 正常に送信されたメールのみが対象となり、バウンスメールは含まれません。
 
-??管理対象Cloud Servicesのユーザーとして、[Adobe](../start/campaign-faq.md#support)に連絡し、CampaignでEメールのBCCを有効にします。 BCC に設定するメールアドレスをアドビ システムズにご提供いただく必要があります。
+Managed Cloud Services ユーザーの場合、Campaign の「BCC で E メールを送信」を有効にするには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。BCC に設定するメールアドレスをアドビ システムズにご提供いただく必要があります。
 
 「BCC でメールを送信」を設定したら、配信テンプレートまたは「**BCC でメールを送信**」オプション経由の配信で、その機能が有効になっていることを確認します。
 
@@ -41,7 +41,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 Campaign Classic v7 ドキュメントの&#x200B;**関連トピック**：
 
 
-↗️ [ミラーページ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=ja#generating-mirror-page){target=&quot;_blank&quot;}を生成します
+↗️ [ミラーページの生成](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=ja#generating-mirror-page){target=&quot;_blank&quot;}
 
 ↗️ [メールフォーマットの選択](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=ja#selecting-message-formats){target=&quot;_blank&quot;}
 
