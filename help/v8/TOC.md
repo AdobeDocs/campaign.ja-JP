@@ -5,9 +5,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: c626776351cafa55acbeb9a898bb2c44e00d02d3
+source-git-commit: e41f5b37d8f13c2a17f27a27bf1803081945a8ed
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + 開始 {#start}
+   + [主な機能](start/whats-new.md)
+   + [リリースノート](start/release-notes.md)
+   + [既知の制限事項](start/known-limitations.md)
+   + [Classic v7 から v8](start/capability-matrix.md)
    + [基本を学ぶ](start/get-started.md)
    + [プロファイルとオーディエンス](start/audiences.md)
    + [データの読み込み](start/import.md)
