@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,4 +55,4 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja){target=&quot;_blank&quot;}
 * [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja){target=&quot;_blank&quot;}
 
-↗️ [このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}内のすべてのCampaign コントロールパネル機能を確認します。
+↗️コントロールパネルの全機能については、[このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}を参照してください
