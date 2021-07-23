@@ -6,9 +6,9 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらのメッセージは、情報システムからトリガーされたイベントから生成されます。例えば、請求書、オーダー確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、Web サイトアカウント作成などのメッセージがあります。
 
-??管理対象Cloud Servicesのユーザーは、[Adobe](../start/campaign-faq.md#support)に連絡して、お使いの環境にCampaignトランザクションメッセージをインストールして設定します。
+Managed Cloud Services ユーザーの場合、お使いの環境に Campaign トランザクションメッセージをインストールして設定するには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 トランザクションメッセージは、次の送信に使用します。
 
@@ -24,9 +24,9 @@ ht-degree: 97%
 * 個々の顧客のアクションに対するリアルタイムでの応答
 * 宣伝以外のコンテンツ
 
-??トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
+トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
 
-??[このページ](../dev/architecture.md)のトランザクションメッセージのアーキテクチャを理解します。
+トランザクションメッセージのアーキテクチャについては、[このページ](../dev/architecture.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -151,7 +151,7 @@ ht-degree: 97%
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-↗️[Campaign Classicv7ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}の配達確認の詳細
+↗️ 配達証明の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 
