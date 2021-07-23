@@ -5,9 +5,9 @@ description: Campaign v8 最新リリース
 feature: 概要
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
+hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 9e745f7fb8fd20f35025c06ff621a9da5002190e
+source-git-commit: 5d266b22661be2817e06ea71c1b0bec7f44a152d
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 7%
