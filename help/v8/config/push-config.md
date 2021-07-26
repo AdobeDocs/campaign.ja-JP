@@ -77,9 +77,8 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 >[!NOTE]
 >
 > * 必ず google-services.json をダウンロードしてプロジェクトに追加してください。
-   >
-   > 
-* `apiKey`は、この Android アプリケーションにリンクされている Adobe Campaign モバイルアプリケーションの `projectKey` セットと一致する必要があります。
+>
+> * `apiKey`は、この Android アプリケーションにリンクされている Adobe Campaign モバイルアプリケーションの `projectKey` セットと一致する必要があります。
 
 
 ### Android SDK の設定
