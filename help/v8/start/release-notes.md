@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 5d266b22661be2817e06ea71c1b0bec7f44a152d
+source-git-commit: 328f1bca11f8554def6ad4ccb741a86695481e98
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '312'
 ht-degree: 7%
 
 ---
@@ -50,14 +50,13 @@ _2021年7月24日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign v8でLINEチャネルを使用できるようになりました。 LINEをMessage Centerで使用する際に、次の機能が強化されました。
-</p>
+<td> <p><a href="../send/line.md">LINEチャネル</a>がCampaign v8で使用できるようになりました。<a href="../send/transactional.md">トランザクションメッセージ</a>モジュールと組み合わせると、次の機能強化が含まれます。
 <ul> 
 <li><p>訪問者がLINE配信でターゲットにされない可能性がある問題を修正しました。 
 </p></li>
 <li><p>実行インスタンスからマーケティングインスタンスに訪問者を取得する際にエラーが発生する可能性がある問題を修正しました。
 </p></li>
-<li><p>Message Centerを使用したLINE配信のコンテキストでのリアルタイムイベントの処理中に発生する問題を修正しました。</p></li>
+<li><p>リアルタイムイベントの処理中に発生する問題を修正しました。</p></li>
 </ul>
 </td> 
 </tr> 
