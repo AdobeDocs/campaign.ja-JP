@@ -6,7 +6,7 @@ description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
 source-git-commit: 5d266b22661be2817e06ea71c1b0bec7f44a152d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
 ht-degree: 100%
 
