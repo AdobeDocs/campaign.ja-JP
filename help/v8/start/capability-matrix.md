@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '927'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -84,11 +84,11 @@ Adobe Campaign レポートは最適化されており、Campaign Classic v7 よ
 
 ## ワークフロー {#workflow}
 
-Campaign v8には、次の追加のターゲティングワークフローアクティビティがあります。**[!UICONTROL データソース]**&#x200B;を変更します。
+Campaign v8 では、「**[!UICONTROL データソースを変更]**」というターゲティングワークフローアクティビティが追加されました。
 
-「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更して、FDA、FFDA、ローカルデータベースなど、様々なデータソース間でデータを管理できます。
+「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフローの&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更して、FDA、FFDA、ローカルデータベースなどの様々なデータソースにわたってデータを管理できます。
 
-??詳しくは、**[!UICONTROL このページ](../config/workflows.md#change-data-source-activity)の[データソース]**&#x200B;の変更アクティビティを参照してください。
+「**[!UICONTROL データソースを変更]**」アクティビティの詳細については、[このページ](../config/workflows.md#change-data-source-activity)を参照してください。
 
 ## 使用できない機能{#gs-unavailable-features}
 
