@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -39,10 +39,10 @@ Adobe Campaign には、Campaign マネージャーや Workflow スーパーバ�
 
 ??管理対象Cloud Servicesのユーザーとして、Adobeがセキュリティゾーンを設定します。 詳しくは、[コンタクトAdobe](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}を参照してください。
 
-**詳しくは、Campaign Classic v7 ドキュメント**&#x200B;を参照してください。
+詳細については、**Campaign Classic v7 ドキュメント**&#x200B;を参照してください
 
 * [組み込みのネームド権限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html?lang=ja){target=&quot;_blank&quot;}
 
-* [組み込みオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
+* [組み込みのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
 
 * [権限の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja){target=&quot;_blank&quot;}
