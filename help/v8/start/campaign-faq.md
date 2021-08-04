@@ -9,7 +9,7 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d7
 source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -23,13 +23,13 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。 だからこそ、最新バージョンの Adobe Campaign を実行することが重要であると考えているのです。
 
-   ??管理対象Cloud Servicesのユーザーは、新しいリリースのたびに、Adobeによってインスタンスがアップグレードされます。
+   Managed Cloud Services ユーザーの場合は、新しいリリースが出るたびにアドビがインスタンスをアップグレードします。
 
 1. **Campaign v8 に接続するにはどうすればよいですか？**
 
    Adobe Campaign に接続するには、Campaign クライアントコンソールをダウンロードしてインストールする必要があります。
 
-   ?? [詳しくはここをクリック](connect.md).
+   [詳しくはここをクリック](connect.md)してください。
 
 1. **Campaign v8 をオンプレミス環境またはハイブリッド環境にインストールすることはできますか？**
 
@@ -39,9 +39,9 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要な要素であり、条件とルールが常に変化し続けるという特徴があります。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
-   ↗️ [配信のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}については、このガイドを参照してください。
+   ↗️ 詳細については、[配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}のガイドを参照してください
 
-   ↗️このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target=&quot;_blank&quot;}で、Campaign [の配信品質の実装方法を説明します
+   ↗️ Campaign に配信品質を実装する方法については、[このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 1. **配信がエラーなしで送信されたことを確認するにはどうすればよいですか？**
 
@@ -51,7 +51,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **ワークフローの実行を監視できますか？**
 
-   ↗️Campaign Classicv7のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ja){target=&quot;_blank&quot;}でCampaignワークフローの実行[を監視する方法を説明します
+   ↗️ Campaign ワークフローの実行を監視する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 1. **Campaign v8 と互換性があるシステムやコンポーネントはどれですか？**
 
@@ -61,7 +61,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 
-   ??管理対象Cloud Servicesのユーザーは、Adobeに連絡してサブドメインをAdobeにデリゲートします。
+   Managed Cloud Services ユーザーの場合、サブドメインをアドビに委任するには、アドビにお問い合わせください。
 
 1. **Campaign Classic v7 ユーザーは、Campaign v8 に移行できますか？**
 
@@ -86,4 +86,4 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;} に接続します。
 
-   このシステムでは、各ユーザーに対して、正しい権限を持つアカウントが個別に必要です。Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html?lang=ja){target=&quot;_blank&quot;}
+   このシステムでは、各ユーザーに対して、正しい権限を持つアカウントが個別に必要です。Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
