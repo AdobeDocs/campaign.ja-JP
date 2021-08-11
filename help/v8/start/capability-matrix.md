@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '927'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Campaign のローカルデータベースとクラウドデータベースの�
 
 ### ID 管理
 
-Campaign v8 オブジェクトは、**UUID（ユニバーサルに一意の ID）**&#x200B;を使用するようになりました。これにより、一意の値（無制限）でデータを識別できます。.
+Campaign v8 オブジェクトは、**UUID（ユニバーサルに一意の ID）**&#x200B;を使用するようになりました。これにより、一意の値（無制限）でデータを識別できます。
 
 この ID は文字列で、連続していません。Campaign v8 ではプライマリキーは数値ではないため、スキーマで **autouuid** 属性と **autopk** 属性を使用する必要があります。
 
