@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
 source-git-commit: 328f1bca11f8554def6ad4ccb741a86695481e98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ _2021 年 7 月 23 日（PT）_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p><a href="../send/line.md">LINEチャネル</a>がCampaign v8で使用できるようになりました。<a href="../send/transactional.md">トランザクションメッセージ</a>モジュールと組み合わせると、次の機能強化が含まれます。
+<td> <p>Campaign v8 では、<a href="../send/transactional.md">トランザクションメッセージ</a>モジュールと組み合わせることで、以下のような機能強化を含め、<a href="../send/line.md">LINE チャネル</a>が利用可能になりました。
 <ul> 
 <li><p>訪問者が LINE 配信でターゲットにされない可能性がある問題を修正しました。 
 </p></li>
