@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+workflow-type: tm+mt
+source-wordcount: '921'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Campaign ユーザーは、Adobe ID で接続します。同じ Adobe ID を使�
 
 ## レポート
 
-Adobe Campaign レポートは最適化されており、Campaign Classic v7 よりも優れたスケール機能を提供します。 キューブに関する既存の制限は適用されません。
+Adobe Campaign レポートは最適化されており、Campaign Classic v7 よりも優れたスケール機能を提供します。 キューブに関する制限は適用されません。
 
 ## ワークフロー {#workflow}
 
@@ -100,8 +100,6 @@ Campaign v8 では、「**[!UICONTROL データソースを変更]**」という
 * キャンペーンの最適化
 * Response Manager
 * ハイブリッドまたはオンプレミスのデプロイメントモデル
-* LINE メッセージ
-* Campaign コントロールパネル
 
 >[!CAUTION]
 >
