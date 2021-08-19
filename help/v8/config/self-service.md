@@ -5,9 +5,9 @@ description: CampaignのCampaign コントロールパネル
 feature: 概要
 role: Data Engineer
 level: Beginner
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+source-git-commit: 8415bfce30948104840a92d1be0d72e07c8e29ee
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 91%
 
 ---
@@ -24,7 +24,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
 
-↗️詳しくは、[キャンペーンCampaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+↗️詳しくは、[キャンペーンCampaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
 > 次の機能は、Campaign v8ではまだサポートされていません。
