@@ -1,22 +1,18 @@
 ---
 product: Adobe Campaign
 title: Campaign コントロールパネル
-description: Campaign コントロールパネル
+description: CampaignのCampaign コントロールパネル
 feature: 概要
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
-hide: true
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
 # Campaign コントロールパネル
-
-まだ利用できません
 
 Campaign コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Adobe Campaign の製品管理者としての作業を効率化できます。 直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト登録、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
 
@@ -27,6 +23,18 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 * ニーズごとにアクセス設定を制御することでセキュリティを強化できます。
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
+
+↗️詳しくは、[キャンペーンCampaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+
+>[!CAUTION]
+> 次の機能は、Campaign v8ではまだサポートされていません。
+>
+>* サブドメイン管理
+>* 証明書の管理
+
+>
+
+
 
 ## コントロールパネルにアクセスするには？
 
@@ -40,13 +48,6 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)してください。
 
-## サブドメインおよび証明書
-
-サブドメインとその証明書を監視できます。 詳細情報：
-* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja){target=&quot;_blank&quot;}
-* [新しいサブドメイン](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja){target=&quot;_blank&quot;}の設定
-* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target=&quot;_blank&quot;}
-
 ## インスタンス設定
 
 コントロールパネルでの Campaign インスタンス設定の管理方法を説明します。
@@ -55,4 +56,3 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja){target=&quot;_blank&quot;}
 * [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja){target=&quot;_blank&quot;}
 
-↗️コントロールパネルの全機能については、[このドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}を参照してください
