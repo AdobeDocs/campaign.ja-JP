@@ -6,10 +6,10 @@ feature: 概要
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '386'
-ht-degree: 100%
+source-git-commit: 6334178f6e5d0ad0a33975838be6cf663862d892
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 93%
 
 ---
 
@@ -43,6 +43,13 @@ Adobe Campaign には、一連の組み込みテクニカルワークフロー�
 
 一部の組み込みテーブルは、上述の専用ワークフローを介して、Campaign のローカルデータベースから [!DNL Snowflake] クラウドデータベースにレプリケートされます。
 
+Adobe Campaign v8が使用するデータベース、データがレプリケートされる理由、レプリケートされるデータの種類、レプリケーションプロセスの仕組みを理解します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
+
+
+### データレプリケーションポリシー
+
 レプリケーションポリシーはテーブルのサイズに基づいています。 リアルタイムでレプリケートされるテーブルもあれば、時間単位でレプリケートされるテーブルもあります。 増分的に更新されるテーブルもあれば、全体が置き換えられるテーブルもあります。
 
 組み込みの&#x200B;**参照テーブルのレプリケート**&#x200B;テクニカルワークフローに加えて、独自のワークフローでデータレプリケーションを強制することもできます。
@@ -65,6 +72,8 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 ```
 
 ![](assets/nlmodule.png)
+
+
 
 **関連トピック**
 
