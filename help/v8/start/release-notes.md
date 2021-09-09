@@ -2,21 +2,59 @@
 product: Adobe Campaign
 title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 328f1bca11f8554def6ad4ccb741a86695481e98
-workflow-type: ht
-source-wordcount: '312'
-ht-degree: 100%
+source-git-commit: 5b81c8e9e391ea1a9ad1825e5102b66c7926c204
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 43%
 
 ---
 
 # 最新リリース{#latest-release}
 
 このページには、**Campaign v8 最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
+
+## リリース 8.1.20 {#release-8-1-20}
+
+_2021年9月8日_
+
+**セキュリティ機能の強化**
+
+* ディレクトリトラバーサル攻撃に対する保護を強化するために、セキュリティの問題を修正しました。 （NEO-28547）
+
+**改善点**
+
+* 提供が終了した後、Flashは、関連するすべてのCampaign機能およびコンポーネントから削除され、HTML5に置き換えられました。 グラフの&#x200B;**ゲージ**&#x200B;タイプが削除されました。 (NEO-30330) [詳細を表示](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html)
+* Windowsにクライアントコンソールをインストールする際に、親レジストリノードがあるかどうかを確認し、見つからない場合は作成するようになりました。 これにより、コンソールを起動した際に発生する可能性のある問題を防止できます。 （NEO-34854）
+* トラッキング署名機能が改善され、サードパーティツール（Eメールクライアント、インターネットブラウザーなど）に関連するエラーが 特殊文字を処理します。 URLパラメーターがエンコードされるようになりました。
+
+**その他の変更**
+
+* 以前は非推奨（廃止予定）のMicrosoft CRMコネクタ（Office 365およびオンプレミスデプロイメント）がインターフェイスから削除されました。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
+* Tomcat 8への移行後に、IISセットアップスクリプトが更新され、IIS統合の問題が修正されました。 （NEO-31019）
+* ガードレールが追加され、[請求テクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html#billing-report)をマーケティングインスタンスで実行できるようになりました。
+* ワークフロートランジションの&#x200B;**母集団**&#x200B;を表示ウィンドウのデータタブとスキーマタブでのデータソースの識別が改善されました。
+* データベースの更新の問題を防ぐために、見つからないデータベースインデックスが次のスキーマに追加されました：xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+
+**パッチ**
+
+* オファーが配信にリンクされている場合に、**ホットクリック**&#x200B;レポートが機能しない問題を修正しました。 （NEO-26295）
+* **サブワークフロー**&#x200B;アクティビティの実行で出力テーブルが生成されなかった問題を修正しました。 （NEO-36242）
+* **記述的分析**&#x200B;レポートをPDFに書き出す際の様々な問題を修正しました。 （NEO-25847）
+* 外部メール配信を使用すると配信が失敗する可能性がある問題を修正しました。 （NEO-37435）
+* Web APIを使用してMicrosoft CRMに接続する際のエラーを修正しました。 機能に影響が出なかったので、エラーメッセージが削除されました。
+* トラッキングサーバーとマーケティングサーバーの間のリレーとしてミッドサーバーが設定された場合のトラッキングログの重複排除の問題を修正しました。 （NEO-36285）
+* Vaultが特定のコードストアとして使用できない問題を修正しました。
+* 受信トランジションがFDAデータソースからの場合に、**エンリッチメント**&#x200B;ワークフローアクティビティで変数を使用できない問題を修正しました。
+* FFDAで、オペレーターグループと権限が適切にレプリケーションされなかった問題を修正しました。
+* 配信を通じて誤った購読解除リンクが送信される可能性がある問題を修正しました。
+* レプリケーション管理がポストアップグレードの期間に影響を与える問題を修正しました。
+* **ホットクリック**&#x200B;が表示されない可能性がある問題を修正しました。
+* 電子メールメッセージのURLが壊れる可能性がある問題を修正しました。
 
 ## リリース 8.1.14 {#release-8-1-14}
 
