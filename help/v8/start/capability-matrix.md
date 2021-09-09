@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: Campaign Classic v7 - Campaign v8 機能マトリックス
 description: Campaign Classic v7 と Campaign v8 の違いを理解する
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
-workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '920'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 99%
 >
 > 顧客データは、ローカルの [!DNL Campaign] データベースには格納されません。そのため、カスタムテーブルはクラウドデータベース内に作成する必要があります。
 
-
 ローカルデータベースとクラウドデータベースの間でデータを管理するには、特定の API を使用できます。 これらの新しい API の動作と使い方については、[このページ](../dev/new-apis.md)を参照してください。
 
 ### データのレプリケーション
@@ -54,7 +53,6 @@ Campaign のローカルデータベースとクラウドデータベースの�
 >
 > テーブルのサイズ（XS、XL など）に基づいて、複数のレプリケーションポリシーが作成されます。
 > テーブルの中には、リアルタイムで複製されるものと、1 時間単位で複製されるものがあります。 テーブルには、増分更新をおこなうものと、完全に更新されるものがあります。
-
 
 [データレプリケーションについて説明します](../config/replication.md)
 
@@ -80,7 +78,7 @@ Campaign ユーザーは、Adobe ID で接続します。同じ Adobe ID を使�
 
 ## レポート
 
-Adobe Campaign レポートは最適化されており、Campaign Classic v7 よりも優れたスケール機能を提供します。 キューブに関する制限は適用されません。
+Adobe Campaign レポートは最適化されており、Campaign Classic v7 よりも優れた拡大・縮小機能を提供します。 キューブに関する制限は適用されません。
 
 ## ワークフロー {#workflow}
 
