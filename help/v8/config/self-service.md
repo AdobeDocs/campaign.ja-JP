@@ -1,14 +1,14 @@
 ---
 product: Adobe Campaign
 title: Campaign コントロールパネル
-description: CampaignのCampaign コントロールパネル
-feature: 概要
+description: Campaign コントロールパネルの基本を学ぶ
+feature: Overview
 role: Data Engineer
 level: Beginner
 source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
-workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 83%
+workflow-type: ht
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -24,29 +24,28 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
 
-↗️詳しくは、[キャンペーンCampaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+↗️ 詳しくは、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
-> 次の機能は、Campaign v8ではまだサポートされていません。
+> 次の機能は、Campaign v8 ではまだサポートされていません。
 >
->* サブドメイン管理
+>* サブドメインの管理
 >* 証明書の管理
 
 >
 
 
-
 ## コントロールパネルにアクセスするには？
 
-コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 [詳しくは](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja)、ここ{target=&quot;_blank&quot;}をクリックしてください。
+コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja){target=&quot;_blank&quot;}してください。
 
 ## コントロールパネルのよくある質問（FAQ）
 
-[こちら](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja?lang=en#control-panel){target=&quot;_blank&quot;}をクリックして、CampaignCampaign コントロールパネルのFAQにアクセスします。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja?lang=ja#control-panel){target=&quot;_blank&quot;}してください。
 
 ## SFTP 管理
 
-コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 [詳しくは](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)、ここ{target=&quot;_blank&quot;}をクリックしてください。
+コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management){target=&quot;_blank&quot;}してください。
 
 ## インスタンス設定
 
