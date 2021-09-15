@@ -1,14 +1,13 @@
 ---
-solution: Campaign
-product: Adobe Campaign
 title: Campaign v8 への権限の付与
 description: Campaign v8 に権限を付与する方法を学ぶ
 feature: Audiences
 role: Data Engineer
 level: Beginner
-source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
-workflow-type: ht
-source-wordcount: '391'
+exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
+source-git-commit: c3ed24e16d5a8bc67b8a8c959bbf485ea0fd919c
+workflow-type: tm+mt
+source-wordcount: '390'
 ht-degree: 100%
 
 ---
@@ -43,6 +42,6 @@ Managed Cloud Services ユーザーの場合は、ユーザーに代わってア
 
 * [組み込みのネームド権限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html?lang=ja){target=&quot;_blank&quot;}
 
-* [組み込みのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=ja#default-groups){target=&quot;_blank&quot;}
+* [組み込みのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
 
 * [権限の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja){target=&quot;_blank&quot;}
