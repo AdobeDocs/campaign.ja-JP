@@ -4,8 +4,7 @@ description: カスタム受信者テーブルの使い方を学ぶ
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 3205b492552afc0aa0514f8995f508439a7a9a0b
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
