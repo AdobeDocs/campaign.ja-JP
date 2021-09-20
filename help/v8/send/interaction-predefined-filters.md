@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign インタラクションオファーの事前定義フィルター
 description: 定義済みフィルターの作成方法を学ぶ
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -41,4 +41,3 @@ ht-degree: 100%
 1. 「**[!UICONTROL プレビュー]**」をクリックし、フィルターの適用結果を表示します。
 
    ![](assets/offer_filter_create_006.png)
-

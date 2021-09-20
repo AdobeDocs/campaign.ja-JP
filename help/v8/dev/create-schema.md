@@ -1,9 +1,9 @@
 ---
-product: Adobe Campaign
 title: Campaign での新しいスキーマの作成
 description: Campaign で新しいスキーマを作成する方法を説明します
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
-workflow-type: ht
+exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -111,4 +111,3 @@ ht-degree: 100%
    ![](assets/configuration_structure.png)
 
 1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[この節](update-database-structure.md)を参照してください。
-

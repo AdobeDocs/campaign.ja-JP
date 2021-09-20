@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign インタラクション - オファー管理
 description: オファー管理の概要
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
-workflow-type: ht
-source-wordcount: '1226'
+exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '1225'
 ht-degree: 100%
 
 ---
@@ -85,4 +85,3 @@ Campaign には&#x200B;**インタラクション**&#x200B;モジュールが搭
 * オファーの&#x200B;**プレビュー**&#x200B;では、フォルダーで表示されるとおりにオファーを表示します。 プレビューは、オファー設定ウィンドウまたは連絡先プロファイルから使用できます。
 * **定義済みフィルター**&#x200B;は、オファーのパラメーター（オファーコードなど）を考慮できるフィルタリングルールです。定義済みフィルターは、オファーを作成した後で再利用できます。
 * **オファー表示域**&#x200B;は、チャネルがオファーを表示するために使用する情報です。オファー表示域は、オファーが表示されるスペースのレンダリング関数から作成でき、インターフェイス（HTML ブロックなど）に直接埋め込むこともできます。オファーはスペースに基づいて表示される場合があります。
-

@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Overview
@@ -7,8 +6,8 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 5b81c8e9e391ea1a9ad1825e5102b66c7926c204
-workflow-type: ht
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 100%
 

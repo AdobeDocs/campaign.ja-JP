@@ -1,9 +1,9 @@
 ---
-product: Adobe Campaign
 title: Campaign 入力フォーム
 description: 入力フォームのカスタマイズ方法を学ぶ
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
+exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 100%
 
@@ -674,4 +674,3 @@ SOAP メソッドを実行するには、ページの最後に追加した **`<l
   </soapCall>
 </leave>
 ```
-

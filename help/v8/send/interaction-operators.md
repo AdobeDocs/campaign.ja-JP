@@ -1,17 +1,16 @@
 ---
-product: Adobe Campaign
 title: Campaign インタラクションオペレーター
 description: オファー管理オペレーターの作成
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '408'
+exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # オペレータープロファイル {#operator-profiles}
 
@@ -48,7 +47,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 1. 新しいオペレーターを作成します。
 
-   ↗️ Campaignでオペレーターを作成する手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
+   ↗️ Campaignでオペレーターを作成する手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
 
 1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信マネージャー]**」グループを選択します。
 

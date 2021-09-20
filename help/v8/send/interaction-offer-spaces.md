@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign インタラクションオファースペース
 description: オファースペースの作成方法を学ぶ
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
-workflow-type: ht
-source-wordcount: '656'
+exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
 
 ---

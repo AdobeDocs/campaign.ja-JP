@@ -1,12 +1,12 @@
 ---
-product: Adobe Campaign
 title: Campaign コントロールパネル
 description: Campaign コントロールパネルの基本を学ぶ
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
-workflow-type: ht
+exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 ↗️ 詳しくは、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
->
 > 次の機能は、Campaign v8 ではまだサポートされていません。
 >
 >* サブドメインの管理
 >* 証明書の管理
+
 >
 
 
@@ -54,4 +54,3 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 * [URL の権限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja){target=&quot;_blank&quot;}
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja){target=&quot;_blank&quot;}
 * [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja){target=&quot;_blank&quot;}
-

@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign データモデルの基本を学ぶ
 description: Campaign データモデルの基本を学ぶ
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '648'
+exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '647'
 ht-degree: 100%
 
 ---

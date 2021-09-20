@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign インタラクションオペレーター
 description: オファー管理オペレーターの作成
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
-workflow-type: ht
-source-wordcount: '292'
+exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '291'
 ht-degree: 100%
 
 ---

@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign インタラクションオファーカタログ
 description: オファーカタログの作成方法を学ぶ
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '1351'
+exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '1350'
 ht-degree: 100%
 
 ---

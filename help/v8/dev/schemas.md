@@ -1,9 +1,9 @@
 ---
-product: Adobe Campaign
 title: Adobe Campaign スキーマの操作
 description: スキーマの基本を学ぶ
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
+exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 100%
 
@@ -250,4 +250,3 @@ type="string" enum="exTransactionTypeEnum"/>
 >[!NOTE]
 >
 >変更がデータベース構造に影響を与えない場合は、スキーマを再生成するだけです。 それには、更新するスキーマを選択し、右クリックして&#x200B;**[!UICONTROL アクション／選択したスキーマを再生成...]**&#x200B;を選択します。
-

@@ -1,13 +1,12 @@
 ---
-product: Adobe Campaign
 title: Campaign Classic v7 - Campaign v8 機能マトリックス
 description: Campaign Classic v7 と Campaign v8 の違いを理解する
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
-workflow-type: ht
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
 

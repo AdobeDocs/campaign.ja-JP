@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: インスタンスのカスタマイズ
 description: インスタンスをカスタマイズする方法について説明します
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '546'
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
 
 ---

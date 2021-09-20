@@ -1,13 +1,12 @@
 ---
-product: Adobe Campaign
 title: テクニカルワークフローとデータレプリケーション
 description: テクニカルワークフローとデータレプリケーション
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: 6334178f6e5d0ad0a33975838be6cf663862d892
-workflow-type: ht
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 

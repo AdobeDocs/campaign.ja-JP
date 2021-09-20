@@ -1,9 +1,9 @@
 ---
-product: Adobe Campaign
 title: Campaign スキーマの拡張
 description: Campaign スキーマの拡張方法を学ぶ
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
+exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
 

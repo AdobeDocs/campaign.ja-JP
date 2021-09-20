@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign と Adobe Target の連携
 description: Campaign と Adobe Target の連携方法について説明します
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '1045'
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---

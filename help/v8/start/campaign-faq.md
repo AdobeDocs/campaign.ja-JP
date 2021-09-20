@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Campaign v8 に関するよくある質問
 description: Campaign の一般的な Qamp;A を見る
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
-workflow-type: ht
-source-wordcount: '663'
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '662'
 ht-degree: 100%
 
 ---

@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: プロファイルの基本を学ぶ
 description: プロファイルの基本を学ぶ
-feature: プロファイル
+feature: Profiles
 role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '322'
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '321'
 ht-degree: 100%
 
 ---

@@ -1,19 +1,18 @@
 ---
-product: Adobe Campaign
 title: Campaign と Adobe Analytics の操作
 description: Campaign と Analytics の統合方法を学ぶ
-feature: 概要
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '1285'
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '1284'
 ht-degree: 100%
 
 ---
 
-# Adobe Campaign と Adobe Analytics の連携
+# Campaign と Adobe Analytics の操作
 
 Adobe Analytics を設定して、Campaign と Analytics を統合できます。
 
