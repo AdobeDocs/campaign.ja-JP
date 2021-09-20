@@ -5,10 +5,8 @@ version: v8
 feature: Push
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 100%
