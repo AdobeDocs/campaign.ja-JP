@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 873e7df79d60e5c897d09312939bbb1d91f194b2
+source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 93%
@@ -101,11 +101,12 @@ Campaign v8 では、「**[!UICONTROL データソースを変更]**」という
 
 >[!CAUTION]
 >
->現時点では、Campaign v8 は Managed Cloud Service として&#x200B;**のみ**&#x200B;使用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
+>* 現時点では、Campaign v8 は Managed Cloud Service として&#x200B;**のみ**&#x200B;使用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
 >
->既存の Campaign Classic v7 環境からは移行できません。
+>* 既存の Campaign Classic v7 環境からは移行できません。
 >
->デプロイメントモデルが不明な場合や、質問がある場合は、アカウントチームにお問い合わせください。
+>* デプロイメントモデルが不明な場合や、質問がある場合は、アカウントチームにお問い合わせください。
+
 
 ## サポートされない機能{#gs-removed}
 
