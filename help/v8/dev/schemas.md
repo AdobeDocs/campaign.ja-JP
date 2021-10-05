@@ -3,7 +3,7 @@ title: Adobe Campaign スキーマの操作
 description: スキーマの基本を学ぶ
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1254'
 ht-degree: 100%
 
