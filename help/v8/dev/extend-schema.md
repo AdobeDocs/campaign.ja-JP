@@ -3,7 +3,7 @@ title: Campaign スキーマの拡張
 description: Campaign スキーマの拡張方法を学ぶ
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
 
