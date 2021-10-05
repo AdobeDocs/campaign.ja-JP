@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '940'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign v8 では、「**[!UICONTROL データソースを変更]**」という
 
 ## 使用できない機能{#gs-unavailable-features}
 
-このバージョンのCampaignには、次のような一部の機能は使用できません。
+このバージョンの Campaign では、以下の機能は利用できません。
 
 * マーケティングリソース管理
 * 分散型マーケティング
@@ -108,18 +108,18 @@ Campaign v8 では、「**[!UICONTROL データソースを変更]**」という
 >* デプロイメントモデルが不明な場合や、質問がある場合は、アカウントチームにお問い合わせください。
 
 
-## サポートされない機能{#gs-removed}
+## サポートされていない機能{#gs-removed}
 
-Campaign v8の新しいアーキテクチャおよびデプロイメントモデルに合わせるために、以下のような履歴Campaign Classicv7機能は、Campaign v8ではサポートされなくなりました。
+Campaign v8 の新しいアーキテクチャとデプロイメントモデルに合わせるために、過去の Campaign Classic v7 の一部の機能は Campaign v8 では使用できなくなりました。
 
 * クーポン
 * Web トラッキング
 * 調査
-* ソーシャルマーケティング facebook
+* ソーシャルマーケティングFacebook で
 * ACS コネクタ（プライムオファー）
 * LDAP との統合
 * ユーザー名／パスワードによるログイン
 
 >[!NOTE]
 >
->使用できない機能やサポートされていない機能は、ユーザーインターフェイスに引き続き表示されます。
+>使用できない機能やサポートされていない機能の中には、ユーザーインターフェイスに表示されたままになっているものもあります。
