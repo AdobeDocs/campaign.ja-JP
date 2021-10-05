@@ -4,10 +4,11 @@ description: Campaign レポート機能の概要
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 2dc5f54065d9dad6e007a2f70f1ccf1696121628
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 95ed0369-7215-496b-8e11-fe264c436488
+source-git-commit: af17ab77c2c9839a7b84cb79c7c400c83a873521
+workflow-type: ht
+source-wordcount: '376'
+ht-degree: 100%
 
 ---
 
@@ -55,4 +56,3 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
 
 Adobe Campaign レポートは最適化されており、Campaign Classic v7 よりも優れたスケール機能を提供します。 キューブに関する既存の制限は適用されません。
-
