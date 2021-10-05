@@ -3,7 +3,7 @@ title: Campaign での新しいスキーマの作成
 description: Campaign で新しいスキーマを作成する方法を説明します
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
