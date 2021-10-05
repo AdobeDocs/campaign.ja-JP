@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Campaign では、メールをオーディエンスに送信する前にテス�
 * コントロールグループの使用
 * メールのレンダリングの確認
 
-↗️ 詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)を参照してください
+↗️ 詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja)を参照してください
 
 ## メールの監視
 
