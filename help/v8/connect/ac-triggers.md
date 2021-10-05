@@ -4,10 +4,11 @@ description: Campaign と Adobe Experience Cloud トリガーの使用方法を�
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 2dc5f54065d9dad6e007a2f70f1ccf1696121628
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
+source-git-commit: 7bfc83fce93f525cc1182ebc20a1935f014b060a
+workflow-type: ht
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
