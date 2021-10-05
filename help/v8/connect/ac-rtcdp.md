@@ -4,14 +4,15 @@ description: Campaign およびリアルタイム顧客データプラットフ�
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 3205b492552afc0aa0514f8995f508439a7a9a0b
-workflow-type: tm+mt
+exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
+source-git-commit: 7bfc83fce93f525cc1182ebc20a1935f014b060a
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
 ---
 
-# Campaign およびリアルタイム顧客データプラットフォームの使用
+# Campaign および Real-Time Customer Data Platform の使用
 
 **Adobe Experience Platform** を使用すると、Campaign とアドビのリアルタイム顧客データプラットフォーム（RTCDP）の間でデータを共有できます。これにより、Campaign ワークフローで Adobe Experience Platform のオーディエンスをターゲットにして、オーディエンスに関するデータ（送信数、開封数、クリック数など）をアドビのリアルタイム顧客データプラットフォームに返すことができます。
 
