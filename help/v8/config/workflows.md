@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1589'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 * [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html?lang=ja){target=&quot;_blank&quot;}：クエリー、リスト読み込み、エンリッチメント、和集合など
 * [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html?lang=ja){target=&quot;_blank&quot;}：スケジューラー、分岐、アラート、外部シグナルなど
 * [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：クロスチャネル配信、JavaScript コード、CRM アクティビティ、集計の更新など
-* [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}：ファイル転送、web ダウンロードなど
+* [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：ファイル転送、web ダウンロードなど
 
 ### 「データソースを変更」アクティビティ {#change-data-source-activity}
 
