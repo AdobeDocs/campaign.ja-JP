@@ -27,11 +27,11 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 ![](../assets/do-not-localize/book.png) 詳しくは、Campaign [Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
 
 >[!CAUTION]
+>
 > 次の機能は、Campaign v8 ではまだサポートされていません。
 >
 >* サブドメインの管理
 >* 証明書の管理
-
 >
 
 
