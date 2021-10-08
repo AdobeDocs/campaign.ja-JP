@@ -4,7 +4,7 @@ description: Campaign レポート機能の概要
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 2e192f3a9a8189a4dc686dc4a57eee03f83d75bc
+source-git-commit: 76269d65246010af60fda84b388a7c74269e236f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
