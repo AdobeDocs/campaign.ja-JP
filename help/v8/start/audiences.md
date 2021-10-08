@@ -5,8 +5,8 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
+workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 100%
 
@@ -35,34 +35,34 @@ Campaign にプロファイルデータを入力するには、次の方法を�
 ![](assets/create-profile.png)
 
 
-↗️ プロファイルの管理方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+![](../assets/do-not-localize/book.png) プロファイルの管理方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 
 ## プライバシーと同意
 
 Adobe Campaign は大量のデータを収集して処理できる強力なツールですが、データの中には個人情報や機密情報も含まれます。 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。したがって、受信者の同意を得てこれを監視することが重要になります。
 
- プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+![](../assets/do-not-localize/book.png) プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## リストの作成
 
 リストは、配信アクションのターゲットにしたり、インポート操作時やワークフロー実行時に更新したりできるプロファイルの静的なセットです。例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 
-↗️ リストの作成および管理方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+![](../assets/do-not-localize/book.png) リストの作成および管理方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## データベースのクエリ
 
 ワークフローで&#x200B;**クエリ**&#x200B;アクティビティを使用して、データベースにクエリを実行し、データをセグメント化し、複雑なオーディエンスを構築します。
 
-↗️ キャンペーンクエリの詳細については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+![](../assets/do-not-localize/book.png)Campaign クエリについて詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-↗️ すべてのターゲティングアクティビティのリストについては、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+![](../assets/do-not-localize/book.png) すべてのターゲティングアクティビティのリストは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## ワークフローでのオーディエンスの作成
 
 ターゲティングは、ワークフロー内のグラフィカルシーケンスでクエリを組み合わせて作成できます。 要件に応じてターゲットとなるオーディエンスを作成できます。 ワークフローエディターを表示するには、Campaign ダッシュボードで「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。
 
-↗️ キャンペーンワークフローでのオーディエンスの作成方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#building-the-main-target-in-a-workflow)を参照してください。
+![](../assets/do-not-localize/book.png) Campaign ワークフローでのオーディエンスの作成方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#building-the-main-target-in-a-workflow)を参照してください。{target=&quot;_blank&quot;}。
 
 
 ## アクティブなプロファイル{#active-profiles}
@@ -74,13 +74,13 @@ Adobe Campaign は大量のデータを収集して処理できる強力なツ�
 <!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
 
-↗️ For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
 **関連トピック** Campaign Classic v7 ドキュメント：
 
-↗️ [キャンペーン固有のワークフローの設計と実行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}
+* [キャンペーン固有のワークフローの設計と実行](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}
 
-↗️ [キャンペーンのオーディエンスの選択](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja){target=&quot;_blank&quot;}
+* [キャンペーンのオーディエンスの選択](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja){target=&quot;_blank&quot;}
 
-↗️ [ワークフローの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}
+* [ワークフローの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}

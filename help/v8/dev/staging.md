@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -31,6 +31,7 @@ Campaign Classic v7 API は引き続き使用できますが、この新しい�
 >* この新しいメカニズムにより、購読の登録と解除、モバイル登録のデータ同期は、**非同期**&#x200B;になりました。
 >
 >* ステージングは、Cloud Database に格納されたスキーマにのみ適用されます。レプリケートされたスキーマのステージングを有効にしないでください。ローカルスキーマでステージングを有効にしないでください。ステージングスキーマでステージングを有効にしないでください
+
 >
 
 
@@ -53,7 +54,7 @@ Campaign のステージングメカニズムを特定のテーブルに実装�
    </srcSchema>
    ```
 
-   カスタムスキーマの作成の詳細については、[このページ](create-schema.md)を参照してください。
+   ![](../assets/do-not-localize/glass.png) カスタムスキーマの作成の詳細については、[このページ](create-schema.md)を参照してください。
 
 1. データベース構造を保存して更新します。[詳細情報](update-database-structure.md)
 

@@ -2,8 +2,8 @@
 title: Campaign スキーマの拡張
 description: Campaign スキーマの拡張方法を学ぶ
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 >[!CAUTION]
 >組み込みスキーマは直接変更できません。 組み込みのスキーマを適合させる必要がある場合は、スキーマを拡張します。
 
-Campaign の組み込みテーブルとその連係について詳しくは、[このページ](datamodel.md)を参照してください。[このページ](create-schema.md)で新しいスキーマを作成する際の推奨事項も参照してください。
+![](../assets/do-not-localize/glass.png)Campaign の組み込みテーブルとそのインタラクションについて詳しくは、[このページ](datamodel.md)を参照してください。[このページ](create-schema.md)で新しいスキーマを作成する際の推奨事項も参照してください。
 
 スキーマを拡張するには、次の手順に従います。
 

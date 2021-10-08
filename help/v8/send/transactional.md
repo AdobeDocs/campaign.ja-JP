@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+workflow-type: tm+mt
 source-wordcount: '1549'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,13 +24,13 @@ Managed Cloud Services ユーザーの場合、お使いの環境に Campaign �
 * 個々の顧客のアクションに対するリアルタイムでの応答
 * 宣伝以外のコンテンツ
 
-トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
+![](../assets/do-not-localize/glass.png) トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
 
-トランザクションメッセージのアーキテクチャについては、[このページ](../dev/architecture.md)を参照してください。
+![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../dev/architecture.md)を参照してください。
 
 >[!CAUTION]
 >
->トランザクションメッセージを利用するには特定のライセンスが必要です。使用許諾契約書を確認してください。
+>トランザクションメッセージには特定のライセンスが必要です。 ライセンス契約をご確認ください。
 
 ## トランザクションメッセージのテンプレートの定義
 
@@ -151,7 +151,7 @@ Managed Cloud Services ユーザーの場合、お使いの環境に Campaign �
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-↗️ 配達証明の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}を参照してください
+![](../assets/do-not-localize/book.png) 配達確認の詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;} を参照してください
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 

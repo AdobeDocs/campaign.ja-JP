@@ -2,8 +2,8 @@
 title: データモデルのベストプラクティス
 description: Adobe Campaign データモデル拡張のベストプラクティスを説明します
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ Adobe Campaign システムは非常に柔軟性が高く、初期の実装を�
 
 Campaign の組み込みテーブルとそれらの相互関係について詳しくは、[この](datamodel.md)を参照してください。
 
-キャンペーンスキーマの基本を学ぶには、[この節](schemas.md)を参照してください。
+![](../assets/do-not-localize/glass.png) キャンペーンスキーマの概要については、[この節](schemas.md)を参照してください。
 
-Adobe Campaign データベースの概念的データモデルを拡張するために拡張スキーマを設定する方法については、[このページ](extend-schema.md)を参照してください。
+![](../assets/do-not-localize/glass.png)Adobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法については、[このページ](extend-schema.md)を参照してください。
 
 ## データモデルアーキテクチャ {#data-model-architecture}
 

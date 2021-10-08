@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -39,9 +39,9 @@ Managed Cloud Services ユーザーの場合、Campaign を Adobe Experience Clo
 
 アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
 
-↗️ Campaign と Experience Cloud ソリューションとの&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)を参照してください
+![](../assets/do-not-localize/book.png) Campaign と Experience Cloud ソリューション間の&#x200B;**オーディエンス共有**&#x200B;については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)を参照してください
 
-↗️ Campaign と Experience Cloud ソリューションとの&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)を参照してください
+![](../assets/do-not-localize/book.png) Campaign と Experience Cloud ソリューション間の&#x200B;**アセット共有** については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)を参照してください
 
 ## CRM コネクタ{#gs-crm-connectors}
 
@@ -50,13 +50,13 @@ Adobe Campaign プラットフォームを&#x200B;**サードパーティの CRM
 CRM データをチャネル間通信でアクティブ化します。CRM システムから Adobe Campaign に連絡先を渡し、Adobe Campaign から CRM システムにキャンペーンデータを共有する方法について説明します。
 CRM コネクタを使用すると、すばやく簡単にデータを統合できます。Adobe Campaign に用意されている専用のウィザードを使用すると、使用可能なテーブルを CRM で収集し、そこから選択することができます。これにより双方向の同期が確保され、システム全体でデータを常に最新に保つことができます。
 
-Campaign を Microsoft Dynamics 365 および Salesforce.com に統合する方法については、[このページ](crm.md)を参照してください
+![](../assets/do-not-localize/glass.png) Campaign を Microsoft Dynamics 365 および Salesforce.com に統合する方法については、[このページ](crm.md)を参照してください
 
 ## Federated Data Access（FDA）{#gs-fda}
 
 FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign Cloud データベースのデータに影響を与えることなく、外部データベースに格納された情報を処理できます。
 
-詳細については、[このページ](fda.md)を参照してください
+![](../assets/do-not-localize/glass.png) 詳しくは、[このページ](fda.md)を参照してください
 
 
 <!-- 
@@ -68,4 +68,4 @@ Use the **Managing social networks (Social Marketing)** option to interact with 
 
 * Collect new contacts - Adobe Campaign Social Marketing also makes it easy to acquire new contacts via Facebook: contact users and ask them if they want to share their profile information. If they accept, Adobe Campaign automatically recovers the data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
 
-💡 Learn how to set up and use Campaign Social Marketing in [this section](../connect/ac-tw.md) -->
+![](../assets/do-not-localize/glass.png) Learn how to set up and use Campaign Social Marketing in [this section](../connect/ac-tw.md) -->

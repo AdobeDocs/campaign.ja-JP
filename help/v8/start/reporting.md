@@ -4,9 +4,8 @@ description: Campaign レポート機能の概要
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 95ed0369-7215-496b-8e11-fe264c436488
-source-git-commit: af17ab77c2c9839a7b84cb79c7c400c83a873521
-workflow-type: ht
+source-git-commit: 2e192f3a9a8189a4dc686dc4a57eee03f83d75bc
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
@@ -26,7 +25,7 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
    ![](assets/built-in-reports.png)
 
-   ↗️ Campaign の組み込みレポートについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html?lang=ja){target=&quot;_blank&quot;}を参照してください
+   ![](../assets/do-not-localize/book.png) Campaign の組み込みレポートは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/accessing-built-in-reports/about-campaign-built-in-reports.html?lang=ja){target=&quot;_blank&quot;}に記載されています
 
 * **記述的データ分析**
 
@@ -36,13 +35,13 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
    ![](assets/desc-analysis-report.png)
 
-   ↗️ Campaign の記述的分析レポートについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target=&quot;_blank&quot;}を参照してください
+   ![](../assets/do-not-localize/book.png)Campaign の記述的分析レポートは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target=&quot;_blank&quot;}に記載されています。
 
 * **パーソナライズされたレポート**
 
    Adobe Campaign を使用すると、データベース内のデータに関するレポートを作成できます。作成したレポートは、適切なコンテキストで参照できるようになります。
 
-   ↗️ レポートの作成手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target=&quot;_blank&quot;}を参照してください。パーソナライズされたレポートの作成は、上級ユーザーがおこないます。
+   ![](../assets/do-not-localize/book.png) レポートの作成手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target=&quot;_blank&quot;}を参照してください。パーソナライズされたレポートの作成は、上級ユーザーがおこないます。
 
 * **キューブ**
 
@@ -52,7 +51,7 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
    これらのレポートで分析するデータは、クエリ、計算、量などの複雑さに応じて、クエリで収集したり、リスト（データ管理タイプのワークフロー）やキューブ（Marketing Analytics を使用）で事前に集計したりすることができます。データは、ピボットテーブルやグループリストの形式で表示されます。
 
-   ↗️ キューブの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html?lang=ja){target=&quot;_blank&quot;}を参照してください
+   ![](../assets/do-not-localize/book.png)キューブの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 
 Adobe Campaign レポートは最適化されており、Campaign Classic v7 よりも優れたスケール機能を提供します。 キューブに関する既存の制限は適用されません。

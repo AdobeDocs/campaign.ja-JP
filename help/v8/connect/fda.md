@@ -4,9 +4,8 @@ description: Campaign および外部データベースを操作する方法
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 100%
 

@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Campaign Cloud Service では、次の 3 種類の環境を利用できます。
 
 ある環境から別の環境へ、パッケージを書き出したり読み込んだりできます。
 
-↗️ パッケージの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja)を参照してください
+![](../assets/do-not-localize/book.png) パッケージの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja)を参照してください
 
 ## ミッドソーシングへのデプロイメント{#mid-sourcing-deployment}
 
@@ -49,7 +49,7 @@ Campaign Cloud Service では、次の 3 種類の環境を利用できます。
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計された Campaign モジュールです。
 
-トランザクションメッセージを送信する方法については、[この節](../send/transactional.md)を参照してください。
+![](../assets/do-not-localize/glass.png) トランザクションメッセージの送信方法については、[この節](../send/transactional.md)を参照してください
 
 web サイトでの顧客のアクションに応じて、REST API を介してイベントがキャンペーンに送信され、API 呼び出しを介して提供された情報またはデータがメッセージテンプレートに入力され、トランザクションメッセージがリアルタイムで顧客に送信されます。 これらのメッセージは、個別に送信することも、E メール、SMS またはプッシュ通知を介してまとめて送信することもできます。
 
@@ -57,7 +57,7 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 
 * **コントロールインスタンス**（またはマーケティングインスタンス）は、マーケターや IT チームがメッセージテンプレートの作成、設定および公開に使用します。 このインスタンスは、イベントの監視と履歴も一元化します。
 
-   メッセージテンプレートの作成と公開の方法については、[この節](../send/transactional.md)を参照してください。
+   ![](../assets/do-not-localize/glass.png) メッセージテンプレートの作成と公開の方法については、[この節](../send/transactional.md)を参照してください。
 
 * **実行インスタンス**&#x200B;は、受信イベント（パスワードのリセットや web サイトからの注文など）を取得し、パーソナライズされたメッセージを送信します。 ロードバランサーを介してメッセージを処理し処理対象のイベントの数をスケーリングして可用性を最大限に高めるため、複数の実行インスタンスを配置することができます。
 
@@ -78,4 +78,4 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 * 複数の実行インスタンス
 ロードバランサーの背後に複数の実行インスタンスがある複数セル実行アーキテクチャでは、外部アプリケーションが呼び出すログオンメソッドはロードバランサーを経由します。そのため、トークンベースの認証は使用できません。 ユーザー／パスワードベースの認証が必要です。
 
-↗️ トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja#about-transactional-messaging-datamodel)を参照してください
+![](../assets/do-not-localize/book.png) トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja#about-transactional-messaging-datamodel)を参照してください

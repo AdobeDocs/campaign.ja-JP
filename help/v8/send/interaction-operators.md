@@ -4,11 +4,10 @@ description: オファー管理オペレーターの作成
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 83%
+source-wordcount: '383'
+ht-degree: 74%
 
 ---
 
@@ -21,9 +20,9 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 ## オファーマネージャーオペレーターの作成{#offer-manager}
 
-1. 新しいオペレーターを作成します。
+1. オペレーターの作成.
 
-   ↗️ Campaignでオペレーターを作成する手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください
+   ![](../assets/do-not-localize/book.png) Campaignでオペレーターを作成する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
 
 1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
 
@@ -37,7 +36,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 * オファーの実施要件を設定する。
 * オファーを承認する。
 
-ワークフローでオファーを使用する場合は、ワークフローを実行するオペレーターを&#x200B;**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;のオペレーターグループに追加する必要があります。
+ワークフローでオファーを使用する場合は、そのワークフローを実行するために、オペレーターを **[!UICONTROL 管理者]** または **[!UICONTROL オファーマネージャー]** オペレーターグループに追加する必要があります。
 
 >[!NOTE]
 >
@@ -45,9 +44,9 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 ## 配信マネージャーオペレーターの作成 {#delivery-manager}
 
-1. 新しいオペレーターを作成します。
+1. オペレーターの作成.
 
-   ↗️ Campaignでオペレーターを作成する手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
+   ![](../assets/do-not-localize/book.png) Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
 
 1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信マネージャー]**」グループを選択します。
 

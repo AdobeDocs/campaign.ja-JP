@@ -2,8 +2,8 @@
 title: Campaign セキュリティのベストプラクティス
 description: Campaign セキュリティのベストプラクティスの概要
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 * 各オペレーターのアクセス権が適切であることを確認する
 * 管理オペレーターの使用を避け、管理グループのオペレーターが多くなりすぎないようにする
 
-↗️ 詳細については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=ja#webapp-operator){target=&quot;_blank&quot;}を参照してください
+![](../assets/do-not-localize/book.png)詳しくは [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=ja#webapp-operator){target=&quot;_blank&quot;}を参照してください
 
 ## コーディングのガイドライン
 
@@ -119,4 +119,4 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-↗️ 詳細については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target=&quot;_blank&quot;}を参照してください
+![](../assets/do-not-localize/book.png)詳しくは [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target=&quot;_blank&quot;}を参照してください

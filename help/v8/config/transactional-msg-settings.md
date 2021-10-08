@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 Managed Cloud Services ユーザーの場合、お使いの環境に Campaign トランザクションメッセージをインストールして設定するには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
-トランザクションメッセージ機能の詳細については、[この節](../send/transactional.md)を参照してください。
+![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../send/transactional.md)を参照してください。
 
-トランザクションメッセージのアーキテクチャについては、[このページ](../dev/architecture.md)を参照してください。
+![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../dev/architecture.md)を参照してください。
 
 ## 権限の定義
 
@@ -28,13 +28,13 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
 コントロールインスタンスまたは実行インスタンスのいずれかで **Message Center テクニカルワークフロー**&#x200B;が使用するスキーマで作成されたすべてのスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールが使用する別のインスタンスに複製する必要があります。
 
-↗️ Message Center テクニカルワークフローの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=ja#technical-workflows)を参照してください
+![](../assets/do-not-localize/book.png) Message Center のテクニカルワークフローに関する詳細は、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=ja#technical-workflows)を参照してください
 
 ## トランザクションプッシュ通知の送信
 
 トランザクションメッセージでは、モバイルアプリチャネルモジュールと組み合わせることで、モバイルデバイスの通知を介してトランザクションメッセージをプッシュすることができます。
 
-↗️ モバイルアプリチャネルの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=ja#sending-messages)を参照してください。
+![](../assets/do-not-localize/book.png) モバイルアプリチャネルの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=ja#sending-messages)を参照してください。
 
 トランザクションプッシュ通知を送信するには、次の設定をおこなう必要があります。
 
@@ -42,7 +42,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
    >[!CAUTION]
    >
-   >新しい Campaign 組み込みパッケージをインストールする前に、使用許諾契約書を確認してください。
+   >新しい Campaign 組み込みパッケージをインストールする前に、使用許諾契約を確認してください。
 
 1. **モバイルアプリケーション**&#x200B;サービスと、関連するモバイルアプリケーションを実行インスタンスに複製します。
 

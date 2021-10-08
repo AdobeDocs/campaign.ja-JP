@@ -6,8 +6,8 @@ feature: Push
 role: Developer
 level: Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 100%
 
@@ -794,7 +794,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign コンソールの専用モバイルアプリケーションサービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
 
-↗️ 詳細については、モバイルアプリに関する **Campaign Classic v7 ドキュメント**&#x200B;で、[iOS の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target=&quot;_blank&quot;}と [Andoid の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+![](../assets/do-not-localize/book.png) 詳しくは、モバイルアプリの **Campaign Classic v7 ドキュメント**：[iOS の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target=&quot;_blank&quot;}と [Andoid の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 次に、通知で追加された変数をモバイルアプリケーションで収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
 

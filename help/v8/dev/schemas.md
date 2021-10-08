@@ -2,8 +2,8 @@
 title: Adobe Campaign スキーマの操作
 description: スキーマの基本を学ぶ
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 100%
 
@@ -97,11 +97,11 @@ Adobe Campaign キャンペーンの組み込みテーブルとそのやり取�
 
 Campaign の中核となるデータスキーマ（受信者テーブル nms:recipient など）にフィールドなどの要素を追加する場合は、スキーマを拡張する必要があります。
 
-詳細については、[スキーマの拡張](extend-schema.md)を参照してください。
+![](../assets/do-not-localize/glass.png) 詳しくは、[スキーマの拡張](extend-schema.md)を参照してください。
 
 Adobe Campaign に存在しないまったく新しいタイプのデータ（契約書のテーブルなど）を追加する場合は、カスタムスキーマを直接作成することができます。
 
-詳細については、[新しいスキーマの作成](create-schema.md)を参照してください。
+![](../assets/do-not-localize/glass.png) 詳しくは、[スキーマの新規作成](create-schema.md)を参照してください。
 
 ![](assets/schemaextension_1.png)
 
@@ -153,7 +153,7 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーの詳細については、[この節](database-mapping.md#management-of-keys)を参照してください。
+![](../assets/do-not-localize/glass.png) キーの詳細については、[この節](database-mapping.md#management-of-keys)を参照してください。
 
 ## 属性（フィールド） {#attributes--fields-}
 
@@ -163,7 +163,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 すべての属性のリストについては、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ja#content-model)の `<attribute>` 要素の節を参照してください。よく使用される属性には、**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type** などがあります。
 
-↗️ 各属性の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic)の属性に関する説明を参照してください。
+![](../assets/do-not-localize/book.png) 各属性の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic)の属性に関する説明を参照してください。
 
 ### 例 {#examples}
 

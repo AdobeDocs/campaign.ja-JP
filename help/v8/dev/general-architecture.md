@@ -2,10 +2,10 @@
 title: 一般的なアーキテクチャ
 description: Campaign のアーキテクチャとコンポーネントの詳細
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 100%
 
 * **クライアントコンソール**：アプリケーションの主要なユーザーインターフェイスは、（Windows 上の）ネイティブアプリケーションであり、標準のインターネットプロトコル（SOAP、HTTP など）で Adobe Campaign アプリケーションサーバーと通信します。Adobe Campaign クライアントコンソールは、生産性を向上する使いやすさを備え、帯域幅をほとんど使用せず（ローカルキャッシュを使用）、デプロイメントが容易になるよう設計されています。 このコンソールはインターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク構成は不要です。
 
-   [Campaign クライアントコンソールの詳細については、こちらを参照](../start/connect.md)してください。
+   ![](../assets/do-not-localize/glass.png) [Campaign クライアントコンソールの詳細情報細](../start/connect.md)。
 
-* **Web アクセス**：アプリケーションの一部の機能（レポートモジュール、配信承認段階、インスタンス監視など）には、HTML ユーザーインターフェイスを使用してシンプルな web ブラウザからアクセスできます。
+* **Web アクセス**：アプリケーションの一部の機能（レポートモジュール、配信の承認段階、インスタンスの監視など）へは、HTML ユーザーインターフェイスを使用してシンプルな web ブラウザーからアクセスできます。
 
-   [Campaign への web アクセスの詳細については、こちらを参照](../start/connect.md)してください。
+   ![](../assets/do-not-localize/glass.png) [Campaign Web アクセスの詳細情報](../start/connect.md)。
 
-* **Campaign API**：場合によっては、SOAP プロトコルで公開されている Web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。
+* **Campaign API**：SOAP プロトコルで公開されている Web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。
 
-   [Campaign API の詳細については、こちらを参照](../dev/api.md)してください。
+   ![](../assets/do-not-localize/glass.png) [Campaign API の詳細情報](../dev/api.md)。
 
 ## 開発環境 {#dev-env}
 
@@ -124,6 +124,6 @@ Adobe Campaign Cloud データベースは、[!DNL Snowflake]を活用してい�
 
 >[!CAUTION]
 >
->**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって設定されています。 インストール済みの組み込みパッケージ、組み込みのスキーマやレポートなどは変更できません。
+>**Campaign 管理Cloud Services** では、ライセンス契約の条件に従って、環境と初期設定がAdobeによって設定されています。 インストール済みの組み込みパッケージ、組み込みのスキーマやレポートなどは変更できません。
 >
 >Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビのカスタマーサポート**&#x200B;にお問い合わせください。

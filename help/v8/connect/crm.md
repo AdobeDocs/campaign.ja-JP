@@ -4,9 +4,8 @@ description: Campaign と CRM での作業方法を学ぶ
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
@@ -30,11 +29,11 @@ CRM コネクタはセキュア URL（https）でのみ動作します。
 
 ## 実装手順 {#crm-implementation-steps}
 
-↗️ Campaign と Microsoft Dynamics を接続する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ja#microsoft-dynamics-implementation-steps)を参照してください
+![](../assets/do-not-localize/book.png) Campaign と Microsoft Dynamics を接続する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ja#microsoft-dynamics-implementation-steps)を参照してください。
 
-↗️ Campaign と Salesforce を接続する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=ja#getting-started)を参照してください
+![](../assets/do-not-localize/book.png) Campaign と Salesforce を接続する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-sfdc.html?lang=ja#getting-started)を参照してください。
 
 
 Adobe Campaign と CRM は、専用のワークフローアクティビティでデータを同期します。Campaign と CRM の同期を自動化するワークフローを作成します。 Microsoft Dynamics 経由で読み込んだ連絡先を、既存の Adobe Campaign データと同期し、重複する連絡先は削除してから、Adobe Campaign のデータベースを更新するワークフローを作成できます。
 
-↗️ 詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=ja#getting-started)を参照してください
+![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=ja#getting-started)を参照してください。

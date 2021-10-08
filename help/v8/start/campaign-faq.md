@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    Adobe Campaign に接続するには、Campaign クライアントコンソールをダウンロードしてインストールする必要があります。
 
-   [詳しくはここをクリック](connect.md)してください。
+   ![](../assets/do-not-localize/glass.png) [詳しくは、ここをクリックしてください](connect.md)。
 
 1. **Campaign v8 をオンプレミス環境またはハイブリッド環境にインストールすることはできますか？**
 
@@ -38,9 +38,9 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要な要素であり、条件とルールが常に変化し続けるという特徴があります。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
-   ↗️ 詳細については、[配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}のガイドを参照してください
+   ![](../assets/do-not-localize/book.png)詳しくは、[配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}のガイドを参照してください。
 
-   ↗️ Campaign に配信品質を実装する方法については、[このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target=&quot;_blank&quot;}を参照してください
+   ![](../assets/do-not-localize/book.png) Campaign に配信品質を実装する方法については、[このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 1. **配信がエラーなしで送信されたことを確認するにはどうすればよいですか？**
 
@@ -50,7 +50,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **ワークフローの実行を監視できますか？**
 
-   ↗️ Campaign ワークフローの実行を監視する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ja){target=&quot;_blank&quot;}を参照してください
+   ![](../assets/do-not-localize/book.png) Campaign ワークフローの実行を監視する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 1. **Campaign v8 と互換性があるシステムやコンポーネントはどれですか？**
 

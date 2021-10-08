@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaign には、一連の組み込みテクニカルワークフロー�
 
 これらのワークフローでは、データベースに対する保守操作の実行、配信ログのトラッキング情報の利用、繰り返しキャンペーンの作成などを行います。
 
-↗️ テクニカルワークフローの完全なリストについて詳しくは、[>Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}を参照してください
+![](../assets/do-not-localize/book.png) テクニカルワークフローの完全なリストについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja)を参照してください{target=&quot;_blank&quot;}
 
 
 これらのテクニカルワークフローに加えて、キャンペーン v8 では、[データレプリケーション](#data-replication)を管理するための特定のテクニカルワークフローも利用します。
@@ -76,6 +76,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **関連トピック**
 
-↗️ ワークフローの基礎知識については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;}を参照してください
+![](../assets/do-not-localize/book.png) ワークフローの使用を開始する方法については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;} を参照してください
 
-データ保持期間については、[この節](../dev/datamodel-best-practices.md#data-retention)を参照してください
+![](../assets/do-not-localize/glass.png) データ保持期間については、[この節](../dev/datamodel-best-practices.md#data-retention)を参照してください

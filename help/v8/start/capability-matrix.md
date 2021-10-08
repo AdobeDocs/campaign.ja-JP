@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 [!DNL Campaign Classic] ユーザーの場合、[!DNL Campaign Classic] v7 のほとんどの機能は [!DNL Campaign] v8 で利用できます。ただし、[この節](#gs-removed)に記載されている機能を除きます。その他は、将来のリリースで提供される予定です。[詳しくは、この節を参照してください。](#gs-unavailable-features)
 
-[!DNL Campaign] v8 アーキテクチャの詳細については、[このページ](../dev/architecture.md)を参照してください。
+![](../assets/do-not-localize/glass.png)[!DNL Campaign] v8アーキテクチャの詳細については、[このページ](../dev/architecture.md)を参照してください。
 
 ## 製品設定の変更
 
@@ -73,7 +73,7 @@ Campaign ユーザーは、データベースの専門家である必要はあ�
 
 Campaign ユーザーは、Adobe ID で接続します。同じ Adobe ID を使用して、すべてのアドビプランおよび製品を 1 つのアカウントに関連付けます。
 
-[!DNL Campaign] に接続する方法については、[このページ](connect.md)を参照してください。
+![](../assets/do-not-localize/glass.png) への接続方法については、このペ [!DNL Campaign] ージ [を参照してください](connect.md)。
 
 ## レポート
 
@@ -85,7 +85,7 @@ Campaign v8 では、「**[!UICONTROL データソースを変更]**」という
 
 「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフローの&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更して、FDA、FFDA、ローカルデータベースなどの様々なデータソースにわたってデータを管理できます。
 
-「**[!UICONTROL データソースを変更]**」アクティビティの詳細については、[このページ](../config/workflows.md#change-data-source-activity)を参照してください。
+![](../assets/do-not-localize/glass.png) データソースの変更ア **[!UICONTROL クティビティ]** について詳 [しくは、このページ](../config/workflows.md#change-data-source-activity)を参照してください。
 
 ## 使用できない機能{#gs-unavailable-features}
 

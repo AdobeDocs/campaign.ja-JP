@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 **エンリッチメント**&#x200B;アクティビティを使用すると、配信の受信者へのオファーに、オファーやリンクを追加できます。
 
-↗️ エンリッチメントアクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html?lang=ja)を参照してください
+![](../assets/do-not-localize/book.png) エンリッチメントアクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html?lang=ja)を参照してください
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
@@ -165,7 +165,7 @@ ht-degree: 100%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンに対する呼び出しを指定できます。
 
-↗️ **オファーエンジン**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html?lang=ja)を参照してください
+![](../assets/do-not-localize/book.png) **オファーエンジン**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html?lang=ja)を参照してください。
 
 このアクティビティは、**エンリッチメント**&#x200B;アクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信前にエンジンで計算したオファーでインバウンド母集団のデータを強化します。
 
@@ -188,7 +188,7 @@ ht-degree: 100%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-↗️ **セル別オファー**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html?lang=ja)を参照してください
+![](../assets/do-not-localize/book.png) **セル別オファー**&#x200B;アクティビティの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html?lang=ja)を参照してください。
 
 それには、次の手順に従います。
 
