@@ -4,7 +4,8 @@ description: Campaign と Adobe Target の連携方法について説明しま�
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
@@ -20,7 +21,7 @@ Campaign と Target を接続すると、Adobe Target からのオファーを A
 >[!NOTE]
 >この統合では、静的画像のみをサポートします。その他のタイプのコンテンツはパーソナライズできません。
 
-Managed Cloud Services ユーザーの場合、Experience Cloudトリガーを Campaign に実装するには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Experience Cloud トリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください 。
 
 Adobe Target では、次の種類のデータを使用できます。
 

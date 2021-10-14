@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: c3ed24e16d5a8bc67b8a8c959bbf485ea0fd919c
-workflow-type: ht
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -36,12 +36,12 @@ Adobe Campaign には、キャンペーンマネージャーやワークフロ�
 
 オペレーターは、クライアントコンソールでオペレーターのプロファイルからセキュリティゾーンにリンクされます。オペレーターのプロファイルは、**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードでアクセスできます。
 
-Managed Cloud Services ユーザーの場合は、ユーザーに代わってアドビがセキュリティゾーンを設定します。詳しくは、[アドビにお問い合わせ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}ください。
+![](../assets/do-not-localize/speech.png)  管理対象Cloud Servicesユーザーの場合、Adobeはセキュリティゾーンを設定します。詳しくは、[アドビにお問い合わせ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}ください。
 
 詳しくは、**Campaign Classic v7 ドキュメント**&#x200B;を参照してください
 
 * [組み込みのネームド権限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html?lang=ja){target=&quot;_blank&quot;}
 
-* [組み込みのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=ja#default-groups){target=&quot;_blank&quot;}
+* [組み込みのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
 
 * [権限の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja){target=&quot;_blank&quot;}

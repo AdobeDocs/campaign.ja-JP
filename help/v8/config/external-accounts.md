@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 次の技術アカウントは、Adobe Campaign で特定のプロセスを有効にして実行するために使用されます。
 
-Managed Cloud Services ユーザーの場合、アドビはユーザーの Campaign 固有の外部アカウントをすべて設定します。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして、アドビは、Campaign 固有の外部アカウントすべてを設定します。
 
 * **バウンスメール（POP3）**
 
@@ -80,14 +80,14 @@ Managed Cloud Services ユーザーの場合、アドビはユーザーの Campa
 
    ![](../assets/do-not-localize/glass.png)Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
-   Managed Cloud Services ユーザーの場合、Adobe Analytics を Campaign と統合するには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+   ![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Adobe Analytics を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
    * **Adobe Experience Manager**
    **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
 
    ![](../assets/do-not-localize/glass.png)Adobe Campaign と Adobe Analytics の統合について詳しくは、[このペ ージ](../connect/ac-aem.md)を参照してください。
 
-   Managed Cloud Services ユーザーの場合、Adobe Experience Manager を Adobe Campaign と統合するには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+   ![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Adobe Experience Manager を Adobe Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 
 ## CRM コネクタの外部アカウント

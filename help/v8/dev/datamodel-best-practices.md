@@ -2,7 +2,7 @@
 title: データモデルのベストプラクティス
 description: Adobe Campaign データモデル拡張のベストプラクティスを説明します
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 100%
@@ -175,7 +175,7 @@ Adobe Campaign 内のレコードの必要性を最小限に抑えるには、�
 
 「deleteStatus」属性はスキーマで宣言できます。 レコードを削除済みとマークしてから、後でクリーンアップタスクで削除する方が効率的です。
 
-Managed Cloud Services ユーザーとして、保持の詳細について確認する場合やカスタムテーブルに保持の設定が必要な場合は、アドビコンサルタントまたは技術管理者にお問い合わせください。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services のユーザーとしてリテンションの詳細を確認する場合や、カスタムテーブルにリテンションを設定する必要がある場合は、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 
 ## パフォーマンス {#performance}
 

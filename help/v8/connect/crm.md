@@ -4,7 +4,8 @@ description: Campaign と CRM での作業方法を学ぶ
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
@@ -25,7 +26,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 サポートされている CRM とそのバージョンについて詳しくは、Campaign の[互換性マトリックス](../start/compatibility-matrix.md)を参照してください。
 
-CRM コネクタはセキュア URL（https）でのみ動作します。
+![](../assets/do-not-localize/speech.png) CRM コネクタはセキュア URL（https）でのみ動作します。
 
 ## 実装手順 {#crm-implementation-steps}
 

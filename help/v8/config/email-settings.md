@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
@@ -31,7 +31,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 
 * 正常に送信されたメールのみが対象となり、バウンスメールは含まれません。
 
-Managed Cloud Services ユーザーの場合、Campaign の「BCC で E メールを送信」を有効にするには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。BCC に設定するメールアドレスをアドビ システムズにご提供いただく必要があります。
+![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして「BCC でメールを送信」を Campaign で有効化する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。BCC に設定するメールアドレスをアドビ システムズにご提供いただく必要があります。
 
 「BCC でメールを送信」を設定したら、配信テンプレートまたは「**BCC でメールを送信**」オプション経由の配信で、その機能が有効になっていることを確認します。
 

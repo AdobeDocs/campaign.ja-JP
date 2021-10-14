@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 96%
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 # トランザクションメッセージの設定
 
-Managed Cloud Services ユーザーの場合、お使いの環境に Campaign トランザクションメッセージをインストールして設定するには、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../send/transactional.md)を参照してください。
 
