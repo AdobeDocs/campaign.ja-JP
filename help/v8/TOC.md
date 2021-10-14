@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 98%
+source-wordcount: '208'
+ht-degree: 97%
 
 ---
 
@@ -85,6 +85,7 @@ ht-degree: 98%
       + [鍵の管理と単一性](dev/keys.md)
       + [スキーマの作成](dev/create-schema.md)
       + [スキーマの拡張](dev/extend-schema.md)
+      + [フィルタースキーマ](dev/filter-schema.md)
       + [スキーマの構造](dev/schema-structure.md)
       + [データベースマッピング](dev/database-mapping.md)
       + [PI ビューの制限](dev/restrict-pi-view.md)
