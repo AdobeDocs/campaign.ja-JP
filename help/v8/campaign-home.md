@@ -4,9 +4,9 @@ description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
