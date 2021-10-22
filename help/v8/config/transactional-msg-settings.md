@@ -6,15 +6,15 @@ role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # トランザクションメッセージの設定
 
-![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../send/transactional.md)を参照してください。
 
@@ -42,7 +42,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
    >[!CAUTION]
    >
-   >新しい Campaign 組み込みパッケージをインストールする前に、使用許諾契約を確認してください。
+   >新しい Campaign 組み込みパッケージをインストールする前に、ライセンス契約を確認してください。
 
 1. **モバイルアプリケーション**&#x200B;サービスと、関連するモバイルアプリケーションを実行インスタンスに複製します。
 
