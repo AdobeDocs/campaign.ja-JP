@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 99%
 
 Campaign を使用すると、クラウドデータベースに連絡先を追加できます。 ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。
 
-![](../assets/do-not-localize/glass.png)[ オーディエンスの概要](audiences.md)
+![](../assets/do-not-localize/glass.png) [オーディエンス](audiences.md)の概要
 
-![](../assets/do-not-localize/glass.png) Campaign データモデルに [ついて](../dev/datamodel.md)
+![](../assets/do-not-localize/glass.png) Campaign [データモデル](../dev/datamodel.md)について
 
 ## ワークフローへのプロファイルのインポート
 
@@ -28,11 +28,11 @@ Campaign を使用すると、クラウドデータベースに連絡先を追�
 
 詳しくは、次の Campaign Classic v7 ドキュメントを参照してください。
 
-* [インポートとエクスポートの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ja){target=&quot;_blank&quot;}
+* [読み込みと書き出しの概要](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=ja){target=&quot;_blank&quot;}
 
-* [インポートとエクスポートのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=ja){target=&quot;_blank&quot;}
+* [読み込みと書き出しのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=ja){target=&quot;_blank&quot;}
 
-* [インポートの設定と実行](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ja){target=&quot;_blank&quot;}
+* [読み込みの設定と実行](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ja){target=&quot;_blank&quot;}
 
 ## 単一インポートの実行
 
