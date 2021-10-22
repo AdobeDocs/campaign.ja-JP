@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。 だからこそ、最新バージョンの Adobe Campaign を実行することが重要であると考えているのです。
 
-   ![](../assets/do-not-localize/speech.png)Managed Cloud Services ユーザーの場合は、新しいリリースが出るたびにアドビがインスタンスをアップグレードします。
+   ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーの場合は、新しいリリースが出るたびにアドビがインスタンスをアップグレードします。
 
 1. **Campaign v8 に接続するにはどうすればよいですか？**
 
@@ -60,7 +60,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 
-   ![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとしてサブドメインをアドビに委任する場合は、アドビにお問い合わせください。
+   ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとしてサブドメインをアドビに委任する場合は、アドビにお問い合わせください。
 
 1. **Campaign Classic v7 ユーザーは、Campaign v8 に移行できますか？**
 
