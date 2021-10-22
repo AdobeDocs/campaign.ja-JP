@@ -4,10 +4,11 @@ description: オファー管理オペレーターの作成
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
-workflow-type: tm+mt
+exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +21,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 ## オファーマネージャーオペレーターの作成{#offer-manager}
 
-1. オペレーターの作成.
+1. オペレーターを作成します。
 
    ![](../assets/do-not-localize/book.png) Campaignでオペレーターを作成する詳細な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
 
@@ -36,29 +37,29 @@ Campaign インタラクションを利用できるオペレーターには、**
 * オファーの実施要件を設定する。
 * オファーを承認する。
 
-ワークフローでオファーを使用する場合は、そのワークフローを実行するために、オペレーターを **[!UICONTROL 管理者]** または **[!UICONTROL オファーマネージャー]** オペレーターグループに追加する必要があります。
+ワークフローでオファーを使用する場合は、ワークフローを実行するオペレーターを&#x200B;**[!UICONTROL 管理者]**&#x200B;または&#x200B;**[!UICONTROL オファーマネージャー]**&#x200B;のオペレーターグループに追加する必要があります。
 
 >[!NOTE]
 >
->**オファ** ーマネージャーは、レビュー担当者が指定されていない場合、またはオファーテンプレートでレビュー担当者として宣言されている場合にのみ、オファーを承認します。
+>**オファーマネージャー**&#x200B;は、レビュー担当者が指定されていない場合、またはオファーテンプレートで自身がレビュー担当者として宣言されている場合にのみ、オファーを承認します。
 
 ## 配信マネージャーオペレーターの作成 {#delivery-manager}
 
-1. オペレーターの作成.
+1. オペレーターを作成します。
 
-   ![](../assets/do-not-localize/book.png) Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
+   ![](../assets/do-not-localize/book.png) Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
 
 1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信マネージャー]**」グループを選択します。
 
-配信責任者に割り当てられる権限によって、次のタスクを実行できます。
+配信マネージャーに割り当てられる権限で実行できるタスクは次のとおりです。
 
 * **[!UICONTROL ライブ]**&#x200B;環境を表示する。
 * オファーカテゴリを表示および修正する。
-* オファーがレビュー担当者の場合は承認します。
+* オファーがレビュー担当者の場合は承認する。
 
    >[!NOTE]
    >
-   >**配信マ** ネージャーは、オファー設定でレビュー担当者として宣言されている場合にのみ、オファーを承認できます。
+   >**配信マネージャー**&#x200B;がオファーを承認できるのは、オファーの設定時に、自身がレビュー担当者として定義されている場合に限られます。
 
 ## インタラクションオペレーターごとの権限マトリックス {#recap-of-rights-according-to-operator}
 
@@ -66,7 +67,7 @@ Campaign インタラクションを利用できるオペレーターには、**
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>オファーマネージャー（デザイン環境）</strong><br /> </td> 
+   <td> <strong>オファーマネージャー（設計環境）</strong><br /> </td> 
    <td> <strong>オファーマネージャー（ライブ環境）</strong><br /> </td> 
   </tr> 
   <tr> 
