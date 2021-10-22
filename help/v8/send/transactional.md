@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1549'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらのメッセージは、情報システムからトリガーされたイベントから生成されます。例えば、請求書、オーダー確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、Web サイトアカウント作成などのメッセージがあります。
 
-![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 トランザクションメッセージは、次の送信に使用します。
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->トランザクションメッセージには特定のライセンスが必要です。 ライセンス契約をご確認ください。
+>トランザクションメッセージを利用するには特定のライセンスが必要です。ライセンス契約をご確認ください。
 
 ## トランザクションメッセージのテンプレートの定義
 
@@ -151,7 +151,7 @@ ht-degree: 98%
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-![](../assets/do-not-localize/book.png) 配達確認の詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;} を参照してください
+![](../assets/do-not-localize/book.png) 配達証明の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}を参照してください
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 
