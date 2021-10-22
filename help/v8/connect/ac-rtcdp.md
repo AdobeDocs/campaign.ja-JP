@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1e09eae-339e-4d14-9071-097dfcc635aa
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
@@ -20,4 +20,4 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/book.png) Campaign で RTCDP を実装して使用する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=ja#integrating-with-adobe-experience-cloud)を参照してください。
 
-![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして RTCDP を Campaign と統合する場合は、[アドビ](../start/campaign-faq.md#support)にお問い合わせください。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして RTCDP を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
