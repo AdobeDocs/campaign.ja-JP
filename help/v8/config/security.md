@@ -3,7 +3,7 @@ title: Campaign セキュリティのベストプラクティス
 description: Campaign セキュリティのベストプラクティスの概要
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 * 暗号化されたパスワードが制限されていることを確認する
 * ミラーページや Web アプリケーションなどのように、個人情報を含む可能性があるページを保護します。
 
-![](../assets/do-not-localize/speech.png) アドビは Managed Cloud Services ユーザーであるお客様と協力して、これらの設定をお客様の環境に実装します。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーの場合は、アドビはお客様と協力して、これらの設定をお客様の環境に実装します。
 
 ## パーソナライゼーション
 
