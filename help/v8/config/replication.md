@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
 source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,6 +76,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **関連トピック**
 
-![](../assets/do-not-localize/book.png) ワークフローの使用を開始する方法については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;} を参照してください
+![](../assets/do-not-localize/book.png) ワークフローの概要については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;}を参照してください
 
 ![](../assets/do-not-localize/glass.png) データ保持期間については、[この節](../dev/datamodel-best-practices.md#data-retention)を参照してください
