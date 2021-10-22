@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1213'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->**Campaign 管理Cloud Services** では、ライセンス契約の条件に従って、環境と初期設定がAdobeによって設定されています。 インストール済みの組み込みパッケージ、組み込みのスキーマやレポートなどは変更できません。
+>**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって設定されています。インストール済みの組み込みパッケージ、組み込みのスキーマやレポートなどは変更できません。
 >
 >Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビのカスタマーサポート**&#x200B;にお問い合わせください。
 
@@ -49,7 +49,7 @@ Adobe Campaign のセキュリティガイドラインと原則については�
 
 ### ユーザーの追加と権限の付与
 
-ユーザーを手動で Campaign に追加し、ロール階層に合わせてグループに関連付けることができます。 その後、ユーザーはログインし、適切なデータと権限にアクセスできます。
+Campaign にユーザーを手動で追加し、それらのユーザーを、役割の階層に合わせてグループに関連付けることができます。その後、ユーザーはログインして、適切なデータと権限にアクセスできます。
 
 ![](../assets/do-not-localize/book.png) Adobe Campaign にユーザーを追加する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
 
@@ -69,7 +69,7 @@ Adobe Campaign のセキュリティガイドラインと原則については�
 
    ![](../assets/do-not-localize/glass.png) [ プロファイルの読み込み方法を学ぶ](import.md)。
 
-   オーディエンスはリストにグループ化され、ワークフローを通じて作成できます。 その後、クロスチャネル配信でターゲットに設定できます。
+   オーディエンスはリストにグループ化され、ワークフローを通じて作成できます。その後、クロスチャネル配信でターゲットに設定できます。
 
    ![](../assets/do-not-localize/glass.png) [ オーディエンスの定義方法を学ぶ](audiences.md)。
 
@@ -77,7 +77,7 @@ Adobe Campaign のセキュリティガイドラインと原則については�
 
    キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。組み込みテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。 ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
 
-   ![](../assets/do-not-localize/book.png) [電子メールテンプレートの詳細](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [メールテンプレートの詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target=&quot;_blank&quot;}
 
    ![](../assets/do-not-localize/book.png)Campaign テンプレートの使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ja#orchestrating-campaigns){target=&quot;_blank&quot;}を参照してください。
 
