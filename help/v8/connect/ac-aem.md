@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
 ht-degree: 100%
 
@@ -24,4 +24,4 @@ Adobe Campaign でメールやランディングページを編集するとき�
 
 ![](../assets/do-not-localize/book.png) [この統合については、エンドツーエンドのサンプルをご確認してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=ja#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services のユーザーとして Adobe Experience Manager を Campaign と統合する場合は、[アドビお問い合わせ](../start/campaign-faq.md#support)にください。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Adobe Experience Manager を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
