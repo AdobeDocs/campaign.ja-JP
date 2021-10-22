@@ -3,9 +3,9 @@ title: 一般的なアーキテクチャ
 description: Campaign のアーキテクチャとコンポーネントの詳細
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1217'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -124,6 +124,6 @@ Adobe Campaign Cloud データベースは、[!DNL Snowflake]を活用してい�
 
 >[!CAUTION]
 >
->**Campaign 管理Cloud Services** では、ライセンス契約の条件に従って、環境と初期設定がAdobeによって設定されています。 インストール済みの組み込みパッケージ、組み込みのスキーマやレポートなどは変更できません。
+>**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって策定されています。インストール済みの組み込みパッケージ、組み込みのスキーマやレポートなどは変更できません。
 >
 >Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビのカスタマーサポート**&#x200B;にお問い合わせください。
