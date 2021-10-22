@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
 
-![](../assets/do-not-localize/book.png) 詳しくは、Campaign [Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;} を参照してください。
+![](../assets/do-not-localize/book.png) 詳しくは、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
->
 > 次の機能は、Campaign v8 ではまだサポートされていません。
 >
 >* サブドメインの管理
 >* 証明書の管理
+
 >
 
 
