@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 83874f4d124d7892f99e973684b1e8ee571f31e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -33,18 +33,18 @@ Campaign クライアントコンソールを使用するには、次のオペ�
 
 >[!NOTE]
 >
->Adobe Campaign Server とクライアントコンソールは、同じバージョンである必要があります。 [バージョンの確認方法を説明します](#version)。
+>Adobe Campaign Server とクライアントコンソールは、同じバージョンである必要があります。[バージョンの確認方法を説明します](#version)。
 
 ## CRM コネクタ{#CRMconnectors}
 
-Adobe Campaignと互換性のある顧客関係管理 (CRM) システムを次に示します。 [詳細情報](../connect/crm.md)。
+Adobe Campaign と互換性のある顧客関係管理（CRM）システムを次に示します。[詳細情報](../connect/crm.md)。
 
 * **Salesforce** コネクタ API バージョン 49
 * **Microsoft Dynamics** コネクタ、Web API：Dynamics 365 オンプレミスおよびオンライン
 
 ## Federated Data Access（FDA）{#FederatedDataAccessFDA}
 
-Adobe Campaign Federated Data Access(FDA) モジュールと互換性のある外部データベースを以下に示します。 [詳細情報](../connect/fda.md)。
+Adobe Campaign Federated Data Access（FDA）モジュールと互換性のある外部データベースを以下に示します。[詳細情報](../connect/fda.md)。
 
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
@@ -53,14 +53,14 @@ Adobe Campaign Federated Data Access(FDA) モジュールと互換性のある�
 
 ## Mobile SDK{#MobileSDK}
 
-Campaign を使用して、関連するモバイル SDK を使用して、以下に示すオペレーティングシステムで [ プッシュ通知 ](../send/push.md) を送信できます。
+Campaign では、関連する Mobile SDK を使用して、以下に示すオペレーティングシステムで[プッシュ通知](../send/push.md)を送信できます。
 
 * **Android** 7.x、8.x、9.0、Campaign Android SDK ビルド 1.1.1
 * **Apple iOS** 9 ～ 14、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョン
 
 ## Web アクセス
 
-次のブラウザーは、[Web Access](connect.md#web-access) の Campaign と互換性があります。
+次のブラウザーは Campaign for [Web Access](connect.md#web-access) と互換性があります。
 
 * **Microsoft Edge**、**Mozilla Firefox**、**Google Chrome**、**Safari** (最新バージョン)
 
