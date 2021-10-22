@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: a2ab85c3-ef5f-49fd-a6c4-2fd397c8d21b
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
 ht-degree: 100%
 
@@ -18,4 +18,4 @@ Experience Cloud トリガーを使用すると、パイプラインを使用し
 
 Adobe Campaign と Experience Cloud のトリガーの詳細については、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=ja)を参照してください。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services のユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
