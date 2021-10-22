@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Adobe Campaign にはいくつかのコネクタが付属しており、それ�
 
 実装を最新化し、Adobe Experience Cloud のすべての機能を活用します。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services のユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 キャンペーン v8 は以下と接続できます。
 
