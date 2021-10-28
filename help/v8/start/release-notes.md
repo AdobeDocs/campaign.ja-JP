@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: ca4adc12700f0507e6cc43a104e0cf2987aa5883
+source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 50%
+source-wordcount: '1581'
+ht-degree: 51%
 
 ---
 
@@ -68,7 +68,6 @@ _2021年10月28日（PT）_
 **改善点**
 
 * Snowflakeコネクタのパフォーマンスが向上しました。
-* サーバー設定ファイル (serverConf.xml) で、更新とコミットレプリケーションの間の待ち時間をスキーマごとに、その場で設定できるようになりました。
 * 監視およびテストの目的で、 **[!UICONTROL ステージングデータをレプリケート]** ワークフローに、FFDA(Full Federated Data Access) データベースに送信されたレコードの数が含まれるようになりました。
 * 「 SQL コード」アクティビティで、SQL スクリプトを格納するデータベースを選択できるようになりました。デフォルトのデータソースまたは選択したアクティブな FDA 外部アカウント。
 * 事前定義済みの一連のウェアハウスが使用可能になり、セグメント化、ETL、ピークなどの様々なクエリを並行して実行できるようになりました。 [詳細を表示](../config/workflows.md)
