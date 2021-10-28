@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 92%
 
 ---
 
@@ -112,31 +112,30 @@ ht-degree: 100%
 
    ![](assets/offer_update_status_002.png)
 
-<!--
-**Inbound interaction**
 
-The **[!UICONTROL Storage]** tab lets you define statuses for **proposed** and **accepted** offer propositions only. For inbound interaction, the status of offer propositions should be specified directly in the URL for calling the offer engine, rather than through the interface. This way, you will be able to specify which status to apply in other cases, for example if an offer proposition is rejected.
+**インバウンドインタラクション**
+
+「**[!UICONTROL ストレージ]**」タブでは、**提案**&#x200B;および&#x200B;**承認**&#x200B;されたオファーの提案に対してのみステータスを定義できます。インバウンドインタラクションの場合、オファーの提案のステータスは、インターフェイスを通じてではなく、オファーエンジンを呼び出すための URL で直接指定する必要があります。 こうすることで、オファーの提案が却下された場合など、その他の場合に適用されるステータスを指定できるようになります。
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
-For instance, the proposition (identifier **40004**) that matches the **Home insurance** offer displayed on the **Neobank** site contains the following URL:
+例えば、**Neobank** サイトに表示される **Home insurance** オファーに合致する提案（識別子 **40004**）には、次の URL が含まれます。
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
-As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL Accepted]** status (value **3**) is applied to the proposition and the visitor is redirected to a new page of the **Neobank** site to take out the insurance contract.
+訪問者がこのオファー（URL）をクリックすると、**[!UICONTROL 許可済み]**&#x200B;ステータス（値 **3**）が提案に適用され、訪問者は、保険契約に関する **Neobank** サイトの新しいページにリダイレクトされます。
 
 >[!NOTE]
 >
->If you want to specify another status in the url (for example if an offer proposition is rejected), use the value corresponding to the desired status. Example: **[!UICONTROL Rejected]** = "5", **[!UICONTROL Presented]** = "1" and so on.
+>URL で別のステータスを指定する場合（オファーの提案が却下された場合など）は、望ましいステータスに対応する値を使用します。例：**[!UICONTROL 却下]** = &quot;5&quot;、**[!UICONTROL 提示済み]** = &quot;1&quot; など。
 >
->Statuses and their values can be retrieved in the **[!UICONTROL Offer propositions (nms)]** data schema. For more on this, refer to [this page](../../configuration/using/data-schemas.md).
+>ステータスとその値は、「**[!UICONTROL オファーの提案（nms）]**」 データスキーマで取得できます。詳しくは、[このページ](../dev/create-schema.md)を参照してください。
 
-**Outbound interaction**
--->
+**アウトバウンドインタラクション**
 
 配信にリンクが含まれる場合は、オファーの提案に&#x200B;**[!UICONTROL 関心あり]**&#x200B;のステータスを自動適用できます。 単に **_urlType=&quot;11&quot;** という値をリンクに付加します。
 
@@ -154,6 +153,7 @@ As soon as a visitor clicks the offer, and therefore the URL, the **[!UICONTROL 
 
 ![](assets/offer_space_overview_001.png)
 
-<!--
-The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to Extension example.
--->
+
+1 つのスペースのみに限定されている場合、プレビューではコンテキストを無視できます。これは、インバウンドチャネルを使用して 1 つのスペースで参照されるフィールドを追加するようにインタラクションスキーマが拡張された場合です。
+
+![](../assets/do-not-localize/book.png)  詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target=&quot;_blank&quot;}。

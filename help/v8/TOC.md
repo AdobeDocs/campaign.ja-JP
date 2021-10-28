@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 86%
 
 ---
 
@@ -48,8 +48,10 @@ ht-degree: 100%
    + [LINE メッセージ](send/line.md)
    + [ダイレクトメール](send/direct-mail.md)
    + [トランザクションメッセージ](send/transactional.md)
-   + オファーを追加{#interaction}
-      + [インタラクションの概要](send/interaction.md)
+   + Campaign インタラクションでオファーを管理{#interaction}
+      + [リアルタイムインタラクションの概要](send/interaction.md)
+      + [環境とアーキテクチャ](send/interaction-architecture.md)
+      + [ベストプラクティス](send/interaction-best-practices.md)
       + 設定の定義{#interaction}
          + [オペレーターの作成](send/interaction-operators.md)
          + [環境の作成](send/interaction-env.md)
@@ -57,7 +59,12 @@ ht-degree: 100%
          + [オファースペースの作成](send/interaction-offer-spaces.md)
       + [オファーカタログの作成](send/interaction-offer-catalog.md)
       + [オファーの作成](send/interaction-offer.md)
-      + [オファーの送信](send/interaction-send-offers.md)
+      + [オファーの送信 （送信）](send/interaction-send-offers.md)
+      + オファーの提示（インバウンド）{#inbound}
+         + [コンテキスト](send/interaction-present-offers.md)
+         + [Web ページでのオファーの呼び出し](send/interaction-integration.md)
+         + [匿名インタラクションの管理](send/anonymous-interactions.md)
+      + [レポートと履歴](send/interaction-tracking.md)
       + [ユースケース](send/interaction-use-cases.md)
 + 設定 {#config}
    + [ワークフローを使用した自動化](config/workflows.md)

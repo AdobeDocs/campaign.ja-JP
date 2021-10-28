@@ -5,8 +5,8 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
-workflow-type: ht
+source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 100%
 
@@ -24,7 +24,6 @@ Adobe Campaign では、**受信者**&#x200B;とは、配信（メール、SMS �
 
 プロファイルは、リストにグループ化することも、データベースに対してクエリを実行して収集することもできます。
 
-
 Campaign にプロファイルデータを入力するには、次の方法を使用できます。
 
 * CRM システムなどの外部データソースから[データファイルを読み込む](import.md)
@@ -33,7 +32,6 @@ Campaign にプロファイルデータを入力するには、次の方法を�
 * 次のように、クライアントコンソールを使用してプロファイルを手動で入力します。
 
 ![](assets/create-profile.png)
-
 
 ![](../assets/do-not-localize/book.png) プロファイルの管理方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
@@ -76,6 +74,7 @@ You can monitor the number of active profiles used on your instances directly fr
 
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
+
 
 **関連トピック** Campaign Classic v7 ドキュメント：
 

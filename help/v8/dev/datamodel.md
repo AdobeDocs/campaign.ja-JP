@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: ht
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign には、事前定義済みのデータモデルが付属して�
 
 Adobe Campaign データモデルの基本構造は、次のように説明できます。
 
-* **受信者テーブル**：データモデルは、デフォルトで受信者テーブル（nmsRecipient）であるメインテーブルに基づいています。このテーブルを使用すると、すべてのマーケティングプロファイルを格納できます。
+* **受信者テーブル**：データモデルは、デフォルトで受信者テーブル（nmsRecipient）であるメインテーブルに基づいています。このテーブルには、すべてのマーケティングプロファイルが格納されています。
 
    ![](../assets/do-not-localize/glass.png) 受信者テーブルの詳細については、[この節](#ootb-profiles)を参照してください。
 
@@ -47,7 +47,7 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 
 ## 組み込みプロファイルテーブル {#ootb-profiles}
 
-Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient）は、データモデルを作成するための適切な開始点となります。拡張が容易な定義済みのフィールドとテーブルリンクが多数あります。これは、受信者中心の単純なデータモデルに適合するので、主に受信者をターゲットにする場合に特に便利です。
+Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient）は、データモデルを作成するための適切な開始点となります。事前定義済みのフィールドとテーブルリンクが多数あり、簡単に拡張できます。 これは、受信者中心の単純なデータモデルに適合するので、主に受信者をターゲットにする場合に特に便利です。
 
 標準の受信者テーブルを使用する利点は次のとおりです。
 
@@ -60,7 +60,7 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 ![](../assets/do-not-localize/glass.png) 既存のスキーマを拡張する方法については、[この節](extend-schema.md)を参照してください。
 
-![](../assets/do-not-localize/book.png) 組み込み受信者テーブルの拡張例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table)を参照してください。
+![](../assets/do-not-localize/book.png) 組み込み受信者テーブルの拡張例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table)を参照してください。{target=&quot;_blank&quot;}
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。この方法には制限があり、[この節](custom-recipient.md)で説明します。
 

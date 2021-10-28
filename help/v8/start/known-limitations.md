@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+source-git-commit: e41816003958c3373e92d5ea82240fd7ceda5857
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 87%
 
 ---
 
@@ -27,3 +27,4 @@ Adobe Campaign v8 には、次の制限があります。
 * 購読（オプトイン）と購読解除（オプトアウト）のメカニズム、およびモバイル登録は非同期のプロセスです。 リクエストは、特定のテクニカルワークフローを通じて 1 時間ごとに処理されます。 [詳細情報](../config/replication.md#tech-wf)
 * 重複は、エンドユーザーが手動で処理する必要があります。 [詳細情報](../dev/keys.md)
 * Adobe Campaign v8 は、API および Web アプリケーションでの拡張スループットをサポートしていません。 具体的なニーズがある場合は、Adobe にお問い合わせください。
+* Adobe Campaign Campaign の最適化モジュールでは、頻度タイポロジルールでスケジュールされた配信は考慮されません。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=en#setting-the-period)を参照してください。

@@ -2,10 +2,10 @@
 title: 一般的なアーキテクチャ
 description: Campaign のアーキテクチャとコンポーネントの詳細
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
-workflow-type: ht
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -117,7 +117,7 @@ Adobe Campaign では、メールの開封とクリック追跡を自動的に�
 
 Adobe Campaign Cloud データベースは、[!DNL Snowflake]を活用しています。これには、ソリューションの機能データ（プロファイル、サブスクリプション、コンテンツなど）、技術データ（配信ジョブ、配信ログ、トラッキングログなど）、作業データ（購入、リード）が含まれています。Adobe Campaign のコンポーネントはすべて、特定のタスクを実行するためにデータベースと通信します。
 
-顧客は、事前定義されたデータベースとスキーマを使用して Adobe Campaign をデプロイできます。この事前定義された環境は、必要に応じて拡張できます。 Adobe Campaign からデータマート内のすべてのデータへは、SQL 呼び出しを介してアクセスします。Adobe Campaign には、ETL（抽出、変換、ロード）ツールを補完する機能も備わっており、システムとの間でのデータの読み込みと書き出しを実行することができます。
+お客様は、事前定義されたデータベースとスキーマを使用してAdobe Campaignをデプロイできます。必要に応じて、この事前定義された環境を拡張できます。 Adobe Campaign からデータマート内のすべてのデータへは、SQL 呼び出しを介してアクセスします。Adobe Campaign には、ETL（抽出、変換、ロード）ツールを補完する機能も備わっており、システムとの間でのデータの読み込みと書き出しを実行することができます。
 
 ![](assets/data-flow-diagram.png)
 

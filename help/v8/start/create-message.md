@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
-workflow-type: ht
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -74,8 +74,8 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 * 動的なパーソナライゼーションフィールドを挿入する。
    ![](../assets/do-not-localize/book.png) パーソナライゼーションフィールドの使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ja)を参照してください{target=&quot;_blank&quot;}
-* 事前に定義されたパーソナライゼーションブロックを挿入する。
-   ![](../assets/do-not-localize/book.png) パーソナライゼーションブロックの詳細と使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ja)を参照してください{target=&quot;_blank&quot;}
+* 事前定義済みのパーソナライゼーションブロックを挿入します。
+   ![](../assets/do-not-localize/book.png) パーソナライゼーションブロックとは何か、およびその使用方法について説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ja){target=&quot;_blank&quot;}
 * 条件付きコンテンツを作成する。
    ![](../assets/do-not-localize/book.png) 条件付きコンテンツの挿入方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ja)を参照してください{target=&quot;_blank&quot;}
 
@@ -100,6 +100,6 @@ Campaign Classic v7 ドキュメントの&#x200B;**関連トピック**：
 
 * [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ja){target=&quot;_blank&quot;}
 
-* [メールのテストと送信](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ja){target=&quot;_blank&quot;}
+* [メールのテストと送信](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
 
 * [配達確認の送信](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}

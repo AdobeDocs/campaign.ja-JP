@@ -5,27 +5,17 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 7bfc83fce93f525cc1182ebc20a1935f014b060a
-workflow-type: ht
-source-wordcount: '252'
-ht-degree: 100%
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 69%
 
 ---
 
 # カスタム受信者テーブルの使用{#gs-ac-custom-recipient}
 
-Adobe Campaign には、組み込みのプロファイルテーブル **nmsRecipient** が付属しています。 このテーブルには、定義済みのフィールドとテーブルが多数あり、簡単に拡張できます。 テーブルの詳細については、[このページ](datamodel.md#ootb-profiles)を参照してください。
+Adobe Campaign には、組み込みのプロファイルテーブル **nmsRecipient** が付属しています。 このテーブルには、簡単に拡張できる定義済みのフィールドとテーブルが多数あります。 テーブルの詳細については、[このページ](datamodel.md#ootb-profiles)を参照してください。
 
 組み込みのテーブル拡張機能には柔軟性がありますが、使用しないフィールドやリンクを削除することはできません。 そのため、Campaign に組み込まれた受信者テーブルの構造とデータモデルが大幅に異なる場合や、プロファイル数が多い場合は、カスタム受信者テーブルの使用が適している可能性があります。ただし、この方法を実装する際には注意が必要です。
 
-この機能を使用すると、Adobe Campaign は外部データベースからのデータを処理することができ、このデータを配信用の一連のプロファイルとして利用できます。 プロセスの実装には次のような制限が含まれます。
-
-* Campaign Cloud データベースとの間で更新のやりとりはありません。テーブルデータは、テーブルをホストするデータベースエンジンを介して直接更新されます。
-* 既存のデータベースで動作するプロセスは、安定している必要があります。
-* 構造が非標準のプロファイルデータベースを使用します。様々な構造の様々なテーブルに保存されたプロファイルへの配信を、単一のインスタンスを使用しておこなう可能性があります。
-
-このセクションでは、Adobe Campaign の既存のテーブルをマッピングするときの注意点と、任意のテーブルに基づいて配信するときに必要な設定について説明します。 エンドユーザー向けの問い合わせインターフェイスのデザイン方法についても説明します。
-
->[!CAUTION]
->
->Adobe Campaign のカスタマイズはエキスパートユーザーのみが実行できます。入力フォームやスキーマデザインに関する専門知識が必要です。
+![](../assets/do-not-localize/book.png) カスタム受信者テーブルを使用するようにインスタンスを設定する方法については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target=&quot;_blank&quot;}。
