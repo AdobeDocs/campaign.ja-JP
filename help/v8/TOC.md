@@ -7,7 +7,7 @@ title: Campaign v8 ドキュメント
 source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 86%
          + [オファースペースの作成](send/interaction-offer-spaces.md)
       + [オファーカタログの作成](send/interaction-offer-catalog.md)
       + [オファーの作成](send/interaction-offer.md)
-      + [オファーの送信 （送信）](send/interaction-send-offers.md)
+      + [オファーの送信（アウトバウンド）](send/interaction-send-offers.md)
       + オファーの提示（インバウンド）{#inbound}
          + [コンテキスト](send/interaction-present-offers.md)
          + [Web ページでのオファーの呼び出し](send/interaction-integration.md)
