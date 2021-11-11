@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
 source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 92%
 
 **インバウンドインタラクション**
 
-「**[!UICONTROL ストレージ]**」タブでは、**提案**&#x200B;および&#x200B;**承認**&#x200B;されたオファーの提案に対してのみステータスを定義できます。インバウンドインタラクションの場合、オファーの提案のステータスは、インターフェイスを通じてではなく、オファーエンジンを呼び出すための URL で直接指定する必要があります。 こうすることで、オファーの提案が却下された場合など、その他の場合に適用されるステータスを指定できるようになります。
+「**[!UICONTROL ストレージ]**」タブでは、**提案**&#x200B;および&#x200B;**承認**&#x200B;されたオファーの提案に対してのみステータスを定義できます。インバウンドインタラクションの場合、オファー提案のステータスは、インターフェイスを介してではなく、オファーエンジンを呼び出すための URL で直接指定する必要があります。こうすることで、オファーの提案が却下された場合など、その他の場合に適用されるステータスを指定できるようになります。
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
@@ -154,6 +154,6 @@ ht-degree: 92%
 ![](assets/offer_space_overview_001.png)
 
 
-1 つのスペースのみに限定されている場合、プレビューではコンテキストを無視できます。これは、インバウンドチャネルを使用して 1 つのスペースで参照されるフィールドを追加するようにインタラクションスキーマが拡張された場合です。
+プレビューでは、特定のスペースに限定されているコンテキストを無視できます。これは、インタラクションスキーマを拡張して、インバウンドチャネルを使用してスペースで参照されるフィールドを追加した場合です。
 
-![](../assets/do-not-localize/book.png)  詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target=&quot;_blank&quot;}。
+![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target=&quot;_blank&quot;}でこのサンプルを参照してください。
