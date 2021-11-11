@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: d21dc1adc46121e5c015deed7ddb84ec6a4ec76f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1735'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 * [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html?lang=ja){target=&quot;_blank&quot;}：クエリー、リスト読み込み、エンリッチメント、和集合など
 * [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html?lang=ja){target=&quot;_blank&quot;}：スケジューラー、分岐、アラート、外部シグナルなど
 * [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：クロスチャネル配信、JavaScript コード、CRM アクティビティ、集計の更新など
-* [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}：ファイル転送、web ダウンロードなど
+* [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：ファイル転送、web ダウンロードなど
 
 ### 「データソースを変更」アクティビティ {#change-data-source-activity}
 
@@ -90,25 +90,25 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 ## 仮想ウェアハウスの管理 {#warehouse}
 
-ワークフローを作成した後、 **[!UICONTROL プロパティ]** ボタンをクリックして設定を確認します。
+ワークフローを作成した後、「**[!UICONTROL プロパティ]**」ボタンを使用して追加のオプションにアクセスし、さらに詳細な設定を行うことができます。
 
-![](../assets/do-not-localize/book.png) 詳細情報： **ワークフローのプロパティ** in [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) **ワークフロープロパティ**&#x200B;について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-次の **[!UICONTROL 実行]** ワークフローのタブ **[!UICONTROL プロパティ]**&#x200B;を使用する場合、ワークフローを様々なウェアハウスにリンクし、ワークロード管理を最適化できます。 詳しくは、 **倉庫**（を参照） [Snowflake文書](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
+ワークフローの&#x200B;**[!UICONTROL プロパティ]**&#x200B;の「**[!UICONTROL 実行]**」タブで、ワークフローを様々なウェアハウスにリンクし、ワークロード管理を最適化することができます。**ウェアハウス**&#x200B;について詳しくは、[Snowflake ドキュメント](https://docs.snowflake.com/ja/user-guide/warehouses-overview.html)を参照してください。
 
 ![](assets/warehouse.png)
 
-ワークフローの目的に応じて、次の 3 つのウェアハウスから選択できます。 **[!UICONTROL ウェアハウス]** ドロップダウン：
+ワークフローの目的に応じて、「**[!UICONTROL ウェアハウス]**」ドロップダウンから次の 3 つのウェアハウスを選択できます。
 
-* **[!UICONTROL デフォルト]** / **[!UICONTROL Campaign]**:は、新しいワークフローを作成する際にデフォルトで設定されます。
+* **[!UICONTROL デフォルト]**／**[!UICONTROL キャンペーン]**：ワークフローの新規作成時にデフォルトで設定されます。
 
-* **[!UICONTROL インポート/エクスポート]**:アクティビティのパフォーマンスを最適化するために、インポートまたはエクスポートワークフローで設定する必要があります。
+* **[!UICONTROL インポート／エクスポート]**：アクティビティのパフォーマンスを最適化するために、インポートワークフローまたはエクスポートワークフローで設定する必要があります。
 
-* **[!UICONTROL キャンペーンバースト]**:は、配信の処理時間を最適化するために、キャンペーンまたは配信ワークフローと共に設定する必要があります。
+* **[!UICONTROL キャンペーンバースト]**：配信の処理時間を最適化するために、キャンペーンワークフローまたは配信ワークフローで設定する必要があります。
 
 >[!NOTE]
 >
->この **[!UICONTROL システム]** warehouse は組み込みワークフローに対してのみ設定されます。
+>**[!UICONTROL システム]**&#x200B;ウェアハウスは組み込みワークフローの場合にのみ設定されます。
 
 ## 繰り返しキャンペーンの設定
 
