@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 * **[!UICONTROL デザイン]**&#x200B;環境を修正する。
 * **[!UICONTROL ライブ]**&#x200B;環境を表示する。
-* 管理機能（事前定義済みのスペースおよびフィルター）を設定する。
+* 管理機能（定義済みスペースおよびフィルター）を設定します。
 * カテゴリを作成および変更する。
 * オファーを作成する。
 * オファーの実施要件を設定する。
@@ -47,7 +47,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 1. オペレーターを作成します。
 
-   ![](../assets/do-not-localize/book.png) Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
+   ![](../assets/do-not-localize/book.png) Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
 
 1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信マネージャー]**」グループを選択します。
 
@@ -59,7 +59,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 
    >[!NOTE]
    >
-   >**配信責任者** オファーを承認できるのは、オファーがオファー設定でレビュー担当者として宣言されている場合のみです。
+   >**配信マネージャー**&#x200B;がオファーを承認できるのは、オファーの設定時にレビュー担当者として指定されている場合に限られます。
 
 ## インタラクションオペレーターごとの権限マトリックス {#recap-of-rights-according-to-operator}
 
