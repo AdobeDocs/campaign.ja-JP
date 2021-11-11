@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 
 ## 組み込みプロファイルテーブル {#ootb-profiles}
 
-Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient）は、データモデルを作成するための適切な開始点となります。事前定義済みのフィールドとテーブルリンクが多数あり、簡単に拡張できます。 これは、受信者中心の単純なデータモデルに適合するので、主に受信者をターゲットにする場合に特に便利です。
+Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient）は、データモデルを構築するための良い出発点となります。拡張が容易な定義済みのフィールドとテーブルリンクが多数あります。これは、受信者中心の単純なデータモデルに適合するので、主に受信者をターゲットにする場合に特に便利です。
 
 標準の受信者テーブルを使用する利点は次のとおりです。
 
