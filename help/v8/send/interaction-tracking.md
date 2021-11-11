@@ -1,21 +1,21 @@
 ---
-title: リアルタイムのインタラクション履歴とレポート
+title: リアルタイムのインタラクション履歴およびレポート
 description: Campaign インタラクションを使用したオファーのトラッキングおよび測定方法について説明します。
 feature: Overview
 role: Data Engineer
 level: Beginner
 source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# リアルタイムのインタラクション履歴とレポート
+# リアルタイムのインタラクション履歴およびレポート
 
 >[!NOTE]
 >
->これらの機能は、オンラインでのみ表示され、 **配信責任者**.
+>これらの機能は、オンライン時にのみ、**配信マネージャー**&#x200B;にのみ表示されます。
 
 ## オファーの提案履歴{#offer-proposition-history}
 
@@ -35,9 +35,9 @@ ht-degree: 76%
 
 ## オファー分析レポート{#offer-analysis-report}
 
-**[!UICONTROL オファー分析]**&#x200B;レポートでは、承認または却下された提案の件数の概要を提供します。
+**[!UICONTROL オファー分析]**&#x200B;レポートは、承認または却下された提案の件数の概要を示します。
 
-統計は、次の 3 つの基準に基づいて並べ替えられます。
+統計は、次の 3 つの条件に基づいて並べ替えられます。
 
 * 日付別：
 
