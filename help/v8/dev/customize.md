@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,9 +69,9 @@ Adobe Campaign インターフェイスでは、受信者、配信、キャン�
 
 ## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}
 
-### ダッシュボードからのデータへのアクセス
+### ダッシュボードからデータへのアクセス
 
-キャンペーンリストには、ナビゲーションやデータの視覚化を容易にする定義済みのフィルターが用意されています。
+キャンペーンリストには、ナビゲーションやデータのビジュアライゼーションを容易にする定義済みフィルターが付属しています。
 
 ![](../assets/do-not-localize/book.png) フィルターオプションの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=ja#about-filtering)を参照してください
 
