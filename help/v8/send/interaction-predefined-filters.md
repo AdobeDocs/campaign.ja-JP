@@ -6,15 +6,15 @@ role: Data Engineer
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # 定義済みフィルターの作成{#creating-pre-defined-filters}
 
-定義済みフィルターを作成して、オファー作成時に再利用しやすい、ターゲット母集団用の実施要件ルールを定義します。 定義済みフィルターは各環境に固有で、オファーのパラメーターが考慮されます。
+定義済みのフィルターを作成すると、オファーの作成時に簡単に再利用できるターゲット母集団の実施要件ルールを定義できます。定義済みフィルターは各環境に固有で、オファーのパラメーターが考慮されます。
 
 定義済みフィルターを作成するには、次の手順に従います。
 
