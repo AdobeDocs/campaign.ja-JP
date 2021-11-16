@@ -3,7 +3,7 @@ title: Campaign における鍵の管理
 description: 鍵の管理の概要
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 100%
 

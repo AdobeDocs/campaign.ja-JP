@@ -3,7 +3,7 @@ title: データベース構造の更新
 description: データベース構造の更新
 exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 100%
 

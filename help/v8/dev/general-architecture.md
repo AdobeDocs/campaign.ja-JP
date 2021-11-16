@@ -3,7 +3,7 @@ title: 一般的なアーキテクチャ
 description: Campaign のアーキテクチャとコンポーネントの詳細
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 

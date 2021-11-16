@@ -3,7 +3,7 @@ title: Campaign のスキーマ構造
 description: Campaign のスキーマ構造
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 100%
 
@@ -348,6 +348,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >
 >* **location/@city** が無効です。**`[location/@city]`** を使用してください。
 >* **`[@email]`** と **@email** は同等です。
+
 >
 
 

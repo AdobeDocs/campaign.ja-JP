@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -81,9 +81,9 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    ![](../assets/do-not-localize/book.png) マーケティングキャンペーンを作成して配信を開始する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=ja#creating-deliveries)を参照してください。{target=&quot;_blank&quot;}
 
-   キャンペーンには、レポート、写真、web ページ、図などの様々なドキュメントを関連付けることができます。
+   レポート、写真、web ページ、図などの様々なドキュメントをキャンペーンに関連付けることができます。
 
-   ![](../assets/do-not-localize/book.png) 関連付けられるドキュメントについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=ja#adding-documents)を参照してください。{target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) 関連ドキュメントの詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=ja#adding-documents){target=&quot;_blank&quot;}
 
 1. **承認プロセスの設定**
 

@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 
 1. オペレーターを作成します。
 
-   ![](../assets/do-not-localize/book.png) Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html?lang=ja)を参照してください。
+   ![](../assets/do-not-localize/book.png) Campaign でオペレーターを作成する詳しい手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)を参照してください。
 
 1. 「**[!UICONTROL グループとネームド権限]**」ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信マネージャー]**」グループを選択します。
 
