@@ -4,7 +4,8 @@ description: トラッキング機能と監視機能の基本を学ぶ
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 76269d65246010af60fda84b388a7c74269e236f
+exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 100%

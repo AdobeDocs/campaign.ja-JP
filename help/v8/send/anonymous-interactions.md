@@ -2,7 +2,8 @@
 product: campaign
 title: 匿名プロファイルへのオファーの提示（インバウンドインタラクション）
 description: 匿名プロファイルにオファーを提示する方法を説明します
-source-git-commit: c19336c84114a0c81563c4d5ae760330d3b284cb
+exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%

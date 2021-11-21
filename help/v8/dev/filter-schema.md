@@ -1,7 +1,8 @@
 ---
 title: Campaign スキーマのフィルタリング
 description: Campaign スキーマのフィルタリング方法を学ぶ
-source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
+exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%

@@ -2,7 +2,8 @@
 product: campaign
 title: オファーの提示（インバウンドインタラクション）
 description: Campaign インタラクションモジュールを使用して最適なオファーを提示する方法を説明します
-source-git-commit: 9712d72dd08291673490b42967fd469353fca67a
+exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%

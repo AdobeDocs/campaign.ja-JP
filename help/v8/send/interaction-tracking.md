@@ -4,7 +4,8 @@ description: Campaign インタラクションを使用したオファーのト�
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+exl-id: 83947f69-9f8e-4829-9a64-fd734d0cde37
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%

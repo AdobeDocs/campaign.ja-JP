@@ -4,7 +4,8 @@ description: Campaign インタラクションアーキテクチャの基本
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
+exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 100%
