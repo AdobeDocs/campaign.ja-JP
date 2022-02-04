@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 89d3ffc7928e1416744f3c54a306b3d39008f2af
+source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1721'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## リリース 8.2.10 {#release-8-2-10}
 
-_2021 年 2 月 2 日_
+_2022 年 2 月 3 日_
 
 **パッチ**
 
