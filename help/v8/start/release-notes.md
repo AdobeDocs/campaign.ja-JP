@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: false
-exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
+exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
+source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 100%
@@ -45,7 +45,7 @@ _2021年10月28日（PT）_
 <tr>
 <td>
 <p>インバウンドチャネルで Real-time Interaction Management を利用できるようになりました。 Campaign インバウンドインタラクションモジュールを使用して、web サイトを訪問したり、コールセンターに連絡したりする際に、顧客に最適なオファーを提示します。この機能は Campaign v8 にオプションとして付属しており、インスタンスで特定の設定が必要です。インバウンドインタラクションモジュールへのアクセスについては、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="../send/interaction-architecture.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../interaction/interaction-architecture.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
