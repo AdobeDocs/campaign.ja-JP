@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Campaign v8 ドキュメント {#campaign-v8}
 
 + [Campaign v8 ドキュメント](campaign-home.md)
-+ 新機能{#start}
++ 新機能{#new}
    + [主な機能](start/whats-new.md)
    + [リリースノート](start/release-notes.md)
    + [既知の制限事項](start/known-limitations.md)
@@ -47,25 +47,26 @@ ht-degree: 100%
    + [プッシュ通知](send/push.md)
    + [LINE メッセージ](send/line.md)
    + [ダイレクトメール](send/direct-mail.md)
+   + [ソーシャルマーケティング](send/twitter.md)
    + [トランザクションメッセージ](send/transactional.md)
-   + Campaign インタラクションでオファーを管理{#interaction}
-      + [リアルタイムインタラクションの概要](send/interaction.md)
-      + [環境とアーキテクチャ](send/interaction-architecture.md)
-      + [ベストプラクティス](send/interaction-best-practices.md)
-      + 設定の定義{#interaction}
-         + [オペレーターの作成](send/interaction-operators.md)
-         + [環境の作成](send/interaction-env.md)
-         + [定義済みフィルターの作成](send/interaction-predefined-filters.md)
-         + [オファースペースの作成](send/interaction-offer-spaces.md)
-      + [オファーカタログの作成](send/interaction-offer-catalog.md)
-      + [オファーの作成](send/interaction-offer.md)
-      + [オファーの送信（アウトバウンド）](send/interaction-send-offers.md)
-      + オファーの提示（インバウンド）{#inbound}
-         + [コンテキスト](send/interaction-present-offers.md)
-         + [Web ページでのオファーの呼び出し](send/interaction-integration.md)
-         + [匿名インタラクションの管理](send/anonymous-interactions.md)
-      + [レポートと履歴](send/interaction-tracking.md)
-      + [ユースケース](send/interaction-use-cases.md)
++ リアルタイムインタラクション{#interaction}
+   + [リアルタイムインタラクションの概要](interaction/interaction.md)
+   + [環境とアーキテクチャ](interaction/interaction-architecture.md)
+   + [ベストプラクティス](interaction/interaction-best-practices.md)
+   + 設定の定義{#interaction-settings}
+      + [オペレーターの作成](interaction/interaction-operators.md)
+      + [環境の作成](interaction/interaction-env.md)
+      + [定義済みフィルターの作成](interaction/interaction-predefined-filters.md)
+      + [オファースペースの作成](interaction/interaction-offer-spaces.md)
+   + [オファーカタログの作成](interaction/interaction-offer-catalog.md)
+   + [オファーの作成](interaction/interaction-offer.md)
+   + [オファーの送信（アウトバウンド）](interaction/interaction-send-offers.md)
+   + オファーの提示（インバウンド）{#inbound}
+      + [コンテキスト](interaction/interaction-present-offers.md)
+      + [Web ページでのオファーの呼び出し](interaction/interaction-integration.md)
+      + [匿名インタラクションの管理](interaction/anonymous-interactions.md)
+   + [レポートと履歴](interaction/interaction-tracking.md)
+   + [ユースケース](interaction/interaction-use-cases.md)
 + 設定 {#config}
    + [ワークフローを使用した自動化](config/workflows.md)
    + [データの管理](config/replication.md)

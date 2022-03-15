@@ -6,10 +6,10 @@ feature: Push
 role: Developer
 level: Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 8417b1b4b7370e2a2eed76e9f1ac395eccf0ac66
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
 ## Android SDK の統合
 
-Android SDK は、JAVA で記述された jar ライブラリです。 Android 開発者は Adobe Campaign と統合し、新しいデバイスの登録、デバイスとユーザーのリンク、動作の追跡などをおこなうことができます。
+Android SDK は、JAVA で記述された jar ライブラリです。 これにより、Android 開発者はAdobe Campaignと統合できます。新しいデバイスの登録、デバイスのユーザーとのリンク、行動の追跡などをおこないます。
 
 このセクションでは、[Google Firebase Cloud Messaging（FCM）](https://firebase.google.com/docs/cloud-messaging/)を実装する Android アプリケーションで Android SDK を使用する方法について説明します。
 
