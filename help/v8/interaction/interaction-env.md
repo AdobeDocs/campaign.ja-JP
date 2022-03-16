@@ -1,14 +1,14 @@
 ---
-title: Campaign インタラクションオペレーター
-description: オファー管理オペレーターの作成
+title: Campaign インタラクション環境
+description: Campaign インタラクション用の環境を作成する方法を説明します
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
-source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
+source-git-commit: 213a10fea36b3b08c1dd8525084d212e191b2fc7
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 97%
 
 ---
 

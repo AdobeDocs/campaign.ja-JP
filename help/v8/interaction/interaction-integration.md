@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: オファーの提示（インバウンドインタラクション）
-description: Campaign インタラクションモジュールを使用して最適なオファーを提示する方法を説明します
+title: Web ページへのオファーの追加
+description: Web ページでのオファーの追加方法を説明します
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
+source-git-commit: 213a10fea36b3b08c1dd8525084d212e191b2fc7
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 100%
+source-wordcount: '1479'
+ht-degree: 99%
 
 ---
 
