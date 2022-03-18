@@ -6,12 +6,13 @@ product: adobe campaign
 feature-set: Campaign
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/campaign.ja-JP
+git-repo: https://github.com/AdobeDocs/campaign.ja-JP
 index: true
 source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: ht
 source-wordcount: '65'
 ht-degree: 100%
+showfeedback: true
 
 ---
 
