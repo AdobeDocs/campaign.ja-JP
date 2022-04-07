@@ -5,16 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 81%
 
 ---
 
 # Adobe Campaign v8 の新機能 {#ac-gs-what-is-new}
 
 Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されました。クラウドデータベース技術である [[!DNL Snowflake]](https://www.snowflake.com/) を活用することで、Adobe Campaign はその速度と拡張性を劇的に改善、管理できる顧客プロファイルの数を大幅に増加、1 時間あたりの配信数やトランザクション数を大幅に向上させます。
+
+## 主な機能{#key-capabilities}
 
 主な機能は次のとおりです。
 
@@ -34,7 +36,7 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 
 ![](assets/home-page.png)
 
-## 規模の拡張と縮小
+## 規模の拡張と縮小{#scale}
 
 Campaign v8 では、ターゲティングから最終的なレポートまで、プロセスのあらゆる段階において規模の拡大・縮小をエンドツーエンドでおこなえます。
 
@@ -42,7 +44,23 @@ Campaign v8 では、ターゲティングから最終的なレポートまで�
 * セグメント化とターゲティングのためのクエリのパフォーマンスと、データの取り込みと取り出しのパフォーマンスを拡張
 * 配信準備の拡大・縮小（数時間から数分まで）
 
-## 簡素化とパフォーマンスの向上
+## セルフサービス管理インターフェイス{#self-service-admin}
+
+製品管理者は、 **キャンペーンCampaign コントロールパネル**.
+
+管理者は、直感的なユーザーインターフェイスを使用して、主要なアセットの使用状況を監視し、IP アドレスの許可リストへの登録、SFTP ストレージの監視、鍵の管理などの高度なタスクを実行できます。 このセルフサービスインターフェイスにより、より柔軟で以下をおこなうことができます。
+
+* Adobeサポートに連絡することなく、自分ですばやく設定に変更を加える
+* 様々なタイミングで様々なビジネスニーズに基づいて設定
+* ニーズごとにアクセス設定を制御することでセキュリティを強化
+
+![](assets/subdomain1.png)
+
+![](../assets/do-not-localize/glass.png) [CampaignCampaign コントロールパネルの詳細](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target=&quot;_blank&quot;}
+
+
+
+## 簡素化とパフォーマンスの向上{#simplification-and-perf-increase}
 
 Campaign v8 では、**完全な Federated Data Access**（FDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。
 

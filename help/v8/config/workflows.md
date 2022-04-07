@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 8417b1b4b7370e2a2eed76e9f1ac395eccf0ac66
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
-source-wordcount: '1735'
-ht-degree: 99%
+source-wordcount: '1733'
+ht-degree: 96%
 
 ---
 
@@ -183,9 +183,9 @@ Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクショ
 
 * [データ更新の調整](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/coordinating-data-updates.html?lang=ja){target=&quot;_blank&quot;}
 
-   別の更新操作を実行する前に、更新プロセスが終了していることを確認する方法について説明します。そのためには、インスタンス変数を設定し、ワークフローの実行を継続して更新をおこなうべきかを判断するため、インスタンスが実行中かどうかをワークフローでテストします。
+   別の更新操作を実行する前に、更新プロセスが終了していることを確認する方法について説明します。これをおこなうには、インスタンス変数を設定し、インスタンスが実行中かどうかワークフローでテストして、ワークフローの実行を続行して更新を実行するかを判断します。
 
-* [概要リストの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/creating-a-summary-list.html?lang=ja){target=&quot;_blank&quot;}
+* [サマリーリストの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/creating-a-summary-list.html?lang=ja){target=&quot;_blank&quot;}
 
    ファイルを収集していくつかのエンリッチメントを加えてから概要リストを作成できる、ワークフローの作成方法を説明します。 この例では、店舗で購入をおこなった顧客の連絡先のリストをベースにします。
 

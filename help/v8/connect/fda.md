@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 100%
+source-wordcount: '1920'
+ht-degree: 99%
 
 ---
 
@@ -92,13 +92,14 @@ Campaign インスタンスを外部データベースに接続するには、�
 
 1. このデータベースに Adobe Campaign からアクセスするには、SQL 関数をデプロイする必要があります。「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 機能をデプロイ]**」ボタンをクリックします。
 
-「**[!UICONTROL パラメーター]**」タブでは、テーブル用およびインデックス用の固有の作業用テーブル領域をそれぞれ定義できます。
+「**[!UICONTROL パラメーター]**」タブでは、テーブル用およびインデックス用の固有のワークテーブル領域をそれぞれ定義できます。
+
 
 [!DNL Snowflake] の場合、コネクタは次のオプションをサポートしています。
 
 | オプション | 説明 |
 |---|---|
-| workschema | 作業用テーブルに使用するデータベーススキーマ |
+| workschema | ワークテーブルに使用するデータベーススキーマ  |
 | warehouse | 使用するデフォルトのウェアハウスの名前。ユーザーのデフォルト値より優先されます。 |
 | TimeZoneName | デフォルトでは空で、Campaign Classic アプリケーションサーバーのシステムのタイムゾーンが使用されます。このオプションは、TIMEZONE セッションパラメーターを強制的に指定するために使用できます。<br>詳しくは、[このページ](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone)を参照してください。 |
 | WeekStart | WEEK_START セッションパラメーター。デフォルトでは 0 に設定されています。<br>詳しくは、[このページ](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start)を参照してください。 |
@@ -140,7 +141,7 @@ Adobe Campaign で外部データベースのスキーマを作成するには�
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. 拡張スキーマを識別しやすくするためのサフィックスなど、情報ストレージのパラメーターを指定します。
+1. 情報ストレージのパラメーター（識別しやすい拡張スキーマのサフィックスなど）を指定します。
 
    ![](assets/wf_new_mapping_define_names.png)
 
@@ -178,7 +179,7 @@ Adobe Campaign で外部データベースのスキーマを作成するには�
 * **接続**：リモートデータベースへの接続
 * **データの読み取り**：顧客データが格納されたテーブルへの読み取り専用アクセス
 * **メタデータの読み取り**：テーブル構造を取得するためのサーバーデータカタログへのアクセス
-* **ロード**：作業用テーブルへの一括読み込み（コレクションや結合の作業で必要）
+* **ロード**：ワークテーブルへの一括読み込み（収集や結合の作業で必要）
 * **テーブル／インデックス／プロシージャ／関数**&#x200B;の&#x200B;**作成／ドロップ**：（Adobe Campaign が生成するワークテーブルの場合のみ）
 * **説明**（推奨）：問題が発生した場合にパフォーマンスの監視に使用
 * **データの書き込み**：（統合シナリオによる）

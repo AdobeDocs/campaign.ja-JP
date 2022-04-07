@@ -41,7 +41,7 @@ Adobe Campaign はデータスキーマを利用して次のことを行いま�
    ![](../assets/do-not-localize/glass.png) 既存のスキーマを拡張する方法については、[この節](../dev/extend-schema.md)を参照してください。
 
 
-また、Adobe Campaign データベース内に新しいテーブルを作成し、組み込みデータモデルを拡張することもできます。
+また、Adobe Campaign データベース内に新しいテーブルを作成し、ビルトインデータモデルを拡張することもできます。
 
 Adobe Campaign にあらかじめ用意されていないまったく新しい型のデータ（例：契約表）を追加するには、カスタムスキーマを直接作成します。 詳しくは、 [こちらの例](../dev/create-schema.md#example--creating-a-contract-table)を参照してください。
 

@@ -3,10 +3,10 @@ title: Adobe CampaignでのTwitterでのメッセージの投稿
 description: Adobe Campaign Social Marketing モジュールを使用して、Twitterにメッセージを投稿し、連絡先データを収集する方法を説明します。
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
 hide: true
+hidefromtoc: true
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: da6e585a789749ae0302f048940d104a36e2b477
+source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 52%
@@ -22,7 +22,6 @@ Adobe Campaignには **ソーシャルマーケティング** twitterを介し�
 
 * twitterでのメッセージの送信：Adobe Campaignでは、twitterアカウントに直接メッセージを投稿できます。 フォロワー全員にダイレクトメッセージを送信することも可能です。
 * 新しい連絡先を収集：Adobe Campaignは、プロファイルデータを自動的に復元できます。これにより、ターゲティングキャンペーンを実行し、可能であればクロスチャネル戦略を実装できます。 この操作には、ユーザーの同意が必要です。
-
 
 twitterアカウントをAdobe Campaignに統合するための設定手順については、 [このページ](../connect/ac-tw.md).
 

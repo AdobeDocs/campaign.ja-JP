@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->組み込みデータスキーマは、Adobe Campaign コンソールの管理者のみが削除できます。
+>ビルトインデータスキーマは、Adobe Campaign コンソールの管理者のみが削除できます。
 
 ![](assets/schema_navtree.png)
 

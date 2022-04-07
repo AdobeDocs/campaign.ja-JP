@@ -5,7 +5,7 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 * Campaign サーバーの URL を取得する
 * Adobe IDを作成するか、会社からユーザー資格情報を取得する
 
-## クライアントコンソールのダウンロードとインストール
+## クライアントコンソールのダウンロードとインストール{#download-ac-console}
 
 初めて Campaign を使用する場合、または新しいバージョンにアップグレードする必要がある場合は、クライアントコンソールをダウンロードしてインストールする必要があります。
 
@@ -36,7 +36,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 >
 >アドビは、コンソールの新しいバージョンが利用可能になったときにすべてのユーザーにアラートが送信されるようにするために、「**[!UICONTROL 今後この質問をしない]**」オプションを選択しないままにすることをお勧めします。このオプションを選択すると、新しく利用可能になったバージョンは通知されません。
 
-## 接続の作成
+## 接続の作成{#create-your-connection}
 
 クライアントコンソールを新たにインストールしたら、次の手順に従ってアプリケーションサーバーへの接続を作成します。
 
@@ -60,7 +60,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 >
 >「**[!UICONTROL 追加]**」ボタンを使用すると、すべての接続を整理する&#x200B;**[!UICONTROL フォルダー]**&#x200B;を作成できます。各接続をフォルダーにドラッグ＆ドロップします。
 
-## Adobe Campaign へのログオン
+## Adobe Campaign へのログオン {#logon-to-ac}
 
 既存のインスタンスにログオンするには、以下の手順に従います。
 
@@ -78,7 +78,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
    ![](assets/adobeID.png)
 
-## ユーザーへのアクセスの許可
+## ユーザーへのアクセスの許可{#grant-access}
 
 Adobe Campaign は、様々なオペレーターに割り当てる一連の権利を定義したり、管理したりするのに役立ちます。以下の操作は、それらの権利に基づいて承認または拒否されます。
 

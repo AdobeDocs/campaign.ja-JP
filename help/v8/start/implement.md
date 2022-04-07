@@ -23,7 +23,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって設定されています。インストール済みの組み込みパッケージ、組み込みのスキーマやレポートなどは変更できません。
+>**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって設定されています。インストール済みのビルトインパッケージ、ビルトインのスキーマやレポートなどは変更できません。
 >
 >Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビのカスタマーサポート**&#x200B;にお問い合わせください。
 
@@ -75,7 +75,7 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
 1. テンプレートの作成
 
-   キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。組み込みテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。 ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
+   キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。ビルトインテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。 ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
 
    ![](../assets/do-not-localize/book.png) [メールテンプレートの詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target=&quot;_blank&quot;}
 
@@ -89,9 +89,9 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
    ![](../assets/do-not-localize/book.png)タイポロジと疲労管理について詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=ja#orchestrating-campaigns){target=&quot;_blank&quot;}を参照してください
 
-1. Campaign の組み込みデータモデルの理解
+1. Campaign のビルトインデータモデルの理解
 
-   Adobe Campaign には、事前定義済みのデータモデルが付属しています。環境を実装およびカスタマイズするには、Adobe Campaign データモデルの組み込みテーブルとそれらの関係を理解しておく必要があります。
+   Adobe Campaign には、事前定義済みのデータモデルが付属しています。環境を実装およびカスタマイズするには、Adobe Campaign データモデルのビルトインテーブルとそれらの関係を理解しておく必要があります。
 
    ![](../assets/do-not-localize/glass.png) [ Campaign データモデルの詳細情報](../dev/datamodel.md)。
 
@@ -119,7 +119,7 @@ Campaign の様々な領域や機能をカスタマイズできます。ほと�
 
 1. **レポート**
 
-   Campaign には、配信の監視、URL およびクリックストリーム、トラッキング、配信品質インジケーターなどに関する一連の組み込みレポートが用意されています。
+   Campaign には、配信の監視、URL およびクリックストリーム、トラッキング、配信品質インジケーターなどに関する一連のビルトインレポートが用意されています。
 
    組み込みレポートに加えて、Adobe Campaign では、様々なコンテキストで様々なニーズに応えるレポートを生成できます。このドキュメントでは、使用モードと実装モードの原則について詳しく説明します。
 

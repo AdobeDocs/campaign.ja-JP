@@ -4,10 +4,10 @@ description: Campaign 環境をTwitterと統合する方法を説明します
 feature: Overview
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
 hide: true
+hidefromtoc: true
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 137dba3461a82621af7d2e5f54442bf87422ad47
+source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 28%
@@ -83,7 +83,9 @@ Campaign インスタンスをTwitterアカウントにリンクするには、 
 
    >[!CAUTION]
    >
-   >この **[!UICONTROL 内部名]** のサービスは、Twitterアカウントと完全に同じ名前にする必要があります。 設定を確認するには、次の操作を実行します。
+   >この **[!UICONTROL 内部名]** のサービスは、Twitterアカウントと完全に同じ名前にする必要があります。
+
+   設定を確認するには、次の操作を実行します。
 
    * 「**[!UICONTROL 保存]**」ボタンをクリックします。
    * サービスの概要で、 **Twitter** 作成したサービス。

@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
+source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 100%
@@ -65,6 +65,7 @@ _2021年10月28日（PT）_
 </tr> 
 </tbody> 
 </table>
+
 <table> 
 <thead>
 <tr> 
@@ -78,6 +79,30 @@ _2021年10月28日（PT）_
 <p>Unicity Service は、<b>ffdaUnicity</b> と呼ばれる新しい組み込みワークフローを開始して、単一性の制約を監視し、重複が検出されたときにアラートを出します。</p></td> </tr> 
 </tbody> 
 </table>
+
+<!--
+<table> 
+<thead>
+<tr> 
+<th> <strong>Twitter channel availability</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>The <a href="../send/twitter.md">Twitter social channel</a> is now available with Campaign v8. You can:</p>
+<ul> 
+<li><p>Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
+</p></li>
+<li><p>Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and implement cross-channel strategies.
+</p></li>
+</ul>
+<p>Learn how to connect Campaign and Twitter in the <a href="../connect/ac-tw.md">detailed documentation</a>.</p>
+<p>Learn how to post tweets and send direct messages with Campaign in <a href="../connect/ac-tw.md">this page</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+-->
 
 **改善点**
 
@@ -201,6 +226,7 @@ _2021 年 7 月 23 日（PT）_
 </tr> 
 </tbody> 
 </table>
+
 
 **その他の機能強化**
 

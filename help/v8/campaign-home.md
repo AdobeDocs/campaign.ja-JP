@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 21726c8bd0c17c88c83897b98947f56b20152979
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 80%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 100%
 * **[実装ガイド](start/implement.md)** - 実装方法を説明します
 
 * **[v7 から v8 へ](start/capability-matrix.md)** - Campaign Classic を v7 から v8 へ移行します主な違いを学ぶ
+
+* **[Campaign v8 のCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target=&quot;_blank&quot;}** - Campaign のCampaign コントロールパネルを使用して、自分で主要な管理者タスクを実行する
+
+* **[リリースノート](start/release-notes.md)**  — 最新の機能と改善点を確認する
+
 
 ## はじめに
 
@@ -65,4 +70,4 @@ ht-degree: 100%
 * [測定とトラッキング](start/reporting.md)
 * [他のソリューションとの連携](connect/integration.md)
 * [Campaign v8 に関する FAQ](start/campaign-faq.md)
-* [Adobe Campaign v8 製品ドキュメント](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+* [Adobe Campaign v8 製品ドキュメント](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}

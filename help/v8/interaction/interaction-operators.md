@@ -1,13 +1,13 @@
 ---
-title: Campaign インタラクションオペレーター
+title: オペレータープロファイル
 description: オファー管理オペレーターの作成
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
+source-git-commit: 8a43f0fad9f84849745f3a0d426329efbf228105
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---

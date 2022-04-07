@@ -18,7 +18,7 @@ Adobe Campaign では、ユーザーは&#x200B;**オペレーター**&#x200B;ま
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。デフォルトでは、オペレーターは&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードに格納されています。
 
-Adobe Campaign には、キャンペーンマネージャーやワークフロースーパーバイザーなどの組み込みのオペレーターグループが用意されています。すべての組み込みグループの一覧については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=ja#default-groups)を参照してください。{target=&quot;_blank&quot;}。
+Adobe Campaign には、キャンペーンマネージャーやワークフロースーパーバイザーなどのビルトインのオペレーターグループが用意されています。すべてのビルトイングループの一覧については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=ja#default-groups)を参照してください。{target=&quot;_blank&quot;}。
 
 オペレーターグループのメンバーが実行できるユーザー権限は「ネームド権限」と呼ばれ、**エクスプローラー**&#x200B;ビューのフォルダー内にあるデータにアクセスできます。 1 人のオペレーターは複数のオペレーターグループに所属でき、アクセス権限は追加的に付与されます。
 
@@ -40,8 +40,8 @@ Adobe Campaign には、キャンペーンマネージャーやワークフロ�
 
 詳しくは、**Campaign Classic v7 ドキュメント**&#x200B;を参照してください
 
-* [組み込みのネームド権限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html?lang=ja){target=&quot;_blank&quot;}
+* [ビルトインのネームド権限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html?lang=ja){target=&quot;_blank&quot;}
 
-* [組み込みのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
+* [ビルトインのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=en#default-groups){target=&quot;_blank&quot;}
 
 * [権限の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja){target=&quot;_blank&quot;}
