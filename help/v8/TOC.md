@@ -7,7 +7,7 @@ title: Campaign v8 ドキュメント
 source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 81%
    + [基本を学ぶ](start/get-started.md)
    + [コンポーネントとプロセス](start/ac-components.md)
    + Campaign UI {#ac-ui}
-      + [Campaign のインターフェイスを確認する](start/campaign-ui.md)
+      + [Campaign インターフェイスの理解](start/campaign-ui.md)
       + [Campaign インターフェイスのカスタマイズ](start/customize-ui.md)
    + [オーディエンスの操作](start/audiences.md)
    + [データの読み込み](start/import.md)
@@ -46,15 +46,15 @@ ht-degree: 81%
    + [権限](start/permissions.md)
    + [Campaign コントロールパネル](config/self-service.md)
 + プロファイルとオーディエンス {#profiles-and-audiences}
-   + [概要](audiences/gs-audiences.md)
+   + [基本を学ぶ](audiences/gs-audiences.md)
    + [プロファイルへのアクセス](audiences/view-profiles.md)
    + プロファイルの追加 {#add-profiles}
-      + [手動でのプロファイルの作成](audiences/create-profiles.md)
+      + [プロファイルの手動作成](audiences/create-profiles.md)
       + [ファイルからのプロファイルのインポート](audiences/import-profiles.md)
       + [外部プロファイルの操作](audiences/external-profiles.md)
       + [Web フォームでのプロファイルデータの収集](audiences/collect-profiles.md)
    + オーディエンスの作成 {#create-audiences}
-      + [連絡先のリストを作成](audiences/create-audiences.md)
+      + [連絡先リストの作成](audiences/create-audiences.md)
       + [フィルターの作成と管理](audiences/create-filters.md)
    + [フォルダーとビューの管理](audiences/folders-and-views.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
@@ -68,7 +68,7 @@ ht-degree: 81%
    + [トランザクションメッセージ](send/transactional.md)
    + 失敗、バウンス、強制隔離{#failures}
       + [強制隔離](send/quarantines.md)
-      + [配信エラー](send/delivery-failures.md)
+      + [配信の失敗](send/delivery-failures.md)
 + リアルタイムインタラクション{#interaction}
    + [リアルタイムインタラクションの概要](interaction/interaction.md)
    + [環境とアーキテクチャ](interaction/interaction-architecture.md)

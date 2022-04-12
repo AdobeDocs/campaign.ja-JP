@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -46,17 +46,17 @@ Campaign v8 では、ターゲティングから最終的なレポートまで�
 
 ## セルフサービス管理インターフェイス{#self-service-admin}
 
-製品管理者は、 **キャンペーンCampaign コントロールパネル**.
+製品管理者は、**Campaign コントロールパネル**&#x200B;で各 Campaign v8 インスタンスの設定を管理し使用状況を追跡することができます。
 
-管理者は、直感的なユーザーインターフェイスを使用して、主要なアセットの使用状況を監視し、IP アドレスの許可リストへの登録、SFTP ストレージの監視、鍵の管理などの高度なタスクを実行できます。 このセルフサービスインターフェイスにより、より柔軟で以下をおこなうことができます。
+管理者は、直感的なユーザーインターフェイスを使用して、主要なアセットの使用状況を監視し、IP アドレスの許可リストへの登録、SFTP ストレージのモニタリング、キーの管理などの高度なタスクを実行できます。このセルフサービスインターフェイスにより管理の柔軟性が高まるほか、これを使用すると以下の利点があります。
 
-* Adobeサポートに連絡することなく、自分ですばやく設定に変更を加える
-* 様々なタイミングで様々なビジネスニーズに基づいて設定
-* ニーズごとにアクセス設定を制御することでセキュリティを強化
+* アドビサポートに依頼せずに自分で設定をすばやく変更できます
+* 様々なタイミングで多様なビジネスニーズに応じて設定できます
+* ニーズに応じて個別にアクセス設定を制御することでセキュリティを強化できます
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [CampaignCampaign コントロールパネルの詳細](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/glass.png) [Campaign コントロールパネルの詳細について](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target=&quot;_blank&quot;}
 
 
 

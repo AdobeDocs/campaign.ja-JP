@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 21726c8bd0c17c88c83897b98947f56b20152979
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 80%
 
 * **[v7 から v8 へ](start/capability-matrix.md)** - Campaign Classic を v7 から v8 へ移行します主な違いを学ぶ
 
-* **[Campaign v8 のCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target=&quot;_blank&quot;}** - Campaign のCampaign コントロールパネルを使用して、自分で主要な管理者タスクを実行する
+* **[Campaign v8 のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target=&quot;_blank&quot;}** - Campaign コントロールパネルを使用して、自分で主要な管理者タスクを実行できます
 
-* **[リリースノート](start/release-notes.md)**  — 最新の機能と改善点を確認する
+* **[リリースノート](start/release-notes.md)** - 最新の機能と改善点を確認できます
 
 
-## はじめに
+## 基本を学ぶ
 
 <table>
 <tr>
