@@ -8,7 +8,7 @@ exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 67d08660431f02d2a18f39b3270cc7c7b62ed40e
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaignでのリスト管理について詳しくは、このビデオを
 >[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
-## 連絡先のリストを作成 {#create-a-list-of-contacts}
+## 連絡先リストの作成 {#create-a-list-of-contacts}
 
 連絡先のリストを作成するには、次の手順に従います。
 
