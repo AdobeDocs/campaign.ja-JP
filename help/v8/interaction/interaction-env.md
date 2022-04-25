@@ -1,6 +1,6 @@
 ---
 title: Campaign インタラクション環境の操作
-description: Campaign インタラクション用の環境を作成する方法を説明します
+description: Campaign インタラクション用の環境を作成する方法を学ぶ
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
 source-git-commit: 8a43f0fad9f84849745f3a0d426329efbf228105
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

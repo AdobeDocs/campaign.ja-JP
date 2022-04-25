@@ -1,6 +1,6 @@
 ---
 title: Campaign と Twitter の連携
-description: Campaign 環境をTwitterと統合する方法を説明します
+description: Campaign 環境を Twitter と統合する方法を学ぶ
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -10,31 +10,31 @@ exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 # Campaign と Twitter の連携{#tw-ac-ovv}
 
-この **ソーシャルネットワークの管理（ソーシャルマーケティング）** モジュールを使用すると、Twitterを介して顧客とやり取りできます。 この機能を使用して、次のことができます。
+この&#x200B;**ソーシャルネットワーク管理（ソーシャルマーケティング）**&#x200B;モジュールを使用すると、Twitter を介して顧客とやり取りできます。この機能を使用すると、次のことができます。
 
-* メッセージの送信 — Adobe Campaign Social Marketing を使用して、Twitterにメッセージを投稿します。 フォロワー全員にダイレクトメッセージを送信することも可能です。
+* メッセージの送信 - Adobe Campaign のソーシャルマーケティングを使用して、Twitter でメッセージを投稿します。フォロワー全員にダイレクトメッセージを送信することも可能です。
 
-* 新しい連絡先を収集 — Adobe Campaign Social Marketing を使用すると、新しい連絡先を簡単に獲得できます。ユーザーに連絡し、自分のプロファイル情報を共有したいかどうかを尋ねます。 ユーザーが同意すると、Adobe Campaign で情報が自動的に収集されます。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略も導入できます。
+* 新しい連絡先の収集 - Adobe Campaign ソーシャルマーケティングを使用すると、新しい連絡先を簡単に取得できます。ユーザーに連絡して、プロファイル情報を共有してよいか尋ねます。ユーザーが同意すると、Adobe Campaign で情報が自動的に収集されます。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略も導入できます。
 
-![](../assets/do-not-localize/speech.png)  管理対象Cloud Servicesユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) Campaign をTwitterに接続するには： この  **ソーシャルネットワークの管理（ソーシャルマーケティング）** モジュールは、専用パッケージを通じてお使いの環境にインストールする必要があります。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign を Twitter に接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。この&#x200B;**ソーシャルネットワーク管理（ソーシャルマーケティング）**&#x200B;モジュールは、専用パッケージを通じてお使いの環境にインストールする必要があります。
 
 
-twitterアカウントにツイートを投稿するようにAdobe Campaignを設定するには、これらのアカウント用のAdobe Campaignへの書き込みアクセス権をデリゲートします。 手順は次のとおりです。
+Twitter アカウントにツイートを投稿するように Adobe Campaign を設定するには、これらのアカウントの Adobe Campaign への書き込みアクセス権をデリゲートします。手順は次のとおりです。
 
-1. twitterアカウントの作成
-1. 配達確認を送信するためのテスト用Twitterアカウントの作成
-1. twitterアプリケーションの作成 (Twitterアカウントごとに 1 つのアプリ )
-1. の新しいサービスを作成 **[!UICONTROL Twitter]** (Twitterアカウントごとに 1 つのサービス )
+1. Twitter アカウントを作成します
+1. 配達確認を送信するためのテスト用 Twitter アカウントを作成します
+1. Twitter アプリケーション（Twitter アカウントごとに 1 つのアプリ）を作成します
+1. **[!UICONTROL Twitter]** の新しいサービス（Twitter アカウントごとに 1 つのサービス）を作成します
 
 ## Twitter でのテストアカウントの作成 {#tw-test-account}
 
-twitterアカウントに加えて、送信に使用できるプライベートTwitterアカウントを作成します [配達確認をツイート](../send/twitter.md#send-tw-proofs). これは、次の手順に従って行います。
+Twitter アカウントに加えて、[ツイートの配達確認](../send/twitter.md#send-tw-proofs)の送信に使用できる非公開 Twitter アカウントを作成します。これを行うには、次の手順に従います。
 
 1. 新しい Twitter アカウントを作成します。
 1. そのアカウントの&#x200B;**設定**&#x200B;にアクセスします。
@@ -44,85 +44,85 @@ twitterアカウントに加えて、送信に使用できるプライベートT
 
 ## Twitter でのアプリケーションの作成 {#create-an-app-on-twitter}
 
-twitterアプリを作成し、Adobe CampaignがTwitterアカウントにツイートを投稿できるようにします。  これは、次の手順に従って行います。
+Twitter アプリケーションを作成し、Adobe Campaign が Twitter アカウントにツイートを投稿できるようにします。これを行うには、次の手順に従います。
 
 1. Twitter アカウントにログオンします。
-1. 接続先 [Twitter developer portal](https://developer.twitter.com/en/apps).
-1. 選択 **アプリの作成**.
-1. twitterのアシスタントがプロセスをガイドします。
+1. [Twitter 開発者ポータル](https://developer.twitter.com/en/apps)に接続します。
+1. 「**アプリの作成**」を選択します。
+1. Twitter アシスタントの指示に従ってプロセスを進めます。
 
-   Adobe Campaignが自分のアカウントにツイートを投稿できるようにするには、 **権限** 」タブをクリックし、 **読み取りと書き込み** の **アクセス** 」セクションに入力します。 また、「**Settings**」タブで、「**Callback URL**」フィールドを空のままにしておく必要があります。
+   Adobe Campaign が自分のアカウントにツイートを投稿できるようにするには、アプリケーションの「**権限**」タブを編集し、「**アクセス**」セクションで「**読み取りおよび書き込み**」を選択します。また、「**設定**」タブで、「**コールバック URL**」フィールドを空のままにしておく必要があります。
 
    ![](assets/social_tw_app.png)
 
 >[!NOTE]
 >
->twitterアカウントごとに 1 つのアプリケーションが必要です。 その結果、別のテストアプリケーションを作成して、配達確認をテストアカウントに送信する必要があります。
+>Twitter アカウントごとに 1 つのアプリケーションが必要です。その結果、別のテストアプリケーションを作成し、配達確認をテストアカウントに送信する必要があります。
 
-## Campaign でのTwitterサービスの作成 {#create-tw-service}
+## Campaign での Twitter サービスの作成 {#create-tw-service}
 
-Campaign インスタンスをTwitterアカウントにリンクするには、 **Twitter** サービスを使用し、書き込みアクセスを Campaign に委任します。
+Campaign インスタンスを Twitter アカウントにリンクするには、 **Twitter** サービスを作成し、Campaign への書き込みアクセス権をデリゲートします。
 
-設定を入力するには、Adobe CampaignコンソールとTwitterアカウントの両方にアクセスする必要があります。
+設定を入力するには、Adobe Campaign コンソールと Twitter アカウントの両方にアクセスする必要があります。
 
-1. 開く **Twitter**、および [プロジェクトとアプリページ](https://developer.twitter.com/en/portal/projects-and-apps)、前に作成したアプリを選択します。 次にアクセス： **アプリの権限**.
+1. **Twitter** を開き、[プロジェクトとアプリページ](https://developer.twitter.com/en/portal/projects-and-apps)から、前に作成したアプリを選択します。「**アプリの権限**」にアクセスします。
 
    ![](assets/social_tw_service.png)
 
    「**キーとトークン**」タブを編集し、アプリの詳細にアクセスします。
 
-1. In **Adobe Campaign**、 **[!UICONTROL プロファイルとターゲット]** 」タブで、 **[!UICONTROL サービスと購読]** リンク
+1.  **Adobe Campaign** で、「**[!UICONTROL プロファイルとターゲット]**」タブを参照し、「**[!UICONTROL サービスと購読]**」リンクを選択します。
 1. 新しいサービスを作成します。
 1. **[!UICONTROL Twitter]** タイプを選択します。
 
    >[!NOTE]
    >
-   >この **[!UICONTROL 購読を同期]** オプションはデフォルトで有効です。このオプションは、Twitterのフォロワーのリストを自動的に復元し、 [ダイレクトメッセージを送信](../send/twitter.md#direct-tw-messages). 同期は [専用のテクニカルワークフロー](#synchro-tw-accounts).
+   >この「**[!UICONTROL 購読を同期]**」オプションはデフォルトで有効になっています。このオプションは、Twitter のフォロワーのリストを自動的に復元し、[ダイレクトメッセージを送信](../send/twitter.md#direct-tw-messages)できるようにします。同期は[専用のテクニカルワークフロー](#synchro-tw-accounts)によって実行されます。
 
 1. サービスのラベルおよび内部名を入力します。
 
    >[!CAUTION]
    >
-   >この **[!UICONTROL 内部名]** のサービスは、Twitterアカウントと完全に同じ名前にする必要があります。
+   >サービスの&#x200B;**[!UICONTROL 内部名]**&#x200B;は、Twitter アカウントとまったく同じ名前である必要があります。
 
    設定を確認するには、次の操作を実行します。
 
    * 「**[!UICONTROL 保存]**」ボタンをクリックします。
-   * サービスの概要で、 **Twitter** 作成したサービス。
-   * 次を参照： **[!UICONTROL Twitterページ]** タブ：twitterアカウントが表示されます。
+   * サービスの概要で、作成したばかりの **Twitter** サービスを選択します。
+   * 「**[!UICONTROL Twitter ページ]**」タブを参照します。Twitter アカウントが表示されます。
 
-1. デフォルトでは、フォロワーは&#x200B;**[!UICONTROL 訪問者]**&#x200B;フォルダーに保存されます。別の場所を **[!UICONTROL 訪問者フォルダー]** フィールドに入力します。 [詳細情報](../send/twitter.md#direct-tw-messages)
+1. デフォルトでは、フォロワーは&#x200B;**[!UICONTROL 訪問者]**&#x200B;フォルダーに保存されます。「**[!UICONTROL 訪問者フォルダー]**」フィールドから別の場所を選択します。[詳細情報](../send/twitter.md#direct-tw-messages)
 
-1. twitterアプリから、 **[!UICONTROL 消費者キー（API キー）]** および **[!UICONTROL 消費者の秘密鍵（API の秘密鍵）]** フィールドに貼り付け、 **[!UICONTROL 消費者キー]** および **[!UICONTROL 消費者秘密鍵]** キャンペーンのフィールド **Twitter** サービス。
+1. Twitter アプリから、「**[!UICONTROL Consumer Key (API Key)]**」フィールドと「**[!UICONTROL Consumer Secret (API Secret)]**」フィールドの内容をコピーして、Campaign **Twitter** サービスの「**[!UICONTROL Consumer key]**」フィールドと「**[!UICONTROL Consumer secret]**」フィールドに貼り付けます。
 
-1. twitterアプリから、 **[!UICONTROL アクセストークン]** および **[!UICONTROL アクセストークン秘密鍵]** フィールドに貼り付け、 **[!UICONTROL アクセストークン]** および **[!UICONTROL アクセストークン秘密鍵]** キャンペーンのフィールド **Twitter** サービス。
+1. Twitter アプリから、「**[!UICONTROL Access Token]**」フィールドと「**[!UICONTROL Access Token Secret]**」フィールドの内容をコピーし、Campaign **Twitter** サービスの「**[!UICONTROL アクセストークン]**」フィールドと「**[!UICONTROL アクセストークン秘密鍵]**」フィールドに貼り付けます。
 
 1. Campaign クライアントコンソールで、「**[!UICONTROL 保存]**」をクリックします。これで、書き込みアクセス権が Adobe Campaign にデリゲートされました。
 
 
 >[!NOTE]
 >
->作成 **Twitter** twitterアカウントごとのサービス。 その結果、別のテストサービスを作成して、配達確認をテストアカウントに送信する必要があります。
+>Twitter アカウントごとに 1 つの **Twitter** サービスを作成します。その際、別のテストサービスを作成し、配達確認をテストアカウントに送信する必要があります。
 
-## twitterアカウントを同期 {#synchro-tw-accounts}
+## Twitter アカウントの同期 {#synchro-tw-accounts}
 
-Campaign とTwitter間の同期は、専用のテクニカルワークフローで管理されます。 これらのワークフローは、 **[!UICONTROL 管理/プロダクション/テクニカルワークフロー/ソーシャルネットワーク管理]** フォルダー。
+Campaign と Twitter 間の同期は、専用のテクニカルワークフローで管理されます。これらのワークフローは、**[!UICONTROL 管理／プロダクション／テクニカルワークフロー／ソーシャルネットワーク管理]**&#x200B;フォルダーに格納されます。
 
-これらはデフォルトで停止されます。を使用し始めるときは、手動で開始する必要があります **ソーシャルマーケティング** モジュール。
+これらはデフォルトで停止されます。**ソーシャルマーケティング**&#x200B;モジュールを使用し始めるときは、手動で開始する必要があります。
 
-この **[!UICONTROL Twitterアカウントの同期]** テクニカルワークフローは、Adobe CampaignでTwitterアカウントを同期します。 twitterのフォロワーのリストを復元して、ダイレクトメッセージを送信できるようにします。 [詳細情報](../send/twitter.md#direct-tw-messages)
+**[!UICONTROL Twitter アカウントの同期]**&#x200B;テクニカルワークフローは、Adobe Campaign で Twitter アカウントを同期させます。このワークフローは、Twitter のフォロワーのリストを復元して、ダイレクトメッセージを送信できるようにします。[詳細情報](../send/twitter.md#direct-tw-messages)
 
-デフォルトでは、このワークフローは毎週木曜日の午前 7 時 30 分にトリガーされます。以下を使用して、 **[!UICONTROL 保留中のタスクを今すぐ実行]** オプションを使用して、この統合の実装時にいつでもワークフローを開始できます。  スケジューラーを編集して、ワークフローのトリガー頻度を変更することもできます。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target=&quot;_blank&quot;}を参照してください。
+デフォルトでは、このワークフローは毎週木曜日の午前 7:30 にトリガーされます。「**[!UICONTROL 保留中のタスクを今すぐ実行]**」オプションを使用して、この統合の実装時にいつでもワークフローを開始できます。スケジューラーを編集して、ワークフローのトリガー頻度を変更することもできます。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/approval.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 >[!CAUTION]
 >
->twitter購読者のリストを復元するには、 **[!UICONTROL Twitterアカウントの同期]** アカウントにリンクされたサービスに対して、「 」オプションをオンにする必要があります。 [詳細情報](#create-tw-service)
+>Twitter サブスクライバーのリストを復元するには、アカウントにリンクされたサービスに対して、「**[!UICONTROL Twitter アカウントの同期]**」オプションをオンにする必要があります。[詳細情報](#create-tw-service)
 
-フォロワーは、特定のテーブルに格納されます。「訪問者」テーブル。 twitterのフォロワーのリストを表示するには、 **[!UICONTROL プロファイルとターゲット/訪問者]**.
+フォロワーは、「訪問者」という特定のテーブルに格納されます。Twitter フォロワーのリストを表示するには、**[!UICONTROL プロファイルとターゲット／訪問者]**&#x200B;を参照します。
 
-Adobe Campaignでは、各フォロワーに対して次の情報が保存されます。
+Adobe Campaign は、各フォロワーについて以下の情報を格納します。
 
-* **[!UICONTROL 起源]**:ソーシャルネットワークの名前 (Twitter)
+* **[!UICONTROL 接触チャネル]**：ソーシャルネットワークの名前（Twitter）
 * **[!UICONTROL 外部 ID]**：ユーザー識別子
 * **[!UICONTROL ユーザー名]**：ユーザーのアカウント名
 * **[!UICONTROL フルネーム]**：ユーザーの名前
@@ -131,4 +131,4 @@ Adobe Campaignでは、各フォロワーに対して次の情報が保存され
 * **[!UICONTROL タイムゾーン]**：ユーザーのタイムゾーン
 * **[!UICONTROL 検証済み]**：ユーザーが検証済みの Twitter アカウントを持っているかを示すフィールド
 
-設定が完了したら、Twitterアカウントにツイートを投稿し、フォロワーにダイレクトメッセージを送信できます。 [詳細情報](../send/twitter.md)
+設定が完了したら、Twitter アカウントにツイートを投稿し、フォロワーにダイレクトメッセージを送信できます。[詳細情報](../send/twitter.md)

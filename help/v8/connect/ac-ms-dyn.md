@@ -4,7 +4,8 @@ description: Campaign とMicrosoft Dynamics の使用方法を説明します
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 59ccee717d857545ed2b3ba6fb850ef8a9d0907b
+exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
+source-git-commit: 495eff0f3b5926c8f91939bcb296bc36086cb8cd
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 39%

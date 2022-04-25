@@ -1,6 +1,6 @@
 ---
 title: Campaign インタラクションでオファーを送信
-description: オファーの送信方法を説明します
+description: オファーの送信方法を学ぶ
 feature: Overview
 role: Data Engineer
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 source-git-commit: 213a10fea36b3b08c1dd8525084d212e191b2fc7
 workflow-type: tm+mt
 source-wordcount: '1351'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

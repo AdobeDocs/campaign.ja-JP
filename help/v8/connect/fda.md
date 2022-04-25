@@ -8,7 +8,7 @@ exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
 source-git-commit: 2d0b40e49afdfd71e8bb5c3f0b1d569a715420b2
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -137,11 +137,11 @@ Adobe Campaign で外部データベースのスキーマを作成するには�
    ![](assets/new-target-mapping.png)
 
 
-1. 配信情報が格納されるフィールド（姓、名前、E メール、住所など）を指定します。
+1. 配信情報が格納されるフィールド（姓、名前、メール、住所など）を指定します。
 
    ![](assets/wf_new_mapping_define_join.png)
 
-1. 情報ストレージのパラメーター（識別しやすい拡張スキーマのサフィックスなど）を指定します。
+1. 拡張スキーマを識別しやすくするためのサフィックスなど、情報ストレージのパラメーターを指定します。
 
    ![](assets/wf_new_mapping_define_names.png)
 

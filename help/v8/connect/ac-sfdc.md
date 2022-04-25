@@ -4,7 +4,8 @@ description: Campaign と Salesforce.com の使用方法を説明します
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 59ccee717d857545ed2b3ba6fb850ef8a9d0907b
+exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
+source-git-commit: 495eff0f3b5926c8f91939bcb296bc36086cb8cd
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 31%
