@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 495eff0f3b5926c8f91939bcb296bc36086cb8cd
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1400'
 ht-degree: 39%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 39%
 
 保存すると、Microsoft Azure Directory は一意の **アプリケーション（クライアント） ID** をアプリに追加します。 この ID は、後でAdobe Campaignで Dynamics 365 を設定する際に必要になります。
 
-詳しくは、 [Microsoft Dynamics 365 ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory).
+詳しくは、 [Microsoft Dynamics 365 ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target=&quot;_blank&quot;}。
 
 ### Microsoft Dynamics 証明書キー識別子およびキー ID の生成 {#config-certificate-key-id}
 

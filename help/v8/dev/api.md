@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -43,17 +43,6 @@ API を使用して [!DNL Adobe Campaign] とやり取りするには、デー�
 >[!NOTE]
 >データモデルを完全に記述できます。詳しくは、[このページ](datamodel.md)を参照してください。
 
-## [!DNL Campaign] API のステージングメカニズム
-
-[!DNL Campaign] Cloud データベースでは、パフォーマンス（待ち時間と同時実行性）のため、単一呼び出しのブラストは推奨されません。 バッチ操作は常に推奨されます。 API の最適なパフォーマンスを保証するために、Campaign は API 呼び出しの処理をローカルデータベースレベルで継続します。
-
-![](../assets/do-not-localize/glass.png) [API のステージングメカニズム について詳しくは、このページを参照してください。](staging.md)
-
-## 新しい API
-
-[!DNL Campaign] ローカルデータベースと Cloud データベース間のデータ同期を管理する新しい API をご利用いただけます。また、遅延を回避し、全体的なパフォーマンスを向上させるために、ローカルデータベースレベルで API 呼び出しを処理する新しいメカニズムが導入されました。
-
-![](../assets/do-not-localize/glass.png) [新しい API について詳しくは、このページを参照してください。](new-apis.md)
 
 **関連トピック**
 

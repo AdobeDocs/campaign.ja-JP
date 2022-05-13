@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: 9457652f62810eb401c4010acd9b5da42d88d796
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1176'
+ht-degree: 80%
 
 ---
 
@@ -25,10 +25,8 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 >[!CAUTION]
 >
->Campaign のローカルデータベースとクラウドのデータベース（[!DNL Snowflake]）の間の接続は、特定の&#x200B;**[!UICONTROL フル FDA]**（ffda）外部アカウントで管理されます。
->
->Managed Cloud Services のユーザー場合、この外部アカウントは、お使いのインスタンス用にアドビが設定します。これは変更できません。
-
+>のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)、特定の **[!UICONTROL フル FDA]** (ffda) 外部アカウントは、Campaign ローカルデータベースと Cloud データベース ([!DNL Snowflake]) をクリックします。
+></br>Managed Cloud Services のユーザー場合、この外部アカウントは、お使いのインスタンス用にアドビが設定します。これは変更できません。
 
 ## Campaign 固有の外部アカウント
 
@@ -36,25 +34,83 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーの場合、アドビは、Campaign 固有の外部アカウントすべてを設定します。
 
-* **バウンスメール（POP3）**
+### バウンスメール {#bounce-mails-external-account}
 
-   **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
+>[!NOTE]
+>
+>POP3 機能のMicrosoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、を参照してください。 [この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-   ![](../assets/do-not-localize/book.png)インバウンド電子メールについて詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}
+**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
-* **ルーティング**
+![](../assets/do-not-localize/book.png)インバウンド電子メールについて詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}
 
-   **[!UICONTROL ルーティング]**&#x200B;外部アカウントを使用すると、インストールしているパッケージに応じて、Adobe Campaign で利用可能な各チャネルを設定できます。
+![](assets/bounce_external_1.png)
 
-   >[!CAUTION]
-   >
-   >Adobe Campaign v8 では&#x200B;**[!UICONTROL 内部電子メール配信ルーティング]**（defaultEmailBulk）外部アカウントを、有効に&#x200B;**しないでください**。
+**[!UICONTROL バウンスメール（defaultPopAccount）]**&#x200B;外部アカウントを設定するには、次の手順を実行します。
 
-* **実行インスタンス**
+* **[!UICONTROL サーバー]**
 
-   トランザクションメッセージのコンテキストでは、実行インスタンスはコントロールインスタンスにリンクされ、接続されます。 トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
+   POP3 サーバーの URL。
 
-   ![](../assets/do-not-localize/glass.png) Message Center のアーキテクチャについて詳しくは、[このページ](../dev/architecture.md#transac-msg-archi)を参照してください。
+* **[!UICONTROL ポート]**
+
+   POP3 接続のポート番号デフォルトのポート番号は 110 です。
+
+* **[!UICONTROL アカウント]**
+
+   ユーザーの名前。
+
+* **[!UICONTROL パスワード]**
+
+   アカウントのパスワード
+
+* **[!UICONTROL 暗号化]**
+
+   **[!UICONTROL デフォルト]**、**[!UICONTROL POP3 + STARTTLS]**、**[!UICONTROL POP3]** または **[!UICONTROL POP3S]** から選択した暗号化のタイプ。**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
+
+* **[!UICONTROL 関数]**
+
+   インバウンド E メールまたは SOAP ルーター
+
+![](assets/bounce_external_2.png)
+
+>[!IMPORTANT]
+>
+>Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure ポータルにアプリケーションを登録する必要があります。 詳しくは、この[ページ](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)を参照してください。
+
+Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、 **[!UICONTROL Microsoft OAuth 2.0]** 「 」オプションを選択し、次のフィールドに入力します。
+
+* **[!UICONTROL Azure テナント]**
+
+   Azure ID( またはディレクトリ（テナント） ID) は、 **初期設定** Azure ポータルでのアプリケーションの概要のドロップダウン。
+
+* **[!UICONTROL Azure クライアント ID]**
+
+   クライアント ID( またはアプリケーション（クライアント）ID) は、 **初期設定** Azure ポータルでのアプリケーションの概要のドロップダウン。
+
+* **[!UICONTROL Azure Client Secret]**:
+
+   クライアント秘密鍵 ID は、 **クライアント秘密鍵** 列 **証明書と秘密鍵** Azure ポータルでのアプリケーションのメニュー。
+
+* **[!UICONTROL Azure リダイレクト URL]**:
+
+   リダイレクト URL は **認証** Azure ポータルでのアプリケーションのメニュー。 次の構文で終わる必要があります。 `nl/jsp/oauth.jsp`例： `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+
+別の資格情報を入力した後、 **[!UICONTROL 接続の設定]** をクリックして、外部アカウントの設定を完了します。
+
+### ルーティング {#routing}
+
+**[!UICONTROL ルーティング]**&#x200B;外部アカウントを使用すると、インストールしているパッケージに応じて、Adobe Campaign で利用可能な各チャネルを設定できます。
+
+>[!CAUTION]
+>
+>Adobe Campaign v8 では&#x200B;**[!UICONTROL 内部電子メール配信ルーティング]**（defaultEmailBulk）外部アカウントを、有効に&#x200B;**しないでください**。
+
+### 実行インスタンス {#execution-instance}
+
+トランザクションメッセージのコンテキストでは、実行インスタンスはコントロールインスタンスにリンクされ、接続されます。 トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
+
+![](../assets/do-not-localize/glass.png) Message Center のアーキテクチャについて詳しくは、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
 
 ## 外部システムの外部アカウントへのアクセス
 
@@ -90,53 +146,19 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
    ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Adobe Experience Manager を Adobe Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 
-## CRM コネクタの外部アカウント
+## CRM コネクタ外部アカウント
 
 * **Microsoft Dynamics CRM**
 
    **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データを Adobe Campaign に読み込みおよび書き出しできます。
 
-   ![](../assets/do-not-localize/glass.png)Adobe Campaign と Microsoft Dynamics CRM の統合について詳しくは、[このページ](../connect/crm.md)を参照してください。
-
-   **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL パスワード資格情報]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
-
-   * **[!UICONTROL アカウント]** Microsoft CRM へのログインに使用するアカウント。
-
-   * **[!UICONTROL サーバー]**：Microsoft CRM サーバーの URL。
-
-   * **[!UICONTROL クライアント識別子]**：**[!UICONTROL コードを更新]**&#x200B;カテゴリ、**[!UICONTROL クライアント ID]** フィールドの Microsoft Azure 管理ポータルにあるクライアント ID。
-
-   * **[!UICONTROL CRM バージョン]**：**[!UICONTROL Dynamics CRM 2007]**、**[!UICONTROL Dynamics CRM 2015]** または **[!UICONTROL Dynamics CRM 2016]** の CRM バージョン。
-   **[!UICONTROL Web API]** デプロイメントタイプと&#x200B;**[!UICONTROL 証明書]**&#x200B;認証を使用する場合、以下の詳細を指定する必要があります。
-
-   * **[!UICONTROL サーバー]**：Microsoft CRM サーバーの URL。
-
-   * **[!UICONTROL 秘密鍵（Base64 エンコード）]**:Base64 にエンコードされた秘密鍵
-
-   * **[!UICONTROL カスタムキー識別子]**
-
-   * **[!UICONTROL キー ID]**
-
-   * **[!UICONTROL クライアント識別子]**：**[!UICONTROL コードを更新]**&#x200B;カテゴリ、**[!UICONTROL クライアント ID]** フィールドの Microsoft Azure 管理ポータルにあるクライアント ID。
-
-   * **[!UICONTROL CRM バージョン]**：**[!UICONTROL Dynamics CRM 2007]**、**[!UICONTROL Dynamics CRM 2015]** または **[!UICONTROL Dynamics CRM 2016]** の CRM バージョン。
-
+   ![](../assets/do-not-localize/glass.png)Adobe Campaign と Microsoft Dynamics CRM の統合について詳しくは、[このページ](../connect/ac-ms-dyn.md)を参照してください。
 
 * **Salesforce.com**
 
    **[!UICONTROL Salesforce CRM]** 外部アカウントを使用すれば、Adobe Campaign から Salesforce データをインポートおよびエクスポートできます。
 
-   Salesforce CRM 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報を提供する必要があります。
-
-   * **[!UICONTROL アカウント]**：Salesforce CRM へのログインに使用するアカウント。
-
-   * **[!UICONTROL パスワード]**：Salesforce CRM へのログインに使用するパスワード。
-
-   * **[!UICONTROL クライアント識別情報]**：クライアント識別情報の見つけ方については、[このページ](https://help.salesforce.com/articleView?id=000205876&amp;type=1)を参照してください。
-
-   * **[!UICONTROL セキュリティトークン]**：セキュリティトークンの見つけ方については、[このペ ージ](https://help.salesforce.com/articleView?id=000205876&amp;type=1)を参照してください。
-
-   * **[!UICONTROL API バージョン]**：API のバージョンを選択します。この外部アカウントの場合、設定ウィザードで Salesforce CRM を設定する必要があります。
+   ![](../assets/do-not-localize/glass.png) でのAdobe Campaign - Salesforce.com CRM 統合の詳細 [このページ](../connect/ac-sfdc.md).
 
 ## データ転送外部アカウント
 

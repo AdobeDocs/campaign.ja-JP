@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../send/transactional.md)を参照してください。
 
-![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../dev/architecture.md)を参照してください。
+![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md)を参照してください。
 
 ## 権限の定義
 

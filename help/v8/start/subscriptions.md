@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 >[!CAUTION]
 >
->購読の登録と解除は、**非同期**&#x200B;プロセスです。 オプトインとオプトアウトのリクエストは、1 時間ごとに処理されます。[詳細情報](../dev/new-apis.md#sub-apis)
+>のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)、購読と購読解除 **非同期** プロセス。 オプトインとオプトアウトのリクエストは、1 時間ごとに処理されます。[詳細情報](../architecture/new-apis.md#sub-apis)
 
 配信受信者が友人にメッセージを転送できるようにすることもできます。 それには、関連リンクを配信に挿入します。 この共有プロセスと、該当するページへのアクセス数もトラッキングできます。
 

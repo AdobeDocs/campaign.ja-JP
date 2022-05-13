@@ -2,10 +2,10 @@
 title: Adobe Campaign スキーマの操作
 description: スキーマの基本を学ぶ
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 355b9219ffd9d481d15d2d0982d49923842cc27b
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 100%
+source-wordcount: '1273'
+ht-degree: 94%
 
 ---
 
@@ -133,9 +133,43 @@ type="string" enum="exTransactionTypeEnum"/>
 >
 >ユーザーが管理する定義済みリスト（通常は&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;の下にあり）を使用して、特定のフィールドの値を指定することもできます。これらは事実上グローバルな定義済みリストであり、作業している特定のスキーマ以外で使用する場合にも役立ちます。
 
+<!--
+## Index {#index} 
+
+In the context of a [FDA Snowflake deployment](../architecture/fda-deployment.md), you need to declare indexes. Indexes are the first elements declared in the main element of the schema. 
+
+They can be unique or not, and reference one or more fields.
+
+Examples:
+
+```
+<dbindex name="email" unique="true">
+  <keyfield xpath="@email"/>
+</dbindex>
+```
+
+```
+<dbindex name="lastNameAndZip">
+  <keyfield xpath="@lastName"/>
+  <keyfield xpath="location/@zipCode"/>
+</dbindex>
+```
+
+The **xpath** attribute points to the field in your schema that you wish to index.
+
+>[!IMPORTANT]
+>
+>It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
+
+For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
+
+-->
+
 ## キー {#keys}
 
-各テーブルには少なくとも 1 つのキーが必要です。通常、**@autouuid** 属性と **autopk** 属性を「**true**」に設定すると、スキーマのメイン要素にキーが自動的に設定されます。
+各テーブルには少なくとも 1 つのキーが必要で、多くの場合、を使用してスキーマのメイン要素で自動的に確立されます。 **自動車** 属性を **true**.
+
+さらに、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)、 **@autouuid** を設定し、 **true**.
 
 プライマリキーは、**internal** 属性を使用して定義することもできます。
 
@@ -147,7 +181,7 @@ type="string" enum="exTransactionTypeEnum"/>
 </key>
 ```
 
-この例では、**@autouuid** 属性で「id」という名前のデフォルトのプライマリキーを作成する代わりに、独自の「householdId」というプライマリキーを指定します。
+この例では、 **@autopk** または **@autouuid** 属性独自の「householdId」プライマリキーを指定する「id」という名前のデフォルトのプライマリキーを作成します。
 
 >[!CAUTION]
 >

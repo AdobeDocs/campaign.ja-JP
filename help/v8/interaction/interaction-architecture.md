@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: dafdf471fcaf2b6c6e3e8d5028cd65e35e7df3eb
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Adobe Campaign インタラクションモジュールは、次の 2 種類の�
 
 ## 分散アーキテクチャ
 
-スケーラビリティをサポートし、インバウンドチャネルで 24 時間年中無休のサービスを提供できるようにするために、**インタラクション**&#x200B;モジュールは分散アーキテクチャで実装されています。このタイプのアーキテクチャは、[Message Center](../dev/architecture.md#transac-msg-archi) で既に使用されており、複数のインスタンスで構成されています。
+スケーラビリティをサポートし、インバウンドチャネルで 24 時間年中無休のサービスを提供できるようにするために、**インタラクション**&#x200B;モジュールは分散アーキテクチャで実装されています。このタイプのアーキテクチャは、[Message Center](../architecture/architecture.md#transac-msg-archi) で既に使用されており、複数のインスタンスで構成されています。
 
 * アウトバウンドチャネル専用で、マーケティングおよび環境のデザインベースを含む、1 つまたは複数のコントロールインスタンス
 * インバウンドチャネル専用の、1 つまたは複数の実行インスタンス

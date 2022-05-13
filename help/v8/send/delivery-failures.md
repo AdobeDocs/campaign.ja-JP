@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
+source-git-commit: 1ff06c69a4118afa228522d580dd5caa36a69275
 workflow-type: tm+mt
-source-wordcount: '3166'
-ht-degree: 100%
+source-wordcount: '2899'
+ht-degree: 89%
 
 ---
 
-# 配信の失敗について{#delivery-failures}
+# 配信の失敗について {#delivery-failures}
 
-バウンスは、配信の試行とエラーの結果、ISP からエラー通知が返されたものを表します。バウンス処理は、リストの衛生状態の重要な部分です。特定のメールが連続して複数回バウンスした後、このプロセスにより、抑制のフラグが設定されます。このプロセスでは、システムが無効なメールアドレスの送信を継続するのを防ぎます。バウンスは、IP レピュテーションを判断するために ISP が使用する、データの重要な要素の 1 つです。この指標に目を通すことが重要です。「配信済み」と「バウンス済み」は、おそらくマーケティングメッセージの配信を測定する際の、最も一般的な方法です。配信率が高いほど、より良い結果が得られます。
+バウンスは、配信の試行とエラーの結果、ISP からエラー通知が返されたものを表します。バウンス処理は、リストの衛生状態の重要な部分です。特定のメールが連続して複数回バウンスした後、このプロセスにより、抑制のフラグが設定されます。
+
+このプロセスでは、システムが無効なメールアドレスの送信を継続するのを防ぎます。バウンスは、IP レピュテーションを判断するために ISP が使用する、データの重要な要素の 1 つです。この指標に目を通すことが重要です。「配信済み」と「バウンス済み」は、おそらくマーケティングメッセージの配信を測定する際の、最も一般的な方法です。配信率が高いほど、より良い結果が得られます。
 
 メッセージをプロファイルに送信できない場合、リモートサーバーは自動的にエラーメッセージを Adobe Campaign に送信します。このエラーは、メールアドレス、電話番号、またはデバイスを強制隔離する必要があるかどうかを判断するために適合されます。[バウンスメールの管理](#bounce-mail-qualification)を参照してください。
 
@@ -24,66 +26,21 @@ ht-degree: 100%
 
 ## メッセージの配信が失敗した理由 {#delivery-failure-reasons}
 
-メッセージエラーには次の 2 つのタイプがあります。それぞれのエラータイプによって、アドレスが[強制隔離](quarantines.md#quarantine-reason)されるかどうかが決まります。
-
+メッセージエラーには次の 2 つのタイプがあります。各配信エラータイプによって、アドレスが [強制隔離](quarantines.md#quarantine-reason) またはそうでない。
 
 * **ハードバウンス**
-ハードバウンスは、ISP が加入者アドレスへのメーリングの試行を配信不能と判断した後に生成される、永続的なエラーです。Adobe Campaign 内では、配信不能と分類されたハードバウンスは強制隔離に追加され、再試行されません。エラーの原因が不明な場合、ハードバウンスが無視されることがあります。
+ハードバウンスは、ISP が加入者アドレスへのメーリングの試行を配信不能と判断した後に生成される、永続的なエラーです。Adobe Campaign内では、配信不能と分類されたハードバウンスが強制隔離リストに追加されます。つまり、再試行されません。 エラーの原因が不明な場合、ハードバウンスが無視されることがあります。
 
    ハードバウンスの一般的な例：アドレスが存在しない、無効なアカウント、無効な構文、無効なドメイン
 
-
 * **ソフトバウンス**
-ソフトバウンスは、メールの配信が困難な場合に ISP によって生成される、一時的なエラーです。ソフトエラーは、配信を成功させる試みとして、複数回（カスタム配信設定または標準提供の配信設定の使用に応じて異なる）再試行されます。継続的にソフトバウンスを行うアドレスは、再試行の最大回数に到達するまで強制隔離に追加されません（設定によって異なります）。
+ソフトバウンスは、メールの配信が困難な場合に ISP によって生成される、一時的なエラーです。ソフトエラーが発生する [再試行](#retries) 配信を成功させるために複数回（カスタム配信設定または標準提供の配信設定の使用に応じて異なる）実行しました。 継続的にソフトバウンスを行うアドレスは、再試行の最大回数に到達するまで強制隔離に追加されません（設定によって異なります）。
 
    ソフトバウンスの一般的な原因：メールボックス容量超過、受信メールサーバーの停止、送信者の評判の問題
 
-
 **無視**&#x200B;は、一時的であることがわかっているエラー（「外出中」など）、または技術的エラー（送信者タイプが「postmaster」である場合など）です。
 
-
-
-### バウンスメールの選定 {#bounce-mail-qualification}
-
-配信エラーを検証するために Campaign で使用されるルールは、 **[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信ログの検証]**&#x200B;ノードにリストされます。このリストは完成形ではなく、Adobe Campaign によって定期的に更新されます。ユーザーが管理することもできます。
-
-![](assets/delivery-log-qualification.png)
-
-**[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。Momentum は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。
-
-**非同期**&#x200B;バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。
-
-このエラータイプが最初に発生したときにリモートサーバーから返されたメッセージは、「**[!UICONTROL 監査]**」タブの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列に表示されます。
-
-![](assets/delivery-log-first-txt.png)
-
-Adobe Campaign は、このメッセージをフィルター処理して変数コンテンツ（ID、日付、E メールアドレス、電話番号など）を削除し、フィルター処理した結果を&#x200B;**[!UICONTROL テキスト]**&#x200B;列に表示します。変数は、**`#xxx#`** で置き換えられます（ただし、アドレスは **`*`** で置き換えられます）。
-
-このプロセスで同じタイプのすべてのエラーをまとめることにより、同じようなエラーの複数のエントリが配信ログの検証テーブルに含まれないようにすることができます。
-
->[!NOTE]
->
->「**[!UICONTROL 発生数]**」フィールドには、リスト内のメッセージの発生回数が表示されます。上限は 100,000 回です。このフィールドは、リセットする場合など、必要に応じて編集できます。
-
-バウンスメールは、次の検証ステータスを持つことができます。
-
-* **[!UICONTROL 検証必要]**：バウンスメールを選定できませんでした。選定を配信品質チームに割り当てて、効率的なプラットフォーム配信品質を保証する必要があります。選定されていないバウンスメールは、メール管理ルールのリストのエンリッチメントには使用されません。
-* **[!UICONTROL 保持]**：バウンスメールは選定されました。**配信品質の更新**&#x200B;ワークフローは、このバウンスメールを既存のメール管理ルールとの比較およびリストのエンリッチメントに使用します。
-* **[!UICONTROL 無視]**：バウンスメールは無視され、このバウンスによって受信者のアドレスが隔離されることはありません。**配信品質の更新**&#x200B;ワークフローでは使用されず、クライアントインスタンスに送信されません。
-
-![](assets/delivery-log-status.png)
-
-
->[!NOTE]
->
->ISP を利用できなくなった場合、Campaign を通じて送信された E メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの認定条件を更新する必要があります。 
-
-
-## 再試行管理 {#retries}
-
-一時的なエラー（**ソフト**&#x200B;または&#x200B;**無視**）の後でメッセージ配信が失敗した場合、Campaign は送信を再試行します。これらの再試行は、配信期間が終了するまで実行できます。再試行の回数と頻度は、メッセージの ISP から返されるバウンス応答のタイプと重大度に基づいて、Momentum によって設定されます。
-
-デフォルトの設定では、1 時間間隔で 5 回、その後 4 日間は 1 日に 1 回再試行されます。再試行の回数は、グローバルに変更することも、配信または配信テンプレートごとに変更することもできます。配信期間と再試行を適応させる必要がある場合は、アドビサポートにお問い合わせください。
+フィードバックループはバウンス E メールのように機能します。ユーザーがメールをスパムとみなしたら、Adobe Campaign でメールルールを設定して、このユーザーへのすべての配信をブロックできます。これらのユーザーのアドレスは、購読解ブロックリストに加える除リンクをクリックしなかった場合でも表示されます。 アドレスは、**NmsAddress**) 強制隔離テーブル (**NmsRecipient**) 受信者テーブル **[!UICONTROL ブロックリストに加える]** ステータス。 フィードバックループのメカニズムについて詳しくは、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops).
 
 ## 同期エラーと非同期エラー {#synchronous-and-asynchronous-errors}
 
@@ -91,17 +48,58 @@ Adobe Campaign は、このメッセージをフィルター処理して変数�
 
 これらのタイプのエラーは、次のように管理されます。
 
-* **同期エラー**：Adobe Campaign 配信サーバーからアクセスされたリモートサーバーが即座にエラーメッセージを返します。配信をプロファイルのサーバーに送ることは許可されません。Adobe Campaign が個々のエラーを評価して、そのメールアドレスを強制隔離すべきかどうかを判断します。[バウンスメールの選定](#bounce-mail-qualification)を参照してください。
+* **同期エラー**:Adobe Campaign配信サーバーから接続されたリモートサーバーは、即座にエラーメッセージを返します。配信をプロファイルのサーバーに送信することは許可されていません。 Enhanced MTA は、バウンスのタイプを決定してエラーを検証し、その情報を Campaign に返して、関係する E メールアドレスを強制隔離する必要があるかどうかを判断します。 [バウンスメールの選定](#bounce-mail-qualification)を参照してください。
 
 * **非同期エラー**：バウンスメールまたは SR が受信サーバーによって後で再送信されます。このエラーは、エラーに関連するラベルで検証されます。 非同期エラーは、配信の送信から 1 週間は発生する可能性があります。
 
-   >[!NOTE]
-   >
-   >Managed Services のユーザーの場合、バウンスメールボックスの設定はアドビが実行します。
+>[!NOTE]
+>
+>Managed Services のユーザーの場合、バウンスメールボックスの設定はアドビが実行します。
 
-   フィードバックループはバウンス E メールのように機能します。ユーザーがメールをスパムとみなしたら、Adobe Campaign でメールルールを設定して、このユーザーへのすべての配信をブロックできます。このようなユーザーのアドレスは、購読解除リンクをクリックしなかった場合でも、ブロックリストに登録されます。アドレスは、（**NmsRecipient**）受信者テーブルではなく、（**NmsAddress**）強制隔離テーブルでブロックリストに登録されます。フィードバックループのメカニズムについて詳しくは、[Adobe 配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)を参照してください。
+## バウンスメールの選定 {#bounce-mail-qualification}
+
+<!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+
+![](assets/delivery-log-qualification.png)-->
+
+現在、Adobe Campaignでのバウンスメールの選定の処理方法は、エラータイプによって異なります。
+
+* **同期エラー**:Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。 **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。
+
+* **非同期エラー**:非同期配信エラーを検証するために Campaign で使用されるルールは、 **[!UICONTROL 管理/Campaign Management/配信不能件数の管理/配信ログの検証]** ノード。 非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}。
+
+<!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+
+![](assets/delivery-log-first-txt.png)
+
+Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
+
+This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
+  
+>[!NOTE]
+>
+>The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
+
+Bounce mails can have the following qualification status:
+
+* **[!UICONTROL To qualify]** : the bounce mail could not be qualified. Qualification must be assigned to the Deliverability team to guarantee efficient platform deliverability. As long as it is not qualified, the bounce mail is not used to enrich the list of email management rules.
+* **[!UICONTROL Keep]** : the bounce mail was qualified and will be used by the **Refresh for deliverability** workflow to be compared to existing email management rules and enrich the list.
+* **[!UICONTROL Ignore]** : the bounce mail is ignored, meaning that this bounce will never cause the recipient's address to be quarantined. It will not be used by the **Refresh for deliverability** workflow and it will not be sent to client instances.
+
+![](assets/delivery-log-status.png)
+
+>[!NOTE]
+>
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.-->
 
 
+## 再試行管理 {#retries}
+
+一時的なエラー (**ソフト** または **無視**)、Campaign が送信を再試行する場合に発生します。 これらの再試行は、配信期間が終了するまで実行できます。
+
+再試行の回数と頻度は、メッセージの ISP から返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が設定します。
+
+<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
 
 ## メールのエラータイプ {#email-error-types}
 
