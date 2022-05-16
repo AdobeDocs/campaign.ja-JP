@@ -3,7 +3,7 @@ product: campaign
 title: Adobe Campaign のインタラクションのベストプラクティス
 description: Adobe Campaign でインタラクションモジュールを管理するためのベストプラクティスアプローチ
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
-source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
+source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%

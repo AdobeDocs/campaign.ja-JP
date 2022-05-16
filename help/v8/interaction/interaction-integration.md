@@ -3,7 +3,7 @@ product: campaign
 title: Web ページへのオファーの追加
 description: Web ページでのオファーの追加方法を学ぶ
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: 213a10fea36b3b08c1dd8525084d212e191b2fc7
+source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%

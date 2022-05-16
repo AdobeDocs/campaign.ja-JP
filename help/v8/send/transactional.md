@@ -5,18 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: ec044d6176b4d00302d7a7e24520b97669bede49
+source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 92%
+source-wordcount: '1549'
+ht-degree: 100%
 
 ---
 
 # トランザクションメッセージの概要{#send-transactional-messages}
 
-トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらの通知は、情報システムからトリガーされるイベントから生成され、次のことができます。請求書、注文確認、配送確認、パスワード変更、製品の不在通知、取引明細書、web サイトアカウントの作成など
+トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらのメッセージは、情報システムからトリガーされたイベントから生成されます。例えば、請求書、オーダー確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、Web サイトアカウント作成などのメッセージがあります。
 
-![](../assets/do-not-localize/speech.png)  管理対象Cloud Servicesユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support){target=&quot;_blank&quot;} ：お使いの環境に Campaign トランザクションメッセージをインストールして設定します。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 トランザクションメッセージは、次の送信に使用します。
 
@@ -26,58 +26,13 @@ ht-degree: 92%
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
 
-![](../assets/do-not-localize/glass.png) に関するトランザクションメッセージアーキテクチャを理解する [このページ](../architecture/architecture.md).
+![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../dev/architecture.md)を参照してください。
 
-## トランザクションメッセージの動作原理 {#transactional-messaging-operating-principle}
-
-Adobe Campaign のトランザクションメッセージモジュールは情報システムに組み込まれ、システムはパーソナライズされたトランザクションメッセージに変換するイベントを返します。これらのメッセージはメール、SMS、プッシュ通知などを介して、個別に送信することも、まとめて送信することもできます。
-
-例えば、顧客が製品を購入できる ｗeb サイトを持つ会社の例で考えてみます。
-
-Adobe Campaign を使用すると、買い物かごに製品を追加した顧客に通知メールを送信できます。Web サイトを訪れた人が購入せずにサイトを離れると（キャンペーンイベントをトリガーする外部イベント）、買い物かごの放棄に伴うメールを自動的に送信できます（トランザクションメッセージ配信）。
-
-これをおこなう主な手順を次に示します。
-
-1. [イベントタイプの作成](#create-event-types)。
-1. [メッセージテンプレートの作成とデザイン](#create-message-template)。この手順で、イベントをメッセージにリンクします。
-1. [メッセージのテスト](#test-message-template)。
-1. [メッセージテンプレートのパブリッシュ](#publish-message-template)。
-
-トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、関連するデータは PushEvent および PushEvents を介して Campaign に送信されます [SOAP メソッド](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja){target=&quot;_blank&quot;} の場合は、ターゲットの受信者に配信が送信されます。
-
-## イベントタイプの作成 {#create-event-types}
-
-各イベントをパーソナライズされたメッセージに変更するには、まず&#x200B;**イベントタイプ**&#x200B;を作成します。
-
-[メッセージテンプレートを作成](#create-message-template)する際、送信するメッセージに一致するイベントのタイプを選択します。
-
->[!IMPORTANT]
+>[!CAUTION]
 >
->イベントタイプをメッセージテンプレートで使用するには、事前に作成しておく必要があります。
+>トランザクションメッセージを利用するには特定のライセンスが必要です。ライセンス契約をご確認ください。
 
-Adobe Campaign で処理されるイベントタイプを作成するには、次の手順に従います。
-
-1. **コントロールインスタンス**&#x200B;にログオンします。
-
-1. ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;フォルダーに移動します。
-
-1. リストから&#x200B;**[!UICONTROL イベントタイプ]**&#x200B;を選択します。
-
-1. 「**[!UICONTROL 追加]**」をクリックして、列挙の値を作成します。注文の確認、パスワードの変更、注文の配送変更などがイベントタイプとして考えられます。
-
-   <!--![](assets/messagecenter_eventtype_enum_001.png)-->
-
-   >[!IMPORTANT]
-   >
-   >各イベントタイプは、**[!UICONTROL イベントタイプ]**&#x200B;の列挙の値と一致する必要があります。
-
-1. 項目別リストの値を作成した後、作成事項を反映させるためには、一旦インスタンスからログオフし再度ログオンします。
-
->[!NOTE]
->
->項目別リストの詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html?lang=ja){target=&quot;_blank&quot;}。
-
-## トランザクションメッセージテンプレートの定義 {#create-message-template}
+## トランザクションメッセージのテンプレートの定義
 
 各イベントをトリガーにして、パーソナライズされたメッセージを送信することができます。そのためには、各イベントタイプと一致するメッセージのテンプレートを作成する必要があります。テンプレートには、トランザクションメッセージをパーソナライズするのに必要な情報が含まれています。また、テンプレートを使用すると、メッセージのプレビューを検証したり、最終ターゲットへ配信する前にシードアドレスを使用した配達確認を送信することもできます。
 
@@ -99,9 +54,9 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
    ![](assets/messagecenter_create_model_003.png)
 
-   Adobe Campaignが処理する予定のイベントタイプは、事前に作成しておく必要があります。
+   Adobe Campaign で処理する予定のイベントのタイプは、Adobe がコントロールインスタンスで作成する必要があります。
 
-   >[!CAUTION]
+   >[!NOTE]
    >
    >1 つのイベントタイプを複数のテンプレートにリンクすることはできません。
 
@@ -136,8 +91,6 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 1. 下記に示すように、タグの入力には次の構文を利用します。**要素名**.@**属性名**
 
    ![](assets/messagecenter_create_custo_2.png)
-
-## トランザクションメッセージテンプレートのテスト {#test-message-template}
 
 ### シードアドレスの追加{#add-seeds}
 
@@ -221,7 +174,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
 ![](assets/messagecenter_send_proof_003.png)
 
-## テンプレートの公開 {#publish-message-template}
+### テンプレートの公開
 
 コントロールインスタンス上に作成されたメッセージテンプレートが完成したら、それを公開できます。 このプロセスは、すべての実行インスタンスでも公開されます。
 
@@ -253,7 +206,8 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 >
 >ただし、空でない値を追加すると、次回のパブリッシュ後に、対応するフィールドが通常どおり更新されます。
 
-## テンプレートの非公開
+
+### テンプレートの非公開
 
 メッセージテンプレートは、実行インスタンスで公開した後に非公開にすることができます。
 

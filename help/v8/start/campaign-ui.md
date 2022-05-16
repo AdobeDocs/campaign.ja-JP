@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
+source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Campaign UI へのアクセス
 
-[クライアントコンソール](../architecture/general-architecture.md)から Campaign Workspace を利用できます。
+[クライアントコンソール](../dev/general-architecture.md)から Campaign Workspace を利用できます。
 
 Campaign クライアントコンソールをインストールして設定する方法については、[この節](../start/connect.md)を参照してください。
 

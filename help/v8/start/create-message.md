@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 79a220ad9c9c372b64db9a33efc1843c95a2a619
+source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 * **LINE channel**: LINE deliveries let you send messages on LINE, an instant messaging application available on all smartphones. Learn more in [this page](../send/line.md)
 -->
 
-## メッセージの送信方法の選択{#gs-send-msg}
+## メッセージの送信方法の選択
 
 メッセージを作成し、体裁を整えてテストしたら、送信方法を選択できます。 Campaign は、次の一連の機能を備えています。
 
@@ -66,7 +66,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
    ![](../assets/do-not-localize/book.png) [ユースケース：誕生日メールのスケジュール設定と送信方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ja){target=&quot;_blank&quot;}
 
 
-## パーソナライゼーションの追加{#personalization}
+## パーソナライゼーションの追加
 
 Adobe Campaign が配信するメッセージは、様々な方法でパーソナライズすることができます。
 
@@ -79,17 +79,17 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 * 条件付きコンテンツを作成する。
    ![](../assets/do-not-localize/book.png) 条件付きコンテンツの挿入方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ja)を参照してください{target=&quot;_blank&quot;}
 
-## トランザクションメッセージの送信{#gs-transac-messages}
+## トランザクションメッセージの送信
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計された Campaign モジュールです。
 
-![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../architecture/architecture.md#transac-msg-archi)を参照してください
+![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../dev/architecture.md#transac-msg-archi)を参照してください
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージの設定と送信の手順については、[このページ](../send/transactional.md)を参照してください
 
 ![](../assets/do-not-localize/book.png) [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ja)でこの機能のエンドツーエンドのユースケースを確認する{target=&quot;_blank&quot;}
 
-## 配信とトラッキングログ{#gs-tracking-logs}
+## 配信とトラッキングログ
 
 送信後に配信を監視することは、効率的で顧客に働きかけるマーケティングキャンペーンにするための重要なステップです。 配信の送信後に監視したり、配信の失敗や強制隔離がどのように管理されているかを把握したりできます。
 
