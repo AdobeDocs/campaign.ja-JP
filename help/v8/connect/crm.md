@@ -8,7 +8,7 @@ exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
 source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 主なメリットは次のとおりです。
 
-* セールスとマーケティング間で一貫したメッセージを表示：Adobe Campaignと CRM の統合により、両方のシステムから顧客インサイトと電子メールマーケティング履歴にアクセスでき、顧客に対するすべてのメッセージで同じ一貫性のあるメッセージを共有できます。
+* セールスとマーケティング間で一貫したメッセージを表示：Adobe Campaign と CRM の統合により、両方のシステムから顧客インサイトと電子メールマーケティング履歴にアクセスできるようになりました。また、顧客に対するすべてのメッセージで同じ一貫性のあるメッセージの共有もできます。
 
-* すべての見込み客と顧客データの全体像：Adobe Campaignを CRM と統合すると、CRM システム内から各連絡先の電子メールマーケティング履歴を共有し、アクセスできます。
+* すべての見込み客と顧客データの総合的なビュー：Adobe Campaign を CRM と統合すると、CRM システム内から各連絡先の電子メールマーケティング履歴を共有し、アクセスできます。
 
-* 任意のチャネルで CRM データをアクティブ化します。連絡先データをAdobe Campaignに同期すると、モバイルプッシュ、アプリ内、電子メール、ダイレクトメールなど、Campaign を使用した任意のオンラインまたはオフラインチャネルで通信できます。
+* 任意のチャネルで CRM データをアクティブ化：連絡先データを Adobe Campaign に同期すると、モバイルプッシュ、アプリ内、電子メール、ダイレクトメールなど、Campaign を使用した任意のオンラインまたはオフラインチャネルで通信できます。
 
 
 >[!NOTE]
@@ -39,9 +39,9 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ## 実装手順 {#crm-implementation-steps}
 
-で Campaign とMicrosoft Dynamics を接続する手順を説明します。 [このページ](ac-ms-dyn.md).
+Campaign と Microsoft Dynamics を接続する手順については、[このページ](ac-ms-dyn.md)を参照してください。
 
-Campaign と Salesforce.com を接続する手順については、 [このページ](ac-sfdc.md).
+Campaign と Salesforce.com を接続する手順については、[このページ](ac-sfdc.md)を参照してください。
 
 Adobe Campaign と CRM は、専用のワークフローアクティビティでデータを同期します。Campaign と CRM の同期を自動化するワークフローを作成します。 Microsoft Dynamics 経由で読み込んだ連絡先を、既存の Adobe Campaign データと同期し、重複する連絡先は削除してから、Adobe Campaign のデータベースを更新するワークフローを作成できます。
 

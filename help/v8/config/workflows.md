@@ -81,7 +81,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 1. 「**[!UICONTROL アクション]**」タブから、「**[!UICONTROL JavaScript コード]**」アクティビティをドラッグ＆ドロップして、作業用テーブルに対して単一の操作を実行します。
 
-   「**[!UICONTROL JavaScript コード]**」アクティビティの詳細については、Campaign Classic v7 ドキュメントの [JavaScript コードと高度な JavaScript コード](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code)の節を参照してください。
+   「**[!UICONTROL JavaScript コード]**」アクティビティの詳細については、Campaign Classic v7 ドキュメントの [JavaScript コードと高度な JavaScript コード](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html?lang=ja#javascript-code)の節を参照してください。
 
 1. 別の「**[!UICONTROL データソースを変更]**」アクティビティを追加して、クラウドデータベースに戻します。
 

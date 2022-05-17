@@ -2,7 +2,8 @@
 product: campaign
 title: テクニカルノート - Adobe Campaign - Apache バージョンのセキュリティアップデート
 description: Adobe Campaign - Apache バージョンのセキュリティアップデート
-source-git-commit: 11906c5be9ed483be4ce259899fe23207da6d38a
+exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
+source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 100%

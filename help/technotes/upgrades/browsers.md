@@ -2,7 +2,8 @@
 product: campaign
 title: Chrome、Firefox および Edge ブラウザーでの Campaign web コンポーネントおよびバージョン 100
 description: Chrome、Firefox および Edge ブラウザーでの Campaign web コンポーネントおよびバージョン 100
-source-git-commit: 11906c5be9ed483be4ce259899fe23207da6d38a
+exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
+source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%

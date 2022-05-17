@@ -7,7 +7,7 @@ title: Campaign v8 ドキュメント
 source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -106,8 +106,8 @@ ht-degree: 96%
    + Campaign と CRM の統合 {#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
-      + [Campaign とMicrosoft Dynamics の使用](connect/ac-ms-dyn.md)
-      + [データを同期](connect/crm-data-sync.md)
+      + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
+      + [データの同期](connect/crm-data-sync.md)
 + 開発者向けリソース {#architecture}
    + [グローバル原則](dev/general-architecture.md)
    + [アーキテクチャ](dev/architecture.md)
