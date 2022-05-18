@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 93%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 100%
       + [Campaign インターフェイスの理解](start/campaign-ui.md)
       + [Campaign インターフェイスのカスタマイズ](start/customize-ui.md)
    + [オーディエンスの操作](start/audiences.md)
+   + [プライバシーリクエストの管理](start/privacy.md)
    + [データの読み込み](start/import.md)
    + [キャンペーンの作成](start/campaigns.md)
    + [メッセージの送信](start/create-message.md)
@@ -34,6 +35,18 @@ ht-degree: 100%
    + [追跡と監視](start/tracking.md)
    + [指標とレポート](start/reporting.md)
    + [よくある質問](start/campaign-faq.md)
++ アーキテクチャ {#architecture}
+   + [グローバル原則](architecture/general-architecture.md)
+   + [アーキテクチャ](architecture/architecture.md)
+   + FDASnowflakeのデプロイ {#fda}
+      + [FDA-Snowflakeとは](architecture/fda-deployment.md)
+   + エンタープライズ (FFDA) デプロイメント {#ffda}
+      + [Campaign FFDA とは](architecture/enterprise-deployment.md)
+      + 特性 {#ffda-characteristics}
+         + [鍵の管理と単一性](architecture/keys.md)
+         + [新しい API](architecture/new-apis.md)
+         + [API のステージングメカニズム](architecture/staging.md)
+         + [レプリケーションメカニズム](architecture/replication.md)
 + 実装 {#implement}
    + [実装手順](start/implement.md)
    + [インスタンスのカスタマイズ](dev/customize.md)
@@ -59,7 +72,9 @@ ht-degree: 100%
    + [フォルダーとビューの管理](audiences/folders-and-views.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
 + メッセージの送信{#send}
-   + [メール](send/email.md)
+   + メール {#emails}
+      + [メールのデザインと送信](send/email.md)
+      + [Enhanced MTA について](send/enhanced-mta.md)
    + [SMS](send/sms.md)
    + [プッシュ通知](send/push.md)
    + [LINE メッセージ](send/line.md)
@@ -89,7 +104,6 @@ ht-degree: 100%
    + [ユースケース](interaction/interaction-use-cases.md)
 + 設定 {#config}
    + [ワークフローを使用した自動化](config/workflows.md)
-   + [データの管理](config/replication.md)
    + [メールの設定](config/email-settings.md)
    + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
    + [Campaign SDK とアプリの統合](config/push-config.md)
@@ -108,13 +122,10 @@ ht-degree: 100%
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
       + [データの同期](connect/crm-data-sync.md)
-+ 開発者向けリソース {#architecture}
-   + [グローバル原則](dev/general-architecture.md)
-   + [アーキテクチャ](dev/architecture.md)
-   + [データモデル](dev/datamodel.md)
++ 開発者向けリソース {#developer}
+   + [Campaign データモデル](dev/datamodel.md)
    + スキーマとフォーム {#shemas-forms}
       + [スキーマの操作](dev/schemas.md)
-      + [鍵の管理と単一性](dev/keys.md)
       + [スキーマの作成](dev/create-schema.md)
       + [スキーマの拡張](dev/extend-schema.md)
       + [フィルタースキーマ](dev/filter-schema.md)
@@ -124,8 +135,6 @@ ht-degree: 100%
       + [カスタム受信者テーブルの使用](dev/custom-recipient.md)
       + [データベースの更新](dev/update-database-structure.md)
       + [入力フォーム](dev/forms.md)
-   + API {#api}
-      + [基本を学ぶ](dev/api.md)
-      + [新しい API](dev/new-apis.md)
-      + [API のステージングメカニズム](dev/staging.md)
+   + [Campaign API](dev/api.md)
 + [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
+

@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 100%
+source-wordcount: '1400'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 保存すると、Microsoft Azure Directory は一意の&#x200B;**アプリケーション（クライアント）ID** をアプリに割り当てます。この ID は、後で Adobe Campaign で Dynamics 365 を設定する際に必要になります。
 
-詳しくは、[Microsoft Dynamics 365 ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory)を参照してください。
+詳しくは、 [Microsoft Dynamics 365 ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target=&quot;_blank&quot;}。
 
 ### Microsoft Dynamics 証明書キー識別子およびキー ID の生成 {#config-certificate-key-id}
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 **手順 3**：Dynamics CRM でアプリケーションユーザーを作成する
 
 1. [Microsoft Azure](https://portal.azure.com) から、**設定／セキュリティ／ユーザー**&#x200B;に移動します。
-1. ドロップダウンをクリックし、**アプリケーションユーザー**&#x200B;を選択して「**新規**」をクリックします。
+1. ドロップダウンをクリックし、「 」を選択します。 **アプリユーザー**&#x200B;をクリックし、 **新規**.
 1. 上の Active Directory に作成されたユーザーと同じユーザー名を使用します.
 1. **アプリケーション ID** を[以前に作成したアプリケーション](#get-client-id-microsoft)に割り当てます。
 1. 「**ロールの管理**」をクリックし、ユーザーに対して&#x200B;**システム管理者**&#x200B;ロールを選択します。

@@ -2,10 +2,10 @@
 title: Campaign データベースのマッピング
 description: Campaign データベースのマッピング
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 100%
+source-wordcount: '1485'
+ht-degree: 97%
 
 ---
 
@@ -196,9 +196,9 @@ XML フィールドを使用すると、データベースの物理構造を変�
    </schema>
    ```
 
-### プライマリキー - 識別子
+### プライマリキー - 識別子{#primary-key}
 
-Adobe Campaign テーブルのプライマリキーは、データベースエンジンによって自動生成される **Universally Unique ID（UUID）**&#x200B;です。 キー値は、データベース全体で一意です。 レコードの挿入時に、キーの内容が自動的に生成されます。
+のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)Adobe Campaignテーブルのプライマリキーは **ユニバーサル固有 ID(UUID)** データベースエンジンによって自動生成されました。 キー値は、データベース全体で一意です。 レコードの挿入時に、キーの内容が自動的に生成されます。
 
 **例**
 
@@ -353,6 +353,8 @@ Adobe Campaign テーブルのプライマリキーは、データベースエ�
 * **target**：リンクスキーマのキー（「cus:recipient」スキーマ）
 * **unbound**：リンクは、一対多のカーディナリティのコレクション要素として宣言されます（デフォルト）
 * **integrity**：デフォルトは「define」です（ソーススキーマのリンク定義の「revIntegrity」属性を使用して強制できます)。
+
+なお、 `autouuid="true"`パラメーターは [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md) のみ。
 
 ### 例 2 {#example-2}
 

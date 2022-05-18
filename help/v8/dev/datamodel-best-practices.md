@@ -2,10 +2,10 @@
 title: データモデルのベストプラクティス
 description: Adobe Campaign データモデル拡張のベストプラクティスを説明します
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
-source-wordcount: '2688'
-ht-degree: 100%
+source-wordcount: '2722'
+ht-degree: 97%
 
 ---
 
@@ -74,13 +74,9 @@ Adobe Campaign で必要な属性であるかどうかを判断するには、�
 
 パフォーマンスを高めるには、効率的なキーが不可欠です。 Snowflake を使用すると、数値または文字列ベースのデータ型をテーブルのキーとして挿入できます。
 
-<!-- ### Dedicated tablespaces {#dedicated-tablespaces}
-
-The tablespace attribute in the schema allows you to specify a dedicated tablespace for a table.
-
-The installation wizard allows you to store objects by type (data, temporary).
-
-Dedicated tablespaces are better for partitioning, security rules, and allow fluid and flexible administration, better optimization, and performance. -->
+>[!NOTE]
+>
+>この **autouuid** 属性のみが適用されます [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md).
 
 ## 識別子 {#identifiers}
 
@@ -94,7 +90,7 @@ Adobe Campaign リソースには 3 つの識別情報があり、別の識別�
 | 名前（または内部名） | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。 この値は、通常は生成された名前で手動で更新できます。</li><li>この識別子は、Adobe Campaign の別のインスタンスにデプロイされたときにその値を保持し、空にはしないでください。</li></ul> | <ul><li>オブジェクトをある環境から別の環境にデプロイする場合は、Adobe Campaign で生成されたレコード名を変更します。</li><li>オブジェクトに名前空間属性（*schema*&#x200B;など）がある場合、この共通の名前空間は、作成されたすべてのカスタムオブジェクトで活用されます。 *nms*、*xtk* など、一部の予約済み名前空間は使用できません。一部の名前空間は社内専用であることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)。</li><li>オブジェクトに名前空間（*workflow* や *delivery* など）がない場合、この名前空間は内部名オブジェクトのプレフィックスとして追加されます（*namespaceMyObjectName*）。</li><li>スペース「 」、セミコロン「;」、ハイフン「-」などの特殊文字は使用しないでください。 これらの文字はすべて、アンダースコア「_」（許可されている文字）に置き換えられます。 例えば、「abc-def」と「abc:def」は「abc_def」として保存され、相互に上書きされます。</li></ul> |
 | ラベル | <ul><li>ラベルは、Adobe Campaign 内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字も使用できます。</li><li>レコードの一意性は保証されません。</li></ul> | <ul><li>オブジェクトラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaign ユーザーにとって、レコードまたはオブジェクトを識別するための最も使いやすい解決策です。</li></ul> |
 
-Adobe Campaign のプライマリキーは、すべてのビルトインテーブルに対して自動生成される UUID です。 UUID は、カスタムテーブルにも使用できます。[詳細](keys.md)
+のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)の場合、Adobe Campaignのプライマリキーは、すべての組み込みテーブルの自動生成 UUID です。 UUID は、カスタムテーブルにも使用できます。[詳細](../architecture/keys.md)
 
 ID の数が無限にある場合でも、最適なパフォーマンスを確保するために、データベースのサイズに注意してください。問題を防ぐために、インスタンスのパージ設定を必ず調整してください。 詳しくは、[この節](#data-retention)を参照してください。
 
@@ -113,7 +109,9 @@ ID の数が無限にある場合でも、最適なパフォーマンスを確�
 
 >[!CAUTION]
 >
->autouuid は、ワークフローで参照として使用しないでください。
+>* autouuid は、ワークフローで参照として使用しないでください。
+> * この **autouuid** 属性のみが適用されます [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md).
+>
 
 
 ## リンクとカーディナリティ {#links-and-cardinality}
@@ -122,7 +120,7 @@ ID の数が無限にある場合でも、最適なパフォーマンスを確�
 
 大きなテーブルでは、「own」整合性に注意してください。 「own」整合性でワイドテーブルを持っているレコードを削除すると、インスタンスが停止する可能性があります。テーブルはロックされ、削除は 1 つずつ行われます。 したがって、大型の子テーブルには「neutral」整合性を使用することをお勧めします。
 
-リンクを外部結合として宣言すると、パフォーマンスが悪くなります。ゼロ ID レコードは外部結合機能をエミュレートします。 リンクで **autouuid** を使用している場合は、外部結合を宣言する必要はありません。
+リンクを外部結合として宣言すると、パフォーマンスが悪くなります。ゼロ ID レコードは外部結合機能をエミュレートします。 のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)を使用する場合、リンクで **autouuid**.
 
 ワークフロー内の任意のテーブルを結合できますが、リソース間の共通リンクをデータ構造の定義に直接定義することをお勧めします。
 

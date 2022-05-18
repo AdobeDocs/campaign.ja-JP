@@ -2,7 +2,7 @@
 title: Campaign のスキーマ構造
 description: Campaign のスキーマ構造
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 100%

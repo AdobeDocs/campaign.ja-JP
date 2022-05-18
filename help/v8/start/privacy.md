@@ -4,7 +4,7 @@ description: Campaign でプライバシーリクエストを管理する方法�
 feature: Audiences
 role: Data Engineer
 level: Beginner
-source-git-commit: 9457652f62810eb401c4010acd9b5da42d88d796
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 47%
@@ -21,11 +21,11 @@ ht-degree: 47%
 
 プライバシーの準備を容易にするために、Adobe Campaign でアクセス要求と削除要求の処理が可能になりました。
 
-![](../assets/do-not-localize/speech.png) 詳しくは、 **アクセス権** そして **忘れられる権利** （削除リクエスト） [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target=&quot;_blank&quot;}。
-
 これらの要求を実行するには、**Privacy Core Service** 統合を使用する必要があります。 Privacy Core Service からすべての Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。[詳細情報](#create-privacy-request)
 
 Adobeは、データ管理者に、Campaign に保存されているデータに対するプライバシーリクエストを作成および処理するためのツールを提供します。 ただし、要求者であるデータ主体の身元を確認し、要求者に返されるデータがデータ主体に関するものであることを確認するのは、データ管理者としての責任です。 個人データおよびデータを管理する様々なエンティティの詳細 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#personal-data){target=&quot;_blank&quot;}。
+
+![](../assets/do-not-localize/speech.png) 詳しくは、 **アクセス権** そして **忘れられる権利** （削除リクエスト） [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html#right-access-forgotten){target=&quot;_blank&quot;}。
 
 ## 名前空間を定義 {#namespaces}
 
@@ -153,7 +153,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 * **[!UICONTROL 完了]**：リクエストの処理が終了しました。エラーは発生していません。
 * **[!UICONTROL エラー]**：ワークフローにおいて、エラーが発生しました。理由は、 **[!UICONTROL リクエストステータス]** 列。 例えば、「**[!UICONTROL エラー: データが見つかりません]**」は、データ主体の&#x200B;**[!UICONTROL 紐付け値]**&#x200B;と一致する受信者データがデータベースに見つからなかったことを示します。
 
-Campaign Classic v7 ドキュメントの&#x200B;**関連トピック**：
+Campaign Classic v7 ドキュメントの&#x200B;**関連トピック：**
 
 * [プライバシーと同意](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}
 

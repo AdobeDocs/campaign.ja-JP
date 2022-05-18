@@ -1,6 +1,6 @@
 ---
-source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
-workflow-type: ht
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ### 細部の変更
 
-細部の変更を善意でおこなっていただける場合は、記事にアクセスし、その記事の&#x200B;**編集**&#x200B;リンクをクリックして記事の GitHub ソースに移動します。次に、GitHub UI を使用して更新をおこないます。詳細については、全般的な[アドビドキュメント投稿者ガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
+細部の変更を善意でおこなっていただける場合は、記事にアクセスし、その記事の&#x200B;**編集**&#x200B;リンクをクリックして記事の GitHub ソースに移動します。次に、GitHub UI を使用して更新をおこないます。詳細については、全般的な[アドビドキュメント投稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
 
 このリポジトリ内のドキュメントおよびコード例の細部の修正や明確化については、アドビ利用条件でカバーされます。
 
@@ -44,7 +44,7 @@ Adobe Experience Cloud ソリューションのテクニカルライター、プ
 
 コミュニティの投稿者は、GitHub UI を使用して基本的な編集をおこなったり、リポジトリをフォークして大幅な変更をおこなえます。
 
-詳しくは、[アドビドキュメント投稿者ガイド](https://docs.adobe.com/content/help/ja/contributor/contributor-guide/introduction.html)を参照してください。
+詳しくは、[アドビドキュメント投稿者ガイド](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)を参照してください。
 
 ## Markdown を使用してトピックをフォーマットする方法
 

@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 88%
 
 ---
 
@@ -18,22 +18,26 @@ ht-degree: 100%
 
 サードパーティ製のシステムやツールの特定のバージョンは、サービス終了（EOL）になると Adobe Campaign との互換性がなくなり、この互換性マトリックスから削除されます。問題を回避するため、互換性マトリックスに記載されているサポート対象バージョンのシステムをご使用ください。
 
+>[!NOTE]
+>
+>Adobe Campaign Server とクライアントコンソールは、同じバージョンである必要があります。[バージョンの確認方法を説明します](#version)。
+
 ## クライアントコンソール{#ClientConsoleoperatingsystems}
 
 Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。[詳細情報](connect.md)。
 
 ### オペレーティングシステム
 
-* **Microsoft Windows Server** 2016、2012
-* **Microsoft Windows** 8、10 (日本語インスタンスの場合に推奨))
+* **Microsoft Windows Server** 2019, 2016, 2012
+* **Microsoft Windows** 11（Campaign v8.3 以降）、10、8、
+
+>[!NOTE]
+>
+>日本語インスタンスには、Microsoft Windows 10 をお勧めします。
 
 ### ブラウザー
 
 **Microsoft Internet Explorer** 11
-
->[!NOTE]
->
->Adobe Campaign Server とクライアントコンソールは、同じバージョンである必要があります。[バージョンの確認方法を説明します](#version)。
 
 ## CRM コネクタ{#CRMconnectors}
 
@@ -55,8 +59,8 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 
 Campaign では、関連する Mobile SDK を使用して、以下に示すオペレーティングシステムで[プッシュ通知](../send/push.md)を送信できます。
 
-* **Android** 7.x、8.x、9.0、Campaign Android SDK ビルド 1.1.1
-* **Apple iOS** 9 ～ 14、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョン
+* **Android** 12（Campaign v8.3 以降）、9.0、8.x、7.x（Campaign Android SDK ビルド 1.1.1 を使用）。
+* **Apple iOS** 9 ～ 15、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョンiOS 15 は Campaign v8 以降でサポートされます。
 
 ## Web アクセス
 
@@ -64,9 +68,7 @@ Campaign では、関連する Mobile SDK を使用して、以下に示すオ�
 
 * **Microsoft Edge**、**Mozilla Firefox**、**Google Chrome**、**Safari** (最新バージョン)
 
-* **Internet Explorer** 11
-
-## Campaign のバージョン確認方法とビルド{#version}
+## Campaign のバージョンを確認してビルドする方法{#version}
 
 バージョンを確認するには、**ヘルプ／バージョン情報**&#x200B;メニューにアクセスします。
 

@@ -1,21 +1,21 @@
 ---
-title: Adobe Campaignで Enhanced MTA と共に送信
+title: Adobe Campaignの Enhanced MTA について
 description: Adobe Campaign Enhanced MTA を使用したメール送信の範囲と特異性について説明します。
 feature: Email
 role: Data Engineer
 level: Beginner
-source-git-commit: 448436d56d14dca2d18088ebfc94f9e21ebb58c4
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 70%
+source-wordcount: '1011'
+ht-degree: 68%
 
 ---
 
-# Enhanced MTA を使用した送信 {#sending-with-enhanced-mta}
+# Enhanced MTA について {#sending-with-enhanced-mta}
 
 この **Adobe Campaign Enhanced MTA** （メール転送エージェント）送信インフラストラクチャがアップグレードされ、最適な配信品質、レピュテーション、スループット、レポート、バウンス処理、IP ランプアップ、接続設定管理が可能になります。
 
-Adobe Campaign Enhanced MTA は、スケーラビリティの向上、配信スループットの増加、より多くの E メールをより速く送信できるように実装されています。これは、インターネットサービスプロバイダーからのフィードバックに基づいて E メール送信設定をリアルタイムに変更する、新しいアダプティブ配信のテクニックを活用して達成されます。
+拡張性の向上、配信スループットの向上、より多くの E メールをより速く送信できるように、すべての Campaign v8 ユーザーに対して実装されています。 これは、インターネットサービスプロバイダーからのフィードバックに基づいて E メール送信設定をリアルタイムに変更する、新しいアダプティブ配信のテクニックを活用して達成されます。
 
 ## 使用法とメリット
 
@@ -41,7 +41,7 @@ Enhanced MTA は SMTP バウンスを選定し、その選定を Campaign バウ
 
 >[!NOTE]
 >
->現在 **非同期** バウンスは、 **[!UICONTROL インバウンド E メール]** ルール。 詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}。 <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>現在 **非同期** バウンスは、Enhanced MTA ではなく、 **[!UICONTROL インバウンド E メール]** ルール。 詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}。 <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
 
 配信エラーの詳細については、 [この節](delivery-failures.md).
 

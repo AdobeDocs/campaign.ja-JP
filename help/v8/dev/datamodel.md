@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '655'
+ht-degree: 95%
 
 ---
 
@@ -67,9 +67,9 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 ## Campaign テーブルとクラウドデータベース
 
-Campaign v8 のテーブル管理をより深く理解するために、テーブルは Campaign とその Snowflake クラウドデータベースの間で複製されることに注意してください。
+Campaign v8 のテーブル管理に関するより深い理解を得るには、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)の場合、テーブルは Campaign とそのSnowflakeCloud データベースの間でレプリケートされます。
 
-![](../assets/do-not-localize/glass.png) レプリケーションの戦略とメカニズムの詳細については、[この節](../config/replication.md)を参照してください。
+![](../assets/do-not-localize/glass.png) レプリケーションの戦略とメカニズムの詳細については、[この節](../architecture/replication.md)を参照してください。
 
 **関連トピック**
 

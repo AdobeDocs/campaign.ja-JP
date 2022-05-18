@@ -8,11 +8,10 @@ type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/campaign.ja-JP
 index: true
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
-workflow-type: ht
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
-showfeedback: true
 
 ---
 

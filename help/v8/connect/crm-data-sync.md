@@ -3,7 +3,7 @@ title: CRM コネクタのデータ同期
 description: Campaign と CRM の間のデータ管理
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
-source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 100%

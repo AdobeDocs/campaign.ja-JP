@@ -6,16 +6,111 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 100%
+source-wordcount: '2168'
+ht-degree: 83%
 
 ---
 
 # 最新リリース{#latest-release}
 
 このページには、**Campaign v8 最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
+
+## リリース 8.3.8 {#release-8-3-8}
+
+_2022 年 5 月 19 日_
+
+**新機能**
+
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>時間依存の通知</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>iOS 15 では、Appleは、通知が機密であると見なされ、リアルタイムでユーザーに連絡する必要がある場合に、フォーカスモードを回避するようアプリ開発者に制御を提供する、機密通知の概念を追加しました。</p>
+<p>詳しくは、<a href="../send/push.md#send-notifications-on-ios">詳細ドキュメント</a>を参照してください。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>コアPrivacy Serviceの統合</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign v8 は、Adobeプライバシーコアサービスと統合されました。 Privacy Core Service からすべての Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。</p>
+<p>詳しくは、<a href="privacy.md">詳細ドキュメント</a>を参照してください。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Response Manager</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>キャンペーン応答管理を使用すると、マーケティングキャンペーンの成功と ROI、またはすべてのチャネルにわたるオファーの提案を測定できます。電子メール、モバイル、ダイレクトメールなど</p>
+<p>詳しくは、<a href="../start/campaigns.md#response-manager-add-on">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>分散型マーケティング</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>キャンペーン分散型マーケティングでは、セントラルエンティティ（本社、マーケティング部門など）間の協調キャンペーンを実装できます。 ローカルエンティティ（セールスポイント、地域機関など） 共有ワークスペース（キャンペーンパッケージ）を使用して、キャンペーンテンプレートを作成し、ローカルエンティティに提案できます。</p>
+<p>詳しくは、<a href="../start/campaigns.md#distributed-marketing-add-on">詳細ドキュメント</a>を参照してください。</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**互換性の更新**
+
+* Campaign v8 SDK で、プッシュ通知用に Android 12 およびiOS 15 がサポートされるようになりました。
+* Campaign v8 は、Windows 11 と互換性があります。
+
+[Campaign 互換性マトリックス](compatibility-matrix.md)を参照してください。
+
+**改善点**
+
+* Campaign で、POP3 のMicrosoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。 [詳細情報](../config/external-accounts.md#bounce-mails-external-account)
+* Microsoft Dynamics Connector Web API に関する重要な修正が適用されました。
+* 新しい「オペレーター」および「グループスキーマの書き込み (operatorWrite) 」ネームド権限が追加され、ユーザーがオペレーター (xtk:operator) およびオペレーターグループ (xtk:group) スキーマを挿入、更新および削除できるようになりました。
+
+<!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
+<!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
+* 1 つのミッドソーシングで複数の LINE アクティブなアカウントを設定できるようになりました。
+* Web プロセスのデフォルト接続数が 50 から 150 に増えました。
+* Campaign には、重複したキーがデータベースに挿入されるのを防ぐための一連の新しいガードレールがSnowflakeされました。 [詳細を表示](../architecture/keys.md)
+
+**パッチ**
+
+* 同じ繰り返し配信でシードとコントロール母集団を使用する際に発生していた問題を修正しました。 （NEO-41197）
+* パーソナライゼーションブロックに次の文字のいずれかが含まれている場合に、送信プロセス（最大 256）中に同じ deliveryPart に属するすべての受信者の E メール送信がブロックされるという FFDA の問題を修正しました。 `' & < > "`. パーソナライゼーションブロックでこれらの文字がサポートされるようになりました ( 例：firstname=&quot;Brian O&#39;Neil&quot;) と呼ばれます。 （NEO-43184）
+* カスタムスキーマをターゲットマッピングとして使用する場合に、トラッキングワークフローが失敗する可能性がある問題を修正しました。 ターゲットマッピングウィザードで broadLog スキーマを生成する際に、カスタムターゲティングスキーマへの外部リンクのタイプが正しいことを確認できるようになりました。 （NEO-43506）
+* 英語以外の言語で FFDA デプロイメントワークフローが失敗する可能性がある問題を修正しました。 （NEO-44561）
 
 ## リリース 8.2.10 {#release-8-2-10}
 
@@ -76,7 +171,9 @@ _2021年10月28日（PT）_
 <tr> 
 <td> <p>Unicity Service は、新しい Cloud Database Manager コンポーネントです。これにより、ユーザーは Cloud Database テーブル内の一意のキー制約の整合性を保持し、監視できます。これにより、重複したキーを挿入するリスクを軽減できます。
 <p>Cloud Database は単一性制約を強制しないため、Unicity Service はアプリケーションレベルで<b>一連の新しいガードレール</b>を導入し、Adobe Campaign でデータを管理する際に重複が挿入されるリスクを軽減します。</p> 
-<p>Unicity Service は、<b>ffdaUnicity</b> と呼ばれる新しい組み込みワークフローを開始して、単一性の制約を監視し、重複が検出されたときにアラートを出します。</p></td> </tr> 
+<p>Unicity Service は、<b>ffdaUnicity</b> と呼ばれる新しい組み込みワークフローを開始して、単一性の制約を監視し、重複が検出されたときにアラートを出します。</p>
+<p>詳しくは、<a href="../architecture/keys.md">詳細ドキュメント</a>を参照してください。</p>
+</td> </tr> 
 </tbody> 
 </table>
 
