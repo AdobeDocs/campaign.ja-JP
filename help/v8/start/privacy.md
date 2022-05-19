@@ -4,7 +4,8 @@ description: Campaign でプライバシーリクエストを管理する方法�
 feature: Audiences
 role: Data Engineer
 level: Beginner
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
+source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 47%

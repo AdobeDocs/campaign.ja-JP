@@ -4,8 +4,8 @@ description: テクニカルワークフローとデータレプリケーショ�
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
+source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
@@ -34,7 +34,7 @@ ht-degree: 91%
 * **[!UICONTROL 直ちに FFDA データをレプリケート]**
 このワークフローは、指定の外部アカウントの XS データをレプリケートします。
 
-These technical workflows are available from the **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** node of Campaign Explorer. **これらは変更できません。**
+これらのテクニカルワークフローは、 **[!UICONTROL 管理/プロダクション/テクニカルワークフロー/完全 FFDA レプリケーション]** Campaign エクスプローラーのノード。 **これらは変更できません。**
 
 必要に応じて、データの同期を手動で開始できます。これを実行するには、「**スケジューラー**」アクティビティを右クリックし、「**保留中のタスクを今すぐ実行**」を選択します。
 
