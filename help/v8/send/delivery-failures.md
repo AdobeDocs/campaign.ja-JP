@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '3061'
 ht-degree: 89%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 89%
 
 これらのタイプのエラーは、次のように管理されます。
 
-* **同期エラー**:Adobe Campaign配信サーバーから接続されたリモートサーバーは、即座にエラーメッセージを返します。配信をプロファイルのサーバーに送信することは許可されていません。 Enhanced MTA は、バウンスのタイプを決定してエラーを検証し、その情報を Campaign に返して、関係する E メールアドレスを強制隔離する必要があるかどうかを判断します。 [バウンスメールの選定](#bounce-mail-qualification)を参照してください。
+* **同期エラー**:Adobe Campaign配信サーバーから接続されたリモートサーバーは、即座にエラーメッセージを返します。配信をプロファイルのサーバーに送信することは許可されていません。 メール転送エージェント (MTA) は、バウンスのタイプを決定し、エラーを検証し、その情報を Campaign に返して、関係する E メールアドレスを強制隔離する必要があるかどうかを判断します。 [バウンスメールの選定](#bounce-mail-qualification)を参照してください。
 
 * **非同期エラー**：バウンスメールまたは SR が受信サーバーによって後で再送信されます。このエラーは、エラーに関連するラベルで検証されます。 非同期エラーは、配信の送信から 1 週間は発生する可能性があります。
 
@@ -64,7 +64,7 @@ ht-degree: 89%
 
 現在、Adobe Campaignでのバウンスメールの選定の処理方法は、エラータイプによって異なります。
 
-* **同期エラー**:Enhanced MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。 **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。
+* **同期エラー**:MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。 **[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。
 
 * **非同期エラー**:非同期配信エラーを検証するために Campaign で使用されるルールは、 **[!UICONTROL 管理/Campaign Management/配信不能件数の管理/配信ログの検証]** ノード。 非同期バウンスは、引き続き、**[!UICONTROL インバウンド E メール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}。
 
@@ -97,9 +97,22 @@ Bounce mails can have the following qualification status:
 
 一時的なエラー (**ソフト** または **無視**)、Campaign が送信を再試行する場合に発生します。 これらの再試行は、配信期間が終了するまで実行できます。
 
-再試行の回数と頻度は、メッセージの ISP から返されるバウンス応答のタイプと重大度に基づいて、Enhanced MTA が設定します。
+ソフトバウンスの再試行とその間隔は、メッセージの E メールドメインから返されるバウンス応答のタイプと重大度に基づいて、 MTA が決定します。
 
-<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
+>[!NOTE]
+>
+>配信プロパティの再試行設定は、Campaign では使用されません。
+
+## 有効期間
+
+キャンペーン配信の有効期間設定は、次の範囲に制限されます。 **三五日以下**. 配信の場合、Campaign で 3.5 日を超える値を定義しても、その値は考慮されません。
+
+例えば、Campaign で有効期間がデフォルト値の 5 日間に設定されている場合、ソフトバウンスメッセージは MTA の再試行キューに入り、そのメッセージが MTA に到達してから最大 3.5 日間再試行されます。この場合、Campaign に設定された値は使用されません。
+
+メッセージが MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
+
+有効期間について詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}。
+
 
 ## メールのエラータイプ {#email-error-types}
 

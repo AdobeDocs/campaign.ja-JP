@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -73,8 +73,8 @@ ht-degree: 93%
    + [ベストプラクティス](audiences/audiences-best-practices.md)
 + メッセージの送信{#send}
    + メール {#emails}
-      + [メールのデザインと送信](send/email.md)
-      + [Enhanced MTA について](send/enhanced-mta.md)
+      + [E メールのデザインと検証](send/email.md)
+      + [メールの送信と監視](send/send.md)
    + [SMS](send/sms.md)
    + [プッシュ通知](send/push.md)
    + [LINE メッセージ](send/line.md)
