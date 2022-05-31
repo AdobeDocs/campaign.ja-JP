@@ -5,9 +5,9 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 0c01b0a597e54ae93dd581ccba6f19b2ff13f956
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '561'
 ht-degree: 49%
 
 ---
@@ -63,8 +63,6 @@ Campaign v8 では、「**[!UICONTROL データソースを変更]**」という
 このバージョンの Campaign では、以下の機能は利用できません。
 
 * マーケティングリソース管理
-* 分散型マーケティング
-* Response Manager
 * ハイブリッドまたはオンプレミスのデプロイメントモデル
 
 >[!CAUTION]
@@ -83,7 +81,7 @@ Campaign v8 の新しいアーキテクチャとデプロイメントモデル�
 * クーポン
 * Web トラッキング
 * 調査
-* ソーシャルマーケティングFacebook で
+* ソーシャルマーケティング
 * ACS コネクタ（プライムオファー）
 * LDAP との統合
 * ユーザー名／パスワードによるログイン
