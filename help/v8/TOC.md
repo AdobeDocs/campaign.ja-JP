@@ -6,8 +6,8 @@ breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 92%
 + アーキテクチャ {#architecture}
    + [グローバル原則](architecture/general-architecture.md)
    + [アーキテクチャ](architecture/architecture.md)
-   + FDASnowflakeのデプロイ {#fda}
-      + [FDA-Snowflakeとは](architecture/fda-deployment.md)
-   + エンタープライズ (FFDA) デプロイメント {#ffda}
+   + FDA Snowflake のデプロイメント {#fda}
+      + [FDA-Snowflake とは](architecture/fda-deployment.md)
+   + エンタープライズ（FFDA）デプロイメント {#ffda}
       + [Campaign FFDA とは](architecture/enterprise-deployment.md)
       + 特性 {#ffda-characteristics}
          + [鍵の管理と単一性](architecture/keys.md)

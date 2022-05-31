@@ -9,7 +9,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
 source-wordcount: '2168'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 ## リリース 8.3.8 {#release-8-3-8}
 
-_2022 年 5 月 19 日_
+_2022年5月18日（PT）_
 
 **新機能**
 
@@ -32,7 +32,7 @@ _2022 年 5 月 19 日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>iOS 15 では、Appleは、通知が機密であると見なされ、リアルタイムでユーザーに連絡する必要がある場合に、フォーカスモードを回避するようアプリ開発者に制御を提供する、機密通知の概念を追加しました。</p>
+<td> <p>Apple は iOS 15 で、機密と見なされた通知をリアルタイムでユーザーに連絡する必要がある場合に、フォーカスモードを回避する制御をアプリ開発者に提供する、機密通知の概念を追加しました。</p>
 <p>詳しくは、<a href="../send/push.md#send-notifications-on-ios">詳細ドキュメント</a>を参照してください。</p>
 </td> 
 </tr> 
@@ -42,12 +42,12 @@ _2022 年 5 月 19 日_
 <table> 
 <thead>
 <tr> 
-<th> <strong>コアPrivacy Serviceの統合</strong><br /> </th> 
+<th> <strong>Core Privacy Service の統合</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign v8 は、Adobeプライバシーコアサービスと統合されました。 Privacy Core Service からすべての Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。</p>
+<td> <p>Campaign v8 は、Adobe Privacy Core Service と統合されました。Privacy Core Service からすべての Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。</p>
 <p>詳しくは、<a href="privacy.md">詳細ドキュメント</a>を参照してください。</p>
 </td> 
 </tr> 
@@ -64,7 +64,7 @@ _2022 年 5 月 19 日_
 <tbody>
 <tr>
 <td>
-<p>キャンペーン応答管理を使用すると、マーケティングキャンペーンの成功と ROI、またはすべてのチャネルにわたるオファーの提案を測定できます。電子メール、モバイル、ダイレクトメールなど</p>
+<p>キャンペーン応答管理を使用すると、マーケティングキャンペーンの成功と ROI、またはすべてのチャネル（電子メール、モバイル、ダイレクトメールなど）にわたるオファーの提案を測定できます。</p>
 <p>詳しくは、<a href="../start/campaigns.md#response-manager-add-on">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ _2022 年 5 月 19 日_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>キャンペーン分散型マーケティングでは、セントラルエンティティ（本社、マーケティング部門など）間の協調キャンペーンを実装できます。 ローカルエンティティ（セールスポイント、地域機関など） 共有ワークスペース（キャンペーンパッケージ）を使用して、キャンペーンテンプレートを作成し、ローカルエンティティに提案できます。</p>
+<td> <p>Campaign 分散型マーケティングでは、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。共有ワークスペース（キャンペーンパッケージ）を使用して、キャンペーンテンプレートを作成し、ローカルエンティティに提案できます。</p>
 <p>詳しくは、<a href="../start/campaigns.md#distributed-marketing-add-on">詳細ドキュメント</a>を参照してください。</p>
 </td> 
 </tr> 
@@ -88,29 +88,29 @@ _2022 年 5 月 19 日_
 
 **互換性の更新**
 
-* Campaign v8 SDK で、プッシュ通知用に Android 12 およびiOS 15 がサポートされるようになりました。
-* Campaign v8 は、Windows 11 と互換性があります。
+* Campaign v8 SDK で、プッシュ通知用に Android 12 および iOS 15 がサポートされるようになりました。
+* Campaign v8 は、Windows 11 と互換性を備えるようになりました。
 
 [Campaign 互換性マトリックス](compatibility-matrix.md)を参照してください。
 
 **改善点**
 
-* Campaign で、POP3 のMicrosoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。 [詳細情報](../config/external-accounts.md#bounce-mails-external-account)
-* Microsoft Dynamics Connector Web API に関する重要な修正が適用されました。
-* 新しい「オペレーター」および「グループスキーマの書き込み (operatorWrite) 」ネームド権限が追加され、ユーザーがオペレーター (xtk:operator) およびオペレーターグループ (xtk:group) スキーマを挿入、更新および削除できるようになりました。
+* Campaign で、POP3 の Microsoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。[詳細情報](../config/external-accounts.md#bounce-mails-external-account)
+* Microsoft Dynamics Connector web API に関する重要な修正が適用されました。
+* 新しいオペレーターおよびグループスキーマの書き込み（operatorWrite）ネームド権限が追加され、ユーザーがオペレーター（xtk:operator）およびオペレーターグループ（xtk:group）スキーマを挿入、更新、削除できるようになりました。
 
 <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
 <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
-* 1 つのミッドソーシングで複数の LINE アクティブなアカウントを設定できるようになりました。
+* 1 つのミッドソーシングで複数のアクティブな LINE アカウントを設定できるようになりました。
 * Web プロセスのデフォルト接続数が 50 から 150 に増えました。
-* Campaign には、重複したキーがデータベースに挿入されるのを防ぐための一連の新しいガードレールがSnowflakeされました。 [詳細を表示](../architecture/keys.md)
+* Campaign は、重複したキーが Snowflake データベースに挿入されるのを防ぐための、一連の新しいガードレールを備えています。[詳細を表示](../architecture/keys.md)
 
 **パッチ**
 
-* 同じ繰り返し配信でシードとコントロール母集団を使用する際に発生していた問題を修正しました。 （NEO-41197）
-* パーソナライゼーションブロックに次の文字のいずれかが含まれている場合に、送信プロセス（最大 256）中に同じ deliveryPart に属するすべての受信者の E メール送信がブロックされるという FFDA の問題を修正しました。 `' & < > "`. パーソナライゼーションブロックでこれらの文字がサポートされるようになりました ( 例：firstname=&quot;Brian O&#39;Neil&quot;) と呼ばれます。 （NEO-43184）
-* カスタムスキーマをターゲットマッピングとして使用する場合に、トラッキングワークフローが失敗する可能性がある問題を修正しました。 ターゲットマッピングウィザードで broadLog スキーマを生成する際に、カスタムターゲティングスキーマへの外部リンクのタイプが正しいことを確認できるようになりました。 （NEO-43506）
-* 英語以外の言語で FFDA デプロイメントワークフローが失敗する可能性がある問題を修正しました。 （NEO-44561）
+* 同じ繰り返し配信でシードとコントロール母集団を使用する際に発生していた問題を修正しました。（NEO-41197）
+* パーソナライゼーションブロックに次の文字 `' & < > "` のいずれかが含まれている場合に、送信プロセス中に同じ deliveryPart に属するすべての受信者（最大 256）の電子メール送信がブロックされる、FFDA の問題を修正しました。パーソナライゼーションブロックでこれらの文字がサポートされるようになりました（例：firstname=&quot;Brian O&#39;Neil&quot;）。（NEO-43184）
+* カスタムスキーマをターゲットマッピングとして使用すると、トラッキングワークフローが失敗することがある問題を修正しました。ターゲットマッピングウィザードで broadLog スキーマを生成する際に、カスタムターゲティングスキーマへの外部リンクのタイプが正しいことを確認できるようになりました。（NEO-43506）
+* 英語以外の言語で FFDA デプロイメントワークフローが失敗することがある問題を修正しました。（NEO-44561）
 
 ## リリース 8.2.10 {#release-8-2-10}
 
@@ -121,9 +121,9 @@ _2022年2月2日（PT）_
 * タイポロジルールで定義されているメッセージの最大数に到達した場合に、配信の準備が失敗する問題を修正しました。
 * メールアドレスに「s」の文字が含まれている場合に、Adobe Analytics コネクタの設定中に発生していた問題を修正しました。
 * アップグレード後に、deliveryMapping テーブルがカスタム配信マッピングからのデータが失われる場合がある問題を修正しました。
-* 電子メールアドレスに一重引用符（ &#39;）が含まれている場合に、受信者が同じ配信で同じメッセージを複数回受信する場合がある問題を修正しました。この文字はエスケープされるようになりました。 （NEO-41198）
+* 電子メールアドレスに一重引用符（ &#39;）が含まれている場合に、受信者が同じ配信で同じメッセージを複数回受信する場合がある問題を修正しました。この文字はエスケープされるようになりました。（NEO-41198）
 * シードまたは代用アドレスを使用した配達確認を送信する際の ID 生成の問題を修正しました。（NEO-42637）
-* アドレスの代用方式を使用して配達確認を送信できない場合がある問題を修正しました。 （NEO-40417）
+* アドレスの代用方式を使用して配達確認を送信できない場合がある問題を修正しました。（NEO-40417）
 * LINE パッケージをインストールできない問題を修正しました。（NEO-42503）
 
 ## リリース 8.2.8 {#release-8-2-8}
@@ -139,7 +139,7 @@ _2021年10月28日（PT）_
 <tbody>
 <tr>
 <td>
-<p>インバウンドチャネルで Real-time Interaction Management を利用できるようになりました。 Campaign インバウンドインタラクションモジュールを使用して、web サイトを訪問したり、コールセンターに連絡したりする際に、顧客に最適なオファーを提示します。この機能は Campaign v8 にオプションとして付属しており、インスタンスで特定の設定が必要です。インバウンドインタラクションモジュールへのアクセスについては、アドビ担当者にお問い合わせください。</p>
+<p>インバウンドチャネルで Real-time Interaction Management を利用できるようになりました。Campaign インバウンドインタラクションモジュールを使用して、web サイトを訪問したり、コールセンターに連絡したりする際に、顧客に最適なオファーを提示します。この機能は Campaign v8 にオプションとして付属しており、インスタンスで特定の設定が必要です。インバウンドインタラクションモジュールへのアクセスについては、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../interaction/interaction-architecture.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -248,13 +248,13 @@ _2021年9月7日_
 
 **改善点**
 
-* Flash は、提供終了後、関連するすべての Campaign 機能およびコンポーネントから削除され、HTML5 に置き換えられました。**ゲージ**&#x200B;タイプのグラフが削除されました。 （NEO-30330）[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ja)
-* Windows にクライアントコンソールをインストールする際、インストーラーは親レジストリノードがあるかどうかを確認し、ない場合は作成するようになりました。 これにより、コンソールの起動時に発生する可能性のある問題を防止できます。（NEO-34854）
+* Flash は、提供終了後、関連するすべての Campaign 機能およびコンポーネントから削除され、HTML5 に置き換えられました。**ゲージ**&#x200B;タイプのグラフが削除されました。（NEO-30330）[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ja)
+* Windows にクライアントコンソールをインストールする際、インストーラーは親レジストリノードがあるかどうかを確認し、ない場合は作成するようになりました。これにより、コンソールの起動時に発生する可能性のある問題を防止できます。（NEO-34854）
 * 署名トラッキング機能が改善され、サードパーティツール（メールクライアント、インターネットブラウザーなど）による特殊文字の処理方法に関連するエラーを防げるようになりました。URL パラメーターがエンコードされるようになりました。
 
 **その他の変更**
 
-* 既に非推奨（廃止予定）となっている Microsoft CRM コネクタ（Office 365 およびオンプレミスデプロイメント）がインターフェイスから削除されました。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ja#configure-acc-for-microsoft)
+* 既に非推奨（廃止予定）となっている Microsoft CRM コネクタ（Office 365 およびオンプレミスデプロイメント）がインターフェイスから削除されました。[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=ja#configure-acc-for-microsoft)
 * Tomcat 8 への移行後に、IIS セットアップスクリプトが更新されて、IIS 統合の問題が修正されました。（NEO-31019）
 * ガードレールが追加されて、マーケティングインスタンス上で[請求テクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ja#billing-report)を実行できるようになりました。
 * ワークフロートランジションの&#x200B;**母集団を表示**&#x200B;ウィンドウのデータタブとスキーマタブで、データソースの識別が改善されました。
@@ -264,8 +264,8 @@ _2021年9月7日_
 
 * オファーが配信にリンクされている場合に、**ホットクリック**&#x200B;レポートが機能しなかった問題を修正しました。（NEO-26295）
 * **サブワークフロー**&#x200B;アクティビティを実行しても出力テーブルが生成されなかった問題を修正しました。（NEO-36242）
-* **記述的分析**&#x200B;レポートを PDF にエクスポートする際の様々な問題を修正しました。 （NEO-25847）
-* 外部メール配信を使用すると配信が失敗する可能性がある問題を修正しました。 （NEO-37435）
+* **記述的分析**&#x200B;レポートを PDF にエクスポートする際の様々な問題を修正しました。（NEO-25847）
+* 外部メール配信を使用すると配信が失敗する可能性がある問題を修正しました。（NEO-37435）
 * Web API を使用して Microsoft CRM に接続する際のエラーを修正しました。機能に影響がなかったので、エラーメッセージは削除されました。
 * ミッドサーバーがトラッキングサーバーとマーケティングサーバーの間のリレーとして設定された場合のトラッキングログ重複排除の問題を修正しました。（NEO-36285）
 * Vault を特定のコードストアとして使用できなかったリグレッションを修正しました。

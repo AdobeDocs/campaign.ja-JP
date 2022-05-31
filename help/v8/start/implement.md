@@ -8,7 +8,7 @@ exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
 source-wordcount: '1188'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 95%
 
 Adobe Campaign には、該当するデータプライバシー保護法や受信者の環境設定に応じて Campaign を使用できるプロセスと設定が用意されています。以下を管理できます。
 
-* **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。したがって、受信者の同意を得て、管理する必要があります。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition){target=&quot;_blank&quot;}を参照してください
+* **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。したがって、受信者の同意を得て、管理する必要があります。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition){target=&quot;_blank&quot;}を参照してください
 
-* **ユーザーの同意とデータ保持**:でユーザーの同意を得る方法、二重のオプトインサブスクリプションメカニズムを設定する方法、オプトアウトを容易にする方法、およびデータ保持を設定する方法を説明します。 [Campaign Classicプライバシードキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target=&quot;_blank&quot;}
+* **ユーザーの同意とデータ保持**：ユーザーの同意を得る方法、ダブルオプトインの購読メカニズムを設定する方法、オプトアウトを促進する方法、データ保持を設定する方法については、[Campaign Classic のプライバシーに関するドキュメント{target=&quot;_blank&quot;}](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent)を参照してください。
 
-* **プライバシーとデータ保護規制**:参照する [この節](privacy.md) プライバシー要件、およびこれらの規制が組織およびAdobe Campaignに与える影響について説明します。
+* **プライバシーとデータ保護規制**：プライバシー要件、およびこれらの規制が組織と Adobe Campaign に与える影響について詳しくは、[この節](privacy.md)を参照してください。
 
 ### セキュリティ
 
@@ -55,7 +55,7 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
 ### Campaign クライアントコンソールのインストール
 
-アプリケーションのメインユーザーインターフェイスはリッチクライアントです。つまり、標準のインターネットプロトコル（SOAP、HTTP など）でのみ Adobe Campaign アプリケーションサーバーを通信するネイティブアプリケーション（Windows）です。Adobe Campaign クライアントコンソールは、生産性に優れた使いやすさを備え、帯域幅をほとんど使用せず（ローカルキャッシュを使用）、デプロイメントが容易になるよう設計されています。 このコンソールはインターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク構成は不要です。
+アプリケーションのメインユーザーインターフェイスはリッチクライアントです。つまり、標準のインターネットプロトコル（SOAP、HTTP など）でのみ Adobe Campaign アプリケーションサーバーを通信するネイティブアプリケーション（Windows）です。Adobe Campaign クライアントコンソールは、生産性に優れた使いやすさを備え、帯域幅をほとんど使用せず（ローカルキャッシュを使用）、デプロイメントが容易になるよう設計されています。このコンソールはインターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク構成は不要です。
 
 ![](../assets/do-not-localize/glass.png) [ Campaign クライアントコンソールの詳細情報](connect.md)。
 
@@ -65,7 +65,7 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
 1. プロファイルのインポートとオーディエンスの作成
 
-   Campaign を使用すると、クラウドデータベースに連絡先を追加できます。 ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。
+   Campaign を使用すると、クラウドデータベースに連絡先を追加できます。ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。
 
    ![](../assets/do-not-localize/glass.png) [ プロファイルの読み込み方法を学ぶ](import.md)。
 
@@ -75,7 +75,7 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
 1. テンプレートの作成
 
-   キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。ビルトインテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。 ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
+   キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。ビルトインテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
 
    ![](../assets/do-not-localize/book.png) [メールテンプレートの詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target=&quot;_blank&quot;}
 
