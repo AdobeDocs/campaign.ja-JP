@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -28,12 +28,12 @@ Campaign クライアントコンソールを使用するには、次のオペ�
 
 ### オペレーティングシステム
 
-* **Microsoft Windows Server** 2019, 2016, 2012
+* **Microsoft Windows Server** 2019、2016、2012
 * **Microsoft Windows** 11（Campaign v8.3 以降）、10、8、
 
 >[!NOTE]
 >
->日本語インスタンスには、Microsoft Windows 10 をお勧めします。
+>Microsoft Windows 10（日本語インスタンスの場合に推奨）。
 
 ### ブラウザー
 
@@ -66,9 +66,9 @@ Campaign では、関連する Mobile SDK を使用して、以下に示すオ�
 
 次のブラウザーは Campaign for [Web Access](connect.md#web-access) と互換性があります。
 
-* **Microsoft Edge**、**Mozilla Firefox**、**Google Chrome**、**Safari** (最新バージョン)
+* **Microsoft Edge**、**Mozilla Firefox**、**Google Chrome**、**Safari**（最新バージョン）
 
-## Campaign のバージョンを確認してビルドする方法{#version}
+## Campaign のバージョン確認方法およびビルド方法{#version}
 
 バージョンを確認するには、**ヘルプ／バージョン情報**&#x200B;メニューにアクセスします。
 
