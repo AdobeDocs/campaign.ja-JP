@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1176'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 >[!CAUTION]
 >
->のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)、特定の **[!UICONTROL フル FDA]** (ffda) 外部アカウントは、Campaign ローカルデータベースと Cloud データベース ([!DNL Snowflake]) をクリックします。
+>[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、特定の&#x200B;**[!UICONTROL フル FDA]**（ffda）外部アカウントは、Campaign ローカルデータベースと Cloud データベース（[!DNL Snowflake]）との接続を管理します。
 ></br>Managed Cloud Services のユーザー場合、この外部アカウントは、お使いのインスタンス用にアドビが設定します。これは変更できません。
 
 ## Campaign 固有の外部アカウント
@@ -38,7 +38,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 >[!NOTE]
 >
->POP3 機能のMicrosoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、を参照してください。 [この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>POP3 機能の Microsoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 
 **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
@@ -70,33 +70,33 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 * **[!UICONTROL 関数]**
 
-   インバウンド E メールまたは SOAP ルーター
+   インバウンドメールまたは SOAP ルーター
 
 ![](assets/bounce_external_2.png)
 
 >[!IMPORTANT]
 >
->Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure ポータルにアプリケーションを登録する必要があります。 詳しくは、この[ページ](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)を参照してください。
+>Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、この[ページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app)を参照してください。
 
-Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、 **[!UICONTROL Microsoft OAuth 2.0]** 「 」オプションを選択し、次のフィールドに入力します。
+Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UICONTROL Microsoft OAuth 2.0]**」オプションをチェックし、次のフィールドに入力します。
 
 * **[!UICONTROL Azure テナント]**
 
-   Azure ID( またはディレクトリ（テナント） ID) は、 **初期設定** Azure ポータルでのアプリケーションの概要のドロップダウン。
+   Azure ID（またはディレクトリ（テナント）ID）は、Azure portal のアプリケーションの概要の「**初期設定**」ドロップダウンで確認できます。
 
 * **[!UICONTROL Azure クライアント ID]**
 
-   クライアント ID( またはアプリケーション（クライアント）ID) は、 **初期設定** Azure ポータルでのアプリケーションの概要のドロップダウン。
+   クライアント ID（またはアプリケーション（クライアント）ID）は、Azure portal のアプリケーションの概要の「**初期設定**」ドロップダウンで確認できます。
 
-* **[!UICONTROL Azure Client Secret]**:
+* **[!UICONTROL Azure クライアントシークレット]**：
 
-   クライアント秘密鍵 ID は、 **クライアント秘密鍵** 列 **証明書と秘密鍵** Azure ポータルでのアプリケーションのメニュー。
+   クライアントシークレット ID は、Azure portal のアプリケーションの&#x200B;**証明書と秘密鍵**&#x200B;メニューから、「**クライアントシークレット**」列で確認することができます。
 
-* **[!UICONTROL Azure リダイレクト URL]**:
+* **[!UICONTROL Azure リダイレクト URL]**：
 
-   リダイレクト URL は **認証** Azure ポータルでのアプリケーションのメニュー。 次の構文で終わる必要があります。 `nl/jsp/oauth.jsp`例： `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
+   リダイレクト URL は Azure portal のアプリケーションの&#x200B;**認証**&#x200B;メニューで確認することができます。次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
 
-別の資格情報を入力した後、 **[!UICONTROL 接続の設定]** をクリックして、外部アカウントの設定を完了します。
+別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
 
 ### ルーティング {#routing}
 
@@ -108,7 +108,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、 **[!UICO
 
 ### 実行インスタンス {#execution-instance}
 
-トランザクションメッセージのコンテキストでは、実行インスタンスはコントロールインスタンスにリンクされ、接続されます。 トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
+トランザクションメッセージのコンテキストでは、実行インスタンスはコントロールインスタンスにリンクされ、接続されます。トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
 
 ![](../assets/do-not-localize/glass.png) Message Center のアーキテクチャについて詳しくは、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
 
@@ -146,7 +146,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、 **[!UICO
    ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Adobe Experience Manager を Adobe Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 
-## CRM コネクタ外部アカウント
+## CRM コネクタの外部アカウント
 
 * **Microsoft Dynamics CRM**
 
@@ -158,7 +158,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、 **[!UICO
 
    **[!UICONTROL Salesforce CRM]** 外部アカウントを使用すれば、Adobe Campaign から Salesforce データをインポートおよびエクスポートできます。
 
-   ![](../assets/do-not-localize/glass.png) でのAdobe Campaign - Salesforce.com CRM 統合の詳細 [このページ](../connect/ac-sfdc.md).
+   ![](../assets/do-not-localize/glass.png)Adobe Campaign と Salesforce.com CRM の統合について詳しくは、[このページ](../connect/ac-sfdc.md)を参照してください。
 
 ## データ転送外部アカウント
 
@@ -182,7 +182,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、 **[!UICO
 
    * **[!UICONTROL AWS リージョン]**：AWS リージョンについて詳しくは、 [Amazon ドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
 
-   * 「**[!UICONTROL サーバー側の暗号化を使用]**」チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。アクセスキー ID と秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+   * 「**[!UICONTROL サーバー側の暗号化を使用]**」チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。アクセスキー ID と秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
 
 * **Azure Blob ストレージ**
 
