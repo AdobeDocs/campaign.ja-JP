@@ -4,7 +4,7 @@ title: Web ページへのオファーの追加
 description: Web ページでのオファーの追加方法を学ぶ
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1479'
 ht-degree: 100%
 
