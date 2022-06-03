@@ -3,7 +3,7 @@ title: Campaign セキュリティのベストプラクティス
 description: Campaign セキュリティのベストプラクティスの概要
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
 ht-degree: 100%
 
