@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 >[!CAUTION]
 >
->のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)、モバイル登録が **非同期**. [詳細](../architecture/staging.md)
+>[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、モバイル登録が&#x200B;**非同期**&#x200B;で行われるようになりました。[詳細](../architecture/staging.md)
 
 新しい配信を作成するには、「**[!UICONTROL Campaign]**」タブで「**[!UICONTROL 配信]**」、既存の配信リストの上にある「**[!UICONTROL 作成]**」ボタンの順にクリックします。
 
@@ -68,7 +68,7 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3 以降で使用できます。バージョンを確認するには、 [この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>この機能は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 
 1. 「**[!UICONTROL iOS 配信]**」配信テンプレートを選択します。
 
@@ -82,71 +82,71 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
    ![](assets/push_ios_3.png)
 
-1. 選択 **[!UICONTROL 通知タイプ]** 間 **[!UICONTROL 一般的な通知（アラート、サウンド、バッジ）]** または **[!UICONTROL サイレント通知]**.
+1. **[!UICONTROL 一般的な通知（アラート、サウンド、バッジ）]**&#x200B;または&#x200B;**[!UICONTROL サイレント通知]**&#x200B;から&#x200B;**[!UICONTROL 通知タイプ]**&#x200B;を選択します。
 
    ![](assets/push_ios_4.png)
 
    >[!NOTE]
    >
-   >**サイレントプッシュ**&#x200B;モードを使用すると、モバイルアプリケーションに「サイレント」通知を送信できます。 ユーザーは、通知が到着したことを知らされません。通知は、アプリケーションに直接転送されます。
+   >**サイレントプッシュ**&#x200B;モードを使用すると、モバイルアプリケーションに「サイレント」通知を送信できます。ユーザーは、通知が到着したことを知らされません。通知は、アプリケーションに直接転送されます。
 
-1. 内 **[!UICONTROL タイトル]** 「 」フィールドで、通知センターから使用可能な通知のリストに表示するタイトルのラベルを入力します。
+1. 「**[!UICONTROL タイトル]**」フィールドで、通知センターから使用可能な通知のリストに表示するタイトルのラベルを入力します。
 
    このフィールドを使用して、iOS 通知ペイロードの **title** パラメーターの値を定義できます。
 
-1. 次の項目を追加できます： **[!UICONTROL 字幕]**、値 **字幕** iOS通知ペイロードのパラメーター。
+1. **[!UICONTROL 字幕]**、**字幕**&#x200B;の値、iOS 通知ペイロードのパラメーターを追加することができます。
 
-1. メッセージの内容を **[!UICONTROL メッセージコンテンツ]** 」セクションに表示されます。
+1. ウィザードの「**[!UICONTROL メッセージコンテンツ]**」セクションにメッセージのコンテンツを入力します。
 
-1. 次の **[!UICONTROL サウンドとバッジ]** 「 」タブでは、次のオプションを編集できます。
+1. 「**[!UICONTROL サウンドとバッジ]**」タブでは、次のオプションを編集できます。
 
-   * **[!UICONTROL バッジを消去]**:このオプションを有効にして、バッジ値を更新します。
+   * **[!UICONTROL クリーンバッジ]**：このオプションを有効にして、バッジ値を更新します。
 
-   * **[!UICONTROL 値]**:新しい未読情報の数をアプリケーションアイコンに直接表示する際に使用する数値を設定します。
+   * **[!UICONTROL 値]**：新しい未読情報の数をアプリケーションアイコンに直接表示する際に使用する数値を設定します。
 
-   * **[!UICONTROL 重大なアラートモード]**:ユーザーの電話がフォーカスモードに設定されている場合や、iPhoneがミュートになっている場合でも、通知にサウンドを追加するには、このオプションを有効にします。
+   * **[!UICONTROL 重大なアラートモード]**：ユーザーの電話がフォーカスモードに設定されている場合や、iPhone がミュートになっている場合でも、通知にサウンドを追加するには、このオプションを有効にします。
 
-   * **[!UICONTROL 名前]**:通知を受信したときにモバイル端末で再生されるサウンドを選択します。
+   * **[!UICONTROL 名前]**：通知を受信したときにモバイル端末で再生されるサウンドを選択します。
 
-   * **[!UICONTROL 音量]**:サウンドのボリューム (0 ～ 100)。
+   * **[!UICONTROL 音量]**：サウンドのボリューム（0～100）。
 
       >[!NOTE]
       > 
       >サウンドは、アプリケーションに含まれている必要があり、サービスが作成されたときに定義される必要があります。
       >
-      >iOSの設定ガイドラインについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja).
+      >iOS 版設定ガイドラインについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja)で詳しく説明しています。
    ![](assets/push_ios_5.png)
 
-1. 次の **[!UICONTROL アプリケーション変数]** タブ、 **[!UICONTROL アプリケーション変数]** が自動的に追加されます。 通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
+1. 「**[!UICONTROL アプリケーション変数]**」タブから、**[!UICONTROL アプリケーション変数]**&#x200B;が自動的に追加されます。これによって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
 
-   詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en)を参照してください。
+   詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja)を参照してください。
 
-1. 次の **[!UICONTROL 詳細]** 「 」タブでは、次の一般的なオプションを編集できます。
+1. 「**[!UICONTROL 詳細]**」タブでは、次の一般的なオプションを編集できます。
 
-   * **[!UICONTROL 可変コンテンツ]**:モバイルアプリケーションがメディアコンテンツをダウンロードできるようにするには、このオプションを有効にします。
+   * **[!UICONTROL 可変コンテンツ]**：モバイルアプリケーションがメディアコンテンツをダウンロードできるようにするには、このオプションを有効にします。
 
-   * **[!UICONTROL Thread-id]**:関連する通知をグループ化するために使用される識別子。
+   * **[!UICONTROL スレッド ID]**：関連する通知をグループ化するために使用される識別子。
 
-   * **[!UICONTROL カテゴリ]**:アクションボタンを表示するカテゴリ ID の名前。 これらの通知により、ユーザーは、アプリケーションを開いたりアプリケーション内を移動したりせずに、通知に応じて様々なタスクをより迅速に実行できます。
+   * **[!UICONTROL カテゴリ]**：アクションボタンを表示するカテゴリ ID の名前。これらの通知により、ユーザーは、アプリケーションを開いたりアプリケーション内を移動したりせずに、通知に応じて様々なタスクをより迅速に実行できます。
 
    ![](assets/push_ios_6.png)
 
-1. 時間を区別する通知の場合、次のオプションを指定できます。
+1. 時間依存通知の場合、次のオプションを指定できます。
 
-   * **[!UICONTROL ターゲットコンテンツ ID]**:通知が開かれたときに転送するアプリケーションウィンドウをターゲティングするために使用される識別子。
+   * **[!UICONTROL ターゲットコンテンツ ID]**：通知が開かれたときに転送するアプリケーションウィンドウをターゲティングするために使用される識別子。
 
-   * **[!UICONTROL 起動画像]**:表示するローンチ画像ファイルの名前。 ユーザーがアプリケーションの起動を選択した場合は、アプリケーションの起動画面ではなく、選択した画像が表示されます。
+   * **[!UICONTROL ローンチ画像]**：表示する起動画像ファイルの名前。ユーザーがアプリケーションのローンチを選択した場合は、アプリケーションのローンチ画面ではなく、選択した画像が表示されます。
 
-   * **[!UICONTROL 割り込みレベル]**:
+   * **[!UICONTROL 割り込みレベル]**：
 
-      * **[!UICONTROL アクティブ]**:デフォルトでは、通知が直ちに表示され、画面が点灯し、サウンドを再生できます。 通知でフォーカスモードが壊れない。
+      * **[!UICONTROL アクティブ]**：デフォルトでは、通知が直ちに表示され、画面が点灯し、サウンドを再生できます。通知はフォーカスモードを妨げません。
 
-      * **[!UICONTROL パッシブ]**:画面を点灯させたり、サウンドを再生したりせずに、通知リストに通知を追加します。 通知でフォーカスモードが壊れない。
+      * **[!UICONTROL パッシブ]**：画面を点灯させたり、サウンドを再生したりせずに、システムは通知リストに通知を追加します。通知はフォーカスモードを妨げません。
 
-      * **[!UICONTROL 時間を区別]** 通知がすぐに表示され、画面が点灯し、サウンドを再生し、フォーカスモードを切り替えることができます。 このレベルでは、Appleからの特別な権限は必要ありません。
+      * **[!UICONTROL 時間依存]** システムにより通知がすぐに表示され、画面が点灯し、サウンドを再生でき、フォーカスモードで通知することができます。このレベルでは、Apple からの特別な権限は必要ありません。
 
-      * **[!UICONTROL 重大]** 通知が直ちに表示され、画面が点灯し、ミュートスイッチまたはフォーカスモードがバイパスされます。 このレベルでは、Appleからの特別な権限が必要です。
-   * **[!UICONTROL 関連度スコア]**:関連度スコアを 0 から 100 に設定します。 通知の概要で通知を並べ替える場合に使用します。
+      * **[!UICONTROL 重大]** システムにより通知が直ちに表示され、画面が点灯し、ミュートスイッチまたはフォーカスモードがバイパスされます。このレベルには、Apple からの特別な権限が必要です。
+   * **[!UICONTROL 関連性スコア]**：関連性スコアを 0 から 100 に設定します。通知の概要で通知を並べ替える場合にシステムが使用します。
 
    ![](assets/push_ios_7.png)
 
