@@ -8,15 +8,15 @@ exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 21d4f7a4b02104572dbd3a5469dc479b5b0ba8de
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
 # トランザクションメッセージの概要{#send-transactional-messages}
 
-トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらの通知は、情報システムからトリガーされるイベントから生成され、次のことができます。請求書、注文確認、配送確認、パスワード変更、製品の不在通知、取引明細書、web サイトアカウントの作成など
+トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらの通知は、情報システムからトリガーされたイベントから生成されます。例えば、請求書、注文確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などがあります。
 
-![](../assets/do-not-localize/speech.png)  管理対象Cloud Servicesユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support){target=&quot;_blank&quot;} ：お使いの環境でキャンペーントランザクションメッセージを設定します。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign トランザクションメッセージをお使いの環境で設定する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support){target=&quot;_blank&quot;}ください。
 
 トランザクションメッセージは、次の送信に使用します。
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
 
-![](../assets/do-not-localize/glass.png) に関するトランザクションメッセージアーキテクチャを理解する [このページ](../architecture/architecture.md#transac-msg-archi).
+![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
 
 ## トランザクションメッセージの動作原理 {#transactional-messaging-operating-principle}
 
@@ -36,14 +36,14 @@ Adobe Campaign のトランザクションメッセージモジュールは情�
 
 Adobe Campaign を使用すると、買い物かごに製品を追加した顧客に通知メールを送信できます。Web サイトを訪れた人が購入せずにサイトを離れると（キャンペーンイベントをトリガーする外部イベント）、買い物かごの放棄に伴うメールを自動的に送信できます（トランザクションメッセージ配信）。
 
-これをおこなう主な手順を次に示します。
+これを実現する主な手順は、以下で説明します。
 
 1. [イベントタイプの作成](#create-event-types)。
 1. [メッセージテンプレートの作成とデザイン](#create-message-template)。この手順で、イベントをメッセージにリンクします。
 1. [メッセージのテスト](#test-message-template)。
 1. [メッセージテンプレートのパブリッシュ](#publish-message-template)。
 
-トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、関連するデータは PushEvent および PushEvents を介して Campaign に送信されます [SOAP メソッド](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja){target=&quot;_blank&quot;} の場合は、ターゲットの受信者に配信が送信されます。
+トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、関連するデータは PushEvent および PushEvents [SOAP メソッド](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja){target=&quot;_blank&quot;}を介して Campaign に送信され、ターゲットの受信者に配信が送られます。
 
 ## イベントタイプの作成 {#create-event-types}
 
@@ -73,7 +73,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
 >[!NOTE]
 >
->項目別リストの詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html?lang=ja){target=&quot;_blank&quot;}。
+>項目別のリストの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 ## トランザクションメッセージテンプレートの定義 {#create-message-template}
 
@@ -93,7 +93,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
    ![](assets/messagecenter_create_model_002.png)
 
 1. 必要に応じて、ラベルを変更します。
-1. 送信したいメッセージに合うイベントのタイプを選択します。Adobe Campaignが処理する予定のイベントタイプは、事前に作成しておく必要があります。 [詳細情報](#create-event-types)
+1. 送信したいメッセージに合うイベントのタイプを選択します。Adobe Campaign が処理するイベントのタイプは、事前に作成する必要があります。[詳細情報](#create-event-types)
 
    ![](assets/messagecenter_create_model_003.png)
 
@@ -149,7 +149,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. テストデータを挿入します。 [この節](#personalization-data)を参照してください。
+1. テストデータを挿入します。[この節](#personalization-data)を参照してください。
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -224,7 +224,7 @@ This information enables you to personalize message content using personalizatio
 
 ## テンプレートの公開 {#publish-message-template}
 
-メッセージテンプレートが作成されたとき<!-- on the control instance--> が完了したら、パブリッシュできます。これにより、リアルタイムイベントとバッチイベントにリンクされたメッセージを送信できます。
+メッセージテンプレートの作成<!-- on the control instance-->が完了したら公開できます。これにより、リアルタイムイベントとバッチイベントにリンクされたメッセージを送信できます。
 
 <!--This process will also publish it on all execution instances.
 
@@ -234,19 +234,19 @@ Publication lets you automatically create two message templates on the execution
 
 >[!CAUTION]
 >
->テンプレートに変更を加えた場合は、トランザクションメッセージの配信中に変更が有効になるように、必ず再度パブリッシュします。
+>テンプレートに変更を加えた場合は、トランザクションメッセージの配信中に変更が有効になるように、必ず再度公開します。
 
-1. 次に移動： **[!UICONTROL Message Center/トランザクションメッセージテンプレート]** ツリーのフォルダー。
-1. 公開するテンプレートを選択します<!--on your execution instances-->.
-1. 「**[!UICONTROL パブリッシュ]**」をクリックします。
+1. ツリーの **[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーに移動します。
+1. 公開するテンプレートを選択します。<!--on your execution instances-->
+1. 「**[!UICONTROL 公開]**」をクリックします。
 
    ![](assets/messagecenter_publish_template.png)
 
-公開が完了すると、バッチイベントとリアルタイムタイプイベントに適用されるメッセージテンプレートが両方とも **[!UICONTROL 管理/プロダクション/Message Center の実行/デフォルト/トランザクションメッセージテンプレート]** フォルダー。
+公開が完了すると、**[!UICONTROL 管理／実稼働環境／Message Center の実行／デフォルト／トランザクションメッセージテンプレート]**&#x200B;フォルダー内に、バッチおよびリアルタイムタイプのイベントに適用されるメッセージテンプレートの両方が作成されます。
 
 ![](assets/messagecenter_deployed_model.png)
 
-テンプレートが公開されると、対応するイベントがトリガーされる場合、Adobe Campaign<!--execution instance--> がイベントを受け取り、トランザクションテンプレートにリンクして、対応するトランザクションメッセージを各受信者に送信します。
+テンプレートが公開され、対応するイベントがトリガーされた場合、Adobe Campaign<!--execution instance--> はイベントを受け取り、トランザクションテンプレートにリンクし、対応するトランザクションメッセージを各受信者に送信します。
 
 <!--
 >[!NOTE]
@@ -258,9 +258,9 @@ Publication lets you automatically create two message templates on the execution
 
 ## テンプレートの非公開
 
-メッセージテンプレートが公開された後 <!--on the execution instances-->非公開にすることができます。
+メッセージテンプレートが公開された後 <!--on the execution instances-->、非公開にすることができます。
 
-* 実際、対応するイベントがトリガーされた場合、公開済みのテンプレートは引き続き呼び出すことができます。メッセージテンプレートを使用しなくなった場合は、非公開にすることをお勧めします。 これは、不要なトランザクションメッセージを誤って送信するのを避けるためです。
+* 実際、対応するイベントがトリガーされた場合、公開済みのテンプレートは引き続き呼び出すことができます。メッセージテンプレートを使用しなくなった場合は、非公開にすることをお勧めします。これは、不要なトランザクションメッセージを誤って送信するのを避けるためです。
 
    例えば、クリスマスキャンペーンにのみ使用するメッセージテンプレートを公開したとします。クリスマス期間が終わったらテンプレートを非公開にして、来年の同時期に再度パブリッシュすることができます。
 
@@ -268,7 +268,7 @@ Publication lets you automatically create two message templates on the execution
 
 トランザクションメッセージテンプレートを非公開にするには、次の手順に従います。
 
-1. 次を参照： **[!UICONTROL Message Center/トランザクションメッセージテンプレート]** フォルダー。
+1. **[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーを参照します。
 1. 非公開にするテンプレートを選択します。
 1. 「**[!UICONTROL 非公開にする]**」をクリックします。
 1. 「**[!UICONTROL 開始]**」をクリックします。
@@ -279,10 +279,10 @@ Publication lets you automatically create two message templates on the execution
 
 非公開にした後は、以下のようになります。
 
-* 両方のメッセージテンプレート（バッチイベントとリアルタイムタイプイベントに適用）が削除されます<!-- from each execution instance-->.
+* 両方のメッセージテンプレート（バッチイベントとリアルタイムタイプのイベントに適用）が削除されます<!-- from each execution instance-->。
 
-   これらのテンプレートは、**[!UICONTROL 管理／プロダクション／Message Center の実行／デフォルト／トランザクションメッセージテンプレート]**&#x200B;フォルダーに表示されなくなりました。
+   これらのテンプレートが、**[!UICONTROL 管理／プロダクション／Message Center の実行／デフォルト／トランザクションメッセージテンプレート]**&#x200B;フォルダーに表示されなくなりました。
 
-* テンプレートを非公開にした後は、削除できます<!-- from the control instance-->.
+* テンプレートを非公開にした後は、削除できます<!-- from the control instance-->。
 
-   これをおこなうには、リストからテンプレートを選択し、画面の右上にある「**[!UICONTROL 削除]**」ボタンをクリックします。
+   これを行うには、リストからテンプレートを選択し、画面の右上にある「**[!UICONTROL 削除]**」ボタンをクリックします。

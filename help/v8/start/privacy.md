@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3 以降で使用できます。バージョンを確認するには、[この節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
+>この機能は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 
 プライバシーの準備を容易にするために、Adobe Campaign でアクセスリクエストと削除リクエストの処理が可能になりました。
 

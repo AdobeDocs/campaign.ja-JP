@@ -3,7 +3,7 @@ title: Campaign データベースのマッピング
 description: Campaign データベースのマッピング
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 100%
 

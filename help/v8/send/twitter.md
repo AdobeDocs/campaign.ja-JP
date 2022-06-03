@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
    非公開 Twitter アカウントの作成について詳しくは、[この節](../connect/ac-tw.md#tw-test-account)を参照してください。
 
-   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
 
 1. ダイレクトメッセージの送信
 

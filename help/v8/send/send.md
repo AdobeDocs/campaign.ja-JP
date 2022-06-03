@@ -8,7 +8,7 @@ exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 57%
+ht-degree: 79%
 
 ---
 
@@ -39,46 +39,46 @@ ht-degree: 57%
 
 Campaign v8 Mail Transfer Agent(MTA) は、クラス最高の送信インフラストラクチャを提供し、最適な配信品質、レピュテーション、スループット、レポート、バウンス処理、IP ランプアップ、接続設定管理を実現します。
 
-すべての Campaign v8 ユーザーが利用でき、拡張性と高い配信スループットを保証し、より多くの E メールをより迅速に送信できます。 これは、インターネットサービスプロバイダーからのフィードバックに基づいて E メール送信設定をリアルタイムに変更する、新しいアダプティブ配信のテクニックを活用して達成されます。
+すべての Campaign v8 ユーザーが利用でき、拡張性と高い配信スループットを保証し、より多くの E メールをより迅速に送信できます。 これは、インターネットサービスプロバイダーからのフィードバックに基づいてメール送信設定をリアルタイムに変更する、新しいアダプティブ配信のテクニックを活用して達成されます。
 
 ### 利点
 
-Adobe Campaignは、SparkPost の商用 E メール MTA(Mail Transfer Agent) を使用します。この MTA は、 **Momentum**.
+Adobe Campaign は、SparkPost の商用メール MTA（メール転送エージェント）を実行する MTA を使用します。この MTA は、**Momentum** ともいいます。
 
 Momentum は、インボックスの最適な配信率を達成し維持するための高度なバウンス処理と自動配信品質最適化機能を含む、革新的で高パフォーマンスな MTA テクノロジーを提供します。
 
-* MTA を使用すると、全体的なスループット速度が大幅に向上し、ソフトバウンスが大幅に減少します。
-* 最新の MTA テクノロジーを使用して、E メール配信の最適なスループット速度を提供します。
-* 受け取ったフィードバックに即時に自動的に適応させることで、リアルタイムの配信データを使用した、より正確でインテリジェントな E メール配信も実現します。
+*  MTA を使用すると、全体的なスループット速度が劇的に向上し、ソフトバウンスが大幅に減少します。
+* Enhanced MTA は最新の MTA テクノロジーを使用して、メール配信の最適なスループット速度を提供します。
+* 受け取ったフィードバックに即時に自動的に適応させることで、リアルタイムの配信データを使用した、より正確でインテリジェントなメール配信も実現します。
 
 ### バウンスの選定
 
-の場合 **同期** 配信失敗のエラーメッセージに関しては、MTA がバウンスのタイプと選定を決定し、その情報を Campaign に返します。
+**同期**&#x200B;配信失敗のエラーメッセージについては、 MTA がバウンスのタイプと選定を判断し、その情報を Campaign に返します。
 
  MTA は SMTP バウンスを選定し、その選定を Campaign バウンスの理由と選定にマッピングしたバウンスコードの形式で Campaign に返します。
 
 >[!NOTE]
 >
->現在 **非同期** バウンスは、 **[!UICONTROL インバウンド E メール]** ルール。 詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}。 <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>現在 **非同期** バウンスは、 **[!UICONTROL インバウンド E メール]** ルール。 詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ja#bounce-mail-qualification){target=&quot;_blank&quot;}を参照してください。<!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
 
-配信エラーの詳細については、 [この節](delivery-failures.md).
+配信エラーの詳細については、[この節](delivery-failures.md)を参照してください。
 
 
 ### 特定の MX ルール
 
 MX（Mail eXchanger）ルールは、送信サーバーと受信サーバーの間の通信を管理するルールです。
 
- MTA には独自の MX ルールがあります。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズできます。
+ MTA には独自の MX ルールがあります。これにより、独自のメールレピュテーション履歴およびメールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズできます。
 
 ### DKIM 署名
 
-Domain Keys Identified Mail(DKIM) は、偽造された送信者アドレス（一般的にスプーフィングと呼ばれます）の検出に使用される認証方法です。
+Domain Keys Identified Mail（DKIM）は、偽造された送信者アドレス（一般的にスプーフィングと呼ばれます）の検出に使用される認証方法です。
 
-Adobe Campaignでは、DKIM の E メール認証署名は MTA によって実行されます。
+Adobe Campaign では、DKIM のメール認証の署名は MTA が実行します。
 
-DKIM の詳細は、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target=&quot;_blank&quot;}。
+DKIM の詳細については、[アドビ配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target=&quot;_blank&quot;}を参照してください。
 
-## E メールフィードバックサービス {#email-feedback-service}
+## メールフィードバックサービス {#email-feedback-service}
 
 E メールフィードバックサービス (EFS) 機能を使用すると、フィードバックは MTA から直接取り込まれるので、各 E メールのステータスが正確に報告されます。
 
@@ -90,7 +90,7 @@ E メールフィードバックサービス (EFS) 機能を使用すると、�
 
  MTA からハードバウンスメッセージが報告されると、ログのステータスが&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->に変更されます。
 
-ソフトバウンスメッセージが MTA から返されても、ログのステータスは変更されません（**[!UICONTROL サービスプロバイダーで受信済み]**）。[エラー理由](delivery-failures.md#delivery-failure-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。その後、ソフトバウンスメッセージは、配信全体を通して再試行されます [有効期間](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}:
+ソフトバウンスメッセージが MTA から返されても、ログのステータスは変更されません（**[!UICONTROL サービスプロバイダーで受信済み]**）。[エラー理由](delivery-failures.md#delivery-failure-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。その後、ソフトバウンスメッセージが配信[有効期間](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}中再試行され続けます。
 
 * 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増えます。
 
