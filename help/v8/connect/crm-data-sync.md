@@ -4,7 +4,7 @@ description: Campaign と CRM の間のデータ管理
 feature: Salesforce Integration, Microsoft CRM Integration
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1409'
 ht-degree: 100%
 
