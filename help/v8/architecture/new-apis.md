@@ -6,29 +6,29 @@ role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Campaign の新しい API{#gs-new-api}
 
-のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](enterprise-deployment.md)Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの新しい API が付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細](staging.md)
+[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの新しい API が付属しています。これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。[詳細](staging.md)
 
 * 取得 API：**xtk.session.ingest**
 
-   この API は、データ挿入専用です。 [詳細情報](#data-insert-api)
+   この API は、データ挿入専用です。[詳細情報](#data-insert-api)
 
 * データ更新／削除 API：**xtk.session.ingestExt**
 
-   この API は、データを更新または削除するために使用されます。 [詳細情報](#data-update-api)
+   この API は、データを更新または削除するために使用されます。[詳細情報](#data-update-api)
 
 専用のビルトインワークフローが、Cloud データベースのデータを同期します。
 
 ## データの挿入{#data-insert-api}
 
-**xtk.session.ingest** API は、データ挿入専用です。 更新／削除はありません。
+**xtk.session.ingest** API は、データ挿入専用です。更新／削除はありません。
 
 ### 紐付けなしで挿入
 
@@ -51,7 +51,7 @@ logInfo(strUuid);
 **SOAP 呼び出しから**
 
 1. 認証トークンを取得します。
-1. API のトリガー。 ペイロードは次のとおりです。
+1. API のトリガー。ペイロードは次のとおりです。
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -111,7 +111,7 @@ logInfo(strUuid);
 **SOAP 呼び出しから**
 
 1. 認証トークンを取得します。
-1. API のトリガー。 ペイロードは次のとおりです。
+1. API のトリガー。ペイロードは次のとおりです。
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -147,7 +147,7 @@ logInfo(strUuid);
 
 ## データの更新または削除{#data-update-api}
 
-**xtk.session.IngestExt** API は、データの更新／削除用に最適化されています。 挿入のみをおこなう場合は、**xtk.session.ingest** を選択します。 レコードキーがステージングテーブルにない場合でも、挿入は機能します。
+**xtk.session.IngestExt** API は、データの更新／削除用に最適化されています。挿入のみをおこなう場合は、**xtk.session.ingest** を選択します。レコードキーがステージングテーブルにない場合でも、挿入は機能します。
 
 ### 挿入／更新
 
@@ -172,7 +172,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 
 1. 認証トークンを取得します。
-1. API のトリガー。 ペイロードは次のとおりです。
+1. API のトリガー。ペイロードは次のとおりです。
 
    ```
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
@@ -208,7 +208,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 Campaign の購読管理については、[このページ](../start/subscriptions.md)を参照してください。
 
-購読や購読解除のデータは、Campaign ローカルデータベースの[ステージングメカニズム](staging.md)を使用して挿入されます。購読者の情報は、ローカルデータベースのステージングテーブルにいったん格納され、同期ワークフローによってローカルデータベースからクラウドデータベースに送信されます。 そのため、購読や購読解除のプロセスは&#x200B;**非同期**&#x200B;でおこなわれます。オプトインやオプトアウトのリクエストは、特定のテクニカルワークフローによって 1 時間ごとに処理されます。 [詳細情報](replication.md#tech-wf)
+購読や購読解除のデータは、Campaign ローカルデータベースの[ステージングメカニズム](staging.md)を使用して挿入されます。購読者の情報は、ローカルデータベースのステージングテーブルにいったん格納され、同期ワークフローによってローカルデータベースからクラウドデータベースに送信されます。そのため、購読や購読解除のプロセスは&#x200B;**非同期**&#x200B;でおこなわれます。オプトインやオプトアウトのリクエストは、特定のテクニカルワークフローによって 1 時間ごとに処理されます。[詳細情報](replication.md#tech-wf)
 
 
 **関連トピック**
