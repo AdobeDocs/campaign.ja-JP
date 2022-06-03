@@ -6,15 +6,15 @@ role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 購読と購読解除の管理{#optin-optout}
 
-Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。 複数のサービスを並行して定義できます。例えば、Web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。 購読の管理を参照してください。
+Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。複数のサービスを並行して定義できます。例えば、Web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。購読の管理を参照してください。
 
 ![](../assets/do-not-localize/book.png) 情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja)を参照してください。{target=&quot;_blank&quot;}
 
@@ -26,7 +26,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    ![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab)を参照してください{target=&quot;_blank&quot;}
 
-* 受信者のセットを、このサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。これらの受信者を購読登録するには、プロファイルを選択して右クリックします。 **[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
+* 受信者のセットを、このサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。これらの受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
 
    ![](assets/subscribe-selection.png)
 
@@ -34,7 +34,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    ![](assets/subscribe-confirm.png)
 
-   ![](../assets/do-not-localize/book.png)詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;} を参照してください
+   ![](../assets/do-not-localize/book.png)詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target=&quot;_blank&quot;} を参照してください
 
 
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
@@ -45,7 +45,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    ![](assets/opt-in-webapp.png)
 
-   Campaign には、オプトインを管理するためのデフォルトの Web フォームが用意されています。 これをパーソナライズし、プロファイルデータをマッピングできます。
+   Campaign には、オプトインを管理するためのデフォルトの Web フォームが用意されています。これをパーソナライズし、プロファイルデータをマッピングできます。
 
    ![](assets/web-app.png)
 
@@ -68,7 +68,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 **自動での購読解除**
 
-* 情報サービスの期限を指定します。有効期間が終了すると、受信者は自動的に購読解除されます。 この期間は、サービスプロパティの「編集」タブで指定します。期間は日数で表します。
+* 情報サービスの期限を指定します。有効期間が終了すると、受信者は自動的に購読解除されます。この期間は、サービスプロパティの「編集」タブで指定します。期間は日数で表します。
 * 母集団の購読解除ワークフローの設定.
 
 ![](../assets/do-not-localize/book.png)詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja#unsubscribing-a-recipient-from-a-service){target=&quot;_blank&quot;} を参照してください
@@ -76,8 +76,8 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 >[!CAUTION]
 >
->のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)、購読と購読解除 **非同期** プロセス。 オプトインとオプトアウトのリクエストは、1 時間ごとに処理されます。[詳細情報](../architecture/new-apis.md#sub-apis)
+>[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、購読と購読解除は&#x200B;**非同期**&#x200B;プロセスです。オプトインとオプトアウトのリクエストは、1 時間ごとに処理されます。[詳細情報](../architecture/new-apis.md#sub-apis)
 
-配信受信者が友人にメッセージを転送できるようにすることもできます。 それには、関連リンクを配信に挿入します。 この共有プロセスと、該当するページへのアクセス数もトラッキングできます。
+配信受信者が友人にメッセージを転送できるようにすることもできます。それには、関連リンクを配信に挿入します。この共有プロセスと、該当するページへのアクセス数もトラッキングできます。
 
 ![](../assets/do-not-localize/book.png)この機能について詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=ja#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;} を参照してください。
