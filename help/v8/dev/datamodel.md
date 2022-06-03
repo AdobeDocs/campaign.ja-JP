@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign データモデルの基本構造は、次のように説明で�
 
 Adobe Campaign の使用を開始する場合は、デフォルトのデータモデルを評価して、マーケティングデータの保存に最適なテーブルを確認する必要があります。
 
-デフォルトの受信者テーブルは、そのまま使用できるフィールド（[この節](#ootb-profiles)を参照）と共に使用できます。 必要に応じて、次の 2 つのメカニズムで拡張できます。
+デフォルトの受信者テーブルは、そのまま使用できるフィールド（[この節](#ootb-profiles)を参照）と共に使用できます。必要に応じて、次の 2 つのメカニズムで拡張できます。
 
 * 新しいフィールドで[既存のテーブルを拡張](extend-schema.md)する。例えば、受信者テーブルに新しい「ロイヤルティ」フィールドを追加できます。
 
@@ -67,7 +67,7 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 ## Campaign テーブルとクラウドデータベース
 
-Campaign v8 のテーブル管理に関するより深い理解を得るには、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)の場合、テーブルは Campaign とそのSnowflakeCloud データベースの間でレプリケートされます。
+Campaign v8 のテーブル管理に関してより深く理解するには、[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、テーブルは Campaign とその Snowflake Cloud データベースの間で複製されます。
 
 ![](../assets/do-not-localize/glass.png) レプリケーションの戦略とメカニズムの詳細については、[この節](../architecture/replication.md)を参照してください。
 
