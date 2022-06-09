@@ -5,9 +5,9 @@ description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 97%
    + [ベストプラクティス](audiences/audiences-best-practices.md)
 + メッセージの送信{#send}
    + メール {#emails}
-      + [E メールのデザインと検証](send/email.md)
+      + [メールのデザインと検証](send/email.md)
       + [メールの送信と監視](send/send.md)
    + [SMS](send/sms.md)
    + [プッシュ通知](send/push.md)
