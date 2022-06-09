@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 21d4f7a4b02104572dbd3a5469dc479b5b0ba8de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1596'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -199,7 +199,7 @@ This information enables you to personalize message content using personalizatio
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-![](../assets/do-not-localize/book.png) 配達証明の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target=&quot;_blank&quot;}を参照してください
+![](../assets/do-not-localize/book.png) 配達証明の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#sending-a-proof){target=&quot;_blank&quot;}を参照してください
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 
