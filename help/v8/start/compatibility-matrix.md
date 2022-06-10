@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: d7621adc0f4bd4eaad1b2ff8f270943e91f4edde
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -60,7 +60,7 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 Campaign では、関連する Mobile SDK を使用して、以下に示すオペレーティングシステムで[プッシュ通知](../send/push.md)を送信できます。
 
 * **Android** 12（Campaign v8.3 以降）、9.0、8.x、7.x（Campaign Android SDK ビルド 1.1.1 を使用）。
-* **Apple iOS** 9 ～ 15、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョンiOS 15 は Campaign v8 以降でサポートされます。
+* **Apple iOS** 9 ～ 15、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョンiOS 15 は Campaign v8.3 以降でサポートされます。
 
 ## Web アクセス
 
