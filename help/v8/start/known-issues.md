@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
+source-git-commit: fe425f9309af31a13b52695b103d530a6b89e3b1
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '433'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >
 >Adobeは、この既知の問題のリストを独自に公開します。 顧客レポートの数、重大度、回避策の可用性に基づきます。 発生した問題がリストに表示されない場合は、このページの公開条件に適合しない可能性があります。
 
-## データソースアクティビティの問題を変更 {#issue-1}
+## データソースアクティビティの変更の問題#1 {#issue-1}
 
 ### 説明{#issue-1-desc}
 
@@ -57,7 +57,7 @@ ht-degree: 3%
 
 
 
-## バックスラッシュが原因で、データソースの変更アクティビティが失敗しました {#issue-2}
+## データソースアクティビティの変更の問題#2 {#issue-2}
 
 ### 説明{#issue-2-desc}
 
