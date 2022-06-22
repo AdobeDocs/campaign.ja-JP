@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 099d14ace04df1b98e03be283a6436f49f535958
+source-git-commit: e82ae1158926fb6335380626158089c6394377a1
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 2%
+source-wordcount: '428'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 2%
 
 ## データソースアクティビティの問題を変更 {#issue-1}
 
-### 説明
+### 説明{#issue-1-desc}
 
 この **データソースを変更** Campaign ローカルデータベースから Campaign クラウドデータベースにデータを転送すると、Snowflakeが失敗する。 方向を切り替えると、アクティビティで問題が発生する場合があります。
 
-### 再生手順
+### 再生手順{#issue-1-repro}
 
 1. クライアントコンソールに接続し、ワークフローを作成します。
 1. を追加します。 **クエリ** アクティビティと **データソースを変更** アクティビティ。
@@ -36,22 +36,68 @@ ht-degree: 2%
 1. ワークフローを実行し、トランジションを右クリックして、母集団を表示します。電子メールレコードは、 `****`.
 1. ワークフローログを確認します。の **データソースを変更** アクティビティは、これらのレコードを数値として解釈します。
 
-### 回避策
+### エラーメッセージ{#issue-1-error}
+
+```
+04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
+04/13/2022 10:00:18 AM              Starting 1 connection(s) on pool 'nms:extAccount:ffda tractorsupply_mkt_stage8' (Snowflake, server='adobe-acc_tractorsupply_us_west_2_aws.snowflakecomputing.com', login='tractorsupply_stage8_MKT:tractorsupply_stage8')
+04/13/2022 10:00:26 AM              ODB-240000 ODBC error: {*}Numeric value '{*}******{*}{{*}}' is not recognized\{*}   File 'wkf1285541_13_1_0_47504750#458318uploadPart0.chunk.gz', line 1, character 10140   Row 279, column "WKF1285541_13_1_0"["BICUST_ID":1]   If you would like to continue loading when a
+04/13/2022 10:00:26 AM              n error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client. SQLState: 22018
+04/13/2022 10:00:26 AM              WDB-200001 SQL statement 'COPY INTO wkf1285541_13_1_0 (SACTIVE, SADDRESS1, SADDRESS2, BICUST_ID, SEMAIL) FROM ( SELECT $1, $2, $3, $4, $5 FROM $$@BULK_wkf1285541_13_1_0$$) FILE_FORMAT = ( TYPE = CSV RECORD_DELIMITER = '\x02' FIELD_DELIMITER = '\x01' FIEL
+04/13/2022 10:00:26 AM              D_OPTIONALLY_ENCLOSED_BY = 'NONE') ON_ERROR = ABORT_STATEMENT PURGE = TRUE' could not be executed.
+```
+
+### 回避策{#issue-1-workaround}
 
 データをSnowflakeクラウドデータベースから Campaign ローカルSnowflakeに転送し、データをデータベースに戻すには、2 つの異なる **データソースを変更** アクティビティ。
 
-### 内部参照
+### 内部参照{#issue-1-ref}
 
 参照：NEO-45549
 
 
-## データの読み込み（ファイル）アクティビティが、サーバー上のファイルをアップロードできませんでした {#issue-2}
 
-### 説明
+## バックスラッシュが原因で、データの読み込み（ファイル）アクティビティに失敗しました {#issue-2}
 
-Campaign サーバーでのファイルのアップロードが 100%の進行状況で停止し、終了しない。
+### 説明{#issue-2-desc}
 
-### 再生手順
+キャンペーンの読み込みアクティビティを使用してSnowflakeクラウドデータベースにデータを挿入する場合、バックスラッシュがソースファイルに存在するので、プロセスが失敗する可能性があります。 文字列はエスケープされず、データはエスケープ時に正しく処理されません。Snowflake
+
+この問題は、次のように、文字列の末尾にバックスラッシュが付いている場合にのみ発生します。「バーカー」
+
+
+### 再生手順{#issue-2-repro}
+
+1. クライアントコンソールに接続し、ワークフローを作成します。
+1. を追加します。 **データ読み込み（ファイル）** アクティビティを開き、設定します。
+1. 上記の特性を持つローカルファイルを選択します。
+1. ワークフローを実行し、ワークフローログでエラーを確認します。
+
+
+### エラーメッセージ{#issue-2-error}
+
+```
+Error:
+04/21/2022 4:01:58 PM     loading when an error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client. SQLState: 22000
+04/21/2022 4:01:58 PM    ODB-240000 ODBC error: String '100110668547' is too long and would be truncated   File 'wkf1656797_21_1_3057430574#458516uploadPart0.chunk.gz', line 1, character 0   Row 90058, column "WKF1656797_21_1"["SCARRIER_ROUTE":13]   If you would like to continue
+```
+
+### 回避策{#issue-2-workaround}
+
+回避策として、「Barker」のような値を二重引用符で囲んでファイルをエクスポートし、ファイルフォーマットオプション FIELD_OPTIONAL_EXCLOSED_BY = &#39;&quot;&#39;を含めます。
+
+### 内部参照{#issue-2-ref}
+
+参照：NEO-45549
+
+
+## データの読み込み（ファイル）アクティビティが、サーバー上のファイルをアップロードできませんでした {#issue-3}
+
+### 説明{#issue-3-desc}
+
+を使用して Campaign サーバーにファイルをアップロードする際 **データ読み込み（ファイル）** 「 」アクティビティの場合、プロセスは 100%で停止しますが、終了しません。
+
+### 再生手順{#issue-3-repro}
 
 1. クライアントコンソールに接続し、ワークフローを作成します。
 1. を追加します。 **データ読み込み（ファイル）** アクティビティを開き、設定します。
@@ -59,10 +105,15 @@ Campaign サーバーでのファイルのアップロードが 100%の進行状
 1. ローカルマシン上のファイルを選択し、
 1. クリック **アップロード**
 
-### 回避策
+
+### エラーメッセージ{#issue-3-error}
+
+プロセスは終わりません。
+
+### 回避策{#issue-3-workaround}
 
 なし
 
-### 内部参照
+### 内部参照{#issue-3-ref}
 
 参照：NEO-47269
