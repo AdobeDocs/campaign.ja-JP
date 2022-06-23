@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe921e83f36675837b72ca282315692151dcf67
+source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 3%
@@ -120,9 +120,9 @@ As a workaround, export the files with double quotes around the problematic valu
 
 回避策は、古いクライアントコンソールを使用することです。 その後、サーバーにファイルをアップロードできます。
 
-Campaign 管理者は、Campaign v8.3.1 クライアントコンソールを [Adobe配布サービス](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2OrderModifiedBy.sort.=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}。
+Campaign 管理者は、Campaign v8.3.1 クライアントコンソールを [Adobeソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2OrderModifiedBy.sort.=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}。
 
-Adobe配布サービスへのアクセス方法 [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target=&quot;_blank&quot;}。
+ソフトウェア配布にアクセスするAdobe [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target=&quot;_blank&quot;}。
 
 クライアントコンソールのアップグレード方法を説明します [このページ](connect.md)
 
