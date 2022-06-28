@@ -1,26 +1,26 @@
 ---
 title: Campaign v8 の既知の問題
-description: 最新の Campaign リリースの既知の問題
+description: Campaign の最新リリースの既知の問題
 feature: Overview
 role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
 source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # 既知の問題{#known-issues}
 
-このページでは、 **最新の Campaign v8 リリース**. また、Campaign v8 に伴う制限事項を示します [このページ](known-limitations.md).
+このページでは、**最新のリリースである Campaign v8** で確認された既知の問題を一覧表示しています。また、Campaign v8 に伴う制限事項を[こちらのページ](known-limitations.md)に示しています。
 
 
 >[!NOTE]
 >
->Adobeは、この既知の問題のリストを独自に公開します。 顧客レポートの数、重大度、回避策の可用性に基づきます。 発生した問題がリストに表示されない場合は、このページの公開条件に適合しない可能性があります。
+>アドビは、この既知の問題のリストを独自に公開します。これは、顧客からの報告数、重大度、利用可能な回避策の有無に基づいています。発生した問題が一覧にない場合は、その問題が、このページに公開する基準を満たしていないと考えられます。
 
 <!--
 ## Change Data Source activity issue #1 {#issue-1}
@@ -58,22 +58,22 @@ Reference: NEO-45549
 -->
 
 
-## データソースアクティビティの問題を変更 {#issue-2}
+## 「データソースを変更」アクティビティに関する問題 {#issue-2}
 
 ### 説明{#issue-2-desc}
 
-Campaign を使用してSnowflakeクラウドデータベースにデータをインジェクトする場合 **クエリ** および **データソースを変更** アクティビティの場合、データにバックスラッシュ文字が含まれていると、プロセスは失敗します。 ソース文字列はエスケープされず、Snowflake時にデータが正しく処理されません。
+Campaign **クエリ**&#x200B;および「**データソースを変更**」アクティビティを使用して Snowflake クラウドデータベースにデータを挿入する場合、データにバックスラッシュ文字が含まれているとプロセスが失敗します。ソース文字列はエスケープされず、データが Snowflake で正しく処理されません。
 
-この問題は、次のように、文字列の末尾にバックスラッシュが付いている場合にのみ発生します。 `Barker\`.
+この問題は、文字列の末尾にバックスラッシュ文字が付いている場合にのみ発生します。例：`Barker\`。
 
 
-### 再生手順{#issue-2-repro}
+### 再現手順{#issue-2-repro}
 
 1. クライアントコンソールに接続し、ワークフローを作成します。
-1. を追加します。 **クエリ** アクティビティを開き、設定します。
-1. 上記の特性を持つデータを選択します。
-1. を追加します。 **データソースを変更** 「 」アクティビティを開き、設定してSnowflakeクラウドデータベースを選択します。
-1. ワークフローを実行し、ワークフローログでエラーを確認します。
+1. **クエリ**&#x200B;アクティビティを追加し、設定します。
+1. 上記の特徴を持つデータを選択します。
+1. 「**データソースを変更**」アクティビティを追加し、Snowflake クラウドデータベースを選択するよう設定します。
+1. ワークフローを実行し、ワークフローのログでエラーを確認します。
 
 
 ### エラーメッセージ{#issue-2-error}
@@ -86,7 +86,7 @@ Error:
 
 ### 回避策{#issue-2-workaround}
 
-回避策として、文字列の末尾にバックスラッシュ文字が含まれるデータを除外するか、ソースファイルから削除します。
+回避策は、文字列の末尾にバックスラッシュ文字があるデータを除外するか、ソースファイルから削除することです。
 
 <!--
 As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
@@ -97,34 +97,34 @@ As a workaround, export the files with double quotes around the problematic valu
 参照：NEO-45549
 
 
-## データの読み込み（ファイル）アクティビティが、サーバー上のファイルをアップロードできませんでした {#issue-3}
+## データ読み込み（ファイル）アクティビティで、サーバーにファイルをアップロードできませんでした {#issue-3}
 
 ### 説明{#issue-3-desc}
 
-を使用して Campaign サーバーにファイルをアップロードする際 **データ読み込み（ファイル）** 「 」アクティビティの場合、プロセスは 100%で停止しますが、終了しません。
+**データ読み込み（ファイル）**&#x200B;アクティビティを使用して Campaign サーバーにファイルをアップロードする際、プロセスが 100％の状態で停止したまま終了しません。
 
-### 再生手順{#issue-3-repro}
+### 再現手順{#issue-3-repro}
 
 1. クライアントコンソールに接続し、ワークフローを作成します。
-1. を追加します。 **データ読み込み（ファイル）** アクティビティを開き、設定します。
-1. を選択します。 **サーバーにアップロード** オプション。
+1. **データ読み込み（ファイル）**&#x200B;アクティビティを追加し、設定します。
+1. 「**サーバーにアップロード**」オプションを選択します。
 1. ローカルマシン上のファイルを選択し、
-1. クリック **アップロード**
+1. 「**アップロード**」をクリックします
 
 
 ### エラーメッセージ{#issue-3-error}
 
-プロセスは終わりません。
+プロセスが終了しません。
 
 ### 回避策{#issue-3-workaround}
 
-回避策は、古いクライアントコンソールを使用することです。 その後、サーバーにファイルをアップロードできます。
+回避策は、古いクライアントコンソールを使用することです。これにより、サーバーにファイルをアップロードできるようになります。
 
-Campaign 管理者は、Campaign v8.3.1 クライアントコンソールを [Adobeソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2OrderModifiedBy.sort.=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}。
+Campaign の管理者は、Campaign v8.3.1 クライアントコンソールを[アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}からダウンロードできます。
 
-ソフトウェア配布にアクセスするAdobe [このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target=&quot;_blank&quot;}。
+アドビのソフトウェア配布へのアクセス方法について詳しくは、[こちらのページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-クライアントコンソールのアップグレード方法を説明します [このページ](connect.md)
+クライアントコンソールのアップグレード方法について詳しくは、[こちらのページ](connect.md)を参照してください
 
 ### 内部参照{#issue-3-ref}
 
