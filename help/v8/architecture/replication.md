@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
@@ -48,7 +48,7 @@ Adobe Campaign v8 が使用するデータベース、データがレプリケ�
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 
-### データレプリケーションポリシー
+### データレプリケーションポリシー{#data-replication-policies}
 
 レプリケーションポリシーはテーブルのサイズに基づいています。リアルタイムでレプリケートされるテーブルもあれば、時間単位でレプリケートされるテーブルもあります。増分的に更新されるテーブルもあれば、全体が置き換えられるテーブルもあります。
 

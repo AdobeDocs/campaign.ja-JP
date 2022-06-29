@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 100%
 
 JavaScript の API を使用すると、Campaign クラウドデータベースに書き込んだり、データベースから読み込んだりすることができます。
 
-* 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja)を参照してください。
-* データモデルデータをクエリするための汎用データアクセス API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja)を参照してください。
+* 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+* データモデルデータをクエリするための汎用データアクセス API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-Campaign v8 は、2 つのデータベースで動作します。1 つはリアルタイムメッセージングと単一クエリ、API を介した書き込みを行うユーザーインターフェイス用のローカルデータベース。もう 1 つはキャンペーンの実行、レポート、データ取り込み、バッチクエリ、ワークフローの実行のためのクラウドデータベースです。 
+なお、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)、Campaign は次の 2 つのデータベースで動作します。API を介したリアルタイムメッセージおよび単一クエリと書き込みを行うユーザーインターフェイス用のローカルデータベースと、キャンペーン実行、レポート、データ取り込み、バッチクエリ、ワークフロー実行用の Cloud データベース。
 
 >[!CAUTION]
 >

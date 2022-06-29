@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign はデータスキーマを利用して次のことを行いま�
 
 * インターフェースで&#x200B;**新しいフィールド**&#x200B;ウィザードを使用する
 
-   ![](../assets/do-not-localize/book.png) Campaign に新しいフィールドをすぐに追加する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic)を参照してください。
+   ![](../assets/do-not-localize/book.png) Campaign に新しいフィールドをすぐに追加する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic)を参照してください。{target=&quot;_blank&quot;}
 
 * プログラムによってスキーマを拡張する
 
@@ -47,9 +47,9 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 **関連トピック**
 
-![](../assets/do-not-localize/book.png) スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic)を参照してください。
+![](../assets/do-not-localize/book.png) スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic)を参照してください。{target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/book.png) ユースケース「既存の参照テーブルにフィールドをリンクする」については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link)を参照してください。
+![](../assets/do-not-localize/book.png) 使用例：フィールドを [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target=&quot;_blank&quot;}
 
 
 ## 入力フォームの変更
@@ -64,7 +64,7 @@ Adobe Campaign インターフェイスでは、受信者、配信、キャン�
 
 標準提供の web アプリケーションは、管理／設定／Web アプリケーションノードに格納されています。
 
-![](../assets/do-not-localize/book.png) Campaign での概要ページの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases—creating-overviews.html?lang=ja#creating-a-single-page-web-application)を参照してください。
+![](../assets/do-not-localize/book.png) Campaign での概要ページの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases—creating-overviews.html?lang=ja#creating-a-single-page-web-application)を参照してください。{target=&quot;_blank&quot;}
 
 
 ## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}
@@ -73,16 +73,16 @@ Adobe Campaign インターフェイスでは、受信者、配信、キャン�
 
 キャンペーンリストには、ナビゲーションやデータのビジュアライゼーションを容易にする定義済みフィルターが付属しています。
 
-![](../assets/do-not-localize/book.png) フィルターオプションの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=ja#about-filtering)を参照してください
+![](../assets/do-not-localize/book.png) フィルターオプションについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=ja#about-filtering){target=&quot;_blank&quot;}
 
 
 ### エクスプローラーからのデータへのアクセス
 
 Adobe Campaign エクスプローラーのツリー内を移動すると、データベースに含まれているデータがリストに表示されます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えなどを行うことができます。
 
-![](../assets/do-not-localize/book.png) リストの設定方法およびリスト設定の保存方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ja#getting-started)を参照してください。
+![](../assets/do-not-localize/book.png) リストの設定方法およびリスト設定の保存方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=ja#getting-started)を参照してください。{target=&quot;_blank&quot;}
 
 
 これらのリストにフィルターを適用すると、演算子で必要なデータのみを表示できます。 これにより、フィルターされたデータに対してアクションを実行できます。フィルター設定を使用すると、リストから動的にデータを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
-![](../assets/do-not-localize/book.png) データのフィルタリング方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=ja#typology-of-available-filters)を参照してください。
+![](../assets/do-not-localize/book.png) でデータをフィルターする方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=ja#typology-of-available-filters){target=&quot;_blank&quot;}

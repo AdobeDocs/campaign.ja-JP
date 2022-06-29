@@ -4,10 +4,8 @@ description: Campaign FDA-Snowflake のデプロイの概要
 feature: Overview
 role: Data Engineer
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%

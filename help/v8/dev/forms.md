@@ -2,10 +2,10 @@
 title: Campaign 入力フォーム
 description: 入力フォームのカスタマイズ方法を学ぶ
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '2574'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
 
-![](../assets/do-not-localize/book.png) すべてのフォーム属性については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja)を参照してください。
+![](../assets/do-not-localize/book.png) すべてのフォーム属性は、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja){target=&quot;_blank&quot;}。
 
 ## フォーマット設定 {#formatting}
 

@@ -1,20 +1,20 @@
 ---
-title: Campaign v8 の新しい API
-description: Campaign v8 の新しい API
+title: FFDA デプロイメント API
+description: FFDA 固有の API
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Campaign の新しい API{#gs-new-api}
+# 特定の FFDA キャンペーン API{#gs-new-api}
 
-[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの新しい API が付属しています。これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。[詳細](staging.md)
+のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](enterprise-deployment.md)Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの固有の API が付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。[詳細](staging.md)
 
 * 取得 API：**xtk.session.ingest**
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 **xtk.session.ingest** API は、データ挿入専用です。更新／削除はありません。
 
-### 紐付けなしで挿入
+### 紐付けなしで挿入{#insert-no-reconciliation}
 
 **ワークフロー内**
 
@@ -170,7 +170,6 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 **SOAP 呼び出しから**
 
-
 1. 認証トークンを取得します。
 1. API のトリガー。ペイロードは次のとおりです。
 
@@ -213,4 +212,4 @@ Campaign の購読管理については、[このページ](../start/subscriptio
 
 **関連トピック**
 
-* [Campaign Classic v7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja)
+* [Campaign Classic v7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target=&quot;_blank&quot;}

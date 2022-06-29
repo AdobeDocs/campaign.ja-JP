@@ -6,8 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c803c13c6d433d2c6730f32f43209c8effab1fde
-workflow-type: ht
+exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # 既知の問題{#known-issues}
 
-このページでは、**最新のリリースである Campaign v8** で確認された既知の問題を一覧表示しています。また、Campaign v8 に伴う制限事項を[こちらのページ](known-limitations.md)に示しています。
+このページでは、**最新のリリースである Campaign v8** で確認された既知の問題を一覧表示しています。また、Campaign v8 に伴う制限事項を[こちらのページ](ac-guardrails.md)に示しています。
 
 
 >[!NOTE]

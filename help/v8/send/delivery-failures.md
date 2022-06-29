@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
-workflow-type: ht
-source-wordcount: '3061'
-ht-degree: 100%
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+workflow-type: tm+mt
+source-wordcount: '3060'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 ![](assets/delivery-log-qualification.png)-->
 
-現在、Adobe Campaign でのバウンスメールの選定の処理方法は、エラータイプによって異なります。
+Adobe Campaignでのバウンスメールの選定の処理方法は、エラータイプによって異なります。
 
 * **同期エラー**： MTA は、バウンスのタイプと検証を決定し、その情報を Campaign に返します。**[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。
 

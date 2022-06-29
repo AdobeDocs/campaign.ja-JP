@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
+source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + 新機能{#new}
    + [主な機能](start/whats-new.md)
    + [リリースノート](start/release-notes.md)
-   + [既知の制限事項](start/known-limitations.md)
+   + [ガードレール](start/ac-guardrails.md)
    + [既知の問題](start/known-issues.md)
    + [Classic v7 から v8](start/v7-to-v8.md)
 + 開始 {#start}

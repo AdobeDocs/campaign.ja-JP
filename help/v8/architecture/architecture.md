@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
+source-git-commit: 110cf2ff705ecbc0b3a1690e9dfc2791f5744b97
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Campaign は、完全な Campaign 環境を表す各インスタンスを持つ個々のインスタンスとして使用可能になります。
 
-Campaign Cloud Service では、次の 2 種類の環境を利用できます。
+次の 2 種類の環境を使用できます。
 
 * **実稼動環境**：業務担当者用のアプリケーションをホストします。
 
@@ -26,25 +26,22 @@ Campaign Cloud Service では、次の 2 種類の環境を利用できます。
 
 ある環境から別の環境へ、パッケージを書き出したり読み込んだりできます。
 
-![](../assets/do-not-localize/book.png) パッケージの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja)を参照してください
+![](../assets/do-not-localize/book.png) パッケージの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja)を参照してください{target=&quot;_blank&quot;}
 
 ## デプロイメントモデル{#ac-deployment}
 
-[Enterprise（FFDA）デプロイメント](enterprise-deployment.md)で、[!DNL Adobe Campaign] v8 は 2 つのデータベースで動作します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行、バッチクエリ、ワークフローの実行を行うクラウド [!DNL Snowflake] データベースです。
+次の 2 つのデプロイメントモデルを使用できます。
 
-Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
+* **Campaign FDA [!DNL Snowflake] デプロイメント**
 
+   その中に [[!DNL Snowflake] FDA デプロイメント](fda-deployment.md), [!DNL Adobe Campaign] v8 は、 [!DNL Snowflake] Federated Data Access 機能を使用してデータにアクセスするには：に保存された外部データおよび情報にアクセスして処理できます [!DNL Snowflake] データベースに反映されます。Adobe Campaignデータの構造は変更されません。 PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースです。データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
 
+* **Campaign Enterprise(FFDA) デプロイメント**
 
-<!--Two deployment models are available:
+   のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](enterprise-deployment.md), [!DNL Adobe Campaign] v8 は、2 つのデータベースで動作します。地元の人 [!DNL Campaign] データベースを使用して、リアルタイムのメッセージングと単一のクエリを作成し、API を介して書き込み、およびクラウドを利用できます。 [!DNL Snowflake] キャンペーン実行、バッチクエリおよびワークフロー実行用のデータベース。
 
-* **Campaign FDA [!DNL Snowflake] deployment**
+   Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-In its [[!DNL Snowflake] FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
-
-* **Campaign Enterprise (FFDA) deployment**
-
--->
 
 ## Message Center のアーキテクチャ{#transac-msg-archi}
 
@@ -79,4 +76,4 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 * 複数の実行インスタンス
 ロードバランサーの背後に複数の実行インスタンスがある複数セル実行アーキテクチャでは、外部アプリケーションが呼び出すログオンメソッドはロードバランサーを経由します。そのため、トークンベースの認証は使用できません。ユーザー／パスワードベースの認証が必要です。
 
-![](../assets/do-not-localize/book.png) トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja#about-transactional-messaging-datamodel)を参照してください
+![](../assets/do-not-localize/book.png) トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja#about-transactional-messaging-datamodel)を参照してください{target=&quot;_blank&quot;}
