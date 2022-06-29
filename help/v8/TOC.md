@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
-source-git-commit: 099d14ace04df1b98e03be283a6436f49f535958
+source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
 workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
    + [リリースノート](start/release-notes.md)
    + [既知の制限事項](start/known-limitations.md)
    + [既知の問題](start/known-issues.md)
-   + [Classic v7 から v8](start/capability-matrix.md)
+   + [Classic v7 から v8](start/v7-to-v8.html)
 + 開始 {#start}
    + [基本を学ぶ](start/get-started.md)
    + [コンポーネントとプロセス](start/ac-components.md)
@@ -118,7 +118,7 @@ ht-degree: 100%
    + [Campaign と RTCDP の統合](connect/ac-rtcdp.md)
    + [Campaign と Twitter の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
-   + Campaign と CRM の統合{#ac-crm}
+   + Campaign と CRM の統合 {#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
