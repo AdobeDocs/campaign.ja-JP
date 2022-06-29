@@ -3,8 +3,8 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 * **[実装ガイド](start/implement.md)** - 実装方法を説明します
 
-* **[v7 から v8 へ](start/capability-matrix.md)** - Campaign Classic を v7 から v8 へ移行します主な違いを学ぶ
+* **[v7 から v8 へ](start/v7-to-v8.html)** - Campaign Classic を v7 から v8 へ移行します主な違いを学ぶ
 
 * **[Campaign v8 のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target=&quot;_blank&quot;}** - Campaign コントロールパネルを使用して、自分で主要な管理者タスクを実行できます
 
