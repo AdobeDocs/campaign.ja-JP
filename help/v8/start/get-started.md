@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,7 +84,7 @@ Adobe Campaign の配信機能と高度なキャンペーン管理機能を、�
 
 Adobe Campaign は、ニーズとアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を提供します。 これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。 詳細な製品説明については、[Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)を参照してください。
 
-![](../assets/do-not-localize/glass.png) Campaign Classic に精通している方であれば、Campaign Classic と Campaign v8 の主な違いについては、[このページ](v7-to-v8.html)を参照してください。
+![](../assets/do-not-localize/glass.png) Campaign Classic に精通している方であれば、Campaign Classic と Campaign v8 の主な違いについては、[このページ](v7-to-v8.md)を参照してください。
 
 **関連項目**
 

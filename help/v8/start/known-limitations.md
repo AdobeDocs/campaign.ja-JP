@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: 63e109f31706880a1723dfd0c611835842e39083
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Adobe Campaign v8 には、次の制限があります。
 * Adobe Campaign v8 は、オンプレミスやハイブリッドの環境では使用できません。アドビの Managed Cloud Service としてのみリリースされています。
 * 既存のお客様は、既存の Adobe Campaign 環境から Adobe Campaign v8 に移行することはできません。
 * [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、双方向のデータレプリケーションは行われません。レプリケーションは、Campaign ローカルデータベースから Cloud データベースにのみ発生します。
-* [この節](v7-to-v8.html#gs-unavailable-features)で示す機能は、現在の Campaign v8 のビルドでは使用できません。
+* [この節](v7-to-v8.md#gs-unavailable-features)で示す機能は、現在の Campaign v8 のビルドでは使用できません。
 * 使用できない機能や削除された機能の中には、ユーザーインターフェイスに表示されたままになっているものもあります。
 * [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、購読（オプトイン）および購読解除（オプトアウト）のメカニズムと、モバイル登録は非同期プロセスです。リクエストは、特定のテクニカルワークフローを通じて 1 時間ごとに処理されます。[詳細情報](../architecture/replication.md#tech-wf)
 * 重複は、エンドユーザーが手動で処理する必要があります。[詳細情報](../architecture/keys.md)
