@@ -1,11 +1,11 @@
 ---
 title: Campaign での購読と購読解除の管理
 description: Campaign v8 で購読と購読解除を管理する方法を説明します
-feature: Overview
+feature: Subscriptions
 role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%

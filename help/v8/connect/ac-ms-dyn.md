@@ -1,11 +1,11 @@
 ---
 title: Campaign と Microsoft Dynamics の連携
 description: Campaign と Microsoft Dynamics の連携方法を学ぶ
-feature: Overview
+feature: Microsoft CRM Integration
 role: Data Engineer
 level: Beginner
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '1400'
 ht-degree: 100%

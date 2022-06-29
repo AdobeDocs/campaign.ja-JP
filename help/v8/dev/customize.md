@@ -1,20 +1,20 @@
 ---
 title: インスタンスのカスタマイズ
 description: インスタンスをカスタマイズする方法について説明します
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 91%
 
 ---
 
 # インスタンスのカスタマイズ{#gs-ac-custom}
 
-**Campaign インスタンスをカスタマイズする方法**&#x200B;について説明します。
+方法を学ぶ **Campaign インスタンスのカスタマイズ**.
 
 >[!CAUTION]
 >

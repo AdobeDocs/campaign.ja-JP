@@ -1,12 +1,12 @@
 ---
 title: Campaign トランザクションメッセージ
 description: トランザクションメッセージの概要
-feature: Overview
+feature: Transactional Messaging
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 21d4f7a4b02104572dbd3a5469dc479b5b0ba8de
-workflow-type: ht
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 100%
 

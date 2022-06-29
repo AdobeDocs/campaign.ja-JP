@@ -1,11 +1,11 @@
 ---
 title: Campaign と Adobe Analytics の操作
 description: Campaign と Analytics の統合方法を学ぶ
-feature: Overview
+feature: Analytics Integration
 role: Data Engineer
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 100%

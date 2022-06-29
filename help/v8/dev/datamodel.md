@@ -1,11 +1,11 @@
 ---
 title: Campaign データモデルの基本を学ぶ
 description: Campaign データモデルの基本を学ぶ
-feature: Overview
+feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%

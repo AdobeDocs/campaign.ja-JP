@@ -1,11 +1,11 @@
 ---
 title: Campaign インタラクションアーキテクチャについて
 description: Campaign インタラクションアーキテクチャの基本
-feature: Overview
+feature: Interaction
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '1328'
 ht-degree: 100%

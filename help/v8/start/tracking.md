@@ -1,11 +1,11 @@
 ---
 title: トラッキング機能と監視機能の基本を学ぶ
 description: トラッキング機能と監視機能の基本を学ぶ
-feature: Overview
+feature: Monitoring
 role: Data Engineer
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 100%
