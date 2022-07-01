@@ -4,7 +4,7 @@ description: Campaign インタラクションの詳細設定
 role: Data Engineer
 level: Beginner
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
 ht-degree: 100%
 
