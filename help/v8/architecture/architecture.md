@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 110cf2ff705ecbc0b3a1690e9dfc2791f5744b97
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '698'
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 ## デプロイメントモデル{#ac-deployment}
 
-次の 2 つのデプロイメントモデルを使用できます。
+次の 2 種類のデプロイメントモデルを使用できます。
 
-* **Campaign FDA [!DNL Snowflake] デプロイメント**
+* **Campaign FDA [!DNL Snowflake]デプロイメント**
 
-   その中に [[!DNL Snowflake] FDA デプロイメント](fda-deployment.md), [!DNL Adobe Campaign] v8 は、 [!DNL Snowflake] Federated Data Access 機能を使用してデータにアクセスするには：に保存された外部データおよび情報にアクセスして処理できます [!DNL Snowflake] データベースに反映されます。Adobe Campaignデータの構造は変更されません。 PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースです。データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
+   [[!DNL Snowflake]  FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスします。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースです。データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
 
-* **Campaign Enterprise(FFDA) デプロイメント**
+* **Campaign Enterprise（FFDA）デプロイメント**
 
-   のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](enterprise-deployment.md), [!DNL Adobe Campaign] v8 は、2 つのデータベースで動作します。地元の人 [!DNL Campaign] データベースを使用して、リアルタイムのメッセージングと単一のクエリを作成し、API を介して書き込み、およびクラウドを利用できます。 [!DNL Snowflake] キャンペーン実行、バッチクエリおよびワークフロー実行用のデータベース。
+   [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストで、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行や、バッチクエリ、ワークフローの実行を行う Cloud [!DNL Snowflake] データベースです。
 
    Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
