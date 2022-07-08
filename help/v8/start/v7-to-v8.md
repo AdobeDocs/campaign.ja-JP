@@ -1,18 +1,18 @@
 ---
-title: Campaign Classicv7 から Campaign v8 への移行
+title: Campaign Classic v7 から Campaign v8 への移行
 description: Campaign Classic v7 と Campaign v8 の違いを理解する
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 6f9f3ed4d2eef28b6683bf04b81431fd6a3e3dba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# 遷移元 [!DNL Campaign Classic] v7 ～ [!DNL Campaign] v8{#gs-matrix}
+# [!DNL Campaign Classic] v7 から [!DNL Campaign] v8 への移行{#gs-matrix}
 
 以前の [!DNL Campaign Classic] v7 ユーザーであれば、普段 [!DNL Adobe Campaign] を操作する際と大きな違いはありません。UI と構成手順には小規模の変更がありますが、v8 での変更の大部分は目には見えません。
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >* 現時点では、Campaign v8 は Managed Cloud Service として&#x200B;**のみ**&#x200B;使用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。[詳細情報](#cloud-services)
 >
->* 既存のCampaign Classicv7 環境からの自動移行は、まだ使用できません。
+>* 既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
 
 
 
@@ -28,7 +28,7 @@ ht-degree: 85%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Servicesは、クロスチャネルの顧客エクスペリエンスを設計するManaged Servicesプラットフォームを提供し、視覚的なキャンペーン編成、リアルタイムのインタラクション管理、クロスチャネルの実行のための環境を提供します。 Campaign で管理されるCloud Servicesの詳細については、 [製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}。
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Services プラットフォームとなり、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。Campaign Managed Cloud Services について詳しくは、[製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
@@ -51,14 +51,14 @@ Campaign v8 は [!DNL Snowflake] で動作します。
 
 [Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)で、[!DNL Adobe Campaign] v8 は 2 つのデータベースで動作します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行、バッチクエリ、ワークフローの実行を行うクラウド [!DNL Snowflake] データベースです。
 
-Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。必要なのはテーブルの作成とデータのコピーだけで、開始できます。 クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
+Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成してデータをコピーするだけで、利用を開始できます。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
 ![](../assets/do-not-localize/glass.png) [!DNL Campaign] v8 アーキテクチャの詳細については、[このページ](../architecture/architecture.md)を参照してください。
 
 
 ## Adobe ID を使用して Campaign に接続{#adobe-id}
 
-Campaign ユーザーは、Adobe ID経由でのみ接続します。 同じ Adobe ID を使用して、Adobe Experience Cloud ソリューション用に、すべてのアドビプランおよび製品を 1 つのアカウントに関連付けます。
+Campaign ユーザーは、Adobe ID でのみ接続します。同じ Adobe ID を使用して、Adobe Experience Cloud ソリューション用に、すべてのアドビプランおよび製品を 1 つのアカウントに関連付けます。
 
 ![](../assets/do-not-localize/glass.png) [!DNL Campaign] に接続する方法については、[このページ](connect.md)を参照してください。
 
