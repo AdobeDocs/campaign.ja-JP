@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 82%
 JavaScript の API を使用すると、Campaign クラウドデータベースに書き込んだり、データベースから読み込んだりすることができます。
 
 * 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
-* データモデルデータをクエリするための汎用データアクセス API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+* データモデルデータに対するクエリ用の汎用データアクセス API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
-なお、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)、Campaign は次の 2 つのデータベースで動作します。API を介したリアルタイムメッセージおよび単一クエリと書き込みを行うユーザーインターフェイス用のローカルデータベースと、キャンペーン実行、レポート、データ取り込み、バッチクエリ、ワークフロー実行用の Cloud データベース。
+[Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)で、Campaign は 2 つのデータベースと連携することに注意してください。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカルデータベース、もう 1 つはキャンペーンの実行や、レポート、データ取得、バッチクエリ、ワークフローの実行を行う Cloud データベースです。
 
 >[!CAUTION]
 >
