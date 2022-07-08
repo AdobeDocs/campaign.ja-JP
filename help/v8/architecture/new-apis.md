@@ -6,15 +6,15 @@ role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
 source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 特定の FFDA キャンペーン API{#gs-new-api}
+# 特定の FFDA Campaign API{#gs-new-api}
 
-のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](enterprise-deployment.md)Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの固有の API が付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。[詳細](staging.md)
+[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの特定の API が付属しています。これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。[詳細](staging.md)
 
 * 取得 API：**xtk.session.ingest**
 
