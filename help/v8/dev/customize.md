@@ -6,15 +6,15 @@ role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '559'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # インスタンスのカスタマイズ{#gs-ac-custom}
 
-方法を学ぶ **Campaign インスタンスのカスタマイズ**.
+**Campaign インスタンスをカスタマイズする方法**&#x200B;について説明します。
 
 >[!CAUTION]
 >
@@ -49,7 +49,7 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 ![](../assets/do-not-localize/book.png) スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic)を参照してください。{target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/book.png) 使用例：フィールドを [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) ユースケース「既存の参照テーブルにフィールドをリンクする」については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target=&quot;_blank&quot;}を参照してください。
 
 
 ## 入力フォームの変更
@@ -73,7 +73,7 @@ Adobe Campaign インターフェイスでは、受信者、配信、キャン�
 
 キャンペーンリストには、ナビゲーションやデータのビジュアライゼーションを容易にする定義済みフィルターが付属しています。
 
-![](../assets/do-not-localize/book.png) フィルターオプションについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=ja#about-filtering){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) フィルタリングオプションについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=ja#about-filtering){target=&quot;_blank&quot;}を参照してください。
 
 
 ### エクスプローラーからのデータへのアクセス
@@ -85,4 +85,4 @@ Adobe Campaign エクスプローラーのツリー内を移動すると、デ�
 
 これらのリストにフィルターを適用すると、演算子で必要なデータのみを表示できます。 これにより、フィルターされたデータに対してアクションを実行できます。フィルター設定を使用すると、リストから動的にデータを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
-![](../assets/do-not-localize/book.png) でデータをフィルターする方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=ja#typology-of-available-filters){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) データのフィルタリング方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=ja#typology-of-available-filters){target=&quot;_blank&quot;}を参照してください。
