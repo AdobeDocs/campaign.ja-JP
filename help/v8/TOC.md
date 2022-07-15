@@ -5,9 +5,9 @@ description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8
 title: Campaign v8 ドキュメント
 source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
-workflow-type: ht
-source-wordcount: '352'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 100%
    + [Campaign と RTCDP の統合](connect/ac-rtcdp.md)
    + [Campaign と Twitter の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
-   + Campaign と CRM の統合{#ac-crm}
+   + Campaign と CRM の統合 {#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)

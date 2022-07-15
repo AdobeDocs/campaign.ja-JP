@@ -6,8 +6,8 @@ role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    ![](assets/subscribe-confirm.png)
 
-   ![](../assets/do-not-localize/book.png)詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target=&quot;_blank&quot;} を参照してください
+   ![](../assets/do-not-localize/book.png)詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;} を参照してください
 
 
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
