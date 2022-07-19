@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 100%
+source-wordcount: '1739'
+ht-degree: 94%
 
 ---
 
@@ -325,12 +325,12 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 詳細フィルター機能を実行するには、関数を使用してフィルターのコンテンツを定義します。詳細フィルターエディターは、Campaign クエリエディターのすべての機能を利用します。
 
-詳細なクエリを作成する方法については、 Adobe Campaign Classic v7 ドキュメントを参照してください。例：
+エンドツーエンドのサンプルで高度なクエリを作成する方法を説明します。
 
-* 単純な受信者属性をターゲットにする方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=ja#example--targeting-on-simple-recipient-attributes){target=&quot;_blank&quot;}を参照してください。
-* 過去 7 日間に連絡されていない受信者をフィルターする方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
-* アクティブなアカウントでフィルターできるオペレーターのリストを復元する方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/creating-a-filter.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
-* 誕生日のメールオーディエンスを作成する方法については、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ja#identifying-recipients-whose-birthday-it-is){target=&quot;_blank&quot;}を参照してください。
+* で単純な受信者属性をターゲットにする方法を説明します。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+* 過去 7 日間に連絡されていない受信者を次の期間でフィルタリングする方法を説明します： [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
+* オペレーターのリストを復元する方法を、「アクティブなアカウント」でフィルタリングする方法について説明します。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
+* で誕生日の E メールオーディエンスを作成する方法を説明します。  [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
 
 
 ### 定義済みフィルターの詳細設定パラメーター {#param-for-data-filters}

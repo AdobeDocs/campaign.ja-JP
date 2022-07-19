@@ -5,10 +5,10 @@ feature: Workflows
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+workflow-type: tm+mt
+source-wordcount: '1629'
+ht-degree: 57%
 
 ---
 
@@ -31,28 +31,28 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 これらの[エンドツーエンドのユースケース](#end-to-end-uc)でワークフローをデザインする方法を説明します。
 
-ワークフローのユーザーインターフェイスと実行について詳しくは、Campaign Classic v7 のドキュメントを参照してください。
+ワークフローのユーザーインターフェイスと実行について詳しくは、次のページを参照してください。
 
-* [ワークフローの概要](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=ja#automating-with-workflows){target=&quot;_blank&quot;}
+* [ワークフローの基本を学ぶ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
 
-* [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=ja){target=&quot;_blank&quot;}
+* [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
 
-* [ビルトインのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=ja){target=&quot;_blank&quot;}
+* [ビルトインのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html)
 
-* [ワークフロー実行の監視](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=ja){target=&quot;_blank&quot;}
+* [ワークフロー実行の監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
-* [マーケティングキャンペーンワークフローでのオーディエンスの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+* [マーケティングキャンペーンワークフローでのオーディエンスのビルド](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
 
 ## ワークフローアクティビティ {#wf-activities}
 
-![](../assets/do-not-localize/book.png) 使用可能なワークフローアクティビティについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html?lang=ja){target=&quot;_blank&quot;}を参照してください
+使用可能なワークフローアクティビティの詳細については、 [この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
 
 ワークフローアクティビティはカテゴリ別にグループ分けされます。次の 4 つのアクティビティカテゴリを使用できます。
 
-* [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html?lang=ja){target=&quot;_blank&quot;}：クエリー、リスト読み込み、エンリッチメント、和集合など
-* [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html?lang=ja){target=&quot;_blank&quot;}：スケジューラー、分岐、アラート、外部シグナルなど
-* [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：クロスチャネル配信、JavaScript コード、CRM アクティビティ、集計の更新など
-* [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html?lang=ja){target=&quot;_blank&quot;}：ファイル転送、web ダウンロードなど
+* [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html)：クエリ、リスト読み込み、エンリッチメント、結合など
+* [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html)：スケジューラー、分岐、警告、外部信号など
+* [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html)：クロスチャネル配信、JavaScript コード、CRM アクティビティ、アップデートの集計など
+* [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html)：ファイル転送、Web ダウンロードなど
 
 ### 「データソースを変更」アクティビティ {#change-data-source-activity}
 
@@ -72,7 +72,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 1. 「**[!UICONTROL クエリ]**」アクティビティでターゲット受信者にクエリを実行します。
 
-   「**[!UICONTROL クエリ]**」アクティビティの詳細については、Campaign Classic v7 ドキュメントの[クエリ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=ja#creating-a-query)のページを参照してください。
+   詳しくは、 **[!UICONTROL クエリ]** アクティビティ： [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 
 1. 「**[!UICONTROL ターゲティング]**」タブから、「**[!UICONTROL データソースを変更]**」アクティビティを追加し、ダブルクリックして「**[!UICONTROL デフォルトデータソース]**」を選択します。
 
@@ -81,7 +81,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 1. 「**[!UICONTROL アクション]**」タブから、「**[!UICONTROL JavaScript コード]**」アクティビティをドラッグ＆ドロップして、作業用テーブルに対して単一の操作を実行します。
 
-   「**[!UICONTROL JavaScript コード]**」アクティビティの詳細については、Campaign Classic v7 ドキュメントの [JavaScript コードと高度な JavaScript コード](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html?lang=ja#javascript-code)の節を参照してください。
+   詳しくは、 **[!UICONTROL JavaScript コード]** アクティビティ： [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html).
 
 1. 別の「**[!UICONTROL データソースを変更]**」アクティビティを追加して、クラウドデータベースに戻します。
 
@@ -93,7 +93,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 ワークフローを作成した後、「**[!UICONTROL プロパティ]**」ボタンを使用して追加のオプションにアクセスし、さらに詳細な設定を行うことができます。
 
-![](../assets/do-not-localize/book.png) **ワークフロープロパティ**&#x200B;について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+詳細情報： **ワークフローのプロパティ** in [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html).
 
 ワークフローの&#x200B;**[!UICONTROL プロパティ]**&#x200B;の「**[!UICONTROL 実行]**」タブで、ワークフローを様々なウェアハウスにリンクし、ワークロード管理を最適化することができます。**ウェアハウス**&#x200B;について詳しくは、[Snowflake ドキュメント](https://docs.snowflake.com/ja/user-guide/warehouses-overview.html)を参照してください。
 
@@ -115,7 +115,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 繰り返しワークフローをデザインし、ワークフローを実行するたびに新しい配信インスタンスを作成します。 たとえば、ワークフローが週に 1 回実行されるよう設計されている場合、1 年後には 52 件の配信が存在することになります。つまり、ログは各配信インスタンスで区切られます。
 
-![](../assets/do-not-localize/book.png) 繰り返しキャンペーンの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}を参照してください。
+で繰り返しキャンペーンを作成する方法を説明します。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
 
 
 ## トリガーイベントの活用
@@ -131,103 +131,82 @@ Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクショ
 
 ## ワークフローのエンドツーエンドのユースケース{#end-to-end-uc}
 
-この節では、Campaign ワークフロー機能を活用する様々なユースケースを示します。これらのユースケースは、Adobe Campaign Classic v7 で作成され、Adobe Campaign v8 にも適用されます。
+この節では、Campaign ワークフロー機能を活用する様々なユースケースを示します。
 
 ### 配信 {#deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-* [A/B テスト](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html?lang=ja){target=&quot;_blank&quot;}
 
-   ターゲティングワークフローを使用して、2 つのメール配信コンテンツを比較する方法を説明します。 メッセージとテキストは両方の配信で同じものを使用し、レイアウトだけを変更します。ターゲットの母集団は、2 つのテストグループと、その他の母集団の 3 つに分割します。各テストグループに別々のバージョンを配信します。
-
-* [誕生日メールの送信](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ja){target=&quot;_blank&quot;}
+* [誕生日の電子メールの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
 
    この使用例では、受信者のリストに対して、受信者の誕生日に、定期メールを送信する計画の策定方法を示します。
 
-* [配信コンテンツの読み込み](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html?lang=ja){target=&quot;_blank&quot;}
-リモートサーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。
+* [配信コンテンツを読み込み](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html)
+リモートサーバー上のHTMLファイルで配信コンテンツを利用できる場合、このコンテンツをAdobe Campaign配信に簡単に読み込むことができます。
 
-* [クロスチャネル配信ワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/cross-channel-delivery-workflow.html?lang=ja){target=&quot;_blank&quot;}
+* [クロスチャネル配信ワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html)
+クロスチャネル配信ワークフローの作成方法を説明します。 目的は、データベースの受信者から、オーディエンスを別のグループへとセグメント化し、最初のグループはメール、もう 1 つのグループに SMS を送信することです。
 
-   クロスチャネル配信ワークフローの作成方法を説明します。 目的は、データベースの受信者から、オーディエンスを別のグループへとセグメント化し、最初のグループはメール、もう 1 つのグループに SMS を送信することです。
+* [カスタム日付フィールドを使用したメールのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)今月が誕生日のプロファイルに、カスタムデータフィールドを含む電子メールを送信する方法を説明します。 メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
 
-* [カスタム日付フィールドを使用したメールのエンリッチメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html?lang=ja){target=&quot;_blank&quot;}
+Campaign v7 ドキュメントの次のページ：
 
-   今月が誕生日のプロファイルに、カスタムデータフィールドを含む電子メールを送信する方法を説明します。 メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
+* [コンテンツの作成、編集、公開の自動化](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html?lang=ja){target=&quot;_blank&quot;} Campaign コンテンツ管理アドオンを使用して、コンテンツブロックの作成と配信を自動化する方法を説明します。
 
-* [コンテンツの作成、編集、公開の自動化](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html?lang=ja){target=&quot;_blank&quot;}
-
-   Campaign コンテンツ管理アドオンを使用して、コンテンツブロックの作成と配信を自動化する方法を説明します。
-
+* [A/B テスト](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html?lang=ja){target=&quot;_blank&quot;} ターゲティングワークフローを使用して、2 つの E メール配信コンテンツを比較する方法を説明します。 メッセージとテキストは両方の配信で同じものを使用し、レイアウトだけを変更します。ターゲットの母集団は、2 つのテストグループと、その他の母集団の 3 つに分割します。各テストグループに別々のバージョンを配信します。
 
 ### 監視 {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [リストへのレポートの送信](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html?lang=ja){target=&quot;_blank&quot;}
+* [リストへのレポートの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html)月次のビルトイントラッキング指標レポートを PDF 形式で生成し、Campaign オペレーターのリストに送信する方法を説明します。
 
-   月次のビルトイントラッキング指標レポートを PDF 形式で生成し、Campaign オペレーターのリストに送信する方法を説明します。
+* [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html)
+一連のワークフローの状態（一時停止、停止、エラーあり）を監視するワークフローを作成する方法を説明します。
 
-* [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html?lang=ja){target=&quot;_blank&quot;}
-
-   ワークフローの一連のステータス（「一時停止」、「停止」、「エラーあり」）を監視できる、ワークフローの作成方法を説明します。
-
-* [オペレーターへのパーソナライズされたアラートの送信](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-personalized-alerts-to-operators.html?lang=ja){target=&quot;_blank&quot;}
-
-   ニュースレターを開封したが、そこに含まれるリンクはクリックしなかったプロファイルの名前を記載したアラートをオペレーターに送信する方法について説明します。
+* [パーソナライズされたアラートのオペレーターへの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html)
+ニュースレターを開封したが、そのニュースレターに含まれるリンクをクリックしなかったプロファイルの名前を含むアラートをオペレーターに送信する方法を説明します。
 
 ### データ管理 {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [データ更新の調整](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/coordinating-data-updates.html?lang=ja){target=&quot;_blank&quot;}
+* [データ更新の調整](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html)
+別の更新操作を実行する前に、更新プロセスが終了したことを確認する方法を説明します。 そのためには、インスタンス変数を設定し、ワークフローの実行を継続して更新を行うべきかを判断するため、インスタンスが実行中かどうかをワークフローでテストします。
 
-   別の更新操作を実行する前に、更新プロセスが終了していることを確認する方法について説明します。そのためには、インスタンス変数を設定し、ワークフローの実行を継続して更新を行うべきかを判断するため、インスタンスが実行中かどうかをワークフローでテストします。
+* [サマリーリストの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
+ファイルや以下に示すいくつかのエンリッチメントを収集した後にサマリーリストを作成できるワークフローを作成する方法を説明します。 この例では、店舗で購入をおこなった顧客の連絡先のリストをベースにします。
 
-* [概要リストの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/creating-a-summary-list.html?lang=ja){target=&quot;_blank&quot;}
+* [データのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)最近競争に参加したプロファイルに、スコアに応じてパーソナライズされた配信を送信する方法を説明します。
 
-   ファイルを収集していくつかのエンリッチメントを加えてから概要リストを作成できる、ワークフローの作成方法を説明します。 この例では、店舗で購入をおこなった顧客の連絡先のリストをベースにします。
+* [集計を使用](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)
+データベースに追加された最新の受信者を識別する方法を説明します。
 
-* [データのエンリッチメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=ja){target=&quot;_blank&quot;}
+* [増分クエリを使用した四半期ごとのリストの更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html)
+増分処理クエリを使用して受信者リストを自動的に更新する方法を説明します。
 
-   最近競争に参加したプロファイルに、スコアに応じてパーソナライズされた配信を送信する方法を説明します。
-
-* [集計の使用](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/using-aggregates.html?lang=ja){target=&quot;_blank&quot;}
-
-   データベースに最後に追加された受信者を特定する方法を説明します。
-
-* [増分クエリを使用した四半期ごとのリスト更新](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/quarterly-list-update.html?lang=ja){target=&quot;_blank&quot;}
-
-   増分クエリを使用して受信者リストを自動更新する方法を説明します。
-
-* [繰り返し読み込みワークフローの設定](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target=&quot;_blank&quot;}
-
-   Adobe Campaign データベースの CRM からプロファイルを読み込むために再利用できる、ワークフローの設計方法を説明します。
+* [繰り返し発生するインポートワークフローの設定](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html)
+Adobe Campaignデータベースの CRM からのプロファイルのインポートに再利用できるワークフローを設計する方法を説明します。
 
 ### ターゲティング {#designing-queries}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [受信者テーブルのクエリー](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-recipient-table.html?lang=ja){target=&quot;_blank&quot;}
+* [受信者テーブルをクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html)
+E メールドメインが「orange.co.uk」で、横浜市に住んでいない受信者の名前と E メールを復元する方法を説明します。
 
-   メールドメインが「orange.co.uk」で、かつロンドンに居住していない受信者について、名前とメールを復元する方法を説明します。
+* [クエリ配信情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html)
+配信情報に関するクエリを定義して、プロファイルの動作を取得する方法について説明します。
 
-* [配信情報のクエリ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-delivery-information.html?lang=ja){target=&quot;_blank&quot;}
+* [集計を計算](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html)
+横浜市に住むプロファイルの数を性別に基づいてカウントする方法を説明します。
 
-   配信情報に関するクエリを定義して、プロファイルの動作を取得する方法について説明します。
+* [多対多の関係を使用したクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html)
+過去 7 日間に連絡されていないプロファイルを検索する方法を説明します。
 
-* [集計の計算](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/performing-aggregate-computing.html?lang=ja){target=&quot;_blank&quot;}
-
-   ロンドン在住のプロファイルの数を、性別に基づいてカウントする方法を説明します。
-
-* [多対多関係を使用したクエリ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html?lang=ja){target=&quot;_blank&quot;}
-
-   過去 7 日間連絡していないプロファイルを見つける方法を説明します。
-
-* [クエリでのインスタンス変数の呼び出し](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=ja#example){target=&quot;_blank&quot;}
-
-   インスタンス変数を使用して、母集団に適用する分割率を動的に計算する方法について説明します。
+* [クエリでのインスタンス変数の呼び出し](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html)
+インスタンス変数を使用して、母集団に適用する分割率を動的に計算する方法を説明します。
 
 <!--
 ### Change data source activity {#data-source-uc}

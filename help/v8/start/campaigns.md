@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: fc0be5fe82ba11e54851a8f612ece0b310447cdd
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '844'
+ht-degree: 80%
 
 ---
 
@@ -47,8 +47,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
 ![](assets/calendar.png)
 
-![](../assets/do-not-localize/book.png) マーケティングキャンペーンの操作と実装の方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=ja#orchestrating-campaigns)を参照してください。{target=&quot;_blank&quot;}
-
+![](../assets/do-not-localize/book.png) でマーケティングキャンペーンにアクセスして実装する方法を説明します。 [この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html).
 
 ## 開始する主な手順{#gs-ac-start}
 
@@ -58,13 +57,13 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    階層とスケジュールを定義し、予算を設定し、リソースを追加して、オペレーターを選択します。
 
-   ![](../assets/do-not-localize/book.png) マーケティングプランを作成しキャンペーンを設定する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#creating-plan-and-program-hierarchy)を参照してください。{target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) マーケティングプランを作成し、キャンペーンを設定する方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html).
 
    すべてのマーケティングキャンペーンは、主な設定と機能を定義したテンプレートに基づいています。特定の設定が定義されていないキャンペーンを作成するために、ビルトインのテンプレートが用意されています。キャンペーンテンプレートを作成および設定して、そのテンプレートからキャンペーンを作成することができます。
 
-   ![](../assets/do-not-localize/book.png)キャンペーンテンプレートの使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=ja#orchestrating-campaigns){target=&quot;_blank&quot;}を参照してください。
+   キャンペーンテンプレートの使用方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 
-   ![](../assets/do-not-localize/book.png) 繰り返しキャンペーンとその設定方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=ja#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}を参照してください
+   繰り返しキャンペーンと、での設定方法を確認します。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html).
 
 1. **オーディエンスの定義**
 
@@ -72,7 +71,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    ![](assets/campaign-wf.png)
 
-   ![](../assets/do-not-localize/book.png) メッセージのオーディエンスを定義する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=ja#orchestrating-campaigns)を参照してください。{target=&quot;_blank&quot;}
+   メッセージのオーディエンスを定義する方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html).
 
 1. **配信の作成**
 
@@ -80,17 +79,17 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    ![](assets/campaign-dashboard.png)
 
-   ![](../assets/do-not-localize/book.png) マーケティングキャンペーンを作成して配信を開始する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=ja#creating-deliveries)を参照してください。{target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) マーケティングキャンペーン配信を作成し、開始する方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html).
 
    レポート、写真、web ページ、図などの様々なドキュメントをキャンペーンに関連付けることができます。
 
-   ![](../assets/do-not-localize/book.png) 関連するドキュメントの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=ja#adding-documents){target=&quot;_blank&quot;}を参照してください
+   ![](../assets/do-not-localize/book.png) 関連ドキュメントの詳細については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html).
 
 1. **承認プロセスの設定**
 
    Adobe Campaign を使用すると、マーケティングキャンペーンの主要な段階で協調して行う承認プロセスを設定できます。キャンペーンごとに、配信ターゲット、コンテンツ、費用などを承認できます。Adobe Campaign を操作する承認者は、メールで通知を受け、コンソールまたはweb 接続で承認を許可または却下できます。 
 
-   ![](../assets/do-not-localize/book.png) 承認の設定と管理の方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=ja#orchestrating-campaigns)を参照してください。{target=&quot;_blank&quot;}
+   で承認を設定および管理する方法について説明します。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=en#campaign-orchestration).
 
 
 ## 分散型マーケティングアドオン{#distributed-marketing-add-on}
@@ -101,7 +100,7 @@ Adobe Campaign が提供する&#x200B;**分散型マーケティング**&#x200B;
 >
 >この機能は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 
-[](../assets/do-not-localize/book.png) Campaign の分散型マーケティング機能の設定方法および使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+Campaign の分散型マーケティング機能を [このページ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html)
 
 ## 応答管理アドオン{#response-manager-add-on}
 

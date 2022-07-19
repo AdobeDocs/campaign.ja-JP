@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 90%
 
 ---
 
@@ -22,17 +22,13 @@ Campaign データベースにデータを入力するには、[プロファイ�
 
 ### リストからのデータの使用：リスト読み込み {#data-from-read-list}
 
-データをファイルに準備および構造化して、ワークフローでインポートします。
-
-ワークフローでのリスト読み込みアクティビティの使用について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/read-list.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+データをファイルに準備および構造化して、ワークフローでインポートします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html)。
 
 ### ファイルからのデータの読み込み {#data-from-a-file}
 
-ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。
+ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html)。
 
-データ読み込みアクティビティの説明については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
-
-データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。詳しくは、[Campaign Classic v7 ドキュメント]https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/how-to-use-workflow-data.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html)を参照してください。
 
 ## 1 回限りのインポート{#import-jobs}
 
