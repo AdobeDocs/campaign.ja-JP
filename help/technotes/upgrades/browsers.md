@@ -3,7 +3,7 @@ product: campaign
 title: Chrome、Firefox および Edge ブラウザーでの Campaign web コンポーネントおよびバージョン 100
 description: Chrome、Firefox および Edge ブラウザーでの Campaign web コンポーネントおよびバージョン 100
 source-git-commit: d7386669133aaeaed46a5df6d90c8106569d2fcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
 ht-degree: 100%
 
