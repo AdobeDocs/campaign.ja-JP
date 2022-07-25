@@ -5,16 +5,16 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 50b6c9c8f55bb870e95c91bd1de22e3392e732dd
+source-git-commit: 93d990509af2f7c917775217e95ba40dd407d0c1
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 90%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
 
 # Campaign v8 互換性マトリックス
 
-このドキュメントでは、 **Adobe Campaign v8 の最新ビルド**. 特に明記されていない限り、マイナーリリースはすべてサポートされています。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
+このドキュメントでは、**Adobe Campaign v8** の最新のビルドでサポートしているすべてのシステムとコンポーネントの一覧を示します。特に明記されていない限り、マイナーリリースはすべてサポートされています。このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
 
 サードパーティ製のシステムやツールの特定のバージョンは、サービス終了（EOL）になると Adobe Campaign との互換性がなくなり、この互換性マトリックスから削除されます。問題を回避するため、互換性マトリックスに記載されているサポート対象バージョンのシステムをご使用ください。
 
@@ -24,14 +24,20 @@ ht-degree: 90%
 
 ## クライアントコンソール{#ClientConsoleoperatingsystems}
 
-Campaign クライアントコンソールを使用するには、次のオペレーティングシステムのいずれかが必要です。 [詳細情報](connect.md)。
+Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。[詳細情報](connect.md)。
+
+### オペレーティングシステム
 
 * **Microsoft Windows Server** 2019、2016、2012
-* **Microsoft Windows** 11（Campaign v8.3 以降）、10、8
+* **Microsoft Windows** 11（Campaign v8.3 以降）、10、8、
 
 >[!NOTE]
 >
 >Microsoft Windows 10（日本語インスタンスの場合に推奨）。
+
+### ブラウザー
+
+**Microsoft Internet Explorer** 11
 
 ## CRM コネクタ{#CRMconnectors}
 
