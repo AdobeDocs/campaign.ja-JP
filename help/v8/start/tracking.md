@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '898'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Adobe Campaign では、プロセスと環境を監視できる一連の機能�
 
 ### ワークフローの監視
 
-ワークフローの実行を監視する方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+ワークフローの実行を監視する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja)を参照してください。
 
 ### インスタンスの監視
 
