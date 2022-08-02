@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    ![](assets/subscribe-confirm.png)
 
-   ![](../assets/do-not-localize/book.png)詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target=&quot;_blank&quot;} を参照してください
+   ![](../assets/do-not-localize/book.png)詳しくは、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target=&quot;_blank&quot;} を参照してください
 
 
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
@@ -56,7 +56,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
    ![](assets/wf-subscription.png)
 
-   詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html)を参照してください。
+   詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja)を参照してください。
 
 プロファイルをサービスから購読解除（オプトアウト）するには、次のオプションを使用できます。
 
