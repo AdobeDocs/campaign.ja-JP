@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
    ![](assets/deliveries-in-a-campaign.png)
 
-   キャンペーンのコンテキストでメッセージを送信する方法については、 [この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
+   キャンペーンの状況に応じてメッセージを送信する方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja)を参照してください。
 
 * [ワークフロー](../config/workflows.md)を介したメッセージの送信
 
    ![](assets/send-in-a-wf.png)
 
-   ![](../assets/do-not-localize/glass.png) で E メール配信を自動化する方法を説明します。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html)
+   ![](../assets/do-not-localize/glass.png) メール配信を自動化する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html?lang=ja)を参照してください。
 
 * イベントからの[メッセージのトリガー](../send/transactional.md)
    ![](../assets/do-not-localize/book.png) [ユースケース：ファイルが添付されたトランザクションメールの送信方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ja){target=&quot;_blank&quot;}
@@ -63,7 +63,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
    ![](assets/schedule-send.png)
 
-   ![](../assets/do-not-localize/glass.png) [ユースケース：誕生日メールのスケジュール設定と送信方法を学ぶ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+   ![](../assets/do-not-localize/glass.png) [ユースケース：誕生日メールのスケジュール設定と送信方法を学ぶ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja)
 
 
 ## パーソナライゼーションの追加{#personalization}
@@ -100,6 +100,6 @@ Campaign Classic v7 ドキュメントの&#x200B;**関連トピック**：
 
 * [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ja){target=&quot;_blank&quot;}
 
-* [メールのテストと送信](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
+* [メールのテストと送信](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ja){target=&quot;_blank&quot;}
 
 * [配達確認の送信](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}
