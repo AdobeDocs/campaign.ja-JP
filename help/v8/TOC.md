@@ -2,12 +2,12 @@
 audience: end-user
 user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
-breadcrumb-title: キャンペーンの概要
+breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
 source-git-commit: ca52da16933f57181a0c4228bda9a2d33ebcedef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 96%
    + [Campaign と RTCDP の統合](connect/ac-rtcdp.md)
    + [Campaign と Twitter の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
-   + Campaign と CRM の統合 {#ac-crm}
+   + Campaign と CRM の統合{#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
@@ -138,4 +138,4 @@ ht-degree: 96%
       + [入力フォーム](dev/forms.md)
    + [Campaign API](dev/api.md)
 + [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
-+ [キャンペーン自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Campaign 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja)
