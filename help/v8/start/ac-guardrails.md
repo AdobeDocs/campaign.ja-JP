@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ ht-degree: 97%
 * [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、購読（オプトイン）および購読解除（オプトアウト）のメカニズムと、モバイル登録は非同期プロセスです。リクエストは、特定のテクニカルワークフローを通じて 1 時間ごとに処理されます。[詳細情報](../architecture/replication.md#tech-wf)
 * 重複は、エンドユーザーが手動で処理する必要があります。[詳細情報](../architecture/keys.md)
 * Adobe Campaign v8 は、API および web アプリケーションでの拡張スループットをサポートしていません。特定のニーズがある場合は、アドビに問い合わせてガイダンスを求めてください。
-* Adobe Campaign のキャンペーン最適化モジュールでは、頻度タイポロジルールでスケジュールされた配信は考慮されません。詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html)を参照してください。
+* Adobe Campaign のキャンペーン最適化モジュールでは、頻度タイポロジルールでスケジュールされた配信は考慮されません。詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja)を参照してください。
