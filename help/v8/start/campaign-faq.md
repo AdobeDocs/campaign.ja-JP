@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **ワークフローの実行を監視できますか？**
 
-   Campaign ワークフローの実行を監視する方法を説明します [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html)
+   キャンペーンワークフローの実行を監視する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=ja)を参照してください。
 
 1. **Campaign v8 と互換性があるシステムやコンポーネントはどれですか？**
 
