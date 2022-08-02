@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1739'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -325,12 +325,12 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 詳細フィルター機能を実行するには、関数を使用してフィルターのコンテンツを定義します。詳細フィルターエディターは、Campaign クエリエディターのすべての機能を利用します。
 
-エンドツーエンドのサンプルで高度なクエリを作成する方法を説明します。
+以下のエンドツーエンドのサンプルで高度なクエリを作成する方法を説明します。
 
-* で単純な受信者属性をターゲットにする方法を説明します。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
-* 過去 7 日間に連絡されていない受信者を次の期間でフィルタリングする方法を説明します： [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html).
-* オペレーターのリストを復元する方法を、「アクティブなアカウント」でフィルタリングする方法について説明します。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html).
-* で誕生日の E メールオーディエンスを作成する方法を説明します。  [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html).
+* 単純な受信者属性をターゲットにする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja)を参照してください。
+* 過去 7 日間に連絡されていない受信者をフィルターする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ja)を参照してください。
+* アクティブなアカウントでフィルターできるオペレーターのリストを復元する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja)を参照してください。
+* 誕生日メールのオーディエンスを作成する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja)を参照してください。
 
 
 ### 定義済みフィルターの詳細設定パラメーター {#param-for-data-filters}
