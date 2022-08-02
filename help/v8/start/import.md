@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -53,5 +53,5 @@ Campaign を使用して web フォームを作成し、プロファイルの情
 **関連トピック**
 
 * [オーディエンスの作成](audiences.md)
-* [プロファイルの重複排除](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge.html)
-* [プロファイルデータのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+* [プロファイルの重複排除](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge.html?lang=ja)
+* [プロファイルデータのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ja)
