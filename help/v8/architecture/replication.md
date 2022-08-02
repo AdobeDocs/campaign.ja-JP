@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 これらのワークフローでは、データベースに対する保守操作の実行、配信ログのトラッキング情報の利用、繰り返しキャンペーンの作成などを行います。
 
-![](../assets/do-not-localize/glass.png) テクニカルワークフローの完全なリストについて詳しくは、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
+![](../assets/do-not-localize/glass.png) すべてのテクニカルワークフローのリストについては、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja)を参照してください。
 
 これらのテクニカルワークフローに加えて、キャンペーン v8 では、[データレプリケーション](#data-replication)を管理するための特定のテクニカルワークフローも利用します。
 
@@ -77,6 +77,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **関連トピック**
 
-* [ワークフローの使用を開始する方法を説明します](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [ワークフローの使用を開始する方法について](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 
 * [データ保持期間](../dev/datamodel-best-practices.md#data-retention)
