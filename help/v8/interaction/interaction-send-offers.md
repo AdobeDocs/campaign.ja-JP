@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1340'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
 ### エンリッチメント {#enrichment}
 
-**エンリッチメント**&#x200B;アクティビティを使用すると、配信の受信者へのオファーに、オファーやリンクを追加できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
+**エンリッチメント**&#x200B;アクティビティを使用すると、配信の受信者へのオファーに、オファーやリンクを追加できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja)
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
@@ -164,7 +164,7 @@ ht-degree: 96%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンの呼び出しを指定できます。
 
-詳しくは、 **オファーエンジン** アクティビティ： [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
+**オファーエンジン**&#x200B;アクティビティについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ja)を参照してください。
 
 このアクティビティは、**エンリッチメント**&#x200B;アクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信前にエンジンで計算したオファーでインバウンド母集団のデータを強化します。
 
@@ -187,7 +187,7 @@ ht-degree: 96%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-詳しくは、 **オファー（セル別）** アクティビティ： [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
+**セル別オファー**&#x200B;アクティビティについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ja)を参照してください。
 
 それには、次の手順に従います。
 
