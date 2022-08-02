@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
    ![](assets/targeting-wf-age-filter.png)
 
-   ワークフローでクエリを作成する方法については、 [この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
+   ワークフローでクエリを作成する方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja)を参照してください。
 
 1. このクエリのラベルを追加し、変更を保存します。
 1. **[!UICONTROL リスト更新]**&#x200B;アクティビティをを追加し、編集します。
@@ -124,7 +124,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
    ![](assets/access-new-list.png)
 
-   ワークフローにスケジューラーを追加することで、このワークフローを繰り返し実行できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html)。
+   ワークフローにスケジューラーを追加することで、このワークフローを繰り返し実行できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja)。
 
 ## リストからのプロファイルの削除 {#remove-a-profile-from-a-list}
 
