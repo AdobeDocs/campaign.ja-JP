@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -75,9 +75,9 @@ ht-degree: 94%
    コンテンツの準備が整ったら「**保存**」をクリックします。すると、配信のリストの&#x200B;**[!UICONTROL キャンペーン／「配信」]**&#x200B;タブにコンテンツが表示されます。最初のメール配信の準備が整いました。 次に、オーディエンスを定義し、配信を検証して送信する必要があります。
 
 
-ここで E メールコンテンツをインポートする方法を説明します [使用例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
+メールコンテンツをインポートする方法については、この[ユースケース](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja)を参照してください。
 
-詳しくは、 **Campaign Classicv7 ドキュメント**:
+詳しくは、**Campaign Classic v7 ドキュメント**&#x200B;の以下の節を参照してください。
 
 * Campaign でのメールのデザイン
    ![](../assets/do-not-localize/book.png) [メールのデザイン方法](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html?lang=ja){target=&quot;_blank&quot;}
@@ -103,4 +103,4 @@ Campaign では、メールをオーディエンスに送信する前にテス�
 * コントロールグループの使用
 * メールのレンダリングの確認
 
-![](../assets/do-not-localize/book.png) [詳しくは Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [詳しくは Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target=&quot;_blank&quot;}
