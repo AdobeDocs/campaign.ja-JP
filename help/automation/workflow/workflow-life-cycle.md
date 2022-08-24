@@ -3,10 +3,11 @@ product: campaign
 title: ワークフローのライフサイクル
 description: ワークフローのライフサイクルの詳細について説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 97%
+exl-id: 4356b90c-9d7c-49ef-88cd-716b2ccdb7f0
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -38,6 +39,6 @@ ht-degree: 97%
 
 ワークフローは開始され、「**承認**」アクティビティ内に指定されたグループに属するオペレータが意思決定するのを待機しています。グループに属しているオペレーターが、E メールアドレスまたは携帯電話番号を登録している場合、通知が届きます。
 
-オペレーターの管理について詳しくは、この節を参照してください。
+オペレーターの管理について詳しくは、こちらを参照してください。
 
 ワークフローの監視方法について詳しくは、[この節](monitor-workflow-execution.md)を参照してください。
