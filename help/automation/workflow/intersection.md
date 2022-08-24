@@ -4,8 +4,8 @@ title: 積集合
 description: 積集合
 feature: Workflows, Targeting Activity
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '410'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、積集合によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は **[!UICONTROL nms:recipient]**）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
