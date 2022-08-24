@@ -4,9 +4,9 @@ title: 配信
 description: デフォルトの配信ワークフローの詳細を説明します
 feature: Workflows
 source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
-workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
   <tr> 
    <td> <span class="uicontrol">請求</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
-   <td> システムアクティビティレポートを「請求」オペレーターにメールで送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
+   <td> このワークフローでは、「請求」担当者にメールでシステムアクティビティレポートを送信します。デフォルトで、毎月 25 日にトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">エイリアスクレンジング</span> <br /> </td> 
@@ -47,7 +47,7 @@ ht-degree: 98%
   <tr> 
    <td> <span class="uicontrol">データベースのクリーンアップ</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>データベースのメンテナンスワークフローです。統計とプロセスの各種の計算をおこない、デプロイメントアシスタント内の定義済みの設定に応じてデータベースから古いデータを削除します。デフォルトで、毎日午前 4 時にトリガーされます。</p> <p>詳しくは、こちらを参照してください。</p> </td> 
+   <td> <p>データベースのメンテナンスワークフローです。統計とプロセスの各種の計算をおこない、デプロイメントアシスタント内の定義済みの設定に応じてデータベースから古いデータを削除します。デフォルトで、毎日午前 4 時にトリガーされます。</p> <p>詳しくは、この節を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">一時停止されたワークフローのクリーンアップ</span> <br /> </td> 
