@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: ワークフローのタイプ
-description: Campaign での様々なタイプのワークフローの確認
+description: Campaign の様々なタイプのワークフローを確認します
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
-workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 81%
+exl-id: f511332c-1fcc-444f-851b-e8b470b719b4
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
-
 
 # キャンペーンワークフロー {#campaign-workflows}
 
@@ -25,4 +25,4 @@ ht-degree: 81%
 
 ![](assets/campaigns_wf.png)
 
-キャンペーンワークフローと実装例について詳しくは、 [この節](../campaigns/marketing-campaign-target.md).
+キャンペーンワークフローと実装例について詳しくは、[この節](../campaigns/marketing-campaign-target.md)を参照してください。
