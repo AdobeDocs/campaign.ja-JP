@@ -3,10 +3,11 @@ product: campaign
 title: 共同キャンペーンの作成
 description: 共同キャンペーンの作成方法を学ぶ
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 97%
+exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -28,11 +29,11 @@ ht-degree: 97%
 
 ### フォーム別 {#by-form}
 
-協調キャンペーン（フォーム）を作成するには、**[!UICONTROL 協調キャンペーン（フォーム）]**&#x200B;テンプレートを選択します。
+協調キャンペーン（フォーム）を作成するには、**[!UICONTROL 協調キャンペーン (フォーム)]** テンプレートを選択します。
 
 ![](assets/mkg_dist_mutual_op_form2.png)
 
-内 **[!UICONTROL 編集]** タブで、 **[!UICONTROL キャンペーンの詳細パラメーター…]** アクセスするリンク **分散型マーケティング** タブをクリックします。
+「**[!UICONTROL 編集]**」タブで「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックして、「**分散型マーケティング**」タブにアクセスします。
 
 **フォーム** Web インターフェイスを選択します。フォームのインターフェイスでは、キャンペーンのオーダー時にローカルエンティティが使用するパーソナライゼーションフィールドを作成できます。[ローカルキャンペーン（フォーム）の作成](examples.md#creating-a-local-campaign--by-form-)を参照してください。
 
@@ -78,7 +79,7 @@ ht-degree: 97%
 * **[!UICONTROL 配分のコンテキスト]**：手動で指定。
 * **[!UICONTROL データ配分]**：ローカルエンティティの配分。
 
-**ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。データ配分の詳細については、
+**ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。データ配分について詳しくは、
 
 ![](assets/mkg_dist_data_distribution.png)
 
