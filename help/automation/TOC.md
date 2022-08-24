@@ -1,18 +1,18 @@
 ---
 audience: user
-user-guide-title: キャンペーン自動化ガイド
-user-guide-description: キャンペーン自動化ガイド
+user-guide-title: Campaign 自動化ガイド
+user-guide-description: Campaign 自動化ガイド
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 86%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 
 # Campaign 自動化ガイド {#automation}
 
-+ [キャンペーン自動化ガイド](home.md)
++ [Campaign 自動化ガイド](home.md)
 + ワークフローを使用した自動化 {#workflows}
    + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/about-workflows.md)
@@ -80,7 +80,7 @@ ht-degree: 86%
          + [配信](workflow/delivery.md)
          + [配信コントロール](workflow/delivery-control.md)
          + [ローカルの承認](workflow/local-approval.md)
-         + [読み込み (SOAP)](workflow/loading-soap.md)
+         + [読み込み（SOAP）](workflow/loading-soap.md)
          + [nlserver モジュール](workflow/nlserver-module.md)
          + [繰り返し配信](workflow/recurring-delivery.md)
          + [SQL コードと JavaScript コード](workflow/sql-code-and-javascript-code.md)
@@ -132,9 +132,9 @@ ht-degree: 86%
       + [権限の管理](workflow/managing-rights.md)
       + [アクティビティ画像の変更](workflow/change-activity-images.md)
       + [タイムゾーンの管理](workflow/managing-time-zones.md)
-+ Campaign オーケストレーション {#campaign-orchestration}
++ キャンペーンのオーケストレーション {#campaign-orchestration}
    + [マーケティングキャンペーンの基本を学ぶ](campaigns/set-up-campaigns.md)
-   + [プログラムとキャンペーンの作成](campaigns/marketing-campaign-create.md)
+   + [プログラムとキャンペーンを作成](campaigns/marketing-campaign-create.md)
    + [テンプレートの作成と設定](campaigns/marketing-campaign-templates.md)
    + [配信の追加](campaigns/marketing-campaign-deliveries.md)
    + [オーディエンスの選択](campaigns/marketing-campaign-target.md)
@@ -151,7 +151,7 @@ ht-degree: 86%
    + [フィルタリングルール](campaign-opt/filtering-rules.md)
    + [ルールの適用](campaign-opt/apply-rules.md)
    + [キャンペーンシミュレーション](campaign-opt/campaign-simulations.md)
-+ 分散型マーケティング（アドオン） {#distributed-marketing}
++ 分散型マーケティング（アドオン）{#distributed-marketing}
    + [分散型マーケティングについて](distributed-marketing/about-distributed-marketing.md)
    + [ローカルキャンペーンの作成](distributed-marketing/creating-a-local-campaign.md)
    + [協調キャンペーンの作成](distributed-marketing/creating-a-collaborative-campaign.md)
