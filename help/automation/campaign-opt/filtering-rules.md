@@ -3,10 +3,11 @@ product: campaign
 title: フィルタールールの設定
 description: フィルタールールの設定方法を説明します
 feature: Typology Rules
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
-workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 98%
+exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
