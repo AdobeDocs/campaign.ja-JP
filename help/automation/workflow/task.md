@@ -6,9 +6,9 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 
 ![](assets/mrm_task_in_workflow.png)
 
-タスクの設定と操作の方法について詳しくは、を参照してください。
+タスクの設定と操作の方法については、こちらを参照してください。
 
 ![](assets/wkf_task_activity.png)
 
