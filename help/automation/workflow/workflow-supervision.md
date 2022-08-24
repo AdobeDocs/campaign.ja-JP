@@ -4,9 +4,9 @@ title: ワークフローの監視
 description: キャンペーンワークフローの監視方法を説明します
 feature: Workflows
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -173,4 +173,4 @@ vars.strWorkflowStop = strStop;
    delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
    ```
 
-監視ワークフローが開始されると、概要が受信者に送信されます。
+モニタリングワークフローが起動されると、サマリーが受信者に送信されます。
