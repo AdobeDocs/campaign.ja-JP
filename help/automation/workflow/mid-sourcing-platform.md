@@ -4,9 +4,9 @@ title: ミッドソーシングプラットフォーム
 description: ミッドソーシングプラットフォーム
 feature: Workflows
 source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
-workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 
 
-以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシングプラットフォーム**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、このを参照してください。
+以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシングプラットフォーム**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、こちらを参照してください。
 
 <table> 
  <tbody> 
