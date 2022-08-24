@@ -4,27 +4,27 @@ title: セル
 description: セル
 feature: Workflows, Targeting Activity
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 17%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # セル{#cells}
 
-この **[!UICONTROL セル]** 「 」アクティビティは、様々なサブセットのビューをデータ列として提供します。 サブセットの操作を容易にし、パーソナライゼーション機能を活用するように設計されています。
+**[!UICONTROL セル]**&#x200B;アクティビティでは、各種のサブセットをデータ列として表示します。このアクティビティは、サブセットの操作を容易にし、パーソナライゼーション機能を活用できるように設計されています。
 
 ![](assets/wf_split_cells.png)
 
-ユーザーのニーズに基づく特定のパラメーターを入力することで設定できます。デフォルトでは、各サブセットの詳細は、 **[!UICONTROL セル]** および **[!UICONTROL 詳細]** タブ
+ユーザーのニーズに基づく特定のパラメーターを入力して、このアクティビティを設定できます。各サブセットの詳細は、デフォルトでは、「**[!UICONTROL セル]**」タブと「**[!UICONTROL 詳細設定]**」タブを通じて専用ウィンドウに表示されます。
 
 ![](assets/wf_split_cells_with_customization.png)
 
-以下の例では、入力フォームが変更されています。a **[!UICONTROL データ]** 各サブセットに対するオファーと優先度レベルの関連付けを有効にするタブが追加されました。
+以下の例では、入力フォームは変更されています。各サブセットのオファーと優先度レベルの関連付けを有効にする「**[!UICONTROL データ]**」タブが追加されています。
 
 ![](assets/cells-activity-sample.png)
 
-この設定では、次の情報がワークフローフォームの **[!UICONTROL 管理/設定/入力フォーム]** Adobe Campaign explorer のノード：
+この設定では、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／設定／入力フォーム]**&#x200B;ノードで、次の情報がワークフローのフォームに追加されています。
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">
@@ -49,4 +49,4 @@ ht-degree: 17%
                 </container>
 ```
 
-Adobe Campaignでの入力フォームのパーソナライゼーションは、エキスパートユーザー向け機能として予約されています。 詳しくは、このを参照してください。
+Adobe Campaign の入力フォームのパーソナライゼーションを実行できるのは、エキスパートユーザーに限られます。詳しくは、こちらを参照してください。
