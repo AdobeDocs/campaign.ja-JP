@@ -3,10 +3,11 @@ product: campaign
 title: 詳細設定パラメーター
 description: 詳細設定パラメーター
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 98%
+exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 98%
 
 ワークフローやワークフローアクティビティを固有のマシン上で強制的に実行することができます。これをおこなうには、ワークフローや関係するアクティビティのレベルで 1 つ以上のプロパティを定義する必要があります。
 
-高可用性のワークフロー設定について詳しくは、この節を参照してください。
+高可用性のワークフロー設定について詳しくは、こちらを参照してください。
 
 
 ## 最大実行期間 {#max--execution-period}
