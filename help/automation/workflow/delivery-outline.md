@@ -4,9 +4,9 @@ title: 配信の概要
 description: 配信の概要ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 **配信の概要**&#x200B;では、キャンペーンワークフローに概要を使用できます。概要は、あらかじめキャンペーン内に作成しておく必要があります。
 
-Adobe Campaignの配信の概要について詳しくは、このを参照してください。
+Adobe Campaign の配信の概要について詳しくは、こちらを参照してください。
 
 アクティビティを設定するには、概要と計画された連絡日を任意に選択するだけです。フィルタリングルールを追加するには、タイポロジまたはタイポロジルールを追加します。
 
