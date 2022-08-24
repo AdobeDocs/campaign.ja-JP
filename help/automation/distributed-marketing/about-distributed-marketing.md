@@ -3,9 +3,10 @@ product: campaign
 title: 分散型マーケティングの基本を学ぶ
 description: 分散型マーケティングの基本を学ぶ
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1180'
+exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
