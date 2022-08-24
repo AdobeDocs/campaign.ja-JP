@@ -4,8 +4,8 @@ title: リスト読み込み
 description: リスト読み込みワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '508'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
