@@ -4,8 +4,8 @@ title: 配信情報に対するクエリ
 description: 配信情報をクエリする方法を説明します。
 feature: Query Editor
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1541'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
