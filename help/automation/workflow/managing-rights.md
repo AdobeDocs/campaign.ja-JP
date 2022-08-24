@@ -3,10 +3,11 @@ product: campaign
 title: ワークフロー権限の管理
 description: ワークフロー権限の管理方法を説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 97%
+exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 97%
 
 また、影響するワークフロー（受信者インポート、ファイルアクセス、統合、SQL スクリプト実行など）によって実行されるアクションと一致するネームド権限にマッピングされている必要があります。
 
-オペレーターの管理と権限について詳しくは、このを参照してください。
+オペレーターと権限の管理について詳しくは、こちらを参照してください。
 
 ## オペレーターグループ {#operator-groups-wf}
 
