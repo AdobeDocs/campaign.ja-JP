@@ -3,10 +3,11 @@ product: campaign
 title: キャンペーンタイポロジの概要
 description: キャンペーンタイポロジを設定および実装する方法について説明します
 feature: Typology Rules
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
-workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 68%
+exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -20,42 +21,42 @@ ht-degree: 68%
 >
 >提供されている内容によって、キャンペーンの最適化は含まれていることも、アドインになっていることもあります。使用許諾契約書を確認してください。
 
-## タイポロジルール およびタイポロジ {#typology-rules}
+## タイポロジルールとタイポロジ {#typology-rules}
 
-Adobe Campaignでは、4 種類の **タイポロジルール**:
+Adobe Campaign では、次の 4 種類の&#x200B;**タイポロジルール**&#x200B;を設計および適用できます。
 
 * **フィルター**&#x200B;ルール：条件に基づいて、ターゲットの一部を除外します。[詳細情報](filtering-rules.md)。
 * **頻度**&#x200B;ルール： マーケティング疲労（過剰なマーケティングによる弊害）を抑制します。[詳細情報](pressure-rules.md)。
 * **処理能力**&#x200B;ルール：最適な処理環境を確保するために、負荷を制限します。[詳細情報](consistency-rules.md#controlling-capacity)。
 * **コントロール**&#x200B;ルール：メッセージを送信する前にメッセージの有効性を確認します。[詳細情報](control-rules.md)。
 
-作成されたタイポロジルールは、キャンペーン内にグループ化されます **タイポロジ** 配信で参照される [詳細情報](#apply-typologies)。
+作成されたタイポロジルールは、キャンペーン&#x200B;**タイポロジ**&#x200B;でグループ化され、配信で参照されます。[詳細情報](#apply-typologies)。
 
 キャンペーンタイポロジには、複数のタイポロジルールを含めることができますが、1 つの配信では 1 つのタイポロジしか参照できません。
 
-組み込みのタイポロジルールとタイポロジは、 **[!UICONTROL 管理/キャンペーン管理/タイポロジ管理]** Campaign エクスプローラーのノード。
+組み込みのタイポロジルールとタイポロジは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／キャンペーン管理／タイポロジ管理]**&#x200B;ノードでアクセスできます。
 
-タイポロジごとに、 **[!UICONTROL ルール]** 「 」タブでは、適用するタイポロジルールを追加、削除、表示できます。
+タイポロジごとに「**[!UICONTROL ルール]**」タブで、適用するタイポロジルールを追加、削除または表示できます。
 
 ![](assets/campaign_opt_rules_tab.png)
 
 ## タイポロジを適用するための主な手順 {#apply-typologies}
 
-タイポロジを作成して配信に適用するための主な手順を以下に示します。
+タイポロジを作成して配信に適用する手順を以下に示します。
 
-1. タイポロジルールを作成し、タイポロジを作成して参照します。
-詳細な手順を次の節に示します。
+1. タイポロジルールを作成し、タイポロジを作成してルールにタイポロジを参照させます。
+詳細な手順は次の節で示します。
    * [頻度ルール](pressure-rules.md)
    * [フィルタリングルール](filtering-rules.md)
    * [処理能力ルール](consistency-rules.md)
    * [コントロールルール](control-rules.md)
 
 1. 作成したタイポロジを使用するように配信を設定します。[詳細情報](apply-rules.md#apply-a-typology-to-a-delivery)。
-1. キャンペーンのシミュレーションによって動作をテストして制御する。[詳細情報](campaign-simulations.md)。
+1. キャンペーンのシミュレーションを通じて動作をテストし制御します。[詳細情報](campaign-simulations.md)。
 
 配信の準備では、基準を満たした場合に受信者が除外されます。ログを確認して除外を監視できます。
 
-頻度タイポロジルールの使用例については、[このページ](pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
+頻度タイポロジルールのユースケースについては、[このページ](pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
 
 ## チュートリアルビデオ {#typologies-video}
 
@@ -71,5 +72,3 @@ Adobe Campaignでは、4 種類の **タイポロジルール**:
 このビデオでは、フィルターを使用して Adobe Campaign で疲労管理を実装する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
-
-
