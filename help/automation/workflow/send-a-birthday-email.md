@@ -3,10 +3,11 @@ product: campaign
 title: 誕生日メールの送信
 description: ワークフローで誕生日のメールを送信する方法を学ぶ
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 95%
+exl-id: c3a80871-e045-454c-b1ca-8f484d2e14e1
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -20,11 +21,11 @@ ht-degree: 95%
 
 この（日々実行される）ワークフローでは、現在の日付が誕生日であるすべての受信者を選択します。
 
-これをおこなうには、キャンペーンを作成し、 [キャンペーンワークフロー](campaign-workflows.md).
+これを行うには、キャンペーンを作成して[キャンペーンワークフロー](campaign-workflows.md)を追加します。
 
-次に、以下に示す手順に従います。
+次に、以下の手順に従います。
 
-## その日が誕生日の受信者を特定します {#identifying-recipients-whose-birthday-it-is}
+## 当日が誕生日となる受信者の特定 {#identifying-recipients-whose-birthday-it-is}
 
 ワークフローが毎日起動するように「**[!UICONTROL スケジューラー]**」アクティビティを設定したら、誕生日が現在の日付の受信者をすべて特定します。
 
@@ -82,7 +83,7 @@ ht-degree: 95%
 
 「**[!UICONTROL クエリ]**」アクティビティの結果を、「**[!UICONTROL E メール配信]**」アクティビティにリンクし、リストに記載されている受信者全員に誕生日の E メールを送信します。
 
-## 2 月 29 日生まれの受信者を含める（オプション） {#including-recipients-born-on-february-29th--optional-}
+## 2月29日に生まれた受信者を含める（オプション） {#including-recipients-born-on-february-29th--optional-}
 
 2 月 29 日に生まれた受信者全員を含めたい場合、この使用例では、閏年かどうかに関わらず、リスト内の受信者に対し、誕生日に繰り返し E メールを送信する方法を示します。
 
@@ -98,7 +99,7 @@ ht-degree: 95%
 
 現在の年が&#x200B;**閏年でなく**、ワークフローが 3 月 1 日に実行された場合、2 月 29 日が誕生日の受信者すべてを選択して、受信者のリストに追加する必要があります。その他の場合については追加のアクションは不要です。
 
-### 手順 1:受信者を選択 {#step-1--selecting-the-recipients}
+### 手順 1：受信者の選択 {#step-1--selecting-the-recipients}
 
 ワークフローが毎日起動するよう「**[!UICONTROL スケジューラー]**」アクティビティを設定したら、現在の日付が誕生日の受信者をすべて特定します。
 
@@ -190,6 +191,6 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 >
 >ワークフローを実行するには、キャンペーンパッケージに関するテクニカルワークフローを開始する必要があります。詳しくは、[テクニカルワークフローのリスト](technical-workflows.md)の節を参照してください。
 >
->キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。詳しくは、を参照してください。
+>キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。詳しくは、「ワークフロー内での承認プロセスの作成」の節を参照してください。
 
 ![](assets/birthday-workflow_usecase_1.png)
