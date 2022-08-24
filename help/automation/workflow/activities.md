@@ -4,9 +4,9 @@ title: ワークフローアクティビティについて
 description: アクティビティについて
 feature: Workflows, Data Management
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 14%
 
 ![](assets/wf-activity-tabs.png)
 
-権限、実装、ワークフローが設計されたコンテキストに応じて、使用可能なアクティビティは異なる場合があります。
+ユーザーの権限、実装環境、ワークフローが設計されたコンテキストに応じて、使用可能なアクティビティは異なる場合があります。
 
-例えば、キャンペーンで作成されたワークフローには、特定の **配信** タブに、すべてのチャネルを表示します。 このタブは、 [テクニカルワークフロー](technical-workflows.md).
+例えば、キャンペーンで作成されたワークフローでは、特定の「**配信**」タブにすべてのチャネルが表示されます。このタブは、[テクニカルワークフロー](technical-workflows.md)では表示されません。
 
 ![](assets/campaign-wf-activities.png)
 
-テクニカルワークフローには特定の **イベント** タブ ( [キャンペーンワークフロー](campaign-workflows.md).
+テクニカルワークフローでは、[キャンペーンワークフロー](campaign-workflows.md)には表示されない特定の「**イベント**」タブが表示されます。
 
 ![](assets/tech-wf-activities.png)
 
