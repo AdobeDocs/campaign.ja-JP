@@ -4,9 +4,9 @@ title: ファイルコレクター
 description: ファイルコレクターワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 
    * **[!UICONTROL フィルター]**
 
-      このフィルター条件と一致するファイルのみがダウンロードされます。それ以外のディレクトリ内のファイルは無視されます。フィルターを指定しない場合、ディレクトリ内のすべてのファイルがダウンロードの対象となります。フィルターの例： **&#42;.zip**, **インポート —&#42;.txt**.
+      このフィルター条件と一致するファイルのみがダウンロードされます。それ以外のディレクトリ内のファイルは無視されます。フィルターを指定しない場合、ディレクトリ内のすべてのファイルがダウンロードの対象となります。フィルターの例：**&#42;.zip**、**import-&#42;.txt**。
 
    * **[!UICONTROL ファイルが処理されたらすぐに停止します]**
 
