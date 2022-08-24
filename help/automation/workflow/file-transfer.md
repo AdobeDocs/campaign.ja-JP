@@ -4,9 +4,9 @@ title: ファイル転送
 description: ファイル転送ワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
 >[!NOTE]
 >
->SFTP サーバー使用のベストプラクティスとトラブルシューティングについて詳しく説明しています。
+>SFTP サーバー使用のベストプラクティスおよびトラブルシューティングについて詳しくは、こちらを参照してください。
 
 ## プロパティ {#properties}
 
