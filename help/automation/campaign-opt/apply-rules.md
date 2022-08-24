@@ -3,10 +3,11 @@ product: campaign
 title: タイポロジルールの適用
 description: タイポロジルールを適用する方法を学ぶ
 feature: Typology Rules
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 99%
+exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -142,4 +143,4 @@ ht-degree: 99%
 >[!NOTE]
 >
 >ライセンスに分散型マーケティングのオプションが含まれていれば、タイポロジおよびタイポロジルールに「**[!UICONTROL 分散型マーケティング]**」タブが追加されます。オプションの有無については、ライセンス契約をお確かめください。\
->分散型マーケティングについて詳しくは、 [この節](../distributed-marketing/about-distributed-marketing.md).
+>分散型マーケティングについて詳しくは、[この節](../distributed-marketing/about-distributed-marketing.md)を参照してください。
