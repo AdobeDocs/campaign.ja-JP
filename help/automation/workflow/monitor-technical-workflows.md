@@ -3,10 +3,11 @@ product: campaign
 title: テクニカルワークフローの監視
 description: テクニカルワークフローの監視
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 97%
+exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -14,9 +15,9 @@ ht-degree: 97%
 
 
 
-テクニカルワークフローは監視する必要があり、失敗した場合にアクションをおこなう必要があります。
+テクニカルワークフローは監視が必要で、失敗した場合はアクションを実行する必要があります。
 
-様々なキャンペーンプロセスを監視するその他の方法については、を参照してください。
+様々なキャンペーンプロセスを監視するその他の方法については、こちらで説明しています。
 
 ## インスタンス監視ダッシュボード {#instance-monitoring-dashboard}
 
@@ -40,7 +41,7 @@ ht-degree: 97%
 
 **[!UICONTROL データベースクリーンアップワークフロー（「cleanup」）]**&#x200B;の場合：
 
-1. ** ...
+1. ** を確認します。
 1. ジャーナルを確認して、経過時間が長期間、比較的一定していて、他のワークフローに干渉していないことを検証します。
 
 **[!UICONTROL トラッキングワークフロー（「tracking」）]**&#x200B;の場合：
