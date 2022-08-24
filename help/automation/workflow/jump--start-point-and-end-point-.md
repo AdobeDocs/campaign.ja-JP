@@ -4,8 +4,8 @@ title: ジャンプ（開始点と終了点）
 description: ジャンプ（開始点と終了点）
 feature: Workflows
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '117'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
