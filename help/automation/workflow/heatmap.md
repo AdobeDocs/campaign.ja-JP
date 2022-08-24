@@ -3,10 +3,11 @@ product: campaign
 title: Campaign ワークフローヒートマップ
 description: ワークフローヒートマップで ワークフローを監視
 feature: Workflows, Heatmap
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 97%
+exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 97%
 
 Campaign ワークフローヒートマップは、現在実行中のすべてのワークフローを色分けしてわかりやすく表示します。 **キャンペーン管理者**&#x200B;のみが使用できます。
 
-で Campaign プロセスを監視するその他の方法を説明します。
+このページでは、Campaign プロセスを監視するその他の方法を紹介します。
 
 ## ワークフローヒートマップの概要 {#about-the-workflow-heatmap}
 
@@ -53,7 +54,7 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 
    >[!NOTE]
    >
-   >**によって削除されていないワークフローのみ。\
+   >** によって削除されていないワークフローのみです。\
    >デフォルトでは、ワークフローヒートマップのタイムゾーンは、現在の管理者ユーザーで指定されたタイムゾーンです。例えば、一緒に働いているマーケティングユーザーと同じ地域にいない場合には、この値を変更できます。
 
 1. 「**[!UICONTROL フィルター]**」ボタンをクリックします。
@@ -74,7 +75,7 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 
 1. また、**[!UICONTROL ワークフロータイプ]**&#x200B;に基づいてフィルタリングすることも可能です。
 
-   * **[!UICONTROL 技術]** :のみ [組み込みのテクニカルワークフロー](technical-workflows.md) および [データ管理ワークフロー](targeting-workflows.md#data-management) が表示されます。
+   * **[!UICONTROL テクニカル]**：[ビルトインのテクニカルワークフロー](technical-workflows.md)および[データ管理ワークフロー](targeting-workflows.md#data-management)のみが表示されます。
    * **[!UICONTROL マーケティング]**：[キャンペーンワークフロー](campaign-workflows.md)と呼ばれる、マーケティングキャンペーンにリンクされたワークフローのみが表示されます。
 
 1. 特定のワークフローを名前で検索するには、「**[!UICONTROL ワークフロー名フィルター]**」フィールドも使用できます。
