@@ -4,8 +4,8 @@ title: フィルターの作成
 description: クエリを実行する際のフィルターの作成方法を学ぶ
 feature: Workflows
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '226'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Adobe Campaign で使用可能なフィルターは、クエリと同じ操作�
 
 >[!NOTE]
 >
->フィルターの作成について詳しくは、を参照してください。
+>フィルターの作成について詳しくは、「フィルターオプション」の節を参照してください。
 
 **[!UICONTROL 管理／設定／定義済みフィルター]**&#x200B;ノードには、リストおよび概要で使用するすべてのフィルターが含まれています。
 
