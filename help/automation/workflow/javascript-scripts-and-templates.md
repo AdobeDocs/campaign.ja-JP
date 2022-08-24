@@ -3,9 +3,10 @@ product: campaign
 title: JavaScript のスクリプトとテンプレート
 description: JavaScript のスクリプトとテンプレート
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1263'
+exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
