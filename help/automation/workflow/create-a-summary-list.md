@@ -3,10 +3,11 @@ product: campaign
 title: 概要リストの作成
 description: 概要リストの作成
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 98%
+exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -57,9 +58,9 @@ Phone;500;London 5
 
    一方、「**データの読み込み（ファイル）**」アクティビティでは、収集したデータでワークフローのワークテーブルをエンリッチメントすることが可能です。
 
-   このアクティビティについて詳しくは、を参照してください。
+   このアクティビティについて詳しくは、次を参照してください。
 
-1. の設定 **ファイルコレクター** テキストを収集するアクティビティ (&#42;.txt) 選択したディレクトリのファイルを入力します。
+1. 「**ファイルコレクター**」アクティビティを設定し、選択したディレクトリからテキスト（&#42;.txt）タイプのファイルを収集します。
 
    ![](assets/uc2_enrich_collecteur.png)
 
