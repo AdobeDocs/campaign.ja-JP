@@ -5,9 +5,9 @@ description: キャンペーン
 feature: Workflows
 topic-tags: technical-workflows
 source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
-workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 
 
-以下に説明するワークフローは、デフォルトで **Campaign** モジュールと共にインストールされます。このモジュールについて詳しくは、このを参照してください。
+以下に説明するワークフローは、デフォルトで **Campaign** モジュールと共にインストールされます。このモジュールについて詳しくは、こちらを参照してください。
 
 >[!CAUTION]
 >
