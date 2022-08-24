@@ -1,18 +1,19 @@
 ---
 product: campaign
 title: ワークフローのユースケース
-description: キャンペーンワークフローを使用して実行できる使用例について詳しく説明します
+description: Campaign ワークフローを使用して実行できるユースケースについて説明します。
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 63%
+exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # ワークフローのユースケース {#about-workflow-use-cases}
 
-ワークフローを使用できる様々なコンテキストと、エンドツーエンドの使用例を通じてワークフローを実装する方法について説明します。
+ワークフローを使用できる様々なコンテキストと、エンドツーエンドのユースケースを通じてワークフローを実装する方法について説明します。
 
 ## 配信 {#deliveries}
 
@@ -31,7 +32,7 @@ ht-degree: 63%
 * [リストへのレポートの送信](send-a-report-to-a-list.md)
 * [ワークフローの監視](workflow-supervision.md)
 * [オペレーターへのパーソナライズされたアラートの送信](send-alerts-to-operators.md)
-* [配信の送信前に受信者の承認プロセスを設定する](local-approval-activity.md)
+* [配信送信前の受信者承認プロセスの設定](local-approval-activity.md)
 
 ## データ管理 {#management}
 
@@ -41,7 +42,7 @@ ht-degree: 63%
 * [概要リストの作成](create-a-summary-list.md)
 * [データのエンリッチメント](enrich-data.md)
 * [集計の使用](using-aggregates.md)
-* [Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化およびエクスポート](use-workflow-data.md#use-case-gpg-encrypt)
+* [コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](use-workflow-data.md#use-case-gpg-encrypt)
 * [増分処理クエリを使用した四半期ごとのリスト更新](quarterly-list-update.md)
 * [重複排除アクティビティの結合機能の使用](deduplication-merge.md)
 * [繰り返しインポートワークフローの設定](recurring-import-workflow.md)
