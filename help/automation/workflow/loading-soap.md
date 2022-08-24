@@ -4,9 +4,9 @@ title: 読み込み（SOAP）
 description: 読み込み（SOAP）
 feature: Workflows
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 95%
 
    例を更新する場合は、「**[!UICONTROL 例を再分析]**」を選択します。
 
-   また、 **を使用して、列データの形式をパーソナライズすることもできます。
+   「詳細設定パラメーター」リンクを使用して、列データの形式をパーソナライズすることもできます。
 
 1. 行番号を識別子として使用するか、または SOAP 呼び出しでいくつの要素を返させることを指定することができます。
 1. 関数に合わせて、次のタブスクリプトを入力してください。
