@@ -4,9 +4,9 @@ title: データ読み込み（ファイル）
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management Activity
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 ![](assets/preprocessing-dataloading.png)
 
-詳しくは、この節を参照してください。.
+詳細については、次のセクションを参照してください。
 
 ## ファイルフォーマットの定義 {#defining-the-file-format}
 
@@ -110,7 +110,7 @@ ht-degree: 99%
    * 1 番目の列には、購入（3,000 ユーロ以上または未満）、未購入または 1 つ以上の購入アイテムの返金というイベントと紐付けするコードが含まれています。
    * 2 番目から 4 番目の列はそれぞれ、クライアントの姓、名前、E メールおよびアカウント番号が含まれます。
 
-   世も混まれるファイルのフォーマット設定は、Adobe Campaign へのデータインポート時に定義されたフォーマット設定と紐付けされます。詳しくは、このを参照してください。
+   世も混まれるファイルのフォーマット設定は、Adobe Campaign へのデータインポート時に定義されたフォーマット設定と紐付けされます。詳しくは、こちらを参照してください。
 
 1. 分割アクティビティで、「**イベント**」列の値に従って、作成するサブセットを指定します。
 
