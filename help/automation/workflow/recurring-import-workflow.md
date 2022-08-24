@@ -3,9 +3,10 @@ product: campaign
 title: 繰り返し発生するインポートの設定
 description: 繰り返し発生するインポートのワークフローテンプレートを設定する方法について説明します。
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1136'
+exl-id: 13f0091b-b62c-47df-9658-6631ba1cf03a
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
