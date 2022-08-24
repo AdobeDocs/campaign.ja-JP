@@ -4,9 +4,9 @@ title: リストへのレポートの送信
 description: ワークフローでリストへレポートを送信する方法を学ぶ
 feature: Workflows
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 ![](assets/use_case_report_1.png)
 
-リストの作成について詳しくは、こちらを参照してください。
+リストの作成について詳しくは、この節を参照してください。
 
 ## 手順 2：配信テンプレートの作成 {#step-2--creating-the-delivery-template}
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 
    ![](assets/use_case_report_2.png)
 
-   配信テンプレートの作成について詳しくは、こちらを参照してください。
+   配信テンプレートの作成について詳しくは、この節を参照してください。
 
 1. ラベル、ターゲット（前に作成した受信者のリスト）など、各種テンプレートパラメーターのほか、件名、コンテンツを入力します。
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 
 1. ワークフローが実行されるたびに、「**[!UICONTROL トラッキング指標]**」レポートが更新されます（[手順 3：ワークフローの作成](#step-3--creating-the-workflow)を参照）。配信に最新のレポートを含めるには、以下の手順で、**[!UICONTROL 計算による添付ファイル]**&#x200B;を追加する必要があります。
 
-   計算による添付ファイルの作成について詳しくは、このを参照してください。
+   計算による添付ファイルの作成について詳しくは、この節を参照してください。
 
    * 「**[!UICONTROL 添付ファイル]**」リンク、「**[!UICONTROL 追加]**」の順にクリックし、「**[!UICONTROL 計算による添付ファイル]**」を選択します。
 
