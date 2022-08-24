@@ -3,9 +3,9 @@ title: CRM コネクタアクティビティ
 description: CRM コネクタとデータ同期の設定について説明します
 feature: Workflows, Data Management
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 75%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 75%
 
 ![](assets/crm_task_select_obj.png)
 
-Adobe Campaignの CRM コネクタについて詳しくは、 [この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target=&quot;_blank&quot;}。
+Adobe Campaign の CRM コネクタについて詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
