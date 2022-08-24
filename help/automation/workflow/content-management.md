@@ -4,9 +4,9 @@ title: コンテンツ管理
 description: コンテンツ管理
 feature: Workflows, Data Management
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 
    ![](assets/content_mgmt_edit.png)
 
-   Adobe Campaignでのコンテンツ管理の設定と使用について詳しくは、このを参照してください。
+   Adobe Campaign でのコンテンツ管理の設定と使用について詳しくは、こちらを参照してください。
 
 1. **コンテンツ**
 
@@ -100,4 +100,4 @@ ht-degree: 95%
 
 ## 例 {#examples}
 
-この節の例を参照してください。
+こちらの例を参照してください。
