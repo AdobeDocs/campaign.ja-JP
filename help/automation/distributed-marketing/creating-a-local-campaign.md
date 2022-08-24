@@ -3,10 +3,11 @@ product: campaign
 title: ローカルキャンペーンの作成
 description: ローカルキャンペーンの作成
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 95%
+exl-id: b46530b5-cb81-40d7-b596-c7685359782a
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +41,7 @@ ht-degree: 95%
 
 ![](assets/mkg_dist_local_op_creation1.png)
 
-キャンペーンウィンドウで、 **[!UICONTROL 編集]** 「 」タブで、 **[!UICONTROL キャンペーンの詳細パラメーター…]** リンク。
+キャンペーンウィンドウで「**[!UICONTROL 編集]**」タブをクリックし、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックします。
 
 ![](assets/mkt_distr_4.png)
 
@@ -64,11 +65,11 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
    ![](assets/mkt_distr_8.png)
 
-   提供されるフォームは、Web アプリケーションで指定されます。このアプリケーションは、 **[!UICONTROL web インターフェイス]** テンプレートの **[!UICONTROL キャンペーンの詳細パラメーター…]** リンク。 [ローカルキャンペーンの作成（フォーム）](examples.md#creating-a-local-campaign--by-form-)を参照してください。
+   ローカルエンティティに表示されるフォームは、web アプリケーションで指定します。この web アプリケーションは、テンプレートの「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックしたあと、「**[!UICONTROL Web インターフェイス]**」フィールドのドロップダウンリストで選択する必要があります。[ローカルキャンペーンの作成（フォーム）](examples.md#creating-a-local-campaign--by-form-)を参照してください。
 
    >[!NOTE]
    >
-   >この例で使用されている Web アプリケーションはサンプルです。フォームを使用するには、Web アプリケーションを作成する必要があります。参照  .
+   >この例で使用されている Web アプリケーションはサンプルです。フォームを使用するには、Web アプリケーションを作成する必要があります。こちらを参照してください。
 
    ![](assets/mkt_distr_7.png)
 
@@ -123,7 +124,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 ### ワークフロー {#workflow}
 
-内 **[!UICONTROL ターゲティングとワークフロー]** 」タブで、 **[!UICONTROL デフォルト値]** 指定された **[!UICONTROL キャンペーンの詳細パラメーター…]** 配信を作成します。
+「**[!UICONTROL ターゲティングとワークフロー]**」タブで、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」で指定された&#x200B;**[!UICONTROL デフォルト値]**&#x200B;を収集して配信を作成するキャンペーンワークフローを作成します。
 
 ![](assets/mkg_dist_local_op_creation4b.png)
 
@@ -155,7 +156,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 >[!NOTE]
 >
->キャンペーンのテンプレートと一般的な設定について詳しくは、を参照してください。
+>キャンペーンのテンプレートと一般的な設定について詳しくは、こちらを参照してください。
 
 ## キャンペーンパッケージの作成 {#creating-the-campaign-package}
 
@@ -238,7 +239,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
    >[!NOTE]
    >
-   >Web アプリケーションについて詳しくは、を参照してください。
+   >Web アプリケーションについて詳しくは、こちらを参照してください。
 
 1. 最初のページで必要な情報（オーダーのラベルとコメント）を入力し、「**[!UICONTROL 次へ]**」をクリックします。
 
