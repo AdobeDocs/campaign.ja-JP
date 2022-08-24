@@ -3,9 +3,10 @@ product: campaign
 title: アクティビティ画像の変更
 description: アクティビティ画像を変更する方法を学ぶ
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '172'
+exl-id: f5580401-3305-4915-88a2-3400a32aa7aa
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
