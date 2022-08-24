@@ -3,26 +3,25 @@ title: データソースを変更
 description: 「データソースを変更」アクティビティの詳細を説明します
 feature: Workflows, Data Management, Federated Data Access
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 19%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # データソースを変更 {#change-data-source}
 
-以下を使用： **[!UICONTROL データソースを変更]** アクティビティを使用して [ワークフロー作業用テーブル](use-workflow-data.md#workflow-temporary-work-table). このアクティビティでは、Federated Data Access(FDA)、Campaign Cloud データベース (FFDA)、Campaign Local データベースなど、様々なデータソースをまたいで、より柔軟にデータを管理できます。
+**[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用すると、[ワークフローのワークテーブル](use-workflow-data.md#workflow-temporary-work-table)のデータソースを変更できます。このアクティビティでは、Federated Data Access（FDA）、Campaign Cloud データベース（FFDA）、Campaign ローカルデータベースなどの様々なデータソースを対象に、より柔軟にデータを管理できます。
 
-ワークフロー **[!UICONTROL 作業用テーブル]** は、データを処理し、ワークフローアクティビティと共有するために使用されます。
+ワークフローの&#x200B;**[!UICONTROL ワークテーブル]**&#x200B;を使用すると、データを処理し、ワークフローアクティビティと共有することができます。
 
-デフォルトでは、 **[!UICONTROL 作業用テーブル]** が、クエリ対象のデータのソースと同じデータベース内に作成されている。
-例えば、 **[!UICONTROL 受信者]** Cloud データベースに格納されたテーブルを使用して、ワークフローによって **[!UICONTROL 作業用テーブル]** を同じ Cloud データベース上に置きます。
+デフォルトでは、**[!UICONTROL ワークテーブル]**&#x200B;は、クエリ対象のデータのソースと同じデータベースに作成されます。例えば、クラウドデータベースに格納された&#x200B;**[!UICONTROL 受信者]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースにワークフローの&#x200B;**[!UICONTROL ワークテーブル]**&#x200B;が作成されます。
 
-の使用 **[!UICONTROL データソースを変更]** アクティビティを使用して、 **[!UICONTROL 作業用テーブル]**.
+**[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用すると、**[!UICONTROL ワークテーブル]**&#x200B;に別のデータソースを使用できます。
 
-なお、 **[!UICONTROL データソースを変更]** アクティビティの実行を続行するには、クラウドデータベースに戻す必要があります。
+なお、**[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用する場合、ワークフローの実行を続行するには、クラウドデータベースに切り替える必要があります。
 
-次の手順で **[!UICONTROL データソースを変更]** アクティビティには、次の要件を満たす必要があります。
+**[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用するには、次の手順に従います。
 
 1. ワークフローを作成します。
 
@@ -30,23 +29,23 @@ ht-degree: 19%
 
    「**[!UICONTROL クエリ]**」アクティビティについて詳しくは、[このページ](query.md#create-a-query)を参照してください。
 
-1. を追加します。 **[!UICONTROL データソースを変更]** アクティビティ。
+1. **[!UICONTROL データソースを変更]**&#x200B;アクティビティを追加します。
 
    ![](assets/change-data-source.png)
 
-1. の **[!UICONTROL データソースを変更]** 選択するアクティビティ **[!UICONTROL デフォルトのデータソース]**.
+1. **[!UICONTROL データソースを変更]**&#x200B;アクティビティを編集して、「**[!UICONTROL デフォルトのデータソース]**」を選択します。
 
-   クエリの結果が格納される作業用テーブルが、デフォルトの Campaign ローカルデータベースに移動されます。
+   クエリの結果を含んだワークテーブルが、デフォルトの Campaign ローカルデータベースに移動されます。
 
    ![](assets/change-data-source_2.png)
 
-1. を追加します。 **[!UICONTROL JavaScript コード]** 「 」アクティビティを使用して、作業用テーブルに対して単一の操作を実行します。
+1. **[!UICONTROL JavaScript コード]**&#x200B;アクティビティを追加して、ワークテーブルに対して単一操作を実行します。
 
-   詳しくは、 **[!UICONTROL JavaScript コード]** アクティビティについては、 [このページ](sql-code-and-javascript-code.md#javascript-code).
+   **[!UICONTROL JavaScript コード]**&#x200B;アクティビティについて詳しくは、[このページ](sql-code-and-javascript-code.md#javascript-code)を参照してください。
 
-1. 別の「**[!UICONTROL データソースを変更]**」アクティビティを追加して、クラウドデータベースに戻ります。
+1. 別の&#x200B;**[!UICONTROL データソースを変更]**&#x200B;アクティビティを追加して、クラウドデータベースに戻ります。
 
-1. このアクティビティを編集し、 **[!UICONTROL アクティブな FDA 外部アカウント]**、および **[!UICONTROL 外部データベース]** 外部アカウント。
+1. このアクティビティを編集し、「**[!UICONTROL アクティブ FDA 外部アカウント]**」および対応する&#x200B;**[!UICONTROL 外部データベース]**&#x200B;外部アカウントを選択します。
 
    ![](assets/change-data-source_3.png)
 
