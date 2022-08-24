@@ -3,10 +3,11 @@ product: campaign
 title: 分散型マーケティングのサンプル
 description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 95%
+exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -20,11 +21,11 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->API について詳しくは、専用ドキュメントを参照してください。 .
+>API について詳しくは、専用ドキュメントを参照してください。。
 >
 >この例で使用する web アプリケーションは、Adobe Campaign に付属している web アプリではありません。キャンペーンでフォームを使用するには、専用の Web アプリケーションを作成する必要があります。
 
-キャンペーンテンプレートの作成時に、 **[!UICONTROL ズーム]** アイコン **[!UICONTROL Web インターフェイス]** オプション **[!UICONTROL キャンペーンの詳細パラメーター…]** web アプリケーションの詳細にアクセスするためのリンク。
+キャンペーンテンプレートの作成時に、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクの「**[!UICONTROL Web インターフェイス]**」オプションにある「**[!UICONTROL ズーム]**」アイコンをクリックして、web アプリケーションの詳細にアクセスします。
 
 ![](assets/mkg_dist_local_op_form1.png)
 
@@ -200,7 +201,7 @@ ht-degree: 95%
 **セントラルエンティティ**
 
 1. 協調キャンペーンを作成します。
-1. の設定 **[!UICONTROL キャンペーンの詳細パラメーター…]** ローカルキャンペーンと同様に
+1. ローカルキャンペーンの場合と同様に、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」を設定します。
 1. ローカルキャンペーンと同様に、キャンペーンワークフローと配信を設定します。
 1. Web フォームを更新します。
 1. キャンペーンパッケージを作成し、パブリッシュします。
@@ -225,11 +226,11 @@ ht-degree: 95%
 
 ### セントラルエンティティ側 {#central-entity-side-1}
 
-1. 協調キャンペーン（フォーム）を実装するには、**協調キャンペーン（フォーム）**&#x200B;テンプレートを使用して、キャンペーンを作成する必要があります。
+1. 協調キャンペーン（フォームによる）を実装するには、**協調キャンペーン (フォームによる)** テンプレートを使用して、キャンペーンを作成する必要があります。
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. キャンペーンの **[!UICONTROL 編集]** タブで、 **[!UICONTROL キャンペーンの詳細パラメーター…]** リンクをクリックして、ローカルキャンペーンとして設定します。 [ローカルキャンペーン（フォーム）の作成](#creating-a-local-campaign--by-form-)を参照してください。
+1. キャンペーンの「**[!UICONTROL 編集]**」タブで「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックして、ローカルキャンペーンと同様に設定を行います。[ローカルキャンペーン（フォーム）の作成](#creating-a-local-campaign--by-form-)を参照してください。
 
    ![](assets/mkg_dist_use_case_form_2.png)
 
