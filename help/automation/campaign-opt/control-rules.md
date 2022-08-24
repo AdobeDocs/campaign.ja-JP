@@ -3,10 +3,11 @@ product: campaign
 title: コントロールルールの設定
 description: コントロールルールの設定方法を説明します
 feature: Typology Rules
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
-workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 96%
+exl-id: 79e442ea-f856-41bf-b065-25cb2ad2c65b
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
