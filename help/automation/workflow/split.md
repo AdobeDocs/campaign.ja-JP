@@ -4,9 +4,9 @@ title: 分割
 description: 分割ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
-workflow-type: tm+mt
-source-wordcount: '1984'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 このアクティビティは、インバウンド母集団の和集合をトリガーしません。複数のトランジションが、1 つの分割アクティビティに入れられる場合、その前に「**[!UICONTROL 和集合]**」アクティビティを挿入することをお勧めします。
 
-使用されている分割アクティビティの例については、 [この節](targeting-workflows.md#create-subsets-using-the-split-activity).
+分割アクティビティの使用例については、[この節](targeting-workflows.md#create-subsets-using-the-split-activity)を参照してください。
 
 フィルター条件を使用してターゲットを別々の母集団にセグメント化する分割アクティビティの使用方法を示した例については、[この節](cross-channel-delivery-workflow.md)を参照してください。
 
@@ -92,7 +92,7 @@ ht-degree: 92%
    * **[!UICONTROL サイズ（セグメントの %）]**：初期母集団ではなく、サブセットにのみ関連するレコードの割合。
    * **[!UICONTROL 最大サイズ]**：レコードの最大数。
    * **[!UICONTROL データグループ別]**：インバウンド母集団の指定のフィールドの値に応じて、レコード数の上限を設定できます。[詳細情報](#limit-the-number-of-subset-records-by-data-grouping)。
-   * **[!UICONTROL データグループ別（%）]**：インバウンド母集団の指定のフィールドの値に応じて、レコード数の上限をパーセント値で設定できます。[詳細情報](#limit-the-number-of-subset-records-by-data-grouping)。
+   * **[!UICONTROL データグループ別 (%)]**：インバウンド母集団の指定のフィールドの値に応じて、レコード数の上限をパーセント値で設定できます。[詳細情報](#limit-the-number-of-subset-records-by-data-grouping)。
    * **[!UICONTROL データ配分別]**：グループ化フィールドに含まれる値が多すぎる場合、または新規の分割アクティビティを作成するたびに値を入力したくない場合、Adobe Campaign で「**[!UICONTROL データ配分別]**」制限を設定できます（オプションの分散型マーケティングモジュールを使用）。[詳細情報](#limit-the-number-of-subset-records-per-data-distribution)。
 
 1. 「**[!UICONTROL 完了]**」をクリックして、レコード選択の基準を承認します。定義した設定が、エディターのウィンドウの中央部分に表示されます。
@@ -119,15 +119,15 @@ ht-degree: 92%
 
 ## データ配分ごとのサブセットレコード数の制限 {#limit-the-number-of-subset-records-per-data-distribution}
 
-グループ化フィールドに含まれる値が多すぎる場合、または新規分割アクティビティを作成するたびに値を再設定したくない場合、Adobe Campaign でデータ配分ごとに制限を設定できます。選択時 [データ制限値](#create-subsets) セクション )、 **[!UICONTROL データ配分別]** 」オプションを選択し、ドロップダウンメニューからテンプレートを選択します。 データ配分テンプレートの作成については、以降で詳しく説明します。
+グループ化フィールドに含まれる値が多すぎる場合、または新規分割アクティビティを作成するたびに値を再設定したくない場合、Adobe Campaign でデータ配分ごとに制限を設定できます。[データの制限値](#create-subsets)を選択する場合、「**[!UICONTROL データ配分別]**」オプションを選択して、ドロップダウンメニューからテンプレートを選択します。データ配分テンプレートの作成については、以降で詳しく説明します。
 
-例： **[!UICONTROL ローカルの承認]** 配分テンプレートを使用するアクティビティ： [このページ](local-approval-activity.md).
+配分テンプレートを使用した「**[!UICONTROL ローカルの承認]**」アクティビティの例については、[このページ](local-approval-activity.md)を参照してください。
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
->この関数は、 [分散型マーケティングアドオン](../distributed-marketing/about-distributed-marketing.md). 使用許諾契約書を確認してください。
+>この関数は、[分散型マーケティングアドオン](../distributed-marketing/about-distributed-marketing.md)でのみ利用できます。使用許諾契約書を確認してください。
 
 データ配分テンプレートを使用すると、グループ値のリストを使用してレコードの数を制限できます。データ配分テンプレートを作成するには、次の手順に従います。
 
@@ -145,12 +145,12 @@ ht-degree: 92%
    * **[!UICONTROL ターゲティングディメンション]**：例えば、「**[!UICONTROL 受信者]**」など、データ配分が適用されるターゲティングディメンションを入力します。このスキーマは、ターゲティングワークフローで使用されるデータとの互換性を常に維持する必要があります。
    * **[!UICONTROL 配分フィールド]**：ターゲティングディメンション経由でフィールドを選択します。例えば、「**[!UICONTROL E メールドメイン]**」フィールドを選択すると、受信者のリストはドメイン別に分類されて表示されます。
    * **[!UICONTROL 配分タイプ]**：「**[!UICONTROL 配分]**」タブでターゲットの制限値の内訳を表示する方法（**[!UICONTROL 割合]**&#x200B;または&#x200B;**[!UICONTROL 固定]**）を設定します。
-   * ** .
-   * **[!UICONTROL 承認ストレージ]**:を使用する場合、 [ローカルの承認](local-approval.md) 「 」アクティビティを選択し、承認結果を保存するスキーマを入力します。 ターゲティングスキーマごとに、1 つのストレージスキーマを指定する必要があります。「**[!UICONTROL 受信者]**」ターゲティングスキーマを使用する場合、デフォルトの「**[!UICONTROL 受信者のローカル承認]**」ストレージスキーマを入力します。
+   * **。
+   * **[!UICONTROL 承認ストレージ]**：ターゲティングワークフローで「[ローカルの承認](local-approval.md)」アクティビティを使用する場合、承認結果が保存されるスキーマを入力します。ターゲティングスキーマごとに、1 つのストレージスキーマを指定する必要があります。「**[!UICONTROL 受信者]**」ターゲティングスキーマを使用する場合、デフォルトの「**[!UICONTROL 受信者のローカル承認]**」ストレージスキーマを入力します。
 
       ローカルの承認を伴わないデータのグループ化によるシンプルな制限を使用する場合、「**[!UICONTROL 承認ストレージ]**」を入力する必要はありません。
 
-1. を使用している場合、 [ローカルの承認](local-approval.md) アクティビティの **[!UICONTROL 詳細設定]** 配分テンプレートの場合：
+1. 「[ローカルの承認](local-approval.md)」アクティビティを使用する場合、配分テンプレートの「**[!UICONTROL 詳細設定]**」を入力します。
 
    ![](assets/local_validation_data_distribution_3.png)
 
@@ -184,13 +184,13 @@ ht-degree: 92%
       この列は、「**[!UICONTROL 一般]**」タブ内の「**[!UICONTROL 配分タイプ]**」フィールドによって定義されます。
 
    * **[!UICONTROL ラベル]**：各値にリンクされたラベルを入力します。
-   * **[!UICONTROL グループまたはオペレーター]**:([ローカルの承認](local-approval.md) 「 」アクティビティで、各配分値に割り当てるオペレーターまたはオペレーターのグループを選択します。
+   * **[!UICONTROL グループまたはオペレーター]**：「[ローカルの承認](local-approval.md)」アクティビティを使用している場合、各配信値に割り当てるオペレーターまたはオペレーターグループを選択します。
 
       ローカルの承認を伴わないデータのグループ化によるシンプルな制限を使用する場合、「**[!UICONTROL グループまたはオペレーター]**」を入力する必要はありません。
 
       >[!CAUTION]
       >
-      >オペレーターに適切な権限が割り当てられていることを確認します。
+      >オペレーターには必ず適切な権限を付与するようにしてください。
 
 ## フィルタリングパラメーター {#filtering-parameters}
 
@@ -223,7 +223,7 @@ ht-degree: 92%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、除外によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
