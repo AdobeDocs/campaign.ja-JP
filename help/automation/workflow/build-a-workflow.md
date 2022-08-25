@@ -5,8 +5,8 @@ description: ワークフローの作成方法を学ぶ
 feature: Workflows
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '999'
 ht-degree: 100%
 
 ---

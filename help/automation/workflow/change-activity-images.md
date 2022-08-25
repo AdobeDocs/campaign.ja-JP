@@ -5,8 +5,8 @@ description: アクティビティ画像を変更する方法を学ぶ
 feature: Workflows
 exl-id: f5580401-3305-4915-88a2-3400a32aa7aa
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '172'
 ht-degree: 100%
 
 ---

@@ -5,8 +5,8 @@ description: カスタムの日付フィールドを使用して E メールを�
 feature: Workflows
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '631'
 ht-degree: 100%
 
 ---

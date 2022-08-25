@@ -5,8 +5,8 @@ description: キャンペーンタイポロジを設定および実装する方�
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---

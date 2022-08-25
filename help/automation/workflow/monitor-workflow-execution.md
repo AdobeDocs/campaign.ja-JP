@@ -5,8 +5,8 @@ description: ワークフロー実行の監視
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '2027'
 ht-degree: 100%
 
 ---

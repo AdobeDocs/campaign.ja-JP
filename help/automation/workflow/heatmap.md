@@ -5,8 +5,8 @@ description: ワークフローヒートマップで ワークフローを監視
 feature: Workflows, Heatmap
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1163'
 ht-degree: 100%
 
 ---

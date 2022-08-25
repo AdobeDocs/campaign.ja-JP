@@ -5,8 +5,8 @@ description: クロスチャネル配信ワークフローの詳細を説明し�
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '711'
 ht-degree: 100%
 
 ---

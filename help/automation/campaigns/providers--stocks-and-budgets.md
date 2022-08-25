@@ -5,8 +5,8 @@ description: プロバイダー、在庫、予算
 feature: Budget Management, Campaigns
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1904'
 ht-degree: 100%
 
 ---

@@ -5,8 +5,8 @@ description: 共同キャンペーンの作成方法を学ぶ
 feature: Distributed Marketing
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '985'
 ht-degree: 100%
 
 ---

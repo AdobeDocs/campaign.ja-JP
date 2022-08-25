@@ -5,8 +5,8 @@ description: クエリで集計計算を実行する方法を説明します。
 feature: Workflows
 exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '239'
 ht-degree: 100%
 
 ---

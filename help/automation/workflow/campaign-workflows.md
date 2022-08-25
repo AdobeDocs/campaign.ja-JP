@@ -5,8 +5,8 @@ description: Campaign の様々なタイプのワークフローを確認しま�
 feature: Workflows
 exl-id: f511332c-1fcc-444f-851b-e8b470b719b4
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
