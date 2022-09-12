@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: a41bebfeb352b2f81f81b46c39b5f9b64431455b
+source-git-commit: 2c79ee6ae79355fba2a5f269076cf90a683a6070
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
       + [ファイルからのプロファイルのインポート](audiences/import-profiles.md)
       + [外部プロファイルの操作](audiences/external-profiles.md)
       + [Web フォームでのプロファイルデータの収集](audiences/collect-profiles.md)
-      + [ターゲットマッピング](audiences/target-mappings.md)
+      + [ターゲットマッピングの操作](audiences/target-mappings.md)
    + オーディエンスの作成 {#create-audiences}
       + [連絡先リストの作成](audiences/create-audiences.md)
       + [フィルターの作成と管理](audiences/create-filters.md)
