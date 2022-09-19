@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 2c79ee6ae79355fba2a5f269076cf90a683a6070
+source-git-commit: fdaf107fd22f439a728f32ceb8cfc13a8c5bc1ad
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '368'
 ht-degree: 98%
 
 ---
@@ -83,6 +83,7 @@ ht-degree: 98%
    + [ダイレクトメール](send/direct-mail.md)
    + [ソーシャルマーケティング](send/twitter.md)
    + [トランザクションメッセージ](send/transactional.md)
+   + [送信時間の最適化](send/predictive.md)
    + 失敗、バウンス、強制隔離{#failures}
       + [強制隔離](send/quarantines.md)
       + [配信の失敗](send/delivery-failures.md)
