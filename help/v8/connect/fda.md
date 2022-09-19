@@ -5,10 +5,10 @@ feature: Federated Data Access
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: bb03c804c1c65322d275d0a2ca1db0bfe974636d
+source-git-commit: ca9275017e36dae2f0152e0ff365541d7cab96de
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 72%
+source-wordcount: '761'
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 FDA コネクタ（Federated Data Access）を使用し、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign クラウドデータベースデータに影響を与えることなく、それらに保存されている情報を処理できます。その後、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+![](../assets/do-not-localize/speech.png)   管理対象Cloud Servicesユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) 外部データベースを Campaign に接続する場合。
 
 
 >[!NOTE]
