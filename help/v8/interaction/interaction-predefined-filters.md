@@ -6,8 +6,8 @@ role: Data Engineer
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '108'
 ht-degree: 100%
 
 ---

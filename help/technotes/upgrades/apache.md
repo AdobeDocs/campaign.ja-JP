@@ -3,7 +3,7 @@ product: campaign
 title: テクニカルノート - Adobe Campaign - Apache バージョンのセキュリティアップデート
 description: Adobe Campaign - Apache バージョンのセキュリティアップデート
 source-git-commit: d7386669133aaeaed46a5df6d90c8106569d2fcc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-   このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+   このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
@@ -57,4 +57,4 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
    これはセキュリティの修正なので、既存のスケジュールに合わせることを強くお勧めします。
 
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign#support)にお問い合わせください。

@@ -3,7 +3,7 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign のテクニカルノート
 title: Adobe Campaign の技術記事
 source-git-commit: 6dceac03868db1aa43f02f4807569d9c16801ec7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 100%
 

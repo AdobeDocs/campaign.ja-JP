@@ -9,7 +9,7 @@ exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -143,7 +143,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
 >[!CAUTION]
 >
->1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#sending-using-multiple-waves){target=&quot;_blank&quot;}を参照してください。
+>1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja?lang=en#sending-using-multiple-waves){target=&quot;_blank&quot;}を参照してください。
 
 
 ## トラッキングデータへのアクセス {#tw-tracking}

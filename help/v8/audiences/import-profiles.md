@@ -1,12 +1,12 @@
 ---
 title: Campaign でのプロファイルのインポート
-description: ' Campaign で連絡先をインポートする方法を説明します。'
+description: Campaign で連絡先をインポートする方法を説明します。
 feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
 source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
