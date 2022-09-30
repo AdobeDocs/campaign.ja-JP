@@ -6,7 +6,7 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5a516e278fc48f3a78292be6a1edd8d9c3d6bd5d
 workflow-type: tm+mt
 source-wordcount: '2768'
 ht-degree: 80%
@@ -17,9 +17,9 @@ ht-degree: 80%
 
 このページには、**Campaign v8 最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
 
-## リリース 8.4.0 {#release-8-4-0}
+## リリース 8.4.1 {#release-8-4-1}
 
-_2022 年 9 月 29 日_
+_2022 年 9 月 31 日_
 
 **新機能**
 
