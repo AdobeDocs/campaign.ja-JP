@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d0cabf4d5b8d177f1ff0a1be6163e9abe65c57d6
+source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
 workflow-type: tm+mt
-source-wordcount: '2768'
+source-wordcount: '2764'
 ht-degree: 80%
 
 ---
@@ -65,9 +65,9 @@ _2022 年 9 月 31 日_
 
 **改善点**
 
-* Microsoft Internet Explorer 11 の提供終了後、コンソールのHTMLレンダリングエンジンは、 **Microsoft Edge Chromium**. さらに、 **Microsoft Edge WebView 2** クライアントコンソールのインストールにランタイムが必要になりました。 詳細情報
+* Microsoft Internet Explorer 11 の提供終了後、コンソールのHTMLレンダリングエンジンは、 **Microsoft Edge Chromium**. さらに、 **Microsoft Edge WebView 2** クライアントコンソールのインストールにランタイムが必要になりました。
 * ワークフローの実行を改善し、様々なコンテナ間で同時にワークフローを実行できるようにしました。これにより、ワークフローサービスの損失を防ぎ、関連する実行エラーを回避できます。 **注意**:この新機能は、一連の顧客に対してのみ、限定提供でリリースされています。
-* 特定のプライバシー名前空間に対して、プライバシーリクエストがバッチで実行されるようになりました。 この改善により、GDPR/プライバシー削除リクエストの実行時間が長くなりました。 詳細情報
+* 特定のプライバシー名前空間に対して、プライバシーリクエストがバッチで実行されるようになりました。 この改善により、GDPR/プライバシー削除リクエストの実行時間が長くなりました。
 
 **互換性の更新**
 
