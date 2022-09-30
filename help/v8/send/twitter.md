@@ -4,10 +4,10 @@ description: Adobe Campaign Social Marketing モジュールを使用して、Tw
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9f74e3bbff5bcbebf4f5a0ecf4ed7e458b9e38ed
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 80%
+source-wordcount: '889'
+ht-degree: 78%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Campaign には、Twitter を介して顧客や見込み客とやり取り
 
 統合を設定すると、次の操作を実行できます。
 
-* twitterでのメッセージの送信：Adobe Campaignでは、フォロワーにダイレクトメッセージを送信できます。
-* ツイートを投稿：Adobe Campaignを使用して、Twitterアカウントにツイートを投稿します。
-* 新しい連絡先の収集：Adobe Campaign はプロファイルデータを自動的に回収できます。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略を導入できます。この操作には、ユーザーの同意が必要です。
+* フォロワーにダイレクトメッセージを送信する
+* twitterアカウントにツイートを投稿
+* プロファイルデータを復元して新しい連絡先を収集します。これにより、キャンペーンのターゲティングを実行し、可能な限りクロスチャネル戦略を実装できます。 この操作には、ユーザーの同意が必要です。
 
 Twitter アカウントを Adobe Campaign と統合するための設定手順については、[このページ](../connect/ac-tw.md)を参照してください。
 
