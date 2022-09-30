@@ -2,10 +2,10 @@
 title: Campaign v8 の概要
 description: Campaign を初めて使用する場合使用方法を確認する
 feature: Overview
-role: Data Engineer
+role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%

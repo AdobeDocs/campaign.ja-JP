@@ -2,10 +2,10 @@
 title: Campaign UI のカスタマイズ
 description: Campaign UI のカスタマイズ方法を学ぶ
 feature: Application Settings
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
-source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%

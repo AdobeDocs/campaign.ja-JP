@@ -2,10 +2,10 @@
 title: Campaign でのプライバシーリクエストの管理
 description: Campaign でプライバシーリクエストを管理する方法を説明します
 feature: Audiences
-role: Data Engineer
-level: Beginner
+role: Admin
+level: Beginner, Intermediate, Experienced
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 41a213eea434b3fc6ee8b3ea3c29d4364f9c9761
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%

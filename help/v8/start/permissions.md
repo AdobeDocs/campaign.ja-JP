@@ -1,11 +1,11 @@
 ---
 title: Campaign v8 への権限の付与
 description: Campaign v8 に権限を付与する方法を学ぶ
-feature: Audiences
-role: Data Engineer
+feature: Permissions
+role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%

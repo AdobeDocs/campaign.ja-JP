@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: fdaf107fd22f439a728f32ceb8cfc13a8c5bc1ad
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '369'
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 100%
    + [プッシュ通知](send/push.md)
    + [LINE メッセージ](send/line.md)
    + [ダイレクトメール](send/direct-mail.md)
-   + [ソーシャルマーケティング](send/twitter.md)
+   + [Twitter](send/twitter.md)
    + [トランザクションメッセージ](send/transactional.md)
    + [送信時間の最適化](send/predictive.md)
    + 失敗、バウンス、強制隔離{#failures}
@@ -113,11 +113,11 @@ ht-degree: 100%
    + [外部アカウント](config/external-accounts.md)
 + 接続 {#connect}
    + [他のソリューションとの連携](connect/integration.md)
+   + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
    + [Campaign と Analytics の統合](connect/ac-aa.md)
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
    + [Campaign と Target の統合](connect/ac-at.md)
    + [Campaign と Experience Cloud トリガーの統合](connect/ac-triggers.md)
-   + [Campaign と RTCDP の統合](connect/ac-rtcdp.md)
    + [Campaign と Twitter の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
    + Campaign と CRM の統合 {#ac-crm}

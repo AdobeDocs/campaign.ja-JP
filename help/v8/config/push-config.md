@@ -3,10 +3,10 @@ title: Campaign SDKとアプリの統合
 description: Campaign AndroidおよびiOS SDKをアプリケーションに統合する方法について学ぶ
 version: v8
 feature: Push
-role: Developer
-level: Experienced
+role: Admin, Developer
+level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 100%

@@ -2,10 +2,10 @@
 title: Campaign 外部アカウント
 description: Campaign 外部アカウント
 feature: Application Settings
-role: Data Engineer
-level: Beginner
+role: Admin
+level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 100%

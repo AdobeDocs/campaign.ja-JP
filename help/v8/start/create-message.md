@@ -2,10 +2,10 @@
 title: メッセージの基本を学ぶ
 description: メッセージの基本を学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 100%

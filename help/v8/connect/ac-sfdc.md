@@ -2,10 +2,10 @@
 title: Campaign と SFDC の連携
 description: Campaign と Salesforce.com の連携方法について学ぶ
 feature: Salesforce Integration
-role: Data Engineer
-level: Beginner
+role: Admin, User
+level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%

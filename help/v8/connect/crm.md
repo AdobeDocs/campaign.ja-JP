@@ -2,10 +2,10 @@
 title: Campaign と CRM での作業
 description: Campaign と CRM での作業方法を学ぶ
 feature: Salesforce Integration, Microsoft CRM Integration
-role: Data Engineer
-level: Beginner
+role: Admin, User
+level: Beginner, Intermediate, Experienced
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: ce2509e5755d83c5408265b490220ae2a662314e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%

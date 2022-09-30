@@ -1,14 +1,14 @@
 ---
 title: Campaign v8 への接続
 description: Campaign v8 への接続方法を学ぶ
-feature: Audiences
-role: Data Engineer
+feature: Client Console
+role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '850'
+ht-degree: 83%
 
 ---
 
@@ -21,6 +21,13 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 * お使いのシステムとツールについて、Adobe Campaign クライアントコンソールとの互換性を[互換性マトリックス](compatibility-matrix.md)で確認してください。
 * Campaign サーバーの URL を取得する
 * Adobe IDを作成するか、会社からユーザー資格情報を取得する
+* (Campaign Classic8.4 のビルドバージョンから ) システムに Microsoft Edge Webview2 ランタイムをインストールします。 [詳細情報](#webview)
+
+## Microsoft Edge Webview2 ランタイムインストール {#webview}
+
+Campaign Classic8.4 のビルドバージョン以降、コンソールのインストールにはMicrosoft Edge Webview 2 ランタイムのインストールが必要です。
+
+Web ビューは、Windows 11 オペレーティングシステムの一部として既定でインストールされます。 システムにまだ存在しない場合は、Campaign コンソールインストーラーにより、からダウンロードするよう求められます。 [Microsoft Developer Web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp). Microsoftのサポートは廃止されたので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。 リンクにアクセスするには、別のブラウザーを使用してください。
 
 ## クライアントコンソールのダウンロードとインストール{#download-ac-console}
 
@@ -77,6 +84,10 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 1. これにより、[Adobe ID](#connect-ims) を使用して Campaign にログインできるようになります。
 
    ![](assets/adobeID.png)
+
+>[!NOTE]
+>
+>campaign classic 8.4 のビルドバージョンでは、Adobe Campaignクライアントコンソールは、プロキシ認証中にプロキシ資格情報を 2 回要求する場合があります。 これは、Microsoft Edge Webview2 が Internet Explorer とは異なり、プロキシ資格情報をキャッシュ/パスワードストアに保存しないためです。
 
 ## ユーザーへのアクセスの許可{#grant-access}
 

@@ -1,11 +1,11 @@
 ---
 title: テクニカルワークフローとデータレプリケーション
 description: テクニカルワークフローとデータレプリケーション
-feature: Workflows
-role: Data Engineer
-level: Beginner
+feature: Workflows, FFDA
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%

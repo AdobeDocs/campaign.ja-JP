@@ -2,10 +2,10 @@
 title: Campaign の Web アプリケーションと Web フォーム
 description: Web アプリケーションと Web フォームの概要
 feature: Web Apps
-role: Data Engineer
+role: User, Developer
 level: Beginner
 exl-id: a460c1b4-4266-46ff-8cca-748050afd579
-source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%

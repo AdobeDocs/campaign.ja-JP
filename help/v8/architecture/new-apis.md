@@ -1,11 +1,11 @@
 ---
 title: Campaign v8 の新しい API
 description: Campaign v8 の新しい API
-feature: API
-role: Data Engineer
-level: Beginner
+feature: API, FFDA
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: 2046e93b97e8a45c4837dd10182adc94eea6940b
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%

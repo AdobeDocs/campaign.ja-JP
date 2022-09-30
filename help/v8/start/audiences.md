@@ -2,10 +2,10 @@
 title: Campaign でのオーディエンスの使用
 description: Campaign でのオーディエンスの使用
 feature: Audiences
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%

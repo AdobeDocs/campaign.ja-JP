@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 3d84bb9493251afa7b7e89a07469d299ff412c24
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
@@ -56,28 +56,28 @@ To have the data transfered from Snowflake cloud database to Campaign local data
 ### Internal reference{#issue-1-ref}
 
 Reference: NEO-45549 
--->
 
 
-## 「データソースを変更」アクティビティに関する問題 {#issue-2}
 
-### 説明{#issue-2-desc}
+## Change Data Source activity issue {#issue-2}
 
-Campaign **クエリ**&#x200B;および「**データソースを変更**」アクティビティを使用して Snowflake クラウドデータベースにデータを挿入する場合、データにバックスラッシュ文字が含まれているとプロセスが失敗します。ソース文字列はエスケープされず、データが Snowflake で正しく処理されません。
+### Description{#issue-2-desc}
 
-この問題は、文字列の末尾にバックスラッシュ文字が付いている場合にのみ発生します。例：`Barker\`。
+When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity, the process fails when a backslash character is present in the data. The source string is not escaped, and data is not processed correctly on Snowflake.
 
-
-### 再現手順{#issue-2-repro}
-
-1. クライアントコンソールに接続し、ワークフローを作成します。
-1. **クエリ**&#x200B;アクティビティを追加し、設定します。
-1. 上記の特徴を持つデータを選択します。
-1. 「**データソースを変更**」アクティビティを追加し、Snowflake クラウドデータベースを選択するよう設定します。
-1. ワークフローを実行し、ワークフローのログでエラーを確認します。
+This issue only happens if the backslash character is at the end of string, for example: `Barker\`.
 
 
-### エラーメッセージ{#issue-2-error}
+### Reproduction steps{#issue-2-repro}
+
+1. Connect to the client console and create a workflow.
+1. Add a **Query** activity and configure it.
+1. Select data with the characteristics described above.
+1. Add a **Change Data Source** activity and configure it to select Snowflake cloud database.
+1. Run the workflow and check the workflow logs to see the error.
+
+
+### Error message{#issue-2-error}
 
 ```sql
 Error:
@@ -85,48 +85,46 @@ Error:
 04/21/2022 4:01:58 PM    ODB-240000 ODBC error: String '100110668547' is too long and would be truncated   File 'wkf1656797_21_1_3057430574#458516uploadPart0.chunk.gz', line 1, character 0   Row 90058, column "WKF1656797_21_1"["SCARRIER_ROUTE":13]   If you would like to continue
 ```
 
-### 回避策{#issue-2-workaround}
+### Workaround{#issue-2-workaround}
 
-回避策は、文字列の末尾にバックスラッシュ文字があるデータを除外するか、ソースファイルから削除することです。
+Workaround is to exclude data containing backslash character at the end of string, or remove it from the source file.
 
-<!--
-As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+
+### Internal reference{#issue-2-ref}
+
+Reference: NEO-45549
+
+
+## Data loading (file) activity failed to Upload file on server {#issue-3}
+
+### Description{#issue-3-desc}
+
+When uploading a file on Campaign server with a **Data loading (file)** activity, the process stops at 100% but never ends.
+
+### Reproduction steps{#issue-3-repro}
+
+1. Connect to the client console and create a workflow.
+1. Add a **Data loading (file)** activity and configure it.
+1. Select the **Upload on server** option.
+1. Select the file on your local machine,
+1. Click **Upload**
+
+
+### Error message{#issue-3-error}
+
+The process never ends.
+
+### Workaround{#issue-3-workaround}
+
+The workaround is to use an older client console. You will then be able to upload the file on the server.
+
+As a Campaign administrator, you can download Campaign v8.3.1 client console in [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
+
+Learn how to access Adobe Software Distribution [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
+
+Learn how to upgrade your client console [in this page](connect.md)
+
+### Internal reference{#issue-3-ref}
+
+Reference: NEO-47269
 -->
-
-### 内部参照{#issue-2-ref}
-
-参照：NEO-45549
-
-
-## データ読み込み（ファイル）アクティビティで、サーバーにファイルをアップロードできませんでした {#issue-3}
-
-### 説明{#issue-3-desc}
-
-**データ読み込み（ファイル）**&#x200B;アクティビティを使用して Campaign サーバーにファイルをアップロードする際、プロセスが 100％の状態で停止したまま終了しません。
-
-### 再現手順{#issue-3-repro}
-
-1. クライアントコンソールに接続し、ワークフローを作成します。
-1. **データ読み込み（ファイル）**&#x200B;アクティビティを追加し、設定します。
-1. 「**サーバーにアップロード**」オプションを選択します。
-1. ローカルマシン上のファイルを選択し、
-1. 「**アップロード**」をクリックします
-
-
-### エラーメッセージ{#issue-3-error}
-
-プロセスが終了しません。
-
-### 回避策{#issue-3-workaround}
-
-回避策は、古いクライアントコンソールを使用することです。これにより、サーバーにファイルをアップロードできるようになります。
-
-Campaign の管理者は、Campaign v8.3.1 クライアントコンソールを[アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}からダウンロードできます。
-
-アドビのソフトウェア配布へのアクセス方法について詳しくは、[こちらのページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
-
-クライアントコンソールのアップグレード方法について詳しくは、[こちらのページ](connect.md)を参照してください
-
-### 内部参照{#issue-3-ref}
-
-参照：NEO-47269

@@ -2,10 +2,10 @@
 title: Campaign API の概要
 description: Campaign API の概要
 feature: API
-role: Data Engineer
-level: Beginner
+role: Developer
+level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%

@@ -2,10 +2,10 @@
 title: Campaign トランザクションメッセージの設定
 description: Campaign トランザクションメッセージの設定
 feature: Transactional Messaging
-role: Data Engineer
-level: Beginner
+role: Admin, Developer
+level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%

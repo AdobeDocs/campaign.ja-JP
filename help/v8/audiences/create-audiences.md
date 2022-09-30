@@ -2,10 +2,10 @@
 title: Campaign でのプロファイルオーディエンスの作成
 description: リストとオーディエンスを作成する方法を学ぶ
 feature: Audiences, Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%

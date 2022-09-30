@@ -2,10 +2,10 @@
 title: Campaign のプロセスとコンポーネントについて
 description: Campaign のプロセスとコンポーネントについて
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 100%

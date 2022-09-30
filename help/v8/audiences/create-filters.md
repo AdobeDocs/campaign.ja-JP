@@ -2,10 +2,10 @@
 title: Adobe Campaign でのフィルターの作成
 description: Campaign でのデータのフィルタリングおよびフィルターの保存方法を学ぶ
 feature: Audiences, Profiles
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 100%

@@ -2,10 +2,10 @@
 title: Campaign と Adobe Experience Manager の使用
 description: Campaign と Adobe Experience Manager の使い方を学ぶ
 feature: Experience Manager Integration
-role: Data Engineer
-level: Beginner
+role: Admin, User
+level: Beginner, Intermediate
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%

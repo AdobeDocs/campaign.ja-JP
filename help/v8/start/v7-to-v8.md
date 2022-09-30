@@ -2,10 +2,10 @@
 title: Campaign Classic v7 から Campaign v8 への移行
 description: Campaign Classic v7 と Campaign v8 の違いを理解する
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 6f9f3ed4d2eef28b6683bf04b81431fd6a3e3dba
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%

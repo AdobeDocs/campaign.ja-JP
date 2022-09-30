@@ -1,11 +1,11 @@
 ---
 title: Campaign での強制隔離の管理
 description: Adobe Campaign での強制隔離の管理について
-feature: Audiences, Profiles
-role: Data Engineer
-level: Beginner
+feature: Profiles, Monitoring
+role: User, Developer
+level: Beginner, Intermediate
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 100%

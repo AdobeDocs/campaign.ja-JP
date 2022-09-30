@@ -2,10 +2,10 @@
 title: 実装のガイドライン
 description: Campaign v8 の実装方法を説明します
 feature: Overview
-role: Data Engineer
-level: Beginner
+role: User, Admin, Developer
+level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 100%

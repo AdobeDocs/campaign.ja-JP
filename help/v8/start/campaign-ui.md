@@ -2,10 +2,10 @@
 title: Campaign のワークスペースの確認
 description: Campaign ワークスペースの参照方法と使用方法を学ぶ
 feature: Overview
-role: Data Engineer
+role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%

@@ -1,8 +1,11 @@
 ---
 title: データモデルのベストプラクティス
 description: Adobe Campaign データモデル拡張のベストプラクティスを説明します
+feature: Data Model
+role: User, Developer
+level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '2722'
 ht-degree: 100%
