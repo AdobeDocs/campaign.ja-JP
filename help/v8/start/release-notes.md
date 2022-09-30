@@ -6,7 +6,7 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 5a516e278fc48f3a78292be6a1edd8d9c3d6bd5d
+source-git-commit: d0cabf4d5b8d177f1ff0a1be6163e9abe65c57d6
 workflow-type: tm+mt
 source-wordcount: '2768'
 ht-degree: 80%
@@ -35,7 +35,7 @@ _2022 年 9 月 31 日_
 <ul><li>Adobe Campaign Managed Cloud Sources コネクタを使用して、アクティベーションのためにExperience PlatformセグメントをAdobe Campaignに送信する</li>
 <li>Adobe Campaign Managed Cloud Destination Connector を使用して、Adobe Campaignの配信およびトラッキングログをAdobe Experience Platformに送信します。</li>
 </ul>
-<p>詳しくは、<a href="privacy.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../connect/ac-aep.md">詳細ドキュメント</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
