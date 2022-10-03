@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
+source-git-commit: dfe675ca0f15050a9159172be3d8d8de7e8bf848
 workflow-type: tm+mt
-source-wordcount: '2764'
-ht-degree: 80%
+source-wordcount: '2843'
+ht-degree: 78%
 
 ---
 
@@ -62,6 +62,18 @@ _2022 年 9 月 31 日_
 </tr> 
 </tbody> 
 </table>
+
+**セキュリティの強化**
+
+セキュリティを最適化するために、Campaign で生成された URL からセキュリティトークンが削除されました。
+
+* この変更は、GETURL にのみ適用されます。 その他のタイプ (POSTURL など ) は影響を受けません。
+* カスタムコードを使用する場合、セキュリティトークンは、GETURL セキュリティトークンパラメーターから取得されません。 次の JSSP コードを使用して新しいセキュリティトークンを生成する必要があります。
+
+   ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+
+   また、Login API を使用してセキュリティトークンを取得することもできます。
+* セッショントークン管理に変更はありません。
 
 **改善点**
 
