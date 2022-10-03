@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: dfe675ca0f15050a9159172be3d8d8de7e8bf848
+source-git-commit: c9a4110b8ea2d7ad3571da6f7e506c639dfaaf50
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2845'
 ht-degree: 78%
 
 ---
@@ -32,8 +32,8 @@ _2022 年 9 月 31 日_
 <tbody> 
 <tr> 
 <td><p>Adobe CampaignとAdobe Experience Platform間のシームレスな統合を可能にする新しい宛先コネクタとソースコネクタが使用できるようになりました。</p>
-<ul><li>Adobe Campaign Managed Cloud Sources コネクタを使用して、アクティベーションのためにExperience PlatformセグメントをAdobe Campaignに送信する</li>
-<li>Adobe Campaign Managed Cloud Destination Connector を使用して、Adobe Campaignの配信およびトラッキングログをAdobe Experience Platformに送信します。</li>
+<ul><li>Adobe Campaign Managed Cloud Services宛先コネクタを使用して、アクティベーション用にExperience PlatformセグメントをAdobe Campaignに送信する</li>
+<li>Adobe Campaign管理Cloud Serviceソースコネクタを使用して、Adobe Campaignの配信およびトラッキングログをAdobe Experience Platformに送信します。</li>
 </ul>
 <p>詳しくは、<a href="../connect/ac-aep.md">詳細ドキュメント</a>を参照してください。</p>
 </td> 
