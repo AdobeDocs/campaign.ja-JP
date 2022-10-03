@@ -4,9 +4,9 @@ description: Campaign とAdobe Experience Platformの使用方法を説明しま
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 27705fc85794611d1207fe7f3eac3010601b0dc5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Adobe Campaign Managed Managed Managed Managed Moder の宛先とソースコネクタを使用すると、Adobe CampaignとAdobe Experience Platformをシームレスに統合できます。
 
-* 用途 **Adobe Campaign Managed Cloud Sources コネクタ** Adobe Campaignにアクティベーション用のExperience Platformセグメントを送信するには、以下を実行します。
+* 用途 **Adobe Campaign Managed Cloud Services** アクティベーション用にAdobe CampaignにExperience Platformセグメントを送信するための宛先接続
 
    ![](assets/aep-destination.png)
 
-* 用途 **Adobe Campaign Managed Cloud Destination Connector** Adobe Campaignの配信およびトラッキングログをAdobe Experience Platformに送信する場合。
+* 用途 **Adobe Campaign Managed Cloud Services** Adobe Experience PlatformにAdobe Campaignの配信およびトラッキングログを送信するためのソース接続。
 
    ![](assets/aep-logs.png)
 
