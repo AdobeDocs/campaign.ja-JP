@@ -6,22 +6,22 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: acb3223a9a70179ea1cb3a126ef17cf5e234b4ba
+source-git-commit: e873e945f7101c5c54b4b18a128951e08d329b87
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '475'
 ht-degree: 5%
 
 ---
 
 # 早期リリースノート {#e-new-release}
 
-このページでは、次の Campaign v8 リリースに含まれる機能強化および修正点について説明します。
+このページでは、次の Campaign v8 リリースに含まれる機能強化および修正点について説明します。 この内容は、リリース日まで予告なく変更される場合があります。 公式リリースノートは、こちらで参照できます。 [ページ](../start/release-notes.md).
+
+## リリース 8.3.9 {#release-8-3-9}
 
 >[!CAUTION]
 >
-> この内容は、リリース日まで予告なく変更される場合があります。 公式リリースノートは、こちらで参照できます。 [ページ](../start/release-notes.md).
-
-## リリース 8.3.9 {#release-8-3-9}
+> クライアントコンソールのアップグレードは必須です。 クライアントコンソールをアップグレードする方法については、こちらを参照してください [ページ](../start/connect.md#download-ac-console).
 
 _2022 年 10 月 8 日_
 
