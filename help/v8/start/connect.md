@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '850'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 * お使いのシステムとツールについて、Adobe Campaign クライアントコンソールとの互換性を[互換性マトリックス](compatibility-matrix.md)で確認してください。
 * Campaign サーバーの URL を取得する
 * Adobe IDを作成するか、会社からユーザー資格情報を取得する
-* (Campaign Classic8.4 のビルドバージョンから ) システムに Microsoft Edge Webview2 ランタイムをインストールします。 [詳細情報](#webview)
+* （Campaign Classic 8.4 ビルドバージョンから）Microsoft Edge WebView2 ランタイムをシステムにインストールします。[詳細情報](#webview)
 
-## Microsoft Edge Webview2 ランタイムインストール {#webview}
+## Microsoft Edge WebView2 ランタイムのインストール {#webview}
 
-Campaign Classic8.4 のビルドバージョン以降、コンソールのインストールにはMicrosoft Edge Webview 2 ランタイムのインストールが必要です。
+Campaign Classic 8.4 ビルドバージョン以降、コンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-Web ビューは、Windows 11 オペレーティングシステムの一部として既定でインストールされます。 システムにまだ存在しない場合は、Campaign コンソールインストーラーにより、からダウンロードするよう求められます。 [Microsoft Developer Web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp). Microsoftのサポートは廃止されたので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。 リンクにアクセスするには、別のブラウザーを使用してください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだインストールされていない場合、Campaign コンソールインストーラーにより、[Microsoft Developer web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp)からダウンロードするように求められます。Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
 
 ## クライアントコンソールのダウンロードとインストール{#download-ac-console}
 
@@ -87,7 +87,7 @@ Web ビューは、Windows 11 オペレーティングシステムの一部と�
 
 >[!NOTE]
 >
->campaign classic 8.4 のビルドバージョンでは、Adobe Campaignクライアントコンソールは、プロキシ認証中にプロキシ資格情報を 2 回要求する場合があります。 これは、Microsoft Edge Webview2 が Internet Explorer とは異なり、プロキシ資格情報をキャッシュ/パスワードストアに保存しないためです。
+>Campaign Classic 8.4 ビルドバージョンでは、Adobe Campaign クライアントコンソールは、プロキシ認証中にプロキシ資格情報を 2 回要求する場合があります。これは、Internet Explorer とは異なり、Microsoft Edge WebView2 がプロキシ資格情報をキャッシュ／パスワードストアに保存しないためです。
 
 ## ユーザーへのアクセスの許可{#grant-access}
 
