@@ -1,18 +1,18 @@
 ---
-title: キャンペーンの概要
-description: キャンペーンの概要
+title: キャンペーンの基本を学ぶ
+description: キャンペーンの基本を学ぶ
 feature: Audiences
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '841'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# キャンペーンの概要{#gs-ac-campaigns}
+# キャンペーンの基本を学ぶ{#gs-ac-campaigns}
 
 Adobe Campaign が提供する一連のソリューションを使用すると、オンラインとオフラインのすべてのチャネルで、キャンペーンをパーソナライズして配信することができます。マーケティングキャンペーンの作成、設定、実施、分析などを行うことができます。すべてのマーケティングキャンペーンは、統合コントロールセンターで管理できます。この節では、マーケティングキャンペーンの参照および作成方法について説明します。
 
