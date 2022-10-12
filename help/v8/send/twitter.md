@@ -1,13 +1,13 @@
 ---
 title: Adobe Campaign を使用して Twitter でメッセージを投稿
-description: Adobe Campaign Social Marketing モジュールを使用して、Twitterにメッセージを投稿し、フォロワーにダイレクトメッセージを送信する方法を説明します
+description: Adobe Campaign ソーシャルマーケティングモジュールを使用して、Twitter にメッセージを投稿し、フォロワーにダイレクトメッセージを送信する方法を説明します
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: 9f74e3bbff5bcbebf4f5a0ecf4ed7e458b9e38ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Campaign には、Twitter を介して顧客や見込み客とやり取り
 
 統合を設定すると、次の操作を実行できます。
 
-* フォロワーにダイレクトメッセージを送信する
-* twitterアカウントにツイートを投稿
-* プロファイルデータを復元して新しい連絡先を収集します。これにより、キャンペーンのターゲティングを実行し、可能な限りクロスチャネル戦略を実装できます。 この操作には、ユーザーの同意が必要です。
+* フォロワーへのダイレクトメッセージの送信
+* Twitter アカウントにツイートを投稿
+* プロファイルデータを回収して新しい連絡先を収集します。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略を導入できます。この操作には、ユーザーの同意が必要です。
 
 Twitter アカウントを Adobe Campaign と統合するための設定手順については、[このページ](../connect/ac-tw.md)を参照してください。
 
@@ -49,7 +49,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
    「**[!UICONTROL 配達確認のターゲット]**」タブでは、最終的な配信の前に、テスト目的で使用する Twitter アカウントを定義できます。
 
-   詳しくは、 [設定手順](../connect/ac-tw.md#tw-test-account)に値を入力する場合は、配達確認の送信専用の非公開テスト用Twitterアカウントを作成する必要があります。
+   [設定手順](../connect/ac-tw.md#tw-test-account)で詳しく説明しているように、配達確認の送信専用の非公開 Twitter テストアカウントを作成する必要があります。
 
    >[!NOTE]
    >
@@ -104,20 +104,20 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
    1. **[!UICONTROL 宛先]**&#x200B;リンクと「**[!UICONTROL 追加]** 」ボタンを選択します。
 
-   1. ターゲティングのタイプを選択
+   1. ターゲティングのタイプを選択します
 
       * 「**[!UICONTROL Twitter 購読者]**」を選択し、フォロワー全員にダイレクトメッセージを送信します。
 
-      * 「**[!UICONTROL フィルター条件]**」を選択し、クエリを定義して結果を表示します。でフィルターを作成する方法を説明します。 [この節](../audiences/create-filters.md#advanced-filters).
+      * 「**[!UICONTROL フィルター条件]**」を選択し、クエリを定義して結果を表示します。フィルターを作成する方法については、[こちらの節](../audiences/create-filters.md#advanced-filters)を参照してください。
 
-1. 配達確認のターゲットを **[!UICONTROL 配達確認のターゲット]** タブ：このアカウントは、ダイレクトメッセージの配達確認を受信します。
+1. 「**[!UICONTROL 配達確認のターゲット]**」タブから配達確認のターゲットを選択する：このアカウントは、ダイレクトメッセージの配達確認を受信します。
 
-   詳しくは、 [設定手順](../connect/ac-tw.md#tw-test-account)に値を入力する場合は、配達確認の送信専用の非公開テスト用Twitterアカウントを作成する必要があります。
+   [設定手順](../connect/ac-tw.md#tw-test-account)で詳しく説明しているように、配達確認の送信専用の非公開 Twitter テストアカウントを作成する必要があります。
 
 
    >[!NOTE]
    >
-   >すべてのダイレクトメッセージの配達確認を同じTwitterアカウントに送信する場合は、配達確認のターゲットを **[!UICONTROL ツイート（ダイレクトメッセージ）]** 配信テンプレート（経由でアクセス） **[!UICONTROL リソース/テンプレート/配信テンプレート]** ノード。
+   >すべてのダイレクトメッセージの配達確認を同じ Twitter アカウントに送信する場合、「**[!UICONTROL ツイート（ダイレクトメッセージ）]**」配信テンプレートに配達確認のターゲットを保存できます。このテンプレートには、**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードからアクセスできます。
 
 1. 「**[!UICONTROL コンテンツ]**」タブにメッセージの内容を入力します。
 
@@ -132,8 +132,8 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
    ![](assets/tw-dm-preview.png)
 
    1. 「**[!UICONTROL プレビュー]**」タブをクリックします。
-   1. 次をクリック： **[!UICONTROL パーソナライゼーションをテスト]** ドロップダウンメニューで「 」を選択します。 **[!UICONTROL 訪問者の購読]**.
-   1. プレビューをテストするTwitterアカウントを選択します。
+   1. 「**[!UICONTROL パーソナライゼーションをテスト]**」ドロップダウンメニューをクリックし、「**[!UICONTROL 訪問者の購読]**」を選択します。
+   1. プレビューをテストする Twitter アカウントを選択します。
 
 1. 配達確認の送信
 
@@ -150,7 +150,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
 >[!CAUTION]
 >
->1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja?lang=en#sending-using-multiple-waves){target=&quot;_blank&quot;}を参照してください。
+>1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja?lang=ja#sending-using-multiple-waves){target=&quot;_blank&quot;}を参照してください。
 
 
 ## トラッキングデータへのアクセス {#tw-tracking}
