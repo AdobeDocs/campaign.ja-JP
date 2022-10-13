@@ -8,15 +8,15 @@ hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
 source-git-commit: b9dd9e76be14067740426b6cddfa2c5fcddf3158
-workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
 # 既知の問題{#known-issues}
 
-このページでは、 **最新の Campaign v8 リリース**. また、Campaign v8 に伴う制限事項を[こちらのページ](ac-guardrails.md)に示しています。
+このページでは、**Campaign v8 の最新リリース**&#x200B;で確認された既知の問題の一覧を示しています。また、Campaign v8 に伴う制限事項を[こちらのページ](ac-guardrails.md)に示しています。
 
 
 >[!NOTE]
