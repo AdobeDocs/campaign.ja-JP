@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: e7772364ab46673695f498911e2246056a04790e
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 90%
 
 ---
 
@@ -15,53 +15,45 @@ ht-degree: 100%
 # Adobe Campaign v8 ドキュメント {#campaign-v8}
 
 + [Campaign v8 ドキュメント](campaign-home.md)
-+ 新機能{#new}
-   + [主な機能](start/whats-new.md)
++ リリースと最新の更新 {#releases}
    + [早期リリースノート](start/e-release-notes.md)
    + [リリースノート](start/release-notes.md)
    + [ガードレール](start/ac-guardrails.md)
    + [既知の問題](start/known-issues.md)
-   + [Classic v7 から v8](start/v7-to-v8.md)
-+ 開始 {#start}
-   + [基本を学ぶ](start/get-started.md)
+   + [互換性マトリックス](start/compatibility-matrix.md)
++ はじめに {#start}
+   + [Adobe Campaign の概要](start/get-started.md)
+   + [主な機能](start/whats-new.md)
    + [コンポーネントとプロセス](start/ac-components.md)
+   + [Campaign への接続](start/connect.md)
    + Campaign UI {#ac-ui}
       + [Campaign インターフェイスの理解](start/campaign-ui.md)
       + [Campaign インターフェイスのカスタマイズ](start/customize-ui.md)
+      + [フォルダーとビューの管理](audiences/folders-and-views.md)
+   + [Classic v7 から v8 へ](start/v7-to-v8.md)
+   + [FAQ](start/campaign-faq.md)
++ キャンペーン管理 {#campaigns}
+   + [キャンペーンの基本を学ぶ](start/campaigns.md)
+   + [Campaign オーケストレーションドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
+   + メッセージの送信{#send}
+      + [メッセージの基本を学ぶ](start/create-message.md)
+      + メール {#emails}
+         + [メールのデザインと検証](send/email.md)
+         + [メールの送信と監視](send/send.md)
+      + [SMS](send/sms.md)
+      + [プッシュ通知](send/push.md)
+      + [LINE メッセージ](send/line.md)
+      + [ダイレクトメール](send/direct-mail.md)
+      + [Twitter](send/twitter.md)
+      + [トランザクションメッセージ](send/transactional.md)
+      + 失敗、バウンス、強制隔離{#failures}
+         + [強制隔離](send/quarantines.md)
+         + [配信の失敗](send/delivery-failures.md)
+      + [送信時間の最適化](send/predictive.md)
+      + [購読の管理](start/subscriptions.md)
++ Profile &amp; Audience Management {#audience}
+   + [プロファイルとオーディエンスの基本を学ぶ](audiences/gs-audiences.md)
    + [オーディエンスの操作](start/audiences.md)
-   + [プライバシーリクエストの管理](start/privacy.md)
-   + [データの読み込み](start/import.md)
-   + [キャンペーンの作成](start/campaigns.md)
-   + [メッセージの送信](start/create-message.md)
-   + [購読の管理](start/subscriptions.md)
-   + [追跡と監視](start/tracking.md)
-   + [指標とレポート](start/reporting.md)
-   + [よくある質問](start/campaign-faq.md)
-+ アーキテクチャ {#architecture}
-   + [グローバル原則](architecture/general-architecture.md)
-   + [アーキテクチャ](architecture/architecture.md)
-   + FDA Snowflake のデプロイメント {#fda}
-      + [FDA-Snowflake とは](architecture/fda-deployment.md)
-   + エンタープライズ（FFDA）デプロイメント {#ffda}
-      + [Campaign FFDA とは](architecture/enterprise-deployment.md)
-      + 特性 {#ffda-characteristics}
-         + [鍵の管理と単一性](architecture/keys.md)
-         + [新しい API](architecture/new-apis.md)
-         + [API のステージングメカニズム](architecture/staging.md)
-         + [レプリケーションメカニズム](architecture/replication.md)
-+ 実装 {#implement}
-   + [実装手順](start/implement.md)
-   + [インスタンスのカスタマイズ](dev/customize.md)
-   + [セキュリティガイドライン](config/security.md)
-   + [Web アプリとフォームのデザイン](dev/webapps.md)
-   + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
-+ デプロイ {#deploy}
-   + [互換性マトリックス](start/compatibility-matrix.md)
-   + [Campaign への接続](start/connect.md)
-   + [権限](start/permissions.md)
-   + [Campaign コントロールパネル](config/self-service.md)
-+ プロファイルとオーディエンス {#profiles-and-audiences}
-   + [基本を学ぶ](audiences/gs-audiences.md)
    + [プロファイルへのアクセス](audiences/view-profiles.md)
    + プロファイルの追加 {#add-profiles}
       + [プロファイルの手動作成](audiences/create-profiles.md)
@@ -72,23 +64,14 @@ ht-degree: 100%
    + オーディエンスの作成 {#create-audiences}
       + [連絡先リストの作成](audiences/create-audiences.md)
       + [フィルターの作成と管理](audiences/create-filters.md)
-   + [フォルダーとビューの管理](audiences/folders-and-views.md)
+   + [オーディエンスをアドビソリューションと共有する](start/shared-audiences.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
-+ メッセージの送信{#send}
-   + メール {#emails}
-      + [メールのデザインと検証](send/email.md)
-      + [メールの送信と監視](send/send.md)
-   + [SMS](send/sms.md)
-   + [プッシュ通知](send/push.md)
-   + [LINE メッセージ](send/line.md)
-   + [ダイレクトメール](send/direct-mail.md)
-   + [Twitter](send/twitter.md)
-   + [トランザクションメッセージ](send/transactional.md)
-   + [送信時間の最適化](send/predictive.md)
-   + 失敗、バウンス、強制隔離{#failures}
-      + [強制隔離](send/quarantines.md)
-      + [配信の失敗](send/delivery-failures.md)
-+ リアルタイムインタラクション{#interaction}
++ コンテンツ管理 {#content}
+   + [Web アプリとフォームのデザイン](dev/webapps.md)
++ プライバシーとセキュリティの管理 {#privacy}
+   + [プライバシーリクエストの管理](start/privacy.md)
+   + [セキュリティガイドライン](config/security.md)
++ 決定管理 {#offers}
    + [リアルタイムインタラクションの概要](interaction/interaction.md)
    + [環境とアーキテクチャ](interaction/interaction-architecture.md)
    + [ベストプラクティス](interaction/interaction-best-practices.md)
@@ -106,15 +89,17 @@ ht-degree: 100%
       + [匿名インタラクションの管理](interaction/anonymous-interactions.md)
    + [レポートと履歴](interaction/interaction-tracking.md)
    + [ユースケース](interaction/interaction-use-cases.md)
-+ 設定 {#config}
-   + [ワークフローを使用した自動化](config/workflows.md)
-   + [メールの設定](config/email-settings.md)
-   + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-   + [Campaign SDK とアプリの統合](config/push-config.md)
-   + [外部アカウント](config/external-accounts.md)
-+ 接続 {#connect}
-   + [他のソリューションとの連携](connect/integration.md)
-   + [Campaign + Adobe Experience Platform](connect/ac-aep.md)
++ Reporting and Analytics {#analytics}
+   + [追跡と監視](start/tracking.md)
+   + [指標とレポート](start/reporting.md)
++ データ管理{#data}
+   + [ワークフローの基本を学ぶ](config/workflows.md)
+   + [データの読み込み](start/import.md)
+   + [ワークフロードキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
++ 統合 {#connect}
+   + [Campaign を他のソリューションと接続](connect/integration.md)
+   + [キャンペーン+Experience Platform](connect/ac-aep.md)
+   + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign と Analytics の統合](connect/ac-aa.md)
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
    + [Campaign と Target の統合](connect/ac-at.md)
@@ -126,6 +111,31 @@ ht-degree: 100%
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
       + [データの同期](connect/crm-data-sync.md)
++ 管理 {#admin}
+   + [権限](start/permissions.md)
+   + [Campaign コントロールパネル](config/self-service.md)
++ アーキテクチャと設定 {#config}
+   + アーキテクチャ {#architecture}
+      + [グローバル原則](architecture/general-architecture.md)
+      + [アーキテクチャ](architecture/architecture.md)
+      + FDA Snowflake のデプロイメント {#fda}
+         + [FDA-Snowflake とは](architecture/fda-deployment.md)
+      + エンタープライズ（FFDA）デプロイメント {#ffda}
+         + [Campaign FFDA とは](architecture/enterprise-deployment.md)
+         + 特性 {#ffda-characteristics}
+            + [鍵の管理と単一性](architecture/keys.md)
+            + [新しい API](architecture/new-apis.md)
+            + [API のステージングメカニズム](architecture/staging.md)
+            + [レプリケーションメカニズム](architecture/replication.md)
+   + 実装 {#implement}
+      + [実装手順](start/implement.md)
+      + [インスタンスのカスタマイズ](dev/customize.md)
+      + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
+   + 設定 {#configuration}
+      + [メールの設定](config/email-settings.md)
+      + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
+      + [Campaign SDK とアプリの統合](config/push-config.md)
+      + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
    + スキーマとフォーム {#shemas-forms}

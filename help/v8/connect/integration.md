@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '347'
-ht-degree: 100%
+source-git-commit: 6605a24cea536dbef5b1a7e909ff4d76b3d6c222
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 81%
 
 ---
 
@@ -18,19 +18,16 @@ Campaign インスタンスを Adobe Experience Cloud ソリューションと�
 
 Adobe Campaign にはいくつかのコネクタが付属しており、それらを使用して、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期などを行うことができます。
 
-## Adobe ソリューションの活用 {#gs-ac-integration}
+## Adobeソリューション {#gs-ac-integration}
 
-実装を最新化し、Adobe Experience Cloud のすべての機能を活用します。
+Adobe Experience Cloudソリューションを組み合わせて実装を最新化する。
 
 ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 Campaign v8 は以下と接続できます。
 
 * [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=ja)。
-
-   [こちら](https://experienceleague.adobe.com/docs/journeys/using/use-cases-journeys/campaign-classic-use-case.html?lang=ja)でエンドツーエンドの使用例を参照してください。
-
+* [Adobe Journey Optimizer](../connect/ac-ajo.md)
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
 * [Adobe Experience Cloudトリガー](../connect/ac-triggers.md)
@@ -42,7 +39,7 @@ Campaign v8 は以下と接続できます。
 
 ![](../assets/do-not-localize/book.png) Campaign と Experience Cloud ソリューション間の&#x200B;**アセット共有** については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)を参照してください
 
-## CRM コネクタ{#gs-crm-connectors}
+## CRM コネクタとの統合{#gs-crm-connectors}
 
 Adobe Campaign プラットフォームを&#x200B;**サードパーティの CRM システム**&#x200B;に接続して、連絡先、アカウント、購入などのデータを同期することができます。
 
@@ -51,22 +48,22 @@ CRM コネクタを使用すると、すばやく簡単にデータを統合で�
 
 ![](../assets/do-not-localize/glass.png) Campaign を Microsoft Dynamics 365 および Salesforce.com に統合する方法については、[このページ](crm.md)を参照してください
 
-## Federated Data Access（FDA）{#gs-fda}
+## Federated Data Access を使用してサードパーティに接続{#gs-fda}
 
 FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign Cloud データベースのデータに影響を与えることなく、外部データベースに格納された情報を処理できます。
 
 ![](../assets/do-not-localize/glass.png) 詳しくは、[このページ](fda.md)を参照してください
 
+## ソーシャルメディアの操作{#gs-social}
 
-<!--
-## Integrate with social media
+Adobe Campaignを使用して、Twitterを介して顧客や見込み客とやり取りする。
 
-Use the **Managing social networks (Social Marketing)** option to interact with customers and prospects via Twitter.
+以下を行うことができます。
 
-* Send messages on Twitter: Adobe Campaign lets you post messages directly to your twitter account. You can also send direct messages to all your followers.
-* Collect new contacts: Adobe Campaign can automatically recovers the profile data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
+* フォロワーへのダイレクトメッセージの送信
+* Twitter アカウントにツイートを投稿
+* 新しい連絡先を収集
 
-![](../assets/do-not-localize/glass.png) Learn how to set up and use Campaign Social Marketing in [this page](../connect/ac-tw.md).
+![](../assets/do-not-localize/glass.png) でTwitter統合を設定して使用する方法を説明します。 [このページ](../connect/ac-tw.md).
 
-![](../assets/do-not-localize/glass.png) Learn how to create Twitter posts and send direct messages to your followers in [this page](../send/twitter.md).
--->
+![](../assets/do-not-localize/glass.png) twitterの投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、 [このページ](../send/twitter.md).

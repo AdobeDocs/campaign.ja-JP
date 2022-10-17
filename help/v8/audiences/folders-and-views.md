@@ -5,8 +5,8 @@ feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
+workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Campaign フォルダーは、エクスプローラーツリー内のノード�
 
 フォルダーに権限を割り当てて、特定のデータへのアクセスを制限できます。[詳細情報](#restrict-access-to-a-folder)
 
-## フォルダーを操作する際のベストプラクティス
+## フォルダーを操作する際のベストプラクティス{#best-practices-folders}
 
 * **ビルトインフォルダーを使用**&#x200B;すると、プロジェクトに関与しているすべてのユーザーがアプリケーションを簡単に使用、保守、トラブルシューティングできるようになります。受信者、リスト、配信などのカスタムフォルダー構造を作成するのではなく、**管理**、**プロファイルとターゲット**、**キャンペーン管理**&#x200B;などの標準フォルダーを使用してください。
 

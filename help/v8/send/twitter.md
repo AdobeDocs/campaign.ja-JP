@@ -4,8 +4,8 @@ description: Adobe Campaign ソーシャルマーケティングモジュール�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9f74e3bbff5bcbebf4f5a0ecf4ed7e458b9e38ed
-workflow-type: ht
+source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
 
@@ -21,6 +21,7 @@ Adobe Campaign には、Twitter を介して顧客や見込み客とやり取り
 * フォロワーへのダイレクトメッセージの送信
 * Twitter アカウントにツイートを投稿
 * プロファイルデータを回収して新しい連絡先を収集します。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略を導入できます。この操作には、ユーザーの同意が必要です。
+
 
 Twitter アカウントを Adobe Campaign と統合するための設定手順については、[このページ](../connect/ac-tw.md)を参照してください。
 

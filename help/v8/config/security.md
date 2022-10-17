@@ -5,9 +5,9 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '513'
+source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
+workflow-type: tm+mt
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,30 @@ ht-degree: 100%
 * ミラーページや Web アプリケーションなどのように、個人情報を含む可能性があるページを保護します。
 
 ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーの場合は、アドビはお客様と協力して、これらの設定をお客様の環境に実装します。
+
+
+## アクセス管理
+
+アクセス管理は、セキュリティ強化の重要な部分です。 ここでは、主なベストプラクティスを紹介します。
+
+* 十分なセキュリティグループを作成する
+* 各オペレーターのアクセス権が適切であることを確認する
+* 管理オペレーターの使用を避け、管理グループのオペレーターが多くなりすぎないようにする
+
+![](../assets/do-not-localize/book.png)詳しくは [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=ja#webapp-operator){target=&quot;_blank&quot;}を参照してください
+
+## コーディングのガイドライン
+
+Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する場合、常に次のガイドラインに従います。
+
+* **スクリプティング**：SQL 文は使用しないようにします。文字列連結ではなく、パラメーター化関数を使用します。使用する SQL 関数を許可リストに追加して、SQL インジェクションを回避します。
+
+* **データモデルの保護**：ネームド権限を使用してオペレーターのアクションを制限し、システムフィルター（sysFilter）を追加します
+
+* **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
+
+![](../assets/do-not-localize/book.png)詳しくは [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target=&quot;_blank&quot;}を参照してください
+
 
 ## パーソナライゼーション
 
@@ -110,7 +134,7 @@ ht-degree: 100%
 * 各オペレーターのアクセス権が適切であることを確認する
 * 管理オペレーターの使用を避け、管理グループのオペレーターが多くなりすぎないようにする
 
-![](../assets/do-not-localize/book.png)詳しくは [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=ja#webapp-operator){target=&quot;_blank&quot;}を参照してください
+![](../assets/do-not-localize/book.png)詳しくは [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}を参照してください
 
 ## コーディングのガイドライン
 
@@ -122,4 +146,4 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-![](../assets/do-not-localize/book.png)詳しくは [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target=&quot;_blank&quot;}を参照してください
+![](../assets/do-not-localize/book.png)詳しくは [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}を参照してください
