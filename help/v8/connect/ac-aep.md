@@ -5,9 +5,9 @@ feature: Platform Integration
 role: Data Engineer
 level: Beginner
 source-git-commit: 27705fc85794611d1207fe7f3eac3010601b0dc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 81%
 
 Adobe Campaign Managed Cloud Service の宛先とソースコネクタを使用すると、Adobe Campaign と Adobe Experience Platform をシームレスに統合できます。
 
-* 用途 **Adobe Campaign Managed Cloud Services** アクティベーション用にAdobe CampaignにExperience Platformセグメントを送信するための宛先接続
+* **Adobe Campaign Managed Cloud Services** 宛先接続を使用すると、Experience Platform セグメントを Adobe Campaign に送信してアクティブ化することができます。
 
    ![](assets/aep-destination.png)
 
-* 用途 **Adobe Campaign Managed Cloud Services** Adobe Experience PlatformにAdobe Campaignの配信およびトラッキングログを送信するためのソース接続。
+* **Adobe Campaign Managed Cloud Services** ソース接続を使用すると、Adobe Campaign の配信ログとトラッキングログを Adobe Experience Platform に送信できます。
 
    ![](assets/aep-logs.png)
 
