@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
 source-git-commit: 7f9a95f3748b8322933137aa780897611de91678
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign では、**受信者**&#x200B;とは、配信（メール、SMS �
 
 Adobe Campaign にプロファイルデータを入力するには、次の方法を使用できます。
 
-* [データファイルをインポート](../start/import.md) CRM システムなどの外部データソースまたはフラットファイルから
+* CRM システムやフラットファイルなどの外部データソースから[データファイルをインポートする](../start/import.md)
 * 顧客が自分で情報を入力し、自分自身のプロファイルを作成できる [web フォームの作成](../dev/webapps.md)
 * プロファイルが格納されている[外部データベースへのマッピング](../connect/fda.md)
 * 次のように、クライアントコンソールにプロファイルを手動で入力します。
@@ -35,4 +35,4 @@ Adobe Campaign にプロファイルデータを入力するには、次の方�
 
 <!--You can also select your message audience in an external file: recipients are stored not in the database, but in files. These are known as “external” deliveries. These contacts can be imported or not in Adobe Campaign. [Learn more](external-profiles.md).-->
 
-インポートが完了したら、オーディエンスを作成してメッセージを送信できます。 オーディエンスの作成方法を説明します [この節](create-audiences.md).
+インポートしたら、オーディエンスを作成してメッセージを送信できます。オーディエンスの作成方法について詳しくは、[この節](create-audiences.md)を参照してください。
