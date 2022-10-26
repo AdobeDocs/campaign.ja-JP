@@ -1,26 +1,26 @@
 ---
-title: Adobe Experience Cloudソリューションとオーディエンスを共有する
-description: オーディエンスをAdobe Experience Cloudソリューションと共有する方法を説明します
+title: Adobe Experience Cloud ソリューションを使用してオーディエンスを共有
+description: Adobe Experience Cloud  ソリューションを使用してオーディエンスを共有する方法を学ぶ
 feature: Subscriptions
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Cloudソリューションとオーディエンスを共有する{#shared-audiences}
+# Adobe Experience Cloud ソリューションを使用してオーディエンスを共有{#shared-audiences}
 
 
-オプション 1:AEP ソースと宛先
+オプション 1：AEP ソースと宛先
 
-オプション 2:Adobe担当者/AAM
+オプション 2：Adobe People／AAM
 
-統合可能な **Adobe Campaign** と **People コアサービス** Adobe Audience Manager 統合すると、次のことが可能になります。
+**Adobe Campaign** と **People コアサービス**&#x200B;または Adobe Audience Manager を統合できます。統合すると、次のことが可能になります。
 
 * 共有されたオーディエンスまたはセグメントを、他の Adobe Experience Cloud ソリューションから Adobe Campaign にインポートします。オーディエンスは Adobe Campaign のリストを使用してインポートできます。
 
@@ -37,8 +37,8 @@ ht-degree: 69%
    >
    >People コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。
 
-詳しくは、
+詳しくは、次を参照してください。
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)
+[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en)
+[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja)
