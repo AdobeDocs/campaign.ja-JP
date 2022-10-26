@@ -6,15 +6,15 @@ role: User, Developer
 level: Beginner
 exl-id: a460c1b4-4266-46ff-8cca-748050afd579
 source-git-commit: 64bdd8332d0cf76b3e15db58f8abf09fdf163bba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Web アプリケーションと Web フォームの概要{#gs-ac-web}
+# Web アプリケーションと web フォームの概要{#gs-ac-web}
 
-Adobe Campaignには、定義および公開用のグラフィカルモジュールが統合されています **Web フォーム** ：入力フィールドと選択フィールドを使用し、データベースのデータを含むページを作成します。 これにより、お客様はユーザーが閲覧または情報を入力できるよう、Web ページをデザインおよび投稿できます。
+Adobe Campaign では、**web フォーム**&#x200B;を定義して公開するためのグラフィカルなモジュールを統合します。このモジュールでは、入力フィールドと選択フィールドを含むページを作成して、データベースのデータを含めることができます。これにより、お客様はユーザーが閲覧または情報を入力できるよう、web ページをデザインおよび投稿できます。
 
 ![](../assets/do-not-localize/book.png) web フォームを作成して公開する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja#designing-content)を参照してください。{target=&quot;_blank&quot;}
 
