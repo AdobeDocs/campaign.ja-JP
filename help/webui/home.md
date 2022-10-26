@@ -1,14 +1,14 @@
 ---
-keywords: Campaign WebUI;home;popular topics
+keywords: キャンペーン WebUI;ホーム;人気のトピック
 product: campaign
 title: Adobe Campaign WebUI ホーム
 feature: Overview
 description: 概要
 hide: true
 source-git-commit: 07010d0253637bce4df62f7bfa1fd37fb9fb8e7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '15'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
