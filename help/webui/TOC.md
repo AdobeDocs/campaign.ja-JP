@@ -4,9 +4,9 @@ user-guide-title: Campaign WebUI ガイド
 user-guide-description: Campaign WebUI ガイド
 hide: true
 source-git-commit: aa2e678e25a1fde922313bb4860d70a2d4c6aa6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
