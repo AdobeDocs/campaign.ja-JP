@@ -8,13 +8,13 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign v8 への接続{#gs-ac-connect}
 
-Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。Campaign クライアントコンソールの詳細を説明します [このページ](ac-components.md#presentation-layer).
+Campaign クライアントコンソールは、Campaign アプリケーションサーバーに接続できるリッチクライアントです。Campaign クライアントコンソールの詳細については、[このページ](ac-components.md#presentation-layer)を参照してください。
 
 始める前に、次の手順を実行する必要があります。
 

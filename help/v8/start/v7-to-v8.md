@@ -8,7 +8,7 @@ exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 86%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Servicesは、クロスチャネルの顧客体験を設計するための管理Cloud Servicesプラットフォームを提供し、視覚的なキャンペーン編成、リアルタイムのインタラクション管理、クロスチャネルの実行のための環境を提供します。 Campaign Managed Cloud Services について詳しくは、[製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}を参照してください。
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。Campaign Managed Cloud Services について詳しくは、[製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
@@ -66,7 +66,7 @@ Campaign ユーザーは、Adobe ID でのみ接続します。同じ Adobe ID �
 
 マーケティング分析モジュールを使用して、データの分析と測定、統計の計算、レポートの作成と計算の簡素化および最適化を行います。さらに、レポートを作成してターゲット母集団を作成します。特定されると、Adobe Campaign で使用できるリスト（ターゲティング、セグメント化など）に保存されます。
 
-を使用 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)Adobe Campaignキューブレポートは最適化され、Campaign Classicv7 よりも優れた拡張機能を提供します。 この特定のデプロイメントモデルでは、キューブに対する以前の制限は Campaign v8 には適用されません。
+[Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)では、Adobe Campaign キューブレポートは最適化されており、Campaign Classic v7 よりも優れた拡張可能性を提供します。この特定のデプロイメントモデルでは、キューブに対する以前の制限は Campaign v8 には適用されません。
 
 ## 使用できない機能{#gs-unavailable-features}
 
@@ -80,9 +80,9 @@ Campaign ユーザーは、Adobe ID でのみ接続します。同じ Adobe ID �
 
 ## サポートされていない機能{#gs-removed}
 
-一部の履歴Campaign Classicv7 機能は、次のような Campaign v8 ではサポートされなくなりました。
+次に示すような従来の Campaign Classic v7 機能の一部は、Campaign v8 ではサポートされなくなりました。
 
-* facebookでのソーシャルマーケティング
+* Facebook でのソーシャルマーケティング
 * ACS コネクタ（プライムオファー）
 * LDAP との統合
 * ユーザー名／パスワードによるログイン

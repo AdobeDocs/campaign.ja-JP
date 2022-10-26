@@ -8,7 +8,7 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 6605a24cea536dbef5b1a7e909ff4d76b3d6c222
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Campaign インスタンスを Adobe Experience Cloud ソリューションと�
 
 Adobe Campaign にはいくつかのコネクタが付属しており、それらを使用して、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期などを行うことができます。
 
-## Adobeソリューション {#gs-ac-integration}
+## アドビソリューションの組み合わせ {#gs-ac-integration}
 
-Adobe Experience Cloudソリューションを組み合わせて実装を最新化する。
+Adobe Experience Cloud ソリューションを組み合わせて実装を最新化します。
 
 ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
@@ -56,14 +56,14 @@ FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 �
 
 ## ソーシャルメディアの操作{#gs-social}
 
-Adobe Campaignを使用して、Twitterを介して顧客や見込み客とやり取りする。
+Adobe Campaign を使用して、Twitter 経由で顧客や見込み客とやり取りします。
 
 以下を行うことができます。
 
 * フォロワーへのダイレクトメッセージの送信
 * Twitter アカウントにツイートを投稿
-* 新しい連絡先を収集
+* 新しい連絡先の収集
 
-![](../assets/do-not-localize/glass.png) でTwitter統合を設定して使用する方法を説明します。 [このページ](../connect/ac-tw.md).
+![](../assets/do-not-localize/glass.png) Twitter の設定と使用の方法については、[このページ](../connect/ac-tw.md)を参照してください。
 
-![](../assets/do-not-localize/glass.png) twitterの投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、 [このページ](../send/twitter.md).
+![](../assets/do-not-localize/glass.png) Twitter の投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、[このページ](../send/twitter.md)を参照してください。

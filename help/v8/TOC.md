@@ -7,7 +7,7 @@ title: Campaign v8 ドキュメント
 source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 # Adobe Campaign v8 ドキュメント {#campaign-v8}
 
 + [Campaign v8 ドキュメント](campaign-home.md)
-+ リリースと最新の更新 {#releases}
++ リリースと最新のアップデート {#releases}
    + [早期リリースノート](start/e-release-notes.md)
    + [リリースノート](start/release-notes.md)
    + [ガードレール](start/ac-guardrails.md)
@@ -51,7 +51,7 @@ ht-degree: 90%
          + [配信の失敗](send/delivery-failures.md)
       + [送信時間の最適化](send/predictive.md)
       + [購読の管理](start/subscriptions.md)
-+ Profile &amp; Audience Management {#audience}
++ プロファイルと Audience Management {#audience}
    + [プロファイルとオーディエンスの基本を学ぶ](audiences/gs-audiences.md)
    + [オーディエンスの操作](start/audiences.md)
    + [プロファイルへのアクセス](audiences/view-profiles.md)
@@ -64,14 +64,14 @@ ht-degree: 90%
    + オーディエンスの作成 {#create-audiences}
       + [連絡先リストの作成](audiences/create-audiences.md)
       + [フィルターの作成と管理](audiences/create-filters.md)
-   + [オーディエンスをアドビソリューションと共有する](start/shared-audiences.md)
+   + [オーディエンスをアドビソリューションと共有](start/shared-audiences.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
 + コンテンツ管理 {#content}
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
-+ 決定管理 {#offers}
++ 意思決定管理 {#offers}
    + [リアルタイムインタラクションの概要](interaction/interaction.md)
    + [環境とアーキテクチャ](interaction/interaction-architecture.md)
    + [ベストプラクティス](interaction/interaction-best-practices.md)
@@ -89,16 +89,16 @@ ht-degree: 90%
       + [匿名インタラクションの管理](interaction/anonymous-interactions.md)
    + [レポートと履歴](interaction/interaction-tracking.md)
    + [ユースケース](interaction/interaction-use-cases.md)
-+ Reporting and Analytics {#analytics}
++ レポートと分析 {#analytics}
    + [追跡と監視](start/tracking.md)
    + [指標とレポート](start/reporting.md)
 + データ管理{#data}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [データの読み込み](start/import.md)
+   + [データのインポート](start/import.md)
    + [ワークフロードキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
-   + [Campaign を他のソリューションと接続](connect/integration.md)
-   + [キャンペーン+Experience Platform](connect/ac-aep.md)
+   + [Campaign をその他のソリューションと接続する](connect/integration.md)
+   + [Campaign + Experience Platform](connect/ac-aep.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign と Analytics の統合](connect/ac-aa.md)
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
