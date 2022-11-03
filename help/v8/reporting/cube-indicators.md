@@ -4,7 +4,7 @@ description: キューブの作成方法を学ぶ
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 37%
@@ -58,7 +58,7 @@ ht-degree: 37%
 1. 作業用テーブルを選択します。[詳細情報](#select-the-work-table)。
 1. ディメンションを定義します。[詳細情報](#define-dimensions)。
 1. 測定を定義します。[詳細情報](#build-indicators)。
-1. 集計を作成します（オプション）。[詳細情報](cube-best-practices.md#calculate-and-use-aggregates)。
+1. 集計を作成します（オプション）。[詳細情報](customize-cubes.md#calculate-and-use-aggregates)。
 
 次の例では、レポートにシンプルなキューブをすばやく作成して、そのキューブの測定をエクスポートする方法を説明します。
 
@@ -90,7 +90,7 @@ ht-degree: 37%
 
 1. この例では、受信者を選択しています **年齢**. このフィールドに対して、ビニングを定義して年齢をグループ化し、情報を読み取りやすくすることができます。いくつかの独立した値を扱う可能性がある場合は、ビニングを使用することをお勧めします。
 
-それには、「**[!UICONTROL ビニングを有効にする]**」オプションにチェックを入れます。[詳細情報](cube-best-practices.md#data-binning)。
+それには、「**[!UICONTROL ビニングを有効にする]**」オプションにチェックを入れます。[詳細情報](customize-cubes.md#data-binning)。
 
 1. **日付**&#x200B;タイプのディメンションを追加します。ここでは、受信者プロファイルの作成日を表示します。。それには、「**[!UICONTROL 追加]**」をクリックし、受信者テーブルの&#x200B;**[!UICONTROL 作成日]**&#x200B;フィールドを選択します。日付の表示モードはカスタマイズできます。 それには、使用する階層と生成するレベルを選択します。
 
@@ -108,7 +108,7 @@ ht-degree: 37%
 
 その列挙の値のみ表示されます。それ以外は、「**[!UICONTROL 他の値のラベル]**」フィールドで定義したラベルの下にグループ化されます。
 
-詳しくは、[この節](cube-best-practices.md#dynamically-manage-bins)を参照してください。
+詳しくは、[この節](customize-cubes.md#dynamically-manage-bins)を参照してください。
 
 ### 指標の構築 {#build-indicators}
 
@@ -123,7 +123,7 @@ ht-degree: 37%
 
    ![](assets/cube-new-measure.png)
 
-   以下を使用： **[!UICONTROL 測定データをフィルター…]** 女性のみを選択するリンク。 [詳細情報](cube-best-practices.md#define-measures)。
+   以下を使用： **[!UICONTROL 測定データをフィルター…]** 女性のみを選択するリンク。 [詳細情報](customize-cubes.md#define-measures)。
 
    ![](assets/cube-filter-measure-data.png)
 

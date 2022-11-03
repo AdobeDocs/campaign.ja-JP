@@ -3,7 +3,7 @@ product: campaign
 title: キューブを使用したデータのレポート作成
 description: キューブを使用してレポートを作成する方法を説明します。
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 70%
@@ -60,7 +60,7 @@ ht-degree: 70%
 
    これらのパラメーターは、選択したディメンションのデータタイプに応じて異なります。
 
-   例えば、日付の場合は、複数のレベルが使用可能です。詳しくは、[測定の表示](cube-best-practices.md#display-measures)を参照してください。
+   例えば、日付の場合は、複数のレベルが使用可能です。詳しくは、[測定の表示](customize-cubes.md#display-measures)を参照してください。
 
    その場合、次のオプションを使用できます。
 
@@ -102,7 +102,7 @@ ht-degree: 70%
 
    ![](assets/cube-pivot-table-config.png)
 
-   次に、測定のラベルを表示するかどうかを選択できます。[詳細情報](cube-best-practices.md#configure-the-display)。
+   次に、測定のラベルを表示するかどうかを選択できます。[詳細情報](customize-cubes.md#configure-the-display)。
 
 1. 既存の測定に基づいて新しい測定を作成できます。 それには、「**[!UICONTROL 測定を作成]**」をクリックし、測定を設定します。
 

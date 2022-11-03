@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: b9928cc3bda0c0a1a0d5a43b2604615d7472b419
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 94%
@@ -97,7 +97,7 @@ ht-degree: 94%
          + [キューブの基本を学ぶ](reporting/gs-cubes.md)
          + [キューブの作成](reporting/cube-indicators.md)
          + [キューブを使用したレポートの作成](reporting/cube-tables.md)
-         + [キューブのカスタマイズ](reporting/cube-best-practices.md)
+         + [キューブのカスタマイズ](reporting/customize-cubes.md)
       + ビルトインレポート{#ac-reports}
          + [組み込みレポートのリスト](reporting/built-in-reports.md)
          + [グローバルレポート](reporting/global-reports.md)
