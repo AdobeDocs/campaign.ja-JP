@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -72,7 +72,7 @@ Adobe Campaign では、すぐに使える強力なレポートテンプレー�
 キャンペーンレポート機能により、動的レポートの作成が容易になります。ドラッグ＆ドロップ変数を使用して、レポートをカスタマイズしたり、キャンペーンが成功するかどうかを分析したりできます。クエリや計算の複雑さに応じて、データをリスト表示に集計したり、マーケティング分析レポートを簡単に生成できる形式でデータにアクセスしたりできます。
 
 
-![](../assets/do-not-localize/glass.png) レポート機能とトラッキング機能について詳しくは、[この節](reporting.md)を参照してください。
+![](../assets/do-not-localize/glass.png) レポート機能とトラッキング機能について詳しくは、[この節](../reporting/gs-reporting.md)を参照してください。
 
 ## Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
 

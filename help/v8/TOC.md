@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
+source-git-commit: 863793e11b29f8f522e47d5158b64eacc0d2acb5
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 94%
 
 ---
 
@@ -91,7 +91,19 @@ ht-degree: 100%
    + [ユースケース](interaction/interaction-use-cases.md)
 + レポートと分析 {#analytics}
    + [追跡と監視](start/tracking.md)
-   + [指標とレポート](start/reporting.md)
+   + レポートの操作{#reports}
+      + [レポートの概要](reporting/gs-reporting.md)
+      + キューブの作成{#cubes}
+         + [キューブの基本を学ぶ](reporting/gs-cubes.md)
+         + [キューブの作成](reporting/cube-indicators.md)
+         + [キューブを使用したレポートの作成](reporting/cube-tables.md)
+         + [キューブのベストプラクティス](reporting/cube-best-practices.md)
+      + ビルトインレポート{#ac-reports}
+         + [組み込みレポートのリスト](reporting/built-in-reports.md)
+         + [グローバルレポート](reporting/global-reports.md)
+         + [配信レポート](reporting/delivery-reports.md)
+         + [組み込み指標の計算](reporting/metrics-calculation.md)
+      + [カスタムレポート](reporting/custom-reports.md)
 + データ管理{#data}
    + [ワークフローの基本を学ぶ](config/workflows.md)
    + [データのインポート](start/import.md)
