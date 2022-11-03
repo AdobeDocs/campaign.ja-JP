@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: キューブの実装とベストプラクティス
+title: キューブのカスタマイズ
 description: Adobe Campaignでキューブを実装する際のベストプラクティスを学ぶ
 feature: Reporting
-source-git-commit: 80e5efc5998c67ce576e9f8208fab9543fc70d29
+source-git-commit: b9928cc3bda0c0a1a0d5a43b2604615d7472b419
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 93%
+source-wordcount: '1540'
+ht-degree: 94%
 
 ---
 
-# キューブの実装とベストプラクティス{#cube-best-practices}
+# キューブのカスタマイズ{#cube-custom}
 
 ## データビニング {#data-binning}
 
