@@ -3,26 +3,29 @@ product: campaign
 title: 集計の更新
 description: 「集計を更新」ワークフローアクティビティの詳細を説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+role: Data Engineer
+level: Beginner
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 20%
 
 ---
 
 # 集計の更新{#update-aggregate}
 
-集計は、レポーティングの目的のためキューブレベルで定義できます。集計の設定は、「**[!UICONTROL ワークフロー]**」タブでおこないます。
+で定義された集計 [キューブ](../../v8/reporting/gs-cubes.md) レポートの目的では、を特定のアクティビティで更新できます。 A **[!UICONTROL ワークフロー]** 「 」タブは、集計を設定する際に使用できます。
 
-キューブおよび Adobe Campaign での集計の使用について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+キューブと集計の詳細を説明します [この節](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
 
+集計を更新するには、 **[!UICONTROL 集計を更新]** 「 」アクティビティを選択し、更新するキューブと集計を選択します。
 
-集計を更新するには、**[!UICONTROL 集計を更新]**&#x200B;アクティビティを編集し、キューブと更新する集計を選択します。
+次の項目を設定できます。 **完全更新** または **部分更新**.
 
-**完全更新**&#x200B;または&#x200B;**部分更新**&#x200B;を実行できます。
+![](assets/update-aggregate-details.png)
 
-デフォルトでは、各計算時に完全更新が実行されます。部分的更新を有効にするには、該当するオプションを選択し、更新の条件を定義します。
+デフォルトでは、各計算時に完全更新が実行されます。部分的な更新を有効にするには、「 」オプションを選択し、更新条件を定義します。
 
-**ベストプラクティス**：アクティビティを使用して、計算の更新頻度をスケジュール設定できる「**[!UICONTROL スケジューラー]**」アクティビティ。
+![](assets/update-aggregate-partial.png)
 
-![](assets/scheduler-and-cube-aggregate.png)
+ベストプラクティスは、 **[!UICONTROL スケジューラ]** 「 」アクティビティを使用して、計算の更新頻度を設定します。

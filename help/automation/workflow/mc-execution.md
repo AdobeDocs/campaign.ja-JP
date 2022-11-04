@@ -3,9 +3,9 @@ product: campaign
 title: Message Center（実行）
 description: Message Center（実行）
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
@@ -13,15 +13,7 @@ ht-degree: 100%
 
 # Message Center（実行）{#message-center-execution}
 
-
-
 以下に説明するワークフローは、デフォルトで **Message Center - 実行**&#x200B;アドオンと共にインストールされます。
-
-詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
-
-!
-
-![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html?lang=ja)
 
 <table> 
  <tbody> 

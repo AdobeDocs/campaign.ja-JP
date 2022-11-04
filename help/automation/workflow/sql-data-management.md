@@ -3,16 +3,14 @@ product: campaign
 title: SQL データ管理
 description: SQL データ管理ワークフローアクティビティの詳細を説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '393'
 ht-degree: 100%
 
 ---
 
 # SQL データ管理{#sql-data-management}
-
-
 
 「**SQL データ管理**」アクティビティでは、独自の SQL スクリプトを記述して、ワークテーブルを作成および設定する独自の SQL クエリを記述できます。
 
@@ -20,16 +18,9 @@ ht-degree: 100%
 
 アクティビティを設定する前に、以下の前提条件を満たしていることを確認してください。
 
-* このアクティビティは、リモートデータソースに対してのみ使用できます。**
-
-   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja)
-
+* このアクティビティは、リモートデータソースに対してのみ使用できます。
 * アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。 
-* ワークフローを実行するオペレーターには、** が必要です。
+
 
 ## 「SQL データ管理」アクティビティの設定 {#configuring-the-sql-data-management-activity}
 

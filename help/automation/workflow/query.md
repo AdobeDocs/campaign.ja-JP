@@ -3,9 +3,9 @@ product: campaign
 title: クエリ
 description: クエリワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1628'
 ht-degree: 100%
 
 ---
@@ -177,12 +177,6 @@ Adobe Campaign データベースからデータを追加するには：
    よくあるのは、`iBlacklist='3'` のような間違いです。`iBlacklist` は数値フィールドであるのに、`3` はテキスト値を示しています。
 
    各クエリの実行計画がどのようなものになるのか知っている必要があります。リアルタイムクエリや毎分実行されるニアリアルタイムクエリの場合は特に、フルテーブルスキャンを避けます。
-
-   詳しくは、Campaign のバージョンに応じて、次の節を参照してください。
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=ja)
 
 ### 関数 {#functions}
 

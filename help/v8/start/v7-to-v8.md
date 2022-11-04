@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 100%
+source-wordcount: '643'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Campaign ユーザーは、Adobe ID でのみ接続します。同じ Adobe ID �
 
 マーケティング分析モジュールを使用して、データの分析と測定、統計の計算、レポートの作成と計算の簡素化および最適化を行います。さらに、レポートを作成してターゲット母集団を作成します。特定されると、Adobe Campaign で使用できるリスト（ターゲティング、セグメント化など）に保存されます。
 
-[Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)では、Adobe Campaign キューブレポートは最適化されており、Campaign Classic v7 よりも優れた拡張可能性を提供します。この特定のデプロイメントモデルでは、キューブに対する以前の制限は Campaign v8 には適用されません。
+Adobe Campaign v8 では、キューブレポートが最適化され、Campaign Classicv7 よりも優れた拡張機能を提供します。 この特定のデプロイメントモデルでは、キューブに対する以前の制限は Campaign v8 には適用されません。のキューブの詳細を説明します [この節](../../v8/reporting/gs-cubes.md).
 
 ## 使用できない機能{#gs-unavailable-features}
 
