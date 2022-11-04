@@ -4,10 +4,10 @@ description: キューブの作成方法を学ぶ
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
+source-git-commit: bead34ec59f6f3dca0fbec8460d58ec7da2ed76f
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 75%
+source-wordcount: '525'
+ht-degree: 77%
 
 ---
 
@@ -20,11 +20,6 @@ Adobe Campaignには、動的なレポートを作成するための直感的な
 データベースの調査および分析機能を拡張できると同時に、最終ユーザーがレポートやテーブルを設定しやすくなります。計算、測定および統計を処理するレポートやテーブルを作成する際に、既存の（完全に設定された）キューブを選択するだけです。
 
 キューブは、次のような特定の組み込みレポートの生成に使用されます。 [配信レポート](delivery-reports.md) （配信トラッキング、クリック、開封など）。
-
->[!CAUTION]
->
->内 [[!DNL Snowflake] FDA（デフォルト）デプロイメント](../architecture/fda-deployment.md)では、キューブに基づくレポートは、500 万行未満のファクト行に基づくデータ量に対してのみ使用できます。
-
 
 キューブが作成および設定されると、レポートのクエリボックスや Web アプリケーションで使用されます。キューブをピボットテーブル内で使用して操作できます。
 
