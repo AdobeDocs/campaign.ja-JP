@@ -4,7 +4,7 @@ description: キャンペーンの成功を測定し、ユーザー行動を分�
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: d8dd91453c035703b4ffd5c8b9816f27392874d6
+source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 77%
@@ -15,7 +15,6 @@ ht-degree: 77%
 # レポートの概要{#gs-ac-reports}
 
 Adobe Campaign では、このページにリストされている一連のレポートツールを提供しています。
-
 
 * **キューブ**
 
