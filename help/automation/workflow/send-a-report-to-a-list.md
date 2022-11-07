@@ -3,16 +3,15 @@ product: campaign
 title: リストへのレポートの送信
 description: ワークフローでリストへレポートを送信する方法を学ぶ
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: e211c0f01a4813ad29f47652fffac2b44bc0f867
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '728'
+ht-degree: 40%
 
 ---
 
-# リストへのレポートの送信{#sending-a-report-to-a-list}
 
-
+# リストへのレポートの送信{#send-a-report-to-a-list}
 
 この使用例では、標準の月次「**[!UICONTROL トラッキング指標]**」レポートを PDF 形式で作成する方法と、そのレポートをリストに記載の受信者に送信する方法を詳しく説明します。
 
@@ -20,67 +19,72 @@ ht-degree: 100%
 
 この使用例の主な実装手順は次のとおりです。
 
-* 配信先の受信者のリストの作成（[手順 1：受信者リストの作成](#step-1--creating-the-recipient-list)を参照）。
-* ワークフローが実行されるたびに新しい配信を生成できる配信テンプレートの作成（[手順 2：配信テンプレートの作成](#step-2--creating-the-delivery-template)を参照）。
-* PDF 形式のレポートを生成してリストに記載の受信者に送信可能なワークフローの作成（[手順 3：ワークフローの作成](#step-3--creating-the-workflow)を参照）。
+* このレポートの受信者のリストを作成します。 [詳細情報](#step-1--create-the-recipient-list)。
+* ワークフローを実行するたびに新しい配信を作成する配信テンプレートを作成します。 [詳細情報](#step-2--create-the-delivery-template)。
+* ワークフローを作成し、PDF形式でレポートを生成し、受信者のリストに送信します。 [詳細情報](#step-3--create-the-workflow)）。
 
-## 手順 1：受信者リストの作成 {#step-1--creating-the-recipient-list}
+## 手順 1:受信者リストの作成 {#step-1--create-the-recipient-list}
 
-「**[!UICONTROL プロファイルとターゲット]**」タブに移動し、「**[!UICONTROL リスト]**」リンクをクリックしてから、「**[!UICONTROL 作成]**」ボタンをクリックします。「**[!UICONTROL 新しいリスト]**」を選択し、レポートの送信先とする受信者のリストを新たに作成します。
+ターゲット受信者のリストを作成するには、次の手順に従います。
 
-![](assets/use_case_report_1.png)
+1. 次を参照： **[!UICONTROL プロファイルとターゲット]** タブで、 **[!UICONTROL リスト]** リンク。
+1. 「**[!UICONTROL 作成]**」ボタンをクリックします。
+1. 「**[!UICONTROL 新しいリスト]**」を選択し、レポートの送信先とする受信者のリストを新たに作成します。
 
-リストの作成について詳しくは、この節を参照してください。
+リストの作成について詳しくは、 [この節](../../v8/audiences/create-audiences.md).
 
-## 手順 2：配信テンプレートの作成 {#step-2--creating-the-delivery-template}
+## 手順 2:配信テンプレートの作成 {#step-2--create-the-delivery-template}
 
-1. Adobe Campaign エクスプローラーで、**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードに移動し、標準の「**[!UICONTROL E メール配信]**」テンプレートを複製します。
+配信テンプレートを作成するには、次の手順に従います。
 
-   ![](assets/use_case_report_2.png)
+1. 次を参照： **[!UICONTROL リソース/テンプレート/配信テンプレート]** Adobe Campaignエクスプローラーのノードに移動し、 **[!UICONTROL E メール配信]** 組み込みテンプレート。
 
-   配信テンプレートの作成について詳しくは、この節を参照してください。
+   配信テンプレートの作成について詳しくは、 [この節](../../v8/send/create-templates.md).
 
-1. ラベル、ターゲット（前に作成した受信者のリスト）など、各種テンプレートパラメーターのほか、件名、コンテンツを入力します。
+1. テンプレートパラメーターを入力します。ラベル、ターゲット（以前に作成した受信者のリスト）、件名、コンテンツ。
 
-   ![](assets/use_case_report_3.png)
+   ワークフローが実行されるたびに、 **[!UICONTROL トラッキング指標]** レポートは、 [手順 3:ワークフローの作成](#step-3--creating-the-workflow)) をクリックします。
 
-1. ワークフローが実行されるたびに、「**[!UICONTROL トラッキング指標]**」レポートが更新されます（[手順 3：ワークフローの作成](#step-3--creating-the-workflow)を参照）。配信に最新のレポートを含めるには、以下の手順で、**[!UICONTROL 計算による添付ファイル]**&#x200B;を追加する必要があります。
+1. 配信に最新のレポートを含めるには、以下の手順で、**[!UICONTROL 計算による添付ファイル]**&#x200B;を追加する必要があります。
 
-   計算による添付ファイルの作成について詳しくは、この節を参照してください。
-
-   * 「**[!UICONTROL 添付ファイル]**」リンク、「**[!UICONTROL 追加]**」の順にクリックし、「**[!UICONTROL 計算による添付ファイル]**」を選択します。
+   * 次をクリック： **[!UICONTROL 添付ファイル]** リンクをクリックし、 **[!UICONTROL 追加]** 」ボタンをクリックします。 選択 **[!UICONTROL 計算済み添付ファイル…]**.
 
       ![](assets/use_case_report_4.png)
 
-   * 「**[!UICONTROL タイプ]**」フィールドに移動して、4 つ目のオプション、「**[!UICONTROL 各メッセージの配信中にファイル名を計算する（受信者のプロファイルの利用可）]**」を選択します。
+   * 内 **[!UICONTROL タイプ]** ドロップダウンリストから、最新のオプションを選択します。 **[!UICONTROL 各メッセージの配信中にファイル名を生成（受信者プロファイルを利用可）]**.
 
       ![](assets/use_case_report_5.png)
 
       「**[!UICONTROL ラベル]**」フィールドに入力された値は、最終の配信では表示されません。
 
-   * 編集ゾーンに移動し、アクセスパスとファイルの名前を入力します。
+   * テキストゾーンに、アクセスパスとファイルの名前を入力します。
 
       ![](assets/use_case_report_6.png)
 
       >[!CAUTION]
       >
-      >ファイルはサーバー上に置かれている必要があります。ファイルのパスと名前は、ワークフローの **[!UICONTROL JavaScript コード]**&#x200B;タイプアクティビティに入力したものと同一でなければなりません（[手順 3：ワークフローの作成](#step-3--creating-the-workflow)を参照）。
+      >パスと名前は、 **[!UICONTROL JavaScript コード]** ワークフローの「 」アクティビティを入力します。詳しくは、 [手順 3:ワークフローの作成](#step-3--creating-the-workflow).
 
-   * 「**[!UICONTROL 詳細設定]**」タブを選択し、「**[!UICONTROL 送信するメールで表示されるファイル名を記述]**」チェックボックスをオンにします。編集ゾーンに移動し、最終の配信で使用する添付ファイルの名前を入力します。
+   * 「**[!UICONTROL 詳細設定]**」タブを選択し、「**[!UICONTROL 送信するメールで表示されるファイル名を記述]**」チェックボックスをオンにします。テキストゾーンに、最終の配信で使用する添付ファイルの名前を入力します。
 
       ![](assets/use_case_report_6bis.png)
 
-## 手順 3：ワークフローの作成 {#step-3--creating-the-workflow}
+## 手順 3:ワークフローの作成 {#step-3--creating-the-workflow}
 
-この使用例では、次のようなワークフローを作成しています。アクティビティは 3 つあります。
-
-* 1 ヶ月に 1 回、ワークフローを実行する 1 つの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;タイプアクティビティ
-* PDF 形式のレポートを生成する 1 つの **[!UICONTROL JavaScript コード]**&#x200B;タイプアクティビティ
-* 作成済みの配信テンプレートを使用する 1 つの「**[!UICONTROL 配信]**」タイプアクティビティ
+この使用例で使用するワークフローを次のように作成します。
 
 ![](assets/use_case_report_8.png)
 
-1. **[!UICONTROL 管理／プロダクション／テクニカルワークフロー]**&#x200B;の順にノードを移動し、新規のワークフローを作成します。
+次の 3 つのアクティビティを使用します。
+
+* A **[!UICONTROL スケジューラ]** 月に 1 回、ワークフローを実行する「 」アクティビティ
+* A **[!UICONTROL JavaScript コード]** 「PDF」形式のレポートを生成するアクティビティ
+* A **[!UICONTROL 配信]** 前に作成した配信テンプレートを参照するアクティビティ。
+
+このワークフローを構築するには、次の手順に従います。
+
+1. 次を参照： **[!UICONTROL 管理/プロダクション/テクニカルワークフロー]** Campaign エクスプローラーのノードを作成し、ワークフローを保存する新しいフォルダーを作成します。
+1. 新しいワークフローを作成します。
 
    ![](assets/use_case_report_7.png)
 
@@ -96,9 +100,9 @@ ht-degree: 100%
 
    編集ゾーンで次のコードを入力します。
 
-   ```
-   var reportName = "deliveryFeedback";
-   var path = "/tmp/deliveryFeedback.pdf";
+   ```sql
+   var reportName = "indicators";
+   var path = "/tmp/indicators.pdf";
    var exportFormat = "PDF";
    var reportURL = "<PUT THE URL OF THE REPORT HERE>";
    var _ctx = <ctx _context="global" _reportContext="deliveryFeedback" />
@@ -107,22 +111,26 @@ ht-degree: 100%
    xtk.report.export(reportName, _ctx, exportFormat, path, isAdhoc);
    ```
 
-   次の変数が使用されます。
+
+   を次の変数に置き換えます。
 
    * **var reportName**：ダブルコーテーションで囲い、レポートの内部名を入力します。このケースでは、「**トラッキング指標**」レポートの内部名は「deliveryFeedback」になります。
-   * **var path**：ファイルの保存先のパス（「tmp/files/」）、ファイルに付与する名前（「deliveryFeedback」）、およびファイルの拡張子（「.pdf」）を入力します。このケースでは、ファイル名に内部名を使用します。それぞれの値は、ダブルコーテーションで囲い、「+」の文字で区切る必要があります。
+   * **var パス**:ファイルの保存パス (「tmp」)、ファイルに与える名前 (「deliveryFeedback」)、ファイルの拡張子 (「.pdf」) を入力します。 このケースでは、ファイル名に内部名を使用します。それぞれの値は、ダブルコーテーションで囲い、「+」の文字で区切る必要があります。
 
       >[!CAUTION]
       >
-      >ファイルはサーバー上に保存されている必要があります。計算済み添付ファイルの編集ウィンドウの「**[!UICONTROL 一般]**」タブで使用するのと同じパスと名前を入力する必要があります（[手順 2：配信テンプレートの作成](#step-2--creating-the-delivery-template)を参照）。
+      >ファイルはサーバー上に保存されている必要があります。同じパスと同じ名前を **[!UICONTROL 一般]** 計算済み添付ファイルの編集ウィンドウのタブ（詳細） [ここ](#step-2--create-the-delivery-template)) をクリックします。
 
    * **var exportFormat**：ファイルのエクスポートフォーマット（「PDF」）を入力します。
    * **var _ctx**（コンテキスト）：このケースでは、グローバルコンテキストに「**[!UICONTROL トラッキング指標]**」レポートを使用します。
 
-1. 「**[!UICONTROL 配信]**」タイプアクティビティに以下のオプションを追加して作業を完了します。
+1. を追加して完了 **[!UICONTROL 配信]** 「 」アクティビティに次のオプションが含まれています。
+
+   ![](assets/use_case_report_11.png)
 
    * **[!UICONTROL 配信]**：「**[!UICONTROL 新規（テンプレートから作成）]**」を選択し、前に作成した配信テンプレートを選択します。
    * 「**[!UICONTROL 受信者]**」フィールドと「**[!UICONTROL コンテンツ]**」フィールドで「**[!UICONTROL 配信で指定]**」を選択します。
-   * **[!UICONTROL 実行するアクション]**：「**[!UICONTROL 準備と開始]**」を選択します。
-   * 「**[!UICONTROL アウトバウンドトランジションを生成]**」チェックボックスと「**[!UICONTROL エラーを処理]**」チェックボックスをオフにします。
-   ![](assets/use_case_report_11.png)
+   * **[!UICONTROL 実行するアクション]**:選択 **[!UICONTROL 準備と開始]**.
+   * をオフにします。 **[!UICONTROL アウトバウンドトランジションを生成]** および **[!UICONTROL エラーを処理]** オプション。
+
+1. 変更を保存し、ワークフローを開始します。 メッセージは毎月第 1 月曜日に受信者のリストに送信され、レポートが添付されます。

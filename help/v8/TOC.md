@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
+source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 94%
+source-wordcount: '474'
+ht-degree: 93%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 94%
    + [Campaign オーケストレーションドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
    + メッセージの送信{#send}
       + [メッセージの基本を学ぶ](start/create-message.md)
+      + [配信テンプレートの使用](send/create-templates.md)
       + メール {#emails}
          + [メールのデザインと検証](send/email.md)
          + [メールの送信と監視](send/send.md)
