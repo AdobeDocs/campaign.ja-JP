@@ -4,16 +4,14 @@ title: 配信コンテンツの読み込み
 description: 配信コンテンツの読み込み
 feature: Workflows
 exl-id: 08febcbc-1703-4d36-89e1-32c903618084
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 9dfb1acd97e529a8b60119154b3728c883dd9c97
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
 
 # 配信コンテンツの読み込み{#loading-delivery-content}
-
-
 
 Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。
 
@@ -52,6 +50,3 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
 
 1. 保存して、ワークフローを実行します。読み込まれたコンテンツを含む新しい配信が&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;の下に作成されます。
 
->[!NOTE]
->
->SFTP サーバー使用のベストプラクティスおよびトラブルシューティングについて詳しくは、こちらを参照してください。
