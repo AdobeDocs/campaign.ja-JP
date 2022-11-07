@@ -5,14 +5,14 @@ description: Campaign で配信テンプレートを作成して使用する方�
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 822d1bee472330b6195ad9527a7e23e90c7650b4
+source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 配信テンプレートの使用{#creating-a-delivery-template}
+# 配信テンプレートの使用{#work-with-delivery-template}
 
 キャンペーンの実行と開始を迅速におこなうために、配信テンプレートを使用してクリエイティブなルックアンドフィールを標準化します。
 
@@ -27,9 +27,12 @@ ht-degree: 50%
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#delivery-template-video)
 
+
+## テンプレートの作成{#create-a-delivery-template}
+
 配信テンプレートを作成するには、組み込みテンプレートの複製、既存の配信のテンプレートへの変換、または最初から配信テンプレートの作成をおこないます。
 
-## 既存のテンプレートのコピー{#copy-an-existing-template}
+### 既存のテンプレートの複製{#copy-an-existing-template}
 
 Campaign には、各チャネル用の一連の組み込みテンプレートが付属しています。電子メール、プッシュ、SMS、ダイレクトメールなど。
 
@@ -51,7 +54,7 @@ Campaign には、各チャネル用の一連の組み込みテンプレート�
 
 ![](assets/select-the-new-template.png)
 
-## 既存の配信のテンプレートへの変換 {#convert-an-existing-delivery}
+### 既存の配信のテンプレートへの変換 {#convert-an-existing-delivery}
 
 配信をテンプレートに変換すると、新しい繰り返し配信アクションの作成に使用できます。
 
@@ -67,7 +70,7 @@ Campaign には、各チャネル用の一連の組み込みテンプレート�
 
    ![](assets/template-select-folders.png)
 
-## 新しいテンプレートを作成 {#create-a-new-template}
+### 新しいテンプレートを作成 {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -87,7 +90,9 @@ Campaign には、各チャネル用の一連の組み込みテンプレート�
 1. 「**保存**」をクリックします。これで、テンプレートを配信で使用できるようになります。
 
 
-## テンプレートからの配信の作成{#create-a-delivery-from-a-template}
+## テンプレートの使用{#use-a-delivery-template}
+
+### テンプレートからの配信の作成{#create-a-delivery-from-a-template}
 
 既存のテンプレートをベースにして配信を作成するには、利用可能な配信テンプレートのリストからテンプレートを選択します。
 
