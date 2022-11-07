@@ -3,7 +3,7 @@ product: campaign
 title: リストへのレポートの送信
 description: ワークフローでリストへレポートを送信する方法を学ぶ
 feature: Workflows
-source-git-commit: e211c0f01a4813ad29f47652fffac2b44bc0f867
+source-git-commit: 4c3caa8e31c2076d32a03a8778a28edce50cde63
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 40%
@@ -67,7 +67,7 @@ ht-degree: 40%
 
    * 「**[!UICONTROL 詳細設定]**」タブを選択し、「**[!UICONTROL 送信するメールで表示されるファイル名を記述]**」チェックボックスをオンにします。テキストゾーンに、最終の配信で使用する添付ファイルの名前を入力します。
 
-      ![](assets/use_case_report_6bis.png)
+      ![](assets/use_case_report_6b.png)
 
 ## 手順 3:ワークフローの作成 {#step-3--creating-the-workflow}
 
