@@ -4,7 +4,7 @@ title: クエリ
 description: クエリワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity, Query Editor
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1628'
 ht-degree: 100%
 
