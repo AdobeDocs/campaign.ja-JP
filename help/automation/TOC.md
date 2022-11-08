@@ -2,7 +2,7 @@
 audience: user
 user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
@@ -145,10 +145,10 @@ ht-degree: 100%
    + [プロバイダー、在庫、予算](campaigns/providers--stocks-and-budgets.md)
 + キャンペーンの最適化（アドオン）{#campaign-optimization}
    + [キャンペーンタイポロジの概要](campaign-opt/campaign-typologies.md)
+   + [フィルタリングルール](campaign-opt/filtering-rules.md)
+   + [コントロールルール](campaign-opt/control-rules.md)
    + [頻度ルール](campaign-opt/pressure-rules.md)
    + [一貫性ルール](campaign-opt/consistency-rules.md)
-   + [コントロールルール](campaign-opt/control-rules.md)
-   + [フィルタリングルール](campaign-opt/filtering-rules.md)
    + [ルールの適用](campaign-opt/apply-rules.md)
    + [キャンペーンシミュレーション](campaign-opt/campaign-simulations.md)
 + 分散型マーケティング（アドオン）{#distributed-marketing}
