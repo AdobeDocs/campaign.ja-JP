@@ -4,7 +4,7 @@ title: 分散型マーケティングの基本を学ぶ
 description: 分散型マーケティングの基本を学ぶ
 feature: Distributed Marketing
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 100%
@@ -12,8 +12,6 @@ ht-degree: 100%
 ---
 
 # 分散型マーケティングの基本を学ぶ{#about-distributed-marketing}
-
-
 
 Adobe Campaign では、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（店舗、地域のエージェントなど）が協調キャンペーンを展開できる、**分散型マーケティング**&#x200B;アプリケーションを活用できます。この連携のベースとなるのは、**[!UICONTROL キャンペーンパッケージのリスト]**&#x200B;と呼ばれる共有ワークスペースです。セントラルエンティティで作成されたキャンペーンのテンプレートやインスタンスは、このワークスペース上でローカルエンティティに提供されます。
 
