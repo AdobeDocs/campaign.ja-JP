@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+source-git-commit: c267bf2db7dfd524bf2b56c9ae48b42da37c0376
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 96%
+source-wordcount: '648'
+ht-degree: 93%
 
 ---
 
@@ -70,13 +70,12 @@ Adobe Campaign v8 では、キューブレポートが最適化され、Campaign
 
 ## 使用できない機能{#gs-unavailable-features}
 
-このバージョンの Campaign では、以下の機能は利用できません。
+一部の機能は、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md) キャンペーンの次のようなもの
 
 * マーケティングリソース管理
 * クーポン
 * Web トラッキング
 * 調査
-
 
 ## サポートされていない機能{#gs-removed}
 
