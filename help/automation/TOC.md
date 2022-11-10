@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -151,8 +151,8 @@ ht-degree: 98%
    + [一貫性ルール](campaign-opt/consistency-rules.md)
    + [ルールの適用](campaign-opt/apply-rules.md)
    + [キャンペーンシミュレーション](campaign-opt/campaign-simulations.md)
-+ マーケティングリソース管理 {#mrm}
-   + [マーケティングリソース管理 (MRM) の概要](mrm/about-marketing-resource-management.md)
++ マーケティングリソース管理（アドオン）{#mrm}
+   + [マーケティングリソース管理の概要](mrm/about-marketing-resource-management.md)
    + [タスクの作成と管理](mrm/creating-and-managing-tasks.md)
    + [コストの管理](mrm/controlling-costs.md)
    + [マーケティングリソースの管理](mrm/managing-marketing-resources.md)
