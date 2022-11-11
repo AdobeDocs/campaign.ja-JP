@@ -5,7 +5,7 @@ feature: Send Time Optimization
 role: User
 level: Beginner
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 

@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
-source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
+source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 97%
+source-wordcount: '424'
+ht-degree: 100%
 
 ---
 
@@ -145,20 +145,14 @@ ht-degree: 97%
    + [プロバイダー、在庫、予算](campaigns/providers--stocks-and-budgets.md)
 + キャンペーンの最適化（アドオン）{#campaign-optimization}
    + [キャンペーンタイポロジの概要](campaign-opt/campaign-typologies.md)
-   + [フィルタリングルール](campaign-opt/filtering-rules.md)
-   + [コントロールルール](campaign-opt/control-rules.md)
    + [頻度ルール](campaign-opt/pressure-rules.md)
    + [一貫性ルール](campaign-opt/consistency-rules.md)
+   + [コントロールルール](campaign-opt/control-rules.md)
+   + [フィルタリングルール](campaign-opt/filtering-rules.md)
    + [ルールの適用](campaign-opt/apply-rules.md)
    + [キャンペーンシミュレーション](campaign-opt/campaign-simulations.md)
-+ マーケティングリソース管理（アドオン）{#mrm}
-   + [マーケティングリソース管理の概要](mrm/about-marketing-resource-management.md)
-   + [タスクの作成と管理](mrm/creating-and-managing-tasks.md)
-   + [コストの管理](mrm/controlling-costs.md)
-   + [マーケティングリソースの管理](mrm/managing-marketing-resources.md)
-   + [ディスカッションフォーラム](mrm/discussion-forums.md)
 + 分散型マーケティング（アドオン）{#distributed-marketing}
-   + [分散型マーケティングの基本を学ぶ](distributed-marketing/about-distributed-marketing.md)
+   + [分散型マーケティングについて](distributed-marketing/about-distributed-marketing.md)
    + [ローカルキャンペーンの作成](distributed-marketing/creating-a-local-campaign.md)
    + [協調キャンペーンの作成](distributed-marketing/creating-a-collaborative-campaign.md)
    + [キャンペーンパッケージの公開](distributed-marketing/publishing-the-campaign-package.md)

@@ -5,7 +5,7 @@ description: これらの例は、ワークフローで JavaScript コードを�
 feature: Workflows
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1763'
 ht-degree: 100%
 
@@ -560,7 +560,7 @@ for each (var w in res.recipient)
 * `delete` 操作
 
 >[!IMPORTANT]
-> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target=&quot;_blank&quot;}。
+> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}。
 
 #### 例 1：レコードを挿入または更新する
 
@@ -610,11 +610,11 @@ xtk.session.Write(
 
 ### API ドキュメント
 
-* [SOAP 呼び出しのサンプル](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja)
+* [SOAP 呼び出しのサンプル](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)
 * メソッド：
-   * [作成](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja)
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ja)
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja)
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja)
+   * [作成](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
    * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ja)
-* [logInfo 関数](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja)
+* [logInfo 関数](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)

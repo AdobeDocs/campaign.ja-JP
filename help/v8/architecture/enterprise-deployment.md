@@ -5,10 +5,10 @@ feature: Architecture, FFDA
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 51bba0a2b4be03577f508d352fc7c2b514ba28e5
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 98%
+source-wordcount: '1019'
+ht-degree: 100%
 
 ---
 
@@ -114,16 +114,6 @@ Campaign v8 オブジェクトは、**UUID（ユニバーサルに一意の ID�
 Campaign Classic v7 以前のバージョンでは、スキーマ（テーブルなど）のキーの単一性はデータベースエンジンのレベルで処理されます。一般的に、従来のデータベースエンジン（PostgreSQL、Oracle、SQL Server など）では、プライマリキーや一意のインデックスの列を使用して、重複行を挿入しないようにするためのメカニズムをネイティブで備えています。適切なインデックスとプライマリキーがデータベースレベルで設定されている限り、これらのバージョンでは ID の重複は発生しません。
 
 Adobe Campaign v8 には、コアデータベースとして Snowflake が付属しています。クエリの規模が大幅に拡大するため、Snowflake データベースの分散アーキテクチャでは、テーブル内のキーの単一性を強制するそのようなメカニズムは提供されません。そのため、Adobe Campaign v8 では、重複したキーがテーブルに取り込まれるのを防ぐことはできません。エンドユーザーは、Adobe Campaign データベース内のキーの一貫性を確保する責任を負うようになりました。[詳細](keys.md)
-
-### 機能の可用性 {#feature-availability}
-
-以下のような一部の機能は、Campaign のエンタープライズ (FFDA) デプロイメントのコンテキストでは使用できません。
-
-* マーケティングリソース管理
-* クーポン
-* Web トラッキング
-* 調査
-
 
 **関連トピック**
 

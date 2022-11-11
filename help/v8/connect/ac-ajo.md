@@ -4,7 +4,7 @@ description: Campaign と Journey Optimizer の連携方法について学ぶ
 role: Admin, User
 level: Beginner, Intermediate
 source-git-commit: feba381b9874be3ebfbcf2a27ccd29a71385ed9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 
