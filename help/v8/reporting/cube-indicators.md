@@ -4,13 +4,13 @@ description: キューブの作成方法を学ぶ
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
+exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
-
 
 # キューブの作成{#create-a-cube}
 

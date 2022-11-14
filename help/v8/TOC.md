@@ -7,7 +7,7 @@ title: Campaign v8 ドキュメント
 source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
    + [Campaign オーケストレーションドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
    + メッセージの送信{#send}
       + [メッセージの基本を学ぶ](start/create-message.md)
-      + [配信テンプレートの使用](send/create-templates.md)
+      + [配信テンプレートの操作](send/create-templates.md)
       + メール {#emails}
          + [メールのデザインと検証](send/email.md)
          + [メールの送信と監視](send/send.md)
@@ -93,7 +93,7 @@ ht-degree: 93%
 + レポートと分析 {#analytics}
    + [追跡と監視](start/tracking.md)
    + レポートの操作{#reports}
-      + [レポートの概要](reporting/gs-reporting.md)
+      + [レポートの基本を学ぶ](reporting/gs-reporting.md)
       + キューブの作成{#cubes}
          + [キューブの基本を学ぶ](reporting/gs-cubes.md)
          + [キューブの作成](reporting/cube-indicators.md)

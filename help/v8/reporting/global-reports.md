@@ -2,7 +2,8 @@
 title: Adobe Campaignグローバルレポート
 description: グローバルレポートにアクセスして使用する方法を説明します
 feature: Reporting, Monitoring
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 96%

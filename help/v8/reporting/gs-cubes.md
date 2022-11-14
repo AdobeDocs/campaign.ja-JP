@@ -4,7 +4,8 @@ description: キューブの作成方法を学ぶ
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: bead34ec59f6f3dca0fbec8460d58ec7da2ed76f
+exl-id: f57f3074-981f-4bcf-9274-7908cd00a4a2
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 77%

@@ -2,13 +2,13 @@
 title: Adobe Campaignの組み込み配信レポート
 description: Adobe Campaignの組み込み配信レポート
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 94%
 
 ---
-
 
 # 配信レポート {#delivery-reports}
 
@@ -203,5 +203,3 @@ This chart shows the breakdown of cumulated clicks per day.
 リストから連続しない配信を選択するには、Ctrl キーを押したまま選択をおこないます。
 
 別のフォルダーに保存された配信を選択するには、 **[!UICONTROL サブレベルを表示]** アイコン（ツールバーでアクセス可能） これで同じリストに表示されるようになります。
-
-

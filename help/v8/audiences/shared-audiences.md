@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 81%
 
 この統合では、2 つのタイプの Adobe Experience Cloud ID をサポートしています。
 
-* **訪問者 ID**:この識別子は、Adobe Experience Cloudの訪問者をAdobe Campaignの受信者に紐付けします。
-* **宣言済み ID**:この識別子は、すべてのタイプのデータをAdobe Campaignデータベースからの要素に紐付けします。 Adobe Campaignの事前定義済みの紐付けキーです。
+* **訪問者 ID**：この識別子は、Adobe Experience Cloud の訪問者を Adobe Campaign 受信者に紐付けします。
+* **宣言済み ID**：この識別子は、すべてのタイプのデータを Adobe Campaign データベース内の要素に紐付けします。Adobe Campaign の事前定義済みの紐付けキーです。
 
    >[!NOTE]
    >
-   > 宣言済み ID データソースは、People コアサービスの統合と共に使用することもできます。
+   > 宣言済み ID データソースも人物コアサービス統合で使用できます。
    >
-   >People コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。
+   >人物コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。
 
 詳しくは、次を参照してください。
 

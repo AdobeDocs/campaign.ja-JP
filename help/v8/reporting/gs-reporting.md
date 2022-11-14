@@ -4,13 +4,13 @@ description: キャンペーンの成功を測定し、ユーザー行動を分�
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
+exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 77%
 
 ---
-
 
 # レポートの概要{#gs-ac-reports}
 

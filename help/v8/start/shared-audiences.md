@@ -6,7 +6,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
+exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
@@ -35,7 +36,7 @@ ht-degree: 100%
    >
    > 宣言済み ID データソースも People コアサービス統合で使用できるようになりました。 
    >
-   >People コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。
+   >人物コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。
 
 詳しくは、次を参照してください。
 

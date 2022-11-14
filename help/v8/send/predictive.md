@@ -4,7 +4,8 @@ description: 予測送信時間とエンゲージメントスコアリングの�
 feature: Send Time Optimization
 role: User
 level: Beginner
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+exl-id: 648fefcc-6476-4af8-9f0d-c9a87a7a3019
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%

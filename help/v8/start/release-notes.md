@@ -9,7 +9,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: ad5444284a3886f02c97e94952898e1836c6b7c3
 workflow-type: tm+mt
 source-wordcount: '3404'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ _2022年10月28日（PT）_
 
 **改善点**
 
-* Adobe Campaign Enhanced MTA を使用する場合に、成功配信の指標が正しく更新されない問題を修正しました。 （NEO-50462）
+* Adobe Campaign Enhanced MTA を使用する場合に、成功の配信達成度が正しく更新されない問題を修正しました。（NEO-50462）
 
 ## リリース 8.4.1 {#release-8-4-1}
 
