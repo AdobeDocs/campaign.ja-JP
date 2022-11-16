@@ -1,14 +1,14 @@
 ---
 title: Campaign アーキテクチャの基本を学ぶ
-description: 環境とデプロイメントの基本を確認する
+description: 環境とデプロイメントの基本を確認する（キャンペーン環境のレポート方法を含む）
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 110cf2ff705ecbc0b3a1690e9dfc2791f5744b97
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 100%
+source-wordcount: '706'
+ht-degree: 98%
 
 ---
 

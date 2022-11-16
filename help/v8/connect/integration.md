@@ -1,14 +1,14 @@
 ---
 title: Campaign をお使いのソリューションと接続する
-description: Campaign とお使いのソリューションを接続する方法を学ぶ
+description: Adobe CampaignインスタンスをExperience Cloudソリューションに接続する方法を説明します。
 feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 6605a24cea536dbef5b1a7e909ff4d76b3d6c222
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 96%
 
 ---
 

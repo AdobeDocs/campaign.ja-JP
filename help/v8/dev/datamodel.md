@@ -1,14 +1,14 @@
 ---
 title: Campaign データモデルの基本を学ぶ
-description: Campaign データモデルの基本を学ぶ
+description: Campaign データモデルを使い始め、ソースのデータを活用して、コミュニケーションやマーケティングの出力に役立てます。
 feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 91%
 
 ---
 
@@ -41,8 +41,7 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 デフォルトの受信者テーブルは、そのまま使用できるフィールド（[この節](#ootb-profiles)を参照）と共に使用できます。必要に応じて、次の 2 つのメカニズムで拡張できます。
 
 * 新しいフィールドで[既存のテーブルを拡張](extend-schema.md)する。例えば、受信者テーブルに新しい「ロイヤルティ」フィールドを追加できます。
-
-* [新しいテーブルを作成](create-schema.md)する。例えば、データベースの各プロファイルが行った購入をすべてリストする「購入」テーブルを作成して、受信者テーブルにリンクします。
+* [新しいテーブルを作成](create-schema.md)例えば、データベースの各プロファイルがおこなったすべての購入を一覧表示した「購入品」テーブルを、受信者テーブルにリンクします。
 
 ![](../assets/do-not-localize/glass.png) Campaign データモデルを使用する際のベストプラクティスについては、[この節](datamodel-best-practices.md)を参照してください。
 
