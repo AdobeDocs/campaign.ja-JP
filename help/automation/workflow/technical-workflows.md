@@ -5,9 +5,9 @@ description: Campaign で使用できるテクニカルワークフローの詳�
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 | **イベントパージ**（webAnalyticsPurgeWebEvents） | Web 分析コネクタ | 存続期間フィールドで設定した期間に基づいてデータベースフィールドからすべてのイベントを削除できます。 |
 | **Adobe Experience Cloud へのオーディエンスのエクスポート**（exportSharedAudience） | Adobe Experience Cloud との統合 | このワークフローは、共有されたオーディエンスおよびセグメントとしてオーディエンスをエクスポートします。これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。 |
 | **予測**（予測） | 配信 | 暫定カレンダー（暫定ログを作成）に保存された配信を分析します。デフォルトで、毎日午前 1 時にトリガーされます。 |
-| **完全な集計計算（propositionrcp キューブ）**（agg_nmspropositionrcp_full） | オファーエンジン（インタラクション） | オファーの提案キューブのために完全な集計を更新します。デフォルトで、毎日午前 6 時にトリガーされます。この集計が取得するディメンションは、チャネル、配信、マーケティングオファーおよび日付です。オファーの提案キューブは、オファーに基づいてレポートを生成するために使用します。のキューブの詳細を説明します  [この節](../../v8/reporting/gs-cubes.md). |
+| **完全な集計計算（propositionrcp キューブ）**（agg_nmspropositionrcp_full） | オファーエンジン（インタラクション） | オファーの提案キューブのために完全な集計を更新します。デフォルトで、毎日午前 6 時にトリガーされます。この集計が取得するディメンションは、チャネル、配信、マーケティングオファーおよび日付です。オファーの提案キューブは、オファーに基づいてレポートを生成するために使用します。キューブについて詳しくは、[この節](../../v8/reporting/gs-cubes.md)を参照してください。 |
 | **変換済み連絡先の特定**（webAnalyticsFindConverted） | Web 分析コネクタ | リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。このワークフローで収集されたデータは、リマーケティングの効率レポートでアクセスできます（このページを参照）。 |
 | **Adobe Experience Cloud からのオーディエンスのインポート**（importSharedAudience） | Adobe Experience Cloud との統合 | このワークフローでは、別の Adobe Experience Cloud ソリューションのオーディエンスおよびセグメントを Adobe Campaign にインポートできます。 |
 | **キャンペーンの配信ジョブ**（deliveryMgt） | デフォルトでインストール | 承認された配信をトリガーし、外部配信のサービスプロバイダーの後処理を開始します。また、承認通知とリマインダーも送信します。 |
