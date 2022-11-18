@@ -4,9 +4,9 @@ title: インタラクション
 description: インタラクション
 feature: Workflows, Interaction
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
   <tr> 
    <td> <span class="uicontrol">完全な集計 (propositionrcp キューブ)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
-   <td> <strong>オファーの提案</strong>キューブのために<strong>完全</strong>な集計を更新します。デフォルトで、毎日午前 6 時にトリガーされます。この集計が取得するディメンションは、チャネル、配信、マーケティングオファーおよび日付です。<br /> この <strong>オファーの提案</strong> キューブは、オファーに基づくレポートの生成に使用します。<br /> </td> 
+   <td> <strong>オファーの提案</strong>キューブのために<strong>完全</strong>な集計を更新します。デフォルトで、毎日午前 6 時にトリガーされます。この集計が取得するディメンションは、チャネル、配信、マーケティングオファーおよび日付です。<br /><strong>オファーの提案</strong>キューブは、オファーに基づいてレポートを生成するために使用します。<br /> </td> 
   </tr> 
    <tr> 
    <td> <span class="uicontrol">MessageCenter における完全な集計の計算</span> <br /> </td> 
@@ -36,5 +36,5 @@ ht-degree: 83%
  </tbody> 
 </table>
 
-キューブと集計の詳細を説明します [この節](../../v8/reporting/gs-cubes.md).
+キューブと集計について詳しくは、[この節](../../v8/reporting/gs-cubes.md)を参照してください。
 
