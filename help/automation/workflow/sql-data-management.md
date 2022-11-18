@@ -4,7 +4,7 @@ title: SQL データ管理
 description: SQL データ管理ワークフローアクティビティの詳細を説明します
 feature: Workflows
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 アクティビティを設定する前に、以下の前提条件を満たしていることを確認してください。
 
 * このアクティビティは、リモートデータソースに対してのみ使用できます。
-* アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。 
+* アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。
 
 
 ## 「SQL データ管理」アクティビティの設定 {#configuring-the-sql-data-management-activity}
