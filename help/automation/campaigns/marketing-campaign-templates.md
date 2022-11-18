@@ -5,7 +5,7 @@ description: マーケティングキャンペーンテンプレート
 feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
 * **シードアドレス**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。テンプレートで、またはキャンペーンごとに個別に、設定を定義できます。
+   このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。
 
    ![](assets/template-activate-2.png)
 
