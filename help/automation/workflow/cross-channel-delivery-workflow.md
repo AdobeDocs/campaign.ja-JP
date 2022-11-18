@@ -5,9 +5,9 @@ description: クロスチャネル配信ワークフローの詳細を説明し�
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 ![](assets/wkf_cross-channel_7.png)
 
-## 手順 1:オーディエンスの構築 {#step-1--build-the-audience}
+## 手順 1：オーディエンスの作成 {#step-1--build-the-audience}
 
 ターゲットを定義するために、受信者を特定するクエリを作成します。
 
@@ -42,9 +42,9 @@ ht-degree: 97%
 
 1. 変更を保存します。
 
-## 手順 2:オファーを含む E メールの作成 {#step-2--create-an-email-including-an-offer}
+## 手順 2：オファーを含むメールの作成 {#step-2--create-an-email-including-an-offer}
 
-1. E メール配信を作成します。
+1. メール配信を作成します。
 1. メッセージをデザインし、オファーを含むリンクをコンテンツに挿入します。
 
    ![](assets/wkf_cross-channel_1.png)
@@ -63,7 +63,7 @@ ht-degree: 97%
 
    ![](assets/wkf_cross-channel_4.png)
 
-## 手順 3:結果のオーディエンスをセグメント化 {#step-3--segment-the-resulting-audience}
+## 手順 3：結果として得られたオーディエンスのセグメント化 {#step-3--segment-the-resulting-audience}
 
 ターゲットを特定し、最初の配信を作成した後は、フィルター条件を使用してターゲットを別々の母集団にセグメント化する必要があります。
 
@@ -99,7 +99,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 完了]**」をクリックして変更を保存します。
 
-## 手順 4:ワークフローを最終化 {#step-4--finalize-the-workflow}
+## 手順 4：ワークフローの最終処理 {#step-4--finalize-the-workflow}
 
 1. **[!UICONTROL 分割]**&#x200B;アクティビティから 3 つのサブセットを生成した後、次のように関連アクティビティをワークフローに追加します。
 
