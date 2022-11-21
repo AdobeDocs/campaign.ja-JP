@@ -5,8 +5,9 @@ description: 「集計を更新」ワークフローアクティビティの詳�
 feature: Workflows
 role: Data Engineer
 level: Beginner
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
-workflow-type: ht
+exl-id: 9a213522-bacf-44f9-98a6-caaaf037a0f9
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
 

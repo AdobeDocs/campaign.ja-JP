@@ -3,7 +3,8 @@ product: campaign
 title: 外部シグナル
 description: 外部シグナルワークフローアクティビティの詳細を説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 45cb95ec-77bf-4bab-895f-b94f6ce660fd
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%

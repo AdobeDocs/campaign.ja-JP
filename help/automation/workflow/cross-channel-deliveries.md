@@ -3,7 +3,8 @@ product: campaign
 title: クロスチャネル配信
 description: クロスチャネル配信の詳細を説明します
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%

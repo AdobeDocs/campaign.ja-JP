@@ -3,7 +3,8 @@ product: campaign
 title: SQL コードと JavaScript コード
 description: SQL と JavaScript コードワークフローアクティビティの詳細を説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%

@@ -5,7 +5,7 @@ description: フィルタールールの設定方法を説明します
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
 source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 

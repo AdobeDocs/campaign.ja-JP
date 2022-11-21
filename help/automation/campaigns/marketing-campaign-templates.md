@@ -5,7 +5,7 @@ description: マーケティングキャンペーンテンプレート
 feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
 

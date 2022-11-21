@@ -1,22 +1,22 @@
 ---
-title: Adobe Campaignの組み込み配信レポート
-description: Adobe Campaignの組み込み配信レポート
+title: Adobe Campaign の組み込み配信レポート
+description: Adobe Campaign の組み込み配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1173'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 配信レポート {#delivery-reports}
 
-配信の概要からアクセス可能な様々なレポート経由で、配信の実行をトラッキングできます。
+配信の概要からアクセスできる様々なレポートを介して、配信の実行をトラッキングできます。
 
 レポートにアクセスするには、次の手順に従います。
 
-1. 次を参照： **[!UICONTROL キャンペーン]** 」タブで、 **[!UICONTROL 配信]** 配信のリストを表示するリンク。
+1. 「**[!UICONTROL キャンペーン]**」タブを参照し、「**[!UICONTROL 配信]**」リンクをクリックして、配信のリストを表示します。
 1. アクセスするレポートの配信名をクリックします。
 1. 「**[!UICONTROL 概要]**」タブを選択し、「**[!UICONTROL レポート]**」リンクをクリックして配信に関連するレポートにアクセスします。
 
@@ -202,4 +202,4 @@ This chart shows the breakdown of cumulated clicks per day.
 
 リストから連続しない配信を選択するには、Ctrl キーを押したまま選択をおこないます。
 
-別のフォルダーに保存された配信を選択するには、 **[!UICONTROL サブレベルを表示]** アイコン（ツールバーでアクセス可能） これで同じリストに表示されるようになります。
+異なるフォルダーに保存された配信を選択するには、「**[!UICONTROL サブレベルを表示]**」アイコン（ツールバーでアクセス可能）をクリックします。これで同じリストに表示されるようになります。

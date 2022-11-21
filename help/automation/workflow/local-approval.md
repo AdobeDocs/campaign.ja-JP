@@ -3,7 +3,8 @@ product: campaign
 title: ローカルの承認
 description: ローカルの承認
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 100%

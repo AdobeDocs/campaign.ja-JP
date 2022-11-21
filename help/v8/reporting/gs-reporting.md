@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaignレポートツールの概要
-description: キャンペーンの成功を測定し、ユーザー行動を分析
+title: Adobe Campaign レポートツールの概要
+description: キャンペーンの成功を測定し、ユーザーの行動を分析
 feature: Reporting
 role: Data Engineer
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
 * **キューブ**
 
-   Adobe Campaignには、動的なレポートを作成するための直感的なデータ調査ツールが付属しています。
+   Adobe Campaign には、動的レポートを作成するための直感的なデータ調査ツールが付属しています。
 
-   マーケティング分析機能を使用して、データの分析と測定、統計の計算、レポートの作成と計算のシンプル化と最適化をおこないます。 レポートを作成し、ターゲット母集団を作成して、リストに保存できます。リストは、Adobe Campaignでターゲティングやセグメント化のタスクに使用できます。
+   マーケティング分析機能を使用すると、データの分析と測定、統計の計算、レポートの作成と計算の簡素化および最適化を行うことができます。レポートを作成し、ターゲット母集団を作成して、リストに保存できます。このリストは、Adobe Campaign でターゲティングやセグメント化のタスクに使用できます。
 
    ![](assets/create-a-report.png)
 

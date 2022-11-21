@@ -3,7 +3,8 @@ product: campaign
 title: 承認
 description: 承認
 feature: Workflows, Approvals
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%

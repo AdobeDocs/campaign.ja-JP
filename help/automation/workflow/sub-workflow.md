@@ -3,7 +3,8 @@ product: campaign
 title: サブワークフロー
 description: サブワークフローアクティビティの詳細を説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%

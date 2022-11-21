@@ -3,7 +3,8 @@ product: campaign
 title: セル
 description: セル
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%

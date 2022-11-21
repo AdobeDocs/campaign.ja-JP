@@ -1,12 +1,12 @@
 ---
-title: Adobe Campaignグローバルレポート
-description: グローバルレポートにアクセスして使用する方法を説明します
+title: Adobe Campaign グローバルレポート
+description: グローバルレポートへのアクセス方法と使用方法を学ぶ
 feature: Reporting, Monitoring
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1895'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->また、1 時間に送信された配信数を [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja).
+>[コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja)を使用して、1 時間あたりに送信される配信数を監視することもできます。
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
@@ -96,7 +96,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >この指標は、 [モバイルチャネル](../send/send.md) のみ。
+   >この指標は、[モバイルチャネル](../send/send.md)のみでの配信に関連しています。
 
    `[+]` 記号をクリックすると、値テーブルの各行を開くことができます。それぞれのエラータイプについて、ドメインごとにエラーメッセージの分類を表示できます。
 
@@ -288,7 +288,7 @@ The following indicators are used:
 
    >[!NOTE]
    >
-   >ハードバウンスおよびソフトバウンスについて詳しくは、 [このページ](../send/quarantines.md).
+   >ハードバウンスおよびソフトバウンスについて詳しくは、[このページ](../send/quarantines.md)を参照してください。
 
 * **[!UICONTROL 開封数]**：正常に処理されたメッセージ数に対する、メッセージを少なくとも 1 回開封したターゲット受信者数の割合。
 * **[!UICONTROL クリック数]**：正常に処理されたメッセージ数に対する、配信で少なくとも 1 回クリックしたユーザー数の割合。
@@ -298,7 +298,7 @@ The following indicators are used:
 
 このレポートは、該当する期間中の、オペレーティングシステム、デバイスおよびブラウザーごとの開封の分類を表示します。それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。
 
-開封数は、開封されたメッセージの合計数に対応しています。テキスト形式の E メールはカウントされません。開封数のトラッキングについて詳しくは、 [この節](metrics-calculation.md#tracking-opens-).
+開封数は、開封されたメッセージの合計数に対応しています。テキスト形式の E メールはカウントされません。開封数のトラッキングについて詳しくは、[この節](metrics-calculation.md#tracking-opens-)を参照してください。
 
 ![](assets/user-agent-report.png)
 

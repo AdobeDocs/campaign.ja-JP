@@ -3,7 +3,8 @@ product: campaign
 title: オファーエンジン
 description: オファーエンジン
 feature: Workflows, Interaction
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: d77858e1-3cd5-4372-b1bc-ea4b518c958d
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%

@@ -3,7 +3,8 @@ product: campaign
 title: オファー（セル別）
 description: オファー（セル別）
 feature: Workflows, Targeting Activity, Interaction
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%

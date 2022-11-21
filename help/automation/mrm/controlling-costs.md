@@ -2,7 +2,8 @@
 product: campaign
 title: コスト管理
 description: コスト管理の方法を説明します
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
+source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
 workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 93%

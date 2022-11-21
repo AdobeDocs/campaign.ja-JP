@@ -4,8 +4,9 @@ description: Campaign と Adobe Experience Platform の連携方法を説明し�
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: ht
+exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 

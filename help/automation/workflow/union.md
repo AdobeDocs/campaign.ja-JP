@@ -3,7 +3,8 @@ product: campaign
 title: 和集合
 description: 和集合ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%

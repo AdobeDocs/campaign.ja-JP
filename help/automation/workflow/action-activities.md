@@ -3,7 +3,8 @@ product: campaign
 title: ワークフロー内のアクションアクティビティ
 description: アクションアクティビティについて
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%

@@ -3,7 +3,8 @@ product: campaign
 title: AND 結合
 description: AND 結合
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: c70a106d-3518-4eac-9944-6f7c93d85bac
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%

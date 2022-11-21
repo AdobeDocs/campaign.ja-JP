@@ -3,7 +3,8 @@ product: campaign
 title: 配信の概要
 description: 配信の概要ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3c06b329-b2d8-4ac8-ab9b-3ab3e525d109
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%

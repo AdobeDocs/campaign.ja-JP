@@ -3,7 +3,8 @@ product: campaign
 title: 分割
 description: 分割ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1984'
 ht-degree: 100%

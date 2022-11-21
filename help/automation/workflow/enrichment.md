@@ -3,7 +3,8 @@ product: campaign
 title: エンリッチメント
 description: エンリッチメントワークフローアクティビティの詳細を説明します
 feature: Workflows, Enrichment Activity, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%

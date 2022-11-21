@@ -3,7 +3,8 @@ product: campaign
 title: 分岐
 description: 分岐ワークフローアクティビティの詳細を説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 7b94776c-2478-4e12-82a6-c94be12e7e22
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%

@@ -3,7 +3,8 @@ product: campaign
 title: パーソナライズされたアラートをオペレーターへ送信
 description: パーソナライズされたアラートをオペレーターへ送信する方法を学ぶ
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 41a009f6-d1e9-40c9-8494-3bbb4bd3d134
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 100%

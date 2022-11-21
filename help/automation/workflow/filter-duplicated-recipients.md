@@ -3,7 +3,8 @@ product: campaign
 title: 重複した受信者のフィルタリング
 description: 重複した受信者をフィルターする方法を説明します。
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: cfa1f45c-e1ac-4055-996c-6e8d041889bb
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%

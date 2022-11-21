@@ -3,7 +3,8 @@ product: campaign
 title: ワークフローのディメンションの変更
 description: ディメンションの変更アクティビティの使用方法を説明します
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%

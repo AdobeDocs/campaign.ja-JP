@@ -5,7 +5,7 @@ description: Campaign で使用できるテクニカルワークフローの詳�
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1674'
 ht-degree: 100%
 

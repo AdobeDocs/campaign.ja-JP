@@ -3,7 +3,8 @@ product: campaign
 title: 積集合
 description: 積集合
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 12777107-5ccc-4f19-9dcd-8f6cade3ee98
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%

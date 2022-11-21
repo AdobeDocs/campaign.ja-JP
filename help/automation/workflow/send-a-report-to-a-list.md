@@ -3,13 +3,13 @@ product: campaign
 title: リストへのレポートの送信
 description: ワークフローでリストへレポートを送信する方法を学ぶ
 feature: Workflows
-source-git-commit: 4c3caa8e31c2076d32a03a8778a28edce50cde63
-workflow-type: ht
+exl-id: 5bc576d0-cab7-4d26-a3a5-91982a00e356
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 100%
 
 ---
-
 
 # リストへのレポートの送信{#send-a-report-to-a-list}
 

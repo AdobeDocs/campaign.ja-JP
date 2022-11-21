@@ -3,7 +3,8 @@ product: campaign
 title: 読み込み（SOAP）
 description: 読み込み（SOAP）
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%

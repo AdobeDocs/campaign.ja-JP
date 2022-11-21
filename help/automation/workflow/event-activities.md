@@ -3,7 +3,8 @@ product: campaign
 title: ワークフロー内のイベントアクティビティ
 description: ワークフロー内のイベントアクティビティのリスト
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 0e8ab370-06bc-431e-a685-310ac54a1246
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
@@ -22,5 +23,3 @@ ht-degree: 100%
 * **[インバウンドメール](inbound-emails.md)**：メールを復元して処理します。
 * **[インバウンド SMS](inbound-sms.md)**：SMS を復元して処理します。
 * **[Web ダウンロード](web-download.md)**：web からファイルをダウンロードします。
-
-

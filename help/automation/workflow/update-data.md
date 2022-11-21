@@ -3,7 +3,8 @@ product: campaign
 title: データ更新
 description: データ更新ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 100%

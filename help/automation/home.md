@@ -5,9 +5,9 @@ title: Adobe Campaign Automation ホーム
 feature: Overview
 description: 概要
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: d6ea8bef9c62d4afbc919110775ee99052eeed7a
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 100%
 
 ---
@@ -74,6 +74,10 @@ Adobe Campaign で自動処理を構築する方法については、以下の�
     <br>
     <div>
     <a href="campaign-opt/campaign-typologies.md">キャンペーンの最適化</a>
+    </div>
+    <br>
+    <div>
+    <a href="mrm/about-marketing-resource-management.md">マーケティングリソース管理（MRM）</a>
     </div>
     <br>
   </td>

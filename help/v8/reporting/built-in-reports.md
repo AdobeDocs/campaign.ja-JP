@@ -1,29 +1,29 @@
 ---
-title: Adobe Campaignの組み込みレポート
+title: Adobe Campaign の組み込みレポート
 description: ビルトインレポート
 feature: Reporting
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaignの組み込みレポート{#ootb-reports}
+# Adobe Campaign の組み込みレポート{#ootb-reports}
 
-このページには、Adobe Campaignの組み込みレポート、その内容およびコンテキストの一覧が表示されます。 Adobe Campaignには、クライアントコンソールまたはインターネットブラウザーからアクセスできる、様々な組み込みレポートが用意されています。
+このページでは、Adobe Campaign の組み込みレポートとそれらの内容およびコンテキストの一覧を示します。Adobe Campaign には、クライアントコンソールまたはインターネットブラウザーからアクセスできる、様々な組み込みレポートが用意されています。
 
 使用可能なレポートのタイプは次のとおりです。
 
-* プラットフォーム全体のレポート。 [詳細情報](global-reports.md)。
-* 配信レポート. [詳細情報](delivery-reports.md)。
+* プラットフォーム全体のレポート。[詳細情報](global-reports.md)。
+* 配信レポート。[詳細情報](delivery-reports.md)。
 
-組み込みレポートは、Campaign ホームページ、専用のレポートダッシュボードまたは配信リストからアクセスできます。 UI でのレポートの表示方法は、そのコンテキストに応じて異なります。
+組み込みレポートには、Campaign のホームページ、専用のレポートダッシュボードまたは配信リストからアクセスできます。UI でのレポートの表示方法は、そのコンテキストに応じて異なります。
 
-主要レポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。 このリストは、ニーズに合わせて変更可能です。また、「**[!UICONTROL レポート]**」タブに独自のレポートを追加する方法についても説明します。
+主なレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。このリストは、ニーズに合わせて変更可能です。また、「**[!UICONTROL レポート]**」タブに独自のレポートを追加する方法についても説明します。
 
-これらのカスタム設定について詳しくは、次を参照してください。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+これらのカスタム設定について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ja)を参照してください。
 
 
 ## ビルトインレポートへのアクセス {#access-ootb-reports}

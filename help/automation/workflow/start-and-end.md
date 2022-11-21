@@ -3,7 +3,8 @@ product: campaign
 title: 開始および終了
 description: 「開始および終了」ワークフローアクティビティの詳細を説明します
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 1de622bc-967b-403b-86e0-2ad32cb432e3
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
