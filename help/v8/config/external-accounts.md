@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 100%
+source-wordcount: '1181'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,8 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 >[!CAUTION]
 >
 >[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、特定の&#x200B;**[!UICONTROL フル FDA]**（ffda）外部アカウントは、Campaign ローカルデータベースと Cloud データベース（[!DNL Snowflake]）との接続を管理します。
-></br>Managed Cloud Services のユーザー場合、この外部アカウントは、お使いのインスタンス用にアドビが設定します。これは変更できません。
+>
+>管理対象Cloud Servicesのユーザーとして、外部アカウントはAdobeごとにインスタンス用に設定され、変更できません。
 
 ## Campaign 固有の外部アカウント
 
@@ -116,34 +117,37 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 * **外部データベース（FDA）**
 
-   **外部データベース**&#x200B;タイプの外部アカウントを使用して、FDA 経由で外部データベースに接続します。
+   この **外部データベース** タイプ外部アカウントは、Federated Data Access(FDA) を使用して外部データベースに接続するために使用されます。
 
    Adobe Campaign v8 と互換性のある外部データベースは、[互換性マトリックス](../start/compatibility-matrix.md)に記載されています。
 
    ![](../assets/do-not-localize/glass.png)Federated Data Access（FDA）オプションについて詳しくは、[この節](../connect/fda.md)を参照してください。
 
+* **Twitter**
+
+   この **Twitter** 「外部アカウント」と入力すると、Campaign をtwitterアカウントに接続して、自分に代わってメッセージを投稿するために使用されます。
+
+   ![](../assets/do-not-localize/glass.png) でのTwitter統合の詳細を説明します [この節](../connect/ac-tw.md).
+
 ## Adobe ソリューション統合外部アカウント
 
 * **Adobe Experience Cloud**
 
-   **[!UICONTROL Adobe Experience Cloud]** 外部アカウントは、Adobe IMS を実装して Adobe ID で Adobe Campaign コンソールに接続するために使用されます。
+   この **[!UICONTROL Adobe Experience Cloud]** 外部アカウントは、AdobeIdentity Managementサービス (IMS) を実装してAdobe Campaignに接続するために使用されます。
 
    ![](../assets/do-not-localize/glass.png) Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#connect-ims)を参照してください。
 
 * **Web 分析**
 
-   Adobe Analytics から Adobe Campaign へのデータ転送を設定するには、**[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントを使用します。
+   この **[!UICONTROL Web 分析 (Adobe Analytics)]** 外部アカウントを使用して、Adobe AnalyticsからAdobe Campaignへのデータ転送を設定します。
 
    ![](../assets/do-not-localize/glass.png)Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
-   ![](../assets/do-not-localize/speech.png) Managed Cloud Services のユーザーとして Adobe Analytics を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+* **Adobe Experience Manager**
 
-   * **Adobe Experience Manager**
    **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。
 
    ![](../assets/do-not-localize/glass.png)Adobe Campaign と Adobe Analytics の統合について詳しくは、[このペ ージ](../connect/ac-aem.md)を参照してください。
-
-   ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Adobe Experience Manager を Adobe Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 
 ## CRM コネクタの外部アカウント

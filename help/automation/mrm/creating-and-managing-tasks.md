@@ -3,7 +3,7 @@ product: campaign
 title: タスクの作成と管理
 description: タスクの作成と管理
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 094743fef69e137f80b670f0bf31dce56c282c34
 workflow-type: tm+mt
 source-wordcount: '3910'
 ht-degree: 87%
@@ -87,7 +87,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 >[!NOTE]
 >
->オペレーターの管理について詳しくは、 [この節](../../v8/start/permissions.md).
+>オペレーターの管理について詳しくは、 [この節](../../v8/start/gs-permissions.md).
 >
 >タスクを閉じることができるのは、タスクを担当するオペレーターのみです。
 

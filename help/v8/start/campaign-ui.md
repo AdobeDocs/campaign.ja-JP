@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Campaign のユーザーインターフェイスの確認
 
-## Campaign UI へのアクセス
+## Campaign UI へのアクセス{#ui-access}
 
 [クライアントコンソール](../architecture/general-architecture.md)から Campaign Workspace を利用できます。
 
@@ -24,7 +24,7 @@ Campaign クライアントコンソールをインストールして設定す�
 
 また、web ブラウザーを使用して Campaign にアクセスすることもできます。このコンテキストでは、Campaign 機能のサブセットのみ使用できます。 [詳細情報](#web-browser)
 
-## UI の参照
+## UI の参照{#ui-browse}
 
 Campaign に接続したら、ホームページにアクセスします。 機能にアクセスするには、リンクを参照します。UI で使用できる一連の機能は、オプションと権限に応じて異なります。
 
@@ -79,7 +79,7 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 下部のセクションには、選択したレコードの詳細が表示されます。
 
 
-## 言語
+## 言語{#languages}
 
 Campaign v8 ユーザーインターフェイスは、次の言語で使用できます。
 

@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
+source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 100%
+source-wordcount: '487'
+ht-degree: 97%
 
 ---
 
@@ -125,8 +125,11 @@ ht-degree: 100%
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
       + [データの同期](connect/crm-data-sync.md)
 + 管理 {#admin}
-   + [権限](start/permissions.md)
-   + [Campaign コントロールパネル](config/self-service.md)
+   + ユーザーと権限 {#permissions}
+      + [権限の基本を学ぶ](start/gs-permissions.md)
+      + [ユーザー権限の管理](start/manage-permissions.md)
+      + [フォルダーに対する権限の追加](start/folder-permissions.md)
+   + [コントロールパネル](config/self-service.md)
 + アーキテクチャと設定 {#config}
    + アーキテクチャ {#architecture}
       + [グローバル原則](architecture/general-architecture.md)

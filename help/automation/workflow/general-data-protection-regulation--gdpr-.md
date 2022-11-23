@@ -3,7 +3,7 @@ product: campaign
 title: プライバシーデータ保護規則ワークフロー
 description: プライバシーデータ保護規則ワークフローの詳細を説明します
 feature: Workflows, Privacy
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: ac4d0d0c16f429ca0948a3c3257558c46700baeb
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -12,7 +12,6 @@ ht-degree: 100%
 
 
 # プライバシーデータ保護規則{#general-data-protection-regulation-gdpr}
-
 
 
 以下に説明するワークフローは、デフォルトで&#x200B;**プライバシーデータ保護規則**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[記事](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)を参照してください。
