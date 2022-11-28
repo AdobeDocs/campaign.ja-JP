@@ -4,7 +4,8 @@ description: フォルダーに対する権限を付与または制限する方�
 feature: Permissions
 role: User, Admin
 level: Beginner
-source-git-commit: 857445d7d7d8080e479bdc596fb3162c2b4a2b6b
+exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
+source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 90%

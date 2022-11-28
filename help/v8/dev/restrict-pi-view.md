@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# PI ビューの制限{#restricting-pii-view}
+# PI の閲覧を制限{#restricting-pii-view}
 
 ## 概要 {#overview}
 

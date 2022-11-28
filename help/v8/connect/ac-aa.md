@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Campaign と Adobe Analytics の使用
+# Campaign と Adobe Analytics の操作
 
 Adobe Analytics を設定して、Campaign と Analytics を統合できます。
 

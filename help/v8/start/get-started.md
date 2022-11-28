@@ -1,6 +1,6 @@
 ---
-title: Campaign v8 の概要
-description: Adobe Campaign を初めて使用する方へソフトウェアの起動および実行方法と、インターフェイスを使用する場所に関するドキュメントを見つけます。
+title: Campaign v8 の基本を学ぶ
+description: Adobe Campaign を初めて使用する方へソフトウェアのインストールおよび導入方法と、どこからインターフェイスの使用を開始すればよいかに関するドキュメントを確認します。
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -91,7 +91,7 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 ## 配信とトラッキングログ{#gs-tracking-logs}
 
-送信後に配信を監視することは、効率的で顧客に働きかけるマーケティングキャンペーンにするための重要なステップです。 配信の送信後に監視したり、配信の失敗や強制隔離がどのように管理されているかを把握したりできます。
+送信後に配信を監視することは、マーケティングキャンペーンを効率的に実施し、顧客に働きかけるうえで重要なステップになります。 配信の送信後に監視したり、配信の失敗や強制隔離がどのように管理されているかを把握したりできます。
 
 ![](../assets/do-not-localize/book.png)配信を監視する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target=&quot;_blank&quot;}を参照してください
 

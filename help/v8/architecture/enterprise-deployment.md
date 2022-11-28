@@ -8,7 +8,7 @@ exl-id: 0a6f6701-b137-4320-9732-31946509ee03
 source-git-commit: 51bba0a2b4be03577f508d352fc7c2b514ba28e5
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Adobe Campaign v8 には、コアデータベースとして Snowflake が付属
 
 ### 機能の可用性 {#feature-availability}
 
-以下のような一部の機能は、Campaign のエンタープライズ (FFDA) デプロイメントのコンテキストでは使用できません。
+Campaign の Enterprise（FFDA）デプロイメントのコンテキストでは、次のような一部の機能は利用できません。
 
 * マーケティングリソース管理
 * クーポン

@@ -1,6 +1,6 @@
 ---
 title: Campaign v8 に関するよくある質問
-description: よくあるAdobe Campaignの質問への回答を得ます。
+description: Adobe Campaign に関する一般的な質問への回答を得ます。
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d7
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **メール配信の品質を向上させるにはどうすればよいですか？**
 
-   E メールの配信品質は、すべての送信者のマーケティングプログラムを成功させるうえで重要な要素で、常に変化する条件とルールによって特徴付けられます。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
+   メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要な要素であり、条件とルールが常に変化し続けるという特徴があります。デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
    ![](../assets/do-not-localize/book.png)詳しくは、[配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target=&quot;_blank&quot;}のガイドを参照してください。
 
@@ -85,4 +85,4 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminConsole.adobe.com/overview){target=&quot;_blank&quot;} に接続します。
 
-   このシステムでは、各ユーザーに対して、正しい権限を持つアカウントが個別に必要です。Adobe IDにログインできない場合は、Experience Leagueを通じてアクセス権を申請すると、できるだけ早くカスタマーケアチームに設定が依頼されます。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}
+   このシステムでは、各ユーザーに対して、正しい権限を持つアカウントが個別に必要です。Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。[詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}

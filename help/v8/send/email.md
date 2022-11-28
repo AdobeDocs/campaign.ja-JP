@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign を使用したメール送信
-description: Adobe Campaignでの E メールの概要。 ターゲット母集団にパーソナライズされた E メールを送信します。
+description: Adobe Campaign でのメールの基本を学びます。パーソナライズされたメールをターゲット母集団に送信します。
 feature: Email
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
