@@ -4,7 +4,7 @@ title: ディスカッションフォーラム
 description: Campaign ディスカッションフォーラムの利用方法を説明します
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
 source-git-commit: 72fc29c49fca5767133be4a9927b57b3cfb51a14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
 ht-degree: 100%
 
