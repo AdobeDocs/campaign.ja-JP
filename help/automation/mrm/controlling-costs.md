@@ -6,13 +6,13 @@ exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
 source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
 workflow-type: tm+mt
 source-wordcount: '2479'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # コスト管理{#controlling-costs}
 
-Adobe Campaignでは、マーケティングリソース管理モジュールを使用して、予約済み、コミット済みおよび請求済みのマーケティングコストを管理し、カテゴリ別に分類できます。
+Adobe Campaign では、マーケティングリソース管理モジュールを使用して、予約済み、コミット済みおよび請求済みのマーケティングコストを管理し、カテゴリ別に分類できます。
 
 キャンペーンの様々なプロセスにコミットされたコストは、マーケティング部門が事前に定義した予算に請求されます。情報をよりわかりやすく表示し、マーケティング投資をより詳細にレポートするために、金額を複数のカテゴリ別に分類することができます。
 
@@ -22,21 +22,21 @@ Adobe Campaignでは、マーケティングリソース管理モジュールを
 
 MRM を使用して予算管理を実装するには、次の手順に従います。
 
-1. 予算を定義します。 [詳細情報](#creating-a-budget)。
+1. 予算を定義します。[詳細情報](#creating-a-budget)。
 
-1. コスト計算方法を定義します。サービスプロバイダーに対してコスト構造を定義します。 [詳細情報](../campaigns/providers--stocks-and-budgets.md)。
+1. コスト計算方法の定義：サービスプロバイダーのコスト構造を定義します。 [詳細情報](../campaigns/providers--stocks-and-budgets.md)。
 
-1. キャンペーンコスト（配信/タスク）の定義：配信およびタスクにかかるコストは、個別に入力するか、キャンペーンテンプレート用にグローバルに入力します。 [詳細情報](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
+1. キャンペーンコスト（配信／タスク）の定義：配信およびタスクにかかるコストは、個別に入力することも、キャンペーンのテンプレートでグローバルに入力することもできます。[詳細情報](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
 
-1. 統合：コストは、タスク、配信およびキャンペーンの進捗状況ステータスに応じて計算され、対応する予算に渡されます。 キャンペーンの作成が順調に進んでいる場合、キャンペーン予算の進捗状況ステータスを「**[!UICONTROL 定義済み]**」に変更することができます。プログラムの計算されたコストには、キャンペーンの計算されたコストが自動的に入力されます。[詳細情報](#cost-commitment--calculation-and-charging)。
+1. 統合：コストは、タスク、配信およびキャンペーンの進捗状況ステータスに応じて計算され、対応する予算に紐付けられます。キャンペーンの作成が順調に進んでいる場合、キャンペーン予算の進捗状況ステータスを「**[!UICONTROL 定義済み]**」に変更することができます。プログラムの計算されたコストには、キャンペーンの計算されたコストが自動的に入力されます。[詳細情報](#cost-commitment--calculation-and-charging)。
 
 ## 予算の作成 {#creating-a-budget}
 
 予算を作成するには、次の手順に従います。
 
-1. 次を参照： **[!UICONTROL キャンペーン管理/予算]** Campaign エクスプローラーのノード。
+1. Campaign エクスプローラーの&#x200B;**[!UICONTROL キャンペーン管理／予算]**&#x200B;ノードを参照します。
 1. **[!UICONTROL 新規]**&#x200B;アイコンをクリックし、名前を付けて予算を保存します。
-1. 初期金額を入力：該当するフィールドに割り当てる金額を指定します。 その他の金額は自動的に入力されます。[詳細情報](#calculating-amounts)。
+1. 初期金額の入力：該当するフィールドに割り当てる金額を指定します。その他の金額は自動的に入力されます。[詳細情報](#calculating-amounts)。
 1. 開始日と終了日を入力して、有効期間を定義します。 この情報は単なる目安です。
 1. キャンペーンやタスクなどの予算に割り当てられたコストのリンク先費用カテゴリを作成します。[詳細情報](#expense-categories)。
 
@@ -141,7 +141,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 >[!NOTE]
 >
->コストカテゴリと構造について詳しくは、 [このページ](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>コストカテゴリとコスト構造について詳しくは、[このページ](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)を参照してください。
 
 ## コストのコミット、計算および請求 {#cost-commitment--calculation-and-charging}
 
@@ -274,7 +274,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 #### 手順 5 - タスクの作成 {#step-5---creating-tasks}
 
-このキャンペーンに、コスト構造が [以前に作成済み](#step-2---configuring-the-service-provider-and-defining-the-cost-structures).
+このキャンペーンに、[上記で作成した](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)コスト構造を使用する 2 つのタスクを追加します。
 
 追加するには、キャンペーンダッシュボードで「**[!UICONTROL タスクを追加]**」ボタンをクリックします。タスクに名前を付けて「**[!UICONTROL 保存]**」をクリックします。
 

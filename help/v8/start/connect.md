@@ -8,7 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
 source-wordcount: '841'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Campaign クライアントコンソールは、Campaign アプリケーショ�
 
 Campaign Classic 8.4 ビルドバージョン以降、コンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだ存在しない場合は、Campaign コンソールインストーラーにより、からダウンロードするよう求められます。 [Microsoft Developer Web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target=&quot;_blank&quot;}。 Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだインストールされていない場合、Campaign コンソールインストーラーにより、[Microsoft Developer web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target=&quot;_blank&quot;}からダウンロードするように求められます。Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
 
 ## クライアントコンソールのダウンロードとインストール{#download-ac-console}
 
@@ -35,7 +35,7 @@ WebView は、Windows 11 オペレーティングシステムの一部として�
 
 次の 2 つのオプションを使用できます。
 
-1. Campaign 管理者として、Adobeに接続 [ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html){target=&quot;_blank&quot;} を実行し、クライアントコンソールのインストールプログラムをダウンロードします。 その後、ローカルマシンにインストールできます。
+1. Campaign 管理者として、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html){target=&quot;_blank&quot;}に接続し、クライアントコンソールのインストールプログラムをダウンロードします。その後、ローカルマシンにインストールできます。
 
 1. アドビは、エンドユーザーとしてコンソールをデプロイできます。コンソールが更新されると、ポップアップウィンドウに最新のクライアントコンソールのバージョンをダウンロードするように求められます。
 
@@ -102,7 +102,7 @@ Campaign 管理者は、オペレーターを作成し、ユーザーと資格�
 
 Campaign ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。Adobe Campaign を他のソリューションと共に使用する場合、接続は保存されます。
 
-でのAdobe IMSの詳細 [このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target=&quot;_blank&quot;}。
+Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target=&quot;_blank&quot;}を参照してください。
 
 ## Web アクセス{#web-access}
 

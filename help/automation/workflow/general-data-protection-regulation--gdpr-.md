@@ -4,7 +4,7 @@ title: プライバシーデータ保護規則ワークフロー
 description: プライバシーデータ保護規則ワークフローの詳細を説明します
 feature: Workflows, Privacy
 source-git-commit: ac4d0d0c16f429ca0948a3c3257558c46700baeb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 

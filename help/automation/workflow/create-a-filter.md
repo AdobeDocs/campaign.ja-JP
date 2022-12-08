@@ -5,7 +5,7 @@ description: クエリを実行する際のフィルターの作成方法を学�
 feature: Query Editor, Workflows
 exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
 

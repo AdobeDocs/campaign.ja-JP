@@ -7,7 +7,7 @@ exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
 source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign のオペレーターは、完全な検証プロセスと、レ�
 
 >[!AVAILABILITY]
 >
->マーケティングリソース管理 (MRM) は、 [エンタープライズ (FFDA) デプロイメント](../../v8/architecture/enterprise-deployment.md) キャンペーンの
+>マーケティングリソース管理（MRM）は、[エンタープライズ（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)のキャンペーンのコンテキストでは使用できません。
 
 ## 概念と用語 {#core-concepts}
 

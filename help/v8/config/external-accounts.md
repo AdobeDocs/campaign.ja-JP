@@ -8,7 +8,7 @@ exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 >
 >[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、特定の&#x200B;**[!UICONTROL フル FDA]**（ffda）外部アカウントは、Campaign ローカルデータベースと Cloud データベース（[!DNL Snowflake]）との接続を管理します。
 >
->管理対象Cloud Servicesのユーザーとして、外部アカウントはAdobeごとにインスタンス用に設定され、変更できません。
+>Managed Cloud Services ユーザーの場合、外部アカウントは、お使いのインスタンス用にアドビが設定するので、変更してはなりません。
 
 ## Campaign 固有の外部アカウント
 
@@ -117,7 +117,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 * **外部データベース（FDA）**
 
-   この **外部データベース** タイプ外部アカウントは、Federated Data Access(FDA) を使用して外部データベースに接続するために使用されます。
+   **外部データベース**&#x200B;タイプの外部アカウントは、Federated Data Access（FDA）経由で外部データベースに接続するために使用します。
 
    Adobe Campaign v8 と互換性のある外部データベースは、[互換性マトリックス](../start/compatibility-matrix.md)に記載されています。
 
@@ -125,21 +125,21 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 * **Twitter**
 
-   この **Twitter** 「外部アカウント」と入力すると、Campaign をtwitterアカウントに接続して、自分に代わってメッセージを投稿するために使用されます。
+   **Twitter** タイプの外部アカウントは、Campaign を Twitter アカウントに接続して、ユーザーに代わってメッセージを投稿するために使用します。
 
-   ![](../assets/do-not-localize/glass.png) でのTwitter統合の詳細を説明します [この節](../connect/ac-tw.md).
+   ![](../assets/do-not-localize/glass.png)Twitter 統合について詳しくは、[この節](../connect/ac-tw.md)を参照してください。
 
 ## Adobe ソリューション統合外部アカウント
 
 * **Adobe Experience Cloud**
 
-   この **[!UICONTROL Adobe Experience Cloud]** 外部アカウントは、AdobeIdentity Managementサービス (IMS) を実装してAdobe Campaignに接続するために使用されます。
+   **[!UICONTROL Adobe Experience Cloud]** 外部アカウントは、Adobe Identity Management サービス（IMS）を実装してAdobe Campaign に接続するために使用します。
 
    ![](../assets/do-not-localize/glass.png) Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#connect-ims)を参照してください。
 
 * **Web 分析**
 
-   この **[!UICONTROL Web 分析 (Adobe Analytics)]** 外部アカウントを使用して、Adobe AnalyticsからAdobe Campaignへのデータ転送を設定します。
+   **[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントは、Adobe Analytics から Adobe Campaign へのデータ転送を設定するために使用します。
 
    ![](../assets/do-not-localize/glass.png)Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 

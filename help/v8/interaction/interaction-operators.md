@@ -8,7 +8,7 @@ exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -22,14 +22,14 @@ Campaign インタラクションを利用できるオペレーターには、**
 ## オファーマネージャーオペレーターの作成{#offer-manager}
 
 1. オペレーターを作成します。[詳細情報](../start/manage-permissions.md#add-users)
-1. 次を参照： **[!UICONTROL グループとネームド権限]** ウィンドウ、クリック **[!UICONTROL 追加]** をクリックし、 **[!UICONTROL オファーマネージャー]** グループ化します。
+1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウを参照して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
 
-オファーマネージャーに関連付けられている権限については、 [ここ](../start/manage-permissions.md#ootb-productprofiles)
+オファーマネージャーに関連付けられている権限については、[こちら](../start/manage-permissions.md#ootb-productprofiles)を参照してください。
 
 ## 配信マネージャーオペレーターの作成 {#delivery-manager}
 
 1. オペレーターを作成します。[詳細情報](../start/manage-permissions.md#add-users)
-1. 次を参照： **[!UICONTROL グループとネームド権限]** タブ、クリック **[!UICONTROL 追加]** をクリックし、 **[!UICONTROL 配信責任者]** グループ化します。
+1. 「**[!UICONTROL グループとネームド権限]**」タブを参照して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 配信マネージャー]**」グループを選択します。
 
 配信マネージャーに割り当てられる権限で実行できるタスクは次のとおりです。
 

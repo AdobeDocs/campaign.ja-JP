@@ -8,7 +8,7 @@ exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
 source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 フォルダーに対する権限を使用して、Campaign データへのアクセスを整理および制御します。
 
-フォルダー管理について詳しくは、 [このページ](../audiences/folders-and-views.md).
+フォルダー管理について詳しくは、[このページ](../audiences/folders-and-views.md)を参照してください。
 
 特定の Campaign フォルダーに対する権限を編集するには、次の手順に従います。
 

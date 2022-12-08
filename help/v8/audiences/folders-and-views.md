@@ -8,7 +8,7 @@ exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 source-git-commit: 515520bb5b7131fc2ed2d1b2a843373f01af306a
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -107,4 +107,4 @@ A2 - チケットのインポート。11:00 から開始します。
 
 ## フォルダーへのアクセスを制限する{#restrict-access-to-a-folder}
 
-フォルダーに対する権限を使用して、Campaign データへのアクセスを整理および制御します。のフォルダーに対する権限の詳細を説明します [この節](../start/folder-permissions.md).
+フォルダーに対する権限を使用して、Campaign データへのアクセスを整理および制御します。フォルダーの権限について詳しくは、[この節](../start/folder-permissions.md)を参照してください。
