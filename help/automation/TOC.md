@@ -4,7 +4,7 @@ user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
 source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
