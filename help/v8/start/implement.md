@@ -5,39 +5,44 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 504b67ef9f20466e0d426b6a96f1dc4c6748d303
+source-git-commit: a2c30979be786ce8374857eb270ba71ec0e1b2a3
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 100%
+source-wordcount: '1197'
+ht-degree: 89%
 
 ---
 
-# Campaign 実装のガイドライン
+# Campaign 実装のガイドライン{#gs-implementation}
 
-この節では、会社の要件に合わせて Adobe Campaign を調整する方法を説明します。次のガイドラインに従って、実装を構成し整理します。
+この節では、会社の要件に合わせてAdobe Campaignを調整する方法を説明します。 次のガイドラインに従って、実装を構成し整理します。
 
-1. **設定の定義**：アクセスの許可、クライアントコンソールの共有、チャネルの設定（E メール、プッシュ、SMS）
-1. **環境の準備**：プロファイルのインポート，オーディエンスの作成，ワークフローとキャンペーンテンプレートの設計、タイポロジルールの作成
-1. **インスタンスのカスタマイズ**：新しいデータフィールドの作成、テーブル／スキーマの追加
-1. **デプロイメントの拡張**：Adobe ソリューションや、コネクタ、マルチソリューション設定などのその他の製品およびシステムへの接続
+1. **設定の定義**：アクセスの許可、クライアントコンソールの共有、チャネルの設定（E メール、プッシュ、SMS）。[詳細情報](#implementation-ac-settings)
+1. **環境の準備**：プロファイルのインポート，オーディエンスの作成，ワークフローとキャンペーンテンプレートの設計、タイポロジルールの作成. [詳細情報](#implementation-prepare-your-env)
+1. **インスタンスのカスタマイズ**：新しいデータフィールドの作成、テーブル／スキーマの追加. [詳細情報](#implementation-custom-your-instance)
+1. **プロセスの自動化**:Adobe Campaignの自動化機能を設定します。 [詳細情報](#implementation-automation)
+1. **デプロイメントの拡張**：Adobe ソリューションや、コネクタ、マルチソリューション設定などのその他の製品およびシステムへの接続. [詳細情報](#implementation-extend)
 
 >[!CAUTION]
 >
->**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって設定されています。インストール済みのビルトインパッケージ、ビルトインのスキーマやレポートなどは変更できません。
+>を使用 **キャンペーン管理Cloud Services**&#x200B;の場合、環境と初期設定は、使用許諾契約の条件に従ってAdobeが設定します。 インストールされている組み込みパッケージ、組み込みスキーマ、またはレポートを変更することはできません。
 >
 >Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビのカスタマーサポート**&#x200B;にお問い合わせください。
 
-## 開始する前に
+## 開始する前に{#before-starting}
 
 この節には、実際に実装を始める前に確認し考慮する必要があるプライバシーとセキュリティに関する重要な情報が含まれています。
 
-### プライバシー
+### プライバシー{#implementation-privacy}
 
 Adobe Campaign には、該当するデータプライバシー保護法や受信者の環境設定に応じて Campaign を使用できるプロセスと設定が用意されています。以下を管理できます。
 
-* **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。したがって、受信者の同意を得て、管理する必要があります。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition){target=&quot;_blank&quot;}を参照してください
+* **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。したがって、受信者の同意を得て、管理する必要があります。
 
-* **ユーザーの同意とデータ保持**：ユーザーの同意を得る方法、ダブルオプトインの購読メカニズムを設定する方法、オプトアウトを促進する方法、データ保持を設定する方法については、[Campaign Classic のプライバシーに関するドキュメント{target=&quot;_blank&quot;}](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent)を参照してください。
+   詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition){target=&quot;_blank&quot;}を参照してください
+
+* **ユーザーの同意とデータ保持**:ユーザーの同意を得、二重のオプトインサブスクリプションメカニズムを設定し、オプトアウトを容易にし、データ保持を設定する必要があります。
+
+   詳しくは、 [Campaign Classicv7 プライバシードキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target=&quot;_blank&quot;}
 
 * **プライバシーとデータ保護規制**：プライバシー要件、およびこれらの規制が組織と Adobe Campaign に与える影響について詳しくは、[この節](privacy.md)を参照してください。
 
@@ -45,25 +50,25 @@ Adobe Campaign には、該当するデータプライバシー保護法や受�
 
 Adobe Campaign のセキュリティガイドラインと原則については、[Campaign セキュリティチェックリスト](../config/security.md)を参照してください。
 
-## Campaign 設定の定義
+## Campaign 設定の定義{#implementation-ac-settings}
 
-### ユーザーの追加と権限の付与
+### ユーザーの追加と権限の付与{#implementation-add-users}
 
 Campaign にユーザーを手動で追加し、それらのユーザーを、役割の階層に合わせてグループに関連付けることができます。その後、ユーザーはログインして、適切なデータと権限にアクセスできます。
 
 ![](../assets/do-not-localize/glass.png) Adobe Campaign にユーザーを追加する方法については、[この節](../start/gs-permissions.md)を参照してください。
 
-### Campaign クライアントコンソールのインストール
+### Campaign クライアントコンソールのインストール{#implementation-install-console}
 
 アプリケーションのメインユーザーインターフェイスはリッチクライアントです。つまり、標準のインターネットプロトコル（SOAP、HTTP など）でのみ Adobe Campaign アプリケーションサーバーを通信するネイティブアプリケーション（Windows）です。Adobe Campaign クライアントコンソールは、生産性に優れた使いやすさを備え、帯域幅をほとんど使用せず（ローカルキャッシュを使用）、デプロイメントが容易になるよう設計されています。このコンソールはインターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク構成は不要です。
 
 ![](../assets/do-not-localize/glass.png) [ Campaign クライアントコンソールの詳細情報](connect.md)。
 
-## 環境の準備
+## 環境の準備{#implementation-prepare-your-env}
 
 メッセージの送信とマーケティングキャンペーンの作成を開始する前に、以下を行う必要があります。
 
-1. プロファイルのインポートとオーディエンスの作成
+1. **プロファイルのインポートとオーディエンスの作成**
 
    Campaign を使用すると、クラウドデータベースに連絡先を追加できます。ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。
 
@@ -73,7 +78,7 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
    ![](../assets/do-not-localize/glass.png) [ オーディエンスの定義方法を学ぶ](audiences.md)。
 
-1. テンプレートの作成
+1. **テンプレートの使用**
 
    キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。ビルトインテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
 
@@ -85,19 +90,19 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
    ![](../assets/do-not-localize/book.png) メールテンプレートについて詳しくは [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target=&quot;_blank&quot;}を参照
 
 
-1. タイポロジルールの設定
+1. **タイポロジルールの設定**
 
    Campaign タイポロジルールを活用して、配信送信をフィルタリング、制御、監視します。例えば、疲労ルールでは、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。実装が完了すると、タイポロジルールが配信で参照されます。
 
    タイポロジと疲労管理について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja)を参照してください。
 
-1. Campaign のビルトインデータモデルの理解
+1. **Campaign のビルトインデータモデルの理解**
 
    Adobe Campaign には、事前定義済みのデータモデルが付属しています。環境を実装およびカスタマイズするには、Adobe Campaign データモデルのビルトインテーブルとそれらの関係を理解しておく必要があります。
 
    ![](../assets/do-not-localize/glass.png) [ Campaign データモデルの詳細情報](../dev/datamodel.md)。
 
-## インスタンスのカスタマイズ
+## インスタンスのカスタマイズ{#implementation-custom-your-instance}
 
 Campaign の様々な領域や機能をカスタマイズできます。ほとんどの顧客がカスタマイズしているのは、次の 3 つです。
 
@@ -128,19 +133,20 @@ Campaign の様々な領域や機能をカスタマイズできます。ほと�
    ![](../assets/do-not-localize/glass.png) Campaign のレポート機能の詳細については、[このページ](../reporting/gs-reporting.md)を参照してください。
 
 
-## キャンペーン自動処理の設定
+## キャンペーン自動処理の設定{#implementation-automation}
 
 複数のチャネルにわたって複雑なマーケティングキャンペーンを様々なオーディエンスに合わせて調整するには、Campaign 自動処理機能を利用します。
 
-* ワークフロー：プロセスとデータの管理
+* 用途 **workflows** プロセスとデータを管理する。 詳しくは、 [このドキュメント](../../automation/workflow/about-workflows.md)
 
-* 購読とランディングページ
+* 設定 **購読** プロセスと **ランディングページ**.  詳しくは、[このページ](../start/subscriptions.md)を参照してください。
 
-* タイポロジルール：疲労と制御の管理
+* 設定 **タイポロジルール** 疲労管理と統制管理を定義する。  詳しくは、 [このドキュメント](../../automation/campaign-opt/campaign-typologies.md)
 
-## デプロイメントの拡張
 
-### 複数のソリューションの実装
+## デプロイメントの拡張{#implementation-extend}
+
+### 複数のソリューションの実装{#implementation-multi-solutions}
 
 他のアドビのソリューションを使用している場合は、それらを Campaign 環境に接続して機能を組み合わせることができます。
 
@@ -158,7 +164,7 @@ Campaign の様々な領域や機能をカスタマイズできます。ほと�
 
 ![](../assets/do-not-localize/glass.png) Adobe Campaign と統合できるアドビのソリューションの完全なリストについては、[このページ](../connect/integration.md)を参照してください。
 
-### コネクタ
+### コネクタ{#implementation-connectors}
 
 Campaign をサードパーティシステムに接続して、幅広い機能を組み合わせ、プロセスを自動化します。
 
