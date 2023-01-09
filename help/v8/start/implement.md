@@ -5,9 +5,9 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+source-git-commit: 504b67ef9f20466e0d426b6a96f1dc4c6748d303
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1157'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign のセキュリティガイドラインと原則については�
 
 Campaign にユーザーを手動で追加し、それらのユーザーを、役割の階層に合わせてグループに関連付けることができます。その後、ユーザーはログインして、適切なデータと権限にアクセスできます。
 
-![](../assets/do-not-localize/book.png) Adobe Campaign にユーザーを追加する方法については、[この節](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja#getting-started){target=&quot;_blank&quot;}を参照してください。
+![](../assets/do-not-localize/glass.png) Adobe Campaign にユーザーを追加する方法については、[この節](../start/gs-permissions.md)を参照してください。
 
 ### Campaign クライアントコンソールのインストール
 
