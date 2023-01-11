@@ -115,12 +115,11 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
       >サウンドは、アプリケーションに含まれている必要があり、サービスが作成されたときに定義される必要があります。
       >
       >iOS 用の設定ガイドラインについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target=&quot;_blank&quot;}を参照してください
-
    ![](assets/push_ios_5.png)
 
 1. 「**[!UICONTROL アプリケーション変数]**」タブから、**[!UICONTROL アプリケーション変数]**&#x200B;が自動的に追加されます。これによって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
 
-   詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}を参照してください。
+   詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
 
 1. 「**[!UICONTROL 詳細]**」タブでは、次の一般的なオプションを編集できます。
 

@@ -55,7 +55,7 @@ ht-degree: 100%
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* スキーマ
+* schema
 * recCount
 
 この 3 つの値セットは、積集合によって生成されたターゲットを識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は **[!UICONTROL nms:recipient]**）、**[!UICONTROL recCount]** はテーブル内の要素の数です。

@@ -20,6 +20,6 @@ Campaign Classic v7 ドキュメントで説明している以下のステップ
 
 ![](../assets/do-not-localize/book.png) [メールオファー配信の送信](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ja){target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/book.png) [匿名訪問者に対するオファーの提示](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [匿名訪問者に対するオファーの提示](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ja){target=&quot;_blank&quot;}
 
-![](../assets/do-not-localize/book.png) [オファーシミュレーションの実行](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [オファーシミュレーションの実行](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ja){target=&quot;_blank&quot;}

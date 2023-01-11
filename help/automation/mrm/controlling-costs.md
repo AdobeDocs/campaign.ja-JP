@@ -4,7 +4,7 @@ title: コスト管理
 description: コスト管理の方法を説明します
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
 source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 100%
 

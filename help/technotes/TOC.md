@@ -19,5 +19,5 @@ ht-degree: 100%
 + アップグレード{#tn-new}
    + [Apache バージョンのアップグレード](upgrades/apache.md)
    + [インターネットブラウザー](upgrades/browsers.md)
-   + [2023年のシステムアップグレード](upgrades/tech-stack-upgrade.md)
+   + [2023 システムアップグレード](upgrades/tech-stack-upgrade.md)
 + [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
