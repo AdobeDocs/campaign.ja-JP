@@ -4,7 +4,7 @@ title: マーケティングキャンペーンの作成
 description: マーケティングキャンペーンを作成して実行する方法について説明します。
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 100%
@@ -103,7 +103,7 @@ ht-degree: 100%
 * ドキュメントとリソースの参照：ドキュメント（概要、レポート、画像など）とキャンペーンを関連付けることができます。あらゆるドキュメントフォーマットをサポートしています。[詳細情報](marketing-campaign-deliveries.md#manage-associated-documents)。
 * コストの定義：Adobe Campaign では、キャンペーンごとに、コストエントリと、マーケティングキャンペーン作成時に使用できるコスト計算構造を定義できます。例えば、印刷コスト、外部エージェンシーの利用、部屋の賃借などがあります。[詳細情報](providers--stocks-and-budgets.md#defining-cost-categories)。
 * 目標の定義：購読者数や取引高など、キャンペーンの定量化可能な目標を定義できます。この情報は、後でキャンペーンレポートで使用します。
-* シードアドレスとコントロール母集団を管理します。[詳細情報](marketing-campaign-deliveries.md#defining-a-control-group)）。
+* シードアドレスとコントロール母集団を管理します。[詳細情報](marketing-campaign-deliveries.md#defining-a-control-group)。
 * 承認の管理：承認を得る処理や、必要に応じてレビュー担当のオペレーターまたはオペレーターのグループを選択できます。[詳細情報](marketing-campaign-approval.md#checking-and-approving-deliveries)。
 
 >[!NOTE]

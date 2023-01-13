@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
    + [FAQ](start/campaign-faq.md)
 + キャンペーン管理 {#campaigns}
    + [キャンペーンの基本を学ぶ](start/campaigns.md)
-   + [Campaign オーケストレーションドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
+   + [キャンペーンオーケストレーション >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
    + メッセージの送信{#send}
       + [メッセージの基本を学ぶ](start/create-message.md)
       + [配信テンプレートの操作](send/create-templates.md)
@@ -166,5 +166,5 @@ ht-degree: 100%
       + [データベースの更新](dev/update-database-structure.md)
       + [入力フォーム](dev/forms.md)
    + [Campaign API](dev/api.md)
-+ [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
-+ [Campaign 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja)
++ [Campaign コントロールパネル >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
++ [Campaign 自動化ガイド >](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja)
