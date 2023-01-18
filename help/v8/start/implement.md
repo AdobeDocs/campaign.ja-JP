@@ -7,24 +7,24 @@ level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: a2c30979be786ce8374857eb270ba71ec0e1b2a3
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 89%
+source-wordcount: '1191'
+ht-degree: 100%
 
 ---
 
 # Campaign 実装のガイドライン{#gs-implementation}
 
-この節では、会社の要件に合わせてAdobe Campaignを調整する方法を説明します。 次のガイドラインに従って、実装を構成し整理します。
+この節では、会社の要件に合わせて Adobe Campaign を調整する方法を説明します。次のガイドラインに従って、実装を構成し整理します。
 
 1. **設定の定義**：アクセスの許可、クライアントコンソールの共有、チャネルの設定（E メール、プッシュ、SMS）。[詳細情報](#implementation-ac-settings)
 1. **環境の準備**：プロファイルのインポート，オーディエンスの作成，ワークフローとキャンペーンテンプレートの設計、タイポロジルールの作成. [詳細情報](#implementation-prepare-your-env)
-1. **インスタンスのカスタマイズ**：新しいデータフィールドの作成、テーブル／スキーマの追加. [詳細情報](#implementation-custom-your-instance)
-1. **プロセスの自動化**:Adobe Campaignの自動化機能を設定します。 [詳細情報](#implementation-automation)
-1. **デプロイメントの拡張**：Adobe ソリューションや、コネクタ、マルチソリューション設定などのその他の製品およびシステムへの接続. [詳細情報](#implementation-extend)
+1. **インスタンスのカスタマイズ**：新しいデータフィールドを作成し、テーブル／スキーマを追加します。[詳細情報](#implementation-custom-your-instance)
+1. **プロセスの自動化**：Adobe Campaign の自動化機能を設定します。 [詳細情報](#implementation-automation)
+1. **デプロイメントの拡張**：Adobe ソリューションや、コネクタ、マルチソリューション設定などのその他の製品およびシステムに接続します。[詳細情報](#implementation-extend)
 
 >[!CAUTION]
 >
->を使用 **キャンペーン管理Cloud Services**&#x200B;の場合、環境と初期設定は、使用許諾契約の条件に従ってAdobeが設定します。 インストールされている組み込みパッケージ、組み込みスキーマ、またはレポートを変更することはできません。
+>**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって設定されます。インストール済みのビルトインパッケージ、ビルトインのスキーマやレポートなどは変更できません。
 >
 >Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビのカスタマーサポート**&#x200B;にお問い合わせください。
 
@@ -38,11 +38,11 @@ Adobe Campaign には、該当するデータプライバシー保護法や受�
 
 * **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。したがって、受信者の同意を得て、管理する必要があります。
 
-   詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition){target=&quot;_blank&quot;}を参照してください
+   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition)を参照してください{target="_blank"}
 
-* **ユーザーの同意とデータ保持**:ユーザーの同意を得、二重のオプトインサブスクリプションメカニズムを設定し、オプトアウトを容易にし、データ保持を設定する必要があります。
+* **ユーザーの同意とデータ保持**：ユーザーの同意を得て、ダブルオプトインの購読メカニズムを設定し、オプトアウトを容易にして、データ保持を設定する必要があります。
 
-   詳しくは、 [Campaign Classicv7 プライバシードキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target=&quot;_blank&quot;}
+   詳しくは、[Campaign Classic v7 プライバシードキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target="_blank"}を参照してください
 
 * **プライバシーとデータ保護規制**：プライバシー要件、およびこれらの規制が組織と Adobe Campaign に与える影響について詳しくは、[この節](privacy.md)を参照してください。
 
@@ -87,7 +87,7 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
    ![](../assets/do-not-localize/glass.png) ワークフローテンプレートの設定方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja)を参照してください
 
-   ![](../assets/do-not-localize/book.png) メールテンプレートについて詳しくは [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target=&quot;_blank&quot;}を参照
+   ![](../assets/do-not-localize/book.png) メールテンプレートについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target="_blank"}を参照してください
 
 
 1. **タイポロジルールの設定**
@@ -137,11 +137,11 @@ Campaign の様々な領域や機能をカスタマイズできます。ほと�
 
 複数のチャネルにわたって複雑なマーケティングキャンペーンを様々なオーディエンスに合わせて調整するには、Campaign 自動処理機能を利用します。
 
-* 用途 **workflows** プロセスとデータを管理する。 詳しくは、 [このドキュメント](../../automation/workflow/about-workflows.md)
+* **ワークフロー**&#x200B;を使用して、プロセスとデータを管理します。 詳しくは、[このドキュメント](../../automation/workflow/about-workflows.md)を参照してください
 
-* 設定 **購読** プロセスと **ランディングページ**.  詳しくは、[このページ](../start/subscriptions.md)を参照してください。
+* **サブスクリプション**&#x200B;プロセスと&#x200B;**ランディングページ**&#x200B;を設定します。詳しくは、[このページ](../start/subscriptions.md)を参照してください。
 
-* 設定 **タイポロジルール** 疲労管理と統制管理を定義する。  詳しくは、 [このドキュメント](../../automation/campaign-opt/campaign-typologies.md)
+* 疲労管理と制御管理を定義するには、**タイポロジルール**&#x200B;を設定します。詳しくは、[このドキュメント](../../automation/campaign-opt/campaign-typologies.md)を参照してください
 
 
 ## デプロイメントの拡張{#implementation-extend}

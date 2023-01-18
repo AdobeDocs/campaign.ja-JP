@@ -7,8 +7,8 @@ level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 92%
 
 ---
 
@@ -46,10 +46,10 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
    ![](assets/desc-analysis-report.png)
 
-   ![](../assets/do-not-localize/book.png)Campaign の記述的分析レポートは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target=&quot;_blank&quot;}に記載されています。
+   ![](../assets/do-not-localize/book.png) キャンペーンの記述的分析レポートについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}
 
 * **カスタムレポート**
 
    Adobe Campaign を使用すると、データベース内のデータに関するレポートを作成できます。作成したレポートは、適切なコンテキストで参照できるようになります。
 
-   ![](../assets/do-not-localize/book.png) レポートの作成手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target=&quot;_blank&quot;}を参照してください。パーソナライズされたレポートの作成は、上級ユーザーがおこないます。
+   ![](../assets/do-not-localize/book.png) レポートを作成する手順について詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}. パーソナライズされたレポートの作成は、上級ユーザーがおこないます。

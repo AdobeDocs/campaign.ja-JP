@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
 source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 100%
+source-wordcount: '1748'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ユーザーを追加するには、次の手順に従います。
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise){target=&quot;_blank&quot;} ホームページで、「**ユーザーを追加**」を選択します。
+1. 内 [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} ホームページ、選択 **ユーザーを追加**.
 
    ![](assets/add-a-user.png)
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 「**保存**」をクリックします。ユーザーが追加され、ユーザーリストに表示されます。管理者の役割または製品プロファイルをユーザーに割り当てると、ユーザーにメール通知が届きます。 ユーザーは、リンクをたどって自分のプロファイルを完成させる必要があります。
 
-Admin Console でのユーザーの作成について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html){target=&quot;_blank&quot;}を参照してください。
+ユーザーの作成について詳しくは、 [このページ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html){target="_blank"}.
 
 新規ユーザーが Adobe ID で [Campaign にログオン](connect.md)すると、クライアントコンソールの Campaign オペレーターリストに追加されます。Campaign オペレーターは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;フォルダーに格納されます。
 
@@ -75,7 +75,7 @@ Campaign - テスト - 配信
 
 #### Admin Console での製品プロファイルの作成{#create-profile-in-admin-console}
 
-1. [Admin Console](https://adminconsole.adobe.com/enterprise){target=&quot;_blank&quot;} に接続します。
+1. に接続 [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. ホームページの「**製品とサービス**」セクションで、Campaign 製品を開きます。
 1. 「**新規プロファイル**」をクリックし、作成する製品プロファイルの名前を入力します。正確な構文については、[こちら](#product-profiles)を参照してください。この例では、次のように入力します。Campaign - `<your-instance-name>` - レビュー担当者
 
@@ -175,7 +175,7 @@ Adobe Campaign には組み込みの&#x200B;**製品プロファイル**&#x200B;
 
 Admin Console を使用して、ユーザーグループを作成し、ユーザーを割り当てることができます。
 
-ユーザーグループは、一連の共有権限を付与される必要がある様々なユーザーのコレクションです。ユーザーグループを作成する方法は、[この節](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target=&quot;_blank&quot;} を参照してください。
+ユーザーグループは、一連の共有権限を付与される必要がある様々なユーザーのコレクションです。でユーザーグループを作成する方法を説明します。 [この節](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"}.
 
 製品プロファイルをユーザーグループに割り当てることができます。 そのため、グループ内のすべてのユーザーは、同じ一連の製品権限を受け取ります。
 

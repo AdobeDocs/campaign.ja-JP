@@ -7,8 +7,8 @@ level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 100%
+source-wordcount: '906'
+ht-degree: 94%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 100%
 
 配信の設定が終わり、送信準備が整ったら、必ず配信分析を実行してください。
 
-![](../assets/do-not-localize/book.png) [詳しくは Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#confirming-delivery){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#confirming-delivery){target="_blank"}
 
 完了したら、配信を確定して、メッセージの配信を開始します。
 
 また、次のこともできます。
 
-* [「配信を延期」オプション](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#scheduling-the-delivery-sending){target=&quot;_blank&quot;}を使用して配信を後日にスケジュール設定
-* [複数のウェーブ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#sending-using-multiple-waves){target =&quot;_blank&quot;}を使用して複数のバッチに送信
+* 次を使用して後で配信するようにスケジュール [配信を延期オプション](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#scheduling-the-delivery-sending){target="_blank"},
+* を使用して複数のバッチに送信 [複数の波](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#sending-using-multiple-waves){target="_blank"}.
 
 「**配信**」タブから配信の実行を追跡します。このタブには、この配信の詳細または配信のリストからアクセスできます。
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 送信されたメッセージは、配信ダッシュボードで配信のステータスを確認し、配信ログとレポートで正しく送信されたことを確認します。
 
-![](../assets/do-not-localize/book.png) [詳細は、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [詳細は、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
 
 
 ## Campaign MTA {#mta}
@@ -59,7 +59,7 @@ MTA は SMTP バウンスを検証し、その検証結果を Campaign バウン
 
 >[!NOTE]
 >
->現在、**非同期**&#x200B;バウンスは、**[!UICONTROL 受信メール]**&#x200B;ルールを通じて inMail プロセスによって検証されています。詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ja#bounce-mail-qualification){target=&quot;_blank&quot;}を参照してください。<!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>現在、**非同期**&#x200B;バウンスは、**[!UICONTROL 受信メール]**&#x200B;ルールを通じて inMail プロセスによって検証されています。詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ja#bounce-mail-qualification){target="_blank"}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
 
 配信エラーの詳細については、[この節](delivery-failures.md)を参照してください。
 
@@ -76,7 +76,7 @@ Domain Keys Identified Mail（DKIM）は、偽造された送信者アドレス�
 
 Adobe Campaign では、DKIM のメール認証の署名は MTA が実行します。
 
-DKIM の詳細については、[アドビ配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target=&quot;_blank&quot;}を参照してください。
+DKIM の詳細は、 [Adobe配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"}.
 
 ## メールフィードバックサービス {#email-feedback-service}
 
@@ -90,7 +90,7 @@ DKIM の詳細については、[アドビ配信品質のベストプラクテ�
 
 MTA からハードバウンスメッセージが報告されると、ログのステータスが&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->に変わります。
 
-ソフトバウンスメッセージが MTA から返されても、ログのステータスは変わりません（**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;のまま）。[エラー理由](delivery-failures.md#delivery-failure-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変わりません。その後、ソフトバウンスメッセージが配信[有効期間](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target=&quot;_blank&quot;}中再試行され続けます。
+ソフトバウンスメッセージが MTA から返されても、ログのステータスは変わりません（**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;のまま）。[エラー理由](delivery-failures.md#delivery-failure-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変わりません。その後、ソフトバウンスメッセージは、配信全体を通して再試行されます [有効期間](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}:
 
 * 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増えます。
 

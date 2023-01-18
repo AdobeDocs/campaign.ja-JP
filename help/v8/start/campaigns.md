@@ -7,8 +7,8 @@ level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 98%
 
 ---
 
@@ -110,5 +110,5 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 >
 >この機能は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 
-[](../assets/do-not-localize/book.png) Campaign Response Manager の設定方法と使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+[](../assets/do-not-localize/book.png) Campaign Response Manager の設定方法と使用方法については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}
 
