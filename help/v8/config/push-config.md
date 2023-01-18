@@ -6,10 +6,10 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 100%
+source-wordcount: '1283'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Android および iOS でサポートされているバージョン、Campaign v
 
 >[!NOTE]
 >
->Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 
 
 ## 統合設定の宣言 {#declaring-integration-settings}
@@ -794,7 +794,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign コンソールの専用モバイルアプリケーションサービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
 
-![](../assets/do-not-localize/book.png) 詳しくは、モバイルアプリの **Campaign Classic v7 ドキュメント**：[iOS の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target=&quot;_blank&quot;}と [Andoid の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+![](../assets/do-not-localize/book.png) 詳しくは、 **Campaign Classicv7 ドキュメント** モバイルアプリ上： [iOSの設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=ja){target="_blank"} and [Configuration steps for Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja){target="_blank"}.
 
 次に、通知で追加された変数をモバイルアプリケーションで収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
 
