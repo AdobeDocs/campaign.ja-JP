@@ -5,9 +5,9 @@ description: マーケティングリソース（MRM）
 feature: Workflows, Targeting Activity
 hide: true
 hidefromtoc: true
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '83'
 ht-degree: 100%
 
 ---
@@ -15,9 +15,7 @@ ht-degree: 100%
 
 # マーケティングリソース（MRM）{#marketing-resources-mrm}
 
-
-
-以下に説明するワークフローは、デフォルトで&#x200B;**マーケティングリソース（MRM）**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、こちらを参照してください。
+以下に説明するワークフローは、デフォルトで&#x200B;**マーケティングリソース（MRM）**&#x200B;モジュールと共にインストールされます。
 
 <table> 
  <tbody> 
