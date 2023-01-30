@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
+source-git-commit: 366cf800a81ea9ab10fe5e3063f44e5214bda927
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 99%
    + [ガードレール](start/ac-guardrails.md)
    + [既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
-   + [Classic v7 から v8 へ](start/v7-to-v8.md)
 + はじめに {#new}
    + [Adobe Campaign の概要](start/get-started.md)
    + [主な機能](start/whats-new.md)
