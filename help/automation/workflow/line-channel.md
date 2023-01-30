@@ -3,17 +3,17 @@ product: campaign
 title: LINE チャネル
 description: LINE チャネル
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 90%
 
 ---
 
 
 # LINE チャネル{#line-channel}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**LINE チャネル**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、こちらを参照してください。
+以下に説明するワークフローは、デフォルトで&#x200B;**LINE チャネル**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、 [このページ](../../v8/send/line.md).
 
 <table> 
  <tbody> 
