@@ -4,9 +4,9 @@ title: 分散型マーケティングのサンプル
 description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1362'
 ht-degree: 100%
 
 ---
@@ -14,14 +14,11 @@ ht-degree: 100%
 # 分散型マーケティングのサンプル{#distributed-marketing-samples}
 
 
-
 ## ローカルキャンペーン（フォーム）の作成 {#creating-a-local-campaign--by-form-}
 
 **フォーム**&#x200B;タイプの Web インターフェイスを使用するには、**Web アプリケーション**&#x200B;を使用する必要があります。Web アプリケーションには、設定に応じて、パーソナライズされたあらゆる種類の定義済み要素を含めることができます。例えば、専用の API を使用して、ターゲット、予算、コンテンツなどを評価するリンクを提案できます。
 
 >[!NOTE]
->
->API について詳しくは、専用ドキュメントを参照してください。。
 >
 >この例で使用する web アプリケーションは、Adobe Campaign に付属している web アプリではありません。キャンペーンでフォームを使用するには、専用の Web アプリケーションを作成する必要があります。
 
