@@ -4,20 +4,16 @@ title: タイムゾーンの管理
 description: タイムゾーンの管理
 feature: Workflows
 exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '280'
 ht-degree: 100%
 
 ---
 
 # タイムゾーンの管理{#managing-time-zones}
 
-
-
 Adobe Campaign では、関係するさまざまな国の間のタイムラグを、同じインスタンスで管理できます。適用する設定は、インスタンスの作成中に設定できます。
-
-Adobe Campaign でのタイムゾーンの設定について詳しくは、こちらを参照してください。
 
 ワークフローでは、アクティビティの実行スケジュールを変更したり、固有のタイムゾーンをアクティビティやワークフロー全体とリンクしたりすることができます。この設定は、ファイルをインポートするときや、配信のスケジュール設定のフレームワークで役立ちます。
 
