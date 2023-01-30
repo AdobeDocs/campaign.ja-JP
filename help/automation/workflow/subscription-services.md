@@ -4,9 +4,9 @@ title: 購読サービス
 description: 購読サービスワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 1. 選択した情報サービスに対して、指定した母集団の購読をおこなう場合は「**[!UICONTROL 購読]**」を、購読を解除する場合は「**[!UICONTROL 購読解除]**」を選択します。
 1. 「**[!UICONTROL 確認メッセージを送信]**」を選択すると、サービスの購読または購読解除が受信者に通知されます。
 
-   このメッセージの内容は、情報サービスに関連付けられた配信テンプレートで指定されています。詳しくは、こちらを参照してください。
+   このメッセージの内容は、情報サービスに関連付けられた配信テンプレートで指定されています。
 
 ## 例：受信者リストのニュースレターへの登録 {#example--subscribe-a-list-of-recipients-to-a-newsletter}
 
