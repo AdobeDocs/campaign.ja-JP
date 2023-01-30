@@ -4,20 +4,16 @@ title: Campaign ワークフローヒートマップ
 description: ワークフローヒートマップで ワークフローを監視
 feature: Workflows, Heatmap
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1145'
 ht-degree: 100%
 
 ---
 
 # ワークフローヒートマップ {#workflow-heatmap}
 
-
-
 Campaign ワークフローヒートマップは、現在実行中のすべてのワークフローを色分けしてわかりやすく表示します。 **キャンペーン管理者**&#x200B;のみが使用できます。
-
-このページでは、Campaign プロセスを監視するその他の方法を紹介します。
 
 ## ワークフローヒートマップの概要 {#about-the-workflow-heatmap}
 
@@ -53,8 +49,7 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
    デフォルトでは、このページには現在の日付のワークフローアクティビティが表示されます。日付は変更して過去の任意の日を選択できます。
 
    >[!NOTE]
-   >
-   >** によって削除されていないワークフローのみです。\
+   > 
    >デフォルトでは、ワークフローヒートマップのタイムゾーンは、現在の管理者ユーザーで指定されたタイムゾーンです。例えば、一緒に働いているマーケティングユーザーと同じ地域にいない場合には、この値を変更できます。
 
 1. 「**[!UICONTROL フィルター]**」ボタンをクリックします。
