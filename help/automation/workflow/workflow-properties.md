@@ -4,9 +4,9 @@ title: ワークフローのプロパティ
 description: キャンペーンワークフローのプロパティの詳細を説明します
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '613'
 ht-degree: 100%
 
 ---
@@ -39,8 +39,6 @@ ht-degree: 100%
 * **[!UICONTROL デフォルトのアフィニティ]**
 
    インストールに複数のワークフローサーバーが存在する場合、このフィールドを使用して、ワークフローを実行するマシンを選択します。このフィールドで定義した値がどのサーバーにも存在しない場合、ワークフローは保留中となります。
-
-   こちらを参照してください。
 
 * **[!UICONTROL 履歴（日数）]**
 
