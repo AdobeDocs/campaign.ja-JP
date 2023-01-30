@@ -4,7 +4,7 @@ title: カスタム日付フィールドを使用した E メールエンリッ�
 description: カスタムの日付フィールドを使用して E メールをエンリッチメントする方法を説明します
 feature: Workflows
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%
@@ -107,7 +107,7 @@ ht-degree: 100%
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. クリック ![](assets/uc_enrichment_16.png) .**[!UICONTROL ターゲット式]**&#x200B;を選択してから、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティで前に作成したカスタム有効期限日を選択して、ターゲット式を formatDate 式に追加します。
+1. 「![](assets/uc_enrichment_16.png)」をクリックします。**[!UICONTROL ターゲット式]**&#x200B;を選択してから、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティで前に作成したカスタム有効期限日を選択して、ターゲット式を formatDate 式に追加します。
 
    ![](assets/uc_enrichment_19.png)
 
