@@ -4,9 +4,9 @@ title: セル
 description: セル
 feature: Workflows, Targeting Activity
 exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 100%
 
 ---
@@ -50,4 +50,4 @@ ht-degree: 100%
                 </container>
 ```
 
-Adobe Campaign の入力フォームのパーソナライゼーションを実行できるのは、エキスパートユーザーに限られます。詳しくは、こちらを参照してください。
+Adobe Campaign の入力フォームのパーソナライゼーションを実行できるのは、エキスパートユーザーに限られます。
