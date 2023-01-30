@@ -4,9 +4,9 @@ title: 読み込み（SOAP）
 description: 読み込み（SOAP）
 feature: Workflows
 exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '243'
 ht-degree: 100%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 100%
    ![](assets/soap_load_001.png)
 
    例を更新する場合は、「**[!UICONTROL 例を再分析]**」を選択します。
-
-   「詳細設定パラメーター」リンクを使用して、列データの形式をパーソナライズすることもできます。
 
 1. 行番号を識別子として使用するか、または SOAP 呼び出しでいくつの要素を返させることを指定することができます。
 1. 関数に合わせて、次のタブスクリプトを入力してください。
