@@ -4,10 +4,10 @@ title: 概要リストの作成
 description: 概要リストの作成
 feature: Workflows, Data Management
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 100%
+source-wordcount: '1057'
+ht-degree: 99%
 
 ---
 
@@ -56,9 +56,7 @@ Phone;500;London 5
 
    「**ファイルコレクター**」アクティビティを使用することで、Adobe Campaign サーバーの間で、ファイルの収集、送信をおこなうことができます。
 
-   一方、「**データの読み込み（ファイル）**」アクティビティでは、収集したデータでワークフローのワークテーブルをエンリッチメントすることが可能です。
-
-   このアクティビティについて詳しくは、次を参照してください。
+   一方、「**データの読み込み（ファイル）**」アクティビティでは、収集したデータでワークフローのワークテーブルをエンリッチメントすることが可能です。このアクティビティについて詳しくは、 [このページ](data-loading--file-.md).
 
 1. 「**ファイルコレクター**」アクティビティを設定し、選択したディレクトリからテキスト（&#42;.txt）タイプのファイルを収集します。
 
