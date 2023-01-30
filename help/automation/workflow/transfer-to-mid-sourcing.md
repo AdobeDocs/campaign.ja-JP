@@ -3,9 +3,9 @@ product: campaign
 title: ミッドソーシング転送
 description: ミッドソーシング転送ワークフローの詳細を説明します
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '95'
 ht-degree: 100%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 100%
 
 # ミッドソーシング転送{#transfer-to-mid-sourcing}
 
-
-
-以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシング転送**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、こちらを参照してください。
+以下に説明するワークフローは、デフォルトで&#x200B;**ミッドソーシング転送**&#x200B;モジュールと共にインストールされます。
 
 <table> 
  <tbody> 
