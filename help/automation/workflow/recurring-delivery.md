@@ -4,9 +4,9 @@ title: 繰り返し配信
 description: 繰り返し配信ワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '272'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. 配信テンプレートを設定します。
 
-このアクティビティの設定プロセスで使用できるオプションは、配信テンプレートの作成プロセスで使用できるオプションとほぼ同じです。詳しくは、こちらを参照してください。
+このアクティビティの設定プロセスで使用できるオプションは、配信テンプレートの作成プロセスで使用できるオプションとほぼ同じです。
 
 このアクティビティの使用例については、この[節](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow)を参照してください。
 
