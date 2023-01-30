@@ -4,9 +4,9 @@ title: グループ管理を使用したクエリ
 description: グループ管理を使用したクエリの実行方法を学ぶ
 feature: Query Editor
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
@@ -36,8 +36,6 @@ ht-degree: 100%
    ![](assets/query_editor_02.png)
 
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL E メールドメイン]**」フィールドおよび「**[!UICONTROL プライマリキー]**」フィールドを選択します。「**[!UICONTROL プライマリキー]**」フィールドでカウントを実行します。
-
-   プライマリキーカウントについて詳しくは、こちらを参照してください。
 
 1. 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」ボックスをオンにします。
 
