@@ -4,16 +4,14 @@ title: コンテンツ管理
 description: コンテンツ管理
 feature: Workflows, Data Management
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
 
 # コンテンツ管理{#content-management}
-
-
 
 「**コンテンツ管理**」アクティビティでは、コンテンツの作成と操作、およびこのコンテンツに基づくファイルの生成をおこなうことができます。その後、このコンテンツを「配信」アクティビティ経由で配信できます。
 
@@ -28,8 +26,6 @@ ht-degree: 100%
 * **アクション**：生成されるコンテンツを保存または生成できます。
 
    ![](assets/content_mgmt_edit.png)
-
-   Adobe Campaign でのコンテンツ管理の設定と使用について詳しくは、こちらを参照してください。
 
 1. **コンテンツ**
 
@@ -98,7 +94,3 @@ ht-degree: 100%
 * filename
 
    選択したアクションが「**[!UICONTROL 生成]**」の場合、生成されたファイルの完全なファイル名。
-
-## 例 {#examples}
-
-こちらの例を参照してください。
