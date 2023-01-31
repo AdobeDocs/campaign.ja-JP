@@ -1,14 +1,14 @@
 ---
 title: Campaign v8 互換性マトリックス
-description: Campaign v8 と互換性のあるシステムとバージョン
+description: Campaign v8 と互換性のあるシステムとバージョンの確認
 feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 00d95425ca9438cd03b27bbec171aa7c57d25d6f
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 93%
 
 ---
 
@@ -26,37 +26,20 @@ ht-degree: 100%
 
 Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。[詳細情報](connect.md)。
 
-### オペレーティングシステム
+### オペレーティングシステム{#op-systems}
 
 * **Microsoft Windows Server** 2019、2016、2012
-* **Microsoft Windows** 11（Campaign v8.3 以降）、10、8
+* **Microsoft Windows** 11, 10, 8
 
 >[!NOTE]
 >
 >Microsoft Windows 10（日本語インスタンスの場合に推奨）。
 
-### ブラウザー
+### Web ブラウザー{#web-browsers}
 
-**Microsoft Edge**
+* Microsoft Edge
 
-### Microsoft WebView2 ランタイム
-
-<table>
-<tbody>
-<tr>
-<td>
-<p>Microsoft Edge WebView2 ランタイム
-</p>
-</td>
-<td>
-<p>最新バージョン</p>
-</td>
-<td>
-<p><a href="http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp">Microsoft Developer web サイトからダウンロード</a></p>
-</td>
-</tr>
-</tbody>
-</table>
+* Microsoft Edge WebView2 ランタイム、最新バージョン。 からダウンロード [Microsoft Developer Site](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target="_blank"}.
 
 ## CRM コネクタ{#CRMconnectors}
 
@@ -82,7 +65,7 @@ Campaign では、関連する Mobile SDK を使用して、以下に示すオ�
 * **Apple iOS** 9 ～ 16、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョンiOS 16 は Campaign v8.4 以降でサポートされています.
 
 
-## Web アクセス
+## Web アクセス{#web-access}
 
 次のブラウザーは Campaign for [Web Access](connect.md#web-access) と互換性があります。
 
