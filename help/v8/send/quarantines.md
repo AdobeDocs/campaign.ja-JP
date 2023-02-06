@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b783b1444457b3204fea35b613582642499acf65
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 99%
+source-wordcount: '1235'
+ht-degree: 85%
 
 ---
 
@@ -112,8 +112,16 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
    ![](assets/tech-quarantine-status.png)
 
-* ステータスを「**[!UICONTROL 許可リスト登録済み]**」に変更します。この場合、アドレスは強制隔離リストに残りますが、エラーが発生した場合でも、自動的にターゲットに設定されます。
+例えば、E メールが受信者に正常に配信されなかったために誤ってバウンスとマークされた ISP の停止が発生した場合に、強制隔離リストで一括更新を実行する必要が生じる場合があります。
 
->[!CAUTION]
->
->強制隔離リストからアドレスを削除すると、このアドレスへの送信が再び開始されます。配信品質と IP のレピュテーションに重大な影響が及ぶ可能性があり、最終的に IP アドレスや送信ドメインがブロックされる可能性があります。強制隔離からアドレスを削除することを検討する場合は、細心の注意を払う必要があります。サポートが必要な場合は、アドビサポートにお問い合わせください。
+これを実行するには、ワークフローを作成し、強制隔離テーブルにクエリを追加して、影響を受けるすべての受信者を除外し、強制隔離リストから削除して、今後の Campaign E メール配信に含めることができます。
+
+このクエリで推奨されるガイドラインを次に示します。
+
+* **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
+* **E メールドメイン (@domain)** domain1.com と等しい **E メールドメイン (@domain)** domain2.com と等しい **E メールドメイン (@domain)** domain3.com と等しい
+* **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
+* **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
+
+影響を受ける受信者のリストが揃ったら、 **[!UICONTROL データを更新]** ステータスを次に設定するアクティビティ： **[!UICONTROL 有効]** したがって、これらは、 **[!UICONTROL データベースのクリーンアップ]** ワークフロー、 また、強制隔離テーブルから削除するだけでもかまいません。
+
