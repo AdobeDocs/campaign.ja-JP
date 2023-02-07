@@ -5,7 +5,7 @@ title: Adobe Campaign Automation ホーム
 feature: Overview
 description: 概要
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: d6ea8bef9c62d4afbc919110775ee99052eeed7a
+source-git-commit: d8a009b1d6ea4f6921cef203d61c78032951f3ee
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
@@ -22,13 +22,13 @@ Adobe Campaign を使用すると、キャンペーンオーケストレーシ�
 Adobe Campaign で自動処理を構築する方法については、以下のガイドを参照してください。
 
 >[!NOTE]
+>
 >一部の画面は、お使いの環境とは異なる場合があります。
 
-
 <table>
-<tr>
+<tr style="border: 0;">
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/workflow.jpeg">
     <b>ワークフロー</b>
     </div>
     <br>
@@ -46,7 +46,7 @@ Adobe Campaign で自動処理を構築する方法については、以下の�
     <br>
   </td>
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/campaign.jpeg">
     <b>キャンペーンの自動処理</b>
     </div>
     <br>
@@ -64,7 +64,7 @@ Adobe Campaign で自動処理を構築する方法については、以下の�
     <br>
   </td>
   <td valign="top">
-    <div>
+    <div><img src="assets/do-not-localize/add-on.jpeg">
     <b>アドオン</b>
     </div>
     <br>
