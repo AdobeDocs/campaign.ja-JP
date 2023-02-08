@@ -5,11 +5,12 @@ solution: Campaign, Campaign v8
 product: adobe campaign
 feature-set: Campaign
 type: Documentation
+git-repo: https://github.com/AdobeDocs/campaign.ja-JP
 mini-toc-levels: 2
 index: true
-source-git-commit: 5c070e9c89999627110e65691d76dd31acc95bea
-workflow-type: ht
-source-wordcount: '61'
+source-git-commit: fffdccaefc00f77174450526b2e22c8657e1606f
+workflow-type: tm+mt
+source-wordcount: '65'
 ht-degree: 100%
 
 ---
