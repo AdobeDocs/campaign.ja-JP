@@ -5,9 +5,9 @@ description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
 source-git-commit: 366cf800a81ea9ab10fe5e3063f44e5214bda927
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 99%
    + [Campaign と Experience Cloud トリガーの統合](connect/ac-triggers.md)
    + [Campaign と Twitter の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
-   + Campaign と CRM の統合 {#ac-crm}
+   + Campaign と CRM の統合{#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
