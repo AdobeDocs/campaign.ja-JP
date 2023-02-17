@@ -1,19 +1,19 @@
 ---
 title: Campaign v8 2021 リリースノート
-description: 2021 Campaign v8 リリースで提供される機能と改善点のリスト
+description: Campaign v8 2021 リリースで記載される機能と改善点のリスト
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 2021 年リリースノート{#2021-release}
+# 2021 リリースノート{#2021-release}
 
-このページには、に加えられた新機能、改善点、修正点が記載されています。 **2021 Campaign v8 リリース**.
+このページには、**Campaign v8 2021 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
 
 ## リリース 8.2.8 {#release-8-2-8}
 
