@@ -5,7 +5,7 @@ description: 購読サービスワークフローアクティビティの詳細�
 feature: Workflows, Targeting Activity, Subscription Services Activity
 exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
 ht-degree: 100%
 
