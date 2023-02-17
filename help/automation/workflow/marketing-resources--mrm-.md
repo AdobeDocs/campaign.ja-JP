@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity
 hide: true
 hidefromtoc: true
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
 ht-degree: 100%
 
