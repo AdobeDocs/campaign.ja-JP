@@ -4,16 +4,16 @@ title: Adobe Experience Cloud ソリューションワークフローとの統�
 description: Adobe Experience Cloud ソリューションワークフローとの統合の詳細を説明します
 topic-tags: technical-workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Experience Cloud ソリューションとの統合{#integrations-with-adobe-experience-cloud-solutions}
 
-以下に説明するワークフローは、デフォルトで **Adobe Experience Cloud との統合**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、 [このページ](../../v8/connect/integration.md).
+以下に説明するワークフローは、デフォルトで **Adobe Experience Cloud との統合**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、[このページ](../../v8/connect/integration.md)を参照してください。
 
 <table> 
  <tbody> 
