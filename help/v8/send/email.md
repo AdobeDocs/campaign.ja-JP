@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 メール配信によって、パーソナライズされたメールをターゲット母集団に送信できます。
 
-![](../assets/do-not-localize/book.png) 詳細については、[Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html?lang=ja){target="_blank"}
+![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html?lang=ja){target="_blank"}を参照してください
 
 ## 最初のメール配信の作成
 
@@ -75,7 +75,7 @@ ht-degree: 98%
    コンテンツの準備が整ったら「**保存**」をクリックします。すると、配信のリストの&#x200B;**[!UICONTROL キャンペーン／「配信」]**&#x200B;タブにコンテンツが表示されます。最初のメール配信の準備が整いました。 次に、オーディエンスを定義し、配信を検証して送信する必要があります。
 
 
-ここで E メールコンテンツをインポートする方法を説明します [使用例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja).
+メールコンテンツをインポートする方法については、この[ユースケース](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja)を参照してください。
 
 詳しくは、**Campaign Classic v7 ドキュメント**&#x200B;の以下の節を参照してください。
 
