@@ -5,9 +5,9 @@ description: ローカルキャンペーンの作成
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1686'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
    >[!NOTE]
    >
-   >この例で使用されている Web アプリケーションはサンプルです。フォームを使用するには、Web アプリケーションを作成する必要があります。
+   >この例で使用されている Web アプリケーションはサンプルです。フォームを使用するには、web アプリケーションを作成する必要があります。
 
    ![](assets/mkt_distr_7.png)
 
@@ -156,7 +156,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 >[!NOTE]
 >
->キャンペーンのテンプレートと一般的な設定について詳しくは、 [このページ](../campaigns/marketing-campaign-templates.md).
+>キャンペーンテンプレートとその一般的な設定について詳しくは、[このページ](../campaigns/marketing-campaign-templates.md)を参照してください。
 
 ## キャンペーンパッケージの作成 {#creating-the-campaign-package}
 
