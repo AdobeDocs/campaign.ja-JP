@@ -5,9 +5,9 @@ description: ワークフローの開始方法、およびワークフローの�
 feature: Workflows
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 ## アクションツールバー {#actions-toolbar}
 
-この **[!UICONTROL アクション]** ツールバーのボタンを使用すると、選択したワークフローの追加の実行オプションにアクセスできます。 または、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、ワークフローを右クリックして「**[!UICONTROL アクション]**」を選択することもできます。
+ツールバーの「**[!UICONTROL アクション]**」ボタンを使用すると、選択したワークフローの追加の実行オプションにアクセスできます。または、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、ワークフローを右クリックして「**[!UICONTROL アクション]**」を選択することもできます。
 
 ![](assets/purge_historique.png)
 
