@@ -4,7 +4,7 @@ title: 受信ボックスレンダリングテクニカルワークフロー
 description: ここでは、受信ボックスレンダリングパッケージと共にインストールされるテクニカルワークフローについて説明します。
 feature: Workflows, Inbox Rendering
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 
 
-以下に説明するワークフローは、デフォルトで&#x200B;**受信ボックスレンダリング (IR)** モジュールと共にインストールされます。
+以下に説明するワークフローは、デフォルトで&#x200B;**受信ボックスレンダリング（IR）**&#x200B;モジュールと共にインストールされます。
 
 <table> 
  <tbody> 
