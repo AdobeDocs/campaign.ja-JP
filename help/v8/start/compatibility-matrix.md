@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 90dde8bb3bde4893971a2f364aa636ade6fff10f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,17 +29,17 @@ Campaign クライアントコンソールを使用するには、次のオペ�
 ### オペレーティングシステム{#op-systems}
 
 * **Microsoft Windows Server** 2019、2016、2012
-* **Microsoft Windows** 11, 10, 8
+* **Microsoft Windows** 11、10、8
 
 >[!NOTE]
 >
->Microsoft Windows 10（日本語インスタンスの場合に推奨）。
+>Microsoft Windows 10 は、日本語インスタンスの場合に推奨されます。
 
 ### Web ブラウザー{#web-browsers}
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**、最新バージョン。 からダウンロード [Microsoft Developer Site](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target="_blank"}.
+* **Microsoft Edge WebView2**、最新バージョン。 [Microsoft Developer サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target="_blank"}からダウンロードします。
 
 ## CRM コネクタ{#CRMconnectors}
 
@@ -61,8 +61,8 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 
 Campaign では、関連する Mobile SDK を使用して、以下に示すオペレーティングシステムで[プッシュ通知](../send/push.md)を送信できます。
 
-* **Android** 12、9.0、8.x、7.x（Campaign Android SDK ビルド 1.1.1 を使用）。
-* **Apple iOS** 9 ～ 16、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョンApple iOS 16 は Campaign v8.4 以降でサポートされます。
+* **Android** 12、9.0、8.x、7.x、Campaign Android SDK ビルド 1.1.1
+* **Apple iOS** 9 ～ 16、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョンApple iOS 16 は Campaign v8.4 以降でサポートされています。
 
 
 ## Web アクセス{#web-access}
