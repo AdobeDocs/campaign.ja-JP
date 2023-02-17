@@ -5,9 +5,9 @@ description: ワークフロー実行の監視
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2016'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 [この節](workflow-supervision.md#supervising-workflows)では、一連のワークフローの状態（一時停止、停止、エラーあり）を監視できるワークフローの作成方法に関する使用例も示します。
 
-さらに、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティ、ワークフローに最後に加えられた変更およびワークフローの状態を確認できます。の監査証跡の詳細を説明します。  [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=ja#accessing-audit-trail){target="_blank"}.
+さらに、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティ、ワークフローに最後に加えられた変更およびワークフローの状態を確認できます。監査記録について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=ja#accessing-audit-trail){target="_blank"}を参照してください。
 
 ## 進捗状況の表示 {#displaying-progress}
 
@@ -264,7 +264,7 @@ Campaign Classic インターフェイスを使用すると、事前定義され
 
 1. 表示を追加するフォルダーを右クリックします。
 1. **[!UICONTROL 新規フォルダーを追加]**／**[!UICONTROL 管理]**&#x200B;で、追加する表示を選択します。
-1. フォルダーをツリーに追加したら、元のフォルダーに関係なく、すべてのワークフローが表示されるように、ビューとして設定していることを確認します。 ビューの設定方法について詳しくは、 [このページ](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
+1. フォルダーをツリーに追加したら、元のフォルダーにかかわらずすべてのワークフローが表示されるように、表示として設定していることを確認します。表示の設定方法について詳しくは、[このページ](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view)を参照してください。
 
 また、これらの表示に加えて、実行ステータスに応じてワークフローのリストをフィルタリングできるフィルターフォルダーを設定できます。手順は次のとおりです。
 
