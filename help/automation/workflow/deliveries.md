@@ -4,7 +4,7 @@ title: 配信
 description: デフォルトの配信ワークフローの詳細を説明します
 feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
 ht-degree: 100%
 
