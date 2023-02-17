@@ -5,9 +5,9 @@ description: オファー（セル別）
 feature: Workflows, Targeting Activity, Interaction
 exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-このアクティビティは、「**インタラクション**」と一緒の場合のみ使用できます。オファー管理について詳しくは、 [この節](../../v8/interaction/interaction.md).
+このアクティビティは、「**インタラクション**」と一緒の場合のみ使用できます。オファー管理について詳しくは、[この節](../../v8/interaction/interaction.md)を参照してください。
 
 手順は次のとおりです。
 
