@@ -5,9 +5,9 @@ description: テクニカルワークフローの監視
 feature: Workflows
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 
 **[!UICONTROL データベースクリーンアップワークフロー（「cleanup」）]**&#x200B;の場合：
 
-ジャーナルをチェックして、経過時間が時間の経過と共に比較的一定で、他のワークフローに干渉していないことを確認します。
+ジャーナルを確認し、経過時間が長期間、比較的一定していて、他のワークフローに干渉していないことを検証します。
 
 **[!UICONTROL トラッキングワークフロー（「tracking」）]**&#x200B;の場合：
 
