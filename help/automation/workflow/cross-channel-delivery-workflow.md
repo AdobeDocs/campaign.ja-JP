@@ -5,9 +5,9 @@ description: クロスチャネル配信ワークフローの詳細を説明し�
 feature: Workflows, Channels Activity
 exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '675'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 
    ![](assets/wkf_cross-channel_1.png)
 
-   メッセージ本文へのオファーの組み込みについて詳しくは、 [このページ](../../v8/send/email.md).
+   メッセージ本文へのオファーの組み込みについて詳しくは、[このページ](../../v8/send/email.md)を参照してください。
 
 1. 変更を保存します。
 1. **[!UICONTROL E メール配信]**&#x200B;アクティビティを右クリックして開きます。
