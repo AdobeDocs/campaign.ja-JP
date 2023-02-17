@@ -5,7 +5,7 @@ description: クエリワークフローアクティビティの詳細を説明�
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1605'
 ht-degree: 100%
 
