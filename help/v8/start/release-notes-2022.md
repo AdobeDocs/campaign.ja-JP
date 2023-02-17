@@ -1,19 +1,19 @@
 ---
 title: Campaign v8 2022 リリースノート
-description: 2022 Campaign v8 リリースで提供される機能と改善点のリスト
+description: Campaign v8 2022 リリースで記載される機能と改善点のリスト
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1845'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 2022 年リリースノート{#2022-rn}
+# 2022 リリースノート{#2022-rn}
 
-このページには、に加えられた新機能、改善点、修正点が記載されています。 **2022 Campaign v8 リリース**.
+このページには、**Campaign v8 2022 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
 
 ## リリース 8.4.2 {#release-8-4-2}
 
