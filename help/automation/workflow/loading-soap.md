@@ -5,7 +5,7 @@ description: 読み込み（SOAP）
 feature: Workflows
 exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
