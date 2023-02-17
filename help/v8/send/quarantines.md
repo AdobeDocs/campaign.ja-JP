@@ -6,9 +6,9 @@ role: User, Developer
 level: Beginner, Intermediate
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 source-git-commit: b783b1444457b3204fea35b613582642499acf65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1235'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign では、配信エラーのタイプと理由に応じて強制�
 強制隔離されたアドレスのリストの「**[!UICONTROL エラー理由]**」フィールドには、選択されたアドレスが強制隔離された理由が示されます。[詳細情報](#identifying-quarantined-addresses-for-the-entire-platform)。
 
 
-ユーザーがメールをスパムと評価した場合、メッセージはアドビが管理するテクニカルメールボックスへと自動的にリダイレクトされます。さらに、そのメールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL ブロックリスト登録済み]**」となります。このステータスはアドレスのみに適用されます。プロファイルはブロックリストに登録されていないので、ユーザーは引き続き SMS メッセージやプッシュ通知を受信します。フィードバックループについて詳しくは、 [配信のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops){target="_blank"}.
+ユーザーがメールをスパムと評価した場合、メッセージはアドビが管理するテクニカルメールボックスへと自動的にリダイレクトされます。さらに、そのメールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL ブロックリスト登録済み]**」となります。このステータスはアドレスのみに適用されます。プロファイルはブロックリストに登録されていないので、ユーザーは引き続き SMS メッセージやプッシュ通知を受信します。フィードバックループについて詳しくは、[配信のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 さらに、ホームページの「**レポート**」セクションから入手できる&#x200B;**[!UICONTROL 配信不能件数とバウンス数]**&#x200B;の組み込みレポートには、強制隔離中のアドレス、発生したエラーのタイプおよびエラーのドメイン別分類に関する情報が表示されます。特定の配信のデータをフィルターしたり、必要に応じてこのレポートをカスタマイズしたりできます。
 
-バウンスアドレスについて詳しくは、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja)を参照してください{target="_blank"}を参照してください。
+バウンスアドレスについて詳しくは、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja)を参照してください{target="_blank"} を参照してください。
 
 ### 強制隔離されたメールアドレス {#quarantined-recipient}
 
@@ -112,16 +112,16 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
    ![](assets/tech-quarantine-status.png)
 
-例えば、E メールが受信者に正常に配信されなかったために誤ってバウンスとマークされた ISP の停止が発生した場合に、強制隔離リストで一括更新を実行する必要が生じる場合があります。
+例えば、受信者に正常に配信できないためにメールが誤ってバウンスとしてマークされる ISP の停止の場合に、強制隔離リストで一括更新を実行する必要がある場合があります。
 
-これを実行するには、ワークフローを作成し、強制隔離テーブルにクエリを追加して、影響を受けるすべての受信者を除外し、強制隔離リストから削除して、今後の Campaign E メール配信に含めることができます。
+これを実行するには、影響を受けるすべての受信者を強制隔離リストから削除して、Campaign による今後のメール配信に含められるよう、ワークフローを作成し、強制隔離テーブルにクエリを追加して、影響を受けるすべての受信者を除外します。
 
 このクエリで推奨されるガイドラインを次に示します。
 
 * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
-* **E メールドメイン (@domain)** domain1.com と等しい **E メールドメイン (@domain)** domain2.com と等しい **E メールドメイン (@domain)** domain3.com と等しい
-* **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
-* **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
+* **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
+* **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午前 HH:MM:SS 以降
+* **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
 
-影響を受ける受信者のリストが揃ったら、 **[!UICONTROL データを更新]** ステータスを次に設定するアクティビティ： **[!UICONTROL 有効]** したがって、これらは、 **[!UICONTROL データベースのクリーンアップ]** ワークフロー、 また、強制隔離テーブルから削除するだけでもかまいません。
+影響を受ける受信者のリストを受信したら、**[!UICONTROL データを更新]**&#x200B;アクティビティを追加して、ステータスを「**[!UICONTROL 有効]**」に設定し、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローで強制隔離リストから削除されるようにします。また、強制隔離テーブルから削除するだけでもかまいません。
 
