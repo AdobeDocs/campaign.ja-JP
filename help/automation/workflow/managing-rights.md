@@ -5,9 +5,9 @@ description: ワークフロー権限の管理方法を説明します
 feature: Workflows
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
 source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 また、影響するワークフロー（受信者インポート、ファイルアクセス、統合、SQL スクリプト実行など）によって実行されるアクションと一致するネームド権限にマッピングされている必要があります。
 
-オペレーターの管理と権限について詳しくは、 [この節](../../v8/start/gs-permissions.md).
+オペレーターの管理と権限について詳しくは、[この節](../../v8/start/gs-permissions.md)を参照してください。
 
 ## オペレーターグループ {#operator-groups-wf}
 
