@@ -5,7 +5,7 @@ description: 繰り返し配信ワークフローアクティビティの詳細�
 feature: Workflows
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
 ht-degree: 100%
 
