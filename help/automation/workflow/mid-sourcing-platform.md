@@ -4,7 +4,7 @@ title: ミッドソーシングプラットフォーム
 description: ミッドソーシングプラットフォーム
 feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
 ht-degree: 100%
 
