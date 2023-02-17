@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 実装 {#implementation}
 
-任意の要素または属性に適用できる特定の属性がスキーマに追加され、既存の属性 **[!UICONTROL visibleIf]** を補完します。 この属性は **[!UICONTROL accessibleIf]** です。 現在のユーザーコンテキストに関連する XTK 式を含む場合、例えば **[!UICONTROL HasNamedRight]** や **[!UICONTROL $(login)]** を利用できます。
+任意の要素または属性に適用できる特定の属性がスキーマに追加され、既存の属性 **[!UICONTROL visibleIf]** を補完します。 この属性は **[!UICONTROL accessibleIf]** です。 現在のユーザーコンテキストに関連する XTK 式を含む場合は、例えば **[!UICONTROL HasNamedRight]** や **[!UICONTROL $(login)]** を利用できます。
 
 この使用法を示す受信者スキーマ拡張のサンプルを以下に示します。
 
