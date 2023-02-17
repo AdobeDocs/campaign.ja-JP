@@ -6,7 +6,7 @@ role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2722'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Adobe Campaign システムは非常に柔軟性が高く、初期の実装をさらに拡張可能です。可能性は無限です。とはいえ、賢明な判断を下し、データモデルの設計を開始する前に強力な基盤を構築しておくことが不可欠です。
 
-Campaign のビルトインテーブルとそれらの相互関係について詳しくは、[この](datamodel.md)を参照してください。
+Campaign のビルトインテーブルとそれらの相互関係について詳しくは、[この節](datamodel.md)を参照してください。
 
 ![](../assets/do-not-localize/glass.png) キャンペーンスキーマの概要については、[この節](schemas.md)を参照してください。
 
