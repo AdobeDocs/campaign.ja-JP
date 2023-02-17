@@ -4,16 +4,16 @@ title: モバイルアプリチャネル
 description: モバイルアプリチャネル
 feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # モバイルアプリチャネル{#mobile-app-channel}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**モバイルアプリチャネル**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、 [この節](../../v8/send/push.md).
+以下に説明するワークフローは、デフォルトで&#x200B;**モバイルアプリチャネル**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、[この節](../../v8/send/push.md)を参照してください。
 
 <table> 
  <tbody> 
