@@ -5,7 +5,7 @@ description: 配信の概要ワークフローアクティビティの詳細を�
 feature: Workflows, Targeting Activity
 exl-id: 3c06b329-b2d8-4ac8-ab9b-3ab3e525d109
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 

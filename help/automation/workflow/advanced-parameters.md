@@ -5,7 +5,7 @@ description: 詳細設定パラメーター
 feature: Workflows, Data Management
 exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
 

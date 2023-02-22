@@ -5,7 +5,7 @@ description: ファイル転送ワークフローアクティビティの詳細�
 feature: Workflows, Data Management
 exl-id: 794de398-f35d-4c2b-af29-d6fd38eb9394
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 100%
 

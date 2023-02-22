@@ -5,7 +5,7 @@ description: ワークフロー権限の管理方法を説明します
 feature: Workflows
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
 source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 

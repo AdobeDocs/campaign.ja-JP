@@ -5,7 +5,7 @@ description: これらの例は、ワークフローで JavaScript コードを�
 feature: Workflows
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1759'
 ht-degree: 100%
 

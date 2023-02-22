@@ -5,7 +5,7 @@ description: テクニカルワークフローの監視
 feature: Workflows
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
 

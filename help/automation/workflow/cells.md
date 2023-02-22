@@ -5,7 +5,7 @@ description: セル
 feature: Workflows, Targeting Activity
 exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 

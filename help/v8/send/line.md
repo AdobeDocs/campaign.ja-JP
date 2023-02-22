@@ -17,6 +17,6 @@ ht-degree: 100%
 LINE は、無料のインスタントメッセージ、音声、ビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。Adobe Campaign では、LINE メッセージを送信できます。
 
 
-![](../assets/do-not-localize/book.png) 詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ja)を参照してください。{target="_blank"}を参照してください。
+![](../assets/do-not-localize/book.png) 詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ja)を参照してください。{target="_blank"} を参照してください。
 
 ![](../assets/do-not-localize/book.png) 初めて LINE 配信を作成して送信するには、Campaign Classic v7 ドキュメントで、この[エンドツーエンドのサンプル](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ja#example--create-and-send-a-personalized-line-message){target="_blank"}を参照してください。

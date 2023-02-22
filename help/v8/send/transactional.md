@@ -199,7 +199,7 @@ This information enables you to personalize message content using personalizatio
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-![](../assets/do-not-localize/book.png) 配達確認の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#sending-a-proof)を参照してください。{target="_blank"}
+![](../assets/do-not-localize/book.png) 配達確認の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#sending-a-proof)を参照してください。{target="_blank"} を参照してください。
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 

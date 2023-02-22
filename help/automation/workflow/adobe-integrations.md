@@ -4,7 +4,7 @@ title: Adobe Experience Cloud ソリューションワークフローとの統�
 description: Adobe Experience Cloud ソリューションワークフローとの統合の詳細を説明します
 topic-tags: technical-workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 

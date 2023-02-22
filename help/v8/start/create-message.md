@@ -73,11 +73,11 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 次の操作を行うことができます。
 
 * 動的なパーソナライゼーションフィールドを挿入する。
-   ![](../assets/do-not-localize/book.png) パーソナライゼーションフィールドの使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ja)を参照してください{target="_blank"}
+   ![](../assets/do-not-localize/book.png) パーソナライゼーションフィールドの使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ja)を参照してください{target="_blank"} を参照してください。
 * 事前定義済みのパーソナライゼーションブロックの挿入
    ![](../assets/do-not-localize/book.png) パーソナライゼーションブロックの詳細と使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ja)を参照してください{target="_blank"}
 * 条件付きコンテンツを作成する。
-   ![](../assets/do-not-localize/book.png) 条件付きコンテンツの挿入方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ja)を参照してください{target="_blank"}
+   ![](../assets/do-not-localize/book.png) 条件付きコンテンツの挿入方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ja)を参照してください{target="_blank"} を参照してください。
 
 ## トランザクションメッセージの送信{#gs-transac-messages}
 
@@ -87,7 +87,7 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージの設定と送信の手順については、[このページ](../send/transactional.md)を参照してください
 
-![](../assets/do-not-localize/book.png) [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ja)でこの機能のエンドツーエンドのユースケースを確認する{target="_blank"}
+![](../assets/do-not-localize/book.png) [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ja)でこの機能のエンドツーエンドのユースケースを確認する{target="_blank"} を参照してください。
 
 ## 配信とトラッキングログ{#gs-tracking-logs}
 

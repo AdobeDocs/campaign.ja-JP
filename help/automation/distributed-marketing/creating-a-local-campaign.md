@@ -5,7 +5,7 @@ description: ローカルキャンペーンの作成
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1686'
 ht-degree: 100%
 

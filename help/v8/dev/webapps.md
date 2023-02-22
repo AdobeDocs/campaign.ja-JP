@@ -24,4 +24,4 @@ Adobe Campaign では、データベースのデータと接続ユーザーの�
 
 作成できるページには、エクストラネット上の編集フォームのほか、データベースからのデータを含み、テーブル、グラフ、入力フォームなどを備えた通知フォームなどがあります。この機能を使用すると、ユーザーが情報を検索したり入力したりできる Web ページをデザインして投稿できます。
 
-![](../assets/do-not-localize/book.png) web アプリケーションを作成して公開する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=ja#designing-content)を参照してください。{target="_blank"}
+![](../assets/do-not-localize/book.png) web アプリケーションを作成して公開する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=ja#designing-content)を参照してください。{target="_blank"} を参照してください。
