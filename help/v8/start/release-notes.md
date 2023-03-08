@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
+source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 91%
 
 ---
 
 # 最新リリース{#latest-release}
 
 このページには、**Campaign v8 最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
+
+## リリース 8.4.4 {#release-8-4-4}
+
+>[!CAUTION]
+>
+> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#download-ac-console)を参照してください。
+
+_2023 年 3 月 9 日_
+
+**セキュリティの強化**
+
+* Tomcat は、セキュリティを強化するために、バージョン 8.5.81 から 8.5.85 に更新されました。 （NEO-50530）
+
+**パッチ**
+
+* をスクロールできない場合がある問題を修正しました。 **編集** 」タブをクリックします。 （NEO-54474）
+* Web サーバーがクラッシュする可能性があるレプリケーション中の問題を修正しました。 （NEO-53670）
 
 ## リリース 8.4.3 {#release-8-4-3}
 
