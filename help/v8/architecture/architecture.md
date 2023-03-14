@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 618e45b6948070c6b791d2bcefa8296b297bf25e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '1025'
+ht-degree: 69%
 
 ---
 
@@ -42,6 +42,48 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
    Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
+## 配信の実行を分割 {#split}
+
+>[!AVAILABILITY]
+>
+>この機能は、複数の MID インスタンス設定を持つお客様のみが使用できます。
+
+Campaign v8 パッケージに応じて、配信の実行を担当する特定の数のミッドソーシングインスタンスがプロビジョニングされます。
+
+デフォルトでは、すべてのチャネルの外部アカウントで、 **[!UICONTROL 代替]** ルーティングモード：各ミッドインスタンスから 1 回に 1 つの配信が交互に送信されます。
+
+速度と規模の両方でパフォーマンスを向上させるには、ミッドソーシングインスタンス間で配信を自動的に分割して、受信者に迅速に配信できるようにします。 この操作は、マーケティングインスタンスから配信を実行する際に透過的です。配信が送信されると、すべてのログが統合されてから、マーケティングインスタンスに 1 つの配信オブジェクトに戻されます。
+
+これをおこなうには、 **[!UICONTROL 分割]** ルーティングモードは、各チャネルのプロビジョニングに対して作成されます。
+
+* 配信の分割 — E メール (splitDeliveryEmail)
+* 配信の分割 — SMS (splitDeliverySMS)
+* 配信の分割 — iOS (splitDeliveryIOS)
+* 配信の分割 — Android (splitDeliveryAndroid)
+
+![](assets/splitted-delivery.png)
+
+>[!IMPORTANT]
+>
+>「Split Delivery - Email」アカウントの場合、分割ルーティングモードはデフォルトで有効になっています。 その他すべてのチャネル外部アカウントについては、カスタマーケアに問い合わせて、オプションを有効にしてもらってください。
+>
+>デフォルトでは、配信を複数のミッドに分割する際のしきい値のサイズは 100K です。 この値は、 **[!UICONTROL 管理]** / **[!UICONTROL Platform]** / **[!UICONTROL オプション]** メニュー
+
+配信を送信するデフォルトのアカウントとして、分割した外部アカウントを作成するには、配信テンプレートでルーティングプロバイダーを変更する必要があります。 次の手順に従います。
+
+1. 次に移動： **[!UICONTROL リソース]** / **[!UICONTROL テンプレート]** / **[!UICONTROL 配信テンプレート]** フォルダーに移動して、目的の配信テンプレートを開きます。 この例では、E メール配信テンプレートを編集します。
+
+   ![](assets/split-default-list.png)
+
+1. 次をクリック： **[!UICONTROL プロパティ]** 」ボタンをクリックし、ルーティングプロバイダーを対応する分割配信外部アカウントに変更します。
+
+   ![](assets/split-default-delivery.png)
+
+1. 変更内容を保存します。テンプレートを使用して送信されるすべての配信は、デフォルトで分割ルーティングモードを使用するようになりました。
+
+<!--In addition, you can select split external accounts as the default routing provider for all future delivery templates. To do this, change the value of the **[!UICONTROL xtkoption NmsBroadcast_DefaultProvider]** option to the name of the split account.
+
+![](assets/split-default-options.png) -->
 
 ## Message Center のアーキテクチャ{#transac-msg-archi}
 
