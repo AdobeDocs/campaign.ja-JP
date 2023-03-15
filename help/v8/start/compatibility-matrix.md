@@ -5,9 +5,9 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 90dde8bb3bde4893971a2f364aa636ade6fff10f
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
@@ -30,10 +30,6 @@ Campaign クライアントコンソールを使用するには、次のオペ�
 
 * **Microsoft Windows Server** 2019、2016、2012
 * **Microsoft Windows** 11、10、8
-
->[!NOTE]
->
->Microsoft Windows 10 は、日本語インスタンスの場合に推奨されます。
 
 ### Web ブラウザー{#web-browsers}
 

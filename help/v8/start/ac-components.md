@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '660'
 ht-degree: 100%
 
 ---
@@ -30,23 +30,15 @@ Adobe Campaign には、リッチクライアント、シンクライアント�
 
 * リッチクライアント
 
-   Campaign リッチクライアントは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。
-
-   Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。
-
-   ![](../assets/do-not-localize/glass.png) [Campaign クライアントコンソールの詳細情報](../start/connect.md)。
+   Campaign リッチクライアントは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。[ Campaign クライアントコンソールの詳細情報](../start/connect.md)。
 
 * シンクライアント
 
-   Adobe Campaign の web アクセス機能を使用すると、web ブラウザーを使用して、Campaign の機能のサブセットにアクセスできます。HTML ユーザーインターフェイスが使用されます。この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。
-
-   ![](../assets/do-not-localize/glass.png) [Campaign への Web でのアクセスの詳細情報](../start/connect.md)。
+   Adobe Campaign の web アクセス機能を使用すると、web ブラウザーを使用して、Campaign の機能のサブセットにアクセスできます。HTML ユーザーインターフェイスが使用されます。この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。[ Campaign への Web でのアクセスの詳細情報](../start/connect.md)。
 
 * API を使用した外部アプリケーション
 
-   SOAP プロトコルで公開されている web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。
-
-   ![](../assets/do-not-localize/glass.png) [Campaign API の詳細情報](../dev/api.md)。
+   SOAP プロトコルで公開されている web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。[ Campaign API の詳細情報](../dev/api.md)。
 
 ### 永続性レイヤー{#persistance-layer}
 

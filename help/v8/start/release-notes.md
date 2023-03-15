@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 91%
+source-wordcount: '524'
+ht-degree: 88%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 91%
 このページには、**Campaign v8 最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
 
 ## リリース 8.4.4 {#release-8-4-4}
-
->[!CAUTION]
->
-> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#download-ac-console)を参照してください。
 
 _2023 年 3 月 9 日_
 
@@ -34,11 +30,14 @@ _2023 年 3 月 9 日_
 * をスクロールできない場合がある問題を修正しました。 **編集** 」タブをクリックします。 （NEO-54474）
 * Web サーバーがクラッシュする可能性があるレプリケーション中の問題を修正しました。 （NEO-53670）
 
-## リリース 8.4.3 {#release-8-4-3}
 
 >[!CAUTION]
 >
-> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#download-ac-console)を参照してください。
+> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
+
+
+## リリース 8.4.3 {#release-8-4-3}
+
 
 _2023年1月27日（PT）_
 
@@ -67,3 +66,6 @@ _2023年1月27日（PT）_
 * パフォーマンスを向上させるために、複数の配信を含むワークフローでのトラッキング URL の管理を改善しました。（NEO-50894）<!--OKKKK-->
 * Xtkfolder を使用するスキーマのレプリケーションが失敗する可能性がある問題を修正しました。 （NEO-46787）<!--OKKKK-->
 * 「lastModified」カスタム列が NmsSubscription テーブルにドロップされる問題を修正しました。（NEO-48402）
+
+
+**このリリースでは、クライアントコンソールのアップグレードが必須です**  — ここでクライアントコンソールをアップグレードする方法を説明します [ページ](../start/connect.md#upgrade-ac-console).
