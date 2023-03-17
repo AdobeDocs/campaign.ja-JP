@@ -3,10 +3,10 @@ title: Adobe Campaign の組み込み配信レポート
 description: Adobe Campaign の組み込み配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '1171'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 * **[!UICONTROL 到達済み母集団のユニーク開封数]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。リンクをクリックするにはメールを開く必要があるので、トラッキングされる URL でのクリック数が考慮されます。
 * **[!UICONTROL 到達済み母集団の開封数の合計]**：ターゲット受信者による開封数の合計の推定値。
 * **[!UICONTROL オプトアウトリンクのクリック数]**：購読解除リンクのクリック数。
-* **[!UICONTROL ミラーページリンクのクリック数]**：ミラーページへのリンクでのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。<!--Refer to this [page](../../delivery/using/about-delivery-monitoring.md).-->
+* **[!UICONTROL ミラーページのリンクでのクリック数]** :へのリンクでのクリック数 [ミラーページ](../send/mirror-page.md). 考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。
 * **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送される E メール数の推定値。この値は、ユニークユーザーの数と E メールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
    >[!NOTE]
@@ -157,7 +157,7 @@ This chart shows the breakdown of cumulated clicks per day.
 このセクションには、2 つの指標があります。
 
 * **[!UICONTROL 初期母集団]**：配信アクションの対象となる受信者の合計数。
-* **[!UICONTROL 除外ルールによって却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブロックリストに登録されているなど）を適用する際、分析中に無視されたアドレスの数。<!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).--> を参照してください。
+* **[!UICONTROL 除外ルールによって却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブロックリストに登録されているなど）を適用する際、分析中に無視されたアドレスの数。<!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL 除外の理由]**
 

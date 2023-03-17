@@ -4,10 +4,10 @@ title: 連続配信
 description: 連続配信
 feature: Workflows, Channels Activity
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -60,8 +60,8 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#continuous-delivery-video}
 
-このビデオでは、増分クエリを使用して連続配信を設定する方法について説明します。
+このビデオでは、増分処理クエリを使用して連続配信を設定する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+その他の Campaign のハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

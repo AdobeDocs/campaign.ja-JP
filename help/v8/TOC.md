@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 366cf800a81ea9ab10fe5e3063f44e5214bda927
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [配信テンプレートの操作](send/create-templates.md)
       + メール {#emails}
          + [メールのデザインと検証](send/email.md)
+         + [ミラーページへのリンク](send/mirror-page.md)
          + [メールの送信と監視](send/send.md)
       + [SMS](send/sms.md)
       + [プッシュ通知](send/push.md)

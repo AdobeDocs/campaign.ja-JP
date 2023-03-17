@@ -4,10 +4,10 @@ title: 繰り返し配信
 description: 繰り返し配信ワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -53,4 +53,4 @@ ht-degree: 100%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
+その他の Campaign のハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
