@@ -5,14 +5,14 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
+source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 95%
+source-wordcount: '1249'
+ht-degree: 87%
 
 ---
 
-# プッシュ通知の作成と送信
+# プッシュ通知の作成と送信{#push-notifications-create}
 
 モバイルアプリ配信を使用すると、iOS システムや Android システムに通知を送信できます。
 
@@ -25,24 +25,17 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作を実�
 
 ![](../assets/do-not-localize/book.png) モバイルアプリの概要については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=ja)を参照してください。{target="_blank"}
 
-## Campaign SDK の統合
+## SDK の統合 {#push-sdk}
 
-Campaign SDK を使用すると、ご利用のモバイルアプリケーションを Adobe Campaign プラットフォームへと容易に統合できます。
+Adobe Experience Platform Mobile SDK を使用するには、データ収集 UI でAdobe Campaign拡張機能を設定します。 Adobe Experience Platform Mobile SDK は、モバイルアプリでAdobeのExperience Cloudソリューションおよびサービスを強化するのに役立ちます。 SDK の設定は、データ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合が可能です。 [詳しくは、 Adobe Developerのドキュメントを参照してください。](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
-互換性のある SDK バージョンは [Campaign 互換性マトリクス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
+Adobe Experience Platform Mobile SDK の設定およびインストール方法については、[このビデオ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=ja){target="_blank"}を参照してください。
 
-![](../assets/do-not-localize/glass.png)Campaign Android および iOS SDK をアプリと統合する方法については、[この節](../config/push-config.md)を参照してください
+また、Campaign SDK を統合して、モバイルアプリケーションをAdobe Campaignプラットフォームに容易に統合することもできます。 互換性のある SDK バージョンは [Campaign 互換性マトリクス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
 
-<!--
-### Configure Campaign Extension in Launch
+Campaign Android およびiOS SDK をでアプリと統合する方法について説明します。 [このページ](../config/push-config.md)
 
-You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveraging Campaign Classic extension.
-
-![](../assets/do-not-localize/book.png) Learn more in [Adobe Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target="_blank"}
-
--->
-
-## Campaign でのアプリ設定
+## Campaign でのアプリ設定{#push-config}
 
 iOS アプリと Android アプリの設定は、Adobe Campaign で定義する必要があります。
 
@@ -50,7 +43,7 @@ iOS アプリと Android アプリの設定は、Adobe Campaign で定義する�
 
 ![](../assets/do-not-localize/book.png) 詳しい Android 版構成ガイドについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja#sending-messages)を参照してください{target="_blank"}
 
-## 最初のプッシュ通知の作成
+## 最初のプッシュ通知の作成{#push-create}
 
 ここでは、iOS および Android の通知の配信に固有な設定について説明します。
 
