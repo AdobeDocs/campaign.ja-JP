@@ -4,9 +4,9 @@ description: ミラーページへのリンクを追加および管理する方�
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 9ebcfee199a2ba355b7b504c7f24732d30542a36
+source-git-commit: 903224da4ab15bf4221d8769bfb19933f4cbf2b0
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Campaignで生成されるミラーページには、すべてのパーソナライゼーションデータが含まれています。
 
-![](assets/mirror-page-link.png)
+![ミラーリンクのサンプル](assets/mirror-page-link.png){width="300" align="center"}
 
 ## ミラーページへのリンクを追加{#link-to-mirror-page}
 
