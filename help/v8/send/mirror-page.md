@@ -4,7 +4,7 @@ description: ミラーページへのリンクを追加および管理する方�
 feature: Email
 role: User
 level: Beginner
-source-git-commit: e2aaf80a5a0d74161152fabe8ea157d31923ee19
+source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Campaignで生成されるミラーページには、すべてのパーソナライゼーションデータが含まれています。
 
-![ミラーリンクのサンプル](assets/mirror-page-link.png){width="500" align="left"}
+![ミラーリンクのサンプル](assets/mirror-page-link.png){width="600" align="left"}
 
 ## ミラーページへのリンクを追加{#link-to-mirror-page}
 
@@ -29,7 +29,7 @@ Adobe Campaignで生成されるミラーページには、すべてのパーソ
 
 Adobe Campaignでは、専用の **パーソナライゼーションブロック**. 組み込み **ミラーページへのリンク** パーソナライゼーションブロックは、メールコンテンツに次のコードを挿入します。 `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="500" align="left"}
+![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
@@ -43,7 +43,7 @@ E メールミラーページの生成モードを制御できます。 オプ�
 1. 次を参照： **[!UICONTROL 有効性]** 」タブをクリックします。
 1. 内 **ミラーページの管理** セクションで、 **[!UICONTROL モード]** 」ドロップダウンリストに表示されます。
 
-![](assets/mirror-page-generation.png){width="500" align="left"}
+![](assets/mirror-page-generation.png){width="800" align="left"}
 
 デフォルトのモードに加えて、次のオプションを使用できます。
 
@@ -61,7 +61,7 @@ E メールミラーページの生成モードを制御できます。 オプ�
 
 1. 受信者を選択し、 **[!UICONTROL このメッセージのミラーページを表示…]** リンク。
 
-   ![](assets/mirror-page-display.png){width="500" align="left"}
+   ![](assets/mirror-page-display.png){width="800" align="left"}
 
    ミラーページは、選択した受信者のパーソナライゼーションデータと共に、専用の画面に表示されます。
 
