@@ -4,10 +4,10 @@ title: 分散型マーケティングのサンプル
 description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 100%
+source-wordcount: '1368'
+ht-degree: 97%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 #### データ配分アクティビティの作成 {#creating-a-data-distribution-activity}
 
-1. 協調キャンペーン（ターゲットの承認）をセットアップするには、まず&#x200B;**[!UICONTROL データ配分アクティビティ]**&#x200B;を作成しなければなりません。**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;ノードにある&#x200B;**[!UICONTROL 新規]**&#x200B;アイコンをクリックします。
+1. 協調キャンペーン（ターゲットの承認）をセットアップするには、まず&#x200B;**[!UICONTROL データ配分アクティビティ]**&#x200B;を作成しなければなりません。次をクリック： **[!UICONTROL 新規]** アイコン **[!UICONTROL リソース/キャンペーン管理/データ配分]** Campaign エクスプローラーのフォルダー。
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 #### 共同キャンペーンの作成 {#creating-a-collaborative-campaign}
 
-1. **[!UICONTROL キャンペーン管理／キャンペーン]**&#x200B;ノードで、新しい&#x200B;**[!UICONTROL 協調キャンペーン（ターゲットの承認）]**&#x200B;を作成します。
+1. 次の **[!UICONTROL キャンペーン管理/キャンペーン]** Campaign エクスプローラーのフォルダーで、新しい **[!UICONTROL 協調キャンペーン（ターゲットの承認）]**.
 1. 「**[!UICONTROL ターゲティングとワークフロー]**」タブで、キャンペーンのワークフローを作成します。ワークフローには、**分割**&#x200B;アクティビティを含める必要があります。分割アクティビティの「**[!UICONTROL レコード数の制限]**」は、**[!UICONTROL データ配分]**&#x200B;アクティビティによって定義します。
 
    ![](assets/mkg_dist_use_case_target_valid5.png)

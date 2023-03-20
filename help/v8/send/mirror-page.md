@@ -4,9 +4,9 @@ description: ミラーページへのリンクを追加および管理する方�
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Campaignでは、専用の **パーソナライゼーションブロック
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-<!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
+カスタムコンテンツブロックの挿入について詳しくは、 [パーソナライゼーションブロック](personalization-blocks.md).
 
 ## ミラーページの生成{#mirror-page-generation}
 

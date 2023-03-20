@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 97%
+source-wordcount: '730'
+ht-degree: 96%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 97%
 
 キャンペーンの実行と開始を迅速に行うには、クリエイティブなルックアンドフィールを標準化する配信テンプレートを使用します。
 
-テンプレートには、次の項目を体系的に含めることができます。
+テンプレートには、次のものが含まれます。
 
 * タイポロジ
 * 送信者と返信先のアドレス
-* 基本的なパーソナライゼーションブロック
+* 基本 [パーソナライゼーションブロック](../send/personalization-blocks.md)
 * リンク先 [ミラーページ](../send/mirror-page.md) および購読解除リンク
 * コンテンツ、会社のロゴまたは署名
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。

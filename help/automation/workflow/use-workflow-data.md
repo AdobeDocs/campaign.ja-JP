@@ -3,10 +3,10 @@ title: ワークフローデータの使用
 description: ワークフローデータの使用方法を説明します
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 
 ### ターゲットデータの活用 {#target-data}
 
-ワークフローの一時ワークテーブルに保存されたデータは、パーソナライゼーションタスクに使用できます。データは、パーソナライゼーションフィールドで使用できます。
+ワークフローの一時ワークテーブルに保存されたデータは、パーソナライゼーションタスクに使用できます。データは [パーソナライゼーションフィールド](../../v8/send/personalization-fields.md).
 
 これにより、例えば、配信のリストから収集したデータを使用できます。それには、次の構文を使用します。
 

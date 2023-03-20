@@ -4,7 +4,7 @@ description: Adobe Campaign ソーシャルマーケティングモジュール�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 98%
@@ -124,7 +124,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
    ![](assets/tw-dm-content.png)
 
-   パーソナライゼーションフィールドは、メール配信と同じ手順で使用可能です。例えば、メッセージの本文にフォロワーの名前を追加できます。詳しくは、[この節](../start/create-message.md#personalization)を参照してください。
+   パーソナライゼーションフィールドは、メール配信と同じ手順で使用可能です。例えば、メッセージの本文にフォロワーの名前を追加できます。詳しくは、[この節](../send/personalize.md)を参照してください。
 
 1. メッセージのプレビュー
 

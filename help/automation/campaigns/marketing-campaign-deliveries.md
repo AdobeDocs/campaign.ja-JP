@@ -4,10 +4,10 @@ title: マーケティングキャンペーン配信
 description: マーケティングキャンペーン配信の詳細
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 ![](assets/select-delivery-reviewers.png)
 
-ただし、配信プロパティまたはキャンペーンプロパティで特定のレビュー担当者が定義されている場合でも、キャンペーン所有者に送信の確認を任せることもできます。それには、管理者として「**NmsCampaign_Activate_OwnerConfirmation**」オプションを作成して「**1**」に設定します。このオプションは、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;ノードから管理します。
+ただし、配信プロパティまたはキャンペーンプロパティで特定のレビュー担当者が定義されている場合でも、キャンペーン所有者に送信の確認を任せることもできます。それには、管理者として「**NmsCampaign_Activate_OwnerConfirmation**」オプションを作成して「**1**」に設定します。オプションは **[!UICONTROL 管理]** > **[!UICONTROL Platform]** > **[!UICONTROL オプション]** Campaign エクスプローラーのフォルダー。
 
 
 ### ダイレクトメール配信の開始 {#start-an-offline-delivery}

@@ -4,10 +4,10 @@ title: タイポロジルールの適用
 description: タイポロジルールを適用する方法を学ぶ
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 100%
+source-wordcount: '1020'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 1. キャンペーンタイポロジを作成します。
 
-   タイポロジにアクセスするには、**[!UICONTROL 管理／キャンペーン管理／タイポロジ管理／]****[!UICONTROL タイポロジ]**&#x200B;ノードに移動します。
+   タイポロジにアクセスするには、 **[!UICONTROL 管理/Campaign Management/タイポロジ管理]** > **[!UICONTROL タイポロジ]** Campaign エクスプローラーのフォルダー。
 
 1. 「**[!UICONTROL ルール]**」タブに移動し、「**[!UICONTROL 追加]**」ボタンをクリックして、このタイポロジによって適用するルールを選択します。
 

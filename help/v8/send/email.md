@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 96%
+source-wordcount: '589'
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,6 @@ ht-degree: 96%
 
 1. **メッセージのパーソナライズ**
 
-
    * 受信者の氏名の追加
 
       メッセージの内容に対象のプロファイルの姓名を挿入するには、挿入したい場所にカーソルを置き、ツールバーの最後のアイコンをクリックしてから、「**[!UICONTROL 含める]**」をクリックし「**[!UICONTROL 挨拶]**」を選択します。
@@ -58,6 +57,8 @@ ht-degree: 96%
       「プレビュー」タブで受信者を選択し、パーソナライゼーションを確認します。
 
       ![](assets/perso-check.png)
+
+      パーソナライゼーションオプションの詳細については、 [この節](personalize.md).
 
    * トラッキングリンクの挿入
 

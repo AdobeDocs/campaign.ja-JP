@@ -4,10 +4,10 @@ title: キャンペーンタイポロジの概要
 description: キャンペーンタイポロジを設定および実装する方法について説明します
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign には、デフォルトで組み込みのタイポロジとタイポ�
 
 キャンペーンタイポロジには、複数のタイポロジルールを含めることができますが、1 つの配信では 1 つのタイポロジしか参照できません。
 
-組み込みのタイポロジルールとタイポロジは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／キャンペーン管理／タイポロジ管理]**&#x200B;ノードでアクセスできます。
+組み込みのタイポロジルールとタイポロジは、 **[!UICONTROL 管理/キャンペーン管理/タイポロジ管理]** Campaign エクスプローラーのフォルダー。
 
 タイポロジごとに「**[!UICONTROL ルール]**」タブで、適用するタイポロジルールを追加、削除または表示できます。
 

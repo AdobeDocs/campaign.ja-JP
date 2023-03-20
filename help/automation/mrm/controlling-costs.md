@@ -3,10 +3,10 @@ product: campaign
 title: コスト管理
 description: コスト管理の方法を説明します
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '2479'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 予算を作成するには、次の手順に従います。
 
-1. Campaign エクスプローラーの&#x200B;**[!UICONTROL キャンペーン管理／予算]**&#x200B;ノードを参照します。
+1. 次を参照： **[!UICONTROL キャンペーン管理/予算]** Campaign エクスプローラーのフォルダー。
 1. **[!UICONTROL 新規]**&#x200B;アイコンをクリックし、名前を付けて予算を保存します。
 1. 初期金額の入力：該当するフィールドに割り当てる金額を指定します。その他の金額は自動的に入力されます。[詳細情報](#calculating-amounts)。
 1. 開始日と終了日を入力して、有効期間を定義します。 この情報は単なる目安です。
