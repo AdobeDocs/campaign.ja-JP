@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 445e62c290466003886f2dc49386d0c1edb80eeb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 54%
 
 Campaign の使用を開始するには、クライアントコンソールをインストールして設定する必要があります。
 
-クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じてAdobe Campaignアプリケーションサーバーと通信するネイティブアプリケーションです。 Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。
+クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。 Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。
 
 始める前に、次の手順を実行する必要があります。
 
 * お使いのシステムとツールについて、Adobe Campaign クライアントコンソールとの互換性を[互換性マトリックス](compatibility-matrix.md)で確認してください。
 * Campaign サーバーの URL を取得する
-* Adobe IDを作成するか、会社からユーザー資格情報を取得する
+* Adobe ID を作成するか、会社からユーザー資格情報を取得する
 * Microsoft Edge Webview2 ランタイムをシステムにインストールします。 [詳細情報](#webview)
 
 ## クライアントコンソールのインストール{#download-ac-console}
 
-### Microsoft Edge Webview2 ランタイム {#webview}
+### Microsoft Edge WebView2 ランタイム {#webview}
 
-Campaign Classic8.4 のビルドバージョン以降のクライアントコンソールのインストールには、Microsoft Edge Webview 2 ランタイムのインストールが必要です。
+Campaign Classic 8.4 ビルドバージョン以降、クライアントコンソールのインストールには Microsoft Edge WebView2 ランタイムのインストールが必要です。
 
-WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだ存在しない場合は、Campaign クライアントコンソールのインストールプログラムにより、からダウンロードするよう求められます。 [Microsoft Developer Web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target="_blank"}. Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
+WebView は、Windows 11 オペレーティングシステムの一部としてデフォルトでインストールされます。システムにまだインストールされていない場合、Campaign クライアントコンソールインストールプログラムにより、[Microsoft Developer web サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target="_blank"}からダウンロードするように求められます。Microsoft により Internet Explorer 11 ブラウザーのサポートが非推奨（廃止予定）となったので、Internet Explorer 11 ブラウザーではダウンロードリンクは機能しません。別のブラウザーを使用してリンクにアクセスしてください。
 
 ### コンソールのダウンロード{#install-ac-console}
 
@@ -39,13 +39,13 @@ Campaign を初めて使用する場合は、クライアントコンソール�
 
 クライアントコンソールをダウンロードするには、次の 2 つのオプションがあります。
 
-1. Campaign 管理者として、Adobeに接続 [ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html){target="_blank"}.
+1. Campaign 管理者として、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html){target="_blank"}に接続します。
 
-1. エンドユーザーとして、Campaign 管理者によってクライアントコンソールがデプロイされ、専用 URL で使用できるようになります。
+1. エンドユーザーとして、Campaign 管理者がクライアントコンソールをデプロイし、専用の URL から使用できるようにします。 
 
 クライアントコンソールのインストールプログラムがダウンロードされたら、ローカルマシンにインストールします。
 
-インストール後は、クライアントコンソールの言語を変更できないことに注意してください。
+インストール後は、クライアントコンソールの言語を変更できません。
 
 ## 接続の作成{#create-your-connection}
 
@@ -71,9 +71,9 @@ Campaign を初めて使用する場合は、クライアントコンソール�
 
 ## Adobe Campaign へのログオン {#logon-to-ac}
 
-Campaign ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。Adobe Campaign を他のソリューションと共に使用する場合、接続は保存されます。でのAdobe IMSの詳細 [このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}.
+Campaign ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。Adobe Campaign を他のソリューションと併用する場合、接続は保存されます。Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 
-インスタンスにログオンするには、次の手順に従います。
+インスタンスにログオンするには、以下の手順に従います。
 
 1. コンソールを起動し、右隅のリンクを参照して、接続設定画面にアクセスします。
 
@@ -89,17 +89,17 @@ Campaign ユーザーは、Adobe Identity Management System（IMS）により、
 
 >[!NOTE]
 >
->Microsoft Edge Webview2 はプロキシ資格情報を保存しないので、コンソールは最初の接続で 2 回認証するように求める場合があります。
+>Microsoft Edge WebView2 はプロキシ資格情報を保存しないので、最初の接続でコンソールより 2 回認証するように求める場合があります。
 
 ## クライアントコンソールのアップグレード{#upgrade-ac-console}
 
-システムを新しいリリースにアップグレードする場合は、クライアントコンソールを同じバージョンに更新する必要があります。 これはベストプラクティスであり、一部のリリースでは、このアップグレードが必須です。 その場合、 [リリースノート](release-notes.md).
+システムを新しいリリースにアップグレードする場合は、クライアントコンソールを同じバージョンに更新する必要があります。 これはベストプラクティスであり、一部のリリースにはこのアップグレードが必須です。 その場合は、[リリースノート](release-notes.md)に記載されています。
 
-管理対象Cloud Servicesユーザーの場合、Adobeはクライアントコンソールをデプロイします。 アップグレードした環境に接続すると、最新のクライアントコンソールバージョンをポップアップウィンドウでダウンロードするよう求められます。 このアップグレードに同意し、必要に応じてクライアントコンソールを更新する必要があります。
+Managed Cloud Services ユーザーの場合は、ユーザーに代わってアドビがクライアントコンソールをデプロイします。 アップグレードした環境に接続すると、ポップアップウィンドウで最新のクライアントコンソールバージョンをダウンロードするよう求められます。 このアップグレードに同意し、必要に応じてクライアントコンソールを更新する必要があります。
 
 >[!CAUTION]
 >
->Adobeは、オプションを終了することをお勧めします **[!UICONTROL 今後この質問をしない]** コンソールの新しいバージョンが利用可能になったときにアラートを受け取るようにするには、選択を解除します。 このオプションを選択した場合、コンソールのアップグレードが必要であることはユーザーに通知されません。
+>アドビは、コンソールの新しいバージョンが利用可能になったときにアラートが送信されるようにするために、「**[!UICONTROL 今後この質問をしない]**」オプションを選択しないままにすることをお勧めします。 このオプションを選択すると、コンソールのアップグレードが必要であることはユーザーに通知されません。
 
 
 ## ユーザーへのアクセスの許可{#grant-access}
