@@ -1,17 +1,17 @@
 ---
-title: コンテンツのパーソナライズ
+title: パーソナライゼーションの基本を学ぶ
 description: メッセージコンテンツをパーソナライズする方法を説明します
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 4885f15c71d2be27dc32a239fb22abc3a96503c7
+source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '478'
 ht-degree: 59%
 
 ---
 
-# コンテンツのパーソナライズ {#personalize-content}
+# パーソナライゼーションの基本を学ぶ {#personalize-content}
 
 すべてのマーケティングキャンペーンを最大限に活用するために、Adobe Campaignでは、お客様のレベルで顧客に語りかけるカスタムコンテンツを配信できます。 様々なグループや個人のカスタムエクスペリエンスを作成するための、プロファイルデータやパーソナライゼーション機能に基づいています。メッセージに関するデータと情報を活用することで、メッセージを特定の受信者に合わせて変更できます。 彼らの名、興味、住んでいる場所、買ったもの、その他多くのものがあります。
 
