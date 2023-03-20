@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 618e45b6948070c6b791d2bcefa8296b297bf25e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1025'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
    Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-## 配信の実行を分割 {#split}
+## 分割配信の実行 {#split}
 
 >[!AVAILABILITY]
 >
@@ -50,32 +50,32 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 Campaign v8 パッケージに応じて、配信の実行を担当する特定の数のミッドソーシングインスタンスがプロビジョニングされます。
 
-デフォルトでは、すべてのチャネルの外部アカウントで、 **[!UICONTROL 代替]** ルーティングモード：各ミッドインスタンスから 1 回に 1 つの配信が交互に送信されます。
+デフォルトでは、すべてのチャネルの外部アカウントが&#x200B;**[!UICONTROL 代替]**&#x200B;ルーティングモードを使用するため、各 MID インスタンスから 1 回に 1 つの配信が交互に送信されます。
 
-速度と規模の両方でパフォーマンスを向上させるには、ミッドソーシングインスタンス間で配信を自動的に分割して、受信者に迅速に配信できるようにします。 この操作は、マーケティングインスタンスから配信を実行する際に透過的です。配信が送信されると、すべてのログが統合されてから、マーケティングインスタンスに 1 つの配信オブジェクトに戻されます。
+速度と規模の両方でパフォーマンスを向上させるには、配信をミッドソーシングインスタンス間で自動的に分割すると、受信者により速く配信できます。 マーケティングインスタンスから配信を実行する場合、この操作は透過的です。配信が送信されると、すべてのログが統合されてから、1 つの配信オブジェクトとしてマーケティングインスタンスに送り返されます。
 
-これをおこなうには、 **[!UICONTROL 分割]** ルーティングモードは、各チャネルのプロビジョニングに対して作成されます。
+これを行うには、**[!UICONTROL 分割]**&#x200B;ルーティングモードの追加外部アカウントが、各チャネルのプロビジョニング時に作成されます。
 
-* 配信の分割 — E メール (splitDeliveryEmail)
-* 配信の分割 — SMS (splitDeliverySMS)
-* 配信の分割 — iOS (splitDeliveryIOS)
-* 配信の分割 — Android (splitDeliveryAndroid)
+* 分割配信 - メール（splitDeliveryEmail）
+* 分割配信 - SMS（splitDeliverySMS）
+* 分割配信 - iOS（splitDeliveryIOS）
+* 分割配信 - Android（splitDeliveryAndroid）
 
 ![](assets/splitted-delivery.png)
 
 >[!IMPORTANT]
 >
->「Split Delivery - Email」アカウントの場合、分割ルーティングモードはデフォルトで有効になっています。 その他すべてのチャネル外部アカウントについては、カスタマーケアに問い合わせて、オプションを有効にしてもらってください。
+>「分割配信 - メール」アカウントの場合、分割ルーティングモードはデフォルトで有効になっています。 その他すべてのチャネルの外部アカウントについては、カスタマーケアに問い合わせて、オプションを有効にしてもらってください。
 >
->デフォルトでは、配信を複数のミッドに分割する際のしきい値のサイズは 100K です。 この値は、 **[!UICONTROL 管理]** / **[!UICONTROL Platform]** / **[!UICONTROL オプション]** メニュー
+>デフォルトでは、配信を複数のミッドに分割する際のしきい値のサイズは 100 K です。 この値は、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;メニューの「NmsDelivery_MultiMidSplitThreshold」オプションで変更することができます。
 
-配信を送信するデフォルトのアカウントとして、分割した外部アカウントを作成するには、配信テンプレートでルーティングプロバイダーを変更する必要があります。 次の手順に従います。
+配信を送信するデフォルトのアカウントとして、分割した外部アカウントを作成するには、配信テンプレートでルーティングプロバイダーを変更する必要があります。 これを行うには、次の手順に従います。
 
-1. 次に移動： **[!UICONTROL リソース]** / **[!UICONTROL テンプレート]** / **[!UICONTROL 配信テンプレート]** フォルダーに移動して、目的の配信テンプレートを開きます。 この例では、E メール配信テンプレートを編集します。
+1. **[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;フォルダーに移動して、目的の配信テンプレートを開きます。 この例では、メール配信テンプレートを編集します。
 
    ![](assets/split-default-list.png)
 
-1. 次をクリック： **[!UICONTROL プロパティ]** 」ボタンをクリックし、ルーティングプロバイダーを対応する分割配信外部アカウントに変更します。
+1. 「**[!UICONTROL プロパティ]**」ボタンをクリックして、ルーティングプロバイダーを対応する分割配信外部アカウントに変更します。
 
    ![](assets/split-default-delivery.png)
 
@@ -118,4 +118,4 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 * 複数の実行インスタンス
 ロードバランサーの背後に複数の実行インスタンスがある複数セル実行アーキテクチャでは、外部アプリケーションが呼び出すログオンメソッドはロードバランサーを経由します。そのため、トークンベースの認証は使用できません。ユーザー／パスワードベースの認証が必要です。
 
-![](../assets/do-not-localize/book.png) トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja#about-transactional-messaging-datamodel)を参照してください{target="_blank"} を参照してください。
+![](../assets/do-not-localize/book.png) トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja#about-transactional-messaging-datamodel)を参照してください{target="_blank"}
