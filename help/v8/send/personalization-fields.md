@@ -1,18 +1,18 @@
 ---
-title: パーソナライゼーションフィールド
+title: パーソナライゼーションフィールドを追加
 description: メッセージコンテンツにパーソナライゼーションデータを挿入する方法を説明します
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 42%
+source-wordcount: '334'
+ht-degree: 40%
 
 ---
 
 
-# パーソナライゼーションフィールド{#personalization-fields}
+# パーソナライゼーションフィールドを追加{#personalization-fields}
 
 パーソナライゼーションフィールドを使用して、各受信者に設定したルールに基づいて、1 対 1 でパーソナライズされたコンテンツを配信します。
 

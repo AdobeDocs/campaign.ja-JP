@@ -1,18 +1,18 @@
 ---
-title: パーソナライゼーションブロック
+title: パーソナライゼーションブロックを使用
 description: メッセージコンテンツで組み込みのパーソナライゼーションブロックを使用する方法を説明します
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 45%
+source-wordcount: '638'
+ht-degree: 44%
 
 ---
 
 
-# パーソナライゼーションブロック{#personalization-blocks}
+# パーソナライゼーションブロックを使用{#personalization-blocks}
 
 パーソナライゼーションブロックは、配信に挿入できる特定のレンダリングを含む動的コンテンツです。 例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。
 
