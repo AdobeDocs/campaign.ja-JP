@@ -5,26 +5,19 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 94%
+source-wordcount: '832'
+ht-degree: 97%
 
 ---
 
 
 # メールの送信と監視
 
-配信の設定が終わり、送信準備が整ったら、必ず配信分析を実行してください。
-
-![](../assets/do-not-localize/book.png) [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#confirming-delivery){target="_blank"}
+配信の設定が終わり、送信準備が整ったら、必ず配信分析を実行してください。[詳細情報](delivery-analysis.md)
 
 完了したら、配信を確定して、メッセージの配信を開始します。
-
-また、次のこともできます。
-
-* 次を使用して後で配信するようにスケジュール [配信を延期オプション](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#scheduling-the-delivery-sending){target="_blank"},
-* を使用して複数のバッチに送信 [複数の波](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#sending-using-multiple-waves){target="_blank"}.
 
 「**配信**」タブから配信の実行を追跡します。このタブには、この配信の詳細または配信のリストからアクセスできます。
 
@@ -59,7 +52,7 @@ MTA は SMTP バウンスを検証し、その検証結果を Campaign バウン
 
 >[!NOTE]
 >
->現在、**非同期**&#x200B;バウンスは、**[!UICONTROL 受信メール]**&#x200B;ルールを通じて inMail プロセスによって検証されています。詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ja#bounce-mail-qualification){target="_blank"}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>現在、**非同期**&#x200B;バウンスは、**[!UICONTROL 受信メール]**&#x200B;ルールを通じて inMail プロセスによって検証されています。
 
 配信エラーの詳細については、[この節](delivery-failures.md)を参照してください。
 

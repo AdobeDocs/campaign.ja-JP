@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 96%
+source-wordcount: '469'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
    ![](assets/send-email.png)
 
-   ![](../assets/do-not-localize/book.png) でのメッセージの送信方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ja){target="_blank"}
+   でのメッセージの送信方法を説明します。 [この節](../send/send.md)
 
 * [マーケティングキャンペーン](campaigns.md)に関連付けられたメッセージの送信
 
@@ -54,30 +54,26 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
    ![](assets/send-in-a-wf.png)
 
-   ![](../assets/do-not-localize/glass.png) メール配信を自動化する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html?lang=ja)を参照してください。
+    メール配信を自動化する方法については、[このページ](../../automation/workflow/delivery.md)を参照してください。
 
 * イベントからの[メッセージのトリガー](../send/transactional.md)
-   ![](../assets/do-not-localize/book.png) [ユースケース：ファイルが添付されたトランザクションメールの送信方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ja){target="_blank"}
 
 * メッセージのスケジュール設定
 
    ![](assets/schedule-send.png)
 
-   ![](../assets/do-not-localize/glass.png) [ユースケース：誕生日メールのスケジュール設定と送信方法を学ぶ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja)
+[ユースケース：誕生日メールのスケジュール設定と送信方法を学ぶ](../../automation/workflow/send-a-birthday-email.md)
 
 
 ## パーソナライゼーションの追加{#personalization}
 
-Adobe Campaign が配信するメッセージは、様々な方法でパーソナライズすることができます。
+Adobe Campaign が配信するメッセージは、様々な方法でパーソナライズすることができます。[パーソナライゼーション機能の詳細を説明します](../send/personalize.md)
 
-次の操作を行うことができます。
+以下を行うことができます。
 
-* 動的なパーソナライゼーションフィールドを挿入する。
-   ![](../assets/do-not-localize/book.png) パーソナライゼーションフィールドの使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=ja)を参照してください{target="_blank"} を参照してください。
-* 事前定義済みのパーソナライゼーションブロックの挿入
-   ![](../assets/do-not-localize/book.png) パーソナライゼーションブロックの詳細と使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ja)を参照してください{target="_blank"}
-* 条件付きコンテンツを作成する。
-   ![](../assets/do-not-localize/book.png) 条件付きコンテンツの挿入方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=ja)を参照してください{target="_blank"} を参照してください。
+* パーソナライゼーションフィールドの動的な挿入：[詳細情報](../send/personalization-fields.md)
+* 事前定義済みのパーソナライゼーションブロックの挿入[詳細情報](../send/personalization-blocks.md)
+* 条件付きコンテンツの作成：[詳細情報](../send/conditions.md)
 
 ## トランザクションメッセージの送信{#gs-transac-messages}
 
@@ -87,7 +83,7 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージの設定と送信の手順については、[このページ](../send/transactional.md)を参照してください
 
-![](../assets/do-not-localize/book.png) [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ja)でこの機能のエンドツーエンドのユースケースを確認する{target="_blank"} を参照してください。
+![](../assets/do-not-localize/book.png) [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ja)でこの機能のエンドツーエンドのユースケースを確認する{target="_blank"}
 
 ## 配信とトラッキングログ{#gs-tracking-logs}
 
@@ -95,11 +91,3 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 ![](../assets/do-not-localize/book.png) 配信を監視する方法については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target="_blank"}
 
-
-Campaign Classic v7 ドキュメントの&#x200B;**関連トピック**：
-
-* [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=ja){target="_blank"}
-
-* [ メールのテストと送信](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=ja){target="_blank"}
-
-* [配達確認の送信](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}

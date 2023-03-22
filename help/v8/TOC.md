@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 97%
+source-wordcount: '520'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,9 @@ ht-degree: 97%
       + [パーソナライゼーションフィールドを追加](send/personalization-fields.md)
       + [パーソナライゼーションブロックを使用](send/personalization-blocks.md)
       + [条件の作成](send/conditions.md)
+   + 配信を検証 {#validate}
+      + [プレビューと配達確認](send/preview-and-proof.md)
+      + [配信分析](send/delivery-analysis.md)
 + プロファイルと Audience Management {#audience}
    + [プロファイルとオーディエンスの基本を学ぶ](audiences/gs-audiences.md)
    + [オーディエンスの操作](start/audiences.md)

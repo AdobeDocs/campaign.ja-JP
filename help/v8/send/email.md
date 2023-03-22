@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 94%
+source-wordcount: '580'
+ht-degree: 92%
 
 ---
 
@@ -92,9 +92,7 @@ ht-degree: 94%
 
 ## メールのテストと検証
 
-Campaign では、メールをオーディエンスに送信する前にテストと検証を実施できる方法がいくつかあります。
-
-![](../assets/do-not-localize/book.png) 適用できるベストプラクティスについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html?lang=ja)を参照してください{target="_blank"} を参照してください。
+Campaign では、メールをオーディエンスに送信する前にテストと検証を実施できる方法がいくつかあります。で E メールコンテンツをプレビューおよびテストする方法について説明します。 [このページ](../send/preview-and-proof.md).
 
 次の操作をおこなうことができます。
 
@@ -102,6 +100,5 @@ Campaign では、メールをオーディエンスに送信する前にテス�
 * 配達確認の送信
 * シードアドレスの追加
 * コントロールグループの使用
-* メールのレンダリングの確認
 
 ![](../assets/do-not-localize/book.png) [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}
