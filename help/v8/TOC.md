@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 23f30dee861250532490da8598e6e0e18f72c1b0
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '521'
 ht-degree: 96%
 
 ---
@@ -56,15 +56,15 @@ ht-degree: 96%
          + [配信の失敗](send/delivery-failures.md)
       + [送信時間の最適化](send/predictive.md)
       + [購読の管理](start/subscriptions.md)
-   + コンテンツのパーソナライズ {#personalize}
-      + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
-      + [パーソナライゼーションデータ](send/personalization-data.md)
-      + [パーソナライゼーションフィールドを追加](send/personalization-fields.md)
-      + [パーソナライゼーションブロックを使用](send/personalization-blocks.md)
-      + [条件の作成](send/conditions.md)
-   + 配信を検証 {#validate}
-      + [プレビューと配達確認](send/preview-and-proof.md)
-      + [配信分析](send/delivery-analysis.md)
+      + コンテンツのパーソナライズ {#personalize}
+         + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
+         + [パーソナライゼーションデータ](send/personalization-data.md)
+         + [パーソナライゼーションフィールドを追加](send/personalization-fields.md)
+         + [パーソナライゼーションブロックを使用](send/personalization-blocks.md)
+         + [条件の作成](send/conditions.md)
+      + 配信を検証 {#validate}
+         + [配達確認のプレビューと E メール送信](send/preview-and-proof.md)
+         + [配信分析](send/delivery-analysis.md)
 + プロファイルと Audience Management {#audience}
    + [プロファイルとオーディエンスの基本を学ぶ](audiences/gs-audiences.md)
    + [オーディエンスの操作](start/audiences.md)
