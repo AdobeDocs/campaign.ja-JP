@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Intermediate, Experienced
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 95%
+source-wordcount: '430'
+ht-degree: 93%
 
 ---
 
@@ -66,7 +66,16 @@ BCC メールアドレスを定義したら、配信レベルで専用オプシ�
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 
-詳しくは、**Campaign Classic v7 ドキュメント**&#x200B;を参照してください
+**詳細情報**
+
+これらの節では、以下をおこないます。
+
+* [メール配信テンプレートの使用](../send/create-templates.md)
+
+* [配信の失敗について](../send/delivery-failures.md)
+
+
+また、Campaign Classicv7 ドキュメントでは、次の操作を行います。
 
 * [メールフォーマットの選択](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=ja#selecting-message-formats){target="_blank"}
 
@@ -74,6 +83,3 @@ BCC メールアドレスを定義したら、配信レベルで専用オプシ�
 
 * [バウンスメールアドレスの設定](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=ja#managing-bounce-emails){target="_blank"}
 
-* [メール配信テンプレートの使用](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target="_blank"}
-
-* [配信の失敗について](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ja){target="_blank"}

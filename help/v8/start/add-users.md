@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: ac4d0d0c16f429ca0948a3c3257558c46700baeb
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 98%
+source-wordcount: '316'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign では、ユーザーは&#x200B;**オペレーター**&#x200B;ま
 
 オペレーターは、ログインしてアクションを実行する権限を持つ Adobe Campaign ユーザーです。デフォルトでは、オペレーターは&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;ノードに格納されています。
 
-Adobe Campaign には、キャンペーンマネージャーやワークフロースーパーバイザーなどのビルトインのオペレーターグループが用意されています。すべてのビルトイングループの一覧については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=ja#default-groups)を参照してください。{target="_blank"} を参照してください。
+Adobe Campaign には、キャンペーンマネージャーやワークフロースーパーバイザーなどのビルトインのオペレーターグループが用意されています。権限の詳細については、 [この節](../start/gs-permissions.md)
 
 オペレーターグループのメンバーが実行できるユーザー権限は「ネームド権限」と呼ばれ、**エクスプローラー**&#x200B;ビューのフォルダー内にあるデータにアクセスできます。 1 人のオペレーターは複数のオペレーターグループに所属でき、アクセス権限は追加的に付与されます。
 
@@ -28,7 +28,7 @@ Adobe Campaign には、キャンペーンマネージャーやワークフロ�
 たとえば、配信エディターの「**分析**」ボタンは、**配信準備**&#x200B;ネームド権限を持つ&#x200B;**配信オペレーター**&#x200B;グループのメンバーに対して有効になります。
 
 * フォルダーへのアクセス
-オペレーターグループのメンバーであれば、フォルダーのセキュリティ設定を変更することにより、フォルダーへのアクセス権を付与したり制約したりすることができます。[詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=ja#permissions-on-a-folder){target="_blank"}. 例えば、新しいエンティティ（配信、プロファイルなど）を作成するための&#x200B;**書き込みアクセス**、エンティティを使用するための&#x200B;**読み取りアクセス**、エンティティを削除するための&#x200B;**削除アクセス**&#x200B;などに影響を与える可能性があります。
+オペレーターグループのメンバーであれば、フォルダーのセキュリティ設定を変更することにより、フォルダーへのアクセス権を付与したり制約したりすることができます。詳しくは、[このページ](../start/folder-permissions.md)を参照してください。例えば、新しいエンティティ（配信、プロファイルなど）を作成するための&#x200B;**書き込みアクセス**、エンティティを使用するための&#x200B;**読み取りアクセス**、エンティティを削除するための&#x200B;**削除アクセス**&#x200B;などに影響を与える可能性があります。
 
 ## セキュリティゾーン
 
@@ -38,10 +38,8 @@ Adobe Campaign には、キャンペーンマネージャーやワークフロ�
 
 ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーの場合は、ユーザーに代わってアドビがセキュリティゾーンを設定します。詳しくは、 [連絡先Adobe](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
-詳しくは、**Campaign Classic v7 ドキュメント**&#x200B;を参照してください
+**詳細情報**
 
-* [ビルトインのネームド権限](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-named-rights.html?lang=ja){target="_blank"}
+* [ビルトインのネームド権限](../start/gs-permissions.md)
 
-* [ビルトインのオペレーターグループ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-groups.html?lang=ja#default-groups){target="_blank"}
-
-* [権限の設定手順](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=ja){target="_blank"}
+* [権限の設定手順](../start/manage-permissions.md)

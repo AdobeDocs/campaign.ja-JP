@@ -5,18 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '479'
+ht-degree: 89%
 
 ---
 
 # メールのデザインと送信
 
-メール配信によって、パーソナライズされたメールをターゲット母集団に送信できます。
-
-![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html?lang=ja){target="_blank"}を参照してください
+メール配信によって、パーソナライズされたメールをターゲット母集団に送信できます。[詳細情報](../send/send.md)。
 
 ## 最初のメール配信の作成
 
@@ -78,17 +76,12 @@ ht-degree: 92%
 
 メールコンテンツをインポートする方法については、この[ユースケース](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja)を参照してください。
 
-詳しくは、**Campaign Classic v7 ドキュメント**&#x200B;の以下の節を参照してください。
+詳しくは、次の節を参照してください。
 
-* Campaign でのメールのデザイン
-   ![](../assets/do-not-localize/book.png) [メールのデザイン方法](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html?lang=ja){target="_blank"}
-* メールテンプレートの作成と使用
-   ![](../assets/do-not-localize/book.png) [メールテンプレートの詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target="_blank"} を参照してください。
-* メールのオーディエンスを選択
-   ![](../assets/do-not-localize/book.png) [ターゲット母集団の定義方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja){target="_blank"} を参照してください。
-* 配信の検証と配達確認の送信
-   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"} を参照してください。
-* [シードアドレス](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=ja)の追加{target="_blank"}
+* [Campaign でのメールのデザイン](../send/email.md)
+* [メールテンプレートの作成と使用](../send/create-templates.md)
+* [メールのオーディエンスの選択](../audiences/gs-audiences.md)
+* [配信の検証と配達確認の送信](../send/preview-and-proof.md)
 
 ## メールのテストと検証
 
@@ -99,6 +92,5 @@ Campaign では、メールをオーディエンスに送信する前にテス�
 * 配信分析ログの確認
 * 配達確認の送信
 * シードアドレスの追加
-* コントロールグループの使用
 
-![](../assets/do-not-localize/book.png) [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}
+[詳細情報](../send/delivery-analysis.md)
