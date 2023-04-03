@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
+source-git-commit: 44743e585119e8cd81a8fcc9b4d667c25c0d438e
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 79%
 
 ---
 
 # 最新リリース{#latest-release}
 
 このページには、**Campaign v8 最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
+
+## リリース 8.4.5 {#release-8-4-5}
+
+_2023 年 4 月 4 日_
+
+**パッチ**
+
+* 複数の承認ワークフローが同じスケジュールに設定されている場合に、キー制約が重複するエラーが発生する可能性がある問題を修正しました。 （NEO-48968）
+* NEO-54474(8.4.4) でデジタルコンテンツエディター (DCE) で画像をアップロードする際に、body タグのスタイル属性が変更される問題を修正しました。 （NEO-57697）
+* 一時テーブルに、uuid ではなく long が定義されている場合に、CRM コネクタを使用してデータをエクスポートするとエラーが発生する可能性がある問題を修正しました。 （NEO-54153）
+* 8.4.1 で発生した、パッケージの書き出し、FDA over HTTP およびレポートでエラーが発生する可能性がある回帰の問題を修正しました。 （NEO-57731）
+* 8.3.8 で発生した、負の ID を持つ配信の配信ステータスが正しく更新されない問題を修正しました。 （NEO-54675）
+* ビッグクエリコネクタを使用してデータを読み込む際のブールフィールドの問題を修正しました。(NEO-49181)
+
+>[!CAUTION]
+>
+> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
 ## リリース 8.4.4 {#release-8-4-4}
 
