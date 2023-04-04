@@ -5,9 +5,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
    メッセージを送信する前に、テストアカウントに配達確認を送信して検証する必要があります。その後、非公開の Twitter アカウントでメッセージの正確なレンダリングを取得し、コンテンツとパーソナライゼーションを確認できます。
 
-   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}
+   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}
 
 1. ダイレクトメッセージの送信
 
@@ -151,7 +151,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
 >[!CAUTION]
 >
->1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja?lang=ja#sending-using-multiple-waves){target="_blank"}.
+>1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja?lang=ja#sending-using-multiple-waves){target="_blank"}を参照してください。
 
 
 ## トラッキングデータへのアクセス {#tw-tracking}
@@ -160,5 +160,5 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
 トラッキングデータは、配信レポート、さらに配信とサービスの&#x200B;**[!UICONTROL 編集／トラッキング]**&#x200B;タブで表示できます。
 
-トラッキング設定は、メール配信の場合と同じです。詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja){target="_blank"}.
+トラッキング設定は、メール配信の場合と同じです。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja){target="_blank"}を参照してください。
 
