@@ -5,9 +5,9 @@ description: 繰り返し配信ワークフローアクティビティの詳細�
 feature: Workflows
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
 source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ ht-degree: 94%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-その他の Campaign のハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Campaign に関するその他のチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}を参照してください。
