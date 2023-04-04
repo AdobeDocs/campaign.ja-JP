@@ -6,9 +6,9 @@ role: User
 level: Intermediate, Experienced
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
 source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 
 アーカイブ先は選択した BCC メールアドレスです。配信の受信者には表示されません。
 
-![](../assets/do-not-localize/speech.png)  管理対象Cloud Servicesユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support){target="_blank"} アーカイブに使用する BCC 電子メールアドレスを伝達する。
+![](../assets/do-not-localize/speech.png) Managed Cloud Services のユーザーは、[アドビに連絡](../start/campaign-faq.md#support){target="_blank"}して、アーカイブに使用する BCC メールアドレスを伝えてください。
 
 BCC メールアドレスを定義したら、配信レベルで専用オプションを有効にする必要があります。
 
@@ -68,14 +68,14 @@ BCC メールアドレスを定義したら、配信レベルで専用オプシ�
 
 **詳細情報**
 
-これらの節では、以下をおこないます。
+次の節を参照してください。
 
 * [メール配信テンプレートの使用](../send/create-templates.md)
 
 * [配信の失敗について](../send/delivery-failures.md)
 
 
-また、Campaign Classicv7 ドキュメントでは、次の操作を行います。
+次の Campaign Classic v7 ドキュメントも参照してください。
 
 * [メールフォーマットの選択](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html?lang=ja#selecting-message-formats){target="_blank"}
 
