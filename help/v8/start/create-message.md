@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
    ![](assets/send-email.png)
 
-   でのメッセージの送信方法を説明します。 [この節](../send/send.md)
+   メッセージの送信方法については、[この節](../send/send.md)を参照してください
 
 * [マーケティングキャンペーン](campaigns.md)に関連付けられたメッセージの送信
 
@@ -62,7 +62,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
    ![](assets/schedule-send.png)
 
-[ユースケース：誕生日メールのスケジュール設定と送信方法を学ぶ](../../automation/workflow/send-a-birthday-email.md)
+[ユースケース：誕生日メールのスケジュール設定と送信方法](../../automation/workflow/send-a-birthday-email.md)
 
 
 ## パーソナライゼーションの追加{#personalization}
@@ -71,9 +71,9 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 以下を行うことができます。
 
-* パーソナライゼーションフィールドの動的な挿入：[詳細情報](../send/personalization-fields.md)
-* 事前定義済みのパーソナライゼーションブロックの挿入[詳細情報](../send/personalization-blocks.md)
-* 条件付きコンテンツの作成：[詳細情報](../send/conditions.md)
+* 動的パーソナライゼーションフィールドの挿入[詳細情報](../send/personalization-fields.md)
+* 事前定義済みパーソナライゼーションブロックの挿入[詳細情報](../send/personalization-blocks.md)
+* 条件付きコンテンツの作成[詳細情報](../send/conditions.md)
 
 ## トランザクションメッセージの送信{#gs-transac-messages}
 
@@ -89,5 +89,5 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 送信後に配信を監視することは、マーケティングキャンペーンを効率的に実施し、顧客に働きかけるうえで重要なステップになります。 配信の送信後に監視したり、配信の失敗や強制隔離がどのように管理されているかを把握したりできます。
 
-![](../assets/do-not-localize/book.png) 配信を監視する方法については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target="_blank"}
+![](../assets/do-not-localize/book.png) 配信を監視する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target="_blank"}を参照してください
 
