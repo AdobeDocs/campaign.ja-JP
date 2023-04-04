@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: b4593dd9fbb3e4742183719281ff0e5a78b9e6c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 
 ## Mobile SDK{#MobileSDK}
 
-送信する [プッシュ通知](../send/push.md) Campaign では、データ収集 UI でAdobe Campaign拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用できます。 また、次に示す Campaign SDK も使用できます。
+Campaign で[プッシュ通知](../send/push.md)を送信するには、データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用できます。次に示す Campaign SDK も使用できます。
 
 * **Android** 12、9.0、8.x、7.x、Campaign Android SDK ビルド 1.1.1
 * **Apple iOS** 9 ～ 16、Campaign iOS SDK ビルド 1.0.26、32 ビットおよび 64 ビットバージョンApple iOS 16 は Campaign v8.4 以降でサポートされています。
