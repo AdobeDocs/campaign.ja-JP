@@ -7,15 +7,15 @@ role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: 4a017eabf1330b04939aa4bd0602c371a0ee3208
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1313'
+ht-degree: 100%
 
 ---
 
 # Campaign SDK とアプリの統合 {#integrate-campaign-sdk}
 
-iOSおよび Android 用の Campaign SDK を使用すると、モバイルアプリケーションをAdobe Campaignプラットフォームに容易に統合できます。
+iOS および Android 用の Campaign SDK を使用すると、モバイルアプリケーションを Adobe Campaign プラットフォームに簡単に統合できます。
 
 Android および iOS でサポートされているバージョン、Campaign v8 用の Campaign SDK 互換バージョンは、[互換性マトリックス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
 
@@ -24,7 +24,7 @@ Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://expe
 
 >[!NOTE]
 >
->また、データ収集 UI でAdobe Campaign拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用することもできます。 [詳しくは、開発者向けドキュメントを参照してください。](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用することもできます。詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}を参照してください。
 
 ## 統合設定の宣言 {#declaring-integration-settings}
 
