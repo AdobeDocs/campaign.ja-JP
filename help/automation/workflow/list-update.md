@@ -5,9 +5,9 @@ description: リスト更新
 feature: Workflows, Targeting Activity
 exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
 source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -73,4 +73,4 @@ ht-degree: 97%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-その他の Campaign のハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Campaign に関するその他のチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}を参照してください。
