@@ -5,9 +5,9 @@ description: 共同キャンペーンの作成方法を学ぶ
 feature: Distributed Marketing
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ## 共同キャンペーンの作成 {#creating-a-collaborative-campaign}
 
-協調キャンペーンを設定するには、 **[!UICONTROL キャンペーン管理/キャンペーン]** フォルダーを開き、 **[!UICONTROL 新規]** アイコン
+協調キャンペーンを設定するには、**[!UICONTROL キャンペーン管理／キャンペーン]**&#x200B;フォルダーをクリックし、「**[!UICONTROL 新規]**」アイコンをクリックします。
 
 >[!NOTE]
 >
