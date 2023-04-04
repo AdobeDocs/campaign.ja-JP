@@ -5,9 +5,9 @@ role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1121'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Twitter アカウントにツイートを投稿するように Adobe Campaign �
 
 ## Twitter 開発者アカウント {#dev-account}
 
-この統合を開始するには、 [Twitter開発者アカウント](https://developer.twitter.com){target="_blank"}.
+この統合を開始するには、[Twitter 開発者アカウント](https://developer.twitter.com){target="_blank"}に新規登録する必要があります。
 
-Campaign は、Twitter API の 1.1 バージョンを使用します。 これを使用するには、開発者ポータル経由で管理者特権でのアクセス権を申請する必要があります。twitter Elevated Access の詳細 [このページ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}.
+Campaign は、Twitter API の 1.1 バージョンを使用します。 これを使用するには、開発者ポータル経由で管理者特権でのアクセス権を申請する必要があります。Twitter の昇格アクセスについて詳しくは、[このページ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}を参照してください。
 
 ## Twitter でのアプリケーションの作成 {#create-an-app-on-twitter}
 
