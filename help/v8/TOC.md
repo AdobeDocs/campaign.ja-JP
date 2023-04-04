@@ -5,9 +5,9 @@ description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
 source-git-commit: 464898df7a362c137d20ebaf2b96bfef71131ae6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,10 +59,10 @@ ht-degree: 96%
       + コンテンツのパーソナライズ {#personalize}
          + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
          + [パーソナライゼーションデータ](send/personalization-data.md)
-         + [パーソナライゼーションフィールドを追加](send/personalization-fields.md)
-         + [パーソナライゼーションブロックを使用](send/personalization-blocks.md)
+         + [パーソナライゼーションフィールドの追加](send/personalization-fields.md)
+         + [パーソナライゼーションブロックの使用](send/personalization-blocks.md)
          + [条件の作成](send/conditions.md)
-      + 配信を検証 {#validate}
+      + 配信の検証 {#validate}
          + [プレビューと配達確認](send/preview-and-proof.md)
          + [配信分析](send/delivery-analysis.md)
 + プロファイルと Audience Management {#audience}
