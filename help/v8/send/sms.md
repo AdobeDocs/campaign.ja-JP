@@ -8,7 +8,7 @@ exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -45,7 +45,7 @@ SMS の送信を開始する前：
 
    ![](assets/delivery_step_1.png)
 
-   ![](../assets/do-not-localize/book.png) 配信の作成方法に関する全般的な情報については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages){target="_blank"}.
+   ![](../assets/do-not-localize/book.png) 配信の作成方法に関する全般的な情報については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages){target="_blank"}を参照してください。
 
 1. SMS 配信を送信するには、関連する外部アカウントを参照する配信テンプレートを選択します。
 
@@ -90,7 +90,7 @@ SMS を作成およびデザインするための主な手順については、C
 配達確認を送信するには、次の Campaign Classic v7 ドキュメントの節を参照してください。
 
 * 配信の検証と配達確認の送信
-   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"} を参照してください。
+   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}
 * シードアドレスの追加
    ![](../assets/do-not-localize/book.png) [シードアドレスについて](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=ja){target="_blank"}
 

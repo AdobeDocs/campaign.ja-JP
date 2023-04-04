@@ -5,7 +5,7 @@ description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 100%
 

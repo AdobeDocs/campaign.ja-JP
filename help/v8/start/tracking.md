@@ -8,7 +8,7 @@ exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
 source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 Campaign のトラッキング機能は、送信されたメッセージをトラッキングし、受信者の動作（開く、リンクのクリック、購読／購読解除など）を分析するのに役立ちます。 専用のログ、レポート、指標にアクセスしたり、データベースにクエリを実行して収集データを確認したりできます。
 
-詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#tracking-tab){target="_blank"}.
+ 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#tracking-tab){target="_blank"}を参照してください。
 
 配信ダッシュボードは、メッセージの送信中に配信状況と潜在的な問題を監視するための重要なツールです。
 

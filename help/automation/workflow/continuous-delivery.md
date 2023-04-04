@@ -5,7 +5,7 @@ description: 連続配信
 feature: Workflows, Channels Activity
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
 source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 

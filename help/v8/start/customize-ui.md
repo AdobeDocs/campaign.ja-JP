@@ -8,7 +8,7 @@ exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign ユーザーインターフェイスのドロップダウンリスト�
 
 「**オープン**」列挙の場合、ユーザーが値の最初の文字を入力すると、値の候補が表示されます。
 
-で列挙にアクセスして設定する方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html?lang=ja){target="_blank"}.
+定義済みリストにアクセスして設定する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## デフォルトの単位 {#default-units}
