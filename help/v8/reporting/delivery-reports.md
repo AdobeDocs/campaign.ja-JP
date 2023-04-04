@@ -4,9 +4,9 @@ description: Adobe Campaign の組み込み配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 97%
 * **[!UICONTROL 到達済み母集団のユニーク開封数]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。リンクをクリックするにはメールを開く必要があるので、トラッキングされる URL でのクリック数が考慮されます。
 * **[!UICONTROL 到達済み母集団の開封数の合計]**：ターゲット受信者による開封数の合計の推定値。
 * **[!UICONTROL オプトアウトリンクのクリック数]**：購読解除リンクのクリック数。
-* **[!UICONTROL ミラーページのリンクでのクリック数]** :へのリンクでのクリック数 [ミラーページ](../send/mirror-page.md). 考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。
+* **[!UICONTROL ミラーページリンクのクリック数]**：[ミラーページ](../send/mirror-page.md)へのリンクのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。
 * **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送される E メール数の推定値。この値は、ユニークユーザーの数と E メールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
    >[!NOTE]
@@ -83,7 +83,7 @@ ht-degree: 97%
 >
 >このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
 >
->で列挙にアクセスして設定する方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html?lang=ja){target="_blank"}.
+>定義済みリストにアクセスして設定する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html?lang=ja){target="_blank"}を参照してください。
 
 
 **[!UICONTROL 4.クリックストリーム]**
