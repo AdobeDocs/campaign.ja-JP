@@ -5,9 +5,9 @@ description: マーケティングキャンペーン配信の詳細
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 ![](assets/select-delivery-reviewers.png)
 
-ただし、配信プロパティまたはキャンペーンプロパティで特定のレビュー担当者が定義されている場合でも、キャンペーン所有者に送信の確認を任せることもできます。それには、管理者として「**NmsCampaign_Activate_OwnerConfirmation**」オプションを作成して「**1**」に設定します。オプションは **[!UICONTROL 管理]** > **[!UICONTROL Platform]** > **[!UICONTROL オプション]** Campaign エクスプローラーのフォルダー。
+ただし、配信プロパティまたはキャンペーンプロパティで特定のレビュー担当者が定義されている場合でも、キャンペーン所有者に送信の確認を任せることもできます。それには、管理者として「**NmsCampaign_Activate_OwnerConfirmation**」オプションを作成して「**1**」に設定します。これらのオプションは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;フォルダーから管理します。
 
 
 ### ダイレクトメール配信の開始 {#start-an-offline-delivery}
