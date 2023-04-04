@@ -4,9 +4,9 @@ description: ワークフローデータの使用方法を説明します
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 
    このメニューは、トランジションのデータの統計とレポートを作成できる記述的分析ウィザードを表示します。
 
-   詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}.
+    詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}を参照してください。
 
 ワークフローが実行されると、ターゲットデータはパージされます。最後のワークテーブルだけにアクセスできます。
 ワークフローを設定し、すべての作業用テーブルをアクセス可能なまま維持することもできます。それには、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保存]**」オプションを選択します。
@@ -59,7 +59,7 @@ ht-degree: 97%
 
 ### ターゲットデータの活用 {#target-data}
 
-ワークフローの一時ワークテーブルに保存されたデータは、パーソナライゼーションタスクに使用できます。データは [パーソナライゼーションフィールド](../../v8/send/personalization-fields.md).
+ワークフローの一時ワークテーブルに保存されたデータは、パーソナライゼーションタスクに使用できます。データは、[パーソナライゼーションフィールド](../../v8/send/personalization-fields.md)で使用できます。
 
 これにより、例えば、配信のリストから収集したデータを使用できます。それには、次の構文を使用します。
 
