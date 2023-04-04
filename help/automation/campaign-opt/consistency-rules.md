@@ -5,9 +5,9 @@ description: 一貫性ルール
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 
 新しい処理能力ルールを作成するには、次の手順に従います。
 
-1. 以下 **[!UICONTROL 管理/キャンペーン管理/タイポロジ管理/タイポロジルール]** フォルダー、クリック **[!UICONTROL 新規]**.
+1. **[!UICONTROL 管理／キャンペーン管理／タイポロジ管理／タイポロジルール]**&#x200B;フォルダーで、「**[!UICONTROL 新規]**」をクリックします。
 1. **[!UICONTROL 処理能力]**&#x200B;ルールタイプを選択します。
 
    ![](assets/campaign_opt_create_capacity_01.png)
