@@ -5,9 +5,9 @@ description: マーケティングキャンペーンのオーディエンスを�
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1562'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -238,8 +238,8 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 #### チュートリアルビデオ {#create-email-video}
 
-このビデオでは、Adobe Campaign でキャンペーンと E メールを作成する方法を説明します。
+このビデオでは、Adobe Campaign でキャンペーンとメールを作成する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
-その他の Campaign のハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Campaign に関するその他のチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}を参照してください。
