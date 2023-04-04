@@ -6,9 +6,9 @@ role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 source-git-commit: cfe559b83a7db36ab8d9223d04d348f3afd74730
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 * 十分なセキュリティグループを作成する
 * 各オペレーターのアクセス権が適切であることを確認する
 
-権限の詳細については、 [この節](../start/gs-permissions.md)
+権限について詳しくは、[この節](../start/gs-permissions.md)を参照してください。
 
 ## コーディングのガイドライン
 
@@ -132,7 +132,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 * 十分なセキュリティグループを作成する
 * 各オペレーターのアクセス権が適切であることを確認する
 
-権限の詳細については、 [この節](../start/gs-permissions.md).
+権限について詳しくは、[この節](../start/gs-permissions.md)を参照してください。
 
 ## コーディングのガイドライン
 
@@ -144,4 +144,4 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-![](../assets/do-not-localize/book.png) 詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic)を参照してください。{target="_blank"} を参照してください。
+![](../assets/do-not-localize/book.png) 詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic)を参照してください。{target="_blank"}
