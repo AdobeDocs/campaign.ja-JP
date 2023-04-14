@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '543'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 96%
          + イベント管理 {#event}
          + [イベントの収集と処理](send/event-processing.md)
          + [イベントの説明について](send/event-description.md)
-         + [メッセージの送信](send/delivery-execution.md)
+         + [メッセージの送信と監視](send/delivery-execution.md)
       + 失敗、バウンス、強制隔離{#failures}
          + [強制隔離](send/quarantines.md)
          + [配信の失敗](send/delivery-failures.md)

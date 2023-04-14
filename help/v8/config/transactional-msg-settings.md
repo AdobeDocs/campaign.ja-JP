@@ -5,20 +5,20 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 77%
+source-wordcount: '636'
+ht-degree: 70%
 
 ---
 
 # トランザクションメッセージの設定
 
+トランザクションメッセージ (Message Center) は、トリガーされるメッセージを管理するために設計されたキャンペーンモジュールです。 トランザクションメッセージについて詳しくは、 [この節](../send/transactional.md).
+
+ トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
+
 ![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
-
-![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../send/transactional.md)を参照してください。
-
-![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
 
 ## 権限の定義
 
@@ -26,15 +26,11 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
 ## スキーマ拡張
 
-コントロールインスタンスまたは実行インスタンスのいずれかで **Message Center テクニカルワークフロー**&#x200B;が使用するスキーマで作成されたすべてのスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールが使用する別のインスタンスに複製する必要があります。
-
-![](../assets/do-not-localize/book.png) Message Center のテクニカルワークフローに関する詳細は、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html?lang=ja#technical-workflows)を参照してください
+コントロールインスタンスまたは実行インスタンスのいずれかで [Message Center テクニカルワークフロー](#technical-workflows)が使用するスキーマで作成されたすべてのスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールが使用する別のインスタンスに複製する必要があります。
 
 ## トランザクションプッシュ通知の送信
 
-トランザクションメッセージでは、モバイルアプリチャネルモジュールと組み合わせることで、モバイルデバイスの通知を介してトランザクションメッセージをプッシュすることができます。
-
-![](../assets/do-not-localize/book.png) モバイルアプリチャネルについて詳しくは、 [この節](../send/push.md).
+との組み合わせの場合 [モバイルアプリチャネルモジュール](../send/push.md)トランザクションメッセージを使用すると、通知を介してモバイルデバイスにトランザクションメッセージをプッシュできます。
 
 トランザクションプッシュ通知を送信するには、次の設定をおこなう必要があります。
 
@@ -46,14 +42,14 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
 1. **モバイルアプリケーション**&#x200B;サービスと、関連するモバイルアプリケーションを実行インスタンスに複製します。
 
-Campaign がトランザクションプッシュ通知を送信するには、イベントに次の要素が含まれている必要があります。
+さらに、イベントには次の要素が含まれている必要があります。
 
-* モバイルデバイス ID：Android では **registrationId**、iOS では **deviceToken**。 この ID が、通知を送信する宛先の「アドレス」を表します。
+* モバイルデバイス ID：Android では **registrationId**、iOS では **deviceToken**。 この ID は、通知の送信先の「アドレス」を表します。
 * アプリケーションに固有の接続情報を取得できるモバイルアプリケーションまたは統合キー（**uuid**）へのリンク。
 * 通知が送信されるチャネル（**wishedChannel**）：iOS は 41、Android は 42 です。
-* パーソナライゼーションに活用するその他のデータ。
+* その他のパーソナライゼーションデータ。
 
-この情報を含むイベントの例を次に示します。
+トランザクションプッシュ通知を送信するイベント設定の例を以下に示します。
 
 ```
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -76,14 +72,7 @@ Campaign がトランザクションプッシュ通知を送信するには、�
 </SOAP-ENV:Envelope>
 ```
 
-## しきい値の監視 {#monitor-thresholds}
 
-次に示す指標の警告しきい値（オレンジ）とアラートしきい値（赤）を設定できます。 **Message Center サービスレベル** および **Message Center の処理時間** レポート。
-
-これを行うには、次の手順に従います。
-
-1. でデプロイウィザードを開きます。 **実行インスタンス**&#x200B;をクリックし、 **[!UICONTROL Message Center]** ページ。
-1. 矢印でしきい値を変更します。
 
 
 ## イベントのパージ {#purge-events}
