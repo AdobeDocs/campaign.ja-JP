@@ -4,13 +4,13 @@ description: パーソナライゼーションに使用できるソースにつ�
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+exl-id: 711256e2-ab77-404a-b052-6793a85da193
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
 
 ---
-
 
 # パーソナライゼーションのデータソース{#personalization-data}
 
@@ -71,7 +71,3 @@ FDA でアクセスする外部データを使用する場合は、以下に示�
 ワークフローのコンテキストで配信を作成すると、一時的なワークフローテーブルからのデータを使用できます。ワークフローの一時ワークテーブルに保存されたデータは、パーソナライゼーションタスクに使用できます。データは、パーソナライゼーションフィールドで使用できます。
 
 このデータは、**[!UICONTROL ターゲット式]**&#x200B;メニューでグループ化されています。詳しくは、[この節](../../automation/workflow/use-workflow-data.md#target-data)を参照してください。
-
-
-
-

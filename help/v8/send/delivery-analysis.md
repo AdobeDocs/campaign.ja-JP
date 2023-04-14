@@ -4,7 +4,8 @@ description: 配信の準備と確認方法を学ぶ
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
+exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 100%
@@ -89,5 +90,3 @@ ht-degree: 100%
 * **[!UICONTROL 別のプロセスでジョブを開始]**：このオプションを選択すると、別のプロセスで配信分析を開始できます。分析機能は、デフォルトでは、Adobe Campaign アプリケーションサーバープロセス（web nlserver）を使用します。このオプションを選択すると、アプリケーションサーバーにエラーが発生した場合でも分析を完了できます。
 * **[!UICONTROL ログの分析中に生成された SQL クエリを記録]**：分析フェーズ中、配信ログに SQL クエリのログを記録します。
 * **[!UICONTROL 配信時にパーソナライゼーションスクリプトを無視]**：HTML コンテンツに含まれる JavaScript ディレクティブの解釈をスキップします。このオプションを選択すると、配信されるコンテンツ内に、これらのディレクティブは `<%=` タグで導入されます。
-
-

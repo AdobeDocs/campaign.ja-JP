@@ -4,8 +4,9 @@ description: 送信前に配信を検証する方法を学ぶ
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: a6d2cb72968fe489a73f92f00f6a50be8ed3e997
-workflow-type: ht
+exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
 

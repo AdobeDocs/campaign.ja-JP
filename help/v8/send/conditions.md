@@ -4,13 +4,13 @@ description: 条件付きコンテンツの作成方法を学ぶ
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
 
 ---
-
 
 # 条件付きコンテンツの作成{#conditional-content}
 
@@ -87,4 +87,3 @@ ht-degree: 100%
 多言語ニュースレターを例に、条件付きコンテンツを配信に追加する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)
-

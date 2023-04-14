@@ -5,10 +5,10 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 1bcb1b3d1e6062a8b5c0368725248edfc7e3d1b4
-workflow-type: ht
-source-wordcount: '1937'
-ht-degree: 100%
+source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
+workflow-type: tm+mt
+source-wordcount: '1860'
+ht-degree: 97%
 
 ---
 
@@ -24,11 +24,12 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作を実�
 
 ## SDK の統合 {#push-sdk}
 
-Adobe Experience Platform Mobile SDK を使用するには、データ収集 UI で Adobe Campaign 拡張機能を設定します。Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。詳しくは、[Adobe Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}を参照してください。
+Adobe Campaignでプッシュ通知を送信するには、Adobe Experience Platform Mobile SDK のデータ収集 UI でAdobe Campaign拡張機能を設定する必要があります。
 
-また、Campaign SDK を統合することで、ご利用のモバイルアプリケーションの Adobe Campaign プラットフォームへの統合を容易にすることができます。互換性のある SDK バージョンは [Campaign 互換性マトリクス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
+Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。
 
-Campaign Android および iOS SDK をアプリと統合する方法については、[このページ](../config/push-config.md)を参照してください
+詳しくは、[Adobe Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}を参照してください。
+
 
 ## Campaign でのアプリ設定{#push-config}
 
@@ -77,10 +78,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   Campaign SDK を使用している場合は、[このページ](../config/push-config.md)を参照してください。
-
-
-   Adobe Experience Platform SDK（データ収集）を使用している場合は、[このページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
+   詳しくは、 [開発者向けドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
@@ -117,11 +115,9 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 1. 「**[!UICONTROL ラベル]**」フィールドに、アプリの名前を入力します。
 1. 統合キーは、各アプリケーションに固有です。これにより、モバイルアプリケーションが Adobe Campaign にリンクされます。
 
-   Adobe Campaign とアプリケーションコード（SDK 経由）で、同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
+   Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   Campaign SDK を使用している場合は、[このページ](../config/push-config.md)を参照してください
-
-   Adobe Experience Platform SDK（データ収集）を使用している場合は、[このページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
+   詳しくは、 [開発者向けドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
@@ -219,7 +215,6 @@ iOS デバイスで通知を送信するには、次の手順に従います。
       >[!NOTE]
       > 
       >サウンドは、アプリケーションに含まれている必要があり、サービスが作成されたときに定義される必要があります。
-
    ![](assets/push_ios_5.png)
 
 1. 「**[!UICONTROL アプリケーション変数]**」タブから、**[!UICONTROL アプリケーション変数]**&#x200B;が自動的に追加されます。これによって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。

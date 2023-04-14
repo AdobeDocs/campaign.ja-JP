@@ -4,7 +4,8 @@ description: Campaign v8 2022 リリースで記載される機能と改善点�
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
+exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 100%

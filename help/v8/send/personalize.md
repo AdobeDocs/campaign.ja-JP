@@ -4,7 +4,8 @@ description: メッセージコンテンツをパーソナライズする方法�
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
+exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
