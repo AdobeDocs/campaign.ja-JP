@@ -5,20 +5,20 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '720'
+ht-degree: 77%
 
 ---
 
 # トランザクションメッセージの設定
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 ![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../send/transactional.md)を参照してください。
 
-![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md)を参照してください。
+![](../assets/do-not-localize/glass.png) トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
 
 ## 権限の定義
 
@@ -34,7 +34,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
 トランザクションメッセージでは、モバイルアプリチャネルモジュールと組み合わせることで、モバイルデバイスの通知を介してトランザクションメッセージをプッシュすることができます。
 
-![](../assets/do-not-localize/book.png) モバイルアプリチャネルの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=ja#sending-messages)を参照してください。
+![](../assets/do-not-localize/book.png) モバイルアプリチャネルについて詳しくは、 [この節](../send/push.md).
 
 トランザクションプッシュ通知を送信するには、次の設定をおこなう必要があります。
 
@@ -75,3 +75,49 @@ Campaign がトランザクションプッシュ通知を送信するには、�
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
+
+## しきい値の監視 {#monitor-thresholds}
+
+次に示す指標の警告しきい値（オレンジ）とアラートしきい値（赤）を設定できます。 **Message Center サービスレベル** および **Message Center の処理時間** レポート。
+
+これを行うには、次の手順に従います。
+
+1. でデプロイウィザードを開きます。 **実行インスタンス**&#x200B;をクリックし、 **[!UICONTROL Message Center]** ページ。
+1. 矢印でしきい値を変更します。
+
+
+## イベントのパージ {#purge-events}
+
+デプロイウィザードの設定を調整して、データをデータベースに保存する期間を設定できます。
+
+イベントのパージは、 **データベースのクリーンアップ** テクニカルワークフロー。 このワークフローは、実行インスタンスが受信し保存したイベントおよびコントロールインスタンスがアーカイブしたイベントをパージします。
+
+矢印を使用して、必要に応じて **イベント** （実行インスタンス上）および **アーカイブしたイベント** （コントロールインスタンス上）。
+
+
+## テクニカルワークフロー {#technical-workflows}
+
+トランザクションメッセージテンプレートをデプロイする前に、コントロールインスタンスと実行インスタンス上のテクニカルワークフローが開始されていることを確認する必要があります。
+
+これらのワークフローは、**管理／プロダクション／Message Center** フォルダーからアクセスできます。
+
+### コントロールインスタンスのワークフロー {#control-instance-workflows}
+
+コントロールインスタンス上で、それぞれに対して 1 つのアーカイブワークフローを作成する必要があります **[!UICONTROL Message Center 実行インスタンス]** 外部アカウント。 「**[!UICONTROL アーカイブワークフローを作成]**」ボタンをクリックし、ワークフローを作成して開始します。
+
+### 実行インスタンスのワークフロー {#execution-instance-workflows}
+
+実行インスタンスで、次のテクニカルワークフローを開始する必要があります。
+
+* **[!UICONTROL バッチイベントの処理]**（内部名：**[!UICONTROL batchEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のバッチイベントを分類することができます。
+* **[!UICONTROL リアルタイムイベントの処理]**（内部名：**[!UICONTROL rtEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のリアルタイムイベントを分類することができます。
+* **[!UICONTROL イベントステータスを更新]**（内部名：**[!UICONTROL updateEventStatus]**）：このワークフローは、ステータスをイベントに関連付けることができます。
+
+   可能なイベントのステータスは次のとおりです。
+
+   * **[!UICONTROL 保留中]**：イベントはキューの中です。イベントにはまだメッセージテンプレートが割り当てられていません。
+   * **[!UICONTROL 配信待ち]**：イベントはキューの中で、メッセージテンプレートが割り当てられ、配信による処理中です。
+   * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。配信が送信されたことを示します。
+   * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。これは配信が無視されたことを意味しています。
+   * **[!UICONTROL 配信に失敗]**：このステータスは配信ログからコピーされます。これは配信が失敗したことを意味しています。
+   * **[!UICONTROL 処理不可なイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。イベントの処理はおこなわれません。

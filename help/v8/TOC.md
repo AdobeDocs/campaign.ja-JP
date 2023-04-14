@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 464898df7a362c137d20ebaf2b96bfef71131ae6
+source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,13 @@ ht-degree: 100%
       + [LINE メッセージ](send/line.md)
       + [ダイレクトメール](send/direct-mail.md)
       + [Twitter](send/twitter.md)
-      + [トランザクションメッセージ](send/transactional.md)
+      + トランザクションメッセージ {#real-time}
+         + [トランザクションメッセージの概要](send/transactional.md)
+         + [テンプレートの作成と公開](send/transactional-template.md)
+         + イベント管理 {#event}
+         + [イベントの収集と処理](send/event-processing.md)
+         + [イベントの説明について](send/event-description.md)
+         + [メッセージの送信](send/delivery-execution.md)
       + 失敗、バウンス、強制隔離{#failures}
          + [強制隔離](send/quarantines.md)
          + [配信の失敗](send/delivery-failures.md)
