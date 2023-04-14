@@ -5,12 +5,13 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+source-git-commit: 7b8a9a323afc3154e250b4c70c4339d6c6c265c0
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # 外部アカウントの設定
 
@@ -35,69 +36,49 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 次の技術アカウントは、Adobe Campaign で特定のプロセスを有効にして実行するために使用されます。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーの場合、アドビは、Campaign 固有の外部アカウントすべてを設定します。
-
 ### バウンスメール {#bounce-mails-external-account}
 
 >[!NOTE]
-POP3 機能の Microsoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
+POP3 機能の Microsoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。。
 
 **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
-インバウンドメールについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja)を参照してください
+インバウンドメールについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja)を参照してください。
 
 ![](assets/bounce_external_1.png)
 
 **[!UICONTROL バウンスメール（defaultPopAccount）]**&#x200B;外部アカウントを設定するには、次の手順を実行します。
 
-* **[!UICONTROL サーバー]**
+* **[!UICONTROL サーバー]** - POP3 サーバーの URL。
 
-   POP3 サーバーの URL。
+* **[!UICONTROL ポート]** - POP3 接続のポート番号。 デフォルトのポート番号は 110 です。
 
-* **[!UICONTROL ポート]**
+* **[!UICONTROL アカウント]**  — ユーザーの名前。
 
-   POP3 接続のポート番号デフォルトのポート番号は 110 です。
+* **[!UICONTROL パスワード]**  — ユーザーアカウントのパスワード。
 
-* **[!UICONTROL アカウント]**
+* **[!UICONTROL 暗号化]**  — 選択した暗号化の種類 **[!UICONTROL デフォルト]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** または **[!UICONTROL POP3S]**.
 
-   ユーザーの名前。
+   **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
-* **[!UICONTROL パスワード]**
-
-   アカウントのパスワード
-
-* **[!UICONTROL 暗号化]**
-
-   **[!UICONTROL デフォルト]**、**[!UICONTROL POP3 + STARTTLS]**、**[!UICONTROL POP3]** または **[!UICONTROL POP3S]** から選択した暗号化のタイプ。**バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
-
-* **[!UICONTROL 関数]**
-
-   インバウンドメールまたは SOAP ルーター
+* **[!UICONTROL 関数]**  — インバウンド E メールまたは SOAP ルーター
 
 ![](assets/bounce_external_2.png)
 
->[!IMPORTANT]
+>[!CAUTION]
 Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、 [ページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UICONTROL Microsoft OAuth 2.0]**」オプションをチェックし、次のフィールドに入力します。
 
-* **[!UICONTROL Azure テナント]**
+* **[!UICONTROL Azure テナント]** - Azure ID( またはディレクトリ（テナント） ID) は、 **初期設定** Azure ポータルでのアプリケーションの概要のドロップダウン。
 
-   Azure ID（またはディレクトリ（テナント）ID）は、Azure portal のアプリケーションの概要の「**初期設定**」ドロップダウンで確認できます。
+* **[!UICONTROL Azure クライアント ID]**  — クライアント ID( またはアプリケーション（クライアント）ID) は、 **初期設定** Azure ポータルでのアプリケーションの概要のドロップダウン。
 
-* **[!UICONTROL Azure クライアント ID]**
+* **[!UICONTROL Azure Client Secret]**  — クライアント秘密鍵 ID は、 **クライアント秘密鍵** 列 **証明書と秘密鍵** Azure ポータルでのアプリケーションのメニュー。
 
-   クライアント ID（またはアプリケーション（クライアント）ID）は、Azure portal のアプリケーションの概要の「**初期設定**」ドロップダウンで確認できます。
+* **[!UICONTROL Azure リダイレクト URL]**  — リダイレクト URL は **認証** Azure ポータルでのアプリケーションのメニュー。 次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
 
-* **[!UICONTROL Azure クライアントシークレット]**：
-
-   クライアントシークレット ID は、Azure portal のアプリケーションの&#x200B;**証明書と秘密鍵**&#x200B;メニューから、「**クライアントシークレット**」列で確認することができます。
-
-* **[!UICONTROL Azure リダイレクト URL]**：
-
-   リダイレクト URL は Azure portal のアプリケーションの&#x200B;**認証**&#x200B;メニューで確認することができます。次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
-
-別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
+   別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
 
 ### ルーティング {#routing}
 
@@ -108,9 +89,7 @@ Adobe Campaign v8 では&#x200B;**[!UICONTROL 内部電子メール配信ルー�
 
 ### 実行インスタンス {#execution-instance}
 
-トランザクションメッセージのコンテキストでは、実行インスタンスはコントロールインスタンスにリンクされ、接続されます。トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
-
-![](../assets/do-not-localize/glass.png) Message Center のアーキテクチャについて詳しくは、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
+トランザクションメッセージのコンテキストでは、実行インスタンスはコントロールインスタンスにリンクされ、接続されます。トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。 Message Center のアーキテクチャについて詳しくは、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
 
 ## 外部システムの外部アカウントへのアクセス
 
@@ -137,17 +116,15 @@ Adobe Campaign v8 では&#x200B;**[!UICONTROL 内部電子メール配信ルー�
 
 ## データ転送外部アカウント
 
-これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。ワークフローでのファイル転送について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja)を参照してください
+これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。詳細情報： **ファイル転送** のワークフロー内 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja).
 
-* **FTP と SFTP**
+* **FTP と SFTP** - **FTP** 外部アカウントを使用すると、Adobe Campaign外でサーバーへのアクセスを設定およびテストできます。 外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。
 
-   **FTP** 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。これをおこなうには、SFTP サーバーまたは FTP サーバーへの接続を確立するために使用するアドレスと資格情報を、この外部アカウントで指定します。
+   これをおこなうには、SFTP サーバーまたは FTP サーバーへの接続を確立するために使用するアドレスと資格情報を、この外部アカウントで指定します。
 
-* **Amazon Simple Storage Service（S3）**
+* **Amazon Simple Storage Service（S3）** - **AWS S3** コネクタは、 **[!UICONTROL ファイル転送]** ワークフローアクティビティ。 この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
-   **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータの読み込みまたは書き出しをおこなうために使用できます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
-
-   * **[!UICONTROL AWS S3 アカウントサーバー]**：サーバーの URL は、次のように入力する必要があります。   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
+   * **[!UICONTROL AWS S3 アカウントサーバー]**：サーバーの URL は、次のように入力する必要があります。   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
    * **[!UICONTROL AWSアクセスキー ID]**:AWSアクセスキー ID をで見つける方法を説明します。 [Amazonドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
@@ -157,9 +134,7 @@ Adobe Campaign v8 では&#x200B;**[!UICONTROL 内部電子メール配信ルー�
 
    * 「**[!UICONTROL サーバー側の暗号化を使用]**」チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。でアクセスキー ID と秘密アクセスキーを見つける方法を説明します。 [Amazonドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-* **Azure Blob ストレージ**
-
-   **Azure** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティで Adobe Campaign との間でデータをインポートまたはエクスポートできます。**Azure** 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
+* **Azure Blob ストレージ** - **Azure** 外部アカウントを使用して、 Adobe Campaignにデータをインポートまたはエクスポートできます **[!UICONTROL ファイル転送]** ワークフローアクティビティ。 **Azure** 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
 
    * **[!UICONTROL サーバー]**：Azure BLOB ストレージサーバーの URL。
 
