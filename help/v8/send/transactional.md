@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1579'
+ht-degree: 94%
 
 ---
 
@@ -57,10 +57,8 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 
 Adobe Campaign で処理されるイベントタイプを作成するには、次の手順に従います。
 
-1. ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;フォルダーに移動します。
-
-1. リストから&#x200B;**[!UICONTROL イベントタイプ]**&#x200B;を選択します。
-
+1. 次を参照： **[!UICONTROL 管理/プラットフォーム/列挙]** Campaign エクスプローラーのフォルダー。
+1. を選択します。 **[!UICONTROL イベントタイプ]** リストの列挙。
 1. 「**[!UICONTROL 追加]**」をクリックして、列挙の値を作成します。注文の確認、パスワードの変更、注文の配送変更などがイベントタイプとして考えられます。
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -73,7 +71,8 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
 >[!NOTE]
 >
->項目別リストの詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html?lang=ja){target="_blank"}.
+>での列挙について詳しく説明します [このページ](../../v8/config/ui-settings.md#enumerations).
+
 
 ## トランザクションメッセージテンプレートの定義 {#create-message-template}
 
