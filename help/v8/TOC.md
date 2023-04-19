@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 95%
+source-wordcount: '550'
+ht-degree: 94%
 
 ---
 
@@ -166,10 +166,11 @@ ht-degree: 95%
       + [実装手順](start/implement.md)
       + [インスタンスのカスタマイズ](dev/customize.md)
       + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
-   + 設定 {#configuration}
+   + 設定と設定 {#configuration}
+      + [ユーザーインターフェイス設定](config/ui-settings.md)
       + [メールの設定](config/email-settings.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-      + [Campaign SDK とアプリの統合](config/push-config.md)
+      + [Campaign SDK とアプリの統合  — 廃止されたページ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
