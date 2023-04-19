@@ -4,13 +4,13 @@ description: Campaign トランザクションメッセージでイベントを�
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 56%
 
 ---
-
 
 # イベントの処理 {#event-processing}
 
@@ -40,7 +40,7 @@ ht-degree: 56%
 
 情報システムが生成したイベントは、次の 2 つのモードを使用して収集できます。
 
-* SOAP メソッドの呼び出しでは、Adobe Campaign 内でイベントをプッシュできます。PushEvent メソッドを使用するとイベントを 1 つずつ送信し、PushEvents メソッドを使用すると複数のイベントを一度に送信します。[詳細情報](event-description.md)。
+* SOAP メソッドの呼び出しでは、Adobe Campaign 内でイベントをプッシュできます。PushEvent メソッドを使用するとイベントを 1 つずつ送信し、PushEvents メソッドを使用すると複数のイベントを一度に送信します。[詳細情報](event-description.md)
 
 * ワークフローを作成すると、 [Federated Data Access](../connect/fda.md) モジュール。
 
@@ -102,6 +102,3 @@ ht-degree: 56%
 >[!CAUTION]
 >
 >この手順の実行は、ワークフローを使用する必要があるので、エキスパートユーザー向けの操作となります。詳しくは、アドビのアカウント担当者にお問い合わせください。
-
-
-
