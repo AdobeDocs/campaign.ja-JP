@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 100%
@@ -15,8 +15,6 @@ ht-degree: 100%
 ---
 
 # 列挙タイプ計算フィールドの追加 {#adding-an-enumeration-type-calculated-field}
-
-
 
 ここでは、「**[!UICONTROL 列挙]**」タイプの計算フィールドを使用してクエリを作成します。このフィールドでは、データのプレビューウィンドウに追加の列が生成されます。この列では、各受信者について結果として返される数値（0、1 および 2）を指定します。新しい列の各値に性別を割り当てます。「1」は「男性」、「2」は「女性」、値が「0」の場合は「不明」です。
 
