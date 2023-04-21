@@ -4,20 +4,16 @@ title: クライアントコンソールの 32 ビットの廃止
 description: クライアントコンソールの 32 ビットの廃止
 hide: true
 hidefromtoc: true
-source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
+source-git-commit: 52fd89d9b8b19e096173e1660982382215dad5dc
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
 
 # 32 ビットオペレーティングシステムのサポート終了 | Adobe Campaign v8 {#console-eol}
 
-<!--
-The 32-bit version of Campaign v8 Client Console will be deprecated in 8.5 release. Starting 8.6, the Client Console will only be available in 64-bits.
--->
-
-8.5 リリースより、Campaign v8 は、製品およびセキュリティの更新を含む 32 ビットオペレーティングシステムをサポートしなくなります。 Adobeでは、セキュリティの更新を最新の状態に保つことを強くお勧めします。
+クライアントコンソールの 32 ビットバージョンは、8.5 リリースで非推奨となります。 8.6 リリースより、Campaign v8 は、製品およびセキュリティの更新を含む 32 ビットオペレーティングシステムをサポートしなくなります。 Adobeでは、セキュリティの更新を最新の状態に保つことを強くお勧めします。
 
 ## サポート終了
 
