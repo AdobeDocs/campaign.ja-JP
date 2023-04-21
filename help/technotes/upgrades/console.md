@@ -4,9 +4,9 @@ title: クライアントコンソールの 32 ビットの廃止
 description: クライアントコンソールの 32 ビットの廃止
 hide: true
 hidefromtoc: true
-source-git-commit: 52fd89d9b8b19e096173e1660982382215dad5dc
+source-git-commit: dd3490f43016cb7f6e0ccc5c171d78b8ee3ca234
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -39,13 +39,15 @@ ht-degree: 1%
 
 +++32 ビットオペレーティングシステムがサポートされなくなる Campaign v8 のバージョンは何ですか？
 
-8.5 以降、すべての Campaign v8 リリースは 32 ビットオペレーティングシステムをサポートしなくなります。
+8.6 以降、すべての Campaign v8 リリースは 32 ビットオペレーティングシステムをサポートしなくなります。
 
 +++
 
 +++Windows（32 ビット）から Windows（64 ビット）オペレーティングシステムにアップグレードする方法
 
 コンピュータープロセッサが 64 ビットオペレーティングシステムのインストールをサポートしていることを確認します。 32 ビット版から 64 ビット版にアップグレードする場合は、ハードディスクを再フォーマットし、64 ビット版の Windows をインストールしてから、デバイス上の他のすべてのものを再インストールする必要があります。 詳しくは、 [32 ビット版と 64 ビット版の Windows:よくある質問](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
+
++++
 
 +++ 32 ビットのコンピュータと 64 ビットのコンピュータのどちらに接続しているかを確認する方法
 
