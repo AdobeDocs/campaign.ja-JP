@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
+source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 92%
+source-wordcount: '385'
+ht-degree: 81%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 92%
 ## クライアントコンソール{#ClientConsoleoperatingsystems}
 
 Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。[詳細情報](connect.md)。
+
+>[!NOTE]
+>
+>クライアントコンソールの 32 ビットバージョンは、8.5 リリースで非推奨（廃止予定）になることにご注意ください。 8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。 お使いのオペレーティングシステムのアップグレード方法について詳しくは、次を参照してください。 [技術者](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/console.html).
 
 ### オペレーティングシステム{#op-systems}
 
