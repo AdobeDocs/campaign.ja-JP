@@ -4,7 +4,8 @@ title: クライアントコンソールの 32 ビットの廃止
 description: クライアントコンソールの 32 ビットの廃止
 hide: true
 hidefromtoc: true
-source-git-commit: 87e8ef65a2fea2f0d019babc69ed8a8a74017aa6
+exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
+source-git-commit: 6e820dd55e3c834d1416eefdee925576b3e9090d
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 1%

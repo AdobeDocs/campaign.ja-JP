@@ -7,7 +7,7 @@ title: Campaign v8 ドキュメント
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
       + [ダイレクトメール](send/direct-mail.md)
       + [Twitter](send/twitter.md)
       + トランザクションメッセージ {#real-time}
-         + [トランザクションメッセージの概要](send/transactional.md)
+         + [トランザクションメッセージの基本を学ぶ](send/transactional.md)
          + [テンプレートの作成と公開](send/transactional-template.md)
          + イベント管理 {#event}
          + [イベントの収集と処理](send/event-processing.md)

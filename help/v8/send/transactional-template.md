@@ -1,6 +1,6 @@
 ---
 title: トランザクションメッセージ用のテンプレートの作成と公開
-description: トランザクションメッセージ用のテンプレートを作成して公開する方法を説明します
+description: トランザクションメッセージ用のテンプレートを作成して公開する方法を学ぶ
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
@@ -8,7 +8,7 @@ exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '1149'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

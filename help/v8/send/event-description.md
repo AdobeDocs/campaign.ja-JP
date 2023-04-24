@@ -1,6 +1,6 @@
 ---
 title: イベントの説明について
-description: SOAP メソッドを使用して、Adobe Campaign Classicでトランザクションメッセージイベントを管理する方法を説明します
+description: SOAP メソッドを使用して、Adobe Campaign Classic でトランザクションメッセージのイベントを管理する方法を学ぶ
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
@@ -8,7 +8,7 @@ exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
 source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 ## トランザクションメッセージのデータモデル {#about-mc-datamodel}
 
-トランザクションメッセージは Adobe Campaign のデータモデルに依存し、独立したテーブルを 2 つ追加で使用します。これらの表は **NmsRtEvent** および **NmsBatchEvent**&#x200B;に同じフィールドが含まれている場合は、一方でリアルタイムイベントを管理し、もう一方でバッチイベントを管理できます。
+トランザクションメッセージは Adobe Campaign のデータモデルに依存し、独立したテーブルを 2 つ追加で使用します。これらのテーブル（**NmsRtEvent** および **NmsBatchEvent**）には同じフィールドが含まれており、一方でリアルタイムイベントを管理し、もう一方でバッチイベントを管理します。
 
 ## SOAP メソッド {#soap-methods}
 

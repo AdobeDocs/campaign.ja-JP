@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 81%
+ht-degree: 88%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 
 ## Mobile SDK{#MobileSDK}
 
-送信する [プッシュ通知](../send/push.md) Campaign で、データ収集 UI でAdobe Campaign Classic拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用します。
+Campaign で[プッシュ通知](../send/push.md)を送信するには、データ収集 UI で Adobe Campaign Classic 拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用します。
 
 
 ## Web アクセス{#web-access}

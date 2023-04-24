@@ -8,7 +8,7 @@ exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '1579'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらの通知は、情報システムからトリガーされたイベントから生成されます。例えば、請求書、注文確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などがあります。
 
-![](../assets/do-not-localize/speech.png)  管理対象Cloud Servicesユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support){target="_blank"} :Campaign トランザクションメッセージをお使いの環境で設定します。
+![](../assets/do-not-localize/speech.png)Managed Cloud Services ユーザーとして Campaign トランザクションメッセージをお使いの環境に設定する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support){target="_blank"}ください。
 
 トランザクションメッセージは、次の送信に使用します。
 
@@ -24,9 +24,9 @@ ht-degree: 94%
 * 個々の顧客のアクションに対するリアルタイムでの応答
 * 宣伝以外のコンテンツ
 
- トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
+トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
 
- トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
+トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
 
 ## トランザクションメッセージの動作原理 {#transactional-messaging-operating-principle}
 
@@ -43,7 +43,7 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 1. [メッセージのテスト](#test-message-template)。
 1. [メッセージテンプレートのパブリッシュ](#publish-message-template)。
 
-トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、関連するデータは PushEvent および PushEvents を介して Campaign に送信されます [SOAP メソッド](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja){target="_blank"}に設定されている場合、配信がターゲット受信者に送信されます。
+トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、関連するデータは PushEvent および PushEvents [SOAP メソッド](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja){target="_blank"}を介して Campaign に送信され、ターゲットの受信者に配信が送られます。
 
 ## イベントタイプの作成 {#create-event-types}
 
