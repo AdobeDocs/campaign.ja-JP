@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 7b8a9a323afc3154e250b4c70c4339d6c6c265c0
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1157'
+ht-degree: 100%
 
 ---
 
@@ -49,34 +49,34 @@ POP3 機能の Microsoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以
 
 **[!UICONTROL バウンスメール（defaultPopAccount）]**&#x200B;外部アカウントを設定するには、次の手順を実行します。
 
-* **[!UICONTROL サーバー]** - POP3 サーバーの URL。
+* **[!UICONTROL サーバー]**- POP3 サーバーの URL。
 
-* **[!UICONTROL ポート]** - POP3 接続のポート番号。 デフォルトのポート番号は 110 です。
+* **[!UICONTROL ポート]** - POP3 接続のポート番号。デフォルトのポート番号は 110 です。
 
-* **[!UICONTROL アカウント]**  — ユーザーの名前。
+* **[!UICONTROL アカウント]**- ユーザーの名前。
 
-* **[!UICONTROL パスワード]**  — ユーザーアカウントのパスワード。
+* **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード。
 
-* **[!UICONTROL 暗号化]**  — 選択した暗号化の種類 **[!UICONTROL デフォルト]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** または **[!UICONTROL POP3S]**.
+* **[!UICONTROL 暗号化]** - **[!UICONTROL デフォルト]**、**[!UICONTROL POP3 + STARTTLS]**、**[!UICONTROL POP3]** または **[!UICONTROL POP3S]** から選択した暗号化のタイプ。
 
    **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
-* **[!UICONTROL 関数]**  — インバウンド E メールまたは SOAP ルーター
+* **[!UICONTROL 関数]** - インバウンドメールまたは SOAP ルーター
 
 ![](assets/bounce_external_2.png)
 
 >[!CAUTION]
-Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、 [ページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、こちらの[ページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app){target="_blank"}を参照してください。
 
 Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UICONTROL Microsoft OAuth 2.0]**」オプションをチェックし、次のフィールドに入力します。
 
-* **[!UICONTROL Azure テナント]** - Azure ID( またはディレクトリ（テナント） ID) は、 **初期設定** Azure ポータルでのアプリケーションの概要のドロップダウン。
+* **[!UICONTROL Azure テナント]** Azure ID（またはディレクトリ（テナント）ID）は、Azure portal のアプリケーションの概要の&#x200B;**初期設定**&#x200B;ドロップダウンで確認できます。
 
-* **[!UICONTROL Azure クライアント ID]**  — クライアント ID( またはアプリケーション（クライアント）ID) は、 **初期設定** Azure ポータルでのアプリケーションの概要のドロップダウン。
+* **[!UICONTROL Azure クライアント ID]** - クライアント ID（またはアプリケーション（クライアント）ID）は、Azure portal のアプリケーションの概要の&#x200B;**初期設定**&#x200B;ドロップダウンで確認できます。
 
-* **[!UICONTROL Azure Client Secret]**  — クライアント秘密鍵 ID は、 **クライアント秘密鍵** 列 **証明書と秘密鍵** Azure ポータルでのアプリケーションのメニュー。
+* **[!UICONTROL Azure クライアントシークレット]** - クライアントシークレット ID は、Azure portal のアプリケーションの&#x200B;**証明書と秘密鍵**&#x200B;メニューから、「**クライアントシークレット**」列で確認できます。
 
-* **[!UICONTROL Azure リダイレクト URL]**  — リダイレクト URL は **認証** Azure ポータルでのアプリケーションのメニュー。 次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
+* **[!UICONTROL Azure リダイレクト URL]** - リダイレクト URL は Azure portal のアプリケーションの&#x200B;**認証**&#x200B;メニューで確認できます。次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
 
    別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
 
@@ -93,51 +93,51 @@ Adobe Campaign v8 では&#x200B;**[!UICONTROL 内部電子メール配信ルー�
 
 ## 外部システムの外部アカウントへのアクセス
 
-* **外部データベース（FDA）** - **外部データベース** タイプ外部アカウントは、Federated Data Access(FDA) を使用して外部データベースに接続するために使用されます。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../connect/fda.md)を参照してください。
+* **外部データベース（FDA）**- **外部データベース**&#x200B;タイプの外部アカウントは、Federated Data Access（FDA）経由で外部データベースに接続するために使用します。Federated Data Access（FDA）オプションについて詳しくは、[この節](../connect/fda.md)を参照してください。
 
    Adobe Campaign v8 と互換性のある外部データベースは、[互換性マトリックス](../start/compatibility-matrix.md)に記載されています。
 
-* **Twitter** - **Twitter** 「外部アカウント」と入力すると、Campaign をtwitterアカウントに接続して、自分に代わってメッセージを投稿するために使用されます。 Twitter 統合について詳しくは、[この節](../connect/ac-tw.md)を参照してください。
+* **Twitter** - **Twitter** タイプの外部アカウントは、Campaign を Twitter アカウントに接続して、ユーザーに代わってメッセージを投稿するために使用します。Twitter 統合について詳しくは、[この節](../connect/ac-tw.md)を参照してください。
 
 ## Adobe ソリューション統合外部アカウント
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 外部アカウントは、AdobeIdentity Managementサービス (IMS) を実装してAdobe Campaignに接続するために使用されます。  Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#connect-ims)を参照してください。
+* **Adobe Experience Cloud**- **[!UICONTROL Adobe Experience Cloud]** 外部アカウントは、Adobe Identity Management サービス（IMS）を実装してAdobe Campaign に接続するために使用します。Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#connect-ims)を参照してください。
 
-* **Web 分析** - **[!UICONTROL Web 分析 (Adobe Analytics)]** 外部アカウントを使用して、Adobe AnalyticsからAdobe Campaignへのデータ転送を設定します。 Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
+* **Web 分析** - **[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントは、Adobe Analytics から Adobe Campaign へのデータ転送を設定するために使用します。Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
-* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部アカウントを使用すれば、e メール配信とフォームのコンテンツをAdobe Experience Managerで直接管理できます。 Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aem.md)を参照してください。
+* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aem.md)を参照してください。
 
 
 ## CRM コネクタの外部アカウント
 
-* **Microsoft Dynamics CRM** - **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すると、Microsoft Dynamics データをAdobe Campaignにインポートおよびエクスポートできます。 Adobe Campaign と Microsoft Dynamics CRM の統合について詳しくは、[このページ](../connect/ac-ms-dyn.md)を参照してください。
+* **Microsoft Dynamics CRM** - **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントを使用すれば、Adobe Campaign との間で Microsoft Dynamics データをインポートおよびエクスポートできます。Adobe Campaign と Microsoft Dynamics CRM の統合について詳しくは、[このページ](../connect/ac-ms-dyn.md)を参照してください。
 
-* **Salesforce.com** - **[!UICONTROL Salesforce CRM]** 外部アカウントを使用すると、Salesforce データをAdobe Campaignにインポートおよびエクスポートできます。 Adobe Campaign と Salesforce.com CRM の統合について詳しくは、[このページ](../connect/ac-sfdc.md)を参照してください。
+* **Salesforce.com** - **[!UICONTROL Salesforce CRM]** 外部アカウントを使用すれば、Adobe Campaign との間で Salesforce データをインポートおよびエクスポートできます。Adobe Campaign と Salesforce.com CRM の統合について詳しくは、[このページ](../connect/ac-sfdc.md)を参照してください。
 
 ## データ転送外部アカウント
 
-これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。詳細情報： **ファイル転送** のワークフロー内 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja).
+これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。ワークフローでの&#x200B;**ファイル転送**&#x200B;について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja)を参照してください。
 
-* **FTP と SFTP** - **FTP** 外部アカウントを使用すると、Adobe Campaign外でサーバーへのアクセスを設定およびテストできます。 外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。
+* **FTP および SFTP** - **FTP** 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。
 
    これをおこなうには、SFTP サーバーまたは FTP サーバーへの接続を確立するために使用するアドレスと資格情報を、この外部アカウントで指定します。
 
-* **Amazon Simple Storage Service（S3）** - **AWS S3** コネクタは、 **[!UICONTROL ファイル転送]** ワークフローアクティビティ。 この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
+* **Amazon Simple Storage Service（S3）**- **AWS S3** コネクタを使用すると、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティで Adobe Campaign との間でデータをインポートまたはエクスポートできます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
    * **[!UICONTROL AWS S3 アカウントサーバー]**：サーバーの URL は、次のように入力する必要があります。   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
-   * **[!UICONTROL AWSアクセスキー ID]**:AWSアクセスキー ID をで見つける方法を説明します。 [Amazonドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
+   * **[!UICONTROL AWS アクセスキー ID]**：AWS アクセスキー ID を見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
 
-   * **[!UICONTROL AWSへの秘密アクセスキー]**:でAWSへの秘密アクセスキーを見つける方法を説明します。 [Amazonドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
+   * **[!UICONTROL AWS への秘密アクセスキー]**：AWS への秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/){target="_blank"}を参照してください。
 
-   * **[!UICONTROL AWS]**:のAWS地域の詳細 [Amazonドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
+   * **[!UICONTROL AWS リージョン]**：AWS リージョンについて詳しくは、[Amazon ドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}を参照してください。
 
-   * 「**[!UICONTROL サーバー側の暗号化を使用]**」チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。でアクセスキー ID と秘密アクセスキーを見つける方法を説明します。 [Amazonドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
+   * 「**[!UICONTROL サーバー側の暗号化を使用]**」チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。アクセスキー ID と秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
 
-* **Azure Blob ストレージ** - **Azure** 外部アカウントを使用して、 Adobe Campaignにデータをインポートまたはエクスポートできます **[!UICONTROL ファイル転送]** ワークフローアクティビティ。 **Azure** 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
+* **Azure BLOB ストレージ** - **Azure** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティで Adobe Campaign との間でデータをインポートまたはエクスポートできます。**Azure** 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
 
    * **[!UICONTROL サーバー]**：Azure BLOB ストレージサーバーの URL。
 
    * **[!UICONTROL 暗号化]**：暗号化のタイプ。**[!UICONTROL なし]** または **[!UICONTROL SSL]**。
 
-   * **[!UICONTROL アクセスキー]**:検索方法 **[!UICONTROL アクセスキー]** in [Microsoftドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.
+   * **[!UICONTROL アクセスキー]**：ご利用の&#x200B;**[!UICONTROL アクセスキー]**&#x200B;を確認する方法については、[Microsoft ドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}を参照してください。
