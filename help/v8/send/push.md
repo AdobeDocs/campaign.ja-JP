@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
 source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1860'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign でプッシュ通知を送信するには、次の操作を実�
 
 ## SDK の統合 {#push-sdk}
 
-Adobe Campaignでプッシュ通知を送信するには、Adobe Experience Platform Mobile SDK のデータ収集 UI でAdobe Campaign拡張機能を設定する必要があります。
+Adobe Campaign でプッシュ通知を送信するには、Adobe Experience Platform Mobile SDK のデータ収集 UI で Adobe Campaign 拡張機能を設定する必要があります。
 
 Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。
 
@@ -78,7 +78,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   詳しくは、 [開発者向けドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
 
 
    >[!NOTE]
@@ -117,7 +117,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   詳しくは、 [開発者向けドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
 
 
    >[!NOTE]
