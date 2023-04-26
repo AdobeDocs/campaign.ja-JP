@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 618e45b6948070c6b791d2bcefa8296b297bf25e
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 100%
+source-wordcount: '1014'
+ht-degree: 99%
 
 ---
 
@@ -118,4 +118,4 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 * 複数の実行インスタンス
 ロードバランサーの背後に複数の実行インスタンスがある複数セル実行アーキテクチャでは、外部アプリケーションが呼び出すログオンメソッドはロードバランサーを経由します。そのため、トークンベースの認証は使用できません。ユーザー／パスワードベースの認証が必要です。
 
-![](../assets/do-not-localize/book.png) トランザクションメッセージのイベントについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja#about-transactional-messaging-datamodel)を参照してください{target="_blank"} を参照してください。
+トランザクションメッセージイベントの詳細については、 [このページ](../send/event-processing.md).

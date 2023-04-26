@@ -5,9 +5,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダイレクトメールなどのクロスチャネルキャンペーンを送信し、各種の専用レポートを使用してキャンペーンの有効性を評価できます。これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。主な機能のアクセスポイントは、配信ウィザードです。このアクセスポイントから、Adobe Campaign で提供される複数の機能を使用できます。
-
-配信を作成するための主な手順については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja)を参照してください。
 
 Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
@@ -79,11 +77,10 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計された Campaign モジュールです。
 
-![](../assets/do-not-localize/glass.png) トランザクションメッセージ機能の詳細については、[この節](../architecture/architecture.md#transac-msg-archi)を参照してください
+トランザクションメッセージ機能の詳細については、[この節](../architecture/architecture.md#transac-msg-archi)を参照してください
 
-![](../assets/do-not-localize/glass.png) トランザクションメッセージの設定と送信の手順については、[このページ](../send/transactional.md)を参照してください
+トランザクションメッセージの設定と送信の手順については、[このページ](../send/transactional.md)を参照してください
 
-![](../assets/do-not-localize/book.png) [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=ja)でこの機能のエンドツーエンドのユースケースを確認する{target="_blank"}
 
 ## 配信とトラッキングログ{#gs-tracking-logs}
 

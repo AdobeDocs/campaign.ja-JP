@@ -5,10 +5,10 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,6 @@ Campaign v8 を **Salesforce.com** に接続するように Campaign CRM コネ�
 >[!NOTE]
 >
 >サポートされている SFDC のバージョンについて詳しくは、Campaign の[互換性マトリックス](../start/compatibility-matrix.md)を参照してください。
-
 
 Salesforce データを Adobe Campaign にインポートおよびエクスポートするための専用の外部アカウントを設定するには、以下の手順に従います。
 
@@ -72,8 +71,7 @@ Salesforce データを Adobe Campaign にインポートおよびエクスポ�
 
 1. 「**[!UICONTROL 次へ]**」をクリックしてから「**[!UICONTROL 開始]**」をクリックし、列挙のインポートを開始します。
 
-1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、インポートされた値を確認します。
-
+1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、インポートされた値を確認します。での列挙について詳しく説明します [このページ](../config/ui-settings.md#enumerations).
 
 これで Adobe Campaign と Salesforce.com が接続されました。2 つのシステム間にデータの同期を設定できます。
 

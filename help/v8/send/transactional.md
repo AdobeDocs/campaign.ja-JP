@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 98%
+source-wordcount: '1560'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 1. [メッセージのテスト](#test-message-template)。
 1. [メッセージテンプレートのパブリッシュ](#publish-message-template)。
 
-トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、関連するデータは PushEvent および PushEvents [SOAP メソッド](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html?lang=ja){target="_blank"}を介して Campaign に送信され、ターゲットの受信者に配信が送られます。
+トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、関連するデータは PushEvent および PushEvents [SOAP メソッド](../send/event-description.md)を介して Campaign に送信され、ターゲットの受信者に配信が送られます。
 
 ## イベントタイプの作成 {#create-event-types}
 
@@ -196,9 +196,7 @@ This information enables you to personalize message content using personalizatio
 
 作成済みのシードアドレスへ配達確認を送信することで、メッセージ配信をテストできます。
 
-配達確認の送信は、配信の場合と同じプロセスでおこないます。
-
-![](../assets/do-not-localize/book.png) 配達確認の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#sending-a-proof)を参照してください。{target="_blank"} を参照してください。
+配達確認の送信は、配信の場合と同じプロセスでおこないます。配達確認について詳しくは、 [この節](../send/preview-and-proof.md).
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 

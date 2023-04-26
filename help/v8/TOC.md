@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 ドキュメント
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 58b2f850284b68c6d65773166b895f9520718385
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '544'
 ht-degree: 98%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 98%
    + [主な機能](start/whats-new.md)
    + [コンポーネントとプロセス](start/ac-components.md)
    + [Campaign への接続](start/connect.md)
-   + Campaign UI {#ac-ui}
-      + [Campaign インターフェイスの理解](start/campaign-ui.md)
-      + [フォルダーとビューの管理](audiences/folders-and-views.md)
+   + [Campaign インターフェイス](start/campaign-ui.md)
    + [Classic v7 から v8 へ](start/v7-to-v8.md)
    + [FAQ](start/campaign-faq.md)
 + キャンペーン管理 {#campaigns}
@@ -167,6 +165,7 @@ ht-degree: 98%
       + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
    + 設定と設定 {#configuration}
       + [ユーザーインターフェイス設定](config/ui-settings.md)
+      + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [メールの設定](config/email-settings.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
       + [Campaign SDK とアプリの統合  — 廃止されたページ](config/push-config.md)

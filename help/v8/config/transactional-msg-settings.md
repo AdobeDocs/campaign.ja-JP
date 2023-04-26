@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
@@ -71,7 +71,6 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-
 
 
 

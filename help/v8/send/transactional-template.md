@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 100%
+source-wordcount: '1138'
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ This information enables you to personalize message content using personalizatio
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-![](../assets/do-not-localize/book.png) 配達確認の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#sending-a-proof)を参照してください。{target="_blank"} を参照してください。
+配達確認について詳しくは、 [この節](../send/preview-and-proof.md#proofs-send).
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 

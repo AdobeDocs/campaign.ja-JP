@@ -4,10 +4,10 @@ description: Adobe Campaign ソーシャルマーケティングモジュール�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 100%
+source-wordcount: '868'
+ht-degree: 94%
 
 ---
 
@@ -138,9 +138,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
 1. 配達確認の送信
 
-   メッセージを送信する前に、テストアカウントに配達確認を送信して検証する必要があります。その後、非公開の Twitter アカウントでメッセージの正確なレンダリングを取得し、コンテンツとパーソナライゼーションを確認できます。
-
-   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}
+   メッセージを送信する前に、次の方法で検証してください： [テストアカウントへの配達確認の送信](../send/preview-and-proof.md):その後、非公開のTwitterアカウントでメッセージの正確なレンダリングを取得し、コンテンツとパーソナライゼーションを確認できます。
 
 1. ダイレクトメッセージの送信
 
@@ -151,7 +149,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
 
 >[!CAUTION]
 >
->1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja?lang=ja#sending-using-multiple-waves){target="_blank"}を参照してください。
+>1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target="_blank"}を参照してください。
 
 
 ## トラッキングデータへのアクセス {#tw-tracking}

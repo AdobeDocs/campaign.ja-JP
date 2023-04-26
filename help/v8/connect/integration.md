@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Adobe Campaign プラットフォームを&#x200B;**サードパーティの CRM
 CRM データをチャネル間通信でアクティブ化します。CRM システムから Adobe Campaign に連絡先を渡し、Adobe Campaign から CRM システムにキャンペーンデータを共有する方法について説明します。
 CRM コネクタを使用すると、すばやく簡単にデータを統合できます。Adobe Campaign に用意されている専用のウィザードを使用すると、使用可能なテーブルを CRM で収集し、そこから選択することができます。これにより双方向の同期が確保され、システム全体でデータを常に最新に保つことができます。
 
-![](../assets/do-not-localize/glass.png) Campaign を Microsoft Dynamics 365 および Salesforce.com に統合する方法については、[このページ](crm.md)を参照してください
+Campaign を Microsoft Dynamics 365 および Salesforce.com に統合する方法については、[このページ](crm.md)を参照してください
 
 ## Federated Data Access を使用してサードパーティに接続{#gs-fda}
 
@@ -64,6 +64,6 @@ Adobe Campaign を使用して、Twitter 経由で顧客や見込み客とやり
 * Twitter アカウントにツイートを投稿
 * 新しい連絡先の収集
 
-![](../assets/do-not-localize/glass.png) Twitter の設定と使用の方法については、[このページ](../connect/ac-tw.md)を参照してください。
+ Twitter の設定と使用の方法については、[このページ](../connect/ac-tw.md)を参照してください。
 
-![](../assets/do-not-localize/glass.png) Twitter の投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、[このページ](../send/twitter.md)を参照してください。
+ Twitter の投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、[このページ](../send/twitter.md)を参照してください。
