@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
+source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
@@ -74,10 +74,9 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 
 左側のセクションには Campaign エクスプローラーツリーが表示され、権限に応じて、インスタンスのすべてのコンポーネントと設定を参照できます。
 
-上部のセクションには、現在のフォルダー内のレコードのリストが表示されます。これらのリストは完全にカスタマイズ可能です。 [詳細情報](customize-ui.md)
+上部のセクションには、現在のフォルダー内のレコードのリストが表示されます。これらのリストは完全にカスタマイズ可能です。 [詳細情報](../config/ui-settings.md)
 
 下部のセクションには、選択したレコードの詳細が表示されます。
-
 
 ## 言語{#languages}
 
@@ -96,7 +95,6 @@ Campaign v8 ユーザーインターフェイスは、次の言語で使用で�
 >インスタンス作成後に言語を変更することはできません。
 
 言語は、日付および時刻の形式に影響します。
-
 
 米国英語と英国英語の主な違いは次のとおりです。
 
