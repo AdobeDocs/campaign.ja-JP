@@ -4,10 +4,10 @@ title: マーケティングキャンペーンのターゲットオーディエ�
 description: マーケティングキャンペーンのオーディエンスを定義する方法について説明します。
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: a2518ea0c0ab23f50b3132b750a14e98b4ffad7d
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 100%
+source-wordcount: '1560'
+ht-degree: 99%
 
 ---
 
@@ -236,10 +236,10 @@ To build the delivery target, you can define filtering criteria for the recipien
 この設定はワークフロー内の&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティと同等であり、ターゲットをサブセットに分割できます。コントロール母集団は、このようなサブセットのひとつです。
 
 
-#### チュートリアルビデオ {#create-email-video}
+### チュートリアルビデオ {#create-email-video}
 
-このビデオでは、Adobe Campaign でキャンペーンとメールを作成する方法を説明します。
+このビデオでは、キャンペーンにコントロール母集団を追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
 Campaign に関するその他のチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}を参照してください。
