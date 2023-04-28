@@ -2,13 +2,13 @@
 audience: end-user
 user-guide-title: Campaign のテクニカルノート
 type: Event
+title: Adobe Campaign のテクニカルノート
 description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
-title: Campaign のテクニカルノート
-source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
+source-git-commit: 67368286cb04d97cbf4564846eab91d64b8f90f1
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 89%
+source-wordcount: '35'
+ht-degree: 88%
 
 ---
 
