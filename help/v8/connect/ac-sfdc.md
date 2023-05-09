@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Salesforce データを Adobe Campaign にインポートおよびエクスポ�
 
 1. 「**[!UICONTROL 次へ]**」をクリックしてから「**[!UICONTROL 開始]**」をクリックし、列挙のインポートを開始します。
 
-1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、インポートされた値を確認します。での列挙について詳しく説明します [このページ](../config/ui-settings.md#enumerations).
+1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、読み込んだ値を確認します。列挙について詳しくは、[このページ](../config/ui-settings.md#enumerations)を参照してください。
 
 これで Adobe Campaign と Salesforce.com が接続されました。2 つのシステム間にデータの同期を設定できます。
 
