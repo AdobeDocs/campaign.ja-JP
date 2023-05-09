@@ -5,9 +5,9 @@ description: マーケティングキャンペーンテンプレート
 feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 98%
 * テンプレートの&#x200B;**ラベル**&#x200B;を入力します。このラベルは必須であり、このテンプレートをベースとするすべてのキャンペーンのデフォルトラベルです。
 * ドロップダウンリストからキャンペーンの&#x200B;**特性**&#x200B;を選択します。このリストに表示される値は、**[!UICONTROL natureOp]** 列挙に保存されている値です。
 
-で列挙にアクセスして設定する方法を説明します。 [このページ](../../v8/config/ui-settings.md#enumerations).
+列挙にアクセスして設定する方法については、[このページ](../../v8/config/ui-settings.md#enumerations)を参照してください。
 
 
 * **キャンペーンのタイプ**&#x200B;を選択：単一、繰り返しまたは定期的。デフォルトでは、キャンペーンテンプレートは単一のキャンペーンに適用されます。繰り返しキャンペーンと定期的キャンペーンについて詳しくは、[こちらの節](recurring-periodic-campaigns.md)を参照してください。
