@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: 67368286cb04d97cbf4564846eab91d64b8f90f1
-workflow-type: ht
-source-wordcount: '541'
-ht-degree: 100%
+source-git-commit: e3ea361cc486096fe6c19ac469e8a71b636371ac
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 99%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 100%
       + [ユーザーインターフェイス設定](config/ui-settings.md)
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [メールの設定](config/email-settings.md)
+      + [プッシュ設定](config/push-settings.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
       + [Campaign SDK とアプリの統合- 非推奨（廃止予定）のページ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
