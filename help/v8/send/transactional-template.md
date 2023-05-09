@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1138'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ This information enables you to personalize message content using personalizatio
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-配達確認について詳しくは、 [この節](../send/preview-and-proof.md#proofs-send).
+配達確認について詳しくは、[この節](../send/preview-and-proof.md#proofs-send)を参照してください。
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 
