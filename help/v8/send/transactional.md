@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1560'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,8 +57,8 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 
 Adobe Campaign で処理されるイベントタイプを作成するには、次の手順に従います。
 
-1. 次を参照： **[!UICONTROL 管理/プラットフォーム/列挙]** Campaign エクスプローラーのフォルダー。
-1. を選択します。 **[!UICONTROL イベントタイプ]** リストの列挙。
+1. Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;フォルダーを参照します。
+1. リストから&#x200B;**[!UICONTROL イベントタイプ]**&#x200B;列挙を選択します。
 1. 「**[!UICONTROL 追加]**」をクリックして、列挙の値を作成します。注文の確認、パスワードの変更、注文の配送変更などがイベントタイプとして考えられます。
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -71,7 +71,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
 >[!NOTE]
 >
->での列挙について詳しく説明します [このページ](../../v8/config/ui-settings.md#enumerations).
+>列挙について詳しくは、[このページ](../../v8/config/ui-settings.md#enumerations)を参照してください。
 
 
 ## トランザクションメッセージテンプレートの定義 {#create-message-template}
@@ -196,7 +196,7 @@ This information enables you to personalize message content using personalizatio
 
 作成済みのシードアドレスへ配達確認を送信することで、メッセージ配信をテストできます。
 
-配達確認の送信は、配信の場合と同じプロセスでおこないます。配達確認について詳しくは、 [この節](../send/preview-and-proof.md).
+配達確認の送信は、配信の場合と同じプロセスで行います。配達確認について詳しくは、[この節](../send/preview-and-proof.md)を参照してください。
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 
