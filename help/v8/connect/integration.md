@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 
@@ -64,6 +64,6 @@ Adobe Campaign を使用して、Twitter 経由で顧客や見込み客とやり
 * Twitter アカウントにツイートを投稿
 * 新しい連絡先の収集
 
- Twitter の設定と使用の方法については、[このページ](../connect/ac-tw.md)を参照してください。
+Twitter の設定と使用の方法については、[このページ](../connect/ac-tw.md)を参照してください。
 
- Twitter の投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、[このページ](../send/twitter.md)を参照してください。
+Twitter の投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、[このページ](../send/twitter.md)を参照してください。
