@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 73%
 
 Adobe Campaign Managed Cloud Service の宛先とソースコネクタを使用すると、Adobe Campaign と Adobe Experience Platform をシームレスに統合できます。
 
-* 用途 **Adobe Campaign Managed Cloud Services Destination** アクティベーション用にAdobe CampaignにExperience Platformセグメントを送信するための接続
+* **Adobe Campaign Managed Cloud Services 宛先**&#x200B;接続を使用すると、Experience Platform セグメントを Adobe Campaign に送信してアクティブ化することができます
 
    ![](assets/aep-destination.png)
 
-* 用途 **Adobe Campaign Managed Cloud Services Source** Adobe Experience PlatformにAdobe Campaignの配信およびトラッキングログを送信するための接続
+* **Adobe Campaign Managed Cloud Services ソース**&#x200B;接続を使用すると、Adobe Campaign の配信ログとトラッキングログを Adobe Experience Platform に送信できます。
 
    ![](assets/aep-logs.png)
 
@@ -32,7 +32,7 @@ Adobe Experience Platform でこの統合を設定する手順は、次のとお
 
    [Adobe Campaign Managed Cloud Services 宛先接続の作成方法についてはこちらから](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en)
 
-1. 新しいAdobe Campaign Managed Cloud Servicesソース接続を設定して、Campaign イベントをAdobe Experience Platformに取り込みます。
+1. 新しい Adobe Campaign Managed Cloud Services ソース接続を設定して、Campaign イベントを Adobe Experience Platform に取り込みます。
 
    Campaign インスタンスと使用するスキーマの詳細を指定し、データを取り込むデータセットを選択してから、取得するフィールドを設定します。
 
