@@ -5,9 +5,9 @@ title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 source-git-commit: 67368286cb04d97cbf4564846eab91d64b8f90f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -163,12 +163,12 @@ ht-degree: 98%
       + [実装手順](start/implement.md)
       + [インスタンスのカスタマイズ](dev/customize.md)
       + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
-   + 設定と設定 {#configuration}
+   + 設定と指定 {#configuration}
       + [ユーザーインターフェイス設定](config/ui-settings.md)
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [メールの設定](config/email-settings.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-      + [Campaign SDK とアプリの統合  — 廃止されたページ](config/push-config.md)
+      + [Campaign SDK とアプリの統合- 非推奨（廃止予定）のページ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
