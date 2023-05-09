@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1518'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ SQL マスクを使用して、複数の値を組み合わせてフィルター�
 
    列挙の値が更新されるたびに、対応する bin がそれに合わせて自動的に変更されます。
 
-での列挙について詳しく説明します [このページ](../../v8/config/ui-settings.md#enumerations).
+列挙について詳しくは、[このページ](../../v8/config/ui-settings.md#enumerations)を参照してください。
 
 ### 値の範囲の作成 {#create-value-ranges}
 
@@ -114,7 +114,7 @@ bin を自動的に生成することもできます。それには、「**[!UIC
 
 ビニング用に確保される他の列挙を作成し、それらを他のキューブで使用できます。最初の列挙タブで指定された bin に、すべてのエイリアス値がグループ化し直されます。
 
-での列挙について詳しく説明します [このページ](../../v8/config/ui-settings.md#enumerations).
+列挙について詳しくは、[このページ](../../v8/config/ui-settings.md#enumerations)を参照してください。
 
 ## キューブの集計 {#calculate-and-use-aggregates}
 
