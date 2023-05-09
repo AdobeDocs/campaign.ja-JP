@@ -4,9 +4,9 @@ description: Adobe Campaign の組み込み配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1161'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 99%
 >
 >このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
 >
->で列挙にアクセスして設定する方法を説明します。 [このページ](../config/ui-settings.md).
+>列挙にアクセスして設定する方法については、[このページ](../config/ui-settings.md)を参照してください。
 
 
 **[!UICONTROL 4.クリックストリーム]**
