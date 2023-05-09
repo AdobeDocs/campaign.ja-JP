@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 
 このワークスペースでは、エクスプローラーツリーにアクセスして、すべての機能とオプションを参照できます。
 
-* 左側のセクションには Campaign エクスプローラーツリーが表示され、権限に応じて、インスタンスのすべてのコンポーネントと設定を参照できます。フォルダーの追加やカスタマイズは、 [このページ](../audiences/folders-and-views.md).
+* 左側のセクションには Campaign エクスプローラーツリーが表示され、権限に応じて、インスタンスのすべてのコンポーネントと設定を参照できます。フォルダーの追加やカスタマイズについては、[このページ](../audiences/folders-and-views.md)を参照してください。
 
 * 上部のセクションには、現在のフォルダー内のレコードのリストが表示されます。これらのリストは完全にカスタマイズ可能です。 [詳細情報](../config/ui-settings.md)
 
