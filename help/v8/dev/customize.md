@@ -5,9 +5,9 @@ role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ Adobe Campaign はデータスキーマを利用して次のことを行いま�
 
 * インターフェースで&#x200B;**新しいフィールド**&#x200B;ウィザードを使用する
 
-    Campaign に新しいフィールドをすぐに追加する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic)を参照してください。{target="_blank"}
+   Campaign に新しいフィールドをすぐに追加する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic)を参照してください。{target="_blank"}
 
-* プログラムでスキーマを拡張する.  既存のスキーマを拡張する方法については、[この節](../dev/extend-schema.md)を参照してください。
+* スキーマを拡張することにより、プログラミングで行います。既存のスキーマを拡張する方法については、[この節](../dev/extend-schema.md)を参照してください。
 
 また、Adobe Campaign データベース内に新しいテーブルを作成し、ビルトインデータモデルを拡張することもできます。
 
@@ -45,32 +45,32 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 ![](../assets/do-not-localize/book.png) スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic)を参照してください。{target="_blank"}
 
-![](../assets/do-not-localize/book.png) ユースケース「既存の参照テーブルにフィールドをリンクする」については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link)を参照してください。{target="_blank"}
+![](../assets/do-not-localize/book.png) ユースケース：[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link)の既存の参照テーブルにフィールドをリンクする{target="_blank"}
 
 
 ## 入力フォームの変更
 
 Adobe Campaign 入力フォームは、実装に合わせて調整できます。 XML コンテンツを変更して、フォームフィールドを追加または削除できます。
 
- 既存の入力フォームを変更する方法や新しいフォームを作成する方法については、[この節](../dev/forms.md)を参照してください。
+既存の入力フォームを変更する方法や新しいフォームを作成する方法については、[この節](../dev/forms.md)を参照してください。
 
 ## ダッシュボードのカスタマイズ{#gs-custom-dashboards}
 
 Adobe Campaign インターフェイスでは、受信者、配信、キャンペーンおよび在庫などのアクセス、管理および操作に、多くの web アプリケーションを使用します。これらの情報は 1 ページのみのダッシュボード形式でインターフェイスに表示されます。
 
-組み込みの Web アプリケーションは、 **管理/設定/Web アプリケーション** エクスプローラーのフォルダー。
+組み込みの web アプリケーションは、エクスプローラーの&#x200B;**管理／設定／Web アプリケーション**&#x200B;フォルダーに格納されています。
 
 Campaign での概要ページの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases—creating-overviews.html?lang=ja#creating-a-single-page-web-application)を参照してください{target="_blank"}
 
 
 ## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}
 
-キャンペーンリストには、ナビゲーションやデータのビジュアライゼーションを容易にする定義済みフィルターが付属しています。
+キャンペーンリストには、ナビゲーションやデータのビジュアライゼーションを容易にする定義済みフィルターが備わっています。
 
 Adobe Campaign エクスプローラーのツリー内を移動すると、データベースに含まれているデータがリストに表示されます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えなどを行うことができます。
 
-リストを設定し、リスト設定を保存する方法については、 [このページ](../start/campaign-ui.md).
+リストの設定方法およびリスト設定の保存方法については、[このページ](../start/campaign-ui.md)を参照してください。
 
 これらのリストにフィルターを適用すると、演算子で必要なデータのみを表示できます。 これにより、フィルターされたデータに対してアクションを実行できます。フィルター設定を使用すると、リストから動的にデータを選択できます。データが変更されると、フィルターされたデータは更新されます。
 
-フィルターオプションについて詳しくは、 [このページ](../audiences/create-filters.md).
+フィルタリングオプションについて詳しくは、[このページ](../audiences/create-filters.md)を参照してください。
