@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 251ce05310f158b0f9ebccc94b42686f892338b1
+source-git-commit: 093204ca69cc0925bc1be5581e518995b50b3fc1
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1017'
 ht-degree: 1%
 
 ---
@@ -23,16 +23,15 @@ Adobe Experience Platform Mobile SDK は、Android およびiOS互換の SDK を
 
 アプリをAdobe Experience Platform Mobile SDK で設定するには、次の手順に従います。
 
-1. チェック [前提条件](#before-starting)
-1. の設定 [モバイルタグプロパティ](#launch-property) (Adobe Experience Platform Data Collection)
-1. Adobe Experience Platform Mobile SDK の取得 [このページ](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}
-1. （オプション）詳細に従って、ログとライフサイクル指標を有効にします。 [このページ](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}
-1. （オプション） [Adobe Experience Platform Assurance をアプリに適用](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 実装を検証するには、以下を実行します。
+1. チェック [前提条件](#before-starting).
+1. の設定 [モバイルタグプロパティ](#launch-property) (Adobe Experience Platform Data Collection) を参照してください。
+1. Adobe Experience Platform Mobile SDK の取得 [このページ](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
+1. （オプション）詳細に従って、ログとライフサイクル指標を有効にします。 [このページ](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
+1. （オプション） [Adobe Experience Platform Assurance をアプリに適用](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} をクリックして実装を検証します。
 1. フォロー [Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} をクリックして、アプリでAdobe Experience Platform Mobile SDK を設定します。
-1. インストールと設定 [Adobe Campaign Extension](#configure-extension) モバイルプロパティ内
+1. インストールと設定 [Adobe Campaign Extension](#configure-extension) を使用して、モバイルプロパティにアクセスできます。
 1. Adobe CampaignでのiOSおよび Android Mobile Services の設定の詳細 [このページ](../send/push.md#push-config).
 
-この作業が終わるまでに、でモバイルプロパティも作成および設定されているはずです。 [!DNL Adobe Experience Platform Data Collection]. 通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。 でモバイルプロパティを作成および設定する方法を説明します。 [Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 ## 前提条件 {#before-starting}
 
@@ -132,9 +131,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ## Adobe Experience Platform Data Collection でモバイルタグプロパティを設定する {#launch-property}
 
-モバイルプロパティを設定すると、モバイルアプリ開発者またはマーケターは、セッションタイムアウトや [!DNL Adobe Experience Platform] ターゲットにするサンドボックスと **[!UICONTROL Adobe Experience Platform Datasets]** を使用して、データの送信先のモバイル SDK を設定します。
-
-の設定方法の詳細と手順については、 **モバイルプロパティ** 詳しくは、 [Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+モバイルプロパティを設定すると、モバイルアプリ開発者またはマーケターがモバイル SDK を設定できます。 通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。 でモバイルプロパティを作成および設定する方法を説明します。 [Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 プッシュ通知を機能させるために必要な SDK を取得するには、Android とiOSの両方に対して、次の SDK 拡張が必要です。
 
