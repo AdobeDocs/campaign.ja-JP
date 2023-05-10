@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 093204ca69cc0925bc1be5581e518995b50b3fc1
+source-git-commit: 3bef6d2544a86bf1d5efa4868b82ec59c7e36484
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Platform Mobile SDK は、Android およびiOS互換の SDK を
 1. の設定 [モバイルタグプロパティ](#launch-property) (Adobe Experience Platform Data Collection) を参照してください。
 1. Adobe Experience Platform Mobile SDK の取得 [このページ](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}.
 1. （オプション）詳細に従って、ログとライフサイクル指標を有効にします。 [このページ](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}.
-1. （オプション） [Adobe Experience Platform Assurance をアプリに適用](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} をクリックして実装を検証します。
+1. （オプション） [Adobe Experience Platform Assurance をアプリに適用](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} to validate your implementation. Learn how to implement Adobe Experience Platform Assurance extension [in this page](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}.
 1. フォロー [Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} をクリックして、アプリでAdobe Experience Platform Mobile SDK を設定します。
 1. インストールと設定 [Adobe Campaign Extension](#configure-extension) を使用して、モバイルプロパティにアクセスできます。
 1. Adobe CampaignでのiOSおよび Android Mobile Services の設定の詳細 [このページ](../send/push.md#push-config).
