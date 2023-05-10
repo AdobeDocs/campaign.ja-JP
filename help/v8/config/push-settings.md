@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 3bef6d2544a86bf1d5efa4868b82ec59c7e36484
+source-git-commit: ff6990f3db1122670bff4919f417b9f9f04d3183
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '983'
 ht-degree: 1%
 
 ---
@@ -132,13 +132,14 @@ The mobile app push credential registration is required to authorize Adobe to se
 ## Adobe Experience Platform Data Collection でモバイルタグプロパティを設定する {#launch-property}
 
 モバイルプロパティを設定すると、モバイルアプリ開発者またはマーケターがモバイル SDK を設定できます。 通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。 でモバイルプロパティを作成および設定する方法を説明します。 [Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+<!--
+To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
-プッシュ通知を機能させるために必要な SDK を取得するには、Android とiOSの両方に対して、次の SDK 拡張が必要です。
-
-* **[!UICONTROL Mobile Core]** （自動的にインストール）
-* **[!UICONTROL プロファイル]** （自動的にインストール）
+* **[!UICONTROL Mobile Core]** (installed automatically)
+* **[!UICONTROL Profile]** (installed automatically)
 * **[!UICONTROL Adobe Experience Platform Edge]**
-* **[!UICONTROL Adobe Experience Platform Assurance]**（オプション）ただし、モバイル実装のデバッグに推奨されます。
+* **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
+-->
 
 詳細情報： [!DNL Adobe Experience Platform Data Collection] タグ [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
@@ -154,7 +155,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 この **Adobe Campaign Classic拡張機能** Adobe Experience Platform Mobile SDK の場合は、モバイルアプリに対するプッシュ通知を強化し、ユーザープッシュトークンを収集し、Adobe Experience Platform Services とのインタラクション測定を管理できます。
 
-この拡張機能は、お使いの環境に事前にインストールされており、設定する必要があります。 モバイルタグプロパティの拡張機能を設定するには、次の手順に従います。
+この拡張機能は、Campaign Classicv7 と Campaign v8 の両方に適用され、お使いの環境に事前にインストールされており、設定する必要があります。 モバイルタグプロパティの拡張機能を設定するには、次の手順に従います。
 
 1. 前に作成したタグプロパティを開きます。
 1. 左側のナビゲーションから、 **拡張機能**&#x200B;をクリックし、 **カタログ** タブをクリックします。 検索フィールドを使用して、 **Adobe Campaign Classic** 拡張子。
