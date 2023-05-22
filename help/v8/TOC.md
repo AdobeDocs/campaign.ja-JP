@@ -5,9 +5,9 @@ title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 source-git-commit: e3ea361cc486096fe6c19ac469e8a71b636371ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
