@@ -5,10 +5,10 @@ feature: Interaction
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 99%
+source-wordcount: '1324'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ Adobe Campaign インタラクションモジュールは、次の 2 種類の�
 
 >[!NOTE]
 >
->パッケージのインストール時に、**nms:proposition** テーブルの **long** タイプのフィールド（提案 ID など）は **int64** タイプのフィールドになります。このタイプのデータについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ja#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>パッケージのインストール時に、**nms:proposition** テーブルの **long** タイプのフィールド（提案 ID など）は **int64** タイプのフィールドになります。このタイプのデータについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 データ保持期間は、（デプロイメントウィザードの&#x200B;**[!UICONTROL データパージ]**&#x200B;ウィンドウから）インスタンスごとに設定されます。実行インスタンスでは、この期間が、タイポロジルールに必要な履歴深度（スライド期間）および計算される実施要件ルールに対応している必要があります。
 

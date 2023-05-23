@@ -5,10 +5,10 @@ feature: Audiences
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 88%
+source-wordcount: '1072'
+ht-degree: 85%
 
 ---
 
@@ -95,7 +95,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 **[!DNL Adobe Experience Platform Privacy Service]** 統合を使用すると、単一の JSON API の呼び出しで、複数のソリューションのコンテキストでプライバシーリクエストを自動化できます。Adobe Campaign は、専用のワークフローを通じて Privacy Service からプッシュされたリクエストを自動的に処理します。
 
-Privacy Core Service からプライバシーリクエストを作成する方法については、[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) のドキュメントを参照してください。{target="_blank"}
+Privacy Core Service からプライバシーリクエストを作成する方法については、[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) のドキュメントを参照してください。{target="_blank"}
 
 各 **[!DNL Privacy Service]** ジョブは、使用されている名前空間の数に基づいて、Adobe Campaign で複数のプライバシーリクエストに分割されます。1 つのリクエストが 1 つの名前空間に対応します。
 
@@ -109,9 +109,9 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 
 >[!CAUTION]
 >
->カスタムの名前空間タイプを使用してリクエストを送信するには、 [JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target="_blank"} をクリックしてリクエストを実行します。
+>カスタムの名前空間タイプを使用してリクエストを送信するには、 [JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} をクリックしてリクエストを実行します。
 >
->次のみを使用： [プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target="_blank"} を使用して、標準の名前空間タイプを使用してリクエストを送信します。
+>次のみを使用： [プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} を使用して、標準の名前空間タイプを使用してリクエストを送信します。
 
 ### リクエストの処理時に検索されるテーブル {#list-of-tables}
 
