@@ -5,9 +5,9 @@ role: Admin, User
 level: Beginner, Intermediate
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign と Adobe Journey Optimizer の統合により、Adobe Journey Op
 ![](assets/ajo-integration.png)
 
 
-![](../assets/do-not-localize/book.png) [この統合については、このエンドツーエンドのサンプルを参照してください。](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=ja){target="_blank"}.
+![](../assets/do-not-localize/book.png) [この統合については、エンドツーエンドのサンプルを参照してください](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=ja){target="_blank"}。
 
 
-![](../assets/do-not-localize/book.png) [詳しくは、 Journey Optimizerのドキュメントを参照してください。](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=ja){target="_blank"}.
+![](../assets/do-not-localize/book.png) [詳しくは、Journey Optimizer のドキュメントを参照してください](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=ja){target="_blank"}。
