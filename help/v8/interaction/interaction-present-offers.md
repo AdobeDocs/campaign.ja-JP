@@ -4,9 +4,9 @@ title: オファーの提示（インバウンドインタラクション）
 description: Campaign インタラクションモジュールを使用して最適なオファーを提示する方法を説明します
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 オファーがオファーエンジンで選択されるためには、オファーが承認されてライブ環境で使用可能でなければなりません。
 
-![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content)を参照してください。
+![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ja#approving-offer-content)を参照してください。
 
 インバウンドコンタクト先のコンテキストでは、コンタクト先つまりページを閲覧しているユーザーが web サイトで識別できるかどうかです。オファーエンジンは、識別されたプロファイル用と匿名プロファイル用に、異なるオファーを提示します。
 
