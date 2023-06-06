@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner, Intermediate
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ Adobe Campaign でメールやランディングページを編集するとき�
 
 つまり、Adobe Experience Manager のコンテンツ編集機能と Adobe Campaign の配信機能の両方を最大限に活用できます。
 
-![](../assets/do-not-localize/book.png) [詳しくは、このドキュメントを参照してください。](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow)
+![](../assets/do-not-localize/book.png) [詳しくは、このドキュメントを参照してください。](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ja#aem-and-adobe-campaign-integration-workflow)
 
-![](../assets/do-not-localize/book.png) [この統合については、エンドツーエンドのサンプルをご確認してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) [この統合については、エンドツーエンドのサンプルをご確認してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=ja#integrating-with-adobe-experience-cloud)
 
 ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Adobe Experience Manager を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
