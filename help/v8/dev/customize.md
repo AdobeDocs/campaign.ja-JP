@@ -5,9 +5,9 @@ role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign はデータスキーマを利用して次のことを行いま�
 
 * インターフェースで&#x200B;**新しいフィールド**&#x200B;ウィザードを使用する
 
-   Campaign に新しいフィールドをすぐに追加する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic)を参照してください。{target="_blank"}
+   Campaign に新しいフィールドをすぐに追加する方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic)を参照してください。{target="_blank"}
 
 * スキーマを拡張することにより、プログラミングで行います。既存のスキーマを拡張する方法については、[この節](../dev/extend-schema.md)を参照してください。
 
@@ -43,9 +43,9 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 **関連トピック**
 
-![](../assets/do-not-localize/book.png) スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic)を参照してください。{target="_blank"}
+![](../assets/do-not-localize/book.png) スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic)を参照してください。{target="_blank"}
 
-![](../assets/do-not-localize/book.png) ユースケース：[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link)の既存の参照テーブルにフィールドをリンクする{target="_blank"}
+![](../assets/do-not-localize/book.png) ユースケース：[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link)の既存の参照テーブルにフィールドをリンクする{target="_blank"}
 
 
 ## 入力フォームの変更
@@ -60,7 +60,7 @@ Adobe Campaign インターフェイスでは、受信者、配信、キャン�
 
 組み込みの web アプリケーションは、エクスプローラーの&#x200B;**管理／設定／Web アプリケーション**&#x200B;フォルダーに格納されています。
 
-Campaign での概要ページの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html#creating-a-single-page-web-application)を参照してください{target="_blank"}
+Campaign での概要ページの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=ja#creating-a-single-page-web-application)を参照してください{target="_blank"}
 
 
 ## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}
