@@ -6,9 +6,9 @@ role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ Adobe Campaign には、該当するデータプライバシー保護法や受�
 
 * **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。したがって、受信者の同意を得て、管理する必要があります。
 
-   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#data-acquisition)を参照してください{target="_blank"}
+   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition)を参照してください{target="_blank"}
 
 * **ユーザーの同意とデータ保持**：ユーザーの同意を得て、ダブルオプトインの購読メカニズムを設定し、オプトアウトを容易にして、データ保持を設定する必要があります。
 
-   詳しくは、[Campaign Classic v7 プライバシードキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#consent){target="_blank"}を参照してください
+   詳しくは、[Campaign Classic v7 プライバシードキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target="_blank"}を参照してください
 
 * **プライバシーとデータ保護規制**：プライバシー要件、およびこれらの規制が組織と Adobe Campaign に与える影響について詳しくは、[この節](privacy.md)を参照してください。
 
