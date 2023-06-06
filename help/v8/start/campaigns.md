@@ -4,11 +4,11 @@ description: キャンペーンの基本を学ぶ
 feature: Audiences
 role: User
 level: Beginner
-exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
+source-git-commit: 2e597990aafb57631aa228464e4818782524e65e
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    Adobe Campaign を使用すると、マーケティングキャンペーンの主要な段階で協調して行う承認プロセスを設定できます。キャンペーンごとに、配信ターゲット、コンテンツ、費用などを承認できます。Adobe Campaign を操作する承認者は、メールで通知を受け、コンソールまたはweb 接続で承認を許可または却下できます。 
 
-   承認の設定と管理の方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration)を参照してください。
+   承認の設定と管理の方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja#campaign-orchestration)を参照してください。
 
 
 ## 分散型マーケティングアドオン{#distributed-marketing-add-on}
@@ -110,5 +110,4 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 >
 >この機能は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 
-[](../assets/do-not-localize/book.png) Campaign Response Manager の設定方法と使用方法については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}
-
+[](../assets/do-not-localize/book.png)Campaign Response Manager の設定方法と使用方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}を参照してください。
