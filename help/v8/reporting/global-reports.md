@@ -4,7 +4,7 @@ description: グローバルレポートへのアクセス方法と使用方法�
 feature: Reporting, Monitoring
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1893'
 ht-degree: 100%
 
