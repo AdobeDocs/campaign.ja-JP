@@ -3,14 +3,14 @@ title: 開発者コンソールでのテクニカルアカウントへのテク�
 description: 開発者コンソールでのテクニカルアカウントへのテクニカルユーザーの移行
 hide: true
 hidefromtoc: true
-source-git-commit: 7b4942b5334826adf27c8a31dbdb9a5bfb5d50eb
+source-git-commit: 8842404511bd6166d920ebdeee942007b33a1bab
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '808'
 ht-degree: 1%
 
 ---
 
-# 開発者コンソールでのテクニカルアカウントへのテクニカルユーザーの移行 {#migrate-tech-users-to-ims}
+# Campaign の技術オペレーターのAdobe Developer Console への移行 {#migrate-tech-users-to-ims}
 
 Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されました。 技術オペレーターは [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} をクリックして、Campaign に接続します。 テクニカルオペレーターは、API 統合用に明示的に作成された Campaign ユーザープロファイルです。 この記事では、技術オペレーターをAdobe Developer Console のテクニカルアカウントに移行するために必要な手順について詳しく説明します。
 
@@ -23,9 +23,9 @@ Campaign の正規ユーザーは、既にAdobe IDを使用してAdobe Campaign�
 この変更は Campaign v8.5 以降に適用され、 **必須** Campaign v8.6 を起動します。
 
 
-## 影響は？{#ims-imacts}
+## 影響の有無{#ims-impacts}
 
-Campaign API を使用している場合は、以下に説明するように、技術オペレーターをAdobe Developer Console に移行する必要があります。
+Campaign API を使用している場合は、以下に説明するように、技術オペレーターをAdobe Developerコンソールに移行する必要があります。
 
 ## 移行方法{#ims-migration-procedure}
 
@@ -33,7 +33,7 @@ Campaign API を使用している場合は、以下に説明するように、�
 
 Adobeプロセスを開始する前に、Adobe担当者に問い合わせて、移行の技術チームが既存のオペレーターグループとネームド権限をAdobeIdentity Management System(IMS) に移行できるようにする必要があります。
 
-### 手順 1 - Adobe Developer Console でプロジェクトを作成する{#ims-migration-step-1}
+### 手順 1 - Adobe Developer Console で Campaign プロジェクトを作成/更新する{#ims-migration-step-1}
 
 統合は、 **プロジェクト** Adobe Developer Console 内 でのプロジェクトの詳細を説明します。 [Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
@@ -68,7 +68,7 @@ API が正常に接続されると、クライアント ID やクライアント
 
 >[!CAUTION]
 >
->テクニカルオペレーターの認証タイプを更新すると、このテクニカルオペレーターとのすべての API 統合が機能しなくなります
+>テクニカルオペレーターの認証タイプを更新すると、このテクニカルオペレーターとの API 統合がすべて機能しなくなります。 必ず [API 統合の更新](#ims-migration-step-6).
 
 テクニカルオペレーターの認証モードを IMS に更新するには、次の手順に従います。
 
@@ -89,7 +89,6 @@ API が正常に接続されると、クライアント ID やクライアント
    ```
 
 1. 変更内容を保存します。
-
 
 また、SQL スクリプトや Campaign API を使用して、テクニカルオペレーターをプログラムで更新することもできます。 これらのモードを使用すると、オペレーターの名前を、関連するテクニカルアカウントの電子メールアドレスや認証タイプで更新する手順を自動化できます。
 
@@ -148,8 +147,12 @@ API が正常に接続されると、クライアント ID やクライアント
 
 接続を試すには、 [Adobe Developer Console 資格情報ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} アクセストークンを生成し、提供されたサンプル cURL コマンドをコピーする場合。
 
-API 統合の手順について詳しくは、 [Adobe Developer Console 認証ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
+### 手順 6 — サードパーティ API 統合を更新する {#ims-migration-step-6}
+
+API 統合をサードパーティのシステムと更新する必要があります。
+
+統合をスムーズにおこなうためのサンプルコードを含む、API 統合手順について詳しくは、 [Adobe Developer Console 認証ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### SOAP 呼び出しのサンプル{#ims-migration-samples}
@@ -172,7 +175,7 @@ API 統合の手順について詳しくは、 [Adobe Developer Console 認証�
            <urn:sessiontoken>SESSION_TOKEN</urn:sessiontoken>
            <urn:domEvent>
                <!--You may enter ANY elements at this point-->
-               <rtEvent type="melon" email="dchavan@adobe.com"/>
+               <rtEvent type="type" email="name@domain.com"/>
            </urn:domEvent>
        </urn:PushEvent>
    </soapenv:Body>
@@ -181,7 +184,7 @@ API 統合の手順について詳しくは、 [Adobe Developer Console 認証�
 
 * 移行後
 
-   ```
+   ```sql
    POST /nl/jsp/soaprouter.jsp HTTP/1.1
    Host: localhost:8080
    Content-Type: application/soap+xml;
@@ -196,7 +199,7 @@ API 統合の手順について詳しくは、 [Adobe Developer Console 認証�
            <urn:sessiontoken></urn:sessiontoken>
            <urn:domEvent>
                <!--You may enter ANY elements at this point-->
-               <rtEvent type="melon" email="dchavan@adobe.com"/>
+               <rtEvent type="type" email="name@domain.com"/>
            </urn:domEvent>
        </urn:PushEvent>
    </soapenv:Body>
