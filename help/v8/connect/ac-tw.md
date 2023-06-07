@@ -4,10 +4,10 @@ description: Campaign 環境を Twitter と統合する方法を学ぶ
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 100%
+source-wordcount: '1122'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Campaign インスタンスを Twitter アカウントにリンクするには�
 >
 >各 **Twitter** サービスも、アドビが MID インスタンスで作成する必要があります。環境の設定については、アドビ担当者にお問い合わせください。
 
-設定を入力するには、Adobe Campaign コンソールと Twitter アプリの権限の両方にアクセスする必要があります。
+設定を入力するには、Adobe CampaignクライアントコンソールとTwitterアプリケーションの権限の両方にアクセスする必要があります。
 
 1.  **Adobe Campaign** で、「**[!UICONTROL プロファイルとターゲット]**」タブを参照し、「**[!UICONTROL サービスと購読]**」リンクを選択します。
 1. 新しいサービスを作成します。
@@ -94,7 +94,7 @@ Campaign インスタンスを Twitter アカウントにリンクするには�
 
 1. Twitter アプリから、「**Access Token**」フィールドと「**Access Token Secret**」フィールドの内容をコピーし、Campaign **Twitter** サービスの「**[!UICONTROL アクセストークン]**」フィールドと「**[!UICONTROL アクセストークン秘密鍵]**」フィールドに貼り付けます。
 
-1. Campaign クライアントコンソールで、「**[!UICONTROL 保存]**」をクリックします。これで、書き込みアクセス権が Adobe Campaign にデリゲートされました。
+1. Campaign クライアントコンソールで、 **[!UICONTROL 保存]**. これで、書き込みアクセス権が Adobe Campaign にデリゲートされました。
 
 設定を確認するには、次の操作を実行します。
 

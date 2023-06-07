@@ -5,10 +5,10 @@ feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -180,13 +180,13 @@ ht-degree: 100%
    <attribute name="email" type="string" length="80" label="Email"/>
    ```
 
-   ラベルは、Adobe Campaign クライアントコンソールの入力フォームから確認できます。
+   ラベルは、Adobe Campaign Client Console 入力フォームから確認できます。
 
    ![](assets/schema_label.png)
 
 * **desc** プロパティを使用すると、詳細な説明を入力できます。
 
-   説明は、Adobe Campaign クライアントコンソールのメイン画面のステータスバーにある入力フォームから確認できます。
+   この説明は、Adobe Campaign Client Console のメインウィンドウのステータスバーにある入力フォームから確認できます。
 
    >[!NOTE]
    >
@@ -213,7 +213,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／カウンター]**&#x200B;ノードを使用してカウンターを管理します。
+   >Adobe Campaign Client Console で、 **[!UICONTROL 管理/カウンター]** ノードは、カウンタの管理に使用されます。
 
 フィールドにデフォルト値をリンクするには、`<default>  or  <sqldefault>   field.  </sqldefault> </default>` を使用できます
 
@@ -237,7 +237,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／定義済みリスト]**&#x200B;ノードを使用して、定義済みリストを管理します。
+>Adobe Campaign Client Console で、 **[!UICONTROL 管理/列挙]** ノードは、列挙の管理に使用されます。
 
 #### 定義済みリストを設定 {#set-enumeration}
 
@@ -361,7 +361,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 この言語の可能性を広げるため、式に高レベルの関数が追加されました。
 
-使用可能な関数のリストについては、Adobe Campaign クライアントコンソールの任意の式エディターを参照してください。
+使用可能な関数のリストには、Adobe Campaignクライアントコンソールの任意の式エディターからアクセスできます。
 
 ![](assets/schema_function.png)
 

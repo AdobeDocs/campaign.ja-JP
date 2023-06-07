@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: b63dc1616bc7ce1387a7bd0590c289b59f11b33f
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -29,11 +29,11 @@ Adobe Campaign では、**オペレーター**&#x200B;および&#x200B;**オペ�
 
 ## 権限を付与するための主な手順{#key-steps-permissions}
 
-製品管理者は、組織のユーザーに権限を付与できます。権限は、Adobe Admin Console と Campaign クライアントコンソールを通じて付与されます。ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。 Adobe Campaign に接続する方法については、[このページ](connect.md)を参照してください。
+製品管理者は、組織のユーザーに権限を付与できます。権限は、Adobe Admin Consoleと Campaign クライアントコンソールを通じて付与されます。 ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。 Adobe Campaign に接続する方法については、[このページ](connect.md)を参照してください。
 
 主な手順は次のとおりです。
 
-* **手順 1**：Campaign クライアントコンソールで、オペレーターグループを定義して権限を割り当てます。[詳細情報](manage-permissions.md#create-product-profile)。
+* **手順 1**:オペレーターグループを定義し、Campaign クライアントコンソールで権限を割り当てます。 [詳細情報](manage-permissions.md#create-product-profile)。
 なお、手始めに、組み込みのオペレーターグループを使用することもできます。これらのデフォルトグループとその権限については、[この節](manage-permissions.md#ootb-productprofiles)を参照してください。
 * **手順 2**：Admin Console で、これらのグループと一致する製品プロファイルを作成します。[詳細情報](manage-permissions.md#create-product-profile)。
 手始めに、組み込みの製品プロファイルを使用することができます。[詳細情報](manage-permissions.md#ootb-productprofiles)。
@@ -52,7 +52,7 @@ Admin Console を使用して、ユーザーの追加と製品プロファイル
 
 製品プロファイルは、ユーザーに割り当てることができる製品とサービスのグループです。Adobe Experience Cloud では、権限は、ユーザーではなく製品のプロファイルに基づいています。ただし、特定のユーザーに管理者権限をデリゲートできます。
 
-Admin Console では、Campaign の各 Adobe Experience Cloud **製品プロファイル**&#x200B;は、Campaign クライアントコンソールの&#x200B;**オペレータグループ**&#x200B;に関連付けられています。
+Admin Consoleで、各Adobe Experience Cloud **製品プロファイル** ( キャンペーンが **オペレーターグループ** Campaign クライアントコンソールの
 
 製品プロファイルを作成して割り当てる方法については、[このページ](manage-permissions.md#create-a-product-profile)を参照してください。
 

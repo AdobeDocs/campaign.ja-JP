@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 99%
+source-wordcount: '1399'
+ht-degree: 98%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->設定を承認するには、Adobe Campaign コンソールからログオフし、再度ログオンします。
+>設定を承認するには、Adobe Campaignクライアントコンソールからログオフし、再度ログオンします。
 
 ### 同期するテーブルを選択{#ms-dyn-create-tables}
 

@@ -4,10 +4,10 @@ title: ローカルの承認
 description: ローカルの承認
 feature: Workflows
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 100%
+source-wordcount: '702'
+ht-degree: 93%
 
 ---
 
@@ -81,13 +81,13 @@ ht-degree: 100%
 
 この例では、ワークフロー配信の承認プロセスのセットアップ方法を示します。配信ワークフローの作成について詳しくは、[例：配信ワークフロー](delivery.md#example--delivery-workflow)の節を参照してください。
 
-オペレーターは、2 つの方法（メールメッセージ内にリンクされた Web ページを使用するか、コンソール経由）のいずれかで、配信を承認できます。
+オペレーターは、次の 2 つの方法のいずれかで配信を承認できます。電子メールメッセージ内でリンクされた Web ページを使用するか、クライアントコンソールを使用します。
 
 * Web 承認
 
    管理者グループのオペレーターに送信されたメールで、配信ターゲットを承認できます。メッセージは定義されたテキストと JavaScript 式を使用し、JavaScript 式は計算値によって置き換えられます（ここでは「574」）。
 
-   配信を承認するには、該当するリンクをクリックし、Adobe Campaign コンソールにログオンします。
+   配信を承認するには、該当するリンクをクリックし、Adobe Campaignクライアントコンソールにログオンします。
 
    ![](assets/new-workflow-valid-webaccess.png)
 
@@ -95,7 +95,7 @@ ht-degree: 100%
 
    ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* コンソールからの承認
+* クライアントコンソールからの承認
 
    ツリー構造の、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認待ち]**&#x200B;ノードに、現在接続中のオペレーターから承認されたタスクのリストが含まれています。このリストは、1 行で表示されます。応答するには、この行をダブルクリックします。次のウィンドウが表示されます。
 
