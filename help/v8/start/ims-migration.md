@@ -3,9 +3,9 @@ title: 開発者コンソールでのテクニカルアカウントへのテク�
 description: 開発者コンソールでのテクニカルアカウントへのテクニカルユーザーの移行
 hide: true
 hidefromtoc: true
-source-git-commit: 8842404511bd6166d920ebdeee942007b33a1bab
+source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されまし
 
 Campaign の正規ユーザーは、既にAdobe IDを使用してAdobe CampaignコンソールにAdobeIdentity Management System(IMS) を通じて接続しています。 セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaignクライアントアプリケーションは、IMS テクニカルアカウントトークンを使用して Campaign API を直接呼び出すようになりました。
 
-新しいサーバー間認証プロセスの詳細を説明します [(Adobe Developer Console ドキュメント )](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+新しいサーバー間認証プロセスの詳細については、 [Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 この変更は Campaign v8.5 以降に適用され、 **必須** Campaign v8.6 を起動します。
 
@@ -46,7 +46,7 @@ Campaign プロジェクトにアクセスできたら、API、Adobe Campaign、
 
 ### 手順 2 — サーバー認証を使用してプロジェクトに API を追加する{#ims-migration-step-2}
 
-プロジェクトをAdobe Developerコンソールで作成したら、サーバー間認証を使用する API を追加します。 で OAuth サーバー間証明書を設定する方法を説明します。 [(Adobe Developer Console ドキュメント )](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+プロジェクトをAdobe Developerコンソールで作成したら、サーバー間認証を使用する API を追加します。 で OAuth サーバー間証明書を設定する方法を説明します。 [Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 API が正常に接続されると、クライアント ID やクライアント秘密鍵など、新しく生成された資格情報にアクセスし、アクセストークンを生成できます。
 
