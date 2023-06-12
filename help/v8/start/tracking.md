@@ -34,7 +34,7 @@ Campaign で利用可能な主要なトラッキング機能は以下のとお�
 
 メッセージの受信とメッセージコンテンツに挿入されたリンクのアクティベーションをトラッキングし、受信者の動作を詳しく把握できます。
 
-[詳細については、Campaign Classic v7 ドキュメントを参照してください](hhttps://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=ja#sending-messages){target="_blank"}
+[詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=ja#sending-messages){target="_blank"}
 
 **URL トラッキング**
 
