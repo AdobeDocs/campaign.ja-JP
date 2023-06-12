@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: eadd204088bc9ca6cf526a2ef4af3e8a61e48a25
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '553'
 ht-degree: 98%
 
 ---
@@ -80,6 +80,7 @@ ht-degree: 98%
       + [外部プロファイルの操作](audiences/external-profiles.md)
       + [Web フォームでのプロファイルデータの収集](audiences/collect-profiles.md)
       + [ターゲットマッピングの操作](audiences/target-mappings.md)
+      + [テストプロファイルの作成](audiences/test-profiles.md)
    + オーディエンスの作成 {#create-audiences}
       + [連絡先リストの作成](audiences/create-audiences.md)
       + [フィルターの作成と管理](audiences/create-filters.md)

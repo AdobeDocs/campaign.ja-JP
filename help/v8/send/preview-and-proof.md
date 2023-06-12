@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '752'
 ht-degree: 100%
 
 ---
@@ -51,20 +51,20 @@ ht-degree: 100%
 * 「**[!UICONTROL アドレスの代用]**」オプションを使用してメールアドレスを入力し、ターゲット受信者データを使用してコンテンツを検証します。代用アドレスは、手動で入力することも、ドロップダウンリストから選択することもできます。関連する定義済みリストは、代用アドレス（rcpAddress）です。
 デフォルトでは、代用はランダムに実行されますが、「**[!UICONTROL 詳細]**」アイコンを使用して、メインターゲットから特定の受信者を選択することもできます。
 
-   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-   「**[!UICONTROL プロファイルを選択 (ターゲットに含める必要があります)]**」オプションを選択し、受信者を選択します。
+  「**[!UICONTROL プロファイルを選択 (ターゲットに含める必要があります)]**」オプションを選択し、受信者を選択します。
 
-   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
 * 「**[!UICONTROL シードアドレス]**」オプションを使用して、シードアドレスを配達確認ターゲットとして使用します。これらのアドレスは、ファイルからインポートするか、手動で入力できます。
 
-   >[!NOTE]
-   >
-   >シードアドレスはデフォルトの受信者テーブル（nms:recipient）には属さず、別のテーブルで作成されます。新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。
+  >[!NOTE]
+  >
+  >シードアドレスはデフォルトの受信者テーブル（nms:recipient）には属さず、別のテーブルで作成されます。新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。
 
-   シードアドレスについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=ja){target="_blank"}を参照してください。
+  シードアドレスの詳細については、[こちらの節](../audiences/test-profiles.md)を参照してください。
 
 * 「**[!UICONTROL 特定のターゲットとシードアドレス]**」オプションを使用して、シードアドレスと特定のメールアドレスを組み合わせます。関連する設定は、異なる 2 つのサブタブで定義します。
 
