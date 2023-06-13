@@ -4,15 +4,15 @@ description: ビルトインレポート
 feature: Reporting
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1114'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign の組み込みレポート{#ootb-reports}
 
-このページでは、Adobe Campaign の組み込みレポートとそれらの内容およびコンテキストの一覧を示します。Adobe Campaignには、クライアントコンソールまたはインターネットブラウザーからアクセスできる様々な組み込みレポートが用意されています。
+このページでは、Adobe Campaign の組み込みレポートとそれらの内容およびコンテキストの一覧を示します。Adobe Campaign には、クライアントコンソールまたはインターネットブラウザーからアクセスできる、様々な組み込みレポートが用意されています。
 
 使用可能なレポートのタイプは次のとおりです。
 
