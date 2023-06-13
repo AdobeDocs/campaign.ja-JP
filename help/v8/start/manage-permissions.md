@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1748'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 ユーザーを追加するには、次の手順に従います。
 
-1. 内 [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} ホームページ、選択 **ユーザーを追加**.
+1. [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} ホームページで、「**ユーザーを追加**」を選択します。
 
    ![](assets/add-a-user.png)
 
@@ -35,9 +35,9 @@ ht-degree: 95%
 
 1. 「**保存**」をクリックします。ユーザーが追加され、ユーザーリストに表示されます。管理者の役割または製品プロファイルをユーザーに割り当てると、ユーザーにメール通知が届きます。 ユーザーは、リンクをたどって自分のプロファイルを完成させる必要があります。
 
-ユーザーの作成について詳しくは、 [このページ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html){target="_blank"}.
+Admin Console でのユーザーの作成について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html){target="_blank"}を参照してください。
 
-新規ユーザーの場合 [Campaign にログオン](connect.md) これらは、Adobe IDと共に、クライアントコンソールの Campaign オペレーターリストに追加されます。 Campaign オペレーターは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;フォルダーに格納されます。
+新規ユーザーが Adobe ID で [Campaign にログオン](connect.md)すると、クライアントコンソールの Campaign オペレーターリストに追加されます。Campaign オペレーターは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;フォルダーに格納されます。
 
 ## 製品プロファイルの操作{#product-profiles}
 
@@ -61,7 +61,7 @@ Campaign - テスト - 配信
 
 ### 製品プロファイルの作成{#create-product-profile}
 
-新しい製品プロファイルをAdobeに追加するには、まず Campaign クライアントコンソールで製品プロファイルを作成し、次にAdmin Consoleで追加する必要があります。
+新しい製品プロファイルをアドビに追加するには、最初に Campaign クライアントコンソールでプロファイルを作成し、次に Admin Console で追加する必要があります。
 
 例えば、「レビュー担当者」の製品プロファイルを作成するには、次の手順に従います。
 
@@ -75,7 +75,7 @@ Campaign - テスト - 配信
 
 #### Admin Console での製品プロファイルの作成{#create-profile-in-admin-console}
 
-1. に接続 [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
+1. [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} に接続します。
 1. ホームページの「**製品とサービス**」セクションで、Campaign 製品を開きます。
 1. 「**新規プロファイル**」をクリックし、作成する製品プロファイルの名前を入力します。正確な構文については、[こちら](#product-profiles)を参照してください。この例では、次のように入力します。Campaign - `<your-instance-name>` - レビュー担当者
 
@@ -175,7 +175,7 @@ Adobe Campaign には組み込みの&#x200B;**製品プロファイル**&#x200B;
 
 Admin Console を使用して、ユーザーグループを作成し、ユーザーを割り当てることができます。
 
-ユーザーグループは、一連の共有権限を付与される必要がある様々なユーザーのコレクションです。でユーザーグループを作成する方法を説明します。 [この節](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"}.
+ユーザーグループは、一連の共有権限を付与される必要がある様々なユーザーのコレクションです。ユーザーグループを作成する方法については、[この節](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"}を参照してください。
 
 製品プロファイルをユーザーグループに割り当てることができます。 そのため、グループ内のすべてのユーザーは、同じ一連の製品権限を受け取ります。
 
