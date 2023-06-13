@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1590'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ _2021年9月7日_
 **改善点**
 
 * Flash は、提供終了後、関連するすべての Campaign 機能およびコンポーネントから削除され、HTML5 に置き換えられました。**ゲージ**&#x200B;タイプのグラフが削除されました。（NEO-30330）[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ja)
-* Windows にクライアントコンソールをインストールする際に、親レジストリノードがあるかどうかを確認し、見つからない場合は作成するようになりました。 これにより、コンソールの起動時に発生する可能性のある問題を防止できます。（NEO-34854）
+* Windows にクライアントコンソールをインストールする際、インストーラーは親レジストリノードがあるかどうかを確認し、ない場合は作成するようになりました。これにより、コンソールの起動時に発生する可能性のある問題を防止できます。（NEO-34854）
 * 署名トラッキング機能が改善され、サードパーティツール（メールクライアント、インターネットブラウザーなど）による特殊文字の処理方法に関連するエラーを防げるようになりました。URL パラメーターがエンコードされるようになりました。
 
 **その他の変更**
