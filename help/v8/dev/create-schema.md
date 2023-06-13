@@ -6,15 +6,15 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 新しいスキーマの作成{#create-new-schema}
 
-スキーマを編集、作成および設定するには、 **[!UICONTROL 管理/設定/データスキーマ]** Adobe Campaign Client Console のノード
+スキーマを編集、作成および設定するには、Adobe Campaign クライアントコンソールの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードをクリックします。
 
 >[!NOTE]
 >
