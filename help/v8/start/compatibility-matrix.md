@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Campaign で[プッシュ通知](../send/push.md)を送信するには、デー�
 
 次の情報にアクセスします。
 
-* この **version** クライアントコンソールとアプリケーションサーバーの数。 上記の例では、クライアントコンソールとアプリケーションサーバーの両方でバージョンが 8.1.5 になっています。
+* クライアントコンソールとアプリケーションサーバーの&#x200B;**バージョン**&#x200B;番号上記の例では、クライアントコンソールとアプリケーションサーバーのバージョンはどちらも 8.1.5 です。
 * 括弧の中は SHA 番号です。
 * アドビカスタマーサポートに連絡するためのリンク。
 * アドビのプライバシーポリシー、利用条件、Cookie ポリシーへのリンク。
