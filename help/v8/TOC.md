@@ -7,7 +7,7 @@ breadcrumb-title: Campaign の概要
 source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
    + [既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
    + テクニカルノート{#technotes}
-      + [技術オペレーターの開発者コンソールへの移行](start/ims-migration.md)
+      + [Developer Console へのテクニカルオペレーターの移行](start/ims-migration.md)
 + はじめに {#new}
    + [Adobe Campaign の概要](start/get-started.md)
    + [主な機能](start/whats-new.md)
