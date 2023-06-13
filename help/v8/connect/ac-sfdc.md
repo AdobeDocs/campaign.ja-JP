@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Salesforce データを Adobe Campaign にインポートおよびエクスポ�
 
 >[!NOTE]
 >
->設定を承認するには、Adobe Campaign Client Console からログオフし、再度ログオンする必要があります。
+>設定を承認するには、Adobe Campaign クライアントコンソールからログオフし、再度ログオンする必要があります。
 
 ## 同期するテーブルを選択{#sfdc-create-tables}
 
