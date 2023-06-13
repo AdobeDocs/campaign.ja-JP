@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1739'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -193,7 +193,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 追加したクイックフィルターフィールドは、データリストの上に次々と表示されます。これらは、それぞれ個別に削除できます。
 
-クイックフィルターは各オペレーターに固有で、オペレーターがクライアントコンソールのキャッシュをクリアするたびに再初期化されます。
+クリックフィルターは各オペレーター専用であり、オペレーターがクライアントコンソールのキャッシュをクリアするたびに再初期化されます。
 
 フィルターを再利用する必要がある場合は、**詳細フィルター**&#x200B;を作成して保存します。[詳細情報](#advanced-filters)。
 
