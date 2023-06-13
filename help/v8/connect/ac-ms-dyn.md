@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1399'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 98%
 
 保存すると、Microsoft Azure Directory は一意の&#x200B;**アプリケーション（クライアント）ID** をアプリに割り当てます。この ID は、後で Adobe Campaign で Dynamics 365 を設定する際に必要になります。
 
-詳しくは、 [Microsoft Dynamics 365 ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}.
+詳しくは、[Microsoft Dynamics 365 ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}を参照してください。
 
 ### Microsoft Dynamics 証明書キー識別子およびキー ID の生成 {#config-certificate-key-id}
 
@@ -165,7 +165,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->設定を承認するには、Adobe Campaignクライアントコンソールからログオフし、再度ログオンします。
+>設定を承認するには、Adobe Campaign クライアントコンソールからログオフし、再度ログオンします。
 
 ### 同期するテーブルを選択{#ms-dyn-create-tables}
 
