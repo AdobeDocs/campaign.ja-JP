@@ -7,9 +7,9 @@ role: Admin, Developer
 level: Beginner, Intermediate, Experienced
 exl-id: fefb6d80-c3d1-448b-82ab-648da58a0ba4
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1946'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Campaign エクスプローラーにフォルダーを追加したり、ビュ�
 
 ## リストの管理とカスタマイズ{#customize-lists}
 
-Campaign クライアントコンソールでは、データはリストに表示されます。 これらのリストは、ニーズに合わせて調整できます。例えば、列の追加、データのフィルタリング、レコードのカウント、設定の保存と共有を行うことができます。
+Campaign クライアントコンソールでは、データはリストに表示されます。これらのリストは、ニーズに合わせて調整できます。例えば、列の追加、データのフィルタリング、レコードのカウント、設定の保存と共有を行うことができます。
 
 また、フィルターを作成して保存できます。フィルターについて詳しくは、[このページ](../audiences/create-filters.md)を参照してください。
 
@@ -214,7 +214,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 1. 変更内容を保存します。値の置換は、毎晩実行される&#x200B;**エイリアスクレンジング**&#x200B;ワークフローによって実行されます。[データクレンジングの実行](#running-data-cleansing)を参照してください。
 
-この列挙に基づくすべてのフィールドに対して、ユーザーが値を入力したとき **アドビ** (Adobe Campaignクライアントコンソールの web フォームの )「会社」フィールドでは、値で自動的に置き換えられます **Adobe**.
+この列挙に基づくすべてのフィールドについて、ユーザーが（Adobe Campaign クライアントコンソールの web フォームの）「会社」フィールドに「**Adob**」と入力すると、**Adobe** という値に自動置換されます。
 
 #### 誤った値をエイリアスに変換{#convert-to-alias}
 
