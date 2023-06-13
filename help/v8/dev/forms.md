@@ -6,9 +6,9 @@ role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2574'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 98%
 
 スキーマを作成または拡張する場合は、関連する入力フォームを作成または変更して、それらの変更をエンドユーザーに表示する必要があります。
 
-入力フォームを使用すると、Adobe Campaign Client Console から、データスキーマに関連付けられたインスタンスを編集できます。 フォームは名前と名前空間で識別します。
+入力フォームを使用すると、データスキーマに関連付けられたインスタンスを Adobe Campaign クライアントコンソールから編集できます。フォームは名前と名前空間で識別します。
 
 フォームの識別キーは、名前空間と名前をコロンで区切った文字列です（例：cus:contact）。
 
 ## 入力フォームの編集
 
-次の場所から入力フォームを作成および設定： **[!UICONTROL 管理] > [!UICONTROL 設定] > [!UICONTROL 入力フォーム]** クライアントコンソールのフォルダ：
+クライアントコンソールの&#x200B;**[!UICONTROL 管理]／[!UICONTROL 設定]／[!UICONTROL 入力フォーム]**&#x200B;フォルダーから入力フォームを作成して設定します。
 
 ![](assets/form_arbo.png)
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
 
-![](../assets/do-not-localize/book.png) すべてのフォーム属性は、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja){target="_blank"}.
+![](../assets/do-not-localize/book.png) すべてのフォーム属性の一覧については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja){target="_blank"}を参照してください。
 
 ## フォーマット設定 {#formatting}
 
