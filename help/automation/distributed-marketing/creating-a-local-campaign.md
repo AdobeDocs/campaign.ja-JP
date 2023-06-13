@@ -5,9 +5,9 @@ description: ローカルキャンペーンの作成
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -295,9 +295,9 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### クライアントコンソールから承認 {#approving-via-the-adobe-campaign-console}
+#### クライアントコンソール経由での承認 {#approving-via-the-adobe-campaign-console}
 
-オーダーは、キャンペーンのオーダーの概要で、クライアントコンソールからも承認できます。 オーダーを承認するには、オーダーを選択して、「**[!UICONTROL オーダーを承認]**」をクリックします。
+オーダーの承認は、キャンペーンのオーダーの概要で、クライアントコンソールから実行することもできます。オーダーを承認するには、オーダーを選択して、「**[!UICONTROL オーダーを承認]**」をクリックします。
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -321,7 +321,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 レビュー担当者がオーダーを却下すると、影響を受けるローカルエンティティに自動的に通知が送信されます。通知には、承認を却下したオペレーターのコメントが表示されます。
 
-却下の情報は、キャンペーンパッケージのリストのページやキャンペーンのオーダーのページにも表示されます。Adobe Campaign Client Console にアクセスできるローカルエンティティは、この却下の情報を通知します。
+却下の情報は、キャンペーンパッケージのリストのページやキャンペーンのオーダーのページにも表示されます。Adobe Campaign クライアントコンソールにアクセスできるローカルエンティティは、コンソールで却下の情報を確認できます。
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 
