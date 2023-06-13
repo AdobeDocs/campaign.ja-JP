@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1845'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ _2022年9月30日（PT）_
 
 **改善点**
 
-* Microsoft Internet Explorer 11 の提供終了後、コンソール内の HTML レンダリングエンジンは、**Microsoft Edge Chromium** を使用するようになりました。さらに、 **Microsoft Edge WebView 2** クライアントコンソールのインストールにランタイムが必要になりました。
+* Microsoft Internet Explorer 11 の提供終了後、コンソール内の HTML レンダリングエンジンは、**Microsoft Edge Chromium** を使用するようになりました。さらに、あらゆるクライアントコンソールインストールで、**Microsoft Edge WebView 2** ランタイムのインストールが必要になりました。
 * ワークフローの高可用性が備わり、ワークフローの実行が改善されました。これにより、様々なコンテナで同時にワークフローを実行できるようになり、ワークフローサービスの損失を防ぎ、関連する実行エラーを回避できるようになりました。**注意**：この新機能は、特定の顧客への限定提供でリリースされています。
 * 特定のプライバシー名前空間に対して、プライバシーリクエストが一括で実行されるようになりました。この改善により、GDPR／プライバシー削除リクエストの実行時間が長くなりました。
 
