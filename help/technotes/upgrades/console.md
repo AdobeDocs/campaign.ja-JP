@@ -5,10 +5,10 @@ description: クライアントコンソール 32 ビットの非推奨（廃止
 hide: true
 hidefromtoc: true
 exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
-source-wordcount: '359'
-ht-degree: 100%
+source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 92%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 100%
 最新の機能とセキュリティの向上を活用するために、アドビでは、コンピューターを 64 ビット OS にアップグレードすることをお勧めします。
 
 ## よくある質問
+
++++Campaign v8 32 ビットから Campaign v8 64 ビットにアップグレードするにはどうすればよいですか？
+
+アップグレードはシームレスです。 通常のアップグレードと同様に、設定を使用して新しいバージョンをインストールするだけです。
+
++++
 
 +++64 ビットバージョンの Campaign v8 クライアントコンソールは、32 ビットコンピューターと互換性がありますか？
 
