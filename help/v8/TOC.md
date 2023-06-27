@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
+source-git-commit: cd8ce8e16622010c1498bfaa244dda7095d9adc1
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 99%
@@ -47,7 +47,7 @@ ht-degree: 99%
       + [SMS](send/sms.md)
       + プッシュ通知 {#push}
          + [プッシュ通知の作成と送信](send/push.md)
-         + [プッシュ通知チャネルの設定](config/push-settings.md)
+         + [プッシュ通知チャネルの設定](send/push-settings.md)
       + [LINE メッセージ](send/line.md)
       + [ダイレクトメール](send/direct-mail.md)
       + [Twitter](send/twitter.md)
