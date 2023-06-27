@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
-workflow-type: ht
-source-wordcount: '553'
-ht-degree: 100%
+source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +45,9 @@ ht-degree: 100%
          + [ミラーページへのリンク](send/mirror-page.md)
          + [メールの送信と監視](send/send.md)
       + [SMS](send/sms.md)
-      + [プッシュ通知](send/push.md)
+      + プッシュ通知 {#push}
+         + [プッシュ通知の作成と送信](send/push.md)
+         + [プッシュ通知チャネルの設定](config/push-settings.md)
       + [LINE メッセージ](send/line.md)
       + [ダイレクトメール](send/direct-mail.md)
       + [Twitter](send/twitter.md)
@@ -170,7 +172,6 @@ ht-degree: 100%
       + [ユーザーインターフェイス設定](config/ui-settings.md)
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [メールの設定](config/email-settings.md)
-      + [プッシュ設定](config/push-settings.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
       + [Campaign SDK とアプリの統合- 非推奨（廃止予定）のページ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
