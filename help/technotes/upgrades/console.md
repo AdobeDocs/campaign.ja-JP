@@ -2,29 +2,31 @@
 product: campaign
 title: クライアントコンソール 32 ビットの非推奨（廃止予定）
 description: クライアントコンソール 32 ビットの非推奨（廃止予定）
-hide: true
-hidefromtoc: true
 exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 92%
+source-wordcount: '344'
+ht-degree: 63%
 
 ---
 
-# 32 ビットオペレーティングシステムのサポート終了 | Adobe Campaign v8 {#console-eol}
+# 32 ビットオペレーティングシステムのサポート終了 {#console-eol}
 
-クライアントコンソールの 32 ビットバージョンは、8.5 リリースで非推奨（廃止予定）となります。 8.6 リリース以降、Campaign v8 では、製品およびセキュリティの更新など、32 ビットオペレーティングシステムをサポートしなくなります。アドビでは、セキュリティの更新を最新の状態に保つことを強くお勧めします。
+8.5 リリースでは、クライアントコンソールの 32 ビットバージョンは非推奨（廃止予定）となりました。 新しい 64 ビットバージョンのクライアントコンソールを使用して、シームレスなアップグレードを実行できます。
 
-## サポート終了
+8.6 リリースより、Campaign v8 は、製品およびセキュリティの更新を含む 32 ビットオペレーティングシステムのサポートを停止します。 アドビでは、セキュリティの更新を最新の状態に保つことを強くお勧めします。
+
+この変更の影響を受けるのは、32 ビット版の Windows 8 または 10 のみです。
+
+## サポート終了{#eol}
 
 サポート終了とは、アドビが製品または製品バージョン（ローカライズバージョン、マイナーアップグレード、オペレーティングシステム、ドットとダブルドットリリース、コネクタ製品）のあらゆる派生製品に対して、製品やセキュリティの更新などのテクニカルサポートを提供しなくなったことを意味します。
 
-## 推奨事項
+## 推奨事項{#console-eol-recommendations}
 
-最新の機能とセキュリティの向上を活用するために、アドビでは、コンピューターを 64 ビット OS にアップグレードすることをお勧めします。
+最新の機能とセキュリティの向上を活用するには、コンピュータを 64 ビット OS にアップグレードする必要があります。
 
-## よくある質問
+## よくある質問{#console-eol-faq}
 
 +++Campaign v8 32 ビットから Campaign v8 64 ビットにアップグレードするにはどうすればよいですか？
 
@@ -52,21 +54,23 @@ ht-degree: 92%
 
 +++Windows（32 ビット）から Windows（64 ビット）オペレーティングシステムにアップグレードするにはどうすればよいですか？
 
-コンピュータープロセッサが 64 ビットオペレーティングシステムのインストールをサポートしていることを確認します。32 ビットバージョンから 64 ビットバージョンの Windows にアップグレードするには、ハードディスクを再フォーマットし、64 ビットバージョンの Windows をインストールしてから、デバイスにあったその他すべてのものを再インストールする必要があります。詳しくは、[32 ビットと 64 ビットの Windows：よくある質問](https://support.microsoft.com/ja-jp/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d)を参照してください。
+コンピュータープロセッサが 64 ビットオペレーティングシステムのインストールをサポートしていることを確認します。32 ビットバージョンから 64 ビットバージョンの Windows にアップグレードするには、ハードディスクを再フォーマットし、64 ビットバージョンの Windows をインストールしてから、デバイスにあったその他すべてのものを再インストールする必要があります。詳しくは、 [32 ビット版と 64 ビット版の Windows:よくある質問](https://support.microsoft.com/ja-jp/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
 
 +++
 
-+++ 使用しているコンピューターが 32 ビットか 64 ビットかを確認するにはどうすればよいですか？
+<!--
++++ How do I check if I am on a 32-bit computer or 64-bit?
 
-**Windows 10 および Windows 8.1**
+**WINDOWS 10 AND WINDOWS 8.1**
 
-1. 「**スタート**」ボタンをクリックし、**設定**／**システム**／**詳細情報**&#x200B;を選択します。
-1. **デバイスの仕様**&#x200B;で、**システムの種類**&#x200B;を参照してください。
+1. Click the **Start** button, then select **Settings** > **System** > **About**.
+1. Under **Device specifications**, see **System type**.
 
-**Windows 7**
-1. 「**スタート**」ボタンを選択し、「**コンピューター**」を右クリックして「**プロパティ**」を選択します。
-1. **システム**&#x200B;で、システムの種類を参照してください。
+**WINDOWS 7**
+1. Select the **Start** button, right-click **Computer** and select **Properties**.
+1. Under **System**, see the system type.
 
-詳しくは、[32 ビットと 64 ビットの Windows：よくある質問](https://support.microsoft.com/ja-jp/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d)を参照してください。
+For more information, see [32-bit and 64-bit Windows: Frequently asked questions](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
 
 +++
+-->

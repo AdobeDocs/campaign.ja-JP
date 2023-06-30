@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: cd8ce8e16622010c1498bfaa244dda7095d9adc1
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 99%
    + [ガードレール](start/ac-guardrails.md)
    + [既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
-   + テクニカルノート{#technotes}
-      + [Developer Console へのテクニカルオペレーターの移行](start/ims-migration.md)
 + はじめに {#new}
    + [Adobe Campaign の概要](start/get-started.md)
    + [主な機能](start/whats-new.md)
@@ -48,6 +46,7 @@ ht-degree: 99%
       + プッシュ通知 {#push}
          + [プッシュ通知の作成と送信](send/push.md)
          + [プッシュ通知チャネルの設定](send/push-settings.md)
+         + [データ収集を使用したプッシュ通知の設定](send/push-data-collection.md)
       + [LINE メッセージ](send/line.md)
       + [ダイレクトメール](send/direct-mail.md)
       + [Twitter](send/twitter.md)

@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -35,9 +35,9 @@ Adobe Campaign では、**オペレーター**&#x200B;および&#x200B;**オペ�
 
 * **手順 1**：Campaign クライアントコンソールで、オペレーターグループを定義して権限を割り当てます。[詳細情報](manage-permissions.md#create-product-profile)。
 なお、手始めに、組み込みのオペレーターグループを使用することもできます。これらのデフォルトグループとその権限については、[この節](manage-permissions.md#ootb-productprofiles)を参照してください。
-* **手順 2**：Admin Console で、これらのグループと一致する製品プロファイルを作成します。[詳細情報](manage-permissions.md#create-product-profile)。
+* **手順 2**:これらのグループと一致する製品プロファイルをAdobe Admin Consoleで作成します。 [詳細情報](manage-permissions.md#create-product-profile)。
 手始めに、組み込みの製品プロファイルを使用することができます。[詳細情報](manage-permissions.md#ootb-productprofiles)。
-* **手順 3**：Admin Console でユーザーを作成して、製品プロファイルに割り当てます。[詳細情報](manage-permissions.md#add-users)。
+* **手順 3**:Adobe Admin Consoleでユーザーを作成し、製品プロファイルに割り当てます。 [詳細情報](manage-permissions.md#add-users)。
 * **手順 4**（オプション）：フォルダーに対する権限を割り当てます。[詳細情報](manage-permissions.md#ootb-productprofiles)。
 
 ## Admin Console について{#gs-admin-console}

@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: c46eaa73deed643a4e92928b6ce2b1beb1596d73
-workflow-type: ht
-source-wordcount: '1157'
-ht-degree: 100%
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,6 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 >* [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、特定の&#x200B;**[!UICONTROL フル FDA]**（ffda）外部アカウントは、Campaign ローカルデータベースと Cloud データベース（[!DNL Snowflake]）との接続を管理します。
 >
 
-
 ## Campaign 固有の外部アカウント
 
 次の技術アカウントは、Adobe Campaign で特定のプロセスを有効にして実行するために使用されます。
@@ -41,6 +40,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 >[!NOTE]
 >
 >POP3 機能の Microsoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。。
+>
 
 **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
@@ -60,7 +60,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 * **[!UICONTROL 暗号化]** - **[!UICONTROL デフォルト]**、**[!UICONTROL POP3 + STARTTLS]**、**[!UICONTROL POP3]** または **[!UICONTROL POP3S]** から選択した暗号化のタイプ。
 
-   **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
+  **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
 * **[!UICONTROL 関数]** - インバウンドメールまたは SOAP ルーター
 
@@ -69,6 +69,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 >[!CAUTION]
 >
 >Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、こちらの[ページ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app){target="_blank"}を参照してください。
+>
 
 Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UICONTROL Microsoft OAuth 2.0]**」オプションをチェックし、次のフィールドに入力します。
 
@@ -80,15 +81,11 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 * **[!UICONTROL Azure リダイレクト URL]** - リダイレクト URL は Azure portal のアプリケーションの&#x200B;**認証**&#x200B;メニューで確認できます。次の構文で `nl/jsp/oauth.jsp` 終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
 
-   別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
+  別の資格情報を入力した後、**[!UICONTROL 接続の設定]**&#x200B;をクリックして、外部アカウントの設定を完了できます。
 
 ### ルーティング {#routing}
 
 **[!UICONTROL ルーティング]**&#x200B;外部アカウントを使用すると、インストールしているパッケージに応じて、Adobe Campaign で利用可能な各チャネルを設定できます。
-
->[!CAUTION]
->
->Adobe Campaign v8 では&#x200B;**[!UICONTROL 内部電子メール配信ルーティング]**（defaultEmailBulk）外部アカウントを、有効に&#x200B;**しないでください**。
 
 ### 実行インスタンス {#execution-instance}
 
@@ -98,7 +95,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 * **外部データベース（FDA）**- **外部データベース**&#x200B;タイプの外部アカウントは、Federated Data Access（FDA）経由で外部データベースに接続するために使用します。Federated Data Access（FDA）オプションについて詳しくは、[この節](../connect/fda.md)を参照してください。
 
-   Adobe Campaign v8 と互換性のある外部データベースは、[互換性マトリックス](../start/compatibility-matrix.md)に記載されています。
+  Adobe Campaign v8 と互換性のある外部データベースは、[互換性マトリックス](../start/compatibility-matrix.md)に記載されています。
 
 * **Twitter** - **Twitter** タイプの外部アカウントは、Campaign を Twitter アカウントに接続して、ユーザーに代わってメッセージを投稿するために使用します。Twitter 統合について詳しくは、[この節](../connect/ac-tw.md)を参照してください。
 
@@ -123,9 +120,13 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 * **FTP および SFTP** - **FTP** 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。
 
-   これをおこなうには、SFTP サーバーまたは FTP サーバーへの接続を確立するために使用するアドレスと資格情報を、この外部アカウントで指定します。
+  これをおこなうには、SFTP サーバーまたは FTP サーバーへの接続を確立するために使用するアドレスと資格情報を、この外部アカウントで指定します。
 
-* **Amazon Simple Storage Service（S3）**- **AWS S3** コネクタを使用すると、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティで Adobe Campaign との間でデータをインポートまたはエクスポートできます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
+  >[!NOTE]
+  >
+  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。 [鍵の管理の詳細](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
+
+* **Amazon Simple Storage Service(S3)** - **AWS S3** コネクタは、 **[!UICONTROL ファイル転送]** ワークフローアクティビティ。 この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
    * **[!UICONTROL AWS S3 アカウントサーバー]**：サーバーの URL は、次のように入力する必要があります。   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
