@@ -5,9 +5,9 @@ feature: FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: tm+mt
-source-wordcount: '609'
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+workflow-type: ht
+source-wordcount: '568'
 ht-degree: 100%
 
 ---
@@ -74,19 +74,6 @@ Adobe Campaign は、配信の準備中に重複した UUID をオーディエ�
 [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、内部キー（UUID）をフィールドとして選択して、ワークフロー内のデータを更新することはできません。
 
 ![](assets/update-data-no-internal-key.png)
-
-明示的な紐付けキーを使用する場合、**データを更新**&#x200B;アクティビティは、次の方法で、このキーに基づいて宛先スキーマの単一性を自動的に保証します。
-
-1. （トランジションから）受信データの重複排除
-1. 宛先テーブルとのデータの重複排除（結合）
-
-
-![](assets/update-data-deduplicate.png)
-
->[!CAUTION]
->
->このガードレールはオプション「**[!UICONTROL 紐付けキーの使用]**」でのみ適用されます。
-
 
 ### 重複を含むスキーマのクエリ{#query-with-duplicates}
 
