@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
@@ -100,6 +100,8 @@ Managed Cloud Services ユーザーの場合は、ユーザーに代わってア
 >[!CAUTION]
 >
 >アドビは、コンソールの新しいバージョンが利用可能になったときにアラートが送信されるようにするために、「**[!UICONTROL 今後この質問をしない]**」オプションを選択しないままにすることをお勧めします。 このオプションを選択すると、コンソールのアップグレードが必要であることはユーザーに通知されません。
+>
+
 
 
 ## ユーザーへのアクセスの許可{#grant-access}
