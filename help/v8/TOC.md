@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 98%
+source-wordcount: '569'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 98%
       + メール {#emails}
          + [メールのデザインと検証](send/email.md)
          + [ミラーページへのリンク](send/mirror-page.md)
+         + [追加の E メールパラメーターの定義](send/email-parameters.md)
          + [メールの送信と監視](send/send.md)
       + [SMS](send/sms.md)
       + プッシュ通知 {#push}
@@ -71,6 +72,7 @@ ht-degree: 98%
       + 配信の検証 {#validate}
          + [プレビューと配達確認](send/preview-and-proof.md)
          + [配信分析](send/delivery-analysis.md)
+      + [配信の設定と送信](send/configure-and-send.md)
 + プロファイルと Audience Management {#audience}
    + [プロファイルとオーディエンスの基本を学ぶ](audiences/gs-audiences.md)
    + [オーディエンスの操作](start/audiences.md)

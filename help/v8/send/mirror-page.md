@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 7bf3937c-484d-4404-8a9b-de7a10f5455a
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: b333db04dd10cc28956959a446f6567e2a89b2d4
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 96%
 
 ---
 
-# ミラーページへのリンク{#mirror-page}
+# ミラーページへのリンク {#mirror-page}
 
-## ミラーページについて{#about-mirror-page}
+## ミラーページについて {#about-mirror-page}
 
 ミラーページは、メールのオンラインバージョンです。
 
@@ -24,7 +24,7 @@ Adobe Campaign で生成されるミラーページには、すべてのパー�
 
 ![ミラーリンクのサンプル](assets/mirror-page-link.png){width="600" align="left"}
 
-## ミラーページへのリンクの追加{#link-to-mirror-page}
+## ミラーページへのリンクの追加 {#link-to-mirror-page}
 
 ミラーページへのリンクを挿入することをお勧めします。このリンクには、「このメールをブラウザーに表示」や「これをオンラインで読む」などがあります。多くの場合、メールのヘッダーやフッターに配置されています。
 
@@ -33,9 +33,9 @@ Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブ�
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-カスタムコンテンツブロックの挿入について詳しくは、[パーソナライゼーションブロック](personalization-blocks.md)を参照してください。
+パーソナライゼーションコンテンツブロックの挿入について詳しくは、 [パーソナライゼーションブロック](personalization-blocks.md).
 
-## ミラーページの生成{#mirror-page-generation}
+## ミラーページの生成を管理 {#mirror-page-generation}
 
 メールコンテンツが空でない場合や、ミラーページへのリンク（別名ミラーリンク）が含まれている場合、デフォルトでは、Adobe Campaign がミラーページを自動的に生成します。
 
@@ -52,7 +52,7 @@ Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブ�
 * **[!UICONTROL ミラーページを生成しない]**：このモードを使用すると、配信にリンクが存在する場合でも、ミラーページを生成しないようにすることができます。
 * **[!UICONTROL メッセージ識別子のみを使用してアクセス可能なミラーページを生成]**：メールコンテンツにミラーページのリンクが存在しない場合、以下に示すように、配信ログウィンドウでミラーページのコンテンツにアクセスできるようにするには、このオプションを使用します。
 
-## 受信者のミラーページの確認{#mirror-page-access}
+## 受信者のミラーページの確認 {#mirror-page-access}
 
 パーソナライゼーションデータを使用して、配信の特定の受信者のミラーページのコンテンツにアクセスできます。
 
