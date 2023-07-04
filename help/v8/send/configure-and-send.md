@@ -4,9 +4,9 @@ description: Adobe Campaignで電子メールを設定する方法を説明し�
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 21e251acd76f2bbb751f8e295934d597af336559
+source-git-commit: 263ec61c3717c054cc135f1c4fb1f7e287e4a154
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1217'
 ht-degree: 83%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 83%
    * 配信をすぐに送信する場合は、 [**可能な限り早く配信**].
    * 送信を後の日付にスケジュールするには、 **[!UICONTROL 配信の延期]**. [詳細情報](#schedule-delivery-sending)
 
-1. 「**[!UICONTROL 分析]**」をクリックします。詳しくは、[分析の起動](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery)を参照してください。
+1. 「**[!UICONTROL 分析]**」をクリックします。詳しくは、[この節](delivery-analysis.md)を参照してください。
 
    ![](assets/delivery-send-analyze.png)
 
