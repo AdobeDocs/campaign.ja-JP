@@ -5,20 +5,22 @@ feature: Push
 role: Data Engineer
 level: Beginner
 badge: label="限定提供" type="参考情報"
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 48%
+source-wordcount: '1522'
+ht-degree: 45%
 
 ---
 
 # プッシュ通知設定を修正しました {#push-notifications-config}
 
+Campaign v8.5 では、最新の最先端テクノロジーに基づいて構築された堅牢なフレームワークを利用した最新のプッシュ通知サービスが導入されています。 このサービスは、新しいレベルの拡張性を引き出し、シームレスな効率で通知をより多くのオーディエンスに確実に届けるように設計されています。 強化されたインフラストラクチャと最適化されたプロセスにより、より高い規模と信頼性を期待でき、従来にないほどモバイルアプリのユーザーとの関わりと接続が可能になります。
+
 >[!AVAILABILITY]
 >
-> この機能は、リリース 8.5 以降の新規のお客様のみが利用でき、選択した一連のお客様に段階的にロールアウトされます。 環境が 2023 年 6 月より前にプロビジョニングされている場合は、次に説明する手順に従う必要があります [このページ](push-settings.md).
+> この機能は、Campaign v8.5 以降の新規のお客様のみがアクセスでき、選択した一連のお客様に段階的にロールアウトされます。 お使いの環境が 2023 年 6 月より前にプロビジョニングされた場合、このページは適用されず、詳細な手順に従う必要があります [このページ](push-settings.md).
 
-Adobe Campaign でプッシュ通知を送信するには、次の操作を実行します。
+この更新された実装のコンテキストで、Adobe Campaignでプッシュ通知を送信するには、次の手順に従います。
 
 1. [Adobe Experience Platform Data Collection でのアプリサーフェスの作成](#create-app-surface)
 
