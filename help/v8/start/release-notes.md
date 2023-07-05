@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
+source-git-commit: d5bd383dca524e15a098fc63661236b50144cb3d
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 58%
@@ -20,7 +20,7 @@ Adobe Campaign は定期的にアップデートされています。この定�
 
 さらに、お客様は、 [互換性マトリックス](compatibility-matrix.md).
 
-## リリース 8.5 {#release-8-5}
+## リリース 8.5.1 {#release-8-5}
 
 _2023 年 6 月 31 日_
 
@@ -34,7 +34,7 @@ _2023 年 6 月 31 日_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Campaign v8.5 では、最新の最先端テクノロジーに基づいて構築された堅牢なフレームワークを利用した最新のプッシュ通知サービスが導入されています。 このサービスは、新しいレベルの拡張性を引き出し、シームレスな効率で通知をより多くのオーディエンスに確実に届けるように設計されています。 強化されたインフラストラクチャと最適化されたプロセスにより、より高い規模と信頼性を期待でき、従来にないほどモバイルアプリのユーザーとの関わりと接続が可能になります。 この機能は、選択した顧客グループ（限定提供）でのみ使用できます。</p>
+<td><p>Campaign v8.5.1 は、最新の最先端テクノロジーに基づいて構築された堅牢なフレームワークを利用した最新のプッシュ通知サービスを導入します。 このサービスは、新しいレベルの拡張性を引き出し、シームレスな効率で通知をより多くのオーディエンスに確実に届けるように設計されています。 強化されたインフラストラクチャと最適化されたプロセスにより、より高い規模と信頼性を期待でき、従来にないほどモバイルアプリのユーザーとの関わりと接続が可能になります。 この機能は、選択した顧客グループ（限定提供）でのみ使用できます。</p>
 <p>詳しくは、<a href="../send/push-data-collection.md">詳細ドキュメント</a>を参照してください。</p>
 
 </td> 
@@ -56,7 +56,7 @@ _2023 年 6 月 31 日_
 
 **セキュリティ機能の強化**
 
-* Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されました。 テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、 [このテクニカルノート](../../technotes/upgrades/ims-migration.md).
+* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが改善されました。 テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、 [このテクニカルノート](../../technotes/upgrades/ims-migration.md).
 * Campaign クライアントコンソールからオペレーターを作成できなくなりました。 それに応じてユーザーインターフェイスが更新されました。 次は、Adobe Admin Consoleを使用する必要があります。 [詳細情報](../start/gs-permissions.md)
 * セキュリティを最適化するために、いくつかのサードパーティツールが更新されました。
 
