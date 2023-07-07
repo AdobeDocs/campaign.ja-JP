@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Campaign クライアントコンソールを使用するには、次のオペ�
 
 >[!NOTE]
 >
->クライアントコンソールの 32 ビットバージョンは、8.5 リリース以降は非推奨となります。 8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](../../technotes/upgrades/console.md)を参照してください。
+>クライアントコンソールの 32 ビットバージョンは、8.5 リリース以降非推奨（廃止予定）となることに注意してください。8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](../../technotes/upgrades/console.md)を参照してください。
 
 ### Web ブラウザー{#web-browsers}
 
@@ -53,7 +53,7 @@ Adobe Campaign と互換性のある顧客関係管理（CRM）システムを�
 Adobe Campaign Federated Data Access（FDA）モジュールと互換性のある外部データベースを以下に示します。[詳細情報](../connect/fda.md)。
 
 * **[!DNL Amazon Redshift]**
-* **[!DNL Azure Synapse]**, Campaign v8.5 の起動
+* **[!DNL Azure Synapse]**、Campaign v8.5 以降
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
