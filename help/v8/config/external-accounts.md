@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1171'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -120,13 +120,13 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 * **FTP および SFTP** - **FTP** 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。
 
-  これをおこなうには、SFTP サーバーまたは FTP サーバーへの接続を確立するために使用するアドレスと資格情報を、この外部アカウントで指定します。
+  これを行うには、SFTP サーバーまたは FTP サーバーへの接続を確立するために使用するアドレスと資格情報を、この外部アカウントで指定します。
 
   >[!NOTE]
   >
-  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。 [鍵の管理の詳細](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html)
+  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。[詳しくは、鍵の管理を参照してください](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja)
 
-* **Amazon Simple Storage Service(S3)** - **AWS S3** コネクタは、 **[!UICONTROL ファイル転送]** ワークフローアクティビティ。 この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
+* **Amazon Simple Storage Service（S3）** - **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
    * **[!UICONTROL AWS S3 アカウントサーバー]**：サーバーの URL は、次のように入力する必要があります。   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
