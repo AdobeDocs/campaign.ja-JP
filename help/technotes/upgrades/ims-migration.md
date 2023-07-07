@@ -1,10 +1,10 @@
 ---
-title: 技術ユーザーのAdobe Developerコンソールへの移行
-description: Adobe Developerコンソールで Campaign のテクニカルオペレーターをテクニカルアカウントに移行する方法を説明します
+title: Adobe Developer Console へのテクニカルユーザーの移行
+description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
 source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Campaign プロジェクトへのアクセス権があると、API、Adobe Campa
 
 ### 手順 2 - サーバー間認証を使用してプロジェクトに API を追加{#ims-migration-step-2}
 
-プロジェクトをAdobe Developerコンソールで作成したら、サーバー間認証を使用する API を追加します。 OAuth サーバー間の資格情報の設定方法については、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}を参照してください。
+Adobe Developer Console でプロジェクトを作成したら、サーバー間認証を使用する API を追加します。OAuth サーバー間の資格情報の設定方法については、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}を参照してください。
 
 API が正常に接続されると、クライアント ID とクライアント秘密鍵を含む新しく生成された資格情報にアクセスしたり、アクセストークンを生成したりできます。
 
@@ -63,21 +63,21 @@ API が正常に接続されると、クライアント ID とクライアント
 ### 手順 4 - クライアントコンソールでテクニカルオペレーターを更新 {#ims-migration-step-4}
 
 
-この手順は、（オペレーターのグループを介してではなく）このオペレーターに対して特定のフォルダー権限またはネームド権限が定義されている場合にのみ必要です。
+この手順は、特定のフォルダー権限またはネームド権限がこのオペレーターに対して（オペレーターのグループ経由ではなく）定義されている場合にのみ必要です。
 
-次に、Adobe Campaignクライアントコンソールで新しく作成したテクニカルオペレーターを更新する必要があります。 既存のテクニカルオペレーターフォルダーの権限を新しいテクニカルオペレーターに適用する必要があります。
-この演算子を更新するには、次の手順に従います。
+ここでは、Adobe Campaign クライアントコンソールで新しく作成したテクニカルオペレーターを更新する必要があります。既存のテクニカルオペレーターフォルダーの権限を新しいテクニカルオペレーターに適用する必要があります。
+このオペレーターを更新するには、次の手順に従います。
 
 1. Campaign クライアントコンソールのエクスプローラーから、**管理／アクセス管理／オペレーター**&#x200B;を参照します。
-1. API に使用されている既存の技術オペレーターにアクセスします。
+1. API に使用される既存のテクニカルオペレーターにアクセスします。
 1. フォルダー権限を参照し、権限を確認します。
-1. 新しく作成したテクニカルオペレーターにも同じ権限を適用します。 このオペレーターの E メールは **テクニカルアカウントの電子メール** の値が以前にコピーされました。
+1. 新しく作成したテクニカルオペレーターに同じ権限を適用します。このオペレーターのメールアドレスは、以前にコピーした&#x200B;**テクニカルアカウントメールアドレス**&#x200B;の値です。
 1. 変更内容を保存します。
 
 
 >[!CAUTION]
 >
->新しい技術オペレーターが Campaign クライアントコンソールに追加する API 呼び出しを少なくとも 1 回おこなっている必要があります。
+>新しいテクニカルオペレーターは、Campaign クライアントコンソールに追加される API 呼び出しを 1 回以上実行する必要があります。
 >
 
 <!--
@@ -172,10 +172,10 @@ You can also update the technical operator programmatically, using SQL scripts o
 スムーズな統合のためのサンプルコードなど、API 統合手順について詳しくは、[Adobe Developer Console 認証ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
 
 
-### 手順 7 — 古い技術オペレーターを削除する {#ims-migration-step-7}
+### 手順 7 - 古いテクニカルオペレーターを削除 {#ims-migration-step-7}
 
 
-すべての API/カスタムコードの統合をテクニカルアカウントユーザーと移行した後。 古いテクニカルオペレーターは、Campaign クライアントコンソールから削除できます。
+すべての API／カスタムコードの移行後、テクニカルアカウントユーザーと統合します。古いテクニカルオペレーターは、Campaign クライアントコンソールから削除できます。
 
 ### SOAP 呼び出しのサンプル{#ims-migration-samples}
 
