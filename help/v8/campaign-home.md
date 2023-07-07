@@ -3,9 +3,9 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '157'
 ht-degree: 82%
 
 ---
@@ -33,37 +33,53 @@ ht-degree: 82%
 
 ## 基本を学ぶ
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="start/connect.md">
-      <img alt="接続" src="start/assets/do-not-localize/login.jpeg"/>
-    </a>
-    <div>
-    <a href="start/connect.md">Campaign への接続</a>
-    </div>
-    <br>
-  </td>
 
-<td valign="bottom">
-      <a href="start/import.md">
-       <img alt="読み込み" src="start/assets/do-not-localize/profiles.jpeg" />
-       </a>
-    <div><a href="start/import.md">プロファイルの読み込み</a>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="start/create-message.md">
-      <img alt="メール" src="start/assets/do-not-localize/email-design.jpeg" />
-    </a>
-    <div>
-    <a href="start/create-message.md">メールの作成</a>
-    </div>
-    <br>
-  </td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="start/connect.md">
+<img alt="Campaign v8 への接続" src="start/assets/do-not-localize/login.jpeg">
+</a>
+<div><a href="start/connect.md"><strong>Campaign への接続</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="start/import.md">
+<img alt="プロファイルのインポート" src="start/assets/do-not-localize/profiles.jpeg">
+</a>
+<div>
+<a href="start/import.md"><strong>プロファイルの読み込み</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="start/create-message.md">
+<img alt="メールの作成" src="start/assets/do-not-localize/email-design.jpeg">
+</a>
+<div>
+<a href="start/create-message.md"><strong>メールの作成</strong></a>
+</div>
+<p></td>
+<td>
+<a href="send/push.md">
+<img alt="プッシュ通知の送信" src="start/assets/do-not-localize/push-send.jpeg">
+</a>
+<div>
+<a href="send/push.md"><strong>プッシュ通知の送信</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../automation/workflow/about-workflows.md">
+<img alt="キャンペーンの作成" src="start/assets/do-not-localize/workflow.jpeg">
+</a>
+<div>
+<a href="../automation/workflow/about-workflows.md"><strong>ワークフローの作成</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
+
 
 ## その他のリソース
 
