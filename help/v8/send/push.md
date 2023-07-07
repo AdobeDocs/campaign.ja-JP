@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
 source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 モバイルアプリ配信を使用すると、iOS デバイスや Android デバイスに通知を送信できます。
 
-Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。[プッシュ設定の詳細を説明します。](push-settings.md)
+Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。[詳しくは、プッシュ設定を参照してください。](push-settings.md)
 
 ## 最初のプッシュ通知の作成{#push-create}
 
