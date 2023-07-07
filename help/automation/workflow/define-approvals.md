@@ -84,15 +84,15 @@ Web ページへのリンクが記載された承認メッセージを受け取�
 * **指定した日付の前の遅延**：指定された長さの時間を、指定した日付から引くことで、有効期限が計算されます。
 * **スクリプトによって有効期限を計算**：有効期限は、JavaScript を使用して計算されます。
 
-   次の例では、（**vars.deliveryId** によって識別される）配信開始日付の 24 時間前に有効期限を計算します。
+  次の例では、（**vars.deliveryId** によって識別される）配信開始日付の 24 時間前に有効期限を計算します。
 
-   ```
-   var delivery = nms.delivery.get(vars.deliveryId)
-   var expiration = delivery.scheduling.contactDate
-   var oneDay = 1000*60*60*24
-   expiration.setTime(expiration.getTime() - oneDay)
-   return expiration
-   ```
+  ```
+  var delivery = nms.delivery.get(vars.deliveryId)
+  var expiration = delivery.scheduling.contactDate
+  var oneDay = 1000*60*60*24
+  expiration.setTime(expiration.getTime() - oneDay)
+  return expiration
+  ```
 
 ## 複数の承認 {#multiple-approval}
 

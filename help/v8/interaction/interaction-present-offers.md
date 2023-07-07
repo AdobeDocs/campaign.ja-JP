@@ -4,7 +4,7 @@ title: オファーの提示（インバウンドインタラクション）
 description: Campaign インタラクションモジュールを使用して最適なオファーを提示する方法を説明します
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
 

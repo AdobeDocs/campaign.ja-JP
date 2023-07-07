@@ -4,7 +4,7 @@ title: マーケティングリソースの管理
 description: マーケティングリソースの管理方法を説明します
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 100%
 

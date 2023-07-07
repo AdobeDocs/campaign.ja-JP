@@ -104,9 +104,9 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 * **vars.crmStartImport**：最後のデータインポートの開始日（この日を含む）。
 * **vars.crmEndDate**：最後のデータインポートの終了日（この日を含まない）。
 
-   >[!NOTE]
-   >
-   >これらの日付は、**yyyy/MM/dd hh:mm:ss** 形式で表示されます。
+  >[!NOTE]
+  >
+  >これらの日付は、**yyyy/MM/dd hh:mm:ss** 形式で表示されます。
 
 ### データのフィルタリング {#filtering-data}
 

@@ -9,11 +9,11 @@ exl-id: b5a0fe46-f7b4-4be1-abf0-162fc1412886
 source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
 workflow-type: tm+mt
 source-wordcount: '1815'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# プッシュ通知チャネルの設定 {#push-notification-configuration}
+# プッシュ通知チャネルを設定 {#push-notification-configuration}
 
 Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。
 
@@ -180,7 +180,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 1. 「**[!UICONTROL ラベル]**」フィールドに、アプリの名前を入力します。
 1. （オプション）**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 
-   次の例では、 **mediaURl** および **mediaExt** 変数を追加してリッチなプッシュ通知を作成し、通知内に表示する画像をアプリケーションに提供します。
+   次の例では、**mediaURl** 変数と **mediaExt** 変数を追加し、リッチなプッシュ通知を作成してさらに通知内に表示する画像をアプリケーションに提供します。
 
    ![](assets/ios-app-parameters.png){width="600" align="left"}
 

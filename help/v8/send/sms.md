@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -69,15 +69,15 @@ SMS を作成およびデザインするための主な手順については、C
 
 * SMS の作成
 
-   ![](../assets/do-not-localize/book.png) [SMS 配信の作成方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=ja#sending-messages){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [SMS 配信の作成方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=ja#sending-messages){target="_blank"}
 
 * SMS コンテンツのデザイン
 
-   ![](../assets/do-not-localize/book.png)[SMS コンテンツのデザイン方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=ja#defining-the-sms-content){target="_blank"}
+  ![](../assets/do-not-localize/book.png)[SMS コンテンツのデザイン方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=ja#defining-the-sms-content){target="_blank"}
 
 * メールのオーディエンスを選択
 
-   ![](../assets/do-not-localize/book.png) [ターゲット母集団の定義方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [ターゲット母集団の定義方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja){target="_blank"}
 
 ![](../assets/do-not-localize/glass.png)オーディエンスを定義する手順について詳しくは、[このページ](../start/audiences.md)を参照してください。
 
@@ -90,9 +90,9 @@ SMS を作成およびデザインするための主な手順については、C
 配達確認を送信するには、次の Campaign Classic v7 ドキュメントの節を参照してください。
 
 * 配信の検証と配達確認の送信
-   ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [配信を検証するための主な手順](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja){target="_blank"}
 * シードアドレスの追加
-   ![](../assets/do-not-localize/book.png)[シードアドレスについての説明](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=ja){target="_blank"}
+  ![](../assets/do-not-localize/book.png)[シードアドレスについての説明](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=ja){target="_blank"}
 
 ## SMS 配信の送信および監視
 
@@ -100,8 +100,8 @@ SMS を送信および監視する主な手順については、Campaign Classic
 
 * SMS 配信の送信、監視、追跡
 
-   ![](../assets/do-not-localize/book.png)[SMS を送信、監視、および追跡するツールについて学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=ja#sending-messages){target="_blank"}
+  ![](../assets/do-not-localize/book.png)[SMS を送信、監視、および追跡するツールについて学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=ja#sending-messages){target="_blank"}
 
 * SMS 配信のトラブルシューティング
 
-   ![](../assets/do-not-localize/book.png) [SMS のトラブルシューティングについて学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=ja#sending-messages){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [SMS のトラブルシューティングについて学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/troubleshooting-sms.html?lang=ja#sending-messages){target="_blank"}

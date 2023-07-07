@@ -5,7 +5,7 @@ description: マーケティングキャンペーンのオーディエンスを�
 feature: Campaigns, Audiences
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 100%
 

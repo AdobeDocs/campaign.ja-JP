@@ -1,25 +1,25 @@
 ---
-title: Adobe Campaignでの電子メールの設定
-description: Adobe Campaignで電子メールを設定する方法を説明します。
+title: Adobe Campaign を使用したメールの設定
+description: Adobe Campaign でメールを設定する方法を説明します。
 feature: Email
 role: User
 level: Beginner
 source-git-commit: 263ec61c3717c054cc135f1c4fb1f7e287e4a154
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
 # 配信の設定と送信 {#configure-delivery}
 
-## 追加のパラメーターの設定 {#delivery-additional-parameters}
+## 追加パラメーターの設定 {#delivery-additional-parameters}
 
 配信を送信する前に、配信プロパティの「**[!UICONTROL 配信]**」タブで送信パラメーターを定義できます。
 
 ![](assets/delivery-properties-delivery.png)
 
-* **[!UICONTROL 配信の優先順位]**:配信の優先順位レベルを次の順に設定して、配信の送信順序を変更するには、このオプションを使用します。 **[!UICONTROL 非常に低い]** から **[!UICONTROL 高画質]** ( デフォルト値は **[!UICONTROL 標準]**) をクリックします。
+* **[!UICONTROL 配信の優先順位]**：配信の優先順位レベルを&#x200B;**[!UICONTROL 非常に低い]**&#x200B;から&#x200B;**[!UICONTROL 非常に高い]**&#x200B;に設定して、配信の送信順序を変更します（デフォルト値は&#x200B;**[!UICONTROL 標準]**）。
 
 * **[!UICONTROL メッセージのバッチサイズ]**：1 つの XML 配信パッケージ内でグループ化するメッセージの件数を定義します。このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
 
@@ -35,7 +35,7 @@ ht-degree: 83%
   >
   >* このオプションは、ミッドソーシングで設定しないでください。
   >
-  >* SMTP サーバー設定の詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+  >* SMTP サーバー設定について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
 
 * **[!UICONTROL BCC で E メールを送信]**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存します。[詳細情報](email-parameters.md)。
 
@@ -68,7 +68,7 @@ ht-degree: 83%
 
      ![](assets/delivery-waves-calendar.png)
 
-   特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。キャンペーンタイポロジとそのルール (「 **[!UICONTROL タイポロジ]** 配信プロパティの「 」タブについては、 [この節](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+   特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。キャンペーンタイポロジとそのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定します。詳しくは、[この節](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->を参照してください。
 
    >[!IMPORTANT]
    >

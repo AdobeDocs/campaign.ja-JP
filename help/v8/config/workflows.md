@@ -140,7 +140,7 @@ Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクショ
 
 * [誕生日メールの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja)
 
-   この使用例では、受信者のリストに対して、誕生日に定期メールを送信する計画の策定方法を示します。
+  この使用例では、受信者のリストに対して、誕生日に定期メールを送信する計画の策定方法を示します。
 
 * [配信コンテンツの読み込み](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja)
 リモートサーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。

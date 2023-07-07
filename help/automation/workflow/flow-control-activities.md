@@ -27,4 +27,4 @@ ht-degree: 100%
 * **[テスト](test.md)**：テスト結果に基づくトランジションを有効にします。
 * **[時間制限](time-constraint.md)**：一定時間タスクを一時停止します。
 * **[待機](wait.md)**：所定の制限時間経過後にアウトバウンドトランジションを有効にします。
-   <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->
+  <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

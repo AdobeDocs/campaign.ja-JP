@@ -23,11 +23,11 @@ ht-degree: 100%
 
 * **[!UICONTROL スクリプト]**
 
-   エディターの中央部に、実行されるスクリプトが含まれています。このスクリプトは、JST テンプレートであり、ワークフローのコンテキストに応じて設定できます。
+  エディターの中央部に、実行されるスクリプトが含まれています。このスクリプトは、JST テンプレートであり、ワークフローのコンテキストに応じて設定できます。
 
 * **[!UICONTROL エラーを処理]**
 
-   [エラーを処理](monitor-workflow-execution.md#processing-errors)を参照してください。
+  [エラーを処理](monitor-workflow-execution.md#processing-errors)を参照してください。
 
 ## JavaScript コードと高度な JavaScript コード {#javascript-code}
 

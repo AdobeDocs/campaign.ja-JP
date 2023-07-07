@@ -7,7 +7,7 @@ breadcrumb-title: Campaign の概要
 source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 97%
       + メール {#emails}
          + [メールのデザインと検証](send/email.md)
          + [ミラーページへのリンク](send/mirror-page.md)
-         + [追加の E メールパラメーターの定義](send/email-parameters.md)
+         + [追加のメールパラメーターを定義](send/email-parameters.md)
          + [メールの送信と監視](send/send.md)
       + [SMS](send/sms.md)
       + プッシュ通知 {#push}
          + [プッシュ通知の作成と送信](send/push.md)
-         + [プッシュ通知チャネルの設定](send/push-settings.md)
-         + [データ収集を使用したプッシュ通知の設定](send/push-data-collection.md)
+         + [プッシュ通知チャネルを設定](send/push-settings.md)
+         + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
       + [LINE メッセージ](send/line.md)
       + [ダイレクトメール](send/direct-mail.md)
       + [Twitter](send/twitter.md)

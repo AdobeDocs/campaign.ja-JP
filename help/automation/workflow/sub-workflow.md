@@ -53,7 +53,7 @@ ht-degree: 100%
 * 中間母集団の数は表示できません。
 * サブワークフローのログは、プライマリワークフローに表示されます。
 
-   ![](assets/subworkflow_logs.png)
+  ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

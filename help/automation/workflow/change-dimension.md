@@ -46,27 +46,27 @@ ht-degree: 100%
 
    * 「**[!UICONTROL データを追加...]**」リンクをクリックし、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択します。
 
-      ![](assets/wf_change-dimension_sample_01.png)
+     ![](assets/wf_change-dimension_sample_01.png)
 
-      >[!NOTE]
-      >
-      >追加する列の作成と管理について詳しくは、[データの追加](query.md#add-data)を参照してください。
+     >[!NOTE]
+     >
+     >追加する列の作成と管理について詳しくは、[データの追加](query.md#add-data)を参照してください。
 
    * 以前のターゲティングディメンション（軸変更の前）を選択し、受信者の「**[!UICONTROL 場所]**」サブツリーで「**[!UICONTROL 郵便番号]**」を選択して「**[!UICONTROL 式を編集]**」をクリックします。
 
-      ![](assets/wf_change-dimension_sample_02.png)
+     ![](assets/wf_change-dimension_sample_02.png)
 
    * 「**[!UICONTROL 詳細選択]**」をクリックし、「**[!UICONTROL 式を使用して数式を編集]**」を選択します。
 
-      ![](assets/wf_change-dimension_sample_03.png)
+     ![](assets/wf_change-dimension_sample_03.png)
 
    * リストで提供される関数を使用して、実行される計算を指定します。
 
-      ![](assets/wf_change-dimension_sample_04.png)
+     ![](assets/wf_change-dimension_sample_04.png)
 
    * 最後に、作成した列のラベルを入力します。
 
-      ![](assets/wf_change-dimension_sample_05.png)
+     ![](assets/wf_change-dimension_sample_05.png)
 
 1. ワークフローを実行して、この設定の結果を確認します。次の図に示すように、ディメンションアクティビティの変更前と変更後のテーブル内のデータを比較し、さらにワークフローテーブルの構造も比較します。
 

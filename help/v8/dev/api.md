@@ -29,6 +29,7 @@ JavaScript の API を使用すると、Campaign クラウドデータベース�
 >[!CAUTION]
 >
 >[!DNL Adobe Campaign] v8 には、API レイヤーのスループット（TPS）に制限があります。この制限を超えると、標準 HTTP エラー（429）が発生します。 Managed Cloud Services のユーザーは、アドビに連絡して、各 API の調整を適応してもらうことができます。
+> 
 
 ## 前提条件
 

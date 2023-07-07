@@ -24,7 +24,7 @@ ht-degree: 100%
 * 「テスト」アクティビティでは、JavaScript の式を評価して、適切なトランジションを有効化します。
 * ほとんどのテキストフィールドは、JavaScript テンプレートになっています。JavaScript の式は、&lt;%= と %> の間に記述します。これらのフィールドにはドロップダウンリストを開くボタンがあり、式を簡単に入力できるようになっています。
 
-   ![](assets/script-button.png)
+  ![](assets/script-button.png)
 
 ## 公開されるオブジェクト {#objects-exposed}
 

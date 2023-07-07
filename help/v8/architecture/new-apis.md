@@ -18,11 +18,11 @@ ht-degree: 100%
 
 * 取得 API：**xtk.session.ingest**
 
-   この API は、データ挿入専用です。[詳細情報](#data-insert-api)
+  この API は、データ挿入専用です。[詳細情報](#data-insert-api)
 
 * データ更新／削除 API：**xtk.session.ingestExt**
 
-   この API は、データを更新または削除するために使用されます。[詳細情報](#data-update-api)
+  この API は、データを更新または削除するために使用されます。[詳細情報](#data-update-api)
 
 専用のビルトインワークフローが、Cloud データベースのデータを同期します。
 

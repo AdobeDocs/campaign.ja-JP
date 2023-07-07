@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 100%
 
@@ -22,41 +22,41 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 * 受信者のプロファイルにサービスを手動で追加するには、プロファイルの「**[!UICONTROL 購読]**」タブから「 **[!UICONTROL 追加]**」をクリックし、該当する情報サービスを選択します。
 
-   ![](assets/subscribe-to-a-service.png)
+  ![](assets/subscribe-to-a-service.png)
 
-   ![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab)を参照してください{target="_blank"}
+  ![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab)を参照してください{target="_blank"} を参照してください。
 
 * 受信者のセットを、このサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。これらの受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
 
-   ![](assets/subscribe-selection.png)
+  ![](assets/subscribe-selection.png)
 
-   該当するサービスを選択し、操作を開始します。
+  該当するサービスを選択し、操作を開始します。
 
-   ![](assets/subscribe-confirm.png)
+  ![](assets/subscribe-confirm.png)
 
-   ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
+  ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
 
 
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
 
-   ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ja#step-5---additional-step-when-importing-recipients){target="_blank"}を参照してください
+  ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ja#step-5---additional-step-when-importing-recipients){target="_blank"}を参照してください
 
 * 受信者がサービスの購読を登録できる Web フォームを使用します。
 
-   ![](assets/opt-in-webapp.png)
+  ![](assets/opt-in-webapp.png)
 
-   Campaign には、オプトインを管理するためのデフォルトの Web フォームが用意されています。これをパーソナライズし、プロファイルデータをマッピングできます。
+  Campaign には、オプトインを管理するためのデフォルトの Web フォームが用意されています。これをパーソナライズし、プロファイルデータをマッピングできます。
 
-   ![](assets/web-app.png)
+  ![](assets/web-app.png)
 
-   ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=ja#create-a-subscription--form-with-double-opt-in){target="_blank"}を参照してください
+  ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=ja#create-a-subscription--form-with-double-opt-in){target="_blank"}を参照してください
 
 
 * ターゲティングワークフローを作成し、**[!UICONTROL 購読サービス]**&#x200B;アクティビティを使用します。
 
-   ![](assets/wf-subscription.png)
+  ![](assets/wf-subscription.png)
 
-   詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja)を参照してください。
+  詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja)を参照してください。
 
 プロファイルをサービスから購読解除（オプトアウト）するには、次のオプションを使用できます。
 

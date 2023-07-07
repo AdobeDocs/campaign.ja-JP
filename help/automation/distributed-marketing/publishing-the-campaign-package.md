@@ -5,7 +5,7 @@ description: キャンペーンパッケージの公開
 feature: Distributed Marketing
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 

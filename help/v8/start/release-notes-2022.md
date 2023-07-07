@@ -6,7 +6,7 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 100%
 
@@ -77,9 +77,9 @@ _2022年9月30日（PT）_
 * この変更は、GET URL にのみ適用されます。その他のタイプ（POST URL など）は影響を受けません。
 * カスタムコードを使用する場合は、セキュリティトークンが GET URL の securitytoken パラメーターから取得されなくなりました。次の JSSP コードを使用して新しいセキュリティトークンを生成する必要があります。
 
-   ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+  ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
 
-   また、Login API を使用してセキュリティトークンを取得することもできます。
+  また、Login API を使用してセキュリティトークンを取得することもできます。
 * セッショントークン管理に変更はありません。
 
 **改善点**
@@ -226,9 +226,8 @@ _2022年5月18日（PT）_
 * Campaign で、POP3 の Microsoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。[詳細情報](../config/external-accounts.md#bounce-mails-external-account)
 * Microsoft Dynamics Connector web API に関する重要な修正が適用されました。
 * 新しいオペレーターおよびグループスキーマの書き込み（operatorWrite）ネームド権限が追加され、ユーザーがオペレーター（xtk:operator）およびオペレーターグループ（xtk:group）スキーマを挿入、更新、削除できるようになりました。
-   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
-
-   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
+  <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
+  <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * 1 つのミッドソーシングで複数のアクティブな LINE アカウントを設定できるようになりました。
 * Web プロセスのデフォルト接続数が 50 から 150 に増えました。
 * Campaign は、重複したキーが Snowflake データベースに挿入されるのを防ぐための、一連の新しいガードレールを備えています。[詳細を表示](../architecture/keys.md)

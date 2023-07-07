@@ -7,8 +7,8 @@ level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '648'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 0%
 >* 現時点では、Campaign v8 は Managed Cloud Service として&#x200B;**のみ**&#x200B;使用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。[詳細情報](#cloud-services)
 >
 >* 既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
-
 
 
 ## Managed Cloud Services{#cloud-services}

@@ -5,7 +5,7 @@ description: 承認
 feature: Workflows, Approvals
 exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -25,15 +25,15 @@ ht-degree: 100%
 
 * 1 人のオペレーターを選択するには、「**[!UICONTROL 割り当てタイプ]**」フィールドで「**[!UICONTROL オペレーター]**」値を選択し、「**[!UICONTROL 担当者]**」フィールドのドロップダウンリストから該当するオペレーターを選択します。
 
-   ![](assets/s_advuser_validation_box_assign.png)
+  ![](assets/s_advuser_validation_box_assign.png)
 
-   >[!CAUTION]
-   >
-   >選ばれたオペレーターだけに、タスクの承認権限が与えられます。
+  >[!CAUTION]
+  >
+  >選ばれたオペレーターだけに、タスクの承認権限が与えられます。
 
 * 承認オペレーターをフィルターするクエリを定義できます。それには、下図の例に示すように、「**[!UICONTROL 割り当てタイプ]**」フィールドで「**[!UICONTROL フィルター]**」値を選択し、「**[!UICONTROL 詳細設定パラメーター...]**」リンクをクリックして、フィルター条件を定義します。
 
-   ![](assets/s_advuser_validation_box_filter.png)
+  ![](assets/s_advuser_validation_box_filter.png)
 
 単独承認の場合は、オペレーターの選択に対応するトランジションが有効化され、タスクが完了します。他のオペレーターは回答できません。
 
@@ -69,8 +69,8 @@ ht-degree: 100%
 
 * **[!UICONTROL 回答]**
 
-   回答に関連するコメント
+  回答に関連するコメント
 
 * **[!UICONTROL responseOperator]**
 
-   回答したオペレーターの ID。このフィールドには数値が入りますが、**[!UICONTROL String]** フィールドです。
+  回答したオペレーターの ID。このフィールドには数値が入りますが、**[!UICONTROL String]** フィールドです。

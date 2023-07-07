@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
 
@@ -38,27 +38,27 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
 * メインターゲットへの手動によるメッセージ送信
 
-   ![](assets/send-email.png)
+  ![](assets/send-email.png)
 
-   メッセージの送信方法については、[この節](../send/send.md)を参照してください
+  メッセージの送信方法については、[この節](../send/send.md)を参照してください
 
 * [マーケティングキャンペーン](campaigns.md)に関連付けられたメッセージの送信
 
-   ![](assets/deliveries-in-a-campaign.png)
+  ![](assets/deliveries-in-a-campaign.png)
 
-   キャンペーンの状況に応じてメッセージを送信する方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja)を参照してください。
+  キャンペーンの状況に応じてメッセージを送信する方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja)を参照してください。
 
 * [ワークフロー](../config/workflows.md)を介したメッセージの送信
 
-   ![](assets/send-in-a-wf.png)
+  ![](assets/send-in-a-wf.png)
 
-    メール配信を自動化する方法については、[このページ](../../automation/workflow/delivery.md)を参照してください。
+   メール配信を自動化する方法については、[このページ](../../automation/workflow/delivery.md)を参照してください。
 
 * イベントからの[メッセージのトリガー](../send/transactional.md)
 
 * メッセージのスケジュール設定
 
-   ![](assets/schedule-send.png)
+  ![](assets/schedule-send.png)
 
 [ユースケース：誕生日メールのスケジュール設定と送信方法](../../automation/workflow/send-a-birthday-email.md)
 

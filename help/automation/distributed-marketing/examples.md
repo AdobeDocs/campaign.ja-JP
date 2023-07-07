@@ -38,35 +38,35 @@ ht-degree: 100%
 
 * オーダー時にローカルエンティティによって入力されるフィールド
 
-   ![](assets/mkg_dist_web_app2.png)
+  ![](assets/mkg_dist_web_app2.png)
 
 * ローカルエンティティがキャンペーン（ターゲット、予算、コンテンツなど）を評価するためのリンク
 
-   ![](assets/mkg_dist_web_app3.png)
+  ![](assets/mkg_dist_web_app3.png)
 
 * 評価の結果を計算および表示するスクリプト
 
-   ![](assets/mkg_dist_web_app4.png)
+  ![](assets/mkg_dist_web_app4.png)
 
 この例では、次の API が使用されています。
 
 * ターゲットの評価：
 
-   ```
-   var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
-   ```
+  ```
+  var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
+  ```
 
 * 予算の評価：
 
-   ```
-   var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
-   ```
+  ```
+  var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
+  ```
 
 * コンテンツの評価：
 
-   ```
-   var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
-   ```
+  ```
+  var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
+  ```
 
 ## 共同キャンペーンを作成（ターゲットの承認） {#creating-a-collaborative-campaign--by-target-approval-}
 
@@ -215,7 +215,7 @@ ht-degree: 100%
    * 配信コンテンツをプレビューします。
    * 参加を承認します。
 
-      ![](assets/mkg_dist_use_case_form_8.png)
+     ![](assets/mkg_dist_use_case_form_8.png)
 
 1. オーダーの検証を担当するオペレーターが、参加を承認します。
 

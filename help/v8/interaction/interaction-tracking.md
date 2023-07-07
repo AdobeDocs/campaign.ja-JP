@@ -24,15 +24,15 @@ ht-degree: 100%
 
 * オファーのレベルで、「**[!UICONTROL 編集]**」タブの「**[!UICONTROL 提案]**」をクリックします。
 
-   ![](assets/offer_followup_006.png)
+  ![](assets/offer_followup_006.png)
 
 * 受信者のプロファイルから、「**[!UICONTROL 提案]**」タブをクリックします。
 
-   ![](assets/offer_followup_002.png)
+  ![](assets/offer_followup_002.png)
 
 * オファースペースのレベルで、「**[!UICONTROL 提案]**」タブをクリックします。
 
-   ![](assets/offer_space_prop_001_b.png)
+  ![](assets/offer_space_prop_001_b.png)
 
 ## オファー分析レポート{#offer-analysis-report}
 
@@ -42,14 +42,14 @@ ht-degree: 100%
 
 * 日付別：
 
-   ![](assets/offer_report_perdate.png)
+  ![](assets/offer_report_perdate.png)
 
 * スペース別：
 
-   ![](assets/offer_report_perspaces.png)
+  ![](assets/offer_report_perspaces.png)
 
 * 配信別：
 
-   ![](assets/offer_report_perdeliveries.png)
+  ![](assets/offer_report_perdeliveries.png)
 
 レポートの上部で使用できる様々な条件に基づいて、データをフィルタリングできます。目的の基準を選択して、「**[!UICONTROL 更新]**」リンクをクリックすると、レポートに適用されます。

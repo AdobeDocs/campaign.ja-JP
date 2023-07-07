@@ -134,17 +134,17 @@ vars.strWorkflowStop = strStop;
 * **スーパーバイザーの E メールアドレス**
 * **パーソナライズされたテキストを挿入するための HTML コンテンツ**
 
-   ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
 
-   宣言する 3 つの変数（WF_Stop、WF_Paused、WF_Error）は、3 つのワークフローイベント変数に相当します。
+  宣言する 3 つの変数（WF_Stop、WF_Paused、WF_Error）は、3 つのワークフローイベント変数に相当します。
 
-   これらの変数は、配信テンプレートプロパティの「**変数**」タブで宣言する必要があります。
+  これらの変数は、配信テンプレートプロパティの「**変数**」タブで宣言する必要があります。
 
-   **ワークフローイベント変数の内容**&#x200B;を復元するには、JavaScript コードで返される値で初期化する配信に固有の変数を宣言する必要があります。
+  **ワークフローイベント変数の内容**&#x200B;を復元するには、JavaScript コードで返される値で初期化する配信に固有の変数を宣言する必要があります。
 
-   配信テンプレートには次のコンテンツがあります。
+  配信テンプレートには次のコンテンツがあります。
 
-   ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![](assets/uc_monitoring_workflow_model_diffusion.png)
 
 テンプレートが作成され承認されたら、「**配信**」アクティビティを設定して次のことをおこなう必要があります。
 
@@ -158,20 +158,20 @@ vars.strWorkflowStop = strStop;
 * 実行するアクション：「**準備と開始**」を選択します。
 * 「**エラーを処理**」オプションのチェックボックスをオフにします。
 
-   ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![](assets/uc_monitoring_workflow_optionmodel.png)
 
 * 「**配信**」アクティビティの「**スクリプト**」タブに移動し、パーソナライゼーションフィールドメニューから 3 つの&#x200B;**文字列**&#x200B;タイプ変数を追加します。
 
-   ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-   ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![](assets/uc_monitoring_workflow_linkvariables.png)
 
-   これらの変数は次のように宣言します。
+  これらの変数は次のように宣言します。
 
-   ```
-   delivery.variables._var[0].stringValue = vars.strWorkflowError;
-   delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
-   delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
-   ```
+  ```
+  delivery.variables._var[0].stringValue = vars.strWorkflowError;
+  delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
+  delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
+  ```
 
 モニタリングワークフローが起動されると、サマリーが受信者に送信されます。

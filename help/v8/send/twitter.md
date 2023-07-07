@@ -5,7 +5,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Twitter アカウントにメッセージを投稿するには、次の手順に
    >
    >* メッセージの長さは 140 文字以下にする必要があります。
    >* HTML はサポートされていません。
-
+   >
 
 1. 投稿をプレビュー
 

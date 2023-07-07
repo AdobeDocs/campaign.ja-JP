@@ -82,15 +82,16 @@ ht-degree: 100%
    * **[!UICONTROL 自動選択]**：保持するレコードが重複からランダムに選択されます。
    * **[!UICONTROL 値のリストの使用]**：1 つまたは複数のフィールドの優先度の値を定義します。優先度の値を定義するには、フィールドを選択するか式を作成し、適切なフィールドに値を追加します。新しいフィールドを定義するには、値のリストの上の「**[!UICONTROL 新規]**」ボタンをクリックします。
 
-      ![](assets/s_user_segmentation_dedup_param5.png)
+     ![](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL 空でない値]**：選択した式の値が空でないレコードを優先して保持できます。
 
-      ![](assets/s_user_segmentation_dedup_param6.png)
+     ![](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL 式の使用]**：所定の式の値が、最小（または最大）であるレコードを保持します。
 
-      ![](assets/s_user_segmentation_dedup_param7.png)
+     ![](assets/s_user_segmentation_dedup_param7.png)
+
    >[!NOTE]
    >
    >**[!UICONTROL 結合]**&#x200B;機能は、**[!UICONTROL 詳細設定パラメーター]**&#x200B;リンクからアクセスでき、フィールドまたはフィールドのグループを 1 つの結果データレコードに結合するための一連のルールを設定できます。 この点について詳しくは、[フィールドを単一のレコードに結合する](#merging-fields-into-single-record)を参照してください。

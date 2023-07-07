@@ -4,7 +4,7 @@ description: Adobe Campaign の組み込み配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 100%
 
@@ -65,9 +65,9 @@ ht-degree: 100%
 * **[!UICONTROL ミラーページリンクのクリック数]**：[ミラーページ](../send/mirror-page.md)へのリンクのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。
 * **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送される E メール数の推定値。この値は、ユニークユーザーの数と E メールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
-   >[!NOTE]
-   >
-   >ユニークユーザーとターゲット受信者の違いについて詳しくは、[ターゲットユーザー／ターゲット受信者](metrics-calculation.md#targeted-persons---recipients)を参照してください。
+  >[!NOTE]
+  >
+  >ユニークユーザーとターゲット受信者の違いについて詳しくは、[ターゲットユーザー／ターゲット受信者](metrics-calculation.md#targeted-persons---recipients)を参照してください。
 
 **[!UICONTROL 3.開封率およびクリックスルー率]**
 

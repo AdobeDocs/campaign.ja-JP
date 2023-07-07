@@ -27,11 +27,11 @@ ht-degree: 100%
 
 * **[!UICONTROL アウトバウンドトランジションを生成]**
 
-   実行の終了時に有効化される出力トランジションを生成します。アウトバウンド配信のターゲットを取得するかどうかを選択できます。
+  実行の終了時に有効化される出力トランジションを生成します。アウトバウンド配信のターゲットを取得するかどうかを選択できます。
 
 * **[!UICONTROL エラーを処理]**
 
-   [エラーを処理](monitor-workflow-execution.md#processing-errors)を参照してください。
+  [エラーを処理](monitor-workflow-execution.md#processing-errors)を参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

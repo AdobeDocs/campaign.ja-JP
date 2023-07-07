@@ -6,7 +6,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 100%
 
@@ -259,7 +259,7 @@ Publication lets you automatically create two message templates on the execution
 
 * 実際、対応するイベントがトリガーされた場合、公開済みのテンプレートは引き続き呼び出すことができます。メッセージテンプレートを使用しなくなった場合は、非公開にすることをお勧めします。これは、不要なトランザクションメッセージを誤って送信するのを避けるためです。
 
-   例えば、クリスマスキャンペーンにのみ使用するメッセージテンプレートを公開したとします。クリスマス期間が終わったらテンプレートを非公開にして、来年の同時期に再度パブリッシュすることができます。
+  例えば、クリスマスキャンペーンにのみ使用するメッセージテンプレートを公開したとします。クリスマス期間が終わったらテンプレートを非公開にして、来年の同時期に再度パブリッシュすることができます。
 
 * また、ステータスが「**[!UICONTROL パブリッシュ済み]**」のトランザクションメッセージテンプレートは削除できません。最初にテンプレートを非公開にする必要があります。
 
@@ -278,8 +278,8 @@ Publication lets you automatically create two message templates on the execution
 
 * 両方のメッセージテンプレート（バッチイベントとリアルタイムタイプのイベントに適用）が削除されます<!-- from each execution instance-->。
 
-   これらのテンプレートが、**[!UICONTROL 管理／プロダクション／Message Center の実行／デフォルト／トランザクションメッセージテンプレート]**&#x200B;フォルダーに表示されなくなりました。
+  これらのテンプレートが、**[!UICONTROL 管理／プロダクション／Message Center の実行／デフォルト／トランザクションメッセージテンプレート]**&#x200B;フォルダーに表示されなくなりました。
 
 * テンプレートを非公開にした後は、削除できます<!-- from the control instance-->。
 
-   これを行うには、リストからテンプレートを選択し、画面の右上にある「**[!UICONTROL 削除]**」ボタンをクリックします。
+  これを行うには、リストからテンプレートを選択し、画面の右上にある「**[!UICONTROL 削除]**」ボタンをクリックします。

@@ -21,11 +21,11 @@ ht-degree: 100%
 
 * 「**[!UICONTROL 監査]**」サブタブには、アクティビティジャーナルが表示されます。ワークフローの作成または開始、承認、抽出、在庫管理など、キャンペーンで実行されるジョブが含まれます。
 
-   ![](assets/campaign-audit-tab.png)
+  ![](assets/campaign-audit-tab.png)
 
 * 「**[!UICONTROL 配信]**」サブタブには、キャンペーンのすべての配信が含まれます。このビューから編集できます。編集するには、配信を選択し、「**[!UICONTROL 詳細]**」アイコンをクリックします。
 
-   ![](assets/campaign-delivery-tab.png)
+  ![](assets/campaign-delivery-tab.png)
 
 * 「**[!UICONTROL 承認]**」サブタブには、キャンペーンのすべての承認プロセスが含まれます。詳細とコメントを確認できます。
 

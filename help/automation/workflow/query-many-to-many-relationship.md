@@ -21,15 +21,15 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-   受信者テーブル（**nms:recipient**）
+  受信者テーブル（**nms:recipient**）
 
 * 出力列に選択するフィールドは何ですか。
 
-   「プライマリキー」、「姓」、「名」および「E メール」
+  「プライマリキー」、「姓」、「名」および「E メール」
 
 * どのような条件に基づいて情報をフィルターしますか。
 
-   過去 7 日間の受信者の配信ログに基づきます。
+  過去 7 日間の受信者の配信ログに基づきます。
 
 次の手順に従います。
 
@@ -47,21 +47,21 @@ ht-degree: 100%
 
    * まず、最初の「**[!UICONTROL 式]**」列に対して、**[!UICONTROL 受信者配信ログ（broadlog）]**&#x200B;コレクション要素（オレンジ色のノード）を選択します。
 
-      ![](assets/query_editor_nveau_67.png)
+     ![](assets/query_editor_nveau_67.png)
 
-      「**[!UICONTROL 次の場合には存在しません]**」演算子を選択します。このラインで 2 番目の値を選択する必要はありません。
+     「**[!UICONTROL 次の場合には存在しません]**」演算子を選択します。このラインで 2 番目の値を選択する必要はありません。
 
    * 2 番目のフィルター条件の内容は、最初のフィルター条件によって異なります。ここでは、**[!UICONTROL 受信者配信ログ]**&#x200B;テーブルへのリンクがあるので、このテーブルの「**[!UICONTROL イベントの日付]**」フィールドが直接提供されます。
 
-      ![](assets/query_editor_nveau_36.png)
+     ![](assets/query_editor_nveau_36.png)
 
-      「**[!UICONTROL イベントの日付]**」を「**[!UICONTROL 以降]**」演算子とともに選択します。**[!UICONTROL DaysAgo（7）]**&#x200B;の値を選択します。そのためには、「**[!UICONTROL 値]**」フィールドで&#x200B;**[!UICONTROL 式を編集]**&#x200B;をクリックします。**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで「**[!UICONTROL 日付で処理]**」および「**[!UICONTROL 現在の日付 - n 日]**」を選択し、値に &quot;7&quot; を指定します。
+     「**[!UICONTROL イベントの日付]**」を「**[!UICONTROL 以降]**」演算子とともに選択します。**[!UICONTROL DaysAgo（7）]**&#x200B;の値を選択します。そのためには、「**[!UICONTROL 値]**」フィールドで&#x200B;**[!UICONTROL 式を編集]**&#x200B;をクリックします。**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで「**[!UICONTROL 日付で処理]**」および「**[!UICONTROL 現在の日付 - n 日]**」を選択し、値に &quot;7&quot; を指定します。
 
-      ![](assets/query_editor_nveau_37.png)
+     ![](assets/query_editor_nveau_37.png)
 
-      フィルター条件が設定されました。
+     フィルター条件が設定されました。
 
-      ![](assets/query_editor_nveau_38.png)
+     ![](assets/query_editor_nveau_38.png)
 
 1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。次のステップに進みます。************
 

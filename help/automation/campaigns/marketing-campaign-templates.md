@@ -5,7 +5,7 @@ description: マーケティングキャンペーンテンプレート
 feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 100%
 
@@ -66,96 +66,96 @@ ht-degree: 100%
 
 * 例えば、次の設定を使用します。
 
-   ![](assets/campaign-template-select-functionalities.png)
+  ![](assets/campaign-template-select-functionalities.png)
 
-   キャンペーンダッシュボードには、次の情報が表示されます。
+  キャンペーンダッシュボードには、次の情報が表示されます。
 
-   ![](assets/campaign-template-dashboard-sample-1.png)
+  ![](assets/campaign-template-dashboard-sample-1.png)
 
-   「**[!UICONTROL ターゲティングとワークフロー]**」タブは表示されません。
+  「**[!UICONTROL ターゲティングとワークフロー]**」タブは表示されません。
 
-   次の機能を使用できます。
+  次の機能を使用できます。
 
-   ![](assets/campaign-template-edit-sample-1.png)
+  ![](assets/campaign-template-edit-sample-1.png)
 
-   「**[!UICONTROL 予算]**」タブは表示されません。
+  「**[!UICONTROL 予算]**」タブは表示されません。
 
-   キャンペーンの詳細設定には、この設定も反映されています。
+  キャンペーンの詳細設定には、この設定も反映されています。
 
-   ![](assets/campaign-template-parameters-sample-1.png)
+  ![](assets/campaign-template-parameters-sample-1.png)
 
-   「**[!UICONTROL 承認]**」タブは使用できません。
+  「**[!UICONTROL 承認]**」タブは使用できません。
 
 * 次の設定を使用します。
-   ![](assets/campaign-template-dashboard-sample-2.png)
+  ![](assets/campaign-template-dashboard-sample-2.png)
 
-   キャンペーンダッシュボードには、次の情報が表示されます。
+  キャンペーンダッシュボードには、次の情報が表示されます。
 
-   ![](assets/campaign-template-select-functionalities-2.png)
+  ![](assets/campaign-template-select-functionalities-2.png)
 
-   「**[!UICONTROL ターゲティングとワークフロー]**」タブは使用可能ですが、「**ドキュメントを追加**」するリンクはありません。
+  「**[!UICONTROL ターゲティングとワークフロー]**」タブは使用可能ですが、「**ドキュメントを追加**」するリンクはありません。
 
-   次の機能を使用できます。
+  次の機能を使用できます。
 
-   ![](assets/campaign-template-edit-sample-2.png)
+  ![](assets/campaign-template-edit-sample-2.png)
 
-   「**[!UICONTROL 予算]**」タブを使用できます。
+  「**[!UICONTROL 予算]**」タブを使用できます。
 
-   キャンペーンの詳細設定には、この設定も反映されています。
+  キャンペーンの詳細設定には、この設定も反映されています。
 
-   ![](assets/campaign-template-parameters-sample-2.png)
+  ![](assets/campaign-template-parameters-sample-2.png)
 
-   「**[!UICONTROL 承認]**」タブは使用可能ですが、「**[!UICONTROL コントロール母集団]**」タブと「**[!UICONTROL シードアドレス]**」タブは有効になっていません。
+  「**[!UICONTROL 承認]**」タブは使用可能ですが、「**[!UICONTROL コントロール母集団]**」タブと「**[!UICONTROL シードアドレス]**」タブは有効になっていません。
 
 
 ## モジュールのタイポロジ {#typology-of-enabled-modules}
 
 * **コントロール母集団**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。 コントロール母集団の詳細については、 [こちらの節](marketing-campaign-deliveries.md#defining-a-control-group)を参照してください。
+  このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。 コントロール母集団の詳細については、 [こちらの節](marketing-campaign-deliveries.md#defining-a-control-group)を参照してください。
 
-   ![](assets/template-activate-1.png)
+  ![](assets/template-activate-1.png)
 
 
 * **シードアドレス**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。
+  このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの詳細設定にタブが追加されます。設定は、テンプレートで、またはキャンペーンごとに個別に定義できます。
 
-   ![](assets/template-activate-2.png)
+  ![](assets/template-activate-2.png)
 
 * **ドキュメント**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの「**[!UICONTROL 編集]**」タブにタブが追加されます。添付ドキュメントは、テンプレートから追加することも、キャンペーンごとに個別に追加することもできます。 ドキュメントの詳細については、[こちらの節](marketing-campaign-deliveries.md#manage-associated-documents)を参照してください。
+  このモジュールを選択すると、テンプレートおよびこのテンプレートをベースとするキャンペーンの「**[!UICONTROL 編集]**」タブにタブが追加されます。添付ドキュメントは、テンプレートから追加することも、キャンペーンごとに個別に追加することもできます。 ドキュメントの詳細については、[こちらの節](marketing-campaign-deliveries.md#manage-associated-documents)を参照してください。
 
-   ![](assets/template-activate-3.png)
+  ![](assets/template-activate-3.png)
 
 * **配信の概要**
 
-   このモジュールを選択すると、キャンペーンの配信概要を定義するために「**[!UICONTROL 配信の概要]**」サブタブが「**[!UICONTROL ドキュメント]**」タブに追加されます。 配信概要の詳細については、[こちらの節](marketing-campaign-assets.md#delivery-outlines)を参照してください。
+  このモジュールを選択すると、キャンペーンの配信概要を定義するために「**[!UICONTROL 配信の概要]**」サブタブが「**[!UICONTROL ドキュメント]**」タブに追加されます。 配信概要の詳細については、[こちらの節](marketing-campaign-assets.md#delivery-outlines)を参照してください。
 
-   ![](assets/template-activate-4.png)
+  ![](assets/template-activate-4.png)
 
 * **ターゲティングとワークフロー**
 
-   **[!UICONTROL ターゲティングとワークフロー]**&#x200B;モジュールを選択すると、タブが追加されて、このテンプレートをベースとするキャンペーン用に 1 つ以上のワークフローを作成できます。ワークフローは、このテンプレートに基づいて、キャンペーンごとに個別に設定することもできます。キャンペーンワークフローの詳細については、[こちらの節](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow)を参照してください。
+  **[!UICONTROL ターゲティングとワークフロー]**&#x200B;モジュールを選択すると、タブが追加されて、このテンプレートをベースとするキャンペーン用に 1 つ以上のワークフローを作成できます。ワークフローは、このテンプレートに基づいて、キャンペーンごとに個別に設定することもできます。キャンペーンワークフローの詳細については、[こちらの節](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow)を参照してください。
 
-   ![](assets/template-activate-5.png)
+  ![](assets/template-activate-5.png)
 
-   このモジュールを有効にすると、プロセス実行シーケンスを定義するための「**[!UICONTROL ジョブ]**」タブがキャンペーンの詳細設定に追加されます。
+  このモジュールを有効にすると、プロセス実行シーケンスを定義するための「**[!UICONTROL ジョブ]**」タブがキャンペーンの詳細設定に追加されます。
 
 * **承認**
 
-   「**[!UICONTROL 承認]**」を有効化すると、承認するプロセスおよび承認を担当するオペレーターを選択できます。承認の詳細については、[こちらの節](marketing-campaign-approval.md#select-reviewers)を参照してください。
+  「**[!UICONTROL 承認]**」を有効化すると、承認するプロセスおよび承認を担当するオペレーターを選択できます。承認の詳細については、[こちらの節](marketing-campaign-approval.md#select-reviewers)を参照してください。
 
-   ![](assets/template-activate-6.png)
+  ![](assets/template-activate-6.png)
 
-   テンプレートの「詳細設定」セクションの「**[!UICONTROL 承認]**」タブで、プロセスの承認を有効にするかどうかを選択できます。
+  テンプレートの「詳細設定」セクションの「**[!UICONTROL 承認]**」タブで、プロセスの承認を有効にするかどうかを選択できます。
 
 * **費用と目標**
 
-   このモジュールを選択すると、テンプレートおよびこのテンプレートに基づくキャンペーンの詳細に「**[!UICONTROL 予算]**」タブが追加され、関連する予算を選択できるようになります。
+  このモジュールを選択すると、テンプレートおよびこのテンプレートに基づくキャンペーンの詳細に「**[!UICONTROL 予算]**」タブが追加され、関連する予算を選択できるようになります。
 
-   ![](assets/template-activate-7.png)
+  ![](assets/template-activate-7.png)
 
 
 ## テンプレートのプロパティ {#template-properties}
@@ -173,7 +173,7 @@ ht-degree: 100%
 * **キャンペーンのタイプ**&#x200B;を選択：単一、繰り返しまたは定期的。デフォルトでは、キャンペーンテンプレートは単一のキャンペーンに適用されます。繰り返しキャンペーンと定期的キャンペーンについて詳しくは、[こちらの節](recurring-periodic-campaigns.md)を参照してください。
 * キャンペーン期間、すなわちキャンペーンが実施される日数を指定します。このテンプレートをベースとしてキャンペーンを作成すると、キャンペーンの開始日と終了日が自動的に設定されます。
 
-   繰り返しキャンペーンの場合は、キャンペーンの開始日と終了日をテンプレートで直接指定する必要があります。
+  繰り返しキャンペーンの場合は、キャンペーンの開始日と終了日をテンプレートで直接指定する必要があります。
 
 * テンプレートの&#x200B;**関連プログラム**&#x200B;を指定します。選択したプログラムに、このテンプレートをベースとするキャンペーンがリンクされます。
 

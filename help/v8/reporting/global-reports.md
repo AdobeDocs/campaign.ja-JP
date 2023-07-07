@@ -4,7 +4,7 @@ description: グローバルレポートへのアクセス方法と使用方法�
 feature: Reporting, Monitoring
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 100%
 
@@ -51,6 +51,7 @@ ht-degree: 100%
 >[コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja)を使用して、1 時間あたりに送信される配信数を監視することもできます。
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
+>
 
 ## ユーザーアクティビティ {#user-activities}
 
@@ -94,11 +95,11 @@ ht-degree: 100%
 * **[!UICONTROL 未到達]**：SMTP リレーでのインシデント、ドメインへの一時的な未到達など、メッセージ配分文字列で発生するエラータイプ。
 * **[!UICONTROL 未接続]**：受信者の携帯電話の電源が入っていない、または送信時にネットワーク接続が切断されていることを示すエラータイプ。
 
-   >[!NOTE]
-   >
-   >この指標は、[モバイルチャネル](../send/send.md)のみでの配信に関連しています。
+  >[!NOTE]
+  >
+  >この指標は、[モバイルチャネル](../send/send.md)のみでの配信に関連しています。
 
-   `[+]` 記号をクリックすると、値テーブルの各行を開くことができます。それぞれのエラータイプについて、ドメインごとにエラーメッセージの分類を表示できます。
+  `[+]` 記号をクリックすると、値テーブルの各行を開くことができます。それぞれのエラータイプについて、ドメインごとにエラーメッセージの分類を表示できます。
 
 **[!UICONTROL ドメインごとのエラーの分類]**
 
@@ -286,9 +287,9 @@ The following indicators are used:
 * **[!UICONTROL ハードバウンス]**：処理されたメッセージの合計数に対する、ハードバウンス数の割合。
 * **[!UICONTROL ソフトバウンス]**：処理されたメッセージの合計数に対する、ソフトバウンス数の割合。
 
-   >[!NOTE]
-   >
-   >ハードバウンスおよびソフトバウンスについて詳しくは、[このページ](../send/quarantines.md)を参照してください。
+  >[!NOTE]
+  >
+  >ハードバウンスおよびソフトバウンスについて詳しくは、[このページ](../send/quarantines.md)を参照してください。
 
 * **[!UICONTROL 開封数]**：正常に処理されたメッセージ数に対する、メッセージを少なくとも 1 回開封したターゲット受信者数の割合。
 * **[!UICONTROL クリック数]**：正常に処理されたメッセージ数に対する、配信で少なくとも 1 回クリックしたユーザー数の割合。

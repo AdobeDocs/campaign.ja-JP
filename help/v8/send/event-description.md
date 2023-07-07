@@ -161,15 +161,15 @@ PushEvents の使用例：
 
 * イベント処理が成功した場合にメソッドが返す識別子の例：
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-            <plId xsi:type="xsd:long">72057594037935966</plId>
-         </urn:PushEventResponse>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+           <plId xsi:type="xsd:long">72057594037935966</plId>
+        </urn:PushEventResponse>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 戻り識別子の値が 0 より大きい数値の場合、Adobe Campaign 内でイベントのアーカイブが成功したことを意味します。
 
@@ -177,51 +177,51 @@ PushEvents の使用例：
 
 * クエリにログインが含まれていない、または指定したオペレーターに必要な権限がなく、失敗したイベントの処理例：
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <SOAP-ENV:Fault>
-            <faultcode>SOAP-ENV:Client</faultcode>
-            <faultstring xsi:type="xsd:string">Error while reading parameters of method 'PushEvent' of service 'nms:rtEvent'.</faultstring>
-            <detail xsi:type="xsd:string">Invalid login or password. Connection denied.</detail>
-         </SOAP-ENV:Fault>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+           <faultcode>SOAP-ENV:Client</faultcode>
+           <faultstring xsi:type="xsd:string">Error while reading parameters of method 'PushEvent' of service 'nms:rtEvent'.</faultstring>
+           <detail xsi:type="xsd:string">Invalid login or password. Connection denied.</detail>
+        </SOAP-ENV:Fault>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * クエリのエラー（XML 分類に従っていない）により失敗したイベントの例：
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <SOAP-ENV:Fault>
-            <faultcode>SOAP-ENV:Client</faultcode>
-            <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
-            <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
-   Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
-      <soapenv:Header/>
-      <soapenv:Body>
-         <urn:PushEvent>
-            <urn:sessiontoken>mc/</urn:sessiontoken>
-            <urn:domEvent>
-   <rtevent type="create_account" email="esther.hall@adobe.com" origin="eCommerce" wishedChannel="email" 
-         externalId="1596" language="english" country="EN" emailFormat="2"
-         mobilePhone="+447700123123">
-     <ctx>
-      <website name="eCommerce" url="http://www.eCo']]></detail>
-         </SOAP-ENV:Fault>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <SOAP-ENV:Fault>
+           <faultcode>SOAP-ENV:Client</faultcode>
+           <faultstring xsi:type="xsd:string">The XML SOAP message is invalid (service 'PushEvent', method 'nms:rtEvent').</faultstring>
+           <detail xsi:type="xsd:string"><![CDATA[(16:8) : Expected end of tag 'rtevent'
+  Error while parsing XML string '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:nms:rtEvent">
+     <soapenv:Header/>
+     <soapenv:Body>
+        <urn:PushEvent>
+           <urn:sessiontoken>mc/</urn:sessiontoken>
+           <urn:domEvent>
+  <rtevent type="create_account" email="esther.hall@adobe.com" origin="eCommerce" wishedChannel="email" 
+        externalId="1596" language="english" country="EN" emailFormat="2"
+        mobilePhone="+447700123123">
+    <ctx>
+     <website name="eCommerce" url="http://www.eCo']]></detail>
+        </SOAP-ENV:Fault>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * 失敗し、0 の識別子を返したイベントの例（誤ったメソッド名）：
 
-   ```
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-      <SOAP-ENV:Body>
-         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
-            <plId xsi:type="xsd:long">0</plId>
-         </urn:PushEventResponse>
-      </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+     <SOAP-ENV:Body>
+        <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
+           <plId xsi:type="xsd:long">0</plId>
+        </urn:PushEventResponse>
+     </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```

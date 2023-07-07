@@ -115,9 +115,9 @@ nms:offer スキーマを拡張する場合、既に設定済みの標準の構�
 * `<element name="view">` の下にコンテンツストレージ用の新しいフィールドを定義します。
 * それぞれの新しいフィールドは、2 回ずつ定義する必要があります。1 回は通常の XML フィールドとして、もう 1 回は名前に「_jst」が付いた CDATA XML フィールドとして定義します。次に例を示します。
 
-   ```
-   <element label="Price" name="price" type="long" xml="true"/>
-   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
-   ```
+  ```
+  <element label="Price" name="price" type="long" xml="true"/>
+  <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
+  ```
 
 * トラッキングする URL を含むフィールドは、`<element name="view" >` の下にある `<element name="trackedUrls">` の下に配置する必要があります。

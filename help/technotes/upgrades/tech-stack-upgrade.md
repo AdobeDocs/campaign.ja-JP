@@ -23,6 +23,7 @@ Campaign インフラストラクチャは、最新のバージョンと修正�
 >[!NOTE]
 >
 >これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>
 
 ## Campaign ビルドのアップグレード {#ac-upgrade}
 

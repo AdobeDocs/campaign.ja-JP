@@ -6,7 +6,7 @@ role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
 
@@ -101,7 +101,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 * **[!UICONTROL リアルタイムイベントの処理]**（内部名：**[!UICONTROL rtEventsProcessing]**）：このワークフローは、メッセージテンプレートにリンクされる前にキュー内のリアルタイムイベントを分類することができます。
 * **[!UICONTROL イベントステータスを更新]**（内部名：**[!UICONTROL updateEventStatus]**）：このワークフローは、ステータスをイベントに関連付けることができます。
 
-   可能なイベントのステータスは次のとおりです。
+  可能なイベントのステータスは次のとおりです。
 
    * **[!UICONTROL 保留中]**：イベントはキュー内にあります。イベントにはまだメッセージテンプレートが割り当てられていません。
    * **[!UICONTROL 配信待ち]**：イベントはキュー内にあり、メッセージテンプレートが割り当てられ、配信による処理中です。

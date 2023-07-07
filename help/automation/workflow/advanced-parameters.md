@@ -19,11 +19,11 @@ ht-degree: 100%
 
 * 簡素化されたバージョン（「**[!UICONTROL 開始]**」アクティビティや「**[!UICONTROL 終了]**」アクティビティなどが対象）
 
-   ![](assets/wf-advanced-basic.png)
+  ![](assets/wf-advanced-basic.png)
 
 * より詳細なバージョン（「**[!UICONTROL クエリ]**」アクティビティなどが対象）
 
-   ![](assets/wf-advanced-full.png)
+  ![](assets/wf-advanced-full.png)
 
 「**[!UICONTROL 詳細]**」タブで入力するフィールドについては、次のセクションで詳しく説明しています。
 

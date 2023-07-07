@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 100%
 
@@ -27,6 +27,7 @@ Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://expe
 >[!NOTE]
 >
 >データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用することもできます。詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}を参照してください。
+>
 
 ## 統合設定の宣言 {#declaring-integration-settings}
 
@@ -34,29 +35,29 @@ Campaign SDK をモバイルアプリケーションに統合するには、担�
 
 * **統合キー**：Adobe Campaign プラットフォームでモバイルアプリケーションを特定できるようにします。
 
-   >[!NOTE]
-   >
-   >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。
+  >[!NOTE]
+  >
+  >この統合キーは、Adobe Campaign コンソールのモバイルアプリケーション専用サービスの「**[!UICONTROL 情報]**」タブに入力されます。
 
 * **トラッキング URL**：Adobe Campaign トラッキングサーバーのアドレスと一致します。
 * **マーケティング URL**：購読のコレクションを有効にします。
 
 * **Android**：
 
-   ```sql
-   Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
-   Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
-   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
-   ```
+  ```sql
+  Neolane.getInstance().setIntegrationKey("your Adobe mobile app integration key");
+  Neolane.getInstance().setMarketingHost("https://yourMarketingHost:yourMarketingPort/");
+  Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/"); 
+  ```
 
 * **iOS**：
 
-   ```sql
-   Neolane_SDK *nl = [Neolane_SDK getInstance];
-   [nl setMarketingHost:strMktHost];
-   [nl setTrackingHost:strTckHost];
-   [nl setIntegrationKey:strIntegrationKey];
-   ```
+  ```sql
+  Neolane_SDK *nl = [Neolane_SDK getInstance];
+  [nl setMarketingHost:strMktHost];
+  [nl setTrackingHost:strTckHost];
+  [nl setIntegrationKey:strIntegrationKey];
+  ```
 
 ## Android SDK の統合
 
@@ -81,7 +82,6 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 > * 必ず google-services.json をダウンロードしてプロジェクトに追加してください。
 >
 > * `apiKey`は、この Android アプリケーションにリンクされている Adobe Campaign モバイルアプリケーションの `projectKey` セットと一致する必要があります。
-
 
 ### Android SDK の設定
 
@@ -567,6 +567,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    * 通知 ID またはプッシュ ID（iOS の deviceToken および Android の registrationID）を Adobe Campaign に送信します。
    * 紐付けキーまたは userKey（例えば E メールやアカウント番号）を復元します。
 
+
    ```sql
    // Callback called on successful registration to the APNs
     - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
@@ -793,7 +794,6 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
       @end
       ```
 
-
 ## 変数 {#variables}
 
 変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign クライアントコンソールの専用モバイルアプリケーションサービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
@@ -803,43 +803,43 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 * **Android**：
 
-   ```sql
-   public void onReceive(Context context, Intent intent) {
-        ...
-       String event = intent.getStringExtra("VAR");
-        ...
-   }
-   ```
+  ```sql
+  public void onReceive(Context context, Intent intent) {
+       ...
+      String event = intent.getStringExtra("VAR");
+       ...
+  }
+  ```
 
 * **iOS**：
 
-   ```sql
-   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-   {
-       ....
-       if( launchOptions )
-       {
-           // When application is not already launched, the notification data if any are stored in the key 'UIApplicationLaunchOptionsRemoteNotificationKey'
-           NSDictionary *localLaunchOptions = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
-           if( localLaunchOptions )
-           {
-            ...
-            [localLaunchOptions objectForKey:@"VAR"];
+  ```sql
+  - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+  {
+      ....
+      if( launchOptions )
+      {
+          // When application is not already launched, the notification data if any are stored in the key 'UIApplicationLaunchOptionsRemoteNotificationKey'
+          NSDictionary *localLaunchOptions = [launchOptions objectForKey:@"UIApplicationLaunchOptionsRemoteNotificationKey"];
+          if( localLaunchOptions )
+          {
            ...
-           }
+           [localLaunchOptions objectForKey:@"VAR"];
+          ...
+          }
+     }
+  }
+  
+  // Callback called when the application is already launched (whether the application is running foreground or background)
+  - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
+  {
+      if( launchOptions )
+      {
+       ...
+          [launchOptions objectForKey:@"VAR"];
       }
-   }
-   
-   // Callback called when the application is already launched (whether the application is running foreground or background)
-   - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)launchOptions
-   {
-       if( launchOptions )
-       {
-        ...
-           [launchOptions objectForKey:@"VAR"];
-       }
-   }
-   ```
+  }
+  ```
 
 >[!CAUTION]
 >
@@ -887,46 +887,46 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 * Adobe Campaign が送信したカテゴリにコンテンツ拡張を関連付けます。
 
-   モバイルアプリケーションで画像を表示できるようにするには、Adobe Campaign とモバイルアプリケーションでカテゴリの値を「画像」に設定し、通知拡張を作成して **UNNotificationExtensionCategory** パラメーターを「画像」に設定します。デバイスがプッシュ通知を受信した場合、定義されたカテゴリの値に従って拡張機能が呼び出されます。
+  モバイルアプリケーションで画像を表示できるようにするには、Adobe Campaign とモバイルアプリケーションでカテゴリの値を「画像」に設定し、通知拡張を作成して **UNNotificationExtensionCategory** パラメーターを「画像」に設定します。デバイスがプッシュ通知を受信した場合、定義されたカテゴリの値に従って拡張機能が呼び出されます。
 
 * 通知レイアウトの定義
 
-   関連するウィジェットでレイアウトを定義する必要があります。画像の場合、ウィジェットの名前は **UIImageView** です。
+  関連するウィジェットでレイアウトを定義する必要があります。画像の場合、ウィジェットの名前は **UIImageView** です。
 
 * メディアの表示
 
-   メディアデータをウィジェットに送るためのコードを追加する必要があります。画像用のコードの例を次に示します。
+  メディアデータをウィジェットに送るためのコードを追加する必要があります。画像用のコードの例を次に示します。
 
-   ```sql
-   #import "NotificationViewController.h"
-   #import <UserNotifications/UserNotifications.h>
-   #import <UserNotificationsUI/UserNotificationsUI.h>
-   
-   @interface NotificationViewController () <UNNotificationContentExtension>
-   
-   @property (strong, nonatomic) IBOutlet UIImageView *imageView;
-   @property (strong, nonatomic) IBOutlet UILabel *notifContent;
-   @property (strong, nonatomic) IBOutlet UILabel *label;
-   
-   @end
-   
-   @implementation NotificationViewController
-   
-   - (void)viewDidLoad {
-       [super viewDidLoad];
-       // Do any required interface initialization here.
-   }
-   
-   - (void)didReceiveNotification:(UNNotification *)notification {
-       self.label.text = notification.request.content.title;
-       self.notifContent.text = notification.request.content.body;
-       UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
-       if ([attachment.URL startAccessingSecurityScopedResource])
-       {
-         NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
-         self.imageView.image =[UIImage imageWithData: imageData];
-         [attachment.URL stopAccessingSecurityScopedResource];
-       }
-   }
-   @end
-   ```
+  ```sql
+  #import "NotificationViewController.h"
+  #import <UserNotifications/UserNotifications.h>
+  #import <UserNotificationsUI/UserNotificationsUI.h>
+  
+  @interface NotificationViewController () <UNNotificationContentExtension>
+  
+  @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+  @property (strong, nonatomic) IBOutlet UILabel *notifContent;
+  @property (strong, nonatomic) IBOutlet UILabel *label;
+  
+  @end
+  
+  @implementation NotificationViewController
+  
+  - (void)viewDidLoad {
+      [super viewDidLoad];
+      // Do any required interface initialization here.
+  }
+  
+  - (void)didReceiveNotification:(UNNotification *)notification {
+      self.label.text = notification.request.content.title;
+      self.notifContent.text = notification.request.content.body;
+      UNNotificationAttachment *attachment = [notification.request.content.attachments objectAtIndex:0];
+      if ([attachment.URL startAccessingSecurityScopedResource])
+      {
+        NSData * imageData = [[NSData alloc] initWithContentsOfURL:attachment.URL];
+        self.imageView.image =[UIImage imageWithData: imageData];
+        [attachment.URL stopAccessingSecurityScopedResource];
+      }
+  }
+  @end
+  ```

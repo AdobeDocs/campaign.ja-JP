@@ -5,7 +5,7 @@ description: ワークフロー実行の監視
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2015'
 ht-degree: 100%
 
@@ -37,21 +37,21 @@ ht-degree: 100%
 
 * 詳細で、「**[!UICONTROL トラッキング]**」タブを選択します。このリストには、すべてのワークフローメッセージが含まれます。
 
-   ![](assets/new-workflow-display-log-tab.png)
+  ![](assets/new-workflow-display-log-tab.png)
 
 * アクティビティごとにログメッセージをフィルターします。ダイアグラムの上にあるツールバーから「**[!UICONTROL タスクとログを表示]**」をクリックし、ダイアグラムの下に「**[!UICONTROL ログ]**」と「**[!UICONTROL タスク]**」のタブを表示します。アクティビティを選択すると、そのアクティビティに関するメッセージだけが表示されます。アクティビティが何も選択されていない場合、すべてのメッセージが表示されます。
 
-   ![](assets/new-workflow-display-log-activity.png)
+  ![](assets/new-workflow-display-log-activity.png)
 
-   >[!NOTE]
-   >
-   >ダイアグラムの背景をクリックすると、すべての要素の選択を解除できます。
+  >[!NOTE]
+  >
+  >ダイアグラムの背景をクリックすると、すべての要素の選択を解除できます。
 
 * 指定されたタスクにリンクされているメッセージのみを表示します。それには、「**[!UICONTROL タスク]**」タブを選択し、ダイアグラムからアクティビティを選択してリストを制限します。タスクをダブルクリックして情報を表示します。ウィンドウの最後のタブには、ログが表示されます。
 
-   ![](assets/new-workflow-display-tasks-activity.png)
+  ![](assets/new-workflow-display-tasks-activity.png)
 
-   「**[!UICONTROL 詳細...]**」ボタンをクリックすると、アクティビティの実行に関するすべての関連情報を表示できます。例えば、検証オペレーターを確認したり、該当する場合は、承認時に入力されたコメントを表示できます。
+  「**[!UICONTROL 詳細...]**」ボタンをクリックすると、アクティビティの実行に関するすべての関連情報を表示できます。例えば、検証オペレーターを確認したり、該当する場合は、承認時に入力されたコメントを表示できます。
 
 >[!NOTE]
 >
@@ -61,15 +61,15 @@ ht-degree: 100%
 
 * ターゲティングキャンペーンのログ
 
-   ターゲティングキャンペーンが実行されたら、「**[!UICONTROL トラッキング]**」タブをクリックして実行トレースを表示します。
+  ターゲティングキャンペーンが実行されたら、「**[!UICONTROL トラッキング]**」タブをクリックして実行トレースを表示します。
 
-   ![](assets/s_user_segmentation_journal.png)
+  ![](assets/s_user_segmentation_journal.png)
 
-   実行されたキャンペーン、警告やエラーなど、すべてのキャンペーンメッセージが表示されます。
+  実行されたキャンペーン、警告やエラーなど、すべてのキャンペーンメッセージが表示されます。
 
 * アクティビティのログ
 
-   さらに、実行ログと、各アクティビティの詳細も表示できます。それには、次の 2 つの方法があります。
+  さらに、実行ログと、各アクティビティの詳細も表示できます。それには、次の 2 つの方法があります。
 
    1. ターゲット済みアクティビティを選択し、「**[!UICONTROL タスクとログを表示]**」アイコンをクリックします。
 
@@ -218,9 +218,9 @@ instance.vars.isRunning = false
 * JavaScript では、テストでの未定義の値は false で、初期化前でもインスタンス変数をテストできます。
 * 終了のない初期化スクリプトにログ手順を追加することで、このメカニズムが原因で処理されないアクティビティを監視できます。
 
-   ```
-   logInfo("Workflow already running, parallel execution not allowed.");
-   ```
+  ```
+  logInfo("Workflow already running, parallel execution not allowed.");
+  ```
 
 使用例については、[データ更新の調整](coordinate-data-updates.md)の節で説明しています。
 

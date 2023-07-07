@@ -31,21 +31,21 @@ ht-degree: 100%
 
 * **[!UICONTROL ターゲットを表示...]**
 
-   このメニューには、ターゲット母集団に関して使用可能なデータが表示されます。
+  このメニューには、ターゲット母集団に関して使用可能なデータが表示されます。
 
-   ![](assets/wf-right-click-display.png)
+  ![](assets/wf-right-click-display.png)
 
-   ワークテーブルの構造にアクセスするには、「**[!UICONTROL スキーマ]**」タブをクリックします。
+  ワークテーブルの構造にアクセスするには、「**[!UICONTROL スキーマ]**」タブをクリックします。
 
-   ![](assets/wf-right-click-schema.png)
+  ![](assets/wf-right-click-schema.png)
 
-   詳しくは、[この節](monitor-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
+  詳しくは、[この節](monitor-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
 
 * **[!UICONTROL ターゲットを分析...]**
 
-   このメニューは、トランジションのデータの統計とレポートを作成できる記述的分析ウィザードを表示します。
+  このメニューは、トランジションのデータの統計とレポートを作成できる記述的分析ウィザードを表示します。
 
-    詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}を参照してください。
+   詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}を参照してください。
 
 ワークフローが実行されると、ターゲットデータはパージされます。最後のワークテーブルだけにアクセスできます。
 ワークフローを設定し、すべての作業用テーブルをアクセス可能なまま維持することもできます。それには、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保存]**」オプションを選択します。
@@ -129,15 +129,15 @@ Adobe Campaign データベースのデータおよび既存のリストは、2 
 
 * 「**[!UICONTROL リスト更新]**」アクティビティを使用して、データリスト内にワークテーブルを保存できます。
 
-   既存のリストを選択するか、新規リストを作成することができます。ここでは、名前が自動生成されます（場合によってはレコードフォルダーも）。
+  既存のリストを選択するか、新規リストを作成することができます。ここでは、名前が自動生成されます（場合によってはレコードフォルダーも）。
 
-   ![](assets/s_user_create_list.png)
+  ![](assets/s_user_create_list.png)
 
-   [リストの更新](list-update.md)を参照してください。
+  [リストの更新](list-update.md)を参照してください。
 
 * **[!UICONTROL データを更新]**&#x200B;アクティビティでは、データベースのフィールドを一括で更新します。
 
-   詳しくは、[データを更新](update-data.md)を参照してください。
+  詳しくは、[データを更新](update-data.md)を参照してください。
 
 ### 購読の管理 {#subscription-management}
 

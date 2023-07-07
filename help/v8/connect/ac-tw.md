@@ -5,7 +5,7 @@ role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ Campaign は、Twitter API の 1.1 バージョンを使用します。 これ�
 >[!NOTE]
 >
 >Twitter アカウントごとに 1 つのアプリケーションが必要です。その結果、別のテストアプリケーションを作成し、配達確認をテストアカウントに送信する必要があります。
+>
 
 ## Campaign での Twitter サービスの作成 {#create-tw-service}
 
@@ -70,6 +71,7 @@ Campaign インスタンスを Twitter アカウントにリンクするには�
 >Twitter アカウントごとに 1 つの **Twitter** サービスを作成します。その際、別のテストサービスを作成し、配達確認を[テストアカウント](#tw-test-account)に送信する必要があります。
 >
 >各 **Twitter** サービスも、アドビが MID インスタンスで作成する必要があります。環境の設定については、アドビ担当者にお問い合わせください。
+>
 
 設定を入力するには、Adobe Campaign クライアントコンソールと Twitter アプリの権限の両方にアクセスする必要があります。
 
@@ -81,6 +83,7 @@ Campaign インスタンスを Twitter アカウントにリンクするには�
    >[!CAUTION]
    >
    >サービスの&#x200B;**[!UICONTROL 内部名]**&#x200B;は、Twitter アカウントとまったく同じ名前である必要があります。
+   >
 
 1. デフォルトでは、フォロワーは&#x200B;**[!UICONTROL 訪問者]**&#x200B;フォルダーに保存されます。「**[!UICONTROL 訪問者フォルダー]**」フィールドから別の場所を選択します。[詳細情報](../send/twitter.md#direct-tw-messages)
 
@@ -100,7 +103,7 @@ Campaign インスタンスを Twitter アカウントにリンクするには�
 
 * 作成したばかりの **Twitter** サービスを編集します。
 * 「**[!UICONTROL Twitter ページ]**」タブを参照します。Twitter アカウントが表示されます。
-   ![](assets/tw-page.png)
+  ![](assets/tw-page.png)
 
 
 ## Twitter アカウントの同期 {#synchro-tw-accounts}

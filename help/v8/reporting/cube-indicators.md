@@ -24,30 +24,31 @@ ht-degree: 100%
 
 * Adobe Campaign プラットフォームの「**[!UICONTROL レポート]**」タブで設計されたレポートでデータを直接エクスポートします。
 
-   それには、新しいレポートを作成し、使用するキューブを選択します。
+  それには、新しいレポートを作成し、使用するキューブを選択します。
 
-   ![](assets/create-new-cube.png)
+  ![](assets/create-new-cube.png)
 
-   キューブは、作成するレポートの基になるテンプレートのように表示されます。テンプレートを選択したら、「**[!UICONTROL 作成]**」をクリックして、新規レポートを設定および表示します。
+  キューブは、作成するレポートの基になるテンプレートのように表示されます。テンプレートを選択したら、「**[!UICONTROL 作成]**」をクリックして、新規レポートを設定および表示します。
 
-   測定の適合化、表示モードの変更またはテーブルの設定を行ってから、メインボタンを使用してレポートを表示できます。
+  測定の適合化、表示モードの変更またはテーブルの設定を行ってから、メインボタンを使用してレポートを表示できます。
 
-   ![](assets/display-cube-table.png)
+  ![](assets/display-cube-table.png)
 
 * レポートの「**[!UICONTROL クエリ]**」ボックスでキューブを参照して、その指標を使用します（下図を参照）。
 
-   ![](assets/cube-report-query.png)
+  ![](assets/cube-report-query.png)
 
 * キューブに基づいたピボットテーブルをレポートの任意のページに挿入します。それには、該当するページにあるピボットテーブルの「**[!UICONTROL データ]**」タブで、使用するキューブを参照します。
 
-   ![](assets/cube-in-a-report.png)
+  ![](assets/cube-in-a-report.png)
 
-   詳しくは、[レポートのデータを調べる](cube-tables.md#explore-the-data-in-a-report)を参照してください。
+  詳しくは、[レポートのデータを調べる](cube-tables.md#explore-the-data-in-a-report)を参照してください。
 
 
 >[!CAUTION]
 >
 >キューブを作成するには、管理者権限が必要です。
+>
 
 ## キューブの作成{#cube-create}
 

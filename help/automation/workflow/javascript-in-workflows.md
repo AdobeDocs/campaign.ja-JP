@@ -182,47 +182,47 @@ XML 要素として `select`、`where` および `orderBy` 句を記述します
 
 * `select` 句
 
-   返す列を指定します。 例えば、ユーザーの名と姓を選択するには、次のコードを記述します。
+  返す列を指定します。 例えば、ユーザーの名と姓を選択するには、次のコードを記述します。
 
-   ```xml
-   <select>
-       <node expr="@firstName"/>
-       <node expr="@lastName"/>
-   </select>
-   ```
+  ```xml
+  <select>
+      <node expr="@firstName"/>
+      <node expr="@lastName"/>
+  </select>
+  ```
 
-   `nms:recipient` スキーマでは、要素は次の形式で返されます。
+  `nms:recipient` スキーマでは、要素は次の形式で返されます。
 
-   ```xml
-   <recipient firstName="Bo" lastName="Didley"/>
-   ```
+  ```xml
+  <recipient firstName="Bo" lastName="Didley"/>
+  ```
 
 * `where` 句
 
-   条件を指定するには、`where` 句を使用します。 例えば、**トレーニング**&#x200B;フォルダーにあるレコードを選択するには、次のコードを記述します。
+  条件を指定するには、`where` 句を使用します。 例えば、**トレーニング**&#x200B;フォルダーにあるレコードを選択するには、次のコードを記述します。
 
-   ```xml
-   <where>
-       <condition expr="[folder/@label]='Training'"/>
-   </where>
-   ```
+  ```xml
+  <where>
+      <condition expr="[folder/@label]='Training'"/>
+  </where>
+  ```
 
-   複数の式を組み合わせる場合は、最初の式でブール演算子を使用します。例えば、Isabel Garcia という名前の人をすべて選択するには、次のコードを記述します。
+  複数の式を組み合わせる場合は、最初の式でブール演算子を使用します。例えば、Isabel Garcia という名前の人をすべて選択するには、次のコードを記述します。
 
-   ```xml
-   <condition boolOperator="AND" expr="@firstName='Isabel'"/>
-   <condition expr="@lastName='Garcia'"/>
-   ```
+  ```xml
+  <condition boolOperator="AND" expr="@firstName='Isabel'"/>
+  <condition expr="@lastName='Garcia'"/>
+  ```
 
 * `orderBy` 句
 
-   結果セットを並べ替えるには、`orderBy` 句を `sortDesc` 属性を持つ XML 要素として指定します。例えば、姓を昇順に並べ替えるには、次のコードを記述します。
+  結果セットを並べ替えるには、`orderBy` 句を `sortDesc` 属性を持つ XML 要素として指定します。例えば、姓を昇順に並べ替えるには、次のコードを記述します。
 
-   ```xml
-   <orderBy>
-       <node expr="@lastName> sortDesc="false"/>
-   </orderBy>
-   ```
+  ```xml
+  <orderBy>
+      <node expr="@lastName> sortDesc="false"/>
+  </orderBy>
+  ```
 
 ### 手順 2：クエリオブジェクトの作成
 
@@ -368,11 +368,11 @@ for each (var rcp in res.recipient)
    * 最初のワークフローの「**[!UICONTROL 終了]**」アクティビティに初期化スクリプトを追加します。
    * ターゲットワークフローの開始時に「**[!UICONTROL 外部シグナル]**」アクティビティを追加します。
 
-      最初のワークフローが完了すると、イベントが投稿されます。送信トランジションが有効化され、イベント変数が入力されます。次に、ターゲットワークフローがイベントを受け取ります。
+     最初のワークフローが完了すると、イベントが投稿されます。送信トランジションが有効化され、イベント変数が入力されます。次に、ターゲットワークフローがイベントを受け取ります。
 
-      >[!TIP]
-      >
-      >ベストプラクティスとして、スクリプトをアクティビティに追加するときは、アクティビティ名を二重ハイフンで囲みます（例：`-- end --`）。ワークフローのベストプラクティスについての[詳細情報](workflow-best-practices.md)
+     >[!TIP]
+     >
+     >ベストプラクティスとして、スクリプトをアクティビティに追加するときは、アクティビティ名を二重ハイフンで囲みます（例：`-- end --`）。ワークフローのベストプラクティスについての[詳細情報](workflow-best-practices.md)
 
 `PostEvent` メソッドの構文：
 
@@ -555,7 +555,7 @@ for each (var w in res.recipient)
 * `update` 操作
 * 更新するレコードを識別するための `_key` 引数を使用した `insertOrUpdate` 操作
 
-   **受信者**&#x200B;フォルダーを指定しない場合は、一致するものがあれば、レコードは任意のサブフォルダーで更新されます。それ以外の場合、レコードはルート&#x200B;**受信者**&#x200B;フォルダーに作成されます。
+  **受信者**&#x200B;フォルダーを指定しない場合は、一致するものがあれば、レコードは任意のサブフォルダーで更新されます。それ以外の場合、レコードはルート&#x200B;**受信者**&#x200B;フォルダーに作成されます。
 
 * `delete` 操作
 

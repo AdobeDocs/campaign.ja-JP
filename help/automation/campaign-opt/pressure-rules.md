@@ -83,7 +83,8 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
    * 「ターゲティングディメンションからクエリを編集」では、対象となる受信者を制限できます。
    * このタブの下部セクションでは、カウントするメッセージをフィルタリングできます。
 
-      以下の例では、**NewContacts** フォルダーに保存されている受信者のみが対象となり、「**Newsletter**」で始まる配信のみが考慮されます。
+     以下の例では、**NewContacts** フォルダーに保存されている受信者のみが対象となり、「**Newsletter**」で始まる配信のみが考慮されます。
+
    ![](assets/campaign_opt_create_a_rule_05.png)
 
 1. 「**[!UICONTROL タイポロジ]**」タブでは、このルールが適用されるキャンペーンタイポロジを表示したり、ルールを 1 つ以上の既存のタイポロジにリンクしたりできます。[詳細情報](campaign-typologies.md#apply-typologies)。
@@ -267,15 +268,15 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 * 分析の結果を表示します。
 
-   ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![](assets/campaign_opt_pressure_sample_1_8.png)
 
 * 配信を編集し、「**[!UICONTROL 配信]**」タブの「**[!UICONTROL 除外]**」サブタブをクリックします。
 
-   ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![](assets/campaign_opt_pressure_sample_1_9.png)
 
 * 「**[!UICONTROL 監査]**」タブをクリックし、「**[!UICONTROL 除外の原因]**」サブタブをクリックして、除外された数と適用されたタイポロジルールを表示します。
 
-   ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### 行動に基づく配信の重み付けの計算 {#calculate-the-delivery-weight-based-on-behavior}
 

@@ -6,7 +6,7 @@ role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 100%
 
@@ -151,6 +151,7 @@ ht-degree: 100%
       * **パスワード**：Microsoft CRM へのログインに使用するアカウント。
       * **クライアント識別子**：Microsoft Azure 管理ポータルの「コードを更新」カテゴリ、「クライアント ID」フィールドにあるアプリケーション（クライアント）ID。
       * **CRM バージョン**：Dynamics CRM 365 CRM バージョンを選択します。
+
    1. Microsoft Dynamics CRM 外部アカウントを、**証明書**&#x200B;を使って Adobe Campaign に接続するには、次の詳細を入力して設定します。
 
       * **サーバー**：Microsoft CRM サーバーの URL。Microsoft CRM Server URL を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、Dynamics 365 をクリックしてアプリを選択します。次に、ブラウザーのアドレスバーに Server URL が表示されます（例：https://myserver.crm.dynamics.com/）。
@@ -159,7 +160,6 @@ ht-degree: 100%
       * **カスタムキー識別子**：アプリケーションの「**マニフェスト**」タブで使用できる識別子です。詳しくは、[この節](#config-certificate-key-id)で説明しています。
       * **クライアント識別子**：Microsoft Azure 管理ポータルにあるアプリケーション（クライアント）ID です。詳しくは、[この節](#get-client-id-microsoft)で説明しています。
       * **CRM バージョン**：Dynamics CRM 365 CRM バージョンを選択します。
-
 
 1. 「**有効にする**」オプションを選択して Campaign でアカウントを有効化します。
 

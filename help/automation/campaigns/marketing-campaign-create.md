@@ -5,7 +5,7 @@ description: マーケティングキャンペーンを作成して実行する�
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 * 「**編集**」タブを使用して、名前、開始日と終了日、予算、リンクされたドキュメントなど、プログラムをパーソナライズできます。
 
-   ![](assets/new-program-edit-tab.png)
+  ![](assets/new-program-edit-tab.png)
 
 ## キャンペーンの操作{#work-with-campaigns}
 

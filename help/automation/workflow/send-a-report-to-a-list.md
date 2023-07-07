@@ -49,25 +49,25 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 添付ファイル]**」リンクをクリックし、「**[!UICONTROL 追加]**」ボタンの横にある矢印をクリックします。「**[!UICONTROL 計算済み添付ファイル…]**」を選択します。
 
-      ![](assets/use_case_report_4.png)
+     ![](assets/use_case_report_4.png)
 
    * 「**[!UICONTROL タイプ]**」ドロップダウンリストに移動して、最新のオプション、「**[!UICONTROL 各メッセージの配信中にファイル名を計算する（受信者のプロファイルの利用可）]**」を選択します。
 
-      ![](assets/use_case_report_5.png)
+     ![](assets/use_case_report_5.png)
 
-      「**[!UICONTROL ラベル]**」フィールドに入力された値は、最終の配信では表示されません。
+     「**[!UICONTROL ラベル]**」フィールドに入力された値は、最終の配信では表示されません。
 
    * テキストゾーンに、アクセスパスとファイルの名前を入力します。
 
-      ![](assets/use_case_report_6.png)
+     ![](assets/use_case_report_6.png)
 
-      >[!CAUTION]
-      >
-      >[手順 3：ワークフローの作成](#step-3--creating-the-workflow)で説明しているように、パスと名前は、ワークフローの **[!UICONTROL JavaScript コード]**&#x200B;タイプアクティビティに入力したものと同一でなければなりません。
+     >[!CAUTION]
+     >
+     >[手順 3：ワークフローの作成](#step-3--creating-the-workflow)で説明しているように、パスと名前は、ワークフローの **[!UICONTROL JavaScript コード]**&#x200B;タイプアクティビティに入力したものと同一でなければなりません。
 
    * 「**[!UICONTROL 詳細設定]**」タブを選択し、「**[!UICONTROL 送信するメールで表示されるファイル名を記述]**」チェックボックスをオンにします。テキストゾーンに、最後の配信での添付ファイルの名前を入力します。
 
-      ![](assets/use_case_report_6b.png)
+     ![](assets/use_case_report_6b.png)
 
 ## 手順 3：ワークフローの作成 {#step-3--creating-the-workflow}
 
@@ -117,9 +117,9 @@ ht-degree: 100%
    * **var reportName**：ダブルコーテーションで囲い、レポートの内部名を入力します。このケースでは、「**トラッキング指標**」レポートの内部名は「deliveryFeedback」になります。
    * **var path**：ファイルの保存先のパス（「tmp//」）、ファイルに付与する名前（「deliveryFeedback」）、およびファイルの拡張子（「.pdf」）を入力します。このケースでは、ファイル名に内部名を使用します。それぞれの値は、ダブルコーテーションで囲い、「+」の文字で区切る必要があります。
 
-      >[!CAUTION]
-      >
-      >ファイルはサーバー上に保存されている必要があります。[こちら](#step-2--create-the-delivery-template)で説明しているように、計算済み添付ファイルの編集ウィンドウの「**[!UICONTROL 一般]**」タブで使用するのと同じパスと名前を入力する必要があります。
+     >[!CAUTION]
+     >
+     >ファイルはサーバー上に保存されている必要があります。[こちら](#step-2--create-the-delivery-template)で説明しているように、計算済み添付ファイルの編集ウィンドウの「**[!UICONTROL 一般]**」タブで使用するのと同じパスと名前を入力する必要があります。
 
    * **var exportFormat**：ファイルのエクスポートフォーマット（「PDF」）を入力します。
    * **var _ctx**（コンテキスト）：このケースでは、グローバルコンテキストに「**[!UICONTROL トラッキング指標]**」レポートを使用します。

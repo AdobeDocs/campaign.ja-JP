@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **readAccess**：スキーマデータへの読み取り専用アクセスを提供します。
 
-   **警告** - リンクされたすべてのテーブルに同じ制限を設定する必要があります。この設定は、パフォーマンスに影響を与える可能性があります。
+  **警告** - リンクされたすべてのテーブルに同じ制限を設定する必要があります。この設定は、パフォーマンスに影響を与える可能性があります。
 
 * **writeAccess**：スキーマデータへの書き込みアクセスを提供します。
 
@@ -32,29 +32,29 @@ ht-degree: 100%
 
 * 書き込み権限の制限
 
-   ここでは、フィルターを使用して、管理権限を持たないオペレーターのスキーマに対する書き込み権限を無効にします。つまり、このスキーマで記述されたエンティティに対する書き込み権限を持つのは管理者だけです。
+  ここでは、フィルターを使用して、管理権限を持たないオペレーターのスキーマに対する書き込み権限を無効にします。つまり、このスキーマで記述されたエンティティに対する書き込み権限を持つのは管理者だけです。
 
-   ```
-   <sysFilter name="writeAccess">      
-    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">      
+   <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
+  </sysFilter>
+  ```
 
 * 読み取りおよび書き込み権限の制限：
 
-   ここでは、すべてのオペレーターに対して、スキーマに対する読み取りと書き込みの両方の権限を許可しないためにフィルターを使用しています。**内部**&#x200B;アカウントのみ（式「$(loginId)!=0」で表される）が、これらの権限を持っています。
+  ここでは、すべてのオペレーターに対して、スキーマに対する読み取りと書き込みの両方の権限を許可しないためにフィルターを使用しています。**内部**&#x200B;アカウントのみ（式「$(loginId)!=0」で表される）が、これらの権限を持っています。
 
-   ```
-   <sysFilter name="readAccess"> 
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   
-   <sysFilter name="writeAccess">  
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="readAccess"> 
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  
+  <sysFilter name="writeAccess">  
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  ```
 
-   条件の定義に使用できる **expr** 属性値は、TRUE または FALSE です。
+  条件の定義に使用できる **expr** 属性値は、TRUE または FALSE です。
 
 >[!NOTE]
 >

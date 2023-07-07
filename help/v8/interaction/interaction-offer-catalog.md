@@ -48,7 +48,7 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 実施要件]**」タブで、実施日を割り当てます。
 
-      ![](assets/offer_cat_create_004.png)
+     ![](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL クエリを編集]**&#x200B;して、オファーのターゲットにフィルターを適用します。
 

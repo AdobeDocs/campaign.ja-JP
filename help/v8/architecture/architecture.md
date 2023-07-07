@@ -34,13 +34,13 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 * **Campaign FDA [!DNL Snowflake]デプロイメント**
 
-   [[!DNL Snowflake]  FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスします。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースです。データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
+  [[!DNL Snowflake]  FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスします。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースです。データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
 
 * **Campaign Enterprise（FFDA）デプロイメント**
 
-   [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストで、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行や、バッチクエリ、ワークフローの実行を行う Cloud [!DNL Snowflake] データベースです。
+  [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストで、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行や、バッチクエリ、ワークフローの実行を行う Cloud [!DNL Snowflake] データベースです。
 
-   Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
+  Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
 ## 分割配信の実行 {#split}
 
@@ -97,7 +97,7 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 
 * **コントロールインスタンス**（またはマーケティングインスタンス）は、マーケターや IT チームがメッセージテンプレートの作成、設定および公開に使用します。このインスタンスは、イベントの監視と履歴も一元化します。
 
-   ![](../assets/do-not-localize/glass.png) メッセージテンプレートの作成と公開の方法については、[この節](../send/transactional.md)を参照してください。
+  ![](../assets/do-not-localize/glass.png) メッセージテンプレートの作成と公開の方法については、[この節](../send/transactional.md)を参照してください。
 
 * **実行インスタンス**&#x200B;は、受信イベント（パスワードのリセットや web サイトからの注文など）を取得し、パーソナライズされたメッセージを送信します。ロードバランサーを介してメッセージを処理し処理対象のイベントの数をスケーリングして可用性を最大限に高めるため、複数の実行インスタンスを配置することができます。
 

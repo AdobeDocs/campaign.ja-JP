@@ -5,7 +5,7 @@ description: アラート
 feature: Workflows
 exl-id: 8fb36117-b126-470a-9c94-eb5c0a4aca1a
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%
 

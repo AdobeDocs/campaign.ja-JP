@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
 source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 100%
 
@@ -112,9 +112,9 @@ ht-degree: 100%
 
 * 各 **`<element>`** と **`<attribute>`** は、**name** 属性を介して名前で識別する必要があります。
 
-   >[!CAUTION]
-   >
-   >要素名は簡潔なもの（できれば英語）にし、XML 命名規則に従って許可された文字のみを含める必要があります。
+  >[!CAUTION]
+  >
+  >要素名は簡潔なもの（できれば英語）にし、XML 命名規則に従って許可された文字のみを含める必要があります。
 
 * XML 構造に **`<attribute>`** 要素と **`<element>`** 要素を含めることができるのは、**`<element>`** 要素のみです。
 * **`<attribute>`** 要素には、**`<element>`** 内で一意の名前が必要です。
@@ -132,7 +132,7 @@ ht-degree: 100%
 
 * **string**：文字列。例：名、町名など
 
-   サイズは、**length** 属性を使用して指定できます。オプションであり、デフォルト値は「255」です。
+  サイズは、**length** 属性を使用して指定できます。オプションであり、デフォルト値は「255」です。
 
 * **boolean**：ブール値フィールド可能な値の例：true/false、0/1、yes/no など
 * **byte**、**short**、**long**：整数（1 バイト、2 バイト、4 バイト）。例：年齢、アカウント番号、ポイント数など
@@ -143,9 +143,9 @@ ht-degree: 100%
 * **memo**：長いテキストフィールド（複数行）。例：説明、注釈など
 * **uuid**：「uniqueidentifier」フィールド
 
-   >[!NOTE]
-   >
-   >**uuid** フィールドを含めるには、「newuuid()」関数を追加し、デフォルト値を設定する必要があります。
+  >[!NOTE]
+  >
+  >**uuid** フィールドを含めるには、「newuuid()」関数を追加し、デフォルト値を設定する必要があります。
 
 次に、入力したタイプのスキーマ例を示します。
 
@@ -170,33 +170,33 @@ ht-degree: 100%
 
 * **label** プロパティを使用すると、簡単な説明を入力できます。
 
-   >[!NOTE]
-   >
-   >ラベルは、インスタンスの現在の言語に関連付けられます。
+  >[!NOTE]
+  >
+  >ラベルは、インスタンスの現在の言語に関連付けられます。
 
-   **例**：
+  **例**：
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email"/>
+  ```
 
-   ラベルは、Adobe Campaign クライアントコンソールの入力フォームから確認できます。
+  ラベルは、Adobe Campaign クライアントコンソールの入力フォームから確認できます。
 
-   ![](assets/schema_label.png)
+  ![](assets/schema_label.png)
 
 * **desc** プロパティを使用すると、詳細な説明を入力できます。
 
-   説明は、Adobe Campaign クライアントコンソールのメイン画面のステータスバーにある入力フォームから確認できます。
+  説明は、Adobe Campaign クライアントコンソールのメイン画面のステータスバーにある入力フォームから確認できます。
 
-   >[!NOTE]
-   >
-   >説明は、インスタンスの現在の言語に関連付けられます。
+  >[!NOTE]
+  >
+  >説明は、インスタンスの現在の言語に関連付けられます。
 
-   **例**：
+  **例**：
 
-   ```
-   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
-   ```
+  ```
+  <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
+  ```
 
 ### デフォルト値 {#default-values}
 
@@ -209,11 +209,11 @@ ht-degree: 100%
 * 現在の日付：**default=&quot;GetDate()&quot;**
 * カウンター：**default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-   この例では、デフォルト値は文字列を連結して構築され、**CounterValue** 関数を任意のカウンター名で呼び出しています。 返される数字は、挿入のたびに 1 ずつ増分されます。
+  この例では、デフォルト値は文字列を連結して構築され、**CounterValue** 関数を任意のカウンター名で呼び出しています。 返される数字は、挿入のたびに 1 ずつ増分されます。
 
-   >[!NOTE]
-   >
-   >Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／カウンター]**&#x200B;ノードを使用してカウンターを管理します。
+  >[!NOTE]
+  >
+  >Adobe Campaign クライアントコンソールでは、**[!UICONTROL 管理／カウンター]**&#x200B;ノードを使用してカウンターを管理します。
 
 フィールドにデフォルト値をリンクするには、`<default>  or  <sqldefault>   field.  </sqldefault> </default>` を使用できます
 
@@ -277,13 +277,13 @@ ht-degree: 100%
 
 * **dbenum** プロパティを使用すると、**enum** プロパティと類似したプロパティを持つ定義済みリストを定義できます。
 
-   ただし、**name** 属性は値を内部に格納するのではなく、スキーマを変更せずに関連するテーブルを拡張できるコードを格納します。
+  ただし、**name** 属性は値を内部に格納するのではなく、スキーマを変更せずに関連するテーブルを拡張できるコードを格納します。
 
-   値は、**[!UICONTROL 管理／定義済みリスト]**&#x200B;ノードを介して定義します。
+  値は、**[!UICONTROL 管理／定義済みリスト]**&#x200B;ノードを介して定義します。
 
-   この定義済みリストは、キャンペーンの特性を指定する場合などに使用します。
+  この定義済みリストは、キャンペーンの特性を指定する場合などに使用します。
 
-   ![](assets/schema_dbenum.png)
+  ![](assets/schema_dbenum.png)
 
 ### 例 {#example}
 
@@ -352,7 +352,6 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 >* **location/@city** が無効です。**`[location/@city]`** を使用してください。
 >* **`[@email]`** と **@email** は同等です。
 >
-
 
 次の算術演算のように、複雑な式を定義することもできます。
 
