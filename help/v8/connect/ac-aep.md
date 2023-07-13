@@ -5,7 +5,7 @@ feature: Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 8f7c723b8ef7ab6c8449eaec8ff6c87b9ee5deec
+source-git-commit: d9a91fddbdcfae0f59fe780f8b6962238b89c886
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 24%
@@ -30,7 +30,7 @@ Adobe Experience PlatformオーディエンスをAdobe Campaignに送信し、�
 
       ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-   1. Campaign に送信するセグメントをAdobeします。
+   1. Adobe Campaignに送信するセグメントを選択します。
    1. オーディエンスにエクスポートする属性を設定します。
    1. フローが設定されると、選択したオーディエンスをAdobe Campaignでのアクティベーションに使用できるようになります。
 
@@ -52,7 +52,7 @@ Adobe CampaignとAdobe Experience Platformを接続すると、Adobe Experience 
 
 >[!NOTE]
 >
->プロファイル属性の同期は、Campaign データベースに既に存在するプロファイルで使用できます。Adobe
+>プロファイル属性の同期は、Adobe Campaignデータベースに既に存在するプロファイルで使用できます。
 
 Adobe Experience Platformプロファイル属性をAdobe Campaignと同期する主な手順は次のとおりです。
 
