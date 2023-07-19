@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
+source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 98%
+source-wordcount: '1339'
+ht-degree: 97%
 
 ---
 
@@ -80,6 +80,7 @@ _2023年6月30日（PT）_
 * メールコンテンツエディターで画像をクリックすると、ポップアップウィンドウが開く問題を修正しました。（NEO-60752）
 * 配信のコンテンツを編集する際にエラーが発生し、スクロールできなくなる可能性がある問題を修正しました。（NEO-61364）
 * Adobe Analytics コネクタで、正しいチャネルタイプを使用して指標を書き出すようになりました。以前は、常に「メール」チャネルとして設定されていました。（NEO-26340）
+* 日時フィールドで Big Query コネクタを使用する際にエラーが発生する可能性がある問題を修正しました。 （NEO-49768）
 
 
 ## リリース 8.4.5 {#release-8-4-5}
