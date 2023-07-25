@@ -4,9 +4,9 @@ description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: dc2ccd7092fd31f043b338868762440ae0394991
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 
 ## 新機能
 
-* **[[!DNL Adobe Campaign] 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"}**  — ワークフローとキャンペーンの作成方法を説明します
+* **[[!DNL Adobe Campaign] 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"}** - ワークフローとキャンペーンの作成方法を説明します
 
 * **[ [!DNL Adobe Campaign]](start/get-started.md)**&#x200B;とは - 主な機能とユースケース
 
@@ -26,7 +26,7 @@ ht-degree: 82%
 
 * **[v7 から v8 へ](start/v7-to-v8.md)** - Campaign Classic を v7 から v8 へ移行します主な違いを学ぶ
 
-* **[Campaign v8 のCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}** - Campaign のCampaign コントロールパネルを使用して、自分で主要な管理者タスクを実行する
+* **[Campaign v8 のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}** - Campaign コントロールパネルを使用して、自分で主要な管理者タスクを実行できます
 
 * **[リリースノート](start/release-notes.md)** - 最新の機能と改善点を確認できます
 
