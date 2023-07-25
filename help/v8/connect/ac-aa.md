@@ -225,7 +225,7 @@ Adobe Campaign と Adobe Analytics 間のデータ交換は、バックグラウ
 * **[!UICONTROL タグ 1]** (webAnalytics/@tag1)
 * **[!UICONTROL タグ 2]** (webAnalytics/@tag2)
 * **[!UICONTROL タグ 3]** (webAnalytics/@tag3)
-* **[!UICONTROL コンタクト日]** (scheduling/@contactDate)
+* **[!UICONTROL 連絡日]** (scheduling/@contactDate)
 
 ## 配信のトラッキング {#tracking-deliveries-in-adobe-campaign}
 

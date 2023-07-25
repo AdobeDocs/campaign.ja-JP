@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 badge: label="限定提供（LA）" type="Informative"
 source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 100%
 

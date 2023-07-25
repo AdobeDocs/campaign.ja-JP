@@ -5,7 +5,7 @@ description: 配信コンテンツの読み込み
 feature: Workflows
 exl-id: 08febcbc-1703-4d36-89e1-32c903618084
 source-git-commit: b929b159af959afddbda3bcb6a5cccf668895f99
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
 

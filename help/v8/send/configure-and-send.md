@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 source-git-commit: 263ec61c3717c054cc135f1c4fb1f7e287e4a154
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 
