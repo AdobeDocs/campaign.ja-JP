@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
 source-git-commit: 958d2e8acdb9edee74f55bc3ea808f5072bf8f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ _2023年6月30日（PT）_
 **改善点**
 
 * 様々な最適化を実装することで、SMS スループットが大幅に向上し、SMS 通信の速度と効率が改善しました。
-* Campaign v8.5.1 以降、Campaign v8 への認証プロセスを改善しています。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。
+* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが改善されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。
 * 宛先接続とソース接続を活用して、Adobe Experience Platform と Campaign v8 データベースの間でオプトアウトデータなどのプロファイル属性を同期できるようになりました
 * 配信の準備を最適化しました。
 * 既存のユーザー／パスワード認証方法と共に、新しいキーベースの認証オプションを SFTP 外部アカウントに追加しました。ユーザーは秘密鍵を使用して安全に認証できるようになりました。これにより、セキュリティが強化され、SFTP アクセス用の代替認証メカニズムが提供されます。
