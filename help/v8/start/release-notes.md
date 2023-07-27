@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 70171ecfb39116f4db4c05ab03b55502e3faed43
+source-git-commit: 32d0264c03eb4ec6ab1959d0a66be78c06a0dccb
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 100%
+source-wordcount: '1455'
+ht-degree: 90%
 
 ---
 
@@ -24,32 +24,57 @@ Adobe Campaign は定期的にアップデートされています。この定�
 
 _2023年6月30日（PT）_
 
-**新機能**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>プッシュ通知サービスの強化</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作成された堅牢なフレームワークを活用した、最新のプッシュ通知サービスが導入されています。このサービスは、新しいレベルのスケーラビリティを実現するように設計されており、シームレスな効率でより多くのオーディエンスに通知を届けることができます。インフラストラクチャの強化とプロセスの最適化により、より高いスケールと信頼性が期待でき、これまでにない方法でモバイルアプリユーザーと関わり、つながりを持てるようになります。 この機能は、選択されたお客様のグループのみが使用できます（限定提供）。</p>
-<p>詳しくは、<a href="../send/push-data-collection.md">詳細ドキュメント</a>を参照してください。</p>
+**プッシュ通知サービスの強化**
 
-</td> 
-</tr> 
-</tbody> 
-</table>
+Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作成された堅牢なフレームワークを活用した、最新のプッシュ通知サービスが導入されています。このサービスは、新しいレベルのスケーラビリティを実現するように設計されており、シームレスな効率でより多くのオーディエンスに通知を届けることができます。インフラストラクチャの強化とプロセスの最適化により、より高いスケールと信頼性が期待でき、これまでにない方法でモバイルアプリユーザーと関わり、つながりを持てるようになります。 この機能は、選択されたお客様のグループのみが使用できます（限定提供）。
 
-**改善点**
+詳しくは、[詳細なドキュメント](../send/push-data-collection.md)を参照してください。
 
 
+**モバイルチャネルのスループット数の増加**
+
+<!--
+The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
+
+* Push Notifications (Android): up to **5x** faster
+* Push Notifications (iOS): up to **2.2x** faster
+
+SMS throughput has undergone substantial enhancements through a series of optimizations, resulting in notable improvements in speed and efficiency for SMS communication. These upgrades have led to increased throughput from the previous version (v8.4) to the latest version (v8.5), encompassing both sending and feedback updates. Users can now experience the benefits of this enhanced SMS service.</p>
+
+* SMS throughput: up to **5x** faster
+
+These max throughput performances have been measured by Adobe testing teams, in lab conditions.
+-->
+
+<table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
+<td>
+<img alt="スループットの向上" src="../start/assets/do-not-localize/improvements.jpeg">
+<p>
+</td>
+<td>
+<div>
+
+<p>新しく導入されたプッシュ通知サービスは、以前のバージョン (v8.4) と比較して、プッシュ Android とプッシュiOSの両方のスループットが大幅に改善されました。 最新バージョン (v8.5) のアップグレードされたサービスでは、パフォーマンスが大幅に向上します。 </p>
+<ul>
+<li>プッシュ通知 (Android)：最大 <strong>5 倍</strong> より速い </li>
+<li>プッシュ通知 (iOS)：最大 <strong>2.2 倍</strong> より速い</li>
+</ul>
+<p>SMS スループットは、一連の最適化によって大幅に強化され、SMS 通信の速度と効率が大幅に向上しました。 これらのアップグレードにより、送信とフィードバックの更新の両方を含め、以前のバージョン (v8.4) から最新バージョン (v8.5) へのスループットが向上しました。 これで、この拡張 SMS サービスの利点を体験できます。</p>
+<ul>
+<li>SMS スループット：最大 <strong>5 倍</strong> より速い</li>
+</ul>
+<p><em>これらの最大スループットパフォーマンスは、Adobeテストチームがラボ条件で測定しました。</em></p>
+</div>
+<p></p>
+</td>
+</tr></table>
 
 
-* 様々な最適化を実装することで、SMS スループットが大幅に向上し、SMS 通信の速度と効率が改善しました。
+**一般的な機能強化**
+
 * Adobe Experience Platform 宛先接続を活用して、Adobe Experience Platform と Campaign v8 データベースの間でオプトアウトデータなどのプロファイル属性を同期できるようになりました。
-* 配信の準備を最適化しました。
+* 配信の準備が、すべてのチャネルにわたって最適化されました。
 * 既存のユーザー／パスワード認証方法と共に、新しいキーベースの認証オプションを SFTP 外部アカウントに追加しました。ユーザーは秘密鍵を使用して安全に認証できるようになりました。これにより、セキュリティが強化され、SFTP アクセス用の代替認証メカニズムが提供されます。詳しくは、[こちら](../config/external-accounts.md)を参照してください。
 
 **セキュリティ機能の強化**
@@ -62,7 +87,6 @@ _2023年6月30日（PT）_
 
 * クライアントコンソールの 32 ビットバージョンは、非推奨（廃止予定）となりました。8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。クライアントコンソールの 64 ビットバージョンへのアップグレードはシームレスです。オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](../../technotes/upgrades/console.md)を参照してください。
 * Campaign v8 インスタンスを Azure Synapse 外部データベースに接続できるようになりました。この接続は、新しい外部アカウントで管理します。詳しくは、[Campaign 互換性マトリックス](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda)を参照してください。
-
 
 
 **パッチ**
