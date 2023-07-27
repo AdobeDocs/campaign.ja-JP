@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 98%
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -43,6 +43,7 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 >
 > その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。
 
+新しいクラウドアーキテクチャにより、Campaign はプロセスの合理化、コストの削減、リスクの管理、データセキュリティの向上を実現します。 Campaign v8 環境には、事前に設定された専用の Virtual Private Cloud(VPC) が付属しています。
 
 ## [!DNL Campaign] および [!DNL Snowflake] {#ac-gs-snowflake}
 

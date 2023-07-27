@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 99%
+source-wordcount: '921'
+ht-degree: 95%
 
 ---
 
@@ -61,6 +61,8 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 * **Managed Cloud Services**。Adobe Campaign v8 は Managed Cloud Services として利用でき、先を見越した監視、タイムリーな警告、サービスのガバナンスを提供します。
 
   アドビに管理されるクラウドサービスは、低い TCO（総所有コスト）で、より機敏で安全な、拡張性の高いクロスチャネルキャンペーン管理ソリューションをマーケターに提供します。この新しい製品は、先を見越した監視とタイムリーな警告を備えたサービスを組み合わせています。
+
+  新しいクラウドアーキテクチャにより、Campaign はプロセスの合理化、コストの削減、リスクの管理、データセキュリティの向上を実現します。 Campaign v8 環境には、事前に設定された専用の Virtual Private Cloud(VPC) が付属しています。
 
 * **速度と拡張性**。Adobe Campaign は、クラウド規模のデータベース技術を活用して、規模と速度を大幅に改善できるようになりました。
 
