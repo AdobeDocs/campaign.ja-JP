@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 1297d5a602d125cb80ca6efb490b12174bcea8d6
+source-git-commit: 2d0c82df052c9b8c9f264c2ad15ac6050025f770
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 92%
@@ -37,7 +37,7 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 
 以前の [!DNL Campaign Classic] ユーザーの場合、[!DNL Campaign Classic] v7 のほとんどの機能は [!DNL Campaign] v8 で利用できます。ただし、[この節](#gs-removed)に記載されている機能を除きます。
 
-Campaign v8 は、 **ハイブリッド構造**. Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。[詳細情報](../architecture/architecture.md)。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。
+Campaign v8 は、 **ハイブリッド構造**. Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。[詳細情報](../architecture/architecture.md)
 
 >[!NOTE]
 >
