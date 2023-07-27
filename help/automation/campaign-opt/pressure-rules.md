@@ -4,10 +4,10 @@ title: 頻度ルールの設定
 description: 頻度ルールの設定方法を学ぶ
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
+source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '3164'
-ht-degree: 100%
+source-wordcount: '3174'
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
    >[!NOTE]
    >
-   >スケジュールされた配信は考慮されません。
+   >のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../../v8/architecture/enterprise-deployment.md) Campaign では、スケジュールされた配信は考慮されません。
 
 1. メッセージの最大数を計算する方法を定義します。
 

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: 58fff46ba12f5c6221bbcd88a40fa0806a6c98b9
+source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 * [この節](v7-to-v8.md#gs-unavailable-features)で示す機能は、現在の Campaign v8 のビルドでは使用できません。
 * 使用できない機能や削除された機能の中には、ユーザーインターフェイスに表示されたままになっているものもあります。
 * [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、購読（オプトイン）および購読解除（オプトアウト）のメカニズムと、モバイル登録は非同期プロセスです。リクエストは、特定のテクニカルワークフローを通じて 1 時間ごとに処理されます。[詳細情報](../architecture/replication.md#tech-wf)
-* 重複は、エンドユーザーが手動で処理する必要があります。[詳細情報](../architecture/keys.md)
+* 
+   * のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)の重複は、エンドユーザーが手動で処理する必要があります。 [詳細情報](../architecture/keys.md)
 * Adobe Campaign v8 は、API および web アプリケーションでの拡張スループットをサポートしていません。特定のニーズがある場合は、アドビに問い合わせてガイダンスを求めてください。
-* Adobe Campaign のキャンペーン最適化モジュールでは、頻度タイポロジルールでスケジュールされた配信は考慮されません。詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja)を参照してください。
+* のコンテキストでは、 [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md)の場合、 Adobe Campaign Campaign Optimization モジュールでは、頻度タイポロジルールでスケジュールされた配信は考慮されません。 詳しくは、[このページ](../../automation/campaign-opt/pressure-rules.md)を参照してください。
