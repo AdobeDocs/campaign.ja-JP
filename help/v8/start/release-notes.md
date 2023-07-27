@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: f72cd296e49a22b2ee8878084c7d9f252b98d29e
+source-git-commit: e5aa245afb6954e7b1be795c42362da5754fb2a4
 workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 90%
@@ -49,7 +49,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 <table style="table-layout:fixed" text-align="bottom"><tr style="border: 0;">
 <td>
-<img alt="スループットの向上" src="../start/assets/do-not-localize/improvements.jpeg">
+<br/><img alt="スループットの向上" src="../start/assets/do-not-localize/improvements.jpeg">
 <p>
 </td>
 <td>
