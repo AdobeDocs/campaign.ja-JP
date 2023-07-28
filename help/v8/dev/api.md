@@ -5,10 +5,10 @@ feature: API
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,9 @@ JavaScript の API を使用すると、Campaign クラウドデータベース�
 
 >[!CAUTION]
 >
->[!DNL Adobe Campaign] v8 には、API レイヤーのスループット（TPS）に制限があります。この制限を超えると、標準 HTTP エラー（429）が発生します。 Managed Cloud Services のユーザーは、アドビに連絡して、各 API の調整を適応してもらうことができます。
+>* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが変更されました。 テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
+>
+>* [!DNL Adobe Campaign] v8 には、API レイヤーのスループット（TPS）に制限があります。この制限を超えると、標準 HTTP エラー（429）が発生します。 Managed Cloud Services のユーザーは、アドビに連絡して、各 API の調整を適応してもらうことができます。
 > 
 
 ## 前提条件
