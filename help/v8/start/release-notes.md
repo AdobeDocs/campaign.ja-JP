@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e5aa245afb6954e7b1be795c42362da5754fb2a4
+source-git-commit: 758d542b353a2d784407954089586e761825d740
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 90%
+source-wordcount: '1468'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +19,12 @@ Adobe Campaign は定期的にアップデートされています。この定�
  Managed Cloud Services ユーザーの場合は、新しいリリースが出るたびにアドビがインスタンスをアップグレードします。アドビがお客様にご連絡し、環境をアップグレードします。Campaign クライアントコンソールは、Campaign サーバーと&#x200B;**同じバージョンにアップグレードする必要があります**。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
 また、[互換性マトリックス](compatibility-matrix.md)にリストされているシステムのサポートされている最新バージョンを使用していることも確認してください。
+
+## リリース 8.5.2 {#release-8-5-2}
+
+_2023 年 8 月 3 日_
+
+8.5.1 にアップグレードする際に発生する可能性があるセキュリティの問題を修正しました。 （NEO-64767）
 
 ## リリース 8.5.1 {#release-8-5}
 
