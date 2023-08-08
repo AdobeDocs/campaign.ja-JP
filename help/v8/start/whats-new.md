@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: f16fe79b8417a3fa146baf432f829c73fb839953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 
 ## 主な機能{#key-capabilities}
 
-主な機能を以下に示します。
+主な機能は次のとおりです。
 
-### 一元化されたワークフロー管理{#central-wf-mgt}
+### ワークフローの一元管理{#central-wf-mgt}
 
 セグメントの作成や配信するメッセージの準備に至るまでの、マーケティングキャンペーンのあらゆる側面でスピードと規模を改善できます。
 
@@ -32,7 +32,7 @@ Adobe Campaign を使用すると、キャンペーンオーケストレーシ�
 
 ![](../assets/do-not-localize/glass.png) [Campaign ワークフローの詳細](../config/workflows.md)
 
-### パーソナライズされた電子メールマーケティング {#perso-email-mkt}
+### パーソナライズされたメールマーケティング {#perso-email-mkt}
 
 その後の顧客体験と一貫する、パーソナライズされた関連性の高いメールを作成します。
 
@@ -57,7 +57,7 @@ Adobe Campaign v8 は、様々なチャネルをまたいでキャンペーン�
 ![](../assets/do-not-localize/glass.png) [キャンペーン管理の詳細](campaigns.md)
 
 
-### Adobe Experience Platformへの接続 {#connection-to-aep}
+### Adobe Experience Platform への接続 {#connection-to-aep}
 
 Adobe Campaign v8 は、Real-Time CDP と Adobe Experience Platform のデータコネクタをサポートしているので、組織はリアルタイムの統合顧客プロファイルを活用できます。
 
@@ -76,9 +76,9 @@ Adobe Campaign v8 は Managed Cloud Services として利用でき、先を見�
 
 >[!NOTE]
 >
->新しいクラウドアーキテクチャにより、Campaign はプロセスの合理化、コストの削減、リスクの管理、データセキュリティの向上を実現します。 Campaign v8 環境には、事前に設定された専用の Virtual Private Cloud(VPC) が付属しています。
+>新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が付属しています。
 
-### 速度とスケール {#speed-scale}
+### 速度と規模 {#speed-scale}
 
 Adobe Campaign は、クラウド規模のデータベース技術を活用して、規模と速度を大幅に改善できるようになりました。
 
@@ -105,6 +105,6 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [CampaignCampaign コントロールパネルの詳細](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+![](../assets/do-not-localize/glass.png) [詳しくは、Campaign コントロールパネルを参照してください](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 
 
