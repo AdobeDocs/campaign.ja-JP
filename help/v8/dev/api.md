@@ -6,9 +6,9 @@ role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 96%
 JavaScript の API を使用すると、Campaign クラウドデータベースに書き込んだり、データベースから読み込んだりすることができます。
 
 * 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
-* データモデルデータに対するクエリ用の汎用データアクセス API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
+* データモデルデータをクエリするための汎用データアクセス API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
 
-[Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)で、Campaign は 2 つのデータベースと連携することに注意してください。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカルデータベース、もう 1 つはキャンペーンの実行や、レポート、データ取得、バッチクエリ、ワークフローの実行を行う Cloud データベースです。
+[Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)では、Campaign は 2 つのデータベースと連携することに注意してください。1 つは、ユーザーインターフェイスのリアルタイムメッセージングや単一クエリおよび API 経由での書き込みに使用するローカルデータベース、もう 1 つは、キャンペーン実行や、レポート、データ取り込み、バッチクエリおよびワークフロー実行に使用するクラウドデータベースです。
 
 >[!CAUTION]
 >
->* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが変更されました。 テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
+>* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが変更されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
 >
 >* [!DNL Adobe Campaign] v8 には、API レイヤーのスループット（TPS）に制限があります。この制限を超えると、標準 HTTP エラー（429）が発生します。 Managed Cloud Services のユーザーは、アドビに連絡して、各 API の調整を適応してもらうことができます。
 > 
