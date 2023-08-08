@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 2d0c82df052c9b8c9f264c2ad15ac6050025f770
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。Campaign で管理されるCloud Servicesの詳細については、 [製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。Campaign Managed Cloud Services について詳しくは、[製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
@@ -37,13 +37,13 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 
 以前の [!DNL Campaign Classic] ユーザーの場合、[!DNL Campaign Classic] v7 のほとんどの機能は [!DNL Campaign] v8 で利用できます。ただし、[この節](#gs-removed)に記載されている機能を除きます。
 
-Campaign v8 は、 **ハイブリッド構造**. Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。[詳細情報](../architecture/architecture.md)
+Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基づいています。Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。[詳細情報](../architecture/architecture.md)
 
 >[!NOTE]
 >
->新しいクラウドアーキテクチャにより、Campaign はプロセスの合理化、コストの削減、リスクの管理、データセキュリティの向上を実現します。 Campaign v8 環境には、事前に設定された専用の Virtual Private Cloud(VPC) が付属しています。
+>新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が付属しています。
 
-## [!DNL Campaign] および [!DNL Snowflake] {#ac-gs-snowflake}
+## [!DNL Campaign] と [!DNL Snowflake] {#ac-gs-snowflake}
 
 Campaign v8 は [!DNL Snowflake] で動作します。
 
