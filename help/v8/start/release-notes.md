@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 758d542b353a2d784407954089586e761825d740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1468'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Adobe Campaign は定期的にアップデートされています。この定�
 
 ## リリース 8.5.2 {#release-8-5-2}
 
-_2023 年 8 月 3 日_
+_2023年8月2日（PT）_
 
-8.5.1 にアップグレードする際に発生する可能性があるセキュリティの問題を修正しました。 （NEO-64767）
+8.5.1 にアップグレードする際に発生する可能性があるセキュリティの問題を修正しました。（NEO-64767）
 
 ## リリース 8.5.1 {#release-8-5}
 
@@ -38,7 +38,7 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 詳しくは、[詳細なドキュメント](../send/push-data-collection.md)を参照してください。
 
 
-**モバイルチャネルのスループット数の増加**
+**モバイルチャネルのスループットの向上**
 
 <!--
 The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
@@ -61,26 +61,26 @@ These max throughput performances have been measured by Adobe testing teams, in 
 <td>
 <div>
 
-<p>新しく導入されたプッシュ通知サービスは、以前のバージョン (v8.4) と比較して、プッシュ Android とプッシュiOSの両方のスループットが大幅に改善されました。 最新バージョン (v8.5) のアップグレードされたサービスでは、パフォーマンスが大幅に向上します。 </p>
+<p>新しく導入されたプッシュ通知サービスにより、以前のバージョン（v8.4）と比較して、プッシュ（Android）とプッシュ（iOS）の両方のスループットが大幅に向上しました。最新バージョン（v8.5）のアップグレードされたサービスで、ユーザーは大幅に向上したパフォーマンスを体験できます。 </p>
 <ul>
-<li>プッシュ通知 (Android)：最大 <strong>5 倍</strong> より速い </li>
-<li>プッシュ通知 (iOS)：最大 <strong>2.2 倍</strong> より速い</li>
+<li>プッシュ通知（Android）：最大 <strong>5 倍</strong>に高速化 </li>
+<li>プッシュ通知（iOS）：最大 <strong>2.2 倍</strong>に高速化</li>
 </ul>
-<p>SMS スループットは、一連の最適化によって大幅に強化され、SMS 通信の速度と効率が大幅に向上しました。 これらのアップグレードにより、送信とフィードバックの更新の両方を含め、以前のバージョン (v8.4) から最新バージョン (v8.5) へのスループットが向上しました。 これで、この拡張 SMS サービスの利点を体験できます。</p>
+<p>一連の最適化によって SMS スループットが大幅に向上した結果、SMS 通信の速度と効率が大幅に改善しました。これらのアップグレードにより、送信とフィードバック更新の両方について、以前のバージョン（v8.4）から最新バージョン（v8.5）までスループットが向上しました。ユーザーは、この強化された SMS サービスのメリットを体験できるようになりました。</p>
 <ul>
-<li>SMS スループット：最大 <strong>5 倍</strong> より速い</li>
+<li>SMS スループット：最大 <strong>5 倍</strong>まで高速化</li>
 </ul>
-<p><em>これらの最大スループットパフォーマンスは、Adobeテストチームがラボ条件で測定しました。</em></p>
+<p><em>これらの最大スループットパフォーマンスは、アドビテストチームがラボ条件で測定したものです。</em></p>
 </div>
 <p></p>
 </td>
 </tr></table>
 
 
-**一般的な機能強化**
+**一般的な改善点**
 
 * Adobe Experience Platform 宛先接続を活用して、Adobe Experience Platform と Campaign v8 データベースの間でオプトアウトデータなどのプロファイル属性を同期できるようになりました。
-* 配信の準備が、すべてのチャネルにわたって最適化されました。
+* すべてのチャネルにわたって配信準備が最適化されました。
 * 既存のユーザー／パスワード認証方法と共に、新しいキーベースの認証オプションを SFTP 外部アカウントに追加しました。ユーザーは秘密鍵を使用して安全に認証できるようになりました。これにより、セキュリティが強化され、SFTP アクセス用の代替認証メカニズムが提供されます。詳しくは、[こちら](../config/external-accounts.md)を参照してください。
 
 **セキュリティ機能の強化**
