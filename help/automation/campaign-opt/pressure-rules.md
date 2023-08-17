@@ -5,7 +5,7 @@ description: 頻度ルールの設定方法を学ぶ
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3174'
 ht-degree: 100%
 
