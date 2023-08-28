@@ -4,10 +4,10 @@ title: データ読み込み（ファイル）
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management Activity
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: cf88140d1e8b71203729732163f66060423965a0
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 100%
 ファイルのインポート中にプリプロセスを実行するように設定できます。例えば、サーバー上でファイルを解凍せずに（これによりファイルの解凍スペースが節約される）、ファイル処理にファイルの解凍を含めることができます。「**[!UICONTROL ファイルを前処理]**」オプションを選択し、「**[!UICONTROL なし]**」、「**[!UICONTROL 解凍]**（zcat）」または「**[!UICONTROL 復号化]**（gpg）」の 3 つのオプションから選択します。
 
 ![](assets/preprocessing-dataloading.png)
+
+>[!IMPORTANT]
+>
+>4 Gb を超える圧縮済みファイルは解凍できません。
 
 ## ファイルフォーマットの定義 {#defining-the-file-format}
 
