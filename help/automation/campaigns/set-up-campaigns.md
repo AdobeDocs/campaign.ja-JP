@@ -1,17 +1,17 @@
 ---
 product: campaign
-title: 最初のキャンペーンを作成
-description: マーケティングキャンペーンの開始方法を学ぶ
+title: マーケティングキャンペーンの基本を学ぶ
+description: マーケティングキャンペーンの開始方法を説明します
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ac4473625697d0fd545586a01868e3229bccc672
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 98%
 
 ---
 
-# 最初のキャンペーンを作成{#gs-marketing-campaigns}
+# マーケティングキャンペーンの基本を学ぶ {#gs-marketing-campaigns}
 
 Adobe Campaign では、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。Adobe Campaign により、マーケティング戦略の指示や実行を一元的におこなうことができます。ドラッグ＆ドロップのビジュアルワークフローインターフェイスを使用して、複数のデータソースの管理、オーディエンスセグメントの定義、複数手順のクロスチャネルキャンペーンの計画と実行が可能です。
 
