@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: 4f3e6227193fc607a968f9170484017e551fa560
+source-git-commit: 4ff6e8134c887da6c207afc7f9532a60ff9ef31e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '570'
+ht-degree: 98%
 
 ---
 
@@ -35,44 +35,43 @@ ht-degree: 100%
 + キャンペーン管理 {#campaigns}
    + [キャンペーンの基本を学ぶ](start/campaigns.md)
    + [キャンペーンオーケストレーション >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
-   + メッセージの送信{#send}
-      + [メッセージの基本を学ぶ](start/create-message.md)
-      + [配信テンプレートの操作](send/create-templates.md)
-      + メール {#emails}
-         + [メールのデザインと検証](send/email.md)
-         + [ミラーページへのリンク](send/mirror-page.md)
-         + [追加のメールパラメーターを定義](send/email-parameters.md)
-         + [メールの送信と監視](send/send.md)
-      + [SMS](send/sms.md)
-      + プッシュ通知 {#push}
-         + [プッシュ通知の作成と送信](send/push.md)
-         + [プッシュ通知チャネルを設定](send/push-settings.md)
-         + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
-      + [LINE メッセージ](send/line.md)
-      + [ダイレクトメール](send/direct-mail.md)
-      + [Twitter](send/twitter.md)
-      + トランザクションメッセージ {#real-time}
-         + [トランザクションメッセージの基本を学ぶ](send/transactional.md)
-         + [テンプレートの作成と公開](send/transactional-template.md)
-         + イベント管理 {#event}
++ メッセージの送信{#send}
+   + [メッセージの基本を学ぶ](start/create-message.md)
+   + メール {#emails}
+      + [メールのデザインと検証](send/email.md)
+      + [ミラーページへのリンク](send/mirror-page.md)
+      + [追加のメールパラメーターを定義](send/email-parameters.md)
+      + [メールの送信と監視](send/send.md)
+   + [SMS](send/sms.md)
+   + プッシュ通知 {#push}
+      + [プッシュ通知の作成と送信](send/push.md)
+      + [プッシュ通知チャネルを設定](send/push-settings.md)
+      + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
+   + [LINE メッセージ](send/line.md)
+   + [ダイレクトメール](send/direct-mail.md)
+   + [Twitter](send/twitter.md)
+   + コンテンツのパーソナライズ {#personalize}
+      + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
+      + [パーソナライゼーションデータ](send/personalization-data.md)
+      + [パーソナライゼーションフィールドの追加](send/personalization-fields.md)
+      + [パーソナライゼーションブロックの使用](send/personalization-blocks.md)
+      + [条件の作成](send/conditions.md)
+   + 配信を検証および送信します {#validate}
+   + [プレビューと配達確認](send/preview-and-proof.md)
+   + [配信分析](send/delivery-analysis.md)
+   + [配信の設定と送信](send/configure-and-send.md)
+   + [送信時間の最適化](send/predictive.md)
+   + 失敗、バウンス、強制隔離{#failures}
+      + [強制隔離](send/quarantines.md)
+      + [配信の失敗](send/delivery-failures.md)
+   + [配信テンプレートの操作](send/create-templates.md)
+   + トランザクションメッセージ {#real-time}
+      + [トランザクションメッセージの基本を学ぶ](send/transactional.md)
+      + [テンプレートの作成と公開](send/transactional-template.md)
+      + イベント管理 {#event}
          + [イベントの収集と処理](send/event-processing.md)
          + [イベントの説明について](send/event-description.md)
          + [メッセージの送信と監視](send/delivery-execution.md)
-      + 失敗、バウンス、強制隔離{#failures}
-         + [強制隔離](send/quarantines.md)
-         + [配信の失敗](send/delivery-failures.md)
-      + [送信時間の最適化](send/predictive.md)
-      + [購読の管理](start/subscriptions.md)
-      + コンテンツのパーソナライズ {#personalize}
-         + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
-         + [パーソナライゼーションデータ](send/personalization-data.md)
-         + [パーソナライゼーションフィールドの追加](send/personalization-fields.md)
-         + [パーソナライゼーションブロックの使用](send/personalization-blocks.md)
-         + [条件の作成](send/conditions.md)
-      + 配信の検証 {#validate}
-         + [プレビューと配達確認](send/preview-and-proof.md)
-         + [配信分析](send/delivery-analysis.md)
-      + [配信の設定と送信](send/configure-and-send.md)
 + プロファイルと Audience Management {#audience}
    + [プロファイルとオーディエンスの基本を学ぶ](audiences/gs-audiences.md)
    + [オーディエンスの操作](start/audiences.md)
@@ -87,8 +86,9 @@ ht-degree: 100%
    + オーディエンスの作成 {#create-audiences}
       + [連絡先リストの作成](audiences/create-audiences.md)
       + [フィルターの作成と管理](audiences/create-filters.md)
-   + [オーディエンスをアドビソリューションと共有](start/shared-audiences.md)
+      + [オーディエンスをAdobeソリューションと共有](start/shared-audiences.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
+   + [購読の管理](start/subscriptions.md)
 + コンテンツ管理 {#content}
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + プライバシーとセキュリティの管理 {#privacy}
