@@ -88,7 +88,7 @@ ht-degree: 98%
       + [フィルターの作成と管理](audiences/create-filters.md)
       + [オーディエンスをAdobeソリューションと共有](start/shared-audiences.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
-   + [購読の管理](start/subscriptions.md)
+   + [購読を管理](start/subscriptions.md)
 + コンテンツ管理 {#content}
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + プライバシーとセキュリティの管理 {#privacy}
