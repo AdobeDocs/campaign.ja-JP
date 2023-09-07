@@ -3,10 +3,10 @@ title: Campaign オペレーターをAdobeIdentity Managementシステム (IMS) 
 description: Campaign オペレーターをAdobeIdentity Managementシステム (IMS) に移行する方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 11128dcb26119383b86aa62561ec0ce1a3c138ad
+source-git-commit: a141ba08b9c40fb89cfdf63c3078082d32afd861
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 10%
+source-wordcount: '951'
+ht-degree: 9%
 
 ---
 
@@ -50,7 +50,7 @@ Adobeの技術チームが既存のオペレーターグループとネームド
 以下に従って、IMS への技術ユーザーの移行を計画できるようになりました。 [このテクニカルノート](ims-migration.md)をクリックし、完了したら、Adobe移行マネージャに確定します。
 Adobeは、移行が完了したとマークし、フラグをオンにして、新しいネイティブユーザーの作成とネイティブユーザーのログインをブロックします。
 
-## よくある質問? {#ims-migration-faq}
+## よくある質問 {#ims-migration-faq}
 
 ### 移行はいつ開始できますか？ {#ims-migration-start}
 
@@ -58,7 +58,7 @@ AdobeIdentity Managementシステム (IMS) への移行の前提条件は、環�
 
 Campaign v8.5.2 にアップグレードした後は、ステージ環境で IMS の移行を開始し、実稼動環境に合わせて計画できます。
 
-### 8.5.2 ビルドのアップグレード後はどうなりますか？ {#ims-migration-after-upgrade}
+### Campaign v8.5.2 にビルドをアップグレードすると、どうなりますか？ {#ims-migration-after-upgrade}
 
 環境を Campaign v8.5.2 にアップグレードした後、Identity Management System(IMS) のAdobeを実行できます。
 
@@ -90,3 +90,20 @@ Campaign 管理者は、クライアントコンソールからすべてのネ�
 ### IMS を使用して Campaign にログインする方法は？ {#ims-migration-log}
 
 Campaign とAdobe IDの連携方法については、 [この節](../../v8/start/connect.md).
+
+### この移行中にダウンタイムは発生しますか？ {#ims-migration-downtime}
+
+Adobeを完了するには（ユーザーと製品プロファイルを移行する）、移行に 1 時間の時間が必要です。どのインスタンス（ワークフローなど）にもダウンタイムは発生しません。
+
+この期間には、すべての Campaign ユーザーがログオフし、IMS への移行が完了したら、Adobe IDに再度ログオフする必要があります。
+
+
+### IMS ユーザーの移行中にログインしたユーザーはどうなりますか？ {#ims-migration-log-off}
+
+Adobeでは、移行期間中にすべてのユーザーをログオフすることを強くお勧めします。
+
+### 組織内のユーザーは既に IMS を使用していますが、IMS の移行を実行する必要がありますか？
+
+この移行には、技術的でない「人間」ユーザーの移行と、技術的なユーザーの移行（カスタムコードの API で使用）の 2 つの側面があります。
+
+すべてのユーザー（Campaign オペレーター）が IMS を使用している場合、この移行を実行する必要はありません。 ただし、カスタムコードで使用していた技術ユーザーを移行する必要があります。 詳しくは、[このページ](ims-migration.md)を参照してください。
