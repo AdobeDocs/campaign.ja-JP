@@ -6,17 +6,17 @@ role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: b0150b38b50b04c08b10ed73b3be3064a09d7b88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 購読と購読解除の管理{#optin-optout}
 
-Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。複数のサービスを並行して定義できます。例えば、Web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
+Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。複数のサービスを並行して定義できます。例えば、web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
 
-![](../assets/do-not-localize/book.png) 情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法について説明します [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}
+![](../assets/do-not-localize/book.png) 情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}を参照してください。
 
 プロファイルをサービスに購読（オプトイン）するには、次のオプションを使用できます。
 
