@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: マーケティングキャンペーンの基本を学ぶ
-description: マーケティングキャンペーンの開始方法を説明します
+description: マーケティングキャンペーンの開始方法を学ぶ
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
 source-git-commit: ac4473625697d0fd545586a01868e3229bccc672
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

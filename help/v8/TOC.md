@@ -7,7 +7,7 @@ breadcrumb-title: Campaign の概要
 source-git-commit: cb5bec3107872d4d6da83b4ddbc7cad3e9276b00
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 97%
       + [パーソナライゼーションフィールドの追加](send/personalization-fields.md)
       + [パーソナライゼーションブロックの使用](send/personalization-blocks.md)
       + [条件の作成](send/conditions.md)
-   + 配信を検証および送信します {#validate}
+   + 配信の検証と送信 {#validate}
    + [プレビューと配達確認](send/preview-and-proof.md)
    + [配信分析](send/delivery-analysis.md)
    + [配信の設定と送信](send/configure-and-send.md)
@@ -64,7 +64,7 @@ ht-degree: 97%
    + 失敗、バウンス、強制隔離{#failures}
       + [強制隔離](send/quarantines.md)
       + [配信の失敗](send/delivery-failures.md)
-   + [配信テンプレートの操作](send/create-templates.md)
+   + [配信テンプレートを操作](send/create-templates.md)
    + トランザクションメッセージ {#real-time}
       + [トランザクションメッセージの基本を学ぶ](send/transactional.md)
       + [テンプレートの作成と公開](send/transactional-template.md)
@@ -86,7 +86,7 @@ ht-degree: 97%
    + オーディエンスの作成 {#create-audiences}
       + [連絡先リストの作成](audiences/create-audiences.md)
       + [フィルターの作成と管理](audiences/create-filters.md)
-      + [オーディエンスをAdobeソリューションと共有](start/shared-audiences.md)
+      + [オーディエンスをアドビソリューションと共有](start/shared-audiences.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
    + [購読を管理](start/subscriptions.md)
 + コンテンツ管理 {#content}
