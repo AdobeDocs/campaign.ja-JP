@@ -3,22 +3,24 @@ title: Campaign オペレーターをAdobeIdentity Managementシステム (IMS) 
 description: Campaign オペレーターをAdobeIdentity Managementシステム (IMS) に移行する方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: a141ba08b9c40fb89cfdf63c3078082d32afd861
+source-git-commit: 74d97c4c61a305aff1d2f108a8a24cb6943dea07
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '1036'
 ht-degree: 9%
 
 ---
 
 # Campaign オペレーターをAdobeIdentity Managementシステム (IMS) に移行する {#migrate-users-to-ims}
 
-Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。すべての演算子が [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} Campaign に接続する場合のみ。 ユーザー/パスワードとの接続は、許可されなくなります。 Adobeは、Campaign v8.6 にスムーズに移行できるよう、Campaign v8.5.2 でこの移行を実行することをお勧めします。
+Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。すべての演算子が [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} **のみ** をクリックして、Campaign に接続します。 ユーザー/パスワード（ネイティブ認証）との接続は許可されなくなります。 Adobeは、Campaign v8.6 にスムーズに移行できるよう、Campaign v8.5.2 でこの移行を実行することをお勧めします。
+
+Campaign Classicv7 Managed Services のお客様は、Campaign v8 に移行する場合も、この手順が適用されます。
 
 この記事では、Adobe Developer Console でテクニカルオペレーターをテクニカルアカウントに移行するために必要な手順について詳しく説明します。
 
 ## 変更点{#move-to-ims-changes}
 
-Campaign の正規Adobeは、すべて既に、Campaign Identity Management System(IMS) を通じて、Adobe IDを使用してAdobe Campaignクライアントコンソールに接続している必要があります。 ただし、一部の古い設定では、ユーザー/パスワード接続は引き続き使用できました。 Campaign v8.6 以降では、この機能は使用できなくなります。
+Campaign v8 では、すべての通常のユーザーは、既にAdobe IDを使用してAdobeIdentity Management System(IMS) を通じてAdobe Campaignクライアントコンソールに接続している必要があります。 ただし、一部の古い設定では、ユーザー/パスワード接続は引き続き使用できました。 **Campaign v8.6 以降では、この機能は使用できなくなります。**
 
 さらに、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaignクライアントアプリケーションは、IMS テクニカルアカウントトークンを使用して Campaign API を直接呼び出すようになりました。 技術オペレーターの移行について詳しくは、 [このページ](ims-migration.md).
 
@@ -29,7 +31,7 @@ Campaign の正規Adobeは、すべて既に、Campaign Identity Management Syst
 
 組織内のオペレーターが、ログイン/パスワード ( ネイティブ認証など ) の権限を持つ場合は影響が生じ、以下に示すように、これらのオペレーターをAdobe IMSに移行する必要があります。
 
-他のAdobeDX アプリのほとんどが既に IMS 上にあるので、IMS の移行は、環境の安全性と標準化を図るためのセキュリティ上の必須事項です。
+への移行 [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} は、他のAdobe Experience Cloudソリューションやアプリのほとんどが既に IMS 上にあるので、環境のセキュリティと標準化を確実におこなうためのセキュリティ上の不可欠な要素です。
 
 ## 移行方法{#ims-migration-procedure}
 
@@ -44,8 +46,8 @@ Adobeの技術チームが既存のオペレーターグループとネームド
 1. Adobeは、環境を Campaign v8.5.2 にアップグレードします。
 1. アップグレード後も、ネイティブユーザーとして、または IMS を使用して、両方の方法で新しいユーザーを作成できます。
 1. Campaign の内部キャンペーン管理者は、Campaign クライアントコンソールですべてのネイティブユーザーに一意の E メールを追加し、追加が完了したらAdobe移行マネージャーに確認する必要があります。 この手順について詳しくは、 [この節](#ims-migration-id).
-1. Adobeと協力して、Adobeが自動化された非技術ユーザー（オペレーター）および製品プロファイル移行を実行する日付を保護します。 この手順では、1 時間の時間枠を必要とします。どのインスタンスに対してもダウンタイムは発生しません。
-1. 内部キャンペーン管理者がこれらの変更を検証し、サインオフを行います。 この移行後は、ログインとパスワードによる認証を行うオペレーターを作成しなくなります。
+1. Adobeと連携して、Adobeが技術以外のユーザー（オペレーター）や製品プロファイルに対して自動移行を実行する日付を保護します。 この手順では、1 時間の時間枠を必要とします。どのインスタンスに対してもダウンタイムは発生しません。
+1. 内部キャンペーン管理者が変更を検証し、承認を提供します。 この移行後は、ログインとパスワードによる認証を行うオペレーターを作成しなくなります。
 
 以下に従って、IMS への技術ユーザーの移行を計画できるようになりました。 [このテクニカルノート](ims-migration.md)をクリックし、完了したら、Adobe移行マネージャに確定します。
 Adobeは、移行が完了したとマークし、フラグをオンにして、新しいネイティブユーザーの作成とネイティブユーザーのログインをブロックします。
@@ -54,19 +56,19 @@ Adobeは、移行が完了したとマークし、フラグをオンにして、
 
 ### 移行はいつ開始できますか？ {#ims-migration-start}
 
-AdobeIdentity Managementシステム (IMS) への移行の前提条件は、環境を Campaign v8.5.2 にアップグレードすることです。
+への移行の前提条件 [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} は、環境を Campaign v8.5.2 にアップグレードするためのものです。
 
 Campaign v8.5.2 にアップグレードした後は、ステージ環境で IMS の移行を開始し、実稼動環境に合わせて計画できます。
 
 ### Campaign v8.5.2 にビルドをアップグレードすると、どうなりますか？ {#ims-migration-after-upgrade}
 
-環境を Campaign v8.5.2 にアップグレードした後、Identity Management System(IMS) のAdobeを実行できます。
+環境を Campaign v8.5.2 にアップグレードした後、 [AdobeIdentity Managementシステム (IMS)](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}.
 
 IMS の移行が完了するまで、新しいネイティブユーザーを作成できます。
 
 ### 移行はいつ完了しますか？ {#ims-migration-end}
 
-AdobeIdentity Management System(IMS) へのエンドユーザーの移行と技術的なユーザーの移行が完了したら、Adobeが移行完了とマークし、クライアントコンソールからのユーザー作成とネイティブユーザーログインをブロックできるよう、Adobe移行マネージャーに連絡する必要があります。
+AdobeIdentity Management System(IMS) へのエンドユーザーの移行と技術的なユーザーの移行が完了したら、Adobeが移行を完了とマークし、クライアントコンソールからのユーザー作成をブロックし、ネイティブユーザーログインを無効にできるよう、Adobe移行マネージャーに連絡する必要があります。
 
 
 ### 移行後にユーザーを作成する方法は？ {#ims-migration-native}
@@ -81,10 +83,12 @@ Campaign 管理者は、Adobe Admin Consoleと Campaign クライアントコン
 
 Campaign 管理者は、クライアントコンソールからすべてのネイティブユーザーに電子メール ID を追加する必要があります。 手順は次のとおりです。
 
-1. クライアントコンソールに接続し、を参照します。 **管理/アクセス管理/オペレーター**
+1. クライアントコンソールに接続し、を参照します。 **管理/アクセス管理/オペレーター**.
 1. 更新する演算子をオペレーターリストで選択します。
 1. オペレーターの E メールアドレスを **連絡先** のセクションに含める必要があります。
 1. 変更内容を保存します。
+
+また、CSV ファイルをインポートして、すべてのオペレーターのプロファイルを E メールで更新することもできます。
 
 
 ### IMS を使用して Campaign にログインする方法は？ {#ims-migration-log}
@@ -97,13 +101,14 @@ Adobeを完了するには（ユーザーと製品プロファイルを移行す
 
 この期間には、すべての Campaign ユーザーがログオフし、IMS への移行が完了したら、Adobe IDに再度ログオフする必要があります。
 
-
 ### IMS ユーザーの移行中にログインしたユーザーはどうなりますか？ {#ims-migration-log-off}
 
 Adobeでは、移行期間中にすべてのユーザーをログオフすることを強くお勧めします。
 
 ### 組織内のユーザーは既に IMS を使用していますが、IMS の移行を実行する必要がありますか？
 
-この移行には、技術的でない「人間」ユーザーの移行と、技術的なユーザーの移行（カスタムコードの API で使用）の 2 つの側面があります。
+この移行には、エンドユーザーの移行と、技術ユーザーの移行（カスタムコードの API で使用）の 2 つの側面があります。
 
 すべてのユーザー（Campaign オペレーター）が IMS を使用している場合、この移行を実行する必要はありません。 ただし、カスタムコードで使用していた技術ユーザーを移行する必要があります。 詳しくは、[このページ](ims-migration.md)を参照してください。
+
+この移行が完了したら、Adobeが移行を最終処理できるよう、Adobe移行マネージャに問い合わせる必要があります。
