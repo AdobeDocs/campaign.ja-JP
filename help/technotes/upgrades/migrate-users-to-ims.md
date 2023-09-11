@@ -3,10 +3,10 @@ title: Campaign オペレーターをAdobeIdentity Managementシステム (IMS) 
 description: Campaign オペレーターをAdobeIdentity Managementシステム (IMS) に移行する方法を説明します
 hide: true
 hidefromtoc: true
-source-git-commit: 74d97c4c61a305aff1d2f108a8a24cb6943dea07
+source-git-commit: 53412ab167721c8a8f9d84e07112b0f410d4785d
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 9%
+source-wordcount: '1094'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,6 @@ Campaign v8 では、すべての通常のユーザーは、既にAdobe IDを使
 さらに、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaignクライアントアプリケーションは、IMS テクニカルアカウントトークンを使用して Campaign API を直接呼び出すようになりました。 技術オペレーターの移行について詳しくは、 [このページ](ims-migration.md).
 
 この変更は、Campaign v8.5.2 以降に適用され、Campaign v8.6 以降は&#x200B;**必須**&#x200B;となります。
-
 
 ## 影響の有無{#migrate-ims-impacts}
 
@@ -49,8 +48,9 @@ Adobeの技術チームが既存のオペレーターグループとネームド
 1. Adobeと連携して、Adobeが技術以外のユーザー（オペレーター）や製品プロファイルに対して自動移行を実行する日付を保護します。 この手順では、1 時間の時間枠を必要とします。どのインスタンスに対してもダウンタイムは発生しません。
 1. 内部キャンペーン管理者が変更を検証し、承認を提供します。 この移行後は、ログインとパスワードによる認証を行うオペレーターを作成しなくなります。
 
-以下に従って、IMS への技術ユーザーの移行を計画できるようになりました。 [このテクニカルノート](ims-migration.md)をクリックし、完了したら、Adobe移行マネージャに確定します。
-Adobeは、移行が完了したとマークし、フラグをオンにして、新しいネイティブユーザーの作成とネイティブユーザーのログインをブロックします。
+技術オペレーターをAdobe Developer Console に移行できるようになりました。詳しくは、 [このテクニカルノート](ims-migration.md). この手順は、Campaign API を使用する場合は必須です。
+
+この移行が完了したら、Adobe移行マネージャに確認します。Adobeが移行を完了とマークし、新しいネイティブユーザーの作成とネイティブユーザーログインをブロックします。 その後、環境を保護し、標準化します。
 
 ## よくある質問 {#ims-migration-faq}
 
@@ -105,10 +105,19 @@ Adobeを完了するには（ユーザーと製品プロファイルを移行す
 
 Adobeでは、移行期間中にすべてのユーザーをログオフすることを強くお勧めします。
 
-### 組織内のユーザーは既に IMS を使用していますが、IMS の移行を実行する必要がありますか？
+### 組織内のユーザーは既に IMS を使用していますが、IMS の移行を実行する必要がありますか？{#ims-migration-needed}
 
 この移行には、エンドユーザーの移行と、技術ユーザーの移行（カスタムコードの API で使用）の 2 つの側面があります。
 
 すべてのユーザー（Campaign オペレーター）が IMS を使用している場合、この移行を実行する必要はありません。 ただし、カスタムコードで使用していた技術ユーザーを移行する必要があります。 詳しくは、[このページ](ims-migration.md)を参照してください。
 
 この移行が完了したら、Adobeが移行を最終処理できるよう、Adobe移行マネージャに問い合わせる必要があります。
+
+## 参考になるリンク {#ims-useful-links}
+
+* [Adobe Developer Console へのテクニカルユーザーの移行](ims-migration.md)
+* [Adobe Campaign v8 への接続方法](../../v8/start/connect.md)
+* [Adobe Campaign v8 でのアクセスと権限](../../v8/start/gs-permissions.md)
+* [Adobe Campaign v8 リリースノート](../../v8/start/release-notes.md)
+* [AdobeIdentity Managementシステム (IMS) とは](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}
+
