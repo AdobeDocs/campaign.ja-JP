@@ -5,10 +5,10 @@ feature: Architecture
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: d791cb9afc51457e799ee62f8bb845fd888fecf2
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1129'
+ht-degree: 95%
 
 ---
 
@@ -78,6 +78,7 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 
 * **統計サーバー**（nlserver stat）- このプロセスは、接続数、送信メッセージ数（送信先メールサーバー別）、接続や送信の制限値（同時接続数の上限、1 時間あたりや 1 接続あたりのメッセージ数の上限）などの統計情報を保持します。同じパブリック IP アドレスを共有している場合は、複数のインスタンスやマシンを統合することもできます。
 
+
 ## データベースコンテナ {#db-containers}
 
 Adobe Campaign Cloud データベースは、[!DNL Snowflake]を活用しています。これには、ソリューションの機能データ（プロファイル、サブスクリプション、コンテンツなど）、技術データ（配信ジョブ、配信ログ、トラッキングログなど）、作業データ（購入、リード）が含まれています。Adobe Campaign のコンポーネントはすべて、特定のタスクを実行するためにデータベースと通信します。
@@ -92,3 +93,9 @@ Adobe Campaign Cloud データベースは、[!DNL Snowflake]を活用してい�
 >**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって策定されています。インストール済みのビルトインパッケージ、ビルトインのスキーマやレポートなどは変更できません。
 >
 >Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビのカスタマーサポート**&#x200B;にお問い合わせください。
+
+## データベースストレージ {#db-storage}
+
+合計ストレージ許容量は、メイン・データベースとSnowflake・ウェアハウス間で分割されます。 データの保存場所は、お客様固有の使用例に応じて、実装時またはアップグレード時に決定する必要があります。
+
+データベースの使用状況を監視する方法については、 [CampaignCampaign コントロールパネルドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
