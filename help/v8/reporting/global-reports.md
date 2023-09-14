@@ -59,7 +59,7 @@ ht-degree: 100%
 
 次のオプションを使用できます。
 
-* **[!UICONTROL 開封数]**：開封されたメッセージの合計数。テキスト形式の E メールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
+* **[!UICONTROL 開封数]**：開封されたメッセージの合計数。テキスト形式のメールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。購読解除のリンクおよびミラーページでのクリック数は考慮されません。
 <!--
 * **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
@@ -87,8 +87,8 @@ ht-degree: 100%
 
 次の指標が使用されています。
 
-* **[!UICONTROL 不明なユーザー]**：E メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
-* **[!UICONTROL 無効なドメイン]**：E メールアドレスが正しくないか存在しないことを示すエラータイプで、配信の送信中に生成される。
+* **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
+* **[!UICONTROL 無効なドメイン]**：メールアドレスが正しくないか存在しないことを示すエラータイプで、配信の送信中に生成される。
 * **[!UICONTROL メールボックス容量超過]**：受信者の受信ボックスにあるメッセージの数が多すぎることを示すエラータイプで、5 回の配信の試行後に生成される。
 * **[!UICONTROL 無効なアカウント]**：アドレスが存在しないことを示すエラータイプで、配信の送信中に生成される。
 * **[!UICONTROL 却下]**：アドレスが IAP（インターネットアクセスプロバイダー）によって却下される場合に生成されるエラータイプ。例えば、セキュリティルールのアプリケーション（スパム対策ソフトウェア）によって却下されるなどがある。
@@ -282,7 +282,7 @@ The following indicators are used:
 
 次の指標が使用されています。
 
-* **[!UICONTROL 処理済みの E メール]**：配信サーバーによって処理されたメッセージの合計数。
+* **[!UICONTROL 処理済みのメール]**：配信サーバーによって処理されたメッセージの合計数。
 * **[!UICONTROL 配信済み]**：処理されたメッセージの合計数に対する、正常に処理されたメッセージ数の割合。
 * **[!UICONTROL ハードバウンス]**：処理されたメッセージの合計数に対する、ハードバウンス数の割合。
 * **[!UICONTROL ソフトバウンス]**：処理されたメッセージの合計数に対する、ソフトバウンス数の割合。
@@ -299,7 +299,7 @@ The following indicators are used:
 
 このレポートは、該当する期間中の、オペレーティングシステム、デバイスおよびブラウザーごとの開封の分類を表示します。それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。
 
-開封数は、開封されたメッセージの合計数に対応しています。テキスト形式の E メールはカウントされません。開封数のトラッキングについて詳しくは、[この節](metrics-calculation.md#tracking-opens-)を参照してください。
+開封数は、開封されたメッセージの合計数に対応しています。テキスト形式のメールはカウントされません。開封数のトラッキングについて詳しくは、[この節](metrics-calculation.md#tracking-opens-)を参照してください。
 
 ![](assets/user-agent-report.png)
 

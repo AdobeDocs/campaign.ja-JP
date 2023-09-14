@@ -23,7 +23,7 @@ ht-degree: 100%
 * [誕生日メールの送信](send-a-birthday-email.md)
 * [配信コンテンツの読み込み](load-delivery-content.md)
 * [クロスチャネル配信ワークフロー](cross-channel-delivery-workflow.md)
-* [カスタム日付フィールドを使用した E メールエンリッチメント](email-enrichment-with-custom-date-fields.md)
+* [カスタム日付フィールドを使用したメールエンリッチメント](email-enrichment-with-custom-date-fields.md)
 
 ## 監視 {#monitoring}
 

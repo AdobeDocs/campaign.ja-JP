@@ -37,7 +37,7 @@ ht-degree: 100%
   >
   >* SMTP サーバー設定について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
 
-* **[!UICONTROL BCC で E メールを送信]**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存します。[詳細情報](email-parameters.md)。
+* **[!UICONTROL BCC でメールを送信]**：BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。[詳細情報](email-parameters.md)。
 
 ## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 * **ランプアッププロセス時**
 
-  新しいプラットフォームを使用して E メールが送信された場合、インターネットサービスプロバイダー（ISP）は認識されない IP アドレスを疑わしく思います。多くの場合、大量の E メールが突然送信されると、ISP はそれらの E メールをスパムとしてマークします。
+  新しいプラットフォームを使用してメールが送信された場合、インターネットサービスプロバイダー（ISP）は認識されない IP アドレスを疑わしく思います。多くの場合、大量のメールが突然送信されると、ISP はそれらのメールをスパムとしてマークします。
 
   ウェーブを使用して送信するボリュームを徐々に増やすことで、スパムとしてマークされないようにできます。この方法により、スタートアップフェーズをスムーズに進め、無効なアドレスが全体に占める割合を減らすことができます。
 

@@ -165,7 +165,7 @@ ht-degree: 100%
 
 ![](assets/mkg_dist_mutual_op_command.png)
 
-ローカルエンティティが登録を完了すると、セントラルエンティティにはオーダーの承認を依頼する通知が E メールで送信されます。
+ローカルエンティティが登録を完了すると、セントラルエンティティにはオーダーの承認を依頼する通知がメールで送信されます。
 
 ![](assets/mkg_dist_mutual_op_valid_command.png)
 

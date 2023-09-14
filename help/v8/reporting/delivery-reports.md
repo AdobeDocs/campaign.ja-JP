@@ -44,7 +44,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->メッセージの開封数に基づいて計算される値は、テキスト形式の E メールに関する誤差があるので、常に推定値です。「**[!UICONTROL 到達済み母集団のユニーク開封数／到達済み母集団の開封数の合計]**」の指標は、この誤差を考慮したものになっています。[詳細情報](metrics-calculation.md#tracking-opens-)。
+>メッセージの開封数に基づいて計算される値は、テキスト形式のメールに関する誤差があるので、常に推定値です。「**[!UICONTROL 到達済み母集団のユニーク開封数／到達済み母集団の開封数の合計]**」の指標は、この誤差を考慮したものになっています。[詳細情報](metrics-calculation.md#tracking-opens-)。
 
 ![](assets/tracking-report-synthesis.png)
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 * **[!UICONTROL 到達済み母集団の開封数の合計]**：ターゲット受信者による開封数の合計の推定値。
 * **[!UICONTROL オプトアウトリンクのクリック数]**：購読解除リンクのクリック数。
 * **[!UICONTROL ミラーページリンクのクリック数]**：[ミラーページ](../send/mirror-page.md)へのリンクのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。
-* **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送される E メール数の推定値。この値は、ユニークユーザーの数と E メールをクリックしたユニーク受信者の数を引くことによって計算されます。
+* **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送されるメール数の推定値。この値は、ユニークユーザーの数とメールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
   >[!NOTE]
   >
@@ -189,7 +189,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 このレポートは、値のテーブルと、配信が最大効率に到達するのに必要な時間を表示するパレート図を表示します。次の指標が使用されています。
 
-* **[!UICONTROL 開封数]**：開封されたメッセージの合計数の割合に到達するのに必要な推定時間。テキスト形式の E メールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
+* **[!UICONTROL 開封数]**：開封されたメッセージの合計数の割合に到達するのに必要な推定時間。テキスト形式のメールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
 * **[!UICONTROL クリック数]**：記録されたクリック総数の割合に到達するのに必要な推定時間。オプトアウトリンクおよびミラーページでのクリック数は考慮されません。
 <!--
 * **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).

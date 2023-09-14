@@ -50,7 +50,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">サービスプロバイダーのジョブ</span> <br /> </td> 
    <td> <span class="uicontrol">supplierMgt</span> <br /> </td> 
-   <td> 配信が承認されると、プロバイダーの処理（発送担当への E メール送信および後処理）を開始します。<br /> </td> 
+   <td> 配信が承認されると、プロバイダーの処理（発送担当へのメール送信および後処理）を開始します。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -45,7 +45,7 @@ Campaign で利用可能な主要なトラッキング機能は以下のとお�
 
 **トラッキングされたリンクのパーソナライゼーション**
 
-Campaign のトラッキング機能を使用すると、パーソナライズ可能な E メールにリンクを追加し、それによってトラッキングをサポートできます。
+Campaign のトラッキング機能を使用すると、パーソナライズ可能なメールにリンクを追加し、それによってトラッキングをサポートできます。
 
 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html?lang=ja#sending-messages){target="_blank"}
 
@@ -57,7 +57,7 @@ Campaign のトラッキング機能を使用すると、パーソナライズ�
 
 **トラッキングのテスト**
 
-トラッキングが有効なメッセージを送信する前に、ミラーページ、E メールログ、およびリンクでトラッキングをテストできます。
+トラッキングが有効なメッセージを送信する前に、ミラーページ、メールログ、およびリンクでトラッキングをテストできます。
 
 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html?lang=ja#sending-messages){target="_blank"}
 

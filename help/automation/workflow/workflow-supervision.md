@@ -131,7 +131,7 @@ vars.strWorkflowStop = strStop;
 
 このテンプレートには次の内容を含める必要があります。
 
-* **スーパーバイザーの E メールアドレス**
+* **スーパーバイザーのメールアドレス**
 * **パーソナライズされたテキストを挿入するための HTML コンテンツ**
 
   ![](assets/uc_monitoring_workflow_variables_diffusion.png)

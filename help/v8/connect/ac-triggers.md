@@ -18,7 +18,7 @@ ht-degree: 100%
 >
 > Managed Cloud Services ユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
-Experience Cloud トリガーを使用すると、パイプラインを使用して Adobe Campaign と Adobe Analytics の間でデータを接続できます。 パイプラインは、Web サイトからユーザーのアクションやトリガーを取得します。買い物かごの放棄は、トリガーの一例です。トリガーが Adobe Campaign で処理されて、ほぼリアルタイムで E メールが送信されます。
+Experience Cloud トリガーを使用すると、パイプラインを使用して Adobe Campaign と Adobe Analytics の間でデータを接続できます。 パイプラインは、Web サイトからユーザーのアクションやトリガーを取得します。買い物かごの放棄は、トリガーの一例です。トリガーが Adobe Campaign で処理されて、ほぼリアルタイムでメールが送信されます。
 
 Adobe Campaign と Experience Cloud のトリガーについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=ja){target="_blank"}を参照してください。
 

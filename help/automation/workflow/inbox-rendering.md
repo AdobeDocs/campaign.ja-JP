@@ -27,7 +27,7 @@ ht-degree: 100%
   <tr> 
    <td> <strong>受信ボックスレンダリング用のシードネットワークを更新</strong><br /> </td> 
    <td> <span class="uicontrol">updateRenderingSeeds</span> <br /> </td> 
-   <td> このワークフローは、<strong>deliverability.neolane.net</strong> の HTTPS ポートが開いている場合にのみ、受信ボックスレンダリングで使用される E メールアドレスを更新します。<br /> </td> 
+   <td> このワークフローは、<strong>deliverability.neolane.net</strong> の HTTPS ポートが開いている場合にのみ、受信ボックスレンダリングで使用されるメールアドレスを更新します。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

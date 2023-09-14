@@ -113,7 +113,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    登録関数によってできることは次のとおりです。
 
    * 通知 ID またはプッシュ ID（iOS の deviceToken および Android の registrationID）を Adobe Campaign に送信します。
-   * 紐付けキーまたは userKey（例えば E メールやアカウント番号）を復元します。
+   * 紐付けキーまたは userKey（例えばメールやアカウント番号）を復元します。
 
    アプリケーションの初期化時またはユーザーの操作時に、デバイスを Adobe Campaign に登録する必要があります。`registerDevice` メソッドを使用すると、簡単に実行できます。
 
@@ -565,7 +565,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    登録関数によってできることは次のとおりです。
 
    * 通知 ID またはプッシュ ID（iOS の deviceToken および Android の registrationID）を Adobe Campaign に送信します。
-   * 紐付けキーまたは userKey（例えば E メールやアカウント番号）を復元します。
+   * 紐付けキーまたは userKey（例えばメールやアカウント番号）を復元します。
 
 
    ```sql

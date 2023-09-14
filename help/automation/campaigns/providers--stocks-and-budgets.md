@@ -148,7 +148,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
   ![](assets/supplier-mail-delivery-select.png)
 
 * モバイルチャネルでの配信または電話では、同じ選択モードが適用されます。
-* E メール配信では、次の例のように、配信プロパティの「**[!UICONTROL 詳細設定]**」タブからサービスを選択します。
+* メール配信では、次の例のように、配信プロパティの「**[!UICONTROL 詳細設定]**」タブからサービスを選択します。
 
   ![](assets/supplier-email-delivery-select.png)
 

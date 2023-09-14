@@ -16,7 +16,7 @@ ht-degree: 100%
 
 この節では、会社の要件に合わせて Adobe Campaign を調整する方法を説明します。次のガイドラインに従って、実装を構成し整理します。
 
-1. **設定の定義**：アクセスの許可、クライアントコンソールの共有、チャネルの設定（E メール、プッシュ、SMS）。[詳細情報](#implementation-ac-settings)
+1. **設定の定義**：アクセスの許可、クライアントコンソールの共有、チャネルの設定（メール、プッシュ、SMS）。[詳細情報](#implementation-ac-settings)
 1. **環境の準備**：プロファイルのインポート，オーディエンスの作成，ワークフローとキャンペーンテンプレートの設計、タイポロジルールの作成. [詳細情報](#implementation-prepare-your-env)
 1. **インスタンスのカスタマイズ**：新しいデータフィールドを作成し、テーブル／スキーマを追加します。[詳細情報](#implementation-custom-your-instance)
 1. **プロセスの自動化**：Adobe Campaign の自動化機能を設定します。 [詳細情報](#implementation-automation)

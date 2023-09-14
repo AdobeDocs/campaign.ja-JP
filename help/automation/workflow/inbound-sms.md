@@ -31,4 +31,4 @@ ht-degree: 100%
 
 1. **[!UICONTROL 有効期限]**
 
-「**[!UICONTROL スクリプト]**」、「**[!UICONTROL スケジュール]**」および「**[!UICONTROL 有効期限]**」の各タブについて詳しくは、[インバウンド E メール](inbound-emails.md)を参照してください。
+「**[!UICONTROL スクリプト]**」、「**[!UICONTROL スケジュール]**」および「**[!UICONTROL 有効期限]**」の各タブについて詳しくは、[インバウンドメール](inbound-emails.md)を参照してください。

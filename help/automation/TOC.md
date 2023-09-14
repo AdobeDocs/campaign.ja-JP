@@ -90,7 +90,7 @@ ht-degree: 100%
          + [イベントアクティビティのリスト](workflow/event-activities.md)
          + [ファイルコレクター](workflow/file-collector.md)
          + [ファイル転送](workflow/file-transfer.md)
-         + [インバウンド E メール](workflow/inbound-emails.md)
+         + [インバウンドメール](workflow/inbound-emails.md)
          + [インバウンド SMS](workflow/inbound-sms.md)
          + [Web ダウンロード](workflow/web-download.md)
    + ユースケース {#use-cases}
@@ -100,7 +100,7 @@ ht-degree: 100%
          + [誕生日メールの送信](workflow/send-a-birthday-email.md)
          + [配信コンテンツの読み込み](workflow/load-delivery-content.md)
          + [クロスチャネル配信ワークフロー](workflow/cross-channel-delivery-workflow.md)
-         + [カスタム日付フィールドを使用した E メールエンリッチメント](workflow/email-enrichment-with-custom-date-fields.md)
+         + [カスタム日付フィールドを使用したメールエンリッチメント](workflow/email-enrichment-with-custom-date-fields.md)
       + 監視 {#monitoring}
          + [リストへのレポートの送信](workflow/send-a-report-to-a-list.md)
          + [ワークフローの監視](workflow/workflow-supervision.md)
