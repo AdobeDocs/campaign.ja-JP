@@ -1,11 +1,9 @@
 ---
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
-hide: true
-hidefromtoc: true
-source-git-commit: 53412ab167721c8a8f9d84e07112b0f410d4785d
+source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1078'
 ht-degree: 100%
 
 ---
@@ -88,7 +86,7 @@ Campaign 管理者は、クライアントコンソールからすべてのネ�
 1. オペレーターフォームの「**連絡窓口**」セクションにオペレーターのメールアドレスを入力します。
 1. 変更内容を保存します。
 
-また、CSV ファイルをインポートして、すべてのオペレータープロファイルをメールアドレスで更新することもできます。
+<!--You can also import a CSV file to update all your operator profiles with their email.-->
 
 
 ### IMS 経由で Campaign にログインするにはどうすればよいですか？ {#ims-migration-log}
