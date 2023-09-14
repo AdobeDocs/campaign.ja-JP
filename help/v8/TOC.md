@@ -5,9 +5,9 @@ title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 source-git-commit: cb5bec3107872d4d6da83b4ddbc7cad3e9276b00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 98%
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
       + [オーディエンスとプロファイル属性](connect/ac-aep.md)
-      + [キャンペーンランディングページとプロファイル属性](connect/ac-aep-landing-pages.md)
+      + [Campaign ランディングページとプロファイル属性](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign と Analytics の統合](connect/ac-aa.md)
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
