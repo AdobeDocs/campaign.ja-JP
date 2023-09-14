@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: d791cb9afc51457e799ee62f8bb845fd888fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -96,6 +96,6 @@ Adobe Campaign Cloud データベースは、[!DNL Snowflake]を活用してい�
 
 ## データベースストレージ {#db-storage}
 
-合計ストレージ許容量は、メイン・データベースとSnowflake・ウェアハウス間で分割されます。 データの保存場所は、お客様固有の使用例に応じて、実装時またはアップグレード時に決定する必要があります。
+合計ストレージ許容量は、メインデータベースと Snowflake warehouse に分割されます。データの保存場所は、お客様固有のユースケースに応じて、実装時またはアップグレード時に決定する必要があります。
 
-データベースの使用状況を監視する方法については、 [CampaignCampaign コントロールパネルドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
+データベースの使用状況を監視する方法については、[Campaign コントロールパネルドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ja){target="_blank"}を参照してください。
