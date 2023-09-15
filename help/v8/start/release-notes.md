@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 758d542b353a2d784407954089586e761825d740
+source-git-commit: c4a1539f140e85e1e8c97f743f9c6c0bba52e4de
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 100%
+source-wordcount: '1491'
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,6 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 詳しくは、[詳細なドキュメント](../send/push-data-collection.md)を参照してください。
 
 
-**モバイルチャネルのスループットの向上**
 
 <!--
 The newly introduced Push notification service showcases significant improvements in throughput for both Push Android and Push iOS compared to our previous version (v8.4). Users will experience notably enhanced performance with the upgraded service in the latest version (v8.5).
@@ -60,7 +59,7 @@ These max throughput performances have been measured by Adobe testing teams, in 
 </td>
 <td>
 <div>
-
+<p><strong>モバイルチャネルのスループットの向上</strong></p>
 <p>新しく導入されたプッシュ通知サービスにより、以前のバージョン（v8.4）と比較して、プッシュ（Android）とプッシュ（iOS）の両方のスループットが大幅に向上しました。最新バージョン（v8.5）のアップグレードされたサービスで、ユーザーは大幅に向上したパフォーマンスを体験できます。 </p>
 <ul>
 <li>プッシュ通知（Android）：最大 <strong>5 倍</strong>に高速化 </li>
@@ -85,8 +84,8 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 **セキュリティ機能の強化**
 
-* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが改善されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
-* Campaign クライアントコンソールからオペレーターを作成できなくなりました。それに応じてユーザーインターフェイスが更新されました。現在は、Adobe Admin Console を使用する必要があります。[詳細情報](../start/gs-permissions.md)
+* Campaign v8.5.1 では、Campaign v8 への認証プロセスが改善され、保護されました。 テクニカルオペレーターは、Campaign に接続する際にAdobeIdentity Managementシステム (IMS) を使用する必要があります。 既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
+* 今後の v8.6 以降、Campaign クライアントコンソールからオペレーターを作成できなくなります。 ログイン/パスワードのネイティブ認証を使用している場合は、オペレーターをAdobeIdentity Management System(IMS) に移行する必要があります。 でオペレーターを移行する方法を説明します。 [このテクニカルノート](../../technotes/upgrades/migrate-users-to-ims.md).
 * セキュリティを最適化するために、複数のサードパーティツールを更新しています。
 
 **互換性の更新**
