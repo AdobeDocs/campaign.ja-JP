@@ -3,7 +3,7 @@ title: Campaign 送信インフラストラクチャのAmazon Web Services(AWS) 
 description: Campaign 送信インフラストラクチャのAmazon Web Services(AWS) への移行
 hide: true
 hidefromtoc: true
-source-git-commit: d0935df57d8a25fa023dd93e7923c2728d889577
+source-git-commit: 53080e3641e0070b0b6e47d1ec8b55b4c7aa2b1a
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 6%
@@ -31,7 +31,7 @@ v8 のお客様、または v7 がホストする、ハイブリッドまたはM
 
 Campaign をご利用のお客様には、移行ウェーブがスケジュールされると追加の通知が届きます。 移行の 7 日以上前に通知が送信されます。
 
-## どのような影響がありますか？{#aws-impact}
+## どのような影響がありますか？{#impact}
 
 この移行は、お客様に対して透過的に行われます。
 
