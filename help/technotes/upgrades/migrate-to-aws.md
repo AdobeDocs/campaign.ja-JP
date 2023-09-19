@@ -3,10 +3,10 @@ title: Campaign 送信インフラストラクチャのAmazon Web Services(AWS) 
 description: Campaign 送信インフラストラクチャのAmazon Web Services(AWS) への移行
 hide: true
 hidefromtoc: true
-source-git-commit: 53080e3641e0070b0b6e47d1ec8b55b4c7aa2b1a
+source-git-commit: 557d61e0e015fa955b70858d614e476febd467cb
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 6%
+source-wordcount: '401'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 6%
 
 ## 影響の有無{#aws-impact}
 
-v8 のお客様、または v7 がホストする、ハイブリッドまたはManaged Services Campaign のお客様は、影響を受けます。
+この変更の対象：
+
+* Campaign Classicv7 ホスト型およびハイブリッド型の顧客
+* Campaign Managed Servicesのお客様
+* Campaign v8 のすべてのお客様
 
 ## この移行はいつおこなわれますか？{#aws-timeline}
 
@@ -29,21 +33,43 @@ v8 のお客様、または v7 がホストする、ハイブリッドまたはM
 
 実稼動環境の移行は、 **2024 年 1 月**. 日付が近づくと詳細が提供されます。
 
-Campaign をご利用のお客様には、移行ウェーブがスケジュールされると追加の通知が届きます。 移行の 7 日以上前に通知が送信されます。
+Campaign をご利用のお客様には、移行ウェーブがスケジュールされると追加の通知が届きます。 ステージ環境の場合は移行の 7 日以上前に、実稼動環境の場合は移行の 30 日以上前に通知が送信されます。
 
 ## どのような影響がありますか？{#impact}
 
 この移行は、お客様に対して透過的に行われます。
 
-* IP の送信と Campaign のビルドバージョンは、移行前と同じままです。
+* 移行には 30 分～ 60 分かかる予定です
 
-* 移行ウィンドウ中、Campaign インスタンスはメールを送信できません。 他のキャンペーン機能は影響を受けません。
-
-* メンテナンスウィンドウの前に配信用にキューに登録されたメールを再送信する必要があります。
-
->[!NOTE]
->
->この移行に関するご質問は、Adobe担当者にお問い合わせいただくか、 [Adobeカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
->
+* 移行ウィンドウ中、Campaign インスタンスはメールを送信できなくなります。 他のキャンペーン機能は影響を受けません。
 
 
+## よくある質問 {#aws-faq}
+
+* **このアップグレードが必須である理由を教えてください。**
+
+  AdobeWeb サービス (AWS) がホストする新しい Campaign 送信インフラストラクチャにより、お客様はより高品質で信頼性が高まります。 また、高い可用性と最適なスループットを確保するための、堅牢で最新のインフラストラクチャも提供します。
+
+* **この移行の対象となるのは、どのお客様ですか？**
+
+  Campaign v8 のすべての顧客とCampaign Classicv7 ハイブリッド、ホストおよび Campaign Managed Servicesは、環境を移行します。
+
+* **予想されるダウンタイムを教えてください。**
+
+  予想されるダウンタイムは 30 ～ 60 分です。
+
+* **移行に必要なアクションはありますか？**
+
+  移行はAdobeで自動的に実行されるので、アクションは必要ありません。
+
+* **顧客側ではどのような検証を行う必要がありますか？**
+
+  このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+
+
+* **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
+
+  これは必須の移行なので、既存のスケジュールに合わせることを強くお勧めします。
+
+
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
