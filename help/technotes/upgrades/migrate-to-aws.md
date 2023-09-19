@@ -3,10 +3,10 @@ title: Campaign 送信インフラストラクチャのAmazon Web Services(AWS) 
 description: Campaign 送信インフラストラクチャのAmazon Web Services(AWS) への移行
 hide: true
 hidefromtoc: true
-source-git-commit: 557d61e0e015fa955b70858d614e476febd467cb
+source-git-commit: f1b4002063c8b94eb7251a9bcde9fe11791d0be3
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -60,11 +60,11 @@ Campaign をご利用のお客様には、移行ウェーブがスケジュー�
 
 * **移行に必要なアクションはありますか？**
 
-  移行はAdobeで自動的に実行されるので、アクションは必要ありません。
+  移行はAdobeごとに自動的に実行されるので、アクションは必要ありません。
 
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-  このセキュリティアップグレードでは、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+  この移行に対して、特定のテストは必要ありません。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
