@@ -1,7 +1,7 @@
 ---
 title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
-source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
+source-git-commit: 43a124dd64532ffe84ca2b300113cacc545a811a
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 84%
