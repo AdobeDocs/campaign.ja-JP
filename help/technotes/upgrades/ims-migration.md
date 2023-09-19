@@ -1,10 +1,10 @@
 ---
 title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 84%
 
 ---
 
@@ -26,6 +26,16 @@ Campaign の標準ユーザーは、Adobe Identity Management System（IMS）に
 Campaign API を使用している場合は、以下に説明するように、テクニカルオペレーターを Adobe Developer Console に移行する必要があります。
 
 ## 移行方法{#ims-migration-procedure}
+
+各テクニカルオペレーターには、少なくとも 1 つのテクニカルアカウントが必要です。
+
+主な手順は次のとおりです。
+
+1. まず、テクニカルオペレーターに対応するテクニカルアカウントを作成します。 例えば、新しく作成したテクニカルアカウント (TA1) をテクニカルオペレーター (TO1) に割り当てたとします。
+1. テクニカルアカウント TA1 で以下に説明する手順を実行します。
+   [手順 4](#ims-migration-step-4) はオプションで、技術オペレーターに特定のフォルダー権限がある場合にのみ必要です。
+1. すべての Campaign API 統合実装を新しく作成したテクニカルアカウント TA1 に移行します。
+1. API/統合に直面するすべてのお客様が TA1 で完全に機能し始めたら、テクニカルオペレーター TO1 をテクニカルアカウント TA1 に置き換えます。
 
 ### 前提条件{#ims-migration-prerequisites}
 
@@ -61,7 +71,6 @@ API が正常に接続されると、クライアント ID とクライアント
 1. プロジェクトの「**資格情報の詳細**」タブに移動し、**テクニカルアカウントのメールアドレス**&#x200B;の値をコピーします。
 
 ### 手順 4 - クライアントコンソールでテクニカルオペレーターを更新 {#ims-migration-step-4}
-
 
 この手順は、特定のフォルダー権限またはネームド権限がこのオペレーターに対して（オペレーターのグループ経由ではなく）定義されている場合にのみ必要です。
 
@@ -181,7 +190,7 @@ You can also update the technical operator programmatically, using SQL scripts o
 
 移行プロセスを完了して検証すると、SOAP 呼び出しは次のように更新されます。
 
-* 移行前
+* 移行前：テクニカルアカウントのアクセストークンはサポートされていませんでした。
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
@@ -204,7 +213,7 @@ You can also update the technical operator programmatically, using SQL scripts o
   </soapenv:Envelope>
   ```
 
-* 移行後
+* 移行後：テクニカルアカウントのアクセストークンがサポートされます。 アクセストークンは、で提供される必要があります。 `Authorization` Bearer トークンとしてのヘッダー。 以下の SOAP 呼び出しの例に示すように、ここではセッショントークンの使用は無視する必要があります。
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
