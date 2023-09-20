@@ -5,7 +5,7 @@ feature: Platform Integration
 role: Data Engineer
 level: Beginner
 source-git-commit: 79faf36db774239477089c13c98cbf48a66752a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
 ht-degree: 100%
 
