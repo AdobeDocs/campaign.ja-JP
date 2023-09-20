@@ -3,10 +3,10 @@ title: Campaign 送信インフラストラクチャのAmazon Web Services(AWS) 
 description: Campaign 送信インフラストラクチャのAmazon Web Services(AWS) への移行
 hide: true
 hidefromtoc: true
-source-git-commit: f1b4002063c8b94eb7251a9bcde9fe11791d0be3
+source-git-commit: 15beb6e4aae7a00b245277bcb4c6c60c13b22884
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 20%
+source-wordcount: '430'
+ht-degree: 18%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 20%
 * Campaign Classicv7 ホスト型およびハイブリッド型の顧客
 * Campaign Managed Servicesのお客様
 * Campaign v8 のすべてのお客様
+* Campaign Standardの顧客
 
 ## この移行はいつおこなわれますか？{#aws-timeline}
 
@@ -48,11 +49,13 @@ Campaign をご利用のお客様には、移行ウェーブがスケジュー�
 
 * **このアップグレードが必須である理由を教えてください。**
 
-  AdobeWeb サービス (AWS) がホストする新しい Campaign 送信インフラストラクチャにより、お客様はより高品質で信頼性が高まります。 また、高い可用性と最適なスループットを確保するための、堅牢で最新のインフラストラクチャも提供します。
+  Adobeでは、従来のデータセンターを廃止する予定です。そこで実行するAdobe Campaignインスタンスは、新しい参照用データセンター、Amazon Web Services(AWS) に転送する必要があります。
+
+  Adobe Managed Services クラウドは、安全で最適化された最新の環境である AWS でホストされています。[Amazon Web Servicesの詳細](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
 
 * **この移行の対象となるのは、どのお客様ですか？**
 
-  Campaign v8 のすべての顧客とCampaign Classicv7 ハイブリッド、ホストおよび Campaign Managed Servicesは、環境を移行します。
+  Campaign v8 のすべての顧客とCampaign Classicv7 ハイブリッド、ホストおよび Campaign Managed Servicesは、環境を移行します。 Campaign Standardのお客様も影響を受けます。
 
 * **予想されるダウンタイムを教えてください。**
 
@@ -64,7 +67,7 @@ Campaign をご利用のお客様には、移行ウェーブがスケジュー�
 
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-  この移行に対して、特定のテストは必要ありません。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+  この移行に対して、特定のテストは必要ありません。 問題が見つかった場合は、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}.
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
@@ -72,4 +75,4 @@ Campaign をご利用のお客様には、移行ウェーブがスケジュー�
   これは必須の移行なので、既存のスケジュールに合わせることを強くお勧めします。
 
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support)にお問い合わせください。
+その他の質問については、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}.
