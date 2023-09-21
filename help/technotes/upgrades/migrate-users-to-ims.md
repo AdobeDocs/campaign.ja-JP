@@ -2,7 +2,7 @@
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 100%
 
