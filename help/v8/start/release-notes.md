@@ -6,9 +6,9 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: c4a1539f140e85e1e8c97f743f9c6c0bba52e4de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,8 +84,8 @@ These max throughput performances have been measured by Adobe testing teams, in 
 
 **セキュリティ機能の強化**
 
-* Campaign v8.5.1 では、Campaign v8 への認証プロセスが改善され、保護されました。 テクニカルオペレーターは、Campaign に接続する際にAdobeIdentity Managementシステム (IMS) を使用する必要があります。 既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
-* 今後の v8.6 以降、Campaign クライアントコンソールからオペレーターを作成できなくなります。 ログイン/パスワードのネイティブ認証を使用している場合は、オペレーターをAdobeIdentity Management System(IMS) に移行する必要があります。 でオペレーターを移行する方法を説明します。 [このテクニカルノート](../../technotes/upgrades/migrate-users-to-ims.md).
+* Campaign v8.5.1 では、Campaign v8 への認証プロセスが改善され、セキュリティが強化されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
+* 今後の v8.6 以降、Campaign クライアントコンソールからオペレーターを作成できなくなります。ログイン／パスワードのネイティブ認証を使用している場合は、オペレーターを Adobe Identity Management System（IMS）に移行する必要があります。オペレーターを移行する方法については、[このテクニカルノート](../../technotes/upgrades/migrate-users-to-ims.md)を参照してください。
 * セキュリティを最適化するために、複数のサードパーティツールを更新しています。
 
 **互換性の更新**
