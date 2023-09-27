@@ -4,9 +4,9 @@ description: Campaign 送信インフラストラクチャの Amazon Web Service
 hide: true
 hidefromtoc: true
 source-git-commit: 9401e3564b53b920dd6a640ca6d00531992a2f21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 69%
 * Campaign Classic v7 ホスト環境およびハイブリッド環境のお客様
 * Campaign Managed Services のお客様
 * Campaign v8 のすべてのお客様
-* Campaign Standardの顧客
+* Campaign Standard のお客様
 
 ## この移行が行われるのはいつですか？{#aws-timeline}
 
@@ -40,7 +40,7 @@ Campaign のお客様には、移行ウェーブのスケジュールが決定�
 
 この移行は、お客様にとって透過的です。
 
-* 各移行ウェーブの長さは、影響を受けた Campaign インスタンスの数によって異なる場合があります。 移行ウェーブがスケジュールされると、通知には期待される期間が含まれます。
+* 各移行ウェーブの長さは、影響を受ける Campaign インスタンスの数によって異なる場合があります。移行ウェーブがスケジュールされると、通知には予想される期間が含まれます。
 
 * Campaign インスタンスは、移行期間中はメールを送信できません。他の Campaign 機能は影響を受けません。
 
@@ -49,17 +49,17 @@ Campaign のお客様には、移行ウェーブのスケジュールが決定�
 
 * **このアップグレードが必須である理由を教えてください。**
 
-  Adobeでは、従来のデータセンターを廃止する予定です。そこで実行するAdobe Campaignインスタンスは、新しい参照用データセンター、Amazon Web Services(AWS) に転送する必要があります。
+  アドビでは、従来のデータセンターを廃止する予定です。そこで実行している Adobe Campaign インスタンスは、新しい基準データセンターである Amazon Web Services（AWS）に転送する必要があります。
 
-  Adobe Managed Services クラウドは、安全で最適化された最新の環境である AWS でホストされています。[Amazon Web Servicesの詳細](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}.
+  Adobe Managed Services クラウドは、安全で最適化された最新の環境である AWS でホストされています。[詳しくは、Amazon Web Services を参照してください](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}。
 
 * **この移行の対象となるお客様は、どちらになりますか？**
 
-  Campaign v8 のすべてのお客様が対象になります。Campaign Classic v7 のハイブリッド環境、ホスト環境および Campaign Managed Services 環境のお客様も環境が移行されます。Campaign Standardのお客様も影響を受けます。
+  Campaign v8 のすべてのお客様が対象になります。Campaign Classic v7 のハイブリッド環境、ホスト環境および Campaign Managed Services 環境のお客様も環境が移行されます。Campaign Standard のお客様も影響を受けます。
 
 * **予想されるダウンタイムを教えてください。**
 
-  移行には 30 分～ 60 分かかると予想されますが、各移行ウェーブの長さは、影響を受ける Campaign インスタンスの数によって異なる場合があります。 移行ウェーブがスケジュールされると、通知には期待される期間が含まれます。
+  移行には 30 分から 60 分かかることが予想されますが、各移行ウェーブの長さは、影響を受ける Campaign インスタンスの数によって異なる場合があります。移行ウェーブがスケジュールされると、通知には予想される期間が含まれます。
 
 * **移行のに関して、お客様に必要なアクションはありますか？**
 
@@ -67,11 +67,11 @@ Campaign のお客様には、移行ウェーブのスケジュールが決定�
 
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-  この移行では、特に必要なテストはありません。問題が見つかった場合は、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}.
+  この移行では、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
 
-  これは必須の移行なので、既存のスケジュールの変更に対応できません。
+  これは必須の移行なので、既存のスケジュールの変更には対応できません。
 
-その他の質問については、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}.
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
