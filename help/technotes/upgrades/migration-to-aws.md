@@ -3,10 +3,10 @@ title: Campaign E メール送信インフラストラクチャのアップグ�
 description: Campaign E メール送信インフラストラクチャのアップグレード
 hide: true
 hidefromtoc: true
-source-git-commit: 45ef2b46f2612bdb814270d8ef9e257fcaf98e5b
+source-git-commit: aa3ec8e96d3bda80d5cbd4b4d98cad07b4560b14
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 16%
+source-wordcount: '366'
+ht-degree: 23%
 
 ---
 
@@ -24,7 +24,6 @@ ht-degree: 16%
 * Adobe Campaign Classic Managed Servicesの顧客
 * Adobe Campaign Managed Cloud Servicesの顧客
 * Adobe Campaign Standard On-Demand のお客様
-* Adobe Campaign Cloud Messaging のオンデマンドの顧客
 
 ## この移行が行われるのはいつですか？{#aws-timeline}
 
@@ -60,11 +59,11 @@ Campaign をご利用のお客様には、実稼動アップグレードに関�
 
 * **お客様にはどのようなテストが必要ですか？**
 
-  このアップグレードイベントに関連するお客様によるテストは、一切期待されません。 問題が見つかった場合は、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}.
+  このアップグレードイベントに関連するお客様によるテストは、一切期待されません。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
 
   いいえ。既存のスケジュールに対してリクエストされた変更に対応できません。これは、別のお客様に割り当てられたアップグレードイベントに影響を与える可能性があるためです。
 
-その他の質問については、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}.
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
