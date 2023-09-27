@@ -2,9 +2,9 @@
 title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
 source-git-commit: 35263dc042642a6ba2f162461364b9399c30ad18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Campaign API を使用している場合は、以下に説明するように、�
 
 ### 前提条件{#ims-migration-prerequisites}
 
-Adobeの技術チームが既存のオペレーターグループとネームド権限をAdobeIdentity Management System(IMS) に移行できるように、移行プロセスを開始する前に、Adobe移行マネージャーに問い合わせる必要があります。
+移行プロセスを開始する前に、アドビのテクニカルチームが既存のオペレーターグループとネームド権限を Adobe Identity Management System（IMS）に移行できるように、アドビトランジションマネージャーにお問い合わせする必要があります。
 
 ### 手順 1 - Adobe Developer Console で Campaign プロジェクトを作成／更新{#ims-migration-step-1}
 
 統合は、Adobe Developer Console 内の&#x200B;**プロジェクト**&#x200B;の一部として作成されます。プロジェクトについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}を参照してください。
 
-自分が以前に作成した任意のプロジェクトを使用することも、新しいプロジェクトを作成することもできます。 プロジェクトを作成する手順について詳しくは、 [Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}.
+以前に作成した任意のプロジェクトを使用するか、新しいプロジェクトを作成することができます。プロジェクトを作成する手順について詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}を参照してください。
 
 この移行では、**I/O Management API** と **Adobe Campaign** の API をプロジェクトに追加する必要があります。
 
