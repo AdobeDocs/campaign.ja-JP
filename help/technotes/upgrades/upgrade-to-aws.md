@@ -1,9 +1,7 @@
 ---
 title: Campaign E メール送信インフラストラクチャのアップグレード
 description: Campaign E メール送信インフラストラクチャのアップグレード
-hide: true
-hidefromtoc: true
-source-git-commit: 47fc1ee7e0a1cb96d66151cf79137c80ef2d67d5
+source-git-commit: 4478c4b4b1eb3697ff03acfcd618ebfb1d875df9
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 17%
