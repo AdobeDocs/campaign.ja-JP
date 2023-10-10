@@ -3,8 +3,9 @@ product: campaign
 title: 受信者テーブルのクエリ
 description: 受信者テーブルに対するクエリ方法を説明します。
 feature: Query Editor
+role: User, Data Engineer
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%

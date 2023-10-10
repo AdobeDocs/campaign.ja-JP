@@ -3,8 +3,9 @@ product: campaign
 title: 繰り返し配信
 description: 繰り返し配信ワークフローアクティビティの詳細を説明します
 feature: Workflows
+role: User, Data Engineer
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%

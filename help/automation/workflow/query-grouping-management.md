@@ -3,8 +3,9 @@ product: campaign
 title: グループ管理を使用したクエリ
 description: グループ管理を使用したクエリの実行方法を学ぶ
 feature: Query Editor
+role: User, Data Engineer
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
