@@ -3,8 +3,9 @@ product: campaign
 title: 概要リストの作成
 description: 概要リストの作成
 feature: Workflows, Data Management
+role: User
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%

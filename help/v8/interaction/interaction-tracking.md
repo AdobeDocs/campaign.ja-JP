@@ -2,10 +2,10 @@
 title: リアルタイムのインタラクション履歴およびレポート
 description: Campaign インタラクションを使用したオファーのトラッキングおよび測定方法について説明します。
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 83947f69-9f8e-4829-9a64-fd734d0cde37
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%

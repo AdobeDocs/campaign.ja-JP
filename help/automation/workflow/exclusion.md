@@ -3,8 +3,9 @@ product: campaign
 title: 除外
 description: 除外ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
+role: User
 exl-id: 8ea831e2-8e6e-4ef0-ac05-f27ebf89ccb9
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%

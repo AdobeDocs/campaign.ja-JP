@@ -2,10 +2,10 @@
 title: Adobe Campaign での SMS 送信
 description: Adobe Campaign での SMS の基本を学ぶ
 feature: SMS
-role: Data Engineer
+role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%

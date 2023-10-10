@@ -2,8 +2,9 @@
 product: campaign
 title: Adobe Experience Cloud ソリューションワークフローとの統合
 description: Adobe Experience Cloud ソリューションワークフローとの統合の詳細を説明します
+role: User
 topic-tags: technical-workflows
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%

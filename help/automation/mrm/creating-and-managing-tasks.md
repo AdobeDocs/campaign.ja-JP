@@ -2,8 +2,9 @@
 product: campaign
 title: タスクの作成と管理
 description: タスクの作成と管理
+role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '3913'
 ht-degree: 100%

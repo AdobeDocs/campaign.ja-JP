@@ -3,8 +3,9 @@ product: campaign
 title: キャンペーンへのアクセス
 description: キャンペーンへのアクセス
 feature: Distributed Marketing
+role: User
 exl-id: 2edbb1d6-122c-418a-8893-4f683f804544
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
@@ -31,7 +32,7 @@ ht-degree: 100%
 
 ## 使用できる設定 {#available-settings}
 
-ローカルエンティティは、キャンペーンのダッシュボードの項目を使用して、キャンペーンのコンテンツをニーズに応じて調整できます。主な作業は、ターゲティングワークフローの調整ですが、場合によって配信コンテンツのパーソナライゼーションも必要となることがあります。
+ローカルエンティティは、キャンペーンのダッシュボードの要素を使用して、キャンペーンのコンテンツをニーズに応じて調整できます。主な作業は、ターゲティングワークフローの調整ですが、場合によって配信コンテンツのパーソナライゼーションも必要となることがあります。
 
 ## キャンペーンの実行 {#campaign-execution}
 

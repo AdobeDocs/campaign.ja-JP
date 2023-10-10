@@ -2,10 +2,10 @@
 title: Campaign インタラクション環境の操作
 description: Campaign インタラクション用の環境を作成する方法を学ぶ
 feature: Interaction, Offers
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%

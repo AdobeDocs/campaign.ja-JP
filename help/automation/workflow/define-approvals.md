@@ -3,8 +3,9 @@ product: campaign
 title: 承認の定義
 description: 承認により、オペレーターはワークフロー管理に関する意思決定を行なったり、実行の継続を確定したりできます。
 feature: Approvals
+role: User
 exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%

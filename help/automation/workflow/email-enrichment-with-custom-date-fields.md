@@ -3,8 +3,9 @@ product: campaign
 title: カスタム日付フィールドを使用したメールエンリッチメント
 description: カスタムの日付フィールドを使用してメールをエンリッチメントする方法を説明します
 feature: Workflows
+role: User, Developer
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 100%

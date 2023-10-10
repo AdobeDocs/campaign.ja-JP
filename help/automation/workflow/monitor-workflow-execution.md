@@ -3,8 +3,9 @@ product: campaign
 title: ワークフロー実行の監視
 description: ワークフロー実行の監視
 feature: Workflows
+role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '2015'
 ht-degree: 100%

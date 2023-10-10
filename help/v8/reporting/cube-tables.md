@@ -3,8 +3,9 @@ product: campaign
 title: キューブを使用したデータレポートの作成
 description: キューブを使用したレポートの作成方法を説明します
 feature: Reporting
+role: User, Data Engineer
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 100%

@@ -2,8 +2,9 @@
 title: カスタムレポートを作成するための主な手順
 description: カスタムレポートを作成するための主な手順を学ぶ
 feature: Reporting
+role: User, Data Engineer
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 69%

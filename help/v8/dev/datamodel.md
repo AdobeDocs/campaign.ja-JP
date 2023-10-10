@@ -5,10 +5,10 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 87e56e7c296884458a0c8fd704b82611f56e695d
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 78%
+ht-degree: 74%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign データモデルの基本構造は、次のように説明で�
 
 >[!NOTE]
 >
->各テーブルの説明にアクセスするには、管理／設定／データスキーマに移動し、リストからリソースを選択して、「**ドキュメント**」タブをクリックします。
+>各テーブルの説明にアクセスするには、 **管理/設定/データスキーマ**&#x200B;をクリックし、リストからリソースを選択し、 **ドキュメント** タブをクリックします。
 
 Adobe Campaign の使用を開始する場合は、デフォルトのデータモデルを評価して、マーケティングデータの保存に最適なテーブルを確認する必要があります。
 

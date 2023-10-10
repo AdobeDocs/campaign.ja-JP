@@ -3,8 +3,9 @@ product: campaign
 title: アラート
 description: アラート
 feature: Workflows
+role: User
 exl-id: 8fb36117-b126-470a-9c94-eb5c0a4aca1a
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 100%

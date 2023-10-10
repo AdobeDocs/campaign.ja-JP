@@ -2,8 +2,9 @@
 product: campaign
 title: Web ページへのオファーの追加
 description: Web ページでのオファーの追加方法を学ぶ
+role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%

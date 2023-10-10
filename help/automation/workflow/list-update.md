@@ -3,8 +3,9 @@ product: campaign
 title: リスト更新
 description: リスト更新
 feature: Workflows, Targeting Activity
+role: User
 exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%

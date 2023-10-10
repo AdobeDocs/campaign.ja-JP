@@ -3,7 +3,8 @@ product: campaign
 title: 配信
 description: デフォルトの配信ワークフローの詳細を説明します
 feature: Workflows
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+role: User, Admin
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%

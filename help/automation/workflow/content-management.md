@@ -3,8 +3,9 @@ product: campaign
 title: コンテンツ管理
 description: コンテンツ管理
 feature: Workflows, Data Management
+role: User
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%

@@ -3,8 +3,9 @@ product: campaign
 title: 承認プロセスの設定と管理
 description: マーケティングキャンペーンの承認を管理する方法を学ぶ
 feature: Approvals, Campaigns
+role: User
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 382f0b1c4ee014f6ae5d62eaf93f5ae8c72c06b1
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '2443'
 ht-degree: 100%

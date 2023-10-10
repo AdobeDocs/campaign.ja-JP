@@ -3,7 +3,8 @@ product: campaign
 title: インタラクション
 description: インタラクション
 feature: Workflows, Interaction
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+role: User, Admin
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%

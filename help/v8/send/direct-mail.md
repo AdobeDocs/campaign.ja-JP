@@ -2,10 +2,10 @@
 title: Adobe Campaign を使用したダイレクトメールの送信
 description: Campaign におけるダイレクトメールの概要
 feature: Direct Mail
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%

@@ -3,8 +3,9 @@ product: campaign
 title: キャンペーン
 description: キャンペーン
 feature: Workflows
+role: User, Admin
 topic-tags: technical-workflows
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
