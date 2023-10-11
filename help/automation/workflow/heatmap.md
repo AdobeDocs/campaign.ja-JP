@@ -6,7 +6,7 @@ feature: Workflows, Heatmap
 role: Admin
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1145'
 ht-degree: 100%
 
