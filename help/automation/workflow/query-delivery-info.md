@@ -6,7 +6,7 @@ feature: Query Editor
 role: User
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
 ht-degree: 100%
 
