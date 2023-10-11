@@ -5,7 +5,7 @@ description: コスト管理の方法を説明します
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2479'
 ht-degree: 100%
 
