@@ -5,7 +5,7 @@ description: マーケティングリソース管理について
 role: Admin, User
 exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
