@@ -6,7 +6,7 @@ feature: Query Editor
 role: User, Data Engineer
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
 source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
 ht-degree: 100%
 
