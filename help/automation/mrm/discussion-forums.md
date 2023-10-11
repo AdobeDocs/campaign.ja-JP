@@ -5,7 +5,7 @@ description: Campaign ディスカッションフォーラムの利用方法を�
 role: User
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
 ht-degree: 100%
 
