@@ -6,7 +6,7 @@ feature: Reporting
 role: User, Data Engineer
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
 ht-degree: 100%
 
