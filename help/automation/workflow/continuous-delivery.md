@@ -6,7 +6,7 @@ feature: Workflows, Channels Activity
 role: User
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
