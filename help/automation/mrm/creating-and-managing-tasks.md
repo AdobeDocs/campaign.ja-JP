@@ -5,7 +5,7 @@ description: タスクの作成と管理
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3913'
 ht-degree: 100%
 
