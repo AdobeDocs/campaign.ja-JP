@@ -1,11 +1,11 @@
 ---
 title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
-feature: Overview
+feature: Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c4a1539f140e85e1e8c97f743f9c6c0bba52e4de
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 100%

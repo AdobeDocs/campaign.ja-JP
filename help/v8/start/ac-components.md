@@ -1,11 +1,11 @@
 ---
 title: Campaign のプロセスとコンポーネントについて
 description: Campaign のプロセスとコンポーネントについて
-feature: Overview
+feature: Overview, Architecture, Configuration
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%

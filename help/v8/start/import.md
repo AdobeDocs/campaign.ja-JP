@@ -1,11 +1,11 @@
 ---
 title: プロファイルの基本を学ぶ
 description: プロファイルの基本を学ぶ
-feature: Profiles
+feature: Profiles, Data Management
 role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%

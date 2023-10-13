@@ -1,16 +1,16 @@
 ---
 title: Adobe Experience Cloud ソリューションを使用してオーディエンスを共有
 description: Adobe Experience Cloud  ソリューションを使用してオーディエンスを共有する方法を学ぶ
-feature: Subscriptions
+feature: Audiences
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
   >
   > 宣言済み ID データソースも People コアサービス統合で使用できるようになりました。 
   >
-  >人物コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。
+  >People コアサービス統合を使用していて、Audience Manager統合を追加する場合は、Adobe Audience Managerコンサルタントの支援を得て、Adobe Audience Managerコンテキストでこの宣言済み ID データソースの使用に移行する際に収集された ID 同期がすべて失われるのを防ぐ必要があります。
 
 詳しくは、次を参照してください。
 

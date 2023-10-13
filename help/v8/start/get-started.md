@@ -1,11 +1,11 @@
 ---
 title: Campaign v8 の基本を学ぶ
 description: Adobe Campaign を初めて使用する方へソフトウェアのインストールおよび導入方法と、どこからインターフェイスの使用を開始すればよいかに関するドキュメントを確認します。
-feature: Overview
+feature: Overview, Cross Channel Orchestration
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: 2e597990aafb57631aa228464e4818782524e65e
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%

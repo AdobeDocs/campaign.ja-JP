@@ -1,11 +1,11 @@
 ---
 title: Campaign v8 ガードレール
 description: Campaign v8 ガードレール
-feature: Overview
+feature: Configuration
 role: User
 level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: 754a575b4359633f2bba5c51598725ca577b28d5
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
