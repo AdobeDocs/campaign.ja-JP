@@ -3,11 +3,13 @@ product: campaign
 title: SQL データ管理
 description: SQL データ管理ワークフローアクティビティの詳細を説明します
 feature: Workflows
+Role: User
+Level: Experienced
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +49,7 @@ ht-degree: 100%
    このアクティビティでは、スクリプト内で次の変数を使用できます。
 
    * **activity.tableName**：アウトバウンドワークテーブルの SQL 名
-   * **task.incomingTransitionByName(‘name’).tableName**：使用する受信トランジションによって実行される作業用テーブルの SQL 名（トランジションは名前で識別されます）
+   * **task.incomingTransitionByName(&#39;name&#39;).tableName**：使用する受信トランジションによって実行される作業用テーブルの SQL 名（トランジションは名前で識別されます）
 
      >[!NOTE]
      >

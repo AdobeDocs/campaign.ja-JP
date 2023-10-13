@@ -1,10 +1,11 @@
 ---
 title: Campaign データベースのマッピング
 description: Campaign データベースのマッピング
+feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 100%

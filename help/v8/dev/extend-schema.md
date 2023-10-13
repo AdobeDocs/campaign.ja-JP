@@ -1,11 +1,11 @@
 ---
 title: Campaign スキーマの拡張
 description: Campaign スキーマの拡張方法を学ぶ
-feature: Schema Extension
+feature: Schema Extension, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%

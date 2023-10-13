@@ -1,14 +1,14 @@
 ---
 title: Adobe Campaign スキーマの操作
 description: スキーマの基本を学ぶ
-feature: Schema Extension
+feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -184,7 +184,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 </key>
 ```
 
-この例では、**@autopk** 属性もしくは **@autouuid** 属性で「id」という名前のデフォルトのプライマリキーを作成する代わりに、独自の「householdId」というプライマリキーを指定します。
+この例では、 **@autopk** または **@autouuid** 属性独自の「householdId」プライマリキーを指定する「id」という名前のデフォルトのプライマリキーを作成します。
 
 >[!CAUTION]
 >

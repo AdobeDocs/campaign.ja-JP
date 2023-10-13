@@ -1,11 +1,11 @@
 ---
 title: Campaign API のステージングメカニズム
 description: Campaign API のステージングメカニズム
-feature: API, FFDA
+feature: Configuration, API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Campaign Classic v7 API は引き続き使用できますが、この新しい�
 >* ステージングは、Cloud Database に格納されたスキーマにのみ適用されます。レプリケートされたスキーマのステージングを有効にしないでください。ローカルスキーマでステージングを有効にしないでください。ステージングスキーマでステージングを有効にしないでください
 >
 
-## 実装手順{#implement-staging}
+## 実装手順 {#implement-staging}
 
 Campaign のステージングメカニズムを特定のテーブルに実装するには、次の手順に従います。
 

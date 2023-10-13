@@ -2,16 +2,17 @@
 title: Campaign と Twitter の連携
 description: Campaign 環境を Twitter と統合する方法を学ぶ
 role: User, Admin
+feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 100%
 
 ---
 
-# Campaign と Twitter の連携{#tw-ac-ovv}
+# Campaign と Twitter の連携 {#tw-ac-ovv}
 
 この&#x200B;**ソーシャルネットワーク管理（ソーシャルマーケティング）**&#x200B;モジュールを使用すると、Twitter を介して顧客とやり取りできます。この機能を使用すると、次のことができます。
 

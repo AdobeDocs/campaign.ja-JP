@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1625'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Campaign を設定して、マーケティングキャンペーンの強力な�
 * レポートの自動送信
 * トリガーされるイベント
 
-## ワークフローのデザインと使用{#gs-ac-wf}
+## ワークフローのデザインと使用 {#gs-ac-wf}
 
 Adobe Campaign ワークフローを使用すると、セグメントの作成やメッセージの準備から配信に至るまでの、マーケティングキャンペーンのあらゆる側面でスピードと規模を改善できます。
 
@@ -165,7 +165,7 @@ Campaign コンテンツ管理アドオンを使用して、コンテンツブ�
 * [リストへのレポートの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html?lang=ja)月次のビルトイントラッキング指標レポートを PDF 形式で生成し、Campaign オペレーターのリストに送信する方法を説明します。
 
 * [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ja)
-一連の（「一時停止」、「停止」、「エラーあり」）を監視できる、ワークフローの作成方法を説明します。
+一連のワークフローの状態（一時停止、停止、エラーあり）を監視するワークフローを作成する方法を説明します。
 
 * [パーソナライズされたアラートをオペレーターへ送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html?lang=ja)
 ニュースレターを開封したものの、そこに含まれているリンクをはクリックしなかったプロファイルの名前を記載したアラートをオペレーターに送信する方法について説明します。
@@ -195,8 +195,8 @@ Adobe Campaign データベースの CRM からプロファイルを読み込む
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [受信者テーブルのクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html?lang=ja)
-メールドメインが「orange.co.uk」で、かつロンドンに居住していない受信者について、名前とメールを復元する方法を説明します。
+* [受信者テーブルに対するクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html?lang=ja)
+E メールドメインが「orange.co.uk」で、横浜市に住んでいない受信者の名前と E メールを復元する方法を説明します。
 
 * [配信情報のクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html?lang=ja)
 配信情報に関するクエリを定義して、プロファイルの動作を取得する方法について説明します。

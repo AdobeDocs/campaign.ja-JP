@@ -1,17 +1,18 @@
 ---
 title: インスタンスのカスタマイズ
 description: インスタンスをカスタマイズする方法について説明します
+feature: Configuration, Application Settings
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 
 ---
 
-# インスタンスのカスタマイズ{#gs-ac-custom}
+# インスタンスのカスタマイズ {#gs-ac-custom}
 
 **Campaign インスタンスをカスタマイズする方法**&#x200B;について説明します。
 

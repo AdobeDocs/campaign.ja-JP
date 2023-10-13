@@ -1,18 +1,18 @@
 ---
 title: Campaign コントロールパネル
 description: Campaign コントロールパネルの基本を学ぶ
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Campaign コントロールパネル
+# Campaign コントロールパネル {#ac-control-panel}
 
 Campaign コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Adobe Campaign の製品管理者としての作業を効率化できます。 直感的なインターフェイスにより、主要なアセットの使用状況を簡単に監視できるうえ、IP アドレスの許可リスト登録、SFTP ストレージの監視、鍵の管理などの管理タスクを実行できます。
 
@@ -26,19 +26,19 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ![](../assets/do-not-localize/book.png)詳しくは、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}を参照してください。
 
-## コントロールパネルにアクセスするには？
+## コントロールパネルにアクセスするには？ {#ac-control-panel-access}
 
 コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja){target="_blank"}してください。
 
-## コントロールパネルのよくある質問（FAQ）
+## コントロールパネルのよくある質問（FAQ） {#ac-control-faq}
 
 Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#control-panel){target="_blank"}します。
 
-## SFTP 管理
+## SFTP 管理 {#ac-control-sftp}
 
 コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management){target="_blank"}してください。
 
-## サブドメインおよび証明書
+## サブドメインおよび証明書 {#ac-control-subdomain}
 
 サブドメインとその証明書の監視方法を説明します。
 

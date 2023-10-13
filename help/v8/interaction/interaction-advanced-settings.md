@@ -1,9 +1,10 @@
 ---
 title: Campaign インタラクションの詳細設定
 description: Campaign インタラクションの詳細設定
+feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 54%

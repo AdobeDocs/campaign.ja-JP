@@ -5,14 +5,14 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
 
 ---
 
-# トランザクションメッセージの設定
+# トランザクションメッセージの設定 {#mc-settings}
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。トランザクションメッセージについて詳しくは、[この節](../send/transactional.md)を参照してください。
 
@@ -20,15 +20,15 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
-## 権限の定義
+## 権限の定義 {#mc-permissions}
 
 Adobe Cloud でホストされる Message Center 実行インスタンスの新しいユーザーを作成するには、アドビカスタマーケアに連絡する必要があります。 Message Center ユーザーは、「リアルタイムイベント」（nmsRtEvent）フォルダーにアクセスするための専用の権限を必要とする特定のオペレーターです。
 
-## スキーマ拡張
+## スキーマ拡張  {#mc-schema-ext}
 
 コントロールインスタンスまたは実行インスタンスのいずれかで [Message Center テクニカルワークフロー](#technical-workflows)が使用するスキーマで作成されたすべてのスキーマ拡張は、Adobe Campaign トランザクションメッセージモジュールが使用する別のインスタンスに複製する必要があります。
 
-## トランザクションプッシュ通知の送信
+## トランザクションプッシュ通知の送信 {#mc-transactional-push}
 
 トランザクションメッセージでは、[モバイルアプリチャネルモジュール](../send/push.md)と組み合わせることで、通知を介してモバイルデバイスにトランザクションメッセージをプッシュすることができます。
 
@@ -59,7 +59,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -71,8 +71,6 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
-
-
 
 ## イベントのパージ {#purge-events}
 

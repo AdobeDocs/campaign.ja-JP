@@ -4,14 +4,14 @@ description: ビルトインレポート
 feature: Reporting
 role: User
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 100%
 
 ---
 
-# Adobe Campaign の組み込みレポート{#ootb-reports}
+# Adobe Campaign の組み込みレポート {#ootb-reports}
 
 このページでは、Adobe Campaign の組み込みレポートとそれらの内容およびコンテキストの一覧を示します。Adobe Campaign には、クライアントコンソールまたはインターネットブラウザーからアクセスできる、様々な組み込みレポートが用意されています。
 

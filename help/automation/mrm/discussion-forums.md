@@ -2,10 +2,11 @@
 product: campaign
 title: ディスカッションフォーラム
 description: Campaign ディスカッションフォーラムの利用方法を説明します
+feature: Campaigns, Resource Management
 role: User
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 100%
 

@@ -1,17 +1,18 @@
 ---
 title: データベース構造の更新
 description: データベース構造の更新
+feature: Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: fc64f3ca-67f1-47b7-b154-9c9dd044192c
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 100%
 
 ---
 
-# データベース構造の更新{#updating-the-database-structure}
+# データベース構造の更新 {#updating-the-database-structure}
 
 スキーマに加えた変更を適用するには、データベース更新ウィザードを起動します。この機能は、**[!UICONTROL ツール／詳細／データベース構造を更新]**&#x200B;から利用できます。 データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL 更新スクリプトを実行します。
 

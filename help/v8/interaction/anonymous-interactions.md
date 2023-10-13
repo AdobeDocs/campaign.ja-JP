@@ -2,16 +2,17 @@
 product: campaign
 title: 匿名プロファイルへのオファーの提示（インバウンドインタラクション）
 description: 匿名プロファイルにオファーを提示する方法を説明します
+feature: Interaction, Offers
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
 ---
 
-# 匿名インタラクション{#anonymous-interactions}
+# 匿名インタラクション {#anonymous-interactions}
 
 ## 匿名インタラクション向けの環境 {#environment-for-anonymous-interactions}
 

@@ -5,16 +5,16 @@ feature: Workflows, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
 ---
 
-# テクニカルワークフローとデータレプリケーション
+# テクニカルワークフローとデータレプリケーション {#wf-data-replication}
 
-## テクニカルワークフロー{#tech-wf}
+## テクニカルワークフロー {#tech-wf}
 
 [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、Adobe Campaign には、組み込みのテクニカルワークフローのセットが備わっています。テクニカルワークフローは、サーバーで定期的にスケジュールされたプロセスやジョブを実行します。
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 必要に応じて、データの同期を手動で開始できます。これを実行するには、「**スケジューラー**」アクティビティを右クリックし、「**保留中のタスクを今すぐ実行**」を選択します。
 
-## データのレプリケーション{#data-replication}
+## データのレプリケーション {#data-replication}
 
 一部のビルトインテーブルは、上述の専用ワークフローを介して、Campaign のローカルデータベースから [!DNL Snowflake] クラウドデータベースにレプリケートされます。
 
@@ -48,7 +48,7 @@ Adobe Campaign v8 が使用するデータベース、データがレプリケ�
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 
-### データレプリケーションポリシー{#data-replication-policies}
+### データレプリケーションポリシー {#data-replication-policies}
 
 レプリケーションポリシーはテーブルのサイズに基づいています。リアルタイムでレプリケートされるテーブルもあれば、時間単位でレプリケートされるテーブルもあります。増分的に更新されるテーブルもあれば、全体が置き換えられるテーブルもあります。
 

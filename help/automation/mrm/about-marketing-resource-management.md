@@ -2,10 +2,11 @@
 product: campaign
 title: マーケティングリソース管理の基本を学ぶ
 description: マーケティングリソース管理について
+feature: Campaigns, Resource Management
 role: Admin, User
 exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 100%
 

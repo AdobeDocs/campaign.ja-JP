@@ -2,10 +2,11 @@
 product: campaign
 title: コスト管理
 description: コスト管理の方法を説明します
+feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 100%
 

@@ -1,10 +1,11 @@
 ---
 title: Campaign でテストプロファイルを作成
 description: Adobe Campaign でテストプロファイルを作成および管理する方法を学ぶ
-feature: Audiences, Profiles
+feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 100%
@@ -103,4 +104,3 @@ Adobe Campaign では、シードアドレスのテンプレートも作成可�
 この場合、配信にシードアドレスを追加するには、適切なタブで各種の適切なフィールドを入力するか、アドレステンプレートをインポートします。
 
 <!--The **nms:seedMember** schema extension is [this section](../../configuration/using/seed-addresses.md).-->
-

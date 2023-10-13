@@ -2,10 +2,10 @@
 product: campaign
 title: LINE チャネル
 description: LINE チャネル
-feature: Workflows
+feature: Workflows, Line App
 role: User
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 

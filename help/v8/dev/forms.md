@@ -1,24 +1,24 @@
 ---
 title: Campaign 入力フォーム
 description: 入力フォームのカスタマイズ方法を学ぶ
-feature: Web Forms
+feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '2574'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# 入力フォームの概要{#gs-ac-forms}
+# 入力フォームの概要 {#gs-ac-forms}
 
 スキーマを作成または拡張する場合は、関連する入力フォームを作成または変更して、それらの変更をエンドユーザーに表示する必要があります。
 
 入力フォームを使用すると、データスキーマに関連付けられたインスタンスを Adobe Campaign クライアントコンソールから編集できます。フォームは名前と名前空間で識別します。
 
-フォームの識別キーは、名前空間と名前をコロンで区切った文字列です（例：cus:contact）。
+フォームの識別キーは、コロンで区切られた名前空間と名前で構成される文字列です（例：「cus:contact」）。
 
 ## 入力フォームの編集
 
