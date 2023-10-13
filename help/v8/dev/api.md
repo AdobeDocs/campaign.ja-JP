@@ -5,14 +5,14 @@ feature: API
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
+source-git-commit: 4c2d3bba282f629a9f5cadcda9ab79a810ac9832
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 
 ---
 
-# [!DNL Campaign] API の概要{#gs-ac-api}
+# [!DNL Campaign] API の概要 {#gs-ac-api}
 
 [!DNL Adobe Campaign] には、次の方法で使用できる、一連の JavaScript 関数が備わっています。
 
@@ -33,7 +33,7 @@ JavaScript の API を使用すると、Campaign クラウドデータベース�
 >* [!DNL Adobe Campaign] v8 には、API レイヤーのスループット（TPS）に制限があります。この制限を超えると、標準 HTTP エラー（429）が発生します。 Managed Cloud Services のユーザーは、アドビに連絡して、各 API の調整を適応してもらうことができます。
 > 
 
-## 前提条件
+## 前提条件 {#ac-api-prerequisites}
 
 [!DNL Adobe Campaign] API を使用するには、次のトピックに関する知識が必要です。
 
