@@ -5,9 +5,9 @@ feature: Workflows, Data Management
 role: User
 exl-id: 9da636a7-ed57-440f-8166-6982dce0213c
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '102'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,4 +28,4 @@ ht-degree: 87%
 
 ![](assets/crm_task_select_obj.png)
 
-Adobe Campaignの CRM コネクタについて詳しくは、 [この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ja){target="_blank"}.
+Adobe Campaign の CRM コネクタについて詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ja){target="_blank"}を参照してください。
