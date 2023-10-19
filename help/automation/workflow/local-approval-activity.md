@@ -6,7 +6,7 @@ feature: Workflows, Approvals
 role: User
 exl-id: 31089026-3fc0-4491-8b70-0fb7fd1e3ac0
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
 ht-degree: 100%
 
