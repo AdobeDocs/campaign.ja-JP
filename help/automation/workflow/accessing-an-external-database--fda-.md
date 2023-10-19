@@ -6,9 +6,9 @@ feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ddafca28-1db4-42f2-9bfb-73da1240235c
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,4 +23,4 @@ Adobe Campaign では、Federated Data Access（FDA）オプションを利用�
 * エンリッチメント
 * データの読み込み
 
-FDA オプションを使用するには、Adobe Campaign のライセンスが必要です。このオプションの設定やベストプラクティス、利用に関する制限について詳しく説明します [この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"}.
+FDA オプションを使用するには、Adobe Campaign のライセンスが必要です。このオプションの設定やベストプラクティス、利用に関する制限について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"}を参照してください。
