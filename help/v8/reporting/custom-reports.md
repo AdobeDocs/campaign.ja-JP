@@ -5,9 +5,9 @@ feature: Reporting
 role: User, Data Engineer
 exl-id: 262c1469-94b4-4f81-9f6f-5c7f481765da
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Campaign データベース内のデータに関する統計情報を生成す�
 
 データに関する分析レポートを作成、公開、配信するには、次の手順に従います。
 
-1. 新しいレポートを作成します。を参照してください。 [新しいレポートを作成します](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-new-report.html?lang=ja){target="_blank"},
-1. 分析するデータを収集します。を参照してください。 [分析するデータを収集](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/collecting-data-to-analyze.html?lang=ja){target="_blank"}, and [Use the context](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/collecting-data-to-analyze.html?lang=ja){target="_blank"},
-1. レポートの内容と共に、アクティビティとそのコンテナを定義します。を参照してください。 [テーブルの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-table.html?lang=ja){target="_blank"}, [Creating a chart](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ja){target="_blank"} and [Element layout](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/element-layout.html?lang=ja){target="_blank"},
-1. 表示オプション（表示タイプ、共有レポートなど）を設定します。を参照してください。 [条件付きコンテンツの定義](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/defining-a-conditional-content.html?lang=ja){target="_blank"} and [Configure access to the report](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ja){target="_blank"},
-1. レポートをパブリッシュします（パブリッシュウィザードを使用）。を参照してください。 [レポートをパブリッシュ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=jal#publishing-the-report){target="_blank"},
-1. レポートの変換（エクスポート）、履歴の作成、ブラウザーでの表示などを行います。詳しくは、 [レポートに対するアクション](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html?lang=ja){target="_blank"}.
+1. 新しいレポートを作成します。[新しいレポートを作成](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-new-report.html?lang=ja){target="_blank"}を参照してください。
+1. 分析するデータを収集します。[分析するデータを収集](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/collecting-data-to-analyze.html?lang=ja){target="_blank"}, and [Use the context](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/collecting-data-to-analyze.html?lang=ja){target="_blank"}を参照してください。
+1. レポートの内容と共に、アクティビティとそれらのコンテナを定義します。[テーブルを作成](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-table.html?lang=ja){target="_blank"}, [Creating a chart](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=ja){target="_blank"} and [Element layout](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/element-layout.html?lang=ja){target="_blank"}を参照してください。
+1. 表示オプション（表示タイプ、共有レポートなど）を設定します。[条件付きコンテンツの定義](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/defining-a-conditional-content.html?lang=ja){target="_blank"} and [Configure access to the report](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ja){target="_blank"}を参照してください。
+1. レポートを公開します（公開ウィザードを使用）。[レポートの公開](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=jal#publishing-the-report){target="_blank"}を参照してください。
+1. レポートの変換（エクスポート、履歴、ブラウザーでの表示など）を行います。[レポートに対するアクション](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html?lang=ja){target="_blank"}を参照してください。
