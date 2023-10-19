@@ -6,7 +6,7 @@ feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1687'
 ht-degree: 100%
 
