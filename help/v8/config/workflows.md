@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1625'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -153,10 +153,10 @@ Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクショ
 さらに、Campaign v7 ドキュメントの以下のページ：
 
 * [コンテンツの作成、編集、公開の自動化](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html?lang=ja){target="_blank"}
-Campaign コンテンツ管理アドオンを使用して、コンテンツブロックの作成と配信を自動化する方法について説明します。
+Campaign コンテンツ管理アドオンを使用して、コンテンツブロックの作成と配信を自動化する方法を説明します。
 
 * [A/B テスト](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html?lang=ja){target="_blank"}
-ターゲティングワークフローを使用して、2 つの E メール配信コンテンツを比較する方法を説明します。 メッセージとテキストは両方の配信で同じものを使用し、レイアウトだけを変更します。ターゲットの母集団は、2 つのテストグループと、その他の母集団の 3 つに分割します。各テストグループに別々のバージョンを配信します。
+ターゲティングワークフローを使用して、2 つのメール配信コンテンツを比較する方法を説明します。メッセージとテキストは両方の配信で同じものを使用し、レイアウトだけを変更します。ターゲットの母集団は、2 つのテストグループと、その他の母集団の 3 つに分割します。各テストグループに別々のバージョンを配信します。
 
 ### 監視 {#monitoring}
 
@@ -165,7 +165,7 @@ Campaign コンテンツ管理アドオンを使用して、コンテンツブ�
 * [リストへのレポートの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html?lang=ja)月次のビルトイントラッキング指標レポートを PDF 形式で生成し、Campaign オペレーターのリストに送信する方法を説明します。
 
 * [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ja)
-一連のワークフローの状態（一時停止、停止、エラーあり）を監視するワークフローを作成する方法を説明します。
+一連の（「一時停止」、「停止」、「エラーあり」）を監視できる、ワークフローの作成方法を説明します。
 
 * [パーソナライズされたアラートをオペレーターへ送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html?lang=ja)
 ニュースレターを開封したものの、そこに含まれているリンクをはクリックしなかったプロファイルの名前を記載したアラートをオペレーターに送信する方法について説明します。
@@ -195,8 +195,8 @@ Adobe Campaign データベースの CRM からプロファイルを読み込む
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [受信者テーブルに対するクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html?lang=ja)
-E メールドメインが「orange.co.uk」で、横浜市に住んでいない受信者の名前と E メールを復元する方法を説明します。
+* [受信者テーブルのクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html?lang=ja)
+メールドメインが「orange.co.uk」で、かつロンドンに居住していない受信者について、名前とメールを復元する方法を説明します。
 
 * [配信情報のクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html?lang=ja)
 配信情報に関するクエリを定義して、プロファイルの動作を取得する方法について説明します。
