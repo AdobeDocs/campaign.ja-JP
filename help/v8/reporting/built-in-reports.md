@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1114'
 ht-degree: 100%
 
