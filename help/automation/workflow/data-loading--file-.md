@@ -5,10 +5,10 @@ description: データ読み込み（ファイル）ワークフローアクテ�
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: d946d4a50a4fc13e848b22ee87b02a10b7dfd2ad
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 98%
 
 ---
 
@@ -51,6 +51,10 @@ ht-degree: 100%
 ファイルの全般的なフォーマットでは、列を認識する方法（エンコーディング、使用する区切り文字など）を定義できます。
 
 列のフォーマットでは、以下の設定で各列の値の処理方法を定義できます。
+
+>[!NOTE]
+>
+>必要な数の列を追加できます。 各列の値の最大長は、選択したデータタイプによって決まります。
 
 * **[!UICONTROL 列を無視]**：ファイルの読み込み時の処理で、この列をスキップします。
 * **[!UICONTROL データタイプ]**：各列に適用されるデータタイプを指定します。
