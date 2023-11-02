@@ -3,10 +3,10 @@ title: Adobe Campaign と Adobe Journey Optimizer の連携
 description: Campaign と Journey Optimizer の連携方法について学ぶ
 role: Admin, User
 feature: Journey Optimizer Integration
-level: Beginner, Intermediate
+level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: ht
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 

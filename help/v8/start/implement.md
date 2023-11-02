@@ -2,10 +2,10 @@
 title: 実装のガイドライン
 description: Campaign v8 の実装方法を説明します
 feature: Overview
-role: User, Admin, Developer
-level: Beginner, Intermediate
+role: User
+level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1187'
 ht-degree: 100%

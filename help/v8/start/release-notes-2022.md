@@ -2,11 +2,11 @@
 title: Campaign v8 2022 リリースノート
 description: Campaign v8 2022 リリースで記載される機能と改善点のリスト
 feature: Release Notes
-role: Admin, Developer, User
-level: Beginner, Intermediate, Experienced
+role: User
+level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
-workflow-type: ht
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 100%
 

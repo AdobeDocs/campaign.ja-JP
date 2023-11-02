@@ -3,10 +3,10 @@ title: デフォルトの受信者テーブルの変更
 description: カスタム受信者テーブルの使い方を学ぶ
 feature: Custom Resources, Profiles, Configuration
 role: User, Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate, Experienced
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: ht
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 

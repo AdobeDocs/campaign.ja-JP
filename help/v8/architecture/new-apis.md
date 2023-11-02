@@ -3,10 +3,10 @@ title: Campaign v8 の新しい API
 description: Campaign v8 の新しい API
 feature: Architecture, API, FFDA
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: ht
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

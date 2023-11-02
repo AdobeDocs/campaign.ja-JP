@@ -3,10 +3,10 @@ title: Campaign 入力フォーム
 description: 入力フォームのカスタマイズ方法を学ぶ
 feature: Web Forms, Landing Pages
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: ht
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+workflow-type: tm+mt
 source-wordcount: '2574'
 ht-degree: 100%
 

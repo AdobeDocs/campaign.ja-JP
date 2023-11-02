@@ -3,10 +3,10 @@ title: Campaign でのプライバシーリクエストの管理
 description: Campaign でプライバシーリクエストを管理する方法を説明します
 feature: Privacy
 role: Admin
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
-workflow-type: ht
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 100%
 
@@ -143,9 +143,9 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 
 Adobe Campaign のプライバシーリクエストの様々なステータスと、その解釈方法を次に示します。
 
-* **[!UICONTROL 新規]**／**[!UICONTROL 再試行待ち]**：ワークフローは進行中で、リクエストの処理は完了していません。
+* **[!UICONTROL 新規]**／**[!UICONTROL 再試行保留]**：ワークフローは進行中で、リクエストの処理は完了していません。
 * **[!UICONTROL 処理中]**／**[!UICONTROL 再試行中]**：ワークフローはリクエストを処理しています。
-* **[!UICONTROL 削除待ち]**：ワークフローにおいて、削除対象のすべての受信者データが特定済みです。
+* **[!UICONTROL 削除保留]**：ワークフローにおいて、削除対象のすべての受信者データが特定済みです。
 * **[!UICONTROL 削除中]**：ワークフローは削除を処理しています。
 * **[!UICONTROL 完了]**：リクエストの処理が終了しました。エラーは発生していません。
 * **[!UICONTROL エラー]**：ワークフローにおいて、エラーが発生しました。理由は、プライバシーリクエストのリストの「**[!UICONTROL リクエストのステータス]**」列に表示されます。例えば、「**[!UICONTROL エラー : データが見つかりません]**」は、データ主体の&#x200B;**[!UICONTROL 紐付け値]**&#x200B;と一致する受信者データがデータベースに見つからなかったことを示します。

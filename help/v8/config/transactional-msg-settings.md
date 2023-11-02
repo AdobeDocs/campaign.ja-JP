@@ -3,10 +3,10 @@ title: Campaign トランザクションメッセージの設定
 description: Campaign トランザクションメッセージの設定
 feature: Transactional Messaging
 role: Admin, Developer
-level: Intermediate, Experienced
+level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: ht
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
   可能なイベントのステータスは次のとおりです。
 
    * **[!UICONTROL 保留中]**：イベントはキュー内にあります。イベントにはまだメッセージテンプレートが割り当てられていません。
-   * **[!UICONTROL 配信待ち]**：イベントはキュー内にあり、メッセージテンプレートが割り当てられ、配信による処理中です。
+   * **[!UICONTROL 配信保留]**：イベントはキュー内にあり、メッセージテンプレートが割り当てられ、配信による処理中です。
    * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。配信が送信されたことを示します。
    * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。配信が無視されたことを意味します。
    * **[!UICONTROL 配信失敗]**：このステータスは配信ログからコピーされます。配信が失敗したことを意味します。

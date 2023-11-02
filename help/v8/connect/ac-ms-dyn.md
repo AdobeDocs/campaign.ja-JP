@@ -3,12 +3,12 @@ title: Campaign と Microsoft Dynamics の連携
 description: Campaign と Microsoft Dynamics の連携方法を学ぶ
 feature: Microsoft CRM Integration
 role: Admin, User
-level: Beginner, Intermediate, Experienced
+level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1399'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ### Microsoft Dynamics 証明書キー識別子およびキー ID の生成 {#config-certificate-key-id}
 
-**証明書キー識別子（customKeyIdentifier）**&#x200B;および&#x200B;**キー ID（keyId）**&#x200B;を取得するには、証明書をアップロードする必要があります。証明書は、トークンのリクエスト時にアプリケーションの ID を証明するための暗号鍵として使用できます。公開鍵とも呼ばれます。
+**証明書キー識別子（customKeyIdentifier）**&#x200B;および&#x200B;**キー ID（keyId）**&#x200B;を取得するには、証明書をアップロードする必要があります。証明書は、トークンのリクエスト時にアプリケーションの ID を証明するための秘密として使用できます。 公開鍵とも呼ばれます。
 
 以下の手順に従います。
 

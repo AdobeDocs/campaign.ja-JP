@@ -4,9 +4,9 @@ description: Adobe Experience Platform Mobile SDK をアプリと統合する方
 version: v8
 feature: Push
 role: Admin, Developer
-level: Intermediate, Experienced
-exl-id: b5a0fe46-f7b4-4be1-abf0-162fc1412886
-source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
+level: Intermediate
+exl-id: 1a75f411-3f71-4114-b738-277820dc6138
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1815'
 ht-degree: 100%

@@ -3,8 +3,9 @@ title: Adobe Campaign のメールパラメーター
 description: Adobe Campaign のメール配信に固有のオプションと設定について説明します。
 feature: Email
 role: User
-level: Beginner, Intermediate, Experienced
-source-git-commit: 44f30f753e3ed75b7e56caf7bd8cdfa7cbee5c35
+level: Beginner
+exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 100%
@@ -54,7 +55,7 @@ BCC メールアドレスを定義したら、配信レベルで専用オプシ�
 
 このテンプレートに基づく各配信に対するすべての送信済みメッセージのコピーが、設定された「BCC でメールを送信」アドレスに送信されます。
 
-次の特性と推奨事項に注意してください。
+次の特性とレコメンデーションに注意してください。
 
 * BCC に設定できるメールアドレスは 1 つだけです。
 

@@ -3,10 +3,10 @@ title: Campaign v8 互換性マトリックス
 description: Campaign v8 と互換性のあるシステムとバージョンの確認
 feature: Release Notes
 role: Admin
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
-workflow-type: ht
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 

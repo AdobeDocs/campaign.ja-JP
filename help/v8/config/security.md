@@ -3,9 +3,9 @@ title: Campaign セキュリティのベストプラクティス
 description: Campaign セキュリティのベストプラクティスの概要
 feature: Privacy, PI
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 100%

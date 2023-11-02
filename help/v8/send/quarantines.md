@@ -2,13 +2,13 @@
 title: Campaign での強制隔離の管理
 description: Adobe Campaign での強制隔離の管理について
 feature: Profiles, Monitoring
-role: User, Developer
-level: Beginner, Intermediate
+role: User, Data Engineer
+level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: b783b1444457b3204fea35b613582642499acf65
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign は、オンラインチャネル（メール、SMS、プッシ�
 
 >[!NOTE]
 >
->受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを使用して SMS メッセージに返信したりすると、受信者のアドレスまたは電話番号は&#x200B;**[!UICONTROL ブロックリスト登録済み]**&#x200B;として強制隔離されます。それに応じてプロファイルも更新されます。
+>受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを含む SMS メッセージに返信したりした場合、そのアドレスまたは電話番号は次のように強制隔離されます。 **[!UICONTROL ブロックリストに加える]**. それに応じてプロファイルも更新されます。
 
 <!--For the email channel, email addresses are quarantined. For the mobile app channel, device tokens are quarantined. For the SMS channel, phone numbers are quarantined.?-->
 
