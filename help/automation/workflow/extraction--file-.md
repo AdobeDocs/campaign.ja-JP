@@ -5,7 +5,7 @@ description: データ抽出（ (ファイル）) ワークフローアクティ
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: ht
 source-wordcount: '350'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # データ抽出（ファイル）{#extraction-file}
-
-
 
 「**[!UICONTROL データ抽出 (ファイル)]**」アクティビティを使用して、ワークフローテーブルから外部ファイルにデータを抽出できます。
 
