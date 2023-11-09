@@ -4,24 +4,22 @@ title: プッシュ通知チャネルの今後の変更
 description: プッシュ通知チャネルの今後の変更
 hide: true
 hidefromtoc: true
-source-git-commit: 11330ed8e79ec256b158747914f178b8b6857a33
+source-git-commit: 70d1e7336cce7660890b13def5efcb614c0dc12e
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 4%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
 # プッシュ通知チャネルの今後の変更 {#push-upgrade}
 
-このページでは、Adobe Campaign Classicの Firebase Cloud Messaging を介したプッシュ通知チャネルに対する今後の変更について説明します。
+Adobe Campaign Classicの実装に影響を与える可能性のある、Firebase Cloud Messaging(FCM) サービスに対する重要な変更があります。
 
-Adobe Campaign Classicの実装に影響を与える可能性のある、Firebase Cloud Messaging(FCM) サービスに関する重要な変更点はどこですか。
-
-Googleのサービス向上のための継続的な取り組みの一環として、従来の FCM API は 2024 年 6 月 (Firebase Cloud Messaging HTTP プロトコル：https://firebase.google.com/docs/cloud-messaging/http-server-ref) に廃止されます
+Googleのサービス向上のための継続的な取り組みの一環として、従来の FCM API は 2024 年 6 月に廃止されます ([Firebase Cloud Messaging HTTP プロトコル](https://firebase.google.com/docs/cloud-messaging/http-server-ref))
 
 これらの API は、現在、プッシュ通知メッセージを送信するためにAdobe Campaign Classicと統合されています。 お客様を始めとする多くのお客様は、マーケティングキャンペーンやコミュニケーションのニーズ、特に Android デバイスに対して、これらのサービスを利用しています。
 
-## これはどのように影響を与えますか？
+## 影響の有無
 
 * **HTTP（レガシー）API ユーザー**：アクティブなプッシュ通知キャンペーンのいずれかで HTTP（レガシー）API を利用している場合、設定はこの変更による直接の影響を受けます。 現在の設定を確認し、新しい API への移行に備えることを強くお勧めします。
 
@@ -35,7 +33,7 @@ Googleのサービス向上のための継続的な取り組みの一環とし�
 
 * **サポート**：この移行を通じて、アドビのカスタマーサポートチームが支援を受けることができます。 また、ウェビナーやイネーブルメントセッションを開催して、移行に関する技術的側面やベストプラクティスを取り上げることもできます。
 
-## これはどのように影響を与えますか？
+## 何を期待してる？
 
 * **常に情報を提供**：詳細な移行計画を含む、アドビからの詳細なコミュニケーションについて、インボックスに目を通してください。
 
@@ -53,7 +51,7 @@ Googleのサービス向上のための継続的な取り組みの一環とし�
 
 ### ビルドのアップグレード
 
-* Campaign Classic: AC7 20.3.1 リリースで HTTPv1 のサポートが追加されました。 以前のバージョンを使用している場合は、最初に最新のバージョンビルドにアップグレードする必要がありますCampaign Classic。
+* Campaign Classic: 20.3.1 リリースで HTTPv1 のサポートが追加されました。 以前のバージョンを使用している場合は、最初に最新のバージョンビルドにアップグレードする必要がありますCampaign Classic。
 
 * Campaign v8: HTTPv1 は、すべての Campaign v8 リリースでサポートされています。 アップグレードは不要です。
 
