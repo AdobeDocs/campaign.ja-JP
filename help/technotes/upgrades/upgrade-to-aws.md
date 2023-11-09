@@ -2,8 +2,8 @@
 title: Campaign メール送信インフラストラクチャのアップグレード
 description: Campaign メール送信インフラストラクチャのアップグレード
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
-workflow-type: ht
+source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Campaign のお客様には、実稼動アップグレードに関する追加�
 
   いいえ。別のお客様に割り当てられたアップグレードイベントが中断される可能性があるので、既存のスケジュールに対してリクエストされた変更には対応できません。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。。
