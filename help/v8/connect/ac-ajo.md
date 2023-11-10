@@ -6,7 +6,7 @@ feature: Journey Optimizer Integration
 level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
