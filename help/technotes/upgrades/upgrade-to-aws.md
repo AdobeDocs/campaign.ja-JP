@@ -3,7 +3,7 @@ title: Campaign メール送信インフラストラクチャのアップグレ�
 description: Campaign メール送信インフラストラクチャのアップグレード
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
 source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
