@@ -4,10 +4,10 @@ title: プッシュ通知チャネルの今後の変更
 description: プッシュ通知チャネルの今後の変更
 hide: true
 hidefromtoc: true
-source-git-commit: 4072421cd8f0f3ab3b15c4a475428a59503aa955
+source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 21%
+source-wordcount: '810'
+ht-degree: 20%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既にプッシュ通
 
 1. 「**[!UICONTROL 終了]**」、「**[!UICONTROL 保存]**」の順にクリックします。
 
-以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。
+以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。 これらのオプションの詳細を説明します [ここ](#fcm-apps).
 
 | メッセージタイプ | 設定可能なメッセージ要素（FCM ペイロード名） | 設定可能なオプション（FCM ペイロード名） |
 |:-:|:-:|:-:|
@@ -79,7 +79,7 @@ Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既にプッシュ通
 
 >[!NOTE]
 >
->HTTP v1 API への切り替えは、すべての新しい配信に適用されます。 再試行中、処理中、使用中の配信では、HTTP（レガシー）API を引き続き使用します。
+>これらの変更がすべてのサーバーに適用されると、Android デバイスへのすべての新しいプッシュ通知配信で HTTP v1 API が使用されます。 再試行中、処理中、使用中の既存のプッシュ配信は、HTTP（レガシー）API を引き続き使用します。
 
 ### Android アプリに対する影響は何ですか？ {#fcm-apps}
 
@@ -89,6 +89,7 @@ Android モバイルアプリケーションのコードに特別な変更は必
 
 ![](assets/android-push-additional-options.png)
 
+以下を行うことができます。
 
 * 以下を使用します。 **[!UICONTROL ティッカー]** フィールドを使用して、通知のティッカーテキストを設定します。
 * 以下を使用します。 **[!UICONTROL 画像]** フィールドを使用して、通知に表示する画像の URL を設定します。
