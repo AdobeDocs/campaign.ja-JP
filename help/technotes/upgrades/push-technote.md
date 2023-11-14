@@ -4,22 +4,22 @@ title: プッシュ通知チャネルの今後の変更
 description: プッシュ通知チャネルの今後の変更
 hide: true
 hidefromtoc: true
-source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
+source-git-commit: 5ed6a5c9c458381ef701428aeab146afe4788d58
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 20%
+source-wordcount: '857'
+ht-degree: 19%
 
 ---
 
 # プッシュ通知チャネルの今後の変更 {#push-upgrade}
 
-Campaign を使用して、Android デバイスでプッシュ通知を送信できます。 これをおこなうには、Campaign は特定の Android 外部アカウントおよび購読サービスに依存しています。 Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与える可能性があります。
+Campaign を使用して、Android デバイスでプッシュ通知を送信できます。 これを実行するには、Campaign は特定の購読サービスに依存しています。 Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与える可能性があります。 この変更をサポートするには、Android プッシュメッセージ用の購読サービス設定を更新する必要がある場合があります。
 
 ## 変更点 {#fcm-changes}
 
-Googleのサービス向上のための継続的な取り組みの一環として、従来の FCM API は、 **2024 年 6 月 21 日**. Firebase Cloud Messaging HTTP プロトコルについて詳しくは、 [Googleドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Googleのサービス向上のための継続的な取り組みの一環として、従来の FCM API は、 **2024 年 6 月 21 日**. Firebase Cloud Messaging HTTP プロトコルについて詳しくは、 [Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既にプッシュ通知メッセージを送信する最新の API をサポートしています。 ただし、古い実装の中には、依然としてレガシー API に依存するものもあります。 これらの実装は更新する必要があります。
+Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既に最新の API をサポートしていて、プッシュ通知メッセージを送信できます。 ただし、古い実装の中には、依然としてレガシー API に依存するものもあります。 これらの実装は更新する必要があります。
 
 ## 影響の有無 {#fcm-impact}
 
@@ -30,30 +30,33 @@ Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既にプッシュ通
 ![](assets/filter-services-fcm.png)
 
 
-* アクティブなプッシュ通知キャンペーンのいずれかで **HTTP （レガシー）** API では、この変更による設定の直接の影響を受けます。 現在の設定を確認し、以下に説明するように、新しい API に移行する必要があります。
+* アクティブなプッシュ通知サービスのいずれかで **HTTP （レガシー）** API では、この変更による設定の直接の影響を受けます。 現在の設定を確認し、以下に説明するように、新しい API に移行する必要があります。
 
-* 設定で **HTTP v1** Android プッシュ通知用の API を使用する場合、既にコンプライアンス状態にあり、追加のアクションは必要ありません。
+* 設定で **HTTP v1** Android プッシュ通知用の API を使用する場合、既にコンプライアンス状態になっており、追加のアクションは必要ありません。
 
-## 移行方法{#fcm-migration-procedure}
+## 移行方法 {#fcm-migration-procedure}
 
-### 前提条件{#fcm-migration-prerequisites}
+### 前提条件 {#fcm-migration-prerequisites}
 
-* Campaign Classicv7 の場合、HTTP v1 のサポートは 20.3.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、HTTP v1 への移行の前提条件は、環境を [最新のCampaign Classicビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}. Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされます。 アップグレードは必要ありません。
+* Campaign Classicv7 の場合、HTTP v1 のサポートは 20.3.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、HTTP v1 への移行の前提条件は、環境を [最新のCampaign Classicビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}. Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされており、アップグレードは必要ありません。
 
-* 移行を実行するには、モバイルアプリケーションを HTTPv1 に移動させるために、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。 これを参照してください。 [ページ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* モバイルアプリケーションを HTTP v1 に移動させるには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。 このファイルをに取り込む方法を説明します。 [Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* ハイブリッド、ホストおよびManaged Servicesのデプロイメントの場合は、Adobeに連絡して、リアルタイム (RT) 実行サーバーを更新してください。
+* ハイブリッド、ホストおよびManaged Servicesのデプロイメントの場合、以下の移行手順に加えて、Adobeに連絡してリアルタイム (RT) 実行サーバーを更新してください。 ミッドソーシングサーバーは影響を受けません。
+
+* Campaign Classicv7 オンプレミスユーザーは、マーケティングサーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。 ミッドソーシングサーバーは影響を受けません。
 
 ### 移行手順 {#fcm-migration-steps}
 
-環境を HTTP v1 に移行するには、マーケティングサーバーとリアルタイム実行サーバーで次の手順に従います。
+環境を HTTP v1 に移行するには、次の手順に従います。
 
 1. 次のリストを参照： **サービスと購読**.
-1. を使用してすべてのモバイルアプリを見つける **HTTP （レガシー）** API バージョン。
+1. を使用しているすべてのモバイルアプリのリスト **HTTP （レガシー）** API バージョン。
 1. これらの各モバイルアプリケーションに対して、 **API バージョン** から **HTTP v1**.
 1. 次をクリック： **[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む…]** リンクを使用して、JSON キーファイルを直接読み込みます。
 
    次の詳細を手動で入力することもできます。
+
    * **[!UICONTROL プロジェクト ID]**
    * **[!UICONTROL 秘密鍵]**
    * **[!UICONTROL クライアントメール]**
