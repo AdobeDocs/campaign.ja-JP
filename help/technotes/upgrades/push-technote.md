@@ -4,90 +4,98 @@ title: プッシュ通知チャネルの今後の変更
 description: プッシュ通知チャネルの今後の変更
 hide: true
 hidefromtoc: true
-source-git-commit: 70d1e7336cce7660890b13def5efcb614c0dc12e
+source-git-commit: 4072421cd8f0f3ab3b15c4a475428a59503aa955
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 5%
+source-wordcount: '791'
+ht-degree: 21%
 
 ---
 
 # プッシュ通知チャネルの今後の変更 {#push-upgrade}
 
-Adobe Campaign Classicの実装に影響を与える可能性のある、Firebase Cloud Messaging(FCM) サービスに対する重要な変更があります。
+Campaign を使用して、Android デバイスでプッシュ通知を送信できます。 これをおこなうには、Campaign は特定の Android 外部アカウントおよび購読サービスに依存しています。 Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与える可能性があります。
 
-Googleのサービス向上のための継続的な取り組みの一環として、従来の FCM API は 2024 年 6 月に廃止されます ([Firebase Cloud Messaging HTTP プロトコル](https://firebase.google.com/docs/cloud-messaging/http-server-ref))
+## 変更点 {#fcm-changes}
 
-これらの API は、現在、プッシュ通知メッセージを送信するためにAdobe Campaign Classicと統合されています。 お客様を始めとする多くのお客様は、マーケティングキャンペーンやコミュニケーションのニーズ、特に Android デバイスに対して、これらのサービスを利用しています。
+Googleのサービス向上のための継続的な取り組みの一環として、従来の FCM API は、 **2024 年 6 月 21 日**. Firebase Cloud Messaging HTTP プロトコルについて詳しくは、 [Googleドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-## 影響の有無
+Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既にプッシュ通知メッセージを送信する最新の API をサポートしています。 ただし、古い実装の中には、依然としてレガシー API に依存するものもあります。 これらの実装は更新する必要があります。
 
-* **HTTP（レガシー）API ユーザー**：アクティブなプッシュ通知キャンペーンのいずれかで HTTP（レガシー）API を利用している場合、設定はこの変更による直接の影響を受けます。 現在の設定を確認し、新しい API への移行に備えることを強くお勧めします。
+## 影響の有無 {#fcm-impact}
 
-* **HTTP v1 API ユーザー向けの良いニュース**：設定で Android プッシュ通知用の HTTP v1 API のみを使用している場合は、既に準拠しているので、追加のアクションは必要ありません。
+現在の実装が、レガシー API を使用した FCM への接続をサポートしている場合は、影響が出ます。 サービスの分散を避けるには、最新の API への移行が必須です。 その場合、Adobeチームから連絡が来ます。
 
-## 何をしてる？
+影響を受けているかどうかを確認するには、 **サービスと購読** 以下のフィルターに従って：
 
-* **移行計画**：アドビのチームは、包括的な移行計画の策定に積極的に取り組んでいます。 これにより、必要に応じて、Adobe Campaignの最新バージョンで既に利用可能な新しい FCM API に実装を更新し、キャンペーンの中断を最小限に抑えることができます。
+![](assets/filter-services-fcm.png)
 
-* **詳細な手順**：スムーズな移行プロセスを実現するための詳細な手順ガイドやその他のリソースを提供します。
 
-* **サポート**：この移行を通じて、アドビのカスタマーサポートチームが支援を受けることができます。 また、ウェビナーやイネーブルメントセッションを開催して、移行に関する技術的側面やベストプラクティスを取り上げることもできます。
+* アクティブなプッシュ通知キャンペーンのいずれかで **HTTP （レガシー）** API では、この変更による設定の直接の影響を受けます。 現在の設定を確認し、以下に説明するように、新しい API に移行する必要があります。
 
-## 何を期待してる？
+* 設定で **HTTP v1** Android プッシュ通知用の API を使用する場合、既にコンプライアンス状態にあり、追加のアクションは必要ありません。
 
-* **常に情報を提供**：詳細な移行計画を含む、アドビからの詳細なコミュニケーションについて、インボックスに目を通してください。
+## 移行方法{#fcm-migration-procedure}
 
-* **現在の設定を確認**：ここで、Adobe Campaign Classicでの現在の設定とカスタマイズを確認し、必要に応じて必要な変更をおこなう準備をします。
+### 前提条件{#fcm-migration-prerequisites}
 
-* **お問い合わせ**：すぐに関心や質問がある場合は、アドビのサポートチームに気軽にお問い合わせください。
+* Campaign Classicv7 の場合、HTTP v1 のサポートは 20.3.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、HTTP v1 への移行の前提条件は、環境を [最新のCampaign Classicビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}. Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされます。 アップグレードは必要ありません。
 
-## 実装手順
+* 移行を実行するには、モバイルアプリケーションを HTTPv1 に移動させるために、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。 これを参照してください。 [ページ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-今後数週間の間に、タイムラインや行動項目を含む、従来の FCM API の移行計画に関する詳細を共有する予定です。 アドビの主な目標は、お客様とお客様のチームに対し、できる限りシームレスにこの移行を行うことです。
+* ハイブリッド、ホストおよびManaged Servicesのデプロイメントの場合は、Adobeに連絡して、リアルタイム (RT) 実行サーバーを更新してください。
 
-お客様のご活躍に感謝しております。また、お客様のご理解に感謝いたします。 お客様の成功が最優先事項であり、お客様のサポートに全力で取り組んでいます。
+### 移行手順 {#fcm-migration-steps}
 
-そのため、変更を予測できます。以下は、プッシュ設定を HTTP（レガシー）から FCM HTTPv1 API に移行するために必要な一般的な手順です。
+環境を HTTP v1 に移行するには、マーケティングサーバーとリアルタイム実行サーバーで次の手順に従います。
 
-### ビルドのアップグレード
+1. 次のリストを参照： **サービスと購読**.
 
-* Campaign Classic: 20.3.1 リリースで HTTPv1 のサポートが追加されました。 以前のバージョンを使用している場合は、最初に最新のバージョンビルドにアップグレードする必要がありますCampaign Classic。
+1. を使用してすべてのモバイルアプリを見つける **HTTP （レガシー）** API バージョン。
 
-* Campaign v8: HTTPv1 は、すべての Campaign v8 リリースでサポートされています。 アップグレードは不要です。
+1. これらの各モバイルアプリケーションに対して、 **API バージョン** から **HTTP v1**.
 
-### マーケティングサーバー
+1. 次をクリック： **[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む…]** リンクを使用して、JSON キーファイルを直接読み込みます。
 
-設定の変更は、お客様またはパートナーが実行できます。
+   次の詳細を手動で入力することもできます。
+   * **[!UICONTROL プロジェクト ID]**
+   * **[!UICONTROL 秘密鍵]**
+   * **[!UICONTROL クライアントメール]**
 
-1. まず、JSON ファイルを抽出する必要があります。 モバイルアプリケーションを HTTPv1 に移動させるには、Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。 この[ページ](https://firebase.google.com/docs/admin/setup#initialize-sdk)を参照してください。
+   ![](assets/android-http-v1-config.png)
 
-1. 次のリストに移動します。 **サービスと購読**.
+1. 「**[!UICONTROL 接続をテスト]**」をクリックして、設定が正しいこと、およびマーケティングサーバーが FCM にアクセスできることを確認します。ミッドソーシングデプロイメントの場合、 **[!UICONTROL 接続をテスト]** ボタンは、サーバーが Android Firebase Cloud Messaging(FCM) サービスにアクセスできるかどうかを確認できません。
 
-1. HTTP（レガシー）API バージョンを使用して、すべてのモバイルアプリを見つけます。
+1. オプションとして、必要に応じ、**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 
-1. これらの各モバイルアプリケーションに対して、 **API バージョン** を HTTPv1 に設定し、 [ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=ja).
+1. 「**[!UICONTROL 終了]**」、「**[!UICONTROL 保存]**」の順にクリックします。
+
+以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。
+
+| メッセージタイプ | 設定可能なメッセージ要素（FCM ペイロード名） | 設定可能なオプション（FCM ペイロード名） |
+|:-:|:-:|:-:|
+| データメッセージ | 該当なし | validate_only |
+| 通知メッセージ | title、body、android_channel_id、icon、sound、tag、color、click_action、image、ticker、sticky、visibility、notification_priority、notification_count <br> | validate_only |
+
 
 >[!NOTE]
 >
->新しい配信では、HTTPv1 API への切り替えが考慮されます。 再試行中、処理中、使用中の配信では、HTTP（レガシー）API が引き続き使用されます。
+>HTTP v1 API への切り替えは、すべての新しい配信に適用されます。 再試行中、処理中、使用中の配信では、HTTP（レガシー）API を引き続き使用します。
 
-### ミッドソーシングサーバー
-
-必要な変更はありません。
-
-### リアルタイム実行サーバー
-
-これをおこなうには、Adobe Campaignサポートに問い合わせる必要があります。 移行手順は、マーケティングサーバーの場合と同じです。
-
-### Android OS および Android モバイルアプリケーション
+### Android アプリに対する影響は何ですか？ {#fcm-apps}
 
 Android モバイルアプリケーションのコードに特別な変更は必要なく、通知動作は変更しないでください。
 
-しかし、HTTPv1 では、次の 3 つの新しいペイロード要素が導入されています。
+ただし、HTTP v1 では、を使用してプッシュ通知をさらにパーソナライズできます。 **[!UICONTROL HTTPV1 その他のオプション]**.
 
-| 名前 | デフォルト値 |
-|---|---|
-| sticky | False |
-| 優先度 | デフォルト |
-| 表示 | False |
-| sticky | プライベート |
+![](assets/android-push-additional-options.png)
+
+
+* 以下を使用します。 **[!UICONTROL ティッカー]** フィールドを使用して、通知のティッカーテキストを設定します。
+* 以下を使用します。 **[!UICONTROL 画像]** フィールドを使用して、通知に表示する画像の URL を設定します。
+* 以下を使用します。 **[!UICONTROL 通知数]** フィールド：アプリケーションアイコンに直接表示する新しい未読情報の数を設定します。
+* を設定します。 **[!UICONTROL 固定]** オプションを false に設定した場合、ユーザーがクリックすると通知が自動的に閉じられます。 true に設定した場合、ユーザーがクリックしても通知は表示されます。
+* を設定します。 **[!UICONTROL 通知優先度]** 通知のレベルをデフォルト、最小、低、高のいずれかに設定します。
+* を設定します。 **[!UICONTROL 表示]** パブリック、プライベート、秘密のいずれに対する通知レベル。
+
+詳しくは、 **[!UICONTROL HTTP v1 その他のオプション]** これらのフィールドに入力する方法については、 [FCM ドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+
