@@ -4,7 +4,7 @@ title: プッシュ通知チャネルの今後の変更
 description: プッシュ通知チャネルの今後の変更
 hide: true
 hidefromtoc: true
-source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
+source-git-commit: fc274e1266d37611c8781a007ccb6a293a683c21
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 20%
@@ -49,11 +49,8 @@ Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既にプッシュ通
 環境を HTTP v1 に移行するには、マーケティングサーバーとリアルタイム実行サーバーで次の手順に従います。
 
 1. 次のリストを参照： **サービスと購読**.
-
 1. を使用してすべてのモバイルアプリを見つける **HTTP （レガシー）** API バージョン。
-
 1. これらの各モバイルアプリケーションに対して、 **API バージョン** から **HTTP v1**.
-
 1. 次をクリック： **[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む…]** リンクを使用して、JSON キーファイルを直接読み込みます。
 
    次の詳細を手動で入力することもできます。
@@ -64,9 +61,7 @@ Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既にプッシュ通
    ![](assets/android-http-v1-config.png)
 
 1. 「**[!UICONTROL 接続をテスト]**」をクリックして、設定が正しいこと、およびマーケティングサーバーが FCM にアクセスできることを確認します。ミッドソーシングデプロイメントの場合、 **[!UICONTROL 接続をテスト]** ボタンは、サーバーが Android Firebase Cloud Messaging(FCM) サービスにアクセスできるかどうかを確認できません。
-
 1. オプションとして、必要に応じ、**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
-
 1. 「**[!UICONTROL 終了]**」、「**[!UICONTROL 保存]**」の順にクリックします。
 
 以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。 これらのオプションの詳細を説明します [ここ](#fcm-apps).
