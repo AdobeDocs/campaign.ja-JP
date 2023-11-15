@@ -3,9 +3,9 @@ title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
+source-git-commit: 87d155cbc2a5c6f4cbeeadb6ae7ae8aa3166a321
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1584'
 ht-degree: 20%
 
 ---
@@ -19,32 +19,32 @@ ht-degree: 20%
 
 ## 影響の有無{#ims-impacts}
 
-Campaign の外部から Campaign のインスタンスまたはリアルタイム Message Center のインスタンスに API 呼び出しをおこなう Campaign のすべてのお客様は、以下に説明するように、Adobe Developerコンソールを通じてテクニカルオペレーターを移行する必要があります。
+Campaign の外部にあるシステムから Campaign マーケティングインスタンスまたはリアルタイム Message Center インスタンスに API 呼び出しをおこなう場合は、以下に説明するように、技術オペレーターをAdobe Developerコンソールからテクニカルアカウントに移行する必要があります。
 
 この変更は、Campaign v8.5 以降に適用されます。
 
 
 ## 移行プロセス {#ims-migration-procedure}
 
-次の手順に従うと、Adobe Developerコンソール内でテクニカルアカウントを作成し、新しく作成したアカウントを使用して、Adobe Campaignで API 呼び出しをおこなうすべての外部システムの認証方法を変更できます。
+Adobe Developerコンソール内でテクニカルアカウントを作成し、新しく作成したアカウントを使用して、Adobe Campaignで API 呼び出しをおこなうすべての外部システムの認証方法を変更できるようにするには、以下の手順に従います。
 
 手順の概要を次に示します。
 
 * Adobe Developer Console 内でのプロジェクトの作成
 * 新しく作成されたプロジェクトへの適切な API の割り当て
 * プロジェクトへの必要な Campaign 製品プロファイルの付与
-* 新しく作成したテクニカルアカウント資格情報を使用するように顧客側 API を更新する
-* Campaign インスタンスから従来のテクニカルオペレーターを削除します。
+* 新しく作成したテクニカルアカウント資格情報を使用するように API を更新する
+* Campaign インスタンスから従来のテクニカルオペレーターを削除する
 
 ### 移行の前提条件{#ims-migration-prerequisites}
 
-テクニカルオペレーターの代わりに使用するテクニカルアカウントを作成できるようにするには、Admin Console内にすべての Campaign インスタンスの適切な Campaign 製品プロファイルが存在することを検証する必要があります。 製品プロファイルについて詳しくは、製品コンソールのAdobeを参照してください。 [Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
+テクニカルオペレーターに代わるテクニカルアカウントを作成するには、すべての Campaign インスタンスのAdmin Console内に適切な Campaign 製品プロファイルが存在することの前提条件を検証する必要があります。 製品プロファイルについて詳しくは、製品コンソールのAdobeを参照してください。 [Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-Message Center インスタンスへの API 呼び出しの場合、Campaign v8.5 へのアップグレード時またはインスタンスのプロビジョニング時に、製品プロファイルが作成されている必要があります。 この製品プロファイルの名前は次のようになります。
+Message Center インスタンスへの API 呼び出しの場合、Campaign v8.5 へのアップグレード中またはインスタンスのプロビジョニング中に、製品プロファイルが作成されている必要があります。 この製品プロファイルの名前は次のとおりです。
 
 `campaign - <your campaign instance> - messagecenter`
 
-既に Campaign へのユーザーアクセスに IMS ベースの認証を使用している場合、API 呼び出しに必要な製品プロファイルがAdmin Console内に存在している必要があります。 マーケティングインスタンスへの API 呼び出しに Campaign 内でカスタムオペレーターグループを使用する場合は、Admin Console内にその製品プロファイルを作成します。
+既に Campaign へのユーザーアクセスに IMS ベースの認証を使用している場合、API 呼び出しに必要な製品プロファイルがAdmin Console内に存在している必要があります。 マーケティングインスタンスへの API 呼び出しに Campaign 内でカスタムオペレーターグループを使用する場合は、Admin Console内でその製品プロファイルを作成する必要があります。
 
 その他の場合は、Adobeの技術チームが既存のオペレーターグループとネームド権限をAdmin Console内の製品プロファイルに移行できるように、Adobe移行マネージャーに問い合わせる必要があります。
 
@@ -67,7 +67,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 以下を使用すると、 **プロジェクトを編集** ボタンをクリックして、このプロジェクトの名前を変更します。
 
 
-### 手順 2 — プロジェクトに API を追加する{#ims-migration-step-2}
+### 手順 2 — プロジェクトに API を追加する {#ims-migration-step-2}
 
 新しく作成したプロジェクト画面から、API で、このプロジェクトをAdobe Campaignへの API 呼び出しのテクニカルアカウントとして使用できるように、を追加します。
 
@@ -111,7 +111,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 1. Assign all the relevant Product Profiles to the API, for example 'messagecenter', and save your changes.
 1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.-->
 
-### 手順 5 - I/O Management API をプロジェクトに追加する {#ims-migration-step-5}
+### 手順 5 - I/O 管理 API をプロジェクトに追加する {#ims-migration-step-5}
 
 
 プロジェクト画面で、 **[!UICONTROL +プロジェクトに追加]** を選択します。 **[!UICONTROL API]** （画面の左上）をクリックして、I/O Management API をこのプロジェクトに追加できます。
@@ -131,7 +131,7 @@ Adobe Analytics の **API の設定** 画面に、OAuth サーバー間認証が
 これにより、新しく作成したプロジェクトの I/O 管理 API 内のプロジェクト画面に戻ります。 画面上部のパンくずリストでプロジェクト名をクリックすると、メインのプロジェクトの詳細ページに戻ります。
 
 
-### 手順 6 — プロジェクト設定を確認する{#ims-migration-step-6}
+### 手順 6 — プロジェクト設定を確認する {#ims-migration-step-6}
 
 プロジェクトをレビューし、で以下のように表示されることを確認します。 **I/O 管理 API** および **Adobe Campaign API** 「製品とサービス」セクションに表示され、 **OAuth サーバー間通信** 」をクリックします。
 
@@ -203,16 +203,13 @@ Adobe Analytics の **API の設定** 画面に、OAuth サーバー間認証が
 
 
 
-
-
-
-### 手順 9 — （オプション）Campaign クライアントコンソール内でテクニカルアカウントオペレーターを更新する {#ims-migration-step-9}
+### 手順 9 - （オプション）Campaign クライアントコンソール内でテクニカルアカウントオペレーターを更新する {#ims-migration-step-9}
 
 この手順はオプションで、Message Center インスタンス内ではなく、マーケティングインスタンス内でのみ使用できます。 割り当てられたオペレーターグループを介さずに、テクニカルオペレーターに対して特定のフォルダー権限またはネームド権限が定義されている場合。 次に、Admin Consoleで新しく作成したテクニカルアカウントユーザーを更新して、必要なフォルダー権限またはネームド権限を付与する必要があります。
 
 Campaign インスタンスに対して 1 つ以上の API 呼び出しがおこなわれるまで、テクニカルアカウントユーザーはAdobe Campaignに存在しません。その際、IMS は Campaign 内にユーザーを作成します。 Campaign 内で技術ユーザーが見つからない場合は、概要を説明する API 呼び出しを正常に送信できることを確認してください [手順 7 で](#ims-migration-step-7).
 
-1. 新しいテクニカルアカウントユーザーに必要な変更を適用するには、Campaign クライアントコンソール内で、E メールアドレスでそのユーザーを特定します。 この電子メールアドレスは、上記のプロジェクトの作成および認証手順で作成されました。
+1. 新しいテクニカルアカウントユーザーに必要な変更を適用するには、Campaign クライアントコンソール内で、E メールアドレスでそのユーザーを探します。 この電子メールアドレスは、上記のプロジェクトの作成および認証手順で作成されました。
 
    この電子メールアドレスは、 **OAuth サーバー間通信** 見出し **資格情報** を参照してください。
 
@@ -239,7 +236,7 @@ Campaign インスタンスに対して 1 つ以上の API 呼び出しがおこ
 >新しいテクニカルオペレーターは、Campaign クライアントコンソールに追加される API 呼び出しを 1 回以上実行する必要があります。
 >
 
-### 手順 10 - Adobe Campaignから古い技術オペレーターを削除する {#ims-migration-step-10}
+### 手順 10 — 古い技術オペレーターをAdobe Campaignから削除する {#ims-migration-step-10}
 
 すべてのサードパーティシステムを移行して、新しいテクニカルアカウントと IMS 認証を使用したら、Campaign クライアントコンソールから古いテクニカルオペレーターを削除できます。
 
