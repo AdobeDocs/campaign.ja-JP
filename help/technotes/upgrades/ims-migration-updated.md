@@ -3,7 +3,7 @@ title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 4863679106dec92d6b63f63cec0911738853dc04
+source-git-commit: 6655a62e18ea14e8ae126dfec88a17dd04c7b488
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 20%
@@ -66,9 +66,10 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 以下を使用すると、 **プロジェクトを編集** ボタンをクリックして、このプロジェクトの名前を変更します。
 
-新しく作成したプロジェクト画面から、API で、このプロジェクトをAdobe Campaignへの API 呼び出しのテクニカルアカウントとして使用できるように、を追加します。
 
 ### 手順 2 — プロジェクトに API を追加する{#ims-migration-step-2}
+
+新しく作成したプロジェクト画面から、API で、このプロジェクトをAdobe Campaignへの API 呼び出しのテクニカルアカウントとして使用できるように、を追加します。
 
 プロジェクトに API を追加するには、次の手順に従います。
 
