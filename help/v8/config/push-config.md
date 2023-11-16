@@ -1,5 +1,5 @@
 ---
-title: Campaign SDKとアプリの統合
+title: Campaign SDK とアプリの統合
 description: Campaign AndroidおよびiOS SDKをアプリケーションに統合する方法について学ぶ
 version: v8
 feature: Push
