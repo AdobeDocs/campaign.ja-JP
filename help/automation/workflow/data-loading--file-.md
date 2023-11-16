@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: データ読み込み（ファイル）
+title: データ読み込み (ファイル)
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
 source-git-commit: d946d4a50a4fc13e848b22ee87b02a10b7dfd2ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->必要な数の列を追加できます。 各列の値の最大長は、選択したデータタイプによって決まります。
+>列を必要な数だけ追加できます。各列の値の最大長は、選択したデータタイプによって決まります。
 
 * **[!UICONTROL 列を無視]**：ファイルの読み込み時の処理で、この列をスキップします。
 * **[!UICONTROL データタイプ]**：各列に適用されるデータタイプを指定します。
