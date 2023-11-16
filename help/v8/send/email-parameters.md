@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
 ht-degree: 100%
 
@@ -41,10 +41,10 @@ BCC メールアドレスを定義したら、配信レベルで専用オプシ�
 >
 >**[!UICONTROL BCC でメールを送信]**&#x200B;は、デフォルトでは有効になっていません。メール配信または配信テンプレートで手動で有効にする必要があります。
 
-これを行うには、次の手順に従います。
+これをおこなうには、以下の手順に従います。
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;または&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;に移動します。
-1. **[!UICONTROL 目的の配信を選択します。または、標準のメール配信]**&#x200B;テンプレートを複製して、複製されたテンプレートを選択します。
+1. 目的の配信を選択します。または、標準の&#x200B;**[!UICONTROL メール配信]**&#x200B;テンプレートを複製して、複製されたテンプレートを選択します。
 1. 「**[!UICONTROL プロパティ]**」ボタンをクリックします。
 1. 「**[!UICONTROL 配信]**」タブを選択します。
 1. 「**[!UICONTROL BCC でメールを送信]**」オプションを選択します。
