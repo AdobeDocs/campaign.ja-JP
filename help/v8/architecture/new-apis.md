@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 特定の FFDA Campaign API{#gs-new-api}
 
-[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの特定の API が付属しています。これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。[詳細](staging.md)
+[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの特定の API が付属しています。これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。[詳細情報](staging.md)
 
 * 取得 API：**xtk.session.ingest**
 
