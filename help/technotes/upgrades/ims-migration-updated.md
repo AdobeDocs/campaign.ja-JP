@@ -3,7 +3,7 @@ title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 87d155cbc2a5c6f4cbeeadb6ae7ae8aa3166a321
+source-git-commit: d52744e1d798447bb6b90909607e42082f7eeaf5
 workflow-type: tm+mt
 source-wordcount: '1584'
 ht-degree: 20%
@@ -118,7 +118,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ![](assets/do-not-localize/ims-updates-04.png)
 
-Adobe Analytics の **API を追加** 画面、下にスクロールして **I/O 管理 API** カード。 カードの上にマウスポインターを置くと表示されるチェックボックスをクリックして選択します。 次に、「 **次へ** 画面の下部に表示されます。
+Adobe Analytics の **API を追加** 画面、下にスクロールして **I/O 管理 API** カード。 カードの上にマウスポインターを置いたときに表示されるチェックボックスをクリックして選択します。 次に、「 **次へ** 画面の下部に表示されます。
 
 ![](assets/do-not-localize/ims-updates-05.png)
 
