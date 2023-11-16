@@ -240,7 +240,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 >[!NOTE]
 >
->「**[!UICONTROL エイリアス]**」サブタブの&#x200B;**[!UICONTROL ヒット]**&#x200B;列でエイリアスの発生を追跡できます。この値が入力された回数を表示できます。[詳細情報](#calculate-entry-occurrences)
+>「**[!UICONTROL エイリアス]**」サブタブの&#x200B;**[!UICONTROL ヒット]**&#x200B;列でエイリアスの発生を追跡できます。この値が入力された回数を表示できます。[詳細情報](#calculate-entry-occurrences)。
 
 #### データクレンジングの実行 {#running-data-cleansing}
 
