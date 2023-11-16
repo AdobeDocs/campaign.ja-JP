@@ -37,7 +37,7 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 
 以前の [!DNL Campaign Classic] ユーザーの場合、[!DNL Campaign Classic] v7 のほとんどの機能は [!DNL Campaign] v8 で利用できます。ただし、[この節](#gs-removed)に記載されている機能を除きます。
 
-Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基づいています。Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。[詳細情報](../architecture/architecture.md)
+Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基づいています。Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。[詳細情報](../architecture/architecture.md)。
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Campaign ユーザーは、Adobe ID でのみ接続します。同じ Adobe ID �
 
 マーケティング分析モジュールを使用して、データの分析と測定、統計の計算、レポートの作成と計算の簡素化および最適化を行います。さらに、レポートを作成してターゲット母集団を作成します。特定されると、Adobe Campaign で使用できるリスト（ターゲティング、セグメント化など）に保存されます。
 
-Adobe Campaign キューブレポートは最適化されており、Campaign Classic v7 よりも優れた拡張可能性を提供します。この特定のデプロイメントモデルでは、キューブに対する以前の制限は Campaign v8 には適用されません。キューブについて詳しくは、[この節](../../v8/reporting/gs-cubes.md)を参照してください。
+Adobe Campaign キューブレポートは最適化されており、Campaign Classic v8 よりも優れた拡張可能性を提供します。 この特定のデプロイメントモデルでは、キューブに対する以前の制限は Campaign v8 には適用されません。キューブについて詳しくは、[この節](../../v8/reporting/gs-cubes.md)を参照してください。
 
 ## 使用できない機能{#gs-unavailable-features}
 
