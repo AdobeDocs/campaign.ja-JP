@@ -18,7 +18,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **Campaign を最新バージョンにアップグレードするにはどうすればよいですか？**
 
-   Adobe Campaign は定期的に更新されています。マイナーバージョンは、新機能、改善および修正が加えられ、毎年リリースされています。 さらに、累積的な修正のみを含むビルドを定期的にリリースしています。
+   Adobe Campaign は定期的にアップデートされています。マイナーバージョンは、新機能、改善および修正が加えられ、毎年リリースされています。 さらに、累積的な修正のみを含むビルドを定期的にリリースしています。
 
    この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。 だからこそ、最新バージョンの Adobe Campaign を実行することが重要であると考えているのです。
 
@@ -36,7 +36,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **メール配信の品質を向上させるにはどうすればよいですか？**
 
-   メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要な要素であり、条件とルールが常に変化し続けるという特徴があります。デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
+   メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要なコンポーネントであり、条件とルールが常に変化し続けるという特徴があります。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
    ![](../assets/do-not-localize/book.png)詳しくは、[配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)のガイドを参照してください{target="_blank"}
 
@@ -70,7 +70,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    インストールプログラムとクライアントコンソールは、アドビのダウンロードセンターから入手できます。
 
-   管理者ユーザーの場合は、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?lang=ja){target="_blank"}にアクセスして、Adobe Campaign をダウンロードします。
+   管理者ユーザーの場合は、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html){target="_blank"}にアクセスして、Adobe Campaign をダウンロードします。
 
    Distribution Center については、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target="_blank"}を参照してください。
 
