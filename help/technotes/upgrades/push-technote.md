@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 65b8d84e600e1814484fa81fb814475c0a8b9296
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 18%
+ht-degree: 23%
 
 ---
 
@@ -86,7 +86,7 @@ Adobe Campaign Classic v7 およびAdobe Campaign v8 は、既に最新の API �
 
 ### Android アプリに対する影響は何ですか？ {#fcm-apps}
 
-Android モバイルアプリケーションのコードに特別な変更は必要なく、通知動作は変更しないでください。
+Android モバイルアプリケーションのコードに特別な変更は必要ありません。通知動作は変更しないでください。
 
 ただし、HTTP v1 では、を使用してプッシュ通知をさらにパーソナライズできます。 **[!UICONTROL HTTPV1 その他のオプション]**.
 
