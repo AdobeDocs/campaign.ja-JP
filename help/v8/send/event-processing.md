@@ -6,7 +6,7 @@ role: User
 level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 情報システムが生成したイベントは、次の 2 つのモードを使用して収集できます。
 
-* SOAP メソッドの呼び出しでは、Adobe Campaign 内でイベントをプッシュできます。PushEvent メソッドを使用するとイベントを 1 つずつ送信し、PushEvents メソッドを使用すると複数のイベントを一度に送信します。[詳細情報](event-description.md)
+* SOAP メソッドの呼び出しでは、Adobe Campaign 内でイベントをプッシュできます。PushEvent メソッドを使用するとイベントを 1 つずつ送信し、PushEvents メソッドを使用すると複数のイベントを一度に送信します。[詳細情報](event-description.md)。
 
 * ワークフローの作成では、ファイルのインポートまたは SQL ゲートウェイ経由で [Federated Data Access](../connect/fda.md) モジュールを使用してイベントを回復することができます。
 
