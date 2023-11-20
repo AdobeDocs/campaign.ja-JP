@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: '1231'
+ht-degree: 91%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >メッセージに含まれる画像は、公的にアクセス可能でなければなりません。Adobe Campaign には、トランザクションメッセージ用の画像アップロードのメカニズムがありません。\
->JSSP や Web アプリとは異なり、`<%=` にはデフォルトのエスケープ機能がありません。
+>JSSP や Web アプリとは異なり、 `<%=` には、デフォルトのエスケープ機能はありません。
 >
 >イベントから取得する各データを適切にエスケープする必要があります。このエスケープ方法は、このフィールドの使用方法によって異なります。例えば、URL 内では、encodeURIComponent を使用します。HTML に表示する場合は、escapeXMLString を使用できます。
 
@@ -158,6 +158,18 @@ This information enables you to personalize message content using personalizatio
 配達確認は、各テンプレートの「**[!UICONTROL 監査]**」タブからアクセスできます。
 
 ![](assets/messagecenter_send_proof_003.png)
+
+#### 遷移元 [!DNL Campaign Classic] v7
+
+次の場合、 [Campaign Classicv7 からの移行](../start/v7-to-v8.md)に設定されていない場合、すべての配信はミッドソーシングサーバーを経由します。
+
+ただし、トランザクションメッセージテンプレートを作成する場合、テンプレートを正しく使用するために必要なルーティングは次のようになります **内部 E メール配信**. このルーティングでは、配達確認を送信できません。
+
+その結果、トランザクションメッセージテンプレート用の配達確認を送信するには、内部 E メール配信から **ミッドソーシングルーティングアカウント**.
+
+![](assets/messagecenter_send_proof_004.png)
+
+配達確認が送信されたら、トランザクションメッセージテンプレートを公開する前に、ルーティングを内部 E メール配信に戻す必要があります。
 
 ## テンプレートの公開 {#publish-message-template}
 
