@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
-workflow-type: ht
-source-wordcount: '682'
-ht-degree: 100%
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,9 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 
 以前の [!DNL Campaign Classic] ユーザーの場合、[!DNL Campaign Classic] v7 のほとんどの機能は [!DNL Campaign] v8 で利用できます。ただし、[この節](#gs-removed)に記載されている機能を除きます。
 
-Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基づいています。Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。[詳細情報](../architecture/architecture.md)。
+Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基づいています。Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。
+
+![](../assets/do-not-localize/glass.png) v7 からへの移行時にトランザクションメッセージ配達確認を送信する方法の詳細を説明します [このページ](../send/transactional-template.md#transition-from-v7).
 
 >[!NOTE]
 >

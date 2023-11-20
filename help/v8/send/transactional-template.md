@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 91%
@@ -130,7 +130,7 @@ This information enables you to personalize message content using personalizatio
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### 配達確認の送信
+### 配達確認の送信 {#send-proof}
 
 作成済みのシードアドレスへ配達確認を送信することで、メッセージ配信をテストできます。
 
@@ -159,7 +159,7 @@ This information enables you to personalize message content using personalizatio
 
 ![](assets/messagecenter_send_proof_003.png)
 
-#### 遷移元 [!DNL Campaign Classic] v7
+#### 遷移元 [!DNL Campaign Classic] v7 {#transition-from-v7}
 
 次の場合、 [Campaign Classicv7 からの移行](../start/v7-to-v8.md)に設定されていない場合、すべての配信はミッドソーシングサーバーを経由します。
 
