@@ -6,7 +6,7 @@ feature: Workflows, Approvals
 role: User
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 * クライアントコンソールからの承認
 
-  ツリー構造の、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認待ち]**&#x200B;ノードに、現在接続中のオペレーターから承認されたタスクのリストが含まれています。このリストは、1 行で表示されます。応答するには、この行をダブルクリックします。次のウィンドウが表示されます。
+  ツリー構造の、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認保留]**&#x200B;ノードに、現在接続中のオペレーターから承認されたタスクのリストが含まれています。このリストは、1 行で表示されます。応答するには、この行をダブルクリックします。次のウィンドウが表示されます。
 
 ![](assets/new-workflow-7.png)
 

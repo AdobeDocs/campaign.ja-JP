@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 role: User
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 100%
 

@@ -9,8 +9,9 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 hide: true
 hidefromtoc: true
-source-git-commit: 65b8d84e600e1814484fa81fb814475c0a8b9296
-workflow-type: ht
+exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
+source-git-commit: 935426cea75e1f8bca757863290b6f9d4c7dce18
+workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
 
@@ -102,4 +103,3 @@ Android モバイルアプリケーションのコードに特別な変更は必
 * 通知の&#x200B;**[!UICONTROL 表示]**&#x200B;レベルをパブリック、プライベート、秘密のいずれかに設定します。
 
 **[!UICONTROL HTTP v1 その他のオプション]**&#x200B;とこれらのフィールドを設定する方法について詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages?hl=ja#androidnotification){target="_blank"}を参照してください。
-

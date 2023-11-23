@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 配信テンプレートの操作
+title: 配信テンプレートを操作
 description: Campaign で配信テンプレートを作成および使用する方法を学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User

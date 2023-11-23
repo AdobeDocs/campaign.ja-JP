@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity
 role: User
 exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 

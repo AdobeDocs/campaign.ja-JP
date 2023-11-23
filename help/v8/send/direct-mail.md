@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -38,13 +38,13 @@ ht-degree: 100%
 
    抽出ウィザードを使用して、出力ファイルに書き出す情報（列）を定義します。
 
-   ![](../assets/do-not-localize/book.png)詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html?lang=ja)を参照してください。{target="_blank"}
+   ![](../assets/do-not-localize/book.png)詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html?lang=ja)を参照してください。{target="_blank"} を参照してください。
 
 1. 配信の検証
 
    分析の結果と、出力ファイルのコンテンツをチェックします。
 
-   ![](../assets/do-not-localize/book.png)詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html?lang=ja)を参照してください。{target="_blank"}
+   ![](../assets/do-not-localize/book.png)詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html?lang=ja)を参照してください。{target="_blank"} を参照してください。
 
    マーケティングキャンペーンのコンテキストでは、抽出日に抽出ファイルが作成されます。 抽出したファイルのコンテンツを表示したり、ファイルを承認したり、形式を変更したり、必要に応じて抽出を再度開始したりできます。ファイルが承認されたら、通知メールを発送担当に送信できます。詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja)を参照してください。
 

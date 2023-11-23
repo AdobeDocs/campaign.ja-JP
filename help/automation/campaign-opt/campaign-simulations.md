@@ -61,7 +61,7 @@ ht-degree: 100%
 
    ![](assets/simu_campaign_opti_edit_scope_update.png)
 
-1. シミュレーションのスコープに含める項目を選択します。複数の項目を選択する場合は、Shift キーや Ctrl キーを使用できます。
+1. シミュレーションのスコープに含める要素を選択します。複数の要素を選択する場合は、Shift キーや Ctrl キーを使用できます。
 
    ![](assets/simu_campaign_opti_edit_scope_select.png)
 

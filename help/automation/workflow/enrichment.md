@@ -6,7 +6,7 @@ feature: Workflows, Enrichment Activity, Targeting Activity
 role: User
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
 

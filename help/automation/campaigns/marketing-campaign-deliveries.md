@@ -6,7 +6,7 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### メールまたはモバイル配信の開始 {#start-an-online-delivery}
 
-すべての承認リクエストが許可されたら、配信ステータスが&#x200B;**[!UICONTROL 確認待ち]**&#x200B;に変わり、配信を開始できるようになります。配信を開始できるレビュー担当者には、配信を開始する準備が整ったことが通知されます。
+すべての承認リクエストが許可されたら、配信ステータスが&#x200B;**[!UICONTROL 確認保留]**&#x200B;に変わり、配信を開始できるようになります。配信を開始できるレビュー担当者には、配信を開始する準備が整ったことが通知されます。
 
 ![](assets/confirm-delivery.png)
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 ### ダイレクトメール配信の開始 {#start-an-offline-delivery}
 
-すべての承認が許可されたら、配信ステータスが&#x200B;**[!UICONTROL 抽出待ち]**&#x200B;に変わります。抽出ファイルは専用の[テクニカルワークフロー](../workflow/technical-workflows.md)で作成されます。このワークフローは、デフォルト設定では、ダイレクトメール配信が抽出待ちの場合に自動的に開始されます。プロセスが進行中の場合、ダッシュボードに表示され、リンクから編集できます。
+すべての承認が許可されたら、配信ステータスが&#x200B;**[!UICONTROL 抽出保留]**&#x200B;に変わります。抽出ファイルは専用の[テクニカルワークフロー](../workflow/technical-workflows.md)で作成されます。このワークフローは、デフォルト設定では、ダイレクトメール配信が抽出保留の場合に自動的に開始されます。プロセスが進行中の場合、ダッシュボードに表示され、リンクから編集できます。
 
 抽出ワークフローが正常に実行されたら、抽出ファイルを承認する必要があります（配信設定で抽出ファイルの承認が選択されている場合）。[詳細情報](marketing-campaign-approval.md#approving-an-extraction-file)。
 

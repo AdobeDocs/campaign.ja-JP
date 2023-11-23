@@ -2,8 +2,8 @@
 product: campaign
 title: クライアントコンソール 32 ビットの非推奨（廃止予定）
 description: クライアントコンソール 32 ビットの非推奨（廃止予定）
-exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
+source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 サポート終了とは、アドビが製品または製品バージョン（ローカライズバージョン、マイナーアップグレード、オペレーティングシステム、ドットとダブルドットリリース、コネクタ製品）のあらゆる派生製品に対して、製品やセキュリティの更新などのテクニカルサポートを提供しなくなったことを意味します。
 
-## 推奨事項{#console-eol-recommendations}
+## レコメンデーション{#console-eol-recommendations}
 
 最新の機能とセキュリティの向上を活用するために、コンピューターを 64 ビット OS にアップグレードする必要があります。
 

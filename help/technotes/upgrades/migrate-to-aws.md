@@ -3,13 +3,13 @@ title: Campaign 送信インフラストラクチャの Amazon Web Services（AW
 description: Campaign 送信インフラストラクチャの Amazon Web Services（AWS）への移行
 hide: true
 hidefromtoc: true
-source-git-commit: 9401e3564b53b920dd6a640ca6d00531992a2f21
-workflow-type: ht
+exl-id: 50279a2f-0296-43f5-8967-16cc6a0c88f6
+source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
+workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
 
 ---
-
 
 # Campaign 送信インフラストラクチャの Amazon Web Services（AWS）への移行 {#migrate-infra-to-aws}
 

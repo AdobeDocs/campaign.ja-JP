@@ -6,7 +6,7 @@ feature: Workflows, Approvals
 role: User
 exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 アクティビティのタイトルまたはメッセージ本文を編集しても、現在のタスクに影響しませんが、一方で選択肢を変更した場合、現在のタスクに直接影響し、新しい選択肢のリストが自動的に継承されます。
 
-**承認**&#x200B;タイプのタスクは、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認待ち]**&#x200B;ノードからアクセス可能です。オペレーターは、このビューから直接承認フォームにアクセスできます。
+**承認**&#x200B;タイプのタスクは、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認保留]**&#x200B;ノードからアクセス可能です。オペレーターは、このビューから直接承認フォームにアクセスできます。
 
 ![](assets/s_advuser_validation_from_console.png)
 
