@@ -6,9 +6,9 @@ title: Adobe Campaign のテクニカルノート
 description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
 source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '67'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 + [Campaign のテクニカルノート](technotes-home.md)
 + アップグレード{#tn-new}
    + [ユーザーを IMS へ移行](upgrades/migrate-users-to-ims.md)
-   + [技術オペレーターの開発者コンソールへの移行](upgrades/ims-migration.md)
+   + [テクニカルオペレーターを Developer Console へ移行](upgrades/ims-migration.md)
    + [テクニカルオペレーターを Developer Console へ移行](upgrades/ims-migration-old.md)
    + [Campaign での AWS へのインフラストラクチャ移行の送信](upgrades/migrate-to-aws.md)
    + [Campaign メール送信インフラストラクチャのアップグレード](upgrades/upgrade-to-aws.md)
