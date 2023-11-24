@@ -1,18 +1,18 @@
 ---
 title: Campaign v8 の新機能
-description: Adobe Campaign v8 の主な機能、新機能、最新リリースから予測される機能について説明します。
-feature: Overview, Release Notes
+description: Adobe Campaign v8 の主な機能の確認
+feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5c4bbbd06eb7bf6dc9ada1d08c3fc696e88ee760
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Adobe Campaign v8 の新機能 {#ac-gs-what-is-new}
+# Adobe Campaign v8 の主な機能 {#ac-gs-what-is-new}
 
 Adobe Campaign v8 は、企業規模のクロスチャネルキャンペーン管理用にクラス最高のクラウドソリューションを必要とする、クロスチャネルマーケター向けに設計されています。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、拡張性の高いリアルタイムメッセージングサーバーと組み合わされているので、マーケティングチームは任意の IT システムの包括的なペイロードに基づいて、パスワードのリセット、注文の確認、電子領収書などの事前定義されたメッセージを送信できます。
 
