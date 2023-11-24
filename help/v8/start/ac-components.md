@@ -1,18 +1,18 @@
 ---
-title: Campaign のプロセスとコンポーネントについて
-description: Campaign のプロセスとコンポーネントについて
+title: Campaign のコンポーネントとプロセスについて
+description: Campaign のコンポーネントとプロセスについて
 feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Campaign のプロセスとコンポーネントについて {#components-and-processes}
+# Campaign のコンポーネントとプロセスについて {#components-and-processes}
 
 Adobe Campaign は、メール、モバイル、ソーシャル、オフラインのキャンペーンを自動化するクロスチャネルマーケティングソリューションです。Adobe Campaign では、顧客データとプロファイルに一箇所でアクセスできます。Adobe Campaign を使用して、顧客に対して一貫したエクスペリエンスを調整し、複数のチャネルをまたいでマーケティングを設計、実行およびパーソナライズし、各デバイスおよびタッチポイントでの顧客体験を向上させます。 Adobe Campaign では、ドラッグ＆ドロップのビジュアルワークフローインターフェイスを使用して、複数のデータソースの管理、オーディエンスセグメントの定義、複数手順のクロスチャネルキャンペーンの計画と実行が可能です。
 
