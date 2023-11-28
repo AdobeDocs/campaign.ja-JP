@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 主な利点：
 
-* カスタマーケアに連絡することなく、自分ですばやく設定に変更を加えることができます。
+* 「Adobe」に移動することなく、自分ですばやく設定を変更できます。
 * 様々なタイミングで様々なビジネスニーズに基づいて設定できます。
 * ニーズごとにアクセス設定を制御することでセキュリティを強化できます。
 

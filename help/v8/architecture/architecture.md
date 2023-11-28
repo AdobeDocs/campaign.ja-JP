@@ -5,10 +5,10 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
   >[!NOTE]
   >
-  >このデプロイメントモデルでは、 [!DNL Snowflake] セカンダリデータベースは、リクエストに応じてのみ使用できます。 デプロイメントをで更新するには、以下を実行します。 [!DNL Snowflake]担当のAdobeテクニカルアカウントマネージャーにお問い合わせください。
+  >このデプロイメントモデルでは、 [!DNL Snowflake] セカンダリデータベースは、リクエストに応じてのみ使用できます。 デプロイメントをで更新するには、以下を実行します。 [!DNL Snowflake]を使用する場合は、担当のAdobe移行マネージャーにお問い合わせください。
   >
 
 * **Campaign Enterprise（FFDA）デプロイメント**
@@ -70,7 +70,7 @@ Campaign v8 パッケージに応じて、配信の実行を担当する特定�
 
 >[!IMPORTANT]
 >
->「分割配信 - メール」アカウントの場合、分割ルーティングモードはデフォルトで有効になっています。 その他すべてのチャネルの外部アカウントについては、カスタマーケアに問い合わせて、オプションを有効にしてもらってください。
+>「分割配信 - メール」アカウントの場合、分割ルーティングモードはデフォルトで有効になっています。 その他すべてのチャネル外部アカウントについては、Adobe移行マネージャーに問い合わせて、オプションを有効にしてください。
 >
 >デフォルトでは、配信を複数のミッドに分割する際のしきい値のサイズは 100 K です。 この値は、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;メニューの「NmsDelivery_MultiMidSplitThreshold」オプションで変更することができます。
 

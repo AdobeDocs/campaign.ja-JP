@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 100%
+source-wordcount: '1188'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >
 >**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって設定されます。インストール済みのビルトインパッケージ、ビルトインのスキーマやレポートなどは変更できません。
 >
->Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビカスタマーケア**&#x200B;にお問い合わせください。
+>Campaign アドオンまたはプロビジョニングされていない特定の機能を使用する必要がある場合は、 **Adobe移行マネージャ**.
 
 ## 開始する前に{#before-starting}
 

@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 権限の定義 {#mc-permissions}
 
-Adobe Cloud でホストされる Message Center 実行インスタンスの新しいユーザーを作成するには、アドビカスタマーケアに連絡する必要があります。 Message Center ユーザーは、「リアルタイムイベント」（nmsRtEvent）フォルダーにアクセスするための専用の権限を必要とする特定のオペレーターです。
+Message Cloud でホストされる Message Center 実行インスタンスの新しいAdobeを作成するには、担当のAdobe移行マネージャーにお問い合わせください。 Message Center ユーザーは、「リアルタイムイベント」（nmsRtEvent）フォルダーにアクセスするための専用の権限を必要とする特定のオペレーターです。
 
 ## スキーマ拡張  {#mc-schema-ext}
 
