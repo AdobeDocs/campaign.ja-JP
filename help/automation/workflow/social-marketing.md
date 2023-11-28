@@ -3,10 +3,10 @@ product: campaign
 title: ソーシャルマーケティング
 description: ソーシャルマーケティングテクニカルワークフローの詳細を説明します
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 77%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">Twitter 統計の計算</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> リツイートと訪問にリンクされた統計を計算します。<br /> </td> 
+   <td> X でのリツイートと訪問にリンクされた統計を計算します ( 旧称：Twitter)。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Twitter アカウントとの同期</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> 毎日午前 7 時に Twitter のフォロワーを Adobe Campaign にインポートします。<br /> </td> 
+   <td> 毎日午前 7 時に X 人のフォロワーをAdobe Campaignにインポートします。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

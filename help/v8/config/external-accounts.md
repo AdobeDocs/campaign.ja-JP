@@ -5,10 +5,10 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1175'
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
   Adobe Campaign v8 と互換性のある外部データベースは、[互換性マトリックス](../start/compatibility-matrix.md)に記載されています。
 
-* **Twitter** - **Twitter** タイプの外部アカウントは、Campaign を Twitter アカウントに接続して、ユーザーに代わってメッセージを投稿するために使用します。Twitter 統合について詳しくは、[この節](../connect/ac-tw.md)を参照してください。
+* **X( 旧称：Twitter)** - **Twitter** 「外部アカウント」と入力すると、Campaign を X アカウントに接続して、代理でメッセージを投稿することができます。 X の統合について詳しくは、 [この節](../connect/ac-tw.md).
 
 ## Adobe ソリューション統合外部アカウント {#adobe-integration-external-accounts}
 

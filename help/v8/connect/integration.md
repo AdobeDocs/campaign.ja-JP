@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 87%
 
 ---
 
@@ -56,14 +56,14 @@ FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 �
 
 ## ソーシャルメディアの操作{#gs-social}
 
-Adobe Campaign を使用して、Twitter 経由で顧客や見込み客とやり取りします。
+Adobe Campaignを使用して、X( 旧称：Twitter) を介して顧客や見込み客とやり取りします。
 
 以下を行うことができます。
 
 * フォロワーへのダイレクトメッセージの送信
-* Twitter アカウントにツイートを投稿
+* X アカウントに投稿
 * 新しい連絡先の収集
 
-Twitter の設定と使用の方法については、[このページ](../connect/ac-tw.md)を参照してください。
+で X 統合を設定して使用する方法を説明します。 [このページ](../connect/ac-tw.md).
 
-Twitter の投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、[このページ](../send/twitter.md)を参照してください。
+X 件の投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、 [このページ](../send/twitter.md).

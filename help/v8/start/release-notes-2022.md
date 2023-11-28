@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 100%
+source-wordcount: '1853'
+ht-degree: 96%
 
 ---
 
@@ -51,20 +51,20 @@ _2022年9月30日（PT）_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Twitter チャネルの利用</strong><br /> </th> 
+<th> <strong>X( 旧称：Twitter) チャネルの可用性</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p><a href="../send/twitter.md">Twitter ソーシャルチャネル</a>を Campaign v8 で使用できるようになりました。以下を行うことができます。</p>
+<td> <p>The <a href="../send/twitter.md">X 個のソーシャルチャネル</a> は、Campaign v8 で使用できるようになりました。 以下を行うことができます。</p>
 <ul> 
-<li><p>Twitter でのメッセージの送信：Adobe Campaign を使用すると、Twitter アカウントに直接メッセージを投稿できます。フォロワー全員にダイレクトメッセージを送信することも可能です。
+<li><p>X( 旧称：Twitter) でのメッセージ送信：Adobe Campaignでは、X アカウントに直接メッセージを投稿できます。 フォロワー全員にダイレクトメッセージを送信することも可能です。
 </p></li>
 <li><p>新しい連絡先の収集：Adobe Campaign はプロファイルデータを自動的に回収できます。これにより、キャンペーンのターゲティングを実行し、クロスチャネル戦略を導入できます。
 </p></li>
 </ul>
-<p>Campaign と Twitter を連携させる方法については、<a href="../connect/ac-tw.md">詳細なドキュメント</a>を参照してください。</p>
-<p>Campaign でツイートを投稿したり、ダイレクトメッセージを送信したりする方法については、<a href="../connect/ac-tw.md">このページ</a>を参照してください。</p>
+<p>Campaign と X を <a href="../connect/ac-tw.md">詳細なドキュメント</a>.</p>
+<p>投稿を作成し、Campaign でダイレクトメッセージを送信する方法については、 <a href="../connect/ac-tw.md">このページ</a>.</p>
 </td> 
 </tr> 
 </tbody> 

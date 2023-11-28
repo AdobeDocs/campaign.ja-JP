@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: b9e4cb3cbbb5a29879146eeecf7261b59f413993
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 99%
+source-wordcount: '579'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 99%
       + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
    + [LINE メッセージ](send/line.md)
    + [ダイレクトメール](send/direct-mail.md)
-   + [Twitter](send/twitter.md)
+   + [X (Twitter)](send/twitter.md)
    + コンテンツのパーソナライズ {#personalize}
       + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
       + [パーソナライゼーションデータ](send/personalization-data.md)
@@ -141,7 +141,7 @@ ht-degree: 99%
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
    + [Campaign と Target の統合](connect/ac-at.md)
    + [Campaign と Experience Cloud トリガーの統合](connect/ac-triggers.md)
-   + [Campaign と Twitter の統合](connect/ac-tw.md)
+   + [Campaign + X (Twitter)](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
    + Campaign と CRM の統合 {#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
