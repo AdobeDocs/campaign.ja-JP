@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: b9e4cb3cbbb5a29879146eeecf7261b59f413993
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 99%
 
 ---
@@ -161,11 +161,10 @@ ht-degree: 99%
       + [Campaign FDA デプロイメント](architecture/fda-deployment.md)
       + エンタープライズ（FFDA）デプロイメント {#ffda}
          + [Campaign FFDA とは](architecture/enterprise-deployment.md)
-         + 特性 {#ffda-characteristics}
-            + [鍵の管理と単一性](architecture/keys.md)
-            + [新しい API](architecture/new-apis.md)
-            + [API のステージングメカニズム](architecture/staging.md)
-            + [レプリケーションメカニズム](architecture/replication.md)
+         + [鍵の管理と単一性](architecture/keys.md)
+         + [新しい API](architecture/new-apis.md)
+         + [API のステージングメカニズム](architecture/staging.md)
+         + [レプリケーションメカニズム](architecture/replication.md)
    + 実装 {#implement}
       + [実装手順](start/implement.md)
       + [インスタンスのカスタマイズ](dev/customize.md)
