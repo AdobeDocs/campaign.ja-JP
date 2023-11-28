@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
-source-git-commit: cb5bec3107872d4d6da83b4ddbc7cad3e9276b00
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -155,11 +155,10 @@ ht-degree: 100%
       + [フォルダーに対する権限の追加](start/folder-permissions.md)
    + [コントロールパネル](config/self-service.md)
 + アーキテクチャと設定 {#config}
-   + アーキテクチャ {#architecture}
+   + Campaign v8 のアーキテクチャ {#architecture}
       + [グローバル原則](architecture/general-architecture.md)
-      + [アーキテクチャ](architecture/architecture.md)
-      + FDA Snowflake のデプロイメント {#fda}
-         + [FDA-Snowflake とは](architecture/fda-deployment.md)
+      + [アーキテクチャ モデル](architecture/architecture.md)
+      + [Campaign FDA デプロイメント](architecture/fda-deployment.md)
       + エンタープライズ（FFDA）デプロイメント {#ffda}
          + [Campaign FFDA とは](architecture/enterprise-deployment.md)
          + 特性 {#ffda-characteristics}

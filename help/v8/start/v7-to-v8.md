@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 97%
+source-wordcount: '690'
+ht-degree: 92%
 
 ---
 
@@ -47,9 +47,7 @@ Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基
 
 ## [!DNL Campaign] と [!DNL Snowflake] {#ac-gs-snowflake}
 
-Campaign v8 は [!DNL Snowflake] で動作します。
-
-[Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)で、[!DNL Adobe Campaign] v8 は 2 つのデータベースで動作します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行、バッチクエリ、ワークフローの実行を行うクラウド [!DNL Snowflake] データベースです。
+その中で [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 は 2 つのデータベース（ローカル）で動作します。 [!DNL Campaign] API およびクラウドを介したリアルタイムメッセージおよび単一クエリおよび書き込み用のデータベース [!DNL Snowflake] キャンペーン実行、バッチクエリおよびワークフロー実行用のデータベース。
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成してデータをコピーするだけで、利用を開始できます。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
