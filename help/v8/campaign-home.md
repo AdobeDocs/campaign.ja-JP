@@ -3,16 +3,14 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: b0f5f5b4871752651c43c6f582d0f543be7bb5bd
+source-git-commit: a242b4aad44b84cc3faf54e26a523b7f11b864ab
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 58%
+source-wordcount: '429'
+ht-degree: 57%
 
 ---
 
 # Adobe Campaign v8 ドキュメント {#campaign-documentation}
-
-<!--![](assets/banner-documentationv8.png) -->
 
 ## 新機能
 
@@ -46,7 +44,7 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a></a>
+    <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a>
     <div><strong>主な機能</strong><br/>Adobe Campaign v8 のクロスチャネルキャンペーン管理のための主な機能を確認します。</div>
     </td>
     <td>
@@ -62,6 +60,12 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
     <div><strong>プロファイルのインポート</strong><br/>Adobe Campaign v8 データベースで簡単にプロファイルの作成を調べます。 手動またはインポートによるプロファイルの追加、顧客データの絞り込み、キャンペーンのカスタマイズが容易に行えます。</div>
     </td>
   </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="start/whats-new.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="start/connect.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="start/create-message.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="audiences/create-profiles.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
 
 ## ドキュメントを参照
@@ -69,40 +73,35 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon-start.svg" width="70px">
-    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+    <br/>
       <strong>基本を学ぶ</strong><br/><a href="start/campaign-ui.md">ユーザーインターフェイス</a> - <a href="start/ac-components.md">コンポーネントとプロセス</a> - <a href="start/v7-to-v8.md">Classic v7 から v8 へ</a> - <a href="start/campaign-faq.md">FAQ</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-experience.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
       <strong>顧客のエクスペリエンス</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">ワークフローを使用した自動化</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">キャンペーンオーケストレーション</a> - <a href="interaction/interaction.md">決定管理</a> - <a href="send/personalize.md">パーソナライズ</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-send.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-send.svg" width="35px">
+    <br/>
       <strong>メッセージの送信</strong><br/><a href="start/create-message.md">基本を学ぶ</a> - <a href="send/preview-and-proof.md">プレビューと配達確認</a> - <a href="send/predictive.md">送信時間の最適化</a> - <a href="reporting/gs-reporting.md">Reporting &amp; Analytics</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon_profile-audience.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
+    <br/>
       <strong>プロファイルとオーディエンス</strong><br/><a href="audiences/create-profiles.md">プロファイルを追加</a> - <a href="audiences/create-audiences.md">オーディエンスの作成</a> - <a href="start/subscriptions.md">購読を管理</a> - <a href="start/privacy.md">プライバシー</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-configure.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
+    <br/>
       <strong>アーキテクチャと設定</strong><br/><a href="architecture/architecture.md">アーキテクチャ</a> - <a href="start/implement.md">Campaign v8 の実装</a> - <a href="connect/integration.md">他のソリューションとの接続</a> - <a href="start/gs-permissions.md">ユーザーと権限</a>
     </td>
     <td>
-      <img src="assets/do-not-localize/icon-dev.svg" width="70px">
-    </td>
-    <td>
+      <img src="assets/do-not-localize/icon-dev.svg" width="35px">
+    <br/>
       <strong>開発者リソース</strong><br/><a href="dev/datamodel.md">Campaign v8 データモデル</a> - <a href="dev/schemas.md">スキーマ</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
@@ -110,8 +109,5 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 
 ## その他のリソース
 
-* [Adobe Campaign v8 製品ドキュメント](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [チュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"}
-* [[!DNL Adobe Campaign] 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"}
-* [Campaign v8 のCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Adobe Campaign v8 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 
