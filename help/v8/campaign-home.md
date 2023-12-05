@@ -3,7 +3,7 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: a242b4aad44b84cc3faf54e26a523b7f11b864ab
+source-git-commit: 30141c6ac5bafdd0cb46b4725c063aedee2a9386
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 57%
@@ -61,10 +61,10 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="start/whats-new.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="start/connect.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="start/create-message.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="audiences/create-profiles.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="start/whats-new.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="start/connect.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="create-message.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="audiences/create-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
 
