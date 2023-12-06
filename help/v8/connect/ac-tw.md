@@ -5,9 +5,9 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1125'
 ht-degree: 45%
 
 ---
@@ -141,6 +141,6 @@ X アカウントに加えて、送信に使用できるプライベート X ア
 1. そのアカウントの&#x200B;**設定**&#x200B;にアクセスします。
 1. 参照先 **プライバシーと安全** および **オーディエンスとタグ付け** そして、 **Protectの投稿** オプション。 投稿やその他のアカウント情報は、自分をフォローしている人にのみ表示されます。
 
-![](assets/social_tw_test_page.png)
+![](assets/do-not-localize/social_tw_test_page.png)
 
 上記のように、このテストアカウントと連携するように X アプリと Campaign サービスを設定します。

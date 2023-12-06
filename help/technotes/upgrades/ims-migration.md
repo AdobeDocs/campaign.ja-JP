@@ -4,10 +4,10 @@ description: Campaign テクニカルオペレーターを Adobe Developer Conso
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 935426cea75e1f8bca757863290b6f9d4c7dce18
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 100%
+source-wordcount: '1511'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ Campaign の外部システムから Campaign マーケティングインスタ�
 
 ### 移行の前提条件{#ims-migration-prerequisites}
 
-テクニカルオペレーターに代わるテクニカルアカウントを作成するには、すべての Campaign インスタンスに対して適切な Campaign 製品プロファイルが Admin Console 内に存在するという前提条件を検証する必要があります。Adobe Console 内の製品プロファイルについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}を参照してください。
+<!--To be able to create the technical accounts which replace the technical operators, the prerequisite that the proper Campaign Product Profiles exist within the Admin Console for all Campaign instances need to be validated. You can learn more about Product Profiles within the Adobe Console in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.-->
 
 Message Center インスタンスへの API 呼び出しの場合、Campaign v8.5 へのアップグレード中や、インスタンスのプロビジョニング中に製品プロファイルを作成する必要があります。この製品プロファイルの名前を以下に示します。
 

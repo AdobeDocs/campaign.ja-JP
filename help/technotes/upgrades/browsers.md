@@ -5,9 +5,9 @@ description: Chrome、Firefox および Edge ブラウザーでの Campaign web 
 hide: true
 hidefromtoc: true
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '644'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Mozilla Firefox 100 で web ページをテストするには、ユーザーエ�
 1. `general.useragent.override` を検索します。
 1. 「文字列」を選択し、プラス記号（+）をクリックします。
 
-   ![](assets/force-user-agent-firefox.png)
+   ![](assets/do-not-localize/force-user-agent-firefox.png)
 
 1. フィールドに次のテキストを入力します。
 
@@ -68,7 +68,7 @@ Mozilla Firefox 100 で web ページをテストするには、ユーザーエ�
 1. Chrome を開き、アドレスバーに「`chrome://flags`」と入力し、Enter キーを押します。
 1. 検索フィールドで「`Force major version to 100 in User-Agent`」を検索し、次に示すように有効にします。
 
-   ![](assets/force-user-agent-chrome.png)
+   ![](assets/do-not-localize/force-user-agent-chrome.png)
 
 1. ブラウザーを再起動します。
 1. 「`chrome://flags`」タブを閉じます。
@@ -83,7 +83,7 @@ v97 以降、サイトの所有者は `edge://flags` で実験フラグ `#force-
 1. Microsoft Edge を開き、アドレスバーに「`edge://flags`」と入力し、Enter キーを押します。
 1. `force-major-version-to-100` フィールドを検索し、次に示すように有効にします。
 
-   ![](assets/force-user-agent-edge.png)
+   ![](assets/do-not-localize/force-user-agent-edge.png)
 
 1. ブラウザーを再起動します。
 1. 「`edge://flags`」タブを閉じます。

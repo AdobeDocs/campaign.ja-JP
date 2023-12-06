@@ -5,7 +5,7 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 97%
@@ -22,7 +22,7 @@ Campaign の主な機能について詳しくは、[このページ](../start/ge
 
 Adobe Campaign のコンポーネントとグローバルアーキテクチャは次のとおりです。
 
-![](assets/ac-components.png)
+![](assets/do-not-localize//ac-components.png)
 
 ### プレゼンテーションレイヤー{#presentation-layer}
 
@@ -58,13 +58,13 @@ Adobe Campaign v8 はマネージドサービスとしてデプロイされま�
 
 Campaign web サーバーは、Campaign web プロセスへのアクセスを制御します。JavaScript は、コア製品の機能やカスタマイズに使用されるサーバーサイドの言語です。Tomcat はバックエンドエンジンで、web プロセスの一部として Campaign 製品に埋め込まれます。JavaScript は、JSP ページや JSSP ページなどで、動的コンテンツをレンダリングするために使用されます。
 
-![](assets/ac-processes.png)
+![](assets/do-not-localize/ac-processes.png)
 
 Campaign クライアントコンソールは、SOAP XML over HTTP を使用して web サーバーに接続します。web サーバーはセキュリティレイヤーを提供し、JavaScript を使用してアプリケーションレイヤーにリクエストを渡し、Campaign の内部プロセスは SQL を使用してデータベースにアクセスします。
 
 以下のスタンドアロンデプロイメントの図は、Campaign プロセス間の全体的な通信を示したものです。すべての Campaign コンポーネントが同じマシンにインストールされています。
 
-![](assets/ac-standalone.png)
+![](assets/do-not-localize//ac-standalone.png)
 
 ユーザーは、HTTP を使用して Campaign アプリケーションサーバーに接続します。すべてのデータと情報は、Campaign データベースで管理されます。Campaign 開発者が設定の変更を行うと、その変更はデータベースに取り込まれます。マーケターが新しいキャンペーンを作成すると、この新しいキャンペーンに関連するすべての情報とデータもデータベースで管理されます。マーケターがキャンペーンを実行すると、メール配信が SMTP サーバーを通じて Campaign サーバーからプロファイルに送信されます。プロファイルがメール配信でインタラクションを行う（メールの開封など）すると、そのトラッキングデータがトラッキングサーバーに送り返されます。
 
