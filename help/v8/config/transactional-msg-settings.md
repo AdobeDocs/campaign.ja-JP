@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 ## 権限の定義 {#mc-permissions}
 
-Message Cloud でホストされる Message Center 実行インスタンスの新しいAdobeを作成するには、担当のAdobe移行マネージャーにお問い合わせください。 Message Center ユーザーは、「リアルタイムイベント」（nmsRtEvent）フォルダーにアクセスするための専用の権限を必要とする特定のオペレーターです。
+Adobe Cloud でホストされる Message Center 実行インスタンスの新しいユーザーを作成するには、アドビトランジションマネージャーにお問い合わせください。Message Center ユーザーは、「リアルタイムイベント」（nmsRtEvent）フォルダーにアクセスするための専用の権限を必要とする特定のオペレーターです。
 
 ## スキーマ拡張  {#mc-schema-ext}
 
