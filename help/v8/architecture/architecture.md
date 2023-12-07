@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1042'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 * **Campaign FDA デプロイメント**
 
-  その中で [FDA デプロイメント](fda-deployment.md), [!DNL Adobe Campaign] v8 は、 [!DNL Snowflake] Federated Data Access 機能を使用してデータにアクセスするには： [!DNL Snowflake] データベースに反映されます。Adobe Campaignデータの構造は変更されません。 PostgreSQL はプライマリデータベースです。Snowflakeをセカンダリデータベースとして使用して、データモデルを拡張し、データをSnowflakeに格納できます。 その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
+  [FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスできます。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースとして使用して、データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
 
   >[!NOTE]
   >
-  >このデプロイメントモデルでは、 [!DNL Snowflake] セカンダリデータベースは、リクエストに応じてのみ使用できます。 デプロイメントをで更新するには、以下を実行します。 [!DNL Snowflake]を使用する場合は、担当のAdobe移行マネージャーにお問い合わせください。
+  >このデプロイメントモデルでは、[!DNL Snowflake] セカンダリデータベースはリクエストに応じてのみ使用可能です。[!DNL Snowflake] を使用してデプロイメントを更新するには、アドビトランジションマネージャーにお問い合わせください。
   >
 
 * **Campaign Enterprise（FFDA）デプロイメント**
@@ -70,7 +70,7 @@ Campaign v8 パッケージに応じて、配信の実行を担当する特定�
 
 >[!IMPORTANT]
 >
->「分割配信 - メール」アカウントの場合、分割ルーティングモードはデフォルトで有効になっています。 その他すべてのチャネル外部アカウントについては、Adobe移行マネージャーに問い合わせて、オプションを有効にしてください。
+>「分割配信 - メール」アカウントの場合、分割ルーティングモードはデフォルトで有効になっています。 その他すべてのチャネルの外部アカウントについては、アドビトランジションマネージャーに問い合わせて、オプションを有効にしてもらってください。
 >
 >デフォルトでは、配信を複数のミッドに分割する際のしきい値のサイズは 100 K です。 この値は、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;メニューの「NmsDelivery_MultiMidSplitThreshold」オプションで変更することができます。
 
