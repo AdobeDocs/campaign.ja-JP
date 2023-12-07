@@ -1,24 +1,24 @@
 ---
-title: Campaign FDA デプロイメントの概要
-description: Campaign FDA デプロイメントの概要
+title: Campaign FDA デプロイメントの基本を学ぶ
+description: Campaign FDA デプロイメントの基本を学ぶ
 feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
 source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-# [!DNL Campaign] FDA  デプロイメント{#gs-fda}
+# [!DNL Campaign] FDA デプロイメント{#gs-fda}
 
-Campaign FDA（デフォルト）デプロイメントで、 [!DNL Adobe Campaign] v8 は、 [!DNL Snowflake] を通じてデータにアクセスする [Federated Data Access](../connect/fda.md) 機能： [!DNL Snowflake] データベースに反映されます。Adobe Campaignデータの構造は変更されません。
+Campaign FDA デプロイメント（デフォルト）では、[!DNL Adobe Campaign] v8 は [Federated Data Access](../connect/fda.md) 機能を通じて [!DNL Snowflake] に接続し、データにアクセスできます。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。
 
 >[!NOTE]
 >
->このデプロイメントモデルでは、 [!DNL Snowflake] セカンダリデータベースは、リクエストに応じてのみ使用できます。 デプロイメントをで更新するには、以下を実行します。 [!DNL Snowflake]を使用する場合は、担当のAdobe移行マネージャーにお問い合わせください。
+>このデプロイメントモデルでは、[!DNL Snowflake] セカンダリデータベースはリクエストに応じてのみ使用可能です。[!DNL Snowflake] を使用してデプロイメントを更新するには、アドビトランジションマネージャーにお問い合わせください。
 >
 
 ## 利点{#fda-benefits}
@@ -42,4 +42,4 @@ Campaign FDA（デフォルト）デプロイメントで、 [!DNL Adobe Campaig
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL はプライマリデータベースで、Snowflakeはセカンダリデータベースとして使用できます。 データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
+PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースとして使用できます。データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
