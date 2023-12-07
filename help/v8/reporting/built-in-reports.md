@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -381,7 +381,7 @@ Web アプリケーションに関するレポートは **nms:WebApp** テーブ
   </tr> 
   <tr> 
    <td> ソーシャル見込み客の獲得履歴（socialVisitorStatistics）<br /> </td> 
-   <td> X( 旧称：Twitter) とFacebookの見込み客獲得の履歴（ソーシャルマーケティングのアドオンに依存）。<br /> </td> 
+   <td> X（旧 Twitter）および Facebook の見込み客獲得履歴（ソーシャルマーケティングのアドオンに依存）。<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 
