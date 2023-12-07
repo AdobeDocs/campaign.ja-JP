@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 
 Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基づいています。Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。その結果、Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。
 
-![](../assets/do-not-localize/glass.png) v7 からへの移行時にトランザクションメッセージ配達確認を送信する方法の詳細を説明します [このページ](../send/transactional-template.md#transition-from-v7).
+![](../assets/do-not-localize/glass.png) v7 からの移行時にトランザクションメッセージの配達確認を送信する方法について詳しくは、[このページ](../send/transactional-template.md#transition-from-v7)を参照してください。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基
 
 ## [!DNL Campaign] と [!DNL Snowflake] {#ac-gs-snowflake}
 
-その中で [エンタープライズ (FFDA) デプロイメント](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 は 2 つのデータベース（ローカル）で動作します。 [!DNL Campaign] API およびクラウドを介したリアルタイムメッセージおよび単一クエリおよび書き込み用のデータベース [!DNL Snowflake] キャンペーン実行、バッチクエリおよびワークフロー実行用のデータベース。
+[Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)では、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つは、ユーザーインターフェイスのリアルタイムメッセージング、単一クエリ、 API 経由での書き込みに使用するローカル [!DNL Campaign] データベース、もう 1 つは、キャンペーン実行、バッチクエリ、ワークフロー実行に使用するクラウド [!DNL Snowflake] データベースです。
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成してデータをコピーするだけで、利用を開始できます。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
