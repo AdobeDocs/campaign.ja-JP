@@ -4,9 +4,9 @@ title: ソーシャルマーケティング
 description: ソーシャルマーケティングテクニカルワークフローの詳細を説明します
 feature: Workflows
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 77%
   <tr> 
    <td> <span class="uicontrol">Twitter 統計の計算</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> X でのリツイートと訪問にリンクされた統計を計算します ( 旧称：Twitter)。<br /> </td> 
+   <td> このワークフローでは、X（旧 Twitter）でのリツイートと訪問にリンクされた統計を計算します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Twitter アカウントとの同期</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> 毎日午前 7 時に X 人のフォロワーをAdobe Campaignにインポートします。<br /> </td> 
+   <td> このワークフローでは、毎日午前 7 時に X のフォロワーを Adobe Campaign に読み込みます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
