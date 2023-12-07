@@ -5,9 +5,9 @@ title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign の概要
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 98%
       + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
    + [LINE メッセージ](send/line.md)
    + [ダイレクトメール](send/direct-mail.md)
-   + [X (Twitter)](send/twitter.md)
+   + [X（Twitter）](send/twitter.md)
    + コンテンツのパーソナライズ {#personalize}
       + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
       + [パーソナライゼーションデータ](send/personalization-data.md)
@@ -141,7 +141,7 @@ ht-degree: 98%
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
    + [Campaign と Target の統合](connect/ac-at.md)
    + [Campaign と Experience Cloud トリガーの統合](connect/ac-triggers.md)
-   + [Campaign + X (Twitter)](connect/ac-tw.md)
+   + [Campaign と X（Twitter）の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
    + Campaign と CRM の統合 {#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
@@ -157,7 +157,7 @@ ht-degree: 98%
 + アーキテクチャと設定 {#config}
    + Campaign v8 のアーキテクチャ {#architecture}
       + [グローバル原則](architecture/general-architecture.md)
-      + [アーキテクチャ モデル](architecture/architecture.md)
+      + [アーキテクチャモデル](architecture/architecture.md)
       + [Campaign FDA デプロイメント](architecture/fda-deployment.md)
       + エンタープライズ（FFDA）デプロイメント {#ffda}
          + [Campaign FFDA とは](architecture/enterprise-deployment.md)
