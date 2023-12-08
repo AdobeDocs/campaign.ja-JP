@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 0f86b6303bd380f5079b38de88ee3d097e415695
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 57%
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 
 ## 新機能
 
-Adobe Campaign v8 製品およびドキュメントの最新の機能強化の概要を説明します。 機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](start/release-notes.md).
+Adobe Campaign v8 製品とドキュメントの最新の機能強化について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](start/release-notes.md)を参照してください。
 
 >[!BEGINTABS]
 
@@ -39,25 +39,25 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 
 >[!ENDTABS]
 
-## 基本事項から始めます
+## 基本を学ぶ
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
     <a href="start/whats-new.md"><img src="assets/do-not-localize/start-capabilities.png"></a>
-    <div><strong>主な機能</strong><br/>Adobe Campaign v8 のクロスチャネルキャンペーン管理のための主な機能を確認します。</div>
+    <div><strong>主な機能</strong><br/>：クロスチャネルキャンペーン管理のための Adobe Campaign v8 の主な機能について説明します。</div>
     </td>
     <td>
     <a href="start/connect.md"><img src="assets/do-not-localize/start-connect.jpeg"></a>
-    <div><strong>Campaign v8 に接続</strong><br/>Adobe Campaign v8 に接続し、クライアントコンソールをインストールして設定し、キャンペーン管理ジャーニーを開始する方法を説明します。</div><br/>
+    <div><strong>Campaign v8 への接続</strong><br/>：Adobe Campaign v8 に接続し、クライアントコンソールをインストールおよび設定し、キャンペーン管理ジャーニーを開始する方法について説明します。</div><br/>
     </td>
     <td>
     <a href="start/create-message.md"><img src="assets/do-not-localize/start-send.jpeg"></a>
-    <div><strong>メッセージの送信</strong><br/>電子メール、SMS、プッシュ通知など、様々なチャネルをまたいでメッセージを送信する方法を説明します。
+    <div><strong>メッセージの送信</strong><br/>：メール、SMS、プッシュ通知など、さまざまなチャネルでメッセージを送信する方法について説明します。
     </div></td>
     <td>
     <a href="audiences/create-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>プロファイルのインポート</strong><br/>Adobe Campaign v8 データベースで簡単にプロファイルの作成を調べます。 手動またはインポートによるプロファイルの追加、顧客データの絞り込み、キャンペーンのカスタマイズが容易に行えます。</div>
+    <div><strong>プロファイルのインポート</strong><br/>：Adobe Campaign v8 データベースでの簡単なプロファイル作成について説明します。手動またはインポートによるプロファイルの追加、顧客データの絞り込み、キャンペーンのカスタマイズを簡単に行うことができます。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -68,7 +68,7 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
     </tr>
 </table>
 
-## ドキュメントを参照
+## ドキュメントの参照
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -109,5 +109,5 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 
 ## その他のリソース
 
-[Adobe Campaign v8 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Adobe Campaign v8 製品ドキュメント](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign] automation guide](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Control Panel for Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 

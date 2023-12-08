@@ -1,6 +1,6 @@
 ---
 title: Campaign v8 の新機能
-description: Adobe Campaign v8 の主な機能を確認する
+description: Adobe Campaign v8 の主な機能の確認
 feature: Overview
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '904'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Campaign v8 は Managed Cloud Services として利用でき、先を見�
 
 Adobe Campaign は、クラウド規模のデータベース技術を活用して、規模と速度を大幅に改善できるようになりました。
 
-[Campaign v8 Enterprise](../architecture/enterprise-deployment.md) では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいサービスにより、Campaign v8 ではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。[!DNL Snowflake] は Campaign クラウドデータベースで、スピードと耐久性を実現します。システムアクティビティのピークに過負荷がかかることはありません。 クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
+[Campaign v8 Enterprise](../architecture/enterprise-deployment.md) では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいサービスにより、Campaign v8 ではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。[!DNL Snowflake] は Campaign のクラウドデータベースです。スピードと耐久性を実現し、システムアクティビティのピーク時にも過負荷が発生しません。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
 ![](../assets/do-not-localize/glass.png) [エンタープライズ（FFDA）デプロイメントの詳細情報](../architecture/enterprise-deployment.md)
 
