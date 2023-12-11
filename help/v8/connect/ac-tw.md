@@ -6,7 +6,7 @@ feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
 ht-degree: 100%
 
