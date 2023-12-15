@@ -6,18 +6,22 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 100%
+source-wordcount: '1787'
+ht-degree: 96%
 
 ---
 
 # プッシュ通知チャネルを設定 {#push-notification-configuration}
 
-Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。
+Adobe Campaignでプッシュ通知を送信するには、まず、このページで詳しく説明するように環境とアプリを設定する必要があります。 Adobe Campaignでは、プッシュ通知を送信するチャネルはモバイルアプリチャネルです。
 
-Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK を介して、モバイル用のクライアントサイド統合 API を提供します。
+>[!CAUTION]
+>
+>Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージ用の購読サービス設定を更新する必要がある場合があります。 既にを確認し、アクションを実行できます。 [詳細情報](../../technotes/upgrades/push-technote.md)。
+
+Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK を介して、モバイル用のクライアントサイド統合 API を提供します。
 
 アプリを Adobe Experience Platform Mobile SDK で設定するには、次の手順に従います。
 

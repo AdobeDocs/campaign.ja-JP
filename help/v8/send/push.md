@@ -5,10 +5,10 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: '947'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 100%
 モバイルアプリ配信を使用すると、iOS デバイスや Android デバイスに通知を送信できます。
 
 Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。[詳しくは、プッシュ設定を参照してください。](push-settings.md)
+
+>[!CAUTION]
+>
+>Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージ用の購読サービス設定を更新する必要がある場合があります。 既にを確認し、アクションを実行できます。 [詳細情報](../../technotes/upgrades/push-technote.md)。
+
 
 ## 最初のプッシュ通知の作成{#push-create}
 

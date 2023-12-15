@@ -7,12 +7,10 @@ role: Admin
 level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
-hide: true
-hidefromtoc: true
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 935426cea75e1f8bca757863290b6f9d4c7dce18
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '842'
 ht-degree: 100%
 
 ---
