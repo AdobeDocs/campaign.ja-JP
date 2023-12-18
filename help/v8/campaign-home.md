@@ -6,7 +6,7 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -73,19 +73,19 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>顧客のエクスペリエンス</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">ワークフローを使用した自動化</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">キャンペーンオーケストレーション</a> - <a href="interaction/interaction.md">決定管理</a> - <a href="send/personalize.md">パーソナライズ</a>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">ワークフローを使用した自動化</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">キャンペーンオーケストレーション</a> - <a href="interaction/interaction.md">意思決定管理</a> - <a href="send/personalize.md">パーソナライゼーション</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>メッセージの送信</strong><br/><a href="start/create-message.md">基本を学ぶ</a> - <a href="send/preview-and-proof.md">プレビューと配達確認</a> - <a href="send/predictive.md">送信時間の最適化</a> - <a href="reporting/gs-reporting.md">Reporting &amp; Analytics</a>
+      <strong>メッセージを送信</strong><br/><a href="start/create-message.md">基本を学ぶ</a> - <a href="send/preview-and-proof.md">プレビューと配達確認</a> - <a href="send/predictive.md">送信時間の最適化</a> - <a href="reporting/gs-reporting.md">レポーティングと分析</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>プロファイルとオーディエンス</strong><br/><a href="audiences/create-profiles.md">プロファイルを追加</a> - <a href="audiences/create-audiences.md">オーディエンスの作成</a> - <a href="start/subscriptions.md">購読を管理</a> - <a href="start/privacy.md">プライバシー</a>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="audiences/create-profiles.md">プロファイルを追加</a> - <a href="audiences/create-audiences.md">オーディエンスを作成</a> - <a href="start/subscriptions.md">購読の管理</a> - <a href="start/privacy.md">プライバシー</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
