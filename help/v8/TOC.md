@@ -3,11 +3,11 @@ audience: end-user
 user-guide-title: Campaign v8
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
-breadcrumb-title: Campaign の概要
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
-workflow-type: ht
-source-wordcount: '579'
-ht-degree: 100%
+breadcrumb-title: Campaign v8 ドキュメント
+source-git-commit: 24785675a2138e3ce9c806fb52ac29a6a18c6d31
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 95%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 100%
       + [オファースペースの作成](interaction/interaction-offer-spaces.md)
    + [オファーカタログの作成](interaction/interaction-offer-catalog.md)
    + [オファーの作成](interaction/interaction-offer.md)
-   + [オファーの送信（アウトバウンド）](interaction/interaction-send-offers.md)
+   + [オファーを送信（送信）](interaction/interaction-send-offers.md)
    + オファーの提示（インバウンド）{#inbound}
       + [コンテキスト](interaction/interaction-present-offers.md)
       + [Web ページでのオファーの呼び出し](interaction/interaction-integration.md)
@@ -133,7 +133,7 @@ ht-degree: 100%
    + [ワークフロードキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
-   + Campaign + Experience Platform {#ac-aep}
+   + キャンペーン+Experience Platform {#ac-aep}
       + [オーディエンスとプロファイル属性](connect/ac-aep.md)
       + [Campaign ランディングページとプロファイル属性](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
@@ -143,7 +143,7 @@ ht-degree: 100%
    + [Campaign と Experience Cloud トリガーの統合](connect/ac-triggers.md)
    + [Campaign と X（Twitter）の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
-   + Campaign と CRM の統合 {#ac-crm}
+   + Campaign と CRM {#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
@@ -174,7 +174,7 @@ ht-degree: 100%
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [メールの設定](config/email-settings.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-      + [Campaign SDK とアプリの統合- 非推奨（廃止予定）のページ](config/push-config.md)
+      + [Campaign SDK とアプリの統合 — 廃止されたページ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
