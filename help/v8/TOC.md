@@ -1,14 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Adobe Campaign v8 製品およびドキュメントの最新の機能強化について説明します。
+user-guide-description: Adobe Campaign v8 の製品ドキュメント。
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 7ab4fd76abb18a9d3d5acac7f4f0639bc4f1f346
+source-git-commit: 7151325bfd80e9780a317dcfcde4df549c2a8cb0
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
