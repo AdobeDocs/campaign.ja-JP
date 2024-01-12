@@ -4,10 +4,10 @@ title: フィルタールールの設定
 description: フィルタールールの設定方法を説明します
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. 「**フィルター**」タブで、デフォルトのターゲティングディメンションを「**購読**」（**nms:subscription**）に変更します。
+1. 次から： **フィルター** 「 」タブで、デフォルトのターゲティングディメンションを「 」に変更します。 **購読** (**nms:subscription**) をクリックします。
 
    ![](assets/campaign_opt_create_filter_02.png)
 
