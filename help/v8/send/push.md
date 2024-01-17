@@ -5,8 +5,8 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
-workflow-type: tm+mt
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+workflow-type: ht
 source-wordcount: '947'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
 ここでは、iOS および Android の通知の配信に固有な設定について説明します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、モバイル登録が&#x200B;**非同期**&#x200B;で行われるようになりました。[詳細情報](../architecture/staging.md)
 
