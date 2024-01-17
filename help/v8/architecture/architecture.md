@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 06a505988579d38b4425643aaf85f5e4fa4d00b6
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 97%
@@ -37,7 +37,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 [FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスできます。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースとして使用して、データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
 
 
-![](assets/P1-P3-architecture)
+![](assets/P1-P3-architecture.png)
 
 >[!NOTE]
 >
