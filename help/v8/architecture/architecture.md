@@ -1,14 +1,14 @@
 ---
 title: Campaign アーキテクチャの基本を学ぶ
-description: 環境とデプロイメントの基本を確認する（キャンペーン環境のレポート方法を含む）。
+description: キャンペーン環境のレポート方法など、環境とデプロイメントの基本を確認します。
 feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
-workflow-type: ht
-source-wordcount: '1042'
-ht-degree: 100%
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+workflow-type: tm+mt
+source-wordcount: '1045'
+ht-degree: 97%
 
 ---
 
@@ -26,26 +26,32 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 ある環境から別の環境へ、パッケージを書き出したり読み込んだりできます。
 
-![](../assets/do-not-localize/book.png) パッケージの詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja)を参照してください{target="_blank"}
+![](../assets/do-not-localize/book.png) パッケージの詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja){target="_blank"}
 
-## デプロイメントモデル{#ac-deployment}
+## デプロイメントモデル {#ac-deployment}
 
-次の 2 種類のデプロイメントモデルを使用できます。
+次の 2 つのデプロイメントモデルを使用できます。 **Campaign FDA のデプロイメント** (P1-P3) および **Campaign Enterprise(FFDA) デプロイメント** (P4)。
 
-* **Campaign FDA デプロイメント**
+### Campaign FDA デプロイメント {#ac-deployment-fda}
 
-  [FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスできます。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースとして使用して、データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
+[FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスできます。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースとして使用して、データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
 
-  >[!NOTE]
-  >
-  >このデプロイメントモデルでは、[!DNL Snowflake] セカンダリデータベースはリクエストに応じてのみ使用可能です。[!DNL Snowflake] を使用してデプロイメントを更新するには、アドビトランジションマネージャーにお問い合わせください。
-  >
 
-* **Campaign Enterprise（FFDA）デプロイメント**
+![](assets/P1-P3-architecture)
 
-  [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストで、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行や、バッチクエリ、ワークフローの実行を行う Cloud [!DNL Snowflake] データベースです。
+>[!NOTE]
+>
+>このデプロイメントモデルでは、[!DNL Snowflake] セカンダリデータベースはリクエストに応じてのみ使用可能です。[!DNL Snowflake] を使用してデプロイメントを更新するには、アドビトランジションマネージャーにお問い合わせください。
+>
 
-  Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
+### Campaign Enterprise(FFDA) デプロイメント {#ac-deployment-ffda}
+
+[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストで、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行や、バッチクエリ、ワークフローの実行を行う Cloud [!DNL Snowflake] データベースです。
+
+Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
+
+![](assets/P4-architecture.png)
+
 
 ## 分割配信の実行 {#split}
 

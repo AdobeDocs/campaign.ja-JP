@@ -5,16 +5,18 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
-workflow-type: ht
-source-wordcount: '862'
-ht-degree: 100%
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 98%
 
 ---
 
 # Adobe Campaign の概要{#gs-ac-v8}
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
+
+Adobe Campaign v8 は、電子メールやダイレクトメールなどの従来のマーケティングチャネル用に構築された次世代キャンペーンツールです。 堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、拡張性の高いリアルタイムメッセージングサーバーと組み合わされているので、マーケティングチームは任意の IT システムの包括的なペイロードに基づいて、パスワードのリセット、注文の確認、電子領収書などの事前定義されたメッセージを送信できます。
 
 Campaign を使用すると、次のことを行えます。
 
