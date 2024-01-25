@@ -6,9 +6,9 @@ title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
 source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 96%
       + [オファースペースの作成](interaction/interaction-offer-spaces.md)
    + [オファーカタログの作成](interaction/interaction-offer-catalog.md)
    + [オファーの作成](interaction/interaction-offer.md)
-   + [オファーを送信（送信）](interaction/interaction-send-offers.md)
+   + [オファーの送信（アウトバウンド）](interaction/interaction-send-offers.md)
    + オファーの提示（インバウンド）{#inbound}
       + [コンテキスト](interaction/interaction-present-offers.md)
       + [Web ページでのオファーの呼び出し](interaction/interaction-integration.md)
@@ -135,7 +135,7 @@ ht-degree: 96%
    + [ワークフロードキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
-   + キャンペーン+Experience Platform {#ac-aep}
+   + Campaign と Experience Platform の統合{#ac-aep}
       + [オーディエンスとプロファイル属性](connect/ac-aep.md)
       + [Campaign ランディングページとプロファイル属性](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
@@ -145,7 +145,7 @@ ht-degree: 96%
    + [Campaign と Experience Cloud トリガーの統合](connect/ac-triggers.md)
    + [Campaign と X（Twitter）の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
-   + Campaign と CRM {#ac-crm}
+   + Campaign と CRM の統合 {#ac-crm}
       + [CRM コネクタの基本を学ぶ](connect/crm.md)
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
@@ -176,7 +176,7 @@ ht-degree: 96%
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [メールの設定](config/email-settings.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-      + [Campaign SDK とアプリの統合 — 廃止されたページ](config/push-config.md)
+      + [Campaign SDK とアプリの統合 - 非推奨（廃止予定）のページ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
