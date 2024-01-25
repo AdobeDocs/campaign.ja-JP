@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
 source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 77%
 
    受信者のプロファイルには、少なくとも受信者の名前と郵送先住所が登録されている必要があります。
 
-   郵送先住所は、計算フィールドです。1 つの住所は、デフォルトで最大 6 つの行から構成されます。最初の行には名と姓が、その後の行には郵送先住所（番地など）が、最後の行には郵便番号や市区町村が含まれます。 デフォルトの計算済み postalAddress フィールドの定義は、 nms:recipient スキーマで確認できます。
+   郵送先住所は、計算フィールドです。1 つのアドレスは、デフォルトで最大 6 つの行から構成されます。最初の行には名前の姓および名、続く数行には郵送先住所（道路など）、最後の行には、郵便番号や市区町村が含まれます。デフォルトで計算済みの postalAddress フィールドの定義は、nms:recipient スキーマで確認できます。
 
-   名前、郵便番号、市区町村の各フィールドが空でない場合、アドレスは完全に入力されていると見なされます。 アドレスが不完全な受信者は、ダイレクトメール配信から除外されます。
+   名前、郵便番号、市区町村フィールドが空でない場合、アドレスは完全に入力されているとみなされます。アドレスが不完全な受信者は、ダイレクトメール配信から除外されます。
 
    ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja){target="_blank"}を参照してください
 
