@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 33%
 
 ## 2024年1月 {#jan-2024}
 
-* ダイレクトメールのデフォルトの postalAddress フィールドの定義方法と、アドレスが完全であることを確認することが重要な理由に関する情報が追加されました。 [詳細情報](../send/direct-mail.md)
+* ダイレクトメールのデフォルトの postalAddress フィールドの定義方法と、アドレスが完全であることを確認することが重要な理由に関する情報を追加しました。[詳細情報](../send/direct-mail.md)
