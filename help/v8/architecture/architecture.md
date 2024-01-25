@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 * **ステージング環境**：アプリケーションに対する変更を実稼動環境にプッシュする前の様々なパフォーマンスと品質のテストに使用します。
 
-ある環境から別の環境へ、パッケージを書き出したり読み込んだりできます。
+ある環境から別の環境へパッケージを書き出したり読み込んだりできます。
 
-![](../assets/do-not-localize/book.png) パッケージの詳細については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja){target="_blank"}
+![](../assets/do-not-localize/book.png)パッケージについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja)を参照してください{target="_blank"}
 
 ## デプロイメントモデル {#ac-deployment}
 
-次の 2 つのデプロイメントモデルを使用できます。 **Campaign FDA のデプロイメント** (P1-P3) および **Campaign Enterprise(FFDA) デプロイメント** (P4)。
+**Campaign FDA デプロイメント**（P1～P3）と **Campaign Enterprise（FFDA）デプロイメント**（P4）の 2 つのデプロイメントモデルが使用可能です。
 
 ### Campaign FDA デプロイメント {#ac-deployment-fda}
 
@@ -44,7 +44,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 >このデプロイメントモデルでは、[!DNL Snowflake] セカンダリデータベースはリクエストに応じてのみ使用可能です。[!DNL Snowflake] を使用してデプロイメントを更新するには、アドビトランジションマネージャーにお問い合わせください。
 >
 
-### Campaign Enterprise(FFDA) デプロイメント {#ac-deployment-ffda}
+### Campaign Enterprise（FFDA）デプロイメント {#ac-deployment-ffda}
 
 [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストで、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つ目はユーザーインターフェイスのリアルタイムメッセージングや単一クエリ、API 経由での書き込みを行うローカル [!DNL Campaign] データベース、もう 1 つはキャンペーンの実行や、バッチクエリ、ワークフローの実行を行う Cloud [!DNL Snowflake] データベースです。
 
