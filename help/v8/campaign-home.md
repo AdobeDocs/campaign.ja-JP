@@ -4,9 +4,9 @@ description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 ## 新機能
 
-Adobe Campaign v8 製品とドキュメントの最新の機能強化について説明します。機能、改善点、修正点の包括的なリストについては、詳細な[リリースノート](start/release-notes.md)をご確認ください。ドキュメントの最新の変更については、 [ドキュメントの更新](start/documentation-updates.md) ページに貼り付けます。
+Adobe Campaign v8 製品とドキュメントの最新の機能強化について説明します。機能、改善点、修正点の包括的なリストについては、詳細な[リリースノート](start/release-notes.md)をご確認ください。ドキュメントの最新の変更については、 [ドキュメントの更新ページ](start/documentation-updates.md)で随時ご確認ください。
 
 >[!BEGINTABS]
 
