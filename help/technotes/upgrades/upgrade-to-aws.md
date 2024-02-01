@@ -2,10 +2,10 @@
 title: Campaign メール送信インフラストラクチャのアップグレード
 description: Campaign メール送信インフラストラクチャのアップグレード
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
+source-git-commit: 68252db5ad53e2a37c76765cd35650f824101289
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '331'
+ht-degree: 90%
 
 ---
 
@@ -25,11 +25,9 @@ ht-degree: 100%
 
 ## このアップグレードが行われるのはいつですか？{#aws-timeline}
 
-開発環境とステージング環境のアップグレードは、**2023年10月**&#x200B;に行われる予定です。
+開発環境とステージング環境のアップグレードは、次の場所で開始されます。 **2023 年 10 月**.
 
-実稼動環境のアップグレードは、**2024年1月**&#x200B;から開始する予定です。
-
-Campaign のお客様には、実稼動アップグレードに関する追加の通知が少なくとも 30 日前に届きます。
+実稼動環境のアップグレードは、で開始します。 **2024 年 1 月**.
 
 ## 今後について{#impact}
 
@@ -64,4 +62,4 @@ Campaign のお客様には、実稼動アップグレードに関する追加�
 
   いいえ。別のお客様に割り当てられたアップグレードイベントが中断される可能性があるので、既存のスケジュールに対してリクエストされた変更には対応できません。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。。
+その他の質問については、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}...
