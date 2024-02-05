@@ -2,10 +2,10 @@
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
+source-git-commit: 1cdb21533138623fc603424503063cf3dbc2d94c
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 100%
+source-wordcount: '1116'
+ht-degree: 94%
 
 ---
 
@@ -111,6 +111,24 @@ Campaign と Adobe ID の接続方法については、[この節](../../v8/star
 すべてのユーザー（Campaign オペレーター）が IMS を使用している場合、この移行を実行する必要はありません。ただし、カスタムコードで使用した可能性のある技術ユーザーを移行する必要があります。詳しくは、[このページ](ims-migration.md)を参照してください。
 
 この移行が完了したら、アドビトランジションマネージャーにお問い合わせして、アドビが移行を完了するように依頼する必要があります。
+
+### オペレーターの認証タイプの表示方法は？
+
+Campaign でオペレーターの認証タイプを表示する方法を説明します。
+
+1. 次から： **エクスプローラ**，アクセス **管理** `>` **アクセス管理** `>` **演算子**.
+
+1. ヘッダー行を右クリックし、「 **リストを設定** メニュー。
+
+   ![](assets/ims_2.png)
+
+1. 追加 **無効なアカウント** および **認証タイプ** as **出力列**.
+
+   ![](assets/ims_1.png)
+
+これで、 **演算子** そして **認証タイプ**.
+
+![](assets/ims_3.png)
 
 ## 便利なリンク {#ims-useful-links}
 
