@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: fefdf71acc921cdddcf5b3f4bf81dca594a84486
+source-git-commit: 9fceeb04344f891fbfd8af1e643b2ad5331db158
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 23%
@@ -30,7 +30,7 @@ _2024 年 2 月 14 日_
 
 * Adobe Campaign v8 との統合 **Adobe Experience Manager as a Cloud Service**&#x200B;に含まれ、 Adobe Campaign Web ユーザーインターフェイスからのみ利用できるオーサリング機能を備えています。
 
-* これで、 **Adobe Experience Manager Assets Library** Adobe Experience Cloudとの統合パッケージがAdobe Campaignインスタンスにインストールされている場合でも、Experience CloudAssets と一緒に使用できます。
+* これで、 **Adobe Experience Manager Assets Library** をExperience CloudAssets と一緒に ( **Adobe Experience Cloudとの統合** パッケージがAdobe Campaignインスタンスにインストールされている。
 
 
 ### 一般的な機能強化 {#improvements-8-6-1}
