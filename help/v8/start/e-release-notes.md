@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: fefdf71acc921cdddcf5b3f4bf81dca594a84486
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 23%
 
 ---
 
@@ -18,55 +18,33 @@ ht-degree: 100%
 
 このページでは、次回の Campaign v8 リリースに含まれる改善点および修正点について説明します。この内容は、リリース日まで予告なしに変更される場合があります。公式リリースノートは、こちらの[ページ](../start/release-notes.md)を参照してください。
 
-## リリース 8.5.1 {#release-8-5}
+## リリース 8.6.1 {#release-8-6-1}
 
-_2023年6月30日（PT）_
+_2024 年 2 月 14 日_
 
-**新機能**
 
-<table> 
-<thead>
-<tr> 
-<th> <strong>プッシュ通知サービスの強化</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td><p>Campaign 8.5.1 では、最新の最先端テクノロジーに基づいて作成された堅牢なフレームワークを活用した、v8 における最新のプッシュ通知サービスが導入されています。 このサービスは、新しいレベルのスケーラビリティを実現するように設計されており、シームレスな効率でより多くのオーディエンスに通知を届けることができます。インフラストラクチャの強化とプロセスの最適化により、より高いスケールと信頼性が期待でき、これまでにない方法でモバイルアプリユーザーと関わり、つながりを持てるようになります。 この機能は、選択されたお客様のグループのみが使用できます（限定提供）。</p>
-</td> 
-</tr> 
-</tbody> 
-</table>
+### 新機能 {#new-8-6-1}
 
-**互換性の更新**
+* このリリースから、新しい **Campaign Web ユーザーインターフェイス**：中央のAdobe Experience Cloud環境を通じて使用できます。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。Adobe Experience Cloudに接続し、Adobe Campaign Web インターフェイスにアクセスする方法を説明します。 [このページの](campaign-ui.md#ac-web-ui).
 
-* クライアントコンソールの 32 ビットバージョンは、非推奨（廃止予定）となりました。8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。クライアントコンソールの 64 ビットバージョンへのアップグレードはシームレスです。オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=ja)を参照してください。
-* Campaign v8 インスタンスを Azure Synapse 外部データベースに接続できるようになりました。この接続は、新しい外部アカウントで管理します。
 
-**改善点**
+* Adobe Campaign v8 との統合 **Adobe Experience Manager as a Cloud Service**&#x200B;に含まれ、 Adobe Campaign Web ユーザーインターフェイスからのみ利用できるオーサリング機能を備えています。
 
-* 様々な最適化を実装することで、SMS スループットが大幅に向上し、SMS 通信の速度と効率が改善しました。
-* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが改善されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。
-* 宛先接続とソース接続を活用して、Adobe Experience Platform と Campaign v8 データベースの間でオプトアウトデータなどのプロファイル属性を同期できるようになりました
-* 配信の準備を最適化しました。
-* 既存のユーザー／パスワード認証方法と共に、新しいキーベースの認証オプションを SFTP 外部アカウントに追加しました。ユーザーは秘密鍵を使用して安全に認証できるようになりました。これにより、セキュリティが強化され、SFTP アクセス用の代替認証メカニズムが提供されます。
+* これで、 **Adobe Experience Manager Assets Library** Adobe Experience Cloudとの統合パッケージがAdobe Campaignインスタンスにインストールされている場合でも、Experience CloudAssets と一緒に使用できます。
 
-**セキュリティ機能の強化**
 
-* クライアントコンソールからオペレーターを作成できなくなりました。ここでは、Admin Console を使用する必要があります。[詳細情報](../start/gs-permissions.md)。
-* セキュリティを最適化するために、複数のサードパーティツールを更新しています。
+### 一般的な機能強化 {#improvements-8-6-1}
 
-**パッチ**
+* Campaign v8.6 では、のスループットが向上しました。 **メール配信トラッキング指標**. 最適化されたプロセスにより、取り込みのトラッキングと計算時間が短縮され、配信の主要指標をより迅速に確認できます。
 
-* 複数のブラウザーで配信の HTML コンテンツ内の特殊文字が誤ってエンコードされる可能性がある問題を修正しました。（NEO-60081）
-* Campaign v8 Enterprise（FFDA）デプロイメントでレポートを保存できない可能性がある問題を修正しました。（NEO-56836）
-* データ更新ワークフローアクティビティを通じてカスタム FFDA スキーマにデータを挿入または更新する際の問題を修正しました。（NEO-54708）
-* データベースクリーンアップワークフローで、FFDA の nms:address テーブル内のアドレスを削除できない問題を修正しました。（NEO-54460）
-* 「コンパイルメモリが使い果たされました」というエラーで失敗する可能性がある請求ワークフローの問題を修正しました。（NEO-51137）
-* データ読み込み（ファイル）ワークフローアクティビティで、GPG 復号化が正しく動作しない可能性がある問題を修正しました。（NEO-50257）
-* `JSPContext.sqlExecWithOneParam` 関数が機能しない問題を修正しました。（NEO-50066）
-* パーソナライゼーションフィールドで印刷不可能な文字を使用すると、配信エラーが発生する問題を修正しました。（NEO-48588）
-* Adobe Target の動的画像を挿入する際に、配信エラーが発生する可能性がある問題を修正しました。（NEO-62689）
-* 配信で条件付きコンテンツを使用する際に、ブラウザーで余分なスペースを追加できない問題を修正しました。（NEO-62132）
-* メールコンテンツエディターで画像をクリックすると、ポップアップウィンドウが開く問題を修正しました。（NEO-60752）
-* 配信のコンテンツを編集する際にエラーが発生し、スクロールできなくなる可能性がある問題を修正しました。（NEO-61364）
+
+### 配信品質の更新 {#deliverability-8-6-1}
+
+* 2024 年 2 月までに、Googleまたは Yahoo! は、ドメインベースの Message Authentication Reporting and Conformance(DMARC) と呼ばれる認証テクノロジーを使用し始める必要があります。 Adobe Campaignで使用するすべてのサブドメインに対して DMARC レコードが設定されていることを確認します。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja){target="_blank"}
+
+* 2024 年 6 月 1 日より、Googleと Yahoo! 送信者がワンクリックリスト配信停止に準拠する必要があります。 Adobe Campaignは、このオプションをサポートするようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#one-click-list-unsubscribe){target="_blank"}
+
+
+### 修正点 {#fixes-8-6-1}
+
+このリリースでは、NEO-67892、NEO-67235、NEO-66797、NEO-66462、NEO-65091、NEO-65036、NEO-64984、NEO-64680、NEO-63973、NEO-63815、NEO-63657、NEO-63539、NEO-, NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEO-NEOsupp
