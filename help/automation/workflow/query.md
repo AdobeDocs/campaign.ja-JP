@@ -5,10 +5,10 @@ description: クエリワークフローアクティビティの詳細を説明�
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 100%
+source-wordcount: '1613'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 クエリを使用すると、条件に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
 クエリサンプルの詳細は、[この節](querying-recipient-table.md)を参照してください。
 
-![](assets/query-activity.png)
+![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 追加データの使用と管理について詳しくは、[データの追加](#adding-data)を参照してください。
 
@@ -35,15 +35,15 @@ ht-degree: 100%
 
    詳しくは、[ターゲティングとフィルタリングディメンション](targeting-workflows.md#targeting-and-filtering-dimensions)を参照してください。
 
-   ![](assets/targeting-filtering-dimensions.png)
+   ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
    必要に応じて、ターゲティングとフィルタリングディメンションを選択した場合に&#x200B;**[!UICONTROL 一時スキーマ]**&#x200B;を選択することで、インバウンドトランジションのデータに基づいてクエリを作成できます。
 
-   ![](assets/query_temporary_table.png)
+   ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
 1. ウィザードを使用して母集団を定義します。入力するフィールドは、ターゲットのタイプに応じて変わる場合があります。「**[!UICONTROL プレビュー]**」タブを使用して、現在の条件によるターゲット母集団をプレビューできます。
 
-   ![](assets/query-sample.png)
+   ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
 1. 手順 1 で「**[!UICONTROL フィルター条件]**」を選択した場合、または&#x200B;**[!UICONTROL フィルター]**／**[!UICONTROL 詳細設定フィルター]**&#x200B;オプションを使用する場合、後からフィルター条件を手動で追加する必要があります。
 
@@ -59,11 +59,11 @@ ht-degree: 100%
 
 「**[!UICONTROL データを追加...]**」リンクをクリックすると、収集する追加データを選択できます。
 
-![](assets/wf_add_data_link.png)
+![](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
 
 まず、追加するデータのタイプを選択します。
 
-![](assets/wf_add_data_1st_option.png)
+![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * 「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択し、Adobe Campaign データベース内のデータを選択します。
 * 「**[!UICONTROL 外部データ]**」を選択し、外部データベース内のデータを追加します。このオプションは、**Federated Data Access** オプションを購入済みである場合のみ、使用できます。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database--fda-.md)を参照してください。
@@ -75,11 +75,11 @@ Adobe Campaign データベースからデータを追加するには：
 
 1. 追加するデータのタイプを選択します。これは、フィルター条件に属するデータまたは、リンクされたテーブルに保存されたテーブルのどちらかになります。
 
-   ![](assets/query_add_columns.png)
+   ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
 1. データがクエリのフィルター条件に属している場合、使用可能なフィールドのリストから選択するだけで、出力列に表示されます。
 
-   ![](assets/wf_add_data_field_selection.png)
+   ![](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
 
    以下を追加できます。
 
@@ -93,7 +93,7 @@ Adobe Campaign データベースからデータを追加するには：
 1. ウィザードの最初の手順で、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」オプションを選択します。
 1. 収集対象のデータを含んでいるテーブルを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/wf_add_data_linked_table.png)
+   ![](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
 
 1. 必要に応じて、「**[!UICONTROL 収集されたデータ]**」フィールドの値のいずれかを選択し、保持するコレクションの要素の数を指定します。デフォルトで、コレクションのすべての行が収集され、次の手順で指定される条件に応じて、フィルタリングされます。
 
@@ -106,13 +106,13 @@ Adobe Campaign データベースからデータを追加するには：
      >初期の条件が考慮されない場合、結果は不完全なものになります（行が不足または重複）。
 
    * 複数行を収集を選択した場合（「**[!UICONTROL ライン数を制限]**」）、収集する行数を指定できます。
-   * 宣言されたエラーの数や、サイトでの平均購入額など、収集した列に集計が含まれる場合、「**[!UICONTROL 集計]**」値を使用できます。
+   * 宣言されたエラーの数や、サイトでの平均購入額など、収集した列に集計が含まれる場合。 以下を使用できます。 **[!UICONTROL 集計]** の値です。
 
-   ![](assets/query_add_collection_param.png)
+   ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
 1. コレクションの補助選択範囲を指定します。
 
-   ![](assets/query_add_columns_collection_filter.png)
+   ![](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
 
 1. 「**[!UICONTROL ライン数を制限]**」オプションを選択した場合、収集データをフィルターする順序を定義します。収集したライン数が制限ライン数を超えた場合、このフィルターの順序により、維持されるラインが決まります。
 
@@ -133,20 +133,20 @@ Adobe Campaign データベースからデータを追加するには：
    * 18 歳以上の受信者
    * フランスに住んでいる受信者
 
-   ![](assets/query_example.png)
+   ![](assets/query_example.png){width="70%" align="center" zoomable="yes"}
 
    条件の組み合わせと一致する SQL を確認できます。
 
-   ![](assets/query_example_sql.png)
+   ![](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
 
 1. 条件が正しいかどうか確認するには、関連するタブで、クエリと一致する受信者をプレビューします。
 
-   ![](assets/query_example_preview.png)
+   ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
 
 1. フィルターを保存し、**[!UICONTROL 完了]**／**[!UICONTROL OK]** をクリックすることで、将来再利用できます。
 1. ほかのアクティビティを追加して、ワークフローを引き続き編集します。ワークフローが開始され、先行するクエリの手順が完了したら、見つかった受信者の数が表示されます。マウスのポップアップメニューを使用して、詳細を表示できます（トランジションを右クリックして、「**[!UICONTROL ターゲットを表示...]**」を選択）。
 
-   ![](assets/query_example_result.png)
+   ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 
 ## 出力パラメーター {#output-parameters}
 
@@ -187,7 +187,7 @@ Adobe Campaign データベースからデータを追加するには：
 
 「exists such as」演算子を使用する代わりに、クエリのフィルタリングディメンションを使用します。
 
-![](assets/optimize-queries-filtering.png)
+![](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
 
 クエリでは、フィルターの「exists such as」条件は効率がよくありません。SQL のサブクエリと同等です。
 
@@ -195,7 +195,7 @@ Adobe Campaign データベースからデータを追加するには：
 
 代わりにクエリのフィルタリングディメンションを使用するのがベストプラクティスとなります。
 
-![](assets/optimize-queries-filtering2.png)
+![](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
 
 フィルタリングディメンションと同等なのは、SQL の内部結合です。
 
