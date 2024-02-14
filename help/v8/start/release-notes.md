@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
+source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 25%
@@ -33,7 +33,7 @@ _2024 年 2 月 14 日_
 
 * Adobe Campaign v8 との統合 **Adobe Experience Manager as a Cloud Service**&#x200B;に含まれ、 Adobe Campaign Web ユーザーインターフェイスからのみ利用できるオーサリング機能を備えています。 [詳細情報](../connect/ac-aem.md)
 
-* これで、 **Adobe Experience Manager Assets Library** Adobe Experience Cloudとの統合パッケージがAdobe Campaignインスタンスにインストールされている場合でも、Experience CloudAssets と一緒に使用できます。[詳細情報](../connect/ac-aem.md#assets-library)
+* これで、 **Adobe Experience Manager Assets Library** Adobe Experience Cloudとの統合パッケージがAdobe Campaignインスタンスにインストールされている場合でも、Experience CloudAssets と一緒に使用できます。 [詳細情報](../connect/ac-aem.md#assets-library)
 
 ### 一般的な機能強化 {#improvements-8-6-1}
 

@@ -5,10 +5,10 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
+source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 19%
+source-wordcount: '693'
+ht-degree: 18%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe CampaignとAdobe Experience Managerの統合により、E メール配信�
 
 ![](../assets/do-not-localize/book.png) [Adobe Experience Managerの詳細については、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ja#aem-and-adobe-campaign-integration-workflow)
 
-## Adobe Experience Managerを使用したオーサリング {#integrating-with-aem}
+## Adobe Experience Managerからコンテンツを読み込む {#integrating-with-aem}
 
 ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Adobe Experience Manager を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
@@ -80,7 +80,13 @@ Adobe CampaignとAdobe Experience Managerの統合により、E メール配信�
 
 1. 以前に作成したAEM配信を選択 [!DNL Adobe Experience Manager] をクリックして確定 **[!UICONTROL OK]**.
 
+   ![](assets/aem_authoring_11.png)
+
 1. 必ず **[!UICONTROL コンテンツを更新]** 」ボタンをクリックします。
+
+   ![](assets/aem_authoring_12.png)
+
+1. Experience Managerとキャンペーンのリンケージを削除するには、 **[!UICONTROL 同期解除]**.
 
 これでメールをオーディエンスに送信する準備が整いました。
 
@@ -88,22 +94,42 @@ Adobe CampaignとAdobe Experience Managerの統合により、E メール配信�
 
 また、 [!DNL Adobe Experience Manager Assets Library] Adobe Campaignで e メールまたはランディングページを編集中に この機能について詳しくは、 [Adobe Experience Manager Assetsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
 
-1. アセットを **Adobe Experience Manager Assets Library**. [詳細を表示](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+**Adobe Experience Manager から：**
+
+1. 次の場所に移動： [!DNL Adobe Experience Manager] オーサーインスタンスを作成し、ページの左上隅にある「Adobeエクスペリエンス」をクリックします。 選択 **[!UICONTROL Assets]** `>` **[!UICONTROL ファイル]** を選択します。
+
+   ![](assets/aem_assets_1.png)
+
+1. クリック **作成** その後 **ファイル** を使用して、 **Adobe Experience Manager Assets Library**. [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+   ![](assets/aem_assets_2.png)
+
+1. 必要に応じてアセットの名前を変更し、「 」を選択します。 **アップロード**.
+
+アセットが **Adobe Experience Manager Assets Library**.
+
+**Adobe Campaign から：**
 
 1. Adobe Campaignで、 **キャンペーン** タブ、クリック **配信** をクリックし、 **作成** ボタンをクリックして既存の配信のリストの上に表示します。
+
+   ![](assets/aem_assets_3.png)
 
 1. を選択します。 **配信テンプレート**、「 」、「 」、「 」、「 」、「 」という名前を付けます。
 
 1. メッセージコンテンツを定義し、パーソナライズします。 [詳細情報](../send/email.md)
 
-1. 次の手順で、 **Adobe Experience Manager Assets Library**、 **[!UICONTROL プロパティ]** AEM配信の「 」と「 」を選択します。 **[!UICONTROL 詳細]** タブをクリックします。 を有効にします。 **[!UICONTROL 上記のAEMインスタンスを共有アセットライブラリとして使用]** オプション。
+1. 次の手順で、 **Adobe Experience Manager Assets Library**、 **[!UICONTROL プロパティ]** AEM配信の「 」と「 」を選択します。 **[!UICONTROL 詳細]** タブをクリックします。
+
+   選択： **AEMアカウント** をクリックし、 **[!UICONTROL 上記のAEMインスタンスを共有アセットライブラリとして使用]** オプション。
 
    ![](assets/aem_authoring_9.png)
 
 1. 次から： **画像** アイコン、 **[!UICONTROL 共有アセットを選択]** メニュー。
 
-   ![](assets/aem_authoring_10.png)
+   ![](assets/aem_assets_4.png)
 
-1. 選択ウィンドウで、 **Adobe Experience Manager Assets Library**&#x200B;をクリックし、確定します。
+1. 選択ウィンドウで、 **Adobe Experience Manager Assets Library**&#x200B;を、 **選択**.
 
-E メール配信の準備が整いました。 これで、ターゲットオーディエンスを指定し、配信を確定して、送信を続行できます。
+   ![](assets/aem_assets_5.png)
+
+これで、アセットが E メール配信にアップロードされました。 これで、ターゲットオーディエンスを指定し、配信を確定して、送信を続行できます。
