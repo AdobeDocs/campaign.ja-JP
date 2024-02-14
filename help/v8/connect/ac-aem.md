@@ -5,10 +5,10 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: b267cb37a94bd389232ccfb9b8df69c9c2caa990
+source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 23%
+source-wordcount: '618'
+ht-degree: 19%
 
 ---
 
@@ -80,12 +80,30 @@ Adobe CampaignとAdobe Experience Managerの統合により、E メール配信�
 
 1. 以前に作成したAEM配信を選択 [!DNL Adobe Experience Manager] をクリックして確定 **[!UICONTROL OK]**.
 
-1. 次の場所からアセットを直接挿入できます： [!DNL Adobe Experience Manager Assets] または [!DNL Adobe Experience Manager Assets Library] Adobe Campaignで e メールを編集中に [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html?lang=ja)。
-
-   次の手順で、 **Adobe Experience Manager Assets Library**、 **[!UICONTROL プロパティ]** AEM配信の「 」と「 」を選択します。 **[!UICONTROL 詳細]** タブをクリックします。 を有効にします。 **[!UICONTROL 上記のAEMインスタンスを共有アセットライブラリとして使用]** オプション。
-
-   ![](assets/aem_authoring_9.png)
-
 1. 必ず **[!UICONTROL コンテンツを更新]** 」ボタンをクリックします。
 
 これでメールをオーディエンスに送信する準備が整いました。
+
+## Adobe Experience Manager Assetsライブラリからのアセットの読み込み {#assets-library}
+
+また、 [!DNL Adobe Experience Manager Assets Library] Adobe Campaignで e メールまたはランディングページを編集中に この機能について詳しくは、 [Adobe Experience Manager Assetsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
+
+1. アセットを **Adobe Experience Manager Assets Library**. [詳細を表示](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+1. Adobe Campaignで、 **キャンペーン** タブ、クリック **配信** をクリックし、 **作成** ボタンをクリックして既存の配信のリストの上に表示します。
+
+1. を選択します。 **配信テンプレート**、「 」、「 」、「 」、「 」、「 」という名前を付けます。
+
+1. メッセージコンテンツを定義し、パーソナライズします。 [詳細情報](../send/email.md)
+
+1. 次の手順で、 **Adobe Experience Manager Assets Library**、 **[!UICONTROL プロパティ]** AEM配信の「 」と「 」を選択します。 **[!UICONTROL 詳細]** タブをクリックします。 を有効にします。 **[!UICONTROL 上記のAEMインスタンスを共有アセットライブラリとして使用]** オプション。
+
+   ![](assets/aem_authoring_9.png)
+
+1. 次から： **画像** アイコン、 **[!UICONTROL 共有アセットを選択]** メニュー。
+
+   ![](assets/aem_authoring_10.png)
+
+1. 選択ウィンドウで、 **Adobe Experience Manager Assets Library**&#x200B;をクリックし、確定します。
+
+E メール配信の準備が整いました。 これで、ターゲットオーディエンスを指定し、配信を確定して、送信を続行できます。
