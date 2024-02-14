@@ -6,10 +6,10 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 100%
+source-wordcount: '1948'
+ht-degree: 98%
 
 ---
 
@@ -216,7 +216,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 1. 変更内容を保存します。値の置換は、毎晩実行される&#x200B;**エイリアスクレンジング**&#x200B;ワークフローによって実行されます。[データクレンジングの実行](#running-data-cleansing)を参照してください。
 
-この列挙に基づくすべてのフィールドについて、ユーザーが（Adobe Campaign クライアントコンソールの web フォームの）「会社」フィールドに「**Adob**」と入力すると、**Adobe** という値に自動置換されます。
+この列挙に基づくすべてのフィールドに対して、ユーザーが値を入力したとき **アドビ** (Adobe Campaignクライアントコンソールの web フォームの )「会社」フィールドでは、値で自動的に置き換えられます **Adobe**.
 
 #### 誤った値をエイリアスに変換{#convert-to-alias}
 

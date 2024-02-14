@@ -1,14 +1,15 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Adobe Campaign v8 の製品ドキュメント。
+user-guide-description: Adobe Campaign v8（クライアントコンソール）の製品ドキュメント。
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
+hidefromtoc: true
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
+source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 96%
 
 ---
 
@@ -19,8 +20,10 @@ ht-degree: 100%
 + リリースと最新のアップデート {#releases}
    + [ドキュメントの更新](start/documentation-updates.md)
    + [早期リリースノート](start/e-release-notes.md)
+   + [バージョンとアップグレード](start/upgrades.md)
    + [リリースノート](start/release-notes.md)
    + 以前のリリースノート {#previous-rn}
+      + [2023](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
       + [2021](start/release-notes-2021.md)
    + [ガードレール](start/ac-guardrails.md)
@@ -29,9 +32,9 @@ ht-degree: 100%
 + はじめに {#new}
    + [Adobe Campaign の概要](start/get-started.md)
    + [主な機能](start/whats-new.md)
-   + [コンポーネントとプロセス](start/ac-components.md)
+   + [ユーザーインターフェイスの確認](start/campaign-ui.md)
    + [Campaign への接続](start/connect.md)
-   + [Campaign インターフェイス](start/campaign-ui.md)
+   + [コンポーネントとプロセス](start/ac-components.md)
    + [Classic v7 から v8 へ](start/v7-to-v8.md)
    + [FAQ](start/campaign-faq.md)
 + キャンペーン管理 {#campaigns}
@@ -42,6 +45,7 @@ ht-degree: 100%
    + メール {#emails}
       + [メールのデザインと検証](send/email.md)
       + [ミラーページへのリンク](send/mirror-page.md)
+      + [BCC アドレスを追加](send/email-bcc.md)
       + [追加のメールパラメーターを定義](send/email-parameters.md)
       + [メールの送信と監視](send/send.md)
    + [SMS](send/sms.md)
@@ -174,7 +178,6 @@ ht-degree: 100%
    + 設定と指定 {#configuration}
       + [ユーザーインターフェイス設定](config/ui-settings.md)
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
-      + [メールの設定](config/email-settings.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
       + [Campaign SDK とアプリの統合 - 非推奨（廃止予定）のページ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)

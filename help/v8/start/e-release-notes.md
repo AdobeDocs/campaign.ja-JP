@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 9fceeb04344f891fbfd8af1e643b2ad5331db158
+source-git-commit: eae364fb3d082c91022fee6bf29802c9eb6dfcf5
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 23%
+source-wordcount: '464'
+ht-degree: 30%
 
 ---
 
@@ -27,16 +27,22 @@ _2024 年 2 月 14 日_
 
 * このリリースから、新しい **Campaign Web ユーザーインターフェイス**：中央のAdobe Experience Cloud環境を通じて使用できます。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。Adobe Experience Cloudに接続し、Adobe Campaign Web インターフェイスにアクセスする方法を説明します。 [このページの](campaign-ui.md#ac-web-ui).
 
-
-* Adobe Campaign v8 との統合 **Adobe Experience Manager as a Cloud Service**&#x200B;に含まれ、 Adobe Campaign Web ユーザーインターフェイスからのみ利用できるオーサリング機能を備えています。
-
-* これで、 **Adobe Experience Manager Assets Library** をExperience CloudAssets と一緒に ( **Adobe Experience Cloudとの統合** パッケージがAdobe Campaignインスタンスにインストールされている。
+* クライアントコンソールの 32 ビットバージョンは非推奨（廃止予定）となりました。 8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。 64 ビット版のクライアントコンソールへのアップグレードはシームレスです。 オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=ja)を参照してください。
 
 
 ### 一般的な機能強化 {#improvements-8-6-1}
 
 * Campaign v8.6 では、のスループットが向上しました。 **メール配信トラッキング指標**. 最適化されたプロセスにより、取り込みのトラッキングと計算時間が短縮され、配信の主要指標をより迅速に確認できます。
 
+* Campaign v8 インスタンスを Azure Synapse 外部データベースに接続できるようになりました。この接続は、新しい外部アカウントで管理します。
+
+* Adobe Campaign v8 との統合 **Adobe Experience Manager as a Cloud Service**&#x200B;に含まれ、 Adobe Campaign Web ユーザーインターフェイスからのみ利用できるオーサリング機能を備えています。
+
+* これで、 **Adobe Experience Manager Assets Library** をExperience CloudAssets と一緒に ( **Adobe Experience Cloudとの統合** パッケージがAdobe Campaignインスタンスにインストールされている。
+
+* クライアントコンソールからオペレーターを作成できなくなりました。 ここでは、Admin Console を使用する必要があります。[詳細情報](../start/gs-permissions.md)。
+
+* セキュリティを最適化するために、複数のサードパーティツールを更新しています。
 
 ### 配信品質の更新 {#deliverability-8-6-1}
 

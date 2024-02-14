@@ -5,10 +5,10 @@ description: ローカルの承認
 feature: Workflows, Approvals
 role: User
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '703'
+ht-degree: 93%
 
 ---
 
@@ -82,13 +82,13 @@ ht-degree: 100%
 
 この例では、ワークフロー配信の承認プロセスのセットアップ方法を示します。配信ワークフローの作成について詳しくは、[例：配信ワークフロー](delivery.md#example--delivery-workflow)の節を参照してください。
 
-オペレーターは、2 つの方法（メールメッセージ内にリンクされた Web ページを使用するか、クライアントコンソール経由）のいずれかで、配信を承認できます。
+オペレーターは、2 つの方法（E メールメッセージ内にリンクされた Web ページを使用する方法と、クライアントコンソールを使用する方法）のいずれかで、配信を承認できます。
 
 * Web 承認
 
   管理者グループのオペレーターに送信されたメールで、配信ターゲットを承認できます。メッセージは定義されたテキストと JavaScript 式を使用し、JavaScript 式は計算値によって置き換えられます（ここでは「574」）。
 
-  配信を承認するには、該当するリンクをクリックし、Adobe Campaign クライアントコンソールにログオンします。
+  配信を承認するには、該当するリンクをクリックし、Adobe Campaignクライアントコンソールにログオンします。
 
   ![](assets/new-workflow-valid-webaccess.png)
 

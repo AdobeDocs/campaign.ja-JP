@@ -1,14 +1,14 @@
 ---
 title: Campaign v8 への権限の付与
-description: Campaign v8 に権限を付与する方法を学ぶ ユーザー
+description: Campaign v8 ユーザーに権限を付与する方法を説明します。
 feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 100%
+source-wordcount: '1734'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ Adobe Campaign には組み込みの&#x200B;**製品プロファイル**&#x200B;
 
    * **[!UICONTROL 管理者]**：ワークフロー、配信、スクリプトなどの任意のオブジェクトの実行／作成／編集／削除する権限。
 
-1. **[!UICONTROL 配信オペレーター]**（配信）
+1. **[!UICONTROL 配信オペレーター]** （配信）
 
    このグループのオペレーターは、配信の管理を担当します。配信の作成と準備に必要とされる主なリソース（キャンペーンタイポロジ、配信マッピング、デフォルトテンプレート、パーソナライゼーションブロックなど）にアクセスできます。
 
@@ -113,7 +113,7 @@ Adobe Campaign には組み込みの&#x200B;**製品プロファイル**&#x200B;
    * **[!UICONTROL 配信を準備]**：配信分析を作成、編集および開始する権限。
    * **[!UICONTROL 配信を開始]**：分析済みの配信を承認する権限。
 
-1. **[!UICONTROL キャンペーンマネージャー]**（操作）
+1. **[!UICONTROL キャンペーンマネージャー]** （操作）
 
    このグループのオペレーターは、マーケティングキャンペーンの管理を実行できます。**[!UICONTROL Campaign]**（オプションの Adobe Campaign モジュール）のフレームワーク内で、キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）にアクセスできます。
 
@@ -126,7 +126,7 @@ Adobe Campaign には組み込みの&#x200B;**製品プロファイル**&#x200B;
    >
    >このグループのオペレーターに配信開始の権利は付与されません。
 
-1. **[!UICONTROL コンテンツ寄稿者]**（コンテンツ）
+1. **[!UICONTROL コンテンツ寄稿者]** （コンテンツ）
 
    このグループのユーザーは、**[!UICONTROL コンテンツ管理]**&#x200B;アドオンのコンテキストで、コンテンツフォルダーにアクセスできます。このグループによってオペレーターに付与される権限はありません。
 

@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1400'
 ht-degree: 100%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 100%
 
   サイズは、**length** 属性を使用して指定できます。オプションであり、デフォルト値は「255」です。
 
-* **boolean**：ブール値フィールド可能な値の例：true/false、0/1、yes/no など
+* **boolean**：ブール値フィールド可能な値の例：true または false、0 または 1、yes または no など
 * **byte**、**short**、**long**：整数（1 バイト、2 バイト、4 バイト）。例：年齢、アカウント番号、ポイント数など
 * **double**：倍精度浮動小数点数。例：価格、料金など
 * **date**、**datetime**：日付、および日付 + 時刻。例：生年月日、購入日など

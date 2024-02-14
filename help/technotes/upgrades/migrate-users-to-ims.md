@@ -2,10 +2,10 @@
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: 1cdb21533138623fc603424503063cf3dbc2d94c
-workflow-type: ht
-source-wordcount: '1116'
-ht-degree: 100%
+source-git-commit: b539b84907c7232f236b96ae8dfd11c8998a06b9
+workflow-type: tm+mt
+source-wordcount: '1345'
+ht-degree: 81%
 
 ---
 
@@ -76,7 +76,7 @@ IMS への完全な移行が完了すると、アドビは新しいネイティ�
 
 新規顧客の場合 - ネイティブユーザーの新規作成は最初から許可されていません。
 
-Campaign 管理者は、Adobe Admin Console と Campaign クライアントコンソールを通じて組織のユーザーに権限を付与できます。ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。詳しくは、[このドキュメント](../../v8/start/gs-permissions.md)を参照してください。
+Campaign 管理者は、Adobe Admin Consoleおよび Campaign クライアントコンソールを使用して、組織のユーザーに権限を付与できます。 ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。詳しくは、[このドキュメント](../../v8/start/gs-permissions.md)を参照してください。
 
 ### 現在のネイティブユーザー用のメールアドレスを追加するにはどうすればよいですか？ {#ims-migration-id}
 
@@ -87,7 +87,41 @@ Campaign 管理者は、クライアントコンソールからすべてのネ�
 1. オペレーターフォームの「**連絡窓口**」セクションにオペレーターのメールアドレスを入力します。
 1. 変更内容を保存します。
 
-<!--You can also import a CSV file to update all your operator profiles with their email.-->
+ワークフロースーパーバイザーまたは Campaign 管理者は、ワークフローを使用してオペレーターの一括更新を実行することもできます。
+
++++ワークフローでオペレーターを更新するための主な手順
+
+ネイティブオペレーターの一括更新を実行するには、次の手順に従います。
+
+1. ネイティブ認証モードで Campaign に接続しているすべてのオペレーターを CSV ファイルに抽出するワークフローを作成します。 の使用 **クエリ** アクティビティと **データ抽出（ファイル）** 「 」アクティビティをクリックして CSV ファイルを作成します。 各オペレーターのプロファイルデータに基づいて、次の列をエクスポートできます。 `Name, Label`.
+
+   詳しくは、 **クエリ** アクティビティ [このページ](../../automation/workflow/query.md)
+
+   詳しくは、 **データ抽出（ファイル）** アクティビティ [このページ](../../automation/workflow/extraction--file-.md)
+
+1. オペレーターの E メールを含む新しい列で CSV ファイルを更新します。
+
+1. を使用して、更新されたデータをインポートするワークフローを作成します。 **データの読み込み（ファイル）** アクティビティと **データを更新** 」アクティビティが表示されます。
+
+   ![](assets/update-operators-wf.png){width="70%"}
+
+1. を編集します。 **データの読み込み（ファイル）** 「 」アクティビティを開き、以下のサンプルに従って、更新された CSV ファイルを読み込む設定を定義します。
+
+   ![](assets/data-loading-activity.png){width="70%"}
+
+   詳しくは、 **データの読み込み（ファイル）** アクティビティ [このページ](../../automation/workflow/data-loading--file-.md)
+
+1. を編集します。 **データを更新** 「 」アクティビティを開き、以下のサンプルのように設定を定義します。 なお、 **更新されたディメンション** は次の値に変更されました： `Operators (xtk)`.
+
+   ![](assets/update-data-activity.png){width="70%"}
+
+   詳しくは、 **データを更新** アクティビティ [このページ](../../automation/workflow/update-data.md)
+
+1. ワークフローを実行し、結果を確認します。 E メールアドレスがオペレーターのプロファイルに追加されました。
+
+   ![](assets/updated-operator.png){width="70%"}
+
++++
 
 
 ### IMS 経由で Campaign にログインするにはどうすればよいですか？ {#ims-migration-log}

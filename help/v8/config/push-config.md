@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 100%
+source-wordcount: '1233'
+ht-degree: 97%
 
 ---
 
@@ -498,7 +498,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
    通知メッセージの場合、トラッキングの受信は次の 2 つのレベルで設定する必要があります。
 
-   * `onMessageReceived` （アプリケーションがバックグラウンドにない場合）：実装は前の節で行われました
+   * `onMessageReceived` （アプリケーションが背景にない場合）：実装は前の節で行われました
    * 起動アクティビティ（または `click_action` 関数を使用する場合はターゲット設定アクティビティ）の `onCreate`（アプリケーションがバックグラウンドになっていない）。
 
    開封数／クリック数のトラッキングと同時におこなう必要があります。
@@ -796,7 +796,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 ## 変数 {#variables}
 
-変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign クライアントコンソールの専用モバイルアプリケーションサービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
+変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaignクライアントコンソールの **[!UICONTROL 変数]** 」タブをクリックします。
 
 
 次に、通知で追加された変数をモバイルアプリケーションで収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。

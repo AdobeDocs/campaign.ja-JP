@@ -4,10 +4,10 @@ description: Campaign テクニカルオペレーターを Adobe Developer Conso
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 hidefromtoc: true
-source-git-commit: 9f93057d2d729d4251d914426488f46b6ef24bbb
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 93%
 
 ---
 
@@ -73,14 +73,14 @@ API が正常に接続されると、クライアント ID とクライアント
 1. 関連するすべての製品プロファイルを API（「messagecenter」など）に割り当て、変更内容を保存します。
 1. プロジェクトの「**資格情報の詳細**」タブに移動し、**テクニカルアカウントのメールアドレス**&#x200B;の値をコピーします。
 
-### 手順 4 - クライアントコンソールでテクニカルオペレーターを更新 {#ims-migration-step-4}
+### 手順 4 — クライアントコンソールでテクニカルオペレーターを更新する {#ims-migration-step-4}
 
 この手順は、特定のフォルダー権限またはネームド権限がこのオペレーターに対して（オペレーターのグループ経由ではなく）定義されている場合にのみ必要です。
 
-ここでは、Adobe Campaign クライアントコンソールで新しく作成したテクニカルオペレーターを更新する必要があります。既存のテクニカルオペレーターフォルダーの権限を新しいテクニカルオペレーターに適用する必要があります。
+次に、Adobe Campaignクライアントコンソールで新しく作成したテクニカルオペレーターを更新する必要があります。 既存のテクニカルオペレーターフォルダーの権限を新しいテクニカルオペレーターに適用する必要があります。
 このオペレーターを更新するには、次の手順に従います。
 
-1. Campaign クライアントコンソールのエクスプローラーから、**管理／アクセス管理／オペレーター**&#x200B;を参照します。
+1. Campaign クライアントコンソールのエクスプローラーから、 **管理/アクセス管理/オペレーター**.
 1. API に使用される既存のテクニカルオペレーターにアクセスします。
 1. フォルダー権限を参照し、権限を確認します。
 1. 新しく作成したテクニカルオペレーターに同じ権限を適用します。このオペレーターのメールアドレスは、以前にコピーした&#x200B;**テクニカルアカウントメールアドレス**&#x200B;の値です。
@@ -89,7 +89,7 @@ API が正常に接続されると、クライアント ID とクライアント
 
 >[!CAUTION]
 >
->新しいテクニカルオペレーターは、Campaign クライアントコンソールに追加される API 呼び出しを 1 回以上実行する必要があります。
+>新しい技術オペレーターが Campaign クライアントコンソールに追加する API 呼び出しを少なくとも 1 回おこなっている必要があります。
 >
 
 <!--
@@ -100,7 +100,7 @@ API が正常に接続されると、クライアント ID とクライアント
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.

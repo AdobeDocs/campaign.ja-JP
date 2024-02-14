@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '631'
+ht-degree: 90%
 
 ---
 
@@ -18,54 +18,7 @@ ht-degree: 100%
 
 ## BCC でのメールの使用 {#email-bcc}
 
-<!--
->[!NOTE]
->
->This capability is available starting Campaign v8.3. To check your version, refer to [this section](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)-->
-
-プラットフォームから送信された電子メールのコピーを保持するように Adobe Campaign を設定できます。
-
-Adobe Campaign 自体はアーカイブされたファイルを管理しません。これにより、選択したメッセージを専用の BCC（ブラインドカーボンコピー）メールアドレスに送信し、外部システムを使用して処理およびアーカイブできます。送信された電子メールに対応する .eml ファイルは、SMTP 電子メールサーバーなどのリモートサーバーに転送できます。
-
->[!CAUTION]
->
->プライバシー上の理由から、BCC 電子メールは、個人の身元を特定できる情報（PII）を安全に保存できるアーカイブシステムで処理する必要があります。
-
-アーカイブ先は選択した BCC メールアドレスです。配信の受信者には表示されません。
-
-![](../assets/do-not-localize/speech.png) Managed Cloud Services のユーザーは、[アドビに連絡](../start/campaign-faq.md#support){target="_blank"}して、アーカイブに使用する BCC メールアドレスを伝えてください。
-
-BCC メールアドレスを定義したら、配信レベルで専用オプションを有効にする必要があります。
-
->[!CAUTION]
->
->**[!UICONTROL BCC でメールを送信]**&#x200B;は、デフォルトでは有効になっていません。メール配信または配信テンプレートで手動で有効にする必要があります。
-
-これをおこなうには、以下の手順に従います。
-
-1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;または&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;に移動します。
-1. 目的の配信を選択します。または、標準の&#x200B;**[!UICONTROL メール配信]**&#x200B;テンプレートを複製して、複製されたテンプレートを選択します。
-1. 「**[!UICONTROL プロパティ]**」ボタンをクリックします。
-1. 「**[!UICONTROL 配信]**」タブを選択します。
-1. 「**[!UICONTROL BCC でメールを送信]**」オプションを選択します。
-
-   ![](assets/email-bcc.png)
-
-1. 「**[!UICONTROL OK]**」を選択します。
-
-このテンプレートに基づく各配信に対するすべての送信済みメッセージのコピーが、設定された「BCC でメールを送信」アドレスに送信されます。
-
-次の特性とレコメンデーションに注意してください。
-
-* BCC に設定できるメールアドレスは 1 つだけです。
-
-* BCC アドレスに、送信されるすべてのメールをアーカイブするだけの受信容量があることを確認します。
-
-* BCC でメールを送信<!--with Enhanced MTA-->は、受信者に配信する前に BCC メールアドレスに配信することで、元の配信がバウンスした場合でも BCC メッセージが送信される可能性があります。バウンスについて詳しくは、[配信エラーについて](delivery-failures.md)を参照してください。
-
-* BCC アドレスに送信されたメールが開封され、クリックされた場合は、送信分析の&#x200B;**[!UICONTROL 合計開封数]**&#x200B;と&#x200B;**[!UICONTROL クリック数]**&#x200B;に含められるため、計算の誤りの原因となる可能性があります。
-
-<!--Only successfully sent emails are taken in account, bounces are not.-->
+プラットフォームから送信された電子メールのコピーを保持するようにAdobe Campaignを設定できます。 このオプションについて詳しくは、 [このページ](email-bcc.md).
 
 ## メッセージ形式の選択 {#selecting-message-formats}
 
@@ -138,9 +91,9 @@ BCC メールアドレスを定義したら、配信レベルで専用オプシ�
 
 ![](assets/email-smtp-headers.png)
 
-<!--
-## Generate mirror page {#generating-mirror-page}
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. It can be useful if your recipients are experiencing rendering issues or broken images when trying to view your email in their inbox.
+## ミラーページを生成 {#generating-mirror-page}
 
-Learn how to insert a link to the mirror page in [this section](mirror-page.md).-->
+ミラーページは、web ブラウザーでオンラインアクセス可能な HTML ページです。そのコンテンツはメールと同一です。受信者の受信ボックスで E メールを表示しようとする際に、レンダリングの問題や画像の破損が発生している場合に役立ちます。
+
+ミラーページへのリンクを [この節](mirror-page.md)

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **Campaign v8 に接続するにはどうすればよいですか？**
 
-   Adobe Campaign に接続するには、Campaign クライアントコンソールをダウンロードしてインストールする必要があります。
+   Adobe Campaignに接続するには、Campaign クライアントコンソールをダウンロードしてインストールする必要があります。
 
    ![](../assets/do-not-localize/glass.png) [詳しくは、ここをクリックしてください](connect.md)。
 
@@ -68,7 +68,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **Campaign はどのようにしてダウンロードできますか？**
 
-   インストールプログラムとクライアントコンソールは、アドビのダウンロードセンターから入手できます。
+   インストールプログラムとクライアントコンソールは、Adobe ダウンロードセンターから入手できます。
 
    管理者ユーザーの場合は、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html){target="_blank"}にアクセスして、Adobe Campaign をダウンロードします。
 
@@ -76,7 +76,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **Campaign の専門家と連絡を取ることはできますか？**
 
-   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。 [会話に参加する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **問題をログに記録するにはどうすればよいですか？**

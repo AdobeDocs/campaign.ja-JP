@@ -5,10 +5,10 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
-workflow-type: ht
-source-wordcount: '660'
-ht-degree: 100%
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 97%
 
 ---
 
@@ -24,21 +24,7 @@ Adobe Campaign のコンポーネントとグローバルアーキテクチャ�
 
 ![](assets/do-not-localize//ac-components.png)
 
-### プレゼンテーションレイヤー{#presentation-layer}
 
-Adobe Campaign には、リッチクライアント、シンクライアント、API 統合を通じてアクセスできます。
-
-* リッチクライアント
-
-  Campaign リッチクライアントは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。[Campaign クライアントコンソールの詳細情報](../start/connect.md)。
-
-* シンクライアント
-
-  Adobe Campaign の web アクセス機能を使用すると、web ブラウザーを使用して、Campaign の機能のサブセットにアクセスできます。HTML ユーザーインターフェイスが使用されます。この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。[Campaign への web でのアクセスの詳細情報](../start/connect.md)。
-
-* API を使用した外部アプリケーション
-
-  SOAP プロトコルで公開されている web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。[Campaign API の詳細情報](../dev/api.md)。
 
 ### 永続性レイヤー{#persistance-layer}
 
@@ -60,7 +46,7 @@ Campaign web サーバーは、Campaign web プロセスへのアクセスを制
 
 ![](assets/do-not-localize/ac-processes.png)
 
-Campaign クライアントコンソールは、SOAP XML over HTTP を使用して web サーバーに接続します。web サーバーはセキュリティレイヤーを提供し、JavaScript を使用してアプリケーションレイヤーにリクエストを渡し、Campaign の内部プロセスは SQL を使用してデータベースにアクセスします。
+Campaign クライアントコンソールは、SOAP XML over HTTP を使用して Web サーバーに接続します。 web サーバーはセキュリティレイヤーを提供し、JavaScript を使用してアプリケーションレイヤーにリクエストを渡し、Campaign の内部プロセスは SQL を使用してデータベースにアクセスします。
 
 以下のスタンドアロンデプロイメントの図は、Campaign プロセス間の全体的な通信を示したものです。すべての Campaign コンポーネントが同じマシンにインストールされています。
 

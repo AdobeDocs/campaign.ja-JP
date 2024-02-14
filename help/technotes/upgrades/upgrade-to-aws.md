@@ -2,10 +2,10 @@
 title: Campaign メール送信インフラストラクチャのアップグレード
 description: Campaign メール送信インフラストラクチャのアップグレード
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 68252db5ad53e2a37c76765cd35650f824101289
-workflow-type: ht
+source-git-commit: 4c41e5d1fef1dcb3279a26f6025338e41525e6b3
+workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 開発環境とステージング環境のアップグレードは、**2023年10月**&#x200B;に開始されました。
 
-実稼動環境のアップグレードは、**2024年1月**&#x200B;に開始されました。
+実稼動環境のアップグレードは、で開始します。 **2024 年 1 月**.
 
 ## 今後について{#impact}
 

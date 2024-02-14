@@ -5,9 +5,9 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2573'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 スキーマを作成または拡張する場合は、関連する入力フォームを作成または変更して、それらの変更をエンドユーザーに表示する必要があります。
 
-入力フォームを使用すると、データスキーマに関連付けられたインスタンスを Adobe Campaign クライアントコンソールから編集できます。フォームは名前と名前空間で識別します。
+入力フォームを使用すると、データスキーマに関連付けられたインスタンスを Adobe Campaign クライアントコンソールから編集できます。 フォームは名前と名前空間で識別します。
 
 フォームの識別キーは、名前空間と名前をコロンで区切った文字列です（例：cus:contact）。
 
@@ -518,7 +518,7 @@ ht-degree: 100%
 
 ## チェックボックスの追加 {#checkbox}
 
-チェックボックスはブール状態（選択されているかどうか）を反映します。 デフォルトでは、このコントロールは「ブール」（true／false）フィールドで使用されます。 デフォルト値が 0 または 1 の変数は、このボタンに関連付けることができます。 この値は、**checkValue** 属性を介してオーバーロードできます。
+チェックボックスはブール状態（選択されているかどうか）を反映します。 デフォルトでは、このコントロールは「ブール」（true または false）フィールドで使用されます。デフォルト値が 0 または 1 の変数は、このボタンに関連付けることができます。 この値は、**checkValue** 属性を介してオーバーロードできます。
 
 ```
 <input xpath="@boolean1"/>

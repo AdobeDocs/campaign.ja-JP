@@ -1,36 +1,60 @@
 ---
-title: Campaign のワークスペースの確認
-description: Campaign ワークスペースの参照方法と使用方法を学ぶ
+title: Campaign のユーザーインターフェイスの確認
+description: Campaign のユーザーインターフェイスを参照および使用する方法について説明します。
 feature: Overview
 role: User
 level: Beginner
-exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 8666c04f0e98cd6444af831d47056c46019c6088
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '1005'
+ht-degree: 38%
 
 ---
 
-# Campaign のユーザーインターフェイスの確認
+# ユーザーインターフェイスの確認 {#ui-client-console}
 
-## Campaign UI へのアクセス{#ui-access}
+Adobe Campaignには、クライアントコンソールまたは Web ユーザーインターフェイスからアクセスできます。 また、API を使用して、Campaign プラットフォームでデータの管理やタスクの実行をおこなうこともできます。
 
-[クライアントコンソール](../architecture/general-architecture.md)から Campaign Workspace を利用できます。
+>[!CAUTION]
+>
+>このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。 Campaign Web ユーザーインターフェイスを使用している場合は、 [このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
 
-Campaign クライアントコンソールをインストールして設定する方法については、[この節](../start/connect.md)を参照してください。
+* **クライアントコンソール** - Campaign クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じてAdobe Campaignアプリケーションサーバーと通信するネイティブアプリケーションです。 Campaign クライアントコンソールは、すべての機能と設定を一元化し、ローカルキャッシュに依存するので、必要最小限の帯域幅です。 Campaign クライアントコンソールは、簡単にデプロイできるように設計され、インターネットブラウザーからデプロイし、自動的に更新されるので、HTTP(S) トラフィックを生成するだけなので、特定のネットワーク設定は不要です。 [詳細情報](#ui-access)
+
+  Campaign クライアントコンソールをインストールして設定する方法については、 [この節](../start/connect.md).
+
+<!--    ![](assets/home-page.png) -->
+
+* **Web ユーザーインターフェイス** - v8.6.1 リリース以降、Campaign v8 ユーザーは、中央のAdobe Experience Cloudユーザーインターフェイスを通じて使用できる Web 環境にアクセスできるようになりました。 その後、Web ブラウザーからAdobe Campaignに接続できます。 この新しいインターフェイスでは、主要なマーケティングアクションを作成、管理、実行できます。 ただし、Campaign のすべての機能を使用できるわけではありません。 [詳細情報](#ac-web-ui)。
+
+  Campaign Campaign Web ユーザーインターフェイスは、クライアントコンソールのホームページから使用できます。
+
+  ![](assets/web-ui.png)
+
+  >[!NOTE]
+  >
+  >新しいアクセスカードが表示されない場合は、Adobe Experience Cloud外部アカウント内で次のフィールドを空にしないでください。 **サーバー**, **テナント**, **コールバックサーバー**、および **関連付けマーク**.
+
+* **Web アクセス** - Adobe Campaignの Web アクセス機能を使用すると、Web ブラウザーを使用して、Campaign の機能のサブセットにアクセスでき、HTMLのユーザーインターフェイスを使用できます。 この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。Campaign Web アクセスの詳細 [この節](../start/connect.md#web-access).
+
+* **API**  — より多くの使用例に対処するために、SOAP プロトコルで公開された Web Services API を使用して、システムを外部アプリケーションから呼び出すことができます。 Campaign API の詳細を説明します [このページの](../dev/api.md).
+
+
+## クライアントコンソールの操作 {#ui-access}
+
+Campaign クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じてAdobe Campaignアプリケーションサーバーと通信するネイティブアプリケーションです。 Campaign クライアントコンソールは、すべての機能と設定を一元化し、ローカルキャッシュに依存するので、必要最小限の帯域幅です。 Campaign クライアントコンソールは、簡単にデプロイできるように設計され、インターネットブラウザーからデプロイし、自動的に更新されるので、HTTP(S) トラフィックを生成するだけなので、特定のネットワーク設定は不要です。  [Campaign クライアントコンソールの詳細を説明します](../start/connect.md).
 
 ![](assets/home-page.png)
 
 また、web ブラウザーを使用して Campaign にアクセスすることもできます。このコンテキストでは、Campaign 機能のサブセットのみ使用できます。 [詳細情報](#web-browser)
 
-## UI の参照{#ui-browse}
+### インターフェイスの参照 {#ui-browse}
 
-Campaign に接続したら、ホームページにアクセスします。 機能にアクセスするには、リンクを参照します。UI で使用できる一連の機能は、オプションと権限に応じて異なります。
+Campaign クライアントコンソールに接続したら、ホームページにアクセスします。 機能にアクセスするには、リンクを参照します。インターフェイスで使用できる一連の機能は、オプションと権限によって異なります。
 
-ホームページの中央セクションにあるリンクを使用して、Campaign のヘルプ資料、コミュニティ、サポート web サイトにアクセスします。
+ホームページの中央のセクションにあるリンクを使用して、Campaign のヘルプ資料、コミュニティ、サポート Web サイトにアクセスします。 中央のカードを使用して、新しい Campaign Web ユーザーインターフェイスと Campaign コントロールパネルを参照します。
 
-上部セクションのタブを使用して、Campaign の主な機能を参照します。
+上部セクションのタブを参照して、Campaign の主な機能にアクセスします。
 
 ![](assets/overview-home.png)
 
@@ -48,7 +72,7 @@ Campaign に接続したら、ホームページにアクセスします。 機�
 
 ![](assets/new-tab.png)
 
-## 要素の作成 {#create-an-element}
+### 要素の作成 {#create-an-element}
 
 画面の左側にある「**[!UICONTROL 作成]**」セクションのショートカットを使用して、新しい要素を追加します。リストの上にある「**[!UICONTROL 作成]**」ボタンを使用すると、現在のリストに新しい要素を追加できます。
 
@@ -56,15 +80,16 @@ Campaign に接続したら、ホームページにアクセスします。 機�
 
 ![](assets/new-recipient.png)
 
-## web ブラウザーの使用 {#web-browser}
+<!--
+## Use a web browser {#web-browser}
 
-また、web ブラウザーを使用して、Campaign 機能のサブセットにアクセスすることもできます。
+You can also access a subset of Campaign capabilities through the a web browser.
 
-Web アクセスインターフェイスは、コンソールインターフェイスに類似しています。ブラウザーからは、コンソールと同じナビゲーションおよび表示機能を使用できますが、キャンペーンに対して実行できるアクションは限られています。 例えば、キャンペーンの表示とキャンセルはできますが、キャンペーンを変更することはできません。
+The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns. 
 
-![](../assets/do-not-localize/glass.png) [Campaign web アクセスの詳細情報](../start/connect.md#web-access)。
+![](../assets/do-not-localize/glass.png) [Learn more about Campaign web access](../start/connect.md#web-access).-->
 
-## Campaign エクスプローラーへのアクセス {#ac-explorer-ui}
+### Campaign エクスプローラーへのアクセス {#ac-explorer-ui}
 
 Campaign エクスプローラーを参照して、すべての Adobe Campaign の機能と設定にアクセスします。
 
@@ -78,21 +103,37 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 
 * 下部のセクションには、選択したレコードの詳細が表示されます。
 
-## 言語{#languages}
 
-Campaign v8 ユーザーインターフェイスは、次の言語で使用できます。
+## Campaign Web ユーザーインターフェイス {#ac-web-ui}
 
-* 英語（英国）
-* 英語（米国）
-* フランス語
-* ドイツ語
-* 日本語
+v8.6.1 リリース以降、Campaign v8 クライアントコンソールユーザーは、中央のAdobe Experience Cloudユーザーインターフェイスを通じて使用できる Web 環境にアクセスできるようになりました。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
-言語は、インストールプロセス中に選択します。
+![Adobe Campaign Web ユーザーインターフェイスホームページ](assets/ac-web-home.png)
 
->[!CAUTION]
->
->インスタンス作成後に言語を変更することはできません。
+新しい Campaign Web ユーザーインターフェイスの詳細については、 [このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
+追加機能および高度な機能、設定および設定は、クライアントコンソールでのみ使用できます。 両方のユーザーインターフェイスで使用できる機能の詳細を説明します [Campaign Web ユーザーインターフェイスドキュメントのを参照してください。](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
+
+
+## サポートされている言語 {#languages}
+
+サポートされる言語は、ユーザーインターフェイスによって異なります。
+
+* Campaign v8 クライアントコンソールインターフェイスでサポートされる言語は次のとおりです。
+
+   * 英語（英国）
+   * 英語（米国）
+   * フランス語
+   * ドイツ語
+   * 日本語
+
+
+  >[!CAUTION]
+  >
+  >言語は、インストールプロセス中に選択され、後で変更することはできません。
+
+* Campaign の Web ユーザーインターフェイスでサポートされている言語の場合、 [このページを参照してください。](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
+
 
 言語は、日付および時刻の形式に影響します。
 

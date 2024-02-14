@@ -5,9 +5,9 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '968'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,10 @@ Campaign でプライバシーリクエストを管理するには、まず[名�
 
 ![](../assets/do-not-localize/speech.png)**アクセス権**&#x200B;および&#x200B;**忘れられる権利**（削除リクエスト）について詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"}を参照してください。
 
-
+<!--
 >[!NOTE]
 >
->この機能は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
+>This capability is available starting Campaign v8.3. To check your version, refer to [this section](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)-->
 
 ## 名前空間を定義 {#namespaces}
 

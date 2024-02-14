@@ -5,10 +5,10 @@ description: マーケティングリソースの管理方法を説明します
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 ![](assets/mkt-resouce-approve.png)
 
-権限のあるオペレーターは、承認または却下できます。承認または却下するには、送信されたメールメッセージを使用（通知メッセージ内のリンクをクリック）するか、クライアントコンソールを使用（「**[!UICONTROL 承認]**」ボタンをクリック）します。
+権限のあるオペレーターは、承認または却下できます。この操作は、送信された E メールメッセージ経由（通知メッセージ内のリンクをクリック）またはクライアントコンソール経由 ( **[!UICONTROL 承認]** ) ボタンをクリックします。
 
 承認ウィンドウが表示され、コメントを入力できます。
 

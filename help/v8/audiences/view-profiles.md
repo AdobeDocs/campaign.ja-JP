@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 85%
 
 ---
 
@@ -84,14 +84,12 @@ ht-degree: 100%
 
 ## アクティブなプロファイル {#active-profiles}
 
-アクティブなプロファイルは、請求の対象として考慮されるプロファイルです。
+アクティブなプロファイルとは、お客様が過去 12 ヶ月間に任意のチャネルを介して通信しようとしたプロファイルです。 ライセンス指標は、アクティブなプロファイルに基づいています。 詳しくは、 [Adobe Campaignの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-請求に関係するのは、**アクティブ**&#x200B;なプロファイルのみです。過去 12 か月以内にいずれかのチャネルでターゲットになるか通信がおこなわれたプロファイルは、アクティブとみなされます。
-
-複数の配信のターゲットになっているプロファイルは 1 回だけカウントされます。
-
-アクティブなプロファイルの数は、**マーケティングインスタンス**&#x200B;にのみ使用できます。実行インスタンス、すなわち MID（ミッドソーシング）インスタンスおよび RT（Message Center／リアルタイムメッセージング）インスタンスには使用できません。
-
->[!NOTE]
+>[!CAUTION]
 >
->インスタンスで使用されているアクティブなプロファイル数は、Campaign コントロールパネルから直接監視できます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
+>* 複数の配信のターゲットになっているプロファイルは 1 回だけカウントされます。
+>
+>* X( 旧称：Twitter) でのソーシャルマーケティングのコンテキストでターゲット設定されたプロファイルは、アクティブなプロファイルとは見なされません。
+
+インスタンス上のアクティブなプロファイルの数は、CampaignCampaign コントロールパネルから直接監視できます。 詳しくは、 [Campaign コントロールパネル文書](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}.

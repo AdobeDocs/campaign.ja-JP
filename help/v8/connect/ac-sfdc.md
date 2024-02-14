@@ -5,10 +5,10 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -46,7 +46,7 @@ Salesforce データを Adobe Campaign にインポートおよびエクスポ�
 
 >[!NOTE]
 >
->設定を承認するには、Adobe Campaign クライアントコンソールからログオフし、再度ログオンする必要があります。
+>設定を承認するには、Adobe Campaignクライアントコンソールからログオフし、再度ログオンする必要があります。
 
 ## 同期するテーブルを選択{#sfdc-create-tables}
 

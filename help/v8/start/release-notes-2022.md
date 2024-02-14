@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
-workflow-type: ht
-source-wordcount: '1853'
-ht-degree: 100%
+source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+workflow-type: tm+mt
+source-wordcount: '1925'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 _2022年10月28日（PT）_
 
-**改善点**
+**修正点**
 
 * Adobe Campaign Enhanced MTA を使用する場合に、成功の配信達成度が正しく更新されない問題を修正しました。（NEO-50462）
 
@@ -94,7 +94,7 @@ _2022年9月30日（PT）_
 
 [Campaign 互換性マトリックス](compatibility-matrix.md)を参照してください。
 
-**パッチ**
+**修正点**
 
 * FeatureFlag_GZIP_Compression オプションが有効になっている場合に MID インスタンスで配信ログのステータス更新に影響を及ぼす問題を修正しました。（NEO-49183）
 * 連絡日になっても配信が&#x200B;**保留中**&#x200B;ステータスのままになることがある問題を修正しました。（NEO-48079）
@@ -121,11 +121,11 @@ _2022年9月30日（PT）_
 
 >[!CAUTION]
 >
-> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#download-ac-console)を参照してください。
+> クライアントコンソールのアップグレードは必須です。 クライアントコンソールをアップグレードする方法については、こちらを参照してください。 [ページ](../start/connect.md#download-ac-console).
 
 _2022年10月7日（PT）_
 
-**改善点**
+**修正点**
 
 * FeatureFlag_GZIP_Compression オプションが有効になっている場合に MID インスタンスで配信ログのステータス更新に影響を及ぼす問題を修正しました。（NEO-49183）
 * **データベースのクリーンアップ**&#x200B;テクニカルワークフローでは、カスタムステージングスキーマも処理するようになりました。（NEO-48974）
@@ -230,9 +230,9 @@ _2022年5月18日（PT）_
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * 1 つのミッドソーシングで複数のアクティブな LINE アカウントを設定できるようになりました。
 * Web プロセスのデフォルト接続数が 50 から 150 に増えました。
-* Campaign は、重複したキーが Snowflake データベースに挿入されるのを防ぐための、一連の新しいガードレールを備えています。[詳細を表示](../architecture/keys.md)
+* Campaign は、重複したキーが Snowflake データベースに挿入されるのを防ぐための、一連の新しいガードレールを備えています。[詳細情報](../architecture/keys.md)
 
-**パッチ**
+**修正点**
 
 * 同じ繰り返し配信でシードとコントロール母集団を使用する際に発生していた問題を修正しました。（NEO-41197）
 * パーソナライゼーションブロックに次の文字 `' & < > "` のいずれかが含まれている場合に、送信プロセス中に同じ deliveryPart に属するすべての受信者（最大 256）の電子メール送信がブロックされる、FFDA の問題を修正しました。パーソナライゼーションブロックでこれらの文字がサポートされるようになりました（例：firstname=&quot;Brian O&#39;Neil&quot;）。（NEO-43184）
@@ -243,7 +243,7 @@ _2022年5月18日（PT）_
 
 _2022年2月2日（PT）_
 
-**パッチ**
+**修正点**
 
 * タイポロジルールで定義されているメッセージの最大数に到達した場合に、配信の準備が失敗する問題を修正しました。
 * メールアドレスに「s」の文字が含まれている場合に、Adobe Analytics コネクタの設定中に発生していた問題を修正しました。
