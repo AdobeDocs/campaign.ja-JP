@@ -2,7 +2,7 @@
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: b539b84907c7232f236b96ae8dfd11c8998a06b9
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 81%
@@ -97,7 +97,7 @@ Campaign 管理者は、クライアントコンソールからすべてのネ�
 
    詳しくは、 **クエリ** アクティビティ [このページ](../../automation/workflow/query.md)
 
-   詳しくは、 **データ抽出（ファイル）** アクティビティ [このページ](../../automation/workflow/extraction--file-.md)
+   詳しくは、 **データ抽出（ファイル）** アクティビティ [このページ](../../automation/workflow/extraction-file.md)
 
 1. オペレーターの E メールを含む新しい列で CSV ファイルを更新します。
 
@@ -109,7 +109,7 @@ Campaign 管理者は、クライアントコンソールからすべてのネ�
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   詳しくは、 **データの読み込み（ファイル）** アクティビティ [このページ](../../automation/workflow/data-loading--file-.md)
+   詳しくは、 **データの読み込み（ファイル）** アクティビティ [このページ](../../automation/workflow/data-loading-file.md)
 
 1. を編集します。 **データを更新** 「 」アクティビティを開き、以下のサンプルのように設定を定義します。 なお、 **更新されたディメンション** は次の値に変更されました： `Operators (xtk)`.
 

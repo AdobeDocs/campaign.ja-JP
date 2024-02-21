@@ -5,7 +5,7 @@ description: フロー制御アクティビティのリスト
 feature: Workflows
 role: User
 exl-id: 904f2d94-bd3e-4c46-aeab-2ef77a7bdeee
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 * **[承認](approval.md)**：実行を続行するための承認を求めるメールをオペレーターまたはオペレーターのグループに送信し、承認を待機します。
 * **[外部シグナル](external-signal.md)**：アウトバウンドトランジションを有効にします。
 * **[分岐](fork.md)**：すべてのアウトバンドトランジションを有効化できます。
-* **[ジャンプ（開始点と終了点）](jump--start-point-and-end-point-.md)**：リンクを使用せずに遷移を実装できます。
+* **[ジャンプ（開始点と終了点）](jump-start-point-and-end-point.md)**：リンクを使用せずに遷移を実装できます。
 * **[開始と終了](start-and-end.md)**：ワークフローの開始ポイントと終了ポイントを表示できます。
 * **[スケジューラー](scheduler.md)**：ワークフロー実行スケジュールを定義できます。
 * **[サブワークフロー](sub-workflow.md)**：別のワークフローを実行できます。

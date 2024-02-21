@@ -5,7 +5,7 @@ description: クエリワークフローアクティビティの詳細を説明�
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 98%
@@ -66,7 +66,7 @@ ht-degree: 98%
 ![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * 「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択し、Adobe Campaign データベース内のデータを選択します。
-* 「**[!UICONTROL 外部データ]**」を選択し、外部データベース内のデータを追加します。このオプションは、**Federated Data Access** オプションを購入済みである場合のみ、使用できます。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database--fda-.md)を参照してください。
+* 「**[!UICONTROL 外部データ]**」を選択し、外部データベース内のデータを追加します。このオプションは、**Federated Data Access** オプションを購入済みである場合のみ、使用できます。詳しくは、[外部データベースへのアクセス（FDA）](accessing-an-external-database-fda.md)を参照してください。
 * 「**[!UICONTROL オファーの提案]**」オプションを選択し、オファーエンジンによって生成された最良の提案を保存する列セットを追加します。このオプションは、**インタラクション**&#x200B;モジュールを購入済みである場合のみ、使用できます。
 
 プラットフォームにオプションモジュールが何もインストールされていない場合、このステージは表示されません。次のステージに直接移動します。

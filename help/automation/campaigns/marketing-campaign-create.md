@@ -5,7 +5,7 @@ description: マーケティングキャンペーンを作成して実行する�
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 92%
@@ -92,7 +92,7 @@ ht-degree: 92%
 * [アセットとドキュメントの管理](marketing-campaign-assets.md)
 * [ターゲットオーディエンスの構築](marketing-campaign-target.md)
 * [承認プロセスの設定](marketing-campaign-approval.md)
-* [在庫と予算の管理](providers--stocks-and-budgets.md)
+* [在庫と予算の管理](providers-stocks-and-budgets.md)
 
 
 ### キャンペーン設定の編集 {#campaign-settings}
@@ -102,7 +102,7 @@ ht-degree: 92%
 キャンペーンごとに、次の機能を使用できます。
 
 * ドキュメントとリソースの参照：ドキュメント（概要、レポート、画像など）とキャンペーンを関連付けることができます。あらゆるドキュメントフォーマットをサポートしています。[詳細情報](marketing-campaign-deliveries.md#manage-associated-documents)。
-* コストの定義：Adobe Campaign では、キャンペーンごとに、コストエントリと、マーケティングキャンペーン作成時に使用できるコスト計算構造を定義できます。例えば、印刷コスト、外部エージェンシーの利用、部屋の賃借などがあります。[詳細情報](providers--stocks-and-budgets.md#defining-cost-categories)。
+* コストの定義：Adobe Campaign では、キャンペーンごとに、コストエントリと、マーケティングキャンペーン作成時に使用できるコスト計算構造を定義できます。例えば、印刷コスト、外部エージェンシーの利用、部屋の賃借などがあります。[詳細情報](providers-stocks-and-budgets.md#defining-cost-categories)。
 * 目標の定義：購読者数や取引高など、キャンペーンの定量化可能な目標を定義できます。この情報は、後でキャンペーンレポートで使用します。
 * シードアドレスとコントロール母集団を管理します。[詳細情報](marketing-campaign-deliveries.md#defining-a-control-group)。
 * 承認の管理：承認を得る処理や、必要に応じてレビュー担当のオペレーターまたはオペレーターのグループを選択できます。[詳細情報](marketing-campaign-approval.md#checking-and-approving-deliveries)。

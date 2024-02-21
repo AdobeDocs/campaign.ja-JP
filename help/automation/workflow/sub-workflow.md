@@ -4,9 +4,9 @@ title: サブワークフロー
 description: サブワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 1 つのワークフローで複数のサブワークフローを呼び出すことができます。サブワークフローは、同期して実行されます。
 
-以下の例では、プライマリワークフローが、ジャンプを使用してサブワークフローを呼び出しています。ジャンプタイプのグラフィカルオブジェクトについて詳しくは、[この節](jump--start-point-and-end-point-.md)を参照してください。
+以下の例では、プライマリワークフローが、ジャンプを使用してサブワークフローを呼び出しています。ジャンプタイプのグラフィカルオブジェクトについて詳しくは、[この節](jump-start-point-and-end-point.md)を参照してください。
 
 1. 別のワークフローでサブワークフローとして使用するワークフローを作成します。
 1. ワークフローの最初に、優先度が 1 の&#x200B;**[!UICONTROL ジャンプ (終了点)]** アクティビティを挿入します。「終了点」タイプのジャンプが複数ある場合、Adobe Campaign は一番小さい数の「終了点」ジャンプを使用します。

@@ -5,7 +5,7 @@ description: マーケティングリソースの管理方法を説明します
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 97%
@@ -172,7 +172,7 @@ Adobe Campaign でパブリッシュするには、適切なワークフロー�
 
 マーケティングリソースを在庫と関連付けるには、次の手順に従います。
 
-1. 在庫を編集するか、新しい在庫を作成します。在庫について詳しくは、[この節](../campaigns/providers--stocks-and-budgets.md#stock-management)を参照してください。
+1. 在庫を編集するか、新しい在庫を作成します。在庫について詳しくは、[この節](../campaigns/providers-stocks-and-budgets.md#stock-management)を参照してください。
 
 1. 在庫品目を追加し、対応するマーケティングリソースを選択します。
 

@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
-source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 100%
          + [承認](workflow/approval.md)
          + [外部シグナル](workflow/external-signal.md)
          + [分岐](workflow/fork.md)
-         + [ジャンプ（開始点と終了点）](workflow/jump--start-point-and-end-point-.md)
+         + [ジャンプ（開始点と終了点）](workflow/jump-start-point-and-end-point.md)
          + [開始と終了](workflow/start-and-end.md)
          + [スケジューラー](workflow/scheduler.md)
          + [サブワークフロー](workflow/sub-workflow.md)
@@ -74,9 +74,9 @@ ht-degree: 100%
          + [コンテンツ管理](workflow/content-management.md)
          + [連続配信](workflow/continuous-delivery.md)
          + [クロスチャネル配信](workflow/cross-channel-deliveries.md)
-         + [データ抽出（ファイル）](workflow/extraction--file-.md)
-         + [データ読み込み (ファイル)](workflow/data-loading--file-.md)
-         + [データの読み込み（RDBMS）](workflow/data-loading--rdbms-.md)
+         + [データ抽出（ファイル）](workflow/extraction-file.md)
+         + [データ読み込み (ファイル)](workflow/data-loading-file.md)
+         + [データの読み込み（RDBMS）](workflow/data-loading-rdbms.md)
          + [配信](workflow/delivery.md)
          + [配信コントロール](workflow/delivery-control.md)
          + [ローカルの承認](workflow/local-approval.md)
@@ -128,7 +128,7 @@ ht-degree: 100%
       + [詳細設定パラメーター](workflow/advanced-parameters.md)
       + [JavaScript のスクリプトとテンプレート](workflow/javascript-scripts-and-templates.md)
       + [ワークフローでの JavaScript コードの例](workflow/javascript-in-workflows.md)
-      + [外部データベースへのアクセス](workflow/accessing-an-external-database--fda-.md)
+      + [外部データベースへのアクセス](workflow/accessing-an-external-database-fda.md)
       + [権限の管理](workflow/managing-rights.md)
       + [アクティビティ画像の変更](workflow/change-activity-images.md)
       + [タイムゾーンの管理](workflow/managing-time-zones.md)
@@ -142,7 +142,7 @@ ht-degree: 100%
    + [承認の設定と管理](campaigns/marketing-campaign-approval.md)
    + [繰り返しキャンペーンと定期的なキャンペーン](campaigns/recurring-periodic-campaigns.md)
    + [キャンペーンの監視](campaigns/marketing-campaign-monitoring.md)
-   + [プロバイダー、在庫、予算](campaigns/providers--stocks-and-budgets.md)
+   + [プロバイダー、在庫、予算](campaigns/providers-stocks-and-budgets.md)
 + キャンペーンの最適化（アドオン）{#campaign-optimization}
    + [キャンペーンタイポロジの概要](campaign-opt/campaign-typologies.md)
    + [フィルタリングルール](campaign-opt/filtering-rules.md)

@@ -5,10 +5,10 @@ description: マーケティングキャンペーンドキュメントと配信�
 feature: Campaigns
 role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 概要には、項目、パーソナライゼーションフィールドおよびオファーを含めることができます。
 
 * 項目には、ここで参照および記述し、配信に添付する物理的なドキュメントなどを指定できます。
-* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。これにより、特定のターゲット向けの配信（ウェルカムオファーやディスカウントなど）で使用する値を作成できます。こうした値は Adobe Campaign で作成し、「**[!UICONTROL パーソナライゼーションフィールドをインポート...]**」リンクから概要にインポートします。
+* パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。したがって、特定のターゲットの配信（ようこそオファー、割引など）に使用する値を作成できます。 これらはAdobe Campaignで作成され、を使用して概要にインポートされます。 **[!UICONTROL パーソナライゼーションフィールドをインポート…]** リンク。
 
   ![](assets/del-outline-perso-field.png)
 
@@ -120,4 +120,4 @@ ht-degree: 100%
 
 ![](assets/campaign-export-template.png)
 
-エクスポートモデルは、該当する配信用に選択されたサービスプロバイダーに関連付ける必要があります。[この節](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。
+エクスポートモデルは、該当する配信用に選択されたサービスプロバイダーに関連付ける必要があります。[この節](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures)を参照してください。

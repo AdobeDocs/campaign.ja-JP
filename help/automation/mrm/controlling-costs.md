@@ -5,9 +5,9 @@ description: コスト管理の方法を説明します
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2498'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 予算を定義します。[詳細情報](#creating-a-budget)。
 
-1. コスト計算方法の定義：サービスプロバイダーのコスト構造を定義します。 [詳細情報](../campaigns/providers--stocks-and-budgets.md)。
+1. コスト計算方法の定義：サービスプロバイダーのコスト構造を定義します。 [詳細情報](../campaigns/providers-stocks-and-budgets.md)。
 
 1. キャンペーンコスト（配信／タスク）の定義：配信およびタスクにかかるコストは、個別に入力することも、キャンペーンのテンプレートでグローバルに入力することもできます。[詳細情報](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
 
@@ -144,7 +144,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 >[!NOTE]
 >
->コストカテゴリとコスト構造について詳しくは、[このページ](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)を参照してください。
+>コストカテゴリとコスト構造について詳しくは、[このページ](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)を参照してください。
 
 ## コストのコミット、計算および請求 {#cost-commitment--calculation-and-charging}
 
@@ -207,7 +207,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 #### 手順 2 - サービスプロバイダーの設定とコスト構造の定義 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. **[!UICONTROL 管理／キャンペーン]**&#x200B;ノードで、サービスプロバイダーとサービステンプレートおよびそのコスト構造を作成します。詳しくは、[この節](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)を参照してください。
+1. **[!UICONTROL 管理／キャンペーン]**&#x200B;ノードで、サービスプロバイダーとサービステンプレートおよびそのコスト構造を作成します。詳しくは、[この節](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)を参照してください。
 
    ダイレクトメール配信に、コストカテゴリ「**[!UICONTROL 封筒]**」（タイプ 114 x 229 と 162 x 229）、「**[!UICONTROL 送料]**」および「**[!UICONTROL 印刷]**」（タイプ A3 と A4）を作成します。以下のコスト構造を作成します。
 

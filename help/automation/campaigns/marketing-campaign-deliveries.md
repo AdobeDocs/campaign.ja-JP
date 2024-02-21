@@ -5,9 +5,9 @@ description: マーケティングキャンペーン配信の詳細
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '754'
 ht-degree: 100%
 
 ---
@@ -112,4 +112,4 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >予算について詳しくは、[この節](providers--stocks-and-budgets.md)を参照してください。
+  >予算について詳しくは、[この節](providers-stocks-and-budgets.md)を参照してください。

@@ -5,7 +5,7 @@ description: アクションアクティビティについて
 feature: Workflows, Data Management
 role: User
 exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
@@ -17,11 +17,11 @@ ht-degree: 100%
 * **[コンテンツ管理](content-management.md)**：コンテンツの作成またはカスタマイズができます。
 * **[連続配信](continuous-delivery.md)**：アクティビティに指定されたシナリオから配信を開始できます。
 * **[クロスチャネル配信](cross-channel-deliveries.md)**（キャンペーンワークフローのみ）：メール、プッシュ、モバイル、ダイレクトメールなどの対応するチャネルで配信を設定できます。
-* **[データ読み込み (ファイル)](data-loading--rdbms-.md)**：外部データソースにアクセスし、そのデータを使用できます。
-* **[データ読み込み (RDBMS)](data-loading--rdbms-.md)**：外部データベースにアクセスしてデータを取得できます。
+* **[データ読み込み (ファイル)](data-loading-rdbms.md)**：外部データソースにアクセスし、そのデータを使用できます。
+* **[データ読み込み (RDBMS)](data-loading-rdbms.md)**：外部データベースにアクセスしてデータを取得できます。
 * **[配信](delivery.md)**：配信アクションを設定できます。
 * **[配信コントロール](delivery-control.md)**：配信を開始、一時停止、または中止できます。
-* **[抽出 (ファイル)](extraction--file-.md)**：ファイル内のテーブルからデータを抽出できます。
+* **[抽出 (ファイル)](extraction-file.md)**：ファイル内のテーブルからデータを抽出できます。
 * **[読み込み (SOAP)](loading-soap.md)**：SOAP 呼び出しでデータを収集できます。
 * **[ローカルの承認](local-approval.md)**：分散マーケティングのコンテキスト内で承認とターゲティング通知を行うことができます（オプションモジュール）。
 * **[Nlserver モジュール](nlserver-module.md)**：引数で nlserver モジュールを開始します。

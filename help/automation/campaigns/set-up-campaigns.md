@@ -5,7 +5,7 @@ description: マーケティングキャンペーンの開始方法を学ぶ
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 100%
@@ -49,7 +49,7 @@ Adobe Campaign でマーケティングキャンペーンを作成および実�
 キャンペーンをダッシュボードでトラッキングし、Campaign UI で配信のステータスと実行を確認します。[詳細情報](marketing-campaign-monitoring.md)。
 
 1. **予算、在庫、関連コストのトラッキング**
-Adobe Campaign を使用して、予算配分の管理、サプライヤー、在庫およびコストの管理を行います。[詳細情報](providers--stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
+Adobe Campaign を使用して、予算配分の管理、サプライヤー、在庫およびコストの管理を行います。[詳細情報](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
 
 これらの手順が完了したら、[配信を開始](marketing-campaign-deliveries.md#start-a-delivery)し、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて[関連ドキュメントを管理](marketing-campaign-deliveries.md#manage-associated-documents)することができます。また、キャンペーンと配信の[実行のトラッキングとモニタリング](marketing-campaign-monitoring.md)を行うこともできます。
 
