@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 97%
+source-wordcount: '457'
+ht-degree: 79%
 
 ---
 
@@ -39,17 +39,17 @@ Adobe Campaign では、**受信者**&#x200B;とは、配信（メール、SMS �
 キャンペーンワークフローでのオーディエンスの作成方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja)を参照してください。
 
 
-## アクティブなプロファイル{#active-profiles}
+## アクティブなプロファイル {#active-profiles}
 
-各 Campaign インスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金用にその数がカウントされます。購入したアクティブなプロファイルの数については、最新の契約書を参照してください。
+アクティブなプロファイルとは、お客様が過去 12 ヶ月間に任意のチャネルを介して通信しようとしたプロファイルです。 ライセンス指標は、アクティブなプロファイルに基づいています。 詳しくは、 [Adobe Campaignの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-**プロファイル**&#x200B;とは、エンドカスタマー、見込み客、リードなどを表す情報のレコードです。例えば、Cookie ID、カスタマー ID、モバイル ID、特定のチャネルに関連するその他の情報などを含む[受信者テーブル](../dev/datamodel.md)や外部テーブルなどのレコードです。アクティブであると見なすプロファイルは、過去 12 か月以内に、いずれかのチャネルを介してターゲットに設定された、またはやり取りしたプロファイルです。
+インスタンス上のアクティブなプロファイルの数は、CampaignCampaign コントロールパネルから直接監視できます。 詳しくは、 [Campaign コントロールパネル文書](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}.
 
-<!--
-You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
-
-![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
--->
+>[!CAUTION]
+>
+>* 複数の配信のターゲットになっているプロファイルは 1 回だけカウントされます。
+>
+>* X(Twitter) でのソーシャルマーケティングのコンテキストでターゲット化されたプロファイルは、アクティブなプロファイルとは考慮されません。
 
 ## プライバシーと同意{#privacy-and-consent}
 

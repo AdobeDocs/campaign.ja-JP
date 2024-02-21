@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
-source-git-commit: b5574ba2d9fa520b701f7af4e34862304b825a66
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 85%
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 
@@ -80,16 +80,3 @@ ht-degree: 85%
 * **トラッキング**：選択したプロファイルのすべてのトラッキングログ用。この情報は、配信後のプロファイルの行動をトラッキングする場合に使用します。このタブには、配信でトラッキングされたすべての URL の累積合計が表示されます。このリストは設定可能で、通常は、クリックされた URL、クリックの日時、および URL が含まれていたドキュメントを含みます。
 
   トラッキングについて詳しくは、[この節](../start/tracking.md)を参照してください。
-
-
-## アクティブなプロファイル {#active-profiles}
-
-アクティブなプロファイルとは、お客様が過去 12 ヶ月間に任意のチャネルを介して通信しようとしたプロファイルです。 ライセンス指標は、アクティブなプロファイルに基づいています。 詳しくは、 [Adobe Campaignの製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
-
->[!CAUTION]
->
->* 複数の配信のターゲットになっているプロファイルは 1 回だけカウントされます。
->
->* X( 旧称：Twitter) でのソーシャルマーケティングのコンテキストでターゲット設定されたプロファイルは、アクティブなプロファイルとは見なされません。
-
-インスタンス上のアクティブなプロファイルの数は、CampaignCampaign コントロールパネルから直接監視できます。 詳しくは、 [Campaign コントロールパネル文書](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}.
