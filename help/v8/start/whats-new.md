@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 43b6ee223d0d6b6a0e2fd9f067378965274e63a4
+source-git-commit: c8eb0972226da40aae5def0518660f9297697eb2
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 84%
+source-wordcount: '1029'
+ht-degree: 83%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Campaign v8 は管理Cloud Serviceとして利用でき、事前の監視�
 
 マネージドサービスのアプローチにより、マーケティング担当者は、社内の IT リソースからの大量のサポートを必要とせずに、クラウドインフラストラクチャの運用規模と経済性を活用できます。 Adobeのコンサルティングチームと導入チームは、マーケティング計画、既存の慣行、データ要件、メッセージングの量を評価し、最も適切なサービス、サポート、配信品質パッケージを推奨します。 その後、Adobe Campaign Managed Cloud Servicesチームは、キャンペーンのパフォーマンス、ブランドレピュテーション、顧客体験指標などを監視およびレポートできます。
 
-[!BADGE PDF]{type=Informative}[このホワイトペーパーを読む](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} Adobe Campaign Managed Cloud Servicesのビジネス価値の詳細をご覧ください。
+[!BADGE PDF]{type=Informative}[このホワイトペーパーを読む](https://experienceleague.adobe.com/docs/campaign/assets/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} Adobe Campaign Managed Cloud Servicesのビジネス価値の詳細をご覧ください。
 
 新しいクラウドアーキテクチャにより、Campaign はプロセスの合理化、コストの削減、リスクの管理、データセキュリティの向上を実現できます。 Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が付属しています。
 
