@@ -4,10 +4,10 @@ description: Campaign のユーザーインターフェイスを参照および�
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 8666c04f0e98cd6444af831d47056c46019c6088
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 38%
+source-wordcount: '1011'
+ht-degree: 37%
 
 ---
 
@@ -23,17 +23,7 @@ Adobe Campaignには、クライアントコンソールまたは Web ユーザ�
 
   Campaign クライアントコンソールをインストールして設定する方法については、 [この節](../start/connect.md).
 
-<!--    ![](assets/home-page.png) -->
-
 * **Web ユーザーインターフェイス** - v8.6.1 リリース以降、Campaign v8 ユーザーは、中央のAdobe Experience Cloudユーザーインターフェイスを通じて使用できる Web 環境にアクセスできるようになりました。 その後、Web ブラウザーからAdobe Campaignに接続できます。 この新しいインターフェイスでは、主要なマーケティングアクションを作成、管理、実行できます。 ただし、Campaign のすべての機能を使用できるわけではありません。 [詳細情報](#ac-web-ui)。
-
-  Campaign Campaign Web ユーザーインターフェイスは、クライアントコンソールのホームページから使用できます。
-
-  ![](assets/web-ui.png)
-
-  >[!NOTE]
-  >
-  >新しいアクセスカードが表示されない場合は、Adobe Experience Cloud外部アカウント内で次のフィールドを空にしないでください。 **サーバー**, **テナント**, **コールバックサーバー**、および **関連付けマーク**.
 
 * **Web アクセス** - Adobe Campaignの Web アクセス機能を使用すると、Web ブラウザーを使用して、Campaign の機能のサブセットにアクセスでき、HTMLのユーザーインターフェイスを使用できます。 この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。Campaign Web アクセスの詳細 [この節](../start/connect.md#web-access).
 
@@ -42,9 +32,15 @@ Adobe Campaignには、クライアントコンソールまたは Web ユーザ�
 
 ## クライアントコンソールの操作 {#ui-access}
 
-Campaign クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じてAdobe Campaignアプリケーションサーバーと通信するネイティブアプリケーションです。 Campaign クライアントコンソールは、すべての機能と設定を一元化し、ローカルキャッシュに依存するので、必要最小限の帯域幅です。 Campaign クライアントコンソールは、簡単にデプロイできるように設計され、インターネットブラウザーからデプロイし、自動的に更新されるので、HTTP(S) トラフィックを生成するだけなので、特定のネットワーク設定は不要です。  [Campaign クライアントコンソールの詳細を説明します](../start/connect.md).
+Campaign クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じてAdobe Campaignアプリケーションサーバーと通信するネイティブアプリケーションです。 Campaign クライアントコンソールは、すべての機能と設定を一元化し、ローカルキャッシュに依存するので、必要最小限の帯域幅です。 Campaign クライアントコンソールは、簡単にデプロイできるように設計され、インターネットブラウザーからデプロイし、自動的に更新されるので、HTTP(S) トラフィックを生成するだけなので、特定のネットワーク設定は不要です。  [Campaign クライアントコンソールの詳細を説明します](../start/connect.md). クライアントコンソールのホームページにある専用カードから、Campaign Web ユーザーインターフェイスに切り替えることができます。
 
-![](assets/home-page.png)
+![](assets/web-ui.png)
+
+
+>[!NOTE]
+>
+>新しいアクセスカードが表示されない場合は、Adobe Experience Cloud外部アカウント内で次のフィールドを空にしないでください。 **サーバー**, **テナント**, **コールバックサーバー**、および **関連付けマーク**.
+
 
 また、web ブラウザーを使用して Campaign にアクセスすることもできます。このコンテキストでは、Campaign 機能のサブセットのみ使用できます。 [詳細情報](#web-browser)
 
