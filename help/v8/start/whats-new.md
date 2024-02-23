@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
+source-git-commit: 43b6ee223d0d6b6a0e2fd9f067378965274e63a4
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 86%
+source-wordcount: '1028'
+ht-degree: 84%
 
 ---
 
@@ -21,8 +21,6 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 ![](assets/home-page.png)
 
 ## 主な機能{#key-capabilities}
-
-主な機能は次のとおりです。
 
 ### ワークフローの一元管理{#central-wf-mgt}
 
@@ -74,11 +72,17 @@ Adobe Campaign v8 は管理Cloud Serviceとして利用でき、事前の監視�
 
 マネージドサービスのアプローチにより、マーケティング担当者は、社内の IT リソースからの大量のサポートを必要とせずに、クラウドインフラストラクチャの運用規模と経済性を活用できます。 Adobeのコンサルティングチームと導入チームは、マーケティング計画、既存の慣行、データ要件、メッセージングの量を評価し、最も適切なサービス、サポート、配信品質パッケージを推奨します。 その後、Adobe Campaign Managed Cloud Servicesチームは、キャンペーンのパフォーマンス、ブランドレピュテーション、顧客体験指標などを監視およびレポートできます。
 
-[このホワイトペーパーをダウンロード](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf) Adobe Campaign Managed Cloud Servicesのビジネス価値の詳細をご覧ください。
+[!BADGE PDF]{type=Informative}[このホワイトペーパーを読む](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} Adobe Campaign Managed Cloud Servicesのビジネス価値の詳細をご覧ください。
 
->[!NOTE]
+新しいクラウドアーキテクチャにより、Campaign はプロセスの合理化、コストの削減、リスクの管理、データセキュリティの向上を実現できます。 Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が付属しています。
+
+
+>[!AVAILABILITY]
 >
->新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が付属しています。
+>* Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200B;利用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
+>
+>* 既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
+
 
 ### 速度と規模 {#speed-scale}
 
@@ -87,12 +91,6 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 [Campaign v8 Enterprise](../architecture/enterprise-deployment.md) では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいサービスにより、Campaign v8 ではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。[!DNL Snowflake] は Campaign のクラウドデータベースです。スピードと耐久性を実現し、システムアクティビティのピーク時にも過負荷が発生しません。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
 ![](../assets/do-not-localize/glass.png) [エンタープライズ（FFDA）デプロイメントの詳細情報](../architecture/enterprise-deployment.md)
-
->[!CAUTION]
->
->* Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200B;利用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
->
->* 既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
 
 
 ## セルフサービス管理インターフェイス{#self-service-admin}
