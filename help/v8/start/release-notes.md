@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
+source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 25%
+source-wordcount: '478'
+ht-degree: 24%
 
 ---
 
@@ -21,10 +21,19 @@ Adobe Campaign は定期的にアップデートされています。この定�
 また、[互換性マトリックス](compatibility-matrix.md)にリストされているシステムのサポートされている最新バージョンを使用していることも確認してください。
 
 
+## リリース 8.6.2 {#release-8-6-2}
+
+_2024 年 2 月 24 日_
+
+### 修正点 {#fixes-8-6-2}
+
+このリリースでは、次の問題が修正されました。
+
+* ミッドソーシングインスタンスで発生する可能性があるパフォーマンスの問題を修正しました。(NEO-72595)
+
 ## リリース 8.6.1 {#release-8-6-1}
 
 _2024 年 2 月 14 日_
-
 
 ### 新機能 {#new-8-6-1}
 
