@@ -5,7 +5,7 @@ description: サブワークフローアクティビティの詳細を説明し�
 feature: Workflows
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 

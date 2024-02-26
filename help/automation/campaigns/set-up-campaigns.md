@@ -6,7 +6,7 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
 ht-degree: 100%
 
