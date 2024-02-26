@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 05b911d0675fa69fb8041bbc6d5c465266d9f806
+source-git-commit: a79ae8611f413b910fe31c1e1c5213f40e873879
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '577'
 ht-degree: 96%
 
 ---
@@ -146,6 +146,7 @@ ht-degree: 96%
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
    + [Campaign と Target の統合](connect/ac-at.md)
    + [Campaign と Experience Cloud トリガーの統合](connect/ac-triggers.md)
+   + [Campaign + Workfront](connect/ac-workfront.md)
    + [Campaign と X（Twitter）の統合](connect/ac-tw.md)
    + [Campaign と外部データベースの統合](connect/fda.md)
    + Campaign と CRM の統合 {#ac-crm}
