@@ -1,6 +1,6 @@
 ---
 title: クライアントコンソールで Campaign に接続
-description: Campaign クライアントコンソールをコンピューターにインストールし、Adobe Campaignに接続する方法を説明します。
+description: Campaign クライアントコンソールをマシンにインストールし、Adobe Campaign に接続する方法について説明します。
 feature: Client Console
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
