@@ -4,7 +4,7 @@ description: Adobe Campaignスキーマでのリンク管理について
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: c7171a121f03eff0d945e64758e3ba1842e5436f
+source-git-commit: 6db351c8b5d30f722ddc4b0261af93cd8e3b72cd
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 56%
@@ -35,7 +35,7 @@ Federated Database Access(FDA) を使用した関係の結合の場合：
 * ![](assets/do-not-localize/join_fda_11.png)：一対一のカーディナリティ
 * ![](assets/do-not-localize/join_fda_1m.png)：一対多のカーディナリティ
 
-FDA テーブルについて詳しくは、 [外部データベースへのアクセス](../../installation/using/about-fda.md).
+FDA テーブルについて詳しくは、 [外部データベースへのアクセス](../connect/fda.md).
 
 メインの要素を介してリンクされたテーブルの、外部キーを含むスキーマで、リンクを宣言する必要があります。
 
