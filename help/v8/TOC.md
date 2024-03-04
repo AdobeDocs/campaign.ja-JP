@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: a79ae8611f413b910fe31c1e1c5213f40e873879
+source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 96%
+source-wordcount: '581'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 96%
    + メール {#emails}
       + [メールのデザインと検証](send/email.md)
       + [ミラーページへのリンク](send/mirror-page.md)
-      + [BCC アドレスを追加](send/email-bcc.md)
+      + [BCC アドレスの追加](send/email-bcc.md)
       + [追加のメールパラメーターを定義](send/email-parameters.md)
       + [メールの送信と監視](send/send.md)
    + [SMS](send/sms.md)
@@ -190,6 +190,8 @@ ht-degree: 96%
       + [フィルタースキーマ](dev/filter-schema.md)
       + [スキーマの構造](dev/schema-structure.md)
       + [データベースマッピング](dev/database-mapping.md)
+      + [主要な管理](dev/database-keys.md)
+      + [リンク管理](dev/database-links.md)
       + [PI ビューの制限](dev/restrict-pi-view.md)
       + [カスタム受信者テーブルの使用](dev/custom-recipient.md)
       + [データベースの更新](dev/update-database-structure.md)
