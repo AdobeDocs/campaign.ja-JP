@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 ![](../assets/do-not-localize/glass.png) 既存のスキーマを拡張する方法については、[この節](extend-schema.md)を参照してください。
 
-![](../assets/do-not-localize/book.png) 組み込み受信者テーブルの拡張例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table)を参照してください。{target="_blank"}
+![](../assets/do-not-localize/book.png) の組み込みの受信者テーブル拡張の例を見つける [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。この方法には制限があり、[この節](custom-recipient.md)で説明します。
 

@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
-workflow-type: ht
-source-wordcount: '1625'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1362'
+ht-degree: 94%
 
 ---
 
@@ -148,7 +148,8 @@ Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクショ
 * [クロスチャネル配信ワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html?lang=ja)
 クロスチャネル配信ワークフローの作成方法を説明します。目的は、データベースの受信者から、オーディエンスを別のグループへとセグメント化し、最初のグループはメール、もう 1 つのグループに SMS を送信することです。
 
-* [カスタム日付フィールドを使用したメールのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html?lang=ja)今月が誕生日のプロファイルに、カスタムデータフィールドを含むメールを送信する方法を説明します。 メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
+* [カスタム日付フィールドを使用した E メールエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html?lang=ja)
+今月の誕生日を祝うプロファイルに、カスタムデータフィールドを含む E メールを送信する方法を説明します。 メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
 
 さらに、Campaign v7 ドキュメントの以下のページ：
 
@@ -162,7 +163,8 @@ Campaign コンテンツ管理アドオンを使用して、コンテンツブ�
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [リストへのレポートの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html?lang=ja)月次のビルトイントラッキング指標レポートを PDF 形式で生成し、Campaign オペレーターのリストに送信する方法を説明します。
+* [リストへのレポートの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html?lang=ja)
+PDF形式の月に組み込まれるトラッキング指標レポートを生成し、Campaign オペレーターのリストに送信する方法を説明します。
 
 * [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ja)
 一連の（「一時停止」、「停止」、「エラーあり」）を監視できる、ワークフローの作成方法を説明します。
@@ -180,7 +182,8 @@ Campaign コンテンツ管理アドオンを使用して、コンテンツブ�
 * [概要リストの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html?lang=ja)
 ファイルを収集していくつかのエンリッチメントを加えてから概要リストを作成できるワークフローの作成方法を説明します。 この例では、店舗で購入をおこなった顧客の連絡先のリストをベースにします。
 
-* [データのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ja)最近競争に参加したプロファイルに、スコアに応じてパーソナライズされた配信を送信する方法を説明します。
+* [データのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ja)
+スコアに応じて、最新の競争に参加したプロファイルに、パーソナライズされた配信を送信する方法を説明します。
 
 * [集計の使用](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja)
 データベースに最後に追加された受信者を特定する方法を説明します。

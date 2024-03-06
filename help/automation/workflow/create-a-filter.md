@@ -7,8 +7,8 @@ role: User
 exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '222'
+ht-degree: 93%
 
 ---
 
@@ -50,4 +50,4 @@ Adobe Campaign で使用可能なフィルターは、クエリと同じ操作�
 
 ここでは、**$(/tmp/@text)=&#39;代理店&#39;** となっています。
 
-**$(/tmp/@text)!=&#39;&#39;** 式は、入力フィールドが空でない場合に各条件を適用します。
+The **$(/tmp/@text)!=&quot;** 式は、入力フィールドが空でない場合に各条件を適用します。

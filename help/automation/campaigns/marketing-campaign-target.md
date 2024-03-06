@@ -7,8 +7,8 @@ role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 100%
+source-wordcount: '1566'
+ht-degree: 94%
 
 ---
 
@@ -101,7 +101,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 スケジュール（スケジューラー）またはイベント（外部信号、ファイルのインポートなど）に従って自動実行するように、ターゲティングをプログラムすることもできます。
 
-ターゲティングワークフローの実行に関連するアクション（開始、停止、一時停止など）は、**非同期**&#x200B;プロセスです。コマンドは保存され、サーバーがそのコマンドを適用できるようになるとすぐに実行されます。
+ターゲティングワークフローの実行に関連するアクション（開始、停止、一時停止など） が **非同期** プロセス：コマンドは保存され、サーバーがコマンドを適用できるようになるとすぐに有効になります。
 
 ツールバーのアイコンを使用して、ターゲティングワークフローの実行に関連するアクションを起こすことができます。
 
@@ -111,9 +111,9 @@ To build the delivery target, you can define filtering criteria for the recipien
 
      ![](assets/start.png)
 
-     サーバーでのリクエスト処理状況はステータスに表示されます。 **[!UICONTROL 開始準備中]**。
+     サーバーでは、ステータスに示すように、リクエストを処理します。 **[!UICONTROL できるだけ早く開始]**.
 
-   * 適切なツールバーアイコンからターゲティングワークフローを再開できます。このコマンドは、例えばターゲティングワークフローの停止が進行中の場合など、**[!UICONTROL 開始]**&#x200B;アイコンが表示されていない場合に役立つことがあります。その場合は、**[!UICONTROL 再開]**&#x200B;アイコンをクリックして、再開を待ちます。ステータスが示すように、サーバーがリクエストを処理します。 **[!UICONTROL 再度開始がリクエストされました]**。
+   * 適切なツールバーアイコンからターゲティングワークフローを再開できます。このコマンドは、例えばターゲティングワークフローの停止が進行中の場合など、**[!UICONTROL 開始]**&#x200B;アイコンが表示されていない場合に役立つことがあります。その場合は、**[!UICONTROL 再開]**&#x200B;アイコンをクリックして、再開を待ちます。ステータスが示すように、サーバーがリクエストを処理します。 **[!UICONTROL 再開がリクエストされました]**.
 
 * 停止または一時停止
 
@@ -123,7 +123,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
      ![](assets/pause.png)
 
-     サーバーでのコマンド処理状況はステータスに表示されます。 **[!UICONTROL 一時停止がリクエストされました]**。
+     ステータスが示すように、サーバーがコマンドを処理します。 **[!UICONTROL リクエストされた一時停止]**.
 
      ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に一時停止することもできます。そのように設定するには、ターゲティングワークフローを一時停止するアクティビティを右クリックし、「**[!UICONTROL 有効にするが実行しない]**」を選択します。
 
@@ -143,7 +143,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
      ![](assets/stop.png)
 
-     サーバーでのコマンド処理状況はステータスに表示されます。 **[!UICONTROL 停止がリクエストされました]**。
+     ステータスが示すように、サーバーがコマンドを処理します。 **[!UICONTROL リクエストされた停止]**.
 
   ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に停止することもできます。そのように設定するには、ターゲティングワークフローを停止するアクティビティを右クリックし、「**[!UICONTROL 有効にしない]**」を選択します。
 
@@ -203,7 +203,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
    ![](assets/enable-control-group-for-a-delivery.png)
 
-1. 「**[!UICONTROL 編集...]**」をクリックして、コントロール母集団を設定します。。
+1. 「**[!UICONTROL 編集...]**」をクリックして、コントロール母集団を設定します。
 
 完全な手順について詳しくは、[この節](#extract-the-control-group-from-the-main-target)を参照してください。
 

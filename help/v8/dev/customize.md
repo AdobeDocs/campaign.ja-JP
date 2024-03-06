@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 **関連トピック**
 
-![](../assets/do-not-localize/book.png) スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic)を参照してください。{target="_blank"}
+![](../assets/do-not-localize/book.png) でのスキーマエディションの例 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic){target="_blank"}
 
 ![](../assets/do-not-localize/book.png) ユースケース：[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link)の既存の参照テーブルにフィールドをリンクする{target="_blank"}
 

@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity, Data Management
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '941'
 ht-degree: 100%
 
 ---

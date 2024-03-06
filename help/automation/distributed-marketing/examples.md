@@ -7,8 +7,8 @@ role: User
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 100%
+source-wordcount: '1371'
+ht-degree: 99%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 
    * 通知としてローカルエンティティに送信するメッセージの内容
    * 承認のリマインダー
-   * 想定されるキャンペーンの処理.
+   * キャンペーンに対して期待される処理。
 
    ![](assets/mkg_dist_use_case_target_valid7.png)
 

@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
 source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 100%
+source-wordcount: '1221'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
    >
    >最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。配信期限を過ぎると、一部のメッセージが送信されない場合があります。
    >
-   >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。<!--See [this section]().-->
+   >また、最後のウェーブを設定する際に、再試行の時間を十分にみておく必要があります。 <!--See [this section]().-->
 
 1. 送信状況を監視するには、配信ログを参照してください。[このページ](send.md)<!--ref TBC-->を参照してください。
 

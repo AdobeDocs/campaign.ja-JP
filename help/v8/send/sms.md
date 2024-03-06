@@ -7,8 +7,8 @@ level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaign を使用すると、パーソナライズされた SMS メッセ
 
 >[!NOTE]
 >
->また、Adobe Campaign では、**Adobe Campaign モバイルアプリチャネル（NMAC）**&#x200B;オプションを使用してモバイル端末に通知を送信することもできます。詳しくは、[この節](push.md)を参照してください。
+>また、Adobe Campaign では、**Adobe Campaign モバイルアプリチャネル（NMAC）**&#x200B;オプションを使用してモバイル端末にプッシュ通知を送信することもできます。詳しくは、[この節](push.md)を参照してください。
 
 ## SMS チャネルの設定
 
@@ -45,7 +45,7 @@ SMS の送信を開始する前：
 
    ![](assets/delivery_step_1.png)
 
-   ![](../assets/do-not-localize/book.png) 配信の作成方法に関する全般的な情報については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages){target="_blank"}を参照してください。
+   ![](../assets/do-not-localize/book.png) 配信の作成方法に関する全般的な情報については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=ja#sending-messages){target="_blank"}.
 
 1. SMS 配信を送信するには、関連する外部アカウントを参照する配信テンプレートを選択します。
 
@@ -75,9 +75,9 @@ SMS を作成およびデザインするための主な手順については、C
 
   ![](../assets/do-not-localize/book.png)[SMS コンテンツのデザイン方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-create.html?lang=ja#defining-the-sms-content){target="_blank"}
 
-* メールのオーディエンスを選択
+* メールのオーディエンスの選択
 
-  ![](../assets/do-not-localize/book.png) [ターゲット母集団の定義方法を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja){target="_blank"}
+  ![](../assets/do-not-localize/book.png) [ターゲット母集団の定義方法を説明します](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja){target="_blank"}
 
 ![](../assets/do-not-localize/glass.png)オーディエンスを定義する手順について詳しくは、[このページ](../start/audiences.md)を参照してください。
 

@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ## コントロールパネルのよくある質問（FAQ） {#ac-control-faq}
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#control-panel){target="_blank"}します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"}します。
 
 ## SFTP 管理 {#ac-control-sftp}
 

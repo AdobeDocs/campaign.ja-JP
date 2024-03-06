@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
 source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Campaign のローカルデータベースとクラウドデータベースの�
 
 ### ID 管理{#id-mgt-ffda}
 
-Campaign v8 オブジェクトは、**UUID（ユニバーサルに一意の ID）**&#x200B;を使用するようになりました。これにより、一意の値（無制限）でデータを識別できます。
+Campaign v8 オブジェクトで、 **ユニバーサル固有 ID(UUID)**：データを識別する一意の値を無制限に使用できます。
 
 この ID は文字列で、連続していません。Campaign v8 ではプライマリキーは数値ではないため、スキーマで **autouuid** 属性と **autopk** 属性を使用する必要があります。
 

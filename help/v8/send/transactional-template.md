@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1231'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 ![](assets/messagecenter_create_content.png)
 
 * すべてのパーソナライゼーションフィールドはペイロードから取得されます。
-* トランザクションメッセージ内では、1 つまたは複数のパーソナライゼーションブロックを参照できます。<!--The block content will be added to the delivery content during the publication to the execution instance.-->
+* トランザクションメッセージ内では、1 つまたは複数のパーソナライゼーションブロックを参照できます。 <!--The block content will be added to the delivery content during the publication to the execution instance.-->
 
 パーソナライゼーションタグをメールメッセージの本文に挿入するには、次の手順に従います。
 

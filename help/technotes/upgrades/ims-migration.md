@@ -5,7 +5,7 @@ feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 100%
 

@@ -7,7 +7,7 @@ exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
    ![](assets/simu_campaign_opti_edit_scope_save.png)
 
-   必要であれば、「**[!UICONTROL 動的条件を編集...]**」リンクをクリックして、動的条件を使用することができます。.
+   必要に応じて、 **[!UICONTROL 動的条件を編集…]** リンク。
 
    「**[!UICONTROL 保存]**」をクリックして、設定を承認します。
 

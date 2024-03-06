@@ -6,8 +6,8 @@ role: Data Engineer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '3027'
-ht-degree: 100%
+source-wordcount: '3097'
+ht-degree: 99%
 
 ---
 
@@ -725,7 +725,7 @@ ht-degree: 100%
    <td> クリック数<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL のプライマリキーが 1 ではないすべての @totalClicks の数。<br /> </td> 
-   <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
+   <td> count(Iif([@url-id]) != 1, @totalClicks, 0)<br /> </td> 
   </tr> 
   <tr> 
    <td> クリック（％）<br /> </td> 

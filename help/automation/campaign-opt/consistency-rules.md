@@ -5,8 +5,8 @@ description: 一貫性ルール
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
 source-git-commit: 8247bed87deb3fb19a01447dab180ed9c97ea96c
-workflow-type: ht
-source-wordcount: '792'
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---

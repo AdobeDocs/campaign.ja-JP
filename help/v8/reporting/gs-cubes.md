@@ -8,7 +8,7 @@ exl-id: f57f3074-981f-4bcf-9274-7908cd00a4a2
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign には、動的レポートを作成するための直感的な�
 
 Campaign Marketing Analytics モジュールを使用してできることは次のとおりです。
 
-1. キューブの作成および指標
+1. キューブと指標の作成
 
    * データを集計してワークテーブルに保存し、ユーザーのニーズに基づいて指標を事前に計算、
    * レポートやクエリで使用する様々な計算に関連するデータ量を削減し、指標の計算時間を大幅に最適化、
@@ -34,7 +34,7 @@ Campaign Marketing Analytics モジュールを使用してできることは次
 
    詳しくは、[指標の作成](cube-indicators.md)を参照してください。
 
-1. ピボットテーブルの作成およびデータの調査
+1. ピボットテーブルの作成とデータの調査
 
    * 計算済みのデータや設定済みの測定値を調査
    * 表示するデータとその表示モードを選択

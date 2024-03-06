@@ -4,7 +4,7 @@ title: ソーシャルマーケティング
 description: ソーシャルマーケティングテクニカルワークフローの詳細を説明します
 feature: Workflows
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 

@@ -1,14 +1,14 @@
 ---
 title: Campaign での購読と購読解除の管理
-description: Campaign v8 で購読と購読解除を管理する方法を説明します。
+description: Campaign v8 でサブスクリプションとサブスクリプション解除を管理する方法を説明します.
 feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: b0150b38b50b04c08b10ed73b3be3064a09d7b88
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   ![](assets/subscribe-to-a-service.png)
 
-  ![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab)を参照してください{target="_blank"}
+  ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
 
 * 受信者のセットを、このサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。これらの受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
 
@@ -69,7 +69,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 **自動での購読解除**
 
 * 情報サービスの期限を指定します。有効期間が終了すると、受信者は自動的に購読解除されます。この期間は、サービスプロパティの「編集」タブで指定します。期間は日数で表します。
-* 母集団の購読解除ワークフローの設定.
+* 母集団の購読解除ワークフローを設定します。
 
 ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja#unsubscribing-a-recipient-from-a-service){target="_blank"}を参照してください
 

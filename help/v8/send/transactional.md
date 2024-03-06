@@ -8,7 +8,7 @@ exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -118,7 +118,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 ![](assets/messagecenter_create_content.png)
 
 * すべてのパーソナライゼーションフィールドはペイロードから取得されます。
-* トランザクションメッセージ内では、1 つまたは複数のパーソナライゼーションブロックを参照できます。<!--The block content will be added to the delivery content during the publication to the execution instance.-->
+* トランザクションメッセージ内では、1 つまたは複数のパーソナライゼーションブロックを参照できます。 <!--The block content will be added to the delivery content during the publication to the execution instance.-->
 
 パーソナライゼーションタグをメールメッセージの本文に挿入するには、次の手順に従います。
 
@@ -144,7 +144,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
 1. 後で簡単に選択できるようにラベルを割り当て、シードアドレス（通信チャネルに応じてメールまたは携帯電話）を入力します。
 
-1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 +メールなど）を入力することができます。Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントとを照合することができます。
+1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 +メールなど）を入力することができます。Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントを紐付けることができます。
 
    ![](assets/messagecenter_create_seed_2.png)
 

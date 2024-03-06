@@ -8,7 +8,7 @@ exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 
 * ワークフローアクティビティについて詳しくは、[このページ](use-workflow-data.md)を参照してください。
 * ワークフローを構築する方法については、[この節](build-a-workflow.md)を参照してください。
-* ワークフローを使用して Campaign にデータをインポートする方法については、[この節](campaign-workflows.md)を参照してください。。
+* ワークフローを使用して Campaign にデータをインポートする方法について説明します。 [この節](campaign-workflows.md)...
 * ワークフローのベストプラクティスについて詳しくは、[このページ](workflow-best-practices.md)を参照してください。
 * ワークフローの実行に関するガイダンスについては、[この節](start-a-workflow.md)を参照してください。
 * ワークフローを監視する方法については、[このページ](monitor-workflow-execution.md)を参照してください。

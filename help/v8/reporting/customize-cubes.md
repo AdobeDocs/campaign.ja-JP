@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 100%
+source-wordcount: '1525'
+ht-degree: 99%
 
 ---
 
@@ -208,7 +208,7 @@ bin を自動的に生成することもできます。それには、「**[!UIC
 
 ![](assets/cube_share_option.png)
 
-レポートのカテゴリと関連度を指定します。<!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
+レポートのカテゴリと関連度を指定します。 <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
 これらの変更を確定するには、レポートを保存する必要があります。
 
