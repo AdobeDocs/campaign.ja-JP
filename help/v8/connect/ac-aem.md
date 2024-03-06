@@ -5,10 +5,10 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
+source-git-commit: fc461fbbae23925dd29f17c8674cc287ba360147
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Campaign と Adobe Experience Manager を統合すると、メール配信のコンテンツとフォームを Adobe Experience Manager で直接管理できます。**Adobe Experience Manager** コンテンツを Campaign にインポートするか、**Adobe Experience Manager as a Cloud Service** アカウントに接続して、web インターフェイス内でコンテンツを直接編集することができます。
 
-![](../assets/do-not-localize/book.png) [詳しくは、Campaign web インターフェイス内で Adobe Experience Manager as a Cloud Service を編集する方法を参照してください](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/integrations/aem-content.html?lang=ja)
+![](../assets/do-not-localize/book.png) [詳しくは、Campaign web インターフェイス内で Adobe Experience Manager as a Cloud Service を編集する方法を参照してください](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=en)
 
 ![](../assets/do-not-localize/book.png) [Adobe Experience Manager について詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ja#aem-and-adobe-campaign-integration-workflow)
 
