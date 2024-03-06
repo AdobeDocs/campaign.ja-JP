@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
 source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Campaign web サーバーは、Campaign web プロセスへのアクセスを制
 
 ![](assets/do-not-localize/ac-processes.png)
 
-Campaign クライアントコンソールは、SOAP XML over HTTP を使用して Web サーバーに接続します。 web サーバーはセキュリティレイヤーを提供し、JavaScript を使用してアプリケーションレイヤーにリクエストを渡し、Campaign の内部プロセスは SQL を使用してデータベースにアクセスします。
+Campaign クライアントコンソールは、SOAP XML over HTTP を使用して web サーバーに接続します。web サーバーはセキュリティレイヤーを提供し、JavaScript を使用してアプリケーションレイヤーにリクエストを渡し、Campaign の内部プロセスは SQL を使用してデータベースにアクセスします。
 
 以下のスタンドアロンデプロイメントの図は、Campaign プロセス間の全体的な通信を示したものです。すべての Campaign コンポーネントが同じマシンにインストールされています。
 

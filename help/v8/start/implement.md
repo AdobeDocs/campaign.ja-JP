@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 この節では、会社の要件に合わせて Adobe Campaign を調整する方法を説明します。次のガイドラインに従って、実装を構成し整理します。
 
-1. **設定を定義**：アクセス権の付与、クライアントコンソールの共有、チャネル（電子メール、プッシュ、sms）の設定をおこないます。 [詳細情報](#implementation-ac-settings)
+1. **設定の定義**：アクセス権の付与、クライアントコンソールの共有、チャネルの設定（メール、プッシュ、SMS）。[詳細情報](#implementation-ac-settings)
 1. **環境の準備**：プロファイルのインポート，オーディエンスの作成，ワークフローとキャンペーンテンプレートの設計、タイポロジルールの作成. [詳細情報](#implementation-prepare-your-env)
 1. **インスタンスのカスタマイズ**：新しいデータフィールドを作成し、テーブル／スキーマを追加します。[詳細情報](#implementation-custom-your-instance)
 1. **プロセスの自動化**：Adobe Campaign の自動化機能を設定します。 [詳細情報](#implementation-automation)
@@ -60,9 +60,9 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
 
 ### Campaign クライアントコンソールのインストール{#implementation-install-console}
 
-アプリケーションのメインユーザーインターフェイスはリッチクライアントです。つまり、標準のインターネットプロトコル（SOAP、HTTP など）でのみ Adobe Campaign アプリケーションサーバーを通信するネイティブアプリケーション（Windows）です。Adobe Campaignクライアントコンソールは、生産性を高める優れた使いやすさを備え、（ローカルキャッシュを使用して）帯域幅をほとんど使用せず、簡単にデプロイできるように設計されています。 このコンソールはインターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク構成は不要です。
+アプリケーションのメインユーザーインターフェイスはリッチクライアントです。つまり、標準のインターネットプロトコル（SOAP、HTTP など）でのみ Adobe Campaign アプリケーションサーバーを通信するネイティブアプリケーション（Windows）です。Adobe Campaign クライアントコンソールは、生産性を向上する使いやすさを備え、帯域幅をほとんど使用せず（ローカルキャッシュを使用）、デプロイメントが容易になるよう設計されています。このコンソールはインターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク構成は不要です。
 
-![](../assets/do-not-localize/glass.png) [Campaign クライアントコンソールの詳細を説明します](connect.md).
+![](../assets/do-not-localize/glass.png) [詳しくは、Campaign クライアントコンソールを参照してください](connect.md)。
 
 ## 環境の準備{#implementation-prepare-your-env}
 
@@ -160,7 +160,7 @@ Campaign の様々な領域や機能をカスタマイズできます。ほと�
 * Campaign - Analytics Data Connector
 
 
-シングルサインオン (SSO) を使用して Campaign に接続できます。 詳しくは、[このページ](connect.md)を参照してください。
+シングルサインオン（SSO）のみを使用して Campaign に接続できます。詳しくは、[このページ](connect.md)を参照してください。
 
 ![](../assets/do-not-localize/glass.png) Adobe Campaign と統合できるアドビのソリューションの完全なリストについては、[このページ](../connect/integration.md)を参照してください。
 

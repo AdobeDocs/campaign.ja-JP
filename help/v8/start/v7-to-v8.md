@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,10 +44,10 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 
 Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基づいています。Campaign Classic v7 から移行する場合は、すべての配信がミッドソーシングサーバーを経由することに注意してください。
 
-その結果、次のようになります。
+その結果：
 
-* 内部ルーティング： **不可能** それに応じて、外部アカウントは無効になっています。
-* 配信のステータスはすぐには更新されません — マーケティングインスタンスで技術的なプロセスが実行され、配信ステータスがタイムリーに更新されます。
+* Campaign v8 では内部ルーティングは&#x200B;**不可能**&#x200B;で、外部アカウントはそれに応じて無効になっています。
+* 配信のステータスは即座に更新されません - マーケティングインスタンスでテクニカルプロセスが実行され、配信ステータスがタイムリーに更新されます。
 
 
 ![](../assets/do-not-localize/glass.png) v7 からの移行時にトランザクションメッセージの配達確認を送信する方法について詳しくは、[このページ](../send/transactional-template.md#transition-from-v7)を参照してください。

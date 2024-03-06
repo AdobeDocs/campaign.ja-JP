@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ _2022年9月30日（PT）_
 
 >[!CAUTION]
 >
-> クライアントコンソールのアップグレードは必須です。 クライアントコンソールをアップグレードする方法については、こちらを参照してください。 [ページ](../start/connect.md#download-ac-console).
+> クライアントコンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#download-ac-console)を参照してください。
 
 _2022年10月7日（PT）_
 

@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 79%
 
 ## メールの監視 {#email-monitoring}
 
-送信後、 **配信ダッシュボード** 配信ログとレポートにアクセスして、メッセージが正しく送信されたことを確認します。
+送信したら、**配信ダッシュボード**&#x200B;で配信のステータスを確認し、配信ログとレポートにアクセスしてメッセージが正しく送信されたことを確認します。
 
-配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。 配信ログのメッセージのステータスも制御できます。
+配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。配信ログのメッセージのステータスも制御できます。
 
 >[!NOTE]
 >
->配信ステータスは、リアルタイムには表示されません。 電子メールフィードバックサービスの詳細を表示 [この節](#email-feedback-service).
+>配信ステータスは、リアルタイムには表示されません。メールフィードバックサービスについて詳しくは、[この節](#email-feedback-service)を参照してください。
 
 
-![](../assets/do-not-localize/book.png) [配信の監視について詳しくは、Campaign Classicv7 ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
+![](../assets/do-not-localize/book.png) [配信の監視について詳しくは、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
 
 ## Campaign MTA {#mta}
 
@@ -42,7 +42,7 @@ Campaign v8 メール転送エージェント（MTA）は、クラス最高の�
 
 ### 利点
 
-Adobe Campaignは、SparkPost の商用 E メール MTA(Mail Transfer Agent) を使用します。この MTA は、 **Momentum**.
+Adobe Campaign で使用するMTA（メール転送エージェント）は、SparkPost の商用メール MTA（**Momentum**）を実行します。
 
 Momentum は、インボックスの最適な配信率を達成し維持するための高度なバウンス処理と自動配信品質最適化機能を含む、革新的で高パフォーマンスな MTA テクノロジーを提供します。
 
@@ -67,7 +67,7 @@ MTA は SMTP バウンスを検証し、その検証結果を Campaign バウン
 
 MX（Mail eXchanger）ルールは、送信サーバーと受信サーバーの間の通信を管理するルールです。
 
-MTA には独自の MX ルールがあり、独自の履歴 E メールの評判と、E メールを送信するドメインからのリアルタイムフィードバックに基づいて、ドメインごとにスループットをカスタマイズできます。
+MTA には、独自のメールレピュテーション履歴と、メールの送信元として使用しているドメインから取得するリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズできる、独自の MX ルールがあります。
 
 ### DKIM 署名
 
@@ -79,9 +79,9 @@ DKIM について詳しくは、[アドビ配信品質のベストプラクテ�
 
 ## メールフィードバックサービス {#email-feedback-service}
 
-Campaign E メールフィードバックサービス (EFS) は、Adobe Campaignで送信される各 E メール配信のステータスをレポートします。
+Campaign メールフィードバックサービス（EFS）では、Adobe Campaign で送信された各メール配信のステータスを報告します。
 
-配信が開始された後も、 **[!UICONTROL 成功]** メッセージが Campaign から MTA に正常にリレーされた場合の割合。 配信ログには、対象アドレスごとに&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;ステータスが表示されます。
+配信の開始後、Campaign から MTA にメッセージが正常に中継されると、**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。配信ログには、対象アドレスごとに&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;ステータスが表示されます。
 
 メッセージが対象プロファイルに実際に配信され、この情報が MTA からリアルタイムでレポートされると、配信ログは、メッセージを正常に受信したアドレスごとに&#x200B;**[!UICONTROL 送信済み]**&#x200B;ステータスを示します。**[!UICONTROL 成功]**&#x200B;のパーセンテージは、配信が成功するたびに増加します。
 
@@ -99,7 +99,7 @@ MTA からハードバウンスメッセージが報告されると、ログの�
 >
 >一時的な配信エラー後の再試行について詳しくは、[この節](delivery-failures.md#retries)を参照してください。
 
-次の表に、送信プロセスの各手順で KPI と送信ログのステータスが更新される方法を示します。
+次の表に、送信プロセスの各手順で KPI と送信ログのステータスがどのように更新されるかを示します。
 
 | 送信プロセスの手順 | KPI 概要 | 送信ログのステータス |
 |--- |--- |--- |

@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->設定を承認するには、Adobe Campaignクライアントコンソールからログオフし、再度ログオンします。
+>設定を承認するには、Adobe Campaign クライアントコンソールからログアウトして再度ログインします。
 
 ### 同期するテーブルを選択{#ms-dyn-create-tables}
 

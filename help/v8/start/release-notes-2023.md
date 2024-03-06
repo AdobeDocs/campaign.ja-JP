@@ -1,13 +1,13 @@
 ---
-title: Campaign v8（コンソール） 2023 年リリースノート
+title: Campaign v8（コンソール）2023 リリースノート
 description: Campaign v8 2023 リリースで記載される機能と改善点のリスト
 feature: Release Notes
 role: User
 level: Beginner
 source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1476'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -66,12 +66,12 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 **セキュリティ機能の強化**
 
 * Campaign v8.5.1 では、Campaign v8 への認証プロセスが改善され、セキュリティが強化されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
-* 今後の v8.6 以降、Campaign クライアントコンソールからオペレーターを作成できなくなります。 ログイン／パスワードのネイティブ認証を使用している場合は、オペレーターを Adobe Identity Management System（IMS）に移行する必要があります。オペレーターを移行する方法については、[このテクニカルノート](../../technotes/upgrades/migrate-users-to-ims.md)を参照してください。
+* 今後の v8.6 以降、Campaign クライアントコンソールからオペレーターを作成できなくなります。ログイン／パスワードのネイティブ認証を使用している場合は、オペレーターを Adobe Identity Management System（IMS）に移行する必要があります。オペレーターを移行する方法については、[このテクニカルノート](../../technotes/upgrades/migrate-users-to-ims.md)を参照してください。
 * セキュリティを最適化するために、複数のサードパーティツールを更新しています。
 
-**互換性の更新**
+**互換性のアップデート**
 
-* クライアントコンソールの 32 ビットバージョンは非推奨（廃止予定）となりました。 8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。 64 ビット版のクライアントコンソールへのアップグレードはシームレスです。 オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](../../technotes/upgrades/console.md)を参照してください。
+* クライアントコンソールの 32 ビットバージョンは、非推奨（廃止予定）となりました。8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。クライアントコンソールの 64 ビットバージョンへのアップグレードはシームレスです。オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](../../technotes/upgrades/console.md)を参照してください。
 * Campaign v8 インスタンスを Azure Synapse 外部データベースに接続できるようになりました。この接続は、新しい外部アカウントで管理します。詳しくは、[Campaign 互換性マトリックス](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda)を参照してください。
 
 

@@ -6,9 +6,9 @@ feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Campaign インスタンスを X アカウントにリンクするには、**Twi
 >各 **Twitter** サービスも、アドビが MID インスタンスで作成する必要があります。環境の設定については、アドビ担当者にお問い合わせください。
 >
 
-設定を入力するには、Adobe Campaignクライアントコンソールと X アプリの権限の両方にアクセスする必要があります。
+設定を入力するには、Adobe Campaign クライアントコンソールと X アプリの権限の両方にアクセスする必要があります。
 
 1.  **Adobe Campaign** で、「**[!UICONTROL プロファイルとターゲット]**」タブを参照し、「**[!UICONTROL サービスと購読]**」リンクを選択します。
 1. 新しいサービスを作成します。

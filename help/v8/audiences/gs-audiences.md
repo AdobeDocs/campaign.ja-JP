@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign にプロファイルデータを入力するには、次の方�
 * CRM システムやフラットファイルなどの外部データソースから[データファイルをインポートする](../start/import.md)
 * 顧客が自分で情報を入力し、自分自身のプロファイルを作成できる [web フォームの作成](../dev/webapps.md)
 * プロファイルが格納されている[外部データベースへのマッピング](../connect/fda.md)
-* 次に示すように、クライアントコンソールでプロファイルを手動で入力します。
+* 以下のように、クライアントコンソールにプロファイルを手動で入力します。
 
 ![](assets/create-profile.png)
 

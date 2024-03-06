@@ -6,9 +6,9 @@ feature: Distributed Marketing
 role: User
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 
 承認の期間が定義され、パッケージの承認が申請されると、実行スケジュールが「**[!UICONTROL 監査]**」タブに表示されます。スケジュールには、現在の設定に基づいて算出された処理期限と設定されたすべてのリマインダーの日付が含まれます。
 
-## クライアントコンソールから承認 {#approving-via-the-adobe-campaign-console}
+## クライアントコンソール経由での承認 {#approving-via-the-adobe-campaign-console}
 
 レビュー担当者が一人も指定されていないか、通知を受けたオペレーターが誰もパッケージを承認していない場合、「**[!UICONTROL パッケージを承認]**」ボタンを使用して、キャンペーンパッケージの&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;またはパッケージの概要から直接、承認の段階に進むことができます。
 

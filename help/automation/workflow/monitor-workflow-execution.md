@@ -6,9 +6,9 @@ feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2009'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Adobe Campaign エクスプローラーでは、デフォルトでワークフ�
 
 ![](assets/wf-notification_error-msg.png)
 
-ログオン後、このリンクを使用してAdobe Campaignクライアントコンソールを Web モードで表示し、エラーの発生したワークフローを操作できます。
+通知内のリンクをクリックすると、web モードの Adobe Campaign クライアントコンソールが表示され、ログインすると、エラーの発生したワークフローに対処することができます。
 
 ![](assets/wf-notification_error-console.png)
 

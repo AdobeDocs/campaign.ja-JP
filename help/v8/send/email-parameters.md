@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
 source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 ## BCC でのメールの使用 {#email-bcc}
 
-プラットフォームから送信された電子メールのコピーを保持するようにAdobe Campaignを設定できます。 このオプションについて詳しくは、 [このページ](email-bcc.md).
+プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。このオプションについて詳しくは、[このページ](email-bcc.md)を参照してください。
 
 ## メッセージ形式の選択 {#selecting-message-formats}
 
@@ -92,8 +92,8 @@ ht-degree: 90%
 ![](assets/email-smtp-headers.png)
 
 
-## ミラーページを生成 {#generating-mirror-page}
+## ミラーページの生成 {#generating-mirror-page}
 
-ミラーページは、web ブラウザーでオンラインアクセス可能な HTML ページです。そのコンテンツはメールと同一です。受信者の受信ボックスで E メールを表示しようとする際に、レンダリングの問題や画像の破損が発生している場合に役立ちます。
+ミラーページは、web ブラウザーでオンラインアクセス可能な HTML ページです。そのコンテンツはメールと同一です。これは、受信者がインボックスでメールを表示しようとする際に、レンダリングの問題や破損した画像が発生した場合に役立ちます。
 
-ミラーページへのリンクを [この節](mirror-page.md)
+ミラーページへのリンクを挿入する方法については、[この節](mirror-page.md)を参照してください

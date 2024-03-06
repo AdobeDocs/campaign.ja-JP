@@ -6,13 +6,13 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# よくある質問（FAQ）{#faq}
+# よくある質問{#faq}
 
 Campaign を取り扱う上でサポートが必要ですか？以下のよくある質問と回答をご覧ください。
 
@@ -26,7 +26,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **Campaign v8 に接続するにはどうすればよいですか？**
 
-   Adobe Campaignに接続するには、Campaign クライアントコンソールをダウンロードしてインストールする必要があります。
+   Adobe Campaign に接続するには、Campaign クライアントコンソールをダウンロードしてインストールする必要があります。
 
    ![](../assets/do-not-localize/glass.png) [詳しくは、ここをクリックしてください](connect.md)。
 
@@ -76,7 +76,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **Campaign の専門家と連絡を取ることはできますか？**
 
-   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。 [会話に参加する](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。[会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **問題をログに記録するにはどうすればよいですか？**
