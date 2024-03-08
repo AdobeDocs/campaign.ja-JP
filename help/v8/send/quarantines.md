@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User, Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 99%
+source-wordcount: '1221'
+ht-degree: 98%
 
 ---
 
@@ -120,8 +120,8 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 * **エラーテキスト（強制隔離テキスト）**&#x200B;に「Momen_Code10_InvalidRecipient」が含まれる
 * **メールドメイン（@domain）**&#x200B;が domain1.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain2.com と等しい、または&#x200B;**メールドメイン（@domain）**&#x200B;が domain3.com と等しい
-* **更新ステータス（@lastModified）**&#x200B;が YYYY/MM/DD 午前 HH:MM:SS 以降
-* **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
+* **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
+* **ステータスを更新 (@lastModified)** 以前 `MM/DD/YYYY HH:MM:SS PM`
 
 影響を受ける受信者のリストを受信したら、**[!UICONTROL データを更新]**&#x200B;アクティビティを追加して、ステータスを「**[!UICONTROL 有効]**」に設定し、**[!UICONTROL データベースクリーンアップ]**&#x200B;ワークフローで強制隔離リストから削除されるようにします。また、強制隔離テーブルから削除するだけでもかまいません。
 

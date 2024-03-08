@@ -5,10 +5,10 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin
 level: Beginner
 exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 100%
+source-wordcount: '1402'
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 >
 >このメモは、一般的な **[!UICONTROL CRM コネクタ]**&#x200B;アクティビティにのみ適用されます。他の CRM アクティビティの場合、プロセスは自動です。
 >
->このオプションは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;を使用して手動で作成および設定する必要があります。これはテキストオプションである必要があり、その値は **yyyy/MM/dd hh:mm:ss** フォーマットに一致する必要があります。
+>このオプションは、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;を使用して手動で作成および設定する必要があります。これはテキストオプションである必要があり、その値は次の形式と一致する必要があります。 **`yyyy/MM/dd hh:mm:ss`**.
 > 
 >以降のインポートではこのオプションを手動で更新する必要があります。
 
@@ -106,7 +106,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
   >[!NOTE]
   >
-  >これらの日付は、**yyyy/MM/dd hh:mm:ss** 形式で表示されます。
+  >これらの日付は、次の形式で表示されます。 **`yyyy/MM/dd hh:mm:ss`**.
 
 ### データのフィルタリング {#filtering-data}
 
