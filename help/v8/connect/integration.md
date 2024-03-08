@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 032c11f794956d5bdd4a6540ee5dd5b2f92c94dc
+source-git-commit: f6ccec05d63c397d0a286c18f4114eb414156d45
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 90%
 
 ---
 
@@ -24,15 +24,15 @@ Adobe Experience Cloud ソリューションを組み合わせて実装を最新
 
 ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
-Campaign v8 は以下と接続できます。
+Campaign v8 は、次のAdobeソリューションと接続できます。 リンクを参照して、使用例、設定およびガイドラインについて詳しく知る：
 
-* [Adobe Analytics](../connect/ac-aa.md)
-* [Adobe Experience Cloudトリガー](../connect/ac-triggers.md)
-* [Adobe Experience Manager](../connect/ac-aem.md)
-* [Adobe Experience Platform](../connect/ac-aep.md)
-* [Adobe Journey Optimizer](../connect/ac-ajo.md)
-* [Adobe Target](../connect/ac-at.md)
-* [Adobe Workfront](../connect/ac-workfront.md)
+* Adobe Analytics。[詳細情報](../connect/ac-aa.md)
+* Adobe Experience Cloudトリガー。 [詳細情報](../connect/ac-triggers.md)
+* Adobe Experience Manager。[詳細情報](../connect/ac-aem.md)
+* Adobe Experience Platform。 [詳細情報](../connect/ac-aep.md)
+* Adobe Journey Optimizer。 [詳細情報](../connect/ac-ajo.md)
+* Adobe Target。 [詳細情報](../connect/ac-at.md)
+* Adobe Workfront。 [詳細情報](../connect/ac-workfront.md)
 
 アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
 
