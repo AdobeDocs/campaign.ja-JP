@@ -1,20 +1,20 @@
 ---
-title: Campaign ランディングページとプロファイル属性
+title: Adobe Campaign ランディングページからの Adobe Experience Platform プロファイルの更新
 description: Adobe Campaign のランディングページと Adobe Experience Platform のプロファイル属性を同期する方法を説明します
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: a17c4325917ef1466bbb2c397aea55ebcf7fbcb5
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 92%
 
 ---
 
-# Adobe Campaign ランディングページからの Adobe Experience Platform プロファイルの更新
+# Adobe CampaignランディングページからのAdobe Experience Platformプロファイルの更新 {#ac-aep-lp}
 
-Adobe Campaign と Adobe Experience Platform の統合により、Adobe Campaign ランディングページと Adobe Experience Platform の間でシームレスにデータを同期できます。この統合により、次のことができます。
+Adobe CampaignとAdobe Experience Platformの統合により、Adobe CampaignのランディングページとAdobe Experience Platformの間でプロファイルデータをシームレスに同期できます。 この統合により、次のことができます。
 
 * Adobe Experience Platform プロファイル属性を取得して、Adobe Campaign ランディングページに更新された情報を表示する
 * 更新されたプロファイル属性を Adobe Experience Platform に返し、ランディングページで入力および送信された内容に基づいて、対応する属性を更新する
@@ -40,9 +40,9 @@ Adobe Cloud Platform API では、認証と承認に OAuth 2.0 プロトコル�
 1. Adobe Experience Platform API 製品を使用して、新しい API 接続を作成します。OAuth 2.0 アクセストークンの取得方法に関する詳細な手順については、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/)を参照してください。
 1. 接続を作成したら、**[!UICONTROL OAuth サーバー間]**&#x200B;メニューに移動し、Campaign で認証に必要な以下の詳細をコピーします。
 
-   * クライアント ID
-   * クライアント秘密鍵
-   * 組織 ID
+   * `CLIENT ID`
+   * `CLIENT SECRET`
+   * &#39;組織 ID
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
@@ -102,7 +102,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
 ワークフローの実行時に、指定された値を使用してオプションが Campaign コンソールに自動的に作成されます。
 
-    ```
+    ``javascript
     loadLibrary(&quot;xtk:shared/nl.js&quot;);
     loadLibrary(&quot;xtk:shared/xtk.js&quot;);
     loadLibrary(&quot;xtk:shared/json2.js&quot;);
@@ -115,7 +115,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
     setOption(&quot;IMS_ORG_ID&quot;, cryptString(&#39;ORGANIZATION ID&#39;));
     setOption(&quot;IMS_CLIENT_API_KEY&quot;, cryptString(&#39;CLIENT ID&#39;));
     }
-    ```
+    &quot;&#39;
 
 >[!ENDTABS]
 
@@ -138,7 +138,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
    このコードでは、ランディングページを読み込む前に、Adobe Experience Platform にプロファイルが存在するかどうかを確認します。プロファイル属性を取得し、ランディングページの対応するフィールドに表示します。
 
-   ```
+   ```javascript
    // API implementation to read profile from AEP
    function getProfileInfo(email)
    {
@@ -161,7 +161,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
    このコードでは、ランディングページで送信した値で Adobe Experience Platform のプロファイル属性を更新します。
 
-   ```
+   ```javascript
    // API implementation to update profile in AEP
    loadLibrary("xtk:shared/nl.js");
    loadLibrary("xtk:shared/xtk.js");
@@ -215,7 +215,7 @@ Adobe Campaign に追加した JavaScript コードを、**[!UICONTROL JavaScrip
 
 +++ スクリプト 1 - Experience Platform からプロファイル属性を読み込む
 
-  ```
+  ```javascript
   // Script code to read profile from AEP.
   
   logInfo("Loading profile from AEP");
@@ -255,7 +255,7 @@ Adobe Campaign に追加した JavaScript コードを、**[!UICONTROL JavaScrip
 
 +++ スクリプト 2 - Experience Platform プロファイル属性を更新
 
-  ```
+  ```javascript
   // Script code to update profile in AEP and ACC.
   
   logInfo("Executing script to update AEP profile.");

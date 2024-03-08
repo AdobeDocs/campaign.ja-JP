@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 98%
+source-wordcount: '587'
+ht-degree: 96%
 
 ---
 
@@ -139,8 +139,8 @@ ht-degree: 98%
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign と Experience Platform の統合{#ac-aep}
-      + [オーディエンスとプロファイル属性](connect/ac-aep.md)
-      + [Campaign ランディングページとプロファイル属性](connect/ac-aep-landing-pages.md)
+      + [オーディエンスとプロファイル属性の共有と同期](connect/ac-aep.md)
+      + [Campaign ランディングページからの AEP プロファイルの更新](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign と Analytics の統合](connect/ac-aa.md)
    + [Campaign と Experience Manager の統合](connect/ac-aem.md)
