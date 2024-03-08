@@ -4,7 +4,8 @@ description: Campaign v8 2023 リリースで記載される機能と改善点�
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
+source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # 2023 リリースノート {#2023-rn}
 
-このページには、**Campaign v8 2022 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
+このページには、**Campaign v8 2023 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
 
 ## リリース 8.5.2 {#release-8-5-2}
 
@@ -151,5 +152,3 @@ _2023年1月27日（PT）_
 * パフォーマンスを向上させるために、複数の配信を含むワークフローでのトラッキング URL の管理を改善しました。（NEO-50894）<!--OKKKK-->
 * Xtkfolder を使用するスキーマのレプリケーションが失敗する可能性がある問題を修正しました。 （NEO-46787）<!--OKKKK-->
 * 「lastModified」カスタム列が NmsSubscription テーブルにドロップされる問題を修正しました。（NEO-48402）
-
-
