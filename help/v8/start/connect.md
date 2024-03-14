@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: 10b1113a20c11e0b97804f597cb0a48568fcae3d
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 96%
@@ -127,7 +127,7 @@ Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイ�
 
 詳しくは、 [Adobe Campaign Web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
-### web アクセス {#web-access}
+### Web アクセス {#web-access}
 
 アプリケーションの特定の機能（レポート、配信の承認、インスタンスの監視など）へは、HTML ユーザーインターフェイスを使用して、web ブラウザーからアクセスできます。
 
