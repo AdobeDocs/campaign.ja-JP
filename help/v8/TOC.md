@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 96%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 96%
 # Adobe Campaign v8 ドキュメント {#campaign-v8}
 
 + [Campaign v8 ドキュメント](campaign-home.md)
-+ リリースと最新のアップデート {#releases}
-   + [ドキュメントの更新](start/documentation-updates.md)
++ リリースノート {#releases}
    + [早期リリースノート](start/e-release-notes.md)
    + [バージョンとアップグレード](start/upgrades.md)
-   + [リリースノート](start/release-notes.md)
+   + [最新リリース](start/release-notes.md)
    + 以前のリリースノート {#previous-rn}
-      + [2023](start/release-notes-2023.md)
-      + [2022](start/release-notes-2022.md)
-      + [2021](start/release-notes-2021.md)
+      + [2023 リリース](start/release-notes-2023.md)
+      + [2022 リリース](start/release-notes-2022.md)
+      + [2021 リリース](start/release-notes-2021.md)
    + [ガードレール](start/ac-guardrails.md)
    + [既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
+   + [ドキュメントの更新](start/documentation-updates.md)
 + はじめに {#new}
    + [Adobe Campaign の概要](start/get-started.md)
    + [主な機能](start/whats-new.md)

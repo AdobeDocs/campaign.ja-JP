@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 374c0df2cd95e656cfbaa1fb355bf1f48828dfee
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 78%
 
 ---
 
@@ -26,14 +26,13 @@ ht-degree: 100%
 
 Campaign クライアントコンソールを使用するには、次のオペレーティングシステムとブラウザーが必要です。[詳細情報](connect.md)。
 
-### オペレーティングシステム{#op-systems}
+### オペレーティングシステム {#op-systems}
 
 * **Microsoft Windows Server** 2019、2016
 * **Microsoft Windows** 11、10
 
 >[!NOTE]
->
->クライアントコンソールの 32 ビットバージョンは、8.5 リリース以降非推奨（廃止予定）となることに注意してください。8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。システムのアップグレード方法について詳しくは、この[テクニカルノート](../../technotes/upgrades/console.md)を参照してください。
+>クライアントコンソールの 32 ビットバージョンは、8.5 リリース以降は非推奨となりました。 8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。システムのアップグレード方法について詳しくは、この[テクニカルノート](../../technotes/upgrades/console.md)を参照してください。
 
 ### Web ブラウザー {#web-browsers}
 
@@ -43,14 +42,14 @@ Campaign クライアントコンソールを使用するには、次のオペ�
 
 ## CRM コネクタ {#CRMconnectors}
 
-Adobe Campaign と互換性のある顧客関係管理（CRM）システムを次に示します。[詳細情報](../connect/crm.md)。
+Adobe Campaign と互換性のある顧客関係管理（CRM）システムを次に示します。CRM コネクタの詳細を説明します [このページの](../connect/crm.md).
 
 * **Salesforce** コネクタ API バージョン 49
 * **Microsoft Dynamics** コネクタ、web API：Dynamics 365 オンプレミスおよびオンライン
 
 ## Federated Data Access（FDA）{#FederatedDataAccessFDA}
 
-Adobe Campaign Federated Data Access（FDA）モジュールと互換性のある外部データベースを以下に示します。[詳細情報](../connect/fda.md)。
+Adobe Campaign Federated Data Access（FDA）モジュールと互換性のある外部データベースを以下に示します。FDA の詳細を表示 [このページの](../connect/fda.md).
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]**、Campaign v8.5 以降
@@ -62,14 +61,19 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 
 Campaign で[プッシュ通知](../send/push.md)を送信するには、データ収集 UI で Adobe Campaign Classic 拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用します。
 
-iOS と Android の互換性のあるバージョンについては、[Adobe Developer ドキュメント](https://developer.adobe.com/client-sdks/home/)を参照してください
+iOSと Android の互換性のあるバージョンについて詳しくは、 [Adobe Developerドキュメント](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+
+## Web ユーザーインターフェイス {#web-ui}
+
+次のブラウザーは、Campaign の Web ユーザーインターフェイスと互換性があります。 Campaign Web UI の詳細を説明します [このページの](campaign-ui.md#ac-web-ui).
+
+* **Microsoft Edge**, **Google Chrome**, **Safari** （最新バージョン）
 
 ## Web アクセス {#web-access}
 
-次のブラウザーは Campaign for [Web Access](connect.md#web-access) と互換性があります。
+次のブラウザーは、Web アクセス用に Campaign と互換性があります。 Campaign Web アクセスの詳細を説明します [このページの](connect.md#web-access).
 
 * **Microsoft Edge**、**Mozilla Firefox**、**Google Chrome**、**Safari**（最新バージョン）
-
 
 ## その他のリソース {#support}
 
