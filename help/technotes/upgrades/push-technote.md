@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: c81744fdf4a4fc47820c077f69288a0ea66fa5e4
+source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
 workflow-type: tm+mt
 source-wordcount: '1408'
-ht-degree: 64%
+ht-degree: 56%
 
 ---
 
@@ -33,32 +33,32 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 ### 影響の有無 {#fcm-impact}
 
-現在の実装がレガシー API を使用して FCM に接続する購読サービスをサポートしている場合は、影響を受けます。サービスの中断を避けるために、最新の API への移行は必須です。その場合、アドビのチームがご連絡させていただきます。
+現在の実装がレガシー API を使用して FCM に接続する購読サービスをサポートしている場合は、影響を受けます。サービスの分散を避けるには、最新の API への移行が必須です。 その場合、アドビのチームがご連絡させていただきます。
 
 影響を受けるかどうかを確認するには、以下のフィルターに従って&#x200B;**サービスと購読**&#x200B;をフィルタリングします。
 
 ![](assets/filter-services-fcm.png)
 
 
-* アクティブなプッシュ通知サービスのいずれかで **HTTP（レガシー）** API を使用している場合、設定はこの変更によって直接影響を受けます。現在の設定を確認し、以下で説明する新しい API に移行する必要があります。
+* アクティブなプッシュ通知サービスのいずれかで **HTTP（レガシー）** API を使用している場合、設定はこの変更によって直接影響を受けます。現在の設定を確認し、以下に説明するように、新しい API に移行する必要があります。
 
 * 設定で Android プッシュ通知用の **HTTP v1** API のみを使用している場合は、既に準拠しているので、追加のアクションは必要ありません。
 
-### 移行方法 {#fcm-migration-procedure}
+### 更新方法 {#fcm-transition-procedure}
 
-#### 前提条件 {#fcm-migration-prerequisites}
+#### 前提条件 {#fcm-transition-prerequisites}
 
-* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 への移行の前提条件は、環境を[最新の Campaign Classic ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
+* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 への移行の前提条件は、環境を [最新のCampaign Classicビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}. Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
 
 * モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup?hl=ja#initialize-sdk){target="_blank"}を参照してください。
 
-* ハイブリッド、ホストおよび Managed Services のデプロイメントの場合は、以下の移行手順に加えて、アドビに連絡してリアルタイム（RT）実行サーバーを更新してください。ミッドソーシングサーバーは影響を受けません。
+* ハイブリッド、ホストおよびManaged Servicesのデプロイメントの場合は、以下の移行手順に加えて、Adobeに連絡してリアルタイム (RT) 実行サーバーを更新してください。 ミッドソーシングサーバーは影響を受けません。
 
 * Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。ミッドソーシングサーバーは影響を受けません。
 
-#### 移行手順 {#fcm-migration-steps}
+#### 移行手順 {#fcm-transition-steps}
 
-環境を HTTP v1 に移行するには、次の手順に従います。
+環境を HTTP v1 に移動するには、次の手順に従います。
 
 1. **サービスと購読**&#x200B;のリストを参照します。
 1. **HTTP（レガシー）** API バージョンを使用しているすべてのモバイルアプリケーションをリストします。
@@ -140,21 +140,21 @@ Adobe Campaign Classic v7 とAdobe Campaign v8 は、トークンベースの接
 
 * 設定で **トークンベースの認証** iOSプッシュ通知のモードの場合、実装は既に最新の状態になっており、お客様側で追加のアクションは必要ありません。
 
-### 移行方法 {#ios-migration-procedure}
+### 更新方法 {#ios-transition-procedure}
 
-#### 前提条件 {#ios-migration-prerequisites}
+#### 前提条件 {#ios-transition-prerequisites}
 
 * Campaign Classicv7 の場合、 **トークンベースの認証** モードが 20.2 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [最新のCampaign Classicビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}. Campaign v8 の場合、 **トークンベースの認証** モードはすべてのリリースでサポートされており、アップグレードは不要です。
 
 * サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。 このキーは、Apple開発者アカウントからリクエストします。詳しくは、 [Apple開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
-* ハイブリッド、ホストおよび Managed Services のデプロイメントの場合は、以下の移行手順に加えて、アドビに連絡してリアルタイム（RT）実行サーバーを更新してください。ミッドソーシングサーバーは影響を受けません。
+* ハイブリッド、ホストおよびManaged Servicesのデプロイメントの場合は、以下の移行手順に加えて、Adobeに連絡してリアルタイム (RT) 実行サーバーを更新してください。 ミッドソーシングサーバーは影響を受けません。
 
 * Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。ミッドソーシングサーバーは影響を受けません。
 
-#### 移行手順 {#ios-migration-steps}
+#### 移行手順 {#ios-transition-steps}
 
-iOSモバイルアプリケーションをトークンベースの認証モードに移行するには、次の手順に従います。
+iOSモバイルアプリケーションをトークンベースの認証モードに移動するには、次の手順に従います。
 
 1. **サービスと購読**&#x200B;のリストを参照します。
 1. を使用しているすべてのモバイルアプリのリスト **証明書ベースの認証** モード。
