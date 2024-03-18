@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
+source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 56%
+source-wordcount: '1413'
+ht-degree: 55%
 
 ---
 
@@ -136,7 +136,7 @@ Adobe Campaign Classic v7 とAdobe Campaign v8 は、トークンベースの接
 ![](assets/filter-services-ios.png)
 
 
-* アクティブなプッシュ通知サービスのいずれかで **証明書ベースの認証** モードの場合は、現在の実装を確認し、に移動する必要があります **トークンベースの認証** モードに切り替えます。
+* アクティブなプッシュ通知サービスのいずれかで **証明書ベースの認証** モード (.p12) の場合は、現在の実装を確認し、 **トークンベースの認証** モード (.p8) を設定します。
 
 * 設定で **トークンベースの認証** iOSプッシュ通知のモードの場合、実装は既に最新の状態になっており、お客様側で追加のアクションは必要ありません。
 
@@ -157,9 +157,9 @@ Adobe Campaign Classic v7 とAdobe Campaign v8 は、トークンベースの接
 iOSモバイルアプリケーションをトークンベースの認証モードに移動するには、次の手順に従います。
 
 1. **サービスと購読**&#x200B;のリストを参照します。
-1. を使用しているすべてのモバイルアプリのリスト **証明書ベースの認証** モード。
+1. を使用しているすべてのモバイルアプリのリスト **証明書ベースの認証** モード (.p12) です。
 1. これらの各モバイルアプリケーションを編集し、 **証明書/秘密鍵** タブをクリックします。
-1. 次から： **認証モード** ドロップダウンで、「 **トークンベースの認証**.
+1. 次から： **認証モード** ドロップダウンで、「 **トークンベースの認証** モード (.p8) です。
 1. APNs 接続設定を入力します **[!UICONTROL キー ID]**, **[!UICONTROL チーム ID]** および **[!UICONTROL バンドル ID]** 次に、「 」をクリックして p8 証明書を選択します。 **[!UICONTROL 秘密鍵を入力…]**.
 
    ![](assets/token-based-certif.png)
