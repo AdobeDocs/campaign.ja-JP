@@ -8,7 +8,7 @@ breadcrumb-title: Campaign v8 ドキュメント
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -190,7 +190,7 @@ ht-degree: 96%
       + [フィルタースキーマ](dev/filter-schema.md)
       + [スキーマの構造](dev/schema-structure.md)
       + [データベースマッピング](dev/database-mapping.md)
-      + [主要な管理](dev/database-keys.md)
+      + [鍵管理](dev/database-keys.md)
       + [リンク管理](dev/database-links.md)
       + [PI ビューの制限](dev/restrict-pi-view.md)
       + [カスタム受信者テーブルの使用](dev/custom-recipient.md)
