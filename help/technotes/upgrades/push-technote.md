@@ -8,14 +8,14 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
+source-git-commit: c81744fdf4a4fc47820c077f69288a0ea66fa5e4
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1408'
 ht-degree: 64%
 
 ---
 
-# プッシュ通知チャネルの今後の変更 {#push-upgrade}
+# プッシュ通知チャネルの変更 {#push-upgrade}
 
 Campaign を使用して、iOS および Android デバイスでプッシュ通知を送信できます。 これを実行するには、モバイルアプリケーションサブスクリプションサービスを利用します。
 
