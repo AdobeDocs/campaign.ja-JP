@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 55324243c70f2bbdace4acac233d1dd470562414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 84%
 
 Adobe Campaign v8 は、企業規模のクロスチャネルキャンペーン管理用にクラス最高のクラウドソリューションを必要とする、クロスチャネルマーケター向けに設計されています。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、拡張性の高いリアルタイムメッセージングサーバーと組み合わされているので、マーケティングチームは任意の IT システムの包括的なペイロードに基づいて、パスワードのリセット、注文の確認、電子領収書などの事前定義されたメッセージを送信できます。
 
-Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されました。これは、 **管理Cloud Service** これは、サービスを積極的な監視とタイムリーな代替と組み合わせたものです。 Campaign 管理Cloud Serviceの詳細 [この節](#acms-desc).
+Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されています。これは、**Managed Cloud Service** として利用でき、サービスを先を見越した監視やタイムリーな警告と組み合わせたものです。Campaign Managed Cloud Services について詳しくは、[この節](#acms-desc)を参照してください。
 
 ![](assets/home-page.png)
 
@@ -68,18 +68,18 @@ Adobe Campaign v8 は、Real-Time CDP と Adobe Experience Platform のデータ
 
 ### Managed Cloud Services {#acms-desc}
 
-Adobe Campaign v8 は管理Cloud Serviceとして利用でき、事前の監視、タイムリーな警告、サービスガバナンスを提供します。 アドビに管理されるクラウドサービスは、低い TCO（総所有コスト）で、より機敏で安全な、拡張性の高いクロスチャネルキャンペーン管理ソリューションをマーケターに提供します。この新しい製品は、先を見越した監視とタイムリーな警告を備えたサービスを組み合わせています。
+Adobe Campaign v8 は Managed Cloud Services として利用でき、先を見越した監視、タイムリーな警告、サービスのガバナンスを提供します。アドビに管理されるクラウドサービスは、低い TCO（総所有コスト）で、より機敏で安全な、拡張性の高いクロスチャネルキャンペーン管理ソリューションをマーケターに提供します。この新しい製品は、先を見越した監視とタイムリーな警告を備えたサービスを組み合わせています。
 
-マネージドサービスのアプローチにより、マーケティング担当者は、社内の IT リソースからの大量のサポートを必要とせずに、クラウドインフラストラクチャの運用規模と経済性を活用できます。 Adobeのコンサルティングチームと導入チームは、マーケティング計画、既存の慣行、データ要件、メッセージングの量を評価し、最も適切なサービス、サポート、配信品質パッケージを推奨します。 その後、Adobe Campaign Managed Cloud Servicesチームは、キャンペーンのパフォーマンス、ブランドレピュテーション、顧客体験指標などを監視およびレポートできます。
+Managed Services のアプローチにより、マーケターは、社内の IT リソースからの多大なサポートを必要とせずに、クラウドインフラストラクチャの運用規模と経済性を活用できます。アドビのコンサルティングと実装チームは、お客様と協力してマーケティング計画、既存の慣行、データ要件、メッセージングの量を評価し、最も適切なサービス、サポート、配信品質パッケージを推奨します。Adobe Campaign Managed Cloud Services チームは、キャンペーンのパフォーマンス、ブランドレピュテーション、顧客体験指標などを監視し、レポートできるようになります。
 
-[!BADGE PDF]{type=Informative}[このホワイトペーパーを読む](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} Adobe Campaign Managed Cloud Servicesのビジネス価値の詳細をご覧ください。
+[!BADGE PDF]{type=Informative}Adobe Campaign Managed Cloud Services のビジネス価値について詳しくは、[このホワイトペーパーを参照してください](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"}。
 
-新しいクラウドアーキテクチャにより、Campaign はプロセスの合理化、コストの削減、リスクの管理、データセキュリティの向上を実現できます。 Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が付属しています。
+新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が備わっています。
 
 
 >[!AVAILABILITY]
 >
->* Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200B;利用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
+>* Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200B;利用できます。オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
 >
 >* 既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
 

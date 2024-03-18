@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 source-git-commit: 86a6979b8258bbe3136ed9e4de6ce44a8164d5d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign は、クロスチャネルのカスタマーエクスペリエ�
 
 Adobe Campaign v8 は、メール、プッシュ通知、SMS、ダイレクトメールなどの様々なマーケティングチャネル用に作成された次世代キャンペーンツールです。堅牢な ETL およびデータ管理機能を提供し、最適なキャンペーンの作成とキュレーションを支援します。そのオーケストレーションエンジンは、バッチベースのジャーニーに重点を置いた、豊富なマルチタッチマーケティングプログラムを提供します。また、拡張性の高いリアルタイムメッセージングサーバーと組み合わせることで、マーケティングチームは任意の IT システムの包括的なペイロードに基づいて、パスワードのリセット、注文の確認、電子領収書などの通信用の事前定義されたメッセージを送信できます。
 
-Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されました。これは、 **管理Cloud Service** これは、サービスを積極的な監視とタイムリーな代替と組み合わせたものです。 Campaign 管理Cloud Serviceの詳細 [このページの](whats-new.md#acms-desc).
+Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されています。これは、**Managed Cloud Service** として利用でき、サービスを先を見越した監視やタイムリーな警告と組み合わせたものです。Campaign Managed Cloud Services について詳しくは、[このページ](whats-new.md#acms-desc)を参照してください。
 
 Campaign を使用すると、次のことを行えます。
 

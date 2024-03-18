@@ -4,10 +4,11 @@ description: Campaign のユーザーインターフェイスの参照方法と�
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
-workflow-type: tm+mt
+exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
+source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +33,7 @@ Adobe Campaign には、クライアントコンソールまたは web ユーザ
 
 ## クライアントコンソールの操作 {#ui-access}
 
-Campaign クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。[Campaign クライアントコンソールの詳細を説明します](../start/connect.md). クライアントコンソールのホームページにある専用カードから、Campaign Web ユーザーインターフェイスに切り替えることができます。
+Campaign クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。[Campaign クライアントコンソールについての詳細情報](../start/connect.md)。クライアントコンソールのホームページにある専用カードから、Campaign web ユーザーインターフェイスに切り替えることができます。
 
 ![](assets/web-ui.png)
 

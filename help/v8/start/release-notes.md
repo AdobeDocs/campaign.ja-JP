@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -18,18 +18,18 @@ Adobe Campaign は定期的にアップデートされています。この定�
 
 Managed Cloud Services ユーザーの場合は、新しいバージョンが出るたびにアドビがインスタンスをアップグレードします。アドビがお客様にご連絡し、環境をアップグレードします。Campaign クライアントコンソールは、Campaign サーバーと&#x200B;**同じバージョンにアップグレードする必要があります**。クライアントコンソールのアップグレード方法について詳しくは、[こちらのページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
-さらに、をご使用のお客様は、 [互換性マトリックス](compatibility-matrix.md).
+また、[互換性マトリックス](compatibility-matrix.md)にリストされているシステムのサポートされている最新バージョンを使用していることも確認してください。
 
 
 ## リリース 8.6.2 {#release-8-6-2}
 
-_2024 年 2 月 24 日_
+_2024年2月23日（PT）_
 
 ### 修正点 {#fixes-8-6-2}
 
-このリリースでは、次の問題が修正されました。
+このリリースでは次の問題が修正されています。
 
-* ミッドソーシングインスタンスで発生する可能性があるパフォーマンスの問題を修正しました。(NEO-72595)
+* ミッドソーシングインスタンスで発生するパフォーマンスの問題を修正しました（NEO-72595）。
 
 ## リリース 8.6.1 {#release-8-6-1}
 

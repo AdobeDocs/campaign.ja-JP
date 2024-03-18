@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -49,13 +49,13 @@ Adobe Campaign では、**受信者**&#x200B;とは、配信（メール、SMS �
 >
 >* 複数の配信のターゲットになっているプロファイルは 1 回だけカウントされます。
 >
->* X(Twitter) でのソーシャルマーケティングのコンテキストでターゲット化されたプロファイルは、アクティブなプロファイルとは考慮されません。
+>* X（Twitter）のソーシャルマーケティングのコンテキストでのターゲットプロファイルは、アクティブなプロファイルとして考慮されません。
 
 ## プライバシーと同意{#privacy-and-consent}
 
 Adobe Campaign は大量のデータを収集して処理できる強力なツールですが、データの中には個人情報や機密情報も含まれます。 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。したがって、受信者の同意を得てこれを監視することが重要になります。
 
-![](../assets/do-not-localize/book.png) でプライバシーと同意を管理する方法について説明します。 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}.
+![](../assets/do-not-localize/book.png) プライバシーと同意を管理する方法については、[Adobe Campaign Classic v7 のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}を参照してください。
 
 **関連トピック**
 
