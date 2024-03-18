@@ -6,10 +6,10 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 100%
+source-wordcount: '1819'
+ht-degree: 96%
 
 ---
 
@@ -213,9 +213,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
    * （推奨）**[!UICONTROL トークンベースの認証]**：APN 接続設定の&#x200B;**[!UICONTROL キー ID]**、**[!UICONTROL チーム ID]**、**[!UICONTROL バンドル ID]** を入力し、「**[!UICONTROL 秘密鍵を入力...]**」をクリックして p8 証明書を選択します。**[!UICONTROL トークンベースの認証]**&#x200B;について詳しくは、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}を参照してください。
 
-   * **[!UICONTROL 証明書ベースの認証]**：「**[!UICONTROL 証明書を入力...]**」をクリックし、p12 キーを選択して、モバイルアプリケーション開発者から提供されたパスワードを入力します。
-
-   認証モードは、後でモバイルアプリケーションの「**[!UICONTROL 証明書]**」タブで変更することができます。
+   * **[!UICONTROL 証明書ベースの認証]**：クリック **[!UICONTROL 証明書を入力…]**  次に、p12 キーを選択し、モバイルアプリケーションデベロッパーから提供されたパスワードを入力します。 この証明書には有効期限が付いており、年単位で更新する必要があります。 ユーザーのサービスの中断を回避するには、期限が切れる前に証明書を更新します。 証明書は 1 年間有効です。APNs との通信を続行するには、証明書を更新する必要があります。
 
 1. 「**[!UICONTROL 接続をテスト]**」ボタンを使用して、設定を検証します。
 
