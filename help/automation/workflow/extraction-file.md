@@ -6,9 +6,9 @@ feature: Workflows, Data Management Activity
 role: User
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
    「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションでは、集計の最終結果をフィルターする手順が追加されます。例えば、所定の注文タイプについて、10 回以上注文した顧客などをフィルターできます。
 
-1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。これをおこなうには、 **[!UICONTROL 追加]** アイコン。
+1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。それには、「**[!UICONTROL 追加]**」アイコンをクリックします。
 
    ![](assets/s_advuser_extract_file_add_col.png)
 

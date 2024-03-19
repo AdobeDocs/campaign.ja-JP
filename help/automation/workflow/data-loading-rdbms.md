@@ -6,9 +6,9 @@ feature: Workflows, Data Management Activity
 role: User
 exl-id: 2d650573-f630-4aba-bd40-2db88ef1c346
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,6 +34,6 @@ ht-degree: 96%
 
    ![](assets/s_advuser_wf_sgbd_sample_2.png)
 
-1. このデータに対してフィルターを定義できます。これをおこなうには、 **[!UICONTROL クエリを編集....]** リンク。
+1. このデータに対してフィルターを定義できます。それには、「**[!UICONTROL クエリを編集...]**」リンクをクリックします。
 
    このように収集されたデータは、ワークフローのライフサイクルを通じて使用できます。
