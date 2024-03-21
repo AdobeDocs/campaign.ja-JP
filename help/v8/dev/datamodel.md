@@ -5,10 +5,10 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 * 新しいフィールドで[既存のテーブルを拡張](extend-schema.md)する。例えば、受信者テーブルに新しい「ロイヤルティ」フィールドを追加できます。
 * [新しいテーブルの作成](create-schema.md)。例えば、データベースの各プロファイルが行った購入をすべてリストする「購入」テーブルを作成して、受信者テーブルにリンクします。
 
-![](../assets/do-not-localize/glass.png) Campaign データモデルを使用する際のベストプラクティスについては、[この節](datamodel-best-practices.md)を参照してください。
+で Campaign データモデルを使用する際のベストプラクティスを確認する [この節](datamodel-best-practices.md).
 
 ## ビルトインプロファイルテーブル {#ootb-profiles}
 
@@ -58,9 +58,9 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 受信者テーブルは拡張できますが、テーブル内のフィールドやリンクの数を減らすことはできません。
 
-![](../assets/do-not-localize/glass.png) 既存のスキーマを拡張する方法については、[この節](extend-schema.md)を参照してください。
+既存のスキーマを拡張する方法については、[この節](extend-schema.md)を参照してください。
 
-![](../assets/do-not-localize/book.png) の組み込みの受信者テーブル拡張の例を見つける [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}
+の組み込みの受信者テーブル拡張の例を見つける [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。この方法には制限があり、[この節](custom-recipient.md)で説明します。
 
@@ -68,9 +68,9 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 Campaign v8 のテーブル管理に関してより深く理解するには、[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、テーブルは Campaign とその Snowflake Cloud データベースの間で複製されます。
 
-![](../assets/do-not-localize/glass.png) レプリケーションの戦略とメカニズムの詳細については、[この節](../architecture/replication.md)を参照してください。
+のレプリケーション戦略とメカニズムの詳細を説明します [この節](../architecture/replication.md).
 
 **関連トピック**
 
-![](../assets/do-not-localize/glass.png) プロファイルをインポートする方法については、[この節](../start/import.md)を参照してください。
-![](../assets/do-not-localize/glass.png) Campaign オーディエンスの詳細については、[この節](../start/audiences.md)を参照してください。
+でのプロファイルのインポート方法を確認する [この節](../start/import.md)
+Campaign オーディエンスの詳細については、 [この節](../start/audiences.md)

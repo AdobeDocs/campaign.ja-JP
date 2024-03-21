@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 55c177b6931ef2c427c8e9793b463274b8abb015
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基
 * 配信のステータスは即座に更新されません - マーケティングインスタンスでテクニカルプロセスが実行され、配信ステータスがタイムリーに更新されます。
 
 
-![](../assets/do-not-localize/glass.png) v7 からの移行時にトランザクションメッセージの配達確認を送信する方法について詳しくは、[このページ](../send/transactional-template.md#transition-from-v7)を参照してください。
+v7 からへの移行時にトランザクションメッセージ配達確認を送信する方法の詳細を説明します [このページ](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] と [!DNL Snowflake] {#ac-gs-snowflake}
@@ -59,14 +59,14 @@ Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成してデータをコピーするだけで、利用を開始できます。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-![](../assets/do-not-localize/glass.png) [!DNL Campaign] v8 アーキテクチャの詳細については、[このページ](../architecture/architecture.md)を参照してください。
+詳細情報： [!DNL Campaign] の v8 アーキテクチャ [このページ](../architecture/architecture.md).
 
 
 ## Adobe ID を使用して Campaign に接続{#adobe-id}
 
 Campaign ユーザーは、Adobe ID でのみ接続します。同じ Adobe ID を使用して、Adobe Experience Cloud ソリューション用に、すべてのアドビプランおよび製品を 1 つのアカウントに関連付けます。
 
-![](../assets/do-not-localize/glass.png) [!DNL Campaign] に接続する方法については、[このページ](connect.md)を参照してください。
+への接続方法を学ぶ [!DNL Campaign] in [このページ](connect.md).
 
 ## キューブを使用したデータの分析{#adobe-reporting}
 

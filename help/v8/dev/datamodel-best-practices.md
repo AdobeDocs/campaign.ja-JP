@@ -5,10 +5,10 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '2745'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign システムは非常に柔軟性が高く、初期の実装を�
 
 Campaign のビルトインテーブルとそれらの相互関係について詳しくは、[この節](datamodel.md)を参照してください。
 
-![](../assets/do-not-localize/glass.png) キャンペーンスキーマの概要については、[この節](schemas.md)を参照してください。
+読み取り [この節](schemas.md) を参照してください。
 
-![](../assets/do-not-localize/glass.png)Adobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法については、[このページ](extend-schema.md)を参照してください。
+Adobe Campaignデータベースの概念的データモデルを拡張するために拡張スキーマを設定する方法について説明します。 [このページ](extend-schema.md).
 
 ## データモデルアーキテクチャ {#data-model-architecture}
 

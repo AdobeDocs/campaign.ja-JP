@@ -5,10 +5,10 @@ description: Campaign インタラクションモジュールを使用して最�
 feature: Interaction, Offers
 role: User, Admin
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 オファーがオファーエンジンで選択されるためには、オファーが承認されてライブ環境で使用可能でなければなりません。
 
-![](../assets/do-not-localize/book.png) 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ja#approving-offer-content)を参照してください。
+詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ja#approving-offer-content)
 
 インバウンドコンタクト先のコンテキストでは、コンタクト先つまりページを閲覧しているユーザーが web サイトで識別できるかどうかです。オファーエンジンは、識別されたプロファイル用と匿名プロファイル用に、異なるオファーを提示します。
 

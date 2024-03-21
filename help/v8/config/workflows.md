@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1362'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -122,11 +122,11 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 Campaign トランザクションメッセージを使用すると、情報システムからトリガーされるイベントに基づいて、メッセージを自動的に生成できます。 トランザクションメッセージの例としては、請求書送付、注文確認、配送確認、パスワード変更、商品の在庫切れ通知、取引明細書送付、Web サイトのアカウント作成などがあります。 これらのメッセージは、個別に送信することも、メール、SMS、またはプッシュ通知を介してバッチで送信することもできます。
 
-![](../assets/do-not-localize/glass.png)トランザクションメッセージ機能について詳しくは、[この節](../send/transactional.md)を参照してください。
+でのトランザクションメッセージ機能の詳細を説明します。 [この節](../send/transactional.md).
 
-Adobe Campaign と Adobe Analytics を接続して、ユーザーのアクションを把握し、パーソナライズされたメッセージをほぼリアルタイムで送信できます。
+Adobe Campaign と Adobe Analytics を接続すると、ユーザーのアクションを取得し、パーソナライズされたメッセージをほぼリアルタイムで送信することができます。
 
-![](../assets/do-not-localize/glass.png)Campaign を他のソリューションと統合する方法については、[この節](../start/connect.md)を参照してください
+Campaign を [この節](../start/connect.md)
 
 
 ## ワークフローのエンドツーエンドのユースケース{#end-to-end-uc}

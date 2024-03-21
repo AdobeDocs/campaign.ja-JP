@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    Adobe Campaign に接続するには、Campaign クライアントコンソールをダウンロードしてインストールする必要があります。
 
-   ![](../assets/do-not-localize/glass.png) [詳しくは、ここをクリックしてください](connect.md)。
+   詳しくは、[ここをクリック](connect.md)してください。
 
    Campaign v8.6 リリースより、新しい **Campaign Web ユーザーインターフェイス**：中央のAdobe Experience Cloud環境を通じて使用できます。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
@@ -43,9 +43,9 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要なコンポーネントであり、条件とルールが常に変化し続けるという特徴があります。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
-   ![](../assets/do-not-localize/book.png)詳しくは、[配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)のガイドを参照してください{target="_blank"}
+   詳しくは、このガイドを参照してください [配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png)Campaign で配信品質を実装する方法については、[このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja)を参照してください{target="_blank"}
+   Campaign での配信品質の実装方法を説明します。 [このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target="_blank"}
 
 1. **配信がエラーなしで送信されたことを確認するにはどうすればよいですか？**
 

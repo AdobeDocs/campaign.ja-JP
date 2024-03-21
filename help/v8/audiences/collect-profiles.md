@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Web Forms
 role: Data Engineer
 level: Beginner
 exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -18,4 +18,4 @@ Campaign を使用して web フォームを作成し、プロファイルのデ
 
 ![](assets/web-form-page.png)
 
-![](../assets/do-not-localize/book.png) Web フォームの作成方法については、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
+で Web フォームを作成する方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}.

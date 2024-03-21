@@ -5,10 +5,10 @@ feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
 ![](assets/calendar.png)
 
-![](../assets/do-not-localize/book.png) マーケティングキャンペーンへのアクセスおよび実装方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)を参照してください。
+でマーケティングキャンペーンにアクセスして実装する方法を説明します。 [この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja).
 
 ## 開始する主な手順{#gs-ac-start}
 
@@ -57,7 +57,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    階層とスケジュールを定義し、予算を設定し、リソースを追加して、オペレーターを選択します。
 
-   ![](../assets/do-not-localize/book.png) マーケティングプランを作成しキャンペーンを設定する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja)を参照してください。
+   マーケティングプランを作成し、キャンペーンを設定する方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja).
 
    すべてのマーケティングキャンペーンは、主な設定と機能を定義したテンプレートに基づいています。特定の設定が定義されていないキャンペーンを作成するために、ビルトインのテンプレートが用意されています。キャンペーンテンプレートを作成および設定して、そのテンプレートからキャンペーンを作成することができます。
 
@@ -79,11 +79,11 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    ![](assets/campaign-dashboard.png)
 
-   ![](../assets/do-not-localize/book.png) マーケティングキャンペーン配信を作成し開始する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja)を参照してください。
+   マーケティングキャンペーン配信を作成し、開始する方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja).
 
    レポート、写真、web ページ、図などの様々なドキュメントをキャンペーンに関連付けることができます。
 
-   ![](../assets/do-not-localize/book.png) 関連付けられるドキュメントについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=ja)を参照してください。
+   関連ドキュメントの詳細については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets.html?lang=ja).
 
 1. **承認プロセスの設定**
 

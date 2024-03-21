@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f6ccec05d63c397d0a286c18f4114eb414156d45
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 90%
+ht-degree: 83%
 
 ---
 
@@ -36,9 +36,9 @@ Campaign v8 は、次のAdobeソリューションと接続できます。 リ�
 
 アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
 
-![](../assets/do-not-localize/book.png) Campaign と Experience Cloud ソリューション間の&#x200B;**オーディエンス共有**&#x200B;については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)を参照してください
+詳細情報： **オーディエンスの共有** Campaign とExperience Cloudのソリューション間で [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) Campaign と Experience Cloud ソリューション間の&#x200B;**アセット共有** については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)を参照してください
+詳細情報： **アセットの共有** Campaign とExperience Cloudのソリューション間で [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)
 
 ## CRM コネクタとの統合{#gs-crm-connectors}
 
@@ -53,7 +53,7 @@ Campaign を Microsoft Dynamics 365 および Salesforce.com に統合する方�
 
 FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign Cloud データベースのデータに影響を与えることなく、外部データベースに格納された情報を処理できます。
 
-![](../assets/do-not-localize/glass.png) 詳しくは、[このページ](fda.md)を参照してください
+詳しくは、[このページ](fda.md)を参照してください。
 
 ## ソーシャルメディアの操作{#gs-social}
 

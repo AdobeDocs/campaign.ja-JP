@@ -5,10 +5,10 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: b0150b38b50b04c08b10ed73b3be3064a09d7b88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。複数のサービスを並行して定義できます。例えば、web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
 
-![](../assets/do-not-localize/book.png) 情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}を参照してください。
+情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法について説明します [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}
 
 プロファイルをサービスに購読（オプトイン）するには、次のオプションを使用できます。
 
@@ -24,7 +24,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   ![](assets/subscribe-to-a-service.png)
 
-  ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
+  詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab)を参照してください{target="_blank"}
 
 * 受信者のセットを、このサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。これらの受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
 
@@ -34,12 +34,12 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   ![](assets/subscribe-confirm.png)
 
-  ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
+  詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab)を参照してください{target="_blank"}
 
 
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
 
-  ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ja#step-5---additional-step-when-importing-recipients){target="_blank"}を参照してください
+  詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=ja#step-5---additional-step-when-importing-recipients)を参照してください{target="_blank"}
 
 * 受信者がサービスの購読を登録できる Web フォームを使用します。
 
@@ -49,7 +49,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   ![](assets/web-app.png)
 
-  ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=ja#create-a-subscription--form-with-double-opt-in){target="_blank"}を参照してください
+  詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=ja#create-a-subscription--form-with-double-opt-in)を参照してください{target="_blank"}
 
 
 * ターゲティングワークフローを作成し、**[!UICONTROL 購読サービス]**&#x200B;アクティビティを使用します。
@@ -71,7 +71,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 * 情報サービスの期限を指定します。有効期間が終了すると、受信者は自動的に購読解除されます。この期間は、サービスプロパティの「編集」タブで指定します。期間は日数で表します。
 * 母集団の購読解除ワークフローを設定します。
 
-![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja#unsubscribing-a-recipient-from-a-service){target="_blank"}を参照してください
+詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja#unsubscribing-a-recipient-from-a-service)を参照してください{target="_blank"}
 
 
 >[!CAUTION]
@@ -81,5 +81,5 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 <!--
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 
 
-![](../assets/do-not-localize/book.png) For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend){target="_blank"}
+For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend){target="_blank"}
 -->

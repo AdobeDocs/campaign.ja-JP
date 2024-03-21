@@ -5,7 +5,7 @@ feature: Privacy, PI
 role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 97%
@@ -49,7 +49,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-![](../assets/do-not-localize/book.png) 詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}
+詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}
 
 
 ## パーソナライゼーション
@@ -144,4 +144,4 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-![](../assets/do-not-localize/book.png) 詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}
+詳しくは、 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}

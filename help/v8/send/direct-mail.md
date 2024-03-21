@@ -5,7 +5,7 @@ feature: Direct Mail
 role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
    テンプレートに基づいてダイレクトメール配信を作成します。 **[!UICONTROL ダイレクトメールで配信（紙）]**&#x200B;ビルトインテンプレートを複製し、設定できます。
 
-   ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html?lang=ja){target="_blank"}を参照してください
+   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html?lang=ja)を参照してください{target="_blank"}
 
 1. オーディエンスの定義
 
@@ -30,21 +30,21 @@ ht-degree: 100%
 
    郵送先住所は、計算フィールドです。1 つのアドレスは、デフォルトで最大 6 つの行から構成されます。最初の行には名前の姓および名、続く数行には郵送先住所の番地など、最後の行には、郵便番号や市区町村が含まれます。デフォルトで計算済みの postalAddress フィールドの定義は、nms:recipient スキーマで確認できます。
 
-   名前、郵便番号、市区町村フィールドが空でない場合、アドレスは完全に入力されているとみなされます。アドレスが不完全な受信者は、ダイレクトメール配信から除外されます。
+   名前、郵便番号、市区町村フィールドが空でない場合、アドレスは完全に入力されているとみなされます。アドレスが不完全な受信者はダイレクトメールの配信から除外されます。
 
-   ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja){target="_blank"}を参照してください
+   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html?lang=ja)を参照してください{target="_blank"}
 
 1. ファイルのコンテンツの定義
 
    抽出ウィザードを使用して、出力ファイルに書き出す情報（列）を定義します。
 
-   ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html?lang=ja){target="_blank"}を参照してください
+   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html?lang=ja)を参照してください{target="_blank"}
 
 1. 配信の検証
 
    分析の結果と、出力ファイルのコンテンツをチェックします。
 
-   ![](../assets/do-not-localize/book.png)詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html?lang=ja){target="_blank"}を参照してください
+   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html?lang=ja)を参照してください{target="_blank"}
 
    マーケティングキャンペーンのコンテキストでは、抽出日に抽出ファイルが作成されます。 抽出したファイルのコンテンツを表示したり、ファイルを承認したり、形式を変更したり、必要に応じて抽出を再度開始したりできます。ファイルが承認されたら、通知メールを発送担当に送信できます。詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja)を参照してください。
 

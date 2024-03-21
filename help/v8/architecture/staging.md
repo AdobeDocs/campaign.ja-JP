@@ -5,10 +5,10 @@ feature: Configuration, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Campaign のステージングメカニズムを特定のテーブルに実装�
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) カスタムスキーマの作成の詳細については、[このページ](../dev/create-schema.md)を参照してください。
+   でのカスタムスキーマ作成の詳細を説明します。 [このページ](../dev/create-schema.md).
 
 1. データベース構造を保存して更新します。[詳細情報](../dev/update-database-structure.md)
 

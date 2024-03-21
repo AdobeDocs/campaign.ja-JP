@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 55324243c70f2bbdace4acac233d1dd470562414
-workflow-type: ht
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 
 Adobe Campaign を使用すると、キャンペーンオーケストレーション用の使いやすい単一のインターフェイスで、チャネルの同期を簡単に行えます。したがって、電子メール、web、モバイル、ソーシャルなどのオンラインチャネルは、ダイレクトメール、コールセンター、店舗などのオフラインチャネルと一致します。これにより、デジタルチャネルと従来のチャネルの両方で、一貫したコンテキストに沿ったエクスペリエンスを顧客に提供できます。Adobe Campaign では、あらゆるチャネルで、顧客がたどるすべてのパスに簡単にコンテンツを配信できます。
 
-![](../assets/do-not-localize/glass.png) [Campaign ワークフローの詳細](../config/workflows.md)
+[Campaign ワークフローの詳細を説明します](../config/workflows.md)
 
 ### パーソナライズされたメールマーケティング {#perso-email-mkt}
 
@@ -36,7 +36,7 @@ Adobe Campaign を使用すると、キャンペーンオーケストレーシ�
 
 Adobe Campaign を使用すると、電子メールをより上手に、より巧みにパーソナライズし、より多くの利益を上げることができます。電子メールは簡単に作成でき、配信も容易です。Campaign v8 では、送信するすべてのメッセージの設計、パーソナライズ、テスト、調整、改善が柔軟になります。
 
-![](../assets/do-not-localize/glass.png) [パーソナライゼーション機能の詳細を説明します](create-message.md)
+[パーソナライゼーション機能の詳細を説明します](create-message.md)
 
 ### 顧客データ管理 {#customer-data-mgt}
 
@@ -44,7 +44,7 @@ Adobe Campaign を使用すると、電子メールをより上手に、より�
 
 Adobe Campaign は、すべてのチャネルで収集されたデータから顧客プロファイルを作成するのに役立ちます。このプロファイルを使用して、複数のチャネルにわたってキャンペーンを調整できます。すべてのマーケティングチャネルを接続することで、各顧客による様々なジャーニーを、顧客が理解できる方法でカスタマイズできます。
 
-![](../assets/do-not-localize/glass.png) [顧客データ管理の詳細](audiences.md)
+[顧客データ管理の詳細](audiences.md)
 
 ### クラス最高のキャンペーン管理 {#best-in-campaign-mgt}
 
@@ -52,7 +52,7 @@ Adobe Campaign v8 は、様々なチャネルをまたいでキャンペーン�
 
 機能には、顧客の単一のビューを提供する統合プロファイルが含まれます。大規模なキャンペーンオーディエンス構築のためのデータ管理とセグメント化。マルチチャネルおよびマルチウェーブキャンペーンを自動化するためのクロスチャネルワークフロー管理。統合された電子メールにより、コストの高い ESP への依存を軽減します。顧客の行動とキャンペーンのパフォーマンスを把握するためのレポートと分析。
 
-![](../assets/do-not-localize/glass.png) [キャンペーン管理の詳細](campaigns.md)
+[キャンペーン管理の詳細を説明します](campaigns.md)
 
 
 ### Adobe Experience Platform への接続 {#connection-to-aep}
@@ -63,7 +63,7 @@ Adobe Campaign v8 は、Real-Time CDP と Adobe Experience Platform のデータ
 
 また、ジャーニー AI を使用して、予測送信時間の最適化と予測エンゲージメントスコアを設定し、オープン率、クリック数、売上高を増やすこともできます。
 
-![](../assets/do-not-localize/glass.png) Campaign 統合の詳細については、[こちら](../connect/integration.md)を参照してください。
+[Campaign 統合の詳細を説明します](../connect/integration.md)
 
 
 ### Managed Cloud Services {#acms-desc}
@@ -90,7 +90,7 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 
 [Campaign v8 Enterprise](../architecture/enterprise-deployment.md) では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいサービスにより、Campaign v8 ではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。[!DNL Snowflake] は Campaign のクラウドデータベースです。スピードと耐久性を実現し、システムアクティビティのピーク時にも過負荷が発生しません。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-![](../assets/do-not-localize/glass.png) [エンタープライズ（FFDA）デプロイメントの詳細情報](../architecture/enterprise-deployment.md)
+[エンタープライズ (FFDA) デプロイメントの詳細を説明します](../architecture/enterprise-deployment.md)
 
 
 ## セルフサービス管理インターフェイス{#self-service-admin}
@@ -105,6 +105,6 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [詳しくは、Campaign コントロールパネルを参照してください](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[CampaignCampaign コントロールパネルの詳細](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 
 

@@ -5,10 +5,10 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >配信ステータスは、リアルタイムには表示されません。メールフィードバックサービスについて詳しくは、[この節](#email-feedback-service)を参照してください。
 
 
-![](../assets/do-not-localize/book.png) [配信の監視について詳しくは、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
+[配信の監視について詳しくは、Campaign Classicv7 ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
 
 ## Campaign MTA {#mta}
 

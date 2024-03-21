@@ -5,10 +5,10 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1045'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -86,13 +86,13 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 
 [!DNL Campaign] Cloud データベースでは、パフォーマンス（待ち時間と同時実行性）のため、単一呼び出しのブラストは推奨されません。バッチ操作は常に推奨されます。API の最適なパフォーマンスを保証するために、Campaign は API 呼び出しの処理をローカルデータベースレベルで継続します。
 
-![](../assets/do-not-localize/glass.png) [API のステージングメカニズム について詳しくは、このページを参照してください。](staging.md)
+[API ステージングメカニズムについて詳しくは、このページを参照してください。](staging.md)
 
 ### 新しい API{#new-apis}
 
 [!DNL Campaign] ローカルデータベースと Cloud データベース間のデータ同期を管理する新しい API をご利用いただけます。また、待ち時間の発生を回避し、全体的なパフォーマンスを向上させるために、ローカルデータベースレベルで API 呼び出しを処理する新しいメカニズムが導入されました。
 
-![](../assets/do-not-localize/glass.png) [新しい API について詳しくは、このページを参照してください。](new-apis.md)
+[新しい API について詳しくは、このページを参照してください。](new-apis.md)
 
 
 ### データのレプリケーション{#data-replication}

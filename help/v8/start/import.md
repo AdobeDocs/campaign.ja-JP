@@ -5,10 +5,10 @@ feature: Profiles, Data Management
 role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 Campaign を使用すると、クラウドデータベースに連絡先を追加できます。ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。
 
-![](../assets/do-not-localize/glass.png) [オーディエンス](audiences.md)の概要
+の基本を学ぶ [audiences](audiences.md)
 
-![](../assets/do-not-localize/glass.png) Campaign [データモデル](../dev/datamodel.md)について
+Campaign について [datamodel](../dev/datamodel.md)
 
 ## ワークフローへのプロファイルのインポート
 
@@ -33,7 +33,7 @@ Campaign を使用すると、クラウドデータベースに連絡先を追�
 
 ![](assets/new-import.png)
 
-![](../assets/do-not-localize/book.png) 単一のインポートジョブを実行してデータベースにフィードする方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}を参照してください。
+データベースにフィードする単一インポートジョブを実行する方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}.
 
 ## Web アプリでのプロファイルの収集
 
@@ -41,7 +41,7 @@ Campaign を使用して web フォームを作成し、プロファイルの情
 
 ![](assets/web-form-page.png)
 
-![](../assets/do-not-localize/book.png) Web フォームの作成方法については、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
+で Web フォームを作成する方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}.
 
 **関連トピック**
 
