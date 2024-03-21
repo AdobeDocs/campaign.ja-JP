@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 100%
+source-wordcount: '706'
+ht-degree: 89%
 
 ---
 
@@ -30,9 +30,14 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    ![](../assets/do-not-localize/glass.png) [詳しくは、ここをクリックしてください](connect.md)。
 
+   Campaign v8.6 リリースより、新しい **Campaign Web ユーザーインターフェイス**：中央のAdobe Experience Cloud環境を通じて使用できます。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
+
+   Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイスにアクセスする方法については、[このページ](campaign-ui.md#ac-web-ui)を参照してください。
+
+   詳しくは、 [Adobe Campaign Web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 1. **Campaign v8 をオンプレミス環境またはハイブリッド環境にインストールすることはできますか？**
 
-   現時点では、Campaign v8 は、アドビが完全にホストしている Managed Cloud Services でのみ使用できます。
+   Campaign v8 は、Adobeが完全にホストする管理対象Cloud Serviceでのみ使用できます。
 
 1. **メール配信の品質を向上させるにはどうすればよいですか？**
 
@@ -60,11 +65,15 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 
-   ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとしてサブドメインをアドビに委任する場合は、アドビにお問い合わせください。
+   ![](../assets/do-not-localize/speech.png) 管理対象Cloud ServiceのユーザーがAdobeにサブドメインをデリゲートする場合は、Adobeに問い合わせてください。
 
 1. **Campaign Classic v7 ユーザーは、Campaign v8 に移行できますか？**
 
-   現時点では、Campaign v8 は新しい実装でのみ使用できます。
+   既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
+
+   Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200B;利用できます。オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
+
+   ![](../assets/do-not-localize/speech.png) 移行プロセスの詳細については、Adobe担当者にお問い合わせください。
 
 1. **Campaign はどのようにしてダウンロードできますか？**
 
