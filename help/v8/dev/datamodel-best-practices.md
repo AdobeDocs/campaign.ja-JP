@@ -5,10 +5,10 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '2745'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -176,7 +176,7 @@ Adobe Campaign 内のレコードの必要性を最小限に抑えるには、�
 
 「deleteStatus」属性はスキーマで宣言できます。レコードを削除済みとマークしてから、後でクリーンアップタスクで削除する方が効率的です。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとしてリテンションの詳細を確認する場合や、カスタムテーブルでリテンションを設定する必要がある場合は、アドビのコンサルタントまたは技術管理者にお問い合わせください。
+管理対象Cloud Serviceのユーザーは、Adobeコンサルタントまたは技術管理者に連絡して、リテンションの詳細を確認したり、カスタムテーブルのリテンションを設定する必要がある場合は、にお問い合わせください。
 
 ## パフォーマンス {#performance}
 

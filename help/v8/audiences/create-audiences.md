@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
    ![](assets/targeting-wf-age-filter.png)
 
-   ワークフローでクエリを作成する方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja)を参照してください。
+   ワークフローでクエリを作成する方法については、 [この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}.
 
 1. このクエリのラベルを追加し、変更を保存します。
 1. **[!UICONTROL リスト更新]**&#x200B;アクティビティをを追加し、編集します。
@@ -124,7 +124,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
    ![](assets/access-new-list.png)
 
-   ワークフローにスケジューラーを追加することで、このワークフローを繰り返し実行できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja)。
+   ワークフローにスケジューラーを追加することで、このワークフローを繰り返し実行できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"}.
 
 ## リストからのプロファイルの削除 {#remove-a-profile-from-a-list}
 

@@ -5,10 +5,10 @@ description: 繰り返し発生するインポートのワークフローテン�
 feature: Workflows, Data Management
 role: User, Data Engineer
 exl-id: 13f0091b-b62c-47df-9658-6631ba1cf03a
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 100%
+source-wordcount: '1134'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 読み込むファイル名]**」セクションで、「**[!UICONTROL ローカルマシンからファイルをアップロード]**」を選択して、フィールドを空のままにします。このテンプレートから新しいワークフローを作成するたびに、ここで、定義された構造に対応するファイルを指定できます。
 
-     任意のオプションを使用できますが、それに応じてテンプレートを修正する必要があります。例えば、「**[!UICONTROL トランジションで指定]**」を選択する場合、FTP／SFTP サーバーからインポートするファイルを取得する前に、「**[!UICONTROL ファイル転送]**」アクティビティを追加できます。S3 または SFTP 接続を使用すると、アドビのリアルタイムカスタマーデータプラットフォーム（CDP）でセグメントデータを Adobe Campaign にインポートすることもできます。詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja)を参照してください。
+     任意のオプションを使用できますが、それに応じてテンプレートを修正する必要があります。例えば、「**[!UICONTROL トランジションで指定]**」を選択する場合、FTP／SFTP サーバーからインポートするファイルを取得する前に、「**[!UICONTROL ファイル転送]**」アクティビティを追加できます。S3 または SFTP 接続を使用すると、アドビのリアルタイムカスタマーデータプラットフォーム（CDP）でセグメントデータを Adobe Campaign にインポートすることもできます。詳しくは、 [Adobe Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ja){target="_blank"}.
 
      ![](assets/import_template_example1.png)
 

@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,10 @@ ht-degree: 100%
 
  トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
 
-![](../assets/do-not-localize/speech.png)Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして構成する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+
+>[!NOTE]
+>
+>管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) :Campaign トランザクションメッセージをお使いの環境にインストールして設定します。
 
 ## 権限の定義 {#mc-permissions}
 
@@ -51,7 +54,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
 トランザクションプッシュ通知を送信するイベント設定の例を以下に示します。
 
-```
+```xml
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
      <urn:PushEvent>

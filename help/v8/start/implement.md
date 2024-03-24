@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -83,18 +83,18 @@ Campaign にユーザーを手動で追加し、それらのユーザーを、�
    キャンペーン、配信、ジョブまたはワークフローはすべてテンプレートに基づいています。テンプレートには主要な設定と機能が含まれています。ビルトインテンプレートはコンポーネントごとに提供されていますが、具体的な設定は何も定義されていません。ニーズに合わせてテンプレートを設定および調整して、エンドユーザーから利用できるようにする必要があります。
 
 
-   キャンペーンテンプレートの使用方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)
+   キャンペーンテンプレートの使用方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja){target="_blank"}.
 
-   ワークフローテンプレートを設定する方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja)
+   ワークフローテンプレートを設定する方法については、 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}.
 
-   電子メールテンプレートについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target="_blank"}
+   電子メールテンプレートについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target="_blank"}.
 
 
 1. **タイポロジルールの設定**
 
    Campaign タイポロジルールを活用して、配信送信をフィルタリング、制御、監視します。例えば、疲労ルールでは、受信者の過剰勧誘を避けるために、メッセージの頻度と数量を制御します。実装が完了すると、タイポロジルールが配信で参照されます。
 
-   タイポロジと疲労管理について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja)を参照してください。
+   タイポロジと疲労管理について詳しくは、 [この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"}.
 
 1. **Campaign のビルトインデータモデルの理解**
 

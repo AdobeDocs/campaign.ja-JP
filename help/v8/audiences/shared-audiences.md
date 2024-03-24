@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 95%
 
 ---
 
@@ -38,6 +38,6 @@ ht-degree: 100%
 
 詳しくは、次を参照してください。
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja)
+[Adobe Audience Manager Knowledge Base](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja){target="_blank"}.
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja)
+[Adobe Experience Cloud Central Interface Components ガイド](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}.

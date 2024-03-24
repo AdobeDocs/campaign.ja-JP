@@ -5,10 +5,10 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: bbe3ba03bfecf5b0931795ff827d25560f955702
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -56,7 +56,7 @@ OAuth 接続を設定したら、次の手順では Adobe Experience Platform �
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 必要に応じて、接続を設定します。HTTP API 接続の設定方法について詳しくは、[Adobe Experience Platform ソースドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja)を参照してください。
+1. 必要に応じて、接続を設定します。HTTP API 接続の設定方法に関する詳細は、 [Adobe Experience Platformソースドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja){target="_blank"}.
 
    **[!UICONTROL 認証]**&#x200B;手順で、「**[!UICONTROL 認証を有効にする]**」オプションの切替スイッチをオンにして、OAuth 統合を通じて事前に生成されたアクセストークンを使用して認証します。
 
@@ -98,7 +98,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
 >[!TAB JavaScript コードアクティビティを使用してオプションを追加]
 
-ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。[詳しくは、JavaScript コードアクティビティの設定方法を参照してください](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=ja#JavaScript-code)。
+ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。[JavaScript コードアクティビティの設定方法を説明します](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=ja#JavaScript-code){target="_blank"}.
 
 ワークフローの実行時に、指定された値を使用してオプションが Campaign コンソールに自動的に作成されます。
 
@@ -344,5 +344,5 @@ Adobe Experience Platform でプロファイル属性を更新するように設
 ### 詳細情報
 
 * [JavaScript コードアクティビティの設定](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [ランディングページの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=ja)
+* [ランディングページの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=ja){target="_blank"}
 * [購読と購読解除を管理](../start/subscriptions.md)

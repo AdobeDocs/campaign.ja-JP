@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,9 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。 だからこそ、最新バージョンの Adobe Campaign を実行することが重要であると考えているのです。
 
-   ![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーの場合は、新しいリリースが出るたびにアドビがインスタンスをアップグレードします。
+   >[!NOTE]
+   >
+   >管理対象Cloud Serviceのユーザーは、新しいリリースのたびに、Adobeによってインスタンスがアップグレードされます。
 
 1. **Campaign v8 に接続するにはどうすればよいですか？**
 
@@ -65,7 +67,9 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    サブドメインとは、ブランドや様々なタイプのトラフィック（トランザクションメッセージ、マーケティング情報など）を分離するために使用できるドメインの区分です。
 
-   ![](../assets/do-not-localize/speech.png) 管理対象Cloud ServiceのユーザーがAdobeにサブドメインをデリゲートする場合は、Adobeに問い合わせてください。
+   >[!NOTE]
+   >
+   >管理対象Cloud ServiceのユーザーがAdobeにサブドメインをデリゲートする場合は、Adobeに問い合わせてください。
 
 1. **Campaign Classic v7 ユーザーは、Campaign v8 に移行できますか？**
 
@@ -73,7 +77,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200B;利用できます。オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
 
-   ![](../assets/do-not-localize/speech.png) 移行プロセスの詳細については、Adobe担当者にお問い合わせください。
+   移行プロセスの詳細については、Adobe担当者にお問い合わせください。
 
 1. **Campaign はどのようにしてダウンロードできますか？**
 

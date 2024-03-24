@@ -5,10 +5,10 @@ feature: Direct Mail
 role: User
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -54,4 +54,4 @@ ht-degree: 100%
 
    送信を確認すると、指定したファイルへのデータ抽出が開始されます。
 
-   マーケティングキャンペーンのコンテキストでは、すべての承認が付与されると、特別なワークフローを使用して抽出ファイルが作成されます。このワークフローは、デフォルト設定では、ダイレクトメール配信が抽出保留中の場合に自動的に開始されます。詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja)を参照してください。
+   マーケティングキャンペーンのコンテキストでは、すべての承認が付与されると、特別なワークフローを使用して抽出ファイルが作成されます。このワークフローは、デフォルト設定では、ダイレクトメール配信が抽出保留中の場合に自動的に開始されます。詳しくは、 [この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja){target="_blank"}.

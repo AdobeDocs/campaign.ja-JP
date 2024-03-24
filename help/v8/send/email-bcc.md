@@ -4,13 +4,13 @@ description: Adobe Campaign で「BCC でメールを送信」をアクティブ
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
+exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
-
 
 # BCC アドレスに対するメッセージのコピーの送信 {#bcc}
 
@@ -26,7 +26,9 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 
 アーカイブ先は選択した BCC メールアドレスです。配信の受信者には表示されません。BCC メールアドレスを定義したら、[配信テンプレート](create-templates.md)レベルで専用オプションを有効にする必要があります。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services のユーザーは、[アドビに連絡](../start/campaign-faq.md#support){target="_blank"}して、アーカイブに使用する BCC メールアドレスを伝えてください。
+>[!NOTE]
+>
+>管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support){target="_blank"} アーカイブに使用する BCC 電子メールアドレスを伝達する。
 
 >[!CAUTION]
 >

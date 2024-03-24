@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1560'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 99%
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらの通知は、情報システムからトリガーされたイベントから生成されます。例えば、請求書、注文確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などがあります。
 
-![](../assets/do-not-localize/speech.png)Managed Cloud Services ユーザーとして Campaign トランザクションメッセージをお使いの環境に設定する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support){target="_blank"}ください。
+>[!NOTE]
+>
+>管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support){target="_blank"} :Campaign トランザクションメッセージをお使いの環境で設定します。
 
 トランザクションメッセージは、次の送信に使用します。
 
@@ -109,7 +111,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 >[!CAUTION]
 >
 >メッセージに含まれる画像は、公的にアクセス可能でなければなりません。Adobe Campaign には、トランザクションメッセージ用の画像アップロードのメカニズムがありません。\
->JSSP や Web アプリとは異なり、`<%=` にはデフォルトのエスケープ機能がありません。
+>JSSP や web アプリとは異なり、`<%=` にはデフォルトのエスケープ機能がありません。
 >
 >イベントから取得する各データを適切にエスケープする必要があります。このエスケープ方法は、このフィールドの使用方法によって異なります。例えば、URL 内では、encodeURIComponent を使用します。HTML に表示する場合は、escapeXMLString を使用できます。
 

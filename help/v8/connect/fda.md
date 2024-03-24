@@ -5,10 +5,10 @@ feature: Federated Data Access
 role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,15 +16,13 @@ ht-degree: 100%
 
 FDA コネクタ（Federated Data Access）を使用し、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign クラウドデータベースデータに影響を与えることなく、それらに保存されている情報を処理できます。その後、Adobe Campaign データの構造を変更せずに外部データにアクセスできます。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーは、[アドビに連絡](../start/campaign-faq.md#support)して外部データベースを Campaign に接続してもらいます。
-
-
 >[!NOTE]
 >
 >* Federated Data Access と互換性のあるデータベースの一覧については、[互換性マトリックス](../start/compatibility-matrix.md)を参照してください。
 >
 >* [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、Campaign のローカルデータベースと Snowflake のクラウドデータベースとの通信を管理するために、特定の外部アカウントが利用可能です。この外部アカウントはアドビによって設定されいるので、変更&#x200B;**しないでください**。
 >
+>* 管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) 外部データベースを Campaign に接続する場合。
 
 
 ## ベストプラクティスと制限事項

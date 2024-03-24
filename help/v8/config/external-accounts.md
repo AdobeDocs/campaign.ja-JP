@@ -5,10 +5,10 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
-でのインバウンド E メールの詳細を説明します [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja).
+でのインバウンド E メールの詳細を説明します [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -116,7 +116,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 ## データ転送外部アカウント {#transfer-data-external-accounts}
 
-これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。ワークフローでの&#x200B;**ファイル転送**&#x200B;について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja)を参照してください。
+これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。詳細情報： **ファイル転送** のワークフロー内 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"}.
 
 * **FTP および SFTP** - **FTP** 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。
 
@@ -124,7 +124,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
   >[!NOTE]
   >
-  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。[詳しくは、鍵の管理を参照してください](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja)
+  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。[鍵の管理の詳細](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja){target="_blank"}.
 
 * **Amazon Simple Storage Service（S3）** - **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 

@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
@@ -80,6 +80,6 @@ iOSと Android の互換性のあるバージョンについて詳しくは、 [
 * [Campaign リリースの更新](upgrades.md)
 * [Campaign のバージョンの確認](upgrades.md#version)
 * [Campaign クライアントコンソールのインストール](connect.md)
-* [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target="_blank"}。
+* [Campaign コントロールパネルリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target="_blank"}
 
 新しい Experience Cloud ソリューションリリースについての情報を得るには、[Adobe Priority Product Update](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"} を購読してください。

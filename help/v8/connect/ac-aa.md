@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 100%
+source-wordcount: '1255'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,9 @@ Adobe Analytics を設定して、Campaign と Analytics を統合できます�
 
 この統合により、Adobe Campaign と Adobe Analytics は、**Web 分析コネクタ**&#x200B;アドオンを介してやり取りできるようになります。この統合では、Adobe Campaign から配信された メールキャンペーンの指標と属性を Adobe Analytics に送信します。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
+>[!NOTE]
+>
+>管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) Campaign をAdobe Experience Cloudのサービスおよびソリューションと接続する。 専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
 
 Adobe Analytics Connector を使用すると、Adobe Campaign はインターネットのオーディエンスを測定できます（Web 分析）。Web 分析ツールを使用すると、Adobe Campaign は指標とキャンペーン属性を Analytics に転送できます。
 
@@ -53,7 +55,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. **[!UICONTROL レポートスイートマネージャー]**&#x200B;ページで、「**[!UICONTROL 新規作成]**」、「**[!UICONTROL レポートスイート]**」の順にクリックします。
 
-   **[!UICONTROL レポートスイート]**&#x200B;の作成に関する詳細な手順については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ja#prerequisites)を参照してください。
+   詳しい手順については、 **[!UICONTROL レポートスイート]** 作成、を参照してください。 [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ja#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -83,7 +85,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. 「**[!UICONTROL 新規追加]**」をクリックし、メールキャンペーンの効果測定に必要な ID として、内部キャンペーン名（cid）および iNmsBroadlog（bid）テーブル ID を作成します。
 
-   **[!UICONTROL コンバージョン変数]**&#x200B;の編集方法については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ja#admin-tools)を参照してください。
+   編集方法を学ぶには **[!UICONTROL コンバージョン変数]**（これを参照） [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ja#admin-tools){target="_blank"}.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -106,7 +108,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
    * **[!UICONTROL ユニーク開封数]**
    * **[!UICONTROL 購読解除済み]**
 
-   **[!UICONTROL 成功イベント]**&#x200B;の設定方法については、[この節](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ja#admin-tools)を参照してください。
+   設定方法を学ぶには **[!UICONTROL 成功イベント]**（これを参照） [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ja#admin-tools)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -120,7 +122,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 外部アカウントの設定時に&#x200B;**[!UICONTROL レポートスイート]**、**[!UICONTROL コンバージョン変数]**、**[!UICONTROL 成功イベント]**&#x200B;のいずれかが表示されない場合は、新しく作成したコンポーネントに対する権限が、ユーザーに関連付けられた&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;にないことをい意味します。
 
-詳しくは、 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins)Adobe Analytics の製品プロファイル[のページを参照してください。
+詳しくは、 [Adobe Analyticsの製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"} ページに貼り付けます。
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;フォルダーで、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -180,7 +182,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. 「**[!UICONTROL 詳細設定]**」タブでは、より技術的な設定を設定または変更できます。
 
-   * **[!UICONTROL 存続期間]**：Adobe Campaign でテクニカルワークフローで Web イベントを収集するまでの期間（日数）を指定できます。デフォルト：180 日。
+   * **[!UICONTROL 存続期間]**:Adobe Campaignでテクニカルワークフローで Web イベントを復元するまでの遅延（日数）を指定できます。 デフォルト：180 日。
    * **[!UICONTROL 持続]**：すべての Web イベント（購入など）をリマーケティングキャンペーンの属性にできる期間を指定できます。デフォルト：7 日。
 
 >[!NOTE]

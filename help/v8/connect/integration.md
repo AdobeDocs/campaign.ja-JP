@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 83%
+ht-degree: 78%
 
 ---
 
@@ -22,8 +22,6 @@ Adobe Campaign にはいくつかのコネクタが付属しており、それ�
 
 Adobe Experience Cloud ソリューションを組み合わせて実装を最新化します。
 
-![](../assets/do-not-localize/speech.png) Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
-
 Campaign v8 は、次のAdobeソリューションと接続できます。 リンクを参照して、使用例、設定およびガイドラインについて詳しく知る：
 
 * Adobe Analytics。[詳細情報](../connect/ac-aa.md)
@@ -36,9 +34,14 @@ Campaign v8 は、次のAdobeソリューションと接続できます。 リ�
 
 アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
 
-詳細情報： **オーディエンスの共有** Campaign とExperience Cloudのソリューション間で [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)
+詳細情報： **オーディエンスの共有** Campaign とExperience Cloudのソリューション間で [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-詳細情報： **アセットの共有** Campaign とExperience Cloudのソリューション間で [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud)
+詳細情報： **アセットの共有** Campaign とExperience Cloudのソリューション間で [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}.
+
+>[!NOTE]
+>
+>管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) Campaign をAdobe Experience Cloudのサービスおよびソリューションと接続する。
+
 
 ## CRM コネクタとの統合{#gs-crm-connectors}
 
