@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: 782362d6d742a3121d3b87b26c2f1481731ff694
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 99%
+source-wordcount: '594'
+ht-degree: 98%
 
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 99%
    + [SMS](send/sms.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の作成と送信](send/push.md)
+      + [Android のリッチプッシュ配信のデザイン](send/rich-push.md)
       + [プッシュ通知チャネルを設定](send/push-settings.md)
       + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
    + [LINE メッセージ](send/line.md)
