@@ -8,7 +8,7 @@ exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
 source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -77,8 +77,8 @@ CREATE TABLE CusRecipient(
 
 SQL フィールドの制約は次のとおりです。
 
-* 数値フィールドと日付フィールドに null 値が含まれていません
-* 数値フィールドは 0 に初期化されます。
+* 数値フィールドと日付フィールドに null 値はありません
+* 数値フィールドは 0 に初期化されます
 
 ## XML フィールド {#xml-fields}
 

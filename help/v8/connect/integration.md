@@ -8,7 +8,7 @@ exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 78%
+ht-degree: 87%
 
 ---
 
@@ -22,15 +22,15 @@ Adobe Campaign にはいくつかのコネクタが付属しており、それ�
 
 Adobe Experience Cloud ソリューションを組み合わせて実装を最新化します。
 
-Campaign v8 は、次のAdobeソリューションと接続できます。 リンクを参照して、使用例、設定およびガイドラインについて詳しく知る：
+Campaign v8 では、次のアドビソリューションと接続できます。ユースケース、設定、ガイドラインについて詳しくは、リンクを参照してください。
 
 * Adobe Analytics。[詳細情報](../connect/ac-aa.md)
-* Adobe Experience Cloudトリガー。 [詳細情報](../connect/ac-triggers.md)
+* Adobe Experience Cloud トリガー。[詳細情報](../connect/ac-triggers.md)
 * Adobe Experience Manager。[詳細情報](../connect/ac-aem.md)
-* Adobe Experience Platform。 [詳細情報](../connect/ac-aep.md)
-* Adobe Journey Optimizer。 [詳細情報](../connect/ac-ajo.md)
-* Adobe Target。 [詳細情報](../connect/ac-at.md)
-* Adobe Workfront。 [詳細情報](../connect/ac-workfront.md)
+* Adobe Experience Platform。[詳細情報](../connect/ac-aep.md)
+* Adobe Journey Optimizer。[詳細情報](../connect/ac-ajo.md)
+* Adobe Target。[詳細情報](../connect/ac-at.md)
+* Adobe Workfront。[詳細情報](../connect/ac-workfront.md)
 
 アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
 

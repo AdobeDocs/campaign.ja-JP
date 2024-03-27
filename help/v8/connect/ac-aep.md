@@ -1,6 +1,6 @@
 ---
-title: オーディエンスおよびプロファイル属性をAdobe Experience Platformと共有し、同期する
-description: Adobe Experience Platformのオーディエンスとプロファイル属性を Campaign と同期する方法を説明します
+title: Adobe Experience Platform でのオーディエンスとプロファイル属性の共有と同期
+description: Adobe Experience Platform のオーディエンスとプロファイル属性を Campaign と同期する方法を説明します。
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
@@ -8,11 +8,11 @@ exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
 source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# オーディエンスをAdobe Experience Platformと共有し、同期する {#gs-ac-aep}
+# Adobe Experience Platform でのオーディエンスの共有と同期{#gs-ac-aep}
 
 Adobe Campaign Managed Cloud Service の宛先とソースコネクターを使用すると、Adobe Campaign と Adobe Experience Platform をシームレスに統合できます。この統合により、次のことができます。
 

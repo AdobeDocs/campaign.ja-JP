@@ -8,13 +8,13 @@ exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 2023 リリースノート {#2023-rn}
 
-このページには、に加えられた新機能、改善点、および修正点が記載されています。 **2023 Campaign v8 リリース**.
+このページには、**Campaign v8 2023 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
 
 ## リリース 8.5.2 {#release-8-5-2}
 

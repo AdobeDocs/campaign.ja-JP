@@ -11,19 +11,19 @@ exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
 workflow-type: tm+mt
 source-wordcount: '1413'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 # プッシュ通知チャネルの変更 {#push-upgrade}
 
-Campaign を使用して、iOS および Android デバイスでプッシュ通知を送信できます。 これを実行するには、モバイルアプリケーションサブスクリプションサービスを利用します。
+Campaign を使用すると、iOS および Android デバイスにプッシュ通知を送信できます。これを実行するには、Campaign をモバイルアプリケーションの購読サービスに依存させます。
 
-Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与える可能性があります。 この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。
+2024 年に Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更をリリースします。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。
 
-さらに、Adobeでは、より安全で拡張性の高い、証明書ベースの接続ではなく、トークンベースの APNs への接続に移行することを強くお勧めします。
+さらに、アドビでは、証明書ベースの接続ではなく、より安全で拡張性の高いトークンベースの APN への接続に移行することを強くお勧めします。
 
-## Google Android Firebase Cloud Messaging(FCM) サービス {#fcm-push-upgrade}
+## Google Android Firebase Cloud Messaging（FCM）サービス {#fcm-push-upgrade}
 
 ### 変更点 {#fcm-changes}
 
@@ -33,14 +33,14 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 ### 影響の有無 {#fcm-impact}
 
-現在の実装がレガシー API を使用して FCM に接続する購読サービスをサポートしている場合は、影響を受けます。サービスの分散を避けるには、最新の API への移行が必須です。 その場合、アドビのチームがご連絡させていただきます。
+現在の実装がレガシー API を使用して FCM に接続する購読サービスをサポートしている場合は、影響を受けます。サービスの中断を避けるために、最新の API へのトランジションは必須です。その場合、アドビのチームがご連絡させていただきます。
 
 影響を受けるかどうかを確認するには、以下のフィルターに従って&#x200B;**サービスと購読**&#x200B;をフィルタリングします。
 
 ![](assets/filter-services-fcm.png)
 
 
-* アクティブなプッシュ通知サービスのいずれかで **HTTP（レガシー）** API を使用している場合、設定はこの変更によって直接影響を受けます。現在の設定を確認し、以下に説明するように、新しい API に移行する必要があります。
+* アクティブなプッシュ通知サービスのいずれかで **HTTP（レガシー）** API を使用している場合、設定はこの変更によって直接影響を受けます。現在の設定を確認し、以下で説明する新しい API に移行する必要があります。
 
 * 設定で Android プッシュ通知用の **HTTP v1** API のみを使用している場合は、既に準拠しているので、追加のアクションは必要ありません。
 
@@ -48,17 +48,17 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 #### 前提条件 {#fcm-transition-prerequisites}
 
-* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 への移行の前提条件は、環境を [最新のCampaign Classicビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}. Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
+* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 へのトランジションの前提条件は、環境を[最新の Campaign Classic ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
 
 * モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup?hl=ja#initialize-sdk){target="_blank"}を参照してください。
 
-* ハイブリッド、ホストおよびManaged Servicesのデプロイメントの場合は、以下の移行手順に加えて、Adobeに連絡してリアルタイム (RT) 実行サーバーを更新してください。 ミッドソーシングサーバーは影響を受けません。
+* ハイブリッド、ホストおよび Managed Services のデプロイメントの場合は、以下のトランジション手順に加えて、アドビに連絡してリアルタイム（RT）実行サーバーを更新してください。ミッドソーシングサーバーは影響を受けません。
 
 * Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。ミッドソーシングサーバーは影響を受けません。
 
-#### 移行手順 {#fcm-transition-steps}
+#### トランジション手順 {#fcm-transition-steps}
 
-環境を HTTP v1 に移動するには、次の手順に従います。
+環境を HTTP v1 に移行するには、次の手順に従います。
 
 1. **サービスと購読**&#x200B;のリストを参照します。
 1. **HTTP（レガシー）** API バージョンを使用しているすべてのモバイルアプリケーションをリストします。
@@ -111,61 +111,61 @@ Android モバイルアプリケーションのコードに特別な変更は必
 
 
 
-## Apple iOSプッシュ通知サービス (APNs) {#apns-push-upgrade}
+## Apple iOS プッシュ通知サービス（APNs） {#apns-push-upgrade}
 
 ### 変更点 {#ios-changes}
 
-Appleの推奨に従い、ステートレス認証トークンを使用して、Appleプッシュ通知サービス (APNs) との通信を保護する必要があります。
+Apple の推奨に従って、ステートレス認証トークンを使用して Apple プッシュ通知サービス（APNs）との通信を保護する必要があります。
 
-トークンベースの認証は、APNs との通信をステートレスにおこなう方法を提供します。 ステートレス通信は、証明書ベースの通信よりも高速です。証明書や、プロバイダーサーバーに関連する他の情報を APNs で検索する必要がないからです。 トークンベースの認証を使用するには、次のような他の利点があります。
+トークンベースの認証では、APNs と通信するためのステートレスな方法を提供します。ステートレス通信は、APNs が証明書やプロバイダーサーバーに関連するその他の情報を検索する必要がないので、証明書ベースの通信より高速です。トークンベースの認証を使用することには他にも次のようなメリットがあります。
 
 * 複数のプロバイダーサーバーから同じトークンを使用できます。
 
 * 1 つのトークンを使用して、会社のすべてのアプリに関する通知を配布できます。
 
-での APNs へのトークンベースの接続の詳細 [Apple開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+APNs へのトークンベースの接続について詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}を参照してください。
 
-Adobe Campaign Classic v7 とAdobe Campaign v8 は、トークンベースの接続と証明書ベースの接続の両方をサポートしています。 実装が証明書ベースの接続に依存している場合、Adobeは、証明書をトークンベースの接続に更新することを強くお勧めします。
+Adobe Campaign Classic v7 および Adobe Campaign v8 は、トークンベースの接続と証明書ベースの接続の両方をサポートします。実装が証明書ベースの接続に依存している場合、アドビではトークンベースの接続に更新することを強くお勧めします。
 
 ### 影響の有無 {#ios-impact}
 
-現在の実装が APNs への接続に証明書ベースの要求に依存している場合は、影響を受けます。 トークンベースの接続への移行をお勧めします。
+現在の実装が APNs への接続に証明書ベースのリクエストに依存している場合、影響を受けます。トークンベースの接続へのトランジションをお勧めします。
 
 影響を受けるかどうかを確認するには、以下のフィルターに従って&#x200B;**サービスと購読**&#x200B;をフィルタリングします。
 
 ![](assets/filter-services-ios.png)
 
 
-* アクティブなプッシュ通知サービスのいずれかで **証明書ベースの認証** モード (.p12) の場合は、現在の実装を確認し、 **トークンベースの認証** モード (.p8) を設定します。
+* アクティブなプッシュ通知サービスのいずれかが&#x200B;**証明書ベースの認証**&#x200B;モード（.p12）を使用している場合は、現在の実装を確認し、以下で説明するように&#x200B;**トークンベースの認証**&#x200B;モード（.p8）に移行する必要があります。
 
-* 設定で **トークンベースの認証** iOSプッシュ通知のモードの場合、実装は既に最新の状態になっており、お客様側で追加のアクションは必要ありません。
+* 設定で iOS プッシュ通知に&#x200B;**トークンベースの認証**&#x200B;モードのみを使用している場合、実装は既に最新なので、追加のアクションは必要ありません。
 
 ### 更新方法 {#ios-transition-procedure}
 
 #### 前提条件 {#ios-transition-prerequisites}
 
-* Campaign Classicv7 の場合、 **トークンベースの認証** モードが 20.2 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [最新のCampaign Classicビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}. Campaign v8 の場合、 **トークンベースの認証** モードはすべてのリリースでサポートされており、アップグレードは不要です。
+* Campaign Classic v7 の場合、**トークンベースの認証**&#x200B;モードのサポートを 20.2 リリースで追加しました。環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を[最新の Campaign Classic ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。Campaign v8 の場合、**トークンベースの認証**&#x200B;モードはすべてのリリースでサポートされ、アップグレードは必要ありません。
 
-* サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。 このキーは、Apple開発者アカウントからリクエストします。詳しくは、 [Apple開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}で説明するように、Apple 開発者アカウントからこのキーをリクエストします。
 
-* ハイブリッド、ホストおよびManaged Servicesのデプロイメントの場合は、以下の移行手順に加えて、Adobeに連絡してリアルタイム (RT) 実行サーバーを更新してください。 ミッドソーシングサーバーは影響を受けません。
+* ハイブリッド、ホストおよび Managed Services のデプロイメントの場合は、以下のトランジション手順に加えて、アドビに連絡してリアルタイム（RT）実行サーバーを更新してください。ミッドソーシングサーバーは影響を受けません。
 
 * Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。ミッドソーシングサーバーは影響を受けません。
 
-#### 移行手順 {#ios-transition-steps}
+#### トランジション手順 {#ios-transition-steps}
 
-iOSモバイルアプリケーションをトークンベースの認証モードに移動するには、次の手順に従います。
+iOS モバイルアプリケーションをトークンベースの認証モードに移行するには、次の手順に従います。
 
 1. **サービスと購読**&#x200B;のリストを参照します。
-1. を使用しているすべてのモバイルアプリのリスト **証明書ベースの認証** モード (.p12) です。
-1. これらの各モバイルアプリケーションを編集し、 **証明書/秘密鍵** タブをクリックします。
-1. 次から： **認証モード** ドロップダウンで、「 **トークンベースの認証** モード (.p8) です。
-1. APNs 接続設定を入力します **[!UICONTROL キー ID]**, **[!UICONTROL チーム ID]** および **[!UICONTROL バンドル ID]** 次に、「 」をクリックして p8 証明書を選択します。 **[!UICONTROL 秘密鍵を入力…]**.
+1. **証明書ベースの認証**&#x200B;モード（.p12）を使用してすべてのモバイルアプリケーションをリストします。
+1. これらの各モバイルアプリケーションを編集し、「**証明書／秘密鍵**」タブを参照します。
+1. **認証モード**&#x200B;ドロップダウンから、**トークンベースの認証**&#x200B;モード（.p8）を選択します。
+1. APNs 接続設定の&#x200B;**[!UICONTROL キー ID]**、**[!UICONTROL チーム ID]**、**[!UICONTROL バンドル ID]** を入力し、「**[!UICONTROL 秘密鍵を入力...]**」をクリックして p8 証明書を選択します。
 
    ![](assets/token-based-certif.png)
 
-1. クリック **[!UICONTROL 接続をテストする]** 設定が正しく、サーバーが APNs にアクセスできることを確認するには、以下を実行します。 ミッドソーシングデプロイメントの場合、 **[!UICONTROL 接続をテスト]** ボタンは、サーバーが APNs にアクセスできるかどうかを確認できません。
-1. 「**[!UICONTROL 次へ]**」をクリックして本番アプリケーションの設定をおこない、上記と同じ手順に従います。
+1. 「**[!UICONTROL 接続をテスト]**」をクリックして、設定が正しいこと、およびサーバーが APNs にアクセスできることを確認します。ミッドソーシングデプロイメントの場合、「**[!UICONTROL 接続をテスト]**」ボタンでは、サーバーが APNs にアクセスできるかどうかを確認できません。
+1. 「**[!UICONTROL 次へ]**」をクリックして本番アプリケーションの設定を行い、上記と同じ手順に従います。
 1. 「**[!UICONTROL 終了]**」、「**[!UICONTROL 保存]**」の順にクリックします。
 
-これで、iOSアプリケーションはトークンベースの認証モードに移動しました。
+これで、iOS アプリケーションがトークンベースの認証モードに移行しました。

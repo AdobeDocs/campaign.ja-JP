@@ -8,7 +8,7 @@ exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 配信時に実行されるジョブ（特にダイレクトメールとモバイルチャネルに関するジョブ）は、サービスプロバイダーが実行します。例えば、このサービスプロバイダーは、メッセージの印刷または配分を実行できます。このようなジョブには、サービスプロバイダーごとに固有の設定とコストが含まれます。サービスプロバイダーの設定には、以下の 4 つのステージがあります。
 
-1. Adobe Campaignでのサービスプロバイダーの作成。 [詳細情報](#add-a-service-provider)
+1. Adobe Campaign でのサービスプロバイダーの作成。[詳細情報](#add-a-service-provider)
 
 1. 関連付けられたサービステンプレートのコストカテゴリと構造を定義します。[詳細情報](#define-cost-categories)
 
@@ -165,7 +165,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 在庫およびオーダー管理を Adobe Campaign で設定し、実行する配信の補給品が不十分な場合にオペレーターに警告する手順は次のとおりです。
 
-1. 在庫の作成と関連するサービスプロバイダーの参照。 [詳細情報](#create-a-stock)。
+1. 在庫を作成し、関連サービスプロバイダーを参照します。[詳細情報](#create-a-stock)。
 
 1. 在庫品目を追加します。[詳細情報](#add-stock-lines)。
 

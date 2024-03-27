@@ -1,18 +1,18 @@
 ---
-title: Campaign データベースでのキー管理
-description: Adobe Campaignスキーマでの鍵管理の理解
+title: Campaign データベースにおけるキーの管理
+description: Adobe Campaign スキーマでのキーの管理について
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
+source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
-
-# 鍵の管理 {#management-of-keys}
+# キーの管理 {#management-of-keys}
 
 データスキーマに関連付けられた各テーブルには、テーブル内のレコードを識別するためのキーが少なくとも 1 つ必要です。
 
@@ -26,7 +26,7 @@ ht-degree: 72%
 </key>
 ```
 
-キーが入力されるスキーマ内の最初のキーである場合、またはキーに `internal` 属性が「true」に設定されている場合にのみ有効です。
+キーがスキーマ内で最初に入力される場合や、「true」に設定された `internal` 属性を含む場合、そのキーは「プライマリキー」と呼ばれます。
 
 キーは、テーブル内の 1 つ以上のフィールドを参照できます。
 
@@ -142,4 +142,3 @@ ht-degree: 72%
 >[!CAUTION]
 >
 >プライマリキーが 0 に設定されたレコードは、テーブルの作成時に自動的に挿入されます。このレコードは、外部結合を避けるために使用されます。外部結合はボリュームテーブルでは有効ではありません。デフォルトでは、外部キーはすべて値 0 で初期化されるので、データ項目が入力されていない場合でも常に、結合時に結果を返します。
-

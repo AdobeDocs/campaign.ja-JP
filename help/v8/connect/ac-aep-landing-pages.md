@@ -8,13 +8,13 @@ exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
-# Adobe CampaignランディングページからのAdobe Experience Platformプロファイルの更新 {#ac-aep-lp}
+# Adobe Campaign ランディングページからの Adobe Experience Platform プロファイルの更新{#ac-aep-lp}
 
-Adobe CampaignとAdobe Experience Platformの統合により、Adobe CampaignのランディングページとAdobe Experience Platformの間でプロファイルデータをシームレスに同期できます。 この統合により、次のことができます。
+Adobe Campaign と Adobe Experience Platform の統合により、Adobe Campaign ランディングページと Adobe Experience Platform の間でシームレスにプロファイルデータを同期できます。この統合により、次のことができます。
 
 * Adobe Experience Platform プロファイル属性を取得して、Adobe Campaign ランディングページに更新された情報を表示する
 * 更新されたプロファイル属性を Adobe Experience Platform に返し、ランディングページで入力および送信された内容に基づいて、対応する属性を更新する
@@ -102,7 +102,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
 ワークフローの実行時に、指定された値を使用してオプションが Campaign コンソールに自動的に作成されます。
 
-    ``javascript
+    ```javascript
     loadLibrary(&quot;xtk:shared/nl.js&quot;);
     loadLibrary(&quot;xtk:shared/xtk.js&quot;);
     loadLibrary(&quot;xtk:shared/json2.js&quot;);
@@ -115,7 +115,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
     setOption(&quot;IMS_ORG_ID&quot;, cryptString(&#39;ORGANIZATION ID&#39;));
     setOption(&quot;IMS_CLIENT_API_KEY&quot;, cryptString(&#39;CLIENT ID&#39;));
     }
-    &quot;&#39;
+    ```
 
 >[!ENDTABS]
 

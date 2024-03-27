@@ -6,7 +6,7 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 100%
 
