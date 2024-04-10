@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 84%
 
 Campaign を使用すると、クラウドデータベースに連絡先を追加できます。ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。
 
-の概要 [オーディエンス](audiences.md)
+[オーディエンス](audiences.md)の概要
 
-Campaign について [データモデル](../dev/datamodel.md)
+Campaign [データモデル](../dev/datamodel.md)について
 
 ## ワークフローへのプロファイルのインポート
 
@@ -33,7 +33,7 @@ Campaign について [データモデル](../dev/datamodel.md)
 
 ![](assets/new-import.png)
 
-で単一の読み込みジョブを実行してデータベースにフィードする方法を説明します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}.
+単一の読み込みジョブを実行してデータベースにフィードする方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}を参照してください。
 
 ## Web アプリでのプロファイルの収集
 
@@ -41,7 +41,7 @@ Campaign を使用して web フォームを作成し、プロファイルの情
 
 ![](assets/web-form-page.png)
 
-で web フォームを作成する方法を説明します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}.
+Web フォームの作成方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
 
 **関連トピック**
 

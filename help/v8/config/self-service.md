@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
 
-詳しくは、を参照してください。 [Campaign Campaign コントロールパネルドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}.
+詳しくは、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}を参照してください。
 
 ## コントロールパネルにアクセスするには？ {#ac-control-panel-access}
 
@@ -32,7 +32,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 ## コントロールパネルのよくある質問（FAQ） {#ac-control-faq}
 
-Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"}します。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja#control-panel){target="_blank"}します。
 
 ## SFTP 管理 {#ac-control-sftp}
 
@@ -48,7 +48,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ## パフォーマンス監視
 
-コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。[ここ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja){target="_blank"}をクリックしてください。
+コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。[ここ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)をクリックしてください。{target="_blank"}
 
 
 ## インスタンス設定

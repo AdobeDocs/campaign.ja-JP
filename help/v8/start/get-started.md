@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Campaign を使用すると、次のことを行えます。
 
 Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
 
-プロファイル管理の基本事項については、で説明します。 [この節](audiences.md).
+プロファイル管理の基本事項については、[この節](audiences.md)で説明します。
 
-で Campaign にプロファイルを追加する方法を説明します。 [この節](import.md).
+Campaign にプロファイルを追加する方法については、[この節](import.md)を参照してください。
 
 ## ターゲティングされたセグメント化 {#targeted-segmentation}
 
@@ -44,13 +44,13 @@ Adobe Campaign には強力で使いやすいセグメント化機能とター�
 
 高度なデータ管理機能は、データ処理機能を拡張します。 データマートにモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。
 
-セグメント化とオーディエンスの作成について詳しくは、を参照してください。 [この節](audiences.md).
+セグメント化とオーディエンスの作成について詳しくは、[この節](audiences.md)を参照してください。
 
 ## クロスチャネルキャンペーンのオーケストレーション {#cross-channel-campaign-orchestration}
 
 Adobe Campaign を使用すると、メール、ダイレクトメール、SMS、プッシュ通知などの複数のチャネルで、ターゲットを絞りパーソナライズしたキャンペーンの設計とオーケストレーションを行えます。1 つのインターフェイスを通して、すべてのキャンペーンとコミュニケーションのスケジュール作成、オーケストレーション、設定、パーソナライズ、自動化、実施、測定などに必要なすべての機能を利用することができます。
 
-でキャンペーンを設計、スケジュール、実行する方法を説明します。 [この節](campaigns.md).
+キャンペーンの設計、スケジュール設定および実行の方法については、[この節](campaigns.md)を参照してください。
 
 ## ワークフロー {#wf-gsv8}
 
@@ -65,7 +65,7 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 * Campaign データベースへのデータの読み込み。
 * データベースのクリーンアップ、トラッキング情報の復元などの技術的プロセス。
 
-でワークフローを設計および実行する方法について説明します [この節](../config/workflows.md).
+ワークフローを設計および実行する方法については、[この節](../config/workflows.md)を参照してください。
 
 ## レポートと分析 {#analysis-and-reporting}
 
@@ -76,19 +76,19 @@ Adobe Campaign では、すぐに使える強力なレポートテンプレー�
 キャンペーンレポート機能により、動的レポートの作成が容易になります。ドラッグ＆ドロップ変数を使用して、レポートをカスタマイズしたり、キャンペーンが成功するかどうかを分析したりできます。クエリや計算の複雑さに応じて、データをリスト表示に集計したり、マーケティング分析レポートを簡単に生成できる形式でデータにアクセスしたりできます。
 
 
-のレポート機能とトラッキング機能について詳しく説明します。 [この節](../reporting/gs-reporting.md).
+レポート機能とトラッキング機能について詳しくは、[この節](../reporting/gs-reporting.md)を参照してください。
 
 ## Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスをパーソナライズできるよう作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target、Adobe Experience Cloud トリガーなど）と組み合わせることができます。
 
-でAdobe サービスやソリューションと統合する方法を説明します [この節](../connect/integration.md).
+アドビサービスおよびソリューションとの統合方法については、[この節](../connect/integration.md)を参照してください。
 
 ## Campaign 機能の詳細 {#core-capabilities-and-add-ons}
 
 Adobe Campaign は、ニーズとアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を提供します。 これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。 詳細な製品説明については、[Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)を参照してください。
 
-すでにCampaign Classicに精通していますか？ Campaign Classic と Campaign v8 の主な違いについては、[このページ](v7-to-v8.md)を参照してください。
+Campaign Classic に精通している方であれば、Campaign Classic と Campaign v8 の主な違いについては、[このページ](v7-to-v8.md)を参照してください。
 
 **関連項目**
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    >[!NOTE]
    >
-   >管理対象Cloud Serviceユーザーの場合は、新しいリリースが出るたびにAdobeがインスタンスをアップグレードします。
+   >Managed Cloud Services ユーザーの場合は、新しいリリースが出るたびにアドビがインスタンスをアップグレードします。
 
 1. **Campaign v8 に接続するにはどうすればよいですか？**
 
@@ -39,15 +39,15 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
    詳しくは、[Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}を参照してください。
 1. **Campaign v8 をオンプレミス環境またはハイブリッド環境にインストールすることはできますか？**
 
-   Campaign v8 は、Adobeで完全にホストされている管理対象Cloud Serviceでのみ使用できます。
+   Campaign v8 は、アドビが完全にホストしている Managed Cloud Services でのみ使用できます。
 
-1. **メール配信の品質を向上させるにはどうすればよいですか？**
+1. **メールの配信品質を向上させるにはどうすればよいですか？**
 
    メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要なコンポーネントであり、条件とルールが常に変化し続けるという特徴があります。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
-   詳しくは、このガイドを参照してください [配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}
+   詳しくは、[配信品質のベストプラクティス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}のガイドを参照してください
 
-   Campaign に配信品質を実装する方法を学ぶ [このガイドの](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target="_blank"}
+   Campaign に配信品質を実装する方法については、[このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target="_blank"}を参照してください
 
 1. **配信がエラーなしで送信されたことを確認するにはどうすればよいですか？**
 
@@ -69,7 +69,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    >[!NOTE]
    >
-   >管理対象Cloud Serviceのユーザーは、Adobeに連絡して、サブドメインをAdobeに委任してください。
+   >Managed Cloud Services のユーザーとしてサブドメインをアドビに委任する場合は、アドビにお問い合わせください。
 
 1. **Campaign Classic v7 ユーザーは、Campaign v8 に移行できますか？**
 
@@ -77,7 +77,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200B;利用できます。オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
 
-   移行プロセスについて詳しくは、Adobe担当者にお問い合わせください。
+   移行プロセスについて詳しくは、アドビ担当者にお問い合わせください。
 
 1. **Campaign はどのようにしてダウンロードできますか？**
 
