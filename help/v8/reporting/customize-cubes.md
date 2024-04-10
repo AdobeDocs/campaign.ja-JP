@@ -208,7 +208,7 @@ bin を自動的に生成することもできます。それには、「**[!UIC
 
 ![](assets/cube_share_option.png)
 
-レポートのカテゴリと関連度を指定します。 <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
+レポートが属するカテゴリおよび関連度を指定します。 <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
 これらの変更を確定するには、レポートを保存する必要があります。
 

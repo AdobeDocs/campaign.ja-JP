@@ -25,7 +25,7 @@ ht-degree: 98%
 
 主なレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。このリストは、ニーズに合わせて変更可能です。また、「**[!UICONTROL レポート]**」タブに独自のレポートを追加する方法についても説明します。
 
-これらのカスタム設定について詳しくは、次を参照してください。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ja){target="_blank"}.
+これらのカスタム設定について詳しくは、こちらを参照してください [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ja){target="_blank"}.
 
 
 ## ビルトインレポートへのアクセス {#access-ootb-reports}

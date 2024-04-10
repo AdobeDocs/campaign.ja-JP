@@ -54,4 +54,4 @@ Campaign クライアントコンソールは、SOAP XML over HTTP を使用し�
 
 ユーザーは、HTTP を使用して Campaign アプリケーションサーバーに接続します。すべてのデータと情報は、Campaign データベースで管理されます。Campaign 開発者が設定の変更を行うと、その変更はデータベースに取り込まれます。マーケターが新しいキャンペーンを作成すると、この新しいキャンペーンに関連するすべての情報とデータもデータベースで管理されます。マーケターがキャンペーンを実行すると、メール配信が SMTP サーバーを通じて Campaign サーバーからプロファイルに送信されます。プロファイルがメール配信でインタラクションを行う（メールの開封など）すると、そのトラッキングデータがトラッキングサーバーに送り返されます。
 
-[Campaign プロセスの詳細を説明します](../architecture/general-architecture.md#dev-env).
+[Campaign プロセスの詳細情報](../architecture/general-architecture.md#dev-env).

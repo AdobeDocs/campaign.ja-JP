@@ -19,4 +19,4 @@ Campaign を Adobe Workfront と組み合わせることで、キャンペーン
 この統合を設定する手順について詳しくは、Adobe Workfront のドキュメントを参照してください。
 
 
-[Adobe WorkfrontのAdobe Campaignモジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=ja){target="_blank"}.
+[Adobe WorkfrontのAdobe Campaign モジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=ja){target="_blank"}.

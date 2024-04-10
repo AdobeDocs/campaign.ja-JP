@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) :Campaign トランザクションメッセージをお使いの環境にインストールして設定します。
+>管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) お使いの環境に Campaign トランザクションメッセージをインストールして設定するには：
 
 ## 権限の定義 {#mc-permissions}
 

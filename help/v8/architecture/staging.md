@@ -52,7 +52,7 @@ Campaign のステージングメカニズムを特定のテーブルに実装�
    </srcSchema>
    ```
 
-   でのカスタムスキーマ作成の詳細を説明します。 [このページ](../dev/create-schema.md).
+   カスタムスキーマの作成の詳細： [このページ](../dev/create-schema.md).
 
 1. データベース構造を保存して更新します。[詳細情報](../dev/update-database-structure.md)
 

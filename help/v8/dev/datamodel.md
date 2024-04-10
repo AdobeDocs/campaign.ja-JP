@@ -43,7 +43,7 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 * 新しいフィールドで[既存のテーブルを拡張](extend-schema.md)する。例えば、受信者テーブルに新しい「ロイヤルティ」フィールドを追加できます。
 * [新しいテーブルの作成](create-schema.md)。例えば、データベースの各プロファイルが行った購入をすべてリストする「購入」テーブルを作成して、受信者テーブルにリンクします。
 
-で Campaign データモデルを使用する際のベストプラクティスを確認する [この節](datamodel-best-practices.md).
+で Campaign データモデルを使用する際のベストプラクティスについて説明します [この節](datamodel-best-practices.md).
 
 ## ビルトインプロファイルテーブル {#ootb-profiles}
 
@@ -60,7 +60,7 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 既存のスキーマを拡張する方法については、[この節](extend-schema.md)を参照してください。
 
-の組み込みの受信者テーブル拡張の例を見つける [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}
+のビルトイン受信者テーブル拡張例を確認します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。この方法には制限があり、[この節](custom-recipient.md)で説明します。
 
@@ -68,9 +68,9 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 Campaign v8 のテーブル管理に関してより深く理解するには、[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、テーブルは Campaign とその Snowflake Cloud データベースの間で複製されます。
 
-のレプリケーション戦略とメカニズムの詳細を説明します [この節](../architecture/replication.md).
+レプリケーションの戦略とメカニズムの詳細については、を参照してください。 [この節](../architecture/replication.md).
 
 **関連トピック**
 
-でのプロファイルのインポート方法を確認する [この節](../start/import.md)
-Campaign オーディエンスの詳細については、 [この節](../start/audiences.md)
+でプロファイルをインポートする方法を説明します。 [この節](../start/import.md)
+Campaign オーディエンスの詳細については、を参照してください。 [この節](../start/audiences.md)

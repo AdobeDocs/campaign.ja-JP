@@ -38,7 +38,7 @@ Adobe Campaign には、キャンペーンマネージャーやワークフロ�
 
 >[!NOTE]
 >
->管理対象Cloud Serviceのユーザーとして、Adobeがセキュリティゾーンを設定します。 詳しくは、[アドビにお問い合わせ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}ください。
+>管理対象Cloud Serviceユーザーの場合は、ユーザーに代わってAdobeがセキュリティゾーンを設定します。 詳しくは、[アドビにお問い合わせ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}ください。
 
 **詳細情報**
 

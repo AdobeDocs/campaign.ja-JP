@@ -103,7 +103,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
    ![](assets/targeting-wf-age-filter.png)
 
-   ワークフローでクエリを作成する方法については、 [この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}.
+   でワークフローでクエリを作成する方法を説明します [この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}.
 
 1. このクエリのラベルを追加し、変更を保存します。
 1. **[!UICONTROL リスト更新]**&#x200B;アクティビティをを追加し、編集します。

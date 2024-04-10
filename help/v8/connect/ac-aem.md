@@ -16,14 +16,14 @@ ht-degree: 90%
 
 Adobe Campaign と Adobe Experience Manager を統合すると、メール配信のコンテンツとフォームを Adobe Experience Manager で直接管理できます。**Adobe Experience Manager** コンテンツを Campaign にインポートするか、**Adobe Experience Manager as a Cloud Service** アカウントに接続して、web インターフェイス内でコンテンツを直接編集することができます。
 
-[Campaign Web インターフェイス内でAdobe Experience ManagerをCloud Serviceコンテンツとして編集する方法を理解する](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html){target="_blank"}.
+[Campaign web インターフェイス内でAdobe Experience ManagerをCloud Serviceコンテンツとして編集する方法について説明します](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html){target="_blank"}.
 
 [Adobe Experience Managerの詳細については、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ja#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
 
 
 >[!NOTE]
 >
->管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) Adobe Experience Managerを Campaign と統合する場合。
+>管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) Adobe Experience Managerと Campaign を統合する場合。
 
 ## Adobe Experience Manager からのコンテンツのインポート {#integrating-with-aem}
 
@@ -47,7 +47,7 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
    ![](assets/aem_authoring_3.png)
 
-1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加してメールコンテンツをカスタマイズします。詳しくは、 [Adobe Experience Managerドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}.
+1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加してメールコンテンツをカスタマイズします。詳しくは、を参照してください。 [Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}.
 
 1. メールの準備が整ったら、**[!UICONTROL ページ情報]**&#x200B;メニューに移動し、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 
@@ -95,7 +95,7 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
 ## Adobe Experience Manager Assets ライブラリからのアセットのインポート {#assets-library}
 
-Adobe Campaign でメールまたはランディングページを編集中に、[!DNL Adobe Experience Manager Assets Library] からアセットを直接挿入することもできます。この機能について詳しくは、 [Adobe Experience Manager Assetsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html){target="_blank"}.
+Adobe Campaign でメールまたはランディングページを編集中に、[!DNL Adobe Experience Manager Assets Library] からアセットを直接挿入することもできます。この機能の詳細については、こちらを参照してください。 [Adobe Experience Manager Assets ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html){target="_blank"}.
 
 **Adobe Experience Manager から：**
 
@@ -103,7 +103,7 @@ Adobe Campaign でメールまたはランディングページを編集中に�
 
    ![](assets/aem_assets_1.png)
 
-1. 「**作成**」、「**ファイル**」の順にクリックして、アセットを **Adobe Experience Manager Assets ライブラリ**&#x200B;にインポートします。詳しくは、 [AdobeExperience Manager のドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}.
+1. 「**作成**」、「**ファイル**」の順にクリックして、アセットを **Adobe Experience Manager Assets ライブラリ**&#x200B;にインポートします。詳しくは、を参照してください。 [Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}.
 
    ![](assets/aem_assets_2.png)
 

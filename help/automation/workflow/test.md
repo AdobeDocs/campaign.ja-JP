@@ -21,7 +21,7 @@ ht-degree: 87%
 
 ![](assets/edit_test.png)
 
-ワークフロー JavaScript 経由でアクセス可能なアプリケーションサーバーのその他すべての JavaScript 関数および SOAP メソッドの詳細については、を参照してください。 [JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}.
+ワークフロー JavaScript からアクセス可能なアプリケーションサーバーのその他すべての JavaScript 関数と SOAP メソッドについて詳しくは、以下を参照してください [JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}.
 
 このエディターから変数を直接挿入することもできます。変数の使用方法について詳しくは、[この節](javascript-scripts-and-templates.md#variables)を参照してください。
 

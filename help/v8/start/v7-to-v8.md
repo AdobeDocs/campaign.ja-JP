@@ -50,7 +50,7 @@ Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基
 * 配信のステータスは即座に更新されません - マーケティングインスタンスでテクニカルプロセスが実行され、配信ステータスがタイムリーに更新されます。
 
 
-v7 からへの移行時にトランザクションメッセージ配達確認を送信する方法の詳細を説明します [このページ](../send/transactional-template.md#transition-from-v7).
+で v7 から移行する際にトランザクションメッセージの配達確認を送信する方法の詳細 [このページ](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] と [!DNL Snowflake] {#ac-gs-snowflake}
@@ -59,14 +59,14 @@ v7 からへの移行時にトランザクションメッセージ配達確認�
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成してデータをコピーするだけで、利用を開始できます。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-詳細情報： [!DNL Campaign] の v8 アーキテクチャ [このページ](../architecture/architecture.md).
+の詳細情報 [!DNL Campaign] での v8 アーキテクチャ [このページ](../architecture/architecture.md).
 
 
 ## Adobe ID を使用して Campaign に接続{#adobe-id}
 
 Campaign ユーザーは、Adobe ID でのみ接続します。同じ Adobe ID を使用して、Adobe Experience Cloud ソリューション用に、すべてのアドビプランおよび製品を 1 つのアカウントに関連付けます。
 
-への接続方法を学ぶ [!DNL Campaign] in [このページ](connect.md).
+への接続方法を学ぶ [!DNL Campaign] 。対象： [このページ](connect.md).
 
 ## キューブを使用したデータの分析{#adobe-reporting}
 

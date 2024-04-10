@@ -40,6 +40,6 @@ ht-degree: 95%
 
 詳しくは、次を参照してください。
 
-[Adobe Audience Managerドキュメント](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja){target="_blank"}
+[Adobe Audience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja){target="_blank"}
 
-[Adobe Experience Cloud Central Interface Components ガイド](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}
+[Adobe Experience Cloud中央インターフェイスコンポーネントガイド](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}

@@ -83,7 +83,7 @@ ht-degree: 97%
 
 最初のメール配信の準備が整いました。 次に、オーディエンスを定義し、配信を検証して送信する必要があります。
 
-ここで E メールコンテンツをインポートする方法を説明します [使用例](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"}.
+メールコンテンツをインポートする方法については、こちらを参照してください [ユースケース](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"}.
 
 詳しくは、次の節を参照してください。
 

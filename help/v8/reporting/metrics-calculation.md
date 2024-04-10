@@ -725,7 +725,7 @@ ht-degree: 99%
    <td> クリック数<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL のプライマリキーが 1 ではないすべての @totalClicks の数。<br /> </td> 
-   <td> count(Iif([@url-id]) != 1, @totalClicks, 0)<br /> </td> 
+   <td> count （Iif （[@url-id] != 1, @totalClicks, 0））<br /> </td> 
   </tr> 
   <tr> 
    <td> クリック（％）<br /> </td> 

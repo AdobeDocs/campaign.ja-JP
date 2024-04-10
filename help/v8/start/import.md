@@ -16,9 +16,9 @@ ht-degree: 84%
 
 Campaign を使用すると、クラウドデータベースに連絡先を追加できます。ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。
 
-の基本を学ぶ [audiences](audiences.md)
+の概要 [オーディエンス](audiences.md)
 
-Campaign について [datamodel](../dev/datamodel.md)
+Campaign について [データモデル](../dev/datamodel.md)
 
 ## ワークフローへのプロファイルのインポート
 
@@ -33,7 +33,7 @@ Campaign について [datamodel](../dev/datamodel.md)
 
 ![](assets/new-import.png)
 
-データベースにフィードする単一インポートジョブを実行する方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}.
+で単一の読み込みジョブを実行してデータベースにフィードする方法を説明します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}.
 
 ## Web アプリでのプロファイルの収集
 
@@ -41,7 +41,7 @@ Campaign を使用して web フォームを作成し、プロファイルの情
 
 ![](assets/web-form-page.png)
 
-で Web フォームを作成する方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}.
+で web フォームを作成する方法を説明します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}.
 
 **関連トピック**
 

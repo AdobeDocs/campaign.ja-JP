@@ -273,7 +273,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"} について `logInfo` 関数に置き換えます。
+ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"} について `logInfo` 関数。
 
 #### `getIfExists` 操作の結果
 
@@ -617,5 +617,5 @@ xtk.session.Write(
    * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ja){target="_blank"}
    * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"}
    * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja){target="_blank"}
-   * [書き込み](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ja){target="_blank"}
+   * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ja){target="_blank"}
 * [logInfo 関数](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}

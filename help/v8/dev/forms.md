@@ -87,7 +87,7 @@ ht-degree: 99%
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
 
-すべてのフォーム属性は、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja){target="_blank"}.
+すべてのフォーム属性の一覧については、を参照してください。 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja){target="_blank"}.
 
 ## フォーマット設定 {#formatting}
 

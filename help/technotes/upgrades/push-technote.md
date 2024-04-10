@@ -9,7 +9,7 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1413'
 ht-degree: 100%
 

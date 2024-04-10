@@ -100,11 +100,11 @@ Adobe Campaign キャンペーンのビルトインテーブルとそのやり�
 
 Campaign の中核となるデータスキーマ（受信者テーブル nms:recipient など）にフィールドなどの要素を追加する場合は、スキーマを拡張する必要があります。
 
-詳しくは、 [スキーマの拡張](extend-schema.md).
+詳しくは、次を参照してください [スキーマの拡張](extend-schema.md).
 
 Adobe Campaign に存在しないまったく新しいタイプのデータ（契約書のテーブルなど）を追加する場合は、カスタムスキーマを直接作成することができます。
 
-詳しくは、 [新しいスキーマを作成](create-schema.md).
+詳しくは、次を参照してください [新しいスキーマの作成](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -190,7 +190,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーについて詳しくは、 [この節](database-mapping.md#management-of-keys).
+キーの詳細については、を参照してください [この節](database-mapping.md#management-of-keys).
 
 ## 属性（フィールド） {#attributes--fields-}
 
@@ -198,9 +198,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_2.png)
 
-属性の完全なリストは、 `<attribute>` の要素セクション [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ja#content-model){target="_blank"}. よく使用される属性には、**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type** などがあります。
+すべての属性のリストは、 `<attribute>` の要素セクション [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ja#content-model){target="_blank"}. よく使用される属性には、**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type** などがあります。
 
-各属性について詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"}.
+各属性の詳細については、の属性の説明を参照してください [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"}.
 
 ### 例 {#examples}
 

@@ -19,4 +19,4 @@ LINE は、無料のインスタントメッセージ、音声、ビデオ通話
 
 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ja){target="_blank"}を参照してください。
 
-これを参照してください。 [エンドツーエンドのサンプル](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ja#example--create-and-send-a-personalized-line-message){target="_blank"} (Campaign Classicv7 ドキュメント ) を参照し、最初の LINE 配信を作成して送信します。
+こちらを参照してください [エンドツーエンドのサンプル](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=ja#example--create-and-send-a-personalized-line-message){target="_blank"} Campaign Classic v7 ドキュメントを参照して、初めて LINE 配信を作成および送信する。

@@ -8,7 +8,7 @@ breadcrumb-title: Campaign v8 ドキュメント
 source-git-commit: 782362d6d742a3121d3b87b26c2f1481731ff694
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 98%
    + [SMS](send/sms.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の作成と送信](send/push.md)
-      + [Android のリッチプッシュ配信のデザイン](send/rich-push.md)
+      + [Android のリッチプッシュ配信の設計](send/rich-push.md)
       + [プッシュ通知チャネルを設定](send/push-settings.md)
       + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
    + [LINE メッセージ](send/line.md)

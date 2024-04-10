@@ -20,7 +20,7 @@ Adobe Analytics を設定して、Campaign と Analytics を統合できます�
 
 >[!NOTE]
 >
->管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) Campaign をAdobe Experience Cloudのサービスおよびソリューションと接続する。 専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
+>管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) Campaign をAdobe Experience Cloudのサービスやソリューションと接続する場合。 専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
 
 Adobe Analytics Connector を使用すると、Adobe Campaign はインターネットのオーディエンスを測定できます（Web 分析）。Web 分析ツールを使用すると、Adobe Campaign は指標とキャンペーン属性を Analytics に転送できます。
 
@@ -55,7 +55,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. **[!UICONTROL レポートスイートマネージャー]**&#x200B;ページで、「**[!UICONTROL 新規作成]**」、「**[!UICONTROL レポートスイート]**」の順にクリックします。
 
-   詳しい手順については、 **[!UICONTROL レポートスイート]** 作成、を参照してください。 [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ja#prerequisites){target="_blank"}.
+   詳細な手順については **[!UICONTROL レポートスイート]** 作成、を参照 [Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ja#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -85,7 +85,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. 「**[!UICONTROL 新規追加]**」をクリックし、メールキャンペーンの効果測定に必要な ID として、内部キャンペーン名（cid）および iNmsBroadlog（bid）テーブル ID を作成します。
 
-   編集方法を学ぶには **[!UICONTROL コンバージョン変数]**（これを参照） [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ja#admin-tools){target="_blank"}.
+   の編集方法を学ぶ **[!UICONTROL コンバージョン変数]**&#x200B;を参照してください。 [Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=ja#admin-tools){target="_blank"}.
 
    ![](assets/analytics_connnector_6.png)
 
@@ -108,7 +108,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
    * **[!UICONTROL ユニーク開封数]**
    * **[!UICONTROL 購読解除済み]**
 
-   設定方法を学ぶには **[!UICONTROL 成功イベント]**（これを参照） [Adobe Analytics Documentation](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ja#admin-tools)
+   の設定方法を学ぶ **[!UICONTROL 成功イベント]**&#x200B;を参照してください。 [Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=ja#admin-tools)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -122,9 +122,9 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 外部アカウントの設定時に&#x200B;**[!UICONTROL レポートスイート]**、**[!UICONTROL コンバージョン変数]**、**[!UICONTROL 成功イベント]**&#x200B;のいずれかが表示されない場合は、新しく作成したコンポーネントに対する権限が、ユーザーに関連付けられた&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;にないことをい意味します。
 
-詳しくは、 [Adobe Analyticsの製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"} ページに貼り付けます。
+詳細については、を参照してください [Adobe Analyticsの製品プロファイル](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"} ページ。
 
-1. 次を参照： **[!UICONTROL 管理]** > **[!UICONTROL Platform]** > **[!UICONTROL 外部アカウント]** Adobe Campaign explorer ツリーのフォルダーに移動し、「 **[!UICONTROL 新規]**.
+1. を参照してください。 **[!UICONTROL 管理]** > **[!UICONTROL Platform]** > **[!UICONTROL 外部アカウント]** Adobe Campaign エクスプローラーツリーのフォルダーを開き、 **[!UICONTROL 新規]**.
 
    ![](assets/analytics_connnector_9.png)
 
@@ -182,7 +182,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. 「**[!UICONTROL 詳細設定]**」タブでは、より技術的な設定を設定または変更できます。
 
-   * **[!UICONTROL 存続期間]**:Adobe Campaignでテクニカルワークフローで Web イベントを復元するまでの遅延（日数）を指定できます。 デフォルト：180 日。
+   * **[!UICONTROL 存続期間]**：テクニカルワークフローによってAdobe Campaignに復元された web イベントの遅延時間（日数）を指定できます。 デフォルト：180 日。
    * **[!UICONTROL 持続]**：すべての Web イベント（購入など）をリマーケティングキャンペーンの属性にできる期間を指定できます。デフォルト：7 日。
 
 >[!NOTE]
@@ -249,7 +249,7 @@ Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト
 
 リマーケティングキャンペーンを準備するには、リマーケティングタイプのキャンペーンに使用する配信テンプレートを作成します。次に、リマーケティングキャンペーンを設定し、セグメントにリンクします。セグメントごとに異なるリマーケティングキャンペーンが必要です。
 
-Adobe Campaign で最初のキャンペーンでターゲットとした受信者の行動を分析し、セグメントの収集が終了すると、リマーケティングキャンペーンが自動的に開始されます。買い物かごが放棄されたか、製品を表示しても購入がない場合、サイトの閲覧で購入を最終決定するために、配信が対象の受信者に送信されます。
+Adobe Campaign で最初のキャンペーンでターゲットとした受信者の行動を分析し、セグメントの収集が終了すると、リマーケティングキャンペーンが自動的に開始されます。買い物かごを放棄したり、購入せずに製品を表示したりした場合、サイトを閲覧して購入を完了するために、関係する受信者に配信が送信されます。
 
 Adobe Campaign にはパーソナライズされた配信テンプレートが用意されており、これを使用するか、またはこれをベースとして使用することによってキャンペーンを準備することができます。
 
@@ -258,11 +258,11 @@ Adobe Campaign にはパーソナライズされた配信テンプレートが�
 1. ニーズに合わせてテンプレートをパーソナライズし、保存します。
 1. 新しいキャンペーンを作成し、ドロップダウンリストから「**[!UICONTROL リマーケティングキャンペーン]**」テンプレートを選択します。
 1. **[!UICONTROL 設定...]** リンクをクリックして、キャンペーンにリンクされたセグメントおよび配信テンプレートを指定します。
-1. Analytics e を選択します。[外部アカウント](#external-account-ac)、および関連するセグメント。
+1. 「Analytics」を選択します。[外部アカウント](#external-account-ac)、および該当するセグメント。
 1. このリマーケティングキャンペーンに使用する配信テンプレートを選択し、「**[!UICONTROL 完了]**」をクリックしてウィンドウを閉じます。
 1. 「**[!UICONTROL OK]**」をクリックしてキャンペーンウィンドウを閉じます。
 
-**[!UICONTROL リマーケティングの効率]**&#x200B;レポートは、グローバルレポートページからアクセスします。このレポートでは、Adobe Campaign のリマーケティングキャンペーン後における、買い物かご放棄数に対するコンバージョンされた連絡先（何かを購入したなど）数を表示できます。週ごと、月ごと、またはAdobe CampaignとAdobe Analytics間の同期が開始されてからのコンバージョン率が計算されます。
+**[!UICONTROL リマーケティングの効率]**&#x200B;レポートは、グローバルレポートページからアクセスします。このレポートでは、Adobe Campaign のリマーケティングキャンペーン後における、買い物かご放棄数に対するコンバージョンされた連絡先（何かを購入したなど）数を表示できます。コンバージョン率は、週、月ごと、またはAdobe CampaignとAdobe Analyticsの間の同期の開始以降に計算されます。
 
 **関連トピック**
 

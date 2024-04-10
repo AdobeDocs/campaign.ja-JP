@@ -22,7 +22,7 @@ FDA コネクタ（Federated Data Access）を使用し、Campaign を 1 つ以�
 >
 >* [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、Campaign のローカルデータベースと Snowflake のクラウドデータベースとの通信を管理するために、特定の外部アカウントが利用可能です。この外部アカウントはアドビによって設定されいるので、変更&#x200B;**しないでください**。
 >
->* 管理対象Cloud Serviceユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) 外部データベースを Campaign に接続する場合。
+>* 管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) 外部データベースを Campaign に接続する場合。
 
 
 ## ベストプラクティスと制限事項

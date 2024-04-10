@@ -164,7 +164,7 @@ ht-degree: 98%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンの呼び出しを指定できます。
 
-詳しくは、 **オファーエンジン** アクティビティ： [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ja){target="_blank"}.
+詳しくは、 **オファーエンジン** アクティビティ。を参照 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ja){target="_blank"}.
 
 このアクティビティは、**エンリッチメント**&#x200B;アクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信前にエンジンで計算したオファーでインバウンド母集団のデータを強化します。
 
@@ -187,7 +187,7 @@ ht-degree: 98%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-詳しくは、 **オファー（セル別）** アクティビティ： [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ja){target="_blank"}.
+詳しくは、 **オファー（セル別）** アクティビティ。を参照 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ja){target="_blank"}.
 
 それには、次の手順に従います。
 

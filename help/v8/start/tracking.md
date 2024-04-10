@@ -119,7 +119,7 @@ Adobe Campaign では、プロセスと環境を監視できる一連の機能�
 
 送信後に配信を監視することは、マーケティングキャンペーンを効率的に実施し、顧客に働きかけるうえで重要なステップになります。
 
-配信を送信した後に監視できる情報の詳細、配信の障害や強制隔離の管理方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages)を参照してください。{target="_blank"}
+配信を送信した後に監視できる情報の詳細、配信の障害や強制隔離の管理方法については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target="_blank"}を参照してください。
 
 ### ワークフローの監視
 
@@ -127,8 +127,8 @@ Adobe Campaign では、プロセスと環境を監視できる一連の機能�
 
 ### インスタンスの監視
 
-インスタンス監視のガイドラインについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=ja#monitoring-campaign-classic)を参照してください{target="_blank"}
+インスタンス監視のガイドラインについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=ja#monitoring-campaign-classic){target="_blank"}を参照してください
 
 監査記録のセルフサービスインターフェイスを使用すると、インスタンス内で行われた変更を監視できます。監査記録を使用すると、Adobe Campaign のインスタンス内で発生するアクションとイベントの包括的なリストをリアルタイムで記録できます。データの履歴を確認することにより、ワークフローで発生した事象、ワークフローの最終更新者、インスタンス内でユーザーが行った操作などを知ることができます。
 
-監査証跡の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=ja#accessing-audit-trail)を参照してください{target="_blank"}
+監査証跡の詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=ja#accessing-audit-trail){target="_blank"}を参照してください

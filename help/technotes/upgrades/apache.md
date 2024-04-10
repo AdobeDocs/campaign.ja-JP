@@ -23,7 +23,7 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
 このアップグレードは、業務を中断することなく Campaign サービスの使用を継続できるよう、通常の営業時間外に自動的に実行されると想定されています。
 
-まず、アドビのチームは、お客様の実稼動以外のインスタンスをアップグレードしてから、実稼動インスタンスをアップグレードします。これはアドビ側で処理する自動アップグレードプロセスなので、顧客側に必要なアクションはありません。ただし、問題が発生した場合は、 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}.
+まず、アドビのチームは、お客様の実稼動以外のインスタンスをアップグレードしてから、実稼動インスタンスをアップグレードします。これはアドビ側で処理する自動アップグレードプロセスなので、顧客側に必要なアクションはありません。問題が発生した場合は、にお問い合わせください。 [Adobeカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}.
 
 
 >[!NOTE]

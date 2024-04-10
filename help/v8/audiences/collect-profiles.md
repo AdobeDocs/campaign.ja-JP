@@ -18,4 +18,4 @@ Campaign を使用して web フォームを作成し、プロファイルのデ
 
 ![](assets/web-form-page.png)
 
-で Web フォームを作成する方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}.
+で web フォームを作成する方法を説明します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}.

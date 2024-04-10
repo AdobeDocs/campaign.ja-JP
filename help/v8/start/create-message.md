@@ -46,7 +46,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
   ![](assets/deliveries-in-a-campaign.png)
 
-  キャンペーンのコンテキストでメッセージを送信する方法については、 [この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja){target="_blank"}
+  でキャンペーンの状況に応じてメッセージを送信する方法を学ぶ [この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja){target="_blank"}
 
 * [ワークフロー](../config/workflows.md)を介したメッセージの送信
 
@@ -86,5 +86,5 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 
 送信後に配信を監視することは、マーケティングキャンペーンを効率的に実施し、顧客に働きかけるうえで重要なステップになります。 配信の送信後に監視したり、配信の失敗や強制隔離がどのように管理されているかを把握したりできます。
 
-配信を監視する方法については、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target="_blank"}
+での配信の監視方法を説明します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target="_blank"}
 

@@ -56,7 +56,7 @@ ht-degree: 98%
 ![](assets/messagecenter_create_content.png)
 
 * すべてのパーソナライゼーションフィールドはペイロードから取得されます。
-* トランザクションメッセージ内では、1 つまたは複数のパーソナライゼーションブロックを参照できます。 <!--The block content will be added to the delivery content during the publication to the execution instance.-->
+* トランザクションメッセージでは、1 つまたは複数のパーソナライゼーションブロックを参照できます。 <!--The block content will be added to the delivery content during the publication to the execution instance.-->
 
 パーソナライゼーションタグをメールメッセージの本文に挿入するには、次の手順に従います。
 

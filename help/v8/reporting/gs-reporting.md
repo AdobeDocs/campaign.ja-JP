@@ -46,10 +46,10 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
   ![](assets/desc-analysis-report.png)
 
-  キャンペーンの記述的分析レポートについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}.
+  Campaign の記述的分析レポートは、次の場所で提供されています [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}.
 
 * **カスタムレポート**
 
   Adobe Campaign を使用すると、データベース内のデータに関するレポートを作成できます。作成したレポートは、適切なコンテキストで参照できるようになります。
 
-  レポートを作成する手順について詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}. パーソナライズされたレポートの作成は、上級ユーザーがおこないます。
+  レポートの作成手順について詳しくは、こちらを参照してください [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}. パーソナライズされたレポートの作成は、上級ユーザーがおこないます。

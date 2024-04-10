@@ -75,7 +75,7 @@ Adobe Campaign では、ワークフローを使用して次のことをおこ�
 
 * ワークフローアクティビティについて詳しくは、[このページ](use-workflow-data.md)を参照してください。
 * ワークフローを構築する方法については、[この節](build-a-workflow.md)を参照してください。
-* ワークフローを使用して Campaign にデータをインポートする方法について説明します。 [この節](campaign-workflows.md)...
+* で、ワークフローを使用して Campaign にデータをインポートする方法を説明します。 [この節](campaign-workflows.md)..
 * ワークフローのベストプラクティスについて詳しくは、[このページ](workflow-best-practices.md)を参照してください。
 * ワークフローの実行に関するガイダンスについては、[この節](start-a-workflow.md)を参照してください。
 * ワークフローを監視する方法については、[このページ](monitor-workflow-execution.md)を参照してください。

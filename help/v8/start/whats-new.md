@@ -28,7 +28,7 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 
 Adobe Campaign を使用すると、キャンペーンオーケストレーション用の使いやすい単一のインターフェイスで、チャネルの同期を簡単に行えます。したがって、電子メール、web、モバイル、ソーシャルなどのオンラインチャネルは、ダイレクトメール、コールセンター、店舗などのオフラインチャネルと一致します。これにより、デジタルチャネルと従来のチャネルの両方で、一貫したコンテキストに沿ったエクスペリエンスを顧客に提供できます。Adobe Campaign では、あらゆるチャネルで、顧客がたどるすべてのパスに簡単にコンテンツを配信できます。
 
-[Campaign ワークフローの詳細を説明します](../config/workflows.md)
+[Campaign ワークフローの詳細](../config/workflows.md)
 
 ### パーソナライズされたメールマーケティング {#perso-email-mkt}
 
@@ -44,7 +44,7 @@ Adobe Campaign を使用すると、電子メールをより上手に、より�
 
 Adobe Campaign は、すべてのチャネルで収集されたデータから顧客プロファイルを作成するのに役立ちます。このプロファイルを使用して、複数のチャネルにわたってキャンペーンを調整できます。すべてのマーケティングチャネルを接続することで、各顧客による様々なジャーニーを、顧客が理解できる方法でカスタマイズできます。
 
-[顧客データ管理の詳細](audiences.md)
+[顧客データ管理の詳細情報](audiences.md)
 
 ### クラス最高のキャンペーン管理 {#best-in-campaign-mgt}
 
@@ -52,7 +52,7 @@ Adobe Campaign v8 は、様々なチャネルをまたいでキャンペーン�
 
 機能には、顧客の単一のビューを提供する統合プロファイルが含まれます。大規模なキャンペーンオーディエンス構築のためのデータ管理とセグメント化。マルチチャネルおよびマルチウェーブキャンペーンを自動化するためのクロスチャネルワークフロー管理。統合された電子メールにより、コストの高い ESP への依存を軽減します。顧客の行動とキャンペーンのパフォーマンスを把握するためのレポートと分析。
 
-[キャンペーン管理の詳細を説明します](campaigns.md)
+[キャンペーン管理の詳細](campaigns.md)
 
 
 ### Adobe Experience Platform への接続 {#connection-to-aep}
@@ -63,7 +63,7 @@ Adobe Campaign v8 は、Real-Time CDP と Adobe Experience Platform のデータ
 
 また、ジャーニー AI を使用して、予測送信時間の最適化と予測エンゲージメントスコアを設定し、オープン率、クリック数、売上高を増やすこともできます。
 
-[Campaign 統合の詳細を説明します](../connect/integration.md)
+[Campaign 統合の詳細について説明します。](../connect/integration.md)
 
 
 ### Managed Cloud Services {#acms-desc}
@@ -90,7 +90,7 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 
 [Campaign v8 Enterprise](../architecture/enterprise-deployment.md) では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいサービスにより、Campaign v8 ではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。[!DNL Snowflake] は Campaign のクラウドデータベースです。スピードと耐久性を実現し、システムアクティビティのピーク時にも過負荷が発生しません。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-[エンタープライズ (FFDA) デプロイメントの詳細を説明します](../architecture/enterprise-deployment.md)
+[エンタープライズ（FFDA）デプロイメントの詳細情報](../architecture/enterprise-deployment.md)
 
 
 ## セルフサービス管理インターフェイス{#self-service-admin}
@@ -105,6 +105,6 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 
 ![](assets/subdomain1.png)
 
-[CampaignCampaign コントロールパネルの詳細](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Campaign Campaign コントロールパネルの詳細](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 
 

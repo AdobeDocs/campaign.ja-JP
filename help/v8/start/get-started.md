@@ -34,7 +34,7 @@ Campaign を使用すると、次のことを行えます。
 
 Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです。データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。データベースには、他のタイプのプロファイルも含まれています。それらのプロファイルは用途が異なります。例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
 
-プロファイル管理の基本については、 [この節](audiences.md).
+プロファイル管理の基本事項については、で説明します。 [この節](audiences.md).
 
 で Campaign にプロファイルを追加する方法を説明します。 [この節](import.md).
 
@@ -44,7 +44,7 @@ Adobe Campaign には強力で使いやすいセグメント化機能とター�
 
 高度なデータ管理機能は、データ処理機能を拡張します。 データマートにモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。
 
-でのセグメント化とオーディエンス作成について詳しくは、 [この節](audiences.md).
+セグメント化とオーディエンスの作成について詳しくは、を参照してください。 [この節](audiences.md).
 
 ## クロスチャネルキャンペーンのオーケストレーション {#cross-channel-campaign-orchestration}
 
@@ -65,7 +65,7 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 * Campaign データベースへのデータの読み込み。
 * データベースのクリーンアップ、トラッキング情報の復元などの技術的プロセス。
 
-でワークフローを設計および実行する方法について説明します。 [この節](../config/workflows.md).
+でワークフローを設計および実行する方法について説明します [この節](../config/workflows.md).
 
 ## レポートと分析 {#analysis-and-reporting}
 
@@ -76,19 +76,19 @@ Adobe Campaign では、すぐに使える強力なレポートテンプレー�
 キャンペーンレポート機能により、動的レポートの作成が容易になります。ドラッグ＆ドロップ変数を使用して、レポートをカスタマイズしたり、キャンペーンが成功するかどうかを分析したりできます。クエリや計算の複雑さに応じて、データをリスト表示に集計したり、マーケティング分析レポートを簡単に生成できる形式でデータにアクセスしたりできます。
 
 
-レポートおよびトラッキング機能について詳しくは、 [この節](../reporting/gs-reporting.md).
+のレポート機能とトラッキング機能について詳しく説明します。 [この節](../reporting/gs-reporting.md).
 
 ## Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスをパーソナライズできるよう作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target、Adobe Experience Cloud トリガーなど）と組み合わせることができます。
 
-のとの統合方法やAdobe サービス/ソリューションの詳細 [この節](../connect/integration.md).
+でAdobe サービスやソリューションと統合する方法を説明します [この節](../connect/integration.md).
 
 ## Campaign 機能の詳細 {#core-capabilities-and-add-ons}
 
 Adobe Campaign は、ニーズとアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を提供します。 これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。 詳細な製品説明については、[Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)を参照してください。
 
-既にCampaign Classic? Campaign Classic と Campaign v8 の主な違いについては、[このページ](v7-to-v8.md)を参照してください。
+すでにCampaign Classicに精通していますか？ Campaign Classic と Campaign v8 の主な違いについては、[このページ](v7-to-v8.md)を参照してください。
 
 **関連項目**
 

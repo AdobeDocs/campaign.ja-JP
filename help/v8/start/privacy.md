@@ -21,7 +21,7 @@ ht-degree: 97%
 
 Campaign でプライバシーリクエストを管理するには、まず[名前空間を定義する](#namespaces)必要があります。その後、プライバシーリクエストを作成および管理できます。 プライバシーリクエストを実行するには、**Adobe Privacy Service** 統合を使用します。Privacy Service からすべての Adobe Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。[詳細情報](#create-privacy-request)
 
-詳しくは、 **アクセスする権利** そして **忘れられる権利** （削除リクエスト） [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"}.
+について説明します **アクセス権** および **忘れられる権利** （削除リクエスト）: [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"}.
 
 <!--
 >[!NOTE]
@@ -95,7 +95,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 **[!DNL Adobe Experience Platform Privacy Service]** 統合を使用すると、単一の JSON API の呼び出しで、複数のソリューションのコンテキストでプライバシーリクエストを自動化できます。Adobe Campaign は、専用のワークフローを通じて Privacy Service からプッシュされたリクエストを自動的に処理します。
 
-Privacy Core Service からプライバシーリクエストを作成する方法については、[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) のドキュメントを参照してください。{target="_blank"}
+Privacy Core Service からプライバシーリクエストを作成する方法については、[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} のドキュメントを参照してください。
 
 各 **[!DNL Privacy Service]** ジョブは、使用されている名前空間の数に基づいて、Adobe Campaign で複数のプライバシーリクエストに分割されます。1 つのリクエストが 1 つの名前空間に対応します。
 
