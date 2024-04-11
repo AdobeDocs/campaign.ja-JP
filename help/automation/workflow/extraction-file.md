@@ -5,9 +5,9 @@ description: データ抽出（ (ファイル）) ワークフローアクティ
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 014743172e09d46cb83b2fe2befaa8f3c54669b1
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -46,8 +46,6 @@ ht-degree: 100%
    ![](assets/s_advuser_extract_file_agregate_values.png)
 
 データの抽出中に実行する後処理を定義して、ファイルを圧縮または暗号化できます。これをおこなうには、アクティビティの「 **[!UICONTROL スクリプト]**」タブに目的のコマンドを追加する必要があります。
-
-この点について詳しくは、「[ファイルの圧縮または暗号化](use-workflow-data.md#zipping-or-encrypting-a-file)」の節を参照してください。
 
 ![](assets/postprocessing_dataextraction.png)
 
