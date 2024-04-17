@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ _2024年2月14日（PT）_
 
 * このリリース以降、中央の Adobe Experience Cloud 環境を通じて、新しい **Campaign web ユーザーインターフェイス**&#x200B;にアクセスできるようになります。Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイスにアクセスする方法については、[このページ](campaign-ui.md#ac-web-ui)を参照してください。
 
-* クライアントコンソールの 32 ビットバージョンは、非推奨（廃止予定）となりました。8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。クライアントコンソールの 64 ビットバージョンへのアップグレードはシームレスです。オペレーティングシステムのアップグレード方法について詳しくは、こちらを参照してください [テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=ja){target="_blank"}.
+* クライアントコンソールの 32 ビットバージョンは、非推奨（廃止予定）となりました。8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。クライアントコンソールの 64 ビットバージョンへのアップグレードはシームレスです。オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=ja){target="_blank"}を参照してください。
 
 
 ### 一般的な改善点 {#improvements-8-6-1}

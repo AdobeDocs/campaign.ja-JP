@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 95%
 
 [Adobe Audience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja){target="_blank"}
 
-[Adobe Experience Cloud中央インターフェイスコンポーネントガイド](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}
+[Adobe Experience Cloud セントラルインターフェイスコンポーネントガイド](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}

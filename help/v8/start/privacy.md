@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 Campaign でプライバシーリクエストを管理するには、まず[名前空間を定義する](#namespaces)必要があります。その後、プライバシーリクエストを作成および管理できます。 プライバシーリクエストを実行するには、**Adobe Privacy Service** 統合を使用します。Privacy Service からすべての Adobe Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。[詳細情報](#create-privacy-request)
 
-について説明します **アクセス権** および **忘れられる権利** （削除リクエスト）: [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"}.
+**アクセス権**&#x200B;および&#x200B;**忘れられる権利**（削除リクエスト）について詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"}を参照してください。
 
 <!--
 >[!NOTE]

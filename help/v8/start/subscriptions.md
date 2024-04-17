@@ -1,14 +1,14 @@
 ---
 title: Campaign での購読と購読解除の管理
-description: Campaign v8 でサブスクリプションとサブスクリプション解除を管理する方法を説明します.
+description: Campaign v8 で購読と購読解除を管理する方法を説明します。
 feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。複数のサービスを並行して定義できます。例えば、web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
 
-で情報サービスを作成したり、ニュースレターを送信したり、オプトインとオプトアウトを管理したりする方法を説明します。 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}
+ 情報サービスの作成、ニュースレターの送信およびオプトインとオプトアウトの管理の方法について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja)を参照してください{target="_blank"}。
 
 プロファイルをサービスに購読（オプトイン）するには、次のオプションを使用できます。
 
@@ -24,7 +24,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   ![](assets/subscribe-to-a-service.png)
 
-  詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
+  詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください。
 
 * 受信者のセットを、このサービスに自動的に購読登録します。受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。これらの受信者を購読登録するには、プロファイルを選択して右クリックします。**[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
 
@@ -34,7 +34,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   ![](assets/subscribe-confirm.png)
 
-  詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
+  詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください。
 
 
 * 受信者をインポートして、情報サービスに自動的に購読登録します。そのためには、インポートウィザードの最後の手順で該当するサービスを選択します。
@@ -56,7 +56,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   ![](assets/wf-subscription.png)
 
-  詳しくは、を参照してください。 [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja){target="_blank"}.
+  詳しくは、[こちらのページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja)を参照してください{target="_blank"}。
 
 プロファイルをサービスから購読解除（オプトアウト）するには、次のオプションを使用できます。
 
