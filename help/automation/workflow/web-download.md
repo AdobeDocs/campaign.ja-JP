@@ -4,10 +4,10 @@ title: Web ダウンロード
 description: Web ダウンロードワークフローアクティビティの詳細を説明します
 feature: Workflows
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 76a5737e2326e9691113957d1c7bf390ea969695
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 83%
 
 ---
 
@@ -58,6 +58,10 @@ ht-degree: 100%
 1. **詳細設定パラメーター**
 
    「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用して、次の追加オプションを設定できます。
+
+   * **[!UICONTROL リダイレクトに従う]**：ファイルのリダイレクトでは、上書きを使用して、データの入力や出力を別のタイプのデバイスにリダイレクトできます。
+   * **[!UICONTROL HTTP ヘッダーをファイルに追加]**：場合によっては、HTTP ヘッダーをファイルに追加したくなるかもしれません。 最も一般的には、次のようなトラブルシューティング目的で追加情報を提供するために、これらのヘッダーが使用されます。 [クロスオリジンリソース共有（CORS）](https://developer.mozilla.org/docs/Web/HTTP/CORS)、またはを使用して、特定のキャッシュディレクティブを設定します。
+   * **[!UICONTROL HTTP リターンコードを無視]**:HTTP リターンコード（HTTP ステータスコードとも呼ばれます）は、HTTP リクエストの結果を示します。
 
    ![](assets/download_web_edit_advanced.png)
 
