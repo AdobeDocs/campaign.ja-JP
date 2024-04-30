@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1136'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 アプリケーションには、web ユーザーインターフェイス、クライアントコンソール（リッチクライアント）、web アクセス（シンクライアント）、API 統合など、様々な方法でアクセスできます。
 
-[Campaign ユーザーインターフェイスの詳細情報](../start/campaign-ui.md).
+[詳しくは、Campaign ユーザーインターフェイスを参照してください](../start/campaign-ui.md)。
 
 ## 開発環境 {#dev-env}
 

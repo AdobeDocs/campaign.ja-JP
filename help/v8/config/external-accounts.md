@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1123'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 >[!NOTE]
 >
->POP3 機能のMicrosoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以降で使用できます。バージョンを確認するには、を参照してください。 [この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>POP3 機能の Microsoft Exchange Online OAuth 2.0 認証は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認する方法について詳しくは、[この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 >
 
 **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
-インバウンドメールについて詳しくは、こちらを参照してください [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"}.
+インバウンドメールについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/bounce_external_1.png)
 
@@ -73,7 +73,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UICONTROL Microsoft OAuth 2.0]**」オプションをチェックし、次のフィールドに入力します。
 
-* **[!UICONTROL Azure テナント]** Azure ID （またはディレクトリ（テナント） ID）は **初期設定** azure portal のアプリケーションの概要のドロップダウン。
+* **[!UICONTROL Azure テナント]** - Azure ID（またはディレクトリ（テナント）ID）は、Azure Portal のアプリケーションの概要の&#x200B;**初期設定**&#x200B;ドロップダウンで確認できます。
 
 * **[!UICONTROL Azure クライアント ID]** - クライアント ID（またはアプリケーション（クライアント）ID）は、Azure portal のアプリケーションの概要の&#x200B;**初期設定**&#x200B;ドロップダウンで確認できます。
 
@@ -93,7 +93,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 ## 外部システムの外部アカウントへのアクセス {#external-syst-external-accounts}
 
-* **外部データベース（FDA）**  – が **外部データベース** タイプの外部アカウントは、Federated Data Access （FDA）経由で外部データベースに接続するために使用します。 Federated Data Access（FDA）オプションについて詳しくは、[この節](../connect/fda.md)を参照してください。
+* **外部データベース（FDA）** - **外部データベース**&#x200B;タイプの外部アカウントは、Federated Data Access（FDA）経由で外部データベースに接続するために使用します。Federated Data Access（FDA）オプションについて詳しくは、[この節](../connect/fda.md)を参照してください。
 
   Adobe Campaign v8 と互換性のある外部データベースは、[互換性マトリックス](../start/compatibility-matrix.md)に記載されています。
 
@@ -101,7 +101,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 ## Adobe ソリューション統合外部アカウント {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud**  – が **[!UICONTROL Adobe Experience Cloud]** 外部アカウントは、AdobeIdentity Management サービス（IMS）を実装してAdobe Campaignに接続するために使用されます。 Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#logon-to-ac)を参照してください。
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]** 外部アカウントは、Adobe Identity Management サービス（IMS）を実装してAdobe Campaign に接続するのに使用します。Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#logon-to-ac)を参照してください。
 
 * **Web 分析** - **[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントは、Adobe Analytics から Adobe Campaign へのデータ転送を設定するために使用します。Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
@@ -116,7 +116,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 ## データ転送外部アカウント {#transfer-data-external-accounts}
 
-これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。の詳細情報 **ファイル転送** のワークフローで [このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"}.
+これらの外部アカウントは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用した、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。ワークフローでの&#x200B;**ファイル転送**&#x200B;について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=ja){target="_blank"}を参照してください。
 
 * **FTP および SFTP** - **FTP** 外部アカウントを使用すれば、Adobe Campaign 外でサーバーへのアクセスを設定およびテストできます。外部システム（ファイル転送に使用される SFTP サーバーや FTP サーバー 898 など）との接続をセットアップするために、独自の外部アカウントを作成できます。
 
@@ -124,7 +124,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
   >[!NOTE]
   >
-  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。[キー管理の詳細を学ぶ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja){target="_blank"}.
+  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。[詳しくは、鍵の管理を参照してください](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja){target="_blank"}。
 
 * **Amazon Simple Storage Service（S3）** - **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 

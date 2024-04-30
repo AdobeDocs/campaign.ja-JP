@@ -6,9 +6,9 @@ role: User, Developer
 level: Intermediate, Experienced
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,4 +18,4 @@ Adobe Campaign には、ビルトインのプロファイルテーブル **nmsRe
 
 ビルトインのテーブル拡張機能には柔軟性がありますが、使用しないフィールドやリンクを削除することはできません。 そのため、Campaign のビルトイン受信者テーブルの構造とデータモデルが大幅に異なる場合や、プロファイル数が多い場合は、カスタム受信者テーブルの使用が適している可能性があります。ただし、この方法を実装する際には注意が必要です。
 
-でカスタム受信者テーブルを使用するようにインスタンスを設定する方法について説明します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=ja){target="_blank"}.
+カスタム受信者テーブルを使用するようにインスタンスを設定する方法について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=ja){target="_blank"}を参照してください。

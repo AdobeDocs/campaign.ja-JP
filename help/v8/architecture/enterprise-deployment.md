@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 
 [!DNL Campaign] ローカルデータベースと Cloud データベース間のデータ同期を管理する新しい API をご利用いただけます。また、待ち時間の発生を回避し、全体的なパフォーマンスを向上させるために、ローカルデータベースレベルで API 呼び出しを処理する新しいメカニズムが導入されました。
 
-[新しい API について詳しくは、このページを参照してください](new-apis.md)
+[新しい API について詳しくは、このページを参照してください。](new-apis.md)
 
 
 ### データのレプリケーション{#data-replication}
@@ -109,7 +109,7 @@ Campaign のローカルデータベースとクラウドデータベースの�
 
 ### ID 管理{#id-mgt-ffda}
 
-Campaign v8 オブジェクトで **ユニバーサル固有 ID （UUID）**（無制限の一意の値でデータを識別できます）。
+Campaign v8 オブジェクトは、**UUID（ユニバーサルに一意の ID）**&#x200B;を使用するようになりました。これにより、一意の値（無制限）でデータを識別できます。
 
 この ID は文字列で、連続していません。Campaign v8 ではプライマリキーは数値ではないため、スキーマで **autouuid** 属性と **autopk** 属性を使用する必要があります。
 

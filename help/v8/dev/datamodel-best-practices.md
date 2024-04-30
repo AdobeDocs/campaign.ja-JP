@@ -6,9 +6,9 @@ role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2745'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign システムは非常に柔軟性が高く、初期の実装を�
 
 Campaign のビルトインテーブルとそれらの相互関係について詳しくは、[この節](datamodel.md)を参照してください。
 
-読み上げる [この節](schemas.md) キャンペーンスキーマの基本を学ぶには、を参照してください。
+キャンペーンスキーマの基本を学ぶには、[この節](schemas.md)を参照してください。
 
-でAdobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法を説明します [このページ](extend-schema.md).
+Adobe Campaign データベースの概念的データモデルを拡張するための拡張スキーマの設定方法については、[このページ](extend-schema.md)を参照してください。
 
 ## データモデルアーキテクチャ {#data-model-architecture}
 
@@ -176,7 +176,7 @@ Adobe Campaign 内のレコードの必要性を最小限に抑えるには、�
 
 「deleteStatus」属性はスキーマで宣言できます。レコードを削除済みとマークしてから、後でクリーンアップタスクで削除する方が効率的です。
 
-Managed Cloud Serviceのユーザーとしてリテンションの詳細を確認する場合や、カスタムテーブルにリテンションを設定する必要がある場合は、Adobeコンサルタントまたは技術管理者にお問い合わせください。
+Managed Cloud Services ユーザーとしてリテンションの詳細を確認する場合や、カスタムテーブルでリテンションを設定する必要がある場合は、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 
 ## パフォーマンス {#performance}
 

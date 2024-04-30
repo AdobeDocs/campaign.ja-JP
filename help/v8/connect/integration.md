@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ Campaign v8 では、次のアドビソリューションと接続できます�
 * Adobe Target。[詳細情報](../connect/ac-at.md)
 * Adobe Workfront。[詳細情報](../connect/ac-workfront.md)
 
-アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
+また、アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
 
-の詳細情報 **オーディエンスの共有** での Campaign とExperience Cloudソリューション間 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}.
+Campaign と Experience Cloud ソリューションとの&#x200B;**オーディエンス共有**&#x200B;について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
-の詳細情報 **アセット共有** での Campaign とExperience Cloudソリューション間 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}.
+Campaign と Experience Cloud ソリューションとの&#x200B;**アセット共有**&#x200B;について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
->管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) Campaign をAdobe Experience Cloudのサービスやソリューションと接続する場合。
+>Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 
 ## CRM コネクタとの統合{#gs-crm-connectors}

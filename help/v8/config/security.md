@@ -6,9 +6,9 @@ role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Adobeは管理対象Cloud Serviceユーザーであるお客様と協力して、これらの設定をお客様の環境に実装します。
+>Managed Cloud Services ユーザーの場合は、アドビはお客様と協力して、これらの設定をお客様の環境に実装します。
 
 
 ## アクセス管理
@@ -52,7 +52,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-詳しくは、を参照してください。 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}.
+詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}を参照してください。
 
 
 ## パーソナライゼーション
@@ -147,4 +147,4 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-詳しくは、を参照してください。 [Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}.
+詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}を参照してください。

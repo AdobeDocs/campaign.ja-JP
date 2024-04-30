@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 >[!CAUTION]
 >ビルトインスキーマは直接変更できません。 ビルトインのスキーマを適合させる必要がある場合は、スキーマを拡張します。
 
-Campaign のビルトインテーブルとそのインタラクションについて詳しくは、以下を参照してください。 [このページ](datamodel.md). [このページ](create-schema.md)で新しいスキーマを作成する際のレコメンデーションも参照してください。
+Campaign の組み込みテーブルとその連係について詳しくは、[このページ](datamodel.md)を参照してください。[このページ](create-schema.md)で新しいスキーマを作成する際のレコメンデーションも参照してください。
 
 スキーマを拡張するには、次の手順に従います。
 

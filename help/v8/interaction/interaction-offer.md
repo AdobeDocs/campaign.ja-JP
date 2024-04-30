@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '927'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -187,7 +187,7 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 ## オファープレゼンテーションの管理{#offer-presentation}
 
-Campaign では、プレゼンテーションルールを使用してオファーの提案のフローを制御できます。Campaign インタラクションに固有のこれらのルールを、「**タイポロジルール**」と呼びます。タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。これらは環境内で参照されます。
+Campaign では、プレゼンテーションルールを使用してオファーの提案のフローを制御できます。Campaign インタラクションに固有のこれらのルールを、「**タイポロジルール**」と呼びます。タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。ルールは環境内で参照されます。
 
 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=ja#managing-offers){target="_blank"}を参照してください。
 
@@ -197,4 +197,4 @@ Campaign では、プレゼンテーションルールを使用してオファ�
 
 シミュレーションでは、オファーやプレゼンテーションルールにあらかじめ適用されているコンテキストと実施要件ルールが考慮されます。 シミュレーションであればターゲットの受信者に影響を与えないので、実際にターゲットにオファーをおこなったり、過剰や過少に勧誘したりしなくても、オファーの提案をさまざまなバージョンでテストして調整できます。
 
-オファーシミュレーションについて詳しくは、次を参照してください。 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=ja){target="_blank"}.
+オファーシミュレーションについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=ja){target="_blank"}を参照してください。

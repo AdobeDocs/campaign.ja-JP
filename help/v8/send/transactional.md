@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1560'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support){target="_blank"} お使いの環境で Campaign トランザクションメッセージを設定するには、以下を行います。
+>Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境に設定する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support){target="_blank"}ください。
 
 トランザクションメッセージは、次の送信に使用します。
 
@@ -120,7 +120,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 ![](assets/messagecenter_create_content.png)
 
 * すべてのパーソナライゼーションフィールドはペイロードから取得されます。
-* トランザクションメッセージでは、1 つまたは複数のパーソナライゼーションブロックを参照できます。 <!--The block content will be added to the delivery content during the publication to the execution instance.-->
+* トランザクションメッセージ内では、1 つまたは複数のパーソナライゼーションブロックを参照できます。<!--The block content will be added to the delivery content during the publication to the execution instance.-->
 
 パーソナライゼーションタグをメールメッセージの本文に挿入するには、次の手順に従います。
 

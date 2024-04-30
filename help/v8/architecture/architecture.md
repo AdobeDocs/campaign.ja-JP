@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 ある環境から別の環境へパッケージを書き出したり読み込んだりできます。
 
-パッケージの詳細については、を参照してください。 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja){target="_blank"}
+パッケージについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja){target="_blank"}を参照してください
 
 ## デプロイメントモデル {#ac-deployment}
 
@@ -100,7 +100,7 @@ Campaign v8 パッケージに応じて、配信の実行を担当する特定�
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計された Campaign モジュールです。
 
-でトランザクションメッセージを送信する方法を説明します [この節](../send/transactional.md).
+トランザクションメッセージの送信方法について詳しくは、[この節](../send/transactional.md)を参照してください。
 
 web サイトでの顧客のアクションに応じて、REST API を介してイベントがキャンペーンに送信され、API 呼び出しを介して提供された情報またはデータがメッセージテンプレートに入力され、トランザクションメッセージがリアルタイムで顧客に送信されます。これらのメッセージはメール、SMS、プッシュ通知などを介して、個別に送信することも、まとめて送信することもできます。
 
@@ -108,7 +108,7 @@ web サイトでの顧客のアクションに応じて、REST API を介して�
 
 * **コントロールインスタンス**（またはマーケティングインスタンス）は、マーケターや IT チームがメッセージテンプレートの作成、設定および公開に使用します。このインスタンスは、イベントの監視と履歴も一元化します。
 
-  でメッセージテンプレートを作成および公開する方法について説明します。 [この節](../send/transactional.md).
+  メッセージテンプレートの作成と公開の方法について詳しくは、[この節](../send/transactional.md)を参照してください。
 
 * **実行インスタンス**&#x200B;は、受信イベント（パスワードのリセットや web サイトからの注文など）を取得し、パーソナライズされたメッセージを送信します。ロードバランサーを介してメッセージを処理し処理対象のイベントの数をスケーリングして可用性を最大限に高めるため、複数の実行インスタンスを配置することができます。
 

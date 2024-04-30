@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Campaign のステージングメカニズムを特定のテーブルに実装�
    </srcSchema>
    ```
 
-   カスタムスキーマの作成の詳細： [このページ](../dev/create-schema.md).
+   カスタムスキーマの作成について詳しくは、[このページ](../dev/create-schema.md)を参照してください。
 
 1. データベース構造を保存して更新します。[詳細情報](../dev/update-database-structure.md)
 

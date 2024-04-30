@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 
 >[!NOTE]
 >
->管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support){target="_blank"} アーカイブに使用する BCC メールアドレスを伝えるために使用します。
+>Managed Cloud Services のユーザーは、[アドビに連絡](../start/campaign-faq.md#support){target="_blank"}して、アーカイブに使用する BCC メールアドレスを伝えてください。
 
 >[!CAUTION]
 >

@@ -6,9 +6,9 @@ role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 99%
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
 
-すべてのフォーム属性の一覧については、を参照してください。 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja){target="_blank"}.
+すべてのフォーム属性の一覧について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja){target="_blank"}を参照してください。
 
 ## フォーマット設定 {#formatting}
 

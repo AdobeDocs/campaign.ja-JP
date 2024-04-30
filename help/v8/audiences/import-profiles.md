@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign データベースにデータを入力するには、[プロファイ�
 
 ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html?lang=ja){target="_blank"}.
 
-データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。詳しくは、次を参照してください [この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ja){target="_blank"}.
+データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ja){target="_blank"}を参照してください。
 
 ## 1 回限りのインポート{#import-jobs}
 
@@ -38,4 +38,4 @@ Adobe Campaign には、一般的なインポート機能が用意されてい�
 
 ![](assets/new-import-job.png)
 
-一般的なインポートの実行手順については、以下を参照してください [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}.
+一般的なインポートの実行手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}を参照してください。

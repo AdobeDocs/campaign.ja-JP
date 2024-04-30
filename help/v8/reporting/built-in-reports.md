@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1111'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 
 主なレポートのリストはホームページで使用でき、配信データにすばやくアクセスできます。このリストは、ニーズに合わせて変更可能です。また、「**[!UICONTROL レポート]**」タブに独自のレポートを追加する方法についても説明します。
 
-これらのカスタム設定について詳しくは、こちらを参照してください [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ja){target="_blank"}.
+これらのカスタム設定について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## ビルトインレポートへのアクセス {#access-ootb-reports}

@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 **関連トピック**
 
-でのスキーマエディションの例 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic){target="_blank"}
+スキーマエディションの例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic){target="_blank"}を参照してください。
 
-ユースケース：でフィールドを既存の参照テーブルにリンクする [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target="_blank"}
+ユースケース：既存の参照テーブルに対するフィールドのリンクについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target="_blank"}を参照してください。
 
 
 ## 入力フォームの変更

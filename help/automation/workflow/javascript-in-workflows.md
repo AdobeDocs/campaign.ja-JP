@@ -6,9 +6,9 @@ feature: Workflows
 role: Developer
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1690'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 * [静的 SOAP メソッドを使用したワークフローのトリガー](#trigger-example)
 * [非静的 SOAP メソッドを使用したデータベースとのインタラクション](#interact-example)
 
-[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"} 静的および非静的 SOAP メソッドについて
+静的および非静的 SOAP メソッドについて詳しくは、[こちら](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"}を参照してください。
 
 これらの例では、ECMAScript for XML（E4X）拡張機能を使用しています。この拡張機能を使用すると、JavaScript 呼び出しと XML プリミティブを同じスクリプトに組み合わせることができます。
 
@@ -99,7 +99,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### レコードの削除
 
-`DeleteCollection` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ja){target="_blank"}.
+`DeleteCollection` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ja){target="_blank"}。
 
 次の情報を指定します。
 
@@ -273,7 +273,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"} について `logInfo` 関数。
+ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。`logInfo` 関数について詳しくは、[こちら](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}を参照してください。
 
 #### `getIfExists` 操作の結果
 
@@ -359,7 +359,7 @@ for each (var rcp in res.recipient)
 
 ワークフロートリガーは、イベントを使用して機能します。イベントには、次の機能を使用できます。
 
-* イベントを投稿するには、静的 `PostEvent` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja){target="_blank"}.
+* イベントを投稿するには、静的 `PostEvent` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja){target="_blank"}。
 * イベントを受け取るには、**[!UICONTROL 外部シグナル]**&#x200B;アクティビティを使用します。 [詳細情報](external-signal.md)。
 
 ワークフローは様々な方法でトリガーできます。
@@ -426,10 +426,10 @@ xtk.workflow.PostEvent(
 
 1. クエリを定義します。
 
-   * 対応するスキーマ（例えば `xtk:workflow` スキーマ）で `create` メソッドを使用してエンティティを取得します。[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja){target="_blank"}.
+   * 対応するスキーマ（例えば `xtk:workflow` スキーマ）で `create` メソッドを使用してエンティティを取得します。[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja){target="_blank"}。
    * `queryDef` メソッドを使用して SQL クエリを発行します。
 
-1. `ExecuteQuery` メソッドを使用してクエリを実行します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"}.
+1. `ExecuteQuery` メソッドを使用してクエリを実行します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"}。
 
    `for each` ループを使用して結果を取得します。
 

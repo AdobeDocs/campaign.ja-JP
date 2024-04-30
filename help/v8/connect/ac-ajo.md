@@ -6,9 +6,9 @@ feature: Journey Optimizer Integration
 level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Campaign と Adobe Journey Optimizer の統合により、Adobe Journey Op
 ![](assets/ajo-integration.png)
 
 
-[この統合については、エンドツーエンドのサンプルを参照してください](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=ja){target="_blank"}.
+[この統合について詳しくは、エンドツーエンドのサンプルを参照してください](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=ja){target="_blank"}。
 
 
-[詳しくは、Journey Optimizer ドキュメントを参照してください。](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=ja){target="_blank"}.
+[詳しくは、Journey Optimizer のドキュメントを参照してください](https://experienceleague.adobe.com/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-classic.html?lang=ja){target="_blank"}。

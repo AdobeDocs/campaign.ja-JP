@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ FDA コネクタ（Federated Data Access）を使用し、Campaign を 1 つ以�
 >
 >* [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、Campaign のローカルデータベースと Snowflake のクラウドデータベースとの通信を管理するために、特定の外部アカウントが利用可能です。この外部アカウントはアドビによって設定されいるので、変更&#x200B;**しないでください**。
 >
->* 管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) 外部データベースを Campaign に接続する場合。
+>* Managed Cloud Services ユーザーは、[アドビに連絡](../start/campaign-faq.md#support)して、外部データベースを Campaign に接続してください。
 
 
 ## ベストプラクティスと制限事項

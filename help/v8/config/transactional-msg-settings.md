@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) お使いの環境に Campaign トランザクションメッセージをインストールして設定するには：
+>Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして設定する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
 
 ## 権限の定義 {#mc-permissions}
 

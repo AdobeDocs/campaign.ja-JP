@@ -5,9 +5,9 @@ feature: Reporting, Monitoring
 role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1880'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->を使用して、1 時間あたりに送信される配信数を監視することもできます。 [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"}.
+>また、[コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=ja){target="_blank"}を使用して、1 時間あたりに送信される配信数を監視することもできます。
 >
->コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順については、こちらを参照してください [このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel){target="_blank"}.
+>コントロールパネルは、すべての管理者ユーザーがアクセスできます。ユーザーに管理者アクセス権を付与する手順について詳しくは、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel){target="_blank"}を参照してください。
 >
 
 ## ユーザーアクティビティ {#user-activities}

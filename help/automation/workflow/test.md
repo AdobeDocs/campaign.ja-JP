@@ -5,9 +5,9 @@ description: テストワークフローアクティビティの詳細を説明�
 feature: Workflows
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 87%
 
 ![](assets/edit_test.png)
 
-ワークフロー JavaScript からアクセス可能なアプリケーションサーバーのその他すべての JavaScript 関数と SOAP メソッドについて詳しくは、以下を参照してください [JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}.
+ワークフロー JavaScript 経由でアクセス可能なアプリケーションサーバーのその他すべての JavaScript 関数および SOAP メソッドについて詳しくは、[JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}を参照してください。
 
 このエディターから変数を直接挿入することもできます。変数の使用方法について詳しくは、[この節](javascript-scripts-and-templates.md#variables)を参照してください。
 

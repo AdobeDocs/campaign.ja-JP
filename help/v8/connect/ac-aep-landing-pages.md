@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ OAuth 接続を設定したら、次の手順では Adobe Experience Platform �
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. 必要に応じて、接続を設定します。HTTP API 接続の設定方法について詳しくは、こちらを参照してください [Adobe Experience Platform ソースのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja){target="_blank"}.
+1. 必要に応じて、接続を設定します。HTTP API 接続の設定方法について詳しくは、[Adobe Experience Platform ソースドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja){target="_blank"}を参照してください。
 
    **[!UICONTROL 認証]**&#x200B;手順で、「**[!UICONTROL 認証を有効にする]**」オプションの切替スイッチをオンにして、OAuth 統合を通じて事前に生成されたアクセストークンを使用して認証します。
 
@@ -98,7 +98,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
 >[!TAB JavaScript コードアクティビティを使用してオプションを追加]
 
-ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。[JavaScript コード アクティビティの設定方法を学ぶ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=ja#JavaScript-code){target="_blank"}.
+ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。[詳しくは、JavaScript コードアクティビティの設定方法を参照してください](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=ja#JavaScript-code){target="_blank"}。
 
 ワークフローの実行時に、指定された値を使用してオプションが Campaign コンソールに自動的に作成されます。
 

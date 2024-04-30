@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign の使用を開始する場合は、デフォルトのデータ�
 * 新しいフィールドで[既存のテーブルを拡張](extend-schema.md)する。例えば、受信者テーブルに新しい「ロイヤルティ」フィールドを追加できます。
 * [新しいテーブルの作成](create-schema.md)。例えば、データベースの各プロファイルが行った購入をすべてリストする「購入」テーブルを作成して、受信者テーブルにリンクします。
 
-で Campaign データモデルを使用する際のベストプラクティスについて説明します [この節](datamodel-best-practices.md).
+Campaign データモデルを使用する際のベストプラクティスについて詳しくは、[この節](datamodel-best-practices.md)を参照してください。
 
 ## ビルトインプロファイルテーブル {#ootb-profiles}
 
@@ -58,9 +58,9 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 受信者テーブルは拡張できますが、テーブル内のフィールドやリンクの数を減らすことはできません。
 
-既存のスキーマを拡張する方法については、[この節](extend-schema.md)を参照してください。
+既存のスキーマを拡張する方法について詳しくは、[この節](extend-schema.md)を参照してください。
 
-のビルトイン受信者テーブル拡張例を確認します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}
+組み込み受信者テーブルの拡張例について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}を参照してください。
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。この方法には制限があり、[この節](custom-recipient.md)で説明します。
 
@@ -68,9 +68,9 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 Campaign v8 のテーブル管理に関してより深く理解するには、[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、テーブルは Campaign とその Snowflake Cloud データベースの間で複製されます。
 
-レプリケーションの戦略とメカニズムの詳細については、を参照してください。 [この節](../architecture/replication.md).
+レプリケーションの戦略とメカニズムについて詳しくは、[この節](../architecture/replication.md)を参照してください。
 
 **関連トピック**
 
-でプロファイルをインポートする方法を説明します。 [この節](../start/import.md)
-Campaign オーディエンスの詳細については、を参照してください。 [この節](../start/audiences.md)
+プロファイルをインポートする方法について詳しくは、[この節](../start/import.md)を参照してください。
+Campaign オーディエンスについて詳しくは、[この節](../start/audiences.md)を参照してください。

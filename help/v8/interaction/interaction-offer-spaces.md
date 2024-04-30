@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -156,4 +156,4 @@ ht-degree: 98%
 
 プレビューでは、特定のスペースに限定されているコンテキストを無視できます。これは、インタラクションスキーマを拡張して、インバウンドチャネルを使用してスペースで参照されるフィールドを追加した場合です。
 
-詳しくは、次の場所でこのサンプルを参照してください。 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target="_blank"}.
+詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target="_blank"}でこのサンプルを参照してください。

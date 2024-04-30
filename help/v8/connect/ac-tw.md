@@ -6,9 +6,9 @@ feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->管理対象Cloud Serviceのユーザーとして、 [連絡先Adobe](../start/campaign-faq.md#support) campaign を X に接続するには、次の手順に従います。  **ソーシャルネットワーク管理（ソーシャルマーケティング）** 専用パッケージを通じてお使いの環境にアドオンをインストールし、Twitter外部アカウントを設定する必要があります。
+>Managed Cloud Services ユーザーとして Campaign を X に接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。この&#x200B;**ソーシャルネットワーク管理（ソーシャルマーケティング）**&#x200B;アドオンは、専用パッケージを通じてお使いの環境にインストールし、Twitter 外部アカウントを設定する必要があります。
 
 
 X アカウントにツイートを投稿するように Adobe Campaign を設定するには、これらのアカウントの Adobe Campaign への書き込みアクセス権をデリゲートします。そのためには、次の手順を実行する必要があります。
@@ -45,7 +45,7 @@ Campaign は、X API の 1.1 バージョンを使用します。これを使用
 管理者特権でのアクセスが承認されたら、X アプリケーションを作成し、Adobe Campaign が X アカウントで投稿を作成できるようにします。これを行うには、次の手順に従います。
 
 1. X アカウントにログオンします。
-1. の接続 [X 開発者ポータル](https://developer.twitter.com/en/apps){target="_blank"}.
+1. [X 開発者ポータル](https://developer.twitter.com/en/apps){target="_blank"}に接続します。
 1. 「**アプリの作成**」を選択します。
 1. X アシスタントの指示に従ってプロセスを進めます。
 1. Adobe Campaign がアカウントで投稿を作成できるようにするには、アプリの「ユーザー認証の設定」セクションから&#x200B;**アプリの権限**&#x200B;を編集します。「**読み取り、書き込み、ダイレクトメッセージ**」を選択します。
