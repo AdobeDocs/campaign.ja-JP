@@ -6,55 +6,59 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: cec935c2c73e3df4d2e03d54305004df9bd2655e
+exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
+source-git-commit: f9b064dffa0f8792e8653760cb2ac44cfdf43848
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
-
 
 # セキュリティ強化アドオン {#enhanced-security}
 
 ネットワーク接続のセキュリティを強化し、リソースのセキュリティを強化するには、 [!DNL Adobe Campaign] が新しいを提供 **セキュリティの強化** アドオン。
 
-このアドオンには、現在、次の 2 つのエコシステム機能が含まれています。
+このアドオンには、次の 2 つのエコシステム機能が含まれています。
 
 * [セキュアな CMK 統合](#secure-cmk-integration)
 
 * [安全な VPN トンネリング](#secure-vpn-tunneling)
 
+これらの機能について以下で詳しく説明します。
+
 ## セキュアな CMK 統合 {#secure-cmk-integration}
 
-**顧客管理キー（CMK）のセキュア統合** では、AWS アカウントを通じて独自のキーを使用してインスタンスとデータを暗号化できます<!--instead of Adobe-owned keys-->. 暗号化キーの生成と管理をユーザーに任せることで、この機能を使用すると、キーの失効など、キーをより詳細に制御できます。
+この **顧客管理キー（CMK）のセキュア統合** を使用すると、Amazon Web Services（AWS）アカウントを通じて独自のキーを使用してインスタンスとデータを暗号化できます。
+
+顧客管理キーは、作成、所有および管理するAWS アカウントのキー管理サービス（KMS）キーです。 これらの KMS キーを完全に制御し、それらを使用してデータを暗号化および復号化します。 暗号化キーの生成と管理をユーザーに任せることで、この機能を使用すると、キーの失効など、キーをより詳細に制御できます。
 
 >[!CAUTION]
 >
 >キーを取り消す場合は、影響を認識しておく必要があります。 [詳細情報](#cmk-callouts)
 
-この機能を有効にするには、次の手順に従います。
+Campaign との CMK 統合を有効にするには、次の手順に従います。
 
-1. 次があることを確認します [AWS](https://aws.amazon.com/){target="_blank"} アカウント。
+1. に接続 [Amazon Web Services（AWS）](https://aws.amazon.com/){target="_blank"} アカウント。
 
-1. AWS Key Management Service （KMS）を使用して、の自動ローテーションでキーを生成します。 [方法](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}
+1. AWS Key Management Service （KMS）を使用して、の自動ローテーションでキーを生成します。 [方法](https://docs.aws.amazon.com/kms/latest/developerguide/create-keys.html){target="_blank"}.
 
-1. リソースへのアクセスを許可するには、Adobeから提供されたポリシーをAWS アカウントに適用します。 [詳細情報](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"} <!--link TBC-->
+1. リソースへのアクセスを許可するには、Adobeから提供されたポリシーをAWS アカウントに適用します。 [詳細情報](https://docs.aws.amazon.com/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
 
-1. Amazon リソース名（キー ARN）をと共有する [!DNL Adobe Campaign]. これについては、Adobe担当者にお問い合わせください。 <!--or Adobe transition manager?-->
+1. を共有 [Amazon リソース名（キー ARN）](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} （を使用） [!DNL Adobe Campaign]. これについては、Adobe担当者にお問い合わせください。 <!--or Adobe transition manager?-->
 
-1. Amazon EventBridge ルールを作成およびテストして、Adobeによるキーのモニタリングを有効にします&#x200B; [詳細情報](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}
+1. Amazon EventBridge ルールを作成およびテストして、Adobeによるキーのモニタリングを有効にします&#x200B; [詳細情報](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
 
 ## 安全な VPN トンネリング {#secure-vpn-tunneling}
 
-**セキュア仮想プライベートネットワーク（VPN）トンネリング** は、プライベートネットワークを介して構内から次の場所に転送されるデータに安全にアクセスできる、サイト間 VPN です [!DNL Adobe Campaign] インスタンス。
+この **セキュア仮想プライベートネットワーク（VPN）トンネリング** は、プライベートネットワークを介して構内から次の場所に転送されるデータに安全にアクセスできる、サイト間 VPN です [!DNL Adobe Campaign] インスタンス。
 
 <!--As it connects two networks together, it is a site-to-site VPN.-->
 
-高可用性（HA）を確保するために、1 つのトンネルで問題が発生した場合に停止しないように、2 つのトンネルを使用します
+高可用性（HA）を確保するために、1 つのトンネルで問題が発生した場合に停止しないように、2 つのトンネルを使用します。
 
 次の 3 つのユースケースがサポートされています。
 
-* FDA over VPN<!--to access your on-premise database from the Campaign instance over VPN-->
+* Federated Data Access （FDA） over VPN<!--to access your on-premise database from the Campaign instance over VPN-->
 
 * シック クライアントからの VPN 経由のインスタンス ログイン
 
@@ -68,7 +72,7 @@ ht-degree: 1%
 
 * Adobe側 VPN 設定に基づいてサイド VPN を設定します。
 
-* 両方のトンネルを HA 用に維持します。
+* 高可用性を確保するために、両方のトンネルを維持します。
 
 * サイドトンネルを監視します。
 
