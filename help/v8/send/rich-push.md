@@ -5,17 +5,19 @@ description: Adobe Campaign web を使用した Android のリッチプッシュ
 feature: Push
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 5f1ffd5d59791a0e6ff8a67feb08c8eed128cc1e
-workflow-type: ht
-source-wordcount: '1234'
-ht-degree: 100%
+source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 99%
 
 ---
 
 # Android のリッチプッシュ配信の設計 {#rich-push}
+
+>[!AVAILABILITY]
+>
+>これは、 **限定提供（LA）** （LA）
 
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 

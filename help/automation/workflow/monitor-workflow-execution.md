@@ -5,10 +5,10 @@ description: ワークフロー実行の監視
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 100%
+source-wordcount: '2006'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [この節](workflow-supervision.md#supervising-workflows)では、一連のワークフローの状態（一時停止、停止、エラーあり）を監視できるワークフローの作成方法に関する使用例も示します。
 
-さらに、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティ、ワークフローに最後に加えられた変更およびワークフローの状態を確認できます。監査記録について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=ja#accessing-audit-trail){target="_blank"}を参照してください。
+さらに、インスタンスの管理者は、**監査記録**&#x200B;を使用して、アクティビティ、ワークフローに最後に加えられた変更およびワークフローの状態を確認できます。監査記録の詳細については、こちらを参照してください [ページ](../../v8/reporting/audit-trail.md){target="_blank"}.
 
 ## 進捗状況の表示 {#displaying-progress}
 

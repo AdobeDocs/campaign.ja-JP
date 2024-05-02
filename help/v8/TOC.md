@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 19593cd689609515264aa2995e33e53f3bc95c95
+source-git-commit: ca4c808571b66eb26d1dfaf608932128f42ce874
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '598'
 ht-degree: 99%
 
 ---
@@ -121,6 +121,7 @@ ht-degree: 99%
    + [ユースケース](interaction/interaction-use-cases.md)
 + レポートと分析 {#analytics}
    + [追跡と監視](start/tracking.md)
+   + [監査記録](reporting/audit-trail.md)
    + レポートの操作{#reports}
       + [レポートの基本を学ぶ](reporting/gs-reporting.md)
       + キューブの作成{#cubes}
