@@ -4,10 +4,10 @@ description: Campaign テクニカルオペレーターを Adobe Developer Conso
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5d3dd679eb7a756200d604601c20c3fed5770fc2
 workflow-type: tm+mt
 source-wordcount: '1511'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -145,7 +145,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ### 手順 8 - サードパーティ API 統合を更新 {#ims-migration-step-8}
 
-新しく作成したテクニカルアカウントを使用するには、Adobe Campaign を呼び出す API 統合を更新する必要があります。
+新しく作成したテクニカルアカウントを使用するために、Adobe Campaignに対して呼び出しを行うすべての API 統合を更新する必要があります。
 
 スムーズな統合のためのサンプルコードなど、API 統合手順について詳しくは、[Adobe Developer Console 認証ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
 
