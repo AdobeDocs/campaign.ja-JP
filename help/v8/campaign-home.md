@@ -3,14 +3,14 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 43666e72cdbdb1e7305208903dbb82eda73fa46f
+source-git-commit: 574206bd243a2492e512ee62f057da940d29da6e
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 96%
+source-wordcount: '327'
+ht-degree: 94%
 
 ---
 
-# Adobe Campaign v8 ドキュメント {#campaign-documentation}
+# Adobe Campaign v8 （コンソール）ドキュメント {#campaign-documentation}
 
 ## 新機能
 
