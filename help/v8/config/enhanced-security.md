@@ -1,5 +1,5 @@
 ---
-title: セキュリティ強化アドオン
+title: Campaign セキュリティ強化アドオン
 description: Campaign セキュリティ強化アドオンの基本を学ぶ
 feature: Configuration
 role: Developer
@@ -7,26 +7,35 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: f9b064dffa0f8792e8653760cb2ac44cfdf43848
-workflow-type: ht
-source-wordcount: '696'
-ht-degree: 100%
+source-git-commit: 042a1cc96b819a1a77442e274defbadeb393eafc
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 79%
 
 ---
 
-# セキュリティ強化アドオン {#enhanced-security}
+
+# Campaign セキュリティ強化アドオン {#enhanced-security}
 
 ネットワーク接続とリソースのセキュリティを強化するために、[!DNL Adobe Campaign] では新しい&#x200B;**セキュリティ強化**&#x200B;アドオンが提供されています。
 
 このアドオンには、次の 2 つのエコシステム機能が含まれています。
 
-* [セキュア CMK 統合](#secure-cmk-integration)
+* [顧客管理キー（CMK）のセキュア統合](#secure-cmk-integration)
 
-* [セキュア VPN トンネリング](#secure-vpn-tunneling)
+* [セキュア仮想プライベートネットワーク（VPN）トンネリング](#secure-vpn-tunneling)
 
 これらの詳細は次のとおりです。
 
-## セキュア CMK 統合 {#secure-cmk-integration}
+セキュリティの強化機能に関する一部のガードレールと制限については、このページを参照してください。 さらに、Secure CMK 統合/Secure VPN トンネリングのユースケースがすべて機能していることを確認する必要があります。
+
+これらの機能が実装されると、Adobeモニターは次の機能を実行します。
+
+* インスタンスの可用性を確認し、キーが使用できない場合はアラートを送信します。
+
+* VPN トンネルを確認し、問題が発生した場合にアラートを送信します。
+
+## 安全な顧客管理キーの統合 {#secure-cmk-integration}
 
 **セキュア顧客管理キー（CMK）統合**&#x200B;を使用すると、Amazon Web Services（AWS）アカウントから独自のキーを使用してインスタンスとデータを暗号化できます。
 
@@ -48,7 +57,30 @@ CMK と Campaign の統合を有効にするには、次の手順に従います
 
 1. Amazon EventBridge ルールを作成およびテストして、アドビによるキーのモニタリングを有効にします。[詳細情報](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
 
-## セキュア VPN トンネリング {#secure-vpn-tunneling}
+
+### ガードレールと制限 {#cmk-callouts}
+
+Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が適用されます。
+
+* Adobeはを提供していません [Amazon Web Services（AWS）](https://aws.amazon.com/jp/){target="_blank"} アカウント。 独自の AWS アカウントを持ち、キーを生成してアドビと共有するように設定する必要があります。
+
+* [AWS Key Management Service](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/overview.html){target="_blank"}（KMS）キーのみがサポートされています。KMS 以外でお客様が生成したキーは使用できません。
+
+* 初回のセットアップ時にはダウンタイムが発生することが予想されます。&#x200B;ダウンタイム時間は、データベースのサイズによって異なります。
+
+* 顧客はキーを所有し管理します。 鍵に何か変更があったら、Adobeに連絡しなさい&#x200B;
+
+* [AWS CloudTrail](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} を使用してキーを監査し、必要に応じて失効させることができます。
+
+* キーを失効、無効または削除すると、対応するアクションを元に戻すまで、暗号化されたリソースとインスタンスにアクセスできなくなります。
+
+  >[!CAUTION]
+  >
+  >キーを無効にして、7 日以内にこのアクションを元に戻さない場合、データベースの復元はバックアップからのみ実行できます。
+  >
+  >キーを削除し、30 日以内にこのアクションを元に戻さない場合、すべてのデータは完全に削除され、失われます。
+
+## 安全な仮想プライベートネットワークトンネリング {#secure-vpn-tunneling}
 
 **セキュア仮想プライベートネットワーク（VPN）トンネリング**&#x200B;は、プライベートネットワークを介して構内から [!DNL Adobe Campaign] インスタンスに転送されるデータに安全にアクセスできるサイト間 VPN です。
 
@@ -80,43 +112,10 @@ CMK と Campaign の統合を有効にするには、次の手順に従います
 
 * 接続エラーが発生した場合に備えて、ユーザー側で再試行メカニズムを設定します。
 
-## ガードレール {#callouts}
 
-セキュリティ機能の強化に関するガードレールと制限の一部を以下に示します。
+### ガードレールと制限 {#vpn-callouts}
 
-* セキュアな CMK 統合／セキュア VPN トンネリングのユースケースがすべて機能していることを確認します。
-
-<!--* Adobe shall reach out to you or your technical team if any issue is found on your side.
-
-* Currently, when using Enhanced security features, any communication with Adobe must be performed manually via email.-->
-
-* アドビでは、次を監視します。
-
-   * インスタンスの可用性を確認し、キーが使用できない場合はアラートを送信します。
-
-   * VPN トンネルを確認し、問題が発生した場合にアラートを送信します。
-
-### セキュアな CMK 統合ガードレール {#cmk-callouts}
-
-* アドビは AWS アカウントを提供しません。独自の AWS アカウントを持ち、キーを生成してアドビと共有するように設定する必要があります。
-
-* [AWS Key Management Service](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/overview.html){target="_blank"}（KMS）キーのみがサポートされています。KMS 以外でお客様が生成したキーは使用できません。
-
-* 初回のセットアップでは、ある程度のダウンタイムが発生します。ダウンタイムの時間は、データベースのサイズによって異なります。
-
-* キーを所有および管理しているので、キーに変更が生じた場合にはアドビに連絡する必要があります。
-
-* [AWS CloudTrail](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} を使用してキーを監査し、必要に応じて失効させることができます。
-
-* キーを失効、無効または削除すると、対応するアクションを元に戻すまで、暗号化されたリソースとインスタンスにアクセスできなくなります。
-
-  >[!CAUTION]
-  >
-  >キーを無効にして、7 日以内にこのアクションを元に戻さない場合、データベースの復元はバックアップからのみ実行できます。
-  >
-  >キーを削除し、30 日以内にこのアクションを元に戻さない場合、すべてのデータは完全に削除され、失われます。
-
-### セキュアな VPN トンネリングガードレール {#vpn-callouts}
+Adobe Campaign v8 との VPN トンネリング統合には、次のガードレールと制限が適用されます。
 
 * 現在、次のようなオンプレミスデータベースのみがサポートされています。<!--Richa to check the list with PM-->
 

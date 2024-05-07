@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 574206bd243a2492e512ee62f057da940d29da6e
+source-git-commit: 5312045424d74f8aa1eb44b2f40347553d471a12
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '600'
 ht-degree: 99%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 99%
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
-   + [セキュリティの強化](config/enhanced-security.md)
+   + [セキュリティ強化アドオン](config/enhanced-security.md)
 + 意思決定管理 {#offers}
    + [リアルタイムインタラクションの概要](interaction/interaction.md)
    + [環境とアーキテクチャ](interaction/interaction-architecture.md)
