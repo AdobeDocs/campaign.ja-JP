@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
+source-git-commit: 91d19874dfb313a1a470ac4f39cf5af7ca7dfa19
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 72%
@@ -19,7 +19,7 @@ ht-degree: 72%
 
 ## 2024年5月 {#may-2024}
 
-以下を示すメモが追加されました **[!UICONTROL ディメンションの変更]** および **[!UICONTROL データソースを変更]** アクティビティは 1 行に追加せず、 **[!UICONTROOL 充実]** それらの間のアクティビティ。 詳しくは、を参照してください。 [ディメンションの変更](../../automation/workflow/change-dimension.md) および [データソースを変更](../../automation/workflow/change-data-source.md) セクション。
+以下を示すメモが追加されました **[!UICONTROL ディメンションの変更]** および **[!UICONTROL データソースを変更]** アクティビティは 1 行に追加せず、 **[!UICONTROL 充実]** それらの間のアクティビティ。 詳しくは、を参照してください。 [ディメンションの変更](../../automation/workflow/change-dimension.md) および [データソースを変更](../../automation/workflow/change-data-source.md) セクション。
 
 ## 2024年2月 {#feb-2024}
 
