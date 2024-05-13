@@ -4,10 +4,10 @@ description: 「データソースを変更」アクティビティの詳細を�
 feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 86%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 100%
 **[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用すると、**[!UICONTROL ワークテーブル]**&#x200B;に別のデータソースを使用できます。
 
 なお、**[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用する場合、ワークフローの実行を続行するには、クラウドデータベースに切り替える必要があります。
+
+>[!IMPORTANT]
+>
+>に注意してください **[!UICONTROL ディメンションの変更]** および **[!UICONTROL データソースを変更]** アクティビティは 1 行に追加しないでください。 両方のアクティビティを連続して使用する必要がある場合は、必ず次を含めてください **[!UICONTROOL 充実]** それらの間のアクティビティ。 これにより、適切な実行が保証され、潜在的な競合やエラーが回避されます。
 
 **[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用するには、次の手順に従います。
 
