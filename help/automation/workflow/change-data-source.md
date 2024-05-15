@@ -4,7 +4,7 @@ description: 「データソースを変更」アクティビティの詳細を�
 feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
+source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 86%
@@ -25,7 +25,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->に注意してください **[!UICONTROL ディメンションの変更]** および **[!UICONTROL データソースを変更]** アクティビティは 1 行に追加しないでください。 両方のアクティビティを連続して使用する必要がある場合は、必ず次を含めてください **[!UICONTROOL 充実]** それらの間のアクティビティ。 これにより、適切な実行が保証され、潜在的な競合やエラーが回避されます。
+>に注意してください **[!UICONTROL ディメンションの変更]** および **[!UICONTROL データソースを変更]** アクティビティは 1 行に追加しないでください。 両方のアクティビティを連続して使用する必要がある場合は、必ず次を含めてください **[!UICONTROL 充実]** それらの間のアクティビティ。 これにより、適切な実行が保証され、潜在的な競合やエラーが回避されます。
 
 **[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用するには、次の手順に従います。
 

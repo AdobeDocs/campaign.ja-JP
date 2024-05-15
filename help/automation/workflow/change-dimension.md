@@ -5,7 +5,7 @@ description: ディメンションの変更アクティビティの使用方法�
 feature: Workflows, Targeting Activity
 role: User
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
-source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
+source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 89%
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->に注意してください **[!UICONTROL ディメンションの変更]** および **[!UICONTROL データソースを変更]** アクティビティは 1 行に追加しないでください。 両方のアクティビティを連続して使用する必要がある場合は、必ず次を含めてください **[!UICONTROOL 充実]** それらの間のアクティビティ。 これにより、適切な実行が保証され、潜在的な競合やエラーが回避されます。
+>に注意してください **[!UICONTROL ディメンションの変更]** および **[!UICONTROL データソースを変更]** アクティビティは 1 行に追加しないでください。 両方のアクティビティを連続して使用する必要がある場合は、必ず次を含めてください **[!UICONTROL 充実]** それらの間のアクティビティ。 これにより、適切な実行が保証され、潜在的な競合やエラーが回避されます。
 
 「**[!UICONTROL ディメンションを変更]**」アクティビティを設定するには、次の手順に従います。
 
