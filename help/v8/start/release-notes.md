@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 1f113f63089395269c494a9328d633684977912a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 97%
+source-wordcount: '898'
+ht-degree: 90%
 
 ---
 
@@ -52,7 +52,7 @@ Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データ
 
 * いくつかのスキーマが 32 ビットから 64 ビットに変更されました。これは、Campaign Standard から移行するお客様にのみ該当します。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ja)。
 
-* Campaign テーブルでは、lastModified、created、および createdBy-id 属性に対する変更を処理できる新しいフラグが追加されました。フラグがオンの場合、ユーザーがこれらの属性に指定した値は無視されます。ユーザーコンテキストのサーバー時間と ID のみが使用されます。フラグがオフの場合、これらの属性に対してユーザー指定の値が使用されます。ignoreTimestampsID フラグは、「shared」ノードの下の serverConf.xml にあります。
+* Campaign テーブルで、lastModified、created、createdBy-id の各属性が、デフォルトでサーバーの日時に入力されるようになりました。 API 呼び出しでユーザーが指定した値は無視されます。 この設定は、Campaign サーバー設定ファイルで変更できます。 Managed Cloud Serviceをご利用のお客様は、このデフォルト設定を変更する場合はAdobeにお問い合わせください。
 
 ### 修正点 {#fixes-8-7-1}
 
