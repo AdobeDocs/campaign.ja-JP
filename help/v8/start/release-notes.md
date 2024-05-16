@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 1f113f63089395269c494a9328d633684977912a
+source-git-commit: bcb833fae75ee515ae210342756fab035a4e1c03
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 90%
+source-wordcount: '870'
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データ
 
 * いくつかのスキーマが 32 ビットから 64 ビットに変更されました。これは、Campaign Standard から移行するお客様にのみ該当します。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ja)。
 
-* Campaign テーブルで、lastModified、created、createdBy-id の各属性が、デフォルトでサーバーの日時に入力されるようになりました。 API 呼び出しでユーザーが指定した値は無視されます。 この設定は、Campaign サーバー設定ファイルで変更できます。 Managed Cloud Serviceをご利用のお客様は、このデフォルト設定を変更する場合はAdobeにお問い合わせください。
+* Campaign テーブルで、lastModified、created、createdBy-id の各属性が、デフォルトでサーバーの日時に入力されるようになりました。 API 呼び出しでユーザーが指定した値は無視されます。 <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 修正点 {#fixes-8-7-1}
 
