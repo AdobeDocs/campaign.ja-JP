@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 5312045424d74f8aa1eb44b2f40347553d471a12
+source-git-commit: 7ea0224f3483221596b9277133516e4624afdabf
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '605'
 ht-degree: 100%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 100%
    + [Campaign への接続](start/connect.md)
    + [コンポーネントとプロセス](start/ac-components.md)
    + [Classic v7 から v8 へ](start/v7-to-v8.md)
+   + [Campaign Standard から v8 へ](start/acs-to-v8.md)
    + [FAQ](start/campaign-faq.md)
 + キャンペーン管理 {#campaigns}
    + [キャンペーンの基本を学ぶ](start/campaigns.md)
