@@ -8,7 +8,7 @@ exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 source-git-commit: 07e85c2933194a24b4275519dd7da9c3226f6a3c
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ JavaScript の API を使用すると、Campaign クラウドデータベース�
 
 >[!CAUTION]
 >
->* Campaign Standardから移行する Campaign ユーザーは、Campaign v8 で REST API を使用できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}。
+>* Campaign Standard から移行する Campaign ユーザーは、Campaign v8 で REST API を使用できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}。
 >
 >* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが変更されました。テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
 >

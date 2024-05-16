@@ -8,7 +8,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: b4f54deaf35c852012a88d1445268bce9be4e8c1
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -26,37 +26,38 @@ _2024年5月2日（PT）_
 
 >[!AVAILABILITY]
 >
->このリリースの入手先 **限定提供（LA）** （LA） 移行するお客様に限定されます。 **Adobe Campaign StandardからAdobe Campaign v8 へ**、および他の環境にデプロイすることはできません。
+>このリリースは&#x200B;**限定提供**（LA）中です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
 >
->Campaign v8 に移行するCampaign Standardユーザーについては、を参照してください。 [Campaign v8 へのCampaign Standardの移行](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration) および [Campaign Standardユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>Campaign v8 に移行する Campaign Standard ユーザーについては、[Campaign Standard の Campaign v8 への移行](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/release-notes/acs-migration)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja)を参照してください。
 
 ### 新機能 {#new-8-7-1}
 
-* **リッチなプッシュ通知テンプレート** - Android を介してリッチなプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。 [詳細情報](../send/rich-push.md)
+* **リッチプッシュ通知テンプレート** - Android を介してリッチプッシュ通知を送信できるようになりました。リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。[詳細情報](../send/rich-push.md)
 
-* **ブランド化** -Campaign Standardに移行したユーザーは、技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成し、メッセージやランディングページにリンクさせることができます。 この設定は、テンプレートで管理されます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **ブランディング** - Campaign Standard に移行したユーザーとして、技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできます。こうした設定はテンプレートで管理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ja)
 
-* **Rest API** -Campaign Standardに移行したユーザーは、Rest API を使用してAdobe Campaignとの統合を作成し、Adobe Campaignに使用するテクノロジーのパネルをインターフェイスで接続することで独自のエコシステムを構築できます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **Rest API** - Campaign Standard に移行したユーザーは、Rest API を使用して Adobe Campaign との統合を作成し、Adobe Campaign と使用するテクノロジーのパネルを連携させて独自のエコシステムを構築できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja)
 
-* **動的レポート** -Campaign Standardが移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスを追加し、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別の人口統計学的分析を可能にします。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja)
 
 <!--
 * **New Enhanced security add-on**: To make your network connection more secure and provide improved security for your resources, Adobe Campaign offers a new Enhanced security add-on, which includes two features: Secure CMK integration and Secure VPN tunneling.
 -->
 
-### 互換性の更新 {#comp-8-7-1}
+### 互換性のアップデート {#comp-8-7-1}
 
-Databricks が、Adobe Campaign Federated Data Access （FDA）の外部データベースとしてサポートされるようになりました。 詳しくは、[このページ](compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
+Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データベースとしてサポートされるようになりました。詳しくは、[このページ](compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
 
 ### 一般的な改善点 {#improvements-8-7-1}
 
-* いくつかのスキーマが 32 ビットから 64 ビットに変更されました。 これは、Campaign Standardから移行するお客様にのみ当てはまります。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html)。
+* いくつかのスキーマが 32 ビットから 64 ビットに変更されました。これは、Campaign Standard から移行するお客様にのみ該当します。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ja)。
 
-* Campaign テーブルでは、lastModified、created、および createdBy-id 属性に対する変更を処理できる新しいフラグが追加されました。 フラグがオンの場合、ユーザーがこれらの属性に指定した値は無視されます。 ユーザーコンテキストのサーバー時間と ID のみが使用されます。 フラグがオフの場合、これらの属性に対してユーザー指定の値が使用されます。 ignoreTimestampsID フラグは、「shared」ノードの下の serverConf.xml にあります。
+* Campaign テーブルでは、lastModified、created、および createdBy-id 属性に対する変更を処理できる新しいフラグが追加されました。フラグがオンの場合、ユーザーがこれらの属性に指定した値は無視されます。ユーザーコンテキストのサーバー時間と ID のみが使用されます。フラグがオフの場合、これらの属性に対してユーザー指定の値が使用されます。ignoreTimestampsID フラグは、「shared」ノードの下の serverConf.xml にあります。
 
 ### 修正点 {#fixes-8-7-1}
 
-このリリースでは、次の問題が修正されました：NEO-72648、NEO-71534、NEO-71473、NEO-70263、NEO-70195、NEO-69651、NEO-68704、NEO-68192、NEO-67814 67702、NEO-67620、NEO-66022、NEO-65774、NEO-65633 64199、NEO-63706、NEO-63705、NEO-63287、NEO-63197、NEO-62575 60250 60192 58596 58314 58004 40054、NEO-NEO-NEO NEO-R、NEO-R
+このリリースでは、次の問題が修正されています：
+NEO-72648、NEO-71534、NEO-71473、NEO-70263、NEO-70195、NEO-69651、NEO-68704、NEO-68192、NEO-67814、NEO-67702、NEO-67620、NEO-66022、NEO-65774、NEO-65633、NEO-64199、NEO-63706、NEO-63705、NEO-63287、NEO-63197、NEO-62575、NEO-60250、NEO-60192、NEO-58596、NEO-58314、NEO-58004、NEO-40054
 
 ## リリース 8.6.2 {#release-8-6-2}
 

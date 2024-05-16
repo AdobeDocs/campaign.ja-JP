@@ -6,7 +6,7 @@ role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ## パフォーマンス監視
 
-コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。[ここ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)をクリックしてください。{target="_blank"}
+コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。[ここ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja){target="_blank"}をクリックしてください。
 
 
 ## インスタンス設定

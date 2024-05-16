@@ -6,11 +6,11 @@ exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74
 source-git-commit: 574206bd243a2492e512ee62f057da940d29da6e
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign v8 （コンソール）ドキュメント {#campaign-documentation}
+# Adobe Campaign v8（コンソール）ドキュメント {#campaign-documentation}
 
 ## 新機能
 
@@ -20,7 +20,7 @@ Adobe Campaign v8（クライアントコンソール）製品とドキュメン
 
 >[!TAB Campaign v8.7 リリースが公開されました]
 
-Adobe Campaign の最新バージョンが公開されました。リリース日： **限定提供（LA）** （LA） 詳しくは、リリースノートを参照してください。
+Adobe Campaign の最新バージョンが公開されました。**限定提供**（LA）でリリースされます。詳しくは、リリースノートを参照してください。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 

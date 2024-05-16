@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 source-git-commit: 99cb937a475997aae714a67b1f9f91c6bae932f4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
 
@@ -42,9 +42,9 @@ Adobe Campaign では、**受信者**&#x200B;とは、配信（メール、SMS �
 ## アクティブなプロファイル {#active-profiles}
 
 
-アクティブなプロファイルは、顧客が過去 12 か月間、任意のチャネル経由で通信を試みたプロファイルです。
+アクティブなプロファイルは、お客様が過去 12 か月の間に、任意のチャネル経由で通信を試みたプロファイルです。
 
-各キャンペーンインスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金のためその数がカウントされます。購入したアクティブなプロファイルの数について詳しくは、最新の契約を参照してください。詳しくは、[Adobe Campaign 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
+契約に従い、各キャンペーンインスタンスには、特定数のアクティブなプロファイルがプロビジョニングされ、請求目的でカウントされます。購入したアクティブなプロファイルの数については、最新の契約書を参照してください。詳しくは、[Adobe Campaign 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 
 インスタンスで使用されているアクティブなプロファイル数は、Campaign コントロールパネルから直接監視できます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}を参照してください。
 

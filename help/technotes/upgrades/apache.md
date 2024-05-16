@@ -4,7 +4,7 @@ title: テクニカルノート - Adobe Campaign - Apache バージョンのセ�
 description: Adobe Campaign - Apache バージョンのセキュリティアップデート
 exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 

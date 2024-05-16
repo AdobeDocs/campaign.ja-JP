@@ -6,7 +6,7 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Adobe Campaign には、該当するデータプライバシー保護法や受�
 
 * **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。したがって、受信者の同意を得て、管理する必要があります。
 
-  詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition)を参照してください{target="_blank"}
+  詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#data-acquisition){target="_blank"}を参照してください
 
 * **ユーザーの同意とデータ保持**：ユーザーの同意を得て、ダブルオプトインの購読メカニズムを設定し、オプトアウトを容易にして、データ保持を設定する必要があります。
 

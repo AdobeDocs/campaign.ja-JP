@@ -8,7 +8,7 @@ exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
 source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
 source-wordcount: '677'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -131,4 +131,4 @@ Adobe Campaign では、プロセスと環境を監視できる一連の機能�
 
 監査記録のセルフサービスインターフェイスを使用すると、インスタンス内で行われた変更を監視できます。監査記録を使用すると、Adobe Campaign のインスタンス内で発生するアクションとイベントの包括的なリストをリアルタイムで記録できます。データの履歴を確認することにより、ワークフローで発生した事象、ワークフローの最終更新者、インスタンス内でユーザーが行った操作などを知ることができます。
 
-監査記録の詳細については、こちらを参照してください [ページ](../reporting/audit-trail.md){target="_blank"}
+監査記録について詳しくは、この[ページ](../reporting/audit-trail.md){target="_blank"}を参照してください。

@@ -21,7 +21,7 @@ iOS および Android 用の Campaign SDK を使用すると、モバイルア�
 
 Android および iOS でサポートされているバージョン、Campaign v8 用の Campaign SDK 互換バージョンは、[互換性マトリックス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
 
-Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
 
 >[!NOTE]

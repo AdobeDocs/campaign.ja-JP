@@ -9,7 +9,7 @@ exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
 source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->これは、 **限定提供（LA）** （LA）
+>この機能は、**限定提供**（LA）です。
 
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 
