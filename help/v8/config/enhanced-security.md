@@ -7,10 +7,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 042a1cc96b819a1a77442e274defbadeb393eafc
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '743'
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 79%
 
 ## 安全な顧客管理キーの統合 {#secure-cmk-integration}
 
-**セキュア顧客管理キー（CMK）統合**&#x200B;を使用すると、Amazon Web Services（AWS）アカウントから独自のキーを使用してインスタンスとデータを暗号化できます。
+この **顧客管理キー（CMK）のセキュア統合** を使用すると、Amazon Web Services（AWS）アカウントを通じて独自のキーを使用して、保存中のデータを暗号化できます。
 
 顧客管理キーは、作成、所有および管理の対象となる AWS アカウントでのキー管理サービス（KMS）キーです。KMS キーを完全に管理でき、それらを使用してデータを暗号化および復号します。この機能では暗号化キーの生成と管理をユーザーに任せることで、キーの失効など、キーの管理を強化できます。
 
