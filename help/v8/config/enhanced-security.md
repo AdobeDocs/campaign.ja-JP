@@ -10,7 +10,7 @@ exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 76%
+ht-degree: 96%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 76%
 
 このアドオンには、次の 2 つのエコシステム機能が含まれています。
 
-* [顧客管理キー（CMK）のセキュア統合](#secure-cmk-integration)
+* [セキュア顧客管理キー（CMK）統合](#secure-cmk-integration)
 
 * [セキュア仮想プライベートネットワーク（VPN）トンネリング](#secure-vpn-tunneling)
 
 これらの詳細は次のとおりです。
 
-セキュリティの強化機能に関する一部のガードレールと制限については、このページを参照してください。 さらに、Secure CMK 統合/Secure VPN トンネリングのユースケースがすべて機能していることを確認する必要があります。
+このページでは、セキュリティ機能の強化に関するガードレールと制限の一部を示します。また、セキュア CMK 統合／セキュア VPN トンネリングのユースケースがすべて機能していることを確認する必要があります。
 
-これらの機能が実装されると、Adobeモニターは次の機能を実行します。
+これらの機能が実装されると、アドビでは以下を監視します。
 
 * インスタンスの可用性を確認し、キーが使用できない場合はアラートを送信します。
 
 * VPN トンネルを確認し、問題が発生した場合にアラートを送信します。
 
-## 安全な顧客管理キーの統合 {#secure-cmk-integration}
+## 安全なセキュア顧客管理キー統合 {#secure-cmk-integration}
 
 この **顧客管理キー（CMK）のセキュア統合** を使用すると、Amazon Web Services（AWS）アカウントを通じて独自のキーを使用して、保存中のデータを暗号化できます。
 
@@ -62,13 +62,13 @@ CMK と Campaign の統合を有効にするには、次の手順に従います
 
 Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が適用されます。
 
-* Adobeはを提供していません [Amazon Web Services（AWS）](https://aws.amazon.com/jp/){target="_blank"} アカウント。 独自の AWS アカウントを持ち、キーを生成してアドビと共有するように設定する必要があります。
+* アドビでは、[Amazon Web Services（AWS）](https://aws.amazon.com/jp/){target="_blank"}アカウントを提供しません。独自の AWS アカウントを持ち、キーを生成してアドビと共有するように設定する必要があります。
 
 * [AWS Key Management Service](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/overview.html){target="_blank"}（KMS）キーのみがサポートされています。KMS 以外でお客様が生成したキーは使用できません。
 
-* 初回のセットアップ時にはダウンタイムが発生することが予想されます。&#x200B;ダウンタイム時間は、データベースのサイズによって異なります。
+* 初回設定中にダウンタイムが発生することが予想されます。ダウンタイムの時間は、データベースのサイズによって異なります。
 
-* 顧客はキーを所有し管理します。 鍵に何か変更があったら、Adobeに連絡しなさい&#x200B;
+* 顧客がキーを所有および管理します。キーに変更が生じた場合にはアドビに連絡する必要があります。
 
 * [AWS CloudTrail](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} を使用してキーを監査し、必要に応じて失効させることができます。
 
@@ -80,7 +80,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
   >
   >キーを削除し、30 日以内にこのアクションを元に戻さない場合、すべてのデータは完全に削除され、失われます。
 
-## 安全な仮想プライベートネットワークトンネリング {#secure-vpn-tunneling}
+## セキュア仮想プライベートネットワークトンネリング {#secure-vpn-tunneling}
 
 **セキュア仮想プライベートネットワーク（VPN）トンネリング**&#x200B;は、プライベートネットワークを介して構内から [!DNL Adobe Campaign] インスタンスに転送されるデータに安全にアクセスできるサイト間 VPN です。
 
