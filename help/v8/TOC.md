@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 7ea0224f3483221596b9277133516e4624afdabf
+source-git-commit: 5ad40a349df472ace07f124776517c41f4bddc5e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
    + [ユーザーインターフェイスの確認](start/campaign-ui.md)
    + [Campaign への接続](start/connect.md)
    + [コンポーネントとプロセス](start/ac-components.md)
-   + [Classic v7 から v8 へ](start/v7-to-v8.md)
+   + [Campaign Classic v7 から v8 まで](start/v7-to-v8.md)
    + [Campaign Standard から v8 へ](start/acs-to-v8.md)
    + [FAQ](start/campaign-faq.md)
 + キャンペーン管理 {#campaigns}
@@ -201,5 +201,7 @@ ht-degree: 100%
       + [データベースの更新](dev/update-database-structure.md)
       + [入力フォーム](dev/forms.md)
    + [Campaign API](dev/api.md)
-+ [Campaign コントロールパネル >](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
-+ [Campaign 自動化ガイド >](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja)
++ [Campaign コントロールパネル >](https://experienceleague.adobe.com/en/docs/control-panel/using/control-panel-home)
++ [Campaign 自動化ガイド >](https://experienceleague.adobe.com/en/docs/campaign/automation/home)
++ [Campaign web ユーザーインターフェイスのドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
+
