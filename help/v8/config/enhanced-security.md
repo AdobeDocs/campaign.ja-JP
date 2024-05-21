@@ -4,13 +4,11 @@ description: Campaign セキュリティ強化アドオンの基本を学ぶ
 feature: Configuration
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 96%
+source-wordcount: '753'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +88,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 
 次の 3 つのユースケースがサポートされています。
 
-* VPN 経由の Federated Data Access（FDA）<!--to access your on-premise database from the Campaign instance over VPN-->
+* Vpn 経由で Campaign インスタンスからオンプレミスデータベースにアクセスするための Federated Data Access （FDA）
 
 * シッククライアントからの VPN 経由のインスタンスログイン
 
@@ -117,7 +115,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 
 Adobe Campaign v8 との VPN トンネリング統合には、次のガードレールと制限が適用されます。
 
-* 現在、次のようなオンプレミスデータベースのみがサポートされています。<!--Richa to check the list with PM-->
+* 次のようなオンプレミスデータベースのみがサポートされています<!--Richa to check the list with PM-->:
 
    * MySQL
    * Netezza
