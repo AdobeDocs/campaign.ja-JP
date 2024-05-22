@@ -5,7 +5,7 @@ feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
 source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 
