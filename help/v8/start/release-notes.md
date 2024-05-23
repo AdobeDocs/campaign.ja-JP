@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 247d687597c6784aec49b70f9e68f50e49d169dd
+source-git-commit: 74523cc93f694710e136b191fec3372872605ab6
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 93%
+source-wordcount: '996'
+ht-degree: 81%
 
 ---
 
@@ -46,13 +46,18 @@ _2024年5月2日（PT）_
 
 ### 互換性のアップデート {#comp-8-7-1}
 
-Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データベースとしてサポートされるようになりました。詳しくは、[このページ](compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
+* Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データベースとしてサポートされるようになりました。詳しくは、[このページ](compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
+
+* このバージョン以降、サービスアカウント（JWT）資格情報はAdobeーによって非推奨となり、Adobeソリューションやアプリとの Campaign アウトバウンド統合は、OAuth サーバー間資格情報に依存するようになりました。 Adobeは、Campaign と Analytics の統合やExperience Cloudトリガーの統合など、アウトバウンド統合の JWT から OAuth への移行を実行します。
+
+  Campaign とのインバウンド統合を実装している場合は、以下に説明するようにテクニカルアカウントを移行する必要があります。 [このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 既存のサービスアカウント（JWT）資格情報は、まで引き続き機能します **2025 年 1 月 27 日（Pt）**. さらに、Developer Console では、まで新しいサービスアカウント（JWT）資格情報の作成を引き続きサポートします **2024 年 6 月 3 日（Pt）**. この日付を過ぎると、新しいサービスアカウント （JWT）資格情報を作成したり、プロジェクトに追加したりできなくなります。
+
 
 ### 一般的な改善点 {#improvements-8-7-1}
 
 * いくつかのスキーマが 32 ビットから 64 ビットに変更されました。これは、Campaign Standard から移行するお客様にのみ該当します。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ja){target="_blank"}
 
-* Campaign テーブルで、次の属性がサーバーの日時によってデフォルトで入力されるようになりました。 `lastModified` および `created`. API 呼び出しでユーザーが指定した値は無視されます。 <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* Campaign テーブルで、次の属性がサーバーの日時によってデフォルトで入力されるようになりました。 `lastModified` および `created`. この `createdBy-id` デフォルトで属性値に現在のログイン ID が入力されるようになりました。 API 呼び出しでユーザーが指定した値は無視されます。 <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 修正点 {#fixes-8-7-1}
 
