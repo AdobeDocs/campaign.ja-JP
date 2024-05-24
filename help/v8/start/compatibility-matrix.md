@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 
 
 >[!AVAILABILITY]
->さらに、を含む [セキュリティ強化アドオン](../config/enhanced-security.md)を参照してください。安全な VPN トンネルを通じて、オンプレミスデータベースにアクセスできます。 [詳細情報](../config/enhanced-security.md#vpn-callouts)
+>さらに、[セキュリティ強化アドオン](../config/enhanced-security.md)を使用すると、セキュア VPN トンネリングを通じてオンプレミスのデータベースにアクセスできます。[詳細情報](../config/enhanced-security.md#vpn-callouts)
 
 ## Mobile SDK {#MobileSDK}
 

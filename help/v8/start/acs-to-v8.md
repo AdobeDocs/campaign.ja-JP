@@ -1,21 +1,21 @@
 ---
-title: Campaign Standardからキャンペーン v8 への移行
-description: Campaign Standardからキャンペーン v8 への移行
+title: Campaign Standard から Campaign v8 への移行
+description: Campaign Standard から Campaign v8 への移行
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 2f4d422bbf41ad4def5e0cdedac938b208b0873e
-workflow-type: tm+mt
+exl-id: 98613a0a-7a6d-41a5-9541-e045d4ca318f
+source-git-commit: cb77f17bbc7b3ce09f7f2961d2eae5855ecca6e6
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-# 遷移元 [!DNL Campaign Standard] 対象： [!DNL Campaign] v8 {#acs-to-acv8}
+# [!DNL Campaign Standard] から [!DNL Campaign] v8 への移行 {#acs-to-acv8}
 
-Campaign v8 に移行するCampaign Standardユーザーは、新しいバージョンのAdobe Campaign web ユーザーインターフェイスと強力な v8 コンソールを利用できるようになりました。 このトランジションはシームレスで、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化するように設計された直感的な機能をすべて使用できます。 Campaign web ユーザーインターフェイスは、Adobe Experience Platformとキャンバスを接続し、統一されたエクスペリエンスを実現します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}。
+Campaign v8 に移行する Campaign Standard ユーザーは、新しいバージョンの Adobe Campaign web ユーザーインターフェイスと強力な v8 コンソールを利用できるようになりました。この移行はシームレスで、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化するように設計された、直感的な機能をすべて使用できます。Campaign web ユーザーインターフェイスを使用すると、Adobe Experience Platform と接続されたキャンバスが提供され、統合されたエクスペリエンスを実現できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}
 
-Campaign v8 ユーザーは、新しい Campaign web ユーザーインターフェイスと v8 クライアントコンソールの両方にアクセスできるようになりました。 データと設定は、環境間で同期されます。クライアントコンソールで利用可能なすべてのデータと設定が、エクスプローラーの左側のナビゲーションから、Campaign web ユーザーインターフェイスに表示されます。
+Campaign v8 ユーザーは、新しい Campaign web ユーザーインターフェイスと v8 クライアントコンソールの両方にアクセスできるようになりました。データと設定は、環境間で同期されます。クライアントコンソールで使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web ユーザーインターフェイスに表示されます。
 
-の新しい Campaign web ユーザーインターフェイスの詳細について説明します [このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}.
-
+新しい Campaign web ユーザーインターフェイスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。

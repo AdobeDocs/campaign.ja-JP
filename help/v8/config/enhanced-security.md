@@ -6,9 +6,9 @@ role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 
 ## 安全なセキュア顧客管理キー統合 {#secure-cmk-integration}
 
-この **顧客管理キー（CMK）のセキュア統合** を使用すると、Amazon Web Services（AWS）アカウントを通じて独自のキーを使用して、保存中のデータを暗号化できます。
+**セキュア顧客管理キー（CMK）統合**&#x200B;を使用すると、Amazon Web Services（AWS）アカウントから独自のキーを使用して保存データを暗号化できます。
 
 顧客管理キーは、作成、所有および管理の対象となる AWS アカウントでのキー管理サービス（KMS）キーです。KMS キーを完全に管理でき、それらを使用してデータを暗号化および復号します。この機能では暗号化キーの生成と管理をユーザーに任せることで、キーの失効など、キーの管理を強化できます。
 
@@ -88,7 +88,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 
 次の 3 つのユースケースがサポートされています。
 
-* Vpn 経由で Campaign インスタンスからオンプレミスデータベースにアクセスするための Federated Data Access （FDA）
+* VPN 経由で Campaign インスタンスからオンプレミスデータベースにアクセスするための Federated Data Access（FDA）
 
 * シッククライアントからの VPN 経由のインスタンスログイン
 
@@ -115,7 +115,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 
 Adobe Campaign v8 との VPN トンネリング統合には、次のガードレールと制限が適用されます。
 
-* 次のようなオンプレミスデータベースのみがサポートされています<!--Richa to check the list with PM-->:
+* <!--Richa to check the list with PM--> のようなオンプレミスデータベースのみがサポートされています。
 
    * MySQL
    * Netezza
