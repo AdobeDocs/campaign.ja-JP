@@ -8,7 +8,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: b280be52621890c9bd840182d3ad0389912568d4
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -28,11 +28,11 @@ _2024年5月2日（PT）_
 >
 >このリリースは&#x200B;**限定提供**（LA）中です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
 >
->Campaign v8 に移行するCampaign Standardユーザーとして、この移行について詳しくは、を参照してください。 [Campaign v8 web ユーザーインターフェイスのドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
+>Campaign v8 に移行する Campaign Standard ユーザーについては、[Campaign v8 web ユーザーインターフェイスのドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}でこの移行の詳細を確認してください。
 
 ### 新機能 {#new-8-7-1}
 
-* **リッチプッシュ通知テンプレート** - Android を介してリッチプッシュ通知を送信できるようになりました。リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。[詳細情報](../send/rich-push.md)。
+* **リッチプッシュ通知テンプレート** - Android を介してリッチプッシュ通知を送信できるようになりました。リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。[詳細情報](../send/rich-push.md)
 
 * **ブランディング** - Campaign Standard に移行したユーザーとして、技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできます。こうした設定はテンプレートで管理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ja){target="_blank"}
 
@@ -56,7 +56,7 @@ _2024年5月2日（PT）_
 
 * いくつかのスキーマが 32 ビットから 64 ビットに変更されました。これは、Campaign Standard から移行するお客様にのみ該当します。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ja){target="_blank"}
 
-* Campaign テーブルで、次の属性がサーバーの日時によってデフォルトで入力されるようになりました。 `lastModified` および `created`. この `createdBy-id` デフォルトで属性値に現在のログイン ID が入力されるようになりました。 API 呼び出しでユーザーが指定した値は無視されます。 <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* Campaign テーブルでは、`lastModified` および `created` の属性がサーバーの日時によってデフォルトで入力されるようになりました。この `createdBy-id` デフォルトで属性値に現在のログイン ID が入力されるようになりました。 API 呼び出しでユーザーが指定した値は無視されます。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 修正点 {#fixes-8-7-1}
 
