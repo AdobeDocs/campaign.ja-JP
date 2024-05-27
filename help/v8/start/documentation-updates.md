@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: 5f62addc95197ce5f4f80c026cc51ac14e61ff58
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 91%
+source-wordcount: '185'
+ht-degree: 85%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 91%
 ## 2024年5月 {#may-2024}
 
 * チャネルと配信のタイプのリストが [このページ](create-message.md).
+* 配信設定とウェーブ管理の節を再編成し、改善しました。 [詳細情報](../send/configure-and-send.md)
 * 「**[!UICONTROL ディメンションを変更]**」アクティビティと「**[!UICONTROL データソースを変更]**」アクティビティを 1 つの行に追加せず、これらの間に「**[!UICONTROL エンリッチメント]**」アクティビティを含める必要があることを明記したメモを追加しました。詳しくは、[ディメンションを変更](../../automation/workflow/change-dimension.md)と[データソースを変更](../../automation/workflow/change-data-source.md)の節を参照してください。
 
 ## 2024年2月 {#feb-2024}
