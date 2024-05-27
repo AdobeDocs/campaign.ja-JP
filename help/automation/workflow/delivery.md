@@ -5,7 +5,7 @@ description: 配信タイプワークフローアクティビティについて�
 feature: Workflows, Channels Activity
 role: User
 exl-id: 58574983-86c7-46f5-b41b-bae90171048d
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # 配信{#delivery}
-
-
 
 「**配信**」タイプのアクティビティで配信アクションを作成できます。入力要素を使用して構築できます。
 

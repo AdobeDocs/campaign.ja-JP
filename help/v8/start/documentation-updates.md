@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 91d19874dfb313a1a470ac4f39cf5af7ca7dfa19
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 91%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 100%
 
 このページでは、[!DNL Campaign] v8（コンソール）ドキュメントの最新の更新をすべて掲載しています。
 
+
 ## 2024年5月 {#may-2024}
 
-「**[!UICONTROL ディメンションを変更]**」アクティビティと「**[!UICONTROL データソースを変更]**」アクティビティを 1 つの行に追加せず、これらの間に「**[!UICONTROL エンリッチメント]**」アクティビティを含める必要があることを明記したメモを追加しました。詳しくは、[ディメンションを変更](../../automation/workflow/change-dimension.md)と[データソースを変更](../../automation/workflow/change-data-source.md)の節を参照してください。
+* チャネルと配信のタイプのリストが [このページ](create-message.md).
+* 「**[!UICONTROL ディメンションを変更]**」アクティビティと「**[!UICONTROL データソースを変更]**」アクティビティを 1 つの行に追加せず、これらの間に「**[!UICONTROL エンリッチメント]**」アクティビティを含める必要があることを明記したメモを追加しました。詳しくは、[ディメンションを変更](../../automation/workflow/change-dimension.md)と[データソースを変更](../../automation/workflow/change-data-source.md)の節を参照してください。
 
 ## 2024年2月 {#feb-2024}
 

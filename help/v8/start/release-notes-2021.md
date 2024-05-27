@@ -4,8 +4,10 @@ description: Campaign v8 2021 リリースで記載される機能と改善点�
 feature: Release Notes
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 100%
