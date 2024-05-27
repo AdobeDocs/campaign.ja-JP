@@ -5,14 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 78%
+source-wordcount: '1263'
+ht-degree: 69%
 
 ---
 
 # 配信の設定と送信 {#configure-delivery}
+
+配信パラメーターにアクセスしてさらに設定を行い、メッセージの送信方法を定義します。 配信を定義できます [の優先度](#delivery-priority)、設定 [ウェーブ](#sending-using-multiple-waves)を作成し、配信送信をテストします。 この設定が完了したら、の説明に従って送信を確認できます。 [この節](#confirm-delivery). その後、メッセージは直ちに送信されるか、配信に基づいて送信されます [スケジュール](#schedule-delivery-sending).
 
 ## 追加パラメーターの設定 {#delivery-additional-parameters}
 
@@ -20,25 +22,27 @@ ht-degree: 78%
 
 ![](assets/delivery-properties-delivery.png)
 
-* **[!UICONTROL 配信の優先順位]**：配信の優先順位レベルを&#x200B;**[!UICONTROL 非常に低い]**&#x200B;から&#x200B;**[!UICONTROL 非常に高い]**&#x200B;に設定して、配信の送信順序を変更します（デフォルト値は&#x200B;**[!UICONTROL 標準]**）。
+### 配信の優先順位 {#delivery-priority}
 
-* **[!UICONTROL メッセージのバッチサイズ]**：1 つの XML 配信パッケージ内でグループ化するメッセージの件数を定義します。このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
+の使用 **[!UICONTROL 配信の優先順位]** 配信の優先順位レベルを次の場所から設定して、配信の送信順序を変更するオプション : **[!UICONTROL 極低]** 対象： **[!UICONTROL 非常に高い]** （デフォルト値は **[!UICONTROL 標準]**）に設定します。
 
-  >[!IMPORTANT]
-  >
-  >既存の配信を複製して配信を作成すると、このパラメーターはリセットされます。
+### バッチ数量
 
-* **[!UICONTROL 複数のウェーブを使用して送信]**：メッセージを一度にオーディエンス全体に送信するのではなく、バッチで送信します。[詳細情報](#sending-using-multiple-waves)。
+の使用  **[!UICONTROL メッセージのバッチ数量]** 同じ XML 配信パッケージ内でグループ化するメッセージの数を定義するオプション。 このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
 
-* **[!UICONTROL SMTP 配信をテスト]**：SMTP 経由での送信をテストします。配信は SMTP サーバーに接続するまで処理されますが、送信はされません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
+>[!IMPORTANT]
+>
+>既存の配信を複製して配信を作成すると、このパラメーターはリセットされます。
 
-  >[!NOTE]
-  >
-  >* このオプションは、ミッドソーシングで設定しないでください。
-  >
-  >* SMTP サーバー設定について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
+### 配信送信のテスト
 
-* **[!UICONTROL BCC でメールを送信]**：BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。[詳細情報](email-parameters.md)。
+の使用  **[!UICONTROL SMTP 配信をテスト]** smtp 経由での送信をテストするオプションです。 配信は SMTP サーバーに接続するまで処理されますが、送信はされません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
+
+>[!NOTE]
+>
+>* このオプションは、ミッドソーシングで設定しないでください。
+>
+>* SMTP サーバー設定について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
 
 ## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 
