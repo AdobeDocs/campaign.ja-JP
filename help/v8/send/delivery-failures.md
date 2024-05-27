@@ -5,7 +5,7 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
 source-wordcount: '3042'
 ht-degree: 100%
@@ -103,7 +103,7 @@ Bounce mails can have the following qualification status:
 >
 >配信プロパティの再試行設定は、Campaign では使用されません。
 
-## 有効期間
+## 有効期間 {#valid-period}
 
 Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限されています。配信に対して Campaign で 3.5 日を超える値を定義すると、その値は考慮されません。
 

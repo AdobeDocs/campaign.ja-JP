@@ -5,10 +5,10 @@ description: 重複排除ワークフローアクティビティの詳細を説�
 feature: Workflows, Targeting Activity
 role: User
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-重複排除は、インバウンドアクティビティの結果から重複を削除します。重複排除は、メールアドレス、電話番号やその他のフィールドに対して実行されます。
+重複排除は、インバウンドアクティビティの結果から重複を削除します。重複排除は、メールアドレス、電話番号、またはその他のフィールドで実行できます。
 
 **[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティは、データセットから重複行を削除するために使用します。 例えば、以下のレコードは、同じメールアドレスと同じ携帯電話、または自宅の電話を持つ重複と見なすことができます。
 

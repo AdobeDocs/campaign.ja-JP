@@ -5,10 +5,10 @@ description: プロバイダー、在庫、予算
 feature: Budget Management, Campaigns
 role: User
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 100%
+source-wordcount: '1918'
+ht-degree: 99%
 
 ---
 
@@ -148,7 +148,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
   ![](assets/supplier-mail-delivery-select.png)
 
-* モバイルチャネルでの配信または電話では、同じ選択モードが適用されます。
+* モバイルチャネルでの配信の場合、同じ選択モードが適用されます。
 * メール配信では、次の例のように、配信プロパティの「**[!UICONTROL 詳細設定]**」タブからサービスを選択します。
 
   ![](assets/supplier-email-delivery-select.png)
