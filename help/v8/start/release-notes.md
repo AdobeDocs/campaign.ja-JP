@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 306d827883a0c3a15fd52b8c9fb566d028f22360
+source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 73%
+source-wordcount: '1178'
+ht-degree: 74%
 
 ---
 
@@ -24,7 +24,7 @@ Managed Cloud Services ユーザーの場合は、新しいバージョンが出
 
 _2024年5月28日（PT）_
 
-### サービスアカウント（JWT）資格情報から OAuth サーバー間資格情報への移行  {#change-8-5-3}
+### OAuth サーバー間資格情報への移行 {#change-8-5-3}
 
 * このバージョン以降、サービスアカウント（JWT）資格情報はAdobeーによって非推奨となり、Adobeソリューションやアプリとの Campaign アウトバウンド統合は、OAuth サーバー間資格情報に依存するようになりました。 Adobeは、Campaign と Analytics の統合やExperience Cloudトリガーの統合など、アウトバウンド統合の JWT から OAuth への移行を実行します。
 
