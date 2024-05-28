@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 5ad40a349df472ace07f124776517c41f4bddc5e
-workflow-type: ht
-source-wordcount: '612'
+source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -21,9 +21,10 @@ ht-degree: 100%
    + [バージョンとアップグレード](start/upgrades.md)
    + [最新リリース](start/release-notes.md)
    + 以前のリリースノート {#previous-rn}
-      + [2023 リリース](start/release-notes-2023.md)
-      + [2022 リリース](start/release-notes-2022.md)
-      + [2021 リリース](start/release-notes-2021.md)
+      + [2024](start/release-notes-2024.md)
+      + [2023](start/release-notes-2023.md)
+      + [2022](start/release-notes-2022.md)
+      + [2021](start/release-notes-2021.md)
    + [ガードレール](start/ac-guardrails.md)
    + [既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
