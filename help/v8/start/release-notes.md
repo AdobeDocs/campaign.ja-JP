@@ -3,18 +3,18 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 69%
+source-wordcount: '783'
+ht-degree: 66%
 
 ---
 
 # 最新リリース {#latest-release}
 
-Adobe Campaign は定期的にアップデートされています。この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。アドビでは、すべてのお客様に最新バージョンにアップグレードすることを強くお勧めします。
+Adobe Campaign は定期的にアップデートされています。この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。アドビでは、すべてのお客様に最新バージョンにアップグレードすることを強くお勧めします。このページには、Campaign v8 （コンソール）最新リリースの新機能、改善点およびバグ修正が記載されています。 Campaign のバージョンと更新の詳細については、を参照してください。 [このページ](upgrades.md).
 
-Managed Cloud Services ユーザーの場合は、新しいバージョンが出るたびにアドビがインスタンスをアップグレードします。アドビがお客様にご連絡し、環境をアップグレードします。Campaign クライアントコンソールは、Campaign サーバーと&#x200B;**同じバージョンにアップグレードする必要があります**。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
+Managed Cloud Services ユーザーの場合は、新しいバージョンが出るたびにアドビがインスタンスをアップグレードします。アドビがお客様にご連絡し、環境をアップグレードします。Campaign クライアントコンソールは、Campaign サーバーと&#x200B;**同じバージョンにアップグレードする必要があります**。でクライアントコンソールをアップグレードする方法を説明します [このページ](../start/connect.md#upgrade-ac-console).
 
 また、[互換性マトリックス](compatibility-matrix.md)にリストされているシステムのサポートされている最新バージョンを使用していることも確認してください。
 
