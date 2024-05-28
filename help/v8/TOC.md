@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
+source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '613'
 ht-degree: 99%
 
 ---
@@ -201,6 +201,7 @@ ht-degree: 99%
       + [カスタム受信者テーブルの使用](dev/custom-recipient.md)
       + [データベースの更新](dev/update-database-structure.md)
       + [入力フォーム](dev/forms.md)
+   + [データパッケージの使用](dev/packages.md)
    + [Campaign API](dev/api.md)
 + [Campaign コントロールパネル >](https://experienceleague.adobe.com/ja/docs/control-panel/using/control-panel-home)
 + [Campaign 自動化ガイド >](https://experienceleague.adobe.com/ja/docs/campaign/automation/home)
