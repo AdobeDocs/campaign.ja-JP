@@ -4,9 +4,9 @@ description: データパッケージの使用
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 8b537c723335ea98eb39bfbc3a4f1df09861aaea
+source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2020'
 ht-degree: 50%
 
 ---
@@ -99,7 +99,7 @@ XML ドキュメントの先頭と末尾には必ず `<package>` 要素を記述
 
    >[!NOTE]
    >
-   >Query Editor については、[この節](../../platform/using/about-queries-in-campaign.md)を参照してください。
+   >Query Editor については、[この節](../../automation/workflow/query.md)を参照してください。
 
 1. クリック **[!UICONTROL 次]** 書き出されたデータの並べ替え順を選択します。
 
@@ -191,13 +191,6 @@ template="xtk:folder" pkgAdmin="@id != 0">
 ## パッケージ定義の管理 {#manage-package-definitions}
 
 パッケージ定義では、パッケージ構造を作成し、エンティティを追加してから、単一のパッケージにエクスポートできます。その後、このパッケージと追加されたすべてのエンティティを他の Campaign インスタンスにインポートできます。
-
-**関連トピック：**
-
-* [パッケージ定義の作成](#create-a-package-definition)
-* [パッケージ定義へのエンティティの追加](#add-entities-to-a-package-definition)
-* [パッケージ定義の生成に関する設定](#configure-package-definitions-generation)
-* [パッケージ定義からのパッケージのエクスポート](#export-packages-from-a-package-definition)
 
 ### パッケージ定義の作成 {#create-a-package-definition}
 
