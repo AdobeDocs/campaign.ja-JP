@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
+source-git-commit: ad198540dc65152680e1d14c45286b94397948fd
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 100%
@@ -15,6 +15,7 @@ ht-degree: 100%
 # 2023 リリースノート {#2023-rn}
 
 このページには、**Campaign v8 2023 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
+
 
 ## リリース 8.5.2 {#release-8-5-2}
 
