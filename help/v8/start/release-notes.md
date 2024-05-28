@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
+source-git-commit: 8621ad138d90fed92788d1b9753adeb2fe772a71
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 74%
+source-wordcount: '1097'
+ht-degree: 79%
 
 ---
 
@@ -26,10 +26,7 @@ _2024年5月28日（PT）_
 
 ### OAuth サーバー間資格情報への移行 {#change-8-5-3}
 
-* このバージョン以降、サービスアカウント（JWT）資格情報はAdobeーによって非推奨となり、Adobeソリューションやアプリとの Campaign アウトバウンド統合は、OAuth サーバー間資格情報に依存するようになりました。 Adobeは、Campaign と Analytics の統合やExperience Cloudトリガーの統合など、アウトバウンド統合の JWT から OAuth への移行を実行します。
-
-  Campaign とのインバウンド統合を実装している場合は、以下に説明するようにテクニカルアカウントを移行する必要があります。 [このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 既存のサービスアカウント（JWT）資格情報は、まで引き続き機能します **2025 年 1 月 27 日（Pt）**. さらに、Developer Console では、まで新しいサービスアカウント（JWT）資格情報の作成を引き続きサポートします **2024 年 6 月 3 日（Pt）**. この日付を過ぎると、新しいサービスアカウント （JWT）資格情報を作成したり、プロジェクトに追加したりできなくなります。
-
+このバージョン以降、サービスアカウント（JWT）資格情報はAdobeーによって非推奨となり、Adobeソリューションやアプリとの Campaign アウトバウンド統合は、OAuth サーバー間資格情報に依存するようになりました。 [詳細情報](#change-8-7-1)
 
 ### 修正点 {#fixes-8-5-3}
 
@@ -62,9 +59,11 @@ _2024年5月2日（PT）_
 
 * Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データベースとしてサポートされるようになりました。詳しくは、[このページ](compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
 
-* このバージョン以降、サービスアカウント（JWT）資格情報はAdobeーによって非推奨となり、Adobeソリューションやアプリとの Campaign アウトバウンド統合は、OAuth サーバー間資格情報に依存するようになりました。 Adobeは、Campaign と Analytics の統合やExperience Cloudトリガーの統合など、アウトバウンド統合の JWT から OAuth への移行を実行します。
+### OAuth サーバー間資格情報への移行 {#change-8-7-1}
 
-  Campaign とのインバウンド統合を実装している場合は、以下に説明するようにテクニカルアカウントを移行する必要があります。 [このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 既存のサービスアカウント（JWT）資格情報は、まで引き続き機能します **2025 年 1 月 27 日（Pt）**. さらに、Developer Console では、まで新しいサービスアカウント（JWT）資格情報の作成を引き続きサポートします **2024 年 6 月 3 日（Pt）**. この日付を過ぎると、新しいサービスアカウント （JWT）資格情報を作成したり、プロジェクトに追加したりできなくなります。
+このバージョン以降、サービスアカウント（JWT）資格情報はAdobeーによって非推奨となり、Adobeソリューションやアプリとの Campaign アウトバウンド統合は、OAuth サーバー間資格情報に依存するようになりました。 Adobeは、Campaign と Analytics の統合やExperience Cloudトリガーの統合など、アウトバウンド統合の JWT から OAuth への移行を実行します。
+
+Campaign とのインバウンド統合を実装している場合は、以下に説明するようにテクニカルアカウントを移行する必要があります。 [このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 既存のサービスアカウント（JWT）資格情報は、まで引き続き機能します **2025 年 1 月 27 日（Pt）**. さらに、Developer Console では、まで新しいサービスアカウント（JWT）資格情報の作成を引き続きサポートします **2024 年 6 月 3 日（Pt）**. この日付を過ぎると、新しいサービスアカウント （JWT）資格情報を作成したり、プロジェクトに追加したりできなくなります。
 
 
 ### 一般的な改善点 {#improvements-8-7-1}
