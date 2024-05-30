@@ -5,16 +5,16 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # 鍵の管理と単一性 {#key-management}
 
-[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、プライマリキーは文字列であるユニバーサル固有識別子（UUID）です。UUID を作成するには、スキーマのメイン要素に **autouuid** 属性と **autopk** 属性を含め、**true** に設定する必要があります。
+のコンテキストでは、 [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)の場合、プライマリキーは文字列であるユニバーサル固有識別子（UUID）です。 UUID を作成するには、スキーマのメイン要素に **autouuid** 属性と **autopk** 属性を含め、**true** に設定する必要があります。
 
 Adobe Campaign v8 は [!DNL Snowflake] をコアデータベースとして使用します。[!DNL Snowflake] データベースの分散アーキテクチャには、テーブル内のキーの単一性を管理するメカニズムはありません。Adobe Campaign データベース内のキーの一貫性は、エンドユーザーが確保する必要があります。
 
