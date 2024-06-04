@@ -4,9 +4,9 @@ description: ワークフローデータの使用方法を説明します
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 95%
 
 * **[!UICONTROL ターゲットを分析...]**
 
-  このメニューを使用して、トランジションのデータに関する統計とレポートを生成できる記述的分析ウィザードにアクセスします。
+  このメニューを使用すると、トランジションのデータに関する統計とレポートを生成できる、記述的分析ウィザードを表示できます。
 
-  で記述的分析ウィザードを使用する方法について説明します [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}.
+  記述的分析ウィザードの使用方法について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}を参照してください。
 
 ワークフローが実行されると、ターゲットデータはパージされます。最後のワークテーブルだけにアクセスできます。
 ワークフローを設定し、すべての作業用テーブルをアクセス可能なまま維持することもできます。それには、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保存]**」オプションを選択します。

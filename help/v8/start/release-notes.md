@@ -4,17 +4,17 @@ description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # 最新リリース {#latest-release}
 
-Adobe Campaign は定期的にアップデートされています。この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。アドビでは、すべてのお客様に最新バージョンにアップグレードすることを強くお勧めします。このページには、Campaign v8 （コンソール）最新リリースの新機能、改善点およびバグ修正が記載されています。 Campaign のバージョンと更新の詳細については、を参照してください。 [このページ](upgrades.md).
+Adobe Campaign は定期的にアップデートされています。この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。アドビでは、すべてのお客様に最新バージョンにアップグレードすることを強くお勧めします。このページには、Campaign v8（コンソール）最新リリースの新機能、改善点およびバグ修正が記載されています。Campaign のバージョンと推奨事項について詳しくは、[このページ](upgrades.md)を参照してください。
 
-Managed Cloud Services ユーザーの場合は、新しいバージョンが出るたびにアドビがインスタンスをアップグレードします。アドビがお客様にご連絡し、環境をアップグレードします。Campaign クライアントコンソールは、Campaign サーバーと&#x200B;**同じバージョンにアップグレードする必要があります**。でクライアントコンソールをアップグレードする方法を説明します [このページ](../start/connect.md#upgrade-ac-console).
+Managed Cloud Services ユーザーの場合は、新しいバージョンが出るたびにアドビがインスタンスをアップグレードします。アドビがお客様にご連絡し、環境をアップグレードします。Campaign クライアントコンソールは、Campaign サーバーと&#x200B;**同じバージョンにアップグレードする必要があります**。クライアントコンソールのアップグレード方法について詳しくは、[このページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
 また、[互換性マトリックス](compatibility-matrix.md)にリストされているシステムのサポートされている最新バージョンを使用していることも確認してください。
 
@@ -22,13 +22,13 @@ Managed Cloud Services ユーザーの場合は、新しいバージョンが出
 
 _2024年5月28日（PT）_
 
-### OAuth サーバー間資格情報への移行 {#change-8-5-3}
+### OAuth サーバー間の資格情報への移行 {#change-8-5-3}
 
-このバージョン以降、サービスアカウント（JWT）資格情報はAdobeーによって非推奨となり、Adobeソリューションやアプリとの Campaign アウトバウンド統合は、OAuth サーバー間資格情報に依存するようになりました。 [詳細情報](#change-8-7-1)
+このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。[詳細情報](#change-8-7-1)
 
 ### 修正点 {#fixes-8-5-3}
 
-このリリースでは、以下の問題が修正されました。
+このリリースでは、次の問題が修正されています。
 
 NEO-70263、NEO-64984、NEO-63657、NEO-63387、NEO-62964、NEO-62750、NEO-62686、NEO-59544、NEO-52542
 
@@ -52,25 +52,25 @@ _2024年5月2日（PT）_
 
 * **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}
 
-* **新しいセキュリティ強化アドオン**：ネットワーク接続のセキュリティを強化し、リソースのセキュリティを向上させるために、Adobe Campaignでは、新しい強化されたセキュリティアドオンを提供しています。このアドオンには、セキュア CMK 統合とセキュア VPN トンネリングの 2 つの機能が含まれています。 [詳細情報](../config/enhanced-security.md)
+* **新しいセキュリティ強化アドオン**：ネットワーク接続をより安全にし、リソースのセキュリティを強化するために、Adobe Campaign では、セキュア CMK 統合とセキュア VPN トンネリングという 2 つの機能を含む新しいセキュリティ強化アドオンを提供しています。[詳細情報](../config/enhanced-security.md)
 
 
 ### 互換性のアップデート {#comp-8-7-1}
 
 * Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データベースとしてサポートされるようになりました。詳しくは、[このページ](compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
 
-### OAuth サーバー間資格情報への移行 {#change-8-7-1}
+### OAuth サーバー間の資格情報への移行 {#change-8-7-1}
 
-このバージョン以降、サービスアカウント（JWT）資格情報はAdobeーによって非推奨となり、Adobeソリューションやアプリとの Campaign アウトバウンド統合は、OAuth サーバー間資格情報に依存するようになりました。 Adobeは、Campaign と Analytics の統合やExperience Cloudトリガーの統合など、アウトバウンド統合の JWT から OAuth への移行を実行します。
+このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。アドビでは、Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合に対して、JWT から OAuth への移行を実行します。
 
-Campaign とのインバウンド統合を実装している場合は、以下に説明するようにテクニカルアカウントを移行する必要があります。 [このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. 既存のサービスアカウント（JWT）資格情報は、まで引き続き機能します **2025 年 1 月 27 日（Pt）**. さらに、Developer Console では、まで新しいサービスアカウント（JWT）資格情報の作成を引き続きサポートします **2024 年 6 月 3 日（Pt）**. この日付を過ぎると、新しいサービスアカウント （JWT）資格情報を作成したり、プロジェクトに追加したりできなくなります。
+Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;まで引き続き機能します。また、Developer Console は、**2024年6月3日（PT）**&#x200B;まで、新しいサービスアカウント（JWT）資格情報の作成を引き続きサポートします。この日付以降、新しいサービスアカウント（JWT）資格情報を作成したり、プロジェクトに追加したりすることはできません。
 
 
 ### 一般的な改善点 {#improvements-8-7-1}
 
 * いくつかのスキーマが 32 ビットから 64 ビットに変更されました。これは、Campaign Standard から移行するお客様にのみ該当します。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ja){target="_blank"}
 
-* Campaign テーブルでは、`lastModified` および `created` の属性がサーバーの日時によってデフォルトで入力されるようになりました。この `createdBy-id` デフォルトで属性値に現在のログイン ID が入力されるようになりました。 API 呼び出しでユーザーが指定した値は無視されます。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* Campaign テーブルでは、`lastModified` および `created` の属性がサーバーの日時によってデフォルトで入力されるようになりました。`createdBy-id` 属性値には、デフォルトで現在のログイン ID が入力されるようになりました。API 呼び出しでユーザーが指定した値は無視されます。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### 修正点 {#fixes-8-7-1}
 
