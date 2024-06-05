@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 99e3643dc8628c5bbf938aac0e32036f4043432b
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 100%
+source-wordcount: '1232'
+ht-degree: 97%
 
 ---
 
@@ -796,7 +796,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
 
 ## 変数 {#variables}
 
-変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign クライアントコンソールの専用モバイルアプリケーションサービスの「**[!UICONTROL 変数]**」タブで定義する必要があります。
+変数によって、通知を受信した後のモバイルアプリケーションの動作を定義できます。これらの変数は、モバイルアプリケーションのコードと、Adobe Campaign クライアントコンソールので定義する必要があります。 **[!UICONTROL 変数]** 専用モバイルアプリケーションで「」タブをクリックします。
 
 
 次に、通知で追加された変数をモバイルアプリケーションで収集できるようにするコードの例を示します。この例では、「VAR」変数を使用しています。
