@@ -3,10 +3,10 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+source-git-commit: e119c415ce363a635f9f0318e3fd70f90f4bde06
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,14 @@ _2024年5月28日（PT）_
 
 NEO-70263、NEO-64984、NEO-63657、NEO-63387、NEO-62964、NEO-62750、NEO-62686、NEO-59544、NEO-52542
 
+
+## の更新（月） {#may-updates}
+
+次の変更は 5 月にリリースされ、Campaign v8 ユーザーが使用できるようになりました。
+
+* **新しいセキュリティ強化アドオン**：ネットワーク接続をより安全にし、リソースのセキュリティを強化するために、Adobe Campaign では、セキュア CMK 統合とセキュア VPN トンネリングという 2 つの機能を含む新しいセキュリティ強化アドオンを提供しています。[詳細情報](../config/enhanced-security.md)
+
+
 ## リリース 8.7.1 {#release-8-7-1}
 
 _2024年5月2日（PT）_
@@ -52,7 +60,7 @@ _2024年5月2日（PT）_
 
 * **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}
 
-* **新しいセキュリティ強化アドオン**：ネットワーク接続をより安全にし、リソースのセキュリティを強化するために、Adobe Campaign では、セキュア CMK 統合とセキュア VPN トンネリングという 2 つの機能を含む新しいセキュリティ強化アドオンを提供しています。[詳細情報](../config/enhanced-security.md)
+
 
 
 ### 互換性のアップデート {#comp-8-7-1}
