@@ -2,7 +2,8 @@
 title: Campaign v8（コンソール）2023 リリースノート
 description: Campaign v8 2023 リリースで記載される機能と改善点のリスト
 feature: Release Notes
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
+source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
 workflow-type: ht
 source-wordcount: '381'
 ht-degree: 100%

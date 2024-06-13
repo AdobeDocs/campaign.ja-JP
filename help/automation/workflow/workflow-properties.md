@@ -5,7 +5,7 @@ description: キャンペーンワークフローのプロパティの詳細を�
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
 source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
 ht-degree: 100%
 

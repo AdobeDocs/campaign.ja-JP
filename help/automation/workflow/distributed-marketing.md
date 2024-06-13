@@ -5,7 +5,7 @@ description: 分散型マーケティングパッケージの詳細を説明し�
 feature: Workflows, Data Management, Distributed Marketing
 role: User, Admin
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '69'
 ht-degree: 100%
 

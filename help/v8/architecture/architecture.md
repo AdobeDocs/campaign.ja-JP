@@ -6,8 +6,8 @@ role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
-source-wordcount: '1049'
+workflow-type: ht
+source-wordcount: '1045'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 [FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスできます。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースとして使用して、データモデルを拡張し、データを Snowflake に保存できます。その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
 
 
-![](assets/P1-P3-architecture.png){zoomable=&quot;yes&quot;}
+![](assets/P1-P3-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成して、データをコピーし、利用を開始するだけです。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-![](assets/P4-architecture.png){zoomable=&quot;yes&quot;}
+![](assets/P4-architecture.png){zoomable="yes"}
 
 
 ## 分割配信の実行 {#split}

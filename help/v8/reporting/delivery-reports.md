@@ -4,9 +4,9 @@ description: Adobe Campaign の組み込み配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1161'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ This chart shows the breakdown of cumulated clicks per day.
 このセクションには、2 つの指標があります。
 
 * **[!UICONTROL 初期母集団]**：配信アクションの対象となる受信者の合計数。
-* **[!UICONTROL ルールにより却下されたメッセージ]** ：タイポロジルール（アドレスが不明、強制隔離された、ブロックリスト上など）を適用する際、分析中に無視されたアドレスの数。 <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
+* **[!UICONTROL 除外ルールによって却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブロックリストに登録されているなど）を適用する際、分析中に無視されたアドレスの数。<!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL 除外の理由]**
 

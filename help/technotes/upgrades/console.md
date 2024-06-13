@@ -4,7 +4,7 @@ title: クライアントコンソール 32 ビットの非推奨（廃止予定
 description: クライアントコンソール 32 ビットの非推奨（廃止予定）
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
 source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 

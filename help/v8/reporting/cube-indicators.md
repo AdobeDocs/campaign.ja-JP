@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 97%
 
 それには、「**[!UICONTROL ビニングを有効にする]**」オプションにチェックを入れます。[詳細情報](customize-cubes.md#data-binning)。
 
-1. **日付**&#x200B;タイプのディメンションを追加します。ここでは、受信者プロファイルの作成日を表示します。 それには、「**[!UICONTROL 追加]**」をクリックし、受信者テーブルの「**[!UICONTROL 作成日]**」フィールドを選択します。日付の表示モードをカスタマイズできます。それには、使用する階層と生成するレベルを選択します。
+1. **日付**&#x200B;タイプのディメンションを追加します。ここでは、受信者プロファイルの作成日を表示します。それには、「**[!UICONTROL 追加]**」をクリックし、受信者テーブルの「**[!UICONTROL 作成日]**」フィールドを選択します。日付の表示モードをカスタマイズできます。それには、使用する階層と生成するレベルを選択します。
 
 ![](assets/cube-date-dimension.png)
 
@@ -103,7 +103,7 @@ ht-degree: 97%
 
 ビニングを有効にして情報を読み取りやすくし、値を列挙にリンクします。
 
-ドロップダウンリストから列挙を選択します。 この列挙は、**[!UICONTROL ビニング用に予約済み]**&#x200B;として定義する必要があります。
+ドロップダウンリストから列挙を選択します。この列挙は、**[!UICONTROL ビニング用に予約済み]**&#x200B;として定義する必要があります。
 
 ![](assets/cube-dimension-with-enum.png)
 

@@ -6,7 +6,7 @@ role: User, Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 >[!CAUTION]
 >
->アドレスが&#x200B;**[!UICONTROL 強制隔離中]**&#x200B;または「**[!UICONTROL ブロックリスト登録済み]**」のステータスの受信者は、メールを受信した場合でも削除されません。
+アドレスが&#x200B;**[!UICONTROL 強制隔離中]**&#x200B;または「**[!UICONTROL ブロックリスト登録済み]**」のステータスの受信者は、メールを受信した場合でも削除されません。
 
 また、強制隔離リストからアドレスを手動で削除することもできます。強制隔離からアドレスを削除するには、次の操作を実行します。
 

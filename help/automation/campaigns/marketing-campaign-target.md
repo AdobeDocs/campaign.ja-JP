@@ -6,9 +6,9 @@ feature: Campaigns, Audiences
 role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1566'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -111,9 +111,9 @@ To build the delivery target, you can define filtering criteria for the recipien
 
      ![](assets/start.png)
 
-     サーバーは、リクエストのステータスで次のようにリクエストを考慮します。 **[!UICONTROL 開始準備中]**.
+     サーバーはリクエストを考慮し、そのステータスが示すように、**[!UICONTROL できるだけ早く開始]**&#x200B;します。
 
-   * 適切なツールバーアイコンからターゲティングワークフローを再開できます。このコマンドは、例えばターゲティングワークフローの停止が進行中の場合など、**[!UICONTROL 開始]**&#x200B;アイコンが表示されていない場合に役立つことがあります。その場合は、**[!UICONTROL 再開]**&#x200B;アイコンをクリックして、再開を待ちます。サーバーは、ステータスが次のように、リクエストを考慮に入れます。 **[!UICONTROL 再度開始リクエスト]**.
+   * 適切なツールバーアイコンからターゲティングワークフローを再開できます。このコマンドは、例えばターゲティングワークフローの停止が進行中の場合など、**[!UICONTROL 開始]**&#x200B;アイコンが表示されていない場合に役立つことがあります。その場合は、**[!UICONTROL 再開]**&#x200B;アイコンをクリックして、再開を待ちます。サーバーはリクエストを考慮し、そのステータスに&#x200B;**[!UICONTROL 再開がリクエストされました]**&#x200B;と表示されます。
 
 * 停止または一時停止
 
@@ -123,7 +123,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
      ![](assets/pause.png)
 
-     サーバーは、ステータスが次のように、コマンドを考慮に入れます。 **[!UICONTROL 一時停止がリクエストされました]**.
+     サーバーはコマンドを考慮し、そのステータスに&#x200B;**[!UICONTROL 一時停止がリクエストされました]**&#x200B;と表示されます。
 
      ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に一時停止することもできます。そのように設定するには、ターゲティングワークフローを一時停止するアクティビティを右クリックし、「**[!UICONTROL 有効にするが実行しない]**」を選択します。
 
@@ -143,7 +143,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
      ![](assets/stop.png)
 
-     サーバーは、ステータスが次のように、コマンドを考慮に入れます。 **[!UICONTROL 停止がリクエストされました]**.
+     サーバーはコマンドを考慮し、そのステータスに&#x200B;**[!UICONTROL 停止がリクエストされました]**&#x200B;と表示されます。
 
   ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に停止することもできます。そのように設定するには、ターゲティングワークフローを停止するアクティビティを右クリックし、「**[!UICONTROL 有効にしない]**」を選択します。
 

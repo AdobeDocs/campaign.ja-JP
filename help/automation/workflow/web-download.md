@@ -5,7 +5,7 @@ description: Web ダウンロードワークフローアクティビティの詳
 feature: Workflows
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
 source-git-commit: 76a5737e2326e9691113957d1c7bf390ea969695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
 ht-degree: 100%
 
