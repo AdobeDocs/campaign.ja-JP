@@ -6,10 +6,10 @@ feature: Workflows
 level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,6 +62,16 @@ ht-degree: 100%
 * **[!UICONTROL 再起動]**
 
   ワークフローを停止したあとに、再起動します。多くの場合、この操作をおこなうことでワークフローの再起動が高速化されます。また、停止にある程度の時間がかかるときに、再起動を自動化するのに便利です。再起動を自動化する理由は、ワークフローの停止中は「停止」コマンドを利用できないからです。
+
+  は **再起動** アクションで、と比較したワークフローインスタンス変数がクリアされない **実行**, **停止**、および **開始** アクション（開始アクションで発生するインスタンス変数のクリア）。 ワークフローを再起動しても、インスタンス変数は保持された値で使用できます。 これらをクリアするには、次のいずれかを実行します。
+   * 実行 **停止** および **開始** アクション。
+   * ワークフロー実行の最後に以下の Javascript コードを追加します。
+
+     ```
+     var wkf = xtk.workflow.load(instance.id)
+     wkf.variables='<variables/>'
+     wkf.save()
+     ```
 
 * **[!UICONTROL 履歴をパージ]**
 
