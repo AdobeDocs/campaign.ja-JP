@@ -4,10 +4,10 @@ description: Campaign テクニカルオペレーターを Adobe Developer Conso
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 5d3dd679eb7a756200d604601c20c3fed5770fc2
-workflow-type: ht
-source-wordcount: '1530'
-ht-degree: 100%
+source-git-commit: 07c2a7460c407a0afb536d8b64f4105d8bc547f4
+workflow-type: tm+mt
+source-wordcount: '1551'
+ht-degree: 98%
 
 ---
 
@@ -151,9 +151,13 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 サードパーティシステムの移行前と移行後のサンプル SOAP 呼び出しを以下に示します。
 
+AdobeIdentity Management System （IMS）認証を使用する場合、WSDL ファイルを生成するには、以下を追加する必要があります。 `Authorization: Bearer <IMS_Technical_Token_Token>` postman 呼び出しで、
+
+```
+curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
+```
+
 移行プロセスを完了して検証すると、SOAP 呼び出しは次のように更新されます。
-
-
 
 * 移行前：テクニカルアカウントのアクセストークンはサポートされていませんでした。
 
@@ -201,8 +205,6 @@ You can now add your Campaign product profile to the project, as detailed below:
   </soapenv:Body>
   </soapenv:Envelope>
   ```
-
-
 
 ### 手順 9 -（オプション）Campaign クライアントコンソール内でテクニカルアカウントオペレーターを更新 {#ims-migration-step-9}
 
