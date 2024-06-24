@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 2024年6月 {#june-2024}
 
-ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [詳細情報](../../automation/workflow/start-a-workflow.md)
+ワークフローを再起動する際にインスタンス変数をクリアする方法を指定するためのメモを追加しました。[詳細情報](../../automation/workflow/start-a-workflow.md)
 
 ## 2024年5月 {#may-2024}
 
