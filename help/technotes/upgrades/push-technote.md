@@ -8,8 +8,8 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
-workflow-type: ht
+source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
+workflow-type: tm+mt
 source-wordcount: '1413'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Campaign を使用すると、iOS および Android デバイスにプッシュ�
 
 ### 変更点 {#fcm-changes}
 
-Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年6月20日（PT）**&#x200B;に廃止されます。Firebase Cloud Messaging HTTP プロトコルについて詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref?hl=ja){target="_blank"}を参照してください。
+Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年7月22日（PT）**&#x200B;に廃止されます。Firebase Cloud Messaging HTTP プロトコルについて詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}を参照してください。
 
 Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通知メッセージを送信するための最新の API を既にサポートしています。ただし、古い実装の中には、依然としてレガシー API に依存するものもあります。これらの実装は更新する必要があります。
 
