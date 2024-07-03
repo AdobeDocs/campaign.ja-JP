@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
+source-git-commit: 4ef40ff971519c064b980df8235188c717855f27
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1477'
 ht-degree: 95%
 
 ---
@@ -84,7 +84,7 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
    | データメッセージ | 該当なし | validate_only |
    | 通知メッセージ | title、body、android_channel_id、icon、sound、tag、color、click_action、image、ticker、sticky、visibility、notification_priority、notification_count <br> | validate_only |
 
-1. HTTP v1 のトランジションが完了したら、 **配信テンプレート** Androidのプッシュ通知でバッチメッセージの数を増やす。 これをおこなうには、Android配信テンプレートのプロパティを参照し、 **配信** タブで、 [メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity) 対象： **256**. この変更を、Android配信に使用するすべてのAndroid配信テンプレートと、既存のすべてのAndroid配信に適用します。
+1. HTTP v1 のトランジションが完了したら、 **配信テンプレート** Androidのプッシュ通知でバッチメッセージの数を増やす。 これをおこなうには、Android配信テンプレートのプロパティを参照し、 **配信** タブで、 [メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity) 対象： **256**. この変更を、Android配信に使用するすべての配信テンプレートと、既存のすべてのAndroid配信に適用します。
 
 
 >[!NOTE]
