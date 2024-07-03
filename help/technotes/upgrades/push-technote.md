@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
+source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 100%
+source-wordcount: '1478'
+ht-degree: 95%
 
 ---
 
@@ -77,12 +77,14 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 1. オプションとして、必要に応じ、**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 1. 「**[!UICONTROL 終了]**」、「**[!UICONTROL 保存]**」の順にクリックします。
 
-以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。これらのオプションについて詳しくは、[こちら](#fcm-apps)を参照してください。
+   以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。これらのオプションについて詳しくは、[こちら](#fcm-apps)を参照してください。
 
-| メッセージタイプ | 設定可能なメッセージ要素（FCM ペイロード名） | 設定可能なオプション（FCM ペイロード名） |
-|:-:|:-:|:-:|
-| データメッセージ | 該当なし | validate_only |
-| 通知メッセージ | title、body、android_channel_id、icon、sound、tag、color、click_action、image、ticker、sticky、visibility、notification_priority、notification_count <br> | validate_only |
+   | メッセージタイプ | 設定可能なメッセージ要素（FCM ペイロード名） | 設定可能なオプション（FCM ペイロード名） |
+   |:-:|:-:|:-:|
+   | データメッセージ | 該当なし | validate_only |
+   | 通知メッセージ | title、body、android_channel_id、icon、sound、tag、color、click_action、image、ticker、sticky、visibility、notification_priority、notification_count <br> | validate_only |
+
+1. HTTP v1 のトランジションが完了したら、 **配信テンプレート** Androidのプッシュ通知でバッチメッセージの数を増やす。 これをおこなうには、Android配信テンプレートのプロパティを参照し、 **配信** タブで、 **メッセージのバッチ数量** 対象： **256**. この変更を、Android配信に使用するすべてのAndroid配信テンプレートと、既存のすべてのAndroid配信に適用します。
 
 
 >[!NOTE]
@@ -107,7 +109,6 @@ Android モバイルアプリケーションのコードに特別な変更は必
 * 通知の&#x200B;**[!UICONTROL 表示]**&#x200B;レベルをパブリック、プライベート、秘密のいずれかに設定します。
 
 **[!UICONTROL HTTP v1 その他のオプション]**&#x200B;とこれらのフィールドを設定する方法について詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages?hl=ja#androidnotification){target="_blank"}を参照してください。
-
 
 
 
