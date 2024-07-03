@@ -5,8 +5,8 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
-workflow-type: ht
+source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
+workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 「**[!UICONTROL 配信の優先順位]**」オプションを使用して、優先度レベルを&#x200B;**[!UICONTROL 非常に低い]**&#x200B;から&#x200B;**[!UICONTROL 非常に高い]**&#x200B;に設定することで、配信の送信順序を変更できます（デフォルト値は&#x200B;**[!UICONTROL 標準]**）。
 
-### バッチサイズ
+### バッチサイズ {#delivery-batch-quantity}
 
 「**[!UICONTROL メッセージのバッチサイズ]**」オプションを使用すると、1 つの XML 配信パッケージ内でグループ化するメッセージの件数を定義できます。このパラメーターが 0 に設定されている場合、メッセージは自動的にグループ化されます。パッケージサイズは、`<delivery size>/1024` という計算に基づいて決定されます（ただし、パッケージあたりのメッセージ件数は最小 8、最大 256）。
 
