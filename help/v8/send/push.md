@@ -5,10 +5,10 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
-workflow-type: ht
-source-wordcount: '947'
-ht-degree: 100%
+source-git-commit: 48aba38f3dc8bb322e6d0b38c1b743e980671cd7
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 87%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 100%
 
 モバイルアプリ配信を使用すると、iOS デバイスや Android デバイスに通知を送信できます。
 
-Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。[詳しくは、プッシュ設定を参照してください。](push-settings.md)
+Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。[プッシュ設定の詳細情報。](push-settings.md).
 
 >[!CAUTION]
 >
->2024 年に Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、リリースする予定です。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、アクションを実行できます。[詳細情報](../../technotes/upgrades/push-technote.md)。
+>Android Firebase Cloud Messaging （FCM）サービスに関する重要な変更が 2024 年にリリースされており、Adobe Campaignの実装に影響を与える可能性があります。 この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、アクションを実行できます。[詳細情報](../../technotes/upgrades/push-technote.md)。
 
 
-## 最初のプッシュ通知の作成{#push-create}
+## 最初のプッシュ通知の作成 {#push-create}
 
 ここでは、iOS および Android の通知の配信に固有な設定について説明します。
 
@@ -31,9 +31,13 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 >
 >[エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、モバイル登録が&#x200B;**非同期**&#x200B;で行われるようになりました。[詳細情報](../architecture/staging.md)
 
+
 新しい配信を作成するには、「**[!UICONTROL Campaign]**」タブで「**[!UICONTROL 配信]**」、既存の配信リストの上にある「**[!UICONTROL 作成]**」ボタンの順にクリックします。
 
 ![](assets/delivery_step_1.png)
+
+
+デフォルトでは、Adobe Campaignには 2 つの配信テンプレートが用意されています（iOS用とAndroid用）。 これらを複製して、独自の設定を定義できます。 以下に、これらのテンプレートに基づいてプッシュ配信を設定する手順を説明します。
 
 >[!BEGINTABS]
 
@@ -133,6 +137,11 @@ Android デバイスで通知を送信するには、次の手順に従います
 
    ![](assets/push-template-android.png)
 
+   >[!NOTE]
+   > 
+   >最新の FCM API （HTTP v1）では、 **配信テンプレート** Androidのプッシュ通知でバッチメッセージの数を増やす。 これをおこなうには、Android配信テンプレートのプロパティを参照し、 **配信** タブで、 [メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity) 対象： **256**. この変更を、Android配信に使用するすべての配信テンプレートと、既存のすべてのAndroid配信に適用します。
+
+
 1. 通知のターゲットを定義するには、**[!UICONTROL 宛先]**&#x200B;リンク／**[!UICONTROL 追加]**&#x200B;をクリックします。
 
    ![](assets/push-android-select-target.png)
@@ -155,7 +164,8 @@ Android デバイスで通知を送信するには、次の手順に従います
 
 >[!ENDTABS]
 
-## プッシュ通知のテスト、送信、監視
+
+## プッシュ通知のテスト、送信、監視 {#push-test}
 
 配達確認や最終配信を送信するには、他の配信と同じプロセスを使用します。
 
