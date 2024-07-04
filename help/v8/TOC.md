@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 99%
 
 ---
 
@@ -99,6 +99,8 @@ ht-degree: 100%
    + [購読を管理](start/subscriptions.md)
 + コンテンツ管理 {#content}
    + [Web アプリとフォームのデザイン](dev/webapps.md)
++ 自動処理とワークフロー {#automation}
+   + [Campaign 自動化ガイド >](https://experienceleague.adobe.com/ja/docs/campaign/automation/home)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -203,7 +205,6 @@ ht-degree: 100%
       + [入力フォーム](dev/forms.md)
    + [データパッケージの使用](dev/packages.md)
    + [Campaign API](dev/api.md)
-+ [Campaign コントロールパネル >](https://experienceleague.adobe.com/ja/docs/control-panel/using/control-panel-home)
-+ [Campaign 自動化ガイド >](https://experienceleague.adobe.com/ja/docs/campaign/automation/home)
++ [Campaign のテクニカルノート >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Campaign web ユーザーインターフェイスのドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
 
