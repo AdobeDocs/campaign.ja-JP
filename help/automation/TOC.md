@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 98%
 
 ---
 
@@ -165,4 +165,4 @@ ht-degree: 100%
    + [キャンペーンへのアクセス](distributed-marketing/accessing-campaigns.md)
    + [キャンペーンのトラッキング](distributed-marketing/tracking-a-campaign.md)
    + [ユースケース](distributed-marketing/examples.md)
-+ [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja)
++ [&lt; Campaign v8 ドキュメントに戻る](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)
