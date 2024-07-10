@@ -5,9 +5,9 @@ feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
 source-git-commit: 07c2a7460c407a0afb536d8b64f4105d8bc547f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1551'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 サードパーティシステムの移行前と移行後のサンプル SOAP 呼び出しを以下に示します。
 
-AdobeIdentity Management System （IMS）認証を使用する場合、WSDL ファイルを生成するには、以下を追加する必要があります。 `Authorization: Bearer <IMS_Technical_Token_Token>` postman 呼び出しで、
+Adobe Identity Management System（IMS）認証を使用する際、WSDL ファイルを生成するには、Postman 呼び出しに `Authorization: Bearer <IMS_Technical_Token_Token>` を追加する必要があります。
 
 ```
 curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'

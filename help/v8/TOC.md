@@ -6,9 +6,9 @@ title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
 source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -205,6 +205,6 @@ ht-degree: 99%
       + [入力フォーム](dev/forms.md)
    + [データパッケージの使用](dev/packages.md)
    + [Campaign API](dev/api.md)
-+ [Campaign のテクニカルノート >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [Campaign のテクニカルノート >](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/technotes-home)
 + [Campaign web ユーザーインターフェイスのドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
 

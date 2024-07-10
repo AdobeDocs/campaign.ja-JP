@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
 source-git-commit: 48aba38f3dc8bb322e6d0b38c1b743e980671cd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 87%
 
 モバイルアプリ配信を使用すると、iOS デバイスや Android デバイスに通知を送信できます。
 
-Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。[プッシュ設定の詳細情報。](push-settings.md).
+Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリおよび Adobe Experience Platform のタグに設定と統合が行われていることを確認する必要があります。[プッシュ設定の詳細情報](push-settings.md)。
 
 >[!CAUTION]
 >
->Android Firebase Cloud Messaging （FCM）サービスに関する重要な変更が 2024 年にリリースされており、Adobe Campaignの実装に影響を与える可能性があります。 この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、アクションを実行できます。[詳細情報](../../technotes/upgrades/push-technote.md)。
+>Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更を、2024 年にリリースする予定です。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、アクションを実行できます。[詳細情報](../../technotes/upgrades/push-technote.md)。
 
 
 ## 最初のプッシュ通知の作成 {#push-create}
@@ -37,7 +37,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 ![](assets/delivery_step_1.png)
 
 
-デフォルトでは、Adobe Campaignには 2 つの配信テンプレートが用意されています（iOS用とAndroid用）。 これらを複製して、独自の設定を定義できます。 以下に、これらのテンプレートに基づいてプッシュ配信を設定する手順を説明します。
+デフォルトでは、Adobe Campaign には 2 つの配信テンプレート（iOS 用と Android 用）が用意されています。これらを複製して、独自の設定を定義できます。以下に、これらのテンプレートに基づいてプッシュ配信を設定する手順を説明します。
 
 >[!BEGINTABS]
 
@@ -139,7 +139,7 @@ Android デバイスで通知を送信するには、次の手順に従います
 
    >[!NOTE]
    > 
-   >最新の FCM API （HTTP v1）では、 **配信テンプレート** Androidのプッシュ通知でバッチメッセージの数を増やす。 これをおこなうには、Android配信テンプレートのプロパティを参照し、 **配信** タブで、 [メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity) 対象： **256**. この変更を、Android配信に使用するすべての配信テンプレートと、既存のすべてのAndroid配信に適用します。
+   >最新の FCM API（HTTP v1）では、Android プッシュ通知の&#x200B;**配信テンプレート**&#x200B;を更新して、バッチメッセージの数を増やす必要があります。これを行うには、Android 配信テンプレートのプロパティを参照し、「**配信**」タブで、「[メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity)」を「**256**」に設定します。この変更を、Android 配信に使用するすべての配信テンプレートと、既存のすべての Android 配信に適用します。
 
 
 1. 通知のターゲットを定義するには、**[!UICONTROL 宛先]**&#x200B;リンク／**[!UICONTROL 追加]**&#x200B;をクリックします。

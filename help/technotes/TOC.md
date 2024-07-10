@@ -6,9 +6,9 @@ title: Adobe Campaign のテクニカルノート
 description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
 source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 

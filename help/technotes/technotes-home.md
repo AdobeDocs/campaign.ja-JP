@@ -1,20 +1,20 @@
 ---
 keywords: Campaign Classic;ホーム;人気のトピック
-description: Adobe Campaignのテクニカルノート
+description: Adobe Campaign のテクニカルノート
 title: Adobe Campaign の技術記事
 role: Developer
 level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
 source-git-commit: 0844a4fcd34220d825ae30368b284cbcaf93d02b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign v8 のテクニカルノート {#campaign-technotes}
 
-最新の Campaign テクニカルノートについては、この節を参照してください。 これらのテクニカルノートは、Campaign v8 に適用されます。
+Campaign の最新のテクニカルノートについては、この節を参照してください。これらのテクニカルノートは、Campaign v8 に適用されます。
 
 >[!BEGINTABS]
 
@@ -26,9 +26,9 @@ ht-degree: 78%
 [![画像](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
 
 
->[!TAB Identity Management System （IMS）]
+>[!TAB Identity Management System（IMS）]
 
-Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。すべてのオペレーターは、AdobeのIdentity Management System （IMS）を使用して Campaign に接続するだけです
+Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。すべてのオペレーターは、Adobe Identity Management System（IMS）を Campaign に接続する場合にのみ使用します
 
 [![画像](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
 
