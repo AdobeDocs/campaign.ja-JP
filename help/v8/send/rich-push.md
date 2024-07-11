@@ -6,10 +6,10 @@ feature: Push
 role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
-workflow-type: ht
-source-wordcount: '1241'
-ht-degree: 100%
+source-git-commit: 5236cc94e78db11b8975ad84c49594b282fdecf3
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,10 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 * **[!UICONTROL 通知メッセージ]**&#x200B;は、FCM SDK によって自動的に処理されます。 FCM は、クライアントアプリに代わって、ユーザーのデバイスにメッセージを自動的に表示します。通知メッセージには、事前に定義された一連のパラメーターとオプションが含まれていますが、カスタムアプリケーション変数を使用してさらにパーソナライズすることもできます。
 
 ## 通知のコンテンツの定義 {#push-message}
+
+>[!IMPORTANT]
+>
+>リッチ プッシュ通知をデザインする前に、まずコネクタを設定する必要があります。 こちらを参照してください [このページ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) を参照してください。
 
 プッシュ配信を作成したら、そのコンテンツを定義できます。次の 3 つのテンプレートを使用できます。
 
