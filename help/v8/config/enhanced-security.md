@@ -5,10 +5,10 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 
 >[!CAUTION]
 >
->オンプレミスデータベースと AWS 準拠の VPN デバイスのみがサポートされています。[詳細情報](#vpn-callouts)
+>オンプレミスデータベースと AWS 準拠の VPN デバイスのみがサポートされています。[詳細情報](#vpn-databases)
 
 この機能を適切に使用するには、次のガイドラインに従います。
 
@@ -110,24 +110,23 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 
 * 接続エラーが発生した場合に備えて、ユーザー側で再試行メカニズムを設定します。
 
+### サポートされるデータベースとデバイス {#vpn-databases}
 
-### ガードレールと制限 {#vpn-callouts}
+次のオンプレミスデータベースがサポートされています。
 
-Adobe Campaign v8 との VPN トンネリング統合には、次のガードレールと制限が適用されます。
+* MySQL
+* Netezza
+* Oracle
+* SAP HANA
+* SQL Server
+* Sybase
+* Teradata
+* HiveSQL による Hadoop
 
-* <!--Richa to check the list with PM--> のようなオンプレミスデータベースのみがサポートされています。
+AWS 準拠の VPN デバイスのみがサポートされています。互換性のあるデバイスのリストについて詳しくは、[このページ](https://docs.aws.amazon.com/ja_jp/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}を参照してください。
 
-   * MySQL
-   * Netezza
-   * Oracle
-   * SAP HANA
-   * SQL Server
-   * Sybase
-   * Teradata
-   * HiveSQL による Hadoop
-
-* AWS 準拠の VPN デバイスのみがサポートされています。互換性のあるデバイスのリストについて詳しくは、[このページ](https://docs.aws.amazon.com/ja_jp/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}<!--check which list should be communicated-->を参照してください。
-
-* サードパーティまたは外部ベンダーへの VPN 接続はサポートされていません。
-
-* プライベートクラウドデータベースへのアドビ管理による追加の VPN は含まれません。
+>[!NOTE]
+>
+>* サードパーティまたは外部ベンダーへの VPN 接続はサポートされていません。
+>
+>* プライベートクラウドデータベースへのアドビ管理による追加の VPN は含まれません。
