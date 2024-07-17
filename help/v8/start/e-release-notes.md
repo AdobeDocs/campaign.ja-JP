@@ -7,51 +7,61 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: 09b8ced170ff28b24713722e0a82852038053201
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 58%
 
 ---
 
 # 早期リリースノート {#e-new-release}
 
-このページでは、次回の Campaign v8 リリースに含まれる改善点および修正点について説明します。この内容は、リリース日まで予告なしに変更される場合があります。公式リリースノートは、こちらの[ページ](../start/release-notes.md)を参照してください。
+このページでは、次回の Campaign v8 リリースに含まれる改善点および修正点について説明します。**以下の早期リリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日に[リリースノート](release-notes.md)に公開されます。
 
-## リリース 8.6.1 {#release-8-6-1}
+## リリース 8.7.2 {#release-8-7-2}
 
-_2024年2月14日（PT）_
-
-
-### 新機能 {#new-8-6-1}
-
-* このリリース以降、中央の Adobe Experience Cloud 環境を通じて、新しい **Campaign web ユーザーインターフェイス**&#x200B;にアクセスできるようになります。Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイスにアクセスする方法については、[このページ](campaign-ui.md#ac-web-ui)を参照してください。
-
-* クライアントコンソールの 32 ビットバージョンは、非推奨（廃止予定）となりました。8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。クライアントコンソールの 64 ビットバージョンへのアップグレードはシームレスです。オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=ja){target="_blank"}を参照してください。
+_2024年7月30日（PT）_
 
 
-### 一般的な改善点 {#improvements-8-6-1}
+>[!AVAILABILITY]
+>
+>このリリースは&#x200B;**限定提供**（LA）中です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
+>
+>Campaign v8 に移行する Campaign Standard ユーザーについては、[Campaign v8 web ユーザーインターフェイスのドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}でこの移行の詳細を確認してください。
 
-* Campaign v8.6 では、**メール配信トラッキング指標**&#x200B;のスループットが向上しました。最適化されたプロセスにより、取り込みのトラッキングと計算時間が短縮され、配信の主要な指標をより迅速に確認できるようになります。
+### 新機能 {#new-8-7-2}
 
-* Campaign v8 インスタンスを Azure Synapse 外部データベースに接続できるようになりました。この接続は、新しい外部アカウントで管理します。
+* **新しい SMS 送信コネクタ** - SMS 送信コネクタが最新化および改善され、トランシーバーモードの SMPP 接続の有効化、永続的な SMPP 接続の有効化およびAdobe Campaign Standardから移行する環境の互換性の向上が図られています。 すべての新しい SMS 実装で新しい SMS 外部アカウントを使用できるようになりました。 既存の実装は引き続きサポートされますが、この新しい最新の拡張コネクタに移行することをお勧めします。
 
-* Adobe Campaign v8 は、**Adobe Experience Manager as a Cloud Service** と統合され、オーサリングは Adobe Campaign web ユーザーインターフェイス経由でのみ利用可能になります。
+* **リッチプッシュ通知（GA）** - リッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。このバージョンでは、iOS アプリとAndroid アプリで、リッチなプッシュ通知用のテンプレートセットが利用できるようになりました。 [詳細情報](../send/rich-push.md)
 
-* これで、**Adobe Experience Cloud との統合**&#x200B;パッケージが Adobe Campaign インスタンスにインストールされている場合でも、**Adobe Experience Manager Assets ライブラリ**&#x200B;を Experience Cloud Assets と共に使用できます。
+* **ブランディング** - ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できるようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ja){target="_blank"}
 
-* クライアントコンソールからオペレーターを作成できなくなりました。ここでは、Admin Console を使用する必要があります。[詳細情報](../start/gs-permissions.md)。
+<!--
+### Fixes {#fixes-8-7-2}
 
-* セキュリティを最適化するために、複数のサードパーティツールを更新しています。
+The following issues are fixed in this release:
 
-### 配信品質のアップデート {#deliverability-8-6-1}
+NEO-76592, NEO-75400, NEO-77406, NEO-77674, NEO-77899, NEO-73989, NEO-76064, NEO-76039, NEO-76040, NEO-76845, NEO-76664, NEO-76682, NEO-76663, NEO-73602, NEO-72915, NEO-78134, NEO-77000, NEO-77002, NEO-76955, NEO-76864, NEO-76926, NEO-76495, NEO-77168, NEO-41058, NEO-75581, NEO-74647, NEO-74585, NEO-74586, NEO-74831, NEO-77319, NEO-78607.-->
 
-* 2024年2月までに、Google または Yahoo! を通じて 5,000 件を超えるメールメッセージを送信する会社は、DMARC（Domain-based Message Authentication Reporting and Conformance）と呼ばれる認証テクノロジーの使用を開始する必要があります。Adobe Campaign で使用しているすべてのサブドメインに対して DMARC レコードが設定されていることを確認してください。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja){target="_blank"}
+## リリース 8.6.3 {#release-8-6-3}
 
-* 2024年6月1日（PT）以降、Google と Yahoo! は、送信者に対して、ワンクリックでの List-Unsubscribe への準拠を義務付ける予定です。Adobe Campaign では、このオプションをサポートするようになりました。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#one-click-list-unsubscribe){target="_blank"}
+_2024年7月30日（PT）_
 
 
-### 修正点 {#fixes-8-6-1}
+### 新機能 {#new-8-6-3}
 
-このリリースでは、次の問題が修正されています：
-NEO-67892、NEO-67235、NEO-66797、NEO-66462、NEO-65091、NEO-65036、NEO-64984、NEO-64680、NEO-63973、NEO-63879、NEO-63815、NEO-63657、NEO-63539、NEO-63387、NEO-63294、NEO-63174、NEO-62964、NEO-62750、NEO-62686、NEO-62455、NEO-62406、NEO-61580、NEO-61199、NEO-60786、NEO-59544、NEO-59198、NEO-59059、NEO-58637、NEO-55197、NEO-52542、NEO-50488、NEO-47789
+* **リッチプッシュ通知** - リッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。このバージョンでは、iOS アプリとAndroid アプリで、リッチなプッシュ通知用のテンプレートセットが利用できるようになりました。 [詳細情報](../send/rich-push.md)
+
+* このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。[詳細情報](release-notes.md#change-8-7-1)
+
+
+### 一般的な改善点 {#improvements-8-6-3}
+
+* アプリケーション間のすべての通信のセキュリティを強化するために、外部 API 呼び出しで mTLS がサポートされるようになりました。
+
+<!--
+### Fixes {#fixes-8-7-2}
+
+The following issues are fixed in this release:
+-->

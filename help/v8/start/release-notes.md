@@ -3,10 +3,10 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e119c415ce363a635f9f0318e3fd70f90f4bde06
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: 09b8ced170ff28b24713722e0a82852038053201
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,7 @@ _2024年5月2日（PT）_
 
 このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。アドビでは、Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合に対して、JWT から OAuth への移行を実行します。
 
-Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;まで引き続き機能します。また、Developer Console は、**2024年6月3日（PT）**&#x200B;まで、新しいサービスアカウント（JWT）資格情報の作成を引き続きサポートします。この日付以降、新しいサービスアカウント（JWT）資格情報を作成したり、プロジェクトに追加したりすることはできません。
+Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;まで引き続き機能します。
 
 
 ### 一般的な改善点 {#improvements-8-7-1}
@@ -80,7 +80,11 @@ Campaign とのインバウンド統合を実装している場合は、[この�
 
 * Campaign テーブルでは、`lastModified` および `created` の属性がサーバーの日時によってデフォルトで入力されるようになりました。`createdBy-id` 属性値には、デフォルトで現在のログイン ID が入力されるようになりました。API 呼び出しでユーザーが指定した値は無視されます。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
+* アプリケーション間のすべての通信のセキュリティを強化するために、外部 API 呼び出しで mTLS がサポートされるようになりました。
+
+
 ### 修正点 {#fixes-8-7-1}
 
-このリリースでは、次の問題が修正されています：
-NEO-72648、NEO-71534、NEO-71473、NEO-70263、NEO-70195、NEO-69651、NEO-68704、NEO-68192、NEO-67814、NEO-67702、NEO-67620、NEO-66022、NEO-65774、NEO-65633、NEO-64199、NEO-63706、NEO-63705、NEO-63287、NEO-63197、NEO-62575、NEO-60250、NEO-60192、NEO-58596、NEO-58314、NEO-58004、NEO-40054
+このリリースでは、次の問題が修正されています。
+
+NEO-72648、NEO-71534、NEO-71473、NEO-70263、NEO-70195、NEO-69651、NEO-68704、NEO-68192、NEO-67814 67702、NEO-67620 66022、NEO-65774、NEO-65633、NEO-64199、NEO-63706、NEO-63705、NEO-63287、NEO-63197、NEO-62575 60250 60192 58596 58314 58004 40054、NEO-NEO-3、NEO-3、NEO-6、NEO-5 NEO-
