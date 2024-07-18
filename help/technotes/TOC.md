@@ -6,9 +6,9 @@ title: Adobe Campaign のテクニカルノート
 description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
 source-git-commit: a9a376e1726bf92ddce937d5598314cbfd744f1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '68'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,5 +28,5 @@ ht-degree: 94%
    + [2023 システムアップグレード](upgrades/tech-stack-upgrade.md)
    + [クライアントコンソール 32 ビットの非推奨（廃止予定）](upgrades/console.md)
    + セキュリティ {#security}
-      + [顧客資格情報のローテーション](security/credential-rotation-guide.md)
+      + [お客様の資格情報ローテーション](security/credential-rotation-guide.md)
 + [&lt; Campaign v8 ドキュメントに戻る](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
 source-git-commit: 5236cc94e78db11b8975ad84c49594b282fdecf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 >[!IMPORTANT]
 >
->リッチ プッシュ通知をデザインする前に、まずコネクタを設定する必要があります。 こちらを参照してください [このページ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) を参照してください。
+>リッチプッシュ通知をデザインする前に、まずコネクタを設定する必要があります。手順について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)を参照してください。
 
 プッシュ配信を作成したら、そのコンテンツを定義できます。次の 3 つのテンプレートを使用できます。
 
