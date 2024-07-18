@@ -5,10 +5,10 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: b6f7b8a6652034145602d9949fa196eae929fb95
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 89%
 
 ---
 
@@ -52,6 +52,10 @@ Campaign でこの属性を使用した場合の結果は次のとおりです�
 * ワークフローでは、制限付きの列をトランジションの追加の列としてターゲット母集団に追加できますが、Adobe Campaign ユーザーはアクセスできません。
 * ターゲット母集団をグループ（リスト）に保存する場合、保存されるフィールドの特性はデータのソースと同じです。
 * デフォルトでは、JS コードからデータにアクセスできません。
+
+>[!IMPORTANT]
+>
+>重要なパラメーター（複合キーのパラメーターなど）に **accessibleIf** 属性を使用すると、非表示のデータが原因でデータの読み取りが許可されていないユーザーにエラーが発生する可能性があります。 これにより、クエリのエラーや予期しない動作が発生する場合があります。 中断を防ぐために、必須のパラメーターに確実にアクセスできるようにします。
 
 ## レコメンデーション {#recommendations}
 
