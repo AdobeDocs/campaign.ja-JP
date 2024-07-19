@@ -6,7 +6,7 @@ feature: Campaigns
 role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 100%
 

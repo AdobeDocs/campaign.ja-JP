@@ -7,7 +7,7 @@ exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
 source-git-commit: a5d44321c3d68b9370cfb6e9b1df62435de0dbda
 workflow-type: tm+mt
 source-wordcount: '2020'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->異なるソースを持つテーブルに対して分割操作を実行することはできません。 この目的のために、 **エンリッチメント** 次の前のアクティビティ **分割** アクティビティ。
+>異なるソースを持つテーブルに対しては、分割操作を実行できません。この目的のために、「**分割**」アクティビティの前に「**エンリッチメント**」アクティビティを追加する必要があります。
 
 * 分割アクティビティの使用例については、[この節](targeting-workflows.md#create-subsets-using-the-split-activity)を参照してください。
 * フィルター条件を使用してターゲットを別々の母集団にセグメント化する分割アクティビティの使用方法を示した例については、[この節](cross-channel-delivery-workflow.md)を参照してください。

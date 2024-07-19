@@ -5,7 +5,7 @@ description: Adobe Campaign テクニカルノート - 資格情報ローテー�
 hide: true
 hidefromtoc: true
 source-git-commit: 9d280a5c9d428a2795f2c893aad2d31ae2f122b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
 

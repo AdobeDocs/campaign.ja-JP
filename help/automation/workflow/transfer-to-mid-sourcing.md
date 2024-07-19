@@ -4,7 +4,7 @@ title: ミッドソーシング転送
 description: ミッドソーシング転送ワークフローの詳細を説明します
 feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 

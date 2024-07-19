@@ -5,7 +5,7 @@ description: 和集合ワークフローアクティビティの詳細を説明�
 feature: Workflows, Targeting Activity
 exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 

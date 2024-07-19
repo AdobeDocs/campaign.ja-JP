@@ -4,7 +4,7 @@ description: ワークフローデータの使用方法を説明します
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 100%
 

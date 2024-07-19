@@ -6,7 +6,7 @@ feature: Distributed Marketing
 role: User
 exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 100%
 
