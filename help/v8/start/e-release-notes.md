@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 09b8ced170ff28b24713722e0a82852038053201
+source-git-commit: dfc86ebaa2acc0b7777843b2d1d370939b6bfcc2
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 58%
+source-wordcount: '472'
+ht-degree: 49%
 
 ---
 
@@ -37,12 +37,12 @@ _2024年7月30日（PT）_
 
 * **ブランディング** - ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できるようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ja){target="_blank"}
 
-<!--
-### Fixes {#fixes-8-7-2}
 
-The following issues are fixed in this release:
+### 修正点 {#fixes-8-7-2}
 
-NEO-76592, NEO-75400, NEO-77406, NEO-77674, NEO-77899, NEO-73989, NEO-76064, NEO-76039, NEO-76040, NEO-76845, NEO-76664, NEO-76682, NEO-76663, NEO-73602, NEO-72915, NEO-78134, NEO-77000, NEO-77002, NEO-76955, NEO-76864, NEO-76926, NEO-76495, NEO-77168, NEO-41058, NEO-75581, NEO-74647, NEO-74585, NEO-74586, NEO-74831, NEO-77319, NEO-78607.-->
+このリリースでは、次の問題が修正されています。
+
+NEO-76592、NEO-75400、NEO-77406、NEO-77674、NEO-77899、NEO-73989、NEO-76064、NEO-76039、NEO-76040 76845、NEO-76664 76682、NEO-76663、NEO-73602、NEO-72915、NEO-78134、NEO-77000、NEO-77002、NEO-76955、NEO-76864 76926 76495 77168 41058 75581 74647 74585 74586 74831 77319 78607、NEO-NEO-3、NEO-3、NEO-6、NEO-5 NEO-、NEO-k、NEO-k、NEO-k
 
 ## リリース 8.6.3 {#release-8-6-3}
 
@@ -60,8 +60,12 @@ _2024年7月30日（PT）_
 
 * アプリケーション間のすべての通信のセキュリティを強化するために、外部 API 呼び出しで mTLS がサポートされるようになりました。
 
-<!--
-### Fixes {#fixes-8-7-2}
+### 修正点 {#fixes-8-6-3}
 
-The following issues are fixed in this release:
+このリリースでは、次の問題が修正されています。
+
+NEO-77014、NEO-76958、NEO-76097、NEO-75898、NEO-72504、NEO-70263、NEO-67620、NEO-63197、NEO-58596、NEO-56832。
+
+<!--
+https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%20AND%20type%20not%20in%20(epic%2C%20test%2C%20sub-task%2C%20Roadmap)%20AND%20resolution%20!%3D%20unresolved%20AND%20%22Fixed%20in%20Build%22%20is%20not%20EMPTY%20and%20type%20in%20(%22customer%20request%22)
 -->
