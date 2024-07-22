@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: dfc86ebaa2acc0b7777843b2d1d370939b6bfcc2
+source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 49%
@@ -48,13 +48,11 @@ NEO-76592、NEO-75400、NEO-77406、NEO-77674、NEO-77899、NEO-73989、NEO-7606
 
 _2024年7月30日（PT）_
 
-
 ### 新機能 {#new-8-6-3}
 
 * **リッチプッシュ通知** - リッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。このバージョンでは、iOS アプリとAndroid アプリで、リッチなプッシュ通知用のテンプレートセットが利用できるようになりました。 [詳細情報](../send/rich-push.md)
 
 * このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。[詳細情報](release-notes.md#change-8-7-1)
-
 
 ### 一般的な改善点 {#improvements-8-6-3}
 

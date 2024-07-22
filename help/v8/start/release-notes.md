@@ -3,7 +3,7 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 09b8ced170ff28b24713722e0a82852038053201
+source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 91%
@@ -60,9 +60,6 @@ _2024年5月2日（PT）_
 
 * **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}
 
-
-
-
 ### 互換性のアップデート {#comp-8-7-1}
 
 * Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データベースとしてサポートされるようになりました。詳しくは、[このページ](compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
@@ -73,7 +70,6 @@ _2024年5月2日（PT）_
 
 Campaign とのインバウンド統合を実装している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}の詳細な説明に従ってテクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;まで引き続き機能します。
 
-
 ### 一般的な改善点 {#improvements-8-7-1}
 
 * いくつかのスキーマが 32 ビットから 64 ビットに変更されました。これは、Campaign Standard から移行するお客様にのみ該当します。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=ja){target="_blank"}
@@ -81,7 +77,6 @@ Campaign とのインバウンド統合を実装している場合は、[この�
 * Campaign テーブルでは、`lastModified` および `created` の属性がサーバーの日時によってデフォルトで入力されるようになりました。`createdBy-id` 属性値には、デフォルトで現在のログイン ID が入力されるようになりました。API 呼び出しでユーザーが指定した値は無視されます。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 * アプリケーション間のすべての通信のセキュリティを強化するために、外部 API 呼び出しで mTLS がサポートされるようになりました。
-
 
 ### 修正点 {#fixes-8-7-1}
 
