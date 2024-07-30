@@ -6,7 +6,7 @@ feature: Push
 role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
+source-git-commit: 0c13ee22a7d40aaa9a8c27d3450ec3275a02748f
 workflow-type: tm+mt
 source-wordcount: '2311'
 ht-degree: 74%
@@ -358,3 +358,4 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 | **[!UICONTROL 通知数]** | アプリケーションアイコンに直接表示する新しい未読情報の数を設定します。これにより、ユーザーは保留中の通知数をすばやく確認できます。 |
 | **[!UICONTROL 可視性]** | 通知の表示レベルを（パブリック、プライベート、秘密）のいずれかに設定します。表示レベルは、通知の内容をロック画面やその他の機密領域にどの程度表示するかを決定します。詳しくは、[FCM ドキュメント](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility)を参照してください。 |
 | **[!UICONTROL アプリケーション変数]** | 通知動作を定義できます。 これらの変数は完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部に含まれます。 |
+
