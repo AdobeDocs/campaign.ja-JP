@@ -11,5 +11,5 @@ jobs:
       - name: 'Auto-assign issue'
         uses: pozil/auto-assign-issue@v1.3.0
         with:
-           repo-token: ${{ secrets.SCCM_LOC_AUTO_ASSIGN_ISSUE_TOKEN }}
-           teams: sccm-loc-vendors-ja-jp
+          repo-token: ${{ secrets.SCCM_LOC_AUTO_ASSIGN_ISSUE_TOKEN }}
+          teams: sccm-loc-vendors-ja-jp
