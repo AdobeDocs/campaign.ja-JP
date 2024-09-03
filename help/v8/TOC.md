@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,23 @@ ht-degree: 100%
       + [BCC アドレスの追加](send/email-bcc.md)
       + [追加のメールパラメーターを定義](send/email-parameters.md)
       + [メールの送信と監視](send/send.md)
-   + [SMS](send/sms.md)
+   + SMS {#sms}
+      + [SMS の基本を学ぶ](send/sms/sms.md)
+      + SMS チャネルの設定 {#config-sms}
+         + [SMPP 外部アカウント設定 ](send/sms/smpp-external-account.md)
+         + [SMS チャネルの特性](send/sms/sms-channel.md)
+         + [SMPP 接続の検証 ](send/sms/smpp-connection.md)
+         + [ スタンドアロンインスタンス ](send/sms/sms-standalone-instance.md)
+         + [ ミッドソーシングインフラストラクチャ ](send/sms/sms-mid-sourcing.md)
+         + [SMPP コネクタの説明 ](send/sms/smpp-connector-delivery.md)
+      + SMS リク {#create-sms} ストの作成
+         + [SMS 配信設定 ](send/sms/sms-delivery-settings.md)
+         + [コンテンツの定義](send/sms/sms-content.md)
+         + [オーディエンスの選択](send/sms/sms-audience.md)
+      + SMS {#validate-sms} ールの検証と送信
+         + [SMS 配達確認の送信 ](send/sms/sms-proofs.md)
+         + [ オーディエンスに送信 ](send/sms/sms-send.md)
+      + [SMS の監視と追跡](send/sms/sms-monitor.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の作成と送信](send/push.md)
       + リッチプッシュ {#rich-push}
@@ -67,10 +83,10 @@ ht-degree: 100%
       + [パーソナライゼーションブロックの使用](send/personalization-blocks.md)
       + [条件の作成](send/conditions.md)
    + 配信の検証と送信 {#validate}
-   + [プレビューと配達確認](send/preview-and-proof.md)
-   + [配信分析](send/delivery-analysis.md)
-   + [配信の設定と送信](send/configure-and-send.md)
-   + [送信時間の最適化](send/predictive.md)
+      + [プレビューと配達確認](send/preview-and-proof.md)
+      + [配信分析](send/delivery-analysis.md)
+      + [配信の設定と送信](send/configure-and-send.md)
+      + [送信時間の最適化](send/predictive.md)
    + 失敗、バウンス、強制隔離{#failures}
       + [強制隔離](send/quarantines.md)
       + [配信の失敗](send/delivery-failures.md)

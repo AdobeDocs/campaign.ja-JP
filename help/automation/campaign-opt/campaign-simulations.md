@@ -4,7 +4,7 @@ title: キャンペーンシミュレーションの基本を学ぶ
 description: キャンペーンのシミュレーションの設定方法を学ぶ
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 100%

@@ -5,10 +5,10 @@ description: ワークフローヒートマップで ワークフローを監視
 feature: Workflows, Heatmap
 role: Admin
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1155'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -69,10 +69,10 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
    >
    >「**[!UICONTROL 最低持続時間]**」フィルターも適用されます。特定のワークフローが見つからない場合は、「最低持続時間」を 0 に再設定して、すべてのワークフローがリストに表示されるようにします。
 
-1. また、**[!UICONTROL ワークフロータイプ]**&#x200B;に基づいてフィルタリングすることも可能です。
+1. **[!UICONTROL ワークフロータイプ]** でフィルタリングすることもできます。
 
-   * **[!UICONTROL テクニカル]**：[ビルトインのテクニカルワークフロー](technical-workflows.md)および[データ管理ワークフロー](targeting-workflows.md#data-management)のみが表示されます。
-   * **[!UICONTROL マーケティング]**：[キャンペーンワークフロー](campaign-workflows.md)と呼ばれる、マーケティングキャンペーンにリンクされたワークフローのみが表示されます。
+   * **[!UICONTROL テクニカル]**: [ ビルトインのテクニカルワークフロー ](technical-workflows.md) および [ データ管理ワークフロー ](targeting-workflows.md#data-management) のみが表示されます。
+   * **[!UICONTROL マーケティング]**: [ キャンペーンワークフロー ](campaign-workflows.md) と呼ばれる、マーケティングキャンペーンにリンクされたワークフローのみが表示されます。
 
 1. 特定のワークフローを名前で検索するには、「**[!UICONTROL ワークフロー名フィルター]**」フィールドも使用できます。
 

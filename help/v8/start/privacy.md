@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -101,7 +101,7 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 
 また、1 つのジョブを複数のインスタンスで実行できます。したがって、1 つのジョブに対して複数のファイルが作成されます。例えば、リクエストに 2 つの名前空間があり、3 つのインスタンスで実行されている場合、合計 6 つのファイルが送信されます。名前空間およびインスタンスごとに 1 つのファイル。
 
-ファイル名のパターンは次のとおりです。`<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
+ファイル名のパターンは `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml` です。
 
 * **InstanceName**：Campaign インスタンス名
 * **NamespaceId**：使用する名前空間の ID サービス名前空間 ID

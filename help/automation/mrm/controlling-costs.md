@@ -5,10 +5,10 @@ description: コスト管理の方法を説明します
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '2498'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. コスト計算方法の定義：サービスプロバイダーのコスト構造を定義します。 [詳細情報](../campaigns/providers-stocks-and-budgets.md)。
 
-1. キャンペーンコスト（配信／タスク）の定義：配信およびタスクにかかるコストは、個別に入力することも、キャンペーンのテンプレートでグローバルに入力することもできます。[詳細情報](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
+1. キャンペーンコスト（配信/タスク）の定義：配信およびタスクにかかるコストは、個別に入力することも、キャンペーンのテンプレートでグローバルに入力することもできます。 [詳細情報](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks)。
 
 1. 統合：コストは、タスク、配信およびキャンペーンの進捗状況ステータスに応じて計算され、対応する予算に紐付けられます。キャンペーンの作成が順調に進んでいる場合、キャンペーン予算の進捗状況ステータスを「**[!UICONTROL 定義済み]**」に変更することができます。プログラムの計算されたコストには、キャンペーンの計算されたコストが自動的に入力されます。[詳細情報](#cost-commitment--calculation-and-charging)。
 

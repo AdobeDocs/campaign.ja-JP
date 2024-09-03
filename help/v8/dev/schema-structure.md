@@ -5,10 +5,10 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1400'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -217,9 +217,9 @@ ht-degree: 100%
 
 フィールドにデフォルト値をリンクするには、`<default>  or  <sqldefault>   field.  </sqldefault> </default>` を使用できます
 
-`<default>`：エンティティを作成時にデフォルト値をフィールドに事前入力できます。値はデフォルトの SQL 値ではありません。
+`<default>`：エンティティを作成時にデフォルト値をフィールドに事前入力できます。 値はデフォルトの SQL 値ではありません。
 
-`<sqldefault>`：フィールドの作成時に値を追加できます。この値は SQL 結果として表示されます。 スキーマを更新時に、この値の影響を受けるのは新しいレコードだけです。
+`<sqldefault>`：フィールドの作成時に値を追加できます。 この値は SQL 結果として表示されます。 スキーマを更新時に、この値の影響を受けるのは新しいレコードだけです。
 
 ### 列挙 {#enumerations}
 

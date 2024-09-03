@@ -3,10 +3,10 @@ title: Adobe Campaign の組み込み配信レポート
 description: Adobe Campaign の組み込み配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 **[!UICONTROL 1.配信統計]**
 
-* **[!UICONTROL 配信メッセージ]**：配信の分析後に配信されるメッセージの合計数。
+* **[!UICONTROL 配信メッセージ数]**：配信の分析後に配信されるメッセージの合計数。
 * **[!UICONTROL 成功]**：正常に処理されたメッセージ数。
 
 **[!UICONTROL 2.受信統計]**
@@ -59,11 +59,11 @@ ht-degree: 100%
 >
 >関連する割合は、正常に転送されたメッセージの数に基づいて計算されます。
 
-* **[!UICONTROL 到達済み母集団のユニーク開封数]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。リンクをクリックするにはメールを開く必要があるので、トラッキングされる URL でのクリック数が考慮されます。
-* **[!UICONTROL 到達済み母集団の開封数の合計]**：ターゲット受信者による開封数の合計の推定値。
+* **[!UICONTROL 母集団のユニーク開封数に達しました]**：メッセージを少なくとも 1 回開封したターゲット受信者数の推定値。 リンクをクリックするにはメールを開く必要があるので、トラッキングされる URL でのクリック数が考慮されます。
+* **[!UICONTROL 母集団の開封数の合計に達しました]**: ターゲット受信者による合計開封数の推定。
 * **[!UICONTROL オプトアウトリンクのクリック数]**：購読解除リンクのクリック数。
-* **[!UICONTROL ミラーページリンクのクリック数]**：[ミラーページ](../send/mirror-page.md)へのリンクのクリック数。考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。
-* **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送されるメール数の推定値。この値は、ユニークユーザーの数とメールをクリックしたユニーク受信者の数を引くことによって計算されます。
+* **[!UICONTROL ミラーページリンクのクリック数]**: [ ミラーページ ](../send/mirror-page.md) へのリンクのクリック数。 考慮されるようにするには、リンクは配信ウィザード（トラッキングされる URL）と同じように定義する必要があります。
+* **[!UICONTROL 推定転送数]**: ターゲット受信者によって転送されるメール数の推定値。 この値は、ユニークユーザーの数とメールをクリックしたユニーク受信者の数を引くことによって計算されます。
 
   >[!NOTE]
   >
@@ -74,9 +74,9 @@ ht-degree: 100%
 この値のテーブルは、インターネットドメインごとの配信、開封数、クリック数および反応率（生データ）を示しています。次の指標が使用されています。
 
 * **[!UICONTROL 送信済み]**：このドメインで送信されたメッセージの合計数。
-* **[!UICONTROL 苦情数]**：受信者によって望ましくないとレポートされた、このドメインのメッセージ数。この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
-* **[!UICONTROL 開封数]**：メッセージを少なくとも 1 回開封した、このドメインのユニークターゲット受信者の数。この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
-* **[!UICONTROL クリック数]**：同じ配信で少なくとも 1 回クリックしたユニークターゲット受信者の数。この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
+* **[!UICONTROL 苦情件数]**：受信者によって望ましくないとレポートされた、このドメインのメッセージ数。 この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
+* **[!UICONTROL 開封数]**：メッセージを少なくとも 1 回開封した、このドメインのユニークターゲット受信者の数。 この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
+* **[!UICONTROL クリック数]**：同じ配信で少なくとも 1 回クリックしたユニークターゲット受信者の数。 この率は、このドメインでの送信メッセージの合計数に基づいて計算されます。
 * **[!UICONTROL 反応率（生データ）]**：配信を少なくとも 1 回開封した受信者数に対する、配信で少なくとも 1 回クリックした受信者数の割合。
 
 >[!NOTE]
@@ -92,20 +92,20 @@ ht-degree: 100%
 >
 >関連する割合は、正常に転送されたメッセージの数に基づいて計算されます。
 
-* **[!UICONTROL 到達済み母集団のユニーククリック数]**：配信で少なくとも 1 回クリックしたユニークユーザーの数。
-* **[!UICONTROL 累積クリック数]**：ターゲット受信者によるクリック総数（購読解除リンクおよびミラーページを除く）。
-* **[!UICONTROL 受信者のクリック数]**：同じ配信で少なくとも 1 回クリックしたユニークターゲット受信者の数。
-* **[!UICONTROL 推定受信者反応率]**：配信を少なくとも 1 回開封した推定受信者数に対する、配信で少なくとも 1 回クリックした受信者数の割合。オプトアウトリンクおよびミラーページリンクでのクリック数は考慮されません。
+* **[!UICONTROL 母集団のユニーククリック数に達しました]**：配信で少なくとも 1 回クリックしたユニークユーザーの数。
+* **[!UICONTROL 累積クリック数]**：購読解除リンクとミラーページを除く、ターゲット受信者によるクリックの合計数。
+* **[!UICONTROL 受信者クリック数]**：同じ配信で少なくとも 1 回クリックしたユニークターゲット受信者の数。
+* **[!UICONTROL 推定受信者の反応度]**：配信を少なくとも 1 回開封した推定受信者数に対する、配信で少なくとも 1 回クリックした受信者数の割合。 オプトアウトリンクおよびミラーページリンクでのクリック数は考慮されません。
 <!--
 **[!UICONTROL 5. Web tracking]**
 
-* **[!UICONTROL Visited pages]** : Number of web pages visited following message reception.
-* **[!UICONTROL Transactions]** : Number of purchases following message reception.
-* **[!UICONTROL Total amount]** : Total amount of purchases following message reception. 
-* **[!UICONTROL Average transaction amount]** : Average purchase made by distinct delivery recipients. 
-* **[!UICONTROL Articles]** : Number of articles purchased by the delivery recipients. 
-* **[!UICONTROL Average count of articles per transaction]** : Average number of items per purchase made by distinct recipients.
-* **[!UICONTROL Average amount per message]** : Average amount of purchases generated per message.
+* **[!UICONTROL Visited pages]**: Number of web pages visited following message reception.
+* **[!UICONTROL Transactions]**: Number of purchases following message reception.
+* **[!UICONTROL Total amount]**: Total amount of purchases following message reception. 
+* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients. 
+* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients. 
+* **[!UICONTROL Average count of articles per transaction]**: Average number of items per purchase made by distinct recipients.
+* **[!UICONTROL Average amount per message]**: Average amount of purchases generated per message.
 
   >[!NOTE]
   >
@@ -125,21 +125,21 @@ You can configure the contents of this report by selecting: the score chart to b
 
 The following rates are displayed in the upper section of the report:
 
-* **[!UICONTROL Reactivity]** : Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery. Clicks on the opt-out link and on the mirror page are not taken into account.
+* **[!UICONTROL Reactivity]**: Ratio of the number of targeted recipients having clicked in a delivery, in relation to the estimated number of targeted recipients having opened a delivery. Clicks on the opt-out link and on the mirror page are not taken into account.
 
   >[!NOTE]
   >
   >For more information on tracking opens, refer to [this section](metrics-calculation.md#tracking-opens-).
 
-* **[!UICONTROL Distinct clicks]** : Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
-* **[!UICONTROL Cumulated clicks]** : Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
+* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
+* **[!UICONTROL Cumulated clicks]**: Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
 
-**[!UICONTROL Platform average]** : This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
+**[!UICONTROL Platform average]**: This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
 
 The central table provides the following information:
 
-* **[!UICONTROL Clicks]** : Number of cumulated clicks, per link. 
-* **[!UICONTROL Clicks (in %)]** : Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
+* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link. 
+* **[!UICONTROL Clicks (in %)]**: Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
 
 **[!UICONTROL Breakdown of clicks in time]**
 
@@ -156,8 +156,8 @@ This chart shows the breakdown of cumulated clicks per day.
 
 このセクションには、2 つの指標があります。
 
-* **[!UICONTROL 初期母集団]**：配信アクションの対象となる受信者の合計数。
-* **[!UICONTROL 除外ルールによって却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブロックリストに登録されているなど）を適用する際、分析中に無視されたアドレスの数。<!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
+* **[!UICONTROL 初期母集団]**：配信のターゲットとなる受信者の合計数。
+* **[!UICONTROL ルールにより却下されたメッセージ]**：タイポロジルール（アドレスが不明、強制隔離された、ブロックリスト上など）を適用する際、分析中に無視されたアドレスの数 <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL 除外の理由]**
 
@@ -167,10 +167,10 @@ This chart shows the breakdown of cumulated clicks per day.
 
 このセクションには、次の指標が含まれます。
 
-* **[!UICONTROL 配信されるメッセージ]**：配信の分析後に配信されるメッセージの合計数。
-* **[!UICONTROL 成功]**：正常に処理されたメッセージ数。付随している率は、配信されるメッセージ数の割合です。
-* **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に累積したエラーの合計数。付随している率は、配信されるメッセージ数の割合です。
-* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）、強制隔離されたアドレスの数。付随している率は、配信されるメッセージ数の割合です。
+* **[!UICONTROL 配信メッセージ数]**：配信の分析後に配信されるメッセージの合計数。
+* **[!UICONTROL 成功]**：正常に処理されたメッセージ数。 関連付けられている割合は、配信されるメッセージ数の比率です。
+* **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に累積したエラーの合計数。 関連付けられている割合は、配信されるメッセージ数の比率です。
+* **[!UICONTROL 新しい強制隔離]**：配信の失敗後に強制隔離されたアドレスの数（不明なユーザー、無効なドメイン）。 関連付けられている割合は、配信されるメッセージ数の比率です。
 
 ## ホットクリック {#hot-clicks}
 
@@ -189,10 +189,10 @@ This chart shows the breakdown of cumulated clicks per day.
 
 このレポートは、値のテーブルと、配信が最大効率に到達するのに必要な時間を表示するパレート図を表示します。次の指標が使用されています。
 
-* **[!UICONTROL 開封数]**：開封されたメッセージの合計数の割合に到達するのに必要な推定時間。テキスト形式のメールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
-* **[!UICONTROL クリック数]**：記録されたクリック総数の割合に到達するのに必要な推定時間。オプトアウトリンクおよびミラーページでのクリック数は考慮されません。
+* **[!UICONTROL 開封数]**：開封されたメッセージの合計数に対する割合に到達するまでに必要な時間の見積もり。 テキスト形式のメールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
+* **[!UICONTROL クリック数]**：記録されたクリック総数に対する割合に到達するまでに要した時間の見積もり。 オプトアウトリンクおよびミラーページでのクリック数は考慮されません。
 <!--
-* **[!UICONTROL Transactions]** : Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]**: Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
 

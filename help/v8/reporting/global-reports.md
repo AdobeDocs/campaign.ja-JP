@@ -4,10 +4,10 @@ description: グローバルレポートへのアクセス方法と使用方法�
 feature: Reporting, Monitoring
 role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1880'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 100%
 >
 >この節では、配信にリンクされたレポートのみを表示しています。
 
-* **[!UICONTROL 配信スループット]**：[配信スループット](#delivery-throughput)を参照してください。
-* **[!UICONTROL ブラウザー]**：[ブラウザー](#browsers)を参照してください。
-* **[!UICONTROL ソーシャルネットワークへの共有]**：[ソーシャルネットワークへの共有](#sharing-to-social-networks)を参照してください。
-* **[!UICONTROL 共有アクティビティの統計]**：[共有アクティビティの統計](#statistics-on-sharing-activities)を参照してください。
-* **[!UICONTROL オペレーティングシステム]**：[オペレーティングシステム](#operating-systems)を参照してください。
-* **[!UICONTROL URL とクリックストリーム]**：[URL とクリックストリーム](delivery-reports.md#urls-and-click-streams)を参照してください。
-* **[!UICONTROL トラッキング指標]**：[トラッキング指標](delivery-reports.md#tracking-indicators)を参照してください。
-* **[!UICONTROL 配信不能件数とバウンス数]**：[配信不能件数とバウンス数](#non-deliverables-and-bounces)を参照してください。
-* **[!UICONTROL ユーザーアクティビティ]**：[ユーザーアクティビティ](#user-activities)を参照してください。
-* **[!UICONTROL 購読のトラッキング]**：[購読のトラッキング](#subscription-tracking)を参照してください。
-* **[!UICONTROL 配信の概要]**：[配信の概要](delivery-reports.md#delivery-summary)を参照してください。
-* **[!UICONTROL 配信統計]**：[配信統計](#delivery-statistics)を参照してください。
-* **[!UICONTROL 開封数の分類]**：[開封数の分類](#breakdown-of-opens)を参照してください。
+* **[!UICONTROL 配信スループット]**:[ 配信スループット ](#delivery-throughput) を参照してください。
+* **[!UICONTROL ブラウザー]**:[ ブラウザー ](#browsers) を参照してください。
+* **[!UICONTROL ソーシャルネットワークへの共有]**:[ ソーシャルネットワークへの共有 ](#sharing-to-social-networks) を参照してください。
+* **[!UICONTROL 共有アクティビティの統計]**:[ 共有アクティビティの統計 ](#statistics-on-sharing-activities) を参照してください。
+* **[!UICONTROL オペレーティングシステム]**:[ オペレーティングシステム ](#operating-systems) を参照してください。
+* **[!UICONTROL URL とクリックストリーム]**:[URL とクリックストリーム ](delivery-reports.md#urls-and-click-streams) を参照してください。
+* **[!UICONTROL トラッキング指標]**:[ トラッキング指標 ](delivery-reports.md#tracking-indicators) を参照してください。
+* **[!UICONTROL 配信不能件数とバウンス数]**:[ 配信不能件数とバウンス数 ](#non-deliverables-and-bounces) を参照してください。
+* **[!UICONTROL ユーザーアクティビティ]**:[ ユーザーアクティビティ ](#user-activities) を参照してください。
+* **[!UICONTROL 購読のトラッキング]**:[ 購読のトラッキング ](#subscription-tracking) を参照してください。
+* **[!UICONTROL 配信の概要]**: [ 配信の概要 ](delivery-reports.md#delivery-summary) を参照してください。
+* **[!UICONTROL 配信統計]**: [ 配信統計 ](#delivery-statistics) を参照してください。
+* **[!UICONTROL 開封の分類]**:[ 開封の分類 ](#breakdown-of-opens) を参照してください。
 
 ## 配信スループット {#delivery-throughput}
 
@@ -60,10 +60,10 @@ ht-degree: 100%
 
 次のオプションを使用できます。
 
-* **[!UICONTROL 開封数]**：開封されたメッセージの合計数。テキスト形式のメールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
-* **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。購読解除のリンクおよびミラーページでのクリック数は考慮されません。
+* **[!UICONTROL 開封数]**：開封されたメッセージの合計数。 テキスト形式のメールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
+* **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。 購読解除のリンクおよびミラーページでのクリック数は考慮されません。
 <!--
-* **[!UICONTROL Transactions]** : Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]**: Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
 ## 配信不能件数とバウンス数 {#non-deliverables-and-bounces}
@@ -89,10 +89,10 @@ ht-degree: 100%
 次の指標が使用されています。
 
 * **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
-* **[!UICONTROL 無効なドメイン]**：メールアドレスが正しくないか存在しないことを示すエラータイプで、配信の送信中に生成される。
-* **[!UICONTROL メールボックス容量超過]**：受信者の受信ボックスにあるメッセージの数が多すぎることを示すエラータイプで、5 回の配信の試行後に生成される。
-* **[!UICONTROL 無効なアカウント]**：アドレスが存在しないことを示すエラータイプで、配信の送信中に生成される。
-* **[!UICONTROL 却下]**：アドレスが IAP（インターネットアクセスプロバイダー）によって却下される場合に生成されるエラータイプ。例えば、セキュリティルールのアプリケーション（スパム対策ソフトウェア）によって却下されるなどがある。
+* **[!UICONTROL 無効なドメイン]**：メールアドレスが正しくないか存在しないことを示すエラータイプ。配信の送信中に生成される。
+* **[!UICONTROL インボックス容量超過]**：受信者のインボックスにあるメッセージの数が多すぎることを示すエラータイプで、5 回の配信の試行後に生成される。
+* **[!UICONTROL 無効なアカウント]**：アドレスが存在しないことを示すエラータイプ。配信の送信中に生成される。
+* **[!UICONTROL 却下]**：アドレスが IAP （インターネットアクセスプロバイダー）によって却下される場合に生成されるエラータイプ。例：セキュリティルールのアプリケーション（スパム対策ソフトウェア）に従って却下される場合など。
 * **[!UICONTROL 未到達]**：SMTP リレーでのインシデント、ドメインへの一時的な未到達など、メッセージ配分文字列で発生するエラータイプ。
 * **[!UICONTROL 未接続]**：受信者の携帯電話の電源が入っていない、または送信時にネットワーク接続が切断されていることを示すエラータイプ。
 
@@ -136,9 +136,9 @@ ht-degree: 100%
 
 次の指標が使用されています。
 
-* **[!UICONTROL 訪問者]**：（インターネットブラウザーごとに）ターゲットに設定され、配信で少なくとも 1 回クリックした受信者の合計数。
-* **[!UICONTROL 閲覧されたページ数]**：すべての配信に対する、（インターネットブラウザーごとの）配信におけるリンクの合計クリック数。
-* **[!UICONTROL 使用率]**：この率は、訪問者の合計数に関する、（インターネットブラウザーごとの）訪問者の分類を示しています。
+* **[!UICONTROL 訪問者]**:（インターネットブラウザーごとに）ターゲット設定され、配信を少なくとも 1 回クリックした受信者の合計数。
+* **[!UICONTROL 表示されたページ数]**：すべての配信に対する配信内のリンクの合計クリック数（インターネットブラウザーあたり）。
+* **[!UICONTROL 使用率]**：この割合は、訪問者の合計数に対する訪問者の（インターネットブラウザーごとの）分類を表します。
 
 **ブラウザーごとの統計**
 
@@ -154,8 +154,8 @@ ht-degree: 100%
 
 値のテーブルでは、次の指標が使用されています。
 
-* **[!UICONTROL グローバルレート]**：この率は、（すべてのブラウザーでの）訪問者の合計数に対する、バージョンごとの訪問者の分類を示しています。
-* **[!UICONTROL 相対的比率]**：この率は、（このブラウザーでの）訪問者の合計数に対する、バージョンごとの訪問者の分類を示しています。
+* **[!UICONTROL グローバル率]**：この率は、（すべてのブラウザーの）訪問者の合計数に対する、バージョンごとの訪問者の分類を表します。
+* **[!UICONTROL 相対率]**：この率は、（このブラウザーの）訪問者総数に対する、バージョンごとの訪問者数の分類を表します。
 
 
 <!--
@@ -171,8 +171,8 @@ This report shows the breakdown of shared and opened messages per social network
 
 In the email delivery statistics, two values are displayed:
 
-* **[!UICONTROL Number of messages to be delivered]** : Total number of messages processed during delivery analysis.
-* **[!UICONTROL Number of successful deliveries]** : Number of messages processed successfully.
+* **[!UICONTROL Number of messages to be delivered]**: Total number of messages processed during delivery analysis.
+* **[!UICONTROL Number of successful deliveries]**: Number of messages processed successfully.
 
 **[!UICONTROL Sharing activities and mail open statistics]**
 
@@ -180,15 +180,15 @@ The central table shows the statistics on email shares and opens.
 
 In the **[!UICONTROL Shares]** column, we have the following indicators:
 
-* **[!UICONTROL No. of sharing activities]** : Total number of messages shared on each social network. This value equals the total number of clicks on the icon of the matching **[!UICONTROL Links for sharing to social networks]** personalization block.
-* **[!UICONTROL Breakdown]** : This rate represents the breakdown of shares per social network, in relation to the total number of shares.
-* **[!UICONTROL Sharing rate]** : This rate represents the breakdown of shares per social network, in relation to the number of messages to be delivered.
+* **[!UICONTROL No. of sharing activities]**: Total number of messages shared on each social network. This value equals the total number of clicks on the icon of the matching **[!UICONTROL Links for sharing to social networks]** personalization block.
+* **[!UICONTROL Breakdown]**: This rate represents the breakdown of shares per social network, in relation to the total number of shares.
+* **[!UICONTROL Sharing rate]**: This rate represents the breakdown of shares per social network, in relation to the number of messages to be delivered.
 
 In the **[!UICONTROL Opens]** column, we have the following indicators:
 
-* **[!UICONTROL No. of opens]** : Total number of messages opened by people whom the message was forwarded to (via the **[!UICONTROL Links for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
-* **[!UICONTROL Breakdown]** : This rate represents the breakdown of opens per social network, in relation to the total number of opens.
-* **[!UICONTROL Rate of opens]** : This rate represents the breakdown of opens per social network, in relation to the total number of shares.
+* **[!UICONTROL No. of opens]**: Total number of messages opened by people whom the message was forwarded to (via the **[!UICONTROL Links for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
+* **[!UICONTROL Breakdown]**: This rate represents the breakdown of opens per social network, in relation to the total number of opens.
+* **[!UICONTROL Rate of opens]**: This rate represents the breakdown of opens per social network, in relation to the total number of shares.
 
 **[!UICONTROL Breakdown of sharing activities and opens]**
 
@@ -205,9 +205,9 @@ Statistics are presented in the form of a table of values and a chart.
 
 The following indicators are used:
 
-* **[!UICONTROL New contacts]** : Number of new subscriptions following the reception of a message shared via email. This value matches the number of people who received a message shared via email, clicked the **[!UICONTROL Subscription link]** and filled in the subscription form. 
-* **[!UICONTROL Opens]** : Total number of messages opened by people whom the message was transferred to (via the **[!UICONTROL Link for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
-* **[!UICONTROL Sharing activities]** : Total number of messages shared via social networks. This value matches the total number of clicks on the icon of the **[!UICONTROL Links for sharing to social networks]** personalization block.
+* **[!UICONTROL New contacts]**: Number of new subscriptions following the reception of a message shared via email. This value matches the number of people who received a message shared via email, clicked the **[!UICONTROL Subscription link]** and filled in the subscription form. 
+* **[!UICONTROL Opens]**: Total number of messages opened by people whom the message was transferred to (via the **[!UICONTROL Link for sharing to social networks]** personalization block). This value equals the number of times the mirror page was displayed. Opens by delivery recipients are not taken into account.
+* **[!UICONTROL Sharing activities]**: Total number of messages shared via social networks. This value matches the total number of clicks on the icon of the **[!UICONTROL Links for sharing to social networks]** personalization block.
 -->
 
 ## オペレーティングシステム {#operating-systems}
@@ -226,9 +226,9 @@ The following indicators are used:
 
 次の指標が使用されています。
 
-* **[!UICONTROL 訪問者]**：配信で少なくとも 1 回クリックした（オペレーティングシステムごとの）ターゲット受信者の合計数の日平均。
-* **[!UICONTROL 閲覧されたページ数]**：すべての配信に対する、（オペレーティングシステムごとの）配信リンクでのクリック総数の日平均。
-* **[!UICONTROL 使用率]**：この率は、訪問者の合計数に関する、（オペレーティングシステムごとの）訪問者の分類を示しています。
+* **[!UICONTROL 訪問者]**：配信で少なくとも 1 回クリックしたターゲット受信者の合計数（オペレーティングシステムあたり）の 1 日当たりの平均。
+* **[!UICONTROL 表示されたページ数]**：すべての配信の（オペレーティングシステムごとの）配信リンクでの 1 日あたりの合計クリック数の平均。
+* **[!UICONTROL 使用率]**：この割合は、訪問者の合計数に対する訪問者の（オペレーティングシステムごとの）分類を表します。
 
 **オペレーティングシステムごとの統計**
 
@@ -244,8 +244,8 @@ The following indicators are used:
 
 値のテーブルでは、次の指標が使用されています。
 
-* **[!UICONTROL グローバルレート]**：この率は、オペレーティングシステム全体での訪問者の合計数に関する、（バージョンごとの）訪問者の分類を示しています。
-* **[!UICONTROL 相対的比率]**：この率は、このオペレーティングシステムでの訪問者の合計数に関する、（バージョンごとの）訪問者の分類を示しています。
+* **[!UICONTROL グローバル率]**：この率は、オペレーティングシステム全体の訪問者の合計数に対する訪問者の（バージョンごとの）分類を表します。
+* **[!UICONTROL 相対率]**：この割合は、このオペレーティングシステムの訪問者の合計数に対する訪問者の（バージョンごとの）分類を表します。
 
 ## 購読のトラッキング {#subscription-tracking}
 
@@ -266,10 +266,9 @@ The following indicators are used:
 
 * **[!UICONTROL 購読者]**：該当する期間中の購読者の合計数。
 * **[!UICONTROL 購読]**：該当する期間中の購読数。
-* **[!UICONTROL 購読解除]**：該当する期間中の購読解除数。
-* **[!UICONTROL 変化]**：購読解除数から購読数を引いた数。この率は、購読者の合計数に基づいて計算されます。
+* **[!UICONTROL 購読解除]**：該当する期間中の購読解除の数。
+* **[!UICONTROL 変化]**：購読解除の数から購読解除の数を引いた数。 この率は、購読者の合計数に基づいて計算されます。
 * **[!UICONTROL ロイヤルティ]**：該当期間のサブスクライバーのロイヤルティ率。
-
 
 **[!UICONTROL 購読変化曲線]**
 

@@ -5,8 +5,8 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: c56f62a2c72598b8779e07de09f3fcfc6f6aade1
-workflow-type: ht
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
 
@@ -235,7 +235,7 @@ Adobe Campaign に追加した JavaScript コードを、**[!UICONTROL JavaScrip
   for (var key in parsedResponse) {
       var value =  parsedResponse[key];
       var marketing = value.entity.consents.marketing;
-      logInfo("User Consent Details : " + JSON.stringify(marketing));   
+      logInfo("User Consent Details: " + JSON.stringify(marketing));   
       if(marketing.hasOwnProperty('email')&&marketing.email.hasOwnProperty('val')&&marketing.email.val=='n'){
       ctx.recipient.@blackListEmail = 1;
       }

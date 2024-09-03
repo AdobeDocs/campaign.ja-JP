@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 99e3643dc8628c5bbf938aac0e32036f4043432b
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 100%
@@ -677,7 +677,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    // define the protocol for the registerDeviceStatus delegate
    @protocol Neolane_SDKDelegate <NSObject>
    @optional
-   - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason;
+   - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason;
    @end
    @interface Neolane_SDK: NSObject {
    } 
@@ -732,7 +732,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
       
       @class LandingPageViewController;
       
-      @interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
+      @interface AppDelegate: UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
           CLLocationManager *locationManager;
           NSString *userKey;
           NSString *mktServerUrl;
@@ -754,7 +754,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
       #import "RootViewController.h"
       ...
       ...
-      - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason
+      - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status:(NSString *) errorReason
       {
           NSLog(@"registerStatus: %lu",status);
       

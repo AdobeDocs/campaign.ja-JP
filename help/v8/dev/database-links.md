@@ -5,10 +5,10 @@ feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
-source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 キャンペーンテーブル / データベースとの結合関係の場合：
 
-* ![](assets/do-not-localize/join_with_campaign11.png)：一対一のカーディナリティ。例えば、受信者と現在の注文。受信者は一度につき、現在の注文テーブルの発生件数 1 回に関連付けることができます
-* ![](assets/do-not-localize/externaljoin11.png)：一対一のカーディナリティ、外部結合。例えば、受信者と、受信者の居住国。受信者は、国テーブルの 1 つにのみ関連付けることができます。国テーブルの内容は保存されません。
-* ![](assets/do-not-localize/join_with_campaign1n.png)：一対多のカーディナリティ。例えば、受信者と購読テーブルなどがあります。受信者は、購読テーブルの複数のオカレンスに関連付けることができます。
+* ![](assets/do-not-localize/join_with_campaign11.png)：一対一のカーディナリティ。 例えば、受信者と現在の注文。受信者は一度につき、現在の注文テーブルの発生件数 1 回に関連付けることができます
+* ![](assets/do-not-localize/externaljoin11.png)：一対一のカーディナリティ、外部結合。 例えば、受信者と、受信者の居住国。受信者は、国テーブルの 1 つにのみ関連付けることができます。国テーブルの内容は保存されません。
+* ![](assets/do-not-localize/join_with_campaign1n.png)：一対多のカーディナリティ。例えば、受信者と購読テーブルなどです。 受信者は、購読テーブルの複数のオカレンスに関連付けることができます。
 
 連合データベースアクセス（FDA）を使用した結合関係の場合：
 

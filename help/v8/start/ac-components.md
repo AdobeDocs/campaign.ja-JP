@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '510'
 ht-degree: 100%
 
 ---
@@ -48,9 +48,9 @@ Campaign web サーバーは、Campaign web プロセスへのアクセスを制
 
 Campaign クライアントコンソールは、SOAP XML over HTTP を使用して web サーバーに接続します。web サーバーはセキュリティレイヤーを提供し、JavaScript を使用してアプリケーションレイヤーにリクエストを渡し、Campaign の内部プロセスは SQL を使用してデータベースにアクセスします。
 
-以下のスタンドアロンデプロイメントの図は、Campaign プロセス間の全体的な通信を示したものです。すべての Campaign コンポーネントが同じマシンにインストールされています。
+<!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 
-![](assets/do-not-localize//ac-standalone.png)
+![](assets/do-not-localize//ac-standalone.png) -->
 
 ユーザーは、HTTP を使用して Campaign アプリケーションサーバーに接続します。すべてのデータと情報は、Campaign データベースで管理されます。Campaign 開発者が設定の変更を行うと、その変更はデータベースに取り込まれます。マーケターが新しいキャンペーンを作成すると、この新しいキャンペーンに関連するすべての情報とデータもデータベースで管理されます。マーケターがキャンペーンを実行すると、メール配信が SMTP サーバーを通じて Campaign サーバーからプロファイルに送信されます。プロファイルがメール配信でインタラクションを行う（メールの開封など）すると、そのトラッキングデータがトラッキングサーバーに送り返されます。
 

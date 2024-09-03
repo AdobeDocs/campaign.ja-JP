@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: c508c80bea39e4fc32786d92d06651a1f91ca697
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
 ### モバイルチャネル {#gs-channel-sms}
 
-Adobe Campaign では、モバイルデバイスに [SMS](../send/sms.md) および [LINE](../send/line.md) メッセージを配信できます。
+Adobe Campaign では、モバイルデバイスに [SMS](../send/sms/sms.md) および [LINE](../send/line.md) メッセージを配信できます。
 
 SMS メッセージの場合、テキスト形式のメッセージのみを作成、変更およびパーソナライズできます。SMS メッセージは、送信前にプレビューすることもできます。
 
@@ -158,7 +158,7 @@ Campaign には 3 つのタイプの配信オブジェクトがあります。
   この[ユースケース：誕生日メールのスケジュール設定と送信方法](../../automation/workflow/send-a-birthday-email.md)も参照してください
 
 
-## パーソナライゼーションを追加{#personalization}
+## パーソナライゼーションの追加{#personalization}
 
 Adobe Campaign が配信するメッセージは、様々な方法でパーソナライズすることができます。[パーソナライゼーション機能の詳細を説明します](../send/personalize.md)
 
