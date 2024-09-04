@@ -4,9 +4,10 @@ description: SMS 配信のコンテンツを設定する方法を学ぶ
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 36bb1e2c9e2391065360c3cd2ad97612373ec0c2
+badge: label="限定提供（LA）" type="Informative"
+source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '245'
 ht-degree: 32%
 
 ---

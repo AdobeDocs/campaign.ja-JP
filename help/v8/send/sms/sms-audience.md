@@ -4,9 +4,10 @@ description: SMS 配信のオーディエンスを設定する方法を学ぶ
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 24a6d56a79995cd0113d8438d1bd3314a3872e35
+badge: label="限定提供（LA）" type="Informative"
+source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '534'
 ht-degree: 17%
 
 ---
