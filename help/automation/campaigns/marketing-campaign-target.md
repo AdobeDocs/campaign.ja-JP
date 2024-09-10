@@ -5,10 +5,10 @@ description: マーケティングキャンペーンのオーディエンスを�
 feature: Campaigns, Audiences
 role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 100%
+source-wordcount: '1573'
+ht-degree: 99%
 
 ---
 
@@ -165,6 +165,10 @@ To build the delivery target, you can define filtering criteria for the recipien
   ワークフローを無条件で停止するには、「**[!UICONTROL アクション]**」アイコンをクリックし、「**[!UICONTROL 無条件停止]**」をクリックします。このアクションにより、キャンペーンワークフローが終了します。
 
   ![](assets/stop_unconditional.png)
+
+  >[!CAUTION]
+  >
+  >無条件停止は、管理者ユーザーに制限されます。
 
 ## コントロール母集団の追加 {#add-a-control-group}
 
