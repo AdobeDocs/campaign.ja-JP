@@ -4,9 +4,9 @@ description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: f25f793c85d1af26f2e36e28830c6192bfbe4ca3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign v8（クライアントコンソール）製品とドキュメン
 
 >[!BEGINTABS]
 
->[!TAB Campaign v8.7.2 リリースはライブです ]
+>[!TAB Campaign v8.7.2 リリースが公開されました]
 
 Adobe Campaign の最新バージョンが公開されました。**限定提供**（LA）でリリースされます。詳しくは、リリースノートを参照してください。
 
