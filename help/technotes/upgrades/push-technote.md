@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 4ef40ff971519c064b980df8235188c717855f27
+source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 100%
+source-wordcount: '1686'
+ht-degree: 85%
 
 ---
 
@@ -56,6 +56,8 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 * Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。ミッドソーシングサーバーは影響を受けません。
 
+* Campaign Classic v7 オンプレミスまたはハイブリッドユーザーの場合は、Android ルーティング外部アカウントが `androidPushConnectorV2.js` で設定されていることを確認します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+
 #### トランジション手順 {#fcm-transition-steps}
 
 環境を HTTP v1 に移行するには、次の手順に従います。
@@ -84,12 +86,73 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
    | データメッセージ | 該当なし | validate_only |
    | 通知メッセージ | title、body、android_channel_id、icon、sound、tag、color、click_action、image、ticker、sticky、visibility、notification_priority、notification_count <br> | validate_only |
 
-1. HTTP v1 のトランジションが完了したら、Android プッシュ通知の&#x200B;**配信テンプレート**&#x200B;を更新して、バッチメッセージの数を増やす必要があります。これを行うには、Android 配信テンプレートのプロパティを参照し、「**配信**」タブで[メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity)を **256** に設定します。この変更を、Android 配信に使用するすべての配信テンプレートと、既存のすべての Android 配信に適用します。
-
 
 >[!NOTE]
 >
->これらの変更をすべてのサーバーに適用すると、Android デバイスへのすべての新しいプッシュ通知配信で HTTP v1 API が使用されます。再試行中、処理中、使用中の既存のプッシュ配信では、HTTP（レガシー）API を引き続き使用します。
+>これらの変更がすべてのサーバーで適用されると、Android デバイスへのすべての **新規** プッシュ通知配信で HTTP v1 API が使用されます。 既存のプッシュ配信が再試行、処理中および使用中の場合は、引き続き HTTP （レガシー） API を使用します。 更新方法については、以下の節を参照してください。
+
+### 既存のテンプレートを更新 {#fcm-transition-update}
+
+HTTP v1 のトランジションが完了したら、Android プッシュ通知の&#x200B;**配信テンプレート**&#x200B;を更新して、バッチメッセージの数を増やす必要があります。これを行うには、Android 配信テンプレートのプロパティを参照し、「**配信**」タブで[メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity)を **256** に設定します。この変更を、Android 配信に使用するすべての配信テンプレートと、既存のすべての Android 配信に適用します。
+
+また、アップグレードの前に作成した既存の配信および配信テンプレートを、HTTP v1 をサポートするバージョンに更新することもできます。 次の手順を実行します。
+
+* Managed Cloud Serviceまたはホステッド環境のお客様は、Adobeに連絡して、既存のAndroid配信テンプレートを更新してください。
+
+* オンプレミス環境の場合は、以下に説明するように `fcm-httpv1-migration.js` スクリプトをダウンロードして実行します。
+
+  [fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js) をダウンロード
+
+  >[!CAUTION]
+  >
+  >スクリプトは、マーケティング、ミッドソーシング、リアルタイム環境で実行する必要があります。
+
+
+  +++既存の配信とテンプレートを更新する手順
+
+  アップグレード前に作成したすべての配信および配信テンプレートを、HTTP v1 をサポートするバージョンにパッチ適用するには、次の手順に従います。
+
+   1. パッケージ内の既存の配信および配信テンプレートを書き出して、パッチ適用中に予期しない問題が発生した場合に復元できるようにします。
+   1. Posgresql で次のコマンドを実行します。
+
+      ```sql
+      pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
+      ```
+
+   1. デフォルトでは、スクリプトは `dryrun` モードで実行され、一部の配信にパッチを適用する必要があるかどうかを確認します。
+
+      コマンド
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
+      ```
+
+      出力
+
+      ```sql
+      ...
+      HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      ...
+      HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
+      HH:MM:SS >>  - X had not patchable androidCheckParams formula!
+      HH:MM:SS >   - Y had androidCheckParams formula patched.
+      HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
+      ```
+
+      >[!NOTE]
+      >
+      >`not patchable` 件の配信は手動で更新する必要があります。 ID はログに記録されます。
+
+   1. 配信を更新するには、次の方法で実行モードでスクリプトを実行します。
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
+      ```
+
++++
 
 ### Android アプリに対する影響 {#fcm-apps}
 
