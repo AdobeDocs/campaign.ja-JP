@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
+source-git-commit: e7f0f20deb930be2a3b2f798f70d17644c646fb6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1689'
 ht-degree: 85%
 
 ---
@@ -91,7 +91,7 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 >
 >これらの変更がすべてのサーバーで適用されると、Android デバイスへのすべての **新規** プッシュ通知配信で HTTP v1 API が使用されます。 既存のプッシュ配信が再試行、処理中および使用中の場合は、引き続き HTTP （レガシー） API を使用します。 更新方法については、以下の節を参照してください。
 
-### 既存のテンプレートを更新 {#fcm-transition-update}
+#### 既存のテンプレートを更新 {#fcm-transition-update}
 
 HTTP v1 のトランジションが完了したら、Android プッシュ通知の&#x200B;**配信テンプレート**&#x200B;を更新して、バッチメッセージの数を増やす必要があります。これを行うには、Android 配信テンプレートのプロパティを参照し、「**配信**」タブで[メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity)を **256** に設定します。この変更を、Android 配信に使用するすべての配信テンプレートと、既存のすべての Android 配信に適用します。
 
@@ -99,16 +99,16 @@ HTTP v1 のトランジションが完了したら、Android プッシュ通知�
 
 * Managed Cloud Serviceまたはホステッド環境のお客様は、Adobeに連絡して、既存のAndroid配信テンプレートを更新してください。
 
-* オンプレミス環境の場合は、以下に説明するように `fcm-httpv1-migration.js` スクリプトをダウンロードして実行します。
+* オンプレミス環境の場合は、`fcm-httpv1-migration.js` スクリプトをダウンロードし、以下に説明するように実行します。
 
-  [fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js) をダウンロード
+  [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration.zip) をダウンロード
 
   >[!CAUTION]
   >
   >スクリプトは、マーケティング、ミッドソーシング、リアルタイム環境で実行する必要があります。
 
 
-  +++既存の配信とテンプレートを更新する手順
+  +++既存の配信とテンプレートを更新する手順（オンプレミスのみ）
 
   アップグレード前に作成したすべての配信および配信テンプレートを、HTTP v1 をサポートするバージョンにパッチ適用するには、次の手順に従います。
 
