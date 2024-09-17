@@ -8,7 +8,7 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: e7f0f20deb930be2a3b2f798f70d17644c646fb6
+source-git-commit: a6a1af4e0255a2fec359c415cbbf45da2e4baf67
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 85%
@@ -101,7 +101,7 @@ HTTP v1 のトランジションが完了したら、Android プッシュ通知�
 
 * オンプレミス環境の場合は、`fcm-httpv1-migration.js` スクリプトをダウンロードし、以下に説明するように実行します。
 
-  [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration.zip) をダウンロード
+  [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip) をダウンロード
 
   >[!CAUTION]
   >
