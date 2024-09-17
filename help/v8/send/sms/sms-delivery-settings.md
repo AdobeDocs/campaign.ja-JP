@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="限定提供（LA）" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
+source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 14%
 
 ---
-
 
 # SMS 配信設定 {#sms-settings}
 
@@ -55,12 +55,12 @@ SMS 配信に必要な技術的な設定は、次のとおりです。
 
 * **[!UICONTROL 伝送モード]**
 
-このフィールドは、転送したい SMS の種類を示します。通常またはフラッシュメッセージ、モバイルまたは SIM カードに保存します。 この設定は、SUBMIT_SM PDU の dest_addr_subunit オプションフィールドに送信されます。
+  このフィールドは、転送したい SMS の種類を示します。通常またはフラッシュメッセージ、モバイルまたは SIM カードに保存します。 この設定は、SUBMIT_SM PDU の dest_addr_subunit オプションフィールドに送信されます。
 
-* 「**Flash**」の場合、値を 1 に設定します。携帯電話上でポップアップ表示され、メモリには保存されない Flash メッセージを送信します。
-* 「**通常**」の場合、値を 0 に設定します。通常のメッセージを送信します。
-* 「**携帯電話に保存**」の場合、値を 2 に設定します。SMS を内部メモリに保存するよう電話に指示します。
-* 「**ターミナルに保存**」の場合、値を 3 に設定します。SIM カードに SMS を格納するよう電話に指示します。
+   * 「**Flash**」の場合、値を 1 に設定します。携帯電話上でポップアップ表示され、メモリには保存されない Flash メッセージを送信します。
+   * 「**通常**」の場合、値を 0 に設定します。通常のメッセージを送信します。
+   * 「**携帯電話に保存**」の場合、値を 2 に設定します。SMS を内部メモリに保存するよう電話に指示します。
+   * 「**ターミナルに保存**」の場合、値を 3 に設定します。SIM カードに SMS を格納するよう電話に指示します。
 
 * **[!UICONTROL 優先度、通信タイプ]**
 
@@ -103,7 +103,7 @@ SMS 配信に必要な技術的な設定は、次のとおりです。
 
 1. 配信ダッシュボードや **[!UICONTROL エクスプローラー]** の配信フォルダーなど、新しい配信を作成します。  デフォルトでは、「メール配信」というラベルが付きます。
 
-1. SMS 送信用に作成した配信テンプレートを選択します。 [ 詳細はこちら ](sms-mid-sourcing.md#sms-delivery-template)。
+1. SMS 送信用に作成した配信テンプレートを選択します。 [詳しくは、こちらを参照してください](sms-mid-sourcing.md#sms-delivery-template)。
 
    ![](assets/sms_create.png){zoomable="yes"}
 
