@@ -3,10 +3,10 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: f25f793c85d1af26f2e36e28830c6192bfbe4ca3
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Campaign の最新バージョンが公開されました。**限定提供
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>開発者リソース</strong><br/><a href="dev/datamodel.md">Campaign v8 データモデル</a> - <a href="dev/schemas.md">スキーマ</a> - <a href="dev/api.md">API</a>
+      <strong> 開発者リソース </strong><br/><a href="dev/datamodel.md">Campaign v8 データモデル </a> - <a href="dev/schemas.md"> スキーマ </a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>

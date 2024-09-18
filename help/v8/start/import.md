@@ -5,10 +5,10 @@ feature: Profiles, Data Management
 role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Campaign を使用すると、クラウドデータベースに連絡先を追�
 
 [オーディエンス](audiences.md)の概要
 
-Campaign [データモデル](../dev/datamodel.md)について
+Campaign について [ データモデル ](../dev/datamodel.md)
 
 ## ワークフローへのプロファイルのインポート
 

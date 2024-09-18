@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Adobe Campaign にユーザーを追加する方法については、[この節]
 
    Adobe Campaign には、事前定義済みのデータモデルが付属しています。環境を実装およびカスタマイズするには、Adobe Campaign データモデルのビルトインテーブルとそれらの関係を理解しておく必要があります。
 
-   [Campaign データモデルの詳細情報](../dev/datamodel.md)。
+   [Campaign データモデルの詳細情報 ](../dev/datamodel.md)。
 
 ## インスタンスのカスタマイズ{#implementation-custom-your-instance}
 
@@ -110,7 +110,7 @@ Campaign の様々な領域や機能をカスタマイズできます。ほと�
 
    Adobe Campaign には、受信者、配信ログ、購読などのデータを識別するための一般的なスキーマが用意されています。
 
-   [Campaign の組み込みデータモデル](../dev/datamodel.md)について詳しくは、この節を参照してください。
+   [Campaign のビルトインデータモデル ](../dev/datamodel.md) の詳細については、この節を参照してください。
 
    既存のスキーマを拡張したり、新しいスキーマをゼロから作成したりできます。詳しくは、[このページ](../dev/customize.md)を参照してください。
 
