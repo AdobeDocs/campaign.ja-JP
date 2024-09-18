@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a6a1af4e0255a2fec359c415cbbf45da2e4baf67
+source-git-commit: aba0048e5aff1caa2067eb61d26548b08a3deb36
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 85%
+source-wordcount: '1720'
+ht-degree: 81%
 
 ---
 
@@ -48,15 +48,19 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 #### 前提条件 {#fcm-transition-prerequisites}
 
-* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 へのトランジションの前提条件は、環境を[最新の Campaign Classic ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
-
 * モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup?hl=ja#initialize-sdk){target="_blank"}を参照してください。
 
-* ハイブリッド、ホストおよび Managed Services のデプロイメントの場合は、以下のトランジション手順に加えて、アドビに連絡してリアルタイム（RT）実行サーバーを更新してください。ミッドソーシングサーバーは影響を受けません。
+* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 へのトランジションの前提条件は、環境を[最新の Campaign Classic ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
 
-* Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。ミッドソーシングサーバーは影響を受けません。
+* Campaign Classic v7 オンプレミスユーザーは、マーケティングサーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。
 
-* Campaign Classic v7 オンプレミスまたはハイブリッドユーザーの場合は、Android ルーティング外部アカウントが `androidPushConnectorV2.js` で設定されていることを確認します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+* ハイブリッド、ホスト、およびマネージドCloud Serviceのデプロイメントの場合、以下の移行手順に加えて、Adobeに連絡してリアルタイム（RT）実行サーバーを更新してください。
+
+* Android ルーティング外部アカウントについて：
+
+   * Campaign Classic v7 オンプレミスまたはハイブリッドユーザーの場合は、Android ルーティング外部アカウントが `androidPushConnectorV2.js` で設定されていることを確認します。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}を参照してください。
+
+   * ハイブリッド、ホスト型およびマネージドCloud Serviceのデプロイメントの場合、ミッドソーシングサーバーのAndroid ルーティング外部アカウントで `androidPushConnectorV2.js (nms)` コネクタが選択されていることを検証するために、Adobeカスタマーケアチームにも接続する必要があります。
 
 #### トランジション手順 {#fcm-transition-steps}
 
@@ -105,7 +109,7 @@ HTTP v1 のトランジションが完了したら、Android プッシュ通知�
 
   >[!CAUTION]
   >
-  >スクリプトは、マーケティング、ミッドソーシング、リアルタイム環境で実行する必要があります。
+  >スクリプトは、マーケティングインスタンスで実行する必要があります。
 
 
   +++既存の配信とテンプレートを更新する手順（オンプレミスのみ）
