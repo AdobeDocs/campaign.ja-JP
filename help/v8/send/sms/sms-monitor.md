@@ -1,23 +1,23 @@
 ---
-title: SMS の監視とトラッキング
+title: SMS の監視と追跡
 description: SMS 配信の監視とトラッキングについて
 feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="限定提供（LA）" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
-workflow-type: tm+mt
+exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# SMS の監視と追跡
 
-# SMS の監視とトラッキング
+マーケティングキャンペーンが効率的であることを確認するには、SMS 配信を監視することが重要です。
 
-マーケティングキャンペーンの効率を確保するには、SMS 配信を監視することが重要です。
-
-ここでは、配信を送信した後の動作を確認する必要があります
+配信を送信した後に確認する必要がある情報を以下に示します
 
 ## SMS 配信ダッシュボードについて
 
@@ -25,31 +25,30 @@ ht-degree: 0%
 
 ダッシュボードにアクセスするには、配信リストで配信をダブルクリックします。
 
-「**[!UICONTROL 概要]**」タブには、処理されたメッセージの数や成功の数などのメインデータがあります。
+「**[!UICONTROL 概要]**」タブには、処理されたメッセージの数や成功の数などの主なデータが表示されます。
 
 ![](assets/sms_summary.png){zoomable="yes"}
 
-SMS の送信後、配信のコンテンツに関する「**[!UICONTROL SMS]**」タブに変更をアクセスできなくなります。
+SMS の送信後は、配信のコンテンツに関する「**[!UICONTROL SMS]**」タブにアクセスして変更することはできなくなります。
 
-「**[!UICONTROL 配信]**」タブには、配信ログに関する情報が表示されます。 連絡されたアドレスごとに、SMS が送信されたかどうかを確認できます
+「**[!UICONTROL 配信]**」タブには、配信ログに関する情報が表示されます。連絡先アドレスごとに、SMS が送信されたかどうかを確認できます
 
 ![](assets/sms_deliverylogs.png){zoomable="yes"}
 
-一部のアドレスがターゲットから除外されている理由の詳細は、「**[!UICONTROL 除外]**」タブに表示されます。
+「**[!UICONTROL 除外]**」タブでは、一部のアドレスがターゲットから除外される理由の詳細を確認できます。
 
 ![](assets/sms_exclusions.png){zoomable="yes"}
 
-「**[!UICONTROL トラッキング]** タブは、トラッキングに関する項目です。 以下は、SMS コンテンツでトラッキングされる URL の例です。
+「**[!UICONTROL トラッキング]**」タブには、トラッキングに関する情報が表示されます。SMS コンテンツで追跡される URL の例を以下に示します。
 
 ![](assets/sms_trackinglogs.png){zoomable="yes"}
 
-最後に、配信のローンチ中にすべての詳細が表示される **[!UICONTROL 監査]** タブ：
+最後に、配信のローンチ中の詳細がすべて表示される「**[!UICONTROL 監査]**」タブを以下に示します。
 
 ![](assets/sms_audit.png){zoomable="yes"}
 
-## SMS エラーについて
+## SMS のエラーについて
 
-SMS の失敗のタイプと理由は、メールの場合と同じです。
+SMS のエラーのタイプと理由はメールの場合と同じです。
 
-[ 配信エラー ](../delivery-failures.md)、特に [SMS 強制隔離 ](../delivery-failures.md#sms-quarantines) の詳細を説明します。
-
+詳しくは、[配信エラー](../delivery-failures.md)と、特に [SMS 強制隔離](../delivery-failures.md#sms-quarantines)を参照してください。

@@ -6,9 +6,9 @@ feature: Distributed Marketing
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 98%
 キャンペーンワークフローに、**ローカルの承認**&#x200B;タイプのアクティビティを組み込む必要があります。次のようなアクティビティパラメーターがあります。
 
 * **[!UICONTROL 実行するアクション]**：ターゲットの承認通知。
-* **[!UICONTROL 配分コンテキスト]**：明示的。
-* **[!UICONTROL データ配分]**: ローカルエンティティの配分。
+* **[!UICONTROL 配分のコンテキスト]**：明示的。
+* **[!UICONTROL データ配分]**：ローカルエンティティの配分。
 
 **ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。データ配分について詳しくは、
 

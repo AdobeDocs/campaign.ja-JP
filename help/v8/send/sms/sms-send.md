@@ -1,31 +1,31 @@
 ---
-title: オーディエンスに送信される SMS
-description: オーディエンスに SMS 配信を送信する方法を学ぶ
+title: オーディエンスへの SMS の送信
+description: オーディエンスへの SMS 配信の送信方法について説明します
 feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="限定提供（LA）" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
-workflow-type: tm+mt
+exl-id: 9469aeb6-831f-4c8f-8c25-b335dc47c764
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # オーディエンスへの SMS 配信の送信 {#sms-send-audience}
 
-SMS が検証されたら、オーディエンスに送信できるようになりました。
+SMS が検証されると、オーディエンスに送信できるようになります。
 
-1. 「**[!UICONTROL 送信]** ボタンをクリックします。
-開いたウィンドウで、あなたに合った適切なアクションを選択してください。
+1. 「**[!UICONTROL 送信]**」ボタンをクリックします。
+開いたウィンドウで、自分に合った適切なアクションを選択します。
 
-   以下の例では、**[!UICONTROL できるだけ早く配信]** することを選択し、**[!UICONTROL 分析]** ボタンが表示されました。 その **[!UICONTROL 分析]** ボタンをクリックします。
+   以下の例では、「**[!UICONTROL 可能な限り早く配信]**」を選択すると、「**[!UICONTROL 分析]**」ボタンが表示されます。その「**[!UICONTROL 分析]**」ボタンをクリックします。
 
    ![](assets/send_action.png){zoomable="yes"}
 
-   Adobe Campaignは、配達確認の送信を検証する前に、すべてのコントロールを実行します。 そこにオーディエンスの本当のボリュームが表示されます。 分析の最後に、「**[!UICONTROL 配信を確定]** ボタンがクリック可能になります。
+   Adobe Campaign では、配達確認の送信を検証する前にすべてのコントロールを実行します。実際のオーディエンスのボリュームがそこに表示されます。分析の最後に表示される「**[!UICONTROL 配信を確定]**」ボタンがクリックできるようになります。
 
    ![](assets/send_analyze.png){zoomable="yes"}
 
-1. SMS 配信をオーディエンスに送信するには、「**[!UICONTROL 配信を確認]**」ボタンをクリックします。
+1. オーディエンスに SMS 配信を送信するには、「**[!UICONTROL 配信を確定]**」ボタンをクリックします。

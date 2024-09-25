@@ -5,9 +5,9 @@ feature: Reporting, Monitoring
 role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1880'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 78%
 >
 >この節では、配信にリンクされたレポートのみを表示しています。
 
-* **[!UICONTROL 配信スループット]**:[ 配信スループット ](#delivery-throughput) を参照してください。
-* **[!UICONTROL ブラウザー]**:[ ブラウザー ](#browsers) を参照してください。
-* **[!UICONTROL ソーシャルネットワークへの共有]**:[ ソーシャルネットワークへの共有 ](#sharing-to-social-networks) を参照してください。
-* **[!UICONTROL 共有アクティビティの統計]**:[ 共有アクティビティの統計 ](#statistics-on-sharing-activities) を参照してください。
-* **[!UICONTROL オペレーティングシステム]**:[ オペレーティングシステム ](#operating-systems) を参照してください。
-* **[!UICONTROL URL とクリックストリーム]**:[URL とクリックストリーム ](delivery-reports.md#urls-and-click-streams) を参照してください。
-* **[!UICONTROL トラッキング指標]**:[ トラッキング指標 ](delivery-reports.md#tracking-indicators) を参照してください。
-* **[!UICONTROL 配信不能件数とバウンス数]**:[ 配信不能件数とバウンス数 ](#non-deliverables-and-bounces) を参照してください。
-* **[!UICONTROL ユーザーアクティビティ]**:[ ユーザーアクティビティ ](#user-activities) を参照してください。
-* **[!UICONTROL 購読のトラッキング]**:[ 購読のトラッキング ](#subscription-tracking) を参照してください。
-* **[!UICONTROL 配信の概要]**: [ 配信の概要 ](delivery-reports.md#delivery-summary) を参照してください。
-* **[!UICONTROL 配信統計]**: [ 配信統計 ](#delivery-statistics) を参照してください。
-* **[!UICONTROL 開封の分類]**:[ 開封の分類 ](#breakdown-of-opens) を参照してください。
+* **[!UICONTROL 配信スループット]**：[配信スループット](#delivery-throughput)を参照してください。
+* **[!UICONTROL ブラウザー]**：[ブラウザー](#browsers)を参照してください。
+* **[!UICONTROL ソーシャルネットワークへの共有]**：[ソーシャルネットワークへの共有](#sharing-to-social-networks)を参照してください。
+* **[!UICONTROL 共有アクティビティの統計]**：[共有アクティビティの統計](#statistics-on-sharing-activities)を参照してください。
+* **[!UICONTROL オペレーティングシステム]**：[オペレーティングシステム](#operating-systems)を参照してください。
+* **[!UICONTROL URL とクリックストリーム]**：[URL とクリックストリーム](delivery-reports.md#urls-and-click-streams)を参照してください。
+* **[!UICONTROL トラッキング指標]**：[トラッキング指標](delivery-reports.md#tracking-indicators)を参照してください。
+* **[!UICONTROL 配信不能件数とバウンス数]**：[配信不能件数とバウンス数](#non-deliverables-and-bounces)を参照してください。
+* **[!UICONTROL ユーザーアクティビティ]**：[ユーザーアクティビティ](#user-activities)を参照してください。
+* **[!UICONTROL 購読のトラッキング]**：[購読のトラッキング](#subscription-tracking)を参照してください。
+* **[!UICONTROL 配信の概要]**：[配信の概要](delivery-reports.md#delivery-summary)を参照してください。
+* **[!UICONTROL 配信統計]**：[配信統計](#delivery-statistics)を参照してください。
+* **[!UICONTROL 開封数の分類]**：[開封数の分類](#breakdown-of-opens)を参照してください。
 
 ## 配信スループット {#delivery-throughput}
 
@@ -60,8 +60,8 @@ ht-degree: 78%
 
 次のオプションを使用できます。
 
-* **[!UICONTROL 開封数]**：開封されたメッセージの合計数。 テキスト形式のメールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
-* **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。 購読解除のリンクおよびミラーページでのクリック数は考慮されません。
+* **[!UICONTROL 開封数]**：開封されたメッセージの合計数。テキスト形式のメールは考慮されません。[詳細情報](metrics-calculation.md#tracking-opens-)。
+* **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。購読解除のリンクおよびミラーページでのクリック数は考慮されません。
 <!--
 * **[!UICONTROL Transactions]**: Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
@@ -90,9 +90,9 @@ ht-degree: 78%
 
 * **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
 * **[!UICONTROL 無効なドメイン]**：メールアドレスが正しくないか存在しないことを示すエラータイプ。配信の送信中に生成される。
-* **[!UICONTROL インボックス容量超過]**：受信者のインボックスにあるメッセージの数が多すぎることを示すエラータイプで、5 回の配信の試行後に生成される。
+* **[!UICONTROL メールボックス容量超過]**：受信者の受信ボックスにあるメッセージの数が多すぎることを示すエラータイプで、5 回の配信の試行後に生成される。
 * **[!UICONTROL 無効なアカウント]**：アドレスが存在しないことを示すエラータイプ。配信の送信中に生成される。
-* **[!UICONTROL 却下]**：アドレスが IAP （インターネットアクセスプロバイダー）によって却下される場合に生成されるエラータイプ。例：セキュリティルールのアプリケーション（スパム対策ソフトウェア）に従って却下される場合など。
+* **[!UICONTROL 却下]**：アドレスが IAP（インターネットアクセスプロバイダー）によって却下される場合に生成されるエラータイプ。例えば、セキュリティルールのアプリケーション（スパム対策ソフトウェア）によって却下された場合に生成される。
 * **[!UICONTROL 未到達]**：SMTP リレーでのインシデント、ドメインへの一時的な未到達など、メッセージ配分文字列で発生するエラータイプ。
 * **[!UICONTROL 未接続]**：受信者の携帯電話の電源が入っていない、または送信時にネットワーク接続が切断されていることを示すエラータイプ。
 
@@ -136,9 +136,9 @@ ht-degree: 78%
 
 次の指標が使用されています。
 
-* **[!UICONTROL 訪問者]**:（インターネットブラウザーごとに）ターゲット設定され、配信を少なくとも 1 回クリックした受信者の合計数。
-* **[!UICONTROL 表示されたページ数]**：すべての配信に対する配信内のリンクの合計クリック数（インターネットブラウザーあたり）。
-* **[!UICONTROL 使用率]**：この割合は、訪問者の合計数に対する訪問者の（インターネットブラウザーごとの）分類を表します。
+* **[!UICONTROL 訪問者]**：（インターネットブラウザーごとに）ターゲットに設定され、配信で少なくとも 1 回クリックした受信者の合計数。
+* **[!UICONTROL 閲覧されたページ数]**：すべての配信における、（インターネットブラウザーごとの）配信内のリンクの合計クリック数。
+* **[!UICONTROL 使用率]**：この率は、訪問者の合計数に対する（インターネットブラウザーごとの）訪問者の分類を示しています。
 
 **ブラウザーごとの統計**
 
@@ -154,8 +154,8 @@ ht-degree: 78%
 
 値のテーブルでは、次の指標が使用されています。
 
-* **[!UICONTROL グローバル率]**：この率は、（すべてのブラウザーの）訪問者の合計数に対する、バージョンごとの訪問者の分類を表します。
-* **[!UICONTROL 相対率]**：この率は、（このブラウザーの）訪問者総数に対する、バージョンごとの訪問者数の分類を表します。
+* **[!UICONTROL グローバルレート]**：この率は、（すべてのブラウザーでの）訪問者の合計数に対する、バージョンごとの訪問者の分類を示しています。
+* **[!UICONTROL 相対的比率]**：この率は、（このブラウザーでの）訪問者の合計数に対する、バージョンごとの訪問者の分類を示しています。
 
 
 <!--
@@ -226,9 +226,9 @@ The following indicators are used:
 
 次の指標が使用されています。
 
-* **[!UICONTROL 訪問者]**：配信で少なくとも 1 回クリックしたターゲット受信者の合計数（オペレーティングシステムあたり）の 1 日当たりの平均。
-* **[!UICONTROL 表示されたページ数]**：すべての配信の（オペレーティングシステムごとの）配信リンクでの 1 日あたりの合計クリック数の平均。
-* **[!UICONTROL 使用率]**：この割合は、訪問者の合計数に対する訪問者の（オペレーティングシステムごとの）分類を表します。
+* **[!UICONTROL 訪問者]**：配信で少なくとも 1 回クリックした（オペレーティングシステムごとの）ターゲット受信者の合計数の日平均。
+* **[!UICONTROL 閲覧されたページ数]**：すべての配信に対する、（オペレーティングシステムごとの）配信リンクのクリック総数の日平均。
+* **[!UICONTROL 使用率]**：この率は、訪問者の合計数に対する、（オペレーティングシステムごとの）訪問者の分類を示しています。
 
 **オペレーティングシステムごとの統計**
 
@@ -244,8 +244,8 @@ The following indicators are used:
 
 値のテーブルでは、次の指標が使用されています。
 
-* **[!UICONTROL グローバル率]**：この率は、オペレーティングシステム全体の訪問者の合計数に対する訪問者の（バージョンごとの）分類を表します。
-* **[!UICONTROL 相対率]**：この割合は、このオペレーティングシステムの訪問者の合計数に対する訪問者の（バージョンごとの）分類を表します。
+* **[!UICONTROL グローバルレート]**：この率は、オペレーティングシステム全体での訪問者の合計数に対する、（バージョンごとの）訪問者の分類を示しています。
+* **[!UICONTROL 相対的比率]**：この率は、このオペレーティングシステムでの訪問者の合計数に対する、（バージョンごとの）訪問者の分類を示しています。
 
 ## 購読のトラッキング {#subscription-tracking}
 
@@ -266,9 +266,9 @@ The following indicators are used:
 
 * **[!UICONTROL 購読者]**：該当する期間中の購読者の合計数。
 * **[!UICONTROL 購読]**：該当する期間中の購読数。
-* **[!UICONTROL 購読解除]**：該当する期間中の購読解除の数。
-* **[!UICONTROL 変化]**：購読解除の数から購読解除の数を引いた数。 この率は、購読者の合計数に基づいて計算されます。
-* **[!UICONTROL ロイヤルティ]**：該当期間のサブスクライバーのロイヤルティ率。
+* **[!UICONTROL 購読解除]**：該当する期間中の購読解除数。
+* **[!UICONTROL 変化]**：購読解除数から購読数を引いた数。この率は、購読者の合計数に基づいて計算されます。
+* **[!UICONTROL ロイヤルティ]**：該当する期間中の購読者のロイヤリティ率。
 
 **[!UICONTROL 購読変化曲線]**
 
@@ -293,7 +293,7 @@ The following indicators are used:
 
 * **[!UICONTROL 開封数]**：正常に処理されたメッセージ数に対する、メッセージを少なくとも 1 回開封したターゲット受信者数の割合。
 * **[!UICONTROL クリック数]**：正常に処理されたメッセージ数に対する、配信で少なくとも 1 回クリックしたユーザー数の割合。
-* **[!UICONTROL 購読解除]**：正常に処理されたメッセージ数に対する、購読解除リンクでのクリック数の割合。
+* **[!UICONTROL 購読解除]**：正常に処理されたメッセージ数に対する、購読解除リンクのクリック数の割合。
 
 ## 開封数の分類 {#breakdown-of-opens}
 

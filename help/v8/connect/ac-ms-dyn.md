@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ Microsoft Dynamics 365 でサポートされる／サポートされない属性
 
 | 属性タイプ | サポート対象 |
 | --------------------------------------------------------------------------------- | --------- |
-| 基本型：boolean、datetime、decimal、float、double、integer、bigint、string | はい |
+| 基本型：ブール、日時、小数、浮動小数点数、倍精度浮動小数点数、整数、bigint、文字列 | はい |
 | 金額（倍精度浮動小数点数） | はい |
 | memo、entityname、primarykey、uniqueidentifier（文字列） | はい |
 | ステータス、ピックリスト（使用可能な値を列挙型に格納）、ステート（文字列） | はい |

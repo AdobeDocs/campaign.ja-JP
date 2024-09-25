@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '927'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -117,10 +117,10 @@ ht-degree: 96%
 
 1. オファーコンテンツの各種パラメーターに値を入力します。
 
-   * **[!UICONTROL タイトル]**：オファーに表示するタイトルを指定します。 警告：これは、「**[!UICONTROL 一般]**」タブで定義されるオファーのラベルとは異なります。
-   * **[!UICONTROL 宛先 URL]**：オファーの URL を指定します。 「http://」または「https://」で始める必要があります。
+   * **[!UICONTROL タイトル]**：オファーに表示させるタイトルを指定します。警告：これは、「**[!UICONTROL 一般]**」タブで定義されるオファーのラベルとは異なります。
+   * **[!UICONTROL 宛先 URL]**：オファーの URL を指定します。「http://」または「https://」で始める必要があります。
    * **[!UICONTROL 画像 URL]**：オファーの画像を示す URL またはアクセスパスを指定します。
-   * **[!UICONTROL HTMLコンテンツ]** / **[!UICONTROL テキストコンテンツ]**：必要なタブにオファーの本文を入力します。 トラッキングを生成するには、**[!UICONTROL HTML コンテンツ]**&#x200B;が、`<div>` タイプの要素に含めることができる HTML 要素で構成されている必要があります。例えば、HTML ページ内の `<table>` 要素の結果は次のようになります。
+   * **[!UICONTROL HTML コンテンツ]**／**[!UICONTROL テキストコンテンツ]**：オファーの本文を、目的のタブに入力します。トラッキングを生成するには、**[!UICONTROL HTML コンテンツ]**&#x200B;が、`<div>` タイプの要素に含めることができる HTML 要素で構成されている必要があります。例えば、HTML ページ内の `<table>` 要素の結果は次のようになります。
 
    ```
       <div> 

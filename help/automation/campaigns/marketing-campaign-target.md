@@ -6,9 +6,9 @@ feature: Campaigns, Audiences
 role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 ## グループへの送信{#send-to-a-group}
 
-母集団をリストにインポートしてから、このリストを配信のターゲットにすることができます。 それには、次の手順に従います。
+母集団をリストにインポートしてから、このリストを配信のターゲットにすることができます。 これを行うには、次の手順に従います。
 
 1. 配信を編集し、「**[!UICONTROL 宛先]**」リンクをクリックしてターゲット母集団を変更します。
 1. 「**[!UICONTROL メインターゲット]**」タブで「**[!UICONTROL データベースで定義]**」オプションを選択し、「**[!UICONTROL 追加]**」をクリックして、受信者を選択します。
@@ -168,7 +168,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
   >[!CAUTION]
   >
-  >無条件停止は、管理者ユーザーに制限されます。
+  >無条件停止は、管理者ユーザーに限定されています。
 
 ## コントロール母集団の追加 {#add-a-control-group}
 
