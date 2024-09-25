@@ -8,7 +8,7 @@ breadcrumb-title: Campaign v8 ドキュメント
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
 source-wordcount: '677'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -52,19 +52,19 @@ ht-degree: 94%
    + SMS {#sms}
       + [SMS の基本を学ぶ](send/sms/sms.md)
       + SMS チャネルの設定 {#config-sms}
-         + [SMPP 外部アカウント設定 ](send/sms/smpp-external-account.md)
+         + [SMPP 外部アカウント設定](send/sms/smpp-external-account.md)
          + [SMS チャネルの特性](send/sms/sms-channel.md)
-         + [SMPP 接続の検証 ](send/sms/smpp-connection.md)
-         + [ スタンドアロンインスタンス ](send/sms/sms-standalone-instance.md)
-         + [ ミッドソーシングインフラストラクチャ ](send/sms/sms-mid-sourcing.md)
-         + [SMPP コネクタの説明 ](send/sms/smpp-connector-delivery.md)
-      + SMS リク {#create-sms} ストの作成
-         + [SMS 配信設定 ](send/sms/sms-delivery-settings.md)
+         + [SMPP 接続の検証](send/sms/smpp-connection.md)
+         + [スタンドアロンインスタンス](send/sms/sms-standalone-instance.md)
+         + [ミッドソーシングインフラストラクチャ](send/sms/sms-mid-sourcing.md)
+         + [SMPP コネクタの説明](send/sms/smpp-connector-delivery.md)
+      + SMS の作成 {#create-sms}
+         + [SMS 配信設定](send/sms/sms-delivery-settings.md)
          + [コンテンツの定義](send/sms/sms-content.md)
          + [オーディエンスの選択](send/sms/sms-audience.md)
-      + SMS {#validate-sms} ールの検証と送信
-         + [SMS 配達確認の送信 ](send/sms/sms-proofs.md)
-         + [ オーディエンスに送信 ](send/sms/sms-send.md)
+      + SMS の検証と送信 {#validate-sms}
+         + [SMS の配達確認の送信](send/sms/sms-proofs.md)
+         + [オーディエンスへの送信](send/sms/sms-send.md)
       + [SMS の監視と追跡](send/sms/sms-monitor.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の作成と送信](send/push.md)
