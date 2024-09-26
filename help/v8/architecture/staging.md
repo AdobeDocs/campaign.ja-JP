@@ -5,16 +5,16 @@ feature: Configuration, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 96%
 
 ---
 
 # Campaign API のステージングメカニズム
 
-[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、パフォーマンス（待ち時間および同時実行性）に関して、単一呼び出しの実行はお勧めしません。バッチ操作は常に推奨されます。パフォーマンスを向上させるために、取り込み API はローカルデータベースにリダイレクトされます。
+[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、パフォーマンス（待ち時間および同時実行性）に関して、単一呼び出しの実行はお勧めしません。極めて少量を送信する場合以外は、バッチ操作 **必須** を使用します。 パフォーマンスを向上させるために、取り込み API はローカルデータベースにリダイレクトされます。
 
 一部のビルトインスキーマでは、デフォルトで、Campaign のステージング機能が有効になっています。任意のカスタムスキーマで有効にすることもできます。要約すると、次のようなステージングメカニズムです。
 

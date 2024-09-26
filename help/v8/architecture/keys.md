@@ -5,10 +5,10 @@ feature: Configuration, FFDA
 role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
-source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 100%
+source-wordcount: '591'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Unicity Service は専用の&#x200B;**[!UICONTROL 単一性アラート]**&#x200
 ![](assets/wf-alert-activity.png)
 
 
-## 追加のガードレール{#duplicates-guardrails}
+## 追加のガードレール {#duplicates-guardrails}
 
 キャンペーンは、[!DNL Snowflake] データベースで重複したキーが挿入されるのを防ぐための一連の新しいガードレールを備えています。
 
@@ -63,19 +63,19 @@ Unicity Service は専用の&#x200B;**[!UICONTROL 単一性アラート]**&#x200
 >
 >これらのガードレールは、Campaign v8.3 以降で使用できます。バージョンを確認するには、[この節](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 
-### 配信準備{#remove-duplicates-delivery-preparation}
+### 配信準備 {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign は、配信の準備中に重複した UUID をオーディエンスから自動的に削除します。このメカニズムは、配信の準備中にエラーが発生するのを防ぎます。エンドユーザーは、配信ログの「キーが重複しているため、一部の受信者はメインターゲットから除外されます」という情報を確認できます。その際、次の警告が表示されます。`Exclusion of duplicates (based on the primary key or targeted records)`
 
 ![](assets/exclusion-duplicates-log.png)
 
-### ワークフロー内のデータ更新{#duplicates-update-data}
+### ワークフロー内のデータ更新 {#duplicates-update-data}
 
 [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、内部キー（UUID）をフィールドとして選択して、ワークフロー内のデータを更新することはできません。
 
 ![](assets/update-data-no-internal-key.png)
 
-### 重複を含むスキーマのクエリ{#query-with-duplicates}
+### 重複を含むスキーマのクエリ {#query-with-duplicates}
 
 ワークフローがスキーマに対するクエリの実行を開始すると、Adobe Campaign は重複したレコードが[監査単一性テーブル](#unicity-wf)で報告されているかを確認します。その場合、ワークフローは、重複したデータに対する後続の操作がワークフローの結果に影響を与える可能性があるという警告をログに記録します。
 
@@ -86,3 +86,8 @@ Adobe Campaign は、配信の準備中に重複した UUID をオーディエ�
 * クエリ
 * 増分クエリ
 * リスト読み込み
+
+
+>[!NOTE]
+>
+>別の Campaign バージョンから移行する場合は、重複を削除し、トラブルシューティングを行い、データを不要部分を削除して、移行に影響を与えないようにする必要があります。

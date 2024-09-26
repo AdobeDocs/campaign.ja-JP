@@ -5,10 +5,10 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1050'
+ht-degree: 97%
 
 ---
 
@@ -84,7 +84,7 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 
 ### [!DNL Campaign] API のステージングメカニズム{#staging-api}
 
-[!DNL Campaign] Cloud データベースでは、パフォーマンス（待ち時間と同時実行性）のため、単一呼び出しのブラストは推奨されません。バッチ操作は常に推奨されます。API の最適なパフォーマンスを保証するために、Campaign は API 呼び出しの処理をローカルデータベースレベルで継続します。
+[!DNL Campaign] Cloud データベースでは、パフォーマンス（待ち時間と同時実行性）のため、単一呼び出しのブラストは推奨されません。大量の送信を送信する場合でも、API の最適なパフォーマンスを保証するにはバッチ操作を使用する必要があり、Campaign は API 呼び出しの処理をローカルデータベースレベルで継続します。
 
 [API のステージングメカニズムについて詳しくは、このページを参照してください。](staging.md)
 
