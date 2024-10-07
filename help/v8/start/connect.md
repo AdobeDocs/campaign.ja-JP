@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 10b1113a20c11e0b97804f597cb0a48568fcae3d
+source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '952'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,7 @@ Campaign を初めて使用する場合は、クライアントコンソール�
 
 クライアントコンソールをダウンロードするには、次の 2 つのオプションがあります。
 
-1. Campaign 管理者として、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html){target="_blank"}に接続します。
+1. Campaign 管理者として、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html){target="_blank"}に接続します。
 
 1. エンドユーザーとして、Campaign 管理者がクライアントコンソールをデプロイし、専用の URL から使用できるようにします。
 
@@ -61,7 +61,7 @@ Campaign を初めて使用する場合は、クライアントコンソール�
 
 1. URL 経由で Adobe Campaign アプリケーションサーバーへの接続を指定します。 DNS、マシンのエイリアス、または IP アドレスを使用します。
 
-   例えば、[`https://<machine>.<domain>.com`](https://myserver.adobe.com) タイプの URL を使用できます。
+   例えば、`https://<machine>.<domain>.com` タイプの URL を使用できます。
 
 1. 「**[!UICONTROL Adobe ID を使用して接続]**」オプションをオンにします。
 
