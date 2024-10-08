@@ -4,7 +4,7 @@ description: Campaign v8 2023 リリースで記載される機能と改善点�
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
 source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
 ht-degree: 100%
 

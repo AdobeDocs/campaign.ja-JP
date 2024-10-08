@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate
 exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
 source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -90,4 +90,4 @@ Adobe Campaign は、配信の準備中に重複した UUID をオーディエ�
 
 >[!NOTE]
 >
->別の Campaign バージョンから移行する場合は、重複を削除し、トラブルシューティングを行い、データを不要部分を削除して、移行に影響を与えないようにする必要があります。
+>別の Campaign バージョンから移行する場合は、移行への影響を避けるために、重複の削除、トラブルシューティング、データのサニタイズを行うことが不可欠です。

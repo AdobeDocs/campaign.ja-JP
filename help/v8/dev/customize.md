@@ -6,9 +6,9 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign はデータスキーマを利用して次のことを行いま�
 
 * スキーマを拡張することにより、プログラミングで行います。既存のスキーマを拡張する方法については、[この節](../dev/extend-schema.md)を参照してください。
 
-また、Campaign データベースに新しいテーブルを作成し、ビルトインデータモデルを拡張することもできます。
+また、Campaign データベース内に新しいテーブルを作成し、組み込みデータモデルを拡張することもできます。
 
 Adobe Campaign にあらかじめ用意されていないまったく新しい型のデータ（例：契約表）を追加するには、カスタムスキーマを直接作成します。 詳しくは、 [こちらの例](../dev/create-schema.md#example--creating-a-contract-table)を参照してください。
 

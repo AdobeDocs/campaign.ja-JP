@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 98613a0a-7a6d-41a5-9541-e045d4ca318f
 source-git-commit: bc37a2a1075c7397f1656b38071dcae737043fb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Campaign v8 に移行する Campaign Standard ユーザーは、新しいバー�
 
 Campaign v8 ユーザーは、新しい Campaign web ユーザーインターフェイスと v8 クライアントコンソールの両方にアクセスできるようになりました。データと設定は、環境間で同期されます。クライアントコンソールで使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web ユーザーインターフェイスに表示されます。
 
-**役に立つリンク：**
+**開始に役立つリンク：**
 
-* 主な違いと使い始める方法については、[ この導入ガイド ](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"} を参照してください。
+* 主な違いと開始する方法について詳しくは、[この導入ガイド](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"}を参照してください。
 
 * 新しい Campaign web ユーザーインターフェイスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
 
-* 移行を容易にするために、Campaign v8 にCampaign Standard機能が追加されました。 これらの機能はCampaign Standardから移行するお客様に限定され、以下で説明されています。[ このドキュメント ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}。
+* 移行を容易にするために、Campaign v8 に Campaign Standard 機能が追加されました。これらの機能は Campaign Standard から移行するお客様に限定され、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}で説明されています。
 

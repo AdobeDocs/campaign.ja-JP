@@ -9,9 +9,9 @@ badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適�
 badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 source-git-commit: a9aa9cb508ca1f5cdcd59e61b5be029e3de1a82f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1721'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -52,15 +52,15 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 * Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 へのトランジションの前提条件は、環境を[最新の Campaign Classic ビルド](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
 
-* Campaign Classic v7 オンプレミスユーザーは、マーケティングサーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。
+* Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。
 
-* ハイブリッド、ホスト、およびマネージドCloud Serviceのデプロイメントの場合、以下の移行手順に加えて、Adobeに連絡してリアルタイム（RT）実行サーバーを更新してください。
+* ハイブリッド、ホストおよび Managed Cloud Services のデプロイメントの場合は、以下のトランジション手順に加えて、アドビに連絡してリアルタイム（RT）実行サーバーを更新してください。
 
 * Android ルーティング外部アカウントについて：
 
-   * Campaign Classic v7 オンプレミスまたはハイブリッドユーザーの場合は、Android ルーティング外部アカウントが `androidPushConnectorV2.js` で設定されていることを確認します。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}を参照してください。
+   * Campaign Classic v7 オンプレミスまたはハイブリッドユーザーの場合は、Android ルーティング外部アカウントが `androidPushConnectorV2.js` で設定されていることを確認します。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}を参照してください。
 
-   * ハイブリッド、ホスト型およびマネージドCloud Serviceのデプロイメントの場合、ミッドソーシングサーバーのAndroid ルーティング外部アカウントで `androidPushConnectorV2.js (nms)` コネクタが選択されていることを検証するために、Adobeカスタマーケアチームにも接続する必要があります。
+   * ハイブリッド、ホストおよび Managed Cloud Services のデプロイメントの場合は、アドビカスタマーケアチームに連絡して、ミッドソーシングサーバーの Android ルーティング外部アカウントで `androidPushConnectorV2.js (nms)` コネクタが選択されていることを確認する必要もあります。
 
 #### トランジション手順 {#fcm-transition-steps}
 
@@ -93,17 +93,17 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 >[!NOTE]
 >
->これらの変更がすべてのサーバーで適用されると、Android デバイスへのすべての **新規** プッシュ通知配信で HTTP v1 API が使用されます。 既存のプッシュ配信が再試行、処理中および使用中の場合は、引き続き HTTP （レガシー） API を使用します。 更新方法については、以下の節を参照してください。
+>これらの変更をすべてのサーバーに適用すると、Android デバイスへのすべての&#x200B;**新しい**&#x200B;プッシュ通知配信で HTTP v1 API が使用されます。再試行中、処理中、使用中の既存のプッシュ配信では、HTTP（レガシー）API を引き続き使用します。更新方法について詳しくは、以下の節を参照してください。
 
-#### 既存のテンプレートを更新 {#fcm-transition-update}
+#### 既存のテンプレートの更新 {#fcm-transition-update}
 
 HTTP v1 のトランジションが完了したら、Android プッシュ通知の&#x200B;**配信テンプレート**&#x200B;を更新して、バッチメッセージの数を増やす必要があります。これを行うには、Android 配信テンプレートのプロパティを参照し、「**配信**」タブで[メッセージのバッチ数量](../../v8/send/configure-and-send.md#delivery-batch-quantity)を **256** に設定します。この変更を、Android 配信に使用するすべての配信テンプレートと、既存のすべての Android 配信に適用します。
 
-また、アップグレードの前に作成した既存の配信および配信テンプレートを、HTTP v1 をサポートするバージョンに更新することもできます。 次の手順を実行します。
+HTTP v1 をサポートするバージョンにアップグレードする前に、作成済みの既存の配信と配信テンプレートを更新することもできます。次の手順を実行します。
 
-* Managed Cloud Serviceまたはホステッド環境のお客様は、Adobeに連絡して、既存のAndroid配信テンプレートを更新してください。
+* Managed Cloud Services またはホスト環境のお客様は、アドビに連絡して、既存の Android 配信テンプレートを更新してください。
 
-* オンプレミス環境の場合は、`fcm-httpv1-migration.js` スクリプトをダウンロードし、以下に説明するように実行します。
+* オンプレミス環境の場合は、`fcm-httpv1-migration.js` スクリプトをダウンロードし、以下で説明するように実行します。
 
   [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip) をダウンロードします。
 
@@ -114,16 +114,16 @@ HTTP v1 のトランジションが完了したら、Android プッシュ通知�
 
   +++既存の配信とテンプレートを更新する手順（オンプレミスのみ）
 
-  アップグレード前に作成したすべての配信および配信テンプレートを、HTTP v1 をサポートするバージョンにパッチ適用するには、次の手順に従います。
+  HTTP v1 をサポートするバージョンにアップグレードする前に、作成済みのすべての配信と配信テンプレートにパッチを適用するには、次の手順に従います。
 
-   1. パッケージ内の既存の配信および配信テンプレートを書き出して、パッチ適用中に予期しない問題が発生した場合に復元できるようにします。
+   1. パッケージ内の既存の配信と配信テンプレートを書き出しておくと、パッチ適用中に予期しない問題が発生した場合にそれらを復元できるようになります。
    1. Posgresql で次のコマンドを実行します。
 
       ```sql
       pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
       ```
 
-   1. デフォルトでは、スクリプトは `dryrun` モードで実行され、一部の配信にパッチを適用する必要があるかどうかを確認します。
+   1. デフォルトでは、スクリプトは `dryrun` モードで実行され、そのモードでスクリプトを起動すると、一部の配信にパッチを適用する必要があるかどうかを確認できます。
 
       コマンド
 
@@ -148,9 +148,9 @@ HTTP v1 のトランジションが完了したら、Android プッシュ通知�
 
       >[!NOTE]
       >
-      >`not patchable` 件の配信は手動で更新する必要があります。 ID はログに記録されます。
+      >`not patchable` 件の配信は手動で更新する必要があります。ID はログで確認できます。
 
-   1. 配信を更新するには、次の方法で実行モードでスクリプトを実行します。
+   1. 次の方法で実行モードでスクリプトを実行して、配信を更新します。
 
       ```sql
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
