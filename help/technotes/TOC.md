@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign のテクニカルノート
 description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
-source-git-commit: ccd60b7ff54bb538ae21693eff41a3943f1c6c88
+source-git-commit: 0fa6767f042eb595b1697d086e5c5cd5fc42625e
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 88%
    + [インターネットブラウザー](upgrades/browsers.md)
    + [2023 システムアップグレード](upgrades/tech-stack-upgrade.md)
    + [クライアントコンソール 32 ビットの非推奨（廃止予定）](upgrades/console.md)
-   + [Campaign Standardから Campaign V8 へのユーザーアクセス管理](upgrades/user-management-acs.md)
    + セキュリティ {#security}
       + [お客様の資格情報ローテーション](security/credential-rotation-guide.md)
 + [&lt; Campaign v8 ドキュメントに戻る](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)
