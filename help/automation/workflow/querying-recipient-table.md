@@ -6,9 +6,9 @@ feature: Query Editor
 role: User, Data Engineer
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
 source-git-commit: 122d78e310e66d5f354ffbc86c27a2fbff007447
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,6 +84,6 @@ ht-degree: 97%
 
    ![](assets/query_editor_nveau_13.png)
 
-   「**[!UICONTROL 生成された SQL クエリ]**」タブには、クエリ結果が SQL 形式で表示されます。
+   「**[!UICONTROL 生成された SQL クエリ]**」タブでは、クエリ結果が SQL フォーマットで表示されます。
 
    ![](assets/query_editor_nveau_14.png)
