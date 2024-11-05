@@ -6,20 +6,20 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 100%
+source-wordcount: '746'
+ht-degree: 90%
 
 ---
 
-# 配信テンプレートの使用{#work-with-delivery-template}
+# 配信テンプレートの使用 {#work-with-delivery-template}
 
-キャンペーンの実行と開始を迅速に行うには、クリエイティブなルックアンドフィールを標準化する配信テンプレートを使用します。
+各配信は、テンプレートに基づいて作成されます。 組み込みのテンプレートは、チャネルごとに使用できます。 これらをカスタマイズして、一連の配信に同じ設定を適用できます。
 
-テンプレートには、次の項目を含めることができます。
+テンプレートには、次のものが含まれます。
 
-* タイポロジ
+* タイポロジルール
 * 送信者と返信先のアドレス
 * 基本的な[パーソナライゼーションブロック](../send/personalization-blocks.md)
 * [ミラーページ](../send/mirror-page.md)へのリンクと購読解除リンク
@@ -28,10 +28,9 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#delivery-template-video)
 
+## テンプレートの作成 {#create-a-delivery-template}
 
-## テンプレートの作成{#create-a-delivery-template}
-
-配信テンプレートを作成するには、組み込みテンプレートの複製、既存の配信のテンプレートへの変換、または最初から配信テンプレートの作成を行います。
+配信テンプレートを作成するには、組み込みテンプレートを複製するか、既存の配信をテンプレートに変換します。 また、配信テンプレートを最初から作成することもできますが、これはお勧めしません。 これらの方法について以下で詳しく説明します。
 
 ### 既存のテンプレートの複製{#copy-an-existing-template}
 
@@ -91,9 +90,9 @@ Campaign には、各チャネル用の一連の組み込みテンプレート�
 1. 「**保存**」をクリックします。これで、テンプレートを配信で使用できるようになります。
 
 
-## テンプレートの使用{#use-a-delivery-template}
+## テンプレートの使用 {#use-a-delivery-template}
 
-### テンプレートからの配信の作成{#create-a-delivery-from-a-template}
+### テンプレートからの配信の作成 {#create-a-delivery-from-a-template}
 
 既存のテンプレートをベースにして配信を作成するには、利用可能な配信テンプレートのリストからテンプレートを選択します。
 

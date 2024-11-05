@@ -4,11 +4,10 @@ description: オーディエンスへの SMS 配信の送信方法について�
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="限定提供（LA）" type="Informative"
 exl-id: 9469aeb6-831f-4c8f-8c25-b335dc47c764
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
-workflow-type: ht
-source-wordcount: '126'
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+workflow-type: tm+mt
+source-wordcount: '124'
 ht-degree: 100%
 
 ---

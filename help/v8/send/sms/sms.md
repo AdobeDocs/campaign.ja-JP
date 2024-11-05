@@ -4,11 +4,10 @@ description: Adobe Campaign での SMS の基本を学ぶ
 feature: SMS
 role: User, Data Engineer
 level: Beginner
-badge: label="限定提供（LA）" type="Informative"
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: af1d453179c2d739eca243b435dec90a4b8e2dd5
-workflow-type: ht
-source-wordcount: '303'
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+workflow-type: tm+mt
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -16,12 +15,6 @@ ht-degree: 100%
 # SMS の基本を学ぶ {#gs-sms-channel}
 
 Adobe Campaign を使用すると、パーソナライズされた SMS メッセージを送信できます。
-
->[!IMPORTANT]
->
->このドキュメントは、Adobe Campaign v8.7.2 以降を対象としています。
->
->以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)を参照してください。
 
 >[!NOTE]
 >

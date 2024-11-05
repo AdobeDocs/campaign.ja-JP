@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,8 @@ ht-degree: 100%
    + [キャンペーンの基本を学ぶ](start/campaigns.md)
    + [キャンペーンオーケストレーション >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
 + メッセージの送信{#send}
-   + [メッセージの基本を学ぶ](start/create-message.md)
+   + [メッセージの基本を学ぶ](start/gs-message.md)
+   + [最初の配信を作成](start/create-message.md)
    + メール {#emails}
       + [メールのデザインと検証](send/email.md)
       + [ミラーページへのリンク](send/mirror-page.md)

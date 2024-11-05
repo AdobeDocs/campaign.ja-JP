@@ -5,16 +5,16 @@ description: マーケティングキャンペーン配信の詳細
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # マーケティングキャンペーン配信 {#marketing-campaign-deliveries}
 
-キャンペーンでクロスチャネル配信のオーケストレーションを行います。パーソナライズされたメール、SMS、プッシュ通知およびアプリ内メッセージを通じて、Adobe Campaign とのコミュニケーションを効率化します。ビデオ、絵文字、GIF などのリッチメディアを使用して、直接統合できます。
+キャンペーンでクロスチャネル配信のオーケストレーションを行います。パーソナライズされたメール、SMS、プッシュ通知およびアプリ内メッセージを通じて、Adobe Campaign とのコミュニケーションを効率化します。ビデオ、絵文字、GIFなどのリッチメディアを使用し、直接統合できます。
 
 配信は、キャンペーンダッシュボードやキャンペーンワークフローから作成できますし、配信の概要から直接作成することもできます。キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 * キャンペーンダッシュボードの「**[!UICONTROL 配信を追加]**」リンクから。
 
-![](assets/campaign_op_add_delivery.png)
+  ![](assets/campaign_op_add_delivery.png)
 
-保存すると、配信がキャンペーンダッシュボードに追加されます。
+  保存すると、配信がキャンペーンダッシュボードに追加されます。
 
 * キャンペーンワークフローから。「**[!UICONTROL ターゲティングとワークフロー]**」タブで、配信を追加します。
 
