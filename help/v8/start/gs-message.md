@@ -4,10 +4,10 @@ description: メッセージの基本を学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 0ff645a87700c038b78fb4cc45062822d6d97148
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 90%
+source-wordcount: '1308'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダ�
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。
 
-## 配信を作成 {#gs-ac-delivery}
+## ユースケース {#gs-ac-delivery}
 
 メッセージを送信するには、配信を作成する必要があります 配信作成モードは、ユースケースによって異なります。
 
@@ -147,7 +147,7 @@ Campaign には 3 つのタイプの配信オブジェクトがあります。
 
 連続配信は、ワークフロー内で[連続配信アクティビティ](../../automation/workflow/continuous-delivery.md)を介して作成されます。
 
-## パーソナライゼーションの追加{#personalization}
+## パーソナライゼーションの追加 {#personalization}
 
 Adobe Campaign が配信するメッセージは、様々な方法でパーソナライズすることができます。[パーソナライゼーション機能の詳細を説明します](../send/personalize.md)
 
@@ -158,7 +158,7 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 * 条件付きコンテンツの作成[詳細情報](../send/conditions.md)
 
 
-## 配信とトラッキングログ{#gs-tracking-logs}
+## 送信とトラッキング {#gs-tracking-logs}
 
 送信後に配信を監視することは、マーケティングキャンペーンを効率的に実施し、顧客に働きかけるうえで重要なステップになります。 配信の送信後に監視したり、配信の失敗や強制隔離がどのように管理されているかを把握したりできます。
 
