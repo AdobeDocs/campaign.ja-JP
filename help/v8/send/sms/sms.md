@@ -5,7 +5,7 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: bb77b915f50b31d8d91e25da6fa86aa15b03bba4
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 79%
@@ -14,13 +14,13 @@ ht-degree: 79%
 
 # SMS の基本を学ぶ {#gs-sms-channel}
 
-Adobe Campaignでは、パーソナライズされた [SMS](../send/sms/sms.md) をモバイルで配信できます。
+Adobe Campaignでは、パーソナライズされた SMS をモバイルで配信できます。
 
 SMS メッセージの場合、テキスト形式のメッセージのみを作成、変更およびパーソナライズできます。SMS メッセージは、送信前にプレビューすることもできます。
 
 >[!NOTE]
 >
->また、Adobe Campaignを使用して、テキストや画像およびリンクを含む [LINE](../send/line.md) メッセージを送信することもできます。
+>また、Adobe Campaignを使用して、テキストや画像およびリンクを含む [LINE](../../send/line.md) メッセージを送信することもできます。
 
 Adobe Campaignで携帯電話に SMS を配信するには、次が必要です。
 
