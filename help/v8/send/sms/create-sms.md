@@ -4,9 +4,9 @@ description: SMS 配信の作成方法を学ぶ
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '177'
 ht-degree: 72%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 72%
 
 新しい SMS 配信を作成するには、次の手順に従います。
 
-1. 新しい配信を作成し、SMS 送信用に作成した SMS 配信テンプレートを選択します。 [詳しくは、こちらを参照してください](sms-mid-sourcing.md#sms-delivery-template)。
+1. 新しい配信を作成し、SMS 送信用に作成した [SMS 配信テンプレート ](sms-mid-sourcing.md#sms-delivery-template) を選択します。
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   配信作成手順について詳しくは、[ このページ ](../../start/create-message.md) を参照してください。
+   配信の作成手順について詳しくは、[ このページ ](../../start/create-message.md) を参照してください。
 
 <!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
 * For mid-sourcing infrastructure, -->
@@ -31,7 +31,7 @@ ht-degree: 72%
 
 1. 「**[!UICONTROL プロパティ]**」ボタンで、すべてが必要に応じて設定されていることを確認できます。[詳しくは、「SMS」タブを参照してください](sms-delivery-settings.md#sms-tab)
 
-![](assets/sms_settings.png){zoomable="yes"}
+   ![](assets/sms_settings.png){zoomable="yes"}
 
 1. 配信の [ コンテンツを定義 ](sms-content.md) します。
 

@@ -1,38 +1,40 @@
 ---
-title: SMS のコンテンツの定義
-description: SMS 配信のコンテンツの設定方法について説明します
+title: SMS コンテンツの定義とパーソナライズ
+description: SMS 配信のコンテンツを定義およびパーソナライズする方法について説明します
 feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 60%
 
 ---
 
-# SMS コンテンツ {#sms-content}
+# SMS コンテンツの定義 {#sms-content}
 
 SMS 配信のコンテンツを設定するには：
 
-1. **[!UICONTROL テキストコンテンツ]**&#x200B;ウィザードにメッセージのコンテンツを入力します
+1. 「**[!UICONTROL テキストコンテンツ]**」タブにメッセージの内容を入力します。
 
    ![](assets/sms_content.png){zoomable="yes"}
 
-1. パーソナライゼーションフィールド（名の追加など）を挿入することや、定義済みのパーソナライゼーションブロック（挨拶の追加など）を挿入することで、メッセージをパーソナライズできます。パーソナライゼーションボタンをクリックすると、次の項目を追加できます。
+1. パーソナライゼーションフィールド（名の追加など）を挿入することや、定義済みのパーソナライゼーションブロック（挨拶の追加など）を挿入することで、メッセージをパーソナライズできます。パーソナライゼーションボタンをクリックして、以下を追加します。
 
    ![](assets/sms_perso.png){zoomable="yes"}
 
-   **[!UICONTROL 受信者]**／**[!UICONTROL 名]**&#x200B;をクリックすると、次のようなパーソナライゼーションが表示されます。
+   例えば、**[!UICONTROL 受信者]**/**[!UICONTROL 名]** をクリックすると、次のように、パーソナライゼーションフィールドを使用して SMS コンテンツが更新されます。
 
    ![](assets/sms_perso_recipient.png){zoomable="yes"}
 
-1. 「**[!UICONTROL プレビュー]**」タブに移動し、**[!UICONTROL パーソナライゼーションをテスト]**&#x200B;ドロップダウンリストをクリックして、**[!UICONTROL 受信者]**&#x200B;テーブルで受信者を選択することで、配信をプレビューできます。
+   Adobe Campaignのパーソナライゼーションについて詳しくは、[ この節 ](../personalize.md) を参照してください。
+
+1. 配信コンテンツは、「**[!UICONTROL プレビュー]** タブでプレビューできます。 パーソナライゼーションの設定を確認するには、「**[!UICONTROL パーソナライゼーションをテスト]**」ドロップダウンリストをクリックし、受信者を選択します。
 
    ![](assets/sms_preview.png){zoomable="yes"}
 
-   パーソナライゼーションを行った SMS の次のプレビューが表示されます。
+   パーソナライゼーションを使用して SMS のプレビューを確認できます。
 
    ![](assets/sms_preview_phone.png){zoomable="yes"}
 
