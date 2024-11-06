@@ -4,9 +4,9 @@ description: メッセージの基本を学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 0ff645a87700c038b78fb4cc45062822d6d97148
+source-git-commit: a7225fb958ad168d89e09445f4fad27e7b6817aa
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1294'
 ht-degree: 89%
 
 ---
@@ -25,31 +25,21 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダ�
 >
 >配信を作成する場合は、テンプレートを選択する必要があります。 チャネルごとにデフォルトのテンプレートを使用できます。 配信テンプレートについて詳しくは、[このページ](../send/create-templates.md)を参照してください。
 
-### ワンショットメッセージ {#msg-single}
+1. ワンショットメッセージ – オーディエンスにワンショットメッセージを送信できます。 最初のメッセージを送信する方法については、[ この節 ](create-message.md) を参照してください。
 
-メインターゲットに手動で 1 回限りのメッセージを送信できます。 最初のメッセージを送信する方法については、[ この節 ](create-message.md) を参照してください
+   ![](assets/send-email.png)
 
-![](assets/send-email.png)
+1. マーケティングキャンペーンのメッセージ - [ マーケティングキャンペーン ](campaigns.md) のコンテキストでメッセージを送信し、承認プロセスを定義して、統合ダッシュボードで送信および追跡できます。 [ この節 ](../../automation/campaigns/marketing-campaign-deliveries.md) でその方法を説明します。
 
-### マーケティングキャンペーンのメッセージ {#msg-campaign}
+   ![](assets/deliveries-in-a-campaign.png)
 
-[ マーケティングキャンペーン ](campaigns.md) のコンテキストでメッセージを送信し、承認プロセスを定義して、統合ダッシュボードで送信および追跡できます。 [ この節 ](../../automation/campaigns/marketing-campaign-deliveries.md) の方法を参照してください
+1. ワークフローのメッセージ - [ ワークフロー ](../config/workflows.md) を介してメッセージを送信し、配信を自動化できます。 方法については、[ このページ ](../../automation/workflow/delivery.md) を参照してください。
 
-![](assets/deliveries-in-a-campaign.png)
+   ![](assets/send-in-a-wf.png)
 
-### ワークフロー内のメッセージ {#msg-wf}
+1. トリガーメッセージ – イベントから ](../send/transactional.md)0}トリガーメッセージ } を送信できます。 [トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。 トランザクションメッセージの設定と送信の手順については、[このページ](../send/transactional.md)を参照してください
 
-[ ワークフロー ](../config/workflows.md) を介してメッセージを送信し、配信を自動化できます。 詳しくは、[ このページ ](../../automation/workflow/delivery.md) を参照してください。
-
-![](assets/send-in-a-wf.png)
-
-### トリガーメッセージ {#msg-trigger}
-
-イベントから ](../send/transactional.md)0}トリガーメッセージ } を送信できます。 [トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。  トランザクションメッセージ機能の詳細については、[この節](../architecture/architecture.md#transac-msg-archi)を参照してください
-
-トランザクションメッセージの設定と送信の手順については、[このページ](../send/transactional.md)を参照してください
-
-## チャネルの選択 {#gs-channel}
+## 通信チャネル {#gs-channel}
 
 Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
@@ -60,7 +50,6 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 * **モバイルアプリケーションチャネル**：モバイルアプリ配信では、通知を iOS デバイスおよび Android デバイスに送信できます。[詳細情報](#gs-channel-push)
 
 * **ダイレクトメールチャネル**：ダイレクトメール配信によって、ターゲット母集団に関するデータを含む抽出ファイルを生成できます。[詳細情報](#gs-channel-direct)
-
 
   その他のチャネルについて詳しくは、[この節](#other-channels)を参照してください。
 
@@ -119,7 +108,7 @@ Adobe Campaign には、外部配信の作成に使用される電話による�
 
 このチャネルには特定のメカニズムはありません。これは汎用チャネルで、Adobe Campaign で使用できる他のコミュニケーションチャネルと同様に、独自の外部アカウントルーティングオプション、配信テンプレートタイプ、キャンペーンワークフローアクティビティがあります。このチャネルは、説明のためにのみ設計されています。例えば、Adobe Campaign 以外のツールで実行されたキャンペーンのターゲットをトレースするための配信を定義する場合などです。
 
-## 配信のタイプを選択 {#types-of-deliveries}
+## 配信のタイプ {#types-of-deliveries}
 
 Campaign には 3 つのタイプの配信オブジェクトがあります。
 
@@ -147,7 +136,7 @@ Campaign には 3 つのタイプの配信オブジェクトがあります。
 
 連続配信は、ワークフロー内で[連続配信アクティビティ](../../automation/workflow/continuous-delivery.md)を介して作成されます。
 
-## パーソナライゼーションの追加 {#personalization}
+## Personalization機能 {#personalization}
 
 Adobe Campaign が配信するメッセージは、様々な方法でパーソナライズすることができます。[パーソナライゼーション機能の詳細を説明します](../send/personalize.md)
 
@@ -158,7 +147,7 @@ Adobe Campaign が配信するメッセージは、様々な方法でパーソ�
 * 条件付きコンテンツの作成[詳細情報](../send/conditions.md)
 
 
-## 送信とトラッキング {#gs-tracking-logs}
+## トラッキングと監視 {#gs-tracking-logs}
 
 送信後に配信を監視することは、マーケティングキャンペーンを効率的に実施し、顧客に働きかけるうえで重要なステップになります。 配信の送信後に監視したり、配信の失敗や強制隔離がどのように管理されているかを把握したりできます。
 
