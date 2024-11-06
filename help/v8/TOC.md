@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '685'
 ht-degree: 99%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 99%
    + SMS {#sms}
       + [SMS の基本を学ぶ](send/sms/sms.md)
       + SMS チャネルの設定 {#config-sms}
+         + [SMS 配信設定](send/sms/sms-delivery-settings.md)
          + [SMPP 外部アカウント設定](send/sms/smpp-external-account.md)
          + [SMS チャネルの特性](send/sms/sms-channel.md)
          + [SMPP 接続の検証](send/sms/smpp-connection.md)
@@ -60,7 +61,7 @@ ht-degree: 99%
          + [ミッドソーシングインフラストラクチャ](send/sms/sms-mid-sourcing.md)
          + [SMPP コネクタの説明](send/sms/smpp-connector-delivery.md)
       + SMS の作成 {#create-sms}
-         + [SMS 配信設定](send/sms/sms-delivery-settings.md)
+         + [SMS 配信の作成](send/sms/create-sms.md)
          + [コンテンツの定義](send/sms/sms-content.md)
          + [オーディエンスの選択](send/sms/sms-audience.md)
       + SMS の検証と送信 {#validate-sms}

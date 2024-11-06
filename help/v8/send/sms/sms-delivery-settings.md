@@ -6,10 +6,10 @@ role: User
 level: Beginner, Intermediate
 badge: label="限定提供（LA）" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 98%
 
 ---
 
@@ -23,13 +23,12 @@ ht-degree: 100%
 
 SMS 配信に必要な技術的な設定を以下に示します。
 
-* ルーティング：[SMPP 外部アカウント](smpp-external-account.md#smpp-connection-settings)
-
-* [The ](#sms-tab)
+* メッセージルーティング用の SMPP 外部アカウント。 [詳細情報](smpp-external-account.md#smpp-connection-settings)
+* 「SMS」タブを設定します。 [詳細情報](#sms-tab)
 
 これらすべてを配信テンプレートで設定すると、SMS 配信の作成ごとの設定を回避できます。
 
-## 「**[!UICONTROL SMS]**」タブの設定 {#sms-tab}
+## 「SMS」タブの設定 {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
@@ -97,25 +96,3 @@ SMS 配信に必要な技術的な設定を以下に示します。
   >
   >バイナリ形式は、常にビッグエンディアン形式にエンコードされます。
 
-## SMS 配信を作成 {#sms-delivery}
-
-新しい SMS 配信を作成するには、次の手順に従います。
-
-1. 配信ダッシュボードから、または&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;の配信フォルダーで新しい配信を作成します。デフォルトでは、「メール配信」というラベルが付けられます。
-
-1. SMS 送信用に作成した配信テンプレートを選択します。[詳しくは、こちらを参照してください](sms-mid-sourcing.md#sms-delivery-template)。
-
-   ![](assets/sms_create.png){zoomable="yes"}
-
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, -->
-
-1. トラッキングに必要な場合は、「**[!UICONTROL ラベル]**」フィールドで配信の名前を変更し、「**[!UICONTROL 配信コード]**」フィールドと&#x200B;**[!UICONTROL 特性]**&#x200B;リストに情報を追加します。また、配信に&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
-
-1. 「**[!UICONTROL 続行]**」ボタンをクリックします。これで、配信でのテンプレートのすべての設定が完了しました。
-
-1. 「**[!UICONTROL プロパティ]**」ボタンで、すべてが必要に応じて設定されていることを確認できます。[詳しくは、「SMS」タブを参照してください](#sms-tab)
-
-![](assets/sms_settings.png){zoomable="yes"}
-
-これで、[SMS コンテンツ](sms-content.md)を設定できるようになりました。
