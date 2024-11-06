@@ -5,27 +5,27 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 79%
 
 ---
 
 # SMS の基本を学ぶ {#gs-sms-channel}
 
-Adobe Campaign を使用すると、パーソナライズされた SMS メッセージを送信できます。
+Adobe Campaignでは、パーソナライズされた [SMS](../send/sms/sms.md) をモバイルで配信できます。
+
+SMS メッセージの場合、テキスト形式のメッセージのみを作成、変更およびパーソナライズできます。SMS メッセージは、送信前にプレビューすることもできます。
 
 >[!NOTE]
 >
->また、Adobe Campaign では、**Adobe Campaign モバイルアプリチャネル（NMAC）**&#x200B;オプションを使用してモバイル端末にプッシュ通知を送信することもできます。詳しくは、[この節](../push.md)を参照してください。
+>また、Adobe Campaignを使用して、テキストや画像およびリンクを含む [LINE](../send/line.md) メッセージを送信することもできます。
 
-SMS は、その堅牢性と数十億台の端末にわたる比類のない互換性に加え、そのシンプルさと使いやすさにより、非常に価値のある通信チャネルとなっています。
+Adobe Campaignで携帯電話に SMS を配信するには、次が必要です。
 
-SMS を送信するには、主に次の 2 つの方法があります。
-
-* 電話から手動で送信する。人と人との間で直接通信する通常の方法です。
-* インターネットから送信する。Adobe Campaign がメッセージ送信に使用する方法です。この方法では、インターネットからモバイル ネットワークへの橋渡しとなる SMS サービスプロバイダーが必要です。
+* **[!UICONTROL モバイル（SMS）]**&#x200B;チャネルまたは **[!UICONTROL LINE]** チャネルに設定された外部アカウント。
+* この外部アカウントに正しくリンクされている SMS 配信テンプレート。
 
 このドキュメントでは、SMS 配信を設定、送信、監視する次の手順を確認できます。
 

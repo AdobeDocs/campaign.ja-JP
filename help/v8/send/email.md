@@ -5,9 +5,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '534'
 ht-degree: 97%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 配信を作成して設定するための主な手順については、[ このページ ](../start/create-message.md) を参照してください。
 
-## 最初のメール配信の作成
+## メール配信の作成
 
 その後の顧客体験と一貫する、パーソナライズされた関連性の高いメールを作成します。
 
