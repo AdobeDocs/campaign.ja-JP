@@ -4,7 +4,7 @@ description: Adobe Campaignで配信をデザインおよび送信する際の�
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
+source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 78%
@@ -151,7 +151,7 @@ var brand = "xxx"
 
 **ヒント**：ヒューマンエラーが発生する可能性は常にあるので、毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、配達確認を送信する場合は、リンクが有効であること、フォームがオンラインであること、`No longer contact this recipient ` フィールドが `Yes` に変更されていることを確認します。
 
-オプトアウトリンクを挿入する方法については、[この節](personalization-blocks.md#personalization-blocks-example)を参照してください。
+オプトアウトリンクを挿入する方法については、[この節](../send/personalization-blocks.md)を参照してください。
 
 ### メールのサイズ
 
@@ -328,7 +328,7 @@ Adobe Campaign のオペレーターやグループが関与する包括的な�
 
 #### ウェーブの使用
 
-ウェーブを使用すると、送信するボリュームを徐々に増やせます。これにより、メッセージがスパムとしてマークされず、また 1 日あたりのメッセージ数を制限できます。ウェーブを使用すると、一度に大量のメッセージを送信するのではなく、配信をいくつかのバッチに分割できます。詳しくは、[この節](../send/configure-and-send.mdsending-using-multiple-waves)を参照してください。
+ウェーブを使用すると、送信するボリュームを徐々に増やせます。これにより、メッセージがスパムとしてマークされず、また 1 日あたりのメッセージ数を制限できます。ウェーブを使用すると、一度に大量のメッセージを送信するのではなく、配信をいくつかのバッチに分割できます。詳しくは、[この節](../send/configure-and-send.md#sending-using-multiple-waves)を参照してください。
 
 #### メッセージの優先順位
 
