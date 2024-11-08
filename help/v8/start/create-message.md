@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 41%
+source-wordcount: '1612'
+ht-degree: 40%
 
 ---
 
@@ -176,15 +176,12 @@ ht-degree: 41%
 
 配達確認の受信者と送信について詳しくは、[ この節 ](../send/preview-and-proof.md#send-proofs) を参照してください。
 
-![](../send/assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#seeds-and-proofs-video)
-
 
 #### チュートリアルビデオ {#seeds-and-proofs-video}
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
-
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 
@@ -200,7 +197,7 @@ Campaign Classic に関するその他のハウツービデオは[こちら](htt
 
 >[!IMPORTANT]
 >
->上記の 2 つの手順は、メッセージコンテンツを変更するたびに実行する必要があります。
+>上記の 2 つの手順 **実行する必要があります** は、メッセージコンテンツを変更するたびに実行します。
 
 
 ## 配信の設定と送信 {#configuring-and-sending-the-delivery}
