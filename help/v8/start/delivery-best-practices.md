@@ -4,7 +4,7 @@ description: Adobe Campaignで配信をデザインおよび送信する際の�
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 78%
@@ -117,7 +117,7 @@ var brand = "xxx"
 
 配信準備の分析を向上させるために、ワークフローでパーソナライゼーションデータを準備できます。このオプションは、パーソナライゼーションデータが外部テーブルから Federated Data Access（FDA）を介して送られる場合に特に使用します。このオプションについては、[この節](../send/personalization-data.md#optimize-personalization)を参照してください。
 
-### 最適化されたコンテンツの作成 {#optimize-content}
+### 最適化されたコンテンツの作成 {#build-optimized-content}
 
 メールを作成する際は、以下の一般的なベストプラクティスに留意してください。
 
