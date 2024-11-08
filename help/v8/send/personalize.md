@@ -5,10 +5,10 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 93%
 
 ---
 
@@ -47,13 +47,13 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 ## ガードレールとレコメンデーション{#perso-guardrails}
 
-### パーソナライゼーションタイムアウト{#perso-timeout}
+### パーソナライゼーションタイムアウト {#perso-timeout}
 
 配信の保護を強化するために、パーソナライゼーションフェーズのタイムアウト期間を設定できます。
 
 **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 配信]**」タブで、「**[!UICONTROL 最長パーソナライゼーション実行時間]**」オプションの最大値（秒）を選択します。
 
-プレビュー中または送信中に、パーソナライゼーションフェーズがこのフィールドで設定した最大時間を超えると、プロセスはエラーメッセージと共に中止され、配信は失敗します。
+プレビュー時や送信時に、パーソナライゼーションフェーズがこのフィールドに設定した最大時間を超えた場合、エラーメッセージが表示されてプロセスは中止され、配信は失敗します。
 
 デフォルト値は 5 秒です。
 

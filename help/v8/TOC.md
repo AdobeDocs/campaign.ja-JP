@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '688'
 ht-degree: 99%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 99%
 + メッセージの送信{#send}
    + [メッセージの基本を学ぶ](start/gs-message.md)
    + [最初の配信を作成](start/create-message.md)
+   + [配信のベストプラクティス](start/delivery-best-practices.md)
    + メール {#emails}
       + [メールのデザインと検証](send/email.md)
       + [ミラーページへのリンク](send/mirror-page.md)
