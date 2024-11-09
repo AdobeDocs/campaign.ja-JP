@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
+source-git-commit: 58d88498c8472381a43d735b4dfb2a802a293952
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 75%
+source-wordcount: '2968'
+ht-degree: 70%
 
 ---
 
@@ -66,11 +66,11 @@ Adobe Campaign では、返されるエラーのタイプに応じて不正な�
 
 配信テンプレートは、一般的なアクティビティについての既製のシナリオを提供し、作業の効率化に役立ちます。テンプレートを使用すると、マーケターは、最小限のカスタマイズで、より短い時間で新しいキャンペーンをデプロイできます。 [ 配信テンプレートの詳細情報 ](../send/create-templates.md)。
 
-### ブランディング
+### サブドメインとブランディング {#subdomains-and-branding}
 
 Adobe Campaign で複数のブランドを管理する場合は、ブランドごとに 1 つのサブドメインを使用することをお勧めします。例えば銀行ならば、個々の支店に対応する複数のサブドメインを所有できます。銀行がbluebank.com ドメインを所有している場合、そのサブドメインは@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.comなどです。 サブドメインごとに 1 つの配信テンプレートを使用すると、ブランドごとに適切な事前設定済みパラメーターを常に使用できるので、エラーを回避して時間を節約できます。 サブドメインのブランディングについて詳しくは、[Campaign Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"} を参照してください。
 
-### アドレスの設定
+### アドレスの設定 {#configure-addresses}
 
 必ず次のガイドラインを適用してください。
 
@@ -79,7 +79,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 * アドレスは、送信者を明示的に識別する必要があります。ドメインは、送信者によって所有され、登録されている必要があります。
 * 配信アドレスと返信アドレスのメールアカウントを作成することをお勧めします。詳しくは、自社のシステム管理者にご相談ください。
 
-+++ **Campaign UI でのアドレスの設定**
++++ **Campaign UI でアドレスを設定する手順**
 
 Campaign インターフェイスでアドレスを設定するには、次の手順に従います。
 
@@ -91,15 +91,15 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 1. 「**[!UICONTROL 返信アドレスのテキスト]**」フィールドでは、送信者のアドレスがデフォルトで返信に使用されます。カスタマーサポートの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
 
-### コントロール母集団の設定
+### コントロール母集団の設定 {#set-up-control-group}
 
 配信が送信されたら、除外された受信者の行動と、配信を受信した受信者の行動を比較します。その後、キャンペーンの効率性を測定できます。コントロール母集団について詳しくは、[この節](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)を参照してください。
 
-### フィルターまたは制御ルールを適用するためのタイポロジの使用
+### フィルターまたは制御ルールを適用するためのタイポロジの使用 {#create-typologies}
 
 タイポロジには、メッセージを送信する前の分析フェーズで適用されるチェックルールが含まれています。
 
-テンプレートのプロパティの「**[!UICONTROL タイポロジ]**」タブで、必要に応じて、デフォルトのタイポロジを変更します。
+必要に応じて、テンプレートのプロパティの「**[!UICONTROL タイポロジ]**」タブでカスタムタイポロジを選択できます。
 
 例えば、アウトバウンドトラフィックの制御を強化するために、使用可能な IP アドレスを定義するには、サブドメインごとに 1 つのアフィニティを定義し、アフィニティごとに 1 つのタイポロジを作成します。アフィニティはインスタンスの設定ファイルで定義されます。Adobe Campaign 管理者にお問い合わせください。
 
@@ -111,17 +111,20 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 メッセージをパーソナライズするには、データベースに保存された、またはトラッキング、ランディングページ、サブスクリプションなどを通じて収集された受信者のデータを使用できます。 パーソナライゼーションの基本については、[この節](../send/personalize.md)を参照してください。
 
-メッセージコンテンツが、パーソナライゼーションに関連する可能性のあるエラーを回避するように適切に設計されていることを確認します。 Adobe Campaignのパーソナライゼーションタグの形式は常に `<%=table.field%>` となります。 パーソナライゼーションブロック内でのパラメーターの使い方が間違っていると、問題になる場合があります。例えば、JavaScript の変数は次のように使用する必要があります。
++++ **いくつかのベストプラクティスを参照してください**
 
-``
-<%
-var brand = "xxx"
-%>
-``
+* パーソナライゼーション設定の確認 – メッセージコンテンツが、パーソナライゼーションに関連する可能性のあるエラーを回避するように適切に設計されていることを確認します。 Adobe Campaignのパーソナライゼーションタグの形式は常に `<%=table.field%>` となります。 パーソナライゼーションブロック内でのパラメーターの使い方が間違っていると、問題になる場合があります。例えば、JavaScript の変数は次のように使用する必要があります。
 
-パーソナライゼーションブロックについて詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
+  ``
+  <%
+  var brand = "xxx"
+  %>
+  ``
 
-配信準備の分析を向上させるために、ワークフローでパーソナライゼーションデータを準備できます。このオプションは、パーソナライゼーションデータが外部テーブルから Federated Data Access（FDA）を介して送られる場合に特に使用します。このオプションについては、[この節](../send/personalization-data.md#optimize-personalization)を参照してください。
+  パーソナライゼーションブロックについて詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
+
+* パーソナライゼーションデータの準備 – ワークフローでパーソナライゼーションデータを準備して、配信準備分析を改善できます。 このオプションは、パーソナライゼーションデータが外部テーブルから Federated Data Access（FDA）を介して送られる場合に特に使用します。このオプションについては、[この節](../send/personalization-data.md#optimize-personalization)を参照してください。
++++
 
 ### 最適化されたコンテンツの作成 {#build-optimized-content}
 
@@ -142,7 +145,7 @@ var brand = "xxx"
 +++
 
 
-### 件名
+### 件名  {#subject-line-check}
 
 メール [ 件名 ](../send/personalization-fields.md#personalization-fields-uc) を操作して、開封率を向上させます。
 
@@ -154,15 +157,17 @@ var brand = "xxx"
 
 * 「無償」や「オファー」など、スパムと見なされる可能性がある単語を繰り返し使用することは避けます
 
-* 大文字や、「!」、「£」、「€」、「$」などの特殊文字の使用を避けます
+* 大文字を避ける
+
+* 「!」、「£」、「€」、「$」などの特殊文字は使用しないでください
 
 +++
 
-### ミラーページ
+### ミラーページ {#mirror-page-check}
 
 ミラーページリンクを必ず含めます。メールの先頭がお勧めです。ミラーページについて詳しくは、[ このページ ](../send/mirror-page.md) を参照してください
 
-### 購読解除リンク
+### 購読解除リンク {#unsub-link-check}
 
 購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。デフォルトでは、メッセージが分析されると、組み込みの **[!UICONTROL 購読解除リンクの承認]**[ タイポロジルール ](../../automation/campaign-opt/control-rules.md) が、オプトアウトリンクが含まれているかどうかを確認し、含まれていない場合は警告を生成します。
 
@@ -174,7 +179,7 @@ var brand = "xxx"
 
 +++
 
-### メールのサイズ
+### メールのサイズ {#email-size-check}
 
 パフォーマンスや配信品質の問題を回避するため、メールの最大サイズは約 **35** KB です。メッセージサイズを確認するには、「**[!UICONTROL プレビュー]**」タブを参照し、テストプロファイルを選択します。 生成されると、メッセージサイズが右上隅に表示されます。
 
@@ -192,17 +197,18 @@ var brand = "xxx"
 +++
 
 
-### SMS の長さ
+### SMS の長さ {#sms-length-check}
 
 デフォルトでは、SMS の文字数は GSM（Global System for Mobile Communications）標準に準じています。GSM エンコードを使用する SMS メッセージは 160 文字以内に制限されています。複数の部分に分けて送信されるメッセージの場合は、SMS 1 件につき 153 文字以内です。
 
-表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。文字の表記変換を許可するには、対応する&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;の「SMPP チャネル設定」タブにあるチェックボックスをオンにします。
 
 +++ **いくつかのベストプラクティスを参照してください**
 
 * SMS メッセージのすべての文字をそのまま維持するには（例えば、固有名詞が改変されないようにするには）、表記変換を有効にしないでください。
 
 * ただし、GSM 標準で考慮されていない文字が SMS メッセージに多数含まれている場合は、表記変換を有効にして、メッセージの送信コストを制限します。 詳しくは、[この節](../send/sms/smpp-external-account.md#smpp-transliteration)を参照してください。
+
+* SMS 表記変換を適用できます。この変換は、GSM 標準で考慮されない場合に SMS のある文字を別の文字に置き換えることです。 パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。Campaign 管理者は、対応する **[!UICONTROL 外部アカウント]** の「SMPP チャネル設定」タブで対応するボックスをオンにすることで、文字の表記変換を有効にできます。 [詳細情報](../send/sms/smpp-external-account.md#smpp-transliteration)
 
 +++
 
@@ -221,26 +227,28 @@ To avoid common formatting errors, check the following elements:
 
 * Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
-
 ## 画像の管理 {#manage-images}
 
 メールマーケティングキャンペーン用の画像を最適化する際の具体的なガイドラインを以下に示します。
 
-### 画像のブロックを回避
+### 画像のブロックを回避 {#image-blocking}
 
-一部のメールクライアントはデフォルトで画像をブロックし、一部のユーザーはデータ使用時に保存する画像をブロックするように設定を変更します。したがって、画像がダウンロードされなければ、メッセージ全体が失われる可能性があります。これを回避するには：
+一部のメールクライアントは、デフォルトで画像をブロックします。また、ユーザーは、データ使用に関する保存のために画像をブロックするように設定を変更することができます。  したがって、画像がダウンロードされない場合、メッセージ全体が失われる可能性があります。
 
-* コンテンツと画像とテキストのバランスを取ります。画像のみのメールは避けます。
++++ これを回避するには、次のベストプラクティスを適用します
+
+* 画像ベースのメール全体を回避します。 コンテンツと画像およびテキストのバランスを取ります。
 
 * 画像にテキストを含める必要がある場合は、代替テキストやタイトルテキストを使用して、必ずメッセージが伝わるようにします。代替テキストやタイトルテキストのスタイルを設定して、外観を改善します。
 
 * 背景画像は一部の E メールクライアントでサポートされていないので、使用しないようにします。
++++
 
-### 画像をレスポンシブにする
+### 画像をレスポンシブにする {#responsive-images}
 
-画像をレスポンシブでサイズ変更可能にします。これは作成に時間がかかるので、コストに影響する可能性があります。
+画像をレスポンシブにし、サイズを変更してすべてのコンテキストとデバイスで表示できるようにします。 これは作成に時間がかかるので、コストに影響する可能性があります。
 
-### 絶対画像参照を使用する
+### 絶対画像参照を使用する {#absolute-images}
 
 キャンペーンに関連するメールやパブリックリソースで使用される画像を外部からアクセスできるようにするには、その画像を外部からアクセスできるサーバー上に置く必要があります。
 
