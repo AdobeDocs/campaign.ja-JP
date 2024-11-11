@@ -1,20 +1,20 @@
 ---
 title: 配信のベストプラクティス
 description: Adobe Campaignで配信をデザインおよび送信する際のベストプラクティスを説明します
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Direct Mail
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 58d88498c8472381a43d735b4dfb2a802a293952
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
-source-wordcount: '2968'
+source-wordcount: '2970'
 ht-degree: 70%
 
 ---
 
 # 配信のベストプラクティス {#delivery-best-practices}
 
-Campaign 配信機能のベストプラクティスを参照してください。
+Campaign 配信機能に関する以下のベストプラクティスをお読みください。
 
 ## 配信の最適化 {#optimize-delivery}
 

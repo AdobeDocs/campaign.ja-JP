@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 100%
@@ -83,9 +83,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。配信期限を過ぎると、一部のメッセージが送信されない場合があります。配信の有効期間について詳しくは、[この節](delivery-failures.md#valid-period)を参照してください。
+>* 最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。配信期限を過ぎると、一部のメッセージが送信されない場合があります。配信の有効期間について詳しくは、[この節](delivery-failures.md#valid-period)を参照してください。
 >
->また、最後のウェーブを設定するときに、再試行に十分な時間を設定する必要があります。再試行について詳しくは、[この節](delivery-failures.md#retries)を参照してください。
+>* また、最後のウェーブを設定するときに、再試行に十分な時間を設定する必要があります。再試行について詳しくは、[この節](delivery-failures.md#retries)を参照してください。
 
 ### ウェーブの監視 {#monitor-waves}
 
