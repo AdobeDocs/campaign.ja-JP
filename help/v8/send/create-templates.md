@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
+source-git-commit: 9f19d5c9836c21cea7b4b55241f828e295831339
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1025'
 ht-degree: 71%
 
 ---
@@ -121,7 +121,7 @@ Campaign には、各チャネル用の一連の組み込みテンプレート�
 
 ### テンプレートの実行 {#execute-a-template}
 
-最初に配信を作成することなく、テンプレートリストから直接テンプレートの実行を開始できます。配信テンプレートは、以下に説明するように手動で実行することも、[ この節 ](../../automation/workflow/deliveries.md) で説明しているように、イベントによってトリガー（設定した時刻、サーバーでファイルが使用可能なときなど）で実行することもできます。
+最初に配信を作成することなく、テンプレートリストから直接テンプレートの実行を開始できます。配信テンプレートは、以下に説明するように手動で実行することも、[ この節 ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery) で説明しているように、イベントによってトリガー（設定した時刻、サーバーでファイルが使用可能なときなど）で実行することもできます。
 
 テンプレートを手動で実行するには、次の手順に従います。
 
