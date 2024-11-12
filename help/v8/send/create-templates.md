@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 12de29e15d660cd5a40cda059fc19e45311fe312
+source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 71%
+source-wordcount: '1026'
+ht-degree: 69%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。このコンテキストでは、その他のテンプレートは表示されません。 詳しくは、[ターゲットマッピングの選択](../audiences/target-mappings.md)および[サービスと購読](../start/subscriptions.md)を参照してください。
+>使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。このコンテキストでは、その他のテンプレートは表示されません。 詳しくは、[ ターゲットマッピングの操作 ](../audiences/target-mappings.md) および [ 購読と購読解除の管理 ](../start/subscriptions.md) を参照してください。
 
 
 ## テンプレートを作成 {#create-a-delivery-template}
