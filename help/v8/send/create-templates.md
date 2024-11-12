@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
+source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 76%
+source-wordcount: '1024'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#delivery-template-video)
 
-Adobe Campaignでは、次の 2 種類のテンプレートを使用できます。
+配信テンプレートは、エクスプローラーの **[!UICONTROL リソース/テンプレート/配信テンプレート]** フォルダーに格納されています。 Adobe Campaignでは、次の 2 種類のテンプレートを使用できます。
 
 1. Adobe Campaign **組み込み** 配信テンプレート – 組み込みのテンプレートは、チャネルごとに使用できます。 これらは変更または削除できません。 各配信チャネルの基本設定が含まれます。 管理者は、デフォルト値を設定したり、トラッキングパラメーターや送信者のメールアドレスなどを変更するなど、特定の機能をエンドユーザーに制限したりできます。 組み込みテンプレートは、テンプレートのリストに太字で表示されます。
 
@@ -121,18 +121,19 @@ Campaign には、各チャネル用の一連の組み込みテンプレート�
 
 ### テンプレートの実行 {#execute-a-template}
 
-最初に配信を作成することなく、テンプレートリストから直接テンプレートの実行を開始できます。
+最初に配信を作成することなく、テンプレートリストから直接テンプレートの実行を開始できます。配信テンプレートは、以下に説明するように手動で実行することも、[ この節 ](../../automation/workflow/deliveries.md) で説明しているように、イベントによってトリガー（設定した時刻、サーバーでファイルが使用可能なときなど）で実行することもできます。
 
-そのためには、実行するテンプレートを選択して右クリックし、**[!UICONTROL アクション／配信テンプレートを実行]**&#x200B;を選択します。
+テンプレートを手動で実行するには、次の手順に従います。
 
-また、**[!UICONTROL ファイル／アクションメニューで「配信テンプレートを実行」]**&#x200B;を選択することもできます。
+1. 実行するテンプレートを選択して右クリックします。 **[!UICONTROL アクション／配信テンプレートを実行]**&#x200B;を選択します。
 
-![](assets/execute-delivery-template.png)
+   また、**[!UICONTROL ファイル／アクションメニューで「配信テンプレートを実行」]**&#x200B;を選択することもできます。
 
-配信パラメーターを入力し、「**[!UICONTROL 送信]**」をクリックします。
+   ![](assets/execute-delivery-template.png)
+
+1. 配信パラメーターを入力し、「**[!UICONTROL 送信]**」をクリックします。
 
 この操作により、テンプレートに関連付けられたフォルダー内に配信が生成されます。配信の名前は、ベースにした配信テンプレートの名前と同じになります。
-
 
 ## チュートリアルビデオ {#delivery-template-video}
 
