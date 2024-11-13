@@ -5,16 +5,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
+source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1610'
 ht-degree: 40%
 
 ---
 
 # 最初の配信を作成 {#create-a-msg}
 
-このページでは、1 回限りの単一の配信を作成する方法について説明します。 ユースケースに対処する他のタイプの配信を作成できます。 様々なタイプの配信とその作成方法について詳しくは、[ このページ ](gs-message.md) を参照してください。
+このページでは、1 回限りの単一の配信を作成する方法について説明します。 他のタイプの配信を作成して、ユースケースを構築できます。 様々なタイプの配信とその作成方法について詳しくは、[ このページ ](gs-message.md) を参照してください。
 
 1 回限りの配信を作成する主な手順は次のとおりです。
 
