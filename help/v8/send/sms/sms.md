@@ -6,33 +6,33 @@ role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 source-git-commit: 95dca48ae0e2ee82b80464cdf9414538776969ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 # SMS の基本を学ぶ {#gs-sms-channel}
 
-Adobe Campaignを使用すると、顧客のモバイルデバイスにテキストメッセージを送信できます。 SMS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
+Adobe Campaign を使用して、顧客のモバイルデバイスにテキストメッセージを送信します。SMS エディターからテキスト形式で、メッセージの作成、パーソナライズ、プレビューを行うことができます。
 
-Adobe Campaignを使用してモバイルデバイスに SMS を配信するには、次のものが必要です。
+Adobe Campaign を使用してモバイルデバイスに SMS を配信するには、次が必要です。
 
-* **[!UICONTROL モバイル （SMS）]** チャネルで設定された外部アカウント。 [ ミッドソーシングインフラストラクチャ ](sms-mid-sourcing.md) で SMS チャネルを設定する方法を説明します。 この設定では、[SMPP 外部アカウントパラメーター ](smpp-external-account.md) および [SMS チャネル特性 ](sms-channel.md) を理解する必要があります。
-この設定が完了したら、SMPP 接続を確認し、必要に応じてトラブルシューティングを行う方法を把握します。 [詳細情報](smpp-connection.md)。
+* **[!UICONTROL モバイル（SMS）]**&#x200B;チャネルで設定された外部アカウント。[ミッドソーシングインフラストラクチャ](sms-mid-sourcing.md)での SMS チャネルの設定方法について説明します。この設定では、[SMPP 外部アカウントパラメーター](smpp-external-account.md)と [SMS チャネルの特性](sms-channel.md)を理解する必要があります。
+この設定が完了したら、必要に応じて、SMPP 接続と、トラブルシューティングを行う方法を確認します。[詳細情報](smpp-connection.md)。
 
 * この外部アカウントに正しくリンクされている SMS 配信テンプレート。
 
 
 >[!NOTE]
 >
->また、Adobe Campaignを使用して、モバイルデバイスに [ プッシュ通知 ](../push.md) および [LINE](../line.md) メッセージを送信することもできます。
+>また、Adobe Campaign を使用して、[プッシュ通知](../push.md)および [LINE](../line.md) メッセージをモバイルデバイスに送信することもできます。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="SMS を作成" src="../../assets/do-not-localize/sms-sending.jpg">
+<img alt="SMS の作成" src="../../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div><a href="create-sms.md"><strong>SMS 配信の作成</strong>
 </div>
@@ -43,7 +43,7 @@ Adobe Campaignを使用してモバイルデバイスに SMS を配信するに�
 <img alt="SMS コンテンツ" src="../../assets/do-not-localize/sms-create.jpeg">
 </a>
 <div>
-<a href="sms-content.md"><strong>SMS コンテンツの定義 </strong></a>
+<a href="sms-content.md"><strong>SMS コンテンツの定義</strong></a>
 </div>
 <p></td>
 <td>

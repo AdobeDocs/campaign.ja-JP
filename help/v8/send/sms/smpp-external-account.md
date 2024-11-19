@@ -6,7 +6,7 @@ role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
 source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3650'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Campaign は、SMPP プロトコルを使用してサービスプロバイダーに SMS を送信します。
 
-Adobe Campaign の SMS コネクタには、公式仕様と多少異なる傾向があるほとんどの SMPP プロバイダーとの互換性を保つために、その動作を調整できる多くのオプションが用意されています。
+Adobe Campaign の SMS コネクタには、公式仕様と多少異なる傾向があるほとんどの SMPP プロバイダーとの互換性を保つことを目的に、その動作を調整できる多くのオプションが用意されています。
 
 >[!IMPORTANT]
 >

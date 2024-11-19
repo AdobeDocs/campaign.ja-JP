@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -75,4 +75,4 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 >
 >列挙について詳しくは、[このページ](../../v8/config/ui-settings.md#enumerations)を参照してください。
 
-次の手順では、[ トランザクションメッセージ用のテンプレートを作成して公開する ](transactional-template.md) 方法を説明します。
+次の手順では、[トランザクションメッセージ用のテンプレートを作成して公開](transactional-template.md)する方法について説明します。

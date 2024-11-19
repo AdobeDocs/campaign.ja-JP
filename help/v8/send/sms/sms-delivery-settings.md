@@ -7,9 +7,9 @@ level: Beginner, Intermediate
 badge: label="限定提供（LA）" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
 source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 98%
 
 SMS 配信に必要な技術的な設定を以下に示します。
 
-* メッセージルーティング用の SMPP 外部アカウント。 [詳細情報](smpp-external-account.md#smpp-connection-settings)
-* 「SMS」タブを設定します。 [詳細情報](#sms-tab)
+* メッセージルーティング用の SMPP 外部アカウント。[詳細情報](smpp-external-account.md#smpp-connection-settings)
+* 「SMS」タブを設定します。[詳細情報](#sms-tab)
 
 これらすべてを配信テンプレートで設定すると、SMS 配信の作成ごとの設定を回避できます。
 

@@ -6,21 +6,21 @@ role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # メールのデザインと送信
 
-Adobe Campaignでメール配信を作成し、パーソナライズされたメールをターゲット母集団に送信します。 [詳細情報](../send/send.md)
+Adobe Campaign を使用すると、メール配信を作成して、パーソナライズされたメールをターゲット母集団に送信できます。[詳細情報](../send/send.md)
 
-配信を作成して設定するための主な手順については、[ このページ ](../start/create-message.md) を参照してください。
+配信を作成して設定する主な手順について詳しくは、[このページ](../start/create-message.md)を参照してください。
 
 ## メール配信の作成
 
-その後の顧客体験と一貫する、パーソナライズされた関連性の高いメールを作成します。
+その他の顧客体験と一貫する、パーソナライズされた関連性の高いメールを作成します。
 
 ![](assets/new-email-content.png)
 
@@ -85,15 +85,15 @@ Adobe Campaignでメール配信を作成し、パーソナライズされたメ
 
 最初のメール配信の準備が整いました。 次に、オーディエンスを定義し、配信を検証して送信する必要があります。
 
-メールコンテンツをインポートするワークフローを作成する方法については、この [ ユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"} を参照してください。
+メールコンテンツをインポートするワークフローを作成する方法について詳しくは、この[ユースケース](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"}を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ 配信の作成 ](../start/create-message.md)
->* [ メールテンプレートの作成と使用 ](create-templates.md)
->* [ メールのオーディエンスの選択 ](../audiences/gs-audiences.md)
->* [ 配信の検証と配達確認の送信 ](preview-and-proof.md)
->* [ 配信の設定と送信 ](configure-and-send.md)
+>* [配信の作成](../start/create-message.md)
+>* [メールテンプレートの作成と使用](create-templates.md)
+>* [メールのオーディエンスの選択](../audiences/gs-audiences.md)
+>* [配信の検証と配達確認の送信](preview-and-proof.md)
+>* [配信の設定と送信](configure-and-send.md)
 >* [配信のベストプラクティス](../start/delivery-best-practices.md)
 
 ## メールのテストと検証

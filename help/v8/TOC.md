@@ -6,9 +6,9 @@ title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
 source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
    + [キャンペーンオーケストレーション >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
 + メッセージの送信{#send}
    + [メッセージの基本を学ぶ](start/gs-message.md)
-   + [最初の配信を作成](start/create-message.md)
+   + [最初の配信の作成](start/create-message.md)
    + [配信のベストプラクティス](start/delivery-best-practices.md)
    + メール {#emails}
       + [メールのデザインと検証](send/email.md)

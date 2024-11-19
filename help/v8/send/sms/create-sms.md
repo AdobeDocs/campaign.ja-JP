@@ -1,26 +1,26 @@
 ---
-title: SMS 配信を作成
-description: SMS 配信の作成方法を学ぶ
+title: SMS 配信の作成
+description: SMS 配信の作成方法について説明します。
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
-workflow-type: tm+mt
+exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
+source-git-commit: 25a4ac40f8a178b85e88fbce1ff32ebe2c027f4b
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
-
 
 # 最初の SMS 配信の作成 {#sms-delivery}
 
 新しい SMS 配信を作成するには、次の手順に従います。
 
-1. 新しい配信を作成し、SMS 送信用に作成した [SMS 配信テンプレート ](sms-mid-sourcing.md#sms-delivery-template) を選択します。
+1. 新しい配信を作成し、SMS 送信用に作成した [SMS 配信テンプレート](sms-mid-sourcing.md#sms-delivery-template)を選択します。
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   配信の作成手順について詳しくは、[ このページ ](../../start/create-message.md) を参照してください。
+   配信の作成手順について詳しくは、[このページ](../../start/create-message.md)を参照してください。
 
 <!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
 * For mid-sourcing infrastructure, -->
@@ -33,7 +33,7 @@ ht-degree: 72%
 
    ![](assets/sms_settings.png){zoomable="yes"}
 
-1. 配信の [ コンテンツを定義 ](sms-content.md) します。
+1. 配信の[コンテンツを定義します](sms-content.md)。
 
 1. [オーディエンスを選択します](sms-audience.md)。
 
@@ -41,7 +41,7 @@ ht-degree: 72%
 
 ## SMS の検証と送信 {#sms-validate}
 
-配信の作成後、次の操作を実行できます。
+配信を作成したら、次の手順に従います。
 
 1. レンダリングとコンテンツを検証するための[配達確認を送信します](sms-proofs.md)。
 
@@ -49,6 +49,4 @@ ht-degree: 72%
 
 ## SMS の監視と追跡 {#sms-monitor}
 
-送信後、[SMS の監視および追跡方法についてはこちらを参照してください](sms-monitor.md)。
-
-
+送信後、[SMS の監視および追跡方法について詳しくは、こちらを参照してください](sms-monitor.md)。

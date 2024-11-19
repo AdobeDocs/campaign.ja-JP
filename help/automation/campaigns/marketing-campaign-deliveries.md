@@ -6,15 +6,15 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # マーケティングキャンペーン配信 {#marketing-campaign-deliveries}
 
-キャンペーンでクロスチャネル配信のオーケストレーションを行います。パーソナライズされたメール、SMS、プッシュ通知およびアプリ内メッセージを通じて、Adobe Campaign とのコミュニケーションを効率化します。ビデオ、絵文字、GIFなどのリッチメディアを使用し、直接統合できます。
+キャンペーンでクロスチャネル配信のオーケストレーションを行います。パーソナライズされたメール、SMS、プッシュ通知およびアプリ内メッセージを通じて、Adobe Campaign とのコミュニケーションを効率化します。ビデオ、絵文字、GIF などのリッチメディアを使用して、直接統合できます。
 
 配信は、キャンペーンダッシュボードやキャンペーンワークフローから作成できますし、配信の概要から直接作成することもできます。キャンペーンから作成した配信は、このキャンペーンにリンクされ、キャンペーンレベルで統合されます。
 

@@ -4,9 +4,9 @@ description: ワークフローでターゲットオーディエンスを作成�
 feature: Query Editor, Data Management
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
 source-git-commit: 122d78e310e66d5f354ffbc86c27a2fbff007447
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2370'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

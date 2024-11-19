@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
 source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1527'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
    * **[!UICONTROL ユニーク開封数]**
    * **[!UICONTROL 購読解除済み]**
 
-   **[!UICONTROL 成功イベント]**&#x200B;の設定方法について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)を参照してください。
+   **[!UICONTROL 成功イベント]**&#x200B;の設定方法について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=ja)を参照してください。
 
    ![](assets/analytics_connnector_8.png)
 
@@ -259,7 +259,7 @@ Adobe Campaign にはパーソナライズされた配信テンプレートが�
 1. 新しいキャンペーンを作成し、ドロップダウンリストから「**[!UICONTROL リマーケティングキャンペーン]**」テンプレートを選択します。
 1. **[!UICONTROL 設定...]** リンクをクリックして、キャンペーンにリンクされたセグメントおよび配信テンプレートを指定します。
 1. Analytics [外部アカウント](#external-account-ac)と関連するセグメントを選択します。
-1. このリマーケティングキャンペーンに使用する配信テンプレートを選択し、「**[!UICONTROL 完了]**」をクリックしてウィンドウを閉じます。
+1. このリマーケティングキャンペーンに使用する配信テンプレートを選択し、「**[!UICONTROL 終了]**」をクリックしてウィンドウを閉じます。
 1. 「**[!UICONTROL OK]**」をクリックしてキャンペーンウィンドウを閉じます。
 
 **[!UICONTROL リマーケティングの効率]**&#x200B;レポートは、グローバルレポートページからアクセスします。このレポートでは、Adobe Campaign のリマーケティングキャンペーン後における、買い物かご放棄数に対するコンバージョンされた連絡先（何かを購入したなど）数を表示できます。週ごと、月ごとまたは Adobe Campaign と Adobe Analytics 間の同期開始以降のコンバージョン率が計算されます。
