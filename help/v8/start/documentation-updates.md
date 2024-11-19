@@ -6,16 +6,20 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
+source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Campaign] v8（コンソール）ドキュメントの最新の更新をすべて掲載しています。
+
+## 2024年11月 {#october-2024}
+
+**ffdaUnsuscribe** ワークフローがテクニカルワークフローのリストに追加されました。[詳細情報](../../automation/workflow/technical-workflows.md)
 
 ## 2024年6月 {#june-2024}
 
