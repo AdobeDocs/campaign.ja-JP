@@ -5,7 +5,7 @@ description: 配信コントロールワークフローアクティビティの�
 feature: Workflows
 role: User
 exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # 配信コントロール{#delivery-control}
-
-
 
 「**配信コントロール**」タイプアクションでは、配信を開始、一時停止、または中止できます。
 
@@ -38,4 +36,4 @@ ht-degree: 100%
 
 * deliveryId
 
-「**[!UICONTROL トランジション内で指定]**」アクションが選択されている場合の配信 ID。
+  「**[!UICONTROL トランジション内で指定]**」アクションが選択されている場合の配信 ID。

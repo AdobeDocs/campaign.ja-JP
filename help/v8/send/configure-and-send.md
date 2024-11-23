@@ -5,8 +5,8 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
-workflow-type: ht
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 100%
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 送信]**」をクリックし、目的のアクションを選択します。
 
-   * 配信をすぐに送信するには、「[**可能な限り早く配信**]」を選択します。
+   * 配信をすぐに送信するには、「**[!UICONTROL 可能な限り早く配信]**」を選択します。
    * 送信を後の日付にスケジュールするには、「**[!UICONTROL 配信を延期]**」を選択します。[詳細情報](#schedule-delivery-sending)
 
 1. 「**[!UICONTROL 分析]**」をクリックします。詳しくは、[この節](delivery-analysis.md)を参照してください。

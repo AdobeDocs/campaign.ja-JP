@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 100%
 
 ## 2024年11月 {#october-2024}
 
-**ffdaUnsuscribe** ワークフローがテクニカルワークフローのリストに追加されました。[詳細情報](../../automation/workflow/technical-workflows.md)
+* **ffdaUnsuscribe** ワークフローがテクニカルワークフローのリストに追加されました。 [詳細情報](../../automation/workflow/technical-workflows.md)
+* Campaign のバージョンおよびアップグレードに関するページが改善されました。 [詳細情報](upgrades.md)
 
 ## 2024年6月 {#june-2024}
 
