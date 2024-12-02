@@ -5,10 +5,10 @@ description: JavaScript のスクリプトとテンプレート
 feature: Workflows
 role: Developer
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 25663b475514736f64e7216c798536d8c23e0983
 workflow-type: tm+mt
 source-wordcount: '1268'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -160,7 +160,7 @@ logInfo("Start date: " + task.creationDate)
 
 アクティビティでインスタンス変数の指定が完了したら、その変数はワークフロークエリで再利用できます。
 
-変数「**instance.vars.xxx = &quot;yyy&quot;**」をフィルターで呼び出すには、「**$(instance/vars/xxx)**」と入力します。
+したがって、フィルターで変数 **instance.vars.xxx = &quot;yyy&quot;** を呼び出すには、**$（instance/vars/@xxx）** と入力します。
 
 次に例を示します。
 
