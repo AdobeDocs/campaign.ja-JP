@@ -5,10 +5,10 @@ description: Campaign で使用できるテクニカルワークフローの詳�
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 97ab8259c0044b65fec2ad5ddc44d28f0cbf65e5
+source-git-commit: e8546d56232c50dbf4aedf054a7d63838e3fd957
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 91%
+source-wordcount: '1819'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 
 デフォルトでは、テクニカルワークフローは、**[!UICONTROL 管理]**／**[!UICONTROL プロダクション]**／**[!UICONTROL テクニカルワークフロー]**&#x200B;ノードのサブフォルダーで使用できます。
 
-![](assets/navtree.png){width="50%" align="center" zoomable="yes"}
+![](assets/navtree.png){width="50%" align="left" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -28,8 +28,7 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 
 タスク通知や在庫管理、コスト計算といった、キャンペーンでのプロセスの実行に必要なワークフローは、**[!UICONTROL キャンペーンプロセス]**&#x200B;サブフォルダーで集中管理されます。
 
-![](assets/campaign-processes-wf.png){width="70%" align="center" zoomable="yes"}
-
+![](assets/campaign-processes-wf.png)
 
 ## テクニカルワークフローの管理と作成 {#manage-tech-workflows}
 
@@ -37,7 +36,7 @@ Campaign テクニカルワークフローの開始および変更を行える�
 
 カスタムテクニカルワークフローは、ツリー構造の **[!UICONTROL 管理/プロダクション/テクニカルワークフロー]** ノードで作成できます。 テクニカルワークフローの作成には、ネイティブテンプレートを使用可能です。ニーズに合わせて設定できます。 ただし、このプロセスを実行できるのはエキスパートユーザーに限られます。 テクニカルワークフローで使用できるアクティビティは、ターゲティングワークフローの場合と同じです。 [詳細情報](targeting-workflows.md)。
 
-## テクニカルワークフローのリスト {#list-technical-workflows}
+## ビルトインテクニカルワークフロー {#list-technical-workflows}
 
 このページで説明するワークフローは、Adobe Campaign ビルトインパッケージと共にインストールされます。 これらのパッケージと関連するテクニカルワークフローは、ライセンス契約とアドオンに応じて異なります。
 
