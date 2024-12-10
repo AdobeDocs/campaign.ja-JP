@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Adobe Campaign は定期的にアップデートされています。この定期的なアップデートは、環境の安全性を維持し、アドビの製品に対するエクスペリエンスを向上させ、最新かつ最大限の情報を手に入れることを目的としています。アドビでは、すべてのお客様に最新バージョンにアップグレードすることを強くお勧めします。
 
-Managed Cloud Services ユーザーの場合は、新しいバージョンが出るたびにアドビがインスタンスをアップグレードします。環境をアップグレードするよう、Adobe担当者から連絡があります。 Campaign クライアントコンソールは、Campaign サーバーと&#x200B;**同じバージョンにアップグレードする必要があります**。クライアントコンソールのアップグレード方法について詳しくは、[このページ](../start/connect.md#upgrade-ac-console)を参照してください。
+Managed Cloud Services ユーザーの場合は、新しいバージョンが出るたびにアドビがインスタンスをアップグレードします。アドビ担当者からのお客様に対する連絡があり次第、環境をアップグレードします。Campaign クライアントコンソールは、Campaign サーバーと&#x200B;**同じバージョンにアップグレードする必要があります**。クライアントコンソールのアップグレード方法について詳しくは、[このページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
 また、[互換性マトリックス](compatibility-matrix.md)にリストされているシステムのサポートされている最新バージョンを使用していることも確認してください。
 
@@ -58,14 +58,14 @@ Campaign のバージョンを確認するには、クライアントコンソ�
 
 ### 新しいバージョンのリリースの通知の受信方法 {#upgrades-0}
 
-新しいバージョンとその変更点については、[リリースノート](release-notes.md)を参照してください。新しいバージョンが使用可能になると、Adobe担当者から連絡があり、環境がアップグレードされます。
+新しいバージョンとその変更点については、[リリースノート](release-notes.md)を参照してください。新しいバージョンが使用可能になったら、アドビ担当者からお客様に対する連絡があり次第、環境をアップグレードします。
 
-新しいExperience Cloudソリューションリリースとその内容についての情報を得るには、[Adobe優先製品アップデート ](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"} の情報をお読みください。
+新しい Experience Cloud ソリューションのリリースについての情報を得るには、[Adobe Priority Product Updates](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"} 通信を購読してください。
 
 また、[Campaign コミュニティ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"}にアクセスして、リリースの更新情報を入手することもできます。
 
 
-### 組織でアップグレードが必要な理由 {#upgrades-1}
+### 組織がアップグレードを必要とする理由 {#upgrades-1}
 
 インフラストラクチャを最新バージョンにアップグレードすると、更新されたパフォーマンステクノロジーを使用するだけでなく、アカウントが脆弱性から保護されます。
 
@@ -85,7 +85,7 @@ Campaign のバージョンを確認するには、クライアントコンソ�
   Adobe Campaign チームは、時間をかけて、製品の安定性とパフォーマンスを向上させ、既知の問題を修正する方法を特定します。アップグレードすると、これらの機能強化によりインスタンスが最新の状態になり、Campaign インスタンス内で急速な成長や複雑さを経験している組織に見られる一般的な課題が解消されます。、組織のマーケティングチームと IT チームの両方が、Campaign を活用するテクノロジースタック全体の機能強化を実感できます。
 
 
-### アップグレードのプロセスとタイムラインを教えてください。 {#upgrades-2}
+### アップグレードのプロセスとタイムライン {#upgrades-2}
 
 v8 のお客様は、アカウントを新しいバージョンにアップグレードする必要があると判断された場合、アドビから直接通知されます。
 

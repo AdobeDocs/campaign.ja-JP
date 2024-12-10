@@ -6,9 +6,9 @@ feature: Workflows
 role: User, Data Engineer
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 89%
 
 ![繰り返し配信](assets/delivery_recurring.jpg)
 
-繰り返し配信の実行を停止する場合は、キャンペーンを完全にキャンセルするか、キャンペーンの実行ワークフローを停止する必要があります。Campaign ダッシュボードから配信を停止すると、配信の発生は停止されます。繰り返し配信の次回のインスタンスは、ワークフローの実行のたびに作成され続けます。
+繰り返し配信の実行を停止する場合は、キャンペーンを完全にキャンセルするか、キャンペーンの実行ワークフローを停止する必要があります。Campaign ダッシュボードから配信を停止すると、配信の発生のみが停止されます。繰り返し配信の次のインスタンスは、ワークフローの実行のたびに作成され続けます。
 
 >[!NOTE]
 >
