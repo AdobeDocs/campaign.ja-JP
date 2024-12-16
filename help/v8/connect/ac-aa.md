@@ -5,10 +5,10 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
-workflow-type: ht
-source-wordcount: '1527'
-ht-degree: 100%
+source-git-commit: e465b846b3144a2138bb912b4baa09238f8c5b4c
+workflow-type: tm+mt
+source-wordcount: '1552'
+ht-degree: 98%
 
 ---
 
@@ -143,6 +143,10 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 
 1. 「**[!UICONTROL eVars]**」カテゴリから、[!DNL Adobe Analytics] で設定した 2 つの&#x200B;**[!UICONTROL コンバージョン変数]**&#x200B;をマッピングします。
+
+   >[!NOTE]
+   >
+   >キャンペーン ID および Broadload ID フィールドは、JavaScriptのランディングページまたは処理ルールを通じて収集されます。 [ 処理ルールの詳細情報 ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
