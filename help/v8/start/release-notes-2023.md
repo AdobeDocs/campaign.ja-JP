@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: ad198540dc65152680e1d14c45286b94397948fd
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 100%
+source-wordcount: '1498'
+ht-degree: 98%
 
 ---
 
@@ -16,6 +16,14 @@ ht-degree: 100%
 
 このページには、**Campaign v8 2023 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
 
+>[!BEGINSHADEBOX]
+
+**このページ内**
+
+* Campaign v8.5 - [ リリース 8.5.1](#release-8-5-1) | [ リリース 8.5.2](#release-8-5-2)
+* Campaign v8.4 - [ リリース 8.4.3](#release-8-4-3) | [ リリース 8.4.4](#release-8-4-4) | [ リリース 8.4.5](#release-8-4-5)
+
+>[!ENDSHADEBOX]
 
 ## リリース 8.5.2 {#release-8-5-2}
 

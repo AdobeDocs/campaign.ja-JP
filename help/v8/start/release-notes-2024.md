@@ -3,10 +3,10 @@ title: Campaign v8（コンソール）2023 リリースノート
 description: Campaign v8 2023 リリースで記載される機能と改善点のリスト
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
-workflow-type: ht
-source-wordcount: '1016'
-ht-degree: 100%
+source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+workflow-type: tm+mt
+source-wordcount: '1430'
+ht-degree: 97%
 
 ---
 
@@ -14,28 +14,41 @@ ht-degree: 100%
 
 このページには、**Campaign v8 2024 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
 
+>[!BEGINSHADEBOX]
+
+**このページ内**
+
+* Campaign v8.7 - [ リリース 8.7.1](#release-8-7-1) | [ リリース 8.7.2](#release-8-7-2)
+* Campaign v8.6 - [ リリース 8.6.1](#release-8-6-1) | [ リリース 8.6.2](#release-8-6-2) | [ リリース 8.6.3](#release-8-6-3)
+* Campaign v8.5 - [ リリース 8.5.3](#release-8-5-3)
+
+>[!ENDSHADEBOX]
 
 
-## リリース 8.5.3 {#release-8-5-3}
+## リリース 8.7.2 {#release-8-7-2}
 
-_2024年5月28日（PT）_
+_2024年9月3日（PT）_
 
-### OAuth サーバー間の資格情報への移行 {#change-8-5-3}
+>[!AVAILABILITY]
+>
+>このリリースは&#x200B;**限定提供**（LA）中です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
+>
+>Campaign v8 に移行する Campaign Standard ユーザーについては、[Campaign v8 web ユーザーインターフェイスのドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}でこの移行の詳細を確認してください。
 
-このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。[詳細情報](#change-8-7-1)
+### 新機能 {#new-8-7-2}
 
-### 修正点 {#fixes-8-5-3}
+* **新しい SMS 送信コネクタ** - SMS 送信コネクタが最新化および改善され、トランシーバモードの SMPP 接続と永続的な SMPP 接続が有効になり、Adobe Campaign Standard から移行する環境との互換性が向上しました。すべての新しい SMS 実装で、新しい SMS 外部アカウントが利用できるようになりました。既存の実装も引き続きサポートされますが、この新しい最新の拡張コネクタに移行することをお勧めします。[詳細情報](../send/sms/sms.md)
+
+* **リッチプッシュ通知（GA）** - リッチプッシュ通知を送信できるようになりました。リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。このバージョンでは、リッチプッシュ通知用のテンプレートセットが iOS および Android アプリで利用できるようになりました。[詳細情報](../send/rich-push-android.md)
+
+* **ブランディング** - ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで利用できるようになりました。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ja){target="_blank"}
+
+### 修正点 {#fixes-8-7-2}
 
 このリリースでは、次の問題が修正されています。
 
-NEO-70263、NEO-64984、NEO-63657、NEO-63387、NEO-62964、NEO-62750、NEO-62686、NEO-59544、NEO-52542
+NEO-48232、NEO-56832、NEO-72504、NEO-74855、NEO-75898、NEO-76097、NEO-76958、NEO-77014、NEO-77795、NEO-78843、NEO-79328。
 
-
-## 5月のアップデート {#may-updates}
-
-次の変更は 5月にリリースされ、Campaign v8 ユーザーが使用できるようになりました。
-
-* **新しいセキュリティ強化アドオン**：ネットワーク接続をより安全にし、リソースのセキュリティを強化するために、Adobe Campaign では、セキュア CMK 統合とセキュア VPN トンネリングという 2 つの機能を含む新しいセキュリティ強化アドオンを提供しています。[詳細情報](../config/enhanced-security.md)
 
 
 ## リリース 8.7.1 {#release-8-7-1}
@@ -83,6 +96,38 @@ Campaign とのインバウンド統合を実装している場合は、[この�
 NEO-72648、NEO-71534、NEO-71473、NEO-70263、NEO-70195、NEO-69651、NEO-68704、NEO-68192、NEO-67814、NEO-67702、NEO-67620、NEO-66022、NEO-65774、NEO-65633、NEO-64199、NEO-63706、NEO-63705、NEO-63287、NEO-63197、NEO-62575、NEO-60250、NEO-60192、NEO-58596、NEO-58314、NEO-58004、NEO-40054
 
 
+
+## リリース 8.6.3 {#release-8-6-3}
+
+_2024年7月30日（PT）_
+
+### 新機能 {#new-8-6-3}
+
+* **リッチプッシュ通知** - リッチプッシュ通知を送信できるようになりました。リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。このバージョンでは、リッチプッシュ通知用のテンプレートセットが iOS および Android アプリで利用できるようになりました。[詳細情報](../send/rich-push-android.md)
+
+* このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。[詳細情報](release-notes-2024.md#change-8-7-1)
+
+### 一般的な改善点 {#improvements-8-6-3}
+
+* アプリケーション間のすべての通信のセキュリティを強化するために、外部 API 呼び出しで mTLS がサポートされるようになりました。
+
+### 修正点 {#fixes-8-6-3}
+
+このリリースでは、次の問題が修正されています。
+
+NEO-79328、NEO-78843、NEO-77795、NEO-77014、NEO-76958、NEO-76097、NEO-75898、NEO-72504、NEO-70263、NEO-67620、NEO-63197、NEO-58596、NEO-56832。
+
+<!--
+https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%20AND%20type%20not%20in%20(epic%2C%20test%2C%20sub-task%2C%20Roadmap)%20AND%20resolution%20!%3D%20unresolved%20AND%20%22Fixed%20in%20Build%22%20is%20not%20EMPTY%20and%20type%20in%20(%22customer%20request%22)
+-->
+
+
+## 2024 年 5 月の更新 {#may-updates}
+
+次の変更は 5月にリリースされ、Campaign v8 ユーザーが使用できるようになりました。
+
+* **新しいセキュリティ強化アドオン**：ネットワーク接続をより安全にし、リソースのセキュリティを強化するために、Adobe Campaign では、セキュア CMK 統合とセキュア VPN トンネリングという 2 つの機能を含む新しいセキュリティ強化アドオンを提供しています。[詳細情報](../config/enhanced-security.md)
+
 ## リリース 8.6.2 {#release-8-6-2}
 
 _2024年2月23日（PT）_
@@ -123,3 +168,19 @@ _2024年2月14日（PT）_
 このリリースでは、次の問題が修正されています。
 
 NEO-67892、NEO-67235、NEO-66797、NEO-66462、NEO-65091、NEO-65036、NEO-64984、NEO-64680、NEO-63973、NEO-63879、NEO-63815、NEO-63657、NEO-63539、NEO-63387、NEO-63294、NEO-63174、NEO-62964、NEO-62750、NEO-62686、NEO-62455、NEO-62406、NEO-61580、NEO-61199、NEO-60786、NEO-59544、NEO-59198、NEO-59059、NEO-58637、NEO-55197、NEO-52542、NEO-50488、NEO-47789
+
+
+
+## リリース 8.5.3 {#release-8-5-3}
+
+_2024年5月28日（PT）_
+
+### OAuth サーバー間の資格情報への移行 {#change-8-5-3}
+
+このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。[詳細情報](#change-8-7-1)
+
+### 修正点 {#fixes-8-5-3}
+
+このリリースでは、次の問題が修正されています。
+
+NEO-70263、NEO-64984、NEO-63657、NEO-63387、NEO-62964、NEO-62750、NEO-62686、NEO-59544、NEO-52542

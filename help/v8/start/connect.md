@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: 87426a5924e1044faf212631ba868753ae43fad6
+workflow-type: tm+mt
+source-wordcount: '978'
+ht-degree: 97%
 
 ---
 
@@ -122,6 +122,10 @@ Campaign 管理者は、オペレーターを作成し、ユーザーと資格�
 ### Web ユーザーインターフェイス {#connect-web-ui}
 
 Campaign v8.6 リリース以降、中央の Adobe Experience Cloud 環境を通じて、新しい **Campaign web ユーザーインターフェイス**&#x200B;にアクセスできるようになります。Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
+
+>[!AVAILABILITY]
+>Campaign web ユーザーインターフェイスは、Adobe IDを使用してAdobe Campaignに接続するユーザーのみが使用できます。 [Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} のAdobeの詳細を表示します。
+>
 
 Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイスにアクセスする方法については、[このページ](campaign-ui.md#ac-web-ui)を参照してください。
 

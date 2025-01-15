@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 87426a5924e1044faf212631ba868753ae43fad6
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 97%
 
 ---
 
@@ -106,6 +106,10 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 Campaign v8 クライアントコンソールユーザーは、v8.6.1 リリース以降、中央の Adobe Experience Cloud ユーザーインターフェイスを通じて web 環境にアクセスできるようになりました。Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
 ![Adobe Campaign web ユーザーインターフェイスホームページ](assets/ac-web-home.png)
+
+>[!AVAILABILITY]
+>Campaign web ユーザーインターフェイスは、Adobe IDを使用してAdobe Campaignに接続するユーザーのみが使用できます。 [Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} のAdobeの詳細を表示します。
+>
 
 新しい Campaign web ユーザーインターフェイスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
 
