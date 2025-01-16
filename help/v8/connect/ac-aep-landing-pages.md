@@ -5,8 +5,8 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
-workflow-type: ht
+source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
+workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
 認証オプションを Campaign に設定したら、ランディングページから Campaign と Adobe Experience Platform の間でデータを同期できるようにするカスタム JavaScript コードを作成する必要があります。
 
-## ワークフロー実行時のオプションを追加 {#javacript}
+## ワークフロー実行時のオプションを追加 {#javascript}
 
 ランディングページと Adobe Experience Platform の間でデータを同期できるようにするには、カスタム JavaScript コードを Adobe Campaign に追加する必要があります。次の手順に従います。
 
