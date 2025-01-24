@@ -5,19 +5,18 @@ feature: Landing Pages
 role: User, Developer
 level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
-source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
+source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 28%
+source-wordcount: '294'
+ht-degree: 11%
 
 ---
 
 # ランディングページの作成と管理 {#ac-gs-lp}
 
-ランディングページでは、ユーザーをオンラインフォームに誘導して、データを更新したり、通信の受信をオプトイン／オプトアウトしたり、ニュースレターなどの特定のサービスを購読したりできます。
+ランディングページは、特定のマーケティング目標を持つ専用の web ページです。 訪問者は通常、メール、ソーシャルメディアへの投稿、または検索エンジンの結果でリンクをクリックした後、ランディングページに到達します。 一般的な web サイトページとは異なり、ランディングページは、購入、サービスの購読/購読解除、リソースのダウンロードなど、1 つの明確に定義されたアクションの推進に焦点を当てています。 Adobe Campaignを使用すると、ランディングページを作成してユーザーのデータを更新したり、お知らせの受信をオプトイン/オプトアウトしたり、ニュースレターなどの特定のサービスを購読したりできるオンラインフォームにユーザーを誘導できます。
 
 ランディングページを作成するには、[web ユーザーインターフェイス ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui) を参照します。 Adobe Campaignには、ランディングページ用の新しいユーザーエクスペリエンスが付属しており、web ユーザーインターフェイスでのみ使用できます。
-
 
 >[!AVAILABILITY]
 >
