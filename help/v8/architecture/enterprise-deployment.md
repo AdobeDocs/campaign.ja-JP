@@ -5,10 +5,10 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
-workflow-type: ht
-source-wordcount: '1050'
-ht-degree: 100%
+source-git-commit: 3235701e0939466d4275b1e9202f82694ccdb352
+workflow-type: tm+mt
+source-wordcount: '1053'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 * すべての顧客データを保存：プロファイルや、トランザクション、製品、場所などのカスタムデータ。
 * 配信ログ、トラッキングログ、プッシュ登録など、Campaign で生成または収集されたすべてのイベントと行動データの保存。
 * 上記のすべてのデータ集計の保存。
-* 参照テーブル（配信、列挙、国など）のコピー（h + 1）の保存（ワークフロー、キャンペーン、レポートで使用されます）。
+* ワークフロー、キャンペーン、レポートで使用される参照テーブル（配信、列挙、国など）のコピー（h + 1）を保存します。
 * すべてのバッチプロセスとワークロードの実行
 
 
@@ -65,7 +65,7 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 
 * ボリュームの少ない API など、特定のワークロードの実行。
 * 配信とキャンペーンの設定、ワークフロー、サービスの定義を含む、すべての Campaign データの保存。
-* すべてのビルトイン参照テーブル（列挙、国など）の保存（[!DNL Snowflake] に複製されます）。
+* [!DNL Snowflake] にレプリケートされるすべてのビルトイン参照テーブル（列挙、国など）を保存します。
 
   ただし、次の操作はできません。
    * 顧客データのカスタマイズを作成（例えば、PostgreSQL では世帯テーブルを作成せず、Snowflake でのみ作成します）。
@@ -84,9 +84,7 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 
 ### [!DNL Campaign] API のステージングメカニズム{#staging-api}
 
-[!DNL Campaign] Cloud データベースでは、パフォーマンス（待ち時間と同時実行性）のため、単一呼び出しのブラストは推奨されません。大量の送信を行っている場合でも、API の最適なパフォーマンスを保証するにはバッチ操作を使用する必要があり、Campaign は API 呼び出しの処理をローカルデータベースレベルで継続します。
-
-[API のステージングメカニズムについて詳しくは、このページを参照してください。](staging.md)
+[!DNL Campaign] Cloud データベースでは、パフォーマンス（待ち時間および同時実行性）に関して、単一呼び出しのブラストはお勧めしません。 非常に少量を送信する場合を除き、最適な API パフォーマンスを保証するには、バッチ操作を使用する必要があります。 パフォーマンスを向上させるために、取り込み API はローカルデータベースにリダイレクトされます。 [Campaign API のステージングメカニズムについて詳しくはこちらを参照 ](staging.md)
 
 ### 新しい API{#new-apis}
 
