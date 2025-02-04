@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: 9d5a2ca1e9858a727377b8afa6bdd7e3761c1b56
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 95%
+source-wordcount: '1080'
+ht-degree: 92%
 
 ---
 
@@ -117,7 +117,7 @@ Campaign v8 クライアントコンソールユーザーは、v8.6.1 リリー�
 >Campaign web ユーザーインターフェイスは、Adobe IDを使用してAdobe Campaignに接続するユーザーのみが使用できます。 [Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} のAdobeの詳細を表示します。
 >
 
-新しい Campaign web ユーザーインターフェイスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
+新しい Campaign web ユーザーインターフェイスについて詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。 また、Campaign web ユーザーインターフェイスのドキュメントで、専用の [ よくある質問のページ ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"} を参照することもできます。
 
 追加機能および高度な機能、設定は、クライアントコンソールでのみ使用できます。両方のユーザーインターフェイスで使用できる機能について詳しくは、[Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ja){target="_blank"}を参照してください。
 
