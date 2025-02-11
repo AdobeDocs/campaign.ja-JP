@@ -3,7 +3,7 @@ title: Campaign v8（コンソール）2024 リリースノート
 description: Campaign v8 2024 リリースで記載される機能と改善点のリスト
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: 54cc5686cc5187a1ab0514abcaf9fcd69e7a1ede
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 95%
@@ -139,7 +139,7 @@ _2024年2月14日（PT）_
 
 * 2024年2月までに、Google または Yahoo! を通じて 5,000 件を超えるメールメッセージを送信する会社は、DMARC（Domain-based Message Authentication Reporting and Conformance）と呼ばれる認証テクノロジーの使用を開始する必要があります。Adobe Campaign で使用しているすべてのサブドメインに対して DMARC レコードが設定されていることを確認してください。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja){target="_blank"}
 
-* 2024年6月1日（PT）以降、Google と Yahoo! は、送信者に対して、ワンクリックでの List-Unsubscribe への準拠を義務付ける予定です。Adobe Campaign では、このオプションをサポートするようになりました。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#one-click-list-unsubscribe){target="_blank"}
+* 2024年6月1日（PT）以降、Google と Yahoo! は、送信者に対して、ワンクリックでの List-Unsubscribe への準拠を義務付ける予定です。Adobe Campaign では、このオプションをサポートするようになりました。[詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}
 
 
 ### 修正点 {#fixes-8-6-1}
