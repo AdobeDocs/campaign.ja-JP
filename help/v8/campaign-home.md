@@ -3,7 +3,7 @@ keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign v8 ヘルプセンター
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 11614d555aa250adfcabce40dedb455328845eaa
+source-git-commit: 82622a4517356eaba1f7eba23d4b3050d8ca37c9
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 98%
@@ -22,7 +22,7 @@ Adobe Campaign v8（クライアントコンソール）製品とドキュメン
 
 Adobe Campaign の最新バージョンが公開されました。詳しくは、リリースノートを参照してください。
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
+[![画像](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md#release-8-6-4)
 
 
 >[!TAB 新しい Campaign web ユーザーインターフェイス]

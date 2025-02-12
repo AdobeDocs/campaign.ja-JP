@@ -2,55 +2,17 @@
 title: Campaign v8（コンソール）2025 リリースノート
 description: Campaign v8 2025 リリースで記載される機能と改善点のリスト
 feature: Release Notes
-source-git-commit: c5452082104432af49a93ecaa96865f19ee89ec2
+exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
+source-git-commit: 82622a4517356eaba1f7eba23d4b3050d8ca37c9
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 55%
+source-wordcount: '277'
+ht-degree: 92%
 
 ---
 
 # 2025 リリースノート {#2025-rn}
 
-このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
-
->[!BEGINSHADEBOX]
-
-**このページ内**
-
-* Campaign v8.6 - [ リリース 8.6.4](#release-8-6-4)
-* Campaign v8.7 - [ リリース 8.7.2](#release-8-7-2)
-
->[!ENDSHADEBOX]
-
-## リリース 8.6.4 {#release-8-6-4}
-
-_2025 年 1 月 15 日_
-
-### 一般的な改善点 {#improvements-8-6-4}
-
-* [ エンタープライズ（FFDA）デプロイメント ](../../v8/architecture/enterprise-deployment.md) のコンテキストで、配信の分析中に Campaign アプリケーションの安定性が向上しました。
-* このリリースには、キー管理、ステージング、データレプリケーションなど、FFDA アーキテクチャメカニズムの改善および強化が含まれています。
-* [ エンタープライズ（FFDA）デプロイメント ](../../v8/architecture/enterprise-deployment.md) に新しいテクニカルワークフローが導入されました。 これらのワークフローは、対応するテーブルで並列レプリケーションリクエストを一元化することで、配信および関連データをレプリケートします。 これらのワークフローは、`Replicate nms` から開始します。 [詳細情報](../architecture/replication.md)
-* 新しい **ワークフローを永続的に実行するためのウォッチドッグスーパーバイザーを有効にする** オプションがワークフローのプロパティで使用できるようになりました。 このオプションを有効にすると、エラーが発生した後、ワークフローが自動的に再開されます。 ワークフローがまだエラーの場合、デフォルトでは、再起動は 30 秒ごとに行われます。 この間隔を調整するには、新しい `XtkWorkflow_WatchdogTimerTimeout` オプションを作成し、新しい遅延を指定する整数データタイプを設定します。 このオプションは、テクニカルワークフローでのみ有効にしてください。 [詳細情報](../../automation/workflow/workflow-properties.md#execution)
-
-### セキュリティの強化 {#security-8-6-4}
-
-**[!UICONTROL Adobe Experience Cloud]** 外部アカウントを通じたAdobeソリューションおよびアプリとの接続が、セキュリティを強化するために更新されました。
-
-<!--
-### Connection to Campaign {#ims-8-6-4}
-
-**(Limited availability)** For a restricted list of customers, Campaign v8.6.4 can allow native authentication mode instead of Adobe Identity Management System (IMS). Note that if you are using Campaign native authentication, you cannot access to [Campaign Web User Interface](../start/campaign-ui.md#campaign-web-user-interface).-->
-
-### 互換性のアップデート {#comp-8-6-4}
-
-Databricks が、Adobe Campaign Federated Data Access（FDA）の外部データベースとしてサポートされるようになりました。詳しくは、[このページ](compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
-
-### 修正点 {#fixes-8-6-4}
-
-このリリースでは、次の問題が修正されています。
-
-NEO-48232、NEO-67814、NEO-71388、NEO-74855、NEO-75643、NEO-75962、NEO-76132、NEO-76958、NEO-76986 77162、NEO-77452 78946、NEO-79373、NEO-80243、NEO-80314、NEO-81127、NEO-81209、NEO-81223、NEO-81287、NEO-81290 81312 81512 81520 81566 81704 81908 82195 82591 82592 82640 82665 82781 82920 83081 83096 83137 83143、NEO-NEO-3、NEO-3、NEO-6、NEO-5 NEO-、NEO-、NEO-k、NEO-k、NEO-k、NEO-k、NEO-k、NEO-k、NEO-k、NEO-k、NEO-k
+このページには、**2025 Campaign v8 リリース** の新機能、改善点およびバグ修正が記載されています。 最新のリリースは [ このページ ](release-notes.md) に記載されています。
 
 ## リリース 8.7.2 {#release-8-7-2}
 
