@@ -5,16 +5,21 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
-workflow-type: ht
-source-wordcount: '541'
-ht-degree: 100%
+source-git-commit: a76d2c30d3e1c723bcd4881f28980d346aade3dc
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 93%
 
 ---
 
 # メールのデザインと送信
 
 Adobe Campaign を使用すると、メール配信を作成して、パーソナライズされたメールをターゲット母集団に送信できます。[詳細情報](../send/send.md)
+
+>[!NOTE]
+>
+>個別にカスタマイズされた魅力的なメールを作成するには、[web ユーザーインターフェイス ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui) を参照します。 Adobe Campaignには、すべてのメールのすべてのコンテンツをデザインして調整できる直感的なドラッグ&amp;ドロップインターフェイスであるメールDesignerが付属しています。
+
 
 配信を作成して設定する主な手順について詳しくは、[このページ](../start/create-message.md)を参照してください。
 
