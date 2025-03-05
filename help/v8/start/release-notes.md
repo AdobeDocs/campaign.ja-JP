@@ -3,7 +3,7 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 82622a4517356eaba1f7eba23d4b3050d8ca37c9
+source-git-commit: dcc3802a165091597505c4556dd7626d6810266f
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 25%
@@ -26,7 +26,7 @@ ht-degree: 25%
 
 ## リリース 8.7.3 {#release-8-7-3}
 
-_2025 年 2 月 5 日_
+_2025 年 2 月 14 日_
 
 >[!AVAILABILITY]
 >
