@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 5b649e17f464d09124064f61712856d9301fc6d6
+source-git-commit: ba27d1e56f7354e500e747f01a27412f8d553e2b
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 99%
+source-wordcount: '437'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,8 @@ Adobe Campaign と互換性のある顧客関係管理（CRM）システムを�
 
 Adobe Campaign Federated Data Access（FDA）モジュールと互換性のある外部データベースを以下に示します。FDA について詳しくは、[このページ](../connect/fda.md)を参照してください。
 
-* **[!DNL Amazon Redshift]**
+* ODBC コネクタ **[!DNL Amazon Redshift]**、Campaign v8.6.4 以降
+* **[!DNL Amazon Redshift]** レガシーコネクタ
 * **[!DNL Azure Synapse]**、Campaign v8.5 以降
 * **[!DNL Databricks]**、Campaign v8.6.4 / v8.7 以降
 * **[!DNL Google Big Query]**
