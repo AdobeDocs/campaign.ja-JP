@@ -5,10 +5,10 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 100%
+source-wordcount: '1126'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Campaign インスタンスを X アカウントにリンクするには、**Twi
 >
 >X アカウントごとに 1 つの **Twitter** サービスを作成します。その際、別のテストサービスを作成し、配達確認を[テストアカウント](#tw-test-account)に送信する必要があります。
 >
->各 **Twitter** サービスも、アドビが MID インスタンスで作成する必要があります。環境の設定については、アドビ担当者にお問い合わせください。
+>各 **Twitter** サービスも、Adobeがミッドソーシング（MID）インスタンスで作成する必要があります。 環境の設定については、アドビ担当者にお問い合わせください。
 >
 
 設定を入力するには、Adobe Campaign クライアントコンソールと X アプリの権限の両方にアクセスする必要があります。

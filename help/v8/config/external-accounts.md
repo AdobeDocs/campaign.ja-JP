@@ -5,10 +5,10 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 100%
+source-wordcount: '1135'
+ht-degree: 98%
 
 ---
 
@@ -86,6 +86,8 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 ### ルーティング {#routing}
 
 **[!UICONTROL ルーティング]**&#x200B;外部アカウントを使用すると、インストールしているパッケージに応じて、Adobe Campaign で利用可能な各チャネルを設定できます。
+
+外部アカウントの管理と配信の実行について詳しくは、[ この節 ](../architecture/architecture.md#split) を参照してください。
 
 ### 実行インスタンス {#execution-instance}
 

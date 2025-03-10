@@ -6,10 +6,10 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 100%
+source-wordcount: '1836'
+ht-degree: 99%
 
 ---
 
@@ -257,7 +257,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
    >[!CAUTION]
    >
-   >「**[!UICONTROL 接続をテスト]**」ボタンは、MID サーバーが FCM サーバーにアクセスできるかどうかを確認しません。
+   >**[!UICONTROL 接続をテスト]** ボタンは、ミッドソーシング（MID）サーバーが FCM サーバーにアクセスできるかどうかを確認しません。
 
 1. （オプション）必要に応じて、**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 

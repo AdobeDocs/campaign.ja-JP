@@ -5,10 +5,10 @@ description: インバウンド SMS ワークフローアクティビティの�
 feature: Workflows, Channels Activity
 role: User
 exl-id: 2c12c45b-4429-4e60-bc96-ff70a95d4c9e
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 「**インバウンド SMS**」アクティビティの最初のタブで SMS メッセージのルーティングのパラメーターを入力し、メッセージの受信時に実行するスクリプトを入力します。2 番目のタブではアクティビティのスケジュールを設定でき、3 番目のタブではアクティビティの有効期限を設定できます。
 
-1. **[!UICONTROL SMS ルーティング]**：SMS メッセージの取得に使用する外部アカウントを選択します。外部アカウントは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理者／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。
+1. **[!UICONTROL SMS ルーティング]**：SMS メッセージの取得に使用する外部アカウントを選択します。外部アカウントは、ツリーの **[!UICONTROL 管理/プラットフォーム/外部アカウント]** ノードを使用して設定します。 [詳細情報](../../v8/config/external-accounts.md)
 1. **[!UICONTROL スクリプト]**
 1. **[!UICONTROL スケジュール]**
 
