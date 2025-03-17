@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
+source-git-commit: 286af4739c33b79c74b3cb7fa90ad167670a4b4c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 92%
+source-wordcount: '385'
+ht-degree: 89%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 1. Campaign エクスプローラーから、配信テンプレートフォルダーを参照します。デフォルトでは、配信テンプレートは&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;フォルダーに保存されます。
 1. 配信テンプレートを編集して BCC で更新します。
 1. 「**[!UICONTROL プロパティ]**」ボタンをクリックします。
-1. 「**[!UICONTROL 配信]**」タブで、「**[!UICONTROL BCC でメールを送信]**」オプションをオンにします。
+1. 「**[!UICONTROL 配信]**」タブで、「**[!UICONTROL Momentum 強化機能を使用して BCC でメールを送信]**」オプションをオンにします。
 
    ![](assets/email-bcc.png)
 
