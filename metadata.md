@@ -1,14 +1,14 @@
 ---
 cloud: Experience Cloud
-version: v8 Client Console
-solution: Campaign, Campaign v8 Client Console
+version: Campaign v8, Campaign v8 Client Console
+solution: Campaign, Campaign v8, Campaign v8 Client Console
 product: adobe campaign
 feature-set: Campaign
 type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign.ja-JP
 mini-toc-levels: 2
 index: true
-source-git-commit: 61798baddbd6d05660a02549d378d863047fd165
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 100%

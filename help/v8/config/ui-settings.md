@@ -1,12 +1,11 @@
 ---
 title: Campaign インターフェイス設定
 description: Campaign インターフェイス設定のカスタマイズ方法を説明します
-version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 100%
