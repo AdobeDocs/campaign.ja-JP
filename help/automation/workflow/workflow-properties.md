@@ -4,10 +4,10 @@ title: ワークフローのプロパティ
 description: キャンペーンワークフローのプロパティの詳細を説明します
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: 13723ebda8daf57c6885a05a2d583c0c38c86441
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 87%
+source-wordcount: '718'
+ht-degree: 86%
 
 ---
 
@@ -61,9 +61,11 @@ ht-degree: 87%
 
   >[!NOTE]
   >
-  >このオプションは上級ユーザーを対象としており、**テクニカルワークフロー** に対してのみ有効にする必要があります。
+  >* このオプションは、v8.6.4 以降で使用できます。
   >
-  >`fullFdaMkt` パッケージで使用可能な一元化されたレプリケーションワークフローに対して、デフォルトで有効になっています。
+  >* このオプションは上級ユーザーを対象としており、**テクニカルワークフロー** に対してのみ有効にする必要があります。
+  >
+  >* このオプションは、[ エンタープライズ（FFDA）デプロイメント ](enterprise-deployment.md) のコンテキストで利用可能な一元化されたレプリケーションワークフローに対して、デフォルトで有効になっています。 [詳細情報](../../v8/architecture/replication.md)
 
 ### エラー管理 {#error-management}
 
