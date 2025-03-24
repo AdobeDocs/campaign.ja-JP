@@ -4,7 +4,7 @@ title: ワークフローのプロパティ
 description: キャンペーンワークフローのプロパティの詳細を説明します
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 63b7eaba3ea7b580d9b6c3c0e0c015c057539aa8
+source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 87%
@@ -57,7 +57,7 @@ ht-degree: 87%
 
 * **[!UICONTROL 監視スーパーバイザーを有効にして、ワークフローを永続的に実行し続ける]**
 
-  このオプションを選択すると、エラーが発生した後にワークフローが自動的に再開されます。 有効な場合、再起動は 30 秒ごとにワークフローのステータスをチェックし、必要に応じて再起動します。 30 秒の間隔を調整するには、`XtkWorkflow_WatchdogTimerTimeout` のテクニカルオプションを作成し、整数データタイプを使用して目的の遅延を指定します。
+  このオプションを選択すると、エラーが発生した後にワークフローが自動的に再開されます。 有効な場合、再起動は 30 秒ごとにワークフローのステータスをチェックし、必要に応じて再起動します。 30 秒の間隔を調整するには、`XtkWorkflow_WatchdogRestartTimerTimeout` のテクニカルオプションを作成し、整数データタイプを使用して目的の遅延を指定します。
 
   >[!NOTE]
   >
