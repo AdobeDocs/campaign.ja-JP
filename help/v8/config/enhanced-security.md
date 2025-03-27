@@ -5,10 +5,10 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 100%
+source-wordcount: '737'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 * VPN トンネルを確認し、問題が発生した場合にアラートを送信します。
 
-## 安全なセキュア顧客管理キー統合 {#secure-cmk-integration}
+## 顧客管理キーの安全な統合 {#secure-cmk-integration}
 
 **セキュア顧客管理キー（CMK）統合**&#x200B;を使用すると、Amazon Web Services（AWS）アカウントから独自のキーを使用して保存データを暗号化できます。
 
