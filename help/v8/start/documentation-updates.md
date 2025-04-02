@@ -6,16 +6,20 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: fdd0e534feb80e3acaec0a68238ac4ac596980e2
+source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 93%
+source-wordcount: '282'
+ht-degree: 85%
 
 ---
 
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、[!DNL Campaign] v8（コンソール）ドキュメントの最新の更新をすべて掲載しています。
+
+## 2025年4月 {#april-2025}
+
+**[!UICONTROL スケジューラー]** アクティビティのスケジュール時間を変更した後にワークフローを再開し、更新されたスケジュールに従って確実に実行されるようにするためのベストプラクティスが追加されました。 [詳細情報](../../automation/workflow/scheduler.md)
 
 ## 2025年1月 {#january-2025}
 
