@@ -3,16 +3,38 @@ title: Campaign v8（コンソール）2025 リリースノート
 description: Campaign v8 2025 リリースで記載される機能と改善点のリスト
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-source-git-commit: 82622a4517356eaba1f7eba23d4b3050d8ca37c9
+source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 92%
+source-wordcount: '417'
+ht-degree: 68%
 
 ---
 
 # 2025 リリースノート {#2025-rn}
 
 このページには、**2025 Campaign v8 リリース** の新機能、改善点およびバグ修正が記載されています。 最新のリリースは [ このページ ](release-notes.md) に記載されています。
+
+## リリース 8.7.3 {#release-8-7-3}
+
+_2025 年 2 月 14 日_
+
+>[!AVAILABILITY]
+>
+>このリリースは&#x200B;**限定提供**（LA）中です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
+>
+>Campaign v8 に移行するCampaign Standard ユーザーとして、この移行について詳しくは [Campaign v8 web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"} を参照してください。
+
+### 新機能 {#features-8-7-3}
+
+* **トランザクションメッセージの動的レポート** – 動的レポートのユーザーインターフェイスでトランザクションメッセージを監視できるようになりました。 これらのレポートにより、マーケターは、トランザクションメッセージのすべてのレポート指標とディメンション、テンプレートを介して送信された配信の分類をリアルタイムで表示できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+
+* **トランザクションメッセージ REST API** - メールでイベントベースのトランザクション API が使用できるようになりました。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+
+### 修正点 {#fixes-8-7-3}
+
+このリリースでは、次の問題が修正されています。
+
+NEO-79373、NEO-81908、NEO-83081
 
 ## リリース 8.7.2 {#release-8-7-2}
 
@@ -22,7 +44,7 @@ _2024年9月3日（PT）_
 >
 >このリリースは&#x200B;**限定提供**（LA）中です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
 >
->Campaign v8 に移行する Campaign Standard ユーザーについては、[Campaign v8 web ユーザーインターフェイスのドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}でこの移行の詳細を確認してください。
+>Campaign v8 に移行するCampaign Standard ユーザーとして、この移行について詳しくは [Campaign v8 web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"} を参照してください。
 
 ### 新機能 {#new-8-7-2}
 

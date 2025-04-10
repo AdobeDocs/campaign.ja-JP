@@ -3,10 +3,10 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 18%
+source-wordcount: '600'
+ht-degree: 17%
 
 ---
 
@@ -18,34 +18,33 @@ ht-degree: 18%
 
 **このページ内**
 
-* Campaign v8.6 - [ リリース 8.6.4](#release-8-6-4)
-* Campaign v8.7 - [ リリース 8.7.3](#release-8-7-3)
+* [リリース 8.7.4](#release-8-7-4)
+* [ リリース 8.7.3](#release-8-7-3)
+* [リリース 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
 
+## リリース 8.7.4 {#release-8-7-4}
 
-## リリース 8.7.3 {#release-8-7-3}
-
-_2025 年 2 月 14 日_
+_2025年4月10日（PT）_
 
 >[!AVAILABILITY]
 >
 >このリリースは&#x200B;**限定提供**（LA）中です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
 >
->Campaign v8 に移行する Campaign Standard ユーザーについては、[Campaign v8 web ユーザーインターフェイスのドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}でこの移行の詳細を確認してください。
+>Campaign v8 に移行するCampaign Standard ユーザーとして、この移行について詳しくは [Campaign v8 web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"} を参照してください。
 
-### 新機能 {#features-8-7-3}
+### 新機能 {#features-8-7-4}
 
-* **トランザクションメッセージの動的レポート** – 動的レポートのユーザーインターフェイスでトランザクションメッセージを監視できるようになりました。 これらのレポートにより、マーケターは、トランザクションメッセージのすべてのレポート指標とディメンション、テンプレートを介して送信された配信の分類をリアルタイムで表示できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+* **SMS REST API のサポート** - トランザクションメッセージ REST API を SMS チャネルで使用できるようになりました。 ペイロードにメールと携帯電話の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。 指定しない場合、wishedChannel が SMS を明示的にリクエストしない限り、メールがデフォルトで使用されます。
 
-* **トランザクションメッセージ REST API** - メールでイベントベースのトランザクション API が使用できるようになりました。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+* **多言語配信** - Campaign web ユーザーインターフェイスの開始 4 月リリースでは、様々な言語で複数のメール配信を送信し、関連する動的レポートにアクセスできるようになります。 この機能は、4 月末にAdobe Campaign web ユーザーインターフェイスでのみ使用できるようになり、Campaign v8.7.4 へのサーバーの更新が必要になります。
 
-### 修正点 {#fixes-8-7-3}
+### 修正点 {#fixes-8-7-4}
 
 このリリースでは、次の問題が修正されています。
 
-「NEO-79373」、「NEO-81908」、「NEO-83081」。
-
+NEO-80245、NEO-83559
 
 ## リリース 8.6.4 {#release-8-6-4}
 
@@ -60,7 +59,7 @@ _2025 年 1 月 15 日_
 
 ### セキュリティの強化 {#security-8-6-4}
 
-**[!UICONTROL Adobe Experience Cloud]** 外部アカウントを通じたAdobe ソリューションおよびアプリとの接続が、セキュリティを強化するために更新されました。
+**[!UICONTROL Adobe Experience Cloud]** 外部アカウントを通じてアドビソリューションおよびアプリとの接続が更新され、セキュリティが強化されました。
 
 <!--
 ### Connection to Campaign {#ims-8-6-4}
