@@ -5,16 +5,21 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '155'
+ht-degree: 74%
 
 ---
 
 # 定義済みフィルターの作成{#creating-pre-defined-filters}
 
 定義済みのフィルターを作成すると、オファーの作成時に簡単に再利用できるターゲット母集団の実施要件ルールを定義できます。定義済みフィルターは各環境に固有で、オファーのパラメーターが考慮されます。
+
+>[!NOTE]
+>
+>Adobe Campaign Web UI は、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供します。 1 回作成し、後で使用するために保存します。Web UI 用の定義済みフィルターについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank} を参照してください。
+
 
 定義済みフィルターを作成するには、次の手順に従います。
 
