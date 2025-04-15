@@ -5,10 +5,10 @@ description: クエリワークフローアクティビティの詳細を説明�
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: cc0d1b7f662d39443ef82412d6df671af4ac8d97
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 100%
+source-wordcount: '1666'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,11 @@ ht-degree: 100%
 
 クエリを使用すると、条件に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
 クエリサンプルの詳細は、[この節](querying-recipient-table.md)を参照してください。
+
+>[!NOTE]
+>
+>Adobe Campaign Web UI は、データベースをフィルタリングして、様々な条件に基づいて特定のターゲットを選択するプロセスを簡素化する強力なクエリモデラーを備えています。これにより、クエリをより簡単に作成および管理できます。 Web UI のクエリモデラーについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank} を参照してください。
+
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
