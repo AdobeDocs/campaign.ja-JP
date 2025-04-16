@@ -3,16 +3,26 @@ title: Campaign v8（コンソール）2025 リリースノート
 description: Campaign v8 2025 リリースで記載される機能と改善点のリスト
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
+source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 68%
+source-wordcount: '428'
+ht-degree: 66%
 
 ---
 
 # 2025 リリースノート {#2025-rn}
 
 このページには、**2025 Campaign v8 リリース** の新機能、改善点およびバグ修正が記載されています。 最新のリリースは [ このページ ](release-notes.md) に記載されています。
+
+>[!BEGINSHADEBOX]
+
+**このページ内**
+
+* Campaign v8.7 - [ リリース 8.7.2](#release-8-7-2) | [ リリース 8.7.3](#release-8-7-3)
+
+
+>[!ENDSHADEBOX]
+
 
 ## リリース 8.7.3 {#release-8-7-3}
 
