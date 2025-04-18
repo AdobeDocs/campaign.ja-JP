@@ -5,10 +5,10 @@ description: コンテンツ管理
 feature: Workflows, Data Management
 role: User
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 9014c2d235fd3dde4afb961ef970334e4e909778
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 87%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >コンテンツ管理は、オプションの Adobe Campaign モジュールです。使用許諾契約書を確認してください。
+
+>[!NOTE]
+>
+>Adobe Campaignの web ユーザーインターフェイスを使用すると、コンテンツにコンテンツフラグメントを使用できます。 マーケティングユーザーは、1 つ以上のメッセージで参照できる再利用可能なコンポーネントによって、複数のカスタムコンテンツブロックを事前に作成でき、改善されたデザインプロセスでメッセージコンテンツをすばやく組み立てることができます。 コンテンツフラグメントについて詳しくは、[Adobe Campaign Web UI ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 アクティビティのプロパティは、3 つの手順に分かれています。
 
