@@ -4,8 +4,9 @@ title: マーケティングキャンペーンの監視
 description: マーケティングキャンペーンの監視
 feature: Campaigns, Monitoring
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 13a7432e-6216-4a5c-84fc-bc374b5af5ee
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%

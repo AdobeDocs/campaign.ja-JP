@@ -4,8 +4,9 @@ title: プロバイダー、在庫、予算
 description: プロバイダー、在庫、予算
 feature: Budget Management, Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1918'
 ht-degree: 100%

@@ -4,9 +4,10 @@ title: マーケティングキャンペーン配信
 description: マーケティングキャンペーン配信の詳細
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
-workflow-type: ht
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 100%
 

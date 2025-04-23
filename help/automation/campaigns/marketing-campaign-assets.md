@@ -4,11 +4,12 @@ title: マーケティングキャンペーンのアセット、ドキュメン�
 description: マーケティングキャンペーンドキュメントと配信概要の詳細
 feature: Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -58,7 +59,7 @@ ht-degree: 100%
 
 ## 配信の概要の使用 {#delivery-outlines}
 
-配信の概要は、構造化された一連の要素（ドキュメント、店舗、プロモーションクーポンなど）です。これらは、会社が特定のキャンペーン用に作成したものです。これは、ダイレクトメール配信のコンテキストで使用されます。
+配信の概要は、会社が作成した、特定のキャンペーン用の要素（ドキュメント、店舗、プロモーションクーポンなど）の構造化されたセットです。 これは、ダイレクトメール配信のコンテキストで使用されます。
 
 これらの要素は配信の概要にグループ化され、各配信概要は配信に関連付けられます。配信に添付するために、**サービスプロバイダー**&#x200B;に送信する抽出ファイルで参照されます。 例えば、ある部署と、その部署が使用するマーケティングカタログを参照する配信概要を作成できます。
 
@@ -93,7 +94,7 @@ ht-degree: 100%
 
   ![](assets/del-outline-perso-field.png)
 
-  は、リスト領域の右側の&#x200B;**[!UICONTROL 追加]**&#x200B;アイコンをクリックして、概要内で直接作成することもできます。
+  パーソナライゼーション要素は、リスト領域の右側の&#x200B;**[!UICONTROL 追加]**&#x200B;アイコンをクリックして、概要内で直接作成することもできます。
 
   ![](assets/add-del-outline-button.png)
 

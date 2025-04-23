@@ -4,8 +4,9 @@ title: 繰り返しキャンペーンと定期的なキャンペーンの作成
 description: 繰り返しキャンペーンと定期的なキャンペーンを作成および実行する方法を学ぶ
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 68c5b903-5043-4e74-b3f6-90a7f2fb3b9a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 100%

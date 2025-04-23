@@ -4,9 +4,10 @@ title: マーケティングキャンペーンのターゲットオーディエ�
 description: マーケティングキャンペーンのオーディエンスを定義する方法について説明します。
 feature: Campaigns, Audiences
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
-workflow-type: ht
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
 
@@ -247,4 +248,4 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-Campaign に関するその他のチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}を参照してください。
+Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。
