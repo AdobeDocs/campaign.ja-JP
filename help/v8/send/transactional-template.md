@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 98%
+source-wordcount: '1238'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
    ![](assets/messagecenter_create_model_002.png)
 
 1. 必要に応じて、ラベルを変更します。
-1. 送信したいメッセージに合うイベントのタイプを選択します。Adobe Campaign が処理するイベントのタイプは、事前に作成する必要があります。[詳細情報](#create-event-types)
+1. 送信したいメッセージに合うイベントのタイプを選択します。Adobe Campaign が処理するイベントのタイプは、事前に作成する必要があります。[詳細情報](../send/transactional.md#create-event-types)
 
    ![](assets/messagecenter_create_model_003.png)
 
@@ -86,7 +86,7 @@ ht-degree: 98%
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. テストデータを挿入します。[この節](#personalization-data)を参照してください。
+1. テストデータを挿入します。[ パーソナライゼーションデータについて詳しくは、Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-data.html){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 

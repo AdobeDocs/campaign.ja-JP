@@ -5,10 +5,10 @@ description: データ読み込み（ファイル）ワークフローアクテ�
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->サポートされるファイルは、「フラット」な構造のファイル（CSV、TXT など）のみです。XML フォーマットのファイルは推奨されません。
+>サポートされるファイルは、「フラット」な構造のファイル（CSV、TXT など）のみです。XML 形式の使用はお勧めしません。 クライアントコンソールを使用すると、最大 150 MB のファイルを読み込むことができます。 Web ユーザーインターフェイスの「ファイルを読み込み」アクティビティの上限は 50 MB です。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 
