@@ -27,7 +27,7 @@ Campaign を設定して、マーケティングキャンペーンの強力な�
 
 >[!NOTE]
 >
->Adobe Campaign Web UI には、ワークフローのキャンバスが再考されて付属しており、より動的でパーソナライズされたカスタマージャーニーを作成できます。 Web UI のワークフローについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank} を参照してください。
+>Adobe Campaign Web UI には、ワークフローのキャンバスが再考されて付属しており、より動的でパーソナライズされたカスタマージャーニーを作成できます。 Web UI のワークフローについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/gs-workflows){target=_blank} を参照してください。
 
 
 ## ワークフローのデザインと使用 {#gs-ac-wf}
@@ -231,7 +231,7 @@ In this use case, learn how to use the **[!UICONTROL Change data source]** activ
 
 1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=ja#creating-a-query) page in Campaign Classic V7 documentation.
 
 1. 
 

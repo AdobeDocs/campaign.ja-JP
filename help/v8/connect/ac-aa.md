@@ -146,7 +146,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
    >[!NOTE]
    >
-   >キャンペーン ID および Broadload ID フィールドは、JavaScriptのランディングページまたは処理ルールを通じて収集されます。 [ 処理ルールの詳細情報 ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >キャンペーン ID および Broadload ID フィールドは、JavaScriptのランディングページまたは処理ルールを通じて収集されます。 [ 処理ルールの詳細情報 ](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 

@@ -38,7 +38,7 @@ _2025 年 2 月 14 日_
 
 * **トランザクションメッセージの動的レポート** – 動的レポートのユーザーインターフェイスでトランザクションメッセージを監視できるようになりました。 これらのレポートにより、マーケターは、トランザクションメッセージのすべてのレポート指標とディメンション、テンプレートを介して送信された配信の分類をリアルタイムで表示できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
-* **トランザクションメッセージ REST API** - メールでイベントベースのトランザクション API が使用できるようになりました。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+* **トランザクションメッセージ REST API** - メールでイベントベースのトランザクション API が使用できるようになりました。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 
 ### 修正点 {#fixes-8-7-3}
 

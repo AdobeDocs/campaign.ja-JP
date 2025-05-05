@@ -26,7 +26,7 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->サポートされるファイルは、「フラット」な構造のファイル（CSV、TXT など）のみです。XML 形式の使用はお勧めしません。 クライアントコンソールを使用すると、最大 150 MB のファイルを読み込むことができます。 Web ユーザーインターフェイスの「ファイルを読み込み」アクティビティの上限は 50 MB です。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
+>サポートされるファイルは、「フラット」な構造のファイル（CSV、TXT など）のみです。XML 形式の使用はお勧めしません。 クライアントコンソールを使用すると、最大 150 MB のファイルを読み込むことができます。 Web ユーザーインターフェイスの「ファイルを読み込み」アクティビティの上限は 50 MB です。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=ja){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 
