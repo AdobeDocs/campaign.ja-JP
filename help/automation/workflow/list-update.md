@@ -72,6 +72,6 @@ ht-degree: 100%
 
 このビデオでは、エクスプローラーから受信者のリストを作成する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27503?captions=jpn)
 
 Campaign に関するその他のチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}を参照してください。

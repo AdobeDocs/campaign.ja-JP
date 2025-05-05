@@ -79,4 +79,4 @@ ht-degree: 100%
 
 次のビデオでは、動的コンテンツブロックを作成する方法と、動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3449007?quality=12&captions=jpn)

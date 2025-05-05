@@ -115,6 +115,6 @@ var xml = xtk.builder.CopyXxlData(
 
 このビデオでは、Adobe Campaign v8 が使用するデータベース、データがレプリケートされる理由、レプリケートされるデータとレプリケーションプロセスの仕組みについて、重要な概念を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3417456?quality=12&captions=jpn)
 
 Campaign v8 クライアントコンソールに関するその他のチュートリアルは [ こちら ](https://experienceleague.adobe.com/ja/docs/campaign-learn/tutorials/overview) から利用できます。

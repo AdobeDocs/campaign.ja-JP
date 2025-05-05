@@ -26,7 +26,7 @@ Campaign リストを使用すると、オーディエンスを作成および�
 
 Adobe Campaign でのリスト管理について詳しくは、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3426461?quality=12&captions=jpn)
 
 
 ## 連絡先のリストの作成 {#create-a-list-of-contacts}
