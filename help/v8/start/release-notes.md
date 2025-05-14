@@ -3,10 +3,10 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 5ece3ca4ebf9f3973d9cbd1a00ea57b29c1f2e93
+source-git-commit: 6d2425f7e7f35f5461151790fbda2bef2959bff4
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 33%
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-**このページ内**
+**このページについて**
 
 * [リリース 8.6.5](#release-8-6-4)
 * [リリース 8.7.4](#release-8-7-4)
@@ -62,7 +62,7 @@ _2025年4月10日（PT）_
 
 ### 新機能 {#features-8-7-4}
 
-* **SMS REST API のサポート** - トランザクションメッセージ REST API を SMS チャネルで使用できるようになりました。 ペイロードにメールと携帯電話の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。 指定しない場合、wishedChannel が SMS を明示的にリクエストしない限り、メールがデフォルトで使用されます。
+* **SMS REST API のサポート** - トランザクションメッセージ REST API を SMS チャネルで使用できるようになりました。 ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合、wishedChannel が SMS を明示的にリクエストしない限り、メールがデフォルトで使用されます。
 
 * **多言語配信** - Campaign web ユーザーインターフェイスの開始 4 月リリースでは、様々な言語で複数のメール配信を送信し、関連する動的レポートにアクセスできるようになります。 この機能は、4 月末にAdobe Campaign web ユーザーインターフェイスでのみ使用できるようになり、Campaign v8.7.4 へのサーバーの更新が必要になります。
 
