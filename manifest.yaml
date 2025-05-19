@@ -1,0 +1,10 @@
+type: navigation
+order: 1
+title: Campaign Classic Documentation
+pages:
+  - title: Adobe Campaign v8 (console) Documentation
+    url: /help/v8/TOC.md
+  - title: Adobe Campaign Technotes
+    url: /help/technotes/TOC.md
+  - title: Campaign Automation Guides
+    url: /help/automation/TOC.md
