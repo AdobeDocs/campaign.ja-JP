@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: d50c746d11b6f1bb0b5af0d5ddab5660b99dc359
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
    + [既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
    + [ドキュメントの更新](start/documentation-updates.md)
-+ はじめに {#new}
++ 基本を学ぶ {#new}
    + [Adobe Campaign の概要](start/get-started.md)
    + [主な機能](start/whats-new.md)
    + [ユーザーインターフェイスの確認](start/campaign-ui.md)
@@ -62,7 +62,7 @@ ht-degree: 99%
          + [スタンドアロンインスタンス](send/sms/sms-standalone-instance.md)
          + [ミッドソーシングインフラストラクチャ](send/sms/sms-mid-sourcing.md)
          + [SMPP コネクタの説明](send/sms/smpp-connector-delivery.md)
-      + SMS の作成 {#create-sms}
+      + SMS の作成  {#create-sms}
          + [SMS 配信の作成](send/sms/create-sms.md)
          + [コンテンツの定義](send/sms/sms-content.md)
          + [オーディエンスの選択](send/sms/sms-audience.md)
@@ -80,6 +80,7 @@ ht-degree: 99%
    + [LINE メッセージ](send/line.md)
    + [ダイレクトメール](send/direct-mail.md)
    + [X（Twitter）](send/twitter.md)
+   + [カスタム外部チャネル](send/custom-channel.md)
    + コンテンツのパーソナライズ {#personalize}
       + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
       + [パーソナライゼーションデータ](send/personalization-data.md)
@@ -124,7 +125,7 @@ ht-degree: 99%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + 自動処理とワークフロー {#automation}
    + [Campaign 自動化ガイド >](https://experienceleague.adobe.com/ja/docs/campaign/automation/home)
-+ プライバシーとセキュリティの管理 {#privacy}
++ プライバシーとセキュリティ管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
    + [セキュリティ強化アドオン](config/enhanced-security.md)
@@ -162,13 +163,13 @@ ht-degree: 99%
          + [配信レポート](reporting/delivery-reports.md)
          + [組み込み指標の計算](reporting/metrics-calculation.md)
       + [カスタムレポート](reporting/custom-reports.md)
-+ データ管理{#data}
++ データ管理 {#data}
    + [ワークフローの基本を学ぶ](config/workflows.md)
    + [データのインポート](start/import.md)
    + [ワークフロードキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
-   + Campaign と Experience Platform の統合{#ac-aep}
+   + Campaign + Experience Platform {#ac-aep}
       + [オーディエンスとプロファイル属性の共有と同期](connect/ac-aep.md)
       + [Campaign ランディングページからの AEP プロファイルの更新](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
