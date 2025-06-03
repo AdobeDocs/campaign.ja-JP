@@ -4,9 +4,10 @@ description: SMS 配信の作成方法について説明します。
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
-source-git-commit: 25a4ac40f8a178b85e88fbce1ff32ebe2c027f4b
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 

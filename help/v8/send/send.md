@@ -4,11 +4,12 @@ description: Adobe Campaign でのメール送信の範囲と特異性につい�
 feature: Email
 role: Data Engineer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +33,7 @@ ht-degree: 100%
 >配信ステータスは、リアルタイムには表示されません。メールフィードバックサービスについて詳しくは、[この節](#email-feedback-service)を参照してください。
 
 
-[配信の監視について詳しくは、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}。
+[ 配信の監視について詳しくは、Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
 
 ## Campaign MTA {#mta}
 
@@ -75,7 +76,7 @@ Domain Keys Identified Mail（DKIM）は、偽造された送信者アドレス�
 
 Adobe Campaign では、DKIM のメール認証の署名は MTA が実行します。
 
-DKIM について詳しくは、[アドビ配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"}を参照してください。
+DKIMについて詳しくは、[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"} を参照してください。
 
 ## メールフィードバックサービス {#email-feedback-service}
 
@@ -87,7 +88,7 @@ Campaign メールフィードバックサービス（EFS）では、Adobe Campa
 
 MTA からハードバウンスメッセージが報告されると、ログのステータスが&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->に変わります。
 
-ソフトバウンスメッセージが MTA から返されても、ログのステータスは変わりません（**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;のまま）。[エラー理由](delivery-failures.md#delivery-failure-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変わりません。その後、ソフトバウンスメッセージが配信[有効期間](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}の間、再試行されます。
+ソフトバウンスメッセージが MTA から返されても、ログのステータスは変わりません（**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;のまま）。[エラー理由](delivery-failures.md#delivery-failure-reasons)のみが更新されます<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->。**[!UICONTROL 成功]**&#x200B;のパーセンテージは変わりません。その後、ソフトバウンスメッセージが配信[有効期間](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}中ずっと再試行されます。
 
 * 有効期間の終了前に再試行が成功した場合、メッセージのステータスは&#x200B;**[!UICONTROL 送信済み]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増えます。
 

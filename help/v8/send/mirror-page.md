@@ -4,8 +4,9 @@ description: ミラーページへのリンクを追加および管理する方�
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 7bf3937c-484d-4404-8a9b-de7a10f5455a
-source-git-commit: b333db04dd10cc28956959a446f6567e2a89b2d4
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%

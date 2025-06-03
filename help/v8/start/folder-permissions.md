@@ -5,10 +5,11 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +34,9 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->書き込み権限を持つフォルダーが 1 つ以上ないオブジェクトは作成できません。
+>オブジェクトに書き込み権限のあるフォルダーが 1 つもなければ、オブジェクトを作成することはできません。
 >
->フラグメントの作成には管理者である必要はありませんが、「コンテンツビジュアルフラグメント」フォルダーの少なくとも 1 つに対する書き込み権限が必要です。 そうでない場合、ビジュアルフラグメントを作成することはできません。
+>フラグメントを作成するには管理者である必要はありませんが、少なくとも 1 つの「コンテンツビジュアルフラグメント」フォルダーに対する書き込み権限が必要です。権限がない場合は、ビジュアルフラグメントを作成することはできません。
 
 ## 権限の反映 {#propagate-permissions}
 

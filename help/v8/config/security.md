@@ -5,10 +5,11 @@ feature: Privacy, PI
 role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '2280'
+ht-degree: 90%
 
 ---
 
@@ -20,13 +21,161 @@ ht-degree: 100%
 
 ## プライバシー
 
-プライバシー設定と強化は、セキュリティを最適化するうえで重要な要素です。 プライバシーに関するベストプラクティスをいくつか示します。
+プライバシーを正しく取り扱い、個人データを管理するには、事業をおこなう地域に適用される法律の範囲内で作業してください。Adobe Campaignの機能は、[ このページ ](../start/privacy.md) に記載されている規制を遵守するのに役立ちます。
 
-* HTTP ではなく HTTPS を使用して、顧客の個人情報（PI）を保護する
-* [PI 表示制限](../dev/restrict-pi-view.md)を使用して、プライバシーを保護し、データの誤用を防ぐ
-* 暗号化されたパスワードが制限されていることを確認する
-* ミラーページや Web アプリケーションなどのように、個人情報を含む可能性があるページを保護します。
+### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
+Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です。Campaign でのプライバシーの扱い方は、次のような Experience Cloud の一般原則に従います。
+
+* **Adobe Experience Cloud を使用する際に収集される情報**
+
+  Adobe Experience Cloud ソリューションを使用する会社は、収集して Adobe Experience Cloud アカウントに送信する情報を選択します。収集される情報のタイプの例としては、web 閲覧アクティビティ、IP アドレス、モバイルデバイスからの位置情報、キャンペーン成功率、購入品目、買い物かごに入れた品目などがあります。
+
+  >[!NOTE]
+  >
+  >すべてのアドビ製品について、Campaign はアプリと web サイトのユーザーに関する情報を収集します。詳しくは、[アドビのプライバシーポリシー](https://www.adobe.com/jp/privacy/policy.html)を参照してください。
+
+* **Adobe Experience Cloud を使用した情報収集の仕組み**
+
+   * Adobe Experience Cloud ソリューションでは、情報を収集できるように、web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
+   * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。Campaign を使用してモバイル配信を行う方法について詳しくは、「[SMS チャネル ](../send/sms/sms-channel.md) モバイルアプリチャネル」を参照してください。
+
+* **Adobe Experience Cloud の使用に関するユーザーのプライバシー選択**
+
+  アドビから、次の内容を説明するプライバシーポリシーをお客様に提供するように求められます。
+
+   * Adobe Experience Cloud に関連するプライバシー方針
+   * Adobe Experience Cloud に関連して、ユーザーが情報の収集や使用に関する環境設定をおこなう方法
+
+  >[!NOTE]
+  >
+  >すべてのアドビ製品と同様に、Campaign のユーザーは、アプリや Web サイトを通じて収集した情報の共有をオプトアウトできます。詳しくは、[Adobe Experience Cloud の使用に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html) を参照してください。
+
+Adobe Experience Cloud のプライバシーについて詳しくは、[このページ](https://www.adobe.com/jp/privacy/marketing-cloud.html)を参照してください。
+
+## 個人データとペルソナ {#personal-data}
+
+プライバシーを管理する場合、どのデータを誰がどのように扱うかを定義することが重要です。
+* **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
+* **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
+
+Campaign を他のExperience Cloud ソリューションと統合し、[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud Audiences](../start/shared-audiences.md)、Campaign Standard、または [CRM コネクタ ](../../automation/workflow/crm-connector.md) を介した他のソリューションなど、システム間でオーディエンスを転送できるようにする場合、個人データ保護に細心の注意を払う必要があります。
+
+[主な規制](#privacy-regulations)では、データを管理する様々なエンティティを以下のように定義しています。
+
+* **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限を有する関係者です。
+
+* **データ処理者**&#x200B;は、データ管理者の指示に従って個人データを収集、使用、または共有する個人または関係者です。
+
+* **データ主体**&#x200B;は、個人データが収集、使用、共有され、その個人データを参照して直接または間接的に識別できる、生存する個人のことです。
+
+したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者側の責任となるため注意が必要です。
+
+### ユースケースシナリオ {#use-case-scenario}
+
+さまざまなペルソナがどのように関わり合っているかを説明するため、GDPR の顧客体験の高レベルの使用例を以下に示します。
+
+この例では、航空会社が Adobe Campaign の顧客です。 この会社が&#x200B;**データ管理者**&#x200B;で、この航空会社のすべての利用者が&#x200B;**データ主体**&#x200B;です。ここで、Laura はこの航空会社の利用者です。
+
+この例のペルソナは以下の通りです。
+
+* **Laura** は&#x200B;**データ主体**&#x200B;で、航空会社からメッセージを受け取る受信者です。Laura はリピーターですが、ある時点で、航空会社からのパーソナライズされた広告やマーケティングメッセージの受信を希望しないことにしました。そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
+
+* **Anne** は航空会社の&#x200B;**データ管理者**&#x200B;です。Laura のリクエストを受け取り、このデータ主体を識別するための有意な ID を取得して、リクエストを Adobe Campaign に送信します。
+
+* **Adobe Campaign** は&#x200B;**データ処理者**&#x200B;です。
+
+![](assets/privacy-gdpr-flow.png)
+
+この例での一般的なフローを以下に示します。
+
+1. **データ主体**（Laura）は GDPR リクエストを&#x200B;**データ管理者**&#x200B;にメール、カスタマーケア、Web ポータルのいずれかを利用して送付します。
+
+1. **データ管理者**（Anne）はこの GDPR リクエストをインターフェイスまたは API を使用して Campaign に登録します。
+
+1. **データ処理者**（Adobe Campaign）が情報を受け取ると、GDPR リクエストに対するアクションを実行し、応答または確認通知を&#x200B;**データ管理者**（Anne）に送信します。
+
+1. **データ管理者**（Anne）は情報を受け取り、それを&#x200B;**データ主体**（Laura）に返します。
+
+## データの取得 {#data-acquisition}
+
+Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。したがって、受信者の同意を得てこれを監視することが重要になります。
+
+* 受信者は常に通信の受信に同意するようにします。これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。詳しくは、[二重のオプトインを備えた購読フォームの作成](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}を参照してください。
+* 不正なリストを読み込まず、シードアドレスを使用して、クライアントファイルが不正に使用されていないことを確認してください。詳しくは、[シードアドレスについて](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}を参照してください。
+* 同意と権限の管理を通じて、受信者の好みを追跡し、組織内の誰がどのデータにアクセスできるかを管理できます。詳しくは、[この節](#consent)を参照してください。
+* 受信者からのプライバシーリクエストを円滑に処理して管理します。詳しくは、[この節](#privacy-requests)を参照してください。
+
+## プライバシー管理 {#privacy-management}
+
+プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。
+
+Adobe Campaign では、プライバシー管理に関する様々な機能を提供しています。
+* 同意の管理、データ保持、ユーザーの役割：[この節](#consent)を参照してください。
+* プライバシーリクエスト（アクセスする権利と忘れられる権利）：[この節](#privacy-requests)を参照してください。
+* 個人情報の販売のオプトアウト（CCPA 固有）。
+
+Campaign の主なプライバシー機能と関与するペルソナの例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
+
+### 同意、保持、役割 {#consent}
+
+Adobe Campaign には、プライバシーに不可欠な重要な機能が最初から用意されています。
+
+* **同意の管理**：購読管理プロセスを通じて、受信者の環境設定を管理し、どの受信者がどの購読タイプにオプトインしたかを追跡できます。詳しくは、[購読について](../../automation/workflow/subscription-services.md)を参照してください。
+* **データ保持**：すべてのビルトインの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
+* **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}を参照してください。
+
+### プライバシーリクエスト {#privacy-requests}
+
+Adobe Campaign には、特定のプライバシーリクエストに対するデータ管理者としての準備を容易にするためのその他の機能が用意されています。
+
+* **アクセスする権利**&#x200B;とは、データ主体がデータ管理者に、自分に関する個人データが処理されているかどうか、また処理されている場合はその場所と目的について確認できることを指します。
+
+* 「**忘れられる権利**」（削除要求）により、データ主体はデータコントローラーに個人データを消去させることができます。
+
+**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求が、[この節](../start/privacy.md)に示されています。
+
+これらのリクエストを作成するための実装手順については、[この節](../start/privacy.md)で詳しく説明します。
+
+## トラッキング機能 {#tracking-capabilities}
+
+### Cookie {#cookies}
+
+Adobe Campaign では、トラッキング機能により 3 種類の Cookie（セッション Cookie と 2 つの永続的な Cookie）を使用して配信の受信者による閲覧を追跡できます。
+
+* **セッション** Cookie：**nlid** Cookie には、連絡先に送信されるメールの識別子（**broadlogId**）およびメッセージテンプレートの識別子（**deliveryId**）が含まれています。Adobe Campaign が送信したメールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
+
+* 2 つの&#x200B;**永続的な Cookie**：
+   * **UUID**（Universal Unique IDentifier）Cookie は、Adobe Experience Cloud のソリューション間で共有されます。設定は 1 回で、新しい値が生成されると、クライアントブラウザーから消滅します。この Cookie により、web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。この Cookie の説明は[このページ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ja#ec-cookies)で参照できます。
+   * **nllastdelid** Cookie（Campaign Classic 20.3 で導入）は、ユーザーがリンクをクリックした最後の配信の **deliveryId** を含む永続的な Cookie です。この Cookie は、使用されるトラッキングテーブルを識別するために、セッション Cookie がない場合に使用されます。
+
+GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に web サイトのユーザーから同意を得ることが規定されています。
+
+* Cookie の使用を許可するためのチェックボックスを伴う認証リクエスト（例えばページ上に表示される）を使用して、サイトに web トラッキングツールがあることをユーザーに通知したり、ランディングページの上部にバナーを追加したりする必要があります。
+* ポップアップウィンドウはブラウザーでブロックされていることが多いので、避ける必要があります。
+
+### メッセージトラッキング {#message-tracking}
+
+Adobe Campaign では、送信されたメールと配信受信者の動作（開く、リンクのクリック、購読解除など）を追跡できます。詳しくは、[ メッセージについて ](../start/gs-message.md) を参照してください。
+
+これをおこなうには、トラッキング用リンクをメッセージに追加して、配信ダッシュボードの「トラッキング」タブで配信と受信者の動作の影響を測定します。 トラッキングデータは、トラッキング指標レポートで解釈されます。 トラッキングについて詳しくは、[ このページ ](../start/tracking.md) を参照してください。
+
+### Web トラッキング {#web-tracking}
+
+Adobe Campaignでは、受信者による web サイトの閲覧方法を監視することもできます。トラッキングタグを挿入して情報を収集し、web アプリケーションページへの訪問を測定します。
+
+Web トラッキングの設定については、[ この節 ](../start/tracking.md) で説明します。
+
+Adobe Campaign では、トラッキングをさらに管理するために、オプトアウトバナーを表示して、行動追跡をオプトアウトしたエンドユーザーの web 行動の追跡を停止できます。詳しくは、[web アプリケーショントラッキングのオプトアウト](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank}を参照してください。
+
+<!--
+Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
+
+* Protect your customer Personal Information (PI) by using HTTPS instead of HTTP
+* Use [PI view restriction](../dev/restrict-pi-view.md) to protect privacy and prevent data from being misused
+* Make sure that encrypted passwords are restricted
+* Protect the pages that might contain personal information such as mirror pages, web applications, etc.
+-->
 
 >[!NOTE]
 >
@@ -52,7 +201,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}を参照してください。
+詳しくは、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"} を参照してください。
 
 
 ## パーソナライゼーション
@@ -147,4 +296,4 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}を参照してください。
+詳しくは、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"} を参照してください。

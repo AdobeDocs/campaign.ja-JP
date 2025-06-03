@@ -4,8 +4,9 @@ description: Adobe Campaign で「BCC でメールを送信」をアクティブ
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 286af4739c33b79c74b3cb7fa90ad167670a4b4c
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 89%

@@ -4,9 +4,10 @@ description: SMS 配信のコンテンツを定義してパーソナライズす
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 71d9376c-86e8-41ec-92dc-863455d40c7a
-source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
 

@@ -4,11 +4,12 @@ description: 最初の配信の作成
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '1610'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -136,7 +137,7 @@ ht-degree: 100%
 1. 受信者を含むファイルを選択します。
 1. 受信者をインポートする場合は、**[!UICONTROL ファイルフォーマットの定義...]** リンクをクリックし、外部ファイルを選択して設定します。
 
-   データのインポートについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}を参照してください。
+   データのインポートについて詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"} を参照してください。
 
 1. 「**[!UICONTROL 終了]**」をクリックして、この配信を標準の配信として設定します。
 
@@ -181,7 +182,7 @@ ht-degree: 100%
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447000?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

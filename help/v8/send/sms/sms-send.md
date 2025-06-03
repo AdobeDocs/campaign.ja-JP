@@ -4,9 +4,10 @@ description: オーディエンスへの SMS 配信の送信方法について�
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 9469aeb6-831f-4c8f-8c25-b335dc47c764
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 

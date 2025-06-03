@@ -4,9 +4,10 @@ description: SMS 配信の配達確認の送信方法について学ぶ
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 

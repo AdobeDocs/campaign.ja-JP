@@ -5,7 +5,8 @@ feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
 exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
-source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 100%
@@ -318,7 +319,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### 命名規則 {#data-package-naming}
 
-タイプが定義されたら、命名規則を指定する必要があります。Adobe Campaign では、パッケージ仕様のサブフォルダーを作成できません。パッケージ名を整理する最適な方法は、番号を使用することです。番号は、パッケージ名のプレフィックスとして使用します。
+タイプが定義されたら、命名規則を指定する必要があります。Adobe Campaign では、パッケージ仕様のサブフォルダーを作成できません。パッケージ名を整理する最適な方法は、番号を使用することです。番号は、パッケージ名の接頭辞として使用します。
 
 例えば、次の規則を使用できます。
 

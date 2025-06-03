@@ -4,9 +4,10 @@ description: SMS 配信の監視とトラッキングについて
 feature: SMS
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

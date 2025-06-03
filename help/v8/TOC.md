@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 91%
+source-wordcount: '712'
+ht-degree: 92%
 
 ---
 
@@ -48,10 +48,14 @@ ht-degree: 91%
    + [配信のベストプラクティス](start/delivery-best-practices.md)
    + メール {#emails}
       + [メールのデザインと検証](send/email.md)
+      + [メールコンテンツの定義](send/defining-the-email-content.md)
+      + [インタラクティブコンテンツの定義](send/defining-interactive-content.md)
       + [ミラーページへのリンク](send/mirror-page.md)
       + [BCC アドレスの追加](send/email-bcc.md)
       + [追加のメールパラメーターを定義](send/email-parameters.md)
       + [メールの送信と監視](send/send.md)
+      + [日本の携帯電話向けのメールの送信](send/sending-emails-on-japanese-mobiles.md)
+      + [メールへのファイルの添付](send/attaching-files.md)
    + SMS {#sms}
       + [SMS の基本を学ぶ](send/sms/sms.md)
       + SMS チャネルの設定 {#config-sms}
