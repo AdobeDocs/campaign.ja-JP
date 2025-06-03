@@ -117,4 +117,4 @@ var xml = xtk.builder.CopyXxlData(
 
 >[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Campaign v8 クライアントコンソールに関するその他のチュートリアルは [ こちら ](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview) から利用できます。
+Campaign v8 クライアントコンソールに関するその他のチュートリアルは [ こちら ](https://experienceleague.adobe.com/ja/docs/campaign-learn/tutorials/overview) から利用できます。
