@@ -5,10 +5,10 @@ description: ワークフロー実行の監視
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
+source-git-commit: 3ce23cadf94eb561fb406fff739edd3eddf83b58
 workflow-type: tm+mt
-source-wordcount: '2006'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## ログの表示 {#displaying-logs}
 
-ログには、ワークフローの履歴または監査証跡が含まれます。ログには、すべてのユーザーアクション、実行されたすべての操作、および発生したすべてのエラーが記録されます。次の操作をおこなうことができます。
+ログには、ワークフローの履歴または監査記録が含まれます。ログには、すべてのユーザーアクション、実行されたすべての操作、および発生したすべてのエラーが記録されます。次の操作をおこなうことができます。
 
 * 詳細で、「**[!UICONTROL トラッキング]**」タブを選択します。このリストには、すべてのワークフローメッセージが含まれます。
 

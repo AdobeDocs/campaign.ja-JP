@@ -4,22 +4,22 @@ description: Campaign テクニカルオペレーターを Adobe Developer Conso
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 hidefromtoc: true
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # Adobe Developer Console への Campaign テクニカルオペレーターの移行 {#migrate-tech-users-to-ims}
 
-Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されています。テクニカルオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用して Campaign に接続する必要があります。テクニカルオペレーターは、API 統合用に明示的に作成された Campaign ユーザープロファイルです。この記事では、Adobe Developer Console でテクニカルオペレーターをテクニカルアカウントに移行するために必要な手順について詳しく説明します。
+Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されています。テクニカルオペレーターは、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} を使用して Campaign に接続する必要があります。 テクニカルオペレーターは、API 統合用に明示的に作成された Campaign ユーザープロファイルです。この記事では、Adobe Developer Console でテクニカルオペレーターをテクニカルアカウントに移行するために必要な手順について詳しく説明します。
 
 ## 変更点{#ims-changes}
 
 Campaign の標準ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに既に接続しています。セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign クライアントアプリケーションは、IMS テクニカルアカウントトークンを使用して Campaign API を直接呼び出すようになりました。
 
-新しいサーバー間の認証プロセスについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
+新しいサーバー間の認証プロセスについて詳しくは、[Adobe Developer Console ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"} を参照してください。
 
 この変更は、Campaign v8.5 以降に適用され、Campaign v8.6 以降は&#x200B;**必須**&#x200B;となります。
 
@@ -46,9 +46,9 @@ Campaign API を使用している場合は、以下に説明するように、�
 
 ### 手順 1 - Adobe Developer Console で Campaign プロジェクトを作成／更新{#ims-migration-step-1}
 
-統合は、Adobe Developer Console 内の&#x200B;**プロジェクト**&#x200B;の一部として作成されます。プロジェクトについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}を参照してください。
+統合は、Adobe Developer Console 内の&#x200B;**プロジェクト**&#x200B;の一部として作成されます。プロジェクトについて詳しくは、[Adobe Developer Console ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"} を参照してください。
 
-以前に作成した任意のプロジェクトを使用するか、新しいプロジェクトを作成することができます。プロジェクトを作成する手順について詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}を参照してください。
+以前に作成した任意のプロジェクトを使用するか、新しいプロジェクトを作成することができます。プロジェクトを作成する手順について詳しくは、[Adobe Developer Console ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"} を参照してください。
 
 この移行では、**I/O Management API** と **Adobe Campaign** の API をプロジェクトに追加する必要があります。
 
@@ -57,7 +57,7 @@ Campaign API を使用している場合は、以下に説明するように、�
 
 ### 手順 2 - サーバー間認証を使用してプロジェクトに API を追加{#ims-migration-step-2}
 
-Adobe Developer Console でプロジェクトを作成したら、サーバー間認証を使用する API を追加します。OAuth サーバー間の資格情報の設定方法については、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}を参照してください。
+Adobe Developer Console でプロジェクトを作成したら、サーバー間認証を使用する API を追加します。Oauth サーバー間の資格情報の設定方法については、[Adobe Developer Console ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"} を参照してください。
 
 API が正常に接続されると、クライアント ID とクライアント秘密鍵を含む新しく生成された資格情報にアクセスしたり、アクセストークンを生成したりできます。
 
@@ -77,10 +77,10 @@ API が正常に接続されると、クライアント ID とクライアント
 
 この手順は、特定のフォルダー権限またはネームド権限がこのオペレーターに対して（オペレーターのグループ経由ではなく）定義されている場合にのみ必要です。
 
-ここで、Adobe Campaign クライアントコンソールで新しく作成したテクニカルオペレーターを更新する必要があります。既存のテクニカルオペレーターフォルダーの権限を新しいテクニカルオペレーターに適用する必要があります。
+ここでは、Adobe Campaign クライアントコンソールで新しく作成したテクニカルオペレーターを更新する必要があります。既存のテクニカルオペレーターフォルダーの権限を新しいテクニカルオペレーターに適用する必要があります。
 このオペレーターを更新するには、次の手順に従います。
 
-1. Campaign クライアントコンソールのエクスプローラーから、**管理／アクセス管理／オペレーター**&#x200B;の順に移動します。
+1. Campaign クライアントコンソールのエクスプローラーから、**管理／アクセス管理／オペレーター**&#x200B;を参照します。
 1. API に使用される既存のテクニカルオペレーターにアクセスします。
 1. フォルダー権限を参照し、権限を確認します。
 1. 新しく作成したテクニカルオペレーターに同じ権限を適用します。このオペレーターのメールアドレスは、以前にコピーした&#x200B;**テクニカルアカウントメールアドレス**&#x200B;の値です。
@@ -100,7 +100,7 @@ API が正常に接続されると、クライアント ID とクライアント
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.
@@ -174,14 +174,14 @@ You can also update the technical operator programmatically, using SQL scripts o
 
 ### 手順 5 - 設定を検証 {#ims-migration-step-5}
 
-接続を試すには、[Adobe Developer Console 資格情報ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"}で説明しているアクセストークンの生成手順に従って、提供されているサンプル cURL コマンドをコピーします。
+接続を試すには、[Adobe Developer Console資格情報ガイドで説明しているアクセストークンの生成手順に従って ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} 提供されているサンプル cURL コマンドをコピーします。
 
 
 ### 手順 6 - サードパーティ API 統合を更新 {#ims-migration-step-6}
 
 サードパーティシステムとの API 統合を更新する必要があります。
 
-スムーズな統合のためのサンプルコードなど、API 統合手順について詳しくは、[Adobe Developer Console 認証ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
+スムーズな統合のためのサンプルコードなど、API 統合手順について詳しくは、[Adobe Developer Console認証ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"} を参照してください。
 
 
 ### 手順 7 - 古いテクニカルオペレーターを削除 {#ims-migration-step-7}

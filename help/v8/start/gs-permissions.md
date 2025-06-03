@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 19f85d4e19f756d8a45ce5364dd0601373128f50
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 97%
@@ -52,7 +52,7 @@ Admin Console を使用して、ユーザーの追加と製品プロファイル
 
 製品プロファイルは、ユーザーに割り当てることができる製品とサービスのグループです。Adobe Experience Cloudでは、権限は、ユーザーではなく製品のプロファイルに基づいています。 ただし、特定のユーザーに管理者権限をデリゲートできます。
 
-Admin Console では、Campaign の各 Adobe Experience Cloud **製品プロファイル**&#x200B;は、Campaign クライアントコンソールの&#x200B;**オペレータグループ**&#x200B;に関連付けられています。
+Admin Console では、Campaign の各 Adobe Experience Cloud **製品プロファイル**&#x200B;は、Campaign クライアントコンソールの&#x200B;**オペレーターグループ**&#x200B;に関連付けられています。
 
 製品プロファイルを作成して割り当てる方法については、[このページ](manage-permissions.md#create-a-product-profile)を参照してください。
 

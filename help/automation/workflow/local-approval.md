@@ -5,7 +5,7 @@ description: ローカルの承認
 feature: Workflows, Approvals
 role: User
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 100%
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 この例では、ワークフロー配信の承認プロセスのセットアップ方法を示します。配信ワークフローの作成について詳しくは、[例：配信ワークフロー](delivery.md#example--delivery-workflow)の節を参照してください。
 
-オペレーターは、2 つの方法（メールメッセージ内にリンクされた web ページを使用するか、クライアントコンソール経由）のいずれかで、配信を承認できます。
+オペレーターは、2 つの方法（メールメッセージ内にリンクされた Web ページを使用するか、クライアントコンソール経由）のいずれかで、配信を承認できます。
 
 * Web 承認
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
   ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* クライアントコンソール経由での承認
+* クライアントコンソールからの承認
 
   ツリー構造の、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認保留]**&#x200B;ノードに、現在接続中のオペレーターから承認されたタスクのリストが含まれています。このリストは、1 行で表示されます。応答するには、この行をダブルクリックします。次のウィンドウが表示されます。
 

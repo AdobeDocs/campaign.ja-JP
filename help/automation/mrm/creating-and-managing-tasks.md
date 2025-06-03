@@ -5,9 +5,9 @@ description: タスクの作成と管理
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
-workflow-type: ht
-source-wordcount: '3928'
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+workflow-type: tm+mt
+source-wordcount: '3927'
 ht-degree: 100%
 
 ---
@@ -469,7 +469,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 1. 割り当てのセクションを完了すると、参加者は以下のいずれかの方法でタスクを承認できます。
 
    * 通知メールを使用する。
-   * タスクダッシュボードのクライアントコンソールまたは web アクセスを使用する。
+   * タスクダッシュボードのクライアントコンソールまたは web インターフェイスを使用する。
 
      ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -493,7 +493,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 1. タスクのステータスは「**[!UICONTROL 承認する]**」になり、レビュー担当者に通知が送信されます。
 
-   レビュー担当者は、通知メール、クライアントコンソールまたは web ブラウザーを使用してタスクを承認します。
+   レビュー担当者は、通知メール、クライアントコンソールまたは web インターフェイスを使用してタスクを承認します。
 
    キャンペーンダッシュボードから承認できます。
 

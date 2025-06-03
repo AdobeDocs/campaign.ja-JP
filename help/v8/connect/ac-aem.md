@@ -5,20 +5,20 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 100%
+source-wordcount: '667'
+ht-degree: 94%
 
 ---
 
 # Campaign と Adobe Experience Manager の操作 {#ac-aem}
 
-Adobe Campaign と Adobe Experience Manager を統合すると、メール配信のコンテンツとフォームを Adobe Experience Manager で直接管理できます。**Adobe Experience Manager** コンテンツを Campaign にインポートするか、**Adobe Experience Manager as a Cloud Service** アカウントに接続して、web インターフェイス内でコンテンツを直接編集することができます。
+Adobe Campaign と Adobe Experience Manager を統合すると、メール配信のコンテンツとフォームを Adobe Experience Manager で直接管理できます。
 
-[詳しくは、Campaign web インターフェイス内で Adobe Experience Manager as a Cloud Service を編集する方法を参照してください](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=ja){target="_blank"}。
+[Campaign web インターフェイス内でAdobe Experience Manager as Cloud Service コンテンツを編集する方法を説明します ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=ja){target="_blank"}。
 
-[Adobe Experience Manager について詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ja#aem-and-adobe-campaign-integration-workflow){target="_blank"}。
+[Adobe Experience Managerの詳細については、このドキュメントを参照してください ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ja#aem-and-adobe-campaign-integration-workflow){target="_blank"}。
 
 
 >[!NOTE]
@@ -47,7 +47,7 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
    ![](assets/aem_authoring_3.png)
 
-1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加してメールコンテンツをカスタマイズします。詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ja#editing-email-content){target="_blank"}を参照してください。
+1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加してメールコンテンツをカスタマイズします。詳しくは、[Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ja#editing-email-content){target="_blank"} を参照してください。
 
 1. メールの準備が整ったら、**[!UICONTROL ページ情報]**&#x200B;メニューに移動し、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 
@@ -103,7 +103,7 @@ Adobe Campaign でメールまたはランディングページを編集中に�
 
    ![](assets/aem_assets_1.png)
 
-1. 「**作成**」、「**ファイル**」の順にクリックして、アセットを **Adobe Experience Manager Assets ライブラリ**&#x200B;にインポートします。詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=ja#uploading-assets){target="_blank"}を参照してください。
+1. 「**作成**」、「**ファイル**」の順にクリックして、アセットを **Adobe Experience Manager Assets ライブラリ**&#x200B;にインポートします。詳しくは、[Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=ja#uploading-assets){target="_blank"} を参照してください。
 
    ![](assets/aem_assets_2.png)
 

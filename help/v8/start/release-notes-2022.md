@@ -3,7 +3,7 @@ title: Campaign v8 2022 リリースノート
 description: Campaign v8 2022 リリースで記載される機能と改善点のリスト
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 97%
@@ -131,7 +131,7 @@ _2022年9月30日（PT）_
 
 >[!CAUTION]
 >
-> クライアントコンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#download-ac-console)を参照してください。
+> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#download-ac-console)を参照してください。
 
 _2022年10月7日（PT）_
 

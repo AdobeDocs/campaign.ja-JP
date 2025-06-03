@@ -6,10 +6,10 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -159,14 +159,9 @@ Adobe Campaign では、予算、ターゲット、コンテンツの承認な�
 プログラムの「**[!UICONTROL スケジュール]**」タブからキャンペーンを作成すると、関連するプログラムに自動的にリンクされます。この場合、「**[!UICONTROL プログラム]**」フィールドは非表示になります。
 
 
-## Web ブラウザーで Campaign にアクセス {#use-the-web-interface}
+## Web インターフェイスの使用 {#use-the-web-interface-}
 
-
->[!AVAILABILITY]
->
->Campaign v8.6 以降では、web ユーザーインターフェイスで Campaign を使用できるようになりました。ほとんどのマーケティングアクションは、この新しいインターフェイスから実行できます。[詳細情報](../../v8/start/campaign-ui.md#discover-the-user-interface)。
-
-インターネットブラウザーから Adobe Campaign クライアントコンソール画面にアクセスすると、すべてのキャンペーンと配信だけでなく、レポートやデータベース内のプロファイルに関する情報も確認できます。この web アクセス経由でコンポーネントを作成することはできませんが、アクセス権限に応じて、データベース内のデータを表示したり操作したりできます。例えば、キャンペーンのコンテンツやターゲティングの承認、配信の再開または停止を行うことができます。
+インターネットブラウザーから Adobe Campaign クライアントコンソール画面にアクセスして、キャンペーンと配信だけでなく、レポートやデータベース内のプロファイルに関する情報も確認できます。このアクセスでは、レコードは作成できません。オペレーターの権限に応じて、データベース内のデータを確認したり、データに基づいて行動したりできます。例えば、キャンペーンのコンテンツとターゲティングを承認したり、配信を再開または停止することが可能です。
 
 1. https://`<your instance>:<port>/view/home` から通常どおりにログオンします。
 1. メニューを使用して概要にアクセスします。
@@ -213,4 +208,4 @@ Adobe Campaign では、予算、ターゲット、コンテンツの承認な�
 
 このビデオでは、マーケティングプラン、プログラム、キャンペーンなどの作成方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449894?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

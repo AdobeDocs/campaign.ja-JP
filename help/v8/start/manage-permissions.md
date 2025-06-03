@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '1734'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 「**保存**」をクリックします。ユーザーが追加され、ユーザーリストに表示されます。管理者の役割または製品プロファイルをユーザーに割り当てると、ユーザーにメール通知が届きます。 ユーザーは、リンクをたどって自分のプロファイルを完成させる必要があります。
 
-Admin Console でのユーザーの作成について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html){target="_blank"}を参照してください。
+Admin Consoleでのユーザーの作成について詳しくは、[ このページ ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html){target="_blank"} を参照してください。
 
 新規ユーザーが Adobe ID で [Campaign にログオン](connect.md)すると、クライアントコンソールの Campaign オペレーターリストに追加されます。Campaign オペレーターは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／アクセス管理／オペレーター]**&#x200B;フォルダーに格納されます。
 
@@ -115,7 +115,7 @@ Adobe Campaign には組み込みの&#x200B;**製品プロファイル**&#x200B;
 
 1. **[!UICONTROL キャンペーンマネージャー]**（操作）
 
-   このグループのオペレーターは、マーケティングキャンペーンの管理を実行できます。**[!UICONTROL Campaign]**（オプションの Adobe Campaign モジュール）のフレームワーク内で、キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）にアクセスできます。
+   このグループのオペレーターは、マーケティングキャンペーンを管理できます。キャンペーンにリンクされたオブジェクト（プラン、プログラム、ワークフロー、予算など）には、**[!UICONTROL Campaign]** （オプションのAdobe Campaign モジュール）のフレームワーク内でアクセスできます。
 
    このグループには以下のネームド権限が設定されています。
 
@@ -175,7 +175,7 @@ Adobe Campaign には組み込みの&#x200B;**製品プロファイル**&#x200B;
 
 Admin Console を使用して、ユーザーグループを作成し、ユーザーを割り当てることができます。
 
-ユーザーグループは、一連の共有権限を付与される必要がある様々なユーザーのコレクションです。ユーザーグループを作成する方法については、[この節](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"}を参照してください。
+ユーザーグループは、一連の共有権限を付与される必要がある様々なユーザーのコレクションです。ユーザーグループを作成する方法については、[ この節 ](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"} を参照してください。
 
 製品プロファイルをユーザーグループに割り当てることができます。 そのため、グループ内のすべてのユーザーは、同じ一連の製品権限を受け取ります。
 

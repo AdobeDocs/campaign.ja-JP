@@ -2,7 +2,7 @@
 title: Campaign メール送信インフラストラクチャのアップグレード
 description: Campaign メール送信インフラストラクチャのアップグレード
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
@@ -55,11 +55,11 @@ ht-degree: 100%
 
 * **お客様側ではどのようなテストを行う必要がありますか？**
 
-  このアップグレードイベントに関連して、お客様によるテストは予定されていません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
+  このアップグレードイベントに関連して、お客様によるテストは予定されていません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
 
   いいえ。別のお客様に割り当てられたアップグレードイベントが中断される可能性があるので、既存のスケジュールに対してリクエストされた変更には対応できません。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。

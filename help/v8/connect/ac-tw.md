@@ -5,10 +5,10 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -36,9 +36,9 @@ X アカウントにツイートを投稿するように Adobe Campaign を設�
 
 ## X 開発者アカウント {#dev-account}
 
-この統合を開始するには、[X 開発者アカウント](https://developer.twitter.com){target="_blank"}に新規登録する必要があります。
+この統合を開始するには、[X 開発者アカウント ](https://developer.twitter.com){target="_blank"} に新規登録する必要があります。
 
-Campaign は、X API の 1.1 バージョンを使用します。これを使用するには、開発者ポータル経由で管理者特権でのアクセス権を申請する必要があります。X の昇格アクセスについて詳しくは、[このページ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}を参照してください。
+Campaign は、X API の 1.1 バージョンを使用します。これを使用するには、開発者ポータル経由で管理者特権でのアクセス権を申請する必要があります。X 管理者特権でのアクセス権の詳細については [ このページ ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"} を参照してください。
 
 ## X でのアプリケーションの作成 {#create-an-app-on-twitter}
 
@@ -79,7 +79,7 @@ Campaign インスタンスを X アカウントにリンクするには、**Twi
 
 設定を入力するには、Adobe Campaign クライアントコンソールと X アプリの権限の両方にアクセスする必要があります。
 
-1. **Adobe Campaign** で、「**[!UICONTROL プロファイルとターゲット]**」タブを参照し、「**[!UICONTROL サービスと購読]**」リンクを選択します。
+1.  **Adobe Campaign** で、「**[!UICONTROL プロファイルとターゲット]**」タブを参照し、「**[!UICONTROL サービスと購読]**」リンクを選択します。
 1. 新しいサービスを作成します。
 1. **[!UICONTROL Twitter]** タイプを選択します。
 1. サービスのラベルおよび内部名を入力します。

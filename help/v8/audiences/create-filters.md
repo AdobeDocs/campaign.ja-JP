@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -327,10 +327,10 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 以下のエンドツーエンドのサンプルで高度なクエリを作成する方法を説明します。
 
-* 単純な受信者属性をターゲットにする方法について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
-* 過去 7 日間に連絡されていない受信者をフィルターする方法について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ja){target="_blank"}を参照してください。
-* アクティブなアカウントでフィルターできるオペレーターのリストを復元する方法について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"}を参照してください。
-* 誕生日メールのオーディエンスを作成する方法について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}を参照してください。
+* 単純な受信者属性をターゲットにする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
+* 過去 7 日間に連絡されていない受信者をフィルターする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ja){target="_blank"}を参照してください。
+* アクティブなアカウントでフィルターできるオペレーターのリストを復元する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"}を参照してください。
+* 誕生日メールのオーディエンスを作成する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}を参照してください。
 
 
 ### 定義済みフィルターの詳細設定パラメーター {#param-for-data-filters}

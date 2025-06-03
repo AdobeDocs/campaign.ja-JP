@@ -7,8 +7,8 @@ level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 10%
+source-wordcount: '817'
+ht-degree: 8%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 10%
 
 Campaign v8 は、スケジュールされたデータレプリケーションを管理する特定のテクニカルワークフローに依存しています。 これらのテクニカルワークフローは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／本番環境／テクニカルワークフロー／フル FFDA レプリケーション]**&#x200B;ノードから利用できます。**これらは変更できません。**
 
-テクニカルワークフローは、サーバーで定期的にスケジュールされたプロセスやジョブを実行します。 すべてのテクニカルワークフローのリストについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"}を参照してください。
+テクニカルワークフローは、サーバーで定期的にスケジュールされたプロセスやジョブを実行します。 すべてのテクニカルワークフローのリストについては、[ このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"} を参照してください。
 
 データレプリケーションを確実にするテクニカルワークフローを次に示します。
 
@@ -115,6 +115,6 @@ var xml = xtk.builder.CopyXxlData(
 
 このビデオでは、Adobe Campaign v8 が使用するデータベース、データがレプリケートされる理由、レプリケートされるデータとレプリケーションプロセスの仕組みについて、重要な概念を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3417456?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Campaign v8 クライアントコンソールに関するその他のチュートリアルは [ こちら ](https://experienceleague.adobe.com/ja/docs/campaign-learn/tutorials/overview) から利用できます。
+Campaign v8 クライアントコンソールに関するその他のチュートリアルは [ こちら ](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview) から利用できます。

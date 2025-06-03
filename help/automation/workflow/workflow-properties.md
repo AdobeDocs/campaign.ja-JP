@@ -4,7 +4,7 @@ title: ワークフローのプロパティ
 description: キャンペーンワークフローのプロパティの詳細を説明します
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: d31040885ec45068d70a7d4c0b481269c8af7a33
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 86%
@@ -88,6 +88,6 @@ ht-degree: 86%
 
   ![](assets/wf-properties_select-supervisors.png)
 
-  ログオン後に受信者が問題の解決にあたれるよう、「**[!UICONTROL ワークフロースーパーバイザーへの通知]**」デフォルトテンプレートには、web 経由で Adobe Campaign クライアントコンソールにアクセスするためのリンクがあります。
+  ログオン後に受信者が問題の解決にあたれるよう、「**[!UICONTROL ワークフロースーパーバイザーへの通知]**」デフォルトテンプレートには、Web 経由で Adobe Campaign クライアントコンソールにアクセスするためのリンクがあります。
 
   パーソナライズされたテンプレートを作成するには、**[!UICONTROL 管理／キャンペーン管理／技術配信／テンプレート]**&#x200B;の順に移動します。
