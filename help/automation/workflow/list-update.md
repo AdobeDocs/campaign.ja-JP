@@ -4,8 +4,9 @@ title: リスト更新
 description: リスト更新
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
@@ -72,6 +73,6 @@ ht-degree: 100%
 
 このビデオでは、エクスプローラーから受信者のリストを作成する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27503?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Campaign に関するその他のチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}を参照してください。
+Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

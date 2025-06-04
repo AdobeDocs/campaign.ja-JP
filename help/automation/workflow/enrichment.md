@@ -4,8 +4,9 @@ title: エンリッチメント
 description: エンリッチメントワークフローアクティビティの詳細を説明します
 feature: Workflows, Enrichment Activity, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 100%

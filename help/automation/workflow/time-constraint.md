@@ -3,8 +3,9 @@ product: campaign
 title: 時間制限
 description: 時間制限ワークフローアクティビティの詳細を説明します
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 0a922827-456d-425c-be04-d9efbb152c92
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%

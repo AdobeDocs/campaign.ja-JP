@@ -4,9 +4,10 @@ title: 配信コントロール
 description: 配信コントロールワークフローアクティビティの詳細を説明します
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
-workflow-type: ht
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 

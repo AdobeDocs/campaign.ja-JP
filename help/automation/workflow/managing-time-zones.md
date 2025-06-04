@@ -4,8 +4,9 @@ title: タイムゾーンの管理
 description: タイムゾーンの管理
 feature: Workflows, Configuration
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%

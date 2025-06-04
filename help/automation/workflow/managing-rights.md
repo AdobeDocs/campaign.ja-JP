@@ -4,8 +4,9 @@ title: ワークフロー権限の管理
 description: ワークフロー権限の管理方法を説明します
 feature: Workflows, Permissions
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%

@@ -4,8 +4,9 @@ title: リスト読み込み
 description: リスト読み込みワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 role: User, Data Engineer
+version: Campaign v8, Campaign Classic v7
 exl-id: 91c87f8f-bdd2-4ca1-94c2-ec9e7affc1a0
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%

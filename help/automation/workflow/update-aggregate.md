@@ -5,8 +5,9 @@ description: 「集計を更新」ワークフローアクティビティの詳�
 feature: Workflows
 role: Data Engineer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 9a213522-bacf-44f9-98a6-caaaf037a0f9
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%

@@ -4,8 +4,9 @@ title: スケジューラー
 description: スケジューラーワークフローアクティビティの詳細を説明します
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
-source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 43%

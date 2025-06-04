@@ -4,11 +4,12 @@ title: ワークフロー実行の監視
 description: ワークフロー実行の監視
 feature: Workflows
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 3ce23cadf94eb561fb406fff739edd3eddf83b58
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2006'
+ht-degree: 100%
 
 ---
 

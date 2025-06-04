@@ -4,8 +4,9 @@ title: 配信情報に対するクエリ
 description: 配信情報をクエリする方法を説明します。
 feature: Query Editor
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 100%

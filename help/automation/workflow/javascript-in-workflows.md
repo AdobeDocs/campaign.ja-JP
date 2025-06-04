@@ -4,8 +4,9 @@ title: ワークフローでの JavaScript コードの例
 description: これらの例は、ワークフローで JavaScript コードを使用する方法を示しています
 feature: Workflows
 role: Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1690'
 ht-degree: 100%
@@ -21,7 +22,7 @@ ht-degree: 100%
 * [静的 SOAP メソッドを使用したワークフローのトリガー](#trigger-example)
 * [非静的 SOAP メソッドを使用したデータベースとのインタラクション](#interact-example)
 
-静的および非静的 SOAP メソッドについて詳しくは、[こちら](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"}を参照してください。
+静的および非静的 SOAP メソッドについての[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"}
 
 これらの例では、ECMAScript for XML（E4X）拡張機能を使用しています。この拡張機能を使用すると、JavaScript 呼び出しと XML プリミティブを同じスクリプトに組み合わせることができます。
 
@@ -236,7 +237,7 @@ var query = xtk.queryDef.create(
     </queryDef>)
 ```
 
-`create(`*`content`*`)` メソッドの前に、作成するエンティティのスキーマを付けます。
+`create(`*`content`*`)` メソッドの前に接頭辞として、作成するエンティティのスキーマを付けます。
 
 この *`content`* 引数は文字列引数で、オプションです。 この引数には、エンティティを記述する XML コードが含まれています。
 
@@ -273,7 +274,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。`logInfo` 関数について詳しくは、[こちら](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}を参照してください。
+ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。`logInfo` 関数についての[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}。
 
 #### `getIfExists` 操作の結果
 

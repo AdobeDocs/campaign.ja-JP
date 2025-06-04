@@ -4,8 +4,9 @@ title: 外部シグナル
 description: 外部シグナルワークフローアクティビティの詳細を説明します
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 45cb95ec-77bf-4bab-895f-b94f6ce660fd
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%

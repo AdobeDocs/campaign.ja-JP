@@ -4,8 +4,9 @@ title: 多対多の関係を使用したクエリ
 description: 多対多関係を使用したクエリを実行する方法を説明します。
 feature: Query Editor
 role: User, Data Engineer
+version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%

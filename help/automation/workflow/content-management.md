@@ -4,8 +4,9 @@ title: コンテンツ管理
 description: コンテンツ管理
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: c73f9f3dc7958152c284dbaf06210d09115e5df8
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 87%
@@ -22,7 +23,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->Adobe Campaignの web ユーザーインターフェイスを使用すると、コンテンツにコンテンツフラグメントを使用できます。 マーケティングユーザーは、1 つ以上のメッセージで参照できる再利用可能なコンポーネントによって、複数のカスタムコンテンツブロックを事前に構築でき、改善されたデザインプロセスでメッセージコンテンツをすばやく組み立てることができます。 コンテンツフラグメントについて詳しくは、[Adobe Campaign Web UI ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>Adobe Campaignの web ユーザーインターフェイスを使用すると、コンテンツにコンテンツフラグメントを使用できます。 マーケティングユーザーは、1 つ以上のメッセージで参照できる再利用可能なコンポーネントによって、複数のカスタムコンテンツブロックを事前に構築でき、改善されたデザインプロセスでメッセージコンテンツをすばやく組み立てることができます。 コンテンツフラグメントについて詳しくは、[Adobe Campaign Web UI ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 アクティビティのプロパティは、3 つの手順に分かれています。
 

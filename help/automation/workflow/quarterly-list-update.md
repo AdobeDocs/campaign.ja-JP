@@ -4,8 +4,9 @@ title: 増分クエリを使用した四半期ごとのリストの更新
 description: この使用例では、増分処理クエリを使用して、受信者リストを自動更新します。
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: eedc796a-865f-47a8-8807-5980546b8adf
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%

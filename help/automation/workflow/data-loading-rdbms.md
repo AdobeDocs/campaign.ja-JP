@@ -4,8 +4,9 @@ title: データの読み込み（RDBMS）
 description: データ読み込み（RDBMS）ワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 2d650573-f630-4aba-bd40-2db88ef1c346
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%

@@ -5,9 +5,10 @@ description: ワークフローの開始方法、およびワークフローの�
 feature: Workflows
 level: Beginner
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
-workflow-type: ht
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 ワークフローは、必ず手動で開始します。開始しても、スケジューラー（[スケジューラー](scheduler.md)を参照）経由で指定された情報またはアクティビティのスケジュール設定に基づいて、ワークフローが非アクティブのままになることもあります。
 
-ターゲティングワークフロー実行に関連するアクション（起動、停止、一時停止など）は、**非同期**&#x200B;プロセスです。注文は記録され、サーバーが適用できる状態になるとただちに有効になります。
+ターゲティングワークフローの実行に関連するアクション（開始、停止、一時停止など）は、**非同期**&#x200B;プロセスです。プロセスの実行順序は記録され、サーバーが順序を適用できるようになるとすぐに実行されます。
 
 ツールバーを使用して、ワークフローの実行を開始およびトラッキングできます。
 

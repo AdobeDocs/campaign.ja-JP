@@ -4,8 +4,9 @@ title: ファイルコレクター
 description: ファイルコレクターワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 614becf7-4cbf-40f9-a1b1-06efa054bfd9
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 100%

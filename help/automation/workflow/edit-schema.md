@@ -4,8 +4,9 @@ title: スキーマを編集
 description: スキーマを編集ワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity
 role: User, Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 16fb1aa5-cf99-4461-a1a4-7a68d97e2a74
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%

@@ -3,8 +3,9 @@ title: データソースを変更
 description: 「データソースを変更」アクティビティの詳細を説明します
 feature: Workflows, Data Management, Federated Data Access
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%

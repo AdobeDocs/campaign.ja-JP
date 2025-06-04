@@ -3,11 +3,12 @@ product: campaign
 title: ワークフローの監視
 description: キャンペーンワークフローの監視方法を説明します
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 362b347b-f914-4ebf-84d7-9989aef28a82
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

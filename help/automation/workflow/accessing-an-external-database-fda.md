@@ -4,11 +4,12 @@ title: 外部データベースへのアクセス（FDA）
 description: 外部データベースへのアクセス（FDA）
 feature: Workflows, Data Management, Federated Data Access
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: ddafca28-1db4-42f2-9bfb-73da1240235c
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -23,4 +24,4 @@ Adobe Campaign では、Federated Data Access（FDA）オプションを利用�
 * エンリッチメント
 * データの読み込み
 
-FDA オプションを使用するには、Adobe Campaign のライセンスが必要です。このオプションの設定やベストプラクティス、利用に関する制限について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"}を参照してください。
+FDA オプションを使用するには、Adobe Campaign のライセンスが必要です。このオプションの設定やベストプラクティス、利用に関する制限について詳しくは [ この節 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"} を参照してください。

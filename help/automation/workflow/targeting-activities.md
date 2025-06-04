@@ -3,8 +3,9 @@ product: campaign
 title: ターゲティングアクティビティについて
 description: ターゲティングアクティビティについて
 feature: Workflows, Audiences, Targeting Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 100%

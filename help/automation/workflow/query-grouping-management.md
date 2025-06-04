@@ -4,8 +4,9 @@ title: グループ管理を使用したクエリ
 description: グループ管理を使用したクエリの実行方法を学ぶ
 feature: Query Editor
 role: User, Data Engineer
+version: Campaign v8, Campaign Classic v7
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%

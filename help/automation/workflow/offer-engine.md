@@ -4,8 +4,9 @@ title: オファーエンジン
 description: オファーエンジン
 feature: Workflows, Interaction
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: d77858e1-3cd5-4372-b1bc-ea4b518c958d
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%

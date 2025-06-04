@@ -4,8 +4,9 @@ title: ローカルの承認アクティビティを使用
 description: ローカルの承認アクティビティの使用方法を学ぶ
 feature: Workflows, Approvals
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 31089026-3fc0-4491-8b70-0fb7fd1e3ac0
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%

@@ -3,8 +3,9 @@ product: campaign
 title: テスト
 description: テストワークフローアクティビティの詳細を説明します
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 ![](assets/edit_test.png)
 
-ワークフロー JavaScript 経由でアクセス可能なアプリケーションサーバーのその他すべての JavaScript 関数および SOAP メソッドについて詳しくは、[JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}を参照してください。
+ワークフロー JavaScript 経由でアクセス可能なアプリケーションサーバーのその他すべての JavaScript 関数および SOAP メソッドの詳細については、[JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}を参照してください。
 
 このエディターから変数を直接挿入することもできます。変数の使用方法について詳しくは、[この節](javascript-scripts-and-templates.md#variables)を参照してください。
 

@@ -4,8 +4,9 @@ title: テクニカルワークフロー
 description: Campaign で使用できるテクニカルワークフローの詳細を説明します
 feature: Workflows
 role: User, Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 92%

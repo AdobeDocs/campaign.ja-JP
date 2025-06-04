@@ -4,11 +4,12 @@ title: データ読み込み (ファイル)
 description: データ読み込み（ファイル）ワークフローアクティビティの詳細を説明します
 feature: Workflows, Data Management Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -99,7 +100,7 @@ ht-degree: 96%
 
    ![](assets/s_advuser_load_file_sample_1.png)
 
-   「**[!UICONTROL スケジュール]**」タブで、コレクターの実行スケジュールを計画できます。例えば、これらのファイルの有無を定期的に確認するスケジュールを作成できます。
+   「**[!UICONTROL スケジュール]**」タブで、コレクターの実行スケジュールを計画できます。例えば、これらのファイルの有無を確認する頻度を指定できます。
 
    ここでは、各営業日の午後 9 時にコレクターが実行されるようにします。
 
