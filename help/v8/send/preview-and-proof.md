@@ -105,4 +105,4 @@ ht-degree: 100%
 
 メール配信の配達確認を送信して検証する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/333404)
+>[!VIDEO](https://video.tv.adobe.com/v/3447000?captions=jpn)
