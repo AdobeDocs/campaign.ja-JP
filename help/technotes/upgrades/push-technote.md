@@ -156,7 +156,7 @@ HTTP v1 をサポートするバージョンにアップグレードする前に
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-+++
+  +++
 
 ### Android アプリに対する影響 {#fcm-apps}
 

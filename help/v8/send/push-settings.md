@@ -31,7 +31,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 1. （オプション） [Adobe Experience Platform Assuranceをアプリに追加して ](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 実装を検証します。 Adobe Experience Platform Assurance拡張機能の実装方法については [ このページ ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} を参照してください。
 1. [このページ](#push-service)を参照して、Adobe Campaign で iOS および Android モバイルサービスを設定します。
 1. モバイルプロパティに [Adobe Campaign 拡張機能](#configure-extension)をインストールして設定します。
-1. アプリにAdobe Experience Platform Mobile SDK をセットアップするには ](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}[Adobe Experience Platform Mobile SDKのドキュメント } に従います。
+1. アプリにAdobe Experience Platform Mobile SDK をセットアップするには [&#128279;](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}Adobe Experience Platform Mobile SDKのドキュメント &rbrace; に従います。
 
 ## 前提条件 {#before-starting}
 

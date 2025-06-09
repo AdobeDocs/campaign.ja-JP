@@ -122,7 +122,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 外部アカウントの設定時に&#x200B;**[!UICONTROL レポートスイート]**、**[!UICONTROL コンバージョン変数]**、**[!UICONTROL 成功イベント]**&#x200B;のいずれかが表示されない場合は、新しく作成したコンポーネントに対する権限が、ユーザーに関連付けられた&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;にないことをい意味します。
 
-詳しくは、 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"}Adobe Analytics の製品プロファイル[のページを参照してください。
+詳しくは、 [&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"}Adobe Analytics の製品プロファイルのページを参照してください。
 
 1. Adobe Campaign エクスプローラーツリーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;フォルダーに移動して、「**[!UICONTROL 新規]**」をクリックします。
 

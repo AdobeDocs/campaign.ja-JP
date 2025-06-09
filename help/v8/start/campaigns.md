@@ -108,4 +108,4 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 >
 >この機能は、Campaign v8.3 以降で使用できます。お使いのバージョンを確認するには、[この節](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 
-[](../assets/do-not-localize/book.png) Campaign Response Manager の設定方法と使用方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"} を参照してください。
+[&#128279;](../assets/do-not-localize/book.png) Campaign Response Manager の設定方法と使用方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"} を参照してください。
