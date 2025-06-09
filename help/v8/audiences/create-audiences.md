@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Campaign リストを使用すると、オーディエンスを作成および�
 
 Adobe Campaign でのリスト管理について詳しくは、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426461?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## 連絡先のリストの作成 {#create-a-list-of-contacts}
@@ -103,7 +103,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
    ![](assets/targeting-wf-age-filter.png)
 
-   ワークフローでクエリを作成する方法について詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
+   ワークフローでクエリを作成する方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
 
 1. このクエリのラベルを追加し、変更を保存します。
 1. **[!UICONTROL リスト更新]**&#x200B;アクティビティをを追加し、編集します。

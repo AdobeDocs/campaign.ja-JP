@@ -5,7 +5,7 @@ description: キャンペーンのシミュレーションの設定方法を学�
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 デフォルトでは、次のレポートが提供されます。
 
 * **[!UICONTROL シミュレーションの除外の詳細]**：このレポートには、考慮されたすべての配信の除外の理由についての詳細なグラフが表示されます。
-* **[!UICONTROL シミュレーションの概要]**：このレポートには、様々な配信でシミュレーションから除外されたターゲットが表示されます。
+* **[!UICONTROL シミュレーションの概要]**：このレポートには、様々な配信でシミュレーションから除外された母集団が表示されます。
 * **[!UICONTROL シミュレーションによる除外の概要]**：このレポートには、シミュレーションによって発生した除外のグラフに加えて、適用されたタイポロジルールやルールごとの除外率のグラフが表示されます。
 
 <!--

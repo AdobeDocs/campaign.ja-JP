@@ -1,6 +1,6 @@
 ---
 title: Campaign でのプロファイルのインポート
-description: Campaign で連絡先をインポートする方法を説明します。
+description: ' Campaign で連絡先をインポートする方法を説明します。'
 feature: Audiences, Profiles
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: b6a5083f-2b5a-4f5b-ad30-d91363752896
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -22,11 +22,11 @@ Campaign データベースにデータを入力するには、[プロファイ�
 
 ### リストからのデータの使用：リスト読み込み {#data-from-read-list}
 
-データをファイルに準備および構造化して、ワークフローでインポートします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ja){target="_blank"}.
+データをファイルに準備および構造化して、ワークフローでインポートします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html?lang=ja){target="_blank"}。
 
 ### ファイルからのデータの読み込み {#data-from-a-file}
 
-ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html?lang=ja){target="_blank"}.
+ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html?lang=ja){target="_blank"}。
 
 データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ja){target="_blank"}を参照してください。
 
@@ -38,4 +38,4 @@ Adobe Campaign には、一般的なインポート機能が用意されてい�
 
 ![](assets/new-import-job.png)
 
-一般的なインポートの実行手順について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}を参照してください。
+一般的なインポートの実行手順について詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"} を参照してください。

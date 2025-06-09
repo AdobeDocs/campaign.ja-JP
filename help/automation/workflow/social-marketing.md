@@ -13,12 +13,12 @@ ht-degree: 73%
 
 # ソーシャルマーケティング {#social-marketing}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**ソーシャルマーケティング**&#x200B;モジュールと共にインストールされます。このモジュールは X （旧称Twitter）との統合を可能にします。
+以下に説明するワークフローは、デフォルトで&#x200B;**ソーシャルマーケティング**&#x200B;モジュールと共にインストールされます。このモジュールは X （旧称 Twitter）との統合を可能にします。
 
 
 >[!AVAILABILITY]
 >
->facebookを使用した `:warning:` ソーシャルマーケティングは、Campaign Classic v7 でのみ使用できます。
+>Facebook`:warning:` 使用したソーシャルマーケティングは、Campaign Classic v7 でのみ使用できます。
 
 <table> 
  <tbody> 
@@ -38,7 +38,7 @@ ht-degree: 73%
    <td> このワークフローでは、毎日午前 7 時に X のフォロワーを Adobe Campaign に読み込みます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Facebook統計の計算（v7 のみ） </span> <br /> </td> 
+   <td> <span class="uicontrol">Facebook 統計の計算（v7 のみ） </span> <br /> </td> 
    <td> <span class="uicontrol">statsFacebook</span> <br /> </td> 
    <td> Facebook ファンとのインタラクションにリンクされた統計情報を計算します。<br /> </td> 
   </tr> 
@@ -48,7 +48,7 @@ ht-degree: 73%
    <td> 毎日午前 7 時に Facebook ファンを Adobe Campaign にインポートします。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Facebookページの同期（v7 のみ） </span> <br /> </td> 
+   <td> <span class="uicontrol">Facebook ページの同期（v7 のみ） </span> <br /> </td> 
    <td> <span class="uicontrol">syncFacebook</span> <br /> </td> 
    <td> 毎日午前 7 時に Facebook ページを Adobe Campaign と同期します。<br /> </td> 
   </tr> 

@@ -8,7 +8,7 @@ exl-id: 1a75f411-3f71-4114-b738-277820dc6138
 source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1836'
-ht-degree: 99%
+ht-degree: 87%
 
 ---
 
@@ -26,18 +26,18 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
 1. [前提条件](#before-starting)を確認します。
 1. Adobe Experience Platform データ収集で[モバイルタグプロパティ](#launch-property)を設定します。
-1. [このページ](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}を参照して、Adobe Experience Platform Mobile SDK を取得します。
-1. （オプション）[このページ](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"}を参照して、ログとライフサイクル指標を有効にします。
-1. （オプション）[Adobe Experience Platform Assurance をアプリに](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}追加して、実装を検証します。Adobe Experience Platform Assurance 拡張機能を実装する方法について詳しくは、[このページ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}を参照してください。
+1. 詳しくは、Adobe Experience Platform Mobile SDKを取得します [ このページを参照 ](https://developer.adobe.com/client-sdks/documentation/getting-started/get-the-sdk/){target="_blank"}。
+1. （オプション）詳しくは [ このページ ](https://developer.adobe.com/client-sdks/documentation/getting-started/enable-debug-logging/){target="_blank"} を参照して、ログとライフサイクル指標を有効にします。
+1. （オプション） [Adobe Experience Platform Assuranceをアプリに追加して ](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"} 実装を検証します。 Adobe Experience Platform Assurance拡張機能の実装方法については [ このページ ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} を参照してください。
 1. [このページ](#push-service)を参照して、Adobe Campaign で iOS および Android モバイルサービスを設定します。
 1. モバイルプロパティに [Adobe Campaign 拡張機能](#configure-extension)をインストールして設定します。
-1. [Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}に従って、アプリで Adobe Experience Platform Mobile SDK を設定します。
+1. アプリにAdobe Experience Platform Mobile SDK をセットアップするには ](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}[Adobe Experience Platform Mobile SDKのドキュメント } に従います。
 
 ## 前提条件 {#before-starting}
 
 ### 権限の設定 {#setup-permissions}
 
-モバイルアプリケーションを作成する前に、まず、Adobe Experience Platform でタグに対する正しいユーザー権限があるか、割り当てられていることを確認する必要があります。Adobe Experience Platform のタグに対するユーザー権限は、Adobe Admin Console を通じてユーザーに割り当てられます。詳しくは、[タグのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja){target="_blank"}を参照してください。
+モバイルアプリケーションを作成する前に、まず、Adobe Experience Platform でタグに対する正しいユーザー権限があるか、割り当てられていることを確認する必要があります。Adobe Experience Platform のタグに対するユーザー権限は、Adobe Admin Console を通じてユーザーに割り当てられます。詳しくは、[ タグのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja){target="_blank"} を参照してください。
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
 1. **[!DNL Admin Console]** にアクセスします。
 1. 「**[!UICONTROL 製品]**」タブから、**[!UICONTROL Adobe Experience Platform データ収集]**&#x200B;カードを選択します。
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、「**[!UICONTROL 新規プロファイル]**」ボタンで新しい製品プロファイルを作成します。新しい&#x200B;**[!UICONTROL 新規プロファイル]**&#x200B;を作成する方法については、[Admin Console のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ja#ui){target="_blank"}を参照してください。
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、「**[!UICONTROL 新規プロファイル]**」ボタンで新しい製品プロファイルを作成します。新しい **[!UICONTROL 新規プロファイル]** を作成する方法については、[Admin Console のドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ja#ui){target="_blank"} を参照してください。
 1. 「**[!UICONTROL 権限]**」タブから、「**[!UICONTROL プロパティ権限]**」を選択します。
 1. 「**[!UICONTROL すべて追加]**」をクリックします。これにより、次の権限が製品プロファイルに追加されます。
    * **[!UICONTROL 承認]**
@@ -79,7 +79,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
    >[!NOTE]
    >
-   >ユーザーが以前に Admin Console で作成されていない場合は、 [ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html#add-users){target="_blank"}を参照してください。
+   >Admin Console でユーザーをまだ作成していない場合は、[ ユーザーの追加に関するドキュメント ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html#add-users){target="_blank"} を参照してください。
 
 ### アプリの設定 {#configure-app}
 
@@ -87,8 +87,8 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
 以下のリンクに記載されている実装手順に従います。
 
-* **Apple iOS** の場合：アプリを APN に登録する方法については、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}を参照してください。
-* **Google Android** の場合：Android で Firebase Cloud Messaging クライアントアプリを設定する方法については、[Google のドキュメント](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}を参照してください。
+* **Apple iOS** の場合：アプリを APN に登録する方法については、[Apple ドキュメントを参照してください ](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* **Google Androidの場合** Androidで Firebase Cloud Messaging クライアントアプリを設定する方法については、[Google ドキュメントを参照してください ](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 <!--
 ## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
@@ -131,7 +131,7 @@ The mobile app push credential registration is required to authorize Adobe to se
 
 ## Adobe Experience Platform データ収集でのモバイルタグプロパティの設定 {#launch-property}
 
-モバイルプロパティを設定すると、モバイルアプリ開発者またはマーケターがモバイル SDK を設定できます。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法については、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}を参照してください。
+モバイルプロパティを設定すると、モバイルアプリ開発者またはマーケターがモバイル SDK を設定できます。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法については、[Adobe Experience Platform Mobile SDK ドキュメント ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"} を参照してください。
 <!--
 To get the SDKs needed for push notification to work you will need the following SDK extensions, for both Android and iOS:
 
@@ -141,7 +141,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-[!DNL Adobe Experience Platform Data Collection] タグについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=ja){target="_blank"}を参照してください。
+[!DNL Adobe Experience Platform Data Collection] タグについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=ja){target="_blank"} を参照してください。
 
 作成したら、新しいタグプロパティを開き、ライブラリを作成します。手順は次のとおりです。
 
@@ -197,7 +197,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
+   詳しくは、[Developer のドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"} を参照してください。
 
 
    >[!NOTE]
@@ -235,7 +235,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
+   詳しくは、[Developer のドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"} を参照してください。
 
 
    >[!NOTE]
@@ -245,7 +245,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. 「**[!UICONTROL アプリケーションアイコン]**」フィールドからアイコンを選択して、サービス内のモバイルアプリケーションをパーソナライズします。
 1. **[!UICONTROL API バージョン]**&#x200B;ドロップダウンリストで「**HTTP v1**」を選択します。
-1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」リンクをクリックして、JSON キーファイルを読み込みます。JSON ファイルの抽出方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」リンクをクリックして、JSON キーファイルを読み込みます。JSON ファイルの抽出方法について詳しくは、[Google Firebase ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} を参照してください。
 
    次の詳細を手動で入力することもできます。
    * **[!UICONTROL プロジェクト ID]**
@@ -281,6 +281,6 @@ Adobe Experience Platform Mobile SDK の **Adobe Campaign Classic 拡張機能**
 1. 以前に作成したタグプロパティを開きます。
 1. 左側のナビゲーションから、**拡張機能**&#x200B;を参照し、「**カタログ**」タブを開きます。検索フィールドを使用して、**Adobe Campaign Classic** 拡張機能を検索します。
 1. Campaign Classic カードから、「**インストール**」ボタンをクリックします。
-1. [Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"}を参照して、設定を入力します。
+1. [Adobe Experience Platform Mobile SDK ドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/){target="_blank"} を参照して、設定を入力します。
 
-これで、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}を参照して、アプリにキャンペーンを追加できるようになりました。
+これで、[Adobe Experience Platform Mobile SDK ドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"} を参照して、アプリにキャンペーンを追加できるようになりました。

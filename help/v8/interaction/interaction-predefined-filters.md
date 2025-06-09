@@ -18,7 +18,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->Adobe Campaign Web UI は、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供します。 1 回作成し、後で使用するために保存します。Web UI 用の定義済みフィルターについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/predefined-filters){target=_blank} を参照してください。
+>Adobe Campaign Web UI は、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供します。 1 回作成し、後で使用するために保存します。Web UI 用の定義済みフィルターについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank} を参照してください。
 
 
 定義済みフィルターを作成するには、次の手順に従います。

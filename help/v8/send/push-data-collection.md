@@ -9,7 +9,7 @@ exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
 source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
 source-wordcount: '1479'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. [Adobe Experience Platform データ収集でのモバイルプロパティの作成と設定](#create-mobile-property)
 
-1. [Adobe Experience Platform Assurance 拡張機能の追加](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}（推奨）
+1. [Adobe Adobe Experience Platform Assurance拡張機能の追加 ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} （推奨）
 
 1. [Campaign Classic をモバイルアプリケーションに追加](#campaign-mobile-ap)
 
@@ -83,7 +83,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
       1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
 
-      1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+      1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法の詳細については、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 
@@ -145,7 +145,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
+   詳しくは、[Developer のドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"} を参照してください。
 
 
    >[!NOTE]
@@ -180,7 +180,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
+   詳しくは、[Developer のドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"} を参照してください。
 
    >[!NOTE]
    >
@@ -248,7 +248,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。
 
-詳しくは、[Adobe Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}を参照してください。
+[ 詳しくは、Adobe Developer ドキュメントを参照してください ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}。
 
 ## プッシュ通知を作成{#push-create}
 

@@ -7,7 +7,7 @@ exl-id: 50279a2f-0296-43f5-8967-16cc6a0c88f6
 source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ Campaign のお客様には、移行ウェーブのスケジュールが決定�
 
   アドビでは、従来のデータセンターを廃止する予定です。そこで実行している Adobe Campaign インスタンスは、新しい基準データセンターである Amazon Web Services（AWS）に転送する必要があります。
 
-  Adobe Managed Services クラウドは、安全で最適化された最新の環境である AWS でホストされています。[詳しくは、Amazon Web Services を参照してください](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}。
+  Adobe Managed Services クラウドは、安全で最適化された最新の環境である AWS でホストされています。[Amazon Web Servicesの詳細情報 ](https://aws.amazon.com/application-hosting/benefits/){target="_blank"}。
 
 * **この移行の対象となるお客様は、どちらになりますか？**
 
@@ -67,11 +67,11 @@ Campaign のお客様には、移行ウェーブのスケジュールが決定�
 
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-  この移行では、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
+  この移行では、特に必要なテストはありません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
 
   これは必須の移行なので、既存のスケジュールの変更には対応できません。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&amp;lang=ja#support){target="_blank"}にお問い合わせください。

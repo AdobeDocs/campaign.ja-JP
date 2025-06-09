@@ -27,7 +27,7 @@ Campaign を設定して、マーケティングキャンペーンの強力な�
 
 >[!NOTE]
 >
->Adobe Campaign Web UI には、ワークフローのキャンバスが再考されて付属しており、より動的でパーソナライズされたカスタマージャーニーを作成できます。 Web UI のワークフローについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/gs-workflows){target=_blank} を参照してください。
+>Adobe Campaign Web UI には、ワークフローのキャンバスが再考されて付属しており、より動的でパーソナライズされたカスタマージャーニーを作成できます。 Web UI のワークフローについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank} を参照してください。
 
 
 ## ワークフローのデザインと使用 {#gs-ac-wf}
@@ -63,10 +63,10 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。
 
-**[!UICONTROL ワークテーブル]**&#x200B;を使用すると、Adobe Campaign ワークフローでデータを処理し、ワークフローアクティビティとデータを共有できます。
+**[!UICONTROL ワークテーブル]**を使用すると、Adobe Campaign ワークフローでデータを処理し、ワークフローアクティビティとデータを共有できます。
 デフォルトでは、**[!UICONTROL ワークテーブル]**&#x200B;は、クエリ対象のデータのソースと同じデータベースに作成されます。
 
-例えば、クラウドデータベースに格納された&#x200B;**[!UICONTROL プロファイル]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースに&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;を作成します。
+例えば、クラウドデータベースに格納された&#x200B;**[!UICONTROL プロファイル]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースに&#x200B;**[!UICONTROL 作業用テーブル]**を作成します。
 これを変更するには、「**[!UICONTROL データソースを変更]**」アクティビティを追加して、**[!UICONTROL 作業用テーブル]**&#x200B;に別のデータソースを選択します。
 
 なお、「**[!UICONTROL データソースを変更]**」アクティビティを使用する場合、ワークフローの実行を続行するには、クラウドデータベースに戻す必要があります。
@@ -231,7 +231,7 @@ In this use case, learn how to use the **[!UICONTROL Change data source]** activ
 
 1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=ja#creating-a-query) page in Campaign Classic V7 documentation.
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
 
 1. 
 

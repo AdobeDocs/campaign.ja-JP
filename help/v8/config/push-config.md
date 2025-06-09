@@ -25,7 +25,7 @@ Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://expe
 
 >[!NOTE]
 >
->データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用することもできます。詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}を参照してください。
+>データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用することもできます。詳しくは、[Developer のドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"} を参照してください。
 >
 
 ## 統合設定の宣言 {#declaring-integration-settings}

@@ -8,7 +8,7 @@ exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
 
-詳しくは、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}を参照してください。
+詳しくは、[Campaign Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"} を参照してください。
 
 ## コントロールパネルにアクセスするには？ {#ac-control-panel-access}
 
@@ -43,18 +43,18 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 サブドメインとその証明書の監視方法を説明します。
 
 * [サブドメインの監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=ja){target="_blank"}
-* [新しいサブドメインのセットアップ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja){target="_blank"}
-* [サブドメインの SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target="_blank"}
+* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja){target="_blank"}
+* [ サブドメインの SSL 証明書の監視 ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target="_blank"}
 
 ## パフォーマンス監視
 
-コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。[ここ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja){target="_blank"}をクリックしてください。
+コントロールパネルには、インスタンスを監視し、最適なパフォーマンスを確保するのに役立つ機能がいくつか用意されています。[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja){target="_blank"}
 
 
 ## インスタンス設定
 
 コントロールパネルでの Campaign インスタンス設定の管理方法を説明します。
 * [許可リストの IP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja){target="_blank"}
-* [URL 権限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja){target="_blank"}
+* [URL へのアクセス権限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja){target="_blank"}
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja){target="_blank"}
-* [GPG キーの管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja){target="_blank"}
+* [GPG キー管理](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja){target="_blank"}

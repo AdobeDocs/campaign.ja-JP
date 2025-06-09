@@ -84,7 +84,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 Campaign インターフェイスでアドレスを設定するには、次の手順に従います。
 
-1. [&#128279;](../send/create-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。**[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、設定を入力します。
+1. [](../send/create-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。**[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、設定を入力します。
 
 1. 「**[!UICONTROL 送信者のアドレス]**」フィールドで、アドレスドメインがアドビにデリゲートしたサブドメインと同じであることを確認します。「@」より前の部分は変更できますが、ドメインアドレスは変更できません。
 
@@ -116,11 +116,11 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 * パーソナライゼーション設定を確認 - エラーを避けるには、メッセージコンテンツが適切に設計されていることを確認します。多くのエラーはパーソナライゼーションに関係する可能性があります。Adobe Campaign のパーソナライゼーションタグは、常に `<%=table.field%>` の形式を取ります。パーソナライゼーションブロック内でのパラメーターの使い方が間違っていると、問題になる場合があります。例えば、JavaScript の変数は次のように使用する必要があります。
 
-  &grave;&grave;
+  ``
   <%
   var brand = "xxx"
   %>
-  &grave;&grave;
+  ``
 
   パーソナライゼーションブロックについて詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
 
@@ -170,7 +170,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 ### 購読解除リンク {#unsub-link-check}
 
-購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが組み込みの&#x200B;**[!UICONTROL 購読解除リンクの承認]**&#x200B;[タイポロジルール](../../automation/campaign-opt/control-rules.md)によってチェックされ、含まれていない場合は警告が表示されます。
+購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが組み込みの&#x200B;**[!UICONTROL 購読解除リンクの承認]**[タイポロジルール](../../automation/campaign-opt/control-rules.md)によってチェックされ、含まれていない場合は警告が表示されます。
 
 オプトアウトリンクを挿入する方法について詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
 
@@ -226,7 +226,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
 ## 画像の管理 {#manage-images}
 

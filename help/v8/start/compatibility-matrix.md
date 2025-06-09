@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ Campaign クライアントコンソールを使用するには、次のオペ�
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**、最新バージョン。 [Microsoft Developer サイト](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target="_blank"}からダウンロードします。
+* **Microsoft Edge WebView2**、最新バージョン。 [Microsoft Developer サイト ](http://www.adobe.com/go/acc-ms-webview2-runtime-download_jp){target="_blank"} からダウンロードします。
 
 ## CRM コネクタ {#CRMconnectors}
 
@@ -67,7 +67,7 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 
 Campaign で[プッシュ通知](../send/push.md)を送信するには、データ収集 UI で Adobe Campaign Classic 拡張機能を設定して、Adobe Experience Platform Mobile SDK を使用します。
 
-iOS と Android の互換性のあるバージョンについては、[Adobe Developer ドキュメント](https://developer.adobe.com/client-sdks/home/){target="_blank"}を参照してください。
+iOSとAndroidの互換性のあるバージョンについて詳しくは、[Adobe Developer ドキュメント ](https://developer.adobe.com/client-sdks/home/){target="_blank"} を参照してください。
 
 ## Web ユーザーインターフェイス {#web-ui}
 
@@ -88,4 +88,4 @@ iOS と Android の互換性のあるバージョンについては、[Adobe Dev
 * [Campaign クライアントコンソールのインストール](connect.md)
 * [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target="_blank"}
 
-新しい Experience Cloud ソリューションリリースについての情報を得るには、[Adobe Priority Product Update](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"} を購読してください。
+新しい Experience Cloud ソリューションリリースについての情報を得るには、[Adobe Priority Product Update](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"} に登録してください。

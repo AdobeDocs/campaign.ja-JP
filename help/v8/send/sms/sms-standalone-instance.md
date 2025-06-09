@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 badge: label="限定提供（LA）" type="Informative"
 exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
 source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
 

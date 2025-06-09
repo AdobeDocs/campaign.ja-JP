@@ -8,7 +8,7 @@ exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 ある環境から別の環境へパッケージを書き出したり読み込んだりできます。
 
-パッケージについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja){target="_blank"}を参照してください
+パッケージの詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja){target="_blank"} を参照してください
 
 ## デプロイメントモデル {#ac-deployment}
 

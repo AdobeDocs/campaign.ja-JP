@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
 
@@ -141,18 +141,18 @@ Campaign には、各チャネル用の一連の組み込みテンプレート�
 
 次のビデオでは、アドホック配信用のテンプレートを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3409248?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### 配信テンプレートのプロパティの設定方法
 
 次のビデオでは、配信テンプレートのプロパティを設定する方法と各プロパティの詳細について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443402?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### アドホック配信テンプレートのデプロイ方法
 
 このビデオでは、アドホックメール配信テンプレートを導入する方法と、メール配信と配信ワークフローの違いについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444958?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Campaign に関するその他のチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}を参照してください。
+Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

@@ -7,7 +7,7 @@ exl-id: 09a80d45-e600-4ebe-89a0-1ca9f7651ac9
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -19,4 +19,4 @@ Campaign を Adobe Workfront と組み合わせることで、キャンペーン
 この統合を設定する手順について詳しくは、Adobe Workfront のドキュメントを参照してください。
 
 
-[Adobe Workfront の Adobe Campaign モジュール](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=ja){target="_blank"}。
+[Adobe WorkfrontのAdobe Campaign モジュール ](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=ja){target="_blank"}。

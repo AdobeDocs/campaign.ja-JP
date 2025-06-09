@@ -8,7 +8,7 @@ exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -18,4 +18,4 @@ Campaign を使用して web フォームを作成し、プロファイルのデ
 
 ![](assets/web-form-page.png)
 
-Web フォームの作成方法について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
+Web フォームの作成方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"} を参照してください。

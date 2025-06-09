@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1319'
+ht-degree: 100%
 
 ---
 
@@ -208,4 +208,4 @@ Adobe Campaign では、予算、ターゲット、コンテンツの承認な�
 
 このビデオでは、マーケティングプラン、プログラム、キャンペーンなどの作成方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449894?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

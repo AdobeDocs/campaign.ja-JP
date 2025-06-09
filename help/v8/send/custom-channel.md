@@ -1,15 +1,15 @@
 ---
 title: カスタム外部チャネルの基本を学ぶ
-description: Adobe Campaign web を使用してカスタムの外部チャネル配信を作成し、送信する方法について説明します
+description: Adobe Campaign Web でカスタム外部チャネル配信を作成して送信する方法を説明します
 role: User
 level: Beginner, Intermediate
-source-git-commit: 4ba419c52d6804e4f25f88990c226081ef0a06e6
+exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
+source-git-commit: f94074d954137c4db39b2ef9f85141b79fe3356b
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
-
 
 # カスタム外部チャネルの基本を学ぶ {#gs-custom-channel}
 
@@ -17,7 +17,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタムの外
 
 配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。 ただし、カスタム外部チャネルは、クライアントコンソールでのみ実行されます。
 
-カスタム外部チャネルに基づいて配信を作成して送信する方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja) を参照してください。
+カスタム外部チャネルに基づいて配信を作成して送信する方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html) を参照してください。
 
 クライアントコンソールで新しい外部カスタムチャネルを作成する手順を次に示します。
 
@@ -69,5 +69,3 @@ Adobe Campaignでは、サードパーティと統合されたカスタムの外
    ![](assets/cus-template.png){zoomable="yes"}
 
 これで、新しいチャネルを使用できるようになります。 このチャネルに基づいて配信を作成および実行できます。
-
-

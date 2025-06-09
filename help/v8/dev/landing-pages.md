@@ -20,7 +20,7 @@ ht-degree: 11%
 
 >[!AVAILABILITY]
 >
->* Campaign web ユーザーインターフェイスは、Adobe IDを使用してAdobe Campaignに接続するユーザーのみが使用できます。 [Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} のAdobeの詳細を表示します。
+>* Campaign web ユーザーインターフェイスは、Adobe IDを使用してAdobe Campaignに接続するユーザーのみが使用できます。 [Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} の詳細情報。
 >
 >* Campaign web ユーザーインターフェイスで作成したランディングページは、Campaign クライアントコンソールで表示または編集することができません。
 >
@@ -34,7 +34,7 @@ ht-degree: 11%
 * 受信者に、お知らせの受信を登録解除する機能を提供します。
 
 
-ランディングページについて詳しくは、[Campaign web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"} を参照してください。
+ランディングページについて詳しくは、[Campaign web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"} を参照してください。
 
 また、次のセクションも参照できます。
 

@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign には、該当するデータプライバシー保護法や受�
 
 * **ユーザーの同意とデータ保持**：ユーザーの同意を得て、ダブルオプトインの購読メカニズムを設定し、オプトアウトを容易にして、データ保持を設定する必要があります。
 
-  詳しくは、[Campaign Classic v7 プライバシードキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target="_blank"}を参照してください
+  詳しくは、[Campaign Classic v7 プライバシードキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target="_blank"}
 
 * **プライバシーとデータ保護規制**：プライバシー要件、およびこれらの規制が組織と Adobe Campaign に与える影響について詳しくは、[この節](privacy.md)を参照してください。
 
@@ -85,9 +85,9 @@ Adobe Campaign にユーザーを追加する方法については、[この節]
 
    キャンペーンテンプレートの使用方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja){target="_blank"}を参照してください。
 
-   ワークフローテンプレートの設定方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}.を参照してください。
+   ワークフローテンプレートの設定方法については、[ このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} を参照してください。
 
-   メールテンプレートについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target="_blank"}を参照してください。
+   メールテンプレートについて詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target="_blank"} を参照してください。
 
 
 1. **タイポロジルールの設定**

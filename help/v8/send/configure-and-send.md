@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1278'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >* このオプションは、ミッドソーシングで設定しないでください。
 >
->* SMTP サーバー設定について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
+>* SMTP サーバー設定について詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"} を参照してください。
 
 ## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 

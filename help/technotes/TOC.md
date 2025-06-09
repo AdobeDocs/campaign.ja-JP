@@ -7,8 +7,8 @@ description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
 source-git-commit: 0fa6767f042eb595b1697d086e5c5cd5fc42625e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '68'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 # Adobe Campaign のテクニカルノート {#technotes-ac}
 
 + [Campaign のテクニカルノート](technotes-home.md)
-+ アップグレード{#tn-new}
++ アップグレード回数{#tn-new}
    + [プッシュ通知チャネルの変更](upgrades/push-technote.md)
    + [ユーザーを IMS へ移行](upgrades/migrate-users-to-ims.md)
    + [テクニカルオペレーターを Developer Console へ移行](upgrades/ims-migration.md)

@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
 source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ _2024年9月3日（PT）_
 >
 >このリリースは&#x200B;**限定提供**（LA）中です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
 >
->Campaign v8 に移行する Campaign Standard ユーザーについては、[Campaign v8 web ユーザーインターフェイスのドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/start/acs-migration.html?lang=ja){target="_blank"}でこの移行の詳細を確認してください。
+>Campaign v8 に移行するCampaign Standard ユーザーとして、この移行について詳しくは [Campaign v8 web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/acs-migration.html?lang=ja){target="_blank"} を参照してください。
 
 ### 新機能 {#new-8-7-2}
 

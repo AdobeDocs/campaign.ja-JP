@@ -23,7 +23,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->Adobe Campaignの web ユーザーインターフェイスを使用すると、コンテンツにコンテンツフラグメントを使用できます。 マーケティングユーザーは、1 つ以上のメッセージで参照できる再利用可能なコンポーネントによって、複数のカスタムコンテンツブロックを事前に構築でき、改善されたデザインプロセスでメッセージコンテンツをすばやく組み立てることができます。 コンテンツフラグメントについて詳しくは、[Adobe Campaign Web UI ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>Adobe Campaignの web ユーザーインターフェイスを使用すると、コンテンツにコンテンツフラグメントを使用できます。 マーケティングユーザーは、1 つ以上のメッセージで参照できる再利用可能なコンポーネントによって、複数のカスタムコンテンツブロックを事前に構築でき、改善されたデザインプロセスでメッセージコンテンツをすばやく組み立てることができます。 コンテンツフラグメントについて詳しくは、[Adobe Campaign Web UI ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 アクティビティのプロパティは、3 つの手順に分かれています。
 

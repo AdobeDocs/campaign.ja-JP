@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Campaign v8 は Managed Cloud Services として利用でき、先を見�
 
 Managed Services のアプローチにより、マーケターは、社内の IT リソースからの多大なサポートを必要とせずに、クラウドインフラストラクチャの運用規模と経済性を活用できます。アドビのコンサルティングと実装チームは、お客様と協力してマーケティング計画、既存の慣行、データ要件、メッセージングの量を評価し、最も適切なサービス、サポート、配信品質パッケージを推奨します。Adobe Campaign Managed Cloud Services チームは、キャンペーンのパフォーマンス、ブランドレピュテーション、顧客体験指標などを監視し、レポートできるようになります。
 
-[!BADGE PDF]{type=Informative}Adobe Campaign Managed Cloud Services のビジネス価値について詳しくは、[このホワイトペーパーを参照してください](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"}。
+Adobe Campaign Managed Cloud Servicesの事業価値について詳しくは、[!BADGE PDF]{type=Informative} [ このホワイトペーパーを参照 ](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} してください。
 
 新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が備わっています。
 
@@ -105,6 +105,6 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 
 ![](assets/subdomain1.png)
 
-[Campaign コントロールパネルの詳細](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Campaign Campaign コントロールパネルの詳細情報 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 
 

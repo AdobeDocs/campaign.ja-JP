@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -105,4 +105,4 @@ ht-degree: 100%
 
 メール配信の配達確認を送信して検証する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447000?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

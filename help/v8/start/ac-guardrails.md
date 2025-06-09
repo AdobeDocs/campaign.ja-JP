@@ -8,13 +8,13 @@ exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 製品ガードレール{#guardrails}
 
-エンタイトルメント、製品の制限、パフォーマンスガードレールの一覧については、[Adobe Campaign Managed Cloud Services 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
+使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Campaign Managed Cloud Services製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
 
 次に、[!DNL Adobe Campaign] を使用する際の追加のガードレールと制限を示します。
 

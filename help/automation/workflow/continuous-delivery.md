@@ -64,6 +64,6 @@ ht-degree: 100%
 
 このビデオでは、増分処理クエリを使用して連続配信を設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27513?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

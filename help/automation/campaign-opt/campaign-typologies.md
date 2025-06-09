@@ -79,11 +79,11 @@ Campaign には、デフォルトで一連の&#x200B;**フィルター**&#x200B;
 
 このビデオでは、タイポロジルールを活用して Adobe Campaign で疲労管理を実装する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448332?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
 
 ### 定義済みフィルターを使用した疲労管理の設定
 
 疲労管理では、受信者への過剰勧誘を避けるために、メッセージの頻度と数量を制御します。キャンペーンインスタンスにキャンペーン最適化モジュールがない場合、受信したメッセージの数でターゲット母集団をフィルタリングする定義済みフィルターを設定できます。
 このビデオでは、フィルターを使用して Adobe Campaign で疲労管理を実装する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444601?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)

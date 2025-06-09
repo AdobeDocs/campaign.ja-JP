@@ -7,9 +7,9 @@ level: Beginner, Intermediate
 badge: label="限定提供（LA）" type="Informative"
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
 source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1326'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >
 >Adobe Campaign v8.7.2 以降に適用されます。
 >
->以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
+>古いバージョンについては、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} を参照してください。
 
 ## SMS コネクタのデータフロー {#sms-data-flow}
 

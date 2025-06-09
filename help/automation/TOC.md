@@ -4,9 +4,9 @@ user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
 feature: Overview
 source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 100%
          + [重複排除アクティビティの結合機能の使用](workflow/deduplication-merge.md)
          + [繰り返しインポートワークフローの設定](workflow/recurring-import-workflow.md)
       + クエリの設計 {#designing-queries}
-         + [増分クエリを使用した四半期ごとのリストの更新](workflow/quarterly-list-update.md)
+         + [増分処理クエリを使用した四半期ごとのリスト更新](workflow/quarterly-list-update.md)
       + クエリとフィルター {#designing-queries}
          + [受信者テーブルのクエリ](workflow/querying-recipient-table.md)
          + [配信情報のクエリ](workflow/query-delivery-info.md)
@@ -133,7 +133,7 @@ ht-degree: 100%
       + [権限の管理](workflow/managing-rights.md)
       + [アクティビティ画像の変更](workflow/change-activity-images.md)
       + [タイムゾーンの管理](workflow/managing-time-zones.md)
-+ キャンペーンのオーケストレーション {#campaign-orchestration}
++ Campaign オーケストレーション {#campaign-orchestration}
    + [マーケティングキャンペーンの基本を学ぶ](campaigns/set-up-campaigns.md)
    + [プログラムとキャンペーンを作成](campaigns/marketing-campaign-create.md)
    + [テンプレートの作成と設定](campaigns/marketing-campaign-templates.md)
@@ -158,7 +158,7 @@ ht-degree: 100%
    + [コストの管理](mrm/controlling-costs.md)
    + [マーケティングリソースの管理](mrm/managing-marketing-resources.md)
    + [ディスカッションフォーラム](mrm/discussion-forums.md)
-+ 分散型マーケティング（アドオン）{#distributed-marketing}
++ 分散型マーケティング（アドオン） {#distributed-marketing}
    + [分散型マーケティングの基本を学ぶ](distributed-marketing/about-distributed-marketing.md)
    + [ローカルキャンペーンの作成](distributed-marketing/creating-a-local-campaign.md)
    + [協調キャンペーンの作成](distributed-marketing/creating-a-collaborative-campaign.md)

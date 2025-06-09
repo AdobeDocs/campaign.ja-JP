@@ -19,11 +19,11 @@ ht-degree: 98%
 
 1 回限りの配信を作成する主な手順を次に示します。
 
-1. **新しい配信の作成**&#x200B;[詳細を表示](#create-the-delivery)
+1. **新しい配信の作成**[詳細を表示](#create-the-delivery)
 
-1. **配信コンテンツの定義**&#x200B;[詳細情報](#content-of-the-delivery)
+1. **配信コンテンツの定義**[詳細情報](#content-of-the-delivery)
 
-1. **ターゲット母集団の選択**&#x200B;[詳細情報](#target-population)
+1. **ターゲット母集団の選択**[詳細情報](#target-population)
 
 その後、Adobe Campaign でメッセージの準備、テスト、送信および監視を行うことができます。
 
@@ -182,7 +182,7 @@ ht-degree: 98%
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447000?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

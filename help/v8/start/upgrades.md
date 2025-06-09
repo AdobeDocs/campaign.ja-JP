@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -60,9 +60,9 @@ Campaign のバージョンを確認するには、クライアントコンソ�
 
 新しいバージョンとその変更点については、[リリースノート](release-notes.md)を参照してください。新しいバージョンが使用可能になったら、アドビ担当者からお客様に対する連絡があり次第、環境をアップグレードします。
 
-新しい Experience Cloud ソリューションのリリースについての情報を得るには、[Adobe Priority Product Updates](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"} 通信を購読してください。
+新しいExperience Cloud ソリューションリリースとそのコンテンツについての情報を得るには、[Adobe Priority Product Updates](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"} コミュニケーションに登録してください。
 
-また、[Campaign コミュニティ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ja&style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"}にアクセスして、リリースの更新情報を入手することもできます。
+[Campaign コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} にアクセスして、リリースの更新に関する情報を取得することもできます。
 
 
 ### 組織がアップグレードを必要とする理由 {#upgrades-1}

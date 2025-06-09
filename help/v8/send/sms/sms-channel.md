@@ -7,7 +7,7 @@ level: Intermediate
 badge: label="限定提供（LA）" type="Informative"
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
 source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 100%
 
