@@ -68,7 +68,7 @@ ht-degree: 94%
 
 * HTML コンテンツをインポートするには、「**[!UICONTROL 開く]**」ボタンを使用します。「**[!UICONTROL ソース]**」サブタブに直接ソースコードを貼り付けることもできます。
 
-  デジタルコンテンツエディター（DCE）を使用している場合は、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html#step-3---selecting-a-content) を参照してください。
+  デジタルコンテンツエディター（DCE）を使用している場合は、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=ja#step-3---selecting-a-content) を参照してください。
 
   >[!IMPORTANT]
   >
@@ -140,7 +140,7 @@ Adobe Campaign では、特定の条件下での動的なメールの送信を�
 
 1. 挿入が完了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
 
-顔文字のリストをカスタマイズするには、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html) を参照してください。
+顔文字のリストをカスタマイズするには、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=ja) を参照してください。
 
 ## 画像を追加 {#adding-images}
 
@@ -151,7 +151,7 @@ HTML 形式のメール配信には、画像を含めることができます。
 
 パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 KB 以下にする必要があります。この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
 
-Campaign オプションのリストについて詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery) を参照してください。
+Campaign オプションのリストについて詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery) を参照してください。
 
 ### 画像のタイプ {#img-types}
 
@@ -162,7 +162,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
   パブリックリソースには、Adobe Campaign 階層構造の&#x200B;**[!UICONTROL リソース／オンライン]**&#x200B;ノードからアクセスできます。パブリックリソースは、ライブラリ内でグループ化したり、メールメッセージに含めることができるだけでなく、キャンペーン用、タスク用、コンテンツ管理用に使用することもできます。
 
-* Adobe Experience Cloud と共有されているアセット。[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html) を参照してください。
+* Adobe Experience Cloud と共有されているアセット。[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja) を参照してください。
 
 ### 画像の挿入と管理 {#manage-images}
 

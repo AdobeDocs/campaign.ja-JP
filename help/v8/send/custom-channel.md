@@ -17,7 +17,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタムの外
 
 配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。 ただし、カスタム外部チャネルは、クライアントコンソールでのみ実行されます。
 
-カスタム外部チャネルに基づいて配信を作成して送信する方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html) を参照してください。
+カスタム外部チャネルに基づいて配信を作成して送信する方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja) を参照してください。
 
 クライアントコンソールで新しい外部カスタムチャネルを作成する手順を次に示します。
 

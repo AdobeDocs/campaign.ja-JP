@@ -117,7 +117,7 @@ Campaign v8 クライアントコンソールユーザーは、v8.6.1 リリー�
 >Campaign web ユーザーインターフェイスは、Adobe IDを使用してAdobe Campaignに接続するユーザーのみが使用できます。 [Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} の詳細情報。
 >
 
-新しい Campaign web ユーザーインターフェイスについて詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。 また、Campaign web ユーザーインターフェイスのドキュメントで、専用の [ よくある質問のページ ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"} を参照することもできます。
+新しい Campaign web ユーザーインターフェイスについて詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。 また、Campaign web ユーザーインターフェイスのドキュメントで、専用の [ よくある質問のページ ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/faq){target="_blank"} を参照することもできます。
 
 追加機能および高度な機能、設定は、クライアントコンソールでのみ使用できます。両方のユーザーインターフェイスで使用できる機能について詳しくは [Campaign web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=ja){target="_blank"} を参照してください。
 

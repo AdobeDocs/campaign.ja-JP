@@ -25,7 +25,7 @@ Adobe Campaign は、日本の携帯電話向けに特化したメールフォ�
 
 ただし、「**[!UICONTROL メールフォーマット]**」オプションを「**[!UICONTROL 不明]**」、「**[!UICONTROL HTML]**」または「**[!UICONTROL テキスト]**」のままにした場合は、メール送信時に、メッセージが正しく表示されるように日本独自のフォーマットが自動検出されます。
 
-この自動検出システムは、**[!UICONTROL メールフォーマットの管理]**&#x200B;メールルールセットに定義されているドメインのリストに基づいています。メール形式の管理について詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#managing-email-formats) を参照してください。
+この自動検出システムは、**[!UICONTROL メールフォーマットの管理]**&#x200B;メールルールセットに定義されているドメインのリストに基づいています。メール形式の管理について詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=ja#managing-email-formats) を参照してください。
 
 ## 制限事項とレコメンデーション {#limitations-and-recommendations}
 

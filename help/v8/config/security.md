@@ -101,8 +101,8 @@ Campaign を他のExperience Cloud ソリューションと統合し、[Adobe An
 
 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。したがって、受信者の同意を得てこれを監視することが重要になります。
 
-* 受信者は常に通信の受信に同意するようにします。これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。詳しくは、[二重のオプトインを備えた購読フォームの作成](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}を参照してください。
-* 不正なリストを読み込まず、シードアドレスを使用して、クライアントファイルが不正に使用されていないことを確認してください。詳しくは、[シードアドレスについて](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}を参照してください。
+* 受信者は常に通信の受信に同意するようにします。これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。詳しくは、[二重のオプトインを備えた購読フォームの作成](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}を参照してください。
+* 不正なリストを読み込まず、シードアドレスを使用して、クライアントファイルが不正に使用されていないことを確認してください。詳しくは、[シードアドレスについて](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}を参照してください。
 * 同意と権限の管理を通じて、受信者の好みを追跡し、組織内の誰がどのデータにアクセスできるかを管理できます。詳しくは、[この節](#consent)を参照してください。
 * 受信者からのプライバシーリクエストを円滑に処理して管理します。詳しくは、[この節](#privacy-requests)を参照してください。
 
@@ -123,7 +123,7 @@ Adobe Campaign には、プライバシーに不可欠な重要な機能が最�
 
 * **同意の管理**：購読管理プロセスを通じて、受信者の環境設定を管理し、どの受信者がどの購読タイプにオプトインしたかを追跡できます。詳しくは、[購読について](../../automation/workflow/subscription-services.md)を参照してください。
 * **データ保持**：すべてのビルトインの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
-* **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}を参照してください。
+* **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}を参照してください。
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -166,7 +166,7 @@ Adobe Campaignでは、受信者による web サイトの閲覧方法を監視�
 
 Web トラッキングの設定については、[ この節 ](../start/tracking.md) で説明します。
 
-Adobe Campaign では、トラッキングをさらに管理するために、オプトアウトバナーを表示して、行動追跡をオプトアウトしたエンドユーザーの web 行動の追跡を停止できます。詳しくは、[web アプリケーショントラッキングのオプトアウト](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank}を参照してください。
+Adobe Campaign では、トラッキングをさらに管理するために、オプトアウトバナーを表示して、行動追跡をオプトアウトしたエンドユーザーの web 行動の追跡を停止できます。詳しくは、[web アプリケーショントラッキングのオプトアウト](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank}を参照してください。
 
 <!--
 Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
