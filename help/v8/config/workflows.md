@@ -231,7 +231,7 @@ In this use case, learn how to use the **[!UICONTROL Change data source]** activ
 
 1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=ja#creating-a-query) page in Campaign Classic V7 documentation.
 
 1. 
 
