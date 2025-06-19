@@ -182,7 +182,7 @@ ht-degree: 100%
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447000?quality=12&captions=jpn)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 
