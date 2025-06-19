@@ -4,9 +4,9 @@ description: Campaign v8 2022 リリースで記載される機能と改善点�
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1949'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**このページ内**
+**このページの内容**
 
-* Campaign v8.4 - [ リリース 8.4.1](#release-8-4-1) | [ リリース 8.4.2](#release-8-4-2)
-* Campaign v8.3 - [ リリース 8.3.8](#release-8-3-8) | [ リリース 8.3.9](#release-8-3-9)
-* Campaign v8.2 - [ リリース 8.2.10](#release-8-2-10)
+* Campaign v8.4 - [リリース 8.4.1](#release-8-4-1) | [リリース 8.4.2](#release-8-4-2)
+* Campaign v8.3 - [リリース 8.3.8](#release-8-3-8) | [リリース 8.3.9](#release-8-3-9)
+* Campaign v8.2 - [リリース 8.2.10](#release-8-2-10)
 
 >[!ENDSHADEBOX]
 
@@ -217,7 +217,7 @@ _2022年5月18日（PT）_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign 分散型マーケティングでは、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間で協調キャンペーンを実装できます。 共有ワークスペース（キャンペーンパッケージ）を使用して、キャンペーンテンプレートを作成し、ローカルエンティティに提案できます。</p>
+<td> <p>Campaign 分散型マーケティングでは、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域のエージェントなど）間の協調キャンペーンを実装できます。共有ワークスペース（キャンペーンパッケージ）を使用して、キャンペーンテンプレートを作成し、ローカルエンティティに提案できます。</p>
 <p>詳しくは、<a href="../start/campaigns.md#distributed-marketing-add-on">詳細ドキュメント</a>を参照してください。</p>
 </td> 
 </tr> 

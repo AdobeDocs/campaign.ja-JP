@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://expe
 
 >[!NOTE]
 >
->データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用することもできます。詳しくは、[Developer のドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"} を参照してください。
+>データ収集 UI で Adobe Campaign 拡張機能を設定することで、Adobe Experience Platform Mobile SDK を使用することもできます。[Developer のドキュメントの詳細情報](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}
 >
 
 ## 統合設定の宣言 {#declaring-integration-settings}
@@ -498,7 +498,7 @@ AndroidプロジェクトにFirebaseを追加するには、[Googleドキュメ�
    通知メッセージの場合、トラッキングの受信は次の 2 つのレベルで設定する必要があります。
 
    * `onMessageReceived` （アプリケーションが背景にない場合）：実装は前の節で行われました
-   * 起動アクティビティ（または `click_action` 関数を使用する場合はターゲット設定アクティビティ）の `onCreate` （アプリケーションがバックグラウンドになっていない）。
+   * 起動アクティビティ（または `click_action` 関数を使用する場合はターゲット設定アクティビティ）の `onCreate`（アプリケーションがバックグラウンドになっていない）。
 
    開封数／クリック数のトラッキングと同時におこなう必要があります。
 

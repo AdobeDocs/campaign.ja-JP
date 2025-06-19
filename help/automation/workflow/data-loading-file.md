@@ -7,9 +7,9 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->サポートされるファイルは、「フラット」な構造のファイル（CSV、TXT など）のみです。XML 形式の使用はお勧めしません。 クライアントコンソールを使用すると、最大 150 MB のファイルを読み込むことができます。 Web ユーザーインターフェイスの「ファイルを読み込み」アクティビティの上限は 50 MB です。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=ja){target="_blank"}
+>サポートされるファイルは、「フラット」な構造のファイル（CSV、TXT など）のみです。XML 形式の使用は推奨されません。クライアントコンソールを使用すると、最大 150 MB のファイルを読み込むことができます。Web ユーザーインターフェイスでは、ファイルの読み込みアクティビティには 50 MB の制限があります。[詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=ja){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

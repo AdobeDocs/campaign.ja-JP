@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
 source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1498'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-**このページ内**
+**このページの内容**
 
-* Campaign v8.5 - [ リリース 8.5.1](#release-8-5-1) | [ リリース 8.5.2](#release-8-5-2)
-* Campaign v8.4 - [ リリース 8.4.3](#release-8-4-3) | [ リリース 8.4.4](#release-8-4-4) | [ リリース 8.4.5](#release-8-4-5)
+* Campaign v8.5 - [リリース 8.5.1](#release-8-5-1) | [リリース 8.5.2](#release-8-5-2)
+* Campaign v8.4 - [リリース 8.4.3](#release-8-4-3) | [リリース 8.4.4](#release-8-4-4) | [リリース 8.4.5](#release-8-4-5)
 
 >[!ENDSHADEBOX]
 

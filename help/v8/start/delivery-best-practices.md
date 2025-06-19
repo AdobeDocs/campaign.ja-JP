@@ -7,9 +7,9 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2970'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 * ワークフローの実行：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。[このドキュメント](../../automation/workflow/workflow-best-practices.md#execution-and-performance)に示すガイドラインに従います。
 
-* [ パフォーマンス監視 ](https://experienceleague.adobe.com/ja/docs/control-panel/using/discover-control-panel/key-features){target="_blank"} 機能を使用して、プラットフォームを監視するには、[Campaign Campaign コントロールパネル機能 ](https://experienceleague.adobe.com/ja/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"} に接続します。
+* [Campaign コントロールパネルの機能](https://experienceleague.adobe.com/ja/docs/control-panel/using/discover-control-panel/key-features){target="_blank"}に接続すると、[パフォーマンス監視](https://experienceleague.adobe.com/ja/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}機能を使用して、プラットフォームを監視します。
 
 #### 強制隔離の管理 {#quarantine-management}
 
@@ -41,9 +41,9 @@ ht-degree: 97%
 新しいプラットフォームでメールの送信を開始するときは、まだ選定が十分でないアドレスのリストを使用することがあります。無効なアドレスやハニーポットアドレス（スパム送信者を誘き寄せるために作成されたメールボックス）に送信すると、プラットフォームのレピュテーションの低下につながります。適切な強制隔離の管理プロセスがあれば、アドレスの品質の維持、インターネットアクセスプロバイダーによるブロックリストへの登録の回避、エラー率の低減、配信とスループットの向上を期待できます。
 
 
-新しいプラットフォームを開始する方法について詳しくは、[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"} を参照してください。
+新しいプラットフォームを開始する方法について詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}を参照してください。
 
-技術的な推奨事項の一覧については、[ この節 ](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"} を参照してください。
+技術的な推奨事項について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}を参照してください。
 
 
 +++ **詳しくは、いくつかのベストプラクティスを参照してください。**
@@ -69,7 +69,7 @@ Adobe Campaign では、返されるエラーのタイプに応じて不正な�
 
 ### サブドメインとブランディング {#subdomains-and-branding}
 
-Adobe Campaign で複数のブランドを管理する場合は、ブランドごとに 1 つのサブドメインを使用することをお勧めします。例えば銀行ならば、個々の支店に対応する複数のサブドメインを所有できます。銀行のドメインが bluebank.com の場合、サブドメインは、@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com などになります。サブドメインごとに 1 つの配信テンプレートを用意すれば、それぞれのブランドに合わせて事前に設定されたパラメーターをいつでも使用でき、エラーの回避や時間の節約につながります。サブドメインのブランディングについて詳しくは、[Campaign Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"} を参照してください。
+Adobe Campaign で複数のブランドを管理する場合は、ブランドごとに 1 つのサブドメインを使用することをお勧めします。例えば銀行ならば、個々の支店に対応する複数のサブドメインを所有できます。銀行のドメインが bluebank.com の場合、サブドメインは、@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com などになります。サブドメインごとに 1 つの配信テンプレートを用意すれば、それぞれのブランドに合わせて事前に設定されたパラメーターをいつでも使用でき、エラーの回避や時間の節約につながります。サブドメインのブランディングについて詳しくは、[Campaign コントロールパネルドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください。
 
 ### アドレスの設定 {#configure-addresses}
 
@@ -84,7 +84,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 Campaign インターフェイスでアドレスを設定するには、次の手順に従います。
 
-1. [&#128279;](../send/create-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。**[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、設定を入力します。
+1. [](../send/create-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。**[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、設定を入力します。
 
 1. 「**[!UICONTROL 送信者のアドレス]**」フィールドで、アドレスドメインがアドビにデリゲートしたサブドメインと同じであることを確認します。「@」より前の部分は変更できますが、ドメインアドレスは変更できません。
 
@@ -116,11 +116,11 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 * パーソナライゼーション設定を確認 - エラーを避けるには、メッセージコンテンツが適切に設計されていることを確認します。多くのエラーはパーソナライゼーションに関係する可能性があります。Adobe Campaign のパーソナライゼーションタグは、常に `<%=table.field%>` の形式を取ります。パーソナライゼーションブロック内でのパラメーターの使い方が間違っていると、問題になる場合があります。例えば、JavaScript の変数は次のように使用する必要があります。
 
-  &grave;&grave;
+  ``
   <%
   var brand = "xxx"
   %>
-  &grave;&grave;
+  ``
 
   パーソナライゼーションブロックについて詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
 
@@ -170,7 +170,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 ### 購読解除リンク {#unsub-link-check}
 
-購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが組み込みの&#x200B;**[!UICONTROL 購読解除リンクの承認]**&#x200B;[タイポロジルール](../../automation/campaign-opt/control-rules.md)によってチェックされ、含まれていない場合は警告が表示されます。
+購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが組み込みの&#x200B;**[!UICONTROL 購読解除リンクの承認]**[タイポロジルール](../../automation/campaign-opt/control-rules.md)によってチェックされ、含まれていない場合は警告が表示されます。
 
 オプトアウトリンクを挿入する方法について詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
 
@@ -226,7 +226,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
 ## 画像の管理 {#manage-images}
 
@@ -413,7 +413,7 @@ You can:
 
 Campaign 配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。配信ログのメッセージのステータスも制御できます。
 
-[ 配信の監視について詳しくは、Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
+[Campaign Classic v7 ドキュメントの配信の監視の詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
 
 
 ## 行動の追跡 {#track-behaviour}
@@ -423,4 +423,4 @@ Campaign 配信ダッシュボードから、処理済みメッセージと配�
 メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信アシスタントの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
 
-[ トラッキング機能について詳しくは、Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=ja#sending-messages){target="_blank"}
+[Campaign Classic v7 ドキュメントのトラッキング機能の詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=ja#sending-messages){target="_blank"}

@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
 source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 85%
 
 ## 2025年4月 {#april-2025}
 
-**[!UICONTROL スケジューラー]** アクティビティのスケジュール時間を変更した後にワークフローを再開し、更新されたスケジュールに従って確実に実行されるようにするためのベストプラクティスが追加されました。 [詳細情報](../../automation/workflow/scheduler.md)
+**[!UICONTROL スケジューラー]**&#x200B;アクティビティのスケジュールされた時間を変更した後、ワークフローを再開して、更新されたスケジュールに従って実行されるようにするためのベストプラクティスが追加されました。[詳細情報](../../automation/workflow/scheduler.md)
 
 ## 2025年1月 {#january-2025}
 
-FFDA デプロイメントのデータレプリケーションに関するページが再編成され、新しい情報で強化されました。 [詳細情報](../architecture/replication.md)
+FFDA デプロイメントのデータレプリケーションに関するページが再編成され、新しい情報で強化されました。[詳細情報](../architecture/replication.md)
 
 ## 2024年11月 {#october-2024}
 

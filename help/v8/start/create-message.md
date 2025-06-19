@@ -7,9 +7,9 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1610'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 98%
 
 1 回限りの配信を作成する主な手順を次に示します。
 
-1. **新しい配信の作成**&#x200B;[詳細を表示](#create-the-delivery)
+1. **新しい配信の作成**[詳細を表示](#create-the-delivery)
 
-1. **配信コンテンツの定義**&#x200B;[詳細情報](#content-of-the-delivery)
+1. **配信コンテンツの定義**[詳細情報](#content-of-the-delivery)
 
-1. **ターゲット母集団の選択**&#x200B;[詳細情報](#target-population)
+1. **ターゲット母集団の選択**[詳細情報](#target-population)
 
 その後、Adobe Campaign でメッセージの準備、テスト、送信および監視を行うことができます。
 
@@ -137,7 +137,7 @@ ht-degree: 98%
 1. 受信者を含むファイルを選択します。
 1. 受信者をインポートする場合は、**[!UICONTROL ファイルフォーマットの定義...]** リンクをクリックし、外部ファイルを選択して設定します。
 
-   データのインポートについて詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"} を参照してください。
+   データのインポートについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 終了]**」をクリックして、この配信を標準の配信として設定します。
 
@@ -182,7 +182,7 @@ ht-degree: 98%
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447000?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 

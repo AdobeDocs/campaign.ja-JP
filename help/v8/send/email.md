@@ -7,9 +7,9 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
 >[!NOTE]
 >
->個別にカスタマイズされた魅力的なメールを作成するには、[web ユーザーインターフェイス ](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui) を参照します。 Adobe Campaignには、直感的なドラッグ&amp;ドロップインターフェイスであるメールDesignerが付属しており、メールごとに、すべてのコンテンツをデザインして調整できます。
+>個別にカスタマイズされた魅力的なメールを作成するには、[Web ユーザーインターフェイス](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)を参照してください。Adobe Campaign には、直感的なドラッグ＆ドロップインターフェイスである E メールデザイナーが搭載されており、すべてのメールのあらゆるメールコンテンツのデザインと微調整に対応できます。
 
 
 配信を作成して設定する主な手順について詳しくは、[このページ](../start/create-message.md)を参照してください。
@@ -91,11 +91,11 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
 最初のメール配信の準備が整いました。 次に、オーディエンスを定義し、配信を検証して送信する必要があります。
 
-メールコンテンツをインポートするワークフローを作成する方法については、この [ ユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"} を参照してください。
+メールコンテンツをインポートするワークフローの作成方法について詳しくは、この[ユースケース](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"}を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [ 配信の作成](../start/create-message.md)
+>* [配信の作成](../start/create-message.md)
 >* [メールテンプレートの作成と使用](create-templates.md)
 >* [メールのオーディエンスの選択](../audiences/gs-audiences.md)
 >* [配信の検証と配達確認の送信](preview-and-proof.md)

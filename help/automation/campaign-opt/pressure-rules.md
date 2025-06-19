@@ -5,9 +5,9 @@ description: 頻度ルールの設定方法を学ぶ
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3265'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 >[!NOTE]
 >
->頻度ルールを正しく適用するには、ルールのターゲティングディメンションが配信マッピングのターゲティングディメンションと一致している必要があります。
+>頻度ルールを正しく適用するには、ルールのターゲティングディメンションが配信マッピングのターゲティングディメンションと一致する必要があります。
 
 **[!UICONTROL 頻度]**&#x200B;タイポロジルールを作成および設定するには、次の手順に従います。
 

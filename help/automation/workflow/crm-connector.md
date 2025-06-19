@@ -6,9 +6,9 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 9da636a7-ed57-440f-8166-6982dce0213c
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 86%
 
 ![](assets/crm_task_select_obj.png)
 
-Adobe Campaignの CRM コネクタについて詳しくは、[ この節 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ja){target="_blank"} を参照してください。
+Adobe Campaign の CRM コネクタについて詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ja){target="_blank"}を参照してください。

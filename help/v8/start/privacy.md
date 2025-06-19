@@ -7,9 +7,9 @@ level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 85%
 
 ビジネスの性質と管轄区域に応じて、データ操作は法的プライバシー規制の対象となる場合があります。 多くの場合、これらの規制により、顧客は収集されたデータへのアクセスをリクエストする権利と、保存されたデータの削除をリクエストする権利を得ることができます。 個人データに対するこれらの顧客リクエストは、ドキュメント全体で「プライバシーリクエスト」と呼ばれます。
 
-アドビは、Campaign に保存されているデータに対するプライバシーリクエストの作成と処理を行うためのデータコントローラー用ツールを用意しています。しかし、要求者であるデータ主体の ID、および要求者に返されるデータがデータ主体に関するものであることの確認は、データコントローラーの責任です。個人情報およびデータを管理する様々なエンティティについて詳しくは、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#personal-data){target="_blank"} を参照してください。
+アドビは、Campaign に保存されているデータに対するプライバシーリクエストの作成と処理を行うためのデータコントローラー用ツールを用意しています。しかし、要求者であるデータ主体の ID、および要求者に返されるデータがデータ主体に関するものであることの確認は、データコントローラーの責任です。個人データおよびデータを管理する様々なエンティティについて詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#personal-data){target="_blank"}を参照してください。
 
 
 Campaign でプライバシーリクエストを管理するには、まず[名前空間を定義する](#namespaces)必要があります。その後、プライバシーリクエストを作成および管理できます。 プライバシーリクエストを実行するには、**Adobe Privacy Service** 統合を使用します。Privacy Service からすべての Adobe Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。[詳細情報](#create-privacy-request)
 
-**アクセス権** および **忘れられる権利** （削除リクエスト）について詳しくは、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"} を参照してください。
+**アクセス権**&#x200B;および&#x200B;**忘れられる権利**（削除リクエスト）について詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"}を参照してください。
 
 
 >[!NOTE]
@@ -35,7 +35,7 @@ Campaign でプライバシーリクエストを管理するには、まず[名�
 
 >[!NOTE]
 >
->ID 名前空間について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja){target="_blank"} を参照してください。
+>ID 名前空間について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja){target="_blank"}を参照してください。
 
 現在、Adobe Campaign は、Experience Platform ID 名前空間サービスからの名前空間のインポートをサポートしていません。したがって、ID 名前空間サービスで名前空間を作成したら、対応する名前空間を Adobe Campaign インターフェイスで手動で作成する必要があります。それには、次の手順に従います。
 
@@ -47,9 +47,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >For optimal performance, it is recommended to use out-of-the-box namespaces.
 -->
 
-1. [ID 名前空間サービス ](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"} で名前空間を作成します。
+1. [ID 名前空間サービス](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}で名前空間を作成します。
 
-1. [ID 名前空間のリスト ](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} が組織で使用可能な場合、例えば、次の名前空間が得られます。
+1. [ID 名前空間のリスト](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}が組織で使用可能な場合、例えば、次の名前空間が得られます。
 
    ```
    {
@@ -110,9 +110,9 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 
 >[!CAUTION]
 >
->カスタムの名前空間タイプを使用してリクエストを送信するには、[JSON メソッド ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target="_blank"} を実行してリクエストに namespaceId を追加するか、[API 呼び出し ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target="_blank"} を使用してリクエストを行います。
+>カスタムの名前空間タイプを使用してリクエストを送信するには、[JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target="_blank"}を活用してリクエストに namespaceId を追加するか、[API 呼び出し](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target="_blank"}を使用してリクエストを実行します。
 >
->標準の名前空間タイプを使用して、[ プライバシーユーザーインターフェイス ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target="_blank"} のみを使用してリクエストを送信します。
+>標準の名前空間タイプを使用してリクエストを送信するには、[プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target="_blank"}のみを使用します。
 
 ### リクエストの処理時に検索されるテーブル {#list-of-tables}
 
@@ -155,8 +155,8 @@ Adobe Campaign のプライバシーリクエストの様々なステータス�
 
 * [プライバシーと同意](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}
 
-* [ プライバシー管理の概要 ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja){target="_blank"}
+* [プライバシー管理の基本を学ぶ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja){target="_blank"}
 
-* [ プライバシー管理に関する規制 ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#privacy-management-regulations){target="_blank"} （GDPR、CCPA、PDPA、LGPD）
+* [プライバシー管理に関する規制](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#privacy-management-regulations){target="_blank"}（GDPR、CCPA、PDPA、LGPD）
 
-* [ 個人情報の販売のオプトアウト ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=ja){target="_blank"} （CCPA に固有）
+* [個人情報の販売に対するオプトアウト](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=ja){target="_blank"}（CCPA に固有）

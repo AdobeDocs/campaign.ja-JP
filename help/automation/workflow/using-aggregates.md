@@ -6,7 +6,7 @@ feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 7522f449-341e-4aef-8c1e-c49e13809c08
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
 ht-degree: 100%
 

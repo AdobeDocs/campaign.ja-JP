@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 9469aeb6-831f-4c8f-8c25-b335dc47c764
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 

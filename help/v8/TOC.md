@@ -6,9 +6,9 @@ title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 92%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + 自動処理とワークフロー {#automation}
    + [Campaign 自動化ガイド >](https://experienceleague.adobe.com/ja/docs/campaign/automation/home)
-+ プライバシーとセキュリティ管理 {#privacy}
++ プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
    + [セキュリティ強化アドオン](config/enhanced-security.md)

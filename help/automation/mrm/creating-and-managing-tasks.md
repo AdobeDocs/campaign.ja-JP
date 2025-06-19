@@ -6,7 +6,7 @@ feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3927'
 ht-degree: 100%
 

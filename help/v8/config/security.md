@@ -7,9 +7,9 @@ level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2280'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 ## プライバシー
 
-プライバシーを正しく取り扱い、個人データを管理するには、事業をおこなう地域に適用される法律の範囲内で作業してください。Adobe Campaignの機能は、[ このページ ](../start/privacy.md) に記載されている規制を遵守するのに役立ちます。
+プライバシーを正しく取り扱い、個人データを管理するには、事業を行う地域に適用される法律の範囲内で作業してください。Adobe Campaign の機能は、[このページ](../start/privacy.md)に記載されている規制の遵守に役立ちます。
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
@@ -38,7 +38,7 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
 * **Adobe Experience Cloud を使用した情報収集の仕組み**
 
    * Adobe Experience Cloud ソリューションでは、情報を収集できるように、web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
-   * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。Campaign を使用してモバイル配信を行う方法について詳しくは、「[SMS チャネル ](../send/sms/sms-channel.md) モバイルアプリチャネル」を参照してください。
+   * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。Campaign を使用してモバイル配信を送信する方法について詳しくは、[SMS チャネル](../send/sms/sms-channel.md)とモバイルアプリのチャネルを参照してください。
 
 * **Adobe Experience Cloud の使用に関するユーザーのプライバシー選択**
 
@@ -59,7 +59,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
-Campaign を他のExperience Cloud ソリューションと統合し、[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud Audiences](../start/shared-audiences.md)、Campaign Standard、または [CRM コネクタ ](../../automation/workflow/crm-connector.md) を介した他のソリューションなど、システム間でオーディエンスを転送できるようにする場合、個人データ保護に細心の注意を払う必要があります。
+Campaign を、[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud オーディエンス](../start/shared-audiences.md)、Campaign Standard などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [CRM コネクタ](../../automation/workflow/crm-connector.md)を介して他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
 
 [主な規制](#privacy-regulations)では、データを管理する様々なエンティティを以下のように定義しています。
 
@@ -113,7 +113,7 @@ Adobe Campaign を使用すると、個人情報や機密情報などのデー�
 Adobe Campaign では、プライバシー管理に関する様々な機能を提供しています。
 * 同意の管理、データ保持、ユーザーの役割：[この節](#consent)を参照してください。
 * プライバシーリクエスト（アクセスする権利と忘れられる権利）：[この節](#privacy-requests)を参照してください。
-* 個人情報の販売のオプトアウト（CCPA 固有）。
+* 個人情報の販売のオプトアウト（CCPA 固有）：
 
 Campaign の主なプライバシー機能と関与するペルソナの例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
 
@@ -156,15 +156,15 @@ GDPR（一般データ保護規則）などの規制では、企業は Cookie �
 
 ### メッセージトラッキング {#message-tracking}
 
-Adobe Campaign では、送信されたメールと配信受信者の動作（開く、リンクのクリック、購読解除など）を追跡できます。詳しくは、[ メッセージについて ](../start/gs-message.md) を参照してください。
+Adobe Campaign では、送信されたメールと配信受信者の動作（開封、リンクのクリック、購読解除など）をトラッキングできます。詳しくは、[メッセージについて](../start/gs-message.md)を参照してください。
 
-これをおこなうには、トラッキング用リンクをメッセージに追加して、配信ダッシュボードの「トラッキング」タブで配信と受信者の動作の影響を測定します。 トラッキングデータは、トラッキング指標レポートで解釈されます。 トラッキングについて詳しくは、[ このページ ](../start/tracking.md) を参照してください。
+これを行うには、配信ダッシュボードの「トラッキング」タブで配信と受信者の動作の影響を測定できるよう、トラッキング用リンクをメッセージに追加します。トラッキングデータは、トラッキングインジケーターレポートで解釈されます。トラッキングについて詳しくは、[このページ](../start/tracking.md)を参照してください。
 
 ### Web トラッキング {#web-tracking}
 
-Adobe Campaignでは、受信者による web サイトの閲覧方法を監視することもできます。トラッキングタグを挿入して情報を収集し、web アプリケーションページへの訪問を測定します。
+また、Adobe Campaign では、受信者が web サイトをどのように参照するかを監視できます。トラッキングタグを挿入して、情報を収集し、web アプリケーションページでの訪問回数を測定します。
 
-Web トラッキングの設定については、[ この節 ](../start/tracking.md) で説明します。
+Web トラッキングの設定については、[この節](../start/tracking.md)で説明しています。
 
 Adobe Campaign では、トラッキングをさらに管理するために、オプトアウトバナーを表示して、行動追跡をオプトアウトしたエンドユーザーの web 行動の追跡を停止できます。詳しくは、[web アプリケーショントラッキングのオプトアウト](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank}を参照してください。
 
@@ -201,7 +201,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-詳しくは、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"} を参照してください。
+詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}を参照してください。
 
 
 ## パーソナライゼーション
@@ -296,4 +296,4 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 * **Web アプリケーションへの captcha の追加**：パブリックのランディングページと購読ページに captcha を追加します
 
-詳しくは、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"} を参照してください。
+詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=ja#installing-campaign-classic){target="_blank"}を参照してください。

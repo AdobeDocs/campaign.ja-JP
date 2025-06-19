@@ -7,9 +7,9 @@ level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4360'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 インポートアシスタントでは、インポートを設定し、そのオプション（データ変換など）を定義して、実行を開始できます。これは、インポートのタイプ（簡易または複数）やオペレーターの権限によって内容の異なる一連の画面です。
 
-新しい読み込みジョブを作成すると、読み込みアシスタントが表示されます。
+インポートアシスタントは、新しいインポートジョブを作成すると表示されます。
 
 >[!NOTE]
 >
->IIS Web サーバーを使用する場合は、（28 MB を超える）大きいファイルのアップロードを許可するための設定が必要になることがあります
+>IIS web サーバーを使用する場合は、（28 MB を超える）大きいファイルのアップロードを許可するための設定が必要になることがあります。
 
 #### ソースファイル {#source-file}
 
@@ -310,7 +310,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
       >[!NOTE]
       >
-      >オペレーターのデフォルトのフォルダーは、オペレーターが書き込みアクセス権を持つ最初のフォルダーです。詳しくは、[ フォルダーとビューの管理 ](../audiences/folders-and-views.md) を参照してください。
+      >オペレーターのデフォルトのフォルダーは、オペレーターが書き込みアクセス権を持つ最初のフォルダーです。詳しくは、[フォルダーとビューの管理](../audiences/folders-and-views.md)を参照してください。
 
       インポートフォルダーを選択するには、「**[!UICONTROL フォルダー]**」フィールドの右側にある矢印をクリックし、関係するフォルダーを選択します。**[!UICONTROL リンクを選択]**&#x200B;アイコンを使用して新しいウィンドウでツリーを表示するか、新しいフォルダーを作成することもできます。
 
@@ -354,17 +354,17 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 ![](assets/s_ncs_user_import_wizard06_1.png)
 
-その後、インポートジョブの実行を監視できます（[ ワークフロー実行の監視 ](../../automation/workflow/monitor-workflow-execution.md) を参照）。
+その後、インポートジョブの実行を監視できます（[ワークフロー実行の監視](../../automation/workflow/monitor-workflow-execution.md)を参照）。
 
 ### データのエクスポート
 
 エクスポートジョブを使用すると、データベースにアクセスして連絡先、クライアント、リスト、セグメントなどのデータを抽出できます。
 
-例えば、スプレッドシートでキャンペーントラッキングデータ（トラッキング履歴など）を使用すると便利です。 出力データは、CSV、TAB、XML のいずれかの形式です。
+例えば、キャンペーントラッキングデータ（トラッキング履歴など）をスプレッドシート形式で使用すると便利な場合があります。出力データは、CSV、TAB、XML のいずれかの形式です。
 
 エクスポートアシスタントでは、エクスポートの設定、オプションの定義、実行の開始を行うことができます。これは、エクスポートのタイプ（簡易または複数）やオペレーターの権限によって内容の異なる一連の画面です。
 
-新しいエクスポートジョブを作成すると、エクスポートアシスタントが表示されます。
+エクスポートアシスタントは、新しいエクスポートジョブを作成すると表示されます。
 
 #### 手順 1 - エクスポートテンプレートの選択 {#step-1---choosing-the-export-template}
 
@@ -434,7 +434,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 #### 手順 6 - フィルター条件 {#step-6---filter-conditions-}
 
-フィルター条件を追加して、すべてのデータがエクスポートされないようにすることができます。このフィルタリングの設定は、配信アシスタントでの受信者のターゲティングと同じです。
+フィルター条件を追加して、すべてのデータがエクスポートされないようにすることができます。このフィルターの設定は、配信アシスタントにおける受信者のターゲティングと同じです。
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
@@ -452,7 +452,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
   ![](assets/s_ncs_user_export_wizard06.png)
 
-* 新しい計算フィールド（姓 + 名を含む列など）を作成する場合は、**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。詳しくは、データの読み込みの節を参照してください。
+* 新しい計算フィールド（姓 + 名を含む列など）を作成する場合は、**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。詳しくは、データのインポートの節を参照してください。
 
 要素のコレクション（受信者の購読、受信者が属するリストなど）をエクスポートする場合は、エクスポートするコレクション内の要素数を指定する必要があります。
 
@@ -468,7 +468,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 #### 手順 9 - エクスポートの開始 {#step-9---launching-the-export}
 
-「**[!UICONTROL 開始]**」をクリックしてデータエクスポートを開始します。
+「**[!UICONTROL 開始]**」をクリックしてデータのエクスポートを開始します。
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
@@ -481,7 +481,7 @@ Campaign を使用して web フォームを作成し、プロファイルの情
 
 ![](assets/web-form-page.png)
 
-Web フォームの作成方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"} を参照してください。
+Web フォームの作成方法について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
 
 **関連トピック**
 

@@ -7,9 +7,9 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 >配信ステータスは、リアルタイムには表示されません。メールフィードバックサービスについて詳しくは、[この節](#email-feedback-service)を参照してください。
 
 
-[ 配信の監視について詳しくは、Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
+[Campaign Classic v7 ドキュメントの配信の監視についての詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
 
 ## Campaign MTA {#mta}
 
@@ -47,7 +47,7 @@ Adobe Campaign で使用するMTA（メール転送エージェント）は、Sp
 
 Momentum は、インボックスの最適な配信率を達成し維持するための高度なバウンス処理と自動配信品質最適化機能を含む、革新的で高パフォーマンスな MTA テクノロジーを提供します。
 
-* MTA を使用すると、全体的なスループット速度が劇的に向上し、ソフトバウンスが大幅に減少します。
+*  MTA を使用すると、全体的なスループット速度が劇的に向上し、ソフトバウンスが大幅に減少します。
 * Enhanced MTA は最新の MTA テクノロジーを使用して、メール配信の最適なスループット速度を提供します。
 * 受け取ったフィードバックに即時に自動的に適応させることで、リアルタイムの配信データを使用した、より正確でインテリジェントなメール配信も実現します。
 
@@ -76,7 +76,7 @@ Domain Keys Identified Mail（DKIM）は、偽造された送信者アドレス�
 
 Adobe Campaign では、DKIM のメール認証の署名は MTA が実行します。
 
-DKIMについて詳しくは、[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"} を参照してください。
+DKIM について詳しくは、[アドビ配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"}を参照してください。
 
 ## メールフィードバックサービス {#email-feedback-service}
 

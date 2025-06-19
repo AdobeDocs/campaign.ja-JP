@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1238'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 97%
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. テストデータを挿入します。[ パーソナライゼーションデータについて詳しくは、Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-data.html){target="_blank"}
+1. テストデータを挿入します。[Campaign Classic v7 ドキュメントのパーソナライゼーションデータの詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-data){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -161,7 +161,7 @@ This information enables you to personalize message content using personalizatio
 
 #### [!DNL Campaign Classic] v7 からの移行 {#transition-from-v7}
 
-[Campaign Classic v7 から移行 ](../start/v7-to-v8.md) している場合、すべての配信はミッドソーシング（MID）サーバーを経由します。
+[Campaign Classic v7 から移行](../start/v7-to-v8.md)する場合は、すべての配信がミッドソーシング（MID）サーバーを経由します。
 
 ただし、トランザクションメッセージテンプレートを作成する場合、テンプレートを正常に使用するために必要なルーティングは、**内部メール配信**&#x200B;です。このルーティングにより、配達確認を送信できなくなります。
 

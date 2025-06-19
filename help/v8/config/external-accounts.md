@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1135'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
 
-インバウンドメールについて詳しくは、[ このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"} を参照してください。
+インバウンドメールについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/bounce_external_1.png)
 
@@ -87,7 +87,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 **[!UICONTROL ルーティング]**&#x200B;外部アカウントを使用すると、インストールしているパッケージに応じて、Adobe Campaign で利用可能な各チャネルを設定できます。
 
-外部アカウントの管理と配信の実行について詳しくは、[ この節 ](../architecture/architecture.md#split) を参照してください。
+外部アカウントの管理と配信の実行について詳しくは、[この節](../architecture/architecture.md#split)を参照してください。
 
 ### 実行インスタンス {#execution-instance}
 
@@ -126,13 +126,13 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
   >[!NOTE]
   >
-  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。[ 詳しくは、鍵の管理を参照してください ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja){target="_blank"}。
+  >リリース 8.5 以降、SFTP 外部アカウントを設定する際に、秘密鍵を使用して安全に認証できるようになりました。[鍵の管理の詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja){target="_blank"}
 
 * **Amazon Simple Storage Service（S3）** - **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータの読み込みまたは書き出しに使用できます。この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
    * **[!UICONTROL AWS S3 アカウントサーバー]**：サーバーの URL は、次のように入力する必要があります。   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
-   * **[!UICONTROL AWS アクセスキー ID]**:AWS アクセスキー ID を見つける方法については、[Amazon ドキュメント ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"} を参照してください。
+   * **[!UICONTROL AWS アクセスキー ID]**：AWS アクセスキー ID の見つけ方については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
 
    * **[!UICONTROL AWS への秘密アクセスキー]**：AWS への秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/){target="_blank"}を参照してください。
 

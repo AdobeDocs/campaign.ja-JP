@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->Adobe Campaign Web UI は、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供します。 1 回作成し、後で使用するために保存します。Web UI 用の定義済みフィルターについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/predefined-filters){target=_blank} を参照してください。
+>Adobe Campaign web UI では、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供します。1 回作成し、後で使用するために保存します。Web UI 用の定義済みフィルターについて詳しくは、[Adobe Campaign web UI ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/predefined-filters){target=_blank}を参照してください。
 
 
 定義済みフィルターを作成するには、次の手順に従います。

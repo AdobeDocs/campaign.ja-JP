@@ -6,9 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: 8e1401ef0aada30d941905936b45c6c1819c83a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1399'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Campaign を設定して、マーケティングキャンペーンの強力な�
 
 >[!NOTE]
 >
->Adobe Campaign Web UI には、ワークフローのキャンバスが再考されて付属しており、より動的でパーソナライズされたカスタマージャーニーを作成できます。 Web UI のワークフローについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/gs-workflows){target=_blank} を参照してください。
+>Adobe Campaign web UI には、ワークフロー用に再考されたキャンバスが付属し、より動的でパーソナライズされたカスタマージャーニーを作成できます。Web UI のワークフローについて詳しくは、[Adobe Campaign web UI ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/gs-workflows){target=_blank}を参照してください。
 
 
 ## ワークフローのデザインと使用 {#gs-ac-wf}
@@ -63,10 +63,10 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。
 
-**[!UICONTROL ワークテーブル]**&#x200B;を使用すると、Adobe Campaign ワークフローでデータを処理し、ワークフローアクティビティとデータを共有できます。
+**[!UICONTROL ワークテーブル]**を使用すると、Adobe Campaign ワークフローでデータを処理し、ワークフローアクティビティとデータを共有できます。
 デフォルトでは、**[!UICONTROL ワークテーブル]**&#x200B;は、クエリ対象のデータのソースと同じデータベースに作成されます。
 
-例えば、クラウドデータベースに格納された&#x200B;**[!UICONTROL プロファイル]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースに&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;を作成します。
+例えば、クラウドデータベースに格納された&#x200B;**[!UICONTROL プロファイル]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースに&#x200B;**[!UICONTROL 作業用テーブル]**を作成します。
 これを変更するには、「**[!UICONTROL データソースを変更]**」アクティビティを追加して、**[!UICONTROL 作業用テーブル]**&#x200B;に別のデータソースを選択します。
 
 なお、「**[!UICONTROL データソースを変更]**」アクティビティを使用する場合、ワークフローの実行を続行するには、クラウドデータベースに戻す必要があります。
@@ -120,7 +120,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 繰り返しワークフローをデザインし、ワークフローを実行するたびに新しい配信インスタンスを作成します。 たとえば、ワークフローが週に 1 回実行されるよう設計されている場合、1 年後には 52 件の配信が存在することになります。つまり、ログは各配信インスタンスで区切られます。
 
-繰り返しキャンペーンを作成する方法については、[ このページ ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=ja){target="_blank"} を参照してください。
+繰り返しキャンペーンを作成する方法について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## トリガーイベントの活用
@@ -151,25 +151,25 @@ Campaign を他のソリューションと統合する方法については、[�
 リモートサーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。
 
 * [クロスチャネル配信ワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html?lang=ja){target="_blank"}
-クロスチャネル配信ワークフローの作成方法を説明します。目的は、データベースの受信者から、オーディエンスを別のグループへとセグメント化し、最初のグループはメール、もう 1 つのグループに SMS を送信することです。
+クロスチャネル配信ワークフローの作成方法を説明します。目的は、オーディエンスを、データベースの受信者から別のグループへとセグメント化し、最初のグループはメール、もう 1 つのグループに SMS を送信することです。
 
-* [ カスタム日付フィールドを使用したメールのエンリッチメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html?lang=ja){target="_blank"}
-今月が誕生日のプロファイルに、カスタムデータフィールドを含むメールを送信する方法を説明します。 メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
+* [カスタム日付フィールドを使用したメールエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html?lang=ja){target="_blank"}
+今月が誕生日のプロファイルに、カスタムデータフィールドを含むメールを送信する方法を説明します。メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
 
 さらに、Campaign v7 ドキュメントの以下のページ：
 
-* [ コンテンツの作成、編集、公開の自動化 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html?lang=ja){target="_blank"}
+* [コンテンツの作成、編集、公開の自動化](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html?lang=ja){target="_blank"}
 Campaign コンテンツ管理アドオンを使用して、コンテンツブロックの作成と配信を自動化する方法を説明します。
 
-* [A/B テスト ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html?lang=ja){target="_blank"}
-ターゲティングワークフローを使用して、2 つのメール配信コンテンツを比較する方法を説明します。 メッセージとテキストは両方の配信で同じものを使用し、レイアウトだけを変更します。ターゲットの母集団は、2 つのテストグループと、その他の母集団の 3 つに分割します。各テストグループに別々のバージョンを配信します。
+* [A/B テスト](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html?lang=ja){target="_blank"}
+ターゲティングワークフローを使用して、2 つのメール配信コンテンツを比較する方法を説明します。メッセージとテキストは両方の配信で同じものを使用し、レイアウトだけを変更します。ターゲットの母集団は、2 つのテストグループと、その他の母集団の 3 つに分割します。各テストグループに別々のバージョンを配信します。
 
 ### 監視 {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
-* [ リストへのレポートの送信 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html?lang=ja){target="_blank"}
-月次のビルトイントラッキング指標レポートをPDF フォーマットで生成し、Campaign オペレーターのリストに送信する方法を説明します。
+* [リストへのレポートの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html?lang=ja){target="_blank"}
+月次のビルトイントラッキング指標レポートを PDF 形式で生成し、Campaign オペレーターのリストに送信する方法を説明します。
 
 * [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ja){target="_blank"}
 一連の（「一時停止」、「停止」、「エラーあり」）を監視できる、ワークフローの作成方法を説明します。
@@ -185,10 +185,10 @@ Campaign コンテンツ管理アドオンを使用して、コンテンツブ�
 別の更新操作を実行する前に、更新プロセスが終了していることを確認する方法について説明します。そのためには、インスタンス変数を設定し、ワークフローの実行を継続して更新を行うべきかを判断するため、インスタンスが実行中かどうかをワークフローでテストします。
 
 * [概要リストの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html?lang=ja){target="_blank"}
-ファイルを収集していくつかのエンリッチメントを加えてから概要リストを作成できるワークフローの作成方法を説明します。 この例では、店舗で購入した顧客の連絡先のリストをベースにします。
+ファイルを収集していくつかのエンリッチメントを加えてから概要リストを作成できるワークフローの作成方法を説明します。 この例では、店舗で購入した顧客の連絡先リストをベースにします。
 
-* [ データのエンリッチメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ja){target="_blank"}
-最新の競争に参加したプロファイルに、スコアに応じてパーソナライズされた配信を送信する方法を説明します。
+* [データのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ja){target="_blank"}
+最近競争に参加したプロファイルに、スコアに応じてパーソナライズされた配信を送信する方法を説明します。
 
 * [集計の使用](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja){target="_blank"}
 データベースに最後に追加された受信者を特定する方法を説明します。
@@ -231,7 +231,7 @@ In this use case, learn how to use the **[!UICONTROL Change data source]** activ
 
 1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
 
-    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=ja#creating-a-query) page in Campaign Classic V7 documentation.
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
 
 1. 
 

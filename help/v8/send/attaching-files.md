@@ -7,9 +7,9 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 27d13642-2971-466b-818d-39328c198b14
 source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、1 つのメールに複数の添付ファイルを含めないことをお勧めします。推奨しきい値は、キャンペーンオプションのリストから設定できます。 [Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery) を参照してください。
+>パフォーマンスの問題を回避するために、1 つのメールに複数の添付ファイルを含めないことをお勧めします。推奨しきい値は、Campaign オプションのリストから設定できます。[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery)を参照してください。
 
 次の 2 つの場合が考えられます。
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja) を参照してください。
+>多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。詳しくは、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja)を参照してください。
 
 ## ガードレール {#attachments-guardrails}
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 
 また、アドビでは、添付ファイルのサイズと数を制限することもお勧めします。デフォルトでは、メールに添付ファイルとして追加できるファイルは 1 つだけです。このしきい値は、`NmsDelivery_MaxRecommendedAttachments` オプションから設定できます。
 
-Campaign オプションのリストについて詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery) を参照してください。
+Campaign オプションのリストについて詳しくは、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery)を参照してください。
 
 ## ローカルファイルの添付 {#attaching-a-local-file}
 

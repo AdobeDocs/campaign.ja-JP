@@ -6,9 +6,9 @@ role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 * VPN トンネルを確認し、問題が発生した場合にアラートを送信します。
 
-## 顧客管理キーの安全な統合 {#secure-cmk-integration}
+## セキュア顧客管理キー統合 {#secure-cmk-integration}
 
 **セキュア顧客管理キー（CMK）統合**&#x200B;を使用すると、Amazon Web Services（AWS）アカウントから独自のキーを使用して保存データを暗号化できます。
 
@@ -45,13 +45,13 @@ ht-degree: 91%
 
 CMK と Campaign の統合を有効にするには、次の手順に従います。
 
-1. [Amazon Web Services（AWS） ](https://aws.amazon.com/jp/){target="_blank"} アカウントに接続します。
+1. [Amazon Web Services（AWS）](https://aws.amazon.com/jp/){target="_blank"}アカウントに接続します。
 
-1. AWS Key Management Service（KMS）を使用して、自動ローテーションでキーを生成します。[ 詳細を表示する ](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/create-keys.html){target="_blank"}。
+1. AWS Key Management Service（KMS）を使用して、自動ローテーションでキーを生成します。[詳細情報](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/create-keys.html){target="_blank"}。
 
-1. リソースへのアクセスを許可するには、アドビから提供されたポリシーを AWS アカウントに適用します。[ 詳細情報 ](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/key-policy-services.html){target="_blank"}. <!--link TBC-->
+1. リソースにアクセス権を付与するには、アドビから提供されたポリシーを AWS アカウントに適用します。[詳細情報](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
 
-1. [Amazon リソース名（キー ARN） ](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} を [!DNL Adobe Campaign] と共有します。 これを行うには、アドビ担当者に連絡してください。<!--or Adobe transition manager?-->
+1. [Amazon リソース名（キー ARN）](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}を [!DNL Adobe Campaign] と共有します。これを行うには、アドビ担当者に連絡してください。<!--or Adobe transition manager?-->
 
 1. Amazon EventBridge ルールを作成およびテストして、アドビによるキーのモニタリングを有効にします。[詳細情報](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
 
@@ -60,15 +60,15 @@ CMK と Campaign の統合を有効にするには、次の手順に従います
 
 Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が適用されます。
 
-* Adobeは [Amazon Web Services（AWS） ](https://aws.amazon.com/jp/){target="_blank"} アカウントを提供していません。 独自の AWS アカウントを持ち、キーを生成してアドビと共有するように設定する必要があります。
+* アドビでは、[Amazon Web Services（AWS）](https://aws.amazon.com/jp/){target="_blank"}アカウントを提供しません。ユーザーは自身の AWS アカウントを持ち、キーを生成してアドビと共有するように設定する必要があります。
 
-* [AWS Key Management Service](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/overview.html){target="_blank"} （KMS） キーのみがサポートされています。 KMS 以外でお客様が生成したキーは使用できません。
+* [AWS Key Management Service](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/overview.html){target="_blank"}（KMS）キーのみがサポートされています。KMS 以外でお客様が生成したキーは使用できません。
 
 * 初回設定中にダウンタイムが発生することが予想されます。ダウンタイムの時間は、データベースのサイズによって異なります。
 
 * 顧客がキーを所有および管理します。キーに変更が生じた場合にはアドビに連絡する必要があります。
 
-* [AWS CloudTrail](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} を使用してキーを監査し、必要に応じて取り消すことができます&#x200B;
+* [AWS CloudTrail](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} を使用してキーを監査し、必要に応じて失効させることができます。
 
 * キーを失効、無効または削除すると、対応するアクションを元に戻すまで、暗号化されたリソースとインスタンスにアクセスできなくなります。
 
@@ -123,7 +123,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 * Teradata
 * HiveSQL による Hadoop
 
-AWS 準拠の VPN デバイスのみがサポートされています。互換性のあるデバイスのリストは、[ このページ ](https://docs.aws.amazon.com/ja_jp/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"} で確認できます。
+AWS 準拠の VPN デバイスのみがサポートされています。互換性のあるデバイスのリストについて詳しくは、[このページ](https://docs.aws.amazon.com/ja_jp/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}を参照してください。
 
 >[!NOTE]
 >

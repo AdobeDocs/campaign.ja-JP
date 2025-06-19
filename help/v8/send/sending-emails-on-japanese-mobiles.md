@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Campaignと日本の携帯電話にメールを送る
+title: Adobe Campaign と日本の携帯電話にメールを送る
 description: 日本の携帯電話で読むメールを設定、デザイン、送信する方法を学ぶ
 feature: Email, Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 02cca21f-b1ac-4ac2-9761-015f6c7f5567
 source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign は、日本の携帯電話向けに特化したメールフォ�
 
 ただし、「**[!UICONTROL メールフォーマット]**」オプションを「**[!UICONTROL 不明]**」、「**[!UICONTROL HTML]**」または「**[!UICONTROL テキスト]**」のままにした場合は、メール送信時に、メッセージが正しく表示されるように日本独自のフォーマットが自動検出されます。
 
-この自動検出システムは、**[!UICONTROL メールフォーマットの管理]**&#x200B;メールルールセットに定義されているドメインのリストに基づいています。メール形式の管理について詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=ja#managing-email-formats) を参照してください。
+この自動検出システムは、**[!UICONTROL メールフォーマットの管理]**&#x200B;メールルールセットに定義されているドメインのリストに基づいています。メール形式の管理について詳しくは、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=ja#managing-email-formats)を参照してください。
 
 ## 制限事項とレコメンデーション {#limitations-and-recommendations}
 

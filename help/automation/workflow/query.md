@@ -7,9 +7,9 @@ role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1667'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Adobe Campaign Web UI は、データベースをフィルタリングして、様々な条件に基づいて特定のターゲットを選択するプロセスを簡素化する強力なクエリモデラーを備えています。これにより、クエリをより簡単に作成および管理できます。 Web UI のクエリモデラーについて詳しくは、[Adobe Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank} を参照してください。
+>Adobe Campaign web UI には、データベースをフィルタリングし、様々な基準に基づいて特定のターゲットを選択するプロセスを簡素化する、強力なクエリモデラーが備わっています。これにより、クエリをより簡単に作成および管理できます。Web UI のクエリモデラーについて詳しくは、[Adobe Campaign web UI ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}を参照してください。
 
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}

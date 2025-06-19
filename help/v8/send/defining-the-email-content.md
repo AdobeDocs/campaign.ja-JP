@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Adobe Campaignでのメールコンテンツの定義
+title: Adobe Campaign におけるメールコンテンツの定義
 description: Adobe Campaign を使用する際にメールコンテンツを定義する方法について説明します。
 feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
 source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2031'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 94%
 
 このウィンドウでは、メールのメッセージヘッダーを作成するために必要なすべての情報を入力できます。この情報はパーソナライズ可能です。パーソナライズするには、入力フィールドの右にあるボタンを使用してパーソナライゼーションフィールドを挿入します。
 
-パーソナライゼーションフィールドの挿入および使用方法については、[ この節 ](personalize.md) を参照してください。
+パーソナライゼーションフィールドの挿入方法および使用方法について詳しくは、[この節](personalize.md)を参照してください。
 
 >[!NOTE]
 >
 >* 送信者のアドレスは、デフォルトで返信先として使用されます。
->* ヘッダーパラメーターの値は省略できません。デフォルトでは、ヘッダーパラメーターにはデプロイウィザードの設定時に入力された値が格納されています。
+>* ヘッダーパラメーターの値は省略できません。デフォルトでは、ヘッダーパラメーターにはデプロイウィザードの設定時に入力された値が含まれています。
 >* 送信者のアドレスは、メールを送信するための必須情報です（RFC 標準規格）。
 >* 入力したメールアドレスの形式はチェックされます。
 
@@ -52,7 +52,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->パーソナライゼーションフィールドの使用については、[ この節 ](personalize.md) を参照してください。
+>パーソナライゼーションフィールドの使用方法について詳しくは、[この節](personalize.md)を参照してください。
 
 **[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウを使用して、件名行に顔文字を挿入することもできます。
 
@@ -68,7 +68,7 @@ ht-degree: 94%
 
 * HTML コンテンツをインポートするには、「**[!UICONTROL 開く]**」ボタンを使用します。「**[!UICONTROL ソース]**」サブタブに直接ソースコードを貼り付けることもできます。
 
-  デジタルコンテンツエディター（DCE）を使用している場合は、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=ja#step-3---selecting-a-content) を参照してください。
+  デジタルコンテンツエディター（DCE）を使用している場合は、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=ja#step-3---selecting-a-content)を参照してください。
 
   >[!IMPORTANT]
   >
@@ -90,7 +90,7 @@ ht-degree: 94%
 
   >[!NOTE]
   >
-  >パーソナライゼーションフィールドの使用については、[ この節 ](personalize.md) を参照してください。
+  >パーソナライゼーションフィールドの使用方法について詳しくは、[この節](personalize.md)を参照してください。
 
   ページの下部にあるタブでは、作成されるページの HTML コードや、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。これらを表示するには、「**[!UICONTROL プレビュー]**」をクリックし、ツールバーの&#x200B;**[!UICONTROL パーソナライゼーションをテスト]**&#x200B;ボタンを使用して受信者を選択します。定義済みターゲットの中から受信者を選択することも、別の受信者を指定することもできます。
 
@@ -127,7 +127,7 @@ Adobe Campaign では、特定の条件下での動的なメールの送信を�
 
 >[!NOTE]
 >
->Adobe Campaignのコンテンツ管理について詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=ja) を参照してください。
+>Adobe Campaign のコンテンツ管理について詳しくは、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=ja)を参照してください。
 
 ## 顔文字の挿入 {#inserting-emoticons}
 
@@ -140,7 +140,7 @@ Adobe Campaign では、特定の条件下での動的なメールの送信を�
 
 1. 挿入が完了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
 
-顔文字のリストをカスタマイズするには、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=ja) を参照してください。
+顔文字のリストをカスタマイズするには、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=ja)を参照してください。
 
 ## 画像を追加 {#adding-images}
 
@@ -151,7 +151,7 @@ HTML 形式のメール配信には、画像を含めることができます。
 
 パフォーマンスの問題を回避するために、メールに含める画像のサイズは 100 KB 以下にする必要があります。この制限は、デフォルトで設定されており、`NmsDelivery_MaxDownloadedImageSize` オプションから変更できます。ただし、アドビでは、メール配信で大きな画像を使用しないことを強くお勧めします。
 
-Campaign オプションのリストについて詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery) を参照してください。
+Campaign オプションのリストについて詳しくは、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery)を参照してください。
 
 ### 画像のタイプ {#img-types}
 
@@ -162,7 +162,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
   パブリックリソースには、Adobe Campaign 階層構造の&#x200B;**[!UICONTROL リソース／オンライン]**&#x200B;ノードからアクセスできます。パブリックリソースは、ライブラリ内でグループ化したり、メールメッセージに含めることができるだけでなく、キャンペーン用、タスク用、コンテンツ管理用に使用することもできます。
 
-* Adobe Experience Cloud と共有されているアセット。[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja) を参照してください。
+* Adobe Experience Cloud と共有されているアセット。[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja)を参照してください。
 
 ### 画像の挿入と管理 {#manage-images}
 

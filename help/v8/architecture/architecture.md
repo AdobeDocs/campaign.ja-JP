@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
 source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 ある環境から別の環境へパッケージを書き出したり読み込んだりできます。
 
-パッケージの詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja){target="_blank"} を参照してください
+パッケージについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=ja){target="_blank"}を参照してください
 
 ## デプロイメントモデル {#ac-deployment}
 
@@ -61,7 +61,7 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 
 Campaign v8 パッケージに応じて、配信の実行を担当する特定の数のミッドソーシングインスタンスがプロビジョニングされます。
 
-デフォルトでは、すべてのチャネルの外部アカウントが **[!UICONTROL 代替]** ルーティングモードを使用するため、各ミッドソーシング（MID）インスタンスから 1 回に 1 つの配信が交互に送信されます。
+デフォルトでは、すべてのチャネルの外部アカウントが&#x200B;**[!UICONTROL 代替]**&#x200B;ルーティングモードを使用するため、各ミッドソーシング（MID）インスタンスから 1 回に 1 つの配信が交互に送信されます。
 
 速度と規模の両方でパフォーマンスを向上させるには、配信をミッドソーシングインスタンス間で自動的に分割すると、受信者により速く配信できます。 マーケティングインスタンスから配信を実行する場合、この操作は透過的です。配信が送信されると、すべてのログが統合されてから、1 つの配信オブジェクトとしてマーケティングインスタンスに送り返されます。
 
@@ -78,7 +78,7 @@ Campaign v8 パッケージに応じて、配信の実行を担当する特定�
 >
 >「分割配信 - メール」アカウントの場合、分割ルーティングモードはデフォルトで有効になっています。 その他すべてのチャネルの外部アカウントについては、アドビトランジションマネージャーに問い合わせて、オプションを有効にしてもらってください。
 >
->デフォルトでは、複数のミッドソーシング（MID）インスタンス間で配信を分割する際のしきい値のサイズは 100,000 個です。 この値は、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;メニューの「NmsDelivery_MultiMidSplitThreshold」オプションで変更することができます。
+>デフォルトでは、配信を複数のミッドソーシング（MID）インスタンスに分割する際のしきい値のサイズは 100 K です。この値は、**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;メニューの「NmsDelivery_MultiMidSplitThreshold」オプションで変更することができます。
 
 配信を送信するデフォルトのアカウントとして、分割した外部アカウントを作成するには、配信テンプレートでルーティングプロバイダーを変更する必要があります。 これを行うには、次の手順に従います。
 

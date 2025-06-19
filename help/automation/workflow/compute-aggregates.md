@@ -7,7 +7,7 @@ role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
 ht-degree: 100%
 

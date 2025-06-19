@@ -7,9 +7,9 @@ role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 | **ブロックした LINE ユーザーを削除**（deleteBlockedLineUsersV2） | LINE チャネル | このワークフローは、LINE 公式アカウントにブロックされてから 180 日が経過した後に LINE V2 ユーザーのデータを削除するようにします。 |
 | **プライバシーリクエストデータを削除**（deletePrivacyRequestsData） | プライバシーデータ保護規則 | このワークフローでは、Adobe Campaign に保存されている受信者のデータを削除します。 |
 | **配信達成度**（deliveryIndicators） | デフォルトでインストール | 配達の配信トラッキング指標を更新します。デフォルトでは、1 時間おきにトリガーされます。 |
-| **直ちに FFDA をデプロイ** （ffdaDeploy） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | Cloud データベースへの即時デプロイメントを実行します。 [ 詳しくは、データレプリケーションを参照してください ](../../v8/architecture/replication.md) |
+| **直ちに FFDA をデプロイ**（ffdaDeploy） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | クラウドデータベースへの即時デプロイメントを実行します。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
 | **分散型マーケティングプロセス**（centralLocalMgt） | セントラル／ローカルマーケティング（分散型マーケティング） | 分散型マーケティングモジュールの使用に関連するプロセスを開始します。ローカルキャンペーンの作成を開始し、オーダーとキャンペーンパッケージの可用性に関連付けられた通知を管理します。 |
 | **イベントパージ**（webAnalyticsPurgeWebEvents） | Web 分析コネクタ | 存続期間フィールドで設定した期間に基づいてデータベースフィールドからすべてのイベントを削除できます。 |
 | **Adobe Experience Cloud へのオーディエンスのエクスポート**（exportSharedAudience） | Adobe Experience Cloud との統合 | このワークフローは、共有されたオーディエンスおよびセグメントとしてオーディエンスをエクスポートします。これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。 |
@@ -76,13 +76,13 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 | **リアルタイムイベントの処理**（rtEventsProcessing） | トランザクションメッセージ実行（Message Center - 実行） | メッセージテンプレートに関連付ける前に、リアルタイムイベントをキューに入れます。 |
 | **提案の同期**（propositionSynch） | 実行インスタンスによるオファーエンジンのコントロール | このワークフローは、インタラクションで使用するマーケティングインスタンスと実行インスタンスの間で提案を同期します。 |
 | **Web イベントの復元**（webAnalyticsGetWebEvents） | Web 分析コネクタ | 指定したサイトでのインターネットユーザーの行動に関するセグメントを 1 時間に 1 回ダウンロードし、Adobe Campaign データベースに格納してリマーケティングワークフローを開始します。 |
-| **直ちに FFDA データをレプリケート** （ffdaReplicate） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | 指定された外部アカウントに対して、XS データをレプリケートします。 [ 詳しくは、データレプリケーションを参照してください ](../../v8/architecture/replication.md) |
-| **nmsDelivery キューをレプリケート** （ffdaReplicateQueueDelivery） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:delivery` テーブルのキュー。 [ 詳しくは、データレプリケーションを参照してください ](../../v8/architecture/replication.md) |
-| **nmsDlvExclusion キューのレプリケート** （ffdaReplicateQueueDlvExclusion） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:dlvExclusion` テーブルのキュー。 [ 詳しくは、データレプリケーションを参照してください ](../../v8/architecture/replication.md) |
-| **nmsDlvMidRemoteIdRel キューをレプリケート** （ffdaReplicateQueueDlvMidRemoteIdRel） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:dlvRemoteIdRel` テーブルのキュー。 [ 詳しくは、データレプリケーションを参照してください ](../../v8/architecture/replication.md) |
-| **nmsTrackingUrl キューを複製** （ffdaReplicateQueueTrackingUrl） <br/>**nmsTrackingUrl キューを同時実行で複製** （ffdaReplicateQueueTrackingUrl_2） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:trackingUrl` テーブル用に同時実行でキューを作成し、2 つのワークフローを利用して、異なる優先度に基づいてリクエストを処理することで効率を向上させます。 [ 詳しくは、データレプリケーションを参照してください ](../../v8/architecture/replication.md) |
-| **参照テーブルをレプリケート** （ffdaReplicateReferenceTables） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | Campaign のローカルデータベース（PostgreSQL）とクラウドデータベース（[!DNL Snowflake]）に不可欠なビルトインテーブルの自動レプリケーションを実行します。 毎日 1 時間ごとに実行するようにスケジュールされます。**lastModified** フィールドが存在する場合、レプリケーションは増分的に行われます。存在しない場合はテーブル全体がレプリケートされます。[ 詳しくは、データレプリケーションを参照してください ](../../v8/architecture/replication.md) |
-| **ステージングデータをレプリケート** （ffdaReplicateStagingData） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | 単一の呼び出し用にステージングデータを複製します。 毎日 1 時間ごとに実行するようにスケジュールされます。[ 詳しくは、データレプリケーションを参照してください ](../../v8/architecture/replication.md) |
+| **直ちに FFDA データをレプリケート**（ffdaReplicate） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | 指定の外部アカウントの XS データをレプリケートします。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
+| **nmsDelivery キューをレプリケート**（ffdaReplicateQueueDelivery） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:delivery` テーブルのキュー。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
+| **nmsDlvExclusion キューをレプリケート**（ffdaReplicateQueueDlvExclusion） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:dlvExclusion` テーブルのキュー。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
+| **nmsDlvMidRemoteIdRel キューをレプリケート**（ffdaReplicateQueueDlvMidRemoteIdRel） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:dlvRemoteIdRel` テーブルのキュー。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
+| **nmsTrackingUrl キューをレプリケート**（ffdaReplicateQueueTrackingUrl）<br/>**nmsTrackingUrl キューを並行してレプリケート**（ffdaReplicateQueueTrackingUrl_2） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:trackingUrl` テーブルに対して並行してキューを作成し、2 つのワークフローを利用して、異なる優先度に基づいてリクエストを処理することで効率を向上させます。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
+| **参照テーブルをレプリケート**（ffdaReplicateReferenceTables） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | Campaign のローカルデータベース（PostgreSQL）とクラウドデータベース（[!DNL Snowflake]）に不可欠な組み込みテーブルの自動レプリケーションを実行します。毎日 1 時間ごとに実行するようにスケジュールされます。**lastModified** フィールドが存在する場合、レプリケーションは増分的に行われます。存在しない場合はテーブル全体がレプリケートされます。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
+| **ステージングデータをレプリケート**（ffdaReplicateStagingData） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | 単一の呼び出し用にステージングデータをレプリケートします。毎日 1 時間ごとに実行するようにスケジュールされます。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
 | **レポート集計**（reportingAggregates） | 配信 | レポートで使用される集計を更新します。デフォルトで、毎日午前 2 時にトリガーされます。 |
 | **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | このワークフローを使用すると、Adobe® Analytics コネクタ経由で、Adobe Campaign から Adobe Experience Cloud スイートにメールキャンペーンの指標を送信できます。該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
 | **在庫 : オーダーおよびアラート**（stockMgt） | デフォルトでインストール | このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。 |

@@ -7,9 +7,9 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 ## 「BCC でメールを送信」について {#gs-bcc}
 
-プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。このオプションを使用すると、専用の BCC （ブラインドカーボンコピー）メールアドレスをメッセージに送信でき、外部システムを使用してメッセージを処理およびアーカイブできます。
+プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。このオプションにより、メッセージを専用の BCC（ブラインドカーボンコピー）メールアドレスに送信し、外部システムを使用して処理およびアーカイブできます。
 
 >[!CAUTION]
 >
@@ -43,7 +43,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 1. Campaign エクスプローラーから、配信テンプレートフォルダーを参照します。デフォルトでは、配信テンプレートは&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;フォルダーに保存されます。
 1. 配信テンプレートを編集して BCC で更新します。
 1. 「**[!UICONTROL プロパティ]**」ボタンをクリックします。
-1. 「**[!UICONTROL 配信]**」タブで、「**[!UICONTROL Momentum 強化機能を使用して BCC でメールを送信]**」オプションをオンにします。
+1. 「**[!UICONTROL 配信]**」タブで、「**[!UICONTROL 強化された Momentum を使用したメール BCC]**」オプションをオンにします。
 
    ![](assets/email-bcc.png)
 
