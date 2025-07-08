@@ -45,4 +45,4 @@ Adobe Campaignでは、以下に示すすべての配信品質ツールにアク
 * [ 配信ダッシュボード ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ja#sending-messages){target="_blank"} からアクセスできる各配信スループットをチェックして、配信コンテンツの有効性（「フラッシュの販売」は数日ではなく数分で配信する、など）と一致していることを確認します。 は、メッセージの送信中に配信と潜在的な問題を監視するための重要なツールです。
 * [ウェーブ](configure-and-send.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい[強制隔離](quarantines.md)が他の配信と整合性が取れていることをチェックします。
-* [配信ログ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#delivery-logs-and-history){target="_blank"}の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
+* [配信ログ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ja#delivery-logs-and-history){target="_blank"}の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。
