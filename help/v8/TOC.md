@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+workflow-type: tm+mt
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 100%
 + メッセージの送信{#send}
    + [メッセージの基本を学ぶ](start/gs-message.md)
    + [最初の配信の作成](start/create-message.md)
+   + [配信テンプレートの操作](send/create-templates.md)
    + [配信のベストプラクティス](start/delivery-best-practices.md)
    + メール {#emails}
       + [メールのデザインと検証](send/email.md)
@@ -99,7 +100,12 @@ ht-degree: 100%
    + 失敗、バウンス、強制隔離{#failures}
       + [強制隔離](send/quarantines.md)
       + [配信の失敗](send/delivery-failures.md)
-   + [配信テンプレートを操作](send/create-templates.md)
+   + 配信品質の管理 {#deliverability-management}
+      + [配信品質とは](send/about-deliverability.md)
+      + [メッセージコンテンツの制御](send/control-message-content.md)
+      + [配信品質の監視](send/monitoring-deliverability.md)
+      + [受信ボックスレンダリング](send/inbox-rendering.md)
+      + [SpamAssassin](send/spamassassin.md)
    + トランザクションメッセージ {#real-time}
       + [トランザクションメッセージの基本を学ぶ](send/transactional.md)
       + [テンプレートの作成と公開](send/transactional-template.md)
