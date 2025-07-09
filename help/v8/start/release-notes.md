@@ -26,7 +26,7 @@ _2025年7月9日（PT）_
 
   >[!NOTE]
   >
-  >この機能は **Campaign FFDA デプロイメント** では使用できません [](../architecture/enterprise-deployment.md)。
+  >この機能は **Campaign FFDA デプロイメント** では使用できません [&#128279;](../architecture/enterprise-deployment.md)。
 
 <!-- (from ACC rn, aleady in the product, to remove?) -->
 
@@ -83,7 +83,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
   >[!NOTE]
   >
-  >この機能は **Campaign FFDA デプロイメント** では使用できません [](../architecture/enterprise-deployment.md)。
+  >この機能は **Campaign FFDA デプロイメント** では使用できません [&#128279;](../architecture/enterprise-deployment.md)。
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
