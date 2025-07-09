@@ -262,8 +262,8 @@ URL でGET リクエストを実行します。 プロファイルリソース�
 
 詳しくは、Campaign Standard ドキュメントを参照してください。
 
-* [ フィルター定義の設定 ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [ ユースケース：複合 ID キーを使用したリソースの呼び出し ](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
+* [ フィルター定義の設定 ](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [ ユースケース：複合 ID キーを使用したリソースの呼び出し ](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ja)。
 
 <br/>
 
