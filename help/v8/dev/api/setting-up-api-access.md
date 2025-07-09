@@ -23,7 +23,7 @@ Adobe Campaign Standardの API アクセスは、以下の手順でセットア�
 >[Adobe Developer](https://developer.adobe.com/) で証明書を管理するには、組織の **システム管理者** 権限またはAdmin Consoleの [ 開発者アカウント ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html) があることを確認してください。
 
 1. **電子証明書があることを確認するか**、必要に応じて作成します。 証明書に記載されている公開鍵と秘密鍵は、以降の手順で必要になります。
-1. **2}Adobe Developer} で** Adobe Campaign サービスへの新しい統合を作成 [ し、設定します。 ](https://developer.adobe.com/)次に、資格情報を生成します（API キー、クライアントシークレットなど）。
+1. **2&rbrace;Adobe Developer&rbrace; で** Adobe Campaign サービスへの新しい統合を作成 [ し、設定します。 ](https://developer.adobe.com/)次に、資格情報を生成します（API キー、クライアントシークレットなど）。
 1. 次の **実装手順** に従って、[OAuth サーバー間 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) 資格情報を作成します。
 
    >[!IMPORTANT]
