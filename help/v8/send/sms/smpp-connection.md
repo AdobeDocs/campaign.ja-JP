@@ -4,11 +4,10 @@ description: SMPP 接続の検証方法について説明します
 feature: SMS
 role: User
 level: Intermediate
-badge: label="限定提供（LA）" type="Informative"
 exl-id: eda6934a-e48a-4932-8c88-588f661005d6
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '4445'
+source-wordcount: '4443'
 ht-degree: 100%
 
 ---

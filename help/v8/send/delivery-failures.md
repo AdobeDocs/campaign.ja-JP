@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
+source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+workflow-type: tm+mt
 source-wordcount: '3028'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -111,7 +111,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
 
 メッセージが MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## メールのエラータイプ {#email-error-types}
@@ -238,7 +238,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
    <td> 未到達 </td> 
    <td> ソフト／ハード </td> 
    <td> 3 </td> 
-   <td> メッセージ配信チェーンでエラーが発生しました。SMTP リレーに関するインシデント、一時的に未到達なドメインなどが考えられます。アドレスは、エラーに応じて、エラーカウンターが 5 に達するまで再試行されるか、直接強制隔離されます。<br /> </td> 
+   <td> メッセージ配信チェーンでエラーが発生しました。SMTP リレーに関するインシデント、一時的に未到達なドメインなどが考えられます。エラーによると、エラーカウンターが 5 に達するまでアドレスは再試行されるか、直接強制隔離に送信されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不明なユーザー </td> 

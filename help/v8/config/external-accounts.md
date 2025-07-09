@@ -5,10 +5,10 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
-workflow-type: ht
-source-wordcount: '1135'
-ht-degree: 100%
+source-git-commit: d43fb6dc75113e7e89315b731ed8b4a77951125c
+workflow-type: tm+mt
+source-wordcount: '1211'
+ht-degree: 93%
 
 ---
 
@@ -147,3 +147,11 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
    * **[!UICONTROL 暗号化]**：暗号化のタイプ。**[!UICONTROL なし]** または **[!UICONTROL SSL]**。
 
    * **[!UICONTROL アクセスキー]**：ご利用の&#x200B;**[!UICONTROL アクセスキー]**&#x200B;を確認する方法については、[Microsoft ドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}を参照してください。
+
+* **Microsoft ファブリック** - **Microsoft ファブリック** 外部アカウントを使用すると、Microsoft ファブリックとAdobe Campaignの間で **[!UICONTROL ファイル転送]** ワークフローアクティビティを使用してデータをインポートおよびエクスポートできます。 この統合を設定するには、次の詳細を指定します。
+
+   * **[!UICONTROL Server]**:Microsoft Fabric ストレージサーバーの URL。
+
+   * **[!UICONTROL アプリケーション ID]**:Microsoft Fabric リソースの認証およびアクセスに使用されるアプリケーションの一意の ID。
+
+   * **[!UICONTROL クライアントシークレット]**:Microsoft Fabric に安全に接続するために必要な、アプリケーションに関連付けられた認証キーまたはパスワード。

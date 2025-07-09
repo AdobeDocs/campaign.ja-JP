@@ -4,12 +4,11 @@ description: ミッドソーシングインフラストラクチャでの SMS �
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="限定提供（LA）" type="Informative"
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 96%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->このドキュメントは、Adobe Campaign v8.7.2 以降を対象としています。
+>このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
 >
->以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up)を参照してください。
+>以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 
 ミッドソーシングインフラストラクチャでの SMS 配信の送信には、以下が必要です。
 

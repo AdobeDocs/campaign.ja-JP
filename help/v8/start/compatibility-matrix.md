@@ -5,8 +5,8 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
-workflow-type: ht
+source-git-commit: 329130d716054e5054fc0a5989a77d950c546ec0
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
@@ -58,6 +58,7 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
+* **[!DNL Fabrics]**
 
 
 >[!AVAILABILITY]

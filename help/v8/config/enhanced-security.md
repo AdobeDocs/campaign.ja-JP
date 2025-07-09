@@ -5,10 +5,10 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
-workflow-type: ht
-source-wordcount: '737'
-ht-degree: 100%
+source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 
 >[!CAUTION]
 >
->オンプレミスデータベースと AWS 準拠の VPN デバイスのみがサポートされています。[詳細情報](#vpn-databases)
+>オンプレミスおよびクラウドデータベースがサポートされています。 [詳細情報](#vpn-databases)
 
 この機能を適切に使用するには、次のガイドラインに従います。
 
@@ -122,8 +122,9 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 * Sybase
 * Teradata
 * HiveSQL による Hadoop
+* PostgreSQL
 
-AWS 準拠の VPN デバイスのみがサポートされています。互換性のあるデバイスのリストについて詳しくは、[このページ](https://docs.aws.amazon.com/ja_jp/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}を参照してください。
+クラウドデータベースがサポートされています。 [ 互換性マトリックス ](../start/compatibility-matrix.md#FederatedDataAccessFDA) を参照してください。
 
 >[!NOTE]
 >

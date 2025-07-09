@@ -4,12 +4,11 @@ description: 配信での SMPP コネクタの設定について
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="限定提供（LA）" type="Informative"
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 99%
+source-wordcount: '1340'
+ht-degree: 98%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->Adobe Campaign v8.7.2 以降に適用されます。
+>このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください。
 >
->古いバージョンについては、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"} を参照してください。
+>以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 
 ## SMS コネクタのデータフロー {#sms-data-flow}
 

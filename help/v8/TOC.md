@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 100%
+source-wordcount: '790'
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 100%
       + [配信分析](send/delivery-analysis.md)
       + [配信の設定と送信](send/configure-and-send.md)
       + [送信時間の最適化](send/predictive.md)
-   + 失敗、バウンス、強制隔離{#failures}
+   + 失敗、バウンス、強制隔離 {#failures}
       + [強制隔離](send/quarantines.md)
       + [配信の失敗](send/delivery-failures.md)
    + 配信品質の管理 {#deliverability-management}
@@ -239,6 +239,32 @@ ht-degree: 100%
       + [入力フォーム](dev/forms.md)
    + [データパッケージの使用](dev/packages.md)
    + [Campaign API](dev/api.md)
+   + REST API {#apis}
+      + [REST API の概要](dev/api/get-started-apis.md)
+      + [推奨事項と制限事項](dev/api/limitations.md)
+      + [REST API を使用する理由](dev/api/why-using-campaign-standard-apis.md)
+      + [API アクセスの設定](dev/api/setting-up-api-access.md)
+      + グローバル概念 {#global-concepts}
+         + [必読](dev/api/must-read.md)
+         + [エンドポイント](dev/api/endpoints.md)
+         + [メタデータのメカニズム](dev/api/metadata-mechanism.md)
+         + [動詞](dev/api/verbs.md)
+         + [その他の操作](dev/api/sorting.md)
+         + [カスタムリソース](dev/api/custom-resources.md)
+      + [カスタムリソースの操作](dev/api/interacting-with-custom-resources.md)
+      + プロファイルの管理 {#managing-profiles}
+         + [プロファイルの取得](dev/api/retrieving-profiles.md)
+         + [プロファイルの更新](dev/api/updating-profiles.md)
+         + [プロファイルの作成](dev/api/creating-profiles-api.md)
+      + サービスと購読の管理 {#managing-services-and-subscriptiopns}
+         + [サービスの作成](dev/api/creating-a-service.md)
+         + [購読の取得](dev/api/retrieving-subscriptions.md)
+         + [購読の実行](dev/api/perform-subscriptions.md)
+         + [購読の削除](dev/api/deleting-subscriptions.md)
+      + [トランザクションメッセージの管理](dev/api/managing-transactional-messages.md)
+      + ワークフローの管理 {#managing-workflows}
+         + [ワークフローの制御](dev/api/controlling-a-workflow.md)
+         + [シグナルアクティビティのトリガー](dev/api/triggering-a-signal-activity.md)
 + [Campaign のテクニカルノート >](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/technotes-home)
 + [Campaign web ユーザーインターフェイスのドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
 

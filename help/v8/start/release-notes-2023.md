@@ -1,20 +1,23 @@
 ---
 title: Campaign v8（コンソール）2023 リリースノート
-description: Campaign v8 2023 リリースで記載される機能と改善点のリスト
+description: Campaign v8 2023 リリースで記載される機能および改善点のリスト
 feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
-workflow-type: ht
-source-wordcount: '1498'
-ht-degree: 100%
+source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
+workflow-type: tm+mt
+source-wordcount: '1520'
+ht-degree: 97%
 
 ---
 
 # 2023 リリースノート {#2023-rn}
 
-このページには、**Campaign v8 2023 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。
+このページには、**Campaign v8 2023 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。最新リリースについては、[ このページ ](release-notes.md) を参照してください。
+
+新規の実装または既存の環境へのアップグレードについては、[ 最新リリース ](release-notes.md) をインストールします。
+
 
 >[!BEGINSHADEBOX]
 

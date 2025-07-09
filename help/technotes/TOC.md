@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign のテクニカルノート
 description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
-source-git-commit: 0fa6767f042eb595b1697d086e5c5cd5fc42625e
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 100%
+source-wordcount: '71'
+ht-degree: 95%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 
 + [Campaign のテクニカルノート](technotes-home.md)
 + アップグレード回数{#tn-new}
+   + [SMS コネクタの移行 ](upgrades/sms-migration.md)
    + [プッシュ通知チャネルの変更](upgrades/push-technote.md)
    + [ユーザーを IMS へ移行](upgrades/migrate-users-to-ims.md)
    + [テクニカルオペレーターを Developer Console へ移行](upgrades/ims-migration.md)

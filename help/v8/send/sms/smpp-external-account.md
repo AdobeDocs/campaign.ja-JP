@@ -5,10 +5,10 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 100%
+source-wordcount: '3666'
+ht-degree: 99%
 
 ---
 
@@ -332,6 +332,10 @@ Campaign では、MO（nms:inSms テーブル）で 3 つの追加フィール�
 
 * タグ：10 進数形式（例：12345）または 0x 接頭辞が付いた 16 進数形式（例: 0x12ab）のいずれかのタグの値。タグには 0～65535 の範囲を指定できます。
 * 形式：値に使用される形式。バイナリ値はすべて、ビッグエンディアンの符号付きバイナリ値です。テキストフィールドの場合は、SMPP プロバイダーで使用されるエンコーディングを選択します。
+
+>[!NOTE]
+>
+>**顧客アカウント** フィールドが空のままの場合は、ショートコードに置き換えられます。
 
 ### MO に送信された自動返信
 

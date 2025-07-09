@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 98613a0a-7a6d-41a5-9541-e045d4ca318f
-source-git-commit: bc37a2a1075c7397f1656b38071dcae737043fb8
+source-git-commit: 57ae2cbe8744bd71002d33ed2d815e422601bda8
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 80%
+source-wordcount: '179'
+ht-degree: 86%
 
 ---
 
@@ -24,5 +24,6 @@ Campaign v8 ユーザーは、新しい Campaign web ユーザーインターフ
 
 * 新しい Campaign web ユーザーインターフェイスについて詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
 
-* 移行を容易にするために、Campaign v8 に Campaign Standard 機能が追加されました。これらの機能は、Campaign Standardから移行するお客様に限定され、以下で説明されています。[ このドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}。
+<!--
+* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.-->
 

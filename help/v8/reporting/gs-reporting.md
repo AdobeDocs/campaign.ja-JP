@@ -5,16 +5,20 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 3ca0b96c9235008148067dc9a309f420bd9a92f8
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 92%
+source-wordcount: '372'
+ht-degree: 85%
 
 ---
 
 # レポートの概要{#gs-ac-reports}
 
 Adobe Campaign では、このページにリストされている一連のレポートツールを提供しています。
+
+* **動的レポート**
+
+  Campaign web UI で使用できる動的レポートは、マーケティングアクティビティの影響を測定するために、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[Web UI v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} を参照してください。
 
 * **キューブ**
 
