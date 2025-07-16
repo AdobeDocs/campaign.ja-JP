@@ -7,18 +7,16 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 83524feeb6a5de32a1b32c8d66f97a32d270f62d
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 50%
+source-wordcount: '212'
+ht-degree: 53%
 
 ---
 
 # Campaign REST API の概要 {#get-started-apis}
 
 >[!CAUTION]
->
->このドキュメントは、Campaign v8 に移行するAdobe Campaign Standardのお客様を対象としています。
 >
 >API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
 
@@ -41,4 +39,4 @@ Campaign REST API を使用するには、Adobe I/O アカウントが必要で�
 
 すべてのエンドポイントについて、このドキュメントで大幅に説明し、API の操作に関して知っておくべき一般的な概念、完全な API リファレンス、コード例、クイックスタートガイドを示します。 これらの例はすべて Postman で使用できますが、任意の REST クライアントをご利用いただけます。
 
-API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)で質問してください。
+API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)で質問してください。
