@@ -16,7 +16,7 @@ ht-degree: 83%
 
 >[!AVAILABILITY]
 >
->この機能は、すべての Campaign FDA 環境で使用できます。 Campaign FFDA デプロイメントでは使用できませ ****。 このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
+>この機能は、すべての Campaign FDA 環境で使用できます。 Campaign FFDA デプロイメントでは使用できませ **&#x200B;**。 このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
 >
 >以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 
