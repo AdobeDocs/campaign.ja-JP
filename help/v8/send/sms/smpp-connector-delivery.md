@@ -5,18 +5,18 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 98%
+source-wordcount: '1342'
+ht-degree: 83%
 
 ---
 
 # SMPP コネクタの説明 {#smpp-connector-desc}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
->このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください。
+>この機能は、すべての Campaign FDA 環境で使用できます。 Campaign FFDA デプロイメントでは使用できませ ****。 このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
 >
 >以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 
@@ -32,13 +32,13 @@ SMS プロセスでは、SMPP プロバイダーとの通信を処理する SMPP
 
 ### SMPP アカウントのデータフロー {#sms-data-flow-smpp-accounts}
 
-SMS プロセスでは nms:extAccount をポーリングし、SMPP コネクタに新しい接続を生成して、各アカウントの設定を渡します。ポーリング頻度は、serverConf の *configRefreshMillis* 設定で調整できます。
+SMS プロセスは NMS をポーリングし :extAccountSMPP コネクタで新しい接続を生成して、各アカウントの設定を渡します。 ポーリング頻度は、serverConf の *configRefreshMillis* 設定で調整できます。
 
 アクティブな SMPP アカウントごとに、SMPP コネクタは常に接続をアクティブに維持しようとします。接続が失われた場合は、再接続します。
 
 ### メッセージの送信中のデータフロー {#sms-data-flow-sending-msg}
 
-* SMS プロセスでは、nms:delivery をスキャンして、アクティブな配信を選択します。配信は、次の場合にアクティブになります。
+* SMS プロセスは、nms:delivery をスキャンしてアクティブな配信を選択します。 配信は、次の場合にアクティブになります。
    * メッセージを送信できる状態である
    * 有効期限が切れていない
    * 実際には配信である（例：テンプレートではなく、削除もされていない）
@@ -49,28 +49,28 @@ SMS プロセスでは nms:extAccount をポーリングし、SMPP コネクタ�
 * SMPP コネクタは、トランスミッター（またはトランシーバ）接続を介して MT を送信します。
 * プロバイダーは、この MT の ID を返します。nms:providerMsgId に挿入されます。
 * SMS プロセスでは、広範ログを送信済みステータスに更新します。
-* 最終的なエラーが発生した場合、SMS プロセスではそれに応じて広範ログを更新し、nms:broadLogMsg に新しい種類のエラーを作成する場合があります。
+* 最終的なエラーが発生した場合、SMS プロセスは広範ログを適宜更新し、nms:broadLogMsg に新しい種類のエラーを作成することがあります。
 
 ### SR の受信中のデータフロー {#sms-data-flow-sr}
 
 * SMPP コネクタは、SR（DELIVER_SM PDU）を受信してデコードします。外部アカウントで定義された正規表現を使用して、メッセージ ID とステータスを取得します。
-* メッセージ ID とステータスは nms:providerMsgStatus に挿入されます
+* メッセージ ID とステータスが nms に挿入される :providerMsgStatus
 * 挿入後、SMPP コネクタは DELIVER_SM_RESP PDU で応答します。
 * プロセス中にエラーが発生した場合、SMPP コネクタは負の DELIVER_SM_RESP PDU を送信し、メッセージをログに記録します。
 
 ### MO の受信中のデータフロー {#sms-data-flow-mo}
 
 * SMPP コネクタは、MO（DELIVER_SM PDU）を受信してデコードします。
-* メッセージからキーワードが抽出されます。宣言されたキーワードと一致する場合、対応するアクションが実行されます。nms:address に強制隔離を更新するよう書き込む場合があります。
+* メッセージからキーワードが抽出されます。宣言されたキーワードと一致する場合、対応するアクションが実行されます。強制隔離を更新するために、nms:address に書き込む場合があります。
 * カスタム TLV が宣言されている場合、それぞれの設定に従ってデコードされます。
-* 完全にデコードおよび処理された MO は、nms:inSms テーブルに挿入されます。
+* 完全にデコードおよび処理された MO が nms:inSms テーブルに挿入されます。
 * SMPP コネクタは DELIVER_SM_RESP PDU でを用いて応答します。エラーが検出された場合は、エラーコードがプロバイダーに返されます。
 
 ### MT と SR の紐付け中のデータフロー {#sms-reconciling-mt-sr}
 
-* SR 紐付けコンポーネントは、nms:providerMsgId と nms:providerMsgStatus を定期的に読み取ります。両方のテーブルのデータが結合されます。
+* SR 紐付けコンポーネントは、nms:providerMsgId および nms:providerMsgStatus を定期的に読み取ります。 両方のテーブルのデータが結合されます。
 * 両方のテーブルにエントリがあるすべてのメッセージについて、一致する nms:broadLog エントリが更新されます。
-* 新しい種類のエラーが検出された場合や、手動で選定されなかったエラーのカウンターを更新するために、nms:broadLogMsg テーブルがプロセスで更新される場合があります。
+* 新しい種類のエラーが検出された場合や、手動で検証されなかったエラーのカウンターを更新する場合は、nms:broadLogMsg テーブルをプロセスで更新できます。
 
 ## MT、SR、broadLog エントリの照合 {#sms-matching-entries}
 
@@ -90,12 +90,12 @@ SMS プロセスでは nms:extAccount をポーリングし、SMPP コネクタ�
 
 * プロバイダーは DELIVER_SM SR PDU を送信します。
 * SR は解析され、プロバイダー ID、ステータスおよびエラーコードが抽出されます。このステップでは、抽出用正規表現を使用します。
-* プロバイダー ID とそれに対応するステータスが nms:providerMsgStatus に挿入されます。
+* プロバイダー ID と対応するステータスが nms:providerMsgStatus に挿入されます。
 * すべてのデータがデータベースに安全に挿入されると、SMPP コネクタは DELIVER_SM_RESP で応答します。DELIVER_SM と DELIVER_SM_RESP は、sequence_number によって一致します。
 
 **フェーズ 3**
 
-* SMS プロセスの SR 紐付けコンポーネントは、nms:providerMsgId テーブルと nms:providerMsgStatus テーブルの両方を定期的にスキャンします。
+* SMS プロセスの SR 調整コンポーネントは、nms:providerMsgId テーブルと nms:providerMsgStatus テーブルの両方を定期的にスキャンします。
 * 両方のテーブルのいずれかの行に一致するプロバイダー ID がある場合、2 つのエントリは結合されます。これにより、広範ログ ID（providerMsgId に保存）とステータス（providerMsgStatus に保存）を一致させることができます。
 * 広範ログは、対応するステータスに更新されます。
 

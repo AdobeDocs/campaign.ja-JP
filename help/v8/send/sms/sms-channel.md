@@ -5,10 +5,10 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 98%
+source-wordcount: '1395'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
+>この機能は、すべての Campaign FDA 環境で使用できます。 Campaign FFDA デプロイメントでは使用できませ ****。 このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
 >
 >以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 

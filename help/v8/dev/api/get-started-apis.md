@@ -7,14 +7,18 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 83524feeb6a5de32a1b32c8d66f97a32d270f62d
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 53%
+source-wordcount: '238'
+ht-degree: 47%
 
 ---
 
 # Campaign REST API の概要 {#get-started-apis}
+
+>[!AVAILABILITY]
+>
+>この機能は、すべての Campaign FDA 環境でオンデマンドでのみ使用できます。 Campaign FFDA デプロイメントでは使用できませ ****。 アクセス権を取得するには、Adobe担当者にお問い合わせください。
 
 >[!CAUTION]
 >
@@ -39,4 +43,4 @@ Campaign REST API を使用するには、Adobe I/O アカウントが必要で�
 
 すべてのエンドポイントについて、このドキュメントで大幅に説明し、API の操作に関して知っておくべき一般的な概念、完全な API リファレンス、コード例、クイックスタートガイドを示します。 これらの例はすべて Postman で使用できますが、任意の REST クライアントをご利用いただけます。
 
-API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)で質問してください。
+API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)で質問してください。
