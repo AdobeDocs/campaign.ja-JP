@@ -18,7 +18,7 @@ ht-degree: 47%
 
 >[!AVAILABILITY]
 >
->この機能は、すべての Campaign FDA 環境で、オンデマンドでのみ使用できます。 Campaign FFDA デプロイメントでは使用できませ ****。 アクセス権を取得するには、Adobe担当者にお問い合わせください。
+>この機能は、すべての Campaign FDA 環境で、オンデマンドでのみ使用できます。 Campaign FFDA デプロイメントでは使用できませ **&#x200B;**。 アクセス権を取得するには、Adobe担当者にお問い合わせください。
 
 >[!CAUTION]
 >
