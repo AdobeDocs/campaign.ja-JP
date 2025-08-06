@@ -1,12 +1,12 @@
 ---
 keywords: Campaign Classic;ホーム;人気のトピック
-description: Campaign v8 ヘルプセンター
+description: Adobe Campaign v8 ヘルプセンターでヘルプを検索します。 Campaign v8 の新機能、改善点および修正点について説明します。
 title: Adobe Campaign v8 製品ドキュメント
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: e921339532697109758f7ca9f3a136cef58e48ab
+source-git-commit: dc8aef5fe542db06368a2cc0c832b4d43b069fc7
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+source-wordcount: '350'
+ht-degree: 91%
 
 ---
 
