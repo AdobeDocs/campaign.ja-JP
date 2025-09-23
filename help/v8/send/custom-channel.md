@@ -1,29 +1,31 @@
 ---
-title: カスタム外部チャネルの基本を学ぶ
-description: Adobe Campaign Web でカスタム外部チャネル配信を作成して送信する方法を説明します
+title: カスタムチャネルの基本を学ぶ
+description: Adobe Campaign web でカスタムチャネル配信を作成および送信する方法について説明します
 role: User
 level: Beginner, Intermediate
 exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
-source-git-commit: f94074d954137c4db39b2ef9f85141b79fe3356b
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: e2c7529fb7dc033f35f9c0d2e73273d7f20bac64
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 31%
 
 ---
 
-# カスタム外部チャネルの基本を学ぶ {#gs-custom-channel}
+# カスタムチャネルの基本を学ぶ {#gs-custom-channel}
 
-Adobe Campaign では、サードパーティと統合されたカスタム外部チャネルを作成できます。その後、これらのチャネルに基づいて配信を調整および実行できます。
+Adobe Campaignでは、カスタムの外部チャネルまたは API チャネルをサードパーティと統合して作成できます。 その後、これらのチャネルに基づいて配信を調整および実行できます。
 
-配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。ただし、カスタム外部チャネルは、クライアントコンソールでのみ実行されます。
+配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。ただし、カスタムチャネル設定は、クライアントコンソールでのみ実行されます。
 
-カスタム外部チャネルに基づいて配信を作成して送信する方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja)を参照してください。
+カスタムチャネルに基づいて配信を作成して送信する方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"} を参照してください。
 
-クライアントコンソールで新しい外部カスタムチャネルを作成する手順は次のとおりです。
+クライアントコンソールで新しいカスタムチャネルを設定する手順を以下に示します。 これらの手順は、カスタムの外部チャネルと API チャネルに共通です。
 
 1. スキーマを設定します。[詳細情報](#configure-schema)
 1. 新しい外部アカウントを作成します。[詳細情報](#create-ext-account)
 1. 新しい配信テンプレートを作成します。[詳細情報](#create-template)
+
+カスタム API チャネルの場合は、追加の設定が必要です。 [詳細情報](#api-additional)
 
 ## スキーマの設定{#configure-schema}
 
@@ -52,7 +54,7 @@ Adobe Campaign では、サードパーティと統合されたカスタム外�
 
 1. 新しい外部アカウントを作成します。
 
-1. チャネルを選択して、配信モードを&#x200B;**外部**&#x200B;に変更します。
+1. チャネルを選択して、配信モードを変更します。 カスタム外部チャネルの場合は「**外部**」を選択し、カスタム API チャネルの場合は「**一括**」を選択します。
 
    ![](assets/cus-ext-account.png){zoomable="yes"}
 
@@ -69,3 +71,76 @@ Adobe Campaign では、サードパーティと統合されたカスタム外�
    ![](assets/cus-template.png){zoomable="yes"}
 
 新しいチャネルが使用できるようになりました。このチャネルに基づいて配信を作成および実行できます。
+
+## カスタム API の追加設定{#api-additional}
+
+カスタム API チャネルを設定するための主な追加手順を以下に示します。
+
+### スキーマの拡張{#api-additional-schema}
+
+クライアントコンソールから、カスタムチャネルに必要なすべての追加プロパティと共に **配信** スキーマを拡張します。
+
+スキーマ拡張について詳しくは、この [ ページ ](../dev/extend-schema.md) を参照してください。
+
+### カスタム画面定義の設定{#api-additional-screen}
+
+Campaign web UI で、カスタム画面定義を設定します。
+
+1. **配信** スキーマを開き、「**画面編集**」をクリックします。
+
+   ![](assets/cus-schema2.png){zoomable="yes"}
+
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"} を参照してください。
+
+   ![](assets/cus-schema3.png){zoomable="yes"}
+
+1. **コンテンツをシミュレートするためのプレビュー** セクションで、専用の JSPP を選択します。 これはオプションです。 これにより、配信シミュレーション画面のプレビューがアクティブ化されます。 [詳細情報](#api-additional-preview)
+
+### プレビューの設定{#api-additional-preview}
+
+この設定はオプションです。 Web UI のプレビューをアクティブにする場合、配信シミュレーション画面で、クライアントコンソールに専用の JSSP を設定する必要があります。
+
+Web UI の配信シミュレーション画面で「**プレビューを開く**」をクリックすると、URL で次のパラメーターが渡されます。
+
+`https://adobe.campaign.adobe.com/cus/webPushMessagePreview.jssp?deliveryId=%40ToPzTurO9aGzQxYcMArBbA%3D%3D&id=%40oF8Fi17txuLmtiOFj4OIjQ%3D%3D`
+
+* `deliveryId`：配信識別子
+* `id`：プロファイル識別子
+
+クライアントコンソールで、**管理**/**設定**/**動的JavaScriptページ** を選択し、新しい JSSP を作成します。 取得する必要のあるパラメーターの例を次に示します。
+
+```
+<%@ page import="xtk:shared/nl.js"
+%><%
+  NL.require("/nl/core/shared/core.js")
+    .require('/nl/core/jsspcontext.js')
+    .require('/nl/core/shared/dataTypes.js')
+    .require('/nl/core/schema.js');
+    
+  //response.setContentType("text/plain");
+  var parameters = request.parameters;
+  var deliveryId = decryptString(parameters.deliveryId);
+  var oldUserContext = logonEscalation("neolane")
+  
+   var delivery = xtk.queryDef.create(<queryDef schema="nms:delivery" operation="getIfExists">
+                                         <select>
+                                           <node expr="[WebpushParameters/@richMediaOptions]" alias="@richMediaOptions"/>
+                                           <node expr="[WebpushParameters/@mediaUrlInfo]" alias="@mediaUrlInfo"/>
+                                           <node expr="[WebpushParameters/@WebpushMessageType]"/>
+                                         </select>
+                                         <where>
+                                           <condition expr={"@id = " + NL.XTK.toXTKString(deliveryId)}/>
+                                         </where>
+                                       </queryDef>).ExecuteQuery();
+
+  // Restore previous context
+  logonWithContext(oldUserContext)
+%>
+
+<!DOCTYPE html ...
+```
+
+### 技術的実装{#api-additional-technical}
+
+カスタムチャネルに応じて、外部アカウント、ターゲットマッピング、API 用 JavaScript コードなど、アプリケーションの他の部分を設定する必要があります。
+
