@@ -90,7 +90,7 @@ Campaign web UI で、カスタム画面定義を設定します。
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"} を参照してください。
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=ja#fields){target="_blank"} を参照してください。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 
