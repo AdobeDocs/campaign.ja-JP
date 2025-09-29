@@ -5,10 +5,10 @@ type: Event
 title: Adobe Campaign のテクニカルノート
 description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: d80d81bf8c25c467c909c9ccac7c31e6963409f0
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 95%
+source-wordcount: '73'
+ht-degree: 93%
 
 ---
 
@@ -30,4 +30,5 @@ ht-degree: 95%
    + [クライアントコンソール 32 ビットの非推奨（廃止予定）](upgrades/console.md)
    + セキュリティ {#security}
       + [お客様の資格情報ローテーション](security/credential-rotation-guide.md)
+      + [非対称暗号化](security/asymetric-encryption.md)
 + [&lt; Campaign v8 ドキュメントに戻る](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)
