@@ -7,24 +7,25 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: c74669a0ccdabe735eb905b7e8c1634140a7ea0b
+source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 47%
+source-wordcount: '242'
+ht-degree: 46%
 
 ---
 
 # Campaign REST API の概要 {#get-started-apis}
 
->[!AVAILABILITY]
->
->この機能は、すべての Campaign FDA 環境で、オンデマンドでのみ使用できます。 Campaign FFDA デプロイメントでは使用できませ **&#x200B;**。 アクセス権を取得するには、Adobe担当者にお問い合わせください。
 
->[!CAUTION]
->
->API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
 
 Campaign REST API は、Adobe Campaignに使用するテクノロジーのパネルをインターフェイスで接続することで、Adobe Campaign向けの **統合を作成** したり、独自のエコシステムを構築 **したりできる** ことを目的としています。
+
+>[!AVAILABILITY]
+>
+>* この機能は、すべての [Campaign FDA 環境 ](../../architecture/fda-deployment.md) でオンデマンドでのみ使用できます。 **エンタープライズ** FFDA）デプロイメントでは使用できません [ 使用できません ](../../architecture/enterprise-deployment.md)。 アクセスするには、アドビ担当者にお問い合わせください。
+>
+>* API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[Campaign 製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers){target="_blank"} を参照してください。
+
 
 Adobe Campaign REST API を使用すると、次の機能にアクセスできます。
 
@@ -43,4 +44,4 @@ Campaign REST API を使用するには、Adobe I/O アカウントが必要で�
 
 すべてのエンドポイントについて、このドキュメントで大幅に説明し、API の操作に関して知っておくべき一般的な概念、完全な API リファレンス、コード例、クイックスタートガイドを示します。 これらの例はすべて Postman で使用できますが、任意の REST クライアントをご利用いただけます。
 
-API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)で質問してください。
+API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community){target="_blank"}で質問してください。

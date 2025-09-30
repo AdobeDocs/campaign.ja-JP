@@ -5,10 +5,10 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 97%
+source-wordcount: '280'
+ht-degree: 95%
 
 ---
 
@@ -19,16 +19,17 @@ ht-degree: 97%
 * スクリプト内 - [!DNL Adobe Campaign] ワークフロー内
 * API 経由 - 外部システムから
 
+>[!NOTE]
+>
+>* デプロイメントモデルによっては、Campaign v8 で REST API を使用することもできます。 [詳細情報](../dev/api/get-started-apis.md)。
+
+
 JavaScript の API を使用すると、Campaign クラウドデータベースに書き込んだり、データベースから読み込んだりすることができます。
 
 * 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
 * データモデルデータをクエリするための汎用データアクセス API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
 
 [Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)では、Campaign は 2 つのデータベースと連携することに注意してください。1 つは、ユーザーインターフェイスのリアルタイムメッセージングや単一クエリおよび API 経由での書き込みに使用するローカルデータベース、もう 1 つは、キャンペーン実行や、レポート、データ取り込み、バッチクエリおよびワークフロー実行に使用するクラウドデータベースです。
-
->[!NOTE]
->
->* Campaign v8 では REST API を使用できます。 [詳細情報](../dev/api/get-started-apis.md)。
 
 >[!CAUTION]
 >

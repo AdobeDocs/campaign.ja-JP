@@ -4,10 +4,10 @@ title: テクニカルノート - Adobe Campaignでの非対称的な暗号化�
 description: テクニカルノート - Adobe Campaignでの非対称暗号化と復号化
 hide: true
 hidefromtoc: true
-source-git-commit: d80d81bf8c25c467c909c9ccac7c31e6963409f0
+source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 0%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -51,3 +51,7 @@ var decrypted = rsaPrivateDecrypt(
 );
 ```
 
+**その他のリソース**
+
+* [API の  [!DNL Campaign]  要 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/api){target="_blank"}
+* [Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
