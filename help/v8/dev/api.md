@@ -5,10 +5,10 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
+source-git-commit: 115b7b6824f3736e03f9fb87898f1264f9bab636
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 95%
+source-wordcount: '286'
+ht-degree: 88%
 
 ---
 
@@ -21,10 +21,9 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->* デプロイメントモデルによっては、Campaign v8 で REST API を使用することもできます。 [詳細情報](../dev/api/get-started-apis.md)。
+>デプロイメントモデルによっては、Campaign v8 で REST API を使用することもできます。 [詳細情報](../dev/api/get-started-apis.md)。
 
-
-JavaScript の API を使用すると、Campaign クラウドデータベースに書き込んだり、データベースから読み込んだりすることができます。
+[Campaign JavaScript API](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"} を使用すると、Campaign クラウドデータベースへの書き込みや読み取りを行うことができます。
 
 * 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
 * データモデルデータをクエリするための汎用データアクセス API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
@@ -55,3 +54,4 @@ API を使用して [!DNL Adobe Campaign] とやり取りするには、デー�
 **関連トピック**
 
 * [データモデルのベストプラクティス](datamodel-best-practices.md)
+* [Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
