@@ -4,11 +4,12 @@ description: Campaign のユーザーインターフェイスの参照方法と�
 feature: Overview
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 9d5a2ca1e9858a727377b8afa6bdd7e3761c1b56
-workflow-type: ht
-source-wordcount: '1080'
-ht-degree: 100%
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+workflow-type: tm+mt
+source-wordcount: '1253'
+ht-degree: 73%
 
 ---
 
@@ -16,47 +17,60 @@ ht-degree: 100%
 
 Adobe Campaign には、クライアントコンソールまたは web ユーザーインターフェイスからアクセスできます。また、API を使用してデータを管理し、Campaign プラットフォームでタスクを実行することもできます。
 
->[!CAUTION]
->
->このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。Campaign web ユーザーインターフェイスを使用している場合は、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
-
 * **クライアントコンソール** - クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。[詳細情報](#ui-access)
 
   Campaign クライアントコンソールをインストールして設定する方法については、[この節](../start/connect.md)を参照してください。
-
-* **Web ユーザーインターフェイス** - Campaign v8 ユーザーは、v8.6.1 リリース以降、中央の Adobe Experience Cloud ユーザーインターフェイスを通じて web 環境にアクセスできるようになりました。これで、web ブラウザーから Adobe Campaign に接続できます。この新しいインターフェイスを使用すると、主なマーケティングアクションを作成、管理、実行できます。ただし、Campaign のすべての機能が使用できるわけではありません。[詳細情報](#ac-web-ui)。
-
-  >[!AVAILABILITY]
-  >
-  >Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
-  >
 
 * **Web アクセス** - Adobe Campaign の web アクセス機能を使用すると、web ブラウザーを使用して、Campaign の機能のサブセットにアクセスできます。HTML ユーザーインターフェイスが使用されます。この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。Campaign の web アクセスについて詳しくは、[この節](../start/connect.md#web-access)を参照してください。
 
 * **API** - より多くのユースケースに対応するために、SOAP プロトコルで公開されている web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。Campaign の API について詳しくは、[このページ](../dev/api.md)を参照してください。
 
+* **Web ユーザーインターフェイス** - Campaign v8 ユーザーは、v8.6.1 リリース以降、中央の Adobe Experience Cloud ユーザーインターフェイスを通じて web 環境にアクセスできるようになりました。これで、web ブラウザーから Adobe Campaign に接続できます。この新しいインターフェイスを使用すると、主なマーケティングアクションを作成、管理、実行できます。ただし、Campaign のすべての機能が使用できるわけではありません。[詳細情報](#ac-web-ui)。
+
+  >[!AVAILABILITY]
+  >
+  >Campaign web ユーザーインターフェイスは、Campaign v8 ユーザーがAdobe IDを使用して Campaign に接続する場合にのみ使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+  >
+
+>[!CAUTION]
+>
+>このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。Campaign v8 ユーザーとして Campaign web ユーザーインターフェイスを使用する場合は、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
 
 ## クライアントコンソールの操作 {#ui-access}
 
-Campaign クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。[Campaign クライアントコンソールについての詳細情報](../start/connect.md)。クライアントコンソールのホームページにある専用カードから、Campaign web ユーザーインターフェイスに切り替えることができます。
+Campaign クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。[詳しくは、Campaign クライアントコンソールを参照してください](../start/connect.md)。
 
-![](assets/web-ui.png)
 
+
+>[!BEGINTABS]
+
+>[!TAB Campaign v8]
+
+Campaign に接続したら、Adobe Campaignのホームページにアクセスします。 Campaign v8 では、中央のカードを使用して、新しい Campaign web ユーザーインターフェイスおよび Campaign コントロールパネルを参照します。
+
+![Campaign v8 クライアントコンソールホーム ](assets/web-ui.png)
 
 >[!NOTE]
 >
->新しいアクセスカードが表示されない場合は、Adobe Experience Cloud 外部アカウント内の&#x200B;**サーバー**、**テナント**、**コールバックサーバー**、**関連付けマーク**&#x200B;のフィールドが空のままになっていないことを確認します。
+>Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント ](../config/external-accounts.md) の **Server**、**Tenant**、**Callback server**、**Association mark** の各フィールドを空のままにしないでください。
+
+ホームページから [Campaign Campaign コントロールパネル](../config/self-service.md) にアクセスすることもできます。
+
+>[!TAB Campaign Classic v7]
+
+Campaign に接続したら、Adobe Campaignのホームページにアクセスします。このホームページには、機能、ドキュメント、サポート web サイトおよび Campaign コミュニティにアクセスするためのリンクとショートカットが含まれています。
+
+![Campaign Classic v7 クライアントコンソールホーム ](assets/v7_user_interface_home.png)
+
+
+>[!ENDTABS]
 
 
 また、web ブラウザーを使用して Campaign にアクセスすることもできます。このコンテキストでは、Campaign 機能のサブセットのみ使用できます。 [詳細情報](#web-browser)
 
 ### インターフェイスの参照 {#ui-browse}
 
-Campaign クライアントコンソールに接続したら、ホームページにアクセスします。機能にアクセスするには、リンクを参照します。インターフェイスで使用できる一連の機能は、オプションと権限に応じて異なります。
-
-ホームページの中央セクションにあるリンクを使用して、Campaign のヘルプ資料、コミュニティ、サポート web サイトにアクセスします。中央のカードを使用して、新しい Campaign web ユーザーインターフェイスと Campaign コントロールパネルを参照します。
-
-上部セクションのタブを参照して、Campaign の主な機能にアクセスします。
+Campaign クライアントコンソールに接続したら、上部セクションのタブを参照して、Campaign の主な機能にアクセスします。
 
 ![](assets/overview-home.png)
 
@@ -108,13 +122,13 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 
 ## Campaign web ユーザーインターフェイス {#ac-web-ui}
 
-Campaign v8 クライアントコンソールユーザーは、v8.6.1 リリース以降、中央の Adobe Experience Cloud ユーザーインターフェイスを通じて web 環境にアクセスできるようになりました。Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
+Campaign v8 v8 v8 v8 v8.1 リリース以降では、Adobe Experience Cloudの主要なユーザーインターフェイスから使用できる web 環境にアクセスできます。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
 ![Adobe Campaign web ユーザーインターフェイスホームページ](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
 >
->Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+>Campaign web ユーザーインターフェイスは、Campaign v8 ユーザーがAdobe IDを使用して Campaign に接続する場合にのみ使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 >
 
 新しい Campaign web ユーザーインターフェイスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。また、Campaign web ユーザーインターフェイスドキュメントにある、専用の[よくある質問のページ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/faq){target="_blank"}も参照してください。
@@ -126,7 +140,7 @@ Campaign v8 クライアントコンソールユーザーは、v8.6.1 リリー�
 
 サポートされている言語は、ユーザーインターフェイスによって異なります。
 
-* Campaign v8 クライアントコンソールインターフェイスでサポートされている言語は次のとおりです。
+* Campaign クライアントコンソールインターフェイスでサポートされる言語は次のとおりです。
 
    * 英語（英国）
    * 英語（米国）
@@ -137,10 +151,11 @@ Campaign v8 クライアントコンソールユーザーは、v8.6.1 リリー�
 
   >[!CAUTION]
   >
-  >言語は、インストールプロセス中に選択します。後で変更することはできません。
+  >言語はインストールプロセス中に選択され、その後は **変更できません** します。
 
 * Campaign web ユーザーインターフェイスでサポートされている言語について詳しくは、[このページを参照してください](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ja#language-pref){target="_blank"}。
 
+## フォーマット
 
 言語は、日付および時刻の形式に影響します。
 
@@ -162,13 +177,37 @@ Campaign v8 クライアントコンソールユーザーは、v8.6.1 リリー�
   </tr> 
   <tr> 
    <td> 日付の短縮表記<br /> </td> 
-   <td> <p>%2M/%2D/%4Y</p><p><strong>例：09/25/2018</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y</p><p><strong>例：25/09/2018</strong></p> </td> 
+   <td> <p>%2M/%2D/%4Y</p><p><strong>例：09/25/2025</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y</p><p><strong>例：25/09/2025</strong></p> </td> 
   </tr> 
   <tr> 
    <td> 日付と時刻の短縮表記<br /> </td> 
-   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>例：09/25/2018 10:47:25 PM</strong></p> </td> 
-   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>例：25/09/2018 22:47:25</strong></p> </td> 
+   <td> <p>%2M/%2D/%4Y %I:%2N:%2S %P</p><p><strong>例：09/25/2025 10:47:25 PM</strong></p> </td> 
+   <td> <p>%2D/%2M/%4Y %2H:%2N:%2S</p><p><strong>例：25/09/2025 22:47:25</strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
+
+## デフォルトの単位 {#default-units}
+
+有効期間（配信のリソースの有効期間、タスクの承認期限など）を表すフィールドでは、値を次の&#x200B;**単位**&#x200B;で表すことができます。
+
+* **[!UICONTROL s]**（秒）
+* **[!UICONTROL mn]**（分）
+* **[!UICONTROL h]**（時間）
+* **[!UICONTROL d]**（日）
+
+
+## 定義済みリスト {#enumeration}
+
+ドロップダウンリストの入力フィールドを使用して、列挙値を入力できます。この値を保存して、ドロップダウンリストのオプションとして指定できます。
+
+例えば、受信者プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 市区町村]**」フィールドで、「ロンドン」と入力します。Enter キーを押してこの値を確認すると、フィールドに関連付けられている列挙にこの値を保存するかどうかを尋ねるメッセージが表示されます。  **[!UICONTROL はい]** をクリックすると、この値は関連するフィールドのドロップダウンで使用できるようになります。
+
+列挙（「定義済みリスト」とも呼ばれます）は、管理者が&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;セクションで管理します。
+
+方法を学ぶ [ 列挙の操作 ](../dev/enumerations.md)
+
+詳しくは、[ スキーマの列挙 ](../dev/schema-structure.md#enumerations) を参照してください

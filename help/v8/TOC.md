@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '793'
 ht-degree: 97%
 
 ---
@@ -168,10 +168,10 @@ ht-degree: 97%
          + [キューブを使用したレポートの作成](reporting/cube-tables.md)
          + [キューブのカスタマイズ](reporting/customize-cubes.md)
       + ビルトインレポート{#ac-reports}
-         + [組み込みレポートのリスト](reporting/built-in-reports.md)
+         + [ビルトインのレポートのリスト](reporting/built-in-reports.md)
          + [グローバルレポート](reporting/global-reports.md)
          + [配信レポート](reporting/delivery-reports.md)
-         + [組み込み指標の計算](reporting/metrics-calculation.md)
+         + [ビルトインの指標の計算](reporting/metrics-calculation.md)
       + [カスタムレポート](reporting/custom-reports.md)
 + データ管理 {#data}
    + [ワークフローの基本を学ぶ](config/workflows.md)
@@ -215,6 +215,7 @@ ht-degree: 97%
    + 実装 {#implement}
       + [実装手順](start/implement.md)
       + [インスタンスのカスタマイズ](dev/customize.md)
+      + [列挙の操作](dev/enumerations.md)
       + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
    + 設定と指定 {#configuration}
       + [ユーザーインターフェイス設定](config/ui-settings.md)

@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,13 @@ Campaign を使用すると、次のことを行えます。
 * 有意義でタイムリーなメッセージやオファーの配信を&#x200B;**自動化**
 
 ![](assets/do-not-localize/ac-capabilities.png)
+
+
+>[!AVAILABILITY]
+>
+>ページで言及されている場合を除き、Adobe Campaign（コンソール）のドキュメントは、Campaign Classic v7 および Campaign v8 に適用されます。
+>
+>ドキュメント内の特定のリファレンスは、以前のブランディングを引き続き参照する場合がありますが、現在の製品にはそのまま適用されます。
 
 ## Integrated Customer Profile {#integrated-customer-profile}
 
