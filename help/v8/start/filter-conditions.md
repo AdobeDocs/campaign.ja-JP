@@ -5,7 +5,7 @@ feature: Query Editor
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 79cfde18cce2f9f48cbd6d77026350dec1a71536
+source-git-commit: 3a521f7006ca833af96f1ef5d5b369c2c0568635
 workflow-type: tm+mt
 source-wordcount: '3491'
 ht-degree: 99%
@@ -288,7 +288,7 @@ ht-degree: 99%
 
   列のソース値を使用し、宛先値を割り当てることができます。この宛先値は新しい出力列に表示されます。
 
-  「**[!UICONTROL 列挙]**」タイプ計算フィールドを追加する例は、[この節](../../workflow/using/adding-enumeration-type-calculated-field.md)で確認できます。
+  「**[!UICONTROL 列挙]**」タイプ計算フィールドを追加する例は、[この節](../../automation/workflow/adding-enumeration-type-calculated-field.md)で確認できます。
 
   ![](assets/query_editor_nveau_63.png)
 
@@ -329,7 +329,7 @@ ht-degree: 99%
 
 ![](assets/query_editor_nveau_05.png)
 
-1. 「**[!UICONTROL 「フィールドのみ]**&#x200B;**[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
+1. 「**[!UICONTROL 「フィールドのみ]****[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
 1. 「**[!UICONTROL 集計]**」（「集計関数のプロセス」）。使用する集計の例は次のとおりです。
 
    * 「**[!UICONTROL カウント]**」では、プライマリキーカウントを実行できます。
