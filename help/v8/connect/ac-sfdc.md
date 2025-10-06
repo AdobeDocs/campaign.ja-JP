@@ -79,4 +79,4 @@ Adobe Campaign データと SFDC の間でデータを同期させるには、�
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-Campaign での列挙管理について詳しくは [ このページ ](../dev/enumerations.md) を参照してください。
+Campaign での列挙管理について詳しくは [&#x200B; このページ &#x200B;](../dev/enumerations.md) を参照してください。
