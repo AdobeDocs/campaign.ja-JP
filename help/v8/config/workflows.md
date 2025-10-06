@@ -135,4 +135,4 @@ Campaign を他のソリューションと統合する方法については、[�
 
 ## ワークフローのエンドツーエンドのユースケース{#end-to-end-uc}
 
-Campaign ワークフロー機能を活用したユースケースについて説明します [ この節 ](../../automation/workflow/workflow-use-cases.md)。
+Campaign ワークフロー機能を活用したユースケースについて説明します [&#x200B; この節 &#x200B;](../../automation/workflow/workflow-use-cases.md)。

@@ -135,7 +135,7 @@ ht-degree: 97%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -175,7 +175,7 @@ ht-degree: 97%
          + [ビルトインの指標の計算](reporting/metrics-calculation.md)
       + [カスタムレポート](reporting/custom-reports.md)
 + データ管理 {#data}
-   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
    + [データのインポート](start/import.md)
    + クエリの作成 {#query}
       + [クエリの設計](start/query-editor.md)

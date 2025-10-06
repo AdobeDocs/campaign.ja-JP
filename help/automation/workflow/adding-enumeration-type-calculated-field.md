@@ -31,7 +31,7 @@ ht-degree: 97%
 
 次の手順に従います。
 
-1. [ 汎用クエリエディター ](../../v8/start/query-editor.md) を開き、受信者テーブル（**[!UICONTROL nms:recipient]**）を選択します。
+1. [&#x200B; 汎用クエリエディター &#x200B;](../../v8/start/query-editor.md) を開き、受信者テーブル（**[!UICONTROL nms:recipient]**）を選択します。
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL 姓]**」、「**[!UICONTROL 名]**」および「**[!UICONTROL 性別]**」を選択します。
 
    ![](assets/query_editor_nveau_73.png)
