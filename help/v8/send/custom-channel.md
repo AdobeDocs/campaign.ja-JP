@@ -17,7 +17,7 @@ Adobe Campaignでは、カスタムの外部チャネルまたは API チャネ�
 
 配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。ただし、カスタムチャネル設定は、クライアントコンソールでのみ実行されます。
 
-カスタムチャネルに基づいて配信を作成して送信する方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"} を参照してください。
+カスタムチャネルに基づいて配信を作成して送信する方法については、この [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"} を参照してください。
 
 クライアントコンソールで新しいカスタムチャネルを設定する手順を以下に示します。 次の手順は、カスタム外部チャネルと API チャネルに共通です。
 
@@ -33,7 +33,7 @@ Adobe Campaignでは、カスタムの外部チャネルまたは API チャネ�
 
 1. Campaign エクスプローラーから、**管理**／**設定**／**データスキーマ**&#x200B;を選択します。
 
-1. スキーマ拡張を作成して、新しいチャネルで **messageType**[enumeration](../config/enumerations.md) を拡張します。
+1. スキーマ拡張を作成して、新しいチャネルで **messageType**&#x200B;[enumeration](../config/enumerations.md) を拡張します。
 
    例：
 
@@ -80,7 +80,7 @@ Adobe Campaignでは、カスタムの外部チャネルまたは API チャネ�
 
 クライアントコンソールから、カスタムチャネルに必要なすべての追加プロパティと共に **配信** スキーマを拡張します。
 
-スキーマ拡張について詳しくは、この [ ページ ](../dev/extend-schema.md) を参照してください。
+スキーマ拡張について詳しくは、この [&#x200B; ページ &#x200B;](../dev/extend-schema.md) を参照してください。
 
 ### カスタム画面定義の設定{#api-additional-screen}
 
@@ -90,7 +90,7 @@ Campaign web UI で、カスタム画面定義を設定します。
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"} を参照してください。
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"} を参照してください。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

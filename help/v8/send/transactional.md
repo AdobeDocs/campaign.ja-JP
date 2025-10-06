@@ -73,6 +73,6 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
 >[!NOTE]
 >
->[ 列挙 ](../config/enumerations.md) の詳細情報。
+>[&#x200B; 列挙 &#x200B;](../config/enumerations.md) の詳細情報。
 
 次の手順では、[トランザクションメッセージ用のテンプレートを作成して公開](transactional-template.md)する方法について説明します。

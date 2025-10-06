@@ -200,7 +200,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 すべての属性のリストについては、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ja#content-model){target="_blank"}の `<attribute>` 要素の節を参照してください。よく使用される属性には、**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type** などがあります。
 
-各属性の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"} の属性に関する説明を参照してください。
+各属性の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"} の属性に関する説明を参照してください。
 
 ### 例 {#examples}
 
