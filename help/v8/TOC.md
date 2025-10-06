@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '791'
 ht-degree: 97%
 
 ---
@@ -133,8 +133,9 @@ ht-degree: 97%
 + コンテンツ管理 {#content}
    + [ランディングページの作成](dev/landing-pages.md)
    + [Web アプリとフォームのデザイン](dev/webapps.md)
-+ 自動処理とワークフロー {#automation}
-   + [Campaign 自動化ガイド >](https://experienceleague.adobe.com/ja/docs/campaign/automation/home)
++ ワークフロー {#workflows}
+   + [ワークフローの基本を学ぶ](config/workflows.md)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -174,9 +175,11 @@ ht-degree: 97%
          + [ビルトインの指標の計算](reporting/metrics-calculation.md)
       + [カスタムレポート](reporting/custom-reports.md)
 + データ管理 {#data}
-   + [ワークフローの基本を学ぶ](config/workflows.md)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
    + [データのインポート](start/import.md)
-   + [ワークフロードキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + クエリの作成 {#query}
+      + [クエリの設計](start/query-editor.md)
+      + [フィルター条件の定義](start/filter-conditions.md)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}

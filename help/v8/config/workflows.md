@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 8e1401ef0aada30d941905936b45c6c1819c83a7
-workflow-type: ht
-source-wordcount: '1399'
-ht-degree: 100%
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 93%
 
 ---
 
@@ -27,14 +27,12 @@ Campaign を設定して、マーケティングキャンペーンの強力な�
 
 >[!NOTE]
 >
->Adobe Campaign web UI には、ワークフロー用に再考されたキャンバスが付属し、より動的でパーソナライズされたカスタマージャーニーを作成できます。Web UI のワークフローについて詳しくは、[Adobe Campaign web UI ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/gs-workflows){target=_blank}を参照してください。
+>Adobe Campaign web ユーザーインターフェイスには、ワークフローのキャンバスが再考されて付属しており、より動的でパーソナライズされたカスタマージャーニーを作成できます。 Web UI のワークフローについて詳しくは、[Adobe Campaign web UI ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/gs-workflows){target=_blank}を参照してください。
 
 
 ## ワークフローのデザインと使用 {#gs-ac-wf}
 
 Adobe Campaign ワークフローを使用すると、セグメントの作成やメッセージの準備から配信に至るまでの、マーケティングキャンペーンのあらゆる側面でスピードと規模を改善できます。
-
-これらの[エンドツーエンドのユースケース](#end-to-end-uc)でワークフローをデザインする方法を説明します。
 
 ワークフローのユーザーインターフェイスと実行について詳しくは、 以下のページを参照してください。
 
@@ -54,45 +52,46 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 ワークフローアクティビティはカテゴリ別にグループ分けされます。次の 4 つのアクティビティカテゴリを使用できます。
 
-* [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ja){target="_blank"}：クエリ、リスト読み込み、エンリッチメント、結合など
+* [ターゲティングアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ja){target="_blank"}：クエリ、リスト読み込み、エンリッチメント、和集合など
 * [フロー制御アクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=ja){target="_blank"}：スケジューラー、分岐、警告、外部信号など
 * [アクションアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ja){target="_blank"}：クロスチャネル配信、JavaScript コード、CRM アクティビティ、アップデートの集計など
 * [イベントアクティビティ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=ja){target="_blank"}：ファイル転送、Web ダウンロードなど
 
-### 「データソースを変更」アクティビティ {#change-data-source-activity}
+<!--
+### Change data source activity {#change-data-source-activity}
 
-「**[!UICONTROL データソースを変更]**」アクティビティを使用すると、ワークフロー&#x200B;**[!UICONTROL 作業用テーブル]**&#x200B;のデータソースを変更できます。これにより、FDA、FFDA、ローカルデータベースなど、様々なデータソースにわたって、より柔軟にデータを管理できます。
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. This provides more flexibility to manage data across different data sources such as FDA, FFDA and local database.
 
-**[!UICONTROL ワークテーブル]**を使用すると、Adobe Campaign ワークフローでデータを処理し、ワークフローアクティビティとデータを共有できます。
-デフォルトでは、**[!UICONTROL ワークテーブル]**&#x200B;は、クエリ対象のデータのソースと同じデータベースに作成されます。
+The **[!UICONTROL Working table]** allows Adobe Campaign workflow to handle data and share data with the workflow activities.
+By default, the **[!UICONTROL Working table]** is created in the same database as the source of the data we query on.
 
-例えば、クラウドデータベースに格納された&#x200B;**[!UICONTROL プロファイル]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースに&#x200B;**[!UICONTROL 作業用テーブル]**を作成します。
-これを変更するには、「**[!UICONTROL データソースを変更]**」アクティビティを追加して、**[!UICONTROL 作業用テーブル]**&#x200B;に別のデータソースを選択します。
+For example, when querying the **[!UICONTROL Profiles]** table, stored on the Cloud database, you will create a **[!UICONTROL Working table]** on the same Cloud database.
+To change this, you can add the **[!UICONTROL Change Data Source]** activity to choose a different data source for your **[!UICONTROL Working table]**.
 
-なお、「**[!UICONTROL データソースを変更]**」アクティビティを使用する場合、ワークフローの実行を続行するには、クラウドデータベースに戻す必要があります。
+Note that when using the **[!UICONTROL Change Data Source]** activity, you will need to switch back to the Cloud database to continue the workflow execution.
 
-「**[!UICONTROL データソースを変更]**」アクティビティを使用するには：
+To use the **[!UICONTROL Change Data Source]** activity:
 
-1. ワークフローを作成します。
+1. Create a workflow.
 
-1. 「**[!UICONTROL クエリ]**」アクティビティでターゲット受信者にクエリを実行します。
+1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
 
-   **[!UICONTROL クエリ]**&#x200B;アクティビティについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
-1. 「**[!UICONTROL ターゲティング]**」タブから、「**[!UICONTROL データソースを変更]**」アクティビティを追加し、ダブルクリックして「**[!UICONTROL デフォルトデータソース]**」を選択します。
+1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
+    
+    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
 
-   クエリの結果を含んだワークテーブルが、デフォルトの PostgreSQL データベースに移動されます。
+1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
-1. 「**[!UICONTROL アクション]**」タブから、「**[!UICONTROL JavaScript コード]**」アクティビティをドラッグ＆ドロップして、作業用テーブルに対して単一の操作を実行します。
+1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
+    
+    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
 
-   **[!UICONTROL JavaScript コード]**&#x200B;アクティビティについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html?lang=ja){target="_blank"}を参照してください。
-
-1. 別の「**[!UICONTROL データソースを変更]**」アクティビティを追加して、クラウドデータベースに戻します。
-
-   アクティビティをダブルクリックし、「**[!UICONTROL アクティブな FDA 外部アカウント]**」を選択してから、対応する外部アカウントを選択します。
-
-1. これで、ワークフローを開始できます。
+1. You can now start your workflow.
+-->
 
 ## 仮想ウェアハウスの管理 {#warehouse}
 
@@ -114,7 +113,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 >[!NOTE]
 >
->**[!UICONTROL システム]**&#x200B;ウェアハウスは組み込みワークフローの場合にのみ設定されます。
+>**[!UICONTROL システム]**&#x200B;ウェアハウスはビルトインのワークフローの場合にのみ設定されます。
 
 ## 繰り返しキャンペーンの設定
 
@@ -125,7 +124,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 ## トリガーイベントの活用
 
-Campaign トランザクションメッセージを使用すると、情報システムからトリガーされるイベントに基づいて、メッセージを自動的に生成できます。 トランザクションメッセージの例としては、請求書送付、注文確認、配送確認、パスワード変更、商品の在庫切れ通知、取引明細書送付、Web サイトのアカウント作成などがあります。 これらのメッセージは、個別に送信することも、メール、SMS、またはプッシュ通知を介してバッチで送信することもできます。
+Campaign トランザクションメッセージを使用すると、情報システムからトリガーされるイベントに基づいて、メッセージを自動的に生成できます。 トランザクションメッセージの例としては、請求書送付、注文確認、発送確認、パスワード変更、商品の在庫切れ通知、取引明細書送付、web サイトのアカウント作成などがあります。これらのメッセージは、個別に送信することも、メール、SMS、またはプッシュ通知を介してバッチで送信することもできます。
 
 トランザクションメッセージ機能について詳しくは、[この節](../send/transactional.md)を参照してください。
 
@@ -136,115 +135,4 @@ Campaign を他のソリューションと統合する方法については、[�
 
 ## ワークフローのエンドツーエンドのユースケース{#end-to-end-uc}
 
-この節では、Campaign ワークフロー機能を活用する様々なユースケースを示します。
-
-### 配信 {#deliveries}
-
-<img src="assets/do-not-localize/icon_send.svg" width="60px">
-
-
-* [誕生日メールの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}
-
-  この使用例では、受信者のリストに対して、誕生日に定期メールを送信する計画の策定方法を示します。
-
-* [配信コンテンツの読み込み](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=ja){target="_blank"}
-リモートサーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。
-
-* [クロスチャネル配信ワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html?lang=ja){target="_blank"}
-クロスチャネル配信ワークフローの作成方法を説明します。目的は、オーディエンスを、データベースの受信者から別のグループへとセグメント化し、最初のグループはメール、もう 1 つのグループに SMS を送信することです。
-
-* [カスタム日付フィールドを使用したメールエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html?lang=ja){target="_blank"}
-今月が誕生日のプロファイルに、カスタムデータフィールドを含むメールを送信する方法を説明します。メールには、誕生日の前後 1 週間有効なクーポンが含まれます。
-
-さらに、Campaign v7 ドキュメントの以下のページ：
-
-* [コンテンツの作成、編集、公開の自動化](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html?lang=ja){target="_blank"}
-Campaign コンテンツ管理アドオンを使用して、コンテンツブロックの作成と配信を自動化する方法を説明します。
-
-* [A/B テスト](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html?lang=ja){target="_blank"}
-ターゲティングワークフローを使用して、2 つのメール配信コンテンツを比較する方法を説明します。メッセージとテキストは両方の配信で同じものを使用し、レイアウトだけを変更します。ターゲットの母集団は、2 つのテストグループと、その他の母集団の 3 つに分割します。各テストグループに別々のバージョンを配信します。
-
-### 監視 {#monitoring}
-
-<img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
-
-* [リストへのレポートの送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html?lang=ja){target="_blank"}
-月次のビルトイントラッキング指標レポートを PDF 形式で生成し、Campaign オペレーターのリストに送信する方法を説明します。
-
-* [ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=ja){target="_blank"}
-一連の（「一時停止」、「停止」、「エラーあり」）を監視できる、ワークフローの作成方法を説明します。
-
-* [パーソナライズされたアラートをオペレーターへ送信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators.html?lang=ja){target="_blank"}
-ニュースレターを開封したものの、そこに含まれているリンクをはクリックしなかったプロファイルの名前を記載したアラートをオペレーターに送信する方法について説明します。
-
-### データ管理 {#management}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
-
-* [データ更新の調整](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/coordinate-data-updates.html?lang=ja){target="_blank"}
-別の更新操作を実行する前に、更新プロセスが終了していることを確認する方法について説明します。そのためには、インスタンス変数を設定し、ワークフローの実行を継続して更新を行うべきかを判断するため、インスタンスが実行中かどうかをワークフローでテストします。
-
-* [概要リストの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html?lang=ja){target="_blank"}
-ファイルを収集していくつかのエンリッチメントを加えてから概要リストを作成できるワークフローの作成方法を説明します。 この例では、店舗で購入した顧客の連絡先リストをベースにします。
-
-* [データのエンリッチメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=ja){target="_blank"}
-最近競争に参加したプロファイルに、スコアに応じてパーソナライズされた配信を送信する方法を説明します。
-
-* [集計の使用](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja){target="_blank"}
-データベースに最後に追加された受信者を特定する方法を説明します。
-
-* [増分処理クエリを使用した四半期ごとのリスト更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/quarterly-list-update.html?lang=ja){target="_blank"}
-増分処理クエリを使用して受信者リストを自動的に更新する方法を説明します。
-
-* [繰り返し発生するインポートワークフローの設定](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"}
-Adobe Campaign データベースの CRM からプロファイルを読み込むために再利用できるワークフローの設計方法を説明します。
-
-### ターゲティング {#designing-queries}
-
-<img src="assets/do-not-localize/icon_filter.svg" width="60px">
-
-* [受信者テーブルのクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table.html?lang=ja){target="_blank"}
-メールドメインが「orange.co.uk」で、かつロンドンに居住していない受信者について、名前とメールを復元する方法を説明します。
-
-* [配信情報のクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html?lang=ja){target="_blank"}
-配信情報に関するクエリを定義して、プロファイルの動作を取得する方法について説明します。
-
-* [集計の計算](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html?lang=ja){target="_blank"}
-ロンドン在住のプロファイルの数を性別に基づいてカウントする方法を説明します。
-
-* [多対多の関係を使用したクエリ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ja){target="_blank"}
-過去 7 日間に連絡していないプロファイルを検索する方法を説明します。
-
-* [クエリでのインスタンス変数の呼び出し](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates.html?lang=ja){target="_blank"}
-インスタンス変数を使用して、母集団に適用する分割率を動的に計算する方法を説明します。
-
-<!--
-### Change data source activity {#data-source-uc}
-
-The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. 
-
-In this use case, learn how to use the **[!UICONTROL Change data source]** activity to perform unitary operations to insert or update information to the recipient table.
-
-![](assets/wf_data_source_uc.png)
-
-1. Create a workflow and add a **[!UICONTROL Start]** activity.
-
-1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
-
-    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html?lang=ja#creating-a-query) page in Campaign Classic V7 documentation.
-
-1. 
-
-1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
-    
-    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
-
-1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
-
-1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
-    
-    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
-
-1. Add an **[!UICONTROL End]** activity and start your workflow.
--->
-
+Campaign ワークフロー機能を活用したユースケースについて説明します [ この節 ](../../automation/workflow/workflow-use-cases.md)。

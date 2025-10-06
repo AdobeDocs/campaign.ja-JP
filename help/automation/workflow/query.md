@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '1667'
-ht-degree: 100%
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+workflow-type: tm+mt
+source-wordcount: '1663'
+ht-degree: 94%
 
 ---
 
@@ -20,16 +20,13 @@ ht-degree: 100%
 ## クエリを作成します。 {#creating-a-query}
 
 クエリを使用すると、条件に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
-クエリサンプルの詳細は、[この節](querying-recipient-table.md)を参照してください。
-
->[!NOTE]
->
->Adobe Campaign web UI には、データベースをフィルタリングし、様々な基準に基づいて特定のターゲットを選択するプロセスを簡素化する、強力なクエリモデラーが備わっています。これにより、クエリをより簡単に作成および管理できます。Web UI のクエリモデラーについて詳しくは、[Adobe Campaign web UI ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}を参照してください。
-
+のユースケースを通じてクエリを作成する方法を説明します [ この節 ](querying-recipient-table.md)。 [ クエリエディター ](../../v8/start/query-editor.md) に関する節も参照してください。
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
-追加データの使用と管理について詳しくは、[データの追加](#adding-data)を参照してください。
+>[!NOTE]
+>
+>Adobe Campaign Web ユーザーインターフェイスは強力なクエリモデラーを備えており、データベースをフィルタリングして、様々な条件に基づいて特定のターゲットを選択するプロセスを簡素化します。これにより、クエリをより簡単に作成および管理できます。 Web UI のクエリモデラーについて詳しくは、[Adobe Campaign web UI ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}を参照してください。
 
 「**[!UICONTROL クエリを編集...]**」リンクを使用して、以下の方法で、母集団のターゲティングタイプおよび制限、選択基準を定義します。
 
@@ -157,13 +154,13 @@ Adobe Campaign データベースからデータを追加するには：
 ## 出力パラメーター {#output-parameters}
 
 * tableName
-* schema
+* スキーマ
 * recCount
 
-この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
+この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲット識別子を記録するテーブルの名前で、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）であり、**[!UICONTROL recCount]** はテーブル内の要素数です。
 
 この値は、ワークテーブルのスキーマです。
-このパラメーターは、**[!UICONTROL tableName]** と **[!UICONTROL schema]** のすべてのトランジションで有効です。
+このパラメーターは、**[!UICONTROL tableName]** と&#x200B;**[!UICONTROL スキーマ]**&#x200B;のすべてのトランジションで有効です。
 
 ## クエリの最適化 {#optimizing-queries}
 

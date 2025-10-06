@@ -6,8 +6,8 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
-workflow-type: ht
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
 
@@ -222,7 +222,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 >[!NOTE]
 >
->Adobe Campaign クエリエディターについては、[この節](../workflow/query.md)を参照してください。
+>Adobe Campaign クエリエディターについては、[この節](../../v8/start/query-editor.md)を参照してください。
 
 ### メインターゲットからのコントロール母集団の抽出 {#extract-the-control-group-from-the-main-target}
 

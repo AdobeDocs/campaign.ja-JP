@@ -6,18 +6,18 @@ feature: Query Editor, Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '222'
-ht-degree: 100%
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 77%
 
 ---
 
 # フィルターの作成 {#creating-a-filter}
 
-Adobe Campaign で使用可能なフィルターは、クエリと同じ操作モードで作成されるフィルター条件を使用して定義します。
+Adobe Campaignで使用可能なフィルターは、[ クエリエディター ](../../v8/start/query-editor.md) でクエリを作成する場合と同じ操作モードで作成されるフィルター条件を使用して定義されます。
 
-**[!UICONTROL 管理／設定／定義済みフィルター]**&#x200B;ノードには、リストおよび概要で使用するすべてのフィルターが含まれています。
+**[!UICONTROL 管理/設定/定義済みフィルター]** ノードには、デフォルトのフィルターがすべて含まれています。 一部は、リストや概要で使用されます。 [ 組み込みの定義済みフィルター ](../../v8/audiences/create-filters.md) の詳細を説明します。
 
 例えば、オペレーターのリストを「**[!UICONTROL アクティブなアカウント]**」でフィルターできます。
 

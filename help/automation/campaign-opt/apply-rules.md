@@ -4,10 +4,10 @@ title: タイポロジルールの適用
 description: タイポロジルールを適用する方法を学ぶ
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1019'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ルールの適用条件を定義するには、「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL ルール適用条件を編集...]**」リンクをクリックします。
 
-次に、クエリエディターを使用して、フィルター条件を定義します。以下の図では、ラベルに「offer」という語が含まれる配信または現在の日付以降に作成された配信のみに、処理能力ルールが適用されます。
+次に、[ クエリエディター ](../../v8/start/query-editor.md) を使用して、フィルター条件を定義します。 以下の図では、ラベルに「offer」という語が含まれる配信または現在の日付以降に作成された配信のみに、処理能力ルールが適用されます。
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 
