@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: ed390d5ddd817791dc4f5c2c1c621b594170a836
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '787'
 ht-degree: 97%
 
 ---
@@ -201,25 +201,25 @@ ht-degree: 97%
       + [ユーザー権限の管理](start/manage-permissions.md)
       + [フォルダーに対する権限の追加](start/folder-permissions.md)
    + [コントロールパネル](config/self-service.md)
-+ アーキテクチャと設定 {#config}
-   + Campaign v8 のアーキテクチャ {#architecture}
-      + [グローバル原則](architecture/general-architecture.md)
-      + [アーキテクチャモデル](architecture/architecture.md)
-      + [Campaign FDA デプロイメント](architecture/fda-deployment.md)
-      + エンタープライズ（FFDA）デプロイメント {#ffda}
-         + [Campaign FFDA とは](architecture/enterprise-deployment.md)
-         + [鍵の管理と単一性](architecture/keys.md)
-         + [新しい API](architecture/new-apis.md)
-         + [API のステージングメカニズム](architecture/staging.md)
-         + [レプリケーションメカニズム](architecture/replication.md)
++ アーキテクチャ {#architecture}
+   + [グローバル原則](architecture/general-architecture.md)
+   + [アーキテクチャモデル](architecture/architecture.md)
+   + [Campaign FDA デプロイメント](architecture/fda-deployment.md)
+   + エンタープライズ（FFDA）デプロイメント {#ffda}
+      + [Campaign FFDA とは](architecture/enterprise-deployment.md)
+      + [鍵の管理と単一性](architecture/keys.md)
+      + [新しい API](architecture/new-apis.md)
+      + [API のステージングメカニズム](architecture/staging.md)
+      + [レプリケーションメカニズム](architecture/replication.md)
++ 設定 {#config}
    + 実装 {#implement}
       + [実装手順](start/implement.md)
       + [インスタンスのカスタマイズ](dev/customize.md)
-      + [列挙の操作](dev/enumerations.md)
       + [データモデルのベストプラクティス](dev/datamodel-best-practices.md)
-   + 設定と指定 {#configuration}
+   + 設定 {#settings}
       + [ユーザーインターフェイス設定](config/ui-settings.md)
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
+      + [列挙の操作](dev/enumerations.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
       + [Campaign SDK とアプリの統合 - 非推奨（廃止予定）のページ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
