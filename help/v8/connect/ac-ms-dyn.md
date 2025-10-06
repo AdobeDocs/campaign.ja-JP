@@ -5,7 +5,7 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 99%
@@ -195,7 +195,7 @@ Adobe Campaign データと Microsoft CRM の間でデータを同期させる�
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-Campaign での列挙管理について詳しくは [&#x200B; このページ &#x200B;](../dev/enumerations.md) を参照してください。
+Campaign での列挙管理について詳しくは [ このページ ](../config/enumerations.md) を参照してください。
 
 ### サポートされているフィールドデータタイプ {#ms-dyn-supported-types}
 

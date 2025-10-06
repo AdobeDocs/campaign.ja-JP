@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 98%
@@ -223,7 +223,7 @@ ht-degree: 98%
 
 ### 列挙 {#enumerations}
 
-フィールド値を制御するために、空き、固定、またはデータベース ベースの [&#x200B; 列挙 &#x200B;](../dev/enumerations.md) を使用します。 入力が容易で、一貫性のあるデータと柔軟なスキーマデザインを実現するドロップダウンリストを提供します。
+フィールド値を制御するために、空き、固定、またはデータベース ベースの [ 列挙 ](../config/enumerations.md) を使用します。 入力が容易で、一貫性のあるデータと柔軟なスキーマデザインを実現するドロップダウンリストを提供します。
 
 #### 任意の定義済みリスト {#free-enumeration}
 

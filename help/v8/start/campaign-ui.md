@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 74%
@@ -34,7 +34,7 @@ Adobe Campaign には、クライアントコンソールまたは web ユーザ
 
 >[!CAUTION]
 >
->このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。Campaign v8 ユーザーとして Campaign web ユーザーインターフェイスを使用する場合は、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
+>このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。Campaign v8 ユーザーとして Campaign web ユーザーインターフェイスを使用する場合は、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
 
 ## クライアントコンソールの操作 {#ui-access}
 
@@ -48,11 +48,11 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 Campaign に接続したら、Adobe Campaignのホームページにアクセスします。 Campaign v8 では、中央のカードを使用して、新しい Campaign web ユーザーインターフェイスおよび Campaign コントロールパネルを参照します。
 
-![Campaign v8 クライアントコンソールホーム &#x200B;](assets/web-ui.png)
+![Campaign v8 クライアントコンソールホーム ](assets/web-ui.png)
 
 >[!NOTE]
 >
->Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント &#x200B;](../config/external-accounts.md) の **Server**、**Tenant**、**Callback server**、**Association mark** の各フィールドを空のままにしないでください。
+>Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント ](../config/external-accounts.md) の **Server**、**Tenant**、**Callback server**、**Association mark** の各フィールドを空のままにしないでください。
 
 ホームページから [Campaign Campaign コントロールパネル](../config/self-service.md) にアクセスすることもできます。
 
@@ -60,7 +60,7 @@ Campaign に接続したら、Adobe Campaignのホームページにアクセス
 
 Campaign に接続したら、Adobe Campaignのホームページにアクセスします。このホームページには、機能、ドキュメント、サポート web サイトおよび Campaign コミュニティにアクセスするためのリンクとショートカットが含まれています。
 
-![Campaign Classic v7 クライアントコンソールホーム &#x200B;](assets/v7_user_interface_home.png)
+![Campaign Classic v7 クライアントコンソールホーム ](assets/v7_user_interface_home.png)
 
 
 >[!ENDTABS]
@@ -191,5 +191,5 @@ Campaign v8 v8 v8 v8 v8.1 リリース以降では、Adobe Experience Cloudの�
 
 ## その他のリソース
 
-* **[列挙の操作](../dev/enumerations.md)** – 定義済みのドロップダウンリストを使用してフィールド値を標準化し、迅速で一貫性のあるデータ入力を可能にします。
+* **[列挙の操作](../config/enumerations.md)** – 定義済みのドロップダウンリストを使用してフィールド値を標準化し、迅速で一貫性のあるデータ入力を可能にします。
 * **[スキーマの列挙](../dev/schema-structure.md#enumerations)** - Campaign 開発者は、スキーマ内の無料、固定またはデータベースベースの列挙を使用して、フィールド値を制御します。

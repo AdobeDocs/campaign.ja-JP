@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 97%
@@ -163,4 +163,4 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 ## その他のリソース
 
 * **[Campaign ユーザーインターフェイスの概要](../start/campaign-ui.md)** - Adobe Campaign インターフェイスにアクセスして参照する方法を説明します。
-* **[列挙の操作](../dev/enumerations.md)** – 定義済みのドロップダウンリストを使用してフィールド値を標準化し、迅速で一貫性のあるデータ入力を可能にします。
+* **[列挙の操作](../config/enumerations.md)** – 定義済みのドロップダウンリストを使用してフィールド値を標準化し、迅速で一貫性のあるデータ入力を可能にします。

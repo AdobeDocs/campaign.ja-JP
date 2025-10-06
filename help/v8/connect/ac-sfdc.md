@@ -5,7 +5,7 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 97%
@@ -79,4 +79,4 @@ Adobe Campaign データと SFDC の間でデータを同期させるには、�
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-Campaign での列挙管理について詳しくは [&#x200B; このページ &#x200B;](../dev/enumerations.md) を参照してください。
+Campaign での列挙管理について詳しくは [ このページ ](../config/enumerations.md) を参照してください。
