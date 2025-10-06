@@ -5,7 +5,7 @@ feature: Query Editor
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 79cfde18cce2f9f48cbd6d77026350dec1a71536
 workflow-type: tm+mt
 source-wordcount: '3491'
 ht-degree: 99%
@@ -329,7 +329,7 @@ ht-degree: 99%
 
 ![](assets/query_editor_nveau_05.png)
 
-1. 「**[!UICONTROL 「フィールドのみ]**&#x200B;**[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
+1. 「**[!UICONTROL 「フィールドのみ]****[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
 1. 「**[!UICONTROL 集計]**」（「集計関数のプロセス」）。使用する集計の例は次のとおりです。
 
    * 「**[!UICONTROL カウント]**」では、プライマリキーカウントを実行できます。
@@ -352,7 +352,7 @@ ht-degree: 99%
 
 式エディターは次のように表示されます。
 
-![](assets/s_ncs_user_filter_define_expression.png)
+![](assets/filter-define-expression.png)
 
 式エディターではデータベーステーブルのフィールドを選択し、高度な関数を追加できます。次の関数を使用できます。
 
