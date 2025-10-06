@@ -5,10 +5,10 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
-workflow-type: ht
-source-wordcount: '1400'
-ht-degree: 100%
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+workflow-type: tm+mt
+source-wordcount: '1423'
+ht-degree: 98%
 
 ---
 
@@ -222,6 +222,8 @@ ht-degree: 100%
 `<sqldefault>`：フィールドの作成時に値を追加できます。この値は SQL 結果として表示されます。 スキーマを更新時に、この値の影響を受けるのは新しいレコードだけです。
 
 ### 列挙 {#enumerations}
+
+フィールド値を制御するために、空き、固定、またはデータベース ベースの [ 列挙 ](../dev/enumerations.md) を使用します。 入力が容易で、一貫性のあるデータと柔軟なスキーマデザインを実現するドロップダウンリストを提供します。
 
 #### 任意の定義済みリスト {#free-enumeration}
 

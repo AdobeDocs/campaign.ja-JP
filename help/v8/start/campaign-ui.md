@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 73%
+source-wordcount: '1129'
+ht-degree: 74%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign には、クライアントコンソールまたは web ユーザ
 
 >[!CAUTION]
 >
->このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。Campaign v8 ユーザーとして Campaign web ユーザーインターフェイスを使用する場合は、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
+>このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。Campaign v8 ユーザーとして Campaign web ユーザーインターフェイスを使用する場合は、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
 
 ## クライアントコンソールの操作 {#ui-access}
 
@@ -48,11 +48,11 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 Campaign に接続したら、Adobe Campaignのホームページにアクセスします。 Campaign v8 では、中央のカードを使用して、新しい Campaign web ユーザーインターフェイスおよび Campaign コントロールパネルを参照します。
 
-![Campaign v8 クライアントコンソールホーム &#x200B;](assets/web-ui.png)
+![Campaign v8 クライアントコンソールホーム ](assets/web-ui.png)
 
 >[!NOTE]
 >
->Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント &#x200B;](../config/external-accounts.md) の **Server**、**Tenant**、**Callback server**、**Association mark** の各フィールドを空のままにしないでください。
+>Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント ](../config/external-accounts.md) の **Server**、**Tenant**、**Callback server**、**Association mark** の各フィールドを空のままにしないでください。
 
 ホームページから [Campaign Campaign コントロールパネル](../config/self-service.md) にアクセスすることもできます。
 
@@ -60,7 +60,7 @@ Campaign に接続したら、Adobe Campaignのホームページにアクセス
 
 Campaign に接続したら、Adobe Campaignのホームページにアクセスします。このホームページには、機能、ドキュメント、サポート web サイトおよび Campaign コミュニティにアクセスするためのリンクとショートカットが含まれています。
 
-![Campaign Classic v7 クライアントコンソールホーム &#x200B;](assets/v7_user_interface_home.png)
+![Campaign Classic v7 クライアントコンソールホーム ](assets/v7_user_interface_home.png)
 
 
 >[!ENDTABS]
@@ -189,25 +189,7 @@ Campaign v8 v8 v8 v8 v8.1 リリース以降では、Adobe Experience Cloudの�
 </table>
 
 
+## その他のリソース
 
-## デフォルトの単位 {#default-units}
-
-有効期間（配信のリソースの有効期間、タスクの承認期限など）を表すフィールドでは、値を次の&#x200B;**単位**&#x200B;で表すことができます。
-
-* **[!UICONTROL s]**（秒）
-* **[!UICONTROL mn]**（分）
-* **[!UICONTROL h]**（時間）
-* **[!UICONTROL d]**（日）
-
-
-## 定義済みリスト {#enumeration}
-
-ドロップダウンリストの入力フィールドを使用して、列挙値を入力できます。この値を保存して、ドロップダウンリストのオプションとして指定できます。
-
-例えば、受信者プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 市区町村]**」フィールドで、「ロンドン」と入力します。Enter キーを押してこの値を確認すると、フィールドに関連付けられている列挙にこの値を保存するかどうかを尋ねるメッセージが表示されます。  **[!UICONTROL はい]** をクリックすると、この値は関連するフィールドのドロップダウンで使用できるようになります。
-
-列挙（「定義済みリスト」とも呼ばれます）は、管理者が&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;セクションで管理します。
-
-方法を学ぶ [&#x200B; 列挙の操作 &#x200B;](../dev/enumerations.md)
-
-詳しくは、[&#x200B; スキーマの列挙 &#x200B;](../dev/schema-structure.md#enumerations) を参照してください
+* **[列挙の操作](../dev/enumerations.md)** – 定義済みのドロップダウンリストを使用してフィールド値を標準化し、迅速で一貫性のあるデータ入力を可能にします。
+* **[スキーマの列挙](../dev/schema-structure.md#enumerations)** - Campaign 開発者は、スキーマ内の無料、固定またはデータベースベースの列挙を使用して、フィールド値を制御します。

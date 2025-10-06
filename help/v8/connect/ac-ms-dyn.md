@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
-workflow-type: ht
-source-wordcount: '1410'
-ht-degree: 100%
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
+workflow-type: tm+mt
+source-wordcount: '1420'
+ht-degree: 99%
 
 ---
 
@@ -194,6 +194,8 @@ Adobe Campaign の列挙のすべての値を CRM の値に置き換えること
 Adobe Campaign データと Microsoft CRM の間でデータを同期させるには、ワークフローを作成し、**[!UICONTROL CRM コネクタ]**&#x200B;アクティビティを使用します。
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
+
+Campaign での列挙管理について詳しくは [ このページ ](../dev/enumerations.md) を参照してください。
 
 ### サポートされているフィールドデータタイプ {#ms-dyn-supported-types}
 
