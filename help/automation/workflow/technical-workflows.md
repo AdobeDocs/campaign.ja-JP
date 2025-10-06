@@ -6,10 +6,10 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+workflow-type: tm+mt
 source-wordcount: '2080'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 
 カスタムのテクニカルワークフローは、ツリー構造の&#x200B;**[!UICONTROL 管理／プロダクション／テクニカルワークフロー]**&#x200B;ノードで作成できます。テクニカルワークフローの作成には、ネイティブテンプレートを使用できます。ニーズに合わせて、テンプレートをカスタマイズできます。ただし、このプロセスを実行できるのは、エキスパートユーザーに限られます。テクニカルワークフローで使用できるアクティビティは、ターゲティングワークフローで提供されるものと同じです。[詳細情報](targeting-workflows.md)。
 
-## 組み込みのテクニカルワークフロー {#list-technical-workflows}
+## ビルトインのテクニカルワークフロー {#list-technical-workflows}
 
-このページで詳しく説明するワークフローは、Adobe Campaign 組み込みパッケージと共にインストールされます。これらのパッケージと関連テクニカルワークフローは、ライセンス契約とアドオンによって異なります。
+このページで詳しく説明するワークフローは、Adobe Campaign ビルトインのパッケージと共にインストールされます。これらのパッケージと関連テクニカルワークフローは、ライセンス契約とアドオンによって異なります。
 
 | テクニカルワークフロー | パッケージ | 説明 |
 |------|--------|-----------|
-| **エイリアスクレンジング**（aliasCleansing） | デフォルトでインストール | 列挙値を標準化します。デフォルトで、毎日午前 3 時にトリガーされます。 |
+| **エイリアスクレンジング**（aliasCleansing） | デフォルトでインストール | このワークフローは、[ 列挙 ](../../v8/config/enumerations.md#alias-cleansing) 値を標準化します。 デフォルトで、毎日午前 3 時にトリガーされます。 |
 | **請求**（請求） | デフォルトでインストール | このワークフローでは、「請求」担当者にメールでシステムアクティビティレポートを送信します。マーケティングインスタンスで、毎月25日にトリガーされます。 |
 | **Campaign ジョブ**（operationMgt） | デフォルトでインストール | マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。 |
 | **ヒートマップサービスのデータを収集**（collectDataHeatMapService） | デフォルトでインストール | このワークフローは、ヒートマップサービスに必要なデータを取得します。 |
@@ -81,7 +81,7 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 | **nmsDlvExclusion キューをレプリケート**（ffdaReplicateQueueDlvExclusion） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:dlvExclusion` テーブルのキュー。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
 | **nmsDlvMidRemoteIdRel キューをレプリケート**（ffdaReplicateQueueDlvMidRemoteIdRel） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:dlvRemoteIdRel` テーブルのキュー。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
 | **nmsTrackingUrl キューをレプリケート**（ffdaReplicateQueueTrackingUrl）<br/>**nmsTrackingUrl キューを並行してレプリケート**（ffdaReplicateQueueTrackingUrl_2） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | `nms:trackingUrl` テーブルに対して並行してキューを作成し、2 つのワークフローを利用して、異なる優先度に基づいてリクエストを処理することで効率を向上させます。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
-| **参照テーブルをレプリケート**（ffdaReplicateReferenceTables） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | Campaign のローカルデータベース（PostgreSQL）とクラウドデータベース（[!DNL Snowflake]）に不可欠な組み込みテーブルの自動レプリケーションを実行します。毎日 1 時間ごとに実行するようにスケジュールされます。**lastModified** フィールドが存在する場合、レプリケーションは増分的に行われます。存在しない場合はテーブル全体がレプリケートされます。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
+| **参照テーブルをレプリケート**（ffdaReplicateReferenceTables） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | Campaign のローカルデータベース（PostgreSQL）とクラウドデータベース（[!DNL Snowflake]）に不可欠なビルトインのテーブルの自動レプリケーションを実行します。毎日 1 時間ごとに実行するようにスケジュールされます。**lastModified** フィールドが存在する場合、レプリケーションは増分的に行われます。存在しない場合はテーブル全体がレプリケートされます。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
 | **ステージングデータをレプリケート**（ffdaReplicateStagingData） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | 単一の呼び出し用にステージングデータをレプリケートします。毎日 1 時間ごとに実行するようにスケジュールされます。[データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
 | **レポート集計**（reportingAggregates） | 配信 | レポートで使用される集計を更新します。デフォルトで、毎日午前 2 時にトリガーされます。 |
 | **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | このワークフローを使用すると、Adobe® Analytics コネクタ経由で、Adobe Campaign から Adobe Experience Cloud スイートにメールキャンペーンの指標を送信できます。該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |

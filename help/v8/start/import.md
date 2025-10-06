@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '4360'
-ht-degree: 100%
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+workflow-type: tm+mt
+source-wordcount: '4363'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
    * **[!UICONTROL 列挙を更新しない]**
 
-     データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。
+     データベース内の列挙値のリストをエンリッチメントしない場合に、このオプションを選択します。[ 列挙 ](../config/enumerations.md) の詳細情報。
 
 * 「**[!UICONTROL 変数]**」タブ
 
@@ -300,7 +300,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 >[!NOTE]
 >
->この手順は、受信者のみをインポートする場合と、デフォルトの Adobe Campaign 受信者テーブル（**nms:recipient**）を使用する場合に表示されます。
+>この手順は、受信者のみを読み込む場合と、デフォルトのAdobe Campaign受信者テーブル（**nms:recipient**）を使用する場合に表示されます。
 
 * 「**[!UICONTROL 編集]**」リンクをクリックして、受信者の関連付けまたは購読登録をおこなうフォルダー、リストまたはサービスを選択します。
 

@@ -5,10 +5,10 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 1. 別のディメンションを作成して、受信者の市区町村に関連するデータを分析します。それには、新しいディメンションを追加し、受信者スキーマの&#x200B;**[!UICONTROL 場所]**&#x200B;ノードに属している「市区町村」を選択します。
 
-ビニングを有効にして情報を読み取りやすくし、値を列挙にリンクします。
+ビニングを有効にすると、情報を読みやすくなり、値を [ 列挙 ](../config/enumerations.md) にリンクできます。
 
 ドロップダウンリストから列挙を選択します。この列挙は、**[!UICONTROL ビニング用に予約済み]**&#x200B;として定義する必要があります。
 

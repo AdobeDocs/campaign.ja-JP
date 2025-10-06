@@ -6,8 +6,8 @@ feature: Campaigns, Templates
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
-workflow-type: ht
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 100%
 
@@ -169,8 +169,7 @@ ht-degree: 100%
 * テンプレートの&#x200B;**ラベル**&#x200B;を入力します。このラベルは必須であり、このテンプレートをベースとするすべてのキャンペーンのデフォルトラベルです。
 * ドロップダウンリストからキャンペーンの&#x200B;**特性**&#x200B;を選択します。このリストに表示される値は、**[!UICONTROL natureOp]** 列挙に保存されている値です。
 
-列挙にアクセスして設定する方法については、[このページ](../../v8/config/ui-settings.md#enumerations)を参照してください。
-
+  列挙にアクセスして設定する方法については、[このページ](../../v8/config/enumerations.md)を参照してください。
 
 * **キャンペーンのタイプ**&#x200B;を選択：単一、繰り返しまたは定期的。デフォルトでは、キャンペーンテンプレートは単一のキャンペーンに適用されます。繰り返しキャンペーンと定期的キャンペーンについて詳しくは、[こちらの節](recurring-periodic-campaigns.md)を参照してください。
 * キャンペーン期間、すなわちキャンペーンが実施される日数を指定します。このテンプレートをベースとしてキャンペーンを作成すると、キャンペーンの開始日と終了日が自動的に設定されます。

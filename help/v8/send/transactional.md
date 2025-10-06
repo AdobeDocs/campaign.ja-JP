@@ -5,16 +5,16 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 99%
 
 ---
 
 # トランザクションメッセージの概要{#send-transactional-messages}
 
-トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらの通知は、情報システムからトリガーされたイベントから生成されます。例えば、請求書、注文確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などがあります。
+トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。これらの通知は、情報システムからトリガーされたイベントから生成されます。例えば、請求書、注文確認、発送確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などがあります。
 
 >[!NOTE]
 >
@@ -73,6 +73,6 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 
 >[!NOTE]
 >
->列挙について詳しくは、[このページ](../../v8/config/ui-settings.md#enumerations)を参照してください。
+>[ 列挙 ](../config/enumerations.md) の詳細情報。
 
 次の手順では、[トランザクションメッセージ用のテンプレートを作成して公開](transactional-template.md)する方法について説明します。

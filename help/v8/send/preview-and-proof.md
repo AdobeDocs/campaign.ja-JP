@@ -5,10 +5,10 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 100%
+source-wordcount: '751'
+ht-degree: 96%
 
 ---
 
@@ -48,8 +48,9 @@ ht-degree: 100%
 配達確認ターゲットのタイプは、**[!UICONTROL ターゲティングモード]**&#x200B;のドロップダウンリストから選択します。
 
 * 「**[!UICONTROL 特定の配達確認ターゲットの定義]**」オプションを使用して、配達確認ターゲットとしてデータベース内の受信者を選択します。
-* 「**[!UICONTROL アドレスの代用]**」オプションを使用してメールアドレスを入力し、ターゲット受信者データを使用してコンテンツを検証します。代用アドレスは、手動で入力することも、ドロップダウンリストから選択することもできます。関連する定義済みリストは、代用アドレス（rcpAddress）です。
-デフォルトでは、代用はランダムに実行されますが、「**[!UICONTROL 詳細]**」アイコンを使用して、メインターゲットから特定の受信者を選択することもできます。
+* 「**[!UICONTROL アドレスの代用]**」オプションを使用してメールアドレスを入力し、ターゲット受信者データを使用してコンテンツを検証します。代用アドレスは、手動で入力することも、ドロップダウンリストから選択することもできます。関連する [ 列挙 ](../config/enumerations.md) は、**代替アドレス（rcpAddress）** です。
+
+  デフォルトでは、代用はランダムに実行されますが、「**[!UICONTROL 詳細]**」アイコンを使用して、メインターゲットから特定の受信者を選択することもできます。
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
@@ -62,7 +63,7 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >シードアドレスはデフォルトの受信者テーブル（nms:recipient）には属さず、別のテーブルで作成されます。新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。
+  >シードアドレスはデフォルトの受信者テーブル（nms:recipient）には属さず、別のテーブルで作成されます。 新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。
 
   シードアドレスの詳細については、[こちらの節](../audiences/test-profiles.md)を参照してください。
 
@@ -105,4 +106,4 @@ ht-degree: 100%
 
 メール配信の配達確認を送信して検証する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447000?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

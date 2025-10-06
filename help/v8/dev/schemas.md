@@ -5,10 +5,10 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 98%
+source-wordcount: '1255'
+ht-degree: 94%
 
 ---
 
@@ -98,7 +98,7 @@ Adobe Campaign キャンペーンのビルトインテーブルとそのやり�
 
 ## Campaign スキーマの作成または拡張 {#create-or-extend-schemas}
 
-Campaign の中核となるデータスキーマ（受信者テーブル nms:recipient など）にフィールドなどの要素を追加する場合は、スキーマを拡張する必要があります。
+Campaign の中核となるデータスキーマ（受信者テーブル nms:recipient など）にフィールドなどの要素を追加する場合は、スキーマの拡張を行う必要があります。
 
 詳しくは、[スキーマの拡張](extend-schema.md)を参照してください。
 
@@ -117,7 +117,7 @@ Adobe Campaign に存在しないまったく新しいタイプのデータ（�
 
 例：
 
-```
+```xml
 <enumeration basetype="byte" name="exTransactionTypeEnum" default="store">
 <value label="Website" name="web" value="0"/>
 <value label="Call Center" name="phone" value="1"/>
@@ -127,7 +127,7 @@ Adobe Campaign に存在しないまったく新しいタイプのデータ（�
 
 フィールドを定義する際は、次のような定義済みリストを使用できます。
 
-```
+```xml
 <attribute desc="Type of Transaction" label="Transaction Type" name="transactionType" 
 type="string" enum="exTransactionTypeEnum"/>
 ```
@@ -178,7 +178,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 例：
 
-```
+```xml
 <key name="householdId" internal="true">
   <keyfield xpath="@householdId"/>
 </key>
@@ -206,25 +206,25 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 デフォルト値の定義例：
 
-```
+```xml
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
 ```
 
 必須のマークも付けるフィールドのテンプレートとして共通属性を使用する例：
 
-```
+```xml
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
 “”**@advanced** 属性を使用して非表示にする計算フィールドの例。
 
-```
+```xml
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
 **@dataPolicy** 属性を持ち、SQL フィールドにも格納される XML フィールドの例。
 
-```
+```xml
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
 ```
 
@@ -246,19 +246,19 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 受信者テーブル（標準提供のスキーマ）とカスタムトランザクションテーブルの間の 1 - N リンクの例：
 
-```
+```xml
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
 カスタムスキーマ「Car」（「cus」名前空間内）と受信者テーブルの間の 1 - 1 リンクの例：
 
-```
+```xml
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
 受信者テーブルと、プライマリキーでないメールアドレスで構成されるアドレステーブルとの外部結合の例：
 
-```
+```xml
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">
   <join xpath-dst="@address" xpath-src="@email"/>
 </element>
@@ -272,7 +272,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 次の例を使用すると、テーブル内のすべてのデータの作成日、作成者、最終更新日、最終更新者に関するフィールドを含めることができます。
 
-```
+```xml
 <element aggregate="xtk:common:auditTrail" name="auditTrail"/>
 ```
 

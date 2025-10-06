@@ -1,13 +1,13 @@
 ---
 title: カスタムチャネルの基本を学ぶ
-description: Adobe Campaign web でカスタムチャネル配信を作成および送信する方法について説明します
+description: Adobe Campaign web でカスタムチャネル配信を作成および送信する方法について説明します。
 role: User
 level: Beginner, Intermediate
 exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
-source-git-commit: e2c7529fb7dc033f35f9c0d2e73273d7f20bac64
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
@@ -19,13 +19,13 @@ Adobe Campaignでは、カスタムの外部チャネルまたは API チャネ�
 
 カスタムチャネルに基づいて配信を作成して送信する方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"} を参照してください。
 
-クライアントコンソールで新しいカスタムチャネルを設定する手順を以下に示します。 これらの手順は、カスタムの外部チャネルと API チャネルに共通です。
+クライアントコンソールで新しいカスタムチャネルを設定する手順を以下に示します。 次の手順は、カスタム外部チャネルと API チャネルに共通です。
 
 1. スキーマを設定します。[詳細情報](#configure-schema)
 1. 新しい外部アカウントを作成します。[詳細情報](#create-ext-account)
 1. 新しい配信テンプレートを作成します。[詳細情報](#create-template)
 
-カスタム API チャネルの場合は、追加の設定が必要です。 [詳細情報](#api-additional)
+カスタム API チャネルには、追加の設定が必要です。[詳細情報](#api-additional)
 
 ## スキーマの設定{#configure-schema}
 
@@ -33,7 +33,7 @@ Adobe Campaignでは、カスタムの外部チャネルまたは API チャネ�
 
 1. Campaign エクスプローラーから、**管理**／**設定**／**データスキーマ**&#x200B;を選択します。
 
-1. 新しいチャネルで messageType 定義済みリストを拡張するスキーマ拡張を作成します。
+1. スキーマ拡張を作成して、新しいチャネルで **messageType**[enumeration](../config/enumerations.md) を拡張します。
 
    例：
 
@@ -90,7 +90,7 @@ Campaign web UI で、カスタム画面定義を設定します。
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=ja#fields){target="_blank"} を参照してください。
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"} を参照してください。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

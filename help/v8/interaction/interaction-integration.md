@@ -5,10 +5,10 @@ description: Web ページでのオファーの追加方法を学ぶ
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 100%
+source-wordcount: '1479'
+ht-degree: 95%
 
 ---
 
@@ -175,7 +175,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
    このスキーマは、「Title 2」（タイトル 2）および「Price」（価格）フィールドを定義します。
 
-   この例のスキーマの名前は **cus:offer** です。
+   この例のスキーマの名前は **cus:offer** です
 
    ```
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
@@ -318,11 +318,11 @@ XML レンダリング関数を使用して、オファー表示域を作成で�
 
 ### オファーの提案 {#offer-proposition}
 
-SOAP によるオファーの提案の場合、**nms:proposition#Propose** コマンドを追加し、その後に次のパラメーターが続きます。
+SOAPを使用したオファーの提案の場合は、**nms:proposition#Propose** コマンドを追加した後に、次のパラメーターを入力します。
 
 * **targetId**：受信者のプライマリキー（複合キーも使用可能）。
 * **maxCount**：そのコンタクト先に対するオファーの提案の数を指定します。
-* **context**：スペーススキーマにコンテキスト情報を追加できます。使用されるスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
+* **context**：スペーススキーマにコンテキスト情報を追加できます。使用されるスキーマが **nms:interaction** の場合は、**`<empty>`** を追加する必要があります。
 * **categories**：オファーが属する必要があるカテゴリを指定します。
 * **themes**：オファーが属する必要があるテーマを指定します。
 * **uuid**：Adobe Campaign の永続 Cookie の値です（&quot;uuid230&quot;）。
@@ -340,11 +340,11 @@ SOAP によるオファーの提案の場合、**nms:proposition#Propose** コ�
 
 ### オファーの更新 {#offer-update}
 
-URL に **nms:interaction#UpdateStatus** コマンドを追加し、その後に次のパラメーターが続きます。
+**nms:interaction#UpdateStatus** コマンドを URL に追加し、続いて次のパラメーターを追加します。
 
 * **proposition**：文字列。オファー提案中の出力として取得した提案 ID が含まれます。[オファーの提案](#offer-proposition)を参照してください。
-* **status**：文字列。オファーの新しいステータスを指定します。使用可能な値のリストについては、**nms:common** スキーマの **propositionStatus** 列挙を参照してください。例えば、デフォルトでは、数字の 3 が&#x200B;**許可済み**&#x200B;ステータスに対応します。
-* **context**：XML 要素。スペーススキーマにコンテキスト情報を追加できます。使用されるスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
+* **status**：文字列。オファーの新しいステータスを指定します。可能な値は、**nms** スキーマの [propositionStatus](../config/enumerations.md) **enumeration:common** に一覧表示されます。 例えば、デフォルトでは、数字の 3 が&#x200B;**許可済み**&#x200B;ステータスに対応します。
+* **context**：XML 要素。スペーススキーマにコンテキスト情報を追加できます。使用されるスキーマが **nms:interaction** の場合は、**`<empty>`** を追加する必要があります。
 
 ### SOAP 呼び出しの使用例 {#example-using-a-soap-call}
 
