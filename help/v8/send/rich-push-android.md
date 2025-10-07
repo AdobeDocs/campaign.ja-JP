@@ -5,8 +5,9 @@ description: Adobe Campaign web を使用したリッチプッシュ通知配信
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '2311'
 ht-degree: 100%

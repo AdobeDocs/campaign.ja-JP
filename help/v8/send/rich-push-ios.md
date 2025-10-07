@@ -5,8 +5,9 @@ description: Adobe Campaign web を使用した iOS のリッチプッシュ通�
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
-source-git-commit: fef2c829da637b43067147b51aff7030d25c9744
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 100%

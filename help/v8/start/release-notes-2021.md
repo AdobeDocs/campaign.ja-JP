@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
-workflow-type: ht
-source-wordcount: '1588'
-ht-degree: 100%
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+workflow-type: tm+mt
+source-wordcount: '1584'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ _2021年9月7日_
 * Tomcat 8 への移行後に、IIS セットアップスクリプトが更新されて、IIS 統合の問題が修正されました。（NEO-31019）
 * ガードレールが追加されて、マーケティングインスタンス上で[請求テクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ja#billing-report)を実行できるようになりました。
 * ワークフロートランジションの&#x200B;**母集団を表示**&#x200B;ウィンドウのデータタブとスキーマタブで、データソースの識別が改善されました。
-* データベースの更新の問題を防ぐために、欠落していたデータベースインデックスが、xtk:rights、nms:dlvExclusion、nms:seedMember、nms:trackingUrl の各スキーマに追加されました。
+* データベースの更新の問題を防ぐために、欠落していたデータベースインデックスが、xtk:rights、nms:dlvExclusion、nms:seedMember、nms の各スキーマに追加されました :trackingUrl
 
 **パッチ**
 
@@ -179,7 +179,7 @@ _2021 年 7 月 23 日（PT）_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign v8 では、<a href="../send/transactional.md">トランザクションメッセージ</a>モジュールと組み合わせることで、以下のような機能強化を含め、<a href="../send/line.md">LINE チャネル</a>が利用可能になりました。
+<td> <p>Campaign v8 では、<a href="../send/transactional.md">トランザクションメッセージ</a>モジュールと組み合わせることで、以下のような機能強化を含め、<a href="../send/line/line.md">LINE チャネル</a>が利用可能になりました。
 <ul> 
 <li><p>訪問者が LINE 配信でターゲットにされない可能性がある問題を修正しました。 
 </p></li>

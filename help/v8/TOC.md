@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 97%
@@ -82,7 +82,7 @@ ht-degree: 97%
          + [iOS のリッチプッシュ配信の設計](send/rich-push-ios.md)
       + [プッシュ通知チャネルを設定](send/push-settings.md)
       + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
-   + [LINE メッセージ](send/line.md)
+   + [LINE メッセージ](send/line/line.md)
    + [ダイレクトメール](send/direct-mail.md)
    + [X（Twitter）](send/twitter.md)
    + [カスタム外部チャネル](send/custom-channel.md)
@@ -135,7 +135,7 @@ ht-degree: 97%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -175,7 +175,7 @@ ht-degree: 97%
          + [ビルトインの指標の計算](reporting/metrics-calculation.md)
       + [カスタムレポート](reporting/custom-reports.md)
 + データ管理 {#data}
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
    + [データのインポート](start/import.md)
    + クエリの作成 {#query}
       + [クエリの設計](start/query-editor.md)
