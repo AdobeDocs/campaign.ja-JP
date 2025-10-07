@@ -71,11 +71,11 @@ ht-degree: 91%
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-パーソナライズされた URL を抽出ファイルに挿入できます。 詳しくは、Adobe Campaign Classic[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"} を参照してください。
+パーソナライズされた URL を抽出ファイルに挿入できます。 詳しくは、Adobe Campaign Classic[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=ja){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->このアシスタントには、Adobe Campaign Classicの詳細を説明するエクスポートアシスタントの手順が含まれています [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}..
+>このアシスタントには、Adobe Campaign Classicの詳細を説明するエクスポートアシスタントの手順が含まれています [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=ja){target="_blank"}..
 
 ## 配信の検証{#validating}
 
