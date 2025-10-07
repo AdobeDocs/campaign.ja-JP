@@ -71,11 +71,11 @@ ht-degree: 91%
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-パーソナライズされた URL を抽出ファイルに挿入できます。 詳しくは、Adobe Campaign Classic[ ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"} を参照してください。
+パーソナライズされた URL を抽出ファイルに挿入できます。 詳しくは、Adobe Campaign Classic[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->このアシスタントには、Adobe Campaign Classicの詳細を説明するエクスポートアシスタントの手順が含まれています [ ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}..
+>このアシスタントには、Adobe Campaign Classicの詳細を説明するエクスポートアシスタントの手順が含まれています [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}..
 
 ## 配信の検証{#validating}
 
@@ -85,11 +85,11 @@ ht-degree: 91%
 
 配信を検証する際のグローバル概念については、[この節](../start/create-message.md#validate-the-delivery)で説明しています。
 
-ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。ファイルの内容は、選択した出力列によって異なります（この [ セクションファイル ](#defining-the-direct-mail-content) を参照）。
+ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。ファイルの内容は、選択した出力列によって異なります（この [&#x200B; セクションファイル &#x200B;](#defining-the-direct-mail-content) を参照）。
 
 >[!NOTE]
 >
->分析フェーズについて詳しくは、この [ 節 ](delivery-analysis.md) を参照してください。
+>分析フェーズについて詳しくは、この [&#x200B; 節 &#x200B;](delivery-analysis.md) を参照してください。
 
 分析フェーズではファイルが生成されますが、受信者に関する情報（配信ログなど）は更新されません。したがって、このジョブをキャンセルしても問題は発生しません。
 
