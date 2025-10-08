@@ -20,7 +20,7 @@ ht-degree: 93%
 ## クエリを作成します。 {#creating-a-query}
 
 クエリを使用すると、条件に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
-のユースケースを通じてクエリを作成する方法を説明します [ この節 ](querying-recipient-table.md)。 [ クエリエディター ](../../v8/start/query-editor.md) に関する節も参照してください。
+のユースケースを通じてクエリを作成する方法を説明します [&#x200B; この節 &#x200B;](querying-recipient-table.md)。 [&#x200B; クエリエディター &#x200B;](../../v8/start/query-editor.md) に関する節も参照してください。
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
@@ -52,7 +52,7 @@ ht-degree: 93%
 
    また、対応するボックスを選択することで、データのグループ化条件を追加できます。それには、フィルタリングディメンションが、クエリのターゲティングディメンションとは異なっている必要があります。グループ化について詳しくは、この[節](query-grouping-management.md)を参照してください。
 
-   [ 式ビルダー ](../../v8/start/filter-conditions.md#using-and--or--except) を、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。
+   [&#x200B; 式ビルダー &#x200B;](../../v8/start/filter-conditions.md#using-and--or--except) を、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。
 
    後で再利用したい場合、フィルターを保存します。
 

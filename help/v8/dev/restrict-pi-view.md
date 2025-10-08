@@ -39,7 +39,7 @@ ht-degree: 94%
 
 主なプロパティは次のとおりです。
 
-* **[!UICONTROL visibleIf]**：メタデータからフィールドが非表示になります。したがって、スキーマ表示、列選択、[ 式ビルダー ](../../v8/start/filter-conditions.md#list-of-functions) 内でフィールドにアクセスすることはできません。 ただし、フィールド名を式に手動で入力した場合は、値が表示され、データは非表示にはなりません。
+* **[!UICONTROL visibleIf]**：メタデータからフィールドが非表示になります。したがって、スキーマ表示、列選択、[&#x200B; 式ビルダー &#x200B;](../../v8/start/filter-conditions.md#list-of-functions) 内でフィールドにアクセスすることはできません。 ただし、フィールド名を式に手動で入力した場合は、値が表示され、データは非表示にはなりません。
 * **[!UICONTROL accessibleIf]**：結果のクエリからデータを非表示にします（空の値に置き換えます）。visibleIf が空の場合、**[!UICONTROL accessibleIf]** と同じ式を取得します。
 
 Campaign でこの属性を使用した場合の結果は次のとおりです。
