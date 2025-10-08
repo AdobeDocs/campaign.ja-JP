@@ -5,10 +5,10 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 主なプロパティは次のとおりです。
 
-* **[!UICONTROL visibleIf]**：メタデータからフィールドが非表示になります。したがって、スキーマ表示、列選択、式ビルダー内でフィールドにアクセスすることはできません。ただし、フィールド名を式に手動で入力した場合は、値が表示され、データは非表示にはなりません。
+* **[!UICONTROL visibleIf]**：メタデータからフィールドが非表示になります。したがって、スキーマ表示、列選択、[ 式ビルダー ](../../v8/start/filter-conditions.md#list-of-functions) 内でフィールドにアクセスすることはできません。 ただし、フィールド名を式に手動で入力した場合は、値が表示され、データは非表示にはなりません。
 * **[!UICONTROL accessibleIf]**：結果のクエリからデータを非表示にします（空の値に置き換えます）。visibleIf が空の場合、**[!UICONTROL accessibleIf]** と同じ式を取得します。
 
 Campaign でこの属性を使用した場合の結果は次のとおりです。
