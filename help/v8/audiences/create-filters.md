@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 72e3f643d0e53c22c5007aab431689ebeca7403c
 workflow-type: tm+mt
 source-wordcount: '1999'
 ht-degree: 85%
@@ -69,7 +69,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 例えば配信の場合は、次に示すように、完了した配信のみを表示するように選択できます。
 
-![](assets/d_ncs_user_interface_filter_delivery.png)
+![](assets/filter_delivery.png)
 
 >[!TAB  並べ替え順 ]
 
@@ -83,7 +83,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 検索フィールドを使用して、探している項目にすばやくアクセスできます。表示する項目のラベルまたは内部名に含まれている文字を入力し、確定してページ上のデータに自動フィルターを適用します。
 
-![](assets/d_ncs_user_interface_filter_search.png)
+![](assets/filter_search.png)
 
 再度すべての項目を表示するには、バツ印をクリックして検索フィールドのコンテンツを削除します。
 
