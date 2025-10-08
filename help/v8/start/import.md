@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '4141'
-ht-degree: 99%
+source-wordcount: '4162'
+ht-degree: 98%
 
 ---
 
@@ -416,9 +416,13 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 ### 手順 8 - データのプレビュー {#step-8---data-preview}
 
-エクスポート結果をプレビューするには、「**[!UICONTROL データのプレビューを開始]**」をクリックします。デフォルトでは、最初の 200 ラインが表示されます。この値を変更するには、「**[!UICONTROL 表示するライン]**」フィールドの右側にある矢印をクリックします。
+エクスポート結果をプレビューするには、「**[!UICONTROL データのプレビューを開始]**」をクリックします。
 
 ![](assets/s_ncs_user_export_wizard07.png)
+
+>[!NOTE]
+>
+>コンソールで使用可能なすべてのリストと同様に、デフォルトでは、最初の 200 行のみが **[!UICONTROL データプレビュー]** ウィンドウに表示されます。 これを変更するには、「**[!UICONTROL 表示する行]**」ボックスに数値を入力し、「**[!UICONTROL データのプレビューを開始]**」をクリックします。 [詳細情報](../config/ui-settings.md#manage-and-customize-lists)
 
 アシスタントの下部にあるタブをクリックして、結果のプレビューを列表示から XML に切り替えます。また、生成された SQL クエリを表示することもできます。
 
