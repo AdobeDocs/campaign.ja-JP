@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 100%
+source-wordcount: '1611'
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
    次のターゲットタイプを使用できます。
 
-   * **[!UICONTROL フィルター条件]**：このオプションを使用して、クエリを定義し、結果を表示します。クエリのデザインについて詳しくは、[この節](../start/query-editor.md)を参照してください。
+   * **[!UICONTROL フィルター条件]**：受信者を取得するカスタムクエリを定義する場合に使用します。 クエリのデザインについて詳しくは、[この節](../start/query-editor.md)を参照してください。
    * **[!UICONTROL 受信者のリスト]**：このオプションを使用して、プロファイルのリストをターゲットに指定します。リストについて詳しくは、[この節](../audiences/create-audiences.md)を参照してください。
    * **[!UICONTROL 受信者]**：このオプションを使用して、データベース内の特定のプロファイルを選択します。
    * **[!UICONTROL フォルダーに含まれている受信者]**：このオプションを使用して、特定のフォルダーに含まれているすべてのプロファイルをターゲットに指定します。
@@ -182,7 +182,7 @@ ht-degree: 100%
 
 このビデオでは、既存のメールにシードと配達確認を追加する方法とそれを送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447000?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Campaign Classic に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=ja)で参照できます。
 
