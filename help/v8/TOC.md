@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 449f24cb23afa2d6bd7d6f2ad7ff3ba65e0a1d5d
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '796'
 ht-degree: 96%
 
 ---
@@ -117,6 +117,7 @@ ht-degree: 96%
    + [プロファイルとオーディエンスの基本を学ぶ](audiences/gs-audiences.md)
    + [オーディエンスの操作](start/audiences.md)
    + [プロファイルへのアクセス](audiences/view-profiles.md)
+   + [フィルターの操作](audiences/create-filters.md)
    + プロファイルの追加 {#add-profiles}
       + [プロファイルの手動作成](audiences/create-profiles.md)
       + [ファイルからのプロファイルのインポート](audiences/import-profiles.md)
@@ -125,8 +126,7 @@ ht-degree: 96%
       + [ターゲットマッピングの操作](audiences/target-mappings.md)
       + [テストプロファイルを作成](audiences/test-profiles.md)
    + オーディエンスの作成 {#create-audiences}
-      + [連絡先リストの作成](audiences/create-audiences.md)
-      + [フィルターの作成と管理](audiences/create-filters.md)
+      + [連絡先のリストの作成](audiences/create-audiences.md)
       + [オーディエンスをアドビソリューションと共有](start/shared-audiences.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
    + [購読を管理](start/subscriptions.md)
@@ -135,7 +135,7 @@ ht-degree: 96%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -180,7 +180,7 @@ ht-degree: 96%
       + [クエリの設計](start/design-queries.md)
       + [フィルター条件の定義](start/filter-conditions.md)
    + [データのインポート](start/import.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}

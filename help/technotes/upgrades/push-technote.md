@@ -5,13 +5,11 @@ description: プッシュ通知チャネルの今後の変更
 feature: Push
 role: Admin
 level: Experienced
-badge-v7: label="v7" type="Informative" tooltip="Campaign Classic v7 にも適用されます"
-badge-v8: label="v8" type="Positive" tooltip="Campaign v8 に適用されます"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a9aa9cb508ca1f5cdcd59e61b5be029e3de1a82f
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 94%
+source-wordcount: '1709'
+ht-degree: 93%
 
 ---
 
@@ -116,7 +114,7 @@ HTTP v1 をサポートするバージョンにアップグレードする前に
 
   HTTP v1 をサポートするバージョンにアップグレードする前に、作成済みのすべての配信と配信テンプレートにパッチを適用するには、次の手順に従います。
 
-   1. パッケージ内の既存の配信と配信テンプレートを書き出しておくと、パッチ適用中に予期しない問題が発生した場合にそれらを復元できるようになります。
+   1. パッケージ内の既存の配信と配信テンプレートをエクスポートしておくと、パッチ適用中に予期しない問題が発生した場合にそれらを復元できるようになります。
    1. Posgresql で次のコマンドを実行します。
 
       ```sql
