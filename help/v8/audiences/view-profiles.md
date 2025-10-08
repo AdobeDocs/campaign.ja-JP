@@ -6,14 +6,14 @@ role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
+source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
+workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# 既存のプロファイルの表示{#view-profiles}
+# 既存のプロファイルの表示 {#view-profiles}
 
 **[!UICONTROL プロファイルとターゲット]**&#x200B;を参照して、Adobe Campaign データベースに格納されている受信者にアクセスします。
 
@@ -28,10 +28,10 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->組み込みの受信者画面は、XML スキーマと、それに関連するフォームを使用して定義されます。XML スキーマは、Adobe Campaign エクスプローラー ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードに格納されます。 これらのスキーマを変更できるのは、エキスパートユーザーのみです。
+>組み込みの受信者画面は、XML スキーマと、それに関連するフォームを使用して定義されます。 XML スキーマは、Adobe Campaign エクスプローラー ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードに格納されます。 これらのスキーマを変更できるのは、エキスパートユーザーのみです。
 >
 
-## プロファイルの編集{#edit-a-profiles}
+## プロファイルの編集 {#edit-a-profiles}
 
 プロファイルを選択して、新しいタブに詳細を表示します。
 
