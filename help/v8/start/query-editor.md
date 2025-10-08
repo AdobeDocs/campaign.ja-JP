@@ -20,10 +20,10 @@ ht-degree: 5%
 
 汎用クエリエディターは、すべてのクエリ機能を一元化します。 これにより、制限フィルターを作成して保存し、そのフィルターをターゲティングワークフローのクエリボックスなどの他のコンテキストで再利用できます。
 
-![ クエリエディターにアクセスしてテーブルを選択する ](assets/query_editor_nveau_21.png)
+![&#x200B; クエリエディターにアクセスしてテーブルを選択する &#x200B;](assets/query_editor_nveau_21.png)
 
 
-クエリの作成手順について詳しくは [ このページ ](design-queries.md) を参照してください。
+クエリの作成手順について詳しくは [&#x200B; このページ &#x200B;](design-queries.md) を参照してください。
 
 <!--
 Contexts to use the query editor iin Campaign are listed below:
