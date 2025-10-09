@@ -24,14 +24,14 @@ _2025 年 10 月 9 日_
 
 ### 新機能 {#features-8-8-2}
 
-**Campaign FFDA デプロイメント** で [ 新規 SMS 送信コネクタ ](../architecture/enterprise-deployment.md) を使用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
+**Campaign FFDA デプロイメント** で [&#x200B; 新規 SMS 送信コネクタ &#x200B;](../architecture/enterprise-deployment.md) を使用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
 
 このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能も付属しています。
 
-* [ トランザクションメッセージでのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
-* [ トランザクションメッセージ、プッシュ通知、SMS の多言語機能 ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [&#x200B; トランザクションメッセージでのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [&#x200B; トランザクションメッセージ、プッシュ通知、SMS の多言語機能 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
-Campaign web UI[ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
 ### 修正点 {#fixes-8-8-2}
 

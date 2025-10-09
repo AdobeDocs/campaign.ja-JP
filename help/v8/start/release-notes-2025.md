@@ -12,9 +12,9 @@ ht-degree: 37%
 
 # 2025 リリースノート {#2025-rn}
 
-このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。最新リリースについては、[ このページ ](release-notes.md) を参照してください。
+このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。最新リリースについては、[&#x200B; このページ &#x200B;](release-notes.md) を参照してください。
 
-新規の実装または既存の環境へのアップグレードについては、[ 最新リリース ](release-notes.md) をインストールします。
+新規の実装または既存の環境へのアップグレードについては、[&#x200B; 最新リリース &#x200B;](release-notes.md) をインストールします。
 
 >[!BEGINSHADEBOX]
 
@@ -40,7 +40,7 @@ _2025年7月9日（PT）_
 
   >[!NOTE]
   >
-  >この機能は **Campaign FFDA デプロイメント** では使用できません [](../architecture/enterprise-deployment.md)。
+  >この機能は **Campaign FFDA デプロイメント** では使用できません [&#128279;](../architecture/enterprise-deployment.md)。
 
 <!-- (from ACC rn, aleady in the product, to remove?) -->
 
@@ -97,7 +97,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
   >[!NOTE]
   >
-  >この機能は **Campaign FFDA デプロイメント** では使用できません [](../architecture/enterprise-deployment.md)。
+  >この機能は **Campaign FFDA デプロイメント** では使用できません [&#128279;](../architecture/enterprise-deployment.md)。
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
@@ -108,13 +108,13 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 
 このリリースには、上記の機能に加えて、Campaign Web ユーザーインターフェイスで使用できる一連の機能も付属しています。
 
-* [ 多言語配信の作成 ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
+* [&#x200B; 多言語配信の作成 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
 * [配信アラート](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
-* [ ランディングページの改善 ](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
-* [ 動的レポート ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} （オンデマンド）
-* [ ブランディングの一元化 ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} （オンデマンド、新規実装）
+* [&#x200B; ランディングページの改善 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
+* [&#x200B; 動的レポート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} （オンデマンド）
+* [&#x200B; ブランディングの一元化 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} （オンデマンド、新規実装）
 
-Campaign web UI[ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
 ### 一般的な改善点 {#improvements-8-8-1}
 
