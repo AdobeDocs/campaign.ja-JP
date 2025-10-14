@@ -19,7 +19,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント ](../architecture/enterprise-deployment.md) を参照してください。
+>クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント &#x200B;](../architecture/enterprise-deployment.md) を参照してください。
 
 クーポン管理は、インストールする必要があるパッケージに依存します。クーポン管理があることを確認するには、**[!UICONTROL 管理／設定／パッケージ管理／インストールしたパッケージ]**&#x200B;をチェックします。
 
