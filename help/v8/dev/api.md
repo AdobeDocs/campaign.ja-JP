@@ -54,4 +54,4 @@ API を使用して [!DNL Adobe Campaign] とやり取りするには、デー�
 **関連トピック**
 
 * [データモデルのベストプラクティス](datamodel-best-practices.md)
-* [Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
+* [Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}

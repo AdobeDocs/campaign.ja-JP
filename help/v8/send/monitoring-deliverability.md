@@ -21,7 +21,7 @@ ht-degree: 67%
 
 Adobe Campaignでは、以下に示すすべての配信品質ツールにアクセスできます。
 
-* [ 受信ボックスレンダリングレポート ](inbox-rendering.md) を使用すると、コンテンツとレピュテーションをスキャンするために、主要なメールクライアントでのメッセージをプレビューできます。
+* [&#x200B; 受信ボックスレンダリングレポート &#x200B;](inbox-rendering.md) を使用すると、コンテンツとレピュテーションをスキャンするために、主要なメールクライアントでのメッセージをプレビューできます。
 
 * **[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。詳しくは、[この節](../reporting/global-reports.md#delivery-throughput)を参照してください。
 * 各配信は、異なるインターネットサービスプロバイダー（ISP）に関するブロードキャスト統計情報レポートを生成します。配信品質に影響を与える可能性のあるデータ品質と評価の指標がいくつか表示されます。次の数値が含まれます。
@@ -42,7 +42,7 @@ Adobe Campaignでは、以下に示すすべての配信品質ツールにアク
 * プラットフォーム全体で[配信スループット](../reporting/global-reports.md#delivery-throughput)を定期的にチェックして、元のセットアップと整合性が取れているかどうかを検証します。
 * 配信テンプレートで[再試行](delivery-failures.md#retries)が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * [バウンス](delivery-failures.md#bounce-mail-qualification)メールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
-* [ 配信ダッシュボード ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ja#sending-messages){target="_blank"} からアクセスできる各配信スループットをチェックして、配信コンテンツの有効性（「フラッシュの販売」は数日ではなく数分で配信する、など）と一致していることを確認します。 は、メッセージの送信中に配信と潜在的な問題を監視するための重要なツールです。
+* [&#x200B; 配信ダッシュボード &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ja#sending-messages){target="_blank"} からアクセスできる各配信スループットをチェックして、配信コンテンツの有効性（「フラッシュの販売」は数日ではなく数分で配信する、など）と一致していることを確認します。 は、メッセージの送信中に配信と潜在的な問題を監視するための重要なツールです。
 * [ウェーブ](configure-and-send.md#sending-using-multiple-waves)を使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい[強制隔離](quarantines.md)が他の配信と整合性が取れていることをチェックします。
 * [配信ログ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ja#delivery-logs-and-history){target="_blank"}の詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックします（ブロックリスト、DNS の問題、スパム対策ルールなど）。

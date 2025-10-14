@@ -15,11 +15,11 @@ ht-degree: 39%
 
 Campaign インタラクションモジュールの設定は、エキスパートユーザーのみが行えます。詳細設定について詳しくは、**Campaign Classic v7 ドキュメント**&#x200B;を参照してください。
 
-オファーで追加のコンテキストデータを使用する方法について詳しくは [ このページ ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=ja){target="_blank"}。
+オファーで追加のコンテキストデータを使用する方法について詳しくは [&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=ja){target="_blank"}。
 
-オファーの実施要件条件をエンリッチメントする方法については [ このページを参照 ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target="_blank"}。
+オファーの実施要件条件をエンリッチメントする方法については [&#x200B; このページを参照 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target="_blank"}。
 
-テスト環境を作成する手順については [ このページ ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=ja){target="_blank"} を参照してください。
+テスト環境を作成する手順については [&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=ja){target="_blank"} を参照してください。
 
-フックを使用してオファーエンジンの標準的な動作を変更する方法を学びます [ このページを参照 ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html?lang=ja){target="_blank"}。
+フックを使用してオファーエンジンの標準的な動作を変更する方法を学びます [&#x200B; このページを参照 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html?lang=ja){target="_blank"}。
 

@@ -20,9 +20,9 @@ Campaign v8 ユーザーは、新しい Campaign web ユーザーインターフ
 
 **開始に役立つリンク：**
 
-* 主な違いと使い始める方法については、[ この導入ガイド ](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"} を参照してください。
+* 主な違いと使い始める方法については、[&#x200B; この導入ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"} を参照してください。
 
-* 新しい Campaign web ユーザーインターフェイスについて詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
+* 新しい Campaign web ユーザーインターフェイスについて詳しくは、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
 
 <!--
 * Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.-->

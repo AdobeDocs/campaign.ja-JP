@@ -38,7 +38,7 @@ Adobe Campaign には、キャンペーンマネージャーやワークフロ�
 
 >[!NOTE]
 >
->Managed Cloud Services ユーザーの場合は、ユーザーに代わってアドビがセキュリティゾーンを設定します。詳しくは、[Adobeにお問い合わせ ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} ください。
+>Managed Cloud Services ユーザーの場合は、ユーザーに代わってアドビがセキュリティゾーンを設定します。詳しくは、[Adobeにお問い合わせ &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} ください。
 
 **詳細情報**
 

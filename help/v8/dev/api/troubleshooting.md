@@ -82,7 +82,7 @@ Adobe.io が無効な URI を宣言しています：要求している URI が�
 
 * **作成後にプロファイルが表示されません**
 
-インスタンスの設定に応じて、作成したプロファイルは **orgUnit** に関連付ける必要があります。 作成にこのフィールドを追加する方法については、[ この節 ](creating-profiles-api.md) を参照してください。
+インスタンスの設定に応じて、作成したプロファイルは **orgUnit** に関連付ける必要があります。 作成にこのフィールドを追加する方法については、[&#x200B; この節 &#x200B;](creating-profiles-api.md) を参照してください。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 

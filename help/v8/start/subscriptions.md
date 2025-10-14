@@ -16,7 +16,7 @@ ht-degree: 95%
 
 Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。複数のサービスを並行して定義できます。例えば、web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
 
-情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法については、[Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}
+情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法については、[Campaign Classic v7 ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}
 
 プロファイルをサービスに購読（オプトイン）するには、次のオプションを使用できます。
 

@@ -79,7 +79,7 @@ ht-degree: 1%
 
 ### フィルターメタデータの取得
 
-各リソースに対してフィルターを使用できます。 リソースに関連付けられたフィルターを特定するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されている URL を返します。 メタデータについて詳しくは、[ この節 ](metadata-mechanism.md) を参照してください。
+各リソースに対してフィルターを使用できます。 リソースに関連付けられたフィルターを特定するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されている URL を返します。 メタデータについて詳しくは、[&#x200B; この節 &#x200B;](metadata-mechanism.md) を参照してください。
 
 フィルターのメタデータを特定し、その使用方法を判断するには、以前に返された URL に対してGET リクエストを実行する必要があります。
 
@@ -262,8 +262,8 @@ URL でGET リクエストを実行します。 プロファイルリソース�
 
 詳しくは、Campaign Standard ドキュメントを参照してください。
 
-* [ フィルター定義の設定 ](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [ ユースケース：複合 ID キーを使用したリソースの呼び出し ](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ja)。
+* [&#x200B; フィルター定義の設定 &#x200B;](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [&#x200B; ユースケース：複合 ID キーを使用したリソースの呼び出し &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ja)。
 
 <br/>
 

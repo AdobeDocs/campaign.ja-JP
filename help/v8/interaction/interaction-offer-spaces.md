@@ -156,4 +156,4 @@ ht-degree: 98%
 
 プレビューでは、特定のスペースに限定されているコンテキストを無視できます。これは、インタラクションスキーマを拡張して、インバウンドチャネルを使用してスペースで参照されるフィールドを追加した場合です。
 
-詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target="_blank"} でこのサンプルを参照してください。
+詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target="_blank"} でこのサンプルを参照してください。

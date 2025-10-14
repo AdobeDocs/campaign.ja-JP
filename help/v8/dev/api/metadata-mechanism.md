@@ -33,7 +33,7 @@ GET リクエストで **resourceType** を使用して、リソースのメタ�
      「type」の値が「link」または「collection」で完了した場合、resTarget の値は、リンクのターゲットとなるリソースの名前になります。
 「type」に値「enumeration」が入力されている場合は、「values」フィールドが追加され、各列挙値について **values** ノードに詳しく記載されます。
 
-* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[ この節 ](sorting.md#filtering) を参照してください。
+* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[&#x200B; この節 &#x200B;](sorting.md#filtering) を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N

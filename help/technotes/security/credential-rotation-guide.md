@@ -45,10 +45,10 @@ Adobe Campaign エクスプローラーから、**管理／プラットフォー
 
 Mobile Services 関連の秘密鍵と証明書のローテーションについては、以下のリンクを参照してください。
 
-* Androidについては、[ このドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"} を参照してください。
+* Androidについては、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"} を参照してください。
 **Android モバイルアプリケーションの作成／API バージョンの設定**&#x200B;の節を参照してください。
 
-* iOSについては、[ このドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"} を参照してください。
+* iOSについては、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"} を参照してください。
 **iOS モバイルアプリの作成／認証モード**&#x200B;の節を参照してください。
 
 ## GPG キー {#ac-gpg-credentials}
@@ -57,7 +57,7 @@ GPG キーのローテーションについては、次の手順に従う必要�
 
 1. 既存のキーを使用して、既存のデータを復号化します。[詳細情報](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}。
 
-1. 新規 GPG キーペアを作成します。GPG キー管理について詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"} を参照してください。
+1. 新規 GPG キーペアを作成します。GPG キー管理について詳しくは、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"} を参照してください。
 
 1. すべてのワークフローで使用されている既存の GPG キーを、新しく作成したキーに置き換えます。
 

@@ -22,7 +22,7 @@ Campaign のトラッキング機能は、送信されたメッセージをト�
 
 配信ダッシュボードは、メッセージの送信中に配信状況と潜在的な問題を監視するための重要なツールです。
 
-詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ja#sending-messages){target="_blank"} を参照してください。
+詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=ja#sending-messages){target="_blank"} を参照してください。
 
 Campaign で利用可能な主要なトラッキング機能は以下のとおりです。
 
@@ -119,7 +119,7 @@ Adobe Campaign では、プロセスと環境を監視できる一連の機能�
 
 送信後に配信を監視することは、マーケティングキャンペーンを効率的に実施し、顧客に働きかけるうえで重要なステップになります。
 
-配信を送信した後に監視できる情報の詳細、配信の障害や強制隔離の管理方法については、[Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target="_blank"}
+配信を送信した後に監視できる情報の詳細、配信の障害や強制隔離の管理方法については、[Campaign Classic v7 ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja#sending-messages){target="_blank"}
 
 ### ワークフローの監視
 
@@ -127,7 +127,7 @@ Adobe Campaign では、プロセスと環境を監視できる一連の機能�
 
 ### インスタンスの監視
 
-インスタンス監視のガイドラインについては、[Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=ja#monitoring-campaign-classic){target="_blank"}
+インスタンス監視のガイドラインについては、[Campaign Classic v7 ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=ja#monitoring-campaign-classic){target="_blank"}
 
 監査記録のセルフサービスインターフェイスを使用すると、インスタンス内で行われた変更を監視できます。監査記録を使用すると、Adobe Campaign のインスタンス内で発生するアクションとイベントの包括的なリストをリアルタイムで記録できます。データの履歴を確認することにより、ワークフローで発生した事象、ワークフローの最終更新者、インスタンス内でユーザーが行った操作などを知ることができます。
 

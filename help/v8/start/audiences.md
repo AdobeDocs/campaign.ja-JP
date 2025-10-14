@@ -36,14 +36,14 @@ ht-degree: 77%
 
 ターゲティングは、ワークフロー内のグラフィカルシーケンスでクエリを組み合わせて作成できます。 要件に応じてターゲットとなるオーディエンスを作成できます。 ワークフローエディターを表示するには、Campaign ダッシュボードで「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。
 
-キャンペーンワークフローでのオーディエンスの作成方法については、[ このページ ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"} を参照してください。
+キャンペーンワークフローでのオーディエンスの作成方法については、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"} を参照してください。
 
 
 ## アクティブなプロファイル {#active-profiles}
 
 アクティブなプロファイルは、お客様が過去 12 か月の間に、任意のチャネル経由で通信を試みたプロファイルです。
 
-契約に従い、各キャンペーンインスタンスには、特定数のアクティブなプロファイルがプロビジョニングされ、請求目的でカウントされます。購入したアクティブなプロファイルの数については、最新の契約書を参照してください。詳しくは、[Adobe Campaignの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
+契約に従い、各キャンペーンインスタンスには、特定数のアクティブなプロファイルがプロビジョニングされ、請求目的でカウントされます。購入したアクティブなプロファイルの数については、最新の契約書を参照してください。詳しくは、[Adobe Campaignの製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
 
 インスタンスで使用されているアクティブなプロファイル数は、Campaign コントロールパネルから直接監視できます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}を参照してください。
 
@@ -58,5 +58,5 @@ ht-degree: 77%
 
 Adobe Campaign は大量のデータを収集して処理できる強力なツールですが、データの中には個人情報や機密情報も含まれます。 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。したがって、受信者の同意を得てこれを監視することが重要になります。
 
-プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"} を参照してください。
+プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"} を参照してください。
 

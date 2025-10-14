@@ -22,5 +22,5 @@ Experience Cloud トリガーを使用すると、パイプラインを使用し
 
 Adobe Campaign と Experience Cloud のトリガーの詳細については、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=ja){target="_blank"}を参照してください。
 
-[Experience Cloud トリガーを作成 ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja){target="_blank"} し、重要なコンシューマーの行動を特定、定義、モニタリングする方法を説明します。
+[Experience Cloud トリガーを作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja){target="_blank"} し、重要なコンシューマーの行動を特定、定義、モニタリングする方法を説明します。
 

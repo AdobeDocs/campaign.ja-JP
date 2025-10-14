@@ -124,7 +124,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 * HiveSQL による Hadoop
 * PostgreSQL
 
-クラウドデータベースがサポートされています。 [ 互換性マトリックス ](../start/compatibility-matrix.md#FederatedDataAccessFDA) を参照してください。
+クラウドデータベースがサポートされています。 [&#x200B; 互換性マトリックス &#x200B;](../start/compatibility-matrix.md#FederatedDataAccessFDA) を参照してください。
 
 >[!NOTE]
 >

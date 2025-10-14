@@ -42,7 +42,7 @@ ht-degree: 99%
 >
 >* このオプションは、ミッドソーシングで設定しないでください。
 >
->* SMTP サーバー設定について詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"} を参照してください。
+>* SMTP サーバー設定について詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"} を参照してください。
 
 ## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 

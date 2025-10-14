@@ -32,7 +32,7 @@ Adobe Campaign は、オンラインチャネル（メール、SMS、プッシ�
 
 >[!NOTE]
 >
->[&quot;mailto&quot; List-Unsubscribe メソッドを使用して購読解除した受信者は ](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} 強制隔離に送信されません。 配信に関連付けられた [ サービス ](../start/subscriptions.md) の購読を解除するか、配信にサービスが定義されていない場合は、ブロックリストに送信されます（プロファイルの **[!UICONTROL 今後の連絡は不要]** セクションに表示）。
+>[&quot;mailto&quot; List-Unsubscribe メソッドを使用して購読解除した受信者は &#x200B;](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} 強制隔離に送信されません。 配信に関連付けられた [&#x200B; サービス &#x200B;](../start/subscriptions.md) の購読を解除するか、配信にサービスが定義されていない場合は、ブロックリストに送信されます（プロファイルの **[!UICONTROL 今後の連絡は不要]** セクションに表示）。
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -83,7 +83,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 さらに、ホームページの「**レポート**」セクションから入手できる&#x200B;**[!UICONTROL 配信不能件数とバウンス数]**&#x200B;の組み込みレポートには、強制隔離中のアドレス、発生したエラーのタイプおよびエラーのドメイン別分類に関する情報が表示されます。特定の配信のデータをフィルターしたり、必要に応じてこのレポートをカスタマイズしたりできます。
 
-バウンスアドレスについて詳しくは、[ 配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja){target="_blank"} を参照してください。
+バウンスアドレスについて詳しくは、[&#x200B; 配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja){target="_blank"} を参照してください。
 
 ### 強制隔離されたメールアドレス {#quarantined-recipient}
 

@@ -22,7 +22,7 @@ Adobe Campaign と Adobe Journey Optimizer の統合により、Adobe Journey Op
 ![](assets/ajo-integration.png)
 
 
-[ この統合については、エンドツーエンドのサンプルをご覧ください ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}。
+[&#x200B; この統合については、エンドツーエンドのサンプルをご覧ください &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}。
 
 
-[ 詳しくは、Journey Optimizer ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}。
+[&#x200B; 詳しくは、Journey Optimizer ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}。
