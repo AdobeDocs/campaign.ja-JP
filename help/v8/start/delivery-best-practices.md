@@ -6,9 +6,9 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '2970'
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+workflow-type: tm+mt
+source-wordcount: '2959'
 ht-degree: 100%
 
 ---
@@ -226,7 +226,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
 ## 画像の管理 {#manage-images}
 
@@ -272,7 +272,7 @@ To avoid common formatting errors, check the following elements:
 
 ターゲット母集団が鍵です。リストを慎重に作成し、一般的なメールクライアントやモバイルデバイスでメールをテストし、メールリストが最新のものであるか（不明なアドレスや古いアドレスが含まれていないこと）を確認します。また、完全な検証サイクルを確立するには、配達確認を送信することもできます。オーディエンスについて詳しくは、[この節](../audiences/gs-audiences.md)を参照してください。
 
-### 適切なオーディエンスのターゲティング {#target-the-right-audience}
+### 適切なオーディエンスのターゲット {#target-the-right-audience}
 
 コンテンツを用意できたら、メッセージの受信者を慎重に定義する必要があります。
 
@@ -358,7 +358,7 @@ Learn more [in this section](get-started-a-b-testing.md).-->
 
 #### 検証プロセスの実行
 
-Adobe Campaign のオペレーターやグループが関与する包括的な検証プロセスを定義して、ターゲットとメッセージコンテンツの両方を検証できます。キャンペーンの各種プロセス（ターゲット設定、コンテンツ、予算、抽出、配達確認の送信）の監視と制御をもれなく確実に実施します。ユーザーは、それぞれの権限に応じた通知を受け取ります。また、配達確認を受信したり、メッセージを検証または却下することもできます。詳しくは、[この節](../../automation/campaigns/marketing-campaign-approval.md)を参照してください。
+Adobe Campaign のオペレーターやグループが関与する包括的な検証プロセスを定義して、ターゲットとメッセージコンテンツの両方を検証できます。キャンペーンの各種プロセス（ターゲティング、コンテンツ、予算、抽出、配達確認の送信）の監視と制御をもれなく確実に実施します。ユーザーは、それぞれの権限に応じた通知を受け取ります。また、配達確認を受信したり、メッセージを検証または却下することもできます。詳しくは、[この節](../../automation/campaigns/marketing-campaign-approval.md)を参照してください。
 
 #### ウェーブの使用
 
@@ -400,7 +400,7 @@ You can:
 
 #### タイポロジの使用
 
-タイポロジルールを使用すると、特定の条件に基づいてターゲットの一部を除外できます。このテストにより、企業のコミュニケーションポリシーに準拠しつつ、顧客のニーズと期待に応える最適なメッセージを送信できます。例えば、ニュースレターの対象から未成年の受信者を除外できます。詳しくは、[この例](../../automation/campaign-opt/filtering-rules.md)を参照してください。
+タイポロジルールを使用すると、特定の条件に基づいてターゲットの一部を除外できます。このテストにより、企業のコミュニケーションポリシーに準拠しつつ、顧客のニーズと期待に応える最適なメッセージを送信できます。例えば、ニュースレターのターゲットから未成年の受信者を除外できます。詳しくは、[この例](../../automation/campaign-opt/filtering-rules.md)を参照してください。
 
 
 ## トラッキングと監視 {#track-and-monitor}
@@ -412,9 +412,6 @@ You can:
 キャンペーンを制御するには、メッセージが実際に受信者に配信されたことを確認する必要があります。
 
 Campaign 配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。配信ログのメッセージのステータスも制御できます。
-
-[Campaign Classic v7 ドキュメントの配信の監視の詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
-
 
 ## 行動の追跡 {#track-behaviour}
 

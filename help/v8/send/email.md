@@ -6,9 +6,9 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '578'
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+workflow-type: tm+mt
+source-wordcount: '579'
 ht-degree: 100%
 
 ---
@@ -100,7 +100,7 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 >* [メールのオーディエンスの選択](../audiences/gs-audiences.md)
 >* [配信の検証と配達確認の送信](preview-and-proof.md)
 >* [配信の設定と送信](configure-and-send.md)
->* [配信のベストプラクティス](../start/delivery-best-practices.md)
+>* [配信のベストプラクティス](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=ja){target="_blank"}
 
 ## メールのテストと検証
 

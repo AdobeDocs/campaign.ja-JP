@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 97%
 
 ---
@@ -87,7 +87,7 @@ Adobe Campaign にユーザーを追加する方法については、[この節]
 
    ワークフローテンプレートの設定方法については、[ このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} を参照してください。
 
-   メールテンプレートについて詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target="_blank"} を参照してください。
+   メールテンプレートについて詳しくは、この [ ページ ](../send/create-templates.md) を参照してください。
 
 
 1. **タイポロジルールの設定**
@@ -110,7 +110,7 @@ Campaign の様々な領域や機能をカスタマイズできます。ほと�
 
    Adobe Campaign には、受信者、配信ログ、購読などのデータを識別するための一般的なスキーマが用意されています。
 
-   [Campaign の組み込みデータモデル](../dev/datamodel.md)について詳しくは、この節を参照してください。
+   [Campaign のビルトインのデータモデル](../dev/datamodel.md)について詳しくは、この節を参照してください。
 
    既存のスキーマを拡張したり、新しいスキーマをゼロから作成したりできます。詳しくは、[このページ](../dev/customize.md)を参照してください。
 
@@ -128,7 +128,7 @@ Campaign の様々な領域や機能をカスタマイズできます。ほと�
 
    Campaign には、配信の監視、URL およびクリックストリーム、トラッキング、配信品質インジケーターなどに関する一連のビルトインレポートが用意されています。
 
-   組み込みレポートに加えて、Adobe Campaign では、様々なコンテキストで様々なニーズに応えるレポートを生成できます。このドキュメントでは、使用モードと実装モードの原則について詳しく説明します。
+   ビルトインのレポートに加えて、Adobe Campaign では、様々なコンテキストで様々なニーズに応えるレポートを生成できます。このドキュメントでは、使用モードと実装モードの原則について詳しく説明します。
 
    Campaign のレポート機能について詳しくは、[このページ](../reporting/gs-reporting.md)を参照してください。
 

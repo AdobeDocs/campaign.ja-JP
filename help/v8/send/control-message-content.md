@@ -6,10 +6,10 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->メールコンテンツの編集について詳しくは、[メールコンテンツの定義](defining-the-email-content.md)を参照してください。
+>メールコンテンツの編集について詳しくは、この [ ページ ](defining-the-email-content.md) を参照してください。
 
 ## 送信者アドレス {#sender-address}
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイメントウィザード...]**）または最も頻繁に使用されるシナリオで、必ず正しいアドレスを指定する必要があります。
 
-送信者のアドレスの定義について詳しくは、[ このページ ](defining-the-email-content.md#sender) を参照してください。
+送信者のアドレスの定義について詳しくは、この [ ページ ](defining-the-email-content.md#sender) を参照してください。
 
 ## パーソナライズ機能 {#personalization}
 

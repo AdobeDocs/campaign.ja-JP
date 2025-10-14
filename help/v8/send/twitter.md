@@ -4,9 +4,9 @@ description: Adobe Campaign ソーシャルマーケティングモジュール�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '859'
 ht-degree: 100%
 
 ---
@@ -97,7 +97,7 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
 フォロワーにダイレクトメッセージを送信するには、次の手順に従います。
 
-1. 「**[!UICONTROL ツイート（ダイレクトメッセージ）]**」組み込み配信テンプレートに基づいて X 配信を作成します。
+1. 「**[!UICONTROL ツイート（ダイレクトメッセージ）]**」ビルトインの配信テンプレートに基づいて X 配信を作成します。
 
 1. メインターゲットの選択
 
@@ -149,12 +149,12 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
 >[!CAUTION]
 >
->1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#sending-using-multiple-waves){target="_blank"}を参照してください。
+>1 日に 250 件を超えるダイレクトメッセージを送信することはできません。このしきい値を超えないようにするには、ウェーブで配信します。詳しくは、[この節](configure-and-send.md#sending-using-multiple-waves)を参照してください。
 
 
 ## トラッキングデータへのアクセス {#tw-tracking}
 
-組み込みの「**[!UICONTROL ツイート]**」配信テンプレートでは、トラッキングがデフォルトで有効になっています。
+ビルトインの「**[!UICONTROL ツイート]**」配信テンプレートでは、トラッキングがデフォルトで有効になっています。
 
 トラッキングデータは、配信レポート、さらに配信とサービスの&#x200B;**[!UICONTROL 編集／トラッキング]**&#x200B;タブで表示できます。
 

@@ -6,10 +6,10 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 98%
+source-wordcount: '641'
+ht-degree: 100%
 
 ---
 
@@ -92,5 +92,4 @@ Adobe Campaign では、一連のビルトインのリアルタイムインジ�
 詳しくは、以下の節を参照してください。
 
 * [配信品質の監視](monitoring-deliverability.md)
-* [ 配信の監視の概要については、Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=ja){target="_blank"}
 * [Campaign ビルトインレポートの概要](../reporting/built-in-reports.md)

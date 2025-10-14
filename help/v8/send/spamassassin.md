@@ -6,10 +6,10 @@ feature: Email, Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -35,7 +35,8 @@ SpamAssassin は、次のような様々なスパム検出技法を活用しま�
 
 メール配信を作成して、そのコンテンツを定義したら、以下の手順に従って、リスクを評価します。
 
-配信の作成およびデザインについて詳しくは、[この節](defining-the-email-content.md)を参照してください。
+配信の作成とデザインについて詳しくは、この [ ページ ](defining-the-email-content.md) を参照してください。
+
 
 1. 「**[!UICONTROL プレビュー]**」タブに移動します。
 1. 配信をプレビューする受信者を選択します。

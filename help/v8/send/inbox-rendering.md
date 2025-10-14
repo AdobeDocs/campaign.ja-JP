@@ -6,10 +6,10 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,8 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 
 メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
 
-配信の作成、デザインおよびターゲティングについて詳しくは、[この節](defining-the-email-content.md)を参照してください。
+配信の作成、デザイン、ターゲティングについて詳しくは、この [ ページ ](defining-the-email-content.md) を参照してください。
+
 
 1. 配信の上部バーで、「**[!UICONTROL 受信ボックスレンダリング]**」ボタンをクリックします。
 

@@ -6,9 +6,9 @@ feature: Email
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 27d13642-2971-466b-818d-39328c198b14
-source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
-workflow-type: ht
-source-wordcount: '1087'
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+workflow-type: tm+mt
+source-wordcount: '1084'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。詳しくは、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja)を参照してください。
+>多くの場合、このタイプの設定は配信テンプレートを使用して実行されます。詳しくは、この[ページ](../send/create-templates.md)を参照してください。
 
 ## ガードレール {#attachments-guardrails}
 
