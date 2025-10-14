@@ -28,8 +28,8 @@ _2025 年 10 月 9 日_
 
 このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能も付属しています。
 
-* [&#x200B; トランザクションメッセージでのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
-* [&#x200B; トランザクションメッセージ、プッシュ通知、SMS の多言語機能 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [&#x200B; トランザクションメッセージでのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
+* [&#x200B; トランザクションメッセージ、プッシュ通知、SMS の多言語機能 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
 
 Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
