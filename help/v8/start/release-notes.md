@@ -3,9 +3,9 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3bc247ba81de3de56c26bdf8fa9b8aa5ea91fb2a
+source-git-commit: d31368428fc7d5b982bb5fc67d0369bb17ea0b2c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '388'
 ht-degree: 24%
 
 ---
@@ -24,14 +24,14 @@ _2025 年 10 月 9 日_
 
 ### 新機能 {#features-8-8-2}
 
-**Campaign FFDA デプロイメント** で [&#x200B; 新規 SMS 送信コネクタ &#x200B;](../architecture/enterprise-deployment.md) を使用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
+**Campaign FFDA デプロイメント** で [ 新規 SMS 送信コネクタ ](../architecture/enterprise-deployment.md) を使用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
 
 このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能も付属しています。
 
-* [&#x200B; トランザクションメッセージでのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
-* [&#x200B; トランザクションメッセージ、プッシュ通知、SMS の多言語機能 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
+* [ トランザクションメッセージでのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [ トランザクションメッセージ、プッシュ通知、SMS の多言語機能 ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
-Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign web UI[ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
 ### 修正点 {#fixes-8-8-2}
 
@@ -52,7 +52,7 @@ Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleagu
 * 代わりに、リアルタイムサーバーが無効な IMS トークンに対して誤った応答コードを返した問題を修正しました。 （NEO-87428）
 * メールと SMS の配信統計が完全に再計算されなかったので、成功インジケーターが不正確になる問題を修正しました。 （NEO-88106）
 * 新しい SMS 送信コネクタで、配信ログがメッセージの小さなサブセットに対して配信ステータスを誤って割り当てていた問題を修正しました。 （NEO-89581）
-* 新しい SMS 送信コネクタで、T モバイル配信の成功指標がマーケティング サーバーとミッドサーバーの両方で正しく更新されなかった問題を修正しました。 （NEO-89850）
+* 新しい SMS 送信コネクタで、マーケティングサーバーとミッドサーバーの両方で成功指標の配信が正しく更新されない問題を修正しました。 （NEO-89850）
 * リアルタイムインスタンスとマーケティングインスタンス間の同期の問題を修正しました。トラッキングログが見つからず、レポートが正しく作成されませんでした。 （NEO-90247）
 * カスタムスキーマの連続した 1 対 N リンクのフィールドを選択する際にエラーが発生する可能性があるワークフローエンリッチメントの問題を修正しました。 （NEO-87682）
 
