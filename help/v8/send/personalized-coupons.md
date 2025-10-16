@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント ](../architecture/enterprise-deployment.md) を参照してください。
+>クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント &#x200B;](../architecture/enterprise-deployment.md) を参照してください。
 
 クーポン管理は、インストールする必要があるパッケージに依存します。クーポン管理があることを確認するには、**[!UICONTROL 管理／設定／パッケージ管理／インストールしたパッケージ]**&#x200B;をチェックします。
 
@@ -74,7 +74,7 @@ ht-degree: 97%
 
 ## メール配信へのクーポンの挿入 {#inserting-a-coupon-into-an-email-delivery}
 
-次の例では、配信をホームページから作成します。配信の作成方法に関する詳細な手順については、[ この節 ](email.md) を参照してください。
+次の例では、配信をホームページから作成します。配信の作成方法に関する詳細な手順については、[&#x200B; この節 &#x200B;](email.md) を参照してください。
 1. **[!UICONTROL Campaigns]** に移動し、「**[!UICONTROL 配信]**」を選択します。
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
