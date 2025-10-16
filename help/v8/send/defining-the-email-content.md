@@ -6,9 +6,9 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
-source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
-workflow-type: ht
-source-wordcount: '2031'
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+workflow-type: tm+mt
+source-wordcount: '2028'
 ht-degree: 100%
 
 ---
@@ -140,7 +140,7 @@ Adobe Campaign では、特定の条件下での動的なメールの送信を�
 
 1. 挿入が完了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
 
-顔文字のリストをカスタマイズするには、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=ja)を参照してください。
+顔文字のリストをカスタマイズするには、この[ページ](customizing-emoticon-list.md)を参照してください。
 
 ## 画像を追加 {#adding-images}
 

@@ -4,8 +4,9 @@ description: メッセージコンテンツをパーソナライズする方法�
 feature: Personalization
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
@@ -70,4 +71,4 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 様々なタイプの動的コンテンツの概要と、パーソナライゼーションブロックと条件付きステートメントを作成して配信に適用する方法を説明します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452865?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)
