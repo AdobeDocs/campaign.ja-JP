@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 0e2e96a37165b82829df7421760de761a2c2b1a5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '806'
 ht-degree: 96%
 
 ---
@@ -92,6 +92,9 @@ ht-degree: 96%
       + [パーソナライゼーションフィールドの追加](send/personalization-fields.md)
       + [パーソナライゼーションブロックの使用](send/personalization-blocks.md)
       + [条件の作成](send/conditions.md)
+      + [パーソナライズされたクーポン](send/personalized-coupons.md)
+      + [パーソナライズされた PDF ドキュメントの生成](send/generating-personalized-pdf-documents.md)
+      + [顔文字リストのカスタマイズ](send/customizing-emoticon-list.md)
    + 配信の検証と送信 {#validate}
       + [プレビューと配達確認](send/preview-and-proof.md)
       + [配信分析](send/delivery-analysis.md)
@@ -135,7 +138,7 @@ ht-degree: 96%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -180,7 +183,7 @@ ht-degree: 96%
       + [クエリの設計](start/design-queries.md)
       + [フィルター条件の定義](start/filter-conditions.md)
    + [データのインポート](start/import.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
