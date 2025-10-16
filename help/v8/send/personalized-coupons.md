@@ -5,11 +5,10 @@ description: パーソナライズされたクーポンの作成および挿入�
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
-exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 33462c1e2af34000131ce81e23ac2360c2cc5a3a
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 98%
+source-wordcount: '969'
+ht-degree: 97%
 
 ---
 
@@ -19,11 +18,11 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント &#x200B;](../architecture/enterprise-deployment.md) を参照してください。
+>クーポン管理は、Campaign v8 のエンタープライズ（FFDA）デプロイメントのコンテキストでは使用できません。詳しくは、[Campaign v8 ドキュメント ](../architecture/enterprise-deployment.md) を参照してください。
 
 クーポン管理は、インストールする必要があるパッケージに依存します。クーポン管理があることを確認するには、**[!UICONTROL 管理／設定／パッケージ管理／インストールしたパッケージ]**&#x200B;をチェックします。
 
-クーポンデータは、CSV および XML フォーマットを使用してインポートおよびエクスポートできます。[詳細情報](../../platform/using/get-started-data-import-export.md)。
+クーポンデータは、CSV および XML フォーマットを使用してインポートおよびエクスポートできます。[詳細情報](../start/import.md)。
 
 ## クーポンの作成 {#creating-a-coupon}
 
@@ -58,7 +57,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >個人クーポンは、一括でインポートできます。インポートとエクスポートについて詳しくは、[この節](../../platform/using/get-started-data-import-export.md)を参照してください。
+   >個人クーポンは、一括でインポートできます。インポートとエクスポートについて詳しくは、[この節](../start/import.md)を参照してください。
 
 ### 個人クーポンの設定 {#configuring-individual-coupons}
 
@@ -75,8 +74,7 @@ ht-degree: 98%
 
 ## メール配信へのクーポンの挿入 {#inserting-a-coupon-into-an-email-delivery}
 
-次の例では、配信をホームページから作成します。配信の作成方法について詳しくは、[この節](about-email-channel.md)を参照してください。また、ワークフローの配信にクーポンを追加することもできます。
-
+次の例では、配信をホームページから作成します。配信の作成方法に関する詳細な手順については、[ この節 ](email.md) を参照してください。
 1. **[!UICONTROL Campaigns]** に移動し、「**[!UICONTROL 配信]**」を選択します。
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -150,9 +148,9 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->デフォルトでは、クーポン管理モジュールは **nms:recipient** テーブルを使用します。 [詳細情報](../../configuration/using/about-data-model.md#default-recipient-table)。
+>デフォルトでは、クーポン管理モジュールは **nms:recipient** テーブルを使用します。 [詳細情報](../dev/datamodel.md#ootb-profiles)。
 >
->カスタム受信者テーブルの使用方法については、[このページ](../../configuration/using/about-custom-recipient-table.md)を参照してください。
+>カスタム受信者テーブルの使用方法については、[このページ](../dev/custom-recipient.md)を参照してください。
 
 ## 不十分なクーポンの管理 {#managing-insufficient-coupons}
 
