@@ -6,10 +6,10 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 100%
+source-wordcount: '1587'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * ターゲットオーディエンス。メッセージを[受信者のリスト](#send-to-a-group)に送信するか、[ワークフローでオーディエンス](#build-the-main-target-in-a-workflow)を作成できます。
 * コントロール母集団。[コントロール母集団を追加](#add-a-control-group)すると、メッセージ配信後の受信者の行動を監視できます。
-* シードアドレス - 詳しくは、[この節](../../v8/audiences/test-profiles.md)を参照してください。
+* シードアドレス - 詳しくは [この節](../../v8/audiences/test-profiles.md)を参照してください。
 
 この情報の一部は、[キャンペーンテンプレート](marketing-campaign-templates.md#campaign-templates)から継承できます。
 
@@ -176,6 +176,10 @@ To build the delivery target, you can define filtering criteria for the recipien
 コントロール母集団は、配信を受け取らない母集団です。配信を受け取るターゲット母集団の行動と比較することで、配信後の行動とキャンペーンの影響をトラッキングします。
 
 コントロール母集団は、メインターゲットから抽出できます。特定のグループまたはクエリから取得することもできます。
+
+>[!CAUTION]
+>
+>外部ファイルからターゲット母集団を読み込む場合は、コントロール母集団を使用できません。
 
 ### キャンペーンのコントロール母集団の有効化 {#activate-the-control-group-for-a-campaign}
 

@@ -5,10 +5,10 @@ feature: Workflows, Data Management, Federated Data Access
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 92%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >「**[!UICONTROL ディメンションを変更]**」アクティビティと「**[!UICONTROL データソースを変更]**」アクティビティを 1 つの行に追加しないでください。両方のアクティビティを連続して使用する必要がある場合は、これらの間に「**[!UICONTROL エンリッチメント]**」アクティビティを含める必要があります。これにより、適切な実行が確保され、潜在的な競合やエラーが防止されます。
+
+>[!NOTE]
+>
+>**Change Data Source** アクティビティは、1 回の実行で最大 100 万件のレコードを処理できます。 この上限を増やす必要がある場合は、Adobe担当者にお問い合わせください。
 
 **[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用するには、次の手順に従います。
 
