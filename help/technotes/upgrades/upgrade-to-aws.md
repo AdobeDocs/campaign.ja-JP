@@ -1,9 +1,11 @@
 ---
 title: Campaign メール送信インフラストラクチャのアップグレード
 description: Campaign メール送信インフラストラクチャのアップグレード
+hide: true
+hidefromtoc: true
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
-workflow-type: ht
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
 
@@ -27,13 +29,13 @@ ht-degree: 100%
 
 開発環境とステージング環境のアップグレードは、**2023年10月**&#x200B;に開始されました。
 
-実稼動環境のアップグレードは、**2024年1月**&#x200B;に開始されました。
+本番環境のアップグレードは、**2024年1月**&#x200B;に開始されました。
 
 ## 今後について{#impact}
 
 * 各アップグレードウェーブの長さは、影響を受ける Campaign インスタンスの数によって異なります。実稼動アップグレードウェーブがスケジュールされると、通知には推定期間が含まれます。
 
-* Campaign インスタンスでは、ステージング環境と実稼働環境の両方で、アップグレード期間中にメールを送信できません。その他の Campaign 機能に影響はありません。
+* Campaign インスタンスでは、ステージング環境と本番環境の両方で、アップグレード期間中にメールを送信できません。その他の Campaign 機能に影響はありません。
 
 ## よくある質問 {#aws-faq}
 
@@ -55,11 +57,11 @@ ht-degree: 100%
 
 * **お客様側ではどのようなテストを行う必要がありますか？**
 
-  このアップグレードイベントに関連して、お客様によるテストは予定されていません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。
+  このアップグレードイベントに関連して、お客様によるテストは予定されていません。問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
 
   いいえ。別のお客様に割り当てられたアップグレードイベントが中断される可能性があるので、既存のスケジュールに対してリクエストされた変更には対応できません。
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。

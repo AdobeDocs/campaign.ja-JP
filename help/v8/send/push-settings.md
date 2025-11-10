@@ -6,9 +6,9 @@ role: Admin, Developer
 level: Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1832'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ Adobe Campaign でプッシュ通知を送信するには、このページで�
 
 >[!CAUTION]
 >
->2024 年に Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、リリースする予定です。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、アクションを実行できます。[詳細情報](../../technotes/upgrades/push-technote.md)。
+>2024 年に Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、リリースする予定です。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、実行できます。
 
 Adobe Campaign でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで、設定と統合が行われていることを確認する必要があります。Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK を介して、モバイル用のクライアントサイド統合 API を提供します。
 
@@ -167,7 +167,7 @@ To get the SDKs needed for push notification to work you will need the following
 
    >[!NOTE]
    >
-   >デフォルトの **[!UICONTROL 購読者のアプリケーション（nms:appSubscriptionRcp）]** ターゲットマッピングが受信者テーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングについて詳しくは、[このページ](../audiences/target-mappings.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングについて詳しくは、[このページ](../audiences/target-mappings.md)を参照してください。
 
 1. 次に、右側にある「**[!UICONTROL 追加]**」アイコンを使用して、このサービスを使用するモバイルアプリケーションを定義します。
 

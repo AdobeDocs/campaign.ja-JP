@@ -5,10 +5,10 @@ title: Adobe Campaign の技術記事
 role: Developer
 level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
-source-git-commit: 0844a4fcd34220d825ae30368b284cbcaf93d02b
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 90%
+source-wordcount: '118'
+ht-degree: 100%
 
 ---
 
@@ -16,23 +16,25 @@ ht-degree: 90%
 
 Campaign の最新のテクニカルノートについては、この節を参照してください。これらのテクニカルノートは、Campaign v8 に適用されます。
 
+<!--
 >[!BEGINTABS]
 
->[!TAB プッシュ通知チャネルの変更]
+>[!TAB Push Notification Channel changes] 
 
-2024 年に Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更をリリースします。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。
-
-
-[![画像](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
+Some important changes to the Android Firebase Cloud Messaging (FCM) service are released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change.
 
 
->[!TAB Identity Management System（IMS）]
+[![image](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
 
-Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。すべてのオペレーターは、Adobe Identity Management System（IMS）を Campaign に接続する場合にのみ使用します
 
-[![画像](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
+>[!TAB Identity Management System (IMS)]
+
+Starting Campaign v8.6, the authentication process to Campaign v8 is being improved. All operators will use Adobe Identity Management System (IMS) only to connect to Campaign
+
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
 
 >[!ENDTABS]
+-->
 
 ## ドキュメントの参照
 
@@ -75,5 +77,5 @@ Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されてい
 
 ## その他のリソース
 
-[Adobe Campaign v8 製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign web ユーザーインターフェイスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign]  自動処理ガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8 のCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [チュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign] 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8 のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 

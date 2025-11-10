@@ -6,9 +6,9 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1047'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
 >[!CAUTION]
 >
->Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更を、2024 年にリリースする予定です。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、アクションを実行できます。[詳細情報](../../technotes/upgrades/push-technote.md)。
+>Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更を、2024 年にリリースする予定です。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。今すぐ確認し、実行できます。
 
 ## 最初のプッシュ通知の作成 {#push-create}
 

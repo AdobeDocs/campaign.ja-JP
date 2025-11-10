@@ -5,8 +5,10 @@ description: プッシュ通知チャネルの今後の変更
 feature: Push
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 93%
@@ -25,7 +27,7 @@ Campaign を使用すると、iOS および Android デバイスにプッシュ�
 
 ### 変更点 {#fcm-changes}
 
-Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年7月22日（PT）**&#x200B;に廃止されます。Firebase Cloud Messaging HTTP プロトコルについて詳しくは、[Google Firebase ドキュメント &#x200B;](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"} を参照してください。
+Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年7月22日（PT）**&#x200B;に廃止されます。Firebase Cloud Messaging HTTP プロトコルについて詳しくは、[Google Firebase ドキュメント ](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"} を参照してください。
 
 Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通知メッセージを送信するための最新の API を既にサポートしています。ただし、古い実装の中には、依然としてレガシー API に依存するものもあります。これらの実装は更新する必要があります。
 
@@ -46,9 +48,9 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 #### 前提条件 {#fcm-transition-prerequisites}
 
-* モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法については、[Google Firebase ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup?hl=ja#initialize-sdk){target="_blank"} を参照してください。
+* モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法については、[Google Firebase ドキュメント ](https://firebase.google.com/docs/admin/setup?hl=ja#initialize-sdk){target="_blank"} を参照してください。
 
-* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 への移行のための前提条件は、環境を [&#x200B; 最新のCampaign Classic ビルド &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"} にアップグレードすることです。 Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
+* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。環境が古いバージョンで実行されている場合、HTTP v1 への移行のための前提条件は、環境を [ 最新のCampaign Classic ビルド ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"} にアップグレードすることです。 Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
 
 * Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。
 
@@ -189,7 +191,7 @@ Apple の推奨に従って、ステートレス認証トークンを使用し�
 
 * 1 つのトークンを使用して、会社のすべてのアプリに関する通知を配布できます。
 
-APN へのトークンベースの接続について詳しくは、[Apple Developer ドキュメント &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} を参照してください。
+APN へのトークンベースの接続について詳しくは、[Apple Developer ドキュメント ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} を参照してください。
 
 Adobe Campaign Classic v7 および Adobe Campaign v8 は、トークンベースの接続と証明書ベースの接続の両方をサポートします。実装が証明書ベースの接続に依存している場合、アドビではトークンベースの接続に更新することを強くお勧めします。
 
@@ -210,9 +212,9 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 は、トークンベー�
 
 #### 前提条件 {#ios-transition-prerequisites}
 
-* Campaign Classic v7 の場合、**トークンベースの認証**&#x200B;モードのサポートを 20.2 リリースで追加しました。環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [&#x200B; 最新のCampaign Classic ビルド &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"} にアップグレードすることです。 Campaign v8 の場合、**トークンベースの認証**&#x200B;モードはすべてのリリースでサポートされ、アップグレードは必要ありません。
+* Campaign Classic v7 の場合、**トークンベースの認証**&#x200B;モードのサポートを 20.2 リリースで追加しました。環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [ 最新のCampaign Classic ビルド ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"} にアップグレードすることです。 Campaign v8 の場合、**トークンベースの認証**&#x200B;モードはすべてのリリースでサポートされ、アップグレードは必要ありません。
 
-* サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。このキーは、[Apple開発者向けドキュメント &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} に記載されているように、Apple開発者アカウントからリクエストします。
+* サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。このキーは、[Apple開発者向けドキュメント ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} に記載されているように、Apple開発者アカウントからリクエストします。
 
 * ハイブリッド、ホストおよび Managed Services のデプロイメントの場合は、以下のトランジション手順に加えて、アドビに連絡してリアルタイム（RT）実行サーバーを更新してください。ミッドソーシングサーバーは影響を受けません。
 
