@@ -117,7 +117,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->[ ワンクリックリスト – 購読解除 ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} および [&quot;mailto&quot; リスト – 購読解除 ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud[ 配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"} を参照してください。
+>[&#x200B; ワンクリックリスト – 購読解除 &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} および [&quot;mailto&quot; リスト – 購読解除 &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud[&#x200B; 配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"} を参照してください。
 
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
