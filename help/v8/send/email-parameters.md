@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: 6b70ad987b828dc1c17bc4f0683046be4eff0408
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 70%
 
 ---
 
@@ -75,6 +75,50 @@ ht-degree: 100%
 ![](assets/email-smtp-bounce.png)
 
 バウンスメールの管理について詳しくは、[この節](delivery-failures.md#bounce-mail-management)を参照してください。
+
+## ワンクリックリスト – 登録解除を有効にする {#one-click-list-unsubscribe}
+
+ワンクリックリスト – 登録解除 URL は、メール送信者情報の横に表示されるリンクまたはボタンで、受信者はワンクリックでメーリングリストから即座にオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+
+これは、ISP のメールインターフェイスに **登録解除** リンクとして表示されます。 例：
+
+![](assets/email-list-unsubscribe-example.png)
+
+最適な配信品質の管理を確保するには、List-Unsubscribe と呼ばれる SMTP ヘッダーの追加が必須であり、「スパムとしてレポート」アイコンの代わりに使用できます。 実際、この機能を使用すると、苦情の発生率が低下し、評判を保護するのに役立ちます。
+
+>[!IMPORTANT]
+>
+>メールヘッダーにワンクリック購読解除 URL を表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
+
+この機能を有効にするには、配信プロパティの **[!UICONTROL SMTP]** タブにある **[!UICONTROL ワンクリックリスト – 購読解除ヘッダーの追加]** オプションを選択します。
+
+>[!NOTE]
+>
+>このオプションは、デフォルトでは有効になっています。
+
+![](assets/email-smtp-list-unsubscribe.png)
+
+<!--
+>[!WARNING]
+>
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.-->
+
+メールクライアントとオプトアウトの実行に使用する方法に応じて、メールヘッダーの **登録解除** リンクをクリックすると、次のような影響が出る場合があります。
+
+* メールクライアントで **ワンクリック** List-Unsubscribe メソッドを使用している場合、受信者は直接オプトアウトされます。
+
+  >[!NOTE]
+  >
+  >Googleや Yahoo！などの主要な ISP **ワンクリックリスト – 購読解除** に準拠することを送信者に求めている。
+
+* メールクライアントがワンクリックリスト – 購読解除をサポートしていない場合でも、**&quot;mailto&quot;** List-Unsubscribe メソッドを使用できます。このメソッドは、メールヘッダーで指定された購読解除アドレスに事前入力されたメールを送信します。
+
+  アドレスは、ヘッダーで明示的に設定するか、動的アドレス（&lt;%=errorAddress%> またはオプション「NmsEmail_DefaultErrorAddr」を使用するなど）を使用できます。このアドレスは、デプロイメントウィザードで設定できます。
+
+>[!NOTE]
+>
+>[ ワンクリックリスト – 購読解除 ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} および [&quot;mailto&quot; リスト – 購読解除 ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud[ 配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"} を参照してください。
+
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
 
