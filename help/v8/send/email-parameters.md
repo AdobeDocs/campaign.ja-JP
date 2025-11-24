@@ -78,7 +78,7 @@ ht-degree: 70%
 
 ## ワンクリックリスト – 登録解除を有効にする {#one-click-list-unsubscribe}
 
-ワンクリックリスト – 登録解除 URL は、メール送信者情報の横に表示されるリンクまたはボタンで、受信者はワンクリックでメーリングリストから即座にオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+ワンクリックリスト – 登録解除 URL は、メール送信者情報の横に表示されるリンクまたはボタンで、受信者はワンクリックでメーリングリストから即座にオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}-->
 
 これは、ISP のメールインターフェイスに **登録解除** リンクとして表示されます。 例：
 
@@ -117,7 +117,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->[&#x200B; ワンクリックリスト – 購読解除 &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} および [&quot;mailto&quot; リスト – 購読解除 &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud[&#x200B; 配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"} を参照してください。
+>[&#x200B; ワンクリックリスト – 購読解除 &#x200B;](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} および [&quot;mailto&quot; リスト – 購読解除 &#x200B;](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud[&#x200B; 配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"} を参照してください。
 
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
