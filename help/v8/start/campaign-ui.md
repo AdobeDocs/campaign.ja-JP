@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 74%
+source-wordcount: '1185'
+ht-degree: 68%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign には、クライアントコンソールまたは web ユーザ
 
 >[!CAUTION]
 >
->このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。Campaign v8 ユーザーとして Campaign web ユーザーインターフェイスを使用する場合は、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
+>このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。Campaign v8 ユーザーとして Campaign web ユーザーインターフェイスを使用する場合は、[ このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} を参照してください。
 
 ## クライアントコンソールの操作 {#ui-access}
 
@@ -48,11 +48,11 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 Campaign に接続したら、Adobe Campaignのホームページにアクセスします。 Campaign v8 では、中央のカードを使用して、新しい Campaign web ユーザーインターフェイスおよび Campaign コントロールパネルを参照します。
 
-![Campaign v8 クライアントコンソールホーム &#x200B;](assets/web-ui.png)
+![Campaign v8 クライアントコンソールホーム ](assets/web-ui.png)
 
 >[!NOTE]
 >
->Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント &#x200B;](../config/external-accounts.md) の **Server**、**Tenant**、**Callback server**、**Association mark** の各フィールドを空のままにしないでください。
+>Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント ](../config/external-accounts.md) の **Server**、**Tenant**、**Callback server**、**Association mark** の各フィールドを空のままにしないでください。
 
 ホームページから [Campaign Campaign コントロールパネル](../config/self-service.md) にアクセスすることもできます。
 
@@ -60,7 +60,7 @@ Campaign に接続したら、Adobe Campaignのホームページにアクセス
 
 Campaign に接続したら、Adobe Campaignのホームページにアクセスします。このホームページには、機能、ドキュメント、サポート web サイトおよび Campaign コミュニティにアクセスするためのリンクとショートカットが含まれています。
 
-![Campaign Classic v7 クライアントコンソールホーム &#x200B;](assets/v7_user_interface_home.png)
+![Campaign Classic v7 クライアントコンソールホーム ](assets/v7_user_interface_home.png)
 
 
 >[!ENDTABS]
@@ -82,19 +82,17 @@ Campaign クライアントコンソールに接続したら、上部セクシ�
 
 例えば、「**[!UICONTROL プロファイルとターゲット]**」タブを参照すると、受信者リスト、購読サービス、既存のターゲティングワークフローおよびこれらすべてのコンポーネントを作成するためのショートカットにアクセスできます。
 
-![](assets/overview-list.png)
+![ 「プロファイルとターゲット」タブからリストにアクセスする方法を示す Campaign コンソールのユーザーインターフェイス ](assets/overview-list.png)
 
 画面で要素を選択すると、その要素は新しいタブに読み込まれるので、コンテンツを簡単に参照できます。
 
-![](assets/new-tab.png)
+![ 新しいタブでリストを編集する方法を示す Campaign コンソールのユーザーインターフェイス ](assets/new-tab.png)
 
 ### 要素の作成 {#create-an-element}
 
 画面の左側にある「**[!UICONTROL 作成]**」セクションのショートカットを使用して、新しい要素を追加します。リストの上にある「**[!UICONTROL 作成]**」ボタンを使用すると、現在のリストに新しい要素を追加できます。
 
-例えば、配信ページでは、「**[!UICONTROL 作成]**」ボタンを使用して新しい配信を作成します。
-
-![](assets/new-recipient.png)
+![ プロファイルとターゲット画面から受信者を作成する方法を示す Campaign コンソールのユーザーインターフェイス ](assets/new-recipient.png)
 
 <!--
 ## Use a web browser {#web-browser}
@@ -109,7 +107,7 @@ The web access interface is similar to the console interface. From a browser, yo
 
 Campaign エクスプローラーを参照して、すべての Adobe Campaign の機能と設定にアクセスします。
 
-![](assets/explorer.png)
+![Campaign メニューをフォーカスしたエクスプローラーを表示している Campaign コンソールのユーザーインターフェイス ](assets/explorer.png)
 
 このワークスペースでは、エクスプローラーツリーにアクセスして、すべての機能とオプションを参照できます。
 
@@ -153,7 +151,7 @@ Campaign v8 v8 v8 v8 v8.1 リリース以降では、Adobe Experience Cloudの�
   >
   >言語はインストールプロセス中に選択され、その後は **変更できません** します。
 
-* Campaign web ユーザーインターフェイスでサポートされている言語について詳しくは、[このページを参照してください](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ja#language-pref){target="_blank"}。
+* Campaign web ユーザーインターフェイスでサポートされている言語については、[Campaign web ユーザーインターフェイスのドキュメントを参照 ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ja#language-pref){target="_blank"} してください。
 
 ## フォーマット
 

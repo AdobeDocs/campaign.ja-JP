@@ -4,9 +4,10 @@ description: Campaign v8 ユーザーに権限を付与する方法を学ぶ
 feature: Permissions
 role: User, Admin
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
-workflow-type: ht
+source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
+workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 100%
 
@@ -29,7 +30,7 @@ ht-degree: 100%
 
    ![](assets/add-a-product-profile.png)
 
-   Campaign の組み込み製品プロファイルのリストについては、[この節](#ootb-productprofiles)を参照してください。
+   Campaign のビルトインの製品プロファイルのリストについては、[この節](#ootb-productprofiles)を参照してください。
 
    ユーザーグループを作成する方法については、[この節](#user-groups)を参照してください。
 
@@ -90,7 +91,7 @@ Campaign - テスト - 配信
 
 ### デフォルトの製品プロファイルとオペレーターグループ {#ootb-productprofiles}
 
-Adobe Campaign には組み込みの&#x200B;**製品プロファイル**&#x200B;が付属しており、アドビが環境を有効にするときに定義されます。
+Adobe Campaign にはビルトインの&#x200B;**製品プロファイル**&#x200B;が付属しており、アドビが環境を有効にするときに定義されます。
 
 ![](assets/ootb-product-profiles.png)
 
@@ -229,7 +230,7 @@ Adobe Campaign のデフォルトのネームド権限は次のとおりです�
 
 * **[!UICONTROL 配信を開始]**：分析済みの配信を承認する権限。配信の分析後、配信は様々な承認手順で一時停止し、再開するには承認が必要になります。**[!UICONTROL 配信を開始]**&#x200B;権限を持つユーザーは、配信を承認できます。
 
-* **[!UICONTROL SQL データ管理アクティビティを使用]**：作業用テーブルを作成および設定するために SQL データ管理アクティビティを使用して独自の SQL スクリプトを記述する権限。[詳細情報](../../automation/workflow/sql-data-management.md)。
+* **[!UICONTROL SQL データ管理アクティビティを使用]**：ワークテーブルを作成および設定するために SQL データ管理アクティビティを使用して独自の SQL スクリプトを記述する権限。[詳細情報](../../automation/workflow/sql-data-management.md)。
 
 * **[!UICONTROL ワークフロー]**：このネームド権限はワークフローに固有です。この権限により、ワークフローを作成、開始および停止できます。ネームド権限が適用するには、ワークフローの読み取り権限が必要です。ターゲティングワークフローについては、**[!UICONTROL プロファイルとターゲット]**&#x200B;フォルダーの読み取り権限が必要です。
 
