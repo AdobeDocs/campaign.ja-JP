@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 0e2e96a37165b82829df7421760de761a2c2b1a5
+source-git-commit: 0830dea0e04a67c2d0b4102e41c0e57d8c98302a
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '811'
 ht-degree: 96%
 
 ---
@@ -38,7 +38,8 @@ ht-degree: 96%
    + [コンポーネントとプロセス](start/ac-components.md)
    + [Campaign Classic v7 から v8 へ](start/v7-to-v8.md)
    + [Campaign Standard から v8 へ](start/acs-to-v8.md)
-   + [FAQ](start/campaign-faq.md)
+   + [よくある質問](start/campaign-faq-comprehensive.md)
+   + [よくある質問](start/campaign-faq.md)
 + キャンペーン管理 {#campaigns}
    + [キャンペーンの基本を学ぶ](start/campaigns.md)
    + [キャンペーンオーケストレーション >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
@@ -138,7 +139,7 @@ ht-degree: 96%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -183,7 +184,7 @@ ht-degree: 96%
       + [クエリの設計](start/design-queries.md)
       + [フィルター条件の定義](start/filter-conditions.md)
    + [データのインポート](start/import.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
@@ -232,7 +233,7 @@ ht-degree: 96%
       + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
-   + スキーマとフォーム {#shemas-forms}
+   + スキーマとフォーム {#schemas-forms}
       + [スキーマの操作](dev/schemas.md)
       + [スキーマの作成](dev/create-schema.md)
       + [スキーマの拡張](dev/extend-schema.md)
@@ -264,7 +265,7 @@ ht-degree: 96%
          + [プロファイルの取得](dev/api/retrieving-profiles.md)
          + [プロファイルの更新](dev/api/updating-profiles.md)
          + [プロファイルの作成](dev/api/creating-profiles-api.md)
-      + サービスと購読の管理 {#managing-services-and-subscriptiopns}
+      + サービスと購読の管理 {#managing-services-and-subscriptions}
          + [サービスの作成](dev/api/creating-a-service.md)
          + [購読の取得](dev/api/retrieving-subscriptions.md)
          + [購読の実行](dev/api/perform-subscriptions.md)
