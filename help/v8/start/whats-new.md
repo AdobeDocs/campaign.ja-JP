@@ -36,7 +36,7 @@ Adobe Campaign v8 は、従来のクライアントコンソールと同様に *
 
 Campaign v8.6 以降、Campaign web UI はAdobe Experience Cloudを通じて使用でき、すべてのAdobe ソリューションにシームレスにアクセスできます。
 
-[Campaign web ユーザーインターフェイスの詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}
+[Campaign web ユーザーインターフェイスの詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
 ### ワークフローの一元管理{#central-wf-mgt}
 
@@ -88,7 +88,7 @@ Adobe Campaign v8 は Managed Cloud Services として利用でき、先を見�
 
 Managed Services のアプローチにより、マーケターは、社内の IT リソースからの多大なサポートを必要とせずに、クラウドインフラストラクチャの運用規模と経済性を活用できます。アドビのコンサルティングと実装チームは、お客様と協力してマーケティング計画、既存の慣行、データ要件、メッセージングの量を評価し、最も適切なサービス、サポート、配信品質パッケージを推奨します。Adobe Campaign Managed Cloud Services チームは、キャンペーンのパフォーマンス、ブランドレピュテーション、顧客体験指標などを監視し、レポートできるようになります。
 
-Adobe Campaign Managed Cloud Servicesの事業価値について詳しくは、[!BADGE PDF]{type=Informative} [ このホワイトペーパーを参照 ](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} してください。
+Adobe Campaign Managed Cloud Servicesの事業価値について詳しくは、[!BADGE PDF]{type=Informative} [&#x200B; このホワイトペーパーを参照 &#x200B;](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} してください。
 
 新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が備わっています。
 
@@ -178,6 +178,6 @@ Campaign v8 Managed Cloud Services により、手動アップグレードの負
 
 ![](assets/subdomain1.png)
 
-[Campaign Campaign コントロールパネルの詳細情報 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Campaign Campaign コントロールパネルの詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 
 
