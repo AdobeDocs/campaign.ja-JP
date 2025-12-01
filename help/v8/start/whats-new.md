@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 4b67d5f5427b1be8217f141a97c4de413f5e1f2e
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 97%
+source-wordcount: '1447'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,22 @@ Adobe Campaign v8 では、インフラストラクチャ、セキュリティ�
 ![](assets/home-page.png)
 
 ## 主な機能{#key-capabilities}
+
+### Campaign web ユーザーインターフェイス{#new-web-ui}
+
+Adobe Campaign v8 は、従来のクライアントコンソールと同様に **新しい web ユーザーインターフェイス** を提供します。 この最新の直感的なインターフェイスは、キャンペーンの迅速な作成とアクセシビリティの向上を必要とするマーケター向けに設計されています。
+
+**主なメリット：**
+
+* **最新のデザイン** – あらゆるブラウザーからアクセスできる、クリーンなレスポンシブインターフェイス
+* **ワークフローの簡素化** - キャンペーンの作成と管理を合理化します。
+* **ドラッグ&amp;ドロップ機能** – 技術的な知識を必要としない視覚的なコンテンツデザイン
+* **オンボーディングの迅速化** – 新規ユーザーの学習曲線が最小限に抑えられます
+* **統合されたエクスペリエンス** - Campaign Standardとの類似点を共有して、移行を容易にします
+
+Campaign v8.6 以降、Campaign web UI はAdobe Experience Cloudを通じて使用でき、すべてのAdobe ソリューションにシームレスにアクセスできます。
+
+[Campaign web ユーザーインターフェイスの詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
 ### ワークフローの一元管理{#central-wf-mgt}
 
@@ -72,7 +88,7 @@ Adobe Campaign v8 は Managed Cloud Services として利用でき、先を見�
 
 Managed Services のアプローチにより、マーケターは、社内の IT リソースからの多大なサポートを必要とせずに、クラウドインフラストラクチャの運用規模と経済性を活用できます。アドビのコンサルティングと実装チームは、お客様と協力してマーケティング計画、既存の慣行、データ要件、メッセージングの量を評価し、最も適切なサービス、サポート、配信品質パッケージを推奨します。Adobe Campaign Managed Cloud Services チームは、キャンペーンのパフォーマンス、ブランドレピュテーション、顧客体験指標などを監視し、レポートできるようになります。
 
-Adobe Campaign Managed Cloud Servicesの事業価値について詳しくは、[!BADGE PDF]{type=Informative} [&#x200B; このホワイトペーパーを参照 &#x200B;](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} してください。
+Adobe Campaign Managed Cloud Servicesの事業価値について詳しくは、[!BADGE PDF]{type=Informative} [ このホワイトペーパーを参照 ](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf){target="_blank"} してください。
 
 新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が備わっています。
 
@@ -92,6 +108,63 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 
 [エンタープライズ（FFDA）デプロイメントの詳細](../architecture/enterprise-deployment.md)
 
+### 大規模なパフォーマンス {#performance-metrics}
+
+Campaign v8 Enterprise は、大量マーケティング業務に優れたパフォーマンスを提供します。
+
+* **バッチ処理** – 大規模なキャンペーン実行の場合、1 時間あたり最大 2,000 万 **の操作**
+* **トランザクションメッセージ** - リアルタイム通信用に 1 時間あたり **100 万メッセージ**
+* **迅速なオーディエンスの構築** – 数百万ものプロファイルを数時間ではなく数分でクエリしセグメント化します
+* **クラウドデータベース** - Snowflakeテクノロジーにより、ピーク時のアクティビティ中にシステムが過負荷になるのを防ぎます
+
+このパフォーマンスにより、組織は、速度や信頼性を妥協することなく、複雑なマルチタッチキャンペーンを企業規模で実行できます。
+
+### 新機能と機能強化 {#new-features}
+
+Campaign v8 では、次のような強力な新機能と機能強化が導入されています。
+
+**AI アシスタント**
+
+ジェネレーティブ AI を活用して、コンテンツ作成を高速化します。
+
+* メール、SMS およびプッシュ通知コンテンツの自動生成
+* ブランドの声とガイドラインに合わせたメッセージングの調整
+* 一貫性を確保するためのブランドの統一スコアリング
+* 品質を維持しながらコンテンツの作成時間を短縮
+
+**リッチなプッシュ通知**
+
+魅力的なモバイルエクスペリエンスを作成します。
+
+* プッシュ通知の画像、ビデオ、カルーセル
+* インタラクティブなボタンとタイマー
+* iOSとAndroidのカスタマイズの強化
+* ビジュアルstorytellingを通じてエンゲージメントを向上
+
+**アップグレードされた SMS インフラストラクチャ （v2.0）**
+
+* 信頼性と配信率の向上
+* SMPP コネクタとの互換性の向上
+* 大量の SMS キャンペーンのスループットの向上
+* 高度な配信の監視とレポート
+
+**統合の強化**
+
+* **Adobe Experience Manager as a Cloud Service** - シームレスなコンテンツ管理とアセット統合
+* **REST API** – 統合と開発を容易にする最新の API アーキテクチャ
+* **動的レポート** - v8 に移行するCampaign Standard ユーザー向けの高度な分析機能
+
+### 自動アップグレードおよびメンテナンス {#automatic-upgrades}
+
+Campaign v8 Managed Cloud Services により、手動アップグレードの負担がなくなります。
+
+* **連続配信モデル** – 最新の安定したバージョンへの自動アップグレード
+* **ダウンタイムなし** – 運用への影響を最小限に抑えながらアップグレードを実行
+* **即時アクセス** – 新機能とセキュリティパッチがリリースされるとすぐに入手できます
+* **IT 負荷の軽減** - Adobeがすべてのインフラストラクチャのメンテナンスと更新を管理します。
+* **調整されたスケジュール設定** - Adobeは、お客様と協力してアップグレードのタイミングを計画します。
+
+このアプローチにより、アップグレードの計画と実行に社内の IT リソースを必要とせずに、Campaign インスタンスが常に安全で最適化され、最新の機能を備えていることが保証されます。
 
 ## セルフサービス管理インターフェイス{#self-service-admin}
 
@@ -105,6 +178,6 @@ Adobe Campaign は、クラウド規模のデータベース技術を活用し�
 
 ![](assets/subdomain1.png)
 
-[Campaign Campaign コントロールパネルの詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Campaign Campaign コントロールパネルの詳細情報 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 
 
