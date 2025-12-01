@@ -20,13 +20,13 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->このドキュメントでは、プログラムでデータベースにクエリを実行するためのデータ指向 API について説明します。 REST API については、[REST API の基本を学ぶ ](api/get-started-apis.md) を参照してください。 視覚的なクエリ作成については、[ クエリエディターの操作 ](../start/query-editor.md) を参照してください。
+>このドキュメントでは、プログラムでデータベースにクエリを実行するためのデータ指向 API について説明します。 REST API については、[REST API の基本を学ぶ &#x200B;](api/get-started-apis.md) を参照してください。 視覚的なクエリ作成については、[&#x200B; クエリエディターの操作 &#x200B;](../start/query-editor.md) を参照してください。
 
 ## NLWS とは {#what-is-nlws}
 
 `NLWS` （Neolane Web Services）は、[!DNL Adobe Campaign] のJavaScript ベースの API メソッドへのアクセスに使用されるグローバル SOAP オブジェクトです。 スキーマは、`NLWS` オブジェクトのプロパティで、これを使用すると、Campaign エンティティをプログラムでやり取りできます。
 
-[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"} によると、「スキーマは「NLWS」グローバルオブジェクトです。 スキーマメソッドにアクセスする構文は、次のようなパターンになります。
+[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"} によると、「スキーマは「NLWS」グローバルオブジェクトです。 スキーマメソッドにアクセスする構文は、次のようなパターンになります。
 
 ```javascript
 NLWS.<namespace><SchemaName>.<method>()
@@ -85,7 +85,7 @@ Campaign インターフェイスのスキーマの説明にアクセスする�
 
 ### 非静的メソッド {#non-static-methods}
 
-非静的SOAP メソッドを使用するには、対応するスキーマで `load` または `create` メソッドを使用して、まずエンティティを取得する必要があります。 詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"} を参照してください。
+非静的SOAP メソッドを使用するには、対応するスキーマで `load` または `create` メソッドを使用して、まずエンティティを取得する必要があります。 詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"} を参照してください。
 
 ### エンティティの読み込み、保存、作成 {#load-save-create}
 
@@ -138,7 +138,7 @@ recipient.save();
 * `getIfExists` - 1 つのレコードを取得し、見つからない場合は null を返します
 * `count` – 一致条件を満たすレコードをカウント
 
-queryDef メソッドについて詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"} を参照してください。
+queryDef メソッドについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"} を参照してください。
 
 ## JSON を使用したクエリ {#query-json}
 
@@ -265,7 +265,7 @@ for each(var delivery in deliveries.delivery) {
 >* `lineCount` を使用して、結果の最大数を明示的に設定します
 >* 大規模なデータセット（1,000 件を超えるレコード）の場合は、queryDef の代わりにワークフローを使用します。 ワークフローは、数百万行を効率的に処理するように設計されています。
 
-[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"} および [ クエリのベストプラクティス ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"} の詳細をご覧ください。
+[ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"} および [&#x200B; クエリのベストプラクティス &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"} の詳細をご覧ください。
 
 ## ワークフロートランジションデータのクエリ {#workflow-transition-data}
 
@@ -310,7 +310,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->SQL インジェクションの脆弱性を防ぐには、文字列には `$(sz)`、整数には `$(l)` を持つパラメーター化クエリを常に使用します。 詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"} を参照してください。
+>SQL インジェクションの脆弱性を防ぐには、文字列には `$(sz)`、整数には `$(l)` を持つパラメーター化クエリを常に使用します。 詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"} を参照してください。
 
 ## レコードのカウント {#count-records}
 
@@ -438,7 +438,7 @@ logInfo("Name: " + mapping.$exclusionTypeName);
 logInfo("Label: " + mapping.$exclusionTypeLabel);
 ```
 
-詳しくは、[ 分析オプション ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"} を参照してください。
+詳しくは、[&#x200B; 分析オプション &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"} を参照してください。
 
 ## ページネーション {#pagination}
 
@@ -473,7 +473,7 @@ var recipients = query.ExecuteQuery();
 >
 >**ページネーションには orderBy が必要です：** `orderBy` 句を使用しない場合、クエリ結果の順序が一貫していることが保証されません。 後続の呼び出しでは、異なるページが返されたり、重複したレコードが返されたりする場合があります。 ページネーションを使用する場合は、必ず `orderBy` を含めます。
 
-詳しくは、[ ページネーション ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"} を参照してください。
+詳しくは、[&#x200B; ページネーション &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"} を参照してください。
 
 ## 動的クエリの構成 {#dynamic-queries}
 
@@ -639,7 +639,7 @@ logInfo("Mass update completed");
 >
 >一括更新は、where 句に一致するすべてのレコードに影響します。 最初に選択クエリを使用して where 条件を常にテストし、影響を受けるレコードを確認します。
 
-詳細情報：[ 更新 ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}。
+詳細情報：[&#x200B; 更新 &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}。
 
 ### GetInstanceFromModel - テンプレート インスタンスのクエリ {#get-instance-from-model}
 
@@ -749,13 +749,13 @@ for each(var record in xml.collection) {
 >
 >* ユーザーの入力を常に検証し、不要部分を削除する
 >* `$(sz)`、`$(l)` な `$(dt)` のパラメーター化クエリの使用
->* [FFDA デプロイメントでのローカルデータベースとクラウドデータベースの違いに注意してください ](../architecture/enterprise-deployment.md)
+>* [FFDA デプロイメントでのローカルデータベースとクラウドデータベースの違いに注意してください &#x200B;](../architecture/enterprise-deployment.md)
 
 ## ベストプラクティス {#best-practices}
 
 queryDef メソッドと NLWS メソッドを使用する場合：
 
-* **大規模なデータセットにはワークフローを使用** - QueryDef は大量のデータ処理用には設計されていません。 1,000 件を超えるレコードを持つデータセットの場合は、数百万行を効率的に処理できるワークフローを使用します。 詳しくは、[Campaign SDK ドキュメント ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"} を参照してください。
+* **大規模なデータセットにはワークフローを使用** - QueryDef は大量のデータ処理用には設計されていません。 1,000 件を超えるレコードを持つデータセットの場合は、数百万行を効率的に処理できるワークフローを使用します。 詳しくは、[Campaign SDK ドキュメント &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"} を参照してください。
 * **パラメーター化クエリの使用** - SQL インジェクションを防ぐために、常に `$(sz)` で連結パラメーター（`$(l)`、`sqlExec`）を使用します
 * **明示的な制限を設定** – 結果のサイズを制御するには、`lineCount` を使用します。 Campaign のデフォルトの上限は、コンテキスト（200 ～ 10,000 件のレコード）によって異なります
 * **ページネーションで orderBy を使用** - `orderBy` および `startLine` を使用する際に、一貫したページネーションを確保するために、常に `lineCount` 句を含めます
@@ -763,7 +763,7 @@ queryDef メソッドと NLWS メソッドを使用する場合：
 * **列挙に分析を使用** - `analyze: true` を追加して、ノードを選択し、わかりやすい列挙名とラベルを取得します
 * **クエリの最適化** – 結果セットを制限する適切な `where` 条件を追加します
 * **バッチ処理** – 複数のレコードをバッチで処理して、メモリの問題とタイムアウトを回避します
-* **FFDA の認識** - [ エンタープライズ（FFDA）デプロイメント ](../architecture/enterprise-deployment.md) では、[!DNL Campaign] が 2 つのデータベースで動作することに注意してください
+* **FFDA の認識** - [&#x200B; エンタープライズ（FFDA）デプロイメント &#x200B;](../architecture/enterprise-deployment.md) では、[!DNL Campaign] が 2 つのデータベースで動作することに注意してください
 
 
 
@@ -901,8 +901,8 @@ if (count > 0 && count < 10000) {
 
 * [Campaign API の概要](api.md)
 * [Campaign JavaScript SDK - Query API](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
-* [queryDef API リファレンス ](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
-* [Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
+* [queryDef API リファレンス &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
+* [Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
 * [スキーマの操作](schemas.md)
 * [クエリエディターの操作](../start/query-editor.md)
 
