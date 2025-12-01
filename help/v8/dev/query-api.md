@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->このドキュメントでは、プログラムでデータベースにクエリを実行するためのデータ指向 API について説明します。 REST API については、[REST API の基本を学ぶ ](api/get-started-apis.md) を参照してください。 視覚的なクエリ作成については、[ クエリエディターの操作 ](../start/query-editor.md) を参照してください。
+>このドキュメントでは、プログラムでデータベースにクエリを実行するためのデータ指向 API について説明します。 REST API については、[REST API の基本を学ぶ &#x200B;](api/get-started-apis.md) を参照してください。 視覚的なクエリ作成については、[&#x200B; クエリエディターの操作 &#x200B;](../start/query-editor.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -30,7 +30,7 @@ queryDef メソッドと NLWS メソッドを使用する前に、次の点を�
 * [!DNL Adobe Campaign] データモデルとスキーマ
 * スキーマ要素を移動するための XPath 式
 
-Campaign データモデルについて詳しくは、[ このページ ](datamodel.md) を参照してください。
+Campaign データモデルについて詳しくは、[&#x200B; このページ &#x200B;](datamodel.md) を参照してください。
 
 ## エンティティスキーマの静的メソッド {#entity-schema-methods}
 
@@ -87,7 +87,7 @@ recipient.save();
 * `getIfExists` - 1 つのレコードを取得し、見つからない場合は null を返します
 * `count` – 一致条件を満たすレコードをカウント
 
-queryDef メソッドについて詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"} を参照してください。
+queryDef メソッドについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"} を参照してください。
 
 ## JSON を使用したクエリ {#query-json}
 
@@ -256,7 +256,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->SQL インジェクションの脆弱性を防ぐには、文字列には `$(sz)`、整数には `$(l)` を持つパラメーター化クエリを常に使用します。 詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"} を参照してください。
+>SQL インジェクションの脆弱性を防ぐには、文字列には `$(sz)`、整数には `$(l)` を持つパラメーター化クエリを常に使用します。 詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"} を参照してください。
 
 ## レコードのカウント {#count-records}
 
@@ -513,7 +513,7 @@ logInfo("Mass update completed");
 >
 >一括更新は、where 句に一致するすべてのレコードに影響します。 最初に選択クエリを使用して where 条件を常にテストし、影響を受けるレコードを確認します。
 
-詳細情報：[ 更新 ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}。
+詳細情報：[&#x200B; 更新 &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}。
 
 ### GetInstanceFromModel - テンプレート インスタンスのクエリ {#get-instance-from-model}
 
@@ -623,7 +623,7 @@ for each(var record in xml.collection) {
 >
 >* ユーザーの入力を常に検証し、不要部分を削除する
 >* `$(sz)`、`$(l)` な `$(dt)` のパラメーター化クエリの使用
->* [FFDA デプロイメントでのローカルデータベースとクラウドデータベースの違いに注意してください ](../architecture/enterprise-deployment.md)
+>* [FFDA デプロイメントでのローカルデータベースとクラウドデータベースの違いに注意してください &#x200B;](../architecture/enterprise-deployment.md)
 
 ## ベストプラクティス {#best-practices}
 
@@ -635,7 +635,7 @@ queryDef メソッドと NLWS メソッドを使用する場合：
 * **クエリの最適化** – 結果セットを制限する適切な `where` 条件を追加します
 * **バッチ処理** - タイムアウトを避けるために、大きなデータセットをバッチで処理します
 * **トランザクションの安全性** – 関連する複数の更新にトランザクションを使用することを検討します
-* **FFDA の認識** - [ エンタープライズ（FFDA）デプロイメント ](../architecture/enterprise-deployment.md) では、[!DNL Campaign] が 2 つのデータベースで動作することに注意してください
+* **FFDA の認識** - [&#x200B; エンタープライズ（FFDA）デプロイメント &#x200B;](../architecture/enterprise-deployment.md) では、[!DNL Campaign] が 2 つのデータベースで動作することに注意してください
 
 
 
@@ -772,8 +772,8 @@ if (count > 0 && count < 10000) {
 ## 関連トピック {#related-topics}
 
 * [Campaign API の概要](api.md)
-* [queryDef API リファレンス ](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
-* [Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
+* [queryDef API リファレンス &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
+* [Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
 * [データモデル](datamodel.md)
 * [スキーマの操作](schemas.md)
 * [クエリエディターの操作](../start/query-editor.md)
