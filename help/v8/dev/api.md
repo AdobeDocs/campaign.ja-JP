@@ -5,10 +5,10 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
+source-git-commit: 75e0069ccd4e23dbf64b9052fd81817e438b333e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 79%
+source-wordcount: '290'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 79%
 [Campaign JavaScript API](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"} を使用すると、Campaign クラウドデータベースへの書き込みや読み取りを行うことができます。
 
 * 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
-* queryDef メソッドと NLWS メソッドを使用してデータモデルデータをクエリするための汎用データアクセス API。 詳しくは、[queryDef を使用してデータベースにクエリを実行する &#x200B;](query-api.md) を参照してください。
+* `queryDef` と `NLWS` オブジェクトを使用してデータモデルデータをクエリするための汎用データアクセス API。 詳しくは、[queryDef を使用してデータベースにクエリを実行する ](query-api.md) を参照してください。
 
 [Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)では、Campaign は 2 つのデータベースと連携することに注意してください。1 つは、ユーザーインターフェイスのリアルタイムメッセージングや単一クエリおよび API 経由での書き込みに使用するローカルデータベース、もう 1 つは、キャンペーン実行や、レポート、データ取り込み、バッチクエリおよびワークフロー実行に使用するクラウドデータベースです。
 
@@ -53,6 +53,6 @@ API を使用して [!DNL Adobe Campaign] とやり取りするには、デー�
 
 **関連トピック**
 
-* [queryDef を使用したデータベースのクエリ](query-api.md)
+<!-- * [Query the database with queryDef](query-api.md)-->
 * [データモデルのベストプラクティス](datamodel-best-practices.md)
-* [Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
+* [Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
