@@ -8,10 +8,10 @@ keywords: FAQ, Campaign v8，質問，回答，ヘルプ，サポート，トラ
 version: Campaign v8
 hide: true
 hidefromtoc: true
-source-git-commit: e09936490f04a8bd85021cbb0da8f39940a36027
+source-git-commit: abbbe4c59847a64142cc80704c1a77348a7c35ff
 workflow-type: tm+mt
-source-wordcount: '13114'
-ht-degree: 10%
+source-wordcount: '9923'
+ht-degree: 12%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 10%
 
 Adobe Campaign v8 に関するよくある質問への回答を簡単に示します。 使い始めたばかりの場合でも、高度な設定のヘルプを探している場合でも、以下のトピック別に回答が整理されています。
 
-**Campaign を初めて使用する場合** 一般的 [&#x200B; 質問 &#x200B;](#general) および [&#x200B; 主要概念 &#x200B;](#key-concepts) から始めます。\
-**バージョンに関するヘルプが必要ですか？** バージョン情報とアップグレードプロセスについては、[&#x200B; アップグレード &#x200B;](#upgrades) を確認してください。\
-**v7 または Standard から移行しますか？違** と移行ガイダンスについては、[Campaign v8 と以前のバージョン &#x200B;](#v7-differences) を参照してください。\
-**技術的なサポートが必要な場合は、** 開発者 [&#x200B; と &#x200B;](#developers) キャンペーン設定 [&#x200B; を &#x200B;](#settings) 認します。\
-**答えが見つからない場合は、** [&#x200B; コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"} または [&#x200B; サポートへのお問い合わせ &#x200B;](#get-help) をご覧ください。
+**Campaign を初めて使用する場合** 一般的 [ 質問 ](#general) および [ 主要概念 ](#key-concepts) から始めます。\
+**バージョンに関するヘルプが必要ですか？** バージョン情報とアップグレードプロセスについては、[ アップグレード ](#upgrades) を確認してください。\
+**v7 または Standard から移行しますか？違** と移行ガイダンスについては、[Campaign v8 と以前のバージョン ](#v7-differences) を参照してください。\
+**技術的なサポートが必要な場合は、** 開発者 [ と ](#developers) キャンペーン設定 [ を ](#settings) 認します。\
+**答えが見つからない場合は、** [ コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} または [ サポートへのお問い合わせ ](#get-help) をご覧ください。
 
 **ヒント：** Ctrl + F （Macの場合は Cmd + F）を使用して、このページ上の特定のキーワードを検索します。 任意の質問をクリックして回答を展開します。
 
@@ -38,12 +38,12 @@ Adobe Campaignに接続するには、Campaign クライアントコンソール
 
 Campaign v8.6 リリース以降では、Adobe Experience Cloudの一元化された環境から使用できる **Campaign web ユーザーインターフェイス** にアクセスできます。 Experience Cloudは、Adobeのデジタルマーケティングアプリケーション、製品およびサービスの統合ファミリーです。
 
-Adobe Experience Cloudに接続し、Adobe Campaign web インターフェイスにアクセスする方法については、このページ [&#x200B; を参照し &#x200B;](campaign-ui.md#ac-web-ui) ください。 詳しくは、[Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}を参照してください。
+Adobe Experience Cloudに接続し、Adobe Campaign web インターフェイスにアクセスする方法については、このページ [ を参照し ](campaign-ui.md#ac-web-ui) ください。 詳しくは、[Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}を参照してください。
 
 
 **関連トピック：**
 
-[&#x200B; クライアントコンソールのインストール &#x200B;](connect.md) | [Campaign ユーザーインターフェイス &#x200B;](campaign-ui.md) | [&#x200B; ユーザー権限 &#x200B;](gs-permissions.md)
+[ クライアントコンソールのインストール ](connect.md) | [Campaign ユーザーインターフェイス ](campaign-ui.md) | [ ユーザー権限 ](gs-permissions.md)
 
 +++
 
@@ -51,59 +51,35 @@ Adobe Experience Cloudに接続し、Adobe Campaign web インターフェイス
 
 メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要なコンポーネントであり、条件とルールが常に変化し続けるという特徴があります。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
-詳しくは、配信品質のベストプラクティス [&#x200B; のガイドを参照してください &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}
+詳しくは、配信品質のベストプラクティス [ のガイドを参照してください ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}
 
 Campaign に配信品質を実装する方法については、[このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target="_blank"}を参照してください
 
 **関連トピック：**
 
-[&#x200B; 配信品質の概要 &#x200B;](../send/about-deliverability.md) | [&#x200B; メッセージコンテンツの制御 &#x200B;](../send/control-message-content.md) | [&#x200B; 配信品質の監視 &#x200B;](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
+[ 配信品質の概要 ](../send/about-deliverability.md) | [ メッセージコンテンツの制御 ](../send/control-message-content.md) | [ 配信品質の監視 ](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
 
 +++
 
 +++ エラーなしで配信されていることを確認するにはどうすればよいですか？
 
-配信を成功させるには、次の手順に従います。
+**送信前：** 配信分析を実行し、テスト配達確認を送信し、警告を確認して、ターゲット数を検証します。
 
-**送信前：**
+**送信中/送信後：** 配信ダッシュボード（送信済み、配信済み、バウンス、エラー）の監視、配信ログの確認、成功/バウンス率の追跡、強制隔離されたアドレスの確認をおこないます。
 
-* 配信分析を実行してエラー（パーソナライゼーションの欠落、無効な受信者、コンテンツの問題）を検出します
-* レンダリングとパーソナライゼーションを確認するためのテスト配達確認の送信
-* 準備中に警告を確認
-* ターゲット母集団数の検証
+**ベストプラクティス：** アラートの設定、大量のウェーブの使用、少量のテストから先に、受信者データベースの定期的なクリーンアップ、送信者の評価の監視を行います。
 
-**送信中および送信後：**
-
-* リアルタイム統計（送信、配信、バウンス、エラー）について配信ダッシュボードを監視
-* 配信ログでメッセージレベルのステータスを確認する
-* 成功率、バウンス率およびエラーメッセージの追跡
-* 強制隔離アドレスを確認
-
-**ベストプラクティス：**
-
-* エラーしきい値に関するアラートの設定
-* 大量のウェーブの使用（バッチ送信）
-* 最初に少量でテストします。
-* 受信者データベースを定期的にクリーンアップする
-* 送信者の評価の監視
-
-詳細情報 [&#x200B; 配信の監視 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja){target="_blank"} および [&#x200B; 配信のベストプラクティス &#x200B;](delivery-best-practices.md)。
+[ 配信の監視 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja){target="_blank"} | [ 配信のベストプラクティス ](delivery-best-practices.md)
 
 +++
 
 +++ ワークフローの実行を監視できますか？
 
-はい。Campaign には、ワークフローの実行を監視するためのツールがいくつか用意されています。
+はい。Campaign は複数の監視ツールを提供します。ワークフローダッシュボード（リアルタイムステータスとエラー）、ワークフローログ（詳細な実行ログ）、ヒートマップ（アクティビティとボトルネックの視覚化）、監査記録（変更の追跡）、アラート（失敗の通知）です。
 
-* **[ワークフローダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"}** – 各ワークフローアクティビティのステータス、進行状況およびエラーをリアルタイムで表示します
-* **[ワークフローログ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#displaying-logs){target="_blank"}** – 問題のトラブルシューティング用に詳細な実行ログにアクセスできます
-* **[ヒートマップ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/monitoring-workflows/heatmap){target="_blank"}** - ワークフローアクティビティを視覚化し、パフォーマンスボトルネックを特定します
-* **[監査記録](../reporting/audit-trail.md)** - ワークフローに加えられたすべての変更を追跡します
-* **[アラート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/use-cases/monitoring/send-alerts-to-operators){target="_blank"}** - ワークフローの失敗または遅延の通知を設定します
+監視するには、ワークフローを開いて「**ログ**」タブをクリックします。 失敗したアクティビティは赤で表示されます。
 
-ワークフローを監視するには、ワークフローを開いて「**ログ**」タブをクリックします。 失敗したアクティビティは赤でハイライト表示され、クリックするとエラーの詳細を表示できます。
-
-詳しくは、[&#x200B; ワークフロー実行の監視 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} および [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} を参照してください。
+[ ワークフロー実行の監視 ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [ ワークフローのベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
 
 +++
 
@@ -111,9 +87,9 @@ Campaign に配信品質を実装する方法については、[このガイド]
 
 インストールプログラムとクライアントコンソールは、Adobe ダウンロードセンターから入手できます。
 
-管理者ユーザーの場合は、Adobe[&#x200B; ソフトウェア配布 &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html){target="_blank"} にアクセスして、Adobe Campaignをダウンロードします。
+管理者ユーザーの場合は、Adobe[ ソフトウェア配布 ](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html){target="_blank"} にアクセスして、Adobe Campaignをダウンロードします。
 
-Distribution Center については [&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target="_blank"} を参照してください。
+Distribution Center については [ このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target="_blank"} を参照してください。
 
 +++
 
@@ -129,13 +105,11 @@ Distribution Center については [&#x200B; このページ &#x200B;](https://
 
 +++ 問題をログに記録するにはどうすればよいですか？
 
-ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
+Adobe カスタマーサポートに連絡するには、[Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"} に接続して、ケースを作成するか、チャットセッションを開始します。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"}に接続します。
+正しい権限を持つ個々のアカウントが必要です。 ログインできない場合は、Experience Leagueからアクセスをリクエストします。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
-このシステムでは、各ユーザーに対して、正しい権限を持つアカウントが個別に必要です。Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。[詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
-
-Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。 [会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}
+または、[ キャンペーンコミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} に参加して回答を検索したり、エキスパートに質問したりできます。
 
 +++
 
@@ -147,56 +121,32 @@ Campaign コミュニティに参加：既存の質問の回答を検索する�
 
 +++ Campaign v8 を他のAdobe ソリューションと一緒に使用できますか？
 
-はい。Campaign v8 は、Adobe Experience Cloud ソリューションとシームレスに統合して、強力で統合されたマーケティングエコシステムを構築します。 Managed Cloud Serviceの v8 は、Adobeのエンタープライズアプリケーションとネイティブに統合するように設計されています。
+はい。Campaign v8 は、Adobe Experience Cloud ソリューションとシームレスに統合され、統合されたマーケティングエコシステムを実現します。
 
-**利用可能な主な統合：**
+**主な統合：** Adobe Experience Platform（統合プロファイル、リアルタイムデータ）、Adobe Analytics（パフォーマンス測定）、Adobe Target（パーソナライゼーション）、Adobe Experience Manager（コンテンツ管理）、Adobe Audience Manager（オーディエンスセグメント）。
 
-* **Adobe Experience Platform** – 統合顧客プロファイルとリアルタイムデータを活用します
-* **Adobe Analytics** - チャネルをまたいでキャンペーンのパフォーマンスと顧客行動を測定します
-* **Adobe Target** – 顧客のセグメントと行動に基づいてコンテンツをパーソナライズします
-* **Adobe Experience Manager** - コンテンツ作成とアセット管理を一元化します
-* **Adobe Audience Manager** - プラットフォームをまたいでオーディエンスセグメントを作成し、アクティブ化します
+**設定：** Adobe IMS認証が必要で、Campaign v8 Managed Cloud Services 用に自動的に設定されます。
 
-**メリット：** 顧客データの統合、一貫性のあるユーザーエクスペリエンス、ワークフローの合理化、パーソナライゼーション機能の強化が実現します。
-
-**設定：** Adobe ソリューションとの統合には、Adobe Identity Management System （IMS）認証が必要です。この認証は、Campaign v8 Managed Cloud Services 用に自動的に設定されます。
-
-**関連トピック：**
-
-[Adobe Campaignの統合 &#x200B;](../connect/integration.md) | [Adobe IDとつながる &#x200B;](connect.md)
+[Adobe Campaignの統合 ](../connect/integration.md) | [Adobe IDとつながる ](connect.md)
 
 +++
 
 +++ Campaign v8 の制限事項
 
-Campaign v8 では、パフォーマンスが大幅に向上するアーキテクチャの変更（特に FFDA デプロイメント）が導入されていますが、Campaign Classic v7 とはいくらかの違いもあります。 これらを理解することは、移行を計画し、適切な期待値を設定するのに役立ちます。
+Campaign v8 ではパフォーマンスが大幅に向上しますが、Campaign Classic v7 とはアーキテクチャ上の違いがいくつかあります（特に FFDA デプロイメントの場合）。
 
-**v8 に関する主な考慮事項：**
+**主な考慮事項：**
 
-* **FFDA アーキテクチャ** - エンタープライズデプロイメントでは、異なるデータアクセスパターンを持つクラウドデータベース（Snowflake）を使用します
-* **ユニットの更新** - データ更新は、API や直接のデータベースアクセスではなく、ワークフローで行う必要があります
-* **リアルタイムの書き込み** – 高頻度の個別アップデートではなく、バッチ操作に対して最適化される
-* **データモデル** – 一部のスキーマをカスタマイズするには、異なるアプローチが必要です
-* **外部データベースアクセス** - FDA （Federated Data Access）設定が v7 と異なる
+* **FFDA アーキテクチャ** – 異なるデータアクセスパターンを持つクラウドデータベース（Snowflake）を使用します。
+* **データ更新** - データベースへの直接アクセスではなく、ワークフローで実行する必要があります
+* **バッチ最適化** – 頻繁な個別アップデートではなく、バッチ操作に最適化されます。
+* **FFDA では使用できません** – 調査、マーケティングリソース管理（MRM）、いくつかの特定のコネクタ
 
-**FFDA デプロイメントで使用できない機能：**
+**移行への影響：** ダイレクトデータベースの書き込みを使用したカスタムコードにはリファクタリングが必要です。API 統合には、バッチ処理への適応が必要になる場合があります。
 
-* 調査（標準 v8 デプロイメントで使用可能）
-* マーケティングリソース管理（MRM）
-* いくつかの特定のコネクタ設定
+Adobeが v8 を強化するにつれて、これらの制限は進化しています。 現在のステータスについては、最新のドキュメントを参照してください。
 
-**移行に関する考慮事項：**
-
-* ダイレクトデータベース書き込みを使用したカスタムコードには、リファクタリングが必要
-* API 統合では、バッチ処理への適応が必要になる場合があります
-* ワークフローは、データ操作の FFDA ベストプラクティスに従う必要があります
-* カスタム開発を検証するには、テストが不可欠です
-
-**重要：** Adobeが v8 の機能を引き続き強化する中で、これらの制限は進化しています。 現在のステータスとロードマップについては、最新のドキュメントを参照してください。
-
-**関連トピック：**
-
-[Campaign v7 から v8 への移行 &#x200B;](../start/v7-to-v8.md#limitations) | [FFDA アーキテクチャ &#x200B;](../architecture/enterprise-deployment.md)
+[Campaign v7 から v8 への移行 ](../start/v7-to-v8.md#limitations) | [FFDA アーキテクチャ ](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -208,7 +158,7 @@ Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200
 
 移行プロセスについて詳しくは、アドビ担当者にお問い合わせください。
 
-詳しくは、[Campaign v8 と以前のバージョン &#x200B;](#v7-differences) の節を参照してください。
+詳しくは、[Campaign v8 と以前のバージョン ](#v7-differences) の節を参照してください。
 
 +++
 
@@ -226,7 +176,7 @@ Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200
 * パスワード管理ポリシーをよりセキュアにできます。
 * Federated ID アカウント（外部の ID プロバイダー）を使用します。
 
-Adobe IDを使用した Campaign v8 へのアクセスについては、[&#x200B; 詳細情報 &#x200B;](connect.md) を参照してください。
+Adobe IDを使用した Campaign v8 へのアクセスについては、[ 詳細情報 ](connect.md) を参照してください。
 
 +++
 
@@ -240,21 +190,21 @@ Campaign 管理者は、組織のユーザーに対して権限を設定でき�
 * 特定のデータへのアクセス
 * データの作成、変更、削除
 
-Campaign v8 のユーザー権限について [&#x200B; 詳細情報 &#x200B;](../start/gs-permissions.md) します。
+Campaign v8 のユーザー権限について [ 詳細情報 ](../start/gs-permissions.md) します。
 
 **関連トピック：**
 
-[&#x200B; 権限の概要 &#x200B;](gs-permissions.md) | [&#x200B; ユーザー権限の管理 &#x200B;](manage-permissions.md) | [&#x200B; フォルダーに対する権限の追加 &#x200B;](folder-permissions.md)
+[ 権限の概要 ](gs-permissions.md) | [ ユーザー権限の管理 ](manage-permissions.md) | [ フォルダーに対する権限の追加 ](folder-permissions.md)
 
 +++
 
 +++ Campaign ユーザーインターフェイスについて知っておくべき概念は何ですか？
 
-Adobe Campaignのユーザーインターフェイスの基本について詳しくは、[&#x200B; この節 &#x200B;](campaign-ui.md) を参照してください。
+Adobe Campaignのユーザーインターフェイスの基本について詳しくは、[ この節 ](campaign-ui.md) を参照してください。
 
 Campaign v8.6 リリース以降では、Adobe Experience Cloudの一元化された環境から使用できる新しい **Campaign web ユーザーインターフェイス** にもアクセスできるようになりました。
 
-[&#x200B; 詳しくは、Adobe Campaign Web ユーザーインターフェイスのドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}。
+[ 詳しくは、Adobe Campaign Web ユーザーインターフェイスのドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}。
 
 +++
 
@@ -262,7 +212,7 @@ Campaign v8.6 リリース以降では、Adobe Experience Cloudの一元化さ�
 
 Adobe Campaign では、各種の戦略を使用してオーディエンスの作成とターゲット受信者の選択を行うことができます。
 
-Campaign v8 でオーディエンスを定義する方法については、[&#x200B; 詳細情報 &#x200B;](../audiences/gs-audiences.md) を参照してください。
+Campaign v8 でオーディエンスを定義する方法については、[ 詳細情報 ](../audiences/gs-audiences.md) を参照してください。
 
 +++
 
@@ -274,114 +224,61 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 またワークフローには、1 人または複数のオペレーターを関連付けて、通知の対象とすることや、プロセスの選択や承認に関与させることもできます。この方法により、配信アクションを作成して 1 人または複数のオペレーターにタスクを割り当て、コンテンツに対して作業する、ターゲットを指定する、配信開始前に配達確認を承認する、などが可能になります。
 
-ワークフローについての [&#x200B; 詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target="_blank"}。 「[ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}」も参照してください。
+ワークフローについての [ 詳細情報 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja){target="_blank"}。 「[ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}」も参照してください。
 
 **関連トピック：**
 
-[&#x200B; ワークフローの概要 &#x200B;](../config/workflows.md) | [&#x200B; 最初のワークフローを作成 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [&#x200B; ワークフロー実行の監視 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
+[ ワークフローの概要 ](../config/workflows.md) | [ 最初のワークフローを作成 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [ ワークフロー実行の監視 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
 +++
 
 +++ 最初のメールを作成し送信するにはどうすればよいですか？
 
-Campaign v8 で最初のメールを作成するには、次のいくつかの重要な手順を実行する必要があります。
+**5 の主な手順：**
 
-1. **配信の作成** – まず、テンプレートから、またはゼロから新しいメール配信を作成します
-1. **オーディエンスの定義** - クエリ、リストまたはワークフローを使用してターゲット受信者を選択します
-1. **コンテンツのデザイン** - E メールデザイナーを使用して、パーソナライゼーションでメッセージを作成します
-1. **配達確認を使用したテスト** - テストメールを送信して、コンテンツとパーソナライゼーションを検証します
-1. **分析と送信** – 配信分析を実行してエラーを確認し、メールを送信します
+1. テンプレートから配信を作成
+2. オーディエンス（クエリ、リスト、ワークフロー）の定義
+3. パーソナライゼーションを使用したコンテンツのデザイン
+4. 検証するテスト配達確認の送信
+5. 分析の実行と送信
 
-Campaign v8 には、メール作成用の 2 つのインターフェイスがあります。
+Campaign v8 には、**クライアントコンソール** （フル機能）と **Campaign web UI** （最新、直感的）の 2 つのインターフェイスがあります。
 
-* **クライアントコンソール** – 高度な機能を備えたフル機能のデスクトップアプリケーション
-* **Campaign web UI** - メール作成を高速化する、最新の直感的な web インターフェイス
-
-Campaign v8 での [&#x200B; メールのデザインと検証について詳しくは &#x200B;](../send/email.md) こちら。
-
-**関連トピック：**
-
-[&#x200B; 最初の配信を作成する &#x200B;](create-message.md) | [&#x200B; 配信テンプレートの操作 &#x200B;](../send/create-templates.md) | [&#x200B; 配信のベストプラクティス &#x200B;](delivery-best-practices.md) | [&#x200B; メールコンテンツを定義 &#x200B;](../send/defining-the-email-content.md) | [&#x200B; プレビューと配達確認 &#x200B;](../send/preview-and-proof.md) | [&#x200B; 設定と送信 &#x200B;](../send/configure-and-send.md) | [&#x200B; コンテンツのパーソナライズ &#x200B;](../send/personalize.md)
+[ メールの設計と検証 ](../send/email.md) | [ 最初の配信を作成 ](create-message.md) | [ 配信テンプレート ](../send/create-templates.md) | [ コンテンツのパーソナライズ ](../send/personalize.md)
 
 +++
 
 +++ SMS メッセージを送信するにはどうすればよいですか？
 
-Campaign v8 での SMS メッセージの送信には、初期設定が必要で、簡単な配信プロセスに従います。
+SMS の送信には、初期設定（SMS チャネル、SMPP 接続、ルーティングの設定）と標準配信の作成が必要です。
 
-**初期設定（1 回限りの設定）:**
+**基本プロセス：**
 
-1. **SMS チャネルの設定** - SMS 配信設定と外部アカウントの設定します
-1. **SMPP 接続の設定** - SMPP プロトコルを使用して SMS サービスプロバイダーに接続します
-1. **接続のテスト** - SMS プロバイダーとの接続を検証します
-1. **ルーティングの設定** - SMS メッセージがプロバイダーを通じてどのようにルーティングされるかを定義します
+1. SMS チャネルおよびプロバイダー接続の設定（1 回限りのセットアップ）
+2. テンプレートから SMS 配信を作成
+3. 受信者を定義してコンテンツを書き込む（標準で 160 文字、長めの自動連結）
+4. パーソナライゼーションの追加とテスト配達確認の送信
+5. 分析して送信
 
-**SMS の作成および送信：**
+**機能：** 複数の SMPP コネクタ、配信トラッキング、GSM7/Unicode のサポート、長い SMS の自動連結、ワークフローを備えた双方向 SMS。
 
-1. **SMS 配信を作成** - テンプレートから新しい SMS 配信を開始します
-1. **受信者の定義** – 電話番号フィールドを使用してモバイルオーディエンスを選択します
-1. **SMS コンテンツの書き込み** - メッセージを作成します（標準で 160 文字、または連結を含めてそれ以上）
-1. **パーソナライゼーションの追加** – 各受信者に固有の動的フィールドを含めます
-1. **配達確認の送信** - SMS 配信をテストして、コンテンツと配信を検証します
-1. **分析と送信** – 分析を実行し、オーディエンスに送信します。
-
-**主な SMS 機能：**
-
-* **複数の SMPP コネクタ** – 様々な SMS プロバイダーおよびプロトコルのサポート
-* **配信レポート** – 送信、配信および失敗したメッセージを追跡します
-* **文字エンコーディング** - GSM7、Unicode および特殊文字のサポート
-* **長い SMS のサポート** – 長いテキストの自動メッセージ連結
-* **双方向 SMS** - ワークフローでインバウンド SMS 応答を処理します
-
-Campaign v8 での [SMS 設定と送信について詳しくは &#x200B;](../send/sms/sms.md) こちら。
-
-**関連トピック：**
-
-[SMS の概要 &#x200B;](../send/sms/sms.md) | [SMS 配信設定 &#x200B;](../send/sms/sms-delivery-settings.md) | [SMPP 外部アカウント設定 &#x200B;](../send/sms/smpp-external-account.md) | [SMS 配信を作成 &#x200B;](../send/sms/create-sms.md) | [SMS コンテンツ &#x200B;](../send/sms/sms-content.md) | [SMS 配達確認の送信 &#x200B;](../send/sms/sms-proofs.md) | [SMS を監視 &#x200B;](../send/sms/sms-monitor.md)
+[SMS 設定と送信の詳細を説明します ](../send/sms/sms.md) | [SMS 配信設定 ](../send/sms/sms-delivery-settings.md) | [SMS 配信を作成 ](../send/sms/create-sms.md)
 
 +++
 
 +++ プッシュ通知を送信するにはどうすればよいですか？
 
-Campaign v8 でプッシュ通知を送信するには、モバイルアプリ統合を設定し、魅力的な通知を作成する必要があります。
+プッシュ通知を送信するには、モバイルアプリの初期統合設定に続いて、標準の配信作成を行う必要があります。
 
-**初期設定（1 回限りの設定）:**
+**基本プロセス：**
 
-1. **プッシュチャネルの設定** - Campaign でプッシュ通知チャネルを設定します
-1. **Campaign SDKの統合** - Adobe Campaign SDKをモバイルアプリに追加（またはデータ収集を使用）
-1. **モバイルアプリの設定** - iOS アプリとAndroid アプリを Campaign に登録します
-1. **証明書の設定** - APN 証明書（iOS）と FCM キー（Android）を設定します
-1. **登録のテスト** - デバイスがトークンを登録および受信できることを確認します。
+1. **初期設定** （1 回限り）：プッシュチャネルの設定、Campaign SDKまたはデータ収集の統合、iOS/Android アプリの登録、APN/FCM 証明書の設定
+2. **配信を作成**：テンプレートからプッシュを作成、プラットフォームを選択、オーディエンスを定義、リッチメディアを使用したデザイン通知
+3. **テストして送信**：実際のデバイスで検証してから送信します
 
-**プッシュ通知の作成と送信：**
+**機能：** リッチプッシュ（画像、ビデオ、ボタン）、パーソナライゼーション、ディープリンク、スケジュール、A/B テスト、トラッキング。 iOSとAndroidのプラットフォーム固有の機能。
 
-1. **プッシュ配信を作成** - テンプレートから新しいプッシュ通知を開始します
-1. **プラットフォームを選択** - iOS、Androidまたは両方のプラットフォームを選択します。
-1. **オーディエンスの定義** - モバイルアプリの購読データを使用したターゲットアプリの購読者
-1. **デザイン通知** - タイトル、メッセージ、リッチメディアコンテンツを作成します
-1. **動作の設定** - クリックアクション、ディープリンクおよびカスタムデータを設定します
-1. **テスト通知の送信** – 送信前に実際のデバイスで検証します
-1. **分析と送信** - ターゲティングを確認し、モバイルオーディエンスに送信します
-
-**プッシュ通知機能：**
-
-* **リッチなプッシュ通知** – 画像、ビデオ、インタラクティブボタン（iOSおよびAndroid）を含みます
-* **Personalization** - ユーザープロファイルと行動に基づく動的コンテンツ
-* **ディープリンク** - ユーザーを特定のアプリ画面またはコンテンツに誘導する
-* **スケジュール設定** - ユーザーのタイムゾーンに基づく最適な時間に送信
-* **A/B テスト** – 様々なメッセージをテストし、エンゲージメントを最適化します
-* **トラッキング** – 開封数、クリック数およびコンバージョンを監視します
-
-**Platform 固有の機能：**
-
-* **iOS** - サイレント通知、通知カテゴリ、サウンドのカスタマイズ
-* **Android** - リッチなプッシュテンプレート、通知チャネル、カスタムレイアウト
-
-Campaign v8 の [&#x200B; プッシュ通知設定の詳細 &#x200B;](../send/push-settings.md)。
-
-**関連トピック：**
-
-[&#x200B; プッシュ通知の作成と送信 &#x200B;](../send/push.md) | [&#x200B; プッシュ通知チャネルの設定 &#x200B;](../send/push-settings.md) | [Androidの豊富なプッシュのデザイン &#x200B;](../send/rich-push-android.md) | [iOSの豊富なプッシュのデザイン &#x200B;](../send/rich-push-ios.md) | [&#x200B; データ収集を使用してを設定 &#x200B;](../send/push-data-collection.md) | [&#x200B; 追跡と監視 &#x200B;](tracking.md)
+[ プッシュ通知の詳細 ](../send/push.md) | [ プッシュチャネルの設定 ](../send/push-settings.md) | [Android リッチプッシュ ](../send/rich-push-android.md) | [iOS リッチプッシュ ](../send/rich-push-ios.md)
 
 +++
 
@@ -389,21 +286,21 @@ Campaign v8 の [&#x200B; プッシュ通知設定の詳細 &#x200B;](../send/pu
 
 Adobe Campaign デジタルコンテンツエディターを使用してランディングページをデザインし、データベースフィールドとのマッピングを定義できます。
 
-[&#x200B; 詳細情報 &#x200B;](../dev/landing-pages.md) については、Campaign v8 ドキュメントを参照してください。
+[ 詳細情報 ](../dev/landing-pages.md) については、Campaign v8 ドキュメントを参照してください。
 
-また、Campaign web ユーザーインターフェイスを使用してランディングページの作成と公開を行うこともできます [&#x200B; 詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}。
+また、Campaign web ユーザーインターフェイスを使用してランディングページの作成と公開を行うこともできます [ 詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}。
 
 +++
 
 +++ 配信をトラッキングするにはどうすればよいですか？
 
-Campaign v8 で送信された配信を専用の [&#x200B; 配信レポート &#x200B;](../reporting/delivery-reports.md) を介してトラッキングし、配信を監視できます。
+Campaign v8 で送信された配信を専用の [ 配信レポート ](../reporting/delivery-reports.md) を介してトラッキングし、配信を監視できます。
 
-Campaign でのトラッキング管理について詳しくは [&#x200B; このページ &#x200B;](../start/tracking.md) を参照してください。
+Campaign でのトラッキング管理について詳しくは [ このページ ](../start/tracking.md) を参照してください。
 
 **関連トピック：**
 
-[&#x200B; メッセージのトラッキングと監視 &#x200B;](tracking.md) | [&#x200B; 配信レポート &#x200B;](../reporting/delivery-reports.md) | [&#x200B; 配信エラーについて &#x200B;](../send/delivery-failures.md) | [&#x200B; トラッキングするリンクを設定 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html){target="_blank"}
+[ メッセージのトラッキングと監視 ](tracking.md) | [ 配信レポート ](../reporting/delivery-reports.md) | [ 配信エラーについて ](../send/delivery-failures.md) | [ トラッキングするリンクを設定 ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html){target="_blank"}
 
 +++
 
@@ -419,7 +316,7 @@ Campaign でのトラッキング管理について詳しくは [&#x200B; この
 
 **関連トピック：**
 
-[Web アプリケーションと Web フォームの詳細 &#x200B;](../dev/webapps.md) | [Campaign web UI ランディングページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+[Web アプリケーションと Web フォームの詳細 ](../dev/webapps.md) | [Campaign web UI ランディングページ ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 +++
 
@@ -442,7 +339,7 @@ Adobe Campaign は定期的に更新されています。マイナーバージ�
 
 **メモ：** Managed Cloud Services ユーザーの場合は、Adobeが新しいリリースを提供し、インスタンスをアップグレードします。
 
-詳細情報 [Campaign のバージョンとアップグレード &#x200B;](upgrades.md)。
+詳細情報 [Campaign のバージョンとアップグレード ](upgrades.md)。
 
 +++
 
@@ -451,15 +348,15 @@ Adobe Campaign は定期的に更新されています。マイナーバージ�
 次のチャネルを通じて、新しい Campaign リリースに関する情報を入手します。
 
 * **Adobe担当者** – 新しいバージョンが利用可能になった場合に直接連絡します
-* **リリースノート** - [Campaign リリースノート &#x200B;](release-notes.md) に記載されているすべてのバージョンおよび変更
-* **Adobeの優先製品アップデート** - メール通知用に [&#x200B; 購読 &#x200B;](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}
-* **Campaign コミュニティ** – 参加 [&#x200B; ディスカッション &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"} による早期更新
+* **リリースノート** - [Campaign リリースノート ](release-notes.md) に記載されているすべてのバージョンおよび変更
+* **Adobeの優先製品アップデート** - メール通知用に [ 購読 ](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}
+* **Campaign コミュニティ** – 参加 [ ディスカッション ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"} による早期更新
 
 Managed Cloud Services ユーザーの場合、Adobeはアップグレードを処理し、ユーザーとのタイミングを調整します。
 
 **関連トピック：**
 
-[&#x200B; リリースノート &#x200B;](release-notes.md) | [&#x200B; 新機能 &#x200B;](whats-new.md) | [Campaign のバージョンとアップグレード &#x200B;](upgrades.md)
+[ リリースノート ](release-notes.md) | [ 新機能 ](whats-new.md) | [Campaign のバージョンとアップグレード ](upgrades.md)
 
 +++
 
@@ -478,7 +375,7 @@ Adobeでは、最新バージョンを実行することを強くお勧めしま
 
 **関連トピック：**
 
-[Campaign のバージョンとアップグレード &#x200B;](upgrades.md) | [&#x200B; 新機能 &#x200B;](whats-new.md) | [&#x200B; 互換性マトリックス &#x200B;](compatibility-matrix.md)
+[Campaign のバージョンとアップグレード ](upgrades.md) | [ 新機能 ](whats-new.md) | [ 互換性マトリックス ](compatibility-matrix.md)
 
 +++
 
@@ -498,7 +395,7 @@ Managed Cloud Services のお客様は、Adobeが運用への影響を最小限�
 **ユーザーの責任：**
 
 * 社内関係者とのタイミング調整
-* [&#x200B; クライアントコンソールのアップグレード &#x200B;](connect.md#upgrade-ac-console) を新しいバージョンに
+* [ クライアントコンソールのアップグレード ](connect.md#upgrade-ac-console) を新しいバージョンに
 * アップグレード後のキャンペーンとワークフローのテスト
 * Adobe サポートへの問題の報告
 
@@ -506,7 +403,7 @@ Adobeはインフラストラクチャのアップグレードを実行します
 
 **関連トピック：**
 
-[Campaign のバージョンとアップグレード &#x200B;](upgrades.md) | [&#x200B; クライアントコンソールのアップグレード &#x200B;](connect.md#upgrade-ac-console) | [&#x200B; リリースノート &#x200B;](release-notes.md)
+[Campaign のバージョンとアップグレード ](upgrades.md) | [ クライアントコンソールのアップグレード ](connect.md#upgrade-ac-console) | [ リリースノート ](release-notes.md)
 
 +++
 
@@ -527,7 +424,7 @@ Adobeはインフラストラクチャのアップグレードを実行します
 * インフラストラクチャの管理や IT のオーバーヘッドがない
 * 組み込み型の高可用性と災害復旧
 
-[Campaign v8 アーキテクチャ &#x200B;](../architecture/architecture.md) および [Campaign v8 と Classic v7 の違い &#x200B;](../start/v7-to-v8.md) について説明します。
+[Campaign v8 アーキテクチャ ](../architecture/architecture.md) および [Campaign v8 と Classic v7 の違い ](../start/v7-to-v8.md) について説明します。
 
 +++
 
@@ -541,81 +438,35 @@ Campaign v8 は、最新のクラウドネイティブアーキテクチャに�
 * **自動アップグレード** – 常に最新バージョンを使用し、ダウンタイムは発生しない
 * **機能強化** - AI アシスタント、リッチなプッシュ通知、アップグレードされた SMS、Adobe Experience Cloudとの統合の向上
 
-**Campaign Classic v7 ユーザーの場合：** アーキテクチャの変更、使用できない機能、移行に関する考慮事項など [v7 から v8 への移行 &#x200B;](v7-to-v8.md) について説明します。
+**Campaign Classic v7 ユーザーの場合：** アーキテクチャの変更、使用できない機能、移行に関する考慮事項など [v7 から v8 への移行 ](v7-to-v8.md) について説明します。
 
-**Campaign Standard ユーザーの場合：** v8 への移行パス [&#x200B; および &#x200B;](acs-to-v8.md)4&rbrace;Campaign Standard移行ガイド [&#x200B; を確認してください。](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+**Campaign Standard ユーザーの場合：** v8 への移行パス [ および ](acs-to-v8.md)4}Campaign Standard移行ガイド [ を確認してください。](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 **関連トピック：**
 
-[Campaign v8 の主な機能 &#x200B;](whats-new.md) | [Campaign v8 アーキテクチャ &#x200B;](../architecture/architecture.md) | [&#x200B; 機能マトリックス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [&#x200B; ガードレールと制限 &#x200B;](ac-guardrails.md)
+[Campaign v8 の主な機能 ](whats-new.md) | [Campaign v8 アーキテクチャ ](../architecture/architecture.md) | [ 機能マトリックス ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [ ガードレールと制限 ](ac-guardrails.md)
 
 +++
 
 +++ Campaign Classicを v7 またはCampaign Standardから v8 に移行する必要がありますか？
 
-**Campaign v8 は、次のことを必要とする組織に最適です。**
+Campaign v8 は、Adobeの戦略的プラットフォームで、大量のキャンペーン（1 時間あたり 2000 万件）、最新の web UI、クラウドネイティブのメリット、長期的なサポートを必要とする組織に最適です。 以前のバージョンは、今後数年間でサポートの終了となります。
 
-* **大量のキャンペーン** - パフォーマンスと信頼性が向上した数百万のメッセージを送信（1 時間あたり 2000 万件の操作）
-* **エンタープライズ規模の拡張性** - パフォーマンスを気にすることなく、データベースとキャンペーンを拡張できます
-* **最新の web ユーザーインターフェイス** – 直感的でレスポンシブなキャンペーン web UI で、キャンペーンの作成を迅速化し、ユーザーエクスペリエンスを向上させます
-* **クラウドネイティブのメリット** – 自動更新、インフラストラクチャ管理、柔軟な拡張、プロアクティブな監視を活用します
-* **長期的なサポート** - Campaign v8 は、Adobeの戦略的プラットフォームであり、拡張されたサポートを提供します。以前のバージョンは、今後数年間でサポートの終了に達する予定です
-* **IT オーバーヘッドの削減** - インフラストラクチャの管理とアップグレードの計画を排除
-* **高度な機能** - AI アシスタント、リッチプッシュ、強化された SMS、Adobe Experience Platform統合
+**主なメリット：**
 
-**Campaign Standard ユーザーの場合：**
+* **Campaign Standard ユーザー向け** – 使い慣れた Web UI、同等の機能（動的レポート、REST API、ランディングページ）、スムーズなデータ移行
+* **Campaign Classic v7 ユーザーの場合** - デュアルインターフェイス（コンソール + web UI）、パフォーマンスの向上、自動アップグレード、拡張 FFDA アーキテクチャ
 
-Campaign Standard ユーザーは、Campaign v8 Managed Cloud Services に移行できるようになりました。 主なメリットは次のとおりです。
+**次の場合は、移行を検討してください。**
 
-* **使い慣れたインターフェイス** - Campaign Web UI は、Campaign Standardと多くの類似点を共有し、習得時間を最小限に抑えます
-* **機能パリティ** - Campaign Standardの主な機能が v8 （動的レポート、一元化されたブランディング、REST API、ランディングページ、ビジュアルフラグメント）に追加されました
-* **強化されたサポート** – スムーズな移行と継続的なプラットフォーム監視による一流の支援
-* **データ移行** - Campaign Standardからのすべてのデータが、最小限の中断でインポートされます
-* **一貫したユーザーエクスペリエンス** – 使い慣れたワークフローとインターフェイスで作業を続けます
+* 大量のデータを処理したり、パフォーマンス上の問題に対処したりします
+* IT のオーバーヘッドとインフラストラクチャ管理を削減したい
+* Adobe Experience Cloudと Platform の統合が必要
+* 自動更新機能を備えた将来性の高いテクノロジーが必要
 
-**Campaign Classic v7 ユーザーの場合：**
+**次の手順：** Adobe担当者に問い合わせて、移行に対する準備状況を評価し、移行ツールにアクセスします。
 
-Campaign v8 は、Campaign のコア機能を維持しながら、大幅な改善を実現します。
-
-* **デュアルインターフェイス** – 強力なクライアントコンソールと最新の Campaign web UI の両方にアクセスできます
-* **パフォーマンスの向上** - クエリのパフォーマンスとデータ処理が大幅に向上しました
-* **クラウドのメリット** – 自動アップグレード、セキュリティパッチ、バックアップ/リカバリはAdobeで管理
-* **最新のアーキテクチャ** - PostgreSQL を使用した拡張 FFDA アーキテクチャでスケーラビリティを向上
-
-**移行を検討すべき状況：**
-
-* 現在の Campaign インスタンスで大量のデータを処理する（数百万のプロファイル）
-* ワークフローやターゲティングが複雑で、パフォーマンスの問題が発生しています
-* インフラストラクチャの管理とメンテナンスのコストを削減したい
-* Adobe Experience CloudやAdobe Experience Platformとのシームレスな統合が必要です
-* 大規模なアップグレードまたはインフラストラクチャの更新を計画しているとします
-* **将来性の高いテクノロジーが必要** – 以前のバージョンはサポート終了となります。
-* **チームには最新のインターフェイスが必要です** - Campaign の web UI により、マーケターのアクセシビリティが向上します
-
-**移行に関する考慮事項：**
-
-* Adobeには、移行に関するサポート、ガイダンス、ツールが用意されています
-* v8 は Managed Cloud Serviceのみです（オンプレミスデプロイメントまたはハイブリッドデプロイメントは不可）
-* 一部の技術実装は異なる場合があります。[&#x200B; 機能マトリックス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/capability-matrix){target="_blank"} を確認してください。
-* データの移行とテストには、計画とリソースが必要
-* **Campaign Standard ユーザーの場合** - ワークフローの中断を最小限に抑えながらスムーズに移行できるように設計されています
-
-**次の手順：**
-
-Adobe担当者に連絡して、次の操作を行います。
-
-* 移行に対する準備状況とタイムラインを評価
-* ユースケースに固有のメリットを理解する
-* 移行戦略とリソース割り当ての計画
-* 移行ツールとサポートへのアクセス
-
-**関連トピック：**
-
-**Campaign Classic v7 ユーザーの場合：**&#x200B;[Campaign Classic v7 から v8 へ &#x200B;](v7-to-v8.md) | [v7 から v8 までの詳細ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}
-
-**Campaign Standard ユーザーの場合：** [Campaign Standardの v8 への移行 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [Campaign v8 導入ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"} | [Campaign Standardから v8 への概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/overview){target="_blank"} | [&#x200B; マーケター向けの基礎知識 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/marketers){target="_blank"} | [&#x200B; 管理者/開発者向けの基礎知識 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/admin-developers){target="_blank"}
-
-**一般的なリソース：**&#x200B;[Campaign v8 機能マトリックス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [&#x200B; 互換性マトリックス &#x200B;](compatibility-matrix.md)
+**詳細情報：**[Campaign Classic v7 から v8](v7-to-v8.md) | [Campaign Standard移行ガイド ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [ 機能マトリックス ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 
 +++
 
@@ -632,70 +483,35 @@ Adobe Managed Servicesへの移行は、オンプレミス/ハイブリッド v7
 
 **はじめに：** Adobeの担当者に連絡して環境を評価し、Adobe Professional Servicesで詳細な移行プランを作成してください。
 
-課題、ベストプラクティス、詳細な移行ロードマップなど、[Managed Servicesへの移行 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=ja){target="_blank"} に関する詳細情報を説明します。
+課題、ベストプラクティス、詳細な移行ロードマップなど、[Managed Servicesへの移行 ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"} に関する詳細情報を説明します。
 
 +++
 
 +++ Campaign v8 の主な用語と機能の違いは何ですか？
 
-Campaign v8 では、Campaign Classic v7 およびCampaign Standardのほとんどの機能に機能強化が加えられましたが、クラウドネイティブアーキテクチャによって一部の機能が変わったり、バージョン間で一部の用語が異なったりします。
+Campaign v8 では、v7/Standard のほとんどの機能に機能強化が加えられますが、クラウドネイティブアーキテクチャが原因で一部の用語や機能が異なります。
 
-**用語の違い（Campaign Standardと v8）:**
+**主な用語の変更点（Campaign Standard → v8）:**
 
-* **カスタムリソース** は **スキーマ** になりました
-* **メッセージ** は、**配信** と呼ばれます
-* **製品ユーザー** が **オペレーター** になりました
-* **役割** は **ネームド権限** で設定されます。
-* **セキュリティグループ** は **オペレーターグループ** になりました
-* **組織単位** は、**フォルダー権限** を通じて管理されます
+* カスタムリソース → **スキーマ** | メッセージ→**配信** |製品ユーザー→ **オペレーター**
+* セキュリティグループ→**オペレーターグループ** |組織単位→**フォルダー権限**
 
-**Campaign web UI の用語の更新：**
+**Campaign web UI の更新：**
 
-Campaign web UI で次の用語が更新されました（クライアントコンソールでは従来の用語を使用します）。
-
-* **受信者** は **プロファイル** になりました
-* **シードアドレス** は **テストプロファイル** になりました
-* **配信分析** は **配信準備** になりました（「**準備** ボタンをクリック）
-* **メールのプレビュー** は、「**コンテンツをシミュレート** ボタンから使用できます
-* **リスト** は、**オーディエンス** になりました
+* 受信者→**プロファイル** | シードアドレス → **テストプロファイル** |配信分析→**配信準備**
+* リスト→**オーディエンス** | メールのプレビュー→**コンテンツをシミュレート**
 
 **v8 では利用できません：**
 
-* **オンプレミスデプロイメントとハイブリッドデプロイメント** - v8 は Managed Cloud Services のみ
-* **直接データベースアクセス** – 代わりに、提供された API とツールを使用します
-* **お客様が管理するインフラストラクチャ** - Adobeがすべてのインフラストラクチャを管理
-* **手動のビルドアップグレード** – 自動になりました（Adobeで管理）
+* オンプレミス/ハイブリッドデプロイメント（Managed Cloud Services のみ）
+* 直接データベースアクセス（API を使用）
+* 手動のインフラストラクチャ管理（Adobe管理）
 
-**v8 での様々な実装：**
+**Campaign Standard ユーザー向けの新機能：**
 
-* **テクニカルワークフロー** - クラウドアーキテクチャ用に最適化されたいくつかのワークフローは、動作が異なる場合があります
-* **データベース構造** – 拡張 FFDA アーキテクチャでは、スキーマの適応が必要になる場合があります。
-* **カスタム統合** - クラウドベースのアーキテクチャの更新が必要になる場合があります
-* **低レベルのカスタマイズ** – 管理環境では異なるアプローチが必要なものもあります
+* 動的レポート、ブランディングの一元化、REST API、ランディングページの改善、ビジュアルフラグメント
 
-**v8 で機能強化または置き換え：**
-
-* **ビルドアップグレード** – 手動ではなく連続配信モデルで自動
-* **パフォーマンスチューニング** - Adobe インフラストラクチャの最適化によって処理されます
-* **セキュリティパッチ** - Adobeによって自動適用されます
-* **バックアップと回復** - サービスの一部としてAdobeによって管理されます
-* **ユーザーインターフェイス** - クライアントコンソールと共に新しい Campaign Web UI
-
-**v8 に移行するCampaign Standard ユーザー向けに追加された機能：**
-
-* **動的レポート** – 人口統計学的分析を使用したカスタマイズ可能なリアルタイムレポート
-* **ブランディングの一元化** - ブランドのビジュアルおよび技術的ガイドラインを定義します。
-* **REST API** – 統合を作成し、エコシステムを構築します
-* **ランディングページの改善** - Campaign Standardとの機能強化
-* **ビジュアルフラグメント** - メールおよびコンテンツテンプレート用の再利用可能なビジュアルコンポーネント
-
-**重要：** v8 では、ほとんどのマーケティング機能と運用機能が利用可能で、改善されています。 技術レベルおよびインフラストラクチャレベルの機能は、クラウド環境でAdobeによって管理されます。
-
-**関連トピック：**
-
-[&#x200B; 機能マトリックス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [&#x200B; 互換性マトリックス &#x200B;](compatibility-matrix.md) | [&#x200B; ガードレールと制限 &#x200B;](ac-guardrails.md) | [v7 から v8 への移行ガイド &#x200B;](v7-to-v8.md)
-
-[Campaign Standardから v8 への移行 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+**詳細情報：** [ 機能マトリックス ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [v7 から v8 への移行ガイド ](v7-to-v8.md) | [Campaign Standardから v8 への移行 ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -710,7 +526,7 @@ Campaign web UI で次の用語が更新されました（クライアントコ�
 
 **関連トピック：**
 
-[&#x200B; プロファイルの手動作成 &#x200B;](../audiences/create-profiles.md) | [&#x200B; ファイルからのプロファイルのインポート &#x200B;](../audiences/import-profiles.md) | [Web フォームでのプロファイルの収集 &#x200B;](../audiences/collect-profiles.md)
+[ プロファイルの手動作成 ](../audiences/create-profiles.md) | [ ファイルからのプロファイルのインポート ](../audiences/import-profiles.md) | [Web フォームでのプロファイルの収集 ](../audiences/collect-profiles.md)
 
 +++
 
@@ -722,7 +538,7 @@ Campaign では複数のインポート方法を使用できます。インポ�
 
 **関連トピック：**
 
-[&#x200B; データインポートガイド &#x200B;](../start/import.md) | [&#x200B; 繰り返しインポートワークフロー &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"} | [&#x200B; データ読み込みアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}
+[ データインポートガイド ](../start/import.md) | [ 繰り返しインポートワークフロー ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"} | [ データ読み込みアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}
 
 +++
 
@@ -730,7 +546,7 @@ Campaign では複数のインポート方法を使用できます。インポ�
 
 Campaign では、視覚的な条件を使用したクエリの作成、既存のリストやセグメントのターゲティング、外部ファイル（CSV、TXT）からの受信者のインポート、定義済みフィルターの適用など、複数のターゲティング方法を提供します。 条件を AND/OR ロジックと組み合わせたり、特定の母集団を除外したり、コントロール母集団を使用したり、A/B テスト用に分割したりできます。 送信前に、常にターゲット母集団のサイズをプレビューします。
 
-[&#x200B; キャンペーンターゲットの定義 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"} | [&#x200B; クエリアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} | [&#x200B; オーディエンスを作成 &#x200B;](../audiences/create-audiences.md)
+[ キャンペーンターゲットの定義 ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"} | [ クエリアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} | [ オーディエンスを作成 ](../audiences/create-audiences.md)
 
 +++
 
@@ -742,7 +558,7 @@ Campaign では、視覚的な条件を使用したクエリの作成、既存�
 
 * **手動作成：** **[!UICONTROL プロファイルとターゲット/リスト]** に移動し、「**[!UICONTROL 作成]**」をクリックします。 クエリ、個別の選択、フォルダーのいずれかから受信者を追加します。
 
-* **ワークフローの自動化：**&#x200B;**[!UICONTROL リスト更新]** アクティビティを使用すると、クエリ結果またはインポートされたデータからリストを自動的に作成および管理できます。
+* **ワークフローの自動化：****[!UICONTROL リスト更新]** アクティビティを使用すると、クエリ結果またはインポートされたデータからリストを自動的に作成および管理できます。
 
 * **読み込み時：** プロファイルを読み込む際にリストを作成して、再利用可能なグループとして保存します。
 
@@ -750,7 +566,7 @@ Campaign では、視覚的な条件を使用したクエリの作成、既存�
 
 **関連トピック：**
 
-[&#x200B; オーディエンスの作成 &#x200B;](../audiences/create-audiences.md) | [&#x200B; リスト更新アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html?lang=ja){target="_blank"}
+[ オーディエンスの作成 ](../audiences/create-audiences.md) | [ リスト更新アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html){target="_blank"}
 
 +++
 
@@ -760,7 +576,7 @@ Campaign では、視覚的な条件を使用したクエリの作成、既存�
 
 **ヒント：** 送信する前に常に重複排除を行い、各ユーザーがメッセージを 1 回だけ受信するようにします。
 
-[&#x200B; 重複排除 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} アクティビティの詳細を説明します
+[ 重複排除 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} アクティビティの詳細を説明します
 
 +++
 
@@ -776,7 +592,7 @@ Campaign は購読/購読解除履歴を追跡し、オプトイン/オプトア
 
 **関連トピック：**
 
-[&#x200B; 購読の管理 &#x200B;](../start/subscriptions.md) | [&#x200B; クエリアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}
+[ 購読の管理 ](../start/subscriptions.md) | [ クエリアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}
 
 +++
 
@@ -784,7 +600,7 @@ Campaign は購読/購読解除履歴を追跡し、オプトイン/オプトア
 
 ワークフローで **[!UICONTROL 除外]** アクティビティを使用して、不要なプロファイルをターゲットから削除します。 ターゲティングアクティビティの後ろにドロップし、除外する母集団を定義します。
 
-[&#x200B; 除外アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html?lang=ja){target="_blank"} の詳細情報
+[ 除外アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html){target="_blank"} の詳細情報
 
 +++
 
@@ -798,7 +614,7 @@ Campaign は購読/購読解除履歴を追跡し、オプトイン/オプトア
 
 テストプロファイルは、実稼動データベースに影響を与えずに配達確認を送信し、配信を検証するために使用される特別な受信者です。 **[!UICONTROL プロファイルとターゲット/テストプロファイル]** で作成するか、**[!UICONTROL シードアドレス]** 機能を使用して、品質保証とインボックス監視のためにテスト受信者を配信に自動的に追加します。
 
-詳しくは、[&#x200B; テストプロファイル &#x200B;](../audiences/test-profiles.md) を参照してください。
+詳しくは、[ テストプロファイル ](../audiences/test-profiles.md) を参照してください。
 
 +++
 
@@ -810,7 +626,7 @@ Campaign は購読/購読解除履歴を追跡し、オプトイン/オプトア
 
 重要なガイドライン：モバイルレスポンシブデザインの確保、インライン CSS を使用したHTML 4.0/XHTML 互換コードの使用、代替テキストを使用した画像の最適化（100 KB 未満）、パーソナライゼーション結合フィールドの使用、送信前のメールクライアント間のテスト、プレーンテキストバージョンの組み込みを行います。 最適な配信品質を得るには、合計メールサイズを 500 KB 未満にすることを目指します。
 
-[&#x200B; メールデザインガイド &#x200B;](../send/email.md) | [&#x200B; 配信のベストプラクティス &#x200B;](delivery-best-practices.md)
+[ メールデザインガイド ](../send/email.md) | [ 配信のベストプラクティス ](delivery-best-practices.md)
 
 +++
 
@@ -818,7 +634,7 @@ Campaign は購読/購読解除履歴を追跡し、オプトイン/オプトア
 
 配信テンプレートは、複数のキャンペーンで再利用できるように、すべての設定とパラメーターを保存する事前設定済みの配信です。 テンプレートには、ターゲットルール、コンテンツデザイン、パーソナライゼーション、技術設定（送信者、返信先）、タイポロジルールなどが含まれます。 1 回作成してから再利用することで、一貫性を維持し、キャンペーンの作成を高速化します。
 
-詳細情報 [&#x200B; 配信テンプレートの作成 &#x200B;](../send/create-templates.md)
+詳細情報 [ 配信テンプレートの作成 ](../send/create-templates.md)
 
 +++
 
@@ -828,7 +644,7 @@ Campaign は購読/購読解除履歴を追跡し、オプトイン/オプトア
 
 **ヒント：** 最適なメールデザインエクスペリエンスを得るには、Campaign web UI で **メールDesigner** を使用します。これは、生のHTMLを読み込むのではなく、最新のドラッグ&amp;ドロップ機能と組み込みのレスポンシブテンプレートを提供します。
 
-詳細情報 [HTML コンテンツの読み込み &#x200B;](../send/defining-the-email-content.md)
+詳細情報 [HTML コンテンツの読み込み ](../send/defining-the-email-content.md)
 
 +++
 
@@ -836,7 +652,7 @@ Campaign は購読/購読解除履歴を追跡し、オプトイン/オプトア
 
 はい。Campaign の情報サービスを使用して、ニュースレターの購読を管理します。 主な機能には、自動オプトイン/オプトアウト処理、購読トラッキング、コンプライアンス管理（GDPR、CAN-SPAM）、マルチニュースレターのサポート、サインアップフォームの web 統合、購読者をターゲットにした配信などがあります。
 
-詳細情報 [&#x200B; 購読の管理 &#x200B;](../start/subscriptions.md)
+詳細情報 [ 購読の管理 ](../start/subscriptions.md)
 
 +++
 
@@ -855,7 +671,7 @@ Campaign は、受信者のデータ、行動および環境設定に基づい�
 
 **関連トピック：**
 
-[Personalization ガイド &#x200B;](../send/personalize.md) | [&#x200B; パーソナライゼーションフィールド &#x200B;](../send/personalization-fields.md) | [&#x200B; 条件付きコンテンツ &#x200B;](../send/conditions.md)
+[Personalization ガイド ](../send/personalize.md) | [ パーソナライゼーションフィールド ](../send/personalization-fields.md) | [ 条件付きコンテンツ ](../send/conditions.md)
 
 +++
 
@@ -867,7 +683,7 @@ Campaign は、受信者のデータ、行動および環境設定に基づい�
 
 クライアントコンソールでは、条件付きコンテンツとワークフローを使用して多言語コンテンツをサポートしていますが、より手動での設定が必要です。
 
-[&#x200B; 多言語配信（web UI） &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [&#x200B; 条件付きコンテンツ（クライアントコンソール） &#x200B;](../send/conditions.md)
+[ 多言語配信（web UI） ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [ 条件付きコンテンツ（クライアントコンソール） ](../send/conditions.md)
 
 +++
 
@@ -875,7 +691,7 @@ Campaign は、受信者のデータ、行動および環境設定に基づい�
 
 はい。Campaign web アプリケーションは、多言語ローカライゼーションをサポートしています。 受信者のプロファイルやブラウザーの設定に基づいて自動的に言語を検出し、すべてのフォーム要素（ラベル、ボタン、メッセージ、エラーテキスト）の翻訳を定義します。 1 つの web アプリケーション内で複数の言語バージョンをサポートでき、必要に応じてデフォルト言語にフォールバックできます。
 
-詳細情報 [Web アプリケーションのローカライゼーション &#x200B;](../dev/webapps.md)
+詳細情報 [Web アプリケーションのローカライゼーション ](../dev/webapps.md)
 
 +++
 
@@ -893,7 +709,7 @@ Campaign は、受信者のデータ、行動および環境設定に基づい�
 
 **注意：** AI アシスタントは、Campaign web UI でのみ使用でき、現在は英語のみをサポートしています。 ユーザーは適切な権限が必要で、ユーザー使用許諾契約に同意する必要があります。
 
-[AI アシスタントの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI アシスタントのユースケース &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [&#x200B; ブランドの連携 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
+[AI アシスタントの概要 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI アシスタントのユースケース ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [ ブランドの連携 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
 +++
 
@@ -907,7 +723,7 @@ Campaign は、受信者のデータ、行動および環境設定に基づい�
 
 Campaign は、警告とエラーを示すログを生成します。 エラーは配信をブロックし、修正する必要があります。警告は参考になります。 送信前に必ず分析ログを確認してください。
 
-詳しくは、[&#x200B; 配信分析ガイド &#x200B;](../send/delivery-analysis.md) を参照してください
+詳しくは、[ 配信分析ガイド ](../send/delivery-analysis.md) を参照してください
 
 +++
 
@@ -917,7 +733,7 @@ Campaign は、警告とエラーを示すログを生成します。 エラー�
 
 配達確認は、何千人もの受信者に届く前にエラーを見つけ、関係者の承認を有効にし、インボックスの配置をテストするのに役立ちます。 複数のメールクライアントおよびデバイスに配達確認を送信し、実稼動環境が送信される前に必ず承認を取得します。
 
-詳しくは、[&#x200B; 配達確認とプレビューガイド &#x200B;](../send/preview-and-proof.md) を参照してください
+詳しくは、[ 配達確認とプレビューガイド ](../send/preview-and-proof.md) を参照してください
 
 +++
 
@@ -932,7 +748,7 @@ Campaign は、警告とエラーを示すログを生成します。 エラー�
 
 **[!UICONTROL リソース/キャンペーン管理/シードアドレス]** でシードアドレスを管理します。 配信指標に影響を与えないように、リストを小さく保ちます。
 
-[&#x200B; シードアドレスガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html?lang=ja){target="_blank"}
+[ シードアドレスガイド ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html){target="_blank"}
 
 +++
 
@@ -950,7 +766,7 @@ Campaign は、送信前にメッセージが品質基準を満たしている�
 
 **関連トピック：**
 
-[&#x200B; 配信の検証 &#x200B;](../send/preview-and-proof.md) | [&#x200B; キャンペーン承認 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja){target="_blank"}
+[ 配信の検証 ](../send/preview-and-proof.md) | [ キャンペーン承認 ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja){target="_blank"}
 
 +++
 
@@ -967,7 +783,7 @@ Campaign は、送信前にメッセージが品質基準を満たしている�
 
 ルールはタイポロジにグループ化され、配信分析時に適用されます。 Campaign では、受信者の除外、配信のブロック、ルールに基づく警告の生成を行うことができます。
 
-[&#x200B; タイポロジルールガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"}
+[ タイポロジルールガイド ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"}
 
 +++
 
@@ -981,7 +797,7 @@ Campaign は、送信前にメッセージが品質基準を満たしている�
 
 大規模なキャンペーンにはウェーブを使用し、続行する前に最初のウェーブのパフォーマンスを監視し、ウェーブ間にバウンスおよびオプトアウトを処理するための十分な時間を確保します。
 
-詳細情報 [&#x200B; ウェーブ送信の設定 &#x200B;](../send/configure-and-send.md#sending-using-multiple-waves)
+詳細情報 [ ウェーブ送信の設定 ](../send/configure-and-send.md#sending-using-multiple-waves)
 
 +++
 
@@ -1009,7 +825,7 @@ Campaign v8 でメールを作成するには、配信の作成、ターゲッ�
 
 **関連トピック：**
 
-[&#x200B; 最初のメールを作成 &#x200B;](create-message.md) | [&#x200B; メールデザインガイド &#x200B;](../send/email.md)
+[ 最初のメールを作成 ](create-message.md) | [ メールデザインガイド ](../send/email.md)
 
 +++
 
@@ -1025,7 +841,7 @@ Campaign では、今後の送信に備えて配信のスケジュールを設�
 
 Campaign は、コンタクト日の最適化（受信者ごとの最適な送信時間）とタイムゾーンの適応（すべての受信者に対して同じローカル時間）もサポートしています。
 
-詳細情報 [&#x200B; 配信送信をスケジュール設定 &#x200B;](../send/configure-and-send.md#schedule-delivery-sending)
+詳細情報 [ 配信送信をスケジュール設定 ](../send/configure-and-send.md#schedule-delivery-sending)
 
 +++
 
@@ -1042,7 +858,7 @@ Campaign は、コンタクト日の最適化（受信者ごとの最適な送�
 
 実稼動環境で送信する前に、安全なファイル形式（PDF、JPEG、PNG、DOCX）を使用し、シードアドレスを使用してテストします。
 
-詳しくは、[&#x200B; メール添付ファイルガイド &#x200B;](../send/email.md#attachments) を参照してください
+詳しくは、[ メール添付ファイルガイド ](../send/email.md#attachments) を参照してください
 
 +++
 
@@ -1061,7 +877,7 @@ Campaign は、コンテンツリンク、ミラーページリンク、登録�
 
 **関連トピック：**
 
-[&#x200B; リンクトラッキングガイド &#x200B;](../start/tracking.md) | [&#x200B; トラッキングのベストプラクティス &#x200B;](../send/send.md)
+[ リンクトラッキングガイド ](../start/tracking.md) | [ トラッキングのベストプラクティス ](../send/send.md)
 
 +++
 
@@ -1080,7 +896,7 @@ Campaign は、コンテンツリンク、ミラーページリンク、登録�
 
 **関連トピック：**
 
-[&#x200B; 配信の監視 &#x200B;](../send/send.md) | [&#x200B; トラッキングガイド &#x200B;](../start/tracking.md)
+[ 配信の監視 ](../send/send.md) | [ トラッキングガイド ](../start/tracking.md)
 
 +++
 
@@ -1099,7 +915,7 @@ Campaign には、配信パフォーマンス、受信者のエンゲージメ�
 
 **関連トピック：**
 
-[&#x200B; ビルトインの配信レポート &#x200B;](../reporting/delivery-reports.md) | [&#x200B; キャンペーンレポート &#x200B;](../reporting/gs-reporting.md)
+[ ビルトインの配信レポート ](../reporting/delivery-reports.md) | [ キャンペーンレポート ](../reporting/gs-reporting.md)
 
 +++
 
@@ -1113,7 +929,7 @@ Campaign では、強制隔離リストを自動的に管理して、送信者�
 * **ソフトバウンスしきい値** - エラーしきい値を超えた一時的なエラーの繰り返し（メールボックス容量超過、サーバーの一時的な使用不能）
 * **スパムの苦情** - メールをスパムとしてマークする受信者
 * **無効なアドレス** – 構文エラーが発生したアドレスまたは検証に失敗したアドレス
-* ブロックリストに加える **&#x200B;**&#x200B;- オプトアウトした、または除外をリクエストした受信者
+* ブロックリストに加える **** - オプトアウトした、または除外をリクエストした受信者
 
 **強制隔離の仕組み：**
 
@@ -1127,7 +943,7 @@ Campaign は、各アドレスの配信エラーを追跡します。 アドレ�
 
 **関連トピック：**
 
-[&#x200B; 検疫管理ガイド &#x200B;](../send/quarantines.md) | [&#x200B; バウンス管理 &#x200B;](../send/delivery-failures.md)
+[ 検疫管理ガイド ](../send/quarantines.md) | [ バウンス管理 ](../send/delivery-failures.md)
 
 +++
 
@@ -1150,321 +966,124 @@ Campaign でマーケティングプロセスを自動化するワークフロ�
 
 **関連トピック：**
 
-[&#x200B; ワークフローの作成 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
+[ ワークフローの作成 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [ ワークフローアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [ ワークフローのベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
 
 +++
 
 +++ Campaign でデータをインポートするにはどうすればよいですか？
 
-必要に応じて複数の方法を使用して、Campaign にデータをインポートします。
+**メソッド：** インポートウィザード（1 回限りの CSV/TXT）、ワークフローベースのインポート（**[!UICONTROL データ読み込み（ファイル）]** 変換を伴う複雑なインポートや繰り返しのインポートのアクティビティ）、REST API （プログラム/リアルタイム同期）。
 
-**単純なファイルのインポート：**
+**ベストプラクティス：** 小さなサンプルを使用したテスト、UTF-8 エンコーディングの使用、フィールドの正しいマッピング、重複排除の適用、大きな読み込みのスケジュール設定をピーク外で行います。
 
-* インポートウィザードを使用して、ガイド付きインターフェイスで CSV/TXT を 1 回限りインポートします
-* 手動のアップロードと迅速なデータ読み込みに最適
-
-**ワークフローベースの読み込み：**
-
-* 複雑なインポート用の **[!UICONTROL データ読み込み（ファイル）]** アクティビティを含むワークフローの作成
-* データ変換、エンリッチメント、重複排除を追加
-* SFTP、ローカルディレクトリ、クラウドストレージからの繰り返し読み込みのスケジュール設定
-
-**API 統合：**
-
-* REST API を使用して、外部システムからプログラムでデータをインポートします
-* CRM、e コマースなどのプラットフォームとのリアルタイム同期に最適
-
-**ベストプラクティス：** 常に小さなサンプルを使用してテストし、UTF-8 エンコーディングを使用し、フィールドを正しくマッピングし、重複排除ルールを適用し、ピーク外の時間に大きな読み込みをスケジュールします。
-
-**関連トピック：**
-
-[&#x200B; インポートのベストプラクティス &#x200B;](../start/import.md) | [&#x200B; データ読み込みアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} | [&#x200B; 繰り返しインポートワークフロー &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"}
+[ インポートのベストプラクティス ](../start/import.md) | [ データ読み込みアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} | [ 繰り返しインポートワークフロー ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"}
 
 +++
 
 +++ Campaign の一般的なワークフローユースケースを教えてください。
 
-キャンペーンワークフローは、実質的にあらゆるマーケティングプロセスを自動化できます。 最も一般的なユースケースを次に示します。
+ワークフローは、次のようなマーケティングプロセスを自動化します。
 
-**データ管理：**
+**データ管理：** データのインポート/ロード、クレンジング、エンリッチメント、リスト管理\
+**キャンペーン自動化：** ようこそシリーズ、誕生日キャンペーン、再エンゲージメント、買い物かごの放棄\
+**高度なターゲティング：** A/B テスト、動的セグメント化、リードスコアリング、クロスチャネルオーケストレーション\
+**監視：** ワークフロー/配信の監視、アラート、データベースのメンテナンス\
+**統合：** CRM 同期、API 統合、イベントトリガーワークフロー
 
-* **データのインポートと読み込み** - SFTP、API またはクラウドストレージからのファイルのインポートの自動化
-* **データクレンジング** - プロファイルの重複排除、形式の標準化、無効なレコードの削除
-* **データエンリッチメント** – 外部データまたは計算フィールドを使用してプロファイルを強化します
-* **リスト管理** – 行動または条件に基づいてセグメントを自動的に更新します
-
-**キャンペーン自動処理：**
-
-* **ウェルカムシリーズ** – 新規購読者への自動オンボーディングメールのトリガー
-* **誕生日キャンペーン** – 顧客の誕生日や記念日に、パーソナライズされたメッセージを送信します
-* **再エンゲージメント** – 勝者キャンペーンで非アクティブな購読者をターゲットにする
-* **カート放棄** - カートにアイテムを残した顧客にリマインダーを送信します
-
-**詳細ターゲティング：**
-
-* **A/B テスト** - オーディエンスを分割し、様々なコンテンツのバリエーションをテストします。
-* **動的セグメント化** - リアルタイムの動作または属性に基づいてセグメントを作成します
-* **リードスコアリング** - エンゲージメントに基づいてリードスコアを計算および更新します
-* **クロスチャネルオーケストレーション** - メール、SMS、プッシュ全体でメッセージングを調整します
-
-**監視とアラート：**
-
-* **ワークフロー監視** - ワークフローのステータスを追跡し、失敗時にアラートを送信します
-* **配信監視** - キャンペーンのパフォーマンスとバウンス率の監視
-* **データベースメンテナンス** – 古いログと一時データのクリーンアップを自動化します
-
-**統合と同期：**
-
-* **CRM 同期** – 顧客データをSalesforceや Dynamics などと同期します。
-* **API 統合** - e コマースプラットフォーム、分析ツール、カスタムシステムなどと接続できます
-* **イベントトリガーワークフロー** - web サイトやアプリからリアルタイムイベントに React します
-
-**関連トピック：**
-
-[&#x200B; ワークフローのユースケースライブラリ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [&#x200B; ワークフローの作成 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [&#x200B; ターゲティングワークフロー &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja){target="_blank"} | [&#x200B; データ管理ワークフロー &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/about-data-management.html){target="_blank"}
+[ ワークフローのユースケースライブラリ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [ ワークフローの作成 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [ ワークフローのベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
 
 +++
 
 +++ ワークフローで Campaign データを更新するにはどうすればよいですか？
 
-ワークフローの **[!UICONTROL データを更新]** アクティビティを使用して、データベースに対して一括操作を実行します。
+一括データベース操作に **[!UICONTROL データを更新]** アクティビティを使用：挿入（新しいレコードを追加）、更新（既存を変更）、挿入または更新（アップサート）、削除（一致するレコードを削除）。
 
-**サポートされる操作：**
+**一般的な用途：** プロファイル属性の更新、外部システムとの同期、リストのメンバーシップの維持、データのクリーンアップ/重複排除、一括ステータス変更の適用。
 
-* **挿入** - データベースに新しいレコードを追加します
-* **更新** – 一致条件に基づいて既存のレコードを変更します
-* **挿入または更新** – 新しいレコードを追加または既存のレコードを更新（アップサート）
-* **削除** – 特定の条件に一致するレコードを削除します
+正確な照合を行うために紐付けキーを設定し、更新オプションを選択します。
 
-**一般的なユースケース：**
-
-* データエンリッチメント後のプロファイル属性の更新
-* 外部システムとのデータの同期
-* 行動に基づいてリストのメンバーシップを維持します
-* データのクリーンアップと重複排除
-* ステータスの一括変更（オプトアウト、強制隔離など）を適用
-
-レコードを正確に照合するための紐付けキーを設定し、更新オプション（すべてのフィールドまたは空のフィールドのみを更新）を選択します。
-
-**関連トピック：**
-
-[&#x200B; データを更新アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"} | [&#x200B; データ管理アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
+[ データを更新アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"} | [ データ管理アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
 +++
 
 +++ データ管理機能を利用するにはどうすればよいですか？
 
-Campaign のデータ管理アクティビティを使用すると、ワークフロー内で複雑なターゲティングやセグメント化のための高度なデータ操作が可能になります。
+データ管理アクティビティを使用すると、エンリッチメント（関連するテーブルからデータを追加）、分割（セグメント母集団）、重複排除（重複を削除）、データの更新（一括操作）、ディメンションの変更（ターゲティングディメンションの切り替え）、積集合/和集合/除外（母集団の結合/フィルター）などの高度な操作が可能になります。
 
-**主要なデータ管理アクティビティ：**
+**一般的な用途：** 購入/行動データのエンリッチメント、オーディエンスのセグメント化、重複の削除、外部データベースの統合（FDA）、複雑な複数テーブルのクエリの作成をおこないます。
 
-* **エンリッチメント** – 関連するテーブルまたは外部ソースから作業母集団にデータを追加します
-* **分割** – 条件に基づいて母集団をセグメント化したり、ランダムに分布したりします
-* **重複排除** – 指定したキーに基づいて重複レコードを削除します
-* **データを更新** – 一括挿入、更新、または削除操作を実行します
-* **ディメンションの変更** - ターゲティングディメンションを（受信者から購読に切り替えるなど）切り替えます
-* **積集合/和集合/除外** – 複数の母集団を組み合わせるかフィルタリングします
-
-**一般的なユースケース：**
-
-* 購入履歴や行動データを使用したプロファイルのエンリッチメント
-* 異なるメッセージ用にオーディエンスを複数のグループにセグメント化する
-* 配信前に重複を削除
-* 外部データベースからのデータの統合（FDA - Federated Data Access）
-* 複雑な複数テーブルのクエリと結合の作成
-
-これらのアクティビティを使用すると、メインの受信者テーブル内で直接データを操作したり、高度なデータベース操作を実行したりできます。
-
-**関連トピック：**
-
-[&#x200B; データ管理アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [&#x200B; ターゲティングワークフロー &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja){target="_blank"} | [&#x200B; エンリッチメントアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
+[ データ管理アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [ エンリッチメントアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
 
 +++
 
 +++ パーソナライズされたメッセージの送信を自動化できますか？
 
-はい。ワークフローにより、受信者のデータ、行動およびカスタム条件に基づいて、完全に自動化されたパーソナライズされたメッセージキャンペーンが可能になります。
+はい。自動ワークフローの作成：クエリ（ターゲットオーディエンス）→エンリッチメント（パーソナライゼーションデータの追加）→分割（任意セグメント）→配信（パーソナライズされたメッセージ）→スケジューラー（繰り返し実行）。
 
-**自動化ワークフローの構造：**
+**Personalization:** プロファイルデータ、行動データ、条件付きコンテンツ、動的な値を使用します。 一般的なシナリオ：誕生日キャンペーン、買い物かごの放棄、ロイヤルティプログラム、取り戻し、イベントトリガーメッセージ。
 
-1. **クエリ** – 条件に基づいてターゲットオーディエンスを選択します
-1. **エンリッチメント** – 関連テーブルからパーソナライゼーションデータを追加します
-1. **分割** – 異なるメッセージバリアントのグループにセグメント化します（オプション）
-1. **配信** – 結合フィールドを使用してパーソナライズされたメッセージを送信します
-1. **スケジューラー** – 自動キャンペーンの繰り返し実行の設定
-
-**Personalizationのオプション：**
-
-* 受信者プロファイルデータ （名前、場所、環境設定）を使用
-* 行動データ（購入履歴、エンゲージメントスコア）を含める
-* セグメントまたは属性に基づく条件付きコンテンツの適用
-* 動的な値（ロイヤルティポイント、有効期限）の計算
-
-一般的なシナリオ：誕生日キャンペーン、買い物かごの放棄、ロイヤルティプログラム、勝利キャンペーン、イベントトリガーメッセージ。
-
-**関連トピック：**
-
-[Personalization ガイド &#x200B;](../send/personalize.md) | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"} | [&#x200B; エンリッチメントアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
+[Personalization ガイド ](../send/personalize.md) | [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}
 
 +++
 
 +++ ワークフローでオーディエンスをサブセットに分割するにはどうすればよいですか？
 
-**[!UICONTROL 分割]** アクティビティを使用すると、条件または配分ルールに基づいて、1 つの母集団を複数のサブセットに分割します。
+**[!UICONTROL 分割]** アクティビティを使用して母集団を分割します。フィルタリング条件（年齢、場所、VIPのステータス）、割合の分布（A/B テスト）、レコードの制限（最初の N、上位 X%）、データグループ（値ごとに 1 つのサブセット）。
 
-**分割メソッド：**
+**一般的な用途：** A/B テスト、チャネル環境設定ルーティング、プログレッシブロールアウト、セグメント固有のメッセージ、ロードバランシング 各サブセットは、異なる処理に対して別々のトランジションを生成します。
 
-* **フィルター条件** – 条件（年齢グループ、場所、VIPステータスなど）に基づいてサブセットを作成
-* **パーセンテージ配分** - A/B テスト用に等しい割合またはカスタムの割合にランダムに分割
-* **レコードを制限** - サブセットのサイズを制限します（最初の N 件のレコード、上位 X%、ランダム選択）
-* **データグループ化** – 個別の値ごとに 1 つのサブセットを作成します（例：国ごとに 1 つのサブセット）
-
-**一般的なユースケース：**
-
-* コントロール母集団を使用した A/B テスト
-* チャネル設定ルーティング （メールと SMS）
-* プログレッシブロールアウト（10% に送信、その後 90% に送信）
-* セグメント固有のメッセージ（VIP、通常、新規のお客様）
-* 複数の配信サーバーにわたるロードバランシング
-
-分割された各サブセットは個別のトランジションに送られ、グループごとに異なる処理または配信が可能になります。
-
-**関連トピック：**
-
-[&#x200B; 分割アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} | [A/B テストガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
+[ 分割アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} | [A/B テストガイド ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
 +++
 
 +++ 外部ファイルの受信者データを更新するにはどうすればよいですか？
 
-はい。ワークフローを使用し、外部ファイル（CSV、TXT）の値で Campaign データを更新します。
+はい。ワークフロー：データ読み込み（ファイル） → エンリッチメント （任意） →紐付け（メール/ID などの一致するキー） → データを更新（一致したレコードを更新、一致しない場合は新しく挿入）。
 
-**ワークフロー構造：**
+**一般的な用途：** CRM からのプロファイル属性の更新、購読ステータスの更新、ロイヤルティポイントの同期、オプトイン/オプトアウト環境設定の更新。
 
-1. **データ読み込み（ファイル）** – 外部ファイルを読み込んで、列をマッピングします
-1. **エンリッチメント** （任意） – 追加のデータまたは変換を追加します
-1. **紐付け** - ファイルレコードをデータベースレコード（メールアドレス、受信者 ID など）と照合するためのキーを定義します
-1. **データを更新** – 更新オプションを選択します。
-   * 一致したレコードのみを更新
-   * 既存のフィールドを更新するか、空のフィールドのみを更新する
-   * 一致するレコードが見つからない場合に新しいレコードを挿入
+**ベストプラクティス：** 一意の識別子を使用し、最初にデータを検証、サンプルを使用したテスト、定期的な更新のスケジュールを設定します。
 
-**一般的なシナリオ：**
-
-* CRM エクスポートからのプロファイル属性の更新
-* 外部システムからの購読ステータスの更新
-* ロイヤルティポイントまたは顧客スコアの同期
-* オプトイン/オプトアウトの環境設定を更新
-* 行動データによるプロファイルのエンリッチメント
-
-**ベストプラクティス：** 紐付けには一意の識別子を使用し、更新前にデータを検証し、小さなサンプルを使用してテストし、継続的な同期のために定期的な更新をスケジュールします。
-
-**関連トピック：**
-
-[&#x200B; データインポートガイド &#x200B;](../start/import.md) | [&#x200B; データ読み込みアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} | [&#x200B; データ更新アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"}
+[ データインポートガイド ](../start/import.md) | [ データ読み込みアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} | [ データ更新アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"}
 
 +++
 
 +++ 新しい受信者を識別してターゲットにするにはどうすればよいですか？
 
-クエリアクティビティでワークフローを使用すると、最近追加された受信者を特定し、自動ウェルカムキャンペーンをトリガー化できます。
+**[!UICONTROL 作成日]** フィールドをクエリして、特定の期間内に追加された受信者を選択します。
 
-**クエリアプローチ：**
+**自動ウェルカムワークフロー：** スケジューラー（毎日実行） → クエリ （新しい受信者を選択） →重複排除（オプション） →配信（ウェルカムメッセージ） → データを更新（「歓迎」とマーク）
 
-「**[!UICONTROL 作成日]**」フィールドにクエリフィルターを作成して、特定の期間内（過去 24 時間、先週など）に追加された受信者を選択します。
+**詳細：** 集計関数を使用して、最近の追加を動的に識別します。
 
-**自動ウェルカムワークフローの構造：**
-
-1. **スケジューラー** – 毎日または特定の間隔で実行します
-1. **クエリ** – 前回の実行以降に作成された受信者を選択
-1. **重複排除** （オプション） – 重複がないことを確認します
-1. **配信** - ウェルカムメッセージの送信
-1. **データを更新** （任意） – 受信者を「歓迎」としてマークします
-
-**集計を使用した高度なテクニック：**
-
-集計関数を使用して、最新の追加を動的に識別し、高度な新規受信者検出のために以前に処理した受信者と比較します。
-
-**関連トピック：**
-
-[&#x200B; クエリアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} | [&#x200B; 集計の使用 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja){target="_blank"} | [&#x200B; ようこそプログラム &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}
+[ クエリアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} | [ 集計の使用 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja){target="_blank"}
 
 +++
 
 +++ ワークフローアクティビティの使用方法
 
-キャンペーンワークフローは、アクティビティの 4 つの主なカテゴリを使用して作成され、それぞれが特定の目的を果たします。
+4 つのアクティビティカテゴリ：
 
-**ターゲティングアクティビティ** - オーディエンスを定義し絞り込みます
+**ターゲティング：** クエリ、分割、重複排除、エンリッチメント、積集合、和集合、除外（オーディエンスの定義/絞り込み）\
+**フロー制御：** スケジューラー、待機、テスト、分岐、AND 結合、OR 結合、ジャンプ （ロジック/タイミングの管理）\
+**アクション：** 配信、データの更新、データの読み込み/抽出、JavaScript コード （操作の実行）\
+**イベント：** 外部シグナル、ファイルコレクター、HTTP 転送（トリガーへの React）
 
-* クエリ，分割，重複排除，エンリッチメント，積集合，和集合，除外
-* これらを使用して、受信者の選択、セグメント母集団の選択、データソースの組み合わせを行います
+パレットからドラッグし、ダブルクリックして設定し、トランジションと接続します。
 
-**フロー制御アクティビティ** - ワークフローのロジックとタイミングの管理
-
-* スケジューラ，待機，テスト，AND 結合，OR 結合，ジャンプ
-* 実行フローの制御、条件の追加、並列パスの管理
-
-**アクションアクティビティ** – 操作の実行とメッセージの送信
-
-* 配信、データの更新、データの読み込み（ファイル）、データ抽出（ファイル）、JavaScript コード
-* データベース操作、ファイル転送、およびメッセージ送信の実行
-
-**イベントアクティビティ** – 外部トリガーへの反応
-
-* 外部シグナル，ファイルコレクター，HTTP 転送，SMS, メール
-* 受信データと外部システムインタラクションの処理
-
-アクティビティを使用するには、パレットからワークフローキャンバスにアクティビティをドラッグし、ダブルクリックしてパラメーターを設定して、トランジションに接続します。
-
-**関連トピック：**
-
-[&#x200B; ターゲティングアクティビティのリファレンス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ja){target="_blank"} | [&#x200B; フロー制御アクティビティリファレンス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=ja){target="_blank"} | [&#x200B; アクションアクティビティリファレンス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ja){target="_blank"} | [&#x200B; イベントアクティビティのリファレンス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=ja){target="_blank"}
+[ ターゲティングアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ja){target="_blank"} | [ フロー制御 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=ja){target="_blank"} | [ アクションアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ja){target="_blank"}
 
 +++
 
 +++ ワークフローのベストプラクティス
 
-効率的で、維持可能で、信頼性の高いワークフローを構築するには、次のベストプラクティスに従います。
+**デザイン：** 名前のクリア、ラベルや説明の追加、関連アクティビティのグループ化、複雑なプロセスの小さなワークフローへの分割\
+**パフォーマンス：** クエリサイズの制限、一時テーブルの使用、ピーク外のスケジュール、過剰なループの回避\
+**エラー処理：** エラーパスの追加、アラートの設定、サンプルを使用したテスト、ログの確認\
+**メンテナンス：** 古くなったワークフロー、バージョン管理、複雑さの制限（&lt;20 個のアクティビティ）、テンプレートの使用をアーカイブする\
+**セキュリティ：** 権限を適用し、一時データをクリーンアップし、値をハードコードしていない変数を使用します
 
-**設計と編成：**
-
-* ワークフローとアクティビティにはわかりやすい名前を使用します。
-* ドキュメントロジックへのラベルと説明の追加
-* 読みやすくするために、関連するアクティビティを視覚的にグループ化します
-* 複雑なプロセスを複数の小さなワークフローに分割
-
-**パフォーマンスの最適化：**
-
-* 適切なフィルターでクエリ結果のサイズを制限する
-* 中間データストレージに一時テーブルを使用
-* ピーク以外の時間帯にリソースを大量に消費するワークフローをスケジュールする
-* 不要なループや過剰な繰り返しを避ける
-
-**エラー処理と監視：**
-
-* スーパーバイザーを使用したエラー処理パスの追加
-* 失敗したワークフローに対するアラートの設定
-* 完全に実行する前に、小さなデータサンプルを使用してテストします
-* パフォーマンスの問題に関して実行ログを定期的に確認する
-
-**維持・ガバナンス：**
-
-* 古いワークフローのアーカイブまたは削除
-* バージョン管理ワークフローの変更とドキュメントの変更
-* ワークフローの複雑さを制限（20 個未満のアクティビティを目標）
-* 繰り返しパターンに対するワークフローテンプレートの使用
-
-**セキュリティとデータ管理：**
-
-* 適切なオペレーター権限の適用
-* ワークフロークリーンアップによる一時データのクリーンアップ
-* 値をハードコーディングしない – 変数とオプションを使用
-* パフォーマンスの低いワークフローを定期的に確認し、最適化する
-
-**関連トピック：**
-
-[&#x200B; ワークフローのベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [&#x200B; ワークフローの作成 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローの監視 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
+[ ワークフローのベストプラクティスガイド ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [ ワークフローの監視 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1492,7 +1111,7 @@ Campaign のデータ管理アクティビティを使用すると、ワーク�
 
 **関連トピック：**
 
-[Campaign web UI での言語の変更 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Campaign クライアントコンソールの概要 &#x200B;](connect.md)
+[Campaign web UI での言語の変更 ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Campaign クライアントコンソールの概要 ](connect.md)
 
 +++
 
@@ -1518,7 +1137,7 @@ CampaignCampaign コントロールパネルは、Campaign インスタンス全
 
 **その他のリソース：**
 
-[Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel/using/control-panel-home){target="_blank"} | [Campaign コントロールパネルチュートリアルビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+[Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/ja/docs/control-panel/using/control-panel-home){target="_blank"} | [Campaign コントロールパネルチュートリアルビデオ ](https://experienceleague.adobe.com/ja/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
 +++
 
@@ -1545,7 +1164,7 @@ Campaign v8 は、受信者によるメッセージの操作を監視する包�
 
 **関連トピック：**
 
-[&#x200B; 配信のトラッキングと監視 &#x200B;](tracking.md) | [&#x200B; トラッキングするリンクを設定 &#x200B;](../send/email.md)
+[ 配信のトラッキングと監視 ](tracking.md) | [ トラッキングするリンクを設定 ](../send/email.md)
 
 +++
 
@@ -1573,59 +1192,27 @@ Campaign v8 は、受信者によるメッセージの操作を監視する包�
 
 **関連トピック：**
 
-[Campaign の配信品質について &#x200B;](../send/about-deliverability.md) | [&#x200B; 配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}
+[Campaign の配信品質について ](../send/about-deliverability.md) | [ 配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}
 
 +++
 
 +++ Campaign を接続できる外部データベースはどれですか？ 
 
-Campaign v8 では、主要なエンタープライズデータベースシステムへの Federated Data Access （FDA）接続をサポートしており、既存のデータインフラストラクチャを活用できます。
+Campaign v8 は、主要なエンタープライズデータベースシステム（クラウドデータベース、エンタープライズデータベース、データウェアハウス、ビッグデータプラットフォーム）への Federated Data Access （FDA）接続をサポートしています。
 
-**サポートされているデータベース：**
+サポートされるデータベースのバージョンと接続要件は異なります。 Campaign v8 バージョンの [ 互換性マトリックス ](compatibility-matrix.md) を確認して、特定のデータベースのサポートを確認し、FDA コネクタの適切なライセンスを確認します。
 
-* **クラウドデータベース：** Amazon Redshift、Google BigQuery、Snowflake、Azure Synapse Analytics
-* **エンタープライズデータベース：** Oracle、Microsoft SQL Server、PostgreSQL、MySQL
-* **データウェアハウス：** Teradata、Vertica、SAP HANA
-* **ビッグデータ：Hive を介したHadoopの**
-
-**プラットフォーム固有の考慮事項：** サポートされるデータベースのバージョンと接続要件は異なります。 Campaign v8 as a Managed Cloud Serviceには、外部データベースアクセスに関する特定のネットワークおよびセキュリティ要件がある場合があります。
-
-**重要：** Campaign v8 バージョンの公式の互換性マトリックスを常に確認して、特定のデータベースバージョンのサポートを確認し、外部データベースコネクタの適切なライセンスを確認してください。
-
-**関連トピック：**
-
-[&#x200B; 互換性マトリックス &#x200B;](compatibility-matrix.md) | [FDA 接続の設定 &#x200B;](../connect/fda.md)
+[FDA 接続の設定](../connect/fda.md)
 
 +++
 
 +++ Adobe Campaignを CRM システムと統合できますか？
 
-はい。Campaign は、Campaign と CRM システムの間のシームレスな双方向同期のためのネイティブ CRM コネクタを提供し、プラットフォーム間で顧客データの一貫性を確保します。
+はい。Campaign には、主要な CRM システムとの双方向同期用のネイティブ CRM コネクタが用意されています。 連絡先データ、リード、アカウント、配信ログ、トラッキングデータおよびエンゲージメント指標を同期します。 （API を使用して）スケジュールされた同期、手動の同期、リアルタイムの同期モードをサポートします。
 
-**サポートされている CRM システム：**
+Campaign の CRM コネクタアシスタントを使用して、フィールドのマッピング、テーブルの選択、同期のスケジュール設定を行います。 [ 互換性マトリックス ](compatibility-matrix.md) でサポートされている CRM バージョンを確認してください。
 
-* **Salesforce** - リード、連絡先、アカウント、オポチュニティ、キャンペーン
-* **Microsoft Dynamics 365** – 連絡先、アカウント、リード、カスタムエンティティ
-* カスタム API 統合を介した他の CRM
-
-**同期の概要：**
-
-* **CRM から Campaign へ：** 連絡先レコード、アカウント情報、リード、カスタムフィールド、セグメント化データ
-* **Campaign から CRM へ：** 配信ログ、トラッキングデータ、エンゲージメント指標、キャンペーン応答、購読ステータス
-
-**同期モード：**
-
-* **スケジュール済み** – 定義された間隔（毎時、毎日）で自動同期
-* **手動** - オペレーターによってトリガーされるオンデマンド同期
-* **リアルタイム** - API を使用してすぐに更新（カスタム開発）
-
-**設定：** Campaign の組み込み CRM コネクタアシスタントを使用して、CRM フィールドを Campaign 属性にマッピングし、同期するテーブルを選択して、同期をスケジュールします。 コネクタは、競合の解決を処理し、データの一貫性を維持します。
-
-**ベストプラクティス：** 読み取り専用同期でマッピングをテストしてから、双方向同期を有効にします。 同期ログでエラーを監視し、両方のシステムでクリーンなデータを維持します。
-
-**関連トピック：**
-
-[CRM コネクタの設定 &#x200B;](../connect/crm.md) | [&#x200B; ワークフロー CRM アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html?lang=ja){target="_blank"}
+[CRM コネクタの設定 ](../connect/crm.md) | [ ワークフロー CRM アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
 +++
 
@@ -1672,11 +1259,10 @@ Campaign v8 では、主要なエンタープライズデータベースシス�
 
 * **インスタンス全体** – すべてのユーザーに適用（管理者権限が必要）
 * **ユーザー固有** – 個々の環境設定と個人設定
-* **オペレーターグループ** – すべてのグループメンバーによって継承される設定
 
 **関連トピック：**
 
-[UI 設定を指定 &#x200B;](../config/ui-settings.md) | [&#x200B; ユーザー権限 &#x200B;](gs-permissions.md)
+[UI 設定を指定 ](../config/ui-settings.md) | [ ユーザー権限 ](gs-permissions.md)
 
 +++
 
@@ -1701,7 +1287,7 @@ Campaign v8 では、主要なエンタープライズデータベースシス�
 
 **関連トピック：**
 
-[&#x200B; データモデルの拡張 &#x200B;](../dev/extend-schema.md) | [&#x200B; スキーマ構造 &#x200B;](../dev/schemas.md) | [&#x200B; データモデルのベストプラクティス &#x200B;](../dev/datamodel-best-practices.md)
+[ データモデルの拡張 ](../dev/extend-schema.md) | [ スキーマ構造 ](../dev/schemas.md) | [ データモデルのベストプラクティス ](../dev/datamodel-best-practices.md)
 
 +++
 
@@ -1711,21 +1297,20 @@ Campaign v8 では、主要なエンタープライズデータベースシス�
 
 +++ 新しいレポートを作成するにはどうすればよいですか？
 
-Campaign では、ニーズや技術的な専門知識に応じて、複数のレポートオプションを提供しています。 組み込みレポートを使用したり、クライアントコンソールでカスタムレポートを作成したり、Campaign web UI で視覚的なダッシュボードをデザインしたりできます。
+Campaign では、ニーズや技術的な専門知識に応じて、複数のレポートオプション（ビルトインレポート、記述的分析、クライアントコンソールのカスタムレポートおよびキューブ）を提供します。
 
 **レポートオプション：**
 
 * **ビルトインレポート** - 「レポート **[!UICONTROL タブからアクセスできる、すぐに使用できる配信、キャンペーン、トラッキングレポート]**
 * **記述的分析** - ウィザード方式のインターフェイスを使用した、任意のデータに関するクイック統計レポート
 * **カスタムレポート** - レポートエディターを使用して技術ユーザーが作成した高度なレポート
-* **Web UI ダッシュボード** - ドラッグ&amp;ドロップインターフェイスを備えた最新のビジュアルレポートとダッシュボード
 * **キューブ** – 多次元データの調査とピボットテーブル分析
 
 **重要：** Campaign は、特別なビジネスインテリジェンスツールとしてではなく、マーケティング業務のレポート作成用に設計されています。 複雑な分析ニーズの場合は、Adobe Analyticsまたは専用の BI プラットフォームとの統合を検討してください。
 
 **関連トピック：**
 
-[&#x200B; レポートの概要 &#x200B;](../reporting/gs-reporting.md) | [Campaign web UI レポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[ レポートの概要 ](../reporting/gs-reporting.md) | [Campaign web UI レポート ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1745,13 +1330,13 @@ Campaign の記述的分析ツールを使用すると、任意の母集団デ�
 
 **共有：** レポートを Excel またはPDFにエクスポートするか、**[!UICONTROL Reports]** フォルダーに保存して、適切な権限でチームアクセスできるようにします。
 
-詳細情報 [&#x200B; 記述的分析 &#x200B;](../reporting/built-in-reports.md)
+詳細情報 [ 記述的分析 ](../reporting/built-in-reports.md)
 
 +++
 
 +++ データに関する高度なレポートを設計するにはどうすればよいですか？
 
-Campaign では、高度なカスタムレポートを作成できる方法が 2 つあります。複雑な分析を行うためのクライアントコンソールのテクニカルレポートと、レポート作成を容易にする視覚的なダッシュボードです。
+クライアントコンソールを使用して、複雑な分析機能を備えた高度なカスタムレポートを作成します。
 
 クライアントコンソールでは、次の操作を実行できます。
 
@@ -1760,21 +1345,20 @@ Campaign では、高度なカスタムレポートを作成できる方法が 2
 * 条件付き書式と動的コンテンツのデザイン
 * Campaign の完全なデータモデルと外部データベースへのアクセス（FDA）
 
-方法について説明します [&#x200B; カスタムレポートの作成（クライアントコンソール） &#x200B;](../reporting/custom-reports.md)
+方法について説明します [ カスタムレポートの作成（クライアントコンソール） ](../reporting/custom-reports.md)
 
 +++
 
 +++ キューブとは何ですか？また、キューブをレポートに使用するにはどうすればよいですか？
 
-キューブは、ビジネスユーザーが技術的なスキルがなくてもピボットテーブルを通じて Campaign データを調査および分析できる多次元データ構造です。 複雑なレポートを簡素化する事前設定済みのデータモデルと考えることができます。
-
+キューブは、ビジネスユーザーが技術的なスキルがなくてもピボットテーブルを通じて Campaign データを調査および分析できる多次元データ構造です。 複雑なレポートを簡素化する事前設定済みのデータモデルと考えることができます。 このレポートツールは、クライアントコンソールと Campaign web UI の両方で使用できます。
 
 * 技術ユーザーは、ディメンション（時間、地域、チャネル）と測定（開封数、クリック数、売上高）を定義するキューブを作成および設定します
 * ビジネスユーザーは、レポートの作成時にキューブを選択し、ディメンションをドラッグ&amp;ドロップしてデータを調べます
 * データは、キューブ設定に基づいて自動的に集計および計算されます
 * 結果は、ピボット・テーブル、チャート、または Excel にエクスポートして表示できます
 
-方法を学ぶ [&#x200B; キューブを使用してデータを調べる &#x200B;](../reporting/gs-cubes.md)
+方法を学ぶ [ キューブを使用してデータを調べる ](../reporting/gs-cubes.md)
 
 +++
 
@@ -1793,12 +1377,6 @@ Campaign では、高度なカスタムレポートを作成できる方法が 2
 * 調査の回答を Excel、PDFまたは CSV に書き出して、さらに分析する
 * ターゲティングワークフローでの調査データを使用したキャンペーンのパーソナライズ
 
-**ビルトイン調査レポート：**
-
-* **一般レポート** – 時系列の応答トレンド、接触チャネル別および言語別の分布
-* **回答の分類** – 各質問の回答の詳細な分類
-* **ドキュメントレポート** – 調査構造の視覚的表現
-
 **アドバンス分析：**
 
 * 「回答 **[!UICONTROL タブからアンケートの回答にアクセスし]** データを書き出す
@@ -1808,33 +1386,23 @@ Campaign では、高度なカスタムレポートを作成できる方法が 2
 
 **関連トピック：**
 
-[&#x200B; 調査の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [&#x200B; 調査レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[ 調査の概要 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [ 調査レポート ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
 +++ レポートへのアクセスを共有するにはどうすればよいですか？
 
-Campaign には、様々なユーザーグループとレポートを共有し、役割と責任に基づいて表示とアクセス権限を制御する柔軟なオプションが用意されています。
+Campaign のフォルダー権限とネームド権限を使用して、レポートの表示を制御します。
 
-**レポートのアクセス制御：**
+**アクセス制御方法：**
 
-* **フォルダー権限** - ユーザーグループに対する適切な読み取り/書き込みアクセス権を持つフォルダーにレポートを配置します
-* **ネームド権限** - レポートを表示、作成または変更する特定の権限を割り当てます。
-* **表示コンテキスト** - レポートの表示場所（**[!UICONTROL レポート]** フォルダー、キャンペーンタブ、配信画面など）を定義します
-* **Web UI 共有** - Campaign web UI を使用してチームメンバーとダッシュボードリンクを共有します
+* **フォルダー権限** - ユーザーグループに対する適切なアクセス権を持つフォルダーにレポートを配置します
+* **ネームド権限** - レポートを表示、作成または変更する権限を割り当てます。
+* **表示コンテキスト** - レポートの表示場所（レポートフォルダー、キャンペーンタブ、配信画面）を定義します。
 
-**アクセスの設定方法：**
+**設定：** 特定のフォルダーにレポートを保存→ オペレーターグループのフォルダーアクセスを設定→、レポートのプロパティと表示コンテキストを定義します。
 
-1. レポートをクライアントコンソールの特定のフォルダーに保存します
-2. 関連するオペレーターグループのフォルダーアクセス権限の設定
-3. レポートプロパティ（レポートタイプ、表示コンテキスト、可用性）を定義します。
-4. 広範なロールアウトを行う前に、ターゲットグループのユーザーによるアクセスをテスト
-
-**ベストプラクティス：** カスタマイズされたアクセス権限を使用して、様々なチーム（マーケティング、運営、管理）用の専用レポートフォルダーを作成します。 レポートの目的と更新スケジュールを文書化します。
-
-**関連トピック：**
-
-[&#x200B; カスタムレポート &#x200B;](../reporting/custom-reports.md) | [&#x200B; ユーザー権限 &#x200B;](gs-permissions.md)
+[ カスタムレポート ](../reporting/custom-reports.md) | [ ユーザー権限 ](gs-permissions.md)
 
 +++
 
@@ -1865,7 +1433,7 @@ Campaign には、様々なユーザーグループとレポートを共有し�
 
 **関連トピック：**
 
-[&#x200B; カスタムレポート &#x200B;](../reporting/custom-reports.md) | [Campaign web UI レポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[ カスタムレポート ](../reporting/custom-reports.md) | [Campaign web UI レポート ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1875,263 +1443,122 @@ Campaign には、様々なユーザーグループとレポートを共有し�
 
 +++ Campaign データモデルとは何ですか？
 
-Campaign のデータモデルは、マーケティングデータを整理し関連付ける方法を定義する、スキーマ駆動型のリレーショナルデータベース構造です。 主要なマーケティングオブジェクト（受信者、配信、キャンペーン）のビルトインテーブルで構成され、特定のビジネスニーズに合わせて拡張できます。
+Campaign のデータモデルは、ビジネスニーズに合わせて拡張できるビルトインテーブル（受信者、配信、キャンペーン）で構成される、スキーマ駆動型のリレーショナルデータベース構造です。
 
-**主要なデータモデル概念：**
+**主要な概念：** スキーマ（XML 定義）、組み込みテーブル、リンク（関係）、列挙（値リスト）、拡張機能（カスタムフィールド/テーブル）。
 
-* **スキーマ** - テーブル構造、フィールドおよび関係を記述する XML 定義
-* **ビルトインテーブル** - コアマーケティングエンティティ（受信者、配信、ワークフロー、キャンペーン）
-* **リンク** - テーブル間の関係（1-1、1-N、N-N）
-* **列挙** - ドロップダウンフィールド用の事前定義済みの値リスト
-* **拡張機能** – 標準モデルに追加されたカスタムフィールドとテーブル
+**メインスキーマ：** 受信者（`nms:recipient`）、配信（`nms:delivery`）、ワークフロー（`xtk:workflow`）、キャンペーン（`nms:operation`）、トラッキングログ。
 
-**主なビルトインスキーマ：**
+データモデルの理解は、ワークフロー、クエリ、スキーマ拡張および統合に不可欠です。
 
-* **受信者（nms:recipient）** – 顧客プロファイルと連絡先情報
-* **配信（nms:delivery）** - メール、SMS およびプッシュキャンペーン
-* **ワークフロー（xtk:workflow）** – 自動化プロセス
-* **キャンペーン（nms:operation）** - マーケティングキャンペーンオーケストレーション
-* **トラッキングログ** – 開封数、クリック数、エンゲージメントデータ
-
-**重要な理由：** ワークフローの作成、クエリの作成、スキーマの拡張およびカスタム統合の開発には、データモデルの理解が不可欠です。 スキーマベースのアプローチにより、データの一貫性が確保され、強力なクエリ機能が有効になります。
-
-**関連トピック：**
-
-[Campaign データモデル &#x200B;](../dev/datamodel.md) | [&#x200B; データモデルのベストプラクティス &#x200B;](../dev/datamodel-best-practices.md)
+[Campaign データモデル ](../dev/datamodel.md) | [ データモデルのベストプラクティス ](../dev/datamodel-best-practices.md)
 
 +++
 
 +++ Campaign スキーマの操作方法は？
 
-スキーマは、Campaign のデータ構造の基盤であり、XML 形式でテーブル、フィールド、関係を定義します。 スキーマの理解は、カスタマイズ、統合および高度なワークフロー開発に不可欠です。
-
-**定義するスキーマ：**
-
-* **テーブル構造** - データベーステーブルおよび対応するアプリケーションオブジェクト
-* **フィールドプロパティ** - データタイプ、ラベル、検証ルールおよびデフォルト値
-* **関係** - テーブル（結合）とカーディナリティ間のリンク
-* **インデックス** - クエリパフォーマンスのためのデータベースの最適化
-* **アクセス制御** - ユーザーが表示および変更できるフィールド
+スキーマは、テーブル構造、フィールドプロパティ、関係、インデックス、アクセス制御を指定して、Campaign のデータ構造を XML 形式で定義します。
 
 **スキーマの操作：**
 
-* **スキーマの表示：クライアントコンソールの** 管理/設定/データスキーマ **[!UICONTROL を使用して]** アクセスします
-* **スキーマの拡張：** 拡張スキーマを作成（`cus:recipient` を拡張す `nms:recipient` など）して、コアスキーマを変更せずにカスタムフィールドを追加します
-* **カスタムスキーマの作成：** ビジネス固有のデータ用にまったく新しいテーブルを作成
-* **データベースを更新：** ツール/詳細/データベース構造を更新 **[!UICONTROL を使用してスキーマの変更を適用します]**
+* **表示：** 管理/設定/データスキーマ **[!UICONTROL を使用してアクセス]**
+* **拡張：** 拡張スキーマ（`cus:recipient` など）を作成し、コアスキーマを変更せずにカスタムフィールドを追加します
+* **作成：** ビジネス固有のデータ用に新しいテーブルを作成する
+* **更新：** ツール/詳細/データベース構造を更新 **[!UICONTROL を使用して変更を適用します]**
 
-**一般的なユースケース：**
+**一般的な用途：** 受信者テーブルへのカスタムフィールドの追加、カスタムテーブルの作成、関係の定義、ビジネス固有のモデルの実装をおこないます。
 
-* 受信者テーブルへのカスタムフィールドの追加（会社 ID、ロイヤルティ層、環境設定）
-* 製品、ストアまたはトランザクションのカスタムテーブルの作成
-* カスタムテーブルとビルトインテーブル間の関係の定義
-* ビジネス固有のデータモデルの実装
+**重要：** ビルトインスキーマを直接変更しないでください。 アップグレードの互換性を高めるには、常に拡張スキーマを使用します。
 
-**重要：** ビルトインスキーマを直接変更しないでください。 アップグレードの互換性とAdobeのサポートを維持するために、常に拡張スキーマを使用します。
-
-**関連トピック：**
-
-[&#x200B; スキーマの概要 &#x200B;](../dev/schemas.md) | [&#x200B; スキーマの拡張 &#x200B;](../dev/extend-schema.md)
+[ スキーマの概要 ](../dev/schemas.md) | [ スキーマの拡張 ](../dev/extend-schema.md)
 
 +++
 
 +++ カスタム受信者テーブルの使用方法は？
 
-Campaign では、ターゲティングに異なるデータ構造（B2B アカウント、購読者、リード、外部連絡先など）が必要なビジネスで、組み込みの受信者テーブルではなくカスタムテーブルを使用することができます。
+B2B アカウントのターゲティング、個別の購読者データ、外部システム、または標準の受信者テーブルではなくマルチブランドアーキテクチャを使用する場合は、カスタム受信者テーブルを使用します。
 
-**カスタム受信者テーブルを使用する理由：**
+**実装：** 必須フィールド（メール、プライマリキー、除外）を含むカスタムスキーマの作成→ ターゲットマッピングの設定→配信テンプレートの更新→ ワークフロー/クエリの調整。
 
-* 個々の連絡先ではなく、B2B 会社または組織単位をターゲットにする
-* メインの顧客データベースからサブスクライバーデータを分離
-* 別のシステムの既存の顧客テーブルを使用する
-* 個別の連絡先テーブルを使用したマルチブランドアーキテクチャの実装
-* 特定のデータガバナンス要件への準拠
+**主な考慮事項：** 必須の配信フィールドを含める必要があります。ワークフローやフォームを適応させる必要があり、実稼動環境の移行前に重要なテストを行います。
 
-**実装手順：**
+**ベストプラクティス：** 最初に標準の受信者テーブルを拡張します。 複雑さが増すので、本当に必要な場合にのみ、カスタムテーブルを使用してください。
 
-1. 受信者テーブル構造を定義するカスタムスキーマの作成
-2. 必須フィールド （電子メール、プライマリキー、除外フラグ）を含める
-3. ターゲットマッピングを設定して、テーブルを配信にリンクします
-4. 新しいターゲットマッピングを使用するように配信テンプレートを更新する
-5. カスタムテーブルを参照するようにワークフローとクエリを調整する
-
-**主な考慮事項：**
-
-* カスタム受信者テーブルには、配信（メール、除外、トラッキング）に必須のフィールドを含める必要があります
-* カスタム構造を扱うには、ワークフローとフォームを調整する必要があります
-* 一部の組み込み機能にはカスタマイズが必要な場合があります
-* 実稼動キャンペーンを移行する前にテストを行うことが重要です
-
-**ベストプラクティス：** カスタムテーブルを検討する前に、標準の受信者テーブルの拡張から始めます。 カスタム受信者テーブルは複雑さを増すため、本当に必要な場合にのみ使用してください。
-
-**関連トピック：**
-
-[&#x200B; カスタム受信者テーブル &#x200B;](../dev/custom-recipient.md) | [&#x200B; ターゲットマッピング &#x200B;](../audiences/target-mappings.md)
+[ カスタム受信者テーブル ](../dev/custom-recipient.md) | [ ターゲットマッピング ](../audiences/target-mappings.md)
 
 +++
 
 +++ Campaign でクエリを定義するためのベストプラクティスは？
 
-Campaign のクエリエディターは、SQL に関する知識がなくてもデータベースクエリを作成できる強力なビジュアルツールです。 効果的なターゲティング、セグメント化およびデータ分析には、習得が不可欠です。
+Campaign のクエリエディターでは、ワークフローアクティビティ、配信のターゲティング、リスト、レポート、フィルターに使用されるデータベースクエリを、SQL を使用せずに視覚的に作成します。
 
-**クエリを使用する場所：**
+**ベストプラクティス：**
 
-* **ワークフローアクティビティ** - クエリ、分割、データの更新、エンリッチメントアクティビティ
-* **配信ターゲティング** - キャンペーンの受信者母集団を定義します
-* **リスト** – 動的または静的な受信者リストの作成
-* **レポート** - カスタムデータ抽出および分析の作成
-* **フィルター** – 再利用可能なターゲティング条件を作成します
+* シンプルな構成で開始 – 段階的に構築し、各ステップでテストを実施
+* ディメンションのフィルタリングの使用 – テーブルの関係の活用
+* パフォーマンスの最適化 – クエリされたフィールドのインデックスを作成し、複雑な計算を回避します
+* 一貫性を保つために定義済みフィルターを再利用
+* 最初に小さなサンプルでテスト
+* 複雑なクエリのドキュメント化
 
-**クエリのベストプラクティス：**
+**共通パターン：** ターゲット配信オープナー、非アクティブな連絡先の検索、行動別のセグメント化、以前の受信者の除外。
 
-* **シンプルな開始** - クエリを増分的に作成し、各ステップでテストします
-* **フィルタリングディメンションの使用** - テーブル間の関係を活用（受信者→配信→トラッキングログ）
-* **パフォーマンスの最適化** – 頻繁にクエリされるフィールドのインデックスを作成し、複雑な計算フィールドを回避します
-* **定義済みフィルターの活用** – 一貫性を保つために、既存のフィルターを再利用および組み合わせます
-* **小さなサンプルを使用したテスト** – 完全なデータベースで実行する前にクエリロジックを検証します
-* **複雑なクエリのドキュメント化** - メンテナンスと知識の移行についての説明を追加します
+アドホック探索の **アクセス：****[!UICONTROL ツール/汎用クエリエディター]**。
 
-**一般的なクエリパターン：**
-
-* 特定の配信を開いたターゲット受信者：受信者にリンクされたトラッキングログをフィルタリングします
-* 非アクティブな連絡先の検索：最後の配信日またはトラッキングアクティビティをクエリします
-* 行動別のセグメント：配信、トラッキングおよびプロファイルの条件を組み合わせます
-* 以前の受信者を除外：設定操作（和集合、積集合、除外）を使用します
-
-**汎用クエリエディターにアクセス：**&#x200B;**[!UICONTROL ツール/汎用クエリエディター]** で、ワークフロー外でのアドホックデータベース探索とデータ抽出を行います。
-
-**関連トピック：**
-
-[&#x200B; クエリエディター &#x200B;](../start/query-editor.md) | [&#x200B; ワークフローでのクエリアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}
+[ クエリエディター ](../start/query-editor.md) | [ クエリアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}
 
 +++
 
 +++ データパッケージをインポートするにはどうすればよいですか？
 
-データパッケージを使用すると、Campaign 設定（スキーマ、ワークフロー、タイポロジ、フィルター）とデータをインスタンス間でエクスポートおよびインポートできます。 これは、開発から実稼動への設定のデプロイや、組織間でのコンポーネントの共有に不可欠です。
+クライアントコンソールの **[!UICONTROL ツール/詳細設定/パッケージをインポート]** を使用して、パッケージをインポートします。 パッケージには、Campaign 設定（スキーマ、ワークフロー、タイポロジ）と、インスタンス間でデプロイするためのデータが含まれています。
 
-**パッケージ化できるもの：**
+**パッケージタイプ：** ユーザーパッケージ（カスタム設定）、プラットフォームパッケージ（Adobeが提供）、データパッケージ（実際のデータ）。
 
-* **設定オブジェクト** - スキーマ、ワークフロー、タイポロジルール、フォーム、フィルター
-* **キャンペーンコンポーネント** – 配信テンプレート、キャンペーンテンプレート、コンテンツブロック
-* **アプリケーション設定** - オペレーター、オペレーターグループ、フォルダー構造
-* **データ** – 受信者リスト、シードアドレス、コンテンツフラグメント
-* **カスタムの開発** - JavaScript コード、SQL スクリプト、web アプリケーション
+**ベストプラクティス：** 最初に開発環境でテストし、同じ/古いバージョンから読み込み、書き出す前にバックアップします。
 
-
-**パッケージタイプ：**
-
-* **ユーザーパッケージ** – 作成および書き出すカスタム設定
-* **プラットフォームパッケージ** - Adobeが提供する機能とアップデート
-* **データパッケージ** – 構造だけでなく、実際のデータレコードを含みます
-
-**ベストプラクティス：**
-
-* 常に同じまたは古いバージョンの Campaign からパッケージをエクスポートする
-* 実稼動前に、開発環境でのパッケージインポートのテストを行います。
-* ドキュメントパッケージのコンテンツと依存関係
-* パッケージ XML ファイルにバージョン管理を使用する
-* メジャーパッケージのインポート前にインスタンスをバックアップ
-
-詳細情報：[&#x200B; データパッケージの操作 &#x200B;](../dev/packages.md)
+[データパッケージの使用](../dev/packages.md)
 
 +++
 
 +++ Campaign v8 API のリストはどこで参照できますか？
 
-Campaign v8 では、SOAP API （クライアントコンソールのインタラクション用）と REST API （最新の統合用）の両方をカバーする包括的な API ドキュメントを提供しています。 API リファレンスには、使用可能なすべてのメソッド、パラメーター、応答形式が含まれています。
+Campaign v8 は、SOAP API （クライアントコンソール操作）、REST API （最新の統合）、JavaScript API （ワークフロースクリプティング）を提供します。
 
-**Campaign API のタイプ：**
+**一般的な用途：** CRM/ERP との統合、キャンペーンの自動化、データの同期、監視ソリューションの構築、外部インターフェイスの作成。
 
-* **SOAP API** - Campaign クライアントコンソール操作、スキーマ操作、ワークフロー制御の従来の API
-* **REST API** – 外部システム統合、プロファイル管理、イベントトリガーのための最新の HTTP API
-* **JavaScript API** - ワークフローアクティビティおよびカスタムビジネスロジック用のサーバーサイドスクリプティング API
-
-**API ドキュメントのリソース：**
-
-* **完全な API リファレンス：** メソッドのシグネチャ、パラメーター、例を含む包括的なSOAP API ドキュメント
-* **REST API ガイド：** プロファイル、イベントおよび組織単位の最新の REST エンドポイント
-* **JavaScript API:** ワークフロースクリプトおよび web アプリケーションで使用できるサーバーサイド関数
-
-**一般的な API のユースケース：**
-
-* Campaign と CRM、ERP、またはカスタムアプリケーションの統合
-* キャンペーン操作とワークフロー実行の自動化
-* リアルタイムでのシステム間のデータ同期
-* カスタム監視および警告ソリューションの構築
-* Campaign のデータおよび操作用の外部インターフェイスの作成
-
-**アクセス：** [Campaign v8 API ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}
+**アクセス：** [Campaign v8 API ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}
 
 +++
 
 
 +++ API からワークフローを監視するにはどうすればよいですか？
 
-Campaign API を使用すると、ワークフローの実行をプログラムで制御および監視し、外部の監視システム、自動アラート、カスタムオーケストレーションソリューションを実現できます。
+Campaign API を使用すると、ワークフローをプログラムによって制御できます（開始、一時停止/再開、停止、ステータスのクエリ、ログの取得、アクティビティの進行状況の監視）。
 
-**API を使用して実行できること：**
+**API エンドポイント：** `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
-* **ワークフローの開始** - トリガーワークフローをプログラムで実行
-* **ワークフローの一時停止/再開** - ワークフローの実行フローの制御
-* **ワークフローを停止** – 実行中のワークフローを終了します
-* **ワークフローステータスのクエリ** - ワークフローが実行中、一時停止、または完了しているかどうかを確認します
-* **ログを取得** - ワークフロー実行ログとエラーメッセージにアクセスできます
-* **アクティビティの進行状況の監視** – 個々のワークフローアクティビティの完了を追跡する
+**コマンド：** `{"method":"start"}`、`{"method":"pause"}`、`{"method":"resume"}`、`{"method":"stop"}`
 
-**API エンドポイント：**
+**ユースケース：** 監視ダッシュボードの構築、自動アラートの実装、外部スケジューラーからのオーケストレーション、インスタンス間の依存関係の作成、カスタムレポートの生成。
 
-すべてのワークフロー制御コマンドは、同じ POST エンドポイントを異なるメソッドパラメーターで使用します。
+**ベストプラクティス：** API 監視を監査証跡と組み合わせて、包括的なガバナンスを実現します。
 
-`POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
-
-**使用可能なコマンド：**
-
-* `{"method":"start"}` - ワークフローを開始
-* `{"method":"pause"}` – 実行中のワークフローを一時停止
-* `{"method":"resume"}` – 一時停止したワークフローの再開
-* `{"method":"stop"}` - ワークフローを停止します
-
-**一般的なユースケース：**
-
-* ワークフローの正常性を示すカスタム監視ダッシュボードを作成する
-* ワークフローが失敗した場合や実行に時間がかかりすぎた場合に自動アラートを実装
-* 外部スケジューラーまたはイベントシステムからのワークフローの調整
-* 複数の Campaign インスタンス間でのワークフローの依存関係の作成
-* カスタムワークフロー実行レポートの生成
-
-**ベストプラクティス：** API 監視をワークフロー監査証跡と組み合わせて、包括的なワークフローガバナンスを実現します。 外部の監視ツールを使用して、ワークフローの SLA とパフォーマンス指標を追跡します。
-
-[API を使用してワークフローを制御 &#x200B;](../dev/api/controlling-a-workflow.md) する方法を学ぶ
+[API を使用したワークフローの制御](../dev/api/controlling-a-workflow.md)
 
 +++
 
 +++ データベース構造を更新するにはどうすればよいですか？
 
-Campaign スキーマを変更（フィールドの追加、テーブルの作成、データタイプの変更）したら、変更を適用するために物理データベース構造を更新する必要があります。 この同期により、データベースがスキーマ定義と一致するようになります。
+スキーマを変更（フィールドの追加、テーブルの作成、データタイプの変更）したら、**[!UICONTROL ツール/詳細/データベース構造を更新]** を使用して物理データベース構造を更新し、変更を適用します。
 
-**データベースの更新が必要な場合：**
+**必要な場合：** フィールドの追加、テーブルの作成または拡張、フィールドプロパティの変更、リンクの追加または削除、インデックスの作成。
 
-* 既存スキーマへの新しいフィールドの追加
-* カスタムテーブルの作成またはビルトインテーブルの拡張
-* フィールドプロパティの変更（データタイプ、長さ、必須ステータス）
-* テーブル間のリンクの追加または削除
-* クエリ最適化のための新しいインデックスの作成
+**重要：** 最初にバックアップを実行し、開発でテストを実施し、大規模な変更のダウンタイムを計画し、Adobe サポート（Managed Cloud Services）と連携します。一部の変更によってデータが失われる可能性があることに注意してください。
 
+**ベストプラクティス：** スキーマのバージョン管理を使用して、すべての変更をドキュメント化します。
 
-**重要な考慮事項：**
-
-* **最初にバックアップ** – 構造的変更の前に、常にデータベースをバックアップします
-* **開発環境でのテスト** – 実稼動環境に移行する前に、開発環境でのスキーマ変更を検証します
-* **ダウンタイム計画** – 大規模な構造変更には、短いメンテナンスウィンドウが必要になる場合があります
-* **Managed Cloud Services の場合** - Adobeのサポートにより、大きな変更を調整します
-* **可逆性** – 一部の変更（フィールドの削除など）は、データが失われる可能性があります
-
-**ベストプラクティス：** スキーマのバージョン管理と変更のトラッキングを使用します。 メンテナンスやトラブルシューティングのために、すべてのカスタムスキーマの変更を文書化します。
-
-**関連トピック：**
-
-[&#x200B; データベース構造を更新 &#x200B;](../dev/update-database-structure.md) | [&#x200B; スキーマを拡張 &#x200B;](../dev/extend-schema.md)
+[ データベース構造を更新 ](../dev/update-database-structure.md) | [ スキーマを拡張 ](../dev/extend-schema.md)
 
 +++
 
@@ -2145,7 +1572,7 @@ Campaign は、データ主体の権利、同意、データ保持を管理す�
 
 データ管理者は、データ主体のリクエストの処理、同意記録の維持および透過的なデータ使用の確保を担当します。
 
-詳細情報 [&#x200B; プライバシー管理 &#x200B;](../start/privacy.md)
+詳細情報 [ プライバシー管理 ](../start/privacy.md)
 
 +++
 
@@ -2163,7 +1590,7 @@ Campaign にはプライバシーコンプライアンス用のツールが用�
 
 Campaign は、Privacy Core Service 統合、同意追跡、自動削除ワークフロー、コンプライアンスのための監査証跡を提供します。
 
-詳細情報 [&#x200B; プライバシー管理 &#x200B;](../start/privacy.md)
+詳細情報 [ プライバシー管理 ](../start/privacy.md)
 
 +++
 
@@ -2187,7 +1614,7 @@ Campaign には、同意をトラッキングするための購読サービス�
 
 **関連トピック：**
 
-[&#x200B; 定期購読サービス &#x200B;](../start/subscriptions.md) | [&#x200B; プライバシーと同意 &#x200B;](../start/privacy.md#consent-retention-roles) | [&#x200B; プライバシーの管理 &#x200B;](../start/privacy.md)
+[ 定期購読サービス ](../start/subscriptions.md) | [ プライバシーと同意 ](../start/privacy.md#consent-retention-roles) | [ プライバシーの管理 ](../start/privacy.md)
 
 +++
 
@@ -2201,7 +1628,7 @@ Campaign は、受信者プロファイル、配信とトラッキングログ�
 
 **関連トピック：**
 
-[&#x200B; プライバシーの管理 &#x200B;](../start/privacy.md) | [&#x200B; スキーマリンク &#x200B;](../dev/schemas.md)
+[ プライバシーの管理 ](../start/privacy.md) | [ スキーマリンク ](../dev/schemas.md)
 
 +++
 
@@ -2213,7 +1640,7 @@ Campaign は、受信者プロファイル、配信とトラッキングログ�
 
 **関連トピック：**
 
-[&#x200B; プライバシーの管理 &#x200B;](../start/privacy.md) | [&#x200B; レポート &#x200B;](../reporting/gs-reporting.md)
+[ プライバシーの管理 ](../start/privacy.md) | [ レポート ](../reporting/gs-reporting.md)
 
 +++
 
@@ -2227,7 +1654,7 @@ Campaign だけでなく、すべてのソースシステムからデータを�
 
 **関連トピック：**
 
-[&#x200B; プライバシーの管理 &#x200B;](../start/privacy.md) | [&#x200B; ワークフローをインポート &#x200B;](../config/workflows.md)
+[ プライバシーの管理 ](../start/privacy.md) | [ ワークフローをインポート ](../config/workflows.md)
 
 +++
 
@@ -2239,7 +1666,7 @@ Campaign の監査記録は、削除イベントと新しいプロファイル�
 
 **関連トピック：**
 
-[&#x200B; プライバシーの管理 &#x200B;](../start/privacy.md) | [&#x200B; 購読 &#x200B;](../start/subscriptions.md)
+[ プライバシーの管理 ](../start/privacy.md) | [ 購読 ](../start/subscriptions.md)
 
 +++
 
@@ -2251,15 +1678,15 @@ Campaign の監査記録は、削除イベントと新しいプロファイル�
 
 他の Campaign ユーザーやAdobeのエキスパートとつながり、知識を共有して回答を得ることができます。
 
-* **[Adobe Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}** – 質問をする、ソリューションを共有する、Campaign コミュニティとつながる
-* **[Experience League フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=ja){target="_blank"}** – すべてのAdobe製品のディスカッションを参照できます
-* **[Campaign コミュニティの営業時間 &#x200B;](https://experienceleague.adobe.com/ja){target="_blank"}** - Adobeのエキスパートとのライブセッションに参加できます
+* **[Adobe Campaign コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** – 質問をする、ソリューションを共有する、Campaign コミュニティとつながる
+* **[Experience League フォーラム ](https://experienceleaguecommunities.adobe.com/){target="_blank"}** – すべてのAdobe製品のディスカッションを参照できます
+* **[Campaign コミュニティの営業時間 ](https://experienceleague.adobe.com/){target="_blank"}** - Adobeのエキスパートとのライブセッションに参加できます
 
 ### ドキュメントとラーニング
 
 包括的なガイド、チュートリアル、トレーニング資料にアクセスできます。
 
-* **[Campaign チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"}** – 段階的なビデオガイドと実践チュートリアル
+* **[Campaign チュートリアル ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"}** – 段階的なビデオガイドと実践チュートリアル
 * **[新機能](whats-new.md)** – 最新の機能と特徴
 * **[リリースノート](release-notes.md)** – 現在および以前のリリース情報
 * **[バージョンとアップグレード](upgrades.md)** - Campaign のバージョン、アップグレード、バージョンの確認方法について説明します。
@@ -2277,22 +1704,22 @@ Campaign の監査記録は、削除イベントと新しいプロファイル�
 Adobeのサポートチームにお問い合わせいただき、インスタンスを管理します。
 
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - サポートケースを記録し、ユーザーを管理します
-* **[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - サポートチームにお問い合わせください
+* **[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - サポートチームにお問い合わせください
 * **[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}** - Campaign インスタンス設定の管理
-* **[システムステータス &#x200B;](https://status.adobe.com/){target="_blank"}** - Adobe サービスステータスの確認
+* **[システムステータス ](https://status.adobe.com/){target="_blank"}** - Adobe サービスステータスの確認
 
 ### トレーニングと資格認定
 
 Adobeの公式トレーニングおよび認定プログラムを利用してスキルを向上させましょう。
 
-* **[Experience League ヘルプ &#x200B;](https://experienceleague.adobe.com/ja/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8 のヘルプリソース（web UI およびクライアントコンソール）
+* **[Experience League ヘルプ ](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8 のヘルプリソース（web UI およびクライアントコンソール）
 * **[Adobe Digital Learning Services](https://learning.adobe.com/){target="_blank"}** - インストラクター主導および自習コース
-* **[Adobe Campaign認定制度 &#x200B;](https://experienceleague.adobe.com/docs/certification/program/overview.html?lang=ja){target="_blank"}** - プロフェッショナル認定制度で専門知識を検証します
-* **[Experience Leagueの学習パス &#x200B;](https://experienceleague.adobe.com/ja?lang=ja#dashboard/learning){target="_blank"}** - ガイド付き学習ジャーニー
+* **[Adobe Campaign認定制度 ](https://experienceleague.adobe.com/docs/certification/program/overview.html){target="_blank"}** - プロフェッショナル認定制度で専門知識を検証します
+* **[Experience Leagueの学習パス ](https://experienceleague.adobe.com/?lang=ja#dashboard/learning){target="_blank"}** - ガイド付き学習ジャーニー
 
 ### その他の役立つリソース
 
-* **[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ja){target="_blank"}** - Classic v7 ユーザーのリファレンス
-* **[Campaign Web UI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}** – 新しい web インターフェイスガイド
-* **[配信品質のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}** - メール配信の最適化
+* **[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ja){target="_blank"}** - Classic v7 ユーザーのリファレンス
+* **[Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}** – 新しい web インターフェイスガイド
+* **[配信品質のベストプラクティス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}** - メール配信の最適化
 
