@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 26fededf0ee83299477e45e891df30a46c6d40fe
+source-git-commit: 48c6dfc89fec6ad8cff7d17c1892f7c15b497f99
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 95%
+source-wordcount: '823'
+ht-degree: 91%
 
 ---
 
@@ -40,10 +40,15 @@ ht-degree: 95%
    + [Campaign Standard から v8 へ](start/acs-to-v8.md)
    + [よくある質問](start/campaign-faq-comprehensive.md)
    + [よくある質問](start/campaign-faq.md)
++ 管理と権限 {#permissions}
+   + [権限の基本を学ぶ](start/gs-permissions.md)
+   + [ユーザー権限の管理](start/manage-permissions.md)
+   + [フォルダーに対する権限の追加](start/folder-permissions.md)
+   + [コントロールパネル](config/self-service.md)
 + キャンペーン管理 {#campaigns}
    + [キャンペーンの基本を学ぶ](start/campaigns.md)
-   + [キャンペーンオーケストレーション >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
-+ メッセージの送信{#send}
+   + [Campaign オーケストレーションドキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
++ メッセージの送信 {#send}
    + [メッセージの基本を学ぶ](start/gs-message.md)
    + [最初の配信の作成](start/create-message.md)
    + [配信テンプレートの操作](send/create-templates.md)
@@ -60,22 +65,20 @@ ht-degree: 95%
       + [メールへのファイルの添付](send/attaching-files.md)
    + SMS {#sms}
       + [SMS の基本を学ぶ](send/sms/sms.md)
+      + [SMS チャネルの特性](send/sms/sms-channel.md)
+      + [SMS 配信の作成](send/sms/create-sms.md)
+      + [コンテンツの定義](send/sms/sms-content.md)
+      + [オーディエンスの選択](send/sms/sms-audience.md)
+      + [SMS 配達確認の送信](send/sms/sms-proofs.md)
+      + [オーディエンスに送信](send/sms/sms-send.md)
+      + [SMS の監視と追跡](send/sms/sms-monitor.md)
       + SMS チャネルの設定 {#config-sms}
          + [SMS 配信設定](send/sms/sms-delivery-settings.md)
          + [SMPP 外部アカウント設定](send/sms/smpp-external-account.md)
-         + [SMS チャネルの特性](send/sms/sms-channel.md)
          + [SMPP 接続の検証](send/sms/smpp-connection.md)
          + [スタンドアロンインスタンス](send/sms/sms-standalone-instance.md)
          + [ミッドソーシングインフラストラクチャ](send/sms/sms-mid-sourcing.md)
          + [SMPP コネクタの説明](send/sms/smpp-connector-delivery.md)
-      + SMS の作成  {#create-sms}
-         + [SMS 配信の作成](send/sms/create-sms.md)
-         + [コンテンツの定義](send/sms/sms-content.md)
-         + [オーディエンスの選択](send/sms/sms-audience.md)
-      + SMS の検証と送信 {#validate-sms}
-         + [SMS の配達確認の送信](send/sms/sms-proofs.md)
-         + [オーディエンスへの送信](send/sms/sms-send.md)
-      + [SMS の監視と追跡](send/sms/sms-monitor.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の作成と送信](send/push.md)
       + リッチプッシュ {#rich-push}
@@ -83,10 +86,11 @@ ht-degree: 95%
          + [iOS のリッチプッシュ配信の設計](send/rich-push-ios.md)
       + [プッシュ通知チャネルを設定](send/push-settings.md)
       + [データ収集を使用してプッシュ通知を設定](send/push-data-collection.md)
-   + [LINE メッセージ](send/line/line.md)
-   + [ダイレクトメール](send/direct-mail.md)
-   + [X（Twitter）](send/twitter.md)
-   + [カスタム外部チャネル](send/custom-channel.md)
+   + その他のチャネル {#other-channels}
+      + [LINE メッセージ](send/line/line.md)
+      + [ダイレクトメール](send/direct-mail.md)
+      + [X（Twitter）](send/twitter.md)
+      + [カスタム外部チャネル](send/custom-channel.md)
    + コンテンツのパーソナライズ {#personalize}
       + [パーソナライゼーションの基本を学ぶ](send/personalize.md)
       + [パーソナライゼーションデータ](send/personalization-data.md)
@@ -134,21 +138,21 @@ ht-degree: 95%
       + [オーディエンスをアドビソリューションと共有](start/shared-audiences.md)
    + [ベストプラクティス](audiences/audiences-best-practices.md)
    + [購読を管理](start/subscriptions.md)
-+ コンテンツ管理 {#content}
++ ランディングページと web コンテンツ {#content}
    + [ランディングページの作成](dev/landing-pages.md)
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ 完全なワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティの管理 {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
    + [セキュリティ強化アドオン](config/enhanced-security.md)
-+ 意思決定管理 {#offers}
++ オファー管理とインタラクション {#offers}
    + [リアルタイムインタラクションの概要](interaction/interaction.md)
    + [環境とアーキテクチャ](interaction/interaction-architecture.md)
    + [ベストプラクティス](interaction/interaction-best-practices.md)
-   + 設定の定義{#interaction-settings}
+   + 設定 {#interaction-settings}
       + [オペレーターの作成](interaction/interaction-operators.md)
       + [環境の作成](interaction/interaction-env.md)
       + [定義済みフィルターの作成](interaction/interaction-predefined-filters.md)
@@ -183,8 +187,9 @@ ht-degree: 95%
       + [クエリエディターの操作](start/query-editor.md)
       + [クエリの設計](start/design-queries.md)
       + [フィルター条件の定義](start/filter-conditions.md)
+      + [オーディエンスフィルターの操作](audiences/create-filters.md)
    + [データのインポート](start/import.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
@@ -203,12 +208,6 @@ ht-degree: 95%
       + [Campaign と SFDC の連携](connect/ac-sfdc.md)
       + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
       + [データの同期](connect/crm-data-sync.md)
-+ 管理 {#admin}
-   + ユーザーと権限 {#permissions}
-      + [権限の基本を学ぶ](start/gs-permissions.md)
-      + [ユーザー権限の管理](start/manage-permissions.md)
-      + [フォルダーに対する権限の追加](start/folder-permissions.md)
-   + [コントロールパネル](config/self-service.md)
 + アーキテクチャ {#architecture}
    + [グローバル原則](architecture/general-architecture.md)
    + [アーキテクチャモデル](architecture/architecture.md)
@@ -252,10 +251,10 @@ ht-degree: 95%
    + REST API {#apis}
       + [REST API の概要](dev/api/get-started-apis.md)
       + [推奨事項と制限事項](dev/api/limitations.md)
-      + [REST API を使用する理由](dev/api/why-using-campaign-standard-apis.md)
+      + [REST API を使用するタイミング](dev/api/why-using-campaign-standard-apis.md)
       + [API アクセスの設定](dev/api/setting-up-api-access.md)
       + グローバル概念 {#global-concepts}
-         + [必読](dev/api/must-read.md)
+         + [基本的な概念](dev/api/must-read.md)
          + [エンドポイント](dev/api/endpoints.md)
          + [メタデータのメカニズム](dev/api/metadata-mechanism.md)
          + [動詞](dev/api/verbs.md)
@@ -275,6 +274,7 @@ ht-degree: 95%
       + ワークフローの管理 {#managing-workflows}
          + [ワークフローの制御](dev/api/controlling-a-workflow.md)
          + [シグナルアクティビティのトリガー](dev/api/triggering-a-signal-activity.md)
-+ [Campaign のテクニカルノート >](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/technotes-home)
-+ [Campaign web ユーザーインターフェイスのドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
++ その他のリソース {#resources}
+   + [Campaign テクニカルノート >](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/technotes-home)
+   + [Campaign Web ユーザーインターフェイスのドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
 

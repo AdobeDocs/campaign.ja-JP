@@ -6,10 +6,10 @@ role: Data Engineer
 level: Intermediate
 badge: label="限定提供（LA）" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
+source-git-commit: 11a9f17bc5c1ec8388de294395a6d7b7a5e8a7e6
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 97%
+source-wordcount: '1481'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. [Adobe Experience Platform データ収集でのモバイルプロパティの作成と設定](#create-mobile-property)
 
-1. [Adobe Adobe Experience Platform Assurance拡張機能の追加 &#x200B;](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} （推奨）
+1. [Adobe Adobe Experience Platform Assurance拡張機能の追加 ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} （推奨）
 
 1. [Campaign Classic をモバイルアプリケーションに追加](#campaign-mobile-ap)
 
@@ -55,37 +55,43 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL モバイルアプリケーション設定]**&#x200B;から、オペレーティングシステムを選択します。
 
-   * **iOS の場合**
+>[!BEGINTABS]
 
-     ![](assets/push-config-2.png)
+>[!TAB iOS]
 
-      1. 「**[!UICONTROL アプリ ID (iOS バンドル ID)]**」フィールドにモバイルアプリの&#x200B;**バンドル ID** を入力します。
+![](assets/push-config-2.png)
 
-         アプリのバンドル ID は、Apple 開発者アカウントの **XCode** のプライマリターゲットの「**一般**」タブで確認できます。
+1. 「**[!UICONTROL アプリ ID (iOS バンドル ID)]**」フィールドにモバイルアプリの&#x200B;**バンドル ID** を入力します。
 
-      1. 「**[!UICONTROL プッシュ資格情報]**」をオンにして、資格情報を追加します。
+   アプリのバンドル ID は、Apple 開発者アカウントの **XCode** のプライマリターゲットの「**一般**」タブで確認できます。
 
-      1. .p8 Apple プッシュ通知認証キーファイルをドラッグ＆ドロップします。
+1. 「**[!UICONTROL プッシュ資格情報]**」をオンにして、資格情報を追加します。
 
-         このキーは、Apple 開発者アカウントの&#x200B;**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページから取得できます。
+1. .p8 Apple プッシュ通知認証キーファイルをドラッグ＆ドロップします。
 
-      1. **キー ID** を入力します。これは、p8 認証キーの作成時に割り当てられる 10 文字の文字列です。
+   このキーは、Apple 開発者アカウントの&#x200B;**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページから取得できます。
 
-         Apple 開発者アカウントの&#x200B;**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
+1. **キー ID** を入力します。これは、p8 認証キーの作成時に割り当てられる 10 文字の文字列です。
 
-      1. **チーム ID** を入力します。これは、「**メンバーシップ**」タブの下にある文字列値です。
-
-   * **Android の場合**
-
-     ![](assets/push-config-3.png)
-
-      1. **[!UICONTROL アプリ ID（Android パッケージ名）]**&#x200B;を入力します。通常、パッケージ名は `build.gradle` ファイル内のアプリ ID です。
-
-      1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
-
-      1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法の詳細については、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} を参照してください。
+        これは、Apple開発者アカウントの**証明書**、**識別子**、**プロファイル**ページの「**キー**」タブにあります。
+   
+1. **チーム ID** を入力します。これは、「**メンバーシップ**」タブの下にある文字列値です。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
+
+>[!TAB Android]
+
+![](assets/push-config-3.png)
+
+1. **[!UICONTROL アプリ ID（Android パッケージ名）]**&#x200B;を入力します。通常、パッケージ名は `build.gradle` ファイル内のアプリ ID です。
+
+1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
+
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法の詳細については、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} を参照してください。
+
+1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
+
+>[!ENDTABS]
 
 ## Adobe Campaign でのアプリケーション設定{#push-config-campaign}
 
@@ -105,7 +111,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
    >[!NOTE]
    >
-   >デフォルトの「**[!UICONTROL 購読者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングについて詳しくは、[このページ](../audiences/target-mappings.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。ターゲットマッピングについて詳しくは、[このページ](../audiences/target-mappings.md)を参照してください。
 
 1. 次に、右側にある「**[!UICONTROL 追加]**」アイコンを使用して、このサービスを使用するモバイルアプリケーションを定義します。
 
@@ -135,7 +141,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
    ![](assets/push-config-8.png)
 
-1. 「**[!UICONTROL サブスクリプションパラメーター]**」タブを参照すると、**[!UICONTROL サブスクライバーのアプリケーション（nms:appsubscriptionRcp）]**&#x200B;スキーマの拡張によりマッピングを定義できます。
+1. 「**[!UICONTROL サブスクリプションパラメーター]**」タブを参照すると、**[!UICONTROL サブスクライバーのアプリケーション（nms:appsubscriptionRcp）]** スキーマの拡張によりマッピングを定義できます。
 
 1. 「**[!UICONTROL サウンド]**」タブを参照して、再生するサウンドを定義します。「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 内部名]**」フィールドに、アプリケーションに埋め込まれたファイル名またはシステムサウンドの名前を入力します。
 
@@ -145,7 +151,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   詳しくは、[Developer のドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"} を参照してください。
+   詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
 
 
    >[!NOTE]
@@ -180,7 +186,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
    Adobe Campaign と、アプリケーションコード（SDK 経由）で同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;が定義されていることを確認します。
 
-   詳しくは、[Developer のドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"} を参照してください。
+   詳しくは、[Developer のドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}を参照してください
 
    >[!NOTE]
    >
@@ -192,7 +198,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. （オプション）必要に応じて、**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 
-1. 「**[!UICONTROL サブスクリプションパラメーター]**」タブを参照すると、**[!UICONTROL サブスクライバーのアプリケーション（nms:appsubscriptionRcp）]**&#x200B;スキーマの拡張によりマッピングを定義できます。
+1. 「**[!UICONTROL サブスクリプションパラメーター]**」タブを参照すると、**[!UICONTROL サブスクライバーのアプリケーション（nms:appsubscriptionRcp）]** スキーマの拡張によりマッピングを定義できます。
 
 1. 「**[!UICONTROL 終了]**」、「**[!UICONTROL 保存]**」の順にクリックします。
 
@@ -248,7 +254,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。
 
-[&#x200B; 詳しくは、Adobe Developer ドキュメントを参照してください &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}。
+[Adobe Developer ドキュメントの詳細情報](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}。
 
 ## プッシュ通知を作成{#push-create}
 
