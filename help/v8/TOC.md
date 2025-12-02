@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 48c6dfc89fec6ad8cff7d17c1892f7c15b497f99
+source-git-commit: 16c9cc60041f41702b4983383954033b06ba1d99
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '816'
 ht-degree: 91%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 91%
          + [イベントの収集と処理](send/event-processing.md)
          + [イベントの説明について](send/event-description.md)
          + [メッセージの送信と監視](send/delivery-execution.md)
-+ プロファイルと Audience Management {#audience}
++ プロファイルとオーディエンス {#audience}
    + [プロファイルとオーディエンスの基本を学ぶ](audiences/gs-audiences.md)
    + [オーディエンスの操作](start/audiences.md)
    + [プロファイルへのアクセス](audiences/view-profiles.md)
@@ -143,12 +143,12 @@ ht-degree: 91%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [&#x200B; 完全なワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
-+ プライバシーとセキュリティの管理 {#privacy}
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
++ プライバシーとセキュリティ {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
    + [セキュリティ強化アドオン](config/enhanced-security.md)
-+ オファー管理とインタラクション {#offers}
++ オファー管理 – インタラクション {#offers}
    + [リアルタイムインタラクションの概要](interaction/interaction.md)
    + [環境とアーキテクチャ](interaction/interaction-architecture.md)
    + [ベストプラクティス](interaction/interaction-best-practices.md)
@@ -187,9 +187,8 @@ ht-degree: 91%
       + [クエリエディターの操作](start/query-editor.md)
       + [クエリの設計](start/design-queries.md)
       + [フィルター条件の定義](start/filter-conditions.md)
-      + [オーディエンスフィルターの操作](audiences/create-filters.md)
    + [データのインポート](start/import.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
