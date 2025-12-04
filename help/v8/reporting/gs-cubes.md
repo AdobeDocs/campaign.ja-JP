@@ -2,10 +2,10 @@
 title: Adobe Campaign 分析レポートの基本を学ぶ
 description: キューブの作成方法を説明します
 feature: Reporting
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: f57f3074-981f-4bcf-9274-7908cd00a4a2
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Campaign には、動的レポートを作成するための直感的な�
 
 データベースの調査および分析機能を拡張できると同時に、最終ユーザーがレポートやテーブルを設定しやすくなります。計算、測定および統計を処理するレポートやテーブルを作成する際に、既存の（完全に設定された）キューブを選択するだけです。
 
-キューブは、[配信レポート](delivery-reports.md)（配信トラッキング、クリック数、開封数など）を始めとする特定の組み込みレポートの生成に使用されます。
+キューブは、[配信レポート](delivery-reports.md)（配信トラッキング、クリック数、開封数など）を始めとする特定のビルトインのレポートの生成に使用されます。
 
 キューブが作成および設定されると、レポートのクエリボックスや Web アプリケーションで使用されます。キューブをピボットテーブル内で使用して操作できます。
 

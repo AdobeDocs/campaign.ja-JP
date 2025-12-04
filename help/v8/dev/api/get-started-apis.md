@@ -4,10 +4,10 @@ description: Campaign にテクノロジーのパネルを搭載することで�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 115b7b6824f3736e03f9fb87898f1264f9bab636
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 43%
@@ -20,9 +20,9 @@ Campaign REST API は、Adobe Campaignに使用するテクノロジーのパネ
 
 >[!AVAILABILITY]
 >
->* この機能は、すべての [Campaign FDA 環境 &#x200B;](../../architecture/fda-deployment.md) でオンデマンドでのみ使用できます。 **エンタープライズ** FFDA）デプロイメントでは使用できません [&#x200B; 使用できません &#x200B;](../../architecture/enterprise-deployment.md)。 アクセスするには、アドビ担当者にお問い合わせください。
+>* この機能は、すべての [Campaign FDA 環境 ](../../architecture/fda-deployment.md) でオンデマンドでのみ使用できます。 **エンタープライズ** FFDA）デプロイメントでは使用できません [ 使用できません ](../../architecture/enterprise-deployment.md)。 アクセスするには、アドビ担当者にお問い合わせください。
 >
->* API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[Adobe Campaign v8 製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
+>* API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[Adobe Campaign v8 製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
 
 
 Adobe Campaign REST API を使用すると、次の機能にアクセスできます。

@@ -1,10 +1,10 @@
 ---
 title: プロファイルの取得
 description: API を使用してプロファイルを取得する方法の詳細を説明します
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 プロファイルの取得は、**GET** リクエストで実行されます。
 
-その後、フィルター、順序、ページネーションを使用して、検索を絞り込むことができます。 詳しくは、[&#x200B; その他の操作 &#x200B;](sorting.md) の節を参照してください。
+その後、フィルター、順序、ページネーションを使用して、検索を絞り込むことができます。 詳しくは、[ その他の操作 ](sorting.md) の節を参照してください。
 
 さらに、Campaign Standard API では、「メール」、「名」、「姓」または任意のカスタムフィールドのいずれか 1 つに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
 

@@ -4,10 +4,10 @@ description: API を使用してトランザクションメッセージを管理
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -24,8 +24,8 @@ ht-degree: 1%
 
 例えば、クライアントの 1 人が Web サイトを離れてから買い物かごの商品を購入するたびに、「買い物かごの放棄」イベントをトリガーしたいとします。 これを行うには、web 開発者は、REST トランザクションメッセージ API を使用する必要があります。
 
-1. POST メソッドに従ってリクエストを送信します。このメソッドは [&#x200B; トランザクションイベントの送信 &#x200B;](#sending-a-transactional-event) をトリガーにします。
-1. POST リクエストへの応答にはプライマリキーが含まれており、GET リクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[&#x200B; イベントステータス &#x200B;](#transactional-event-status) を取得できるようになります。
+1. POST メソッドに従ってリクエストを送信します。このメソッドは [ トランザクションイベントの送信 ](#sending-a-transactional-event) をトリガーにします。
+1. POST リクエストへの応答にはプライマリキーが含まれており、GET リクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[ イベントステータス ](#transactional-event-status) を取得できるようになります。
 
 ## トランザクションイベントの送信 {#sending-a-transactional-event}
 

@@ -4,10 +4,10 @@ description: Adobe Campaign ソーシャルマーケティングモジュール�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 100%
+source-wordcount: '855'
+ht-degree: 99%
 
 ---
 
@@ -158,5 +158,5 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
 トラッキングデータは、配信レポート、さらに配信とサービスの&#x200B;**[!UICONTROL 編集／トラッキング]**&#x200B;タブで表示できます。
 
-トラッキング設定は、メール配信の場合と同じです。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja){target="_blank"}を参照してください。
+トラッキング設定は、メール配信の場合と同じです。詳細情報：[ トラッキング ](tracking.md)。
 

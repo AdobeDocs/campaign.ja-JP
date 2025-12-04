@@ -3,10 +3,10 @@ product: campaign
 title: キューブのカスタマイズ
 description: Adobe Campaign でキューブを実装する際のベストプラクティスを学ぶ
 feature: Reporting
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 97%
@@ -22,14 +22,14 @@ ht-degree: 97%
 概して、使用可能なビニングは、次の 3 タイプです。
 
 1. 定義された値範囲を手動で使用する。例えば、年齢、平均的な買い物かご、開封された配信の数などです。詳しくは、[各 bin の定義](#defining-each-bin)を参照してください。
-1. [&#x200B; 列挙 &#x200B;](../config/enumerations.md) の値に応じて、動的に、列挙に含まれる値のみが表示され、その他のすべての値は「その他」にグループ化されます。 詳しくは、[bin の動的管理](#dynamically-managing-bins)を参照してください。
+1. [ 列挙 ](../config/enumerations.md) の値に応じて、動的に、列挙に含まれる値のみが表示され、その他のすべての値は「その他」にグループ化されます。 詳しくは、[bin の動的管理](#dynamically-managing-bins)を参照してください。
 1. 値の範囲を使用し、その他はすべて 1 つにグループ化する。例えば、18～25 歳、26～59 歳、その他などです。詳しくは、[値範囲の作成](#creating-value-ranges)を参照してください。
 
 ビニングを有効にするには、ディメンションの作成時に適切なボックスにチェックを入れます。
 
 ![](assets/cube-class.png)
 
-bin は、手動で作成することも、既存の [&#x200B; 列挙 &#x200B;](../config/enumerations.md) にリンクすることもできます。
+bin は、手動で作成することも、既存の [ 列挙 ](../config/enumerations.md) にリンクすることもできます。
 
 Adobe Campaign には自動ビニングのアシスタントも用意されています。値は、N 個のグループに分類することも、データベース内の最も頻度の高い値に従ってグループ化することもできます。
 

@@ -1,10 +1,10 @@
 ---
 title: プロファイルの更新
 description: API でプロファイルを更新する方法の詳細情報
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 1. 最初の手順は、**プロファイルを取得** することです。
 
-1. 2 回目のリクエストで、ペイロードに完了情報を含めて **プロファイルに対して** PATCH リクエスト &rbrace; を実行します。
+1. 2 回目のリクエストで、ペイロードに完了情報を含めて **プロファイルに対して** PATCH リクエスト } を実行します。
 
 1. PATCH リクエストがプロファイルを更新したかどうかを確認するには、最終的なGET リクエストを実行します。
 

@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
 feature: Overview
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 94%
       + [権限の管理](workflow/managing-rights.md)
       + [アクティビティ画像の変更](workflow/change-activity-images.md)
       + [タイムゾーンの管理](workflow/managing-time-zones.md)
-+ Campaign オーケストレーション {#campaign-orchestration}
++ キャンペーンオーケストレーション {#campaign-orchestration}
    + [マーケティングキャンペーンの基本を学ぶ](campaigns/set-up-campaigns.md)
    + [プログラムとキャンペーンを作成](campaigns/marketing-campaign-create.md)
    + [テンプレートの作成と設定](campaigns/marketing-campaign-templates.md)

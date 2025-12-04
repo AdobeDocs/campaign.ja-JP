@@ -4,10 +4,10 @@ description: API を使用してプロファイルを作成する方法につい
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >作成したプロファイルに <b>orgUnit</b> を関連付ける場合は、このフィールドでプロファイルリソースを拡張し、拡張機能の公開後に <b>ProfileAndServicesExt</b> エンドポイントで POST リクエストを実行する必要があります。
 >
->プロファイルのリソース拡張機能について詳しくは、<a href="https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign ドキュメント </a> を参照してください。
+>プロファイルのリソース拡張機能について詳しくは、<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign ドキュメント </a> を参照してください。
 
 <br/>
 

@@ -4,10 +4,10 @@ description: API を使用してワークフローを制御する方法を説明
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
-source-git-commit: 5b9793d98d12afb28e987b16bc2e34f0ee72ac5f
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 12%

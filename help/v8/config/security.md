@@ -6,10 +6,10 @@ role: Developer
 level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '2280'
-ht-degree: 100%
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+workflow-type: tm+mt
+source-wordcount: '2177'
+ht-degree: 99%
 
 ---
 
@@ -123,7 +123,7 @@ Adobe Campaign には、プライバシーに不可欠な重要な機能が最�
 
 * **同意の管理**：購読管理プロセスを通じて、受信者の環境設定を管理し、どの受信者がどの購読タイプにオプトインしたかを追跡できます。詳しくは、[購読について](../../automation/workflow/subscription-services.md)を参照してください。
 * **データ保持**：すべてのビルトインの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
-* **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}を参照してください。
+* **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、エクスポートできるユーザーを管理できます。詳しくは、[アクセス管理について](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}を参照してください。
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -151,22 +151,19 @@ Adobe Campaign では、トラッキング機能により 3 種類の Cookie（�
 
 GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に web サイトのユーザーから同意を得ることが規定されています。
 
-* Cookie の使用を許可するためのチェックボックスを伴う認証リクエスト（例えばページ上に表示される）を使用して、サイトに web トラッキングツールがあることをユーザーに通知したり、ランディングページの上部にバナーを追加したりする必要があります。
 * ポップアップウィンドウはブラウザーでブロックされていることが多いので、避ける必要があります。
 
 ### メッセージトラッキング {#message-tracking}
 
 Adobe Campaign では、送信されたメールと配信受信者の動作（開封、リンクのクリック、購読解除など）をトラッキングできます。詳しくは、[メッセージについて](../start/gs-message.md)を参照してください。
 
-これを行うには、配信ダッシュボードの「トラッキング」タブで配信と受信者の動作の影響を測定できるよう、トラッキング用リンクをメッセージに追加します。トラッキングデータは、トラッキングインジケーターレポートで解釈されます。トラッキングについて詳しくは、[このページ](../start/tracking.md)を参照してください。
+これを行うには、配信ダッシュボードの「トラッキング」タブで配信と受信者の動作の影響を測定できるよう、トラッキング用リンクをメッセージに追加します。トラッキングデータは、トラッキングインジケーターレポートで解釈されます。トラッキングについて詳しくは、[このページ](../send/tracking.md)を参照してください。
 
 ### Web トラッキング {#web-tracking}
 
-また、Adobe Campaign では、受信者が web サイトをどのように参照するかを監視できます。トラッキングタグを挿入して、情報を収集し、web アプリケーションページでの訪問回数を測定します。
-
-Web トラッキングの設定については、[この節](../start/tracking.md)で説明しています。
-
-Adobe Campaign では、トラッキングをさらに管理するために、オプトアウトバナーを表示して、行動追跡をオプトアウトしたエンドユーザーの web 行動の追跡を停止できます。詳しくは、[web アプリケーショントラッキングのオプトアウト](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out){target=_blank}を参照してください。
+>[!AVAILABILITY]
+>
+>Web トラッキングは、Campaign v8 では使用できません。 使用できない機能について詳しくは、[ このページ ](../start/v7-to-v8.md#gs-unavailable-features) を参照してください。
 
 <!--
 Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:

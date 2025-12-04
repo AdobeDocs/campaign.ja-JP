@@ -1,11 +1,11 @@
 ---
 title: API のトラブルシューティング
 description: Campaign Standard API に関するよくある問題について詳しく説明します
-role: Data Engineer
+role: Developer
 level: Experienced
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ API キーを作成できるのは、管理者である組織用のみです。 
 }
 ```
 
-* **Adobe.io にリクエストを行うと、&lbrace;&quot;code&quot;:500, &quot;message&quot;:&quot;エラーが発生します。 エラーが発生しました。 URI を確認して、もう一度やり直してください。」**
+* **Adobe.io にリクエストを行うと、{&quot;code&quot;:500、&quot;message&quot;:&quot;Oops というメッセージが表示されます。 エラーが発生しました。 URI を確認して、もう一度やり直してください。」**
 
 Adobe.io が無効な URI を宣言しています：要求している URI が無効である可能性があります。 Adobe.io で Campaign サービスを選択すると、使用可能な organization_ids のリストを含むピッカーが表示されます。 選択したものが URL に入力したものであることを確認する必要があります。
 
@@ -82,7 +82,7 @@ Adobe.io が無効な URI を宣言しています：要求している URI が�
 
 * **作成後にプロファイルが表示されません**
 
-インスタンスの設定に応じて、作成したプロファイルは **orgUnit** に関連付ける必要があります。 作成にこのフィールドを追加する方法については、[&#x200B; この節 &#x200B;](creating-profiles-api.md) を参照してください。
+インスタンスの設定に応じて、作成したプロファイルは **orgUnit** に関連付ける必要があります。 作成にこのフィールドを追加する方法については、[ この節 ](creating-profiles-api.md) を参照してください。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 

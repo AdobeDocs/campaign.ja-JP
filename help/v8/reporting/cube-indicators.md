@@ -2,10 +2,10 @@
 title: Adobe Campaign でのキューブの作成
 description: キューブの作成方法を説明します
 feature: Reporting
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 97%
@@ -101,7 +101,7 @@ ht-degree: 97%
 
 1. 別のディメンションを作成して、受信者の市区町村に関連するデータを分析します。それには、新しいディメンションを追加し、受信者スキーマの&#x200B;**[!UICONTROL 場所]**&#x200B;ノードに属している「市区町村」を選択します。
 
-ビニングを有効にすると、情報を読みやすくなり、値を [&#x200B; 列挙 &#x200B;](../config/enumerations.md) にリンクできます。
+ビニングを有効にすると、情報を読みやすくなり、値を [ 列挙 ](../config/enumerations.md) にリンクできます。
 
 ドロップダウンリストから列挙を選択します。この列挙は、**[!UICONTROL ビニング用に予約済み]**&#x200B;として定義する必要があります。
 

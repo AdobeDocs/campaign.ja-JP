@@ -5,7 +5,7 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: 5c5d19c9b9b413bb630a4e5738c6697d2341665a
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1395'
 ht-degree: 97%
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->この機能は、すべての Campaign FDA 環境で使用できます。 Campaign FFDA デプロイメントでは使用できませ **&#x200B;**。 このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [&#x200B; テクニカルノート &#x200B;](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
+>この機能は、すべての Campaign FDA 環境で使用できます。 Campaign FFDA デプロイメントでは使用できませ ****。 このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [ テクニカルノート ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
 >
 >以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 
@@ -63,14 +63,14 @@ SMPP プロトコルでは、トラブルシューティングを容易にする
 * Latin-1 は必ずしもサポートされているわけではありません。Latin-1 を使用する前に、SMSC プロバイダーとの互換性を確認してください。
 * 各国語シフトテーブルは、Adobe Campaign コネクタではサポートされていません。代わりに、UCS-2 または他の data_coding を使用する必要があります。
 * UCS-2 と UTF-16 は、多くの場合、携帯電話で混在します。これは、UCS-2 に存在しない絵文字やその他のまれに使用される文字を送信する人物にとっては問題となります。
-* 以前の携帯電話にのみ、すべての UCS-2 文字のフォントグリフはありません。最新のスマートフォンは珍しい文字を容易に表示できる傾向にありますが、以前のスマートフォンは多くの絵文字が欠けていることが多く、非常に以前のフィーチャーフォンは、通常、購入した国の母語で役立つ文字に対するサポートが制限されています。絵文字や何らかのアスキーアートを使用したい場合は、送信前に複数の携帯電話でテストしてください。Campaign プレビューは、見つからないグリフをシミュレートせず、プレビューを表示する web ブラウザーで使用できるすべての記号を表示します。
+* 以前の携帯電話にのみ、すべての UCS-2 文字のフォントグリフはありません。最新のスマートフォンは珍しい文字を容易に表示できる傾向にありますが、以前のスマートフォンは多くの絵文字が欠けていることが多く、非常に以前のフィーチャーフォンは、通常、購入した国の母語で役立つ文字に対するサポートが制限されています。絵文字や何らかのアスキーアートを使用したい場合は、送信前に複数の携帯電話でテストしてください。Campaign プレビューは、見つからないグリフをシミュレートせず、プレビューを表示する web ブラウザーで使用できるすべてのシンボルを表示します。
 
 *data_coding* フィールドは、使用されるエンコーディングを示します。主な問題は、値 0 が仕様では&#x200B;*デフォルトの SMSC エンコーディング*&#x200B;を意味し、通常は GSM7 を意味しますが、常にそうであるとは限らないことです。エンコーディングが data_coding = 0 に関連付けられている SMPP パートナーにお問い合わせください。他の data_coding 値は仕様に従う傾向にありますが、念のため SMPP プロバイダーに確認することをお勧めします。
 
 メッセージの最大サイズは、エンコーディングによって異なります。次の表に、すべての関連情報をまとめます。
 
 | エンコード | 通常の data_coding | メッセージサイズ（文字） | マルチパート SMS のパーツサイズ | 使用可能な文字 |
-|:-:|:-:|:-:|:-:|:-:|  
+|:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | GSM7 基本文字セット + 拡張文字（拡張文字は 2 文字） |
 | Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 UTF-16 | 8 | 70 | 67 | Unicode（携帯電話によって異なります） |

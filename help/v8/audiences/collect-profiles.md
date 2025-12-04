@@ -2,13 +2,13 @@
 title: Web フォームでのプロファイルの収集と更新
 description: Web フォームを使用してプロファイルを収集および更新する方法を学ぶ
 feature: Audiences, Profiles, Web Forms
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,4 +18,4 @@ Campaign を使用して web フォームを作成し、プロファイルのデ
 
 ![](assets/web-form-page.png)
 
-Web フォームの作成方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"} を参照してください。
+Web フォームの作成方法について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。

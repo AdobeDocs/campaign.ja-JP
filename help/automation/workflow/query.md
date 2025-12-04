@@ -3,13 +3,13 @@ product: campaign
 title: クエリ
 description: クエリワークフローアクティビティの詳細を説明します
 feature: Workflows, Targeting Activity, Query Editor
-role: User, Data Engineer
+role: User, Developer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1663'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 ## クエリを作成します。 {#creating-a-query}
 
 クエリを使用すると、条件に応じてターゲットを選択できます。セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
-のユースケースを通じてクエリを作成する方法を説明します [&#x200B; この節 &#x200B;](querying-recipient-table.md)。 [&#x200B; クエリエディター &#x200B;](../../v8/start/query-editor.md) に関する節も参照してください。
+のユースケースを通じてクエリを作成する方法を説明します [ この節 ](querying-recipient-table.md)。 [ クエリエディター ](../../v8/start/query-editor.md) に関する節も参照してください。
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
@@ -52,7 +52,7 @@ ht-degree: 93%
 
    また、対応するボックスを選択することで、データのグループ化条件を追加できます。それには、フィルタリングディメンションが、クエリのターゲティングディメンションとは異なっている必要があります。グループ化について詳しくは、この[節](query-grouping-management.md)を参照してください。
 
-   [&#x200B; 式ビルダー &#x200B;](../../v8/start/filter-conditions.md#using-and--or--except) を、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。
+   [ 式ビルダー ](../../v8/start/filter-conditions.md#using-and--or--except) を、AND、OR、EXCEPT などの論理オプションと組み合わせて使用することで、条件をさらに追加することもできます。
 
    後で再利用したい場合、フィルターを保存します。
 
@@ -157,7 +157,7 @@ Adobe Campaign データベースからデータを追加するには：
 * スキーマ
 * recCount
 
-この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲット識別子を記録するテーブルの名前で、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）であり、**[!UICONTROL recCount]** はテーブル内の要素数です。
+この 3 つの値セットは、クエリのターゲットとなる母集団を識別します。**[!UICONTROL tableName]** はターゲットの識別子を記録するテーブル名、**[!UICONTROL schema]** は母集団のスキーマ（通常は nms:recipient）、**[!UICONTROL recCount]** はテーブル内の要素の数です。
 
 この値は、ワークテーブルのスキーマです。
 このパラメーターは、**[!UICONTROL tableName]** と&#x200B;**[!UICONTROL スキーマ]**&#x200B;のすべてのトランジションで有効です。
@@ -209,7 +209,7 @@ Adobe Campaign データベースからデータを追加するには：
 ### アーキテクチャ {#architecture}
 
 * 実稼働環境プラットフォームと同様のボリューム、パラメーター、アーキテクチャを持つ開発プラットフォームを構築します。
-* 開発環境と実稼働環境では同じ値を使用します。次の項目に関しては、できる限り同じものを使用します。
+* 開発環境と本番環境では同じ値を使用します。次の項目に関しては、できる限り同じものを使用します。
 
    * オペレーティングシステム
    * バージョン
@@ -219,7 +219,7 @@ Adobe Campaign データベースからデータを追加するには：
 
   >[!NOTE]
   >
-  >開発環境で動作する機能が、データの異なる実稼働環境では動作しない場合があります。リスクを予測し、解決策を準備するために、主な違いを特定しておくようにします。
+  >開発環境で動作する機能が、データの異なる本番環境では動作しない場合があります。リスクを予測し、解決策を準備するために、主な違いを特定しておくようにします。
 
 * ターゲットボリュームに適した構成を設定します。大容量ボリュームには特定の構成が必要です。10 万人の受信者に対して機能した構成が、1 000 万人の受信者に対しては機能しないこともあります。
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
-source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 97%
@@ -80,4 +80,4 @@ ht-degree: 97%
 
 * **トラッキング**：選択したプロファイルのすべてのトラッキングログ用。この情報は、配信後のプロファイルの行動をトラッキングする場合に使用します。このタブには、配信でトラッキングされたすべての URL の累積合計が表示されます。このリストは設定可能で、通常は、クリックされた URL、クリックの日時、および URL が含まれていたドキュメントを含みます。
 
-  トラッキングについて詳しくは、[この節](../start/tracking.md)を参照してください。
+  トラッキングについて詳しくは、[この節](../send/tracking.md)を参照してください。

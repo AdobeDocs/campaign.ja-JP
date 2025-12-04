@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
-workflow-type: ht
-source-wordcount: '706'
-ht-degree: 100%
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    Adobe Campaign には、メール配信を監視するための一連のダッシュボードおよびツールが付属しています。
 
-   メッセージが送信されていることを確認し、実行を監視し、エラーが発生した場合にアクションを実行する方法については、[Campaign Classic v7 のドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=ja){target="_blank"}を参照してください。
+   メッセージが送信されていることを確認し、実行を監視し [ エラーが発生した場合にアクションを実行する ](../send/tracking.md) メッセージのトラッキングと監視）の方法を説明します。
 
 1. **ワークフローの実行を監視できますか？**
 
@@ -90,7 +90,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **Campaign の専門家と連絡を取ることはできますか？**
 
-   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。[会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}
+   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。[会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **問題をログに記録するにはどうすればよいですか？**

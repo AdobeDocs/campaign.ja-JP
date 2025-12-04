@@ -3,12 +3,12 @@ product: campaign
 title: グループ管理を使用したクエリ
 description: グループ管理を使用したクエリの実行方法を学ぶ
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '304'
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+workflow-type: tm+mt
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル（nms:recipient）
+  受信者テーブル (nms:recipient)
 
 * 出力列に選択するフィールドは何ですか。
 

@@ -2,10 +2,10 @@
 title: Campaign データモデルの基本を学ぶ
 description: Campaign データモデルの基本を学び、ソースのデータを活用して、コミュニケーションやマーケティングの成果に役立てます。
 feature: Data Model
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 98%
@@ -47,7 +47,7 @@ Campaign データモデルを使用する際のベストプラクティスに�
 
 ## ビルトインプロファイルテーブル {#ootb-profiles}
 
-Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient）は、データモデルを構築するための良い出発点となります。拡張が容易な定義済みのフィールドとテーブルリンクが多数あります。これは、受信者中心の単純なデータモデルに適合するので、主に受信者をターゲットにする場合に特に便利です。
+Adobe Campaign のビルトインの受信者テーブル（nmsrecipient）は、データモデルを構築するための良い出発点となります。拡張が容易な定義済みのフィールドとテーブルリンクが多数あります。これは、受信者中心の単純なデータモデルに適合するので、主に受信者をターゲットにする場合に特に便利です。
 
 標準の受信者テーブルを使用する利点は次のとおりです。
 
@@ -60,7 +60,7 @@ Adobe Campaign に組み込まれている受信者テーブル（nmsrecipient�
 
 既存のスキーマを拡張する方法について詳しくは、[この節](extend-schema.md)を参照してください。
 
-組み込み受信者テーブルの拡張例については、[Campaign Classic v7 ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}
+組み込み受信者テーブルの拡張例については、[Campaign Classic v7 ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。この方法には制限があり、[この節](custom-recipient.md)で説明します。
 

@@ -4,11 +4,12 @@ description: Adobe Campaign でメッセージを送信する際に発生する�
 feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '3028'
-ht-degree: 99%
+source-wordcount: '3476'
+ht-degree: 88%
 
 ---
 
@@ -64,9 +65,9 @@ ht-degree: 99%
 
 Adobe Campaign でのバウンスメールの選定の処理方法は、エラータイプによって異なります。
 
-* **同期エラー**： MTA は、バウンスのタイプと検証を決定し、その情報を Campaign に返します。**[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。
+* **同期エラー**：MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。**[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。
 
-* **非同期エラー**：非同期の配信エラーを検証するために Campaign で使用されるルールは、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信ログの検証]**&#x200B;ノードに一覧表示されます。非同期バウンスは、引き続き、**[!UICONTROL インバウンドメール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ja#bounce-mail-qualification){target="_blank"}を参照してください。
+* **非同期エラー**：非同期の配信エラーを検証するために Campaign で使用されるルールは、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信ログ選定]**&#x200B;ノードに一覧表示されます。非同期バウンスは、引き続き、**[!UICONTROL インバウンドメール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ja#bounce-mail-qualification){target="_blank"}を参照してください。
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,12 +112,14 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
 
 メッセージが MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## メールのエラータイプ {#email-error-types}
 
 メールチャネルについて、配信エラーの考えられる理由を以下に示します。
+
++++ クリックして、メールのエラータイプの完全なリストを表示します
 
 <table> 
  <tbody> 
@@ -249,7 +252,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
  </tbody> 
 </table>
 
-
++++
 
 ## プッシュ通知のエラータイプ {#push-error-types}
 
@@ -260,6 +263,8 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
 HTTP/V2 プロトコルでは、プッシュ配信ごとの直接フィードバックおよびステータスを使用できます。HTTP/V2 プロトコルコネクタを使用する場合、フィードバックサービスが **[!UICONTROL mobileAppOptOutMgt]** ワークフローによって呼び出されることはありません。モバイルアプリケーションのアンインストールまたは再インストールがおこなわれた場合、トークンは登録解除されたものとみなされます。
 
 同時に、APNs がメッセージに対して登録解除ステータスを返した場合、ターゲットトークンはただちに強制隔離されます。
+
++++ クリックして、iOSの強制隔離のシナリオを表示
 
 <table> 
  <tbody> 
@@ -346,6 +351,8 @@ HTTP/V2 プロトコルでは、プッシュ配信ごとの直接フィードバ
  </tbody> 
 </table>
 
++++
+
 ### Android での強制隔離 {#android-quarantine}
 
 **Android V1 の場合**
@@ -373,6 +380,8 @@ Adobe Campaign は通知ごとに FCM サーバーから直接同期エラーを
 **Android V2 の場合**
 
 Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセスを使用しており、同じことがサブスクリプションと除外の更新にも当てはまります。詳しくは、[Android V1](#android-quarantine) の節を参照してください。
+
++++ クリックして、Android V2 の強制隔離シナリオを表示
 
 <table> 
  <tbody> 
@@ -579,6 +588,8 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
  </tbody> 
 </table>
 
++++
+
 ## SMS の強制隔離 {#sms-quarantines}
 
 **標準コネクタの場合**
@@ -588,6 +599,8 @@ SMS チャネル特有の方式を以下に示します。
 >[!NOTE]
 >
 >**[!UICONTROL 配信ログの選定]**&#x200B;テーブルは、**拡張された汎用 SMPP** コネクタには適用されません。
+
++++ クリックして、標準コネクタの SMS エラータイプを表示します
 
 <table> 
  <tbody> 
@@ -636,11 +649,13 @@ SMS チャネル特有の方式を以下に示します。
  </tbody> 
 </table>
 
++++
+
 **拡張された汎用 SMPP コネクタの場合**
 
 SMPP プロトコルを使用して SMS メッセージを送信する場合のエラー管理の方法は異なります。
 
-SMPP コネクタは、返された SR（ステータスレポート）メッセージからデータを取得し、正規表現（regex）を使用して、そのコンテンツをフィルター処理します。このデータは、次に、**[!UICONTROL 配信ログの検証]**&#x200B;テーブル（**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信不能件数の管理]**&#x200B;メニューから使用できます）に見つかった情報と照合されます。
+SMPP コネクタは、返された SR（ステータスレポート）メッセージからデータを取得し、正規表現（regex）を使用して、そのコンテンツをフィルター処理します。このデータは、次に、**[!UICONTROL 配信ログ選定]**&#x200B;テーブル（**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信不能件数の管理]**&#x200B;メニューから使用できます）に見つかった情報と照合されます。
 
 新しいタイプのエラーが検証される前に、エラーの理由はデフォルトで常に「**拒否**」に設定されます。
 
@@ -648,7 +663,7 @@ SMPP コネクタは、返された SR（ステータスレポート）メッセ
 >
 >エラーのタイプと理由はメールの場合と同じです。
 >
->配信ログの検証テーブルに適切なエラータイプおよび理由を設定するために、ステータスコードおよびエラーコードのリストをプロバイダーに問い合わせてください。
+>配信ログ選定テーブルに適切なエラータイプおよび理由を設定するために、ステータスコードおよびエラーコードのリストをプロバイダーに問い合わせてください。
 
 生成されるメッセージの例：
 
@@ -672,6 +687,64 @@ SR Generic DELIVRD 000|#MESSAGE#
 
   デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**err:** フィールドが抽出されます。
 
-* パイプ記号（|）以降の文字列は、**[!UICONTROL 配信ログの検証]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列にのみ表示されます。このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。メールの場合と同じです。
+* パイプ記号（|）以降の文字列は、**[!UICONTROL 配信ログ選定]**&#x200B;テーブルの&#x200B;**[!UICONTROL 最初のテキスト]**&#x200B;列にのみ表示されます。このコンテンツは、常に、メッセージが正規化された後に **#MESSAGE#** で置き換えられます。これにより、同じようなエラーに対して複数のエントリが含まれるのを防ぐことができます。メールの場合と同じです。
 
 拡張された汎用 SMPP コネクタは、ヒューリスティックを適用して実用的なデフォルト値を見つけます。例えば、**DELIV** で始まるステータスは、ほとんどのプロバイダーでよく使用されている **DELIVRD** または **DELIVERED** と一致するので、成功とみなされます。これ以外のステータスはハードエラーとみなされます。
+
+## 配信エラーのトラブルシューティング {#troubleshooting}
+
+この節では、配信エラーの一般的な問題を診断し解決する方法について説明します。
+
+### 失敗ステータス （パーソナライゼーションエラーあり） {#personalization-errors}
+
+メール配信のステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;である場合は、パーソナライゼーションブロックの問題に関係している可能性があります。配信内のパーソナライゼーションブロックでは、スキーマが配信マッピングと一致しない場合、エラーが発生する可能性があります。
+
+配信ログは、配信が失敗した理由を知るうえで重要です。次に、一般的なエラーを示します。
+
+受信者のメッセージが次の「未到達」エラーで失敗する
+
+```
+Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+```
+
+**原因**:HTML内のパーソナライゼーションが、アップストリームターゲティングまたは配信のターゲットマッピングで定義またはマッピングされていないテーブルまたはフィールドを呼び出そうとしています。
+
+**解決策**：ワークフローと配信のコンテンツを確認して、該当するテーブルを呼び出そうとしているパーソナライゼーションを具体的に特定します。 次に、HTMLのこのテーブルへの呼び出しを削除するか、配信へのマッピングを修正します。
+
+パーソナライゼーションについて詳しくは、[ この節 ](personalize.md) を参照してください。
+
+### 複数のパーソナライゼーション値エラー {#multiple-values-error}
+
+配信が失敗した場合、次のエラーが配信ログに表示されることがあります。
+
+```
+DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+```
+
+**原因**：メール内に、受信者に対して複数の値を持つパーソナライゼーションフィールドまたはブロックがあります。 パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
+
+**解決策**：使用するパーソナライゼーションデータを確認し、これらのフィールドのいずれかに複数のエントリを持つ受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで **[!UICONTROL 重複排除]** アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみにすることもできます。 重複排除について詳しくは、[ ワークフロードキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} を参照してください。
+
+### 自動返信処理 {#auto-reply-handling}
+
+一部の配信は、「未到達」というエラーで失敗する場合があります。
+
+```
+Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+```
+
+**説明**：配信は成功しましたが、Adobe Campaignが「Auto_replies」受信メールルールに一致する自動応答（例：「不在」返信）を受信者から受信しました。
+
+自動応答のメールはAdobe Campaignで無視され、受信者のアドレスは強制隔離されません。 これは想定されている動作であり、配信エラーを示すものではありません。
+
+## 関連トピック
+
+[ 配信ステータス ](delivery-statuses.md) では、配信のライフサイクル中に設定できる様々なステータスについて説明します。
+
+[Campaign UI での配信の監視 ](delivery-dashboard.md) では、配信ダッシュボードを使用して配信のパフォーマンスを追跡し、問題を診断する方法に関するガイダンスを提供します。
+
+[ 強制隔離管理 ](quarantines.md) では、送信レピュテーションを保護するために強制隔離されたアドレスを Campaign がどのように管理するかについて説明します。
+
+[ 配信品質の監視 ](monitoring-deliverability.md) は、配信品質と送信者の評判を良好に維持するためのガイダンスを提供します。
+
+[ 配信のベストプラクティス ](../start/delivery-best-practices.md) では、Campaign で配信を作成および送信するためのベストプラクティスについて説明します。

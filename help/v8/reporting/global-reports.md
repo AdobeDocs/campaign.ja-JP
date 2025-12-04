@@ -2,9 +2,9 @@
 title: Adobe Campaign グローバルレポート
 description: グローバルレポートへのアクセス方法と使用方法を学ぶ
 feature: Reporting, Monitoring
-role: User, Data Engineer
+role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 100%
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[強制隔離管理](../send/quarantines.md)を参照してください。
+>このレポートに表示されるエラーにより、強制隔離プロセスがトリガーされます。強制隔離の管理について詳しくは、[強制隔離管理](../send/quarantines.md)を参照してください。
 
 このレポートの最初のセクションには、配信不能件数の分類が値のテーブルとグラフの形式で表示されます。
 

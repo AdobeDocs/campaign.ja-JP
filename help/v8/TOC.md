@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: d886072b3a21d5e5b70662c67919223cf9a1b68e
+source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 91%
+source-wordcount: '841'
+ht-degree: 89%
 
 ---
 
@@ -105,9 +105,11 @@ ht-degree: 91%
       + [配信分析](send/delivery-analysis.md)
       + [配信の設定と送信](send/configure-and-send.md)
       + [送信時間の最適化](send/predictive.md)
-   + 失敗、バウンス、強制隔離 {#failures}
-      + [強制隔離](send/quarantines.md)
+   + 配信の監視 {#monitor}
+      + [Campaign UI での配信の監視](send/delivery-dashboard.md)
+      + [配信ステータス](send/delivery-statuses.md)
       + [配信の失敗](send/delivery-failures.md)
+      + [強制隔離](send/quarantines.md)
    + 配信品質の管理 {#deliverability-management}
       + [配信品質とは](send/about-deliverability.md)
       + [メッセージコンテンツの制御](send/control-message-content.md)
@@ -143,7 +145,7 @@ ht-degree: 91%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティ {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -166,8 +168,15 @@ ht-degree: 91%
       + [匿名インタラクションの管理](interaction/anonymous-interactions.md)
    + [レポートと履歴](interaction/interaction-tracking.md)
    + [ユースケース](interaction/interaction-use-cases.md)
-+ レポートと分析 {#analytics}
-   + [追跡と監視](start/tracking.md)
++ トラッキングと分析 {#analytics}
+   + メッセージトラッキング {#tracking}
+      + [トラッキングの基本を学ぶ](send/tracking.md)
+      + [トラッキングするリンクの設定](send/tracked-links.md)
+      + [URL トラッキングオプションの設定](send/url-tracking.md)
+      + [パーソナライズされたリンクのトラッキング](send/personalized-links.md)
+      + [トラッキングのテスト](send/testing-tracking.md)
+      + [トラッキングログへのアクセス](send/tracking-logs.md)
+   + [キャンペーン監視の概要](start/monitor.md)
    + [監査記録](reporting/audit-trail.md)
    + レポートの操作{#reports}
       + [レポートの基本を学ぶ](reporting/gs-reporting.md)
@@ -188,7 +197,7 @@ ht-degree: 91%
       + [クエリの設計](start/design-queries.md)
       + [フィルター条件の定義](start/filter-conditions.md)
    + [データのインポート](start/import.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}

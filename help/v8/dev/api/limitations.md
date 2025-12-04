@@ -4,13 +4,13 @@ description: Campaign v8 REST API への移行時の推奨事項と制限事項�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1052'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ Campaign v8 で同じリクエスト本文構造を使用し、「vehicle」が�
 | URI で無効な PKey を使用 | 500 - 「O5iRp40EGA」属性が不明です（「プロファイル （nms:recipient）」スキーマの定義を参照）。 XTK-170036 式&#39;@id = @O5iRp40EGA&#39;を解析できません。 | 404 - PKey を復号化できません。 （PKey=@jksad） サポートされていないエンドポイントです。 （endpoint=rest/profileAndServices/profile/@jksad） |
 | URI とリクエスト本文での 2 つの異なる生の Pkey の使用 | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 RST-360012 リソース &#39;service&#39;の操作に一貫性がありません – キー&#39;SVC3&#39;を&#39;SVC4&#39;に更新できません。 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
 | URI での PKey とリクエスト本文での別の生の PKey の使用 | 500 – 同じキー&#39;SVC4&#39;を持つ&#39;サービス&#39;が既に存在します。 PGS-220000 PostgreSQL エラー：エラー：キー値の重複は、一意の制約「nmsservice_name」に違反します。詳細：キー（sname）=（SVC4）は既に存在します。 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
-| URI に存在しない Raw-ID の使用 | 404 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 キー「adobe_nl:0」からのパス「Service」に文書が見つかりません（スキーマ「service」および名前「adobe_nl」の文書） | 404 - キー「adobe_nl」からのパス「Service」を含むドキュメントが見つかりません（スキーマ「service」および名前「adobe_nl」を含むドキュメント） |
+| URI に存在しない Raw-ID の使用 | 404 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 パス「Service」 （キー「adobe_nl:0」）のドキュメントが見つかりません（スキーマ「service」、名前「adobe_nl」のドキュメント） | 404 - キー「adobe_nl」からのパス「Service」を含むドキュメントが見つかりません（スキーマ「service」および名前「adobe_nl」を含むドキュメント） |
 | リクエスト本文で存在しない生の ID を使用 | 404 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 パス「Service」 （キー「adobe_nl」）に文書が見つかりません（スキーマ「service」、名前「adobe_nl」の文書） | 404 - キー「adobe_nl」からのパス「Service」を含むドキュメントが見つかりません（スキーマ「service」および名前「adobe_nl」を含むドキュメント） |
 | - | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 | 500 - エラーが発生しました。管理者にお問い合わせください。 |
 | 無効な性別（または任意の）列挙値を持つプロファイル/サービスを挿入 | 500 - RST-360011 エラーが発生しました。管理者にお問い合わせください。 値「invalid」は「@gender」フィールドの「nms:recipient:gender」列挙には無効です | 500 - エラーが発生しました。管理者にお問い合わせください。 |

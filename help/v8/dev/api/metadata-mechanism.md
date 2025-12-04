@@ -4,10 +4,10 @@ description: 詳しくは、メタデータメカニズムを参照してくだ�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
@@ -33,7 +33,7 @@ GET リクエストで **resourceType** を使用して、リソースのメタ�
      「type」の値が「link」または「collection」で完了した場合、resTarget の値は、リンクのターゲットとなるリソースの名前になります。
 「type」に値「enumeration」が入力されている場合は、「values」フィールドが追加され、各列挙値について **values** ノードに詳しく記載されます。
 
-* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[&#x200B; この節 &#x200B;](sorting.md#filtering) を参照してください。
+* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[ この節 ](sorting.md#filtering) を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N

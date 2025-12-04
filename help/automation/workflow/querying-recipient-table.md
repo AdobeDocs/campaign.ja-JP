@@ -3,13 +3,13 @@ product: campaign
 title: 受信者テーブルのクエリ
 description: 受信者テーブルに対するクエリ方法を説明します。
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '452'
-ht-degree: 100%
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル（nms:recipient）
+  受信者テーブル (nms:recipient)
 
 * 出力列として選択するフィールドは何ですか。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL ツール／汎用クエリエディター...]** をクリックし、**受信者**（**nms:recipient**）テーブルを選択します。「**[!UICONTROL 次へ]**」をクリックします。
+1. **[!UICONTROL ツール/汎用クエリエディター…]** をクリックし、**受信者** （**nms:recipient**） テーブルを選択します。 「**[!UICONTROL 次へ]**」をクリックします。
 1. 「**[!UICONTROL 姓]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL メール]**」、「**[!UICONTROL 市区町村]**」および「**[!UICONTROL アカウント番号]**」を選択します。これらのフィールドは、「**[!UICONTROL 出力列]**」に追加されます。「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/query_editor_03.png)

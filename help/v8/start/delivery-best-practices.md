@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 096c453f727b461a7b09a47282e186e91ffc847e
 workflow-type: tm+mt
-source-wordcount: '2959'
-ht-degree: 100%
+source-wordcount: '3102'
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,19 @@ Adobe Campaign では、返されるエラーのタイプに応じて不正な�
 
 +++
 
+### 配信とメンテナンス {#delivery-maintenance}
 
+最適なプラットフォームのパフォーマンスを得るには、配信の定期的なメンテナンスが不可欠です。
+
++++ **詳しくは、いくつかのベストプラクティスを参照してください。**
+
+* **失敗した配信および不要な配信を削除**：インスタンス上で配信を失敗状態に保たないでください。これにより、一時テーブルが維持され、パフォーマンスに影響が出ます。 システムリソースを解放するために不要になった配信を定期的に削除します。
+
+* **非アクティブな受信者のクリーンアップ**：アドレスの品質を維持するには、過去 12 か月間に非アクティブだった受信者をデータベースから削除する必要があります。 ISP は無操作状態が続いた後にアドレスを無効にし、バウンスメッセージは送信者に送信されて、この新しいステータスについて通知されます。 定期的なリストのクリーニングにより、配信品質が向上し、コストが削減されます。
+
+* **大きな配信を適切にスケジュール**：大きな配信を一緒にスケジュールしないでください。 チームの他のメンバーと配信のスケジュールを調整して、システム全体に均一に負荷を分散させます。 複数の大きな配信を同時に送信すると、プラットフォーム全体のパフォーマンスに影響を与える可能性があります。
+
++++
 
 ### ダブルオプトインのメカニズム {#double-opt-in}
 
@@ -226,7 +238,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
 ## 画像の管理 {#manage-images}
 
@@ -234,7 +246,7 @@ To avoid common formatting errors, check the following elements:
 
 ### 画像のブロックの回避 {#image-blocking}
 
-一部のメールクライアントはデフォルトで画像をブロックし、ユーザーはデータ使用時に保存する画像をブロックするように設定を変更できます。したがって、画像がダウンロードされなければ、メッセージ全体が失われる可能性があります。
+一部のメールクライアントはデフォルトで画像をブロックし、ユーザーはデータ使用時に保存する画像をブロックするように設定を変更できます。したがって、画像がダウンロードされない場合、メッセージ全体が失われる可能性があります。
 
 +++ これを回避するには、これらのベストプラクティスを適用できます。
 
@@ -420,4 +432,4 @@ Campaign 配信ダッシュボードから、処理済みメッセージと配�
 メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信アシスタントの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
 
-[Campaign Classic v7 ドキュメントのトラッキング機能の詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html?lang=ja#sending-messages){target="_blank"}
+[トラッキング機能の詳細情報](../send/tracking.md)

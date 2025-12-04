@@ -2,13 +2,13 @@
 title: メールの送信と監視
 description: Adobe Campaign でのメール送信の範囲と特異性について説明します。
 feature: Email
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: c7f139dd7f139ba421eb034f4d8911671b3b3332
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '839'
 ht-degree: 99%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 99%
 
 配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。配信ログのメッセージのステータスも制御できます。
 
+詳しくは、[ 配信ステータス ](delivery-statuses.md) を参照してください。
+
 >[!NOTE]
 >
 >配信ステータスは、リアルタイムには表示されません。メールフィードバックサービスについて詳しくは、[この節](#email-feedback-service)を参照してください。
@@ -44,15 +46,15 @@ Adobe Campaign で使用するMTA（メール転送エージェント）は、Sp
 
 Momentum は、インボックスの最適な配信率を達成し維持するための高度なバウンス処理と自動配信品質最適化機能を含む、革新的で高パフォーマンスな MTA テクノロジーを提供します。
 
-* MTA を使用すると、全体的なスループット速度が劇的に向上し、ソフトバウンスが大幅に減少します。
+*  MTA を使用すると、全体的なスループット速度が劇的に向上し、ソフトバウンスが大幅に減少します。
 * Enhanced MTA は最新の MTA テクノロジーを使用して、メール配信の最適なスループット速度を提供します。
 * 受け取ったフィードバックに即時に自動的に適応させることで、リアルタイムの配信データを使用した、より正確でインテリジェントなメール配信も実現します。
 
-### バウンスの検証
+### バウンス選定
 
-**同期**&#x200B;配信失敗のエラーメッセージについては、 MTA がバウンスのタイプと検証を判断し、その情報を Campaign に返します。
+**同期**&#x200B;配信失敗のエラーメッセージについては、 MTA がバウンスのタイプと選定を判断し、その情報を Campaign に返します。
 
-MTA は SMTP バウンスを検証し、その検証結果を Campaign バウンスの理由と検証結果にマッピングしたバウンスコードの形式で Campaign に返します。
+MTA は SMTP バウンスを選定し、その選定結果を Campaign バウンスの理由と選定結果にマッピングしたバウンスコードの形式で Campaign に返します。
 
 >[!NOTE]
 >

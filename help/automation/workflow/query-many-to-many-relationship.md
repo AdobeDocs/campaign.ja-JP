@@ -3,13 +3,13 @@ product: campaign
 title: 多対多の関係を使用したクエリ
 description: 多対多関係を使用したクエリを実行する方法を説明します。
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル（**nms:recipient**）
+  受信者テーブル （**nms:recipient**）
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 次の手順に従います。
 
-1. 汎用クエリエディターを開き、受信者テーブル&#x200B;**[!UICONTROL （nms:recipient）]**&#x200B;を選択します。
+1. 汎用クエリエディターを開き、受信者テーブル **[!UICONTROL （nms:recipient）]** を選択します。
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL プライマリキー]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL 姓]**」および「**[!UICONTROL メール]**」を選択します。
 
    ![](assets/query_editor_nveau_33.png)

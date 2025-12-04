@@ -2,11 +2,11 @@
 title: Adobe Campaign ランディングページからの Adobe Experience Platform プロファイルの更新
 description: Adobe Campaign のランディングページと Adobe Experience Platform のプロファイル属性を同期する方法を説明します
 feature: Experience Platform Integration
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
-workflow-type: ht
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
 
@@ -134,7 +134,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
    ![](assets/ac-lp-script.png){width="70%"}
 
-+++  スクリプト 1 - Experience Platform からプロファイル属性を読み込む
+   +++  スクリプト 1 - Experience Platform からプロファイル属性を読み込む
 
    このコードでは、ランディングページを読み込む前に、Adobe Experience Platform にプロファイルが存在するかどうかを確認します。プロファイル属性を取得し、ランディングページの対応するフィールドに表示します。
 
@@ -155,9 +155,9 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    }
    ```
 
-+++
+   +++
 
-+++ スクリプト 2 - Experience Platform プロファイル属性を更新
+   +++ スクリプト 2 - Experience Platform プロファイル属性を更新
 
    このコードでは、ランディングページで送信した値で Adobe Experience Platform のプロファイル属性を更新します。
 
@@ -203,7 +203,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    }
    ```
 
-+++
+   +++
 
 カスタム JavaScript コードを Adobe Campaign に作成したので、データ同期にこれらの JavaScript コードを使用するようにランディングページを含むワークフローを設定できます。
 
@@ -213,7 +213,7 @@ Adobe Campaign に追加した JavaScript コードを、**[!UICONTROL JavaScrip
 
 * ランディングページを読み込む前に Experience Platform からデータを読み込むには、ランディングページアクティビティの前に **[!UICONTROL JavaScript コード]**&#x200B;アクティビティを追加し、スクリプト 1 をコピー＆ペーストします。
 
-+++ スクリプト 1 - Experience Platform からプロファイル属性を読み込む
+  +++ スクリプト 1 - Experience Platform からプロファイル属性を読み込む
 
   ```javascript
   // Script code to read profile from AEP.
@@ -249,11 +249,11 @@ Adobe Campaign に追加した JavaScript コードを、**[!UICONTROL JavaScrip
   }
   ```
 
-+++
+  +++
 
 * ランディングページで送信したデータで Experience Platform プロファイル属性を更新するには、ランディングページアクティビティの後に **[!UICONTROL JavaScript コード]**&#x200B;アクティビティを追加し、スクリプト 2 をコピー＆ペーストします。
 
-+++ スクリプト 2 - Experience Platform プロファイル属性を更新
+  +++ スクリプト 2 - Experience Platform プロファイル属性を更新
 
   ```javascript
   // Script code to update profile in AEP and ACC.
@@ -323,7 +323,7 @@ Adobe Campaign に追加した JavaScript コードを、**[!UICONTROL JavaScrip
   }
   ```
 
-+++
+  +++
 
 >[!CAUTION]
 >

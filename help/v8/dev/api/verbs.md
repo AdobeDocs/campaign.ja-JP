@@ -4,10 +4,10 @@ description: Campaign Standard API で使用される動詞の詳細を説明し
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%

@@ -3,9 +3,9 @@ product: campaign
 title: 顔文字リストのカスタマイズ
 description: Adobe Campaign を使用するときに顔文字リストをカスタマイズする方法を説明します。
 feature: Email, Push
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 96%
@@ -62,7 +62,7 @@ ht-degree: 96%
 
 1. 変更を有効にするには、Adobe Campaign Classic から切断してから再接続します。新しい顔文字が&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウに表示されない場合は、キャッシュをクリアする必要がある可能性があります。それには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
 
-1. 新しい顔文字は、前の手順で設定したように、配信の&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウの 61 番目の位置で確認できます。配信での顔文字の使用方法について詳しくは、この [&#x200B; 節 &#x200B;](defining-the-email-content.md#inserting-emoticons) を参照してください。
+1. 新しい顔文字は、前の手順で設定したように、配信の&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウの 61 番目の位置で確認できます。配信での顔文字の使用方法について詳しくは、この [ 節 ](defining-the-email-content.md#inserting-emoticons) を参照してください。
 
    ![](assets/emoticon_4.png)
 

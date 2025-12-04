@@ -6,7 +6,7 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 99%
@@ -43,7 +43,7 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 
 | テクニカルワークフロー | パッケージ | 説明 |
 |------|--------|-----------|
-| **エイリアスクレンジング**（aliasCleansing） | デフォルトでインストール | このワークフローは、[&#x200B; 列挙 &#x200B;](../../v8/config/enumerations.md#alias-cleansing) 値を標準化します。 デフォルトで、毎日午前 3 時にトリガーされます。 |
+| **エイリアスクレンジング**（aliasCleansing） | デフォルトでインストール | このワークフローは、[ 列挙 ](../../v8/config/enumerations.md#alias-cleansing) 値を標準化します。 デフォルトで、毎日午前 3 時にトリガーされます。 |
 | **請求**（請求） | デフォルトでインストール | このワークフローでは、「請求」担当者にメールでシステムアクティビティレポートを送信します。マーケティングインスタンスで、毎月25日にトリガーされます。 |
 | **Campaign ジョブ**（operationMgt） | デフォルトでインストール | マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。 |
 | **ヒートマップサービスのデータを収集**（collectDataHeatMapService） | デフォルトでインストール | このワークフローは、ヒートマップサービスに必要なデータを取得します。 |

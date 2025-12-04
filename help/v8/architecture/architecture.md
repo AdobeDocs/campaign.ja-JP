@@ -2,11 +2,11 @@
 title: Campaign アーキテクチャの基本を学ぶ
 description: キャンペーン環境のレポート方法など、環境とデプロイメントの基本を確認します。
 feature: Architecture, Deployment
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
-workflow-type: ht
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
 
@@ -20,9 +20,9 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 次の 2 種類の環境を使用できます。
 
-* **実稼動環境**：業務担当者用のアプリケーションをホストします。
+* **本番環境**：業務担当者用のアプリケーションをホストします。
 
-* **ステージング環境**：アプリケーションに対する変更を実稼動環境にプッシュする前の様々なパフォーマンスと品質のテストに使用します。
+* **ステージング環境**：アプリケーションに対する変更を本番環境にプッシュする前の様々なパフォーマンスと品質のテストに使用します。
 
 ある環境から別の環境へパッケージを書き出したり読み込んだりできます。
 

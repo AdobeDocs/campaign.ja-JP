@@ -2,10 +2,10 @@
 title: Adobe Experience Platform でのオーディエンスとプロファイル属性の共有と同期
 description: Adobe Experience Platform のオーディエンスとプロファイル属性を Campaign と同期する方法を説明します。
 feature: Experience Platform Integration
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 93%
@@ -36,7 +36,7 @@ Adobe Experience Platform オーディエンスを Adobe Campaign に送信し�
 
       ![](assets/aep-destination.png){width="800" align="center"}
 
-  宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメントを参照してください &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+  宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメントを参照してください ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 
 * Adobe Campaign Managed Cloud Services **ソース接続**&#x200B;を使用すると、Adobe Campaign の配信ログとトラッキングログを Adobe Experience Platform に送信できます。
 
@@ -61,8 +61,8 @@ Adobe Experience Platform プロファイル属性を Adobe Campaign と同期�
 
    ![](assets/aep-profile-sync.png){width="800" align="center"}
 
-1. Adobe Campaign データベースに更新するプロファイルをターゲットとするセグメントを選択します。
+1. Adobe Campaign データベースに更新するプロファイルをターゲティングするセグメントを選択します。
 1. Adobe Campaign に更新するプロファイル属性を設定します。
 1. フローが設定されると、選択したプロファイル属性が Adobe Campaign と同期され、宛先に設定されたセグメントのターゲットとなるすべてのプロファイルに対して更新されます。
 
-宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメントを参照してください &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
+宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメントを参照してください ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}

@@ -2,11 +2,11 @@
 title: Adobe Campaign でのダイレクト LINE メッセージの送信
 description: LINE メッセージの概要
 feature: Line App
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 96%
@@ -17,14 +17,14 @@ ht-degree: 96%
 
 LINE は、無料のインスタントメッセージ、音声およびビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。Adobe Campaign を使用して、LINE メッセージを送信できます。
 
-また [!DNL LINE] は、コンシューマー向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。詳しくは、Campaign Classic v7 ドキュメントのこの [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) を参照してください。
+また [!DNL LINE] は、コンシューマー向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。詳しくは、Campaign Classic v7 ドキュメントのこの [ ページ ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) を参照してください。
 
 ![](assets/line_message.png)
 
 [!DNL LINE] チャネルを使用する手順は次のとおりです。
 
 1. [LINE チャネルの設定](#setting-up-line-channel)
-1. [&#x200B; 配信の作成](#creating-the-delivery)
+1. [ 配信の作成](#creating-the-delivery)
 1. [コンテンツタイプの設定](#defining-the-content)
 1. [配信の監視（トラッキング、強制隔離、レポートなど）](#accessing-reports)
 
@@ -62,7 +62,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**&#x200B;ツリー構造で、「**[!UICONTROL 外部アカウント]**」タブをクリックします。
 
-1. ビルトインの **[!UICONTROL LINE V2 ルーティング]**&#x200B;外部アカウントを選択します。
+1. ビルトインの **[!UICONTROL LINE V2 ルーティング]**外部アカウントを選択します。
 
 
    ![](assets/line_config.png)
