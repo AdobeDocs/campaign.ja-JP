@@ -711,7 +711,7 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **解決策**：ワークフローと配信のコンテンツを確認して、該当するテーブルを呼び出そうとしているパーソナライゼーションを具体的に特定します。 次に、HTMLのこのテーブルへの呼び出しを削除するか、配信へのマッピングを修正します。
 
-パーソナライゼーションについて詳しくは、[ この節 ](personalize.md) を参照してください。
+パーソナライゼーションについて詳しくは、[&#x200B; この節 &#x200B;](personalize.md) を参照してください。
 
 ### 複数のパーソナライゼーション値エラー {#multiple-values-error}
 
@@ -723,7 +723,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **原因**：メール内に、受信者に対して複数の値を持つパーソナライゼーションフィールドまたはブロックがあります。 パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
 
-**解決策**：使用するパーソナライゼーションデータを確認し、これらのフィールドのいずれかに複数のエントリを持つ受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで **[!UICONTROL 重複排除]** アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみにすることもできます。 重複排除について詳しくは、[ ワークフロードキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} を参照してください。
+**解決策**：使用するパーソナライゼーションデータを確認し、これらのフィールドのいずれかに複数のエントリを持つ受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで **[!UICONTROL 重複排除]** アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみにすることもできます。 重複排除について詳しくは、[&#x200B; ワークフロードキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} を参照してください。
 
 ### 自動返信処理 {#auto-reply-handling}
 
@@ -739,12 +739,12 @@ Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 
 ## 関連トピック
 
-[ 配信ステータス ](delivery-statuses.md) では、配信のライフサイクル中に設定できる様々なステータスについて説明します。
+[&#x200B; 配信ステータス &#x200B;](delivery-statuses.md) では、配信のライフサイクル中に設定できる様々なステータスについて説明します。
 
-[Campaign UI での配信の監視 ](delivery-dashboard.md) では、配信ダッシュボードを使用して配信のパフォーマンスを追跡し、問題を診断する方法に関するガイダンスを提供します。
+[Campaign UI での配信の監視 &#x200B;](delivery-dashboard.md) では、配信ダッシュボードを使用して配信のパフォーマンスを追跡し、問題を診断する方法に関するガイダンスを提供します。
 
-[ 強制隔離管理 ](quarantines.md) では、送信レピュテーションを保護するために強制隔離されたアドレスを Campaign がどのように管理するかについて説明します。
+[&#x200B; 強制隔離管理 &#x200B;](quarantines.md) では、送信レピュテーションを保護するために強制隔離されたアドレスを Campaign がどのように管理するかについて説明します。
 
-[ 配信品質の監視 ](monitoring-deliverability.md) は、配信品質と送信者の評判を良好に維持するためのガイダンスを提供します。
+[&#x200B; 配信品質の監視 &#x200B;](monitoring-deliverability.md) は、配信品質と送信者の評判を良好に維持するためのガイダンスを提供します。
 
-[ 配信のベストプラクティス ](../start/delivery-best-practices.md) では、Campaign で配信を作成および送信するためのベストプラクティスについて説明します。
+[&#x200B; 配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md) では、Campaign で配信を作成および送信するためのベストプラクティスについて説明します。
