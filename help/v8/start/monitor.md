@@ -23,21 +23,21 @@ Adobe Campaignは、プロセス、配信、環境を監視して、最適なパ
 
 送信後に配信を監視することは、マーケティングキャンペーンを効率的に実施し、顧客に働きかけるうえで重要です。 配信を送信した後、配信のステータスを監視し、配信ダッシュボードで主要指標を追跡できます。 ダッシュボードを使用すると、配信ログ、除外ログ、トラッキングログおよびその他の監視機能にアクセスでき、すべてのチャネルにわたる配信パフォーマンスを分析するのに役立ちます。
 
-**メール配信** - メール配信ステータスの監視、主要指標の追跡および詳細ログへのアクセスを行います。 [Campaign UI での配信の監視 ](../send/delivery-dashboard.md)、[ 配信ステータス ](../send/delivery-statuses.md) および [ メール配信の監視 ](../send/send.md#email-monitoring) について詳しく説明します。
+**メール配信** - メール配信ステータスの監視、主要指標の追跡および詳細ログへのアクセスを行います。 [Campaign UI での配信の監視 &#x200B;](../send/delivery-dashboard.md)、[&#x200B; 配信ステータス &#x200B;](../send/delivery-statuses.md) および [&#x200B; メール配信の監視 &#x200B;](../send/send.md#email-monitoring) について詳しく説明します。
 
-**SMS 配信** - SMS 配信ステータスを追跡し、SMS 配信ダッシュボードで主要指標を監視します。 詳細情報 [SMS 監視 ](../send/sms/sms-monitor.md)。
+**SMS 配信** - SMS 配信ステータスを追跡し、SMS 配信ダッシュボードで主要指標を監視します。 詳細情報 [SMS 監視 &#x200B;](../send/sms/sms-monitor.md)。
 
-**プッシュ通知** - プッシュ通知配信を監視して、モバイルアプリユーザーに効果的にリーチできるようにします。 詳細情報：[ プッシュ通知の監視 ](../send/push.md#push-test)。
+**プッシュ通知** - プッシュ通知配信を監視して、モバイルアプリユーザーに効果的にリーチできるようにします。 詳細情報：[&#x200B; プッシュ通知の監視 &#x200B;](../send/push.md#push-test)。
 
-**トランザクションメッセージ** - イベントによってトリガーされるメッセージの場合は、イベント処理のステータス、メッセージの実行および配信ステータスを監視します。 詳細情報：[ トランザクションメッセージ監視 ](../send/delivery-execution.md#monitor-messages)。
+**トランザクションメッセージ** - イベントによってトリガーされるメッセージの場合は、イベント処理のステータス、メッセージの実行および配信ステータスを監視します。 詳細情報：[&#x200B; トランザクションメッセージ監視 &#x200B;](../send/delivery-execution.md#monitor-messages)。
 
-**配信エラー** – 配信エラーの理由を理解することは、データベースをクリーンに保ち、配信品質を高めるために重要です。 配信エラーは、ハードバウンス、ソフトバウンスおよび無視されたメッセージに分類されます。 詳細情報 [ 配信の失敗と強制隔離 ](../send/delivery-failures.md)。
+**配信エラー** – 配信エラーの理由を理解することは、データベースをクリーンに保ち、配信品質を高めるために重要です。 配信エラーは、ハードバウンス、ソフトバウンスおよび無視されたメッセージに分類されます。 詳細情報 [&#x200B; 配信の失敗と強制隔離 &#x200B;](../send/delivery-failures.md)。
 
 ## 配信品質の監視 {#monitor-deliverability}
 
 配信品質の監視は、メッセージが受信者のインボックスに確実に届き、スパムフィルターを回避するのに役立ちます。 Adobe Campaignには、配信レポート、受信ボックスレンダリング、SpamAssassin テスト、ブロードキャスト統計など、配信品質を監視および向上させるための組み込みツールがいくつか用意されています。 クリーンなメールリストの維持、送信者レピュテーションの監視、送信ドメインの認証などの配信品質のベストプラクティスに従うことは、配信品質を高く保つうえで重要です。
 
-詳しくは、[ 配信品質の監視ツール ](../send/monitoring-deliverability.md) および [ 配信品質のベストプラクティス ](../send/about-deliverability.md) を参照してください。
+詳しくは、[&#x200B; 配信品質の監視ツール &#x200B;](../send/monitoring-deliverability.md) および [&#x200B; 配信品質のベストプラクティス &#x200B;](../send/about-deliverability.md) を参照してください。
 
 ## ワークフローの監視 {#monitor-workflows}
 
@@ -51,11 +51,11 @@ Adobe Campaignは、プロセス、配信、環境を監視して、最適なパ
 
 **次のワークフロー要素を監視します。**
 
-**ワークフロー実行ステータス** - ワークフローが実行中、一時停止、失敗または完了したかどうかを追跡します。 [ ワークフロー実行の詳細情報 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
+**ワークフロー実行ステータス** - ワークフローが実行中、一時停止、失敗または完了したかどうかを追跡します。 [&#x200B; ワークフロー実行の詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
 **アクティビティ実行ログ** – 各ワークフローアクティビティの詳細ログにアクセスして、問題のトラブルシューティングとパフォーマンスの最適化を行います。
 
-**ワークフローヒートマップ** - ワークフローの実行パターンを視覚化し、ボトルネックを特定し、同時ワークフローを監視します。 ワークフローヒートマップは、Campaign 管理者が使用できます。 [ ワークフローヒートマップの詳細情報 ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=ja){target="_blank"}
+**ワークフローヒートマップ** - ワークフローの実行パターンを視覚化し、ボトルネックを特定し、同時ワークフローを監視します。 ワークフローヒートマップは、Campaign 管理者が使用できます。 [&#x200B; ワークフローヒートマップの詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=ja){target="_blank"}
 
 **ワークフロー履歴** – すべてのワークフローの実行と変更を経時的に追跡し、ワークフローの動作とパフォーマンスを把握します。
 
@@ -76,19 +76,19 @@ Adobe Campaignは、プロセス、配信、環境を監視して、最適なパ
 
 監査記録には Campaign クライアントコンソールからアクセスでき、ユーザーが実行したアクションに関する詳細情報を提供します。
 
-詳細情報 [ 監査記録 ](../reporting/audit-trail.md)
+詳細情報 [&#x200B; 監査記録 &#x200B;](../reporting/audit-trail.md)
 
 ### パフォーマンス監視 {#performance-monitoring}
 
 Campaign v8 には、インスタンスのパフォーマンスを追跡し、最適な運用を確保するための監視機能が用意されています。
 
-**データベースの監視** - Campaign コントロールパネルを通じてデータベースの使用状況と処理能力を監視し、最適なパフォーマンスとストレージ管理を確保します。 [ データベース監視の詳細情報 ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**データベースの監視** - Campaign コントロールパネルを通じてデータベースの使用状況と処理能力を監視し、最適なパフォーマンスとストレージ管理を確保します。 [&#x200B; データベース監視の詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
 
-**アクティブプロファイルの監視** - コンプライアンスを維持し、リソース割り当てを最適化するために、契約上の制限に対するアクティブなプロファイルの使用状況を追跡します。 [ アクティブなプロファイルの詳細情報 ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}
+**アクティブプロファイルの監視** - コンプライアンスを維持し、リソース割り当てを最適化するために、契約上の制限に対するアクティブなプロファイルの使用状況を追跡します。 [&#x200B; アクティブなプロファイルの詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}
 
-**ワークフロー監視** - ワークフローの実行ステータスを監視して、長時間実行中のワークフローを特定し、すべてのテクニカルワークフローが正しく実行されていることを確認します。 [ テクニカルワークフローの詳細情報 ](#technical-workflows)
+**ワークフロー監視** - ワークフローの実行ステータスを監視して、長時間実行中のワークフローを特定し、すべてのテクニカルワークフローが正しく実行されていることを確認します。 [&#x200B; テクニカルワークフローの詳細情報 &#x200B;](#technical-workflows)
 
-**配信スループットと待ち時間** - Campaign コントロールパネルを通じて、トランザクション通信の配信スループット（1 時間あたりに送信されるメッセージ）と待ち時間を追跡します。 [ スループット監視の詳細情報 ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**配信スループットと待ち時間** - Campaign コントロールパネルを通じて、トランザクション通信の配信スループット（1 時間あたりに送信されるメッセージ）と待ち時間を追跡します。 [&#x200B; スループット監視の詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Campaign v8 には、インスタンスのパフォーマンスを追跡し、�
 | **配信品質の更新** | 配信品質ルールとスパムフィルターパターンを更新する |
 | **データベースのクリーンアップ** | 古い配信ログとトラッキングログをパージします |
 
-詳細情報 [ テクニカルワークフロー ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"}
+詳細情報 [&#x200B; テクニカルワークフロー &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"}
 
 ### Campaign コントロールパネル {#control-panel}
 
@@ -125,7 +125,7 @@ Campaign Campaign コントロールパネルを使用すると、管理者は�
 | **インフラストラクチャ** | SFTP ストレージ容量の監視、サブドメイン設定の追跡、SSL 証明書の有効期限の監視、IP 許可リストの管理 |
 | **インスタンス** | ビルドバージョンおよびインストール済みパッケージの表示、システム設定の監視、許可された外部ドメインの管理 |
 
-[ パフォーマンス監視および ](../config/self-service.md)2}Campaign コントロールパネルCampaign コントロールパネル監視の詳細 [](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja){target="_blank"}
+[&#x200B; パフォーマンス監視および &#x200B;](../config/self-service.md)2&rbrace;Campaign コントロールパネルCampaign コントロールパネル監視の詳細 [&#128279;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja){target="_blank"}
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Campaign Campaign コントロールパネルを使用すると、管理者は�
 * **購読解除**：オプトアウトリクエストのトラッキング
 * **ミラーページビュー**：ブラウザーでメールを表示している受信者の数を確認する
 
-[ メッセージトラッキング ](../send/tracking.md) の詳細情報
+[&#x200B; メッセージトラッキング &#x200B;](../send/tracking.md) の詳細情報
 
 ### 配信レポート {#delivery-reports}
 
@@ -153,7 +153,7 @@ Adobe Campaignには、配信パフォーマンスを分析するための包括
 * **URL とクリックストリーム**：配信で最も人気のあるリンク
 * **ホットクリック**：メール内の受信者がクリックした場所を視覚的に表示します
 
-詳細情報 [ 配信レポート ](../reporting/delivery-reports.md)
+詳細情報 [&#x200B; 配信レポート &#x200B;](../reporting/delivery-reports.md)
 
 ### グローバルレポート {#global-reports}
 
@@ -163,7 +163,7 @@ Adobe Campaignには、配信パフォーマンスを分析するための包括
 * **配信不能件数とバウンス数**：失敗した配信の分析
 * **ユーザーアクティビティ**：すべてのキャンペーンで開封数、クリック数および購読解除数
 
-詳しくは、[ グローバルレポート ](../reporting/global-reports.md) を参照してください
+詳しくは、[&#x200B; グローバルレポート &#x200B;](../reporting/global-reports.md) を参照してください
 
 ## 関連トピック {#related-topics}
 

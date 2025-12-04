@@ -29,7 +29,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. [Adobe Experience Platform データ収集でのモバイルプロパティの作成と設定](#create-mobile-property)
 
-1. [Adobe Adobe Experience Platform Assurance拡張機能の追加 ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} （推奨）
+1. [Adobe Adobe Experience Platform Assurance拡張機能の追加 &#x200B;](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} （推奨）
 
 1. [Campaign Classic をモバイルアプリケーションに追加](#campaign-mobile-ap)
 
@@ -73,7 +73,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **キー ID** を入力します。これは、p8 認証キーの作成時に割り当てられる 10 文字の文字列です。
 
-        これは、Apple開発者アカウントの**証明書**、**識別子**、**プロファイル**ページの「**キー**」タブにあります。
+        これは、Apple開発者アカウントの&#x200B;**証明書**、**識別子**、**プロファイル**&#x200B;ページの「**キー**」タブにあります。
    
 1. **チーム ID** を入力します。これは、「**メンバーシップ**」タブの下にある文字列値です。
 
@@ -87,7 +87,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
 
-1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法の詳細については、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} を参照してください。
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法の詳細については、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 

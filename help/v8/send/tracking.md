@@ -78,7 +78,7 @@ Campaign のトラッキング機能を使用すると、パーソナライズ�
 
 Adobe Campaign における「人」と「受信者」のトラッキングの違いについて、この例でより深く理解します。
 
-人と受信者について詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=ja#reporting){target="_blank"} を参照してください
+人と受信者について詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=ja#reporting){target="_blank"} を参照してください
 
 **トラッキング指標**
 
