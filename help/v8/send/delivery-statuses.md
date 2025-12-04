@@ -94,7 +94,7 @@ Adobe Campaign のメールの配信品質を最適化する方法について�
 
   同時キャンペーンの制限は、「**[!UICONTROL NmsOperation_LimitConcurrency]**」オプションで定義します。 デフォルト値は 10 です。
 
-  Managed Cloud Services のユーザーは、Adobeと連携して、必要に応じてこの制限を調整できます。 オプションについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"} を参照してください。
+  Managed Cloud Services のユーザーは、Adobeと連携して、必要に応じてこの制限を調整できます。 オプションについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja){target="_blank"} を参照してください。
 
 * **リソースの空き時間の問題**
 

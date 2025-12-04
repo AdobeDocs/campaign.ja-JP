@@ -17,7 +17,7 @@ ht-degree: 96%
 
 LINE は、無料のインスタントメッセージ、音声およびビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。Adobe Campaign を使用して、LINE メッセージを送信できます。
 
-また [!DNL LINE] は、コンシューマー向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。詳しくは、Campaign Classic v7 ドキュメントのこの [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) を参照してください。
+また [!DNL LINE] は、コンシューマー向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。詳しくは、Campaign Classic v7 ドキュメントのこの [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) を参照してください。
 
 ![](assets/line_message.png)
 

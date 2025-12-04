@@ -82,13 +82,13 @@ Adobe Campaignは、プロセス、配信、環境を監視して、最適なパ
 
 Campaign v8 には、インスタンスのパフォーマンスを追跡し、最適な運用を確保するための監視機能が用意されています。
 
-**データベースの監視** - Campaign コントロールパネルを通じてデータベースの使用状況と処理能力を監視し、最適なパフォーマンスとストレージ管理を確保します。 [&#x200B; データベース監視の詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**データベースの監視** - Campaign コントロールパネルを通じてデータベースの使用状況と処理能力を監視し、最適なパフォーマンスとストレージ管理を確保します。 [&#x200B; データベース監視の詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=ja){target="_blank"}
 
 **アクティブプロファイルの監視** - コンプライアンスを維持し、リソース割り当てを最適化するために、契約上の制限に対するアクティブなプロファイルの使用状況を追跡します。 [&#x200B; アクティブなプロファイルの詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja){target="_blank"}
 
 **ワークフロー監視** - ワークフローの実行ステータスを監視して、長時間実行中のワークフローを特定し、すべてのテクニカルワークフローが正しく実行されていることを確認します。 [&#x200B; テクニカルワークフローの詳細情報 &#x200B;](#technical-workflows)
 
-**配信スループットと待ち時間** - Campaign コントロールパネルを通じて、トランザクション通信の配信スループット（1 時間あたりに送信されるメッセージ）と待ち時間を追跡します。 [&#x200B; スループット監視の詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**配信スループットと待ち時間** - Campaign コントロールパネルを通じて、トランザクション通信の配信スループット（1 時間あたりに送信されるメッセージ）と待ち時間を追跡します。 [&#x200B; スループット監視の詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=ja){target="_blank"}
 
 >[!NOTE]
 >
