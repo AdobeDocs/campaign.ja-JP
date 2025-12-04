@@ -3,10 +3,8 @@ title: 新しい SMS コネクタ v2 への移行
 description: 新しい SMS コネクタ v2 に移行する方法を説明します
 feature: Technote
 role: Admin
-hide: true
-hidefromtoc: true
 exl-id: 61a5a3e8-59f8-47ea-afc9-66ec243b8265
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: ed9e784c1610a6f042b99223ac0d4cc0cf312b09
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
