@@ -33,15 +33,15 @@ Adobe Campaign Standardは、既存のシステムを Campaign プラットフ�
 
 1. Campaign API リスナーを含む登録フォーム
 
-   ![&#x200B; 代替テキスト &#x200B;](assets/apis_uc1.png)
+   ![ 代替テキスト ](assets/apis_uc1.png)
 
 1. チェックボックスに基づいて実行されるカスタムアクション。 「特別オファーをメールで送信」を選択した顧客には、通常の登録プロセスと比較して、ギフトクーポンを含む別のカスタムメールが送信されます。
 
-   ![&#x200B; 代替テキスト &#x200B;](assets/apis_uc2.png)
+   ![ 代替テキスト ](assets/apis_uc2.png)
 
 1. プロファイルは、メールの「詳細を更新」リンクをクリックした後、詳細を変更する場合があります。 プロファイルが「プロファイルおよび環境設定の詳細を更新」ページに移動します。 操作を実行するには、プロファイルの詳細（Pkey）が Campaign サーバーに渡され、プロファイルが取得されて表示されます。 プロファイルが「更新」ボタンをクリックすると、情報が（PATCH コマンドを使用して）システムに更新されます。
 
-   ![&#x200B; 代替テキスト &#x200B;](assets/apis_uc3.png)
+   ![ 代替テキスト ](assets/apis_uc3.png)
 
 Campaign Standard API のリクエストを把握するのに役立つリクエストのコレクションを利用できます。 JSON 形式のこのコレクションは、一般的なユースケースを表す事前に設計された API リクエストを提供します。
 
@@ -51,26 +51,26 @@ Campaign Standard API のリクエストを把握するのに役立つリクエ�
 >
 >この例ではPostmanを使用します。 ただし、お気に入りの REST クライアントを自由に使用できます。
 
-1. [&#x200B; こちら &#x200B;](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip) をクリックして、JSON コレクションをダウンロードします。
+1. [ こちら ](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip) をクリックして、JSON コレクションをダウンロードします。
 
 1. Postmanを開き、「**ファイル**/**読み込み** メニューを選択します。
 
 1. ダウンロードしたファイルをウィンドウにドラッグ&amp;ドロップします。 事前に設計された API リクエストが表示され、すぐに使用できます。
 
-   ![&#x200B; 代替テキスト &#x200B;](assets/postman_collection.png)
+   ![ 代替テキスト ](assets/postman_collection.png)
 
 1. **プロファイルの作成** リクエストを選択してから、独自の情報（&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN **）で POST リクエストと** Headers> タブを更新します。 詳しくは、[この節](setting-up-api-access.md)を参照してください。
 
-   ![&#x200B; 代替テキスト &#x200B;](assets/postman_uc1.png)
+   ![ 代替テキスト ](assets/postman_uc1.png)
 
 1. 新しいプロファイルに追加する情報を「**本文**」タブに入力し、「**送信**」ボタンをクリックしてリクエストを実行します。
 
-   ![&#x200B; 代替テキスト &#x200B;](assets/postman_uc2.png)
+   ![ 代替テキスト ](assets/postman_uc2.png)
 
 1. オブジェクトが作成されると、プライマリキー（PKey）が関連付けられます。 これは、リクエスト応答やその他の属性にも表示されます。
 
-   ![&#x200B; 代替テキスト &#x200B;](assets/postman_uc3.png)
+   ![ 代替テキスト ](assets/postman_uc3.png)
 
 1. Campaign Standard インスタンスを開き、ペイロードのすべての情報を含むプロファイルが作成されていることを確認します。
 
-   ![&#x200B; 代替テキスト &#x200B;](assets/postman_uc4.png)
+   ![ 代替テキスト ](assets/postman_uc4.png)

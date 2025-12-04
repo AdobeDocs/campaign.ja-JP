@@ -1,14 +1,14 @@
 ---
 title: Campaign v8 でのクエリのデザイン
-description: クエリの作成方法を学ぶ
+description: Campaign クライアントコンソールでクエリを作成する方法を学ぶ
 feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
+source-git-commit: edd495a377559007dad7158c9ab4a4917d89ae73
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 29%
+source-wordcount: '958'
+ht-degree: 28%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 29%
 
 Adobe Campaign でクエリを作成する手順は次のとおりです。
 
-1. [&#x200B; ワークテーブルを選択します &#x200B;](#step-1---choose-a-table)。
-1. [&#x200B; 抽出するデータを選択します &#x200B;](#step-2---choose-data-to-extract)。
-1. [&#x200B; データ並べ替えモードを定義 &#x200B;](#step-3---sort-data)。
-1. [&#x200B; データのフィルターオプションを定義 &#x200B;](#step-4---filter-data) します。
-1. [&#x200B; データ形式を設定 &#x200B;](#step-5---format-data) します。
-1. [&#x200B; クエリの結果をプレビューする &#x200B;](#step-6---preview-data)。
+1. [ ワークテーブルを選択します ](#step-1---choose-a-table)。
+1. [ 抽出するデータを選択します ](#step-2---choose-data-to-extract)。
+1. [ データ並べ替えモードを定義 ](#step-3---sort-data)。
+1. [ データのフィルターオプションを定義 ](#step-4---filter-data) します。
+1. [ データ形式を設定 ](#step-5---format-data) します。
+1. [ クエリの結果をプレビューする ](#step-6---preview-data)。
 
-これらのすべての手順は、[&#x200B; 汎用クエリエディター &#x200B;](query-editor.md) で利用できます。 別のコンテキストでクエリを作成すると、一部の手順が欠落する場合があります。 クエリについて詳しくは、[&#x200B; ワークフロークエリアクティビティのドキュメント &#x200B;](../../automation/workflow/query.md) も参照してください。
+これらのすべての手順は、[ 汎用クエリエディター ](query-editor.md) で利用できます。 別のコンテキストでクエリを作成すると、一部の手順が欠落する場合があります。 クエリについて詳しくは、[ ワークフロークエリアクティビティのドキュメント ](../../automation/workflow/query.md) も参照してください。
 
 
 ## 手順 1 - テーブルの選択 {#step-1---choose-a-table}
@@ -48,7 +48,7 @@ Campaign データベースにクエリを実行するには、**[汎用クエ�
 
 ![](assets/query_editor_nveau_97.png)
 
-出力列に表示されるデータをグループ化できます。 これを行うには、「**[!UICONTROL 抽出するデータ]**」ウィンドウの **[!UICONTROL グループ]** 列で **[!UICONTROL はい]** を選択します。 結果は、選択したグループ化軸に基づいて集計されます。 グループ化を使用したクエリの例については、[&#x200B; この節 &#x200B;](../../automation/workflow/query-delivery-info.md) を参照してください。
+出力列に表示されるデータをグループ化できます。 これを行うには、「**[!UICONTROL 抽出するデータ]**」ウィンドウの **[!UICONTROL グループ]** 列で **[!UICONTROL はい]** を選択します。 結果は、選択したグループ化軸に基づいて集計されます。 グループ化を使用したクエリの例については、[ この節 ](../../automation/workflow/query-delivery-info.md) を参照してください。
 
 ![](assets/query_editor_nveau_56.png)
 
@@ -77,7 +77,7 @@ Campaign データベースにクエリを実行するには、**[汎用クエ�
 
 **[!UICONTROL フィルター条件]** を選択すると、「**[!UICONTROL ターゲット要素]**」セクションが開きます。 ここでは、収集するデータをフィルタリングするためのルールを定義できます。
 
-* 新しいフィルターを作成するには、条件の作成に必要なフィールド、演算子、値を選択します。 また、（このページで [&#x200B; 説明しているように、複数の条件を組み合わせるこ &#x200B;](filter-conditions.md) もできます。
+* 新しいフィルターを作成するには、条件の作成に必要なフィールド、演算子、値を選択します。 また、（このページで [ 説明しているように、複数の条件を組み合わせるこ ](filter-conditions.md) もできます。
 
 * 既存のフィルターを再利用するには、「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL 定義済みフィルター]** を選択して、必要なフィルターを選択します。
 
@@ -111,7 +111,7 @@ SQL 言語を理解しているユーザーは、「**[!UICONTROL 生成され�
 
 >[!NOTE]
 >
->計算フィールドのタイプについて詳しくは、[&#x200B; 計算フィールドの作成 &#x200B;](filter-conditions.md#creating-calculated-fields) を参照してください。
+>計算フィールドのタイプについて詳しくは、[ 計算フィールドの作成 ](filter-conditions.md#creating-calculated-fields) を参照してください。
 
 チェックをオフにした列は、データプレビューウィンドウでは非表示になります。
 

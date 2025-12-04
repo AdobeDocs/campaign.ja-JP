@@ -84,7 +84,7 @@ Adobe Campaign インタラクションモジュールは、次の 2 種類の�
 
 >[!NOTE]
 >
->パッケージのインストール時に、**nms** テーブルの **long:proposition** タイプのフィールド（提案 ID など）は **int64** タイプのフィールドになります。 このタイプのデータについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ja#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"} を参照してください。
+>パッケージのインストール時に、**nms** テーブルの **long:proposition** タイプのフィールド（提案 ID など）は **int64** タイプのフィールドになります。 このタイプのデータについて詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ja#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"} を参照してください。
 
 データ保持期間は、（デプロイメントウィザードの&#x200B;**[!UICONTROL データパージ]**&#x200B;ウィンドウから）インスタンスごとに設定されます。実行インスタンスでは、この期間が、タイポロジルールに必要な履歴深度（スライド期間）および計算される実施要件ルールに対応している必要があります。
 

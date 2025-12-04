@@ -20,9 +20,9 @@ Campaign REST API は、Adobe Campaignに使用するテクノロジーのパネ
 
 >[!AVAILABILITY]
 >
->* この機能は、すべての [Campaign FDA 環境 &#x200B;](../../architecture/fda-deployment.md) でオンデマンドでのみ使用できます。 **エンタープライズ** FFDA）デプロイメントでは使用できません [&#x200B; 使用できません &#x200B;](../../architecture/enterprise-deployment.md)。 アクセスするには、アドビ担当者にお問い合わせください。
+>* この機能は、すべての [Campaign FDA 環境 ](../../architecture/fda-deployment.md) でオンデマンドでのみ使用できます。 **エンタープライズ** FFDA）デプロイメントでは使用できません [ 使用できません ](../../architecture/enterprise-deployment.md)。 アクセスするには、アドビ担当者にお問い合わせください。
 >
->* API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[Adobe Campaign v8 製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
+>* API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[Adobe Campaign v8 製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
 
 
 Adobe Campaign REST API を使用すると、次の機能にアクセスできます。

@@ -54,7 +54,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
    Adobe Campaign には、メール配信を監視するための一連のダッシュボードおよびツールが付属しています。
 
-   メッセージが送信されていることを確認し、実行を監視し [&#x200B; エラーが発生した場合にアクションを実行する &#x200B;](../send/tracking.md) メッセージのトラッキングと監視）の方法を説明します。
+   メッセージが送信されていることを確認し、実行を監視し [ エラーが発生した場合にアクションを実行する ](../send/tracking.md) メッセージのトラッキングと監視）の方法を説明します。
 
 1. **ワークフローの実行を監視できますか？**
 
@@ -90,7 +90,7 @@ Campaign を取り扱う上でサポートが必要ですか？以下のよく�
 
 1. **Campaign の専門家と連絡を取ることはできますか？**
 
-   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。[会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}
+   Campaign コミュニティに参加：既存の質問の回答を検索するか、エキスパートに質問します。[会話への参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **問題をログに記録するにはどうすればよいですか？**

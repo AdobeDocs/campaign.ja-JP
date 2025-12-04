@@ -18,7 +18,7 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
 * **動的レポート**
 
-  Campaign web UI で使用できる動的レポートは、マーケティングアクティビティの影響を測定するために、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。[Web UI v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ja){target="_blank"} を参照してください。
+  Campaign web UI で使用できる動的レポートは、マーケティングアクティビティの影響を測定するために、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。[Web UI v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} を参照してください。
 
 * **キューブ**
 
@@ -50,10 +50,10 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
   ![](assets/desc-analysis-report.png)
 
-  Campaign の記述的分析レポートは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"} に記載されています。
+  Campaign の記述的分析レポートは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"} に記載されています。
 
 * **カスタムレポート**
 
   Adobe Campaign を使用すると、データベース内のデータに関するレポートを作成できます。作成したレポートは、適切なコンテキストで参照できるようになります。
 
-  レポートの作成手順について詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"} を参照してください。 パーソナライズされたレポートの作成は、上級ユーザーが行います。
+  レポートの作成手順について詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"} を参照してください。 パーソナライズされたレポートの作成は、上級ユーザーが行います。
