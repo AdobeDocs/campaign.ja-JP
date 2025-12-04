@@ -25,8 +25,8 @@ Adobe Campaign REST API で使用可能なエンドポイントは次のとお�
 
 デフォルトでは、**profileAndServices** および **profileAndServicesExt** API で使用できる主なリソースは次のとおりです。
 
-* **/profile**:Campaign データベース内のプロファイルを操作します。 サービスにプロファイルを追加するには、**/service** エンドポイントを使用します。 Campaign のプロファイルについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html) を参照してください。
-* **/service**：購読サービスを管理します。 Campaign のサービスについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html) を参照してください。
+* **/profile**:Campaign データベース内のプロファイルを操作します。 サービスにプロファイルを追加するには、**/service** エンドポイントを使用します。 Campaign のプロファイルについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/jp/campaign/standard/audiences/using/about-profiles.html) を参照してください。
+* **/service**：購読サービスを管理します。 Campaign のサービスについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/jp/campaign/standard/audiences/using/creating-a-service.html) を参照してください。
 
 >[!NOTE]
 >
