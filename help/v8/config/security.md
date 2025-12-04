@@ -163,7 +163,7 @@ Adobe Campaign では、送信されたメールと配信受信者の動作（�
 
 >[!AVAILABILITY]
 >
->Web トラッキングは、Campaign v8 では使用できません。 使用できない機能について詳しくは、[ このページ ](../start/v7-to-v8.md#gs-unavailable-features) を参照してください。
+>Web トラッキングは、Campaign v8 では使用できません。 使用できない機能について詳しくは、[&#x200B; このページ &#x200B;](../start/v7-to-v8.md#gs-unavailable-features) を参照してください。
 
 <!--
 Privacy configuration and hardening is a key element of security optimization. Here are some best practices to follow regarding privacy:
