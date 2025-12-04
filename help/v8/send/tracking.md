@@ -5,10 +5,10 @@ feature: Monitoring, Email
 role: User
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 90ed82673b893b62a185227dd8cdfe80cc8f1455
+source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 72%
+source-wordcount: '456'
+ht-degree: 73%
 
 ---
 
@@ -78,7 +78,7 @@ Campaign のトラッキング機能を使用すると、パーソナライズ�
 
 Adobe Campaign における「人」と「受信者」のトラッキングの違いについて、この例でより深く理解します。
 
-人と受信者について詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html?lang=ja#reporting){target="_blank"} を参照してください
+[ターゲットユーザーとターゲット受信者の詳細](../reporting/metrics-calculation.md#targeted-persons---recipients)
 
 **トラッキング指標**
 

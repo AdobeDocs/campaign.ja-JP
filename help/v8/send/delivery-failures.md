@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
 workflow-type: tm+mt
-source-wordcount: '3476'
+source-wordcount: '3464'
 ht-degree: 88%
 
 ---
@@ -67,7 +67,7 @@ Adobe Campaign でのバウンスメールの選定の処理方法は、エラ�
 
 * **同期エラー**：MTA は、バウンスのタイプと選定を決定し、その情報を Campaign に返します。**[!UICONTROL 配信ログの検証]**&#x200B;テーブルのバウンス選定は、**同期**&#x200B;配信の失敗エラーメッセージには使用されなくなりました。
 
-* **非同期エラー**：非同期の配信エラーを検証するために Campaign で使用されるルールは、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信ログ選定]**&#x200B;ノードに一覧表示されます。非同期バウンスは、引き続き、**[!UICONTROL インバウンドメール]**&#x200B;ルールを通じて inMail プロセスで選定されます。詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=ja#bounce-mail-qualification){target="_blank"}を参照してください。
+* **非同期エラー**：非同期の配信エラーを検証するために Campaign で使用されるルールは、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信ログ選定]**&#x200B;ノードに一覧表示されます。非同期バウンスは、引き続き、**[!UICONTROL インバウンドメール]** ルールを通じて inMail プロセスで選定されます。
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -112,7 +112,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
 
 メッセージが MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## メールのエラータイプ {#email-error-types}
@@ -711,7 +711,7 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **解決策**：ワークフローと配信のコンテンツを確認して、該当するテーブルを呼び出そうとしているパーソナライゼーションを具体的に特定します。 次に、HTMLのこのテーブルへの呼び出しを削除するか、配信へのマッピングを修正します。
 
-パーソナライゼーションについて詳しくは、[&#x200B; この節 &#x200B;](personalize.md) を参照してください。
+パーソナライゼーションについて詳しくは、[ この節 ](personalize.md) を参照してください。
 
 ### 複数のパーソナライゼーション値エラー {#multiple-values-error}
 
@@ -723,7 +723,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **原因**：メール内に、受信者に対して複数の値を持つパーソナライゼーションフィールドまたはブロックがあります。 パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
 
-**解決策**：使用するパーソナライゼーションデータを確認し、これらのフィールドのいずれかに複数のエントリを持つ受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで **[!UICONTROL 重複排除]** アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみにすることもできます。 重複排除について詳しくは、[&#x200B; ワークフロードキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} を参照してください。
+**解決策**：使用するパーソナライゼーションデータを確認し、これらのフィールドのいずれかに複数のエントリを持つ受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで **[!UICONTROL 重複排除]** アクティビティを使用して、一度に 1 つのパーソナライゼーションフィールドのみにすることもできます。 重複排除について詳しくは、[ ワークフロードキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} を参照してください。
 
 ### 自動返信処理 {#auto-reply-handling}
 
@@ -739,12 +739,12 @@ Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 
 ## 関連トピック
 
-[&#x200B; 配信ステータス &#x200B;](delivery-statuses.md) では、配信のライフサイクル中に設定できる様々なステータスについて説明します。
+[ 配信ステータス ](delivery-statuses.md) では、配信のライフサイクル中に設定できる様々なステータスについて説明します。
 
-[Campaign UI での配信の監視 &#x200B;](delivery-dashboard.md) では、配信ダッシュボードを使用して配信のパフォーマンスを追跡し、問題を診断する方法に関するガイダンスを提供します。
+[Campaign UI での配信の監視 ](delivery-dashboard.md) では、配信ダッシュボードを使用して配信のパフォーマンスを追跡し、問題を診断する方法に関するガイダンスを提供します。
 
-[&#x200B; 強制隔離管理 &#x200B;](quarantines.md) では、送信レピュテーションを保護するために強制隔離されたアドレスを Campaign がどのように管理するかについて説明します。
+[ 強制隔離管理 ](quarantines.md) では、送信レピュテーションを保護するために強制隔離されたアドレスを Campaign がどのように管理するかについて説明します。
 
-[&#x200B; 配信品質の監視 &#x200B;](monitoring-deliverability.md) は、配信品質と送信者の評判を良好に維持するためのガイダンスを提供します。
+[ 配信品質の監視 ](monitoring-deliverability.md) は、配信品質と送信者の評判を良好に維持するためのガイダンスを提供します。
 
-[&#x200B; 配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md) では、Campaign で配信を作成および送信するためのベストプラクティスについて説明します。
+[ 配信のベストプラクティス ](../start/delivery-best-practices.md) では、Campaign で配信を作成および送信するためのベストプラクティスについて説明します。
