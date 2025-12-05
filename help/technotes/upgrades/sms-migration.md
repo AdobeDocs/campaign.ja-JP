@@ -25,4 +25,4 @@ Adobe Campaign Managed Cloud Servicesでは、サーバー設定と SMS コネ�
 
 新しい SMS コネクタ v2 に移行する必要がある場合は、Adobe担当者またはAdobe カスタマーケアにお問い合わせください。 お使いのインスタンスに必要な更新をスケジュールして実行します。
 
-Campaign v8 の SMS チャネルについて詳しくは、[SMS のドキュメント ](../../v8/send/sms/sms.md) を参照してください。
+Campaign v8 の SMS チャネルについて詳しくは、[SMS のドキュメント &#x200B;](../../v8/send/sms/sms.md) を参照してください。
