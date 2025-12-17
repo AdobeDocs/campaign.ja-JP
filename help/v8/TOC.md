@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+source-git-commit: 050612f6d7ab20aed5880454eec9cfc6e5fc18c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '837'
 ht-degree: 89%
 
 ---
@@ -131,7 +131,6 @@ ht-degree: 89%
    + プロファイルの追加 {#add-profiles}
       + [プロファイルの手動作成](audiences/create-profiles.md)
       + [ファイルからのプロファイルのインポート](audiences/import-profiles.md)
-      + [外部プロファイルの操作](audiences/external-profiles.md)
       + [Web フォームでのプロファイルデータの収集](audiences/collect-profiles.md)
       + [ターゲットマッピングの操作](audiences/target-mappings.md)
       + [テストプロファイルを作成](audiences/test-profiles.md)
@@ -145,7 +144,7 @@ ht-degree: 89%
    + [Web アプリとフォームのデザイン](dev/webapps.md)
 + ワークフロー {#workflows}
    + [ワークフローの基本を学ぶ](config/workflows.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + プライバシーとセキュリティ {#privacy}
    + [プライバシーリクエストの管理](start/privacy.md)
    + [セキュリティガイドライン](config/security.md)
@@ -197,7 +196,7 @@ ht-degree: 89%
       + [クエリの設計](start/design-queries.md)
       + [フィルター条件の定義](start/filter-conditions.md)
    + [データのインポート](start/import.md)
-   + [&#x200B; ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
+   + [ ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
    + [Campaign をその他のソリューションと接続する](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
