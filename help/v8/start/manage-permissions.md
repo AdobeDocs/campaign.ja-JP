@@ -107,7 +107,7 @@ Adobe Campaign にはビルトインの&#x200B;**製品プロファイル**&#x20
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL 管理者]** の役割は、Campaign Campaign コントロールパネルへのアクセス権を付与します。 Adobe Admin Console内の製品プロファイルの名前（「Administrators」、「admin」、「admins」、「approval admin」など）に「admin」という単語が含まれている場合、Campaign コントロールパネルへのアクセス権が付与されます。 詳細情報 [Campaign コントロールパネルアクセスの管理 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}。
+   >**[!UICONTROL 管理者]** の役割は、Campaign Campaign コントロールパネルへのアクセス権を付与します。 Adobe Admin Console内の製品プロファイルの名前（「Administrators」、「admin」、「admins」、「approval admin」など）に「admin」という単語が含まれている場合、Campaign コントロールパネルへのアクセス権が付与されます。 詳細情報 [Campaign コントロールパネルアクセスの管理 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}。
 
 1. **[!UICONTROL 配信オペレーター]**（配信）
 

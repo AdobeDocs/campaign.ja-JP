@@ -24,7 +24,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
 
-詳しくは、[Campaign Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"} を参照してください。
 
 ## コントロールパネルにアクセスするには？ {#ac-control-panel-access}
 
@@ -52,7 +52,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 * [サブドメインの監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=ja){target="_blank"}
 * [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja){target="_blank"}
-* [ サブドメインの SSL 証明書の監視 ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target="_blank"}
+* [&#x200B; サブドメインの SSL 証明書の監視 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target="_blank"}
 
 ## パフォーマンス監視
 
