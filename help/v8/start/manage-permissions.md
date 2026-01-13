@@ -6,10 +6,10 @@ role: User, Admin
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 100%
+source-wordcount: '1816'
+ht-degree: 93%
 
 ---
 
@@ -105,6 +105,10 @@ Adobe Campaign にはビルトインの&#x200B;**製品プロファイル**&#x20
 
    * **[!UICONTROL 管理者]**：ワークフロー、配信、スクリプトなどの任意のオブジェクトの実行／作成／編集／削除する権限。
 
+   >[!IMPORTANT]
+   >
+   >**[!UICONTROL 管理者]** の役割は、Campaign Campaign コントロールパネルへのアクセス権を付与します。 Adobe Admin Console内の製品プロファイルの名前（「Administrators」、「admin」、「admins」、「approval admin」など）に「admin」という単語が含まれている場合、Campaign コントロールパネルへのアクセス権が付与されます。 詳細情報 [Campaign コントロールパネルアクセスの管理 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}。
+
 1. **[!UICONTROL 配信オペレーター]**（配信）
 
    このグループのオペレーターは、配信の管理を担当します。配信の作成と準備に必要とされる主なリソース（キャンペーンタイポロジ、配信マッピング、デフォルトテンプレート、パーソナライゼーションブロックなど）にアクセスできます。
@@ -161,7 +165,7 @@ Adobe Campaign にはビルトインの&#x200B;**製品プロファイル**&#x20
    * **[!UICONTROL デザイン]**&#x200B;環境を修正する。
    * **[!UICONTROL ライブ]**&#x200B;環境を表示する。
    * 管理機能（定義済みスペースおよびフィルター）を設定します。
-   * カテゴリを作成および変更する。
+   * カテゴリを作成、更新する。
    * オファーを作成する。
    * オファーの実施要件を設定する。
    * オファーを承認する。
@@ -196,9 +200,9 @@ Adobe Campaign には、ユーザーとユーザーのグループに割り当�
 
 Adobe Campaign のデフォルトのネームド権限は次のとおりです。
 
-* **[!UICONTROL 管理]**：**[!UICONTROL 管理]**&#x200B;権限を持つオペレーターは、インスタンスに対する完全なアクセス権を持ちます。管理者ユーザーは、ワークフロー、配信、スクリプトなどの任意のオブジェクトの実行／作成／編集／削除が可能です。
+* **[!UICONTROL 管理]**：**[!UICONTROL 管理]**&#x200B;権限を持つオペレーターは、インスタンスに対する完全なアクセス権を持ちます。管理者ユーザーは、ワークフロー、配信、スクリプトなど、あらゆるオブジェクトを実行、作成、編集、削除できます。 **メモ：「管理者」という単語を含むAdobe Admin Consoleの製品プロファイル**、Campaign Campaign コントロールパネルへのアクセス権を付与します。
 
-* **[!UICONTROL 承認の管理]**：担当のオペレーターやグループが現在の状態を承認したことを確認するため、ワークフローや配信内で複数の承認手順を設定できます。**[!UICONTROL 承認の管理]**&#x200B;権限を持つユーザーは、承認手順を設定したり、これらの手順を承認する必要のあるオペレーターまたはオペレーターグループを割り当てたりできます。
+* **[!UICONTROL 承認の管理]**：担当のオペレーターやグループが現在の状態を承認したことを確認するため、ワークフローや配信内で複数の承認手順を設定できます。**[!UICONTROL 承認管理]** 権限を持つユーザーは、承認ステップを設定でき、それらのステップを承認する必要があるオペレーターまたはオペレーターグループを割り当てることもできます。 **メモ：「admin」という単語を含む製品プロファイル （「approval admin」など）**、Campaign Campaign コントロールパネルへのアクセス権を付与します。
 
 * **[!UICONTROL セントラル処理]**：セントラル管理の権限（分散型マーケティング）。
 

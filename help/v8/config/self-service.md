@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 96%
+source-wordcount: '372'
+ht-degree: 77%
 
 ---
 
@@ -24,11 +24,19 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
 
-詳しくは、[Campaign Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"} を参照してください。
+詳しくは、[Campaign Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"} を参照してください。
 
 ## コントロールパネルにアクセスするには？ {#ac-control-panel-access}
 
-コントロールパネルは、Adobe Experience Cloud から直接利用できます。 アクセスできるのは、管理者ユーザーのみです。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja){target="_blank"}してください。
+コントロールパネルは、Adobe Experience Cloud から直接利用できます。 管理者ユーザーのみがアクセスできます。
+
+>[!IMPORTANT]
+>
+>デフォルトでは、「管理者」Campaign コントロールパネルプロファイルに属する管理者ユーザーが製品にアクセスできます。 組織の設定に応じて、製品プロファイルに異なる名前を付けることができます（「管理者」、「管理者」、「承認管理者」など）。 **名前に「admin」という単語が含まれている製品プロファイルでは、Campaign コントロールパネルへのアクセス権が自動的に付与されます。**
+>
+>製品プロファイルの名前を慎重に確認し、許可されたユーザーのみがCampaign コントロールパネルにアクセスできるようにします。
+
+詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja){target="_blank"}してください。
 
 ## コントロールパネルのよくある質問（FAQ） {#ac-control-faq}
 
@@ -44,7 +52,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 * [サブドメインの監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=ja){target="_blank"}
 * [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja){target="_blank"}
-* [&#x200B; サブドメインの SSL 証明書の監視 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target="_blank"}
+* [ サブドメインの SSL 証明書の監視 ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=ja){target="_blank"}
 
 ## パフォーマンス監視
 
