@@ -14,19 +14,15 @@ ht-degree: 0%
 ### JIRA フィルター
 
 1. **[AC-UI-26-01-Monthly Stories](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-26-01-Monthly%20and%20type%20%3D%20story%20order%20by%20status)** - メインリリースストーリー
-2. **[NEOと 92400 の機能強化 ](https://jira.corp.adobe.com/issues/?jql=issueFunction%20in%20linkedIssuesOf(%27key%3DNEO-92400%27%2C%20%27is%20implemented%20by%27))** - リリースの機能強化に関連する問題
+2. **[NEOと 92400 の機能強化 &#x200B;](https://jira.corp.adobe.com/issues/?jql=issueFunction%20in%20linkedIssuesOf(%27key%3DNEO-92400%27%2C%20%27is%20implemented%20by%27))** - リリースの機能強化に関連する問題
 3. **[AC-UI-25-11-Monthly Stories](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20type%20%3D%20story%20order%20by%20status)** – 以前のリリースの繰り越し
-4. **[AC-UI-25-11 （8.8.2 を除く） ](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20fixVersion%20!%3D%208.8.2%20 および %20type%20%3D%20story%20order%20by%20status)** – 以前のリリースでフィルタリング
+4. **[AC-UI-25-11 （8.8.2 を除く） &#x200B;](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20fixVersion%20!%3D%208.8.2%20 および %20type%20%3D%20story%20order%20by%20status)** – 以前のリリースでフィルタリング
 
----
+&#x200B;---
 
 ## 🟢 DOCAC の作成
 
-### [NEO-91565](https://jira.corp.adobe.com/browse/NEO-91565) - パーソナライゼーションフィールドのサポートを追加（高度なAEM統合）
-**状態：** 解決済み\
-**文書必須：** はい\
-**既存の DOCAC:** なし\
-**アクション：** DOCAC の作成
+### [NEO-91565](https://jira.corp.adobe.com/browse/NEO-91565) - パーソナライゼーションフィールドのサポートを追加（高度なAEM統合）**状態：** 解決済み\**文書必須：** はい\**既存の DOCAC:** なし\**アクション：** DOCAC の作成
 
 **範囲：**
 - 高度なAEM統合におけるパーソナライゼーションフィールドのドキュメントサポート
@@ -40,13 +36,9 @@ ht-degree: 0%
 
 **参照：** [AEMの多言語 Wiki](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=2988189953)
 
----
+&#x200B;---
 
-### [NEO-93487](https://jira.corp.adobe.com/browse/NEO-93487) – 配信スケジュール計算プロセス （ACS パリティ）
-**ステータス：** 新規\
-**文書必須：** はい\
-**既存の DOCAC:** なし\
-**アクション：** DOCAC の作成
+### [NEO-93487](https://jira.corp.adobe.com/browse/NEO-93487) – 配信スケジュール計算プロセス （ACS パリティ）**ステータス：** 新規\**文書必須：** はい\**既存の DOCAC:** なし\**アクション：** DOCAC の作成
 
 **範囲：**
 - プッシュ通知のドキュメント配信スケジュール計算プロセス
@@ -58,17 +50,13 @@ ht-degree: 0%
 
 **コンテキスト：** 顧客主導（H&amp;M）、ACS から ACC へのパリティ要件
 
-**参照：**[ACS ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
+**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
----
+&#x200B;---
 
 ## 🔄 Update DOCAC
 
-### [NEO-80973](https://jira.corp.adobe.com/browse/NEO-80973) – すべての Web UI ユーザーが動的レポートを利用できる
-**状態：** 進行中\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-11070](https://jira.corp.adobe.com/browse/DOCAC-11070) （クローズド）、[DOCAC-13432](https://jira.corp.adobe.com/browse/DOCAC-13432) （解決済み）\
-**アクション：** DOCAC のレビュー
+### [NEO-80973](https://jira.corp.adobe.com/browse/NEO-80973) – すべての Web UI ユーザーが動的レポートを利用できる&#x200B;**状態：** 進行中\**文書必須：** はい\**既存の DOCAC:** [DOCAC-11070](https://jira.corp.adobe.com/browse/DOCAC-11070) （クローズド）、[DOCAC-13432](https://jira.corp.adobe.com/browse/DOCAC-13432) （解決済み）\**アクション：** DOCAC のレビュー
 
 **範囲：**
 - 可用性情報を更新します（現在は、8.7 だけでなく、すべての web UI ユーザー用）。
@@ -80,15 +68,11 @@ ht-degree: 0%
 
 **コンテキスト：** 機能の拡張、バックエンドビルドの依存関係（8.8.1）
 
-**参照：** [Wiki - レポートの比較 ](https://wiki.corp.adobe.com/display/~kumarvishal/Reports+-+Client+console+vs+WebUI)
+**参照：** [Wiki - レポートの比較 &#x200B;](https://wiki.corp.adobe.com/display/~kumarvishal/Reports+-+Client+console+vs+WebUI)
 
----
+&#x200B;---
 
-### [NEO-86754](https://jira.corp.adobe.com/browse/NEO-86754) - A/B テスト
-**状態：** 進行中\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-13104](https://jira.corp.adobe.com/browse/DOCAC-13104) （新規）\
-**アクション：** DOCAC の更新
+### [NEO-86754](https://jira.corp.adobe.com/browse/NEO-86754) - A/B テスト&#x200B;**状態：** 進行中\**文書必須：** はい\**既存の DOCAC:** [DOCAC-13104](https://jira.corp.adobe.com/browse/DOCAC-13104) （新規）\**アクション：** DOCAC の更新
 
 **範囲：**
 - A/B テストの完全なワークフロードキュメント
@@ -103,13 +87,9 @@ ht-degree: 0%
 
 **参考文献：** [Wiki](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=3017705719), [Figma mocks](https://www.figma.com/design/4EfXEaA6OIV0D8rauuXSWX/A-B-Testing)
 
----
+&#x200B;---
 
-### [NEO-76126](https://jira.corp.adobe.com/browse/NEO-76126) - スキーマオーサリング（新しいテーブルの作成、スキーマの拡張、外部 DB へのアクセス）
-**状態：** 進行中\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-13826](https://jira.corp.adobe.com/browse/DOCAC-13826) （新規）\
-**アクション：** DOCAC の更新
+### [NEO-76126](https://jira.corp.adobe.com/browse/NEO-76126) - スキーマオーサリング（新しいテーブルの作成、スキーマの拡張、外部 DB へのアクセス）**状態：** 進行中\**文書必須：** はい\**既存の DOCAC:** [DOCAC-13826](https://jira.corp.adobe.com/browse/DOCAC-13826) （新規）\**アクション：** DOCAC の更新
 
 **範囲：**
 - ドキュメントスキーマオーサリングワークフロー（3 つのオプションのみ：テーブルの作成、スキーマの拡張、外部 DB へのアクセス）
@@ -122,15 +102,11 @@ Web UI のスキーマオーサリング機能により、管理者は、新し�
 
 **コンテキスト：** Microsoft要件、Europa プロジェクト、段階的な配信（フェーズ 2 がアクティブ、フェーズ 3 は 2 月の終わり）
 
-**参考資料：**[PRD](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=AC+Web+UI+-+Schemas+PRD)、[Figma](https://www.figma.com/design/lZkJso2HvXPbNjG0TmQTrC/Schemas)
+**参考資料：**&#x200B;[PRD](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=AC+Web+UI+-+Schemas+PRD)、[Figma](https://www.figma.com/design/lZkJso2HvXPbNjG0TmQTrC/Schemas)
 
----
+&#x200B;---
 
-### [NEO-92668](https://jira.corp.adobe.com/browse/NEO-92668) - Web 分析
-**ステータス：** 新規\
-**文書必須：** はい\
-**既存の DOCAC:** なし\
-**アクション：** DOCAC の作成
+### [NEO-92668](https://jira.corp.adobe.com/browse/NEO-92668) - Web 分析&#x200B;**ステータス：** 新規\**文書必須：** はい\**既存の DOCAC:** なし\**アクション：** DOCAC の作成
 
 **範囲：**
 - Web 分析外部アカウントの設定
@@ -144,13 +120,9 @@ Web 分析の統合により、web 分析プラットフォームに接続して
 
 **参照：** 指定なし
 
----
+&#x200B;---
 
-### [NEO-86753](https://jira.corp.adobe.com/browse/NEO-86753) - ライブコピー/言語コピー用のAEM統合
-**ステータス：** 新規\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-13829](https://jira.corp.adobe.com/browse/DOCAC-13829) （解決済み）\
-**アクション：** DOCAC のレビュー
+### [NEO-86753](https://jira.corp.adobe.com/browse/NEO-86753) - ライブコピー/言語コピー用のAEM統合&#x200B;**ステータス：** 新規\**文書必須：** はい\**既存の DOCAC:** [DOCAC-13829](https://jira.corp.adobe.com/browse/DOCAC-13829) （解決済み）\**アクション：** DOCAC のレビュー
 
 **範囲：**
 - AEM配信テンプレートの参照
@@ -162,15 +134,11 @@ Web 分析の統合により、web 分析プラットフォームに接続して
 
 **背景：** Microsoft要件、ヒマンシュのチームに移管された作業
 
-**参照：**[ACS ドキュメント ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
+**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
 
----
+&#x200B;---
 
-### [NEO-88838](https://jira.corp.adobe.com/browse/NEO-88838) - コンテンツエディター：フラグメントでテーマ変数を使用します
-**ステータス：** 新規\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-12941](https://jira.corp.adobe.com/browse/DOCAC-12941) （新規）\
-**アクション：** DOCAC の更新
+### [NEO-88838](https://jira.corp.adobe.com/browse/NEO-88838) - コンテンツエディター：フラグメントでテーマ変数を使用します&#x200B;**ステータス：** 新規\**文書必須：** はい\**既存の DOCAC:** [DOCAC-12941](https://jira.corp.adobe.com/browse/DOCAC-12941) （新規）\**アクション：** DOCAC の更新
 
 **範囲：**
 - E メールデザイナー（Beta）のテーマ変数
@@ -182,17 +150,13 @@ Web 分析の統合により、web 分析プラットフォームに接続して
 
 **コンテキスト：** 保留中、再度訪問する Acrite 機能
 
-**参考資料：**[ATU-5460](https://jira.corp.adobe.com/browse/ATU-5460)
+**参考資料：**&#x200B;[ATU-5460](https://jira.corp.adobe.com/browse/ATU-5460)
 
----
+&#x200B;---
 
 ## ➕ DOCAC の作成（改善点）
 
-### [NEO-92942](https://jira.corp.adobe.com/browse/NEO-92942) – 定義済みフィルター – 共有オプション
-**状態：** 解決済み\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-13697](https://jira.corp.adobe.com/browse/DOCAC-13697) （コードレビュー）、[DOCAC-13522](https://jira.corp.adobe.com/browse/DOCAC-13522) （クローズド – ヘルパー）\
-**アクション：** DOCAC のレビュー
+### [NEO-92942](https://jira.corp.adobe.com/browse/NEO-92942) – 定義済みフィルター – 共有オプション&#x200B;**状態：** 解決済み\**文書必須：** はい\**既存の DOCAC:** [DOCAC-13697](https://jira.corp.adobe.com/browse/DOCAC-13697) （コードレビュー）、[DOCAC-13522](https://jira.corp.adobe.com/browse/DOCAC-13522) （クローズド – ヘルパー）\**アクション：** DOCAC のレビュー
 
 **範囲：**
 - 定義済みフィルターの共有オプション
@@ -204,15 +168,11 @@ Web 分析の統合により、web 分析プラットフォームに接続して
 
 **コンテキスト：** ルールビルダーの機能強化、機能フラグ：enable-query-filter-shared
 
-**参考資料：**[NEO-88441](https://jira.corp.adobe.com/browse/NEO-88441) に関連
+**参考資料：**&#x200B;[NEO-88441](https://jira.corp.adobe.com/browse/NEO-88441) に関連
 
----
+&#x200B;---
 
-### [NEO-91299](https://jira.corp.adobe.com/browse/NEO-91299) – 連続配信アクティビティ
-**ステータス：** 終了\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-13586](https://jira.corp.adobe.com/browse/DOCAC-13586) （新規）、[DOCAC-13808](https://jira.corp.adobe.com/browse/DOCAC-13808) （クローズド – コンテキストヘルプ）\
-**アクション：** DOCAC の更新
+### [NEO-91299](https://jira.corp.adobe.com/browse/NEO-91299) – 連続配信アクティビティ&#x200B;**ステータス：** 終了\**文書必須：** はい\**既存の DOCAC:** [DOCAC-13586](https://jira.corp.adobe.com/browse/DOCAC-13586) （新規）、[DOCAC-13808](https://jira.corp.adobe.com/browse/DOCAC-13808) （クローズド – コンテキストヘルプ）\**アクション：** DOCAC の更新
 
 **範囲：**
 - 連続配信ワークフローアクティビティ
@@ -227,13 +187,9 @@ Web 分析の統合により、web 分析プラットフォームに接続して
 
 **参考資料：** 関連叙事詩 [NEO-67972](https://jira.corp.adobe.com/browse/NEO-67972)
 
----
+&#x200B;---
 
-### [NEO-90130](https://jira.corp.adobe.com/browse/NEO-90130) – 多言語プッシュ通知用の OOTB ファイルのアップロードを有効にします
-**ステータス：** 終了\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-13606](https://jira.corp.adobe.com/browse/DOCAC-13606) （新規）\
-**アクション：** DOCAC の更新
+### [NEO-90130](https://jira.corp.adobe.com/browse/NEO-90130) – 多言語プッシュ通知用の OOTB ファイルのアップロードを有効にします&#x200B;**ステータス：** 終了\**文書必須：** はい\**既存の DOCAC:** [DOCAC-13606](https://jira.corp.adobe.com/browse/DOCAC-13606) （新規）\**アクション：** DOCAC の更新
 
 **範囲：**
 - 多言語プッシュ通知用のファイルのアップロード（iOSおよびAndroid）
@@ -245,79 +201,55 @@ CSV 読み込みによる多言語プッシュ通知配信を作成するため�
 
 **コンテキスト：** 顧客主導（H&amp;M）、ACS から ACC へのパリティ、移行にとって重要
 
-**参照：**[ACS ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
+**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
----
+&#x200B;---
 
 ## ❌ 取り消し/適用停止
 
-### [NEO-91566](https://jira.corp.adobe.com/browse/NEO-91566) - webui でのCTA トラッキングのサポート
-**ステータス：** クローズ済み（適用されなくなりました）\
-**ドキュメントが必要：** いいえ\
-**既存の DOCAC:** [DOCAC-13821](https://jira.corp.adobe.com/browse/DOCAC-13821) （新規）\
-**アクション：** DOCAC を閉じる
+### [NEO-91566](https://jira.corp.adobe.com/browse/NEO-91566) - webui でのCTA トラッキングのサポート&#x200B;**ステータス：** クローズ済み（適用されなくなりました）\**ドキュメントが必要：** いいえ\**既存の DOCAC:** [DOCAC-13821](https://jira.corp.adobe.com/browse/DOCAC-13821) （新規）\**アクション：** DOCAC を閉じる
 
 **理由：** MSFT をサポートする新しい ACS 機能 – 開始されていません。MSFT からの情報は保留中です。UI は動作しません。
 
 **コンテキスト：** Microsoft固有の、CTA トラッキング要件
 
----
+&#x200B;---
 
-### [NEO-91564](https://jira.corp.adobe.com/browse/NEO-91564) - AEM多言語 UI のサポート
-**ステータス：** クローズ済み（適用されなくなりました）\
-**ドキュメントが必要：** いいえ\
-**既存の DOCAC:** [DOCAC-13822](https://jira.corp.adobe.com/browse/DOCAC-13822) （新規）\
-**アクション：** DOCAC を閉じる
+### [NEO-91564](https://jira.corp.adobe.com/browse/NEO-91564) - AEM多言語 UI のサポート&#x200B;**ステータス：** クローズ済み（適用されなくなりました）\**ドキュメントが必要：** いいえ\**既存の DOCAC:** [DOCAC-13822](https://jira.corp.adobe.com/browse/DOCAC-13822) （新規）\**アクション：** DOCAC を閉じる
 
 **理由：ヒマンシュのチームが運営する UI 作品（異説）**
 
 **コンテキスト：** Microsoft要件、転送された作業
 
----
+&#x200B;---
 
-### [NEO-91567](https://jira.corp.adobe.com/browse/NEO-91567) - NRT 機能のサポートを追加
-**ステータス：** 解決済み（適用されなくなりました）\
-**ドキュメントが必要：** いいえ\
-**既存の DOCAC:** [DOCAC-13824](https://jira.corp.adobe.com/browse/DOCAC-13824) （新規）\
-**アクション：** DOCAC を閉じる
+### [NEO-91567](https://jira.corp.adobe.com/browse/NEO-91567) - NRT 機能のサポートを追加&#x200B;**ステータス：** 解決済み（適用されなくなりました）\**ドキュメントが必要：** いいえ\**既存の DOCAC:** [DOCAC-13824](https://jira.corp.adobe.com/browse/DOCAC-13824) （新規）\**アクション：** DOCAC を閉じる
 
 **理由：** MSFT の新しい ACS 固有の機能 – 仕様は使用できますが、web UI には影響しません
 
 **コンテキスト：** Microsoft要件、トランザクションメッセージ
 
----
+&#x200B;---
 
-### [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563) - プロファイルベースのエンリッチメントのためのトランザクション Rest API
-**ステータス：** 解決済み（適用されなくなりました）\
-**ドキュメントが必要：** いいえ\
-**既存の DOCAC:** [DOCAC-13825](https://jira.corp.adobe.com/browse/DOCAC-13825) （新規）\
-**アクション：** DOCAC を閉じる
+### [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563) - プロファイルベースのエンリッチメントのためのトランザクション Rest API&#x200B;**ステータス：** 解決済み（適用されなくなりました）\**ドキュメントが必要：** いいえ\**既存の DOCAC:** [DOCAC-13825](https://jira.corp.adobe.com/browse/DOCAC-13825) （新規）\**アクション：** DOCAC を閉じる
 
 **理由：** Web UI が機能しません。アップグレードされたインスタンスが保留中です。リリースにはビルドのアップグレードが必須です
 
 **コンテキスト：** REST API エンドポイント機能
 
----
+&#x200B;---
 
-### [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) - プロファイルベースのエンリッチメントトランザクションメッセージフェーズ 2
-**ステータス：** 解決済み（適用されなくなりました）\
-**ドキュメントが必要：** いいえ\
-**既存の DOCAC:** [DOCAC-13823](https://jira.corp.adobe.com/browse/DOCAC-13823) （新規）\
-**アクション：** DOCAC を閉じる
+### [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) - プロファイルベースのエンリッチメントトランザクションメッセージフェーズ 2&#x200B;**ステータス：** 解決済み（適用されなくなりました）\**ドキュメントが必要：** いいえ\**既存の DOCAC:** [DOCAC-13823](https://jira.corp.adobe.com/browse/DOCAC-13823) （新規）\**アクション：** DOCAC を閉じる
 
 **理由：** ストーリーにタスクがなく、「適用されません」とマークされています
 
 **コンテキスト：** Microsoft要件、Europa プロジェクト
 
----
+&#x200B;---
 
 ## 🟢 ドキュメントの準備完了（AC-UI-25-11 から）
 
-### [NEO-90183](https://jira.corp.adobe.com/browse/NEO-90183) – 多言語リッチプッシュ - UI
-**ステータス：** 終了\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-13565](https://jira.corp.adobe.com/browse/DOCAC-13565) （新規）\
-**アクション：** DOCAC のレビュー
+### [NEO-90183](https://jira.corp.adobe.com/browse/NEO-90183) – 多言語リッチプッシュ - UI&#x200B;**ステータス：** 終了\**文書必須：** はい\**既存の DOCAC:** [DOCAC-13565](https://jira.corp.adobe.com/browse/DOCAC-13565) （新規）\**アクション：** DOCAC のレビュー
 
 **範囲：**
 - 多言語配信用のリッチなプッシュフィールド
@@ -331,13 +263,9 @@ CSV 読み込みによる多言語プッシュ通知配信を作成するため�
 
 **参考：** [Wiki](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=Rich+push+fields+in+multilingual)
 
----
+&#x200B;---
 
-### [NEO-84916](https://jira.corp.adobe.com/browse/NEO-84916) – 承認プロセスの設定と管理
-**状態：** 解決済み\
-**文書必須：** はい\
-**既存の DOCAC:** [DOCAC-13827](https://jira.corp.adobe.com/browse/DOCAC-13827) （新規）\
-**アクション：** DOCAC の更新
+### [NEO-84916](https://jira.corp.adobe.com/browse/NEO-84916) – 承認プロセスの設定と管理&#x200B;**状態：** 解決済み\**文書必須：** はい\**既存の DOCAC:** [DOCAC-13827](https://jira.corp.adobe.com/browse/DOCAC-13827) （新規）\**アクション：** DOCAC の更新
 
 **範囲：**
 - 配信/キャンペーンでの検証オペレーターの設定
@@ -350,9 +278,9 @@ CSV 読み込みによる多言語プッシュ通知配信を作成するため�
 
 **コンテキスト：** お客様指向（Pierre Fabre）、Microsoft要件、開発完了、テスト中
 
-**参考資料：**[Classic ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval)、[Figma mocks](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
+**参考資料：**&#x200B;[Classic ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval)、[Figma mocks](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
----
+&#x200B;---
 
 ## アクショ 📊 別の概要
 
@@ -364,7 +292,7 @@ CSV 読み込みによる多言語プッシュ通知配信を作成するため�
 | ❌ DOCAC を閉じる | 5 |
 | **合計** | **17** |
 
----
+&#x200B;---
 
 ## ⚠️ 未解決の質問
 
@@ -374,7 +302,7 @@ CSV 読み込みによる多言語プッシュ通知配信を作成するため�
 4. NEO-88838 - テーマ変数 – 保留中（アクライト機能のリビジョンが保留中）
 5. 動的レポート – 従来のレポートで競合指標の表示ガイダンスを明確にします。
 
----
+&#x200B;---
 
 ## 🔗 関連叙事詩
 
