@@ -50,7 +50,7 @@ ht-degree: 0%
 
 **コンテキスト：** 顧客主導（H&amp;M）、ACS から ACC へのパリティ要件
 
-**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
+**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
 &#x200B;---
 
@@ -134,7 +134,7 @@ Web 分析の統合により、web 分析プラットフォームに接続して
 
 **背景：** Microsoft要件、ヒマンシュのチームに移管された作業
 
-**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
+**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html?lang=ja)
 
 &#x200B;---
 
@@ -201,7 +201,7 @@ CSV 読み込みによる多言語プッシュ通知配信を作成するため�
 
 **コンテキスト：** 顧客主導（H&amp;M）、ACS から ACC へのパリティ、移行にとって重要
 
-**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
+**参照：**&#x200B;[ACS ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
 &#x200B;---
 
@@ -278,7 +278,7 @@ CSV 読み込みによる多言語プッシュ通知配信を作成するため�
 
 **コンテキスト：** お客様指向（Pierre Fabre）、Microsoft要件、開発完了、テスト中
 
-**参考資料：**&#x200B;[Classic ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval)、[Figma mocks](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
+**参考資料：**&#x200B;[Classic ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval)、[Figma mocks](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
 &#x200B;---
 
