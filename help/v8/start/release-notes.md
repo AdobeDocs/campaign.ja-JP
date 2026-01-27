@@ -3,9 +3,9 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e5e08dcd1813c8eba608ba3a7b659dcd6d98d985
+source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '697'
 ht-degree: 22%
 
 ---
@@ -28,13 +28,14 @@ _2026 年 1 月 27 日_
 
 このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
-* 多言語配信機能（GA）
-* トランザクションメッセージ（GA）でのプロファイルのエンリッチメント
-* Adobe Experience Managerのライブコピーと言語コピー
-* コンテンツ実験 – A/B テスト
-* 連続配信アクティビティ
+* [ 多言語配信機能（GA） ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [ トランザクションメッセージ（GA）でのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Managerのライブコピーと言語コピー ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [ コンテンツ実験 – A/B テスト ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html)
+* [ 連続配信アクティビティ ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html)
+* [ キャンペーン承認管理 ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html)
 
-Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign web UI[ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
 ### セキュリティの強化 {#security-8-9-1}
 

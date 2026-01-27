@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 92%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 100%
 
 本節では、トランザクションメッセージモジュールのスキーマに関連する SOAP メソッドの詳細を説明します。
 
-2 つの **PushEvent** または **PushEvents** SOAP メソッドは、2 つの **nms:rtEvent** と **nms:BatchEvent** データスキーマに関連付けられています。イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
+2 つの **PushEvent** または **PushEvents** SOAP メソッドは、2 つの **nms:rtEvent** および **nms:BatchEvent** データスキーマにリンクされています。 イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
 
 * **PushEvent** では、メッセージに 1 つのイベントを挿入することができ、
 * **PushEvents** では、メッセージに一連の複数のイベントを挿入することができます。
 
 両方のメソッドにアクセスする WSDL パスは：
 
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** で、リアルタイムタイプのスキーマにアクセスできます。
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** で、バッチタイプのスキーマにアクセスできます。
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** リアルタイムタイプのスキーマにアクセスします。
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** バッチ タイプ スキーマにアクセスします。
 
 どちらのメソッドにも、トランザクションメッセージモジュールにログオンするための **`<urn:sessiontoken>`** 要素が含まれています。信頼済み IP アドレス経由の識別方法を使用することをお勧めします。セッショントークンを取得するには、ログオン SOAP 呼び出しを実行してから、トークンを取得した後でログオフします。同じトークンを 複数の RT 呼び出しに使用します。この節に含まれる例では、推奨されるセッショントークン方式を使用しています。
 
@@ -100,13 +100,13 @@ PushEvents の使用例：
 </urn:PushEvents>
 ```
 
-**`<rtevent>`** 要素と **`<batchevent>`** 要素には、一連の属性に加え、必須の子要素として、メッセージデータ統合用の要素 **`<ctx>`** があります。
+**`<rtevent>`** 要素と **`<batchEvent>`** 要素には、一連の属性に加え、必須の子要素として、メッセージデータ統合用の要素 **`<ctx>`** があります。
 
 >[!NOTE]
 >
->**`<batchevent>`** 要素を使用すると、「バッチ」キューにイベントを追加できます。「リアルタイム」キューにイベントを追加するには、**`<rtevent>`** 要素を使用します。
+>**`<batchEvent>`** 要素を使用すると、「バッチ」キューにイベントを追加できます。「リアルタイム」キューにイベントを追加するには、**`<rtevent>`** 要素を使用します。
 
-**`<rtevent>`** 要素と **`<batchevent>`** 要素に必須の属性は、@type と @email です。@type の値は、実行インスタンスを設定した際に定義した項目別リストの値と同じである必要があります。この値で、配信の間、イベントの内容にリンクされるテンプレートを定義できます。
+**`<rtevent>`** 要素と **`<batchEvent>`** 要素に必須の属性は、@type と @email です。@type の値は、実行インスタンスを設定した際に定義した項目別リストの値と同じである必要があります。この値で、配信の間、イベントの内容にリンクされるテンプレートを定義できます。
 
 `<rtevent> configuration example:`
 
@@ -116,13 +116,13 @@ PushEvents の使用例：
 
 この例では、2 つのチャネルが指定されています。メールアドレスと携帯電話番号です。**wishedChannel** では、イベントをメッセージに変換する際に使用するチャネルを選択できます。値「0」はメールチャネルに、「1」はモバイルチャネルに対応します。
 
-イベントの配信を遅らせる場合には、**[!UICONTROL scheduled]** フィールドに続いて希望する日付を追加します。イベントは、指定した日付にメッセージに変換されます。
+イベントの配信を遅らせる場合には、**[!UICONTROL スケジュール済み]**&#x200B;フィールドに続いて希望する日付を追加します。イベントは、指定した日付にメッセージに変換されます。
 
 @wishedChannel と @emailFormat 属性には、数値を入力することをお勧めします。データスキーマの説明に、数値とラベルを関連付ける関数表が記載されています。
 
 >[!NOTE]
 >
->許可されているすべての属性とその値についての詳細は、**nms:rtEvent** および **nms:BatchEvent** データスキーマの説明に記載されています。
+>すべての承認済み属性とその値について詳しくは、**nms:rtEvent** および **nms:BatchEvent** データスキーマの説明を参照してください。
 
 **`<ctx>`** 要素には、メッセージデータを格納します。この XML コンテンツはオープンなので、配信するコンテンツに合わせて設定できます。
 
