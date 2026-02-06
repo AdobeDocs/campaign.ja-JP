@@ -27,7 +27,7 @@ ht-degree: 97%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。Campaign Managed Cloud Services について詳しくは、[ 製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。Campaign Managed Cloud Services について詳しくは、[&#x200B; 製品説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
@@ -59,7 +59,7 @@ v7 からの移行時にトランザクションメッセージの配達確認�
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成してデータをコピーするだけで、利用を開始できます。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-[!DNL Campaign] v8 アーキテクチャの詳細については、[ このページ ](../../v8/architecture/architecture.md) を参照してください。 テスト
+[!DNL Campaign] v8 アーキテクチャの詳細については、[&#x200B; このページ &#x200B;](../../v8/architecture/architecture.md) を参照してください。 テスト
 
 
 ## Adobe ID を使用して Campaign に接続{#adobe-id}
