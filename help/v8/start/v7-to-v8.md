@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 334b327c7798c78fcfa90e90afe04896959037eb
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 98%
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。Campaign Managed Cloud Services について詳しくは、[&#x200B; 製品説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。Campaign Managed Cloud Services について詳しくは、[ 製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
@@ -55,11 +55,11 @@ v7 からの移行時にトランザクションメッセージの配達確認�
 
 ## [!DNL Campaign] と [!DNL Snowflake] {#ac-gs-snowflake}
 
-[Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)では、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つは、ユーザーインターフェイスのリアルタイムメッセージング、単一クエリ、 API 経由での書き込みに使用するローカル [!DNL Campaign] データベース、もう 1 つは、キャンペーン実行、バッチクエリ、ワークフロー実行に使用するクラウド [!DNL Snowflake] データベースです。
+[Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)では、[!DNL Adobe Campaign] v8 は 2 つのデータベースと連携します。1 つは、ユーザーインターフェイスのリアルタイムメッセージング、単一クエリ、 API 経由での書き込みに使用するローカル [!DNL Campaign] データベース、もう 1 つは、キャンペーン実行、バッチクエリ、ワークフロー実行に使用するクラウド [!DNL Snowflake] データベースです。
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。テーブルを作成してデータをコピーするだけで、利用を開始できます。クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-[!DNL Campaign] v8 アーキテクチャについて詳しくは、[こちらのページ](../architecture/architecture.md)を参照してください。
+[!DNL Campaign] v8 アーキテクチャについて詳しくは、[こちらのページ](../../v8/architecture/architecture.md)を参照してください。
 
 
 ## Adobe ID を使用して Campaign に接続{#adobe-id}
@@ -76,7 +76,7 @@ Adobe Campaign キューブレポートは最適化されており、Campaign Cl
 
 ## 使用できない機能{#gs-unavailable-features}
 
-Campaign の [Enterprise（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、次のような一部の機能は利用できません。
+Campaign の [Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)のコンテキストでは、次のような一部の機能は利用できません。
 
 * マーケティングリソース管理
 * クーポン
