@@ -14,7 +14,7 @@ ht-degree: 93%
 
 # 製品ガードレール{#guardrails}
 
-使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Campaign Managed Cloud Services製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
+使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Campaign Managed Cloud Services製品説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} を参照してください。
 
 次に、[!DNL Adobe Campaign] を使用する際の追加のガードレールと制限を示します。
 
