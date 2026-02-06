@@ -3,10 +3,10 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
+source-git-commit: 981fa2029528cac5806da7c39aec3a2e6de0bf56
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 22%
+source-wordcount: '733'
+ht-degree: 21%
 
 ---
 
@@ -28,14 +28,14 @@ _2026 年 1 月 27 日_
 
 このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
-* [&#x200B; 多言語配信機能（GA） &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
-* [&#x200B; トランザクションメッセージ（GA）でのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
-* [Adobe Experience Managerのライブコピーと言語コピー &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ja){target="_blank"}
-* [&#x200B; コンテンツ実験 – A/B テスト &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ja)
-* [&#x200B; 連続配信アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ja)
-* [&#x200B; キャンペーン承認管理 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ja)
+* [ 多言語配信機能（GA） ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [ トランザクションメッセージ（GA）でのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Managerのライブコピーと言語コピー ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [ コンテンツ実験 – A/B テスト ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [ 連続配信アクティビティ ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [ キャンペーン承認管理 ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign web UI[ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
 ### セキュリティの強化 {#security-8-9-1}
 
@@ -84,3 +84,4 @@ Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleagu
 * FFDA デプロイメントの受信者テーブルでの最適化された低速クエリ。 （NEO-89268）
 * 増分クエリアクティビティで、設定されたスケジュールが無視される問題を修正しました。 （NEO-89317）
 * ハイブリッド環境でキャンペーンを開く際のアクセスエラーを解決しました。 （NEO-89320）
+* トラッキング統計にコンソールと比較して異なる値が表示される、Campaign web UI レポートの不一致を修正しました。 トラッキング指標、送信概要および URL クリックストリームのレポートに、両方のインターフェイスで一貫した指標が表示されるようになりました。 （NEO-82339）
