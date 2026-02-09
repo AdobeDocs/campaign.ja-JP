@@ -3,9 +3,9 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 4fe8b8eaf88f763e796dbe06ef3c1477de12bad6
+source-git-commit: f25b0a0fea5f32dd509d8b78e6f6a010d9598a9f
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '923'
 ht-degree: 18%
 
 ---
@@ -28,14 +28,14 @@ _2026 年 1 月 27 日_
 
 このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
-* [&#x200B; 多言語配信機能（GA） &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
-* [&#x200B; トランザクションメッセージ（GA）でのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
-* [Adobe Experience Managerのライブコピーと言語コピー &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ja){target="_blank"}
-* [&#x200B; コンテンツ実験 – A/B テスト &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ja){target="_blank"}
-* [&#x200B; 連続配信アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ja){target="_blank"}
-* [&#x200B; キャンペーン承認管理 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ja){target="_blank"}
+* [ 多言語配信機能（GA） ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [ トランザクションメッセージ（GA）でのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Managerのライブコピーと言語コピー ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [ コンテンツ実験 – A/B テスト ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [ 連続配信アクティビティ ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [ キャンペーン承認管理 ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign web UI[ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
 ### セキュリティの強化 {#security-8-9-1}
 
@@ -55,17 +55,17 @@ Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleagu
 * sysFilter が変更された後にデータベース構造を更新できない問題を修正しました。 （NEO-93306）
 * 移行後に動的レポートデータが欠落していた問題を修正しました。 （NEO-92962）
 * 配信ステータスが正しく更新されない問題を修正しました。 （NEO-92908）
-* Databricks FDA USE CATALOG 制限の回避策を追加しました。 （NEO-92900）
-* Outlook Windows デスクトップでビジュアルエディターがHTMLのレイアウトを壊す問題を修正しました。 （NEO-92611）
-* アップグレード後にミッドインスタンスで配信プライマリキーが重複していた、重大なデータ整合性の問題を解決しました。 （NEO-92424）
+* Databricks FDA のカタログを使用の制限に関連する問題を修正しました。 （NEO-92900）
+* Outlook Windows デスクトップでHTMLのレイアウトエラーが発生する可能性がある問題を修正しました。 （NEO-92611）
+* アップグレード後にミッドインスタンスで配信プライマリキーが重複していたデータ整合性の問題を修正しました。 （NEO-92424）
 * 配信のトラッキングと画像ダイアログボックスでリンクを無効にできない問題を修正しました。 （NEO-92381）
 * nms.subscribtion.RecipientSubscribe （）関数が一括購読で機能しない問題を修正しました。 （NEO-92308）
-* アップグレード後に配信部分が見つからないために配信エラーが発生していた問題を修正しました。 （NEO-92278）
-* トラッキングワークフローの問題を修正しました。 （NEO-92239）
-* ワークフローを使用してリストを作成した後、リスト XML に一時的な列挙参照が見つからない問題を解決しました。 （NEO-91158）
+* アップグレード後に、配信部分が見つからないことが原因で配信エラーが発生する問題を修正しました。 （NEO-92278）
+* トラッキングワークフローで、重複ステータスエラーと SQL 構文エラーが原因でトラッキング指標が更新されない問題を修正しました。 （NEO-92239）
+* dbEnum フィールドを使用する場合に、ワークフローを介して作成されたリストに列挙フィールドラベルが見つからないか、正しく表示されない問題を修正しました。 （NEO-91158）
 * RT 公開/非公開ダイアログが閉じずにフリーズしない問題を修正しました。 （NEO-91038）
-* 「サービスプロバイダーで受信済み」ステータスでスタックしていた受信者が Momentum に到達しない問題を修正しました。 （NEO-90927）
-* v8 でオプトアウトリンクの（解除）購読オリジンが欠落していた問題を修正しました。 （NEO-90714）
+* 「サービスプロバイダーで受信済み」ステータスの受信者で発生していた問題を修正しました。 （NEO-90927）
+* オプトアウトリンクの（解除）購読オリジンがない問題を修正しました。 （NEO-90714）
 * クーポンを追加すると配信の準備に失敗する問題を修正しました。 （NEO-90547）
 * 「監査」タブに「拒否数を挿入」が正確に反映されない問題を修正しました。 （NEO-90318）
 * アプリケーションのサービス拒否を引き起こす可能性があるセキュリティの問題を修正しました。 （NEO-89984）
@@ -75,20 +75,20 @@ Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleagu
 * PostgreSQL 15 で「char」フィールドを連結する際に発生していたエラーを修正しました。 （NEO-88028）
 * テンプレートを保存または複製する際に、配信テンプレート変数の順序が変更される問題を修正しました。 （NEO-87845）
 * 新しいデータライブラリスキーマを作成すると web インターフェイスがクラッシュする問題を修正しました。 （NEO-87816）
-* 重複排除アクティビティの補集合セットセグメントコードが機能しない問題を修正しました。 （NEO-87711）
-* X11 依存関係のないインストール パッケージの要求を解決しました。 （NEO-87471）
+* 重複排除アクティビティの補集合セットを含むの問題を修正しました。 （NEO-87711）
+* X11 依存関係のないインストールパッケージのリクエストを修正しました。 （NEO-87471）
 * セグメントコードが動的レポートで使用できない問題を修正しました。 （NEO-87276）
 * ワークフローがデータを更新アクティビティで停止していた問題を修正しました。 （NEO-87252）
 * BigQuery が誤ったタイムゾーンを使用していた問題を修正しました。 （NEO-86622）
-* スクリプト「mcSynch_mcExec1/jsReplicateUrl」の評価中に発生したJavaScript エラーを修正しました。 （NEO-86553）
-* 識別子の計算方法が原因で、重複したイベントが eventHisto テーブルに表示される問題を修正しました。 （NEO-86544）
+* 「mcSynch_mcExec1/jsReplicateUrl」スクリプトの評価中に発生したJavaScript エラーを修正しました。 （NEO-86553）
+* 識別子の計算方法が正しくないため、eventHisto テーブルに重複したイベントが表示される問題を修正しました。 （NEO-86544）
 * コピー時のiOS プッシュで「詳細」タブが表示されない問題を修正しました。 （NEO-86231）
 * 参照テーブルをレプリケート ワークフローで nms:delivery スキーマをレプリケートできない問題を修正しました。 （NEO-85884）
 * 配信の送信中にエラーログに MXIP アドレスに対応する null ドメインエラーが表示される問題を修正しました。 （NEO-85238）
-* オプションが変更された後にテクニカル配信テンプレートを更新する方法が追加されました。 （NEO-84149）
+* オプションを変更した後、テクニカル配信テンプレートが更新されない問題を修正しました。 （NEO-84149）
 * 標準の請求ワークフローのエラーを修正しました。 （NEO-83624）
-* ターゲットレコードのプライマリキーのみに基づく重複の除外の問題を解決しました。 （NEO-82910）
-* トラッキング統計にコンソールと比較して異なる値が表示される、Campaign web UI レポートの不一致を修正しました。 トラッキング指標、送信概要および URL クリックストリームのレポートに、両方のインターフェイスで一貫した指標が表示されるようになりました。 （NEO-82339）
+* ターゲットレコードのプライマリキーのみに基づいて重複を除外する問題を修正しました。 （NEO-82910）
+* トラッキング統計にコンソールと比較して異なる値が表示される、Campaign web UI レポートの不一致を修正しました。 （NEO-82339）
 * データを更新アクティビティでレコードを更新しない場合でも、最終変更日が変更される問題を修正しました。 （NEO-82002）
 * リストに新しい属性を追加すると、リストを読み取るワークフローが失敗する問題を修正しました。 （NEO-80258）
-* トラッキング指標レポートの異常値を解決しました。 （NEO-79466）
+* トラッキング指標レポートでユニーク開封数の値が正しく表示されない問題を修正しました。 （NEO-79466）
