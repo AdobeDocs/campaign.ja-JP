@@ -3,9 +3,9 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: f25b0a0fea5f32dd509d8b78e6f6a010d9598a9f
+source-git-commit: c7f1edc27a7e09a3a7da172af1df7de01118c516
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '958'
 ht-degree: 18%
 
 ---
@@ -28,18 +28,19 @@ _2026 年 1 月 27 日_
 
 このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
-* [&#x200B; 多言語配信機能（GA） &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
-* [&#x200B; トランザクションメッセージ（GA）でのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
-* [Adobe Experience Managerのライブコピーと言語コピー &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ja){target="_blank"}
-* [&#x200B; コンテンツ実験 – A/B テスト &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ja){target="_blank"}
-* [&#x200B; 連続配信アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ja){target="_blank"}
-* [&#x200B; キャンペーン承認管理 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ja){target="_blank"}
+* [ 多言語配信機能（GA） ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [ トランザクションメッセージ（GA）でのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Managerのライブコピーと言語コピー ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [ コンテンツ実験 – A/B テスト ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [ 連続配信アクティビティ ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [ キャンペーン承認管理 ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign web UI[ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
 ### セキュリティの強化 {#security-8-9-1}
 
 * Snowflake外部アカウントで OAuth2 認証がサポートされ、federated data access 接続に最新の安全な認証方法が提供されるようになりました。 （NEO-87013）
+* Databricks 外部アカウントは、サービスプリンシパル（非インタラクティブクライアント資格情報フロー）を介した OAuth2 認証をサポートするようになり、Federated Data Access 接続に安全な認証方法を提供します。 インタラクティブ OAuth2 認証は、今後のリリースで使用できるようになります。 （NEO-87422）
 * 許可されたディレクトリへの操作を制限し、不正なアクセスやリモートコードの実行を防ぐことで、ワークフローファイルのアクセスの脆弱性を修正しました。 （NEO-88460）
 * ワークフローJavaScript コードアクティビティにコントロールを許可リストに加えるする FTP URL を追加し、送信 FTP 接続を許可されたアドレスのみに制限しました。 （NEO-89083）
 
