@@ -5,10 +5,10 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: a0aadd7e991dcceb5646f0afbc9cb1534e459e2c
+source-git-commit: 776a0e5eead9161b7e2c9d7746c72cba42ea42cb
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 66%
+source-wordcount: '1376'
+ht-degree: 67%
 
 ---
 
@@ -99,21 +99,21 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 >[!NOTE]
 >
->Adobe Campaign v8 と互換性のある外部データベースは、[&#x200B; 互換性マトリックス &#x200B;](../start/compatibility-matrix.md) に記載されています。 FDA 接続では ODBC ドライバーを使用します。Adobe Campaign Managed Cloud Servicesでは、ODBC ドライバーと外部アカウントの設定はAdobeによって設定されます。
+>Adobe Campaign v8 と互換性のある外部データベースは、[ 互換性マトリックス ](../start/compatibility-matrix.md) に記載されています。 FDA 接続では ODBC ドライバーを使用します。Adobe Campaign Managed Cloud Servicesでは、ODBC ドライバーと外部アカウントの設定はAdobeによって設定されます。
 
-外部アカウントの設定は、データベースエンジンによって異なります。 Adobe Campaign Managed Cloud Servicesでは、外部アカウントの設定はAdobeによって実行されます。 この設定について詳しくは、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"} を参照してください。
+外部アカウントの設定は、データベースエンジンによって異なります。 Adobe Campaign Managed Cloud Servicesでは、外部アカウントの設定はAdobeによって実行されます。 この設定について詳しくは、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"} を参照してください。
 
 #### Databricks 外部アカウント {#databricks-external-accounts}
 
 Databricks FDA 接続は、Databricks ODBC ドライバーを使用します。 Campaign v8.9.1 以降、Databricks 外部アカウントは、サービスプリンシパル（非インタラクティブクライアント資格情報フロー）を介した OAuth2 認証をサポートし、Federated Data Access の安全な認証を提供します。
 
-サービスプリンシパルについて詳しくは、[Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals){target="_blank"} を参照してください。
+サービスプリンシパルについて詳しくは、[Microsoft ドキュメント ](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals){target="_blank"} を参照してください。
 
 Campaign でサービスプリンシパルを介して OAuth2 認証を設定するには：
 
 1. Databricks ワークスペース管理者は、Databricks ワークスペースのサービス プリンシパルを有効にし、資格情報を生成します。 OAuth を使用してAzure Databricks リソースへのアクセスを認証するには、OAuth 秘密鍵を作成します（認証用の OAuth アクセストークンを生成するために使用）。
 2. Adobe Campaignで、Databricks 外部アカウントを作成または編集し、「**OAuth**」タブを開きます。
-3. 資格情報を Databricks 外部アカウントの「OAuth」タブの **秘密鍵** フィールドに貼り付けます。
+3. Databricks 外部アカウントの「OAuth」タブのフィールドに資格情報を貼り付けます。
 4. **[!UICONTROL 接続をテスト]** を使用して、設定を検証します。
 
 ### X（旧 Twitter） {#twitter-external-account}
@@ -126,7 +126,7 @@ Campaign でサービスプリンシパルを介して OAuth2 認証を設定す
 
 * **Web 分析** - **[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントは、Adobe Analytics から Adobe Campaign へのデータ転送を設定するために使用します。Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
-* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。Adobe CampaignとAdobe Experience Managerの統合について詳しくは、[&#x200B; このページ &#x200B;](../connect/ac-aem.md) を参照してください。
+* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。Adobe CampaignとAdobe Experience Managerの統合について詳しくは、[ このページ ](../connect/ac-aem.md) を参照してください。
 
 
 ## CRM コネクタの外部アカウント {#crm-external-accounts}
