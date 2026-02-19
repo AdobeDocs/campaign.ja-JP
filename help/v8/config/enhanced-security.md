@@ -1,19 +1,21 @@
 ---
 title: Campaign セキュリティ強化アドオン
-description: Campaign セキュリティ強化アドオンの基本を学ぶ
+description: Campaign セキュリティ強化アドオンのセキュリティで保護された設定ガイダンス
 feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
+source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 97%
+source-wordcount: '743'
+ht-degree: 94%
 
 ---
 
 
 # Campaign セキュリティ強化アドオン {#enhanced-security}
+
+このページは、Adobe v8 向けの Campaign [ 公開されている推奨されるセキュア設定ガイダンス ](security.md#public-guidance) の一部です。
 
 ネットワーク接続とリソースのセキュリティを強化するために、[!DNL Adobe Campaign] では新しい&#x200B;**セキュリティ強化**&#x200B;アドオンが提供されています。
 
@@ -124,7 +126,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 * HiveSQL による Hadoop
 * PostgreSQL
 
-クラウドデータベースがサポートされています。 [&#x200B; 互換性マトリックス &#x200B;](../start/compatibility-matrix.md#FederatedDataAccessFDA) を参照してください。
+クラウドデータベースがサポートされています。 [ 互換性マトリックス ](../start/compatibility-matrix.md#FederatedDataAccessFDA) を参照してください。
 
 >[!NOTE]
 >
