@@ -101,7 +101,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 >
 >Adobe Campaign v8 と互換性のある外部データベースは、[&#x200B; 互換性マトリックス &#x200B;](../start/compatibility-matrix.md) に記載されています。 FDA 接続では ODBC ドライバーを使用します。Adobe Campaign Managed Cloud Servicesでは、ODBC ドライバーと外部アカウントの設定はAdobeによって設定されます。
 
-外部アカウントの設定は、データベースエンジンによって異なります。 Adobe Campaign Managed Cloud Servicesでは、外部アカウントの設定はAdobeによって実行されます。 この設定について詳しくは、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"} を参照してください。
+外部アカウントの設定は、データベースエンジンによって異なります。 Adobe Campaign Managed Cloud Servicesでは、外部アカウントの設定はAdobeによって実行されます。 この設定について詳しくは、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"} を参照してください。
 
 #### Databricks 外部アカウント {#databricks-external-accounts}
 
