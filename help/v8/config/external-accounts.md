@@ -99,15 +99,15 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「**[!UI
 
 >[!NOTE]
 >
->Adobe Campaign v8 と互換性のある外部データベースは、[ 互換性マトリックス ](../start/compatibility-matrix.md) に記載されています。 FDA 接続では ODBC ドライバーを使用します。Adobe Campaign Managed Cloud Servicesでは、ODBC ドライバーと外部アカウントの設定はAdobeによって設定されます。
+>Adobe Campaign v8 と互換性のある外部データベースは、[&#x200B; 互換性マトリックス &#x200B;](../start/compatibility-matrix.md) に記載されています。 FDA 接続では ODBC ドライバーを使用します。Adobe Campaign Managed Cloud Servicesでは、ODBC ドライバーと外部アカウントの設定はAdobeによって設定されます。
 
-外部アカウントの設定は、データベースエンジンによって異なります。 Adobe Campaign Managed Cloud Servicesでは、外部アカウントの設定はAdobeによって実行されます。 この設定について詳しくは、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"} を参照してください。
+外部アカウントの設定は、データベースエンジンによって異なります。 Adobe Campaign Managed Cloud Servicesでは、外部アカウントの設定はAdobeによって実行されます。 この設定について詳しくは、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"} を参照してください。
 
 #### Databricks 外部アカウント {#databricks-external-accounts}
 
 Databricks FDA 接続は、Databricks ODBC ドライバーを使用します。 Campaign v8.9.1 以降、Databricks 外部アカウントは、サービスプリンシパル（非インタラクティブクライアント資格情報フロー）を介した OAuth2 認証をサポートし、Federated Data Access の安全な認証を提供します。
 
-サービスプリンシパルについて詳しくは、[Microsoft ドキュメント ](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals){target="_blank"} を参照してください。
+サービスプリンシパルについて詳しくは、[Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals){target="_blank"} を参照してください。
 
 Campaign でサービスプリンシパルを介して OAuth2 認証を設定するには：
 
@@ -120,13 +120,13 @@ Campaign でサービスプリンシパルを介して OAuth2 認証を設定す
 
 Snowflake FDA 接続は、Snowflake ODBC ドライバーを使用します。 Campaign v8.9.1 以降、Snowflake外部アカウントは、OAuth2 認証をサポートし、Federated Data Access の安全な認証を提供します。
 
-Snowflakeでの OAuth について詳しくは、[Snowflake ドキュメント ](https://docs.snowflake.com/en/user-guide/oauth-intro){target="_blank"} を参照してください。
+Snowflakeでの OAuth について詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/user-guide/oauth-intro){target="_blank"} を参照してください。
 
 まず、Snowflakeで次の手順を実行する必要があります。
 
 1. Oauth 2.0 を使用してSnowflake外部アカウントを設定する前に、まずSnowflakeで OAuth セキュリティ統合を作成する必要があります。 **ACCOUNTADMIN** ロールは、セキュリティ統合を作成するために必要です。
 
-   OAuth セキュリティ統合の作成について詳しくは、[Snowflake ドキュメント ](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration-oauth-snowflake){target="_blank"} を参照してください。
+   OAuth セキュリティ統合の作成について詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration-oauth-snowflake){target="_blank"} を参照してください。
 
 1. その後、次を使用してクライアント ID およびクライアント秘密鍵をクエリできます。
 
@@ -140,7 +140,7 @@ Campaign で OAuth2 認証を設定するには、次の手順に従います。
 
 1. サーバー、データベース、スキーマを設定し、「**[!UICONTROL OAuth]**」タブを開きます。
 
-1. 「**[!UICONTROL クライアント ID]**」、「**[!UICONTROL クライアントシークレット]**」および「**[!UICONTROL リダイレクト URL]**」セキュリティ統合パラメーターを設定します。 これらのパラメーターは、Snowflake OAuth Security Integration から取得されます。 [Snowflake ドキュメント ](https://docs.snowflake.com/en/user-guide/oauth-custom){target="_blank"} を参照してください。
+1. 「**[!UICONTROL クライアント ID]**」、「**[!UICONTROL クライアントシークレット]**」および「**[!UICONTROL リダイレクト URL]**」セキュリティ統合パラメーターを設定します。 これらのパラメーターは、Snowflake OAuth Security Integration から取得されます。 [Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/user-guide/oauth-custom){target="_blank"} を参照してください。
 
 1. **[!UICONTROL ログインに進む]** をクリックして、手動ログインを実行します。 新しいブラウザーウィンドウが開き、Snowflake ユーザー資格情報を入力するよう求められます。
 
@@ -160,7 +160,7 @@ Campaign で OAuth2 認証を設定するには、次の手順に従います。
 
 * **Web 分析** - **[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントは、Adobe Analytics から Adobe Campaign へのデータ転送を設定するために使用します。Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
-* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。Adobe CampaignとAdobe Experience Managerの統合について詳しくは、[ このページ ](../connect/ac-aem.md) を参照してください。
+* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。Adobe CampaignとAdobe Experience Managerの統合について詳しくは、[&#x200B; このページ &#x200B;](../connect/ac-aem.md) を参照してください。
 
 
 ## CRM コネクタの外部アカウント {#crm-external-accounts}
