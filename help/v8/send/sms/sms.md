@@ -5,10 +5,10 @@ feature: SMS
 role: User, Developer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 85%
+source-wordcount: '175'
+ht-degree: 92%
 
 ---
 
@@ -23,12 +23,11 @@ Adobe Campaign を使用してモバイルデバイスに SMS を配信するに
 
 * この外部アカウントに正しくリンクされている SMS 配信テンプレート。
 
+Adobe Campaignは、顧客に SMS メッセージを送信するために使用される 2 つの SMS コネクタをサポートしています。 [詳細情報](sms-connectors.md)。
 
 >[!NOTE]
 >
 >また、Adobe Campaign を使用して、[プッシュ通知](../push.md)および [LINE](../line/line.md) メッセージをモバイルデバイスに送信することもできます。
->
-> 従来の SMS コネクタを使用している顧客の場合、既存の実装は引き続きサポートされます。 ただし、新しいコネクタに移動することをお勧めします。 移行をご希望の場合は、Adobeにお問い合わせください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

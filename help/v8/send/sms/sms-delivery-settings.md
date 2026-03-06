@@ -5,20 +5,14 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 95%
+source-wordcount: '791'
+ht-degree: 100%
 
 ---
 
 # SMS 配信設定 {#sms-settings}
-
->[!AVAILABILITY]
->
->この機能は、すべての Campaign FDA 環境で使用できます。 Campaign FFDA デプロイメントでは使用できませ **&#x200B;**。 このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [&#x200B; テクニカルノート &#x200B;](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
->
->以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 
 SMS 配信に必要な技術的な設定を以下に示します。
 
@@ -53,11 +47,11 @@ SMS 配信に必要な技術的な設定を以下に示します。
 
 * **[!UICONTROL 送信モード]**
 
-  このフィールドは、送信する SMS の種類（携帯電話または SIM カードに保存されている通常または Flash メッセージ）を示します。この設定は、SUBMIT_SM PDU の dest_addr_subunit オプションフィールドに送信されます。
+  このフィールドは、送信する SMS の種類を次のように示します。通常または Flash メッセージ、モバイルまたは SIM カードに保存。この設定は、SUBMIT_SM PDU の dest_addr_subunit オプションフィールドに送信されます。
 
-   * 「**Flash**」の場合、値を 1 に設定します。携帯電話上でポップアップ表示され、メモリには保存されない Flash メッセージを送信します。
+   * 「**Flash**」の場合、値を 1 に設定します。モバイル上でポップアップ表示され、メモリには保存されない Flash メッセージを送信します。
    * 「**通常**」の場合、値を 0 に設定します。通常のメッセージを送信します。
-   * 「**携帯電話に保存**」の場合、値を 2 に設定します。SMS を内部メモリに保存するよう電話に指示します。
+   * 「**モバイルに保存**」の場合、値を 2 に設定します。SMS を内部メモリに保存するよう電話に指示します。
    * 「**ターミナルに保存**」の場合、値を 3 に設定します。SIM カードに SMS を格納するよう電話に指示します。
 
 * **[!UICONTROL 優先度、通信タイプ]**

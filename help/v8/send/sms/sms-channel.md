@@ -5,20 +5,14 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 97%
+source-wordcount: '1343'
+ht-degree: 100%
 
 ---
 
 # SMS チャネルの特性 {#sms-channel}
-
->[!AVAILABILITY]
->
->この機能は、すべての Campaign FDA 環境で使用できます。 Campaign FFDA デプロイメントでは使用できませ **&#x200B;**。 このドキュメントは、Adobe Campaign v8.7.2 以降に適用されます。 従来の SMS コネクタから新しい SMS コネクタに切り替えるには、この [&#x200B; テクニカルノート &#x200B;](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"} を参照してください
->
->以前のバージョンについて詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 
 ## SMS の種類 {#sms-types}
 
@@ -26,7 +20,7 @@ SMS プロバイダー経由で SMS を送信する場合、次の 3 種類の S
 
 * **SMS MT（Mobile Terminated：モバイル着信）**：Adobe Campaign が SMPP プロバイダーを通じて携帯電話に向けて発信する SMS です。
 * **SMS MO（Mobile Originated：モバイル発信）**：携帯電話から SMPP プロバイダー経由で Adobe Campaign に送信される SMS です。
-* **SMS SR（ステータスレポート）、DR または DLR（配信受信）**：SMS が正常に受信されたことを示す、SMPP プロバイダーを通じて Adobe Campaign に携帯電話から送信される返信確認メッセージです。Adobe Campaign は、メッセージが配信できなかったことを示す SR を受け取る場合もあります。多くの場合、エラーの説明が記載されています。
+* **SMS SR（ステータスレポート）、DR または DLR（配信受信）**：SMS が正常に受信されたことを示す、SMPP プロバイダーを通じて Adobe Campaign にモバイルから送信される返信確認メッセージです。Adobe Campaign は、メッセージが配信できなかったことを示す SR を受け取る場合もあります。多くの場合、エラーの説明が記載されています。
 
 確認応答（RESP PDU、SMPP プロトコルの一部）と SR を区別する必要があります。SR は、ネットワークのエンドツーエンドを通じて送信される SMS の一種で、確認応答は、1 回の転送が成功したことを確認するだけのものです。
 
@@ -54,7 +48,7 @@ SMS は、テキストよりも多くの情報を伝送します。SMS によっ
 
 SMS メッセージは、特殊な 7 ビットエンコーディングを使用します。通常、GSM7 エンコーディングと呼ばれます。Wikipedia には、[これに関する優れた記事（英語版の GSM 03.38）](https://en.wikipedia.org/wiki/GSM_03.38)があります。
 
-SMPP プロトコルでは、トラブルシューティングを容易にするために、GSM7 のテキストが 1 文字あたり 8 ビットに拡張されます。SMSC は、携帯電話に送信される前に、1 文字あたり 7 ビットにパックします。つまり、SMS の short_message フィールドの長さは SMPP フレームで最大 160 バイトになりますが、モバイルネットワークで送信される場合は 140 バイトに制限されます（最上位ビットは単に破棄されます）。
+SMPP プロトコルでは、トラブルシューティングを容易にするために、GSM7 のテキストが 1 文字あたり 8 ビットに拡張されます。SMSC は、モバイルに送信される前に、1 文字あたり 7 ビットにパックします。つまり、SMS の short_message フィールドの長さは SMPP フレームで最大 160 バイトになりますが、モバイルネットワークで送信される場合は 140 バイトに制限されます（最上位ビットは単に破棄されます）。
 
 エンコードの問題が発生した場合は、次の点を確認してください。
 * まず、どの文字がどのエンコードに属するのかを把握しておくようにします。GSM7 は、一部の読み分け符号（アクセント）をサポートしていないことで有名です。フランス語の場合、é と è が GSM7 に含まれますが、ê、â、ï は含まれません。スペイン語も同じです。
