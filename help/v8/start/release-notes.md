@@ -3,9 +3,9 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3ce922319646fae03ad7f6757ffdd94804120144
+source-git-commit: 3256a2c57e3ccfec40dde33a2daaccbc3ff57b9b
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1108'
 ht-degree: 18%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 ## リリース 8.9.2 {#release-8-9-2}
 
-_2026 年 3 月 9 日_
+_2026 年 3 月 11 日_
 
 >[!CAUTION]
 >
@@ -31,6 +31,8 @@ _2026 年 3 月 9 日_
 * データタイプコンバージョンの問題が原因で、トランザクションイベントのイベント日付が正しく設定されず、動的レポートで誤った日付が発生する問題を修正しました。 （NEO-93923）
 * タイトルと本文のフィールドが空の場合に、配信の準備中にAndroidとiOSのサイレントプッシュ通知が失敗する問題を修正しました。 （NEO-93739）
 * 紐付けキーが正しくないため、Android アプリ登録トークンの言語フィールドが取得されない問題を修正しました。 （NEO-93100）
+* 頻度ルールを使用してカスタムタイポロジルールを適用した場合に、配信の準備が失敗する問題を修正しました。 （NEO-94457）
+* クライアントコンソールで HTTP リクエストの処理に失敗する可能性がある問題を修正しました。 （NEO-94071）
 
 ## リリース 8.9.1 {#release-8-9-1}
 
@@ -46,14 +48,14 @@ _2026 年 1 月 27 日_
 
 このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
-* [&#x200B; 多言語配信機能（GA） &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
-* [&#x200B; トランザクションメッセージ（GA）でのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
-* [Adobe Experience Managerのライブコピーと言語コピー &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ja){target="_blank"}
-* [&#x200B; コンテンツ実験 – A/B テスト &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ja){target="_blank"}
-* [&#x200B; 連続配信アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ja){target="_blank"}
-* [&#x200B; キャンペーン承認管理 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ja){target="_blank"}
+* [ 多言語配信機能（GA） ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [ トランザクションメッセージ（GA）でのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Managerのライブコピーと言語コピー ](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [ コンテンツ実験 – A/B テスト ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [ 連続配信アクティビティ ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [ キャンペーン承認管理 ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign web UI[ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
 
 ### セキュリティの強化 {#security-8-9-1}
 
