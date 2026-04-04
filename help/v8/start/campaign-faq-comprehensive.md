@@ -1837,7 +1837,7 @@ Adobeのサポートチームにお問い合わせいただき、インスタン
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - サポートケースを記録し、ユーザーを管理します
 * **[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - サポートチームにお問い合わせください
 * **[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}** - Campaign インスタンス設定の管理
-* **[システムステータス &#x200B;](https://status.adobe.com/){target="_blank"}** - Adobe サービスステータスの確認
+* **[システムステータス &#x200B;](https://status.adobe.com/ja-jp/){target="_blank"}** - Adobe サービスステータスの確認
 
 ### トレーニングと資格認定
 
