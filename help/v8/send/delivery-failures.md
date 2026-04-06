@@ -715,7 +715,7 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **解決策**: ワークフローと配信コンテンツを確認して、問題のテーブルを呼び出そうとしているパーソナライゼーションを具体的に判断します。 次に、HTMLのこのテーブルへの呼び出しを削除するか、配信へのマッピングを修正します。
 
-パーソナライゼーションの詳細については、[このセクション ](personalize.md)を参照してください。
+パーソナライゼーションの詳細については、[このセクション &#x200B;](personalize.md)を参照してください。
 
 ### 複数のパーソナライゼーション値のエラー {#multiple-values-error}
 
@@ -727,7 +727,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **原因**：電子メール内に、受信者に対して複数の値を持つパーソナライゼーションフィールドまたはブロックがあります。 パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
 
-**解決策**：使用されているパーソナライゼーションデータを確認し、いずれかのフィールドに複数のエントリがある受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]** アクティビティを使用して、一度に1つのパーソナライゼーションフィールドのみを確認することもできます。 重複排除について詳しくは、[ ワークフローのドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"}を参照してください。
+**解決策**：使用されているパーソナライゼーションデータを確認し、いずれかのフィールドに複数のエントリがある受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]** アクティビティを使用して、一度に1つのパーソナライゼーションフィールドのみを確認することもできます。 重複排除について詳しくは、[&#x200B; ワークフローのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"}を参照してください。
 
 ### 自動返信の処理 {#auto-reply-handling}
 
@@ -743,12 +743,12 @@ Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 
 ## 関連トピック
 
-[配信ステータス ](delivery-statuses.md)は、配信がライフサイクル中に持つことができる様々なステータスについて説明します。
+[配信ステータス &#x200B;](delivery-statuses.md)は、配信がライフサイクル中に持つことができる様々なステータスについて説明します。
 
-[ キャンペーン UI](delivery-dashboard.md)の配信を監視すると、配信ダッシュボードを使用して配信パフォーマンスを追跡し、問題を診断するためのガイダンスが提供されます。
+[&#x200B; キャンペーン UI](delivery-dashboard.md)の配信を監視すると、配信ダッシュボードを使用して配信パフォーマンスを追跡し、問題を診断するためのガイダンスが提供されます。
 
 [強制隔離の管理](quarantines.md)では、Campaignが強制隔離されたアドレスを管理して、送信レピュテーションを保護する方法について説明します。
 
 [配信品質の監視](monitoring-deliverability.md)は、配信品質と送信者のレピュテーションの維持に関するガイダンスを提供します。
 
-[配信のベストプラクティス ](../start/delivery-best-practices.md)では、Campaignで配信を作成および送信するためのベストプラクティスについて説明します。
+[配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md)では、Campaignで配信を作成および送信するためのベストプラクティスについて説明します。
