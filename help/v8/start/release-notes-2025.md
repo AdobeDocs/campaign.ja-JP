@@ -1,9 +1,9 @@
 ---
 title: Campaign v8（コンソール）2025 リリースノート
-description: Campaign v8 2025 リリースで記載される機能および改善点のリスト
+description: 2025 Campaign v8 リリースに付属する機能と改善点の一覧
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-source-git-commit: 981fa2029528cac5806da7c39aec3a2e6de0bf56
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '3477'
 ht-degree: 33%
@@ -12,9 +12,9 @@ ht-degree: 33%
 
 # 2025 リリースノート {#2025-rn}
 
-このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。最新リリースについては、[&#x200B; このページ &#x200B;](release-notes.md) を参照してください。
+このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。最新リリースについては、[このページ ](release-notes.md)を参照してください。
 
-新規の実装または既存の環境へのアップグレードについては、[&#x200B; 最新リリース &#x200B;](release-notes.md) をインストールします。
+新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース ](release-notes.md)をインストールします。
 
 >[!BEGINSHADEBOX]
 
@@ -39,37 +39,37 @@ _2025年10月9日_
 
 ### 新機能 {#features-8-8-2}
 
-**Campaign FFDA デプロイメント** で [&#x200B; 新規 SMS 送信コネクタ &#x200B;](../architecture/enterprise-deployment.md) を使用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
+**新しいSMS送信コネクタ**&#x200B;が、[Campaign FFDA デプロイメント ](../architecture/enterprise-deployment.md)で利用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
 
-このリリースには、Campaign web ユーザーインターフェイスで使用できる一連の機能も付属しています。
+このリリースには、Campaign Web ユーザーインターフェイスで使用できる一連の機能も搭載されています。
 
-* [&#x200B; トランザクションメッセージでのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
-* [&#x200B; トランザクションメッセージ、プッシュ通知、SMS の多言語機能 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
+* [ トランザクションメッセージのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [ トランザクションメッセージ、プッシュ通知、およびSMSの多言語機能](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
-Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### 修正点 {#fixes-8-8-2}
 
 <!--
 * Fixed an issue which prevented dynamic reporting from being available for transactional messages.
 -->
-* データベースクリーンアップワークフローが失敗する可能性がある問題を修正しました。 （NEO-87949）
-* 分散型マーケティングにおいて、共同キャンペーン配信のトラッキングデータが記録されない問題を修正しました。 （NEO-86836）
+* データベースのクリーンアップワークフローが失敗する可能性がある問題を修正しました。 （NEO-87949）
+* 協調キャンペーン配信のトラッキングデータが記録されない分散マーケティングの問題を修正しました。 （NEO-86836）
 <!--
 * Issue SMS2.0 with FFDA Continuous Deliveries (NEO-88785)
 -->
-* フラグメント内のパーソナライゼーションが正しく機能しない可能性がある問題を修正しました。 （NEO-88161）
-* 新しい Redshift ODBC コネクタに移行した後、分割ワークフローアクティビティが SQL エラーで失敗する可能性がある問題を修正しました。 （NEO-87466）
+* フラグメントのパーソナライゼーションが正しく機能しない可能性がある問題を修正しました。 （NEO-88161）
+* 新しいRedshift ODBC コネクタに移行した後、分割ワークフローアクティビティがSQL エラーで失敗する可能性がある問題を修正しました。 （NEO-87466）
 * ワークフローで不正確な除外数が発生する可能性がある問題を修正しました。 （NEO-89207）
-* プッシュ通知のクリック指標が不正確になる可能性がある問題を修正しました。 （NEO-89503）
-* SMS 配信ログが正しく更新されず、Adobe Campaignで正確なステータスレポートを実行できない問題を修正しました。 （NEO-88479）
+* プッシュ通知のクリックインジケーターが不正確になる可能性がある問題を修正しました。 （NEO-89503）
+* Adobe CampaignでSMS配信ログが正しく更新されず、正確なステータスレポートが表示されない問題を修正しました。 （NEO-88479）
 * 配信コンテンツでフランス語の引用符が誤って英語の引用符に変換される問題を修正しました。 （NEO-89631）
-* 代わりに、リアルタイムサーバーが無効な IMS トークンに対して誤った応答コードを返した問題を修正しました。 （NEO-87428）
-* メールと SMS の配信統計が完全に再計算されなかったので、成功インジケーターが不正確になる問題を修正しました。 （NEO-88106）
-* 新しい SMS 送信コネクタで、配信ログがメッセージの小さなサブセットに対して配信ステータスを誤って割り当てていた問題を修正しました。 （NEO-89581）
-* 新しい SMS 送信コネクタで、マーケティングサーバーとミッドサーバーの両方で成功指標の配信が正しく更新されない問題を修正しました。 （NEO-89850）
-* リアルタイムインスタンスとマーケティングインスタンス間の同期の問題を修正しました。トラッキングログが見つからず、レポートが正しく作成されませんでした。 （NEO-90247）
-* カスタムスキーマの連続した 1 対 N リンクのフィールドを選択する際にエラーが発生する可能性があるワークフローエンリッチメントの問題を修正しました。 （NEO-87682）
+* Real-Time Serverが無効なIMS トークンに対して誤った応答コードを返す問題を修正しました。 （NEO-87428）
+* 電子メールとSMSの配信統計が完全に再計算されず、不正確な成功指標が発生する問題を修正しました。 （NEO-88106）
+* 新しいSMS送信コネクタで、配信ログがメッセージの小さなサブセットに対して配信ステータスを誤って割り当てていた問題を修正しました。 （NEO-89581）
+* 新しいSMS送信コネクタで、マーケティングサーバーとミッドサーバーの両方で成功指標の配信が正しく更新されない問題を修正しました。 （NEO-89850）
+* トラッキングログの欠落や誤ったレポートの原因となる、Real-Time インスタンスとマーケティングインスタンス間の同期の問題を修正しました。 （NEO-90247）
+* カスタムスキーマで2つの連続する1-N リンク間でフィールドを選択する際にエラーが発生する可能性があるワークフローの強化の問題を修正しました。 （NEO-87682）
 
 ## リリース 8.8.1 {#release-8-8-1}
 
@@ -77,197 +77,197 @@ _2025年7月9日（PT）_
 
 ### 新機能 {#features-8-8-1}
 
-以前は、一部のお客様に対してリリースされていましたが、現在は、すべての Campaign FDA 環境で次の機能を使用できます。
+以前は一部のユーザー向けにリリースされていましたが、すべてのCampaign FDA環境で次の機能を利用できるようになりました。
 
-* **新しい SMS 送信コネクタ** - SMS 送信コネクタが最新化および改善され、トランシーバーモードの SMPP 接続の有効化、永続的な SMPP 接続の有効化、さらに互換性の向上が図られています。 すべての新しい SMS 実装で、新しい SMS 外部アカウントが利用できるようになりました。既存の実装は引き続きサポートされますが、この新しい最新の拡張コネクタに移行することをお勧めします。 新しいコネクタに移行する場合は、Adobeにお問い合わせください。 [詳細情報](../send/sms/sms.md)
+* **新しいSMS送信コネクタ** - SMS送信コネクタが近代化および改善され、トランシーバーモード SMPP接続を有効にし、永続的なSMPP接続を有効にし、より優れた互換性を確保できるようになりました。 すべての新しい SMS 実装で、新しい SMS 外部アカウントが利用できるようになりました。既存の実装は引き続きサポートされますが、この新しい最新および拡張コネクタに移行することをお勧めします。 新しいコネクタに移行する場合は、Adobeにお問い合わせください。 [詳細情報](../send/sms/sms.md)
 
   >[!NOTE]
   >
-  >この機能は **Campaign FFDA デプロイメント** では使用できません [&#128279;](../architecture/enterprise-deployment.md)。
+  >この機能は、**Campaign FFDA デプロイメント**&#x200B;で利用できる[not](../architecture/enterprise-deployment.md)です。
 
 <!-- (from ACC rn, aleady in the product, to remove?) -->
 
 <!-- * **Enrichment in transactional messages** (to remove?) -->
 
 <!--
-* **Multilingual delivery creation** in the Web UI - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=ja)
+* **Multilingual delivery creation** in the Web UI - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html)
 
 ACC - Multilingual deliveries - Starting Campaign Web User interface April release, you will be able to send multiple email deliveries in different languages, and access the related dynamic reports. This capability will only be available in Adobe Campaign Web User Interface at the end of April, and require a server update to Campaign v8.7.4.
 -->
 
 <!--
-*  **Visual fragments** in the Web UI - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=ja){target="_blank"}
+*  **Visual fragments** in the Web UI - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
-(already available in console and web, to remove?) 
+(already available in console and web, to remove?)
 web - * Visual fragments - You can now archive visual content fragments. Learn more
 -->
 
 <!--
-* **Delivery alerting** in the Web UI - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=ja){target="_blank"}
+* **Delivery alerting** in the Web UI - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
 -->
 
 <!--
 * **Landing pages improvements**  in the Web UI- The following improvements to landing pages are now available:
 
-    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/work-with-services/manage-services.html?lang=ja#create-service){target="_blank"}
-    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ja#create-landing-page){target="_blank"}
-    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ja#create-landing-page){target="_blank"}
-    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ja#define-actions-on-form-submission){target="_blank"}
-    * Conditional content is now supported in landing pages. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html?lang=ja){target="_blank"}
-    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html?lang=ja#lp-message){target="_blank"}
-    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ja#captcha){target="_blank"}
+    * You can now reference a default subscription/unsubscription landing page when configuring a service. When designing an email, if you define a link to that landing page, users submitting the landing page form are automatically subscribed to or unsubscribed from this service. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/work-with-services/manage-services.html#create-service){target="_blank"}
+    * A new option in the landing page configuration allows anonymous visitors to access the landing page. If you unselect this option, only identified users can access and submit the form. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page){target="_blank"}
+    * A new option in the landing page configuration allows to store additional internal data when the landing page is being submitted. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page){target="_blank"}
+    * A new option enables to use a landing page for several services, making it dynamic. When adding a link to an email, if you select a dynamic landing page, you can select any service. If you select a landing page that has a specific service associated, this service will be automatically used (you cannot select another one). [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#define-actions-on-form-submission){target="_blank"}
+    * Conditional content is now supported in landing pages. [Read more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html){target="_blank"}
+    * You can link a landing page to a service, and send a confirmation message when users validate it. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/lp-content.html#lp-message){target="_blank"}
+    * You can add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#captcha){target="_blank"}
 
 web - * **Subscriptions with Landing pages** - You can now link a landing page to a service, and send a confirmation message when users validate it. [Learn more](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 Web - * **Captcha in landing pages** - You can now add captcha to protect your landing page from spam and abuse caused by bots. This is non-intrusive for your customers since it does not require any interaction from them and is based on interactions with your site. [Learn more](../landing-pages/create-lp.md#captcha)
 -->
 
 <!--
-* (from ACC rn, already in product, to remove?) **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md). 
+* (from ACC rn, already in product, to remove?) **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push-android.md).
 ACC * Rich Push Notification templates - You can now send rich push notifications via Android. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. Read more.
 -->
 
-以前は限定提供（LA）でリリースされていましたが、現在は次の機能が利用可能です **オンデマンド**。
+以前は制限付き可用性でリリースされていましたが、次の機能がオンデマンド **で利用できるようになりました**:
 
 <!--
-* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}
+* **Dynamic Reporting** - You can now access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Dynamic reporting is also available for multilingual email deliveries and transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
 
-ACC **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+ACC **Dynamic Reporting for Transactional messages** - You can now monitor your transactional messages in the Dynamic Reporting user interface. These reports provide the ability to the marketer to view the all the reporting metrics and dimensions of transactional messages, breakdown of deliveries sent through a template in real time. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access Dynamic Reporting which provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. Read more
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
 
-* **Rest API** - Rest API を使用して、Adobe Campaignと使用するテクノロジーのパネルをインターフェイスで接続することで、Adobe Campaignの統合を作成し、独自のエコシステムを構築できるようになりました。 トランザクションメッセージ REST API は、SMS チャネルでも使用できます。 ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合は、wishedChannel で明示的に SMS をリクエストしない限り、デフォルトでメールが使用されます。イベントベースのトランザクション API は、メールでも使用できます。 [詳細情報](../dev/api/get-started-apis.md)
+* **Rest API** - Rest APIを使用してAdobe Campaignの統合を作成し、Adobe Campaignと使用するテクノロジーパネルをインターフェイスして独自のエコシステムを構築できるようになりました。 Transactional Messaging REST APIは、SMS チャネルでも使用できます。 ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合は、wishedChannel で明示的に SMS をリクエストしない限り、デフォルトでメールが使用されます。イベントベースのトランザクション APIもメールで利用できます。 [詳細情報](../dev/api/get-started-apis.md)
 
   >[!NOTE]
   >
-  >この機能は **Campaign FFDA デプロイメント** では使用できません [&#128279;](../architecture/enterprise-deployment.md)。
+  >この機能は、**Campaign FFDA デプロイメント**&#x200B;で利用できる[not](../architecture/enterprise-deployment.md)です。
 
-* **ワンクリックリスト – 登録解除** – 受信者がワンクリックで即座にオプトアウトできるようにするために送信者が必要な主要な ISP で、メールテンプレートまたは配信プロパティから直接、ユーザーインターフェイスでワンクリックリスト – 登録解除ヘッダーを有効にできるようになりました。 このオプションはデフォルトで有効になっています。 [詳細情報](../send/email-parameters.md#one-click-list-unsubscribe)
+* **ワンクリックリスト – 登録解除** – 送信者がワンクリックですばやくオプトアウトできる状態を送信者に求める主要ISPでは、メールテンプレートまたは配信プロパティから直接、ユーザーインターフェイスでワンクリックリスト – 登録解除ヘッダーを有効にできるようになりました。 このオプションはデフォルトで有効になっています。 [詳細情報](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
-* **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
+* **SMS REST API support (LA)** - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS. For more information, refer to the [detailed documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}.
 ACC - SMS REST API support - The Transactional Messaging REST API is now available for the SMS channel. When both email and mobilePhone are present in the payload, you can use the "wishedChannel" field to specify the channel. If not provided, email will be used by default unless wishedChannel explicitly requests SMS.
-ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are now available for Emails. [Read more](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
 -->
 
-このリリースには、上記の機能に加えて、Campaign Web ユーザーインターフェイスで使用できる一連の機能も付属しています。
+上記の機能に加えて、このリリースには、Campaign Web ユーザーインターフェイスで使用できる一連の機能も搭載されています。
 
-* [&#x200B; 多言語配信の作成 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html?lang=ja#multilingual-delivery){target="_blank"}
-* [配信アラート](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html?lang=ja){target="_blank"}
-* [&#x200B; ランディングページの改善 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html?lang=ja){target="_blank"}
-* [&#x200B; 動的レポート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ja){target="_blank"} （オンデマンド）
-* [&#x200B; ブランディングの一元化 &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"} （オンデマンド、新規実装）
+* [多言語配信の作成](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/edit-content.html#multilingual-delivery){target="_blank"}
+* [配信アラート](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
+* [ ランディングページの改善](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
+* [Dynamic Reporting](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} （オンデマンド）
+* [一元化されたブランディング ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"} （オンデマンド、新しい実装）
 
-Campaign web UI[&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"} を参照してください。
+Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### 一般的な改善点 {#improvements-8-8-1}
 
-* Microsoft ファブリックは、Adobe Campaign Federated Data Access （FDA）の外部データベースとしてサポートされるようになりました。 [詳細情報](../config/external-accounts.md#transfer-data-external-accounts)
-* Campaign v8 では、プッシュ通知用にAndroid 15 およびiOS 18 がサポートされるようになりました。 [詳細情報](../start/compatibility-matrix.md#MobileSDK)
-* セキュアな仮想プライベートネットワークトンネリング用に、オンプレミスデータベースに加えて、クラウドデータベースがサポートされるようになりました。 [詳細情報](../config/enhanced-security.md#vpn-databases)
-* SMS 2.0 コネクタの「受信トラフィック」セクションに、新しい「プロバイダー ID」フィールドのセットが追加されました。 [詳細情報](../send/sms/smpp-external-account.md#incoming-traffic)
-* 「mailto」 List-Unsubscribe メソッドを使用して購読解除した受信者は、強制隔離に送信されなくなりました。 配信に関連付けられたサービスの購読を解除するか、配信にサービスが定義されていない場合は、ブロックリスト（プロファイルの「連絡なし」セクション）に送信されます。 [詳細情報](../send/quarantines.md)
-* 受信ボックスレンダリングレポートの改訂バージョンが、Adobe Campaign クライアントコンソールで使用できるようになりました。
-* `setup-client.exe` ファイルは `ac-client.msi` ファイルに置き換えられました。これにより、管理者はユーザーの操作を必要とせずに大量アップグレードを簡単に実行できます。
+* Microsoft Fabricsは、Adobe Campaign Federated Data Access （FDA）を使用した外部データベースとしてサポートされるようになりました。 [詳細情報](../config/external-accounts.md#transfer-data-external-accounts)
+* Campaign v8では、プッシュ通知でAndroid 15とiOS 18がサポートされるようになりました。 [詳細情報](../start/compatibility-matrix.md#MobileSDK)
+* セキュアな仮想プライベート ネットワーク トンネリング用のオンプレミス データベースに加えて、クラウドデータベースもサポートされるようになりました。 [詳細情報](../config/enhanced-security.md#vpn-databases)
+* SMS 2.0 コネクタの「受信トラフィック」セクションに、新しい「プロバイダーID」フィールドのセットが追加されました。 [詳細情報](../send/sms/smpp-external-account.md#incoming-traffic)
+* 「mailto」リストの購読解除メソッドを使用して購読解除した受信者は、強制隔離に送信されなくなりました。 配信に関連付けられたサービスの購読を解除するか、配信にサービスが定義されていない場合は、配信ブロックリスト（プロファイルの「もう連絡なし」セクション）に送信されます。 [詳細情報](../send/quarantines.md)
+* 新しいバージョンのインボックスレンダリングレポートが、Adobe Campaign クライアントコンソールで使用できるようになりました。
+* `setup-client.exe` ファイルは`ac-client.msi` ファイルに置き換えられました。管理者がユーザーの介入なしに一括アップグレードを実行する簡単な方法を提供します。
 
 ### 修正点 {#fixes-8-8-1}
 
-* SMS 2.0 の有効期間が無効なために自動返信が受信されない問題を修正しました。これにより、移行後に適切なメッセージ配信が行われます。 （NEO-88088）
-* SMS 2.0 で、`inSms` テーブルの特定のフィールドが正しく更新されず、SMS 機能の正確なデータ挿入が確保されない問題を解決しました。 （NEO-87906）
+* SMS 2.0の有効期限が無効なため、自動返信を受信できない問題を修正しました。これにより、移行後の適切なメッセージ配信が保証されます。 （NEO-88088）
+* SMS 2.0で、`inSms` テーブルの特定のフィールドが正しく更新されず、SMS機能の正確なデータ挿入が確保される問題を解決しました。 （NEO-87906）
 <!--
 * NOOOO Addressed delivery preparation failures for IndiGo Aviation after upgrading to v7.4.2. This fix resolves personalization and deduplication-related errors, enabling smooth delivery workflows. (NEO-87693)
 * NOOOO Corrected Redshift database function definitions in version 8.6.4, ensuring proper execution of functions like `AddDays`, `AddHours`, `AddMinutes`, and `AddSeconds`. (NEO-87305)
 * Provided a silent installation mechanism for the client console to facilitate mass upgrades without user intervention. This resolves challenges with manual installations. (NEO-69772)
 -->
-* SQL クエリで、列参照が見つからないか間違っていることが原因で発生する、データベースクリーンアップワークフローのエラーを修正しました。 これにより、ログと訪問者データが適切にパージされるようになります。 （NEO-86813）
-* 配信ログにイベント日付が表示されない問題を解決しました。 この修正により、イベントの日付の母集団が正確に設定されるので、スケジュールされたトリガーやワークフローにとって重要です。 （NEO-86708）
-* SMS 2.0 での SMS 配信ログの挿入の問題を修正し、`nmsBroadLogMid` テーブルに適切に記録されるようにしました。 （NEO-86556）
-* ダイレクトメールテンプレートの外部配信モードのファイル抽出の問題を修正し、互換性と機能を確保しました。 （NEO-86520）
-* 複数の MID インスタンス間の分割ルーティングに関する配信処理の問題を解決し、配信ステータスの正確な更新とスループットを確保しました。 （NEO-86500）
-* Campaign Standardから Campaign v8 への移行後に、動的レポートに欠落していたトラッキングデータを修正し、配信トラッキングログの正確なレポートを確保しました。 （NEO-86419）
-* ワークフローが 2 回実行され、キー違反が重複していたワークフロートリガーの問題を解決しました。 この修正により、適切なイベントの処理と実行が保証されます。 （NEO-86154）
-* デプロイメント後の Redshift OOTB SQL 関数の互換性の問題を修正し、ワークフローで `GetDate()` などの関数を適切に実行できるようにしました。 （NEO-85834）
-* URL が添付されると画像が消えるメールビルドのレンダリングの問題を修正しました。 この修正により、インボックスプレビューでの適切な画像表示が確保されます。 （NEO-85716）
-* WebUI での閉じる引用符の巻き毛のレンダリングを修正し、メール配信で正確な文字表示を確保しました。 （NEO-85687）
+* SQL クエリで列参照が見つからないか正しくない場合に発生する、データベースのクリーンアップ ワークフローのエラーを修正しました。 これにより、ログと訪問者データを適切にパージできます。 （NEO-86813）
+* 配信ログにイベント日が欠落していた問題を解決しました。 この修正により、スケジュールされたトリガーとワークフローに不可欠な、正確なイベント日付設定が保証されます。 （NEO-86708）
+* SMS 2.0でのSMS配信ログ挿入の問題を修正し、`nmsBroadLogMid` テーブルで適切にログを記録するようにしました。 （NEO-86556）
+* ダイレクトメールテンプレートの外部配信モードに関するファイル抽出の問題を修正し、互換性と機能を確保しました。 （NEO-86520）
+* 複数のMID インスタンスをまたいだ分割ルーティングに関する配信処理の問題を解決し、正確な配信ステータスの更新とスループットを確保しました。 （NEO-86500）
+* Campaign StandardからCampaign v8への移行後に動的レポートにトラッキングデータが欠落するのを修正し、配信トラッキングログの正確なレポートを確保しました。 （NEO-86419）
+* ワークフローが2回実行され、重複したキー違反が発生する問題をトリガーするワークフローを解決しました。 この修正により、適切なイベントの処理と実行が保証されます。 （NEO-86154）
+* デプロイメント後のRedshift OOTB SQL関数の互換性に関する問題を修正し、ワークフローで`GetDate()`のような関数を適切に実行できるようにしました。 （NEO-85834）
+* URLが添付されたときに画像が消えたメール作成のレンダリングの問題を修正しました。 この修正により、受信トレイのプレビューで画像が適切に表示されるようになります。 （NEO-85716）
+* WebUIでカーリーに閉じた引用符のレンダリングが修正され、メール配信で正確な文字表示が保証されました。 （NEO-85687）
 * ミラーページのリンク機能を修正し、ミラーページ内の言語バリアント間の適切なナビゲーションを確保しました。 （NEO-85625）
-* Web アプリの日付選択で日付形式の問題を解決し、日本語の日付形式（`yyyy-mm-dd`）との互換性を確保しました。 （NEO-85234）
-* ミッドソーシングでの代替ルーティング設定を使用したワークフローの後処理の問題を修正し、ワークフローが適切に実行されるようにします。 （NEO-85111）
-* ウェーブを使用する際のAndroid配信スループットが向上し、スケジュールに基づいて配信部分が正しい順序で処理されるようになりました。 （NEO-84324）
-* 関数の null 処理エラーが原因で配信の準備に失敗する問題 `to_varchar` 修正し、キャンペーンのスムーズな開始を確保しました。 （NEO-84108）
-* 古い `libcurl` および `libssh2` バージョンが原因で発生した SFTP 接続の問題を解決し、Azure がホストする SFTP サーバーとの互換性を確保しました。 （NEO-84038）
-* キーペア認証エラーに関するSnowflake FDA コネクタの問題を修正して、データベース接続が成功するようにしました。 （NEO-84024）
-* タイポロジルール機能の問題を修正し、プッシュ配信で頻度ルールが適切に適用されるようにしました。 （NEO-84010）
-* アップグレード後に、日付とタイムスタンプの比較が一致しなかったことが原因で発生した BigQuery クエリエラーを解決し、フィルタリング条件との互換性を確保しました。 （NEO-83826）
-* パーソナライゼーションエラーが原因で一時停止した配信を再開すると、配信アクティビティが失敗する問題を修正しました。 この修正により、配信ワークフローがスムーズになり、一時停止されたアクティビティに関連するエラーを防ぐことができます。 （NEO-83809）
-* 「ターゲットレコード読み込みクエリ」オプションを使用する場合の、FFDA の問題を修正しました。 「order by」句と「where」句のサポートを追加しました。 （NEO-83793）
-* broadLogRcp テーブルの nullable でない列に null 値が書き込まれることで発生する、繰り返し配信エラーを修正しました。 この修正により、配信の信頼性が向上し、ライブキャンペーン中のエラーを防ぐことができます。 （NEO-83729）
-* 配信の準備中にシードアドレスが重複し、メッセージ数に不一致が生じる問題を修正しました。 この修正により、正確なターゲティングが保証され、重複エラーが防止されます。 （NEO-83703）
-* 実稼動配信が有効期間後に送信され、法的な問題が発生する可能性がある重大な問題を修正しました。 配信は、定義された有効期間に厳密に従うようになりました。 （NEO-83350）
-* 大きなデータ量をTeradata テーブルに読み込む際に発生するスペースの問題を修正しました。 この修正により、データ処理が最適化され、実稼動環境での断続的なエラーが解決されます。 （NEO-83252）
-* SendMetricsToNewRelic エラーに関連するテクニカルワークフローエラー（RT イベント処理の遅延の原因となった）を解決しました。 この修正により、ワークフローをよりスムーズに実行し、イベントのバックログを防ぐことができます。 （NEO-83143）
-* FFDA インタラクションインスタンスでの ID から UUID への変換の問題が原因で発生する、データベースクリーンアップワークフローのエラーを修正しました。 この更新により、適切なクリーンアップ操作が確実に実行され、システムの負荷が軽減されます。 （NEO-83138）
+* Web アプリの日付選択の日付形式の問題を解決し、日本の日付形式（`yyyy-mm-dd`）との互換性を確保しました。 （NEO-85234）
+* ミッドソーシングでの代替ルーティング設定に関する後処理ワークフローの問題を修正し、適切なワークフロー実行を確保しました。 （NEO-85111）
+* ウェーブを使用する際のAndroid配信スループットを改善し、配信パーツがスケジュールに基づいて正しい順序で処理されるようにしました。 （NEO-84324）
+* `to_varchar`関数のnull処理エラーによる配信の準備エラーを修正しました。これにより、キャンペーンのスムーズな起動が保証されます。 （NEO-84108）
+* 古い`libcurl`および`libssh2` バージョンが原因で発生するSFTP接続の問題を解決し、AzureでホストされているSFTP サーバーとの互換性を確保しました。 （NEO-84038）
+* Snowflake FDA コネクタでキーペア認証エラーが発生し、データベース接続が正常に行われることを確認する問題を修正しました。 （NEO-84024）
+* プッシュ配信でのプレッシングルールの適切な適用を確保しながら、タイポロジルール機能の問題を解決しました。 （NEO-84010）
+* アップグレード後に日付とタイムスタンプの比較が一致しないために発生するBigQuery クエリエラーを解決し、フィルター条件との互換性を確保しました。 （NEO-83826）
+* パーソナライゼーションエラーが原因で一時停止した配信を再開すると、配信アクティビティが失敗する問題を解決しました。 この修正により、配信ワークフローがよりスムーズになり、一時停止したアクティビティに関連するエラーを防ぐことができます。 （NEO-83809）
+* 「ターゲットレコード読み込みクエリ」オプションを使用する場合のFFDAの問題を修正します。 「order by」および「where」句のサポートが追加されました。 （NEO-83793）
+* broadLogRcp テーブルのnull以外の列に書き込まれるnull値によって引き起こされる繰り返し配信エラーを修正しました。 この修正により、配信の信頼性が向上し、ライブキャンペーン中のエラーを防ぐことができます。 （NEO-83729）
+* 配信の準備中にシードアドレスが重複し、メッセージ数の不一致が発生する問題を解決しました。 この修正により、正確なターゲティングが保証され、重複エラーを防ぐことができます。 （NEO-83703）
+* 実稼動配信が有効期間の後に送信され、法的な懸念が生じる可能性がある重大な問題を修正しました。 配信は、定義された有効期限に厳密に従うようになりました。 （NEO-83350）
+* 大きなデータボリュームをTeradata テーブルに読み込む際に発生したスペースの問題を修正しました。 この修正プログラムは、データ処理を最適化し、本番環境での断続的なエラーを解決します。 （NEO-83252）
+* SendMetricsToNewRelic エラーに関連するテクニカルワークフローのエラーを解決し、RT イベント処理で遅延が発生しました。 この修正により、ワークフローの実行がよりスムーズになり、イベントバックログが回避されます。 （NEO-83143）
+* FFDA インタラクションインスタンスでIDからUUIDへの変換の問題が原因で発生するデータベースクリーンアップワークフローのエラーを修正しました。 このアップデートにより、適切なクリーンアップ操作が保証され、システム負荷が軽減されます。 （NEO-83138）
 * シードメンバーの内部名の長さに対する制約によって発生する配信エラーを解決しました。 この修正により、配信のパーソナライゼーションに影響を与えることなく、より長い内部名を使用できます。 （NEO-83044）
-* ランダムエラーが原因で、配信がパーソナライゼーションの保留のままになる問題を修正しました。 この更新により、パーソナライゼーションプロセスがスムーズになり、配信が確実に実行されるようになります。 （NEO-82781）
-* API エラーと速度の低下が原因で、コンソールでオファーの提案をレビューできない問題を修正しました。 この修正により、UI の応答性が向上し、適切なオファー機能が確実に使用できるようになります。 （NEO-82742）
-* カスタム配信オブジェクトを使用する際のAdobe Campaign コンソールの断続的なクラッシュを解決しました。 この修正により、カスタムワークフローを使用する際の安定性と信頼性が確保されます。 （NEO-82675）
-* v7 から v8 への移行後に報告された、処理の遅さとワークフローのエラーを修正しました。 この更新により、キャンペーンワークフローが最適化され、タイムリーに実行されるようになります。 （NEO-82665）
+* ランダムエラーが原因で、配信がパーソナライゼーションの保留中に停止する問題を修正しました。 このアップデートにより、よりスムーズなパーソナライゼーションプロセスと信頼性の高い配信の実行が保証されます。 （NEO-82781）
+* APIのエラーと速度が遅いため、コンソールでオファーの提案を確認できない問題を修正しました。 この修正により、UIの応答性が向上し、適切なオファー機能が保証されます。 （NEO-82742）
+* カスタム配信オブジェクトを使用すると、Adobe Campaign コンソールで断続的にクラッシュする問題を解決しました。 この修正により、カスタムワークフローを使用する際の安定性と信頼性が確保されます。 （NEO-82675）
+* v7からv8への移行後に報告された処理速度の低下とワークフローのエラーを修正しました。 このアップデートにより、キャンペーンワークフローが最適化され、タイムリーな実行が保証されます。 （NEO-82665）
 
 <!--
 * Resolved an issue where sysfilters were generating incorrect SQL queries after upgrading to v8.6.3. This fix ensures proper query generation and restores sysfilter functionality. (NEO-82591)
 -->
 
-* MTA の子プロセスが停止し、プッシュと WhatsApp の配信がブロックされていた重大な問題を修正しました。 この更新により、よりスムーズな通信ワークフローが保証され、配信のボトルネックを回避できます。 （NEO-82351）
-* GCP テーブルの文字列フィールドが原因で、Teradataの更新中にエラーが発生するデータ移行の問題を修正しました。 この修正により、回避策が不要になり、ワークフローの効率が向上します。 （NEO-82260）
-* FFDA インスタンスのプライマリデータベースを考慮してデータベースのクリーンアップロジックを更新し、存在しないテーブルの不要なパージを防ぎました。 この修正により、クリーンアップ操作が最適化されます。 （NEO-81879）
-* サブワークフローを列挙フィールドと組み合わせて使用することで発生するコンソールのクラッシュを解決しました。 この修正により、エンリッチメントされたワークフローを使用する際の安定性が確保されます。 （NEO-81864）
-* ターゲットマッピングのサブアフィニティフィールドが配信の複製後に誤って変更され、ワークフローでエラーが発生していた問題を修正しました。 この更新により、一貫したサブアフィニティ値が保証されます。 （NEO-81809）
-* Adobe Campaign Classic v8 のファイル転送アクティビティでワイルドカード文字がサポートされるようになり、ワークフローで動的名前（`abc_*` など）の付いたファイルをアップロードできるようになりました。 （NEO-81758）
-* Adobe Campaign Classic v8 のiOS プッシュ通知で `content-available` フラグを有効にするオプションが導入されました。 この機能強化により、モバイルアプリは通知をインボックスに保存できるようになり、バックグラウンド更新がサポートされるようになり、APNS 制限に起因する配信の破棄の問題に対処しています。 （NEO-81721）
+* MTA子プロセスが停止し、プッシュおよびWhatsApp配信がブロックされる重大な問題を修正しました。 このアップデートにより、コミュニケーションワークフローがよりスムーズになり、配信のボトルネックを防ぐことができます。 （NEO-82351）
+* Teradataの更新中にGCP テーブルの文字列フィールドがエラーを引き起こすデータ移行の問題を修正しました。 この修正により、回避策が不要になり、ワークフローの効率が向上します。 （NEO-82260）
+* FFDA インスタンスのプライマリデータベースを考慮するようにデータベースクリーンアップロジックを更新し、存在しないテーブルをパージする不必要な試みを防ぎました。 この修正により、クリーンアップ操作が最適化されます。 （NEO-81879）
+* サブワークフローと列挙フィールドを組み合わせて使用すると、コンソールがクラッシュする問題を解決しました。 この修正により、強化されたワークフローを使用する際の安定性が確保されます。 （NEO-81864）
+* 配信の複製の後、ターゲットマッピングのサブアフィニティフィールドが誤って変更され、ワークフローのエラーが発生する問題を修正しました。 このアップデートにより、一貫したサブアフィニティ値が保証されます。 （NEO-81809）
+* Adobe Campaign Classic v8でのファイル転送アクティビティでワイルドカード文字のサポートが追加され、ユーザーがワークフローに動的名前（`abc_*`など）を持つファイルをアップロードできるようになりました。 （NEO-81758）
+* Adobe Campaign Classic v8のiOS プッシュ通知で`content-available` フラグを有効にするオプションを導入しました。 この機能強化により、モバイルアプリは通知を受信トレイに保存でき、バックグラウンド更新をサポートして、APNSの制限に起因する配信の破棄の問題に対処できます。 （NEO-81721）
 
 <!--
 * Updated the Campaign 7.4.1 release upgrade process to require manual installation of dependencies. Documentation has been provided to guide users on installing required libraries such as `epel-release`, `java-11-openjdk-headless`, and others. (NEO-81433)
 -->
 
-* Adobe Campaign Classic v8 で BigQuery 接続のタイムアウト設定オプションを追加しました。 この機能強化により、ユーザーはクエリのタイムアウト期間を調整して、デフォルトのタイムアウト制限が原因で発生するクエリのエラーの問題を解決できます。 （NEO-81222）
-* v8 への移行後、分割および代替ルーティングの外部アカウントを介して送信される配信のミラーページ URL が失敗するという断続的な問題を修正しました。 基になる配信部分が `mirrorPageInfo` に正しくコピーされるようになりました。 （NEO-81105）
+* Adobe Campaign Classic v8で、BigQuery接続のタイムアウト設定オプションを追加しました。 この機能強化により、ユーザーはクエリのタイムアウト期間を調整し、デフォルトのタイムアウト制限によるクエリエラーの問題を解決できます。 （NEO-81222）
+* v8移行後に分割および代替ルーティング外部アカウントを介して送信された配信でミラーページ URLが失敗する断続的な問題を修正しました。 基になる配信部分が`mirrorPageInfo`に正しくコピーされるようになりました。 （NEO-81105）
 
 <!--
 * Resolved an authentication failure issue with inMail caused by token expiration. Restarting the `nlserver` process now resolves the error. (NEO-80683)
 -->
 
-* クライアントコンソールの「新しい Web UI にアクセス」ボタンが実稼動インスタンスの正しい URL （`https://experience.adobe.com`）を指すように修正されました。 これにより、実稼動環境での無効な URL に関する問題が解決されます。 （NEO-80673）
-* 分割アクティビティで、並べ替えとサイズの両方を（セグメントのパーセンテージとして）使用すると SQL エラーが発生する問題を修正しました。 機能が正しく動作するようになりました。 （NEO-80432）
-* `CCurlAzureBlobStorage::UploadStream` を使用したワークフローでのクラッシュの問題を修正しました。 Azure Blob Storage のアップロード中に、ワークフローがセグメント化フォールトなしで実行されるようになりました。 （NEO-79598）
-* 実稼動環境で、ミラーページがクライアントコンソールから表示されない問題を解決しました。 ミラーページのリンクが、メールビューとコンソールビューの両方で正しく機能するようになりました。 （NEO-78946）
-* メッセージ配信が成功したにもかかわらず、一部のログが誤って「配信がキャンセルされました」とマークされていた配信ログの問題を修正しました。 連絡日とイベント日の不一致に関連する根本原因は対処されました。 （NEO-78933）
-* セキュリティを向上させるために `com.google.code.gson:gson` ライブラリを更新しました。 （NEO-78299）
-* ワークフローのエラーの原因となった FDA 接続ログ （`nmsconnectionlogs`）の重複キー制約エラーを解決しました。 ID の重複を防ぐために、挿入ロジックを調整しました。 （NEO-78050）
-* 強制隔離されたメールアドレスがアドレステーブルで誤ってモバイルとしてフラグ付けされ、配信分析エラーが発生する問題を修正しました。 配信オブジェクト間の紐付けロジックが修正されました。 （NEO-76986）
-* Oracle データベースでコントロール母集団を使用する際の配信準備エラーを修正しました。 SQL クエリの生成が修正され、Oracle データベースとの互換性が確保されました。 （NEO-76947）
-* 新しい月の移行中にフォルダーを同時に作成することによる配信エラーを解決しました。 配信フォルダー作成ロジックが調整され、キー違反の重複が防止されました。 （NEO-76824）
-* Teradata外部アカウントのタイムゾーンコンバージョンに関する一貫性のない問題を修正しました。 表示されるタイムスタンプが、設定されたタイムゾーン設定に正しく合うようになりました。 （NEO-76716）
-* データベースクリーンアップワークフローが改善され、大きなデータセットを効率的に処理できるようになりました。 削除パフォーマンスを最適化するために、行 ID とバインド変数を使用する新しいアプローチが実装されました。 （NEO-76439）
-* 「その他」チャネルの外部配信で出力ファイルが生成されない問題を修正しました。 生成されたファイルのファイルパスが配信プロパティに正しく含まれるようになりました。 （NEO-75962）
-* 大きなデータ更新による `ffdaReplicateStagingData` ワークフローのエラーを修正しました。 ワークフローのエラーを防ぐために、タイムアウト設定とテーブルサイズ管理が最適化されました。 （NEO-75643）
-* ダイレクトメールの出力ファイルをプレビューすると、ダッシュボードが空白になる問題を修正しました。 ファイルのプレビュー後にダッシュボードが正しく表示されるようになりました。 （NEO-75359）
-* クリック数と開封数を含むプッシュ通知のトラッキング指標を強化しました。 `@recipientClick`、`@personClick`、`@totalRecipientClick` などの指標で、モバイル通知のクリックが考慮されるようになりました。 （NEO-75240）
-* 外部のキャンセル保留ステータスを持つ配信のクリーンアップワークフローのエラーを修正しました。 データベースレコード取得ロジックが修正されました。 （NEO-74833）
-* 出力時間が正しくないロシア（UTC+3:00 モスクワ）のタイムゾーン `nlserver` 不一致の問題を解決しました。 時間同期のロジックが更新されました。 （NEO-74754）
-* MSSQL データベースの SQL 構文が正しくないことが原因で発生する `defaultMidSourcingDlvStat` ワークフローのエラーを修正しました。 クエリ生成ロジックが互換性のために調整されました。 （NEO-74156）
-* Web プロセスでの複数のクラッシュを対処しました。 （NEO-73174）
-* 条件にアポストロフィが存在する場合に BigQuery クエリが失敗する問題を修正しました。 クエリ処理ロジックが更新され、特殊文字が正しく解釈されるようになりました。 （NEO-72547）
-* 除外フィルターを含むタイポロジルールが正しく機能しない問題を修正しました。 配信準備のための SQL クエリ生成が修正されました。 （NEO-72292）
-* バウンス管理のイベント日と連絡日の不一致を修正しました。 タイムゾーン処理ロジックが改善されました。 （NEO-72277）
-* ダイレクトメール配信で誤って変換された UTF-8 文字の処理を強化しました。 配信エラーを防ぐために、非表示の文字が正しく処理されるようになりました。 （NEO-72148）
-* フィルターが原因で保存の問題が発生していたインバウンド SMS アクティビティのエラーを修正しました。 ワークフローは、エラーを生成せずに正しく保存されるようになりました。 （NEO-70427）
-* オファースペース内のグループ化された実施要件条件に対する SQL クエリ生成を修正しました。 適切なフィルタリングを確実に行うために、SQL 条件に括弧が追加されました。 （NEO-70425）
+* クライアントコンソールの「新しいWeb UIにアクセス」ボタンを修正し、実稼動インスタンスの正しいURL （`https://experience.adobe.com`）を指すようにしました。 これにより、実稼動環境の無効なURLに関する問題を解決できます。 （NEO-80673）
+* 分割アクティビティで、並べ替えとサイズ（セグメントの割合）の両方を使用するとSQL エラーが発生する問題を修正しました。 機能が正しく動作するようになりました。 （NEO-80432）
+* `CCurlAzureBlobStorage::UploadStream`を使用したワークフローのクラッシュの問題を修正しました。 Azure Blob Storageのアップロード中に、ワークフローがセグメント化エラーなしで実行されるようになりました。 （NEO-79598）
+* 実稼動環境でクライアントコンソールからミラーページを表示できない問題を解決しました。 ミラーページリンクが、電子メールビューとコンソールビューの両方で正しく機能するようになりました。 （NEO-78946）
+* メッセージの配信に成功したにもかかわらず、一部のログに「配信がキャンセルされました」と誤ってマークされる配信ログの問題を修正しました。 連絡先日とイベント日の不一致に関連する根本原因に対処しました。 （NEO-78933）
+* セキュリティを強化するために`com.google.code.gson:gson` ライブラリを更新しました。 （NEO-78299）
+* ワークフロー失敗の原因となったFDA接続ログ （`nmsconnectionlogs`）の重複キー制約エラーを解決しました。 IDが重複しないように、挿入ロジックが調整されました。 （NEO-78050）
+* 強制隔離されたメールアドレスがアドレステーブルでモバイルとして誤ってフラグ付けされ、配信分析エラーが発生する問題を修正しました。 配信オブジェクト間の紐付けロジックが修正されました。 （NEO-76986）
+* Oracle データベースでコントロールグループを使用する場合の配信の準備エラーを修正しました。 Oracle データベースとの互換性を確保するために、SQL クエリの生成を修正しました。 （NEO-76947）
+* 新しい月の移行時に同時にフォルダーを作成することで発生する配信エラーを解決しました。 配信フォルダーの作成ロジックが調整され、キー違反が重複するのを防ぐことができます。 （NEO-76824）
+* Teradata外部アカウントのタイムゾーン変換の一貫性のない問題を修正しました。 表示されるタイムスタンプが、設定されたタイムゾーン設定と正しく一致するようになりました。 （NEO-76716）
+* 大規模なデータセットを効率的に処理するためのデータベースのクリーンアップワークフローが改善されました。 行IDとバインド変数を使用した新しいアプローチが実装され、削除パフォーマンスが最適化されました。 （NEO-76439）
+* 「その他」チャネルを持つ外部配信で出力ファイルが生成されない問題を解決しました。 配信プロパティに、生成されたファイルのファイルパスが正しく含まれるようになりました。 （NEO-75962）
+* 大規模なデータ更新による`ffdaReplicateStagingData` ワークフローのエラーを修正しました。 ワークフローエラーを防ぐために、タイムアウト設定とテーブルサイズ管理が最適化されました。 （NEO-75643）
+* ダイレクトメール出力ファイルをプレビューすると、ダッシュボードが空白になる問題を修正しました。 ファイルのプレビュー後に、ダッシュボードが正しく表示されるようになりました。 （NEO-75359）
+* プッシュ通知の追跡インジケーターを強化して、クリック数と開封数を追加しました。 `@recipientClick`、`@personClick`、`@totalRecipientClick`などの指標は、モバイル通知のクリック数を考慮するようになりました。 （NEO-75240）
+* 外部のキャンセル保留中ステータスを持つ配信のクリーンアップワークフローのエラーを修正しました。 データベースレコード取得ロジックが修正されました。 （NEO-74833）
+* ロシア （UTC+3:00 モスクワ）で、`nlserver`の出力時間が正しくないタイムゾーンの不一致の問題を解決しました。 時間同期ロジックが更新されました。 （NEO-74754）
+* MSSQL データベースのSQL構文が正しくないことが原因で、`defaultMidSourcingDlvStat` ワークフローのエラーが修正されました。 クエリ生成ロジックが互換性を保つように調整されました。 （NEO-74156）
+* Web プロセスでの複数のクラッシュを修正しました。 （NEO-73174）
+* 条件にアポストロフィが存在する場合にBigQuery クエリが失敗する問題を修正しました。 クエリ処理ロジックが更新され、特殊文字が正しく解釈されるようになりました。 （NEO-72547）
+* 除外フィルターを含むタイポロジルールが正しく機能しない問題を解決しました。 配信の準備のためのSQL クエリ生成が修正されました。 （NEO-72292）
+* バウンス管理のためのイベント日と連絡日の不一致に対処しました。 タイムゾーン処理ロジックが改善されました。 （NEO-72277）
+* ダイレクトメール配信で誤って変換されたUTF-8文字の処理を強化しました。 配信エラーを防ぐために、非表示の文字が正しく処理されるようになりました。 （NEO-72148）
+* フィルターが保存の問題を引き起こしたインバウンド SMS アクティビティのエラーを修正しました。 ワークフローがエラーを生成せずに正しく保存されるようになりました。 （NEO-70427）
+* オファースペース内のグループ化された適格性基準に対するSQL クエリの生成を修正しました。 適切なフィルタリングを確実に行うために、SQL条件に括弧が含まれていない問題が追加されました。 （NEO-70425）
 
 <!--
 * Updated the public documentation link in the `ffdaUnicity` workflow email template to point to the correct page for key management in v8. (NEO-67996)
 -->
 
-* HTTP コンテンツまたは転送エンコーディングの問題が原因で発生する、BigQuery データ読み込みワークフローの断続的なエラーを修正しました。 接続処理ロジックが改善されました。 （NEO-66989）
+* HTTP コンテンツまたは転送エンコーディングの問題によって引き起こされるBigQuery データ読み込みワークフローの断続的エラーを修正しました。 接続処理ロジックが改善されました。 （NEO-66989）
 
 ## リリース 8.6.5 {#release-8-6-5}
 
@@ -329,7 +329,7 @@ _2025年2月14日（PT）_
 
 ### 新機能 {#features-8-7-3}
 
-* **トランザクションメッセージの動的レポート** - 動的レポートのユーザーインターフェイスでトランザクションメッセージを監視できるようになりました。これらのレポートにより、マーケターはトランザクションメッセージのすべてのレポート指標とディメンション、テンプレート経由で送信された配信の分類をリアルタイムで確認できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ja){target="_blank"}
+* **トランザクションメッセージの動的レポート** - 動的レポートのユーザーインターフェイスでトランザクションメッセージを監視できるようになりました。これらのレポートにより、マーケターはトランザクションメッセージのすべてのレポート指標とディメンション、テンプレート経由で送信された配信の分類をリアルタイムで確認できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 * **トランザクションメッセージ REST API** - イベントベースのトランザクション API がメールで使用できるようになりました。[詳細情報](../dev/api/get-started-apis.md)
 
@@ -352,14 +352,15 @@ _2025年1月15日（PT）_
 
 ### セキュリティの強化 {#security-8-6-4}
 
-Apache web モジュールの HTTP リクエスト処理を強化して、セキュリティを強化し、リクエスト処理の脆弱性を防ぎました。 （NEO-85824）
+Apache web モジュールでのHTTP リクエスト処理を強化して、セキュリティを強化し、潜在的なリクエスト処理の脆弱性を防ぎました。 （NEO-85824）
 
 **[!UICONTROL Adobe Experience Cloud]** 外部アカウントを通じてアドビソリューションおよびアプリとの接続が更新され、セキュリティが強化されました。
 
 <!--
 ### Connection to Campaign {#ims-8-6-4}
 
-**(Limited availability)** For a restricted list of customers, Campaign v8.6.4 can allow native authentication mode instead of Adobe Identity Management System (IMS). Note that if you are using Campaign native authentication, you cannot access to [Campaign Web User Interface](../start/campaign-ui.md#campaign-web-user-interface).-->
+**(Limited availability)** For a restricted list of customers, Campaign v8.6.4 can allow native authentication mode instead of Adobe Identity Management System (IMS). Note that if you are using Campaign native authentication, you cannot access to [Campaign Web User Interface](../start/campaign-ui.md#campaign-web-user-interface).
+-->
 
 ### 互換性のアップデート {#comp-8-6-4}
 

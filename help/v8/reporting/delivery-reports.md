@@ -3,7 +3,7 @@ title: Adobe Campaign のビルトインの配信レポート
 description: Adobe Campaign のビルトインの配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 98%
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 ## トラッキング指標 {#tracking-indicators}
 
-このレポートは、配信を受信したときの受信者の行動をトラッキングするための主要な指標を組み合わせています。配信統計と受信統計、開封率とクリックスルー率、生成されたクリックストリームのほか、ソーシャルネットワークへの共有アクティビティにもアクセスできます。
+このレポートは、配信を受信したときの受信者の行動をトラッキングするための主要な指標を組み合わせています。配信と受信の統計情報、開封率とクリック率、生成されたクリックストリーム、ソーシャルネットワークへのアクティビティの共有へのアクセスを提供します。
 
 >[!NOTE]
 >
@@ -101,9 +101,9 @@ ht-degree: 98%
 
 * **[!UICONTROL Visited pages]**: Number of web pages visited following message reception.
 * **[!UICONTROL Transactions]**: Number of purchases following message reception.
-* **[!UICONTROL Total amount]**: Total amount of purchases following message reception. 
-* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients. 
-* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients. 
+* **[!UICONTROL Total amount]**: Total amount of purchases following message reception.
+* **[!UICONTROL Average transaction amount]**: Average purchase made by distinct delivery recipients.
+* **[!UICONTROL Articles]**: Number of articles purchased by the delivery recipients.
 * **[!UICONTROL Average count of articles per transaction]**: Average number of items per purchase made by distinct recipients.
 * **[!UICONTROL Average amount per message]**: Average amount of purchases generated per message.
 
@@ -117,7 +117,7 @@ This section shows the number of messages shared on each social network. For mor
 
 ## URLs and click streams {#urls-and-click-streams}
 
-This report shows the list of pages visited following a delivery. 
+This report shows the list of pages visited following a delivery.
 
 ![](assets/s_ncs_user_url_report.png)
 
@@ -131,14 +131,14 @@ The following rates are displayed in the upper section of the report:
   >
   >For more information on tracking opens, refer to [this section](metrics-calculation.md#tracking-opens-).
 
-* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully. 
+* **[!UICONTROL Distinct clicks]**: Number of distinct people having clicked at least once (excluding unsubscription link and mirror page) in a delivery. The rate displayed is calculated based on the number of messages delivered successfully.
 * **[!UICONTROL Cumulated clicks]**: Total number of clicks by targeted recipients (excluding unsubscription link and mirror page). The rate displayed is calculated based on the number of messages forwarded successfully.
 
 **[!UICONTROL Platform average]**: This average rate, displayed under each rate (reactivity, distinct clicks, and cumulated clicks), is calculated for deliveries sent over the previous six months. Only deliveries with the same typology and on the same channel are taken into account. Proofs are excluded.
 
 The central table provides the following information:
 
-* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link. 
+* **[!UICONTROL Clicks]**: Number of cumulated clicks, per link.
 * **[!UICONTROL Clicks (in %)]**: Breakdown of the number of clicks per link, in relation to the total number of cumulated clicks.
 
 **[!UICONTROL Breakdown of clicks in time]**
@@ -194,7 +194,6 @@ This chart shows the breakdown of cumulated clicks per day.
 <!--
 * **[!UICONTROL Transactions]**: Time required to achieve a percentage of the total number of transactions following message reception. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
-
 
 ## 累積レポート {#cumulated-reports}
 

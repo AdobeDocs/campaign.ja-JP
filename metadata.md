@@ -10,16 +10,16 @@ type: Documentation
 git-repo: https://github.com/AdobeDocs/campaign.ja-JP
 mini-toc-levels: 2
 index: true
-source-git-commit: 7bfe0ac7ba99ebf26844d2cea14a75f32ecb8b74
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
 
-# 内部で使用されるメタデータ
+# 内部使用のためのメタデータ
 
-metadata.md ファイルには、リポジトリ内のユーザガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。ユーザガイドの metadata.md の内容を変更する場合は、任意の TOC.md ファイルで変更します。
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれています。任意のユーザーガイドの metadata.md コンテンツを変更する場合は、任意の TOC.md ファイルで変更します。
 
-**ソリューション**、**製品**&#x200B;および&#x200B;**タイプ**&#x200B;の有効な値のリストについては、[メタデータ](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=ja)を参照してください。
+[solution](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html)、**product**、**type**&#x200B;の有効な値のリストについては、**メタデータ**&#x200B;を参照してください。

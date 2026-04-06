@@ -6,8 +6,8 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 100%
 
@@ -23,8 +23,10 @@ ht-degree: 100%
 
    配信の作成手順について詳しくは、[このページ](../../start/create-message.md)を参照してください。
 
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, -->
+<!--
+ * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
+* For mid-sourcing infrastructure,
+-->
 
 1. トラッキングに必要な場合は、「**[!UICONTROL ラベル]**」フィールドで配信の名前を変更し、「**[!UICONTROL 配信コード]**」フィールドと&#x200B;**[!UICONTROL 特性]**&#x200B;リストに情報を追加します。また、配信に&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 

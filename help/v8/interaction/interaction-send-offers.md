@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 98%
@@ -40,11 +40,11 @@ ht-degree: 98%
 
    ![](assets/offer_delivery_005.png)
 
-1. 必要に応じて、「**[!UICONTROL 不適格な受信者を除外]**」オプションを選択します。[詳細](#parameters-for-calling-offer-engine)
+1. 必要に応じて、「**[!UICONTROL 不適格な受信者を除外]**」オプションを選択します。[詳細情報](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. 必要に応じて「**[!UICONTROL 選択されているオファーがない場合は表示しない]**」オプションを選択します。[詳細](#parameters-for-calling-offer-engine)
+1. 必要に応じて「**[!UICONTROL 選択されているオファーがない場合は表示しない]**」オプションを選択します。[詳細情報](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -109,7 +109,7 @@ ht-degree: 98%
 
      ![](assets/int_enrichment_offer4.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細](#offer-into-a-delivery)
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -131,7 +131,7 @@ ht-degree: 98%
 
    ![](assets/int_enrichment_link2.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細](#offer-into-a-delivery)
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -147,7 +147,7 @@ ht-degree: 98%
 
 次の方法でこの情報を保存することができます。
 
-1. 「クエリ」アクティビティの後、配信アクティビティの前に配置された「エンリッチメント」アクティビティで、オファーエンジンの呼び出しを作成します。[詳細](#specifying-an-offer-or-a-call-to-the-offer-engine)
+1. 「クエリ」アクティビティの後、配信アクティビティの前に配置された「エンリッチメント」アクティビティで、オファーエンジンの呼び出しを作成します。[詳細情報](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -164,7 +164,7 @@ ht-degree: 98%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンの呼び出しを指定できます。
 
-**オファーエンジン** アクティビティについて詳しくは、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ja){target="_blank"} を参照してください。
+**オファーエンジン** アクティビティについて詳しくは、[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ja){target="_blank"}を参照してください。
 
 このアクティビティは、**エンリッチメント**&#x200B;アクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信前にエンジンで計算したオファーでインバウンド母集団のデータを強化します。
 
@@ -181,13 +181,13 @@ ht-degree: 98%
 
    ![](assets/int_offerengine_activity1.png)
 
-1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細](#inserting-an-offer-proposition-into-a-delivery)
+1. 次に、選択したチャネルに対応する配信アクティビティを設定します。[詳細情報](#inserting-an-offer-proposition-into-a-delivery)
 
 ### オファー（セル別） {#offers-by-cell}
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-**セル別オファー** アクティビティについて詳しくは、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ja){target="_blank"} を参照してください。
+**セルごとのオファー** アクティビティについて詳しくは、[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ja){target="_blank"}を参照してください。
 
 それには、次の手順に従います。
 
@@ -203,7 +203,6 @@ ht-degree: 98%
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。
 
 <!--
-
 ## Delivering with delivery outlines {#delivering-with-delivery-outlines}
 
 You can also present offers in a delivery using delivery outlines.

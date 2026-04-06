@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: 6b70ad987b828dc1c17bc4f0683046be4eff0408
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 70%
@@ -48,7 +48,8 @@ ht-degree: 70%
 <!--
 >[!NOTE]
 >
->For more on defining the email content, see [this section]().-->
+>For more on defining the email content, see [this section]().
+-->
 
 ## 文字エンコーディングの設定 {#character-encoding}
 
@@ -76,21 +77,21 @@ ht-degree: 70%
 
 バウンスメールの管理について詳しくは、[この節](delivery-failures.md#bounce-mail-management)を参照してください。
 
-## ワンクリックリスト – 登録解除を有効にする {#one-click-list-unsubscribe}
+## ワンクリックでリスト登録解除を有効にする {#one-click-list-unsubscribe}
 
-ワンクリックリスト – 登録解除 URL は、メール送信者情報の横に表示されるリンクまたはボタンで、受信者はワンクリックでメーリングリストから即座にオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}-->
+ワンクリックのリスト登録解除URLは、メール送信者情報の横に表示されるリンクまたはボタンです。これにより、受信者は、ワンクリックですばやくメーリングリストをオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
-これは、ISP のメールインターフェイスに **登録解除** リンクとして表示されます。 例：
+ISPのメールインターフェイスに&#x200B;**登録解除** リンクとして表示されます。 例：
 
 ![](assets/email-list-unsubscribe-example.png)
 
-最適な配信品質の管理を確保するには、List-Unsubscribe と呼ばれる SMTP ヘッダーの追加が必須であり、「スパムとしてレポート」アイコンの代わりに使用できます。 実際、この機能を使用すると、苦情の発生率が低下し、評判を保護するのに役立ちます。
+最適な配信品質の管理を確保するには、List-Unsubscribeという名前のSMTP ヘッダーを追加する必要があり、「迷惑メールとして報告」アイコンの代わりに使用できます。 実際、この機能を使用することで、苦情率を低減し、レピュテーションの保護に役立ちます。
 
 >[!IMPORTANT]
 >
->メールヘッダーにワンクリック購読解除 URL を表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
+>メールヘッダーにワンクリックの購読解除URLを表示するには、受信者のメールクライアントがこの機能をサポートしている必要があります。
 
-この機能を有効にするには、配信プロパティの **[!UICONTROL SMTP]** タブにある **[!UICONTROL ワンクリックリスト – 購読解除ヘッダーの追加]** オプションを選択します。
+この機能を有効にするには、配信プロパティの「**[!UICONTROL SMTP]**」タブで「**[!UICONTROL ワンクリック リスト購読解除ヘッダーの追加]**」オプションを選択します。
 
 >[!NOTE]
 >
@@ -101,23 +102,24 @@ ht-degree: 70%
 <!--
 >[!WARNING]
 >
->If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.-->
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.
+-->
 
-メールクライアントとオプトアウトの実行に使用する方法に応じて、メールヘッダーの **登録解除** リンクをクリックすると、次のような影響が出る場合があります。
+メールクライアントと、オプトアウトを実行するために使用している方法に応じて、メールヘッダーの「**購読解除**」リンクをクリックすると、次の影響を受ける可能性があります。
 
-* メールクライアントで **ワンクリック** List-Unsubscribe メソッドを使用している場合、受信者は直接オプトアウトされます。
+* メールクライアントが&#x200B;**ワンクリック** リスト登録解除メソッドを使用している場合、受信者は直接オプトアウトされます。
 
   >[!NOTE]
   >
-  >Googleや Yahoo！などの主要な ISP **ワンクリックリスト – 購読解除** に準拠することを送信者に求めている。
+  >GoogleやYahoo！などの主要なISP 送信者は&#x200B;**ワンクリック リスト登録解除**&#x200B;に準拠する必要があります。
 
-* メールクライアントがワンクリックリスト – 購読解除をサポートしていない場合でも、**&quot;mailto&quot;** List-Unsubscribe メソッドを使用できます。このメソッドは、メールヘッダーで指定された購読解除アドレスに事前入力されたメールを送信します。
+* メールクライアントがOne-Click List-Unsubscribeをサポートしていない場合でも、**&quot;mailto&quot;** List-Unsubscribe メソッドを使用できます。このメソッドは、メールヘッダーで指定された登録解除アドレスに事前入力されたメールを送信します。
 
-  アドレスは、ヘッダーで明示的に設定するか、動的アドレス（&lt;%=errorAddress%> またはオプション「NmsEmail_DefaultErrorAddr」を使用するなど）を使用できます。このアドレスは、デプロイメントウィザードで設定できます。
+  ヘッダーでアドレスを明示的に設定するか、デプロイメントウィザードで設定できる動的アドレス（例：&lt;%=errorAddress%>、またはオプション &#39;NmsEmail_DefaultErrorAddr&#39;を使用）を使用できます。
 
 >[!NOTE]
 >
->[&#x200B; ワンクリックリスト – 購読解除 &#x200B;](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} および [&quot;mailto&quot; リスト – 購読解除 &#x200B;](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud[&#x200B; 配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"} を参照してください。
+>[One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}および[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud [配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}を参照してください。
 
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
