@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: a81ec247d3c44c06aad977c0c58ad7916d6aa2a6
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 89%
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + リリースノート {#releases}
-   + [早期リリースノート](start/e-release-notes.md)
+   + {hide-from-toc}[早期リリースノート &#x200B;](start/e-release-notes.md)
    + [バージョンとアップグレード](start/upgrades.md)
    + [最新リリース](start/release-notes.md)
    + 以前のリリース {#previous-rn}
@@ -25,12 +25,12 @@ ht-degree: 89%
       + [2024](start/release-notes-2024.md)
       + [2023](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
-      + [2021](start/release-notes-2021.md)
+      + {hide-from-toc}[2021](start/release-notes-2021.md)
    + [ガードレール](start/ac-guardrails.md)
-   + [既知の問題](start/known-issues.md)
+   + {hide-from-toc}[既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
-   + [ドキュメントの更新](start/documentation-updates.md)
-   + [毎月の更新レポート](../../monthly-updates-report.md)
+   + {hide-from-toc}[&#x200B; ドキュメントの更新](start/documentation-updates.md)
+   + [月次更新レポート](../../monthly-updates-report.md)
 + 基本を学ぶ {#new}
    + [Adobe Campaign の概要](start/get-started.md)
    + [主な機能](start/whats-new.md)
@@ -40,7 +40,7 @@ ht-degree: 89%
    + [Campaign Classic v7 から v8 へ](start/v7-to-v8.md)
    + [Campaign Standard から v8 へ](start/acs-to-v8.md)
    + [よくある質問](start/campaign-faq-comprehensive.md)
-   + [よくある質問](start/campaign-faq.md)
+   + {hide-from-toc}[よくある質問](start/campaign-faq.md)
 + 管理と権限 {#permissions}
    + [権限の基本を学ぶ](start/gs-permissions.md)
    + [ユーザー権限の管理](start/manage-permissions.md)
@@ -48,7 +48,7 @@ ht-degree: 89%
    + [コントロールパネル](config/self-service.md)
 + キャンペーン管理 {#campaigns}
    + [キャンペーンの基本を学ぶ](start/campaigns.md)
-   + [Campaign オーケストレーションドキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
+   + [&#x200B; キャンペーンオーケストレーションドキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
 + メッセージの送信 {#send}
    + [メッセージの基本を学ぶ](start/gs-message.md)
    + [最初の配信の作成](start/create-message.md)
@@ -71,14 +71,14 @@ ht-degree: 89%
       + [SMS 配信の作成](send/sms/create-sms.md)
       + [コンテンツの定義](send/sms/sms-content.md)
       + [オーディエンスの選択](send/sms/sms-audience.md)
-      + [SMS 配達確認の送信](send/sms/sms-proofs.md)
+      + [SMS プルーフの送信](send/sms/sms-proofs.md)
       + [オーディエンスに送信](send/sms/sms-send.md)
       + [SMS の監視と追跡](send/sms/sms-monitor.md)
       + SMS チャネルの設定 {#config-sms}
          + [SMS 配信設定](send/sms/sms-delivery-settings.md)
          + [SMPP 外部アカウント設定](send/sms/smpp-external-account.md)
          + [SMPP 接続の検証](send/sms/smpp-connection.md)
-         + [スタンドアロンインスタンス](send/sms/sms-standalone-instance.md)
+         + {hide-from-toc}[スタンドアロンインスタンス](send/sms/sms-standalone-instance.md)
          + [ミッドソーシングインフラストラクチャ](send/sms/sms-mid-sourcing.md)
          + [SMPP コネクタの説明](send/sms/smpp-connector-delivery.md)
    + プッシュ通知 {#push}
@@ -108,7 +108,7 @@ ht-degree: 89%
       + [配信の設定と送信](send/configure-and-send.md)
       + [送信時間の最適化](send/predictive.md)
    + 配信の監視 {#monitor}
-      + [Campaign UI での配信の監視](send/delivery-dashboard.md)
+      + [Campaign UIでの配信の監視](send/delivery-dashboard.md)
       + [配信ステータス](send/delivery-statuses.md)
       + [配信の失敗](send/delivery-failures.md)
       + [強制隔離](send/quarantines.md)
@@ -138,8 +138,8 @@ ht-degree: 89%
       + [テストプロファイルを作成](audiences/test-profiles.md)
    + オーディエンスの作成 {#create-audiences}
       + [連絡先のリストの作成](audiences/create-audiences.md)
-      + [オーディエンスをアドビソリューションと共有](start/shared-audiences.md)
-   + [ベストプラクティス](audiences/audiences-best-practices.md)
+      + {hide-from-toc}[Adobe ソリューションとオーディエンスを共有](start/shared-audiences.md)
+   + {hide-from-toc}[ベストプラクティス](audiences/audiences-best-practices.md)
    + [購読を管理](start/subscriptions.md)
 + ランディングページとForms {#content}
    + [ランディングページの作成](dev/landing-pages.md)
@@ -169,15 +169,15 @@ ht-degree: 89%
       + [匿名インタラクションの管理](interaction/anonymous-interactions.md)
    + [レポートと履歴](interaction/interaction-tracking.md)
    + [ユースケース](interaction/interaction-use-cases.md)
-+ トラッキングと分析 {#analytics}
++ Tracking &amp; Analytics {#analytics}
    + メッセージトラッキング {#tracking}
       + [トラッキングの基本を学ぶ](send/tracking.md)
-      + [トラッキングするリンクの設定](send/tracked-links.md)
+      + [トラッキング対象リンクの設定](send/tracked-links.md)
       + [URL トラッキングオプションの設定](send/url-tracking.md)
       + [パーソナライズされたリンクのトラッキング](send/personalized-links.md)
       + [トラッキングのテスト](send/testing-tracking.md)
       + [トラッキングログへのアクセス](send/tracking-logs.md)
-   + [キャンペーン監視の概要](start/monitor.md)
+   + [キャンペーンモニタリングの概要](start/monitor.md)
    + [監査記録](reporting/audit-trail.md)
    + レポートの操作{#reports}
       + [レポートの基本を学ぶ](reporting/gs-reporting.md)
@@ -237,7 +237,7 @@ ht-degree: 89%
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [列挙の操作](config/enumerations.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-      + [Campaign SDK とアプリの統合 - 非推奨（廃止予定）のページ](config/push-config.md)
+      + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ &#x200B;](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
@@ -256,25 +256,25 @@ ht-degree: 89%
       + [入力フォーム](dev/forms.md)
    + [データパッケージの使用](dev/packages.md)
    + [Campaign API](dev/api.md)
-   + [queryDef を使用したデータベースのクエリ](dev/query-api.md)
+   + {hide-from-toc}[queryDefを使用してデータベースをクエリします](dev/query-api.md)
    + REST API {#apis}
-      + [REST API の概要](dev/api/get-started-apis.md)
+      + [REST APIの基本を学ぶ](dev/api/get-started-apis.md)
       + [推奨事項と制限事項](dev/api/limitations.md)
-      + [REST API を使用するタイミング](dev/api/why-using-campaign-standard-apis.md)
+      + [REST APIを使用するタイミング](dev/api/why-using-campaign-standard-apis.md)
       + [API アクセスの設定](dev/api/setting-up-api-access.md)
       + グローバル概念 {#global-concepts}
-         + [基本的な概念](dev/api/must-read.md)
+         + [基本概念](dev/api/must-read.md)
          + [エンドポイント](dev/api/endpoints.md)
          + [メタデータのメカニズム](dev/api/metadata-mechanism.md)
          + [動詞](dev/api/verbs.md)
-         + [その他の操作](dev/api/sorting.md)
+         + [追加操作](dev/api/sorting.md)
          + [カスタムリソース](dev/api/custom-resources.md)
       + [カスタムリソースの操作](dev/api/interacting-with-custom-resources.md)
       + プロファイルの管理 {#managing-profiles}
          + [プロファイルの取得](dev/api/retrieving-profiles.md)
          + [プロファイルの更新](dev/api/updating-profiles.md)
          + [プロファイルの作成](dev/api/creating-profiles-api.md)
-      + サービスと購読の管理 {#managing-services-and-subscriptions}
+      + サービスとサブスクリプションの管理 {#managing-services-and-subscriptions}
          + [サービスの作成](dev/api/creating-a-service.md)
          + [購読の取得](dev/api/retrieving-subscriptions.md)
          + [購読の実行](dev/api/perform-subscriptions.md)
@@ -285,5 +285,5 @@ ht-degree: 89%
          + [シグナルアクティビティのトリガー](dev/api/triggering-a-signal-activity.md)
 + その他のリソース {#resources}
    + [Campaign テクニカルノート >](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/technotes-home)
-   + [Campaign Web ユーザーインターフェイスのドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
+   + [Campaign Web ユーザーインターフェイス ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
 

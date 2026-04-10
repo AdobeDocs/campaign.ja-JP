@@ -4,8 +4,7 @@ title: マーケティングリソース（MRM）
 description: マーケティングリソース（MRM）
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
-source-git-commit: 0266ffb83ed9b9ef16c0cb87b07b1e7db814c0d6
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 100%

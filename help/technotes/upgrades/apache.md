@@ -3,9 +3,8 @@ product: campaign
 title: テクニカルノート - Adobe Campaign - Apache バージョンのセキュリティアップデート
 description: Adobe Campaign - Apache バージョンのセキュリティアップデート
 hide: true
-hidefromtoc: true
 exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 98%
@@ -19,7 +18,7 @@ ht-degree: 98%
 
 Adobe Campaign はサードパーティ製ツールと連携でき、サポート対象バージョンのみを実装し最新の修正および機能改善を活かせるように、定期的に互換性が更新されています。
 
-Adobe Campaign には、HTTP を介してアプリケーションサーバーへのエントリポイントとして機能し、Apache web サーバーと統合される Apache Tomcat が含まれています。Apache Software Foundation は、Apache HTTP Server 2.4.53 をリリースしました。このバージョンは、影響を受けたシステムをリモート攻撃者が制御できてしまう脆弱性に対処しています。詳しくは、[Apache 2.4.53 の発表 &#x200B;](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"} を参照してください。
+Adobe Campaign には、HTTP を介してアプリケーションサーバーへのエントリポイントとして機能し、Apache web サーバーと統合される Apache Tomcat が含まれています。Apache Software Foundation は、Apache HTTP Server 2.4.53 をリリースしました。このバージョンは、影響を受けたシステムをリモート攻撃者が制御できてしまう脆弱性に対処しています。詳しくは、[Apache 2.4.53の発表](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}を参照してください。
 
 Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バージョンのセキュリティアップグレード作業を実施して、Apache の脆弱性を軽減しインスタンス環境のセキュリティを強化します。このアップグレードの対象となるのは、脆弱なバージョンの Apache HTTP Server 上で動作する Campaign Classic v7 Managed Cloud Services、Campaign v8 および Campaign Standard のすべてのお客様です。対象の顧客には、アドビから既にこのアップグレードに関する通知を送っています。
 

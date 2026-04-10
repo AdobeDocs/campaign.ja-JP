@@ -3,9 +3,8 @@ title: Campaign v8 2021 リリースノート
 description: Campaign v8 2021 リリースで記載される機能と改善点のリスト
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1584'
 ht-degree: 98%
@@ -126,7 +125,7 @@ _2021年9月7日_
 * Tomcat 8 への移行後に、IIS セットアップスクリプトが更新されて、IIS 統合の問題が修正されました。（NEO-31019）
 * ガードレールが追加されて、マーケティングインスタンス上で[請求テクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=ja#billing-report)を実行できるようになりました。
 * ワークフロートランジションの&#x200B;**母集団を表示**&#x200B;ウィンドウのデータタブとスキーマタブで、データソースの識別が改善されました。
-* データベースの更新の問題を防ぐために、欠落していたデータベースインデックスが、xtk:rights、nms:dlvExclusion、nms:seedMember、nms の各スキーマに追加されました :trackingUrl
+* データベース更新の問題を防ぐために、次のスキーマに不足しているデータベースインデックスが追加されました：xtk:rights、nms:dlvExclusion、nms:seedMember、nms:trackingUrl
 
 **パッチ**
 
@@ -165,7 +164,7 @@ _2021 年 7 月 23 日（PT）_
 <p>Campaign v8 では、メインプロファイルテーブルはクラウドデータベースに直接保存されます。したがって、プロファイルテーブルに対してクエリを実行すると、クラウドデータベースにワークテーブルも作成されます。
 特定の操作を実行するために、ワークテーブルを別のデータソースに移動すると効果的な場合があります。
 </p>
-<p>詳しくは、<a href="../config/workflows.md#change-data-source-activity">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../config/workflows.md#change-data-source-activity">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
