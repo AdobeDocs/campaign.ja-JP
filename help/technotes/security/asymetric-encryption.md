@@ -53,5 +53,5 @@ var decrypted = rsaPrivateDecrypt(
 
 **追加リソース**
 
-* [ [!DNL Campaign] APIの使用を開始](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/api){target="_blank"}
-* [Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
+* [&#x200B; [!DNL Campaign] APIの使用を開始](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/api){target="_blank"}
+* [Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
