@@ -1,0 +1,63 @@
+name: Auto approve and merge
+
+on:
+  # Trigger when validation workflow completes (if it exists)
+  workflow_run:
+    workflows: ["validate article"]
+    types:
+      - completed
+  # Trigger directly on PR events (fallback if validation workflow doesn't exist)
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+permissions:
+  actions: read
+  pull-requests: write
+  contents: write
+
+jobs:
+  # Job for workflow_run trigger (when validation workflow exists)
+  auto-approve-merge-from-workflow:
+    # Use concurrency to ensure only one job runs per PR
+    # This prevents both workflow_run and pull_request triggers from running simultaneously
+    concurrency:
+      group: auto-approve-pr-${{ github.event.workflow_run.pull_requests[0].number }}
+      cancel-in-progress: false
+    # Run only when:
+    # 1. Triggered by workflow_run event
+    # 2. The validation workflow completed successfully
+    # 3. The workflow run was triggered by a pull_request event (not push or other events)
+    # 4. The GitHub organization is Adobe-Enterprise-Docs
+    if: |
+      github.event_name == 'workflow_run' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      github.repository_owner == 'Adobe-Enterprise-Docs'
+    uses: Adobe-Enterprise-Docs/workflows/.github/workflows/auto-approve-merge.yml@main
+    with:
+      workflow-run-id: ${{ github.event.workflow_run.id }}
+      workflow-run-head-sha: ${{ github.event.workflow_run.head_sha }}
+    secrets:
+      GITHUB_APP_ID: ${{ secrets.SCCM_GITHUB_APP_ID }}
+      GITHUB_APP_PRIVATE_KEY: ${{ secrets.SCCM_GITHUB_APP_PRIVATE_KEY }}
+
+  # Job for pull_request trigger (when validation workflow doesn't exist)
+  auto-approve-merge-from-pr:
+    # Use same concurrency group pattern - ensures only one job runs per PR
+    # If workflow_run trigger fires, it will take precedence due to concurrency
+    concurrency:
+      group: auto-approve-pr-${{ github.event.pull_request.number }}
+      cancel-in-progress: false
+    if: |
+      github.event_name == 'pull_request' && 
+      github.repository_owner == 'Adobe-Enterprise-Docs'
+    uses: Adobe-Enterprise-Docs/workflows/.github/workflows/auto-approve-merge.yml@main
+    with:
+      pr-number: ${{ github.event.pull_request.number }}
+      validation-workflow-name: 'validate article'
+    secrets:
+      GITHUB_APP_ID: ${{ secrets.SCCM_GITHUB_APP_ID }}
+      GITHUB_APP_PRIVATE_KEY: ${{ secrets.SCCM_GITHUB_APP_PRIVATE_KEY }}
