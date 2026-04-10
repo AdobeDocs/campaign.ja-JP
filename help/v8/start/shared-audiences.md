@@ -5,9 +5,8 @@ feature: Audiences
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 95%
@@ -21,7 +20,7 @@ ht-degree: 95%
 
 オプション 2：Adobe People／AAM
 
-**Adobe Campaign** と **People コアサービス**&#x200B;または Adobe Audience Manager を統合できます。統合すると、次のことが可能になります。
+**Adobe Campaign** と **People コアサービス**&#x200B;または Adobe Audience Manager を統合できます。次のことが可能になります。
 
 * 共有されたオーディエンスまたはセグメントを、他の Adobe Experience Cloud ソリューションから Adobe Campaign にインポートします。オーディエンスは Adobe Campaign のリストを使用してインポートできます。
 
@@ -40,6 +39,6 @@ ht-degree: 95%
 
 詳しくは、次を参照してください。
 
-[Adobe Audience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja){target="_blank"}
+[Adobe Audience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja){target="_blank"}
 
-[Adobe Experience Cloud中央インターフェイスコンポーネントガイド &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}
+[Adobe Experience Cloud中央インターフェイスコンポーネントガイド ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}
