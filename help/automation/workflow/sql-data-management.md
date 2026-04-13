@@ -7,10 +7,10 @@ Role: User
 level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '393'
-ht-degree: 100%
+source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 87%
 
 ---
 
@@ -25,6 +25,16 @@ ht-degree: 100%
 * このアクティビティは、リモートデータソースに対してのみ使用できます。
 * アウトバウンドスキーマがデータベースに存在し、FDA データベースにリンクされている必要があります。
 
+## 重要な注意事項 {#important-notes}
+
+8.9.1以降、**[!UICONTROL SQL コード]**&#x200B;および&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLを実行する際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。
+
+エラーが発生した場合は、次の2つの解決策を使用できます。
+
+* 解決策1 - `XtkSecurity_FeatureFlag_SqlSensitive`
+* 解決策2 - `XtkSecurity_SqlSensitive_Methods`
+
+詳細とベストプラクティスについては、[SQL コード ](sql-code-and-javascript-code.md#important-notes)を参照してください。
 
 ## 「SQL データ管理」アクティビティの設定 {#configuring-the-sql-data-management-activity}
 
@@ -50,13 +60,13 @@ ht-degree: 100%
    このアクティビティでは、スクリプト内で次の変数を使用できます。
 
    * **activity.tableName**：アウトバウンドワークテーブルの SQL 名
-   * **task.incomingTransitionByName(&#39;name&#39;).tableName**：使用する受信トランジションによって実行される作業用テーブルの SQL 名（トランジションは名前で識別されます）
+   * **task.incomingTransitionByName(&#39;name&#39;).tableName**：使用する受信トランジションによって実行されるワークテーブルの SQL 名（トランジションは名前で識別されます）
 
      >[!NOTE]
      >
      >(&#39;name&#39;) 値は、トランジションプロパティの「**[!UICONTROL 名前]**」フィールドに対応しています。
 
-1. アウトバウンド作業用テーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL 作業用テーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
+1. アウトバウンドワークテーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL ワークテーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
 
 1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 

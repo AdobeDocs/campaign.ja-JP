@@ -1,22 +1,20 @@
 ---
 product: campaign
 title: SQL コードと JavaScript コード
-description: SQL と JavaScript コードワークフローアクティビティの詳細を説明します
+description: SQLとJavaScriptのコードワークフローアクティビティについて詳しく見る
 feature: Workflows
 Role: User
 level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '300'
-ht-degree: 100%
+source-git-commit: aa9413dc794cf1a3683b33ca064ce228c90107f7
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 69%
 
 ---
 
 # SQL コードと JavaScript コード{#sql-code-and-javascript-code}
-
-
 
 ## SQL コード {#sql-code}
 
@@ -31,6 +29,22 @@ ht-degree: 100%
 * **[!UICONTROL エラーを処理]**
 
   [エラーを処理](monitor-workflow-execution.md#processing-errors)を参照してください。
+
+### 重要な注意事項 {#important-notes}
+
+8.9.1以降、**[!UICONTROL SQL コード]**&#x200B;および&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLを実行する際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 ミスが発生した場合に従うべきベストプラクティスを以下に示します。
+
+オプションは、**[!UICONTROL 管理]** > **[!UICONTROL プラットフォーム]** > **[!UICONTROL オプション]**&#x200B;で利用できます。 エラーが発生した場合は、次の2つのソリューションを利用できます。
+
+**解決策1**
+
+`XtkSecurity_FeatureFlag_SqlSensitive`を`0`に設定します。 この機能は無効になっています。
+
+**解決策2**
+
+`XtkSecurity_SqlSensitive_Methods`を変更します。 `<method name="TRUNCATE" action="block"/>`を`<method name="TRUNCATE" action="warn"/>`に変更できます
+
+データベースの整合性を保護するために、VACUUM FULL、REINDEX、CREATE INDEX、DROP INDEXなどの他のメソッドもデフォルトでブロックされます。 ブロックではなく警告に設定する場合は注意してください。 これらの方法は、実行時にデータベースのパフォーマンスに深刻な影響を与える可能性があります。
 
 ## JavaScript コードと高度な JavaScript コード {#javascript-code}
 
