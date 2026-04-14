@@ -3,7 +3,7 @@ title: Campaign 送信インフラストラクチャの Amazon Web Services（AW
 description: Campaign 送信インフラストラクチャの Amazon Web Services（AWS）への移行
 hide: true
 exl-id: 50279a2f-0296-43f5-8967-16cc6a0c88f6
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 98%

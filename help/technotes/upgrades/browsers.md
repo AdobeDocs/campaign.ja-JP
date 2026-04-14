@@ -4,7 +4,7 @@ title: Chrome、Firefox および Edge ブラウザーでの Campaign web コン
 description: Chrome、Firefox および Edge ブラウザーでの Campaign web コンポーネントおよびバージョン 100
 hide: true
 exl-id: 912ad71e-2b23-4b16-b5f9-47d547fc83d5
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 100%
