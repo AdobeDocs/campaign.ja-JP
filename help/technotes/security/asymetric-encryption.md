@@ -4,7 +4,7 @@ title: Technote - Adobe Campaignでの非対称暗号化と復号
 description: テクニカルノート - Adobe Campaignでの非対称暗号化と復号
 hide: true
 exl-id: 6ee8b05b-2a46-4adf-a036-82fdd4809d0d
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 2%
@@ -53,5 +53,5 @@ var decrypted = rsaPrivateDecrypt(
 
 **追加リソース**
 
-* [&#x200B; [!DNL Campaign] APIの使用を開始](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/api){target="_blank"}
-* [Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
+* [ [!DNL Campaign] APIの使用を開始](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/api){target="_blank"}
+* [Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}

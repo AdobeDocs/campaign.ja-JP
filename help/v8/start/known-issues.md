@@ -6,10 +6,10 @@ role: Developer
 level: Beginner
 hide: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

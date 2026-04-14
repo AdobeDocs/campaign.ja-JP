@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 hide: true
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 95%
@@ -37,6 +37,6 @@ ht-degree: 95%
 
 詳しくは、次を参照してください。
 
-[Adobe Audience Manager ナレッジベース &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja){target="_blank"}。
+[Adobe Audience Manager ナレッジベース ](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=ja){target="_blank"}。
 
-[Adobe Experience Cloud中央インターフェイス コンポーネント ガイド &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}。
+[Adobe Experience Cloud中央インターフェイス コンポーネント ガイド ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ja){target="_blank"}。
