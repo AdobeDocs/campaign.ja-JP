@@ -12,9 +12,9 @@ ht-degree: 33%
 
 # 2025 リリースノート {#2025-rn}
 
-このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ ](release-notes.md)を参照してください。
+このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ &#x200B;](release-notes.md)を参照してください。
 
-新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース ](release-notes.md)をインストールします。
+新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース &#x200B;](release-notes.md)をインストールします。
 
 >[!BEGINSHADEBOX]
 
@@ -39,14 +39,14 @@ _2025年10月9日_
 
 ### 新機能 {#features-8-8-2}
 
-**新しいSMS送信コネクタ**&#x200B;が、[Campaign FFDA デプロイメント ](../architecture/enterprise-deployment.md)で利用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
+**新しいSMS送信コネクタ**&#x200B;が、[Campaign FFDA デプロイメント &#x200B;](../architecture/enterprise-deployment.md)で利用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
 
 このリリースには、Campaign Web ユーザーインターフェイスで使用できる一連の機能も搭載されています。
 
-* [ トランザクションメッセージのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [&#x200B; トランザクションメッセージのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
 * [トランザクションメッセージ、プッシュ通知、SMS用の多言語機能](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
-Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
+Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### 修正点 {#fixes-8-8-2}
 
@@ -83,7 +83,7 @@ _2025年7月9日（PT）_
 
   >[!NOTE]
   >
-  >この機能は、[Campaign FFDA デプロイメント ](../architecture/enterprise-deployment.md)で利用できる&#x200B;**not**&#x200B;です。
+  >この機能は、[Campaign FFDA デプロイメント &#x200B;](../architecture/enterprise-deployment.md)で利用できる&#x200B;**not**&#x200B;です。
 
 <!-- (from ACC rn, aleady in the product, to remove?) -->
 
@@ -140,7 +140,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
   >[!NOTE]
   >
-  >この機能は、[Campaign FFDA デプロイメント ](../architecture/enterprise-deployment.md)で利用できる&#x200B;**not**&#x200B;です。
+  >この機能は、[Campaign FFDA デプロイメント &#x200B;](../architecture/enterprise-deployment.md)で利用できる&#x200B;**not**&#x200B;です。
 
 * **ワンクリックリスト – 登録解除** – 送信者がワンクリックですばやくオプトアウトできる状態を送信者に求める主要ISPでは、メールテンプレートまたは配信プロパティから直接、ユーザーインターフェイスでワンクリックリスト – 登録解除ヘッダーを有効にできるようになりました。 このオプションは、デフォルトでは有効になっています。 [詳細情報](../send/email-parameters.md#one-click-list-unsubscribe)
 
@@ -157,9 +157,9 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 * [配信アラート](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
 * [ランディングページの改善](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
 * [Dynamic Reporting](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} （オンデマンド）
-* [一元化されたブランディング ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"} （オンデマンド、新しい実装）
+* [一元化されたブランディング &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"} （オンデマンド、新しい実装）
 
-Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
+Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### 一般的な改善点 {#improvements-8-8-1}
 

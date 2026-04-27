@@ -47,7 +47,7 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
    ![](assets/aem_authoring_3.png)
 
-1. Adobe Campaignのパーソナライゼーションフィールドなどのコンポーネントを追加して、メールコンテンツをカスタマイズできます。詳しくは、[Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ja#editing-email-content){target="_blank"}を参照してください。
+1. Adobe Campaignのパーソナライゼーションフィールドなどのコンポーネントを追加して、メールコンテンツをカスタマイズできます。詳しくは、[Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ja#editing-email-content){target="_blank"}を参照してください。
 
 1. メールの準備が整ったら、**[!UICONTROL ページ情報]**&#x200B;メニューに移動し、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 

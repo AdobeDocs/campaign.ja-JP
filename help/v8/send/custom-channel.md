@@ -17,7 +17,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。 ただし、カスタムチャネル設定はクライアントコンソールでのみ実行されます。
 
-カスタムチャネルに基づいて配信を作成および送信する方法については、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"}を参照してください。
+カスタムチャネルに基づいて配信を作成および送信する方法については、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"}を参照してください。
 
 クライアントコンソールで新しいカスタムチャネルを設定する手順は次のとおりです。 次の手順は、カスタム外部チャネルと API チャネルに共通です。
 
@@ -80,7 +80,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 クライアントコンソールから、カスタムチャネルに必要なすべての追加プロパティを含む&#x200B;**配信** スキーマを拡張します。
 
-スキーマ拡張機能について詳しくは、この[ ページ ](../dev/extend-schema.md)を参照してください。
+スキーマ拡張機能について詳しくは、この[&#x200B; ページ &#x200B;](../dev/extend-schema.md)を参照してください。
 
 ### カスタム画面定義の設定{#api-additional-screen}
 
@@ -90,7 +90,7 @@ Campaign Web UIから、カスタム画面定義を設定します。
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}を参照してください。
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}を参照してください。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

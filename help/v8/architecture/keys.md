@@ -61,7 +61,7 @@ Unicity Service は専用の&#x200B;**[!UICONTROL 単一性アラート]**&#x200
 
 >[!NOTE]
 >
->これらのガードレールは、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>これらのガードレールは、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
 
 ### 配信準備 {#remove-duplicates-delivery-preparation}
 

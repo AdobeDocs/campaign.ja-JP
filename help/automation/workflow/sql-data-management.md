@@ -34,7 +34,7 @@ ht-degree: 81%
 * 解決策1 - `XtkSecurity_FeatureFlag_SqlSensitive`
 * 解決策2 - `XtkSecurity_SqlSensitive_Methods`
 
-詳細とベストプラクティスについては、[SQL コード ](sql-code-and-javascript-code.md#important-notes)を参照してください。
+詳細とベストプラクティスについては、[SQL コード &#x200B;](sql-code-and-javascript-code.md#important-notes)を参照してください。
 
 ## 「SQL データ管理」アクティビティの設定 {#configuring-the-sql-data-management-activity}
 
