@@ -1,21 +1,21 @@
 ---
 title: Campaign セキュリティ強化アドオン
-description: Campaign セキュリティ強化アドオンのセキュリティで保護された設定ガイダンス
+description: Campaign Enhanced Security アドオンのセキュアな設定ガイダンス
 feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 94%
+source-wordcount: '801'
+ht-degree: 90%
 
 ---
 
 
 # Campaign セキュリティ強化アドオン {#enhanced-security}
 
-このページは、Adobe v8 向けの Campaign [&#x200B; 公開されている推奨されるセキュア設定ガイダンス &#x200B;](security.md#public-guidance) の一部です。
+このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス ](security.md#public-guidance)の一部です。
 
 ネットワーク接続とリソースのセキュリティを強化するために、[!DNL Adobe Campaign] では新しい&#x200B;**セキュリティ強化**&#x200B;アドオンが提供されています。
 
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 これらの詳細は次のとおりです。
 
-このページでは、セキュリティ機能の強化に関するガードレールと制限の一部を示します。また、セキュア CMK 統合／セキュア VPN トンネリングのユースケースがすべて機能していることを確認する必要があります。
+このページでは、セキュリティ機能の強化に関するガードレールと制限の一部を示します。 また、セキュア CMK 統合／セキュア VPN トンネリングのユースケースがすべて機能していることを確認する必要があります。
 
 これらの機能が実装されると、アドビでは以下を監視します。
 
@@ -39,36 +39,36 @@ ht-degree: 94%
 
 **セキュア顧客管理キー（CMK）統合**&#x200B;を使用すると、Amazon Web Services（AWS）アカウントから独自のキーを使用して保存データを暗号化できます。
 
-顧客管理キーは、作成、所有および管理の対象となる AWS アカウントでのキー管理サービス（KMS）キーです。KMS キーを完全に管理でき、それらを使用してデータを暗号化および復号します。この機能では暗号化キーの生成と管理をユーザーに任せることで、キーの失効など、キーの管理を強化できます。
+顧客管理キーは、作成、所有および管理の対象となる AWS アカウントでのキー管理サービス（KMS）キーです。 KMS キーを完全に管理でき、それらを使用してデータを暗号化および復号します。 この機能では暗号化キーの生成と管理をユーザーに任せることで、キーの失効など、キーの管理を強化できます。
 
 >[!CAUTION]
 >
->キーを無効にする場合は、その影響を認識しておく必要があります。[詳細情報](#cmk-callouts)
+>キーを無効にする場合は、その影響を認識しておく必要があります。 [詳細情報](#cmk-callouts)
 
 CMK と Campaign の統合を有効にするには、次の手順に従います。
 
 1. [Amazon Web Services（AWS）](https://aws.amazon.com/jp/){target="_blank"}アカウントに接続します。
 
-1. AWS Key Management Service（KMS）を使用して、自動ローテーションでキーを生成します。[詳細情報](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/create-keys.html){target="_blank"}。
+1. AWS Key Management Service（KMS）を使用して、自動ローテーションでキーを生成します。 [詳細情報](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/create-keys.html){target="_blank"}。
 
-1. リソースにアクセス権を付与するには、アドビから提供されたポリシーを AWS アカウントに適用します。[詳細情報](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
+1. リソースにアクセス権を付与するには、アドビから提供されたポリシーを AWS アカウントに適用します。 [詳細情報](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/key-policy-services.html){target="_blank"}。<!--link TBC-->
 
-1. [Amazon リソース名（キー ARN）](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}を [!DNL Adobe Campaign] と共有します。これを行うには、アドビ担当者に連絡してください。<!--or Adobe transition manager?-->
+1. [Amazon リソース名（キー ARN）](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"}を [!DNL Adobe Campaign] と共有します。 これを行うには、アドビ担当者に連絡してください。<!--or Adobe transition manager?-->
 
-1. Amazon EventBridge ルールを作成およびテストして、アドビによるキーのモニタリングを有効にします。[詳細情報](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
+1. Amazon EventBridge ルールを作成してテストし、Adobeによるキーのモニタリングを有効にします。&#x200B;[詳細情報](https://docs.aws.amazon.com/ja_jp/eventbridge/latest/userguide/eb-rules.html){target="_blank"}。
 
 
 ### ガードレールと制限 {#cmk-callouts}
 
 Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が適用されます。
 
-* アドビでは、[Amazon Web Services（AWS）](https://aws.amazon.com/jp/){target="_blank"}アカウントを提供しません。ユーザーは自身の AWS アカウントを持ち、キーを生成してアドビと共有するように設定する必要があります。
+* アドビでは、[Amazon Web Services（AWS）](https://aws.amazon.com/jp/){target="_blank"}アカウントを提供しません。 ユーザーは自身の AWS アカウントを持ち、キーを生成してアドビと共有するように設定する必要があります。
 
-* [AWS Key Management Service](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/overview.html){target="_blank"}（KMS）キーのみがサポートされています。KMS 以外でお客様が生成したキーは使用できません。
+* [AWS Key Management Service](https://docs.aws.amazon.com/ja_jp/kms/latest/developerguide/overview.html){target="_blank"}（KMS）キーのみがサポートされています。 KMS 以外でお客様が生成したキーは使用できません。
 
-* 初回設定中にダウンタイムが発生することが予想されます。ダウンタイムの時間は、データベースのサイズによって異なります。
+* 初めてのセットアップ時にダウンタイムが予想されます。 &#x200B;ダウンタイム時間は、データベースのサイズによって異なります。
 
-* 顧客がキーを所有および管理します。キーに変更が生じた場合にはアドビに連絡する必要があります。
+* 顧客がキーを所有および管理します。 キーに変更が生じた場合にはアドビに連絡する必要があります。
 
 * [AWS CloudTrail](https://docs.aws.amazon.com/ja_jp/awscloudtrail/latest/userguide/cloudtrail-user-guide.html){target="_blank"} を使用してキーを監査し、必要に応じて失効させることができます。
 
@@ -126,7 +126,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 * HiveSQL による Hadoop
 * PostgreSQL
 
-クラウドデータベースがサポートされています。 [&#x200B; 互換性マトリックス &#x200B;](../start/compatibility-matrix.md#FederatedDataAccessFDA) を参照してください。
+クラウドデータベースがサポートされています。 [互換性マトリックス ](../start/compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
 
 >[!NOTE]
 >

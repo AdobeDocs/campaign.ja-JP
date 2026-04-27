@@ -1,29 +1,29 @@
 ---
 title: プロファイルの取得
-description: API を使用してプロファイルを取得する方法の詳細を説明します
+description: APIを使用してプロファイルを取得する方法の詳細
 role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '235'
 ht-degree: 4%
 
 ---
 
-# API を使用したプロファイルの取得 {#retrieving-profiles}
+# APIによるプロファイルの取得 {#retrieving-profiles}
 
 プロファイルの取得は、**GET** リクエストで実行されます。
 
-その後、フィルター、順序、ページネーションを使用して、検索を絞り込むことができます。 詳しくは、[&#x200B; その他の操作 &#x200B;](sorting.md) の節を参照してください。
+その後、フィルター、順序、ページ分割を使用して検索を絞り込むことができます。 詳しくは、[追加操作](sorting.md) セクションを参照してください。
 
-さらに、Campaign Standard API では、「メール」、「名」、「姓」または任意のカスタムフィールドのいずれか 1 つに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
+さらに、Campaign Standard APIを使用すると、電子メール、名、姓、または任意のカスタムフィールドのいずれかのフィールドに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-* すべてのプロファイルを取得するサンプル GET リクエスト。
+* すべてのプロファイルを取得するためのGET リクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -33,7 +33,7 @@ ht-degree: 4%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  リクエストに対する応答。
+  リクエストへの応答。
 
   ```
   {
@@ -49,7 +49,7 @@ ht-degree: 4%
   }
   ```
 
-* 最初の 10 個のメール値を取得するサンプル GET リクエスト。
+* GET リクエストをサンプルして、最初の10個のメール値を取得します。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -59,7 +59,7 @@ ht-degree: 4%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  リクエストに対する応答。 「next」ノードは、次の 10 件のメール値へのアクセスを許可する URL を返します。
+  リクエストへの応答。 「next」ノードは、次の10個のメール値にアクセスできるURLを返します。
 
   ```
   {
@@ -84,15 +84,15 @@ ht-degree: 4%
 
 ## フィールドに基づくプロファイルの検索 {#searching-field}
 
-**[!UICONTROL filterType]** パラメーターを使用すると、次のいずれかのフィールドに基づいてプロファイルを取得できます。メール、名、姓、またはプロファイルリソースを拡張する際の詳細フィルタリングで追加されたカスタムフィールド。
+**[!UICONTROL filterType]** パラメーターを使用すると、プロファイルリソースの拡張時に高度なフィルタリングで追加された電子メール、名、姓またはカスタムフィールドのいずれかのフィールドに基づいてプロファイルを取得できます。
 
 >[!NOTE]
 >
 >検索では大文字と小文字が区別され、プレフィックスに対してのみ実行されます。 例えば、姓の最後の文字を使用してプロファイルを検索することはできません。
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-* 名に基づいてプロファイルをフィルタリングするリクエストのサンプル。
+* 名前に基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -102,7 +102,7 @@ ht-degree: 4%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-* 姓に基づいてプロファイルをフィルタリングするサンプルリクエスト。
+* 姓に基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \

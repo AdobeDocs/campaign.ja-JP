@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '230'
+workflow-type: tm+mt
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 SMS の送信後は、配信のコンテンツに関する「**[!UICONTROL SMS]**」タブにアクセスして変更することはできなくなります。
 
-「**[!UICONTROL 配信]**」タブには、配信ログに関する情報が表示されます。連絡先アドレスごとに、SMS が送信されたかどうかを確認できます
+「**[!UICONTROL 配信]**」タブには、配信ログに関する情報が表示されます。 連絡先アドレスごとに、SMS が送信されたかどうかを確認できます
 
 ![](assets/sms_deliverylogs.png){zoomable="yes"}
 
@@ -39,7 +39,7 @@ SMS の送信後は、配信のコンテンツに関する「**[!UICONTROL SMS]*
 
 ![](assets/sms_exclusions.png){zoomable="yes"}
 
-「**[!UICONTROL トラッキング]**」タブには、トラッキングに関する情報が表示されます。SMS コンテンツで追跡される URL の例を以下に示します。
+「**[!UICONTROL トラッキング]**」タブには、トラッキングに関する情報が表示されます。 SMS コンテンツで追跡される URL の例を以下に示します。
 
 ![](assets/sms_trackinglogs.png){zoomable="yes"}
 

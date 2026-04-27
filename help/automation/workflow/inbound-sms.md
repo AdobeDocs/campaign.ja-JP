@@ -7,7 +7,7 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 2c12c45b-4429-4e60-bc96-ff70a95d4c9e
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 ![](assets/sms_rec_edit.png)
 
-「**インバウンド SMS**」アクティビティの最初のタブで SMS メッセージのルーティングのパラメーターを入力し、メッセージの受信時に実行するスクリプトを入力します。2 番目のタブではアクティビティのスケジュールを設定でき、3 番目のタブではアクティビティの有効期限を設定できます。
+「**インバウンド SMS**」アクティビティの最初のタブで SMS メッセージのルーティングのパラメーターを入力し、メッセージの受信時に実行するスクリプトを入力します。 2 番目のタブではアクティビティのスケジュールを設定でき、3 番目のタブではアクティビティの有効期限を設定できます。
 
-1. **[!UICONTROL SMS ルーティング]**：SMS メッセージの取得に使用する外部アカウントを選択します。外部アカウントは、ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードを通じて設定します。[詳細情報](../../v8/config/external-accounts.md)
+1. **[!UICONTROL SMS ルーティング]**：SMS メッセージの取得に使用する外部アカウントを選択します。 外部アカウントは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理者／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。 [詳細情報](../../v8/config/external-accounts.md)
 1. **[!UICONTROL スクリプト]**
 1. **[!UICONTROL スケジュール]**
 

@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 feature: Workflows, Privacy
 source-git-commit: 0266ffb83ed9b9ef16c0cb87b07b1e7db814c0d6
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '109'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 # プライバシーデータ保護規則{#general-data-protection-regulation-gdpr}
 
 
-以下に説明するワークフローは、デフォルトで&#x200B;**プライバシーデータ保護規則**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、この[記事](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)を参照してください。
+以下に説明するワークフローは、デフォルトで&#x200B;**プライバシーデータ保護規則**&#x200B;モジュールと共にインストールされます。 このモジュールについて詳しくは、この[記事](https://helpx.adobe.com/jp/campaign/kb/acc-privacy.html)を参照してください。
 
 <table> 
  <tbody> 

@@ -6,22 +6,22 @@ hide: true
 exl-id: cc64cce1-2473-4136-aadc-8b13e89ef7f9
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '328'
 ht-degree: 100%
 
 ---
 
 # Adobe Campaign 2023 環境のアップグレード {#ac-system-upgrade}
 
-Campaign インフラストラクチャは、最新のバージョンと修正で定期的に更新する必要があるサードパーティ製システムに依存しています。これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。また、サードパーティシステムの変更との互換性を確保するには、Campaign のアップグレードが必要です。
+Campaign インフラストラクチャは、最新のバージョンと修正で定期的に更新する必要があるサードパーティ製システムに依存しています。 これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。 また、サードパーティシステムの変更との互換性を確保するには、Campaign のアップグレードが必要です。
 
-**Managed Cloud Services のお客様**&#x200B;には、これらのアップグレードが必要なときに、アドビからお知らせします。コンプライアンスを確保するために、レコメンデーションに従って環境をアップグレードする必要があります。
+**Managed Cloud Services のお客様**&#x200B;には、これらのアップグレードが必要なときに、アドビからお知らせします。 コンプライアンスを確保するために、レコメンデーションに従って環境をアップグレードする必要があります。
 
 セキュリティ上の理由から、アドビが[最新の Campaign ビルドをインストール](#ac-upgrade)してから、[オペレーティングシステム](#os-upgrade)や[関係データベース管理システム（RDBMS）](#pg-upgrade)をアップグレードする必要があります。
 
 >[!NOTE]
 >
->これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>これらの変更点に関するご質問は、[アドビのサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 >
 
 ## Campaign ビルドのアップグレード {#ac-upgrade}
@@ -38,7 +38,7 @@ Managed Cloud Services のお客様には、アドビから連絡があり、お
 
 **影響の有無**
 
-Debian オペレーティングシステムで Campaign を実行している場合、最新の Debian セキュリティアップデートを活用するには、アドビが Campaign インフラストラクチャを **Debian 11** に移行する必要があります。Debian 9 のセキュリティサポートは、2023年6月30日（PT）まで利用可能です。
+Debian オペレーティングシステムで Campaign を実行している場合、最新の Debian セキュリティアップデートを活用するには、アドビが Campaign インフラストラクチャを **Debian 11** に移行する必要があります。 Debian 9 のセキュリティサポートは、2023年6月30日（PT）まで利用可能です。
 
 **更新方法**
 
@@ -48,7 +48,7 @@ Managed Cloud Services のお客様には、アドビから連絡があり、お
 
 **影響の有無**
 
-Campaign のデータベースシステムが PostgreSQL である場合、PostgreSQL の最新のイノベーションとセキュリティアップデートを活用するには、アドビが **PostgreSQL 14** にアップグレードする必要があります。なお、PostgreSQL 11 は、2023年11月9日（PT）に提供終了となります。
+Campaign のデータベースシステムが PostgreSQL である場合、PostgreSQL の最新のイノベーションとセキュリティアップデートを活用するには、アドビが **PostgreSQL 14** にアップグレードする必要があります。 なお、PostgreSQL 11 は、2023年11月9日（PT）に提供終了となります。
 
 **更新方法**
 

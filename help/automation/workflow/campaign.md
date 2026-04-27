@@ -7,8 +7,8 @@ role: User, Admin
 version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '155'
+workflow-type: tm+mt
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -35,19 +35,19 @@ ht-degree: 100%
    <td> 予算、プラン、プログラム、キャンペーン、配信およびタスクに関する費用行とコスト行の計算を開始します。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">在庫 : オーダーおよびアラート</span> <br /> </td> 
+   <td> <span class="uicontrol">在庫：オーダーおよびアラート</span> <br /> </td> 
    <td> <span class="uicontrol">stockMgt</span> <br /> </td> 
    <td> このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">キャンペーンの配信ジョブ</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryMgt</span> <br /> </td> 
-   <td> 承認された配信をトリガーし、外部配信のサービスプロバイダーの後処理を開始します。また、承認通知とリマインダーも送信します。<br /> </td> 
+   <td> 承認された配信をトリガーし、外部配信のサービスプロバイダーの後処理を開始します。 また、承認通知とリマインダーも送信します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">キャンペーンジョブ</span> <br /> </td> 
    <td> <span class="uicontrol">operationMgt</span> <br /> </td> 
-   <td> マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。<br /> </td> 
+   <td> マーケティングキャンペーンに関するジョブ（ターゲティングの開始、ファイル抽出など）を管理します。 また、繰り返しキャンペーンと定期的キャンペーンに関連するワークフローも作成します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">サービスプロバイダーのジョブ</span> <br /> </td> 

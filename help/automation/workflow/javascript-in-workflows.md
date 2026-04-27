@@ -7,9 +7,9 @@ role: Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '1690'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 静的および非静的 SOAP メソッドについての[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"}
 
-これらの例では、ECMAScript for XML（E4X）拡張機能を使用しています。この拡張機能を使用すると、JavaScript 呼び出しと XML プリミティブを同じスクリプトに組み合わせることができます。
+これらの例では、ECMAScript for XML（E4X）拡張機能を使用しています。 この拡張機能を使用すると、JavaScript 呼び出しと XML プリミティブを同じスクリプトに組み合わせることができます。
 
 これらの例を試すには、次の手順に従います。
 
@@ -38,12 +38,12 @@ ht-degree: 100%
 1. アクティビティに JavaScript コードを追加します。 [詳細情報](advanced-parameters.md)。
 1. ワークフローを保存します。
 1. 例をテストします。
-   1. ワークフローを開始します。[詳細情報](start-a-workflow.md)。
+   1. ワークフローを開始します。 [詳細情報](start-a-workflow.md)。
    1. ジャーナルを開きます。 [詳細情報](monitor-workflow-execution.md#displaying-logs)。
 
 ## 例 1：データベースに書き込む{#write-example}
 
-データベースに書き込むには、`xtk:session` スキーマの静的 `Write` メソッドを使用します。 
+データベースに書き込むには、`xtk:session` スキーマの静的 `Write` メソッドを使用します。
 
 1. XML で書き込みリクエストを作成します。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
    1. `xtk:session` スキーマの `Write` メソッドを呼び出します。
 
       >[!IMPORTANT]
-      > Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}。
+      > Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取り込み**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}。
 
    1. XML コードを書き込みリクエストの引数として渡します。
 
@@ -80,7 +80,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### レコードの更新
 
-`_update` 操作を使用します。 
+`_update` 操作を使用します。
 
 この情報を XML 属性として指定します。
 
@@ -167,7 +167,7 @@ xtk.session.Write(myXML)
 
 * 読み取るテーブルのスキーマ
 * 操作
-*  `select` 句で返される列
+* `select` 句で返される列
 * `where` 句の条件
 * `orderBy` 句のフィルタリング条件
 
@@ -176,8 +176,8 @@ xtk.session.Write(myXML)
 | 操作 | 結果 |
 | --- | --- |
 | `select` | 0 個以上の要素がコレクションとして返されます。 |
-| `getIfExists` | 1 つの要素が返されます。一致する要素が存在しない場合は、空の要素が返されます。 |
-| `get` | 1 つの要素が返されます。一致する要素が存在しない場合は、エラーが返されます。 |
+| `getIfExists` | 1 つの要素が返されます。 一致する要素が存在しない場合は、空の要素が返されます。 |
+| `get` | 1 つの要素が返されます。 一致する要素が存在しない場合は、エラーが返されます。 |
 | `count` | 一致するレコードの数は、 `count` 属性を持つ要素の形式で返されます。 |
 
 XML 要素として `select`、`where` および `orderBy` 句を記述します。
@@ -209,7 +209,7 @@ XML 要素として `select`、`where` および `orderBy` 句を記述します
   </where>
   ```
 
-  複数の式を組み合わせる場合は、最初の式でブール演算子を使用します。例えば、Isabel Garcia という名前の人をすべて選択するには、次のコードを記述します。
+  複数の式を組み合わせる場合は、最初の式でブール演算子を使用します。 例えば、Isabel Garcia という名前の人をすべて選択するには、次のコードを記述します。
 
   ```xml
   <condition boolOperator="AND" expr="@firstName='Isabel'"/>
@@ -218,7 +218,7 @@ XML 要素として `select`、`where` および `orderBy` 句を記述します
 
 * `orderBy` 句
 
-  結果セットを並べ替えるには、`orderBy` 句を `sortDesc` 属性を持つ XML 要素として指定します。例えば、姓を昇順に並べ替えるには、次のコードを記述します。
+  結果セットを並べ替えるには、`orderBy` 句を `sortDesc` 属性を持つ XML 要素として指定します。 例えば、姓を昇順に並べ替えるには、次のコードを記述します。
 
   ```xml
   <orderBy>
@@ -245,7 +245,7 @@ var query = xtk.queryDef.create(
 
 次の手順に従います。
 
-1.  `queryDef` エンティティで `ExecuteQuery` メソッドを呼び出します。
+1. `queryDef` エンティティで `ExecuteQuery` メソッドを呼び出します。
 
    ```javascript
    var res = query.ExecuteQuery()
@@ -274,7 +274,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。`logInfo` 関数についての[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}。
+ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。 `logInfo` 関数についての[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}。
 
 #### `getIfExists` 操作の結果
 
@@ -311,7 +311,7 @@ if (res.@id !=undefined)
 
 >[!TIP]
 >
->一致があることがわかっている場合は、`get` 操作を使用します。 それ以外の場合は、`getIfExists` 操作を使用します。 このベストプラクティスを使用すると、エラーによって予期しない問題が明らかになります。`get` 操作を使用する場合、`try…catch` ステートメントは使用しません。問題は、ワークフローのエラー処理プロセスによって処理されます。
+>一致があることがわかっている場合は、`get` 操作を使用します。 それ以外の場合は、`getIfExists` 操作を使用します。 このベストプラクティスを使用すると、エラーによって予期しない問題が明らかになります。 `get` 操作を使用する場合、`try…catch` ステートメントは使用しません。 問題は、ワークフローのエラー処理プロセスによって処理されます。
 
 #### `count` 操作の結果
 
@@ -358,7 +358,7 @@ for each (var rcp in res.recipient)
 
 例えば、テクニカルワークフローで、またはユーザーが web アプリケーションページに入力した情報を処理するために、プログラムでワークフローをトリガーすることができます。
 
-ワークフロートリガーは、イベントを使用して機能します。イベントには、次の機能を使用できます。
+ワークフロートリガーは、イベントを使用して機能します。 イベントには、次の機能を使用できます。
 
 * イベントを投稿するには、静的 `PostEvent` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja){target="_blank"}。
 * イベントを受け取るには、**[!UICONTROL 外部シグナル]**&#x200B;アクティビティを使用します。 [詳細情報](external-signal.md)。
@@ -370,11 +370,11 @@ for each (var rcp in res.recipient)
    * 最初のワークフローの「**[!UICONTROL 終了]**」アクティビティに初期化スクリプトを追加します。
    * ターゲットワークフローの開始時に「**[!UICONTROL 外部シグナル]**」アクティビティを追加します。
 
-     最初のワークフローが完了すると、イベントが投稿されます。送信トランジションが有効化され、イベント変数が入力されます。次に、ターゲットワークフローがイベントを受け取ります。
+     最初のワークフローが完了すると、イベントが投稿されます。 送信トランジションが有効化され、イベント変数が入力されます。 次に、ターゲットワークフローがイベントを受け取ります。
 
      >[!TIP]
      >
-     >ベストプラクティスとして、スクリプトをアクティビティに追加するときは、アクティビティ名を二重ハイフンで囲みます（例：`-- end --`）。ワークフローのベストプラクティスについての[詳細情報](workflow-best-practices.md)
+     >ベストプラクティスとして、スクリプトをアクティビティに追加するときは、アクティビティ名を二重ハイフンで囲みます（例：`-- end --`）。 ワークフローのベストプラクティスについての[詳細情報](workflow-best-practices.md)
 
 `PostEvent` メソッドの構文：
 
@@ -404,8 +404,8 @@ xtk.workflow.PostEvent(
 
 ワークフローをトリガーする際は、次の原則に留意してください。
 
-* `PostEvent` コマンドは非同期で実行されます。コマンドはサーバーキューに配置されます。イベントが投稿されると、メソッドが返されます。
-* ターゲットワークフローを開始する必要があります。そうしないと、エラーがログファイルに書き込まれます。
+* `PostEvent` コマンドは非同期で実行されます。 コマンドはサーバーキューに配置されます。 イベントが投稿されると、メソッドが返されます。
+* ターゲットワークフローを開始する必要があります。 そうしないと、エラーがログファイルに書き込まれます。
 * ターゲットワークフローが一時停止されている場合、ワークフローが再開されるまで `PostEvent` コマンドはキューに入れられます。
 * トリガーされたアクティビティでは、タスクが進行中である必要はありません。
 
@@ -427,7 +427,7 @@ xtk.workflow.PostEvent(
 
 1. クエリを定義します。
 
-   * 対応するスキーマ（例えば `xtk:workflow` スキーマ）で `create` メソッドを使用してエンティティを取得します。[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja){target="_blank"}。
+   * 対応するスキーマ（例えば `xtk:workflow` スキーマ）で `create` メソッドを使用してエンティティを取得します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja){target="_blank"}。
    * `queryDef` メソッドを使用して SQL クエリを発行します。
 
 1. `ExecuteQuery` メソッドを使用してクエリを実行します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"}。
@@ -465,7 +465,7 @@ xtk.workflow.PostEvent(
 
 #### 例 1：レコードを選択してジャーナルに書き込む
 
-**wfExamples** フォルダーにあるワークフローの内部名が選択されます。結果は内部名で昇順に並べ替えられ、ジャーナルに書き込まれます。
+**wfExamples** フォルダーにあるワークフローの内部名が選択されます。 結果は内部名で昇順に並べ替えられ、ジャーナルに書き込まれます。
 
 ```javascript
 var query = xtk.queryDef.create(
@@ -489,7 +489,7 @@ for each (var w in res.workflow)
 
 #### 例 2：レコードを削除する
 
-Chris Smith という名前のすべての受信者の名、姓、電子メールおよび ID が選択されます。結果は電子メールで昇順に並べ替えられ、ジャーナルに書き込まれます。`delete` 操作を使用して、選択したレコードを削除します。
+Chris Smith という名前のすべての受信者の名、姓、電子メールおよび ID が選択されます。 結果は電子メールで昇順に並べ替えられ、ジャーナルに書き込まれます。 `delete` 操作を使用して、選択したレコードを削除します。
 
 ```javascript
 // Build the query, create a query object and hold the object in a variable
@@ -525,7 +525,7 @@ for each (var rec in res.recipient)
 
 #### 例 3：レコードを選択してジャーナルに書き込む
 
-この例では、非静的メソッドが使用されます。情報が **1234** フォルダーに保存され、電子メールドメイン名が「adobe」で始まるすべての受信者の電子メールと生年月日が選択されます。結果は生年月日の降順で並べ替えられます。受信者の電子メールがジャーナルに書き込まれます。
+この例では、非静的メソッドが使用されます。 情報が **1234** フォルダーに保存され、電子メールドメイン名が「adobe」で始まるすべての受信者の電子メールと生年月日が選択されます。 結果は生年月日の降順で並べ替えられます。 受信者の電子メールがジャーナルに書き込まれます。
 
 ```javascript
 var query = xtk.queryDef.create(
@@ -552,17 +552,17 @@ for each (var w in res.recipient)
 
 ### `Write` メソッド
 
-レコードの挿入、更新、削除を行うことができます。Adobe Campaign のどのスキーマでも `Write` メソッドを使用できます。このメソッドは静的なので、オブジェクトを作成する必要はありません。これらの操作を使用できます。
+レコードの挿入、更新、削除を行うことができます。 Adobe Campaign のどのスキーマでも `Write` メソッドを使用できます。 このメソッドは静的なので、オブジェクトを作成する必要はありません。 これらの操作を使用できます。
 
 * `update` 操作
 * 更新するレコードを識別するための `_key` 引数を使用した `insertOrUpdate` 操作
 
-  **受信者**&#x200B;フォルダーを指定しない場合は、一致するものがあれば、レコードは任意のサブフォルダーで更新されます。それ以外の場合、レコードはルート&#x200B;**受信者**&#x200B;フォルダーに作成されます。
+  **受信者**&#x200B;フォルダーを指定しない場合は、一致するものがあれば、レコードは任意のサブフォルダーで更新されます。 それ以外の場合、レコードはルート&#x200B;**受信者**&#x200B;フォルダーに作成されます。
 
 * `delete` 操作
 
 >[!IMPORTANT]
-> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取得**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}。
+> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取り込み**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=ja){target="_blank"}。
 
 #### 例 1：レコードを挿入または更新する
 
@@ -612,11 +612,11 @@ xtk.session.Write(
 
 ### API ドキュメント
 
-* [SOAP 呼び出しのサンプル](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"}
+* [SOAP呼び出しのサンプル](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"}
 * メソッド：
    * [作成](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja){target="_blank"}
    * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ja){target="_blank"}
    * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"}
    * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja){target="_blank"}
-   * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ja){target="_blank"}
-* [logInfo 関数](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}
+   * [書き込み](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ja){target="_blank"}
+* [logInfo関数](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}

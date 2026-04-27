@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '280'
 ht-degree: 100%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 100%
 
 ## 繰り返し配信の設定方法
 
-**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 件の配信が存在することになります。また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
+**繰り返し配信**&#x200B;では、実行のたびに新しい配信インスタンスを作成します。 例えば、ワークフローが週に 1 回実行されるようにスケジュールされている場合、1 年後には 52 件の配信が存在することになります。 また、broadLog とトラッキングログは、各配信インスタンスで区切られます。
 
 ![繰り返し配信](assets/delivery_recurring.jpg)
 
-繰り返し配信の実行を停止する場合は、キャンペーンを完全にキャンセルするか、キャンペーンの実行ワークフローを停止する必要があります。Campaign ダッシュボードから配信を停止すると、配信の発生のみが停止されます。繰り返し配信の次のインスタンスは、ワークフローの実行のたびに作成され続けます。
+繰り返し配信の実行を停止する場合は、キャンペーンを完全にキャンセルするか、キャンペーンの実行ワークフローを停止する必要があります。 Campaign ダッシュボードから配信を停止すると、配信の発生のみが停止されます。繰り返し配信の次のインスタンスは、ワークフローの実行のたびに作成され続けます。
 
 >[!NOTE]
 >
@@ -53,6 +53,6 @@ ht-degree: 100%
 
 このビデオでは、繰り返し配信とスケジューラーアクティビティを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27508?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

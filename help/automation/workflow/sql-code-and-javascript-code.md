@@ -9,7 +9,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 8c385847-a320-4cd9-9048-2bf9daf2ee07
 source-git-commit: aa9413dc794cf1a3683b33ca064ce228c90107f7
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '423'
 ht-degree: 69%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 69%
 
 ## SQL コード {#sql-code}
 
-「**[!UICONTROL SQL コード]**」アクティビティは、SQL スクリプトを実行します。スクリプトは、JST テンプレートです。
+「**[!UICONTROL SQL コード]**」アクティビティは、SQL スクリプトを実行します。 スクリプトは、JST テンプレートです。
 
 ![](assets/sql_code.png)
 
 * **[!UICONTROL スクリプト]**
 
-  エディターの中央部に、実行されるスクリプトが含まれています。このスクリプトは、JST テンプレートであり、ワークフローのコンテキストに応じて設定できます。
+  エディターの中央部に、実行されるスクリプトが含まれています。 このスクリプトは、JST テンプレートであり、ワークフローのコンテキストに応じて設定できます。
 
 * **[!UICONTROL エラーを処理]**
 
@@ -48,7 +48,7 @@ ht-degree: 69%
 
 ## JavaScript コードと高度な JavaScript コード {#javascript-code}
 
-**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。スクリプトについて詳しくは、以下の節を参照してください。
+**[!UICONTROL JavaScript コード]**&#x200B;と&#x200B;**[!UICONTROL 高度な JavaScript コード]**&#x200B;アクティビティは、ワークフローのコンテキストで JavaScript スクリプトを実行します。 スクリプトについて詳しくは、以下の節を参照してください。
 
 * [JavaScript のスクリプトとテンプレート](javascript-scripts-and-templates.md)
 * [ワークフローでの JavaScript コードの例](javascript-in-workflows.md)

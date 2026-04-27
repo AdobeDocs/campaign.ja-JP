@@ -5,8 +5,8 @@ user-guide-description: Campaign 自動化ガイド
 feature: Overview
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 97%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 + ワークフローを使用した自動化 {#workflows}
    + ワークフローの基本を学ぶ {#introduction}
       + [ワークフローについて](workflow/about-workflows.md)
-      + ワークフローのタイプ {#wf-type}
+      + ワークフローの種類 {#wf-type}
          + [ターゲティングワークフロー](workflow/targeting-workflows.md)
          + [キャンペーンワークフロー](workflow/campaign-workflows.md)
          + [テクニカルワークフロー](workflow/technical-workflows.md)

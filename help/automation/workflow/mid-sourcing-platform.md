@@ -6,7 +6,7 @@ feature: Workflows
 role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '47'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">配信指標</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryIndicators</span> <br /> </td> 
-   <td> 配達の配信トラッキング指標を更新します。デフォルトでは、1 時間おきにトリガーされます。<br /> </td> 
+   <td> 配達の配信トラッキング指標を更新します。 デフォルトでは、1 時間おきにトリガーされます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

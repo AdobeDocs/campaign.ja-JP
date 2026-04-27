@@ -6,9 +6,9 @@ feature: Workflows, Interaction
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 62%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">完全な集計 (propositionrcp キューブ)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
-   <td> <strong>オファーの提案</strong>キューブのために<strong>完全</strong>な集計を更新します。デフォルトで、毎日午前 6 時にトリガーされます。この集計が取得するディメンションは、チャネル、配信、マーケティングオファーおよび日付です。<br /><strong>オファーの提案</strong>キューブは、オファーに基づいてレポートを生成するために使用します。<br /> </td> 
+   <td> <strong>オファーの提案</strong>キューブのために<strong>完全</strong>な集計を更新します。 デフォルトで、毎日午前 6 時にトリガーされます。 この集計は、チャネル、配信、マーケティングオファーおよび日付のディメンションをキャプチャします。<br /> 次に、<strong> オファーの提案</strong> キューブを使用して、オファーに基づくレポートを生成します。<br /> </td> 
   </tr> 
    <tr> 
    <td> <span class="uicontrol">MessageCenter における完全な集計の計算</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
-   <td> このワークフローは、<strong>メッセージセンター</strong>キューブのための<strong>完全な</strong>集計を更新します。デフォルトで、毎日午前 3 時にトリガーされます。この集計は、チャネル、日付、ステータス、イベントタイプの各ディメンションを取り込みます。<br />次に、<strong>メッセージセンター</strong>キューブを使用して、イベントに基づいてレポートを生成します。<br /> </td> 
+   <td> このワークフローは、<strong>メッセージセンター</strong>キューブのための<strong>完全な</strong>集計を更新します。 デフォルトで、毎日午前 3 時にトリガーされます。 この集計は、チャネル、日付、ステータスおよびイベントタイプのディメンションをキャプチャします。<br /> 次に、<strong> メッセージセンター</strong> キューブを使用して、イベントに基づくレポートを生成します。<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 

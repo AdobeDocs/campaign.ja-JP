@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 83947f69-9f8e-4829-9a64-fd734d0cde37
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '145'
 ht-degree: 100%
 
 ---
@@ -52,4 +52,4 @@ ht-degree: 100%
 
   ![](assets/offer_report_perdeliveries.png)
 
-レポートの上部で使用できる様々な条件に基づいて、データをフィルタリングできます。目的の基準を選択して、「**[!UICONTROL 更新]**」リンクをクリックすると、レポートに適用されます。
+レポートの上部で使用できる様々な条件に基づいて、データをフィルタリングできます。 目的の基準を選択して、「**[!UICONTROL 更新]**」リンクをクリックすると、レポートに適用されます。

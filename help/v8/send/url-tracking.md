@@ -1,6 +1,6 @@
 ---
 title: URL トラッキングオプションの設定
-description: 配信で URL トラッキングオプションを設定する方法を学ぶ
+description: 配信でURL トラッキングオプションを設定する方法について説明します
 feature: Monitoring, Email Design, Personalization
 role: User
 level: Beginner
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->メール内の画像の管理もこのウィンドウで設定します。[画像の追加](defining-the-email-content.md#adding-images)を参照してください。
+>メール内の画像の管理もこのウィンドウで設定します。 [画像の追加](defining-the-email-content.md#adding-images)を参照してください。
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 トラッキングする URL は、ツリー形式で中央のウィンドウに一覧表示されます。
 
-メッセージの URL ごとに個別にトラッキングを有効化または無効化できます。詳しくは、[この節](tracked-links.md)を参照してください。
+メッセージの URL ごとに個別にトラッキングを有効化または無効化できます。 詳しくは、[この節](tracked-links.md)を参照してください。
 
 「**[!UICONTROL 詳細設定]**」タブで、トラッキングされる URL と開封された URL の計算式をパーソナライズできます。
 

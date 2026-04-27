@@ -10,7 +10,7 @@ exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
 source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 87%
+ht-degree: 81%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 87%
 * 解決策1 - `XtkSecurity_FeatureFlag_SqlSensitive`
 * 解決策2 - `XtkSecurity_SqlSensitive_Methods`
 
-詳細とベストプラクティスについては、[SQL コード &#x200B;](sql-code-and-javascript-code.md#important-notes)を参照してください。
+詳細とベストプラクティスについては、[SQL コード ](sql-code-and-javascript-code.md#important-notes)を参照してください。
 
 ## 「SQL データ管理」アクティビティの設定 {#configuring-the-sql-data-management-activity}
 
@@ -49,9 +49,9 @@ ht-degree: 87%
 
    >[!CAUTION]
    >
-   >SQL スクリプトが機能し、その参照（フィールド名など）がアウトバウンドスキーマに従っていることを確認するのは、SQL スクリプト作成者の責任です。
+   >SQL スクリプトが機能し、その参照（フィールド名など）が正しいかどうかを確認するのは、SQL スクリプトライターの責任です。 Outbound スキーマに従います。
 
-   既存の SQL コードを読み込む場合は、「**[!UICONTROL データベースに格納されているエンティティに SQL スクリプトを含める]**」オプションを選択します。**[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL SQL スクリプト]**&#x200B;メニューで SQL スクリプトを作成し、格納する必要があります。
+   既存の SQL コードを読み込む場合は、「**[!UICONTROL データベースに格納されているエンティティに SQL スクリプトを含める]**」オプションを選択します。 **[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL SQL スクリプト]**&#x200B;メニューで SQL スクリプトを作成し、格納する必要があります。
 
    または、専用の領域に SQL スクリプトを入力するか、コピーして貼り付けます。
 
@@ -66,15 +66,14 @@ ht-degree: 87%
      >
      >(&#39;name&#39;) 値は、トランジションプロパティの「**[!UICONTROL 名前]**」フィールドに対応しています。
 
-1. アウトバウンドワークテーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL ワークテーブルを自動作成]**」オプションの選択を解除します。選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
-
+1. アウトバウンドワークテーブルを作成するコマンドが SQL スクリプトに既に含まれている場合は、「**[!UICONTROL ワークテーブルを自動作成]**」オプションの選択を解除します。 選択を解除しない場合、ワークフローが実行されるとワークテーブルが自動的に作成されます。
 1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
 
-これでアクティビティが設定され、ワークフローで実行する準備が整いました。
+これでアクティビティが設定され、 ワークフローで実行する準備が整いました。
 
 >[!CAUTION]
 >
->アクティビティ実行後のアウトバウンドトランジションレコード数は単なる目安です。SQL スクリプトの複雑さのレベルによって異なる場合があります。
+>アクティビティ実行後のアウトバウンドトランジションレコード数は単なる目安です。 SQL スクリプトの複雑さのレベルによって異なる場合があります。
 >  
 >アクティビティを再開すると、実行ステータスに関係なく、スクリプト全体が最初から実行されます。
 
@@ -85,7 +84,6 @@ ht-degree: 87%
 >この節にあるスクリプトのサンプルは、PostgreSQL で実行することを想定しています。
 
 以下のスクリプトは、ワークテーブルを作成し、この同じワークテーブルにデータを挿入します。
-
 
 ```
 CREATE UNLOGGED TABLE <%= activity.tableName %> (
@@ -104,7 +102,6 @@ GROUP BY iRecipientId, sFirstName, sMiddleName, sLastName, sEmail;
 
 以下のスクリプトは、CTAS 操作（CREATE TABLE AS SELECT）を実行し、ワークテーブルのインデックスを作成します。
 
-
 ```
 CREATE TABLE <%= activity.tableName %>
 AS SELECT iRecipientId, sEmail, sFirstName, sLastName, sMiddleName
@@ -118,7 +115,6 @@ ANALYZE <%= activity.tableName %> (sEmail);
 ```
 
 以下のスクリプトは、2 つのワークテーブルを結合します。
-
 
 ```
 CREATE TABLE <%= activity.tableName %>

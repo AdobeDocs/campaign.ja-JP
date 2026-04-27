@@ -4,7 +4,7 @@ title: ソーシャルマーケティング
 description: ソーシャルマーケティングテクニカルワークフローの詳細を説明します
 feature: Workflows
 source-git-commit: 472c9d13ca68d19b71b1a2bc7b9526f84bed04c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # ソーシャルマーケティング {#social-marketing}
 
-以下に説明するワークフローは、デフォルトで&#x200B;**ソーシャルマーケティング**&#x200B;モジュールと共にインストールされます。このモジュールは、X（旧 Twitter）との統合を可能にします。
+以下に説明するワークフローは、デフォルトで&#x200B;**ソーシャルマーケティング**&#x200B;モジュールと共にインストールされます。 このモジュールは、X（旧 Twitter）との統合を可能にします。
 
 
 >[!AVAILABILITY]

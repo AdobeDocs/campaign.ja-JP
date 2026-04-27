@@ -28,11 +28,11 @@ ht-degree: 100%
 * For mid-sourcing infrastructure,
 -->
 
-1. トラッキングに必要な場合は、「**[!UICONTROL ラベル]**」フィールドで配信の名前を変更し、「**[!UICONTROL 配信コード]**」フィールドと&#x200B;**[!UICONTROL 特性]**&#x200B;リストに情報を追加します。また、配信に&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
+1. トラッキングに必要な場合は、「**[!UICONTROL ラベル]**」フィールドで配信の名前を変更し、「**[!UICONTROL 配信コード]**」フィールドと&#x200B;**[!UICONTROL 特性]**&#x200B;リストに情報を追加します。 また、配信に&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
-1. 「**[!UICONTROL 続行]**」ボタンをクリックします。これで、配信でのテンプレートのすべての設定が完了しました。
+1. 「**[!UICONTROL 続行]**」ボタンをクリックします。 これで、配信でのテンプレートのすべての設定が完了しました。
 
-1. 「**[!UICONTROL プロパティ]**」ボタンで、すべてが必要に応じて設定されていることを確認できます。[詳しくは、「SMS」タブを参照してください](sms-delivery-settings.md#sms-tab)
+1. 「**[!UICONTROL プロパティ]**」ボタンで、すべてが必要に応じて設定されていることを確認できます。 [詳しくは、「SMS」タブを参照してください](sms-delivery-settings.md#sms-tab)
 
    ![](assets/sms_settings.png){zoomable="yes"}
 

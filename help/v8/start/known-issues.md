@@ -8,19 +8,19 @@ hide: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '408'
+ht-degree: 91%
 
 ---
 
 # 既知の問題{#known-issues}
 
-このページでは、**Campaign v8 の最新リリース**&#x200B;で確認された既知の問題の一覧を示しています。また、Campaign v8 に伴う制限事項を[こちらのページ](ac-guardrails.md)に示しています。
+このページでは、**Campaign v8 の最新リリース**&#x200B;で確認された既知の問題の一覧を示しています。 また、Campaign v8 に伴う制限事項を[こちらのページ](ac-guardrails.md)に示しています。
 
 
 >[!NOTE]
 >
->アドビは、この既知の問題のリストを独自に公開します。これは、顧客からの報告数、重大度、利用可能な回避策の有無に基づいています。発生した問題が一覧にない場合は、その問題が、このページに公開する基準を満たしていないと考えられます。
+>アドビは、この既知の問題のリストを独自に公開します。 これは、顧客からの報告数、重大度、利用可能な回避策の有無に基づいています。 発生した問題が一覧にない場合は、その問題が、このページに公開する基準を満たしていないと考えられます。
 
 ## Campaign v8.3.8{#8.3-issues}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 #### 説明{#issue-2-desc}
 
-Campaign **クエリ**&#x200B;および「**データソースを変更**」アクティビティを使用して Snowflake クラウドデータベースにデータを挿入する場合、データにバックスラッシュ文字が含まれているとプロセスが失敗します。ソース文字列はエスケープされず、データが Snowflake で正しく処理されません。
+Campaign **クエリ**&#x200B;および「**データソースを変更**」アクティビティを使用して Snowflake クラウドデータベースにデータを挿入する場合、データにバックスラッシュ文字が含まれているとプロセスが失敗します。 ソース文字列はエスケープされず、データが Snowflake で正しく処理されません。
 
 この問題は、文字列の末尾にバックスラッシュ文字が付いている場合にのみ発生します。例：`Barker\`。
 
@@ -81,9 +81,9 @@ Error:
 
 #### 回避策{#issue-3-workaround}
 
-回避策は、古いクライアントコンソールを使用することです。これにより、サーバーにファイルをアップロードできるようになります。
+回避策は、古いクライアントコンソールを使用することです。 これにより、サーバーにファイルをアップロードできるようになります。
 
-Campaign の管理者は、Campaign v8.3.1 クライアントコンソールを[アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/ja/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}からダウンロードできます。
+Campaign の管理者は、Campaign v8.3.1 クライアントコンソールを[アドビのソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}からダウンロードできます。
 
 アドビのソフトウェア配布へのアクセス方法について詳しくは、[こちらのページ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target="_blank"}を参照してください。
 

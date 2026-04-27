@@ -1,6 +1,6 @@
 ---
 title: プロファイルの更新
-description: API でプロファイルを更新する方法の詳細情報
+description: APIを使用してプロファイルを更新する方法について詳しく見る
 role: Developer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
@@ -11,23 +11,23 @@ ht-degree: 2%
 
 ---
 
-# API を使用したプロファイルの更新{#updating-profiles-api}
+# APIを使用したプロファイルの更新{#updating-profiles-api}
 
 プロファイルの更新は、**PATCH** リクエストで実行されます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 最初の手順は、**プロファイルを取得** することです。
+1. 最初の手順は、**プロファイルを取得**&#x200B;することです。
 
-1. 2 回目のリクエストで、ペイロードに完了情報を含めて **プロファイルに対して** PATCH リクエスト &rbrace; を実行します。
+1. 2回目のリクエストでは、プロファイルに対して&#x200B;**PATCH リクエスト**&#x200B;を実行し、ペイロードの完了情報を確認します。
 
 1. PATCH リクエストがプロファイルを更新したかどうかを確認するには、最終的なGET リクエストを実行します。
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
-プロファイルを取得するGET リクエストのサンプル
+プロファイルを取得するためのGET リクエストのサンプル。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -37,7 +37,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-リクエストに対する応答。
+リクエストへの応答。
 
 ```
 {
@@ -53,7 +53,7 @@ ht-degree: 2%
 }
 ```
 
-「phone」属性を更新するPATCH リクエスト。
+PATCHは、「phone」属性の更新をリクエストします。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -64,7 +64,7 @@ ht-degree: 2%
 -d '{"phone":"3301020304"}'
 ```
 
-更新されたプロファイルを取得する PKEY と URL を返します。
+更新されたプロファイルを取得するためのPKEYとURLを返します。
 
 ```
 {

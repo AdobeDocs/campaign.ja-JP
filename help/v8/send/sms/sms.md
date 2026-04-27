@@ -7,23 +7,23 @@ level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
 source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 92%
 
 ---
 
 # SMS の基本を学ぶ {#gs-sms-channel}
 
-Adobe Campaign を使用して、顧客のモバイルデバイスにテキストメッセージを送信します。SMS エディターからテキスト形式で、メッセージの作成、パーソナライズ、プレビューを行うことができます。
+Adobe Campaign を使用して、顧客のモバイルデバイスにテキストメッセージを送信します。 SMS エディターからテキスト形式で、メッセージの作成、パーソナライズ、プレビューを行うことができます。
 
 Adobe Campaign を使用してモバイルデバイスに SMS を配信するには、次が必要です。
 
-* **[!UICONTROL モバイル（SMS）]**&#x200B;チャネルで設定された外部アカウント。[ミッドソーシングインフラストラクチャ](sms-mid-sourcing.md)での SMS チャネルの設定方法について説明します。この設定では、[SMPP 外部アカウントパラメーター](smpp-external-account.md)と [SMS チャネルの特性](sms-channel.md)を理解する必要があります。
-この設定が完了したら、必要に応じて、SMPP 接続と、トラブルシューティングを行う方法を確認します。[詳細情報](smpp-connection.md)。
+* **[!UICONTROL モバイル（SMS）]**&#x200B;チャネルで設定された外部アカウント。 [ミッドソーシングインフラストラクチャ](sms-mid-sourcing.md)での SMS チャネルの設定方法について説明します。 この設定では、[SMPP 外部アカウントパラメーター](smpp-external-account.md)と [SMS チャネルの特性](sms-channel.md)を理解する必要があります。
+この設定が完了したら、必要に応じて、SMPP 接続と、トラブルシューティングを行う方法を確認します。 [詳細情報](smpp-connection.md)。
 
 * この外部アカウントに正しくリンクされている SMS 配信テンプレート。
 
-Adobe Campaignは、顧客に SMS メッセージを送信するために使用される 2 つの SMS コネクタをサポートしています。 [詳細情報](sms-connectors.md)。
+Adobe Campaignでは、お客様にSMS メッセージを送信するために使用される2つのSMS コネクタをサポートしています。 [詳細情報](sms-connectors.md)。
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 41a009f6-d1e9-40c9-8494-3bbb4bd3d134
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 この例では、ニュースレターを開封したがそれに含まれるリンクをクリックしなかったプロファイルの名前を記載したアラートをオペレーターに送信します。
 
-プロファイルの氏名フィールドは&#x200B;**[!UICONTROL 受信者]**&#x200B;ターゲティングディメンションにリンクされているのに対して、**[!UICONTROL アラート]**&#x200B;アクティビティは&#x200B;**[!UICONTROL オペレーター]**&#x200B;ターゲティングディメンションにリンクされています。結果として、2 つのターゲティングディメンション間で、紐付けを実行し、氏名フィールドを取得して、アラートアクティビティに表示するのに使用できるフィールドはありません。
+プロファイルの氏名フィールドは&#x200B;**[!UICONTROL 受信者]**&#x200B;ターゲティングディメンションにリンクされているのに対して、**[!UICONTROL アラート]**&#x200B;アクティビティは&#x200B;**[!UICONTROL オペレーター]**&#x200B;ターゲティングディメンションにリンクされています。 結果として、2 つのターゲティングディメンション間で、紐付けを実行し、氏名フィールドを取得して、アラートアクティビティに表示するのに使用できるフィールドはありません。
 
 このプロセスでは、次のようにワークフローを構築できます。
 
@@ -95,7 +95,7 @@ for each (var item in items){
 
 >[!NOTE]
 >
->**[!UICONTROL 「&lt;%= item.target.recipient.@fieldName %>」]** コマンドを使用すると、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティでインスタンス変数に保存したフィールドのいずれかを追加できます。\
+>**[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** コマンドを使用すると、**[!UICONTROL JavaScript コード]** アクティビティを通じてインスタンス変数に保存されたフィールドの1つを追加できます。\
 >フィールドが JavaScript コードに追加されている限り、フィールドを好きな数だけ追加できます。
 
 ![](assets/uc_operator_8.png)

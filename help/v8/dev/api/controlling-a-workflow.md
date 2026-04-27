@@ -1,6 +1,6 @@
 ---
 title: ワークフローの制御
-description: API を使用してワークフローを制御する方法を説明します。
+description: APIを使用してワークフローを制御する方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -16,15 +16,15 @@ ht-degree: 12%
 
 # ワークフローの制御 {#controlling-a-workflow}
 
-ワークフロー ID と必要な実行コマンドを含む POST リクエストを使用して、REST API から直接ワークフローを制御できます。
+ワークフローIDと必要な実行コマンドを含むPOST リクエストを使用して、REST APIから直接ワークフローを制御できます。
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->Adobe Campaignでワークフロー ID が変更されると、API リクエストは機能しなくなります。
+>Adobe CampaignでワークフローIDが変更された場合、API リクエストは機能しなくなります。
 
-ワークフローの制御には、次の 4 つの実行コマンドを使用できます。
+ワークフローを制御するには、次の4つの実行コマンドを使用できます。
 
 * 開始
 * 一時停止
@@ -32,7 +32,7 @@ ht-degree: 12%
 * 停止
 
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 * ワークフローを開始します。
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 
   <!-- + réponse -->
 
-* ワークフローを一時停止。
+* ワークフローを一時停止します。
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \

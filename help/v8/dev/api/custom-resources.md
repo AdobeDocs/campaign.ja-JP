@@ -1,6 +1,6 @@
 ---
 title: カスタムリソース
-description: API を使用したカスタムリソース管理の詳細情報/
+description: API/を使用したカスタムリソース管理について詳しく見る
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -9,34 +9,34 @@ level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
 
 # カスタムリソース {#custom-resources}
 
-Adobe Campaignには事前定義済みのデータモデルが付属しており、データは様々なリソースを使用して定義されます。 リソースを拡張することで提供されるデータモデルをエンリッチメントし、独自のカスタムフィールドや、購入テーブルや製品テーブルなどのカスタムテーブルを追加できます。
+Adobe Campaignには事前定義済みのデータモデルが用意されており、データはさまざまなリソースを通じて定義されます。 リソースを拡張して、独自のカスタムフィールドやカスタムテーブル（購入テーブルや製品テーブルなど）を追加することで、提供されるデータモデルを強化できます。
 
-カスタムリソースには、API から **/profileAndServicesExt** エンドポイントとカスタムリソース名を使用してアクセスできます。
+カスタムリソースには、**/profileAndServicesExt** エンドポイントとカスタムリソース名を使用してAPIからアクセスできます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->標準で使用されていないリソースの場合は、リソース名の前に必ず <b>&quot;cus&quot;</b> プレフィックスを付けてください。
+>すぐに使用できるリソースではないリソースの場合は、リソース名の前に必ず<b>&quot;cus&quot;</b>接頭辞を付けます。
 
-カスタムリソースがプロファイルテーブルにリンクされている限り、カスタムリソースを使用してあらゆる操作を実行できます。 例えば、次のテーブル構造について考えてみましょう。
+カスタムリソースがプロファイルテーブルにリンクされている限り、任意の操作を実行できます。 例えば、次の表の構造を考えてみましょう。
 
-![&#x200B; 代替テキスト &#x200B;](assets/cusresources.png)
+![alt text](assets/cusresources.png)
 
-この場合、**Profile** テーブルにリンクされている限り、**Transaction** テーブル、**TransactionDetails** テーブル、および **Product** テーブルのすべてのリソースを使用できます。
+この場合、**Transaction**、**TransactionDetails**&#x200B;および&#x200B;**Product** テーブルのすべてのリソースは、**Profile** テーブルにリンクされている限り利用できます。
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
-拡張された profileAndServicesExt リソースにアクセスするGET リクエストのサンプル
+拡張profileAndServicesExt リソースにアクセスするためのGET リクエストのサンプル。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -46,7 +46,7 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-リンクされたすべてのカスタムリソースのリストを返します。 その後、リソースの URL を使用して、このドキュメントで説明している API タスクを実行できます。
+リンクされたすべてのカスタムリソースのリストが返されます。 その後、リソース URLを使用して、このドキュメントに記載されている任意のAPI タスクを実行できます。
 
 ```
 {

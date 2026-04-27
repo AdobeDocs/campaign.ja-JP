@@ -7,8 +7,8 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '338'
+workflow-type: tm+mt
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションでは、集計の最終結果をフィルターする手順が追加されます。例えば、所定の注文タイプについて、10 回以上注文した顧客などをフィルターできます。
 
-1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。それには、「**[!UICONTROL 追加]**」アイコンをクリックします。
+1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。 それには、「**[!UICONTROL 追加]**」アイコンをクリックします。
 
    ![](assets/s_advuser_extract_file_add_col.png)
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
    ![](assets/s_advuser_extract_file_add_exp.png)
 
-   次に、選択ウィンドウにアクセスします。「**[!UICONTROL 詳細選択]**」をクリックし、データに適用するプロセスを選択します。
+   次に、選択ウィンドウにアクセスします。 「**[!UICONTROL 詳細選択]**」をクリックし、データに適用するプロセスを選択します。
 
    ![](assets/s_advuser_extract_file_advanced_selection.png)
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
    ![](assets/s_advuser_extract_file_agregate_values.png)
 
-データの抽出中に実行する後処理を定義して、ファイルを圧縮または暗号化できます。これをおこなうには、アクティビティの「 **[!UICONTROL スクリプト]**」タブに目的のコマンドを追加する必要があります。
+データの抽出中に実行する後処理を定義して、ファイルを圧縮または暗号化できます。 これをおこなうには、アクティビティの「 **[!UICONTROL スクリプト]**」タブに目的のコマンドを追加する必要があります。
 
 ![](assets/postprocessing_dataextraction.png)
 

@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1461'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 クロスチャネル通信で CRM データをアクティブ化します。**Microsoft Dynamics 365** から Adobe Campaign に連絡先を渡し、キャンペーンパフォーマンスデータ（送信、開封、クリックおよびバウンス）を Adobe Campaign に戻り Microsoft Dynamics 365 に共有する方法を学びます。
 
-設定が完了したら、専用のワークフローアクティビティでシステム間のデータ同期を実行します。[詳細情報](crm-data-sync.md)。
+設定が完了したら、専用のワークフローアクティビティでシステム間のデータ同期を実行します。 [詳細情報](crm-data-sync.md)。
 
 >[!NOTE]
 >
@@ -27,17 +27,17 @@ ht-degree: 99%
 システムごとに、管理者がこれらの手順を実行する必要があります。
 
 >[!CAUTION]
-> このドキュメントの手順では、権限の割り当てや管理者アクセスに関連する統合／登録の作成手順を説明します。お客様の責任として、事前に会社のポリシーに従って手順を確認し、慎重に実行する必要があります。
+> このドキュメントの手順では、権限の割り当てや管理者アクセスに関連する統合／登録の作成手順を説明します。 お客様の責任として、事前に会社のポリシーに従って手順を確認し、慎重に実行する必要があります。
 
 ## Microsoft Dynamics 365 の設定 {#config-crm-microsoft}
 
 **Web API** 経由で Microsoft Dynamics 365 を Adobe Campaign と連携させるには、**グローバル管理者**&#x200B;資格情報を使用して、[Microsoft Azure Directory](https://portal.azure.com) にログオンし、次の手順に従います。
 
-1. Dynamics 365 アプリケーション（クライアント）ID を取得します。[詳細情報](#get-client-id-microsoft)
-1. Microsoft Dynamics 証明書キー識別子およびキー ID を生成します。[詳細情報](#config-certificate-key-id)
-1. 権限を設定します。[詳細情報](#config-permissions-microsoft)
-1. アプリユーザーを作成します。[詳細情報](#create-app-user-microsoft)
-1. 秘密鍵をエンコードします。[詳細情報](#configure-acc-for-microsoftt)
+1. Dynamics 365 アプリケーション（クライアント）ID を取得します。 [詳細情報](#get-client-id-microsoft)
+1. Microsoft Dynamics 証明書キー識別子およびキー ID を生成します。 [詳細情報](#config-certificate-key-id)
+1. 権限を設定します。 [詳細情報](#config-permissions-microsoft)
+1. アプリユーザーを作成します。 [詳細情報](#create-app-user-microsoft)
+1. 秘密鍵をエンコードします。 [詳細情報](#configure-acc-for-microsoftt)
 
 
 ### Dynamics 365 クライアント ID の取得 {#get-client-id-microsoft}
@@ -47,13 +47,13 @@ ht-degree: 99%
 1. **Azure Active Directory／アプリ登録**&#x200B;に移動し、「**新規登録**」を選択します。
 1. **adobecampaign`<instance identifier>`** など、インスタンスの識別に役立つ一意の名前を入力します。
 
-保存すると、Microsoft Azure Directory は一意の&#x200B;**アプリケーション（クライアント）ID** をアプリに割り当てます。この ID は、後で Adobe Campaign で Dynamics 365 を設定する際に必要になります。
+保存すると、Microsoft Azure Directory は一意の&#x200B;**アプリケーション（クライアント）ID** をアプリに割り当てます。 この ID は、後で Adobe Campaign で Dynamics 365 を設定する際に必要になります。
 
 詳しくは、[Microsoft Dynamics 365 ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}を参照してください。
 
 ### Microsoft Dynamics 証明書キー識別子およびキー ID の生成 {#config-certificate-key-id}
 
-**証明書キー識別子（customKeyIdentifier）**&#x200B;および&#x200B;**キー ID（keyId）**&#x200B;を取得するには、証明書をアップロードする必要があります。証明書は、トークンのリクエスト時にアプリケーションの ID を証明するための暗号鍵として使用できます。公開鍵とも呼ばれます。
+**証明書キー識別子（customKeyIdentifier）**&#x200B;および&#x200B;**キー ID（keyId）**&#x200B;を取得するには、証明書をアップロードする必要があります。 証明書は、トークンのリクエスト時にアプリケーションの ID を証明するための暗号鍵として使用できます。 公開鍵とも呼ばれます。
 
 以下の手順に従います。
 
@@ -79,7 +79,7 @@ ht-degree: 99%
 >
 >コードサンプルの `-days 365` で日数を変更することで、証明書の有効期間を延長することができます。
 
-次に、Base64 で証明書をエンコードする必要があります。それには、Base64 エンコーダーを利用するか、Linux の場合はコマンドライン `base64 -w0 private.key` を使用します。
+次に、Base64 で証明書をエンコードする必要があります。 それには、Base64 エンコーダーを利用するか、Linux の場合はコマンドライン `base64 -w0 private.key` を使用します。
 
 +++
 
@@ -109,7 +109,7 @@ ht-degree: 99%
 >
 > この手順は、**[!UICONTROL パスワード資格情報]**&#x200B;認証ではオプションです。
 
-アプリユーザーとは、上で登録したアプリケーションで使用するユーザーです。上記の登録済みのアプリを使用して Microsoft Dynamics に対して行った変更は、このユーザーを通じて行われます。
+アプリユーザーとは、上で登録したアプリケーションで使用するユーザーです。 上記の登録済みのアプリを使用して Microsoft Dynamics に対して行った変更は、このユーザーを通じて行われます。
 
 **手順 1**：Azure Active Directory に非インタラクティブユーザーを作成する
 
@@ -146,7 +146,7 @@ ht-degree: 99%
 
    1. Microsoft Dynamics CRM 外部アカウントを設定して Adobe Campaign と&#x200B;**パスワード資格情報**&#x200B;を接続するには、次の詳細を入力します。
 
-      * **サーバー**：Microsoft CRM サーバーの URL。Microsoft CRM Server URL を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、Dynamics 365 をクリックしてアプリを選択します。次に、ブラウザーのアドレスバーに Server URL が表示されます（例：https://myserver.crm.dynamics.com/）。
+      * **サーバー**：Microsoft CRM サーバーの URL。 Microsoft CRM Server URL を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、Dynamics 365 をクリックしてアプリを選択します。 次に、ブラウザーのアドレスバーに Server URL が表示されます（例：https://myserver.crm.dynamics.com/）。
       * **アカウント**：Microsoft CRM へのログインに使用するアカウント。
       * **パスワード**：Microsoft CRM へのログインに使用するアカウント。
       * **クライアント識別子**：Microsoft Azure 管理ポータルの「コードを更新」カテゴリ、「クライアント ID」フィールドにあるアプリケーション（クライアント）ID。
@@ -154,7 +154,7 @@ ht-degree: 99%
 
    1. Microsoft Dynamics CRM 外部アカウントを、**証明書**&#x200B;を使って Adobe Campaign に接続するには、次の詳細を入力して設定します。
 
-      * **サーバー**：Microsoft CRM サーバーの URL。Microsoft CRM Server URL を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、Dynamics 365 をクリックしてアプリを選択します。次に、ブラウザーのアドレスバーに Server URL が表示されます（例：https://myserver.crm.dynamics.com/）。
+      * **サーバー**：Microsoft CRM サーバーの URL。 Microsoft CRM Server URL を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、Dynamics 365 をクリックしてアプリを選択します。 次に、ブラウザーのアドレスバーに Server URL が表示されます（例：https://myserver.crm.dynamics.com/）。
       * **秘密鍵**：エンコードされた Base64 で秘密鍵をコピー＆ペーストします。[この節](#config-certificate-key-id)で詳しく説明しています。
       * **キー ID**：キーはアプリケーションの「**マニフェスト**」タブで利用可能です。詳しくは、[この節](#config-certificate-key-id)で説明しています。
       * **カスタムキー識別子**：アプリケーションの「**マニフェスト**」タブで使用できる識別子です。詳しくは、[この節](#config-certificate-key-id)で説明しています。
@@ -177,7 +177,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->サーバー URL および `login.microsoftonline.com` の 2 つの URL を必ず許可リストに追加してください。これを実行するには、アドビ担当者にお問い合わせください。
+>サーバー URL および `login.microsoftonline.com` の 2 つの URL を必ず許可リストに追加してください。 これを実行するには、アドビ担当者にお問い合わせください。
 
 ## 列挙の同期{#sfdc-enum-sync}
 
@@ -189,13 +189,13 @@ Adobe Campaign の列挙のすべての値を CRM の値に置き換えること
 1. 「**[!UICONTROL 次へ]**」をクリックしてから「**[!UICONTROL 開始]**」をクリックし、列挙のインポートを開始します。
 1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、インポートされた値を確認します。
 
-これで Adobe Campaign と Microsoft Dynamics 365 が接続されました。2 つのシステム間にデータの同期を設定できます。
+これで Adobe Campaign と Microsoft Dynamics 365 が接続されました。 2 つのシステム間にデータの同期を設定できます。
 
 Adobe Campaign データと Microsoft CRM の間でデータを同期させるには、ワークフローを作成し、**[!UICONTROL CRM コネクタ]**&#x200B;アクティビティを使用します。
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-Campaign での列挙管理について詳しくは [&#x200B; このページ &#x200B;](../config/enumerations.md) を参照してください。
+キャンペーン [の列挙管理について詳しくは、このページ ](../config/enumerations.md)を参照してください。
 
 ### サポートされているフィールドデータタイプ {#ms-dyn-supported-types}
 

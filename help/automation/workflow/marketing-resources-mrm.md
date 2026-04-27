@@ -6,8 +6,8 @@ feature: Workflows, Targeting Activity
 hide: true
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '83'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
   <tr> 
    <td> <span class="uicontrol">ディスカッションフォーラムプロセス</span> <br /> </td> 
    <td> <span class="uicontrol">newsgroupMgt</span> <br /> </td> 
-   <td> ディスカッションフォーラムからの通知の配信を管理します。承認シグナルを受信するとトリガーされます。<br /> </td> 
+   <td> ディスカッションフォーラムからの通知の配信を管理します。 承認シグナルを受信するとトリガーされます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

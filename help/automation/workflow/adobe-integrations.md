@@ -6,7 +6,7 @@ role: User
 version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Adobe Experience Cloud ソリューションとの統合{#integrations-with-adobe-experience-cloud-solutions}
 
-以下に説明するワークフローは、デフォルトで **Adobe Experience Cloud との統合**&#x200B;モジュールと共にインストールされます。このモジュールについて詳しくは、[このページ](../../v8/connect/integration.md)を参照してください。
+以下に説明するワークフローは、デフォルトで **Adobe Experience Cloud との統合**&#x200B;モジュールと共にインストールされます。 このモジュールについて詳しくは、[このページ](../../v8/connect/integration.md)を参照してください。
 
 <table> 
  <tbody> 
@@ -32,7 +32,7 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">Adobe Experience Cloud へのオーディエンスのエクスポート</span> <br /> </td> 
    <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
-   <td> このワークフローは、共有されたオーディエンスおよびセグメントとしてオーディエンスをエクスポートします。これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。<br /> </td> 
+   <td> このワークフローは、共有されたオーディエンスおよびセグメントとしてオーディエンスをエクスポートします。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

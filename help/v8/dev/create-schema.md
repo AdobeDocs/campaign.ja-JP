@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
 source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマの XML 編集ゾーンで自動的に更新されます。一部の名前空間は社内専用であることに注意してください。 [詳細](schemas.md#reserved-namespaces)
+>「名前」編集コントロールを使用すると、名前と名前空間で構成されるスキーマキーを入力できます。 スキーマのルート要素の「name」属性と「namespace」属性は、スキーマの XML 編集ゾーンで自動的に更新されます。 一部の名前空間は社内専用であることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)
 
 「**[!UICONTROL プレビュー]**」タブでは、次のように拡張スキーマが自動的に生成されます。
 
@@ -59,13 +59,13 @@ ht-degree: 100%
    >
    >デフォルトでは、ユーザーが作成したスキーマは「cus」名前空間に保存されます。 詳しくは、[スキーマの ID](extend-schema.md#identification-of-a-schema) を参照してください。
 
-1. テーブルの内容を作成します。 設定の見落としがないように、専用のウィザードを使用することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
+1. テーブルの内容を作成します。 設定の見落としがないように、専用のアシスタントを使用することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
 
    ![](assets/create_new_content.png)
 
 1. 契約テーブルの設定を定義します。
 
-   ベストプラクティスとして、`dataSource="nms:extAccount:ffda"` 属性を追加して、Cloud データベースにテーブルを作成します。この属性は、新しいテーブルを作成する際にデフォルトで追加されます。
+   ベストプラクティスとして、`dataSource="nms:extAccount:ffda"` 属性を追加して、Cloud データベースにテーブルを作成します。 この属性は、新しいテーブルを作成する際にデフォルトで追加されます。
 
    ```xml
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
