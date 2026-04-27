@@ -65,4 +65,4 @@ ht-degree: 100%
 
 次のビデオでは、パーソナライゼーションフィールドをメール配信の件名とコンテンツに追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27465?captions=jpn&quality=12)
