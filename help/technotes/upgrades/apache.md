@@ -24,7 +24,7 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
 このアップグレードは、業務を中断することなく Campaign サービスの使用を継続できるよう、通常の営業時間外に自動的に実行されると想定されています。
 
-まず、アドビのチームは、お客様の実稼動以外のインスタンスをアップグレードしてから、実稼動インスタンスをアップグレードします。 これはアドビ側で処理する自動アップグレードプロセスなので、顧客側に必要なアクションはありません。 ただし、問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。
+まず、アドビのチームは、お客様の実稼動以外のインスタンスをアップグレードしてから、実稼動インスタンスをアップグレードします。 これはアドビ側で処理する自動アップグレードプロセスなので、顧客側に必要なアクションはありません。 ただし、問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。
 
 
 >[!NOTE]
@@ -52,7 +52,7 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
 
 * **顧客側ではどのような検証を行う必要がありますか？**
 
-  このセキュリティアップグレードでは、特に必要なテストはありません。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。
+  このセキュリティアップグレードでは、特に必要なテストはありません。 問題が発生した場合は、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。
 
 
 * **セキュリティアップグレードの時間枠をスケジュールした後に日時の変更をリクエストできますか？**
@@ -60,4 +60,4 @@ Adobe Campaign チームは、**2022年6月15日**（PT）までに、Apache バ
   これはセキュリティの修正なので、既存のスケジュールに合わせることを強くお勧めします。
 
 
-その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。
+その他の質問については、[アドビカスタマーケア](https://experienceleague.adobe.com/ja?support-solution=Campaign&lang=ja#support){target="_blank"}にお問い合わせください。

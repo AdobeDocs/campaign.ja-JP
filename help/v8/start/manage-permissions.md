@@ -107,7 +107,7 @@ Adobe Campaign にはビルトインの&#x200B;**製品プロファイル**&#x20
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL Administrator]**&#x200B;のロールは、Campaign Campaign コントロールパネルへのアクセス権を付与します。 名前に「admin」という単語が含まれているAdobe Admin Consoleの製品プロファイル（「Administrators」、「admin」、「admins」、「approval admin」など） Campaign コントロールパネルへのアクセスを許可します。 [Campaign コントロールパネルアクセスの管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}の詳細をご覧ください。
+   >**[!UICONTROL Administrator]**&#x200B;のロールは、Campaign Campaign コントロールパネルへのアクセス権を付与します。 名前に「admin」という単語が含まれているAdobe Admin Consoleの製品プロファイル（「Administrators」、「admin」、「admins」、「approval admin」など） Campaign コントロールパネルへのアクセスを許可します。 [Campaign コントロールパネルアクセスの管理](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}の詳細をご覧ください。
 
 1. **[!UICONTROL 配信オペレーター]**（配信）
 
