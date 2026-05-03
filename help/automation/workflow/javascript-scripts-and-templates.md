@@ -198,4 +198,4 @@ logInfo("Start date: " + task.creationDate)
 一方、その他のプロパティでは、初期化スクリプトを使用する必要があります。 スクリプトはタスクの実行前に評価されます。 変数 **[!UICONTROL activity]** は、タスクに対応するアクティビティを参照します。 このアクティビティのプロパティは変更することが可能で、タスクにのみ影響を与えます。
 
 **関連トピック**
-[ ワークフローでのJavaScript コードの例](javascript-in-workflows.md)
+[&#x200B; ワークフローでのJavaScript コードの例](javascript-in-workflows.md)

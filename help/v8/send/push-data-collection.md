@@ -87,7 +87,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
 
-1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 

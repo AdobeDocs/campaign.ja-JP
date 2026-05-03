@@ -57,7 +57,7 @@ ht-degree: 82%
    * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
    * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
 
-1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。 これらのカテゴリは、例えば&#x200B;**[!UICONTROL URLとクリックストリーム]** レポートのように、レポートに表示できます（[このセクション ](../reporting/delivery-reports.md#urls-and-click-streams)を参照）。 カテゴリーは、特定の列挙で定義されています：**[!UICONTROL urlCategory]**。 列挙の使用方法について詳しくは、[この節](../config/enumerations.md)を参照してください。
+1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。 これらのカテゴリは、例えば&#x200B;**[!UICONTROL URLとクリックストリーム]** レポートのように、レポートに表示できます（[このセクション &#x200B;](../reporting/delivery-reports.md#urls-and-click-streams)を参照）。 カテゴリーは、特定の列挙で定義されています：**[!UICONTROL urlCategory]**。 列挙の使用方法について詳しくは、[この節](../config/enumerations.md)を参照してください。
 
 ## URL区切り文字のベストプラクティス {#url-delimiters}
 

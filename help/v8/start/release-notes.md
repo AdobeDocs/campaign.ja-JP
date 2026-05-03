@@ -49,13 +49,13 @@ _2026年1月27日_
 このリリースには、Campaign Web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
 * [多言語配信機能（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
-* [ トランザクションメッセージのプロファイルエンリッチメント（GA） ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [&#x200B; トランザクションメッセージのプロファイルエンリッチメント（GA） &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
 * [Adobe Experience Managerのライブおよび言語コピー](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
-* [ コンテンツ実験 – A/B テスト ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
-* [継続的な配信アクティビティ ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
-* [ キャンペーン承認管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
+* [&#x200B; コンテンツ実験 – A/B テスト &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [継続的な配信アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [&#x200B; キャンペーン承認管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
+Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### セキュリティの強化 {#security-8-9-1}
 
@@ -69,7 +69,7 @@ Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/doc
 * インテリジェントなワークフロー再起動機能と重要ではないプロセス用のメモリガードレールにより、高いメモリ環境下での自動ワークフロースロットリングを実装することで、コンテナメモリ管理を改善しました。 （NEO-89041）
 * Campaign ワークフローでの非対称暗号化および復号化機能のサポートを追加しました。 （NEO-80257）
 * FFDA デプロイメントでの大規模なデータアップロードに対するレプリケーションエージェントのパフォーマンスとメモリの回復力の強化。 （NEO-88430）
-* **[!UICONTROL SQL コード]**&#x200B;と&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLが実行される際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 詳細とベストプラクティスについては、[SQL データ管理](../../automation/workflow/sql-data-management.md#important-notes)および[SQL コード ](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。 （NEO-86540）
+* **[!UICONTROL SQL コード]**&#x200B;と&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLが実行される際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 詳細とベストプラクティスについては、[SQL データ管理](../../automation/workflow/sql-data-management.md#important-notes)および[SQL コード &#x200B;](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。 （NEO-86540）
 
 
 ### 修正点 {#fixes-8-9-1}

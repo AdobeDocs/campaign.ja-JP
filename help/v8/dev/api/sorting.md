@@ -262,7 +262,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 詳しくは、Campaign Standardのドキュメントを参照してください。
 
-* [ フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [&#x200B; フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
 * [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>
