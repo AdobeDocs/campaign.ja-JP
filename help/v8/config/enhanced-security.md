@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # Campaign セキュリティ強化アドオン {#enhanced-security}
 
-このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス &#x200B;](security.md#public-guidance)の一部です。
+このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス ](security.md#public-guidance)の一部です。
 
 ネットワーク接続とリソースのセキュリティを強化するために、[!DNL Adobe Campaign] では新しい&#x200B;**セキュリティ強化**&#x200B;アドオンが提供されています。
 
@@ -126,7 +126,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 * HiveSQL による Hadoop
 * PostgreSQL
 
-クラウドデータベースがサポートされています。 [互換性マトリックス &#x200B;](../start/compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
+クラウドデータベースがサポートされています。 [互換性マトリックス ](../start/compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
 
 >[!NOTE]
 >

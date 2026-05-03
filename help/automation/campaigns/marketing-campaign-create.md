@@ -116,7 +116,7 @@ ht-degree: 91%
 
 キャンペーンごとに、ジョブ、リソースおよび配信をダッシュボードで一元管理します。 このインターフェイスでは、マーケティングアクションを管理および調整できます。
 
-Adobe Campaignでは、予算、目標、コンテンツの承認など、キャンペーンのさまざまなステップを作成および承認するための共同作業プロセスを設定できます。このオーケストレーションについて詳しくは、[このセクション &#x200B;](marketing-campaign-approval.md)を参照してください。
+Adobe Campaignでは、予算、目標、コンテンツの承認など、キャンペーンのさまざまなステップを作成および承認するための共同作業プロセスを設定できます。このオーケストレーションについて詳しくは、[このセクション ](marketing-campaign-approval.md)を参照してください。
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
@@ -208,4 +208,4 @@ Adobe Campaignでは、予算、目標、コンテンツの承認など、キャ
 
 このビデオでは、マーケティングプラン、プログラム、キャンペーンなどの作成方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449894?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

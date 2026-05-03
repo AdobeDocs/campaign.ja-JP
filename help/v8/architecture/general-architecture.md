@@ -81,7 +81,7 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 
 ## データベースコンテナ {#db-containers}
 
-[Enterprise （FFDA）のデプロイメント &#x200B;](enterprise-deployment.md)では、Adobe Campaign Cloud データベースは[!DNL Snowflake]に依存しており、機能データ（プロファイル、サブスクリプション、コンテンツなど）、技術データ（配信ジョブとログ、トラッキングログなど）が含まれています。 Adobe Campaignのコンポーネントはすべて、特定のタスクを実行するためにデータベースと通信します。
+[Enterprise （FFDA）のデプロイメント ](enterprise-deployment.md)では、Adobe Campaign Cloud データベースは[!DNL Snowflake]に依存しており、機能データ（プロファイル、サブスクリプション、コンテンツなど）、技術データ（配信ジョブとログ、トラッキングログなど）が含まれています。 Adobe Campaignのコンポーネントはすべて、特定のタスクを実行するためにデータベースと通信します。
 
 事前定義されたデータベースとスキーマを使用して Adobe Campaign をデプロイできます。この事前定義された環境は、必要に応じて拡張できます。 Adobe Campaign からデータマート内のすべてのデータへは、SQL 呼び出しを介してアクセスします。 Adobe Campaign には、ETL（抽出、変換、ロード）ツールを補完する機能も備わっており、システムとの間でのデータのインポートとエクスポートを実行することができます。
 
@@ -98,4 +98,4 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 
 合計ストレージ許容量は、メインデータベースと（オプション） Snowflake セカンダリデータベースに分割されます。 データの保存場所は、お客様固有のユースケースに応じて、実装時またはアップグレード時に決定する必要があります。
 
-データベースの使用状況をモニタリングする方法については、[Campaign Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ja){target="_blank"}を参照してください。
+データベースの使用状況をモニタリングする方法については、[Campaign Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ja){target="_blank"}を参照してください。

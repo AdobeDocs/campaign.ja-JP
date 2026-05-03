@@ -36,7 +36,7 @@ ht-degree: 79%
 
 ターゲティングは、ワークフロー内のグラフィカルシーケンスでクエリを組み合わせて作成できます。 要件に応じてターゲットとなるオーディエンスを作成できます。 ワークフローエディターを表示するには、Campaign ダッシュボードで「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。
 
-[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}のキャンペーンワークフローでオーディエンスを構築する方法について説明します。
+[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}のキャンペーンワークフローでオーディエンスを構築する方法について説明します。
 
 
 ## アクティブなプロファイル {#active-profiles}
@@ -58,5 +58,5 @@ ht-degree: 79%
 
 Adobe Campaign は大量のデータを収集して処理できる強力なツールですが、データの中には個人情報や機密情報も含まれます。 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。 したがって、受信者の同意を得てこれを監視することが重要になります。
 
-プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}を参照してください。
+プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}を参照してください。
 

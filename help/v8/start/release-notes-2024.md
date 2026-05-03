@@ -12,16 +12,16 @@ ht-degree: 97%
 
 # 2024 リリースノート {#2024-rn}
 
-このページには、**Campaign v8 2024 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ &#x200B;](release-notes.md)を参照してください。
+このページには、**Campaign v8 2024 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ ](release-notes.md)を参照してください。
 
-新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース &#x200B;](release-notes.md)をインストールします。
+新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース ](release-notes.md)をインストールします。
 
 
 >[!BEGINSHADEBOX]
 
 **このページの内容**
 
-* Campaign v8.7 - [&#x200B; リリース 8.7.1](#release-8-7-1) | [リリース 8.7.2](#release-8-7-2)
+* Campaign v8.7 - [ リリース 8.7.1](#release-8-7-1) | [リリース 8.7.2](#release-8-7-2)
 * Campaign v8.6 - [リリース 8.6.1](#release-8-6-1) | [リリース 8.6.2](#release-8-6-2) | [リリース 8.6.3](#release-8-6-3)
 * Campaign v8.5 - [リリース 8.5.3](#release-8-5-3)
 
@@ -69,7 +69,7 @@ _2024年5月2日（PT）_
 
 * **Rest API** - Campaign Standard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。 [詳細情報](../dev/api/get-started-apis.md)
 
-* **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ja){target="_blank"}
+* **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 ### 互換性のアップデート {#comp-8-7-1}
 

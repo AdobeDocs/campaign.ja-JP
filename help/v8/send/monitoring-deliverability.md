@@ -23,7 +23,7 @@ Adobe Campaignでは、次の配信品質ツールにアクセスできます。
 
 ### 受信ボックスレンダリング {#inbox-rendering-tool}
 
-[受信トレイ レンダリング レポート &#x200B;](inbox-rendering.md)を使用すると、コンテンツとレピュテーションをスキャンするために、主要な電子メールクライアントでメッセージをプレビューできます。
+[受信トレイ レンダリング レポート ](inbox-rendering.md)を使用すると、コンテンツとレピュテーションをスキャンするために、主要な電子メールクライアントでメッセージをプレビューできます。
 
 ### 配信スループット {#throughput-reports}
 
@@ -95,12 +95,12 @@ Adobe Campaignでは、次の配信品質ツールにアクセスできます。
 
 ## 関連トピック
 
-[Adobe配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}では、配信品質の戦略、定義、指標、ベストプラクティスに関する包括的なガイダンスを提供しています。
+[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}では、配信品質の戦略、定義、指標、ベストプラクティスに関する包括的なガイダンスを提供しています。
 
 [配信品質とは](about-deliverability.md)では、主要な配信品質の概念と、Campaignで配信品質を向上させる方法について説明します。
 
-[配信エラーとバウンス &#x200B;](delivery-failures.md)は、様々な種類の配信エラーについて説明し、Campaignでの対処方法を説明します。また、一般的な問題に対するトラブルシューティングのガイダンスも含まれます。
+[配信エラーとバウンス ](delivery-failures.md)は、様々な種類の配信エラーについて説明し、Campaignでの対処方法を説明します。また、一般的な問題に対するトラブルシューティングのガイダンスも含まれます。
 
 [強制隔離の管理](quarantines.md)では、Campaignが強制隔離されたアドレスを管理して、送信レピュテーションを保護する方法について説明します。
 
-[&#x200B; メッセージのコンテンツを制御](control-message-content.md)は、コンテンツが配信品質に最適化されていることを確認する方法に関するガイダンスを提供します。
+[ メッセージのコンテンツを制御](control-message-content.md)は、コンテンツが配信品質に最適化されていることを確認する方法に関するガイダンスを提供します。

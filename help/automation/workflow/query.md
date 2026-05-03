@@ -20,7 +20,7 @@ ht-degree: 92%
 ## クエリを作成します。 {#creating-a-query}
 
 クエリを使用すると、条件に応じてターゲットを選択できます。 セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
-[このセクション &#x200B;](querying-recipient-table.md)で、ユースケースを通じてクエリを作成する方法について説明します。 [&#x200B; クエリエディター](../../v8/start/query-editor.md)に関する節も参照してください。
+[このセクション ](querying-recipient-table.md)で、ユースケースを通じてクエリを作成する方法について説明します。 [ クエリエディター](../../v8/start/query-editor.md)に関する節も参照してください。
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 

@@ -29,7 +29,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->メールコンテンツの編集について詳しくは、この[&#x200B; ページ &#x200B;](defining-the-email-content.md)を参照してください。
+>メールコンテンツの編集について詳しくは、この[ ページ ](defining-the-email-content.md)を参照してください。
 
 ## 送信者アドレス {#sender-address}
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 インスタンス レベルで正しいアドレスが指定されていることを確認する必要があります（メニュー&#x200B;**[!UICONTROL ツール/詳細/デプロイメントウィザード…]**） 最も頻繁に使用されるシナリオで使用されます。
 
-送信者のアドレスの定義について詳しくは、この[&#x200B; ページ &#x200B;](defining-the-email-content.md#sender)を参照してください。
+送信者のアドレスの定義について詳しくは、この[ ページ ](defining-the-email-content.md#sender)を参照してください。
 
 ## パーソナライズ機能 {#personalization}
 

@@ -24,7 +24,7 @@ ht-degree: 82%
 ![クエリエディターへのアクセスとテーブルの選択](assets/query_editor_nveau_21.png)
 
 
-クエリを作成する手順については、このページ [&#128279;](design-queries.md)で詳しく説明しています。
+クエリを作成する手順については、このページ ](design-queries.md)で[詳しく説明しています。
 
 <!--
 Contexts to use the query editor iin Campaign are listed below:
