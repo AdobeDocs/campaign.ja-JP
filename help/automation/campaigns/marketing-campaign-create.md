@@ -208,4 +208,4 @@ Adobe Campaignでは、予算、目標、コンテンツの承認など、キャ
 
 このビデオでは、マーケティングプラン、プログラム、キャンペーンなどの作成方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3449894?captions=jpn&quality=12)
