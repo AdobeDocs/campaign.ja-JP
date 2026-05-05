@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
+source-git-commit: 5319391ca0f76292e57fafae540b7edb7925892b
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1133'
+ht-degree: 93%
 
 ---
 
@@ -90,6 +90,19 @@ Campaign ユーザーは、Adobe Identity Management System（IMS）により、
 >[!NOTE]
 >
 >Microsoft Edge WebView2 はプロキシ資格情報を保存しないので、初回接続時にコンソールから 2 回認証を求められることがあります。
+
+## Adobe ID ログインの問題のトラブルシューティング {#troubleshoot-ims-login}
+
+Adobe IDで&#x200B;**[!UICONTROL クライアントコンソール]**&#x200B;にログインする際に問題が発生した場合は、ローカル WebView2 キャッシュをクリアしてみてください。 多くの場合、これで問題は解決します。 次の手順に従います。
+
+1. **[!UICONTROL クライアントコンソール]**&#x200B;を閉じ、実行中の`nlclient` プロセスをすべて停止します。
+
+1. 次の場所からすべての`webview2`および`webview2Cache` フォルダーを削除します。
+
+   * `C:\ProgramData\Neolane\NL_5\nlclient\`
+   * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
+
+1. **[!UICONTROL クライアントコンソール]**&#x200B;を再起動し、Adobe IDでログインします。 キャッシュフォルダーは、次回の起動時に自動的に再作成されます。
 
 ## クライアントコンソールのアップグレード{#upgrade-ac-console}
 
