@@ -7,8 +7,8 @@ role: Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: f5580401-3305-4915-88a2-3400a32aa7aa
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '174'
+workflow-type: tm+mt
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-さまざまなワークフローのダイアグラムに画像が使用されますが、これらの画像が変更することができます。ただし、それには一定の制限があります。以下に示すのは実装のステージです。
+さまざまなワークフローのダイアグラムに画像が使用されますが、これらの画像が変更することができます。 ただし、それには一定の制限があります。 以下に示すのは実装のステージです。
 
 * 背景画像を変更するには、目的のターゲティングワークフローを選択してから「**[!UICONTROL プロパティ]**」タブをクリックします。
 

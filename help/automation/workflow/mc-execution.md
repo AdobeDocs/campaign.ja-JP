@@ -6,7 +6,7 @@ feature: Workflows
 role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 100%
   <tr> 
    <td> <span class="uicontrol">イベントステータスを更新</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> イベントにステータスを割り当てます。イベントのステータスには次のものがあります。<br /> 
+   <td> イベントにステータスを割り当てます。 イベントのステータスには次のものがあります。<br /> 
     <ul> 
-     <li> <p><strong>保留中</strong>：イベントはキューで待機中です。イベントはまだメッセージテンプレートと関連付けられていません。</p> </li> 
+     <li> <p><strong>保留中</strong>：イベントはキューで待機中です。 イベントはまだメッセージテンプレートと関連付けられていません。</p> </li> 
      <li> <p><strong>配信保留</strong>：イベントはキューに入っており、メッセージテンプレートが関連付けられ、現在配信処理中です。</p> </li> 
-     <li> <p><strong>送信済み</strong>：このステータスは配信ログからコピーされます。配信が送信されたことを示します。</p> </li> 
-     <li> <p><strong>配信で無視</strong>：このステータスは配信ログからコピーされます。配信が無視されたことを示します。</p> </li> 
-     <li> <p><strong>配信エラー</strong>：このステータスは配信ログからコピーされます。配信に失敗したことを示します。</p> </li> 
-     <li> <p><strong>対象外のイベント</strong>：イベントを、メッセージテンプレートに関連付けられませんでした。イベントは再処理されません。</p> </li> 
+     <li> <p><strong>送信済み</strong>：このステータスは配信ログからコピーされます。 配信が送信されたことを示します。</p> </li> 
+     <li> <p><strong>配信で無視</strong>：このステータスは配信ログからコピーされます。 配信が無視されたことを示します。</p> </li> 
+     <li> <p><strong>配信エラー</strong>：このステータスは配信ログからコピーされます。 配信に失敗したことを示します。</p> </li> 
+     <li> <p><strong>対象外のイベント</strong>：イベントを、メッセージテンプレートに関連付けられませんでした。 イベントは再処理されません。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

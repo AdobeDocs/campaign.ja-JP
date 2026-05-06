@@ -7,8 +7,8 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
-source-wordcount: '258'
+workflow-type: tm+mt
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 各種ターゲティングアクティビティを使用して、ワークフローの配信アップストリームのターゲットを指定できます。
 
-以下の例では、プッシュ通知購読者にメールまたは SMS を送信してから 1 週間後にプッシュ通知を通知するワークフローを作成する方法を説明します。手順は次のとおりです。
+以下の例では、プッシュ通知購読者にメールまたは SMS を送信してから 1 週間後にプッシュ通知を通知するワークフローを作成する方法を説明します。 手順は次のとおりです。
 
 1. キャンペーンを作成します。
 1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、**[!UICONTROL クエリ]**&#x200B;アクティビティを追加します。
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    ![](assets/cross_channel_delivery_1.png)
 
-1. クエリにフィルター条件を追加します。この場合、モバイル番号またはメールアドレスを持つ受信者を選択します。
+1. クエリにフィルター条件を追加します。 この場合、モバイル番号またはメールアドレスを持つ受信者を選択します。
 
    ![](assets/cross_channel_delivery_2.png)
 

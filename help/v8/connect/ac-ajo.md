@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 52d8e2a5-9fdf-498a-bdbd-13a9935a94d6
 source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 86%
+source-wordcount: '129'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Campaign と Adobe Journey Optimizer の統合により、Adobe Journey Op
 ![](assets/ajo-integration.png)
 
 
-[&#x200B; この統合については、エンドツーエンドのサンプルをご覧ください &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}。
+[この統合については、このエンドツーエンドのサンプル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}を参照してください。
 
 
-[&#x200B; 詳しくは、Journey Optimizer ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}。
+[詳しくは、Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}を参照してください。

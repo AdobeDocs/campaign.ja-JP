@@ -7,14 +7,14 @@ level: Beginner
 exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '93'
 ht-degree: 100%
 
 ---
 
 # Web フォームでのプロファイルの収集と更新
 
-Campaign を使用して web フォームを作成し、プロファイルのデータを簡単かつ効率的に収集および管理します。これらのフォームは web サイトで共有できるので、連絡先にとっても情報を提供しやすくなります。データを Campaign に送信すると、プロファイルを作成または更新できます。
+Campaign を使用して web フォームを作成し、プロファイルのデータを簡単かつ効率的に収集および管理します。 これらのフォームは web サイトで共有できるので、連絡先にとっても情報を提供しやすくなります。 データを Campaign に送信すると、プロファイルを作成または更新できます。
 
 ![](assets/web-form-page.png)
 

@@ -1,6 +1,6 @@
 ---
-title: カスタムリソースとのやり取り
-description: API を使用したカスタムリソース管理の詳細情報/
+title: カスタムリソースの操作
+description: API/を使用したカスタムリソース管理について詳しく見る
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -14,29 +14,29 @@ ht-degree: 0%
 
 ---
 
-# カスタムリソースとのやり取り {#interacting-with-custom-resources}
+# カスタムリソースの操作 {#interacting-with-custom-resources}
 
-**/customResources** エンドポイントを使用すると、Campaign のカスタムリソースを REST で公開できます。 この API に基づいて、カスタムエンティティと外部エンドポイントの統合を使用できます。
+**/customResources** エンドポイントを使用すると、RESTでCampaign カスタムリソースを公開できます。 このAPIに基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
-/customResources エンドポイントの動作は、/profileAndServices エンドポイントとまったく同じです。
+/customResources エンドポイントは、/profileAndServices エンドポイントとまったく同じ動作をします。
 
-この API 内で公開されるカスタムリソースは次のとおりです。
+このAPI内で公開されるカスタムリソースは次のとおりです。
 
-* /profileAndServicesExt で公開されないすべてのエンティティ
-* プロファイルにリンクされていないすべてのエンティティ。これらのエンティティについては、その子と孫。
-* デフォルトでは、何にもリンクされていないすべてのエンティティ、およびその子と孫です。
+* /profileAndServicesExtの下に公開されていないすべてのエンティティ
+* プロファイルにリンクされていないすべてのエンティティ、およびこれらのエンティティの場合は、その子と孫。
+* デフォルトでは、何にもリンクされていないすべてのエンティティ、およびその子と孫。
 
 >[!NOTE]
->/profileAndServicesExt 以下で使用可能なカスタムリソースは、/customResources API では公開されません。
+>/profileAndServicesExtで使用できるカスタムリソースは、/customResources APIでは公開されません。
 
 
-次に、カスタムリソースからメタデータを取得する例を示します。
+カスタムリソースからメタデータを取得する例を次に示します。
 
 ```
 GET /customResources/resourceType/<customResourceName>
 ```
 
-作成、更新または削除を実行するには、GET、POST、PATCH、DELETEを使用します。
+作成、更新または削除を実行するには、GET、POST、PATCH、DELETEが使用されます。
 
 ```
 POST /customResources/<customResourceName>

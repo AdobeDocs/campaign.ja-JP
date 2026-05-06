@@ -7,7 +7,7 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: cfa1f45c-e1ac-4055-996c-6e8d041889bb
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
    ![](assets/query_recipients_1.png)
 
-1. 次のようにフィルター条件を定義して配信ログ内に存在する受信者をターゲットにします。「**式**」列で「**受信者配信ログ（broadlog）**」を選択し、「**オペレーター**」列で「**既存の例**」を選択します。
+1. 次のようにフィルター条件を定義して配信ログ内に存在する受信者をターゲットにします。 「**式**」列で「**受信者配信ログ（broadlog）**」を選択し、「**オペレーター**」列で「**既存の例**」を選択します。
 
    ![](assets/query_recipients_2.png)
 
-1. 次のようにフィルター条件を定義して配信をターゲットにします。「式」列で「**[!UICONTROL 内部名]**」を選択し、「オペレーター」列で「**[!UICONTROL 等しい]**」を選択します。
+1. 次のようにフィルター条件を定義して配信をターゲットにします。 「式」列で「**[!UICONTROL 内部名]**」を選択し、「オペレーター」列で「**[!UICONTROL 等しい]**」を選択します。
 1. 「値」列にターゲットにした配信の内部名を追加します。
 
    ![](assets/query_recipients_3.png)

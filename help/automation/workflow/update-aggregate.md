@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # 集計の更新{#update-aggregate}
 
-レポート目的で[キューブ](../../v8/reporting/gs-cubes.md)に定義された集計は、特定のアクティビティで更新できます。集計の設定は、「**[!UICONTROL ワークフロー]**」タブで行います。
+レポート目的で[キューブ](../../v8/reporting/gs-cubes.md)に定義された集計は、特定のアクティビティで更新できます。 集計の設定は、「**[!UICONTROL ワークフロー]**」タブで行います。
 
 キューブと集計について詳しくは、[この節](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates)を参照してください。
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ![](assets/update-aggregate-details.png)
 
-デフォルトでは、各計算時に完全更新が実行されます。部分更新を有効にするには、オプションを選択し、更新の条件を定義します。
+デフォルトでは、各計算時に完全更新が実行されます。 部分更新を有効にするには、オプションを選択し、更新の条件を定義します。
 
 ![](assets/update-aggregate-partial.png)
 

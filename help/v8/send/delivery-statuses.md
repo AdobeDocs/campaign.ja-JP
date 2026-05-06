@@ -5,20 +5,21 @@ feature: Monitoring, Deliverability
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 90f2b7b2-db9e-42aa-aef2-e90aee5d208e
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 71%
+source-wordcount: '561'
+ht-degree: 68%
 
 ---
 
 # 配信ステータス {#delivery-statuses}
 
-配信の送信が完了すると、配信ダッシュボードにステータスが表示され、送信が成功したかどうかを監視できます。可能なステータスについては、次の節で詳しく説明します。
+配信の送信が完了すると、配信ダッシュボードにステータスが表示され、送信が成功したかどうかを監視できます。 可能なステータスについては、次の節で詳しく説明します。
 
 ![](assets/delivery-status.png)
 
-発生する可能性のある様々な配信エラーと、その解決方法について詳しくは、[&#x200B; 配信エラーについて &#x200B;](delivery-failures.md) を参照してください。
+様々な配信エラーの詳細と解決方法については、[配信エラーについて](delivery-failures.md)を参照してください。
 
 **関連トピック：**
 
@@ -42,15 +43,15 @@ ht-degree: 71%
   </tr> 
   <tr> 
    <td> 無視<br /> </td> 
-   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。ブロックリストへの登録、強制隔離、未指定または重複の可能性があります。<br /> </td> 
+   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。 ブロックリストへの登録、強制隔離、未指定または重複の可能性があります。<br /> </td> 
   </tr> 
   <tr> 
    <td> 失敗<br /> </td> 
-   <td> 無効なアドレスやインボックスが満杯であることが原因で、配信は受信者に到達できませんでした。パーソナライゼーションブロックの問題に関係していることもあり、その場合、スキーマが配信マッピングと一致しないとエラーが生成されます。<a href="delivery-failures.md" target="_blank">配信エラーの理解</a><br />を参照してください。 </td> 
+   <td> 無効なアドレスやインボックスが満杯であることが原因で、配信は受信者に到達できませんでした。 パーソナライゼーションブロックの問題に関係していることもあり、その場合、スキーマが配信マッピングと一致しないとエラーが生成されます。 <a href="delivery-failures.md" target="_blank">配信エラーの理解</a><br />を参照してください。 </td> 
   </tr>
   <tr> 
    <td> 保留中<br /> </td> 
-   <td> 配信の送信の準備が完了し、配信サーバー（MTA）によって処理されます。<a href="#pending-status" target="_blank">保留中ステータス</a>を参照してください。<br /> </td> 
+   <td> 配信の送信の準備が完了し、配信サーバー（MTA）によって処理されます。 <a href="#pending-status" target="_blank">保留中ステータス</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 該当なし<br /> </td> 
@@ -62,7 +63,7 @@ ht-degree: 71%
   </tr> 
   <tr> 
    <td> サービスプロバイダーで受信済み<br /> </td> 
-   <td> SMS 配信の場合、SMS サービスプロバイダーが配信を受信しました。<br /> メール配信の場合、メッセージは Campaign から MTA （メール転送エージェント）に正常に中継されました。</td> 
+   <td> SMS配信の場合、SMS サービス プロバイダーは配信を受信しました。<br /> メール配信の場合、メッセージはCampaignからMTA （メール転送エージェント）に正常に中継されました。</td> 
   </tr> 
   <tr> 
    <td> モバイルで受信済み<br /> </td> 
@@ -70,43 +71,42 @@ ht-degree: 71%
   </tr>
   <tr> 
    <td> サービスプロバイダーに送信済み<br /> </td> 
-   <td> 配信は SMS サービスプロバイダーに送信されましたが、まだ受信されていません。<br />
+   <td> 配信はSMS サービスプロバイダーに送信されましたが、まだ受信されていません。<br />
    </td> 
   </tr> 
   <tr> 
    <td> 準備済み<br /> </td> 
-   <td> 外部コネクタ（モバイルチャネルなど）でのみ使用される中間ステータス。「保留中」ステータスの次に遷移するステータスであり、後続のステータスは外部コネクタが決定します。<br /> </td> 
+   <td> 外部コネクタ（モバイルチャネルなど）でのみ使用される中間ステータス。 「保留中」ステータスの次に遷移するステータスであり、後続のステータスは外部コネクタが決定します。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Adobe Campaign のメールの配信品質を最適化する方法について、[この節](about-deliverability.md)を参照してください。配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+Adobe Campaign のメールの配信品質を最適化する方法について、[この節](about-deliverability.md)を参照してください。 配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 ## 保留中ステータス {#pending-status}
 
-配信を確認した後に、配信のステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;である場合があります。このステータスは、一部のリソースが使用可能になるのを実行プロセスが待機していることを意味します。
+配信を確認した後に、配信のステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;である場合があります。 このステータスは、一部のリソースが使用可能になるのを実行プロセスが待機していることを意味します。
 
-**[!UICONTROL 保留中]**&#x200B;ステータスは、配信はスケジュールされたが特定の日付まで保留されることを意味している可能性があります。詳しくは、[&#x200B; 配信送信のスケジュール &#x200B;](configure-and-send.md#schedule-delivery-sending) の節を参照してください。
+**[!UICONTROL 保留中]**&#x200B;ステータスは、配信はスケジュールされたが特定の日付まで保留されることを意味している可能性があります。 詳しくは、[配信の送信スケジュール &#x200B;](configure-and-send.md#schedule-delivery-sending)の節を参照してください。
 
 配信が送信されず、ステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;のままである場合は、次のことが原因である可能性があります。
 
-* **同時に実行されるキャンペーンが多すぎる**
+* **同時に実行しているキャンペーンが多すぎます**
 
-  同時キャンペーンの制限は、「**[!UICONTROL NmsOperation_LimitConcurrency]**」オプションで定義します。 デフォルト値は 10 です。
+  同時キャンペーンの制限は、**[!UICONTROL NmsOperation_LimitConcurrency]** オプションで定義されています。 デフォルト値は 10 です。
 
-  Managed Cloud Services のユーザーは、Adobeと連携して、必要に応じてこの制限を調整できます。 オプションについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja){target="_blank"} を参照してください。
+  Managed Cloud Services ユーザーは、Adobeと連携して、必要に応じてこの制限を調整できます。 オプションについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja){target="_blank"}を参照してください。
 
-* **リソースの空き時間の問題**
+* **リソースの可用性に関する問題**
 
-  MTA （メッセージ転送エージェント）は、配信が処理される前にリソースが使用可能になるのを待っている可能性があります。
+  MTA （Message Transfer Agent）は、配信を処理する前にリソースが利用可能になるのを待っている可能性があります。
 
 >[!NOTE]
 >
->Campaign v8 Managed Cloud Services ユーザーの場合、MTA インフラストラクチャはAdobeによって監視および管理されます。 配信待ちの問題が解決しない場合は、Adobe カスタマーケアへのお問い合わせ。
+>Campaign v8 Managed Cloud Services ユーザーの場合、MTA インフラストラクチャはAdobeによって監視および管理されます。 保留中の配信に関して永続的な問題が発生した場合は、Adobe カスタマーケアにお問い合わせください。
 
 **関連トピック：**
 
 * [メールの送信と監視](send.md#email-monitoring)
 * [配信失敗について](delivery-failures.md)
-* [Campaign 環境の監視](../start/monitor.md#monitor-deliveries)
-
+* [Campaign環境のモニタリング](../start/monitor.md#monitor-deliveries)

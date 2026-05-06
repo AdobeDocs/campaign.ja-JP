@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '263'
 ht-degree: 95%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 95%
 
 オプション 2：Adobe People／AAM
 
-**Adobe Campaign** と **People コアサービス**&#x200B;または Adobe Audience Manager を統合できます。次のことが可能になります。
+**Adobe Campaign** と **People コアサービス**&#x200B;または Adobe Audience Manager を統合できます。 次のことが可能になります。
 
-* 共有されたオーディエンスまたはセグメントを、他の Adobe Experience Cloud ソリューションから Adobe Campaign にインポートします。オーディエンスは Adobe Campaign のリストを使用してインポートできます。
+* 共有されたオーディエンスまたはセグメントを、他の Adobe Experience Cloud ソリューションから Adobe Campaign にインポートします。 オーディエンスは Adobe Campaign のリストを使用してインポートできます。
 
-* Adobe Experience Cloud 共有オーディエンスのフォームでリストをエクスポートします。これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。オーディエンスは、ワークフローでターゲティングした後、専用の&#x200B;**[!UICONTROL 共有オーディエンスの更新]**&#x200B;アクティビティを使用してエクスポートできます。
+* Adobe Experience Cloud 共有オーディエンスのフォームでリストをエクスポートします。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。 オーディエンスは、ワークフローでターゲティングした後、専用の&#x200B;**[!UICONTROL 共有オーディエンスの更新]**&#x200B;アクティビティを使用してエクスポートできます。
 
 この統合では、2 つのタイプの Adobe Experience Cloud ID をサポートしています。
 
 * **訪問者 ID**：この識別子は、Adobe Experience Cloud の訪問者を Adobe Campaign 受信者に紐付けします。
-* **宣言済み ID**：この識別子は、すべてのタイプのデータを Adobe Campaign データベース内の要素に紐付けします。Adobe Campaign の事前定義済みの紐付けキーです。
+* **宣言済み ID**：この識別子は、すべてのタイプのデータを Adobe Campaign データベース内の要素に紐付けします。 Adobe Campaign の事前定義済みの紐付けキーです。
 
   >[!NOTE]
   >

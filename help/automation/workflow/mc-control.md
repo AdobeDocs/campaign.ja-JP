@@ -6,7 +6,7 @@ feature: Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Message Center（コントロール）{#message-center-control}
 
-以下で説明するワークフローは、毎時間実行されるようにスケジュールされています。このワークフローは、デフォルトで **Message Center - コントロール**&#x200B;モジュールと共にインストールされます。
+以下で説明するワークフローは、毎時間実行されるようにスケジュールされています。 このワークフローは、デフォルトで **Message Center - コントロール**&#x200B;モジュールと共にインストールされます。
 
 
 <table> 

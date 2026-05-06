@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '921'
+ht-degree: 86%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 100%
 
 キャンペーンテーブル / データベースとの結合関係の場合：
 
-* ![](assets/do-not-localize/join_with_campaign11.png)：一対一のカーディナリティ。例えば、受信者と現在の注文。受信者は一度につき、現在の注文テーブルの発生件数 1 回に関連付けることができます
-* ![](assets/do-not-localize/externaljoin11.png)：一対一のカーディナリティ、外部結合。例えば、受信者と、受信者の居住国。受信者は、国テーブルの 1 つにのみ関連付けることができます。国テーブルの内容は保存されません。
-* ![](assets/do-not-localize/join_with_campaign1n.png)：一対多のカーディナリティ。例えば、受信者と購読テーブルなどがあります。受信者は、購読テーブルの複数のオカレンスに関連付けることができます。
+* ![](assets/do-not-localize/join_with_campaign11.png)：一対一のカーディナリティ。 例えば、受信者と現在の注文。 受信者は一度につき、現在の注文テーブルの発生件数 1 回に関連付けることができます
+* ![](assets/do-not-localize/externaljoin11.png)：一対一のカーディナリティ、外部結合。 例えば、受信者と、受信者の居住国。 受信者は、国テーブルの 1 つにのみ関連付けることができます。 国テーブルの内容は保存されません。
+* ![](assets/do-not-localize/join_with_campaign1n.png)：一対多のカーディナリティ。例えば、受信者と購読テーブルなどがあります。 受信者は、購読テーブルの複数のオカレンスに関連付けることができます。
 
 連合データベースアクセス（FDA）を使用した結合関係の場合：
 
@@ -69,7 +69,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
    * **externalJoin** （オプション）：外部結合を強制します
    * **revExternalJoin** （オプション）：外部結合を逆リンクで強制的に設定します
 
-* リンクはソーステーブルから宛先のテーブルへ、1 つ以上のフィールドを参照します。結合（`<join>`要素）を構成するフィールドは、デフォルトでターゲットスキーマの内部キーを使用して、自動で推定されるので、入力する必要はありません。
+* リンクはソーステーブルから宛先のテーブルへ、1 つ以上のフィールドを参照します。 結合（`<join>`要素）を構成するフィールドは、デフォルトでターゲットスキーマの内部キーを使用して、自動で推定されるので、入力する必要はありません。
 * インデックスは、拡張スキーマ内のリンクの外部キーに自動的に追加されます。
 * リンクは 2 つのハーフリンクで構成されます。1 つ目はソーススキーマで宣言され、2 つ目はターゲットスキーマの拡張スキーマに、自動的に作成されます。
 * **externalJoin** 属性が追加され、値が「true」の場合、結合は外部結合になることがあります（PostgreSQL でサポートされています）。
@@ -80,7 +80,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 ## 例：逆リンク {#example-1}
 
-次の例では、「cus:company」スキーマテーブルに対して一対多の関係を宣言します。
+次の例では、「cus:company」スキーマテーブルに1-N関係を宣言します。
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -112,7 +112,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 外部キーは、次の命名規則に従って、宛先テーブルの関連フィールドと同じ特性を使用する要素に自動的に追加されます。ターゲットスキーマの名前の後に関連フィールドの名前（この例では「company-id」）が続きます。
 
-ターゲットの拡張スキーマ（「cus:company」）：
+ターゲットの拡張スキーマ （&quot;cus:company&quot;）:
 
 ```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -133,17 +133,17 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 </schema>
 ```
 
-「cus:recipient」テーブルへの逆リンクが、次のパラメータで追加されました。
+次のパラメーターを使用して、「cus:recipient」テーブルへの逆リンクが追加されました。
 
 * **name**：ソーススキーマの名前から自動的に推定されます（ソーススキーマのリンク定義の「revLink」属性を使用して強制できます)
 * **revLink**：逆リンク名
-* **target**：リンクスキーマのキー（「cus:recipient」スキーマ）
+* **target**：リンクされたスキーマのキー（「cus:recipient」スキーマ）
 * **unbound**：リンクは、一対多のカーディナリティのコレクション要素として宣言されます（デフォルト）
 * **integrity**：デフォルトは「define」です（ソーススキーマのリンク定義の「revIntegrity」属性を使用して強制できます)。
 
 ## 例：シンプルリンク {#example-2}
 
-この例では、「nms:address」スキーマテーブルへのリンクを宣言します。結合は外部結合であり、受信者のメールアドレスとリンクテーブルの「@address」フィールド（「nms:address」）が明示的に入力されます。
+この例では、「nms:address」スキーマテーブルへのリンクを宣言します。 結合は外部結合であり、受信者の電子メールアドレスとリンクされたテーブルの「@address」フィールド（「nms:address」）が明示的に入力されます。
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -158,7 +158,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 ## 例：一意のカーディナリティ {#example-3}
 
-この例では、「cus:extension」スキーマテーブルとの一対一の関係を作成します。
+この例では、「cus:extension」スキーマテーブルに1-1関係を作成します。
 
 ```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
@@ -176,7 +176,7 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 ## 例：リンクへのキーの作成 {#example-5}
 
-この例では、**xlink** 属性と（「email」）テーブルのフィールドを持つリンク（「company」から「cus:company」スキーマ）にキーを作成します。
+この例では、**xlink**&#x200B;属性と（&quot;email&quot;） テーブルのフィールドを持つリンク （&quot;company&quot; to &quot;cus:company&quot; スキーマ）にキーを作成します。
 
 ```sql
 <srcSchema name="recipient" namespace="cus">
@@ -220,4 +220,4 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 </schema>
 ```
 
-「companyEmail」名キーの定義は、「company」リンクの外部キーで拡張されました。このキーは、両方のフィールドで一意のインデックスを生成します。
+「companyEmail」名キーの定義は、「company」リンクの外部キーで拡張されました。 このキーは、両方のフィールドで一意のインデックスを生成します。

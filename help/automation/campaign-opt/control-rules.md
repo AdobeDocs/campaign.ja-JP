@@ -6,7 +6,7 @@ feature: Typology Rules
 exl-id: 79e442ea-f856-41bf-b065-25cb2ad2c65b
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '389'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 コントロールルールを使用すると、配信を実行する前に、メッセージの有効性と品質（文字の表示、SMS のサイズ、アドレスの形式など）を確認することができます。
 
-デフォルトのルールセットでは、一般的なチェックを実行できます。以下のタイプのチェック（インターフェイスで太字で表示される）が用意されています。
+デフォルトのルールセットでは、一般的なチェックを実行できます。 以下のタイプのチェック（インターフェイスで太字で表示される）が用意されています。
 
 * **[!UICONTROL オブジェクトの検証]**（メール）：送信者のオブジェクトやアドレスをチェックして、メールエージェントで問題を引き起こす可能性のある特殊文字が含まれていないことを確認します。
 * **[!UICONTROL URL ラベルの検証]**（メール）：各トラッキング URL にラベルがあることを確認します。
@@ -28,15 +28,15 @@ ht-degree: 100%
 
 ## コントロールルールの作成 {#create-a-control-rule}
 
-必要に応じて、新しいコントロールルールを作成することができます。まず、**[!UICONTROL コントロール]**&#x200B;タイポロジルールを作成し、次に「**[!UICONTROL コード]**」タブに SQL 形式でコントロールの数式を入力します。
+必要に応じて、新しいコントロールルールを作成することができます。 まず、**[!UICONTROL コントロール]**&#x200B;タイポロジルールを作成し、次に「**[!UICONTROL コード]**」タブに SQL 形式でコントロールの数式を入力します。
 
 **例：**
 
-次の例では、SMS オファーが 100 人を超える受信者に送信されないようにするルールを作成します。このルールは、まずキャンペーンタイポロジにリンクされ、その後オファーを送信する SMS 配信にリンクされます。
+次の例では、SMS オファーが 100 人を超える受信者に送信されないようにするルールを作成します。 このルールは、まずキャンペーンタイポロジにリンクされ、その後オファーを送信する SMS 配信にリンクされます。
 
 次の手順に従います。
 
-1. **[!UICONTROL コントロール]**&#x200B;タイポロジルールを作成します。アラートレベルとして、「**[!UICONTROL 警告]**」を選択します。
+1. **[!UICONTROL コントロール]**&#x200B;タイポロジルールを作成します。 アラートレベルとして、「**[!UICONTROL 警告]**」を選択します。
 
    ![](assets/campaign_opt_create_control_01.png)
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    ![](assets/campaign_opt_create_control_02.png)
 
-   このスクリプトは、配信ターゲットが 100 人を超えると、警告を生成します。
+   このスクリプトは、配信ターゲットが 100 人を超えると、警告をトリガーします。
 
    ```
    if( delivery.FCP == false && delivery.properties.toDeliver > 100 ) { logWarning("Significant number of SMS to deliver (" + delivery.properties.toDeliver + "). Please make sure the target is correct.") return false; } return true

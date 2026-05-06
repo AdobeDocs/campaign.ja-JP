@@ -8,8 +8,8 @@ hide: true
 exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 2%
+source-wordcount: '1421'
+ht-degree: 4%
 
 ---
 
@@ -171,7 +171,7 @@ recipient.save();
 
 **例外を回避するには、`getIfExists`を使用してください：**
 
-レコードが存在しない可能性がある場合は、`operation: "getIfExists"`ではなく`get`を使用して例外を回避します。
+レコードが存在しない可能性がある場合は、`get`ではなく`operation: "getIfExists"`を使用して例外を回避します。
 
 ```javascript
 var query = NLWS.xtkQueryDef.create({
@@ -755,9 +755,9 @@ for each(var record in xml.collection) {
 queryDef メソッドとNLWS メソッドを使用する場合：
 
 * **大規模なデータセットにワークフローを使用** - QueryDefは大量データ処理用に設計されていません。 1,000以上のレコードを持つデータセットには、数百万行を効率的に処理できるワークフローを使用します。 詳しくは、[Campaign SDK ドキュメント &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}を参照してください
-* **パラメーター化されたクエリを使用** - SQL インジェクションを防ぐには、常に`$(sz)`で連結パラメーター（`$(l)`、`sqlExec`）を使用します
+* **パラメーター化されたクエリを使用** - SQL インジェクションを防ぐには、常に`sqlExec`で連結パラメーター（`$(sz)`、`$(l)`）を使用します
 * **明示的な制限を設定** - `lineCount`を使用して結果サイズを制御します。 Campaignのデフォルトの制限はコンテキストによって異なります（200 ～ 10,000 レコード）
-* **ページネーションでorderByを使用** – 一貫したページネーションを確保するために`orderBy`と`startLine`を使用する場合は、常に`lineCount`句を含めます
+* **ページネーションでorderByを使用** – 一貫したページネーションを確保するために`startLine`と`lineCount`を使用する場合は、常に`orderBy`句を含めます
 * **getIfExists**&#x200B;を使用 – レコードが存在しない場合は`operation: "getIfExists"`を使用して例外を回避します
 * **列挙にAnalyticsを使用** - ノードを選択する`analyze: true`を追加して、使いやすい列挙名とラベルを取得します
 * **クエリを最適化** – 結果セットを制限するために適切な`where`条件を追加します
@@ -900,7 +900,7 @@ if (count > 0 && count < 10000) {
 
 * [Campaign API の概要](api.md)
 * [Campaign JavaScript SDK - クエリ API](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
-* [queryDef API リファレンス &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=ja){target="_blank"}
-* [Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
+* [queryDef API リファレンス](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=ja){target="_blank"}
+* [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
 * [スキーマの操作](schemas.md)
 * [クエリエディターの操作](../start/query-editor.md)

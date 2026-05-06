@@ -7,7 +7,7 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d85645a6-fc15-4c3a-9d67-d4230224e1f7
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 # セル{#cells}
 
-**[!UICONTROL セル]**&#x200B;アクティビティでは、各種のサブセットをデータ列として表示します。このアクティビティは、サブセットの操作を容易にし、パーソナライゼーション機能を活用できるように設計されています。
+**[!UICONTROL セル]**&#x200B;アクティビティでは、各種のサブセットをデータ列として表示します。 このアクティビティは、サブセットの操作を容易にし、パーソナライゼーション機能を活用できるように設計されています。
 
 ![](assets/wf_split_cells.png)
 
-ユーザーのニーズに基づく特定のパラメーターを入力して、このアクティビティを設定できます。各サブセットの詳細は、デフォルトでは、「**[!UICONTROL セル]**」タブと「**[!UICONTROL 詳細設定]**」タブを通じて専用ウィンドウに表示されます。
+ユーザーのニーズに基づく特定のパラメーターを入力して、このアクティビティを設定できます。 各サブセットの詳細は、デフォルトでは、「**[!UICONTROL セル]**」タブと「**[!UICONTROL 詳細設定]**」タブを通じて専用ウィンドウに表示されます。
 
 ![](assets/wf_split_cells_with_customization.png)
 

@@ -8,31 +8,31 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 96%
+source-wordcount: '1364'
+ht-degree: 95%
 
 ---
 
 # LINE 配信の作成
 
-LINE は、無料のインスタントメッセージ、音声およびビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。Adobe Campaign を使用して、LINE メッセージを送信できます。
+LINE は、無料のインスタントメッセージ、音声およびビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。 Adobe Campaign を使用して、LINE メッセージを送信できます。
 
-また [!DNL LINE] は、コンシューマー向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。詳しくは、Campaign Classic v7 ドキュメントのこの [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) を参照してください。
+また [!DNL LINE] は、コンシューマー向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。 詳しくは、Campaign Classic v7 ドキュメントのこの[page](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)を参照してください。
 
 ![](assets/line_message.png)
 
 [!DNL LINE] チャネルを使用する手順は次のとおりです。
 
 1. [LINE チャネルの設定](#setting-up-line-channel)
-1. [&#x200B; 配信の作成](#creating-the-delivery)
+1. [配信の作成](#creating-the-delivery)
 1. [コンテンツタイプの設定](#defining-the-content)
 1. [配信の監視（トラッキング、強制隔離、レポートなど）](#accessing-reports)
 
 ## LINE チャネルの設定 {#setting-up-line-channel}
 
-[!DNL LINE] アカウントと外部アカウントを作成する前に、LINE パッケージをインスタンスにインストールする必要があります。 Adobe担当者にお問い合わせください。
+[!DNL LINE] アカウントと外部アカウントを作成する前に、LINE パッケージをインスタンスにインストールする必要があります。 Adobeの担当者にお問い合わせください。
 
-まず、Adobe Campaign にリンクできるように、[!DNL LINE] アカウントを作成する必要があります。[!DNL LINE] アカウントをモバイルアプリケーションで追加したユーザーに [!DNL LINE] メッセージを送信できます。外部アカウントと [!DNL LINE] アカウントは、プラットフォームの機能管理者のみが管理できます。
+まず、Adobe Campaign にリンクできるように、[!DNL LINE] アカウントを作成する必要があります。 [!DNL LINE] アカウントをモバイルアプリケーションで追加したユーザーに [!DNL LINE] メッセージを送信できます。 外部アカウントと [!DNL LINE] アカウントは、プラットフォームの機能管理者のみが管理できます。
 
 [!DNL LINE] アカウントを作成して設定する方法については、[LINE デベロッパードキュメント](https://developers.line.biz/ja/)を参照してください。
 
@@ -64,10 +64,9 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. ビルトインの **[!UICONTROL LINE V2 ルーティング]**&#x200B;外部アカウントを選択します。
 
-
    ![](assets/line_config.png)
 
-1. 外部アカウントの「**[!UICONTROL LINE]**」タブをクリックし、外部アカウントの設定開始に移動します。次のフィールドに入力します。
+1. 外部アカウントの「**[!UICONTROL LINE]**」タブをクリックし、外部アカウントの設定開始に移動します。 次のフィールドに入力します。
 
    ![](assets/line_config_2.png)
 
@@ -88,7 +87,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 >[!NOTE]
 >
->新しい受信者に [!DNL LINE] 配信を初めて送信する場合は、利用条件と配信への同意に関する公式 LINE メッセージを追加する必要があります。公式メッセージは、[次のリンク](https://terms.line.me/OA_privacy?lang=ja)から入手できます。
+>新しい受信者に [!DNL LINE] 配信を初めて送信する場合は、利用条件と配信への同意に関する公式 LINE メッセージを追加する必要があります。 公式メッセージは、[次のリンク](https://terms.line.me/OA_privacy?lang=ja)から入手できます。
 
 [!DNL LINE] 配信を作成するには、次の手順に従う必要があります。
 
@@ -100,11 +99,11 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
    ![](assets/line_message_01.png)
 
-1. **[!UICONTROL ラベル]**、**[!UICONTROL 配信コード]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を設定して配信を識別します。詳しくは、[この節](../../start/create-message.md#create-the-delivery)を参照してください。
+1. **[!UICONTROL ラベル]**、**[!UICONTROL 配信コード]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を設定して配信を識別します。 詳しくは、[この節](../../start/create-message.md#create-the-delivery)を参照してください。
 
 1. 「**[!UICONTROL 続行]**」をクリックして配信を作成します。
 
-1. 配信エディターで、「**[!UICONTROL 宛先]**」を選択して [!DNL LINE] 配信の受信者をターゲットします。ターゲティングは、**[!UICONTROL 訪問者の購読（nms:visitorSub）]** に対して実行されます。
+1. 配信エディターで、「**[!UICONTROL 宛先]**」を選択して [!DNL LINE] 配信の受信者をターゲットします。 ターゲティングは、**[!UICONTROL 訪問者サブスクリプション （nms:visitorSub）]**&#x200B;に対して実行されます。
 
    詳しくは、[このページ](../../audiences/target-mappings.md)を参照してください。
 
@@ -114,9 +113,9 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
    ![](assets/line_message_09.png)
 
-1. [!DNL LINE] 購読者を直接ターゲットするか [!DNL LINE] 購読に応じてユーザーをターゲットするかを選択し、「**[!UICONTROL 次へ]**」をクリックします。この例では、「**[!UICONTROL LINE V2 購読別]**」を選択しています。
+1. [!DNL LINE] 購読者を直接ターゲットするか [!DNL LINE] 購読に応じてユーザーをターゲットするかを選択し、「**[!UICONTROL 次へ]**」をクリックします。 この例では、「**[!UICONTROL LINE V2 購読別]**」を選択しています。
 
-1. 「**[!UICONTROL フォルダー]**」ドロップダウンで「**[!UICONTROL Line-V2]**」を選択し、[!DNL LINE] サービスを選択します。「**[!UICONTROL 完了]**」、「**[!UICONTROL OK]**」の順にクリックして、配信のパーソナライズを開始します。
+1. 「**[!UICONTROL フォルダー]**」ドロップダウンで「**[!UICONTROL Line-V2]**」を選択し、[!DNL LINE] サービスを選択します。 「**[!UICONTROL 完了]**」、「**[!UICONTROL OK]**」の順にクリックして、配信のパーソナライズを開始します。
 
    ![](assets/line_message_10.png)
 
@@ -136,7 +135,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 ## コンテンツタイプの定義 {#defining-the-content}
 
-[!DNL LINE] 配信のコンテンツを定義するには、最初にメッセージタイプを配信に追加する必要があります。それぞれの [!DNL LINE] 配信には最大で 5 件のメッセージを含めることができます。
+[!DNL LINE] 配信のコンテンツを定義するには、最初にメッセージタイプを配信に追加する必要があります。 それぞれの [!DNL LINE] 配信には最大で 5 件のメッセージを含めることができます。
 
 次の 3 つのメッセージタイプから選択できます。
 
@@ -154,7 +153,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 ![](assets/line_message_02.png)
 
-このタイプのメッセージの設定は、メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。詳しくは、[このページ](../defining-the-email-content.md#message-content)を参照してください。
+このタイプのメッセージの設定は、メールの&#x200B;**[!UICONTROL テキスト]**&#x200B;の設定と類似しています。 詳しくは、[このページ](../defining-the-email-content.md#message-content)を参照してください。
 
 ### 画像およびリンク配信の設定 {#configuring-an-image-and-link-delivery}
 
@@ -174,7 +173,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
   ![](assets/line_message_03.png)
 
-  「**[!UICONTROL デバイスの画面サイズごとに画像を定義]**」オプションを使用すると、様々な画像解像度を使用して、モバイルデバイス上の配信の視認性を最適化できます。同じ高さと幅の画像のみがサポートされます。
+  「**[!UICONTROL デバイスの画面サイズごとに画像を定義]**」オプションを使用すると、様々な画像解像度を使用して、モバイルデバイス上の配信の視認性を最適化できます。 同じ高さと幅の画像のみがサポートされます。
 
   画像は、画面サイズに従って定義できます。
 
@@ -192,7 +191,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 * **[!UICONTROL リンク]**
 
-  「**[!UICONTROL リンク]**」セクションでは、画像を複数のクリック可能な領域に分割する様々なレイアウトから選択できます。それぞれに専用の&#x200B;**[!UICONTROL リンク URL]** を割り当てることができます。
+  「**[!UICONTROL リンク]**」セクションでは、画像を複数のクリック可能な領域に分割する様々なレイアウトから選択できます。 それぞれに専用の&#x200B;**[!UICONTROL リンク URL]** を割り当てることができます。
 
   ![](assets/line_message_05.png)
 
@@ -200,9 +199,9 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 **[!UICONTROL ビデオメッセージ]** [!DNL LINE] 配信は、URL を含むビデオの形式で受信者に送信されるメッセージです。
 
-「**[!UICONTROL プレビュー画像 URL]**」フィールドを使用すると、プレビュー画像の URL を追加できます。文字数の制限は 1000 です。ファイルサイズの上限が 1 MB の JPEG と PNG がサポートされます。
+「**[!UICONTROL プレビュー画像 URL]**」フィールドを使用すると、プレビュー画像の URL を追加できます。文字数の制限は 1000 です。 ファイルサイズの上限が 1 MB の JPEG と PNG がサポートされます。
 
-**[!UICONTROL ビデオ画像 URL]** フィールドを使用すると、文字数制限が 1000 のビデオファイルの URL を追加できます。ファイルサイズの上限が 200 MB の mp4 形式のみがサポートされます。
+**[!UICONTROL ビデオ画像 URL]** フィールドを使用すると、文字数制限が 1000 のビデオファイルの URL を追加できます。 ファイルサイズの上限が 200 MB の mp4 形式のみがサポートされます。
 
 一部のデバイスで再生すると、幅の広いビデオや高いビデオが断ち切れる場合があります。
 
@@ -214,11 +213,11 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 >[!NOTE]
 >
->トラッキングレポートはクリックスルー率を示しています。[!DNL LINE] では開封率は考慮されません。
+>トラッキングレポートはクリックスルー率を示しています。 [!DNL LINE] では開封率は考慮されません。
 
 ![](assets/line_reports_01.png)
 
-[!DNL LINE] サービスレポートの場合は、「**[!UICONTROL エクスプローラー]**」タブから、**[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL サービスと購読]**／**[!UICONTROL LINE-V2]** にアクセスします。次に [!DNL LINE] サービスで「**[!UICONTROL レポート]**」アイコンをクリックします。
+[!DNL LINE] サービスレポートの場合は、「**[!UICONTROL エクスプローラー]**」タブから、**[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL サービスと購読]**／**[!UICONTROL LINE-V2]** にアクセスします。 次に [!DNL LINE] サービスで「**[!UICONTROL レポート]**」アイコンをクリックします。
 
 ![](assets/line_reports.png)
 

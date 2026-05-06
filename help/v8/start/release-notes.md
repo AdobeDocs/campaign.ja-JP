@@ -5,14 +5,14 @@ feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 18%
+source-wordcount: '1219'
+ht-degree: 8%
 
 ---
 
 # 最新リリース {#latest-release}
 
-このページには、Campaign v8（コンソール）**最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。Campaign のリリース、バージョン、アップグレードについて詳しくは、[このページ](upgrades.md)を参照してください。その他のリリースは、このドキュメントの以前のリリースの節に記載されています。
+このページには、Campaign v8（コンソール）**最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 Campaign のリリース、バージョン、アップグレードについて詳しくは、[このページ](upgrades.md)を参照してください。 その他のリリースは、このドキュメントの以前のリリースの節に記載されています。
 
 ## リリース 8.9.2 {#release-8-9-2}
 
@@ -20,7 +20,7 @@ _2026年3月11日_
 
 >[!CAUTION]
 >
-> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
+> コンソールのアップグレードは必須です。 クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
 ### セキュリティの強化 {#security-8-9-2}
 
@@ -40,7 +40,7 @@ _2026年1月27日_
 
 >[!CAUTION]
 >
-> コンソールのアップグレードは必須です。クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
+> コンソールのアップグレードは必須です。 クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
 ### 新機能 {#new-8-9-1}
 
@@ -48,7 +48,7 @@ _2026年1月27日_
 
 このリリースには、Campaign Web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
-* [多言語配信機能（GA） &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
+* [多言語配信機能（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
 * [&#x200B; トランザクションメッセージのプロファイルエンリッチメント（GA） &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
 * [Adobe Experience Managerのライブおよび言語コピー](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ja){target="_blank"}
 * [&#x200B; コンテンツ実験 – A/B テスト &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ja){target="_blank"}
@@ -59,8 +59,8 @@ Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleag
 
 ### セキュリティの強化 {#security-8-9-1}
 
-* Snowflakeの外部アカウントは、OAuth2認証をサポートするようになり、連合データアクセス接続に最新かつ安全な認証方法を提供します。 （NEO-87013）[詳細情報](../config/external-accounts.md#snowflake-external-accounts)
-* Databricks外部アカウントは、サービスプリンシパル（非インタラクティブなクライアント資格情報フロー）を介したOAuth2認証をサポートするようになり、連合データアクセス接続に安全な認証方法を提供します。 インタラクティブ OAuth2認証は、今後のリリースで利用できるようになります。 （NEO-87422）[詳細情報](../config/external-accounts.md#databricks-external-accounts)
+* Snowflakeの外部アカウントは、OAuth2認証をサポートするようになり、連合データアクセス接続に最新かつ安全な認証方法を提供します。 （NEO-87013） [詳細情報](../config/external-accounts.md#snowflake-external-accounts)
+* Databricks外部アカウントは、サービスプリンシパル（非インタラクティブなクライアント資格情報フロー）を介したOAuth2認証をサポートするようになり、連合データアクセス接続に安全な認証方法を提供します。 インタラクティブ OAuth2認証は、今後のリリースで利用できるようになります。 （NEO-87422） [詳細情報](../config/external-accounts.md#databricks-external-accounts)
 * 承認されたディレクトリへの操作を制限し、不正アクセスや潜在的なリモートコード実行を防止することで、ワークフローファイルアクセスの脆弱性を修正しました。 （NEO-88460）
 * ワークフローのJavaScript コードアクティビティにFTP URLの許可リストに加える制御を追加し、承認済みアドレスに対してのみ送信FTP接続を制限しました。 （NEO-89083）
 

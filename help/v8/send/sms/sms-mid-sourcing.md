@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
 source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -16,10 +16,10 @@ ht-degree: 100%
 
 ミッドソーシングインフラストラクチャでの SMS 配信の送信には、以下が必要です。
 
-1. ミッドサーバーでの SMS オペレーター。[詳しくは、作成方法を参照してください](#sms-operator-mid)
-1. 以前に作成したオペレーターを使用するマーケティングサーバー上の SMS 外部アカウント。[詳しくは、作成方法を参照してください](#sms-external-account)
-1. チャネルとミッドソーシング配信モードを指定する、ミッドサーバー上の SMPP 外部アカウント。[詳しくは、作成方法を参照してください](#smpp-external-account-mid)
-1. 送信プロセスを効率化するために、外部アカウントを参照する配信テンプレート。[詳しくは、作成方法を参照してください](#sms-delivery-template)
+1. ミッドサーバーでの SMS オペレーター。 [詳しくは、作成方法を参照してください](#sms-operator-mid)
+1. 以前に作成したオペレーターを使用するマーケティングサーバー上の SMS 外部アカウント。 [詳しくは、作成方法を参照してください](#sms-external-account)
+1. チャネルとミッドソーシング配信モードを指定する、ミッドサーバー上の SMPP 外部アカウント。 [詳しくは、作成方法を参照してください](#smpp-external-account-mid)
+1. 送信プロセスを効率化するために、外部アカウントを参照する配信テンプレート。 [詳しくは、作成方法を参照してください](#sms-delivery-template)
 
 ## ミッドサーバーでの SMS オペレーターの作成 {#sms-operator-mid}
 
@@ -57,13 +57,13 @@ SMS オペレーターを作成するには、次の手順に従います。
 
 >[!IMPORTANT]
 >
->複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。詳しくは、[SMS のトラブルシューティングページ](smpp-connection.md#sms-troubleshooting)を参照してください。
+>複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。 詳しくは、[SMS のトラブルシューティングページ](smpp-connection.md#sms-troubleshooting)を参照してください。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;で、**[!UICONTROL 新規]**&#x200B;アイコンをクリックします
 
    ![](assets/sms_extaccount.png){zoomable="yes"}
 
-1. 外部アカウントの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を設定します。アカウントタイプを&#x200B;**[!UICONTROL ルーティング]**&#x200B;として定義し、「**[!UICONTROL 有効]**」ボックスをオンにして、チャネルに「**[!UICONTROL モバイル（SMS）]**」、配信モードに「**[!UICONTROL ミッドソーシング]**」を選択します。
+1. 外部アカウントの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を設定します。 アカウントタイプを&#x200B;**[!UICONTROL ルーティング]**&#x200B;として定義し、「**[!UICONTROL 有効]**」ボックスをオンにして、チャネルに「**[!UICONTROL モバイル（SMS）]**」、配信モードに「**[!UICONTROL ミッドソーシング]**」を選択します。
 
    ![](assets/mid_smsextaccount.png){zoomable="yes"}
 
@@ -79,7 +79,7 @@ SMS オペレーターを作成するには、次の手順に従います。
 
 >[!IMPORTANT]
 >
->複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。[SMS のトラブルシューティングページ](smpp-connection.md#sms-troubleshooting)を参照してください。
+>複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。 [SMS のトラブルシューティングページ](smpp-connection.md#sms-troubleshooting)を参照してください。
 
 目標は、ミッドサーバー上に SMPP 外部アカウントを確立することです。
 
@@ -103,7 +103,7 @@ SMS オペレーターを作成するには、次の手順に従います。
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
-   接続を設定するには、このフォームのタブに入力する必要があります。詳しくは、[SMPP 外部アカウントの詳細情報](smpp-external-account.md#smpp-connection-settings)を参照してください。
+   接続を設定するには、このフォームのタブに入力する必要があります。 詳しくは、[SMPP 外部アカウントの詳細情報](smpp-external-account.md#smpp-connection-settings)を参照してください。
 
 ## 配信テンプレートの設定 {#sms-delivery-template}
 
