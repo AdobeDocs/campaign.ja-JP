@@ -5,10 +5,10 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: fc0a610a2215db3bfc15c5df3a1a7d1d30783545
 workflow-type: tm+mt
-source-wordcount: '3682'
-ht-degree: 94%
+source-wordcount: '3659'
+ht-degree: 95%
 
 ---
 
@@ -280,13 +280,13 @@ SR 形式は、SMPP プロトコル仕様に厳密には適用されません。
 
 例えば、receipted_message_id フィールドに ID を取り込むとします。 この場合、このチェックボックスを有効にすると、次のテキストがステータスに追加されます。
 
-0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
+`0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739`
 
 この例では、0x001E がオプションのフィールドのタグで、UUID がフィールドの値です。
 
 この値を取り込むために、SR フィールドの ID の抽出正規表現に次の正規表現を設定できます。
 
-\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
+`\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b`
 
 >[!IMPORTANT]
 >
