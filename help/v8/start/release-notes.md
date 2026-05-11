@@ -3,10 +3,10 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
+source-git-commit: 4a3e6cf15b1877e6eb4e13fdee056356eab267c5
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 8%
+source-wordcount: '1754'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 8%
 
 ## リリース 8.9.2 {#release-8-9-2}
 
-_2026年3月11日_
-
 >[!CAUTION]
 >
 > コンソールのアップグレードは必須です。 クライアントコンソールのアップグレード方法について詳しくは、こちらの[ページ](../start/connect.md#upgrade-ac-console)を参照してください。
+
+_2026年5月3日_
 
 ### セキュリティの強化 {#security-8-9-2}
 
@@ -28,15 +28,72 @@ _2026年3月11日_
 
 ### 修正点 {#fixes-8-9-2}
 
+>[!NOTE]
+>
+> 以下に示す修正は、連続する8.9.2 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/バージョン情報]** [&#x200B; メニュー](upgrades.md#version)に移動して、最新の8.9.2 （11d1c68）ビルドがインストールされていることを確認します。 詳細については、Adobe担当者にお問い合わせください。
+
 * データタイプの変換の問題により、トランザクションイベントのイベント日付が誤って設定され、動的レポートで日付が正しく設定されない問題を修正しました。 （NEO-93923）
 * タイトルと本文のフィールドが空の場合、配信準備中にAndroidとiOSのサイレントプッシュ通知が失敗する問題を修正しました。 （NEO-93739）
 * 紐付けキーが正しくないため、Android アプリ登録トークンの言語フィールドがキャプチャされない問題を修正しました。 （NEO-93100）
 * プレッシャルールでカスタムタイポロジルールを適用する際に配信の準備が失敗する問題を修正しました。 （NEO-94457）
 * クライアントコンソールでHTTP リクエスト処理エラーが発生する可能性がある問題を修正しました。 （NEO-94071）
 
+<!-- BUILD 8.9.2.9829.9669833 -->
+
+* 接続ログの挿入エラーを防ぐために、FDA監視がデフォルトで無効になりました。 （NEO-94841）
+* オファーの引き換えに使用されるInteraction SOAP呼び出しが名前空間解決エラーで失敗する問題を修正しました。 （NEO-94787）
+<!-- infra * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350) -->
+* 長さが1の文字列フィールドがPostgreSQL 17のワークフロー一時テーブルでSQL エラーを引き起こす可能性がある問題を修正しました。 （NEO-94487）
+<!-- linked to previous build * Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598) -->
+
+<!-- BUILD 8.9.2.9829.c90aa36 -->
+
+* クライアントコンソールおよびWeb UIの「**ミラーページを表示**」オプションで「不正なミラーページ」エラーが返される問題を修正しました。 （NEO-93303）
+
+<!-- BUILD 8.9.2.9830.4a6f868 -->
+
+* FFDAのデプロイメントで多変量パッケージをインストールすると、標準の&#x200B;**トラッキング**&#x200B;技術ワークフローが失敗する問題を修正しました。 （NEO-94972）
+* 配信テンプレートが現在の配信を参照する重み付け式を使用している場合に、配信準備でターゲットに受信者を追加できない問題を修正しました。 （NEO-94892）
+<!-- hotfix -->
+* アップグレード後にSQL エラーが発生して、2つの連続する1-N リンク間の結合を使用したワークフローの強化が失敗する問題を修正しました。 （NEO-94893）
+
+<!-- BUILD 8.9.2.9831.f53d3d2 -->
+
+* 時間の経過に伴ってメモリが過剰に消費される可能性がある、メールパイプラインの問題を修正しました。 （NEO-95088）
+* シードアドレスまたはプルーフアドレスを使用した場合、競合するメールタイポロジルールが重複しない受信者を配信ターゲットから誤って除外する可能性がある問題を修正しました。 （NEO-95026）
+* アップグレード後に、標準の&#x200B;**オファー通知** テクニカルワークフローが失敗する問題を修正しました。 （NEO-95064）
+* 多変量パッケージのインストールプロセスが改善され、ビルドアップグレード中にワークフローのエラーを追跡できるようになりました。 （NEO-95018）
+
+<!-- BUILD 8.9.2.9831.11d1c68 -->
+
+* サーバーが繰り返しクラッシュし、インスタンスの停止につながる可能性がある問題を修正しました。 （NEO-95304）
+* トラッキングとミラーページのリンクが配信の読み込みに失敗する問題を修正しました。 （NEO-95239）
+* IMS シングルサインオンで保護されたCampaign web アプリケーションにログインする際にリダイレクトループが発生する可能性がある問題を修正しました。 （NEO-95188）
+* 配信を保存した後、配信抽出ファイルに配信作成日が表示されない問題を修正しました。 （NEO-95010）
+* 大量に生成された子ワークフローが&#x200B;**編集中**&#x200B;状態のままになり、トランザクションワークフローの容量が減少する問題を修正しました。 （NEO-95131）
+* **リストの読み取り** アクティビティで、ワークフローが生成したリスト構造を使用して定義済みリストテンプレートが上書きされ、ダウンストリームワークフローでエラーが発生する問題を修正しました。 （NEO-95103）
+* プッシュ通知のフィードバック処理で、大量の配信を処理する際にサーバーがクラッシュする問題を修正しました。 （NEO-95150）
+* スキーマエクスプローラーで`xtk:workflow` スキーマの&#x200B;**Data** タブを開くと、エラーメッセージがトリガーする問題を修正しました。 （NEO-94923）
+<!-- hotfixes -->
+* **エンリッチメント** アクティビティで、アップストリーム **サブワークフロー** アクティビティから出力属性を取得できなくなり、ワークフローが失敗する問題を修正しました。 （NEO-95151）
+* 配信ステータスの更新を防ぎ、下流のメッセージ処理をブロックする可能性があるトラッキングデータ取り込みの問題を修正しました。 （NEO-94666）
+* オファーの提案に関連する特定のクライアントコンソールのアクションで、Snowflake データベースで長時間実行されるクエリがトリガーされ、ロックと遅延が発生する問題を修正しました。 （NEO-92936）
+* 暗号化されたキーを保存するためのカスタムオプションをSnowflake外部アカウントに設定できない問題を修正しました。 （NEO-93302）
+
+<!-- 
+Internal/non-customer-facing:
+* Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
+Customer-specific hotfixes:
+* Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
+* Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
+* Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
+* Added a new parameter in the mobile SDK to allow identification of the source instance for push notifications. (NEO-94650) — ICICI only
+* Fixed an issue with the custom send time feature on the Web UI where deliveries waited until the contact date and time to execute instead of executing at the equivalent local time per recipient timezone, breaking parity with Campaign Standard behavior. (NEO-94762) — H&M only (in progress at time of writing)
+-->
+
 ## リリース 8.9.1 {#release-8-9-1}
 
-_2026年1月27日_
+_2026年1月27日（PT）_
 
 >[!CAUTION]
 >
