@@ -57,7 +57,7 @@ NLWS.<namespace><SchemaName>.<method>()
 
 一般的なAPI メソッドには、次のものがあります。
 
-* `load(id)` - IDでエンティティを読み込みます。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-load.html){target="_blank"}
+* `load(id)` - IDでエンティティを読み込みます。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-load.html?lang=ja){target="_blank"}
 * `create(data)` – 新しいエンティティを作成します
 * `save()` - エンティティへの変更を保存
 
@@ -155,7 +155,7 @@ recipient.save();
 * `getIfExists` – 単一のレコードを取得します。見つからない場合はnullを返します
 * `count` – 条件に一致するレコードをカウント
 
-queryDef メソッドについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}を参照してください。
+queryDef メソッドについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=ja){target="_blank"}を参照してください。
 
 ## JSONを使用したクエリ {#query-json}
 
@@ -327,7 +327,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->SQL インジェクションの脆弱性を防ぐため、文字列には`$(sz)`、整数には`$(l)`を含むパラメーター化されたクエリを常に使用してください。 詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}を参照してください。
+>SQL インジェクションの脆弱性を防ぐため、文字列には`$(sz)`、整数には`$(l)`を含むパラメーター化されたクエリを常に使用してください。 詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html?lang=ja){target="_blank"}を参照してください。
 
 ## レコードのカウント {#count-records}
 
@@ -578,7 +578,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}の詳細をご覧ください。
+[BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html?lang=ja){target="_blank"}の詳細をご覧ください。
 
 ### BuildQueryEx – 形式文字列を使用したSQLの取得 {#build-query-ex}
 
@@ -603,7 +603,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}の詳細をご覧ください。
+[BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html?lang=ja){target="_blank"}の詳細をご覧ください。
 
 ### すべてを選択 – すべてのフィールドを追加して選択します {#select-all}
 
@@ -626,7 +626,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-[SelectAll](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}の詳細をご覧ください。
+[SelectAll](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html?lang=ja){target="_blank"}の詳細をご覧ください。
 
 ### 更新 – 一括更新レコード {#mass-update}
 
@@ -656,7 +656,7 @@ logInfo("Mass update completed");
 >
 >一括更新は、WHERE句に一致するすべてのレコードに影響します。 最初にselect クエリを使用してwhere条件を常にテストし、影響を受けるレコードを確認します。
 
-[&#x200B; アップデート &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}の詳細をご覧ください。
+[&#x200B; アップデート &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html?lang=ja){target="_blank"}の詳細をご覧ください。
 
 ### GetInstanceFromModel - テンプレートインスタンスのクエリ {#get-instance-from-model}
 
@@ -679,7 +679,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}の詳細をご覧ください。
+[GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html?lang=ja){target="_blank"}の詳細をご覧ください。
 
 ## バッチ操作 {#batch-operations}
 
@@ -918,7 +918,7 @@ if (count > 0 && count < 10000) {
 
 * [Campaign API の概要](api.md)
 * [Campaign JavaScript SDK - クエリ API](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
-* [queryDef API リファレンス](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
+* [queryDef API リファレンス](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=ja){target="_blank"}
 * [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
 * [スキーマの操作](schemas.md)
 * [クエリエディターの操作](../start/query-editor.md)

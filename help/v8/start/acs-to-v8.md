@@ -34,6 +34,6 @@ Campaign v8 ユーザーは、新しい Campaign web ユーザーインターフ
 * 新しいCampaign web ユーザーインターフェイスについて詳しくは、[このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
 
 <!--
-* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.
+* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.
 -->
 
