@@ -5,9 +5,16 @@ feature: Monitoring
 role: User
 level: Beginner
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
-source-git-commit: edbe7ab49a628436dfb4d27ae17122917d7371e9
+TQID: https://experienceleague.adobe.com/sCrSBuIMzs-KanEWOMDXuWTHjSnwNtkJe-PxOcumIBE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: 666
 ht-degree: 7%
 
 ---
@@ -30,11 +37,11 @@ ht-degree: 7%
 
 1. テストに使用する新しいメール配信を作成します。 [詳しくは、配信の作成方法を参照してください](../start/create-message.md)
 1. 追跡したいリンクを含むメールコンテンツをデザインします。 [電子メールコンテンツデザインの詳細](defining-the-email-content.md)
-1. メールコンテンツにミラーページのパーソナライゼーションブロックを追加します。 [&#x200B; パーソナライゼーションブロックについて詳しく見る](personalization-blocks.md)
+1. メールコンテンツにミラーページのパーソナライゼーションブロックを追加します。 [ パーソナライゼーションブロックについて詳しく見る](personalization-blocks.md)
 
    ![](assets/mirror-page-insert.png)
 
-1. メールを受信するユーザーを指定します。 このユーザーは電子メールを開き、含まれるリンクをクリックする必要があるので、必ず制御するテスト受信者アドレスを選択してください。 [&#x200B; テストプロファイルについて学ぶ](../audiences/test-profiles.md)
+1. メールを受信するユーザーを指定します。 このユーザーは電子メールを開き、含まれるリンクをクリックする必要があるので、必ず制御するテスト受信者アドレスを選択してください。 [ テストプロファイルについて学ぶ](../audiences/test-profiles.md)
 
 ## 手順2：テスト配信の送信 {#send-test}
 
@@ -52,9 +59,9 @@ ht-degree: 7%
 
 ## 手順3：トラッキング機能の確認 {#verify-tracking}
 
-1. メールを受信したら、それを開いてミラーページのリンクをクリックします。 [&#x200B; ミラーページについて学習](mirror-page.md)
+1. メールを受信したら、それを開いてミラーページのリンクをクリックします。 [ ミラーページについて学習](mirror-page.md)
 1. メール内の様々なリンクをクリックして、トラッキングデータを生成します。
-1. ミラーページに正しくリダイレクトされたら、**[!UICONTROL 管理/実稼動/テクニカルワークフロー]** フォルダーにアクセスします。 [&#x200B; ワークフローについて学ぶ](../config/workflows.md)
+1. ミラーページに正しくリダイレクトされたら、**[!UICONTROL 管理/実稼動/テクニカルワークフロー]** フォルダーにアクセスします。 [ ワークフローについて学ぶ](../config/workflows.md)
 1. **[!UICONTROL トラッキング]** ワークフローを開きます。
 1. ワークフローを開始するか、**[!UICONTROL スケジューラー]** アクティビティを右クリックし、**[!UICONTROL 保留中のタスクを今すぐ実行]**&#x200B;を選択します。
 1. ワークフローがトラッキングログを処理するのに約30秒待ちます。
@@ -69,10 +76,10 @@ ht-degree: 7%
 
 ## 手順4:「受信者の追跡」タブを確認する {#check-recipient-tracking}
 
-1. テストに使用した受信者のプロファイルページに移動します。 [&#x200B; プロファイルの表示について](../audiences/view-profiles.md)
+1. テストに使用した受信者のプロファイルページに移動します。 [ プロファイルの表示について](../audiences/view-profiles.md)
    * 受信者のプロファイルページは、デフォルトでは、**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;フォルダーにあります。
 
-1. 「**[!UICONTROL トラッキング]**」タブを選択します。 [&#x200B; トラッキングログの詳細](tracking-logs.md)
+1. 「**[!UICONTROL トラッキング]**」タブを選択します。 [ トラッキングログの詳細](tracking-logs.md)
 
    ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
@@ -87,13 +94,13 @@ ht-degree: 7%
 
 1. **配信設定を確認**：配信に移動し、**[!UICONTROL プロパティ]**&#x200B;にアクセスして、**[!UICONTROL トラッキングを有効にする]**&#x200B;と&#x200B;**[!UICONTROL トラッキングを開く]**&#x200B;の両方のオプションがオンになっていることを確認します。 [URL トラッキングオプションの詳細](url-tracking.md)
 
-1. **トラッキングワークフローを確認**: **[!UICONTROL トラッキング]** テクニカルワークフローがエラーなく実行されていることを確認します。 [&#x200B; トラッキングワークフローのトラブルシューティングについて説明します](tracking-logs.md#check-tracking-workflow)
+1. **トラッキングワークフローを確認**: **[!UICONTROL トラッキング]** テクニカルワークフローがエラーなく実行されていることを確認します。 [ トラッキングワークフローのトラブルシューティングについて説明します](tracking-logs.md#check-tracking-workflow)
 
-1. **URL形式を確認**:URLが正しくフォーマットされ、区切り文字で囲まれていることを確認します。 [&#x200B; トラッキング対象リンクの設定について詳しく見る](tracked-links.md)
+1. **URL形式を確認**:URLが正しくフォーマットされ、区切り文字で囲まれていることを確認します。 [ トラッキング対象リンクの設定について詳しく見る](tracked-links.md)
 
 1. **電子メールクライアントの動作を確認**：一部の電子メールクライアントでは、トラッキングピクセルがブロックされたり、リンクが変更されたりする場合があります。 別のメールクライアントでテストしてみます。 [配信のベストプラクティスについて学ぶ](../start/delivery-best-practices.md)
 
-1. **処理を待ちます**: トラッキング ワークフローはデフォルトで毎時間実行されます。 手動でトリガーする場合は、結果を確認する前に処理に十分な時間を確保してください。 [&#x200B; トラッキングログの詳細](tracking-logs.md)
+1. **処理を待ちます**: トラッキング ワークフローはデフォルトで毎時間実行されます。 手動でトリガーする場合は、結果を確認する前に処理に十分な時間を確保してください。 [ トラッキングログの詳細](tracking-logs.md)
 
 ## 関連トピック {#related-topics}
 

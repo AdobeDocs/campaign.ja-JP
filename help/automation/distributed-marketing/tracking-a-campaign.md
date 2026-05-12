@@ -5,9 +5,13 @@ description: Campaign 分散型マーケティングを使用したキャンペ�
 feature: Distributed Marketing
 role: User
 exl-id: 9904c1c6-c233-4aa2-a237-338ebde15661
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+TQID: https://experienceleague.adobe.com/v-ZkfPAMBCbVOb0FheuwmYILdV4uFjbGu6cv2uoKccc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: 441
 ht-degree: 89%
 
 ---

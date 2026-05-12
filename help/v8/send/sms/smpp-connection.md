@@ -5,9 +5,14 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: eda6934a-e48a-4932-8c88-588f661005d6
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+TQID: https://experienceleague.adobe.com/dPwmuLj6Qd9b5x0EcBLidSnxjEfsjT8-kAo3Y-gRih4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: 4464
 ht-degree: 97%
 
 ---

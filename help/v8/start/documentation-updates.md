@@ -5,9 +5,13 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+TQID: https://experienceleague.adobe.com/3FTCgVEDf0XxbqOoqH1n5OxgwkEb4xDNk9MW-WTwIi4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: 282
 ht-degree: 100%
 
 ---

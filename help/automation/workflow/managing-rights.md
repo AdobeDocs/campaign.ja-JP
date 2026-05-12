@@ -6,9 +6,12 @@ feature: Workflows, Permissions
 role: Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/xZwqhzyDbDM309Q-WNpYoD-BvWiJmaTVHsmf50ywAJk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: 339
 ht-degree: 100%
 
 ---

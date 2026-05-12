@@ -5,9 +5,13 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+TQID: https://experienceleague.adobe.com/2hwiutGxqcitRmeG9ceUMCW1rBGNomWMK8aM2ZDAJ-0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: 1094
 ht-degree: 94%
 
 ---

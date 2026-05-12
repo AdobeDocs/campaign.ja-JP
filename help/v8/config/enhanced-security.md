@@ -5,17 +5,20 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
+TQID: https://experienceleague.adobe.com/33R4OS8KQrMdktwwbwMUHJe5YG9gZbasiDwrcADS4f4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 90%
+source-wordcount: 801
+ht-degree: 91%
 
 ---
 
-
 # Campaign セキュリティ強化アドオン {#enhanced-security}
 
-このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス &#x200B;](security.md#public-guidance)の一部です。
+このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス ](security.md#public-guidance)の一部です。
 
 ネットワーク接続とリソースのセキュリティを強化するために、[!DNL Adobe Campaign] では新しい&#x200B;**セキュリティ強化**&#x200B;アドオンが提供されています。
 
@@ -126,7 +129,7 @@ Adobe Campaign v8 との CMK 統合には、次のガードレールと制限が
 * HiveSQL による Hadoop
 * PostgreSQL
 
-クラウドデータベースがサポートされています。 [互換性マトリックス &#x200B;](../start/compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
+クラウドデータベースがサポートされています。 [互換性マトリックス](../start/compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
 
 >[!NOTE]
 >

@@ -5,9 +5,14 @@ feature: Architecture, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+TQID: https://experienceleague.adobe.com/QH0Vnh9hi9bHuaY16UTn26NkuIIsb04dyNMhzkrpVdQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: 440
 ht-degree: 99%
 
 ---
