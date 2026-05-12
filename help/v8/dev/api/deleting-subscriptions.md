@@ -4,9 +4,18 @@ description: APIを使用してサブスクリプションを削除する方法�
 role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/tn-B0YAO0bD1dtW3-ovb-xWtupiRaqFD1TMW8Rzu5aY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 239
 ht-degree: 0%
 
 ---

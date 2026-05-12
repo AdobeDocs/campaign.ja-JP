@@ -4,9 +4,17 @@ description: ビルトインのレポート指標の計算
 feature: Reporting
 role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/YmXVTLb7YprsFybV4JXJQuFdqtS8LNKIbfIZOAabsWI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: 3139
 ht-degree: 92%
 
 ---

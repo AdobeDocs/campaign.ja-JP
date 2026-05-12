@@ -6,9 +6,24 @@ role: Admin, Developer
 level: Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+TQID: https://experienceleague.adobe.com/haoxtaIu58t0Ko15csnTpoUi49JWsQaIKPAtWTNiRx8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: 1985
 ht-degree: 97%
 
 ---
@@ -261,7 +276,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. （オプション）必要に応じて、**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。 これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 
-1. 「**[!UICONTROL 終了]**」、「**[!UICONTROL 保存]**」の順にクリックします。 これで、Campaign で Android アプリケーションを使用する準備が整いました。
+1. 「**[!UICONTROL 完了]**」、「**[!UICONTROL 保存]**」の順にクリックします。 これで、Campaign で Android アプリケーションを使用する準備が整いました。
 
 以下に、プッシュ通知をさらにパーソナライズするための FCM ペイロード名を示します。
 

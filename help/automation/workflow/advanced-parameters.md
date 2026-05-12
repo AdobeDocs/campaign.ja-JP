@@ -6,9 +6,17 @@ feature: Workflows, Data Management
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/ayYWipGQV7JpZMC1751hJD9Vj47UYT89zplV1pl-3Uo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: 535
 ht-degree: 100%
 
 ---

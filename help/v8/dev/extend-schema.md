@@ -5,9 +5,21 @@ feature: Schema Extension, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: e4dcb228-0683-437a-88cd-bd7ed33da921
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+TQID: https://experienceleague.adobe.com/KxMO1S6yuFZUJAUIeSaF-J-s-SBLoODGWcOxImPONg0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: 275
 ht-degree: 100%
 
 ---

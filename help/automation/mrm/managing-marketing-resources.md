@@ -5,9 +5,18 @@ description: マーケティングリソースの管理方法を説明します
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
+TQID: https://experienceleague.adobe.com/YowEClSN-SSHkR3yXX57hKjwXY-6JUjakGlccGKS6V8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1175
 ht-degree: 100%
 
 ---

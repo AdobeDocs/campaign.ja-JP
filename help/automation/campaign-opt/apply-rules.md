@@ -4,9 +4,18 @@ title: タイポロジルールの適用
 description: タイポロジルールを適用する方法を学ぶ
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+TQID: https://experienceleague.adobe.com/CqL2-BL-DuUY2-tMG4WD-ih3YJw0u3BuIkcL4HavFlg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: 1031
 ht-degree: 99%
 
 ---

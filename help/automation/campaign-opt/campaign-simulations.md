@@ -4,9 +4,18 @@ title: キャンペーンシミュレーションの基本を学ぶ
 description: キャンペーンのシミュレーションの設定方法を学ぶ
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+TQID: https://experienceleague.adobe.com/U78259I0GrAXCvnDrUCP-RyQZ-caoY0fjWndcONm5EQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: 1358
 ht-degree: 100%
 
 ---

@@ -3,9 +3,18 @@ title: Campaign v8 2022 リリースノート
 description: Campaign v8 2022 リリースで記載される機能と改善点のリスト
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
+TQID: https://experienceleague.adobe.com/PCye0NRsbFxzoRgD-2apCDpph-gvtX0eboiuzdmVQZE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: 1952
 ht-degree: 97%
 
 ---

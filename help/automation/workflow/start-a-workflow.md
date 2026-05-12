@@ -7,9 +7,17 @@ level: Beginner
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/VHBQEKUthZcW2WrbNjmlIC7FzJFDqX0PykJg95sM-WI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: 1223
 ht-degree: 95%
 
 ---

@@ -5,9 +5,16 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+TQID: https://experienceleague.adobe.com/FOcEqR6kXaTUyLHSjaxXk2AhErFunD7JNokBzNiOJVY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: 889
 ht-degree: 98%
 
 ---

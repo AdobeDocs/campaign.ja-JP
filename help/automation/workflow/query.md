@@ -6,9 +6,15 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Developer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/52OZPf93IeD62Vo1-G68JRoM9aeIK1Qgbw885s9eHnI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: 1681
 ht-degree: 92%
 
 ---

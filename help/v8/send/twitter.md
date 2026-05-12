@@ -4,13 +4,24 @@ description: Adobe Campaign ソーシャルマーケティングモジュール�
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+TQID: https://experienceleague.adobe.com/VWrEUKs-J0gBHkhpyqKOQie5DFcweMywIzxq-dhW4AE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: 860
 ht-degree: 99%
 
 ---
-
 
 # Adobe Campaign を使用して X（Twitter）でメッセージを投稿 {#post-tw-messages}
 

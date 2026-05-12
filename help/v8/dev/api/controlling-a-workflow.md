@@ -7,9 +7,16 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/kSeE0oVVbshxTcMklIQo-aYCFtV1DwQCPinaIWbpPnE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 80
 ht-degree: 12%
 
 ---

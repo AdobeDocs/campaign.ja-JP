@@ -6,9 +6,21 @@ role: Admin, Developer
 level: Intermediate
 hide: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+TQID: https://experienceleague.adobe.com/P8-MVht-FT2EuZMz6C4YpLuzu3797L-f63XO--Ai7B4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: 1273
 ht-degree: 98%
 
 ---

@@ -4,9 +4,17 @@ title: フィルタールールの設定
 description: フィルタールールの設定方法を説明します
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
-source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
+TQID: https://experienceleague.adobe.com/4dOJKJq9bGT93592ugAfrbQU27OBBpUp25QRpzDqtW0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 550
 ht-degree: 93%
 
 ---

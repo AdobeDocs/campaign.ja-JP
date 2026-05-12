@@ -5,9 +5,16 @@ description: キャンペーンパッケージの公開
 feature: Distributed Marketing
 role: User
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+TQID: https://experienceleague.adobe.com/cikc1fFIGeRzZ-mas4mqGqMsuMCSDOHhBT2g4tf8fZw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: 482
 ht-degree: 100%
 
 ---

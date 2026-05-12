@@ -5,9 +5,20 @@ description: Web ダウンロードワークフローアクティビティの詳
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 73bacf61-ac03-4a5c-b03b-6dfbe3fb9538
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/o-kTHkx0LFrxyykvGSZW-fZJRMWDN2HFnRKlZ-LBDMk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: 546
 ht-degree: 100%
 
 ---

@@ -5,9 +5,24 @@ feature: Monitoring
 role: User
 level: Beginner
 exl-id: df494786-5950-4646-aa9c-4dde45845057
-source-git-commit: 5b23be4cb8f0896d2482e525e416713b1a6c4514
+TQID: https://experienceleague.adobe.com/yiuHvMtsmTULvX9X0ZjlMexNMsXpyGhkosOyMc-VoTs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 360
 ht-degree: 18%
 
 ---

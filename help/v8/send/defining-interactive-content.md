@@ -6,9 +6,17 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
-source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
+TQID: https://experienceleague.adobe.com/R-P0T4JskiBJcyqG-Mq9AilPcnHP-SglGbew0JGqJ-0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: 1473
 ht-degree: 100%
 
 ---
