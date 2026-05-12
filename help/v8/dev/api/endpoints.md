@@ -8,11 +8,16 @@ role: Developer
 level: Experienced
 exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
 TQID: https://experienceleague.adobe.com/1ajh28ZpUsuyTh-qHnto3GsH4J25WSsyK7TqTjlhHfg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 197
@@ -31,8 +36,8 @@ Adobe Campaign REST APIで使用できるエンドポイント：
 
 デフォルトでは、**profileAndServices**&#x200B;および&#x200B;**profileAndServicesExt** APIで使用できる主なリソースは次のとおりです。
 
-* **/プロファイル**: Campaign データベースのプロファイルを操作します。 プロファイルをサービスに追加するには、**/service** エンドポイントを使用します。 Campaignのプロファイルについて詳しくは、[Campaign ドキュメント ](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)を参照してください。
-* **/サービス**：購読サービスを管理します。 Campaignのサービスについて詳しくは、[Campaign ドキュメント ](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)を参照してください。
+* **/プロファイル**: Campaign データベースのプロファイルを操作します。 プロファイルをサービスに追加するには、**/service** エンドポイントを使用します。 Campaignのプロファイルについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)を参照してください。
+* **/サービス**：購読サービスを管理します。 Campaignのサービスについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)を参照してください。
 
 >[!NOTE]
 >

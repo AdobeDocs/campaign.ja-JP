@@ -8,11 +8,17 @@ role: Developer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
 TQID: https://experienceleague.adobe.com/gLpKZ5x3fxvcFXfBfq0gMHXEK6y8C8lUVZnST1ZYt34
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 762
@@ -268,7 +274,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 詳しくは、Campaign Standardのドキュメントを参照してください。
 
-* [ フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [&#x200B; フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
 * [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>

@@ -7,8 +7,10 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
 TQID: https://experienceleague.adobe.com/HVv9XhJv9325WD39-3TmmTB9AyVh0k2aIlEcMFAccgo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1559
@@ -100,7 +102,7 @@ ht-degree: 99%
 
      次に、クエリが対象とする配信ラベルなど、3 番目のフィルター条件を設定します。
 
-   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。****
+   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。**&#x200B;**
 
      「**[!UICONTROL 終了]**」をクリックします。
 

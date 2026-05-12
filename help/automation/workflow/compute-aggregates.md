@@ -7,8 +7,11 @@ role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
 TQID: https://experienceleague.adobe.com/ubtfw1irqKiD8mrRqD2L3UI-kGwhdBiSmBTjIfp-4NE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 245
@@ -34,7 +37,7 @@ ht-degree: 98%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。 出力列に「**[!UICONTROL 性別]**」フィールドを追加します。 「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**** これにより、受信者は性別でグループ化されます。
+1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。 出力列に「**[!UICONTROL 性別]**」フィールドを追加します。 「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**&#x200B;** これにより、受信者は性別でグループ化されます。
 
    ![](assets/query_editor_nveau_27.png)
 

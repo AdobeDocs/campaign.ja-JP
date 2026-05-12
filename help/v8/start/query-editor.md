@@ -7,10 +7,14 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 071274f1-7c60-445d-ac07-f5f4f229a489
 TQID: https://experienceleague.adobe.com/lK6pRjnRXZQImlY7JjrUtvGSHpw-ohay8pBTTu2NH14
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 157
@@ -29,7 +33,7 @@ ht-degree: 82%
 ![クエリエディターへのアクセスとテーブルの選択](assets/query_editor_nveau_21.png)
 
 
-クエリを作成する手順については、このページ ](design-queries.md)で[詳しく説明しています。
+クエリを作成する手順については、このページ [&#128279;](design-queries.md)で詳しく説明しています。
 
 <!--
 Contexts to use the query editor iin Campaign are listed below:

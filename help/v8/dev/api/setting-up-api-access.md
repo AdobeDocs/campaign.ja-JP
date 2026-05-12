@@ -8,11 +8,17 @@ role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 TQID: https://experienceleague.adobe.com/bplbMEDlQOL-EDthA4nuoWmFF-sB30MWKaG1f8F6P-A
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 448
@@ -22,14 +28,14 @@ ht-degree: 12%
 
 # API アクセスの設定 {#setting-up-api-access}
 
-Adobe Campaign Standard API アクセスは、次の手順で設定します。 これらの各手順について詳しくは、[Adobe Developer ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
+Adobe Campaign Standard API アクセスは、次の手順で設定します。 これらの各手順について詳しくは、[Adobe Developer ドキュメント &#x200B;](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
 
 >[!IMPORTANT]
 >
->[Adobe Developer](https://developer.adobe.com/)で証明書を管理するには、組織の&#x200B;**システム管理者**&#x200B;権限、またはAdmin Consoleの[開発者アカウント ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)権限があることを確認してください。
+>[Adobe Developer](https://developer.adobe.com/)で証明書を管理するには、組織の&#x200B;**システム管理者**&#x200B;権限、またはAdmin Consoleの[開発者アカウント &#x200B;](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)権限があることを確認してください。
 
 1. **電子証明書があるかどうかを確認するか、必要に応じて電子証明書を作成します**。 証明書で提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **Adobe Developer](https://developer.adobe.com/)の[Adobe Campaign Service**&#x200B;への新しい統合を作成し、設定します。 次に、資格情報が生成されます（API キー、クライアントシークレット…）。
+1. **Adobe Developer[&#128279;](https://developer.adobe.com/)のAdobe Campaign Service**&#x200B;への新しい統合を作成し、設定します。 次に、資格情報が生成されます（API キー、クライアントシークレット…）。
 1. **次の[実装手順](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)に従って、OAuth サーバー間**&#x200B;資格情報を作成します
 
    >[!IMPORTANT]

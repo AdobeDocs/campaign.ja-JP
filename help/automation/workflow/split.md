@@ -6,8 +6,10 @@ feature: Workflows, Targeting Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
 TQID: https://experienceleague.adobe.com/7o7AJlawbIiB5vlhG8BQPo-abI6XD6ufMYw-CF1m0QM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 2023

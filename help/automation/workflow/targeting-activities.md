@@ -6,7 +6,8 @@ feature: Workflows, Audiences, Targeting Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
 TQID: https://experienceleague.adobe.com/rITGoVzeDjgPsyw3ntqokW6CfVXnNuz5ix0KyNezm4M
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 305

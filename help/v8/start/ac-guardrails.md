@@ -6,10 +6,14 @@ role: User
 level: Beginner
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 TQID: https://experienceleague.adobe.com/4FF81xd4CiMT3fusDRU32n0-ap16O1RVUEhGIbz33Os
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 265
@@ -19,7 +23,7 @@ ht-degree: 93%
 
 # 製品ガードレール{#guardrails}
 
-使用権限、製品の制限、およびパフォーマンスガードレールは、[Adobe Campaign Managed Cloud Services製品の説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}に記載されています。
+使用権限、製品の制限、およびパフォーマンスガードレールは、[Adobe Campaign Managed Cloud Services製品の説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}に記載されています。
 
 次に、[!DNL Adobe Campaign] を使用する際の追加のガードレールと制限を示します。
 

@@ -5,10 +5,17 @@ role: User
 level: Beginner, Intermediate
 exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
 TQID: https://experienceleague.adobe.com/vIbTQOF44tDuRchXTQ5m5cD0VsbTk0oftZbtCgicg2I
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 560
@@ -22,7 +29,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。 ただし、カスタムチャネル設定はクライアントコンソールでのみ実行されます。
 
-カスタムチャネルに基づいて配信を作成および送信する方法については、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"}を参照してください。
+カスタムチャネルに基づいて配信を作成および送信する方法については、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"}を参照してください。
 
 クライアントコンソールで新しいカスタムチャネルを設定する手順は次のとおりです。 次の手順は、カスタム外部チャネルと API チャネルに共通です。
 
@@ -85,7 +92,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 クライアントコンソールから、カスタムチャネルに必要なすべての追加プロパティを含む&#x200B;**配信** スキーマを拡張します。
 
-スキーマ拡張機能について詳しくは、この[ ページ ](../dev/extend-schema.md)を参照してください。
+スキーマ拡張機能について詳しくは、この[&#x200B; ページ &#x200B;](../dev/extend-schema.md)を参照してください。
 
 ### カスタム画面定義の設定{#api-additional-screen}
 
@@ -95,7 +102,7 @@ Campaign Web UIから、カスタム画面定義を設定します。
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}を参照してください。
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}を参照してください。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

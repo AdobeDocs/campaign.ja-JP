@@ -7,9 +7,12 @@ role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 08febcbc-1703-4d36-89e1-32c903618084
 TQID: https://experienceleague.adobe.com/iTopl-qZwqJdSMV-ZiJ3ymveNdCsAb8IR-SXQmt9VhI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 332

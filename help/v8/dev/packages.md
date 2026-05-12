@@ -7,12 +7,25 @@ level: Intermediate, Experienced
 exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
 version: Campaign v8, Campaign Classic v7
 TQID: https://experienceleague.adobe.com/kykUHVpP7R4UDFaI3iJwHb54-hnWbHNCzk-phFmzGY0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e656c701-3899-4db3-989c-de0980ddfffa
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 2023
