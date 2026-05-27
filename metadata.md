@@ -2,7 +2,10 @@
 cloud: Experience Cloud
 version: Campaign v8 Client Console
 solution: Campaign, Campaign v8, Campaign v8 Client Console
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27id: bb44d873-5098-4ed3-aaf2-23b9778b38b2
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+  - id: bb44d873-5098-4ed3-aaf2-23b9778b38b2
 usetq: true
 landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
