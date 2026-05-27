@@ -74,5 +74,5 @@ ht-degree: 18%
 
 ## アトリビューション
 
-この行動規範は、[ コントリビューター規約](https://contributor-covenant.org)、バージョン 1.4から適応されています。
+この行動規範は、[&#x200B; コントリビューター規約](https://contributor-covenant.org)、バージョン 1.4から適応されています。
 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)でご利用いただけます
