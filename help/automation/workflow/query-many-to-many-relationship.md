@@ -7,8 +7,11 @@ role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
 TQID: https://experienceleague.adobe.com/BnWR5Pz41h-CeMuyGKXKBmhRHGcuSShWerJpOWAN7W0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 483
@@ -68,7 +71,7 @@ ht-degree: 96%
 
      ![](assets/query_editor_nveau_38.png)
 
-1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。 次のステップに進みます。************
+1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。 次のステップに進みます。**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
    ![](assets/query_editor_nveau_39.png)
 
