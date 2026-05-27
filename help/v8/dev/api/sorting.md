@@ -63,7 +63,7 @@ ht-degree: 2%
   }
   ```
 
-* GET リクエストをサンプルして、データベース内のメールを降順アルファ順で取得します。
+* GET リクエストをサンプルして、データベース内の電子メールを降順アルファ順で取得します。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -91,15 +91,15 @@ ht-degree: 2%
 
 ### フィルターのメタデータの取得
 
-各リソースにフィルターを使用できます。 リソースに関連付けられているフィルターを特定するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[この節](metadata-mechanism.md)を参照してください。
+各リソースにフィルターを使用できます。 リソースに関連付けられているフィルターを識別するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[この節](metadata-mechanism.md)を参照してください。
 
-フィルターのメタデータを特定し、その使用方法を決定するには、以前に返されたURLに対してGET リクエストを実行する必要があります。
+フィルターのメタデータを識別し、その使用方法を決定するには、以前に返されたURLに対してGET リクエストを実行する必要があります。
 
 <br/>
 
 ***サンプルリクエスト***
 
-以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 最初に、「profile」リソースメタデータに対してGET リクエストを実行します。
+以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 最初に、「プロファイル」リソースメタデータに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -205,7 +205,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
   }
   ```
 
-* で「Doe」を含む「profile」リソースを取得するためのGET リクエストのサンプル
+* で「Doe」を含む「プロファイル」リソースを取得するためのGET リクエストのサンプル
 電子メールまたは姓のフィールド（byText フィルターは、電子メールと姓の両方のフィールドを検索します）。
 
   ```
@@ -234,7 +234,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
   }
   ```
 
-* GET リクエストをサンプルして、「email」と「sport」というラベルが付いたサービスリソースを取得します。
+* 「email」と「sport」というラベルが付いたサービスリソースを取得するためのGET リクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -281,7 +281,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 ***サンプルリクエスト***
 
-トランザクション金額が100$以上の「profile」リソースを取得するためのGET リクエストのサンプル。 「byAmount」フィルターは、最初にAdobe Campaign Standard インターフェイスで定義され、「Transaction」カスタムテーブルにリンクされています。
+トランザクション金額が100$以上の「プロファイル」リソースを取得するためのGET リクエストのサンプル。 「byAmount」フィルターは、最初にAdobe Campaign Standard インターフェイスで定義され、「Transaction」カスタムテーブルにリンクされています。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
@@ -410,7 +410,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 ***サンプルリクエスト***
 
-プロファイルリソースの1つのレコードを表示するためのGET リクエストのサンプル。
+プロファイルリソースの1つのレコードを表示するGET リクエストのサンプル。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \

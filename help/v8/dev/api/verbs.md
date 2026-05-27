@@ -1,5 +1,5 @@
 ---
-title: GET/POST/PATCH/DELETE動詞
+title: GET / POST / PATCH / DELETE動詞
 description: Campaign Standard APIで使用される動詞について詳しく説明します。
 audience: developing
 content-type: reference
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ---
 
-# GET/POST/PATCH/DELETE動詞 {#verbs}
+# GET / POST / PATCH / DELETE動詞 {#verbs}
 
 リソースに対して操作を実行するために使用できる動詞は次のとおりです。
 
