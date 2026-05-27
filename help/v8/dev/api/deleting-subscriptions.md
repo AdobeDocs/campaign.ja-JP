@@ -29,7 +29,7 @@ ht-degree: 0%
 これは3 ステップの手順です。
 
 1. 目的のプロファイルの購読URLを取得します。
-1. 購読URLに対してGET リクエストを実行します。
+1. サブスクリプション URLに対してGET リクエストを実行します。
 1. 必要なサービス URLに対してDELETE リクエストを実行します。
 
 削除リクエストが成功した場合、応答ステータスは204 No Contentです。
@@ -61,7 +61,7 @@ ht-degree: 0%
   }
 ```
 
-購読URLに対してGET リクエストを実行します。
+サブスクリプション URLに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -138,7 +138,7 @@ ht-degree: 0%
 },
 ```
 
-購読URLに対してGET リクエストを実行します。
+サブスクリプション URLに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \

@@ -118,7 +118,7 @@ curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAban
 
 ### POST リクエストへの応答
 
-POST応答は、作成時のトランザクションイベントステータスを返します。 現在のステータス（イベントデータ、イベントステータスなど）を取得するには、GET リクエストでPOST プライマリから返されるレスポンス キーを使用します。
+POST応答は、作成時のトランザクションイベントステータスを返します。 現在のステータス（イベントデータ、イベントステータス…）を取得するには、GET リクエストでPOST プライマリから返されるレスポンス キーを使用します。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 

@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # APIによるプロファイルの取得 {#retrieving-profiles}
 
-プロファイルの取得は、**GET** リクエストで実行されます。
+プロファイルの取得は、**GET**&#x200B;要求を使用して実行されます。
 
 その後、フィルター、順序、ページ分割を使用して検索を絞り込むことができます。 詳しくは、[追加操作](sorting.md) セクションを参照してください。
 
@@ -56,7 +56,7 @@ ht-degree: 4%
   }
   ```
 
-* GET リクエストをサンプルして、最初の10個のメール値を取得します。
+* 最初の10個のメール値を取得するためのGET リクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \

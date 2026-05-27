@@ -29,7 +29,7 @@ ht-degree: 87%
    + [ガードレール](start/ac-guardrails.md)
    + {hide-from-toc}[既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
-   + {hide-from-toc}[&#x200B; ドキュメントの更新](start/documentation-updates.md)
+   + {hide-from-toc}[ドキュメントの更新](start/documentation-updates.md)
    + [月次更新レポート](../../monthly-updates-report.md)
 + 基本を学ぶ {#new}
    + [Adobe Campaign の概要](start/get-started.md)

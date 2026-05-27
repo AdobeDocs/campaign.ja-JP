@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 方法1：プロファイルをサービスに登録する
 
-GET リクエストを実行して、プロファイルを取得します。
+GET リクエストを実行してプロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -75,7 +75,7 @@ GET リクエストを実行して、プロファイルを取得します。
 
 ## 方法2：サービスのサブスクライバーにプロファイルを追加する
 
-GET リクエストを実行して、サービスを取得します。
+GET リクエストを実行してサービスを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \

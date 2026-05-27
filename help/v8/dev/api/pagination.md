@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ***サンプルリクエスト***
 
-プロファイルリソースの1つのレコードを表示するためのGET リクエストのサンプル。
+プロファイルリソースの1つのレコードを表示するGET リクエストのサンプル。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
