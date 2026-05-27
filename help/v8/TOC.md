@@ -17,7 +17,7 @@ ht-degree: 87%
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + リリースノート {#releases}
-   + {hide-from-toc}[早期リリースノート ](start/e-release-notes.md)
+   + {hide-from-toc}[早期リリースノート &#x200B;](start/e-release-notes.md)
    + [バージョンとアップグレード](start/upgrades.md)
    + [最新リリース](start/release-notes.md)
    + 以前のリリース {#previous-rn}
@@ -237,7 +237,7 @@ ht-degree: 87%
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [列挙の操作](config/enumerations.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-      + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ ](config/push-config.md)
+      + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ &#x200B;](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
@@ -256,7 +256,7 @@ ht-degree: 87%
       + [入力フォーム](dev/forms.md)
    + [データパッケージの使用](dev/packages.md)
    + [Campaign API](dev/api.md)
-   + {hide-from-toc}[queryDef](dev/query-api.md)を使用してデータベースをクエリします
+   + {hide-from-toc}[queryDefを使用してデータベースをクエリします](dev/query-api.md)
    + REST API {#apis}
       + [REST APIの基本を学ぶ](dev/api/get-started-apis.md)
       + [推奨事項と制限事項](dev/api/limitations.md)

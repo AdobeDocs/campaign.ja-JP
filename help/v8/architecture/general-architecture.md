@@ -6,12 +6,28 @@ role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 TQID: https://experienceleague.adobe.com/j8EwT2TAYvpavC-CrlayZpNsgBhMc-bUrr1OR1s5bzw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: d7be2b01-dc9c-40f7-aace-a151707504edid: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: ede6e1ec-9279-415e-b828-a09735018d48
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1163
@@ -88,7 +104,7 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 
 ## データベースコンテナ {#db-containers}
 
-[Enterprise （FFDA）のデプロイメント ](enterprise-deployment.md)では、Adobe Campaign Cloud データベースは[!DNL Snowflake]に依存しており、機能データ（プロファイル、サブスクリプション、コンテンツなど）、技術データ（配信ジョブとログ、トラッキングログなど）が含まれています。 Adobe Campaignのコンポーネントはすべて、特定のタスクを実行するためにデータベースと通信します。
+[Enterprise （FFDA）のデプロイメント &#x200B;](enterprise-deployment.md)では、Adobe Campaign Cloud データベースは[!DNL Snowflake]に依存しており、機能データ（プロファイル、サブスクリプション、コンテンツなど）、技術データ（配信ジョブとログ、トラッキングログなど）が含まれています。 Adobe Campaignのコンポーネントはすべて、特定のタスクを実行するためにデータベースと通信します。
 
 事前定義されたデータベースとスキーマを使用して Adobe Campaign をデプロイできます。この事前定義された環境は、必要に応じて拡張できます。 Adobe Campaign からデータマート内のすべてのデータへは、SQL 呼び出しを介してアクセスします。 Adobe Campaign には、ETL（抽出、変換、ロード）ツールを補完する機能も備わっており、システムとの間でのデータのインポートとエクスポートを実行することができます。
 
@@ -105,4 +121,4 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 
 合計ストレージ許容量は、メインデータベースと（オプション） Snowflake セカンダリデータベースに分割されます。 データの保存場所は、お客様固有のユースケースに応じて、実装時またはアップグレード時に決定する必要があります。
 
-データベースの使用状況をモニタリングする方法については、[Campaign Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ja){target="_blank"}を参照してください。
+データベースの使用状況をモニタリングする方法については、[Campaign Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=ja){target="_blank"}を参照してください。
