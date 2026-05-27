@@ -5,14 +5,10 @@ role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
 TQID: https://experienceleague.adobe.com/tn-B0YAO0bD1dtW3-ovb-xWtupiRaqFD1TMW8Rzu5aY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 239
@@ -29,7 +25,7 @@ ht-degree: 0%
 これは3 ステップの手順です。
 
 1. 目的のプロファイルの購読URLを取得します。
-1. 購読URLに対してGET リクエストを実行します。
+1. サブスクリプション URLに対してGET リクエストを実行します。
 1. 必要なサービス URLに対してDELETE リクエストを実行します。
 
 削除リクエストが成功した場合、応答ステータスは204 No Contentです。
@@ -61,7 +57,7 @@ ht-degree: 0%
   }
 ```
 
-購読URLに対してGET リクエストを実行します。
+サブスクリプション URLに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -138,7 +134,7 @@ ht-degree: 0%
 },
 ```
 
-購読URLに対してGET リクエストを実行します。
+サブスクリプション URLに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \

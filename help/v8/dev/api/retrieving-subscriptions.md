@@ -5,14 +5,10 @@ role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
 TQID: https://experienceleague.adobe.com/PxFql-omcIMizY-oMBl75gfo2UmmLTanrhQqw5te--A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 200
@@ -27,7 +23,7 @@ ht-degree: 1%
 これは2 ステップの手順です。
 
 1. 目的のサービスのサブスクリプション URLを取得します。
-1. 購読URLに対してGET リクエストを実行します。 サービスのサブスクリプションのリストと、関連する各プロファイルを返します。
+1. サブスクリプション URLに対してGET リクエストを実行します。 サービスのサブスクリプションのリストと、関連する各プロファイルを返します。
 
 >[!CAUTION]
 >
@@ -37,7 +33,7 @@ ht-degree: 1%
 
 ***サンプルリクエスト***
 
-GET リクエストを実行して、サービスを取得します。
+GET リクエストを実行してサービスを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -61,7 +57,7 @@ GET リクエストを実行して、サービスを取得します。
   },
 ```
 
-購読URLに対してGET リクエストを実行します。
+サブスクリプション URLに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -99,7 +95,7 @@ GET リクエストを実行して、サービスを取得します。
 
 ***サンプルリクエスト***
 
-GET リクエストを実行して、プロファイルを取得します。
+GET リクエストを実行してプロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -123,7 +119,7 @@ GET リクエストを実行して、プロファイルを取得します。
   }
 ```
 
-購読URLに対してGET リクエストを実行します。
+サブスクリプション URLに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

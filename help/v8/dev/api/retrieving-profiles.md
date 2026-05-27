@@ -5,12 +5,9 @@ role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 TQID: https://experienceleague.adobe.com/pL6dAoJZ-Qb-aP2BWZKTxsYMTpQEM9EZoU3REWE0OoI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 235
@@ -20,7 +17,7 @@ ht-degree: 4%
 
 # APIによるプロファイルの取得 {#retrieving-profiles}
 
-プロファイルの取得は、**GET** リクエストで実行されます。
+プロファイルの取得は、**GET**&#x200B;要求を使用して実行されます。
 
 その後、フィルター、順序、ページ分割を使用して検索を絞り込むことができます。 詳しくは、[追加操作](sorting.md) セクションを参照してください。
 
@@ -56,7 +53,7 @@ ht-degree: 4%
   }
   ```
 
-* GET リクエストをサンプルして、最初の10個のメール値を取得します。
+* 最初の10個のメール値を取得するためのGET リクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
