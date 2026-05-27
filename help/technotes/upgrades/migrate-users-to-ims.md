@@ -11,7 +11,7 @@ ht-degree: 86%
 
 # Campaign オペレーターの Adobe Identity Management System（IMS）への移行 {#migrate-users-to-ims}
 
-Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。 すべてのオペレーターは、[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}**only**&#x200B;を使用してCampaignに接続します。 ユーザー／パスワードを使用した接続（別名ネイティブ認証）は許可されなくなります。 アドビでは、Campaign v8.6 にスムーズに移行できるように、Campaign v8.5.2 でこの移行を実行することをお勧めします。
+Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。 すべてのオペレーターは、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}**only**&#x200B;を使用してCampaignに接続します。 ユーザー／パスワードを使用した接続（別名ネイティブ認証）は許可されなくなります。 アドビでは、Campaign v8.6 にスムーズに移行できるように、Campaign v8.5.2 でこの移行を実行することをお勧めします。
 
 また、この手順は、Campaign Classic v7 マネージドサービスのお客様が Campaign v8 に移行する場合にも適用されます。
 
@@ -29,7 +29,7 @@ Campaign v8 では、すべての標準ユーザーは、Adobe Identity Manageme
 
 組織内のオペレーターが Campaign クライアントコンソールにログイン／パスワード（別名 ネイティブ認証）を使用して接続している場合は影響を受けるので、以下で説明するようにこれらのオペレーターを Adobe IMS に移行する必要があります。
 
-[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は、環境を安全で標準化するためのセキュリティ上の必須要素です。他のほとんどのAdobe Experience Cloud ソリューションやアプリは既にIMS上にあります。
+[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は、環境を安全で標準化するためのセキュリティ上の必須要素です。他のほとんどのAdobe Experience Cloud ソリューションやアプリは既にIMS上にあります。
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Campaign v8 では、すべての標準ユーザーは、Adobe Identity Manageme
 >
 >ユーザーをIMSに移行する際は、Adobe Admin Console内の製品プロファイルの名前に「admin」という単語が含まれていることに注意してください（「Administrators」、「admin」、「admins」、「approval admin」など）。 Campaign Campaign コントロールパネルへのアクセス権を自動的に付与します。 Campaign コントロールパネルは、Campaign インスタンスに大きな変更を加えることができるセルフサービスツールです。
 >
->製品プロファイルの命名規則を注意深く確認して、承認済みのユーザーのみがCampaign コントロールパネルにアクセスできるようにします。 Campaign コントロールパネル権限の管理について詳しくは、[Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
+>製品プロファイルの命名規則を注意深く確認して、承認済みのユーザーのみがCampaign コントロールパネルにアクセスできるようにします。 Campaign コントロールパネル権限の管理について詳しくは、[Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}を参照してください。
 
 ## 移行方法{#ims-migration-procedure}
 
@@ -63,13 +63,13 @@ Campaign v8 では、すべての標準ユーザーは、Adobe Identity Manageme
 
 ### 移行を開始できるのはいつですか？ {#ims-migration-start}
 
-[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行の前提条件は、環境をCampaign v8.5.2にアップグレードすることです。
+[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行の前提条件は、環境をCampaign v8.5.2にアップグレードすることです。
 
 Campaign v8.5.2 にアップグレードしたら、ステージング環境で IMS への移行を開始し、それに応じて本番環境を計画できます。
 
 ### Campaign v8.5.2 にビルドをアップグレードすると、どうなりますか？ {#ims-migration-after-upgrade}
 
-環境をCampaign v8.5.2にアップグレードした後、[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行を開始できます。
+環境をCampaign v8.5.2にアップグレードした後、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行を開始できます。
 
 IMS への移行が完了するまでは、新しいネイティブユーザーを引き続き作成できます。
 
