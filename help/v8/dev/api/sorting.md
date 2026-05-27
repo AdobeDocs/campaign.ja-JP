@@ -8,17 +8,11 @@ role: Developer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
 TQID: https://experienceleague.adobe.com/gLpKZ5x3fxvcFXfBfq0gMHXEK6y8C8lUVZnST1ZYt34
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 762
@@ -63,7 +57,7 @@ ht-degree: 2%
   }
   ```
 
-* GET リクエストをサンプルして、データベース内のメールを降順アルファ順で取得します。
+* GET リクエストをサンプルして、データベース内の電子メールを降順アルファ順で取得します。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -91,15 +85,15 @@ ht-degree: 2%
 
 ### フィルターのメタデータの取得
 
-各リソースにフィルターを使用できます。 リソースに関連付けられているフィルターを特定するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[この節](metadata-mechanism.md)を参照してください。
+各リソースにフィルターを使用できます。 リソースに関連付けられているフィルターを識別するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[この節](metadata-mechanism.md)を参照してください。
 
-フィルターのメタデータを特定し、その使用方法を決定するには、以前に返されたURLに対してGET リクエストを実行する必要があります。
+フィルターのメタデータを識別し、その使用方法を決定するには、以前に返されたURLに対してGET リクエストを実行する必要があります。
 
 <br/>
 
 ***サンプルリクエスト***
 
-以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 最初に、「profile」リソースメタデータに対してGET リクエストを実行します。
+以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 最初に、「プロファイル」リソースメタデータに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -205,7 +199,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
   }
   ```
 
-* で「Doe」を含む「profile」リソースを取得するためのGET リクエストのサンプル
+* で「Doe」を含む「プロファイル」リソースを取得するためのGET リクエストのサンプル
 電子メールまたは姓のフィールド（byText フィルターは、電子メールと姓の両方のフィールドを検索します）。
 
   ```
@@ -234,7 +228,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
   }
   ```
 
-* GET リクエストをサンプルして、「email」と「sport」というラベルが付いたサービスリソースを取得します。
+* 「email」と「sport」というラベルが付いたサービスリソースを取得するためのGET リクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -274,14 +268,14 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 詳しくは、Campaign Standardのドキュメントを参照してください。
 
-* [&#x200B; フィルター定義の設定](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ja)。
+* [ フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>
 
 ***サンプルリクエスト***
 
-トランザクション金額が100$以上の「profile」リソースを取得するためのGET リクエストのサンプル。 「byAmount」フィルターは、最初にAdobe Campaign Standard インターフェイスで定義され、「Transaction」カスタムテーブルにリンクされています。
+トランザクション金額が100$以上の「プロファイル」リソースを取得するためのGET リクエストのサンプル。 「byAmount」フィルターは、最初にAdobe Campaign Standard インターフェイスで定義され、「Transaction」カスタムテーブルにリンクされています。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
@@ -410,7 +404,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 ***サンプルリクエスト***
 
-プロファイルリソースの1つのレコードを表示するためのGET リクエストのサンプル。
+プロファイルリソースの1つのレコードを表示するGET リクエストのサンプル。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \

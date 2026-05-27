@@ -5,13 +5,9 @@ feature: Reporting
 role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
 TQID: https://experienceleague.adobe.com/YmXVTLb7YprsFybV4JXJQuFdqtS8LNKIbfIZOAabsWI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 3139
@@ -54,7 +50,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-このレポートは、**[!UICONTROL 統合トラッキング]** テーブル （nms:trackingStats）に基づいています。 この集計テーブルは、レポートを表示する際に、受信者トラッキングログ **テーブル （nms:trackingLogRcp）の代わりにパフォーマンス上の理由で使用され、リアルタイムで計算されません。**&#x200B;テーブルは、トラッキングログを取得して数分後に生成されます。 指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。 @totalclicks の指標は、5 分間のクリック総数を示しています。
+このレポートは、**[!UICONTROL 統合トラッキング]** テーブル （nms:trackingStats）に基づいています。 この集計テーブルは、レポートを表示する際に、受信者トラッキングログ ]**テーブル （nms:trackingLogRcp）の代わりにパフォーマンス上の理由で使用され、リアルタイムで計算されません。**[!UICONTROL &#x200B;テーブルは、トラッキングログを取得して数分後に生成されます。 指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。 @totalclicks の指標は、5 分間のクリック総数を示しています。
 
 ## 配信不能件数とバウンス数 {#non-deliverables-and-bounces-1}
 

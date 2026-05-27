@@ -6,13 +6,9 @@ role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 TQID: https://experienceleague.adobe.com/K-eSL7fzZ0mPQgyumhnWSDBPbvkEml80n0aGrJWazd8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
 source-wordcount: 1354
@@ -171,7 +167,7 @@ ht-degree: 98%
 
 「**[!UICONTROL オファーエンジン]**」アクティビティでも、配信の前にオファーエンジンの呼び出しを指定できます。
 
-**オファーエンジン** アクティビティについて詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ja){target="_blank"}を参照してください。
+**オファーエンジン** アクティビティについて詳しくは、[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=ja){target="_blank"}を参照してください。
 
 このアクティビティは、**エンリッチメント**&#x200B;アクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信前にエンジンで計算したオファーでインバウンド母集団のデータを強化します。
 
@@ -194,7 +190,7 @@ ht-degree: 98%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-**セルごとのオファー** アクティビティについて詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ja){target="_blank"}を参照してください。
+**セルごとのオファー** アクティビティについて詳しくは、[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=ja){target="_blank"}を参照してください。
 
 それには、次の手順に従います。
 
