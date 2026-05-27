@@ -12,7 +12,7 @@ landing-page-breadcrumb-title: Campaign
 product: adobe campaign
 feature-set: Campaign
 type: Documentation
-git-repo: https://github.com/AdobeDocs/campaign.en
+git-repo: https://github.com/AdobeDocs/campaign.ja-JP
 mini-toc-levels: 2
 index: true
 source-git-commit: 695714617fda26d7822726a1129e697076671fb0
