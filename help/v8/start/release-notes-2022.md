@@ -12,10 +12,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 531670de4c2f740e4f0a4b96049b23eb8000e40d
 workflow-type: tm+mt
-source-wordcount: 1952
-ht-degree: 97%
+source-wordcount: 1942
+ht-degree: 96%
 
 ---
 
@@ -77,7 +77,7 @@ _2022年9月30日（PT）_
 <tr> 
 <td> <p><a href="../send/twitter.md">X ソーシャルチャネル</a>を Campaign v8 で使用できるようになりました。 以下を行うことができます。</p>
 <ul> 
-<li><p>X（旧 Twitter）でのメッセージの送信：Adobe Campaign を使用すると、X アカウントに直接メッセージを投稿できます。 フォロワー全員にダイレクトメッセージを送信することもできます。
+<li><p>X （旧Twitter）でメッセージを送信：Adobe Campaignを使用すると、X アカウントにメッセージを直接投稿できます。また、フォロワー全員にダイレクトメッセージを送ることもできます。
 </p></li>
 <li><p>新しい連絡先の収集：Adobe Campaign はプロファイルデータを自動的に回収できます。これにより、キャンペーンのターゲティングを実行し、クロスチャネル戦略を導入できます。
 </p></li>
@@ -96,7 +96,9 @@ _2022年9月30日（PT）_
 * この変更は、GET URL にのみ適用されます。 その他のタイプ（POST URL など）は影響を受けません。
 * カスタムコードを使用する場合は、セキュリティトークンが GET URL の securitytoken パラメーターから取得されなくなりました。 次の JSSP コードを使用して新しいセキュリティトークンを生成する必要があります。
 
-  ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+  ```
+  getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);
+  ```
 
   また、Login API を使用してセキュリティトークンを取得することもできます。
 * セッショントークン管理に変更はありません。

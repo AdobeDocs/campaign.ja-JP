@@ -15,7 +15,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 100%
@@ -64,7 +64,7 @@ ht-degree: 100%
    * 黄色のアイコンは、重大ではない処理エラーを示します。
    * 赤色のアイコンは、配信の送信を妨げる重大なエラーを示します。
 
-   ![](assets/delivery-analysis-results.png){width="800" align="left"}
+   ![](assets/delivery-analysis-results.png){width="800"}
 
 1. 「**[!UICONTROL 閉じる]**」をクリックし、該当する場合はエラーを修正します。 変更を行った後、「**[!UICONTROL 分析]**」をクリックして分析を再開します。
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 配信プロパティの「**[!UICONTROL 分析]**」タブを参照して、分析フェーズでのメッセージの準備に関する設定を定義します。
 
-![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
+![](assets/delivery-properties-analysis-tab.png){width="800"}
 
 このタブで設定できるオプションを次に示します。
 
