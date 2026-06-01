@@ -6,15 +6,11 @@ role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 TQID: https://experienceleague.adobe.com/uVVmB-6U7nTrC0ypEHAINNtp5tcE0gr8ambKwDK56ls
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 756
 ht-degree: 96%
@@ -61,11 +57,11 @@ ht-degree: 96%
 
   デフォルトでは、代用はランダムに実行されますが、「**[!UICONTROL 詳細]**」アイコンを使用して、メインターゲットから特定の受信者を選択することもできます。
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800"}
 
   「**[!UICONTROL プロファイルを選択 (ターゲットに含める必要があります)]**」オプションを選択し、受信者を選択します。
 
-  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * 「**[!UICONTROL シードアドレス]**」オプションを使用して、シードアドレスを配達確認ターゲットとして使用します。 これらのアドレスは、ファイルからインポートするか、手動で入力できます。
@@ -86,7 +82,7 @@ ht-degree: 96%
 1. 「**[!UICONTROL 配達確認を送信]**」ウィンドウで、配達確認の受信者を確認します。
 1. 「**[!UICONTROL 分析]**」をクリックし、配達確認メッセージの準備を開始します。
 
-   ![](assets/send-proof-analyze.png){width="800" align="left"}
+   ![](assets/send-proof-analyze.png){width="800"}
 
 1. 配信の準備が完了したら、「**[!UICONTROL 配信を確定]**」を使用して、配達確認メッセージの送信を開始します。
 
@@ -108,11 +104,11 @@ ht-degree: 96%
 
 デフォルトでは、配達確認メッセージは件名の `Proof #N` メンション（`N` は配達確認番号）によって識別されます。 この番号は、配達確認配信分析のたびに増分されます。 必要に応じて、`proof` の接頭辞を変更できます。
 
-![](assets/proof-parameters.png){width="800" align="left"}
+![](assets/proof-parameters.png){width="800"}
 
 
 ## チュートリアルビデオ {#video-proof}
 
 メール配信の配達確認を送信して検証する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447000?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 badge: label="限定提供（LA）" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 94%
@@ -87,7 +87,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
 
-1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 
@@ -105,7 +105,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL プロファイルとターゲット／サービスとサブスクリプション]**&#x200B;タブを参照し、「**[!UICONTROL 作成]**」をクリックします。
 
-   ![](assets/push-config-4.png){width="800" align="left"}
+   ![](assets/push-config-4.png){width="800"}
 
 1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を入力し、**[!UICONTROL モバイルアプリケーション]**&#x200B;タイプを選択します。
 
