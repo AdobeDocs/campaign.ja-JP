@@ -16,10 +16,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: b285c321f3b905150b31621941ea99608d627739
 workflow-type: tm+mt
-source-wordcount: 1651
-ht-degree: 100%
+source-wordcount: 1624
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ _2021年10月28日（PT）_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Unicity Service は、新しい Cloud Database Manager コンポーネントです。 これにより、ユーザーは Cloud Database テーブル内の一意のキー制約の整合性を保持し、監視できます。 これにより、重複したキーを挿入するリスクを軽減できます。
+<td> <p>Unicity Serviceは、新しいCloud Database Manager コンポーネントです。ユーザーは、Cloud Database テーブル内の一意のキー制約の整合性を保持および監視できます。これにより、重複するキーを挿入するリスクを軽減できます。
 <p>Cloud Database は単一性制約を強制しないため、Unicity Service はアプリケーションレベルで<b>一連の新しいガードレール</b>を導入し、Adobe Campaign でデータを管理する際に重複が挿入されるリスクを軽減します。</p> 
 <p>Unicity Service は、<b>ffdaUnicity</b> と呼ばれる新しい組み込みワークフローを開始して、単一性の制約を監視し、重複が検出されたときにアラートを出します。</p>
 <p>詳しくは、<a href="../architecture/keys.md">詳細ドキュメント</a>を参照してください。</p>
@@ -207,3 +207,4 @@ _2021 年 7 月 23 日（PT）_
 * 「**重複排除**」ワークフローアクティビティで重複カウントが不正確になる場合がある問題を修正しました。
 * 「ID が空でない」フィルターを伴うワークフロークエリを使用すると、トランジションの母集団に空の項目が表示される場合がある問題を修正しました。
 * 新しいターゲットマッピングで追加フィールドが作成されない問題を修正しました。
+

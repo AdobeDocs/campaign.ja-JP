@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: b285c321f3b905150b31621941ea99608d627739
 workflow-type: tm+mt
 source-wordcount: 1421
 ht-degree: 4%
@@ -922,3 +922,4 @@ if (count > 0 && count < 10000) {
 * [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
 * [スキーマの操作](schemas.md)
 * [クエリエディターの操作](../start/query-editor.md)
+
