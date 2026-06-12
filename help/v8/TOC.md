@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 22b8f9904eb2ce99780de60d9946d5304301af8e
+source-git-commit: eacbd4a625626dcad724b2f74721256548baf850
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 88%
+source-wordcount: '896'
+ht-degree: 87%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 88%
    + [Campaign Standard から v8 へ](start/acs-to-v8.md)
    + [よくある質問](start/campaign-faq-comprehensive.md)
    + {hide-from-toc}[よくある質問](start/campaign-faq.md)
+   + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](start/cnil-pixel-tracking.md)
 + 管理と権限 {#permissions}
    + [権限の基本を学ぶ](start/gs-permissions.md)
    + [ユーザー権限の管理](start/manage-permissions.md)
