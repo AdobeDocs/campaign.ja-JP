@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 22b8f9904eb2ce99780de60d9946d5304301af8e
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 87%
+source-wordcount: '890'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 87%
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + リリースノート {#releases}
-   + {hide-from-toc}[早期リリースノート &#x200B;](start/e-release-notes.md)
+   + {hide-from-toc}[早期リリースノート ](start/e-release-notes.md)
    + [バージョンとアップグレード](start/upgrades.md)
    + [最新リリース](start/release-notes.md)
    + 以前のリリース {#previous-rn}
@@ -30,7 +30,6 @@ ht-degree: 87%
    + {hide-from-toc}[既知の問題](start/known-issues.md)
    + [互換性マトリックス](start/compatibility-matrix.md)
    + {hide-from-toc}[ドキュメントの更新](start/documentation-updates.md)
-   + [月次更新レポート](../../monthly-updates-report.md)
 + 基本を学ぶ {#new}
    + [Adobe Campaign の概要](start/get-started.md)
    + [主な機能](start/whats-new.md)
@@ -237,7 +236,7 @@ ht-degree: 87%
       + [フォルダーとビューの管理](audiences/folders-and-views.md)
       + [列挙の操作](config/enumerations.md)
       + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-      + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ &#x200B;](config/push-config.md)
+      + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ ](config/push-config.md)
       + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
    + [Campaign データモデル](dev/datamodel.md)
@@ -256,7 +255,7 @@ ht-degree: 87%
       + [入力フォーム](dev/forms.md)
    + [データパッケージの使用](dev/packages.md)
    + [Campaign API](dev/api.md)
-   + {hide-from-toc}[queryDefを使用してデータベースをクエリします](dev/query-api.md)
+   + {hide-from-toc}[queryDef](dev/query-api.md)を使用してデータベースをクエリします
    + REST API {#apis}
       + [REST APIの基本を学ぶ](dev/api/get-started-apis.md)
       + [推奨事項と制限事項](dev/api/limitations.md)
