@@ -5,12 +5,13 @@ feature: Overview
 role: User
 level: Beginner
 hide: true
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 2%
 
 ---
+
 
 # メール追跡ピクセルに関するCNILの最新のガイダンスについて
 
@@ -39,11 +40,16 @@ Adobe Journey Optimizer、Journey Optimizer B2B、Adobe Campaign、Marketo Engag
 お客様は、Adobe Campaignのネイティブ トラッキング、スキーマ、パーソナライゼーションの仕組みを使用して、CNIL ガイダンスに対応するアーキテクチャを設定する際に特定の要素に対処できます。
 
 * **配信の分類。** `nms:delivery`を`emailType`属性（認証、配信品質のみ、トランザクション、マーケティング、パブリックサービス、B2B見込み顧客）で拡張します。 この分類により、同意なしに許可されるピクセルが決まります。
+
 * **同意キャプチャ。** ワーディングのバージョン、タイムスタンプ、キャプチャソース、および有効期限を含む、目的ごとの同意構造で`nms:recipient`を拡張します。 サインアップフォームとプリファレンスセンターを拡張して、メールオプトインとは別にピクセル同意を収集します。
+
 * **ピクセルの放出。** ピクセルごとに1つの`NmsTracking_OpenFormula`を定義します（認証、配信品質、パフォーマンス、プロファイリング、不正検出）。 配信タイポロジルールは、emailTypeと受信者の目的ごとの同意に基づいて、出力する数式を選択します。 パーソナライゼーションブロックはロジックをカプセル化し、個々のクリエイターには存在しないようにします。
+
 * **引き出し。** 登録解除リンクとは異なり、すべてのメールフッターに&#x200B;**トラッカー設定の管理** リンクを追加します。 このリンクは、`idTracking`を通じて認証された`nms:webApp`のランディングページを示しています。受信者は、電子メールアドレスを再入力することなく、ワンクリックで同意を取り消します。 標準の&#x200B;**トラッキング** ワークフローに追加されたフィルターステップにより、以前に配信されたメールの再開封が離脱後に悪用されるのを防ぐことができます。
+
 * **同意確認。** 追加専用ログ（例えば、`pix:consentLog`拡張機能の名前空間）内の各同意イベントをキャプチャし、文言の変更後の検索可能性のために文言バージョンを別々に保存します。 Adobe Campaign エクスプローラーを介して、定期的な書き出しとしてログを表示します。
 * **再勧誘ガバナンス。** `lastPixelRefusalDate` フィールドとフィルタリングタイポロジルールは、拒否後の少なくとも6か月間の再勧誘を防ぎます。 定期的なワークフローは、同意の有効期限の管理に役立ちます。
+
 * **レポート。** 既存のAdobe Campaign レポートは、コードを変更することなく、新しいフィールド（urlCategory、emailType、同意フラグ）に対して引き続き動作します。
 
 Adobeのメールマーケティング実行アプリケーションでの電子メールトラッキングについて詳しくは、こちらのドキュメントを参照してください。
@@ -56,4 +62,5 @@ Adobeのメールマーケティング実行アプリケーションでの電子
 | Journey Optimizer | [&#x200B; メッセージ追跡ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
 | Marketo Engage | [電子メールリンクのトラッキングを無効にする](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
 | Journey Optimizer B2B | [&#x200B; メール設定ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+
 

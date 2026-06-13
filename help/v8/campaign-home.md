@@ -15,10 +15,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
 workflow-type: tm+mt
-source-wordcount: 331
-ht-degree: 74%
+source-wordcount: 281
+ht-degree: 80%
 
 ---
 
@@ -90,39 +90,39 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>基本を学ぶ</strong><br/><a href="start/campaign-ui.md"> ユーザーインターフェイス </a> - <a href="start/ac-components.md"> コンポーネントとプロセス </a> - <a href="start/v7-to-v8.md">Classic v7からv8</a> - <a href="start/campaign-faq.md">FAQ</a>
+      <strong>基本を学ぶ</strong><br/><a href="start/campaign-ui.md">ユーザーインターフェイス</a> - <a href="start/ac-components.md">コンポーネントとプロセス</a> - <a href="start/v7-to-v8.md">Classic v7 から v8 へ</a> - <a href="start/campaign-faq.md">FAQ</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>お客様の体験</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank"> ワークフローの自動化</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank"> キャンペーンオーケストレーション </a> - <a href="interaction/interaction.md">意思決定管理</a> - <a href="send/personalize.md">Personalization</a>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">ワークフローを使用した自動化</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">キャンペーンオーケストレーション</a> - <a href="interaction/interaction.md">意思決定管理</a> - <a href="send/personalize.md">パーソナライゼーション</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong> メッセージを送信</strong><br/><a href="start/create-message.md">開始</a> - <a href="send/preview-and-proof.md"> プレビューとプルーフ </a> - <a href="send/predictive.md">送信時間の最適化</a> - <a href="reporting/gs-reporting.md"> レポートと分析</a>
+      <strong>メッセージを送信</strong><br/><a href="start/create-message.md">基本を学ぶ</a> - <a href="send/preview-and-proof.md">プレビューと配達確認</a> - <a href="send/predictive.md">送信時間の最適化</a> - <a href="reporting/gs-reporting.md">レポーティングと分析</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong> プロファイルとオーディエンス </strong><br/><a href="audiences/create-profiles.md"> プロファイルを追加</a> - <a href="audiences/create-audiences.md"> オーディエンスを作成</a> - <a href="start/subscriptions.md"> サブスクリプションを管理</a> - <a href="start/privacy.md"> プライバシー</a>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="audiences/create-profiles.md">プロファイルを追加</a> - <a href="audiences/create-audiences.md">オーディエンスを作成</a> - <a href="start/subscriptions.md">購読の管理</a> - <a href="start/privacy.md">プライバシー</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong> アーキテクチャと設定</strong><br/><a href="architecture/architecture.md"> アーキテクチャ </a> - <a href="start/implement.md">Campaign v8の実装</a> - <a href="connect/integration.md">他のソリューションと接続</a> - <a href="start/gs-permissions.md"> ユーザーと権限</a>
+      <strong>アーキテクチャと設定</strong><br/><a href="architecture/architecture.md">アーキテクチャ</a> - <a href="start/implement.md">Campaign v8 の実装</a> - <a href="connect/integration.md">他のソリューションとの接続</a> - <a href="start/gs-permissions.md">ユーザーと権限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>開発者リソース </strong><br/><a href="dev/datamodel.md">Campaign v8 データモデル </a> - <a href="dev/schemas.md"> スキーマ </a> - <a href="dev/api.md">API</a>
+      <strong>開発者リソース</strong><br/><a href="dev/datamodel.md">Campaign v8 データモデル</a> - <a href="dev/schemas.md">スキーマ</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>
 
 ## その他のリソース
 
-[Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [チュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign] 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8 のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Adobe Campaign v8製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign Web ユーザーインターフェイスドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign] 自動化ガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}のCampaign コントロールパネル- [電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](../v8/start/cnil-pixel-tracking.md)
 
