@@ -1,12 +1,12 @@
 ---
-title: メールトラッキングピクセルとCNIL ガイダンス
+title: メールトラッキングピクセルと CNIL ガイダンス
 description: メール追跡ピクセルに関するCNILの最新のガイダンスと、コンプライアンスの取り組みをサポートできるAdobe Campaign機能について理解する。
-version: Campaign v8, Campaign Classic v7, Campaign Standard
+version: Campaign v8, Campaign Classic v7
 hide: true
-source-git-commit: fc92f46a1df96412cc86b9a8c0946132f79a2da8
+source-git-commit: 6466434e6d91445dd12a81effde68d8ab6ba8960
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -54,11 +54,11 @@ Adobeのメールマーケティング実行アプリケーションでの電子
 
 | 製品 | ドキュメント参照 |
 |---|---|
-| Campaign v8 | [&#x200B; メッセージトラッキング &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [&#x200B; メッセージの追跡を開始する](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Campaign Standard | [電子メール チャネルの設定](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
-| Journey Optimizer | [&#x200B; メッセージ追跡ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [電子メールリンクのトラッキングを無効にする](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer B2B | [&#x200B; メール設定ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign v8 | [ メッセージトラッキング ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
+| Campaign Classic | [ メッセージの追跡を開始する](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Campaign Standard | [電子メール チャネルの設定](https://experienceleague.adobe.com/en/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
+| Journey Optimizer | [ メッセージ追跡ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [電子メールリンクのトラッキングを無効にする](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer B2B | [ メール設定ドキュメント ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
 
 
