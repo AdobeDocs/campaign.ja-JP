@@ -260,6 +260,6 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 このビデオでは、キャンペーンにコントロール母集団を追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446919?captions=jpn&quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。
