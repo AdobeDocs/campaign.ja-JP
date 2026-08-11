@@ -149,7 +149,7 @@ Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-分類セットについて詳しくは、[Adobe Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
+分類セットについて詳しくは、[Adobe Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
 
 レポートスイート、コンバージョン変数、成功イベント、分類セットを設定する場合は、Adobe Campaignで&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
 
