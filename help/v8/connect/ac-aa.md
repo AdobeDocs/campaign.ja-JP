@@ -6,22 +6,15 @@ role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
 TQID: https://experienceleague.adobe.com/AdMAot4jNWYNIbQVxEYvvodsffQ-kc405Dk8D5FwHFk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 100%
+source-wordcount: 1836
+ht-degree: 89%
 
 ---
 
@@ -52,6 +45,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. [Adobe Analytics でのレポートスイートの作成](#report-suite-analytics)
 1. [コンバージョン変数と成功イベントの設定](#configure-conversion-success)
+1. [分類セットの作成](#create-classification-set)
 1. [Adobe Campaign での外部アカウントの設定](#external-account-ac)
 
 ## Analytics レポートスイートの作成 {#report-suite-analytics}
@@ -127,7 +121,30 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-レポートスイートを設定する場合は、Adobe Campaign で&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
+## 分類セットの作成 {#create-classification-set}
+
+Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを設定する前に、Adobe Analyticsで&#x200B;**[!UICONTROL 分類セット]**&#x200B;を作成する必要もあります。 この分類セットは、作成したコンバージョン変数（内部キャンペーン名）をレポートスイートにリンクするので、次の手順で外部アカウントを設定する際に、Campaignが自動的に検出して使用できます。
+
+分類セットを作成するには：
+
+1. [!DNL Adobe Analytics]上部のメニューバーから、**[!UICONTROL コンポーネント]** > **[!UICONTROL 分類セット]**&#x200B;を選択し、**[!UICONTROL 新規]**&#x200B;をクリックします。
+
+   ![](assets/analytics_connnector_16.png)
+
+1. **[!UICONTROL 新しい分類セットを追加]** ダイアログで、次の操作を行います。
+
+   ![](assets/analytics_connnector_17.png)
+
+   * 分類セットの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
+   * **[!UICONTROL Type]**&#x200B;を&#x200B;**[!UICONTROL プライマリ]**&#x200B;に設定します。
+   * **[!UICONTROL ジョブ通知]**&#x200B;で、分類セットジョブの成功または失敗に関する通知を受け取るユーザーを選択し、対応する電子メールアドレスを指定します。
+   * **[!UICONTROL サブスクリプション]**&#x200B;で、前の手順で内部キャンペーン名として作成したレポートスイートとコンバージョン変数を選択します。
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+分類セットについて詳しくは、[Adobe Analytics ドキュメント ](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
+
+レポートスイート、コンバージョン変数、成功イベント、分類セットを設定する場合は、Adobe Campaignで&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
 
 ## Campaign 外部アカウントの設定 {#external-account-ac}
 
