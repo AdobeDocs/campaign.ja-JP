@@ -6,11 +6,16 @@ role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 TQID: https://experienceleague.adobe.com/cAHOzLoUPZ4sRNzKa1MYQg8E5zaBB3XuBdTxrSTBlPU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
 source-wordcount: 519
@@ -30,7 +35,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
 
-詳しくは、[ キャンペーンCampaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}を参照してください。
+詳しくは、[&#x200B; キャンペーンCampaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}を参照してください。
 
 ## コントロールパネルにアクセスするには？ {#ac-control-panel-access}
 

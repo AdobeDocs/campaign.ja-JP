@@ -6,11 +6,18 @@ role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
 TQID: https://experienceleague.adobe.com/AdMAot4jNWYNIbQVxEYvvodsffQ-kc405Dk8D5FwHFk
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
 source-wordcount: 1836
@@ -142,7 +149,7 @@ Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-分類セットについて詳しくは、[Adobe Analytics ドキュメント ](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
+分類セットについて詳しくは、[Adobe Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
 
 レポートスイート、コンバージョン変数、成功イベント、分類セットを設定する場合は、Adobe Campaignで&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
 
@@ -152,7 +159,7 @@ Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを�
 
 外部アカウントの設定時に&#x200B;**[!UICONTROL レポートスイート]**、**[!UICONTROL コンバージョン変数]**、**[!UICONTROL 成功イベント]**&#x200B;のいずれかが表示されない場合は、新しく作成したコンポーネントに対する権限が、ユーザーに関連付けられた&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;にないことをい意味します。
 
-詳しくは、 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"}Adobe Analytics の製品プロファイル[のページを参照してください。
+詳しくは、 [&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"}Adobe Analytics の製品プロファイルのページを参照してください。
 
 1. Adobe Campaign エクスプローラーツリーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;フォルダーに移動して、「**[!UICONTROL 新規]**」をクリックします。
 
