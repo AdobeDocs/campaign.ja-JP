@@ -7,10 +7,10 @@ level: Beginner
 keywords: FAQ、Campaign v8、質問、回答、ヘルプ、サポート、トラブルシューティング
 version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
-source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
+source-git-commit: d25c5a40af9ac0594301f46f09a4cc07a8e1945e
 workflow-type: tm+mt
-source-wordcount: '11689'
-ht-degree: 18%
+source-wordcount: '11657'
+ht-degree: 17%
 
 ---
 
@@ -147,12 +147,6 @@ Campaign v8での最初のメール作成は簡単です。 テンプレート�
 **関連トピック：**
 
 [電子メールのデザインと検証](../send/email.md) | [最初の配信を作成](create-message.md) | [配信テンプレート &#x200B;](../send/create-templates.md) | [&#x200B; コンテンツのパーソナライズ &#x200B;](../send/personalize.md)
-
-+++
-
-+++ エラーメッセージを翻訳するにはどうすればよいですか？
-
-エラーメッセージが外国語で表示されましたか？ すべてのエラーメッセージとその翻訳のリストは、[このページ](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja){target="_blank"}に掲載されています。
 
 +++
 
