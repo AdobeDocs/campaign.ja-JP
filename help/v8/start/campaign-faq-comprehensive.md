@@ -7,10 +7,10 @@ level: Beginner
 keywords: FAQ、Campaign v8、質問、回答、ヘルプ、サポート、トラブルシューティング
 version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
-source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
+source-git-commit: d25c5a40af9ac0594301f46f09a4cc07a8e1945e
 workflow-type: tm+mt
-source-wordcount: '11689'
-ht-degree: 18%
+source-wordcount: '11657'
+ht-degree: 17%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign v8に関するよくある質問に簡単に回答します。 �
 
 **Campaignを初めて使用する場合** 基本を学ぶには、[はじめに](#getting-started)から始めます。\
 **バージョンに関するサポートが必要ですか？** バージョン情報とアップグレードプロセスについては、[Upgrades](#upgrades)を確認してください。\
-**v7またはStandardから移行しますか？** 相違点と移行ガイダンスについては、[Campaign v8と以前のバージョン &#x200B;](#v7-differences)を参照してください。\
-**技術的なサポートが必要ですか？** [開発者](#developers)および[&#x200B; キャンペーン設定](#settings)を確認してください。\
-**回答が見つかりませんか？** [&#x200B; コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}または[&#x200B; サポートへのお問い合わせ](#get-help)をご覧ください。
+**v7またはStandardから移行しますか？** 相違点と移行ガイダンスについては、[Campaign v8と以前のバージョン ](#v7-differences)を参照してください。\
+**技術的なサポートが必要ですか？** [開発者](#developers)および[ キャンペーン設定](#settings)を確認してください。\
+**回答が見つかりませんか？** [ コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}または[ サポートへのお問い合わせ](#get-help)をご覧ください。
 
 **ヒント：** Ctrl+F （Macの場合はCmd+F）を使用して、このページの特定のキーワードを検索します。 任意の質問をクリックすると、回答が展開されます。
 
@@ -43,7 +43,7 @@ Adobe Campaign v8は、メール、モバイル、ソーシャル、オフライ
 
 **関連トピック：**
 
-[Campaign v8製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} | [v8](whats-new.md)の新機能| [開始ガイド &#x200B;](get-started.md)
+[Campaign v8製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} | [v8](whats-new.md)の新機能| [開始ガイド ](get-started.md)
 
 +++
 
@@ -51,9 +51,9 @@ Adobe Campaign v8は、メール、モバイル、ソーシャル、オフライ
 
 インストールプログラムとクライアントコンソールは、Adobe ダウンロードセンターから入手できます。
 
-管理者ユーザーとして、Adobe [&#x200B; ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html){target="_blank"}にアクセスしてAdobe Campaignをダウンロードします。
+管理者ユーザーとして、Adobe [ ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html){target="_blank"}にアクセスしてAdobe Campaignをダウンロードします。
 
-配布センター[について詳しくは、このページ &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target="_blank"}を参照してください。
+配布センター[について詳しくは、このページ ](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=ja){target="_blank"}を参照してください。
 
 +++
 
@@ -68,7 +68,7 @@ Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイ�
 
 **関連トピック：**
 
-[&#x200B; クライアントコンソールのインストール &#x200B;](connect.md) | [Campaign ユーザーインターフェイス &#x200B;](campaign-ui.md) | [&#x200B; ユーザー権限](gs-permissions.md)
+[ クライアントコンソールのインストール ](connect.md) | [Campaign ユーザーインターフェイス ](campaign-ui.md) | [ ユーザー権限](gs-permissions.md)
 
 +++
 
@@ -91,7 +91,7 @@ Adobe Campaign ユーザーインターフェイスの基本について詳し�
 
 Campaign v8.6 リリース以降では、中央のAdobe Experience Cloud環境から利用できる新しい&#x200B;**Campaign Web ユーザーインターフェイス**&#x200B;にもアクセスできます。
 
-[詳しくは、Adobe Campaign Web ユーザーインターフェイスのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}を参照してください。
+[詳しくは、Adobe Campaign Web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}を参照してください。
 
 +++
 
@@ -107,7 +107,7 @@ Campaign 管理者は、組織のユーザーに対して権限を設定でき�
 
 **関連トピック：**
 
-[権限の概要](gs-permissions.md) | [&#x200B; ユーザー権限の管理](manage-permissions.md) | [&#x200B; フォルダーに対する権限の追加](folder-permissions.md)
+[権限の概要](gs-permissions.md) | [ ユーザー権限の管理](manage-permissions.md) | [ フォルダーに対する権限の追加](folder-permissions.md)
 
 +++
 
@@ -128,7 +128,7 @@ Adobe Campaignでは、メッセージに適したオーディエンスを選択
 
 **関連トピック：**
 
-[Campaign v8](../audiences/gs-audiences.md)でオーディエンスを定義| [&#x200B; クエリエディター](query-editor.md) | [&#x200B; ターゲットマッピング &#x200B;](../audiences/target-mappings.md)
+[Campaign v8](../audiences/gs-audiences.md)でオーディエンスを定義| [ クエリエディター](query-editor.md) | [ ターゲットマッピング ](../audiences/target-mappings.md)
 
 +++
 
@@ -146,13 +146,7 @@ Campaign v8での最初のメール作成は簡単です。 テンプレート�
 
 **関連トピック：**
 
-[電子メールのデザインと検証](../send/email.md) | [最初の配信を作成](create-message.md) | [配信テンプレート &#x200B;](../send/create-templates.md) | [&#x200B; コンテンツのパーソナライズ &#x200B;](../send/personalize.md)
-
-+++
-
-+++ エラーメッセージを翻訳するにはどうすればよいですか？
-
-エラーメッセージが外国語で表示されましたか？ すべてのエラーメッセージとその翻訳のリストは、[このページ](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja){target="_blank"}に掲載されています。
+[電子メールのデザインと検証](../send/email.md) | [最初の配信を作成](create-message.md) | [配信テンプレート ](../send/create-templates.md) | [ コンテンツのパーソナライズ ](../send/personalize.md)
 
 +++
 
@@ -162,7 +156,7 @@ Adobe カスタマーサポートに連絡するには、[Adobe Admin Console](h
 
 正しい権限を持つ個々のアカウントが必要です。 ログインできない場合は、Experience League経由でアクセスをリクエストしてください。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
-または、[Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}に参加して、回答を検索したり、専門家に質問したりすることもできます。
+または、[Campaign コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}に参加して、回答を検索したり、専門家に質問したりすることもできます。
 
 +++
 
@@ -203,7 +197,7 @@ Campaign v8では、パフォーマンスが大幅に向上しますが、特に
 
 **関連トピック：**
 
-[Campaign v7からv8への移行](../start/v7-to-v8.md#limitations) | [FFDA アーキテクチャ &#x200B;](../architecture/enterprise-deployment.md)
+[Campaign v7からv8への移行](../start/v7-to-v8.md#limitations) | [FFDA アーキテクチャ ](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -215,7 +209,7 @@ Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200
 
 移行プロセスについて詳しくは、アドビ担当者にお問い合わせください。
 
-詳しくは、[Campaign v8と以前のバージョン &#x200B;](#v7-differences)の節を参照してください。
+詳しくは、[Campaign v8と以前のバージョン ](#v7-differences)の節を参照してください。
 
 +++
 
@@ -238,7 +232,7 @@ Adobe Campaign は定期的に更新されています。 マイナーバージ�
 
 **注：** Managed Cloud Services ユーザーとして、インスタンスは新しいリリースでAdobeによってアップグレードされます。
 
-[&#x200B; キャンペーンのバージョンとアップグレード &#x200B;](upgrades.md)の詳細を確認します。
+[ キャンペーンのバージョンとアップグレード ](upgrades.md)の詳細を確認します。
 
 +++
 
@@ -247,15 +241,15 @@ Adobe Campaign は定期的に更新されています。 マイナーバージ�
 次のチャネルを通じて、Campaignの新しいリリースに関する情報を入手できます。
 
 * **Adobe担当者** – 新しいバージョンが利用可能になったときに直接連絡します
-* **リリースノート** - [Campaign リリースノート &#x200B;](release-notes.md)に記載されているすべてのバージョンと変更点
-* **Adobe優先度製品の更新** - [&#x200B; メール通知の購読](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}
-* **キャンペーンコミュニティ** – 早期更新のために[&#x200B; ディスカッション &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}に参加
+* **リリースノート** - [Campaign リリースノート ](release-notes.md)に記載されているすべてのバージョンと変更点
+* **Adobe優先度製品の更新** - [ メール通知の購読](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}
+* **キャンペーンコミュニティ** – 早期更新のために[ ディスカッション ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}に参加
 
 Managed Cloud Services ユーザーとして、Adobeはアップグレードを処理し、タイミングを調整します。
 
 **関連トピック：**
 
-[&#x200B; リリースノート &#x200B;](release-notes.md) | [新機能](whats-new.md) | [&#x200B; キャンペーンのバージョンとアップグレード &#x200B;](upgrades.md)
+[ リリースノート ](release-notes.md) | [新機能](whats-new.md) | [ キャンペーンのバージョンとアップグレード ](upgrades.md)
 
 +++
 
@@ -274,7 +268,7 @@ Adobeでは、最新バージョンを実行することを強くお勧めしま
 
 **関連トピック：**
 
-[&#x200B; キャンペーンのバージョンとアップグレード &#x200B;](upgrades.md) | [新機能](whats-new.md) | [互換性マトリックス &#x200B;](compatibility-matrix.md)
+[ キャンペーンのバージョンとアップグレード ](upgrades.md) | [新機能](whats-new.md) | [互換性マトリックス ](compatibility-matrix.md)
 
 +++
 
@@ -294,7 +288,7 @@ Managed Cloud Servicesをご利用のお客様は、Adobeでアップグレー�
 **あなたの責任：**
 
 * 社内の関係者とタイミングを調整する
-* [&#x200B; クライアントコンソール &#x200B;](connect.md#upgrade-ac-console)を新しいバージョンにアップグレードする
+* [ クライアントコンソール ](connect.md#upgrade-ac-console)を新しいバージョンにアップグレードする
 * アップグレード後にキャンペーンとワークフローをテストする
 * Adobe サポートに問題を報告する
 
@@ -302,7 +296,7 @@ Adobeは、インフラストラクチャのアップグレードを実行しま
 
 **関連トピック：**
 
-[&#x200B; キャンペーンのバージョンとアップグレード &#x200B;](upgrades.md) | [&#x200B; クライアントコンソールのアップグレード &#x200B;](connect.md#upgrade-ac-console) | [&#x200B; リリースノート &#x200B;](release-notes.md)
+[ キャンペーンのバージョンとアップグレード ](upgrades.md) | [ クライアントコンソールのアップグレード ](connect.md#upgrade-ac-console) | [ リリースノート ](release-notes.md)
 
 +++
 
@@ -324,11 +318,11 @@ Campaign v8は、モダンなクラウドネイティブアーキテクチャ上
 
 **Campaign Classic v7 ユーザーの場合：** アーキテクチャの変更、使用できない機能、移行に関する考慮事項など、[v7からv8](v7-to-v8.md)への移行について説明します。
 
-**Campaign Standard ユーザーの場合：** [v8](acs-to-v8.md)への移行パスと[Campaign Standard移行ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}をご覧ください。
+**Campaign Standard ユーザーの場合：** [v8](acs-to-v8.md)への移行パスと[Campaign Standard移行ガイド ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}をご覧ください。
 
 **関連トピック：**
 
-[Campaign v8の主な機能](whats-new.md) | [Campaign v8 アーキテクチャ &#x200B;](../architecture/architecture.md) | [機能マトリックス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [&#x200B; ガードレールと制限](ac-guardrails.md)
+[Campaign v8の主な機能](whats-new.md) | [Campaign v8 アーキテクチャ ](../architecture/architecture.md) | [機能マトリックス ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [ ガードレールと制限](ac-guardrails.md)
 
 +++
 
@@ -352,7 +346,7 @@ Campaign v8は、Adobeのプラットフォームで、大規模なキャンペ�
 
 **関連トピック：**
 
-[Campaign Classic v7からv8](v7-to-v8.md)へ| [Campaign Standard移行ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [機能マトリックス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
+[Campaign Classic v7からv8](v7-to-v8.md)へ| [Campaign Standard移行ガイド ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"} | [機能マトリックス ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"}
 
 +++
 
@@ -368,7 +362,7 @@ Campaign v8は、Adobeのプラットフォームで、大規模なキャンペ�
 * インフラ管理やITのオーバーヘッドが発生しない
 * 組み込みの高可用性と災害復旧
 
-[Campaign v8 アーキテクチャ &#x200B;](../architecture/architecture.md)と、Campaign v8とClassic v7[&#128279;](../start/v7-to-v8.md)のの違いについて詳しく説明します。
+[Campaign v8 アーキテクチャ ](../architecture/architecture.md)と、Campaign v8とClassic v7](../start/v7-to-v8.md)の[の違いについて詳しく説明します。
 
 +++
 
@@ -385,7 +379,7 @@ Adobe Managed Servicesへの移行により、オンプレミス/ハイブリッ
 
 **はじめに：**&#x200B;アドビ担当者に連絡して環境を評価し、Adobe Professional Services で詳細な移行プランを作成してください。
 
-課題、ベストプラクティス、詳細な移行ロードマップなど、[Managed Servicesへの移行について詳しく説明します。](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=ja){target="_blank"}
+課題、ベストプラクティス、詳細な移行ロードマップなど、[Managed Servicesへの移行について詳しく説明します。](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}
 
 +++
 
@@ -415,7 +409,7 @@ Campaign v8では、v7/Standardのほとんどの機能に機能強化が加え�
 
 **関連トピック：**
 
-[機能マトリックス &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [v7からv8への移行ガイド &#x200B;](v7-to-v8.md) | [Campaign Standardからv8への移行](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}
+[機能マトリックス ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/capability-matrix){target="_blank"} | [v7からv8への移行ガイド ](v7-to-v8.md) | [Campaign Standardからv8への移行](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}
 
 +++
 
@@ -430,7 +424,7 @@ Campaign v8では、v7/Standardのほとんどの機能に機能強化が加え�
 
 **関連トピック：**
 
-[&#x200B; プロファイルを手動で作成](../audiences/create-profiles.md) | [&#x200B; ファイルからプロファイルをインポート &#x200B;](../audiences/import-profiles.md) | [Web フォームを使用してプロファイルを収集](../audiences/collect-profiles.md)
+[ プロファイルを手動で作成](../audiences/create-profiles.md) | [ ファイルからプロファイルをインポート ](../audiences/import-profiles.md) | [Web フォームを使用してプロファイルを収集](../audiences/collect-profiles.md)
 
 +++
 
@@ -442,7 +436,7 @@ Adobe Campaignには、インポートウィザードを使用したシンプル
 
 **関連トピック：**
 
-[読み込みデータガイド &#x200B;](../start/import.md) | [繰り返し読み込みワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"} | [&#x200B; データ読み込みアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}
+[読み込みデータガイド ](../start/import.md) | [繰り返し読み込みワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"} | [ データ読み込みアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"}
 
 +++
 
@@ -450,7 +444,7 @@ Adobe Campaignには、インポートウィザードを使用したシンプル
 
 テストプロファイル（シードアドレス）を使用すると、定義されたターゲティング条件に一致しない受信者をターゲットにすることができ、メインのオーディエンスに送信する前に配信をテストすることができます。 配信プロパティの&#x200B;**[!UICONTROL シードアドレス]**&#x200B;経由で追加するか、**[!UICONTROL シードアドレス]** フォルダーを使用します。
 
-[&#x200B; テストプロファイル &#x200B;](../audiences/test-profiles.md)の詳細をご覧ください。
+[ テストプロファイル ](../audiences/test-profiles.md)の詳細をご覧ください。
 
 +++
 
@@ -460,7 +454,7 @@ Adobe Campaignでは、視覚的な条件を使用してクエリを作成した
 
 **関連トピック：**
 
-[&#x200B; キャンペーン目標の定義](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"} | [&#x200B; クエリアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} | [&#x200B; オーディエンスの作成](../audiences/create-audiences.md)
+[ キャンペーン目標の定義](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"} | [ クエリアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} | [ オーディエンスの作成](../audiences/create-audiences.md)
 
 +++
 
@@ -480,7 +474,7 @@ Adobe Campaignでは、視覚的な条件を使用してクエリを作成した
 
 **関連トピック：**
 
-[&#x200B; オーディエンスの作成](../audiences/create-audiences.md) | [更新アクティビティのリスト &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html?lang=ja){target="_blank"}
+[ オーディエンスの作成](../audiences/create-audiences.md) | [更新アクティビティのリスト ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/list-update.html){target="_blank"}
 
 +++
 
@@ -490,7 +484,7 @@ Adobe Campaignでは、視覚的な条件を使用してクエリを作成した
 
 **ヒント：**&#x200B;送信前に必ず重複を解除して、各送信者がメッセージを1回だけ受信するようにします。
 
-[重複排除アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"}の詳細
+[重複排除アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"}の詳細
 
 +++
 
@@ -506,7 +500,7 @@ Adobe Campaignは、購読/購読解除の履歴を追跡し、オプトイン/�
 
 **関連トピック：**
 
-[購読の管理](../start/subscriptions.md) | [&#x200B; クエリアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}
+[購読の管理](../start/subscriptions.md) | [ クエリアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}
 
 +++
 
@@ -514,7 +508,7 @@ Adobe Campaignは、購読/購読解除の履歴を追跡し、オプトイン/�
 
 ワークフローで&#x200B;**[!UICONTROL 除外]** アクティビティを使用して、ターゲットから不要なプロファイルを削除します。 ターゲティングアクティビティの後に配置し、除外する母集団を定義します。
 
-[除外アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html?lang=ja){target="_blank"}の詳細
+[除外アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/exclusion.html){target="_blank"}の詳細
 
 +++
 
@@ -529,7 +523,7 @@ Adobe Campaignは、購読/購読解除の履歴を追跡し、オプトイン/�
 
 **関連トピック：**
 
-[&#x200B; メールデザインガイド &#x200B;](../send/email.md) | [配信のベストプラクティス &#x200B;](delivery-best-practices.md)
+[ メールデザインガイド ](../send/email.md) | [配信のベストプラクティス ](delivery-best-practices.md)
 
 +++
 
@@ -555,7 +549,7 @@ Adobe Campaignは、購読/購読解除の履歴を追跡し、オプトイン/�
 
 はい。 Campaignの情報サービスを使用して、ニュースレター購読を管理します。 主な機能には、自動オプトイン/オプトアウト処理、サブスクリプション追跡、コンプライアンス管理（GDPR、CAN-SPAM）、マルチニュースレターのサポート、サインアップフォームのweb統合、購読者へのターゲティング配信などがあります。
 
-[&#x200B; サブスクリプションの管理方法](../start/subscriptions.md)について説明します
+[ サブスクリプションの管理方法](../start/subscriptions.md)について説明します
 
 +++
 
@@ -574,7 +568,7 @@ Adobe Campaignは、受信者のデータ、行動、嗜好にもとづいて、
 
 **関連トピック：**
 
-[Personalization ガイド &#x200B;](../send/personalize.md) | [&#x200B; パーソナライゼーションフィールド &#x200B;](../send/personalization-fields.md) | [条件付きコンテンツ &#x200B;](../send/conditions.md)
+[Personalization ガイド ](../send/personalize.md) | [ パーソナライゼーションフィールド ](../send/personalization-fields.md) | [条件付きコンテンツ ](../send/conditions.md)
 
 +++
 
@@ -593,7 +587,7 @@ Adobe Campaignは、受信者のデータ、行動、嗜好にもとづいて、
 
 **関連トピック：**
 
-[&#x200B; パーソナライゼーションフィールド &#x200B;](../send/personalization-fields.md) | [条件付きコンテンツ &#x200B;](../send/conditions.md)
+[ パーソナライゼーションフィールド ](../send/personalization-fields.md) | [条件付きコンテンツ ](../send/conditions.md)
 
 +++
 
@@ -607,7 +601,7 @@ Adobe Campaignは、受信者のデータ、行動、嗜好にもとづいて、
 
 **関連トピック：**
 
-[多言語配信（Web UI） &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [条件付きコンテンツ（クライアントコンソール） &#x200B;](../send/conditions.md)
+[多言語配信（Web UI） ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/multilingual){target="_blank"} | [条件付きコンテンツ（クライアントコンソール） ](../send/conditions.md)
 
 +++
 
@@ -615,7 +609,7 @@ Adobe Campaignは、受信者のデータ、行動、嗜好にもとづいて、
 
 はい。 Campaign web アプリケーションは、多言語ローカライゼーションをサポートします。 受信者のプロファイルやブラウザーの設定にもとづいて言語を自動検出し、あらゆるフォーム要素（ラベル、ボタン、メッセージ、エラーテキスト）に翻訳を定義できます。 単一のweb アプリケーションでは、複数の言語バージョンがサポートされており、必要に応じてデフォルト言語にフォールバックします。
 
-[Web アプリケーションのローカライズ &#x200B;](../dev/webapps.md)について詳しく見る
+[Web アプリケーションのローカライズ ](../dev/webapps.md)について詳しく見る
 
 +++
 
@@ -635,7 +629,7 @@ Adobe Campaignは、受信者のデータ、行動、嗜好にもとづいて、
 
 **関連トピック：**
 
-[AI アシスタントの概要](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI アシスタントの使用例](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [&#x200B; ブランドの調整](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
+[AI アシスタントの概要](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [AI アシスタントの使用例](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [ ブランドの調整](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
 +++
 
@@ -647,13 +641,13 @@ Adobe Campaignは、受信者のデータ、行動、嗜好にもとづいて、
 
 メール配信の品質は、すべての送信者がマーケティングプログラムを成功させるうえで重要なコンポーネントであり、条件とルールが常に変化し続けるという特徴があります。 デジタルの世界を効果的に進むには、主な配信品質の傾向を考慮して、メール戦略を定期的に調整し、最適な方法でオーディエンスにアプローチする必要があります。
 
-このガイドでは、[配信品質のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}について説明します
+このガイドでは、[配信品質のベストプラクティス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}について説明します
 
 Campaign に配信品質を実装する方法については、[このガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=ja){target="_blank"}を参照してください
 
 **関連トピック：**
 
-[配信品質の基本を学ぶ](../send/about-deliverability.md) | [&#x200B; メッセージコンテンツの管理](../send/control-message-content.md) | [配信品質の監視](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
+[配信品質の基本を学ぶ](../send/about-deliverability.md) | [ メッセージコンテンツの管理](../send/control-message-content.md) | [配信品質の監視](../send/monitoring-deliverability.md) | [SpamAssassin](../send/spamassassin.md)
 
 +++
 
@@ -667,7 +661,7 @@ Campaign に配信品質を実装する方法については、[このガイド]
 
 **関連トピック：**
 
-[配信の追跡と監視](../send/tracking.md) | [配信のベストプラクティス &#x200B;](delivery-best-practices.md)
+[配信の追跡と監視](../send/tracking.md) | [配信のベストプラクティス ](delivery-best-practices.md)
 
 +++
 
@@ -677,7 +671,7 @@ Campaign に配信品質を実装する方法については、[このガイド]
 
 Campaignは、警告とエラーを示すログを生成します。 エラーは配信をブロックし、修正する必要があります。警告はアドバイザリーです。 送信前に分析ログを必ず確認してください。
 
-詳しくは、[配信分析ガイド &#x200B;](../send/delivery-analysis.md)を参照してください
+詳しくは、[配信分析ガイド ](../send/delivery-analysis.md)を参照してください
 
 +++
 
@@ -687,7 +681,7 @@ Campaignは、警告とエラーを示すログを生成します。 エラー�
 
 プルーフは、何千人もの受信者にリーチする前にエラーを発見し、関係者の承認を得て、受信トレイの到達率をテストするのに役立ちます。 複数のメールクライアントやデバイスに校正を送信し、本番環境への送信前に必ず承認を得るようにします。
 
-詳しくは、[&#x200B; プルーフとプレビューガイド &#x200B;](../send/preview-and-proof.md)を参照してください
+詳しくは、[ プルーフとプレビューガイド ](../send/preview-and-proof.md)を参照してください
 
 +++
 
@@ -702,7 +696,7 @@ Campaignは、警告とエラーを示すログを生成します。 エラー�
 
 **[!UICONTROL リソース/キャンペーン管理/シードアドレス]**&#x200B;でシードアドレスを管理します。 配信の指標に影響を与えないように、リストを小さく保ちます。
 
-詳しくは、[&#x200B; シードアドレスガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html?lang=ja){target="_blank"}を参照してください
+詳しくは、[ シードアドレスガイド ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery-control.html){target="_blank"}を参照してください
 
 +++
 
@@ -720,7 +714,7 @@ Adobe Campaignでは、メッセージが送信前に品質基準を満たして
 
 **関連トピック：**
 
-[配信の検証](../send/preview-and-proof.md) | [&#x200B; キャンペーンの承認](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja){target="_blank"}
+[配信の検証](../send/preview-and-proof.md) | [ キャンペーンの承認](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja){target="_blank"}
 
 +++
 
@@ -764,7 +758,7 @@ Adobe Campaignでは、メッセージが送信前に品質基準を満たして
 
 ルールはタイポロジにグループ化され、配信分析中に適用されます。 Campaignでは、受信者を除外したり、配信をブロックしたり、ルールに基づいて警告を生成したりできます。
 
-詳しくは、[Typology ルールガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"}を参照してください
+詳しくは、[Typology ルールガイド ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"}を参照してください
 
 +++
 
@@ -778,7 +772,7 @@ Adobe Campaignでは、メッセージが送信前に品質基準を満たして
 
 大規模なキャンペーンにウェーブを使用し、続行する前に最初のウェーブのパフォーマンスを監視し、ウェーブ間でバウンスとオプトアウトを処理するのに十分な時間を確保します。
 
-[&#x200B; ウェーブ送信](../send/configure-and-send.md#sending-using-multiple-waves)の設定方法について説明します
+[ ウェーブ送信](../send/configure-and-send.md#sending-using-multiple-waves)の設定方法について説明します
 
 +++
 
@@ -794,7 +788,7 @@ Adobe Campaignでは、今後の送信のために配信をスケジュールし
 
 Campaignは、連絡先日の最適化（受信者ごとに最適な送信時間）とタイムゾーンの適応（すべての受信者に同じ現地時間）もサポートしています。
 
-[配信送信をスケジュール &#x200B;](../send/configure-and-send.md#schedule-delivery-sending)する方法について説明します
+[配信送信をスケジュール ](../send/configure-and-send.md#schedule-delivery-sending)する方法について説明します
 
 +++
 
@@ -811,7 +805,7 @@ Campaignは、連絡先日の最適化（受信者ごとに最適な送信時間
 
 安全なファイル形式（PDF、JPEG、PNG、DOCX）を使用し、本番環境への送信前にシードアドレスを使用してテストします。
 
-詳しくは、[電子メール添付ファイル ガイド &#x200B;](../send/email.md#attachments)を参照してください
+詳しくは、[電子メール添付ファイル ガイド ](../send/email.md#attachments)を参照してください
 
 +++
 
@@ -830,7 +824,7 @@ Campaignは、コンテンツリンク、ミラーページリンク、購読解
 
 **関連トピック：**
 
-[&#x200B; リンクトラッキングガイド &#x200B;](../send/tracking.md) | [&#x200B; トラッキングベストプラクティス &#x200B;](../send/send.md)
+[ リンクトラッキングガイド ](../send/tracking.md) | [ トラッキングベストプラクティス ](../send/send.md)
 
 +++
 
@@ -849,7 +843,7 @@ Campaignは、コンテンツリンク、ミラーページリンク、購読解
 
 **関連トピック：**
 
-[配信の監視](../send/send.md) | [&#x200B; トラッキングガイド &#x200B;](../send/tracking.md)
+[配信の監視](../send/send.md) | [ トラッキングガイド ](../send/tracking.md)
 
 +++
 
@@ -868,7 +862,7 @@ Adobe Campaignには、配信のパフォーマンス、受信者のエンゲー
 
 **関連トピック：**
 
-[&#x200B; ビルトイン配信レポート &#x200B;](../reporting/delivery-reports.md) | [&#x200B; キャンペーンレポート &#x200B;](../reporting/gs-reporting.md)
+[ ビルトイン配信レポート ](../reporting/delivery-reports.md) | [ キャンペーンレポート ](../reporting/gs-reporting.md)
 
 +++
 
@@ -896,7 +890,7 @@ Campaignは、各アドレスの配信エラーを追跡します。 アドレ�
 
 **関連トピック：**
 
-[強制隔離の管理ガイド &#x200B;](../send/quarantines.md) | [&#x200B; バウンス管理](../send/delivery-failures.md)
+[強制隔離の管理ガイド ](../send/quarantines.md) | [ バウンス管理](../send/delivery-failures.md)
 
 +++
 
@@ -916,7 +910,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 **関連トピック：**
 
-[&#x200B; ワークフローの基本を学ぶ](../config/workflows.md) | [最初のワークフローを作成する](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [&#x200B; ワークフローの実行を監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
+[ ワークフローの基本を学ぶ](../config/workflows.md) | [最初のワークフローを作成する](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [ ワークフローの実行を監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
 +++
 
@@ -928,7 +922,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 **関連トピック：**
 
-[&#x200B; ワークフロー実行の監視](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
+[ ワークフロー実行の監視](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution){target="_blank"} | [ ワークフローのベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
 
 +++
 
@@ -947,7 +941,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
+[ ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [ ワークフローアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [ ワークフローのベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
 
 +++
 
@@ -975,7 +969,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; スケジューラーアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"} | [定期的な配信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html){target="_blank"} | [&#x200B; キャンペーンオートメーション &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"}
+[ スケジューラーアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"} | [定期的な配信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html){target="_blank"} | [ キャンペーンオートメーション ](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"}
 
 +++
 
@@ -987,7 +981,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; インポートのベストプラクティス &#x200B;](../start/import.md) | [&#x200B; データ読み込みアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} | [繰り返しインポート ワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"}
+[ インポートのベストプラクティス ](../start/import.md) | [ データ読み込みアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} | [繰り返しインポート ワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1015,7 +1009,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; データ品質ガイド &#x200B;](../start/import.md) | [重複排除アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} | [&#x200B; エンリッチメントアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
+[ データ品質ガイド ](../start/import.md) | [重複排除アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"} | [ エンリッチメントアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1031,7 +1025,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; ワークフローのユースケースライブラリ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [&#x200B; ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
+[ ワークフローのユースケースライブラリ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [ ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [ ワークフローのベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1045,7 +1039,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; データアクティビティの更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"} | [&#x200B; データ管理アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
+[ データアクティビティの更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"} | [ データ管理アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
 
 +++
 
@@ -1057,7 +1051,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; データ管理アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [&#x200B; エンリッチメントアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
+[ データ管理アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [ エンリッチメントアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1069,7 +1063,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[Personalization ガイド &#x200B;](../send/personalize.md) | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}
+[Personalization ガイド ](../send/personalize.md) | [ ワークフローのユースケース ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1081,7 +1075,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; アクティビティの分割](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} | [A/B テストガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
+[ アクティビティの分割](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} | [A/B テストガイド ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
 
 +++
 
@@ -1095,7 +1089,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; データガイドの読み込み](../start/import.md) | [&#x200B; データ読み込みアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} | [&#x200B; データアクティビティの更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"}
+[ データガイドの読み込み](../start/import.md) | [ データ読み込みアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=ja){target="_blank"} | [ データアクティビティの更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1109,7 +1103,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; クエリアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} | [集計の使用](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja){target="_blank"}
+[ クエリアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"} | [集計の使用](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1126,7 +1120,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; アクティビティのターゲティング &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ja){target="_blank"} | [&#x200B; フロー制御](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=ja){target="_blank"} | [&#x200B; アクションアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ja){target="_blank"}
+[ アクティビティのターゲティング ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=ja){target="_blank"} | [ フロー制御](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=ja){target="_blank"} | [ アクションアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1140,7 +1134,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; ワークフローのベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [&#x200B; ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
+[ ワークフローのベストプラクティスガイド ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [ ワークフローの監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1168,7 +1162,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[Campaign Web UIでの言語の変更](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Campaign クライアントコンソールの基本を学ぶ](connect.md)
+[Campaign Web UIでの言語の変更](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/connect-to-campaign#language-pref){target="_blank"} | [Campaign クライアントコンソールの基本を学ぶ](connect.md)
 
 +++
 
@@ -1194,7 +1188,7 @@ Campaign Campaign コントロールパネルは、Campaign管理者がCampaign 
 
 **追加リソース：**
 
-[Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel/using/control-panel-home){target="_blank"} | [Campaign コントロールパネルチュートリアルビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
+[Campaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/ja/docs/control-panel/using/control-panel-home){target="_blank"} | [Campaign コントロールパネルチュートリアルビデオ ](https://experienceleague.adobe.com/ja/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"}
 
 +++
 
@@ -1203,12 +1197,12 @@ Campaign Campaign コントロールパネルは、Campaign管理者がCampaign 
 Adobe Campaign v8では、トップレベルの管理アカウントと特権アカウントのすべての現在の設定を、推奨されるセキュアデフォルトと比較できます。
 
 * **現在の設定（完全な表示）:**&#x200B;管理アカウントと特権アカウントのすべての設定は、**[!UICONTROL 管理]** > **[!UICONTROL アクセス管理]** （クライアントコンソールまたはCampaign Web UI）: **[!UICONTROL オペレーター]**、**[!UICONTROL オペレーターグループ]**、**[!UICONTROL 名前付き権限]** （管理、承認管理など）およびフォルダーレベルの権限で確認できます。 製品管理者は、[Campaign Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}のインスタンスレベルの設定（IP設定、URL権限、インスタンスの詳細など）を確認することもできます。
-* **推奨されるセキュアなデフォルト：** [&#x200B; セキュリティガイドライン &#x200B;](../config/security.md)は、管理アカウントと特権アカウントに対して推奨されるセキュアベースラインを定義します。これには、十分なセキュリティグループの作成、オペレーターごとの適切なアクセス権の割り当て、管理者オペレーターと管理者グループの使用の制限が含まれます。 該当する場合は、ネットワークおよび暗号化の強化に関する[強化セキュリティアドオン &#x200B;](../config/enhanced-security.md)も参照してください。
+* **推奨されるセキュアなデフォルト：** [ セキュリティガイドライン ](../config/security.md)は、管理アカウントと特権アカウントに対して推奨されるセキュアベースラインを定義します。これには、十分なセキュリティグループの作成、オペレーターごとの適切なアクセス権の割り当て、管理者オペレーターと管理者グループの使用の制限が含まれます。 該当する場合は、ネットワークおよび暗号化の強化に関する[強化セキュリティアドオン ](../config/enhanced-security.md)も参照してください。
 * **比較：**&#x200B;管理者は、現在の設定と、これらの文書化された推奨事項を比較して、ギャップを特定し、安全なデフォルトに一致させます。
 
 **関連トピック：**
 
-[権限の基本を学ぶ](gs-permissions.md) | [&#x200B; セキュリティガイドライン &#x200B;](../config/security.md) | [強化セキュリティアドオン &#x200B;](../config/enhanced-security.md)
+[権限の基本を学ぶ](gs-permissions.md) | [ セキュリティガイドライン ](../config/security.md) | [強化セキュリティアドオン ](../config/enhanced-security.md)
 
 +++
 
@@ -1245,7 +1239,7 @@ Campaign v8は、メッセージとの受信者のインタラクションを監
 
 **関連トピック：**
 
-[配信の追跡と監視](../send/tracking.md) | [追跡リンクの設定](../send/tracked-links.md) | [&#x200B; トラッキングのテスト &#x200B;](../send/testing-tracking.md)
+[配信の追跡と監視](../send/tracking.md) | [追跡リンクの設定](../send/tracked-links.md) | [ トラッキングのテスト ](../send/testing-tracking.md)
 
 +++
 
@@ -1273,7 +1267,7 @@ Campaign v8は、メッセージとの受信者のインタラクションを監
 
 **関連トピック：**
 
-[Campaignでの配信品質について](../send/about-deliverability.md) | [配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}
+[Campaignでの配信品質について](../send/about-deliverability.md) | [配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1285,7 +1279,7 @@ FDAの可用性と接続要件は、デプロイメントとライセンスに�
 
 **関連トピック：**
 
-[FDA接続の設定](../connect/fda.md) | [互換性マトリックス &#x200B;](compatibility-matrix.md)
+[FDA接続の設定](../connect/fda.md) | [互換性マトリックス ](compatibility-matrix.md)
 
 +++
 
@@ -1293,7 +1287,7 @@ FDAの可用性と接続要件は、デプロイメントとライセンスに�
 
 Campaign v8は、主要なエンタープライズデータベースシステム（クラウドデータベース、エンタープライズデータベース、データウェアハウス、ビッグデータプラットフォーム）へのFederated Data Access （FDA）接続をサポートしています。
 
-サポートされるデータベースのバージョンと接続要件は異なります。 Campaign v8 バージョンの[互換性マトリックス &#x200B;](compatibility-matrix.md)を確認して、特定のデータベースのサポートを確認し、FDA コネクタの適切なライセンスを確認してください。
+サポートされるデータベースのバージョンと接続要件は異なります。 Campaign v8 バージョンの[互換性マトリックス ](compatibility-matrix.md)を確認して、特定のデータベースのサポートを確認し、FDA コネクタの適切なライセンスを確認してください。
 
 [FDA接続の設定](../connect/fda.md)を参照してください
 
@@ -1303,11 +1297,11 @@ Campaign v8は、主要なエンタープライズデータベースシステム
 
 はい。 Adobe Campaignでは、主要なCRM システムとの双方向同期のためにネイティブのCRM コネクタを提供しています。 連絡先データ、リード、アカウント、配信ログ、トラッキングデータ、エンゲージメント指標を同期できます。 スケジュール、手動、リアルタイム（API経由）の同期モードをサポートします。
 
-CampaignのCRM コネクタアシスタントを使用して、フィールドのマッピング、テーブルの選択、同期のスケジュールを行います。 サポートされているCRM バージョンについては、[互換性マトリックス &#x200B;](compatibility-matrix.md)を確認してください。
+CampaignのCRM コネクタアシスタントを使用して、フィールドのマッピング、テーブルの選択、同期のスケジュールを行います。 サポートされているCRM バージョンについては、[互換性マトリックス ](compatibility-matrix.md)を確認してください。
 
 **関連トピック：**
 
-[CRM コネクタ設定](../connect/crm.md) | [&#x200B; ワークフローCRM アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html?lang=ja){target="_blank"}
+[CRM コネクタ設定](../connect/crm.md) | [ ワークフローCRM アクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector.html){target="_blank"}
 
 +++
 
@@ -1348,7 +1342,7 @@ CampaignのCRM コネクタアシスタントを使用して、フィールド�
 
 Adobe サポートでは、お使いのバージョンとOSの適切なキャッシュの場所を確認し、安全な手動クリーンアップを実施できます。
 
-詳しくは、[&#x200B; クライアントコンソールのインストールと設定](connect.md)を参照してください
+詳しくは、[ クライアントコンソールのインストールと設定](connect.md)を参照してください
 
 +++
 
@@ -1382,7 +1376,7 @@ Adobe サポートでは、お使いのバージョンとOSの適切なキャッ
 
 **関連トピック：**
 
-[UI設定の設定](../config/ui-settings.md) | [&#x200B; ユーザー権限](gs-permissions.md)
+[UI設定の設定](../config/ui-settings.md) | [ ユーザー権限](gs-permissions.md)
 
 +++
 
@@ -1407,7 +1401,7 @@ Adobe サポートでは、お使いのバージョンとOSの適切なキャッ
 
 **関連トピック：**
 
-[&#x200B; データモデルの拡張](../dev/extend-schema.md) | [&#x200B; スキーマ構造](../dev/schemas.md) | [&#x200B; データモデルのベストプラクティス &#x200B;](../dev/datamodel-best-practices.md)
+[ データモデルの拡張](../dev/extend-schema.md) | [ スキーマ構造](../dev/schemas.md) | [ データモデルのベストプラクティス ](../dev/datamodel-best-practices.md)
 
 +++
 
@@ -1430,7 +1424,7 @@ Adobe Campaignでは、組み込みレポート、記述分析、クライアン
 
 **関連トピック：**
 
-[&#x200B; レポートの基本を学ぶ](../reporting/gs-reporting.md) | [Campaign Web UI レポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[ レポートの基本を学ぶ](../reporting/gs-reporting.md) | [Campaign Web UI レポート ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1465,7 +1459,7 @@ Campaignの記述的分析ツールを使用すれば、あらゆる母集団デ
 * 条件付きフォーマットと動的コンテンツのデザイン
 * Campaign データモデルと外部データベース（FDA）へのアクセス
 
-[&#x200B; カスタムレポートの作成方法（クライアントコンソール） &#x200B;](../reporting/custom-reports.md)について説明します
+[ カスタムレポートの作成方法（クライアントコンソール） ](../reporting/custom-reports.md)について説明します
 
 +++
 
@@ -1478,7 +1472,7 @@ Campaignの記述的分析ツールを使用すれば、あらゆる母集団デ
 * データは自動的に集計され、キューブ設定にもとづいて計算されます
 * 結果は、ピボットテーブル、グラフとして表示したり、Excelに書き出したりできます
 
-[&#x200B; キューブを使用してデータを探索する方法](../reporting/gs-cubes.md)を学ぶ
+[ キューブを使用してデータを探索する方法](../reporting/gs-cubes.md)を学ぶ
 
 +++
 
@@ -1506,7 +1500,7 @@ Campaignの記述的分析ツールを使用すれば、あらゆる母集団デ
 
 **関連トピック：**
 
-[調査の開始](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [調査レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[調査の開始](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [調査レポート ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
@@ -1524,7 +1518,7 @@ Campaignのフォルダー権限と名前付き権限を使用して、レポー
 
 **関連トピック：**
 
-[&#x200B; カスタムレポート &#x200B;](../reporting/custom-reports.md) | [&#x200B; ユーザー権限](gs-permissions.md)
+[ カスタムレポート ](../reporting/custom-reports.md) | [ ユーザー権限](gs-permissions.md)
 
 +++
 
@@ -1555,7 +1549,7 @@ Campaignのフォルダー権限と名前付き権限を使用して、レポー
 
 **関連トピック：**
 
-[&#x200B; カスタムレポート &#x200B;](../reporting/custom-reports.md) | [Campaign Web UI レポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[ カスタムレポート ](../reporting/custom-reports.md) | [Campaign Web UI レポート ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1575,7 +1569,7 @@ Campaignのデータモデルは、ビジネスニーズに合わせて拡張で
 
 **関連トピック：**
 
-[&#x200B; キャンペーンデータモデル &#x200B;](../dev/datamodel.md) | [&#x200B; データモデルのベストプラクティス &#x200B;](../dev/datamodel-best-practices.md)
+[ キャンペーンデータモデル ](../dev/datamodel.md) | [ データモデルのベストプラクティス ](../dev/datamodel-best-practices.md)
 
 +++
 
@@ -1596,7 +1590,7 @@ Campaignのデータモデルは、ビジネスニーズに合わせて拡張で
 
 **関連トピック：**
 
-[&#x200B; スキーマの基本を学ぶ](../dev/schemas.md) | [&#x200B; スキーマを拡張](../dev/extend-schema.md)
+[ スキーマの基本を学ぶ](../dev/schemas.md) | [ スキーマを拡張](../dev/extend-schema.md)
 
 +++
 
@@ -1612,7 +1606,7 @@ B2B アカウント、個別の加入者データ、外部システム、マル�
 
 **関連トピック：**
 
-[&#x200B; カスタム受信者テーブル &#x200B;](../dev/custom-recipient.md) | [&#x200B; ターゲットマッピング &#x200B;](../audiences/target-mappings.md)
+[ カスタム受信者テーブル ](../dev/custom-recipient.md) | [ ターゲットマッピング ](../audiences/target-mappings.md)
 
 +++
 
@@ -1635,7 +1629,7 @@ Campaignのクエリエディターは、ワークフローアクティビティ
 
 **関連トピック：**
 
-[&#x200B; クエリエディター](../start/query-editor.md) | [&#x200B; クエリアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}
+[ クエリエディター](../start/query-editor.md) | [ クエリアクティビティ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1647,7 +1641,7 @@ Campaignのクエリエディターは、ワークフローアクティビティ
 
 **ベストプラクティス：**&#x200B;開発環境でテストを行い、インポート前にバックアップし、同じバージョンまたは古いバージョンからエクスポートします。
 
-詳細については、[&#x200B; データパッケージの操作](../dev/packages.md)を参照してください。
+詳細については、[ データパッケージの操作](../dev/packages.md)を参照してください。
 
 +++
 
@@ -1657,7 +1651,7 @@ Campaign v8には、SOAP API （クライアントコンソール操作）、RES
 
 **一般的な用途：** CRM/ERPとの統合、キャンペーンの自動化、データの同期、監視ソリューションの構築、外部インターフェイスの作成。
 
-**アクセス：** [Campaign v8 API ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}
+**アクセス：** [Campaign v8 API ドキュメント ](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1674,7 +1668,7 @@ Campaign APIを使用すると、開始、一時停止/再開、停止、クエ�
 
 **ベストプラクティス：** API モニタリングと監査証跡を組み合わせて、包括的なガバナンスを実現します。
 
-API経由で[&#x200B; ワークフローを制御](../dev/api/controlling-a-workflow.md)を参照してください
+API経由で[ ワークフローを制御](../dev/api/controlling-a-workflow.md)を参照してください
 
 +++
 
@@ -1689,7 +1683,7 @@ API経由で[&#x200B; ワークフローを制御](../dev/api/controlling-a-work
 
 **関連トピック：**
 
-[&#x200B; データベース構造の更新](../dev/update-database-structure.md) | [&#x200B; スキーマの拡張](../dev/extend-schema.md)
+[ データベース構造の更新](../dev/update-database-structure.md) | [ スキーマの拡張](../dev/extend-schema.md)
 
 +++
 
@@ -1703,7 +1697,7 @@ Adobe Campaignは、データ主体の権利、同意、データ保持を管理
 
 データ管理者は、データ主体の要求を処理し、同意記録を維持し、透明性のあるデータ使用を保証する責任があります。
 
-[&#x200B; プライバシー管理](../start/privacy.md)の詳細
+[ プライバシー管理](../start/privacy.md)の詳細
 
 +++
 
@@ -1721,7 +1715,7 @@ Campaignはプライバシーコンプライアンスのためのツールを提
 
 Adobe Campaignは、Privacy Core Serviceとの統合、同意の追跡、自動削除ワークフロー、コンプライアンスを確保するための監査証跡などを提供します。
 
-[&#x200B; プライバシー管理](../start/privacy.md)の詳細
+[ プライバシー管理](../start/privacy.md)の詳細
 
 +++
 
@@ -1745,7 +1739,7 @@ Campaignは、同意を追跡するためのサブスクリプションサービ
 
 **関連トピック：**
 
-[&#x200B; サブスクリプションサービス &#x200B;](../start/subscriptions.md) | [&#x200B; プライバシーと同意](../start/privacy.md#consent-retention-roles) | [&#x200B; プライバシー管理](../start/privacy.md)
+[ サブスクリプションサービス ](../start/subscriptions.md) | [ プライバシーと同意](../start/privacy.md#consent-retention-roles) | [ プライバシー管理](../start/privacy.md)
 
 +++
 
@@ -1759,7 +1753,7 @@ Campaignは、データ主体にリンクされたすべてのデータ（受信
 
 **関連トピック：**
 
-[&#x200B; プライバシー管理](../start/privacy.md) | [&#x200B; スキーマリンク &#x200B;](../dev/schemas.md)
+[ プライバシー管理](../start/privacy.md) | [ スキーマリンク ](../dev/schemas.md)
 
 +++
 
@@ -1771,7 +1765,7 @@ Campaignは、データ主体にリンクされたすべてのデータ（受信
 
 **関連トピック：**
 
-[&#x200B; プライバシー管理](../start/privacy.md) | [&#x200B; レポート &#x200B;](../reporting/gs-reporting.md)
+[ プライバシー管理](../start/privacy.md) | [ レポート ](../reporting/gs-reporting.md)
 
 +++
 
@@ -1785,7 +1779,7 @@ Campaignだけでなく、すべてのソースシステムからデータを削
 
 **関連トピック：**
 
-[&#x200B; プライバシー管理](../start/privacy.md) | [&#x200B; ワークフローの読み込み](../config/workflows.md)
+[ プライバシー管理](../start/privacy.md) | [ ワークフローの読み込み](../config/workflows.md)
 
 +++
 
@@ -1797,7 +1791,7 @@ Campaignの監査証跡は、削除イベントと新しいプロファイル作
 
 **関連トピック：**
 
-[&#x200B; プライバシー管理](../start/privacy.md) | [&#x200B; サブスクリプション &#x200B;](../start/subscriptions.md)
+[ プライバシー管理](../start/privacy.md) | [ サブスクリプション ](../start/subscriptions.md)
 
 +++
 
@@ -1809,15 +1803,15 @@ Campaignの監査証跡は、削除イベントと新しいプロファイル作
 
 Adobe CampaignのユーザーやAdobeのエキスパートと交流することで、知識を共有し、疑問の答えを見つけることができます。
 
-* **[Adobe Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}** – 質問し、解決策を共有し、Campaign コミュニティとつながる
-* **[Experience League フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=ja){target="_blank"}** – すべてのAdobe製品のディスカッションを参照する
-* **[Campaign コミュニティオフィスアワー](https://experienceleague.adobe.com/ja){target="_blank"}** - Adobeのエキスパートとのライブセッションに参加
+* **[Adobe Campaign コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}** – 質問し、解決策を共有し、Campaign コミュニティとつながる
+* **[Experience League フォーラム ](https://experienceleaguecommunities.adobe.com/){target="_blank"}** – すべてのAdobe製品のディスカッションを参照する
+* **[Campaign コミュニティオフィスアワー](https://experienceleague.adobe.com/){target="_blank"}** - Adobeのエキスパートとのライブセッションに参加
 
 ### ドキュメントと学習
 
 包括的なガイド、チュートリアル、トレーニング資料にアクセスできます。
 
-* **[キャンペーンチュートリアル &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"}** - ステップバイステップのビデオガイドと実践的なチュートリアル
+* **[キャンペーンチュートリアル ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"}** - ステップバイステップのビデオガイドと実践的なチュートリアル
 * **[新機能](whats-new.md)** – 最新の機能と機能
 * **[リリースノート](release-notes.md)** – 現在および以前のリリース情報
 * **[バージョンとアップグレード](upgrades.md)** - Campaignのバージョン、アップグレード、バージョンの確認方法について説明します
@@ -1835,21 +1829,21 @@ Adobe CampaignのユーザーやAdobeのエキスパートと交流すること�
 Adobe サポートチームのサポートを受けて、インスタンスを管理します。
 
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - サポートケースのログ記録とユーザーの管理
-* **[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - サポート チームにお問い合わせください
+* **[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - サポート チームにお問い合わせください
 * **[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}** - Campaign インスタンスの設定を管理します
-* **[システムの状態](https://status.adobe.com/ja-jp/){target="_blank"}** - Adobe サービスの状態を確認
+* **[システムの状態](https://status.adobe.com/){target="_blank"}** - Adobe サービスの状態を確認
 
 ### トレーニングと認定制度
 
 Adobeの公式トレーニングや認定プログラムを利用して、スキルを向上させましょう。
 
-* **[Experience League ヘルプ &#x200B;](https://experienceleague.adobe.com/ja/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8 （Web UIおよびクライアントコンソール）のヘルプリソース
-* **[Adobe デジタルラーニングサービス &#x200B;](https://learning.adobe.com/){target="_blank"}** – 公式インストラクター主導の自習型コース
-* **[Adobe Campaign認定](https://experienceleague.adobe.com/docs/certification/program/overview.html?lang=ja){target="_blank"}** - プロフェッショナル認定で専門知識を検証する
-* **[Experience League ラーニングパス &#x200B;](https://experienceleague.adobe.com/ja?lang=ja#dashboard/learning){target="_blank"}** - ガイド付きラーニングジャーニー
+* **[Experience League ヘルプ ](https://experienceleague.adobe.com/en/browse/campaign/campaign-v8){target="_blank"}** - Campaign v8 （Web UIおよびクライアントコンソール）のヘルプリソース
+* **[Adobe デジタルラーニングサービス ](https://learning.adobe.com/){target="_blank"}** – 公式インストラクター主導の自習型コース
+* **[Adobe Campaign認定](https://experienceleague.adobe.com/docs/certification/program/overview.html){target="_blank"}** - プロフェッショナル認定で専門知識を検証する
+* **[Experience League ラーニングパス ](https://experienceleague.adobe.com/?lang=ja#dashboard/learning){target="_blank"}** - ガイド付きラーニングジャーニー
 
 ### その他の役立つリソース
 
-* **[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ja){target="_blank"}** - Classic v7 ユーザー向けリファレンス
-* **[Campaign Web UI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}** – 新しいweb インターフェイスガイド
-* **[配信品質のベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}** - メール配信の最適化
+* **[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=ja){target="_blank"}** - Classic v7 ユーザー向けリファレンス
+* **[Campaign Web UI ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}** – 新しいweb インターフェイスガイド
+* **[配信品質のベストプラクティス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}** - メール配信の最適化
