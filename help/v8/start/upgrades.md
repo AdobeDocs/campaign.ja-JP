@@ -6,10 +6,15 @@ role: User
 level: Beginner
 exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 TQID: https://experienceleague.adobe.com/EaoWEmt7vNplA6Cs6CdMvP-iwia6BkaDRjawsPoa6fs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 59a1ad4bbb194222f0c2b86117cc7dc6ecc3335d
 workflow-type: tm+mt
 source-wordcount: 1190
@@ -58,9 +63,9 @@ Campaign Managed Servicesをご利用のお客様は、新しいCampaign バー�
 * コンソールが更新されるまで、Campaign インスタンスに接続できなくなる場合があります。
 * サーバー自体が最新の状態であっても、サーバーが既に移動したバージョンに付属している修正とセキュリティアップデートの恩恵を受けるのはコンソールが停止します。
 
-これを回避するには、新しいバージョンの通知を受け取ったら、すぐにクライアントコンソールをアップグレードします。 クライアントコンソールを[ アップグレードする方法について説明します](../start/connect.md#upgrade-ac-console)。
+これを回避するには、新しいバージョンの通知を受け取ったら、すぐにクライアントコンソールをアップグレードします。 クライアントコンソールを[&#x200B; アップグレードする方法について説明します](../start/connect.md#upgrade-ac-console)。
 
-また、お客様は、[互換性マトリックス ](compatibility-matrix.md)に記載されている最新のサポートされているバージョンのシステムを使用していることを確認する必要があります。
+また、お客様は、[互換性マトリックス &#x200B;](compatibility-matrix.md)に記載されている最新のサポートされているバージョンのシステムを使用していることを確認する必要があります。
 
 ## よくある質問 {#upgrades-faq}
 
@@ -79,15 +84,15 @@ Campaign のバージョンを確認するには、クライアントコンソ�
 
 >[!NOTE]
 >
->クライアントコンソールに表示されるバージョンが、アプリケーションサーバーに表示されるバージョンと一致しない場合は、[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)の説明に従って、コンソールをアップグレードしてください。
+>クライアントコンソールに表示されるバージョンが、アプリケーションサーバーに表示されるバージョンと一致しない場合は、[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)の説明に従って、コンソールをアップグレードしてください。
 
 ### 新しいバージョンのリリースの通知の受信方法 {#upgrades-0}
 
-新しいバージョンと、セキュリティの修正を含む変更点は、[ リリースノート ](release-notes.md)に記載されています。 新しいバージョンが利用可能になると、Adobeの担当者から連絡が来て、サーバー環境をアップグレードします。個別にクライアントコンソールをアップグレードする必要があります（[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)を参照）。
+新しいバージョンと、セキュリティの修正を含む変更点は、[&#x200B; リリースノート &#x200B;](release-notes.md)に記載されています。 新しいバージョンが利用可能になると、Adobeの担当者から連絡が来て、サーバー環境をアップグレードします。個別にクライアントコンソールをアップグレードする必要があります（[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)を参照）。
 
-新しいExperience Cloud ソリューションのリリースとその内容について知るには、[Adobe優先製品アップデート ](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}のコミュニケーションを購読してください。
+新しいExperience Cloud ソリューションのリリースとその内容について知るには、[Adobe優先製品アップデート &#x200B;](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}のコミュニケーションを購読してください。
 
-また、[Campaign コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスして、リリースの更新について確認することもできます。
+また、[Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスして、リリースの更新について確認することもできます。
 
 ### 組織がアップグレードを必要とする理由 {#upgrades-1}
 
@@ -117,7 +122,7 @@ Adobeは、v8のお客様として、サーバーのアップグレードをエ�
 
 1. 新しいバージョンが利用可能な場合、またはアカウントが新しいバージョンに移行する必要があると判断された場合は、Adobeの担当者が通知します。
 1. Adobeは、サーバーインフラストラクチャをアップグレードします。この手順では、ユーザーの操作は必要ありません。
-1. お客様の側では、必要なアクションは、クライアントコンソールを一致するようにアップグレードすることだけです。また、[互換性マトリックス ](compatibility-matrix.md)のシステムが引き続きサポートされていることを確認してください。 「[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)」を参照してください。
+1. お客様の側では、必要なアクションは、クライアントコンソールを一致するようにアップグレードすることだけです。また、[互換性マトリックス &#x200B;](compatibility-matrix.md)のシステムが引き続きサポートされていることを確認してください。 「[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)」を参照してください。
 
 専任のカスタマーサポート担当者、プロダクトマネージャー、エンジニア、TechOps スペシャリスト、製品コンサルタントのチームが、エクスペリエンスの円滑な支援と提供を行います。
 
