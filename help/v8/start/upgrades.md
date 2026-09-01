@@ -92,7 +92,7 @@ Campaign のバージョンを確認するには、クライアントコンソ�
 
 新しいExperience Cloud ソリューションのリリースとその内容について知るには、[Adobe優先製品アップデート &#x200B;](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}のコミュニケーションを購読してください。
 
-また、[Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスして、リリースの更新について確認することもできます。
+また、[Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ja&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスして、リリースの更新について確認することもできます。
 
 ### 組織がアップグレードを必要とする理由 {#upgrades-1}
 
