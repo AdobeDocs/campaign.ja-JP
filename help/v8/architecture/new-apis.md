@@ -221,4 +221,4 @@ Campaign の購読管理については、[このページ](../start/subscriptio
 
 **関連トピック**
 
-* [Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [Campaign JSAPI](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}

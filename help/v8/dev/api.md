@@ -36,7 +36,7 @@ ht-degree: 78%
 >
 >デプロイメントモデルに応じて、Campaign v8でREST APIを使用することもできます。 [詳細情報](../dev/api/get-started-apis.md)。
 
-[Campaign JavaScript API](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}を使用して、Campaign クラウドデータベースに書き込んだり、データベースから読み取ったりできます。
+[Campaign JavaScript API](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}を使用して、Campaign クラウドデータベースに書き込んだり、データベースから読み取ったりできます。
 
 * 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
 * `queryDef`と`NLWS` オブジェクトを使用してデータモデルデータをクエリするための汎用データアクセス API。 詳しくは、[queryDef](query-api.md)を使用したデータベースのクエリを参照してください。
@@ -68,4 +68,4 @@ API を使用して [!DNL Adobe Campaign] とやり取りするには、デー�
 
 <!-- * [Query the database with queryDef](query-api.md)-->
 * [データモデルのベストプラクティス](datamodel-best-practices.md)
-* [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}
