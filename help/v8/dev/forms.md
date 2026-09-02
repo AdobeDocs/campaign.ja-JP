@@ -6,22 +6,15 @@ role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 TQID: https://experienceleague.adobe.com/UPy2HysYfwHyRO2ESg3o6Ig-Fv0dkxWV7o6Jhg--4ok
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 2593
-ht-degree: 95%
+source-wordcount: 2591
+ht-degree: 94%
 
 ---
 
@@ -39,7 +32,7 @@ ht-degree: 95%
 
 ![](assets/form_arbo.png)
 
-編集領域を使用して、入力フォームの XML コンテンツを入力できます。
+編集ゾーンを使用すると、入力フォームの XML コンテンツを入力できます。
 
 ![](assets/form_edit.png)
 
@@ -100,7 +93,7 @@ ht-degree: 95%
 
 デフォルトでは、各フィールドが 1 行に表示され、データのタイプに応じて、すべての空きスペースを占有します。
 
-すべてのフォーム属性の一覧について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=ja){target="_blank"}を参照してください。
+すべてのフォーム属性の一覧について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}を参照してください。
 
 ## フォーマット設定 {#formatting}
 
@@ -333,9 +326,9 @@ ht-degree: 95%
 * **noAutoComplete**：先行入力機能を無効にします（値が「true」の場合）。
 * **createMode**：リンクが存在しない場合、その場でリンクを作成します。 次のような値を選択できます。
 
-   * **none**：作成を無効にします。 リンクが存在しない場合、エラーメッセージが表示されます
-   * **inline**：編集フィールドにコンテンツを含むリンクを作成します
-   * **edition**：リンク上に編集フォームを表示します。 フォームを検証する際にデータが保存されます（デフォルトモード）。
+  * **none**：作成を無効にします。 リンクが存在しない場合、エラーメッセージが表示されます
+  * **inline**：編集フィールドにコンテンツを含むリンクを作成します
+  * **edition**：リンク上に編集フォームを表示します。 フォームを検証する際にデータが保存されます（デフォルトモード）。
 
 * **noZoom**：リンク上に編集フォームがない（値が「true」の場合）
 * **form**：ターゲット要素の編集フォームをオーバーロードします

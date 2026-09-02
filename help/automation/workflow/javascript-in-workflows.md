@@ -7,19 +7,14 @@ role: Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
 TQID: https://experienceleague.adobe.com/gdPa502-bqEhz1TwyQBQl7aLbCOvyD9wvjRMnXlHCqY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 1819
-ht-degree: 99%
+source-wordcount: 1784
+ht-degree: 95%
 
 ---
 
@@ -32,7 +27,7 @@ ht-degree: 99%
 * [静的 SOAP メソッドを使用したワークフローのトリガー](#trigger-example)
 * [非静的 SOAP メソッドを使用したデータベースとのインタラクション](#interact-example)
 
-静的および非静的 SOAP メソッドについての[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"}
+静的および非静的 SOAP メソッドについての[詳細情報](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
 
 これらの例では、ECMAScript for XML（E4X）拡張機能を使用しています。 この拡張機能を使用すると、JavaScript 呼び出しと XML プリミティブを同じスクリプトに組み合わせることができます。
 
@@ -110,7 +105,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### レコードの削除
 
-`DeleteCollection` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ja){target="_blank"}。
+`DeleteCollection` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}。
 
 次の情報を指定します。
 
@@ -284,7 +279,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。 `logInfo` 関数についての[詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}。
+ループにはローカルの受信者変数が含まれます。 受信者のコレクションに返された受信者ごとに、受信者の電子メールが印刷されます。 `logInfo` 関数についての[詳細情報](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}。
 
 #### `getIfExists` 操作の結果
 
@@ -370,21 +365,21 @@ for each (var rcp in res.recipient)
 
 ワークフロートリガーは、イベントを使用して機能します。 イベントには、次の機能を使用できます。
 
-* イベントを投稿するには、静的 `PostEvent` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja){target="_blank"}。
+* イベントを投稿するには、静的 `PostEvent` メソッドを使用します。 [詳細情報](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}。
 * イベントを受け取るには、**[!UICONTROL 外部シグナル]**&#x200B;アクティビティを使用します。 [詳細情報](external-signal.md)。
 
 ワークフローは様々な方法でトリガーできます。
 
 * ワークフローをインラインで、つまり **[!UICONTROL JavaScript コード]**&#x200B;アクティビティのメインスクリプトからトリガーできます。
 * 別のワークフローの完了時にワークフローをトリガーできます。
-   * 最初のワークフローの「**[!UICONTROL 終了]**」アクティビティに初期化スクリプトを追加します。
-   * ターゲットワークフローの開始時に「**[!UICONTROL 外部シグナル]**」アクティビティを追加します。
+  * 最初のワークフローの「**[!UICONTROL 終了]**」アクティビティに初期化スクリプトを追加します。
+  * ターゲットワークフローの開始時に「**[!UICONTROL 外部シグナル]**」アクティビティを追加します。
 
-     最初のワークフローが完了すると、イベントが投稿されます。 送信トランジションが有効化され、イベント変数が入力されます。 次に、ターゲットワークフローがイベントを受け取ります。
+    最初のワークフローが完了すると、イベントが投稿されます。 送信トランジションが有効化され、イベント変数が入力されます。 次に、ターゲットワークフローがイベントを受け取ります。
 
-     >[!TIP]
-     >
-     >ベストプラクティスとして、スクリプトをアクティビティに追加するときは、アクティビティ名を二重ハイフンで囲みます（例：`-- end --`）。 ワークフローのベストプラクティスについての[詳細情報](workflow-best-practices.md)
+    >[!TIP]
+    >
+    >ベストプラクティスとして、スクリプトをアクティビティに追加するときは、アクティビティ名を二重ハイフンで囲みます（例：`-- end --`）。 ワークフローのベストプラクティスについての[詳細情報](workflow-best-practices.md)
 
 `PostEvent` メソッドの構文：
 
@@ -437,10 +432,10 @@ xtk.workflow.PostEvent(
 
 1. クエリを定義します。
 
-   * 対応するスキーマ（例えば `xtk:workflow` スキーマ）で `create` メソッドを使用してエンティティを取得します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja){target="_blank"}。
+   * 対応するスキーマ（例えば `xtk:workflow` スキーマ）で `create` メソッドを使用してエンティティを取得します。 [詳細情報](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}。
    * `queryDef` メソッドを使用して SQL クエリを発行します。
 
-1. `ExecuteQuery` メソッドを使用してクエリを実行します。 [詳細情報](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"}。
+1. `ExecuteQuery` メソッドを使用してクエリを実行します。 [詳細情報](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}。
 
    `for each` ループを使用して結果を取得します。
 
@@ -622,11 +617,11 @@ xtk.session.Write(
 
 ### API ドキュメント
 
-* [SOAP呼び出しのサンプル](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=ja){target="_blank"}
+* [SOAP 呼び出しのサンプル](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
 * メソッド：
-   * [作成](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=ja){target="_blank"}
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=ja){target="_blank"}
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=ja){target="_blank"}
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja){target="_blank"}
-   * [書き込み](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=ja){target="_blank"}
-* [logInfo関数](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=ja){target="_blank"}
+  * [作成](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [DeleteCollection](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [ExecuteQuery](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [PostEvent](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [書き込み](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [logInfo 関数](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}

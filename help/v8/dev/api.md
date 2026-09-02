@@ -6,22 +6,16 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
 TQID: https://experienceleague.adobe.com/pC27h6Z-J345l4XjFEOgwVTHtQSSRxJmtnWQ973SiPk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 82%
+source-wordcount: 314
+ht-degree: 78%
 
 ---
 
@@ -36,7 +30,7 @@ ht-degree: 82%
 >
 >デプロイメントモデルに応じて、Campaign v8でREST APIを使用することもできます。 [詳細情報](../dev/api/get-started-apis.md)。
 
-[Campaign JavaScript API](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}を使用して、Campaign クラウドデータベースに書き込んだり、データベースから読み取ったりできます。
+[Campaign JavaScript API](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}を使用して、Campaign クラウドデータベースに書き込んだり、データベースから読み取ったりできます。
 
 * 各オブジェクト（配信、ワークフロー、サブスクリプションなど）を操作できるビジネス固有の API。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=ja){target="_blank"}を参照してください。
 * `queryDef`と`NLWS` オブジェクトを使用してデータモデルデータをクエリするための汎用データアクセス API。 詳しくは、[queryDef](query-api.md)を使用したデータベースのクエリを参照してください。
@@ -68,4 +62,4 @@ API を使用して [!DNL Adobe Campaign] とやり取りするには、デー�
 
 <!-- * [Query the database with queryDef](query-api.md)-->
 * [データモデルのベストプラクティス](datamodel-best-practices.md)
-* [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=ja){target="_blank"}
+* [Campaign JSAPI ドキュメント](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
