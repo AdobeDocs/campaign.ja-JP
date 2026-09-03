@@ -74,7 +74,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 メッセージコンテンツで使用されるドメインがインスタンスの承認済み許可リストに追加されていることを確認し、リソースの読み込みが中断されることなく続行されるようにします。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+>リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 メッセージコンテンツで使用されるドメインがインスタンスの承認済み許可リストに追加されていることを確認し、リソースの読み込みが中断されることなく続行されるようにします。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 メッセージの内容は、配信設定ウィンドウの下部のセクションで定義します。
 

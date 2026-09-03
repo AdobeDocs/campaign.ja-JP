@@ -49,7 +49,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 >[!IMPORTANT]
 >
->リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 リソースの読み込みを中断することなく続行できるように、添付ファイル内の外部画像に使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+>リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 リソースの読み込みを中断することなく続行できるように、添付ファイル内の外部画像に使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 外部画像の挿入は、例えば、画像付きドキュメントの URL が受信者のフィールドに入力されており、そのドキュメントをパーソナライズしたい場合に便利です。
 
