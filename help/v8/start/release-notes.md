@@ -4,18 +4,12 @@ description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 TQID: https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7e14d410aba444e792a24c99a843f122a8fcedc6
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 2007
+source-wordcount: 2107
 ht-degree: 6%
 
 ---
@@ -26,7 +20,7 @@ ht-degree: 6%
 
 ## リリース 8.9.3 {#release-8-9-3}
 
-_2026年8月11日_
+_2026年8月11日（PT）_
 
 <!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
@@ -34,13 +28,19 @@ _2026年8月11日_
 
 このリリースには、Campaign環境の全体的なセキュリティ対策を強化するセキュリティ修正が含まれています。 ホステッド版のお客様は、アップグレードの一環としてAdobeによってこれらの修正が適用されますが、お客様の側で操作は必要ありません。
 
+### 外部URL 許可リストの更新 {#url-allow-list-update-8-9-3}
+
+このリリースには、配信コンテンツと添付ファイルに使用される外部URL 許可リストのアップデートが含まれています。 現在参照しているすべてのドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。
+
+Campaign管理者は、Campaign コントロールパネルを使用して、現在の配信で使用されている外部URLを許可リストに追加し、今後の新しい外部URLについても同じプロセスを実行します。 影響を受ける配信への影響を回避するために、2026年9月5日までにこのアクティビティを完了してください。 手順については、[URL権限の追加](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+
 ### Adobe Analytics コネクタがAnalytics 2.0 APIにアップグレードされました {#analytics-2-0-8-9-3}
 
-Adobe Analytics 1.4 APIは[提供終了に達しています](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}。そのため、[Web Analytics コネクタ &#x200B;](../connect/ac-aa.md)は、このリリースの一部としてAnalytics 2.0 APIにアップグレードされました。 Adobeでは、ホスト型のお客様がこの移行を管理します。お客様の側で設定は必要ありません。
+Adobe Analytics 1.4 APIは[提供終了に達しています](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}。そのため、[Web Analytics コネクタ ](../connect/ac-aa.md)は、このリリースの一部としてAnalytics 2.0 APIにアップグレードされました。 Adobeでは、ホスト型のお客様がこの移行を管理します。お客様の側で設定は必要ありません。
 
 +++ Analytics 2.0のアップグレードについて詳しく見る
 
-[Web Analytics コネクタ &#x200B;](../connect/ac-aa.md)は、キャンペーン指標と分類データをAdobe Analyticsに送信し、リマーケティングフローをサポートし、新しいレポートスイートの設定に使用されます。 アップグレードでは、コネクター（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;および&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）の機能を強化する組み込みのテクニカルワークフローが再インポートされ、組み込みのAnalytics JavaScript ファイルが更新されます。そのため、これらのワークフローのいずれかをカスタマイズするか、これらのファイルを参照するカスタムワークフローを構築した場合は、そのカスタマイズが上書きされたり壊れたりするため、アップグレード後に適用されます。 ベストプラクティスとして、組み込みのワークフローを直接変更することは避けてください。代わりに別のカスタムワークフローでカスタマイズを構築して、今後のアップグレードで上書きしないようにします。 アップグレードが完了したら、利用しているAdobe Analyticsのユースケース（指標の書き出し、分類の書き出し、リマーケティングが可能な場合）を検証し、データが期待どおりに流れることを確認します。
+[Web Analytics コネクタ ](../connect/ac-aa.md)は、キャンペーン指標と分類データをAdobe Analyticsに送信し、リマーケティングフローをサポートし、新しいレポートスイートの設定に使用されます。 アップグレードでは、コネクター（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;および&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）の機能を強化する組み込みのテクニカルワークフローが再インポートされ、組み込みのAnalytics JavaScript ファイルが更新されます。そのため、これらのワークフローのいずれかをカスタマイズするか、これらのファイルを参照するカスタムワークフローを構築した場合は、そのカスタマイズが上書きされたり壊れたりするため、アップグレード後に適用されます。 ベストプラクティスとして、組み込みのワークフローを直接変更することは避けてください。代わりに別のカスタムワークフローでカスタマイズを構築して、今後のアップグレードで上書きしないようにします。 アップグレードが完了したら、利用しているAdobe Analyticsのユースケース（指標の書き出し、分類の書き出し、リマーケティングが可能な場合）を検証し、データが期待どおりに流れることを確認します。
 
 +++
 
@@ -60,7 +60,7 @@ _2026年5月3日_
 
 >[!NOTE]
 >
-> 以下に示す修正は、連続する8.9.2 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/バージョン情報]** [&#x200B; メニュー](upgrades.md#version)に移動して、最新の8.9.2 （11d1c68）ビルドがインストールされていることを確認します。 詳細については、アドビ担当者にお問い合わせください。
+> 以下に示す修正は、連続する8.9.2 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/バージョン情報]** [ メニュー](upgrades.md#version)に移動して、最新の8.9.2 （11d1c68）ビルドがインストールされていることを確認します。 詳細については、アドビ担当者にお問い合わせください。
 
 * データタイプの変換の問題により、トランザクションイベントのイベント日付が誤って設定され、動的レポートで日付が正しく設定されない問題を修正しました。 （NEO-93923）
 * タイトルと本文のフィールドが空の場合、配信準備中にAndroidとiOSのサイレントプッシュ通知が失敗する問題を修正しました。 （NEO-93739）
@@ -113,21 +113,21 @@ _2026年1月27日（PT）_
 
 このリリースには、Campaign Web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
-* [多言語配信機能（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
-* [トランザクションメッセージのプロファイル強化（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
-* [Adobe Experience Managerのライブコピーと言語コピー](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ja){target="_blank"}
-* [コンテンツ実験 - A/B テスト](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ja){target="_blank"}
-* [連続配信アクティビティ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ja){target="_blank"}
-* [キャンペーン承認管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ja){target="_blank"}
+* [多言語配信機能（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [トランザクションメッセージのプロファイル強化（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Managerのライブコピーと言語コピー](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [コンテンツ実験 - A/B テスト](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [連続配信アクティビティ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [キャンペーン承認管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
+Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### その他の変更 {#changes-8-9-1}
 
 * インテリジェントなワークフロー再起動機能と重要ではないプロセス用のメモリガードレールにより、高いメモリ環境下での自動ワークフロースロットリングを実装することで、コンテナメモリ管理を改善しました。 （NEO-89041）
 * Campaign ワークフローでの非対称暗号化および復号化機能のサポートを追加しました。 （NEO-80257）
 * FFDA デプロイメントでの大規模なデータアップロードに対するレプリケーションエージェントのパフォーマンスとメモリの回復力の強化。 （NEO-88430）
-* **[!UICONTROL SQL コード]**&#x200B;と&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLが実行される際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 詳細とベストプラクティスについては、[SQL データ管理](../../automation/workflow/sql-data-management.md#important-notes)および[SQL コード &#x200B;](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。 （NEO-86540）
+* **[!UICONTROL SQL コード]**&#x200B;と&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLが実行される際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 詳細とベストプラクティスについては、[SQL データ管理](../../automation/workflow/sql-data-management.md#important-notes)および[SQL コード ](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。 （NEO-86540）
 
 ### 修正点 {#fixes-8-9-1}
 

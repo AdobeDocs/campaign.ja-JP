@@ -7,18 +7,14 @@ level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 TQID: https://experienceleague.adobe.com/741rGWSBuFksbOfXbuszEXq56DOI-Pfg8tEiHQLhQf8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 97%
+source-wordcount: 722
+ht-degree: 88%
 
 ---
 
@@ -64,6 +60,10 @@ ht-degree: 97%
 
 ## カスタムパーソナライゼーションブロックの作成 {#create-custom-personalization-blocks}
 
+>[!IMPORTANT]
+>
+>リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 カスタムパーソナライゼーションブロックが外部URL （外部ホスト画像など）を参照する場合は、リソースが中断なく引き続き読み込まれるように、インスタンスの承認済み許可リストにドメインが追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+
 パーソナライゼーションアイコンから挿入する、新しくパーソナライズされたコンテンツブロックを定義できます。
 
 パーソナライゼーションブロックを作成するには、次の手順に従います。
@@ -81,7 +81,7 @@ ht-degree: 97%
    * **配信**&#x200B;コンテンツタイプを選択します。
    * パーソナライゼーションフィールドの挿入アイコンからこのブロックにアクセスできるよう、「**[!UICONTROL カスタマイズメニューに表示]**」オプションを有効にします。
    * 必要に応じて、「**[!UICONTROL パーソナライゼーションブロックの内容を、フォーマット（HTML またはテキスト）ごとに変更]**」オプションを有効にして、HTML メールとテキストメールの 2 つの異なるブロックを定義します。
-   * コンテンツを入力します（HTML、テキスト、JavaScriptなど）。 **[!UICONTROL 保存]**&#x200B;をクリックします。
+   * パーソナライゼーションブロックのコンテンツ（HTML、テキスト、JavaScript など）を入力し、 **[!UICONTROL 保存]**&#x200B;をクリックします。
 
 保存すると、新しいパーソナライゼーションブロックが配信エディターで使用できるようになります。
 
@@ -89,4 +89,4 @@ ht-degree: 97%
 
 次のビデオでは、動的コンテンツブロックを作成する方法と、動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449007?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
