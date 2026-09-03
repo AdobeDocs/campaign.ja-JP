@@ -13,9 +13,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7e14d410aba444e792a24c99a843f122a8fcedc6
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 2007
+source-wordcount: 2107
 ht-degree: 6%
 
 ---
@@ -26,13 +26,19 @@ ht-degree: 6%
 
 ## リリース 8.9.3 {#release-8-9-3}
 
-_2026年8月11日_
+_2026年8月11日（PT）_
 
 <!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
 ### セキュリティの強化 {#security-8-9-3}
 
 このリリースには、Campaign環境の全体的なセキュリティ対策を強化するセキュリティ修正が含まれています。 ホステッド版のお客様は、アップグレードの一環としてAdobeによってこれらの修正が適用されますが、お客様の側で操作は必要ありません。
+
+### 外部URL 許可リストの更新 {#url-allow-list-update-8-9-3}
+
+このリリースには、配信コンテンツと添付ファイルに使用される外部URL 許可リストのアップデートが含まれています。 現在参照しているすべてのドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。
+
+Campaign管理者は、Campaign コントロールパネルを使用して、現在の配信で使用されている外部URLを許可リストに追加し、今後の新しい外部URLについても同じプロセスを実行します。 影響を受ける配信への影響を回避するために、2026年9月5日までにこのアクティビティを完了してください。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 ### Adobe Analytics コネクタがAnalytics 2.0 APIにアップグレードされました {#analytics-2-0-8-9-3}
 
