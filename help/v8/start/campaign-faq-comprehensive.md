@@ -7,9 +7,9 @@ level: Beginner
 keywords: FAQ、Campaign v8、質問、回答、ヘルプ、サポート、トラブルシューティング
 version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
-source-git-commit: d25c5a40af9ac0594301f46f09a4cc07a8e1945e
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: '11657'
+source-wordcount: '11655'
 ht-degree: 17%
 
 ---
@@ -1651,7 +1651,7 @@ Campaign v8には、SOAP API （クライアントコンソール操作）、RES
 
 **一般的な用途：** CRM/ERPとの統合、キャンペーンの自動化、データの同期、監視ソリューションの構築、外部インターフェイスの作成。
 
-**アクセス：** [Campaign v8 API ドキュメント &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}
+**アクセス：** [Campaign v8 API ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}
 
 +++
 
@@ -1820,7 +1820,7 @@ Adobe CampaignのユーザーやAdobeのエキスパートと交流すること�
 
 詳細な技術ドキュメントと開発者リソースをご覧ください。
 
-* **[Campaign API](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=ja){target="_blank"}** - API参照に関する完全なドキュメント
+* **[Campaign API](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}** - API参照に関する完全なドキュメント
 * **[互換性マトリックス](compatibility-matrix.md)** - サポートされているシステムとバージョン
 * **[バージョンとアップグレードに関するFAQ](upgrades.md)** - バージョンを確認し、アップグレードについて確認します
 
