@@ -65,9 +65,9 @@ Campaign Managed Servicesをご利用のお客様は、新しいCampaign バー�
 * コンソールが更新されるまで、Campaign インスタンスに接続できなくなる場合があります。
 * サーバー自体が最新の状態であっても、サーバーが既に移動したバージョンに付属している修正とセキュリティアップデートの恩恵を受けるのはコンソールが停止します。
 
-これを回避するには、新しいバージョンの通知を受け取ったら、すぐにクライアントコンソールをアップグレードします。 クライアントコンソールを[ アップグレードする方法について説明します](../start/connect.md#upgrade-ac-console)。
+これを回避するには、新しいバージョンの通知を受け取ったら、すぐにクライアントコンソールをアップグレードします。 クライアントコンソールを[&#x200B; アップグレードする方法について説明します](../start/connect.md#upgrade-ac-console)。
 
-また、お客様は、[互換性マトリックス ](compatibility-matrix.md)に記載されている最新のサポートされているバージョンのシステムを使用していることを確認する必要があります。
+また、お客様は、[互換性マトリックス &#x200B;](compatibility-matrix.md)に記載されている最新のサポートされているバージョンのシステムを使用していることを確認する必要があります。
 
 ### Campaign のバージョンの確認 {#version}
 
@@ -84,13 +84,13 @@ Campaign のバージョンを確認するには、クライアントコンソ�
 
 >[!NOTE]
 >
->クライアントコンソールに表示されるバージョンが、アプリケーションサーバーに表示されるバージョンと一致しない場合は、[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)の説明に従って、コンソールをアップグレードしてください。
+>クライアントコンソールに表示されるバージョンが、アプリケーションサーバーに表示されるバージョンと一致しない場合は、[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)の説明に従って、コンソールをアップグレードしてください。
 
 ### 製品リリースのお知らせ {#upgrades-0}
 
-新しいバージョンとその変更は、[ リリースノート ](release-notes.md)に記載されています。
+新しいバージョンとその変更は、[&#x200B; リリースノート &#x200B;](release-notes.md)に記載されています。
 
-製品リリースのアップデートについては、[Adobe優先製品アップデート ](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}に登録するか、[Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスしてください。
+製品リリースのアップデートについては、[Adobe優先製品アップデート &#x200B;](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}に登録するか、[Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスしてください。
 
 セキュリティ通知およびセキュリティ更新の準備に関するガイダンスについては、[情報を提供し続ける](#security-staying-informed)を参照してください。
 
@@ -122,7 +122,7 @@ Adobeは、v8のお客様として、サーバーのアップグレードをエ�
 
 1. 新しいバージョンが利用可能な場合、またはアカウントが新しいバージョンに移行する必要があると判断された場合は、Adobeの担当者が通知します。
 1. Adobeは、サーバーインフラストラクチャをアップグレードします。この手順では、ユーザーの操作は必要ありません。
-1. お客様の側では、必要なアクションは、クライアントコンソールを一致するようにアップグレードすることだけです。また、[互換性マトリックス ](compatibility-matrix.md)のシステムが引き続きサポートされていることを確認してください。 「[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)」を参照してください。
+1. お客様の側では、必要なアクションは、クライアントコンソールを一致するようにアップグレードすることだけです。また、[互換性マトリックス &#x200B;](compatibility-matrix.md)のシステムが引き続きサポートされていることを確認してください。 「[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)」を参照してください。
 
 専任のカスタマーサポート担当者、プロダクトマネージャー、エンジニア、TechOps スペシャリスト、製品コンサルタントのチームが、エクスペリエンスの円滑な支援と提供を行います。
 
