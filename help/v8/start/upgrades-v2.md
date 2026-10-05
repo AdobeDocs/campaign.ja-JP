@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 829f03234f4899643a7af4c8f21707f4dc7c5389
+source-git-commit: 8e5d8570e198b0e6db350ba82e521bee8a2f6d9e
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 20%
@@ -65,9 +65,9 @@ Campaign Managed Servicesをご利用のお客様は、新しいCampaign バー�
 * コンソールが更新されるまで、Campaign インスタンスに接続できなくなる場合があります。
 * サーバー自体が最新の状態であっても、サーバーが既に移動したバージョンに付属している修正とセキュリティアップデートの恩恵を受けるのはコンソールが停止します。
 
-これを回避するには、新しいバージョンの通知を受け取ったら、すぐにクライアントコンソールをアップグレードします。 クライアントコンソールを[&#x200B; アップグレードする方法について説明します](../start/connect.md#upgrade-ac-console)。
+これを回避するには、新しいバージョンの通知を受け取ったら、すぐにクライアントコンソールをアップグレードします。 クライアントコンソールを[ アップグレードする方法について説明します](../start/connect.md#upgrade-ac-console)。
 
-また、お客様は、[互換性マトリックス &#x200B;](compatibility-matrix.md)に記載されている最新のサポートされているバージョンのシステムを使用していることを確認する必要があります。
+また、お客様は、[互換性マトリックス ](compatibility-matrix.md)に記載されている最新のサポートされているバージョンのシステムを使用していることを確認する必要があります。
 
 ## Adobe Campaignのお客様をより迅速に保護：Adobeがセキュリティに対応する方法 {#campaign-security}
 
@@ -75,7 +75,7 @@ Campaign Managed Servicesをご利用のお客様は、新しいCampaign バー�
 
 [お客様の迅速な保護：AdobeがAIによって加速された脆弱性の発見にどのように対応しているか](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery)で説明したように、Adobeのセキュリティチームは、AI支援ツールを使用して脆弱性をより迅速に特定し、対処します。 このアプローチをAdobe Campaignを含めたアドビ製品にも適用しています。
 
-この記事では、セキュリティの問題を評価して優先順位を付ける方法、修正をデプロイする方法、およびそれがユーザーにとって何を意味するのかを説明します。
+このページでは、セキュリティ問題の評価と優先順位付け、修正点のデプロイ方法、およびそれがユーザーにとって何を意味するのかを説明します。
 
 ### セキュリティ問題の評価と優先順位付け {#assess-security-issues}
 
@@ -91,8 +91,8 @@ Campaign Managed Servicesをご利用のお客様は、新しいCampaign バー�
 
 更新の範囲に応じて、次の2つのデプロイメント方法のいずれかを使用します。
 
-- セキュリティスタックのメンテナンス：ビルド番号を変更したり、製品機能に意図した変更を加えたりしない、ターゲットを絞ったアップデート。 通常、標準設定を使用しているお客様は、アクションを実行する必要はありません。
-- セキュリティを重視したビルドアップグレード：ビルド番号を変更し、Adobeの標準の通知、リリースノート、ロールアウトプロセスに従うアップデートです。
+* **セキュリティスタックのメンテナンス**：ビルド番号を変更したり、製品機能に意図した変更を加えたりしない、ターゲットを絞った更新。 通常、標準設定を使用しているお客様は、アクションを実行する必要はありません。
+* **セキュリティを重視したビルドのアップグレード**：ビルド番号を変更し、Adobeの標準の通知、リリースノート、ロールアウトプロセスに従うアップデート。
 
 標準のすぐに使用できる設定では、統合や実行中のキャンペーンが以前と同じように動作し続けます。
 
@@ -127,15 +127,15 @@ Campaign のバージョンを確認するには、クライアントコンソ�
 
 >[!NOTE]
 >
->クライアントコンソールに表示されるバージョンが、アプリケーションサーバーに表示されるバージョンと一致しない場合は、[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)の説明に従って、コンソールをアップグレードしてください。
+>クライアントコンソールに表示されるバージョンが、アプリケーションサーバーに表示されるバージョンと一致しない場合は、[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)の説明に従って、コンソールをアップグレードしてください。
 
 ### 新しいバージョンのリリースの通知の受信方法 {#upgrades-0}
 
-新しいバージョンと、セキュリティの修正を含む変更点は、[&#x200B; リリースノート &#x200B;](release-notes.md)に記載されています。 新しいバージョンが利用可能になると、Adobeの担当者から連絡が来て、サーバー環境をアップグレードします。個別にクライアントコンソールをアップグレードする必要があります（[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)を参照）。
+新しいバージョンと、セキュリティの修正を含む変更点は、[ リリースノート ](release-notes.md)に記載されています。 新しいバージョンが利用可能になると、Adobeの担当者から連絡が来て、サーバー環境をアップグレードします。個別にクライアントコンソールをアップグレードする必要があります（[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)を参照）。
 
-新しいExperience Cloud ソリューションのリリースとその内容について知るには、[Adobe優先製品アップデート &#x200B;](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}のコミュニケーションを購読してください。
+新しいExperience Cloud ソリューションのリリースとその内容について知るには、[Adobe優先製品アップデート ](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}のコミュニケーションを購読してください。
 
-また、[Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ja&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスして、リリースの更新について確認することもできます。
+また、[Campaign コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスして、リリースの更新について確認することもできます。
 
 ### 組織がアップグレードを必要とする理由 {#upgrades-1}
 
@@ -165,7 +165,7 @@ Adobeは、v8のお客様として、サーバーのアップグレードをエ�
 
 1. 新しいバージョンが利用可能な場合、またはアカウントが新しいバージョンに移行する必要があると判断された場合は、Adobeの担当者が通知します。
 1. Adobeは、サーバーインフラストラクチャをアップグレードします。この手順では、ユーザーの操作は必要ありません。
-1. お客様の側では、必要なアクションは、クライアントコンソールを一致するようにアップグレードすることだけです。また、[互換性マトリックス &#x200B;](compatibility-matrix.md)のシステムが引き続きサポートされていることを確認してください。 「[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)」を参照してください。
+1. お客様の側では、必要なアクションは、クライアントコンソールを一致するようにアップグレードすることだけです。また、[互換性マトリックス ](compatibility-matrix.md)のシステムが引き続きサポートされていることを確認してください。 「[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)」を参照してください。
 
 専任のカスタマーサポート担当者、プロダクトマネージャー、エンジニア、TechOps スペシャリスト、製品コンサルタントのチームが、エクスペリエンスの円滑な支援と提供を行います。
 
