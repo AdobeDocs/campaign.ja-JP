@@ -87,7 +87,7 @@ Adobe Campaign のビルトインの受信者テーブル（nmsrecipient）は�
 
 既存のスキーマを拡張する方法について詳しくは、[この節](extend-schema.md)を参照してください。
 
-組み込みの受信者テーブル拡張機能の例については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}を参照してください
+組み込みの受信者テーブル拡張機能の例については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}を参照してください
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。 この方法には制限があり、[この節](custom-recipient.md)で説明します。
 

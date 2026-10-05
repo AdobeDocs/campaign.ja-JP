@@ -65,7 +65,7 @@ Adobe Campaign はデータスキーマを利用して次のことを行いま�
 
 * インターフェースで&#x200B;**新しいフィールド**&#x200B;アシスタントを使用する
 
-  Campaignで新しいフィールドをすばやく追加する方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic){target="_blank"}を参照してください
+  Campaignで新しいフィールドをすばやく追加する方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic){target="_blank"}を参照してください
 
 * スキーマを拡張することにより、プログラミングで行います。 既存のスキーマを拡張する方法については、[この節](../dev/extend-schema.md)を参照してください。
 
@@ -75,9 +75,9 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 **関連トピック**
 
-[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic){target="_blank"}のスキーマ編集の例
+[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic){target="_blank"}のスキーマ編集の例
 
-ユースケース：[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target="_blank"}の既存の参照テーブルにフィールドをリンクする
+ユースケース：[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target="_blank"}の既存の参照テーブルにフィールドをリンクする
 
 
 ## 入力フォームの変更
@@ -92,7 +92,7 @@ Adobe Campaign インターフェイスでは、多数のWeb アプリケーシ�
 
 ビルトインの web アプリケーションは、エクスプローラーの&#x200B;**管理／設定／Web アプリケーション**&#x200B;フォルダーに格納されています。
 
-Campaignで概要ページを作成する方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=ja#creating-a-single-page-web-application){target="_blank"}を参照してください
+Campaignで概要ページを作成する方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=ja#creating-a-single-page-web-application){target="_blank"}を参照してください
 
 
 ## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}

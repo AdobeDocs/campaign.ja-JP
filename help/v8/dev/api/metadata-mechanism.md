@@ -47,9 +47,9 @@ GET リクエストで&#x200B;**resourceType**&#x200B;を使用して、リソ�
   * &quot;resType&quot;：これはテクニカルタイプです。
 
     値「link」または「collection」で「type」が完了した場合、resTarget値はリンクの対象となるリソースの名前です。
-    値「列挙」で「type」が完了すると、「values」フィールドが追加され、各列挙値が**values** ノードに詳細に表示されます。
+    値「列挙」で「type」が完了すると、「values」フィールドが追加され、各列挙値が&#x200B;**values** ノードに詳細に表示されます。
 
-* **Filters** ノードは、関連付けられたフィルターを取得するためのURLを返します。 フィルターについて詳しくは、[このセクション ](sorting.md#filtering)の節を参照してください。
+* **Filters** ノードは、関連付けられたフィルターを取得するためのURLを返します。 フィルターについて詳しくは、[このセクション &#x200B;](sorting.md#filtering)の節を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!--

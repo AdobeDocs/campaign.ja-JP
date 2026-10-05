@@ -22,7 +22,7 @@ ht-degree: 97%
 ---
 # Adobe Developer Console への Campaign テクニカルオペレーターの移行 {#migrate-tech-users-to-ims}
 
-セキュリティと認証プロセスを強化する取り組みの一環として、Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されています。 テクニカルオペレーターは、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用してCampaignに接続できるようになりました。 新しいサーバー間の認証プロセスについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
+セキュリティと認証プロセスを強化する取り組みの一環として、Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されています。 テクニカルオペレーターは、[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用してCampaignに接続できるようになりました。 新しいサーバー間の認証プロセスについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
 
 テクニカルオペレーターは、API 統合用に明示的に作成された Campaign ユーザープロファイルです。 この記事では、Adobe Developer Console からテクニカルオペレーターをテクニカルアカウントに移行するために必要な手順について詳しく説明します。
 
@@ -159,7 +159,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 新しく作成したテクニカルアカウントを使用するには、Adobe Campaign を呼び出すすべての API 統合を更新する必要があります。
 
-スムーズな統合のためのサンプルコードなど、API統合手順の詳細については、[Adobe Developer Console認証ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
+スムーズな統合のためのサンプルコードなど、API統合手順の詳細については、[Adobe Developer Console認証ドキュメント &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
 
 サードパーティシステムの移行前と移行後のサンプル SOAP 呼び出しを以下に示します。
 

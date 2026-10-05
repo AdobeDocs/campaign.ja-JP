@@ -50,13 +50,13 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->このドキュメントでは、データベースをプログラムでクエリするためのデータ指向APIについて説明します。 REST APIについては、[REST APIの基本を学ぶ](api/get-started-apis.md)を参照してください。 視覚的なクエリの作成については、[ クエリエディターの操作](../start/query-editor.md)を参照してください。
+>このドキュメントでは、データベースをプログラムでクエリするためのデータ指向APIについて説明します。 REST APIについては、[REST APIの基本を学ぶ](api/get-started-apis.md)を参照してください。 視覚的なクエリの作成については、[&#x200B; クエリエディターの操作](../start/query-editor.md)を参照してください。
 
 ## NLWSとは？ {#what-is-nlws}
 
 `NLWS` （Neolane Web Services）は、[!DNL Adobe Campaign]のSOAP ベースのAPI メソッドにアクセスするために使用されるグローバル JavaScript オブジェクトです。 スキーマは`NLWS` オブジェクトのプロパティで、プログラムでCampaign エンティティと対話できます。
 
-[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}によると、「スキーマは&#39;NLWS&#39; グローバル オブジェクトです。」 スキーマメソッドにアクセスするための構文は、次のパターンに従います。
+[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}によると、「スキーマは&#39;NLWS&#39; グローバル オブジェクトです。」 スキーマメソッドにアクセスするための構文は、次のパターンに従います。
 
 ```javascript
 NLWS.<namespace><SchemaName>.<method>()
@@ -115,7 +115,7 @@ Campaign インターフェイスでスキーマの説明にアクセスする�
 
 ### 非静的メソッド {#non-static-methods}
 
-静的でないSOAP メソッドを使用するには、まず、対応するスキーマの`load`または`create` メソッドを使用してエンティティを取得する必要があります。 詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}を参照してください。
+静的でないSOAP メソッドを使用するには、まず、対応するスキーマの`load`または`create` メソッドを使用してエンティティを取得する必要があります。 詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}を参照してください。
 
 ### エンティティの読み込み、保存、作成 {#load-save-create}
 
@@ -168,7 +168,7 @@ recipient.save();
 * `getIfExists` – 単一のレコードを取得します。見つからない場合はnullを返します
 * `count` – 条件に一致するレコードをカウント
 
-queryDef メソッドについて詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}を参照してください。
+queryDef メソッドについて詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}を参照してください。
 
 ## JSONを使用したクエリ {#query-json}
 
@@ -295,7 +295,7 @@ for each(var delivery in deliveries.delivery) {
 >* `lineCount`を使用して、結果の最大数を明示的に設定します
 >* 大規模なデータセット（1,000 レコード以上）の場合は、queryDefの代わりにワークフローを使用します。 ワークフローは、数百万行のデータを効率的に処理するように設計されています。
 
-[ExecuteQuery](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}と[ クエリのベストプラクティス ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}の詳細をご覧ください。
+[ExecuteQuery](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}と[&#x200B; クエリのベストプラクティス &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}の詳細をご覧ください。
 
 ## ワークフロー移行データのクエリ {#workflow-transition-data}
 
@@ -340,7 +340,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->SQL インジェクションの脆弱性を防ぐため、文字列には`$(sz)`、整数には`$(l)`を含むパラメーター化されたクエリを常に使用してください。 詳しくは、[Campaign JSAPI ドキュメント ](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}を参照してください。
+>SQL インジェクションの脆弱性を防ぐため、文字列には`$(sz)`、整数には`$(l)`を含むパラメーター化されたクエリを常に使用してください。 詳しくは、[Campaign JSAPI ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}を参照してください。
 
 ## レコードのカウント {#count-records}
 
@@ -468,7 +468,7 @@ logInfo("Name: " + mapping.$exclusionTypeName);
 logInfo("Label: " + mapping.$exclusionTypeLabel);
 ```
 
-[分析オプション ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"}について詳しく説明します。
+[分析オプション &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#the-analyze-option){target="_blank"}について詳しく説明します。
 
 ## ページネーション {#pagination}
 
@@ -503,7 +503,7 @@ var recipients = query.ExecuteQuery();
 >
 >**ページネーションにはorderBy:**&#x200B;が必要です`orderBy`句がなければ、クエリ結果は一貫した順序で表示される保証はありません。 後続の呼び出しは、異なるページを返したり、レコードを重複したりします。 ページネーションを使用する場合は、必ず`orderBy`を含めてください。
 
-[ ページネーション ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"}の詳細をご覧ください。
+[&#x200B; ページネーション &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html#pagination){target="_blank"}の詳細をご覧ください。
 
 ## 動的クエリ構築 {#dynamic-queries}
 
@@ -669,7 +669,7 @@ logInfo("Mass update completed");
 >
 >一括更新は、WHERE句に一致するすべてのレコードに影響します。 最初にselect クエリを使用してwhere条件を常にテストし、影響を受けるレコードを確認します。
 
-[ アップデート ](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}の詳細をご覧ください。
+[&#x200B; アップデート &#x200B;](https://experienceleague.adobe.com/ja/tools/campaign-api){target="_blank"}の詳細をご覧ください。
 
 ### GetInstanceFromModel - テンプレートインスタンスのクエリ {#get-instance-from-model}
 
@@ -779,13 +779,13 @@ for each(var record in xml.collection) {
 >
 >* ユーザー入力を常に検証し、整理する
 >* `$(sz)`、`$(l)`、`$(dt)`などのパラメーター化されたクエリを使用します。
->* [FFDA デプロイメント ](../architecture/enterprise-deployment.md)におけるローカル データベースとクラウド データベースの違いに注意してください
+>* [FFDA デプロイメント &#x200B;](../architecture/enterprise-deployment.md)におけるローカル データベースとクラウド データベースの違いに注意してください
 
 ## ベストプラクティス {#best-practices}
 
 queryDef メソッドとNLWS メソッドを使用する場合：
 
-* **大規模なデータセットにワークフローを使用** - QueryDefは大量データ処理用に設計されていません。 1,000以上のレコードを持つデータセットには、数百万行を効率的に処理できるワークフローを使用します。 詳しくは、[Campaign SDK ドキュメント ](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}を参照してください
+* **大規模なデータセットにワークフローを使用** - QueryDefは大量データ処理用に設計されていません。 1,000以上のレコードを持つデータセットには、数百万行を効率的に処理できるワークフローを使用します。 詳しくは、[Campaign SDK ドキュメント &#x200B;](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}を参照してください
 * **パラメーター化されたクエリを使用** - SQL インジェクションを防ぐには、常に`sqlExec`で連結パラメーター（`$(sz)`、`$(l)`）を使用します
 * **明示的な制限を設定** - `lineCount`を使用して結果サイズを制御します。 Campaignのデフォルトの制限はコンテキストによって異なります（200 ～ 10,000 レコード）
 * **ページネーションでorderByを使用** – 一貫したページネーションを確保するために`startLine`と`lineCount`を使用する場合は、常に`orderBy`句を含めます
@@ -793,7 +793,7 @@ queryDef メソッドとNLWS メソッドを使用する場合：
 * **列挙にAnalyticsを使用** - ノードを選択する`analyze: true`を追加して、使いやすい列挙名とラベルを取得します
 * **クエリを最適化** – 結果セットを制限するために適切な`where`条件を追加します
 * **バッチ処理** – 複数のレコードを一括処理して、メモリの問題とタイムアウトを回避します
-* **FFDA認識** - [ エンタープライズ （FFDA）のデプロイメント ](../architecture/enterprise-deployment.md)では、[!DNL Campaign]が2つのデータベースで動作することに注意してください
+* **FFDA認識** - [&#x200B; エンタープライズ （FFDA）のデプロイメント &#x200B;](../architecture/enterprise-deployment.md)では、[!DNL Campaign]が2つのデータベースで動作することに注意してください
 
 
 

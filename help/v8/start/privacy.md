@@ -52,7 +52,7 @@ Campaign でプライバシーリクエストを管理するには、まず[名�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
 
 ## 名前空間を定義 {#namespaces}
 

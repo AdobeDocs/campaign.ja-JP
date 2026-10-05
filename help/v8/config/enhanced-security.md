@@ -35,7 +35,7 @@ ht-degree: 91%
 ---
 # Campaign セキュリティ強化アドオン {#enhanced-security}
 
-このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス ](security.md#public-guidance)の一部です。
+このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス &#x200B;](security.md#public-guidance)の一部です。
 
 ネットワーク接続とリソースのセキュリティを強化するために、[!DNL Adobe Campaign] では新しい&#x200B;**セキュリティ強化**&#x200B;アドオンが提供されています。
 

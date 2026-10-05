@@ -76,7 +76,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    階層とスケジュールを定義し、予算を設定し、リソースを追加して、オペレーターを選択します。
 
-   マーケティングプランの作成方法とキャンペーンの設定方法については、[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja){target="_blank"}を参照してください。
+   マーケティングプランの作成方法とキャンペーンの設定方法については、[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja){target="_blank"}を参照してください。
 
    すべてのマーケティングキャンペーンは、主な設定と機能を定義したテンプレートに基づいています。 特定の設定が定義されていないキャンペーンを作成するために、ビルトインのテンプレートが用意されています。 キャンペーンテンプレートを作成および設定して、そのテンプレートからキャンペーンを作成することができます。
 
@@ -100,7 +100,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    マーケティングキャンペーン配信を作成し開始する方法について詳しくは、[このページ](../../automation/campaigns/marketing-campaign-deliveries.md)を参照してください。
 
-   レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。関連ドキュメントについて詳しくは、[このページ ](../../automation/campaigns/marketing-campaign-assets.md)を参照してください。
+   レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。関連ドキュメントについて詳しくは、[このページ &#x200B;](../../automation/campaigns/marketing-campaign-assets.md)を参照してください。
 
 1. **承認プロセスの設定**
 
@@ -115,9 +115,9 @@ Adobe Campaignでは、中央エンティティ（本社、マーケティング
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
 
-[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}でCampaignの分散型マーケティング機能を設定および使用する方法について説明します。
+[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}でCampaignの分散型マーケティング機能を設定および使用する方法について説明します。
 
 ## 応答管理アドオン{#response-manager-add-on}
 
@@ -125,6 +125,6 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
 
-[](../assets/do-not-localize/book.png) Campaign Response Managerの設定と使用方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}を参照してください。
+[&#128279;](../assets/do-not-localize/book.png) Campaign Response Managerの設定と使用方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}を参照してください。

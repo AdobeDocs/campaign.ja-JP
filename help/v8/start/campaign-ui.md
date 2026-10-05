@@ -57,7 +57,7 @@ Adobe Campaign には、クライアントコンソールまたは web ユーザ
 
 >[!CAUTION]
 >
->このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。 Campaign v8 ユーザーとして、Campaign Web ユーザーインターフェイスを使用している場合は、[このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
+>このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。 Campaign v8 ユーザーとして、Campaign Web ユーザーインターフェイスを使用している場合は、[このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
 
 ## クライアントコンソールの操作 {#ui-access}
 
@@ -71,19 +71,19 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 Campaignに接続したら、Adobe Campaign ホームページにアクセスします。 Campaign v8では、中央カードを使用して、新しいCampaign Web ユーザーインターフェイスとCampaign コントロールパネルを参照します。
 
-![Campaign v8 クライアント コンソール ホーム ](assets/web-ui.png)
+![Campaign v8 クライアント コンソール ホーム &#x200B;](assets/web-ui.png)
 
 >[!NOTE]
 >
->Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント ](../config/external-accounts.md)内で次のフィールドが空のままになっていないことを確認してください。**サーバー**、**テナント**、**コールバックサーバー**、**関連付けマーク**。
+>Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント &#x200B;](../config/external-accounts.md)内で次のフィールドが空のままになっていないことを確認してください。**サーバー**、**テナント**、**コールバックサーバー**、**関連付けマーク**。
 
-ホームページから[ キャンペーンCampaign コントロールパネル](../config/self-service.md)にアクセスすることもできます。
+ホームページから[&#x200B; キャンペーンCampaign コントロールパネル](../config/self-service.md)にアクセスすることもできます。
 
 >[!TAB Campaign Classic v7]
 
 Campaignに接続すると、リンクとショートカットを使用してAdobe Campaign ホームページにアクセスし、機能、ドキュメント、サポートウェブサイト、Campaign コミュニティにアクセスできます。
 
-![Campaign Classic v7 クライアント コンソール ホーム ](assets/v7_user_interface_home.png)
+![Campaign Classic v7 クライアント コンソール ホーム &#x200B;](assets/v7_user_interface_home.png)
 
 
 >[!ENDTABS]
@@ -105,17 +105,17 @@ Campaign クライアントコンソールに接続したら、上部セクシ�
 
 例えば、「**[!UICONTROL プロファイルとターゲット]**」タブを参照すると、受信者リスト、購読サービス、既存のターゲティングワークフローおよびこれらすべてのコンポーネントを作成するためのショートカットにアクセスできます。
 
-プロファイルとターゲットタブからリストにアクセスする方法を示す![Campaign コンソールのユーザーインターフェイス ](assets/overview-list.png)
+プロファイルとターゲットタブからリストにアクセスする方法を示す![Campaign コンソールのユーザーインターフェイス &#x200B;](assets/overview-list.png)
 
 画面で要素を選択すると、その要素は新しいタブに読み込まれるので、コンテンツを簡単に参照できます。
 
-新しいタブでリストを編集する方法を示す![Campaign コンソールのユーザーインターフェイス ](assets/new-tab.png)
+新しいタブでリストを編集する方法を示す![Campaign コンソールのユーザーインターフェイス &#x200B;](assets/new-tab.png)
 
 ### 要素の作成 {#create-an-element}
 
 画面の左側にある「**[!UICONTROL 作成]**」セクションのショートカットを使用して、新しい要素を追加します。 リストの上にある「**[!UICONTROL 作成]**」ボタンを使用すると、現在のリストに新しい要素を追加できます。
 
-プロファイルとターゲット画面から受信者を作成する方法を示す![Campaign コンソールのユーザーインターフェイス ](assets/new-recipient.png)
+プロファイルとターゲット画面から受信者を作成する方法を示す![Campaign コンソールのユーザーインターフェイス &#x200B;](assets/new-recipient.png)
 
 <!--
 ## Use a web browser {#web-browser}
@@ -175,7 +175,7 @@ Campaign v8 ユーザーは、v8.6.1 リリース以降、中央のAdobe Experie
   >
   >言語はインストールプロセス中に選択され、その後&#x200B;**変更できません**。
 
-* Campaign Web ユーザーインターフェイスでサポートされる言語については、[Campaign Web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ja#language-pref){target="_blank"}を参照してください。
+* Campaign Web ユーザーインターフェイスでサポートされる言語については、[Campaign Web ユーザーインターフェイスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ja#language-pref){target="_blank"}を参照してください。
 
 ## フォーマット
 
