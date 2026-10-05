@@ -5,13 +5,30 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
-
 ---
-
 # トランザクションメッセージの設定 {#mc-settings}
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。 トランザクションメッセージについて詳しくは、[この節](../send/transactional.md)を参照してください。
@@ -104,9 +121,9 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
 
   可能なイベントのステータスは次のとおりです。
 
-   * **[!UICONTROL 保留中]**：イベントはキュー内にあります。 イベントにはまだメッセージテンプレートが割り当てられていません。
-   * **[!UICONTROL 配信保留]**：イベントはキュー内にあり、メッセージテンプレートが割り当てられ、配信による処理中です。
-   * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。 配信が送信されたことを示します。
-   * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。 配信が無視されたことを意味します。
-   * **[!UICONTROL 配信失敗]**：このステータスは配信ログからコピーされます。 配信が失敗したことを意味します。
-   * **[!UICONTROL 考慮されないイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。 イベントの処理はおこなわれません。
+  * **[!UICONTROL 保留中]**：イベントはキュー内にあります。 イベントにはまだメッセージテンプレートが割り当てられていません。
+  * **[!UICONTROL 配信保留]**：イベントはキュー内にあり、メッセージテンプレートが割り当てられ、配信による処理中です。
+  * **[!UICONTROL 送信済み]**：このステータスは配信ログからコピーされます。 配信が送信されたことを示します。
+  * **[!UICONTROL 配信で無視]**：このステータスは配信ログからコピーされます。 配信が無視されたことを意味します。
+  * **[!UICONTROL 配信失敗]**：このステータスは配信ログからコピーされます。 配信が失敗したことを意味します。
+  * **[!UICONTROL 考慮されないイベント]**：イベントをメッセージテンプレートにリンクすることができませんでした。 イベントの処理はおこなわれません。

@@ -5,16 +5,23 @@ description: 集計の使用方法を学ぶ
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 7522f449-341e-4aef-8c1e-c49e13809c08
-TQID: https://experienceleague.adobe.com/9ho0yPBr-YfejB9MfSSLcSFlbbUhw8vOhEKev3-NAxg
+TQID: 'https://experienceleague.adobe.com/9ho0yPBr-YfejB9MfSSLcSFlbbUhw8vOhEKev3-NAxg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 96%
-
+source-wordcount: '673'
+ht-degree: 100%
 ---
-
 # 集計の使用{#using-aggregates}
 
 
@@ -41,7 +48,7 @@ ht-degree: 96%
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. 「**[!UICONTROL 追加データを編集]**」、「**[!UICONTROL 詳細パラメーター…]**」の順にクリックします。「**[!UICONTROL ターゲティングディメンションのプライマリキーの自動追加を無効にする]**」オプションをオンにします。
+1. 「**[!UICONTROL 追加データを編集]**」をクリックし、「**[!UICONTROL 詳細設定パラメーター...]**」をクリックします。「**[!UICONTROL ターゲティングディメンションのプライマリキーの自動追加を無効にする]**」オプションをクリックします。
 
    このオプションにより、どの受信者も結果として表示されなくなり、明示的に追加したデータは維持されません。 このケースでは、受信者を作成した最新の日付を参照します。
 

@@ -5,21 +5,30 @@ description: キャンペーンワークフローのプロパティの詳細を�
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-TQID: https://experienceleague.adobe.com/4OJbl-jgYuYYZAqTmx68o2YNP3VMPphMRhkFwIwL2qo
+TQID: 'https://experienceleague.adobe.com/4OJbl-jgYuYYZAqTmx68o2YNP3VMPphMRhkFwIwL2qo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 719
+source-wordcount: '719'
 ht-degree: 100%
-
 ---
-
 # ワークフローのプロパティ{#workflow-properties}
 
 ## 「実行」タブ {#execution-tab}
@@ -80,8 +89,8 @@ ht-degree: 100%
 
   このフィールドでは、ワークフロータスクでエラーが発生した場合におこなうアクションを定義できます。 次の 2 つのオプションが使用可能です。
 
-   * **[!UICONTROL プロセスを停止]**：ワークフローは自動的に一時停止します。 ワークフローのステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わります。 問題が解決したら、「**[!UICONTROL 開始]**」ボタンまたは「**[!UICONTROL 再開]**」ボタンを使用してワークフローを再起動します。
-   * **[!UICONTROL 無視]**：エラーをトリガーしたタスクのステータスは「**[!UICONTROL 失敗]**」に変わりますが、ワークフローのステータスは「**[!UICONTROL 開始済み]**」のままです。 この設定は繰り返しタスクと関係があり、分岐にスケジューラーが含まれる場合、ワークフローは次に実行されるときに、正常に起動します。
+  * **[!UICONTROL プロセスを停止]**：ワークフローは自動的に一時停止します。 ワークフローのステータスが&#x200B;**[!UICONTROL 失敗]**&#x200B;に変わります。 問題が解決したら、「**[!UICONTROL 開始]**」ボタンまたは「**[!UICONTROL 再開]**」ボタンを使用してワークフローを再起動します。
+  * **[!UICONTROL 無視]**：エラーをトリガーしたタスクのステータスは「**[!UICONTROL 失敗]**」に変わりますが、ワークフローのステータスは「**[!UICONTROL 開始済み]**」のままです。 この設定は繰り返しタスクと関係があり、分岐にスケジューラーが含まれる場合、ワークフローは次に実行されるときに、正常に起動します。
 
 * **[!UICONTROL 連続エラー]**
 

@@ -5,23 +5,34 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-TQID: https://experienceleague.adobe.com/5LR9seZA5eFVn-ZKkO27EtqCZu6-9tKL2eyxZtwNHiU
+TQID: 'https://experienceleague.adobe.com/5LR9seZA5eFVn-ZKkO27EtqCZu6-9tKL2eyxZtwNHiU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1291
+source-wordcount: '1291'
 ht-degree: 83%
-
 ---
-
 # SMPP コネクタの説明 {#smpp-connector-desc}
 
 ## SMS コネクタのデータフロー {#sms-data-flow}
@@ -43,10 +54,10 @@ SMS プロセスはnms:extAccountをポーリングし、各アカウントの�
 ### メッセージの送信中のデータフロー {#sms-data-flow-sending-msg}
 
 * SMS プロセスは、nms:deliveryをスキャンしてアクティブな配信を選択します。 配信は、次の場合にアクティブになります。
-   * メッセージを送信できる状態である
-   * 有効期限が切れていない
-   * 実際には配信である（例：テンプレートではなく、削除もされていない）
-   * SMPP コネクタで、配信にリンクされた外部アカウントに対して 1 つ以上の接続を開くことができる
+  * メッセージを送信できる状態である
+  * 有効期限が切れていない
+  * 実際には配信である（例：テンプレートではなく、削除もされていない）
+  * SMPP コネクタで、配信にリンクされた外部アカウントに対して 1 つ以上の接続を開くことができる
 * 配信ごとに、SMS プロセスでは配信部分を読み込みます。 配信部分が部分的に送信された場合、SMS プロセスでは、広範ログを確認して、既に送信されたメッセージを確認します。
 * SMS プロセスでは、配信部分からのパーソナライゼーションデータを使用してテンプレートを展開します。
 * SMPP コネクタは、コンテンツやその他の設定に一致する MT（SUBMIT_SM PDU）を生成します。

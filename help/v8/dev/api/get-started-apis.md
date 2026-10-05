@@ -7,30 +7,38 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-TQID: https://experienceleague.adobe.com/RRDY-7SFGUwxHk34LLhRHaFN-0U4A9NQfNvLPXO8GM8
+TQID: 'https://experienceleague.adobe.com/RRDY-7SFGUwxHk34LLhRHaFN-0U4A9NQfNvLPXO8GM8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 240
-ht-degree: 58%
-
+source-wordcount: '244'
+ht-degree: 59%
 ---
-
 # Campaign REST APIの基本を学ぶ {#get-started-apis}
 
 Campaign REST APIは、Adobe Campaignと使用するテクノロジーパネルとのインターフェイスによって、**Adobe Campaignの統合**&#x200B;を作成し、**独自のエコシステム**&#x200B;を構築できるようにすることを目的としています。
 
 >[!AVAILABILITY]
 >
->* この機能は、すべての[Campaign FDA環境](../../architecture/fda-deployment.md)に対して、オンデマンドでのみ使用できます。 [&#x200B; エンタープライズ （FFDA） デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では&#x200B;**not**&#x200B;を使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
+>* この機能は、すべての[Campaign FDA環境](../../architecture/fda-deployment.md)に対して、オンデマンドでのみ使用できます。 [ エンタープライズ （FFDA） デプロイメント ](../../architecture/enterprise-deployment.md)では&#x200B;**not**&#x200B;を使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
 >
 >* API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。 詳しくは、[Adobe Campaign v8 Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 

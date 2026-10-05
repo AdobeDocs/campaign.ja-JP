@@ -5,13 +5,25 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%
-
 ---
-
 # 条件付きコンテンツの作成{#conditional-content}
 
 条件付きコンテンツフィールドを設定すると、高度なパーソナライゼーションを作成できます。 特定の条件が成立した場合、テキストブロックや画像がすべて置き換わります。
@@ -86,4 +98,4 @@ ht-degree: 100%
 
 多言語ニュースレターを例に、条件付きコンテンツを配信に追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426535?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

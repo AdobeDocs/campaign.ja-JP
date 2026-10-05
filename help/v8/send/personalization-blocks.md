@@ -6,22 +6,29 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
-TQID: https://experienceleague.adobe.com/741rGWSBuFksbOfXbuszEXq56DOI-Pfg8tEiHQLhQf8
+TQID: 'https://experienceleague.adobe.com/741rGWSBuFksbOfXbuszEXq56DOI-Pfg8tEiHQLhQf8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 88%
-
+source-wordcount: '722'
+ht-degree: 97%
 ---
-
 # パーソナライゼーションブロックの使用{#personalization-blocks}
 
 パーソナライゼーションブロックは、配信に挿入できる特定のレンダリングが格納されている動的コンテンツです。 例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。
@@ -66,7 +73,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 カスタムパーソナライゼーションブロックが外部URL （外部ホスト画像など）を参照する場合は、リソースが中断なく引き続き読み込まれるように、インスタンスの承認済み許可リストにドメインが追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+>リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 リソースが中断することなく継続して読み込まれるよう、カスタムパーソナライゼーションブロックが外部 URL（例：外部ホスト画像）を参照する場合は、ドメインがインスタンスの承認済み許可リストに追加されていることを確認してください。 Campaign 管理者として、コントロールパネルを使用して、許可リスト登録済み URL を追加および管理してください。 手順について詳しくは、[URL 権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 パーソナライゼーションアイコンから挿入する、新しくパーソナライズされたコンテンツブロックを定義できます。
 
@@ -93,4 +100,4 @@ ht-degree: 88%
 
 次のビデオでは、動的コンテンツブロックを作成する方法と、動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449007?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

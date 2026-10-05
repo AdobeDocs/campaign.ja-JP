@@ -5,13 +5,30 @@ feature: SMS
 role: User, Admin
 level: Intermediate
 exl-id: 5ec3f172-22dc-458b-8688-9974009c985e
-source-git-commit: 0278c5161b4b32cd2158c7694d3c7a9996a401cb
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 5%
-
 ---
-
 # SMS コネクタタイプについて {#sms-connectors}
 
 Adobe Campaignでは、お客様にSMS メッセージを送信するために使用される2つのSMS コネクタをサポートしています。
@@ -23,17 +40,17 @@ Adobe Campaignでは、お客様にSMS メッセージを送信するために�
 
 従来のSMS コネクタは、以前のバージョンのAdobe Campaignで使用されていたMTA ベースのSMS コネクタです。 このコネクタは、既存の実装では引き続きサポートされますが、v2 コネクタのパフォーマンスと信頼性を向上させるために、Adobeではv8.9.1以降にアップグレードすることを強くお勧めします。
 
-v2 コネクタのメリットについて詳しくは、「[&#x200B; アクティベーション &#x200B;](#activation)」の節を参照してください。
+v2 コネクタのメリットについて詳しくは、「[ アクティベーション ](#activation)」の節を参照してください。
 
-従来のSMS コネクタの設定と使用方法について詳しくは、[Campaign Classic ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
+従来のSMS コネクタの設定と使用方法について詳しくは、[Campaign Classic ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}を参照してください。
 
 ## SMS コネクタ v2 {#sms-connector-v2}
 
 v8.9.1以降のGAで使用可能なv2 コネクタは、トランシーバモード SMPP接続、永続的SMPP接続を有効にし、より優れた互換性を確保します。 専用のSMS外部アカウントは、v2 コネクタを使用するすべてのSMS実装で使用できます。
 
-新しいインストールでは、v2 コネクタはデフォルトで有効になっています。 従来のコネクタを使用して以前のバージョンからアップグレードした場合は、Adobe担当者に連絡してv2 コネクタに切り替える必要があります。 「[&#x200B; アクティベーション &#x200B;](#activation)」セクションを参照してください。
+新しいインストールでは、v2 コネクタはデフォルトで有効になっています。 従来のコネクタを使用して以前のバージョンからアップグレードした場合は、Adobe担当者に連絡してv2 コネクタに切り替える必要があります。 「[ アクティベーション ](#activation)」セクションを参照してください。
 
-Campaign v8でSMS コネクタ v2を使用する方法については、[SMS ドキュメント &#x200B;](sms.md)を参照してください。
+Campaign v8でSMS コネクタ v2を使用する方法については、[SMS ドキュメント ](sms.md)を参照してください。
 
 >[!NOTE]
 >

@@ -5,26 +5,42 @@ feature: Analytics Integration, Reporting
 role: Admin, User
 level: Beginner
 exl-id: 11370fb6-e192-4626-944e-b80a7496e50d
-TQID: https://experienceleague.adobe.com/AdMAot4jNWYNIbQVxEYvvodsffQ-kc405Dk8D5FwHFk
+TQID: 'https://experienceleague.adobe.com/AdMAot4jNWYNIbQVxEYvvodsffQ-kc405Dk8D5FwHFk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1836
-ht-degree: 89%
-
+source-wordcount: '1836'
+ht-degree: 94%
 ---
-
 # Campaign と Adobe Analytics の操作 {#ac-aa}
 
 Adobe Analytics を設定して、Campaign と Analytics を統合できます。
@@ -134,22 +150,22 @@ Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを�
 
 分類セットを作成するには：
 
-1. [!DNL Adobe Analytics]上部のメニューバーから、**[!UICONTROL コンポーネント]** > **[!UICONTROL 分類セット]**&#x200B;を選択し、**[!UICONTROL 新規]**&#x200B;をクリックします。
+1. [!DNL Adobe Analytics] の上部のメニューバーから、**[!UICONTROL コンポーネント]**／**[!UICONTROL 分類セット]**&#x200B;を選択して、「**[!UICONTROL 新規]**」をクリックします。
 
    ![](assets/analytics_connnector_16.png)
 
-1. **[!UICONTROL 新しい分類セットを追加]** ダイアログで、次の操作を行います。
+1. **[!UICONTROL 新しい分類セットを追加]**&#x200B;ダイアログで、次の操作を実行します。
 
    ![](assets/analytics_connnector_17.png)
 
    * 分類セットの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
-   * **[!UICONTROL Type]**&#x200B;を&#x200B;**[!UICONTROL プライマリ]**&#x200B;に設定します。
-   * **[!UICONTROL ジョブ通知]**&#x200B;で、分類セットジョブの成功または失敗に関する通知を受け取るユーザーを選択し、対応する電子メールアドレスを指定します。
-   * **[!UICONTROL サブスクリプション]**&#x200B;で、前の手順で内部キャンペーン名として作成したレポートスイートとコンバージョン変数を選択します。
+   * **[!UICONTROL タイプ]**&#x200B;を&#x200B;**[!UICONTROL プライマリ]**&#x200B;に設定します。
+   * **[!UICONTROL ジョブ通知]**&#x200B;で、分類セットジョブの成功または失敗に関する通知を受け取るユーザーを選択し、対応するメールアドレスを指定します。
+   * **[!UICONTROL 購読]**&#x200B;で、レポートスイートと、前の手順で内部キャンペーン名用に作成したコンバージョン変数を選択します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-分類セットについて詳しくは、[Adobe Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
+分類セットについて詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/components/classifications/sets/create-set){target="_blank"}を参照してください。
 
 レポートスイート、コンバージョン変数、成功イベント、分類セットを設定する場合は、Adobe Campaignで&#x200B;**[!UICONTROL 外部アカウント]**&#x200B;を設定する必要があります。
 
@@ -159,7 +175,7 @@ Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを�
 
 外部アカウントの設定時に&#x200B;**[!UICONTROL レポートスイート]**、**[!UICONTROL コンバージョン変数]**、**[!UICONTROL 成功イベント]**&#x200B;のいずれかが表示されない場合は、新しく作成したコンポーネントに対する権限が、ユーザーに関連付けられた&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;にないことをい意味します。
 
-詳しくは、 [&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"}Adobe Analytics の製品プロファイルのページを参照してください。
+詳しくは、 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"}Adobe Analytics の製品プロファイル[のページを参照してください。
 
 1. Adobe Campaign エクスプローラーツリーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;フォルダーに移動して、「**[!UICONTROL 新規]**」をクリックします。
 

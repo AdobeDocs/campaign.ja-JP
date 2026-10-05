@@ -6,24 +6,36 @@ role: User
 hide: true
 level: Beginner, Intermediate
 exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
-TQID: https://experienceleague.adobe.com/dCe9loow9GAK5YIKzwwcZVS94JtDiEhg0p5QUCBd-So
+TQID: 'https://experienceleague.adobe.com/dCe9loow9GAK5YIKzwwcZVS94JtDiEhg0p5QUCBd-So'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 304
-ht-degree: 95%
-
+source-wordcount: '317'
+ht-degree: 100%
 ---
-
 # スタンドアロンインスタンスでの SMS {#sms-standalone}
 
 >[!IMPORTANT]
@@ -54,8 +66,8 @@ SMPP 外部アカウントを作成する手順は次のとおりです。
 
    ![](assets/sms_extaccount_new.png){zoomable="yes"}
 
-1. 「**[!UICONTROL Mobile]**」タブで、**[!UICONTROL 拡張ジェネリック SMPP]**&#x200B;を&#x200B;**[!UICONTROL コネクタ]** ドロップダウンリストに残します。
-「**[!UICONTROL 専用プロセスを介してメッセージを送信]**」ボックスは、デフォルトでオンになっています。
+1. 「**[!UICONTROL モバイル]**」タブで、**[!UICONTROL コネクタ]**&#x200B;ドロップダウンリストにある&#x200B;**[!UICONTROL 拡張された汎用 SMPP]** をそのままにしておきます。
+デフォルトでは、「**[!UICONTROL 専用プロセスを通じてメッセージを送信]**」ボックスがオンになっています。
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 

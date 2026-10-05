@@ -5,31 +5,48 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-TQID: https://experienceleague.adobe.com/aUERRFZaN8aJ883kmoYz2Yf47A1tYkf2HfOJZtCgs1g
+TQID: 'https://experienceleague.adobe.com/aUERRFZaN8aJ883kmoYz2Yf47A1tYkf2HfOJZtCgs1g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: bae31391-3416-5fbd-bc4b-2cdcae2922db
+    internal-label: Architecture
+  - id: 702a1f63-4da5-5981-83b3-4d5b14e90420
+    internal-label: FFDA
+  - id: 5b4bbd22-07a0-59e8-ada0-54a763ae2394
+    internal-label: Deployment
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Customer profiles
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1073
+source-wordcount: '1073'
 ht-degree: 95%
-
 ---
-
 # [!DNL Campaign] FFDA デプロイメント {#gs-ac-ffda}
 
 クラウドデータベース技術である [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"} を活用することで、Adobe Campaign Enterprise Full Federated Access（FFDA）デプロイメントは速度と拡張性を劇的に改善し、管理できる顧客プロファイルの数を大幅に増加させ、1 時間あたりの配信率やトランザクション数を大幅に向上させました。
@@ -84,9 +101,9 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 * すべての組み込み参照テーブル（列挙、国など）を格納する [!DNL Snowflake]にレプリケートされます。
 
   ただし、次の操作はできません。
-   * 顧客データのカスタマイズを作成（例えば、PostgreSQL では世帯テーブルを作成せず、Snowflake でのみ作成します）。
-   * ffda ターゲティングディメンションに配信ログ、トラッキングログなどを保存します。
-   * 大量データの保存。
+  * 顧客データのカスタマイズを作成（例えば、PostgreSQL では世帯テーブルを作成せず、Snowflake でのみ作成します）。
+  * ffda ターゲティングディメンションに配信ログ、トラッキングログなどを保存します。
+  * 大量データの保存。
 
 
 ミッドソーシングインスタンス上の PostgreSQL データベースは、次の目的で使用されます。

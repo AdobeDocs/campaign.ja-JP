@@ -5,24 +5,36 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-TQID: https://experienceleague.adobe.com/SUOihPjlej-JYbpNBWLCIhWhM2NrUpz0pMuO3NAaCWM
+TQID: 'https://experienceleague.adobe.com/SUOihPjlej-JYbpNBWLCIhWhM2NrUpz0pMuO3NAaCWM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '799'
 ht-degree: 97%
-
 ---
-
 # SMS 配信設定 {#sms-settings}
 
 SMS 配信に必要な技術的な設定を以下に示します。
@@ -60,10 +72,10 @@ SMS 配信に必要な技術的な設定を以下に示します。
 
   このフィールドは、送信する SMS の種類を次のように示します。通常または Flash メッセージ、モバイルまたは SIM カードに保存。 この設定は、SUBMIT_SM PDU の dest_addr_subunit オプションフィールドに送信されます。
 
-   * 「**Flash**」の場合、値を 1 に設定します。 モバイル上でポップアップ表示され、メモリには保存されない Flash メッセージを送信します。
-   * 「**通常**」の場合、値を 0 に設定します。 通常のメッセージを送信します。
-   * 「**モバイルに保存**」の場合、値を 2 に設定します。 SMS を内部メモリに保存するよう電話に指示します。
-   * 「**ターミナルに保存**」の場合、値を 3 に設定します。 SIM カードに SMS を格納するよう電話に指示します。
+  * 「**Flash**」の場合、値を 1 に設定します。 モバイル上でポップアップ表示され、メモリには保存されない Flash メッセージを送信します。
+  * 「**通常**」の場合、値を 0 に設定します。 通常のメッセージを送信します。
+  * 「**モバイルに保存**」の場合、値を 2 に設定します。 SMS を内部メモリに保存するよう電話に指示します。
+  * 「**ターミナルに保存**」の場合、値を 3 に設定します。 SIM カードに SMS を格納するよう電話に指示します。
 
 * **[!UICONTROL 優先度、通信タイプ]**
 
@@ -82,11 +94,11 @@ SMS 配信に必要な技術的な設定を以下に示します。
 * **[!UICONTROL オプションのSMPP パラメーター（TLV）]**
 オプションのSMPP パラメーター（TLV）として送信する追加フィールドを指定できます。 これらの追加フィールドは各 MT で送信され、パーソナライズされたフィールドにより各 MT に異なる値を設定できます。
 表には、各メッセージで送信されるオプションのパラメーターが一覧表示されます。 列には、次の情報が含まれます。
-   * **ラベル**：これは、オプションの自由形式のラベルです。 プロバイダーには送信されません。 パラメーターの説明をテキストで指定できます。
-   * **タグ**：10 進数形式（例：12345）または 0x 接頭辞が付いた 16 進数形式（例：0x12ab）のいずれかのタグの値。 タグには 0～65535 の範囲を指定できます。 サポートされているタグについて詳しくは、SMPP サービスプロバイダーにお問い合わせください。
-   * **値**：オプションパラメーターで送信する値。 これは、パーソナライズされたフィールドです。
-   * **形式**：パラメーターに使用するエンコーディング。 サポートされている任意のテキストエンコーディングまたは最も一般的なバイナリ形式を選択できます。 必要な形式について詳しくは、SMPP サービスプロバイダーにお問い合わせください。
-   * **最大長**：このパラメーターの最大バイト数。 バイナリフィールドはサイズが固定されているので、無視されます。
+  * **ラベル**：これは、オプションの自由形式のラベルです。 プロバイダーには送信されません。 パラメーターの説明をテキストで指定できます。
+  * **タグ**：10 進数形式（例：12345）または 0x 接頭辞が付いた 16 進数形式（例：0x12ab）のいずれかのタグの値。 タグには 0～65535 の範囲を指定できます。 サポートされているタグについて詳しくは、SMPP サービスプロバイダーにお問い合わせください。
+  * **値**：オプションパラメーターで送信する値。 これは、パーソナライズされたフィールドです。
+  * **形式**：パラメーターに使用するエンコーディング。 サポートされている任意のテキストエンコーディングまたは最も一般的なバイナリ形式を選択できます。 必要な形式について詳しくは、SMPP サービスプロバイダーにお問い合わせください。
+  * **最大長**：このパラメーターの最大バイト数。 バイナリフィールドはサイズが固定されているので、無視されます。
 
 * **[!UICONTROL TLV のバイナリ形式の使用]**
 

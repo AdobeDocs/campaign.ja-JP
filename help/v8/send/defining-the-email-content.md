@@ -6,23 +6,33 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
-TQID: https://experienceleague.adobe.com/9TXL-RQE41IZCKWoh7jvGNLfBonStPosLB7qkIHZdKo
+TQID: 'https://experienceleague.adobe.com/9TXL-RQE41IZCKWoh7jvGNLfBonStPosLB7qkIHZdKo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2170
-ht-degree: 96%
-
+source-wordcount: '2170'
+ht-degree: 99%
 ---
-
 # メールコンテンツの定義 {#defining-the-email-content}
 
 ## 送信者 {#sender}
@@ -74,7 +84,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 メッセージコンテンツで使用されるドメインがインスタンスの承認済み許可リストに追加されていることを確認し、リソースの読み込みが中断されることなく続行されるようにします。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+>リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 リソースが中断することなく継続して読み込まれるよう、メッセージコンテンツで使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認してください。 Campaign 管理者として、コントロールパネルを使用して、許可リスト登録済み URL を追加および管理してください。 手順について詳しくは、[URL 権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 メッセージの内容は、配信設定ウィンドウの下部のセクションで定義します。
 

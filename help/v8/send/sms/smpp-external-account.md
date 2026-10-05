@@ -5,25 +5,38 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-TQID: https://experienceleague.adobe.com/9iAR7QuskmaBkt8AwYws3nzdL47xCgC9zsIonQBDeIg
+TQID: 'https://experienceleague.adobe.com/9iAR7QuskmaBkt8AwYws3nzdL47xCgC9zsIonQBDeIg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ffeb9430b382b598af412555b1b0a6ff42bc68d0
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3659
-ht-degree: 95%
-
+source-wordcount: '3638'
+ht-degree: 96%
 ---
-
 # SMPP 外部アカウント設定 {#smpp-external-account}
 
 Adobe Campaign は、SMPP プロトコルを使用してサービスプロバイダーに SMS を送信します。
@@ -54,23 +67,23 @@ SMS サービスプロバイダー側のネットワーク機器は、SMSC と�
 接続の合計数は、次の数式を使用して計算できます。
   *合計接続数 = SMS プロセスの数* 送信スレッドの数 * MTA 子接続の数*
 
-   * 通常、SMS プロセスの数は 1 です。 非常にパフォーマンスの高いインスタンスでは、複数の SMS プロセスが並行して開始されることがあります。
-   * 送信スレッドの数は serverConf（sendingThreads 設定）で設定します。 デフォルトは 1 です。
-   * MTA 子接続の数は、外部アカウントのこの設定です。
+  * 通常、SMS プロセスの数は 1 です。 非常にパフォーマンスの高いインスタンスでは、複数の SMS プロセスが並行して開始されることがあります。
+  * 送信スレッドの数は serverConf（sendingThreads 設定）で設定します。 デフォルトは 1 です。
+  * MTA 子接続の数は、外部アカウントのこの設定です。
 
   デフォルト値では、この設定によって接続数が直接設定されます。
 
 **トランシーバモード**&#x200B;では、これは接続の合計数です。
 
-**トランスミッター + レシーバーモード**&#x200B;では、トランスミッター + レシーバーのペアの数を定義します（1 つのペア = 1 つのトランスミッター + 1 つのレシーバー）。
+**トランスミッター + レシーバーモード**では、トランスミッター + レシーバーのペアの数を定義します（1 つのペア = 1 つのトランスミッター + 1 つのレシーバー）。
 トランスミッターとレシーバーのバランスを変える方法はありません。
 
 * **専用プロセスを介してメッセージを送信**:
 Adobe Campaign v8.7.2以降では、このオプションを常に有効にする必要があります。 メッセージの処理方法に多くの影響があります。
 * **SMPP接続モード**:
 トランシーバ モードまたは個別のトランスミッタ+レシーバ モードで接続を設定します。
-   * トランスミッター + レシーバー（または TX+RX）：メッセージの送受信には、2 つの異なる TCP 接続が使用されます。
-   * トランシーバ（または TRX）：メッセージの送受信には、単一の TCP 接続が使用されます。
+  * トランスミッター + レシーバー（または TX+RX）：メッセージの送受信には、2 つの異なる TCP 接続が使用されます。
+  * トランシーバ（または TRX）：メッセージの送受信には、単一の TCP 接続が使用されます。
 * **受信者に異なるパラメーターを使用**:
 トランスミッター+レシーバーモードでのみ使用できます。
 このチェックボックスをオフにすると、トランスミッターとレシーバーに同じ設定が適用されます。 チェックボックスをオンにすると、標準設定はトランスミッターにのみ適用され、レシーバー設定はレシーバーにのみ適用されます。
@@ -279,7 +292,7 @@ SR 形式は、SMPP プロトコル仕様に厳密には適用されません。
 
 * **変更しない**：ID は、ASCII エンコードされたテキストとして、そのままデータベースに保存されます。 前処理やフィルタリングはおこなわれません。
 * **10 進数**：ID は、ASCII 形式の 10 進数である必要があります。 この設定を使用すると、先頭と末尾の空白文字と先頭の 0 が削除されます。
-* **16進数**: IDはASCII形式の16進数である必要があります。先頭に0xはなく、末尾にhはありません。 IDは、データベースに保存される前に10進数に変換されます。
+* **16 進数**：ID は ASCII 形式の 16 進数です。先頭に 0x および末尾に h を付けません。 その後、ID を 10 進数に変換してから、データベースに保存します。
 * **16 進文字列**：ID は、ASCII エンコードされたテキストで、16 進数でエンコードされたバイト数の文字列である必要があります。 例えば、PDU に 0x34 0x31 0x34 0x32 0x34 0x33 があるとします。これは ASCII「414243」に変換された後、この文字列が 16 進数のバイト文字列としてデコードされ、「ABC」が返されます。その結果、ID「ABC」をデータベースに格納します。
 
 ### SR の ID の形式

@@ -4,16 +4,25 @@ description: Campaign テクニカルオペレーターを Adobe Developer Conso
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1602'
-ht-degree: 96%
-
+ht-degree: 97%
 ---
-
 # Adobe Developer Console への Campaign テクニカルオペレーターの移行 {#migrate-tech-users-to-ims}
 
-セキュリティと認証プロセスを強化する取り組みの一環として、Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されています。 テクニカルオペレーターは、[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用してCampaignに接続できるようになりました。 新しいサーバー間の認証プロセスについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
+セキュリティと認証プロセスを強化する取り組みの一環として、Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されています。 テクニカルオペレーターは、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用してCampaignに接続できるようになりました。 新しいサーバー間の認証プロセスについて詳しくは、[Adobe Developer Console ドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
 
 テクニカルオペレーターは、API 統合用に明示的に作成された Campaign ユーザープロファイルです。 この記事では、Adobe Developer Console からテクニカルオペレーターをテクニカルアカウントに移行するために必要な手順について詳しく説明します。
 
@@ -144,13 +153,13 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 ### 手順 7 - 設定を検証 {#ims-migration-step-7}
 
-接続を試すには、アクセストークンを生成するための[Adobe Developer Console資格情報ガイド &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"}に記載されている手順に従い、提供されたサンプル cURL コマンドをコピーします。 これらの資格情報を使用して SOAP 呼び出しを作成し、Adobe Campaign インスタンスを正しく認証して接続できるかどうかをテストできます。 サードパーティ API 統合にすべての変更を行う前に、この検証を行うことをお勧めします。
+接続を試すには、[Adobe Developer Console 資格情報ガイド](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"}で説明しているアクセストークンの生成手順に従って、提供されているサンプル cURL コマンドをコピーします。 これらの資格情報を使用して SOAP 呼び出しを作成し、Adobe Campaign インスタンスを正しく認証して接続できるかどうかをテストできます。 サードパーティ API 統合にすべての変更を行う前に、この検証を行うことをお勧めします。
 
 ### 手順 8 - サードパーティ API 統合を更新 {#ims-migration-step-8}
 
 新しく作成したテクニカルアカウントを使用するには、Adobe Campaign を呼び出すすべての API 統合を更新する必要があります。
 
-スムーズな統合のためのサンプルコードなど、API統合手順の詳細については、[Adobe Developer Console認証ドキュメント &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
+スムーズな統合のためのサンプルコードなど、API統合手順の詳細については、[Adobe Developer Console認証ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}を参照してください。
 
 サードパーティシステムの移行前と移行後のサンプル SOAP 呼び出しを以下に示します。
 

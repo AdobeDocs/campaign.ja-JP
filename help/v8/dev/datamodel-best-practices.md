@@ -5,37 +5,54 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-TQID: https://experienceleague.adobe.com/DWjWISB-REvq9WPEHV8t4lwxoSIbtMRBHJIby6RTEJI
+TQID: 'https://experienceleague.adobe.com/DWjWISB-REvq9WPEHV8t4lwxoSIbtMRBHJIby6RTEJI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
   - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+    internal-label: Data retention
   - id: bec93d13-829e-414d-9c2b-71b3974944a0
+    internal-label: Campaign data model
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: '2782'
 ht-degree: 99%
-
 ---
-
 # データモデルのベストプラクティス {#data-model-best-practices}
 
 このドキュメントでは、Adobe Campaign データモデルを設計する際の主なレコメンデーションの概要を説明します。
@@ -239,7 +256,7 @@ Adobe Campaign は、サードパーティのデータベースエンジンを�
 
 * **小さいサイズ**&#x200B;のテーブルは、配信テーブルに似ています。
 * **中程度のサイズ**&#x200B;のテーブルは、受信者テーブルと同じくらいのサイズです。 顧客 1 人につき 1 件のレコードがあります。
-* **大きいサイズ**&#x200B;のテーブルは、広範ログテーブルに似ています。 1 人の顧客につき多くのレコードがあります。
+* **大きいサイズ**のテーブルは、広範ログテーブルに似ています。 1 人の顧客につき多くのレコードがあります。
 例えば、データベースに 1,000 万人の受信者が含まれている場合、広範ログテーブルには 1 億件から 2 億件くらいのメッセージが格納され、配信テーブルには数千件のレコードが格納されます。
 
 行数もパフォーマンスに影響します。 Adobe Campaign データベースは運用データベースであり、ターゲティングやパーソナライゼーションにあまり使用しない履歴データを格納するようには設計されていません。

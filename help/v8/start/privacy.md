@@ -6,26 +6,38 @@ role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/vtmmkcaWp7orKU-ya58ySw-kkTGa9GmgQzyUwgSfPK0
+TQID: 'https://experienceleague.adobe.com/vtmmkcaWp7orKU-ya58ySw-kkTGa9GmgQzyUwgSfPK0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1131'
 ht-degree: 98%
-
 ---
-
 # Campaign でのプライバシーリクエストの管理 {#privacy}
 
 ビジネスの性質と管轄区域に応じて、データ操作は法的プライバシー規制の対象となる場合があります。 多くの場合、これらの規制により、顧客は収集されたデータへのアクセスをリクエストする権利と、保存されたデータの削除をリクエストする権利を得ることができます。 個人データに対するこれらの顧客リクエストは、ドキュメント全体で「プライバシーリクエスト」と呼ばれます。
@@ -40,7 +52,7 @@ Campaign でプライバシーリクエストを管理するには、まず[名�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
 
 ## 名前空間を定義 {#namespaces}
 

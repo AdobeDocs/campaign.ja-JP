@@ -7,22 +7,29 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-TQID: https://experienceleague.adobe.com/0JDPFM3PDI61vx3CPPveqw5Cta5AujFIngrbbD6V-tY
+TQID: 'https://experienceleague.adobe.com/0JDPFM3PDI61vx3CPPveqw5Cta5AujFIngrbbD6V-tY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: '744'
 ht-degree: 1%
-
 ---
-
 # トランザクションメッセージの管理 {#managing-transactional-messages}
 
 >[!AVAILABILITY]
@@ -33,8 +40,8 @@ ht-degree: 1%
 
 例えば、顧客のひとりがカート内の商品を購入する前にweb サイトを離れるたびに、「カート放棄」イベントがトリガーされるようにします。 これを行うには、Web開発者として、REST トランザクションメッセージ APIを使用する必要があります。
 
-1. POST メソッドに従ってリクエストを送信します。これにより、トランザクションイベント [&#128279;](#sending-a-transactional-event)の送信がトリガーされます。
-1. POST リクエストへのレスポンスにはプライマリキーが含まれており、GET リクエストを通じて1つまたは複数のリクエストを送信できます。 次に、[&#x200B; イベントステータス &#x200B;](#transactional-event-status)を取得できます。
+1. POST メソッドに従ってリクエストを送信します。これにより、トランザクションイベント ](#sending-a-transactional-event)の[送信がトリガーされます。
+1. POST リクエストへのレスポンスにはプライマリキーが含まれており、GET リクエストを通じて1つまたは複数のリクエストを送信できます。 次に、[ イベントステータス ](#transactional-event-status)を取得できます。
 
 ## トランザクションイベントの送信 {#sending-a-transactional-event}
 

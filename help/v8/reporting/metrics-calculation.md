@@ -4,21 +4,31 @@ description: ビルトインのレポート指標の計算
 feature: Reporting
 role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-TQID: https://experienceleague.adobe.com/YmXVTLb7YprsFybV4JXJQuFdqtS8LNKIbfIZOAabsWI
+TQID: 'https://experienceleague.adobe.com/YmXVTLb7YprsFybV4JXJQuFdqtS8LNKIbfIZOAabsWI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3139
-ht-degree: 92%
-
+source-wordcount: '3155'
+ht-degree: 100%
 ---
-
 # ビルトインのレポート指標の計算 {#metrics-calculation}
 
 ## ユーザーアクティビティ {#user-activities-1}
@@ -54,13 +64,13 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-このレポートは、**[!UICONTROL 統合トラッキング]** テーブル （nms:trackingStats）に基づいています。 この集計テーブルは、レポートを表示する際に、受信者トラッキングログ **テーブル （nms:trackingLogRcp）の代わりにパフォーマンス上の理由で使用され、リアルタイムで計算されません。**&#x200B;テーブルは、トラッキングログを取得して数分後に生成されます。 指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。 @totalclicks の指標は、5 分間のクリック総数を示しています。
+このレポートは、**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）に基づいています。 この集計テーブルは、**[!UICONTROL 受信者トラッキングログ]**&#x200B;テーブル（nms:trackingLogRcp）の代わりにレポートを表示する際のパフォーマンス上の理由で使用され、リアルタイムでは計算されません。 テーブルは、トラッキングログを取得して数分後に生成されます。 指標が最新である場合は、結果は&#x200B;**トラッキング指標**&#x200B;レポートの指標と同じになります。 @totalclicks の指標は、5 分間のクリック総数を示しています。
 
 ## 配信不能件数とバウンス数 {#non-deliverables-and-bounces-1}
 
 **エラータイプ別の分類**
 
-このレポートは、**[!UICONTROL 配信およびトラッキング統計]** テーブル （nms:deliveryLogStats）に基づいています。
+このレポートは、**[!UICONTROL 配信およびトラッキング統計]**&#x200B;テーブル（nms:deliveryLogStats）に基づいています。
 
 <table> 
  <thead> 
@@ -141,7 +151,7 @@ ht-degree: 92%
 
 ## ブラウザー {#browsers-1}
 
-このレポートは、**[!UICONTROL Internet Browser Statistics]** テーブル （nms:userAgentsStats）に基づいています。
+このレポートは、**[!UICONTROL インターネットブラウザーの統計]**&#x200B;テーブル（nms:userAgentsStats）に基づいています。
 
 **グローバル統計**
 
@@ -211,7 +221,7 @@ ht-degree: 92%
 
 ## ソーシャルネットワークへの共有 {#sharing-to-social-networks-1}
 
-このレポートは、**[!UICONTROL 配信]** （nms:delivery）、**[!UICONTROL 統合トラッキング]** （nms:trackingStats）、**[!UICONTROL Web トラッキング]** （nms:webTrackingLog）の各テーブルに基づいています。
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）、**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）および **[!UICONTROL web トラッキング]**&#x200B;テーブル（nms:webTrackingLog）に基づいています。
 
 <table> 
  <thead> 
@@ -348,7 +358,7 @@ ht-degree: 92%
 
 ## 共有アクティビティの統計 {#statistics-on-sharing-activities-1}
 
-このレポートは、**[!UICONTROL 配信]** （nms:delivery）、**[!UICONTROL 統合トラッキング]** （nms:trackingStats）、**[!UICONTROL Web トラッキング]** （nms:webTrackingLog）の各テーブルに基づいています。
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）、**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）および **[!UICONTROL web トラッキング]**&#x200B;テーブル（nms:webTrackingLog）に基づいています。
 
 <table> 
  <thead> 
@@ -364,7 +374,7 @@ ht-degree: 92%
    <td> 新しい連絡先<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> 受信者にリンクされている訪問者の数。<br /> </td> 
-   <td> 数式：count （@id） <br /> フィルター：@recipient-id != 0<br /> </td> 
+   <td> 式：count(@id)<br /> フィルター：@recipient-id<br /> </td> 
   </tr> 
   <tr> 
    <td> 開封数<br /> </td> 
@@ -383,7 +393,7 @@ ht-degree: 92%
 
 ## オペレーティングシステム {#operating-systems-1}
 
-このレポートは、**[!UICONTROL Internet Browser Statistics]** テーブル （nms:userAgentsStats）に基づいています。
+このレポートは、**[!UICONTROL インターネットブラウザーの統計]**&#x200B;テーブル（nms:userAgentsStats）に基づいています。
 
 **グローバル統計**
 
@@ -453,7 +463,7 @@ ht-degree: 92%
 
 ## 購読のトラッキング {#subscription-tracking-1}
 
-このレポートは、**[!UICONTROL Services]** テーブル （nms:service）に基づいています。
+このレポートは、**[!UICONTROL サービス]**&#x200B;テーブル（nms:service）に基づいています。
 
 <table> 
  <thead> 
@@ -500,7 +510,7 @@ ht-degree: 92%
 
 ## トラッキング指標 {#tracking-indicators-1}
 
-このレポートは、**[!UICONTROL 配信およびトラッキング統計]** （nms:deliveryLogStats）および&#x200B;**[!UICONTROL 統合トラッキング]** （nms:trackingStats）テーブルに基づいています。
+このレポートは、**[!UICONTROL 配信およびトラッキング統計]**&#x200B;テーブル（nms:deliveryLogStats）および&#x200B;**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）に基づいています。
 
 <table> 
  <thead> 
@@ -697,7 +707,7 @@ ht-degree: 92%
 
 ## URL とクリックストリーム {#urls-and-click-streams-1}
 
-このレポートは、**[!UICONTROL 配信]** テーブル （nms:delivery）に基づいています。
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）に基づいています。
 
 <table> 
  <thead> 
@@ -731,7 +741,7 @@ ht-degree: 92%
    <td> クリック数<br /> </td> 
    <td> @_click<br /> </td> 
    <td> URL のプライマリキーが 1 ではないすべての @totalClicks の数。<br /> </td> 
-   <td> count （Iif （[@url-id] != 1, @totalClicks, 0）） <br /> </td> 
+   <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> クリック（％）<br /> </td> 
@@ -744,7 +754,7 @@ ht-degree: 92%
 
 ## 配信の概要 {#delivery-summary-1}
 
-このレポートは、**[!UICONTROL 配信]** テーブル （nms:delivery）に基づいています。
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）に基づいています。
 
 <table> 
  <thead> 
@@ -797,13 +807,13 @@ ht-degree: 92%
 
 ## ホットクリック {#hot-clicks-1}
 
-このレポートは、配信（nms:delivery）および&#x200B;**[!UICONTROL 統合トラッキング]** （nms:trackingStats）テーブルに基づいています。
+このレポートは、配信テーブル（nms:delivery）および&#x200B;**[!UICONTROL 統合されたトラッキング]**&#x200B;テーブル（nms:trackingStats）に基づいています。
 
 このレポートは、各リンクでのメッセージのコンテンツ（HTML および／またはテキスト）を、リンクでのクリック率と共に表示します。 パーソナライゼーションブロックの購読解除リンクおよびミラーページリンクは、累積クリック数の合計では考慮されますが、レポートには表示されません。
 
 ## トラッキング統計 {#tracking-statistics-1}
 
-このレポートは、**[!UICONTROL 配信]** テーブル （nms:delivery）に基づいています。
+このレポートは、**[!UICONTROL 配信]**&#x200B;テーブル（nms:delivery）に基づいています。
 
 <table> 
  <thead> 
@@ -838,7 +848,7 @@ ht-degree: 92%
 
 ## 配信統計 {#delivery-statistics-1}
 
-このレポートは、**[!UICONTROL 配信およびトラッキング統計]** テーブル （nms:deliveryLogStats）に基づいています。
+このレポートは、**[!UICONTROL 配信およびトラッキング統計]**&#x200B;テーブル（nms:deliveryLogStats）に基づいています。
 
 <table> 
  <thead> 
@@ -897,7 +907,7 @@ ht-degree: 92%
 
 ## 開封数の分類 {#breakdown-of-opens-1}
 
-このレポートは、**配信** （nms:delivery）および&#x200B;**トラッキングログ** （nms:trackingLogRcp）テーブルに基づいています。
+このレポートは、**配信**&#x200B;テーブル（nms:delivery）および&#x200B;**トラッキングログ**&#x200B;テーブル（nms:trackingLogRcp）に基づいています。
 
 <table> 
  <thead> 
@@ -920,7 +930,7 @@ ht-degree: 92%
 
 ## その他の指標 {#other-indicators}
 
-**送信済み** インジケーター（@sent）、**配信（nms:delivery）/インジケーター** ノードを介してアクセスした場合、サービスプロバイダーに送信されたSMSの合計数に対応します。 この指標は SMS の配信にのみ使用され、他のタイプの配信には使用できません（**@success** 指標および **@processed** 指標と混同しないようにするため）。
+**配信（nms:delivery）／指標**&#x200B;ノード経由でアクセスできる「**送信済み**」の指標（@sent）は、サービスプロバイダーに送信された SMS の合計数に対応しています。 この指標は SMS の配信にのみ使用され、他のタイプの配信には使用できません（**@success** 指標および **@processed** 指標と混同しないようにするため）。
 
 ## 指標の同期 {#indicator-synchronization}
 

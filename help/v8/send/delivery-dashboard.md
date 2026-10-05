@@ -6,26 +6,38 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 254765d3-f664-4200-9a70-f8876f2b2933
-TQID: https://experienceleague.adobe.com/pkDQp2NsMTR2iy9QsA3NjxJs-h-wud0pKdqOuE3foIs
+TQID: 'https://experienceleague.adobe.com/pkDQp2NsMTR2iy9QsA3NjxJs-h-wud0pKdqOuE3foIs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1207
+source-wordcount: '1207'
 ht-degree: 71%
-
 ---
-
 # Campaign UIでの配信の監視 {#delivery-dashboard}
 
 配信を監視することは、キャンペーンを効率的に実施し、顧客にリーチするために不可欠です。 Adobe Campaignには、配信リストと配信ダッシュボードを通じて、配信にアクセスし、そのパフォーマンスを監視するためのツールが用意されています。
@@ -86,7 +98,7 @@ ht-degree: 71%
 
 「**[!UICONTROL 配信]**」タブには、この配信内で発生した事象の履歴が表示されます。 このタブには、配信ログ、つまり、送信されたメッセージのリストとそのステータスおよび関連メッセージが含まれます。
 
-1 つの配信について、（例えば）配信が失敗した受信者や、アドレスが強制隔離中の受信者のみを表示できます。 そのためには、「**[!UICONTROL フィルター]**」ボタンをクリックして、「**[!UICONTROL ステータス別]**」を選択します。 ドロップダウンリストでステータスを選択します。 様々なステータスが[配信ステータス ページ &#x200B;](delivery-statuses.md)に一覧表示されます。
+1 つの配信について、（例えば）配信が失敗した受信者や、アドレスが強制隔離中の受信者のみを表示できます。 そのためには、「**[!UICONTROL フィルター]**」ボタンをクリックして、「**[!UICONTROL ステータス別]**」を選択します。 ドロップダウンリストでステータスを選択します。 様々なステータスが[配信ステータス ページ ](delivery-statuses.md)に一覧表示されます。
 
 >[!NOTE]
 >
@@ -96,7 +108,7 @@ ht-degree: 71%
 
 「**[!UICONTROL このメッセージのミラーページを表示]**」リンクを使用して、リストから選択した配信のコンテンツのミラーページを新しいウィンドウに表示できます。
 
-ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示できます。 詳しくは、[&#x200B; ミラーページへのリンク &#x200B;](mirror-page.md)を参照してください。
+ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示できます。 詳しくは、[ ミラーページへのリンク ](mirror-page.md)を参照してください。
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -159,7 +171,7 @@ ht-degree: 71%
 
 ### IP アドレスのレピュテーションの問題
 
-一部のメールプロバイダーが、ブロックリストに IP アドレスを追加している可能性があります。 レピュテーションの問題を示すバウンスメッセージについては、**[!UICONTROL 配信]** タブで配信ログ（ブロードログ）を確認してください。 レピュテーション管理に関するガイダンスについては、[配信品質モニタリング &#x200B;](monitoring-deliverability.md) セクションを参照してください。
+一部のメールプロバイダーが、ブロックリストに IP アドレスを追加している可能性があります。 レピュテーションの問題を示すバウンスメッセージについては、**[!UICONTROL 配信]** タブで配信ログ（ブロードログ）を確認してください。 レピュテーション管理に関するガイダンスについては、[配信品質モニタリング ](monitoring-deliverability.md) セクションを参照してください。
 
 ### 配信のサイズと複雑さ
 
@@ -169,7 +181,7 @@ JavaScriptを詳細にパーソナライズするには、受信者ごとに膨�
 
 HTMLのコンテンツが大きく、画像が組み込まれているか、大規模なパーソナライゼーションが原因で、重さが60 キロバイトを超える配信。
 
-コンテンツガイドラインとパーソナライゼーションのベストプラクティスについて詳しくは、[配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md)を参照してください。 最適なパフォーマンスを得るために、推奨される最大サイズは約35 KBです。
+コンテンツガイドラインとパーソナライゼーションのベストプラクティスについて詳しくは、[配信のベストプラクティス ](../start/delivery-best-practices.md)を参照してください。 最適なパフォーマンスを得るために、推奨される最大サイズは約35 KBです。
 
 ### システムパフォーマンス
 

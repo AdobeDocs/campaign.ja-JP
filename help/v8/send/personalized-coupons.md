@@ -6,24 +6,32 @@ feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d5af1f98-42e8-4909-b2e6-be65c50c9874
-TQID: https://experienceleague.adobe.com/RTn-nTK3YjtekmBU9BcSIK05n0eJX2EImRsJlHAUG48
+TQID: 'https://experienceleague.adobe.com/RTn-nTK3YjtekmBU9BcSIK05n0eJX2EImRsJlHAUG48'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 95%
-
+source-wordcount: '971'
+ht-degree: 98%
 ---
-
 # パーソナライズされたクーポン{#personalized-coupons}
 
 配信へのクーポンの追加は、受信者に対して、商品およびサービスの価値を高めます。 Campaign クーポンモジュールを使用して、今後のマーケティングオファーに追加するためのクーポンのセットを作成できます。 配信を作成する準備ができたら、適切なクーポンを割り当てます。 クーポンは限定された期間のみ有効なので、割り当てたクーポンはその配信メッセージに一意にリンクされます。 また、Campaign は、配信が送信される前に、メッセージ数に対して十分なクーポンがあることを確認します。
@@ -59,7 +67,7 @@ ht-degree: 95%
 
    **[!UICONTROL 匿名クーポン]**：匿名クーポンは、すべての受信者で同一です。 **クーポンタイプ**&#x200B;メニューで「匿名」が選択されていることを確認し、「**保存**」をクリックして、クーポンを生成します。
 
-   **[!UICONTROL 個人クーポン]**：個人クーポンは、追加のクーポンコードでさらにパーソナライズできます。 例えば、スポーツ用品店でのセール用に個人クーポンを作成するとします。 しかし、受信者のリストは長く、1 つの競技に対する情熱は人それぞれです。 スポーツ（サッカー、サッカー、野球など）に基づいて、個々のクーポンのコード名を追加できます。 各コードを該当する受信者に送信します。
+   **[!UICONTROL 個人クーポン]**：個人クーポンは、追加のクーポンコードでさらにパーソナライズできます。 例えば、スポーツ用品店でのセール用に個人クーポンを作成するとします。 しかし、受信者のリストは長く、1 つの競技に対する情熱は人それぞれです。 競技（例えば、サッカー、フットボール、野球など）に基づいて個人クーポンのコード名を追加して、 各コードを適切な受信者に送信できます。
 
    1. 「個人」を選択すると、「クーポン」という新しいタブが左下に表示されます。 「**[!UICONTROL クーポン]**」タブに移動して、「**[!UICONTROL 追加]**」をクリックします。
    1. 入力を促すポップアップウィンドウが表示されたら、個人クーポンの一意のコードを入力します。

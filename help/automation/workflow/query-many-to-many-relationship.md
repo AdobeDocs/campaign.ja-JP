@@ -6,19 +6,28 @@ feature: Query Editor
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-TQID: https://experienceleague.adobe.com/BnWR5Pz41h-CeMuyGKXKBmhRHGcuSShWerJpOWAN7W0
+TQID: 'https://experienceleague.adobe.com/BnWR5Pz41h-CeMuyGKXKBmhRHGcuSShWerJpOWAN7W0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 483
-ht-degree: 96%
-
+source-wordcount: '483'
+ht-degree: 100%
 ---
-
 # 多対多の関係を使用したクエリ {#querying-using-a-many-to-many-relationship}
 
 
@@ -29,7 +38,7 @@ ht-degree: 96%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者テーブル （**nms:recipient**）
+  受信者テーブル（**nms:recipient**）
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -41,7 +50,7 @@ ht-degree: 96%
 
 次の手順に従います。
 
-1. 汎用クエリエディターを開き、受信者テーブル **[!UICONTROL （nms:recipient）]**&#x200B;を選択します。
+1. 汎用クエリエディターを開き、受信者テーブル&#x200B;**[!UICONTROL （nms:recipient）]**&#x200B;を選択します。
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL プライマリキー]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL 姓]**」および「**[!UICONTROL メール]**」を選択します。
 
    ![](assets/query_editor_nveau_33.png)
@@ -71,7 +80,7 @@ ht-degree: 96%
 
      ![](assets/query_editor_nveau_38.png)
 
-1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。 次のステップに進みます。**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
+1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。 次のステップに進みます。************
 
    ![](assets/query_editor_nveau_39.png)
 

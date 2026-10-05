@@ -5,25 +5,33 @@ feature: Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
-TQID: https://experienceleague.adobe.com/6Yc3zbm-RSMwE6T9kLrko6TcW54uUnLM5ItNYq-iohA
+TQID: 'https://experienceleague.adobe.com/6Yc3zbm-RSMwE6T9kLrko6TcW54uUnLM5ItNYq-iohA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
 subfeature_v2:
   - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: '856'
 ht-degree: 78%
-
 ---
-
 # キャンペーンの基本を学ぶ {#gs-ac-campaigns}
 
 Adobe Campaign が提供する一連のソリューションを使用すると、オンラインとオフラインのすべてのチャネルで、キャンペーンをパーソナライズして配信することができます。 マーケティングキャンペーンの作成、設定、実施、分析などを行うことができます。 すべてのマーケティングキャンペーンを統合コントロールセンターから管理できます。 この節では、マーケティングキャンペーンの参照および作成方法について説明します。
@@ -68,7 +76,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    階層とスケジュールを定義し、予算を設定し、リソースを追加して、オペレーターを選択します。
 
-   マーケティングプランの作成方法とキャンペーンの設定方法については、[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja){target="_blank"}を参照してください。
+   マーケティングプランの作成方法とキャンペーンの設定方法については、[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja){target="_blank"}を参照してください。
 
    すべてのマーケティングキャンペーンは、主な設定と機能を定義したテンプレートに基づいています。 特定の設定が定義されていないキャンペーンを作成するために、ビルトインのテンプレートが用意されています。 キャンペーンテンプレートを作成および設定して、そのテンプレートからキャンペーンを作成することができます。
 
@@ -92,7 +100,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    マーケティングキャンペーン配信を作成し開始する方法について詳しくは、[このページ](../../automation/campaigns/marketing-campaign-deliveries.md)を参照してください。
 
-   レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。関連ドキュメントについて詳しくは、[このページ &#x200B;](../../automation/campaigns/marketing-campaign-assets.md)を参照してください。
+   レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。関連ドキュメントについて詳しくは、[このページ ](../../automation/campaigns/marketing-campaign-assets.md)を参照してください。
 
 1. **承認プロセスの設定**
 
@@ -107,9 +115,9 @@ Adobe Campaignでは、中央エンティティ（本社、マーケティング
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
 
-[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}でCampaignの分散型マーケティング機能を設定および使用する方法について説明します。
+[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}でCampaignの分散型マーケティング機能を設定および使用する方法について説明します。
 
 ## 応答管理アドオン{#response-manager-add-on}
 
@@ -117,6 +125,6 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
 
-[&#128279;](../assets/do-not-localize/book.png) Campaign Response Managerの設定と使用方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}を参照してください。
+[](../assets/do-not-localize/book.png) Campaign Response Managerの設定と使用方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}を参照してください。

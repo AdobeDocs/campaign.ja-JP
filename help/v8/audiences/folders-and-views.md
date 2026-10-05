@@ -6,28 +6,44 @@ role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/JeoAcZo-o2JlrbFAHdwYfOS4Ij-HjZW3x9171G9g5fc
+TQID: 'https://experienceleague.adobe.com/JeoAcZo-o2JlrbFAHdwYfOS4Ij-HjZW3x9171G9g5fc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 727
+source-wordcount: '729'
 ht-degree: 96%
-
 ---
-
 # フォルダーとビューの管理 {#folders-and-views}
 
 Campaign フォルダーは、エクスプローラーツリー内のノードです。 タイプに基づいて、特定のタイプのデータが含まれます。
@@ -49,8 +65,8 @@ Campaign フォルダーは、エクスプローラーツリー内のノード�
 
 * **命名規則の定義と適用**&#x200B;を行います。例えば、ワークフローにアルファベット順に名前を付け、次のように実行順に並べ替えて表示することができます。
 
-  A1 – 受信者の読み込み、10:00から始まります。
-A2 - チケットの読み込み（11:00から）。
+  A1 – 受信者のインポート、10:00から開始
+  A2 - チケットのインポートは、11:00から開始します。
 
 ## フォルダーを作成{#create-a-folder}
 

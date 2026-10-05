@@ -6,22 +6,29 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
-TQID: https://experienceleague.adobe.com/G8-4BinRvCMosfdiTD6FuEztviEDn6ea8hKeQd8QVSA
+TQID: 'https://experienceleague.adobe.com/G8-4BinRvCMosfdiTD6FuEztviEDn6ea8hKeQd8QVSA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 100%
-
 ---
-
 # パーソナライゼーションの基本を学ぶ {#personalize-content}
 
 すべてのマーケティングキャンペーンを最大限に活用するために、Adobe Campaign では、顧客のレベルに応じたカスタムコンテンツを配信する方法を提供します。 プロファイルデータに基づいて、様々なグループや個人向けにカスタムエクスペリエンスを作成するパーソナライゼーション機能。受信者に関するデータと情報を活用して、特定の受信者ごとにメッセージを適応させることができます。 名前、興味、住んでいる場所、購入したものなど、様々な情報が考えられます。
@@ -81,4 +88,4 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 様々なタイプの動的コンテンツの概要と、パーソナライゼーションブロックと条件付きステートメントを作成して配信に適用する方法を説明します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/3452865?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)

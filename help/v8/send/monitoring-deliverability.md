@@ -6,22 +6,30 @@ feature: Deliverability
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
-TQID: https://experienceleague.adobe.com/vLLMfBeoa-v0XWTC-l6-Bzkb3fyTq3dWr6WVJadw2vA
+TQID: 'https://experienceleague.adobe.com/vLLMfBeoa-v0XWTC-l6-Bzkb3fyTq3dWr6WVJadw2vA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Troubleshooting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 57%
-
 ---
-
 # 配信品質の監視{#monitoring-deliverability}
 
 以下に、Adobe Campaign に用意されている様々な監視ツールの詳細と、Adobe Campaign で提供される機能を活用してプラットフォームの配信品質を監視する方法に関するその他のガイドラインを示します。
@@ -32,7 +40,7 @@ Adobe Campaignでは、次の配信品質ツールにアクセスできます。
 
 ### 受信ボックスレンダリング {#inbox-rendering-tool}
 
-[受信トレイ レンダリング レポート &#x200B;](inbox-rendering.md)を使用すると、コンテンツとレピュテーションをスキャンするために、主要な電子メールクライアントでメッセージをプレビューできます。
+[受信トレイ レンダリング レポート ](inbox-rendering.md)を使用すると、コンテンツとレピュテーションをスキャンするために、主要な電子メールクライアントでメッセージをプレビューできます。
 
 ### 配信スループット {#throughput-reports}
 
@@ -104,12 +112,12 @@ Adobe Campaignでは、次の配信品質ツールにアクセスできます。
 
 ## 関連トピック
 
-[Adobe配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}では、配信品質の戦略、定義、指標、ベストプラクティスに関する包括的なガイダンスを提供しています。
+[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}では、配信品質の戦略、定義、指標、ベストプラクティスに関する包括的なガイダンスを提供しています。
 
 [配信品質とは](about-deliverability.md)では、主要な配信品質の概念と、Campaignで配信品質を向上させる方法について説明します。
 
-[配信エラーとバウンス &#x200B;](delivery-failures.md)は、様々な種類の配信エラーについて説明し、Campaignでの対処方法を説明します。また、一般的な問題に対するトラブルシューティングのガイダンスも含まれます。
+[配信エラーとバウンス ](delivery-failures.md)は、様々な種類の配信エラーについて説明し、Campaignでの対処方法を説明します。また、一般的な問題に対するトラブルシューティングのガイダンスも含まれます。
 
 [強制隔離の管理](quarantines.md)では、Campaignが強制隔離されたアドレスを管理して、送信レピュテーションを保護する方法について説明します。
 
-[&#x200B; メッセージのコンテンツを制御](control-message-content.md)は、コンテンツが配信品質に最適化されていることを確認する方法に関するガイダンスを提供します。
+[ メッセージのコンテンツを制御](control-message-content.md)は、コンテンツが配信品質に最適化されていることを確認する方法に関するガイダンスを提供します。

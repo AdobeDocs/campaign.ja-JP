@@ -5,24 +5,40 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-TQID: https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk
+TQID: 'https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: ebf2bfe1-e099-5c32-ac1e-1865f8050ffc
+    internal-label: External Account
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2243
+source-wordcount: '2243'
 ht-degree: 40%
-
 ---
-
 # 外部アカウントの設定 {#config-external-accounts}
 
 Adobe Campaignには、事前に定義された一連の外部アカウントが付属しています。 外部システムとの接続を設定するには、新しい外部アカウントを作成します。
@@ -38,7 +54,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 >
 >* Managed Cloud Services ユーザーの場合、外部アカウントは、お使いのインスタンス用にアドビが設定するので、変更してはなりません。
 >
->* [Enterprise （FFDA） デプロイメント &#x200B;](../architecture/enterprise-deployment.md)のコンテキストでは、特定の&#x200B;**[!UICONTROL フル FDA]** （ffda）外部アカウントが、Campaign ローカルデータベースとCloud データベース （[!DNL Snowflake]）の間の接続を管理します。
+>* [Enterprise （FFDA） デプロイメント ](../architecture/enterprise-deployment.md)のコンテキストでは、特定の&#x200B;**[!UICONTROL フル FDA]** （ffda）外部アカウントが、Campaign ローカルデータベースとCloud データベース （[!DNL Snowflake]）の間の接続を管理します。
 >
 
 ## Campaign 固有の外部アカウント {#ac-external-accounts}
@@ -49,7 +65,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 >[!NOTE]
 >
->Microsoft Exchange Online OAuth 2.0認証のPOP3機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
+>Microsoft Exchange Online OAuth 2.0認証のPOP3機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
 >
 
 **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。 POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。
@@ -109,7 +125,7 @@ Microsoft OAuth 2.0を使用してPOP3外部アカウントを設定するには
 
 >[!NOTE]
 >
->Adobe Campaign v8と互換性のある外部データベースは、[互換性マトリックス &#x200B;](../start/compatibility-matrix.md)に記載されています。 FDA接続では、ODBC ドライバーを使用します。Adobe Campaign Managed Cloud Servicesでは、ODBC ドライバーと外部アカウント設定はAdobeによって設定されます。
+>Adobe Campaign v8と互換性のある外部データベースは、[互換性マトリックス ](../start/compatibility-matrix.md)に記載されています。 FDA接続では、ODBC ドライバーを使用します。Adobe Campaign Managed Cloud Servicesでは、ODBC ドライバーと外部アカウント設定はAdobeによって設定されます。
 
 外部アカウント設定は、データベースエンジンによって異なります。 Adobe Campaign Managed Cloud Servicesでは、外部アカウントの設定はAdobeによって実行されます。
 
@@ -120,14 +136,14 @@ Campaign Web ユーザーインターフェイス（v8）については、次�
 
 Campaign Web UI ページには、**外部データベース** プロバイダータイプのより包括的なリストが表示されます。次の項目を含みます。
 
-* **[Amazon Redshift](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#amazon-redshift){target="_blank"}** / **[Amazon Redshift （レガシー） &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#amazon-redshift-legacy){target="_blank"}** - CampaignをAWS Redshift Cloud Data Warehouse環境に接続します。
+* **[Amazon Redshift](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#amazon-redshift){target="_blank"}** / **[Amazon Redshift （レガシー） ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#amazon-redshift-legacy){target="_blank"}** - CampaignをAWS Redshift Cloud Data Warehouse環境に接続します。
 * **[Azure Synapse Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#azure-synapse-analytics){target="_blank"}** - CampaignをMicrosoft Azure Synapse専用のSQL プールに接続します。
 * **[Databricks](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#databricks){target="_blank"}** - CampaignをDatabricks SQLおよびレイクハウスのワークロードに接続します。
 * **[Google BigQuery](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#google-bigquery){target="_blank"}** - CampaignをGoogle Cloud BigQuery分析データセットに接続します。
 * **[Microsoft SQL Server](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#microsoft-sql-server){target="_blank"}** - CampaignをオンプレミスまたはホストされているSQL Server データベースに接続します。
 * **[MySQL](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#mysql){target="_blank"}** - フェデレーションクエリとワークフロー用にCampaignをMySQL データベースに接続します。
 * **[Netezza](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#netezza){target="_blank"}** - CampaignをIBM Netezza / Performance Server システムに接続します。
-* **[ODBC （Sybase ASE、Sybase IQ） &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#odbc-sybase-ase-sybase-iq){target="_blank"}** - CampaignをODBC経由でSybase データベース エンジンに接続します。
+* **[ODBC （Sybase ASE、Sybase IQ） ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#odbc-sybase-ase-sybase-iq){target="_blank"}** - CampaignをODBC経由でSybase データベース エンジンに接続します。
 * **[リモートデータベースへのHTTP リレー](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#http-relay-to-remote-database){target="_blank"}** - HTTP リレーエンドポイントを介してリモートデータベースに接続します。
 * **[Oracle](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#oracle){target="_blank"}** - CampaignをOracle データベースに接続して、フェデレーションアクセスのユースケースを実現します。
 * **[PostgreSQL](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#postgresql){target="_blank"}** - FDA外部アカウントを使用してCampaignをPostgreSQL データベースに接続します。
@@ -137,13 +153,13 @@ Campaign Web UI ページには、**外部データベース** プロバイダ�
 * **[Vertica Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}** - CampaignをOpenText Vertica Analytics データベースに接続します。
 * **[Microsoft Fabric](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** - CampaignをMicrosoft Fabric SQLおよびストレージサービスに接続します。
 
-従来のクライアントコンソールの詳細とその他の参照については、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}を参照してください。
+従来のクライアントコンソールの詳細とその他の参照については、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}を参照してください。
 
 #### Databricks外部アカウント {#databricks-external-accounts}
 
 Databricks FDA接続では、Databricks ODBC ドライバーが使用されます。 Campaign v8.9.1以降、Databricks外部アカウントは、サービスプリンシパル（非インタラクティブなクライアント資格情報フロー）を介したOAuth2認証をサポートし、フェデレーションデータアクセスに対する安全な認証を提供します。
 
-サービスプリンシパルについて詳しくは、[Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals){target="_blank"}を参照してください。
+サービスプリンシパルについて詳しくは、[Microsoft ドキュメント ](https://learn.microsoft.com/en-us/azure/databricks/admin/users-groups/service-principals){target="_blank"}を参照してください。
 
 Campaignのサービスプリンシパルを使用してOAuth2認証を設定するには：
 
@@ -156,13 +172,13 @@ Campaignのサービスプリンシパルを使用してOAuth2認証を設定す
 
 Snowflake FDA接続では、Snowflake ODBC ドライバーが使用されます。 Campaign v8.9.1以降、Snowflakeの外部アカウントはOAuth2認証をサポートし、フェデレーションデータアクセスに対する安全な認証を提供します。
 
-SnowflakeのOAuthについて詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/user-guide/oauth-intro){target="_blank"}を参照してください。
+SnowflakeのOAuthについて詳しくは、[Snowflake ドキュメント ](https://docs.snowflake.com/en/user-guide/oauth-intro){target="_blank"}を参照してください。
 
 まず、Snowflakeで次の手順を実行する必要があります。
 
 1. OAuth 2.0を使用してSnowflake外部アカウントを設定する前に、まずSnowflakeでOAuth Security Integrationを作成する必要があります。 セキュリティ統合を作成するには、**ACCOUNTADMIN**&#x200B;の役割が必要です。
 
-   OAuth セキュリティ統合の作成について詳しくは、[Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration-oauth-snowflake){target="_blank"}を参照してください。
+   OAuth セキュリティ統合の作成について詳しくは、[Snowflake ドキュメント ](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration-oauth-snowflake){target="_blank"}を参照してください。
 
 1. 次に、次を使用してクライアント IDとクライアントシークレットをクエリできます。
 
@@ -176,7 +192,7 @@ CampaignでOAuth2認証を設定するには、次の手順に従います。
 
 1. サーバー、データベース、スキーマを設定し、**[!UICONTROL OAuth]** タブを開きます。
 
-1. **[!UICONTROL クライアント ID]**、**[!UICONTROL クライアントシークレット]**&#x200B;および&#x200B;**[!UICONTROL リダイレクト URL]**&#x200B;のセキュリティ統合パラメーターを設定します。 これらのパラメーターは、Snowflake OAuth Security Integrationから取得されます。 [Snowflake ドキュメント &#x200B;](https://docs.snowflake.com/en/user-guide/oauth-custom){target="_blank"}を参照してください。
+1. **[!UICONTROL クライアント ID]**、**[!UICONTROL クライアントシークレット]**&#x200B;および&#x200B;**[!UICONTROL リダイレクト URL]**&#x200B;のセキュリティ統合パラメーターを設定します。 これらのパラメーターは、Snowflake OAuth Security Integrationから取得されます。 [Snowflake ドキュメント ](https://docs.snowflake.com/en/user-guide/oauth-custom){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL ログインに進む]**」をクリックして、手動ログインを実行します。 新しいブラウザーウィンドウが開き、Snowflake ユーザーの資格情報を入力するよう求められます。
 
@@ -192,11 +208,11 @@ CampaignでOAuth2認証を設定するには、次の手順に従います。
 
 ## Adobeソリューションとの統合の外部アカウント {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部アカウントは、Adobe Identity Management サービス（IMS）を実装してAdobe Campaignに接続するために使用されます。 Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#logon-to-ac)を参照してください。
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部アカウントは、Adobe Campaignに接続するためにAdobe Identity Management Service （IMS）を実装するために使用されます。 Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#logon-to-ac)を参照してください。
 
 * **Web 分析** - **[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントは、Adobe Analytics から Adobe Campaign へのデータ転送を設定するために使用します。 Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
-* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。 Adobe CampaignとAdobe Experience Managerの連携について詳しくは、[このページ &#x200B;](../connect/ac-aem.md)を参照してください。
+* **Adobe Experience Manager** - **[!UICONTROL AEM]** 外部アカウントを使用すれば、メール配信とフォームのコンテンツを Adobe Experience Manager で直接管理できます。 Adobe CampaignとAdobe Experience Managerの連携について詳しくは、[このページ ](../connect/ac-aem.md)を参照してください。
 
 
 ## CRM コネクタの外部アカウント {#crm-external-accounts}
@@ -219,28 +235,28 @@ CampaignでOAuth2認証を設定するには、次の手順に従います。
 
 * **Amazon Simple Storage Service（S3）** - **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータのインポートまたはエクスポートに使用できます。 この外部アカウントを設定する場合は、次の詳細を指定する必要があります。
 
-   * **[!UICONTROL AWS S3 Account Server]**：フォーム `<S3bucket name>.s3.amazonaws.com/<s3object path>`のサーバーのURL。
+  * **[!UICONTROL AWS S3 Account Server]**：フォーム `<S3bucket name>.s3.amazonaws.com/<s3object path>`のサーバーのURL。
 
-   * **[!UICONTROL AWS アクセスキー ID]**：AWS アクセスキー ID の見つけ方については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
+  * **[!UICONTROL AWS アクセスキー ID]**：AWS アクセスキー ID の見つけ方については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
 
-   * **[!UICONTROL AWS への秘密アクセスキー]**：AWS への秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/){target="_blank"}を参照してください。
+  * **[!UICONTROL AWS への秘密アクセスキー]**：AWS への秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/){target="_blank"}を参照してください。
 
-   * **[!UICONTROL AWS リージョン]**：AWS リージョンについて詳しくは、 [Amazon ドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}を参照してください。
+  * **[!UICONTROL AWS リージョン]**：AWS リージョンについて詳しくは、 [Amazon ドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}を参照してください。
 
-   * 「**[!UICONTROL サーバーサイド暗号化を使用]**」チェックボックスを使用すると、ファイルをS3暗号化モードで保存できます。 アクセスキー ID と秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
+  * 「**[!UICONTROL サーバーサイド暗号化を使用]**」チェックボックスを使用すると、ファイルをS3暗号化モードで保存できます。 アクセスキー ID と秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
 
 * **Azure BLOB ストレージ** - **Azure** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティで Adobe Campaign との間でデータをインポートまたはエクスポートできます。 **Azure** 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
 
-   * **[!UICONTROL サーバー]**：Azure BLOB ストレージサーバーの URL。
+  * **[!UICONTROL サーバー]**：Azure BLOB ストレージサーバーの URL。
 
-   * **[!UICONTROL 暗号化]**：暗号化の種類：**[!UICONTROL なし]**&#x200B;または&#x200B;**[!UICONTROL SSL]**。
+  * **[!UICONTROL 暗号化]**：暗号化の種類：**[!UICONTROL なし]**&#x200B;または&#x200B;**[!UICONTROL SSL]**。
 
-   * **[!UICONTROL アクセスキー]**：ご利用の&#x200B;**[!UICONTROL アクセスキー]**&#x200B;を確認する方法については、[Microsoft ドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}を参照してください。
+  * **[!UICONTROL アクセスキー]**：ご利用の&#x200B;**[!UICONTROL アクセスキー]**&#x200B;を確認する方法については、[Microsoft ドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}を参照してください。
 
 * **Microsoft Fabric** - **Microsoft Fabric**&#x200B;外部アカウントを使用すると、**[!UICONTROL ファイルの転送]** ワークフローアクティビティを使用して、Microsoft FabricとAdobe Campaign間でデータをインポートおよびエクスポートできます。 この統合を設定するには、次の詳細を指定します。
 
-   * **[!UICONTROL Server]**: Microsoft Fabric Storage ServerのURL。
+  * **[!UICONTROL Server]**: Microsoft Fabric Storage ServerのURL。
 
-   * **[!UICONTROL アプリケーション ID]**: Microsoft Fabric リソースの認証とアクセスに使用されるアプリケーションの一意のID。
+  * **[!UICONTROL アプリケーション ID]**: Microsoft Fabric リソースの認証とアクセスに使用されるアプリケーションの一意のID。
 
-   * **[!UICONTROL クライアントシークレット]**: Microsoft Fabricに安全に接続するために必要な、アプリケーションに関連付けられた認証キーまたはパスワード。
+  * **[!UICONTROL クライアントシークレット]**: Microsoft Fabricに安全に接続するために必要な、アプリケーションに関連付けられた認証キーまたはパスワード。

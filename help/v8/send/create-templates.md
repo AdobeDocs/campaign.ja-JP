@@ -6,24 +6,44 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-TQID: https://experienceleague.adobe.com/bgnDExQAdWAsulXRjLGA46VthqPYWfNZRJ66C4ppF9M
+TQID: 'https://experienceleague.adobe.com/bgnDExQAdWAsulXRjLGA46VthqPYWfNZRJ66C4ppF9M'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: '1070'
 ht-degree: 100%
-
 ---
-
 # 配信テンプレートの操作 {#work-with-delivery-template}
 
 ## 配信テンプレートの基本を学ぶ
@@ -152,18 +172,18 @@ Campaign には、各チャネル用の一連のビルトインのテンプレ�
 
 次のビデオでは、アドホック配信用のテンプレートを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3409248?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### 配信テンプレートのプロパティの設定方法
 
 次のビデオでは、配信テンプレートのプロパティを設定する方法と各プロパティの詳細について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443402?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### アドホック配信テンプレートのデプロイ方法
 
-このビデオでは、アドホックなメール配信テンプレートをデプロイする方法と、メール配信と配信ワークフローの違いについて説明します。
+このビデオでは、アドホックメール配信テンプレートを導入する方法と、メール配信と配信ワークフローの違いについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444958?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

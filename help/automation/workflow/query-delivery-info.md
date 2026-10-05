@@ -6,18 +6,26 @@ feature: Query Editor
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
-TQID: https://experienceleague.adobe.com/HVv9XhJv9325WD39-3TmmTB9AyVh0k2aIlEcMFAccgo
+TQID: 'https://experienceleague.adobe.com/HVv9XhJv9325WD39-3TmmTB9AyVh0k2aIlEcMFAccgo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 99%
-
+source-wordcount: '1559'
+ht-degree: 100%
 ---
-
 # 配信情報のクエリ {#querying-delivery-information}
 
 
@@ -28,7 +36,7 @@ ht-degree: 99%
 
 * どのテーブルを選択する必要がありますか。
 
-  受信者ログ追跡テーブル （**[!UICONTROL nms:trackingLogRcp]**）
+  受信者ログトラッキングテーブル（**[!UICONTROL nms:trackingLogRcp]**）
 
 * 出力列に選択するフィールドは何ですか。
 
@@ -88,7 +96,7 @@ ht-degree: 99%
 
      「**[!UICONTROL 後]**」演算子を選択します。 「**[!UICONTROL 値]**」列で&#x200B;**[!UICONTROL 式を編集]**&#x200B;を選択し、**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで「**[!UICONTROL 日付で処理]**」を選択します。 最後に、「**[!UICONTROL 現在の日付 - n 日]**」に &quot;15&quot; と入力します。
 
-     「**[!UICONTROL 終了]**」をクリックします。
+     「**[!UICONTROL 完了]**」をクリックします。
 
      ![](assets/query_editor_nveau_24.png)
 
@@ -96,15 +104,15 @@ ht-degree: 99%
 
      「**[!UICONTROL 前]**」演算子を選択します。 「**[!UICONTROL 値]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 日付処理については、**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウに移動し、「**[!UICONTROL 現在の日付 - n 日]**」に &quot;1&quot; と入力します。
 
-     「**[!UICONTROL 終了]**」をクリックします。
+     「**[!UICONTROL 完了]**」をクリックします。
 
      ![](assets/query_editor_nveau_65.png)
 
      次に、クエリが対象とする配信ラベルなど、3 番目のフィルター条件を設定します。
 
-   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。**&#x200B;**
+   * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。****
 
-     「**[!UICONTROL 終了]**」をクリックします。
+     「**[!UICONTROL 完了]**」をクリックします。
 
      ![](assets/query_editor_nveau_66.png)
 

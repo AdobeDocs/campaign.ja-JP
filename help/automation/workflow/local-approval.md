@@ -6,22 +6,33 @@ feature: Workflows, Approvals
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-TQID: https://experienceleague.adobe.com/wVcQzhDcvinh3rooWklkMsf-KQvWepqYcgcgrHlbdXg
+TQID: 'https://experienceleague.adobe.com/wVcQzhDcvinh3rooWklkMsf-KQvWepqYcgcgrHlbdXg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ce296ecd-3d06-45ab-83c3-37214e8ce31c
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 705
+source-wordcount: '705'
 ht-degree: 100%
-
 ---
-
 # ローカルの承認{#local-approval}
 
 ターゲティングワークフローに統合する場合、「**[!UICONTROL ローカルの承認]**」アクティビティでは、配信が送信される前に受信者の承認プロセスを設定できます。
@@ -60,14 +71,14 @@ ht-degree: 100%
 
 * **[!UICONTROL 承認管理]**
 
-   * メール通知に使用する配信テンプレートと件名を選択します。 デフォルトテンプレートの「**[!UICONTROL ローカルの承認通知]**」を使用できます。 また、承認通知およびフィードバック通知内の受信者リストの上に表示される説明を追加できます。
-   * 承認期限（日付または承認の開始日からの日数で指定）に対応する「**[!UICONTROL 承認タイプ]**」を指定します。 この日付をもって、ワークフローが再開し、それまでに承認されなかった受信者はターゲティング対象から外れます。 通知が送信されると、ローカルのスーパーバイザーが連絡先を承認できるように、アクティビティはキューに入ります。
+  * メール通知に使用する配信テンプレートと件名を選択します。 デフォルトテンプレートの「**[!UICONTROL ローカルの承認通知]**」を使用できます。 また、承認通知およびフィードバック通知内の受信者リストの上に表示される説明を追加できます。
+  * 承認期限（日付または承認の開始日からの日数で指定）に対応する「**[!UICONTROL 承認タイプ]**」を指定します。 この日付をもって、ワークフローが再開し、それまでに承認されなかった受信者はターゲティング対象から外れます。 通知が送信されると、ローカルのスーパーバイザーが連絡先を承認できるように、アクティビティはキューに入ります。
 
-     >[!NOTE]
-     >
-     >デフォルトでは、承認プロセスが開始されると、アクティビティは 3 日間保留されます。
+    >[!NOTE]
+    >
+    >デフォルトでは、承認プロセスが開始されると、アクティビティは 3 日間保留されます。
 
-     リマインダーを 1 つ以上設定し、承認期限が迫っていることをローカルのスーパーバイザーに知らせることができます。 それには、「**[!UICONTROL リマインダーを追加]**」リンクをクリックします。
+    リマインダーを 1 つ以上設定し、承認期限が迫っていることをローカルのスーパーバイザーに知らせることができます。 それには、「**[!UICONTROL リマインダーを追加]**」リンクをクリックします。
 
 * **[!UICONTROL 補集合]**：「**[!UICONTROL 補集合を生成]**」オプションでは、未承認のターゲットをすべて集めた 2 番目のセットを生成できます。
 

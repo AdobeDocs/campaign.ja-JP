@@ -4,13 +4,16 @@ title: テクニカルノート - 資格情報ローテーションガイド
 description: Adobe Campaign テクニカルノート - 資格情報ローテーションガイド
 hide: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 94%
-
 ---
-
 # テクニカルノート：資格情報ローテーションガイド {#ac-customer-credentials}
 
 お客様は、侵害のリスクを軽減するために、定期的に資格情報を新しいセットへと置き換える責任があります。
@@ -44,10 +47,10 @@ Adobe Campaign エクスプローラーから、**管理／プラットフォー
 
 Mobile Services 関連の秘密鍵と証明書のローテーションについては、以下のリンクを参照してください。
 
-* Androidについては、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}を参照してください。
+* Androidについては、[このドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}を参照してください。
 **Android モバイルアプリケーションの作成／API バージョンの設定**&#x200B;の節を参照してください。
 
-* IOSについては、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}を参照してください。
+* IOSについては、[このドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}を参照してください。
 **iOS モバイルアプリの作成／認証モード**&#x200B;の節を参照してください。
 
 ## GPG キー {#ac-gpg-credentials}
@@ -56,7 +59,7 @@ GPG キーのローテーションについては、次の手順に従う必要�
 
 1. 既存のキーを使用して、既存のデータを復号化します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}。
 
-1. 新規 GPG キーペアを作成します。 GPG キー管理の詳細については、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}を参照してください。
+1. 新規 GPG キーペアを作成します。 GPG キー管理の詳細については、[このドキュメント ](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}を参照してください。
 
 1. すべてのワークフローで使用されている既存の GPG キーを、新しく作成したキーに置き換えます。
 

@@ -3,43 +3,60 @@ title: Campaign v8（コンソール）2024 リリースノート
 description: 2024 Campaign v8 リリースに付属する機能と改善点の一覧
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-TQID: https://experienceleague.adobe.com/pFGtgb4Lruzv6B7y6JA4b24yzE7ZF7ZnPsEppAz8-cE
+TQID: 'https://experienceleague.adobe.com/pFGtgb4Lruzv6B7y6JA4b24yzE7ZF7ZnPsEppAz8-cE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 25ce962e7c8b6a62fc2c1edb08a78afa839d264e
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1669
+source-wordcount: '1669'
 ht-degree: 97%
-
 ---
-
 # 2024 リリースノート {#2024-rn}
 
-このページには、**Campaign v8 2024 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ &#x200B;](release-notes.md)を参照してください。
+このページには、**Campaign v8 2024 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ ](release-notes.md)を参照してください。
 
-新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース &#x200B;](release-notes.md)をインストールします。
+新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース ](release-notes.md)をインストールします。
 
 
 >[!BEGINSHADEBOX]
 
 **このページの内容**
 
-* Campaign v8.7 - [&#x200B; リリース 8.7.1](#release-8-7-1) | [リリース 8.7.2](#release-8-7-2)
+* Campaign v8.7 - [ リリース 8.7.1](#release-8-7-1) | [リリース 8.7.2](#release-8-7-2)
 * Campaign v8.6 - [リリース 8.6.1](#release-8-6-1) | [リリース 8.6.2](#release-8-6-2) | [リリース 8.6.3](#release-8-6-3)
 * Campaign v8.5 - [リリース 8.5.3](#release-8-5-3)
 
@@ -87,7 +104,7 @@ _2024年5月2日（PT）_
 
 * **Rest API** - Campaign Standard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。 [詳細情報](../dev/api/get-started-apis.md)
 
-* **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ja){target="_blank"}
+* **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 ### 互換性のアップデート {#comp-8-7-1}
 
@@ -97,8 +114,8 @@ _2024年5月2日（PT）_
 
 * 新しい Amazon Redshift FDA ODBC コネクタが使用できるようになりました。 接続性が向上し、メンテナンスが容易になり、互換性も強化されます。 この新しいバージョンには、次の機能強化が含まれています。
 
-   * 新しいコネクタは、最新の FDA コネクタと一致する ODBC インターフェイスに基づいています。 これにより、長期的なサポートが確保されます。
-   * また、s3 バケットを使用した新しいデータ読み込みメカニズムを導入し、パフォーマンスを大幅に向上させます。
+  * 新しいコネクタは、最新の FDA コネクタと一致する ODBC インターフェイスに基づいています。 これにより、長期的なサポートが確保されます。
+  * また、s3 バケットを使用した新しいデータ読み込みメカニズムを導入し、パフォーマンスを大幅に向上させます。
 
   従来のコネクタは、引き続き使用できます。 新しいコネクタを試す場合は、アドビ担当者にお問い合わせください。
 

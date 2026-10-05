@@ -4,20 +4,30 @@ description: ワークフローデータの使用方法を説明します
 feature: Workflows, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-TQID: https://experienceleague.adobe.com/MeXrY93e-BFOK0OdPAXrnv8baT15WZWwYhXMdFjf1vw
+TQID: 'https://experienceleague.adobe.com/MeXrY93e-BFOK0OdPAXrnv8baT15WZWwYhXMdFjf1vw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 749
-ht-degree: 93%
-
+source-wordcount: '749'
+ht-degree: 100%
 ---
-
 # ワークフローデータの使用{#how-to-use-workflow-data}
 
 ワークフローアクティビティを使用すると、複数のタスクを実行できます。 リストの作成によるデータベースの更新、購読の管理、ワークフローを介したメッセージの送信、配信とオーディエンスのエンリッチメントなどの使用例を以下に示します。
@@ -126,7 +136,7 @@ ht-degree: 93%
 
 ## データベースの更新 {#update-the-database}
 
-収集したすべてのデータは、データベースを更新するために、または配信内で使用できます。 例えば、メッセージコンテンツのパーソナライゼーションの可能性を強化できます（メッセージに契約数を含める、過去1年間の平均ショッピングカートを指定するなど）。 または、集団ターゲティングの詳細（契約共同所有者へのメッセージの送信、オンラインサービスの優良顧客1,000人のターゲティングなど）。 このデータは、リストにエクスポートまたはアーカイブできます。
+収集したすべてのデータは、データベースを更新するために、または配信内で使用できます。 例えば、メッセージのコンテンツのパーソナライゼーションを充実させること（メッセージ内に契約件数を含める、過去年間の買い物かごの平均購入額を指定するなど） や、母集団のターゲティングを詳細に行うこと（契約の共有者にメッセージを送る、オンラインサービスの高額契約者上位 1,000 人をターゲットに設定するなど）ができます。 このデータは、リストにエクスポートまたはアーカイブできます。
 
 ### リストの更新  {#list-updates}
 

@@ -8,27 +8,38 @@ role: Developer
 level: Experienced
 mini-toc-levels: 1
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-TQID: https://experienceleague.adobe.com/BU2H4Pc8MyuKTVKYkzWMkhGvtVKtxUAaATWiNoc6UxQ
+TQID: 'https://experienceleague.adobe.com/BU2H4Pc8MyuKTVKYkzWMkhGvtVKtxUAaATWiNoc6UxQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66ed59f89f7e58ce0a04d1fe3e4bf34c81ce94cb
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: '1059'
 ht-degree: 1%
-
 ---
-
 # 推奨事項と制限事項 {#limitations}
 
 ## 権限とセキュリティ {#permissions}

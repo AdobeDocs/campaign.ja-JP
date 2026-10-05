@@ -6,18 +6,28 @@ feature: Workflows, Approvals
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 31089026-3fc0-4491-8b70-0fb7fd1e3ac0
-TQID: https://experienceleague.adobe.com/x9fk57YF-iS3FIPj8elQfwaB3UuDs5hzmo05zkYMhkQ
+TQID: 'https://experienceleague.adobe.com/x9fk57YF-iS3FIPj8elQfwaB3UuDs5hzmo05zkYMhkQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ce296ecd-3d06-45ab-83c3-37214e8ce31c
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1440
-ht-degree: 98%
-
+source-wordcount: '1440'
+ht-degree: 100%
 ---
-
 # ローカルの承認アクティビティを使用{#using-the-local-approval-activity}
 
 ターゲティングワークフローに統合されている&#x200B;**[!UICONTROL ローカルの承認]**&#x200B;アクティビティでは、配信の前に受信者の認証プロセスを設定することができます。
@@ -78,7 +88,7 @@ ht-degree: 98%
    ![](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL 値]**：ドメイン名の値を入力します。
-   * **[!UICONTROL パーセンテージ / 固定]**：各ドメインの最大値を入力します。 配信を送信する受信者の数。 この例では、ドメインあたりの配信を 10% に制限します。
+   * **[!UICONTROL 割合／固定]**：各ドメインについて、配信対象の受信者の最大数を入力します 。 この例では、ドメインあたりの配信を 10% に制限します。
    * **[!UICONTROL ラベル]**：承認およびフィードバックの通知で表示するドメインのラベルを入力します。
    * **[!UICONTROL グループまたはオペレーター]**：ドメインに割り当てるオペレーターまたはオペレーターのグループを選択します。
 

@@ -6,21 +6,28 @@ feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: f4a329e3-70d2-43cd-a04a-0bbd5e3ca390
-TQID: https://experienceleague.adobe.com/qfSKBHeQUkAYJb-PSeTxYMxGp-WicmITitT9qh8tHBs
+TQID: 'https://experienceleague.adobe.com/qfSKBHeQUkAYJb-PSeTxYMxGp-WicmITitT9qh8tHBs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 86%
-
+source-wordcount: '538'
+ht-degree: 97%
 ---
-
 # パーソナライズされた PDF ドキュメントの生成{#generating-personalized-pdf-documents}
 
 ## 様々な PDF ドキュメントについて {#about-variable-pdf-documents}
@@ -49,7 +56,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 >[!IMPORTANT]
 >
->リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 リソースの読み込みを中断することなく続行できるように、添付ファイル内の外部画像に使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。 Campaign管理者は、Campaign コントロールパネルを使用して、許可リスト URLを追加および管理します。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+>リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 リソースが中断することなく継続して読み込まれるよう、添付ファイルの外部画像で使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認してください。 Campaign 管理者として、コントロールパネルを使用して、許可リスト登録済み URL を追加および管理してください。 手順について詳しくは、[URL 権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 外部画像の挿入は、例えば、画像付きドキュメントの URL が受信者のフィールドに入力されており、そのドキュメントをパーソナライズしたい場合に便利です。
 

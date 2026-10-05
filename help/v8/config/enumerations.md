@@ -6,24 +6,36 @@ role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
 exl-id: 799978e7-025d-4ab0-b198-0e568e4f8ea9
-TQID: https://experienceleague.adobe.com/xXZIcDJ92-bWCjCvM0LuPPTxFWEwjG9eD6VS8wqv4Ms
+TQID: 'https://experienceleague.adobe.com/xXZIcDJ92-bWCjCvM0LuPPTxFWEwjG9eD6VS8wqv4Ms'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 859
+source-wordcount: '859'
 ht-degree: 87%
-
 ---
-
 # 列挙の操作 {#enumerations}
 
 定義済みリスト（項目別リストとも呼ばれます）とは、特定のフィールドに入力するために使用できる値の事前定義済みリストです。 定義済みリストはフィールド値の標準化に役立ち、データ入力の一貫性を高め、クエリを簡素化します。

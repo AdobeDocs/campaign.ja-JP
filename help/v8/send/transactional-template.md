@@ -5,27 +5,40 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-TQID: https://experienceleague.adobe.com/uHf2o7h-iEwuPhNgjT-sAOES0A-uzpye9UGgZkgxdOA
+TQID: 'https://experienceleague.adobe.com/uHf2o7h-iEwuPhNgjT-sAOES0A-uzpye9UGgZkgxdOA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 94%
-
+source-wordcount: '1261'
+ht-degree: 98%
 ---
-
 # トランザクションメッセージ用のテンプレートの作成と公開{#template-transactional-messages}
 
 各イベントは、パーソナライズされたメッセージをトリガーできます。 そのためには、各イベントタイプと一致するメッセージのテンプレートを作成する必要があります。 テンプレートには、トランザクションメッセージをパーソナライズするのに必要な情報が含まれています。 また、テンプレートを使用すると、メッセージのプレビューを検証したり、最終ターゲットへ配信する前にシードアドレスを使用した配達確認を送信することもできます。
@@ -80,7 +93,7 @@ ht-degree: 94%
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. 次の構文を使用してタグを入力します：**要素名**.@**属性名** （下図）。
+1. 下記に示すように、タグの入力には次の構文を利用します。**要素名**.@**属性名**
 
    ![](assets/messagecenter_create_custo_2.png)
 
@@ -96,11 +109,11 @@ ht-degree: 94%
 
 1. 後で簡単に選択できるようにラベルを割り当て、シードアドレス（通信チャネルに応じてメールまたは携帯電話）を入力します。
 
-1. 外部識別子を入力：このオプションのフィールドでは、ビジネスキー（一意のID、名前+電子メールなど）を入力できます。 これは、web サイト上のあらゆるアプリケーションに共通するもので、プロファイルの識別に使用されます。 Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントを紐付けることができます。
+1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 + メールなど） を入力することができます。 Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントを紐付けることができます。
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. テストデータを挿入します。 [Campaign Classic v7 ドキュメントのパーソナライゼーションデータの詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. テストデータを挿入します。 [Campaign Classic v7 ドキュメントのパーソナライゼーションデータの詳細情報](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 

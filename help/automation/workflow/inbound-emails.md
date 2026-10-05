@@ -6,18 +6,28 @@ feature: Workflows, Channels Activity
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cc2c415-1886-4f31-8020-dbaf97a3cc43
-TQID: https://experienceleague.adobe.com/5Kmhzi-ZkvEhkzJr6LGk-wPo8EPWsbUOjHwPymcNGtA
+TQID: 'https://experienceleague.adobe.com/5Kmhzi-ZkvEhkzJr6LGk-wPo8EPWsbUOjHwPymcNGtA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: bce277d1-7efa-48d8-9a1b-b588bb45ba1c
+    internal-label: Channels Activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 372
+source-wordcount: '372'
 ht-degree: 100%
-
 ---
-
 # インバウンドメール{#inbound-emails}
 
 
@@ -38,21 +48,21 @@ ht-degree: 100%
 
      ![](assets/email_rec_edit_1b.png)
 
-      * **[!UICONTROL POP3 サーバー]**
+     * **[!UICONTROL POP3 サーバー]**
 
-        POP3 サーバーの名前
+       POP3 サーバーの名前
 
-      * **[!UICONTROL POP3 アカウント]**
+     * **[!UICONTROL POP3 アカウント]**
 
-        ユーザーの名前。
+       ユーザーの名前。
 
-      * **[!UICONTROL パスワード]**
+     * **[!UICONTROL パスワード]**
 
-        アカウントのパスワード
+       ユーザーアカウントのパスワード
 
-      * **[!UICONTROL ポート]**
+     * **[!UICONTROL ポート]**
 
-        POP3 接続のポート番号 デフォルトのポート番号は 110 です。
+       POP3 接続のポート番号 デフォルトのポート番号は 110 です。
 
    * **[!UICONTROL メールが処理されたらすぐに停止します]**
 

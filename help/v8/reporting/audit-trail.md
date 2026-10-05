@@ -4,22 +4,38 @@ title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
-TQID: https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0
+TQID: 'https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+    internal-label: Audit trail
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 664
+source-wordcount: '664'
 ht-degree: 100%
-
 ---
-
 # 監査記録{#audit-trail}
 
 Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では、インスタンス内の重要なエンティティに対して行われたすべての変更（通常はインスタンスのスムーズな操作に大きな影響を与えるエンティティ）の詳細な記録を提供します。 リアルタイムログとして機能し、アクションとイベントが発生した際にその詳細なリストを取得します。
@@ -37,14 +53,14 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
 
 * **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 
-   * 開始
-   * 一時停止
-   * 停止
-   * 再開
-   * クリーンアップ（「履歴をパージ」アクションと同じ）
-   * シミュレーション（「シミュレーションモードで開始」アクションと同じ）
-   * ウェイクアップ（「保留中のタスクを今すぐ実行」アクションと同じ）
-   * 無条件停止
+  * 開始
+  * 一時停止
+  * 停止
+  * 再開
+  * クリーンアップ（「履歴をパージ」アクションと同じ）
+  * シミュレーション（「シミュレーションモードで開始」アクションと同じ）
+  * ウェイクアップ（「保留中のタスクを今すぐ実行」アクションと同じ）
+  * 無条件停止
 
   ワークフローについて詳しくは、この[ページ](../../automation/workflow/about-workflows.md)を参照してください。
 

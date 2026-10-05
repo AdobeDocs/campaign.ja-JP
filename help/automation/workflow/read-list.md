@@ -6,19 +6,30 @@ feature: Workflows, Targeting Activity
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 91c87f8f-bdd2-4ca1-94c2-ec9e7affc1a0
-TQID: https://experienceleague.adobe.com/J-3G1xfCNkBVkmO0WqjHtstOGq5LE8ymd2oa8f-VSSE
+TQID: 'https://experienceleague.adobe.com/J-3G1xfCNkBVkmO0WqjHtstOGq5LE8ymd2oa8f-VSSE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 508
+source-wordcount: '508'
 ht-degree: 100%
-
 ---
-
 # リスト読み込み{#read-list}
 
 ワークフローで処理されるデータは、（前回のセグメント化またはファイルアップロード後に）あらかじめデータが準備されたか構造化されたリストから取得されます。

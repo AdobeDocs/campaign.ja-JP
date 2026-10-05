@@ -5,20 +5,35 @@ feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
-TQID: https://experienceleague.adobe.com/TmmGBnpgDSPi2gvmfY5Fu9Hm3NiIaVIfUEMDBYJSIaw
+TQID: 'https://experienceleague.adobe.com/TmmGBnpgDSPi2gvmfY5Fu9Hm3NiIaVIfUEMDBYJSIaw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 921
+source-wordcount: '921'
 ht-degree: 86%
-
 ---
-
 # リンク管理 {#links--relation-between-tables}
 
 リンクは、テーブル間の関連付けを示しています。
@@ -58,23 +73,23 @@ FDA テーブルについて詳しくは、[外部データベースへのアク
 
 * リンクの定義は **link** に、**`<element>`** と以下の属性で入力します。
 
-   * **name**：ソーステーブルからのリンク名
-   * **target**：ターゲットスキーマの名前
-   * **label**：リンクのラベル
-   * **revLink**（オプション）：ターゲットスキーマからの逆リンクの名前（デフォルトで自動的に推定されます）
-   * **integrity**（オプション）：ターゲットテーブルのオカレンスに対するソーステーブルのオカレンスの参照整合性。
-次のような値を選択できます。
+  * **name**：ソーステーブルからのリンク名
+  * **target**：ターゲットスキーマの名前
+  * **label**：リンクのラベル
+  * **revLink**（オプション）：ターゲットスキーマからの逆リンクの名前（デフォルトで自動的に推定されます）
+  * **integrity**（オプション）：ターゲットテーブルのオカレンスに対するソーステーブルのオカレンスの参照整合性。
+    次のような値を選択できます。
 
-      * **define**：ソースオカレンスがターゲットオカレンスから参照されなくなった場合は、ソースオカレンスを削除できます。
-      * **normal**：ソースオカレンスを削除すると、リンクのキーがターゲットオカレンス（デフォルトモード）に初期化され、このタイプの整合性によってすべての外部キーが初期化されます。
-      * **own**：ソースオカレンスを削除すると、ターゲットオカレンスが削除されます。
-      * **owncopy**：**own**&#x200B;と同じ（削除の場合）またはオカレンスを複製する（複製の場合）
-      * **neutral**：特定の動作がありません
+    * **define**：ソースオカレンスがターゲットオカレンスから参照されなくなった場合は、ソースオカレンスを削除できます。
+    * **normal**：ソースオカレンスを削除すると、リンクのキーがターゲットオカレンス（デフォルトモード）に初期化され、このタイプの整合性によってすべての外部キーが初期化されます。
+    * **own**：ソースオカレンスを削除すると、ターゲットオカレンスが削除されます。
+    * **owncopy**：**own**&#x200B;と同じ（削除の場合）またはオカレンスを複製する（複製の場合）
+    * **neutral**：特定の動作がありません
 
-   * **revIntegrity**（オプション）：ターゲットスキーマの整合性（オプション。デフォルトでは「normal」）
-   * **revCardinality**（オプション）：値「single」を指定すると、一対一のタイプ（デフォルトでは一対多）のカーディナリティが入力されます
-   * **externalJoin** （オプション）：外部結合を強制します
-   * **revExternalJoin** （オプション）：外部結合を逆リンクで強制的に設定します
+  * **revIntegrity**（オプション）：ターゲットスキーマの整合性（オプション。デフォルトでは「normal」）
+  * **revCardinality**（オプション）：値「single」を指定すると、一対一のタイプ（デフォルトでは一対多）のカーディナリティが入力されます
+  * **externalJoin** （オプション）：外部結合を強制します
+  * **revExternalJoin** （オプション）：外部結合を逆リンクで強制的に設定します
 
 * リンクはソーステーブルから宛先のテーブルへ、1 つ以上のフィールドを参照します。 結合（`<join>`要素）を構成するフィールドは、デフォルトでターゲットスキーマの内部キーを使用して、自動で推定されるので、入力する必要はありません。
 * インデックスは、拡張スキーマ内のリンクの外部キーに自動的に追加されます。

@@ -5,22 +5,29 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-TQID: https://experienceleague.adobe.com/aQ7qHePaWM8LnbvZmkebVyUUw8Vbjmgo2pj4MKZd1VE
+TQID: 'https://experienceleague.adobe.com/aQ7qHePaWM8LnbvZmkebVyUUw8Vbjmgo2pj4MKZd1VE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 5ea984c6-e1ec-59c0-bf35-0d3c05f585e1
+    internal-label: Client Console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ffeb9430b382b598af412555b1b0a6ff42bc68d0
+    internal-label: Reporting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1133
-ht-degree: 93%
-
+source-wordcount: '1133'
+ht-degree: 98%
 ---
-
 # Adobe Campaign v8 への接続{#gs-ac-connect}
 
 Campaign の使用を開始するには、クライアントコンソールをインストールして設定する必要があります。
@@ -102,16 +109,16 @@ Campaign ユーザーは、Adobe Identity Management System（IMS）により、
 
 ## Adobe ID ログインの問題のトラブルシューティング {#troubleshoot-ims-login}
 
-Adobe IDで&#x200B;**[!UICONTROL クライアントコンソール]**&#x200B;にログインする際に問題が発生した場合は、ローカル WebView2 キャッシュをクリアしてみてください。 多くの場合、これで問題は解決します。 次の手順に従います。
+Adobe ID で&#x200B;**[!UICONTROL クライアントコンソール]**&#x200B;にログインする際に問題が発生した場合は、ローカル WebView2 キャッシュをクリアしてみてください。 多くの場合、これで問題は解決します。 次の手順に従います。
 
-1. **[!UICONTROL クライアントコンソール]**&#x200B;を閉じ、実行中の`nlclient` プロセスをすべて停止します。
+1. **[!UICONTROL クライアントコンソール]**&#x200B;を閉じ、実行中の `nlclient` プロセスをすべて停止します。
 
 1. 次の場所からすべての`webview2`および`webview2Cache` フォルダーを削除します。
 
    * `C:\ProgramData\Neolane\NL_5\nlclient\`
    * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
 
-1. **[!UICONTROL クライアントコンソール]**&#x200B;を再起動し、Adobe IDでログインします。 キャッシュフォルダーは、次回の起動時に自動的に再作成されます。
+1. **[!UICONTROL クライアントコンソール]**&#x200B;を再起動し、Adobe ID でログインします。 キャッシュフォルダーは、次回の起動時に自動的に再作成されます。
 
 ## クライアントコンソールのアップグレード{#upgrade-ac-console}
 

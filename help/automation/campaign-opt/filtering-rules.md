@@ -4,26 +4,35 @@ title: フィルタールールの設定
 description: フィルタールールの設定方法を説明します
 feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
-TQID: https://experienceleague.adobe.com/4dOJKJq9bGT93592ugAfrbQU27OBBpUp25QRpzDqtW0
+TQID: 'https://experienceleague.adobe.com/4dOJKJq9bGT93592ugAfrbQU27OBBpUp25QRpzDqtW0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+subfeature_v2:
+  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 550
-ht-degree: 93%
-
+source-wordcount: '550'
+ht-degree: 97%
 ---
-
 # フィルタリングルール{#filtering-rules}
 
 フィルタールールを使用して、クエリで定義された条件に基づいて除外するメッセージを選択します。 これらのルールは、ターゲティングディメンションにリンクされます。
 
-フィルタリングルールは、他のタイプのルール（コントロール、プレッシャーなど）とリンクできます。 タイポロジで、または専用の&#x200B;**フィルタリング** タイポロジでグループ化されます。 [詳細情報](#create-and-use-a-filtering-typology)。
+フィルタールールは、他のタイプのタイポロジルール（コントロール、頻度など）にリンクできます。 または、専用の&#x200B;**フィルタリング**&#x200B;タイポロジにグループ化できます。 [詳細情報](#create-and-use-a-filtering-typology)。
 
 ## フィルタールールの作成 {#create-a-filtering-rule}
 

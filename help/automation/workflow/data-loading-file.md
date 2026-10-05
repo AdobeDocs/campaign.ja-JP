@@ -6,22 +6,31 @@ feature: Workflows, Data Management Activity
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-TQID: https://experienceleague.adobe.com/XM-wH6gqH3EvqBp0qMShsy76VheGg1w6kul8Ui4f-pc
+TQID: 'https://experienceleague.adobe.com/XM-wH6gqH3EvqBp0qMShsy76VheGg1w6kul8Ui4f-pc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: 97f7b899-98c8-5133-9446-bfaf99a51b9f
+    internal-label: Data Management Activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1220
+source-wordcount: '1220'
 ht-degree: 100%
-
 ---
-
 # データ読み込み (ファイル){#data-loading-file}
 
 
@@ -70,27 +79,27 @@ ht-degree: 100%
 * **[!UICONTROL データタイプ]**：各列に適用されるデータタイプを指定します。
 * **[!UICONTROL NULL を許可]**：空の値の処理方法を指定します。
 
-   * **[!UICONTROL Adobe Campaign のデフォルト値]**：数値フィールドのみエラーを生成します。それ以外は、null 値を挿入します。
-   * **[!UICONTROL 空の値を許可]**：空の値を許可します。 したがって、null 値が挿入されます。
-   * **[!UICONTROL 常に反映]**：値が空の場合に、エラーを生成します。
+  * **[!UICONTROL Adobe Campaign のデフォルト値]**：数値フィールドのみエラーを生成します。それ以外は、null 値を挿入します。
+  * **[!UICONTROL 空の値を許可]**：空の値を許可します。 したがって、null 値が挿入されます。
+  * **[!UICONTROL 常に反映]**：値が空の場合に、エラーを生成します。
 
 * **[!UICONTROL 長さ]**：**文字列**&#x200B;タイプのデータの最大文字数を指定します。
 * **[!UICONTROL フォーマット]**：日付と時間のフォーマットを定義します。
 * **[!UICONTROL データ変換]**：大文字と小文字の区別を&#x200B;**文字列**&#x200B;に適用するかどうかを定義します。
 
-   * **[!UICONTROL なし]**：読み込んだ文字列を変更しません。
-   * **[!UICONTROL 最初の文字は大文字]**：文字列の各単語の最初の文字を大文字にします。
-   * **[!UICONTROL 大文字]**：文字列のすべての文字列を大文字にします。
-   * **[!UICONTROL 小文字]**：文字列のすべての文字列を小文字にします。
+  * **[!UICONTROL なし]**：読み込んだ文字列を変更しません。
+  * **[!UICONTROL 最初の文字は大文字]**：文字列の各単語の最初の文字を大文字にします。
+  * **[!UICONTROL 大文字]**：文字列のすべての文字列を大文字にします。
+  * **[!UICONTROL 小文字]**：文字列のすべての文字列を小文字にします。
 
 * **[!UICONTROL スペースの処理]**：文字列内の特定の空白文字を無視するかどうかを指定します。 **[!UICONTROL スペースを無視]**：文字列の前後の空白文字のみを無視します。
 * **[!UICONTROL エラー処理]**：エラーが発生した場合の処理を定義します。
 
-   * **[!UICONTROL 値を無視]**：値を無視します。 ワークフローの実行ログに警告が生成されます。
-   * **[!UICONTROL ラインを却下]**：すべての行に対して処理をおこないません。
-   * **[!UICONTROL エラーの場合はデフォルト値を使用]**：エラーの原因となった値を「**[!UICONTROL デフォルト値]**」フィールドで定義されたデフォルトの値と入れ替えます。
-   * **[!UICONTROL 再マッピングの値がない場合はラインを却下]**：マッピングのエラー値が定義されている場合を除き、すべての行に対して処理をおこないません（「**[!UICONTROL マッピング]**」オプションについては以下を参照）。
-   * **[!UICONTROL 値が再マッピングされない場合はデフォルト値を使用]**：マッピングのエラー値が定義されている場合を除き、エラーの原因となった値を「**[!UICONTROL デフォルト値]**」フィールドで定義されたデフォルトの値と入れ替えます（「**[!UICONTROL マッピング]**」オプションについては以下を参照）。
+  * **[!UICONTROL 値を無視]**：値を無視します。 ワークフローの実行ログに警告が生成されます。
+  * **[!UICONTROL ラインを却下]**：すべての行に対して処理をおこないません。
+  * **[!UICONTROL エラーの場合はデフォルト値を使用]**：エラーの原因となった値を「**[!UICONTROL デフォルト値]**」フィールドで定義されたデフォルトの値と入れ替えます。
+  * **[!UICONTROL 再マッピングの値がない場合はラインを却下]**：マッピングのエラー値が定義されている場合を除き、すべての行に対して処理をおこないません（「**[!UICONTROL マッピング]**」オプションについては以下を参照）。
+  * **[!UICONTROL 値が再マッピングされない場合はデフォルト値を使用]**：マッピングのエラー値が定義されている場合を除き、エラーの原因となった値を「**[!UICONTROL デフォルト値]**」フィールドで定義されたデフォルトの値と入れ替えます（「**[!UICONTROL マッピング]**」オプションについては以下を参照）。
 
 * **[!UICONTROL デフォルト値]**：選択したエラーの処理方法に応じてデフォルトの値を選択します。
 * **[!UICONTROL マッピング]**：このフィールドは列の詳細設定の場合のみ表示されます（ダブルクリックまたは列リストの右側のオプションを選択してアクセスした場合）。 これにより、特定の値を読み込んだときに、その値を変換します。 例えば、「three」を「3」に変換できます。

@@ -5,16 +5,23 @@ description: パーソナライズされたアラートをオペレーターへ�
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 41a009f6-d1e9-40c9-8494-3bbb4bd3d134
-TQID: https://experienceleague.adobe.com/dNaZR5YIugp9CIju-jKPHqztQu75IurMvxJtbTILOTY
+TQID: 'https://experienceleague.adobe.com/dNaZR5YIugp9CIju-jKPHqztQu75IurMvxJtbTILOTY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 374
-ht-degree: 93%
-
+source-wordcount: '374'
+ht-degree: 100%
 ---
-
 # パーソナライズされたアラートをオペレーターへ送信{#sending-personalized-alerts-to-operators}
 
 
@@ -98,7 +105,7 @@ for each (var item in items){
 
 >[!NOTE]
 >
->**[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** コマンドを使用すると、**[!UICONTROL JavaScript コード]** アクティビティを使用して、インスタンス変数に保存されたフィールドの1つを追加できます。\
+>**[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** コマンドを使用すると、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティでインスタンス変数に保存したフィールドのいずれかを追加できます。\
 >フィールドが JavaScript コードに追加されている限り、フィールドを好きな数だけ追加できます。
 
 ![](assets/uc_operator_8.png)

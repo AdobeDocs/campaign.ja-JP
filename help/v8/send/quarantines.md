@@ -6,28 +6,42 @@ role: User, Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-TQID: https://experienceleague.adobe.com/Qn4CWccz3NcanKq9l-Awt0N9JiVzWoyPMxhqs9TrOVA
+TQID: 'https://experienceleague.adobe.com/Qn4CWccz3NcanKq9l-Awt0N9JiVzWoyPMxhqs9TrOVA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 71%
-
 ---
-
 # 強制隔離 {#quarantine-management}
 
 Adobe Campaign は、オンラインチャネル（メール、SMS、プッシュ通知）の強制隔離されたアドレスのリストを管理します。 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、メールを自動的にスパムと見なします。 したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも貢献します。
@@ -48,7 +62,7 @@ Adobe Campaign は、オンラインチャネル（メール、SMS、プッシ�
 
 >[!NOTE]
 >
->[&quot;mailto&quot; List-Unsubscribe メソッド &#x200B;](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}を介した購読解除された受信者は、強制隔離に送信されません。 配信にサービスが定義されていない場合、配信に関連付けられている[&#x200B; サービス &#x200B;](../start/subscriptions.md)から購読を解除されるか、または配信にサービスが定義されていない場合はメールブロックリスト（プロファイルの&#x200B;**[!UICONTROL もう連絡先]** セクションに表示）に送信されます。
+>[&quot;mailto&quot; List-Unsubscribe メソッド ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}を介した購読解除された受信者は、強制隔離に送信されません。 配信にサービスが定義されていない場合、配信に関連付けられている[ サービス ](../start/subscriptions.md)から購読を解除されるか、または配信にサービスが定義されていない場合はメールブロックリスト（プロファイルの&#x200B;**[!UICONTROL もう連絡先]** セクションに表示）に送信されます。
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -107,7 +121,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 さらに、このホームページの&#x200B;**レポート** セクションから入手できる&#x200B;**[!UICONTROL 配信不能件数とバウンス]**&#x200B;の組み込みレポートには、強制隔離のアドレス、発生したエラーの種類、ドメイン別のエラー分類に関する情報が表示されます。 特定の配信のデータをフィルターしたり、必要に応じてこのレポートをカスタマイズしたりできます。
 
-バウンスアドレスについて詳しくは、[配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja){target="_blank"}を参照してください。
+バウンスアドレスについて詳しくは、[配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja){target="_blank"}を参照してください。
 
 ### 強制隔離されたメールアドレス {#quarantined-recipient}
 
@@ -163,5 +177,5 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 * [配信エラーについて](delivery-failures.md) – 様々な種類の配信エラーと、Campaignによるバウンスの処理方法について説明します
 * [配信を監視](delivery-dashboard.md) – 配信ログにアクセスし、配信パフォーマンスを監視します
-* [配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md) – 配信品質を維持し、強制隔離を回避するためのベストプラクティス
+* [配信のベストプラクティス ](../start/delivery-best-practices.md) – 配信品質を維持し、強制隔離を回避するためのベストプラクティス
 

@@ -6,34 +6,54 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-TQID: https://experienceleague.adobe.com/sAapnzXcpGvhnYG3J70n9Tq51KZCmvFlxMW4EfYh6Ck
+TQID: 'https://experienceleague.adobe.com/sAapnzXcpGvhnYG3J70n9Tq51KZCmvFlxMW4EfYh6Ck'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3496
+source-wordcount: '3496'
 ht-degree: 82%
-
 ---
-
 # 配信の失敗について {#delivery-failures}
 
 バウンスは、配信の試行とエラーの結果、ISP からエラー通知が返されたものを表します。 バウンス処理は、リストの衛生状態の重要な部分です。 特定のメールが連続して複数回バウンスした後、このプロセスにより、抑制のフラグが設定されます。
@@ -137,7 +157,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
 
 メッセージが MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## メールのエラータイプ {#email-error-types}
@@ -704,7 +724,7 @@ SR Generic DELIVRD 000|#MESSAGE#
 * エラーメッセージの 3 つ目の部分（この例では **DELIVRD**）は、SMS 外部アカウントに定義されたステータス抽出用正規表現を使用して SR から取得されたステータスコードに対応します。
 
   この正規表現は、外部アカウントの「**[!UICONTROL SMSC 特異性]**」タブで指定します。
-デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**stat:** フィールドが抽出されます。
+  デフォルトでは、**SMPP 3.4 仕様**&#x200B;の&#x200B;**付録 B** に規定されているとおり、**stat:** フィールドが抽出されます。
 
 * エラーメッセージの 4 つ目の部分（この例では **000**）は、SMS 外部アカウントに定義されたエラーコード抽出用正規表現を使用して SR から抽出されたエラーコードに対応します。
 
@@ -736,7 +756,7 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **解決策**: ワークフローと配信コンテンツを確認して、問題のテーブルを呼び出そうとしているパーソナライゼーションを具体的に判断します。 次に、HTMLのこのテーブルへの呼び出しを削除するか、配信へのマッピングを修正します。
 
-パーソナライゼーションの詳細については、[このセクション &#x200B;](personalize.md)を参照してください。
+パーソナライゼーションの詳細については、[このセクション ](personalize.md)を参照してください。
 
 ### 複数のパーソナライゼーション値のエラー {#multiple-values-error}
 
@@ -748,7 +768,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **原因**：電子メール内に、受信者に対して複数の値を持つパーソナライゼーションフィールドまたはブロックがあります。 パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
 
-**解決策**：使用されているパーソナライゼーションデータを確認し、いずれかのフィールドに複数のエントリがある受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]** アクティビティを使用して、一度に1つのパーソナライゼーションフィールドのみを確認することもできます。 重複排除について詳しくは、[&#x200B; ワークフローのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"}を参照してください。
+**解決策**：使用されているパーソナライゼーションデータを確認し、いずれかのフィールドに複数のエントリがある受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]** アクティビティを使用して、一度に1つのパーソナライゼーションフィールドのみを確認することもできます。 重複排除について詳しくは、[ ワークフローのドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"}を参照してください。
 
 ### 自動返信の処理 {#auto-reply-handling}
 
@@ -764,12 +784,12 @@ Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 
 ## 関連トピック
 
-[配信ステータス &#x200B;](delivery-statuses.md)は、配信がライフサイクル中に持つことができる様々なステータスについて説明します。
+[配信ステータス ](delivery-statuses.md)は、配信がライフサイクル中に持つことができる様々なステータスについて説明します。
 
-[&#x200B; キャンペーン UI](delivery-dashboard.md)の配信を監視すると、配信ダッシュボードを使用して配信パフォーマンスを追跡し、問題を診断するためのガイダンスが提供されます。
+[ キャンペーン UI](delivery-dashboard.md)の配信を監視すると、配信ダッシュボードを使用して配信パフォーマンスを追跡し、問題を診断するためのガイダンスが提供されます。
 
 [強制隔離の管理](quarantines.md)では、Campaignが強制隔離されたアドレスを管理して、送信レピュテーションを保護する方法について説明します。
 
 [配信品質の監視](monitoring-deliverability.md)は、配信品質と送信者のレピュテーションの維持に関するガイダンスを提供します。
 
-[配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md)では、Campaignで配信を作成および送信するためのベストプラクティスについて説明します。
+[配信のベストプラクティス ](../start/delivery-best-practices.md)では、Campaignで配信を作成および送信するためのベストプラクティスについて説明します。

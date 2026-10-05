@@ -4,24 +4,34 @@ title: キャンペーンタイポロジの概要
 description: キャンペーンタイポロジを設定および実装する方法について説明します
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
-TQID: https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU
+TQID: 'https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
+  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 488
+source-wordcount: '488'
 ht-degree: 90%
-
 ---
-
 # キャンペーンタイポロジの概要{#about-campaign-typologies}
 
 **キャンペーンの最適化は、配信状況を制御、フィルターおよび監視する Adobe Campaign のモジュールです。** キャンペーン間の競合を回避するために、Adobe Campaign では特定の制限ルールを適用して、様々な組み合わせをテストできます。 このテストにより、企業のコミュニケーションポリシーに準拠し、顧客のニーズと期待に応える最適なメッセージを送信できます。
@@ -90,11 +100,11 @@ Campaign には、デフォルトで一連の&#x200B;**フィルター**&#x200B;
 
 このビデオでは、タイポロジルールを活用して Adobe Campaign で疲労管理を実装する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448332?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
 
 ### 定義済みフィルターを使用した疲労管理の設定
 
 疲労管理では、受信者への過剰勧誘を避けるために、メッセージの頻度と数量を制御します。 キャンペーンインスタンスにキャンペーン最適化モジュールがない場合は、受信したメッセージ数でターゲット母集団をフィルタリングする定義済みフィルターを設定できます
 このビデオでは、フィルターを使用してAdobe Campaignで疲労管理を実装する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444601?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)

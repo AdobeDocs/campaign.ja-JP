@@ -6,18 +6,26 @@ feature: Workflows
 role: Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
-TQID: https://experienceleague.adobe.com/PbWDQXbUkUD125BnpQnw9SbKgUFnIqKeus1EVc-OAEk
+TQID: 'https://experienceleague.adobe.com/PbWDQXbUkUD125BnpQnw9SbKgUFnIqKeus1EVc-OAEk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1272
-ht-degree: 95%
-
+source-wordcount: '1272'
+ht-degree: 100%
 ---
-
 # JavaScript のスクリプトとテンプレート{#javascript-scripts-and-templates}
 
 
@@ -37,10 +45,10 @@ ht-degree: 95%
 
 ワークフローのコンテキストで実行される JavaScript は、一連の追加グローバルオブジェクトにアクセスします。
 
-* **インスタンス**：実行されるワークフローを表します。 このオブジェクトのスキーマは&#x200B;**xtk:workflow**&#x200B;です。
-* **タスク**：実行されるタスクを表します。 このオブジェクトのスキーマは&#x200B;**xtk:workflowTask**&#x200B;です。
-* **イベント**：実行されるタスクを有効化したイベントを表します。 このオブジェクトのスキーマは&#x200B;**xtk:workflowEvent**&#x200B;です。 このオブジェクトは、複数のトランジションから有効化された「**AND 結合**」タイプアクティビティについては初期化されません。
-* **イベント**：現在のタスクを有効化したイベントのリストを表します。 このオブジェクトのスキーマは&#x200B;**xtk:workflowEvent**&#x200B;です。 このテーブルでは通常、要素は 1 つですが、複数のトランジションをもとに有効化された「**AND 結合**」タイプアクティビティの場合、要素が複数になることがあります。
+* **インスタンス**：実行されるワークフローを表します。 このオブジェクトのスキーマは **xtk:workflow** です。
+* **タスク**：実行されるタスクを表します。 このオブジェクトのスキーマは **xtk:workflowTask** です。
+* **イベント**：実行されるタスクを有効化したイベントを表します。 このオブジェクトのスキーマは **xtk:workflowEvent** です。 このオブジェクトは、複数のトランジションから有効化された「**AND 結合**」タイプアクティビティについては初期化されません。
+* **イベント**：現在のタスクを有効化したイベントのリストを表します。 このオブジェクトのスキーマは **xtk:workflowEvent** です。 このテーブルでは通常、要素は 1 つですが、複数のトランジションをもとに有効化された「**AND 結合**」タイプアクティビティの場合、要素が複数になることがあります。
 * **アクティビティ**：実行されるタスクのモデルを表します。 このオブジェクトのスキーマは、アクティビティタイプに応じて決まります。 このオブジェクトは、初期化スクリプトを使用して変更することができます。ほかのスクリプでは変更できません。
 
 スクリプトツールバーの右側にあるボタンをクリックすると、オブジェクトで利用できるプロパティがドロップダウンリストに表示されます。
@@ -74,11 +82,11 @@ logInfo("Start date: " + task.creationDate)
 
 ### インスタンス変数 {#instance-variables}
 
-インスタンス変数（**[!UICONTROL instance.vars.xxx]**）はグローバル変数と同等です。 この変数はすべてのアクティビティで共有されます。
+インスタンス変数（**[!UICONTROL instance.vars.xxx]**）は、グローバル変数に相当します。 この変数はすべてのアクティビティで共有されます。
 
 ### タスク変数 {#task-variables}
 
-タスク変数（**[!UICONTROL task.vars.xxx]**）は、ローカル変数と同等です。 現在のタスクのみが使用します。 この変数は、永続的なアクティビティでデータの維持に使用されるほか、同じアクティビティの異なるスクリプト間でデータを交換する場合に使用されることもあります。
+タスク変数（**[!UICONTROL task.vars.xxx]**）は、ローカル変数に相当します。 現在のタスクのみが使用します。 この変数は、永続的なアクティビティでデータの維持に使用されるほか、同じアクティビティの異なるスクリプト間でデータを交換する場合に使用されることもあります。
 
 ### イベント変数 {#event-variables}
 
@@ -203,4 +211,4 @@ logInfo("Start date: " + task.creationDate)
 一方、その他のプロパティでは、初期化スクリプトを使用する必要があります。 スクリプトはタスクの実行前に評価されます。 変数 **[!UICONTROL activity]** は、タスクに対応するアクティビティを参照します。 このアクティビティのプロパティは変更することが可能で、タスクにのみ影響を与えます。
 
 **関連トピック**
-[&#x200B; ワークフローでのJavaScript コードの例](javascript-in-workflows.md)
+[ワークフローでの JavaScript コードの例](javascript-in-workflows.md)

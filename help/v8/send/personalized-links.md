@@ -5,23 +5,31 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
-TQID: https://experienceleague.adobe.com/db52FJQfk-8DNGpeaGfqvs-SSXNbgngxpqUNzWqNfrc
+TQID: 'https://experienceleague.adobe.com/db52FJQfk-8DNGpeaGfqvs-SSXNbgngxpqUNzWqNfrc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 51%
-
 ---
-
 # パーソナライズされたリンクのトラッキング {#tracking-personalized-links}
 
 パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。
@@ -45,7 +53,7 @@ ht-degree: 51%
 
 ## URL検出 {#url-detection}
 
-追跡検出のために、Adobe Campaignは[Tidy](https://www.html-tidy.org/)を埋め込んでHTMLソースを解析し、パターンを検出します。 コンテンツのすべてのURLをリストして、個別に追跡できるようにします。 Adobe Campaignは再度Tidyを使用して、URL(`http://myurl.com`)をAdobe Campaignリダイレクトサーバーを指すURLに置き換えます。
+追跡検出のために、Adobe Campaignは[Tidy](https://www.html-tidy.org/)を埋め込んでHTMLソースを解析し、パターンを検出します。 コンテンツのすべての URL をリストして、個別に追跡できるようにします。 Adobe Campaignは再度Tidyを使用して、URL(`http://myurl.com`)をAdobe Campaignリダイレクトサーバーを指すURLに置き換えます。
 
 例えば、初期コンテンツでは、次のようになります。`http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>`は、次の特定の受信者で置き換えられます。`http://emailing.customer.com/r/?id=h617791,71ffa3,71ffa8&p1=CustomerName`
 

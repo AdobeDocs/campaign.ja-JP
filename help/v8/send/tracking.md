@@ -5,22 +5,34 @@ feature: Monitoring, Email
 role: User
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-TQID: https://experienceleague.adobe.com/ICNcjYpWx5Pa-ZqvTcAAAIlQSi5PWwIUxSz7l9dmEKE
+TQID: 'https://experienceleague.adobe.com/ICNcjYpWx5Pa-ZqvTcAAAIlQSi5PWwIUxSz7l9dmEKE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: '457'
 ht-degree: 73%
-
 ---
-
 # メッセージトラッキングの基本を学ぶ {#get-started-tracking}
 
 Adobe Campaignのトラッキング機能を使用すると、送信されたメッセージを追跡し、受信者の動作（開封、リンクのクリック、購読解除など）を確認できます。

@@ -6,18 +6,30 @@ feature: Workflows, Enrichment Activity, Targeting Activity
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 23bfabac-62cc-4f86-a739-a34a0e183c31
-TQID: https://experienceleague.adobe.com/f5zQLS5AXT8OcK4BVB0oH6qShvjmZfTgUS6uchiEsZ8
+TQID: 'https://experienceleague.adobe.com/f5zQLS5AXT8OcK4BVB0oH6qShvjmZfTgUS6uchiEsZ8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: a643fca8-db7d-5178-8513-7b8f51dfd239
+    internal-label: Enrichment Activity
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1431
-ht-degree: 96%
-
+source-wordcount: '1431'
+ht-degree: 100%
 ---
-
 # エンリッチメント{#enrichment}
 
 
@@ -47,7 +59,7 @@ ht-degree: 96%
 
 * **[!UICONTROL コレクションを定義]**：テーブル間で 1-N カーディナリティを持つリンクを定義できます。
 * **[!UICONTROL ターゲットが常に使用可能であるリンクを定義]**：テーブル間で 1-1 カーディナリティを持つリンクを定義できます。 結合条件は、ターゲットテーブル内の 1 つのレコードで定義される必要があります。
-* **[!UICONTROL データベース内にターゲットが存在しない可能性があるリンクを定義]**：テーブル間で 0-1 カーディナリティを持つリンクを定義できます。 結合条件は0または1 （最大）で定義する必要があります。 ターゲットテーブルのレコード。
+* **[!UICONTROL データベース内にターゲットが存在しない可能性があるリンクを定義]**：テーブル間で 0-1 カーディナリティを持つリンクを定義できます。 結合条件は、ターゲットテーブル内のゼロまたは 1 つ（最大）のレコードで定義される必要があります 。
 
   このオプションの設定は、**[!UICONTROL エンリッチメント]**&#x200B;アクティビティの&#x200B;**[!UICONTROL 追加データを編集]**&#x200B;リンクからアクセスできる「**[!UICONTROL 単純結合]**」タブでおこないます。
 
@@ -69,7 +81,7 @@ ht-degree: 96%
 
 「**[!UICONTROL プライマリセット]**」フィールドでは、インバウンドトラジションを選択できます。アクティビティのワークテーブルのデータはエンリッチメントされます。
 
-「**[!UICONTROL データを追加]**」リンクをクリックし、追加するデータのタイプを選択します。 提供されるデータタイプのリストは、プラットフォームにインストールされているモジュールとオプションによって異なります。 最小構成の場合、いつでもフィルタリングディメンションとリンクへ関係付けられたデータを追加できます。
+「**[!UICONTROL データを追加]**」リンクをクリックして、追加するデータのタイプを選択します。 オファーされるデータタイプのリストの内容は、プラットフォームにインストールしたモジュールとオプションによって異なります。 最小構成の場合、いつでもフィルタリングディメンションとリンクへ関係付けられたデータを追加できます。
 
 ![](assets/enrichment_edit.png)
 
@@ -209,7 +221,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >プレビューできる提案の数は、配信で実行した設定で決まります。
+   >プレビュー可能な提案の数は、配信で実行された設定によって決まります。
 
 ## オファーのランキングと重み付けの保存 {#storing-offer-rankings-and-weights}
 

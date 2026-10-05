@@ -7,13 +7,28 @@ role: Admin
 level: Experienced
 hide: true
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 93%
-
 ---
-
 # プッシュ通知チャネルの変更 {#push-upgrade}
 
 Campaign を使用すると、iOS および Android デバイスにプッシュ通知を送信できます。 これを実行するには、Campaign をモバイルアプリケーションの購読サービスに依存させます。
@@ -26,7 +41,7 @@ Campaign を使用すると、iOS および Android デバイスにプッシュ�
 
 ### 変更点 {#fcm-changes}
 
-Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年7月22日（PT）**&#x200B;に廃止されます。 Firebase Cloud Messaging HTTP プロトコルの詳細については、[Google Firebase ドキュメント &#x200B;](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}を参照してください。
+Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年7月22日（PT）**&#x200B;に廃止されます。 Firebase Cloud Messaging HTTP プロトコルの詳細については、[Google Firebase ドキュメント ](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}を参照してください。
 
 Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通知メッセージを送信するための最新の API を既にサポートしています。 ただし、古い実装の中には、依然としてレガシー API に依存するものもあります。 これらの実装は更新する必要があります。
 
@@ -47,9 +62,9 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 #### 前提条件 {#fcm-transition-prerequisites}
 
-* モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。 このファイルの取得方法については、[Google Firebase ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup?hl=ja#initialize-sdk){target="_blank"}を参照してください。
+* モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。 このファイルの取得方法については、[Google Firebase ドキュメント ](https://firebase.google.com/docs/admin/setup?hl=ja#initialize-sdk){target="_blank"}を参照してください。
 
-* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。 環境が古いバージョンで実行されている場合、HTTP v1への移行の前提条件は、環境を[最新のCampaign Classic ビルド &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。 Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
+* Campaign Classic v7 の場合、20.3.1 リリースで HTTP v1 のサポートを追加しました。 環境が古いバージョンで実行されている場合、HTTP v1への移行の前提条件は、環境を[最新のCampaign Classic ビルド ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。 Campaign v8 の場合、HTTP v1 はすべてのリリースでサポートされ、アップグレードは必要ありません。
 
 * Campaign Classic v7 オンプレミスユーザーは、マーケティング実行サーバーとリアルタイム実行サーバーの両方をアップグレードする必要があります。
 
@@ -57,9 +72,9 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 では、プッシュ通�
 
 * Android ルーティング外部アカウントについて：
 
-   * Campaign Classic v7 オンプレミスまたはハイブリッドユーザーの場合は、Android ルーティング外部アカウントが `androidPushConnectorV2.js` で設定されていることを確認します。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}を参照してください。
+  * Campaign Classic v7 オンプレミスまたはハイブリッドユーザーの場合は、Android ルーティング外部アカウントが `androidPushConnectorV2.js` で設定されていることを確認します。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}を参照してください。
 
-   * ハイブリッド、ホストおよび Managed Cloud Services のデプロイメントの場合は、アドビカスタマーケアチームに連絡して、ミッドソーシングサーバーの Android ルーティング外部アカウントで `androidPushConnectorV2.js (nms)` コネクタが選択されていることを確認する必要もあります。
+  * ハイブリッド、ホストおよび Managed Cloud Services のデプロイメントの場合は、アドビカスタマーケアチームに連絡して、ミッドソーシングサーバーの Android ルーティング外部アカウントで `androidPushConnectorV2.js (nms)` コネクタが選択されていることを確認する必要もあります。
 
 #### トランジション手順 {#fcm-transition-steps}
 
@@ -115,45 +130,45 @@ HTTP v1 をサポートするバージョンにアップグレードする前に
 
   HTTP v1 をサポートするバージョンにアップグレードする前に、作成済みのすべての配信と配信テンプレートにパッチを適用するには、次の手順に従います。
 
-   1. パッケージ内の既存の配信と配信テンプレートをエクスポートしておくと、パッチ適用中に予期しない問題が発生した場合にそれらを復元できるようになります。
-   1. Posgresql で次のコマンドを実行します。
+  1. パッケージ内の既存の配信と配信テンプレートをエクスポートしておくと、パッチ適用中に予期しない問題が発生した場合にそれらを復元できるようになります。
+  1. Posgresql で次のコマンドを実行します。
 
-      ```sql
-      pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
-      ```
+     ```sql
+     pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
+     ```
 
-   1. デフォルトでは、スクリプトは `dryrun` モードで実行され、そのモードでスクリプトを起動すると、一部の配信にパッチを適用する必要があるかどうかを確認できます。
+  1. デフォルトでは、スクリプトは `dryrun` モードで実行され、そのモードでスクリプトを起動すると、一部の配信にパッチを適用する必要があるかどうかを確認できます。
 
-      コマンド
+     コマンド
 
-      ```sql
-      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
-      ```
+     ```sql
+     nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
+     ```
 
-      出力
+     出力
 
-      ```sql
-      ...
-      HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
-      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
-      HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
-      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
-      ...
-      HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
-      HH:MM:SS >>  - X had not patchable androidCheckParams formula!
-      HH:MM:SS >   - Y had androidCheckParams formula patched.
-      HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
-      ```
+     ```sql
+     ...
+     HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+     HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+     HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+     HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+     ...
+     HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
+     HH:MM:SS >>  - X had not patchable androidCheckParams formula!
+     HH:MM:SS >   - Y had androidCheckParams formula patched.
+     HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
+     ```
 
-      >[!NOTE]
-      >
-      >`not patchable` 件の配信は手動で更新する必要があります。 ID はログで確認できます。
+     >[!NOTE]
+     >
+     >`not patchable` 件の配信は手動で更新する必要があります。 ID はログで確認できます。
 
-   1. 次の方法で実行モードでスクリプトを実行して、配信を更新します。
+  1. 次の方法で実行モードでスクリプトを実行して、配信を更新します。
 
-      ```sql
-      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
-      ```
+     ```sql
+     nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
+     ```
 
   +++
 
@@ -190,7 +205,7 @@ Apple の推奨に従って、ステートレス認証トークンを使用し�
 
 * 1 つのトークンを使用して、会社のすべてのアプリに関する通知を配布できます。
 
-APNへのトークンベースの接続について詳しくは、[Apple開発者ドキュメント &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}を参照してください。
+APNへのトークンベースの接続について詳しくは、[Apple開発者ドキュメント ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}を参照してください。
 
 Adobe Campaign Classic v7 および Adobe Campaign v8 は、トークンベースの接続と証明書ベースの接続の両方をサポートします。 実装が証明書ベースの接続に依存している場合、アドビではトークンベースの接続に更新することを強くお勧めします。
 
@@ -211,9 +226,9 @@ Adobe Campaign Classic v7 および Adobe Campaign v8 は、トークンベー�
 
 #### 前提条件 {#ios-transition-prerequisites}
 
-* Campaign Classic v7 の場合、**トークンベースの認証**&#x200B;モードのサポートを 20.2 リリースで追加しました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を[最新のCampaign Classic ビルド &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。 Campaign v8 の場合、**トークンベースの認証**&#x200B;モードはすべてのリリースでサポートされ、アップグレードは必要ありません。
+* Campaign Classic v7 の場合、**トークンベースの認証**&#x200B;モードのサポートを 20.2 リリースで追加しました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を[最新のCampaign Classic ビルド ](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=ja){target="_blank"}にアップグレードすることです。 Campaign v8 の場合、**トークンベースの認証**&#x200B;モードはすべてのリリースでサポートされ、アップグレードは必要ありません。
 
-* サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。 このキーは、[Apple開発者ドキュメント &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}で説明されているように、Apple開発者アカウントにリクエストされます。
+* サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。 このキーは、[Apple開発者ドキュメント ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}で説明されているように、Apple開発者アカウントにリクエストされます。
 
 * ハイブリッド、ホストおよび Managed Services のデプロイメントの場合は、以下のトランジション手順に加えて、アドビに連絡してリアルタイム（RT）実行サーバーを更新してください。 ミッドソーシングサーバーは影響を受けません。
 

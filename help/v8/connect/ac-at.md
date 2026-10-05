@@ -5,25 +5,38 @@ feature: Target Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
-TQID: https://experienceleague.adobe.com/d5k2eJVXkyK0buudvJfqokZ5q9dPJhcDyiNcKImz-KE
+TQID: 'https://experienceleague.adobe.com/d5k2eJVXkyK0buudvJfqokZ5q9dPJhcDyiNcKImz-KE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 98%
-
 ---
-
 # Campaign と Adobe Target の連携
 
 Campaign と Target を接続すると、Adobe Target からのオファーを Adobe Campaign のメール配信に組み込むことができます。
@@ -86,7 +99,7 @@ Adobe Campaign では、2 通りの方法で Target からメールに動的イ�
 * **[!UICONTROL ランディングページ]**&#x200B;は、デフォルト画像からリダイレクトされて開くデフォルトのページです。 この URL は、デフォルト画像が最終的なメールに表示される場合にのみ適用されます。 これはオプションです。
 * **[!UICONTROL 追加の決定パラメーター]**&#x200B;は、Adobe Target セグメントで定義されたフィールドと Adobe Campaign のフィールドとのマッピングを指定します。 使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。 この例では、「国」フィールドを追加しています。
 
-Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。 Target Enterprise権限について詳しくは、[Adobe Target ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}を参照してください。
+Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。 Target Enterprise権限について詳しくは、[Adobe Target ドキュメント ](https://experienceleague.adobe.com/ja/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}を参照してください。
 
 ![](assets/target_13.png)
 
@@ -106,7 +119,7 @@ Adobe Target では、オファーのさまざまなバージョンを作成で�
 
    ![](assets/target_6.png)
 
-1. 残りのリダイレクトオファーについても同じ手順を繰り返します。 詳しくは、この[Adobe Target ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja#experiences){target="_blank"}を参照してください。
+1. 残りのリダイレクトオファーについても同じ手順を繰り返します。 詳しくは、この[Adobe Target ドキュメント ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja#experiences){target="_blank"}を参照してください。
 
 ### オーディエンスの作成 {#audiences-target}
 

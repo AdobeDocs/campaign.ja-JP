@@ -4,22 +4,32 @@ title: タイポロジルールの適用
 description: タイポロジルールを適用する方法を学ぶ
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-TQID: https://experienceleague.adobe.com/CqL2-BL-DuUY2-tMG4WD-ih3YJw0u3BuIkcL4HavFlg
+TQID: 'https://experienceleague.adobe.com/CqL2-BL-DuUY2-tMG4WD-ih3YJw0u3BuIkcL4HavFlg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+subfeature_v2:
+  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1031
+source-wordcount: '1031'
 ht-degree: 99%
-
 ---
-
 # タイポロジルールの適用{#applying-rules}
 
 ## 配信へタイポロジを適用 {#apply-a-typology-to-a-delivery}
@@ -55,7 +65,7 @@ ht-degree: 99%
 
 ルールの適用条件を定義するには、「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL ルール適用条件を編集...]**」リンクをクリックします。
 
-次に、[&#x200B; クエリエディター](../../v8/start/query-editor.md)を使用して、フィルタリング条件を定義します。 以下の図では、ラベルに「offer」という語が含まれる配信または現在の日付以降に作成された配信のみに、処理能力ルールが適用されます。
+次に、[ クエリエディター](../../v8/start/query-editor.md)を使用して、フィルタリング条件を定義します。 以下の図では、ラベルに「offer」という語が含まれる配信または現在の日付以降に作成された配信のみに、処理能力ルールが適用されます。
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 

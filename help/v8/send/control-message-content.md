@@ -6,13 +6,22 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 93%
-
+ht-degree: 97%
 ---
-
 # メッセージコンテンツの制御{#control-message-content}
 
 メールが受信者に確実に届くようにし、メールの配信品質率を向上させるには、メールがいくつかのルールに従う必要があります。 従わない場合は、特定のメッセージのコンテンツがスパムとして検出される可能性があります。 Adobe Campaign には、コンテンツがこれらのルールに従うようにするためのツールがいくつか用意されています。
@@ -29,15 +38,15 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->メールコンテンツの編集について詳しくは、この[&#x200B; ページ &#x200B;](defining-the-email-content.md)を参照してください。
+>メールコンテンツの編集について詳しくは、この[ ページ ](defining-the-email-content.md)を参照してください。
 
 ## 送信者アドレス {#sender-address}
 
 一部の ISP は、メッセージを受け付ける前に、送信者アドレス（**[!UICONTROL From]**）の有効性をチェックします。 不正な形式のアドレスは、受信サーバーによって拒否される可能性があります。
 
-インスタンス レベルで正しいアドレスが指定されていることを確認する必要があります（メニュー&#x200B;**[!UICONTROL ツール/詳細/デプロイメントウィザード…]**） 最も頻繁に使用されるシナリオで使用されます。
+インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイメントウィザード...]**） または最も頻繁に使用されるシナリオで、必ず正しいアドレスを指定する必要があります。
 
-送信者のアドレスの定義について詳しくは、この[&#x200B; ページ &#x200B;](defining-the-email-content.md#sender)を参照してください。
+送信者のアドレスの定義について詳しくは、この[ ページ ](defining-the-email-content.md#sender)を参照してください。
 
 ## パーソナライズ機能 {#personalization}
 

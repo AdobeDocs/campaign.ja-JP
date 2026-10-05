@@ -5,28 +5,40 @@ feature: Data Model
 role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-TQID: https://experienceleague.adobe.com/pUzg-KbbYOXppAjG0nQe9T16Co61ipNXywTjNaV76bU
+TQID: 'https://experienceleague.adobe.com/pUzg-KbbYOXppAjG0nQe9T16Co61ipNXywTjNaV76bU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '737'
 ht-degree: 92%
-
 ---
-
 # Campaign データモデルの基本を学ぶ {#gs-ac-datamodel}
 
 Adobe Campaign には、事前定義済みのデータモデルが付属しています。 ここでは、Adobe Campaign データモデルのビルトインテーブルとそのインタラクションについて詳しく説明します。 Adobe Campaign は、相互にリンクされたテーブルを含んだクラウドデータベースに基づいています。
@@ -39,9 +51,9 @@ Adobe Campaign データモデルの基本構造は、次のように説明で�
 
 * **ログテーブル**：このテーブルには、キャンペーンの実行に関連するすべてのログが格納されます。
 
-   * 配信ログとは、すべてのチャネルの受信者またはデバイスに送信されるすべてのメッセージです。 メイン配信ログテーブル（**NmsBroadLogRcp**）には、すべての受信者の配信ログが格納されています。
-   * **nmsBroadlog** テーブルは、システム内で最大のテーブルです。 送信されたメッセージごとに 1 つのレコードが格納されています。これらのレコードは挿入され、配信ステータスを追跡するために更新され、履歴をパージすると削除されます。
-   * メイントラッキングログテーブル（**NmsTrackingLogRcp**）には、すべての受信者のトラッキングログが格納されています。 トラッキングログは、メールの開封数やクリック数など、受信者の反応を指します。 各反応はトラッキングログに対応します。
+  * 配信ログとは、すべてのチャネルの受信者またはデバイスに送信されるすべてのメッセージです。 メイン配信ログテーブル（**NmsBroadLogRcp**）には、すべての受信者の配信ログが格納されています。
+  * **nmsBroadlog** テーブルは、システム内で最大のテーブルです。 送信されたメッセージごとに 1 つのレコードが格納されています。これらのレコードは挿入され、配信ステータスを追跡するために更新され、履歴をパージすると削除されます。
+  * メイントラッキングログテーブル（**NmsTrackingLogRcp**）には、すべての受信者のトラッキングログが格納されています。 トラッキングログは、メールの開封数やクリック数など、受信者の反応を指します。 各反応はトラッキングログに対応します。
 
   配信ログとトラッキングログは、一定期間の後に削除されます。 この期間は Adobe Campaign で指定され、変更可能です。 したがって、ログを定期的にエクスポートすることを強くお勧めします。
 
@@ -75,7 +87,7 @@ Adobe Campaign のビルトインの受信者テーブル（nmsrecipient）は�
 
 既存のスキーマを拡張する方法について詳しくは、[この節](extend-schema.md)を参照してください。
 
-組み込みの受信者テーブル拡張機能の例については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}を参照してください
+組み込みの受信者テーブル拡張機能の例については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}を参照してください
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。 この方法には制限があり、[この節](custom-recipient.md)で説明します。
 
