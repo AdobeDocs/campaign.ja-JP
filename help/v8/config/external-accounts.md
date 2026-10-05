@@ -153,7 +153,7 @@ Campaign Web UI ページには、**外部データベース** プロバイダ�
 * **[Vertica Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}** - CampaignをOpenText Vertica Analytics データベースに接続します。
 * **[Microsoft Fabric](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** - CampaignをMicrosoft Fabric SQLおよびストレージサービスに接続します。
 
-従来のクライアントコンソールの詳細とその他の参照については、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}を参照してください。
+従来のクライアントコンソールの詳細とその他の参照については、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}を参照してください。
 
 #### Databricks外部アカウント {#databricks-external-accounts}
 

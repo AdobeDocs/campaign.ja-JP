@@ -98,7 +98,7 @@ Campaign のバージョンを確認するには、クライアントコンソ�
 
 新しいバージョンとその変更は、[&#x200B; リリースノート &#x200B;](release-notes.md)に記載されています。
 
-製品リリースのアップデートについては、[Adobe優先製品アップデート &#x200B;](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}に登録するか、[Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスしてください。
+製品リリースのアップデートについては、[Adobe優先製品アップデート &#x200B;](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}に登録するか、[Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ja&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスしてください。
 
 セキュリティ通知およびセキュリティ更新の準備に関するガイダンスについては、[情報を提供し続ける](#security-staying-informed)を参照してください。
 
