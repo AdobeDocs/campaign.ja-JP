@@ -216,4 +216,4 @@ AMP コンテンツとフォールバックの準備が整い、互換性のあ�
 
 ビデオでは、Adobe Campaign で AMP をアクティブ化する方法を説明し、使用法を紹介しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/35081?captions=jpn&quality=12&learn=on)

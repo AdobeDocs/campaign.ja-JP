@@ -88,4 +88,4 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 様々なタイプの動的コンテンツの概要と、パーソナライゼーションブロックと条件付きステートメントを作成して配信に適用する方法を説明します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452865?captions=jpn&quality=12)
