@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 829f03234f4899643a7af4c8f21707f4dc7c5389
+source-git-commit: f45e5bb7d3319a4904894aa8a1c66f57952e8af3
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '901'
 ht-degree: 87%
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 87%
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + リリースノート {#releases}
-  + {hide-from-toc}[早期リリースノート &#x200B;](start/e-release-notes.md)
+  + {hide-from-toc}[早期リリースノート ](start/e-release-notes.md)
   + [バージョンとアップグレード](start/upgrades.md)
-  + {hide-from-toc}[&#x200B; バージョンとアップグレードのプレビュー](start/upgrades-v2.md)
+  + {hide-from-toc}[ バージョン、アップグレード、セキュリティ プレビュー](start/upgrades-v2.md)
   + [最新リリース](start/release-notes.md)
   + 以前のリリース {#previous-rn}
     + [2025](start/release-notes-2025.md)
@@ -39,7 +39,7 @@ ht-degree: 87%
   + [Campaign Standard から v8 へ](start/acs-to-v8.md)
   + [よくある質問](start/campaign-faq-comprehensive.md)
   + {hide-from-toc}[よくある質問](start/campaign-faq.md)
-  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](start/cnil-pixel-tracking.md)
+  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス ](start/cnil-pixel-tracking.md)
 + 管理と権限 {#permissions}
   + [権限の基本を学ぶ](start/gs-permissions.md)
   + [ユーザー権限の管理](start/manage-permissions.md)
@@ -236,7 +236,7 @@ ht-degree: 87%
     + [フォルダーとビューの管理](audiences/folders-and-views.md)
     + [列挙の操作](config/enumerations.md)
     + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ &#x200B;](config/push-config.md)
+    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ ](config/push-config.md)
     + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
   + [Campaign データモデル](dev/datamodel.md)
@@ -255,7 +255,7 @@ ht-degree: 87%
     + [入力フォーム](dev/forms.md)
   + [データパッケージの使用](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[queryDefを使用してデータベースをクエリします](dev/query-api.md)
+  + {hide-from-toc}[queryDef](dev/query-api.md)を使用してデータベースをクエリします
   + REST API {#apis}
     + [REST APIの基本を学ぶ](dev/api/get-started-apis.md)
     + [推奨事項と制限事項](dev/api/limitations.md)
