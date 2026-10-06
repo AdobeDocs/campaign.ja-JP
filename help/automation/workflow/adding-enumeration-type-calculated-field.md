@@ -6,20 +6,29 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-TQID: https://experienceleague.adobe.com/SC-bh-Ms6cMAg0YV14vjf0wA-Ijw-D4MY-s4kqWXZiQ
+TQID: 'https://experienceleague.adobe.com/SC-bh-Ms6cMAg0YV14vjf0wA-Ijw-D4MY-s4kqWXZiQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 91%
-
+source-wordcount: '519'
+ht-degree: 97%
 ---
-
 # 列挙タイプ計算フィールドの追加 {#adding-an-enumeration-type-calculated-field}
 
 ここでは、「**[!UICONTROL 列挙]**」タイプの計算フィールドを使用してクエリを作成します。 このフィールドでは、データのプレビューウィンドウに追加の列が生成されます。 この列では、各受信者について結果として返される数値（0、1 および 2）を指定します。 新しい列の各値に性別を割り当てます。「1」は「男性」、「2」は「女性」、値が「0」の場合は「不明」です。
@@ -87,6 +96,6 @@ ht-degree: 91%
 
    ![](assets/query_editor_nveau_79.png)
 
-   もう 1 つの例では、列挙値「2」が入力されていないとします。 **[!UICONTROL エラーを生成し、行]**&#x200B;関数を拒否するオプションを選択します。すべての性別「2」の受信者が異常値を発生させ、行内のその他の情報（名と姓など）が表示されます。 書き出されません。 エラーログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。 このログは、列挙値「2」が入力されていないことを示します。
+   もう 1 つの例では、列挙値「2」が入力されていないとします。 「**[!UICONTROL エラーを生成してラインを却下]**」機能を選択します。すべての性別「2」の受信者で例外が発生し、ライン内の他の情報（名と姓など）は エクスポートされません。 エラーログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。 このログは、列挙値「2」が入力されていないことを示します。
 
    ![](assets/query_editor_nveau_80.png)

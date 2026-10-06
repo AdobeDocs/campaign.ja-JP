@@ -4,22 +4,27 @@ title: キャンペーンシミュレーションの基本を学ぶ
 description: キャンペーンのシミュレーションの設定方法を学ぶ
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-TQID: https://experienceleague.adobe.com/U78259I0GrAXCvnDrUCP-RyQZ-caoY0fjWndcONm5EQ
+TQID: 'https://experienceleague.adobe.com/U78259I0GrAXCvnDrUCP-RyQZ-caoY0fjWndcONm5EQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: '1358'
 ht-degree: 100%
-
 ---
-
 # キャンペーンシミュレーション{#campaign-simulations}
 
 キャンペーンの最適化では、シミュレーションを活用して、キャンペーンプランの効率性をテストできます。 このテストにより、発生する売上やタイポロジルールに基づくターゲットのボリュームなど、キャンペーンの成功の可能性を評価できます。

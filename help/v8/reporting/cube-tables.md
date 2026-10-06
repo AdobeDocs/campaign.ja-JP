@@ -6,23 +6,34 @@ feature: Reporting
 role: User, Developer
 level: Beginner
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
-TQID: https://experienceleague.adobe.com/fVo8tGw-kPgGgB7djOQr8tv5MoRvrPr-MF2bzYYKDgI
+TQID: 'https://experienceleague.adobe.com/fVo8tGw-kPgGgB7djOQr8tv5MoRvrPr-MF2bzYYKDgI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Reporting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 989
-ht-degree: 91%
-
+source-wordcount: '989'
+ht-degree: 97%
 ---
-
 # キューブを使用したデータの調査{#use-cubes-to-create-reports}
 
 キューブを使用すると、レポートを作成したり、データベースからデータを特定して選択したりできます。 以下を行うことができます。
@@ -127,9 +138,9 @@ ht-degree: 91%
 
      使用可能な演算子は、合計、差分、乗算および率です。
 
-   * 比率：このタイプの測定では、特定のディメンションについて測定されたレコード数を計算できます。 ディメンションまたはサブディメンションに基づいて比例性を計算できます。
+   * 割合：このタイプの測定の場合は、指定されたディメンションの測定済みレコードの数を計算できます。 ディメンションまたはサブディメンションに基づいて比率を計算できます。
    * バリエーション：このタイプの測定の場合は、あるレベルの値の変化を計算できます。
-   * 標準偏差：このタイプの測定では、各セルのグループ内の偏差を、値の平均と比較して計算できます。 例えば、既存のあらゆるセグメントの購入額を比較できます。
+   * 標準偏差：このタイプの測定の場合は、平均値と比べた各セルグループ内の偏差を計算できます。 例えば、既存のすべてのセグメントの購入量を比較できます。
 
    作成したら、測定がレポートに追加されます。
 

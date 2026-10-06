@@ -6,18 +6,36 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: 2317b1ea-6db4-58c7-851f-717a69c0f5c0
+    internal-label: Inbox Rendering
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+  - id: aef0b685-fc31-54d4-b831-a87fdb9d69de
+    internal-label: Email Rendering
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 98%
-
 ---
-
 # 受信ボックスレンダリング{#inbox-rendering}
 
 ## 受信ボックスレンダリングについて {#about-inbox-rendering}
 
-「**送信**」ボタンを押す前に、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
+「**送信**」ボタンを押す前に、様々な web クライアント、web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
 
 これを可能にするために、Adobe Campaign では、[Litmus](https://litmus.com/email-testing){target="_blank"} の Web ベースのメールテストソリューションを活用して、レンダリングをキャプチャし、専用のレポートで使用できるようにします。 これにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューして、メジャーなデスクトップおよびアプリケーションの互換性を確認できます。
 

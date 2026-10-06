@@ -5,21 +5,30 @@ description: Web ページでのオファーの追加方法を学ぶ
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-TQID: https://experienceleague.adobe.com/KBMGNRM-vmeYoar4Bdr2uILvjiIBHA3KlkELyirtuvk
+TQID: 'https://experienceleague.adobe.com/KBMGNRM-vmeYoar4Bdr2uILvjiIBHA3KlkELyirtuvk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1483
-ht-degree: 95%
-
+source-wordcount: '1483'
+ht-degree: 99%
 ---
-
 # Web ページへのオファーの追加{#add-an-offer-in-web}
 
 Web ページでオファーエンジンを呼び出すには、ページに JavaScript コードの呼び出しを直接挿入します。 この呼び出しは、ターゲット要素のオファーコンテンツを返します。
@@ -183,7 +192,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
    このスキーマは、「Title 2」（タイトル 2）および「Price」（価格）フィールドを定義します。
 
-   例のスキーマの名前は&#x200B;**cus:offer**&#x200B;です
+   この例のスキーマの名前は **cus:offer** です。
 
    ```
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
@@ -326,11 +335,11 @@ XML レンダリング関数を使用して、オファー表示域を作成で�
 
 ### オファーの提案 {#offer-proposition}
 
-SOAPを使用したオファー提案の場合、**nms:proposition#Propose** コマンドの後に次のパラメーターを追加します。
+SOAP を使用したオファーの提案の場合、**nms:proposition#Propose** コマンドの後に次のパラメーターを追加します。
 
 * **targetId**：受信者のプライマリキー（複合キーも使用可能）。
 * **maxCount**：そのコンタクト先に対するオファーの提案の数を指定します。
-* **context**：スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが&#x200B;**nms:interaction**&#x200B;の場合、**`<empty>`**&#x200B;を追加する必要があります。
+* **context**：スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
 * **categories**：オファーが属する必要があるカテゴリを指定します。
 * **themes**：オファーが属する必要があるテーマを指定します。
 * **uuid**：Adobe Campaign の永続 Cookie の値です（&quot;uuid230&quot;）。
@@ -348,11 +357,11 @@ SOAPを使用したオファー提案の場合、**nms:proposition#Propose** コ
 
 ### オファーの更新 {#offer-update}
 
-**nms:interaction#UpdateStatus** コマンドをURLに追加し、次のパラメーターを指定します。
+**nms:interaction#UpdateStatus** コマンドを URL に追加し、次のパラメーターを指定します。
 
 * **proposition**：文字列。オファー提案中の出力として取得した提案 ID が含まれます。 [オファーの提案](#offer-proposition)を参照してください。
 * **status**：文字列。オファーの新しいステータスを指定します。 使用可能な値は、**nms:common** スキーマの&#x200B;**propositionStatus** [列挙](../config/enumerations.md)にリストされています。 例えば、デフォルトでは、数字の 3 が&#x200B;**許可済み**&#x200B;ステータスに対応します。
-* **context**：XML 要素。スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが&#x200B;**nms:interaction**&#x200B;の場合、**`<empty>`**&#x200B;を追加する必要があります。
+* **context**：XML 要素。スペーススキーマにコンテキスト情報を追加できます。 使用するスキーマが **nms:interaction** の場合、**`<empty>`** を追加する必要があります。
 
 ### SOAP 呼び出しの使用例 {#example-using-a-soap-call}
 

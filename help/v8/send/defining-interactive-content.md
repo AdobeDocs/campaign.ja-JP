@@ -6,21 +6,31 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
-TQID: https://experienceleague.adobe.com/R-P0T4JskiBJcyqG-Mq9AilPcnHP-SglGbew0JGqJ-0
+TQID: 'https://experienceleague.adobe.com/R-P0T4JskiBJcyqG-Mq9AilPcnHP-SglGbew0JGqJ-0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1473
+source-wordcount: '1473'
 ht-degree: 100%
-
 ---
-
 # インタラクティブコンテンツの定義{#defining-interactive-content}
 
 Adobe Campaign では、特定の条件下での動的なメールの送信を可能にする、インタラクティブな [AMP for Email](https://amp.dev/ja/about/email/) 形式を使用することができます。
@@ -204,6 +214,6 @@ AMP コンテンツとフォールバックの準備が整い、互換性のあ�
 
 ## チュートリアルビデオ {#amp-email-video}
 
-以下のビデオでは、Adobe Campaign で AMP をアクティブ化する方法を説明し、使用法を紹介しています。
+ビデオでは、Adobe Campaign で AMP をアクティブ化する方法を説明し、使用法を紹介しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35081?captions=jpn&quality=12&learn=on)

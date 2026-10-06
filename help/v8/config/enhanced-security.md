@@ -5,21 +5,34 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-TQID: https://experienceleague.adobe.com/33R4OS8KQrMdktwwbwMUHJe5YG9gZbasiDwrcADS4f4
+TQID: 'https://experienceleague.adobe.com/33R4OS8KQrMdktwwbwMUHJe5YG9gZbasiDwrcADS4f4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 801
+source-wordcount: '801'
 ht-degree: 91%
-
 ---
-
 # Campaign セキュリティ強化アドオン {#enhanced-security}
 
 このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス &#x200B;](security.md#public-guidance)の一部です。

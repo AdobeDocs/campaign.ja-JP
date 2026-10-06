@@ -5,28 +5,42 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-TQID: https://experienceleague.adobe.com/ArJJi775HkzlpPOu-SoKg8UTcYTperTC1ySmXrHHpJg
+TQID: 'https://experienceleague.adobe.com/ArJJi775HkzlpPOu-SoKg8UTcYTperTC1ySmXrHHpJg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 383
+source-wordcount: '383'
 ht-degree: 100%
-
 ---
-
 # ターゲットマッピングの操作{#gs-target-mappings}
 
 メールと SMS 配信のデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。 したがって、ターゲットマッピングには **nms:recipient** テーブルのフィールドが使用されます。

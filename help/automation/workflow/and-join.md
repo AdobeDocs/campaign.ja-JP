@@ -6,18 +6,26 @@ feature: Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: c70a106d-3518-4eac-9944-6f7c93d85bac
-TQID: https://experienceleague.adobe.com/1ChXl3Rlm93ftFFaD7Z-PcoO7CwUcxRHm2JdCFzIOZs
+TQID: 'https://experienceleague.adobe.com/1ChXl3Rlm93ftFFaD7Z-PcoO7CwUcxRHm2JdCFzIOZs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 195
+source-wordcount: '195'
 ht-degree: 100%
-
 ---
-
 # AND 結合{#and-join}
 
 

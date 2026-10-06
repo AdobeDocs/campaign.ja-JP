@@ -6,22 +6,30 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-TQID: https://experienceleague.adobe.com/MWKNwVM6bS0V5jpaXEXZMuhgEHOWwBelpRBKyAnkY1I
+TQID: 'https://experienceleague.adobe.com/MWKNwVM6bS0V5jpaXEXZMuhgEHOWwBelpRBKyAnkY1I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: 6641bfdc-d19c-56e4-9045-0f6d06e8a43b
+    internal-label: Programs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Reporting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1309
+source-wordcount: '1309'
 ht-degree: 91%
-
 ---
-
 # プログラムとキャンペーンを作成{#create-programs-and-campaigns}
 
 キャンペーンオーケストレーションのコンポーネントは、「**[!UICONTROL キャンペーン]**」タブにあります。ここでは、マーケティングプログラムとキャンペーン、およびそれらに関連する要素の概要を確認できます。

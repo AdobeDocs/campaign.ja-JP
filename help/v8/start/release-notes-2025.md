@@ -3,30 +3,46 @@ title: Campaign v8（コンソール）2025 リリースノート
 description: 2025 Campaign v8 リリースに付属する機能と改善点の一覧
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-TQID: https://experienceleague.adobe.com/OJjLadHvAgwmaelChtIjHv-xYlTV8syMi7IMIrkMvjs
+TQID: 'https://experienceleague.adobe.com/OJjLadHvAgwmaelChtIjHv-xYlTV8syMi7IMIrkMvjs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3613
+source-wordcount: '3614'
 ht-degree: 33%
-
 ---
-
 # 2025 リリースノート {#2025-rn}
 
 このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ &#x200B;](release-notes.md)を参照してください。
@@ -270,7 +286,7 @@ Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleag
 * ダイレクトメール出力ファイルをプレビューすると、ダッシュボードが空白になる問題を修正しました。 ファイルのプレビュー後に、ダッシュボードが正しく表示されるようになりました。 （NEO-75359）
 * プッシュ通知の追跡インジケーターを強化して、クリック数と開封数を追加しました。 `@recipientClick`、`@personClick`、`@totalRecipientClick`などの指標は、モバイル通知のクリック数を考慮するようになりました。 （NEO-75240）
 * 外部のキャンセル保留中ステータスを持つ配信のクリーンアップワークフローのエラーを修正しました。 データベースレコード取得ロジックが修正されました。 （NEO-74833）
-* ロシア （UTC+3:00 モスクワ）で、`nlserver`の出力時間が正しくないタイムゾーンの不一致の問題を解決しました。 時間同期ロジックが更新されました。 （NEO-74754）
+* `nlserver`の出力時間が正しくないロシアのタイムゾーンの不一致の問題（UTC+3:00 モスクワ）を解決しました。 時間同期ロジックが更新されました。 （NEO-74754）
 * MSSQL データベースのSQL構文が正しくないことが原因で、`defaultMidSourcingDlvStat` ワークフローのエラーが修正されました。 クエリ生成ロジックが互換性を保つように調整されました。 （NEO-74156）
 * Web プロセスでの複数のクラッシュを修正しました。 （NEO-73174）
 * 条件にアポストロフィが存在する場合にBigQuery クエリが失敗する問題を修正しました。 クエリ処理ロジックが更新され、特殊文字が正しく解釈されるようになりました。 （NEO-72547）
@@ -387,8 +403,8 @@ Apache web モジュールでのHTTP リクエスト処理を強化して、セ�
 
 * 新しい Amazon Redshift FDA ODBC コネクタが使用できるようになりました。 接続性が向上し、メンテナンスが容易になり、互換性も強化されます。 この新しいバージョンには、次の機能強化が含まれています。
 
-   * 新しいコネクタは、最新の FDA コネクタと一致する ODBC インターフェイスに基づいています。 これにより、長期的なサポートが確保されます。
-   * また、s3 バケットを使用した新しいデータ読み込みメカニズムを導入し、パフォーマンスを大幅に向上させます。
+  * 新しいコネクタは、最新の FDA コネクタと一致する ODBC インターフェイスに基づいています。 これにより、長期的なサポートが確保されます。
+  * また、s3 バケットを使用した新しいデータ読み込みメカニズムを導入し、パフォーマンスを大幅に向上させます。
 
   従来のコネクタは、引き続き使用できます。 新しいコネクタを試す場合は、アドビ担当者にお問い合わせください。
 

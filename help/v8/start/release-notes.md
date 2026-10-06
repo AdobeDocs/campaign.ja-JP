@@ -3,23 +3,34 @@ title: Campaign v8 リリースノート
 description: Campaign v8 最新リリース
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-TQID: https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg
+TQID: 'https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
+    internal-label: Security
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2107
-ht-degree: 6%
-
+source-wordcount: '2107'
+ht-degree: 11%
 ---
-
 # 最新リリース {#latest-release}
 
 このページには、Campaign v8（コンソール）**最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 Campaign のリリース、バージョン、アップグレードについて詳しくは、[このページ](upgrades.md)を参照してください。 その他のリリースは、このドキュメントの以前のリリースの節に記載されています。
@@ -34,11 +45,11 @@ _2026年8月11日（PT）_
 
 このリリースには、Campaign環境の全体的なセキュリティ対策を強化するセキュリティ修正が含まれています。 ホステッド版のお客様は、アップグレードの一環としてAdobeによってこれらの修正が適用されますが、お客様の側で操作は必要ありません。
 
-### 外部URL 許可リストの更新 {#url-allow-list-update-8-9-3}
+### 外部 URL 許可リストのアップデート {#url-allow-list-update-8-9-3}
 
-このリリースには、配信コンテンツと添付ファイルに使用される外部URL 許可リストのアップデートが含まれています。 現在参照しているすべてのドメインが、インスタンスの承認済み許可リストに追加されていることを確認します。
+このリリースには、配信コンテンツと添付ファイルに使用される外部 URL 許可リストのアップデートが含まれています。 現在参照しているすべてのドメインが、インスタンスの承認済み許可リストに追加されていることを確認してください。
 
-Campaign管理者は、Campaign コントロールパネルを使用して、現在の配信で使用されている外部URLを許可リストに追加し、今後の新しい外部URLについても同じプロセスを実行します。 影響を受ける配信への影響を回避するために、2026年9月5日までにこのアクティビティを完了してください。 手順については、[URL権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+Campaign 管理者として、コントロールパネルを使用し、現在配信で使用されている外部 URL を許可リストに追加し、今後の新しい外部 URL に対して同じプロセスに従ってください。 影響を受ける配信への影響を回避するために、このアクティビティを 2026年9月5日（PT）までに完了してください。 手順について詳しくは、[URL 権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
 
 ### Adobe Analytics コネクタがAnalytics 2.0 APIにアップグレードされました {#analytics-2-0-8-9-3}
 

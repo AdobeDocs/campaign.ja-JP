@@ -6,22 +6,29 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-TQID: https://experienceleague.adobe.com/gBiPYIxSPqG0ks8b680AjfJK4eY1uCovk61e3ORbKug
+TQID: 'https://experienceleague.adobe.com/gBiPYIxSPqG0ks8b680AjfJK4eY1uCovk61e3ORbKug'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 62f279d8b36160ff56f4fdc1f7fba0099bdbc8ad
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 96%
-
 ---
-
 # BCC アドレスに対するメッセージのコピーの送信 {#bcc}
 
 <!--

@@ -6,27 +6,39 @@ feature: Approvals, Campaigns
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-TQID: https://experienceleague.adobe.com/YuwN3F1QHL4OR3KLaq2D2j-xxAGsuw4433TgKvMMzsI
+TQID: 'https://experienceleague.adobe.com/YuwN3F1QHL4OR3KLaq2D2j-xxAGsuw4433TgKvMMzsI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: ce296ecd-3d06-45ab-83c3-37214e8ce31c
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2450
-ht-degree: 97%
-
+source-wordcount: '2457'
+ht-degree: 99%
 ---
-
 # 承認プロセスの設定と管理 {#approval-marketing-campaigns}
 
 マーケティングキャンペーンの作成と承認の方法と担当者は、各組織によって異なります。 キャンペーンの承認プロセスでは、デジタルマーケター、配信担当者、コンテンツ管理者、パートナーやサプライヤーなどの外部オーナーなど、複数の関係者との調整が必要です。
@@ -204,12 +216,12 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
    * Adobe Campaign クライアントコンソールの「**[!UICONTROL 使用可能コンテンツ]**」リンク。
    * 通知メッセージ内のリンク。
-オペレーターは、コンテンツをキャンペーン担当者に送信する前にコメントを追加できます。
-レビュー担当者は、通知メッセージを使用して、コンテンツを承認または却下できます。
+     オペレーターは、コンテンツをキャンペーン担当者に送信する前にコメントを追加できます。
+     レビュー担当者は、通知メッセージを使用して、コンテンツを承認または却下できます。
 
 #### 外部コンテンツの承認 {#external-content-approval}
 
-このオプションを使用すると、ブランドのコミュニケーションの一貫性、レートなど、配信レンダリングの承認を担当する外部オペレーターを定義できます。承認設定ウィンドウで&#x200B;**[!UICONTROL 外部コンテンツ承認]** オプションを選択すると、コンテンツ承認とキャンペーン担当者への通知の配信の間に、いくつかの承認ステップが追加されます。
+このオプションを使用すると、ブランドコミュニケーションの一貫性、レートなど、配信レンダリングの承認を担当する外部オペレーターを定義できます。承認設定ウィンドウで「**[!UICONTROL 外部コンテンツ承認]**」オプションを選択すると、コンテンツ承認からキャンペーン担当者への通知配信までの間に、いくつかの承認手順が追加されます。
 
 1. コンテンツが承認されたことを知らせ、外部の承認をリクエストする通知メールを外部コンテンツマネージャーが受け取ります。
 1. 通知メールには、送信された配達確認へのリンクが含まれています。このリンクを使用して、配信レンダリングと、配信コンテンツを承認または却下するためのボタンを表示できます。

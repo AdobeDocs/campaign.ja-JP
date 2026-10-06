@@ -6,20 +6,29 @@ feature: Workflows
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 08febcbc-1703-4d36-89e1-32c903618084
-TQID: https://experienceleague.adobe.com/iTopl-qZwqJdSMV-ZiJ3ymveNdCsAb8IR-SXQmt9VhI
+TQID: 'https://experienceleague.adobe.com/iTopl-qZwqJdSMV-ZiJ3ymveNdCsAb8IR-SXQmt9VhI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 100%
-
 ---
-
 # 配信コンテンツの読み込み{#loading-delivery-content}
 
 Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コンテンツが格納されている場合、このコンテンツを Adobe Campaign 配信に容易に読み込むことができます。

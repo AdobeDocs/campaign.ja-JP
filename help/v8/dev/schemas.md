@@ -5,27 +5,44 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-TQID: https://experienceleague.adobe.com/6mA-RBg1EohscNSZkxXng-e3ya4ePoAG66meI1zRVwE
+TQID: 'https://experienceleague.adobe.com/6mA-RBg1EohscNSZkxXng-e3ya4ePoAG66meI1zRVwE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: '1302'
 ht-degree: 94%
-
 ---
-
 # スキーマの操作{#gs-ac-schemas}
 
 アプリケーションに格納されるデータの物理的および論理的構造は、XML で記述されます。 **スキーマ**&#x200B;と呼ばれる Adobe Campaign 特有の文法に従います。

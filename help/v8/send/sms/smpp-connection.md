@@ -5,24 +5,36 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: eda6934a-e48a-4932-8c88-588f661005d6
-TQID: https://experienceleague.adobe.com/dPwmuLj6Qd9b5x0EcBLidSnxjEfsjT8-kAo3Y-gRih4
+TQID: 'https://experienceleague.adobe.com/dPwmuLj6Qd9b5x0EcBLidSnxjEfsjT8-kAo3Y-gRih4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Troubleshooting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 4464
+source-wordcount: '4464'
 ht-degree: 97%
-
 ---
-
 # SMPP 接続の検証 {#validate-smpp-connection}
 
 SMPP 接続が正常であることを確認するためのいくつかの確認事項を次に示します。

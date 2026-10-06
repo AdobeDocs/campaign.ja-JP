@@ -6,23 +6,33 @@ feature: Workflows, Data Management Activity
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-TQID: https://experienceleague.adobe.com/ZTuore2mgh5eLsp9YNJJ2Gzh2Np3KAPz57E-LEMGZU4
+TQID: 'https://experienceleague.adobe.com/ZTuore2mgh5eLsp9YNJJ2Gzh2Np3KAPz57E-LEMGZU4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: 97f7b899-98c8-5133-9446-bfaf99a51b9f
+    internal-label: Data Management Activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 100%
-
 ---
-
 # データ抽出（ファイル）{#extraction-file}
 
 「**[!UICONTROL データ抽出 (ファイル)]**」アクティビティを使用して、ワークフローテーブルから外部ファイルにデータを抽出できます。

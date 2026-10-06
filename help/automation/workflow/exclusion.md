@@ -6,18 +6,28 @@ feature: Workflows, Targeting Activity
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8ea831e2-8e6e-4ef0-ac05-f27ebf89ccb9
-TQID: https://experienceleague.adobe.com/N3G0NbmUjk9fbgjKW957QneAHZ7Oy12seBK-AfO6puM
+TQID: 'https://experienceleague.adobe.com/N3G0NbmUjk9fbgjKW957QneAHZ7Oy12seBK-AfO6puM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 366
+source-wordcount: '366'
 ht-degree: 100%
-
 ---
-
 # 除外{#exclusion}
 
 

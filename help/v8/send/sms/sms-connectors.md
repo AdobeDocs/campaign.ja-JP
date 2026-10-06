@@ -5,13 +5,30 @@ feature: SMS
 role: User, Admin
 level: Intermediate
 exl-id: 5ec3f172-22dc-458b-8688-9974009c985e
-source-git-commit: 0278c5161b4b32cd2158c7694d3c7a9996a401cb
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 5%
-
 ---
-
 # SMS コネクタタイプについて {#sms-connectors}
 
 Adobe Campaignでは、お客様にSMS メッセージを送信するために使用される2つのSMS コネクタをサポートしています。

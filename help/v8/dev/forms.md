@@ -5,26 +5,40 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-TQID: https://experienceleague.adobe.com/UPy2HysYfwHyRO2ESg3o6Ig-Fv0dkxWV7o6Jhg--4ok
+TQID: 'https://experienceleague.adobe.com/UPy2HysYfwHyRO2ESg3o6Ig-Fv0dkxWV7o6Jhg--4ok'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2591
-ht-degree: 94%
-
+source-wordcount: '2591'
+ht-degree: 95%
 ---
-
 # 入力フォームの概要 {#gs-ac-forms}
 
 スキーマを作成または拡張する場合は、関連する入力フォームを作成または変更して、それらの変更をエンドユーザーに表示する必要があります。

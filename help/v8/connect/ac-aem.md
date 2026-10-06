@@ -5,26 +5,36 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-TQID: https://experienceleague.adobe.com/LM635Kjl7bucy1SMcEPuhCElUI7MNrO4B3fwo9fpyFQ
+TQID: 'https://experienceleague.adobe.com/LM635Kjl7bucy1SMcEPuhCElUI7MNrO4B3fwo9fpyFQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Experience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 729
+source-wordcount: '729'
 ht-degree: 97%
-
 ---
-
 # Campaign と Adobe Experience Manager の操作 {#ac-aem}
 
 Adobe Campaign と Adobe Experience Manager を統合すると、メール配信のコンテンツとフォームを Adobe Experience Manager で直接管理できます。

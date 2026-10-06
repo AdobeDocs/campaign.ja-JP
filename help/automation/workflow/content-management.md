@@ -6,20 +6,29 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-TQID: https://experienceleague.adobe.com/7owt-TM494cZq-Knz55qMpCAAtGhlpaKOlf2iXXeqo4
+TQID: 'https://experienceleague.adobe.com/7owt-TM494cZq-Knz55qMpCAAtGhlpaKOlf2iXXeqo4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: '518'
 ht-degree: 100%
-
 ---
-
 # コンテンツ管理{#content-management}
 
 「**コンテンツ管理**」アクティビティでは、コンテンツの作成と操作、およびこのコンテンツに基づくファイルの生成をおこなうことができます。 その後、このコンテンツを「配信」アクティビティ経由で配信できます。

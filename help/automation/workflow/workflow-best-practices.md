@@ -6,19 +6,28 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
-TQID: https://experienceleague.adobe.com/g1krDpf-lH0uNr8ZHxGh1Uemvl0Lxd-ygskdkTaUj24
+TQID: 'https://experienceleague.adobe.com/g1krDpf-lH0uNr8ZHxGh1Uemvl0Lxd-ygskdkTaUj24'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Admin
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1390
+source-wordcount: '1393'
 ht-degree: 100%
-
 ---
-
 # ワークフローのベストプラクティス{#workflow-best-practices}
 
 以下に、Campaign ワークフローのパフォーマンスを最適化し、ワークフローのデザインを改善し、正しい設定を選択するための一般的なガイドラインを示します。
@@ -124,7 +133,7 @@ JavaScript の **[!UICONTROL logInfo()]** メソッドを使用すると、ワ�
 
 >[!CAUTION]
 >
->**実稼働**&#x200B;ワークフローでは、このオプションを&#x200B;**選択しない**&#x200B;でください。 このオプションは、結果の分析に利用され、テスト目的でのみ設計されたものですので、開発環境またはステージング環境のみに限定して使用する必要があります。
+>**実稼動**&#x200B;ワークフローでは、このオプションを&#x200B;**選択しない**&#x200B;でください。 このオプションは、結果の分析に利用され、テスト目的でのみ設計されたものですので、開発環境またはステージング環境のみに限定して使用する必要があります。
 
 
 ### SQL クエリをログに記録

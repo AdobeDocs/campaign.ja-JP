@@ -5,28 +5,48 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
-TQID: https://experienceleague.adobe.com/nyvDFDlFE4SS0MQrYlynmBvDcOQHL8U6Bed606p6mpE
+TQID: 'https://experienceleague.adobe.com/nyvDFDlFE4SS0MQrYlynmBvDcOQHL8U6Bed606p6mpE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: f852274f-9e3d-5d58-ae48-3ec2fd81baf0
+    internal-label: Seed Address
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1026'
 ht-degree: 97%
-
 ---
-
 # テストプロファイルの作成と管理 {#create-test-profiles}
 
 ## シードアドレスとは {#gs-seeds}

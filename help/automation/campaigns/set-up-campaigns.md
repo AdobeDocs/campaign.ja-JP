@@ -6,20 +6,27 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-TQID: https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM
+TQID: 'https://experienceleague.adobe.com/lxE52O9cAoD8RwzYdi5l4lRfkWcM8kZQ-T-fMZVKxaM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: 6641bfdc-d19c-56e4-9045-0f6d06e8a43b
+    internal-label: Programs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 74%
-
+source-wordcount: '472'
+ht-degree: 76%
 ---
-
 # マーケティングキャンペーンの基本を学ぶ {#gs-marketing-campaigns}
 
 Adobe Campaign では、コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行および分析できます。 Adobe Campaign により、マーケティング戦略の指示や実行を一元的に行うことができます。 ドラッグ＆ドロップのビジュアルワークフローインターフェイスを使用して、複数のデータソースの管理、オーディエンスセグメントの定義、複数手順のクロスチャネルキャンペーンの計画と実行が可能です。

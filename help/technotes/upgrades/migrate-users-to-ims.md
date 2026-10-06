@@ -2,13 +2,16 @@
 title: Campaign オペレーターの Adobe Identity Management System（IMS）への移行
 description: Campaign オペレーターの Adobe Identity Management System（IMS）への移行方法を説明します
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1469'
-ht-degree: 86%
-
+ht-degree: 95%
 ---
-
 # Campaign オペレーターの Adobe Identity Management System（IMS）への移行 {#migrate-users-to-ims}
 
 Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。 すべてのオペレーターは、[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}**only**&#x200B;を使用してCampaignに接続します。 ユーザー／パスワードを使用した接続（別名ネイティブ認証）は許可されなくなります。 アドビでは、Campaign v8.6 にスムーズに移行できるように、Campaign v8.5.2 でこの移行を実行することをお勧めします。
@@ -29,15 +32,15 @@ Campaign v8 では、すべての標準ユーザーは、Adobe Identity Manageme
 
 組織内のオペレーターが Campaign クライアントコンソールにログイン／パスワード（別名 ネイティブ認証）を使用して接続している場合は影響を受けるので、以下で説明するようにこれらのオペレーターを Adobe IMS に移行する必要があります。
 
-[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は、環境を安全で標準化するためのセキュリティ上の必須要素です。他のほとんどのAdobe Experience Cloud ソリューションやアプリは既にIMS上にあります。
+[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は環境のセキュリティを確保し、標準化するために不可欠なセキュリティです。他の Adobe Experience Cloud ソリューションおよびアプリのほとんどは既に IMS に準拠しています。
 
 >[!IMPORTANT]
 >
->**Campaign コントロールパネルアクセスへの影響**
+>**コントロールパネルアクセスの影響**
 >
->ユーザーをIMSに移行する際は、Adobe Admin Console内の製品プロファイルの名前に「admin」という単語が含まれていることに注意してください（「Administrators」、「admin」、「admins」、「approval admin」など）。 Campaign Campaign コントロールパネルへのアクセス権を自動的に付与します。 Campaign コントロールパネルは、Campaign インスタンスに大きな変更を加えることができるセルフサービスツールです。
+>ユーザーを IMS に移行すると、Adobe Admin Console 内の製品プロファイルの名前（「Administrators」、「admin」、「admins」、「approval admin」など）に「admin」という単語が含まれている場合、 Campaign コントロールパネルへのアクセス権は自動的に付与されることに注意してください。 Campaign コントロールパネルは、Campaign インスタンスに大きな変更を加えることができるセルフサービスツールです。
 >
->製品プロファイルの命名規則を注意深く確認して、承認済みのユーザーのみがCampaign コントロールパネルにアクセスできるようにします。 Campaign コントロールパネル権限の管理について詳しくは、[Campaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
+>製品プロファイルの命名規則を慎重に確認し、許可されたユーザーのみが コントロールパネルにアクセスできるようにします。 コントロールパネル権限の管理について詳しくは、[コントロールパネルドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 ## 移行方法{#ims-migration-procedure}
 
@@ -178,4 +181,4 @@ Campaign でオペレーターの認証タイプを表示する方法につい�
 * [Adobe Campaign v8 への接続方法](../../v8/start/connect.md)
 * [Adobe Campaign v8 でのアクセスと権限](../../v8/start/gs-permissions.md)
 * [Adobe Campaign v8 リリースノート](../../v8/start/release-notes.md)
-* [Adobe Identity Management System （IMS）とは](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}
+* [Adobe Identity Management System（IMS）とは](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}

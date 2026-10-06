@@ -3,21 +3,30 @@ title: Adobe Campaign のビルトインの配信レポート
 description: Adobe Campaign のビルトインの配信レポート
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-TQID: https://experienceleague.adobe.com/HbBY1Je7EhLl6pGWP83P2YM3sXauOHIS0-SYhCjrU14
+TQID: 'https://experienceleague.adobe.com/HbBY1Je7EhLl6pGWP83P2YM3sXauOHIS0-SYhCjrU14'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: '1172'
 ht-degree: 97%
-
 ---
-
 # 配信レポート {#delivery-reports}
 
 配信の概要からアクセス可能な様々なレポート経由で、配信の実行をトラッキングできます。

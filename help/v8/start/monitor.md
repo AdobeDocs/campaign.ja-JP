@@ -5,26 +5,38 @@ feature: Monitoring
 role: User
 level: Beginner
 exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
-TQID: https://experienceleague.adobe.com/PjU1EFX5x4iB3yRsShGBWoR0k1D2-EI90-ss0FTcexE
+TQID: 'https://experienceleague.adobe.com/PjU1EFX5x4iB3yRsShGBWoR0k1D2-EI90-ss0FTcexE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
+    internal-label: Security
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2206
+source-wordcount: '2206'
 ht-degree: 6%
-
 ---
-
 # キャンペーンモニタリングの概要 {#monitor-campaign}
 
 Adobe Campaignは、個々のメッセージの送信の有無、ワークフローの失敗の理由、インスタンスのデータベース処理能力など、あらゆるレベルを可視化できます。 このページでは、あらゆるモニタリング機能がマッピングされているため、何かに注意が必要な場合に、どこで確認すればよいかがわかります。

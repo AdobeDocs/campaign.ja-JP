@@ -6,24 +6,33 @@ feature: Approvals
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
-TQID: https://experienceleague.adobe.com/D-Yo0xuEnL3MSX6VWZqAVKpF3XSIzdf--0qQlZbB5mg
+TQID: 'https://experienceleague.adobe.com/D-Yo0xuEnL3MSX6VWZqAVKpF3XSIzdf--0qQlZbB5mg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: ce296ecd-3d06-45ab-83c3-37214e8ce31c
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 100%
-
 ---
-
 # 承認の定義 {#defining-approvals}
 
 

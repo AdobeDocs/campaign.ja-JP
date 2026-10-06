@@ -7,20 +7,29 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
-TQID: https://experienceleague.adobe.com/dsY9ca4rRoixG-P-u6SG4gjfRCcT4xtjST7H7ZEiS70
+TQID: 'https://experienceleague.adobe.com/dsY9ca4rRoixG-P-u6SG4gjfRCcT4xtjST7H7ZEiS70'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1284
+source-wordcount: '1284'
 ht-degree: 100%
-
 ---
-
 # iOS のリッチプッシュ配信の設計 {#rich-push}
 
 >[!IMPORTANT]
@@ -158,7 +167,7 @@ ht-degree: 100%
 
 1. さらにカスタマイズするには、プッシュ通知で使用できる&#x200B;**[!UICONTROL 詳細オプション]**&#x200B;を確認します。 [詳細情報](#push-advanced)
 
-1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、「**[!UICONTROL タイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 背景]**」の 16 進数のカラーコードを入力します。
+1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
 
    ![](assets/rich_push_ios_timer_4.png)
 

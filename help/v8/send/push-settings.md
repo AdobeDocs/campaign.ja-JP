@@ -6,28 +6,42 @@ role: Admin, Developer
 level: Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-TQID: https://experienceleague.adobe.com/haoxtaIu58t0Ko15csnTpoUi49JWsQaIKPAtWTNiRx8
+TQID: 'https://experienceleague.adobe.com/haoxtaIu58t0Ko15csnTpoUi49JWsQaIKPAtWTNiRx8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
+    internal-label: Data collection
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1985
-ht-degree: 97%
-
+source-wordcount: '1985'
+ht-degree: 99%
 ---
-
 # プッシュ通知チャネルを設定 {#push-notification-configuration}
 
 Adobe Campaign でプッシュ通知を送信するには、このページで詳しく説明するように、まず環境とアプリを設定する必要があります。 Adobe Campaign では、プッシュ通知を送信するチャネルはモバイルアプリチャネルです。
@@ -226,7 +240,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
 1. 「**[!UICONTROL 認証モード]**」を選択します。 次の 2 つのモードを使用できます。
 
-   * （推奨） **[!UICONTROL トークンベースの認証]**: APNs接続設定&#x200B;**[!UICONTROL キーId]**、**[!UICONTROL チーム Id]**、**[!UICONTROL バンドル Id]**&#x200B;を入力し、**[!UICONTROL 秘密鍵を入力…]**&#x200B;をクリックしてp8証明書を選択します。**[!UICONTROL トークンベースの認証]**&#x200B;について詳しくは、[Apple ドキュメント &#x200B;](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}を参照してください。
+   * （推奨）**[!UICONTROL トークンベースの認証]**：APN 接続設定の&#x200B;**[!UICONTROL キー ID]**、**[!UICONTROL チーム ID]**、**[!UICONTROL バンドル ID]** を入力し、「**[!UICONTROL 秘密鍵を入力...]**」をクリックして p8 証明書を選択します。**[!UICONTROL トークンベースの認証]**&#x200B;について詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}を参照してください。
 
    * **[!UICONTROL 証明書ベースの認証]**：「**[!UICONTROL 証明書を入力...]**」をクリックし、p12 キーを選択して、モバイルアプリケーション開発者から提供されたパスワードを入力します。 この証明書には有効期限があり、毎年更新する必要があります。 ユーザーへのサービスの中断を回避するには、期限が切れる前に証明書を更新します。 証明書は 1 年間有効です。APN との通信を続行するには、証明書を更新する必要があります。
 

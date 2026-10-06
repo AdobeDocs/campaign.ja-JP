@@ -5,16 +5,25 @@ description: 和集合ワークフローアクティビティの詳細を説明�
 feature: Workflows, Targeting Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: 4109e198-bf9d-4dd2-92a1-16bbadbe30e8
-TQID: https://experienceleague.adobe.com/-P-pc2ps970pfhgXZfv8atoVKGB-vS0B8vBdrR0DLZQ
+TQID: 'https://experienceleague.adobe.com/-P-pc2ps970pfhgXZfv8atoVKGB-vS0B8vBdrR0DLZQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 311
+source-wordcount: '311'
 ht-degree: 100%
-
 ---
-
 # 和集合{#union}
 
 **[!UICONTROL 和集合]**&#x200B;は、複数のインバウンドアクティビティの結果を 1 つのターゲットにグループ化します。 ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、和集合が実行される前に完了している必要があります。

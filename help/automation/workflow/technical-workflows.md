@@ -6,30 +6,45 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-TQID: https://experienceleague.adobe.com/5ZAmiv-rcxhCwfmxaxGcgcX7iUxJpiTWUruz8nbuHq0
+TQID: 'https://experienceleague.adobe.com/5ZAmiv-rcxhCwfmxaxGcgcX7iUxJpiTWUruz8nbuHq0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: HeatMap
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2105
-ht-degree: 98%
-
+source-wordcount: '2105'
+ht-degree: 99%
 ---
-
 # テクニカルワークフロー{#about-technical-workflows}
 
 Adobe Campaign には、一連のビルトインテクニカルワークフローが付属しています。 これらのワークフローでは、サーバー上で定期的に実行するようにスケジュールされた操作およびジョブを制御します。 テクニカルワークフローでは、Campaign データベースに対するメンテナンス操作の実行、配信に関するトラッキングデータの管理、配信に関する暫定的なプロセスの設定を行います。
@@ -83,7 +98,7 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 | **MID から LINE ユーザー ID への移行**（MIDToUserIDMigration） | LINE チャネル | このワークフローは、LINE V1 から LINE V2 へ移行用に、LINE V2 ユーザーの ID を生成します。 |
 | **Message Center>external_account_name>**（mcSynch_&lt;external_account_name>） | トランザクションメッセージコントロール（Message Center - コントロール） | このワークフローの機能は次のとおりです。 <ul><li>操作によって処理されるイベントリストを復元します。</li><li>配信メッセージの選定を復元するために NmsBroadLogMsg テーブルと同期します。</li><li>NmsBroadLogMsg テーブルとの同期が完了するとただちに、イベント配信ログを復元します。</li><li>配信 URL のトラッキングを復元するために NmsTrackingUrl テーブルと同期します。</li><li>NmsTrackingUrl テーブルとの同期が完了するとただちに、イベントトラッキング URL を復元します。</li><li>配信の送信後 3 時間おきに、強制隔離されたすべてのメールアドレスを復元できます。</li></ul> |
 | **MessageCenter の完全な集計計算**（agg_messageCenter_full） | トランザクションメッセージコントロール（Message Center - コントロール） | このワークフローは、Message Center キューブのための完全な集計を更新します。 デフォルトで、毎日午前 3 時にトリガーされます。 この集計は、チャネル、日付、ステータス、イベントタイプの各ディメンションを取り込みます。 次に、Message Center キューブを使用して、イベントに基づいてレポートを生成します。 キューブについて詳しくは、こちらを参照してください。  |
-| **ミッドソーシング（配信カウンター）**（defaultMidSourcingDlv） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信のカウント情報を収集します。 カウント情報には、配信数などの一般的な配信指標が含まれます。開封数などの追跡情報は含まれません。 デフォルトで、10 分おきにトリガーされます。 |
+| **ミッドソーシング（配信カウンター）**（defaultMidSourcingDlv） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信のカウント情報を収集します。 カウント情報には、送信された配信の数など、一般的な配信達成度が含まれています。開封数などのトラッキング情報は含まれていません。 デフォルトで、10 分おきにトリガーされます。 |
 | **ミッドソーシング（配信ログ）**（defaultMidSourcingLog） | ミッドソーシング転送 | ミッドソーシングサーバー上の配信ログを収集します。 デフォルトで、1 時間おきにトリガーされます。 |
 | **NMAC オプトアウト管理**（mobileAppOptOutMgt） | モバイルアプリチャネル（プッシュ） | モバイルデバイスの通知の購読解除を更新します。 午前 1 時から午前 0 時の間に、6 時間ごとにトリガーします。 |
 | **オファー通知**（offerMgt） | デフォルトでインストール | 承認されたオファーと、オファーカタログに含まれるすべてのカテゴリをオンライン環境にデプロイします。 |

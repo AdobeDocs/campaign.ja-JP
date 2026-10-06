@@ -5,23 +5,34 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
-TQID: https://experienceleague.adobe.com/EaoWEmt7vNplA6Cs6CdMvP-iwia6BkaDRjawsPoa6fs
+TQID: 'https://experienceleague.adobe.com/EaoWEmt7vNplA6Cs6CdMvP-iwia6BkaDRjawsPoa6fs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 59a1ad4bbb194222f0c2b86117cc7dc6ecc3335d
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1190
+source-wordcount: '1190'
 ht-degree: 28%
-
 ---
-
 # バージョンとアップグレード {#upgrades}
 
 Adobe Campaign v8は、**Managed Cloud Services** ソリューションとしてのみ提供されます。 Adobeは、あらゆるサーバーサイドのアップグレードを管理および実行します。v8のオンプレミスまたはハイブリッドのデプロイメントはなく、自分でスケジュールを設定したり実行したりするサーバーアップグレードもありません。

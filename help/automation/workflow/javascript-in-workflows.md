@@ -6,23 +6,32 @@ feature: Workflows
 role: Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-TQID: https://experienceleague.adobe.com/gdPa502-bqEhz1TwyQBQl7aLbCOvyD9wvjRMnXlHCqY
+TQID: 'https://experienceleague.adobe.com/gdPa502-bqEhz1TwyQBQl7aLbCOvyD9wvjRMnXlHCqY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
+    internal-label: Developer
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1784
-ht-degree: 95%
-
+source-wordcount: '1784'
+ht-degree: 100%
 ---
-
 # ワークフローでの JavaScript コードの例{#javascript-in-workflows}
 
 これらの例は、ワークフローで JavaScript コードを使用する方法を示しています。

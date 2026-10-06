@@ -6,20 +6,29 @@ feature: Workflows
 role: Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-TQID: https://experienceleague.adobe.com/xGSqzmm1kxKvSViuqdN0a-AwIuDxnNjWBHwH1bwAXtU
+TQID: 'https://experienceleague.adobe.com/xGSqzmm1kxKvSViuqdN0a-AwIuDxnNjWBHwH1bwAXtU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 100%
-
 ---
-
 # テクニカルワークフローの監視 {#monitoring-technical-workflows}
 
 テクニカルワークフローは監視が必要で、失敗した場合はアクションを実行する必要があります。

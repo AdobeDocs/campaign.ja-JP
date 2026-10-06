@@ -5,22 +5,31 @@ feature: Interaction, Offers
 role: Developer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-TQID: https://experienceleague.adobe.com/KikEyxXS3iB2EJUMm7D4XOxXRzflBGVlewWTvuu5LzA
+TQID: 'https://experienceleague.adobe.com/KikEyxXS3iB2EJUMm7D4XOxXRzflBGVlewWTvuu5LzA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Optimization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1340
-ht-degree: 96%
-
+source-wordcount: '1340'
+ht-degree: 99%
 ---
-
 # Campaign インタラクション環境およびアーキテクチャについて
 
 ## 環境 {#environments}
@@ -87,13 +96,13 @@ Adobe Campaign インタラクションモジュールは、次の 2 種類の�
 
 ### パッケージ設定 {#packages-configuration}
 
-**インタラクション**&#x200B;に直接リンクされているスキーマ拡張機能（オファー、提案、受信者など） は実行インスタンスにデプロイする必要があります。
+**インタラクション**&#x200B;に直接リンクされているスキーマ拡張（オファー、提案、受信者など） は、実行インスタンスにデプロイする必要があります。
 
 **インタラクション**&#x200B;パッケージは、すべてのインスタンス（コントロールインスタンスと実行インスタンス）にインストールされます。 2 つの追加パッケージを使用できます。1 つはコントロールインスタンス用のパッケージで、もう 1 つは各実行インスタンス用のパッケージです。
 
 >[!NOTE]
 >
->パッケージをインストールすると、提案IDなどの&#x200B;**nms:proposition** テーブルの&#x200B;**long**&#x200B;型フィールドが&#x200B;**int64**&#x200B;型フィールドになります。 この種類のデータについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ja#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}を参照してください。
+>パッケージをインストールする際、**nms:proposition** テーブルに含まれる **long** タイプのフィールド（提案 ID など）は、**int64** タイプのフィールドになります。 この種類のデータについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ja#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}を参照してください。
 
 データ保持期間は、（デプロイメントウィザードの&#x200B;**[!UICONTROL データパージ]**&#x200B;ウィンドウから）インスタンスごとに設定されます。 実行インスタンスでは、この期間が、タイポロジルールに必要な履歴深度（スライド期間）および計算される実施要件ルールに対応している必要があります。
 

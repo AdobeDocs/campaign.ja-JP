@@ -5,29 +5,40 @@ feature: Monitoring
 role: User
 level: Beginner
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
-TQID: https://experienceleague.adobe.com/sCrSBuIMzs-KanEWOMDXuWTHjSnwNtkJe-PxOcumIBE
+TQID: 'https://experienceleague.adobe.com/sCrSBuIMzs-KanEWOMDXuWTHjSnwNtkJe-PxOcumIBE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '666'
 ht-degree: 7%
-
 ---
-
 # メッセージトラッキングのテスト {#testing-tracking}
 
 配信をオーディエンス全体に送信する前に、トラッキング機能をテストして、すべてのリンクが正しく動作し、トラッキングデータが適切に取得されていることを確認することが重要です。 この検証プロセスは、キャンペーンが公開される前にトラッキングの問題を特定して修正し、リンクリダイレクト、トラッキングピクセルの読み込み、データ収集に関する潜在的な問題を防ぐのに役立ちます。

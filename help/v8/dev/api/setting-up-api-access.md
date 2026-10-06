@@ -7,25 +7,34 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-TQID: https://experienceleague.adobe.com/bplbMEDlQOL-EDthA4nuoWmFF-sB30MWKaG1f8F6P-A
+TQID: 'https://experienceleague.adobe.com/bplbMEDlQOL-EDthA4nuoWmFF-sB30MWKaG1f8F6P-A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Troubleshooting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 12%
-
 ---
-
 # API アクセスの設定 {#setting-up-api-access}
 
 Adobe Campaign Standard API アクセスは、次の手順で設定します。 これらの各手順について詳しくは、[Adobe Developer ドキュメント &#x200B;](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
@@ -57,8 +66,8 @@ Adobe Campaign Standard API アクセスは、次の手順で設定します。 
 
 * **&lt;ORGANIZATION>**：これはあなたの個人組織IDです。Adobeによって、インスタンスごとに1つの組織IDが提供されます。
 
-   * &lt;ORGANIZATION>：本番インスタンス、
-   * &lt;ORGANIZATION-mkt-stage>: ステージインスタンス。
+  * &lt;ORGANIZATION>：本番インスタンス、
+  * &lt;ORGANIZATION-mkt-stage>: ステージインスタンス。
 
   組織IDの値を取得するには、管理者またはAdobeの技術担当者を参照してください。 新しい統合を作成する際に、ライセンスの一覧からAdobe I/Oに取り込むこともできます（<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer ドキュメント </a>を参照）。
 

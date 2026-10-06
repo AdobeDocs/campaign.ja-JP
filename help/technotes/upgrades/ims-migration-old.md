@@ -3,13 +3,16 @@ title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign テクニカルオペレーターを Adobe Developer Console のテクニカルアカウントに移行する方法を学ぶ
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
-
 ---
-
 # Adobe Developer Console への Campaign テクニカルオペレーターの移行 {#migrate-tech-users-to-ims}
 
 Campaign v8.5 以降、Campaign v8 への認証プロセスが改善されています。 テクニカルオペレーターは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を使用して Campaign に接続する必要があります。 テクニカルオペレーターは、API 統合用に明示的に作成された Campaign ユーザープロファイルです。 この記事では、Adobe Developer Console でテクニカルオペレーターをテクニカルアカウントに移行するために必要な手順について詳しく説明します。

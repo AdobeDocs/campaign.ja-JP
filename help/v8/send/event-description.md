@@ -5,20 +5,29 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
-TQID: https://experienceleague.adobe.com/ni7XuCsnpZaGAozdYRZF4Dy-PQAGe720g0WTimQPpX0
+TQID: 'https://experienceleague.adobe.com/ni7XuCsnpZaGAozdYRZF4Dy-PQAGe720g0WTimQPpX0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Intermediate
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 91%
-
+source-wordcount: '751'
+ht-degree: 100%
 ---
-
 # イベントの説明について {#about-event-desc}
 
 ## トランザクションメッセージのデータモデル {#about-mc-datamodel}
@@ -29,15 +38,15 @@ ht-degree: 91%
 
 本節では、トランザクションメッセージモジュールのスキーマに関連する SOAP メソッドの詳細を説明します。
 
-2つの&#x200B;**PushEvent**&#x200B;または&#x200B;**PushEvents** SOAP メソッドが、2つの&#x200B;**nms:rtEvent**&#x200B;および&#x200B;**nms:BatchEvent** データスキーマにリンクされています。 イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
+2 つの **PushEvent** または&#x200B;**PushEvents** SOAP メソッドが、2 つの **nms:rtEvent** および **nms:BatchEvent** データスキーマにリンクされています。 イベントのタイプが「バッチ」なのか「リアルタイム」なのかの判断は、情報システムがおこないます。
 
 * **PushEvent** では、メッセージに 1 つのイベントを挿入することができ、
 * **PushEvents** では、メッセージに一連の複数のイベントを挿入することができます。
 
 両方のメソッドにアクセスする WSDL パスは：
 
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent**&#x200B;からリアルタイム型スキーマにアクセスできます。
-* バッチタイプスキーマにアクセスするには、**http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent**&#x200B;してください。
+* リアルタイムのスキーマにアクセスするには、**http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** に移動してください。
+* バッチタイプスキーマにアクセスするには、**http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** に移動してください。
 
 どちらのメソッドにも、トランザクションメッセージモジュールにログオンするための **`<urn:sessiontoken>`** 要素が含まれています。 信頼済み IP アドレス経由の識別方法を使用することをお勧めします。 セッショントークンを取得するには、ログオン SOAP 呼び出しを実行してから、トークンを取得した後でログオフします。 同じトークンを 複数の RT 呼び出しに使用します。 この節に含まれる例では、推奨されるセッショントークン方式を使用しています。
 
@@ -129,7 +138,7 @@ PushEvents の使用例：
 
 >[!NOTE]
 >
->すべての承認済み属性とその値の詳細については、**nms:rtEvent**&#x200B;および&#x200B;**nms:BatchEvent** データスキーマの説明を参照してください。
+>すべての承認済み属性とその値の詳細については、**nms:rtEvent** および **nms:BatchEvent** データスキーマの説明を参照してください。
 
 **`<ctx>`** 要素には、メッセージデータを格納します。 この XML コンテンツはオープンなので、配信するコンテンツに合わせて設定できます。
 

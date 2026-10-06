@@ -5,20 +5,29 @@ feature: Experience Platform Integration
 role: Developer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-TQID: https://experienceleague.adobe.com/sQgS-ig3-OfCLseGyqsbismNI-qqy1E2io6P17HZsUU
+TQID: 'https://experienceleague.adobe.com/sQgS-ig3-OfCLseGyqsbismNI-qqy1E2io6P17HZsUU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Experience Platform integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 93%
-
 ---
-
 # Adobe Experience Platform でのオーディエンスの共有と同期 {#gs-ac-aep}
 
 Adobe Campaign Managed Cloud Service の宛先とソースコネクターを使用すると、Adobe Campaign と Adobe Experience Platform をシームレスに統合できます。 この統合により、次のことができます。
@@ -32,16 +41,16 @@ Adobe Experience Platform オーディエンスを Adobe Campaign に送信し�
 
 * Adobe Campaign Managed Cloud Services **宛先接続**&#x200B;を使用すると、Experience Platform セグメントを Adobe Campaign に送信することができます。
 
-   1. Adobe Experience Platform 宛先カタログにアクセスし、新しい **[!UICONTROL Adobe Campaign Managed Cloud Services]** 接続を作成します。
-   1. 使用する Campaign インスタンスの詳細を指定し、同期タイプとして「**[!UICONTROL オーディエンスの同期]**」を選択します。
+  1. Adobe Experience Platform 宛先カタログにアクセスし、新しい **[!UICONTROL Adobe Campaign Managed Cloud Services]** 接続を作成します。
+  1. 使用する Campaign インスタンスの詳細を指定し、同期タイプとして「**[!UICONTROL オーディエンスの同期]**」を選択します。
 
-      ![](assets/aep-audience-sync.png){width="800" align="center"}
+     ![](assets/aep-audience-sync.png){width="800" align="center"}
 
-   1. Adobe Campaign に送信するセグメントを選択します。
-   1. オーディエンスにエクスポートする属性を設定します。
-   1. フローが設定されると、選択したオーディエンスを Adobe Campaign でのアクティベーションに使用できるようになります。
+  1. Adobe Campaign に送信するセグメントを選択します。
+  1. オーディエンスにエクスポートする属性を設定します。
+  1. フローが設定されると、選択したオーディエンスを Adobe Campaign でのアクティベーションに使用できるようになります。
 
-      ![](assets/aep-destination.png){width="800" align="center"}
+     ![](assets/aep-destination.png){width="800" align="center"}
 
   宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください
 

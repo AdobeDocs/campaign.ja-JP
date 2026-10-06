@@ -5,22 +5,32 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
-TQID: https://experienceleague.adobe.com/Vg4aM-iHsB0c8MagdCuYkyseUBaN-T252-Lk9P5klB8
+TQID: 'https://experienceleague.adobe.com/Vg4aM-iHsB0c8MagdCuYkyseUBaN-T252-Lk9P5klB8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: '697'
 ht-degree: 93%
-
 ---
-
 # イベントの処理 {#event-processing}
 
 トランザクションメッセージのコンテキストでは、イベントは外部の情報システムによって生成され、**[!UICONTROL PushEvent]** および **[!UICONTROL PushEvents]** メソッドを介して Adobe Campaign に送信されます。 これらのメソッドについては、[この節](event-description.md)を参照してください。
@@ -89,8 +99,8 @@ ht-degree: 93%
 
 * **保留中**
 
-   * 保留中のイベントには、収集されたばかりで処理されていないイベントがあります。 **[!UICONTROL エラー数]**&#x200B;列に値 0 が表示されます。 メールテンプレートはまだリンクされていません。
-   * 処理された後、確認でエラーになった保留イベントの場合もあります。 **[!UICONTROL エラー数]**&#x200B;列に 0 以外の値が表示されます。 このイベントが再処理される日付については、**[!UICONTROL 処理リクエスト日]**&#x200B;の列を参照してください。
+  * 保留中のイベントには、収集されたばかりで処理されていないイベントがあります。 **[!UICONTROL エラー数]**&#x200B;列に値 0 が表示されます。 メールテンプレートはまだリンクされていません。
+  * 処理された後、確認でエラーになった保留イベントの場合もあります。 **[!UICONTROL エラー数]**&#x200B;列に 0 以外の値が表示されます。 このイベントが再処理される日付については、**[!UICONTROL 処理リクエスト日]**&#x200B;の列を参照してください。
 
 * **保留中の配信**
 イベントが処理され、配信テンプレートがリンクされます。 メールは配信保留となり、標準的な配信処理が適用されます。 詳細を確認するには、該当する配信を開きます。

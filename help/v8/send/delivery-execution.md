@@ -5,26 +5,38 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
-TQID: https://experienceleague.adobe.com/lF4AHDlqHrKUs5Vp5ycT8aCX-EzMzJG5mdULfZIl0ZY
+TQID: 'https://experienceleague.adobe.com/lF4AHDlqHrKUs5Vp5ycT8aCX-EzMzJG5mdULfZIl0ZY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 863
+source-wordcount: '863'
 ht-degree: 100%
-
 ---
-
 # トランザクションメッセージの送信と監視 {#delivery-execution}
 
 ## メッセージの送信{#send-transactional-msg}

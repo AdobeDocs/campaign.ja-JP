@@ -4,13 +4,16 @@ title: テクニカルノート - Adobe Campaign システムのアップグレ�
 description: Adobe Campaign システムのアップグレード
 hide: true
 exl-id: cc64cce1-2473-4136-aadc-8b13e89ef7f9
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 100%
-
 ---
-
 # Adobe Campaign 2023 環境のアップグレード {#ac-system-upgrade}
 
 Campaign インフラストラクチャは、最新のバージョンと修正で定期的に更新する必要があるサードパーティ製システムに依存しています。 これらの更新は、サービスの継続性を確保し、Campaign 環境をセキュリティリスクから保護するために必須です。 また、サードパーティシステムの変更との互換性を確保するには、Campaign のアップグレードが必要です。
@@ -21,7 +24,7 @@ Campaign インフラストラクチャは、最新のバージョンと修正�
 
 >[!NOTE]
 >
->これらの変更点に関するご質問は、[アドビのサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>これらの変更点に関するご質問については、[アドビカスタマーケア](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
 >
 
 ## Campaign ビルドのアップグレード {#ac-upgrade}

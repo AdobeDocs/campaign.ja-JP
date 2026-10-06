@@ -7,22 +7,29 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-TQID: https://experienceleague.adobe.com/yi2PDkImYnF-UqGqklMAlvGAIHl9GE47VsCEGj6--yU
+TQID: 'https://experienceleague.adobe.com/yi2PDkImYnF-UqGqklMAlvGAIHl9GE47VsCEGj6--yU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Metadata
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: '228'
 ht-degree: 1%
-
 ---
-
 # メタデータのメカニズム {#metadata-mechanism}
 
 GET リクエストで&#x200B;**resourceType**&#x200B;を使用して、リソースメタデータを取得できます。
@@ -33,14 +40,14 @@ GET リクエストで&#x200B;**resourceType**&#x200B;を使用して、リソ�
 
 * **Content** ノードは、リソースのフィールドを返します。 **content** ノードの各フィールドには、次のフィールドがあります。
 
-   * &quot;apiName&quot;: APIで使用される属性の名前。
-   * &quot;type&quot;：これは上位レベルの型定義（文字列、数値、リンク、コレクション、列挙…）です。
-   * &quot;dataPolicy&quot;: フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効な電子メールである必要があります。 PATCHまたはPOST中に、dataPolicyは値を確認したり、値を変換したりできます（smartCaseなど）。
-   * &quot;category&quot;: クエリエディターのフィールドのカテゴリを指定します。
-   * &quot;resType&quot;：これはテクニカルタイプです。
+  * &quot;apiName&quot;: APIで使用される属性の名前。
+  * &quot;type&quot;：これは上位レベルの型定義（文字列、数値、リンク、コレクション、列挙…）です。
+  * &quot;dataPolicy&quot;: フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効な電子メールである必要があります。 PATCHまたはPOST中に、dataPolicyは値を確認したり、値を変換したりできます（smartCaseなど）。
+  * &quot;category&quot;: クエリエディターのフィールドのカテゴリを指定します。
+  * &quot;resType&quot;：これはテクニカルタイプです。
 
-     値「link」または「collection」で「type」が完了した場合、resTarget値はリンクの対象となるリソースの名前です。
-値「列挙」で「type」が完了すると、「values」フィールドが追加され、各列挙値が&#x200B;**values** ノードに詳細に表示されます。
+    値「link」または「collection」で「type」が完了した場合、resTarget値はリンクの対象となるリソースの名前です。
+    値「列挙」で「type」が完了すると、「values」フィールドが追加され、各列挙値が&#x200B;**values** ノードに詳細に表示されます。
 
 * **Filters** ノードは、関連付けられたフィルターを取得するためのURLを返します。 フィルターについて詳しくは、[このセクション &#x200B;](sorting.md#filtering)の節を参照してください。
 

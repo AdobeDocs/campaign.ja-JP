@@ -6,26 +6,38 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-TQID: https://experienceleague.adobe.com/p2PfMRhMJi7WEDptyTEzpSp6u6WVFjqSvaC9g8Qaq9g
+TQID: 'https://experienceleague.adobe.com/p2PfMRhMJi7WEDptyTEzpSp6u6WVFjqSvaC9g8Qaq9g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Implementation
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1048
+source-wordcount: '1048'
 ht-degree: 100%
-
 ---
-
 # プッシュ通知の作成と送信{#push-notifications-create}
 
 モバイルアプリ配信を使用すると、iOS デバイスや Android デバイスに通知を送信できます。
@@ -125,13 +137,13 @@ iOS デバイスで通知を送信するには、次の手順に従います。
 
    * **[!UICONTROL 割り込みレベル]**：
 
-      * **[!UICONTROL アクティブ]**：デフォルトでは、通知が直ちに表示され、画面が点灯し、サウンドを再生できます。 通知はフォーカスモードを妨げません。
+     * **[!UICONTROL アクティブ]**：デフォルトでは、通知が直ちに表示され、画面が点灯し、サウンドを再生できます。 通知はフォーカスモードを妨げません。
 
-      * **[!UICONTROL パッシブ]**：画面を点灯させたり、サウンドを再生したりせずに、システムは通知リストに通知を追加します。 通知はフォーカスモードを妨げません。
+     * **[!UICONTROL パッシブ]**：画面を点灯させたり、サウンドを再生したりせずに、システムは通知リストに通知を追加します。 通知はフォーカスモードを妨げません。
 
-      * **[!UICONTROL 時間依存]** システムにより通知がすぐに表示され、画面が点灯し、サウンドを再生でき、フォーカスモードで通知することができます。 このレベルでは、Apple からの特別な権限は必要ありません。
+     * **[!UICONTROL 時間依存]** システムにより通知がすぐに表示され、画面が点灯し、サウンドを再生でき、フォーカスモードで通知することができます。 このレベルでは、Apple からの特別な権限は必要ありません。
 
-      * **[!UICONTROL 重大]** システムにより通知が直ちに表示され、画面が点灯し、ミュートスイッチまたはフォーカスモードがバイパスされます。 このレベルには、Apple からの特別な権限が必要です。
+     * **[!UICONTROL 重大]** システムにより通知が直ちに表示され、画面が点灯し、ミュートスイッチまたはフォーカスモードがバイパスされます。 このレベルには、Apple からの特別な権限が必要です。
 
    * **[!UICONTROL 関連性スコア]**：関連性スコアを 0 から 100 に設定します。 通知の概要で通知を並べ替える場合にシステムが使用します。
 

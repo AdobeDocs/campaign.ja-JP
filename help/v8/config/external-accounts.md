@@ -5,24 +5,40 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-TQID: https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk
+TQID: 'https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: ebf2bfe1-e099-5c32-ac1e-1865f8050ffc
+    internal-label: External Account
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2243
+source-wordcount: '2243'
 ht-degree: 40%
-
 ---
-
 # 外部アカウントの設定 {#config-external-accounts}
 
 Adobe Campaignには、事前に定義された一連の外部アカウントが付属しています。 外部システムとの接続を設定するには、新しい外部アカウントを作成します。
@@ -192,7 +208,7 @@ CampaignでOAuth2認証を設定するには、次の手順に従います。
 
 ## Adobeソリューションとの統合の外部アカウント {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部アカウントは、Adobe Identity Management サービス（IMS）を実装してAdobe Campaignに接続するために使用されます。 Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#logon-to-ac)を参照してください。
+* **Adobe Experience Cloud** - **[!UICONTROL Adobe Experience Cloud]**&#x200B;外部アカウントは、Adobe Campaignに接続するためにAdobe Identity Management Service （IMS）を実装するために使用されます。 Adobe Identity Management Service（IMS）について詳しくは、[この節](../start/connect.md#logon-to-ac)を参照してください。
 
 * **Web 分析** - **[!UICONTROL Web 分析（Adobe Analytics）]**&#x200B;外部アカウントは、Adobe Analytics から Adobe Campaign へのデータ転送を設定するために使用します。 Adobe Campaign と Adobe Analytics の統合について詳しくは、[このページ](../connect/ac-aa.md)を参照してください。
 
@@ -219,28 +235,28 @@ CampaignでOAuth2認証を設定するには、次の手順に従います。
 
 * **Amazon Simple Storage Service（S3）** - **AWS S3** コネクタは、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティを使用して、Adobe Campaign へのデータのインポートまたはエクスポートに使用できます。 この外部アカウントを設定する場合は、次の詳細を指定する必要があります。
 
-   * **[!UICONTROL AWS S3 Account Server]**：フォーム `<S3bucket name>.s3.amazonaws.com/<s3object path>`のサーバーのURL。
+  * **[!UICONTROL AWS S3 Account Server]**：フォーム `<S3bucket name>.s3.amazonaws.com/<s3object path>`のサーバーのURL。
 
-   * **[!UICONTROL AWS アクセスキー ID]**：AWS アクセスキー ID の見つけ方については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
+  * **[!UICONTROL AWS アクセスキー ID]**：AWS アクセスキー ID の見つけ方については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
 
-   * **[!UICONTROL AWS への秘密アクセスキー]**：AWS への秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/){target="_blank"}を参照してください。
+  * **[!UICONTROL AWS への秘密アクセスキー]**：AWS への秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/){target="_blank"}を参照してください。
 
-   * **[!UICONTROL AWS リージョン]**：AWS リージョンについて詳しくは、 [Amazon ドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}を参照してください。
+  * **[!UICONTROL AWS リージョン]**：AWS リージョンについて詳しくは、 [Amazon ドキュメント](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}を参照してください。
 
-   * 「**[!UICONTROL サーバーサイド暗号化を使用]**」チェックボックスを使用すると、ファイルをS3暗号化モードで保存できます。 アクセスキー ID と秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
+  * 「**[!UICONTROL サーバーサイド暗号化を使用]**」チェックボックスを使用すると、ファイルをS3暗号化モードで保存できます。 アクセスキー ID と秘密アクセスキーを見つける方法については、[Amazon ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}を参照してください。
 
 * **Azure BLOB ストレージ** - **Azure** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]**&#x200B;ワークフローアクティビティで Adobe Campaign との間でデータをインポートまたはエクスポートできます。 **Azure** 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報が必要です。
 
-   * **[!UICONTROL サーバー]**：Azure BLOB ストレージサーバーの URL。
+  * **[!UICONTROL サーバー]**：Azure BLOB ストレージサーバーの URL。
 
-   * **[!UICONTROL 暗号化]**：暗号化の種類：**[!UICONTROL なし]**&#x200B;または&#x200B;**[!UICONTROL SSL]**。
+  * **[!UICONTROL 暗号化]**：暗号化の種類：**[!UICONTROL なし]**&#x200B;または&#x200B;**[!UICONTROL SSL]**。
 
-   * **[!UICONTROL アクセスキー]**：ご利用の&#x200B;**[!UICONTROL アクセスキー]**&#x200B;を確認する方法については、[Microsoft ドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}を参照してください。
+  * **[!UICONTROL アクセスキー]**：ご利用の&#x200B;**[!UICONTROL アクセスキー]**&#x200B;を確認する方法については、[Microsoft ドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}を参照してください。
 
 * **Microsoft Fabric** - **Microsoft Fabric**&#x200B;外部アカウントを使用すると、**[!UICONTROL ファイルの転送]** ワークフローアクティビティを使用して、Microsoft FabricとAdobe Campaign間でデータをインポートおよびエクスポートできます。 この統合を設定するには、次の詳細を指定します。
 
-   * **[!UICONTROL Server]**: Microsoft Fabric Storage ServerのURL。
+  * **[!UICONTROL Server]**: Microsoft Fabric Storage ServerのURL。
 
-   * **[!UICONTROL アプリケーション ID]**: Microsoft Fabric リソースの認証とアクセスに使用されるアプリケーションの一意のID。
+  * **[!UICONTROL アプリケーション ID]**: Microsoft Fabric リソースの認証とアクセスに使用されるアプリケーションの一意のID。
 
-   * **[!UICONTROL クライアントシークレット]**: Microsoft Fabricに安全に接続するために必要な、アプリケーションに関連付けられた認証キーまたはパスワード。
+  * **[!UICONTROL クライアントシークレット]**: Microsoft Fabricに安全に接続するために必要な、アプリケーションに関連付けられた認証キーまたはパスワード。

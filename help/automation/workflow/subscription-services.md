@@ -5,16 +5,27 @@ description: 購読サービスワークフローアクティビティの詳細�
 feature: Workflows, Targeting Activity, Subscription Services Activity
 version: Campaign v8, Campaign Classic v7
 exl-id: 919630ed-b39f-40e5-b893-f3a203713b15
-TQID: https://experienceleague.adobe.com/JT5ZcURy2sxP9UclzGhhwJgaSpcv3Exi2X6FRUmCNc0
+TQID: 'https://experienceleague.adobe.com/JT5ZcURy2sxP9UclzGhhwJgaSpcv3Exi2X6FRUmCNc0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
+  - id: 2454f09c-f028-5647-8fef-1e986ec2d4e5
+    internal-label: Subscription Services Activity
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '423'
 ht-degree: 100%
-
 ---
-
 # 購読サービス{#subscription-services}
 
 

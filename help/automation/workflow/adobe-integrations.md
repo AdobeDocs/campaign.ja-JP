@@ -5,13 +5,19 @@ description: Adobe Experience Cloud ソリューションワークフローと�
 role: User
 version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
-
 ---
-
 
 # Adobe Experience Cloud ソリューションとの統合{#integrations-with-adobe-experience-cloud-solutions}
 

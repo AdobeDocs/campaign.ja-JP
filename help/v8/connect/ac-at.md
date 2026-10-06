@@ -5,25 +5,38 @@ feature: Target Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
-TQID: https://experienceleague.adobe.com/d5k2eJVXkyK0buudvJfqokZ5q9dPJhcDyiNcKImz-KE
+TQID: 'https://experienceleague.adobe.com/d5k2eJVXkyK0buudvJfqokZ5q9dPJhcDyiNcKImz-KE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 98%
-
 ---
-
 # Campaign と Adobe Target の連携
 
 Campaign と Target を接続すると、Adobe Target からのオファーを Adobe Campaign のメール配信に組み込むことができます。

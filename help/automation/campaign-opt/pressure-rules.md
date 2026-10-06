@@ -4,21 +4,34 @@ title: 頻度ルールの設定
 description: 頻度ルールの設定方法を学ぶ
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-TQID: https://experienceleague.adobe.com/HBf2YMR-DobvQCsVSJC-cCSpwL8IbBH9cAbOPS9V5zk
+TQID: 'https://experienceleague.adobe.com/HBf2YMR-DobvQCsVSJC-cCSpwL8IbBH9cAbOPS9V5zk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+subfeature_v2:
+  - id: 3367e176-3f60-522b-8bf4-33c305430239
+    internal-label: Fatigue Management
+  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3285
+source-wordcount: '3285'
 ht-degree: 100%
-
 ---
-
 # 頻度ルール{#pressure-rules}
 
 営業の頻度管理を実施すると、マーケティング疲労と呼ばれる過度な勧誘がデータベースの母集団に対しておこなわれるのを防ぐことができます。 頻度管理では、各受信者宛てのメッセージの最大数を定義できます。 また、キャンペーンの判別ルールを適用して、ターゲットオーディエンスに最も適切なキャンペーンメッセージを送信することができます。
@@ -298,7 +311,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 次の設定手順を実行します。
 
 1. **頻度**&#x200B;タイプのタイポロジルールを新規作成します。
-1. 「**[!UICONTROL 頻度]**」タブで編集を実行します。 各受信者に基づいてしきい値を計算する数式を作成します。「**[!UICONTROL 重み付け数式]**」フィールドの右にある「**[!UICONTROL 式を編集]**」アイコンをクリックします。
+1. 「**[!UICONTROL 頻度]**」タブで編集を実行します。 各個人受信者に基づいてしきい値を計算する数式を作成します。「**[!UICONTROL 重み付け数式]**」フィールドの右にある「**[!UICONTROL 式を編集]**」アイコンをクリックします。
 
    ![](assets/campaign_opt_pressure_sample_2_1.png)
 

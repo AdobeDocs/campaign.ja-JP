@@ -5,24 +5,36 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-TQID: https://experienceleague.adobe.com/w49xrWY6m2ukml-9QyHZjr7cl6mufb3GPCTi1roh2Sw
+TQID: 'https://experienceleague.adobe.com/w49xrWY6m2ukml-9QyHZjr7cl6mufb3GPCTi1roh2Sw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Privacy
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 468
-ht-degree: 99%
-
+source-wordcount: '468'
+ht-degree: 100%
 ---
-
 # Campaign v8 互換性マトリックス {#compat-matrix}
 
 このドキュメントでは、**Adobe Campaign v8** クライアントコンソールの最新のビルドでサポートしているすべてのシステムとコンポーネントの一覧を示します。 特に明記されていない限り、マイナーリリースはすべてサポートされています。 このリストに含まれていない製品とバージョンは、Adobe Campaign とは互換性がありません。
@@ -98,6 +110,6 @@ iOS および Android 向けの互換性のあるバージョンについては�
 * [Campaign リリースの更新](upgrades.md)
 * [Campaign のバージョンの確認](upgrades.md#version)
 * [Campaign クライアントコンソールのインストール](connect.md)
-* [Campaign コントロールパネルリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target="_blank"}
+* [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target="_blank"}
 
 新しい Experience Cloud ソリューションリリースについての情報を得るには、[Adobe Priority Product Update](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"} に登録してください。

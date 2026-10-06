@@ -5,13 +5,25 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 99%
-
 ---
-
 # 配信の設定と送信 {#configure-delivery}
 
 配信パラメーターにアクセスしてさらに設定を行い、メッセージの送信方法を定義します。 配信の[優先度](#delivery-priority)を定義し、[ウェーブ](#sending-using-multiple-waves)設定し、配信の送信をテストできます。 この設定が完了したら、[この節](#confirm-delivery)の説明に従って送信を確認できます。 その後、メッセージは直ちに送信されるか、配信[スケジュール](#schedule-delivery-sending)に基づいて送信されます。
