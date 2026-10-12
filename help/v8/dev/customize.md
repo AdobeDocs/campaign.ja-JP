@@ -92,7 +92,7 @@ Adobe Campaign インターフェイスでは、多数のWeb アプリケーシ�
 
 ビルトインの web アプリケーションは、エクスプローラーの&#x200B;**管理／設定／Web アプリケーション**&#x200B;フォルダーに格納されています。
 
-Campaignで概要ページを作成する方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}を参照してください
+Campaignで概要ページを作成する方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}を参照してください
 
 
 ## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}

@@ -51,7 +51,7 @@ Campaign データベースにデータを入力するには、[プロファイ�
 
 ### ファイルからのデータの読み込み {#data-from-a-file}
 
-ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}。
+ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}。
 
 データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。 詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ja){target="_blank"}を参照してください。
 

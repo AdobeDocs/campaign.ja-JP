@@ -67,7 +67,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   ![](assets/web-app.png)
 
-  詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"}を参照してください。
+  詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"}を参照してください。
 
 
 * ターゲティングワークフローを作成し、**[!UICONTROL 購読サービス]**&#x200B;アクティビティを使用します。
@@ -99,5 +99,5 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 <!--
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages.
 
-For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend){target="_blank"}
+For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=ja#viral-marketing--forward-to-a-friend){target="_blank"}
 -->
