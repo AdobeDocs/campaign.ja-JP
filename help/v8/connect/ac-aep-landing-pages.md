@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 98%
 ---
 # Adobe Campaign ランディングページからの Adobe Experience Platform プロファイルの更新 {#ac-aep-lp}
 
@@ -123,7 +123,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
 >[!TAB JavaScript コードアクティビティを使用してオプションを追加]
 
-ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。 [詳しくは、JavaScript コードアクティビティの設定方法を参照してください](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-JavaScript-code.html?lang=ja#JavaScript-code){target="_blank"}。
+ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。 [詳しくは、JavaScript コードアクティビティの設定方法を参照してください](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
 
 ワークフローの実行時に、指定された値を使用してオプションが Campaign コンソールに自動的に作成されます。
 
