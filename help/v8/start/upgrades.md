@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 18%
+source-wordcount: '1780'
+ht-degree: 16%
 ---
 # バージョン、アップグレード、セキュリティ {#upgrades}
 
@@ -65,6 +65,16 @@ Adobe Campaign は、Campaign インフラストラクチャのパフォーマ�
 
 安定した設定を確保するために、アドビでは、すべての Campaign サーバーに&#x200B;**まったく同じバージョン**&#x200B;をインストールすることをお勧めします。 また、[リリースノート](release-notes.md)で特に明記されていない限り、クライアントコンソールはサーバーインスタンスと&#x200B;**まったく同じバージョン**&#x200B;上にある必要があります。 クライアントコンソールのアップグレード方法について詳しくは、[こちらのページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
+### Hotflixes {#hotflixes}
+
+例外的なケースとして、Adobeは、標準リリースで修正が使用可能になる前に、問題に対処するためのお客様固有のホットフィックスを提供する場合があります。 ホットフィックスのリクエストはケースバイケースで評価され、標準リリースサイクルの一部ではありません。
+
+ホットフィックスのリクエストは、Adobe カスタマーケアを通じて行う必要があります。 承認された場合、影響を受ける顧客と製品ビルドのホットフィックスが準備されます。 ホットフィックスは、すべてのお客様に対する一般的なリリースではありません。Adobeでは、レビュー後に、影響を受けるお客様との共有を承認する場合があります。
+
+ホットフィックスの詳細は、ホットフィックスの配信時に公開リリースノートに含めることはできません。 Adobeでは、後で、該当するバージョンの標準リリースにホットフィックスの修正が含まれる場合があります。 包含とタイミングは保証されていません。 各標準リリースに含まれる変更については、リリースノートを参照してください。
+
+このユーザー固有のホットフィックスプロセスは、上記のクリティカルセキュリティパッチポリシーとは別のものであり、Adobeは事前の通知なしにクリティカルセキュリティパッチをホスト環境に適用することができます。
+
 ### クライアントコンソールを最新の状態に保つ {#ac-upgrades}
 
 Campaign Managed Servicesをご利用のお客様は、新しいCampaign バージョンが利用可能になると、お客様のサーバーインフラストラクチャはAdobeによってアップグレードされます。お客様は操作を行う必要はありません。
@@ -74,9 +84,9 @@ Campaign Managed Servicesをご利用のお客様は、新しいCampaign バー�
 * コンソールが更新されるまで、Campaign インスタンスに接続できなくなる場合があります。
 * サーバー自体が最新の状態であっても、サーバーが既に移動したバージョンに付属している修正とセキュリティアップデートの恩恵を受けるのはコンソールが停止します。
 
-これを回避するには、新しいバージョンの通知を受け取ったら、すぐにクライアントコンソールをアップグレードします。 クライアントコンソールを[&#x200B; アップグレードする方法について説明します](../start/connect.md#upgrade-ac-console)。
+これを回避するには、新しいバージョンの通知を受け取ったら、すぐにクライアントコンソールをアップグレードします。 クライアントコンソールを[ アップグレードする方法について説明します](../start/connect.md#upgrade-ac-console)。
 
-また、お客様は、[互換性マトリックス &#x200B;](compatibility-matrix.md)に記載されている最新のサポートされているバージョンのシステムを使用していることを確認する必要があります。
+また、お客様は、[互換性マトリックス ](compatibility-matrix.md)に記載されている最新のサポートされているバージョンのシステムを使用していることを確認する必要があります。
 
 ### Campaign のバージョンの確認 {#version}
 
@@ -93,13 +103,13 @@ Campaign のバージョンを確認するには、クライアントコンソ�
 
 >[!NOTE]
 >
->クライアントコンソールに表示されるバージョンが、アプリケーションサーバーに表示されるバージョンと一致しない場合は、[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)の説明に従って、コンソールをアップグレードしてください。
+>クライアントコンソールに表示されるバージョンが、アプリケーションサーバーに表示されるバージョンと一致しない場合は、[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)の説明に従って、コンソールをアップグレードしてください。
 
 ### 製品リリースのお知らせ {#upgrades-0}
 
-新しいバージョンとその変更は、[&#x200B; リリースノート &#x200B;](release-notes.md)に記載されています。
+新しいバージョンとその変更は、[ リリースノート ](release-notes.md)に記載されています。
 
-製品リリースのアップデートについては、[Adobe優先製品アップデート &#x200B;](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}に登録するか、[Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=ja&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスしてください。
+製品リリースのアップデートについては、[Adobe優先製品アップデート ](https://www.adobe.com/jp/subscription/priority-product-update.html){target="_blank"}に登録するか、[Campaign Community](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}にアクセスしてください。
 
 セキュリティ通知およびセキュリティ更新の準備に関するガイダンスについては、[情報を提供し続ける](#security-staying-informed)を参照してください。
 
@@ -131,7 +141,7 @@ Adobeは、v8のお客様として、サーバーのアップグレードをエ�
 
 1. 新しいバージョンが利用可能な場合、またはアカウントが新しいバージョンに移行する必要があると判断された場合は、Adobeの担当者が通知します。
 1. Adobeは、サーバーインフラストラクチャをアップグレードします。この手順では、ユーザーの操作は必要ありません。
-1. お客様の側では、必要なアクションは、クライアントコンソールを一致するようにアップグレードすることだけです。また、[互換性マトリックス &#x200B;](compatibility-matrix.md)のシステムが引き続きサポートされていることを確認してください。 「[&#x200B; クライアントコンソールを最新の状態に保つ](#ac-upgrades)」を参照してください。
+1. お客様の側では、必要なアクションは、クライアントコンソールを一致するようにアップグレードすることだけです。また、[互換性マトリックス ](compatibility-matrix.md)のシステムが引き続きサポートされていることを確認してください。 「[ クライアントコンソールを最新の状態に保つ](#ac-upgrades)」を参照してください。
 
 専任のカスタマーサポート担当者、プロダクトマネージャー、エンジニア、TechOps スペシャリスト、製品コンサルタントのチームが、エクスペリエンスの円滑な支援と提供を行います。
 

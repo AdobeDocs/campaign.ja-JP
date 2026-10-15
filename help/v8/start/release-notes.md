@@ -26,20 +26,44 @@ topic_v2:
     internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
 workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 11%
+source-wordcount: '2455'
+ht-degree: 10%
 ---
 # 最新リリース {#latest-release}
 
 このページには、Campaign v8（コンソール）**最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 Campaign のリリース、バージョン、アップグレードについて詳しくは、[このページ](upgrades.md)を参照してください。 その他のリリースは、このドキュメントの以前のリリースの節に記載されています。
 
+## リリース 8.9.4 {#release-8-9-4}
+
+_2026年10月15日_
+
+### 改善点 {#improvements-8-9-4}
+
+* クライアントコンソール UI テーマを保存し、ユーザー間で共有できるようになりました。 （NEO-96823）
+
+### 修正点 {#fixes-8-9-4}
+
+* 特定のバウンスのフィードバックメッセージによって配信ステータスの更新が停止し、影響を受ける配信が「サービスプロバイダーが考慮した」ステータスで停止する問題を修正しました。 （NEO-98183）
+* しきい値の計算エラーが原因で、長い開始保留中ステータスで停滞している配信に対する配信アラートが誤ってトリガーする問題を修正しました。 （NEO-93434）
+* テキストコンテンツ配信を送信すると、ミッドソーシングサーバープロセスがクラッシュする可能性がある問題を修正しました。 （NEO-95122）
+* **グループの読み取り** ワークフローアクティビティで、計算式フィールドに対して無効なSQLが生成される可能性がある問題を修正しました。 （NEO-95233）
+* FFDA ミッドソーシング配信用に生成された配信部分IDが競合する可能性がある問題を修正しました。 （NEO-95777）
+* 埋め込まれたブラウザーナビゲーション URL内の特定の文字がクライアントコンソールをクラッシュさせる問題を修正しました。 （NEO-96267）
+* Dynamic ReportingでSMS配信が過小報告されていた問題を修正しました。 （NEO-96401）
+* プロファイルマッピングを使用しないSnowflakeまたはFFDA外部ファイルターゲットの配信の準備が失敗する問題を修正しました。 （NEO-96507）
+* 異なるFDA ソースにリンクされた複数のクエリを含むワークフローが失敗する問題を修正しました。 （NEO-97249）
+* イベントをリアルタイムでトリガーすると、ほぼリアルタイムのエンリッチメントワークフローがSQL エラーで断続的に失敗する問題を修正しました。 （NEO-97557）
+* 内部ロックメカニズムが再試行ループに入り、サーバーでCPU使用率が高くなる問題を修正しました。 （NEO-94845）
+* シードアドレスとカスタムターゲットマッピングを一緒に使用すると、配信の準備がSQL エラーで失敗する問題を修正しました。 （NEO-94966）
+* Redshiftにデータを読み込む際に、FDA ワークフローが列オーバーフローエラーで失敗する問題を修正しました。 （NEO-96125）
+* Analytics外部アカウントが「Gone」（410）エラーで失敗する可能性がある問題を修正しました。 （NEO-99019）
+* 対応するメッセージが正常に送信されたにもかかわらず、一部の配信がパーソナライゼーションの保留ステータスのままになる問題を修正しました。 （NEO-94471）
+
 ## リリース 8.9.3 {#release-8-9-3}
 
 _2026年8月11日（PT）_
-
-<!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
 ### セキュリティの強化 {#security-8-9-3}
 
@@ -53,11 +77,11 @@ Campaign 管理者として、コントロールパネルを使用し、現在�
 
 ### Adobe Analytics コネクタがAnalytics 2.0 APIにアップグレードされました {#analytics-2-0-8-9-3}
 
-Adobe Analytics 1.4 APIは[提供終了に達しています](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}。そのため、[Web Analytics コネクタ &#x200B;](../connect/ac-aa.md)は、このリリースの一部としてAnalytics 2.0 APIにアップグレードされました。 Adobeでは、ホスト型のお客様がこの移行を管理します。お客様の側で設定は必要ありません。
+Adobe Analytics 1.4 APIは[提供終了に達しています](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}。そのため、[Web Analytics コネクタ ](../connect/ac-aa.md)は、このリリースの一部としてAnalytics 2.0 APIにアップグレードされました。 Adobeでは、ホスト型のお客様がこの移行を管理します。お客様の側で設定は必要ありません。
 
 +++ Analytics 2.0のアップグレードについて詳しく見る
 
-[Web Analytics コネクタ &#x200B;](../connect/ac-aa.md)は、キャンペーン指標と分類データをAdobe Analyticsに送信し、リマーケティングフローをサポートし、新しいレポートスイートの設定に使用されます。 アップグレードでは、コネクター（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;および&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）の機能を強化する組み込みのテクニカルワークフローが再インポートされ、組み込みのAnalytics JavaScript ファイルが更新されます。そのため、これらのワークフローのいずれかをカスタマイズするか、これらのファイルを参照するカスタムワークフローを構築した場合は、そのカスタマイズが上書きされたり壊れたりするため、アップグレード後に適用されます。 ベストプラクティスとして、組み込みのワークフローを直接変更することは避けてください。代わりに別のカスタムワークフローでカスタマイズを構築して、今後のアップグレードで上書きしないようにします。 アップグレードが完了したら、利用しているAdobe Analyticsのユースケース（指標の書き出し、分類の書き出し、リマーケティングが可能な場合）を検証し、データが期待どおりに流れることを確認します。
+[Web Analytics コネクタ ](../connect/ac-aa.md)は、キャンペーン指標と分類データをAdobe Analyticsに送信し、リマーケティングフローをサポートし、新しいレポートスイートの設定に使用されます。 アップグレードでは、コネクター（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;および&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）の機能を強化する組み込みのテクニカルワークフローが再インポートされ、組み込みのAnalytics JavaScript ファイルが更新されます。そのため、これらのワークフローのいずれかをカスタマイズするか、これらのファイルを参照するカスタムワークフローを構築した場合は、そのカスタマイズが上書きされたり壊れたりするため、アップグレード後に適用されます。 ベストプラクティスとして、組み込みのワークフローを直接変更することは避けてください。代わりに別のカスタムワークフローでカスタマイズを構築して、今後のアップグレードで上書きしないようにします。 アップグレードが完了したら、利用しているAdobe Analyticsのユースケース（指標の書き出し、分類の書き出し、リマーケティングが可能な場合）を検証し、データが期待どおりに流れることを確認します。
 
 +++
 
@@ -77,7 +101,7 @@ _2026年5月3日_
 
 >[!NOTE]
 >
-> 以下に示す修正は、連続する8.9.2 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/バージョン情報]** [&#x200B; メニュー](upgrades.md#version)に移動して、最新の8.9.2 （11d1c68）ビルドがインストールされていることを確認します。 詳細については、アドビ担当者にお問い合わせください。
+> 以下に示す修正は、連続する8.9.2 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/バージョン情報]** [ メニュー](upgrades.md#version)に移動して、最新の8.9.2 （11d1c68）ビルドがインストールされていることを確認します。 詳細については、アドビ担当者にお問い合わせください。
 
 * データタイプの変換の問題により、トランザクションイベントのイベント日付が誤って設定され、動的レポートで日付が正しく設定されない問題を修正しました。 （NEO-93923）
 * タイトルと本文のフィールドが空の場合、配信準備中にAndroidとiOSのサイレントプッシュ通知が失敗する問題を修正しました。 （NEO-93739）
@@ -130,21 +154,21 @@ _2026年1月27日（PT）_
 
 このリリースには、Campaign Web ユーザーインターフェイスで使用できる一連の機能が付属しています。
 
-* [多言語配信機能（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=ja){target="_blank"}
-* [トランザクションメッセージのプロファイル強化（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=ja){target="_blank"}
-* [Adobe Experience Managerのライブコピーと言語コピー](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=ja){target="_blank"}
-* [コンテンツ実験 - A/B テスト](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=ja){target="_blank"}
-* [連続配信アクティビティ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=ja){target="_blank"}
-* [キャンペーン承認管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=ja){target="_blank"}
+* [多言語配信機能（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [トランザクションメッセージのプロファイル強化（GA）](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Managerのライブコピーと言語コピー](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [コンテンツ実験 - A/B テスト](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [連続配信アクティビティ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [キャンペーン承認管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
+Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### その他の変更 {#changes-8-9-1}
 
 * インテリジェントなワークフロー再起動機能と重要ではないプロセス用のメモリガードレールにより、高いメモリ環境下での自動ワークフロースロットリングを実装することで、コンテナメモリ管理を改善しました。 （NEO-89041）
 * Campaign ワークフローでの非対称暗号化および復号化機能のサポートを追加しました。 （NEO-80257）
 * FFDA デプロイメントでの大規模なデータアップロードに対するレプリケーションエージェントのパフォーマンスとメモリの回復力の強化。 （NEO-88430）
-* **[!UICONTROL SQL コード]**&#x200B;と&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLが実行される際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 詳細とベストプラクティスについては、[SQL データ管理](../../automation/workflow/sql-data-management.md#important-notes)および[SQL コード &#x200B;](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。 （NEO-86540）
+* **[!UICONTROL SQL コード]**&#x200B;と&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLが実行される際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 詳細とベストプラクティスについては、[SQL データ管理](../../automation/workflow/sql-data-management.md#important-notes)および[SQL コード ](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。 （NEO-86540）
 
 ### 修正点 {#fixes-8-9-1}
 
@@ -155,7 +179,7 @@ Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleag
 * Outlook Windows デスクトップでHTML レイアウト エラーが発生する可能性がある問題を修正しました。 （NEO-92611）
 * アップグレード後にミッドインスタンスで配信プライマリキーが複製されたデータ整合性の問題を修正しました。 （NEO-92424）
 * 配信のトラッキングと画像ダイアログボックスでリンクを無効にできない問題を修正しました。 （NEO-92381）
-* nms.subscribtion.RecipientSubscribe （）関数が一括サブスクリプションで機能しない問題を修正しました。 （NEO-92308）
+* nms.subscription.RecipientSubscribe （）関数が一括サブスクリプションで機能しない問題を修正しました。 （NEO-92308）
 * アップグレード後に配信部分が欠落したことにより、配信エラーが発生する問題を修正しました。 （NEO-92278）
 * トラッキングワークフローで、重複ステータスエラーとSQL構文エラーによりトラッキングインジケーターが更新されない問題を修正しました。 （NEO-92239）
 * dbEnum フィールドを使用する際に、ワークフローを介して作成されたリストに列挙フィールドラベルが見つからないか、誤って表示される問題を修正しました。 （NEO-91158）
@@ -170,8 +194,8 @@ Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleag
 * PostgreSQL 15で「char」フィールドを連結する際に発生するエラーを修正しました。 （NEO-88028）
 * テンプレートを保存または複製する際に、配信テンプレート変数の順序が変更される問題を修正しました。 （NEO-87845）
 * 新しいデータライブラリスキーマを作成すると、Web インターフェイスがクラッシュする問題を修正しました。 （NEO-87816）
-* 重複排除アクティビティの補集合セットに関する問題を修正しました。 （NEO-87711）
-* X11依存関係のないインストールパッケージのリクエストを修正しました。 （NEO-87471）
+* 重複排除アクティビティで、補完セットのセグメントコードが正しく機能しない問題を修正しました。 （NEO-87711）
+* X11依存関係を必要としないインストールパッケージオプションを追加しました。 （NEO-87471）
 * 動的レポートでセグメントコードを使用できない問題を修正しました。 （NEO-87276）
 * ワークフローが「データを更新」アクティビティで停止する問題を修正しました。 （NEO-87252）
 * BigQueryで誤ったタイムゾーンが使用されていた問題を修正しました。 （NEO-86622）
@@ -183,7 +207,7 @@ Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleag
 * オプションに変更を加えた後に技術配信テンプレートが更新されない問題を修正しました。 （NEO-84149）
 * すぐに使用できる請求ワークフローのエラーを修正しました。 （NEO-83624）
 * ターゲットレコードのプライマリキーのみに基づいて重複を除外する問題を修正しました。 （NEO-82910）
-* トラッキング統計がコンソールと異なる値を表示するCampaign Web UI レポートの不一致を修正しました。 （NEO-82339）
+* トラッキング統計がクライアントコンソールと比較して異なる値を表示するCampaign Web UI レポートの不一致を修正しました。 （NEO-82339）
 * 「データを更新」アクティビティでレコードを更新しない場合でも、最終変更日が変更される問題を修正しました。 （NEO-82002）
 * リストに新しい属性を追加すると、リストを読み取るワークフローが失敗する問題を修正しました。 （NEO-80258）
 * トラッキングインジケーターレポートで、個別の開封数に誤った値が表示される問題を修正しました。 （NEO-79466）
