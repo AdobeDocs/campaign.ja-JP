@@ -925,7 +925,7 @@ Adobe Campaign には、アプリケーションサーバーの様々なモジ�
 
 **関連トピック：**
 
-[&#x200B; ワークフローの基本を学ぶ](../config/workflows.md) | [最初のワークフローを作成する](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [&#x200B; ワークフローの実行を監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
+[&#x200B; ワークフローの基本を学ぶ](../config/workflows.md) | [最初のワークフローを作成する](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=ja){target="_blank"} | [&#x200B; ワークフローの実行を監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
 +++
 
@@ -956,7 +956,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"}
+[&#x200B; ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/about-activities.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのユースケース &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=ja){target="_blank"}
 
 +++
 
@@ -984,7 +984,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; スケジューラーアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"} | [定期的な配信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html){target="_blank"} | [&#x200B; キャンペーンオートメーション &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"}
+[&#x200B; スケジューラーアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"} | [定期的な配信](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/sending-a-birthday-email.html?lang=ja){target="_blank"} | [&#x200B; キャンペーンオートメーション &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1040,7 +1040,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; ワークフローのユースケースライブラリ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html){target="_blank"} | [&#x200B; ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
+[&#x200B; ワークフローのユースケースライブラリ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/about-workflow-use-cases.html?lang=ja){target="_blank"} | [&#x200B; ワークフローの作成](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"} | [&#x200B; ワークフローのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1054,7 +1054,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; データアクティビティの更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"} | [&#x200B; データ管理アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html){target="_blank"}
+[&#x200B; データアクティビティの更新](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=ja){target="_blank"} | [&#x200B; データ管理アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/about-action-activities.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1066,7 +1066,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; データ管理アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html){target="_blank"} | [&#x200B; エンリッチメントアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
+[&#x200B; データ管理アクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/about-targeting-activities.html?lang=ja){target="_blank"} | [&#x200B; エンリッチメントアクティビティ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1090,7 +1090,7 @@ Campaignでマーケティングプロセスを自動化するワークフロー
 
 **関連トピック：**
 
-[&#x200B; アクティビティの分割](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} | [A/B テストガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html){target="_blank"}
+[&#x200B; アクティビティの分割](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=ja){target="_blank"} | [A/B テストガイド &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/a-b-testing.html?lang=ja){target="_blank"}
 
 +++
 
@@ -1439,7 +1439,7 @@ Adobe Campaignでは、組み込みレポート、記述分析、クライアン
 
 **関連トピック：**
 
-[&#x200B; レポートの基本を学ぶ](../reporting/gs-reporting.md) | [Campaign Web UI レポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[&#x200B; レポートの基本を学ぶ](../reporting/gs-reporting.md) | [Campaign Web UI レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1564,7 +1564,7 @@ Campaignのフォルダー権限と名前付き権限を使用して、レポー
 
 **関連トピック：**
 
-[&#x200B; カスタムレポート &#x200B;](../reporting/custom-reports.md) | [Campaign Web UI レポート &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[&#x200B; カスタムレポート &#x200B;](../reporting/custom-reports.md) | [Campaign Web UI レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
