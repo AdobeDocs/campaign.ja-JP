@@ -82,7 +82,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com</url>
+                    <url>http://www.adobe.com/jp</url>
                 </ctx>
               </rtEvent>
 

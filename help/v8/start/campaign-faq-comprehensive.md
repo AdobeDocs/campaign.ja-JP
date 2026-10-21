@@ -1819,7 +1819,7 @@ Campaignの監査証跡は、削除イベントと新しいプロファイル作
 Adobe CampaignのユーザーやAdobeのエキスパートと交流することで、知識を共有し、疑問の答えを見つけることができます。
 
 * **[Adobe Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}** – 質問し、解決策を共有し、Campaign コミュニティとつながる
-* **[Experience League フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=ja){target="_blank"}** – すべてのAdobe製品のディスカッションを参照する
+* **[Experience League フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=ja&lang=ja){target="_blank"}** – すべてのAdobe製品のディスカッションを参照する
 * **[Campaign コミュニティオフィスアワー](https://experienceleague.adobe.com/ja){target="_blank"}** - Adobeのエキスパートとのライブセッションに参加
 
 ### ドキュメントと学習
