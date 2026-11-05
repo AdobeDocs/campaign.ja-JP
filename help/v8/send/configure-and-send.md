@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2d8aa27d6565e216cc0842ba22678c884479ff43
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 99%
+source-wordcount: '1334'
+ht-degree: 96%
 ---
 # 配信の設定と送信 {#configure-delivery}
 
@@ -54,7 +54,7 @@ ht-degree: 99%
 >
 >* このオプションは、ミッドソーシングで設定しないでください。
 >
->* SMTP サーバー設定の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
+>* SMTP サーバー設定の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
 
 ## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 
@@ -98,6 +98,8 @@ ht-degree: 99%
 >* 最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。 配信期限を過ぎると、一部のメッセージが送信されない場合があります。 配信の有効期間について詳しくは、[この節](delivery-failures.md#valid-period)を参照してください。
 >
 >* また、最後のウェーブを設定するときに、再試行に十分な時間を設定する必要があります。 再試行について詳しくは、[この節](delivery-failures.md#retries)を参照してください。
+>
+>* ウェーブは、配信の連絡日からスケジュールされます。 1つ以上のウェーブの予定時刻の後に配信が開始された場合、それらの遅延ウェーブはすべて間隔を空けずに一緒に送信されます。
 
 ### ウェーブの監視 {#monitor-waves}
 
