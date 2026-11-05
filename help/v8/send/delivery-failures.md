@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3529'
 ht-degree: 82%
 ---
 # 配信の失敗について {#delivery-failures}
@@ -156,6 +156,8 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
 例えば、Campaign で有効期間がデフォルト値の 5 日間に設定されている場合、ソフトバウンスメッセージは MTA の再試行キューに入り、そのメッセージが MTA に到達してから最大 3.5 日間再試行されます。 その場合、Campaign で設定された値は使用されません。
 
 メッセージが MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、配信ログでのステータスは、**[!UICONTROL 送信済み]**&#x200B;から&#x200B;**[!UICONTROL 失敗]**&#x200B;に更新されます。
+
+メッセージの有効期限は、有効期限が切れた後に次の再試行が行われる有効期限が切れる前に切れる場合があります。 その後、配信ログに最後の配信試行からの失敗が表示されます。
 
 <!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}.-->
 
