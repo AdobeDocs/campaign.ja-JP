@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 88%
+source-wordcount: '977'
+ht-degree: 84%
 ---
 # ダイレクトメール配信の作成
 
@@ -138,3 +138,7 @@ ht-degree: 88%
 送信を確認すると、指定したファイルへのデータ抽出が開始されます。
 
 マーケティングキャンペーンのコンテキストでは、すべての承認が付与されると、特別なワークフローを使用して抽出ファイルが作成されます。このワークフローは、デフォルト設定では、ダイレクトメール配信が抽出保留中の場合に自動的に開始されます。 詳しくは、[こちら](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja){target="_blank"}を参照してください。
+
+>[!NOTE]
+>
+>ワークフローで&#x200B;**[!UICONTROL ダイレクトメール]** アクティビティを使用する場合、そのアウトバウンドトランジションには、生成された抽出ファイルではなく、ターゲット母集団が含まれます。 ファイルをサーバーに送信するには、**[!UICONTROL ダイレクトメール]** アクティビティの後に&#x200B;**[!UICONTROL データ抽出]** アクティビティを追加し、次に&#x200B;**[!UICONTROL ファイル転送]** アクティビティを追加します。

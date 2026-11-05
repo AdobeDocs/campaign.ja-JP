@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 0ad8b1536e0bc065131ea64d6778dc18a0f27f04
 workflow-type: tm+mt
-source-wordcount: '2243'
-ht-degree: 40%
+source-wordcount: '2294'
+ht-degree: 39%
 ---
 # 外部アカウントの設定 {#config-external-accounts}
 
@@ -252,6 +252,10 @@ CampaignでOAuth2認証を設定するには、次の手順に従います。
   * **[!UICONTROL 暗号化]**：暗号化の種類：**[!UICONTROL なし]**&#x200B;または&#x200B;**[!UICONTROL SSL]**。
 
   * **[!UICONTROL アクセスキー]**：ご利用の&#x200B;**[!UICONTROL アクセスキー]**&#x200B;を確認する方法については、[Microsoft ドキュメント](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}を参照してください。
+
+  >[!NOTE]
+  >
+  >Azure Blob Storageでは、名前のプレフィックスでファイルをフィルタリングします。パターンはフィルタリングされません。 ファイルマスクの末尾のアスタリスク （`*`）が削除されるので、`TEST_EXPORT_AZURE_*`は`TEST_EXPORT_AZURE_`で始まるすべてのファイルと一致します。 アスタリスクの後の文字（`TEST_EXPORT_AZURE_*.csv`など）はサポートされていません。 [詳しくは、Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}を参照してください。
 
 * **Microsoft Fabric** - **Microsoft Fabric**&#x200B;外部アカウントを使用すると、**[!UICONTROL ファイルの転送]** ワークフローアクティビティを使用して、Microsoft FabricとAdobe Campaign間でデータをインポートおよびエクスポートできます。 この統合を設定するには、次の詳細を指定します。
 
