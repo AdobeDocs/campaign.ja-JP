@@ -71,7 +71,7 @@ ht-degree: 98%
    1. `xtk:session` スキーマの `Write` メソッドを呼び出します。
 
       >[!IMPORTANT]
-      > Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取り込み**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}。
+      > Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取り込み**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}。
 
    1. XML コードを書き込みリクエストの引数として渡します。
 
@@ -581,7 +581,7 @@ for each (var w in res.recipient)
 * `delete` 操作
 
 >[!IMPORTANT]
-> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取り込み**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}。
+> Adobe Campaign v8 を使用する場合は、Snowflake テーブルの `Write` メソッドの&#x200B;**取り込み**&#x200B;および&#x200B;**データの更新／削除** API でステージングメカニズムを使用することをお勧めします。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}。
 
 #### 例 1：レコードを挿入または更新する
 
