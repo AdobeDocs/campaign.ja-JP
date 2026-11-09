@@ -22,16 +22,16 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 94%
+source-wordcount: '944'
+ht-degree: 97%
 ---
 # 収集したデータの公開、トラッキングおよび使用{#publish-track-and-use-collected-data}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -39,7 +39,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Adobe Campaign の調査のライフサイクルと、そのパブリッシュおよび配信モードは、Web フォームに似ています。詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>Adobe Campaign の調査のライフサイクルと、そのパブリッシュおよび配信モードは、Web フォームに似ています。詳しくは、[この節](../web/about-web-forms.md)を参照してください。
 
 ## 調査ダッシュボード {#survey-dashboard}
 
@@ -69,7 +69,7 @@ ht-degree: 94%
 
 調査が編集されている間、その URL にはパラメーター **[!UICONTROL __uuid]** が含まれます。これは、テストフェーズにあり、まだオンラインでないことを示しています。 この URL で調査にアクセスする場合、作成されたレコードは、トラッキング（レポート）で考慮されません。 origin の値は、強制的に **[!UICONTROL Adobe Campaign]** になります。
 
-URL パラメーターについて詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties#form-url-parameters){target="_blank"}を参照してください。
+URL パラメーターについて詳しくは、[このページ](../web/defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
 ### 調査のレポート {#reports-on-surveys}
 
@@ -103,7 +103,7 @@ URL パラメーターについて詳しくは、[このページ](https://exper
 
    レポートデータをエクスポートするには、「**[!UICONTROL エクスポート]**」ボタンをクリックして、エクスポート形式を選択します。
 
-   レポートデータのエクスポートについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}を参照してください。
+   レポートデータのエクスポートについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}を参照してください。
 
 1. 回答のエクスポート
 

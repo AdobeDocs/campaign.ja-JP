@@ -27,16 +27,22 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 86%
+source-wordcount: '227'
+ht-degree: 66%
 ---
 # Web アプリケーションと web フォームの概要{#gs-ac-web}
 
+>[!NOTE]
+>
+>最も一般的なユースケースでは、Campaign Web ユーザーインターフェイスでランディングページを作成し、簡単にデザインして公開できます。 この節の説明に従って、クライアントコンソールで作成されたランディングページでは、より多くの設定を提供し、より高度なユースケースをカバーします。
+>
+>[Campaign Web ユーザーインターフェイスのランディングページについて詳しく見る](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+
 Adobe Campaign では、**web フォーム**&#x200B;を定義して公開するためのグラフィカルなモジュールを統合します。このモジュールでは、入力フィールドと選択フィールドを含むページを作成して、データベースのデータを含めることができます。 これにより、お客様はユーザーが閲覧または情報を入力できるよう、web ページをデザインおよび投稿できます。
 
-web フォームの作成と公開の方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=jal#designing-content){target="_blank"}を参照してください
+[このセクション ](web/about-web-forms.md)でweb フォームを作成および公開する方法について説明します
 
 ![](assets/sample.png)
 
@@ -44,4 +50,4 @@ Adobe Campaign では、データベースのデータと接続ユーザーの�
 
 作成できるページには、エクストラネット上の編集フォームのほか、データベースからのデータを含み、テーブル、グラフ、入力フォームなどを備えた通知フォームなどがあります。この機能を使用すると、ユーザーが情報を検索したり入力したりできる Web ページをデザインして投稿できます。
 
-Web アプリケーションを作成して公開する方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=ja#designing-content){target="_blank"}を参照してください
+[このセクション ](web/about-web-applications.md)でweb アプリケーションを作成および公開する方法について説明します

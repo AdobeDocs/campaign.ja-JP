@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1058'
 ht-degree: 98%
 ---
 # Adobe Campaign ランディングページからの Adobe Experience Platform プロファイルの更新 {#ac-aep-lp}
@@ -123,7 +123,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
 >[!TAB JavaScript コードアクティビティを使用してオプションを追加]
 
-ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。 [詳しくは、JavaScript コードアクティビティの設定方法を参照してください](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
+ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。 [詳しくは、JavaScript コードアクティビティの設定方法を参照してください](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
 
 ワークフローの実行時に、指定された値を使用してオプションが Campaign コンソールに自動的に作成されます。
 
@@ -369,5 +369,5 @@ Adobe Experience Platform でプロファイル属性を更新するように設
 ### 詳細情報
 
 * [JavaScript コードアクティビティの設定](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [ランディングページの作成](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=ja){target="_blank"}
+* [ランディングページの作成](../dev/web/creating-a-landing-page.md)
 * [購読と購読解除を管理](../start/subscriptions.md)

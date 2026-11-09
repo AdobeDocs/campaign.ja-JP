@@ -5,17 +5,17 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 88%
+source-wordcount: '1039'
+ht-degree: 89%
 ---
 
 # Adobe Campaign v8（コンソール）ドキュメント {#campaign-v8}
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + リリースノート {#releases}
-  + {hide-from-toc}[早期リリースノート &#x200B;](start/e-release-notes.md)
+  + {hide-from-toc}[早期リリースノート ](start/e-release-notes.md)
   + [バージョンとアップグレード](start/upgrades.md)
   + [最新リリース](start/release-notes.md)
   + 以前のリリース {#previous-rn}
@@ -37,7 +37,7 @@ ht-degree: 88%
   + [Campaign Classic v7 から v8 へ](start/v7-to-v8.md)
   + [Campaign Standard から v8 へ](start/acs-to-v8.md)
   + [よくある質問](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](start/cnil-pixel-tracking.md)
+  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス ](start/cnil-pixel-tracking.md)
 + メッセージ {#send}
   + [メッセージの基本を学ぶ](start/gs-message.md)
   + [最初の配信の作成](start/create-message.md)
@@ -133,6 +133,35 @@ ht-degree: 88%
 + ランディングページとフォーム {#content}
   + [ランディングページの作成](dev/landing-pages.md)
   + [Web アプリとフォームのデザイン](dev/webapps.md)
+  + web アプリケーション {#web-applications}
+    + [web アプリケーションの基本を学ぶ](dev/web/about-web-applications.md)
+    + [web アプリケーションの新規作成](dev/web/creating-a-new-web-application.md)
+    + [web アプリケーションの設計](dev/web/designing-a-web-application.md)
+    + [ユースケース：概要の作成](dev/web/use-cases-creating-overviews.md)
+    + [web アプリケーションの翻訳](dev/web/translating-a-web-application.md)
+    + [web アプリケーションへの訪問のトラッキング](dev/web/tracking-a-web-application.md)
+    + [web アプリケーショントラッキングのオプトアウト](dev/web/web-application-tracking-opt-out.md)
+  + HTML コンテンツの編集 {#editing-html-content}
+    + [HTML エディターの基本を学ぶ](dev/web/about-campaign-html-editor.md)
+    + [テンプレート管理](dev/web/template-management.md)
+    + [コンテンツエディターのインターフェイス](dev/web/content-editor-interface.md)
+    + [コンテンツの編集](dev/web/editing-content.md)
+    + [コンテンツ編集のベストプラクティス](dev/web/content-editing-best-practices.md)
+    + [ランディングページの作成](dev/web/creating-a-landing-page.md)
+    + [ユースケース：メール配信の作成](dev/web/use-case-creating-an-email-delivery.md)
+  + Web フォーム {#web-forms}
+    + [web フォームの基本を学ぶ](dev/web/about-web-forms.md)
+    + [web フォームテンプレートの使用](dev/web/using-a-web-form-template.md)
+    + [web フォームへのフィールドの追加](dev/web/adding-fields-to-a-web-form.md)
+    + [web フォームの静的要素](dev/web/static-elements-in-a-web-form.md)
+    + [web フォームレイアウトの定義](dev/web/defining-web-forms-layout.md)
+    + [フォームレンダリング](dev/web/form-rendering.md)
+    + [ページの順序付けの定義](dev/web/defining-web-forms-page-sequencing.md)
+    + [web フォームの回答の保存](dev/web/web-forms-answers.md)
+    + [web フォームの公開](dev/web/publishing-a-web-form.md)
+    + [web フォームプロパティの定義](dev/web/defining-web-forms-properties.md)
+    + [web フォームの翻訳](dev/web/translating-a-web-form.md)
+    + [ユースケース：web フォーム](dev/web/use-cases-web-forms.md)
   + 調査 {#surveys}
     + [調査の基本を学ぶ](dev/surveys/about-surveys.md)
     + [調査を作成するための主な手順](dev/surveys/getting-started-with-surveys.md)
@@ -243,7 +272,7 @@ ht-degree: 88%
     + [フォルダーとビューの管理](audiences/folders-and-views.md)
     + [列挙の操作](config/enumerations.md)
     + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ &#x200B;](config/push-config.md)
+    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ ](config/push-config.md)
     + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
   + [Campaign データモデル](dev/datamodel.md)
@@ -262,7 +291,7 @@ ht-degree: 88%
     + [入力フォーム](dev/forms.md)
   + [データパッケージの使用](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[queryDefを使用してデータベースをクエリします](dev/query-api.md)
+  + {hide-from-toc}[queryDef](dev/query-api.md)を使用してデータベースをクエリします
   + REST API {#apis}
     + [REST APIの基本を学ぶ](dev/api/get-started-apis.md)
     + [推奨事項と制限事項](dev/api/limitations.md)

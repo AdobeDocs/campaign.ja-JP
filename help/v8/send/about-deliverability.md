@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '790'
 ht-degree: 100%
 ---
 # 配信品質とは{#about-deliverability}
@@ -74,7 +74,7 @@ Adobe Campaign には、プラットフォームの配信品質パフォーマ�
 
 無効なアドレスへのメッセージ送信を回避し、不適切な通信を制限し、送信者の評判を向上させるには、ダブルオプトインのメカニズムの実装をお勧めします。 この方法を使用すると、購読が受信者の意図によるものであることを確認できます。
 
-詳しくは、[ダブルオプトインを備えた購読フォームの作成](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}を参照してください。
+詳しくは、[ダブルオプトインを備えた購読フォームの作成](../dev/web/use-cases-web-forms.md)を参照してください。
 
 顧客からデータを収集する際のベストプラクティスについて詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=ja#data-quality-and-hygiene){target="_blank"}を参照してください。
 

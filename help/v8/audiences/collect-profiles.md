@@ -29,10 +29,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 100%
+source-wordcount: '78'
+ht-degree: 88%
 ---
 # Web フォームでのプロファイルの収集と更新
 
@@ -40,4 +40,4 @@ Campaign を使用して web フォームを作成し、プロファイルのデ
 
 ![](assets/web-form-page.png)
 
-Web フォームの作成方法について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
+[このセクション ](../dev/web/about-web-forms.md)でweb フォームを作成する方法について説明します。

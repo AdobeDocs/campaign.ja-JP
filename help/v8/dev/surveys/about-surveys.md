@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 87%
+source-wordcount: '550'
+ht-degree: 98%
 ---
 # 調査の基本を学ぶ{#about-surveys}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 Adobe Campaign には、web アプリケーションを定義および公開するためのグラフィカルモジュールが含まれています。 これは、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなど、データベースのデータを含んだ通知フォームのページを作成するのに使用します。この機能を使用すると、ユーザーが情報を検索または入力できる web ページをデザインし配信できます。
 
@@ -53,13 +53,13 @@ Adobe Campaign には、web アプリケーションを定義および公開す�
 
 >[!NOTE]
 >
->* 標準 web フォームの作成手順について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>* 標準 web フォームの作成手順について詳しくは、[このドキュメント](../web/about-web-forms.md)を参照してください。
 >
->* Web アプリケーション管理について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-applications/about-web-applications){target="_blank"}を参照してください。 詳しくは、この章を参照してください。
+>* Web アプリケーション管理について詳しくは、[このドキュメント](../web/about-web-applications.md)を参照してください。 詳しくは、この章を参照してください。
 
 ## 機能の範囲 {#campaign-surveys-scope}
 
-Adobe Campaign では、[web アプリケーション](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を使用して以下を行います。
+Adobe Campaign では、[web アプリケーション](../web/about-web-forms.md)を使用して以下を行います。
 
 * 複数ページのフォームの作成
 * 統合翻訳ツールによる多言語フォームの管理
@@ -90,7 +90,7 @@ Adobe Campaign では、[web アプリケーション](https://experienceleague.
 1. 調査をパブリッシュしてから受信者に配信します（例：配信または Web サイトにリンクを含める）。
 1. 回答を監視し、レポートを表示します。
 
-これらの手順の設定と順番について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。 この章では、調査に固有の設定についてのみ詳しく説明します。
+これらの手順の設定と順番について詳しくは、[このドキュメント](../web/about-web-forms.md)を参照してください。 この章では、調査に固有の設定についてのみ詳しく説明します。
 
 >[!CAUTION]
 >
@@ -107,4 +107,4 @@ Adobe Campaign では、[web アプリケーション](https://experienceleague.
 
 >[!NOTE]
 >
->設定の詳細については、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>設定の詳細については、[このドキュメント](../web/about-web-forms.md)を参照してください。

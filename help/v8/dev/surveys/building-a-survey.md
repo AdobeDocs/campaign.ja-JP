@@ -15,16 +15,16 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 92%
+source-wordcount: '835'
+ht-degree: 99%
 ---
 # 調査の設計{#building-a-survey}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -42,7 +42,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 >[!NOTE]
 >
->Web フォームのコンテンツの定義および画面レイアウトの作成方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>Web フォームのコンテンツの定義および画面レイアウトの作成方法について詳しくは、[このドキュメント](../web/about-web-forms.md)を参照してください。
 
 ## フィールドの追加 {#adding-fields}
 
@@ -71,7 +71,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-利用可能なフィールドの様々なタイプについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+利用可能なフィールドの様々なタイプについて詳しくは、[この節](../web/about-web-forms.md)を参照してください。
 
 ## 調査固有の要素 {#survey-specific-elements}
 
@@ -106,7 +106,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 ### 質問の追加 {#adding-questions}
 
-標準および質問の 2 つのタイプのコンテナがあります。 標準コンテナは、ページレイアウトおよびページの条件付き表示を設定するために使用されます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}。
+標準および質問の 2 つのタイプのコンテナがあります。 標準コンテナは、ページレイアウトおよびページの条件付き表示を設定するために使用されます。 [詳細情報](../web/about-web-forms.md)。
 
 **質問**&#x200B;コンテナを使用して、質問をページに追加したり、考えられる回答を階層の下に挿入したりします。 このタイプのコンテナに配置された質問に対するユーザーの回答は、レポートで分析できます。
 
@@ -120,7 +120,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 >[!NOTE]
 >
->HTML エディターの使用について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>HTML エディターの使用について詳しくは、[このドキュメント](../web/about-web-forms.md)を参照してください。
 
 次に例を示します。
 

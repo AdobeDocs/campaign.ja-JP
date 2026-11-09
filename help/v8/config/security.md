@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '2964'
 ht-degree: 67%
 ---
 # Campaign セキュリティのベストプラクティス {#ac-security}
@@ -61,19 +61,19 @@ ht-degree: 67%
 
 次のチェックリストを使用して、設定を推奨されるセキュアなデフォルトに合わせます。
 
-* [&#x200B; アクセス管理](#access-management): セキュリティグループの作成、適切な権限の割り当て、管理者使用の制限、ユーザーごとに1人のオペレーター、定期的なレビュー
-* [認証とセッション &#x200B;](#authentication-and-session):Adobe IMS、強力なID ポリシー、セッション タイムアウトの使用
-* [&#x200B; インスタンスとネットワークのセキュリティ &#x200B;](#instance-and-network-security):IPCampaign コントロールパネル、URL権限、許可リスト経由のGPG キー
-* [&#x200B; データとPIIの保護](#data-and-pii-protection):HTTPS、PII表示制限、パスワード制限、機密ページの保護
-* [&#x200B; コーディングガイドライン &#x200B;](#coding-guidelines): ハードコードされたシークレットがありません。入力の検証、パラメーター化されたSQL、Captchas
-* [&#x200B; データ制限](#data-restriction)：外部アカウントのパスワードおよび秘密フィールドへのアクセスを制限します
-* [運用上およびコンプライアンス &#x200B;](#operational-and-compliance)：このベースラインと定期的に比較し、監査証跡を使用する
+* [ アクセス管理](#access-management): セキュリティグループの作成、適切な権限の割り当て、管理者使用の制限、ユーザーごとに1人のオペレーター、定期的なレビュー
+* [認証とセッション ](#authentication-and-session):Adobe IMS、強力なID ポリシー、セッション タイムアウトの使用
+* [ インスタンスとネットワークのセキュリティ ](#instance-and-network-security):IPCampaign コントロールパネル、URL権限、許可リスト経由のGPG キー
+* [ データとPIIの保護](#data-and-pii-protection):HTTPS、PII表示制限、パスワード制限、機密ページの保護
+* [ コーディングガイドライン ](#coding-guidelines): ハードコードされたシークレットがありません。入力の検証、パラメーター化されたSQL、Captchas
+* [ データ制限](#data-restriction)：外部アカウントのパスワードおよび秘密フィールドへのアクセスを制限します
+* [運用上およびコンプライアンス ](#operational-and-compliance)：このベースラインと定期的に比較し、監査証跡を使用する
 
 ### このガイダンスの検索場所 {#public-guidance}
 
 Adobe Campaignは現在、推奨されるセキュア設定ガイダンスを機械読み取り可能な形式で提供していません。 次のドキュメントを使用して、現在の設定と推奨されるセキュアデフォルトを比較できます。
 
-* **このページ** - [Campaign セキュリティのベストプラクティス &#x200B;](#ac-security) （チェックリストと詳細セクション）
+* **このページ** - [Campaign セキュリティのベストプラクティス ](#ac-security) （チェックリストと詳細セクション）
 * **[キャンペーン設定（FAQ）](../start/campaign-faq-comprehensive.md#settings)** – 設定を推奨されるセキュアなデフォルトと比較します
 * **[強化されたセキュリティ アドオン](enhanced-security.md)** - CMKの安全な統合とVPN トンネルの確保
 * **[権限の基本を学ぶ](../start/gs-permissions.md)** - アクセスおよび製品プロファイル
@@ -158,7 +158,7 @@ Campaign を、[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud オー
 
 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。 したがって、受信者の同意を得てこれを監視することが重要になります。
 
-* 受信者は常に通信の受信に同意するようにします。 これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。 詳しくは、[二重のオプトインを備えた購読フォームの作成](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}を参照してください。
+* 受信者は常に通信の受信に同意するようにします。 これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。 詳しくは、[二重のオプトインを備えた購読フォームの作成](../dev/web/use-cases-web-forms.md)を参照してください。
 * 不正なリストを読み込まず、シードアドレスを使用して、クライアントファイルが不正に使用されていないことを確認してください。 詳しくは、[シードアドレスについて](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}を参照してください。
 * 同意と権限の管理を通じて、受信者の好みを追跡し、組織内の誰がどのデータにアクセスできるかを管理できます。 詳しくは、[この節](#consent)を参照してください。
 * 受信者からのプライバシーリクエストを円滑に処理して管理します。 詳しくは、[この節](#privacy-requests)を参照してください。
@@ -212,7 +212,7 @@ GDPR（一般データ保護規則）などの規制では、企業は Cookie �
 
 ### メッセージトラッキング {#message-tracking}
 
-Adobe Campaignを使用すると、配信の受信者の電子メールの送信と動作（開封数、リンクのクリック数、購読解除など）を追跡できます。詳しくは、[&#x200B; メッセージについて](../start/gs-message.md)を参照してください。
+Adobe Campaignを使用すると、配信の受信者の電子メールの送信と動作（開封数、リンクのクリック数、購読解除など）を追跡できます。詳しくは、[ メッセージについて](../start/gs-message.md)を参照してください。
 
 これを行うには、配信ダッシュボードの「トラッキング」タブで配信と受信者の動作の影響を測定できるよう、トラッキング用リンクをメッセージに追加します。 トラッキングデータは、トラッキングインジケーターレポートで解釈されます。 トラッキングについて詳しくは、[このページ](../send/tracking.md)を参照してください。
 
@@ -220,7 +220,7 @@ Adobe Campaignを使用すると、配信の受信者の電子メールの送信
 
 >[!AVAILABILITY]
 >
->Web トラッキングは、Campaign v8では使用できません。 [このページ &#x200B;](../start/v7-to-v8.md#gs-unavailable-features)の使用できない機能について詳しく説明します。
+>Web トラッキングは、Campaign v8では使用できません。 [このページ ](../start/v7-to-v8.md#gs-unavailable-features)の使用できない機能について詳しく説明します。
 
 ## データとPII保護 {#data-and-pii-protection}
 
@@ -228,7 +228,7 @@ Adobe Campaignを使用すると、配信の受信者の電子メールの送信
 
 * **すべてのエンドポイントにHTTPSを使用** - Campaignで使用するすべてのエンドポイント（トラッキング、ミラーページ、web アプリケーション、API）がHTTPS経由で提供されるようにします。
 * **PII ビューを制限** - [PII ビュー制限](../dev/restrict-pi-view.md)を使用して、許可されたオペレーターのみがスキーマおよび画面で機密フィールド （電子メール、電話など）を表示できるようにします。
-* **暗号化されたパスワードへのアクセスを制限** – 外部アカウントやその他のスキーマのパスワードおよび秘密フィールドへのアクセスを制限して、管理者または最小限のオペレーターのみが表示できるようにします。 以下の[&#x200B; データ制限](#data-restriction)を参照してください。
+* **暗号化されたパスワードへのアクセスを制限** – 外部アカウントやその他のスキーマのパスワードおよび秘密フィールドへのアクセスを制限して、管理者または最小限のオペレーターのみが表示できるようにします。 以下の[ データ制限](#data-restriction)を参照してください。
 * **機密ページの保護** - PIIを表示または収集するミラーページ、web アプリケーション、およびランディングページへのアクセスを制限します。オペレーターおよびフォルダーの権限を使用し、必要に応じてキャプチャと同意を行います。
 
 >[!NOTE]
@@ -352,5 +352,5 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 ## 運用とコンプライアンス {#operational-and-compliance}
 
-* **安全なベースラインと比較** – このページの推奨事項（および該当する場合は[強化セキュリティアドオン &#x200B;](enhanced-security.md)）と、オペレーターグループ、名前付き権限、フォルダー権限を定期的に比較して、推奨される安全なデフォルトに合わせて比較します。
+* **安全なベースラインと比較** – このページの推奨事項（および該当する場合は[強化セキュリティアドオン ](enhanced-security.md)）と、オペレーターグループ、名前付き権限、フォルダー権限を定期的に比較して、推奨される安全なデフォルトに合わせて比較します。
 * **監査証跡を使用** - Campaignの監査証跡を活用して、重要な変更（ワークフロー、配信、キー設定など）を行います。コンプライアンスと保持ポリシーで必要に応じて、ログを保持およびレビューします。
