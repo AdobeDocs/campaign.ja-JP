@@ -75,4 +75,4 @@ Adobe Campaign を使用して、予算配分の管理、サプライヤー、�
 
 このビデオでは、マーケティングキャンペーンの主要概念を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326573?captions=jpn&quality=12)
