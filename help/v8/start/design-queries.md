@@ -1,5 +1,5 @@
 ---
-title: Campaign v8でのデザインクエリ
+title: Campaign データベースのクエリ
 description: Campaign クライアントコンソールでクエリを作成する方法について説明します
 feature: Query Editor, Data Management
 role: User
@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '958'
 ht-degree: 29%
 ---
 # Query Campaign データベース
@@ -155,7 +155,7 @@ SQL 言語を理解しているユーザーは、「**[!UICONTROL 生成され�
 
 >[!NOTE]
 >
->コンソールで使用可能なすべてのリストと同様に、デフォルトでは、最初の200行のみが&#x200B;**[!UICONTROL データプレビュー]** ウィンドウに表示されます。 これを変更するには、**[!UICONTROL 表示行数]** ボックスに数値を入力し、**[!UICONTROL データのプレビューを開始]**&#x200B;をクリックします。 [詳細情報](../config/ui-settings.md#manage-and-customize-lists)
+>コンソールで使用可能なすべてのリストと同様に、デフォルトでは、最初の200行のみが&#x200B;**[!UICONTROL データプレビュー]** ウィンドウに表示されます。 これを変更するには、**[!UICONTROL 表示行数]** ボックスに数値を入力し、**[!UICONTROL データのプレビューを開始]**&#x200B;をクリックします。 [詳細情報](../config/ui-settings.md#customize-lists)
 
 
 

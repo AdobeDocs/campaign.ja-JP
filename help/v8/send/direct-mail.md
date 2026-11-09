@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 84%
+source-wordcount: '960'
+ht-degree: 87%
 ---
 # ダイレクトメール配信の作成
 
@@ -90,7 +90,7 @@ ht-degree: 84%
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-抽出ファイルにパーソナライズされたURLを挿入できます。 詳しくは、Adobe Campaign Classic [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=ja){target="_blank"}を参照してください。
+抽出ファイルにパーソナライズされたURLを挿入できます。 詳しくは、[この節](../dev/web/publishing-a-web-form.md)を参照してください。
 
 >[!NOTE]
 >

@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 99%
@@ -54,7 +54,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Managed Cloud Services ユーザーとして Campaign を X に接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。この&#x200B;**ソーシャルネットワーク管理（ソーシャルマーケティング）**&#x200B;アドオンは、専用パッケージを通じてお使いの環境にインストールし、Twitter 外部アカウントを設定する必要があります。
+>Managed Cloud Services ユーザーとして Campaign を X に接続する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。この&#x200B;**ソーシャルネットワーク管理（ソーシャルマーケティング）**&#x200B;アドオンは、専用パッケージを通じてお使いの環境にインストールし、Twitter 外部アカウントを設定する必要があります。
 
 
 X アカウントにツイートを投稿するように Adobe Campaign を設定するには、これらのアカウントの Adobe Campaign への書き込みアクセス権をデリゲートします。 そのためには、次の手順を実行する必要があります。
@@ -169,7 +169,7 @@ Adobe Campaign は、各フォロワーについて以下の情報を格納し�
 
 ## X でのテストアカウントの作成 {#tw-test-account}
 
-X アカウントに加えて、[ツイートの配達確認](../send/twitter.md#send-tw-proofs)の送信に使用できる非公開 X アカウントを作成します。 これを行うには、次の手順に従います。
+X アカウントに加えて、[ツイートの配達確認](../send/twitter.md)の送信に使用できる非公開 X アカウントを作成します。 これを行うには、次の手順に従います。
 
 1. 新しい X アカウントを作成します。
 1. そのアカウントの&#x200B;**設定**&#x200B;にアクセスします。

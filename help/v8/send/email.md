@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 94%
@@ -39,7 +39,7 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
 >[!NOTE]
 >
->個別にカスタマイズされた魅力的なメールを作成するには、[Web ユーザーインターフェイス](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)を参照してください。 Adobe Campaign には、直感的なドラッグ＆ドロップインターフェイスである E メールデザイナーが搭載されており、すべてのメールのあらゆるメールコンテンツのデザインと微調整に対応できます。
+>個別にカスタマイズされた魅力的なメールを作成するには、[Web ユーザーインターフェイス](../start/campaign-ui.md#ac-web-ui)を参照してください。 Adobe Campaign には、直感的なドラッグ＆ドロップインターフェイスである E メールデザイナーが搭載されており、すべてのメールのあらゆるメールコンテンツのデザインと微調整に対応できます。
 
 
 配信を作成して設定する主な手順について詳しくは、[このページ](../start/create-message.md)を参照してください。

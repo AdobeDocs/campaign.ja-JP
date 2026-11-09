@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: リッチプッシュ通知配信の設計
+title: Android のリッチプッシュ配信の設計
 description: Adobe Campaign web を使用したリッチプッシュ通知配信の設計方法について説明します。
 feature: Push
 role: User
@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 100%

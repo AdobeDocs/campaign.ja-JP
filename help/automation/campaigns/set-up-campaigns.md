@@ -22,7 +22,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 76%
@@ -54,7 +54,7 @@ Adobe Campaign でマーケティングキャンペーンを作成および実�
 キャンペーンは、配信、ターゲティングルール、コスト、エクスポートファイル、関連ドキュメントなど、マーケティングキャンペーンに関連するあらゆる要素を一元化します。各キャンペーンはプログラムに添付されています。 キャンペーンの作成方法について詳しくは、[この節](marketing-campaign-create.md#create-a-campaign)を参照してください。
 
 1. **オーディエンスを選択**
-オーディエンスは、リストからインポートすることも、クエリを使用してキャンペーンワークフローに組み込むこともできます。 キャンペーンのターゲットオーディエンスを定義する方法について詳しくは、[この節](marketing-campaign-target.md#select-the-target-population)を参照してください。
+オーディエンスは、リストからインポートすることも、クエリを使用してキャンペーンワークフローに組み込むこともできます。 キャンペーンのターゲットオーディエンスを定義する方法について詳しくは、[この節](marketing-campaign-target.md)を参照してください。
 
 1. **配信の作成**
 キャンペーンでクロスチャネル配信をオーケストレーションします。 パーソナライズされたメール、SMS、プッシュ通知、アプリ内メッセージを通じて、Adobe Campaign でのコミュニケーションを効率化します。 ダイレクトメール配信を追加することもできます。 キャンペーンで配信を作成、検証、モニタリングする方法について詳しくは、[この節](marketing-campaign-deliveries.md)を参照してください。
@@ -68,7 +68,7 @@ Adobe Campaign でマーケティングキャンペーンを作成および実�
 1. **予算、在庫、関連コストのトラッキング**
 Adobe Campaign を使用して、予算配分の管理、サプライヤー、在庫およびコストの管理を行います。 [詳細情報](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)。
 
-これらの手順が完了したら、[配信を開始](marketing-campaign-deliveries.md#start-a-delivery)し、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて[関連ドキュメントを管理](marketing-campaign-deliveries.md#manage-associated-documents)することができます。 また、キャンペーンと配信の[実行のトラッキングとモニタリング](marketing-campaign-monitoring.md)を行うこともできます。
+これらの手順が完了したら、[配信を開始](marketing-campaign-deliveries.md#start-a-delivery)し、データ、プロセスおよび配信に関連する情報を確認し、必要に応じて[関連ドキュメントを管理](marketing-campaign-deliveries.md)することができます。 また、キャンペーンと配信の[実行のトラッキングとモニタリング](marketing-campaign-monitoring.md)を行うこともできます。
 
 
 ## ビデオ内の重要な概念 {#key-concepts-video}

@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ![](assets/s_user_segmentation_inter.png)
 
-積集合アクティビティの設定と使用について詳しくは、[結合データの抽出（積集合）](targeting-workflows.md#extracting-joint-data--intersection-)を参照してください。
+積集合アクティビティの設定と使用について詳しくは、[結合データの抽出（積集合）](targeting-workflows.md#extract-joint-data--intersection-)を参照してください。
 
 残りの母集団を処理するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。 補集合には、すべてのインバウンドアクティビティから積集合を引いた結果の和集合が含まれます。 その後、次の図のように、追加のアウトバウンドトランジションがアクティビティに追加されます。
 

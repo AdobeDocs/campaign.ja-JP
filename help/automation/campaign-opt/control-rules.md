@@ -3,6 +3,7 @@ product: campaign
 title: コントロールルールの設定
 description: コントロールルールの設定方法を説明します
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 79e442ea-f856-41bf-b065-25cb2ad2c65b
 TQID: 'https://experienceleague.adobe.com/xluD-4nygREOMWZyFT6OrenJvfvFVWTVf7i6-ZoYfTI'
 product_v2:
@@ -19,7 +20,7 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%

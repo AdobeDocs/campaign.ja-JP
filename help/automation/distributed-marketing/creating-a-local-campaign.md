@@ -3,12 +3,15 @@ product: campaign
 title: ローカルキャンペーンの作成
 description: ローカルキャンペーンの作成
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 TQID: https://experienceleague.adobe.com/hxeStkXhnSKoLew2gYv3nIDeoRjwgTYINF83w70aFxo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -20,13 +23,11 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 1691
-ht-degree: 98%
-
+source-wordcount: '1691'
+ht-degree: 100%
 ---
-
 # ローカルキャンペーンの作成{#creating-a-local-campaign}
 
 
@@ -81,11 +82,11 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
   ![](assets/mkt_distr_8.png)
 
-  ローカルエンティティに表示されるフォームは、web アプリケーションで指定します。この web アプリケーションは、テンプレートの「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックしたあと、「**[!UICONTROL Web インターフェイス]**」フィールドのドロップダウンリストで選択する必要があります。 [ローカルキャンペーン（フォーム）の作成](examples.md#creating-a-local-campaign--by-form-)を参照してください。
+  ローカルエンティティに表示されるフォームは、web アプリケーションで指定します。この web アプリケーションは、テンプレートの「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックしたあと、「**[!UICONTROL Web インターフェイス]**」フィールドのドロップダウンリストで選択する必要があります。 [ローカルキャンペーンの作成（フォーム）](examples.md#creating-a-local-campaign--by-form-)を参照してください。
 
   >[!NOTE]
   >
-  >この例で使用されている Web アプリケーションはサンプルです。 フォームを使用するには、Web アプリケーションを作成する必要があります。
+  >この例で使用されている Web アプリケーションはサンプルです。 フォームを使用するには、web アプリケーションを作成する必要があります。
 
   ![](assets/mkt_distr_7.png)
 
@@ -122,7 +123,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 ### ドキュメント {#documents}
 
-ローカルエンティティのオペレーターがドキュメント（テキストファイル、スプレッドシート、画像、キャンペーンの説明など）をリンクできるようにできます 注文を作成するときにローカルキャンペーンに移動します。 「**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター...]**」リンクを使用すると、リンクするドキュメントの数を制限できます。 「**[!UICONTROL ドキュメント数]**」フィールドで、許可する最大数を指定してください。
+オーダーの作成時に、ローカルエンティティオペレーターに対して、ローカルキャンペーンへのドキュメントのリンク（テキストファイル、スプレッドシート、画像、キャンペーンの説明など）を許可できます 。 「**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター...]**」リンクを使用すると、リンクするドキュメントの数を制限できます。 「**[!UICONTROL ドキュメント数]**」フィールドで、許可する最大数を指定してください。
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 

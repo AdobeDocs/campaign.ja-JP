@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 97%
@@ -94,7 +94,7 @@ Unicity Service は専用の&#x200B;**[!UICONTROL 単一性アラート]**&#x200
 
 >[!NOTE]
 >
->これらのガードレールは、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>これらのガードレールは、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](../start/compatibility-matrix.md)を参照してください
 
 ### 配信準備 {#remove-duplicates-delivery-preparation}
 

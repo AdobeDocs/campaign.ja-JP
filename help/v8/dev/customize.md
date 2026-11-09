@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 75%
+source-wordcount: '503'
+ht-degree: 78%
 ---
 # インスタンスのカスタマイズ {#gs-ac-custom}
 
@@ -92,7 +92,7 @@ Adobe Campaign インターフェイスでは、多数のWeb アプリケーシ�
 
 ビルトインの web アプリケーションは、エクスプローラーの&#x200B;**管理／設定／Web アプリケーション**&#x200B;フォルダーに格納されています。
 
-Campaignで概要ページを作成する方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}を参照してください
+Campaignで概要ページを作成する方法については、[このセクション &#x200B;](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)を参照してください
 
 
 ## リストのカスタマイズとフィルターの作成 {#gs-lists-and-filters}

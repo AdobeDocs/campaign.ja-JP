@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1270'
 ht-degree: 98%
 ---
 # Campaign SDK とアプリの統合 {#integrate-campaign-sdk}
@@ -44,7 +44,7 @@ iOS および Android 用の Campaign SDK を使用すると、モバイルア�
 
 Android および iOS でサポートされているバージョン、Campaign v8 用の Campaign SDK 互換バージョンは、[互換性マトリックス](../start/compatibility-matrix.md#MobileSDK)に記載されています。
 
-Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/jp/downloads/content/software-distribution/en/campaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+Campaign 管理者は、[Experience Cloud ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)から Campaign SDK をダウンロードできます。 詳しくは、[Adobe カスタマーケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
 
 >[!NOTE]

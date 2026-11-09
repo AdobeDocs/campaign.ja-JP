@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 98%
@@ -46,7 +46,7 @@ Campaign と Target を接続すると、Adobe Target からのオファーを A
 >[!NOTE]
 >* この統合では、静的画像のみをサポートします。 その他のタイプのコンテンツはパーソナライズできません。
 >
->* Managed Cloud Services ユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+>* Managed Cloud Services ユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。
 
 Adobe Target では、次の種類のデータを使用できます。
 

@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2377'
 ht-degree: 100%
@@ -86,11 +86,11 @@ ht-degree: 100%
 
 ### 追加データで作業する {#select-data}
 
-「**[!UICONTROL クエリ]**」アクティビティでは、ターゲット母集団を作成するために必要な基本データを選択できます。 詳しくは、[この節](query.md#create-a-query)を参照してください。
+「**[!UICONTROL クエリ]**」アクティビティでは、ターゲット母集団を作成するために必要な基本データを選択できます。 詳しくは、[この節](query.md#creating-a-query)を参照してください。
 
 データベースからデータをクエリおよび絞り込むには、「[増分処理クエリ](incremental-query.md)」および「[リスト読み込み](read-list.md)」アクティビティも使用できます。
 
-ワークフローのライフサイクルを通じて転送され、処理される追加情報を収集することができます。 詳しくは、[データの追加](query.md#add-data)および[追加データの編集](#edit-additional-data)を参照してください。
+ワークフローのライフサイクルを通じて転送され、処理される追加情報を収集することができます。 詳しくは、[データの追加](query.md#adding-data)および[追加データの編集](#edit-additional-data)を参照してください。
 
 ### 追加データを編集 {#edit-additional-data}
 

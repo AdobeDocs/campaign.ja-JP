@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 96%
@@ -51,7 +51,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 
 >[!NOTE]
 >
->Managed Cloud Services のユーザーは、[アドビに連絡](../start/campaign-faq.md#support){target="_blank"}して、アーカイブに使用する BCC メールアドレスを伝えてください。
+>Managed Cloud Services のユーザーは、[アドビに連絡](../start/campaign-faq-comprehensive.md#support){target="_blank"}して、アーカイブに使用する BCC メールアドレスを伝えてください。
 
 ## 「BCC でメールを送信」を有効にする {#enable-bcc}
 

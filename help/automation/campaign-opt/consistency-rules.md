@@ -3,6 +3,7 @@ product: campaign
 title: 一貫性ルール
 description: 一貫性ルール
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
 TQID: 'https://experienceleague.adobe.com/KaybpQFNgtTiMgQOWX0-bNqPEMeWGWR8vb6qjZzr63k'
 product_v2:
@@ -25,7 +26,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 100%

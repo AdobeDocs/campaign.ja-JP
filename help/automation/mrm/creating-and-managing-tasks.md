@@ -3,6 +3,7 @@ product: campaign
 title: タスクの作成と管理
 description: タスクの作成と管理
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 TQID: 'https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs'
@@ -22,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '3936'
 ht-degree: 100%
@@ -205,7 +206,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 >[!NOTE]
 >
->費用と予算について詳しくは、[この節](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging)を参照してください。
+>費用と予算について詳しくは、[この節](../campaigns/providers-stocks-and-budgets.md)を参照してください。
 
 ウィンドウでは達成目標も定義できます。 目標にはタスクの予測売上高を入力します。
 

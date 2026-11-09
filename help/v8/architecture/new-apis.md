@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 99%
@@ -224,7 +224,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 Campaign の購読管理については、[このページ](../start/subscriptions.md)を参照してください。
 
-購読や購読解除のデータは、Campaign ローカルデータベースの[ステージングメカニズム](staging.md)を使用して挿入されます。 購読者の情報は、ローカルデータベースのステージングテーブルにいったん格納され、同期ワークフローによってローカルデータベースからクラウドデータベースに送信されます。 そのため、購読や購読解除のプロセスは&#x200B;**非同期**&#x200B;でおこなわれます。 オプトインやオプトアウトのリクエストは、特定のテクニカルワークフローによって 1 時間ごとに処理されます。 [詳細情報](replication.md#tech-wf)
+購読や購読解除のデータは、Campaign ローカルデータベースの[ステージングメカニズム](staging.md)を使用して挿入されます。 購読者の情報は、ローカルデータベースのステージングテーブルにいったん格納され、同期ワークフローによってローカルデータベースからクラウドデータベースに送信されます。 そのため、購読や購読解除のプロセスは&#x200B;**非同期**&#x200B;でおこなわれます。 オプトインやオプトアウトのリクエストは、特定のテクニカルワークフローによって 1 時間ごとに処理されます。 [詳細情報](replication.md#workflows)
 
 
 **関連トピック**

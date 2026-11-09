@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign を使用したプッシュ通知の送信
+title: データ収集によるプッシュ通知の設定
 description: Campaign におけるプッシュ通知の概要
 feature: Push
 role: Developer
@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 94%

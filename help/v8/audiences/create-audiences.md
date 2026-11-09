@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 98%
@@ -36,7 +36,7 @@ Campaign リストを使用すると、オーディエンスを作成および�
 
 リストは、配信アクションのターゲットにしたり、インポート操作時や別のワークフロー実行時に更新したりできる、連絡先の静的なセットです。 例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 
-リストの作成と管理は、「**[!UICONTROL プロファイルとターゲット]**」タブの&#x200B;**[!UICONTROL リスト]**&#x200B;リンクを使用して実行します。 これらのリストは、デフォルトのAdobe Campaign プロファイルテーブル（nms:recipient）に基づいています。 [詳細情報](../dev/datamodel.md#ootb-profiles.md)
+リストの作成と管理は、「**[!UICONTROL プロファイルとターゲット]**」タブの&#x200B;**[!UICONTROL リスト]**&#x200B;リンクを使用して実行します。 これらのリストは、デフォルトのAdobe Campaign プロファイルテーブル（nms:recipient）に基づいています。 [詳細情報](../dev/datamodel.md#ootb-profiles)
 
 ![](assets/list-dashboard.png)
 

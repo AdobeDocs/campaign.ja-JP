@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '11655'
+source-wordcount: '11649'
 ht-degree: 17%
 ---
 # よくある質問 {#faq}
@@ -169,7 +169,7 @@ Campaign v8での最初のメール作成は簡単です。 テンプレート�
 
 Adobe カスタマーサポートに連絡するには、[Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"}に接続してケースを作成するか、チャットセッションを開始します。
 
-正しい権限を持つ個々のアカウントが必要です。 ログインできない場合は、Experience League経由でアクセスをリクエストしてください。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+正しい権限を持つ個々のアカウントが必要です。 ログインできない場合は、Experience League経由でアクセスをリクエストしてください。 [詳細情報](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){target="_blank"}
 
 または、[Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}に参加して、回答を検索したり、専門家に質問したりすることもできます。
 
@@ -212,7 +212,7 @@ Campaign v8では、パフォーマンスが大幅に向上しますが、特に
 
 **関連トピック：**
 
-[Campaign v7からv8への移行](../start/v7-to-v8.md#limitations) | [FFDA アーキテクチャ &#x200B;](../architecture/enterprise-deployment.md)
+[Campaign v7からv8への移行](../start/v7-to-v8.md) | [FFDA アーキテクチャ &#x200B;](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -820,7 +820,7 @@ Campaignは、連絡先日の最適化（受信者ごとに最適な送信時間
 
 安全なファイル形式（PDF、JPEG、PNG、DOCX）を使用し、本番環境への送信前にシードアドレスを使用してテストします。
 
-詳しくは、[電子メール添付ファイル ガイド &#x200B;](../send/email.md#attachments)を参照してください
+詳しくは、[電子メール添付ファイル ガイド &#x200B;](../send/email.md)を参照してください
 
 +++
 
@@ -1754,7 +1754,7 @@ Campaignは、同意を追跡するためのサブスクリプションサービ
 
 **関連トピック：**
 
-[&#x200B; サブスクリプションサービス &#x200B;](../start/subscriptions.md) | [&#x200B; プライバシーと同意](../start/privacy.md#consent-retention-roles) | [&#x200B; プライバシー管理](../start/privacy.md)
+[&#x200B; サブスクリプションサービス &#x200B;](../start/subscriptions.md) | [&#x200B; プライバシーと同意](../start/privacy.md) | [&#x200B; プライバシー管理](../start/privacy.md)
 
 +++
 
@@ -1819,7 +1819,7 @@ Campaignの監査証跡は、削除イベントと新しいプロファイル作
 Adobe CampaignのユーザーやAdobeのエキスパートと交流することで、知識を共有し、疑問の答えを見つけることができます。
 
 * **[Adobe Campaign コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=ja){target="_blank"}** – 質問し、解決策を共有し、Campaign コミュニティとつながる
-* **[Experience League フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/?profile.language=ja&lang=ja){target="_blank"}** – すべてのAdobe製品のディスカッションを参照する
+* **[Experience League フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/?lang=ja){target="_blank"}** – すべてのAdobe製品のディスカッションを参照する
 * **[Campaign コミュニティオフィスアワー](https://experienceleague.adobe.com/ja){target="_blank"}** - Adobeのエキスパートとのライブセッションに参加
 
 ### ドキュメントと学習
@@ -1839,12 +1839,12 @@ Adobe CampaignのユーザーやAdobeのエキスパートと交流すること�
 * **[互換性マトリックス](compatibility-matrix.md)** - サポートされているシステムとバージョン
 * **[バージョンとアップグレードに関するFAQ](upgrades.md)** - バージョンを確認し、アップグレードについて確認します
 
-### サポート&amp;サービス
+### サポート&amp;サービス {#support}
 
 Adobe サポートチームのサポートを受けて、インスタンスを管理します。
 
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - サポートケースのログ記録とユーザーの管理
-* **[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - サポート チームにお問い合わせください
+* **[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){target="_blank"}** - サポート チームにお問い合わせください
 * **[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}** - Campaign インスタンスの設定を管理します
 * **[システムの状態](https://status.adobe.com/ja-jp/){target="_blank"}** - Adobe サービスの状態を確認
 

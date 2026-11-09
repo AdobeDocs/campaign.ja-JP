@@ -20,7 +20,7 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
@@ -56,7 +56,7 @@ ht-degree: 100%
 * [概要リストの作成](create-a-summary-list.md)
 * [データのエンリッチメント](enrich-data.md)
 * [集計の使用](using-aggregates.md)
-* [コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](use-workflow-data.md#use-case-gpg-encrypt)
+* [コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](use-workflow-data.md)
 * [増分処理クエリを使用した四半期ごとのリスト更新](quarterly-list-update.md)
 * [重複排除アクティビティの結合機能の使用](deduplication-merge.md)
 * [繰り返しインポートワークフローの設定](recurring-import-workflow.md)

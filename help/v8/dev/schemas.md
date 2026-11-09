@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 94%
@@ -221,7 +221,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーについて詳しくは、[この節](database-mapping.md#management-of-keys)を参照してください。
+キーについて詳しくは、[この節](database-mapping.md)を参照してください。
 
 ## 属性（フィールド） {#attributes--fields-}
 

@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '889'
 ht-degree: 98%
 ---
 # オファースペースの作成{#creating-offer-spaces}
@@ -173,4 +173,4 @@ ht-degree: 98%
 
 プレビューでは、特定のスペースに限定されているコンテキストを無視できます。 これは、インタラクションスキーマを拡張して、インバウンドチャネルを使用してスペースで参照されるフィールドを追加した場合です。
 
-詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target="_blank"}のこのサンプルを参照してください。
+詳しくは、[このセクション &#x200B;](extension-example.md)のこのサンプルを参照してください。

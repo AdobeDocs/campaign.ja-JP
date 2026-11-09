@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 97%
@@ -46,7 +46,7 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
 >[!NOTE]
 >
->Managed Cloud Services ユーザーとして Adobe Experience Manager を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+>Managed Cloud Services ユーザーとして Adobe Experience Manager を Campaign と統合する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。
 
 ## Adobe Experience Manager からのコンテンツのインポート {#integrating-with-aem}
 

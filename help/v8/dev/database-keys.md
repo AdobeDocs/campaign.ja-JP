@@ -2,6 +2,7 @@
 title: Campaign データベースにおけるキーの管理
 description: Adobe Campaign スキーマでのキーの管理について
 feature: Data Model, Configuration
+version: Campaign v8, Campaign Classic v7
 role: Developer
 level: Intermediate, Experienced
 exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
@@ -29,7 +30,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%

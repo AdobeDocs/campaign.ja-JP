@@ -24,19 +24,19 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 82%
+source-wordcount: '42'
+ht-degree: 30%
 ---
 # ユースケース
 
-Campaign Classic v7 ドキュメントで説明している以下のステップバイステップのユースケースを通じて、Campaign のインタラクション機能を活用できます。
+次のステップバイステップのユースケースで、Adobe Campaignのインタラクション機能を活用します。
 
-[プレゼンテーションルールの作成と適用](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html?lang=ja){target="_blank"}
+[プレゼンテーションルールの作成と適用](presentation-rules.md)
 
-[メールオファー配信の送信](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ja){target="_blank"}
+[メールオファー配信の送信](offers-on-an-outbound-channel.md)
 
-[匿名訪問者にオファーを提示する](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ja){target="_blank"}
+[匿名訪問者にオファーを提示する](offers-on-an-inbound-channel.md#presenting-an-offer-to-an-anonymous-visitor)
 
-[オファーシミュレーションの実行](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html?lang=ja){target="_blank"}
+[オファーシミュレーションの実行](offers-on-an-outbound-channel.md#perform-an-offer-simulation)

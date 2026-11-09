@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 78%
@@ -115,7 +115,7 @@ Adobe Campaignでは、中央エンティティ（本社、マーケティング
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md)を参照してください
 
 [このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}でCampaignの分散型マーケティング機能を設定および使用する方法について説明します。
 
@@ -125,6 +125,6 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md)を参照してください
 
 [&#128279;](../assets/do-not-localize/book.png) Campaign Response Managerの設定と使用方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}を参照してください。

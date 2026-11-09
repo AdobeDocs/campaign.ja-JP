@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 99%
+source-wordcount: '2146'
+ht-degree: 98%
 ---
 # メールコンテンツの定義 {#defining-the-email-content}
 
@@ -92,7 +92,7 @@ ht-degree: 99%
 
 * HTML コンテンツをインポートするには、「**[!UICONTROL 開く]**」ボタンを使用します。 「**[!UICONTROL ソース]**」サブタブに直接ソースコードを貼り付けることもできます。
 
-  デジタルコンテンツエディター（DCE）を使用している場合は、[Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=ja#step-3---selecting-a-content)を参照してください。
+  デジタルコンテンツエディター（DCE）を使用している場合は、[この節](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)を参照してください。
 
   >[!IMPORTANT]
   >

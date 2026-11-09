@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 60%
+source-wordcount: '119'
+ht-degree: 56%
 ---
 # インタラクションモジュールの詳細設定
 
@@ -31,7 +31,7 @@ Campaign インタラクションモジュールの設定は、エキスパー�
 
 オファー[で追加のコンテキストデータを使用する方法については、このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=ja){target="_blank"}を参照してください。
 
-オファー[の実施要件の条件を強化する方法については、このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=ja){target="_blank"}を参照してください。
+オファー[の実施要件の条件を強化する方法については、このページ &#x200B;](extension-example.md)を参照してください。
 
 テスト環境[を作成する手順については、このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=ja){target="_blank"}を参照してください。
 

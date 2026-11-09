@@ -2,6 +2,7 @@
 title: Adobe Campaign グローバルレポート
 description: グローバルレポートへのアクセス方法と使用方法を学ぶ
 feature: Reporting, Monitoring
+version: Campaign v8, Campaign Classic v7
 role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 TQID: 'https://experienceleague.adobe.com/4BSV9uMb9AfI4Su-UcDOwcvT7LN0HDNsW4s9PC8Bx90'
@@ -30,7 +31,7 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '1914'
 ht-degree: 100%

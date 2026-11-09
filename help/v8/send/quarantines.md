@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 71%
@@ -88,7 +88,7 @@ Adobe Campaign では、配信エラーのタイプと理由に応じて強制�
 
 ハードエラーとは対照的に、ソフトエラーはメールアドレスをすぐに強制隔離に送信するのではなく、エラーカウンターを増分します。 エラーカウンターが上限しきい値に達すると、アドレスは強制隔離されます。 再試行とエラータイプについて詳しくは、[配信エラーについて](delivery-failures.md)を参照してください。
 
-最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。 次に、アドレスのステータスが&#x200B;**[!UICONTROL 有効]**&#x200B;に変更され、**[!UICONTROL データベース クリーンアップ]** ワークフローによって強制隔離のリストから削除されます。 [技術的なワークフローについて詳しく見る](../config/workflows.md#technical-workflows)。
+最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。 次に、アドレスのステータスが&#x200B;**[!UICONTROL 有効]**&#x200B;に変更され、**[!UICONTROL データベース クリーンアップ]** ワークフローによって強制隔離のリストから削除されます。 [技術的なワークフローについて詳しく見る](../config/workflows.md)。
 
 ## 強制隔離されたアドレスへのアクセス {#access-quarantined-addresses}
 

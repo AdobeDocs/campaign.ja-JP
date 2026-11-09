@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 87%
+source-wordcount: '1084'
+ht-degree: 89%
 ---
 
 # Adobe Campaign v8（コンソール）ドキュメント {#campaign-v8}
@@ -37,17 +37,8 @@ ht-degree: 87%
   + [Campaign Classic v7 から v8 へ](start/v7-to-v8.md)
   + [Campaign Standard から v8 へ](start/acs-to-v8.md)
   + [よくある質問](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc}[よくある質問](start/campaign-faq.md)
   + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](start/cnil-pixel-tracking.md)
-+ 管理と権限 {#permissions}
-  + [権限の基本を学ぶ](start/gs-permissions.md)
-  + [ユーザー権限の管理](start/manage-permissions.md)
-  + [フォルダーに対する権限の追加](start/folder-permissions.md)
-  + [コントロールパネル](config/self-service.md)
-+ キャンペーン管理 {#campaigns}
-  + [キャンペーンの基本を学ぶ](start/campaigns.md)
-  + [キャンペーンオーケストレーションドキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
-+ メッセージの送信 {#send}
++ メッセージ {#send}
   + [メッセージの基本を学ぶ](start/gs-message.md)
   + [最初の配信の作成](start/create-message.md)
   + [配信テンプレートの操作](send/create-templates.md)
@@ -139,17 +130,54 @@ ht-degree: 87%
     + {hide-from-toc}[Adobe ソリューションとオーディエンスを共有](start/shared-audiences.md)
   + {hide-from-toc}[ベストプラクティス](audiences/audiences-best-practices.md)
   + [購読を管理](start/subscriptions.md)
-+ ランディングページとForms {#content}
++ ランディングページとフォーム {#content}
   + [ランディングページの作成](dev/landing-pages.md)
   + [Web アプリとフォームのデザイン](dev/webapps.md)
+  + web アプリケーション {#web-applications}
+    + [web アプリケーションの基本を学ぶ](dev/web/about-web-applications.md)
+    + [web アプリケーションの新規作成](dev/web/creating-a-new-web-application.md)
+    + [web アプリケーションの設計](dev/web/designing-a-web-application.md)
+    + [ユースケース：概要の作成](dev/web/use-cases-creating-overviews.md)
+    + [web アプリケーションの翻訳](dev/web/translating-a-web-application.md)
+    + [web アプリケーションへの訪問のトラッキング](dev/web/tracking-a-web-application.md)
+    + [web アプリケーショントラッキングのオプトアウト](dev/web/web-application-tracking-opt-out.md)
+  + HTML コンテンツの編集 {#editing-html-content}
+    + [HTML エディターの基本を学ぶ](dev/web/about-campaign-html-editor.md)
+    + [テンプレート管理](dev/web/template-management.md)
+    + [コンテンツエディターのインターフェイス](dev/web/content-editor-interface.md)
+    + [コンテンツの編集](dev/web/editing-content.md)
+    + [コンテンツ編集のベストプラクティス](dev/web/content-editing-best-practices.md)
+    + [ランディングページの作成](dev/web/creating-a-landing-page.md)
+    + [ユースケース：メール配信の作成](dev/web/use-case-creating-an-email-delivery.md)
+  + Web フォーム {#web-forms}
+    + [web フォームの基本を学ぶ](dev/web/about-web-forms.md)
+    + [web フォームテンプレートの使用](dev/web/using-a-web-form-template.md)
+    + [web フォームへのフィールドの追加](dev/web/adding-fields-to-a-web-form.md)
+    + [web フォームの静的要素](dev/web/static-elements-in-a-web-form.md)
+    + [web フォームレイアウトの定義](dev/web/defining-web-forms-layout.md)
+    + [フォームレンダリング](dev/web/form-rendering.md)
+    + [ページの順序付けの定義](dev/web/defining-web-forms-page-sequencing.md)
+    + [web フォームの回答の保存](dev/web/web-forms-answers.md)
+    + [web フォームの公開](dev/web/publishing-a-web-form.md)
+    + [web フォームプロパティの定義](dev/web/defining-web-forms-properties.md)
+    + [web フォームの翻訳](dev/web/translating-a-web-form.md)
+    + [ユースケース：web フォーム](dev/web/use-cases-web-forms.md)
+  + 調査 {#surveys}
+    + [調査の基本を学ぶ](dev/surveys/about-surveys.md)
+    + [調査を作成するための主な手順](dev/surveys/getting-started-with-surveys.md)
+    + [調査の設計](dev/surveys/building-a-survey.md)
+    + [回答の管理](dev/surveys/managing-answers.md)
+    + [収集したデータの公開、トラッキングおよび使用](dev/surveys/publish-track-and-use-collected-data.md)
+    + [調査の設定](dev/surveys/configuring-surveys.md)
+    + [ユースケース：リファラルフォームの作成](dev/surveys/use-case-creating-a-refer-a-friend-form.md)
+    + [ユースケース：オンライン調査への回答に関するレポートの表示](dev/surveys/use-case-displaying-report-on-answers-to-an-online-survey.md)
++ キャンペーン {#campaigns}
+  + [キャンペーンの基本を学ぶ](start/campaigns.md)
+  + [キャンペーンオーケストレーションドキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
 + ワークフロー {#workflows}
   + [ワークフローの基本を学ぶ](config/workflows.md)
   + [ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
-+ プライバシーとセキュリティ {#privacy}
-  + [プライバシーリクエストの管理](start/privacy.md)
-  + [セキュリティガイドライン](config/security.md)
-  + [セキュリティ強化アドオン](config/enhanced-security.md)
-+ オファー管理 – インタラクション {#offers}
++ オファー/インタラクション {#offers}
   + [リアルタイムインタラクションの概要](interaction/interaction.md)
   + [環境とアーキテクチャ](interaction/interaction-architecture.md)
   + [ベストプラクティス](interaction/interaction-best-practices.md)
@@ -165,9 +193,31 @@ ht-degree: 87%
     + [コンテキスト](interaction/interaction-present-offers.md)
     + [Web ページでのオファーの呼び出し](interaction/interaction-integration.md)
     + [匿名インタラクションの管理](interaction/anonymous-interactions.md)
+  + オファーカタログの管理 {#managing-an-offer-catalog}
+    + [オファーの承認と有効化](interaction/approving-and-activating-an-offer.md)
+    + [オファーテンプレートの管理](interaction/managing-offer-templates.md)
+    + [オファープレゼンテーションの管理](interaction/managing-offer-presentation.md)
+  + オファーのシミュレーション {#simulating-offers}
+    + [オファーのシミュレーションについて](interaction/about-offers-simulation.md)
+    + [実行設定](interaction/execution-settings.md)
+    + [シミュレーションのスコープ](interaction/simulation-scope.md)
+    + [シミュレーションのトラッキング](interaction/simulation-tracking.md)
   + [レポートと履歴](interaction/interaction-tracking.md)
   + [ユースケース](interaction/interaction-use-cases.md)
-+ Tracking &amp; Analytics {#analytics}
+  + 事例 {#case-study}
+    + [プレゼンテーションルール](interaction/presentation-rules.md)
+    + [インバウンドチャネルのオファー](interaction/offers-on-an-inbound-channel.md)
+    + [アウトバウンドチャネルのオファー](interaction/offers-on-an-outbound-channel.md)
+  + [詳細設定](interaction/interaction-advanced-settings.md)
+  + 詳細設定パラメーター {#advanced-parameters}
+    + [拡張の例](interaction/extension-example.md)
++ クエリとデータ {#data}
+  + データベースのクエリ {#query}
+    + [クエリエディターの操作](start/query-editor.md)
+    + [クエリの設計](start/design-queries.md)
+    + [フィルター条件の定義](start/filter-conditions.md)
+  + [データのインポート](start/import.md)
++ レポートと追跡 {#analytics}
   + メッセージトラッキング {#tracking}
     + [トラッキングの基本を学ぶ](send/tracking.md)
     + [トラッキング対象リンクの設定](send/tracked-links.md)
@@ -190,13 +240,6 @@ ht-degree: 87%
       + [配信レポート](reporting/delivery-reports.md)
       + [ビルトインの指標の計算](reporting/metrics-calculation.md)
     + [カスタムレポート](reporting/custom-reports.md)
-+ データ管理 {#data}
-  + データベースのクエリ {#query}
-    + [クエリエディターの操作](start/query-editor.md)
-    + [クエリの設計](start/design-queries.md)
-    + [フィルター条件の定義](start/filter-conditions.md)
-  + [データのインポート](start/import.md)
-  + [ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
   + [Campaign をその他のソリューションと接続する](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
@@ -215,6 +258,15 @@ ht-degree: 87%
     + [Campaign と SFDC の連携](connect/ac-sfdc.md)
     + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
     + [データの同期](connect/crm-data-sync.md)
++ 管理と権限 {#permissions}
+  + [権限の基本を学ぶ](start/gs-permissions.md)
+  + [ユーザー権限の管理](start/manage-permissions.md)
+  + [フォルダーに対する権限の追加](start/folder-permissions.md)
+  + [コントロールパネル](config/self-service.md)
++ プライバシーとセキュリティ {#privacy}
+  + [プライバシーリクエストの管理](start/privacy.md)
+  + [セキュリティガイドライン](config/security.md)
+  + [セキュリティ強化アドオン](config/enhanced-security.md)
 + アーキテクチャ {#architecture}
   + [グローバル原則](architecture/general-architecture.md)
   + [アーキテクチャモデル](architecture/architecture.md)

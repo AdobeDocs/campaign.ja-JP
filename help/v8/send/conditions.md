@@ -2,6 +2,7 @@
 title: 条件付きコンテンツ
 description: 条件付きコンテンツの作成方法を学ぶ
 feature: Personalization
+version: Campaign v8, Campaign Classic v7
 role: User
 level: Beginner
 exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
@@ -19,7 +20,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 100%

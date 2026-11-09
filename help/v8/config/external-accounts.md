@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ad8b1536e0bc065131ea64d6778dc18a0f27f04
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2294'
 ht-degree: 39%
@@ -65,7 +65,7 @@ Adobe Campaign **[!UICONTROL エクスプローラー]**&#x200B;から外部ア�
 
 >[!NOTE]
 >
->Microsoft Exchange Online OAuth 2.0認証のPOP3機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)を参照してください。
+>Microsoft Exchange Online OAuth 2.0認証のPOP3機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](../start/compatibility-matrix.md)を参照してください。
 >
 
 **バウンスメール**&#x200B;外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。 POP3 アクセス用に設定されたすべてのサーバーは、返信メールの受信に使用できます。

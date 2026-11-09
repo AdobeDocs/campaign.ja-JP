@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 97%
@@ -126,7 +126,7 @@ ht-degree: 97%
 
    ![](assets/cube-pivot-table-config.png)
 
-   次に、測定のラベルを表示するかどうかを選択できます。 [詳細情報](customize-cubes.md#configure-the-display)。
+   次に、測定のラベルを表示するかどうかを選択できます。 [詳細情報](customize-cubes.md#configuring-the-display)。
 
 1. 既存の測定に基づいて新しい測定を作成できます。 それには、「**[!UICONTROL 測定を作成]**」をクリックし、測定を設定します。
 

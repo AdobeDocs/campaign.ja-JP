@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '4183'
+source-wordcount: '4168'
 ht-degree: 98%
 ---
 # Campaign へのデータの読み込み {#ootb-profiles}
@@ -443,7 +443,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 >[!NOTE]
 >
->コンソールで使用可能なすべてのリストと同様に、デフォルトでは、最初の200行のみが&#x200B;**[!UICONTROL データプレビュー]** ウィンドウに表示されます。 これを変更するには、**[!UICONTROL 表示行数]** ボックスに数値を入力し、**[!UICONTROL データのプレビューを開始]**&#x200B;をクリックします。 [詳細情報](../config/ui-settings.md#manage-and-customize-lists)
+>コンソールで使用可能なすべてのリストと同様に、デフォルトでは、最初の200行のみが&#x200B;**[!UICONTROL データプレビュー]** ウィンドウに表示されます。 これを変更するには、**[!UICONTROL 表示行数]** ボックスに数値を入力し、**[!UICONTROL データのプレビューを開始]**&#x200B;をクリックします。 [詳細情報](../config/ui-settings.md#customize-lists)
 
 アシスタントの下部にあるタブをクリックして、結果のプレビューを列表示から XML に切り替えます。 また、生成された SQL クエリを表示することもできます。
 
@@ -462,7 +462,7 @@ Campaign を使用して web フォームを作成し、プロファイルの情
 
 ![](assets/web-form-page.png)
 
-Web フォームの作成方法について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
+[このセクション &#x200B;](../dev/web/about-web-forms.md)でweb フォームを作成する方法について説明します。
 
 **関連トピック**
 

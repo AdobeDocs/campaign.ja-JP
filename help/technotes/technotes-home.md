@@ -16,9 +16,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 28%
 ---
 # Adobe Campaign v8 のテクニカルノート {#campaign-technotes}
@@ -52,7 +52,7 @@ Starting Campaign v8.6, the authentication process to Campaign v8 is being impro
     <td>
       <img src="../v8/assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>基本を学ぶ</strong><br/><a href="../v8/start/campaign-ui.md"> ユーザーインターフェイス </a> - <a href="../v8/start/ac-components.md"> コンポーネントとプロセス </a> - <a href="../v8/start/v7-to-v8.md">Classic v7からv8</a> - <a href="../v8/start/campaign-faq.md">FAQ</a>
+      <strong>基本を学ぶ</strong><br/><a href="../v8/start/campaign-ui.md"> ユーザーインターフェイス </a> - <a href="../v8/start/ac-components.md"> コンポーネントとプロセス </a> - <a href="../v8/start/v7-to-v8.md">Classic v7からv8</a> - <a href="../v8/start/campaign-faq-comprehensive.md">FAQ</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-experience.svg" width="35px">

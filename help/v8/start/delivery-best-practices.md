@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '3196'
 ht-degree: 92%
@@ -336,7 +336,7 @@ Campaign では、配信テンプレートはデフォルトで&#x200B;**受信�
 
 ### 外部受信者 {#external-recipients}
 
-データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。 詳しくは、[この節](create-message.md#select-external-recipients-selecting-external-recipients)を参照してください。
+データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。 詳しくは、[この節](create-message.md#selecting-external-recipients)を参照してください。
 
 <!--
 ### Send to your subscribers {#send-to-subscribers}
@@ -348,7 +348,7 @@ To send messages to the subscribers of a newsletter, you can directly target the
 
 配信をテストするには、メインターゲットに送信する前に配達確認を使用します。
 
-配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。 配達確認受信者を定義する手順については、[この節](create-message.md#select-the-recipients-of-proof-messages-select-the-proof-target)を参照してください。
+配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。 配達確認受信者を定義する手順については、[この節](create-message.md#select-the-proof-target)を参照してください。
 
 
 ### アドレスの重複排除 {#deduplicate-addresses}

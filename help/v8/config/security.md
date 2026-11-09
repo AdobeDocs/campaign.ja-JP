@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2964'
 ht-degree: 67%
 ---
 # Campaign セキュリティのベストプラクティス {#ac-security}
@@ -158,7 +158,7 @@ Campaign を、[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud オー
 
 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。 したがって、受信者の同意を得てこれを監視することが重要になります。
 
-* 受信者は常に通信の受信に同意するようにします。 これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。 詳しくは、[二重のオプトインを備えた購読フォームの作成](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}を参照してください。
+* 受信者は常に通信の受信に同意するようにします。 これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。 詳しくは、[二重のオプトインを備えた購読フォームの作成](../dev/web/use-cases-web-forms.md)を参照してください。
 * 不正なリストを読み込まず、シードアドレスを使用して、クライアントファイルが不正に使用されていないことを確認してください。 詳しくは、[シードアドレスについて](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}を参照してください。
 * 同意と権限の管理を通じて、受信者の好みを追跡し、組織内の誰がどのデータにアクセスできるかを管理できます。 詳しくは、[この節](#consent)を参照してください。
 * 受信者からのプライバシーリクエストを円滑に処理して管理します。 詳しくは、[この節](#privacy-requests)を参照してください。
@@ -172,7 +172,7 @@ Adobe Campaign では、プライバシー管理に関する様々な機能を�
 * プライバシーリクエスト（アクセスする権利と忘れられる権利）： 詳しくは、[この節](#privacy-requests)を参照してください。
 * 個人情報の販売のオプトアウト（CCPA 固有）：
 
-Campaign の主なプライバシー機能と関与するペルソナの例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
+Campaign の主なプライバシー機能と関与するペルソナの例を[この節](#personal-data)に示します。
 
 ### 同意、保持、役割 {#consent}
 

@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 98%
+source-wordcount: '921'
+ht-degree: 99%
 ---
 # オファーの作成
 
@@ -202,13 +202,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 オファーを承認して有効化すると、**ライブ**&#x200B;環境で利用できるようになります。
 
-詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ja#approving-offer-content){target="_blank"}を参照してください。
+詳しくは、[この節](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
 
 ## オファープレゼンテーションの管理{#offer-presentation}
 
 Campaign では、プレゼンテーションルールを使用してオファーの提案のフローを制御できます。 Campaign インタラクションに固有のこれらのルールを、「**タイポロジルール**」と呼びます。 タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。 ルールは環境内で参照されます。
 
-詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=ja#managing-offers){target="_blank"}を参照してください。
+詳しくは、[この節](managing-offer-presentation.md)を参照してください。
 
 ## オファーのシミュレーション
 
@@ -216,4 +216,4 @@ Campaign では、プレゼンテーションルールを使用してオファ�
 
 シミュレーションでは、オファーやプレゼンテーションルールにあらかじめ適用されているコンテキストと実施要件ルールが考慮されます。 シミュレーションであればターゲットの受信者に影響を与えないので、実際にターゲットにオファーをおこなったり、過剰や過少に勧誘したりしなくても、オファーの提案をさまざまなバージョンでテストして調整できます。
 
-オファーシミュレーションについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=ja){target="_blank"}を参照してください。
+オファーシミュレーションについて詳しくは、[このセクション &#x200B;](about-offers-simulation.md)を参照してください。

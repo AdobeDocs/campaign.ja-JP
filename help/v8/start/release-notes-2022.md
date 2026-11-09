@@ -24,7 +24,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1952'
 ht-degree: 97%
@@ -193,7 +193,7 @@ _2022年5月18日（PT）_
 <tbody> 
 <tr> 
 <td> <p>Apple は iOS 15 で、機密と見なされた通知をリアルタイムでユーザーに連絡する必要がある場合に、フォーカスモードを回避する制御をアプリ開発者に提供する、即時通知の概念を追加しました。</p>
-<p>詳しくは、<a href="../send/push.md#send-notifications-on-ios">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../send/push.md">詳細ドキュメント</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 

@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: リッチプッシュ通知配信の設計
+title: iOS のリッチプッシュ配信の設計
 description: Adobe Campaign web を使用した iOS のリッチプッシュ通知配信の設計方法について説明します。
 feature: Push
 role: User
@@ -25,7 +25,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 100%

@@ -3,6 +3,7 @@ product: campaign
 title: キャンペーンタイポロジの概要
 description: キャンペーンタイポロジを設定および実装する方法について説明します
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 TQID: 'https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU'
 product_v2:
@@ -27,7 +28,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 90%
@@ -67,7 +68,7 @@ Campaign には、デフォルトで一連の&#x200B;**フィルター**&#x200B;
 キャンペーンの最適化アドオンには、さらに 2 種類の&#x200B;**タイポロジルール**&#x200B;が用意されています。
 
 * **頻度**&#x200B;ルール： マーケティング疲労（過剰なマーケティングによる弊害）を抑制します。 [詳細情報](pressure-rules.md)。
-* **処理能力**&#x200B;ルール：最適な処理環境を確保するために、負荷を制限します。 [詳細情報](consistency-rules.md#controlling-capacity)。
+* **処理能力**&#x200B;ルール：最適な処理環境を確保するために、負荷を制限します。 [詳細情報](consistency-rules.md#control-capacity)。
 
 
 >[!NOTE]

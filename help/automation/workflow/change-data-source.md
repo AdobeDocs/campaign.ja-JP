@@ -25,14 +25,14 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 ---
 # データソースを変更 {#change-data-source}
 
-**[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用すると、[ワークフローのワークテーブル](use-workflow-data.md#workflow-temporary-work-table)のデータソースを変更できます。 このアクティビティでは、Federated Data Access（FDA）、Campaign Cloud データベース（FFDA）、Campaign ローカルデータベースなどの様々なデータソースを対象に、より柔軟にデータを管理できます。
+**[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用すると、[ワークフローのワークテーブル](use-workflow-data.md#work-table)のデータソースを変更できます。 このアクティビティでは、Federated Data Access（FDA）、Campaign Cloud データベース（FFDA）、Campaign ローカルデータベースなどの様々なデータソースを対象に、より柔軟にデータを管理できます。
 
 ワークフローの&#x200B;**[!UICONTROL ワークテーブル]**&#x200B;を使用すると、データを処理し、ワークフローアクティビティと共有することができます。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL クエリ]**」アクティビティでターゲット受信者にクエリを実行します。
 
-   「**[!UICONTROL クエリ]**」アクティビティについて詳しくは、[このページ](query.md#create-a-query)を参照してください。
+   「**[!UICONTROL クエリ]**」アクティビティについて詳しくは、[このページ](query.md#creating-a-query)を参照してください。
 
 1. **[!UICONTROL データソースを変更]**&#x200B;アクティビティを追加します。
 

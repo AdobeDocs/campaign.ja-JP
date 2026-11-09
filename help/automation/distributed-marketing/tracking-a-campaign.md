@@ -3,25 +3,26 @@ product: campaign
 title: キャンペーンのトラッキング
 description: Campaign 分散型マーケティングを使用したキャンペーンのトラッキング方法を説明します
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 9904c1c6-c233-4aa2-a237-338ebde15661
 TQID: https://experienceleague.adobe.com/v-ZkfPAMBCbVOb0FheuwmYILdV4uFjbGu6cv2uoKccc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 441
-ht-degree: 89%
-
+source-wordcount: '441'
+ht-degree: 100%
 ---
-
 # キャンペーンのトラッキング{#tracking-a-campaign}
 
 
@@ -37,7 +38,7 @@ ht-degree: 89%
 
 ## パッケージのフィルタリング {#filter-packages}
 
-「**[!UICONTROL キャンペーン]**」タブから、既存のすべての分散型マーケティングキャンペーンを再グループ化した&#x200B;**[!UICONTROL キャンペーンパッケージ]**&#x200B;リストを表示できます。 このリストをフィルタリングして、公開、遅延、承認待ちなどのキャンペーンのみを表示できます。これを行うには、このビューの上部セクションにあるリンクをクリックするか、**[!UICONTROL フィルターリスト]** リンクを使用して、表示するキャンペーンパッケージのステータスを選択します。
+「**[!UICONTROL キャンペーン]**」タブから、既存のすべての分散型マーケティングキャンペーンを再グループ化した&#x200B;**[!UICONTROL キャンペーンパッケージ]**&#x200B;リストを表示できます。 このリストをフィルタリングして、公開済み、遅延、承認待ちなどの状態にあるキャンペーンのみを表示できます。それには、このビューの上部にあるリンクをクリックするか、**[!UICONTROL フィルターリスト]**&#x200B;リンクを使用して、表示するキャンペーンパッケージのステータスを選択します。
 
 ![](assets/mkg_dist_catalog_filter.png)
 

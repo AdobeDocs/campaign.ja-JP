@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして設定する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+>Managed Cloud Services のユーザーとして Campaign トランザクションメッセージをお使いの環境にインストールして設定する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。
 
 ## 権限の定義 {#mc-permissions}
 

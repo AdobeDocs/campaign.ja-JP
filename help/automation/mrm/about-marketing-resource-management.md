@@ -3,6 +3,7 @@ product: campaign
 title: マーケティングリソース管理の基本を学ぶ
 description: マーケティングリソース管理について
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: Admin, User
 exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
 TQID: 'https://experienceleague.adobe.com/pbJIafh8oVqlRrL4IKSmpWWNEx-rLE2fujmzcdKg5WE'
@@ -26,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
