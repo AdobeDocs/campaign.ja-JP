@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Campaign 自動化ガイド
 user-guide-description: Campaign 自動化ガイド
 feature: Overview
-source-git-commit: 7e18801756113db5273f0108447c20d6b3ef85a3
+source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 95%
+source-wordcount: '477'
+ht-degree: 94%
 ---
 
 # Campaign 自動化ガイド {#automation}
@@ -164,4 +164,10 @@ ht-degree: 95%
   + [コストの管理](mrm/controlling-costs.md)
   + [マーケティングリソースの管理](mrm/managing-marketing-resources.md)
   + [ディスカッションフォーラム](mrm/discussion-forums.md)
++ Response manager （アドオン） {#response-manager}
+  + [Response Manager の基本を学ぶ](response/about-response-manager.md)
+  + [Response Managerの設定](response/configure-response-manager.md)
+  + [仮説テンプレート](response/hypothesis-templates.md)
+  + [仮説の作成](response/creating-hypotheses.md)
+  + [仮説のトラッキング](response/hypothesis-tracking.md)
 + [&lt; Campaign v8 ドキュメントに戻る](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)
