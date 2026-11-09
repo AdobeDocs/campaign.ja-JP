@@ -39,7 +39,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
