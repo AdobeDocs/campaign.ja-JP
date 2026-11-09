@@ -134,7 +134,7 @@ ht-degree: 99%
 
 ### トランザクション {#transactions}
 
-このタブには、トランザクションの観点から受信者の反応の履歴を保存できる様々なフィールドとテーブルが含まれています。 応答管理専用のテーブルについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/about-schema-reference){target="_blank"}を参照してください。
+このタブには、トランザクションの観点から受信者の反応の履歴を保存できる様々なフィールドとテーブルが含まれています。 応答管理専用のテーブルについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/about-schema-reference){target="_blank"}を参照してください。
 
 * **[!UICONTROL スキーマ（反応ログストレージ）]**：受信者の反応テーブルを選択します。 Adobe Campaign の組み込みテーブルは、**NmsRemaMatchRcp** です。
 * **[!UICONTROL トランザクションスキーマ]**：仮説で使用するテーブル（トランザクションまたは購入テーブル）を選択します。
