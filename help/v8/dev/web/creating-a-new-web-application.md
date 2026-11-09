@@ -65,7 +65,7 @@ ht-degree: 93%
 
 1. 調査
 
-   **調査マネージャー**&#x200B;オプションを使用すると、Adobe Campaign でオンライン調査を設計および管理して、結果を処理することができます。動的なフィールド作成、スコア管理、回答および専用レポートのエクスポートなどをおこなうことができます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
+   **調査マネージャー**&#x200B;オプションを使用すると、Adobe Campaign でオンライン調査を設計および管理して、結果を処理することができます。動的なフィールド作成、スコア管理、回答および専用レポートのエクスポートなどをおこなうことができます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
    >[!CAUTION]
    >
