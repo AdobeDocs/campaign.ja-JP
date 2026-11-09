@@ -2,6 +2,7 @@
 title: データモデルのベストプラクティス
 description: Adobe Campaign データモデル拡張のベストプラクティスを説明します
 feature: Data Model
+version: Campaign v8, Campaign Classic v7
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
@@ -48,7 +49,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '2782'
 ht-degree: 99%
@@ -256,7 +257,7 @@ Adobe Campaign は、サードパーティのデータベースエンジンを�
 
 * **小さいサイズ**&#x200B;のテーブルは、配信テーブルに似ています。
 * **中程度のサイズ**&#x200B;のテーブルは、受信者テーブルと同じくらいのサイズです。 顧客 1 人につき 1 件のレコードがあります。
-* **大きいサイズ**&#x200B;のテーブルは、広範ログテーブルに似ています。 1 人の顧客につき多くのレコードがあります。
+* **大きいサイズ**のテーブルは、広範ログテーブルに似ています。 1 人の顧客につき多くのレコードがあります。
 例えば、データベースに 1,000 万人の受信者が含まれている場合、広範ログテーブルには 1 億件から 2 億件くらいのメッセージが格納され、配信テーブルには数千件のレコードが格納されます。
 
 行数もパフォーマンスに影響します。 Adobe Campaign データベースは運用データベースであり、ターゲティングやパーソナライゼーションにあまり使用しない履歴データを格納するようには設計されていません。

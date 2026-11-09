@@ -2,6 +2,7 @@
 title: イベントの説明について
 description: SOAP メソッドを使用して、Adobe Campaign Classic でトランザクションメッセージのイベントを管理する方法を学ぶ
 feature: Transactional Messaging
+version: Campaign v8, Campaign Classic v7
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
@@ -23,7 +24,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 100%

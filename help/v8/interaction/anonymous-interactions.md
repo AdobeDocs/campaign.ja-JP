@@ -3,6 +3,7 @@ product: campaign
 title: 匿名プロファイルへのオファーの提示（インバウンドインタラクション）
 description: 匿名プロファイルにオファーを提示する方法を説明します
 feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
 role: User, Admin
 exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
 TQID: 'https://experienceleague.adobe.com/rl7SIcS-OkMmLnxvPiEfjs51xouGSSyLJV4in-vsoCE'
@@ -21,7 +22,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
@@ -48,7 +49,7 @@ ht-degree: 100%
 
 アウトバウンドインタラクションと同様に、インバウンドインタラクションは、カテゴリとオファーで構成されるオファーカタログに整理されます。
 
-カテゴリとスペースを作成するには、識別された訪問者と同じプロセスを適用します。 [オファーカテゴリの作成](interaction-offer-catalog.md#creating-offer-categories)および[オファー環境の作成](interaction-env.md#creating-an-offer-environment)を参照してください。
+カテゴリとスペースを作成するには、識別された訪問者と同じプロセスを適用します。 [オファーカテゴリの作成](interaction-offer-catalog.md#creating-offer-categories)および[オファー環境の作成](interaction-env.md#create-an-offer-environment)を参照してください。
 
 ## 匿名の訪問者 {#anonymous-visitors}
 

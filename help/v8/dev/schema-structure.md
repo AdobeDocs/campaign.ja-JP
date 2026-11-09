@@ -2,6 +2,7 @@
 title: Campaign のスキーマ構造
 description: Campaign のスキーマ構造
 feature: Schema Extension, Configuration, Data Model
+version: Campaign v8, Campaign Classic v7
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
@@ -38,7 +39,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 98%

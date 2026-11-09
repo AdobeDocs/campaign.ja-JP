@@ -2,6 +2,7 @@
 title: Adobe Campaign のビルトインの配信レポート
 description: Adobe Campaign のビルトインの配信レポート
 feature: Reporting
+version: Campaign v8, Campaign Classic v7
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 TQID: 'https://experienceleague.adobe.com/HbBY1Je7EhLl6pGWP83P2YM3sXauOHIS0-SYhCjrU14'
 product_v2:
@@ -22,7 +23,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 97%

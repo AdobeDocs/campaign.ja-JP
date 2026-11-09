@@ -3,6 +3,7 @@ product: campaign
 title: Adobe Campaign のインタラクションのベストプラクティス
 description: Adobe Campaign でインタラクションモジュールを管理するためのベストプラクティスアプローチ
 feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
 role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
 TQID: 'https://experienceleague.adobe.com/OUP5tiLtOXdnbtE-Q-Y673b2sinBqHj3071zUMc23bc'
@@ -24,7 +25,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 99%
