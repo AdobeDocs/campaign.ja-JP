@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 97%
@@ -99,7 +99,7 @@ Adobe Campaign の列挙のすべての値を CRM の値に置き換えること
 
 1. 「**[!UICONTROL 次へ]**」をクリックしてから「**[!UICONTROL 開始]**」をクリックし、列挙のインポートを開始します。
 
-1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、インポートされた値を確認します。 列挙について詳しくは、[このページ](../config/ui-settings.md#enumerations)を参照してください。
+1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、インポートされた値を確認します。 列挙について詳しくは、[このページ](../config/ui-settings.md)を参照してください。
 
 これで Adobe Campaign と Salesforce.com が接続されました。 2 つのシステム間にデータの同期を設定できます。
 
@@ -107,4 +107,4 @@ Adobe Campaign データと SFDC の間でデータを同期させるには、�
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-キャンペーン [の列挙管理について詳しくは、このページ &#x200B;](../config/enumerations.md)を参照してください。
+キャンペーン [の列挙管理について詳しくは、このページ ](../config/enumerations.md)を参照してください。

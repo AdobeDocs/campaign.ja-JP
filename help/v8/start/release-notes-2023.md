@@ -38,16 +38,16 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 95%
 ---
 # 2023 リリースノート {#2023-rn}
 
-このページには、**Campaign v8 2023 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ &#x200B;](release-notes.md)を参照してください。
+このページには、**Campaign v8 2023 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ ](release-notes.md)を参照してください。
 
-新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース &#x200B;](release-notes.md)をインストールします。
+新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース ](release-notes.md)をインストールします。
 
 
 >[!BEGINSHADEBOX]
@@ -109,14 +109,14 @@ Campaign v8.5.1 では、最新の最先端テクノロジーに基づいて作�
 
 **セキュリティ機能の強化**
 
-* Campaign v8.5.1 では、Campaign v8 への認証プロセスが改善され、セキュリティが強化されました。 テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。 既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
-* 今後の v8.6 以降、Campaign クライアントコンソールからオペレーターを作成できなくなります。 ログイン／パスワードのネイティブ認証を使用している場合は、オペレーターを Adobe Identity Management System（IMS）に移行する必要があります。 オペレーターを移行する方法については、[このテクニカルノート](../../technotes/upgrades/migrate-users-to-ims.md)を参照してください。
+* Campaign v8.5.1 では、Campaign v8 への認証プロセスが改善され、セキュリティが強化されました。 テクニカルオペレーターは、Adobe ID 管理システム（IMS）を使用して Campaign に接続する必要があります。 既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
+* 今後の v8.6 以降、Campaign クライアントコンソールからオペレーターを作成できなくなります。 ログイン／パスワードのネイティブ認証を使用している場合は、オペレーターを Adobe ID 管理システム（IMS）に移行する必要があります。 オペレーターを移行する方法については、[このテクニカルノート](../../technotes/upgrades/migrate-users-to-ims.md)を参照してください。
 * セキュリティを最適化するために、複数のサードパーティツールを更新しています。
 
 **互換性のアップデート**
 
 * クライアントコンソールの 32 ビットバージョンは、非推奨（廃止予定）となりました。 8.6 以降、クライアントコンソールは 64 ビットでのみ使用できます。 クライアントコンソールの 64 ビットバージョンへのアップグレードはシームレスです。 オペレーティングシステムのアップグレード方法について詳しくは、この[テクニカルノート](../../technotes/upgrades/console.md)を参照してください。
-* Campaign v8 インスタンスを Azure Synapse 外部データベースに接続できるようになりました。 この接続は、新しい外部アカウントで管理します。 詳しくは、[Campaign 互換性マトリックス](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda)を参照してください。
+* Campaign v8 インスタンスを Azure Synapse 外部データベースに接続できるようになりました。 この接続は、新しい外部アカウントで管理します。 詳しくは、[Campaign 互換性マトリックス](../start/compatibility-matrix.md#FederatedDataAccessFDA)を参照してください。
 
 
 **修正点**

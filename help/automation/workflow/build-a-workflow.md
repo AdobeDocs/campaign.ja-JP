@@ -10,19 +10,19 @@ TQID: https://experienceleague.adobe.com/EzHUErLy7-OcfF0lxH4UHXm1N1HYGt6kP9Io1LI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: '875'
 ht-degree: 100%
-
 ---
-
 # ワークフローの作成 {#build-a-workflow}
 
 ## 新しいワークフローの作成 {#create-a-new-workflow}
@@ -96,8 +96,8 @@ ht-degree: 100%
 
   進行状況とログの表示に関連するアイコンについて詳しくは、以下の節を参照してください。
 
-   * [進行状況を表示](monitor-workflow-execution.md#displaying-progress)
-   * [ログの表示](monitor-workflow-execution.md#displaying-logs)
+  * [進行状況を表示](monitor-workflow-execution.md#displaying-progress)
+  * [ログの表示](monitor-workflow-execution.md#displaying-logs)
 
 * **オブジェクトの整列**
 

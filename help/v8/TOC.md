@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 9b9c573de6120f4b3da0d5eee98192b56b4754df
+source-git-commit: a4655bbf4566da21f097ae1106212c55965ef1bd
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '881'
 ht-degree: 87%
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + リリースノート {#releases}
-  + {hide-from-toc}[早期リリースノート &#x200B;](start/e-release-notes.md)
+  + {hide-from-toc}[早期リリースノート ](start/e-release-notes.md)
   + [バージョンとアップグレード](start/upgrades.md)
   + [最新リリース](start/release-notes.md)
   + 以前のリリース {#previous-rn}
@@ -37,8 +37,7 @@ ht-degree: 87%
   + [Campaign Classic v7 から v8 へ](start/v7-to-v8.md)
   + [Campaign Standard から v8 へ](start/acs-to-v8.md)
   + [よくある質問](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc}[よくある質問](start/campaign-faq.md)
-  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](start/cnil-pixel-tracking.md)
+  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス ](start/cnil-pixel-tracking.md)
 + メッセージ {#send}
   + [メッセージの基本を学ぶ](start/gs-message.md)
   + [最初の配信の作成](start/create-message.md)
@@ -158,6 +157,7 @@ ht-degree: 87%
     + [匿名インタラクションの管理](interaction/anonymous-interactions.md)
   + [レポートと履歴](interaction/interaction-tracking.md)
   + [ユースケース](interaction/interaction-use-cases.md)
+  + [詳細設定](interaction/interaction-advanced-settings.md)
 + クエリとデータ {#data}
   + データベースのクエリ {#query}
     + [クエリエディターの操作](start/query-editor.md)
@@ -234,7 +234,7 @@ ht-degree: 87%
     + [フォルダーとビューの管理](audiences/folders-and-views.md)
     + [列挙の操作](config/enumerations.md)
     + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ &#x200B;](config/push-config.md)
+    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ ](config/push-config.md)
     + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
   + [Campaign データモデル](dev/datamodel.md)
@@ -253,7 +253,7 @@ ht-degree: 87%
     + [入力フォーム](dev/forms.md)
   + [データパッケージの使用](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[queryDefを使用してデータベースをクエリします](dev/query-api.md)
+  + {hide-from-toc}[queryDef](dev/query-api.md)を使用してデータベースをクエリします
   + REST API {#apis}
     + [REST APIの基本を学ぶ](dev/api/get-started-apis.md)
     + [推奨事項と制限事項](dev/api/limitations.md)

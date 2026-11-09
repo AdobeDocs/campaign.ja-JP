@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '1836'
-ht-degree: 94%
+source-wordcount: '1840'
+ht-degree: 93%
 ---
 # Campaign と Adobe Analytics の操作 {#ac-aa}
 
@@ -49,7 +49,7 @@ Adobe Analytics を設定して、Campaign と Analytics を統合できます�
 
 >[!NOTE]
 >
->Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。 専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
+>Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。 専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
 
 Adobe Analytics Connector を使用すると、Adobe Campaign はインターネットのオーディエンスを測定できます（Web 分析）。 Web 分析ツールを使用すると、Adobe Campaign は指標とキャンペーン属性を Analytics に転送できます。
 
@@ -85,7 +85,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. **[!UICONTROL レポートスイートマネージャー]**&#x200B;ページで、「**[!UICONTROL 新規作成]**」、「**[!UICONTROL レポートスイート]**」の順にクリックします。
 
-   **[!UICONTROL レポートスイート]**&#x200B;の作成に関する手順について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=ja#prerequisites){target="_blank"}を参照してください。
+   **[!UICONTROL レポートスイート]**&#x200B;の作成に関する手順について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}を参照してください。
 
    ![](assets/analytics_connnector_3.png)
 
@@ -175,7 +175,7 @@ Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを�
 
 外部アカウントの設定時に&#x200B;**[!UICONTROL レポートスイート]**、**[!UICONTROL コンバージョン変数]**、**[!UICONTROL 成功イベント]**&#x200B;のいずれかが表示されない場合は、新しく作成したコンポーネントに対する権限が、ユーザーに関連付けられた&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;にないことをい意味します。
 
-詳しくは、 [&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"}Adobe Analytics の製品プロファイルのページを参照してください。
+詳しくは、 ](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=ja#product-profile-admins){target="_blank"}Adobe Analytics の製品プロファイル[のページを参照してください。
 
 1. Adobe Campaign エクスプローラーツリーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;フォルダーに移動して、「**[!UICONTROL 新規]**」をクリックします。
 

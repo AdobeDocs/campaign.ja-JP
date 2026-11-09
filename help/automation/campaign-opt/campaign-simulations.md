@@ -3,6 +3,7 @@ product: campaign
 title: キャンペーンシミュレーションの基本を学ぶ
 description: キャンペーンのシミュレーションの設定方法を学ぶ
 feature: Campaigns
+version: Campaign v8, Campaign Classic v7
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
 TQID: 'https://experienceleague.adobe.com/U78259I0GrAXCvnDrUCP-RyQZ-caoY0fjWndcONm5EQ'
 product_v2:
@@ -20,7 +21,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 100%

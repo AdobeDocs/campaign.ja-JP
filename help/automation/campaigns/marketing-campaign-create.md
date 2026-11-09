@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 91%
@@ -119,11 +119,11 @@ ht-degree: 91%
 
 キャンペーンごとに、次の機能を使用できます。
 
-* ドキュメントとリソースの参照：ドキュメント（概要、レポート、画像など）とキャンペーンを関連付けることができます。 あらゆるドキュメントフォーマットをサポートしています。 [詳細情報](marketing-campaign-deliveries.md#manage-associated-documents)。
-* コストの定義：Adobe Campaign では、キャンペーンごとに、コストエントリと、マーケティングキャンペーン作成時に使用できるコスト計算構造を定義できます。 例：印刷コスト、外部代理店の使用、部屋レンタルなど[詳細情報](providers-stocks-and-budgets.md#defining-cost-categories)。
+* ドキュメントとリソースの参照：ドキュメント（概要、レポート、画像など）とキャンペーンを関連付けることができます。 あらゆるドキュメントフォーマットをサポートしています。 [詳細情報](marketing-campaign-deliveries.md)。
+* コストの定義：Adobe Campaign では、キャンペーンごとに、コストエントリと、マーケティングキャンペーン作成時に使用できるコスト計算構造を定義できます。 例：印刷コスト、外部代理店の使用、部屋レンタルなど[詳細情報](providers-stocks-and-budgets.md#define-cost-categories)。
 * 目的の定義：購読者数や取引量など、キャンペーンの定量化可能な目標を定義できます。この情報は、後でキャンペーンレポートで使用されます。
-* シードアドレスとコントロール母集団を管理します。 [詳細情報](marketing-campaign-deliveries.md#defining-a-control-group)。
-* 承認の管理：承認を得る処理や、必要に応じてレビュー担当のオペレーターまたはオペレーターのグループを選択できます。 [詳細情報](marketing-campaign-approval.md#checking-and-approving-deliveries)。
+* シードアドレスとコントロール母集団を管理します。 [詳細情報](marketing-campaign-deliveries.md)。
+* 承認の管理：承認を得る処理や、必要に応じてレビュー担当のオペレーターまたはオペレーターのグループを選択できます。 [詳細情報](marketing-campaign-approval.md#review-and-approve-deliveries)。
 
 >[!NOTE]
 >
@@ -133,7 +133,7 @@ ht-degree: 91%
 
 キャンペーンごとに、ジョブ、リソースおよび配信をダッシュボードで一元管理します。 このインターフェイスでは、マーケティングアクションを管理および調整できます。
 
-Adobe Campaignでは、予算、目標、コンテンツの承認など、キャンペーンのさまざまなステップを作成および承認するための共同作業プロセスを設定できます。このオーケストレーションについて詳しくは、[このセクション &#x200B;](marketing-campaign-approval.md)を参照してください。
+Adobe Campaignでは、予算、目標、コンテンツの承認など、キャンペーンのさまざまなステップを作成および承認するための共同作業プロセスを設定できます。このオーケストレーションについて詳しくは、[このセクション ](marketing-campaign-approval.md)を参照してください。
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
@@ -218,11 +218,11 @@ Adobe Campaignでは、予算、目標、コンテンツの承認など、キャ
 
 ![](assets/web-access-approval.png)
 
-通知メッセージに含まれるリンクを使用することもできます。 詳しくは、[この節](marketing-campaign-approval.md#checking-and-approving-deliveries)を参照してください。
+通知メッセージに含まれるリンクを使用することもできます。 詳しくは、[この節](marketing-campaign-approval.md#review-and-approve-deliveries)を参照してください。
 
 
 ## チュートリアルビデオ {#video}
 
 このビデオでは、マーケティングプラン、プログラム、キャンペーンなどの作成方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449894?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

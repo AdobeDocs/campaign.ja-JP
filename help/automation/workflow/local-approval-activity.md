@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 100%
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 データ配分テンプレートを使用すると、ターゲティングによって生じる母集団の数をデータのグループ別に制限できるほか、個々の値をローカルのスーパーバイザーに割り当てることが可能です。 この例では、配分フィールドとして「**[!UICONTROL メールアドレスドメイン]**」フィールドを定義し、各ローカルスーパーバイザーにドメインを割り当てています。
 
-データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
+データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limit-the-number-of-subset-records-per-data-distribution)を参照してください。
 
 1. データ配分テンプレートを作成するには、**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;の順にノードを移動し、「**[!UICONTROL 新規]**」をクリックします。
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
 上流のターゲティングは、2 つのクエリ、1 つの積集合、1 つの分割で構成されます。 データ配分テンプレートを使用する&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティでは、ターゲティングによって生じる母集団の数を制限することができます。
 
-分割アクティビティの設定について詳しくは、[分割](split.md)を参照してください。 データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limiting-the-number-of-subset-records-per-data-distribution)を参照してください。
+分割アクティビティの設定について詳しくは、[分割](split.md)を参照してください。 データ配分テンプレートの作成について詳しくは、[データ配分ごとのサブセットレコード数の制限](split.md#limit-the-number-of-subset-records-per-data-distribution)を参照してください。
 
 クエリによる母集団の数を制限しない場合は、「**[!UICONTROL クエリ]**」、「**[!UICONTROL 積集合]**」、および「**[!UICONTROL 分割]**」アクティビティを使用する必要はありません。 このケースでは、1 つ目の「**[!UICONTROL ローカルの承認]**」アクティビティで、データ配分テンプレートの作成を完了させます。
 

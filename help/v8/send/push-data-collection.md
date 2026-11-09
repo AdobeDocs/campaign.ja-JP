@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign を使用したプッシュ通知の送信
+title: データ収集によるプッシュ通知の設定
 description: Campaign におけるプッシュ通知の概要
 feature: Push
 role: Developer
@@ -23,7 +23,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 94%
@@ -102,7 +102,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
 
-1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 

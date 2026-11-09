@@ -27,7 +27,7 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1687'
 ht-degree: 95%
@@ -39,7 +39,7 @@ ht-degree: 95%
 ## クエリを作成します。 {#creating-a-query}
 
 クエリを使用すると、条件に応じてターゲットを選択できます。 セグメントコードをクエリの結果に関連付け、結果に追加データを挿入することができます。
-[このセクション &#x200B;](querying-recipient-table.md)で、ユースケースを通じてクエリを作成する方法について説明します。 [&#x200B; クエリエディター](../../v8/start/query-editor.md)に関する節も参照してください。
+[このセクション ](querying-recipient-table.md)で、ユースケースを通じてクエリを作成する方法について説明します。 [ クエリエディター](../../v8/start/query-editor.md)に関する節も参照してください。
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
@@ -105,10 +105,10 @@ Adobe Campaign データベースからデータを追加するには：
 
    以下を追加できます。
 
-   * ターゲット母集団から取り出したデータに基づいて自動生成されるフィールド、または集計（先月の保留中の購入の件数、レシートの平均額など）。 一例は、[データの選択](targeting-workflows.md#selecting-data)を参照してください。
+   * ターゲット母集団から取り出したデータに基づいて自動生成されるフィールド、または集計（先月の保留中の購入の件数、レシートの平均額など）。 一例は、[データの選択](targeting-workflows.md)を参照してください。
    * 出力列のリストの右側にある「**[!UICONTROL 新規]**」ボタンを使用して作成された新規フィールド。
 
-     例えば、契約者のリスト、最新 5 回の配達といった情報コレクションを追加することもできます。コレクションは、同じプロファイルで複数の値を持つことができるフィールドと一致します（1-N 関係）。 詳しくは、[追加データの編集](targeting-workflows.md#editing-additional-data)を参照してください。
+     例えば、契約者のリスト、最新 5 回の配達といった情報コレクションを追加することもできます。コレクションは、同じプロファイルで複数の値を持つことができるフィールドと一致します（1-N 関係）。 詳しくは、[追加データの編集](targeting-workflows.md#edit-additional-data)を参照してください。
 
 ターゲット母集団にリンクされたデータコレクションを追加するには：
 
@@ -222,7 +222,7 @@ Adobe Campaign データベースからデータを追加するには：
 
 `select iRecipientId from nmsRecipient INNER JOIN nmsBroadLog ON (...)`
 
-フィルタリングディメンションについて詳しくは、[この節](build-a-workflow.md#targeting-and-filtering-dimensions)を参照してください。
+フィルタリングディメンションについて詳しくは、[この節](build-a-workflow.md)を参照してください。
 
 ### アーキテクチャ {#architecture}
 

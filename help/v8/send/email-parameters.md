@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 66%
@@ -87,11 +87,11 @@ ht-degree: 66%
 
 ![](assets/email-smtp-bounce.png)
 
-バウンスメールの管理について詳しくは、[この節](delivery-failures.md#bounce-mail-management)を参照してください。
+バウンスメールの管理について詳しくは、[この節](delivery-failures.md#bounce-mail-qualification)を参照してください。
 
 ## ワンクリックでリスト登録解除を有効にする {#one-click-list-unsubscribe}
 
-ワンクリックのリスト登録解除URLは、メール送信者情報の横に表示されるリンクまたはボタンです。これにより、受信者は、ワンクリックですばやくメーリングリストをオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}-->
+ワンクリックのリスト登録解除URLは、メール送信者情報の横に表示されるリンクまたはボタンです。これにより、受信者は、ワンクリックですばやくメーリングリストをオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
 ISPのメールインターフェイスに&#x200B;**登録解除** リンクとして表示されます。 例：
 
@@ -131,7 +131,7 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 
 >[!NOTE]
 >
->[One-Click List-Unsubscribe](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}および[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud [配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}を参照してください。
+>[One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}および[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud [配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}を参照してください。
 
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}

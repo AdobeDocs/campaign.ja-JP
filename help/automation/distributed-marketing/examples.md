@@ -3,12 +3,15 @@ product: campaign
 title: 分散型マーケティングのサンプル
 description: 分散型マーケティングのサンプル
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 TQID: https://experienceleague.adobe.com/fCNtLvuBs2xnlBx-Eu-6AIDkle5YpR0z9pecVRJJbQA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -17,13 +20,11 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 1375
+source-wordcount: '1375'
 ht-degree: 100%
-
 ---
-
 # 分散型マーケティングのサンプル{#distributed-marketing-samples}
 
 

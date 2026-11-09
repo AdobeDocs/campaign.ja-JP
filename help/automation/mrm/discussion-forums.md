@@ -3,6 +3,7 @@ product: campaign
 title: ディスカッションフォーラム
 description: Campaign ディスカッションフォーラムの利用方法を説明します
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
 TQID: 'https://experienceleague.adobe.com/I855vY4L1Lz8qBtecg-bvTf-Rh2ci6Wd8MCsKJ7UqVo'
@@ -27,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%

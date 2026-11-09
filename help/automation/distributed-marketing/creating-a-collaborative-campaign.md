@@ -3,12 +3,15 @@ product: campaign
 title: 共同キャンペーンの作成
 description: 共同キャンペーンの作成方法を学ぶ
 feature: Distributed Marketing
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
 TQID: https://experienceleague.adobe.com/UrdZY0sxtcDwZZd5sfgOcsyCKn1lQ8tIs8UlS8rHV4Y
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -20,18 +23,16 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 990
+source-wordcount: '990'
 ht-degree: 100%
-
 ---
-
 # 共同キャンペーンの作成{#creating-a-collaborative-campaign-intro}
 
 
 
-セントラルエンティティは、**分散型マーケティング**&#x200B;のキャンペーンテンプレートから協調キャンペーンを作成します。 [このページ](about-distributed-marketing.md#collaborative-campaign)を参照してください。
+セントラルエンティティは、**分散型マーケティング**&#x200B;のキャンペーンテンプレートから協調キャンペーンを作成します。 [このページ](about-distributed-marketing.md)を参照してください。
 
 ## 共同キャンペーンの作成 {#creating-a-collaborative-campaign}
 

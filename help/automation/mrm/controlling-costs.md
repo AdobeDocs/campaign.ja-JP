@@ -3,6 +3,7 @@ product: campaign
 title: コスト管理
 description: コスト管理の方法を説明します
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
 TQID: 'https://experienceleague.adobe.com/OQtmoiTmvFeWbYfLNpjuk5FZLb2Si-mPBbMNMWnDGoo'
@@ -26,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '2499'
 ht-degree: 100%

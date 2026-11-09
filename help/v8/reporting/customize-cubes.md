@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 96%
@@ -133,7 +133,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 ビニング用に確保される他の列挙を作成し、それらを他のキューブで使用できます。最初の列挙タブで指定された bin に、すべてのエイリアス値がグループ化し直されます。
 
-列挙について詳しくは、[このページ](../../v8/config/ui-settings.md#enumerations)を参照してください。
+列挙について詳しくは、[このページ](../../v8/config/ui-settings.md)を参照してください。
 
 ## キューブの集計 {#calculate-and-use-aggregates}
 

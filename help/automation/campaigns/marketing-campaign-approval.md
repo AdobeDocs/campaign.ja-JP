@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '2457'
 ht-degree: 99%
@@ -121,7 +121,7 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
 ダイレクトメール配信の場合、Adobe Campaign のオペレーターは、抽出ファイルを発送担当に送信する前に確認できます。また、必要に応じてフォーマットを変更し、抽出を再開できます。 [詳細情報](#approve-an-extraction-file)。
 
-この検証フェーズが完了したら、配信を開始できます。 [詳細情報](marketing-campaign-deliveries.md#starting-a-delivery)。
+この検証フェーズが完了したら、配信を開始できます。 [詳細情報](marketing-campaign-deliveries.md#start-a-delivery)。
 
 >[!NOTE]
 >

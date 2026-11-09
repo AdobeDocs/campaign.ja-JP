@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -91,7 +91,7 @@ Adobe.ioが無効なURIを宣言します。リクエストしているURIが無
 
 * **作成後にプロファイルが表示されない**
 
-インスタンス設定に応じて、作成したプロファイルを&#x200B;**orgUnit**&#x200B;に関連付ける必要があります。 このフィールドを作成に追加する方法については、[このセクション &#x200B;](creating-profiles-api.md)を参照してください。
+インスタンス設定に応じて、作成したプロファイルを&#x200B;**orgUnit**&#x200B;に関連付ける必要があります。 このフィールドを作成に追加する方法については、[このセクション ](creating-profiles-api.md)を参照してください。
 
 <!--
  * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)

@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 98%
@@ -46,7 +46,7 @@ Campaign と Target を接続すると、Adobe Target からのオファーを A
 >[!NOTE]
 >* この統合では、静的画像のみをサポートします。 その他のタイプのコンテンツはパーソナライズできません。
 >
->* Managed Cloud Services ユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq.md#support)ください。
+>* Managed Cloud Services ユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。
 
 Adobe Target では、次の種類のデータを使用できます。
 
@@ -99,7 +99,7 @@ Adobe Campaign では、2 通りの方法で Target からメールに動的イ�
 * **[!UICONTROL ランディングページ]**&#x200B;は、デフォルト画像からリダイレクトされて開くデフォルトのページです。 この URL は、デフォルト画像が最終的なメールに表示される場合にのみ適用されます。 これはオプションです。
 * **[!UICONTROL 追加の決定パラメーター]**&#x200B;は、Adobe Target セグメントで定義されたフィールドと Adobe Campaign のフィールドとのマッピングを指定します。 使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。 この例では、「国」フィールドを追加しています。
 
-Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。 Target Enterprise権限について詳しくは、[Adobe Target ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}を参照してください。
+Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。 Target Enterprise権限について詳しくは、[Adobe Target ドキュメント ](https://experienceleague.adobe.com/ja/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}を参照してください。
 
 ![](assets/target_13.png)
 
@@ -119,7 +119,7 @@ Adobe Target では、オファーのさまざまなバージョンを作成で�
 
    ![](assets/target_6.png)
 
-1. 残りのリダイレクトオファーについても同じ手順を繰り返します。 詳しくは、この[Adobe Target ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja#experiences){target="_blank"}を参照してください。
+1. 残りのリダイレクトオファーについても同じ手順を繰り返します。 詳しくは、この[Adobe Target ドキュメント ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja#experiences){target="_blank"}を参照してください。
 
 ### オーディエンスの作成 {#audiences-target}
 

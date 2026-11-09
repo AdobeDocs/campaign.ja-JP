@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 すべての承認が許可されたら、配信ステータスが&#x200B;**[!UICONTROL 抽出保留]**&#x200B;に変わります。 抽出ファイルは専用の[テクニカルワークフロー](../workflow/technical-workflows.md)で作成されます。このワークフローは、デフォルト設定では、ダイレクトメール配信が抽出保留の場合に自動的に開始されます。 プロセスが進行中の場合、ダッシュボードに表示され、リンクから編集できます。
 
-抽出ワークフローが正常に実行されたら、抽出ファイルを承認する必要があります（配信設定で抽出ファイルの承認が選択されている場合）。 [詳細情報](marketing-campaign-approval.md#approving-an-extraction-file)。
+抽出ワークフローが正常に実行されたら、抽出ファイルを承認する必要があります（配信設定で抽出ファイルの承認が選択されている場合）。 [詳細情報](marketing-campaign-approval.md#approve-an-extraction-file)。
 
 コンテンツを検証しファイルをプロバイダーに送信するには、次の手順に従います。
 

@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
@@ -42,4 +42,3 @@ ht-degree: 100%
 * **[テスト](test.md)**：テスト結果に基づくトランジションを有効にします。
 * **[時間制限](time-constraint.md)**：一定時間タスクを一時停止します。
 * **[待機](wait.md)**：所定の制限時間経過後にアウトバウンドトランジションを有効にします。
-  <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

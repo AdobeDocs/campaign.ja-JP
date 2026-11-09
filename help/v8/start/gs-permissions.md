@@ -26,7 +26,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
@@ -73,7 +73,7 @@ Admin Console を使用して、ユーザーの追加と製品プロファイル
 
 Admin Console では、Campaign の各 Adobe Experience Cloud **製品プロファイル**&#x200B;は、Campaign クライアントコンソールの&#x200B;**オペレーターグループ**&#x200B;に関連付けられています。
 
-製品プロファイルを作成して割り当てる方法については、[このページ](manage-permissions.md#create-a-product-profile)を参照してください。
+製品プロファイルを作成して割り当てる方法については、[このページ](manage-permissions.md#create-product-profile)を参照してください。
 
 ## Campaign ネームド権限{#named-rights}
 

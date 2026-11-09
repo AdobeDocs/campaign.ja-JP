@@ -28,7 +28,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
@@ -37,11 +37,11 @@ ht-degree: 100%
 
 ランディングページは、特定のマーケティング目標を持って設計された専用の web ページです。 訪問者は通常、メールや、ソーシャルメディアへの投稿、あるいは検索エンジンの結果内のリンクをクリックした後、ランディングページにたどり着きます。 一般的な web サイトのページとは異なり、ランディングページは、購入、サービスの購読／購読解除、リソースのダウンロードなど、明確に定義された単一のアクションの推進に焦点を当てています。 Adobe Campaign では、ランディングページを作成し、データを更新したり、通信の受信をオプトイン／オプトアウトしたり、ニュースレターなどの特定のサービスを購読したりできるオンラインフォームへとユーザーを誘導します。
 
-ランディングページを作成するには、[web ユーザーインターフェイス](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui)を参照してください。 Adobe Campaign には、web ユーザーインターフェイスでのみ使用る、ランディングページ向けの刷新されたユーザーエクスペリエンスが備わっています。
+ランディングページを作成するには、[web ユーザーインターフェイス](../start/campaign-ui.md#ac-web-ui)を参照してください。 Adobe Campaign には、web ユーザーインターフェイスでのみ使用る、ランディングページ向けの刷新されたユーザーエクスペリエンスが備わっています。
 
 >[!AVAILABILITY]
 >
->* Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+>* Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 >
 >* Campaign web ユーザーインターフェイスで作成するランディングページは、Campaign クライアントコンソールで表示または編集できません。
 >

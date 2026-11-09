@@ -5,31 +5,28 @@ type: Event
 title: Adobe Campaign のテクニカルノート
 description: Campaign のテクニカルノート
 breadcrumb-title: Campaign のテクニカルノート
-source-git-commit: 25ce962e7c8b6a62fc2c1edb08a78afa839d264e
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 47%
-
+source-wordcount: '82'
+ht-degree: 51%
 ---
-
 
 # Adobe Campaign のテクニカルノート {#technotes-ac}
 
 + [Campaign のテクニカルノート](technotes-home.md)
 + アップグレード回数{#tn-new}
-   + {hide-from-toc}[プッシュ通知チャネルの変更](upgrades/push-technote.md)
-   + [ユーザーを IMS へ移行](upgrades/migrate-users-to-ims.md)
-   + [テクニカルオペレーターを Developer Console へ移行](upgrades/ims-migration.md)
-   + {hide-from-toc}[&#x200B; テクニカルオペレーターをDeveloper Consoleに移行](upgrades/ims-migration-old.md)
-   + [新しいSMS コネクタに移動](upgrades/sms-migration.md)
-   + {hide-from-toc}[Campaignがインフラストラクチャの移行をAWSに送信しています](upgrades/migrate-to-aws.md)
-   + {hide-from-toc}[Campaign電子メール送信インフラストラクチャのアップグレード &#x200B;](upgrades/upgrade-to-aws.md)
-   + {hide-from-toc}[Apache バージョンのアップグレード &#x200B;](upgrades/apache.md)
-   + {hide-from-toc}[&#x200B; インターネットブラウザー](upgrades/browsers.md)
-   + {hide-from-toc}[2023 年のシステムアップグレード](upgrades/tech-stack-upgrade.md)
-   + {hide-from-toc}[&#x200B; クライアントコンソール 32 ビットの非推奨化](upgrades/console.md)
-   + [64 ビットスキーマ](upgrades/64-bit-tables.md)
-   + セキュリティ {#security}
-      + {hide-from-toc}[顧客資格情報のローテーション &#x200B;](security/credential-rotation-guide.md)
-      + {hide-from-toc}[非対称の暗号化](security/asymetric-encryption.md)
+  + {hide-from-toc}[プッシュ通知チャネルの変更](upgrades/push-technote.md)
+  + [ユーザーを IMS へ移行](upgrades/migrate-users-to-ims.md)
+  + [テクニカルオペレーターを Developer Console へ移行](upgrades/ims-migration.md)
+  + [新しいSMS コネクタに移動](upgrades/sms-migration.md)
+  + {hide-from-toc}[Campaignがインフラストラクチャの移行をAWSに送信しています](upgrades/migrate-to-aws.md)
+  + {hide-from-toc}[Campaign電子メール送信インフラストラクチャのアップグレード ](upgrades/upgrade-to-aws.md)
+  + {hide-from-toc}[Apache バージョンのアップグレード ](upgrades/apache.md)
+  + {hide-from-toc}[ インターネットブラウザー](upgrades/browsers.md)
+  + {hide-from-toc}[2023 年のシステムアップグレード](upgrades/tech-stack-upgrade.md)
+  + {hide-from-toc}[ クライアントコンソール 32 ビットの非推奨化](upgrades/console.md)
+  + [64 ビットスキーマ](upgrades/64-bit-tables.md)
+  + セキュリティ {#security}
+    + {hide-from-toc}[顧客資格情報のローテーション ](security/credential-rotation-guide.md)
+    + {hide-from-toc}[非対称の暗号化](security/asymetric-encryption.md)
 + [&lt; Campaign v8 ドキュメントに戻る](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)
