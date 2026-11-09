@@ -85,7 +85,7 @@ Campaign と Analytics の接続を設定するには、次の操作を実行す
 
 1. **[!UICONTROL レポートスイートマネージャー]**&#x200B;ページで、「**[!UICONTROL 新規作成]**」、「**[!UICONTROL レポートスイート]**」の順にクリックします。
 
-   **[!UICONTROL レポートスイート]**&#x200B;の作成に関する手順について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}を参照してください。
+   **[!UICONTROL レポートスイート]**&#x200B;の作成に関する手順について詳しくは、[Adobe Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}を参照してください。
 
    ![](assets/analytics_connnector_3.png)
 
