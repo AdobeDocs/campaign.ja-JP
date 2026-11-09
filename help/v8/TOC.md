@@ -5,17 +5,17 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: a4655bbf4566da21f097ae1106212c55965ef1bd
+source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 87%
+source-wordcount: '921'
+ht-degree: 88%
 ---
 
 # Adobe Campaign v8（コンソール）ドキュメント {#campaign-v8}
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + リリースノート {#releases}
-  + {hide-from-toc}[早期リリースノート &#x200B;](start/e-release-notes.md)
+  + {hide-from-toc}[早期リリースノート ](start/e-release-notes.md)
   + [バージョンとアップグレード](start/upgrades.md)
   + [最新リリース](start/release-notes.md)
   + 以前のリリース {#previous-rn}
@@ -37,7 +37,7 @@ ht-degree: 87%
   + [Campaign Classic v7 から v8 へ](start/v7-to-v8.md)
   + [Campaign Standard から v8 へ](start/acs-to-v8.md)
   + [よくある質問](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](start/cnil-pixel-tracking.md)
+  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス ](start/cnil-pixel-tracking.md)
 + メッセージ {#send}
   + [メッセージの基本を学ぶ](start/gs-message.md)
   + [最初の配信の作成](start/create-message.md)
@@ -133,6 +133,15 @@ ht-degree: 87%
 + ランディングページとフォーム {#content}
   + [ランディングページの作成](dev/landing-pages.md)
   + [Web アプリとフォームのデザイン](dev/webapps.md)
+  + 調査 {#surveys}
+    + [調査の基本を学ぶ](dev/surveys/about-surveys.md)
+    + [調査を作成するための主な手順](dev/surveys/getting-started-with-surveys.md)
+    + [調査の設計](dev/surveys/building-a-survey.md)
+    + [回答の管理](dev/surveys/managing-answers.md)
+    + [収集したデータの公開、トラッキングおよび使用](dev/surveys/publish-track-and-use-collected-data.md)
+    + [調査の設定](dev/surveys/configuring-surveys.md)
+    + [ユースケース：リファラルフォームの作成](dev/surveys/use-case-creating-a-refer-a-friend-form.md)
+    + [ユースケース：オンライン調査への回答に関するレポートの表示](dev/surveys/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + キャンペーン {#campaigns}
   + [キャンペーンの基本を学ぶ](start/campaigns.md)
   + [キャンペーンオーケストレーションドキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
@@ -234,7 +243,7 @@ ht-degree: 87%
     + [フォルダーとビューの管理](audiences/folders-and-views.md)
     + [列挙の操作](config/enumerations.md)
     + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ &#x200B;](config/push-config.md)
+    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ ](config/push-config.md)
     + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
   + [Campaign データモデル](dev/datamodel.md)
@@ -253,7 +262,7 @@ ht-degree: 87%
     + [入力フォーム](dev/forms.md)
   + [データパッケージの使用](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[queryDefを使用してデータベースをクエリします](dev/query-api.md)
+  + {hide-from-toc}[queryDef](dev/query-api.md)を使用してデータベースをクエリします
   + REST API {#apis}
     + [REST APIの基本を学ぶ](dev/api/get-started-apis.md)
     + [推奨事項と制限事項](dev/api/limitations.md)
