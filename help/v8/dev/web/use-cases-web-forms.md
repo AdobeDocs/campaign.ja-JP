@@ -45,7 +45,7 @@ ht-degree: 98%
 
 ### 手順 1 - 情報サービスの作成 {#step-1---creating-information-services}
 
-1. 受信者に提供されるニュースレター購読サービスを作成します。 ニュースレターの作成方法について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}を参照してください。
+1. 受信者に提供されるニュースレター購読サービスを作成します。 ニュースレターの作成方法について詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}を参照してください。
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 

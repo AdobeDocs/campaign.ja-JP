@@ -332,7 +332,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 >[!NOTE]
 >
->情報サービスについて詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}を参照してください。
+>情報サービスについて詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}を参照してください。
 
 ユーザーは、関連するオプションをチェックして、サービスを購読します。
 

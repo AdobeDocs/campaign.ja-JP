@@ -73,7 +73,7 @@ ht-degree: 93%
 
 1. Facebook アプリケーション
 
-   **Social Marketing** オプションを使用すると、Adobe Campaign で Facebook アプリケーションの個人用コンテンツを公開できます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}を参照してください。
+   **Social Marketing** オプションを使用すると、Adobe Campaign で Facebook アプリケーションの個人用コンテンツを公開できます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}を参照してください。
 
    >[!CAUTION]
    >

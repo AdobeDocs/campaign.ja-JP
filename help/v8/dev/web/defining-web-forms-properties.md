@@ -159,7 +159,7 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-ログインおよびパスワードは、Adobe Campaign オペレーターによって使用されるものです。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。
+ログインおよびパスワードは、Adobe Campaign オペレーターによって使用されるものです。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。
 
 「**[!UICONTROL 特定のアカウントを使用]**」オプションを使用すると、フォームにアクセスするオペレーターの読み取りまたは書き込み権限を制限できます。 ドロップダウンボックスを使用して、これらの権限の付与を担当するオペレーターまたはオペレーターグループを選択します。
 

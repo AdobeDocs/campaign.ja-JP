@@ -94,7 +94,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->このアシスタントには、Adobe Campaign Classic [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}の詳細を説明した書き出しアシスタントの手順が含まれます。
+>このアシスタントには、Adobe Campaign Classic [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=ja){target="_blank"}の詳細を説明した書き出しアシスタントの手順が含まれます。
 
 ## 配信の検証{#validating}
 

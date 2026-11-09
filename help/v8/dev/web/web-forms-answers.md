@@ -153,4 +153,4 @@ ht-degree: 98%
 >
 >実行できる操作は、**[!UICONTROL シンプルな紐付け]**、**[!UICONTROL 更新または挿入]**、**[!UICONTROL 挿入]**、**[!UICONTROL 更新]**、**[!UICONTROL 削除]**&#x200B;です。\
 >オペレーターのデフォルトのフォルダーは、オペレーターが書き込み権限を持つ最初のフォルダーです。\
->[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。
+>[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。

@@ -60,7 +60,7 @@ ht-degree: 98%
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 
-新しい配信を作成するには、カーソルを「**キャンペーン**」タブに置いて、「**配信**」をクリックします。 次に、既存の配信のリストの上にある「**作成**」ボタンをクリックします。 配信の作成について詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}を参照してください。
+新しい配信を作成するには、カーソルを「**キャンペーン**」タブに置いて、「**配信**」をクリックします。 次に、既存の配信のリストの上にある「**作成**」ボタンをクリックします。 配信の作成について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}を参照してください。
 
 ![](assets/delivery_step_1.png)
 
