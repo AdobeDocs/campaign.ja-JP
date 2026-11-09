@@ -39,7 +39,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
 
 Adobe Campaign には、web アプリケーションを定義および公開するためのグラフィカルモジュールが含まれています。 これは、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなど、データベースのデータを含んだ通知フォームのページを作成するのに使用します。この機能を使用すると、ユーザーが情報を検索または入力できる web ページをデザインし配信できます。
 

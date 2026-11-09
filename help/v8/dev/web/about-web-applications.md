@@ -82,24 +82,24 @@ Adobe Campaign の Web アプリケーションでは、次の機能を利用で
 * グラフィカルなページ管理インターフェイス、複数列のページレイアウト。 詳しくは、この[ページ](designing-a-web-application.md)を参照してください。
 * パーソナライゼーションとフィールドの位置のレンダリング。 詳しくは、この[ページ](editing-content.md#adding-personalization-content)を参照してください。
 * 回答に応じた調査フィールドの条件付き表示。 詳しくは、この[ページ](form-rendering.md#defining-fields-conditional-display)を参照してください。
-* 質問のランダム表示。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 質問のランダム表示。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 * 条件付きページ表示。 詳しくは、この[ページ](defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
 * 期待されるデータタイプ（数値、メールアドレス、日付など） および必須フィールドに応じた、検証前の情報確認。 詳しくは、この[ページ](form-rendering.md#defining-control-settings)を参照してください。
 * 電子メールの招待状または通知。 詳しくは、この[ページ](publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
 * エラーおよび終了メッセージのパーソナライゼーション。 詳しくは、この[ページ](defining-web-forms-properties.md#setting-up-an-error-page)を参照してください。
 * 画像、ビデオ、ハイパーテキストリンク、Captcha などの使用について詳しくは、この[ページ](editing-content.md)を参照してください。
-* リアルタイムの応答の監視。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* リアルタイムの応答の監視。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 オプションの&#x200B;**調査**&#x200B;作成モジュールは、次の追加機能を提供します。
 
-* データベースの動的な拡張（最初のデータテンプレートに含まれない応答の作成）。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
-* 専用レポートの生成。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* データベースの動的な拡張（最初のデータテンプレートに含まれない応答の作成）。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 専用レポートの生成。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 Web アプリケーションと比較すると、調査は、シンプルなグラフィカルインターフェイスを備え、編集コントロールが少なくなっています。
 
 >[!NOTE]
 >
->調査の詳細については、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>調査の詳細については、[このセクション &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 >
 >Adobe Campaign の Web フォームの全体的な機能について詳しくは、[この節](about-web-forms.md)を参照してください。
 

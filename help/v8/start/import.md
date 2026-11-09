@@ -462,7 +462,7 @@ Campaign を使用して web フォームを作成し、プロファイルの情
 
 ![](assets/web-form-page.png)
 
-[このセクション ](../dev/web/about-web-forms.md)でweb フォームを作成する方法について説明します。
+[このセクション &#x200B;](../dev/web/about-web-forms.md)でweb フォームを作成する方法について説明します。
 
 **関連トピック**
 
