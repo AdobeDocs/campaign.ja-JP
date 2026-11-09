@@ -21,9 +21,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '187'
 ht-degree: 100%
 ---
 # 最適なオファーの提示{#interaction-present-offers}
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 オファーがオファーエンジンで選択されるためには、オファーが承認されてライブ環境で使用可能でなければなりません。
 
-詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=ja#approving-offer-content){target="_blank"}を参照してください。
+詳しくは、[この節](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
 
 インバウンドコンタクト先のコンテキストでは、コンタクト先つまりページを閲覧しているユーザーが web サイトで識別できるかどうかです。 オファーエンジンは、識別されたプロファイル用と匿名プロファイル用に、異なるオファーを提示します。
 
