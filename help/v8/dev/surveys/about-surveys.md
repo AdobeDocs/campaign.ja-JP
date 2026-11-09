@@ -53,13 +53,13 @@ Adobe Campaign には、web アプリケーションを定義および公開す�
 
 >[!NOTE]
 >
->* 標準 web フォームの作成手順について詳しくは、[このドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>* 標準 web フォームの作成手順について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
 >
->* Web アプリケーション管理について詳しくは、[このドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/about-web-applications){target="_blank"}を参照してください。 詳しくは、この章を参照してください。
+>* Web アプリケーション管理について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-applications/about-web-applications){target="_blank"}を参照してください。 詳しくは、この章を参照してください。
 
 ## 機能の範囲 {#campaign-surveys-scope}
 
-Adobe Campaign では、[web アプリケーション](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を使用して以下を行います。
+Adobe Campaign では、[web アプリケーション](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を使用して以下を行います。
 
 * 複数ページのフォームの作成
 * 統合翻訳ツールによる多言語フォームの管理
@@ -90,7 +90,7 @@ Adobe Campaign では、[web アプリケーション](https://experienceleague.
 1. 調査をパブリッシュしてから受信者に配信します（例：配信または Web サイトにリンクを含める）。
 1. 回答を監視し、レポートを表示します。
 
-これらの手順の設定と順番について詳しくは、[このドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。 この章では、調査に固有の設定についてのみ詳しく説明します。
+これらの手順の設定と順番について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。 この章では、調査に固有の設定についてのみ詳しく説明します。
 
 >[!CAUTION]
 >
@@ -107,4 +107,4 @@ Adobe Campaign では、[web アプリケーション](https://experienceleague.
 
 >[!NOTE]
 >
->設定の詳細については、[このドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>設定の詳細については、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。

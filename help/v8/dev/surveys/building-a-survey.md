@@ -42,7 +42,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 >[!NOTE]
 >
->Web フォームのコンテンツの定義および画面レイアウトの作成方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>Web フォームのコンテンツの定義および画面レイアウトの作成方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
 
 ## フィールドの追加 {#adding-fields}
 
@@ -71,7 +71,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-利用可能なフィールドの様々なタイプについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+利用可能なフィールドの様々なタイプについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
 
 ## 調査固有の要素 {#survey-specific-elements}
 
@@ -106,7 +106,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 ### 質問の追加 {#adding-questions}
 
-標準および質問の 2 つのタイプのコンテナがあります。 標準コンテナは、ページレイアウトおよびページの条件付き表示を設定するために使用されます。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}。
+標準および質問の 2 つのタイプのコンテナがあります。 標準コンテナは、ページレイアウトおよびページの条件付き表示を設定するために使用されます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}。
 
 **質問**&#x200B;コンテナを使用して、質問をページに追加したり、考えられる回答を階層の下に挿入したりします。 このタイプのコンテナに配置された質問に対するユーザーの回答は、レポートで分析できます。
 
@@ -120,7 +120,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 >[!NOTE]
 >
->HTML エディターの使用について詳しくは、[このドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
+>HTML エディターの使用について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}を参照してください。
 
 次に例を示します。
 

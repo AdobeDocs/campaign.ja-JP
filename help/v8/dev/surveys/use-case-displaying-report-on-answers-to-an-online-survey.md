@@ -93,7 +93,7 @@ ht-degree: 96%
 
 ## 手順 2 - キューブおよびその測定と指標の作成 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-次に、キューブを作成し、その測定を設定できます。これらの測定は、レポートに表示される指標の作成に使用されます。 キューブの作成と設定について詳しくは、[キューブについて](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}を参照してください。
+次に、キューブを作成し、その測定を設定できます。これらの測定は、レポートに表示される指標の作成に使用されます。 キューブの作成と設定について詳しくは、[キューブについて](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}を参照してください。
 
 この例では、キューブは、先ほど作成したワークフローから提供されるリスト内のデータに基づいています。
 

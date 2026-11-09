@@ -36,7 +36,7 @@ ht-degree: 84%
 
 オンライン調査では、独自の要件を満たすため、自由に設定やカスタマイズをおこなうことができます。 パラメーターは、プロパティウィンドウで入力する必要があります。
 
-使用可能なパラメーターについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}を参照してください。
+使用可能なパラメーターについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}を参照してください。
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 
