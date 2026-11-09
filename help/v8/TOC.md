@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 9b9c573de6120f4b3da0d5eee98192b56b4754df
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '882'
 ht-degree: 87%
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 + [Campaign v8 ドキュメント](campaign-home.md)
 + リリースノート {#releases}
-  + {hide-from-toc}[早期リリースノート &#x200B;](start/e-release-notes.md)
+  + {hide-from-toc}[早期リリースノート ](start/e-release-notes.md)
   + [バージョンとアップグレード](start/upgrades.md)
   + [最新リリース](start/release-notes.md)
   + 以前のリリース {#previous-rn}
@@ -38,16 +38,8 @@ ht-degree: 87%
   + [Campaign Standard から v8 へ](start/acs-to-v8.md)
   + [よくある質問](start/campaign-faq-comprehensive.md)
   + {hide-from-toc}[よくある質問](start/campaign-faq.md)
-  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス &#x200B;](start/cnil-pixel-tracking.md)
-+ 管理と権限 {#permissions}
-  + [権限の基本を学ぶ](start/gs-permissions.md)
-  + [ユーザー権限の管理](start/manage-permissions.md)
-  + [フォルダーに対する権限の追加](start/folder-permissions.md)
-  + [コントロールパネル](config/self-service.md)
-+ キャンペーン管理 {#campaigns}
-  + [キャンペーンの基本を学ぶ](start/campaigns.md)
-  + [キャンペーンオーケストレーションドキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
-+ メッセージの送信 {#send}
+  + {hide-from-toc}[電子メールトラッキングピクセルとCNIL ガイダンス ](start/cnil-pixel-tracking.md)
++ メッセージ {#send}
   + [メッセージの基本を学ぶ](start/gs-message.md)
   + [最初の配信の作成](start/create-message.md)
   + [配信テンプレートの操作](send/create-templates.md)
@@ -139,17 +131,16 @@ ht-degree: 87%
     + {hide-from-toc}[Adobe ソリューションとオーディエンスを共有](start/shared-audiences.md)
   + {hide-from-toc}[ベストプラクティス](audiences/audiences-best-practices.md)
   + [購読を管理](start/subscriptions.md)
-+ ランディングページとForms {#content}
++ ランディングページとフォーム {#content}
   + [ランディングページの作成](dev/landing-pages.md)
   + [Web アプリとフォームのデザイン](dev/webapps.md)
++ キャンペーン {#campaigns}
+  + [キャンペーンの基本を学ぶ](start/campaigns.md)
+  + [キャンペーンオーケストレーションドキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja)
 + ワークフロー {#workflows}
   + [ワークフローの基本を学ぶ](config/workflows.md)
   + [ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
-+ プライバシーとセキュリティ {#privacy}
-  + [プライバシーリクエストの管理](start/privacy.md)
-  + [セキュリティガイドライン](config/security.md)
-  + [セキュリティ強化アドオン](config/enhanced-security.md)
-+ オファー管理 – インタラクション {#offers}
++ オファー/インタラクション {#offers}
   + [リアルタイムインタラクションの概要](interaction/interaction.md)
   + [環境とアーキテクチャ](interaction/interaction-architecture.md)
   + [ベストプラクティス](interaction/interaction-best-practices.md)
@@ -167,7 +158,13 @@ ht-degree: 87%
     + [匿名インタラクションの管理](interaction/anonymous-interactions.md)
   + [レポートと履歴](interaction/interaction-tracking.md)
   + [ユースケース](interaction/interaction-use-cases.md)
-+ Tracking &amp; Analytics {#analytics}
++ クエリとデータ {#data}
+  + データベースのクエリ {#query}
+    + [クエリエディターの操作](start/query-editor.md)
+    + [クエリの設計](start/design-queries.md)
+    + [フィルター条件の定義](start/filter-conditions.md)
+  + [データのインポート](start/import.md)
++ レポートと追跡 {#analytics}
   + メッセージトラッキング {#tracking}
     + [トラッキングの基本を学ぶ](send/tracking.md)
     + [トラッキング対象リンクの設定](send/tracked-links.md)
@@ -190,13 +187,6 @@ ht-degree: 87%
       + [配信レポート](reporting/delivery-reports.md)
       + [ビルトインの指標の計算](reporting/metrics-calculation.md)
     + [カスタムレポート](reporting/custom-reports.md)
-+ データ管理 {#data}
-  + データベースのクエリ {#query}
-    + [クエリエディターの操作](start/query-editor.md)
-    + [クエリの設計](start/design-queries.md)
-    + [フィルター条件の定義](start/filter-conditions.md)
-  + [データのインポート](start/import.md)
-  + [ワークフロードキュメント >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=ja)
 + 統合 {#connect}
   + [Campaign をその他のソリューションと接続する](connect/integration.md)
   + Campaign + Experience Platform {#ac-aep}
@@ -215,6 +205,15 @@ ht-degree: 87%
     + [Campaign と SFDC の連携](connect/ac-sfdc.md)
     + [Campaign と Microsoft Dynamics の連携](connect/ac-ms-dyn.md)
     + [データの同期](connect/crm-data-sync.md)
++ 管理と権限 {#permissions}
+  + [権限の基本を学ぶ](start/gs-permissions.md)
+  + [ユーザー権限の管理](start/manage-permissions.md)
+  + [フォルダーに対する権限の追加](start/folder-permissions.md)
+  + [コントロールパネル](config/self-service.md)
++ プライバシーとセキュリティ {#privacy}
+  + [プライバシーリクエストの管理](start/privacy.md)
+  + [セキュリティガイドライン](config/security.md)
+  + [セキュリティ強化アドオン](config/enhanced-security.md)
 + アーキテクチャ {#architecture}
   + [グローバル原則](architecture/general-architecture.md)
   + [アーキテクチャモデル](architecture/architecture.md)
@@ -235,7 +234,7 @@ ht-degree: 87%
     + [フォルダーとビューの管理](audiences/folders-and-views.md)
     + [列挙の操作](config/enumerations.md)
     + [トランザクションメッセージの設定](config/transactional-msg-settings.md)
-    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ &#x200B;](config/push-config.md)
+    + {hide-from-toc}[Campaign SDKとアプリの統合 – 非推奨ページ ](config/push-config.md)
     + [外部アカウント](config/external-accounts.md)
 + 開発者向けリソース {#developer}
   + [Campaign データモデル](dev/datamodel.md)
@@ -254,7 +253,7 @@ ht-degree: 87%
     + [入力フォーム](dev/forms.md)
   + [データパッケージの使用](dev/packages.md)
   + [Campaign API](dev/api.md)
-  + {hide-from-toc}[queryDefを使用してデータベースをクエリします](dev/query-api.md)
+  + {hide-from-toc}[queryDef](dev/query-api.md)を使用してデータベースをクエリします
   + REST API {#apis}
     + [REST APIの基本を学ぶ](dev/api/get-started-apis.md)
     + [推奨事項と制限事項](dev/api/limitations.md)
