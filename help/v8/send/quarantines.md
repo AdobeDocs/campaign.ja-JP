@@ -62,7 +62,7 @@ Adobe Campaign は、オンラインチャネル（メール、SMS、プッシ�
 
 >[!NOTE]
 >
->[&quot;mailto&quot; List-Unsubscribe メソッド ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}を介した購読解除された受信者は、強制隔離に送信されません。 配信にサービスが定義されていない場合、配信に関連付けられている[ サービス ](../start/subscriptions.md)から購読を解除されるか、または配信にサービスが定義されていない場合はメールブロックリスト（プロファイルの&#x200B;**[!UICONTROL もう連絡先]** セクションに表示）に送信されます。
+>[&quot;mailto&quot; List-Unsubscribe メソッド &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}を介した購読解除された受信者は、強制隔離に送信されません。 配信にサービスが定義されていない場合、配信に関連付けられている[&#x200B; サービス &#x200B;](../start/subscriptions.md)から購読を解除されるか、または配信にサービスが定義されていない場合はメールブロックリスト（プロファイルの&#x200B;**[!UICONTROL もう連絡先]** セクションに表示）に送信されます。
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -121,7 +121,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 さらに、このホームページの&#x200B;**レポート** セクションから入手できる&#x200B;**[!UICONTROL 配信不能件数とバウンス]**&#x200B;の組み込みレポートには、強制隔離のアドレス、発生したエラーの種類、ドメイン別のエラー分類に関する情報が表示されます。 特定の配信のデータをフィルターしたり、必要に応じてこのレポートをカスタマイズしたりできます。
 
-バウンスアドレスについて詳しくは、[配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja){target="_blank"}を参照してください。
+バウンスアドレスについて詳しくは、[配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja){target="_blank"}を参照してください。
 
 ### 強制隔離されたメールアドレス {#quarantined-recipient}
 
@@ -177,5 +177,5 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 * [配信エラーについて](delivery-failures.md) – 様々な種類の配信エラーと、Campaignによるバウンスの処理方法について説明します
 * [配信を監視](delivery-dashboard.md) – 配信ログにアクセスし、配信パフォーマンスを監視します
-* [配信のベストプラクティス ](../start/delivery-best-practices.md) – 配信品質を維持し、強制隔離を回避するためのベストプラクティス
+* [配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md) – 配信品質を維持し、強制隔離を回避するためのベストプラクティス
 

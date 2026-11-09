@@ -99,7 +99,7 @@ Adobe Campaign では、2 通りの方法で Target からメールに動的イ�
 * **[!UICONTROL ランディングページ]**&#x200B;は、デフォルト画像からリダイレクトされて開くデフォルトのページです。 この URL は、デフォルト画像が最終的なメールに表示される場合にのみ適用されます。 これはオプションです。
 * **[!UICONTROL 追加の決定パラメーター]**&#x200B;は、Adobe Target セグメントで定義されたフィールドと Adobe Campaign のフィールドとのマッピングを指定します。 使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。 この例では、「国」フィールドを追加しています。
 
-Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。 Target Enterprise権限について詳しくは、[Adobe Target ドキュメント ](https://experienceleague.adobe.com/ja/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}を参照してください。
+Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。 Target Enterprise権限について詳しくは、[Adobe Target ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}を参照してください。
 
 ![](assets/target_13.png)
 
@@ -119,7 +119,7 @@ Adobe Target では、オファーのさまざまなバージョンを作成で�
 
    ![](assets/target_6.png)
 
-1. 残りのリダイレクトオファーについても同じ手順を繰り返します。 詳しくは、この[Adobe Target ドキュメント ](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja#experiences){target="_blank"}を参照してください。
+1. 残りのリダイレクトオファーについても同じ手順を繰り返します。 詳しくは、この[Adobe Target ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja#experiences){target="_blank"}を参照してください。
 
 ### オーディエンスの作成 {#audiences-target}
 

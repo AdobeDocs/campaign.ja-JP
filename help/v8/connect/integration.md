@@ -57,9 +57,9 @@ Campaign v8 では、次のアドビソリューションと接続できます�
 
 また、アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
 
-Campaign ソリューションとExperience Cloud ソリューション間の&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
+Campaign ソリューションとExperience Cloud ソリューション間の&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
-Campaign ソリューションとExperience Cloud ソリューション間の&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
+Campaign ソリューションとExperience Cloud ソリューション間の&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
