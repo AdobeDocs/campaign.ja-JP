@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 66d00cbaf20d714f56ab02bba593cff4a0d23571
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 80%
+source-wordcount: '1081'
+ht-degree: 78%
 ---
 # Campaign アーキテクチャの基本を学ぶ{#gs-ac-archi}
 
@@ -82,7 +82,7 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 
 >[!AVAILABILITY]
 >
->この機能は、複数のミッドソーシング（MID）インスタンス設定を持つお客様のみが使用できます。
+>この機能は制限付き可用性（LA）で、複数のミッドソーシング（MID）インスタンス設定を持つお客様のみが利用できます。
 
 Campaign v8 パッケージに応じて、配信の実行を担当する特定の数のミッドソーシングインスタンスがプロビジョニングされます。
 
