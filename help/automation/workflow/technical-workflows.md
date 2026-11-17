@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2256'
-ht-degree: 98%
+source-wordcount: '2253'
+ht-degree: 95%
 ---
 # テクニカルワークフロー{#about-technical-workflows}
 
@@ -90,11 +90,11 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 | **ディスカッションフォーラムプロセス**（newsgroupMgt） | マーケティングリソース（MRM） | ディスカッションフォーラムからの通知の配信を管理します。 これは、承認信号を受信したときにトリガーされます。 |
 | **分散型マーケティングプロセス**（centralLocalMgt） | セントラル／ローカルマーケティング（分散型マーケティング） | 分散型マーケティングモジュールの使用に関連するプロセスを開始します。 ローカルキャンペーンの作成を開始し、オーダーとキャンペーンパッケージの可用性に関連付けられた通知を管理します。 |
 | **イベントパージ**（webAnalyticsPurgeWebEvents） | Web 分析コネクタ | 存続期間フィールドで設定した期間に基づいてデータベースフィールドからすべてのイベントを削除できます。 |
-| **Adobe Experience Cloud へのオーディエンスのエクスポート**（exportSharedAudience） | Adobe Experience Cloud との統合 | このワークフローは、共有されたオーディエンスおよびセグメントとしてオーディエンスをエクスポートします。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。 |
+| **Adobe Experience Cloud へのオーディエンスのエクスポート**（exportSharedAudience） | Adobe Experience Cloud との統合 | このワークフローは、共有されたオーディエンスおよびセグメントとしてオーディエンスをエクスポートします。 これらのオーディエンスは、お使いの様々なAdobe CX Enterprise ソリューションで使用できます。 |
 | **予測**（予測） | デフォルトでインストール | 暫定カレンダー（暫定ログを作成）に保存された配信を分析します。 デフォルトで、毎日午前 1 時にトリガーされます。 |
 | **完全な集計計算（propositionrcp キューブ）**（agg_nmspropositionrcp_full） | オファーエンジン（インタラクション） | オファーの提案キューブのために完全な集計を更新します。 デフォルトで、毎日午前 6 時にトリガーされます。 この集計が取得するディメンションは、チャネル、配信、マーケティングオファーおよび日付です。 オファーの提案キューブは、オファーに基づいてレポートを生成するために使用します。 キューブについて詳しくは、[この節](../../v8/reporting/gs-cubes.md)を参照してください。 |
 | **変換済み連絡先の特定**（webAnalyticsFindConverted） | Web 分析コネクタ | リマーケティングキャンペーンの後で、購入を完了したサイトの訪問者をインデックス化します。 このワークフローで収集されたデータは、リマーケティングの効率レポートでアクセスできます（このページを参照）。 |
-| **Adobe Experience Cloud からのオーディエンスのインポート**（importSharedAudience） | Adobe Experience Cloud との統合 | このワークフローでは、別の Adobe Experience Cloud ソリューションのオーディエンスおよびセグメントを Adobe Campaign にインポートできます。 |
+| **Adobe Experience Cloud からのオーディエンスのインポート**（importSharedAudience） | Adobe Experience Cloud との統合 | このワークフローでは、様々なCX Enterprise ソリューションからAdobe Campaignにオーディエンス/セグメントを読み込むことができます。 |
 | **キャンペーンの配信ジョブ**（deliveryMgt） | デフォルトでインストール | 承認された配信をトリガーし、外部配信のサービスプロバイダーの後処理を開始します。 また、承認通知とリマインダーも送信します。 |
 | **サービスプロバイダーのジョブ**（supplierMgt） | デフォルトでインストール | 配信が承認されると、プロバイダーの処理（発送担当へのメール送信および後処理）を開始します。 |
 | **LINE V2 アクセストークンの更新**（updateLineV2AccessToken） | LINE チャネル | このワークフローは、アクセストークンを LINE V2 に更新します。 |
@@ -120,7 +120,7 @@ Adobe Campaign には、一連のビルトインテクニカルワークフロ�
 | **参照テーブルをレプリケート**（ffdaReplicateReferenceTables） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | Campaign のローカルデータベース（PostgreSQL）とクラウドデータベース（[!DNL Snowflake]）に不可欠なビルトインのテーブルの自動レプリケーションを実行します。 毎日 1 時間ごとに実行するようにスケジュールされます。 **lastModified** フィールドが存在する場合、レプリケーションは増分的に行われます。存在しない場合はテーブル全体がレプリケートされます。 [データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
 | **ステージングデータをレプリケート**（ffdaReplicateStagingData） | [Campaign Enterprise（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)にのみデフォルトでインストール | 単一の呼び出し用にステージングデータをレプリケートします。 毎日 1 時間ごとに実行するようにスケジュールされます。 [データレプリケーションの詳細情報](../../v8/architecture/replication.md) |
 | **レポート集計**（reportingAggregates） | 配信 | レポートで使用される集計を更新します。 デフォルトで、毎日午前 2 時にトリガーされます。 |
-| **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | このワークフローを使用すると、Adobe® Analytics コネクタ経由で、Adobe Campaign から Adobe Experience Cloud スイートにメールキャンペーンの指標を送信できます。 該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
+| **指標とキャンペーン属性の送信**（webAnalyticsSendMetrics） | Web 分析コネクタ | このワークフローでは、Adobe® Analytics コネクタを介して、Adobe CampaignからCX Enterpriseにメールキャンペーンインジケーターを送信できます。 該当する指標は、送信済み（iSent）、オープン数合計（iTotalRecipientOpen）、クリックした受信者の合計数（iTotalRecipientClick）、エラー（iError）、オプトアウト（opt-out）（iOptOut）です。 |
 | **在庫：オーダーおよびアラート**（stockMgt） | デフォルトでインストール | このワークフローは、受注明細に対する在庫計算を開始し、警告アラートのしきい値を管理します。 |
 | **Adobe Experience Platform データ収集からモバイルアプリを同期**（syncWithLaunch） | v8.5 以降、デフォルトでインストール | このワークフローは、データ収集からモバイルプロパティを Adobe Campaign に自動的に同期します。 |
 | **Twitter ページとの同期**（syncTwitter） | ソーシャルマーケティング | このワークフローは、毎日午前 7 時に X のフォロワーを Adobe Campaign に読み込みます。 |

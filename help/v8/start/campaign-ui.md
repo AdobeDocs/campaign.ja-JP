@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 70%
+source-wordcount: '1233'
+ht-degree: 67%
 ---
 # ユーザーインターフェイスの確認 {#ui-client-console}
 
@@ -48,16 +48,16 @@ Adobe Campaign には、クライアントコンソールまたは web ユーザ
 
 * **API** - より多くのユースケースに対応するために、SOAP プロトコルで公開されている web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。 Campaign の API について詳しくは、[このページ](../dev/api.md)を参照してください。
 
-* **Web ユーザーインターフェイス** - Campaign v8 ユーザーは、v8.6.1 リリース以降、中央の Adobe Experience Cloud ユーザーインターフェイスを通じて web 環境にアクセスできるようになりました。 これで、web ブラウザーから Adobe Campaign に接続できます。 この新しいインターフェイスを使用すると、主なマーケティングアクションを作成、管理、実行できます。 ただし、Campaign のすべての機能が使用できるわけではありません。 [詳細情報](#ac-web-ui)。
+* **Web ユーザーインターフェイス** - Campaign v8 ユーザーとして、v8.6.1 リリース以降、中央の[!DNL Adobe CX Enterprise] ユーザーインターフェイスを介して利用可能なweb環境にアクセスできるようになりました。 これで、web ブラウザーから Adobe Campaign に接続できます。 この新しいインターフェイスを使用すると、主なマーケティングアクションを作成、管理、実行できます。 ただし、Campaign のすべての機能が使用できるわけではありません。 [詳細情報](#ac-web-ui)。
 
   >[!AVAILABILITY]
   >
-  >Campaign Web ユーザーインターフェイスは、CampaignにAdobe IDで接続しているCampaign v8 ユーザーのみが使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+  >Campaign Web ユーザーインターフェイスは、CampaignにAdobe IDで接続しているCampaign v8 ユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
   >
 
 >[!CAUTION]
 >
->このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。 Campaign v8 ユーザーとして、Campaign Web ユーザーインターフェイスを使用している場合は、[このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
+>このドキュメントでは、Campaign クライアントコンソールの使用に焦点を当てています。 Campaign v8 ユーザーとして、Campaign Web ユーザーインターフェイスを使用している場合は、[このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
 
 ## クライアントコンソールの操作 {#ui-access}
 
@@ -71,19 +71,19 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 Campaignに接続したら、Adobe Campaign ホームページにアクセスします。 Campaign v8では、中央カードを使用して、新しいCampaign Web ユーザーインターフェイスとCampaign コントロールパネルを参照します。
 
-![Campaign v8 クライアント コンソール ホーム &#x200B;](assets/web-ui.png)
+![Campaign v8 クライアント コンソール ホーム ](assets/web-ui.png)
 
 >[!NOTE]
 >
->Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント &#x200B;](../config/external-accounts.md)内で次のフィールドが空のままになっていないことを確認してください。**サーバー**、**テナント**、**コールバックサーバー**、**関連付けマーク**。
+>Web ユーザーインターフェイスカードが表示されない場合は、次のフィールドが[Adobe Experience Cloud外部アカウント ](../config/external-accounts.md)内で空のままになっていないことを確認してください。**サーバー**、**テナント**、**コールバックサーバー**、**関連付けマーク**。
 
-ホームページから[&#x200B; キャンペーンCampaign コントロールパネル](../config/self-service.md)にアクセスすることもできます。
+ホームページから[ キャンペーンCampaign コントロールパネル](../config/self-service.md)にアクセスすることもできます。
 
 >[!TAB Campaign Classic v7]
 
 Campaignに接続すると、リンクとショートカットを使用してAdobe Campaign ホームページにアクセスし、機能、ドキュメント、サポートウェブサイト、Campaign コミュニティにアクセスできます。
 
-![Campaign Classic v7 クライアント コンソール ホーム &#x200B;](assets/v7_user_interface_home.png)
+![Campaign Classic v7 クライアント コンソール ホーム ](assets/v7_user_interface_home.png)
 
 
 >[!ENDTABS]
@@ -105,17 +105,17 @@ Campaign クライアントコンソールに接続したら、上部セクシ�
 
 例えば、「**[!UICONTROL プロファイルとターゲット]**」タブを参照すると、受信者リスト、購読サービス、既存のターゲティングワークフローおよびこれらすべてのコンポーネントを作成するためのショートカットにアクセスできます。
 
-プロファイルとターゲットタブからリストにアクセスする方法を示す![Campaign コンソールのユーザーインターフェイス &#x200B;](assets/overview-list.png)
+プロファイルとターゲットタブからリストにアクセスする方法を示す![Campaign コンソールのユーザーインターフェイス ](assets/overview-list.png)
 
 画面で要素を選択すると、その要素は新しいタブに読み込まれるので、コンテンツを簡単に参照できます。
 
-新しいタブでリストを編集する方法を示す![Campaign コンソールのユーザーインターフェイス &#x200B;](assets/new-tab.png)
+新しいタブでリストを編集する方法を示す![Campaign コンソールのユーザーインターフェイス ](assets/new-tab.png)
 
 ### 要素の作成 {#create-an-element}
 
 画面の左側にある「**[!UICONTROL 作成]**」セクションのショートカットを使用して、新しい要素を追加します。 リストの上にある「**[!UICONTROL 作成]**」ボタンを使用すると、現在のリストに新しい要素を追加できます。
 
-プロファイルとターゲット画面から受信者を作成する方法を示す![Campaign コンソールのユーザーインターフェイス &#x200B;](assets/new-recipient.png)
+プロファイルとターゲット画面から受信者を作成する方法を示す![Campaign コンソールのユーザーインターフェイス ](assets/new-recipient.png)
 
 <!--
 ## Use a web browser {#web-browser}
@@ -144,13 +144,13 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 
 ## Campaign web ユーザーインターフェイス {#ac-web-ui}
 
-Campaign v8 ユーザーは、v8.6.1 リリース以降、中央のAdobe Experience Cloud ユーザーインターフェイスを介してweb環境にアクセスできます。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
+Campaign v8 ユーザーは、v8.6.1 リリース以降、中央の[!DNL CX Enterprise] ユーザーインターフェイスを介して利用できるweb環境にアクセスできます。 [!DNL CX Enterprise]は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
 ![Adobe Campaign web ユーザーインターフェイスホームページ](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
 >
->Campaign Web ユーザーインターフェイスは、CampaignにAdobe IDで接続しているCampaign v8 ユーザーのみが使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+>Campaign Web ユーザーインターフェイスは、CampaignにAdobe IDで接続しているCampaign v8 ユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 >
 
 新しい Campaign web ユーザーインターフェイスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。 また、Campaign web ユーザーインターフェイスドキュメントにある、専用の[よくある質問のページ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/faq){target="_blank"}も参照してください。
@@ -175,7 +175,7 @@ Campaign v8 ユーザーは、v8.6.1 リリース以降、中央のAdobe Experie
   >
   >言語はインストールプロセス中に選択され、その後&#x200B;**変更できません**。
 
-* Campaign Web ユーザーインターフェイスでサポートされる言語については、[Campaign Web ユーザーインターフェイスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ja#language-pref){target="_blank"}を参照してください。
+* Campaign Web ユーザーインターフェイスでサポートされる言語については、[Campaign Web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=ja#language-pref){target="_blank"}を参照してください。
 
 ## フォーマット
 

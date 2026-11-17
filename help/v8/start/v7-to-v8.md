@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 98%
+source-wordcount: '732'
+ht-degree: 95%
 ---
 # [!DNL Campaign Classic] v7 から [!DNL Campaign] v8 への移行{#gs-matrix}
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。 Campaign Managed Cloud Servicesについて詳しくは、[製品説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。 Campaign Managed Cloud Servicesについて詳しくは、[製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
@@ -91,7 +91,7 @@ Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概�
 
 ## Adobe ID を使用して Campaign に接続{#adobe-id}
 
-Campaign ユーザーは、Adobe ID でのみ接続します。 同じ Adobe ID を使用して、Adobe Experience Cloud ソリューション用に、すべてのアドビプランおよび製品を 1 つのアカウントに関連付けます。
+Campaign ユーザーは、Adobe ID でのみ接続します。 同じAdobe IDを使用して、すべての[!DNL Adobe CX Enterprise]個のソリューションについて、1つのアカウントに関連付けられたすべてのAdobe プランと製品を保持します。
 
 [!DNL Campaign] に接続する方法について詳しくは、[こちらのページ](connect.md)を参照してください。
 

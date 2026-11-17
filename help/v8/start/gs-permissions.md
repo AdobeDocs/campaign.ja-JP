@@ -26,10 +26,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '513'
+ht-degree: 93%
 ---
 # 権限の基本を学ぶ{#gs-permissions}
 
@@ -69,9 +69,9 @@ Admin Console を使用して、ユーザーの追加と製品プロファイル
 
 ## 製品プロファイルについて{#ootb-product-profiles}
 
-製品プロファイルは、ユーザーに割り当てることができる製品とサービスのグループです。 Adobe Experience Cloud では、権限は、ユーザーではなく製品のプロファイルに基づいています。 ただし、特定のユーザーに管理者権限をデリゲートできます。
+製品プロファイルは、ユーザーに割り当てることができる製品とサービスのグループです。 [!DNL Adobe CX Enterprise]では、権限はユーザーではなく、製品のプロファイルに基づいています。 ただし、特定のユーザーに管理者権限をデリゲートできます。
 
-Admin Console では、Campaign の各 Adobe Experience Cloud **製品プロファイル**&#x200B;は、Campaign クライアントコンソールの&#x200B;**オペレーターグループ**&#x200B;に関連付けられています。
+Admin Consoleでは、Campaignの各[!DNL CX Enterprise] **製品プロファイル**&#x200B;は、Campaign クライアントコンソールの&#x200B;**オペレーターグループ**&#x200B;に関連付けられています。
 
 製品プロファイルを作成して割り当てる方法については、[このページ](manage-permissions.md#create-product-profile)を参照してください。
 

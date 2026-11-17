@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 98%
+source-wordcount: '1125'
+ht-degree: 94%
 ---
 # Adobe Campaign v8 への接続{#gs-ac-connect}
 
@@ -87,7 +87,7 @@ Campaign を初めて使用する場合は、クライアントコンソール�
 
 ## Adobe Campaign へのログオン {#logon-to-ac}
 
-Campaign ユーザーは、Adobe Identity Management System（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。 Adobe Campaign を他のソリューションと併用する場合、接続は保存されます。 Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+Campaign ユーザーは、Adobe ID 管理システム（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。 Adobe Campaign を他のソリューションと併用する場合、接続は保存されます。 Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 
 インスタンスにログオンするには、以下の手順に従います。
 
@@ -146,14 +146,14 @@ Campaign 管理者は、オペレーターを作成し、ユーザーと資格�
 
 ### Web ユーザーインターフェイス {#connect-web-ui}
 
-Campaign v8.6 リリース以降、中央の Adobe Experience Cloud 環境を通じて、新しい **Campaign web ユーザーインターフェイス**&#x200B;にアクセスできるようになります。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
+Campaign v8.6 リリース以降では、中央の[!DNL Adobe CX Enterprise]環境から新しい&#x200B;**Campaign Web ユーザーインターフェイス**&#x200B;にアクセスできます。 [!DNL CX Enterprise]は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
 >[!AVAILABILITY]
 >
->Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+>Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 >
 
-Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイスにアクセスする方法については、[このページ](campaign-ui.md#ac-web-ui)を参照してください。
+[!DNL CX Enterprise]に接続し、Adobe Campaign Web インターフェイス [にアクセスする方法については、このページ ](campaign-ui.md#ac-web-ui)を参照してください。
 
 詳しくは、[Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}を参照してください。
 

@@ -51,9 +51,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1055'
 ht-degree: 87%
 ---
 # Adobe Campaign の概要{#gs-ac-v8}
@@ -91,7 +91,7 @@ Campaign にプロファイルを追加する方法については、[この節]
 
 ## ターゲティングされたセグメント化 {#targeted-segmentation}
 
-Adobe Campaign には強力で使いやすいセグメント化機能とターゲティング機能が備わっており、高度にターゲティングされた最適なオファーを作成できます。 記述分析機能を使用すると、マーケティングキャンペーンの上流および下流の情報を分析できます。また、[&#x200B; フィルター管理](../audiences/create-filters.md)機能とグラフィック [&#x200B; クエリエディター](query-editor.md)機能を使用すると、購読者の母集団をフィルタリングし、無制限の条件に基づいてターゲットグループをサンプリングまたは作成できます。
+Adobe Campaign には強力で使いやすいセグメント化機能とターゲティング機能が備わっており、高度にターゲティングされた最適なオファーを作成できます。 記述分析機能を使用すると、マーケティングキャンペーンの上流および下流の情報を分析できます。また、[ フィルター管理](../audiences/create-filters.md)機能とグラフィック [ クエリエディター](query-editor.md)機能を使用すると、購読者の母集団をフィルタリングし、無制限の条件に基づいてターゲットグループをサンプリングまたは作成できます。
 
 高度なデータ管理機能は、データ処理機能を拡張します。 データマートにモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。
 
@@ -129,7 +129,7 @@ Adobe Campaign では、すぐに使える強力なレポートテンプレー�
 
 レポート機能とトラッキング機能について詳しくは、[この節](../reporting/gs-reporting.md)を参照してください。
 
-## Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
+## [!DNL Adobe CX Enterprise]統合 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスをパーソナライズできるよう作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target、Adobe Experience Cloud トリガーなど）と組み合わせることができます。
 

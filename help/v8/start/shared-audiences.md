@@ -24,12 +24,12 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 95%
+source-wordcount: '258'
+ht-degree: 82%
 ---
-# Adobe Experience Cloud ソリューションを使用してオーディエンスを共有{#shared-audiences}
+# [!DNL Adobe CX Enterprise]個のソリューションでオーディエンスを共有{#shared-audiences}
 
 
 オプション 1：AEP ソースと宛先
@@ -38,9 +38,9 @@ ht-degree: 95%
 
 **Adobe Campaign** と **People コアサービス**&#x200B;または Adobe Audience Manager を統合できます。 次のことが可能になります。
 
-* 共有されたオーディエンスまたはセグメントを、他の Adobe Experience Cloud ソリューションから Adobe Campaign にインポートします。 オーディエンスは Adobe Campaign のリストを使用してインポートできます。
+* 様々な[!DNL CX Enterprise] ソリューションからAdobe Campaignに共有オーディエンス/セグメントを読み込みます。 オーディエンスは Adobe Campaign のリストを使用してインポートできます。
 
-* Adobe Experience Cloud 共有オーディエンスのフォームでリストをエクスポートします。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。 オーディエンスは、ワークフローでターゲティングした後、専用の&#x200B;**[!UICONTROL 共有オーディエンスの更新]**&#x200B;アクティビティを使用してエクスポートできます。
+* [!DNL CX Enterprise]個の共有オーディエンスの形式でリストを書き出します。 これらのオーディエンスは、使用する様々な[!DNL CX Enterprise] ソリューションで使用できます。 オーディエンスは、ワークフローでターゲティングした後、専用の&#x200B;**[!UICONTROL 共有オーディエンスの更新]**&#x200B;アクティビティを使用してエクスポートできます。
 
 この統合では、2 つのタイプの Adobe Experience Cloud ID をサポートしています。
 

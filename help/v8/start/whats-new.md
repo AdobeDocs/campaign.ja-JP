@@ -62,9 +62,9 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1501'
 ht-degree: 70%
 ---
 # Adobe Campaign v8 の主な機能 {#ac-gs-what-is-new}
@@ -89,7 +89,7 @@ Adobe Campaign v8では、従来のクライアントコンソールと一緒に
 * **オンボーディングの高速化** – 新規ユーザーの学習曲線は最小限
 * **統合エクスペリエンス** – 容易な移行のためにCampaign Standardと類似点を共有
 
-Campaign v8.6以降、Campaign Web UIはAdobe Experience Cloudを通じて利用できるようになり、すべてのAdobe ソリューションにシームレスにアクセスできるようになります。
+Campaign v8.6以降、Campaign Web UIは[!DNL Adobe CX Enterprise]を通じて利用できるようになり、すべてのAdobe ソリューションにシームレスにアクセスできるようになります。
 
 [Campaign Web ユーザーインターフェイスについて詳しく見る](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
