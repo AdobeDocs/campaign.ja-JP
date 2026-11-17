@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 98%
+source-wordcount: '1128'
+ht-degree: 96%
 ---
 # Campaign でのプライバシーリクエストの管理 {#privacy}
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 アドビは、Campaign に保存されているデータに対するプライバシーリクエストの作成と処理を行うためのデータコントローラー用ツールを用意しています。 しかし、要求者であるデータ主体の ID、および要求者に返されるデータがデータ主体に関するものであることの確認は、データコントローラーの責任です。 個人データおよびデータを管理する様々なエンティティについて詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#personal-data){target="_blank"}を参照してください。
 
 
-Campaign でプライバシーリクエストを管理するには、まず[名前空間を定義する](#namespaces)必要があります。 その後、プライバシーリクエストを作成および管理できます。 プライバシーリクエストを実行するには、**Adobe Privacy Service** 統合を使用します。 Privacy Service からすべての Adobe Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。 [詳細情報](#create-privacy-request)
+Campaign でプライバシーリクエストを管理するには、まず[名前空間を定義する](#namespaces)必要があります。 その後、プライバシーリクエストを作成および管理できます。 プライバシーリクエストを実行するには、**Adobe Privacy Service** 統合を使用します。 Privacy Serviceからすべての[!DNL Adobe CX Enterprise] ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローを介してCampaignによって自動的に処理されます。 [詳細情報](#create-privacy-request)
 
 **アクセス権**&#x200B;および&#x200B;**忘れられる権利**（削除リクエスト）について詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"}を参照してください。
 

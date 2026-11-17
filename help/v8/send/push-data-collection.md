@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 94%
+source-wordcount: '1549'
+ht-degree: 93%
 ---
 # プッシュ通知設を修正 {#push-notifications-config}
 
@@ -267,7 +267,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 ## Campaign Classic をモバイルアプリケーションに追加 {#campaign-mobile-app}
 
-Adobe Experience Platform Mobile SDK は、モバイルアプリでアドビの Experience Cloud のソリューションとサービスを強化するのに役立ちます。 SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。
+Adobe Experience Platform Mobile SDKは、モバイルアプリ内の[!DNL Adobe CX Enterprise]のソリューションとサービスを強化するのに役立ちます。 SDK の設定はデータ収集 UI を通じて管理され、柔軟な設定と拡張可能なルールベースの統合を実現します。
 
 [Adobe Developer ドキュメントの詳細情報](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}。
 

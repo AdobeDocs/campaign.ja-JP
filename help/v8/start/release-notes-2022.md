@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1952'
-ht-degree: 97%
+source-wordcount: '1953'
+ht-degree: 96%
 ---
 # 2022 リリースノート{#2022-rn}
 
@@ -207,7 +207,7 @@ _2022年5月18日（PT）_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign v8 は、Adobe Privacy Core Service と統合されました。 Privacy Core Service からすべての Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。</p>
+<td> <p>Campaign v8 は、Adobe Privacy Core Service と統合されました。 Privacy Core ServiceからすべてのAdobe CX Enterprise ソリューションにプッシュされたプライバシーリクエストは、Campaignによって専用のワークフローを介して自動的に処理されます。</p>
 <p>詳しくは、<a href="privacy.md">詳細ドキュメント</a>を参照してください。</p>
 </td> 
 </tr> 

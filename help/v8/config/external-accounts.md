@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2294'
-ht-degree: 39%
+source-wordcount: '2332'
+ht-degree: 38%
 ---
 # 外部アカウントの設定 {#config-external-accounts}
 
@@ -131,27 +131,27 @@ Microsoft OAuth 2.0を使用してPOP3外部アカウントを設定するには
 
 Campaign Web ユーザーインターフェイス（v8）については、次を参照してください。
 
-* [外部アカウントの作成](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/create-external-account){target="_blank"}
-* [外部データベースアカウント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database){target="_blank"}
+* [外部アカウントの作成](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/create-external-account){target="_blank"}
+* [外部データベースアカウント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database){target="_blank"}
 
 Campaign Web UI ページには、**外部データベース** プロバイダータイプのより包括的なリストが表示されます。次の項目を含みます。
 
-* **[Amazon Redshift](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#amazon-redshift){target="_blank"}** / **[Amazon Redshift （レガシー） &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#amazon-redshift-legacy){target="_blank"}** - CampaignをAWS Redshift Cloud Data Warehouse環境に接続します。
-* **[Azure Synapse Analytics](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#azure-synapse-analytics){target="_blank"}** - CampaignをMicrosoft Azure Synapse専用のSQL プールに接続します。
-* **[Databricks](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#databricks){target="_blank"}** - CampaignをDatabricks SQLおよびレイクハウスのワークロードに接続します。
-* **[Google BigQuery](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#google-bigquery){target="_blank"}** - CampaignをGoogle Cloud BigQuery分析データセットに接続します。
-* **[Microsoft SQL Server](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#microsoft-sql-server){target="_blank"}** - CampaignをオンプレミスまたはホストされているSQL Server データベースに接続します。
-* **[MySQL](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#mysql){target="_blank"}** - フェデレーションクエリとワークフロー用にCampaignをMySQL データベースに接続します。
-* **[Netezza](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#netezza){target="_blank"}** - CampaignをIBM Netezza / Performance Server システムに接続します。
-* **[ODBC （Sybase ASE、Sybase IQ） &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#odbc-sybase-ase-sybase-iq){target="_blank"}** - CampaignをODBC経由でSybase データベース エンジンに接続します。
-* **[リモートデータベースへのHTTP リレー](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#http-relay-to-remote-database){target="_blank"}** - HTTP リレーエンドポイントを介してリモートデータベースに接続します。
-* **[Oracle](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#oracle){target="_blank"}** - CampaignをOracle データベースに接続して、フェデレーションアクセスのユースケースを実現します。
-* **[PostgreSQL](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#postgresql){target="_blank"}** - FDA外部アカウントを使用してCampaignをPostgreSQL データベースに接続します。
-* **[SAP HANA](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#sap-hana){target="_blank"}** - CampaignをSAP HANAのインメモリデータベース環境に接続します。
-* **[Snowflake](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#snowflake){target="_blank"}** - CampaignをSnowflake Cloud Data Platform環境に接続します。
-* **[Teradata](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#teradata){target="_blank"}** - CampaignをTeradata Enterprise Data Warehouse システムに接続します。
-* **[Vertica Analytics](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}** - CampaignをOpenText Vertica Analytics データベースに接続します。
-* **[Microsoft Fabric](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** - CampaignをMicrosoft Fabric SQLおよびストレージサービスに接続します。
+* **[Amazon Redshift](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#amazon-redshift){target="_blank"}** / **[Amazon Redshift （レガシー） &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#amazon-redshift-legacy){target="_blank"}** - CampaignをAWS Redshift Cloud Data Warehouse環境に接続します。
+* **[Azure Synapse Analytics](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#azure-synapse-analytics){target="_blank"}** - CampaignをMicrosoft Azure Synapse専用のSQL プールに接続します。
+* **[Databricks](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#databricks){target="_blank"}** - CampaignをDatabricks SQLおよびレイクハウスのワークロードに接続します。
+* **[Google BigQuery](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#google-bigquery){target="_blank"}** - CampaignをGoogle Cloud BigQuery分析データセットに接続します。
+* **[Microsoft SQL Server](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#microsoft-sql-server){target="_blank"}** - CampaignをオンプレミスまたはホストされているSQL Server データベースに接続します。
+* **[MySQL](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#mysql){target="_blank"}** - フェデレーションクエリとワークフロー用にCampaignをMySQL データベースに接続します。
+* **[Netezza](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#netezza){target="_blank"}** - CampaignをIBM Netezza / Performance Server システムに接続します。
+* **[ODBC （Sybase ASE、Sybase IQ） &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#odbc-sybase-ase-sybase-iq){target="_blank"}** - CampaignをODBC経由でSybase データベース エンジンに接続します。
+* **[リモートデータベースへのHTTP リレー](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#http-relay-to-remote-database){target="_blank"}** - HTTP リレーエンドポイントを介してリモートデータベースに接続します。
+* **[Oracle](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#oracle){target="_blank"}** - CampaignをOracle データベースに接続して、フェデレーションアクセスのユースケースを実現します。
+* **[PostgreSQL](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#postgresql){target="_blank"}** - FDA外部アカウントを使用してCampaignをPostgreSQL データベースに接続します。
+* **[SAP HANA](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#sap-hana){target="_blank"}** - CampaignをSAP HANAのインメモリデータベース環境に接続します。
+* **[Snowflake](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#snowflake){target="_blank"}** - CampaignをSnowflake Cloud Data Platform環境に接続します。
+* **[Teradata](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#teradata){target="_blank"}** - CampaignをTeradata Enterprise Data Warehouse システムに接続します。
+* **[Vertica Analytics](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#vertica-analytics){target="_blank"}** - CampaignをOpenText Vertica Analytics データベースに接続します。
+* **[Microsoft Fabric](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/external-accounts/external-account-database#fabric){target="_blank"}** - CampaignをMicrosoft Fabric SQLおよびストレージサービスに接続します。
 
 従来のクライアントコンソールの詳細とその他の参照については、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}を参照してください。
 

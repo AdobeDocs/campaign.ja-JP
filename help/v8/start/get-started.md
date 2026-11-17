@@ -51,9 +51,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1055'
 ht-degree: 87%
 ---
 # Adobe Campaign の概要{#gs-ac-v8}
@@ -129,7 +129,7 @@ Adobe Campaign では、すぐに使える強力なレポートテンプレー�
 
 レポート機能とトラッキング機能について詳しくは、[この節](../reporting/gs-reporting.md)を参照してください。
 
-## Adobe Experience Cloud 統合 {#adobe-experience-cloud-integrations}
+## [!DNL Adobe CX Enterprise]統合 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスをパーソナライズできるよう作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target、Adobe Experience Cloud トリガーなど）と組み合わせることができます。
 

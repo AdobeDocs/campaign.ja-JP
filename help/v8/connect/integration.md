@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 92%
+source-wordcount: '452'
+ht-degree: 82%
 ---
 # Campaign をお使いのソリューションと接続する{#gs-ac-connectors}
 
-Campaign インスタンスを Adobe Experience Cloud ソリューションと接続して、それぞれの機能を組み合わせることができます。
+Campaign インスタンスを[!DNL Adobe CX Enterprise]個のソリューションと接続して、機能を組み合わせることができます。
 
 Adobe Campaign にはいくつかのコネクタが付属しており、それらを使用して、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期などを行うことができます。
 
 ## アドビソリューションの組み合わせ {#gs-ac-integration}
 
-Adobe Experience Cloud ソリューションを組み合わせて実装を最新化します。
+[!DNL CX Enterprise]個のソリューションを組み合わせて、実装を最新化します。
 
 Campaign v8 では、次のアドビソリューションと接続できます。 ユースケース、設定、ガイドラインについて詳しくは、リンクを参照してください。
 
@@ -55,15 +55,15 @@ Campaign v8 では、次のアドビソリューションと接続できます�
 * Adobe Target。 [詳細情報](../connect/ac-at.md)
 * Adobe Workfront。 [詳細情報](../connect/ac-workfront.md)
 
-また、アセット共有機能とオーディエンス共有機能を使用すると、Experience Cloud の複数のソリューションをまたいで&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を組み合わせることもできます。
+また、[!DNL CX Enterprise]個のソリューションの&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を、アセット共有機能とオーディエンス共有機能と組み合わせることもできます。
 
-Campaign ソリューションとExperience Cloud ソリューション間の&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
+Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
-Campaign ソリューションとExperience Cloud ソリューション間の&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
+Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
->Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。
+>Managed Cloud Services ユーザーとして、[Adobe](../start/campaign-faq-comprehensive.md#support)に連絡して、Campaignを[!DNL CX Enterprise]のサービスとソリューションに接続してください。
 
 
 ## CRM コネクタとの統合{#gs-crm-connectors}

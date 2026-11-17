@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1840'
-ht-degree: 93%
+source-wordcount: '1831'
+ht-degree: 89%
 ---
 # Campaign と Adobe Analytics の操作 {#ac-aa}
 
@@ -49,7 +49,7 @@ Adobe Analytics を設定して、Campaign と Analytics を統合できます�
 
 >[!NOTE]
 >
->Managed Cloud Services ユーザーとして Campaign を Adobe Experience Cloud のサービスやソリューションと接続する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。 専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
+>Managed Cloud Services ユーザーとして、[Adobe](../start/campaign-faq-comprehensive.md#support)に連絡して、Campaignを[!DNL Adobe CX Enterprise]のサービスとソリューションに接続してください。 専用パッケージを使用して、Web 分析コネクタアドオンをお使いの環境にインストールする必要があります。
 
 Adobe Analytics Connector を使用すると、Adobe Campaign はインターネットのオーディエンスを測定できます（Web 分析）。 Web 分析ツールを使用すると、Adobe Campaign は指標とキャンペーン属性を Analytics に転送できます。
 
@@ -254,7 +254,7 @@ Adobe Campaign と Adobe Analytics 間のデータ交換は、バックグラウ
 
 ![](assets/webanalytics_workflows.png)
 
-**[!UICONTROL 指標とキャンペーン属性の送信]**&#x200B;ワークフローを使用すると、Adobe Campaign から Adobe Experience Cloud に Adobe Analytics Connector で メールキャンペーンの指標を送信できます。 このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
+**[!UICONTROL 指標とキャンペーン属性の送信]** ワークフローを使用すると、Adobe Analytics Connectorを使用して、Adobe Campaignを介して[!DNL CX Enterprise]にメールキャンペーン指標を送信できます。 このワークフローは毎日午前 4 時にトリガーされ、データを Analysis に送信するには 24 時間かかります。
 
 ワークフローは再起動しないでください。再起動すると、以前のデータがすべて再送され、Analytics の結果に歪みが生じる可能性があります。
 
@@ -288,7 +288,7 @@ Adobe Campaign と Adobe Analytics 間のデータ交換は、バックグラウ
 
 ## 配信のトラッキング {#tracking-deliveries-in-adobe-campaign}
 
-Adobe Campaign で配信を送信した後、Adobe Experience Cloud でサイト上のアクティビティをトラッキングできるようにするには、配信プロパティで対応するコネクタを参照する必要があります。 それには、次の手順に従います。
+配信がAdobe Campaignによって送信された後、サイト上のアクティビティを[!DNL CX Enterprise]が追跡できるようにするには、配信プロパティで一致するコネクタを参照する必要があります。 それには、次の手順に従います。
 
 1. トラッキングするキャンペーンの配信を開きます。
 

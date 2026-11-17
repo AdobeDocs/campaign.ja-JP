@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 98%
+source-wordcount: '2185'
+ht-degree: 97%
 ---
 # メールコンテンツの定義 {#defining-the-email-content}
 
@@ -85,6 +85,10 @@ ht-degree: 98%
 >[!IMPORTANT]
 >
 >リリース 8.9.3には、外部URL 許可リストの更新が含まれています。 リソースが中断することなく継続して読み込まれるよう、メッセージコンテンツで使用されるドメインが、インスタンスの承認済み許可リストに追加されていることを確認してください。 Campaign 管理者として、コントロールパネルを使用して、許可リスト登録済み URL を追加および管理してください。 手順について詳しくは、[URL 権限の追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}を参照してください。
+
+>[!IMPORTANT]
+>
+>電子メールコンテンツでHTML `<base>` タグを使用しないでください。 セキュリティ上の理由から、このタグはサポートされておらず、コンテンツエディターでのコンテンツの読み込みを妨げる可能性があります。 代わりに、リンクと外部リソースに絶対URLを使用してください。
 
 メッセージの内容は、配信設定ウィンドウの下部のセクションで定義します。
 

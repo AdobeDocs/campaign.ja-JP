@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 97%
+source-wordcount: '1661'
+ht-degree: 94%
 ---
 # 2024 リリースノート {#2024-rn}
 
@@ -188,11 +188,11 @@ _2024年2月14日（PT）_
 
 ### 新機能 {#new-8-6-1}
 
-* このリリース以降、中央の Adobe Experience Cloud 環境を通じて、新しい **Campaign web ユーザーインターフェイス**&#x200B;にアクセスできるようになります。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。 Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイスにアクセスする方法については、[このページ](campaign-ui.md#ac-web-ui)を参照してください。
+* このリリース以降は、中央の[!DNL Adobe CX Enterprise]環境から利用できる新しい&#x200B;**Campaign Web ユーザーインターフェイス**&#x200B;にアクセスできます。 [!DNL CX Enterprise]は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。 [!DNL CX Enterprise]に接続し、Adobe Campaign Web インターフェイス [にアクセスする方法については、このページ &#x200B;](campaign-ui.md#ac-web-ui)を参照してください。
 
   >[!AVAILABILITY]
   >
-  >Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+  >Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
   >
 
 * Adobe Campaign v8 は、**Adobe Experience Manager as a Cloud Service** と統合され、オーサリングは Adobe Campaign web ユーザーインターフェイス経由でのみ利用可能になります。 [詳細情報](../connect/ac-aem.md)

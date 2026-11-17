@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2964'
-ht-degree: 67%
+source-wordcount: '2957'
+ht-degree: 64%
 ---
 # Campaign セキュリティのベストプラクティス {#ac-security}
 
@@ -116,7 +116,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
-Campaign を、[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud オーディエンス](../start/shared-audiences.md)、Campaign Standard などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [CRM コネクタ](../../automation/workflow/crm-connector.md)を介して他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
+Campaignを、あるシステムから別のシステムにオーディエンスを転送できる他の[!DNL Adobe CX Enterprise] ソリューション（[Adobe Analytics](../connect/ac-aa.md)、[Experience Cloud Audiences](../start/shared-audiences.md)、Campaign Standardなど）と統合する場合、または[CRM Connector](../../automation/workflow/crm-connector.md)を介して他のソリューションと統合する場合は、個人データの保護に細心の注意を払う必要があります。
 
 [主な規制](#privacy-regulations)では、データを管理する様々なエンティティを以下のように定義しています。
 
@@ -203,7 +203,7 @@ Adobe Campaign では、トラッキング機能により 3 種類の Cookie（�
 * **セッション** Cookie：**nlid** Cookie には、連絡先に送信されるメールの識別子（**broadlogId**）およびメッセージテンプレートの識別子（**deliveryId**）が含まれています。 Adobe Campaign が送信したメールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。 このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。 連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
 
 * 2 つの&#x200B;**永続的な Cookie**：
-  * **UUID**（Universal Unique IDentifier）Cookie は、Adobe Experience Cloud のソリューション間で共有されます。 設定は 1 回で、新しい値が生成されると、クライアントブラウザーから消滅します。 この Cookie により、web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。 ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。 この Cookie の説明は[このページ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ja#ec-cookies)で参照できます。
+  * **UUID** （Universal Unique IDentifier） Cookieは[!DNL CX Enterprise] ソリューション間で共有されています。 設定は 1 回で、新しい値が生成されると、クライアントブラウザーから消滅します。 このCookieを使用すると、Web サイトを訪問したときに[!DNL CX Enterprise] ソリューションとやり取りするユーザーを特定できます。 ランディングページ（不明な顧客アクティビティを受信者に関連付けるため）または配信によって預けることができます。 この Cookie の説明は[このページ](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ja#ec-cookies)で参照できます。
   * **nllastdelid** Cookie（Campaign Classic 20.3 で導入）は、ユーザーがリンクをクリックした最後の配信の **deliveryId** を含む永続的な Cookie です。 この Cookie は、使用されるトラッキングテーブルを識別するために、セッション Cookie がない場合に使用されます。
 
 GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に web サイトのユーザーから同意を得ることが規定されています。

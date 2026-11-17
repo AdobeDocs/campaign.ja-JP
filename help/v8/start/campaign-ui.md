@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 70%
+source-wordcount: '1233'
+ht-degree: 67%
 ---
 # ユーザーインターフェイスの確認 {#ui-client-console}
 
@@ -48,11 +48,11 @@ Adobe Campaign には、クライアントコンソールまたは web ユーザ
 
 * **API** - より多くのユースケースに対応するために、SOAP プロトコルで公開されている web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。 Campaign の API について詳しくは、[このページ](../dev/api.md)を参照してください。
 
-* **Web ユーザーインターフェイス** - Campaign v8 ユーザーは、v8.6.1 リリース以降、中央の Adobe Experience Cloud ユーザーインターフェイスを通じて web 環境にアクセスできるようになりました。 これで、web ブラウザーから Adobe Campaign に接続できます。 この新しいインターフェイスを使用すると、主なマーケティングアクションを作成、管理、実行できます。 ただし、Campaign のすべての機能が使用できるわけではありません。 [詳細情報](#ac-web-ui)。
+* **Web ユーザーインターフェイス** - Campaign v8 ユーザーとして、v8.6.1 リリース以降、中央の[!DNL Adobe CX Enterprise] ユーザーインターフェイスを介して利用可能なweb環境にアクセスできるようになりました。 これで、web ブラウザーから Adobe Campaign に接続できます。 この新しいインターフェイスを使用すると、主なマーケティングアクションを作成、管理、実行できます。 ただし、Campaign のすべての機能が使用できるわけではありません。 [詳細情報](#ac-web-ui)。
 
   >[!AVAILABILITY]
   >
-  >Campaign Web ユーザーインターフェイスは、CampaignにAdobe IDで接続しているCampaign v8 ユーザーのみが使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+  >Campaign Web ユーザーインターフェイスは、CampaignにAdobe IDで接続しているCampaign v8 ユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
   >
 
 >[!CAUTION]
@@ -75,7 +75,7 @@ Campaignに接続したら、Adobe Campaign ホームページにアクセスし
 
 >[!NOTE]
 >
->Web ユーザーインターフェイスカードが表示されない場合は、A[Adobe Experience Cloud外部アカウント &#x200B;](../config/external-accounts.md)内で次のフィールドが空のままになっていないことを確認してください。**サーバー**、**テナント**、**コールバックサーバー**、**関連付けマーク**。
+>Web ユーザーインターフェイスカードが表示されない場合は、次のフィールドが[Adobe Experience Cloud外部アカウント &#x200B;](../config/external-accounts.md)内で空のままになっていないことを確認してください。**サーバー**、**テナント**、**コールバックサーバー**、**関連付けマーク**。
 
 ホームページから[&#x200B; キャンペーンCampaign コントロールパネル](../config/self-service.md)にアクセスすることもできます。
 
@@ -144,13 +144,13 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 
 ## Campaign web ユーザーインターフェイス {#ac-web-ui}
 
-Campaign v8 ユーザーは、v8.6.1 リリース以降、中央のAdobe Experience Cloud ユーザーインターフェイスを介してweb環境にアクセスできます。 Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
+Campaign v8 ユーザーは、v8.6.1 リリース以降、中央の[!DNL CX Enterprise] ユーザーインターフェイスを介して利用できるweb環境にアクセスできます。 [!DNL CX Enterprise]は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。
 
 ![Adobe Campaign web ユーザーインターフェイスホームページ](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
 >
->Campaign Web ユーザーインターフェイスは、CampaignにAdobe IDで接続しているCampaign v8 ユーザーのみが使用できます。 詳しくは、[Adobe Identity Management System（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+>Campaign Web ユーザーインターフェイスは、CampaignにAdobe IDで接続しているCampaign v8 ユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 >
 
 新しい Campaign web ユーザーインターフェイスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。 また、Campaign web ユーザーインターフェイスドキュメントにある、専用の[よくある質問のページ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/faq){target="_blank"}も参照してください。
