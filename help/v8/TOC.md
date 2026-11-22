@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1087'
 ht-degree: 89%
 ---
 
@@ -270,6 +270,7 @@ ht-degree: 89%
 + アーキテクチャ {#architecture}
   + [グローバル原則](architecture/general-architecture.md)
   + [アーキテクチャモデル](architecture/architecture.md)
+  + {hide-from-toc}[&#x200B; ビルトインパッケージ &#x200B;](architecture/built-in-packages.md)
   + [Campaign FDA デプロイメント](architecture/fda-deployment.md)
   + エンタープライズ（FFDA）デプロイメント {#ffda}
     + [Campaign FFDA とは](architecture/enterprise-deployment.md)
