@@ -26,10 +26,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 17%
+source-wordcount: '826'
+ht-degree: 16%
 ---
 # 組み込みパッケージ {#built-in-packages}
 
@@ -43,11 +43,11 @@ Adobe Campaignでは、2種類のパッケージを使用しています。 適�
 |---|---|---|
 | 目的 | チャネル、統合、アドオンなど、キャンペーン機能を提供します。 | ステージング環境から実稼動環境への独自の設定やデータの書き出しと読み込みをおこないます。 |
 | 管理者が管理します | Adobeがインストールし、管理します。 Managed Cloud Servicesでは、インストール済みの組み込みパッケージを変更することはできません。 | 作成、書き出し、読み込むことができます。 |
-| 詳細な情報 | このページ。 | [&#x200B; データパッケージの操作](../dev/packages.md) |
+| 詳細な情報 | このページ。 | [ データパッケージの操作](../dev/packages.md) |
 
 ## インストール済みパッケージの確認 {#check-installed-packages}
 
-インスタンスにインストールされているビルトインパッケージを確認するには、**[!UICONTROL 管理/設定/パッケージ管理/インストール済みパッケージ]**&#x200B;を参照します。 Campaign コントロールパネルのインスタンスのモニタリングで表示することもできます。 詳しくは、[&#x200B; キャンペーンモニタリングの概要](../start/monitor.md#monitor-instance)を参照してください。
+インスタンスにインストールされているビルトインパッケージを確認するには、**[!UICONTROL 管理/設定/パッケージ管理/インストール済みパッケージ]**&#x200B;を参照します。 Campaign コントロールパネルのインスタンスのモニタリングで表示することもできます。 詳しくは、[ キャンペーンモニタリングの概要](../start/monitor.md#monitor-instance)を参照してください。
 
 プロビジョニングされていないパッケージやアドオンが必要な場合は、Adobe カスタマーケアまたはAdobe Transition Managerにお問い合わせください。
 
@@ -65,7 +65,7 @@ Adobe Campaignでは、2種類のパッケージを使用しています。 適�
 | トランザクションメッセージの制御と実行（Message Center） | 情報システム内のイベントから生成されるトリガーメッセージを、可用性を高め、より優れたロード管理で管理します。 [詳細情報](../send/transactional.md) |
 | LINE チャネル | LINE チャネルを介して配信を送信します。 [詳細情報](../send/line/line.md) |
 | ダイレクトメールチャネル | ダイレクトメールチャネルを介して配信を送信します。 [詳細情報](../send/direct-mail.md) |
-| モバイルチャネル (SMS) | モバイルチャネル（SMS）を介して配信を送信します。 [詳細情報](../send/sms/sms.md) |
+| モバイルチャネル (SMS) | SMS コネクタ v2を含むモバイルチャネル（SMS）を介して配信を送信します（8.9.1以降で一般に利用可能）。 [詳細情報](../send/sms/sms.md) |
 | モバイルアプリチャネル | アプリを通じて、iOSおよびAndroidのデバイスにパーソナライズされた通知を送信します。 [詳細情報](../send/push.md) |
 | コンテンツマネージャー | 定期的なニュースレターまたはweb サイトを作成してから、メッセージを検証して公開します。 [詳細情報](../../automation/workflow/content-management.md) |
 | オンライン調査 (調査マネージャー) | オンラインフォームを作成、管理し、プロファイル情報の追加や変更、購読、登録解除、競合他社への参加を行います。 [詳細情報](../dev/surveys/about-surveys.md) |
@@ -92,9 +92,9 @@ Adobe Campaignでは、2種類のパッケージを使用しています。 適�
 
 ## 関連トピック {#related-topics}
 
-* [&#x200B; データパッケージの操作](../dev/packages.md)：独自のカスタムパッケージを作成、書き出し、読み込みます。
-* [&#x200B; テクニカルワークフロー](../../automation/workflow/technical-workflows.md)：組み込みのテクニカルワークフローとそれらをインストールするパッケージ。
+* [ データパッケージの操作](../dev/packages.md)：独自のカスタムパッケージを作成、書き出し、読み込みます。
+* [ テクニカルワークフロー](../../automation/workflow/technical-workflows.md)：組み込みのテクニカルワークフローとそれらをインストールするパッケージ。
 * [FFDA デプロイメントでの機能の可用性](enterprise-deployment.md#feature-availability): Enterprise （FFDA）デプロイメントでは使用できない機能。
-* [&#x200B; サポートされていない機能](../start/v7-to-v8.md#gs-removed):v8でサポートされなくなったCampaign Classic v7機能。
-* [&#x200B; グローバル原則](general-architecture.md):Managed Cloud Services環境で変更できる内容と変更できない内容。
+* [ サポートされていない機能](../start/v7-to-v8.md#gs-removed):v8でサポートされなくなったCampaign Classic v7機能。
+* [ グローバル原則](general-architecture.md):Managed Cloud Services環境で変更できる内容と変更できない内容。
 * [Campaign v8](../start/get-started.md)の基本を学ぶ：コア機能とアドオンの概要。
