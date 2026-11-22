@@ -43,11 +43,11 @@ Adobe Campaignでは、2種類のパッケージを使用しています。 適�
 |---|---|---|
 | 目的 | チャネル、統合、アドオンなど、キャンペーン機能を提供します。 | ステージング環境から実稼動環境への独自の設定やデータの書き出しと読み込みをおこないます。 |
 | 管理者が管理します | Adobeがインストールし、管理します。 Managed Cloud Servicesでは、インストール済みの組み込みパッケージを変更することはできません。 | 作成、書き出し、読み込むことができます。 |
-| 詳細な情報 | このページ。 | [ データパッケージの操作](../dev/packages.md) |
+| 詳細な情報 | このページ。 | [&#x200B; データパッケージの操作](../dev/packages.md) |
 
 ## インストール済みパッケージの確認 {#check-installed-packages}
 
-インスタンスにインストールされているビルトインパッケージを確認するには、**[!UICONTROL 管理/設定/パッケージ管理/インストール済みパッケージ]**&#x200B;を参照します。 Campaign コントロールパネルのインスタンスのモニタリングで表示することもできます。 詳しくは、[ キャンペーンモニタリングの概要](../start/monitor.md#monitor-instance)を参照してください。
+インスタンスにインストールされているビルトインパッケージを確認するには、**[!UICONTROL 管理/設定/パッケージ管理/インストール済みパッケージ]**&#x200B;を参照します。 Campaign コントロールパネルのインスタンスのモニタリングで表示することもできます。 詳しくは、[&#x200B; キャンペーンモニタリングの概要](../start/monitor.md#monitor-instance)を参照してください。
 
 プロビジョニングされていないパッケージやアドオンが必要な場合は、Adobe カスタマーケアまたはAdobe Transition Managerにお問い合わせください。
 
@@ -92,9 +92,9 @@ Adobe Campaignでは、2種類のパッケージを使用しています。 適�
 
 ## 関連トピック {#related-topics}
 
-* [ データパッケージの操作](../dev/packages.md)：独自のカスタムパッケージを作成、書き出し、読み込みます。
-* [ テクニカルワークフロー](../../automation/workflow/technical-workflows.md)：組み込みのテクニカルワークフローとそれらをインストールするパッケージ。
+* [&#x200B; データパッケージの操作](../dev/packages.md)：独自のカスタムパッケージを作成、書き出し、読み込みます。
+* [&#x200B; テクニカルワークフロー](../../automation/workflow/technical-workflows.md)：組み込みのテクニカルワークフローとそれらをインストールするパッケージ。
 * [FFDA デプロイメントでの機能の可用性](enterprise-deployment.md#feature-availability): Enterprise （FFDA）デプロイメントでは使用できない機能。
-* [ サポートされていない機能](../start/v7-to-v8.md#gs-removed):v8でサポートされなくなったCampaign Classic v7機能。
-* [ グローバル原則](general-architecture.md):Managed Cloud Services環境で変更できる内容と変更できない内容。
+* [&#x200B; サポートされていない機能](../start/v7-to-v8.md#gs-removed):v8でサポートされなくなったCampaign Classic v7機能。
+* [&#x200B; グローバル原則](general-architecture.md):Managed Cloud Services環境で変更できる内容と変更できない内容。
 * [Campaign v8](../start/get-started.md)の基本を学ぶ：コア機能とアドオンの概要。
