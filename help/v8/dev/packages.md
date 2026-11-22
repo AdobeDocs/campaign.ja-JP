@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 30b0f5eda9c80b72af5c8574e01cec6965b05564
 workflow-type: tm+mt
-source-wordcount: '2023'
-ht-degree: 96%
+source-wordcount: '2028'
+ht-degree: 93%
 ---
 # データパッケージの使用{#data-packages}
 
@@ -59,6 +59,8 @@ ht-degree: 96%
 データパッケージを使用すると、プラットフォームのカスタム設定とデータをエクスポートおよびインポートできます。 パッケージには、様々なタイプの設定やコンポーネントを含めることができ、フィルタリングされている場合とそうでない場合があります。
 
 Campaign データパッケージでは、Adobe Campaign データベースのエンティティが XML ファイルに表示されます。 パッケージでは、各エンティティがそのすべてのデータと共に表されます。
+
+このページでは、作成および管理する&#x200B;**カスタム** データパッケージについて説明します。 Campaign機能を提供するパッケージは&#x200B;**組み込みパッケージ**&#x200B;で、Adobeがインストールおよび管理します。 詳しくは、[組み込みパッケージ ](../architecture/built-in-packages.md)を参照してください。
 
 **データパッケージ**&#x200B;の原則とは、データの設定をエクスポートして別の Adobe Campaign 環境内に組み込むことです。 この[節](#data-package-best-practices)では、一貫したデータパッケージのセットを維持する方法を説明します。
 
@@ -302,11 +304,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 「**[!UICONTROL 次へ]**」、「**[!UICONTROL 開始]**」の順にクリックすると、インポートが開始されます。
 
-### ビルトインパッケージのインストール {#install-a-standard-package}
+### 組み込みパッケージ {#install-a-standard-package}
 
-ビルトインパッケージ（別名、 標準パッケージ）は、Adobe Campaign を設定するときにインストールされます。 権限、デプロイメントモデル、製品の提供に応じて、新しい標準パッケージをインポートできます。
-
-インストールできるパッケージを確認するには、ライセンス契約を参照してください。
+Adobeは、組み込みパッケージをCampaign v8にインストールして管理します。 詳しくは、[組み込みパッケージ ](../architecture/built-in-packages.md)を参照してください。
 
 ## データパッケージのベストプラクティス {#data-package-best-practices}
 
