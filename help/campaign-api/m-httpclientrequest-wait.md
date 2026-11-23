@@ -27,7 +27,7 @@ wait (requests,waitAll)
 関数はクエリには適用されませんが、HttpClientRequest binの関数です。 例：
 
 ```javascript
-var req = new HttpClientRequest("http://www.adobe.com/")
+var req = new HttpClientRequest("http://www.adobe.com/jp/")
 req.complete = function(req, context, status) { logInfo(status) }
 req.execute(false, true)
 

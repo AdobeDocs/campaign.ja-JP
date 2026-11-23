@@ -17,7 +17,7 @@ serverPort
 例：次のURLのserverPort:
 
 ```javascript
-http://adobe.com:8080/nms/test.jst
+http://adobe.com/jp:8080/nms/test.jst
 ```
 
 次の文字列を返します。

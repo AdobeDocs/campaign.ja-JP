@@ -8,7 +8,7 @@ ht-degree: 26%
 
 > 警告 :
 >
-> この関数は完全に非推奨です。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions)を参照してください。
+> この関数は完全に非推奨です。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions)を参照してください。
 
 インスタンスキーを使用して文字列を暗号化します。
 

@@ -17,7 +17,7 @@ serverName
 例：次のURLのserverName:
 
 ```javascript
-      http://adobe.com:8080/nms/test.jst?id=1234&param=dummy#aFragment
+      http://adobe.com/jp:8080/nms/test.jst?id=1234&param=dummy#aFragment
 ```
 
 次の文字列を返します。
