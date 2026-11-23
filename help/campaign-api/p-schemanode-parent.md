@@ -1,0 +1,31 @@
+---
+source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 35%
+---
+# 親
+
+親オブジェクトである[SchemaNode](c-schemanode.md) オブジェクトを返します。親オブジェクトがない場合はnullになります。
+
+```text
+parent
+```
+
+## 機能
+
+**クラスのプロパティ：** [SchemaNode](c-schemanode.md)
+
+**読み取り専用：**
+
+はい
+
+**次の場所で利用できます：**
+
+* コンテンツ管理
+* 配信プロパティ
+* タイポロジルール
+* JSSP
+* SOAP メソッド
+* Web アプリ
+* ワークフロー
