@@ -8,3 +8,5 @@ pages:
     url: /help/technotes/TOC.md
   - title: Campaign Automation Guides
     url: /help/automation/TOC.md
+  - title: Campaign API Documentation
+    url: /help/campaign-api/TOC.md
