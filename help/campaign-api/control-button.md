@@ -8,7 +8,7 @@ ht-degree: 5%
 
 ボタン：
 
-![ ボタン コントロール ](assets/button.f0aea09a.png)
+![&#x200B; ボタン コントロール &#x200B;](assets/button.f0aea09a.png)
 
 ## プロパティ
 

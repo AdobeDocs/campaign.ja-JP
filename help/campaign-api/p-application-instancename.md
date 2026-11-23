@@ -14,7 +14,7 @@ instanceName
 
 ## 機能
 
-**クラスのプロパティ：** [ アプリケーション ](c-application.md)
+**クラスのプロパティ：** [&#x200B; アプリケーション &#x200B;](c-application.md)
 
 **読み取り専用：**
 

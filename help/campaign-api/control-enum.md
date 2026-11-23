@@ -8,7 +8,7 @@ ht-degree: 3%
 
 列挙から選択したテキスト入力を制御します。
 
-![列挙コントロール ](assets/enum.e6a685da.png)
+![列挙コントロール &#x200B;](assets/enum.e6a685da.png)
 
 ## プロパティ
 

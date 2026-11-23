@@ -41,8 +41,8 @@ ht-degree: 74%
 | [読み込み](sm-session-load.md) | エンティティを読み込む |
 | [LoadAsText](sm-session-loadastext.md) | エンティティのコンテンツをテキストとして取得します |
 | [LoadIfExists](sm-session-loadifexists.md) | 存在する場合にエンティティを読み込み |
-| [ ログオフ ](sm-session-logoff.md) | 現在のセッションを閉じる |
-| [ ログオン ](sm-session-logon.md) | セッションを開始します |
+| [&#x200B; ログオフ &#x200B;](sm-session-logoff.md) | 現在のセッションを閉じる |
+| [&#x200B; ログオン &#x200B;](sm-session-logon.md) | セッションを開始します |
 | [NewInstance](sm-session-newinstance.md) | 新しいドキュメントの作成 (事前に初期化済み、未保存) |
 | [削除](sm-session-remove.md) | エンティティを削除 |
 | [ServerShutdown](sm-session-servershutdown.md) | サーバーのシャットダウンをリクエスト |

@@ -16,7 +16,7 @@ ht-degree: 12%
 | [default](p-enumeration-default.md) | 列挙のデフォルト値を提供する文字列を返します。 |
 | [説明](p-enumeration-description.md) | 列挙の説明を提供する文字列を返します。 |
 | [hasImage](p-enumeration-hasimage.md) | 列挙に画像があるかどうかを示すブール値を返します。 |
-| [ ラベル ](p-enumeration-label.md) | 列挙のラベルを提供する文字列を返します。 |
+| [&#x200B; ラベル &#x200B;](p-enumeration-label.md) | 列挙のラベルを提供する文字列を返します。 |
 | [name](p-enumeration-name.md) | 列挙の名前を提供する文字列を返します。 |
 | [values](p-enumeration-values.md) | 各プロパティが[EnumerationValue](c-enumerationvalue.md) オブジェクトで、その値でインデックスが付けられているオブジェクトを返します。 |
 

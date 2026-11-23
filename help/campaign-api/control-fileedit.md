@@ -8,7 +8,7 @@ ht-degree: 0%
 
 このコントロールを使用すると、ファイル名を入力できます。
 
-![FileEdit コントロール ](assets/fileedit.56228d2a.png)
+![FileEdit コントロール &#x200B;](assets/fileedit.56228d2a.png)
 
 ## プロパティ
 

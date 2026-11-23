@@ -8,7 +8,7 @@ ht-degree: 0%
 
 コレクションをタブ形式で表示および編集します。
 
-![NotebookList コントロール ](assets/notebooklist.688e32b9.png)
+![NotebookList コントロール &#x200B;](assets/notebooklist.688e32b9.png)
 
 ## プロパティ
 

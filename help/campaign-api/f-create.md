@@ -33,7 +33,7 @@ var recipient = NLWS.nmsRecipient.create(
 recipient.save()
 ```
 
-ドキュメントは自動的にデータベースに保存されません。 エンティティで⌐⌐[save （） ](m-entity-save.md) メソッドを使用する必要があります。
+ドキュメントは自動的にデータベースに保存されません。 エンティティで⌐⌐[save （） &#x200B;](m-entity-save.md) メソッドを使用する必要があります。
 
 ## 機能
 

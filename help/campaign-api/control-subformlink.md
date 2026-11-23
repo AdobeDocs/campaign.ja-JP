@@ -8,7 +8,7 @@ ht-degree: 2%
 
 サブフォームを開くリンク。
 
-![SubFormLink コントロール ](assets/urlbutton.d1cf6f42.png)
+![SubFormLink コントロール &#x200B;](assets/urlbutton.d1cf6f42.png)
 
 ## プロパティ
 

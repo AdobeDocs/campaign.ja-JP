@@ -49,7 +49,7 @@ UPDATEまたはINSERT SQL コマンドで更新または挿入されたレコー
 sqlExecOnDataSource("UPDATE XtkOption SET sStringValue = $(sz) WHERE sName = $(sz)", oracleExternalDB, 'WdbcOptions_TableSpaceWork_nms:extAccount:' + sExtAccount)
 ```
 
-この関数のパラメーターとして設定されたオプション変数は、[sqlGetString （query, value1, ...） ](f-sqlgetstring.md)で定義されています
+この関数のパラメーターとして設定されたオプション変数は、[sqlGetString （query, value1, ...） &#x200B;](f-sqlgetstring.md)で定義されています
 
 ## 機能
 

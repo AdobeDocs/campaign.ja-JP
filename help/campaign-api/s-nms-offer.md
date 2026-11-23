@@ -15,7 +15,7 @@ ht-degree: 61%
 | [キャンセル済み](sm-offer-cancel.md) | オファーの実施要件をキャンセルします。 |
 | [CheckValidationAccess](sm-offer-checkvalidationaccess.md) | 現在のオペレーターがオファーをレビューできるかどうかを確認します。 |
 | [完了](sm-offer-complete.md) | テンプレートから作成したオファーを完了します (一貫性管理およびスペースマッピング)。 |
-| [ デプロイ ](sm-offer-deploy.md) | 環境にオファーをデプロイ |
+| [&#x200B; デプロイ &#x200B;](sm-offer-deploy.md) | 環境にオファーをデプロイ |
 | [DeployPublish](sm-offer-deploypublish.md) | 環境に対するオファーのデプロイメントと公開。 |
 | [GetCompatibleOfferViews](sm-offer-getcompatibleofferviews.md) | このオファーと互換性がある表示のリストを返します。 |
 | [StartValidation](sm-offer-startvalidation.md) | 承認を得るためにオファーを送信します。 |

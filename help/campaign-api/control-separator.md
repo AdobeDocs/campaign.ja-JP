@@ -8,7 +8,7 @@ ht-degree: 10%
 
 テキストと画像で区切り記号を表示します。
 
-![区切り記号コントロール ](assets/separator.70317a27.png)
+![区切り記号コントロール &#x200B;](assets/separator.70317a27.png)
 
 ## プロパティ
 

@@ -54,8 +54,8 @@ var list = [ "http://www.adobe.com/", "http://www.google.com/", "http://www.mozi
 | --- | --- |
 | [body](p-httpclientrequest-body.md) | HTTP クエリの本文。 |
 | [完了](p-httpclientrequest-complete.md) | 非同期クエリが終了したときに呼び出す関数。 |
-| [ ヘッダー](p-httpclientrequest-header.md) | ヘッダーのHTTP ヘッダーを含むJavaScript オブジェクト。 |
-| [ メソッド ](p-httpclientrequest-method.md) | 文字列の形式のHTTP メソッド |
+| [&#x200B; ヘッダー](p-httpclientrequest-header.md) | ヘッダーのHTTP ヘッダーを含むJavaScript オブジェクト。 |
+| [&#x200B; メソッド &#x200B;](p-httpclientrequest-method.md) | 文字列の形式のHTTP メソッド |
 | [回答](p-httpclientrequest-response.md) | HTTP クエリの応答。 これはHttpClientResponse タイプのオブジェクトです |
 | [url](p-httpclientrequest-url.md) | リモートサーバーのアドレス。 |
 

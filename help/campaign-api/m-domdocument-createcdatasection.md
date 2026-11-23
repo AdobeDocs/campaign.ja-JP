@@ -18,7 +18,7 @@ CDATA ノードに挿入する&#x200B;**data**&#x200B;文字の文字列。
 
 ## 戻り値
 
-[CDATA ノード ](c-domcharacterdata.md)が作成されました。
+[CDATA ノード &#x200B;](c-domcharacterdata.md)が作成されました。
 
 ## 機能
 

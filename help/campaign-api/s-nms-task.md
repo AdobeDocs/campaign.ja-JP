@@ -17,7 +17,7 @@ ht-degree: 36%
 | [CheckPlanningTask](sm-task-checkplanningtask.md) | タスク演算子のスケジュール内でオーバーロードをチェックするために使用される内部関数（オーバーロードの場合は「true」を返します）。 また、関連するタスクスケジュールの一貫性を確認し、必要に応じて更新します。 |
 | [CheckValidationAccess](sm-task-checkvalidationaccess.md) | 現在のオペレーターがタスクをレビューできるかどうかを検証します。 |
 | [完了](sm-task-finish.md) | タスクを完了します。 |
-| [ リセット ](sm-task-reset.md) | タスクを再初期化します。 |
+| [&#x200B; リセット &#x200B;](sm-task-reset.md) | タスクを再初期化します。 |
 | [検証](sm-task-validation.md) | リソースを承認します。 |
 
 ## 汎用メソッド

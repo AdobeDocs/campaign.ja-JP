@@ -6,7 +6,7 @@ ht-degree: 27%
 ---
 # saveString
 
-このコマンドは非推奨です。[saveFile （） ](f-savefile.md)を使用してください。 文字列をファイルに保存します。
+このコマンドは非推奨です。[saveFile （） &#x200B;](f-savefile.md)を使用してください。 文字列をファイルに保存します。
 
 ```text
 saveString (text, filename [, codePage ])

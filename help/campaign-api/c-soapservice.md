@@ -22,7 +22,7 @@ var cnx = new HttpSoapConnection("http://localhost/nl/jsp/soaprouter.jsp", "utf-
 
 * 接続は非同期モードで作成する必要があります
 
-*  
+* &#x200B;
 
   [開始](m-soapservice-start.md)
 
@@ -61,8 +61,8 @@ var list = [ "XtkDatabaseId", "XtkKey", "WdbcTimeZone", "NmsServer_URL", "NmsBro
 | プロパティ | 説明 |
 | --- | --- |
 | [完了](p-soapservice-complete.md) | 非同期クエリが終了したときに呼び出す関数。 |
-| [ ヘッダー](p-soapservice-header.md) | SOAP ヘッダーにコピーされた文字列の略語。 |
-| [ タイムアウト ](p-soapservice-timeout.md) | 非同期クエリの場合の最大待機時間（ミリ秒単位）。 このパラメーターが定義されていない場合、待機時間は5分です。 |
+| [&#x200B; ヘッダー](p-soapservice-header.md) | SOAP ヘッダーにコピーされた文字列の略語。 |
+| [&#x200B; タイムアウト &#x200B;](p-soapservice-timeout.md) | 非同期クエリの場合の最大待機時間（ミリ秒単位）。 このパラメーターが定義されていない場合、待機時間は5分です。 |
 
 ## 機能
 

@@ -15,7 +15,7 @@ Web アプリケーション定義
 | [WebAppを削除](sm-webapp-deletewebapp.md) | Web アプリケーション w を削除 |
 | [DictionaryCheck](sm-webapp-dictionarycheck.md) | web アプリケーションで翻訳する文字列を検索します。 |
 | [DictionaryExport](sm-webapp-dictionaryexport.md) | 翻訳する文字列をエクスポートします。 |
-| [辞書インポート ](sm-webapp-dictionaryimport.md) | CXV または XLIFF ファイルを使用して翻訳された文字列をインポートします。 |
+| [辞書インポート &#x200B;](sm-webapp-dictionaryimport.md) | CXV または XLIFF ファイルを使用して翻訳された文字列をインポートします。 |
 | [GenerateSchema](sm-webapp-generateschema.md) |  |
 | [GetUsedLanguagesEnum](sm-webapp-getusedlanguagesenum.md) | Web アプリケーションで使用される言語で列挙を作成します。 |
 | [InvalidateWebAppCache](sm-webapp-invalidatewebappcache.md) | 一連の web アプリケーションのキャッシュを無効にします。 |

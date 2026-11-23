@@ -8,7 +8,7 @@ ht-degree: 2%
 
 ボタンのように動作するハイパーリンク。
 
-![UrlButton コントロール ](assets/urlbutton.d1cf6f42.png)
+![UrlButton コントロール &#x200B;](assets/urlbutton.d1cf6f42.png)
 
 ## プロパティ
 

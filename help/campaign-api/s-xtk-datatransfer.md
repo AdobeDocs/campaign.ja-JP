@@ -13,7 +13,7 @@ ht-degree: 66%
 | メソッド | 説明 |
 | --- | --- |
 | [自動検出](sm-datatransfer-autodetect.md) | 自動検出を開始して、ファイルの最初のラインを返します |
-| [ クリーンアップ ](sm-datatransfer-cleanup.md) | 実行済みインスタンスから履歴をパージ |
+| [&#x200B; クリーンアップ &#x200B;](sm-datatransfer-cleanup.md) | 実行済みインスタンスから履歴をパージ |
 | [ExportPreview](sm-datatransfer-exportpreview.md) | クエリの最初の数行に対する出力ファイル列のプレビューを計算 |
 | [GetFilesToDownload](sm-datatransfer-getfilestodownload.md) | この転送で使用されるファイルのうち、サーバーに存在するファイルのリストを返す |
 | [RejectExport](sm-datatransfer-rejectexport.md) | 却下のエクスポートを開始 |

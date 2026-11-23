@@ -6,7 +6,7 @@ ht-degree: 23%
 ---
 # toXML
 
-[MemoryBuffer](c-memorybuffer.md)の内容から取得したXML JavaScript オブジェクトを返します。 この関数は廃止されました。[toDocument （） ](m-memorybuffer-todocument.md)を使用してください
+[MemoryBuffer](c-memorybuffer.md)の内容から取得したXML JavaScript オブジェクトを返します。 この関数は廃止されました。[toDocument （） &#x200B;](m-memorybuffer-todocument.md)を使用してください
 
 ```text
 toXML ( [codePage ])

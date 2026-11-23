@@ -6,7 +6,7 @@ ht-degree: 20%
 ---
 # saveXmlString
 
-このコマンドは非推奨です。[saveXmlFile （） ](f-savexmlfile.md)を使用してください。 XML ドキュメントに対応する文字列をファイルに保存します。
+このコマンドは非推奨です。[saveXmlFile （） &#x200B;](f-savexmlfile.md)を使用してください。 XML ドキュメントに対応する文字列をファイルに保存します。
 
 ```text
 saveXmlString (text, filename [, codePage ])

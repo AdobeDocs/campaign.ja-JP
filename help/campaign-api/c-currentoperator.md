@@ -26,13 +26,13 @@ var operator = application.operator logInfo("login: " + operator.login) logInfo(
 
 | プロパティ | 説明 |
 | --- | --- |
-| [ ログイン ](p-currentoperator-login.md) | 現在の演算子のログインを返します。 |
+| [&#x200B; ログイン &#x200B;](p-currentoperator-login.md) | 現在の演算子のログインを返します。 |
 | [id](p-currentoperator-id.md) | 現在の演算子の内部識別子を返します。 |
 | [computeString](p-currentoperator-computestring.md) | 現在の演算子の説明文字列を返します。 デフォルトでは、これはオペレーターの名前の後にログインが続きます。 |
-| [ グループ ](p-currentoperator-groups.md) | 現在のオペレーターグループ内の識別子のリストを返します。 |
+| [&#x200B; グループ &#x200B;](p-currentoperator-groups.md) | 現在のオペレーターグループ内の識別子のリストを返します。 |
 | [権限](p-currentoperator-rights.md) | 現在のオペレーターの権限のリストを返します。 |
-| [ タイムゾーン ](p-currentoperator-timezone.md) | 現在の演算子で使用されているタイムゾーンの名前を返します。 |
-| [ ホーム ](p-currentoperator-home.md) | 現在のオペレーターのルートフォルダーの名前を返します。 |
+| [&#x200B; タイムゾーン &#x200B;](p-currentoperator-timezone.md) | 現在の演算子で使用されているタイムゾーンの名前を返します。 |
+| [&#x200B; ホーム &#x200B;](p-currentoperator-home.md) | 現在のオペレーターのルートフォルダーの名前を返します。 |
 
 ## 機能
 

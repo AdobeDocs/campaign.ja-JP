@@ -12,12 +12,12 @@ ht-degree: 16%
 
 | プロパティ | 説明 |
 | --- | --- |
-| [ ラベル ](p-schemakey-label.md) | キーの短い説明を返します。 |
+| [&#x200B; ラベル &#x200B;](p-schemakey-label.md) | キーの短い説明を返します。 |
 | [説明](p-schemakey-description.md) | キーの説明を返します。 |
 | [name](p-schemakey-name.md) | キーの識別子を返します。 |
 | [isInternal](p-schemakey-isinternal.md) | キーが内部キーの場合はtrueを返します。 |
 | [allowEmptyPart](p-schemakey-allowemptypart.md) | キーのフィールドを空にできる場合はtrueを返します（少なくとも1つのフィールドを入力する必要があります）。 |
-| [ フィールド ](p-schemakey-fields.md) | キーのフィールド （[SchemaNode](c-schemanode.md)）のフィールドを含むテーブルを返します。 |
+| [&#x200B; フィールド &#x200B;](p-schemakey-fields.md) | キーのフィールド （[SchemaNode](c-schemanode.md)）のフィールドを含むテーブルを返します。 |
 
 ## 機能
 

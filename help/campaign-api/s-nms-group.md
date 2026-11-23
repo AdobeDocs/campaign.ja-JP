@@ -13,7 +13,7 @@ ht-degree: 60%
 | メソッド | 説明 |
 | --- | --- |
 | [BuildFromCube](sm-group-buildfromcube.md) | キューブのセルの選択範囲に基づいてリストを構築します。 |
-| [ クリーンアップ ](sm-group-cleanup.md) | インポートログをパージします |
+| [&#x200B; クリーンアップ &#x200B;](sm-group-cleanup.md) | インポートログをパージします |
 | [ImportFile](sm-group-importfile.md) | リストのインポートを開始します。 |
 | [登録](sm-group-register.md) | 1 つまたは複数のレコードをリストに追加 |
 | [登録解除](sm-group-unregister.md) | 選択したレコードをリストから削除 |

@@ -8,4 +8,4 @@ ht-degree: 3%
 
 > 警告 :
 >
-> このドキュメントは更新されました。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#decryptstring-headding-anchor-decryptstring-javascript)を参照してください。
+> このドキュメントは更新されました。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#decryptstring-headding-anchor-decryptstring-javascript)を参照してください。

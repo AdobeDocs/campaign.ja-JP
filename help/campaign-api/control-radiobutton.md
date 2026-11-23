@@ -8,7 +8,7 @@ ht-degree: 14%
 
 ラジオボタンを使用すると、複数のオプションから選択できます。 &lt;input> タグは、可能なオプションを列挙するために使用されます。
 
-![RadioButton コントロール ](assets/radio.11bc90a8.png)
+![RadioButton コントロール &#x200B;](assets/radio.11bc90a8.png)
 
 ## プロパティ
 

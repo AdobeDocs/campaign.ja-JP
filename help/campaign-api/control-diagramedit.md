@@ -8,7 +8,7 @@ ht-degree: 1%
 
 このコントロールは、ワークフローやアンケートなどのダイアグラムの編集に使用されます。
 
-![DiagramEdit コントロール ](assets/diagramedit.d750db7e.png)
+![DiagramEdit コントロール &#x200B;](assets/diagramedit.d750db7e.png)
 
 ## プロパティ
 

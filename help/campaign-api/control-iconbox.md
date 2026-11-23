@@ -8,7 +8,7 @@ ht-degree: 3%
 
 複数のページ選択を有効にするアイコンのリスト。
 
-![Iconbox コントロール ](assets/iconbox.05daa4bf.png)
+![Iconbox コントロール &#x200B;](assets/iconbox.05daa4bf.png)
 
 ## プロパティ
 

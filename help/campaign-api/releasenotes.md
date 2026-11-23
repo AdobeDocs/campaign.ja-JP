@@ -10,9 +10,9 @@ ht-degree: 5%
 
 12/04/2021
 
-* [ プライバシー要求API](s-nms-privacyrequest.md)が追加されました。
-* [set オプション ](f-setoption.md)関数が更新されました。
-* xtk:sessionの[logon （） ](sm-session-logon.md)関数が更新されました。
+* [&#x200B; プライバシー要求API](s-nms-privacyrequest.md)が追加されました。
+* [set オプション &#x200B;](f-setoption.md)関数が更新されました。
+* xtk:sessionの[logon （） &#x200B;](sm-session-logon.md)関数が更新されました。
 
 05/16/2021
 

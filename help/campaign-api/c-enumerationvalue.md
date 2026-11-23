@@ -12,7 +12,7 @@ ht-degree: 13%
 
 | プロパティ | 説明 |
 | --- | --- |
-| [ ラベル ](p-enumerationvalue-label.md) | 現在の列挙値の簡単な説明を提供する文字列を返します。 |
+| [&#x200B; ラベル &#x200B;](p-enumerationvalue-label.md) | 現在の列挙値の簡単な説明を提供する文字列を返します。 |
 | [説明](p-enumerationvalue-description.md) | 現在の列挙値の説明を提供する文字列を返します。 |
 | [値](p-enumerationvalue-value.md) | 現在の列挙値の値を提供する文字列を返します。 |
 | [name](p-enumerationvalue-name.md) | 現在の列挙値の名前を提供する文字列を返します。 |

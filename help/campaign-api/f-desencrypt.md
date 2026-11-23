@@ -8,7 +8,7 @@ ht-degree: 8%
 
 > 警告 :
 >
-> この関数は廃止されました。[cryptString （） ](f-cryptstring.md)を使用してください。
+> この関数は廃止されました。[cryptString （） &#x200B;](f-cryptstring.md)を使用してください。
 
 DES アルゴリズムを使用して文字列をデジタル化します。
 

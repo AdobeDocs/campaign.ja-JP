@@ -22,7 +22,7 @@ ht-degree: 22%
 
 | プロパティ | 説明 |
 | --- | --- |
-| [ データ ](p-domcharacterdata-data.md) | ノードのテキスト値。 |
+| [&#x200B; データ &#x200B;](p-domcharacterdata-data.md) | ノードのテキスト値。 |
 | [length](p-domcharacterdata-length.md) | ノード内の文字の数。 |
 
 ## 機能

@@ -8,7 +8,7 @@ ht-degree: 10%
 
 > 警告 :
 >
-> この関数は廃止されました。[decryptString （） ](f-decryptstring.md)を使用してください。
+> この関数は廃止されました。[decryptString （） &#x200B;](f-decryptstring.md)を使用してください。
 
 DES アルゴリズムを使用してデータを読み解きます。
 

@@ -8,7 +8,7 @@ ht-degree: 0%
 
 このコントロールでは、システム列挙から値を選択できます。
 
-![SysEnum コントロール ](assets/sysenum.1eccf324.png)
+![SysEnum コントロール &#x200B;](assets/sysenum.1eccf324.png)
 
 ## プロパティ
 

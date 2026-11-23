@@ -22,7 +22,7 @@ dispose ()
 
 ## 備考
 
-[application.getConnection （） ](m-application-getconnection.md) メソッドを使用して作成された接続は、スクリプトの最後で自動的に解放されます。 このメソッドの呼び出しは、長寿命のスクリプトに役立ちます。
+[application.getConnection （） &#x200B;](m-application-getconnection.md) メソッドを使用して作成された接続は、スクリプトの最後で自動的に解放されます。 このメソッドの呼び出しは、長寿命のスクリプトに役立ちます。
 
 ## 機能
 

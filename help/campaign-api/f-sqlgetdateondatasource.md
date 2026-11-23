@@ -26,7 +26,7 @@ SQL クエリの&#x200B;**value1, ...**&#x200B;変数。
 
 ## 備考
 
-「データソース」パラメーターは、[sqlExecOnDataSource （query, dataSource, value1, ...） ](f-sqlexecondatasource.md)で定義されています 関数この関数のパラメーターであるオプション変数は、[sqlGetString （query, value1, ...） ](f-sqlgetstring.md)で定義されています
+「データソース」パラメーターは、[sqlExecOnDataSource （query, dataSource, value1, ...） &#x200B;](f-sqlexecondatasource.md)で定義されています 関数この関数のパラメーターであるオプション変数は、[sqlGetString （query, value1, ...） &#x200B;](f-sqlgetstring.md)で定義されています
 
 ## 機能
 

@@ -19,12 +19,12 @@ ht-degree: 6%
 | [batchDelete](m-dbengine-batchdelete.md) | テーブルのレコードをパケットごとに削除します。 |
 | [破棄](m-dbengine-dispose.md) | その接続にリンクされているすべてのリソースから接続を解放します。 |
 | [実行](m-dbengine-execute.md) | SQL コマンドを実行します。 |
-| [exec](m-dbengine-exec.md) | execute コマンドのエイリアス。 この関数は廃止されました。[execute （） ](m-dbengine-execute.md)を使用してください |
-| [ クエリ ](m-dbengine-query.md) | SELECT タイプ SQL クエリを実行します。 |
+| [exec](m-dbengine-exec.md) | execute コマンドのエイリアス。 この関数は廃止されました。[execute （） &#x200B;](m-dbengine-execute.md)を使用してください |
+| [&#x200B; クエリ &#x200B;](m-dbengine-query.md) | SELECT タイプ SQL クエリを実行します。 |
 | [queryWithTypes](m-dbengine-querywithtypes.md) | 列タイプを指定したSELECT タイプ SQL クエリを実行します。 |
 | [begin](m-dbengine-begin.md) | 接続で新しいトランザクションを開始します。 |
-| [ コミット ](m-dbengine-commit.md) | 接続中のトランザクションを承認します。 |
-| [ ロールバック ](m-dbengine-rollback.md) | 接続中のトランザクションをキャンセルします。 |
+| [&#x200B; コミット &#x200B;](m-dbengine-commit.md) | 接続中のトランザクションを承認します。 |
+| [&#x200B; ロールバック &#x200B;](m-dbengine-rollback.md) | 接続中のトランザクションをキャンセルします。 |
 
 ## プロパティ
 

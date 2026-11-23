@@ -12,7 +12,7 @@ ht-degree: 47%
 
 | メソッド | 説明 |
 | --- | --- |
-| [ デプロイ ](sm-offerspace-deploy.md) | スペースを環境にデプロイします。 |
+| [&#x200B; デプロイ &#x200B;](sm-offerspace-deploy.md) | スペースを環境にデプロイします。 |
 | [GetGeneratedCode](sm-offerspace-getgeneratedcode.md) | このスペースに対して生成されたコードを復元します。 |
 | [GetUrls](sm-offerspace-geturls.md) | このオファースペースへのアクセス URL を取得します |
 | [公開](sm-offerspace-publish.md) | インバウンドスペースを公開します。 |

@@ -8,7 +8,7 @@ ht-degree: 1%
 
 チェックするボタン。
 
-![CheckBox コントロール ](assets/checkbox.73afe90c.png)
+![CheckBox コントロール &#x200B;](assets/checkbox.73afe90c.png)
 
 ## プロパティ
 

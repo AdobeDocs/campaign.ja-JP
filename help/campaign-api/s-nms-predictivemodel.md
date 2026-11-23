@@ -14,7 +14,7 @@ ht-degree: 7%
 | --- | --- |
 | [BuildScoringFunction](sm-predictivemodel-buildscoringfunction.md) | モデルのスコアリング関数を生成します。 |
 | [GetScoringXtkExpr](sm-predictivemodel-getscoringxtkexpr.md) | スコアを計算するXTK式を提供します。 |
-| [ トレーニング ](sm-predictivemodel-train.md) | モデルをトレーニングします。 |
+| [&#x200B; トレーニング &#x200B;](sm-predictivemodel-train.md) | モデルをトレーニングします。 |
 
 ## 汎用メソッド
 

@@ -30,7 +30,7 @@ ht-degree: 7%
 | [instanceVarDir](p-application-instancevardir.md) | スクリプトが実行されるインスタンスの「var」ディレクトリの完全パス。 |
 | [instanceUploadDir](p-application-instanceuploaddir.md) | スクリプトが実行されるインスタンスの「アップロード」ディレクトリのフルパス。 |
 | [演算子](p-application-operator.md) | 現在の演算子（名前、識別子、権限など）に関する情報を含むオブジェクトを返します。 |
-| [ ロケール ](p-application-locale.md) | インスタンスのローカルに一致する文字列を返します。 |
+| [&#x200B; ロケール &#x200B;](p-application-locale.md) | インスタンスのローカルに一致する文字列を返します。 |
 
 ## 機能
 

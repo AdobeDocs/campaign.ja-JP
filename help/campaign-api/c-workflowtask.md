@@ -21,7 +21,7 @@ ht-degree: 4%
 | [errorTransition](m-workflowtask-errortransition.md) | アクティビティの「エラー」トランジションを返します。 |
 | [transitionByType](m-workflowtask-transitionbytype.md) | 指定された型に対応する遷移を返します。 |
 | [transitionByName](m-workflowtask-transitionbyname.md) | 指定された名前に対応するトランジションを返します。 |
-| [ トランジション ](m-workflowtask-transitions.md) | アクティビティのトランジションのリストを返します。 |
+| [&#x200B; トランジション &#x200B;](m-workflowtask-transitions.md) | アクティビティのトランジションのリストを返します。 |
 | [待機](m-workflowtask-wait.md) | シグナルを待つ。 |
 
 ## 機能

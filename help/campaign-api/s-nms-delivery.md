@@ -46,7 +46,7 @@ ht-degree: 77%
 | [LaunchFCP](sm-delivery-launchfcp.md) | 配信の配達確認のコピーを開始 |
 | [LoadExpandedContents](sm-delivery-loadexpandedcontents.md) | 依存関係で前処理するコンポーネントのリストを読み込みます (パーソナライゼーションブロック、オプション、追加スクリプトオブジェクトなど)。 |
 | [一時停止](sm-delivery-pause.md) | 配信を休止します。 |
-| [ プレイ ](sm-delivery-play.md) | 配信を開始します。 |
+| [&#x200B; プレイ &#x200B;](sm-delivery-play.md) | 配信を開始します。 |
 | [準備](sm-delivery-prepare.md) | 配信分析 : ターゲティングとパーソナライゼーション |
 | [PrepareAndStart](sm-delivery-prepareandstart.md) | 配信を分析し、エラーがない場合は直ちに実行 |
 | [PrepareFromId](sm-delivery-preparefromid.md) | 配信を分析します。 |

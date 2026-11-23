@@ -8,7 +8,7 @@ ht-degree: 3%
 
 複数のページを表示するタブのリスト。
 
-![ ノートブック コントロール ](assets/notebook.3b531a46.png)
+![&#x200B; ノートブック コントロール &#x200B;](assets/notebook.3b531a46.png)
 
 ## プロパティ
 

@@ -18,7 +18,7 @@ createComment (data)
 
 ## 戻り値
 
-[ コメント ](c-domcharacterdata.md)が作成されました。
+[&#x200B; コメント &#x200B;](c-domcharacterdata.md)が作成されました。
 
 ## 機能
 

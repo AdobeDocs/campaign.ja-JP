@@ -24,7 +24,7 @@ setEntry (filename, buffer)
 
 ## 備考
 
-[save （） ](m-zipfile-save.md) メソッドが呼び出されるまで、アーカイブはディスク上で効果的に変更されません。
+[save （） &#x200B;](m-zipfile-save.md) メソッドが呼び出されるまで、アーカイブはディスク上で効果的に変更されません。
 
 ## 機能
 

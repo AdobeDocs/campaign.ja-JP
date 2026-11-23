@@ -12,7 +12,7 @@ ht-degree: 40%
 
 | メソッド | 説明 |
 | --- | --- |
-| [ デプロイ ](sm-offercategory-deploy.md) | 環境へのカテゴリのデプロイ。 |
+| [&#x200B; デプロイ &#x200B;](sm-offercategory-deploy.md) | 環境へのカテゴリのデプロイ。 |
 | [GetAccessInfo](sm-offercategory-getaccessinfo.md) | 匿名モードの継承プロパティを返します。 |
 | [GoLive](sm-offercategory-golive.md) | カテゴリの公開。 |
 

@@ -26,8 +26,8 @@ escapeXmlStr (value)
 
 * &amp;
 * &lt; &lt;
-* > >
-* &quot; &amp;quot;
+* &#x200B;> >
+* &quot; &quot;
 
 ## 機能
 

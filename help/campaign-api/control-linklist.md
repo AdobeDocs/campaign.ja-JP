@@ -8,7 +8,7 @@ ht-degree: 1%
 
 コレクションの編集を制御します。
 
-![LinkList コントロール ](assets/linklist.8b71bb0e.png)
+![LinkList コントロール &#x200B;](assets/linklist.8b71bb0e.png)
 
 ## プロパティ
 

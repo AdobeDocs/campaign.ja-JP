@@ -30,7 +30,7 @@ var hasMRM = application.hasPackage("nms:mrm")
 
 ## 機能
 
-**クラスのメソッド：** [ アプリケーション ](c-application.md)
+**クラスのメソッド：** [&#x200B; アプリケーション &#x200B;](c-application.md)
 
 **次の場所で利用できます：**
 

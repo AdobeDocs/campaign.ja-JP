@@ -6,7 +6,7 @@ ht-degree: 22%
 ---
 # exec
 
-execute コマンドのエイリアス。 この関数は廃止されました。[execute （） ](m-dbengine-execute.md)を使用してください
+execute コマンドのエイリアス。 この関数は廃止されました。[execute （） &#x200B;](m-dbengine-execute.md)を使用してください
 
 ```text
 exec (command [, value1, ... ])

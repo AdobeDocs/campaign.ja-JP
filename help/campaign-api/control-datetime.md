@@ -8,7 +8,7 @@ ht-degree: 2%
 
 日時タイプ コントロールを使用すると、日付と時刻を入力できます。
 
-![日時コントロール ](assets/datetime.b1989ea6.png)
+![日時コントロール &#x200B;](assets/datetime.b1989ea6.png)
 
 ## プロパティ
 

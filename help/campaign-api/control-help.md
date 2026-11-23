@@ -8,7 +8,7 @@ ht-degree: 14%
 
 テキストと画像を表示します。
 
-![ ヘルプ コントロール ](assets/help.67cf3e33.png)
+![&#x200B; ヘルプ コントロール &#x200B;](assets/help.67cf3e33.png)
 
 ## プロパティ
 

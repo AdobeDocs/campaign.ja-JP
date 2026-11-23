@@ -17,7 +17,7 @@ Aは、ファイルとの間でデータを操作するための中間オブジ�
 | [破棄](m-memorybuffer-dispose.md) | オブジェクトで使用されるリソースを解放します。 |
 | [load](m-memorybuffer-load.md) | ファイルの内容をバッファに読み込みます。 |
 | [保存](m-memorybuffer-save.md) | バッファの内容をファイルに保存します。 |
-| [toXML](m-memorybuffer-toxml.md) | [MemoryBuffer](c-memorybuffer.md)の内容から取得したXML JavaScript オブジェクトを返します。 この関数は廃止されました。[toDocument （） ](m-memorybuffer-todocument.md)を使用してください |
+| [toXML](m-memorybuffer-toxml.md) | [MemoryBuffer](c-memorybuffer.md)の内容から取得したXML JavaScript オブジェクトを返します。 この関数は廃止されました。[toDocument （） &#x200B;](m-memorybuffer-todocument.md)を使用してください |
 | [toDocument](m-memorybuffer-todocument.md) | このバッファーのテキストコンテンツからXML ドキュメントを返します。 |
 | [toString](m-memorybuffer-tostring.md) | [MemoryBuffer](c-memorybuffer.md)の内容を文字列の形式で返します。 |
 | [fromString](m-memorybuffer-fromstring.md) | バッファに文字列の内容を読み込みます。 |
@@ -37,7 +37,7 @@ Aは、ファイルとの間でデータを操作するための中間オブジ�
 
 | プロパティ | 説明 |
 | --- | --- |
-| [ サイズ ](p-memorybuffer-size.md) | バッファのサイズをバイト単位で返します。 |
+| [&#x200B; サイズ &#x200B;](p-memorybuffer-size.md) | バッファのサイズをバイト単位で返します。 |
 | [isEmpty](p-memorybuffer-isempty.md) | バッファが空の場合はtrueを返します。 |
 
 ## 機能

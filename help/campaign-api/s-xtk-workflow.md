@@ -12,7 +12,7 @@ ht-degree: 5%
 
 | メソッド | 説明 |
 | --- | --- |
-| [ クリーンアップ ](sm-workflow-cleanup.md) | ワークフロー履歴を消去します。 |
+| [&#x200B; クリーンアップ &#x200B;](sm-workflow-cleanup.md) | ワークフロー履歴を消去します。 |
 | [DeleteResult](sm-workflow-deleteresult.md) | 1つ以上のアクティビティの結果を消去します。 |
 | [実行](sm-workflow-execute.md) | ワークフローをすぐに実行し、完了するのを待ちます。 |
 | [ExecuteInstance](sm-workflow-executeinstance.md) | ワークフローをすぐに実行し、完了するのを待ちます。 |
@@ -25,9 +25,9 @@ ht-degree: 5%
 | [再起動](sm-workflow-restart.md) | ワークフローの停止と開始をリンクします。 |
 | [RestartTask](sm-workflow-restarttask.md) | 完了した1つ以上のタスクを強制的に再開します。 |
 | [SetLogin](sm-workflow-setlogin.md) | 実行アカウントを変更します。 |
-| [ シミュレート ](sm-workflow-simulate.md) | シミュレーションモードでワークフローを開始します。 |
+| [&#x200B; シミュレート &#x200B;](sm-workflow-simulate.md) | シミュレーションモードでワークフローを開始します。 |
 | [SimulateWithParameters](sm-workflow-simulatewithparameters.md) | シミュレーションモードでワークフローを開始し、パラメーターを指定します。 |
-| [ スポーン ](sm-workflow-spawn.md) | テンプレートからワークフローインスタンスを作成し、パッチを適用してから、このワークフローを開始します。 |
+| [&#x200B; スポーン &#x200B;](sm-workflow-spawn.md) | テンプレートからワークフローインスタンスを作成し、パッチを適用してから、このワークフローを開始します。 |
 | [SpawnWithParameters](sm-workflow-spawnwithparameters.md) | テンプレートからワークフローインスタンスを作成し、このインスタンスで[StartWithParameters](sm-workflow-startwithparameters.md) メソッドを呼び出します。 |
 | [SpawnWithParametersEx](sm-workflow-spawnwithparametersex.md) | モデルからワークフローインスタンスを作成し、このインスタンスでメソッド [StartWithParameters](sm-workflow-startwithparameters.md)または[SimulateWithParameters](sm-workflow-simulatewithparameters.md)を呼び出します。 |
 | [開始](sm-workflow-start.md) | ワークフローの実行を開始または再開します。 |

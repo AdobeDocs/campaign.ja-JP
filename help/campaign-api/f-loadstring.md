@@ -6,7 +6,7 @@ ht-degree: 28%
 ---
 # loadString
 
-このコマンドは非推奨です。⌐[loadFile （） ](f-loadfile.md)を使用してください。 テキストファイルの内容を返します
+このコマンドは非推奨です。⌐[loadFile （） &#x200B;](f-loadfile.md)を使用してください。 テキストファイルの内容を返します
 
 ```text
 loadString (filename [, codePage ])

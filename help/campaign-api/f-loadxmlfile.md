@@ -10,7 +10,7 @@ ht-degree: 17%
 >
 > ファイル API経由のアクセスは、Adobe Campaignの&#x200B;**var**、**sftp**&#x200B;および一時フォルダーに制限されています。
 
-この関数は廃止されました。[DOMDocument.load （） ](m-domdocument-load.md)を使用してください。 XML ドキュメントオブジェクトの形式でファイルを読み込みます
+この関数は廃止されました。[DOMDocument.load （） &#x200B;](m-domdocument-load.md)を使用してください。 XML ドキュメントオブジェクトの形式でファイルを読み込みます
 
 ```text
 loadXmlFile (filename [, noErr ])

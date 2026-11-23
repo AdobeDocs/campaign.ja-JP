@@ -14,10 +14,10 @@ ht-degree: 62%
 | --- | --- |
 | [キャンセル済み](sm-asset-cancel.md) | リソースをキャンセルします。 |
 | [CheckValidationAccess](sm-asset-checkvalidationaccess.md) | 現在のオペレーターがリソースを確認できるかどうかを検証します。 |
-| [ ロック ](sm-asset-lock.md) | 現在のユーザーのリソースをロックして、リソースが変更中であることを他のユーザーに通知します |
+| [&#x200B; ロック &#x200B;](sm-asset-lock.md) | 現在のユーザーのリソースをロックして、リソースが変更中であることを他のユーザーに通知します |
 | [公開](sm-asset-publication.md) | リソースを公開します。 |
 | [StartValidation](sm-asset-startvalidation.md) | 承認を得るためにリソースを送信します。 |
-| [ ロック解除](sm-asset-unlock.md) | 他のユーザーが変更できるようリソースを開放します |
+| [&#x200B; ロック解除](sm-asset-unlock.md) | 他のユーザーが変更できるようリソースを開放します |
 | [検証](sm-asset-validation.md) | リソースを承認します。 |
 
 ## 汎用メソッド

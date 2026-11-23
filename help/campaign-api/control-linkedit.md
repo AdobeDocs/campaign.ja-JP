@@ -8,7 +8,7 @@ ht-degree: 0%
 
 リンクの編集を制御します。
 
-![LinkEdit コントロール ](assets/linkedit.7cb7bf14.png)
+![LinkEdit コントロール &#x200B;](assets/linkedit.7cb7bf14.png)
 
 ## プロパティ
 

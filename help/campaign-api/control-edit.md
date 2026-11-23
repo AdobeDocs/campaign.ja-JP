@@ -8,7 +8,7 @@ ht-degree: 2%
 
 テキスト入力の制御。
 
-![ コントロールを編集](assets/edit.d2973a4b.png)
+![&#x200B; コントロールを編集](assets/edit.d2973a4b.png)
 
 ## プロパティ
 

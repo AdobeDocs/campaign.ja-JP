@@ -26,7 +26,7 @@ for each(var e in schema.enumerations)
 
 ## 機能
 
-**クラスのプロパティ：** [ スキーマ ](c-schema.md)
+**クラスのプロパティ：** [&#x200B; スキーマ &#x200B;](c-schema.md)
 
 **読み取り専用：**
 

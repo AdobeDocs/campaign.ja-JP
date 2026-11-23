@@ -22,7 +22,7 @@ getEntry (filename)
 
 ## 備考
 
-このメソッドを使用するには、アーカイブを⌐[open （） ](m-zipfile-open.md) メソッドで開いている必要があります。 それ以外の場合は例外が発生します。 例：次の例では、アーカイブからdir/content.xml ファイルを抽出し、/tmp/ フォルダーに保存します。
+このメソッドを使用するには、アーカイブを⌐[open （） &#x200B;](m-zipfile-open.md) メソッドで開いている必要があります。 それ以外の場合は例外が発生します。 例：次の例では、アーカイブからdir/content.xml ファイルを抽出し、/tmp/ フォルダーに保存します。
 
 ```javascript
 var zip = new ZipFile("/tmp/archive.zip")

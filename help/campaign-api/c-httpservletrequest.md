@@ -25,18 +25,18 @@ ht-degree: 3%
 
 | プロパティ | 説明 |
 | --- | --- |
-| [ パラメーター](p-httpservletrequest-parameters.md) | クエリパラメーターを返します。 |
+| [&#x200B; パラメーター](p-httpservletrequest-parameters.md) | クエリパラメーターを返します。 |
 | [cookie](p-httpservletrequest-cookies.md) | クエリのCookieを返します。 |
 | [requestURI](p-httpservletrequest-requesturi.md) | クエリのURLを返します。 |
 | [queryString](p-httpservletrequest-querystring.md) | クエリのURLのうち、パラメーターに一致する部分を返します。 |
-| [ スキーム ](p-httpservletrequest-scheme.md) | 使用するプロトコルの名前（HTTP、HTTPSなど）を返します。 依頼する必要がありました。 |
+| [&#x200B; スキーム &#x200B;](p-httpservletrequest-scheme.md) | 使用するプロトコルの名前（HTTP、HTTPSなど）を返します。 依頼する必要がありました。 |
 | [serverName](p-httpservletrequest-servername.md) | クエリサーバーの名前を返します。 |
 | [serverPort](p-httpservletrequest-serverport.md) | サーバーへの接続に使用するポート番号を返します。 |
 | [serverURL](p-httpservletrequest-serverurl.md) | サーバーにアクセスするためのURLを返します。 |
 | [servletPath](p-httpservletrequest-servletpath.md) | サーブレットに一致するクエリのURLのセクションを返します。 |
 | [contextPath](p-httpservletrequest-contextpath.md) | コンテキストに一致するクエリのURLのセクションを返します。 |
 | [pathInfo](p-httpservletrequest-pathinfo.md) | クエリのURLの追加情報を返します。 |
-| [ メソッド ](p-httpservletrequest-method.md) | このクエリの呼び出しに使用されるHTTP メソッド（GET、HEAD、POSTなど）を含む文字列を返します。 |
+| [&#x200B; メソッド &#x200B;](p-httpservletrequest-method.md) | このクエリの呼び出しに使用されるHTTP メソッド（GET、HEAD、POSTなど）を含む文字列を返します。 |
 
 ## 機能
 

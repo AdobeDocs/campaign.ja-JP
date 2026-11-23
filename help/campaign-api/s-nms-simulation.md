@@ -14,8 +14,8 @@ ht-degree: 55%
 | --- | --- |
 | [AddDeliveries](sm-simulation-adddeliveries.md) | 配信のスコープに配信を追加します。 |
 | [AddOperations](sm-simulation-addoperations.md) | 配信のスコープにキャンペーンを追加します。 |
-| [ プランを追加](sm-simulation-addplans.md) | 配信のスコープにキャンペーンを追加します。 |
-| [ プログラムを追加](sm-simulation-addprograms.md) | 配信のスコープにキャンペーンを追加します。 |
+| [&#x200B; プランを追加](sm-simulation-addplans.md) | 配信のスコープにキャンペーンを追加します。 |
+| [&#x200B; プログラムを追加](sm-simulation-addprograms.md) | 配信のスコープにキャンペーンを追加します。 |
 | [スケジュール](sm-simulation-schedule.md) | シミュレーションの実行をスケジュール設定します。 |
 | [SimulateDeliveries](sm-simulation-simulatedeliveries.md) | 配信のシミュレーションを開始します。 |
 | [SimulateOffers](sm-simulation-simulateoffers.md) | シミュレーションを実行します。 |

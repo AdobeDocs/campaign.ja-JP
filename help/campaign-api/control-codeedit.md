@@ -8,7 +8,7 @@ ht-degree: 3%
 
 ソースコードの編集を制御します。
 
-![CodeEdit コントロール ](assets/codeedit.8a744c8b.png)
+![CodeEdit コントロール &#x200B;](assets/codeedit.8a744c8b.png)
 
 ## プロパティ
 

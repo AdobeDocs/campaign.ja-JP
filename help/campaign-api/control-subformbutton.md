@@ -8,7 +8,7 @@ ht-degree: 1%
 
 サブフォームを開くボタン。
 
-![SubFormButton コントロール ](assets/button.f0aea09a.png)
+![SubFormButton コントロール &#x200B;](assets/button.f0aea09a.png)
 
 ## プロパティ
 

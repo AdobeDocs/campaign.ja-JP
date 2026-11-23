@@ -8,7 +8,7 @@ ht-degree: 10%
 
 > 警告 :
 >
-> この関数は廃止されました。[decryptString （） ](f-decryptstring.md)を使用してください。
+> この関数は廃止されました。[decryptString （） &#x200B;](f-decryptstring.md)を使用してください。
 
 DES アルゴリズムで文字列の暗号化を解除します。
 

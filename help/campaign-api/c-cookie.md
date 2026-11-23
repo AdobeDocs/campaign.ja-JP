@@ -13,13 +13,13 @@ ht-degree: 7%
 | プロパティ | 説明 |
 | --- | --- |
 | [name](p-cookie-name.md) | Cookie名。 |
-| [ コメント ](p-cookie-comment.md) | Cookieの関数を記述するコメント。未定義の場合はnull。 |
-| [ ドメイン ](p-cookie-domain.md) | Cookieのドメイン名。 |
+| [&#x200B; コメント &#x200B;](p-cookie-comment.md) | Cookieの関数を記述するコメント。未定義の場合はnull。 |
+| [&#x200B; ドメイン &#x200B;](p-cookie-domain.md) | Cookieのドメイン名。 |
 | [maxAge](p-cookie-maxage.md) | Cookieの有効期間（秒単位）: |
-| [ パス ](p-cookie-path.md) | Web ブラウザーがCookieを転送するパス。 |
-| [ セキュア ](p-cookie-secure.md) | cookieが安全なプロトコルを介してのみ転送できる場合は、true。 |
+| [&#x200B; パス &#x200B;](p-cookie-path.md) | Web ブラウザーがCookieを転送するパス。 |
+| [&#x200B; セキュア &#x200B;](p-cookie-secure.md) | cookieが安全なプロトコルを介してのみ転送できる場合は、true。 |
 | [値](p-cookie-value.md) | Cookieの値。 |
-| [ バージョン ](p-cookie-version.md) | Cookieと互換性のあるプロトコルバージョン。 |
+| [&#x200B; バージョン &#x200B;](p-cookie-version.md) | Cookieと互換性のあるプロトコルバージョン。 |
 
 ## 機能
 

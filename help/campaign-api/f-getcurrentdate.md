@@ -28,7 +28,7 @@ getCurrentDate ()
       date = formatDate(getCurrentDate(),"%4Y/%2M/%2D %02H:%02N:%02S")
 ```
 
-formatDate （）関数について詳しくは、[formatDate （date, format） ](f-formatdate.md)を参照してください
+formatDate （）関数について詳しくは、[formatDate （date, format） &#x200B;](f-formatdate.md)を参照してください
 
 ## 機能
 
