@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 89%
+source-wordcount: '1100'
+ht-degree: 88%
 ---
 
 # Adobe Campaign v8（コンソール）ドキュメント {#campaign-v8}
@@ -334,6 +334,8 @@ ht-degree: 89%
     + ワークフローの管理 {#managing-workflows}
       + [ワークフローの制御](dev/api/controlling-a-workflow.md)
       + [シグナルアクティビティのトリガー](dev/api/triggering-a-signal-activity.md)
++ API ドキュメント {#api-documentation}
+  + [Campaign API ドキュメント >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
 + その他のリソース {#resources}
   + [Campaign テクニカルノート >](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/technotes-home)
   + [Campaign Web ユーザーインターフェイスドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
