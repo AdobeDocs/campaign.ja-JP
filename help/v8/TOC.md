@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign v8（クライアントコンソール）
 title: Adobe Campaign v8 ドキュメント
 description: Campaign v8 ドキュメント
 breadcrumb-title: Campaign v8 ドキュメント
-source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
+source-git-commit: 2da6239843538ec459e7d3dfe0514a56e4a941be
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1102'
 ht-degree: 88%
 ---
 
@@ -271,6 +271,7 @@ ht-degree: 88%
   + [グローバル原則](architecture/general-architecture.md)
   + [アーキテクチャモデル](architecture/architecture.md)
   + {hide-from-toc}[&#x200B; ビルトインパッケージ &#x200B;](architecture/built-in-packages.md)
+  + {hide-from-toc}[&#x200B; キャンペーンオプション &#x200B;](architecture/campaign-options.md)
   + [Campaign FDA デプロイメント](architecture/fda-deployment.md)
   + エンタープライズ（FFDA）デプロイメント {#ffda}
     + [Campaign FFDA とは](architecture/enterprise-deployment.md)
@@ -335,7 +336,7 @@ ht-degree: 88%
       + [ワークフローの制御](dev/api/controlling-a-workflow.md)
       + [シグナルアクティビティのトリガー](dev/api/triggering-a-signal-activity.md)
 + API ドキュメント {#api-documentation}
-  + [Campaign API ドキュメント >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
+  + [Campaign API ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-api/home)
 + その他のリソース {#resources}
   + [Campaign テクニカルノート >](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/technotes-home)
   + [Campaign Web ユーザーインターフェイスドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
