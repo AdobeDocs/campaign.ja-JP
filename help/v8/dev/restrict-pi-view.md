@@ -41,16 +41,16 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 94%
+ht-degree: 76%
 ---
 # PI の閲覧を制限{#restricting-pii-view}
 
 ## 概要 {#overview}
 
-マーケティング部門のユーザーがデータレコードにアクセスできるようにしつつ、姓名やメールアドレスなどの受信者の個人情報（PI）は表示しないようにする必要がある場合、プライバシーを保護し、Campaign の正規オペレーターがデータを誤って使用してしまうのを防ぐため、以下のガイドラインを適用してください。
+マーケティングユーザーがデータレコードにアクセスできるようにし、受信者の個人情報（PI）である氏名やメールアドレスなどを表示させたくない場合は、以下のガイドラインを適用してプライバシーを保護し、データが通常のキャンペーンオペレーターによって悪用されるのを防ぎます。
 
 ## 実装 {#implementation}
 
@@ -74,7 +74,7 @@ ht-degree: 94%
 主なプロパティは次のとおりです。
 
 * **[!UICONTROL visibleIf]**: メタデータからフィールドを非表示にします。したがって、スキーマビュー、列選択、または[式ビルダー](../../v8/start/filter-conditions.md#list-of-functions)内ではフィールドにアクセスできません。 ただし、フィールド名を式に手動で入力した場合は、値が表示され、データは非表示にはなりません。
-* **[!UICONTROL accessibleIf]**：結果のクエリからデータを非表示にします（空の値に置き換えます）。 visibleIf が空の場合、**[!UICONTROL accessibleIf]** と同じ式を取得します。
+* **[!UICONTROL accessibleIf]**：結果のクエリからデータを非表示にします（空の値に置き換えます）。 visibleIfが空の場合は、**[!UICONTROL accessibleIf]**&#x200B;と同じ式を取得します。
 
 Campaign でこの属性を使用した場合の結果は次のとおりです。
 

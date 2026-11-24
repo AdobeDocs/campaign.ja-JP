@@ -30,10 +30,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 94%
 ---
 # データベースマッピング{#database-mapping}
 
@@ -125,4 +125,4 @@ XML のフィールドにデータを入力するには、値「true」の **xml
 
   「html」タイプを使用すると、HTML コンテンツを CDATA タグに格納し、Adobe Campaign クライアントインターフェイスに特別な HTML 編集チェックを表示できます。
 
-XML フィールドを使用すると、データベースの物理構造を変更することなく、フィールドを追加できます。 もう 1 つの利点は、使用するリソースが少ないことです（SQL フィールドに割り当てるサイズ、テーブルあたりのフィールド数の制限など）。
+XML フィールドを使用すると、データベースの物理構造を変更することなく、フィールドを追加できます。 もう1つの利点は、使用するリソースが少ないことです（SQL フィールドに割り当てられたサイズ、テーブルあたりのフィールド数の制限など）。

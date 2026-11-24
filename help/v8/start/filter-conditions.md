@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3510'
-ht-degree: 99%
+source-wordcount: '3509'
+ht-degree: 98%
 ---
 # フィルター条件の定義{#filter-conditions}
 
@@ -78,7 +78,7 @@ ht-degree: 99%
   <tr> 
    <td> <span class="uicontrol">次と等しくない</span> <br /> </td> 
    <td> 入力された値と等しくないすべての値を返します。<br /> </td> 
-   <td> <strong>言語（@language）が「英語」と等しくない</strong>。<br /> </td> 
+   <td> <strong>言語（@language）が「英語」と等しくない</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次で始まる</span> <br /> </td> 
@@ -185,7 +185,7 @@ ht-degree: 99%
 
 使用可能フィールドはテーブルごとに異なります。 すべてのフィールドは、**[!UICONTROL メイン要素]**&#x200B;と呼ばれるメインノードに保存されます。 次の例では、使用可能フィールドは受信者テーブルにあります。 フィールドは常にアルファベット順に表示されます。
 
-選択したフィールドの詳細がウィンドウの下部に表示されます。 例えば、「**[!UICONTROL メールドメイン]**」フィールドは「**[!UICONTROL SQL 計算フィールド]**」であり、拡張は&#x200B;**[!UICONTROL （@domain）]**&#x200B;です。
+選択したフィールドの詳細は、ウィンドウの下部に表示されます。 例えば、「**[!UICONTROL メールドメイン]**」フィールドは「**[!UICONTROL SQL 計算フィールド]**」であり、拡張は&#x200B;**[!UICONTROL （@domain）]**&#x200B;です。
 
 ![](assets/query_editor_nveau_59.png)
 
@@ -323,7 +323,7 @@ ht-degree: 99%
 
 ## 式の作成 {#building-expressions}
 
-式編集ツールを使用すると、集計の計算、関数の生成または式を使用した数式の編集をおこなうことができます。
+式の編集ツールを使用すると、集計の計算、関数の生成、式を使用した式の編集を行うことができます。
 
 次の例は、プライマリキーに対してカウントを実行する方法を示しています。
 
@@ -345,7 +345,7 @@ ht-degree: 99%
 
 ![](assets/query_editor_nveau_05.png)
 
-1. 「**[!UICONTROL 「フィールドのみ]**&#x200B;**[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
+1. 「**[!UICONTROL 「フィールドのみ]****[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
 1. 「**[!UICONTROL 集計]**」（「集計関数のプロセス」）。 使用する集計の例は次のとおりです。
 
    * 「**[!UICONTROL カウント]**」では、プライマリキーカウントを実行できます。
@@ -510,7 +510,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> 文字列の MD5 キーの 16 進数表現を返します<br /> </td> 
+   <td> 文字列<br />のMD5 キーの16進数表現を返します </td> 
    <td> Md5Digest(&lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -781,7 +781,7 @@ ht-degree: 99%
    <td> Year(&lt;日付&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
+   <td> <strong>YearAndMonth</strong><br /> </td> 
    <td> 日付の年と月を表す数を返します<br /> </td> 
    <td> YearAndMonth(&lt;日付&gt;)<br /> </td>  
   </tr> 

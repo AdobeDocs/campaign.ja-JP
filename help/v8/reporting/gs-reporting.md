@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 77%
+ht-degree: 73%
 ---
 # レポートの概要{#gs-ac-reports}
 
@@ -43,13 +43,13 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
 * **動的レポート**
 
-  Adobe Dynamic Reportingは、Campaign Web UIで利用でき、マーケティング活動の影響を測定するための、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 [Web UI v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ja){target="_blank"}を参照してください。
+  Adobe Dynamic Reportingは、Campaign Web UIで利用でき、マーケティング活動の影響を測定するための、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 [Web UI v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}を参照してください。
 
 * **キューブ**
 
   Adobe Campaign には、動的レポートを作成するための直感的なデータ調査ツールが付属しています。
 
-  マーケティング分析機能を使用すると、データの分析と測定、統計の計算、レポートの作成と計算の簡素化および最適化を行うことができます。 レポートを作成し、ターゲット母集団を作成して、リストに保存できます。このリストは、Adobe Campaign でターゲティングやセグメント化のタスクに使用できます。
+  マーケティング分析機能を使用して、データの分析と測定、統計の計算、レポートの作成と計算の簡素化と最適化を実現できます。 レポートを作成し、ターゲット母集団を作成して、リストに保存できます。このリストは、Adobe Campaign でターゲティングやセグメント化のタスクに使用できます。
 
   ![](assets/create-a-report.png)
 
@@ -75,10 +75,10 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
   ![](assets/desc-analysis-report.png)
 
-  キャンペーン記述分析レポートは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}に記載されています。
+  キャンペーン記述分析レポートは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}に記載されています。
 
 * **カスタムレポート**
 
   Adobe Campaign を使用すると、データベース内のデータに関するレポートを作成できます。 作成したレポートは、適切なコンテキストで参照できるようになります。
 
-  レポートを作成する手順については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}を参照してください。 パーソナライズされたレポートの作成は、上級ユーザーが行います。
+  レポートを作成する手順については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}を参照してください。 パーソナライズされたレポートの作成は、上級ユーザーが行います。

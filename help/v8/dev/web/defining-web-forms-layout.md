@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 100%
+ht-degree: 96%
 ---
 # web フォームレイアウトの定義{#defining-web-forms-layout}
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## コンテナの作成 {#creating-containers}
 
-コンテナを使用すると、ページのフィールドを組み合わせたり、レイアウトを設定したりして、ページの要素を整理できます。
+コンテナを使用すると、ページのフィールドを結合してレイアウトを設定し、ページ内の要素を整理できます。
 
 フォームの各ページで、ツールバーの&#x200B;**[!UICONTROL コンテナ]**&#x200B;ボタンを使用してコンテナを作成します。
 

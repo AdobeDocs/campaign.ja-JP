@@ -32,18 +32,18 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 100%
+ht-degree: 86%
 ---
 # Web アプリケーショントラッキングのオプトアウト{#web-application-tracking-opt-out}
 
 
 
-Adobe Campaign では、Cookie または Web ビーコンによる行動のトラッキングからオプトアウトしたエンドユーザーの Web 行動のトラッキングを停止できます。 これには、エンドユーザーにその選択肢を提示するため、バナーを表示する機能が含まれています。このバナーは Web アプリケーションやランディングページに追加することができます。
+Adobe Campaignを使用すると、Cookieまたはweb ビーコンを使用して行動トラッキングをオプトアウトするエンドユーザーのweb行動トラッキングを停止できます。 これには、エンドユーザーにその選択肢を提示するため、バナーを表示する機能が含まれています。このバナーは Web アプリケーションやランディングページに追加することができます。
 
-エンドユーザーが cookie あるいは web ビーコンによる行動のトラッキングからオプトアウトした場合、その情報は JavaScript API で Adobe Campaign トラッキングサーバーに送信されます。 オプトアウトの選択肢を提示する前に、オプトインの選択肢をエンドユーザーに提示すること（あるいは他の法的条件）を義務付けている地域もあります。適用される法令を遵守してください。
+エンドユーザーがCookieまたはweb ビーコンを介した行動トラッキングをオプトアウトすると、その情報はJavaScript APIを使用してAdobe Campaign トラッキングサーバーに送信されます。 オプトアウトの選択肢を提示する前に、オプトインの選択肢をエンドユーザーに提示すること（あるいは他の法的条件）を義務付けている地域もあります。適用される法令を遵守してください。
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 
 ## API を使用したオプトアウト cookie の設定 {#setting-the-opt-out-cookie-using-api}
 
-Adobe Campaign は cookie 値の管理およびユーザー設定の取得に利用できる API を提供します。
+Adobe Campaignには、Cookieの値を管理したり、ユーザー設定を取得したりできるAPIが搭載されています。
 
 cookie の名前は **acoptout** です。 共通の値は、以下のとおりです。
 
@@ -106,7 +106,7 @@ cookie の名前は **acoptout** です。 共通の値は、以下のとおり�
 
 * **NL.ClientWebTracking.allow()**：Web トラッキングを許可するようオプトアウト Cookie の値を設定します。 Web トラッキングは、デフォルトで許可されています。
 * **NL.ClientWebTracking.forbid()**：Web トラッキングを禁止するようオプトアウト Cookie の値を設定します。 Web トラッキングの禁止にはユーザーからのインプットが必要です。
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**：許可または拒否ボタンをユーザーがクリックした後、オプトアウト Cookie バナーを閉じます （クリックイベントバブリング段階の間）。
+* **NL.ClientWebTracking.closeOptOutBanner （bannerDomElt）**：ユーザーが「同意」ボタンまたは「拒否」ボタンをクリックした後（クリックイベントのバブルフェーズ中）、オプトアウトクッキーバナーを閉じます。
 
   bannerDomElt {DOMElement} 削除しなければならない cookie バナーのルート DOM 要素
 

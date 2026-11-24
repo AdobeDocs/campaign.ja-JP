@@ -28,20 +28,20 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 71%
 ---
-# SMS の監視と追跡
+# SMSの監視と追跡
 
-マーケティングキャンペーンが効率的であることを確認するには、SMS 配信を監視することが重要です。
+マーケティング施策を効率的に進めるためには、SMS配信を監視することが重要です。
 
-配信を送信した後に確認する必要がある情報を以下に示します
+以下は、配信の送信後に何が起こるかを知る必要がある可能性です
 
-## SMS 配信ダッシュボードについて
+## SMS配信ダッシュボードについて
 
-配信ダッシュボードには、SMS に関する多くの情報が表示されます。
+配信ダッシュボードには、SMSに関する多くの情報が表示されます。
 
 ダッシュボードにアクセスするには、配信リストで配信をダブルクリックします。
 
@@ -59,7 +59,7 @@ SMS の送信後は、配信のコンテンツに関する「**[!UICONTROL SMS]*
 
 ![](assets/sms_exclusions.png){zoomable="yes"}
 
-「**[!UICONTROL トラッキング]**」タブには、トラッキングに関する情報が表示されます。 SMS コンテンツで追跡される URL の例を以下に示します。
+「**[!UICONTROL トラッキング]**」タブには、トラッキングに関する情報が表示されます。 以下は、SMS コンテンツで追跡されるURLの例です。
 
 ![](assets/sms_trackinglogs.png){zoomable="yes"}
 

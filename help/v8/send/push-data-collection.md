@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 93%
+source-wordcount: '1550'
+ht-degree: 85%
 ---
 # プッシュ通知設を修正 {#push-notifications-config}
 
@@ -44,7 +44,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. [Adobe Experience Platform データ収集でのモバイルプロパティの作成と設定](#create-mobile-property)
 
-1. [Adobe Adobe Experience Platform Assurance拡張機能を追加](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} （推奨）
+1. [Adobe Experience Platform Assurance拡張機能を追加](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"} （推奨）
 
 1. [Campaign Classic をモバイルアプリケーションに追加](#campaign-mobile-ap)
 
@@ -86,7 +86,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
    このキーは、Apple 開発者アカウントの&#x200B;**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページから取得できます。
 
-1. **キー ID** を入力します。 これは、p8 認証キーの作成時に割り当てられる 10 文字の文字列です。
+1. **キー ID** を入力します。 これは、p8認証キーの作成時に割り当てられた10文字の文字列です。
 
    これは、Apple開発者アカウントの&#x200B;**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル** ページの&#x200B;**キー** タブにあります。
 
@@ -102,7 +102,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
 
-1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 
@@ -112,7 +112,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 ### サービスの作成 {#create-service}
 
-プッシュ通知を送信する前に、Adobe Campaign で iOS アプリと Android アプリの設定を定義する必要があります。
+プッシュ通知を送信する前に、Adobe CampaignでiOSとAndroid アプリの設定を定義する必要があります。
 
 プッシュ通知は、専用のサービスを通じてアプリのユーザーに送信されます。 ユーザーはアプリをインストールすると、このサービスにサブスクライブします。Adobe Campaign は、このサービスを利用して、アプリのサブスクライバーのみをターゲットにします。 このサービスでは、iOS デバイスと Android デバイスで送信するために、iOS アプリと Android アプリを追加する必要があります。
 
@@ -142,7 +142,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 iOS デバイス用のアプリを作成するには、次の手順に従います。
 
-1. サービスから、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL iOS アプリケーションを作成]**」を選択します。 「**[!UICONTROL 次へ]**」をクリックします。
+1. サービスから、**[!UICONTROL Add]**&#x200B;をクリックし、**[!UICONTROL Create an iOS application]**&#x200B;を選択します。 「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/push-config-6.png)
 
@@ -152,7 +152,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
 1. （オプション）**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。 これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 
-   次の例では、**mediaURl** 変数と **mediaExt** 変数を追加し、リッチなプッシュ通知を作成してさらに通知内に表示する画像をアプリケーションに提供します。
+   次の例では、**mediaURl**&#x200B;変数と&#x200B;**mediaExt**&#x200B;変数を追加してリッチプッシュ通知を作成し、アプリケーションに画像を提供して通知内に表示します。
 
    ![](assets/push-config-8.png)
 
@@ -177,7 +177,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
    ![](assets/push-config-9.png)
 
-1. 「**[!UICONTROL アプリケーションアイコン]**」フィールドからアイコンを選択して、サービス内のモバイルアプリケーションをパーソナライズします。
+1. **[!UICONTROL アプリケーションアイコン]** フィールドからアイコンを選択して、サービスでモバイルアプリケーションをパーソナライズします。
 
 1. 「**[!UICONTROL 次へ]**」をクリックして実稼動アプリケーションの設定を行い、上記と同じ手順に従います。 アプリケーションの開発バージョン（サンドボックス）と実稼動バージョンに同じ&#x200B;**[!UICONTROL 統合キー]**&#x200B;を使用することはできません。
 
@@ -189,7 +189,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
 Android デバイス用のアプリを作成するには、次の手順に従います。
 
-1. サービスから、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL Android アプリケーションを作成]**」を選択します。 「**[!UICONTROL 次へ]**」をクリックします。
+1. サービスから、**[!UICONTROL Add]**&#x200B;をクリックし、**[!UICONTROL Create an Android application]**&#x200B;を選択します。 「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/push-config-10.png)
 
@@ -263,7 +263,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. ここで、**[!UICONTROL 公開フロー]**&#x200B;メニューから設定を公開する必要があります。 [詳細情報](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
-これで、モバイルプロパティが **[!UICONTROL Adobe Experience Platform データ収集]**&#x200B;テクニカルワークフローと自動的に同期されるようになります。 [詳細情報](../../automation/workflow/technical-workflows.md#list-technical-workflows)
+これで、モバイルプロパティが&#x200B;**[!UICONTROL Adobe Experience Platform Data Collection]** テクニカルワークフローと自動的に同期されます。 [詳細情報](../../automation/workflow/technical-workflows.md#list-technical-workflows)
 
 ## Campaign Classic をモバイルアプリケーションに追加 {#campaign-mobile-app}
 

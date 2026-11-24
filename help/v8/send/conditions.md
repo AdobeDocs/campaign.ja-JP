@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 100%
+source-wordcount: '442'
+ht-degree: 95%
 ---
 # 条件付きコンテンツの作成{#conditional-content}
 
@@ -93,10 +93,10 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >このメールコンテンツには代替バージョンが定義されていないので、メールを送信する前にターゲット母集団をフィルタリングしてください。
+   >メールのコンテンツに代替バージョンが定義されていないので、メールを送信する前にターゲット母集団を必ずフィルタリングしてください。
 
 ## チュートリアルビデオ {#conditionnal-content-video}
 
 多言語ニュースレターを例に、条件付きコンテンツを配信に追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426535?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

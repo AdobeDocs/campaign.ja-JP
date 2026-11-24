@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 97%
+ht-degree: 98%
 ---
 # Campaign と Adobe Experience Manager の操作 {#ac-aem}
 
@@ -70,7 +70,7 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
    ![](assets/aem_authoring_3.png)
 
-1. Adobe Campaignのパーソナライゼーションフィールドなどのコンポーネントを追加して、メールコンテンツをカスタマイズできます。詳しくは、[Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ja#editing-email-content){target="_blank"}を参照してください。
+1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加してメールコンテンツをカスタマイズします。 詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ja#editing-email-content){target="_blank"}を参照してください。
 
 1. メールの準備が整ったら、**[!UICONTROL ページ情報]**&#x200B;メニューに移動し、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 
@@ -114,7 +114,7 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
 1. Experience Manager と Campaign の間のリンクを削除するには、「**[!UICONTROL 非同期]**」をクリックします。
 
-これでメールをオーディエンスに送信する準備が整いました。
+これで、メールをオーディエンスに送信する準備が整いました。
 
 ## Adobe Experience Manager Assets ライブラリからのアセットのインポート {#assets-library}
 

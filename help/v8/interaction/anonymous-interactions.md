@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 92%
 ---
 # 匿名インタラクション {#anonymous-interactions}
 
@@ -49,13 +49,13 @@ ht-degree: 100%
 
 アウトバウンドインタラクションと同様に、インバウンドインタラクションは、カテゴリとオファーで構成されるオファーカタログに整理されます。
 
-カテゴリとスペースを作成するには、識別された訪問者と同じプロセスを適用します。 [オファーカテゴリの作成](interaction-offer-catalog.md#creating-offer-categories)および[オファー環境の作成](interaction-env.md#create-an-offer-environment)を参照してください。
+カテゴリとスペースを作成するには、識別された訪問者と同じプロセスを適用します。 [ オファーカテゴリの作成](interaction-offer-catalog.md#creating-offer-categories)および[ オファー環境の作成](interaction-env.md#create-an-offer-environment)を参照してください。
 
 ## 匿名の訪問者 {#anonymous-visitors}
 
 匿名の訪問者が接続する際に、それらの訪問者が Cookie 識別プロセスに送信されることがあります。 この暗黙の認識は、訪問者のブラウザーの履歴に基づいています。
 
-この手順では、Cookie から復元されたデータとデータベースのデータの比較がおこなわれます。 訪問者が認識される（暗黙的に識別される）場合もあれば、認識されない（したがって匿名のままになる）場合もあります。
+この手順では、Cookie から復元されたデータとデータベースのデータの比較がおこなわれます。 場合によっては、訪問者が認識される（その後、暗黙的に識別される）場合もあれば、認識されない（したがって匿名のままになる）場合もあります。
 
 この分析を実行するには、オファースペースで、「**[!UICONTROL ブラウザー履歴に基づいて個人を暗黙的に推測]**」オプションをオンにします。
 

@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1483'
-ht-degree: 99%
+ht-degree: 97%
 ---
 # Web ページへのオファーの追加{#add-an-offer-in-web}
 
@@ -107,7 +107,7 @@ HTML ページには、作成したオファースペースの内部名（&quot;
 
 ### 識別されたオファーの提示 {#presenting-an-identified-offer}
 
-識別されたコンタクト先にオファーを提示するには、[この節](#presenting-an-anonymous-offer)で説明したプロセスと同様のプロセスを使用します。
+特定された連絡先にオファーを提示するには、このセクション ](#presenting-an-anonymous-offer)の[の詳細と同様のプロセスを実行します。
 
 Web ページのコンテンツには、オファーエンジンの呼び出し時にコンタクト先を識別する次のスクリプトを追加する必要があります。
 
@@ -227,7 +227,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
 1. **オファー式を拡張して新しいフィールドを追加および既存のフィールドを修正**
 
-   **オファー（nsm）**&#x200B;入力フォームを編集します。
+   **Offer （nms）**&#x200B;入力フォームを編集します。
 
    「Views」セクションに、次の内容を含んだ 2 つの新しいフィールドを挿入します。
 

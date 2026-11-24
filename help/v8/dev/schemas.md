@@ -38,7 +38,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 94%
@@ -65,7 +65,7 @@ ht-degree: 94%
 
 Adobe Campaign では、次の目的でデータスキーマを使用しています。
 
-* アプリケーション内のデータオブジェクトが、基盤となるデータベーステーブルにどのように関連付けられるかを定義する。
+* アプリケーション内のデータオブジェクトが基盤となるデータベーステーブルにどのように関連付けられるかの定義
 * Campaign アプリケーション内での異なるデータオブジェクト間リンクの定義
 * 各オブジェクトに含まれている個々のフィールドの定義と記述
 
@@ -231,7 +231,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 すべての属性のリストについては、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ja#content-model){target="_blank"}の `<attribute>` 要素の節を参照してください。 よく使用される属性には、**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type** などがあります。
 
-各属性について詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"}の属性の説明を参照してください。
+各属性について詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"}の属性の説明を参照してください。
 
 ### 例 {#examples}
 

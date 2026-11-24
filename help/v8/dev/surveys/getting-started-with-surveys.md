@@ -21,16 +21,16 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 99%
+source-wordcount: '991'
+ht-degree: 96%
 ---
 # 調査を作成するための主な手順{#getting-started-with-surveys}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -109,7 +109,7 @@ ht-degree: 99%
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
-  質問のラベルを入力して、質問のサブ分岐として回答フィールドを挿入します。 これを行うには、回答フィールドを作成する際に、質問にリンクされたノードが選択されている必要があります。 次に示すように、**[!UICONTROL 選択コントロール]**&#x200B;アイコンまたは右クリックで、**[!UICONTROL ドロップダウンリスト]**&#x200B;を追加します。
+  質問のラベルを入力して、質問のサブ分岐として回答フィールドを挿入します。 これを行うには、回答フィールドを作成する際に、質問にリンクされたノードが選択されている必要があります。 次に示すように、**[!UICONTROL 選択コントロール]** アイコンを使用するか右クリックして、**[!UICONTROL ドロップダウンリスト]**&#x200B;を追加します。
 
   ![](assets/s_ncs_admin_survey_add_list.png)
 
@@ -125,7 +125,7 @@ ht-degree: 99%
 
   >[!NOTE]
   >
-  >各フィールドまたは質問では、「**[!UICONTROL 詳細設定]**」タブのオプションを使用して、ニーズに合わせてページレイアウトを適応できます。 調査画面のレイアウトについて詳しくは、[この節](../web/about-web-forms.md)を参照してください。
+  >各フィールドまたは質問では、「**[!UICONTROL 詳細設定]**」タブのオプションを使用して、ニーズに合わせてページレイアウトを適応できます。 アンケート画面のレイアウトについて詳しくは、[この節](../web/about-web-forms.md)を参照してください。
 
   詳細画面で、「**[!UICONTROL プレビュー]**」タブをクリックして、今作成した調査のレンダリングを表示します。
 

@@ -39,10 +39,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 98%
+source-wordcount: '1454'
+ht-degree: 96%
 ---
 # スキーマの構造{#schema-structure}
 
@@ -196,7 +196,7 @@ ht-degree: 98%
 
 ## プロパティ {#properties}
 
-データスキーマの **`<elements>`** 要素と **`<attributes>`** 要素は、様々なプロパティを使用して強化できます。 現在の要素を説明するためにラベルを入力できます。
+データスキーマの&#x200B;**`<elements>`**&#x200B;要素と&#x200B;**`<attributes>`**&#x200B;要素は、様々なプロパティで強化できます。 現在の要素を説明するためにラベルを入力できます。
 
 ### ラベルと説明 {#labels-and-descriptions}
 
@@ -251,7 +251,7 @@ ht-degree: 98%
 
 `<default>`：エンティティを作成時にデフォルト値をフィールドに事前入力できます。 値はデフォルトの SQL 値ではありません。
 
-`<sqldefault>`：フィールドの作成時に値を追加できます。 この値は SQL 結果として表示されます。 スキーマを更新時に、この値の影響を受けるのは新しいレコードだけです。
+`<sqldefault>`: フィールドの作成時に値を追加できます。 この値は SQL 結果として表示されます。 スキーマを更新時に、この値の影響を受けるのは新しいレコードだけです。
 
 ### 列挙 {#enumerations}
 

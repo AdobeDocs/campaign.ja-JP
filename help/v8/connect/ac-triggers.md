@@ -27,10 +27,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 88%
+source-wordcount: '141'
+ht-degree: 82%
 ---
 # Campaign と Experience Cloud トリガーの連携
 
@@ -38,7 +38,7 @@ ht-degree: 88%
 >
 >Managed Cloud Services ユーザーとして Experience Cloudトリガーを Campaign に実装する場合は、[アドビにお問い合わせ](../start/campaign-faq-comprehensive.md#support)ください。
 
-Experience Cloud トリガーを使用すると、パイプラインを使用して Adobe Campaign と Adobe Analytics の間でデータを接続できます。 パイプラインは、Web サイトからユーザーのアクションやトリガーを取得します。 買い物かごの放棄は、トリガーの一例です。 トリガーが Adobe Campaign で処理されて、ほぼリアルタイムでメールが送信されます。
+Experience Cloud トリガーを使用すると、パイプラインを使用して Adobe Campaign と Adobe Analytics の間でデータを接続できます。 パイプラインは、web サイトからユーザーのアクションまたはトリガーを取得します。 カートの放棄は、トリガーの一例です。 トリガーが Adobe Campaign で処理されて、ほぼリアルタイムでメールが送信されます。
 
 Adobe Campaign と Experience Cloud のトリガーの詳細については、[このページ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=ja){target="_blank"}を参照してください。
 

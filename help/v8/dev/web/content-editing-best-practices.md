@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 93%
 ---
 # コンテンツ編集のベストプラクティス{#content-editing-best-practices}
 
@@ -55,12 +55,12 @@ ht-degree: 100%
 
   「type」属性の公式なリストについては、[この Web サイト](https://www.w3schools.com/tags/att_input_type.asp)を参照してください。
 
-* DCE での終了ページのシミュレーションの手順：
+* DCEを使用して終了ページをシミュレートする手順：
 
   ![](assets/dce_enchainement.png)
 
 * ページに 1 組の `<body> </body>` のみ存在することを確認してください。
-* CSS または JS ファイルがアップロードされても、.zip ファイルに含まれる画像はアップロードされません。 したがって、CSS に存在するこれらの画像への参照は更新されません。
+* CSSまたはJS ファイルをアップロードする場合、.zip ファイル内に含まれる画像はアップロードされません。 したがって、CSS に存在するこれらの画像への参照は更新されません。
 
 ## コンテンツエディターでサポートされるフォーマット {#content-editor-supported-formats}
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 * この Web アプリケーションはパブリッシュされていないので、オンラインでアクセスできません。
 * Web アプリケーションがオンラインです。変更を適用するには、再度パブリッシュする必要があります。
 * ページコンテンツが機能しません。 HTML フォーム（`<form>`）を含める必要があります。
-* 設定する入力ゾーンまたはボタンがありません。
+* 設定する入力ゾーンまたはボタンはありません。
 * 次のページへのトランジションを有効にするには、現在のページ上のボタンまたはリンクに「次のページ」アクションをリンクする必要があります。
 
 ### 配信編集時のメッセージのリスト {#list-of-messages-when-editing-a-delivery}

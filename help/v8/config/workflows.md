@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 92%
+source-wordcount: '655'
+ht-degree: 89%
 ---
 # ワークフローの基本を学ぶ{#gs-with-workflows}
 
@@ -65,7 +65,7 @@ Adobe Campaign ワークフローを使用すると、セグメントの作成�
 
 * [ワークフローのベストプラクティス](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=ja){target="_blank"}
 
-* [組み込みのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"}
+* [ビルトインのテクニカルワークフロー](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=ja){target="_blank"}
 
 * [ワークフロー実行の監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=ja){target="_blank"}
 
@@ -101,7 +101,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Query your targeted recipients with a **[!UICONTROL Query]** activity.
 
-    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}.
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
 
@@ -109,7 +109,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html?lang=ja){target="_blank"}.
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database.
 
@@ -142,7 +142,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 ## 繰り返しキャンペーンの設定
 
-繰り返しワークフローをデザインし、ワークフローを実行するたびに新しい配信インスタンスを作成します。 たとえば、ワークフローが週に 1 回実行されるよう設計されている場合、1 年後には 52 件の配信が存在することになります。 つまり、ログは各配信インスタンスで区切られます。
+繰り返しワークフローをデザインし、ワークフローが実行されるたびに新しい配信インスタンスを作成します。 たとえば、ワークフローが週に 1 回実行されるよう設計されている場合、1 年後には 52 件の配信が存在することになります。 つまり、ログは各配信インスタンスで区切られます。
 
 繰り返しキャンペーンを作成する方法について詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=ja){target="_blank"}を参照してください。
 

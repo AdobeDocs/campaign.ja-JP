@@ -39,10 +39,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 96%
+source-wordcount: '728'
+ht-degree: 91%
 ---
 # フォルダーとビューの管理 {#folders-and-views}
 
@@ -137,7 +137,7 @@ Campaign フォルダーは、エクスプローラーツリー内のノード�
 
 ## フォルダー内のデータのフィルタリング{#filter-data-in-a-folder}
 
-フォルダーに格納されているデータをフィルターするには、フォルダーのプロパティにアクセスし、「制限」タブを選択します。
+フォルダーに保存されているデータをフィルタリングするには、フォルダーのプロパティにアクセスし、「制限」タブを選択します。
 
 例えば、以下のフォルダーには、メールアドレスを持ち、接触チャネルが「外部」としてフラグされていない、または空の連絡先のみが含まれます。
 

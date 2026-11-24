@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 95%
+source-wordcount: '1366'
+ht-degree: 89%
 ---
 # LINE 配信の作成
 
 LINE は、無料のインスタントメッセージ、音声およびビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。 Adobe Campaign を使用して、LINE メッセージを送信できます。
 
-また [!DNL LINE] は、コンシューマー向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。 詳しくは、Campaign Classic v7 ドキュメントのこの[page](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)を参照してください。
+また [!DNL LINE] は、消費者向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。 詳しくは、Campaign Classic v7 ドキュメントのこの[page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)を参照してください。
 
 ![](assets/line_message.png)
 
@@ -144,7 +144,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
    ![](assets/line_message_10.png)
 
-1. 配信エディターで、「**[!UICONTROL 追加]**」をクリックして 1 つまたは複数のメッセージを追加し、**[!UICONTROL コンテンツタイプ]**&#x200B;を選択します。
+1. 配信エディターで、**[!UICONTROL 追加]**&#x200B;をクリックして1つまたは複数のメッセージを追加し、**[!UICONTROL コンテンツタイプ]**&#x200B;を選択します。
 
    利用可能な様々な&#x200B;**[!UICONTROL コンテンツタイプ]**&#x200B;について詳しくは、[コンテンツタイプの定義](#defining-the-content)を参照してください。
 
@@ -160,7 +160,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 ## コンテンツタイプの定義 {#defining-the-content}
 
-[!DNL LINE] 配信のコンテンツを定義するには、最初にメッセージタイプを配信に追加する必要があります。 それぞれの [!DNL LINE] 配信には最大で 5 件のメッセージを含めることができます。
+[!DNL LINE]配信のコンテンツを定義するには、まず配信にメッセージタイプを追加する必要があります。 それぞれの [!DNL LINE] 配信には最大で 5 件のメッセージを含めることができます。
 
 次の 3 つのメッセージタイプから選択できます。
 
@@ -198,7 +198,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
   ![](assets/line_message_03.png)
 
-  「**[!UICONTROL デバイスの画面サイズごとに画像を定義]**」オプションを使用すると、様々な画像解像度を使用して、モバイルデバイス上の配信の視認性を最適化できます。 同じ高さと幅の画像のみがサポートされます。
+  「**[!UICONTROL デバイスの画面サイズごとに画像を定義]**」オプションを使用すると、様々な画像解像度を使用して、モバイルデバイス上の配信の視認性を最適化できます。 高さと幅が同じ画像のみがサポートされます。
 
   画像は、画面サイズに従って定義できます。
 
@@ -222,7 +222,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 ### ビデオメッセージ配信の設定 {#configuring-a-video-message-delivery}
 
-**[!UICONTROL ビデオメッセージ]** [!DNL LINE] 配信は、URL を含むビデオの形式で受信者に送信されるメッセージです。
+**[!UICONTROL ビデオメッセージ]** [!DNL LINE]配信は、URLを含めることができるビデオの形式で受信者に送信されるメッセージです。
 
 「**[!UICONTROL プレビュー画像 URL]**」フィールドを使用すると、プレビュー画像の URL を追加できます。文字数の制限は 1000 です。 ファイルサイズの上限が 1 MB の JPEG と PNG がサポートされます。
 
@@ -282,7 +282,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. 「**[!UICONTROL リンク]**」セクションで、画像を複数のクリック可能な領域に分割するレイアウトを選択します。
 
-1. 画像の各領域に URL を割り当てます。
+1. 画像の各領域にURLを割り当てます。
 
    ![](assets/line_usecase_08.png)
 

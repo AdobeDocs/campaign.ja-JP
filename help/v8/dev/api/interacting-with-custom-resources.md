@@ -25,16 +25,16 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # カスタムリソースの操作 {#interacting-with-custom-resources}
 
 **/customResources** エンドポイントを使用すると、RESTでCampaign カスタムリソースを公開できます。 このAPIに基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
-/customResources エンドポイントは、/profileAndServices エンドポイントとまったく同じ動作をします。
+/customResources エンドポイントには、/profileAndServices エンドポイントとまったく同じものがあります。
 
 このAPI内で公開されるカスタムリソースは次のとおりです。
 

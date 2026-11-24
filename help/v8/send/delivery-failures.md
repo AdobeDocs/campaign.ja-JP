@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3529'
-ht-degree: 82%
+source-wordcount: '3530'
+ht-degree: 79%
 ---
 # 配信の失敗について {#delivery-failures}
 
@@ -64,7 +64,7 @@ ht-degree: 82%
 
 メッセージを送信すると、各プロファイルの配信ステータス、関連するエラーのタイプと理由が配信ログに表示されます。
 
-メールアドレスが強制隔離された場合、またはプロファイルがブロックリストに登録されている場合、配信の準備段階で受信者が除外されます。 除外されたメッセージのリストは、配信ダッシュボードに表示されます。
+メールアドレスが強制隔離されている場合、またはプロファイルがブロックリストにある場合、配信準備ステップで受信者が除外されます。 除外されたメッセージのリストは、配信ダッシュボードに表示されます。
 
 ## メッセージの配信が失敗した理由 {#delivery-failure-reasons}
 
@@ -159,7 +159,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
 
 メッセージの有効期限は、有効期限が切れた後に次の再試行が行われる有効期限が切れる前に切れる場合があります。 その後、配信ログに最後の配信試行からの失敗が表示されます。
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=ja#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## メールのエラータイプ {#email-error-types}
@@ -228,7 +228,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
    <td> 判別後に除外 </td> 
    <td> 無視 </td> 
    <td> 12 </td> 
-   <td> 受信者が「判別」タイプのキャンペーンタイポロジルールによって除外されました。<br /> </td> 
+   <td> 受信者は「調停」タイプのキャンペーンタイポロジルールによって除外されました。<br /> </td> 
   </tr> 
   <tr> 
    <td> SQL ルールによって除外 </td> 
@@ -258,7 +258,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
    <td> 未定義 </td> 
    <td> 未定義 </td> 
    <td> 0 </td> 
-   <td> エラーがまだインクリメントされていないので、アドレスは選定中です。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 その後、テクニカルチームは、ツリー構造の<span class="uicontrol">管理</span>／<span class="uicontrol">キャンペーン管理</span>／<span class="uicontrol">配信不能件数の管理</span>ノードからメッセージの分析を実行し、このエラーを検証します。<br /> </td> 
+   <td> エラーがまだ増分されていないため、アドレスが資格情報になっています。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 その後、テクニカルチームは、ツリー構造の<span class="uicontrol">管理</span>／<span class="uicontrol">キャンペーン管理</span>／<span class="uicontrol">配信不能件数の管理</span>ノードからメッセージの分析を実行し、このエラーを検証します。<br /> </td> 
   </tr> 
   <tr> 
    <td> オファーを受ける資格がない </td> 
@@ -309,7 +309,7 @@ Campaign 配信の有効期間の設定は、**3.5 日以内**&#x200B;に制限�
 
 HTTP/V2 プロトコルでは、プッシュ配信ごとの直接フィードバックおよびステータスを使用できます。 HTTP/V2 プロトコルコネクタを使用する場合、フィードバックサービスが **[!UICONTROL mobileAppOptOutMgt]** ワークフローによって呼び出されることはありません。 モバイルアプリケーションのアンインストールまたは再インストールがおこなわれた場合、トークンは登録解除されたものとみなされます。
 
-同時に、APNs がメッセージに対して登録解除ステータスを返した場合、ターゲットトークンはただちに強制隔離されます。
+同期的に、APNがメッセージの「未登録」ステータスを返した場合、ターゲットトークンは直ちに強制隔離されます。
 
 +++ クリックしてiOSの強制隔離シナリオを表示
 
@@ -497,7 +497,7 @@ Android V2 の強制隔離メカニズムでは、Android V1 と同じプロセ�
    <td> ×<br /> </td> 
   </tr> 
   <tr> 
-   <td> FCM メッセージ却下：その他すべてのエラー<br /> </td> 
+   <td> FCM メッセージの拒否：他のすべてのエラー<br /> </td> 
    <td> 失敗<br /> </td> 
    <td> Firebase Cloud Messaging サーバーから予期しないエラーコードが返されました : {1} </td> 
    <td> </td> 
@@ -758,7 +758,7 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **解決策**: ワークフローと配信コンテンツを確認して、問題のテーブルを呼び出そうとしているパーソナライゼーションを具体的に判断します。 次に、HTMLのこのテーブルへの呼び出しを削除するか、配信へのマッピングを修正します。
 
-パーソナライゼーションの詳細については、[このセクション &#x200B;](personalize.md)を参照してください。
+パーソナライゼーションの詳細については、[このセクション ](personalize.md)を参照してください。
 
 ### 複数のパーソナライゼーション値のエラー {#multiple-values-error}
 
@@ -770,7 +770,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 **原因**：電子メール内に、受信者に対して複数の値を持つパーソナライゼーションフィールドまたはブロックがあります。 パーソナライゼーションブロックが使用されていて、特定の受信者の複数のレコードを取得しています。
 
-**解決策**：使用されているパーソナライゼーションデータを確認し、いずれかのフィールドに複数のエントリがある受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]** アクティビティを使用して、一度に1つのパーソナライゼーションフィールドのみを確認することもできます。 重複排除について詳しくは、[&#x200B; ワークフローのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"}を参照してください。
+**解決策**：使用されているパーソナライゼーションデータを確認し、いずれかのフィールドに複数のエントリがある受信者のターゲットを確認します。 配信アクティビティの前に、ターゲティングワークフローで&#x200B;**[!UICONTROL 重複排除]** アクティビティを使用して、一度に1つのパーソナライゼーションフィールドのみを確認することもできます。 重複排除について詳しくは、[ ワークフローのドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=ja){target="_blank"}を参照してください。
 
 ### 自動返信の処理 {#auto-reply-handling}
 
@@ -786,12 +786,12 @@ Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 
 ## 関連トピック
 
-[配信ステータス &#x200B;](delivery-statuses.md)は、配信がライフサイクル中に持つことができる様々なステータスについて説明します。
+[配信ステータス ](delivery-statuses.md)は、配信がライフサイクル中に持つことができる様々なステータスについて説明します。
 
-[&#x200B; キャンペーン UI](delivery-dashboard.md)の配信を監視すると、配信ダッシュボードを使用して配信パフォーマンスを追跡し、問題を診断するためのガイダンスが提供されます。
+[ キャンペーン UI](delivery-dashboard.md)の配信を監視すると、配信ダッシュボードを使用して配信パフォーマンスを追跡し、問題を診断するためのガイダンスが提供されます。
 
 [強制隔離の管理](quarantines.md)では、Campaignが強制隔離されたアドレスを管理して、送信レピュテーションを保護する方法について説明します。
 
 [配信品質の監視](monitoring-deliverability.md)は、配信品質と送信者のレピュテーションの維持に関するガイダンスを提供します。
 
-[配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md)では、Campaignで配信を作成および送信するためのベストプラクティスについて説明します。
+[配信のベストプラクティス ](../start/delivery-best-practices.md)では、Campaignで配信を作成および送信するためのベストプラクティスについて説明します。

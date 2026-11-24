@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 2%
 ---
 # 追加操作 {#additional-operations}
@@ -108,7 +108,7 @@ ht-degree: 2%
 
 ***サンプルリクエスト***
 
-以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 最初に、「プロファイル」リソースメタデータに対してGET リクエストを実行します。
+以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 まず、「プロファイル」リソースメタデータに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -243,7 +243,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
   }
   ```
 
-* 「email」と「sport」というラベルが付いたサービスリソースを取得するためのGET リクエストのサンプル。
+* GET リクエストをサンプルして、「email」と「sport」というラベルが付いたサービスリソースを取得します。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -283,8 +283,8 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 詳しくは、Campaign Standardのドキュメントを参照してください。
 
-* [&#x200B; フィルター定義の設定](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ja)。
+* [ フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>
 
@@ -354,7 +354,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 ***サンプルリクエスト***
 
-**messageType**&#x200B;値が「sms」に等しいすべてのサービスをカウントするには、**byChannel** フィルターを使用してGET リクエストを実行します。
+**messageType**&#x200B;の値が「sms」と等しいすべてのサービスをカウントするには、**byChannel** フィルターを使用してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \

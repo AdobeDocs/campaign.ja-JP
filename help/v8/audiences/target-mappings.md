@@ -36,7 +36,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Adobe Campaign には、次のビルトインのターゲットマッピング�
 | 名前 | 用途 | スキーマ |
 |---|---|---|
 | 受信者 | 受信者への配信（ビルトインの受信者テーブル） | nms:recipient |
-| 訪問者 | 紹介（バイラルマーケティング）などの方法でプロファイルを収集した訪問者への配信 | mns:visitor |
+| 訪問者 | 紹介（バイラルマーケティング）などの方法でプロファイルを収集した訪問者への配信 | nms:visitor |
 | 購読 | ニュースレターなどの情報サービスを購読している受信者に対する配信 | nms:subscription |
 | 訪問者の購読 | 情報サービスを購読している訪問者に対する配信 | nms:visitorSub |
 | オペレーター | Adobe Campaign オペレーターに対する配信 | nms:operator |

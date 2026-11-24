@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 87%
+source-wordcount: '858'
+ht-degree: 86%
 ---
 # 列挙の操作 {#enumerations}
 
@@ -57,7 +57,7 @@ ht-degree: 87%
 * **オープン**&#x200B;列挙を使用すると、ユーザーはこの列挙に基づいてフィールドに新しい値を直接追加できます。
 * **クローズド**&#x200B;列挙には、エクスプローラーの&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;フォルダーからのみ変更できる値の固定リストがあります。
 * **顔文字**&#x200B;列挙を使用すると、顔文字リストを更新できます。 詳細情報
-* **システム**&#x200B;列挙は、システムフィールドに関連付けられており、内部名が付いています。
+* **System**&#x200B;列挙は、システム フィールドに関連付けられ、内部名が付きます。
 
 **オープン**&#x200B;および&#x200B;**クローズド**&#x200B;の列挙では、次の特定のオプションを使用できます。
 

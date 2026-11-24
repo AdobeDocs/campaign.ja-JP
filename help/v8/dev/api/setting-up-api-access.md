@@ -30,26 +30,26 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 12%
+ht-degree: 8%
 ---
 # API アクセスの設定 {#setting-up-api-access}
 
-Adobe Campaign Standard API アクセスは、次の手順で設定します。 これらの各手順について詳しくは、[Adobe Developer ドキュメント &#x200B;](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
+Adobe Campaign Standard API アクセスは、次の手順で設定します。 これらの各手順について詳しくは、[Adobe Developer ドキュメント ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)を参照してください。
 
 >[!IMPORTANT]
 >
->[Adobe Developer](https://developer.adobe.com/)で証明書を管理するには、組織の&#x200B;**システム管理者**&#x200B;権限、またはAdmin Consoleの[開発者アカウント &#x200B;](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)権限があることを確認してください。
+>[Adobe Developer](https://developer.adobe.com/)で証明書を管理するには、組織の&#x200B;**システム管理者**&#x200B;権限、またはAdmin Consoleの[開発者アカウント ](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)権限があることを確認してください。
 
 1. **電子証明書があるかどうかを確認するか、必要に応じて電子証明書を作成します**。 証明書で提供される公開鍵と秘密鍵は、次の手順で必要になります。
-1. **Adobe Developer[&#128279;](https://developer.adobe.com/)のAdobe Campaign Service**&#x200B;への新しい統合を作成し、設定します。 次に、資格情報が生成されます（API キー、クライアントシークレット…）。
+1. **Adobe Developer](https://developer.adobe.com/)の[Adobe Campaign Service**&#x200B;への新しい統合を作成し、設定します。 次に、資格情報が生成されます（API キー、クライアントシークレット…）。
 1. **次の[実装手順](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)に従って、OAuth サーバー間**&#x200B;資格情報を作成します
 
    >[!IMPORTANT]
    >
-   >JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。 移行は、Campaignの今後のリリース内で段階的に実行されます。 サービスアカウント （JWT）資格情報は非推奨とマークされています。2025年1月27日まで引き続き機能します。 したがって、2025年1月27日（PT）より前に新しいOAuth サーバー間資格情報を使用するには、アプリケーションまたは統合を移行する必要があります。 OAuth認証をお勧めします。 JWT認証からOAuth認証に移行するためのすべての要素は、次のページにあります。
+   >JWT （JSON Web Tokens）は現在、非推奨化のプロセスにあり、OAuthに置き換えられています。 移行は、Campaignの今後のリリース内で段階的に実行されます。 サービスアカウント （JWT）資格情報は非推奨とマークされています。2025年1月27日まで引き続き機能します。 したがって、2025年1月27日（PT）より前に新しいOAuth サーバー間資格情報を使用するには、アプリケーションまたは統合を移行する必要があります。 OAuth認証をお勧めします。 JWT認証からOAuth認証に移行するためのすべての要素は、次のページにあります。
    >* [移行](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [実装](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [非推奨のJWT FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)

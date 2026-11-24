@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 96%
+ht-degree: 89%
 ---
 # Campaign でのプライバシーリクエストの管理 {#privacy}
 
@@ -45,14 +45,14 @@ ht-degree: 96%
 アドビは、Campaign に保存されているデータに対するプライバシーリクエストの作成と処理を行うためのデータコントローラー用ツールを用意しています。 しかし、要求者であるデータ主体の ID、および要求者に返されるデータがデータ主体に関するものであることの確認は、データコントローラーの責任です。 個人データおよびデータを管理する様々なエンティティについて詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#personal-data){target="_blank"}を参照してください。
 
 
-Campaign でプライバシーリクエストを管理するには、まず[名前空間を定義する](#namespaces)必要があります。 その後、プライバシーリクエストを作成および管理できます。 プライバシーリクエストを実行するには、**Adobe Privacy Service** 統合を使用します。 Privacy Serviceからすべての[!DNL Adobe CX Enterprise] ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローを介してCampaignによって自動的に処理されます。 [詳細情報](#create-privacy-request)
+Campaignでプライバシーリクエストを管理するには、まず[名前空間を定義する必要があります](#namespaces)。 その後、プライバシーリクエストを作成および管理できます。 プライバシーリクエストを実行するには、**Adobe Privacy Service** 統合を使用します。 Privacy Serviceからすべての[!DNL Adobe CX Enterprise] ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローを介してCampaignによって自動的に処理されます。 [詳細情報](#create-privacy-request)
 
 **アクセス権**&#x200B;および&#x200B;**忘れられる権利**（削除リクエスト）について詳しくは、[Adobe Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja#right-access-forgotten){target="_blank"}を参照してください。
 
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md)を参照してください
 
 ## 名前空間を定義 {#namespaces}
 
@@ -75,7 +75,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. [ID 名前空間サービス](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}で名前空間を作成します。
 
-1. [ID 名前空間のリスト](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}が組織で使用可能な場合、例えば、次の名前空間が得られます。
+1. 組織で使用可能なID名前空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}を[ リストアップすると、次のような名前空間の詳細が表示されます。例：
 
    ```
    {
@@ -98,7 +98,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. **[!UICONTROL ラベル]**&#x200B;を入力します。
 
-1. ID 名前空間サービスで作成した名前空間に一致するように、新しい名前空間の詳細を入力します。
+1. ID名前空間サービスで作成した名前空間と一致するように、新しい名前空間の詳細を入力します。
 
    * **[!UICONTROL AEC 名前空間 ID]** は、「id」属性に一致する必要があります。
    * **[!UICONTROL 内部名]**&#x200B;は、「code」属性に一致する必要があります。
@@ -157,7 +157,7 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 * 購読（subscription）
 * 受信者のオファーの提案（propositionRcp）
 
-受信者テーブル（独自タイプ）にリンクされるカスタムテーブルを作成した場合は、そのテーブルも考慮されます。 例えば、受信者テーブルにリンクしているトランザクションテーブルと、そのトランザクションテーブルにリンクしているトランザクション詳細テーブルがある場合、両方のテーブルが考慮されます。
+受信者テーブル（独自タイプ）にリンクされるカスタムテーブルを作成した場合は、そのテーブルも考慮されます。 例えば、受信者テーブルにリンクされたトランザクションテーブルと、トランザクションテーブルにリンクされたトランザクション詳細テーブルがある場合、両方が考慮されます。
 <!--
 >[!CAUTION]
 >

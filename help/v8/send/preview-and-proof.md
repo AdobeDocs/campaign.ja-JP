@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # メールのプレビューとテスト {#preview-test}
 
@@ -107,7 +107,7 @@ ht-degree: 96%
 
 ### 配達確認のプロパティ {#proofs-properties}
 
-配達確認プロパティは、配信プロパティウィンドウの「**[!UICONTROL 詳細]**」タブで設定します。 「**[!UICONTROL 配達確認プロパティ…]**」リンクを参照し、配達確認のパラメーターとラベルを定義します。 保持できるオプションは次のとおりです。
+プルーフプロパティは、配信プロパティウィンドウの「**[!UICONTROL 詳細]**」タブで設定します。 「**[!UICONTROL 配達確認プロパティ…]**」リンクを参照し、配達確認のパラメーターとラベルを定義します。 保持できるオプションは次のとおりです。
 
 * 配達確認の重複アドレス
 * 配達確認のブロックリスト登録済みアドレス
@@ -122,4 +122,4 @@ ht-degree: 96%
 
 メール配信の配達確認を送信して検証する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447000?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

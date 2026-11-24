@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 90%
+ht-degree: 82%
 ---
 # ファイルからのプロファイルのインポート{#create-profiles}
 
@@ -43,7 +43,7 @@ Campaign データベースにデータを入力するには、[プロファイ�
 
 ## ワークフローでのプロファイルの読み込み {#import-profiles-with-a-wf}
 
-ワークフローは、一部のインポート処理を自動化する有効な手段になります。 データをローカルファイルからインポートするか、SFTP からインポートするかに関係なく、ワークフローを使用してデータ管理手順を標準化することができます。
+ワークフローは、一部のインポート処理を自動化する有効な手段になります。 ローカルファイルからデータを読み込む場合でも、SFTPからデータを読み込む場合でも、ワークフローを使用してデータ管理手順を標準化できます。
 
 ### リストからのデータの使用：リスト読み込み {#data-from-read-list}
 
@@ -51,7 +51,7 @@ Campaign データベースにデータを入力するには、[プロファイ�
 
 ### ファイルからのデータの読み込み {#data-from-a-file}
 
-ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}。
+ワークフロー内で処理されるデータは、Adobe Campaign にインポートできるように、構造化ファイルから抽出することができます。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}。
 
 データを収集したら、ワークフローで配信の拡充やデータベースの更新などに使用できます。 詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=ja){target="_blank"}を参照してください。
 
@@ -63,4 +63,4 @@ Adobe Campaign には、一般的なインポート機能が用意されてい�
 
 ![](assets/new-import-job.png)
 
-汎用インポートを実行する手順については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}を参照してください。
+汎用インポートを実行する手順については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}を参照してください。

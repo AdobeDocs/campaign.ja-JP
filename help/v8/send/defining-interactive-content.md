@@ -26,14 +26,14 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 92%
 ---
 # インタラクティブコンテンツの定義{#defining-interactive-content}
 
-Adobe Campaign では、特定の条件下での動的なメールの送信を可能にする、インタラクティブな [AMP for Email](https://amp.dev/ja/about/email/) 形式を使用することができます。
+Adobe Campaignでは、インタラクティブな[AMP for Email](https://amp.dev/ja/about/email/)形式を使用できます。これにより、特定の条件の下で動的なメールを送信できます。
 
 AMP for Email を使用して、次のことができます。
 * 適切に設定された特定のアドレスに対する AMP メールの配信をテストする
@@ -41,11 +41,11 @@ AMP for Email を使用して、次のことができます。
 
 AMP メールのテストと送信について詳しくは、[この節](#targeting-amp-email)を参照してください。
 
-この機能は、Adobe Campaign の専用パッケージを通じて使用できます。 権限とデプロイメントモデルに応じて、このパッケージをインストールするか、アドビに問い合わせてインストールしてもらうことができます。
+この機能は、Adobe Campaign の専用パッケージを通じて使用できます。 権限とデプロイメントモデルに応じて、このパッケージをインストールするか、Adobeに連絡してインストールできます。
 
 ## AMP for Email について {#about-amp-for-email}
 
-新しい **AMP for Email** フォーマットを使用すると、メッセージに AMP コンポーネントを組み込み、アクションにつながるリッチコンテンツでメールエクスペリエンスを向上させることができます。 最新のアプリ機能を直接メール内に組み込めるため、受信者はメッセージ内にあるコンテンツと動的にやりとりすることができます。
+新しい形式&#x200B;**AMP for Email**&#x200B;を使用して、メッセージにAMP コンポーネントを含め、リッチで実用的なコンテンツでメール体験を向上させます。 最新のアプリ機能を直接メール内に組み込めるため、受信者はメッセージ内にあるコンテンツと動的にやりとりすることができます。
 
 例：
 * AMP を使用して記述されたメールには、画像カルーセルなどのインタラクティブな要素を含めることができます。
@@ -67,7 +67,7 @@ Adobe Campaign で AMPメールを正常にテストして送信するには、�
 
    >[!NOTE]
    >
-   >現在、AMP メールは、[特定のメールアドレス](#testing-amp-delivery-for-selected-addresses)（テスト用）にのみ配信できるか、サポートされているメールクライアントへの[登録](#delivering-amp-emails-by-registering)後にのみ配信できます。
+   >現在、AMP メールを配信できるのは、[特定のメールアドレス ](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
 
 1. 通常どおりにメールを送信します。 [AMPメールの送信](#sending-amp-email)を参照してください。
 
@@ -145,7 +145,7 @@ Adobe Campaign で AMP コンテンツを作成する場合は、動的なメー
 
 現在、この形式のテストをサポートしているメールプロバイダーは、Gmail と Mail.ru の 2 つです。
 
-Gmail アカウントに対して AMP 形式で配信をテストするために必要なすべての手順と仕様については、該当する [Gmail](https://developers.google.com/gmail/ampemail?) および [Mail.ru](https://postmaster.mail.ru/amp) 開発者向けドキュメントを参照してください。
+Gmail アカウントでAMP形式の配信をテストするために必要なすべての手順と仕様については、対応する[Gmail](https://developers.google.com/gmail/ampemail?)および[Mail.ru](https://postmaster.mail.ru/amp)の開発者ドキュメントで詳しく説明しています。
 
 特に、次の要件を満たす必要があります。
 * [Gmail](https://developers.google.com/gmail/ampemail/security-requirements) および [Mail.ru](https://postmaster.mail.ru/amp/#howto) 特有の AMP セキュリティ要件に従います。
@@ -216,4 +216,4 @@ AMP コンテンツとフォールバックの準備が整い、互換性のあ�
 
 ビデオでは、Adobe Campaign で AMP をアクティブ化する方法を説明し、使用法を紹介しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/35081?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)

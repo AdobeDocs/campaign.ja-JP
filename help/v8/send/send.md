@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 96%
+ht-degree: 92%
 ---
 # メールの送信と監視  {#send-and-monitor-emails}
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。 配信ログのメッセージのステータスも制御できます。
 
-[配信ステータス &#x200B;](delivery-statuses.md)の詳細をご覧ください。
+[配信ステータス ](delivery-statuses.md)の詳細をご覧ください。
 
 >[!NOTE]
 >
@@ -92,11 +92,11 @@ Domain Keys Identified Mail（DKIM）は、偽造された送信者アドレス�
 
 Adobe Campaign では、DKIM のメール認証の署名は MTA が実行します。
 
-DKIM について詳しくは、[アドビ配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"}を参照してください。
+DKIMについて詳しくは、[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"}を参照してください。
 
 ## メールフィードバックサービス {#email-feedback-service}
 
-Campaign メールフィードバックサービス（EFS）では、Adobe Campaign で送信された各メール配信のステータスを報告します。
+Campaign メールフィードバックサービス（EFS）は、Adobe Campaignで送信された各メール配信のステータスをレポートします。
 
 配信の開始後、Campaign から MTA にメッセージが正常に中継されると、**[!UICONTROL 成功]**&#x200B;のパーセンテージは変更されません。 配信ログには、対象アドレスごとに&#x200B;**[!UICONTROL サービスプロバイダーで受信済み]**&#x200B;ステータスが表示されます。
 
@@ -123,5 +123,5 @@ MTA からハードバウンスメッセージが報告されると、ログの�
 | Campaign から MTA にメッセージが正常に中継される | **[!UICONTROL 成功]**&#x200B;パーセンテージが表示されない（0%から開始） | サービスプロバイダーで受信済み |
 | MTA からハードバウンスメッセージが返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 失敗 |
 | ソフトバウンスメッセージが MTA から返される | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | サービスプロバイダーで受信済み |
-| ソフトバウンスメッセージの再試行が成功する | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
+| ソフトバウンスメッセージの再試行が成功しました | それに応じて&#x200B;**[!UICONTROL 成功]**&#x200B;のパーセンテージが増加する | 送信済み |
 | ソフトバウンスメッセージの再試行に失敗する | **[!UICONTROL 成功]**&#x200B;のパーセンテージに変更はない | 失敗 |

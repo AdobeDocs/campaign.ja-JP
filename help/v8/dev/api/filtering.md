@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ***サンプルリクエスト***
 
-以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 最初に、「プロファイル」リソースメタデータに対してGET リクエストを実行します。
+以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 まず、「プロファイル」リソースメタデータに対してGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -170,7 +170,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
   }
   ```
 
-* 「email」と「sport」というラベルが付いたサービスリソースを取得するためのGET リクエストのサンプル。
+* GET リクエストをサンプルして、「email」と「sport」というラベルが付いたサービスリソースを取得します。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -210,8 +210,8 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 詳しくは、Campaign Standardのドキュメントを参照してください。
 
-* [&#x200B; フィルター定義の設定](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ja)。
+* [ フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>
 

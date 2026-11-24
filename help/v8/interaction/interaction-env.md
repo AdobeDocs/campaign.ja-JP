@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 96%
 ---
 # 環境の操作{#work-with-environments}
 

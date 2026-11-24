@@ -29,27 +29,27 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 84%
+source-wordcount: '170'
+ht-degree: 64%
 ---
 # シミュレーションのトラッキング{#simulation-tracking}
 
 
 
-シミュレーションが完了したら、シミュレーションウィンドウに追加される「**[!UICONTROL 結果]**」タブと、シミュレーションダッシュボードで利用できる&#x200B;**[!UICONTROL オファーの分類（ランキング別）]**&#x200B;レポートを使用して、実行結果を分析できます。
+シミュレーションが完了したら、シミュレーション ウィンドウに追加された「**[!UICONTROL 結果]**」タブと、シミュレーション ダッシュボードで利用できる「**[!UICONTROL ランク別オファーの内訳]**」レポートを使用して、その結果を分析できます。
 
 シミュレーションの結果には、提案のランキング別および受信者別の分類が含まれています。 また、レポートの軸も考慮されて、このタブに表示されます。
 
 必要に応じて、結果の記述的分析を作成することで、シミュレーションの結果を保存してエクスポートできます。 それには、結果ウィンドウで適切なリンクをクリックします。
 
-記述的分析アシスタントについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"}を参照してください。
+記述的分析アシスタントについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"}を参照してください。
 
 ![](assets/offer_simulation_012.png)
 
 ピボットテーブルを使用すると、オファーのランキングごとの分類をすばやく確認できます。 Adobe Campaign のすべてのレポートと同じように、エクスポート、印刷、アーカイブまたは web ブラウザーでの表示が可能です。
 
-詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}を参照してください。
+詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}を参照してください。
 
 ![](assets/offer_simulation_013.png)

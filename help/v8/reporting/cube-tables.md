@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 97%
+ht-degree: 93%
 ---
 # キューブを使用したデータの調査{#use-cubes-to-create-reports}
 
@@ -114,7 +114,7 @@ ht-degree: 97%
 
    ![](assets/cube-measure-button.png)
 
-1. 「**[!UICONTROL 測定を使用]**」ボタンを使用して、既存の測定のいずれかを選択します。
+1. 「**[!UICONTROL 測定を使用]**」ボタンで、既存の測定のいずれかを選択します。
 
    ![](assets/cube-add-measure.png)
 
@@ -152,7 +152,7 @@ ht-degree: 97%
 
 ## ターゲット母集団の作成 {#build-a-target-population}
 
-キューブを使用して作成したレポートでは、テーブルからデータを収集し、リストに保存できます。
+キューブを使用して作成されたレポートを使用すると、テーブルからデータを収集し、リストに保存できます。
 
 母集団をリストにグループ化するには、次の手順に従います。
 
@@ -160,7 +160,7 @@ ht-degree: 97%
 
    ![](assets/cube-add-to-cart.png)
 
-   これを必要な回数だけ繰り返して、様々なプロファイルを収集します。
+   さまざまなプロファイルを収集するために、必要に応じて何度でもこれを行います。
 
 1. エクスポートを実行する前に、「**[!UICONTROL 買い物かごを表示]**」ボタンをクリックして、買い物かごの内容を確認します。
 

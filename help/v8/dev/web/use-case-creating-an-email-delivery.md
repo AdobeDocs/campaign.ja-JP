@@ -34,16 +34,16 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 98%
+source-wordcount: '806'
+ht-degree: 89%
 ---
 # ユースケース：メール配信の作成{#use-case-creating-an-email-delivery}
 
 
 
-この使用例では、Adobe Campaign デジタルコンテンツエディター（DCE）を使用したメール配信をデザインするための手順を説明します。
+このユースケースでは、Adobe Campaign デジタルコンテンツエディター（DCE）を使用してメール配信をデザインする手順について説明します。
 
 最終目標は、次の要素を含むパーソナライズされたテンプレートを使用して配信を作成することです。
 
@@ -60,17 +60,17 @@ ht-degree: 98%
 
 ## 手順 1 - 配信の作成 {#step-1---creating-a-delivery}
 
-新しい配信を作成するには、カーソルを「**キャンペーン**」タブに置いて、「**配信**」をクリックします。 次に、既存の配信のリストの上にある「**作成**」ボタンをクリックします。 配信の作成について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}を参照してください。
+新しい配信を作成するには、カーソルを「**キャンペーン**」タブに置いて、「**配信**」をクリックします。 次に、既存の配信のリストの上にある「**作成**」ボタンをクリックします。 配信の作成について詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}を参照してください。
 
 ![](assets/delivery_step_1.png)
 
 ## 手順 2 - テンプレートの選択 {#step-2---selecting-a-template}
 
-配信テンプレートを選択して、配信に名前を付けます。 この名前は、Adobe Campaign コンソールのユーザーにのみ表示され、受信者には表示されません。ただし、この見出しは、配信のリストに表示されます。 「**[!UICONTROL 続行]**」をクリックします。
+配信テンプレートを選択して、配信に名前を付けます。 この名前は、Adobe Campaign コンソールのユーザーにのみ表示され、受信者には表示されません。ただし、この見出しは配信のリストに表示されます。 「**[!UICONTROL 続行]**」をクリックします。
 
 ![](assets/dce_delivery_model.png)
 
-## 手順 3 - コンテンツの選択 {#step-3---selecting-a-content}
+## 手順3 - コンテンツの選択 {#step-3---selecting-a-content}
 
 デジタルコンテンツエディターには、すぐに使用できる様々なテンプレートが付属しています。これらのテンプレートは、多様な要素（列、テキスト領域など）で構成されています
 
@@ -78,7 +78,7 @@ ht-degree: 98%
 
 ![](assets/dce_select_model.png)
 
-また、「**[!UICONTROL ファイルから]**」を選択すると、Adobe Campaign 以外で作成した HTML コンテンツをインポートすることもできます。
+Adobe Campaign以外で作成されたHTML コンテンツを読み込むには、「**[!UICONTROL ファイルから]**」を選択します。
 
 ![](assets/dce_select_from_file_template.png)
 

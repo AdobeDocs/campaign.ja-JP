@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 94%
+ht-degree: 87%
 ---
 # Adobe Campaign v8 への接続{#gs-ac-connect}
 
@@ -57,7 +57,7 @@ Campaign を初めて使用する場合は、クライアントコンソール�
 
 1. Campaign 管理者として、アドビの[ソフトウェア配布](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html){target="_blank"}に接続します。
 
-1. エンドユーザーとして、Campaign 管理者がクライアントコンソールをデプロイし、専用の URL から使用できるようにします。
+1. エンドユーザーとして、Campaign管理者はクライアントコンソールをデプロイし、専用URLを通じて使用できるようにします。
 
 クライアントコンソールのインストールプログラムがダウンロードされたら、ローカルマシンにインストールします。
 
@@ -87,7 +87,7 @@ Campaign を初めて使用する場合は、クライアントコンソール�
 
 ## Adobe Campaign へのログオン {#logon-to-ac}
 
-Campaign ユーザーは、Adobe ID 管理システム（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのアドビソリューションで同じ ID を使用できます。 Adobe Campaign を他のソリューションと併用する場合、接続は保存されます。 Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+Campaign ユーザーは、Adobe ID 管理システム（IMS）により、Adobe ID を使用して Adobe Campaign コンソールに接続できます。 すべてのAdobe ソリューションに同じIDを使用できます。 Adobe Campaign を他のソリューションと併用する場合、接続は保存されます。 Adobe IMS について詳しくは、[このページ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 
 インスタンスにログオンするには、以下の手順に従います。
 
@@ -153,7 +153,7 @@ Campaign v8.6 リリース以降では、中央の[!DNL Adobe CX Enterprise]環�
 >Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 >
 
-[!DNL CX Enterprise]に接続し、Adobe Campaign Web インターフェイス [にアクセスする方法については、このページ &#x200B;](campaign-ui.md#ac-web-ui)を参照してください。
+[!DNL CX Enterprise]に接続し、Adobe Campaign Web インターフェイス [にアクセスする方法については、このページ ](campaign-ui.md#ac-web-ui)を参照してください。
 
 詳しくは、[Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}を参照してください。
 
@@ -171,6 +171,6 @@ Web アクセスでは、コンソールと同様のインターフェースを�
 
 ![](assets/campaign-from-web.png)
 
-Web アクセスは、検証プロセスでも使用します。オペレーターは、承認依頼のメールをクリックし、web ブラウザーで Campaign に接続して、配信コンテンツまたは予算の検証または却下を行うことができます。
+web アクセスは検証プロセスでも使用されます。オペレーターは、承認リクエストの電子メールをクリックし、web ブラウザーを介してCampaignに接続して、配信コンテンツまたは予算を検証または却下できます。
 
-Web から Campaign インスタンスにアクセスするための URL は `https://<your adobe campaign server>:<port number>/view/home` です。
+WebからCampaign インスタンスにアクセスするには、URLは`https://<your adobe campaign server>:<port number>/view/home`です。

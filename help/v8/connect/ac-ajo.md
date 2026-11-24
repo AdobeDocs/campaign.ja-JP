@@ -28,14 +28,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 77%
+source-wordcount: '126'
+ht-degree: 52%
 ---
 # Campaign とAdobe Journey Optimizer の連携
 
-Adobe Campaign と Adobe Journey Optimizer の統合により、Adobe Journey Optimizer でカスタマージャーニーを調整し、Adobe Campaign トランザクションメッセージ機能を使用して電子メール、プッシュ通知、SMS を送信できます。
+Adobe CampaignとAdobe Journey Optimizerの連携により、Adobe Campaignでカスタマージャーニーを編成し、Adobe Journey Optimizerのトランザクションメッセージ機能を使用して、電子メール、プッシュ通知、SMSなどを送信できます。
 
 基本的な手順は、Campaign でトランザクションメッセージテンプレートを作成してから、Adobe Journey Optimizer でイベントとアクションを作成し、ジャーニーをデザインします。
 
@@ -43,7 +43,7 @@ Adobe Campaign と Adobe Journey Optimizer の統合により、Adobe Journey Op
 ![](assets/ajo-integration.png)
 
 
-[この統合については、このエンドツーエンドのサンプル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/connect-systems/adobe-solutions/acc-action){target="_blank"}を参照してください。
+[この統合については、このエンドツーエンドのサンプル ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/connect-systems/adobe-solutions/acc-action){target="_blank"}を参照してください。
 
 
-[詳しくは、Journey Optimizer ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}を参照してください。
+[詳しくは、Journey Optimizer ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}を参照してください。

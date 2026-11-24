@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2044'
-ht-degree: 89%
+source-wordcount: '2045'
+ht-degree: 85%
 ---
 # フィルターの操作{#create-filters}
 
@@ -241,14 +241,14 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 #### デフォルトのフィルター{#default-filters}
 
-各リストの上のフィールドでは、このリストに&#x200B;**デフォルトの定義済みフィルター**&#x200B;を使用できます。 受信者リストの場合、デフォルトで名前とメールアドレスでフィルターできます。
+各リストの上のフィールドでは、このリストに&#x200B;**定義済みの既定のフィルター**&#x200B;を使用できます。 受信者リストの場合、デフォルトで名前とメールアドレスでフィルターできます。
 
 ![](assets/filter-recipient-name.png)
 
 
 >[!NOTE]
 >
->**%** 文字は任意の文字列を置き換えます。 例えば、Gmail アドレスを持つすべてのプロファイルを表示するには、「メール」フィールドに「`%@gmail.com`」と入力します。 姓に「L」が含まれるすべてのプロファイルを表示するには、「姓」フィールドに「`%@L`」と入力します。
+>**%** 文字は任意の文字列を置き換えます。 例えば、Gmail アドレスを持つすべてのプロファイルを表示するには、「メール」フィールドに「`%@gmail.com`」と入力します。 「姓」フィールドに「`%@L`」と入力すると、姓にLが含まれるすべてのプロファイルが表示されます。
 
 受信者リストのデフォルトのフィルターを変更するには、**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードを参照します。
 
@@ -294,7 +294,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
    ![](assets/add-filter-above-the-list.png)
 
 
-フォームではなく列にあるフィールドでフィルターを実行する必要がある場合は、その列でフィルターを実行します。 手順は次のとおりです。
+フォームでは使用できないが列にあるフィールドでフィルタリングする必要がある場合は、その列でフィルタリングします。 手順は次のとおりです。
 
 1. **[!UICONTROL リストを設定]**&#x200B;アイコンをクリックします。
 
@@ -409,7 +409,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 * 単純な受信者属性をターゲットにする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
 * 過去 7 日間に連絡されていない受信者をフィルターする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ja){target="_blank"}を参照してください。
-* アクティブなアカウントでフィルターできるオペレーターのリストを復元する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"}を参照してください。
+* アクティブなアカウントでフィルタリングできる演算子のリストを[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"}で復元する方法を説明します。
 * 誕生日メールのオーディエンスを作成する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}を参照してください。
 
 
@@ -419,7 +419,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 * このドキュメントタイプに基づくすべてのリストに対してデフォルトでフィルターを表示するには、「**[!UICONTROL 関連付けられたドキュメントタイプのデフォルトのフィルター]**」オプションを選択します。
 
-  例えば、**[!UICONTROL 名前またはログイン別]**&#x200B;フィルターがオペレーターに適用されます。このオプションが選択されているため、フィルターは常にすべてのオペレーターリストに表示されます。
+  例えば、**[!UICONTROL 名前別またはログイン別]** フィルターが演算子に適用されます。 このオプションを選択すると、常にすべてのオペレーターリストにフィルターが表示されます。
 
 * すべての Campaign オペレーターがフィルターを使用できるようにするには、「**[!UICONTROL 他のオペレーターと共有するフィルター]**」オプションを選択します。
 

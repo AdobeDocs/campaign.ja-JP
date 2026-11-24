@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 79%
+source-wordcount: '538'
+ht-degree: 71%
 ---
 # Campaign でのオーディエンスの使用{#gs-ac-audiences}
 
@@ -56,12 +56,12 @@ ht-degree: 79%
 
 ターゲティングは、ワークフロー内のグラフィカルシーケンスでクエリを組み合わせて作成できます。 要件に応じてターゲットとなるオーディエンスを作成できます。 ワークフローエディターを表示するには、Campaign ダッシュボードで「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。
 
-[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}のキャンペーンワークフローでオーディエンスを構築する方法について説明します。
+[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}のキャンペーンワークフローでオーディエンスを構築する方法について説明します。
 
 
 ## アクティブなプロファイル {#active-profiles}
 
-アクティブなプロファイルは、お客様が過去 12 か月の間に、任意のチャネル経由で通信を試みたプロファイルです。
+アクティブなプロファイルとは、顧客が任意のチャネルを通じて過去12 ヶ月間にコミュニケーションを試みたプロファイルのことです。
 
 各キャンペーンインスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされ、課金のためその数がカウントされます。 購入したアクティブなプロファイルの数については、最新の契約書を参照してください。 詳しくは、[Adobe Campaign製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 
@@ -76,7 +76,7 @@ ht-degree: 79%
 
 ## プライバシーと同意{#privacy-and-consent}
 
-Adobe Campaign は大量のデータを収集して処理できる強力なツールですが、データの中には個人情報や機密情報も含まれます。 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。 したがって、受信者の同意を得てこれを監視することが重要になります。
+Adobe Campaignは、個人情報や機密データを含む大量のデータを収集および処理するための強力なツールです。 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。 したがって、受信者の同意を得てこれを監視することが重要になります。
 
-プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}を参照してください。
+プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}を参照してください。
 

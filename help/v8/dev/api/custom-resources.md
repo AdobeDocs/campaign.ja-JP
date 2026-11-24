@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Adobe Campaignには事前定義済みのデータモデルが用意されてお
 >
 >すぐに使用できるリソースではないリソースの場合は、リソース名の前に必ず<b>&quot;cus&quot;</b>接頭辞を付けます。
 
-カスタムリソースがプロファイルテーブルにリンクされている限り、任意の操作を実行できます。 例えば、次の表の構造を考えてみましょう。
+カスタムリソースがプロファイルテーブルにリンクされている限り、任意の操作を実行できます。 例えば、次の表構造について考えてみましょう。
 
 ![alt text](assets/cusresources.png)
 

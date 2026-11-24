@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # 日本の携帯電話向けのメールの送信 {#sending-emails-on-japanese-mobiles}
 
@@ -114,7 +114,7 @@ Campaign を使用して日本語メールフォーマットでメールを受�
 
 Adobe Campaign がドメインに応じてフォーマットを動的に管理する場合（プロファイルのメールフォーマットを「**[!UICONTROL 不明]**」、「**[!UICONTROL HTML]**」または「**[!UICONTROL テキスト]**」とした場合）は、すべての受信者に同じ配信を送信できます。
 
-メッセージの連絡先は、日本の携帯電話のユーザーに対しても標準の受信者と同じように正しく表示されます。
+標準受信者と同様に、日本のモバイル上のユーザーに対してもメッセージコンテンツが正しく表示されます。
 
 >[!IMPORTANT]
 >

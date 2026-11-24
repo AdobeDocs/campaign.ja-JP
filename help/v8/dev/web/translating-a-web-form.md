@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1680'
-ht-degree: 100%
+ht-degree: 98%
 ---
 # web フォームの翻訳{#translating-a-web-form}
 
@@ -85,7 +85,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 翻訳が既に存在していることを収集プロセスが検出すると、文字列の&#x200B;**[!UICONTROL テキスト]**&#x200B;列に翻訳が表示されます。 文字列のステータスは、「**[!UICONTROL 翻訳済み]**」に変わります。
 
-翻訳されたことのない文字列の場合、「**[!UICONTROL テキスト]**」フィールドは空になり、ステータスは「**[!UICONTROL 翻訳する]**」になります。
+翻訳されていない文字列の場合、**[!UICONTROL テキスト]** フィールドは空で、ステータスは&#x200B;**[!UICONTROL 翻訳するには]**&#x200B;です。
 
 ### 文字列のフィルタリング {#filtering-strings}
 
@@ -143,7 +143,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
      >
      >このタイプのエクスポートは、XLIFF エクスポートでは使用できません。
 
-1. 次に、ファイルが記録される「**[!UICONTROL ターゲットフォルダー]**」を選択します。
+1. 次に、ファイルを記録する&#x200B;**[!UICONTROL ターゲットフォルダー]**&#x200B;を選択します。
 1. ファイル形式（**[!UICONTROL CSV]** または **[!UICONTROL XLIFF]**）を選択して、「**[!UICONTROL 開始]**」をクリックします。
 
 ![](assets/s_ncs_admin_survey_trad_export_start.png)
@@ -419,7 +419,7 @@ URL の言語の前に他のパラメーターがある場合。 例：**https:/
    <td> </td> 
   </tr> 
   <tr> 
-   <td> ワロン語（wa）<br /> </td> 
+   <td> ワロン （wa） <br /> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 

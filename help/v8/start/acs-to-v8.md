@@ -25,24 +25,24 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4cbf1340053ba2003ffade1c6d0c3af20a10717b
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 88%
+ht-degree: 62%
 ---
 # [!DNL Campaign Standard] から [!DNL Campaign] v8 への移行 {#acs-to-acv8}
 
-Campaign v8 に移行する Campaign Standard ユーザーは、新しいバージョンの Adobe Campaign web ユーザーインターフェイスと強力な v8 コンソールを利用できるようになりました。 この移行はシームレスで、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化するように設計された、直感的な機能をすべて使用できます。 Campaign web ユーザーインターフェイスを使用すると、Adobe Experience Platform と接続されたキャンバスが提供され、統合されたエクスペリエンスを実現できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}。
+Campaign v8に移行するCampaign Standard ユーザーは、新しいバージョンのAdobe Campaign Web ユーザーインターフェイスと強力なv8 コンソールを利用できるようになりました。 シームレスな移行が可能なため、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化するために設計された、あらゆる直感的な機能を使用できます。 Campaign web ユーザーインターフェイスを使用すると、Adobe Experience Platform と接続されたキャンバスが提供され、統合されたエクスペリエンスを実現できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/acs-migration){target="_blank"}。
 
 Campaign v8 ユーザーは、新しい Campaign web ユーザーインターフェイスと v8 クライアントコンソールの両方にアクセスできるようになりました。 データと設定は、環境間で同期されます。 クライアントコンソールで使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web ユーザーインターフェイスに表示されます。
 
 **開始に役立つリンク：**
 
-* 重要な違いと開始方法については、[この導入ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"}を参照してください。
+* 重要な違いと開始方法については、[この導入ガイド ](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"}を参照してください。
 
-* 新しいCampaign web ユーザーインターフェイスについて詳しくは、[このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
+* 新しいCampaign web ユーザーインターフェイスについて詳しくは、[このドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"}を参照してください。
 
 <!--
-* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in the [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"}.
+* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in the [Campaign v8 Adoption Guide](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}.
 -->
 

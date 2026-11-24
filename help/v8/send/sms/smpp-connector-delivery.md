@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1291'
-ht-degree: 83%
+ht-degree: 82%
 ---
 # SMPP コネクタの説明 {#smpp-connector-desc}
 
@@ -120,7 +120,7 @@ SMS プロセスはnms:extAccountをポーリングし、各アカウントの�
 
 ## serverConf オプション {#sms-serverconf-options}
 
-一部の設定は serverConf.xml で調整できます。 このファイル内の他の設定と同様に、config-instance.xml ファイルで指定する必要があります。 すべての設定は、&lt; mta2 > 要素内にあります。
+一部の設定は serverConf.xml で調整できます。 このファイルの他の設定と同様に、config-instance.xml ファイルで指定する必要があります。 すべての設定は、&lt; mta2 > 要素内にあります。
 
 次の表は、すべての設定をまとめたものです。 最小／最大許容値では、ほとんどの場合に考慮する必要がある範囲を大まかに把握できます。 デバッグ値は、パフォーマンスに関連しない問題を見つけようとする際に選択する値です。
 

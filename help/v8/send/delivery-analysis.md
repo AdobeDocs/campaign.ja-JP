@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 100%
+ht-degree: 96%
 ---
 # 配信分析 {#analyze-delivery}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 分析の開始 {#start-the-analysis}
 
-配信を準備するには、配信のコンテンツとターゲットが定義されていることを確認し、次の手順に従います。
+配信を準備するには、配信コンテンツとターゲットが定義されていることを確認し、次の手順に従います。
 
 1. 配信ウィンドウで、「**[!UICONTROL 送信]**」ボタンをクリックします。
 1. 「**[!UICONTROL できるだけ早く配信]**」を選択すると、オーディエンス数の計算と、即時に送信するコンテンツの準備が行われます。 また、後日まで配信を延期したり、コンテンツを準備せずに母集団の推定数を取得したりすることもできます。
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 分析]**」をクリックして、分析を手動で開始します。 分析の進捗状況がプログレスバーに表示されます。
 
-   配信分析時に、一連のチェックルールが適用されます。 これらのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで選択する&#x200B;**タイポロジ**&#x200B;で定義されます。 タイポロジについて詳しくは、[この節](../../automation/campaign-opt/campaign-typologies.md)を参照してください。
+   配信分析中に、一連のチェックルールが適用されます。 これらのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで選択する&#x200B;**タイポロジ**&#x200B;で定義されます。 タイポロジについて詳しくは、[この節](../../automation/campaign-opt/campaign-typologies.md)を参照してください。
 
    メールの場合、デフォルトでは、分析には次の点が含まれます。
 

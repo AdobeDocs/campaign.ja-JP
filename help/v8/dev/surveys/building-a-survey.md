@@ -15,16 +15,16 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 99%
+ht-degree: 98%
 ---
 # 調査の設計{#building-a-survey}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -75,7 +75,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 ## 調査固有の要素 {#survey-specific-elements}
 
-オンライン調査は、web アプリケーションの機能に基づいています。 調査固有の機能については、以下で詳しく説明します。
+オンライン調査は、web アプリケーションの機能にもとづいて実施されます。 調査固有の機能については、以下で詳しく説明します。
 
 ### 複数選択 {#multiple-choice}
 

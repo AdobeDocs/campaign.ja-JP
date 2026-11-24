@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 96%
+source-wordcount: '498'
+ht-degree: 91%
 ---
 # 顔文字リストのカスタマイズ {#customize-emoticons}
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->顔文字リストは 81 個を超えるエントリを表示できません。
+>絵文字リストには81個を超える項目を表示することはできません。
 
 1. この[ページ](https://unicode.org/emoji/charts/full-emoji-list.html)から、追加する新しい顔文字を選択します。 ブラウザーや OS など、様々なプラットフォームと互換性がある必要があります。
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 1. 次のフィールドを入力します。
 
    * **[!UICONTROL U+]**：新しい顔文字のコード。 この[ページ](https://unicode.org/emoji/charts/full-emoji-list.html)には、顔文字のコードのリストがあります。
-     互換性の問題を回避するために、ブラウザーおよび各オペレーションシステムでサポートされる顔文字を選択することをお勧めします。
+     互換性の問題を回避するために、ブラウザとすべてのオペレーティングシステムでサポートされている顔文字を選択することをお勧めします。
 
    * **[!UICONTROL ラベル]**：新しい顔文字のラベル。
 
@@ -83,7 +83,7 @@ ht-degree: 96%
 
 1. 変更を有効にするには、Adobe Campaign Classic から切断してから再接続します。 新しい顔文字が&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウに表示されない場合は、キャッシュをクリアする必要がある可能性があります。 それには、**[!UICONTROL ファイル／ローカルキャッシュをクリア]**&#x200B;メニューを使用します。
 
-1. 新しい顔文字は、前の手順で設定したように、配信の&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウの 61 番目の位置で確認できます。 配信で絵文字を使用する方法について詳しくは、この[&#x200B; セクション &#x200B;](defining-the-email-content.md#inserting-emoticons)を参照してください。
+1. 新しい顔文字は、前の手順で設定したように、配信の&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウの 61 番目の位置で確認できます。 配信で絵文字を使用する方法について詳しくは、この[ セクション ](defining-the-email-content.md#inserting-emoticons)を参照してください。
 
    ![](assets/emoticon_4.png)
 

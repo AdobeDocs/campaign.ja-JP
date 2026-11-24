@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 93%
+source-wordcount: '698'
+ht-degree: 90%
 ---
 # イベントの処理 {#event-processing}
 
@@ -99,7 +99,7 @@ ht-degree: 93%
 
 * **保留中**
 
-  * 保留中のイベントには、収集されたばかりで処理されていないイベントがあります。 **[!UICONTROL エラー数]**&#x200B;列に値 0 が表示されます。 メールテンプレートはまだリンクされていません。
+  * 保留中のイベントは、収集されたばかりのイベントで、まだ処理されていないイベントです。 **[!UICONTROL エラー数]**&#x200B;列に値 0 が表示されます。 メールテンプレートはまだリンクされていません。
   * 処理された後、確認でエラーになった保留イベントの場合もあります。 **[!UICONTROL エラー数]**&#x200B;列に 0 以外の値が表示されます。 このイベントが再処理される日付については、**[!UICONTROL 処理リクエスト日]**&#x200B;の列を参照してください。
 
 * **保留中の配信**

@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 78%
 ---
 # Campaign のコンポーネントとプロセスについて {#components-and-processes}
 
@@ -55,7 +55,7 @@ Adobe Campaign のコンポーネントとグローバルアーキテクチャ�
 
 ### プレゼンテーションレイヤー{#presentation-layer}
 
-Adobe Campaign には、リッチクライアント、シンクライアント、API 統合を通じてアクセスできます。
+Adobe Campaignには、リッチクライアント、シンクライアント、またはAPI統合を通じてアクセスできます。
 
 * リッチクライアント
 
@@ -63,7 +63,7 @@ Adobe Campaign には、リッチクライアント、シンクライアント�
 
 * シンクライアント
 
-  Adobe Campaign の web アクセス機能を使用すると、web ブラウザーを使用して、Campaign の機能のサブセットにアクセスできます。HTML ユーザーインターフェイスが使用されます。 この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。  [Campaign への web でのアクセスの詳細情報](../start/connect.md)。
+  Adobe Campaign web アクセス機能を使用すると、HTML ユーザーインターフェイスを使用して、Web ブラウザーでCampaign機能のサブセットにアクセスできます。 この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。  [Campaign への web でのアクセスの詳細情報](../start/connect.md)。
 
 * API を使用した外部アプリケーション
 
@@ -71,13 +71,13 @@ Adobe Campaign には、リッチクライアント、シンクライアント�
 
 ### 永続性レイヤー{#persistance-layer}
 
-Campaign データベースは永続性レイヤーとして使用され、Adobe Campaign が管理するほとんどすべての情報とデータが含まれています。 これには、プロファイル、購読、コンテンツなどの機能データ、配信ジョブやログ、トラッキングログなどの技術データおよび作業データ（購入、リード）が含まれます。
+Campaign データベースは永続性レイヤーとして使用され、Adobe Campaignで管理されるほぼすべての情報とデータが含まれます。 これには、プロファイル、購読、コンテンツなどの機能データ、配信ジョブやログ、トラッキングログなどの技術データおよび作業データ（購入、リード）が含まれます。
 
 タスクを実行するには（リダイレクトモジュールを除く）Adobe Campaign のコンポーネントの大部分がデータベースへのアクセスを必要とするので、データベースの信頼性が最も重要です。
 
 ### 論理アプリケーションレイヤー{#logical-app-layer}
 
-Campaign の論理アプリケーションレイヤーは、複雑なビジネスニーズに合わせて簡単に設定できます。 Campaign を、様々なアプリケーションと組み合わせて、オープンで拡張性の高いアーキテクチャを作成する単一のプラットフォームとして使用できます。 各 Campaign インスタンスは、アプリケーションレイヤー内のプロセスの集まりです。これらのプロセスには共有されているものも、専用のものもあります。
+Campaign の論理アプリケーションレイヤーは、複雑なビジネスニーズに合わせて簡単に設定できます。 Campaignは、様々なアプリケーションを組み合わせた単一のプラットフォームとして使用して、オープンでスケーラブルなアーキテクチャを作成できます。 各Campaign インスタンスは、アプリケーション層のプロセスのコレクションで、一部は共有され、一部は専用です。
 
 ## Campaign Managed Cloud Services{#ac-managed-services}
 
@@ -89,7 +89,7 @@ Campaign web サーバーは、Campaign web プロセスへのアクセスを制
 
 ![](assets/do-not-localize/ac-processes.png)
 
-Campaign クライアントコンソールは、SOAP XML over HTTP を使用して web サーバーに接続します。 web サーバーはセキュリティレイヤーを提供し、JavaScript を使用してアプリケーションレイヤーにリクエストを渡し、Campaign の内部プロセスは SQL を使用してデータベースにアクセスします。
+Campaign クライアントコンソールは、SOAP XML over HTTP を使用して web サーバーに接続します。 Web サーバーはセキュリティ層を提供し、Javascriptを使用してリクエストをアプリケーション層に渡し、Campaignの内部プロセスはSQLを使用してデータベースにアクセスします。
 
 <!--
 The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
@@ -97,6 +97,6 @@ The overall communication between Campaign processes are described in the follow
 ![](assets/do-not-localize//ac-standalone.png)
 -->
 
-ユーザーは、HTTP を使用して Campaign アプリケーションサーバーに接続します。 すべてのデータと情報は、Campaign データベースで管理されます。 Campaign 開発者が設定の変更を行うと、その変更はデータベースに取り込まれます。 マーケターが新しいキャンペーンを作成すると、この新しいキャンペーンに関連するすべての情報とデータもデータベースで管理されます。 マーケターがキャンペーンを実行すると、メール配信が SMTP サーバーを通じて Campaign サーバーからプロファイルに送信されます。 プロファイルがメール配信でインタラクションを行う（メールの開封など）すると、そのトラッキングデータがトラッキングサーバーに送り返されます。
+ユーザーは、HTTPを使用してCampaign アプリケーションサーバーに接続します。 すべてのデータと情報は、Campaign データベースで管理されます。 Campaign 開発者が設定の変更を行うと、その変更はデータベースに取り込まれます。 マーケターが新しいキャンペーンを作成すると、この新しいキャンペーンに関連するすべての情報とデータもデータベースで管理されます。 マーケターがキャンペーンを実行すると、メール配信が SMTP サーバーを通じて Campaign サーバーからプロファイルに送信されます。 プロファイルがメール配信でインタラクションを行う（メールの開封など）すると、そのトラッキングデータがトラッキングサーバーに送り返されます。
 
 [詳しくは、Campaign のプロセスを参照してください](../architecture/general-architecture.md#dev-env)。

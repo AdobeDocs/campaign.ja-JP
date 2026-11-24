@@ -28,14 +28,14 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 91%
+ht-degree: 89%
 ---
 # Campaign セキュリティ強化アドオン {#enhanced-security}
 
-このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス &#x200B;](security.md#public-guidance)の一部です。
+このページは、Campaign v8用の[一般公開されている推奨安全な設定ガイダンス ](security.md#public-guidance)の一部です。
 
 ネットワーク接続とリソースのセキュリティを強化するために、[!DNL Adobe Campaign] では新しい&#x200B;**セキュリティ強化**&#x200B;アドオンが提供されています。
 
@@ -53,7 +53,7 @@ ht-degree: 91%
 
 * インスタンスの可用性を確認し、キーが使用できない場合はアラートを送信します。
 
-* VPN トンネルを確認し、問題が発生した場合にアラートを送信します。
+* VPNはトンネルを利用し、問題が発生した場合に備えてアラートを送信します。
 
 ## セキュア顧客管理キー統合 {#secure-cmk-integration}
 

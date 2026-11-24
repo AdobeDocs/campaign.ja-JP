@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 95%
+ht-degree: 92%
 ---
 # [!DNL Campaign Classic] v7 から [!DNL Campaign] v8 への移行{#gs-matrix}
 
@@ -45,7 +45,7 @@ ht-degree: 95%
 
 >[!AVAILABILITY]
 >
->* 現時点では、Campaign v8 は Managed Cloud Service として&#x200B;**のみ**&#x200B;使用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。 [詳細情報](#cloud-services)
+>* 現時点では、Campaign v8はManaged Cloud Serviceとして&#x200B;**のみ**&#x200B;利用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。 [詳細情報](#cloud-services)
 >
 >* 既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
 
@@ -54,7 +54,7 @@ ht-degree: 95%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。 Campaign Managed Cloud Servicesについて詳しくは、[製品説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。 Campaign Managed Cloud Servicesについて詳しくは、[製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
