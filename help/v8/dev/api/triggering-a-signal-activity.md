@@ -118,7 +118,7 @@ Campaign Standard APIを使用すると、**外部信号** アクティビティ
 -d    "audience":"audience",
 -d    "email":"anna.varney@mail.com",
 -d    "template":"05",
--d    "contentURL":"http://www.adobe.com",
+-d    "contentURL":"http://www.adobe.com/jp",
 -d    "test":"true",
 -d    "segmentCode":"my segment",
 -d    "attribute":"2019-04-03 08:17:19.100Z"}
