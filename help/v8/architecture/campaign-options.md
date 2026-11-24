@@ -30,7 +30,7 @@ ht-degree: 3%
 ---
 # キャンペーンオプション {#campaign-options}
 
-オプションは、Campaign インスタンスの動作を制御するパラメーターです。例えば、メール内の画像のデフォルトのサイズ制限、同時に実行されるワークフローの数、配信テンプレートのデフォルトのルーティングプロバイダーなどです。 いくつかのオプションが組み込まれており、必要に応じて他のオプションが作成されます。 使用可能なオプションは、インスタンスにインストールされているパッケージによって異なります。 詳しくは、[組み込みパッケージ ](built-in-packages.md)を参照してください。
+オプションは、Campaign インスタンスの動作を制御するパラメーターです。例えば、メール内の画像のデフォルトのサイズ制限、同時に実行されるワークフローの数、配信テンプレートのデフォルトのルーティングプロバイダーなどです。 いくつかのオプションが組み込まれており、必要に応じて他のオプションが作成されます。 使用可能なオプションは、インスタンスにインストールされているパッケージによって異なります。 詳しくは、[組み込みパッケージ &#x200B;](built-in-packages.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 ## オプションの保存場所 {#where-options-are-stored}
 
-オプションは、**xtkOption** テーブル （スキーマ **xtk:option**）のCampaign データベースに保存されます。 Campaign エクスプローラーでは、**[!UICONTROL 管理]** > **[!UICONTROL プラットフォーム]** > **[!UICONTROL オプション]**&#x200B;で使用できます。 Campaign Web ユーザーインターフェイスでは、**[!UICONTROL 管理]** > **[!UICONTROL オプション]**&#x200B;で使用できます。 両方のリストは同じです。 詳しくは、[ キャンペーンオプションの設定](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options){target="_blank"}を参照してください。
+オプションは、**xtkOption** テーブル （スキーマ **xtk:option**）のCampaign データベースに保存されます。 Campaign エクスプローラーでは、**[!UICONTROL 管理]** > **[!UICONTROL プラットフォーム]** > **[!UICONTROL オプション]**&#x200B;で使用できます。 Campaign Web ユーザーインターフェイスでは、**[!UICONTROL 管理]** > **[!UICONTROL オプション]**&#x200B;で使用できます。 両方のリストは同じです。 詳しくは、[&#x200B; キャンペーンオプションの設定](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options){target="_blank"}を参照してください。
 
 ## オプションを使用 {#use-options}
 
@@ -46,9 +46,9 @@ ht-degree: 3%
 1. オプションを選択してから、その値を更新します。 このオプションが存在しない場合は、ドキュメントに記載されている正確な名前で作成します。
 1. ドキュメントが想定するタイプの値を設定します。 例えば、CRM同期日のテキストオプション、ワークフローの再起動遅延の整数オプションなどです。
 
-ワークフローの中間データを保存する場合など、独自のオプションを作成することもできます。 名前を入力し、データタイプを選択して、値を設定します。 詳しくは、[ キャンペーンオプションの設定](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options#create){target="_blank"}を参照してください。
+ワークフローの中間データを保存する場合など、独自のオプションを作成することもできます。 名前を入力し、データタイプを選択して、値を設定します。 詳しくは、[&#x200B; キャンペーンオプションの設定](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/options#create){target="_blank"}を参照してください。
 
-一部のオプションには資格情報が保持されます。 [CampaignおよびAdobe Experience Platform ランディングページの操作](../connect/ac-aep-landing-pages.md)の説明に従って、`cryptString`関数でシークレットを暗号化します。 認証情報を回転する場合は、オプションに格納されている認証情報も回転します。 詳しくは、[資格情報のローテーション ガイド ](../../technotes/security/credential-rotation-guide.md#ac-options-credentials)を参照してください。
+一部のオプションには資格情報が保持されます。 [CampaignおよびAdobe Experience Platform ランディングページの操作](../connect/ac-aep-landing-pages.md)の説明に従って、`cryptString`関数でシークレットを暗号化します。 認証情報を回転する場合は、オプションに格納されている認証情報も回転します。 詳しくは、[資格情報のローテーション ガイド &#x200B;](../../technotes/security/credential-rotation-guide.md#ac-options-credentials)を参照してください。
 
 ## ワークフローとパーソナライゼーションでのオプションの使用 {#use-options-in-processes}
 
@@ -56,7 +56,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 
 * JavaScript code workflow activity: `getOption('OptionName')`などの&#x200B;**JavaScript code**&#x200B;は、オプションの値を返し、`setOption('OptionName', value, 'description')`はそれを設定します。 例：`getOption('IMS_ORG_ID')`。 詳しくは、[getOption](../../campaign-api/f-getoption.md)および[setOption](../../campaign-api/f-setoption.md)を参照してください。
 * **配信パーソナライゼーション**: `<%@ include option='OptionName' %>`は、オプションの値を挿入します。 例えば、`<%@ include option='NmsServer_URL' %>`は、LINE メッセージのweb アプリへのリンクにサーバーのURLを含めます。 詳しくは、[Adobe Campaignを使用したダイレクト LINE メッセージの送信](../send/line/line.md)を参照してください。
-* **クエリエディター**: **値** フィールドに`$(options:OPTION_NAME)`と入力して、オプションの値を使用します。 詳しくは、[ デザインクエリ ](../start/design-queries.md)を参照してください。
+* **クエリエディター**: **値** フィールドに`$(options:OPTION_NAME)`と入力して、オプションの値を使用します。 詳しくは、[&#x200B; デザインクエリ &#x200B;](../start/design-queries.md)を参照してください。
 
 ## 利用可能なオプション {#available-options}
 
@@ -64,7 +64,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 
 ### 配信 {#delivery-options}
 
-これらのオプションは、配信の準備と送信方法を制御します。 画像と添付ファイルの制限、デフォルトのルーティングプロバイダー、ミッドソーシングの分割しきい値、オープントラッキングスクリプト、公開サーバーのURL、配信の有効性、重複や遅延した配信の処理、バーコードなどについて説明します。 詳しくは、[ ファイルの添付](../send/attaching-files.md)、[電子メールパラメーター](../send/email-parameters.md)、[配信のベストプラクティス ](../start/delivery-best-practices.md)、[ キャンペーンアーキテクチャの基本](architecture.md#split)、[電子メールトラッキングピクセルに関するガイダンス ](../start/cnil-pixel-tracking.md)、[ ダイレクトラインメッセージの送信](../send/line/line.md)を参照してください。
+これらのオプションは、配信の準備と送信方法を制御します。 画像と添付ファイルの制限、デフォルトのルーティングプロバイダー、ミッドソーシングの分割しきい値、オープントラッキングスクリプト、公開サーバーのURL、配信の有効性、重複や遅延した配信の処理、バーコードなどについて説明します。 詳しくは、[&#x200B; ファイルの添付](../send/attaching-files.md)、[電子メールパラメーター](../send/email-parameters.md)、[配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md)、[&#x200B; キャンペーンアーキテクチャの基本](architecture.md#split)、[電子メールトラッキングピクセルに関するガイダンス &#x200B;](../start/cnil-pixel-tracking.md)、[&#x200B; ダイレクトラインメッセージの送信](../send/line/line.md)を参照してください。
 
 | オプション | 説明 |
 |---|---|
@@ -88,7 +88,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 
 ### キャンペーンとワークフロー {#campaign-workflow-options}
 
-これらのオプションは、キャンペーンとワークフローの実行方法を制御します。 送信の所有者の確認、同時に処理されるジョブ数、ワークフローのチェックと自動再起動が含まれます。 また、SQL アクティビティの保護、デフォルトのキャンペーンの有効性、エクスポートされたレポートのロゴについても説明します。 詳しくは、[ マーケティングキャンペーン配信](../../automation/campaigns/marketing-campaign-deliveries.md)、[ ワークフローのベストプラクティス ](../../automation/workflow/workflow-best-practices.md)、[ ワークフロー実行の監視](../../automation/workflow/monitor-workflow-execution.md)、[ ワークフローのプロパティ ](../../automation/workflow/workflow-properties.md)、および[SQL コードとJavaScript コード ](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。
+これらのオプションは、キャンペーンとワークフローの実行方法を制御します。 送信の所有者の確認、同時に処理されるジョブ数、ワークフローのチェックと自動再起動が含まれます。 また、SQL アクティビティの保護、デフォルトのキャンペーンの有効性、エクスポートされたレポートのロゴについても説明します。 詳しくは、[&#x200B; マーケティングキャンペーン配信](../../automation/campaigns/marketing-campaign-deliveries.md)、[&#x200B; ワークフローのベストプラクティス &#x200B;](../../automation/workflow/workflow-best-practices.md)、[&#x200B; ワークフロー実行の監視](../../automation/workflow/monitor-workflow-execution.md)、[&#x200B; ワークフローのプロパティ &#x200B;](../../automation/workflow/workflow-properties.md)、および[SQL コードとJavaScript コード &#x200B;](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。
 
 | オプション | 説明 |
 |---|---|
@@ -122,7 +122,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 
 ### ソフトエラーと強制隔離 {#error-options}
 
-これらのオプションは、一時的な配信エラーであるソフトエラーの後、受信者が強制隔離されるタイミングを定義します。 詳しくは、Campaign](../send/quarantines.md#soft-error-management)の[強制隔離の管理と、Campaign](../send/delivery-failures.md#retries)の[配信エラーを参照してください。
+これらのオプションは、一時的な配信エラーであるソフトエラーの後、受信者が強制隔離されるタイミングを定義します。 詳しくは、Campaign[&#128279;](../send/quarantines.md#soft-error-management)の[強制隔離の管理と、Campaign](../send/delivery-failures.md#retries)の配信エラーを参照してください。
 
 | オプション | 説明 |
 |---|---|
@@ -145,7 +145,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 
 ### メッセージセンターのしきい値 {#message-center-options}
 
-これらのオプションは、トランザクションメッセージをトリガーするリアルタイムイベントの処理が低下したときに警告またはアラートを発生させるしきい値を定義します。 各指標には、警告しきい値と警告しきい値があります。 オプション名は警告またはアラートで終わります（例：MC_RtEventErrorWarningおよびMC_RtEventErrorAlert）。 詳しくは、[Campaign トランザクションメッセージ ](../send/transactional.md)および[Campaign トランザクションメッセージ設定](../config/transactional-msg-settings.md)を参照してください。
+これらのオプションは、トランザクションメッセージをトリガーするリアルタイムイベントの処理が低下したときに警告またはアラートを発生させるしきい値を定義します。 各指標には、警告しきい値と警告しきい値があります。 オプション名は警告またはアラートで終わります（例：MC_RtEventErrorWarningおよびMC_RtEventErrorAlert）。 詳しくは、[Campaign トランザクションメッセージ &#x200B;](../send/transactional.md)および[Campaign トランザクションメッセージ設定](../config/transactional-msg-settings.md)を参照してください。
 
 | オプション名の接頭辞 | 指標 |
 |---|---|
@@ -161,7 +161,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 
 ### データの保持とデータベース {#database-options}
 
-クリーンアップワークフローは、データベースの成長を防ぐために、古いレコードをパージします。 これらのオプションは、Campaignが各タイプのデータを保持する期間を定義します。 パージ遅延オプションは、インターフェイスの遅延を変更すると自動的に作成されます。 オプションリストから編集する場合は、値を秒単位で表現します。 詳しくは、[一般的なアーキテクチャ ](general-architecture.md)および[ セキュリティガイドライン ](../config/security.md#consent)を参照してください。
+クリーンアップワークフローは、データベースの成長を防ぐために、古いレコードをパージします。 これらのオプションは、Campaignが各タイプのデータを保持する期間を定義します。 パージ遅延オプションは、インターフェイスの遅延を変更すると自動的に作成されます。 オプションリストから編集する場合は、値を秒単位で表現します。 詳しくは、[一般的なアーキテクチャ &#x200B;](general-architecture.md)および[&#x200B; セキュリティガイドライン &#x200B;](../config/security.md#consent)を参照してください。
 
 パージ遅延オプションを変更できるのは管理者のみです。 適切な値は環境によって異なるので、インスタンスの現在の値を確認し、ユニバーサルデフォルトを想定しないでください。
 
@@ -184,7 +184,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 
 ### Message Centerのカスタマイズ {#message-center-customization}
 
-これらのオプションを使用すると、リアルタイムおよびバッチイベントをCampaignがどのようにエンリッチメントおよびルーティングするかをカスタマイズできます。 詳しくは、[Campaign トランザクションメッセージ ](../send/transactional.md)および[Campaign トランザクションメッセージ設定](../config/transactional-msg-settings.md)を参照してください。
+これらのオプションを使用すると、リアルタイムおよびバッチイベントをCampaignがどのようにエンリッチメントおよびルーティングするかをカスタマイズできます。 詳しくは、[Campaign トランザクションメッセージ &#x200B;](../send/transactional.md)および[Campaign トランザクションメッセージ設定](../config/transactional-msg-settings.md)を参照してください。
 
 | オプション | 説明 |
 |---|---|
@@ -196,7 +196,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 
 ### インタラクション（オファー管理） {#interaction-options}
 
-これらのオプションは、オファー管理モジュールであるCampaign インタラクションに適用されます。 プロポジションの書き込み方法と、コントロールインスタンスと実行インスタンスの同期方法を制御します。 詳しくは、[Campaign インタラクション – オファー管理](../interaction/interaction.md)およびインタラクション アーキテクチャの[ メンテナンスオプション ](../interaction/interaction-architecture.md#maintenance-options)を参照してください。
+これらのオプションは、オファー管理モジュールであるCampaign インタラクションに適用されます。 プロポジションの書き込み方法と、コントロールインスタンスと実行インスタンスの同期方法を制御します。 詳しくは、[Campaign インタラクション – オファー管理](../interaction/interaction.md)およびインタラクション アーキテクチャの[&#x200B; メンテナンスオプション &#x200B;](../interaction/interaction-architecture.md#maintenance-options)を参照してください。
 
 | オプション | 説明 |
 |---|---|
@@ -213,7 +213,7 @@ JavaScript コード、パーソナライゼーション、クエリからオプ
 >
 >メンテナンスオプションは、特定のメンテナンスケースにのみ使用します。
 
-以下のオプションは、Enterprise （FFDA）のデプロイメントでは使用できないクーポンに適用されます。 詳しくは、[ パーソナライズされたクーポン ](../send/personalized-coupons.md)を参照してください。
+以下のオプションは、Enterprise （FFDA）のデプロイメントでは使用できないクーポンに適用されます。 詳しくは、[&#x200B; パーソナライズされたクーポン &#x200B;](../send/personalized-coupons.md)を参照してください。
 
 | オプション | 説明 |
 |---|---|
