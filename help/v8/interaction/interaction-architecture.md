@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '1341'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Campaign インタラクション環境およびアーキテクチャについて
 
@@ -68,7 +68,7 @@ Adobe Campaign インタラクションモジュールは、次の 2 種類の�
 
 ![](assets/interaction_powerbooster_schema.png)
 
-コントロールインスタンスは、インバウンドチャネル専用で、カタログのオンラインバージョンを含みます。 各実行インスタンスは独立しており、1 つの連絡先セグメント専用です（例：国ごとに 1 つの実行インスタンス）。 オファーエンジンの呼び出しは、実行時に直接実行する必要があります（実行インスタンスごとに 1 つの専用 URL）。 インスタンス間の同期は自動的には行われないので、同じコンタクト先からのインタラクションは、同じインスタンスを通じて送信される必要があります。
+実行インスタンスはインバウンドチャネル専用で、カタログのオンラインバージョンが含まれます。 各実行インスタンスは独立しており、1 つの連絡先セグメント専用です（例：国ごとに 1 つの実行インスタンス）。 オファーエンジンの呼び出しは、実行時に直接実行する必要があります（実行インスタンスごとに 1 つの専用 URL）。 インスタンス間の同期は自動的には行われないので、同じコンタクト先からのインタラクションは、同じインスタンスを通じて送信される必要があります。
 
 ### 同期 {#synchronization}
 
@@ -102,7 +102,7 @@ Adobe Campaign インタラクションモジュールは、次の 2 種類の�
 
 >[!NOTE]
 >
->パッケージをインストールする際、**nms:proposition** テーブルに含まれる **long** タイプのフィールド（提案 ID など）は、**int64** タイプのフィールドになります。 この種類のデータについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ja#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}を参照してください。
+>パッケージをインストールする際、**nms:proposition** テーブルに含まれる **long** タイプのフィールド（提案 ID など）は、**int64** タイプのフィールドになります。 この種類のデータについて詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=ja#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}を参照してください。
 
 データ保持期間は、（デプロイメントウィザードの&#x200B;**[!UICONTROL データパージ]**&#x200B;ウィンドウから）インスタンスごとに設定されます。 実行インスタンスでは、この期間が、タイポロジルールに必要な履歴深度（スライド期間）および計算される実施要件ルールに対応している必要があります。
 
