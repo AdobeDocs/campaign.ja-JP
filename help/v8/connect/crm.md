@@ -61,7 +61,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ## 互換性のあるシステム {#compatible-crm-systems-and-limitations}
 
-サポートされているCRMとバージョンについて詳しくは、キャンペーン [互換性マトリックス ](../start/compatibility-matrix.md)を参照してください。
+サポートされているCRMとバージョンについて詳しくは、キャンペーン [互換性マトリックス &#x200B;](../start/compatibility-matrix.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -69,8 +69,8 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ## 実装手順 {#crm-implementation-steps}
 
-CampaignとMicrosoft Dynamicsを接続する手順については、[このページ ](ac-ms-dyn.md)を参照してください。
+CampaignとMicrosoft Dynamicsを接続する手順については、[このページ &#x200B;](ac-ms-dyn.md)を参照してください。
 
-CampaignとSalesforce.comを接続する手順については、[このページ ](ac-sfdc.md)を参照してください。
+CampaignとSalesforce.comを接続する手順については、[このページ &#x200B;](ac-sfdc.md)を参照してください。
 
 Adobe Campaign と CRM は、専用のワークフローアクティビティでデータを同期します。 Campaign と CRM の同期を自動化するワークフローを作成します。 Microsoft Dynamics 経由で読み込んだ連絡先を、既存の Adobe Campaign データと同期し、重複する連絡先は削除してから、Adobe Campaign のデータベースを更新するワークフローを作成できます。 詳しくは、[このページ](crm-data-sync.md)を参照してください。

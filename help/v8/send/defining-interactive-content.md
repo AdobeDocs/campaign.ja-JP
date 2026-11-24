@@ -67,7 +67,7 @@ Adobe Campaign で AMPメールを正常にテストして送信するには、�
 
    >[!NOTE]
    >
-   >現在、AMP メールを配信できるのは、[特定のメールアドレス ](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
+   >現在、AMP メールを配信できるのは、[特定のメールアドレス &#x200B;](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
 
 1. 通常どおりにメールを送信します。 [AMPメールの送信](#sending-amp-email)を参照してください。
 

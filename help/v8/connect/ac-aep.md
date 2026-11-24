@@ -52,7 +52,7 @@ Adobe Experience Platform オーディエンスを Adobe Campaign に送信し�
 
      ![](assets/aep-destination.png){width="800" align="center"}
 
-  宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください
+  宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください
 
 * Adobe Campaign Managed Cloud Services **ソース接続**&#x200B;を使用すると、Adobe Campaign の配信ログとトラッキングログを Adobe Experience Platform に送信できます。
 
@@ -81,4 +81,4 @@ Adobe Experience Platform プロファイル属性を Adobe Campaign と同期�
 1. Adobe Campaign に更新するプロファイル属性を設定します。
 1. フローが設定されると、選択したプロファイル属性が Adobe Campaign と同期され、宛先に設定されたセグメントのターゲットとなるすべてのプロファイルに対して更新されます。
 
-宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください
+宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください

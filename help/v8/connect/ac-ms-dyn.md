@@ -226,7 +226,7 @@ Adobe Campaign データと Microsoft CRM の間でデータを同期させる�
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-キャンペーン [の列挙管理について詳しくは、このページ ](../config/enumerations.md)を参照してください。
+キャンペーン [の列挙管理について詳しくは、このページ &#x200B;](../config/enumerations.md)を参照してください。
 
 ### サポートされているフィールドデータタイプ {#ms-dyn-supported-types}
 

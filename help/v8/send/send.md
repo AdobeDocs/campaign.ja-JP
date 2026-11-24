@@ -45,7 +45,7 @@ ht-degree: 92%
 
 配信ダッシュボードから、処理済みメッセージと配信監査ログを確認できます。 配信ログのメッセージのステータスも制御できます。
 
-[配信ステータス ](delivery-statuses.md)の詳細をご覧ください。
+[配信ステータス &#x200B;](delivery-statuses.md)の詳細をご覧ください。
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Domain Keys Identified Mail（DKIM）は、偽造された送信者アドレス�
 
 Adobe Campaign では、DKIM のメール認証の署名は MTA が実行します。
 
-DKIMについて詳しくは、[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"}を参照してください。
+DKIMについて詳しくは、[Adobe配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication){target="_blank"}を参照してください。
 
 ## メールフィードバックサービス {#email-feedback-service}
 

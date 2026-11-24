@@ -114,7 +114,7 @@ Adobe Campaign のメールの配信品質を最適化する方法について�
 
 配信を確認した後に、配信のステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;である場合があります。 このステータスは、一部のリソースが使用可能になるのを実行プロセスが待機していることを意味します。
 
-**[!UICONTROL 保留中]**&#x200B;ステータスは、配信はスケジュールされたが特定の日付まで保留されることを意味している可能性があります。 詳しくは、[配信の送信スケジュール ](configure-and-send.md#schedule-delivery-sending)の節を参照してください。
+**[!UICONTROL 保留中]**&#x200B;ステータスは、配信はスケジュールされたが特定の日付まで保留されることを意味している可能性があります。 詳しくは、[配信の送信スケジュール &#x200B;](configure-and-send.md#schedule-delivery-sending)の節を参照してください。
 
 配信が送信されず、ステータスが&#x200B;**[!UICONTROL 保留中]**&#x200B;のままである場合は、次のことが原因である可能性があります。
 
@@ -122,7 +122,7 @@ Adobe Campaign のメールの配信品質を最適化する方法について�
 
   同時キャンペーンの制限は、**[!UICONTROL NmsOperation_LimitConcurrency]** オプションで定義されています。 デフォルト値は 10 です。
 
-  Managed Cloud Services ユーザーは、Adobeと連携して、必要に応じてこの制限を調整できます。 オプションについて詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}を参照してください。
+  Managed Cloud Services ユーザーは、Adobeと連携して、必要に応じてこの制限を調整できます。 オプションについて詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}を参照してください。
 
 * **リソースの可用性に関する問題**
 

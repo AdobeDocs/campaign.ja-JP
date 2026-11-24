@@ -67,7 +67,7 @@ X アカウントにツイートを投稿するように Adobe Campaign を設�
 
 ## X 開発者アカウント {#dev-account}
 
-この統合を開始するには、[Xの開発者アカウント ](https://developer.twitter.com){target="_blank"}にサインアップする必要があります。
+この統合を開始するには、[Xの開発者アカウント &#x200B;](https://developer.twitter.com){target="_blank"}にサインアップする必要があります。
 
 Campaign は、X API の 1.1 バージョンを使用します。 これを使用するには、開発者ポータル経由で管理者特権でのアクセス権を申請する必要があります。 X の昇格アクセスについて詳しくは、[このページ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}を参照してください。
 
@@ -169,7 +169,7 @@ Adobe Campaign は、各フォロワーについて以下の情報を格納し�
 
 ## X でのテストアカウントの作成 {#tw-test-account}
 
-X アカウントに加えて、[ ツイートプルーフ ](../send/twitter.md)の送信に使用できるプライベート X アカウントを作成します。 これを行うには、次の手順に従います。
+X アカウントに加えて、[&#x200B; ツイートプルーフ &#x200B;](../send/twitter.md)の送信に使用できるプライベート X アカウントを作成します。 これを行うには、次の手順に従います。
 
 1. 新しい X アカウントを作成します。
 1. そのアカウントの&#x200B;**設定**&#x200B;にアクセスします。

@@ -33,7 +33,7 @@ ht-degree: 84%
 ---
 # 製品ガードレール{#guardrails}
 
-使用権限、製品の制限、およびパフォーマンスガードレールは、[Adobe Campaign Managed Cloud Services製品の説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}に記載されています。
+使用権限、製品の制限、およびパフォーマンスガードレールは、[Adobe Campaign Managed Cloud Services製品の説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}に記載されています。
 
 次に、[!DNL Adobe Campaign] を使用する際の追加のガードレールと制限を示します。
 
@@ -47,4 +47,4 @@ ht-degree: 84%
 * [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、購読（オプトイン）および購読解除（オプトアウト）のメカニズムと、モバイル登録は非同期プロセスです。 リクエストは、特定のテクニカルワークフローを通じて 1 時間ごとに処理されます。 [詳細情報](../architecture/replication.md#workflows)
 * [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、エンドユーザーが重複を手動で処理する必要があります。 [詳細情報](../architecture/keys.md)
 * Adobe Campaign v8 は、API および web アプリケーションでの拡張スループットをサポートしていません。特定のニーズがある場合は、アドビに問い合わせてガイダンスを求めてください。
-* [Enterprise （FFDA） デプロイメント ](../architecture/enterprise-deployment.md)のコンテキストでは、Adobe Campaign Optimization モジュールは、プレッシャタイポロジルールでスケジュールされた配信を考慮しません。 詳しくは、[このページ](../../automation/campaign-opt/pressure-rules.md)を参照してください。
+* [Enterprise （FFDA） デプロイメント &#x200B;](../architecture/enterprise-deployment.md)のコンテキストでは、Adobe Campaign Optimization モジュールは、プレッシャタイポロジルールでスケジュールされた配信を考慮しません。 詳しくは、[このページ](../../automation/campaign-opt/pressure-rules.md)を参照してください。

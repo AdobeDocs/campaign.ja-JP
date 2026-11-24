@@ -94,7 +94,7 @@ Campaignには、[!DNL Snowflake] データベースに重複するキーを挿�
 
 >[!NOTE]
 >
->これらのガードレールは、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](../start/compatibility-matrix.md)を参照してください
+>これらのガードレールは、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](../start/compatibility-matrix.md)を参照してください
 
 ### 配信準備 {#remove-duplicates-delivery-preparation}
 
@@ -104,13 +104,13 @@ Adobe Campaign は、配信の準備中に重複した UUID をオーディエ�
 
 ### ワークフロー内のデータ更新 {#duplicates-update-data}
 
-[Enterprise （FFDA） デプロイメント ](enterprise-deployment.md)のコンテキストでは、ワークフロー内のデータを更新するフィールドとして内部キー（UUID）を選択することはできません。
+[Enterprise （FFDA） デプロイメント &#x200B;](enterprise-deployment.md)のコンテキストでは、ワークフロー内のデータを更新するフィールドとして内部キー（UUID）を選択することはできません。
 
 ![](assets/update-data-no-internal-key.png)
 
 ### 重複を含むスキーマのクエリ {#query-with-duplicates}
 
-ワークフローがスキーマ上でクエリの実行を開始すると、Adobe Campaignは、[監査単一性テーブル ](#unicity-wf)に重複したレコードが報告されているかどうかを確認します。 その場合、重複したデータに対するその後の操作がワークフローの結果に影響を与える可能性があるため、ワークフローは警告をログに記録します。
+ワークフローがスキーマ上でクエリの実行を開始すると、Adobe Campaignは、[監査単一性テーブル &#x200B;](#unicity-wf)に重複したレコードが報告されているかどうかを確認します。 その場合、重複したデータに対するその後の操作がワークフローの結果に影響を与える可能性があるため、ワークフローは警告をログに記録します。
 
 ![](assets/query-with-duplicates.png)
 

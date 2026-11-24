@@ -37,7 +37,7 @@ ht-degree: 98%
 
 1 つの Web アプリケーションを多言語にローカライズすることができます。
 
-Adobe Campaign コンソールで直接翻訳を実行したり（[エディターでの翻訳の管理 ](#managing-translations-in-the-editor)を参照）、文字列をエクスポートおよびインポートして外部で翻訳したり（[外部での翻訳](#externalizing-translation)を参照）できます。
+Adobe Campaign コンソールで直接翻訳を実行したり（[エディターでの翻訳の管理 &#x200B;](#managing-translations-in-the-editor)を参照）、文字列をエクスポートおよびインポートして外部で翻訳したり（[外部での翻訳](#externalizing-translation)を参照）できます。
 
 デフォルトで使用可能な翻訳言語のリストは、[フォームの表示言語の変更](#changing-forms-display-language)を参照してください。
 
@@ -188,7 +188,7 @@ Web フォームは、Web アプリケーションプロパティの「**[!UICON
 &lang=xx
 ```
 
-URL の言語の前に他のパラメーターがある場合。 例：**https://myserver/webApp/APP34?status=1&amp;lang=en**
+URL の言語の前に他のパラメーターがある場合。 例：**https://myserver/webApp/APP34?status=1&lang=en**
 
 デフォルトで使用できる翻訳言語と辞書を次に示します。
 
@@ -449,7 +449,7 @@ URL の言語の前に他のパラメーターがある場合。 例：**https:/
 >[!NOTE]
 >
 >この Web アプリケーションで他のパラメーターが既に使用されている場合は、**&amp;lang=** を追加します。\
->例：**https://myserver/webApp/APP34?status=1&amp;lang=en**
+>例：**https://myserver/webApp/APP34?status=1&lang=en**
 
 ## 詳細な翻訳設定 {#advanced-translation-configuration}
 

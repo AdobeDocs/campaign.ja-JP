@@ -52,7 +52,7 @@ Campaignでプライバシーリクエストを管理するには、まず[名�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md)を参照してください
 
 ## 名前空間を定義 {#namespaces}
 
@@ -75,7 +75,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. [ID 名前空間サービス](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}で名前空間を作成します。
 
-1. 組織で使用可能なID名前空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}を[ リストアップすると、次のような名前空間の詳細が表示されます。例：
+1. 組織で使用可能なID名前空間[&#128279;](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}を リストアップすると、次のような名前空間の詳細が表示されます。例：
 
    ```
    {

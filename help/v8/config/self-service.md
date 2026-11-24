@@ -47,7 +47,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 
 また、Campaign Campaign コントロールパネルを使用して、IP許可リスト、URL権限、インスタンスに関する情報の取得などのインスタンス設定を行うこともできます。
 
-詳しくは、[ キャンペーンCampaign コントロールパネルドキュメント ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}を参照してください。
+詳しくは、[&#x200B; キャンペーンCampaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}を参照してください。
 
 ## コントロールパネルにアクセスするには？ {#ac-control-panel-access}
 

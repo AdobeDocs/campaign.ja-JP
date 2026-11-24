@@ -409,7 +409,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 * 単純な受信者属性をターゲットにする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
 * 過去 7 日間に連絡されていない受信者をフィルターする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ja){target="_blank"}を参照してください。
-* アクティブなアカウントでフィルタリングできる演算子のリストを[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"}で復元する方法を説明します。
+* アクティブなアカウントでフィルタリングできる演算子のリストを[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"}で復元する方法を説明します。
 * 誕生日メールのオーディエンスを作成する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}を参照してください。
 
 

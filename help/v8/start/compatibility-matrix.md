@@ -85,7 +85,7 @@ Adobe Campaign Federated Data Access（FDA）モジュールと互換性のあ�
 
 
 >[!AVAILABILITY]
->さらに、[強化セキュリティ アドオン ](../config/enhanced-security.md#secure-vpn-tunneling)を使用すると、セキュア VPN トンネリングを介してオンプレミス データベースにアクセスできます。 [詳細情報](../config/enhanced-security.md)
+>さらに、[強化セキュリティ アドオン &#x200B;](../config/enhanced-security.md#secure-vpn-tunneling)を使用すると、セキュア VPN トンネリングを介してオンプレミス データベースにアクセスできます。 [詳細情報](../config/enhanced-security.md)
 
 ## Mobile SDK {#MobileSDK}
 
