@@ -60,7 +60,7 @@ ht-degree: 87%
 
 Campaign データパッケージでは、Adobe Campaign データベースのエンティティがXML ファイルに表示されます。 パッケージでは、各エンティティがそのすべてのデータと共に表されます。
 
-このページでは、作成および管理する&#x200B;**カスタム** データパッケージについて説明します。 Campaign機能を提供するパッケージは&#x200B;**組み込みパッケージ**&#x200B;で、Adobeがインストールおよび管理します。 詳しくは、[組み込みパッケージ &#x200B;](../architecture/built-in-packages.md)を参照してください。
+このページでは、作成および管理する&#x200B;**カスタム** データパッケージについて説明します。 Campaign機能を提供するパッケージは&#x200B;**組み込みパッケージ**&#x200B;で、Adobeがインストールおよび管理します。 詳しくは、[組み込みパッケージ ](../architecture/built-in-packages.md)を参照してください。
 
 **データパッケージ**&#x200B;の原則とは、データの設定をエクスポートして別の Adobe Campaign 環境内に組み込むことです。 この[節](#data-package-best-practices)では、一貫したデータパッケージのセットを維持する方法を説明します。
 
@@ -263,7 +263,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 1. **[!UICONTROL パッケージ定義に追加]**&#x200B;を選択し、エンティティを追加するパッケージ定義を選択します。
 
-1. エンティティはパッケージ定義に追加され、パッケージとともに書き出されます（[このセクション &#x200B;](#export-packages-from-a-package-definition)を参照）。
+1. エンティティはパッケージ定義に追加され、パッケージとともに書き出されます（[このセクション ](#export-packages-from-a-package-definition)を参照）。
 
 ### パッケージ定義の生成の設定 {#configure-package-definitions-generation}
 
@@ -306,7 +306,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### 組み込みパッケージ {#install-a-standard-package}
 
-Adobeは、組み込みパッケージをCampaign v8にインストールして管理します。 詳しくは、[組み込みパッケージ &#x200B;](../architecture/built-in-packages.md)を参照してください。
+Adobeは、組み込みパッケージをCampaign v8にインストールして管理します。 詳しくは、[組み込みパッケージ ](../architecture/built-in-packages.md)を参照してください。
 
 ## データパッケージのベストプラクティス {#data-package-best-practices}
 

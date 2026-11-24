@@ -61,7 +61,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 1. （オプション）[Adobe Experience Platform Assurance をアプリに](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}追加して、実装を検証します。 Adobe Experience Platform Assurance 拡張機能を実装する方法について詳しくは、[このページ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}を参照してください。
 1. [このページ](#push-service)を参照して、Adobe Campaign で iOS および Android モバイルサービスを設定します。
 1. モバイルプロパティに [Adobe Campaign 拡張機能](#configure-extension)をインストールして設定します。
-1. [Adobe Experience Platform Mobile SDK ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}に従って、アプリでAdobe Experience Platform Mobile SDKを設定します。
+1. [Adobe Experience Platform Mobile SDK ドキュメント ](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}に従って、アプリでAdobe Experience Platform Mobile SDKを設定します。
 
 ## 前提条件 {#before-starting}
 
@@ -118,7 +118,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 以下のリンクに記載されている実装手順に従います。
 
 * **Apple iOS** の場合：アプリを APN に登録する方法について詳しくは、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}を参照してください。
-* **Google Android**&#x200B;の場合：AndroidでFirebase Cloud Messaging クライアント アプリを設定する方法については、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}を参照してください
+* **Google Android**&#x200B;の場合：AndroidでFirebase Cloud Messaging クライアント アプリを設定する方法については、[Google ドキュメント ](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}を参照してください
 
 <!--
 ## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
