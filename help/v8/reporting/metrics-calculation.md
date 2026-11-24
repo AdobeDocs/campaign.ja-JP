@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e633414f053265108e33aa63d7b7504d307e05c3
 workflow-type: tm+mt
-source-wordcount: '3155'
-ht-degree: 100%
+source-wordcount: '3181'
+ht-degree: 99%
 ---
 # ビルトインのレポート指標の計算 {#metrics-calculation}
 
@@ -933,6 +933,8 @@ ht-degree: 100%
 **配信（nms:delivery）／指標**&#x200B;ノード経由でアクセスできる「**送信済み**」の指標（@sent）は、サービスプロバイダーに送信された SMS の合計数に対応しています。 この指標は SMS の配信にのみ使用され、他のタイプの配信には使用できません（**@success** 指標および **@processed** 指標と混同しないようにするため）。
 
 ## 指標の同期 {#indicator-synchronization}
+
+**処理済み** インジケーターは、再試行またはリンクされた配信を含む配信など、インジケーターの更新中に送信するメッセージの数を一時的に超える可能性があります。
 
 特定の指標に対して非同期または不一致が発生する場合は、Adobe Campaign エクスプローラーで該当する配信を選択し、右クリックして&#x200B;**[!UICONTROL アクション／配信とトラッキング指標を再計算]**&#x200B;を選択してください。 **[!UICONTROL 次へ]**／**[!UICONTROL 完了]**&#x200B;をクリックします。
 
