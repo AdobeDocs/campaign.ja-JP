@@ -43,7 +43,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
 workflow-type: tm+mt
 source-wordcount: '3196'
 ht-degree: 89%
@@ -131,7 +131,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 Campaign インターフェイスでアドレスを設定するには、次の手順に従います。
 
-1. [&#128279;](../send/create-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。 **[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、設定を入力します。
+1. [](../send/create-templates.md)配信テンプレートで「**[!UICONTROL 送信者]**」リンクをクリックします。 **[!UICONTROL メールヘッダーのパラメーター]**&#x200B;ウィンドウで、設定を入力します。
 
 1. 「**[!UICONTROL 送信者のアドレス]**」フィールドで、アドレスドメインがアドビにデリゲートしたサブドメインと同じであることを確認します。 「@」より前の部分は変更できますが、ドメインアドレスは変更できません。
 
@@ -159,21 +159,21 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 ### パーソナライズされたコンテンツの作成 {#perso-content}
 
-メッセージをパーソナライズするには、データベースに保存されている受信者のデータを使用するか、トラッキング、ランディングページ、サブスクリプションなどを通じて収集します。Personalizationの基本については、[このセクション &#x200B;](../send/personalize.md)で説明します。
+メッセージをパーソナライズするには、データベースに保存されている受信者のデータを使用するか、トラッキング、ランディングページ、サブスクリプションなどを通じて収集します。Personalizationの基本については、[このセクション ](../send/personalize.md)で説明します。
 
 +++ **いくつかのベストプラクティスを参照してください**。
 
 * パーソナライゼーション設定を確認 - エラーを避けるには、メッセージコンテンツが適切に設計されていることを確認します。多くのエラーはパーソナライゼーションに関係する可能性があります。 Adobe Campaign のパーソナライゼーションタグは、常に `<%=table.field%>` の形式を取ります。 パーソナライゼーションブロック内でのパラメーターの使い方が間違っていると、問題になる場合があります。 例えば、JavaScript の変数は次のように使用する必要があります。
 
-  &grave;&grave;
+  ``
   <%
   var brand = "xxx"
   %>
-  &grave;&grave;
+  ``
 
   パーソナライゼーションブロックについて詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
 
-* パーソナライゼーションデータを準備 - 配信準備の分析を向上させるには、ワークフローでパーソナライゼーションデータを準備できます。 これは、パーソナライゼーションデータがFederated Data Access （FDA）を介して外部テーブルから取得される場合に特に使用する必要があります。 このオプションについては、[このセクション &#x200B;](../send/personalization-data.md#optimize-personalization)で説明します
+* パーソナライゼーションデータを準備 - 配信準備の分析を向上させるには、ワークフローでパーソナライゼーションデータを準備できます。 これは、パーソナライゼーションデータがFederated Data Access （FDA）を介して外部テーブルから取得される場合に特に使用する必要があります。 このオプションについては、[このセクション ](../send/personalization-data.md#optimize-personalization)で説明します
 +++
 
 ### 最適化されたコンテンツの作成 {#build-optimized-content}
@@ -219,7 +219,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 ### 購読解除リンク {#unsub-link-check}
 
-購読解除リンクは不可欠です。 購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。 デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが組み込みの&#x200B;**[!UICONTROL 購読解除リンクの承認]**&#x200B;[タイポロジルール](../../automation/campaign-opt/control-rules.md)によってチェックされ、含まれていない場合は警告が表示されます。
+購読解除リンクは不可欠です。 購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。 デフォルトでは、メッセージが分析されると、オプトアウトリンクが含まれているかどうかが組み込みの&#x200B;**[!UICONTROL 購読解除リンクの承認]**[タイポロジルール](../../automation/campaign-opt/control-rules.md)によってチェックされ、含まれていない場合は警告が表示されます。
 
 オプトアウトリンクを挿入する方法について詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
 
@@ -273,9 +273,9 @@ To avoid common formatting errors, check the following elements:
 
 * Correct **date formatting**: Adobe Campaign provides date formatting functions for the JavaScript templates and XSL stylesheets. [Learn more](formatting.md#date-display)
 
-* Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode.
+* Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../architecture/campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode.
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#authentication).
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 -->
 
 ## 画像の管理 {#manage-images}
@@ -315,7 +315,7 @@ To avoid common formatting errors, check the following elements:
 
 
 <!--
-*  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)
+*  An automatic anti-spam checking is performed during each preview. In the **[!UICONTROL Preview]** sub-tab, check [SpamAssassin](../send/spamassassin.md) spam scoring.  Click **[!UICONTROL More...]** to find out more about the warning.  Before doing so, make sure SpamAssassin is correctly installed and configured on the Adobe Campaign application server. [Learn more](../../installation/using/configuring-spamassassin.md)
 -->
 
 ## 適切なオーディエンスの定義 {#define-the-right-audience}
@@ -384,7 +384,7 @@ Inbox rendering enables you to preview your messages on major email clients, sca
 
 * Inbox rendering capabilities are crucial to identifying whether your email campaigns successfully make it past the filters of major ISPs (Internet Service Providers) and webmail services. Such tools send a pre-flight copy of an email to a network of test inboxes, so you can see how the message will display, or render, across these services. They may also include reports and code correction options that help you quickly identify and make fixes that improve deliverability.
 
-Learn more [in this section](inbox-rendering.md).
+Learn more [in this section](../send/inbox-rendering.md).
 -->
 
 ### 配達確認メッセージ {#proof-messages}
