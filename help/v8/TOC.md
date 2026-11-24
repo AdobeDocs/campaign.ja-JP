@@ -336,7 +336,7 @@ ht-degree: 88%
       + [ワークフローの制御](dev/api/controlling-a-workflow.md)
       + [シグナルアクティビティのトリガー](dev/api/triggering-a-signal-activity.md)
 + API ドキュメント {#api-documentation}
-  + [Campaign API ドキュメント >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
+  + [Campaign API ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-api/home)
 + その他のリソース {#resources}
   + [Campaign テクニカルノート >](https://experienceleague.adobe.com/ja/docs/campaign/technotes-ac/technotes-home)
   + [Campaign Web ユーザーインターフェイスドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home)
