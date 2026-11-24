@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 95%
@@ -103,7 +103,7 @@ ht-degree: 95%
 
 ### ウェーブの監視 {#monitor-waves}
 
-送信状況を監視するには、配信ログを参照してください。 [このページ](send.md)を参照してください
+送信状況を監視するには、配信ログを参照してください。 [このページ](send.md)を参照してください。
 
 処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 

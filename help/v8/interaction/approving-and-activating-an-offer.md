@@ -21,10 +21,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '664'
+ht-degree: 98%
 ---
 # オファーの承認と有効化{#approving-and-activating-an-offer}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 オファーコンテンツを承認するには、次の手順に従います。
 
-1. 「**[!UICONTROL 承認]**」ボタンをクリックし、ポップアップから&#x200B;**[!UICONTROL コンテンツを承認]**&#x200B;を選択します。
+1. 「**[!UICONTROL 承認]**」ボタンをクリックし、ポップアップで「**[!UICONTROL コンテンツを承認]**」を選択します。
 
    ![](assets/offer_validate_002.png)
 

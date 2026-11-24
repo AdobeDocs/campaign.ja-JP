@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 84%
 ---
 # 最初の SMS 配信の作成 {#sms-delivery}
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 * For mid-sourcing infrastructure,
 -->
 
-1. トラッキングに必要な場合は、「**[!UICONTROL ラベル]**」フィールドで配信の名前を変更し、「**[!UICONTROL 配信コード]**」フィールドと&#x200B;**[!UICONTROL 特性]**&#x200B;リストに情報を追加します。 また、配信に&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
+1. **[!UICONTROL Label]** フィールドで配信の名前を変更し、トラッキングに必要な場合、**[!UICONTROL 配信コード]** フィールドと&#x200B;**[!UICONTROL Nature]** リストに情報を追加します。 また、配信に&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
 1. 「**[!UICONTROL 続行]**」ボタンをクリックします。 これで、配信でのテンプレートのすべての設定が完了しました。
 

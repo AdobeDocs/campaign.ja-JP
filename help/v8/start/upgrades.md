@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1780'
-ht-degree: 25%
+ht-degree: 24%
 ---
 # バージョン、アップグレード、セキュリティ {#upgrades}
 
@@ -63,7 +63,7 @@ Adobe Campaign は、Campaign インフラストラクチャのパフォーマ�
 
 新しい各バージョンについて詳しくは、[リリースノート](release-notes.md)を参照してください。 セキュリティ関連の修正は、各リリースのノート内で確認できます。 セキュリティ通知の詳細については、[情報を提供し続ける](#security-staying-informed)を参照してください。
 
-安定した設定を確保するために、アドビでは、すべての Campaign サーバーに&#x200B;**まったく同じバージョン**&#x200B;をインストールすることをお勧めします。 また、[リリースノート](release-notes.md)で特に明記されていない限り、クライアントコンソールはサーバーインスタンスと&#x200B;**まったく同じバージョン**&#x200B;上にある必要があります。 クライアントコンソールのアップグレード方法について詳しくは、[こちらのページ](../start/connect.md#upgrade-ac-console)を参照してください。
+安定した設定を確保するために、アドビでは、すべての Campaign サーバーに&#x200B;**まったく同じバージョン**&#x200B;をインストールすることをお勧めします。 また、[&#x200B; リリースノート &#x200B;](release-notes.md)に特に記載がない限り、クライアントコンソールは&#x200B;**サーバーインスタンスとまったく同じバージョン**&#x200B;である必要があります。 クライアントコンソールのアップグレード方法について詳しくは、[こちらのページ](../start/connect.md#upgrade-ac-console)を参照してください。
 
 ### ホットフィックス {#hotflixes}
 

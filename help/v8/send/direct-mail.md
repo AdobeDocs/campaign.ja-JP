@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 86%
@@ -133,7 +133,7 @@ ht-degree: 86%
 
 ## 配信の開始{#start-delivery}
 
-抽出ファイルの検証が完了したら、「**配信を確定**」をクリックすると、配信の開始を確認するメッセージが表示されます。
+抽出ファイルを検証したら、**配信の確認**&#x200B;をクリックします。 配信の開始を確認するメッセージが表示されます。
 
 送信を確認すると、指定したファイルへのデータ抽出が開始されます。
 

@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 92%
@@ -195,7 +195,7 @@ You can create hypotheses on your offer propositions. This lets you determine th
 
 Hypotheses carried out on an offer proposition are referenced in their **[!UICONTROL Measure]** tab.
 
-Creating hypotheses is detailed in [this page](../../campaign/using/about-response-manager.md).
+Creating hypotheses is detailed in [this page](../../automation/response/about-response-manager.md).
 -->
 
 ## オファーの承認と有効化{#approve-offers}

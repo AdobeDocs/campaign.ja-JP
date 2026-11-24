@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 90%
 ---
 # ユースケース：オンラインサーベイへの回答に関するレポートの表示{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -45,7 +45,7 @@ ht-degree: 94%
 
 専用レポートを使用して、Adobe Campaign の調査に対する回答を収集して分析できます。
 
-次の例では、オンライン調査への回答を収集してピボットテーブルに表示します。
+次の例では、オンライン調査に対する回答を収集し、ピボットテーブルに表示します。
 
 次の手順に従います。
 

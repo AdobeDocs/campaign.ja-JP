@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '2028'
-ht-degree: 88%
+ht-degree: 87%
 ---
 # データパッケージの使用{#data-packages}
 
@@ -263,7 +263,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 1. **[!UICONTROL パッケージ定義に追加]**&#x200B;を選択し、エンティティを追加するパッケージ定義を選択します。
 
-1. エンティティをパッケージ定義に追加すると、そのエンティティがパッケージとしてエクスポートされます（[この節](#export-packages-from-a-package-definition)を参照）。
+1. エンティティはパッケージ定義に追加され、パッケージとともに書き出されます（[このセクション &#x200B;](#export-packages-from-a-package-definition)を参照）。
 
 ### パッケージ定義の生成の設定 {#configure-package-definitions-generation}
 

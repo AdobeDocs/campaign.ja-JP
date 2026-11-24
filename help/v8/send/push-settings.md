@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 90%
+source-wordcount: '1989'
+ht-degree: 88%
 ---
 # プッシュ通知チャネルを設定 {#push-notification-configuration}
 
@@ -219,7 +219,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
 1. **[!UICONTROL サブスクリプションパラメーター]** タブを参照して、**[!UICONTROL サブスクライバーアプリケーション （nms:appsubscriptionRcp）]** スキーマの拡張機能を使用したマッピングを定義します。
 
-1. 「**[!UICONTROL サウンド]**」タブを参照して、再生するサウンドを定義します。 「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 内部名]**」フィールドに、アプリケーションに埋め込まれたファイル名またはシステムサウンドの名前を入力します。
+1. 「**[!UICONTROL サウンド]**」タブを参照して、再生するサウンドを定義します。 「**[!UICONTROL 追加]**」をクリックし、アプリケーションに埋め込まれたファイルの名前またはシステムサウンドの名前を含める&#x200B;**[!UICONTROL 内部名]** フィールドに入力します。
 
 1. 「**[!UICONTROL 次へ]**」をクリックし、開発アプリケーションの設定をおこないます。
 
@@ -274,7 +274,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
    >
 
 1. 「**[!UICONTROL アプリケーションアイコン]**」フィールドからアイコンを選択して、サービス内のモバイルアプリケーションをパーソナライズします。
-1. **[!UICONTROL API バージョン]**&#x200B;ドロップダウンリストで「**HTTP v1**」を選択します。
+1. 「**[!UICONTROL API バージョン]**」ドロップダウンリストで「**HTTP v1**」を選択します。
 1. 「**[!UICONTROL プロジェクトの詳細を抽出するプロジェクトの json ファイルを読み込む...]**」リンクをクリックして、JSON キーファイルを読み込みます。 JSON ファイルの抽出方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
    次の詳細を手動で入力することもできます。

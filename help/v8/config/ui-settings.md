@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 93%
+source-wordcount: '1096'
+ht-degree: 90%
 ---
 # Campaign ユーザーインターフェイスの設定 {#ui-settings}
 
@@ -86,7 +86,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 また、リスト設定画面を使用して、列を追加および削除することもできます。
 
-1. レコードのリストから、右下のセクションにある「**[!UICONTROL リストを設定]**」アイコンをクリックします。
+1. レコードのリストから、右下のセクションの「**[!UICONTROL リストを設定]**」アイコンをクリックします。
 1. **[!UICONTROL 使用可能フィールド]**&#x200B;リストに追加するフィールドをダブルクリックします。これらのフィールドは、**[!UICONTROL 出力列]**&#x200B;リストに追加されます。
 
    ![リスト設定画面](assets/list-config-screen.png)
@@ -116,7 +116,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 列を作成するには、次の手順に従います。
 
-1. レコードのリストから、右下のセクションにある「**[!UICONTROL リストを設定]**」アイコンをクリックします。
+1. レコードのリストから、右下のセクションの「**[!UICONTROL リストを設定]**」アイコンをクリックします。
 1. **[!UICONTROL 追加]**&#x200B;アイコンをクリックして、リストに新しいフィールドを表示します。
 1. 列に追加するフィールドを設定します。
 

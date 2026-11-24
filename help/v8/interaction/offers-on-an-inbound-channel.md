@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '2210'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # インバウンドチャネルのオファー{#offers-on-an-inbound-channel}
 
@@ -415,7 +415,7 @@ Neobank の Web サイトにはオファー用のスペースが 3 つありま�
 
    ![](assets/offer_inbound_fallback_example_049.png)
 
-   この URL には、識別された環境の内部名 **EnvNeobankRecip** が含まれています。
+   URLには、識別された環境の内部名である&#x200B;**EnvNeobankIdnRecip**&#x200B;が含まれています。
 
 Web ページを開くと、スクリプトを使用してインタラクションエンジンを呼び出し、Web ページの関連するスペースにオファーのコンテンツを表示できます。 Adobe Campaign サーバーに対する 1 回の呼び出しのみで、エンジンは、選択する環境、オファースペース、カテゴリを認識します。
 

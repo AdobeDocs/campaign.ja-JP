@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 98%
+ht-degree: 97%
 ---
 # パーソナライズされたクーポン{#personalized-coupons}
 
@@ -155,7 +155,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->配信に不十分なクーポンを管理する方法について詳しくは、[不十分なクーポンの管理](#managing-insufficient-coupons)を参照してください。
+>配信に対する不十分なクーポンの管理方法については、[不十分なクーポンの管理](#managing-insufficient-coupons)を参照してください。
 
 配信が成功したことを確認するには：
 

@@ -39,10 +39,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 91%
+ht-degree: 89%
 ---
 # フォルダーとビューの管理 {#folders-and-views}
 
@@ -128,7 +128,7 @@ Campaign フォルダーは、エクスプローラーツリー内のノード�
 
 デフォルトでは、新しいフォルダーが階層の上部に追加されます。
 
-フォルダープロパティの「**サブフォルダー**」タブを参照し、そのサブフォルダーを整理します。
+フォルダープロパティの「**サブフォルダー**」タブを参照して、サブフォルダーを整理します。
 
 右側の矢印を使用してフォルダーを移動するか、「**[!UICONTROL サブフォルダーをアルファベット順に並べ替える]**」オプションを使用して自動的に並べ替えることができます。
 

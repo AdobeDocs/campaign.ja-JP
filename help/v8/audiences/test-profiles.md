@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # テストプロファイルの作成と管理 {#create-test-profiles}
 
@@ -132,7 +132,7 @@ Adobe Campaign では、シードアドレスのテンプレートも作成可�
 
 ## シードアドレスとカスタムテーブル {#using-an-external-recipient-table}
 
-配信テーブルが外部のテーブルの場合は、追加設定が必要です。 **[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。 適切なフィールドを定義するためのタブがシードアドレスに追加されます。
+配信テーブルが外部のテーブルの場合は、追加設定が必要です。 **[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。 適切なフィールドを定義するために、シードアドレスにタブが追加されます。
 
 この場合、配信にシードアドレスを追加するには、適切なタブで各種の適切なフィールドを入力するか、アドレステンプレートをインポートします。
 

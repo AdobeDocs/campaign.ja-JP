@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 99%
+ht-degree: 97%
 ---
 # Adobe Campaign のビルトインのレポート {#ootb-reports}
 
@@ -65,7 +65,7 @@ Campaign のビルトインレポートにアクセスするには次の手順�
 
    ![](assets/edit-a-report.png)
 
-1. 画面上部にある「**[!UICONTROL 戻る]**」リンクをクリックすると、レポートのリストに戻ります。
+1. 画面上部の&#x200B;**[!UICONTROL 戻る]** リンクをクリックして、レポートのリストに戻ります。
 
    ![](assets/back-button.png)
 

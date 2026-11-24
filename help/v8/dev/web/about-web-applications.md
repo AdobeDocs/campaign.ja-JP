@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 77%
+ht-degree: 75%
 ---
 # web アプリケーションの基本を学ぶ{#about-web-applications}
 
@@ -112,7 +112,7 @@ Web アプリケーションを作成および投稿するには、次を実行�
    また、フォームの利用可能なフィールドの詳細を説明するセクションを表示できます。これらすべてのフィールドは、Web アプリケーションでも利用できます。 詳しくは、[このページ](adding-fields-to-a-web-form.md)を参照してください。
 
 1. 必要に応じて、プリロード、テストおよび保存手順を追加したり、アクセス制御システムを設定したりすることができます（主にエクストラネットに公開するフレームワーク内で）。
-1. Web アプリケーションをパブリッシュして、エクストラネットまたは Adobe Campaign で利用できるようにします。
+1. Web アプリケーションを公開して、エクストラネットまたはAdobe Campaignで使用できるようにします。
 
 ## Web アプリケーションの初期設定 {#web-application-initial-configuration}
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '1639'
-ht-degree: 95%
+ht-degree: 94%
 ---
 # リアルタイムインタラクションの管理
 
@@ -44,7 +44,7 @@ Campaign には&#x200B;**インタラクション**&#x200B;モジュールが付
 
 ![](assets/interaction-cycle.png)
 
-まず、web サイト（アウトバウンドインタラクション）、メール、SMS、プッシュ通知（インバウンドインタラクション）のいずれかの通信チャネルを通じて、顧客と会社の間でコンタクトが発生します。 [詳細情報](#interaction-types)
+まず、コミュニケーション チャネルを介して顧客と企業の間で連絡先が発生します。web サイト（インバウンドインタラクション）、電子メール、SMS、プッシュ通知（アウトバウンドインタラクション）を選択できます。 [詳細情報](#interaction-types)
 
 このコンタクトの結果、オファーエンジンが呼び出されます。 (1)
 

@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '534'
-ht-degree: 83%
+ht-degree: 78%
 ---
 # SMS 配信のオーディエンスの選択 {#sms-audience}
 
@@ -41,7 +41,7 @@ ht-degree: 83%
 
 配信のオーディエンスを選択するには、次の手順に従います。
 
-1. 配信エディターで、**[!UICONTROL 宛先]**&#x200B;リンクをクリックします。 **[!UICONTROL ターゲットを選択]**&#x200B;ウィンドウが開きます
+1. 配信エディターで、**[!UICONTROL から]** リンクをクリックします。 **[!UICONTROL ターゲットを選択]**&#x200B;ウィンドウが開きます
 
 1. オーディエンスはAdobe Campaign データベースに保存されているので、「**[!UICONTROL Main target]**」タブで「**[!UICONTROL Defined in the database]**」オプションを選択します。
 
@@ -72,7 +72,7 @@ ht-degree: 83%
 
    「**[!UICONTROL このセグメントから受信者を除外]**」オプションを使用すると、定義したターゲット基準を満たさない受信者をターゲットにすることができます。 これを使用するには、適切なボックスを選択し、事前に定義した、該当するプロファイルを除外するためのターゲティングを適用します。
 
-1. ラベルフィールドにオーディエンスの名前を入力し、「**[!UICONTROL 終了]**」ボタンをクリックしてオーディエンスを検証します。
+1. ラベル フィールドにオーディエンスの名前を入力し、**[!UICONTROL 終了]** ボタンをクリックして、オーディエンスを検証します。
 
    ![](assets/audience_finish.png){zoomable="yes"}
 

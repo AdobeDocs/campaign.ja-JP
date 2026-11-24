@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1429'
 ht-degree: 66%
 ---
 # 強制隔離 {#quarantine-management}
@@ -48,7 +48,7 @@ Adobe Campaign は、オンラインチャネル（メール、SMS、プッシ�
 
 アドレスまたは電話番号が強制隔離されると、受信者は配信分析時にターゲットから除外されます。マーケティングメッセージ（自動ワークフローメールを含む）を、これらの連絡先に送信することはできません。 強制隔離されたアドレスがリストにも存在する場合、それらのリストに送信する際に除外されます。 例えば、メールボックスの容量が超過した場合、アドレスが存在しない場合、またはメールサーバーが使用できない場合などに、メールアドレスを強制隔離できます。
 
-<!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
+<!--For more on best practices to secure and optimize your deliveries, refer to [this page](../start/delivery-best-practices.md).-->
 
 ## 強制隔離とブロックリスト
 
@@ -58,7 +58,7 @@ Adobe Campaign は、オンラインチャネル（メール、SMS、プッシ�
 >
 >受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを使用して SMS メッセージに返信したりすると、受信者のアドレスまたは電話番号は&#x200B;**[!UICONTROL ブロックリスト登録済み]**&#x200B;として強制隔離されます。 それに応じてプロファイルも更新されます。
 
-一方、**プロファイル**&#x200B;は、特定のチャネルの購読解除（オプトアウト）後に&#x200B;**プロファイル**&#x200B;に存在する可能性があります。これは、これらのプロファイルが配信のターゲットではなくなったことを意味します。 結果として、メールチャネルのブロックリストのプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。 プロファイルが 1 つ以上のチャネルのブロックリストに含まれているかどうかは、プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 今後の連絡は不要]**」セクションで確認できます。 [詳細情報](../audiences/view-profiles.md)
+一方、**プロファイル**&#x200B;は、特定のチャネルに対する購読解除（オプトアウト）後など、**個のブロックリスト**&#x200B;に存在する可能性があります。これは、これらのプロファイルが配信のターゲットではなくなったことを意味します。 結果として、メールチャネルのブロックリストのプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。 プロファイルが 1 つ以上のチャネルのブロックリストに含まれているかどうかは、プロファイルの「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 今後の連絡は不要]**」セクションで確認できます。 [詳細情報](../audiences/view-profiles.md)
 
 >[!NOTE]
 >

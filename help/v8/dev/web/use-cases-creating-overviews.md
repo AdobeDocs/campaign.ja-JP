@@ -31,10 +31,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 97%
+ht-degree: 95%
 ---
 # ユースケース：概要ページの作成{#use-cases-creating-overviews}
 
@@ -140,7 +140,7 @@ ht-degree: 97%
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. 「**[!UICONTROL データ]**」タブで、**[!UICONTROL プライマリキー]**、**[!UICONTROL 内部名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;列を追加して、各列に対して「**[!UICONTROL 非表示フィールド]**」オプションを選択します。
+1. 「**[!UICONTROL データ]**」タブで、**[!UICONTROL プライマリキー]**、**[!UICONTROL 内部名]**、**[!UICONTROL 説明]**&#x200B;の列を追加し、それぞれに&#x200B;**[!UICONTROL 非表示フィールド]** オプションを選択します。
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 

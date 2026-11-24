@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 93%
@@ -131,7 +131,7 @@ ht-degree: 93%
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
-This section shows the number of messages shared on each social network. For more on this, refer to [Sharing to social networks](../../reporting/using/global-reports.md#sharing-to-social-networks).
+This section shows the number of messages shared on each social network. For more on this, refer to [Sharing to social networks](global-reports.md#sharing-to-social-networks).
 
 ## URLs and click streams {#urls-and-click-streams}
 
