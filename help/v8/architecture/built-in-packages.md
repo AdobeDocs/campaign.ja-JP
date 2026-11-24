@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
+source-git-commit: a2ca220e4be9dfb4a90465b69dd08a3552040a07
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 16%
 ---
 # 組み込みパッケージ {#built-in-packages}
@@ -43,11 +43,11 @@ Adobe Campaignでは、2種類のパッケージを使用しています。 適�
 |---|---|---|
 | 目的 | チャネル、統合、アドオンなど、キャンペーン機能を提供します。 | ステージング環境から実稼動環境への独自の設定やデータの書き出しと読み込みをおこないます。 |
 | 管理者が管理します | Adobeがインストールし、管理します。 Managed Cloud Servicesでは、インストール済みの組み込みパッケージを変更することはできません。 | 作成、書き出し、読み込むことができます。 |
-| 詳細な情報 | このページ。 | [&#x200B; データパッケージの操作](../dev/packages.md) |
+| 詳細な情報 | このページ。 | [ データパッケージの操作](../dev/packages.md) |
 
 ## インストール済みパッケージの確認 {#check-installed-packages}
 
-インスタンスにインストールされているビルトインパッケージを確認するには、**[!UICONTROL 管理/設定/パッケージ管理/インストール済みパッケージ]**&#x200B;を参照します。 Campaign コントロールパネルのインスタンスのモニタリングで表示することもできます。 詳しくは、[&#x200B; キャンペーンモニタリングの概要](../start/monitor.md#monitor-instance)を参照してください。
+インスタンスにインストールされているビルトインパッケージを確認するには、**[!UICONTROL 管理/設定/パッケージ管理/インストール済みパッケージ]**&#x200B;を参照します。 Campaign コントロールパネルのインスタンスのモニタリングで表示することもできます。 詳しくは、[ キャンペーンモニタリングの概要](../start/monitor.md#monitor-instance)を参照してください。
 
 プロビジョニングされていないパッケージやアドオンが必要な場合は、Adobe カスタマーケアまたはAdobe Transition Managerにお問い合わせください。
 
@@ -57,7 +57,7 @@ Adobe Campaignでは、2種類のパッケージを使用しています。 適�
 
 | パッケージ | 説明 |
 |---|---|
-| 配信 | 配信と、メッセージの送信時に発生する問題を監視します。 [詳細情報](../start/monitor.md) |
+| 配信 | Adobe Campaignの必須コアパッケージ。 これで配信を送信できます。 [詳細情報](../start/gs-message.md) |
 | マーケティングキャンペーン（キャンペーン） | コミュニケーションおよびマーケティングキャンペーンを定義、最適化、実行、分析します。 [詳細情報](../start/campaigns.md) |
 | マーケティングリソース（MRM） | タスク、予算、マーケティングリソースの管理と追跡を利用して、マーケティング活動を共同作業モードで制御できます。 [詳細情報](../../automation/mrm/about-marketing-resource-management.md) |
 | オファーエンジン（インタラクション） | 顧客とのやり取り中に、1つまたは複数の調整されたオファーを提供して、リアルタイムで対応します。 [詳細情報](../interaction/interaction.md) |
@@ -92,9 +92,9 @@ Adobe Campaignでは、2種類のパッケージを使用しています。 適�
 
 ## 関連トピック {#related-topics}
 
-* [&#x200B; データパッケージの操作](../dev/packages.md)：独自のカスタムパッケージを作成、書き出し、読み込みます。
-* [&#x200B; テクニカルワークフロー](../../automation/workflow/technical-workflows.md)：組み込みのテクニカルワークフローとそれらをインストールするパッケージ。
+* [ データパッケージの操作](../dev/packages.md)：独自のカスタムパッケージを作成、書き出し、読み込みます。
+* [ テクニカルワークフロー](../../automation/workflow/technical-workflows.md)：組み込みのテクニカルワークフローとそれらをインストールするパッケージ。
 * [FFDA デプロイメントでの機能の可用性](enterprise-deployment.md#feature-availability): Enterprise （FFDA）デプロイメントでは使用できない機能。
-* [&#x200B; サポートされていない機能](../start/v7-to-v8.md#gs-removed):v8でサポートされなくなったCampaign Classic v7機能。
-* [&#x200B; グローバル原則](general-architecture.md):Managed Cloud Services環境で変更できる内容と変更できない内容。
+* [ サポートされていない機能](../start/v7-to-v8.md#gs-removed):v8でサポートされなくなったCampaign Classic v7機能。
+* [ グローバル原則](general-architecture.md):Managed Cloud Services環境で変更できる内容と変更できない内容。
 * [Campaign v8](../start/get-started.md)の基本を学ぶ：コア機能とアドオンの概要。
