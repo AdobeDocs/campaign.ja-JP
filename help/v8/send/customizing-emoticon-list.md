@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 96%
+source-wordcount: '498'
+ht-degree: 91%
 ---
 # 顔文字リストのカスタマイズ {#customize-emoticons}
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->顔文字リストは 81 個を超えるエントリを表示できません。
+>絵文字リストには81個を超える項目を表示することはできません。
 
 1. この[ページ](https://unicode.org/emoji/charts/full-emoji-list.html)から、追加する新しい顔文字を選択します。 ブラウザーや OS など、様々なプラットフォームと互換性がある必要があります。
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 1. 次のフィールドを入力します。
 
    * **[!UICONTROL U+]**：新しい顔文字のコード。 この[ページ](https://unicode.org/emoji/charts/full-emoji-list.html)には、顔文字のコードのリストがあります。
-     互換性の問題を回避するために、ブラウザーおよび各オペレーションシステムでサポートされる顔文字を選択することをお勧めします。
+     互換性の問題を回避するために、ブラウザとすべてのオペレーティングシステムでサポートされている顔文字を選択することをお勧めします。
 
    * **[!UICONTROL ラベル]**：新しい顔文字のラベル。
 

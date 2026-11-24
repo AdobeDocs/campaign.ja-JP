@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 100%
+ht-degree: 95%
 ---
 # web フォームの公開{#publishing-a-web-form}
 
@@ -119,7 +119,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
    デザインフェーズが完了すると、フォームは配信できます。
 
-   フォームのステータスが&#x200B;**[!UICONTROL 編集中]**&#x200B;または&#x200B;**[!UICONTROL 保留中の公開]**&#x200B;の場合、オンラインでブラウザーの Web フォーム URL を通じてアクセスするには、フォームを[公開](#publishing-a-form)する必要があります。
+   フォームのステータスが&#x200B;**[!UICONTROL 編集中]**&#x200B;または&#x200B;**[!UICONTROL 公開保留中]**&#x200B;の場合、ブラウザーのWeb フォーム URLからオンラインでアクセスするには、[公開](#publishing-a-form)である必要があります。
 
    公開すると、フォームは有効期限が切れるまで、ライブになります。
 
@@ -203,7 +203,7 @@ Web フォームの様々なステータスについて詳しくは、[この節
 
   * Web フォームが新しいインスタンスに既に存在する場合は、古いバージョンのフォームが&#x200B;**[!UICONTROL オンライン]**&#x200B;であっても、新しいバージョンのフォームに置き換えられ、**[!UICONTROL 保留中の公開]**&#x200B;ステータスになります。
 
-  * フォームが存在するかどうかに関係なく、新しいインスタンスで&#x200B;**[!UICONTROL オンライン]**&#x200B;になり、ブラウザーの Web フォーム URL を通じてアクセスするには、フォームを[公開](#publishing-a-form)する必要があります。
+  * フォームが存在していたかどうかにかかわらず、新しいインスタンスで&#x200B;**[!UICONTROL オンライン]**&#x200B;になり、ブラウザーのweb フォーム URLからアクセスするには、フォームが[公開](#publishing-a-form)されている必要があります。
 
 * エクスポート時に Web フォームのステータスが&#x200B;**[!UICONTROL 編集中]**&#x200B;であった場合：
 

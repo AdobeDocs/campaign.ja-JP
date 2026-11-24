@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 99%
+source-wordcount: '459'
+ht-degree: 87%
 ---
 # トランザクションメッセージの概要{#send-transactional-messages}
 
@@ -68,7 +68,7 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 1. [メッセージのテスト](transactional-template.md#test-message-template)。
 1. [メッセージテンプレートのパブリッシュ](transactional-template.md#publish-message-template)。
 
-トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされた場合、関連するデータは PushEvent および PushEvents [SOAP メソッド](../send/event-description.md)を介して Campaign に送信され、ターゲットの受信者に配信が送られます。
+トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされると、関連データがPushEvent メソッドおよびPushEvents [SOAP メソッド &#x200B;](../send/event-description.md)を介してCampaignに送信され、配信がターゲット受信者に送信されます。
 
 ## イベントタイプの作成 {#create-event-types}
 
@@ -98,4 +98,4 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 >
 >[列挙](../config/enumerations.md)について詳しく見る。
 
-次の手順では、[トランザクションメッセージ用のテンプレートを作成して公開](transactional-template.md)する方法について説明します。
+次のステップでは、[&#x200B; トランザクションメッセージ用のテンプレートを作成して公開する方法](transactional-template.md)について説明します。

@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 90%
+source-wordcount: '517'
+ht-degree: 83%
 ---
 # Campaign コントロールパネル {#ac-control-panel}
 
@@ -45,7 +45,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 * 様々なタイミングで様々なビジネスニーズに基づいて設定できます。
 * ニーズごとにアクセス設定を制御することでセキュリティを強化できます。
 
-また、Campaign コントロールパネルを使用して、IP 許可リスト、URL 権限などのインスタンスを設定し、インスタンスに関する情報を取得することもできます。
+また、Campaign Campaign コントロールパネルを使用して、IP許可リスト、URL権限、インスタンスに関する情報の取得などのインスタンス設定を行うこともできます。
 
 詳しくは、[&#x200B; キャンペーンCampaign コントロールパネルドキュメント &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja){target="_blank"}を参照してください。
 
@@ -86,7 +86,7 @@ Campaign v8 Managed Cloud Servicesの場合、Adobeはインフラストラク�
 
 ## インスタンス設定
 
-コントロールパネルでの Campaign インスタンス設定の管理方法を説明します。
+Campaign コントロールパネルでCampaign インスタンスの設定を管理する方法について説明します。
 * [許可リスト上のIP](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=ja){target="_blank"}
 * [URL 権限](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=ja){target="_blank"}
 * [インスタンスの詳細](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=ja){target="_blank"}

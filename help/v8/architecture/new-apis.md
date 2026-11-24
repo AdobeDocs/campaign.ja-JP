@@ -24,14 +24,14 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 99%
+source-wordcount: '441'
+ht-degree: 72%
 ---
 # 特定の FFDA Campaign API{#gs-new-api}
 
-[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの特定の API が付属しています。 これらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細情報](staging.md)
+[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、Campaign v8 には、Campaign のローカルデータベースと Cloud データベースの間のデータを管理するための 2 つの特定の API が付属しています。 それらを使用するための前提条件は、スキーマ上でステージングメカニズムを有効にすることです。 [詳細情報](staging.md)
 
 * Ingestion  API：**xtk.session.ingest**
 
@@ -88,7 +88,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. UUID が SOAP 応答に返されます。
+1. UUIDは、SOAPのレスポンスで返されます。
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -100,7 +100,7 @@ logInfo(strUuid);
    </SOAP-ENV:Envelope>
    ```
 
-その結果、ステージングテーブルが期待どおりにフィードされます。
+その結果、ステージングテーブルが期待どおりに供給されます。
 
 ![](assets/no-reconciliation.png)
 
@@ -148,7 +148,7 @@ logInfo(strUuid);
    </soapenv:Envelope>
    ```
 
-1. この場合、UUID はペイロードで提供されているため、応答には返されません。 応答は次のとおりです。
+1. この場合、UUIDはペイロードで指定されているため、応答に返されません。 応答は次のとおりです。
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -160,11 +160,11 @@ logInfo(strUuid);
    </SOAP-ENV:Envelope>
    ```
 
-その結果、ステージングテーブルが期待どおりにフィードされます。
+その結果、ステージングテーブルが期待どおりに供給されます。
 
 ## データの更新または削除{#data-update-api}
 
-**xtk.session.IngestExt** API は、データの更新／削除用に最適化されています。 挿入のみをおこなう場合は、**xtk.session.ingest** を選択します。 レコードキーがステージングテーブルにない場合でも、挿入は機能します。
+**xtk.session.IngestExt** APIは、データの更新/削除に最適化されています。 挿入のみをおこなう場合は、**xtk.session.ingest** を選択します。 レコードキーがステージングテーブルにない場合は、挿入が機能します。
 
 ### 挿入／更新
 
@@ -218,13 +218,13 @@ xtk.session.IngestExt(xmlStagingRecipient);
    </SOAP-ENV:Envelope>
    ```
 
-その結果、ステージングテーブルは期待どおりに更新されます。
+その結果、ステージングテーブルが期待どおりに更新されます。
 
 ## 購読管理 {#sub-apis}
 
 Campaign の購読管理については、[このページ](../start/subscriptions.md)を参照してください。
 
-購読や購読解除のデータは、Campaign ローカルデータベースの[ステージングメカニズム](staging.md)を使用して挿入されます。 購読者の情報は、ローカルデータベースのステージングテーブルにいったん格納され、同期ワークフローによってローカルデータベースからクラウドデータベースに送信されます。 そのため、購読や購読解除のプロセスは&#x200B;**非同期**&#x200B;でおこなわれます。 オプトインやオプトアウトのリクエストは、特定のテクニカルワークフローによって 1 時間ごとに処理されます。 [詳細情報](replication.md#workflows)
+購読や購読解除のデータは、Campaign ローカルデータベースの[ステージングメカニズム](staging.md)を使用して挿入されます。 サブスクライバー情報は、一時的にローカルデータベースのステージングテーブルに保存され、同期ワークフローは、このデータをローカルデータベースからクラウドデータベースに送信します。 そのため、購読や購読解除のプロセスは&#x200B;**非同期**&#x200B;でおこなわれます。 オプトインやオプトアウトのリクエストは、特定のテクニカルワークフローによって 1 時間ごとに処理されます。 [詳細情報](replication.md#workflows)
 
 
 **関連トピック**

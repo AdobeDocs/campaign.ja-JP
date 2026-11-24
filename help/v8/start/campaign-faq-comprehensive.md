@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '11618'
 ht-degree: 17%
@@ -175,7 +175,7 @@ Adobe カスタマーサポートに連絡するには、[Adobe Admin Console](h
 
 +++
 
-+++ Campaign v8 と互換性があるシステムやコンポーネントはどれですか？
++++ Campaign v8はどのシステムやコンポーネントと互換性がありますか？
 
 [Adobe Campaign 互換性マトリックス](compatibility-matrix.md)で、Campaign の最新ビルドでサポートされているすべてのシステムとコンポーネントのリストを入手できます。
 
@@ -220,7 +220,7 @@ Campaign v8では、パフォーマンスが大幅に向上しますが、特に
 
 既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
 
-Campaign v8 は、現在 Managed Cloud Service として&#x200B;**のみ**&#x200B;利用できます。オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
+Campaign v8は、Managed Cloud Serviceとして利用できる&#x200B;**のみ**&#x200B;であり、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。
 
 移行プロセスについて詳しくは、アドビ担当者にお問い合わせください。
 

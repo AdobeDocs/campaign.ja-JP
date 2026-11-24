@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1094'
-ht-degree: 94%
+ht-degree: 93%
 ---
 # Campaign ユーザーインターフェイスの設定 {#ui-settings}
 
@@ -145,7 +145,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 1. 「**[!UICONTROL 詳細設定]**」をクリックし、「**[!UICONTROL 設定]**」フィールドで名前を指定します。
 1. 「**[!UICONTROL OK]**」をクリックし、「**[!UICONTROL 保存]**」をクリックします。
 
-この設定を同じタイプの別のフォルダーに適用できます。 フォルダーについて詳しくは、[このページ](../audiences/folders-and-views.md)を参照してください。
+次に、この設定を同じタイプの別のフォルダーに適用できます。 フォルダーについて詳しくは、[このページ](../audiences/folders-and-views.md)を参照してください。
 
 ### リストのエクスポート {#exporting-a-list}
 

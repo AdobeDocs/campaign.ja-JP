@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2497'
-ht-degree: 99%
+ht-degree: 96%
 ---
 # web フォームへのフィールドの追加{#adding-fields-to-a-web-form}
 
@@ -88,7 +88,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 5 種類のテキストフィールドをフォームページに挿入できます。
 
-* **テキスト**：ユーザーは 1 行にテキストを入力できます。
+* **テキスト**：ユーザーは1行のテキストを入力できます。
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
@@ -233,7 +233,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
-ラベルと同じ数のラジオボタンを追加します。 この機能の利点は、既存のフィールドから値をインポートできる（項目別フィールドの場合）ことと、ユーザーに 1 つのオプションを選択させることができることです。 ただし、ボタンのレイアウトにはあまり柔軟性がありません。
+ラベルと同じ数のラジオボタンを追加します。 この機能の利点は、既存のフィールドから値を読み込むことができ（項目別フィールドの場合）、ユーザーが1つのオプションを選択できることです。 ただし、ボタンのレイアウトにはあまり柔軟性がありません。
 
 >[!NOTE]
 >
@@ -350,7 +350,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 >
 >フォームにいくつかのページが含まれている場合、セキュリティ対策の回避を防ぐために、Captcha は、常に最後のページの、ストレージボックスの直前に配置されている必要があります。
 
-Captcha をフォームに挿入するには、ツールバーの最初のボタンをクリックし、**[!UICONTROL 高度なコントロール／Captcha]** を選択します。
+Captchaをフォームに挿入するには、ツールバーの最初のボタンをクリックし、**[!UICONTROL 詳細コントロール >Captcha]**&#x200B;を選択します。
 
 ![](assets/s_ncs_admin_survey_add_captcha.png)
 

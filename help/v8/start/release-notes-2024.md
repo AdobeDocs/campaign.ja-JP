@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 94%
+source-wordcount: '1662'
+ht-degree: 92%
 ---
 # 2024 リリースノート {#2024-rn}
 
@@ -74,7 +74,7 @@ _2024年9月3日（PT）_
 
 ### 新機能 {#new-8-7-2}
 
-* **新しい SMS 送信コネクタ** - SMS 送信コネクタが最新化および改善され、トランシーバモードの SMPP 接続と永続的な SMPP 接続が有効になり、Adobe Campaign Standard から移行する環境との互換性が向上しました。 すべての新しい SMS 実装で、新しい SMS 外部アカウントが利用できるようになりました。 既存の実装も引き続きサポートされますが、この新しい最新の拡張コネクタに移行することをお勧めします。 [詳細情報](../send/sms/sms.md)
+* **新しい SMS 送信コネクタ** - SMS 送信コネクタが最新化および改善され、トランシーバモードの SMPP 接続と永続的な SMPP 接続が有効になり、Adobe Campaign Standard から移行する環境との互換性が向上しました。 すべての新しい SMS 実装で、新しい SMS 外部アカウントが利用できるようになりました。 既存の実装は引き続きサポートされますが、この新しい最新および拡張コネクタに移行することをお勧めします。 [詳細情報](../send/sms/sms.md)
 
 * **リッチプッシュ通知（GA）** - リッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。 このバージョンでは、リッチプッシュ通知用のテンプレートセットが iOS および Android アプリで利用できるようになりました。 [詳細情報](../send/rich-push-android.md)
 
@@ -206,7 +206,7 @@ _2024年2月14日（PT）_
 
 ### 配信品質のアップデート {#deliverability-8-6-1}
 
-* 2024年2月までに、Google または Yahoo! を通じて 5,000 件を超えるメールメッセージを送信する会社は、 DMARC（Domain-based Message Authentication Reporting and Conformance）と呼ばれる認証テクノロジーの使用を開始する必要があります。 Adobe Campaign で使用しているすべてのサブドメインに対して DMARC レコードが設定されていることを確認してください。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja){target="_blank"}
+* 2024年2月までに、Google または Yahoo! を通じて 5,000 件を超えるメールメッセージを送信する会社は、 DMARC（Domain-based Message Authentication Reporting and Conformance）と呼ばれる認証テクノロジーの使用を開始する必要があります。 Adobe Campaignで使用しているすべてのサブドメインに対して、必ずDMARC レコードを設定してください。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=ja){target="_blank"}
 
 * 2024年6月1日（PT）以降、Google と Yahoo! は、 送信者に対して、ワンクリックでの List-Unsubscribe への準拠を義務付ける予定です。 Adobe Campaign では、このオプションをサポートするようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}
 

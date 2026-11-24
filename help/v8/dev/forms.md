@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 95%
+source-wordcount: '2590'
+ht-degree: 94%
 ---
 # 入力フォームの概要 {#gs-ac-forms}
 
@@ -186,7 +186,7 @@ ht-degree: 95%
 
 **コンテナ**&#x200B;を使用して、一連のコントロールをグループ化します。 これらは **`<container>`** 要素で表されます。 コンテナは、複数の列のコントロールを書式設定する際に使用します。
 
-`<container>` の **xpath** 属性を使用すると、子コントロールを簡単に参照できます。 コントロールの参照は、親 `<container>` の親に対する相対パスになります。
+`<container>` の **xpath** 属性を使用すると、子コントロールを簡単に参照できます。 コントロールの参照は、親`<container>`に対して相対的です。
 
 「xpath」を使用しないコンテナの例：
 
@@ -529,7 +529,7 @@ ht-degree: 95%
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## ラジオボタンの追加 {#radio-button}
+## ラジオボタンを追加 {#radio-button}
 
 ラジオボタンを使用すると、複数のオプションから選択できます。 **`<input>`** タグは、可能なオプションを一覧表示するために使用され、**checkedValue** 属性は選択肢に関連付けられた値を指定します。
 

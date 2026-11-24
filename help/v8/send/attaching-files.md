@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # メールへのファイルの添付{#attaching-files}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->パフォーマンスの問題を回避するために、1 つのメールに複数の添付ファイルを含めないことをお勧めします。 推奨しきい値は、Campaign オプションのリストから設定できます。 [Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery)を参照してください。
+>パフォーマンスの問題を回避するには、1 つのメールに複数の添付ファイルを含めないことをお勧めします。 推奨しきい値は、Campaign オプションのリストから設定できます。 [Campaign Classic ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=ja#delivery)を参照してください。
 
 次の 2 つの場合が考えられます。
 
@@ -59,7 +59,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
 >[!NOTE]
 >
->配信には複数個のファイルを添付できます。 添付ファイルは、任意のフォーマット（zip 形式を含む）で指定できます。
+>配信には複数個のファイルを添付できます。 添付ファイルは、圧縮された形式を含む任意の形式で指定できます。
 
 1. 「**[!UICONTROL 添付ファイル]**」リンクをクリックします。
 1. 「**[!UICONTROL 追加]**」ボタンをクリックします。

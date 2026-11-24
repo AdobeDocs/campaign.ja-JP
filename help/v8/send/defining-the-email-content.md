@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2185'
-ht-degree: 97%
+ht-degree: 93%
 ---
 # メールコンテンツの定義 {#defining-the-email-content}
 
@@ -94,7 +94,7 @@ ht-degree: 97%
 
 デフォルトのメッセージ送信形式としては、受信者の環境設定に応じて HTML またはテキストのいずれかが使用されます。 様々なメールシステム上でメッセージが正しく表示されるように、必ず両方の形式でコンテンツを作成することをお勧めします。 詳しくは、[メッセージ形式の選択](email-parameters.md#selecting-message-formats)を参照してください。
 
-* HTML コンテンツをインポートするには、「**[!UICONTROL 開く]**」ボタンを使用します。 「**[!UICONTROL ソース]**」サブタブに直接ソースコードを貼り付けることもできます。
+* HTML コンテンツを読み込むには、「**[!UICONTROL 開く]**」ボタンを使用します。 「**[!UICONTROL ソース]**」サブタブに直接ソースコードを貼り付けることもできます。
 
   デジタルコンテンツエディター（DCE）を使用している場合は、[この節](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)を参照してください。
 
@@ -132,14 +132,14 @@ ht-degree: 97%
 
   ![](assets/s_ncs_user_wizard_email01_141.png)
 
-  HTML 形式については、ページ下部の「**[!UICONTROL プレビュー]**」タブをクリックすると、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。
+  HTML形式については、ページ下部の「**[!UICONTROL プレビュー]**」タブをクリックして、パーソナライズされたメッセージのレンダリングを表示します。
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## インタラクティブコンテンツの定義 {#amp-for-email-format}
 
-Adobe Campaign では、特定の条件下での動的なメールの送信を可能にする、新しいインタラクティブ [AMP for Email](https://amp.dev/ja/about/email/) フォーマットを試すことができます。
+Adobe Campaignでは、特定の条件で動的な電子メールを送信できる、新しいインタラクティブな[AMP for Email](https://amp.dev/ja/about/email/)形式を試すことができます。
 
 詳しくは、[この節](defining-interactive-content.md)を参照してください。
 
@@ -302,7 +302,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
      ![](assets/barcode_insert_12.png)
 
 1. メールに挿入したいバーコードのサイズを入力します。縮尺を設定することによって、バーコードのサイズを 1 倍から 10 倍まで拡大または縮小できます。
-1. 「**[!UICONTROL 値]**」フィールドを使用して、バーコードの値を定義できます。 値は、特別オファーに対応させたり、ある基準の関数にすることができます。顧客にリンクされているデータベースフィールドの値にすることも可能です。
+1. 「**[!UICONTROL 値]**」フィールドを使用して、バーコードの値を定義できます。 値は特別なオファーと一致し、基準の関数にすることができ、顧客にリンクされたデータベースフィールドの値にすることができます。
 
    次の例は、受信者のアカウント番号が追加された EAN-8 タイプのバーコードを示しています。 このアカウント番号を追加するには、「**[!UICONTROL 値]**」フィールドの右側のパーソナライゼーションボタンをクリックして、**[!UICONTROL 受信者／アカウント番号]**&#x200B;を選択します。
 

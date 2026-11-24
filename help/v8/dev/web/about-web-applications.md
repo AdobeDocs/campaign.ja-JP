@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 79%
+ht-degree: 77%
 ---
 # web アプリケーションの基本を学ぶ{#about-web-applications}
 
@@ -116,7 +116,7 @@ Web アプリケーションを作成および投稿するには、次を実行�
 
 ## Web アプリケーションの初期設定 {#web-application-initial-configuration}
 
-Web アプリケーションは、「**[!UICONTROL キャンペーン]**」および「**[!UICONTROL プロファイルとターゲット]**」タブの「**[!UICONTROL Web アプリケーション]**」リンクを使用して作成されます。
+Web アプリケーションは、**[!UICONTROL キャンペーン]**&#x200B;および&#x200B;**[!UICONTROL プロファイルとターゲット]** タブの&#x200B;**[!UICONTROL Web アプリケーション]** リンクを介して作成されます。
 
 Web アプリケーションは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに格納されます。 設定は、次のフォルダーに分類されます。
 

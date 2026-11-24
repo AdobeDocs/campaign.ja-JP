@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '3196'
-ht-degree: 92%
+ht-degree: 89%
 ---
 # 配信のベストプラクティス {#delivery-best-practices}
 
@@ -60,7 +60,7 @@ ht-degree: 92%
 
 いくつかの要因がサーバーのパフォーマンスに直接影響し、Campaign プラットフォームの速度が低下することがあります。
 
-* [パーソナライゼーション](../send/personalize.md)要素の数とタイプ：メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。 パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータ量が多くなります。 これにより、プラットフォームの速度が低下する場合があります。 パーソナライゼーションのガードレールについて詳しくは、[この節](../send/personalize.md#perso-guardrails)を参照してください。
+* [パーソナライゼーション](../send/personalize.md)要素の数とタイプ：メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。 多くのパーソナライズ要素の場合、配信の準備に必要なデータ量が多くなります。 これにより、プラットフォームの速度が低下する場合があります。 パーソナライゼーションのガードレールについて詳しくは、[この節](../send/personalize.md#perso-guardrails)を参照してください。
 
 * サーバーの負荷：マーケティングサーバーが様々なタスクをいくつも同時に処理していると、パフォーマンスが低下することがあります。 マーケティングサーバーは、すべての配信で最新の正しいデータを使用できるようにあらゆる受信および送信データを統合して調整する必要があります。
 パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
@@ -116,7 +116,7 @@ Adobe Campaign では、返されるエラーのタイプに応じて不正な�
 
 ### サブドメインとブランディング {#subdomains-and-branding}
 
-Adobe Campaign で複数のブランドを管理する場合は、ブランドごとに 1 つのサブドメインを使用することをお勧めします。 例えば銀行ならば、個々の支店に対応する複数のサブドメインを所有できます。 銀行のドメインが bluebank.com の場合、サブドメインは、@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com などになります。サブドメインごとに 1 つの配信テンプレートを用意すれば、それぞれのブランドに合わせて事前に設定されたパラメーターをいつでも使用でき、エラーの回避や時間の節約につながります。 サブドメインのブランディングについて詳しくは、[Campaign コントロールパネルドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください。
+Adobe Campaign で複数のブランドを管理する場合は、ブランドごとに 1 つのサブドメインを使用することをお勧めします。 例えば銀行ならば、個々の支店に対応する複数のサブドメインを所有できます。 銀行がbluebank.com ドメインを所有している場合、そのサブドメインは@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.comなどになります。サブドメインごとに配信テンプレートを1つとることで、ブランドごとに適切な事前設定済みパラメーターを常に使用できるようになり、エラーを回避し、時間を節約できます。 サブドメインのブランディングについて詳しくは、[Campaign コントロールパネルドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください。
 
 ### アドレスの設定 {#configure-addresses}
 
@@ -143,7 +143,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 ### コントロール母集団の設定 {#set-up-control-group}
 
-配信が送信されたら、除外された受信者の行動と、配信を受信した受信者の行動を比較します。 その後、キャンペーンの効率性を測定できます。 コントロール母集団について詳しくは、[この節](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)を参照してください。
+配信が送信されたら、除外された受信者の行動と、配信を受信した受信者の行動を比較します。 その後、キャンペーンの効率性を測定できます。 コントロール母集団の詳細については、 [こちらの節](../../automation/campaigns/marketing-campaign-target.md#add-a-control-group)を参照してください。
 
 ### フィルターまたは制御ルールを適用するためのタイポロジの使用 {#create-typologies}
 
@@ -173,7 +173,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
   パーソナライゼーションブロックについて詳しくは、[この節](../send/personalization-blocks.md)を参照してください。
 
-* パーソナライゼーションデータを準備 - 配信準備の分析を向上させるには、ワークフローでパーソナライゼーションデータを準備できます。 このオプションは、パーソナライゼーションデータが外部テーブルから Federated Data Access（FDA）を介して送られる場合に特に使用します。 このオプションについては、[この節](../send/personalization-data.md#optimize-personalization)を参照してください。
+* パーソナライゼーションデータを準備 - 配信準備の分析を向上させるには、ワークフローでパーソナライゼーションデータを準備できます。 これは、パーソナライゼーションデータがFederated Data Access （FDA）を介して外部テーブルから取得される場合に特に使用する必要があります。 このオプションについては、[このセクション &#x200B;](../send/personalization-data.md#optimize-personalization)で説明します
 +++
 
 ### 最適化されたコンテンツの作成 {#build-optimized-content}
@@ -215,7 +215,7 @@ Campaign インターフェイスでアドレスを設定するには、次の�
 
 ### ミラーページ {#mirror-page-check}
 
-ミラーページリンクを必ず含めます。 メールの先頭がお勧めです。 ミラーページについて詳しくは、[この節](../send/mirror-page.md)を参照してください。
+ミラーページリンクを必ず含めます。 望ましい位置は、メールの上部です。 ミラーページについて詳しくは、[この節](../send/mirror-page.md)を参照してください。
 
 ### 購読解除リンク {#unsub-link-check}
 

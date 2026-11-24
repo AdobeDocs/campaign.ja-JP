@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1114'
+ht-degree: 99%
 ---
 # Adobe Campaign のビルトインのレポート {#ootb-reports}
 
@@ -292,7 +292,7 @@ Campaign のビルトインレポートにアクセスするには次の手順�
   </tr> 
   <tr> 
    <td> 予算の累積変化（budgetCumulativeEvolution）<br /> </td> 
-   <td> コミットメントレベルで分類した累積予算コストの変化。<br /> </td> 
+   <td> 累積された予算コストの進化をコミットメント レベル別に示します。 </td> 
    <td> nms:budget<br /> </td> 
   </tr> 
   <tr> 

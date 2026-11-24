@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1520'
-ht-degree: 95%
+ht-degree: 93%
 ---
 # 2023 リリースノート {#2023-rn}
 
@@ -195,5 +195,5 @@ _2023年1月27日（PT）_
 * log4j ライブラリへの残りの参照は、Windows での Campaign インストールから削除されました。 （NEO-44851）
 * **クエリ**&#x200B;ワークフローアクティビティの追加データに&#x200B;**開封した受信者**（estimatedRecipientOpen）インジケーターを追加すると、エラーが発生する場合がある問題を修正しました。 （NEO-46665）
 * パフォーマンスを向上させるために、複数の配信を含むワークフローでのトラッキング URL の管理を改善しました。 （NEO-50894）<!--OKKKK-->
-* Xtkfolder を使用するスキーマのレプリケーションが失敗する可能性がある問題を修正しました。 （NEO-46787）<!--OKKKK-->
-* 「lastModified」カスタム列が NmsSubscription テーブルにドロップされる問題を修正しました。 （NEO-48402）
+* Xtkfolderを使用するスキーマのレプリケーションが失敗する可能性がある問題を修正しました。 （NEO-46787）<!--OKKKK-->
+* NmsSubscription テーブルに「lastModified」カスタム列がドロップされる可能性がある問題を修正しました。 （NEO-48402）

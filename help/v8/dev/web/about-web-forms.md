@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 98%
 ---
 # Web フォームの基本を学ぶ{#about-web-forms}
 
@@ -85,7 +85,7 @@ Web フォームの設定とコンテンツを定義するには、次の手順�
 
 ## Web フォームの設計について {#about-web-forms-designing}
 
-フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど） および静的要素（画像、HTLM コンテンツなど）を定義および設定できる、専用のエディターで作成されます。 フォームのページは、コンテナにグループ化したり、ニーズに合わせてレイアウトを変更したりできます（詳しくは、[コンテナの作成](defining-web-forms-layout.md#creating-containers)を参照）。
+フォームのページは、入力ゾーン（テキスト）、選択フィールド（リスト、チェックボックスなど） 静的な要素（画像、HTMLのコンテンツなど）が含まれます。 フォームのページは、コンテナにグループ化したり、ニーズに合わせてレイアウトを変更したりできます（詳しくは、[コンテナの作成](defining-web-forms-layout.md#creating-containers)を参照）。
 
 以降の節では、フォーム画面のコンテンツとレイアウトの定義方法について説明します。
 

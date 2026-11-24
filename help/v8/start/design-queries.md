@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '957'
 ht-degree: 29%
 ---
 # Query Campaign データベース
@@ -155,7 +155,7 @@ SQL 言語を理解しているユーザーは、「**[!UICONTROL 生成され�
 
 >[!NOTE]
 >
->コンソールで使用可能なすべてのリストと同様に、デフォルトでは、最初の200行のみが&#x200B;**[!UICONTROL データプレビュー]** ウィンドウに表示されます。 これを変更するには、**[!UICONTROL 表示行数]** ボックスに数値を入力し、**[!UICONTROL データのプレビューを開始]**&#x200B;をクリックします。 [詳細情報](../config/ui-settings.md#customize-lists)
+>コンソールで使用可能なすべてのリストについて、デフォルトでは、最初の200行のみが&#x200B;**[!UICONTROL データプレビュー]** ウィンドウに表示されます。 これを変更するには、**[!UICONTROL 表示行数]** ボックスに数値を入力し、**[!UICONTROL データのプレビューを開始]**&#x200B;をクリックします。 [詳細情報](../config/ui-settings.md#customize-lists)
 
 
 

@@ -30,10 +30,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 86%
+ht-degree: 84%
 ---
 # リンク管理 {#links--relation-between-tables}
 
@@ -45,7 +45,7 @@ ht-degree: 86%
 * カーディナリティ（一対多）：ソーステーブルの 1 つのオカレンスを、ターゲットテーブルの複数のオカレンスに対応させることができますが、ターゲットテーブルの 1 つのオカレンスは、最大でソーステーブルの 1 つのオカレンスに対応させることができます。
 * カーディナリティ（多対多）：ソーステーブルの 1 つのオカレンスを、ターゲットテーブルの複数のオカレンスに対応させることができます。逆の場合も同様です。
 
-ユーザーインターフェイスでは、カーディナリティは特定のアイコンで表されます。
+ユーザーインターフェイスでは、基数は特定のアイコンで表されます。
 
 キャンペーンテーブル / データベースとの結合関係の場合：
 

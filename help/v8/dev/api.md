@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 82%
+source-wordcount: '315'
+ht-degree: 74%
 ---
 # [!DNL Campaign] API の概要 {#gs-ac-api}
 
@@ -53,14 +53,14 @@ ht-degree: 82%
 
 >[!CAUTION]
 >
->* Campaign v8.5.1 以降、Campaign v8 への認証プロセスが変更されました。 テクニカルオペレーターは、Adobe Identity Management System（IMS）を使用して Campaign に接続する必要があります。 既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
+>* Campaign v8.5.1以降、Campaign v8への認証プロセスが変更されました。 テクニカルオペレーターは、Adobe ID 管理システム（IMS）を使用して Campaign に接続する必要があります。 既存のテクニカルアカウントを移行する方法については、[このテクニカルノート](../../technotes/upgrades/ims-migration.md)を参照してください。
 >
 >* [!DNL Adobe Campaign] v8 には、API レイヤーのスループット（TPS）に制限があります。 この制限を超えると、標準 HTTP エラー（429）が発生します。 Managed Cloud Services のユーザーは、アドビに連絡して、各 API の調整を適応してもらうことができます。
 > 
 
 ## 前提条件 {#ac-api-prerequisites}
 
-[!DNL Adobe Campaign] API を使用するには、次のトピックに関する知識が必要です。
+[!DNL Adobe Campaign] APIを使用する前に、次のトピックに精通している必要があります。
 
 * JavaScript
 * SOAP プロトコル

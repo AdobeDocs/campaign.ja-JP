@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 97%
+ht-degree: 92%
 ---
 # Campaign 実装のガイドライン{#gs-implementation}
 
@@ -57,7 +57,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->**Campaign Managed Cloud Services** の環境と初期設定は、ライセンス契約の条件に従い、アドビによって設定されます。 インストール済みのビルトインパッケージ、ビルトインのスキーマやレポートなどは変更できません。
+>**Campaign Managed Cloud Services**&#x200B;では、使用許諾契約の条件に従って、Adobeによって環境と初期設定が設定されます。 インストール済みのビルトインパッケージ、ビルトインのスキーマやレポートなどは変更できません。
 >
 >Campaign アドオンまたは提供されていない特定の機能を使用する必要がある場合は、**アドビトランジションマネージャー**&#x200B;にお問い合わせください。
 
@@ -67,7 +67,7 @@ ht-degree: 97%
 
 ### プライバシー{#implementation-privacy}
 
-Adobe Campaign には、該当するデータプライバシー保護法や受信者の環境設定に応じて Campaign を使用できるプロセスと設定が用意されています。 以下を管理できます。
+Adobe Campaignには、適用されるデータプライバシー法および受信者の環境設定に準拠してCampaignを使用できるプロセスと設定が付属しています。 以下を管理できます。
 
 * **データ獲得**：Adobe Campaign を使用すると、個人情報や機密情報を含め、データを収集できます。 したがって、受信者の同意を得て、管理する必要があります。
 
@@ -195,7 +195,7 @@ Campaign の様々な領域や機能をカスタマイズできます。 ほと�
 
 シングルサインオン（SSO）のみを使用して Campaign に接続できます。 詳しくは、[このページ](connect.md)を参照してください。
 
-Adobe Campaign と統合できるアドビのソリューションの完全なリストについては、[このページ](../connect/integration.md)を参照してください。
+Adobe Campaign [と統合可能なAdobe ソリューションの一覧については、このページ &#x200B;](../connect/integration.md)を参照してください。
 
 ### コネクタ{#implementation-connectors}
 

@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 94%
@@ -105,7 +105,7 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
      ミラーページの管理について詳しくは、[この節](mirror-page.md#link-to-mirror-page)を参照してください。
 
-1. BBC アドレスへのメッセージのコピーの送信、メッセージ形式の変更、特定のエンコーディングの設定など、メールの追加パラメーターを定義できます。詳しくは、[このセクション &#x200B;](email-parameters.md)を参照してください。
+1. BCC アドレスへのメッセージのコピーの送信、メッセージ形式の変更、特定のエンコーディングの設定など、メールに追加のパラメーターを定義できます。詳しくは、[このセクション &#x200B;](email-parameters.md)を参照してください。
 
 1. コンテンツの準備が整ったら「**保存**」をクリックします。すると、配信のリストの&#x200B;**[!UICONTROL キャンペーン／「配信」]**&#x200B;タブにコンテンツが表示されます。
 

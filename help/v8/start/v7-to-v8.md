@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 95%
+ht-degree: 92%
 ---
 # [!DNL Campaign Classic] v7 から [!DNL Campaign] v8 への移行{#gs-matrix}
 
@@ -45,7 +45,7 @@ ht-degree: 95%
 
 >[!AVAILABILITY]
 >
->* 現時点では、Campaign v8 は Managed Cloud Service として&#x200B;**のみ**&#x200B;使用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。 [詳細情報](#cloud-services)
+>* 現時点では、Campaign v8はManaged Cloud Serviceとして&#x200B;**のみ**&#x200B;利用でき、オンプレミス環境またはハイブリッド環境にデプロイすることはできません。 [詳細情報](#cloud-services)
 >
 >* 既存の Campaign Classic v7 環境からの自動移行はまだ利用できません。
 

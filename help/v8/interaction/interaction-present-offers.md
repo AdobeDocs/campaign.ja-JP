@@ -21,10 +21,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 88%
 ---
 # 最適なオファーの提示{#interaction-present-offers}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 詳しくは、[この節](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
 
-インバウンドコンタクト先のコンテキストでは、コンタクト先つまりページを閲覧しているユーザーが web サイトで識別できるかどうかです。 オファーエンジンは、識別されたプロファイル用と匿名プロファイル用に、異なるオファーを提示します。
+インバウンドコンタクトのコンテキストでは、ページを閲覧しているユーザーをweb サイトで識別できます。 オファーエンジンは、識別されたプロファイル用と匿名プロファイル用に、異なるオファーを提示します。
 
 インバウンドチャネルでオファーを提示できるようにするには、まず、オファーを提示する場所にオファーエンジン呼び出しを設定する必要があります。 インバウンドインタラクションでは、ほとんどの場合、これは web ページです。
 

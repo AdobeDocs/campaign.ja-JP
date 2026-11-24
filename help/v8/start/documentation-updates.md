@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 100%
+ht-degree: 94%
 ---
 # ドキュメントの更新 {#latest-updates}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## 2026年6月 {#june-2026}
 
-メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign 機能のページを追加しました。 [詳細を表示](cnil-pixel-tracking.md)
+メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign 機能のページを追加しました。 [詳細情報](cnil-pixel-tracking.md)
 
 ## 2025年4月 {#april-2025}
 
@@ -55,7 +55,7 @@ FFDA デプロイメントのデータレプリケーションに関するペー
 
 ## 2024年5月 {#may-2024}
 
-* チャネルと配信のタイプのリストが[このページ](create-message.md)に掲載されています。
+* 配信のチャネルとタイプのリストが[このページ &#x200B;](create-message.md)に表示されるようになりました。
 * 配信設定とウェーブ管理の節を再編成し、改善しました。 [詳細情報](../send/configure-and-send.md)
 * 「**[!UICONTROL ディメンションを変更]**」アクティビティと「**[!UICONTROL データソースを変更]**」アクティビティを 1 つの行に追加せず、これらの間に「**[!UICONTROL エンリッチメント]**」アクティビティを含める必要があることを明記したメモを追加しました。 詳しくは、[ディメンションを変更](../../automation/workflow/change-dimension.md)と[データソースを変更](../../automation/workflow/change-data-source.md)の節を参照してください。
 

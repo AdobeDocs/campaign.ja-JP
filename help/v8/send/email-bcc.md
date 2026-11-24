@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 96%
+ht-degree: 81%
 ---
 # BCC アドレスに対するメッセージのコピーの送信 {#bcc}
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 ## 「BCC でメールを送信」について {#gs-bcc}
 
-プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。 このオプションにより、メッセージを専用の BCC（ブラインドカーボンコピー）メールアドレスに送信し、外部システムを使用して処理およびアーカイブできます。
+プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。 このオプションを使用すると、専用のBCC （ブラインドカーボンコピー）メールアドレスにメッセージを送信し、そこから外部システムを使用して処理およびアーカイブできます。
 
 >[!CAUTION]
 >
@@ -78,6 +78,6 @@ Adobe Campaign で「BCC でメールを送信」を使用する場合、次の�
 
 * BCC でメールを送信<!--with Enhanced MTA-->は、受信者に配信する前に BCC メールアドレスに配信することで、元の配信がバウンスした場合でも BCC メッセージが送信される可能性があります。 バウンスについて詳しくは、[配信エラーについて](delivery-failures.md)を参照してください。
 
-* BCC アドレスに送信されたメールは、開封やクリックスルーしないでください。これらのアクティビティは、送信分析の&#x200B;**[!UICONTROL 合計開封数]**&#x200B;と&#x200B;**[!UICONTROL クリック数]**&#x200B;に含められるので、計算の誤りの原因となる可能性があります。
+* BCC アドレスに送信された電子メールは開封およびクリックしないでください。これらのアクティビティは、送信分析から&#x200B;**[!UICONTROL 合計開封数]**&#x200B;および&#x200B;**[!UICONTROL クリック数]**&#x200B;で考慮されているため、計算が誤っている可能性があります。
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->

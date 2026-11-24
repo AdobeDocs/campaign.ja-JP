@@ -29,16 +29,16 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 84%
+source-wordcount: '170'
+ht-degree: 64%
 ---
 # シミュレーションのトラッキング{#simulation-tracking}
 
 
 
-シミュレーションが完了したら、シミュレーションウィンドウに追加される「**[!UICONTROL 結果]**」タブと、シミュレーションダッシュボードで利用できる&#x200B;**[!UICONTROL オファーの分類（ランキング別）]**&#x200B;レポートを使用して、実行結果を分析できます。
+シミュレーションが完了したら、シミュレーション ウィンドウに追加された「**[!UICONTROL 結果]**」タブと、シミュレーション ダッシュボードで利用できる「**[!UICONTROL ランク別オファーの内訳]**」レポートを使用して、その結果を分析できます。
 
 シミュレーションの結果には、提案のランキング別および受信者別の分類が含まれています。 また、レポートの軸も考慮されて、このタブに表示されます。
 

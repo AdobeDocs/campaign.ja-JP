@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 99%
+source-wordcount: '1466'
+ht-degree: 96%
 ---
 # Campaign と Microsoft Dynamics 365 の連携{#crm-ms-dynamics}
 
@@ -84,7 +84,7 @@ ht-degree: 99%
 
 ### Microsoft Dynamics 証明書キー識別子およびキー ID の生成 {#config-certificate-key-id}
 
-**証明書キー識別子（customKeyIdentifier）**&#x200B;および&#x200B;**キー ID（keyId）**&#x200B;を取得するには、証明書をアップロードする必要があります。 証明書は、トークンのリクエスト時にアプリケーションの ID を証明するための暗号鍵として使用できます。 公開鍵とも呼ばれます。
+**証明書キー識別子（customKeyIdentifier）**&#x200B;および&#x200B;**キー ID（keyId）**&#x200B;を取得するには、証明書をアップロードする必要があります。 証明書は、トークンのリクエスト時にアプリケーションの ID を証明するための暗号鍵として使用できます。 また、公開鍵と呼ぶこともできます。
 
 以下の手順に従います。
 
@@ -145,7 +145,7 @@ ht-degree: 99%
 **手順 1**：Azure Active Directory に非インタラクティブユーザーを作成する
 
 1. **Azure Active Directory／ユーザー**&#x200B;をクリックし、「**新しいユーザー**」をクリックします。
-1. 使用する適切な名前を指定し、ユーザー名はメールフォーマットにする必要があります。
+1. 使用する適切な名前を指定し、ユーザー名をメール形式にする必要があります。
 1. **ディレクトリ役割**&#x200B;から **Dynamics 365 管理者**&#x200B;を選択します。
 
 **手順 2**：作成したユーザーに適切なライセンスを割り当てる
@@ -158,7 +158,7 @@ ht-degree: 99%
 **手順 3**：Dynamics CRM でアプリケーションユーザーを作成する
 
 1. [Microsoft Azure](https://portal.azure.com) から、**設定／セキュリティ／ユーザー**&#x200B;に移動します。
-1. ドロップダウンをクリックし、**アプリケーションユーザー**&#x200B;を選択して「**新規**」をクリックします。
+1. ドロップダウンをクリックし、**アプリケーションユーザー**&#x200B;を選択し、**新規**&#x200B;をクリックします。
 1. 上の Active Directory に作成されたユーザーと同じユーザー名を使用します.
 1. **アプリケーション ID** を[以前に作成したアプリケーション](#get-client-id-microsoft)に割り当てます。
 1. 「**ロールの管理**」をクリックし、ユーザーに対して&#x200B;**システム管理者**&#x200B;ロールを選択します。

@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Landing pages
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
     internal-label: Email design
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 95%
 ---
 # コンテンツエディターのインターフェイス{#content-editor-interface}
 
@@ -40,7 +40,7 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 ![](assets/dce_decoupe_window_nb.png)
 
-1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。 これらのメッセージは、Web アプリケーションのステータスや作成される配信、およびコンテンツに関連する警告やエラーメッセージを示します。 詳しくは、[HTML コンテンツのステータス](content-editing-best-practices.md#html-content-statuses)を参照してください。
+1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。 これらのメッセージは、作成されるWeb アプリケーションまたは配信のステータスと、コンテンツに関連する警告およびエラーメッセージを示します。 詳しくは、[HTML コンテンツのステータス](content-editing-best-practices.md#html-content-statuses)を参照してください。
 1. ウィンドウの&#x200B;**左側**&#x200B;のセクションは、コンテンツを編集するための領域です。 この領域から、ポップアップツールバーを使用して直接コンテンツを操作できます（画像へのリンクの挿入、フォントの変更、フィールドの削除など）。詳しくは、 [フォームの編集](editing-content.md#editing-forms)を参照してください。
 1. ウィンドウの&#x200B;**右側**&#x200B;のセクションは、コントロールパネル領域です。 この領域は、エディターの様々なオプション、特にページ見出しの設定に関するものとブロックの全般的なオプションをグループ化します（境界線の追加、データベースフィールドと入力ゾーンのリンク、web ページのプロパティへのアクセスなど）。詳しくは、[グローバルオプション](#global-options)および[コンテンツの編集](editing-content.md)の節を参照してください。
 

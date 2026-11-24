@@ -30,25 +30,25 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 97%
+source-wordcount: '798'
+ht-degree: 92%
 ---
 # SMS 配信設定 {#sms-settings}
 
-SMS 配信に必要な技術的な設定を以下に示します。
+SMS配信に必要な技術設定は次のとおりです。
 
 * メッセージルーティング用の SMPP 外部アカウント。 [詳細情報](smpp-external-account.md#smpp-connection-settings)
 * 「SMS」タブを設定します。 [詳細情報](#sms-tab)
 
-これらすべてを配信テンプレートで設定すると、SMS 配信の作成ごとの設定を回避できます。
+SMS配信の作成ごとに設定を行わないようにするために、これらのすべてを配信テンプレートで設定できます。
 
 ## 「SMS」タブの設定 {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
-このフォームに入力する必要がある情報を以下に示します。 各フィールドについては、以下で説明します。
+フォームに入力する必要のある情報は次のとおりです。 各フィールドについては、以下で説明します。
 
 * **[!UICONTROL 送信者のアドレス]**
 

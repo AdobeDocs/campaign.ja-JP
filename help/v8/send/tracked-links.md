@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 82%
+source-wordcount: '594'
+ht-degree: 77%
 ---
 # トラッキング対象リンクの設定 {#how-to-configure-tracked-links}
 
@@ -74,9 +74,9 @@ ht-degree: 82%
    * **[!UICONTROL 有効]**：この URL のトラッキングを有効化します。
    * **[!UICONTROL トラッキングなし]**：このURLのトラッキングを無効にします。
    * **[!UICONTROL 常に有効]**：このURLの追跡を常に有効にします。 この情報は保存されるので、次回この URL が将来のメッセージコンテンツに再び表示された場合にそのトラッキングが自動的に有効化されます。
-   * **[!UICONTROL トラッキングなし]**：このURLのトラッキングをアクティブにしません。 この情報は保存されるので、次回この URL が将来のメッセージに再び表示された場合にそのトラッキングが自動的に無効化されます。
+   * **[!UICONTROL トラッキングなし]**：このURLのトラッキングをアクティブにしません。 この情報は保存され、次回URLが将来のメッセージで再度表示された場合、そのトラッキングは自動的に非アクティブ化されます。
    * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
-   * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
+   * **[!UICONTROL ミラーページ]**：このURLはミラーページ URLと見なされます。
 
 1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。 これらのカテゴリは、例えば&#x200B;**[!UICONTROL URLとクリックストリーム]** レポートのように、レポートに表示できます（[このセクション &#x200B;](../reporting/delivery-reports.md#urls-and-click-streams)を参照）。 カテゴリーは、特定の列挙で定義されています：**[!UICONTROL urlCategory]**。 列挙の使用方法について詳しくは、[この節](../config/enumerations.md)を参照してください。
 

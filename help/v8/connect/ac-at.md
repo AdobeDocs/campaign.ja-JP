@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 98%
+source-wordcount: '1047'
+ht-degree: 95%
 ---
 # Campaign と Adobe Target の連携
 
@@ -68,7 +68,7 @@ Adobe Target では、次の種類のデータを使用できます。
 
 ![](assets/target_4.png)
 
-以下の手順は、Adobe Campaign と Adobe Target で実行する必要があります。
+Adobe CampaignとAdobe Targetでは、次の手順を実行する必要があります。
 
 1. [メールへのダイナミックオファーの挿入](#inserting-dynamic-offer)
 1. [リダイレクトオファーの作成](#create-redirect-offers)
@@ -159,7 +159,7 @@ Adobe Target では、「エクスペリエンスのターゲット設定」ア�
 
 1. 「**[!UICONTROL エクスペリエンスのターゲット設定を追加]**」をクリックして、別のエクスペリエンスを作成します。
 
-次に、オーディエンスごとにコンテンツを追加します。
+次に、各オーディエンスのコンテンツを追加します。
 
 1. Adobe Campaign でダイナミックオファーを挿入する際に選択した場所名を選択します。
 

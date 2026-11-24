@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 96%
+source-wordcount: '1531'
+ht-degree: 95%
 ---
 # キューブのカスタマイズ{#cube-custom}
 
@@ -117,7 +117,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 ![](assets/nmx_report_sample.png)
 
-これは次のテンプレートを使用して作成されます。
+次のテンプレートを使用して構築されています。
 
 ![](assets/nmx_enum_domain.png)
 
@@ -255,7 +255,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
    ![](assets/cube_multiple_filters.png)
 
-フィルターを変更（追加、削除、編集）するたびに、レポートを再計算する必要があります。
+フィルターを変更（追加、削除、変更）するたびに、レポートを再計算する必要があります。
 
 選択した項目に基づいてフィルターを作成することもできます。 それには、ソースとなるセル、行および列を選択した後、「**[!UICONTROL フィルターを追加]**」アイコンをクリックします。
 

@@ -18,14 +18,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 94%
+ht-degree: 60%
 ---
 # Campaign と Adobe Workfront の操作
 
-Campaign を Adobe Workfront と組み合わせることで、キャンペーンの配信を高速化します。 クロスチャネルのチームが簡単に情報を取り込み、共同作業し、実行できるようにします。 Adobe Workfont の Adobe Campaign モジュールを使用すると、Adobe Campaign アカウントのイベントに基づいて Adobe Workfront Fusion シナリオを開始し、レコードの作成、読み取り、更新、設定した条件を使用したレコードの検索、カスタム API 呼び出しの実行を行うことができます。
+Campaign を Adobe Workfront と組み合わせることで、キャンペーンの配信を高速化します。 クロスチャネルのチームが簡単に情報を取り込み、共同作業し、実行できるようにします。 Adobe WorkfrontのAdobe Campaign モジュールを使用すると、Adobe Campaign アカウント内のイベントに基づいてAdobe Workfront Fusion シナリオを開始し、レコードを作成、読み取りまたは更新し、設定した条件を使用してレコードを検索し、カスタム API呼び出しを実行できます。
 
 
 この統合を設定する手順について詳しくは、Adobe Workfront のドキュメントを参照してください。

@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 98%
+ht-degree: 96%
 ---
 # Web フォームの回答{#web-forms-answers}
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 受信者を編集]**
 
-  データベースのフィールドを選択できます。ユーザーの回答はこのフィールドに格納されます。 各ユーザーごとに、最後に入力した値のみが保存され、プロファイルに追加されます。[データベースへのデータの格納](#storing-data-in-the-database)を参照してください。
+  データベースのフィールドを選択できます。ユーザーの回答はこのフィールドに格納されます。 各ユーザーについて、最後に入力された値のみが保存されます。その値はプロファイルに追加されます。 「[&#x200B; データベースにデータを保存する](#storing-data-in-the-database)」を参照してください。
 
 * **[!UICONTROL 変数]**
 

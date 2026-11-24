@@ -40,23 +40,23 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '600'
+ht-degree: 64%
 ---
 # 鍵の管理と単一性 {#key-management}
 
 [エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、プライマリキーは文字列であるユニバーサル固有識別子（UUID）です。 UUID を作成するには、スキーマのメイン要素に **autouuid** 属性と **autopk** 属性を含め、**true** に設定する必要があります。
 
-Adobe Campaign v8 は [!DNL Snowflake] をコアデータベースとして使用します。 [!DNL Snowflake] データベースの分散アーキテクチャには、テーブル内のキーの単一性を管理するメカニズムはありません。Adobe Campaign データベース内のキーの一貫性は、エンドユーザーが確保する必要があります。
+Adobe Campaign v8 は [!DNL Snowflake] をコアデータベースとして使用します。 [!DNL Snowflake] データベースの分散アーキテクチャでは、テーブル内のキーの単一性を確保する仕組みがありません。エンドユーザーは、Adobe Campaign データベース内のキーの一貫性に責任を持ちます。
 
-リレーショナルデータベースの一貫性を維持するには、キー（特にプライマリキー）の重複を避けることが必須です。 プライマリキーが重複すると、**クエリ**、**紐付け**、**データの更新**&#x200B;などのデータ管理ワークフローのアクティビティに問題を引き起こします。 [!DNL Snowflake] テーブルの更新時に適切な紐付け条件を定義する際に重要です。
+リレーショナルデータベースの一貫性を維持するには、キー（特にプライマリキー）の重複を避けることが必須です。 プライマリキーが重複すると、**クエリ**、**紐付け**、**データの更新**&#x200B;などのデータ管理ワークフローのアクティビティに問題を引き起こします。 これは、[!DNL Snowflake] テーブルを更新する際に適切な紐付け条件を定義するために重要です。
 
 
 >[!CAUTION]
 >
->キーの重複は、UUID に限って発生するわけではありません。 カスタムテーブルで作成されたカスタムキーを含む ID で発生する可能性があります。
+>重複したキーは、UUIDに制限されません。 カスタムテーブルで作成されたカスタムキーを含むIDで発生する可能性があります。
 
 
 ## Unicity Service{#unicity-service}
@@ -90,7 +90,7 @@ Unicity Service は専用の&#x200B;**[!UICONTROL 単一性アラート]**&#x200
 
 ## 追加のガードレール {#duplicates-guardrails}
 
-キャンペーンは、[!DNL Snowflake] データベースで重複したキーが挿入されるのを防ぐための一連の新しいガードレールを備えています。
+Campaignには、[!DNL Snowflake] データベースに重複するキーを挿入しないようにする、一連の新しいガードレールが付属しています。
 
 >[!NOTE]
 >
@@ -98,19 +98,19 @@ Unicity Service は専用の&#x200B;**[!UICONTROL 単一性アラート]**&#x200
 
 ### 配信準備 {#remove-duplicates-delivery-preparation}
 
-Adobe Campaign は、配信の準備中に重複した UUID をオーディエンスから自動的に削除します。 このメカニズムは、配信の準備中にエラーが発生するのを防ぎます。 エンドユーザーは、配信ログの「キーが重複しているため、一部の受信者はメインターゲットから除外されます」という情報を確認できます。 その際、次の警告が表示されます。`Exclusion of duplicates (based on the primary key or targeted records)`
+Adobe Campaign は、配信の準備中に重複した UUID をオーディエンスから自動的に削除します。 このメカニズムは、配信の準備中にエラーが発生するのを防ぎます。 エンドユーザーは、配信ログでこの情報を確認できます。一部の受信者は、キーが重複しているため、メインターゲットから除外できます。 その際、次の警告が表示されます。`Exclusion of duplicates (based on the primary key or targeted records)`
 
 ![](assets/exclusion-duplicates-log.png)
 
 ### ワークフロー内のデータ更新 {#duplicates-update-data}
 
-[エンタープライズ（FFDA）デプロイメント](enterprise-deployment.md)のコンテキストでは、内部キー（UUID）をフィールドとして選択して、ワークフロー内のデータを更新することはできません。
+[Enterprise （FFDA） デプロイメント &#x200B;](enterprise-deployment.md)のコンテキストでは、ワークフロー内のデータを更新するフィールドとして内部キー（UUID）を選択することはできません。
 
 ![](assets/update-data-no-internal-key.png)
 
 ### 重複を含むスキーマのクエリ {#query-with-duplicates}
 
-ワークフローがスキーマに対するクエリの実行を開始すると、Adobe Campaign は重複したレコードが[監査単一性テーブル](#unicity-wf)で報告されているかを確認します。 その場合、ワークフローは、重複したデータに対する後続の操作がワークフローの結果に影響を与える可能性があるという警告をログに記録します。
+ワークフローがスキーマ上でクエリの実行を開始すると、Adobe Campaignは、[監査単一性テーブル &#x200B;](#unicity-wf)に重複したレコードが報告されているかどうかを確認します。 その場合、重複したデータに対するその後の操作がワークフローの結果に影響を与える可能性があるため、ワークフローは警告をログに記録します。
 
 ![](assets/query-with-duplicates.png)
 
@@ -123,4 +123,4 @@ Adobe Campaign は、配信の準備中に重複した UUID をオーディエ�
 
 >[!NOTE]
 >
->別の Campaign バージョンから移行する場合は、移行への影響を避けるために、重複の削除、トラブルシューティング、データのサニタイズを行うことが不可欠です。
+>別のCampaign バージョンから移行する場合は、移行に影響を与えないように、重複を削除し、トラブルシューティングを行い、データを整理することが不可欠です。

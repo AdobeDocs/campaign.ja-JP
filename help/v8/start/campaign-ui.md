@@ -31,20 +31,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 67%
+source-wordcount: '1231'
+ht-degree: 61%
 ---
 # ユーザーインターフェイスの確認 {#ui-client-console}
 
-Adobe Campaign には、クライアントコンソールまたは web ユーザーインターフェイスからアクセスできます。 また、API を使用してデータを管理し、Campaign プラットフォームでタスクを実行することもできます。
+Adobe Campaignには、クライアントコンソールまたはWeb ユーザーインターフェイスからアクセスできます。 また、API を使用してデータを管理し、Campaign プラットフォームでタスクを実行することもできます。
 
 * **クライアントコンソール** - クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。 Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。 簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。 [詳細情報](#ui-access)
 
   Campaign クライアントコンソールをインストールして設定する方法については、[この節](../start/connect.md)を参照してください。
 
-* **Web アクセス** - Adobe Campaign の web アクセス機能を使用すると、web ブラウザーを使用して、Campaign の機能のサブセットにアクセスできます。HTML ユーザーインターフェイスが使用されます。 この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。  Campaign の web アクセスについて詳しくは、[この節](../start/connect.md#web-access)を参照してください。
+* **Web アクセス** - Adobe Campaign web アクセス機能を使用すると、HTML ユーザーインターフェイスを使用して、Web ブラウザーでCampaign機能のサブセットにアクセスできます。 この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。  Campaign の web アクセスについて詳しくは、[この節](../start/connect.md#web-access)を参照してください。
 
 * **API** - より多くのユースケースに対応するために、SOAP プロトコルで公開されている web サービス API を使用して、外部のアプリケーションからシステムを呼び出すこともできます。 Campaign の API について詳しくは、[このページ](../dev/api.md)を参照してください。
 
@@ -103,7 +103,7 @@ Campaign クライアントコンソールに接続したら、上部セクシ�
 
 各機能について、「**[!UICONTROL ブラウジング]**」セクションの一連の主な機能にアクセスできます。 **[!UICONTROL その他]**&#x200B;リンクを使用すると、他のすべてのコンポーネントにアクセスできます。
 
-例えば、「**[!UICONTROL プロファイルとターゲット]**」タブを参照すると、受信者リスト、購読サービス、既存のターゲティングワークフローおよびこれらすべてのコンポーネントを作成するためのショートカットにアクセスできます。
+例えば、「**[!UICONTROL プロファイルとターゲット]**」タブを参照すると、受信者リスト、サブスクリプションサービス、既存のターゲティングワークフロー、およびこれらすべてのコンポーネントを作成するためのショートカットにアクセスできます。
 
 プロファイルとターゲットタブからリストにアクセスする方法を示す![Campaign コンソールのユーザーインターフェイス &#x200B;](assets/overview-list.png)
 
@@ -120,7 +120,7 @@ Campaign クライアントコンソールに接続したら、上部セクシ�
 <!--
 ## Use a web browser {#web-browser}
 
-You can also access a subset of Campaign capabilities through the a web browser.
+You can also access a subset of Campaign capabilities through a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns.
 
@@ -214,4 +214,4 @@ Campaign v8 ユーザーは、v8.6.1 リリース以降、中央の[!DNL CX Ente
 ## その他のリソース
 
 * **[列挙の操作](../config/enumerations.md)** – 定義済みのドロップダウンリストを使用してフィールド値を標準化し、より迅速で一貫性のあるデータ入力を実現します。
-* **[フィルターデータ](../audiences/create-filters.md)** – 既存の組み込みフィルターを検索して、Campaign データの特定のサブセットにアクセスしたり、クイックフィルターの作成方法や、独自の高度なフィルターをデザインして共有したりできます。
+* **[フィルターデータ](../audiences/create-filters.md)** – 既存の組み込みフィルターを検索して、Campaign データの特定のサブセットにアクセスしたり、クイックフィルターを作成したり、独自の高度なフィルターをデザインして共有したりできます。

@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * **Adobe.io コンソールにアクセスすると、次のエラーが表示されます。「Adobe I/O コンソールは、一部のエンタープライズアカウントでのみ使用できます。 アクセス権を持っている必要があると思われる場合は、システム管理者にお問い合わせください。&quot;**
 
-API キーを作成できるのは、管理対象の組織のみです。 このメッセージが表示され、API キーを作成し、組織の管理者の1人に依頼する場合。
+API キーを作成できるのは、管理対象の組織のみです。 このメッセージが表示され、API キーを作成し、組織の管理者のいずれかを依頼する場合。
 
 * **Adobe.ioにリクエストを行うと、{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**&#x200B;が表示されます
 
@@ -83,7 +83,7 @@ IMS プロビジョニングが見つからない場合は、修正する必要�
 
 * **Adobe.ioにリクエストを行うと、{&quot;code&quot;:500, &quot;message&quot;:&quot;Oops&quot;が表示されます。 エラーが発生しました。 URIを確認して、もう一度試してください。&quot;}**
 
-Adobe.ioが無効なURIを宣言します。リクエストしているURIが無効である可能性があります。 Adobe.ioでCampaign サービスを選択すると、使用可能なorganization_idのリストを含むピッカーが表示されます。 選択したものがURLに入れたものであることを確認する必要があります。
+Adobe.ioが無効なURIを宣言しています。おそらく、リクエストしているURIが無効です。 Adobe.ioでCampaign サービスを選択すると、使用可能なorganization_idのリストを含むピッカーが表示されます。 選択したものがURLに入れたものであることを確認する必要があります。
 
 * **Adobe.ioにリクエストを行うと、{&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth トークンが無効です&quot;}**&#x200B;が表示されます
 

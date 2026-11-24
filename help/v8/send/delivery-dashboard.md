@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 71%
+ht-degree: 69%
 ---
 # Campaign UIでの配信の監視 {#delivery-dashboard}
 
@@ -64,7 +64,7 @@ ht-degree: 71%
 
 配信の情報を取得し、必要に応じて編集できます。 配信を送信すると、タブのコンテンツは変更できません。
 
-ダッシュボードで使用可能ないくつかのタブを使用して監視できる情報は、次のとおりです。
+ダッシュボードで使用できるいくつかのタブを使用して、監視できる情報を次に示します。
 
 * [配信の概要](#delivery-summary)
 * [配信レポート](#delivery-reports)

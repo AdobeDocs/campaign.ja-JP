@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 93%
 ---
 # web アプリケーションの翻訳{#translating-a-web-application}
 
@@ -55,7 +55,7 @@ Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;�
 
    3 つの特殊なケースがあります。
 
-   * 選択したブロックに複数の文字列／ブロックが含まれる場合、翻訳する単一の文字列としてフラグされます。 そのため、文字列には、このブロック内の要素の HTML コードが含まれます。
+   * 選択したブロックに複数の文字列／ブロックが含まれる場合、翻訳する単一の文字列としてフラグされます。 文字列には、このブロック内の要素のHTML コードが含まれます。
    * 複数の文字列を含むブロックにフラグを設定する場合、それらの文字列のうち少なくとも 1 つに既にフラグが設定されていると、警告が表示されます。 独立した文字列からフラグを削除して、ブロック全体にフラグを追加できます。
 
      ![](assets/dce_translation_4.png)
@@ -69,7 +69,7 @@ Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;�
 
    >[!NOTE]
    >
-   >文字列が収集されたら、DCE で翻訳フラグを削除しても、リストからは削除されません。 これにより、翻訳メモリに保持できます。
+   >文字列が収集されたら、DCE で翻訳フラグを削除しても、リストからは削除されません。 これにより、翻訳メモリにそれらを保持できます。
 
 1. 文字列を翻訳して承認します。
 

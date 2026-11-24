@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 100%
+ht-degree: 98%
 ---
 # 配信テンプレートの操作 {#work-with-delivery-template}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。 例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。 このコンテキストでは、他のテンプレートは表示されません。 詳しくは、[ターゲットマッピングの操作](../audiences/target-mappings.md)および[購読と購読解除の管理](../start/subscriptions.md)を参照してください。
+>使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。 例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。 このコンテキストでは、他のテンプレートは表示されません。 詳しくは、[&#x200B; ターゲットマッピングの操作](../audiences/target-mappings.md)および[&#x200B; サブスクリプションとサブスクリプション解除の管理](../start/subscriptions.md)を参照してください。
 
 
 ## テンプレートの作成 {#create-a-delivery-template}

@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 95%
+ht-degree: 93%
 ---
 # 購読と購読解除の管理 {#optin-optout}
 
@@ -70,7 +70,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
   詳細については、[この節](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
 
 
-* ターゲティングワークフローを作成し、**[!UICONTROL 購読サービス]**&#x200B;アクティビティを使用します。
+* ターゲティングワークフローを作成し、**[!UICONTROL サブスクリプションサービス]** アクティビティを使用します。
 
   ![](assets/wf-subscription.png)
 

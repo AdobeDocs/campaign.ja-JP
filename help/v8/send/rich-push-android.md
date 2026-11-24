@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2365'
-ht-degree: 100%
+ht-degree: 99%
 ---
 # Android のリッチプッシュ配信の設計 {#rich-push}
 
@@ -211,7 +211,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
 
-1. **[!UICONTROL 入力ボックスオプション]**&#x200B;メニューで、次のオプションを入力します。
+1. **[!UICONTROL 入力ボックスのオプション]** メニューで、次のオプションを入力します。
 
    * **[!UICONTROL 入力受信者名]**：入力の受信者の名前または識別子を入力します。
    * **[!UICONTROL 入力テキスト]**：**入力ボックス**&#x200B;のテキストを入力します。

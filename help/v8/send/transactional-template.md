@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 98%
+source-wordcount: '1264'
+ht-degree: 94%
 ---
 # トランザクションメッセージ用のテンプレートの作成と公開{#template-transactional-messages}
 
@@ -76,7 +76,7 @@ ht-degree: 98%
 >メッセージに含まれる画像は、公的にアクセス可能でなければなりません。 Adobe Campaign には、トランザクションメッセージ用の画像アップロードのメカニズムがありません。\
 >JSSP や web アプリとは異なり、`<%=` にはデフォルトのエスケープ機能がありません。
 >
->イベントから取得する各データを適切にエスケープする必要があります。 このエスケープ方法は、このフィールドの使用方法によって異なります。 例えば、URL 内では、encodeURIComponent を使用します。 HTML に表示する場合は、escapeXMLString を使用できます。
+>イベントから提供されるデータを適切にエスケープする必要があります。 このエスケープ方法は、このフィールドの使用方法によって異なります。 例えば、URL 内では、encodeURIComponent を使用します。 HTML に表示する場合は、escapeXMLString を使用できます。
 
 メッセージのコンテンツを定義したら、メッセージ本文にイベントの情報を取り入れ、パーソナライズすることができます。 イベントの情報は、パーソナライゼーションタグを使用してテキスト本文に挿入します。
 
@@ -191,7 +191,7 @@ This information enables you to personalize message content using personalizatio
 
 ただし、トランザクションメッセージテンプレートを作成する場合、テンプレートを正常に使用するために必要なルーティングは、**内部メール配信**&#x200B;です。 このルーティングにより、配達確認を送信できなくなります。
 
-したがって、トランザクションメッセージテンプレートに配達確認を送信するには、ルーティングを内部メール配信から&#x200B;**ミッドソーシングルーティングアカウント**&#x200B;に変更する必要があります。
+したがって、トランザクションメッセージテンプレートのプルーフを送信するには、ルーティングを内部メール配信から&#x200B;**ミッドソーシングルーティングアカウント**&#x200B;に変更する必要があります。
 
 ![](assets/messagecenter_send_proof_004.png)
 
@@ -262,4 +262,4 @@ Publication lets you automatically create two message templates on the execution
 
 * テンプレートを非公開にした後は、削除できます<!-- from the control instance-->。
 
-  これをおこなうには、リストからテンプレートを選択し、画面の右上にある「**[!UICONTROL 削除]**」ボタンをクリックします。
+  これを行うには、リストから選択し、画面の右上にある「**[!UICONTROL 削除]**」ボタンをクリックします。

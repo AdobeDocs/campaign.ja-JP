@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1851'
-ht-degree: 92%
+source-wordcount: '1850'
+ht-degree: 90%
 ---
 # ユーザー権限の管理{#manage-permissions}
 
@@ -221,7 +221,7 @@ Admin Console を使用して、ユーザーグループを作成し、ユーザ
 
 ユーザーグループは、一連の共有権限を付与される必要がある様々なユーザーのコレクションです。 ユーザーグループを作成する方法について詳しくは、[この節](https://helpx.adobe.com/jp/enterprise/using/user-groups.html){target="_blank"}を参照してください。
 
-製品プロファイルをユーザーグループに割り当てることができます。 そのため、グループ内のすべてのユーザーは、同じ一連の製品権限を受け取ります。
+製品プロファイルをユーザーグループに割り当てることができます。 そのため、そのグループのすべてのユーザーは、同じ製品権限セットを受け取ります。
 
 ## ネームド権限{#use-named-rights}
 
@@ -259,7 +259,7 @@ Adobe Campaign のデフォルトのネームド権限は次のとおりです�
 
 * **[!UICONTROL ローカル]**：ローカル管理の権限（分散型マーケティング）。
 
-* **[!UICONTROL 結合]**：選択したレコードを 1 つに結合する権限。 受信者が重複して存在する場合、**[!UICONTROL 結合]**&#x200B;権限があれば、重複を選択し、それらを単一の主な受信者に結合できます。
+* **[!UICONTROL 結合]**：選択したレコードを 1 つに結合する権限。 受信者が重複として存在する場合、**[!UICONTROL MERGE]**&#x200B;権限を使用すると、ユーザーは重複を選択してプライマリ受信者に結合できます。
 
 * **[!UICONTROL 配信を準備]**：配信分析を作成、編集および保存する権限。 **[!UICONTROL 配信を準備]**&#x200B;権限を持つユーザーは、配信分析プロセスを開始できます。
 

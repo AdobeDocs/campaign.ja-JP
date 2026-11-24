@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 89%
+source-wordcount: '1833'
+ht-degree: 84%
 ---
 # Campaign と Adobe Analytics の操作 {#ac-aa}
 
@@ -199,7 +199,7 @@ Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを�
 
    >[!NOTE]
    >
-   >キャンペーン ID および Broadlog ID フィールドは、ランディングページの JavaScript または処理ルールを通じて収集されます。 [処理ルールの詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >Campaign ID フィールドとBroadlog ID フィールドは、ランディングページのJavaScriptまたは処理ルールを通じて収集されます。 [処理ルールの詳細情報](https://experienceleague.adobe.com/ja/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
@@ -239,8 +239,8 @@ Adobe Analytics 2.0 APIへの移行後は、Campaignで外部アカウントを�
 
 1. 「**[!UICONTROL 詳細設定]**」タブでは、より技術的な設定を設定または変更できます。
 
-   * **[!UICONTROL 存続期間]**：テクニカルワークフローによって Adobe Campaign で web イベントが復元されるまでの遅延（日数）を指定できます。 デフォルト：180 日。
-   * **[!UICONTROL 持続]**：すべての Web イベント（購入など）をリマーケティングキャンペーンの属性にできる期間を指定できます。デフォルト：7 日。
+   * **[!UICONTROL 有効期間]**：テクニカルワークフローによってAdobe Campaignでweb イベントが復元されるまでの遅延（日数）を指定できます。 デフォルト：180 日。
+   * **[!UICONTROL 永続性]**：すべてのweb イベント（購入など）がリマーケティングキャンペーンに関連付けられる期間を指定できます。 デフォルト：7日間。
 
 >[!NOTE]
 >
@@ -273,7 +273,7 @@ Adobe Campaign と Adobe Analytics 間のデータ交換は、バックグラウ
 
 >[!NOTE]
 >
->送信されたデータは最後のスナップショットに基づいたデルタであり、指標データの値がマイナスになる可能性があります。
+>送信されたデータは、最後のスナップショットに基づくデルタであり、指標データの負の値につながる可能性があります。
 
 送信される属性は次のとおりです。
 
@@ -308,7 +308,7 @@ Adobe Campaign と Adobe Analytics 間のデータ交換は、バックグラウ
 
 Adobe Campaign で最初のキャンペーンでターゲットとした受信者の行動を分析し、セグメントの収集が終了すると、リマーケティングキャンペーンが自動的に開始されます。 買い物かごが放棄されたか、製品を表示しても購入に至らなかった場合、サイトのブラウジングが購入につながるように、対象の受信者に配信が送信されます。
 
-Adobe Campaign にはパーソナライズされた配信テンプレートが用意されており、これを使用するか、またはこれをベースとして使用することによってキャンペーンを準備できます。
+Adobe Campaignには、パーソナライズされた配信テンプレートが用意されています。このテンプレートを利用するか、にもとづいてキャンペーンを準備できます。
 
 1. **[!UICONTROL エクスプローラー]**&#x200B;で、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;フォルダーに移動します。
 1. 「**[!UICONTROL メール配信（リマーケティング）]**」テンプレートまたは Adobe Campaign に用意されているリマーケティングテンプレートのサンプルを複製します。

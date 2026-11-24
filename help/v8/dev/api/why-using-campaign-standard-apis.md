@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 1%
 ---
 # Campaign Standard APIを使用する理由 {#why-using-campaign-standard-apis}
@@ -58,7 +58,7 @@ Adobe Campaign Standardには、既存のシステムとAdobe Campaignの基盤�
 
 Campaign Standard API リクエストについて理解するのに役立つリクエストのコレクションを利用できます。 このJSON形式のコレクションでは、一般的なユースケースを表す事前定義済みのAPI リクエストを提供します。
 
-次の手順では、Campaign Standard データベースでプロファイルを作成するためにコレクションをインポートして使用する手順ごとのユースケースについて説明します。
+次の手順では、Campaign Standard データベースにプロファイルを作成するためにコレクションをインポートして使用する手順ごとのユースケースを説明します。
 
 >[!NOTE]
 >

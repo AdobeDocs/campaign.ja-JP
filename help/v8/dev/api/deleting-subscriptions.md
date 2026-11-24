@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 特定のプロファイルのサービス購読の削除 {#deleting-service-subscription}
 
-これは3 ステップの手順です。
+これは3段階の手順です。
 
 1. 目的のプロファイルの購読URLを取得します。
 1. サブスクリプション URLに対してGET リクエストを実行します。
@@ -106,10 +106,10 @@ ht-degree: 0%
 
 ## 特定のプロファイルのサービス購読の削除
 
-これは3 ステップの手順です。
+これは3段階の手順です。
 
 1. 目的のサービスとそのサブスクリプション URLを取得します。
-1. サブスクリプション URLに対してGET リクエストを実行し、すべてのプロファイルサブスクリプションを取得します。
+1. サブスクリプション URLに対してGET リクエストを実行して、すべてのプロファイルサブスクリプションを取得します。
 1. 目的のプロファイルサブスクリプション URLに対してDELETE リクエストを実行します。
 
 削除リクエストが成功した場合、応答ステータスは204 No Contentです。

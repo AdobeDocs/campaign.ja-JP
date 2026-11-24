@@ -35,10 +35,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 68%
+source-wordcount: '562'
+ht-degree: 66%
 ---
 # 配信ステータス {#delivery-statuses}
 
@@ -70,7 +70,7 @@ ht-degree: 68%
   </tr> 
   <tr> 
    <td> 無視<br /> </td> 
-   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。 ブロックリストへの登録、強制隔離、未指定または重複の可能性があります。<br /> </td> 
+   <td> 配信は、アドレスにエラーがあるので受信者に送信されませんでした。 それは隔離された、隔離された、提供されていない、または重複したブロックリストにありました。<br /> </td> 
   </tr> 
   <tr> 
    <td> 失敗<br /> </td> 

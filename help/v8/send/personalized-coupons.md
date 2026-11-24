@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '972'
 ht-degree: 98%
 ---
 # パーソナライズされたクーポン{#personalized-coupons}
@@ -58,7 +58,7 @@ ht-degree: 98%
    ![](assets/deliv_coup_01.png)
 
 1. 「**[!UICONTROL 新規]**」ボタンをクリックします。
-1. 「**[!UICONTROL ラベル]**」フィールドに、クーポンの名前を入力します。 「**[!UICONTROL クーポンコード]**」に一意のコードが自動的に入力されます。 コードをそのまま使用するか、新しいコードを入力することができます。
+1. **[!UICONTROL ラベル]** フィールドにクーポンの名前を入力します。 「**[!UICONTROL クーポンコード]**」に一意のコードが自動的に入力されます。 コードをそのまま使用するか、新しいコードを入力することができます。
 
    ![](assets/deliv_coup_02.png)
 
@@ -94,7 +94,7 @@ ht-degree: 98%
 
 ## メール配信へのクーポンの挿入 {#inserting-a-coupon-into-an-email-delivery}
 
-次の例では、配信をホームページから作成します。 配信の作成方法について詳しくは、[この節](email.md)を参照してください
+次の例では、配信をホームページから作成します。 配信の作成方法について詳しくは、[この節](email.md)を参照してください。
 1. **[!UICONTROL Campaigns]** に移動し、「**[!UICONTROL 配信]**」を選択します。
 1. 「**[!UICONTROL 作成]**」をクリックします。
 

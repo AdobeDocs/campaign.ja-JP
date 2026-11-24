@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2957'
-ht-degree: 64%
+ht-degree: 62%
 ---
 # Campaign セキュリティのベストプラクティス {#ac-security}
 
@@ -101,9 +101,9 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
   * Adobe Experience Cloud ソリューションでは、情報を収集できるように、web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。 Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
   * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。 Campaign を使用してモバイル配信を送信する方法について詳しくは、[SMS チャネル](../send/sms/sms-channel.md)とモバイルアプリのチャネルを参照してください。
 
-* **Adobe Experience Cloud の使用に関するユーザーのプライバシー選択**
+* **Adobe Experience Cloudの使用に関するユーザーのプライバシーに関する選択**
 
-  アドビから、次の内容を説明するプライバシーポリシーをお客様に提供するように求められます。
+  Adobeでは、顧客のプライバシーポリシーに次の項目を記載するよう求めています。
 
   * Adobe Experience Cloud に関連するプライバシー方針
   * Adobe Experience Cloud に関連して、ユーザーが情報の収集や使用に関する環境設定をおこなう方法
@@ -165,7 +165,7 @@ Adobe Campaign を使用すると、個人情報や機密情報などのデー�
 
 ## プライバシー管理 {#privacy-management}
 
-プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。
+プライバシー管理とは、プライバシー規制（GDPR、CCPAなど）の遵守に役立つあらゆるプロセスとツールを指します。
 
 Adobe Campaign では、プライバシー管理に関する様々な機能を提供しています。
 * 同意の管理、データ保持、ユーザーの役割： 詳しくは、[この節](#consent)を参照してください。
@@ -292,7 +292,7 @@ Adobe Campaign（ワークフロー、JavaScript、JSSP など）で開発する
 
 権限レベルの低い認証ユーザーは暗号化されたパスワードにアクセスできないようにする必要があります。 これには、主に 2 つの方法があります。パスワードフィールドのみへのアクセスを制限する方法と、エンティティ全体へのアクセスを制限する方法です。
 
-この制限をおこなうと、パスワードフィールドを削除できますが、すべてのユーザーがインターフェイスから外部アカウントにアクセスできるようになります。 詳しくは、[このページ](../dev/restrict-pi-view.md)を参照してください。
+この制限により、パスワードフィールドを削除できますが、すべてのユーザーのインターフェイスから外部アカウントにアクセスできます。 詳しくは、[このページ](../dev/restrict-pi-view.md)を参照してください。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL データスキーマ]**&#x200B;に移動します。
 

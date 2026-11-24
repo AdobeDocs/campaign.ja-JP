@@ -27,12 +27,12 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 ---
-# オペレータープロファイル {#operator-profiles}
+# オペレーターのプロファイル {#operator-profiles}
 
 Campaign インタラクションを利用できるオペレーターには、**オファーマネージャー**&#x200B;と&#x200B;**配信マネージャー**&#x200B;の 2 つの種類があります。 それぞれに固有の権限と制限があります。 Campaign オペレーターと権限の詳細については、[このページ](../start/gs-permissions.md)を参照してください。
 

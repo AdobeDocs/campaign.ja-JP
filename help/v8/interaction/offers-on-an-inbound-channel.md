@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 100%
+source-wordcount: '2210'
+ht-degree: 96%
 ---
 # インバウンドチャネルのオファー{#offers-on-an-inbound-channel}
 
@@ -147,7 +147,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 ### Web サイト上の Web オファースペースの設定 {#configure-the-web-offer-space-on-the-website}
 
-設定したオファーが web サイトに表示されるようにするには、サイトの HTML ページに、インタラクションエンジンを呼び出す JavaScript コードを挿入します（詳しくは、[インバウンドチャネルについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"}（Campaign v8 ドキュメント）を参照）。
+設定したばかりのオファーをweb サイトに表示するには、サイトのHTML ページにJavaScript コードを挿入してインタラクションエンジンを呼び出します（詳しくは、[&#x200B; インバウンドチャネルについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
 1. HTML ページに移動して、@id 属性を挿入し、先ほど作成した匿名オファースペース（[匿名オファースペースの作成](#creating-anonymous-offer-spaces)を参照）の内部名にプレフィックス **i_** を付加した値を指定します。
 
@@ -340,7 +340,7 @@ Neobank が、異なる 2 つのターゲットに向けたマーケティング
 「**Best Offer**」および「**Partner**」という 2 つのカテゴリを作成し、パーソナライズされたオファーを各カテゴリに 2 つずつ用意します。
 
 1. 識別された環境で、「**[!UICONTROL オファーカタログ]**」ノードに移動します。
-1. 匿名環境の場合と同じく、2 つの&#x200B;**[!UICONTROL オファーカテゴリ]**&#x200B;フォルダーを追加し、それぞれに &quot;**Best Offer**&quot; および &quot;**Partner**&quot; というラベルを付けます。
+1. 匿名環境と同様に、**最高オファー**&#x200B;と&#x200B;**パートナー**&#x200B;の2つの&#x200B;**[!UICONTROL オファーカテゴリ]** フォルダーをラベルとして追加します。
 
    ![](assets/offer_inbound_fallback_example_009.png)
 
@@ -417,7 +417,7 @@ Neobank の Web サイトにはオファー用のスペースが 3 つありま�
 
    この URL には、識別された環境の内部名 **EnvNeobankRecip** が含まれています。
 
-Web ページが閲覧されると、スクリプトによってインタラクションエンジンが呼び出され、Web ページの適切なスペースにオファーコンテンツが表示されます。 Adobe Campaign サーバーに対する 1 回の呼び出しのみで、エンジンは、選択する環境、オファースペース、カテゴリを認識します。
+Web ページを開くと、スクリプトを使用してインタラクションエンジンを呼び出し、Web ページの関連するスペースにオファーのコンテンツを表示できます。 Adobe Campaign サーバーに対する 1 回の呼び出しのみで、エンジンは、選択する環境、オファースペース、カテゴリを認識します。
 
 この例では、識別された環境（**EnvNeobankIdnRecip**）をエンジンが認識します。 また、Web ページに含まれる第 1、第 2 のオファースペースについては「**OSWebBestOfferIdentified**」オファースペースおよび「**Best Offer**」カテゴリ（**CatBestOffer**）を認識し、第 3 のオファースペースについては「**OSWebPartnerIdentified**」オファースペースおよび「**Partner**」カテゴリ（**CatPartner**）を認識します。
 

@@ -26,16 +26,16 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 97%
+source-wordcount: '534'
+ht-degree: 83%
 ---
 # SMS 配信のオーディエンスの選択 {#sms-audience}
 
 オーディエンスを選択する前に、[オーディエンスについて詳しくは、こちらを参照してください](../../audiences/gs-audiences.md)。
 
-ほとんどの場合、配信のメインターゲットは Adobe Campaign データベースから抽出されます（デフォルトモード）。 ただし、オーディエンスは、外部ファイルに保存することもできます。 [詳しくは、この節を参照してください](#external-audience)。
+ほとんどの場合、配信のメインターゲットはAdobe Campaign データベース（デフォルトモード）から抽出されます。 ただし、オーディエンスは、外部ファイルに保存することもできます。 [詳しくは、この節を参照してください](#external-audience)。
 
 ## Adobe Campaign のオーディエンス
 
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 1. 配信エディターで、**[!UICONTROL 宛先]**&#x200B;リンクをクリックします。 **[!UICONTROL ターゲットを選択]**&#x200B;ウィンドウが開きます
 
-1. オーディエンスは Adobe Campaign データベースに保存されるので、「**[!UICONTROL メインターゲット]**」タブで「**[!UICONTROL データベースで定義]**」オプションを選択します。
+1. オーディエンスはAdobe Campaign データベースに保存されているので、「**[!UICONTROL Main target]**」タブで「**[!UICONTROL Defined in the database]**」オプションを選択します。
 
    ![](assets/audience_to.png){zoomable="yes"}
 
@@ -76,11 +76,11 @@ ht-degree: 97%
 
    ![](assets/audience_finish.png){zoomable="yes"}
 
-   「**[!UICONTROL 追加]**」ボタンをもう一度クリックすると、必要な数だけターゲット母集団を追加できます。 また、ラベルの後にある「X」をクリックして、一部のラベルを削除することもできます。
+   **[!UICONTROL 追加]** ボタンをもう一度クリックすると、必要な数のターゲット母集団を追加できます。 また、ラベルの後にある「X」をクリックして、一部のラベルを削除することもできます。
 
 ## 外部ファイルのオーディエンス {#external-audience}
 
-Adobe Campaign を使用すると、データベースではなく、外部ファイルに存在するオーディエンスに配信を送信できます。
+Adobe Campaignを使用して、データベースではなく、外部ファイル内のオーディエンスに対して配信を送信できます。
 
 その手順を次に示します。
 

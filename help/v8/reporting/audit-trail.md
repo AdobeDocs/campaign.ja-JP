@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 100%
+source-wordcount: '665'
+ht-degree: 95%
 ---
 # 監査記録{#audit-trail}
 
@@ -50,7 +50,7 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
 
 * **スキーマ監査記録**：スキーマに行った変更を調べて、変更を行ったユーザーとタイミングを特定できます。
 
-  スキーマについて詳しくは、[ページ](../dev/schemas.md)を参照してください。
+  スキーマについて詳しくは、この[&#x200B; ページ &#x200B;](../dev/schemas.md)を参照してください。
 
 * **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 
@@ -123,7 +123,7 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
 
 >[!NOTE]
 >
->デフォルトでは、**[!UICONTROL 監査ログ]**&#x200B;の保持期間は 180 日に設定されています。 この値は、デプロイメントウィザードで変更できます。
+>デフォルトでは、**[!UICONTROL 監査ログ]**&#x200B;の保持期間は180日に設定されています。 この値は、デプロイメントウィザードで変更できます。
 
 ## 監査記録を有効／無効にする {#enable-disable-audit-trail}
 

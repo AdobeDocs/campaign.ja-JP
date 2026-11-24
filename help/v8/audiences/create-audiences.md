@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 98%
+source-wordcount: '888'
+ht-degree: 96%
 ---
 # リストでのオーディエンスの作成 {#create-segments}
 
@@ -79,7 +79,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
 1. Campaign エクスプローラーから、プロファイルを選択して右クリックします。
 
-   これらのプロファイルは、特定の条件を満たすようにフィルターできます。
+   これらのプロファイルは、特定の基準を満たすためにフィルタリングできます。
 
 1. **[!UICONTROL アクション／リストに選択項目を関連付け...]** を選択します。
 
@@ -138,7 +138,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 1. 「**[!UICONTROL OK]**」をクリックし、ワークフローを保存します。
 1. ワークフローを開始します。
 
-   条件に一致する受信者のリストが作成されます。 このリストには、ホームページの&#x200B;**[!UICONTROL リスト]**&#x200B;エントリからアクセスできます。
+   条件に一致する受信者のリストが作成されます。 このリストには、ホームページの&#x200B;**[!UICONTROL Lists]** エントリからアクセスできます。
 
    ![](assets/access-new-list.png)
 

@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 92%
+ht-degree: 85%
 ---
 # テストプロファイルの作成と管理 {#create-test-profiles}
 
@@ -55,7 +55,7 @@ ht-degree: 92%
 
 シードアドレスには次のメリットがあります。
 
-* 受信者プロファイルから取得したデータでフィールドをランダムに置換できます。例えば、シードアドレスセクションなどにメールアドレスを入力するだけで、プロファイルに基づいて他のフィールドに値を自動的に入力できます。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
+* フィールドを受信者プロファイルから取得したデータでランダムに置換する：これにより、例えば「シードアドレス」セクションにメールアドレスのみを入力し、プロファイルから他のフィールドにCampaignが自動的に入力できるようになります。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
 * データ管理機能を利用するワークフローを使用する場合、配信で処理される追加のデータをシードアドレスのレベルで入力し、値を強制できます。これにより、ランダムな値による置換を回避します。
 * シードアドレスは、**[!UICONTROL クリック数]**、**[!UICONTROL 開封数]**、**[!UICONTROL 購読解除]**&#x200B;の配信統計に関するレポートからは自動的に除外されます。
 
@@ -63,7 +63,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->シードアドレスは、受信者テーブルではなく、別のテーブルに作成されます。 新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。 そうしないと、拡張されたフィールドはシードアドレスでは考慮されません。
+>シードアドレスは、受信者テーブルではなく、別のテーブルに作成されます。 新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。 それ以外の場合、拡張フィールドはシードアドレスに考慮されません。
 >
 >シードアドレステーブルの拡張方法の例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
 
@@ -94,7 +94,7 @@ Adobe Campaign では、シードアドレスのテンプレートも作成可�
 
 ### シードアドレステンプレートの作成 {#creating-seed-address-templates}
 
-インポートして配信ごとに変更できるアドレステンプレートを作成できます。 プロセスは、新しいシードアドレスを定義する場合と同じです。 唯一の違いは、シードアドレステンプレートのアドレスを「テンプレート」タイプのフォルダーに格納する必要があることです。
+インポートして配信ごとに変更できるアドレステンプレートを作成できます。 プロセスは、新しいシードアドレスを定義する場合と同じです。 唯一の違いは、シードアドレステンプレートアドレスは「テンプレート」タイプのフォルダーに保存する必要があることです。
 
 ### ダイレクトメール配信用のシードアドレス {#direct-mail-seed-addresses}
 

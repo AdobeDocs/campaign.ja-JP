@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 97%
+source-wordcount: '790'
+ht-degree: 95%
 ---
 # キューブの作成{#create-a-cube}
 
@@ -77,7 +77,7 @@ ht-degree: 97%
 
 ## キューブの作成{#cube-create}
 
-キューブレポートの作成を開始する前に、関連するディメンションと測定を特定して、キューブに作成します。
+キューブレポートを作成する前に、関連するディメンションとメジャーを特定し、キューブに作成します。
 
 キューブを作成するには、次の手順に従います。
 

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 98%
+ht-degree: 91%
 ---
 # Adobe Campaign ランディングページからの Adobe Experience Platform プロファイルの更新 {#ac-aep-lp}
 
@@ -71,7 +71,7 @@ Adobe Cloud Platform API では、認証と承認に OAuth 2.0 プロトコル�
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
-Oauth 接続を設定したら、新しい **[!UICONTROL HTTP API]** ソース接続を作成して設定し、Adobe Campaign を Adobe Experience Platform にリンクします。
+OAuth接続が設定されたので、新しい&#x200B;**[!UICONTROL HTTP API]** Source接続を作成して設定し、Adobe CampaignとAdobe Experience Platformをリンクします。
 
 ## HTTP API ソース接続を作成 {#source}
 
@@ -83,7 +83,7 @@ OAuth 接続を設定したら、次の手順では Adobe Experience Platform �
 
 1. 必要に応じて、接続を設定します。 HTTP API 接続の設定方法について詳しくは、[Adobe Experience Platform ソースドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja){target="_blank"}を参照してください。
 
-   **[!UICONTROL 認証]**&#x200B;手順で、「**[!UICONTROL 認証を有効にする]**」オプションの切替スイッチをオンにして、OAuth 統合を通じて事前に生成されたアクセストークンを使用して認証します。
+   **[!UICONTROL 認証]** ステップで、**[!UICONTROL 認証を有効にする]** オプションを切り替えて、OAuth統合を通じて以前に生成されたアクセストークンを使用して認証します。
 
    ![](assets/ac-lp-source-authentication.png){width="70%"}
 
@@ -99,7 +99,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
 ## Adobe Campaign で認証オプションを追加 {#xtk}
 
-HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプションを追加して、Adobe Experience Platform との接続を有効にする必要があります。 これは、Campaign 管理メニューで行うことも、特定の **[!UICONTROL JavaScript コード]**&#x200B;アクティビティを追加してランディングページワークフローを実行する際に行うこともできます。
+HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプションを追加して、Adobe Experience Platform との接続を有効にする必要があります。 これは、Campaign管理メニューで行うことも、特定の&#x200B;**[!UICONTROL JavaScript コード]** アクティビティを追加してランディングページワークフローを実行する場合にも行うことができます。
 
 以下のタブを参照して、2 つの方法を確認します。
 

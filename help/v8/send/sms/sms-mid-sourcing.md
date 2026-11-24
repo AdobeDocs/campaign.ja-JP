@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 91%
 ---
 # ミッドソーシングインフラストラクチャでの SMS {#sms-mid}
 
@@ -78,7 +78,7 @@ SMS オペレーターを作成するには、次の手順に従います。
 
 ## マーケティングサーバーでの SMS 外部アカウントの作成 {#sms-external-account}
 
-ミッドインフラストラクチャでは、以下のように、マーケティングサーバーに SMS 外部アカウントを作成する必要があります。
+ミッドインフラストラクチャでは、次のように、マーケティングサーバー上にSMS外部アカウントを作成する必要があります
 
 >[!IMPORTANT]
 >
@@ -132,7 +132,7 @@ SMS オペレーターを作成するには、次の手順に従います。
 
 ## 配信テンプレートの設定 {#sms-delivery-template}
 
-SMS 配信の作成を容易にするには、すべての設定が参照される SMS 配信テンプレートを作成します。
+SMS配信の作成を容易にするには、すべての設定が参照されるSMS配信テンプレートを作成します。
 
 マーケティングサーバーの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;で、既存のモバイル配信テンプレートを右クリックし、「**[!UICONTROL 複製]**」を選択します。
 

@@ -19,14 +19,14 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
 ---
 # APIを使用したサービスの作成{#creating-a-service-api}
 
-サービスの作成は、サービスリソースに対する&#x200B;**POST**&#x200B;要求を使用して実行されます。
+サービスの作成は、サービスリソースに対して&#x200B;**POST**&#x200B;要求を使用して実行されます。
 
 特定の属性を持つサービスを作成する場合は、それらをペイロードに追加します。 それ以外の場合、新しいサービスはデフォルトのサービスで作成されます。
 

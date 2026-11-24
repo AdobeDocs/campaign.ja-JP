@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 66%
+source-wordcount: '988'
+ht-degree: 64%
 ---
 # メールパラメーター {#email-parameters}
 
@@ -81,7 +81,7 @@ ht-degree: 66%
 
 * **[!UICONTROL エラーアドレス]**：デフォルトでは、バウンスメールはプラットフォームのデフォルトエラーボックスに受信されますが、配信用の専用エラーアドレスを定義することもできます。
 
-* **[!UICONTROL バウンスアドレス]**：未処理のバウンスメールの転送先となる別のアドレスを定義することもできます。 バウンスメールの発生理由をアプリケーションで自動判定できない場合は、このアドレスを使用することで調査できます。
+* **[!UICONTROL バウンスアドレス]**：未処理のバウンスメールの転送先となる別のアドレスを定義することもできます。 このアドレスを使用すると、メールがアプリケーションによって自動的に選定されなかった場合のバウンスの理由を調査できます。
 
 各フィールドは、専用のアイコンを使用してパーソナライズできます。 パーソナライゼーションフィールドについて詳しくは、[この節](personalization-fields.md)を参照してください。
 

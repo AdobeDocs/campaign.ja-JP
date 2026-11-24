@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 92%
+source-wordcount: '188'
+ht-degree: 84%
 ---
 # SMS の基本を学ぶ {#gs-sms-channel}
 
@@ -40,7 +40,7 @@ Adobe Campaign を使用して、顧客のモバイルデバイスにテキス�
 Adobe Campaign を使用してモバイルデバイスに SMS を配信するには、次が必要です。
 
 * **[!UICONTROL モバイル（SMS）]**&#x200B;チャネルで設定された外部アカウント。 [ミッドソーシングインフラストラクチャ](sms-mid-sourcing.md)での SMS チャネルの設定方法について説明します。 この設定では、[SMPP 外部アカウントパラメーター](smpp-external-account.md)と [SMS チャネルの特性](sms-channel.md)を理解する必要があります。
-この設定が完了したら、必要に応じて、SMPP 接続と、トラブルシューティングを行う方法を確認します。 [詳細情報](smpp-connection.md)。
+この設定の後、SMPP接続を確認し、必要に応じてトラブルシューティングする方法を確認します。 [詳細情報](smpp-connection.md)。
 
 * この外部アカウントに正しくリンクされている SMS 配信テンプレート。
 
@@ -55,7 +55,7 @@ Adobe Campaignでは、お客様にSMS メッセージを送信するために�
 <a href="create-sms.md">
 <img alt="SMS の作成" src="../../assets/do-not-localize/sms-sending.jpg">
 </a>
-<div><a href="create-sms.md"><strong>SMS 配信の作成</strong>
+<div><a href="create-sms.md"><strong>SMS 配信を作成</strong>
 </div>
 <p>
 </td>

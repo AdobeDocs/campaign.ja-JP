@@ -21,10 +21,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 100%
+ht-degree: 82%
 ---
 # 実行設定{#execution-settings}
 
@@ -36,6 +36,6 @@ ht-degree: 100%
 
 ![](assets/offer_simulation_008.png)
 
-* **[!UICONTROL 実行スケジュールを低アクティビティの時間に設定]**：Adobe Campaign のパフォーマンスを最適化するために、選択した優先順位（低、平均、高）に基づいてシミュレーションをスケジュールできます。
+* **[!UICONTROL アクティビティが少ない時間の実行をスケジュール]**：選択した優先度（低、平均、高）に基づいてシミュレーションをスケジュールして、Adobe Campaignのパフォーマンスを最適化できます。
 * **[!UICONTROL 優先順位]**：これは、スケジュールするシミュレーションに適用するレベルです。 「**[!UICONTROL 実行スケジュールを低アクティビティの時間に設定]**」オプションがオンになっている場合、アクティビティの少ない時間帯がキャンペーン開始時間として選択されます。
 * **[!UICONTROL SQL クエリをログに記録]**：この機能は、エキスパートユーザー専用です。 この機能を使用すると、SQL クエリのログを表示するタブが追加され、シミュレーションがエラーで終了した場合に不具合を探すことができます。
