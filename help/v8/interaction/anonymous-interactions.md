@@ -49,7 +49,7 @@ ht-degree: 87%
 
 アウトバウンドインタラクションと同様に、インバウンドインタラクションは、カテゴリとオファーで構成されるオファーカタログに整理されます。
 
-カテゴリとスペースを作成するには、識別された訪問者と同じプロセスを適用します。 [ オファーカテゴリの作成](interaction-offer-catalog.md#creating-offer-categories)および[ オファー環境の作成](interaction-env.md#create-an-offer-environment)を参照してください。
+カテゴリとスペースを作成するには、識別された訪問者と同じプロセスを適用します。 [&#x200B; オファーカテゴリの作成](interaction-offer-catalog.md#creating-offer-categories)および[&#x200B; オファー環境の作成](interaction-env.md#create-an-offer-environment)を参照してください。
 
 ## 匿名の訪問者 {#anonymous-visitors}
 
