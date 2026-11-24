@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 83%
+ht-degree: 79%
 ---
 # Campaign をお使いのソリューションと接続する{#gs-ac-connectors}
 
@@ -57,9 +57,9 @@ Campaign v8 では、次のアドビソリューションと接続できます�
 
 また、[!DNL CX Enterprise]個のソリューションの&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を、アセット共有機能とオーディエンス共有機能と組み合わせることもできます。
 
-Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
+Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
-Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
+Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Adobe Campaign プラットフォームを&#x200B;**サードパーティの CRM
 CRM データをチャネル間通信でアクティブ化します。CRM システムから Adobe Campaign に連絡先を渡し、Adobe Campaign から CRM システムにキャンペーンデータを共有する方法について説明します。
 CRM コネクタを使用すると、すばやく簡単にデータを統合できます。Adobe Campaign に用意されている専用のアシスタントを使用すると、使用可能なテーブルを CRM で収集し、そこから選択することができます。 これにより双方向の同期が確保され、システム全体でデータを常に最新に保つことができます。
 
-Campaign を Microsoft Dynamics 365 および Salesforce.com に統合する方法については、[このページ](crm.md)を参照してください
+CampaignをMicrosoft Dynamics 365およびSalesforce.comと統合する方法については、[このページ ](crm.md)を参照してください。
 
 ## Federated Data Access を使用してサードパーティに接続{#gs-fda}
 

@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 95%
@@ -49,7 +49,7 @@ ht-degree: 95%
 
    ![](assets/offer_space_create_002.png)
 
-1. 「**[!UICONTROL 単一モードを有効にする]**」オプションをオンにします
+1. 「**[!UICONTROL 単一モードを有効にする]**」オプションをオンにします。
 
 1. **[!UICONTROL コンテンツフィールド]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックします。
 
@@ -173,4 +173,4 @@ ht-degree: 95%
 
 プレビューでは、特定のスペースに限定されているコンテキストを無視できます。 これは、インタラクションスキーマを拡張して、インバウンドチャネルを使用してスペースで参照されるフィールドを追加した場合です。
 
-詳しくは、[このセクション &#x200B;](extension-example.md)のこのサンプルを参照してください。
+詳しくは、[このセクション ](extension-example.md)のこのサンプルを参照してください。

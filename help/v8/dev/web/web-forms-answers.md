@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 96%
+source-wordcount: '907'
+ht-degree: 93%
 ---
 # Web フォームの回答{#web-forms-answers}
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 受信者を編集]**
 
-  データベースのフィールドを選択できます。ユーザーの回答はこのフィールドに格納されます。 各ユーザーについて、最後に入力された値のみが保存されます。その値はプロファイルに追加されます。 「[&#x200B; データベースにデータを保存する](#storing-data-in-the-database)」を参照してください。
+  データベースのフィールドを選択できます。ユーザーの回答はこのフィールドに格納されます。 各ユーザーについて、最後に入力された値のみが保存されます。その値はプロファイルに追加されます。 「[ データベースにデータを保存する](#storing-data-in-the-database)」を参照してください。
 
 * **[!UICONTROL 変数]**
 
@@ -99,19 +99,19 @@ ht-degree: 96%
 
 各フォームについて、提供された回答は、フィールドまたはラベルで再利用できます。 次の構文を使用する必要があります。
 
-* データベースのフィールドに格納されたコンテンツの場合：
+* データベースのフィールドに保存されたコンテンツの場合：
 
   ```
   <%=ctx.recipient.@field name%
   ```
 
-* ローカル変数に格納されたコンテンツの場合：
+* ローカル変数に保存されたコンテンツの場合：
 
   ```
   <%= ctx.vars.variable name %
   ```
 
-* HTML テキストフィールドに格納されたコンテンツの場合：
+* HTML テキストフィールドに保存されているコンテンツの場合：
 
   ```
   <%== HTML field name %
@@ -153,4 +153,4 @@ ht-degree: 96%
 >
 >実行できる操作は、**[!UICONTROL シンプルな紐付け]**、**[!UICONTROL 更新または挿入]**、**[!UICONTROL 挿入]**、**[!UICONTROL 更新]**、**[!UICONTROL 削除]**&#x200B;です。\
 >オペレーターのデフォルトのフォルダーは、オペレーターが書き込み権限を持つ最初のフォルダーです。\
->[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。
+>[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。

@@ -22,16 +22,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 92%
+source-wordcount: '437'
+ht-degree: 87%
 ---
 # 匿名インタラクション {#anonymous-interactions}
 
 ## 匿名インタラクション向けの環境 {#environment-for-anonymous-interactions}
 
-デフォルトでは、ビルトインの受信者テーブル（識別されたオファー）をターゲットにするための事前設定された環境が Campaign **インタラクション**&#x200B;モジュールに付属しています。 別のテーブル（例えば、匿名オファー用の訪問者テーブルやカスタム受信者テーブル）をターゲットにする必要がある場合は、ターゲットマッピングウィザードを使用して環境を作成する必要があります。 環境について詳しくは、[こちら](interaction-env.md)を参照してください。
+デフォルトでは、Campaign **インタラクション** モジュールには、組み込みの受信者テーブル （識別されたオファー）をターゲットとする事前設定済みの環境が付属しています。 別のテーブル（例えば、匿名オファー用の訪問者テーブルやカスタム受信者テーブル）をターゲットにする必要がある場合は、ターゲットマッピングウィザードを使用して環境を作成する必要があります。 環境について詳しくは、[こちら](interaction-env.md)を参照してください。
 
 マッピング作成ウィザードで匿名環境を作成する場合、環境の「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL 受信する匿名インタラクション専用の環境]**」ボックスが自動的にオンになります。
 
@@ -49,7 +49,7 @@ ht-degree: 92%
 
 アウトバウンドインタラクションと同様に、インバウンドインタラクションは、カテゴリとオファーで構成されるオファーカタログに整理されます。
 
-カテゴリとスペースを作成するには、識別された訪問者と同じプロセスを適用します。 [&#x200B; オファーカテゴリの作成](interaction-offer-catalog.md#creating-offer-categories)および[&#x200B; オファー環境の作成](interaction-env.md#create-an-offer-environment)を参照してください。
+カテゴリとスペースを作成するには、識別された訪問者と同じプロセスを適用します。 [ オファーカテゴリの作成](interaction-offer-catalog.md#creating-offer-categories)および[ オファー環境の作成](interaction-env.md#create-an-offer-environment)を参照してください。
 
 ## 匿名の訪問者 {#anonymous-visitors}
 

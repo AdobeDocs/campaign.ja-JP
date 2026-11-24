@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 89%
+ht-degree: 88%
 ---
 # Campaign でのプライバシーリクエストの管理 {#privacy}
 
@@ -52,7 +52,7 @@ Campaignでプライバシーリクエストを管理するには、まず[名�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション ](compatibility-matrix.md)を参照してください
 
 ## 名前空間を定義 {#namespaces}
 
@@ -75,7 +75,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. [ID 名前空間サービス](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}で名前空間を作成します。
 
-1. 組織で使用可能なID名前空間[&#128279;](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}を リストアップすると、次のような名前空間の詳細が表示されます。例：
+1. 組織で使用可能なID名前空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}を[ リストアップすると、次のような名前空間の詳細が表示されます。例：
 
    ```
    {
@@ -144,7 +144,7 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 
 プライバシーに関連する削除またはアクセスリクエストの実行時に、Adobe Campaign では、受信者テーブル（独自タイプ）にリンクされたすべてのテーブルの&#x200B;**[!UICONTROL 紐付け値]**&#x200B;に基づいて、データ主体のすべてのデータを検索します。
 
-プライバシーリクエストの実行時に考慮されるビルトインのテーブルのリストは、次のとおりです。
+プライバシーリクエストを実行する際に考慮される組み込みテーブルのリストは次のとおりです。
 
 * 受信者（recipient）
 * 受信者配信ログ（broadLogRcp）

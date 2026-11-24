@@ -27,7 +27,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 66%
@@ -42,7 +42,7 @@ ht-degree: 66%
 
 Adobe Campaign では、**web フォーム**&#x200B;を定義して公開するためのグラフィカルなモジュールを統合します。このモジュールでは、入力フィールドと選択フィールドを含むページを作成して、データベースのデータを含めることができます。 これにより、お客様はユーザーが閲覧または情報を入力できるよう、web ページをデザインおよび投稿できます。
 
-[このセクション &#x200B;](web/about-web-forms.md)でweb フォームを作成および公開する方法について説明します
+[このセクション ](web/about-web-forms.md)でweb フォームを作成および公開する方法について説明します。
 
 ![](assets/sample.png)
 
@@ -50,4 +50,4 @@ Adobe Campaign では、データベースのデータと接続ユーザーの�
 
 作成できるページには、エクストラネット上の編集フォームのほか、データベースからのデータを含み、テーブル、グラフ、入力フォームなどを備えた通知フォームなどがあります。この機能を使用すると、ユーザーが情報を検索したり入力したりできる Web ページをデザインして投稿できます。
 
-[このセクション &#x200B;](web/about-web-applications.md)でweb アプリケーションを作成および公開する方法について説明します
+Web アプリケーションを作成して公開する方法については、[このセクション ](web/about-web-applications.md)を参照してください。

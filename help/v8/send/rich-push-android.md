@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '2365'
-ht-degree: 99%
+source-wordcount: '2368'
+ht-degree: 97%
 ---
 # Android のリッチプッシュ配信の設計 {#rich-push}
 
@@ -159,7 +159,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
    * **[!UICONTROL 自動]**：画像をスライドとして自動的に切り替えさせ、定義済みの間隔で移行します。
    * **[!UICONTROL 手動]**：ユーザーはスライド間を手動でスワイプして画像間を移動できます。
 
-1. **[!UICONTROL レイアウト]**&#x200B;ドロップダウンから「**[!UICONTROL フィルムストリップ]**」オプションを選択して、メインスライドの横に前と次の画像のプレビューを含めます。
+1. **[!UICONTROL レイアウト]** ドロップダウンから、**[!UICONTROL フィルムストリップ]** オプションを選択して、メインスライドに前の画像と次の画像のプレビューを含めます。
 
 1. 「**[!UICONTROL 画像を追加]**」をクリックし、画像の URL、テキスト、アクションの URL を入力します。
 
@@ -240,7 +240,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
 
-1. **[!UICONTROL 製品カタログオプション]**&#x200B;メニューで、次のオプションを入力します。
+1. **[!UICONTROL 製品カタログオプション]** メニューで、次のオプションを入力します。
 
    * **[!UICONTROL アクションボタンのテキスト]**：ボタンに表示されるテキスト。
    * **[!UICONTROL アクションボタンのテキストの色]**：アクションボタンのテキストの色。
@@ -284,7 +284,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    ![](assets/rich_push_rating_3.png)
 
-1. **[!UICONTROL 製品評価の項目]**&#x200B;メニューで、「**[!UICONTROL 追加]**」をクリックし、**[!UICONTROL リンク URI]** を入力して、**[!UICONTROL リンクタイプ]**&#x200B;を選択します。
+1. **[!UICONTROL 製品評価項目]** メニューで、**[!UICONTROL 追加]**&#x200B;をクリックし、**[!UICONTROL リンク URI]**&#x200B;を入力して、**[!UICONTROL リンクタイプ]**&#x200B;を選択します。
 
    * **[!UICONTROL Web URL]**：Web URL は、ユーザーをオンラインコンテンツに誘導します。 クリックすると、デバイスのデフォルトの web ブラウザーが開き、指定した URL に移動するように求められます。
 

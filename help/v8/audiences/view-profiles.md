@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 84%
+source-wordcount: '474'
+ht-degree: 81%
 ---
 # 既存のプロファイルの表示 {#view-profiles}
 
 **[!UICONTROL プロファイルとターゲット]**&#x200B;を参照して、Adobe Campaign データベースに格納されている受信者にアクセスします。
 
-このページから[新しい受信者を作成](create-profiles.md)し、既存の受信者を編集して、そのプロファイルの詳細にアクセスできます。
+このページから、[新しい受信者を作成し](create-profiles.md)、既存の受信者を編集し、そのプロファイルの詳細にアクセスできます。
 
 ![](assets/profiles-and-targets.png)
 

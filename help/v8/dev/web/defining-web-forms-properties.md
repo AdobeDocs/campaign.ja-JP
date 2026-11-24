@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1446'
 ht-degree: 96%
@@ -111,7 +111,7 @@ Web アプリの&#x200B;**[!UICONTROL プロパティ]**&#x200B;内の「**[!UIC
 
 ![](assets/logo_glass.png)
 
-新しいウィンドウで、「**[!UICONTROL ページレイアウト]**」リンクをクリックします。
+新しいウィンドウで、**[!UICONTROL ページレイアウト]** リンクをクリックします。
 
 ![](assets/logo_pagelayout.png)
 
@@ -159,7 +159,7 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-ログインおよびパスワードは、Adobe Campaign オペレーターによって使用されるものです。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。
+ログインおよびパスワードは、Adobe Campaign オペレーターによって使用されるものです。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。
 
 「**[!UICONTROL 特定のアカウントを使用]**」オプションを使用すると、フォームにアクセスするオペレーターの読み取りまたは書き込み権限を制限できます。 ドロップダウンボックスを使用して、これらの権限の付与を担当するオペレーターまたはオペレーターグループを選択します。
 

@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1111'
-ht-degree: 100%
+ht-degree: 98%
 ---
 # オファー表示域の管理{#managing-offer-presentation}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ### 適用条件 {#application-criteria-}
 
-「**[!UICONTROL 一般]**」タブの適用条件を使用すると、プレゼンテーションルールを適用するオファーを指定できます。 それには、次に説明するように、クエリを作成して、該当するオファーを選択する必要があります。
+「**[!UICONTROL 一般]**」タブで使用可能なアプリケーション条件を使用すると、プレゼンテーション規則を適用するオファーを指定できます。 それには、次に説明するように、クエリを作成して、該当するオファーを選択する必要があります。
 
 1. タイポロジルール内で、「**[!UICONTROL ルール適用条件を編集]**」リンクをクリックし、クエリを作成します。
 

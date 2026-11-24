@@ -21,16 +21,16 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # 調査を作成するための主な手順{#getting-started-with-surveys}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -141,7 +141,7 @@ ht-degree: 96%
 
 ![](assets/s_ncs_admin_survey_save_edit.png)
 
-「**[!UICONTROL OK]**」をクリックして確認し、「**[!UICONTROL 保存]**」をクリックして調査を保存します。
+「**[!UICONTROL OK]**」をクリックして確定し、「**[!UICONTROL 保存]**」をクリックしてアンケートを保存します。
 
 ## 手順 6 - ページの公開 {#step-6---publishing-the-pages}
 

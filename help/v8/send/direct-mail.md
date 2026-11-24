@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 86%
@@ -94,7 +94,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->このアシスタントには、Adobe Campaign Classic [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=ja){target="_blank"}で説明されている書き出しアシスタントの手順が含まれます。
+>このアシスタントには、Adobe Campaign Classic [ ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}で説明されている書き出しアシスタントの手順が含まれます。
 
 ## 配信の検証{#validating}
 
@@ -104,11 +104,11 @@ ht-degree: 86%
 
 配信を検証する際のグローバル概念については、[この節](../start/create-message.md#validate-the-delivery)で説明しています。
 
-ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。 ファイルの内容は、選択した出力列によって異なります（この[&#x200B; セクション ファイル &#x200B;](#defining-the-direct-mail-content)を参照）。
+ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。 ファイルの内容は、選択した出力列によって異なります（この[ セクション ファイル ](#defining-the-direct-mail-content)を参照）。
 
 >[!NOTE]
 >
->分析フェーズについて詳しくは、この[&#x200B; セクション &#x200B;](delivery-analysis.md)を参照してください。
+>分析フェーズについて詳しくは、この[ セクション ](delivery-analysis.md)を参照してください。
 
 分析フェーズではファイルが生成されますが、受信者に関する情報（配信ログなど）は更新されません。 したがって、このジョブをキャンセルしても問題は発生しません。
 
@@ -133,7 +133,7 @@ ht-degree: 86%
 
 ## 配信の開始{#start-delivery}
 
-抽出ファイルの検証が完了したら、「**配信を確定**」をクリックすると、配信の開始を確認するメッセージが表示されます。
+抽出ファイルを検証したら、**配信の確認**&#x200B;をクリックします。 配信の開始を確認するメッセージが表示されます。
 
 送信を確認すると、指定したファイルへのデータ抽出が開始されます。
 

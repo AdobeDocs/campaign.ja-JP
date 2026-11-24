@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1287'
-ht-degree: 94%
+ht-degree: 93%
 ---
 # iOS のリッチプッシュ配信の設計 {#rich-push}
 
@@ -153,7 +153,7 @@ ht-degree: 94%
 
    ![](assets/rich_push_ios_timer_1.png)
 
-1. メッセージを作成するには、「**[!UICONTROL タイトル]**」、「**[!UICONTROL 拡張されたタイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 拡張されたメッセージ]**」の各フィールドにテキストを入力します。
+1. メッセージを作成するには、**[!UICONTROL タイトル]**、**[!UICONTROL 拡張タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 拡張メッセージ]** フィールドにテキストを入力します。
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 

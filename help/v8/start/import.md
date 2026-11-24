@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '4167'
 ht-degree: 98%
@@ -453,7 +453,7 @@ Adobe Campaign では、テキスト、CSV、TAB、XML のいずれかの形式�
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-その後、インポートジョブの実行を監視できます。
+次に、書き出しジョブの実行を監視できます。
 
 
 ## Web アプリでのプロファイルの収集
@@ -462,7 +462,7 @@ Campaign を使用して web フォームを作成し、プロファイルの情
 
 ![](assets/web-form-page.png)
 
-[このセクション &#x200B;](../dev/web/about-web-forms.md)でweb フォームを作成する方法について説明します。
+[このセクション ](../dev/web/about-web-forms.md)でweb フォームを作成する方法について説明します。
 
 **関連トピック**
 

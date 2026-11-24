@@ -30,22 +30,22 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 90%
 ---
 # ユースケース：オンラインサーベイへの回答に関するレポートの表示{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
 専用レポートを使用して、Adobe Campaign の調査に対する回答を収集して分析できます。
 
-次の例では、オンライン調査への回答を収集してピボットテーブルに表示します。
+次の例では、オンライン調査に対する回答を収集し、ピボットテーブルに表示します。
 
 次の手順に従います。
 
@@ -93,7 +93,7 @@ ht-degree: 94%
 
 ## 手順 2 - キューブおよびその測定と指標の作成 {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-次に、キューブを作成し、その測定を設定できます。これらの測定は、レポートに表示される指標の作成に使用されます。 キューブの作成と設定について詳しくは、[キューブについて](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}を参照してください。
+次に、キューブを作成し、その測定を設定できます。これらの測定は、レポートに表示される指標の作成に使用されます。 キューブの作成と設定について詳しくは、[キューブについて](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}を参照してください。
 
 この例では、キューブは、先ほど作成したワークフローから提供されるリスト内のデータに基づいています。
 

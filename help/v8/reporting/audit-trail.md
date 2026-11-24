@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 ---
 # 監査記録{#audit-trail}
 
@@ -50,7 +50,7 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
 
 * **スキーマ監査記録**：スキーマに行った変更を調べて、変更を行ったユーザーとタイミングを特定できます。
 
-  スキーマについて詳しくは、この[&#x200B; ページ &#x200B;](../dev/schemas.md)を参照してください。
+  スキーマについて詳しくは、この[ ページ ](../dev/schemas.md)を参照してください。
 
 * **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 
@@ -58,9 +58,9 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
   * 一時停止
   * 停止
   * 再開
-  * クリーンアップ（「履歴をパージ」アクションと同じ）
-  * シミュレーション（「シミュレーションモードで開始」アクションと同じ）
-  * ウェイクアップ（「保留中のタスクを今すぐ実行」アクションと同じ）
+  * 「パージ履歴」アクションに等しいクリーンアップ
+  * シミュレーション モードで開始するアクションに等しいアクションをシミュレートする
+  * 「保留中のタスクを今すぐ実行」アクションに等しいウェイクアップ
   * 無条件停止
 
   ワークフローについて詳しくは、この[ページ](../../automation/workflow/about-workflows.md)を参照してください。

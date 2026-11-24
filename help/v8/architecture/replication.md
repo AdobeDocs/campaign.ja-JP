@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 99%
+ht-degree: 96%
 ---
 # データレプリケーション {#wf-data-replication}
 
@@ -87,7 +87,7 @@ Campaign v8 は、スケジュールされたデータレプリケーション�
 
 必要に応じて、データの同期を手動で開始できます。 これを実行するには、**スケジューラー**&#x200B;アクティビティを右クリックし、「**保留中のタスクを今すぐ実行**」を選択します。
 
-ビルトインの&#x200B;**参照テーブルをレプリケート**&#x200B;テクニカルワークフローに加えて、次のいずれかの方法を使用してワークフローでデータレプリケーションを強制できます。
+組み込みの&#x200B;**参照テーブルのレプリケート**&#x200B;技術ワークフローに加えて、次のいずれかの方法を使用して、ワークフローでデータレプリケーションを強制できます。
 
 +++データレプリケーションを強制する方法
 
@@ -147,6 +147,6 @@ var xml = xtk.builder.CopyXxlData(
 
 このビデオでは、Adobe Campaign v8 が使用するデータベース、データがレプリケートされる理由、レプリケートされるデータおよびレプリケーションプロセスの仕組みに関する主な概念について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3417456?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 Campaign v8 クライアントコンソールに関するその他のチュートリアルについては、[こちら](https://experienceleague.adobe.com/ja/docs/campaign-learn/tutorials/overview)を参照してください。

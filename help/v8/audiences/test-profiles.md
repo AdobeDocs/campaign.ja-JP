@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 85%
+ht-degree: 84%
 ---
 # テストプロファイルの作成と管理 {#create-test-profiles}
 
@@ -55,7 +55,7 @@ ht-degree: 85%
 
 シードアドレスには次のメリットがあります。
 
-* フィールドを受信者プロファイルから取得したデータでランダムに置換する：これにより、例えば「シードアドレス」セクションにメールアドレスのみを入力し、プロファイルから他のフィールドにCampaignが自動的に入力できるようになります。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
+* フィールドを受信者プロファイルから取得したデータでランダムに置換する：これにより、例えば「シードアドレス」セクションにメールアドレスのみを入力し、プロファイルから他のフィールドにCampaignが自動的に入力できるようになります。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
 * データ管理機能を利用するワークフローを使用する場合、配信で処理される追加のデータをシードアドレスのレベルで入力し、値を強制できます。これにより、ランダムな値による置換を回避します。
 * シードアドレスは、**[!UICONTROL クリック数]**、**[!UICONTROL 開封数]**、**[!UICONTROL 購読解除]**&#x200B;の配信統計に関するレポートからは自動的に除外されます。
 
@@ -65,7 +65,7 @@ ht-degree: 85%
 >
 >シードアドレスは、受信者テーブルではなく、別のテーブルに作成されます。 新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。 それ以外の場合、拡張フィールドはシードアドレスに考慮されません。
 >
->シードアドレステーブルの拡張方法の例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
+>シードアドレステーブルの拡張方法の例については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
 
 ## シードアドレスを作成
 
@@ -120,7 +120,7 @@ Adobe Campaign では、シードアドレスのテンプレートも作成可�
 
 1. 挿入する制御アドレスを動的に選択する条件を作成する。 そのためには、**[!UICONTROL 動的条件を編集...]** リンクをクリックし、シードアドレスの選択パラメーターを入力します。 例えば、ある特定のフォルダーに格納されているすべてのシードアドレスや、組織の特定の部門に属しているシードアドレスを含めることができます。
 
-   この例について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
+   この例について詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}を参照してください。
 
 また、配信では、アドレスを抽出ファイルに挿入する際の方法をカスタマイズすることもできます。 デフォルトでは出力ファイルの並べ替え順に従って挿入されますが、ファイルの冒頭または末尾に挿入する指定や、メインターゲットの送信者中にランダムに挿入する指定が可能です。
 
@@ -132,7 +132,7 @@ Adobe Campaign では、シードアドレスのテンプレートも作成可�
 
 ## シードアドレスとカスタムテーブル {#using-an-external-recipient-table}
 
-配信テーブルが外部のテーブルの場合は、追加設定が必要です。 **[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。 適切なフィールドを定義するためのタブがシードアドレスに追加されます。
+配信テーブルが外部のテーブルの場合は、追加設定が必要です。 **[!UICONTROL nms:seedmember]** スキーマを拡張する必要があります。 適切なフィールドを定義するために、シードアドレスにタブが追加されます。
 
 この場合、配信にシードアドレスを追加するには、適切なタブで各種の適切なフィールドを入力するか、アドレステンプレートをインポートします。
 

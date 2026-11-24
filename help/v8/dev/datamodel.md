@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 90%
@@ -47,7 +47,7 @@ Adobe Campaign データモデルの基本構造は、次のように説明で�
 
 * **受信者テーブル**：データモデルは、デフォルトで受信者テーブル（**nmsRecipient**）であるメインテーブルに基づいています。 このテーブルには、すべてのマーケティングプロファイルが格納されています。 受信者テーブルについて詳しくは、[この節](#ootb-profiles)を参照してください。
 
-* **配信テーブル**：このテーブルには、配信アクションごとに 1 つのレコードが保存されます。 通常、これは配信テーブル（**NmsDelivery**）です。 このテーブルのレコードは、配信アクションまたは配信テンプレートを表します。 ターゲット、コンテンツなどの配信を実行するために必要なすべてのパラメーターが含まれています。各レコードは、配信の進捗状況を反映するために複数回更新されます
+* **配信テーブル**：このテーブルには、配信アクションごとに 1 つのレコードが保存されます。 通常、これは配信テーブル（**NmsDelivery**）です。 このテーブルのレコードは、配信アクションまたは配信テンプレートを表します。 ターゲット、コンテンツなどの配信を実行するために必要なすべてのパラメーターが含まれています。各レコードは、配信の進捗状況を反映するために複数回更新されます。
 
 * **ログテーブル**：このテーブルには、キャンペーンの実行に関連するすべてのログが格納されます。
 
@@ -87,7 +87,7 @@ Adobe Campaign のビルトインの受信者テーブル（nmsrecipient）は�
 
 既存のスキーマを拡張する方法について詳しくは、[この節](extend-schema.md)を参照してください。
 
-組み込みの受信者テーブル拡張機能の例については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}を参照してください
+組み込みの受信者テーブル拡張機能の例については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#extending-a-table){target="_blank"}を参照してください
 
 別の受信者テーブルを使用して、ビジネス要件や機能要件に、より適合させることもできます。 この方法には制限があり、[この節](custom-recipient.md)で説明します。
 

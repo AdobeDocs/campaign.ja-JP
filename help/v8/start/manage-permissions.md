@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 90%
+ht-degree: 89%
 ---
 # ユーザー権限の管理{#manage-permissions}
 
@@ -230,7 +230,7 @@ Adobe Campaign には、ユーザーとユーザーのグループに割り当�
 ネームド権限では、次の権限を付与します。
 
 * 操作の実行
-例えば、配信エディターの&#x200B;**分析** ボタンは、**配信を準備**&#x200B;という名前付き権限を持つ&#x200B;**配信オペレーター** グループのメンバーに対してアクティブ化されます
+例えば、配信エディターの**分析** ボタンは、**配信を準備**&#x200B;という名前付き権限を持つ&#x200B;**配信オペレーター** グループのメンバーに対してアクティブ化されます
 
 * フォルダーへのアクセス
 オペレーターグループのメンバーシップは、フォルダーのセキュリティ設定を変更することで、フォルダーへのアクセス権を付与または制限できます。 [詳細情報](folder-permissions.md#restrict-access-to-a-folder)。
@@ -239,7 +239,7 @@ Adobe Campaign には、ユーザーとユーザーのグループに割り当�
 
 Adobe Campaign のデフォルトのネームド権限は次のとおりです。
 
-* **[!UICONTROL 管理]**：**[!UICONTROL 管理]**&#x200B;権限を持つオペレーターは、インスタンスに対する完全なアクセス権を持ちます。 管理者ユーザーは、ワークフロー、配信、スクリプトなどの任意のオブジェクトを実行/作成/編集/削除できます。**メモ：** CampaignCampaign コントロールパネルへのアクセス権を付与する単語「admin」が含まれているAdobe Admin Consoleの製品プロファイル。
+* **[!UICONTROL ADMINISTRATION]**: **[!UICONTROL ADMINISTRATION]**&#x200B;権限を持つオペレーターは、インスタンスに対して完全なアクセス権を持っています。 管理者ユーザーは、ワークフロー、配信、スクリプトなどの任意のオブジェクトを実行/作成/編集/削除できます。**メモ：** CampaignCampaign コントロールパネルへのアクセス権を付与する単語「admin」が含まれているAdobe Admin Consoleの製品プロファイル。
 
 * **[!UICONTROL 承認の管理]**：担当のオペレーターやグループが現在の状態を承認したことを確認するため、ワークフローや配信内で複数の承認手順を設定できます。 **[!UICONTROL 承認の管理]**&#x200B;権限を持つユーザーは、承認手順を設定したり、これらの手順を承認する必要のあるオペレーターまたはオペレーターグループを割り当てたりできます。 **メモ：**&#x200B;製品プロファイルに「admin」という単語（「approval admin」など）が含まれている場合、Campaign Campaign コントロールパネルへのアクセス権が付与されます。
 

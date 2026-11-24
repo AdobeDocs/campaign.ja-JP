@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 88%
 ---
 # プロファイルの手動作成{#create-profiles-manual}
 
@@ -36,7 +36,7 @@ Campaign データベースにデータを入力するには、[プロファイ�
 
 受信者を手動で作成するには、次の手順に従います。
 
-1. 「**[!UICONTROL プロファイルとターゲット]**」タブを参照し、「**[!UICONTROL 受信者]**」カテゴリを選択します。
+1. 「**[!UICONTROL プロファイルとターゲット]**」タブを参照し、**[!UICONTROL 受信者]** カテゴリを選択します。
 
    ![](assets/profiles-and-targets.png)
 

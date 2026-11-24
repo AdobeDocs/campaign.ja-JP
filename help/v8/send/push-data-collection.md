@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 85%
+source-wordcount: '1553'
+ht-degree: 83%
 ---
 # プッシュ通知設を修正 {#push-notifications-config}
 
@@ -100,9 +100,9 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL アプリ ID（Android パッケージ名）]**&#x200B;を入力します。 通常、パッケージ名は `build.gradle` ファイル内のアプリ ID です。
 
-1. **[!UICONTROL プッシュ資格情報]**&#x200B;を切り替えて、資格情報を追加します。
+1. 「**[!UICONTROL プッシュ資格情報]**」をオンにして、資格情報を追加します。
 
-1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 
@@ -158,7 +158,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
 1. **[!UICONTROL サブスクリプションパラメーター]** タブを参照して、**[!UICONTROL サブスクライバーアプリケーション （nms:appsubscriptionRcp）]** スキーマの拡張機能を使用したマッピングを定義します。
 
-1. 「**[!UICONTROL サウンド]**」タブを参照して、再生するサウンドを定義します。 「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL 内部名]**」フィールドに、アプリケーションに埋め込まれたファイル名またはシステムサウンドの名前を入力します。
+1. 「**[!UICONTROL サウンド]**」タブを参照して、再生するサウンドを定義します。 「**[!UICONTROL 追加]**」をクリックし、アプリケーションに埋め込まれたファイルの名前またはシステムサウンドの名前を含める&#x200B;**[!UICONTROL 内部名]** フィールドに入力します。
 
 1. 「**[!UICONTROL 次へ]**」をクリックし、開発アプリケーションの設定をおこないます。
 
