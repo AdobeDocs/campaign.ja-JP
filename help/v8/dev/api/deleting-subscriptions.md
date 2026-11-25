@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 以下のペイロードの例は、サービスからプロファイルを登録解除する方法を示しています。 まず、GET リクエストを実行してプロファイルを取得します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 プロファイルの購読URLを返します。
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 サブスクリプション URLに対してGET リクエストを実行します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 選択したプロファイルの購読リストと、購読した各サービスのURLを返します。
 
-```
+```json
 ...
 "service": {
   "PKey": "<PKEY>",
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 必要なサービス URLに対してDELETE リクエストを実行します。
 
-```
+```bash
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 サービスレコードを取得します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 サービスの購読URLを返します。
 
-```
+```json
 {
   ...
   "messageType": "email",
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 サブスクリプション URLに対してGET リクエストを実行します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -157,7 +157,7 @@ ht-degree: 0%
 
 選択したサービスのサブスクリプションのリストと、各プロファイルサブスクリプションのURL （href）を返します。
 
-```
+```json
 {
   "PKey": "<PKEY>",
   "created": "2019-03-26 08:58:04.764Z",
@@ -174,7 +174,7 @@ ht-degree: 0%
 
 目的のプロファイルサブスクリプション URLに対してDELETE リクエストを実行します。
 
-```
+```bash
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

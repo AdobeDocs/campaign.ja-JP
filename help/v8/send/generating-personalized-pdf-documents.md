@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 95%
@@ -38,7 +38,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 ドキュメントをパーソナライズする場合、メールのパーソナライゼーションと同じ JavaScript 機能を使用します。
 
-「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。 このオプションは、配信メールにファイルを添付する際にアクセスできます。 計算ファイルの添付について詳しくは、[Campaign v8 ドキュメント &#x200B;](attaching-files.md)を参照してください。
+「**[!UICONTROL メッセージの配信中にファイルのコンテンツはパーソナライズされて PDF に変換]**」オプションを有効化する必要があります。 このオプションは、配信メールにファイルを添付する際にアクセスできます。 計算ファイルの添付について詳しくは、[Campaign v8 ドキュメント ](attaching-files.md)を参照してください。
 
 動的テーブルを生成する場合や URL 経由で画像を含める場合は、特定のプロセスを実行する必要があります。
 
@@ -84,7 +84,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 今回の例では、パーソナライゼーションブロックは次のようになります。
 
-```
+```html
 <% if (recipient.country.label == "Germany") { %>
 <draw:frame svg:width="4cm" svg:height="3cm">
 <draw:image xlink:href=https://..../logo_germany.png />

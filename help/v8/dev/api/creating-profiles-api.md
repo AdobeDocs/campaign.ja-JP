@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 >作成したプロファイルに<b>orgUnit</b>を関連付ける場合は、このフィールドでプロファイルリソースを拡張し、拡張機能の公開後、<b>ProfileAndServicesExt</b> エンドポイントでPOST リクエストを実行する必要があります。
 >
->プロファイルのリソース拡張機能について詳しくは、<a href="https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign ドキュメント </a>を参照してください。
+>プロファイルのリソース拡張機能について詳しくは、<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign ドキュメント </a>を参照してください。
 
 <br/>
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 「john.doe@mail.com」という電子メールを使用してプロファイルを作成するPOST リクエストのサンプル。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 新しく作成したプロファイルを「john.doe@mail.com」電子メールアドレスで返します。
 
-```
+```json
 {
     "PKey": "<PKEY>",
     "firstName": "John",

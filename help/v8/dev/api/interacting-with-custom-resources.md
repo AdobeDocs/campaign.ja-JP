@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -48,12 +48,12 @@ ht-degree: 0%
 
 カスタムリソースからメタデータを取得する例を次に示します。
 
-```
+```http
 GET /customResources/resourceType/<customResourceName>
 ```
 
 作成、更新、削除を実行するには、GET、POST、PATCH、DELETEを使用します。
 
-```
+```http
 POST /customResources/<customResourceName>
 ```

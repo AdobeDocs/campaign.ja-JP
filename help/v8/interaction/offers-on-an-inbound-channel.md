@@ -24,7 +24,7 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '2210'
 ht-degree: 95%
@@ -81,7 +81,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 1. 次の例のように、HTML レンダリング関数を編集します。
 
-   ```
+   ```javascript
    function (imageUrl, targetUrl, shortContent, htmlSource){
          var html = "<p><b>" + shortContent + "</b></p>";
          html += "<p>" + htmlSource + "</p>";
@@ -147,7 +147,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 ### Web サイト上の Web オファースペースの設定 {#configure-the-web-offer-space-on-the-website}
 
-設定したばかりのオファーをweb サイトに表示するには、サイトのHTML ページにJavaScript コードを挿入してインタラクションエンジンを呼び出します（詳しくは、[&#x200B; インバウンドチャネルについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照）。
+設定したばかりのオファーをweb サイトに表示するには、サイトのHTML ページにJavaScript コードを挿入してインタラクションエンジンを呼び出します（詳しくは、[ インバウンドチャネルについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
 1. HTML ページに移動して、@id 属性を挿入し、先ほど作成した匿名オファースペース（[匿名オファースペースの作成](#creating-anonymous-offer-spaces)を参照）の内部名にプレフィックス **i_** を付加した値を指定します。
 

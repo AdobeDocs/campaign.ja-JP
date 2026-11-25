@@ -19,7 +19,7 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 99%
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -106,7 +106,7 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 各フォームについて、提供された回答は、フィールドまたはラベルで利用できます。 アーカイブされたフィールドに格納された契約に対して、次の構文を使用します。
 
-```
+```html
 <%= ctx.webAppLogRcpData.name of the archived field %
 ```
 
