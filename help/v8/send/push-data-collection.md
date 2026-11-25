@@ -64,7 +64,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. 「**[!UICONTROL アプリサーフェスを作成]**」をクリックして新しい設定を作成します。
 
-   「アプリサーフェスを作成」ボタンがハイライト表示されたデータ収集の![ アプリサーフェス リスト ](assets/push-config-1.png)
+   「アプリサーフェスを作成」ボタンがハイライト表示されたデータ収集の![&#x200B; アプリサーフェス リスト &#x200B;](assets/push-config-1.png)
 
 1. 設定の&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
@@ -74,7 +74,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 >[!TAB iOS]
 
-![Apple iOS用アプリサーフェスの作成：アプリ ID、プッシュ資格情報スイッチ、およびp8 キーファイルのドロップゾーン ](assets/push-config-2.png)
+![Apple iOS用アプリサーフェスの作成：アプリ ID、プッシュ資格情報スイッチ、およびp8 キーファイルのドロップゾーン &#x200B;](assets/push-config-2.png)
 
 1. 「**[!UICONTROL アプリ ID (iOS バンドル ID)]**」フィールドにモバイルアプリの&#x200B;**バンドル ID** を入力します。
 
@@ -96,13 +96,13 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 >[!TAB Android]
 
-![Create App Surface for Android: アプリ ID （Android パッケージ名）、プッシュ資格情報スイッチ、JSON キードロップゾーン ](assets/push-config-3.png)
+![Create App Surface for Android: アプリ ID （Android パッケージ名）、プッシュ資格情報スイッチ、JSON キードロップゾーン &#x200B;](assets/push-config-3.png)
 
 1. **[!UICONTROL アプリ ID（Android パッケージ名）]**&#x200B;を入力します。 通常、パッケージ名は `build.gradle` ファイル内のアプリ ID です。
 
 1. 「**[!UICONTROL プッシュ資格情報]**」をオンにして、資格情報を追加します。
 
-1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 
@@ -120,13 +120,13 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. **[!UICONTROL プロファイルとターゲット／サービスとサブスクリプション]**&#x200B;タブを参照し、「**[!UICONTROL 作成]**」をクリックします。
 
-   ![ ラベル、内部名、モバイルアプリケーションの種類、およびサブスクライバーのアプリケーションのターゲットマッピングを含む新しいサービスダイアログ ](assets/push-config-4.png){width="800"}
+   ![&#x200B; ラベル、内部名、モバイルアプリケーションの種類、およびサブスクライバーのアプリケーションのターゲットマッピングを含む新しいサービスダイアログ &#x200B;](assets/push-config-4.png){width="800"}
 
 1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を入力し、**[!UICONTROL モバイルアプリケーション]**&#x200B;タイプを選択します。
 
    >[!NOTE]
    >
-   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。 ターゲットマッピングについて詳しくは、[ ターゲットマッピングの操作](../audiences/target-mappings.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。 ターゲットマッピングについて詳しくは、[&#x200B; ターゲットマッピングの操作](../audiences/target-mappings.md)を参照してください。
 
 1. 次に、右側にある「**[!UICONTROL 追加]**」アイコンを使用して、このサービスを使用するモバイルアプリケーションを定義します。
 
@@ -144,7 +144,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
 1. サービスから、**[!UICONTROL Add]**&#x200B;をクリックし、**[!UICONTROL Create an iOS application]**&#x200B;を選択します。 「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![iOS アプリケーションの作成を選択したモバイルアプリケーション作成ウィザード ](assets/push-config-6.png)
+   ![iOS アプリケーションの作成を選択したモバイルアプリケーション作成ウィザード &#x200B;](assets/push-config-6.png)
 
 1. **[!UICONTROL Experience Platform Launch アプリ設定リスト]**&#x200B;ウィンドウから、この節で先ほど作成したアプリサーフェスを選択します。 「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -175,7 +175,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
    >
    > アプリケーションの開発バージョン（サンドボックス）と実稼動バージョンに同じ証明書を使用することはできません。
 
-   ![iOSの統合キーとアプリケーションアイコンフィールドを使用した開発アプリケーションステップ ](assets/push-config-9.png)
+   ![iOSの統合キーとアプリケーションアイコンフィールドを使用した開発アプリケーションステップ &#x200B;](assets/push-config-9.png)
 
 1. **[!UICONTROL アプリケーションアイコン]** フィールドからアイコンを選択して、サービスでモバイルアプリケーションをパーソナライズします。
 
@@ -191,7 +191,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. サービスから、**[!UICONTROL Add]**&#x200B;をクリックし、**[!UICONTROL Create an Android application]**&#x200B;を選択します。 「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![Android アプリケーションの作成を選択したモバイルアプリケーション作成ウィザード ](assets/push-config-10.png)
+   ![Android アプリケーションの作成を選択したモバイルアプリケーション作成ウィザード &#x200B;](assets/push-config-10.png)
 
 1. **[!UICONTROL Experience Platform Launch アプリ設定リスト]**&#x200B;ウィンドウから、この節で前に作成したアプリサーフェスを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -234,7 +234,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. 「**[!UICONTROL 新規プロパティ]**」をクリックします。
 
-   新しいプロパティボタンがハイライト表示されたデータ収集の![ タグプロパティリスト ](assets/push-config-13.png)
+   新しいプロパティボタンがハイライト表示されたデータ収集の![&#x200B; タグプロパティリスト &#x200B;](assets/push-config-13.png)
 
 1. プロパティの名前を入力し、プラットフォームとして「**[!UICONTROL モバイル]**」を選択します。
 
@@ -246,18 +246,18 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. モバイルプロパティダッシュボードから、**[!UICONTROL 拡張機能]**&#x200B;メニューにアクセスし、次に「**[!UICONTROL カタログ]**」タブにアクセスします。
 
-   「カタログ」タブが強調表示された![ モバイルプロパティ拡張機能ページ ](assets/push-config-15.png)
+   「カタログ」タブが強調表示された![&#x200B; モバイルプロパティ拡張機能ページ &#x200B;](assets/push-config-15.png)
 
 1. **[!DNL Adobe Campaign Classic]** 拡張機能をインストールします。 [詳しくは、Campaign 拡張機能を参照してください](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configure-campaign-classic-extension)
 
-   ![Adobe Campaign Classic拡張機能で「インストール」ボタンがハイライト表示された拡張機能カタログ ](assets/push-config-16.png)
+   ![Adobe Campaign Classic拡張機能で「インストール」ボタンがハイライト表示された拡張機能カタログ &#x200B;](assets/push-config-16.png)
 
 1. インスタンスの詳細を入力します。
 
    * **[!UICONTROL 登録エンドポイント]**&#x200B;または&#x200B;**[!UICONTROL トラッキングエンドポイント]** URL は、Campaign の&#x200B;**[!UICONTROL ツール]**／**[!UICONTROL 詳細]**／**[!UICONTROL デプロイメント]**&#x200B;ウィザードメニューにあります。
    * **[!UICONTROL 統合キー]**&#x200B;は、[この節](#create-app)で設定したモバイルアプリにあります。
 
-   ![登録とトラッキングのエンドポイント、iOSとAndroidの統合キーを含む拡張機能ページをインストール ](assets/push-config-17.png)
+   ![登録とトラッキングのエンドポイント、iOSとAndroidの統合キーを含む拡張機能ページをインストール &#x200B;](assets/push-config-17.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

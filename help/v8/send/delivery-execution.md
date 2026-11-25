@@ -71,7 +71,7 @@ Adobe Campaign では、実行インスタンスのアクティビティとス�
 
 これらの Message Center レポートは、**コントロールインスタンス**&#x200B;の「**[!UICONTROL レポート]**」タブからアクセスできます。
 
-![3つのメッセージセンターレポートがハイライト表示された「レポート」タブのグローバルレポートページ ](assets/mc-reports.png)
+![3つのメッセージセンターレポートがハイライト表示された「レポート」タブのグローバルレポートページ &#x200B;](assets/mc-reports.png)
 
 ### Message Center のイベント履歴 {#history-events}
 
@@ -86,7 +86,7 @@ Adobe Campaign では、実行インスタンスのアクティビティとス�
 
 **[!UICONTROL Message Center の処理時間]**&#x200B;レポートには、リアルタイムキューに関する主な指標が表示されます。 このレポートには、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからもアクセスできます。
 
-チャネル、インスタンス、期間のフィルター、インジケーター、グラフを含む![Message Center処理時間レポート ](assets/mc-processing-time-report.png)
+チャネル、インスタンス、期間のフィルター、インジケーター、グラフを含む![Message Center処理時間レポート &#x200B;](assets/mc-processing-time-report.png)
 
 グローバルな統計を表示するか、特定の実行インスタンスに関連する統計を表示するかを選択できます。 チャネル別や、特定の期間でデータをフィルタリングすることもできます。
 
@@ -135,4 +135,4 @@ Adobe Campaign では、実行インスタンスのアクティビティとス�
 1. **実行インスタンス**&#x200B;でデプロイメントウィザードを開き、**[!UICONTROL Message Center]** ページを参照します。
 1. 矢印でしきい値を変更します。
 
-   実行インスタンス設定と警告およびアラートのしきい値を含む![Message Center設定ウィザード ](assets/mc-thresholds.png)
+   実行インスタンス設定と警告およびアラートのしきい値を含む![Message Center設定ウィザード &#x200B;](assets/mc-thresholds.png)

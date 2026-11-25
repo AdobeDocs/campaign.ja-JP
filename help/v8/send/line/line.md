@@ -44,7 +44,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 また [!DNL LINE] は、消費者向けモバイルデバイスにインストールされた [!DNL LINE] アプリでリアルタイムメッセージを送信するために、トランザクションメッセージモジュールと組み合わせることができます。 詳しくは、Campaign Classic v7 ドキュメントのこの[page](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line)を参照してください。
 
-![ ショップアカウントから受信したテキストメッセージを示すLINE アプリの会話](assets/line_message.png)
+![&#x200B; ショップアカウントから受信したテキストメッセージを示すLINE アプリの会話](assets/line_message.png)
 
 [!DNL LINE] チャネルを使用する手順は次のとおりです。
 
@@ -69,13 +69,13 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. 左側のメニューで、「**[!UICONTROL サービスと購読]**」を選択し、「**[!UICONTROL 作成]**」をクリックします。
 
-   「作成」ボタンがハイライト表示された![ サービスとサブスクリプションのリスト ](assets/line_service_1.png)
+   「作成」ボタンがハイライト表示された![&#x200B; サービスとサブスクリプションのリスト &#x200B;](assets/line_service_1.png)
 
 1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を新しいサービスに追加します。
 
 1. 「**[!UICONTROL タイプ]**」ドロップダウンから「**[!UICONTROL LINE]**」を選択します。
 
-   ![種類ドロップダウンでLINEを選択したサービス作成ダイアログ ](assets/line_service_2.png)
+   ![種類ドロップダウンでLINEを選択したサービス作成ダイアログ &#x200B;](assets/line_service_2.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -89,11 +89,11 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. ビルトインの **[!UICONTROL LINE V2 ルーティング]**&#x200B;外部アカウントを選択します。
 
-   ![組み込みのLINE V2 ルーティングアカウントが選択された外部アカウントリスト ](assets/line_config.png)
+   ![組み込みのLINE V2 ルーティングアカウントが選択された外部アカウントリスト &#x200B;](assets/line_config.png)
 
 1. 外部アカウントの「**[!UICONTROL LINE]**」タブをクリックし、外部アカウントの設定開始に移動します。 次のフィールドに入力します。
 
-   チャネル ID、秘密鍵、アクセストークン、LINE サブスクリプションサービスフィールドを含む外部アカウントの![LINE タブ ](assets/line_config_2.png)
+   チャネル ID、秘密鍵、アクセストークン、LINE サブスクリプションサービスフィールドを含む外部アカウントの![LINE タブ &#x200B;](assets/line_config_2.png)
 
    * **[!UICONTROL Channel エイリアス]**：**[!UICONTROL チャネル]**／「**[!UICONTROL 技術的設定]**」タブの [!DNL LINE] アカウント経由で提供されます。
    * **[!UICONTROL Channel ID]**：**[!UICONTROL チャネル]**／「**[!UICONTROL 基本情報パネル]**」タブの [!DNL LINE] アカウント経由で提供されます。
@@ -118,11 +118,11 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. 「**[!UICONTROL キャンペーン]**」タブで、「**[!UICONTROL 配信]**」を選択し、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
-   ![作成ボタンがハイライト表示されたキャンペーン タブの配信リスト ](assets/line_message_07.png)
+   ![作成ボタンがハイライト表示されたキャンペーン タブの配信リスト &#x200B;](assets/line_message_07.png)
 
 1. **[!UICONTROL LINE V2 配信]**&#x200B;配信テンプレートを選択します。
 
-   ![LINE V2配信テンプレートを選択した新しい配信ダイアログ ](assets/line_message_01.png)
+   ![LINE V2配信テンプレートを選択した新しい配信ダイアログ &#x200B;](assets/line_message_01.png)
 
 1. **[!UICONTROL ラベル]**、**[!UICONTROL 配信コード]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を設定して配信を識別します。 詳しくは、[配信の作成](../../start/create-message.md#create-the-delivery)を参照してください。
 
@@ -130,9 +130,9 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. 配信エディターで、「**[!UICONTROL 宛先]**」を選択して [!DNL LINE] 配信の受信者をターゲットします。 ターゲティングは、**[!UICONTROL 訪問者サブスクリプション （nms:visitorSub）]**&#x200B;に対して実行されます。
 
-   詳しくは、[ ターゲットマッピングの操作](../../audiences/target-mappings.md)を参照してください。
+   詳しくは、[&#x200B; ターゲットマッピングの操作](../../audiences/target-mappings.md)を参照してください。
 
-   ![ リンクを強調表示し、空のLINE メッセージリストを含むLINE V2配信](assets/line_message_08.png)
+   ![&#x200B; リンクを強調表示し、空のLINE メッセージリストを含むLINE V2配信](assets/line_message_08.png)
 
 1. 「**[!UICONTROL 追加]**」をクリックして、「**[!UICONTROL 配信ターゲット母集団]**」を選択します。
 
@@ -142,13 +142,13 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. 「**[!UICONTROL フォルダー]**」ドロップダウンで「**[!UICONTROL Line-V2]**」を選択し、[!DNL LINE] サービスを選択します。 「**[!UICONTROL 完了]**」、「**[!UICONTROL OK]**」の順にクリックして、配信のパーソナライズを開始します。
 
-   ![LINE-V2 フォルダーとLINESVC サービスを選択したターゲット要素ダイアログ ](assets/line_message_10.png)
+   ![LINE-V2 フォルダーとLINESVC サービスを選択したターゲット要素ダイアログ &#x200B;](assets/line_message_10.png)
 
 1. 配信エディターで、**[!UICONTROL 追加]**&#x200B;をクリックして1つまたは複数のメッセージを追加し、**[!UICONTROL コンテンツタイプ]**&#x200B;を選択します。
 
    利用可能な様々な&#x200B;**[!UICONTROL コンテンツタイプ]**&#x200B;について詳しくは、[コンテンツタイプの定義](#defining-the-content)を参照してください。
 
-   ![LINE メッセージ セクション ](assets/line_message_11.png)で「追加」ボタンがハイライト表示されたサービス購読者をターゲットとするLINE V2配信
+   ![LINE メッセージ セクション &#x200B;](assets/line_message_11.png)で「追加」ボタンがハイライト表示されたサービス購読者をターゲットとするLINE V2配信
 
 1. 配信を正しく作成して設定すると、事前に定義したターゲットに送信することができます。
 
@@ -192,11 +192,11 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
   >
   >**%SIZE%** 変数を使用すると、受信者のモバイルデバイスの画面サイズに応じて画像の表示を最適化できます。
 
-  ![ パーソナライズされた画像が選択された画像とリンクメッセージ、画像URLと代替テキストフィールドが強調表示されている](assets/line_message_04.png)
+  ![&#x200B; パーソナライズされた画像が選択された画像とリンクメッセージ、画像URLと代替テキストフィールドが強調表示されている](assets/line_message_04.png)
 
 * **[!UICONTROL デバイスの画面サイズごとの画像 URL]**
 
-  ![ デバイスごとの画像を定義する画面サイズを選択した画像およびリンクメッセージと、解像度](assets/line_message_03.png)による4つの画像URL フィールド
+  ![&#x200B; デバイスごとの画像を定義する画面サイズを選択した画像およびリンクメッセージと、解像度](assets/line_message_03.png)による4つの画像URL フィールド
 
   「**[!UICONTROL デバイスの画面サイズごとに画像を定義]**」オプションを使用すると、様々な画像解像度を使用して、モバイルデバイス上の配信の視認性を最適化できます。 高さと幅が同じ画像のみがサポートされます。
 
@@ -230,7 +230,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 一部のデバイスで再生すると、幅の広いビデオや高いビデオが断ち切れる場合があります。
 
-![ プレビュー画像URLおよびビデオ画像URL フィールドを含むビデオメッセージコンテンツ ](assets/line_message_06.png)
+![&#x200B; プレビュー画像URLおよびビデオ画像URL フィールドを含むビデオメッセージコンテンツ &#x200B;](assets/line_message_06.png)
 
 ## レポートへのアクセス {#accessing-reports}
 
@@ -252,23 +252,23 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. 「**[!UICONTROL Campaign]**」タブから「**[!UICONTROL 作成]**」ボタンをクリックして [!DNL LINE] 配信を作成します。
 
-   ![作成ボタンがハイライト表示されたキャンペーン タブの配信リスト ](assets/line_usecase.png)
+   ![作成ボタンがハイライト表示されたキャンペーン タブの配信リスト &#x200B;](assets/line_usecase.png)
 
 1. 「**[!UICONTROL LINE V2 配信]**」配信テンプレートを選択して、配信に名前を付けます。
 
-   ![ ドロップダウンでLINE V2配信テンプレートを選択した新しい配信ダイアログ ](assets/line_usecase_01.png)
+   ![&#x200B; ドロップダウンでLINE V2配信テンプレートを選択した新しい配信ダイアログ &#x200B;](assets/line_usecase_01.png)
 
 1. 配信の設定ウィンドウで、ターゲット母集団を選択します。
 
    詳しくは、[ターゲット母集団の識別](../../start/create-message.md#target-population)を参照してください。
 
-   ![宛先リンクを含む配信と、ターゲット母集団を定義する「追加」ボタンを表示するターゲットを選択ダイアログ ](assets/line_usecase_02.png)
+   ![宛先リンクを含む配信と、ターゲット母集団を定義する「追加」ボタンを表示するターゲットを選択ダイアログ &#x200B;](assets/line_usecase_02.png)
 
 1. 「**[!UICONTROL 追加]**」をクリックしてメッセージを作成し、**[!UICONTROL コンテンツタイプ]**&#x200B;を選択します。
 
    ここでは、最初に&#x200B;**[!UICONTROL テキストメッセージ]**&#x200B;を作成します。
 
-   ![ メッセージタイプがテキストメッセージに設定され、ウェルカムテキストがプロモーションコード付きのLINE メッセージエディター](assets/line_usecase_03.png)
+   ![&#x200B; メッセージタイプがテキストメッセージに設定され、ウェルカムテキストがプロモーションコード付きのLINE メッセージエディター](assets/line_usecase_03.png)
 
 1. パーソナライズされたテキストを挿入する位置にカーソルを置き、ドロップダウンアイコンをクリックしてから、**[!UICONTROL 訪問者]**／**[!UICONTROL 名]**&#x200B;を選択します。
 
@@ -278,7 +278,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
    **[!UICONTROL 画像の URL]** を追加します。
 
-   ![ メッセージの種類、画像URL、代替テキストが20% オフの画像とリンクのメッセージが](assets/line_usecase_07.png)に入力されました
+   ![&#x200B; メッセージの種類、画像URL、代替テキストが20% オフの画像とリンクのメッセージが](assets/line_usecase_07.png)に入力されました
 
 1. 「**[!UICONTROL リンク]**」セクションで、画像を複数のクリック可能な領域に分割するレイアウトを選択します。
 
@@ -290,5 +290,5 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
    配信がターゲットに送信されます。
 
-   ![ パーソナライズされた挨拶、プロモーションコードのテキスト、20% オフのシューズ画像を含むLINE メッセージを受信しました](assets/line_usecase_06.png)
+   ![&#x200B; パーソナライズされた挨拶、プロモーションコードのテキスト、20% オフのシューズ画像を含むLINE メッセージを受信しました](assets/line_usecase_06.png)
 

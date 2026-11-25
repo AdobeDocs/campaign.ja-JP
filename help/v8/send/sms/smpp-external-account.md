@@ -53,7 +53,7 @@ SMS サービスプロバイダー側のネットワーク機器は、SMSC と�
 
 ## 接続設定 {#smpp-connection-settings}
 
-![SMPP外部アカウントの「接続設定」タブ：サーバー、ポート、アカウント、パスワード、接続モード ](assets/smpp_connection_settings.png){zoomable="yes"}
+![SMPP外部アカウントの「接続設定」タブ：サーバー、ポート、アカウント、パスワード、接続モード &#x200B;](assets/smpp_connection_settings.png){zoomable="yes"}
 
 接続設定に必要なパラメーターとその役割は次のとおりです。
 
@@ -75,7 +75,7 @@ SMS サービスプロバイダー側のネットワーク機器は、SMSC と�
 
 **トランシーバモード**&#x200B;では、これは接続の合計数です。
 
-**トランスミッター + レシーバーモード**では、トランスミッター + レシーバーのペアの数を定義します（1 つのペア = 1 つのトランスミッター + 1 つのレシーバー）。
+**トランスミッター + レシーバーモード**&#x200B;では、トランスミッター + レシーバーのペアの数を定義します（1 つのペア = 1 つのトランスミッター + 1 つのレシーバー）。
 トランスミッターとレシーバーのバランスを変える方法はありません。
 
 * **専用プロセスを介してメッセージを送信**:
@@ -124,7 +124,7 @@ Adobe Campaign v8.7.2以降では、このオプションを常に有効にす�
 
 ## スループットと遅延 {#smpp-delays}
 
-![ スループットと遅延タブ：送信ウィンドウ、最大MT スループット、再接続、有効期限、バインドタイムアウト、inquire_link](assets/smpp_throughput.png){zoomable="yes"}
+![&#x200B; スループットと遅延タブ：送信ウィンドウ、最大MT スループット、再接続、有効期限、バインドタイムアウト、inquire_link](assets/smpp_throughput.png){zoomable="yes"}
 
 これらの設定は、SMPP チャネルのすべてのタイミングを制御します。 一部のプロバイダーでは、メッセージレート、ウィンドウ、再試行タイミングを非常に正確に制御する必要があるので、これらの設定は、プロバイダーの処理能力と契約で示される条件に一致する値に設定する必要があります。
 
@@ -199,7 +199,7 @@ UCS-2 は、Campaign でサポートされるすべての文字をエンコー�
 
 ## SMSC 特異性 {#smsc-specificities}
 
-message_payload、Bind TON/NPI、ステータス正規表現、ID形式およびTLS オプションを含む![SMSCの詳細タブ ](assets/smsc_specificities.png){zoomable="yes"}
+message_payload、Bind TON/NPI、ステータス正規表現、ID形式およびTLS オプションを含む![SMSCの詳細タブ &#x200B;](assets/smsc_specificities.png){zoomable="yes"}
 
 ### message_payload を有効化
 

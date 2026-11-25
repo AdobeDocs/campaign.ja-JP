@@ -51,7 +51,7 @@ ht-degree: 81%
 
 トランザクションメッセージの設定については、[Campaign トランザクションメッセージの設定](../config/transactional-msg-settings.md)を参照してください。
 
-[Message Center アーキテクチャ ](../architecture/architecture.md#transac-msg-archi)のトランザクション メッセージ アーキテクチャについて説明します。
+[Message Center アーキテクチャ &#x200B;](../architecture/architecture.md#transac-msg-archi)のトランザクション メッセージ アーキテクチャについて説明します。
 
 ## トランザクションメッセージの動作原理 {#transactional-messaging-operating-principle}
 
@@ -68,7 +68,7 @@ Adobe Campaign を使用すると、買い物かごに製品を追加した顧�
 1. [メッセージのテスト](transactional-template.md#test-message-template)。
 1. [メッセージテンプレートのパブリッシュ](transactional-template.md#publish-message-template)。
 
-トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされると、関連データがPushEvent メソッドおよびPushEvents [SOAP メソッド ](../send/event-description.md)を介してCampaignに送信され、配信がターゲット受信者に送信されます。
+トランザクションメッセージテンプレートを設計して公開すると、対応するイベントがトリガーされると、関連データがPushEvent メソッドおよびPushEvents [SOAP メソッド &#x200B;](../send/event-description.md)を介してCampaignに送信され、配信がターゲット受信者に送信されます。
 
 ## イベントタイプの作成 {#create-event-types}
 
@@ -86,7 +86,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 1. リストから&#x200B;**[!UICONTROL イベントタイプ]**&#x200B;列挙を選択します。
 1. 「**[!UICONTROL 追加]**」をクリックして、列挙の値を作成します。 注文の確認、パスワードの変更、注文の配送変更などがイベントタイプとして考えられます。
 
-   ![管理/プラットフォーム/列挙の下のイベントタイプ列挙、追加および列挙値ダイアログ ](assets/messagecenter_eventtype_enum_001.png)
+   ![管理/プラットフォーム/列挙の下のイベントタイプ列挙、追加および列挙値ダイアログ &#x200B;](assets/messagecenter_eventtype_enum_001.png)
 
    >[!CAUTION]
    >
@@ -98,4 +98,4 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 >
 >[列挙](../config/enumerations.md)について詳しく見る。
 
-次のステップでは、[ トランザクションメッセージ用のテンプレートを作成して公開する方法](transactional-template.md)について説明します。
+次のステップでは、[&#x200B; トランザクションメッセージ用のテンプレートを作成して公開する方法](transactional-template.md)について説明します。

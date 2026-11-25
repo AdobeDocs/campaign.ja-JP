@@ -73,7 +73,7 @@ Adobe Campaign では、メッセージのフォーマットが日本の携帯�
 * メッセージに含まれる画像の数がフォーマットの制限を超えていないことのチェック（20 以下）
 * メッセージの合計サイズのチェック（100 KB 未満）
 
-  ![ サポートされていないタグと100 kBのサイズ制限に関する警告を一覧表示するDeco-mail診断タブを含む結果ウィンドウのプレビュー](assets/deco-mail_06.png)
+  ![&#x200B; サポートされていないタグと100 kBのサイズ制限に関する警告を一覧表示するDeco-mail診断タブを含む結果ウィンドウのプレビュー](assets/deco-mail_06.png)
 
 ### タイポロジルールを実行 {#running-typology-rule}
 
@@ -98,7 +98,7 @@ Adobe Campaign では、メッセージのフォーマットが日本の携帯�
 Campaign を使用して日本語メールフォーマットでメールを受信者に送信するには、2 つのオプションがあります。
 
 * 2つの配信を作成します。1つは日本語の受信者に対してのみ、もう1つは他の受信者に対してです。[日本語の形式に対して特定の配信をデザインする](#designing-a-specific-delivery-for-japanese-formats)を参照してください。
-* 1つの配信を作成すると、Adobe Campaignが使用する形式を自動的に検出します。[すべての形式の配信をデザイン ](#designing-a-delivery-for-all-formats)します。
+* 1つの配信を作成すると、Adobe Campaignが使用する形式を自動的に検出します。[すべての形式の配信をデザイン &#x200B;](#designing-a-delivery-for-all-formats)します。
 
 ### 日本独自のフォーマットに対応する配信のデザイン {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -108,7 +108,7 @@ Campaign を使用して日本語メールフォーマットでメールを受�
 
 ![3つのメール形式の条件をOrで組み合わせたフィルターダイアログ：Deco-mail、Decore Mail、Decore Mail](assets/deco-mail_08.png)
 
-![ ワークフロー：クエリ、重複排除、メール形式による日本語のモバイル配信および標準配信への分割](assets/deco-mail_07.png)
+![&#x200B; ワークフロー：クエリ、重複排除、メール形式による日本語のモバイル配信および標準配信への分割](assets/deco-mail_07.png)
 
 ### すべてのフォーマットに対応する配信のデザイン {#designing-a-delivery-for-all-formats}
 

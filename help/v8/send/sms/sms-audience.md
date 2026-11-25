@@ -45,7 +45,7 @@ ht-degree: 69%
 
 1. オーディエンスはAdobe Campaign データベースに保存されているので、「**[!UICONTROL Main target]**」タブで「**[!UICONTROL Defined in the database]**」オプションを選択します。
 
-   ![ データベースで定義されたオプションを選択したターゲットダイアログを選択し、宛先リンクから開く](assets/audience_to.png){zoomable="yes"}
+   ![&#x200B; データベースで定義されたオプションを選択したターゲットダイアログを選択し、宛先リンクから開く](assets/audience_to.png){zoomable="yes"}
 
 1. ドロップダウンリストで「**[!UICONTROL ターゲットマッピング]**」を選択します。 Adobe Campaignのデフォルトのターゲットマッピングは、**[!UICONTROL nms:recipient]** スキーマに基づく受信者です。
 
@@ -55,7 +55,7 @@ ht-degree: 69%
 
    次に、適用するフィルターのタイプを選択します。
 
-   ![選択するターゲットの種類とユーザーフィルターを一覧表示するターゲット要素を選択ダイアログ ](assets/audience_filters.png){zoomable="yes"}
+   ![選択するターゲットの種類とユーザーフィルターを一覧表示するターゲット要素を選択ダイアログ &#x200B;](assets/audience_filters.png){zoomable="yes"}
 
    使用するターゲットタイプを選択し、「**[!UICONTROL 次へ]**」ボタンをクリックします。
 
@@ -74,7 +74,7 @@ ht-degree: 69%
 
 1. ラベル フィールドにオーディエンスの名前を入力し、**[!UICONTROL 終了]** ボタンをクリックして、オーディエンスを検証します。
 
-   ![ ラベル mobileを持つターゲット要素定義が空ではなく、Mobile上のフィルターが表示され、ハイライト表示されます](assets/audience_finish.png){zoomable="yes"}
+   ![&#x200B; ラベル mobileを持つターゲット要素定義が空ではなく、Mobile上のフィルターが表示され、ハイライト表示されます](assets/audience_finish.png){zoomable="yes"}
 
    **[!UICONTROL 追加]** ボタンをもう一度クリックすると、必要な数のターゲット母集団を追加できます。 また、ラベルの後にある「X」をクリックして、一部のラベルを削除することもできます。
 

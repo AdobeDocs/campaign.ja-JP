@@ -41,7 +41,7 @@ ht-degree: 80%
 
 SMS プロセスと環境とのやり取りをまとめた、大まかなブロックダイアグラムを次に示します。
 
-Campaign データベースとSMPP プロバイダーにリンクされたSMPP コネクタとSR調整を持つ![SMS プロセス ](assets/smsv2_highlevel.png){zoomable="yes"}
+Campaign データベースとSMPP プロバイダーにリンクされたSMPP コネクタとSR調整を持つ![SMS プロセス &#x200B;](assets/smsv2_highlevel.png){zoomable="yes"}
 
 SMS プロセスでは、SMPP プロバイダーとの通信を処理する SMPP コネクタ自体と、SR 紐付けのためのバックグラウンドタスクという 2 つの重要なコンポーネントをホストします。
 
@@ -91,7 +91,7 @@ SMS プロセスはnms:extAccountをポーリングし、各アカウントの�
 
 次のダイアグラムは、プロセス全体を表しています。
 
-![ ブロード ログ、providerMsgId、providerMsgStatus、SMPP コネクタおよびプロバイダーの3つのフェーズのシーケンス図](assets/message_processing.png){zoomable="yes"}
+![&#x200B; ブロード ログ、providerMsgId、providerMsgStatus、SMPP コネクタおよびプロバイダーの3つのフェーズのシーケンス図](assets/message_processing.png){zoomable="yes"}
 
 **フェーズ 1**
 

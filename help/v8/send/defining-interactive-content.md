@@ -39,7 +39,7 @@ AMP for Email を使用して、次のことができます。
 * 適切に設定された特定のアドレスに対する AMP メールの配信をテストする
 * 対応するプロバイダーに登録した後、AMP メールを Gmail または Mail.ru アドレスに配信します。
 
-AMP メールのテストと送信について詳しくは、[AMP メールのターゲット ](#targeting-amp-email)を参照してください。
+AMP メールのテストと送信について詳しくは、[AMP メールのターゲット &#x200B;](#targeting-amp-email)を参照してください。
 
 この機能は、Adobe Campaign の専用パッケージで使用できます。 権限とデプロイメントモデルに応じて、このパッケージをインストールするか、Adobeに連絡してインストールできます。
 
@@ -56,7 +56,7 @@ AMP for Email は、既存のメールと互換性があります。 メッセ�
 
 AMP 用メールフォーマット、仕様および要件について詳しくは、[AMP 開発者向けドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email)を参照してください。
 
-![電子メール用AMP ビデオの再生アイコン ](assets/do-not-localize/how-to-video.png) [ ビデオでこの機能を見つける](#amp-email-video)
+![電子メール用AMP ビデオの再生アイコン &#x200B;](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を見つける](#amp-email-video)
 
 ## Adobe Campaign で AMP for Email を使用するための主要な手順 {#key-steps-to-use-amp}
 
@@ -67,7 +67,7 @@ Adobe Campaign で AMPメールを正常にテストして送信するには、�
 
    >[!NOTE]
    >
-   >現在、AMP メールを配信できるのは、[特定のメールアドレス ](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
+   >現在、AMP メールを配信できるのは、[特定のメールアドレス &#x200B;](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
 
 1. 通常どおりにメールを送信します。 [AMPメールの送信](#sending-amp-email)を参照してください。
 
@@ -99,7 +99,7 @@ AMP フォーマットを使用してメールを作成するには、以下の�
 
 1. 必要に応じて AMP コンテンツをパーソナライズします。通常、Adobe Campaign で HTML フォーマットに対しておこなう場合と同様に、パーソナライゼーションフィールドとパーソナライゼーションブロックを使用します。
 
-   ![ コードで受信者の名のパーソナライゼーションフィールドが強調表示されたAMP コンテンツエディター](assets/amp_tab_perso.png)
+   ![&#x200B; コードで受信者の名のパーソナライゼーションフィールドが強調表示されたAMP コンテンツエディター](assets/amp_tab_perso.png)
 
 1. 編集が完了したら、AMP コンテンツ全体を選択して、[AMP Web ベースのバリデーター](https://validator.ampproject.org)または類似の Web サイトにコピー＆ペーストします。
 

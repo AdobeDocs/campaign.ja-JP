@@ -52,13 +52,13 @@ ht-degree: 61%
 
 1. 「**[!UICONTROL プロパティ]**」ボタンで、すべてが必要に応じて設定されていることを確認できます。 [詳しくは、「SMS」タブを参照してください](sms-delivery-settings.md#sms-tab)
 
-   ![一般タブ、ルーティングフィールド、SMS タブがハイライト表示されたSMS配信の配信プロパティ ](assets/sms_settings.png){zoomable="yes"}
+   ![一般タブ、ルーティングフィールド、SMS タブがハイライト表示されたSMS配信の配信プロパティ &#x200B;](assets/sms_settings.png){zoomable="yes"}
 
 1. 配信の[コンテンツを定義します](sms-content.md)。
 
 1. [オーディエンスを選択します](sms-audience.md)。
 
-オーディエンスを定義する手順について詳しくは、[ キャンペーンでのプロファイルオーディエンスの作成](../../audiences/create-audiences.md)を参照してください。
+オーディエンスを定義する手順について詳しくは、[&#x200B; キャンペーンでのプロファイルオーディエンスの作成](../../audiences/create-audiences.md)を参照してください。
 
 ## SMS の検証と送信 {#sms-validate}
 

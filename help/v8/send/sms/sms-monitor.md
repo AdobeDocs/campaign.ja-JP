@@ -47,7 +47,7 @@ ht-degree: 52%
 
 「**[!UICONTROL 概要]**」タブには、処理されたメッセージの数や成功の数などの主なデータが表示されます。
 
-![SMS配信ダッシュボードの概要タブ。送信、処理済み、成功率、配信ステータス ](assets/sms_summary.png){zoomable="yes"}に関するメッセージが表示されている
+![SMS配信ダッシュボードの概要タブ。送信、処理済み、成功率、配信ステータス &#x200B;](assets/sms_summary.png){zoomable="yes"}に関するメッセージが表示されている
 
 SMS の送信後は、配信のコンテンツに関する「**[!UICONTROL SMS]**」タブにアクセスして変更することはできなくなります。
 
@@ -61,7 +61,7 @@ SMS の送信後は、配信のコンテンツに関する「**[!UICONTROL SMS]*
 
 「**[!UICONTROL トラッキング]**」タブには、トラッキングに関する情報が表示されます。 以下は、SMS コンテンツで追跡されるURLの例です。
 
-![SMS コンテンツからトラッキングされたURLをラベル、タイプ、ソース URLと共に表示するトラッキングタブ URLのリスト ](assets/sms_trackinglogs.png){zoomable="yes"}
+![SMS コンテンツからトラッキングされたURLをラベル、タイプ、ソース URLと共に表示するトラッキングタブ URLのリスト &#x200B;](assets/sms_trackinglogs.png){zoomable="yes"}
 
 最後に、配信のローンチ中の詳細がすべて表示される「**[!UICONTROL 監査]**」タブを以下に示します。
 

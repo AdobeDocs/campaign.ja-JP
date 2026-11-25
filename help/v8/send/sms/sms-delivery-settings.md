@@ -46,7 +46,7 @@ SMS配信の作成ごとに設定を行わないようにするために、こ�
 
 ## 「SMS」タブの設定 {#sms-tab}
 
-一般的なパラメーターとオプションのSMPP パラメーター（TLV） テーブルを含む配信プロパティの![SMS タブ ](assets/send_settings.png){zoomable="yes"}
+一般的なパラメーターとオプションのSMPP パラメーター（TLV） テーブルを含む配信プロパティの![SMS タブ &#x200B;](assets/send_settings.png){zoomable="yes"}
 
 フォームに入力する必要のある情報は次のとおりです。 各フィールドについては、以下で説明します。
 

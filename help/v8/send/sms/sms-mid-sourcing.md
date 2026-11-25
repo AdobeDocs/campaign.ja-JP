@@ -59,7 +59,7 @@ SMS オペレーターを作成するには、次の手順に従います。
 
    名前（ログイン）は、後からミッドサーバーで SMPP 外部アカウントに名前を付けるために使用します。
 
-   ![名前（ログイン）、パスワードとラベル、および権限の「追加」ボタンを持つミッドサーバー上の新しいSMS オペレーターフォーム ](assets/smsoperator_mid.png){zoomable="yes"}
+   ![名前（ログイン）、パスワードとラベル、および権限の「追加」ボタンを持つミッドサーバー上の新しいSMS オペレーターフォーム &#x200B;](assets/smsoperator_mid.png){zoomable="yes"}
 
 1. **[!UICONTROL グループとネームド権限]**&#x200B;パートで、「**[!UICONTROL 追加]**」ボタンをクリックします。
 開いた新しいウィンドウで、**[!UICONTROL フォルダー]**&#x200B;リストで「**[!UICONTROL ネームド権限]**」を選択し、右側のリストで「**[!UICONTROL 管理]**」を選択します。
@@ -70,11 +70,11 @@ SMS オペレーターを作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL 保存]**」ボタンをクリックして、SMS オペレーターの作成を完了します。
 
-   管理権限が追加され、保存ボタンが強調表示された![SMS オペレーターフォーム ](assets/smsoperator_save.png){zoomable="yes"}
+   管理権限が追加され、保存ボタンが強調表示された![SMS オペレーターフォーム &#x200B;](assets/smsoperator_save.png){zoomable="yes"}
 
 オペレーターリストで確認できるようになりました。
 
-![新しいMid sms オペレーター（smsOperator）を表示するオペレーターリスト ](assets/smsoperator_list.png){zoomable="yes"}
+![新しいMid sms オペレーター（smsOperator）を表示するオペレーターリスト &#x200B;](assets/smsoperator_list.png){zoomable="yes"}
 
 ## マーケティングサーバーでの SMS 外部アカウントの作成 {#sms-external-account}
 
@@ -86,17 +86,17 @@ SMS オペレーターを作成するには、次の手順に従います。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL 外部アカウント]**&#x200B;で、**[!UICONTROL 新規]**&#x200B;アイコンをクリックします
 
-   新しいアイコンがハイライト表示された管理/プラットフォームの![外部アカウントリスト ](assets/sms_extaccount.png){zoomable="yes"}
+   新しいアイコンがハイライト表示された管理/プラットフォームの![外部アカウントリスト &#x200B;](assets/sms_extaccount.png){zoomable="yes"}
 
 1. 外部アカウントの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を設定します。 アカウントタイプを&#x200B;**[!UICONTROL ルーティング]**&#x200B;として定義し、「**[!UICONTROL 有効]**」ボックスをオンにして、チャネルに「**[!UICONTROL モバイル（SMS）]**」、配信モードに「**[!UICONTROL ミッドソーシング]**」を選択します。
 
-   ![外部アカウントの「一般」タブ：ルーティングタイプ、有効、モバイル（SMS）チャネル、ミッドソーシング配信モード ](assets/mid_smsextaccount.png){zoomable="yes"}
+   ![外部アカウントの「一般」タブ：ルーティングタイプ、有効、モバイル（SMS）チャネル、ミッドソーシング配信モード &#x200B;](assets/mid_smsextaccount.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ミッドソーシング]**」タブで、ミッドソーシングサーバーの URL と、ミッドサーバーで以前に作成した SMS オペレーターをフォームに入力します。
 
    「**[!UICONTROL 接続をテスト]**」ボタンをクリックして、接続を確認します。
 
-   ![ サーバーURL、SMS オペレーターアカウント、パスワードおよび接続ボタンのテストを含む「ミッドソーシング」タブ ](assets/midtab_smsextaccount.png){zoomable="yes"}
+   ![&#x200B; サーバーURL、SMS オペレーターアカウント、パスワードおよび接続ボタンのテストを含む「ミッドソーシング」タブ &#x200B;](assets/midtab_smsextaccount.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -120,13 +120,13 @@ SMS オペレーターを作成するには、次の手順に従います。
    >
 
    アカウントタイプを&#x200B;**[!UICONTROL ルーティング]**&#x200B;として定義し、「**[!UICONTROL 有効]**」ボックスをオンにして、チャネルに「**[!UICONTROL モバイル（SMS）]**」、配信モードに「**[!UICONTROL 一括配信]**」を選択します。
-   ![ ミッドサーバーの外部アカウントの「一般」タブ：ルーティングタイプ、有効、モバイル（SMS）チャネルおよび一括配信モード ](assets/mid_extaccount.png){zoomable="yes"}
+   ![&#x200B; ミッドサーバーの外部アカウントの「一般」タブ：ルーティングタイプ、有効、モバイル（SMS）チャネルおよび一括配信モード &#x200B;](assets/mid_extaccount.png){zoomable="yes"}
 
 1. 「**[!UICONTROL モバイル]**」タブで、**[!UICONTROL コネクタ]**&#x200B;ドロップダウンリストにある&#x200B;**[!UICONTROL 拡張された汎用 SMPP]** をそのままにしておきます。
 
    デフォルトでは、「**[!UICONTROL 専用プロセスを通じてメッセージを送信]**」ボックスがオンになっています。
 
-   ![拡張汎用SMPP コネクタを使用したモバイルタブと、専用プロセスを介したメッセージの送信のチェック ](assets/sms_extaccount_connector.png){zoomable="yes"}
+   ![拡張汎用SMPP コネクタを使用したモバイルタブと、専用プロセスを介したメッセージの送信のチェック &#x200B;](assets/sms_extaccount_connector.png){zoomable="yes"}
 
    接続を設定するには、このフォームのタブに入力する必要があります。 詳しくは、[SMPP 外部アカウントの詳細情報](smpp-external-account.md#smpp-connection-settings)を参照してください。
 
@@ -136,11 +136,11 @@ SMS配信の作成を容易にするには、すべての設定が参照され�
 
 マーケティングサーバーの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;で、既存のモバイル配信テンプレートを右クリックし、「**[!UICONTROL 複製]**」を選択します。
 
-![ モバイル（SMS）テンプレートのコンテキストメニューで重複を選択した配信テンプレートリスト ](assets/sms_template_duplicate.png){zoomable="yes"}
+![&#x200B; モバイル（SMS）テンプレートのコンテキストメニューで重複を選択した配信テンプレートリスト &#x200B;](assets/sms_template_duplicate.png){zoomable="yes"}
 
 テンプレートの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を簡単に認識できるように変更し、「**[!UICONTROL プロパティ]**」ボタンをクリックします。
 
-![ ラベルおよび内部名フィールドとプロパティ ボタンが強調表示された重複した配信テンプレート ](assets/sms_template_name.png){zoomable="yes"}
+![&#x200B; ラベルおよび内部名フィールドとプロパティ ボタンが強調表示された重複した配信テンプレート &#x200B;](assets/sms_template_name.png){zoomable="yes"}
 
 「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL ルーティング]**&#x200B;で、SMPP 外部アカウントを選択します。
 
@@ -148,6 +148,6 @@ SMS配信の作成を容易にするには、すべての設定が参照され�
 
 「**[!UICONTROL SMS]**」タブでは、テンプレートにオプションのパラメーターを追加できます。
 
-![一般的なパラメーターとオプションのSMPP パラメーター（TLV）を含む配信プロパティ SMS タブ ](assets/sms_template_properties.png){zoomable="yes"}
+![一般的なパラメーターとオプションのSMPP パラメーター（TLV）を含む配信プロパティ SMS タブ &#x200B;](assets/sms_template_properties.png){zoomable="yes"}
 
 [詳しくは、この SMS タブの設定を参照してください](sms-delivery-settings.md)。

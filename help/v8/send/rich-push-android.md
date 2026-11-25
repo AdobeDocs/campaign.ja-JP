@@ -83,7 +83,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL メッセージ]**」フィールドにテキストを入力します。
 
-   ![ プロモーションコードオファーに入力されたタイトルとメッセージフィールドを含むデフォルトの通知](assets/rich_push_default_2.png)
+   ![&#x200B; プロモーションコードオファーに入力されたタイトルとメッセージフィールドを含むデフォルトの通知](assets/rich_push_default_2.png)
 
 1. 動的パーソナライゼーションフィールドを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。 [詳細情報](../send/personalize.md)
 
@@ -103,7 +103,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![ タイトル、メッセージおよび拡張メッセージのフィールドが](assets/rich_push_basic_2.png)に入力された基本的な通知
+   ![&#x200B; タイトル、メッセージおよび拡張メッセージのフィールドが](assets/rich_push_basic_2.png)に入力された基本的な通知
 
 1. 動的パーソナライゼーションフィールドを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。 [詳細情報](../send/personalize.md)
 
@@ -130,7 +130,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    Android アプリリンクの処理方法について詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/training/app-links)を参照してください。
 
-   ![今すぐ購入するラベルが付いた1つのWeb URL ボタンを持つ基本的な通知ボタン表！ ](assets/rich_push_basic_3.png)に入力した後で入力したフィールドにリマインドする
+   ![今すぐ購入するラベルが付いた1つのWeb URL ボタンを持つ基本的な通知ボタン表！ &#x200B;](assets/rich_push_basic_3.png)に入力した後で入力したフィールドにリマインドする
 
 1. プッシュ通知をさらにカスタマイズするには、プッシュ通知の&#x200B;**[!UICONTROL 通知オプション]**&#x200B;と **[!UICONTROL HTTPv1 追加オプション]**&#x200B;を設定します。 [詳細情報](#push-advanced)
 
@@ -148,7 +148,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![ タイトル、メッセージおよび拡張メッセージのフィールドが](assets/rich_push_carousel_1.png)に入力されたカルーセル通知
+   ![&#x200B; タイトル、メッセージおよび拡張メッセージのフィールドが](assets/rich_push_carousel_1.png)に入力されたカルーセル通知
 
 1. 式エディターを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。 [詳細情報](../send/personalize.md)
 
@@ -165,11 +165,11 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    少なくとも 3 つの画像、最大 5 つの画像を含めます。
 
-   ![ カルーセルオプションをフィルムストリップレイアウトで手動に設定し、画像テーブルにアクション URIを含む3つの画像](assets/rich_push_carousel_2.png)
+   ![&#x200B; カルーセルオプションをフィルムストリップレイアウトで手動に設定し、画像テーブルにアクション URIを含む3つの画像](assets/rich_push_carousel_2.png)
 
 1. プッシュ通知をさらにカスタマイズするには、プッシュ通知の&#x200B;**[!UICONTROL 通知オプション]**&#x200B;と **[!UICONTROL HTTPv1 追加オプション]**&#x200B;を設定します。 [詳細情報](#push-advanced)
 
-   ![ カルーセル通知の通知オプションとHTTPv1追加オプションが入力されました](assets/rich_push_carousel_3.png)
+   ![&#x200B; カルーセル通知の通知オプションとHTTPv1追加オプションが入力されました](assets/rich_push_carousel_3.png)
 
 メッセージのコンテンツを定義したら、テストサブスクライバーを利用して、メッセージをプレビューしテストできます。
 
@@ -181,7 +181,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
 
-   背景色に16進数の値を入力した![ アイコンボタン通知](assets/rich_push_icon_2.png)
+   背景色に16進数の値を入力した![&#x200B; アイコンボタン通知](assets/rich_push_icon_2.png)
 
 1. **[!UICONTROL キャンセルボタン画像]**&#x200B;の URL を指定します。
 
@@ -189,7 +189,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    少なくとも 3 つの画像、最大 5 つの画像を含めます。
 
-   ![3つのWeb URL ボタンを含むボタン画像URLとアイコン画像ボタンテーブル ](assets/rich_push_icon_3.png)
+   ![3つのWeb URL ボタンを含むボタン画像URLとアイコン画像ボタンテーブル &#x200B;](assets/rich_push_icon_3.png)
 
 1. プッシュ通知をさらにカスタマイズするには、プッシュ通知の&#x200B;**[!UICONTROL 通知オプション]**&#x200B;と **[!UICONTROL HTTPv1 追加オプション]**&#x200B;を設定します。 [詳細情報](#push-advanced)
 
@@ -201,13 +201,13 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. **[!UICONTROL 通知タイプ]**&#x200B;ドロップダウンから、「**[!UICONTROL 入力ボックス]**」を選択します。
 
-   ![Android コンテンツ タブで入力ボックスが選択された通知タイプ リスト ](assets/rich_push_input.png)
+   ![Android コンテンツ タブで入力ボックスが選択された通知タイプ リスト &#x200B;](assets/rich_push_input.png)
 
 1. メッセージを作成するには、「**[!UICONTROL タイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 拡張されたメッセージ]**」の各フィールドにテキストを入力します。
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![ タイトル、メッセージおよび拡張メッセージのフィールドが](assets/rich_push_input_2.png)に入力された入力ボックスの通知
+   ![&#x200B; タイトル、メッセージおよび拡張メッセージのフィールドが](assets/rich_push_input_2.png)に入力された入力ボックスの通知
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
 
@@ -230,13 +230,13 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. **[!UICONTROL 通知タイプ]**&#x200B;ドロップダウンから、「**[!UICONTROL 製品カタログ]**」を選択します。
 
-   ![Android コンテンツ タブで商品カタログが選択された通知タイプ リスト ](assets/rich_push_catalog.png)
+   ![Android コンテンツ タブで商品カタログが選択された通知タイプ リスト &#x200B;](assets/rich_push_catalog.png)
 
 1. メッセージを作成するには、「**[!UICONTROL タイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 拡張されたメッセージ]**」の各フィールドにテキストを入力します。
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![ タイトルとメッセージフィールドが入力された製品カタログ通知](assets/rich_push_catalog_2.png)
+   ![&#x200B; タイトルとメッセージフィールドが入力された製品カタログ通知](assets/rich_push_catalog_2.png)
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
 
@@ -248,7 +248,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
    * **[!UICONTROL アクションボタン URI]**：ボタンクリック時に実行する URI を指定します。
    * **[!UICONTROL 表示タイプ]**：垂直表示または水平表示を選択します。
 
-   ![製品カタログのオプション：アクション ボタン テキスト、アクション ボタンの色、アクション ボタン URIおよび表示タイプ ](assets/rich_push_catalog_3.png)
+   ![製品カタログのオプション：アクション ボタン テキスト、アクション ボタンの色、アクション ボタン URIおよび表示タイプ &#x200B;](assets/rich_push_catalog_3.png)
 
 1. **[!UICONTROL 製品カタログ項目]**&#x200B;メニューで「**[!UICONTROL 追加]**」をクリックし、各項目に次の詳細を入力します。
 
@@ -260,7 +260,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    必ず最大 3 つの項目を含めます。
 
-   タイトル、画像、価格、URIを示す3つのアイテムを含む![製品カタログ項目テーブル ](assets/rich_push_catalog_4.png)
+   タイトル、画像、価格、URIを示す3つのアイテムを含む![製品カタログ項目テーブル &#x200B;](assets/rich_push_catalog_4.png)
 
 1. プッシュ通知をさらにカスタマイズするには、プッシュ通知の&#x200B;**[!UICONTROL 通知オプション]**&#x200B;と **[!UICONTROL HTTPv1 追加オプション]**&#x200B;を設定します。 [詳細情報](#push-advanced)
 
@@ -270,19 +270,19 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. **[!UICONTROL 通知タイプ]**&#x200B;ドロップダウンから、「**[!UICONTROL 製品評価]**」を選択します。
 
-   ![Android コンテンツ タブで商品の評価が選択された通知タイプ リスト ](assets/rich_push_rating.png)
+   ![Android コンテンツ タブで商品の評価が選択された通知タイプ リスト &#x200B;](assets/rich_push_rating.png)
 
 1. メッセージを作成するには、「**[!UICONTROL タイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 拡張されたメッセージ]**」の各フィールドにテキストを入力します。
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![ タイトルとメッセージフィールドが入力された製品の評価に関する通知](assets/rich_push_rating_2.png)
+   ![&#x200B; タイトルとメッセージフィールドが入力された製品の評価に関する通知](assets/rich_push_rating_2.png)
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
 
 1. **[!UICONTROL 製品評価オプション]** メニューで、**[!UICONTROL 選択されていない状態の評価アイコン]**&#x200B;と&#x200B;**[!UICONTROL 選択されている状態の評価アイコン]**&#x200B;の URL を入力します。
 
-   ![未選択状態および選択状態の評価アイコンの画像URLを含む製品の評価オプション ](assets/rich_push_rating_3.png)
+   ![未選択状態および選択状態の評価アイコンの画像URLを含む製品の評価オプション &#x200B;](assets/rich_push_rating_3.png)
 
 1. **[!UICONTROL 製品評価項目]** メニューで、**[!UICONTROL 追加]**&#x200B;をクリックし、**[!UICONTROL リンク URI]**&#x200B;を入力して、**[!UICONTROL リンクタイプ]**&#x200B;を選択します。
 
@@ -300,7 +300,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. プッシュ通知をさらにカスタマイズするには、プッシュ通知の&#x200B;**[!UICONTROL 通知オプション]**&#x200B;と **[!UICONTROL HTTPv1 追加オプション]**&#x200B;を設定します。 [詳細情報](#push-advanced)
 
-   ![ カルーセル通知の通知オプションとHTTPv1追加オプションが入力されました](assets/rich_push_carousel_3.png)
+   ![&#x200B; カルーセル通知の通知オプションとHTTPv1追加オプションが入力されました](assets/rich_push_carousel_3.png)
 
 メッセージのコンテンツを定義したら、テストサブスクライバーを利用して、メッセージをプレビューしテストできます。
 
@@ -314,17 +314,17 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![ タイトルフィールドとメッセージフィールドが入力されたタイマー通知、および代替メッセージフィールド ](assets/rich_push_timer_2.png)
+   ![&#x200B; タイトルフィールドとメッセージフィールドが入力されたタイマー通知、および代替メッセージフィールド &#x200B;](assets/rich_push_timer_2.png)
 
 1. タイマーの有効期限が切れた後に表示されるテキストを「**[!UICONTROL 代替タイトル]**」、「**[!UICONTROL 代替メッセージ]**」、「**[!UICONTROL 拡張された代替メッセージ]**」の各フィールドに入力します。
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、「**[!UICONTROL タイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 背景]**」、「**[!UICONTROL タイマー]**」の 16 進数のカラーコードを入力します。
 
-   ![ タイマー通知のカラーオプション：タイトルの色、メッセージの色、背景色およびタイマーの色](assets/rich_push_timer_3.png)
+   ![&#x200B; タイマー通知のカラーオプション：タイトルの色、メッセージの色、背景色およびタイマーの色](assets/rich_push_timer_3.png)
 
 1. **[!UICONTROL タイマー期間]**&#x200B;を秒単位で設定するか、**[!UICONTROL タイマー終了タイムスタンプ]**&#x200B;を特定のエポックタイムスタンプに設定し、タイマーの有効期限が切れた後に表示される&#x200B;**[!UICONTROL 代替画像]** URL を追加します。
 
-   ![ タイマー期間が3600に設定され、代替イメージ URLが設定されたタイマーオプション ](assets/rich_push_timer_4.png)
+   ![&#x200B; タイマー期間が3600に設定され、代替イメージ URLが設定されたタイマーオプション &#x200B;](assets/rich_push_timer_4.png)
 
 1. プッシュ通知をさらにカスタマイズするには、プッシュ通知の&#x200B;**[!UICONTROL 通知オプション]**&#x200B;と **[!UICONTROL HTTPv1 追加オプション]**&#x200B;を設定します。 [詳細情報](#push-advanced)
 
@@ -340,7 +340,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![ タイトルとメッセージフィールドが入力されたベゼル通知をゼロにする](assets/rich_push_zero_2.png)
+   ![&#x200B; タイトルとメッセージフィールドが入力されたベゼル通知をゼロにする](assets/rich_push_zero_2.png)
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
 

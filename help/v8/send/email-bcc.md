@@ -62,7 +62,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 1. 「**[!UICONTROL プロパティ]**」ボタンをクリックします。
 1. 「**[!UICONTROL 配信]**」タブで、「**[!UICONTROL 強化されたMTA]**&#x200B;を使用したBCCの電子メール」オプションを確認します。
 
-   ![強化されたMomentum オプションがハイライト表示されたメール BCCの配信プロパティ配信タブ ](assets/email-bcc.png)
+   ![強化されたMomentum オプションがハイライト表示されたメール BCCの配信プロパティ配信タブ &#x200B;](assets/email-bcc.png)
 
 1. 「**[!UICONTROL OK]**」をクリックして確定します。
 
