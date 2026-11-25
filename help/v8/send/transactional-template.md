@@ -113,7 +113,7 @@ ht-degree: 76%
 
    ラベル、電子メール、外部識別子フィールドが![&#128279;](assets/messagecenter_create_seed_2.png)に入力された シードアドレスダイアログ
 
-1. テストデータを挿入します。 [Campaign Classic v7 ドキュメントのパーソナライゼーションデータの詳細情報](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. テストデータを挿入します。 [Campaign Classic v7 ドキュメントのパーソナライゼーションデータの詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![&#x200B; イベントコンテキストのXMLとして書き込まれた、コンテンツセクションのテストデータを含むシードアドレスダイアログ &#x200B;](assets/messagecenter_create_custo_3.png)
 

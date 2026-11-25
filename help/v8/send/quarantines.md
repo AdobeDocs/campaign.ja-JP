@@ -62,7 +62,7 @@ Adobe Campaign は、オンラインチャネル（メール、SMS、プッシ�
 
 >[!NOTE]
 >
->[&quot;mailto&quot; List-Unsubscribe メソッド &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}を介した購読解除された受信者は、強制隔離に送信されません。 配信にサービスが定義されていない場合、配信に関連付けられている[&#x200B; サービス &#x200B;](../start/subscriptions.md)から購読を解除されるか、または配信にサービスが定義されていない場合はメールブロックリスト（プロファイルの&#x200B;**[!UICONTROL もう連絡先]** セクションに表示）に送信されます。
+>[&quot;mailto&quot; List-Unsubscribe メソッド &#x200B;](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}を介した購読解除された受信者は、強制隔離に送信されません。 配信にサービスが定義されていない場合、配信に関連付けられている[&#x200B; サービス &#x200B;](../start/subscriptions.md)から購読を解除されるか、または配信にサービスが定義されていない場合はメールブロックリスト（プロファイルの&#x200B;**[!UICONTROL もう連絡先]** セクションに表示）に送信されます。
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 

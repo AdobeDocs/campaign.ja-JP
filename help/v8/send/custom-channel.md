@@ -109,7 +109,7 @@ Campaign Web UIから、カスタム画面定義を設定します。
 
    ![画面編集ボタンが右上にある配信（nms）スキーマページ &#x200B;](assets/cus-schema2.png){zoomable="yes"}
 
-1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}を参照してください。
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=ja#fields){target="_blank"}を参照してください。
 
    ![画面定義ダイアログ、カスタムチャネルタブ、ラベル、属性、タイプ、必須オプションを含むカスタムフィールドのリスト &#x200B;](assets/cus-schema3.png){zoomable="yes"}
 
