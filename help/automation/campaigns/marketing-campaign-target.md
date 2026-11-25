@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1607'
-ht-degree: 99%
+source-wordcount: '1953'
+ht-degree: 79%
 ---
 # キャンペーンのオーディエンスの選択 {#marketing-campaign-deliveries}
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 * ターゲットオーディエンス。 メッセージを[受信者のリスト](#send-to-a-group)に送信するか、[ワークフローでオーディエンス](#build-the-main-target-in-a-workflow)を作成できます。
 * コントロール母集団。 [コントロール母集団を追加](#add-a-control-group)すると、メッセージ配信後の受信者の行動を監視できます。
-* シードアドレス - 詳しくは [この節](../../v8/audiences/test-profiles.md)を参照してください。
+* シードアドレス - [Campaignでのテストプロファイルの作成](../../v8/audiences/test-profiles.md)の詳細をご覧ください。
 
 この情報の一部は、[キャンペーンテンプレート](marketing-campaign-templates.md#campaign-templates)から継承できます。
 
@@ -54,16 +54,16 @@ To build the delivery target, you can define filtering criteria for the recipien
 1. 配信を編集し、「**[!UICONTROL 宛先]**」リンクをクリックしてターゲット母集団を変更します。
 1. 「**[!UICONTROL メインターゲット]**」タブで「**[!UICONTROL データベースで定義]**」オプションを選択し、「**[!UICONTROL 追加]**」をクリックして、受信者を選択します。
 
-   ![](assets/select-main-target.png)
+   ![ ターゲットダイアログ、メインターゲットタブを選択し、データベースで「定義」を選択して、ターゲット母集団の「追加」リンクを表示](assets/select-main-target.png)
 
 1. 「**[!UICONTROL 受信者のリスト]**」を選択します。
 
-   ![](assets/target-a-list.png)
+   ![ ターゲット要素を選択ダイアログ、ターゲットの種類ステップ、制限フィルターのリストで受信者のリストが選択されている](assets/target-a-list.png)
 
 
 1. 「**[!UICONTROL 次へ]**」をクリックして、リストを選択します。
 
-   ![](assets/select-the-list.png)
+   ![ リスト フォルダーでリストが選択されたターゲット要素ダイアログ、ターゲット要素ステップを選択](assets/select-the-list.png)
 
    新しいフィルター条件を追加して、ターゲットを絞り込むことができます。
 
@@ -81,7 +81,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 ターゲティングは、ワークフロー内のグラフィカルなシーケンスでフィルタリング条件を組み合わせて作成できます。 ターゲットとする母集団およびサブ母集団を要件に合わせて作成できます。 ワークフローエディターを表示するには、キャンペーンダッシュボードで「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。
 
-![](assets/targeting-and-wf-tab.png)
+ダッシュボードと編集タブの横に「ターゲティングとワークフロー」タブが強調表示された![ キャンペーンダッシュボード ](assets/targeting-and-wf-tab.png)
 
 ワークフロー内に 1 つ以上のクエリを配置して、ターゲット母集団を Adobe Campaign データベースから抽出します。 クエリの作成方法については、[この節](../workflow/query.md)を参照してください。
 
@@ -89,7 +89,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 ワークスペースの左側のリストからオブジェクトを選択し、リンクして、ターゲットを構築します。
 
-![](assets/campaign-wf.png)
+![図の「ターゲティングとワークフロー」タブ：クエリ AとB、結合、重複排除、エンリッチメント、分割、配信](assets/campaign-wf.png)
 
 このダイアグラムでは、ターゲットの構築に必要なターゲティングクエリとスケジューリングクエリをダイアグラム内でリンクしています。 データベースから抽出された母集団を確認するために、構築の進行中にターゲティングを実行できます。
 
@@ -101,7 +101,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 ターゲティングワークフローの実行および書式設定機能には、ダイアグラムエディターのツールバーからアクセスできます。
 
-![](assets/wf-diagram.png)
+![ ターゲティングダイアグラムの上にある「水平方向に整列」ボタンを指す矢印が表示されたワークフローダイアグラムのツールバー](assets/wf-diagram.png)
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 1. ワークフロー作成領域の左上に移動して右クリックし、「**[!UICONTROL 追加]**」を選択します。 この領域の上にある&#x200B;**[!UICONTROL 新規]**&#x200B;ボタンも使用できます。
 
-   ![](assets/add-a-wf.png)
+   ![追加オプションがハイライト表示された「ターゲティングとワークフロー」タブのデフォルトワークフローのメニューを右クリックします](assets/add-a-wf.png)
 
 1. **[!UICONTROL 新しいワークフロー]**&#x200B;テンプレートを選択し、このワークフローに名前を付けます。
 1. 「**[!UICONTROL OK]**」をクリックしてワークフローの作成を確定し、このワークフローのダイアグラムを作成します。
@@ -130,7 +130,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
   * **[!UICONTROL 開始]**&#x200B;アイコンを使用して、ターゲティングワークフローを開始できます。 このアイコンをクリックすると、入力トランジションがないすべてのアクティビティが有効化されます（終点へのジャンプを除く）。
 
-    ![](assets/start.png)
+    開始アイコンが強調表示され、開始ツールヒントが表示された![ ワークフローツールバー](assets/start.png)
 
     サーバーはリクエストを考慮し、そのステータスが示すように、**[!UICONTROL できるだけ早く開始]**&#x200B;します。
 
@@ -142,17 +142,17 @@ To build the delivery target, you can define filtering criteria for the recipien
 
     **[!UICONTROL 一時停止]**&#x200B;アイコンをクリックすると、進行中の操作は一時停止&#x200B;**[!UICONTROL されません]**&#x200B;が、次に再開されるまで他のアクティビティは開始されなくなります。
 
-    ![](assets/pause.png)
+    一時停止アイコンが強調表示され、一時停止ツールヒントが表示された![ ワークフローツールバー](assets/pause.png)
 
     サーバーはコマンドを考慮し、そのステータスに&#x200B;**[!UICONTROL 一時停止がリクエストされました]**&#x200B;と表示されます。
 
     ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に一時停止することもできます。 そのように設定するには、ターゲティングワークフローを一時停止するアクティビティを右クリックし、「**[!UICONTROL 有効にするが実行しない]**」を選択します。
 
-    ![](assets/donotexecute.png)
+    ![ アクティビティのコンテキストメニューで「有効にするが実行しない」オプションが強調表示されている](assets/donotexecute.png)
 
     この設定には特別なアイコンが表示されます。
 
-    ![](assets/pause_activity.png)
+    ![重複排除アクティビティが「有効にする」の後に一時停止アイコンを表示するが、実行しないワークフロー図](assets/pause_activity.png)
 
     >[!NOTE]
     >
@@ -162,17 +162,17 @@ To build the delivery target, you can define filtering criteria for the recipien
 
   * 進行中の実行を停止するには、**[!UICONTROL 停止]**&#x200B;アイコンをクリックします。
 
-    ![](assets/stop.png)
+    停止アイコンがハイライト表示され、停止ツールヒントが表示された![ ワークフローツールバー](assets/stop.png)
 
     サーバーはコマンドを考慮し、そのステータスに&#x200B;**[!UICONTROL 停止がリクエストされました]**&#x200B;と表示されます。
 
   ターゲティングワークフローの実行が特定のアクティビティに到達したときに、自動的に停止することもできます。 そのように設定するには、ターゲティングワークフローを停止するアクティビティを右クリックし、「**[!UICONTROL 有効にしない]**」を選択します。
 
-  ![](assets/donotactivate.png)
+  「「有効にしない」オプションが強調表示された![ アクティビティコンテキストメニュー](assets/donotactivate.png)
 
   この設定には特別なアイコンが表示されます。
 
-  ![](assets/unactivation.png)
+  ![重複排除アクティビティが「有効にしない」の後に赤い禁止アイコンを表示するワークフロー図](assets/unactivation.png)
 
 
   >[!NOTE]
@@ -185,7 +185,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
   ワークフローを無条件で停止するには、「**[!UICONTROL アクション]**」アイコンをクリックし、「**[!UICONTROL 無条件停止]**」をクリックします。 このアクションにより、キャンペーンワークフローが終了します。
 
-  ![](assets/stop_unconditional.png)
+  ![無条件停止オプションがハイライト表示されたワークフローアクションメニュー](assets/stop_unconditional.png)
 
   >[!CAUTION]
   >
@@ -208,14 +208,14 @@ To build the delivery target, you can define filtering criteria for the recipien
 1. 該当するキャンペーンを編集し、「**[!UICONTROL 編集]**」タブをクリックします。
 1. 「**[!UICONTROL キャンペーンの詳細パラメーター...]**」をクリックします。
 
-   ![](assets/enable-control-group.png)
+   ![詳細設定、コントロール母集団タブ、コントロール グループ設定を有効にして編集を選択し、リンクを編集](assets/enable-control-group.png)
 
 1. 「**[!UICONTROL コントロール母集団の設定を有効にして編集]**」オプションを選択します。
 1. 「**[!UICONTROL 編集...]**」をクリックして、コントロール母集団を設定します。
 
-   ![](assets/edit-control-group.png)
+   ![ コントロール母集団ダイアログ、制限ステップのタイプ、ランダムなサンプリングが選択され、追加の母集団コントロール グループ リスト ](assets/edit-control-group.png)
 
-完全な手順について詳しくは、[この節](#extract-the-control-group-from-the-main-target)を参照してください。 コントロール母集団について詳しくは、[この節](#add-a-population)を参照してください。
+完全な手順については、[ メインターゲットからコントロールグループを抽出](#extract-the-control-group-from-the-main-target)で詳しく説明しています。 [新しい母集団をコントロール グループとして使用](#add-a-population)のコントロール グループについて詳しく説明します。
 
 ### 配信のコントロール母集団の有効化 {#activate-the-control-group-for-a-delivery}
 
@@ -230,11 +230,11 @@ To build the delivery target, you can define filtering criteria for the recipien
 1. 該当する配信を編集して、「**[!UICONTROL 宛先]**」リンクをクリックします。
 1. 「**[!UICONTROL コントロール母集団]**」タブをクリックし、「**[!UICONTROL コントロール母集団の設定を有効にして編集]**」を選択します。
 
-   ![](assets/enable-control-group-for-a-delivery.png)
+   ![ ターゲットダイアログを選択し、コントロールグループのタブを選択します。コントロールグループの設定を有効にして編集を選択し、編集リンクを選択します](assets/enable-control-group-for-a-delivery.png)
 
 1. 「**[!UICONTROL 編集...]**」をクリックして、コントロール母集団を設定します。
 
-完全な手順について詳しくは、[この節](#extract-the-control-group-from-the-main-target)を参照してください。
+完全な手順については、[ メインターゲットからコントロールグループを抽出](#extract-the-control-group-from-the-main-target)で詳しく説明しています。
 
 ### コントロール母集団としての新しい母集団の使用 {#add-a-population}
 
@@ -242,17 +242,17 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 この母集団は、受信者のリストから作成することも、特定のクエリを使用して定義することもできます。
 
-![](assets/new-population-as-control-group.png)
+![追加の母集団セクションがハイライト表示された母集団を制御ダイアログ：コントロールグループリストと動的条件](assets/new-population-as-control-group.png)
 
 >[!NOTE]
 >
->Adobe Campaign クエリエディターについては、[この節](../../v8/start/query-editor.md)を参照してください。
+>Adobe Campaign クエリエディターは、[ クエリエディターの操作](../../v8/start/query-editor.md)に表示されます。
 
 ### メインターゲットからのコントロール母集団の抽出 {#extract-the-control-group-from-the-main-target}
 
 配信のメインターゲットから受信者を抽出することもできます。 この場合、受信者は、この設定に影響を受ける配信アクションのターゲットから選ばれます。 ランダムに抽出することも、受信者の並べ替え結果を使用することもできます。
 
-![](assets/extract-control-group-from-target.png)
+![ ターゲット抽出セクションで選択した並べ替え後の最初のレコードのみを保持](assets/extract-control-group-from-target.png)で母集団ダイアログを制御する
 
 コントロール母集団を抽出するには、キャンペーンまたは配信のコントロール母集団を有効にして、「**[!UICONTROL ランダムサンプリングを有効化]**」オプションまたは「**[!UICONTROL 並べ替えの後に最初のレコードのみ保持]**」オプションのどちらかを選択します。
 
@@ -261,7 +261,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 「**[!UICONTROL 次へ]**」をクリックして、並べ替え順を定義し（必要な場合）、受信者の制限モードを選択します。
 
-![](assets/limit-control-group.png)
+![ サイズが5.00に設定され、固定サイズおよびデータグループ化オプションによるコントロール母集団制限ステップ ](assets/limit-control-group.png)
 
 この設定はワークフロー内の&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティと同等であり、ターゲットをサブセットに分割できます。 コントロール母集団は、このようなサブセットのひとつです。
 
@@ -270,6 +270,6 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 このビデオでは、キャンペーンにコントロール母集団を追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446919?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

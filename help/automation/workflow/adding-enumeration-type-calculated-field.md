@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 97%
+source-wordcount: '648'
+ht-degree: 78%
 ---
 # 列挙タイプ計算フィールドの追加 {#adding-an-enumeration-type-calculated-field}
 
@@ -50,23 +50,23 @@ ht-degree: 97%
 1. [汎用クエリエディター](../../v8/start/query-editor.md)を開き、受信者テーブル （**[!UICONTROL nms:recipient]**）を選択します。
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL 姓]**」、「**[!UICONTROL 名]**」および「**[!UICONTROL 性別]**」を選択します。
 
-   ![](assets/query_editor_nveau_73.png)
+   ![出力列リストの姓、名、性別を含むウィンドウを抽出するデータ。](assets/query_editor_nveau_73.png)
 
 1. **[!UICONTROL 並べ替え]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックします。この例では並べ替えは必要ありません。
 1. **[!UICONTROL データのフィルター]**&#x200B;で、「**[!UICONTROL フィルター条件]**」を選択します。
 1. **[!UICONTROL ターゲット要素]**&#x200B;ウィンドウで、英語を話す受信者を収集するフィルター条件を設定します。
 
-   ![](assets/query_editor_nveau_74.png)
+   フィルター条件が言語（@language）がENに等しい![ ターゲット要素ウィンドウ。](assets/query_editor_nveau_74.png)
 
 1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、**[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。
 
-   ![](assets/query_editor_nveau_75.png)
+   ![計算フィールドを追加ボタンがハイライト表示されたデータ書式設定ウィンドウ。](assets/query_editor_nveau_75.png)
 
 1. **[!UICONTROL 計算済みフィールドの定義をエクスポート]**&#x200B;ウィンドウの「**[!UICONTROL タイプ]**」フィールドに移動し、「**[!UICONTROL 列挙]**」を選択します。
 
    新しい計算フィールドで参照する列を定義します。 そのためには、「**[!UICONTROL ソース列]**」フィールドのドロップダウンメニューで「**[!UICONTROL 性別]**」列を選択します。宛先の値は「**[!UICONTROL 性別]**」列と一致します。
 
-   ![](assets/query_editor_nveau_76.png)
+   ![型が列挙に、Source列が性別に設定された計算フィールド定義。](assets/query_editor_nveau_76.png)
 
    「**ソース**」および「**宛先**」の値を定義します。宛先の値によってクエリ結果が読みやすくなります。 このクエリは受信者の性別を返し、結果は 0、1 または 2 のいずれかになります。
 
@@ -79,7 +79,7 @@ ht-degree: 97%
 
    「**[!UICONTROL OK]**」をクリックして計算フィールドを承認します。
 
-   ![](assets/query_editor_nveau_77.png)
+   ![ ソース 0、1、2を示さない、男性と女性にマッピングする列挙値。ソース値を選択したままにします。](assets/query_editor_nveau_77.png)
 
 1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックします。
 1. プレビューウィンドウで、「**[!UICONTROL データのプレビューを開始]**」をクリックします。
@@ -90,12 +90,12 @@ ht-degree: 97%
    * 1 は「男性」
    * 2 は「女性」
 
-   ![](assets/query_editor_nveau_78.png)
+   ![性別と性別の仕様の列を含むデータのプレビュー（例：男性の場合は1、未表示の場合は0） ](assets/query_editor_nveau_78.png)
 
    例えば、「**[!UICONTROL 列挙値のリスト]**」で性別「2」を入力せず、「**[!UICONTROL 他のケースの場合]**」フィールドで「**[!UICONTROL 警告を生成して続行]**」機能を選択した場合、警告ログが生成されます。 このログは、性別「2」（女性）が入力されていないことを示します。 ログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。
 
-   ![](assets/query_editor_nveau_79.png)
+   フラグ付きの性別2行とログ列挙値2を持つ![列@genderータのプレビューが存在しません。](assets/query_editor_nveau_79.png)
 
    もう 1 つの例では、列挙値「2」が入力されていないとします。 「**[!UICONTROL エラーを生成してラインを却下]**」機能を選択します。すべての性別「2」の受信者で例外が発生し、ライン内の他の情報（名と姓など）は エクスポートされません。 エラーログは、データのプレビューウィンドウの「**[!UICONTROL エクスポート中に生成されたログ]**」フィールドに表示されます。 このログは、列挙値「2」が入力されていないことを示します。
 
-   ![](assets/query_editor_nveau_80.png)
+   ![拒否された性別2行とログ列挙値2にエラーアイコンを含むデータのプレビューが存在しません。](assets/query_editor_nveau_80.png)

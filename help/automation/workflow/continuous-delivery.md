@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 94%
 ---
 # 連続配信{#continuous-delivery}
 
@@ -34,11 +34,11 @@ ht-degree: 100%
 
 「**連続配信**」タイプアクションでは、既存の配信に新しい受信者を追加できます。 この配信タイプでは、毎回新しい配信を作成する必要がなくなります。このモードは、特に、容量不足のアラートや通知を必要に応じて送信する場合にはより効率的です。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#continuous-delivery-video)
+![ ビデオ再生アイコン ](assets/do-not-localize/how-to-video.png) [ ビデオでこの機能を見つける](#continuous-delivery-video)
 
 配信テンプレートレベルで、関連する配信のラベル（およびキャンペーンフォルダー）を計算するスクリプトを指定できます。 スクリプトがまだ存在しない配信を計算すると、その配信が計算中に作成されます。
 
-![](assets/edit_diffusion_fil.png)
+![ テンプレートフィールドと受信者オプションに加え、プロセスエラーのチェックボックス ](assets/edit_diffusion_fil.png)を含む継続的な配信アクティビティ
 
 「**[!UICONTROL エラーを処理]**」オプションは、エラーが生成された場合に有効化される特定のトランジションを表示します。 この場合、ワークフローはエラーモードに入らず、実行は継続されます。
 
@@ -79,6 +79,6 @@ ht-degree: 100%
 
 このビデオでは、増分処理クエリを使用して連続配信を設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27513?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

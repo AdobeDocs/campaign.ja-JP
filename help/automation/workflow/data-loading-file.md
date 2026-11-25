@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 100%
+source-wordcount: '1397'
+ht-degree: 87%
 ---
 # データ読み込み (ファイル){#data-loading-file}
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 >
 >サポートされるファイルは、「フラット」な構造のファイル（CSV、TXT など）のみです。 XML フォーマットのファイルは推奨されません。 クライアントコンソールを使用すると、最大 150 MB のファイルを読み込むことができます。 Web ユーザーインターフェイスでは、ファイルの読み込みアクティビティには 50 MB の制限があります。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=ja){target="_blank"}
 
-![](assets/s_advuser_wf_etl_file.png)
+![ サンプルファイルを使用したデータ読み込み（ファイル）アクティビティ、列のプレビュー、ファイル名オプション、および管理の拒否](assets/s_advuser_wf_etl_file.png)
 
 ファイルのインポート中にプリプロセスを実行するように設定できます。例えば、サーバー上でファイルを解凍せずに（これによりファイルの解凍スペースが節約される）、ファイル処理にファイルの解凍を含めることができます。 「**[!UICONTROL ファイルを前処理]**」オプションを選択し、「**[!UICONTROL なし]**」、「**[!UICONTROL 解凍]**（zcat）」または「**[!UICONTROL 復号化]**（gpg）」の 3 つのオプションから選択します。
 
-![](assets/preprocessing-dataloading.png)
+![選択したファイルを事前に処理し、コマンドリストを使用してデータを読み込む（ファイル）：なし、解凍、復号](assets/preprocessing-dataloading.png)
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 それには、「**[!UICONTROL データ読み込み (ファイル)]**」アクティビティのメインウィンドウで「**[!UICONTROL ファイルフォーマットを変更するには、ここをクリック...]**」を選択します。 フォーマット詳細ウィンドウが表示されます。
 
-![](assets/file_loading_columns_format.png)
+![一般的なファイル設定を含むファイル形式ウィンドウと、データ型、許可NULLおよび長さを含む列テーブル。](assets/file_loading_columns_format.png)
 
 ファイルの全般的なフォーマットと各列のフォーマットを編集できます。
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 
 以下の例では、サーバー上のファイルを毎日取得し、コンテンツを読み込み、そのコンテンツの情報に基づいてデータベース内のデータを更新することができます。 取得するファイルには、購入をおこなった顧客（3,000 ユーロ以上または未満）、購入の返金をおこなった顧客、または店舗を訪れただけで何も購入しなかった顧客に関する情報が含まれています。 この情報に基づいて、様々な処理がデータベースの顧客プロファイルに適用されます。
 
-![](assets/s_advuser_load_file_sample_0.png)
+![ ファイルコレクター、データの読み込み（ファイル）および分割を使用したワークフロー。購入タイプ別に4つのデータ更新アクティビティが発生しました。](assets/s_advuser_load_file_sample_0.png)
 
 1. ファイルコレクターを使用すれば、ディレクトリに格納されていたファイルを、所定の日時に定期的に取得できます。
 
@@ -116,13 +116,13 @@ ht-degree: 100%
 
    **[!UICONTROL ファイルコレクター]**&#x200B;の使用方法について詳しくは、[ファイルコレクター](file-collector.md)の節を参照してください。
 
-   ![](assets/s_advuser_load_file_sample_1.png)
+   ![ サーバーディレクトリと顧客テキストファイルのフィルターを含むファイルコレクターディレクトリタブ。](assets/s_advuser_load_file_sample_1.png)
 
    「**[!UICONTROL スケジュール]**」タブで、コレクターの実行スケジュールを計画できます。例えば、これらのファイルの有無を確認する頻度を指定できます。
 
    ここでは、各営業日の午後 9 時にコレクターをトリガーするようにします。
 
-   ![](assets/s_advuser_load_file_sample_2.png)
+   「![ ファイル コレクタースケジュール」タブで、計画の実行がチェックされ、日次9:00 PM トリガーに「変更」ボタンが追加されています。](assets/s_advuser_load_file_sample_2.png)
 
    それには、編集ツールの右下にある「**[!UICONTROL 変更...]**」ボタンをクリックして、スケジュールを設定します。
 
@@ -130,7 +130,7 @@ ht-degree: 100%
 
 1. 次に、「データ読み込み (ファイル)」アクティビティを設定して、取得したファイルを読み込む方法を指定できます。 それには、読み込むファイルと同じ構造を持つサンプルファイルを選択します。
 
-   ![](assets/s_advuser_load_file_sample_3.png)
+   ![ サンプルファイルと、イベント、姓、名、その他の列のプレビューを含むデータ読み込み（ファイル）アクティビティ。](assets/s_advuser_load_file_sample_3.png)
 
    ここでは、ファイルに 5 つの列があります。
 
@@ -143,15 +143,15 @@ ht-degree: 100%
 
    分割アクティビティについて詳しくは、この節で説明しています。
 
-   ![](assets/s_advuser_load_file_sample_4.png)
+   ![購入しないサブセットを分割し、編集リンクを使用して、式としてイベントフィールドが選択されているクエリを開きます。](assets/s_advuser_load_file_sample_4.png)
 
    各サブセットについて、「**イベント**」列にいずれかの値を指定します。
 
-   ![](assets/s_advuser_load_file_sample_5.png)
+   ![ サブセットの式イベント （イベント）が0に等しいフィルター条件をクエリします。](assets/s_advuser_load_file_sample_5.png)
 
    「**[!UICONTROL 分割]**」アクティビティには次の情報が含まれます。
 
-   ![](assets/s_advuser_load_file_sample_6.png)
+   ![購入3000未満、購入なし、返品、3000を超える購入のサブセットタブを含むアクティビティを分割します。購入は表示されません。](assets/s_advuser_load_file_sample_6.png)
 
 1. 次に、母集団の各タイプについて、実行されるプロセスを指定します。 この例では、データベースの「**[!UICONTROL データを更新]**」を指定します。 それには、「**[!UICONTROL データを更新]**」アクティビティを、分割アクティビティからの各アウトバウンドトランジションの最後に配置します。
 

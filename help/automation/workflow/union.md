@@ -19,20 +19,20 @@ subfeature_v2:
     internal-label: Workflows
   - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
     internal-label: Targeting Activity
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '347'
+ht-degree: 85%
 ---
 # 和集合{#union}
 
 **[!UICONTROL 和集合]**&#x200B;は、複数のインバウンドアクティビティの結果を 1 つのターゲットにグループ化します。 ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、和集合が実行される前に完了している必要があります。
 
-![](assets/s_user_segmentation_union.png)
+![紐付けオプションを使用した和集合アクティビティ。生成された母集団のサイズを制限チェックボックスと結果ラベル ](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->**[!UICONTROL 和集合]**&#x200B;アクティビティの設定と使用について詳しくは、[このページ](targeting-workflows.md#combine-several-targets--union-)を参照してください。
+>**[!UICONTROL Union]** アクティビティの設定と使用について詳しくは、[複数のターゲットを組み合わせる（Union） ](targeting-workflows.md#combine-several-targets--union-)を参照してください。
 
 ## 和集合の例 {#union-example}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 1. **[!UICONTROL 和集合]**&#x200B;アクティビティを承認してから、[リスト更新](list-update.md)アクティビティを設定します。
 1. ワークフローを開始します。 結果数が表示され、リスト更新アクティビティ内に定義されたリストが作成または更新されます。 このリストには、両方のクエリのための受信者のセット、または該当する場合は前述の手順で定義した数が含まれます。
 
-   ![](assets/union_example.png)
+   ![2つのクエリが和集合アクティビティをフィードし、5つの結果がリスト更新アクティビティに出力されるワークフロー](assets/union_example.png)
 
 ## 入力パラメーター {#input-parameters}
 

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 100%
+source-wordcount: '1439'
+ht-degree: 75%
 ---
 # 仮説の作成{#creating-hypotheses}
 
@@ -55,11 +55,11 @@ ht-degree: 100%
 1. Adobe Campaign ツリーで、**[!UICONTROL キャンペーン管理／測定の仮説]**&#x200B;に移動します。
 1. **[!UICONTROL 新規]**&#x200B;ボタンをクリックするか、仮説のリストを右クリックし、ドロップダウンリストで「**[!UICONTROL 新規]**」を選択します。
 
-   ![](assets/response_hypothesis_instance_creation_002.png)
+   ![新しいボタンとテンプレートを選択するための新しい仮説ダイアログを含む測定仮説リスト ](assets/response_hypothesis_instance_creation_002.png)
 
 1. 仮説ウィンドウで、前に作成したテンプレートを選択します。 [詳細情報](hypothesis-templates.md)
 
-   ![](assets/response_hypothesis_instance_creation_003.png)
+   ![使用可能なテンプレートを一覧表示する仮説テンプレート ドロップダウンを含む新しい仮説ダイアログ ](assets/response_hypothesis_instance_creation_003.png)
 
    選択したモデルで定義した仮説のコンテキストがウィンドウに表示されます。
 
@@ -67,11 +67,11 @@ ht-degree: 100%
    >
    >この段階で表示されていなくても、テンプレートで定義した設定はメモリに保存され、処理中の仮説に再度割り当てられます。
 
-   ![](assets/response_hypothesis_instance_creation_004.png)
+   ![選択したテンプレートと配信フィールドから継承されたクエリを表示する新しい仮説ダイアログ ](assets/response_hypothesis_instance_creation_004.png)
 
 1. 仮説を作成する配信を選択します。
 
-   ![](assets/response_hypothesis_instance_creation_005.png)
+   ![選択する配信ドロップダウンリスト配信を含む新しい仮説ダイアログ ](assets/response_hypothesis_instance_creation_005.png)
 
 1. 仮説をパーソナライズするには、「**[!UICONTROL 一般]**」、「**[!UICONTROL トランザクション]**」および「**[!UICONTROL スコープ]**」タブを編集します。 [詳細情報](hypothesis-templates.md#creating-a-hypothesis-model)
 1. 「**[!UICONTROL 開始]**」をクリックして仮説を開始します。
@@ -87,11 +87,11 @@ ht-degree: 100%
    >
    >このオプションを有効にしている場合は、実行後にワークフローを削除してください。
 
-   ![](assets/response_hypothesis_instance_creation_006.png)
+   ![測定仮説リストの開始ボタンと、仮説を開始するための確認プロンプト ](assets/response_hypothesis_instance_creation_006.png)
 
    計算が完了すると、測定指標が自動的に更新されます。
 
-   ![](assets/response_hypothesis_instance_creation_007.png)
+   ![応答率や反応など、仮説によって計算された指標を含む「仮説の一般」タブ ](assets/response_hypothesis_instance_creation_007.png)
 
 1. 必要に応じ、設定を変更して仮説を再度開始します。
 
@@ -99,14 +99,14 @@ ht-degree: 100%
 
 キャンペーンの開始前に、マーケティングキャンペーンで仮説を参照できます。 この場合、仮説は配信の送信後、仮説テンプレートで定義した実行設定に基づいて自動的に開始されます。 配信で仮説を作成するには、次の手順に従います。
 
-1. 必要に応じて、**[!UICONTROL 配信]**&#x200B;タイプのテンプレートを 1 つ以上作成できます（[この節](hypothesis-templates.md#creating-a-hypothesis-model)を参照）。
+1. ニーズに応じて、[仮説モデルの作成](hypothesis-templates.md#creating-a-hypothesis-model)で説明されているように、**[!UICONTROL 配信]** タイプのテンプレートを1つ以上作成できます
 1. マーケティングキャンペーンとターゲティングワークフローを作成します。
 1. 配信ウィンドウで、「**[!UICONTROL 配信測定]**」アイコンをクリックします。
 1. 仮説テンプレートを選択します（モデルで定義したクエリが仮説ウィンドウに表示されます）。
 
    キャンペーンの終了後、モデルで設定した日付に基づいて、仮説が自動的に計算されます。 [詳細情報](hypothesis-templates.md#hypothesis-template-execution-settings)
 
-   ![](assets/response_hypothesis_instance_creation_008.png)
+   ![配信の仮説テンプレートを参照するための「追加」ボタン付きの配信測定ウィンドウ ](assets/response_hypothesis_instance_creation_008.png)
 
 ## キャンペーンの配信に対するデフォルト仮説の追加 {#adding-a-default-hypothesis-to-deliveries-for-a-campaign}
 
@@ -115,15 +115,15 @@ ht-degree: 100%
 1. キャンペーンの「**[!UICONTROL 編集]**」タブに移動します。
 1. 「測定」セクションで「**[!UICONTROL デフォルトの仮説]**」タブをクリックします。
 
-   ![](assets/response_hypothesis_instance_creation_010.png)
+   ![ キャンペーン編集タブ、測定セクション、デフォルトの仮説タブが強調表示されている](assets/response_hypothesis_instance_creation_010.png)
 
 1. 「**[!UICONTROL 追加]**」をクリックして仮説テンプレートを選択します。
 
-   ![](assets/response_hypothesis_instance_creation_011.png)
+   ![ キャンペーンの「デフォルトの仮説」タブのテンプレートドロップダウンを使用して、仮説ダイアログを追加する](assets/response_hypothesis_instance_creation_011.png)
 
    キャンペーンの新しい配信それぞれで、このテンプレートに基づく仮説がデフォルトで参照されるようになります。
 
-   ![](assets/response_hypothesis_instance_creation_012.png)
+   ![購入に関する仮説を一覧表示するターゲティングワークフローの配信測定ウィンドウ ](assets/response_hypothesis_instance_creation_012.png)
 
 仮説の結果は、仮説の「**[!UICONTROL 一般]**」タブと「**[!UICONTROL 反応]**」タブで確認できます。 [詳細情報](hypothesis-tracking.md)
 
@@ -133,19 +133,19 @@ ht-degree: 100%
 
 オファーの提案の仮説を作成する方法は、オンザフライ配信の仮説の場合と同様です。 仮説を実行できるのは、オファーがアクティブな間です。 計算期間は、オファーの提案の日付に基づきます。 仮説で受信者を購入にリンクできる場合、承認される可能性が高いオファーの提案のステータスを自動的に変更することができます。 [詳細情報](hypothesis-templates.md#transactions)
 
-1. [この節](hypothesis-templates.md#creating-a-hypothesis-model)の説明に従って、**[!UICONTROL オファー]**&#x200B;タイプのモデルを 1 つ以上作成します。
+1. [仮説モデルの作成](hypothesis-templates.md#creating-a-hypothesis-model)の説明に従って、1つ以上の&#x200B;**[!UICONTROL オファー]**&#x200B;型モデルを作成します。
 1. **[!UICONTROL キャンペーン管理／測定の仮説]**&#x200B;ノードに移動します。
 1. 前に作成したモデルを選択し、「**[!UICONTROL オファー]**」タイプの仮説を作成します。
 
-   ![](assets/response_hypothesis_instance_offer_001.png)
+   ![新しいオファー仮説などのテンプレート ドロップダウンリストのオファーテンプレートを含む新しい仮説ダイアログ ](assets/response_hypothesis_instance_offer_001.png)
 
    モデルで作成されたクエリがウィンドウに表示されます。
 
-   ![](assets/response_hypothesis_instance_offer_003.png)
+   ![ オファー仮説テンプレートとクエリの種類が項目](assets/response_hypothesis_instance_offer_003.png)に等しい新しい仮説ダイアログ
 
 1. 仮説を作成するオファーを選択します。
 
-   ![](assets/response_hypothesis_instance_offer_004.png)
+   ![ パリへの旅行などのオファーのドロップダウンリストオファーを含む新しい仮説ダイアログ ](assets/response_hypothesis_instance_offer_004.png)
 
 1. 必要に応じてクエリを調整します。
 1. 「**[!UICONTROL 開始]**」をクリックして仮説を実行します。
@@ -153,7 +153,7 @@ ht-degree: 100%
 
    オファーで作成した仮説は、「**[!UICONTROL 測定]**」タブで確認できます。
 
-   ![](assets/response_hypothesis_instance_offer_007.png)
+   「![ オファー測定」タブに、有効なROIの計算](assets/response_hypothesis_instance_offer_007.png)の下のオファーにリンクされた仮説のリストが表示されている
 
    仮説テンプレートで「**[!UICONTROL オファーの提案ステータスを更新]**」オプションを有効にしてある場合は、オファーの提案ステータスが自動的に変更されるので、キャンペーンの効果についてフィードバックを得ることができます（詳しくは、[トランザクション](hypothesis-templates.md#transactions)を参照）。
 
@@ -169,7 +169,7 @@ ht-degree: 100%
 
 1. シードアドレスを設定します。前に作成した仮説テンプレートは、反応の結果にコントロール母集団を考慮に入れるよう設定されています。
 
-   ![](assets/response_hypothesis_delivery_example_007.png)
+   ![ キャンペーンの詳細設定、コントロール母集団タブ、コントロール グループ設定が有効になっている](assets/response_hypothesis_delivery_example_007.png)
 
    >[!NOTE]
    >
@@ -177,28 +177,28 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL ダイレクトメール配信]**」を開き、**[!UICONTROL 配信測定]**&#x200B;アイコンをクリックしてから、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/response_hypothesis_delivery_example_002.png)
+   ![仮説の「追加」ボタンを含むダイレクトメール配信の配信測定ウィンドウ ](assets/response_hypothesis_delivery_example_002.png)
 
 1. ドロップダウンリストから、前に作成した仮説テンプレートを選択します。
 
-   ![](assets/response_hypothesis_delivery_example_004.png)
+   ![購入時のテンプレートドロップダウンリストの仮説ダイアログを追加（HYP4） ](assets/response_hypothesis_delivery_example_004.png)
 
    モデルで作成されたクエリが表示されます。
 
-   ![](assets/response_hypothesis_delivery_example_005.png)
+   ![ チケット行のテンプレートと製品によるクエリ フィルターによる仮説を含む新しい仮説ダイアログ ](assets/response_hypothesis_delivery_example_005.png)
 
 1. 「**[!UICONTROL クエリを編集...]**」をクリックし、仮説で使用する製品を入力してクエリを編集します。
 
-   ![](assets/response_hypothesis_delivery_example_006.png)
+   ![Clothing](assets/response_hypothesis_delivery_example_006.png)と同じ製品名の仮説をフィルタリングするクエリ ウィンドウを編集
 
    仮説が配信にリンクされていることを確認するには、キャンペーンの「**[!UICONTROL 編集]**／**[!UICONTROL 測定]**」タブを使用します。
 
-   ![](assets/response_hypothesis_delivery_example_008.png)
+   ![ キャンペーン測定セクション、測定仮説タブ、配信の購入に関する仮説のリスト ](assets/response_hypothesis_delivery_example_008.png)
 
 1. ターゲティングワークフローを開始し、キャンペーンが終了するまで必要なチェックを実行します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=ja#start-a-delivery){target=_blank}を参照してください。
 
-   ![](assets/response_hypothesis_delivery_example_009.png)
+   進行中のダイレクトメール配信とそのステータス、ターゲット母集団、プルーフを含む![ キャンペーンダッシュボード ](assets/response_hypothesis_delivery_example_009.png)
 
 1. Adobe Campaign ツリーで、**[!UICONTROL キャンペーン管理／測定の仮説]**&#x200B;ノードに移動して、仮説によって計算された指標を確認します。
 
-   ![](assets/response_hypothesis_delivery_example_010.png)
+   ![接触応答率などの計算指標を含む測定仮説リストと「一般」タブ ](assets/response_hypothesis_delivery_example_010.png)

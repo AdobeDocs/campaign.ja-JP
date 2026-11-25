@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 88%
 ---
 # 除外{#exclusion}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 このアクティビティを設定するには、ラベルを入力してメインの受信者セットを選択します。メインセットから生成した母集団により、結果を構築できます。 メインセットおよびエントリアクティビティの最低 1 つに共通するプロファイルが除外されます。
 
-![](assets/s_user_segmentation_exclu.png)
+プライマリセット、除外ルール、結果ラベルおよび補集合の生成オプションを使用した![除外アクティビティ。](assets/s_user_segmentation_exclu.png)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 残りの母集団を利用するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。 補集合には、メインの入力母集団から出力母集団を引いたものが含まれます。 その後、次の図のように、追加の出力トランジションがアクティビティに追加されます。
 
-![](assets/s_user_segmentation_exclu_compl.png)
+![結果と補集合のラベルが付いた2つの送信トランジションを含む除外アクティビティ。](assets/s_user_segmentation_exclu_compl.png)
 
 ## 除外の例 {#exclusion-examples}
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 1. 除外設定を承認してから、結果にリスト更新アクティビティを挿入します。 必要に応じて、補集合に追加のリスト更新アクティビティを挿入します。
 1. ワークフローを実行します。 この例では、結果は 18 歳から 30 歳、パリに住んでいない受信者から構成され、補集合に送られます。
 
-   ![](assets/exclusion_example.png)
+   ![18-30とパリ在住のクエリが除外を結果でフィードし、各クエリがリストの更新を行う場合に補完するワークフロー。](assets/exclusion_example.png)
 
 ## 入力パラメーター {#input-parameters}
 

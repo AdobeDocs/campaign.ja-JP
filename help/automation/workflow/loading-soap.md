@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 82%
 ---
 # 読み込み（SOAP）{#loading-soap}
 
@@ -42,17 +42,17 @@ ht-degree: 100%
 
    次の例は、Message Center モジュールのテクニカルワークフローのものです。
 
-   ![](assets/load_soap_002.png)
+   ![Use an example XMLを選択した状態での（SOAP）アクティビティの読み込み、結果の例、およびInitialization スクリプト ](assets/load_soap_002.png)
 
 1. XML の例を使用する場合は、サンプルファイルを選択してください。 ファイルが分析され、結果のサンプルが作成されます。
 
    WSDL を使用する場合は、該当するアクセス URL を入力してスケルトンコードを生成します。 選択したサービスと呼び出しが自動的に更新されて表示されます。
 
-   ![](assets/soap_load_003.png)
+   ![WSDLを使用を選択した結果の形式、アクセス URL フィールド、スケルタルコードの生成リンク ](assets/soap_load_003.png)
 
 1. 「**[!UICONTROL 分析結果を表示および編集するには、ここをクリックしてください]**」を選択して、見つかった各列を指定します。
 
-   ![](assets/soap_load_001.png)
+   ![特定された列を一覧表示するファイル形式ウィンドウ。選択した列のラベル、データタイプ、内部名が表示されます。](assets/soap_load_001.png)
 
    例を更新する場合は、「**[!UICONTROL 例を再分析]**」を選択します。
 

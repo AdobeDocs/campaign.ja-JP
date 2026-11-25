@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 82%
 ---
 # マーケティングキャンペーンの監視 {#monitor-marketing-campaigns}
 
@@ -38,11 +38,11 @@ ht-degree: 100%
 
 * 「**[!UICONTROL 監査]**」サブタブには、アクティビティジャーナルが表示されます。 ワークフローの作成または開始、承認、抽出、在庫管理など、キャンペーンで実行されるジョブが含まれます。
 
-  ![](assets/campaign-audit-tab.png)
+  ![ キャンペーン編集タブ、監査セクション、アクティビティジャーナルメッセージとログタイプを一覧表示するジャーナルサブタブ ](assets/campaign-audit-tab.png)
 
 * 「**[!UICONTROL 配信]**」サブタブには、キャンペーンのすべての配信が含まれます。 このビューから編集できます。 編集するには、配信を選択し、「**[!UICONTROL 詳細]**」アイコンをクリックします。
 
-  ![](assets/campaign-delivery-tab.png)
+  ![ キャンペーン監査セクション、配信サブタブのリスト チャネル、ステータス、ターゲティングステータスおよびコンテンツステータス ](assets/campaign-delivery-tab.png)
 
 * 「**[!UICONTROL 承認]**」サブタブには、キャンペーンのすべての承認プロセスが含まれます。 詳細とコメントを確認できます。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 配信のリストは、キャンペーンノードの「**[!UICONTROL 配信]**」リンクから表示できます。
 
-![](assets/filter-deliveries-from-homepage.png)
+![ ステータス フィルターのドロップダウン リストが編集中、処理中、完了済みのホームページの配信リスト ](assets/filter-deliveries-from-homepage.png)
 
 配信ごとに、このリストを使用して、ステータス、ターゲットとなる受信者数、リンクされたキャンペーンなどの主要指標にアクセスできます。
 

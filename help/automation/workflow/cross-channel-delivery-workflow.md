@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '884'
+ht-degree: 75%
 ---
 # クロスチャネル配信ワークフロー{#cross-channel-delivery-workflow}
 
@@ -47,18 +47,18 @@ ht-degree: 100%
    * メールを開封したが、オファーへのリンクをクリックしなかった受信者に SMS を送信する。
    * メールを開封し、オファーへのリンクをクリックした受信者をデータベースに追加する。
 
-![](assets/wkf_cross-channel_7.png)
+![ ゴールドメンバーのクエリとメールから、待機と分割を通じて、メール、SMS、リストの更新をリマインダーするワークフロー](assets/wkf_cross-channel_7.png)
 
 ## 手順 1：オーディエンスの作成 {#step-1--build-the-audience}
 
 ターゲットを定義するために、受信者を特定するクエリを作成します。
 
-1. キャンペーンを作成します。 詳しくは、[このページ](../campaigns/marketing-campaign-create.md)を参照してください。
+1. キャンペーンを作成します。 詳しくは、[ マーケティングキャンペーンの作成](../campaigns/marketing-campaign-create.md)を参照してください。
 1. キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブで、ワークフローに&#x200B;**クエリ**&#x200B;アクティビティを追加します。 このアクティビティの使用について詳しくは、[この節](query.md)を参照してください。
 1. 配信を受信する受信者を定義します。 例えば、ターゲットディメンションとして「ゴールド」メンバーを選択します。
 1. クエリにフィルター条件を追加します。 この例では、メールアドレスと携帯電話番号を持つ受信者を選択します。
 
-   ![](assets/wkf_cross-channel_3.png)
+   ![条件がEmailのList Gold メンバーのフィルターウィンドウが空ではなく、Mobileが空ではありません](assets/wkf_cross-channel_3.png)
 
 1. 変更内容を保存します。
 
@@ -67,21 +67,21 @@ ht-degree: 100%
 1. メール配信を作成します。
 1. メッセージをデザインし、オファーを含むリンクをコンテンツに挿入します。
 
-   ![](assets/wkf_cross-channel_1.png)
+   ![ オファーの選択オプション、オファースペース フィールドおよび対象外の受信者を除外するオファー管理ウィンドウ ](assets/wkf_cross-channel_1.png)
 
-   メッセージ本文へのオファーの組み込みについて詳しくは、[このページ](../../v8/send/email.md)を参照してください。
+   メッセージの本文にオファーを統合する方法について詳しくは、[Adobe Campaignを使用したメールの送信](../../v8/send/email.md)を参照してください。
 
 1. 変更内容を保存します。
 1. **[!UICONTROL メール配信]**&#x200B;アクティビティを右クリックして開きます。
 1. 母集団とトラッキングログを取得するために、「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションを選択します。
 
-   ![](assets/wkf_cross-channel_2.png)
+   ![電子メール配信アクティビティと「アウトバウンドトランジションを生成」が選択されました](assets/wkf_cross-channel_2.png)
 
    この情報を使用して、最初のメールを受信したときの受信者の行動に基づいて別の配信を送信することができます。
 
 1. 受信者がメールを開封するのを数日待つための&#x200B;**[!UICONTROL 待機]**&#x200B;アクティビティを追加します。
 
-   ![](assets/wkf_cross-channel_4.png)
+   ![期間フィールドが3d](assets/wkf_cross-channel_4.png)に設定されたアクティビティを待つ
 
 ## 手順 3：結果として得られたオーディエンスのセグメント化 {#step-3--segment-the-resulting-audience}
 
@@ -90,32 +90,32 @@ ht-degree: 100%
 1. **分割**&#x200B;アクティビティをワークフローに追加し、開きます。 このアクティビティの使用について詳しくは、[この節](split.md)を参照してください。
 1. クエリでアップストリームを計算した母集団から 3 つのセグメントを作成します。
 
-   ![](assets/wkf_cross-channel_6.png)
+   ![3つのサブセットを含む分割アクティビティサブセット タブ：電子メールを開いていない、開いているがリンクをクリックしていない、クリックした](assets/wkf_cross-channel_6.png)
 
 1. 1 番目のサブセットでは、「**[!UICONTROL インバウンド母集団に対するフィルター条件を追加]**」オプションを選択し、「**[!UICONTROL 編集]**」をクリックします。
 
-   ![](assets/wkf_cross-channel_8.png)
+   ![分割サブセットが、インバウンド母集団と編集リンクにフィルター条件を追加してメールを開かなかった](assets/wkf_cross-channel_8.png)
 
 1. 制限フィルターとして「**[!UICONTROL 配信の受信者]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/wkf_cross-channel_9.png)
+   ![制限フィルターリストで選択された配信の受信者を含むディメンションのターゲット設定とフィルタリングのウィンドウ ](assets/wkf_cross-channel_9.png)
 
 1. フィルター設定で、「**[!UICONTROL 行動]**」ドロップダウンリストから「**[!UICONTROL (メールを) 開封またはクリックしなかった受信者]**」を選択し、送信するオファーを含んだメールを配信リストから選択します。 「**[!UICONTROL 終了]**」をクリックします。
 
-   ![](assets/wkf_cross-channel_10.png)
+   ![開封済みまたはクリック済みでない受信者（電子メール）にビヘイビアーが設定され、配信が選択されたターゲット要素ウィンドウ ](assets/wkf_cross-channel_10.png)
 
 1. 2 番目のサブセットでも同様に、「**[!UICONTROL 行動]**」ドロップダウンリストから「**[!UICONTROL （メールを）クリックしていない受信者]**」を選択します。
 
-   ![](assets/wkf_cross-channel_11.png)
+   ![ クリックしていない受信者（メール）が選択されているビヘイビアーリストを開く](assets/wkf_cross-channel_11.png)
 
 1. 3 番目のサブセットでは、「**[!UICONTROL インバウンド母集団に対するフィルター条件を追加]**」を選択し、「**[!UICONTROL 編集]**」をクリックして、「**[!UICONTROL 特定のフィルタリングディメンションを使用]**」オプションを選択します。
 1. 「**[!UICONTROL フィルタリングディメンション]**」ドロップダウンリストから「**[!UICONTROL 受信者トラッキングログ]**」を選択し、「**[!UICONTROL 制限フィルターのリスト]**」から「**[!UICONTROL フィルター条件]**」をハイライトして、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/wkf_cross-channel_12.png)
+   ![ フィルターディメンションを受信者トラッキングログに設定して選択した特定のフィルターディメンションを使用](assets/wkf_cross-channel_12.png)
 
 1. 次のようにフィルター条件を選択します。
 
-   ![](assets/wkf_cross-channel_13.png)
+   ![ フィルター条件：電子メールのクリックに等しいタイプ、冬のオファーを含む電子メールに等しい配信ラベル、冬のオファーを提供](assets/wkf_cross-channel_13.png)
 
 1. 「**[!UICONTROL 完了]**」をクリックして変更を保存します。
 

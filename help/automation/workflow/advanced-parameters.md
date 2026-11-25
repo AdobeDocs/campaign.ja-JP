@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 94%
 ---
 # 詳細設定パラメーター{#advanced-parameters}
 
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 * 簡素化されたバージョン（「**[!UICONTROL 開始]**」アクティビティや「**[!UICONTROL 終了]**」アクティビティなどが対象）
 
-  ![](assets/wf-advanced-basic.png)
+  ![名前、画像、初期化スクリプトおよびコメント フィールドを含む開始アクティビティの「詳細」タブを簡略化しました。](assets/wf-advanced-basic.png)
 
 * より詳細なバージョン（「**[!UICONTROL クエリ]**」アクティビティなどが対象）
 
-  ![](assets/wf-advanced-full.png)
+  ![実行、アフィニティ、動作、タイムゾーン、エラー管理フィールドを含むクエリアクティビティの詳細な詳細タブ。](assets/wf-advanced-full.png)
 
 「**[!UICONTROL 詳細]**」タブで入力するフィールドについては、次のセクションで詳しく説明しています。
 

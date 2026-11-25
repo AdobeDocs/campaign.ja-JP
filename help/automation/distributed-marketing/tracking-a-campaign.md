@@ -18,10 +18,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 72%
 ---
 # キャンペーンのトラッキング{#tracking-a-campaign}
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 「**[!UICONTROL キャンペーン]**」タブから、既存のすべての分散型マーケティングキャンペーンを再グループ化した&#x200B;**[!UICONTROL キャンペーンパッケージ]**&#x200B;リストを表示できます。 このリストをフィルタリングして、公開済み、遅延、承認待ちなどの状態にあるキャンペーンのみを表示できます。それには、このビューの上部にあるリンクをクリックするか、**[!UICONTROL フィルターリスト]**&#x200B;リンクを使用して、表示するキャンペーンパッケージのステータスを選択します。
 
-![](assets/mkg_dist_catalog_filter.png)
+ステータスフィルターが開いている![ キャンペーンパッケージリスト：「編集中」、「承認待ち」、「承認済み」、「却下」など](assets/mkg_dist_catalog_filter.png)
 
 ## パッケージの編集 {#edit-packages}
 
@@ -52,21 +52,21 @@ ht-degree: 100%
 
 概要は、すべてのオーダーのリストが表示される&#x200B;**[!UICONTROL キャンペーンオーダー]**&#x200B;ビューでも参照できます。
 
-![](assets/mkg_dist_catalog_op_command_details.png)
+![各注文とそのローカルエンティティ、キャンペーンおよびステータス（使用可能またはキャンセル済み）を示すキャンペーン注文リスト。](assets/mkg_dist_catalog_op_command_details.png)
 
 セントラルオペレーターは、 それには、次の 2 つの方法があります。
 
 1. オペレーターはオーダーの名前をクリックして編集を実行します。オーダーの詳細が表示されます。
 
-   ![](assets/mkg_dist_catalog_op_command_edit1.png)
+   ![ キャンペーン注文リストで注文をクリックすると、ステータス、パッケージ、ローカルエンティティ、承認が表示されたダッシュボードが開きます。](assets/mkg_dist_catalog_op_command_edit1.png)
 
    **[!UICONTROL 編集／「一般」]**&#x200B;タブには、キャンペーンのオーダー時にローカルエンティティによって入力された情報が表示されます。
 
-   ![](assets/mkg_dist_catalog_op_command_edit1a.png)
+   ![注文編集タブ、一般：ラベル、組織エンティティ、割り当てられたオペレーター、ステータス、およびローカルエンティティからのコメント。](assets/mkg_dist_catalog_op_command_edit1a.png)
 
 1. オペレーターはキャンペーンパッケージのラベルをクリックして編集を実行します。一部の設定の変更が可能です。
 
-   ![](assets/mkg_dist_catalog_op_command_edit2.png)
+   ![ リストからパッケージを開き、次にキャンペーン注文の1つを開き、それぞれにダッシュボードが表示されます。](assets/mkg_dist_catalog_op_command_edit2.png)
 
 ## パッケージのキャンセル {#cancel-a-package}
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 キャンペーンパッケージの&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;で、「**[!UICONTROL パッケージをキャンセル]**」をクリックします。
 
-![](assets/mkg_dist_cancel_op_from_dashboard.png)
+![ パッケージダッシュボードの「パッケージをキャンセル」ボタンをクリックすると、「コメント」フィールドを含むパッケージに関するアクション」ダイアログが開きます。](assets/mkg_dist_cancel_op_from_dashboard.png)
 
 「**[!UICONTROL コメント]**」フィールドにキャンセルの理由を入力します。
 
@@ -84,15 +84,15 @@ ht-degree: 100%
 
 1. このパッケージに関連付けられているオーダーが、すべてキャンセルされます。
 
-   ![](assets/mkg_dist_mutual_op_cancelled.png)
+   ![ キャンセル済みパッケージダッシュボードに、キャンセル済みのステータスが表示されているキャンペーン注文が一覧表示されます。](assets/mkg_dist_mutual_op_cancelled.png)
 
 1. 参照キャンペーンがキャンセルされ、アクティブなプロセス（ワークフローや配信）がすべて停止されます。
 
-   ![](assets/mkg_dist_mutual_op_cancelled1.png)
+   ![電子メールとSMS配信が「停止」と表示され、参照キャンペーンダッシュボードがキャンセルされました。](assets/mkg_dist_mutual_op_cancelled1.png)
 
 1. 関係するすべてのローカルエンティティに通知が送信されます。
 
-   ![](assets/mkg_dist_mutual_op_cancelled2.png)
+   ![ キャンペーンが一元的にキャンセルされたことをローカルエンティティに通知するパッケージ電子メールのキャンセル。](assets/mkg_dist_mutual_op_cancelled2.png)
 
 セントラルエンティティは、必要であればキャンセルされたパッケージにアクセスし、再初期化することができます（次の節を参照）。 再初期化されたパッケージは、承認され、使用が開始されれば、再びローカルエンティティに提供できます。 パッケージの再初期化の手順については、次の節で説明します。
 
@@ -103,11 +103,11 @@ ht-degree: 100%
 1. 再初期化するパッケージを選択します。
 1. **[!UICONTROL パッケージを再初期化して再利用]**&#x200B;リンクをクリックし、「**[!UICONTROL OK]**」をクリックします。
 
-   ![](assets/mkg_dist_mutual_op_reinit.png)
+   ![ パッケージ確認ダイアログを再初期化します。ステータスは編集中になり、「OK」ボタンが表示されます。](assets/mkg_dist_mutual_op_reinit.png)
 
 1. 「**[!UICONTROL 保存]**」ボタンをクリックして、パッケージの再初期化を承認します。
 
-   ![](assets/mkg_dist_mutual_op_reinit2.png)
+   ![再初期化を承認するために、「保存」ボタンが強調表示されたパッケージ ダッシュボードをキャンセルしました。](assets/mkg_dist_mutual_op_reinit2.png)
 
 1. パッケージのステータスが&#x200B;**[!UICONTROL 編集中]**&#x200B;に変わります。 パッケージに修正を加え、承認し、パブリッシュすると、そのパッケージは再びキャンペーンパッケージのリストに表示されます。
 

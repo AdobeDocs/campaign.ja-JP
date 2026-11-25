@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '3936'
-ht-degree: 100%
+source-wordcount: '4732'
+ht-degree: 82%
 ---
 # タスクの作成と管理{#creating-and-managing-tasks}
 
@@ -40,7 +40,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 所属するプログラムのスケジュールに表示できます。
 
-![](assets/campaign-calendar.png)
+タスク 1、タスク 2、タスク 3を含むウィンターキャンペーンとマーケティングキャンペーンを表示する![ キャンペーンカレンダーのタイムライン。](assets/campaign-calendar.png)
 
 ## タスクへのアクセス {#accessing-tasks}
 
@@ -48,7 +48,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 タスクは、「**[!UICONTROL キャンペーン]**」タブからアクセスできるタスクリストに表示されます。
 
-![](assets/campaign-task-dashboard.png)
+![作成ボタン、フィルター、およびステータスと進行状況を示す3つのタスクを含むキャンペーンの下のタスクリスト。](assets/campaign-task-dashboard.png)
 
 現在のオペレーターのすべてのタスクを確認できます。
 
@@ -62,7 +62,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 タスクを編集するには、タスクをクリックします。
 
-![](assets/edit-a-task.png)
+タスク 3の![ タスクの概要ウィンドウ。ステータス、優先度、スケジュール、担当者、キャンペーンが表示され、キャンセルボタンが表示されている。](assets/edit-a-task.png)
 
 ## 新規タスクの作成 {#creating-a-new-task}
 
@@ -70,17 +70,17 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 1. 「**[!UICONTROL キャンペーン]**」タブで「**[!UICONTROL タスク]**」リンクを参照して、「**[!UICONTROL 作成]**」をクリックします。
 
-   ![](assets/create-a-task-from-dashboard.png)
+   ![新しいタスクの追加に使用される「作成」ボタンを指す矢印が付いたタスクリスト。](assets/create-a-task-from-dashboard.png)
 
 1. タスクの名前を入力し、そのタスクのリンク先キャンペーンを選択します。
 1. 開始日と終了日を設定します。
 1. 「**[!UICONTROL 保存]**」をクリックして、タスクを作成します。
 
-   ![](assets/new-task-edit.png)
+   ![ テンプレート、ラベル、担当者、キャンペーン、開始日と終了日、ワークロードと説明、さらに保存が含まれる新しいタスクフォーム。](assets/new-task-edit.png)
 
 タスクはキャンペーンのダッシュボードでも作成できます。この場合、タスクはダッシュボードのキャンペーンに自動的にリンクされます。
 
-![](assets/add-a-task-in-a-campaign.png)
+![ キャンペーンダッシュボード。キャンペーンタスクリストの上にある「タスクを追加」リンクを指す矢印が表示されている。](assets/add-a-task-in-a-campaign.png)
 
 作成したタスクは、キャンペーンスケジュール、キャンペーンダッシュボードおよびタスクのリストに追加されます。 タスクを編集するには、タスクのリストからその名前をクリックするか、スケジュールまたはキャンペーンダッシュボードからタスクを選択して、「**[!UICONTROL 開く]**」をクリックします。
 
@@ -92,7 +92,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 [レビュー担当者](#reviewers)と[参照ドキュメント](#documents-referenced)を追加することもできます。
 
-タスクのライフサイクルについて詳しくは、[この節](#life-cycle)を参照してください。
+タスクのライフサイクルについて詳しくは、[ライフサイクル](#life-cycle)を参照してください。
 
 ### 管理者と参加者 {#manager-and-participants}
 
@@ -100,11 +100,11 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 別のオペレーターは、**[!UICONTROL 割り当て先]**&#x200B;ドロップダウンリストから選択できます。
 
-![](assets/task-assigned-to.png)
+![割り当て先ドロップダウンリストが開いたタスクの一般タブで、別の演算子を選択します。](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
->オペレーターの管理について詳しくは、[この節](../../v8/start/gs-permissions.md)を参照してください。
+>オペレーター管理の詳細については、[Campaign v8](../../v8/start/gs-permissions.md)の権限の概要を参照してください。
 >
 >タスクを閉じることができるのは、タスクを担当するオペレーターのみです。
 
@@ -114,12 +114,12 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 1. タスクツールバーの「**[!UICONTROL リソース]**」アイコンをクリックします。
 
-   ![](assets/add-task-resources.png)
+   ![ ツールバーのリソース アイコンを指す矢印が表示されたタスクの「一般」タブ。](assets/add-task-resources.png)
 
 1. 「**[!UICONTROL 追加]**」をクリックしてオペレーターを選択します。
 1. 使用率を入力します。使用率とは、タスクの実行期間中にオペレーターに割り当てるワークロードを表します。 使用率は単なる目安で、パーセント単位で指定します。
 
-   ![](assets/define-operator-task-workload.png)
+   ![使用率、作業負荷計画、作業負荷が実行されたオペレーターを一覧表示するリソース ウィンドウ。](assets/define-operator-task-workload.png)
 
    例えば、実行スケジュールが 10 日間のタスクの場合、オペレーターの使用率を 50％と指定すると、そのオペレーターは 10 日間、勤務時間の半分をタスクに費やすことになります。
 
@@ -127,7 +127,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 1. リマインダーを「**[!UICONTROL リマインダーを追加…]**」リンクから設定できます。 タスクの終了日前に、タスクに関係するすべてのオペレーターにメール通知が送信されます。
 
-   ![](assets/task-op-add-a-reminder.png)
+   ![ リマインダーリストとドロップダウンのオファーが表示されたリソースウィンドウ。承認期限または指定日からの遅延](assets/task-op-add-a-reminder.png)
 
 1. タスクの開始前に通知を送信することもできます。 これを設定するには、**[!UICONTROL 最初の通知]**&#x200B;フィールドで日付を選択します。
 1. 終了日に達してもタスクが終了していない場合、「**[!UICONTROL 担当者]**」ドロップダウンリストで選択した担当者または担当者グループに通知を送信できます。
@@ -135,7 +135,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 オペレーターダッシュボードでは、オペレーターのワークロード（処理中のその他のタスク）を確認できます。
 
-![](assets/operator-dashboard.png)
+各タスクとそのステータスを示すオペレーターリストに割り当てられたタスクを含む![ オペレーターダッシュボード。](assets/operator-dashboard.png)
 
 ### タスクの承認 {#reviewers}
 
@@ -145,7 +145,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 オペレーターのリストを指定するには、最初のレビュー担当者の右にある「**[!UICONTROL 編集...]**」リンクをクリックし、下に示すように、必要に応じて任意の数のオペレーターを追加します。
 
-![](assets/enable-task-approval.png)
+「タスクの承認を有効にする」が選択された![ リソースウィンドウと、追加のレビュー担当者のリストを表示するレビュー担当者の編集ダイアログ。](assets/enable-task-approval.png)
 
 設定ウィンドウの下部でタスクの承認スケジュールを定義できます。 デフォルトでは、レビュー担当者がタスクを承認できるのは送信日から 3 日間です。 リマインダーを追加し、承認期限の前に関係するオペレーターにリマインダーを自動的に送信することもできます。
 
@@ -159,14 +159,14 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 1. タスクを開き、タスクツールバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコンをクリックします。
 
-   ![](assets/add-documents-to-a-task.png)
+   ![ ツールバーのドキュメントアイコンを指す矢印が表示されたタスクの「一般」タブ。](assets/add-documents-to-a-task.png)
 
 1. 「**[!UICONTROL 追加]**」をクリックし、タスクに追加するドキュメントを選択します。 マーケティングリソースも同様に追加します。
 
 
 参照ドキュメントは、タスクに関係するオペレーターに送信される通知に追加されます。 参照ドキュメントはタスクダッシュボードにも追加されます。
 
-![](assets/s_ncs_user_task_notification_documents.png)
+![参照ドキュメントのBrief.pdfとCentral Agency.pdfがドキュメントの行でハイライト表示されたタスクダッシュボード ](assets/s_ncs_user_task_notification_documents.png)
 
 ### 実行スケジュール {#execution-schedule}
 
@@ -178,17 +178,17 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 「**[!UICONTROL 実行されたワークロード]**」フィールドも、日数と時間数で指定します。スケジュール済みワークロードに関係するタスクの進捗状況を手動で更新することができます。
 
-![](assets/s_ncs_user_task_percentage_done_enter.png)
+![進行状況（%）フィールドを指す矢印が35に設定されたタスクの「一般」タブ。](assets/s_ncs_user_task_percentage_done_enter.png)
 
 タスクの&#x200B;**[!UICONTROL 進捗状況ステータス]**&#x200B;は、パーセンテージで表示されます。関係するオペレーターが実行したタスクに応じて自動的に更新されます。 手動で入力することも可能です。
 
 この情報はタスクダッシュボードに表示されます。
 
-![](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
+![進行状況の値を指す矢印が付いたタスクダッシュボード ](assets/s_ncs_user_task_percentage_done_from_dashboard.png)
 
 また、「キャンペーン」タブにも表示されます。
 
-![](assets/s_ncs_user_task_percentage_done_from_op.png)
+タスクの35%進行状況バーを指す矢印が付いた![ キャンペーンタスクリスト。](assets/s_ncs_user_task_percentage_done_from_op.png)
 
 タスクの実行スケジュールの終了日になってもタスクが完了されていない場合、タスクは「**[!UICONTROL 遅延]**」になります。 加えて、オペレーターに警告メッセージが表示されます。
 
@@ -200,13 +200,13 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 この情報を指定するには、タスクツールバーの&#x200B;**[!UICONTROL 費用と売上高]**&#x200B;アイコンをクリックします。
 
-![](assets/s_ncs_user_task_edit_costs.png)
+![ ツールバーから費用と収益ウィンドウが開き、料金、契約レベル、コストおよび目的の追加が表示されます。](assets/s_ncs_user_task_edit_costs.png)
 
 デフォルトでは、請求される予算はタスクが関連付けられているキャンペーンの予算です。 この予算はタスクの詳細に表示されます。
 
 >[!NOTE]
 >
->費用と予算について詳しくは、[この節](../campaigns/providers-stocks-and-budgets.md)を参照してください。
+>費用と予算について詳しくは、[ プロバイダー、在庫、予算](../campaigns/providers-stocks-and-budgets.md)を参照してください。
 
 ウィンドウでは達成目標も定義できます。 目標にはタスクの予測売上高を入力します。
 
@@ -218,7 +218,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 タスクの実行に関連するコストカテゴリを選択します。 選択するには、コストのタイプを選択し、必要に応じて金額を追加します。
 
-![](assets/s_ncs_user_task_edit_simple_costs_tab.png)
+![ サービスプロバイダーフィールドと追加料金の金額が表示されたコストカテゴリを含むタスクのプロパティウィンドウ。](assets/s_ncs_user_task_edit_simple_costs_tab.png)
 
 >[!NOTE]
 >
@@ -226,7 +226,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 サービスプロバイダーを選択すると、タスクダッシュボードに表示されるようになります。
 
-![](assets/s_ncs_user_task_supplier_view.png)
+![選択したサービスを示すサービスプロバイダー行を指す矢印が付いたタスクダッシュボード。](assets/s_ncs_user_task_supplier_view.png)
 
 ### 遅延タスク {#late-tasks}
 
@@ -234,19 +234,19 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 「**[!UICONTROL リソース]**」ボックスに移動し、オペレーターを「**[!UICONTROL 担当者]**」フィールドに追加します。 複数のオペレーターに通知を送信する場合は、オペレーターのグループを選択します。
 
-![](assets/mrm_task_alert_if_late.png)
+タスクの終了日を超えた場合、「通知」の下に「担当者」フィールドが強調表示された![ リソースウィンドウ。](assets/mrm_task_alert_if_late.png)
 
 ### 最初の通知 {#initial-notifications}
 
 開始日に達していないタスクを作成または修正すると、Adobe Campaign からタスクの担当者に開始日を通知するメールを送信するオプションが表示されます。
 
-![](assets/mrm_task_first_notif.png)
+![ スケジュール済みタスクに対する最初の通知を送信するかどうかを確認するメッセージを表示します。ボタンは「はい」と「いいえ」です。](assets/mrm_task_first_notif.png)
 
 もっとも、作成しているタスクの開始日がまだ当分先の場合、通知の送信をスケジュールしてタスクの開始前に通知するほうが良い場合もあります。 例えば、タスクの開始日が 1 ヶ月先の場合、開始 1 週間前に担当者に通知することができます。
 
 通知をスケジュールするには、「**[!UICONTROL リソース]**」ボックスの「**[!UICONTROL 初期通知]**」フィールドを使用します。
 
-![](assets/mrm_task_alert_before.png)
+![ タスク開始日セクションの下に初期通知フィールドが強調表示されたリソース ウィンドウ。](assets/mrm_task_alert_before.png)
 
 * キャンペーンのタスクの場合は、特定の日付と時間を選択します。
 * キャンペーンテンプレートのタスクの場合は、通知時間はタスク開始までの残り時間を入力します（例えば、「**[!UICONTROL 初期通知]**」フィールドに「2」と入力すると、メールはタスク開始日の 2 日前に送信されます）。
@@ -264,19 +264,19 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 1. このウィンドウで、「**[!UICONTROL 開く]**」をクリックします。 プログラムスケジュールが開きます。
 1. スケジュールの右上にある「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL タスクを追加]**」をクリックします。
 
-![](assets/mrm_task_create_from_prg.png)
+![追加メニューを開き、「タスクを追加」オプションを選択したプログラムのスケジュール。](assets/mrm_task_create_from_prg.png)
 
 ### オペレーターの稼働状況 {#operator-availability}
 
 タスクダッシュボードでオペレーター名の横にアイコンが表示される場合、そのオペレーターはタスクの期間中に別のタスクかイベントに既に取り組んでいることを示します。 オペレーターが担当または関係しているタスクが、「**[!UICONTROL 割り当て先]**」フィールドまたはタスクの「**[!UICONTROL リソース]**」ボックスに表示されます。
 
-![](assets/mrm_task_alert_operator_busy.png)
+![割り当て先の行の演算子を指す矢印が付いたタスクダッシュボード。](assets/mrm_task_alert_operator_busy.png)
 
 ### ワークフローのタスク {#task-in-a-workflow}
 
 キャンペーンワークフローの「**[!UICONTROL タスク]**」要素を使用して、タスクが承認されているかどうかに応じて 2 種類のシナリオを定義できます。
 
-![](assets/mrm_task_in_workflow.png)
+![ タスクアクティビティが完了するとダイレクトメール配信に導くワークフロー、または未完了の場合は待機と返送に導くワークフロー。](assets/mrm_task_in_workflow.png)
 
 キャンペーンワークフローでは、**[!UICONTROL タスク]**&#x200B;アクティビティは「**[!UICONTROL フロー制御]**」タブに表示されます。
 
@@ -284,7 +284,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 キャンペーンでタスクを作成すると、特定のタイプのタスクを作成できます。 タスクのタイプは選択したテンプレートに応じて定義されます。
 
-![](assets/s_ncs_user_task_select_template.png)
+![ コントロール、グループ化、マーケティングリソースの作成、通知、標準タスクテンプレートを含むタスクテンプレートリスト。](assets/s_ncs_user_task_select_template.png)
 
 以下のタスクをスケジュールできます。
 
@@ -302,11 +302,11 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 **[!UICONTROL コントロールタスク]**&#x200B;は、配信承認（ターゲティング、コンテンツ、抽出ファイル、予算または配達確認の承認）にリンクされます。
 
-![](assets/s_ncs_user_task_new_control.png)
+![Target、コンテンツ、予算、抽出ファイル、プルーフの承認を示す承認タイプのリストを含むタスクフォームを制御します。](assets/s_ncs_user_task_new_control.png)
 
 作成したコントロールタスクはキャンペーンダッシュボードに追加されます。
 
-![](assets/s_ncs_user_task_edit_from_board.png)
+タスク リストの新しいコントロール タスクを指す矢印が付いた![Campaign ダッシュボード。開く、承認、拒否が含まれています。](assets/s_ncs_user_task_edit_from_board.png)
 
 追加されたタスクは、編集してパラメーターを指定することができます。
 
@@ -337,7 +337,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 タスクのレビュー担当者と、リソースで定義されたコンテンツのレビュー担当者は必ずしも同一人物ではありません。 とはいえ、「**[!UICONTROL マーケティングリソースをパブリッシュ]**」オプションが有効になっている場合（下記を参照）、リソースはタスクの完了後に自動的に承認されるので、タスクのレビュー担当者（レビュー担当者が定義されていない場合はタスクマネージャー）がリソースコンテンツを承認することができます。
 
-![](assets/mrm_task_asset_creation.png)
+![ マーケティングリソース フィールドとマーケティングリソースの公開を選択したマーケティングリソース作成タスク。](assets/mrm_task_asset_creation.png)
 
 「**[!UICONTROL マーケティングリソース]**」フィールドで、タスクを使用して管理するリソースを定義します。 次の操作をおこなうことができます。
 
@@ -348,7 +348,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 「**[!UICONTROL リソースを公開する]**」ボタンが使用可能になり、リソース公開のレビュー担当者は公開の準備が整ったことを知らせる通知メールを受け取ります。 「**[!UICONTROL 編集／監査]**」タブに、レビュー担当者によるレビューとパブリッシュが表示されます。 リソースの後処理ワークフローが定義されている場合は、この時点で実行されます。
 
-![](assets/mrm_resource_audit_tab.png)
+![承認と公開のエントリを含む承認と公開のジャーナルを表示するマーケティングリソース監査タブ。](assets/mrm_resource_audit_tab.png)
 
 ### グループタスク {#grouping-task}
 
@@ -362,11 +362,11 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 任意のグループ化タスクを基にグループ化したタスクを作成するには、キャンペーンダッシュボードに移動し、グループ化タスクの名前をクリックして説明を表示してから、「**[!UICONTROL タスクを追加]**」をクリックします。
 
-![](assets/mrm_task_grouped_create.png)
+グループ化タスクが展開された![ キャンペーンダッシュボードと、タスクを追加リンクを指す矢印。](assets/mrm_task_grouped_create.png)
 
 ただし、既に作成済みのタスクをグループ化タスクにリンクしたい場合は、「**[!UICONTROL プロパティ]**」ボックスの「**[!UICONTROL リンク先]**」フィールドも使用できます。
 
-![](assets/s_ncs_user_task_group_with.png)
+タスク間のリンクを定義の下の「リンク先」フィールドが別のタスクに設定された![ タスクプロパティウィンドウ。](assets/s_ncs_user_task_group_with.png)
 
 ### 通知タスク {#notification-task}
 
@@ -376,7 +376,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 通知タスクに承認は必要ありません。 このため、通知タスクのライフサイクルは標準タスクよりも単純です。
 
-![](assets/mrm_task_notif_lifecycle.png)
+![通知タスクのライフサイクル：電子メールが送信された開始日、処理中、終了日に完了するまでスケジュールされます。](assets/mrm_task_notif_lifecycle.png)
 
 通知タスクには以下のステータスがあります。
 
@@ -386,7 +386,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 #### 設定 {#configuration}
 
-![](assets/mrm_task_notif_dashboard.png)
+![ テンプレート、ラベル、割り当て先、開始日と終了日、タスクの説明が記載された通知タスクフォーム。](assets/mrm_task_notif_dashboard.png)
 
 作成中、タスクに以下の要素を入力する必要があります。
 
@@ -395,7 +395,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 * **タスク終了日**：タスクステータスが&#x200B;**[!UICONTROL 完了]**&#x200B;になる日付です。 デフォルトでは、終了日は開始日と同じ日付ですが、 必要に応じてタスクに期間を割り当て、オペレーターの予定作業期間を指定することもできます。
 * **[!UICONTROL 説明]**：通知メールの本文に表示するテキストを入力します。
 
-  ![](assets/mrm_task_notif_dashboard_msg.png)
+  ![ スケジュール済みステータス、通知タイプ、担当者、キャンペーン、説明テキストを表示する通知タスクの概要](assets/mrm_task_notif_dashboard_msg.png)
 
 タスクや通知メールに添付ファイルを追加することもできます。 添付するには、右上隅のツールバーにある&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコンをクリックします。
 
@@ -411,21 +411,21 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 以下の例では、ターゲティングの承認が 4 つのサブタスクに分割されます。
 
-![](assets/s_ncs_user_task_linked_tasks.png)
+スタイルの更新タスク、ターゲット検証タスク、リンクされた4つのサブタスクを含む![ キャンペーンタスクのリスト。](assets/s_ncs_user_task_linked_tasks.png)
 
 各サブタスクは、メインタスクにリンクされた標準タスクです。
 
-![](assets/s_ncs_user_task_depends_on.png)
+![ ターゲット検証親タスクに設定された「依存」フィールドを指す矢印が付いたタスクフォーム。](assets/s_ncs_user_task_depends_on.png)
 
 #### タスクのグループ化 {#grouping-tasks}
 
 タスクの実行が他のタスクの実行に依存するようにするには、「**[!UICONTROL リンク先]**」フィールドを使用します。
 
-![](assets/s_ncs_user_task_group_with.png)
+タスク間のリンクを定義の下の「リンク先」フィールドが別のタスクに設定された![ タスクプロパティウィンドウ。](assets/s_ncs_user_task_group_with.png)
 
 タスク間の依存関係は、キャンペーンダッシュボード内の矢印で表されます。
 
-![](assets/s_ncs_user_task_dependencies_from_board.png)
+ターゲット検証タスクに依存する2つの子タスクを矢印で示す![ キャンペーンタスクリスト。](assets/s_ncs_user_task_dependencies_from_board.png)
 
 グループ化タスクの場合、Adobe Campaign は親タスクの終了日を、子タスクの開始日として自動的に割り当てます。 例えば、**招待状を作成**&#x200B;タスクが 10月15日の午後3時30分に終了した場合、**招待状メールを送信**&#x200B;子タスクは 10月15日の午後3時30分に開始されます。
 
@@ -437,7 +437,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
 ここで親タスクを延期して、終了日を 10 月 11 日午後 1 時に設定します。 すると、task A のみが延期され、開始日が 10 月 11 日午後 1 時になります。
 
-![](assets/mrm_task_parent_postpones_child.png)
+![延期された親タスクの表示の前後。子タスク Aの開始は移動しますが、子タスク Bは移動しません。](assets/mrm_task_parent_postpones_child.png)
 
 ### タスクの実行ステータス {#execution-status-of-a-task}
 
@@ -473,7 +473,7 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
    **将来の日付にスケジュールされた**&#x200B;タスクを作成または編集する際（タスクの開始日がまだ到来していない場合）、参加者およびマネージャーに新しいタスクがスケジュールされたことを通知するメッセージを送信できます。
 
-   ![](assets/s_ncs_user_task_planed_send_message.png)
+   ![ スケジュールされたタスクの初期通知を送信するかどうかを尋ねるプロンプトが表示され、矢印がNo.](assets/s_ncs_user_task_planed_send_message.png)を指しています
 
    この最初の通知を送信する場合は、「**[!UICONTROL はい]**」をクリックします。 この通知には、コンテンツについての詳細や期限までの残り日数など、次のタスクについての情報が記載されます。
 
@@ -485,21 +485,21 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
    * 通知メールを使用する。
    * タスクダッシュボードのクライアントコンソールまたは web インターフェイスを使用する。
 
-     ![](assets/s_ncs_user_task_start_rea.png)
+     ![参加者がタスクを承認するための「タスクを実行」ボタンと「却下」ボタンを含むタスクの概要](assets/s_ncs_user_task_start_rea.png)
 
 1. 参加者がジョブを承認するたびに、タスクの進捗状況ステータスが更新されます。
 
-   ![](assets/s_ncs_user_task_percentage_done_op.png)
+   ![ コメントを含むタスクダイアログのアクションと「タスクを実行」ボタンの後、進行状況が34%に更新されました。](assets/s_ncs_user_task_percentage_done_op.png)
 
 1. レビュー担当者に、オペレーターが割り当てのセクションを完了したことを知らせる通知メールが届きます。
 
    レビュー担当者はタスクダッシュボードで進捗状況を確認できます。
 
-   ![](assets/s_ncs_user_task_follow_from_dashboard.png)
+   ![参加者が既に与えた承認を指す34%の進捗状況と矢印を示すタスクダッシュボード。](assets/s_ncs_user_task_follow_from_dashboard.png)
 
 1. タスクの担当者がタスクの完了を判断すると、レビュー担当者はタスクの開始時に送信された通知メールに記載されたリンク、クライアントコンソールまたはインターフェイスを使用してタスクを閉じることができます。
 
-   ![](assets/s_ncs_user_task_console_ressource_validation.png)
+   ![ タスクの概要「終了」ボタンが表示され、コメントと「タスクを終了」ボタンが表示されます。](assets/s_ncs_user_task_console_ressource_validation.png)
 
    >[!NOTE]
    >
@@ -511,11 +511,11 @@ Adobe Campaign では、タスクを作成し、タスクのライフサイク�
 
    キャンペーンダッシュボードから承認できます。
 
-   ![](assets/s_ncs_user_task_console_validation.png)
+   タスクの保留中の承認が選択され、承認ボタンを指す矢印が表示された![ キャンペーンダッシュボード。](assets/s_ncs_user_task_console_validation.png)
 
    タスクの承認ボタンを使用することもできます。
 
-   ![](assets/s_ncs_user_task__validation.png)
+   ![保留中のステータス、100%の進行状況、および「タスクを承認」ボタンを含むタスクの概要](assets/s_ncs_user_task__validation.png)
 
    >[!NOTE]
    >

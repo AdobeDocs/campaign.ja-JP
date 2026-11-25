@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 80%
 ---
 # コントロールルール{#control-rules}
 
@@ -52,11 +52,11 @@ ht-degree: 100%
 
 1. **[!UICONTROL コントロール]**&#x200B;タイポロジルールを作成します。 アラートレベルとして、「**[!UICONTROL 警告]**」を選択します。
 
-   ![](assets/campaign_opt_create_control_01.png)
+   ![ タイポロジルール作成ダイアログ、一般タブ：ルールの種類、SMS チャネル、警告がハイライト表示されたレベル ドロップダウンを制御します。](assets/campaign_opt_create_control_01.png)
 
 1. 「**[!UICONTROL コード]**」タブで、以下の図のように、しきい値を適用するスクリプトを入力します。
 
-   ![](assets/campaign_opt_create_control_02.png)
+   配信ターゲットが100件を超えた場合に警告を記録するスクリプトが表示された![ タイポロジ ルール コード タブ。](assets/campaign_opt_create_control_02.png)
 
    このスクリプトは、配信ターゲットが 100 人を超えると、警告をトリガーします。
 
@@ -66,18 +66,18 @@ ht-degree: 100%
 
 1. ルールをキャンペーンタイポロジにリンクし、該当する SMS 配信でこのタイポロジを参照します。
 
-   ![](assets/campaign_opt_create_control_03.png)
+   ![配信プロパティ、タイポロジタブ：使用可能なタイポロジの中からタイポロジドロップダウンリストのモバイル（最大100）。](assets/campaign_opt_create_control_03.png)
 
 1. 配信の分析時にルールが適用され、状況に応じて警告が生成されます。
 
-   ![](assets/campaign_opt_create_control_04.png)
+   ルール +100 メッセージが問題を検出したという警告を示す![配信分析ログ。配信を確認してください。](assets/campaign_opt_create_control_04.png)
 
    ただし、このルールによって、配信が自動的に停止されることはありません。
 
    アラートレベルをさらに引き上げると、配信は開始されません。
 
-   ![](assets/campaign_opt_create_control_05.png)
+   ![ レベル ドロップダウンが開き、「警告」ではなく「エラー」が選択されたタイポロジルールの「一般」タブ。](assets/campaign_opt_create_control_05.png)
 
    分析の最後に表示される「**[!UICONTROL 配信を確定]**」ボタンがクリックできなくなります。
 
-   ![](assets/campaign_opt_create_control_06.png)
+   ![配信分析ログがエラーで終了し、「配信を確認」ボタンが無効になっています。](assets/campaign_opt_create_control_06.png)

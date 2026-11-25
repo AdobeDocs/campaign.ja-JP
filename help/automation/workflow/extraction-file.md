@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 78%
 ---
 # データ抽出（ファイル）{#extraction-file}
 
@@ -46,29 +46,29 @@ ht-degree: 100%
 1. 出力ファイルの名前を指定します。この名前には、フィールドの右側にあるパーソナライゼーションボタン経由で挿入される変数を含めることができます。
 1. 「**[!UICONTROL ファイルフォーマットを編集...]**」をクリックして、抽出するデータを選択します。
 
-   ![](assets/s_advuser_extract_file_param.png)
+   ![ ファイル形式を編集リンクから抽出ファイル形式ウィンドウを開いたデータ抽出（ファイル）アクティビティ。](assets/s_advuser_extract_file_param.png)
 
    「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」オプションでは、集計の最終結果をフィルターする手順が追加されます。例えば、所定の注文タイプについて、10 回以上注文した顧客などをフィルターできます。
 
 1. 必要に応じて、結果ファイルの出力用に、「計算結果」や「処理結果」などの新しい列を追加します。 それには、「**[!UICONTROL 追加]**」アイコンをクリックします。
 
-   ![](assets/s_advuser_extract_file_add_col.png)
+   ![出力列リストの右側に「追加」アイコンが強調表示された抽出ファイル形式ウィンドウ。](assets/s_advuser_extract_file_add_col.png)
 
    追加した行で、「**[!UICONTROL 式を編集]**」アイコンをクリックして新しい列のコンテンツを定義します。
 
-   ![](assets/s_advuser_extract_file_add_exp.png)
+   ![作成日列に式を編集アイコンが表示された出力列リスト。](assets/s_advuser_extract_file_add_exp.png)
 
    次に、選択ウィンドウにアクセスします。 「**[!UICONTROL 詳細選択]**」をクリックし、データに適用するプロセスを選択します。
 
-   ![](assets/s_advuser_extract_file_advanced_selection.png)
+   ![詳細選択ボタンがハイライト表示された受信者フィールドを一覧表示するウィンドウを選択するフィールド。](assets/s_advuser_extract_file_advanced_selection.png)
 
    リストから目的の式を選択します。
 
-   ![](assets/s_advuser_extract_file_agregate_values.png)
+   ![集計関数のプロセスが選択され、最大値オプションが選択された数式タイプ ウィンドウ。](assets/s_advuser_extract_file_agregate_values.png)
 
 データの抽出中に実行する後処理を定義して、ファイルを圧縮または暗号化できます。 これをおこなうには、アクティビティの「 **[!UICONTROL スクリプト]**」タブに目的のコマンドを追加する必要があります。
 
-![](assets/postprocessing_dataextraction.png)
+![後処理コマンドを追加するために「スクリプト」タブがハイライト表示されたデータ抽出（ファイル）アクティビティ。](assets/postprocessing_dataextraction.png)
 
 ## 集計関数のリスト {#list-of-aggregate-functions}
 

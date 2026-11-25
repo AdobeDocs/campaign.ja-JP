@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 95%
 ---
 # 分岐{#fork}
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 分岐]**」アクティビティを開き、アウトバウンドトランジションの名前とラベルを定義します。
 
-   ![](assets/s_user_segmentation_fork.png)
+   ![4つのトランジションと、トランジション 4の名前とラベルの編集に使用されるトランジションウィンドウを含むフォークアクティビティ。](assets/s_user_segmentation_fork.png)
 
 1. 各アウトバウンドトランジションを開いて設定します。
 1. オプションで、アウトバウンドトランジションを結合する場合は、 「AND 結合」アクティビティを追加します。 [詳細情報](and-join.md)。

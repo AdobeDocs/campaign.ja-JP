@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 86%
 ---
 # 外部シグナル{#external-signal}
 
@@ -38,7 +38,7 @@ PostEvent 関数について詳しくは、SOAP 呼び出しに関するオン�
 
 このアクティビティを設定して、信号を受信しなかった場合のイベントを定義することができます。 それには、アクティビティを編集し、「**[!UICONTROL 期限]**」タブをクリックします。 「**[!UICONTROL 挿入]**」ボタンをクリックして、イベントを作成して設定します。
 
-![](assets/edit_signal.png)
+![有効期限3件を示す外部信号の「有効期限」タブ。有効期限の詳細ウィンドウが開いている](assets/edit_signal.png)
 
 期限の設定について詳しくは、[有効期限](define-approvals.md)を参照してください。
 
@@ -46,4 +46,4 @@ PostEvent 関数について詳しくは、SOAP 呼び出しに関するオン�
 
 各行は、期限のタイプとトランジションとの紐付けを表します。
 
-![](assets/external_sign_diag.png)
+![送信トランジションを含む外部シグナル アクティビティ有効期限、有効期限2、有効期限3および新規](assets/external_sign_diag.png)

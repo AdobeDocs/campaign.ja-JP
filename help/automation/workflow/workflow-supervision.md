@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 82%
 ---
 # ユースケース：ワークフローの監視{#supervising-workflows}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 >
 >ワークフローに加え、キャンペーン&#x200B;**ワークフローヒートマップ**&#x200B;を使用することで、現在実行中のワークフローの詳細を分析することができます。 詳しくは、[該当する節](heatmap.md)を参照してください。
 >
->**ワークフローの実行を監視**&#x200B;する方法について詳しくは、[この節](monitor-workflow-execution.md)を参照してください。
+>ワークフローの実行を&#x200B;**監視する方法について詳しくは、[ ワークフローの実行を監視](monitor-workflow-execution.md)を参照してください。**
 
 ## 手順 1：監視ワークフローの作成 {#step-1--creating-the-monitoring-workflow}
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 以下のスキーマは、アクティビティのシーケンスを表します。
 
-![](assets/uc_monitoring_workflow_overview.png)
+![ トランジションによってリンクされた開始、JavaScript コード、テスト、配信および待機アクティビティを含む監視ワークフロー](assets/uc_monitoring_workflow_overview.png)
 
 このワークフローは次の要素から構成されます。
 
@@ -137,11 +137,11 @@ vars.strWorkflowStop = strStop;
 
 **3 つのイベント変数、「vars.strWorkflowError」、「vars.strWorkflowPaused」、「vars.strWorkflowStop」のうち少なくとも 1 つが有効であると、**&#x200B;スーパーバイザーに配信が行われます。
 
-![](assets/uc_monitoring_workflow_test.png)
+![3つのワークフロー変数の長さが0で、Falseの既定値](assets/uc_monitoring_workflow_test.png)であることを確認するTrue条件でアクティビティをテストします
 
 「待機」アクティビティは、一定間隔でワークフローの監視を再起動するよう設定することができます。 この使用例では、**待機時間は 1 時間に設定**&#x200B;されています。
 
-![](assets/uc_monitoring_workflow_attente.png)
+![期間フィールドが1h](assets/uc_monitoring_workflow_attente.png)に設定されたアクティビティを待つ
 
 ## 手順 4：配信の準備 {#step-4--preparing-the-delivery}
 
@@ -152,7 +152,7 @@ vars.strWorkflowStop = strStop;
 * **スーパーバイザーのメールアドレス**
 * **パーソナライズされたテキストを挿入するための HTML コンテンツ**
 
-  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  WF_Stop、WF_Error、WF_Pausedをテキスト変数としてリストしている配信テンプレートの![変数タブ ](assets/uc_monitoring_workflow_variables_diffusion.png)
 
   宣言する 3 つの変数（WF_Stop、WF_Paused、WF_Error）は、3 つのワークフローイベント変数に相当します。
 
@@ -162,7 +162,7 @@ vars.strWorkflowStop = strStop;
 
   配信テンプレートには次のコンテンツがあります。
 
-  ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  エラー、一時停止、停止のワークフローの見出しとvariables.WF_ タグを含む配信テンプレートの![HTML コンテンツ ](assets/uc_monitoring_workflow_model_diffusion.png)
 
 テンプレートが作成され承認されたら、「**配信**」アクティビティを設定して次のことをおこなう必要があります。
 
@@ -176,13 +176,13 @@ vars.strWorkflowStop = strStop;
 * 実行するアクション：「**準備と開始**」を選択します。
 * 「**エラーを処理**」オプションのチェックボックスをオフにします。
 
-  ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![新しい配信アクティビティ、テンプレートから作成、配信で指定、準備して開始が選択されました](assets/uc_monitoring_workflow_optionmodel.png)
 
 * 「**配信**」アクティビティの「**スクリプト**」タブに移動し、パーソナライゼーションフィールドメニューから 3 つの&#x200B;**文字列**&#x200B;タイプ変数を追加します。
 
-  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  パーソナライゼーションメニューが表示された配信アクティビティの![ スクリプトタブ。配信とその他のオプション ](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-  ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![変数が選択され、値（テキスト）フィールドが強調表示された使用可能なフィールドウィンドウ ](assets/uc_monitoring_workflow_linkvariables.png)
 
   これらの変数は次のように宣言します。
 

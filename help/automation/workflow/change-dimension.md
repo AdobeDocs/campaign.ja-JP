@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 72%
 ---
 # ディメンションを変更{#change-dimension}
 
@@ -42,11 +42,11 @@ ht-degree: 100%
 
 1. 新しいターゲティングディメンションを「**[!UICONTROL ディメンションを変更]**」フィールド経由で選択します。
 
-   ![](assets/s_user_change_dimension_param1.png)
+   ![ フィールドセレクターを開いてアクティビティのディメンションフィールドを変更し、新しいディメンションとしてサブスクリプションを選択](assets/s_user_change_dimension_param1.png)
 
 1. ディメンションの変更時に、すべての要素を保持することも、出力に含める要素を選択することもできます。 次の例では、重複の最大 数が 2 に設定されています。
 
-   ![](assets/s_user_change_dimension_limit.png)
+   ![ オプション制限フィールドが2](assets/s_user_change_dimension_limit.png)に設定された新しいターゲティングドキュメント内の項目数を制限します
 
    レコードを 1 つだけ保持する場合は、1 つのコレクションが作業スキーマに表示されます。このコレクションは、最終結果でターゲットにならないすべてのレコードを表します（1 つのレコードのみが保持されるため）。 ほかのすべてのコレクションと同様に、このコレクションを使用して、集計を自動生成したり、列内の情報を取得したりできます。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 1. この情報の一部のみを保持するように選択する場合、重複管理モードで設定できます。
 
-   ![](assets/s_user_change_dimension_param2.png)
+   ![優先度を設定する矢印が表示されている電子メールおよびアカウント番号フィールドを一覧表示する重複排除ダイアログ ](assets/s_user_change_dimension_param2.png)
 
    青い矢印を使用して、重複処理の優先度を定義できます。
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
    * 「**[!UICONTROL データを追加...]**」リンクをクリックし、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択します。
 
-     ![](assets/wf_change-dimension_sample_01.png)
+     ![結果タブ選択したフィルタリングディメンションにリンクされたデータを含む追加データウィザードを開くデータリンクを追加](assets/wf_change-dimension_sample_01.png)
 
      >[!NOTE]
      >
@@ -74,22 +74,22 @@ ht-degree: 100%
 
    * 以前のターゲティングディメンション（軸変更の前）を選択し、受信者の「**[!UICONTROL 場所]**」サブツリーで「**[!UICONTROL 郵便番号]**」を選択して「**[!UICONTROL 式を編集]**」をクリックします。
 
-     ![](assets/wf_change-dimension_sample_02.png)
+     ![場所サブツリーのZip/Postcodeを使用した追加データウィザードが、出力列として追加され、式を編集](assets/wf_change-dimension_sample_02.png)します
 
    * 「**[!UICONTROL 詳細選択]**」をクリックし、「**[!UICONTROL 式を使用して数式を編集]**」を選択します。
 
-     ![](assets/wf_change-dimension_sample_03.png)
+     ![選択した式を使用して数式を編集して数式タイプを開く詳細選択ボタン ](assets/wf_change-dimension_sample_03.png)
 
    * リストで提供される関数を使用して、実行される計算を指定します。
 
-     ![](assets/wf_change-dimension_sample_04.png)
+     ![式エディターと、長さ2と関数のリストを含む文字1の郵便番号の数式サブ文字列](assets/wf_change-dimension_sample_04.png)
 
    * 最後に、作成した列のラベルを入力します。
 
-     ![](assets/wf_change-dimension_sample_05.png)
+     ![ ラベル Countyと式Substring （zip/Postcode, 1, 2） ](assets/wf_change-dimension_sample_05.png)を含む出力列
 
 1. ワークフローを実行して、この設定の結果を確認します。 次の図に示すように、ディメンションアクティビティの変更前と変更後のテーブル内のデータを比較し、さらにワークフローテーブルの構造も比較します。
 
-   ![](assets/wf_change-dimension_sample_06.png)
+   ![ ディメンションを変更する前のトランジションにターゲット オプションを表示し、そのデータとスキーマをビュー母集団](assets/wf_change-dimension_sample_06.png)に表示します
 
-   ![](assets/wf_change-dimension_sample_07.png)
+   ![ ディメンションを変更した後にターゲットオプションを表示し、郡の列と新しいスキーマを含むデータを表示](assets/wf_change-dimension_sample_07.png)

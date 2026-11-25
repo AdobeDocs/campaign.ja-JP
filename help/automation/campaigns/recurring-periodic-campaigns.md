@@ -22,10 +22,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 91%
 ---
 # 繰り返しキャンペーンと定期的なキャンペーン {#recurring-and-periodic-campaigns}
 
@@ -43,10 +43,10 @@ ht-degree: 100%
 
 1. Campaign エクスプローラーを開き、**[!UICONTROL リソース／テンプレート／キャンペーンテンプレート]**&#x200B;を開きます。
 1. ビルトインの&#x200B;**[!UICONTROL 繰り返しキャンペーン]**テンプレートを複製します。
-   ![](assets/recurring-campaign-duplicate.png)
+   繰り返しキャンペーンテンプレートのコンテキストメニューで「複製」コマンドを選択した![ キャンペーンテンプレートリスト。](assets/recurring-campaign-duplicate.png)
 1. テンプレートの名前とキャンペーン期間を入力します。
 1. このタイプのキャンペーンの場合は、テンプレート実行スケジュールを作成するために、「**[!UICONTROL スケジュール]**」タブが追加されます。 このタブを使用して、このテンプレートをベースとするキャンペーンの実行日を定義します。
-   ![](assets/recurring-campaign-schedule.png)
+   ![実行スケジュール リストと開始日を設定するカレンダーピッカーを含むキャンペーンテンプレートの「スケジュール」タブ。](assets/recurring-campaign-schedule.png)
 
    実行スケジュールの設定モードは、ワークフローの&#x200B;**[!UICONTROL スケジューラー]**&#x200B;オブジェクトと一致しています。 [詳細情報](../workflow/scheduler.md)。
 
@@ -61,7 +61,7 @@ ht-degree: 100%
    >
    >このワークフローは、繰り返しワークフローテンプレートとして保存する必要があります。 そのためには、ワークフローのプロパティを編集し、「**[!UICONTROL 実行]**」タブで「**[!UICONTROL 定期ワークフローテンプレート]**」オプションを選択します。
 
-   ![](assets/recurring-campaign-wf-properties.png)
+   ![ ワークフローのプロパティ、実行タブ、繰り返しワークフローテンプレートオプションが選択されています。](assets/recurring-campaign-wf-properties.png)
 
 ### 繰り返しキャンペーンの作成 {#create-the-recurring-campaign}
 
@@ -81,13 +81,13 @@ ht-degree: 100%
 
 1. 繰り返しワークフローは、キャンペーンに含まれるワークフローテンプレートから自動的に作成されます。 繰り返しワークフローは、キャンペーンの「**[!UICONTROL ターゲティングとワークフロー]**」タブに表示されます。
 
-   ![](assets/recurring-wf-created.png)
+   ![ デフォルトのワークフローとその定期的なインスタンスを一覧表示する「ターゲット設定とワークフロー」タブには、#1と#2が番号が付けられています。](assets/recurring-wf-created.png)
 
    繰り返しワークフローインスタンスのラベルは、テンプレートラベルとワークフロー番号、その間の # 文字で構成されます。
 
    スケジュールから作成されたワークフローは、「**[!UICONTROL スケジュール]**」タブの「**[!UICONTROL ワークフロー]**」列で自動的にスケジュールに関連付けられます。
 
-   ![](assets/recurring-wf-schedule-executed.png)
+   ![ ワークフロー列が作成されたワークフローをスケジュール行にリンクしているスケジュール タブ。の事前に作成されたのは15dです。](assets/recurring-wf-schedule-executed.png)
 
    各ワークフローはこのタブから編集できます。
 

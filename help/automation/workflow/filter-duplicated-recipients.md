@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 100%
+source-wordcount: '215'
+ht-degree: 72%
 ---
 # 重複した受信者のフィルタリング {#filtering-duplicated-recipients}
 
@@ -37,19 +37,19 @@ ht-degree: 100%
 1. ワークフローに「**[!UICONTROL クエリ]**」アクティビティをドラッグ＆ドロップし、アクティビティを開きます。
 1. 「**[!UICONTROL クエリを編集]**」をクリックし、ターゲットディメンションとフィルタリングディメンションを「**[!UICONTROL 受信者]**」に設定します。
 
-   ![](assets/query_recipients_1.png)
+   ![受信者を選択したクエリ アクティビティのディメンションのターゲット設定とフィルタリングの手順。フィルター条件がハイライト表示されます。](assets/query_recipients_1.png)
 
 1. 次のようにフィルター条件を定義して配信ログ内に存在する受信者をターゲットにします。 「**式**」列で「**受信者配信ログ（broadlog）**」を選択し、「**オペレーター**」列で「**既存の例**」を選択します。
 
-   ![](assets/query_recipients_2.png)
+   ![受信者配信ログ （broadLog）と演算子を条件とするフィルターステップは、次のように存在します。](assets/query_recipients_2.png)
 
 1. 次のようにフィルター条件を定義して配信をターゲットにします。 「式」列で「**[!UICONTROL 内部名]**」を選択し、「オペレーター」列で「**[!UICONTROL 等しい]**」を選択します。
 1. 「値」列にターゲットにした配信の内部名を追加します。
 
-   ![](assets/query_recipients_3.png)
+   ![配信の内部名に対するフィルター条件。次のような値が存在する下のsummer_delivery_salesと等しい。](assets/query_recipients_3.png)
 
 1. 演算子 **[!UICONTROL AND]** を使用して、別の配信をターゲットにして同じ操作を繰り返します。
 
-   ![](assets/query_recipients_4.png)
+   ![2つの条件が存在します。例えば、Summer_delivery_salesとsummer_delivery_new_collectionをターゲットとするAndが結合されています。](assets/query_recipients_4.png)
 
 アウトバウンドトランジションで配信のターゲットにした受信者が重複しています。

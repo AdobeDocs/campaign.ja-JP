@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 100%
+source-wordcount: '1012'
+ht-degree: 76%
 ---
 # 一貫性ルール{#consistency-rules}
 
@@ -50,22 +50,22 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 1. **[!UICONTROL 管理／キャンペーン管理／タイポロジ管理／タイポロジルール]**&#x200B;フォルダーで、「**[!UICONTROL 新規]**」をクリックします。
 1. **[!UICONTROL 処理能力]**&#x200B;ルールタイプを選択します。
 
-   ![](assets/campaign_opt_create_capacity_01.png)
+   ![ ルールタイプ ドロップダウンリストで「容量」オプションが選択されたタイポロジルールの作成画面。](assets/campaign_opt_create_capacity_01.png)
 
 1. 「**[!UICONTROL 処理能力]**」タブで、稼動ラインを作成します。今回の例の場合は、電話をかけることのできる期間を指定します。 期間として 24 時間を選択し、初期数量を 150 にします。これは、コールセンターが 1 日につき 150 通話を処理できることを意味します。
 
-   ![](assets/campaign_opt_create_capacity_02.png)
+   ![開始数量、終了数量、および初期数量を入力するための「使用可能ラインを編集」ダイアログを含む「処理能力」タブ。](assets/campaign_opt_create_capacity_02.png)
 
    >[!NOTE]
    >
-   >稼動ラインは情報提供のためだけに存在します。 処理能力の上限に達してメッセージの除外が必要になった場合は、[この節](#exclude-messages-when-capacity-limit-reached)を参照してください。
+   >稼動ラインは情報提供のためだけに存在します。 容量制限に達したときにメッセージを除外する必要がある場合は、[容量制限に達したときにメッセージを除外](#exclude-messages-when-capacity-limit-reached)を参照してください。
 
-1. この処理能力ルールを適用するには、このルールをタイポロジに関連付けたうえでそのタイポロジを配信内で参照します。 詳しくは、[この節](apply-rules.md#apply-a-typology-to-a-delivery)を参照してください。
+1. この処理能力ルールを適用するには、このルールをタイポロジに関連付けたうえでそのタイポロジを配信内で参照します。 詳しくは、[配信にタイポロジを適用する](apply-rules.md#apply-a-typology-to-a-delivery)を参照してください。
 1. ルールの「**[!UICONTROL 消費]**」および「**[!UICONTROL 処理能力]**」タブで消費状況を監視できます。
 
    配信でルールを使用すると、以下の図のように、**[!UICONTROL 消費済み]**&#x200B;と&#x200B;**[!UICONTROL 残り]**&#x200B;列に負荷の情報が表示されます。
 
-   ![](assets/campaign_opt_create_capacity_03.png)
+   ![最初の数量が150、消費が200、残りが–50の可用性ラインを示す「処理能力」タブ。](assets/campaign_opt_create_capacity_03.png)
 
    詳しくは、[この節](#monitor-consumption)を参照してください。
 
@@ -77,7 +77,7 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 
 稼動ラインを作成するには、「**[!UICONTROL 追加]**」ボタンをクリックして、「**[!UICONTROL 稼動ラインを追加]**」を選択します。 稼動の期間と負荷を入力します。
 
-![](assets/campaign_opt_create_capacity_02.png)
+![開始数量、終了数量、および初期数量フィールドを含む「追加」ボタンから開いた可用性ラインを編集ダイアログ。](assets/campaign_opt_create_capacity_02.png)
 
 処理能力に応じて、必要な数だけラインを追加します。
 
@@ -87,25 +87,25 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 
 頻度を指定して作成を自動化するには、「**[!UICONTROL 変更]**」ボタンをクリックして、期間のスケジュールを定義します。
 
-![](assets/campaign_opt_create_capacity_07.png)
+![可用性ラインを編集ダイアログで、選択した一連の可用性ラインを追加し、スケジュール用に「変更」ボタンを使用します。](assets/campaign_opt_create_capacity_07.png)
 
 例として、平日の午前 9 時から午後 5 時まで、通話を毎時 10 件に制限する稼動期間をスケジュールに従って自動的に作成してみましょう。 それには、次の手順に従います。
 
 1. 頻度のタイプを選択し、有効にする曜日と時間を指定します。
 
-   ![](assets/campaign_opt_create_capacity_08.png)
+   ![ カレンダーから有効な開始日と終了日が選択された状態で、ウィザードの有効期限ページを編集するスケジュール。](assets/campaign_opt_create_capacity_08.png)
 
 1. 有効期間を指定します。
 
-   ![](assets/campaign_opt_create_capacity_09.png)
+   ![終了有効期限がカレンダーから選択されたスケジュール編集ウィザードの有効期限ページ。](assets/campaign_opt_create_capacity_09.png)
 
 1. スケジュールを確認してから、承認します。
 
-   ![](assets/campaign_opt_create_capacity_10.png)
+   ![ スケジュールの説明と起動時間のリストが表示されたスケジュール編集ウィザードの概要ページが完了する前に表示されます。](assets/campaign_opt_create_capacity_10.png)
 
 **[!UICONTROL 予測]**&#x200B;ワークフローによって、一致するラインがすべて自動的に作成されます。
 
-![](assets/campaign_opt_create_capacity_12.png)
+![ スケジュールによって自動的に作成された可用性ラインを一覧表示するコールセンターのルールの「キャパシティ」タブ。](assets/campaign_opt_create_capacity_12.png)
 
 >[!NOTE]
 >
@@ -115,17 +115,17 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 
 稼動ラインの目的は、情報を確認することです。 処理能力を超えるメッセージを除外するには、「**[!UICONTROL 容量を超えた場合にターゲットメッセージから除外]**」オプションをオンにしてください。 この設定により、処理能力をオーバーすることを回避できます。 このオプションをオンにすると、消費済みと残りの数値が初期数量を超えることはなくなります（上の図と比較してください）。
 
-![](assets/campaign_opt_create_capacity_04.png)
+選択したキャパシティを超えるターゲットメッセージから除外された![ キャパシティ タブ：消費されたキャパシティが100、残り50。](assets/campaign_opt_create_capacity_04.png)
 
 処理できるメッセージの最大数は、均等に分割され、定義されている期間全体に割り当てられます。 この設定は、1 日あたりの最大通話数が制限されるコールセンターに特に最適です。 メール配信の場合、「**[!UICONTROL 即時配信時の処理能力を制限しない]**」オプションを指定すると、この稼動期間を無視してメールを同時に一斉送信できます。
 
-![](assets/campaign_opt_create_capacity_05.png)
+![処理能力タブで「即時の配信能力を制限しません」が選択され、150件が消費され、残り0件が表示されます。](assets/campaign_opt_create_capacity_05.png)
 
 >[!NOTE]
 >
 >過負荷が生じる場合は、配信プロパティで定義されている数式に従って、保存されているメッセージが選択されます。
 
-![](assets/campaign_opt_create_capacity_06.png)
+![ キャパシティ設定を含む「配信プロパティ」タイポロジタブ：コールセンターのチャネルのキャパシティと重要度の式](assets/campaign_opt_create_capacity_06.png)
 
 ## 消費状況の監視 {#monitoring-consumption}
 
@@ -133,6 +133,6 @@ Adobe Campaign では、キャンペーンタイポロジに含まれる一連�
 
 消費状況を監視するには、タイポロジルールの「**[!UICONTROL 処理能力]**」タブで、**[!UICONTROL 消費済み]**&#x200B;列に表示される値を確認してください。
 
-![](assets/campaign_opt_create_capacity_04.png)
+![除外オプションが選択されたキャパシティタブ。100件の使用済み、50件の残りの初期数量が150件であることを示します。](assets/campaign_opt_create_capacity_04.png)
 
 消費ラインを表示するには、ルールの「**[!UICONTROL 消費]**」タブをクリックしてください。

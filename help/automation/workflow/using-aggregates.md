@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 91%
 ---
 # 集計の使用{#using-aggregates}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 1. 各受信者を、同じスキーマの、集計機能の結果とリンクします。
 1. 編集済みのスキーマで集計をおこない、受信者をフィルタリングします。
 
-![](assets/datamanagement_usecase_1.png)
+![ ワークフロー：受信者とDateMaxのクエリがスキーマの編集アクティビティをフィードし、次に分割アクティビティと終了を入力します。](assets/datamanagement_usecase_1.png)
 
 ## 手順 1：集計結果の計算 {#step-1--calculating-the-aggregate-result}
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 1. 開いているウィンドウで「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」を選択し、次に、「**[!UICONTROL フィルタリングディメンションデータ]**」を選択します。
 1. **[!UICONTROL 追加するデータ]**&#x200B;ウィンドウで、受信者テーブルの「**作成日**」フィールドの最大値を割り出す列を追加します。 式エディターを使用するか、「**max(@created)**」と「**[!UICONTROL 式]**」列のフィールドに直接入力します。 「**[!UICONTROL 終了]**」ボタンをクリックします。
 
-   ![](assets/datamanagement_usecase_2.png)
+   ![式の列と終了ボタンに出力列Max （作成日）を含むウィンドウを追加するデータ。](assets/datamanagement_usecase_2.png)
 
 1. 「**[!UICONTROL 追加データを編集]**」をクリックし、「**[!UICONTROL 詳細設定パラメーター...]**」をクリックします。「**[!UICONTROL ターゲティングディメンションのプライマリキーの自動追加を無効にする]**」オプションをクリックします。
 
@@ -65,7 +65,7 @@ ht-degree: 100%
    * 「**[!UICONTROL 単純結合を使用]**」を選択して、メインセットのすべての受信者に集計結果をリンクします。
    * 最後に、リンクが「**[!UICONTROL タイプ 11 シンプルリンク]**」となるように指定します。
 
-   ![](assets/datamanagement_usecase_3.png)
+   ![一時スキーマ DateMaxを使用したリンク定義。単純な結合を使用し、11種類の単純なリンクを選択しました。](assets/datamanagement_usecase_3.png)
 
 これにより、集計結果がすべての受信者とリンクします。
 
@@ -86,7 +86,7 @@ ht-degree: 100%
    * **[!UICONTROL 式]**：`toDate([target/@created])`。
    * **[!UICONTROL 値]**：`toDate([datemax/expr####])`。ここで、expr#### は、集計機能のクエリで指定した集計と関連があります。
 
-   ![](assets/datamanagement_usecase_4.png)
+   ![ ターゲット要素フィルター：ToDate target/@createdがDateOnly （最大（作成日））と等しい。](assets/datamanagement_usecase_4.png)
 
 この結果、「分割」アクティビティで得られる結果は、最新の既知の作成日付と同じ日付に作成された受信者と関連性があります。
 

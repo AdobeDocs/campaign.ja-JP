@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 99%
+source-wordcount: '1073'
+ht-degree: 86%
 ---
 # データを更新{#update-data}
 
@@ -43,7 +43,7 @@ ht-degree: 99%
 * **[!UICONTROL コレクションを更新して結合]**：データを更新してプライマリレコードを選択した後、このプライマリレコード内の重複レコードに関係付けられた要素にリンクさせる場合。 重複レコードは、孤立した接続要素を作成することなく、削除できます。
 * **[!UICONTROL 削除]**：データを削除する場合。
 
-![](assets/s_advuser_update_data_1.png)
+![操作タイプ リストを開いた状態でデータ アクティビティを更新し、挿入または削除による更新を表示します。](assets/s_advuser_update_data_1.png)
 
 「**[!UICONTROL バッチサイズ]**」フィールドで、更新するインバウンドトランジション要素の数を選択できます。 例えば 500 を選択すると、処理される最初の 500 レコードが更新されます。
 
@@ -57,17 +57,17 @@ ht-degree: 99%
 
 * または、データベース内のデータの識別または紐付けキーの直接使用を可能にするリンクを 1 つまたは複数指定します。
 
-![](assets/s_advuser_update_data_2.png)
+![ データアクティビティの更新、レコード識別：更新されたディメンションとして受信者スキーマを選択します。](assets/s_advuser_update_data_2.png)
 
 ## 更新するフィールドの選択 {#selecting-the-fields-to-be-updated}
 
 「**[!UICONTROL フィールドに同じ名前を自動で関連付け]**」オプションを使用して、更新するフィールドを Adobe Campaign に自動選択させることができます。
 
-![](assets/s_advuser_update_data_3b.png)
+![同じ名前のフィールドを自動的に関連付けるwand ボタンで入力されたテーブルを更新するフィールド。](assets/s_advuser_update_data_3b.png)
 
 また、「**[!UICONTROL 挿入]**」アイコンを使用して、更新するフィールドを手動で選択することもできます。
 
-![](assets/s_advuser_update_data_3.png)
+![新しいフィールドの式を編集ボタンを使用して行を更新し、受信者ドキュメントのフィールドセレクターを開きます。](assets/s_advuser_update_data_3.png)
 
 更新するフィールドを選択したら、必要に応じて、更新を実行する条件を追加します。 そのためには、「**[!UICONTROL 次の場合に考慮]**」列を使用します。 条件は 1 つずつ、リストの順序で適用されます。 更新順序を変更するには、右側の矢印を使用します。
 
@@ -75,7 +75,7 @@ ht-degree: 99%
 
 「**[!UICONTROL 挿入または更新]**」の処理では、適用されるキャンペーンを、1 つひとつ、またはフィールドごとに選択します。 そのためには、必要な値を「**[!UICONTROL 操作]**」列で選択します。
 
-![](assets/s_advuser_update_data_5.png)
+![すべての、挿入、更新のオプションを使用してテーブルを更新するフィールドの操作列。](assets/s_advuser_update_data_5.png)
 
 **[!UICONTROL modifiedDate]**、**[!UICONTROL modifiedBy]**、**[!UICONTROL createdDate]** および **[!UICONTROL createdBy]** の各フィールドは、フィールド更新テーブルでそれらの管理モードが特に設定されていない限り、データの更新時に自動的に更新されます。
 
@@ -108,11 +108,11 @@ ht-degree: 99%
 
 1. 「**[!UICONTROL コレクションを更新して結合]**」の処理を選択します。
 
-   ![](assets/update_and_merge_collections1.png)
+   ![操作タイプ リストで「コレクションの更新と結合」操作タイプを選択してデータ アクティビティを更新します。](assets/update_and_merge_collections1.png)
 
 1. 処理するリンクの優先度を決めます。 これにより、メインレコードを特定できます。 処理できるリンクは、インバウンドトラジションによって変わります。
 
-   ![](assets/update_and_merge_collections2.png)
+   ![ プライマリレコードを検索するために使用されるリンクを優先順位で一覧表示するレコード識別セクション。](assets/update_and_merge_collections2.png)
 
 1. プライマリレコードへ移動するコレクションと更新するフィールドを選択します。
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 
 1. **[!UICONTROL 詳細設定パラメーター]**／**[!UICONTROL 重複]**&#x200B;を選択し、セカンダリレコードの処理順序を指定します。
 
-   ![](assets/update_and_merge_collections3.png)
+   ![更新するターゲットレコードのフィールドとコレクション。Source式を使用し、列の場合は考慮します。](assets/update_and_merge_collections3.png)
 
 定義したルールに該当する場合、セカンダリレコードのデータはメインレコードに関連付けられます。 選択した更新のタイプに従って、セカンダリレコードは削除されることもあります。
 

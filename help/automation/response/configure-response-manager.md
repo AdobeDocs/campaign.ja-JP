@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '856'
+ht-degree: 91%
 ---
 # Campaign Response Manager の設定{#configuration}
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 以下のスキーマは、設定完了後の複数テーブル間の結合を表します。
 
-![](assets/response_data_model.png)
+![応答テーブルのデータモデル：配信、配信ログ、測定仮説、および反応にリンクされた受信者](assets/response_data_model.png)
 
 ### 応答管理と受信者 {#response-management-with-adobe-campaign-recipients}
 
@@ -89,17 +89,17 @@ ht-degree: 100%
 1. Adobe Campaign エクスプローラーで、**[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ターゲットマッピング]**&#x200B;を選択します。
 1. **受信者**&#x200B;を右クリックし、**[!UICONTROL アクション]**／**[!UICONTROL ターゲティングディメンションのオプションを変更]**&#x200B;を選択します。
 
-   ![](assets/delivery_mapping1.png)
+   「アクション」メニューが開いた![ ターゲットマッピングリストを開き、選択したターゲティングディメンションのオプションを変更する](assets/delivery_mapping1.png)
 
 1. 次のウィンドウで「**[!UICONTROL 拡張名前空間]**」をパーソナライズできます。パーソナライズしたら、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/delivery_mapping2.png)
+   拡張機能スキーマフィールドの拡張機能の名前空間とサフィックスを含むターゲティングディメンションオプションの![ ストレージ手順](assets/delivery_mapping2.png)
 
 1. 「**[!UICONTROL 反応管理]**」カテゴリで、「**[!UICONTROL 反応のストレージスキーマを生成]**」ボックスがオンになっていることを確認します。
 
    その後、「**[!UICONTROL 追加フィールドを指定…]**」をクリックし、関連するトランザクションテーブルを選択して、nms:remaMatchRcp スキーマの拡張にフィールドを追加します。
 
-   ![](assets/delivery_mapping3.png)
+   ![ リアクションのストレージスキーマを生成をチェックした拡張機能ステップと、リアクションのスキーマダイアログの拡張機能](assets/delivery_mapping3.png)
 
 作成したスキーマは以下のようになります。
 

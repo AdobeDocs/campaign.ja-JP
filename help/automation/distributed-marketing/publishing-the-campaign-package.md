@@ -18,10 +18,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '586'
+ht-degree: 82%
 ---
 # キャンペーンパッケージの公開{#publishing-the-campaign-package}
 
@@ -33,15 +33,15 @@ ht-degree: 100%
 
 レビュー担当者を指定するには、キャンペーンパッケージの「**[!UICONTROL 承認パラメーター]**」リンクをクリックし、ドロップダウンリストからレビュー担当者を選択します。
 
-![](assets/s_advuser_mkg_dist_define_valid.png)
+![ レビュー担当者フィールドが一元管理グループに設定されたキャンペーンパッケージの承認パラメーターダイアログ。](assets/s_advuser_mkg_dist_define_valid.png)
 
 「**[!UICONTROL パッケージを承認]**」をクリックして、承認プロセスを開始します。
 
-![](assets/s_advuser_mkg_dist_valid_process.png)
+![承認用に送信されたメッセージと「パッケージを承認」ボタンが表示されたCampaign パッケージダッシュボード。](assets/s_advuser_mkg_dist_valid_process.png)
 
 メッセージがレビュー担当者に送信され、キャンペーンパッケージが使用可能になったことが通知されます。 このメッセージには、Web アクセスを通じて承認を許可または却下するリンクが含まれています。
 
-![](assets/s_advuser_mkg_dist_valid_process1.png)
+![承認または拒否リンクを含む承認メールで、承認オプションと拒否オプションを含むパッケージ ページでアクションを開きます。](assets/s_advuser_mkg_dist_valid_process1.png)
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 キャンペーンパッケージの「**[!UICONTROL 承認パラメーター...]**」タブにある「**[!UICONTROL 編集...]**」リンクを使用すると、他のレビュー担当者を追加できます。
 
-![](assets/s_advuser_mkg_dist_select_op_valid.png)
+![追加のレビュー担当者と承認スケジュールを含むレビュー担当者を編集ウィンドウを開く承認パラメーターでリンクを編集します。](assets/s_advuser_mkg_dist_select_op_valid.png)
 
 ## 承認タイムライン {#approval-periods}
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 リマインダーは、指定する日に送信するか、登録日の **x** 日後に送信することができます。 リマインダーのタイプは、リマインダーのテーブルの最初の列で設定できます。 以下の例では、レビュー担当者には 2023年1月11日（**[!UICONTROL 日付]**&#x200B;列で選択されている日付の 2 日前）にリマインダーメッセージが送信されます。さらに、承認期間が終了する 1 日前（登録日の 2 日後）にも 2 回目のリマインダーが送信されます。
 
-![](assets/s_advuser_mkg_dist_reminder_planning.png)
+![3D承認遅延と2つのリマインダーを含むレビュー担当者ウィンドウを編集：承認期限からの遅延と指定された日付](assets/s_advuser_mkg_dist_reminder_planning.png)
 
 承認の期間が定義され、パッケージの承認が申請されると、実行スケジュールが「**[!UICONTROL 監査]**」タブに表示されます。 スケジュールには、現在の設定に基づいて算出された処理期限と設定されたすべてのリマインダーの日付が含まれます。
 
@@ -69,6 +69,6 @@ ht-degree: 100%
 
 レビュー担当者が一人も指定されていないか、通知を受けたオペレーターが誰もパッケージを承認していない場合、「**[!UICONTROL パッケージを承認]**」ボタンを使用して、キャンペーンパッケージの&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;またはパッケージの概要から直接、承認の段階に進むことができます。
 
-![](assets/s_advuser_mkg_dist_valid_button.png)
+![受け入れまたは拒否オプションとコメントフィールドを含むパッケージ上のアクション ダイアログを開くパッケージ ボタンを承認します。](assets/s_advuser_mkg_dist_valid_button.png)
 
 承認が完了すると、キャンペーンはパブリッシュされ、リストに追加されます。使用可能な日付になると、ローカルエンティティはキャンペーンを使用できます。 キャンペーンの作成時にローカルエンティティが指定されている場合は、通知グループのオペレーターにメッセージが送信され、キャンペーンが使用可能であることが通知されます。 事前に指定されているエンティティが存在しない場合は、デフォルトで、すべてのローカルエンティティにキャンペーンが提供されます。 詳しくは、[組織エンティティ](about-distributed-marketing.md#organizational-entities)を参照してください。

@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 81%
 ---
 # データの読み込み（RDBMS）{#data-loading-rdbms}
 
@@ -43,15 +43,15 @@ ht-degree: 100%
 
 1. リストからデータソースを選択し、抽出するデータが含まれるテーブル名を入力します。
 
-   ![](assets/s_advuser_wf_sgbd_sample_1.png)
+   ![共有外部データソースを選択し、テーブル名nmsrecipientを指定したデータ読み込み（RDBMS）アクティビティ。](assets/s_advuser_wf_sgbd_sample_1.png)
 
    対応するフィールドに入力したテーブル名は、外部テンプレート内のデータを収集するテンプレートとして使用されます。 ワークフローによって処理されるテーブル名は、データの読み取りアクティビティのインバウンドトランジションによって自動生成または伝達されます。 使用するテーブルを選択するには、「**[!UICONTROL 詳細...]**」リンクをクリックし、「**[!UICONTROL トランジションで指定]**」または「**[!UICONTROL 手動で指定]**」オプションを選択します。
 
-   ![](assets/s_advuser_wf_sgbd_sample_5.png)
+   ![ テーブル名の選択の詳細パラメーター：テンプレートと同じ、遷移で指定された、明示的な](assets/s_advuser_wf_sgbd_sample_5.png)
 
 1. 「**[!UICONTROL 抽出する列を選択...]**」リンクをクリックして、収集するデータをデータベース内で選択します。
 
-   ![](assets/s_advuser_wf_sgbd_sample_2.png)
+   ![使用可能なフィールドと抽出用に選択した出力列を一覧表示する追加の列ウィンドウを選択します。](assets/s_advuser_wf_sgbd_sample_2.png)
 
 1. このデータに対してフィルターを定義できます。 それには、「**[!UICONTROL クエリを編集....]**」リンクをクリックします。
 

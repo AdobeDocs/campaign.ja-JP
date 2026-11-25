@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 76%
 ---
 # アクティビティ画像の変更{#change-activity-images}
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 * 背景画像を変更するには、目的のターゲティングワークフローを選択してから「**[!UICONTROL プロパティ]**」タブをクリックします。
 
-  ![](assets/s_user_segmentation_properties_tab.png)
+  ![ ワークフローのプロパティ、詳細タブ：選択リンク アイコンがハイライト表示された背景画像フィールド。](assets/s_user_segmentation_properties_tab.png)
 
   使用する画像を選択するには、「**[!UICONTROL 背景画像]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
   >
   >背景画像のピクセルの幅は 4 の倍数にする必要があります。
 
-  ![](assets/s_user_segmentation_background_select.png)
+  ![backgrounds/grid.pngなどの背景画像を一覧表示する画像選択ウィンドウ。確認するにはOKです。](assets/s_user_segmentation_background_select.png)
 
   「**[!UICONTROL リンクを編集]**」アイコンでは、選択した画像を表示することができます。
 
@@ -57,11 +57,11 @@ ht-degree: 100%
 
   使用する画像を選択するには、「**[!UICONTROL 画像]**」フィールドの右にある「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
-  ![](assets/s_user_segmentation_activity_image.png)
+  ![画像フィールドがハイライト表示されたアクティビティの「詳細」タブ。activities/dedup.pngに設定します。](assets/s_user_segmentation_activity_image.png)
 
   「**[!UICONTROL リンクを編集]**」アイコンでは、選択した画像を表示することができます。
 
-  ![](assets/s_user_segmentation_activity_image_select.png)
+  ![選択した画像nms:activities/dedup.pngのプレビュー。編集リンク アイコンと共に表示されます。](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 94%
 ---
 # 増分処理クエリを使用した四半期ごとのリスト更新 {#quarterly-list-update}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 季節ごとのマーケティングキャンペーンでは、季節に合ったスポーツアクティビティを季節の初めに提案します。そのため、受信者リストは四半期ごとに更新されます。 ただし、リストの受信者がこのキャンペーンのターゲット設定されるのは、9 ヶ月に 1 回のみにする必要があります。 これにより、受信者の資格取得頻度の間隔が空き、年間を通じて季節ごとに異なるアクティビティが提供されます。
 
-![](assets/incremental_query_example.png)
+![増分クエリアクティビティを持つワークフローが、その結果遷移によってリスト更新アクティビティにリンクされています](assets/incremental_query_example.png)
 
 1. 新しいワークフローに、増分処理クエリとリスト更新アクティビティを追加します。
 1. [クエリの作成](query.md#creating-a-query)で指定されているように、アクティビティの「**[!UICONTROL 増分クエリ]**」タブを設定します。

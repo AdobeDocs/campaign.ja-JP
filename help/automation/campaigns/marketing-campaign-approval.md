@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 99%
+source-wordcount: '2799'
+ht-degree: 87%
 ---
 # 承認プロセスの設定と管理 {#approval-marketing-campaigns}
 
@@ -51,25 +51,25 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 オペレーターは、次の方法で承認できます。
 
 * 通知メッセージから。 メール内のリンクから、オペレーターは web ブラウザーで Campaign にアクセスできます。 接続すると、レビュー担当者はコンテンツを承認するかどうか選択できます。
-  ![](assets/approval-content-email.png)
+  ![配信コンテンツのリンクと配信の詳細を承認または却下するコンテンツ承認通知メール。](assets/approval-content-email.png)
 
 * キャンペーンダッシュボードから。
-  ![](assets/approval-from-dashboard.png)
+  承認メニューが開き、「ターゲティングを承認」オプションがハイライト表示されたクライアントコンソールの![Campaign ダッシュボード。](assets/approval-from-dashboard.png)
 
 * 配信ダッシュボードから。
-  ![](assets/approval-from-delivery-dashboard.png)
+  ![承認メニューが開いている配信ダッシュボード、リストにはコンテンツの送信、ターゲティングの承認、予算の承認が表示されます。](assets/approval-from-delivery-dashboard.png)
 
 オペレーターは、承認画面からキャンペーンと配信にアクセスできます。 コメントを入力することもできます。
 
-![](assets/approval-target-confirm.png)
+![受け入れまたは拒否オプション、コメントフィールド、ターゲット承認ボタンを含む配信ウィンドウでのアクション。](assets/approval-target-confirm.png)
 
 オペレーターが検証すると、キャンペーンや配信のダッシュボード、ログに情報が表示されます。
 
-![](assets/approvals-from-delivery.png)
+![配信ダッシュボードの承認セクションに、期限が切れた場合のターゲティングの承認済みと承認する予算が表示されています。](assets/approvals-from-delivery.png)
 
 この情報は、配信の承認ログや、キャンペーンの承認ジャーナルにも表示されます。 これらのログには、**[!UICONTROL 編集／監査／「承認」]**&#x200B;タブからアクセスできます。
 
-![](assets/approval-logs.png)
+![承認期限スケジュールとターゲティング用の承認ログエントリを含む「配信監査の承認」タブ。](assets/approval-logs.png)
 
 
 ## 承認を有効にする{#enable-approvals}
@@ -84,24 +84,24 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
 次の例では、配信コンテンツに承認は必要ありません。
 
-![](assets/approval-not-enabled.png)
+ターゲットと予算の承認が有効になっている間に、![配信プロパティの「承認」タブのコンテンツの承認を有効にするオプションがクリアされます。](assets/approval-not-enabled.png)
 
 
 >[!CAUTION]
 >
 >レビュー担当者が承認の&#x200B;**適切な権限**&#x200B;を持っていること、およびレビュー担当者のセキュリティゾーンが正しく定義されていることを確認します。 [詳細情報](#selecting-reviewers)。
 
-配信の承認プロセスについて詳しくは、[この節](#review-and-approve-deliveries)を参照してください。
+配信の承認プロセスについて詳しくは、[配信のレビューと承認](#review-and-approve-deliveries)を参照してください。
 
 ## レビュー担当者の選択 {#select-reviewers}
 
 承認のタイプごとに、承認を担当するオペレーターまたはオペレーターグループを配信のドロップダウンリストから選択します。 「**[!UICONTROL 編集...]**」リンクを使用して、オペレーターを追加できます。 このウィンドウでは承認期日を編集することもできます。 デフォルトでは、レビュー担当者は送信日から 3 日以内にプロセスを承認します。 自動リマインダーを追加するには、「**[!UICONTROL リマインダーを追加]**」リンクを使用します。
 
-![](assets/add-reviewers.png)
+![詳細設定「承認」タブと「レビュー担当者の編集」ウィンドウに追加のレビュー担当者が表示され、遅延とリマインダーの追加が行われます。](assets/add-reviewers.png)
 
 レビュー担当者が指定されていない場合は、キャンペーンの所有者が承認を行い、通知を受け取ります。 キャンペーン所有者は、キャンペーンの&#x200B;**[!UICONTROL 編集／「プロパティ」]**&#x200B;タブで指定します。
 
-![](assets/campaign-owner.png)
+![ キャンペーン編集タブで「割り当て先」フィールドがハイライト表示され、キャンペーン所有者が設定されます。](assets/campaign-owner.png)
 
 **[!UICONTROL 管理者]**&#x200B;権限を持つその他すべての Adobe Campaign オペレーターもジョブを承認できますが、通知は受け取りません。
 
@@ -112,7 +112,7 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
 レビュー担当者のリストを定義した場合、1 人のレビュー担当者がジョブを許可するとジョブが承認されます。 承認リンクがキャンペーンおよび配信ダッシュボードで使用できなくなります。 通知の送信が有効な場合、別のレビュー担当者が通知メッセージ内の承認リンクをクリックすると、別のオペレーターが既にジョブを承認したことが通知されます。
 
-![](assets/delivery-target-already-approved.png)
+![配信ターゲティングが別のオペレーターによって既に承認されたことを確認する通知メール。](assets/delivery-target-already-approved.png)
 
 
 ## 配信のレビューと承認 {#review-and-approve-deliveries}
@@ -132,7 +132,7 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
 承認が必要なステージが、（web インターフェイスのクライアントコンソールを介して）キャンペーンダッシュボードに表示されます。 配信トラッキングテーブルと配信ダッシュボードにも表示されます。
 
-![](assets/delivery-approval-actions.png)
+![ コンテンツの送信、ターゲティングの承認、予算の承認が表示された承認メニューを含む配信の概要。](assets/delivery-approval-actions.png)
 
 キャンペーン内の配信ごとに、以下のプロセスを承認できます。
 
@@ -140,7 +140,7 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
   承認設定ウィンドウで「**[!UICONTROL ターゲットの承認を有効にする]**」オプション、「**[!UICONTROL コンテンツの承認を有効にする]**」オプションまたは「**[!UICONTROL 予算の承認を有効にする]**」オプションが選択されている場合、キャンペーンダッシュボードと配信ダッシュボードに関連リンクが表示されます。
 
-  ![](assets/template-activate-6.png)
+  ![ コンテンツ、ターゲット、予算、抽出の承認オプションとそのレビュー担当者を有効にする詳細な設定の「承認」タブ。](assets/template-activate-6.png)
 
   >[!NOTE]
   >
@@ -156,7 +156,7 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
   「**[!UICONTROL ファイルを承認]**」オプションは、キャンペーンダッシュボードと配信ダッシュボードで使用できます。
 
-  ![](assets/approve-file-preview.png)
+  ![ ファイルの承認ボタンと、ファイルを承認または却下するための配信ウィンドウ上のアクションを含むweb配信ページ。](assets/approve-file-preview.png)
 
   検証前に出力ファイルをプレビューできます。 抽出ファイルのプレビューでは、データサンプルのみを表示します。 ファイル全体が読み込まれるわけではありません。
 
@@ -164,7 +164,7 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
   「**[!UICONTROL 関連する配信ごとに個別の承認を有効にする]**」オプションは、複数のセカンダリ配信に関連付けられている 1 つのプライマリ配信に使用します。 デフォルトでは、このオプションは選択されていないので、メインの配信全体を承認できます。 このオプションを選択した場合、各配信を個別に承認する必要があります。
 
-  ![](assets/enable-ind-approval.png)
+  ![関連する各配信の「個別の承認を有効にする」が選択された「詳細設定の承認」タブ。](assets/enable-ind-approval.png)
 
 
 >[!NOTE]
@@ -252,20 +252,20 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
 1. 「**[!UICONTROL ターゲティングを承認]**」を選択します。
 
-![](assets/target-validation-from-console.png)
+![承認ドロップダウンが開き、「コンテンツを承認」および「ターゲティングを承認」オプションが表示されたキャンペーンダッシュボード。](assets/target-validation-from-console.png)
 
 1. ポップアップウィンドウで、承認する情報を確認します。
 1. 「**[!UICONTROL 許可]**」または「**[!UICONTROL 却下]**」を選択し、必要に応じてコメントを入力します。 このコメントは検証ログに表示されます。
 1. 「**[!UICONTROL ターゲットの承認]**」ボタンを使用して承認判断を確定します。
 
-![](assets/confirm-validation-from-console.png)
+![受け入れを選択した配信ウィンドウでのアクション。コメントが入力され、ターゲット承認ボタンがハイライト表示されている。](assets/confirm-validation-from-console.png)
 
 
 別のオペレーターがプロセスを既に承認している場合、承認リンクは表示されません。
 
 プロセスが却下された場合、その情報が配信ダッシュボードに次のように表示されます。
 
-![](assets/target-approval-rejected.png)
+ターゲットの承認ボタンとターゲティングの拒否ステータスで、ターゲットの承認が拒否されたことを示す![配信ダッシュボード。](assets/target-approval-rejected.png)
 
 
 ### 通知メッセージから承認 {#approval-via-notification-messages}
@@ -288,19 +288,19 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
 * キャンペーン承認ログでは、**[!UICONTROL 編集／「監査」]**&#x200B;タブの「**[!UICONTROL 承認]**」サブタブに表示されます。
 
-  ![](assets/approval-tracking-from-campaign.png)
+  ![ キャンペーン編集/監査/承認サブタブには、配信、アクション、タイプ、承認者を含む承認仕訳帳が一覧表示されます。](assets/approval-tracking-from-campaign.png)
 
 * キャンペーン配信ログでは、**[!UICONTROL 編集／「監査」]**&#x200B;タブの「**[!UICONTROL 配信]**」サブタブに表示されます。
 
-  ![](assets/approval-tracking-from-campaign-deliveries.png)
+  ![ キャンペーン編集/監査/各配信のターゲティングとコンテンツのステータスを一覧表示する「配信」サブタブ。](assets/approval-tracking-from-campaign-deliveries.png)
 
 * 各配信の承認ステータスは、「**[!UICONTROL 概要]**」タブの「**[!UICONTROL ログを非表示／表示]**」オプションをクリックすると表示できます。
 
-  ![](assets/approval-tracking-delivery-dashboard.png)
+  ![ ログの非表示/表示リンクが強調表示され、承認ログが以下に表示されている「配信概要」タブ。](assets/approval-tracking-delivery-dashboard.png)
 
 * この情報には、各配信の&#x200B;**[!UICONTROL 監査／「承認」]**&#x200B;タブからもアクセスできます。
 
-  ![](assets/approval-tracking-delivery-tab.png)
+  ![配信監査/承認タブには、日付、アクション、種類、承認者およびコメントを含む承認ログが一覧表示されます。](assets/approval-tracking-delivery-tab.png)
 
 >[!NOTE]
 >
@@ -312,7 +312,7 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
 承認モード（手動または自動）を選択するには、キャンペーンまたはキャンペーンテンプレートの&#x200B;**[!UICONTROL 編集／「プロパティ」]**&#x200B;タブをクリックし、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」をクリックして、「**[!UICONTROL 承認]**」タブをクリックします。
 パー
-![](assets/approval-mode.png)
+![詳細設定の「承認」タブ。承認モードのドロップダウンが開き、自動と手動が表示されます。](assets/approval-mode.png)
 
 >[!NOTE]
 >
@@ -338,7 +338,7 @@ Adobe Campaign では、キャンペーンの承認フローを設定し、ア�
 
 そのためには、キャンペーンまたはキャンペーンテンプレートの承認ウィンドウを編集し（**[!UICONTROL 編集／プロパティ]**／**[!UICONTROL キャンペーンの詳細パラメーター...]**／「**[!UICONTROL 承認]**」タブ）、「**[!UICONTROL 通知の送信を有効にしない]**」を選択します。
 
-![](assets/enable-disable-notifications.png)
+![詳細設定の「承認」タブで、「通知の送信を有効にしません」が選択されました。](assets/enable-disable-notifications.png)
 
 ### 通知コンテンツ {#notification-content}
 

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 100%
+source-wordcount: '2262'
+ht-degree: 85%
 ---
 # プロバイダー、在庫、予算{#providers-stocks-and-budgets}
 
@@ -66,7 +66,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 1. サービスプロバイダーのリストの上の「**[!UICONTROL 新規]**」ボタンをクリックします。
 1. ウィンドウの下部で、サービスプロバイダーの名前と連絡先詳細を指定します。
 
-   ![](assets/add-a-supplier.png)
+   ![ エクスプローラーのサービスプロバイダーリストと、ラベル、内部名、コメントのフィールドを含む新しいサービスプロバイダーフォーム ](assets/add-a-supplier.png)
 
 1. **[!UICONTROL 保存]**&#x200B;ボタンをクリックして、サービスプロバイダーをリストに追加します。
 
@@ -80,11 +80,11 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 1. サービスプロバイダーの「**[!UICONTROL サービス]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、サービステンプレートの名前を入力します。
 
-   ![](assets/supplier-new-template.png)
+   ![新しいサービステンプレートのサービスダイアログ、一般タブ、ラベル、内部名およびコメントのフィールド ](assets/supplier-new-template.png)
 
 1. プロセスのタイプ（ダイレクトメール／電子メールなどによる配信またはタスク）ごとにコストカテゴリを作成します。 これを行うには、「**[!UICONTROL コストカテゴリ]**」タブをクリックしてから「**[!UICONTROL 追加]**」ボタンをクリックして、各コストカテゴリのパラメーターを入力します。
 
-   ![](assets/add-cost-categories.png)
+   ![ ダイレクトメールカテゴリとそのコストタイプの「追加」ボタンと「コストカテゴリ」ダイアログが表示された「コストカテゴリ」タブ ](assets/add-cost-categories.png)
 
    * このコストカテゴリのラベルを入力して、該当するプロセスのタイプ（**[!UICONTROL ダイレクトメール]**、**[!UICONTROL メール]**、**[!UICONTROL モバイル]**&#x200B;など）を選択します。
    * 「**[!UICONTROL 追加]**」ボタンをクリックして、このカテゴリに関連付けるコストのタイプを定義します。
@@ -96,7 +96,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 1. このコストカテゴリの値は事前に選択できます。この値は、サービスプロバイダーのコストカテゴリで、デフォルトの値として（空の値の代わりに）使用されます。 そのためには、該当するカテゴリのタイプの「**[!UICONTROL 選択済み]**」列で「**はい**」オプションを有効にします。
 
-   ![](assets/default-cost-type.png)
+   レターのコストタイプの「選択」列で「はい」オプションが有効になっている![ コストカテゴリーダイアログ ](assets/default-cost-type.png)
 
    配信レベルで、この値がデフォルトで選択されるようになります。
 
@@ -106,7 +106,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 「**[!UICONTROL コスト構造]**」タブをクリックして、コストカテゴリおよびコストタイプごとにコスト計算を設定します。 「**[!UICONTROL 追加]**」をクリックして、コスト構造を入力します。
 
-![](assets/add-cost-structure.png)
+![追加ボタンとコスト構造定義ダイアログを含む「コスト構造」タブ：チャネル、コストカテゴリ、計算](assets/add-cost-structure.png)
 
 * コスト構造を作成するには、メッセージのタイプと関連するコストカテゴリ、計算ルールを適用するコストのタイプをドロップダウンリストから選択します。 これらのドロップダウンリストのコンテンツは、「**[!UICONTROL コストカテゴリ]**」タブで入力された情報です。
 
@@ -126,7 +126,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 この金額をメッセージ群に適用する場合は、関連するメッセージ数を「**[!UICONTROL メッセージ数]**」フィールドで指定します。
 
-![](assets/supplier_cost_structure_calc.png)
+![ メッセージごとのコスト構造ダイアログとリニアが選択され、5単位で4.00の値](assets/supplier_cost_structure_calc.png)
 
 
 #### しきい値別の線形構造 {#linear-structure-by-threshold}
@@ -135,7 +135,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 設定は次のようになります。
 
-![](assets/supplier-cost-structure-linear.png)
+![しきい値タイプによる線形、金額を含むしきい値のリスト、およびBeyond値を含むコスト構造ダイアログ ](assets/supplier-cost-structure-linear.png)
 
 しきい値を追加するには、リストの右側にある&#x200B;**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。
 
@@ -143,13 +143,13 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 最後に、メッセージの合計数に応じてコスト計算を設定できます。 そのためには、**[!UICONTROL しきい値別の定数]**&#x200B;計算構造を選択します。 例えば、1～100 メッセージに対してはコストが 12.00 の固定金額に設定され、101～1000 メッセージの配信には 100.00 に設定され、1000 メッセージを超えるあらゆる配信に対しては、合計数に関わらず、500.00 に設定されます。
 
-![](assets/supplier-cost-structure-constant.png)
+![しきい値タイプ別の定数、固定額のしきい値のリスト、およびBeyond値を含むコスト構造ダイアログ ](assets/supplier-cost-structure-constant.png)
 
 ### サービスに関連付けられたジョブの設定 {#configure-processes-associated-with-a-service}
 
 「**[!UICONTROL ジョブ]**」タブで、サービスプロバイダーに関わるプロセスについての情報を関連付けることができます。 このセクションでは、発送担当に送信する情報を設定できます。
 
-![](assets/cost-supplier-jobs.png)
+ファイル抽出、通知メール、後処理ワークフローテンプレート設定を表示するサービスの![ ジョブ タブ ](assets/cost-supplier-jobs.png)
 
 * 「**[!UICONTROL ファイルの抽出]**」の手順では、このサービスを選択した場合に配信に使用されるエクスポートテンプレートを指定します。 「**[!UICONTROL 抽出ファイル]**」フィールドに出力ファイルの名前を入力できます。 フィールドの右側のボタンを使用して、変数を挿入できます。
 
@@ -171,18 +171,18 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 * ダイレクトメール配信では、設定ウィンドウからサービスを選択できます。
 
-  ![](assets/supplier-mail-delivery-select.png)
+  ![ サービスプロバイダーセクションが強調表示されたダイレクトメール配信：サービスフィールドとコストカテゴリのリスト ](assets/supplier-mail-delivery-select.png)
 
 * モバイルチャネルでの配信では、同じ選択モードが適用されます。
 * メール配信では、次の例のように、配信プロパティの「**[!UICONTROL 詳細設定]**」タブからサービスを選択します。
 
-  ![](assets/supplier-email-delivery-select.png)
+  ![配信プロパティ、詳細タブ、サービスプロバイダーセクションにサービスフィールドとコストカテゴリリストが表示されている](assets/supplier-email-delivery-select.png)
 
 「**[!UICONTROL 追加料金の額]**」列を使用して、該当する配信またはタスクのコンテキストで、このカテゴリのコストを追加できます。
 
 配信のコストカテゴリを定義するときに、選択を必須とするコストタイプを定義することができます。 そのためには、「**[!UICONTROL コストタイプの選択を必須にする]**」を選択します。
 
-![](assets/cost-type-must-be-selected.png)
+![ コストタイプがAのコストカテゴリダイアログを選択する必要があります。オプションは、コストタイプのリストの上に表示されます](assets/cost-type-must-be-selected.png)
 
 ## 在庫およびオーダー管理 {#stock-and-order-management}
 
@@ -202,7 +202,7 @@ Adobe Campaign では、キャンペーン内で実行されるジョブに関�
 
 Adobe Campaign では、在庫がなくなった場合または最小しきい値に達した場合、オペレーターのグループに警告できます。 在庫レベルには、ナビゲーション領域の「 **[!UICONTROL その他の選択肢]**」リンクを介して、「**[!UICONTROL キャンペーン]**」タブの「**[!UICONTROL 在庫]**」リンクからアクセスできます。
 
-![](assets/stock-dashboard.png)
+![Adobe Campaignのホーム、「キャンペーン」タブ。利用可能なストックがストック一覧に表示されている](assets/stock-dashboard.png)
 
 #### 在庫の作成 {#creating-a-stock}
 
@@ -217,17 +217,17 @@ Adobe Campaign では、在庫がなくなった場合または最小しきい�
 
 在庫を作成する場合は、「**[!UICONTROL 在庫品目]**」タブをクリックして新しい品目を追加します。
 
-![](assets/stock-new-lines.png)
+![在庫編集画面、「在庫品目」タブ、初期在庫品目、消込済み品目、在庫レベルおよびアラートレベル列の在庫品目の一覧表示](assets/stock-new-lines.png)
 
 在庫を作成したら、そのダッシュボードを使用して在庫品目の作成とモニターを行います。
 
 「**[!UICONTROL 作成]**」ボタンをクリックして、新しい在庫品目を追加します。
 
-![](assets/add-stock-lines.png)
+![初期在庫量、消込済み在庫量、および在庫量を表示する在庫品目のリストの上に「作成」ボタンが表示された在庫ダッシュボード ](assets/add-stock-lines.png)
 
 * 最初の在庫数量を「**[!UICONTROL 初期在庫]**」フィールドに入力します。 「**[!UICONTROL 消費済み]**」フィールドと「**[!UICONTROL 在庫あり]**」フィールドは、キャンペーンの進行に従って自動的に計算され、更新されます。
 
-  ![](assets/create-new-stock-line.png)
+  ![在庫品目ダイアログ、一般タブ、初期在庫量、消費済み在庫量および在庫量とアラートレベルのフィールド ](assets/create-new-stock-line.png)
 
 * 在庫をオーダーするようオペレーターに警告する必要があるしきい値を「**[!UICONTROL アラートレベル]**」フィールドに入力します。 アラートレベルに達した場合、この在庫を使用する配信の承認ウィンドウに警告メッセージが表示されます。
 
@@ -235,7 +235,7 @@ Adobe Campaign では、在庫がなくなった場合または最小しきい�
 
 サービスプロバイダーが指定された場合、サービスでは、次のように、在庫品目をコストカテゴリの 1 つで参照できます。
 
-![](assets/select-stock-line-supplier.png)
+![原価タイプの在庫品目ドロップダウンリストから選択された在庫品目を含む原価カテゴリ ダイアログ ](assets/select-stock-line-supplier.png)
 
 ### 在庫トラッキング {#stock-tracking}
 
@@ -243,7 +243,7 @@ Adobe Campaign では、在庫がなくなった場合または最小しきい�
 
 配信で参照されている在庫が不十分になると、アラートが表示されます。 例えば、抽出ファイルが承認されると、次のアラートが表示されます。
 
-![](assets/stock-alert.png)
+![配信ダイアログで、ファイルの承認前に「承認」オプションと「却下」オプションで在庫アラートが不十分であることを示すアクション ](assets/stock-alert.png)
 
 #### オーダー {#orders}
 
@@ -251,7 +251,7 @@ Adobe Campaign では、在庫がなくなった場合または最小しきい�
 
 オーダーを保存するには、ターゲットとする在庫品目を編集し、「**[!UICONTROL 追加]**」ボタンをクリックして、配信日とオーダーされた数量を指定します。
 
-![](assets/order-stocks.png)
+![注文フィールドに配達日と数量を表示する「追加」ボタンと在庫注文ダイアログが表示された在庫注文タブ ](assets/order-stocks.png)
 
 >[!NOTE]
 >

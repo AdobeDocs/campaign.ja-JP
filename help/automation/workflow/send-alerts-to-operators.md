@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 75%
 ---
 # パーソナライズされたアラートをオペレーターへ送信{#sending-personalized-alerts-to-operators}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 1. **[!UICONTROL テスト]**&#x200B;アクティビティを使用して、母集団の数を確認します。
 1. **[!UICONTROL アラート]**&#x200B;アクティビティを使用して、**[!UICONTROL テスト]**&#x200B;アクティビティの結果に応じて、オペレーターにアラートを送信します。
 
-![](assets/uc_operator_1.png)
+![ クエリ、JavaScript コードおよびテスト アクティビティを含むワークフロー。True ブランチはアラート アクティビティにつながり、Falseから終了まで2.](assets/uc_operator_1.png)
 
 ## インスタンス変数への母集団の保存 {#saving-the-population-to-the-instance-variable}
 
@@ -60,21 +60,21 @@ JavaScript コードがワークフロー情報に対応していることを確
 * **[!UICONTROL queryDef schema]** タグは、クエリアクティビティで使用されるターゲティングディメンションの名前に対応している必要があります。
 * **[!UICONTROL node expr]** タグは、取得するフィールドの名前に対応している必要があります。
 
-![](assets/uc_operator_3.png)
+![queryDef スキーマ temp:queryとターゲット firstName ノードおよびlastName ノードがハイライト表示されたJavaScript コード スクリプト。](assets/uc_operator_3.png)
 
 これらの情報を取得するには、以下の手順に従います。
 
 1. 「**[!UICONTROL クエリ]**」アクティビティからのアウトバウンドトランジションを右クリックし、「**[!UICONTROL ターゲットを表示]**」を選択します。
 
-   ![](assets/uc_operator_4.png)
+   ![ ターゲットを表示を選択したクエリ アクティビティのアウトバウンド トランジションの右クリック メニュー。](assets/uc_operator_4.png)
 
 1. リストを右クリックして、「**[!UICONTROL リストを設定]**」を選択します。
 
-   ![](assets/uc_operator_5.png)
+   ![右クリックメニューを開いてリストを設定を選択したターゲットリストのレコード。](assets/uc_operator_5.png)
 
 1. クエリターゲティングディメンションおよびフィールド名がリストに表示されます。
 
-   ![](assets/uc_operator_6.png)
+   ![強調表示されたクエリの一時:query ルート要素とそのターゲティングディメンション フィールドを表示する「リスト列を設定」タブ。](assets/uc_operator_6.png)
 
 ## 母集団数のテスト {#testing-the-population-count}
 
@@ -84,7 +84,7 @@ JavaScript コードがワークフロー情報に対応していることを確
 var.recCount>0
 ```
 
-![](assets/uc_operator_7.png)
+![条件vars.recCount>0とデフォルトのFalse ブランチを使用して、True条件付きフォークでアクティビティをテストします。](assets/uc_operator_7.png)
 
 ## アラートの設定 {#setting-up-the-alert}
 
@@ -108,4 +108,4 @@ for each (var item in items){
 >**[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** コマンドを使用すると、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティでインスタンス変数に保存したフィールドのいずれかを追加できます。\
 >フィールドが JavaScript コードに追加されている限り、フィールドを好きな数だけ追加できます。
 
-![](assets/uc_operator_8.png)
+![ オペレーターに割り当てられたアラートアクティビティで、保存されたアイテムをループしてファーストネームと姓を一覧表示するメッセージが表示されます。](assets/uc_operator_8.png)

@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 100%
+source-wordcount: '100'
+ht-degree: 85%
 ---
 # アラート{#alert}
 
@@ -32,6 +32,6 @@ ht-degree: 100%
 
 「**アラート**」アクティビティで、メッセージをオペレーターグループに送信します。 承認アクティビティと同じように動作しますが、この場合、回答はありません。
 
-![](assets/edit_alerte.png)
+![割り当てタイプ グループ、担当者、メッセージ タイトルと本文を含むアラート アクティビティ。](assets/edit_alerte.png)
 
 アラートは持続しないので、クライアントコンソールからは見えません。 割り当てたグループのオペレーターが通知を受け取るには、完全なメールアドレスが必要です。 このアクティビティの設定は「**承認**」の設定と似ています。 オペレーターへのアラートに使用されるデフォルトの配信テンプレートは &#39;alertAssignee&#39;.です。

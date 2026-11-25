@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 90%
+source-wordcount: '480'
+ht-degree: 76%
 ---
 # スケジューラー {#scheduler}
 
@@ -50,22 +50,22 @@ ht-degree: 90%
 
 スケジューラーは、トランジションの有効化スケジュールを定義します。 設定するには、グラフィックオブジェクトをダブルクリックして、「**[!UICONTROL 変更...]**」をクリックします。
 
-![](assets/s_user_segmentation_scheduler.png)
+![実行頻度を定義するために使用される「変更」ボタンを含むスケジューラーアクティビティダイアログ ](assets/s_user_segmentation_scheduler.png)
 
 ウィザードを使用して、アクティビティの頻度と有効期限を定義できます。 設定手順は、以下のとおりです。
 
 1. 有効化の頻度を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/s_user_segmentation_scheduler2.png)
+   ![ スケジュール編集ウィザード、頻度タイプの選択：1日に数回、毎日、毎週、毎月、一度](assets/s_user_segmentation_scheduler2.png)
 
 1. 有効化する時間と曜日を指定します。 この手順のパラメーターは、前の手順で選択した頻度によって決まります。 アクティビティを 1 日に何度も起動するように選択した場合、設定は以下のようになります。
 
-   ![](assets/s_user_segmentation_scheduler3.png)
+   ![ スケジュール編集ウィザード、1日に何度も：選択した時間と曜日の選択での時間選択](assets/s_user_segmentation_scheduler3.png)
 
 1. スケジュールの有効期限を定義するか、実行回数を指定します。
 
-   ![](assets/s_user_segmentation_scheduler4.png)
+   ![ スケジュール編集ウィザード、有効期間：永続的な有効、有効な開始日と終了日、または最大反復回数](assets/s_user_segmentation_scheduler4.png)
 
 1. 設定を確認して、「**[!UICONTROL 完了]**」をクリックして保存します。
 
-   ![](assets/s_user_segmentation_scheduler5.png)
+   ![ スケジュール編集ウィザード、概要：スケジュールの説明と次の起動時間のリスト（終了ボタン付き） ](assets/s_user_segmentation_scheduler5.png)

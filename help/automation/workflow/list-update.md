@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 88%
 ---
 # リスト更新{#list-update}
 
@@ -36,13 +36,13 @@ ht-degree: 100%
 
 「**リスト更新**」アクティビティは、受信者リストのトランジションに指定された母集団を保存します。
 
-![](assets/s_user_segmentation_update_group.png)
+![指定された明示的に選択されたリスト更新アクティビティ エディター、リスト フォルダー、保存タイプ オプション ](assets/s_user_segmentation_update_group.png)
 
 リストは、既存のグループのリストから選択することもできます。
 
 また、「**[!UICONTROL 必要に応じてリストを作成（名前を自動生成）]**」および「**[!UICONTROL 必要に応じてリストを作成（フォルダーおよび名前を自動生成）]**」を使用して作成することもできます。 これらのオプションにより、任意のラベルを選択してリストを作成し、リストを保存するフォルダーを後で選択できます。 ラベルは、スクリプトに動的フィールドを挿入することで自動生成できます。 異なる動的フィールドは、ラベルの右側のポップアップメニューで使用できます。
 
-![](assets/s_user_segmentation_update_list_calc.png)
+![ リストの更新アクティビティ。必要に応じてリストを作成（計算名）を選択し、計算されたラベルスクリプトを作成します。](assets/s_user_segmentation_update_list_calc.png)
 
 リストが既に存在する場合、「**[!UICONTROL 存在する場合、リストをパージして再利用（存在しない場合、リストに追加）]**」オプションを選択していなければ、受信者は既存のコンテンツに追加されます。 この場合、リストのコンテンツは更新前に削除されます。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 一般に、ターゲットをリストに保存することは、ワークフローの終わりを示すことになります。 このため、デフォルトでは、「**[!UICONTROL リスト更新]**」アクティビティに、アウトバウンドトランジションはありません。 アウトバウンドトランジションを追加するには、「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションをチェックします。
 
-![](assets/do-not-localize/how-to-video.png) [エクスプローラーから受信者のリストを作成する方法をビデオで確認](#video)
+![ ビデオリンクの再生ボタンアイコン。](assets/do-not-localize/how-to-video.png) [ ビデオでエクスプローラーから受信者のリストを作成する方法を確認](#video)
 
 ## 例：リストの更新 {#example--list-update}
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションは選択を解除します。
 1. 「**[!UICONTROL OK]**」をクリックして、ワークフローを開始します。
 
-   ![](assets/s_user_segmentation_update_list_calc_example.png)
+   ![ リスト更新アクティビティが設定され、リスト フォルダーにリスト M_WestUS_18-30が作成されます。パージと再利用はチェックされています。](assets/s_user_segmentation_update_list_calc_example.png)
 
    条件に一致する受信者のリストが作成または更新されます。
 
@@ -90,6 +90,6 @@ ht-degree: 100%
 
 このビデオでは、エクスプローラーから受信者のリストを作成する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27503?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

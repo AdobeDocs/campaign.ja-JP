@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '3285'
-ht-degree: 100%
+source-wordcount: '3752'
+ht-degree: 87%
 ---
 # 頻度ルール{#pressure-rules}
 
@@ -67,17 +67,17 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 1. キャンペーンタイポロジルールのリストで、リスト上部にある&#x200B;**[!UICONTROL 新規]**&#x200B;アイコンを選択します。
 
-   ![](assets/campaign_opt_create_a_rule_01.png)
+   ![新しいアイコンがリストの上に強調表示された、管理フォルダー内のタイポロジ ルール リスト。](assets/campaign_opt_create_a_rule_01.png)
 
 1. 新しいルールの「**[!UICONTROL 一般]**」タブで、ルールタイプの「**頻度**」を選択し、名前と説明を入力します。
 
-   ![](assets/campaign_opt_create_a_rule_02.png)
+   ![新しいタイポロジルール「一般」タブ。ルールの種類リストで「筆圧」が選択されています。](assets/campaign_opt_create_a_rule_02.png)
 
 1. 必要に応じて実行順序を変更します。 複数のタイポロジルールを&#x200B;**[!UICONTROL タイポロジ]**&#x200B;セットとして適用する場合、下位にあるルールが最初に適用されます。 [詳細情報](apply-rules.md#execution-order)。
 1. 翌日再判別を実行した後もターゲティングを保存する場合は、「**[!UICONTROL 計算パラメーター]**」セクションで頻度を定義します。 [詳細情報](apply-rules.md#adjust-calculation-frequency)。
 1. 「**[!UICONTROL 頻度]**」タブをクリックし、タイポロジルールを適用する期間を選択します。
 
-   ![](assets/campaign_opt_create_a_rule_03.png)
+   ![ スライディング期間セクションと期間タイプリストのリストが表示された「圧力」タブ。グループ化オプションが表示されます。](assets/campaign_opt_create_a_rule_03.png)
 
    作成するルールは、連絡日がこの期間内に含まれる配信に適用されます。
 
@@ -91,11 +91,11 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
    デフォルトでは、定数のしきい値が使用されます。この場合は、ルールで許可されるメッセージの最大数の値を指定してください。
 
-   ![](assets/campaign_opt_create_a_rule_03b.png)
+   ![しきい値タイプが定数に設定され、数量が4.](assets/campaign_opt_create_a_rule_03b.png)の「圧力」タブ
 
    変数のしきい値を定義する場合は、「**[!UICONTROL しきい値のタイプ]**」フィールドで「**[!UICONTROL 受信者に依存]**」を選択し、右側のアイコンを使用して式エディターを開きます。
 
-   ![](assets/campaign_opt_create_a_rule_04.png)
+   ![定数を示すしきい値タイプ リストと受信者に依存します。](assets/campaign_opt_create_a_rule_04.png)
 
    詳しくは、[メッセージの最大数](#maximum-number-of-messages)を参照してください。
 
@@ -110,7 +110,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
      以下の例では、**NewContacts** フォルダーに保存されている受信者のみが対象となり、「**Newsletter**」で始まる配信のみが考慮されます。
 
-   ![](assets/campaign_opt_create_a_rule_05.png)
+   ![NewRecipientsに対するフォルダークエリと、ニュースレターで始まるラベルに対する配信クエリを含むセクションをカウントするメッセージ。](assets/campaign_opt_create_a_rule_05.png)
 
 1. 「**[!UICONTROL タイポロジ]**」タブでは、このルールが適用されるキャンペーンタイポロジを表示したり、ルールを 1 つ以上の既存のタイポロジにリンクしたりできます。 [詳細情報](campaign-typologies.md#apply-typologies)。
 
@@ -122,7 +122,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 しきい値には定数を指定できます。または、変数を含む数式を定義して、しきい値を算出することもできます。 その場合、同じ期間であっても受信者によってしきい値が異なったり、場合によっては、受信者が同一であってもしきい値が異なったりすることがあります。
 
-![](assets/campaign_opt_create_a_rule_threshold.png)
+![圧力タブのメッセージの最大数セクションで、一定しきい値が1.](assets/campaign_opt_create_a_rule_threshold.png)で強調表示されている
 
 >[!CAUTION]
 >
@@ -132,7 +132,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 受信者が所属するセグメントによって、許可するメッセージの数を変えることができます。 例えば、Web セグメントに属する受信者に、他の受信者より多くのメッセージを送信するように設定できます。 「**[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]**」という数式を指定します。この数式では、Web セグメントの受信者に 5 つのメッセージ、その他のセグメントに 3 つのメッセージを配信できます。 設定の手順は以下のとおりです。
 
-![](assets/campaign_opt_pressure_sample.png)
+![しきい値の種類は、数式Iif （originが&#39;Web&#39;, 5, 3）の受信者によって異なります。](assets/campaign_opt_pressure_sample.png)
 
 しきい値を定義する際には、ターゲティングディメンションにリンクされているディメンションを使用できます。例えば、[訪問者テーブル](../../v8/audiences/target-mappings.md)に格納されている受信者プロファイルへのメッセージを含めることができます。または、同一世帯へのメッセージの配信（複数のメールアドレスが関係することもあります）を週に一度までに制限することもできます。この場合、同一世帯かどうかは、受信者のディメンションにリンクされているディメンションによって判断されます。
 
@@ -156,7 +156,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. 受信者の傾向スコアを格納する新しいフィールドを作成します。 このフィールド（**@Music** とする）には、アンケートやオンライン調査に対する回答、収集されたトラッキングデータなどが格納されます。
 1. このフィールドに基づいてメッセージの重みを計算する、タイポロジルールを作成します。
 
-   ![](assets/campaign_opt_pressure_weight_sample.png)
+   ![使用できるフィールドで「音楽」フィールドが選択された状態で、「重み」式から開いた式ダイアログを選択します。](assets/campaign_opt_pressure_weight_sample.png)
 
 1. 作成したルールを、ニュースレターやスペシャルオファーなど、特定のトピックのメッセージに適用します。これらの配信の重み、つまり優先度は、各受信者の傾向スコアに基づいて決定されます。
 
@@ -191,19 +191,19 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 2 週間の周期ごとに勧誘メッセージを 3 つまでに制限する頻度ルールを作成し、暦月ごとのグループ化を選択するとします。
 
-![](assets/campaign_opt_pressure_period_sample_1a.png)
+![期間が15日で、カレンダー月ごとにグループ化され、3つのメッセージの一定のしきい値を持つ「圧力」タブ。](assets/campaign_opt_pressure_period_sample_1a.png)
 
 同じ重みが付けられた 6 つのニュースレターがそれぞれ 5月30日、6月3日、6月8日、6月12日、6月22日および 6月30日にスケジュールされています。
 
-![](assets/campaign_opt_pressure_period_sample_0.png)
+![2016年11月2日のカレンダー。2つ目のカレンダーでは、3日、8日、12日、22日、30日の納期がハイライトされます。](assets/campaign_opt_pressure_period_sample_0.png)
 
 この場合、6月の 12日と 30日にスケジュールされている配信は送信されません。6月12日の配信は 2 週間に 3 つのメッセージというしきい値を超過し、30 日の配信はその暦月内に許可されているしきい値を超過するので、送信されません。
 
-![](assets/campaign_opt_pressure_period_sample_1.png)
+![保留中、失敗、編集中のステータスと、ターゲット数および送信数を含む配信リスト。](assets/campaign_opt_pressure_period_sample_1.png)
 
 これらの配信の受信者はすべて、分析フェーズで実施される判別によって除外されます。
 
-![](assets/campaign_opt_pressure_period_sample_2.png)
+![仲裁後に除外された理由が記載された配信リスト受信者の除外ログ。](assets/campaign_opt_pressure_period_sample_2.png)
 
 同一のルールで、グループ化を暦四半期ごとに変更すると、さらに **5 番目のニュースレター**&#x200B;も送信されなくなり、その受信者が除外されます。
 
@@ -223,7 +223,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 この数値がしきい値を超えると、キャンペーンタイポロジで定義された判別ルールが適用され、重みの小さなキャンペーンから受信者が除外されます。
 
-![](assets/campaign_opt_pressure_exclusion.png)
+![12件のターゲットメッセージと9件の送信を含む配信の概要と、除外ログに「仲裁後に除外」と表示されている](assets/campaign_opt_pressure_exclusion.png)
 
 >[!NOTE]
 >
@@ -244,21 +244,21 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
    「**[!UICONTROL 詳細選択]**」ボタンをクリックして、計算式を定義します。
 
-   ![](assets/campaign_opt_pressure_sample_1_1.png)
+   ![式フィールドから開いた式ダイアログを選択し、ステータス フィールドを選択します。](assets/campaign_opt_pressure_sample_1_1.png)
 
 1. 「**[!UICONTROL 式を使用して数式を編集]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/campaign_opt_pressure_sample_1_2.png)
+   ![数式の種類の手順と、選択した式オプションを使用した数式の編集。](assets/campaign_opt_pressure_sample_1_2.png)
 
 1. 関数のリストで、**その他**&#x200B;ノードにある **[!UICONTROL Iif]** 関数をダブルクリックします。
 
    次に、「**使用可能フィールド**」セクションで、受信者の「**[!UICONTROL ステータス]**」を選択します。
 
-   ![](assets/campaign_opt_pressure_sample_1_3.png)
+   ![他のユーザーのIif関数と数式のStatus フィールドを使用して、式ダイアログを編集します。](assets/campaign_opt_pressure_sample_1_3.png)
 
    次の式を入力します。**Iif(@status=0,2,4)**
 
-   ![](assets/campaign_opt_pressure_sample_1_4.png)
+   ![完了した数式Iif （@status=0,2,4）を含む式ダイアログを編集します。](assets/campaign_opt_pressure_sample_1_4.png)
 
    この数式により、受信者のステータスが 0 の場合は 2、その他のステータスの場合は 4 が割り当てられます。
 
@@ -266,7 +266,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 1. ルールを適用する期間を指定します。この例では、1 週間あたりのメッセージ数をカウントするよう 7 日間にします。
 
-   ![](assets/campaign_opt_pressure_sample_1_5.png)
+   期間タイプ リストと、受信者のステータスに応じた数式が表示された![圧力タブ。](assets/campaign_opt_pressure_sample_1_5.png)
 
 1. ルールを保存して、作成を実行します。
 
@@ -275,13 +275,13 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. キャンペーンタイポロジを作成します。
 1. 「**[!UICONTROL ルール]**」タブに移動し、「**[!UICONTROL 追加]**」ボタンをクリックして、作成したルールを選択します。
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![選択するタイポロジルールを一覧表示するルールを追加ダイアログを含む新しいタイポロジの「ルール」タブ。](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. タイポロジを保存して、既存のタイポロジのリストに追加します。
 
 配信でこのタイポロジを使用するには、配信プロパティの「**[!UICONTROL タイポロジ]**」タブでこのタイポロジを選択します（以下の図を参照）。
 
-![](assets/campaign_opt_pressure_sample_1_7.png)
+![配信プロパティ、タイポロジタブ。タイポロジリストで「クライアント/見込み客」の圧力タイポロジが選択されています。](assets/campaign_opt_pressure_sample_1_7.png)
 
 >[!NOTE]
 >
@@ -291,15 +291,15 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 
 * 分析の結果を表示します。
 
-  ![](assets/campaign_opt_pressure_sample_1_8.png)
+  完了した準備ログとアドレスを除外ルールがハイライト表示された![配信分析ウィンドウ。](assets/campaign_opt_pressure_sample_1_8.png)
 
 * 配信を編集し、「**[!UICONTROL 配信]**」タブの「**[!UICONTROL 除外]**」サブタブをクリックします。
 
-  ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![配信タブ、除外サブタブ。除外ログに「仲裁後に除外」と表示されている。](assets/campaign_opt_pressure_sample_1_9.png)
 
 * 「**[!UICONTROL 監査]**」タブをクリックし、「**[!UICONTROL 除外の原因]**」サブタブをクリックして、除外された数と適用されたタイポロジルールを表示します。
 
-  ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![監査タブ、除外の原因サブタブ、タイポロジルールごとの除外数](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### 行動に基づく配信の重み付けの計算 {#calculate-the-delivery-weight-based-on-behavior}
 
@@ -314,15 +314,15 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. **頻度**&#x200B;タイプのタイポロジルールを新規作成します。
 1. 「**[!UICONTROL 頻度]**」タブで編集を実行します。 各個人受信者に基づいてしきい値を計算する数式を作成します。「**[!UICONTROL 重み付け数式]**」フィールドの右にある「**[!UICONTROL 式を編集]**」アイコンをクリックします。
 
-   ![](assets/campaign_opt_pressure_sample_2_1.png)
+   ![重み式フィールドの横に式を編集アイコンが強調表示された筆圧タブ。](assets/campaign_opt_pressure_sample_2_1.png)
 
 1. デフォルトでは、式エディターの上部のセクションには、「**5**」という値が表示されています。 この重みの値に各受信者のアフィニティスコアを加算します。カーソルを「5」の右に置き、正符号（**+**）を入力して、「**傾向**」フィールドを選択します。
 
-   ![](assets/campaign_opt_pressure_sample_2_2.png)
+   ![重み式5+@Affinityとアフィニティ フィールドを選択した式ダイアログを編集します。](assets/campaign_opt_pressure_sample_2_2.png)
 
 1. 購入経験のある受信者には、他の受信者より大きなスコアを割り当てます。 今回は、購入経験のある受信者には、配信の重みにスコア 5 を加算し、その他の受信者には 4 を加算します。
 
-   ![](assets/campaign_opt_pressure_sample_2_3.png)
+   ![関心にフィールドとIif条件を追加する重み式を含む式ダイアログを編集します。](assets/campaign_opt_pressure_sample_2_3.png)
 
 1. 「**[!UICONTROL 完了]**」をクリックして、ルールを保存します。
 1. ルールをキャンペーンタイポロジにリンクし、配信でこのタイポロジを参照して承認します。
@@ -338,7 +338,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. 頻度ルールを作成します。 [詳細情報](#create-a-pressure-rule)。
 1. 「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL パーソナライゼーションの開始時にルールを再適用]**」オプションを選択します。
 
-   ![](assets/campaign_opt_pressure_example_5.png)
+   ![ パーソナライゼーションの開始時にルールを再適用オプションが選択された圧力規則の「一般」タブ。](assets/campaign_opt_pressure_example_5.png)
 
    このオプションは、「**[!UICONTROL 頻度]**」フィールドに定義された値を無視し、パーソナライゼーションフェーズ中にルールを自動的に適用します。 [詳細情報](apply-rules.md#adjust-calculation-frequency)。
 
@@ -353,17 +353,17 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. **[!UICONTROL メール配信]**&#x200B;アクティビティをワークフローに追加して開きます。 このアクティビティの使用について詳しくは、[この節](../workflow/delivery.md)を参照してください。
 1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL 承認]**」タブに移動し、すべての承認を無効にします。
 
-   ![](assets/campaign_opt_pressure_example_2.png)
+   ![配信プロパティ、承認タブ、すべての承認オプションと配信の確認がクリアされています。](assets/campaign_opt_pressure_example_2.png)
 
 1. **[!UICONTROL 配信プロパティ]**&#x200B;の「**[!UICONTROL タイポロジ]**」タブで、ルールを適用するキャンペーンタイポロジを参照します。 配信の重み付けを定義します。
 
-   ![](assets/campaign_opt_pressure_example_3.png)
+   ![配信プロパティ、タイポロジタブ。タイポロジフィールドと配信の重みが10個ハイライト表示されています。](assets/campaign_opt_pressure_example_3.png)
 
 1. 配信内で、「**[!UICONTROL スケジュール設定]**」をクリックし、「**[!UICONTROL 予約配信 (予約された日になると自動実行)]**」を選択します。 この例では、「**[!UICONTROL 計算式を使用]**」オプションを選択します。
 1. 抽出日を 10 分（現在の日付 + 10 分）に設定します。
 1. 連絡日を翌日（現在の日付 + 1 日）に設定します。
 
-   ![](assets/campaign_opt_pressure_example_4.png)
+   ![抽出を現在の日付+ 10分、連絡先日付を現在の日付+ 1日に設定したスケジュール ダイアログ。](assets/campaign_opt_pressure_example_4.png)
 
    頻度ルールの除外を適切に実装するには、連絡日時より前で、かつ夜間の判別が再適用される前の日時に抽出日時を設定します。 [詳細情報](#exclusion-after-arbitration)。
 

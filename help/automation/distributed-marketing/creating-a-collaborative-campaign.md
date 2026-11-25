@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 79%
 ---
 # 共同キャンペーンの作成{#creating-a-collaborative-campaign-intro}
 
 
 
-セントラルエンティティは、**分散型マーケティング**&#x200B;のキャンペーンテンプレートから協調キャンペーンを作成します。 [このページ](about-distributed-marketing.md)を参照してください。
+セントラルエンティティは、**分散型マーケティング**&#x200B;のキャンペーンテンプレートから協調キャンペーンを作成します。 [分散型マーケティングの基本を学ぶ](about-distributed-marketing.md)を参照してください。
 
 ## 共同キャンペーンの作成 {#creating-a-collaborative-campaign}
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 協調キャンペーン（フォーム）を作成するには、**[!UICONTROL 協調キャンペーン (フォーム)]** テンプレートを選択します。
 
-![](assets/mkg_dist_mutual_op_form2.png)
+![ コラボレーションキャンペーン （フォーム別）テンプレートを選択した新しいマーケティングキャンペーンダイアログ。](assets/mkg_dist_mutual_op_form2.png)
 
 「**[!UICONTROL 編集]**」タブで「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックして、「**分散型マーケティング**」タブにアクセスします。
 
@@ -58,13 +58,13 @@ ht-degree: 100%
 
 **[!UICONTROL キャンペーンパッケージ]**&#x200B;ビューでは、様々な組織エンティティ向けのキャンペーンを作成するために、ローカルキャンペーンテンプレート（標準提供のものまたは複製されたもの）のほか、協調キャンペーン用の参照キャンペーンを使用できます。
 
-![](assets/mkg_dist_mutual_op_form1b.png)
+パッケージ作成ダイアログと参照キャンペーンドロップダウンリストが開いている![ キャンペーンパッケージリスト。](assets/mkg_dist_mutual_op_form1b.png)
 
 ### キャンペーン別 {#by-campaign}
 
 協調キャンペーン（キャンペーン）を作成するには、**[!UICONTROL 協調キャンペーン（キャンペーン）（opCollaborativeByCampaign）]**&#x200B;テンプレートを選択します。
 
-![](assets/mkg_dist_mutual_op_by_op2.png)
+![ コラボレーションキャンペーン（キャンペーン別）テンプレートを選択した新しいマーケティングキャンペーンダイアログ。](assets/mkg_dist_mutual_op_by_op2.png)
 
 ローカルエンティティは、キャンペーンをオーダーする前に、セントラルエンティティによって事前に定義された条件を満たし、キャンペーンを評価することができます。
 
@@ -78,13 +78,13 @@ ht-degree: 100%
 
 セントラルエンティティは、このダッシュボードから&#x200B;**[!UICONTROL リンクされたキャンペーンのリスト]**&#x200B;リンクを使用して、**協調キャンペーン（キャンペーン）**&#x200B;にリンクされている子キャンペーンをすべて表示できます。
 
-![](assets/mkg_dist_mutual_op_by_op.png)
+![ リンクされたキャンペーンのリスト リンクを含む共同作業キャンペーンダッシュボードは、リンクされたキャンペーンリストを開きます。](assets/mkg_dist_mutual_op_by_op.png)
 
 ### ターゲットの承認別 {#by-target-approval}
 
 協調キャンペーン（ターゲットの承認）を作成するには、**[!UICONTROL 協調キャンペーン（ターゲットの承認）]**&#x200B;テンプレートを選択します。
 
-![](assets/mkg_dist_mutual_op_by_valid.png)
+![ コラボレーションキャンペーン（ターゲット承認別）テンプレートを選択した新しいマーケティングキャンペーンダイアログ。](assets/mkg_dist_mutual_op_by_valid.png)
 
 >[!NOTE]
 >
@@ -98,23 +98,23 @@ ht-degree: 100%
 
 **ローカルエンティティ配分**&#x200B;タイプのデータ配分を作成する必要があります。 データ配分テンプレートを使用すると、グループ値のリストから抽出されるレコードの数を制限できます。 **[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;で、「**[!UICONTROL 新規]**」アイコンをクリックして、新しい&#x200B;**[!UICONTROL データ配分]**&#x200B;を作成します。 データ配分について詳しくは、
 
-![](assets/mkg_dist_data_distribution.png)
+ターゲティングディメンション、配布フィールド、ローカルエンティティ割り当てタイプを含む![ データ配布フォーム。](assets/mkg_dist_data_distribution.png)
 
 **ターゲティングディメンション**&#x200B;と&#x200B;**[!UICONTROL 配分フィールド]**&#x200B;を選択します。 「**[!UICONTROL 割り当てタイプ]**」で、「**ローカルエンティティ**」を選択します。
 
 「**[!UICONTROL 配分]**」タブで、各ローカルエンティティのフィールドを追加し、値を指定します。
 
-![](assets/mkg_dist_data_distribution2.png)
+![各配信フィールド値、固定数、ローカルエンティティを一覧表示するデータ配信の「分類」タブ。](assets/mkg_dist_data_distribution2.png)
 
 **配信**&#x200B;タイプのアクティビティの後に 2 つ目の&#x200B;**ターゲットの承認**&#x200B;を追加して、レポートを設定できます。
 
 ローカルエンティティに送信されるキャンペーン作成の通知メッセージには、セントラルエンティティのパラメーターによって事前に定義された連絡先リストが含まれています。
 
-![](assets/mkg_dist_mutual_op_by_valid1.png)
+![ ローカルエンティティが連絡先リストを確認するweb ページにリンクするターゲット承認メール。](assets/mkg_dist_mutual_op_by_valid1.png)
 
 ローカルエンティティは、キャンペーンのコンテンツに基づいて、一部の連絡先を削除できます。
 
-![](assets/mkg_dist_mutual_op_by_valid2.png)
+![一部の連絡先をクリアしたターゲット承認ページ、コメント、およびターゲットを承認ボタン ](assets/mkg_dist_mutual_op_by_valid2.png)
 
 ### シンプル {#simple}
 
@@ -142,13 +142,13 @@ ht-degree: 100%
 >
 >「**[!UICONTROL パーソナライゼーションの期限]**」では、キャンペーンの設定に使用するドキュメント（スプレッドシート、画像）の提出期限を指定できます。ローカルエンティティは、この期限までにドキュメントを提出する必要があります。 これは必須オプションではありません。 この日付を指定しなくても、キャンペーンの実装に影響はありません。
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
+パーソナライゼーションと登録の期限を含む、実行スケジュール セクションを含む![ キャンペーンパッケージ ダイアログ。](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 
 ### オーディエンス {#audience}
 
 協調キャンペーンを作成したら、セントラルエンティティはキャンペーンごとに関係するローカルエンティティを指定する必要があります。
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
+オーディエンスのローカルエンティティの選択を開く追加ボタン付きの![ キャンペーンパッケージダイアログ。](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
 
 >[!CAUTION]
 >
@@ -158,36 +158,36 @@ ht-degree: 100%
 
 **協調キャンペーン**&#x200B;では、オーダーの承認モードを指定できます。
 
-![](assets/mkg_dist_edit_kit1.png)
+手動および自動を提供する承認モード ドロップダウンリストを含む![Campaign パッケージ編集タブ。](assets/mkg_dist_edit_kit1.png)
 
 手動モードの場合、ローカルエンティティは参加したいキャンペーンに登録する必要があります。
 
 自動モードの場合、ローカルエンティティはキャンペーンに既に登録されています。 ローカルエンティティは、登録をキャンセルしたり、セントラルエンティティの承認なしにパラメーターを変更したりできます。
 
-![](assets/mkg_dist_edit_kit2.png)
+![ サブスクリプションを却下および注文パラメーターの変更のリンクが記載されたCampaign サブスクリプションの電子メール。](assets/mkg_dist_edit_kit2.png)
 
 ### 通知 {#notifications}
 
-通知の設定方法は、ローカルエンティティの通知の設定方法と同じです。 [この節](creating-a-local-campaign.md#notifications)を参照してください。
+通知の設定方法は、ローカルエンティティの通知の設定方法と同じです。 [通知](creating-a-local-campaign.md#notifications)を参照してください。
 
 ## キャンペーンの注文 {#ordering-a-campaign}
 
 協調キャンペーンがキャンペーンパッケージのリストに追加されると、セントラルエンティティによって定義されたオーディエンスに属するローカルエンティティに、通知が送信されます（オーディエンスを事前に定義しない&#x200B;**協調キャンペーン（ターゲットの承認）**&#x200B;は除きます）。 送信メッセージには、以下の図のように、キャンペーンに登録するためのリンクが含まれています。
 
-![](assets/mkg_dist_mutual_op_notification.png)
+キャンペーンの登録リンクとパッケージの詳細が記載された![ キャンペーンの購読メール。](assets/mkg_dist_mutual_op_notification.png)
 
 加えて、このメッセージでは、パッケージの作成者であるセントラルオペレーターによって入力された説明とキャンペーンにリンクされているドキュメントを表示することができます。 これらの情報はキャンペーンに直接関係するわけではありませんが、参考情報として参照できます。
 
 ローカルオペレーターは web インターフェイスからログインし、オーダーする協調キャンペーンにパーソナライゼーションの情報を追加できます。
 
-![](assets/mkg_dist_mutual_op_command.png)
+![ ローカルエンティティが注文ラベルと注文コメントを入力するキャンペーン注文web ページ。](assets/mkg_dist_mutual_op_command.png)
 
 ローカルエンティティが登録を完了すると、セントラルエンティティにはオーダーの承認を依頼する通知がメールで送信されます。
 
-![](assets/mkg_dist_mutual_op_valid_command.png)
+![承認オプションと拒否オプションおよびコメントを含むキャンペーンの注文電子メールと注文承認ページの承認](assets/mkg_dist_mutual_op_valid_command.png)
 
 詳しくは、[承認プロセス](creating-a-local-campaign.md#approval-process)の節を参照してください。
 
 ## 注文を承認 {#approving-an-order}
 
-協調キャンペーンパッケージのオーダー承認プロセスは、ローカルキャンペーンの承認プロセスと同じです。 [この節](creating-a-local-campaign.md#approving-an-order)を参照してください。
+協調キャンペーンパッケージのオーダー承認プロセスは、ローカルキャンペーンの承認プロセスと同じです。 [注文の承認](creating-a-local-campaign.md#approving-an-order)を参照してください。

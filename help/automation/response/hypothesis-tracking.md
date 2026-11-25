@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 86%
 ---
 # 仮説のトラッキング{#hypothesis-tracking}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 仮説が計算されると、いくつかの測定指標が自動的に更新されます。 これらの指標は、仮説の「**[!UICONTROL 一般]**」タブで確認できます。
 
-![](assets/response_hypothesis_delivery_example_010.png)
+![仮説によって計算された指標が強調表示された、完成した仮説の一般タブ。](assets/response_hypothesis_delivery_example_010.png)
 
 以下の指標を確認できます。
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 すべての指標のリストについては、「**[!UICONTROL リストを表示]**」リンクをクリックします。
 
-![](assets/response_hypothesis_indicators_002.png)
+![ インジケーター読み取り専用ウィンドウがリストの表示から開き、インジケーターとその値の完全なリストが表示されます。](assets/response_hypothesis_indicators_002.png)
 
 指標により次の情報が提供されます。
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 1. 仮説の計算が完了したら、Adobe Campaign ツリーの&#x200B;**[!UICONTROL キャンペーン管理／測定の仮説]**&#x200B;ノードに移動します。
 1. 仮説を選択し、「**[!UICONTROL 反応]**」タブをクリックして、マーケティングキャンペーン後に何かを購入する可能性がある受信者のリストを確認します。
 
-   ![](assets/response_hypothesis_reactions_001.png)
+   ![回答者と、各グループがコントロール グループに属しているかどうかを一覧表示する仮説の「反応」タブ。](assets/response_hypothesis_reactions_001.png)
 
 ## レポート {#reports}
 
@@ -96,8 +96,8 @@ ht-degree: 100%
 
 * **キャンペーンレベルで確認する場合**：キャンペーンの「**[!UICONTROL レポート]**」リンクをクリックし、「**[!UICONTROL 仮説レポート]**」を選択します。 このレポートには、キャンペーン配信と、各配信に計算された仮説のリストが含まれます。
 
-  ![](assets/response_hypothesis_campaign_report_001.png)
+  ![各配信について計算された仮説とその指標をリストした、キャンペーンレベルの仮説レポート。](assets/response_hypothesis_campaign_report_001.png)
 
 * **配信レベルで確認する場合**：レポートにアクセスするには、配信を開き、「**[!UICONTROL 概要]**」タブの「**[!UICONTROL レポート]**」をクリックし、「**[!UICONTROL 仮説レポート]**」を選択します。 同一の配信に複数の仮説が計算された場合は、すべての仮説がレポートに表示されます。
 
-  ![](assets/response_hypothesis_delivery_report_001.png)
+  ![仮説の詳細、状態、計算指標を示す配信レベルの仮説レポート。](assets/response_hypothesis_delivery_report_001.png)

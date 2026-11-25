@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 93%
 ---
 # 配信の概要{#delivery-outline}
 
@@ -55,4 +55,4 @@ ht-degree: 100%
 
    プレビューでは、配信で指定されたオファーの数が考慮されます。 ワークフローを実行する際に考慮されるのは、配信の概要で指定されたオファーの数です。
 
-   ![](assets/int_compo_offre_wf1.png)
+   ![ オファーを選択した配信アウトラインアクティビティ、提案の数、オファースペース、フィルタールールテーブル ](assets/int_compo_offre_wf1.png)

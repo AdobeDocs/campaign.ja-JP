@@ -24,16 +24,16 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 77%
 ---
 # リストへのレポートの送信{#send-a-report-to-a-list}
 
 この使用例では、標準の月次「**[!UICONTROL トラッキング指標]**」レポートを PDF 形式で作成する方法と、そのレポートをリストに記載の受信者に送信する方法を詳しく説明します。
 
-![](assets/use_case_report_intro.png)
+![ スケジューラー、JavaScript コードと配信、およびindicators.pdfが添付されたメールを含む月次レポートワークフロー。](assets/use_case_report_intro.png)
 
 この使用例の主な実装手順は次のとおりです。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL 作成]**」ボタンをクリックします。
 1. 「**[!UICONTROL 新しいリスト]**」を選択し、レポートの送信先とする受信者のリストを新たに作成します。
 
-リストの作成について詳しくは、[この節](../../v8/audiences/create-audiences.md)を参照してください。
+リストの作成について詳しくは、[Campaignでのプロファイルオーディエンスの作成](../../v8/audiences/create-audiences.md)を参照してください。
 
 ## 手順 2：配信テンプレートの作成 {#step-2--create-the-delivery-template}
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 1. Adobe Campaign エクスプローラーで、**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;ノードを参照し、「**[!UICONTROL メール配信]**」ビルトインテンプレートを複製します。
 
-   配信テンプレートの作成について詳しくは、[この節](../../v8/send/create-templates.md)を参照してください。
+   配信テンプレートの作成について詳しくは、[配信テンプレートの操作](../../v8/send/create-templates.md)を参照してください。
 
 1. ラベル、ターゲット（前に作成した受信者のリスト）など、テンプレートパラメーターのほか、件名、コンテンツを入力します。
 
@@ -67,17 +67,17 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 添付ファイル]**」リンクをクリックし、「**[!UICONTROL 追加]**」ボタンの横にある矢印をクリックします。 「**[!UICONTROL 計算済み添付ファイル…]**」を選択します。
 
-     ![](assets/use_case_report_4.png)
+     ![添付ファイルを編集ウィンドウで、追加メニューを開き、計算された添付ファイルを選択します。](assets/use_case_report_4.png)
 
    * 「**[!UICONTROL タイプ]**」ドロップダウンリストに移動して、最新のオプション、「**[!UICONTROL 各メッセージの配信中にファイル名を計算する（受信者のプロファイルの利用可）]**」を選択します。
 
-     ![](assets/use_case_report_5.png)
+     メッセージおよびラベル レポートごとに、配信中に計算されたファイル名にタイプが設定された![添付ファイル定義。](assets/use_case_report_5.png)
 
      「**[!UICONTROL ラベル]**」フィールドに入力された値は、最終の配信では表示されません。
 
    * テキストゾーンに、アクセスパスとファイルの名前を入力します。
 
-     ![](assets/use_case_report_6.png)
+     ![添付ファイルの定義「一般」タブ。テキストゾーンに入力されたファイルパスは「/tmp/indicators.pdf」です。](assets/use_case_report_6.png)
 
      >[!CAUTION]
      >
@@ -85,13 +85,13 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 詳細設定]**」タブを選択し、「**[!UICONTROL 送信するメールで表示されるファイル名を記述]**」チェックボックスをオンにします。 テキストゾーンに、最後の配信での添付ファイルの名前を入力します。
 
-     ![](assets/use_case_report_6b.png)
+     ![添付ファイルの定義チェックされたファイル名と入力されたlatest-report.pdfの名前をスクリプトで表示する「詳細」タブ。](assets/use_case_report_6b.png)
 
 ## 手順 3：ワークフローの作成 {#step-3--creating-the-workflow}
 
 このユースケースでは、次のワークフローを作成します。
 
-![](assets/use_case_report_8.png)
+![ ワークフロー月次レポート指標：スケジューラー、JavaScript コード、配信。](assets/use_case_report_8.png)
 
 次の 3 つのアクティビティを使用します。
 
@@ -104,17 +104,17 @@ ht-degree: 100%
 1. Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／プロダクション／テクニカルワークフロー]**&#x200B;ノードを参照し、ワークフローを保存する新規フォルダーを作成します。
 1. 新しいワークフローを作成します。
 
-   ![](assets/use_case_report_7.png)
+   ![管理/実稼動/ラベル フィールドと保存ボタンを持つテクニカルワークフローの新しいワークフローダイアログ。](assets/use_case_report_7.png)
 
 1. まず、「**[!UICONTROL スケジューラー]**」タイプアクティビティを追加し、月の最初の月曜日にワークフローが実行されるようアクティビティを設定します。
 
-   ![](assets/use_case_report_9.png)
+   毎月の最初の月曜日の午前12:00:00時にトリガーを表示する![ スケジューラーアクティビティ。](assets/use_case_report_9.png)
 
    スケジューラーの設定について詳しくは、[スケジューラー](scheduler.md)を参照してください。
 
 1. 次に、「**[!UICONTROL JavaScript コード]**」タイプアクティビティを追加します。
 
-   ![](assets/use_case_report_10.png)
+   ![reportName、path、exportFormatおよびxtk.report.export呼び出しを定義するスクリプトを使用したJavaScript コード アクティビティ。](assets/use_case_report_10.png)
 
    編集ゾーンで次のコードを入力します。
 
@@ -137,14 +137,14 @@ ht-degree: 100%
 
      >[!CAUTION]
      >
-     >ファイルはサーバー上に保存されている必要があります。 [こちら](#step-2--create-the-delivery-template)で説明しているように、計算済み添付ファイルの編集ウィンドウの「**[!UICONTROL 一般]**」タブで使用するのと同じパスと名前を入力する必要があります。
+     >ファイルはサーバー上に保存されている必要があります。 計算された添付ファイルの編集ウィンドウの「**[!UICONTROL 一般]**」タブと同じパスと同じ名前を入力する必要があります。詳細は、[手順2：配信テンプレートの作成](#step-2--create-the-delivery-template)）を参照してください。
 
    * **var exportFormat**：ファイルのエクスポートフォーマット（「PDF」）を入力します。
    * **var _ctx**（コンテキスト）：このケースでは、グローバルコンテキストに「**[!UICONTROL トラッキング指標]**」レポートを使用します。
 
 1. 「**[!UICONTROL 配信]**」アクティビティに以下のオプションを追加して作業を終了します。
 
-   ![](assets/use_case_report_11.png)
+   ![配信アクティビティ：テンプレートから新しい、準備と開始、アウトバウンドトランジションとプロセスエラーのチェックを外しました。](assets/use_case_report_11.png)
 
    * **[!UICONTROL 配信]**：「**[!UICONTROL 新規（テンプレートから作成）]**」を選択し、前に作成した配信テンプレートを選択します。
    * 「**[!UICONTROL 受信者]**」フィールドと「**[!UICONTROL コンテンツ]**」フィールドで「**[!UICONTROL 配信で指定]**」を選択します。

@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 93%
 ---
 # 待機{#wait}
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 下例の図に示すように、エディターを使用してラベルと待機時間を入力できます。
 
-![](assets/edit_wait.png)
+![Wait 90sというラベルと1m 30sの期間を持つWait アクティビティエディター。](assets/edit_wait.png)
 
 「**[!UICONTROL 期間]**」フィールドの値は、選択した単位（オペレーターの地域設定）で表すことができます。
 

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 86%
 ---
 # Web ダウンロード{#web-download}
 
@@ -47,23 +47,23 @@ ht-degree: 100%
 
    * ダウンロードするファイルの URL を直接指定するには、「**[!UICONTROL 明示的 URL]**」オプションを選択し、該当するフィールドに URL を入力します。 この URL は変数データで構成することもできます。
 
-     ![](assets/download_web_edit.png)
+     ![明示的URL オプションと空のURL フィールドを選択したWeb ダウンロードアクティビティ。](assets/download_web_edit.png)
 
    * 「**[!UICONTROL 外部アカウント]**」を使用する場合は、ドロップダウンからアカウントを選択し、ダウンロードするファイルを指定します。
 
      外部アカウントは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードで設定できます。 **[!UICONTROL リンクを編集]**&#x200B;アイコンをクリックすると、外部アカウントのパラメーターを編集できます。
 
-     ![](assets/download_web_edit_external.png)
+     ![外部アカウントを選択したWeb ファイルセクション。アカウントとダウンロードするファイル名が含まれています。](assets/download_web_edit_external.png)
 
    * Adobe Campaign インスタンスからファイルをダウンロードするには、「**[!UICONTROL Adobe Campaign インスタンス]**」オプションを選択します。
 
-     ![](assets/download_web_edit_instance.png)
+     Adobe Campaign インスタンスが選択され、変数を使用するファイル名が指定された![Web ファイル セクション。](assets/download_web_edit_instance.png)
 
 1. **ファイルの履歴化**
 
    「**[!UICONTROL ファイル履歴化設定...]**」リンクを使用して、ファイルのストレージディレクトリとこのディレクトリのパージ頻度を指定できます。
 
-   ![](assets/download_web_edit_hist.png)
+   ![ ストレージディレクトリ、ファイル数、最大サイズ（MB）のパージ設定を含む履歴化設定ダイアログ。](assets/download_web_edit_hist.png)
 
    次のオプションを使用できます。
 
@@ -85,7 +85,7 @@ ht-degree: 100%
    * **[!UICONTROL HTTP ヘッダーをファイルに追加]**：場合によっては、ファイルに HTTP ヘッダーを追加することが必要になる場合があります。 最も一般的に、これらのヘッダーは、トラブルシューティング目的、[クロスオリジンリソース共有（CORS）](https://developer.mozilla.org/docs/Web/HTTP/CORS)用の追加情報を提供するため、または特定のキャッシュディレクティブを設定するために使用されます。
    * **[!UICONTROL HTTP リターンコードを無視]**：HTTP リターンコード（HTTP ステータスコードとも呼ばれる）は、HTTP リクエストの結果を示します。
 
-   ![](assets/download_web_edit_advanced.png)
+   ![ リダイレクトに従う高度なパラメーターダイアログ、HTTP ヘッダーをファイルに追加し、HTTP リターンコードを無視します。](assets/download_web_edit_advanced.png)
 
    「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーの処理](monitor-workflow-execution.md#processing-errors)を参照してください。
 

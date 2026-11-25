@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 100%
+source-wordcount: '2074'
+ht-degree: 75%
 ---
 # 配信情報のクエリ {#querying-delivery-information}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 汎用クエリエディター]**&#x200B;を開き、「**[!UICONTROL 受信者トラッキングログ]**」スキーマを選択します。
 
-   ![](assets/query_editor_tracklog_05.png)
+   ![受信者トラッキングログ （nms）を選択したトラッキングでドキュメントタイプウィンドウがフィルタリングされました。](assets/query_editor_tracklog_05.png)
 
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、情報を収集するための集計を作成します。 そのためには、プライマリキー（**[!UICONTROL 受信者トラッキングログ]**&#x200B;のメイン要素の上部にある）を追加します。トラッキングログカウントは、この「**[!UICONTROL プライマリキー]**」フィールドに対して実行されます。 編集された式は **[!UICONTROL x=count(プライマリキー)]** となります。 この式により、様々なトラッキングログの合計が単一のメールアドレスにリンクされます。
 
@@ -58,27 +58,27 @@ ht-degree: 100%
 
    * 「**[!UICONTROL 出力列]**」フィールドの右側にある&#x200B;**[!UICONTROL 追加]**&#x200B;アイコンをクリックします。 **[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで「**[!UICONTROL 式を使用して数式を編集]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。 **[!UICONTROL 式を編集]**&#x200B;ウィンドウで、「**[!UICONTROL 詳細選択]**」をクリックします。
 
-     ![](assets/query_editor_tracklog_06.png)
+     ![詳細選択ボタンがハイライト表示された受信者トラッキングログスキーマのウィンドウを選択するフィールド。](assets/query_editor_tracklog_06.png)
 
    * **[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで、集計関数のプロセスを実行します。 このプロセスはプライマリキーカウントになります。
 
      「**[!UICONTROL 集計]**」セクションで「**[!UICONTROL 集計関数のプロセス]**」を選択し、「**[!UICONTROL カウント]**」をクリックします。
 
-     ![](assets/query_editor_nveau_18.png)
+     ![集計関数とカウントに対するプロセスが選択された数式タイプ ウィンドウ。](assets/query_editor_nveau_18.png)
 
      「**[!UICONTROL 次へ]**」をクリックします。
 
    * 「**[!UICONTROL プライマリキー（@id）]**」フィールドを選択します。 「**[!UICONTROL count (プライマリキー)]**」出力列が設定されます。
 
-     ![](assets/query_editor_nveau_19.png)
+     ![ カウント（プライマリキー）出力列が設定されたウィンドウを抽出するデータ。](assets/query_editor_nveau_19.png)
 
 1. 出力列に表示するその他のフィールドを選択します。 「**[!UICONTROL 使用可能フィールド]**」列で「**[!UICONTROL 受信者]**」ノードを開き、「**[!UICONTROL メール]**」を選択します。 「**[!UICONTROL グループ]**」ボックスをオンにして「**[!UICONTROL はい]**」にし、メールアドレスでトラッキングログをグループ化します。このグループにより各ログがその受信者にリンクされます。
 
-   ![](assets/query_editor_nveau_20.png)
+   ![電子メール（受信者）を2番目の出力列として追加し、グループを「はい」に設定してウィンドウを抽出するデータ ](assets/query_editor_nveau_20.png)
 
 1. 最もアクティブな受信者（最もトラッキングログが多い受信者）が最初に表示されるように列の並べ替えを設定します。 「**[!UICONTROL 降順ソート]**」列で「**[!UICONTROL はい]**」をオンにします。
 
-   ![](assets/query_editor_nveau_64.png)
+   ![ カウント（プライマリキー）列で「降順」ソートが「はい」に設定されたウィンドウの並べ替え。](assets/query_editor_nveau_64.png)
 
 1. 次に、関心のあるログ（2 週間以内のログや営業関連の配信を対象とするログなど）をフィルターする必要があります。
 
@@ -86,46 +86,46 @@ ht-degree: 100%
 
    * データのフィルターを設定します。 そのためには、「**[!UICONTROL フィルター条件]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-     ![](assets/query_editor_nveau_22.png)
+     ![制限フィルターのリストでフィルター条件が選択されたデータフィルタリングウィンドウ。](assets/query_editor_nveau_22.png)
 
    * 特定の配信の特定の期間におけるトラッキングログを収集します。 必要になるフィルター条件は、現在の日付の 2 週間前から現在の日付の前日までの検索期間を設定するための 2 つの日付条件と、検索を特定の配信に制限するための条件の 3 つです。
 
      **[!UICONTROL ターゲット要素]**&#x200B;ウィンドウで、考慮に入れるトラッキングログの開始日を設定します。 「**[!UICONTROL 追加]**」をクリックします。 条件ラインが表示されます。 **[!UICONTROL 式を編集]**&#x200B;機能をクリックして、「**[!UICONTROL 式]**」列を編集します。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 日付（@logDate）]**」をクリックします。
 
-     ![](assets/query_editor_nveau_23.png)
+     ![受信者トラッキングログスキーマリストの日付、外部ID、プライマリキーのウィンドウを選択するフィールド。](assets/query_editor_nveau_23.png)
 
      「**[!UICONTROL 後]**」演算子を選択します。 「**[!UICONTROL 値]**」列で&#x200B;**[!UICONTROL 式を編集]**&#x200B;を選択し、**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで「**[!UICONTROL 日付で処理]**」を選択します。 最後に、「**[!UICONTROL 現在の日付 - n 日]**」に &quot;15&quot; と入力します。
 
-     「**[!UICONTROL 完了]**」をクリックします。
+     「**[!UICONTROL 終了]**」をクリックします。
 
-     ![](assets/query_editor_nveau_24.png)
+     ![日付と現在の日付から15日を差し引いた日付と完了がハイライト表示された数式タイプ ウィンドウ。](assets/query_editor_nveau_24.png)
 
    * トラッキングログの検索終了日を選択するには、「**[!UICONTROL 追加]**」をクリックして 2 番目の条件を作成します。 「**[!UICONTROL 式]**」列で、「**[!UICONTROL 日付（@logDate）]**」を再度選択します。
 
      「**[!UICONTROL 前]**」演算子を選択します。 「**[!UICONTROL 値]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 日付処理については、**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウに移動し、「**[!UICONTROL 現在の日付 - n 日]**」に &quot;1&quot; と入力します。
 
-     「**[!UICONTROL 完了]**」をクリックします。
+     「**[!UICONTROL 終了]**」をクリックします。
 
-     ![](assets/query_editor_nveau_65.png)
+     ![日付と現在の日付から日付を引いた日付を1に設定し、「完了」を強調表示した数式タイプ ウィンドウ。](assets/query_editor_nveau_65.png)
 
      次に、クエリが対象とする配信ラベルなど、3 番目のフィルター条件を設定します。
 
    * 「**[!UICONTROL 追加]**」機能をクリックして別のフィルター条件を作成します。 「**[!UICONTROL 式]**」列で、**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 選択するフィールド]**&#x200B;ウィンドウで、「**[!UICONTROL 、「配信]**」ノードの「ラベル」を選択します。****
 
-     「**[!UICONTROL 完了]**」をクリックします。
+     「**[!UICONTROL 終了]**」をクリックします。
 
-     ![](assets/query_editor_nveau_66.png)
+     ![ ラベル （@label） フィールドがハイライト表示され、終了がハイライト表示されたウィンドウを選択するフィールド。](assets/query_editor_nveau_66.png)
 
      「sales」という単語を含む配信を検索します。 正確なラベルを覚えていない場合は、「**[!UICONTROL 次を含む]**」演算子を選択し、「**[!UICONTROL 値]**」列に &quot;sales&quot; と入力します。
 
-     ![](assets/query_editor_nveau_25.png)
+     ![15日前、1日前より前の日付、およびラベルに売上が含まれている日付が表示されたターゲット要素ウィンドウ。](assets/query_editor_nveau_25.png)
 
 1. **[!UICONTROL データのプレビュー]**&#x200B;ウィンドウが表示されるまで「**[!UICONTROL 次へ]**」をクリックします。ここでは書式設定は必要ありません。
 1. **[!UICONTROL データのプレビュー]**&#x200B;ウィンドウで「**[!UICONTROL データのプレビューを開始]**」をクリックし、各配信の受信者のトラッキングログ数を確認します。
 
    結果は降順で表示されます。
 
-   ![](assets/query_editor_tracklog_04.png)
+   ![受信者の電子メールあたりのトラッキングログ数を6から2まで降順で一覧表示するデータプレビューウィンドウ。](assets/query_editor_tracklog_04.png)
 
    この例では、特定のユーザーのログの最大数が 6 で、 5 人の異なるユーザーが配信メールを開いたり、メールのいずれかのリンクをクリックしたということになります。
 
@@ -138,33 +138,33 @@ ht-degree: 100%
 1. ワークフローに「**[!UICONTROL クエリ]**」アクティビティをドラッグ＆ドロップし、アクティビティを開きます。
 1. 「**[!UICONTROL クエリを編集]**」をクリックし、ターゲットディメンションとフィルタリングディメンションを「**[!UICONTROL 受信者]**」に設定します。
 
-   ![](assets/query_recipients_1.png)
+   ![受信者とフィルター条件の両方が選択されたディメンションのターゲティングとフィルターディメンション ウィンドウ。](assets/query_recipients_1.png)
 
 1. 「**[!UICONTROL フィルター条件]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 1. 「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL トラッキングログ]**」を選択します。
 1. 「**[!UICONTROL トラッキングログ]**」式の「**[!UICONTROL 演算子]**」を「**[!UICONTROL 次の場合には存在しません]**」に設定します。
 
-   ![](assets/query_open_1.png)
+   ![ トラッキングログ （trackingLog）式を含むフィルターウィンドウ。演算子など存在しません。](assets/query_open_1.png)
 
 1. 別の式を追加します。 「**[!UICONTROL URL]**」カテゴリの「**[!UICONTROL タイプ]**」を選択します。
 1. 次に、「**[!UICONTROL 演算子]**」を「**[!UICONTROL 次と等しい]**」に、その「**[!UICONTROL 値]**」を「**[!UICONTROL オープン]**」に設定します。
 
-   ![](assets/query_open_2.png)
+   ![ トラッキングログ式の下で、種類（URL/@type）条件が「開く」に設定されたフィルターウィンドウ。](assets/query_open_2.png)
 
 1. 別の式を追加し、「**[!UICONTROL 日付]**」を選択します。 「**[!UICONTROL 演算子]**」は「**[!UICONTROL 以降]**」に設定する必要があります。
 
-   ![](assets/query_open_3.png)
+   ![ オンまたはアフターオペレーターを使用するトラッキング ログの日付（@logDate）条件を含むフィルターウィンドウ。値はまだ空です。](assets/query_open_3.png)
 
 1. 値を過去 7 日間に設定するには、「**[!UICONTROL 値]**」フィールドで「**[!UICONTROL 式を編集]**」ボタンをクリックします。
 1. 「**[!UICONTROL 関数]**」カテゴリで、「**[!UICONTROL 現在の日付 - n 日]**」を選択し、ターゲティングする日数を追加します。 ここでは、過去 7 日間をターゲティングします。
 
-   ![](assets/query_open_4.png)
+   ![日付と現在の日付から日付を引いた日付が7に設定された数式タイプ ウィンドウ。](assets/query_open_4.png)
 
 アウトバウンドトランジションには、過去 7 日間、メールを開封していない受信者が含まれます。
 
 反対に、1 件以上のメールを開封した受信者をフィルターする場合、クエリは次のようになります。 この場合、「**[!UICONTROL フィルタリングディメンション]**」は「**[!UICONTROL トラッキングログ (Recipients)]**」に設定してください。
 
-![](assets/query_open_5.png)
+条件プライマリキー（@id）が0でない条件と、その下のクエリの概要を含む![ フィルターウィンドウ。](assets/query_open_5.png)
 
 ## 配信を開封した受信者 {#recipients-who-have-opened-a-delivery}
 
@@ -172,25 +172,25 @@ ht-degree: 100%
 
 1. 配信を開封したプロファイルをターゲットにするには、トラッキングログを使用する必要があります。 リンクテーブルに保存されます。次に示すように、まず、「**[!UICONTROL フィルタリングディメンション]**」フィールドのドロップダウンリストでこのテーブルを選択します。
 
-   ![](assets/s_advuser_query_sample1.0.png)
+   ![利用可能なテーブルの中から受信者の追跡ログを含むディメンション ドロップダウンリストをフィルタリングしています。](assets/s_advuser_query_sample1.0.png)
 
 1. フィルター条件については、トラッキングログのサブツリー構造に表示される基準の「**[!UICONTROL 式を編集]**」アイコンをクリックします。 「**[!UICONTROL 日付]**」フィールドを選択します。
 
-   ![](assets/s_advuser_query_sample1.1.png)
+   ![ フィルタリングディメンションが受信者トラッキングログに設定され、選択ウィンドウのフィールドで「日付」フィールドが選択されています。](assets/s_advuser_query_sample1.1.png)
 
    「**[!UICONTROL 完了]**」をクリックして選択内容を確定します。
 
    過去 2 週間以内のトラッキングログのみを取り出すには、「**[!UICONTROL 次より大きい]**」演算子を選択します。
 
-   ![](assets/s_advuser_query_sample1.4.png)
+   ![日付（@logDate）のフィルターウィンドウ。オペレータードロップダウンが開き、後のオペレーターがハイライト表示されている。](assets/s_advuser_query_sample1.4.png)
 
    次に、「**[!UICONTROL 値]**」列で&#x200B;**[!UICONTROL 式を編集]**&#x200B;アイコンをクリックし、適用する計算式を定義します。 数式「**[!UICONTROL 現在の日付 - n 日]**」を選択し、関連するフィールドに「15」と入力します。
 
-   ![](assets/s_advuser_query_sample1.5.png)
+   ![数式タイプ ウィンドウが式を編集から開き、現在の日付からn日を差し引いた値が15に設定されています。](assets/s_advuser_query_sample1.5.png)
 
    数式ウィンドウで「**[!UICONTROL 完了]**」ボタンをクリックします。 フィルターウィンドウで、「**[!UICONTROL プレビュー]**」タブをクリックしてターゲティング条件を確認します。
 
-   ![](assets/s_advuser_query_sample1.6.png)
+   ![ ターゲティング条件に一致する53人の受信者を一覧表示する「プレビュー」タブのフィルターウィンドウ。](assets/s_advuser_query_sample1.6.png)
 
 ## 配信後の受信者の行動のフィルタリング {#filtering-recipients--behavior-folllowing-a-delivery}
 
@@ -210,17 +210,17 @@ ht-degree: 100%
 
 1. ワークフローに&#x200B;**[!UICONTROL 分割]**&#x200B;ボックスを挿入します。 このボックスでは、最初の配信の受信者を次の 2 つの配信に分類します。 分類は、最初の配信における受信者の行動にリンクされたフィルター条件に基づいておこなわれます。
 
-   ![](assets/query_editor_ex_09.png)
+   ![ クエリを使用したワークフロー、サマースポーツのオファーの配信、4日間待機、行動アクティビティに基づく分割](assets/query_editor_ex_09.png)
 
 1. **[!UICONTROL 分割]**&#x200B;ボックスを開きます。 「**[!UICONTROL 一般]**」タブで、ラベルを入力します（例えば、「**ユーザーアクション別に分割**」など）。
 
-   ![](assets/query_editor_ex_04.png)
+   ![行動に基づいて「ラベル」フィールドが「分割」に設定されたアクティビティの「一般」タブを分割します。](assets/query_editor_ex_04.png)
 
 1. 「**[!UICONTROL サブセット]**」タブで、最初の分割分岐を定義します。 例えば、この分岐に対してラベルとして 「**クリックした**」と入力します。
 1. 「**[!UICONTROL インバウンド母集団に対するフィルターを追加]**」オプションをオンにします。 「**[!UICONTROL 編集]**」をクリックします。
 1. **[!UICONTROL ターゲティングとフィルタリングディメンション]**&#x200B;ウィンドウで、「**[!UICONTROL 配信の受信者]**」フィルターをダブルクリックします。
 
-   ![](assets/query_editor_ex_05.png)
+   ![ フィルター条件を追加を選択し、配信の受信者を強調表示した「サブセットを分割」タブ。](assets/query_editor_ex_05.png)
 
 1. **[!UICONTROL ターゲット要素]**&#x200B;ウィンドウで、この分岐に適用する行動、「**[!UICONTROL （メールを）クリックした受信者]**」を選択します。
 
@@ -228,23 +228,23 @@ ht-degree: 100%
 
    これは「ウォータースポーツキャンペーン」配信です。
 
-   ![](assets/query_editor_ex_08.png)
+   ![ トランジションで指定された（電子メール）および配信をクリックした受信者にビヘイビアーが設定されたターゲット要素ウィンドウ。](assets/query_editor_ex_08.png)
 
 1. 2 番目の分岐を定義します。 この分岐には、最初の配信と同じ内容のフォローアップメールが含まれます。 「**[!UICONTROL サブセット]**」タブに移動し、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/query_editor_ex_06.png)
+   ![ クリックしたサブセットと「追加」ボタンがハイライト表示された「サブセットを分割」タブで、2番目のサブセットを作成します。](assets/query_editor_ex_06.png)
 
 1. もう 1 つのサブタブが表示されます。 このサブタブに、「**クリックしなかった**」という名前を付けます。
 1. 「**[!UICONTROL インバウンド母集団に対するフィルターを追加]**」をクリックします。 次に「**[!UICONTROL 編集...]**」をクリックします。
 
-   ![](assets/query_editor_ex_07.png)
+   フィルター条件で「編集」リンクがハイライト表示された「クリックしなかった」サブセットの「![ サブセットを分割」タブ。](assets/query_editor_ex_07.png)
 
 1. **[!UICONTROL ターゲティングとフィルタリングディメンション]**&#x200B;ウィンドウで、「**[!UICONTROL 配信の受信者]**」をクリックします。
 1. **[!UICONTROL ターゲット要素]**&#x200B;ウィンドウで、「**[!UICONTROL クリックしていない受信者（メール）]**」行動を選択します。 前の分岐で示したように、「**[!UICONTROL トランジションで指定された配信]**」オプションをオンにします。
 
    これで、**[!UICONTROL 分割]**&#x200B;ボックスの設定が完了しました。
 
-   ![](assets/query_editor_ex_03.png)
+   ![分割によってクリック済みの受信者がWatersport オファーに送信され、リマインダーにクリックしなかったワークフロー](assets/query_editor_ex_03.png)
 
 次に、デフォルトで設定されている各種コンポーネントのリストを示します。
 
@@ -256,4 +256,4 @@ ht-degree: 100%
 * **[!UICONTROL （メールを）開封またはクリックしなかった受信者]**
 * **[!UICONTROL クリックしていない受信者（メール）]**
 
-  ![](assets/query_editor_ex_02.png)
+  ![すべての受信者、開封済みまたはクリック済み、クリック済み、失敗した、またはクリックしなかったオプションを含むターゲット要素の動作リスト。](assets/query_editor_ex_02.png)

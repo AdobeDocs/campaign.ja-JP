@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 91%
 ---
 # 積集合{#intersection}
 
@@ -36,13 +36,13 @@ ht-degree: 100%
 
 積集合では、インバウンドアクティビティのすべての結果に共通する母集団のみを抽出できます。 ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、積集合が実行される前に完了している必要があります。 このアクティビティを設定するには、結果を考慮してアクティビティのラベルとオプションを入力する必要があります。
 
-![](assets/s_user_segmentation_inter.png)
+![紐付けがキーのみに設定された積集合アクティビティ、結果ラベル、および補集合を生成オプション ](assets/s_user_segmentation_inter.png)
 
 積集合アクティビティの設定と使用について詳しくは、[結合データの抽出（積集合）](targeting-workflows.md#extract-joint-data--intersection-)を参照してください。
 
 残りの母集団を処理するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。 補集合には、すべてのインバウンドアクティビティから積集合を引いた結果の和集合が含まれます。 その後、次の図のように、追加のアウトバウンドトランジションがアクティビティに追加されます。
 
-![](assets/s_user_segmentation_inter_compl.png)
+![2つのアウトバウンドトランジション、結果と補集合を含む積集合アクティビティ ](assets/s_user_segmentation_inter_compl.png)
 
 ## 積集合の例 {#intersection-example}
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
    積集合の結果は、最初のリスト更新に送られます。 補集合の使用を選択していた場合、結果は 2 番目のリスト更新にも送られます。
 
-   ![](assets/intersection_example.png)
+   ![2つのリスト更新アクティビティに結果と補集合が送信される積集合に対する3つのクエリ ](assets/intersection_example.png)
 
 ## 入力パラメーター {#input-parameters}
 

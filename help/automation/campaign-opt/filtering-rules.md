@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 97%
+source-wordcount: '687'
+ht-degree: 78%
 ---
 # フィルタリングルール{#filtering-rules}
 
@@ -44,27 +44,27 @@ ht-degree: 97%
 1. Campaign エクスポーラーの&#x200B;**[!UICONTROL 管理／キャンペーン管理／タイポロジ管理／タイポロジルール]**&#x200B;フォルダーを参照し、「**新規**」アイコンをクリックして、タイポロジルールを作成します。
 1. すべてのチャネルに適用できる&#x200B;**[!UICONTROL フィルター]**&#x200B;タイポロジルールを作成します。
 
-   ![](assets/campaign_opt_create_filter_01.png)
+   ![ ルールの種類としてフィルターを使用し、チャネル リストで「すべてのチャネル」オプションを選択した新しいタイポロジ ルール。](assets/campaign_opt_create_filter_01.png)
 
 1. 「**フィルター**」タブから、デフォルトのターゲティングディメンションを&#x200B;**サブスクリプション** （**nms:subscription**）に変更します。
 
-   ![](assets/campaign_opt_create_filter_02.png)
+   ![ ターゲティングディメンションとしてサブスクリプション（nms）スキーマを選択したフィルタータブ。](assets/campaign_opt_create_filter_02.png)
 
 1. **[!UICONTROL ターゲティングディメンションからクエリを編集...]** リンクを使用して、フィルターを作成します。
 
-   ![](assets/campaign_opt_create_filter_03.png)
+   ![ フィルター条件を選択したフィルタークエリダイアログ、ターゲットタイプのステップを編集します。](assets/campaign_opt_create_filter_03.png)
 
 1. 受信者の年齢に対してフィルターを適用し、フィルター条件を保存します。
 
-   ![](assets/campaign_opt_create_filter_03b.png)
+   ![条件の年齢（受信者/@age）が18を超えるフィルタリングクエリダイアログを編集します。](assets/campaign_opt_create_filter_03b.png)
 
 1. 「**タイポロジ**」タブで、このルールをキャンペーンタイポロジにリンクし、保存します。
 
-   ![](assets/campaign_opt_create_filter_04.png)
+   ![ タイポロジを追加ダイアログとニュースレターのタイポロジが選択されたフィルタリングルールの「タイポロジ」タブ。](assets/campaign_opt_create_filter_04.png)
 
 配信でこのルールを使用すると、未成年の購読者は自動的に除外されます。 ルールが適用されるタイミングを示すメッセージが表示されます。
 
-![](assets/campaign_opt_create_filter_05.png)
+![ アドレスを除外ルールとドメインを除外ルールを適用する行に矢印が付いた配信分析ログ。](assets/campaign_opt_create_filter_05.png)
 
 ## フィルタールールの決定 {#condition-a-filtering-rule}
 
@@ -86,17 +86,17 @@ ht-degree: 97%
 
 フィルタールールのみを含む&#x200B;**[!UICONTROL フィルター]**&#x200B;タイポロジを作成できます。
 
-![](assets/campaign_opt_create_typo_filtering.png)
+![ タイプ リストがフィルターに設定されたタイポロジとそのルール タブには、適用するフィルタールールが一覧表示されます。](assets/campaign_opt_create_typo_filtering.png)
 
 作成したタイポロジは、ターゲットを選択して、配信にリンクできます。配信ウィザードで、「**[!UICONTROL 宛先]**」リンクをクリックし、「**[!UICONTROL 除外]**」タブをクリックします。
 
-![](assets/campaign_opt_apply_typo_filtering.png)
+![ フィルタールールの下にフィルタールールを追加リンクがあるターゲットダイアログ「除外」タブを選択します。](assets/campaign_opt_apply_typo_filtering.png)
 
 次に、配信に適用するフィルタータイポロジを選択します。 「**[!UICONTROL 追加]**」ボタンをクリックして、適用するタイポロジを選択してください。
 
 タイポロジでグループ化せず、このタブから直接フィルタールールをリンクすることもできます。 その場合は、このウィンドウの下部のセクションを使用します。
 
-![](assets/campaign_opt_select_typo_filtering.png)
+![ フィルターのタイポロジと2つの追加ボタンを通じて追加されたフィルタールールを含む「除外」タブ。](assets/campaign_opt_select_typo_filtering.png)
 
 >[!NOTE]
 >

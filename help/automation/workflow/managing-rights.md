@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 95%
 ---
 # ワークフロー権限の管理{#managing-rights}
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 また、影響するワークフロー（受信者インポート、ファイルアクセス、統合、SQL スクリプト実行など）によって実行されるアクションと一致するネームド権限にマッピングされている必要があります。
 
-オペレーターの管理と権限について詳しくは、[この節](../../v8/start/gs-permissions.md)を参照してください。
+オペレーターと権限の管理について詳しくは、[Campaign v8](../../v8/start/gs-permissions.md)の権限の概要を参照してください。
 
 ## オペレーターグループ {#operator-groups-wf}
 

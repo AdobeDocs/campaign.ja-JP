@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 69%
 ---
 # キャンペーンワークフロー {#campaign-workflows}
 
 キャンペーンごとに、「**[!UICONTROL ターゲティングとワークフロー]**」タブから実行されるワークフローを作成できます。 これらのワークフローは、各キャンペーンに固有です。
 
-![](assets/wf-in-op-edit-delivery-tab.png)
+ワークフローリストとクエリ、分割、配信を含む図を示すキャンペーンの「![ ターゲティングとワークフロー」タブ。](assets/wf-in-op-edit-delivery-tab.png)
 
 このタブには、すべてのワークフロー用のものと同じアクティビティが含まれます。 [詳細情報](#implementation-steps-)
 
@@ -47,6 +47,6 @@ ht-degree: 100%
 
 すべてのキャンペーンワークフローは、**[!UICONTROL 管理／プロダクション／自動作成されたオブジェクト／キャンペーンワークフロー]**&#x200B;ノードの下に集中管理されます。
 
-![](assets/campaigns_wf.png)
+![管理/実稼動/自動的に作成されたオブジェクト/Campaign ワークフローノードを選択したエクスプローラー](assets/campaigns_wf.png)
 
-キャンペーンワークフローと実装例について詳しくは、[この節](../campaigns/marketing-campaign-target.md)を参照してください。
+キャンペーンのワークフローと実装例について詳しくは、[ マーケティングキャンペーンのターゲットオーディエンス ](../campaigns/marketing-campaign-target.md)を参照してください。

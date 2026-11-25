@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 93%
 ---
 # 繰り返し配信{#recurring-delivery}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 「**[!UICONTROL 繰り返し配信]**」アクティビティでは、キャンペーン固有の配信テンプレートの発生件数を設定できます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#recurring-delivery-video)
+![ ビデオリンクの再生ボタンアイコン。](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#recurring-delivery-video)
 
 このアクティビティは、キャンペーン内の「**[!UICONTROL ターゲティングとワークフロー]**」タブでのみ使用できます。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 1. アクティビティのベースにする配信テンプレートを選択します。
 
-   ![](assets/recurring_delivery_001.png)
+   配信テンプレート ドロップダウンが開き、メール配信（メール）が選択されている![配信ウィンドウ。](assets/recurring_delivery_001.png)
 
 1. 配信テンプレートを設定します。
 
@@ -68,6 +68,6 @@ ht-degree: 100%
 
 このビデオでは、繰り返し配信とスケジューラーアクティビティを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27508?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

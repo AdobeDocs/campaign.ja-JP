@@ -7,14 +7,14 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 93%
+source-wordcount: '1592'
+ht-degree: 82%
 ---
 # Campaign オペレーターの Adobe ID 管理システム（IMS）への移行 {#migrate-users-to-ims}
 
-Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。 すべてのオペレーターは、[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}**only**&#x200B;を使用してCampaignに接続します。 ユーザー／パスワードを使用した接続（別名ネイティブ認証）は許可されなくなります。 アドビでは、Campaign v8.6 にスムーズに移行できるように、Campaign v8.5.2 でこの移行を実行することをお勧めします。
+Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されています。 すべてのオペレーターは、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}**only**&#x200B;を使用してCampaignに接続します。 ユーザー／パスワードを使用した接続（別名ネイティブ認証）は許可されなくなります。 アドビでは、Campaign v8.6 にスムーズに移行できるように、Campaign v8.5.2 でこの移行を実行することをお勧めします。
 
 また、この手順は、Campaign Classic v7 マネージドサービスのお客様が Campaign v8 に移行する場合にも適用されます。
 
@@ -24,7 +24,7 @@ Campaign v8.6 以降、Campaign v8 への認証プロセスが改善されてい
 
 Campaign v8 では、すべての標準ユーザーは、Adobe ID 管理システム（IMS）により、Adobe ID を使用して Adobe Campaign クライアントコンソールに既に接続しています。 ただし、一部の以前の設定では、ユーザー／パスワード接続が引き続き使用可能でした。 **この設定は、Campaign v8.6 以降では使用できなくなりました。**
 
-さらに、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign クライアントアプリケーションは、IMS テクニカルアカウントトークンを使用して Campaign API を直接呼び出すようになりました。 テクニカルオペレーターの移行について詳しくは、[このページ](ims-migration.md)にある専用の記事を参照してください。
+さらに、セキュリティと認証プロセスを強化する取り組みの一環として、Adobe Campaign クライアントアプリケーションは、IMS テクニカルアカウントトークンを使用して Campaign API を直接呼び出すようになりました。 テクニカルオペレーターの移行については、専用の記事で詳しく説明しています。詳しくは、[ テクニカルユーザーのAdobe Developer コンソールへの移行](ims-migration.md)を参照してください。
 
 この変更は、Campaign v8.5.2 以降に適用され、Campaign v8.6 以降は&#x200B;**必須**&#x200B;です。
 
@@ -32,7 +32,7 @@ Campaign v8 では、すべての標準ユーザーは、Adobe ID 管理シス�
 
 組織内のオペレーターが Campaign クライアントコンソールにログイン／パスワード（別名 ネイティブ認証）を使用して接続している場合は影響を受けるので、以下で説明するようにこれらのオペレーターを Adobe IMS に移行する必要があります。
 
-[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は、環境を安全で標準化するためのセキュリティ上の必須要素です。他の[!DNL Adobe CX Enterprise]のソリューションやアプリのほとんどは既にIMS上にあります。
+[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行は、環境を安全で標準化するためのセキュリティ上の必須要素です。他の[!DNL Adobe CX Enterprise]のソリューションやアプリのほとんどは既にIMS上にあります。
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ Campaign v8 では、すべての標準ユーザーは、Adobe ID 管理シス�
 
 1. アドビでは、環境を Campaign v8.5.2 にアップグレードします。
 1. アップグレード後も、ネイティブユーザーまたは IMS の両方の方法で新しいユーザーを引き続き作成できます。
-1. 内部の Campaign 管理者は、Campaign クライアントコンソール上のすべてのネイティブユーザーに一意のメールアドレスを追加し、これが完了したらアドビトランジションマネージャーに確認する必要があります。 この手順について詳しくは、[この節](#ims-migration-id)を参照してください。
+1. 内部の Campaign 管理者は、Campaign クライアントコンソール上のすべてのネイティブユーザーに一意のメールアドレスを追加し、これが完了したらアドビトランジションマネージャーに確認する必要があります。 この手順については、[現在のネイティブユーザー向けのメールを追加する方法？](#ims-migration-id)で詳しく説明しています。
 1. アドビと連携して、技術に詳しくないユーザー（オペレーター）と製品プロファイルの自動移行をアドビが実行する日付を確保します。 この手順には、インスタンスのダウンタイムが発生しない 1 時間の時間枠が必要です。
 1. 内部の Campaign 管理者がこれらの変更を検証し、サインオフします。 この移行後は、ログイン名とパスワードで認証するオペレーターをさらに作成する必要はありません。
 
@@ -66,13 +66,13 @@ Campaign v8 では、すべての標準ユーザーは、Adobe ID 管理シス�
 
 ### 移行を開始できるのはいつですか？ {#ims-migration-start}
 
-[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行の前提条件は、環境をCampaign v8.5.2にアップグレードすることです。
+[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行の前提条件は、環境をCampaign v8.5.2にアップグレードすることです。
 
 Campaign v8.5.2 にアップグレードしたら、ステージング環境で IMS への移行を開始し、それに応じて本番環境を計画できます。
 
 ### Campaign v8.5.2 にビルドをアップグレードすると、どうなりますか？ {#ims-migration-after-upgrade}
 
-環境をCampaign v8.5.2にアップグレードした後、[Adobe Identity Management System （IMS） &#x200B;](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行を開始できます。
+環境をCampaign v8.5.2にアップグレードした後、[Adobe Identity Management System （IMS） ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}への移行を開始できます。
 
 IMS への移行が完了するまでは、新しいネイティブユーザーを引き続き作成できます。
 
@@ -108,36 +108,36 @@ Campaign 管理者は、クライアントコンソールからすべてのネ�
 
    **クエリ**&#x200B;アクティビティについて詳しくは、[このページ](../../automation/workflow/query.md)を参照してください。
 
-   **データ抽出（ファイル）**&#x200B;アクティビティについて詳しくは、[このページ](../../automation/workflow/extraction-file.md)を参照してください。
+   [ データ抽出（ファイル） ](../../automation/workflow/extraction-file.md)の&#x200B;**データ抽出（ファイル）** アクティビティについて詳しく説明します
 
 1. オペレーターのメールを含む新しい列で CSV ファイルを更新します。
 
 1. ワークフロー内の&#x200B;**データ読み込み（ファイル）**&#x200B;アクティビティと&#x200B;**データを更新**&#x200B;アクティビティを使用して、更新されたデータを読み込むワークフローを作成します。
 
-   ![](assets/update-operators-wf.png){width="70%"}
+   ![ オペレーターの更新ワークフロー：データ更新アクティビティにリンクされたデータ読み込み（ファイル）アクティビティ。](assets/update-operators-wf.png){width="70%"}
 
 1. **データ読み込み（ファイル）**&#x200B;アクティビティを編集し、更新された CSV ファイルを読み込むための設定を定義します。以下にサンプルを示します。
 
-   ![](assets/data-loading-activity.png){width="70%"}
+   ![ データ読み込み（ファイル）アクティビティ設定：サンプルファイル、ラベル、名前と電子メールの列、ファイル名でプレビューします。](assets/data-loading-activity.png){width="70%"}
 
-   **データ読み込み（ファイル）**&#x200B;アクティビティについて詳しくは、[このページ](../../automation/workflow/data-loading-file.md)を参照してください。
+   [ データ読み込み（ファイル） ](../../automation/workflow/data-loading-file.md)の&#x200B;**データ読み込み（ファイル）** アクティビティについて詳しく説明します
 
 1. **データを更新**&#x200B;アクティビティを編集し、以下のサンプルに従って設定を定義します。 **更新するディメンション**&#x200B;が `Operators (xtk)` に変更されていることに注意してください。
 
-   ![](assets/update-data-activity.png){width="70%"}
+   ![ オペレーターディメンションの紐付けキーを使用してデータアクティビティを更新し、@emailと@nameのフィールドを更新します。](assets/update-data-activity.png){width="70%"}
 
    **データを更新**&#x200B;アクティビティについて詳しくは、[このページ](../../automation/workflow/update-data.md)を参照してください。
 
 1. ワークフローを実行し、結果を確認します。 オペレーターのプロファイルにメールアドレスが追加されました。
 
-   ![](assets/updated-operator.png){width="70%"}
+   ![連絡先の電子メールフィールドが強調表示されたオペレータープロファイル。追加された電子メールアドレスが表示されます。](assets/updated-operator.png){width="70%"}
 
 +++
 
 
 ### IMS 経由で Campaign にログインするにはどうすればよいですか？ {#ims-migration-log}
 
-Campaign と Adobe ID の接続方法については、[この節](../../v8/start/connect.md)を参照してください。
+Adobe IDを使用してCampaignに接続する方法については、[Campaign v8](../../v8/start/connect.md)を参照してください。
 
 ### この移行中にダウンタイムは発生しますか？ {#ims-migration-downtime}
 
@@ -153,7 +153,7 @@ Campaign と Adobe ID の接続方法については、[この節](../../v8/star
 
 この移行には、エンドユーザーの移行と技術ユーザーの移行（カスタムコードの API で使用）という 2 つの側面があります。
 
-すべてのユーザー（Campaign オペレーター）が IMS を使用している場合、この移行を実行する必要はありません。 ただし、カスタムコードで使用した可能性のある技術ユーザーを移行する必要があります。 詳しくは、[このページ](ims-migration.md)を参照してください。
+すべてのユーザー（Campaign オペレーター）が IMS を使用している場合、この移行を実行する必要はありません。 ただし、カスタムコードで使用した可能性のある技術ユーザーを移行する必要があります。 詳しくは、[ テクニカルユーザーのAdobe Developer コンソールへの移行](ims-migration.md)を参照してください。
 
 この移行が完了したら、アドビトランジションマネージャーにお問い合わせして、アドビが移行を完了するように依頼する必要があります。
 
@@ -165,15 +165,15 @@ Campaign でオペレーターの認証タイプを表示する方法につい�
 
 1. ヘッダー行を右クリックし、**リストを設定**&#x200B;メニューを選択します。
 
-   ![](assets/ims_2.png)
+   右クリックメニューを開き、「リストを設定」オプションがハイライト表示された![ オペレーターリスト。](assets/ims_2.png)
 
 1. **無効なアカウント**&#x200B;と&#x200B;**認証タイプ**&#x200B;を&#x200B;**出力列**&#x200B;として追加します。
 
-   ![](assets/ims_1.png)
+   ![ アカウントを無効にし、認証タイプを出力列に追加したリスト設定。](assets/ims_1.png)
 
 これで、**オペレーター**&#x200B;とその&#x200B;**認証タイプ**&#x200B;のリストが表示されます。
 
-![](assets/ims_3.png)
+![認証タイプ列が強調表示されたオペレーターリスト。各オペレーターのネイティブまたはIMSが表示されます。](assets/ims_3.png)
 
 ## 便利なリンク {#ims-useful-links}
 

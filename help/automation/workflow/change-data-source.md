@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 85%
 ---
 # データソースを変更 {#change-data-source}
 
@@ -61,22 +61,22 @@ ht-degree: 100%
 
 1. **[!UICONTROL データソースを変更]**&#x200B;アクティビティを追加します。
 
-   ![](assets/change-data-source.png)
+   ![開始とクエリを含むワークフロー、およびパレットでハイライト表示された「データを変更」Source アクティビティ ](assets/change-data-source.png)
 
 1. **[!UICONTROL データソースを変更]**&#x200B;アクティビティを編集して、「**[!UICONTROL デフォルトのデータソース]**」を選択します。
 
    クエリの結果を含んだワークテーブルが、デフォルトの Campaign ローカルデータベースに移動されます。
 
-   ![](assets/change-data-source_2.png)
+   ![既定のデータソースオプションを選択してData Source アクティビティを変更](assets/change-data-source_2.png)
 
 1. **[!UICONTROL JavaScript コード]**&#x200B;アクティビティを追加して、ワークテーブルに対して単一操作を実行します。
 
-   **[!UICONTROL JavaScript コード]**&#x200B;アクティビティについて詳しくは、[このページ](sql-code-and-javascript-code.md#javascript-code)を参照してください。
+   **[!UICONTROL JavaScript コード]** アクティビティについて詳しくは、[JavaScript コードと高度なJavaScript コード ](sql-code-and-javascript-code.md#javascript-code)を参照してください。
 
 1. 別の&#x200B;**[!UICONTROL データソースを変更]**&#x200B;アクティビティを追加して、クラウドデータベースに戻ります。
 
 1. このアクティビティを編集し、「**[!UICONTROL アクティブ FDA 外部アカウント]**」および対応する&#x200B;**[!UICONTROL 外部データベース]**&#x200B;外部アカウントを選択します。
 
-   ![](assets/change-data-source_3.png)
+   ![ アクティブなFDA外部アカウントを選択し、リストでSnowflakeを強調表示してData Source アクティビティを変更する](assets/change-data-source_3.png)
 
 1. これで、ワークフローを開始できます。

@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '2023'
-ht-degree: 100%
+source-wordcount: '2337'
+ht-degree: 83%
 ---
 # 分割{#split}
 
@@ -37,9 +37,9 @@ ht-degree: 100%
 >
 >異なるソースを持つテーブルに対しては、分割操作を実行できません。 この目的のために、「**分割**」アクティビティの前に「**エンリッチメント**」アクティビティを追加する必要があります。
 
-* 分割アクティビティの使用例については、[この節](targeting-workflows.md#create-subsets-using-the-split-activity)を参照してください。
-* フィルター条件を使用してターゲットを別々の母集団にセグメント化する分割アクティビティの使用方法を示した例については、[この節](cross-channel-delivery-workflow.md)を参照してください。
-* 分割アクティビティでのインスタンス変数の使用方法を示した例については、[この節](javascript-scripts-and-templates.md)を参照してください。
+* 使用されている分割アクティビティの例については、[分割アクティビティを使用したサブセットの作成](targeting-workflows.md#create-subsets-using-the-split-activity)を参照してください。
+* 分割アクティビティを使用して、フィルター条件を使用してターゲットを異なる母集団にセグメント化する方法を示す例については、[ クロスチャネル配信ワークフロー](cross-channel-delivery-workflow.md)を参照してください。
+* 分割アクティビティでインスタンス変数を使用する方法を示す例は、[JavaScript スクリプトとテンプレート ](javascript-scripts-and-templates.md)で利用できます。
 
 このアクティビティを設定するには、「**[!UICONTROL サブセット]**」タブでサブセットコンテンツとラベルを定義してから、「**[!UICONTROL 一般]**」タブでターゲットディメンションを選択します。
 
@@ -62,11 +62,11 @@ ht-degree: 100%
 
    ウィザードが表示されたら、このサブセットのレコードの選択モードを選択します。 [詳細情報](#limit-the-number-of-subset-records)。
 
-   ![](assets/s_user_segmentation_partage4.png)
+   ![ サブセット 1の「サブセット」タブ。選択したレコードを制限し、制限ウィザードを開く編集リンク ](assets/s_user_segmentation_partage4.png)
 
 1. 必要な場合は、「**追加**」ボタンを使用して、**[!UICONTROL 他のサブセットを追加]**&#x200B;できます。
 
-   ![](assets/s_user_segmentation_partage_add.png)
+   ![ サブセットのタブ。下部にサブセット 1、サブセット 2、サブセット 3が表示されます](assets/s_user_segmentation_partage_add.png)
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ ht-degree: 100%
 
    作成される各サブセットについて、アウトバウンドトランジションが分割アクティビティに追加されます。
 
-   ![](assets/s_user_segmentation_partage_add2.png)
+   ![ サブセットごとに1つのアウトバウンドトランジションを持つアクティビティの分割：サブセット 1、サブセット 2、およびサブセット 3](assets/s_user_segmentation_partage_add2.png)
 
    1 つのアウトバウンドトランジションの生成を選択することもできます（そして、セグメントコードを使用するセットを特定します）。それには、「**[!UICONTROL 一般]**」タブで「**[!UICONTROL 同じテーブルにすべてのサブセットを生成]**」を選択します。
 
@@ -93,15 +93,15 @@ ht-degree: 100%
 
      例えば、「**[!UICONTROL 年齢]**」フィールドを並べ替え基準として選択し、制限を 100 と定義したとします。データベースに 18 歳の受信者が 2,000 人見つかった場合、100 人の受信者は 2,000 人の 18 歳の中からランダムに選択されます。
 
-   ![](assets/s_user_segmentation_partage_wz1.png)
+   ![制限ウィザードの種類ステップ：ランダムサンプリング、並べ替え後の最初のレコード、または並べ替え後の最初のレコード（条件、ランダム） ](assets/s_user_segmentation_partage_wz1.png)
 
 1. 並べ替え基準を定義する場合、追加の手順で、列と並べ替え順を定義することができます。
 
-   ![](assets/s_user_segmentation_partage_wz1.1.png)
+   ![ ターゲティングディメンションとフィルターディメンションおよび並べ替え列を使用した並べ替えウィザードの手順の作成日と会社、降順](assets/s_user_segmentation_partage_wz1.1.png)
 
 1. その後、データの制限方法を選択します。
 
-   ![](assets/s_user_segmentation_partage_wz2.png)
+   ![ サイズ （%）を選択して10.00に設定し、その他のデータ制限オプションを追加したウィザードステップを制限](assets/s_user_segmentation_partage_wz2.png)
 
    それには、いくつかの方法があります。
 
@@ -125,15 +125,15 @@ ht-degree: 100%
 
 1. データの制限値を選択した後で、「**[!UICONTROL データグループ別]**」または「**[!UICONTROL データグループ別（%）]**」を選択し、「**[!UICONTROL 次へ]**」を選択します。
 
-   ![](assets/s_user_segmentation_partage_wz3.png)
+   ![ データをグループ化してウィザードの手順を制限し、「次へ」をクリックして追加情報を入力するよう求めるプロンプト ](assets/s_user_segmentation_partage_wz3.png)
 
 1. 次に、グループ化フィールド（「**[!UICONTROL 言語]**」フィールドなど）を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/s_user_segmentation_partage_wz4.png)
+   ![言語フィールドをグループ化式として一覧表示するデータ グループ化ウィザード手順](assets/s_user_segmentation_partage_wz4.png)
 
 1. 最後に、データのグループ化のしきい値を指定します（以前に選択したグループ化の方法に応じて、固定値またはパーセント値を使用）。 すべての値に同じしきい値を設定するには、例えば各言語のレコード数を 10 個に設定する場合、「**[!UICONTROL すべてのデータグループが同じサイズです]**」オプションを選択します。 値ごとに異なる制限を設定するには、「**[!UICONTROL グループ値別の制限]**」オプションを選択します。 これにより、英語やフランス語など、言語ごとに異なる制限を選択することもできます。
 
-   ![](assets/s_user_segmentation_partage_wz5.png)
+   ![すべてのデータ グループ化を含むデータ グループ化ステップは、同じサイズを選択し、値を8](assets/s_user_segmentation_partage_wz5.png)にします
 
 1. 「**[!UICONTROL 完了]**」をクリックして、制限を承認し、分割アクティビティの編集に戻ります。
 
@@ -141,9 +141,9 @@ ht-degree: 100%
 
 グループ化フィールドに含まれる値が多すぎる場合、または新規分割アクティビティを作成するたびに値を再設定したくない場合、Adobe Campaign でデータ配分ごとに制限を設定できます。 [データの制限値](#create-subsets)を選択する場合、「**[!UICONTROL データ配分別]**」オプションを選択して、ドロップダウンメニューからテンプレートを選択します。 データ配分テンプレートの作成については、以降で詳しく説明します。
 
-配分テンプレートを使用した「**[!UICONTROL ローカルの承認]**」アクティビティの例については、[このページ](local-approval-activity.md)を参照してください。
+配布テンプレートを使用した&#x200B;**[!UICONTROL ローカル承認]** アクティビティの例については、[ ローカル承認アクティビティの使用](local-approval-activity.md)を参照してください。
 
-![](assets/s_user_segmentation_partage_wz6.png)
+![ データ配布を選択し、テンプレート配布を受信者に適用してウィザードの手順を制限する](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
@@ -153,11 +153,11 @@ ht-degree: 100%
 
 1. データ配分テンプレートを作成するには、**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;の順にノードを移動し、「**[!UICONTROL 新規]**」をクリックします。
 
-   ![](assets/local_validation_data_distribution_1.png)
+   リソースとキャンペーン管理の下のデータ配布ノードと新しいボタンを含む![ エクスプローラーツリー](assets/local_validation_data_distribution_1.png)
 
 1. 「**[!UICONTROL 一般]**」タブでは、ラベルおよび配分の実行コンテキストを入力できます（ターゲティングディメンション、配分フィールド）。
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![ ターゲティングディメンション、配信フィールド、配信タイプ、承認ストレージを含む「データ配信一般」タブ ](assets/local_validation_data_distribution_2.png)
 
    以下のフィールドの内容を入力する必要があります。
 
@@ -171,7 +171,7 @@ ht-degree: 100%
 
 1. 「[ローカルの承認](local-approval.md)」アクティビティを使用する場合、配分テンプレートの「**[!UICONTROL 詳細設定]**」を入力します。
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![ ターゲット メッセージ、配信ラベル、グループ化フィールドおよびWeb インターフェイスの設定を承認する詳細パラメーター](assets/local_validation_data_distribution_3.png)
 
    以下のフィールドの内容を入力する必要があります。
 
@@ -181,21 +181,21 @@ ht-degree: 100%
      >
      >このオプションはデフォルトで選択されています。
 
-     ![](assets/local_validation_notification.png)
+     ![承認する受信者の承認通知リスト。各ボックスは赤で強調表示されています](assets/local_validation_notification.png)
 
    * **[!UICONTROL 配信ラベル]**：配信通知に配信ラベルを表示する式を定義できます。 デフォルトの式は、配信の標準ラベルに関する情報を提供します（自動生成された文字列）。 この式を変更することができます。
 
-     ![](assets/local_validation_notification_3.png)
+     ![配信ラベルを示す配信ラインが赤で強調表示された配信フィードバック通知](assets/local_validation_notification_3.png)
 
    * **[!UICONTROL グループ化フィールド]**：承認通知と配信通知の受信者の表示に使用するグループ化を定義できます。
 
-     ![](assets/local_validation_notification_4.png)
+     ![受信者が赤で強調表示された男性と女性の見出しの下にグループ化されている承認リスト ](assets/local_validation_notification_4.png)
 
    * **[!UICONTROL Web インターフェイス]**：Web アプリケーションを受信者リストとリンクさせます。 承認と配信通知内で、各受信者は、選択された Web アプリケーションへのクリック可能なリンクとして表示されます。 「**[!UICONTROL パラメーター]**」フィールド（**[!UICONTROL recipientId]** など）では、URL と Web アプリケーションで使用される追加のパラメーターを設定できます。
 
 1. 「**[!UICONTROL 分類]**」タブでは、配信値のリストを定義できます。
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![分布フィールドの値をパーセンテージ、ラベル、グループまたは演算子と共に一覧表示するタブ ](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL 値]**：配信値を入力します。
    * **[!UICONTROL 割合 / 固定値]**：レコードの上限数（パーセント値または固定値）を入力します。
@@ -215,11 +215,11 @@ ht-degree: 100%
 
 「**[!UICONTROL 一般]**」タブをクリックし、アクティビティのラベルを入力します。 分割のターゲットおよびフィルターディメンションを選択します。 必要に応じて、指定されたサブセットについて、これらのディメンションを変更できます。
 
-![](assets/s_user_segmentation_partage_general.png)
+ターゲティングディメンションとフィルターディメンションを含む分割アクティビティの![一般タブと「補集合を生成」オプションがオンになっている](assets/s_user_segmentation_partage_general.png)
 
 残りの母集団を利用するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。 補集合は、インバウンドターゲットからサブセットの和集合を引いた部分です。 その後、次の図のように、追加のアウトバウンドトランジションがアクティビティに追加されます。
 
-![](assets/s_user_segmentation_partage_compl.png)
+![ アウトバウンドトランジションサブセット 1、サブセット 2、サブセット 3および追加の補集合トランジションを使用したアクティビティの分割](assets/s_user_segmentation_partage_compl.png)
 
 このオプションが正しく機能するには、インバウンドデータにプライマリキーが必要です。
 

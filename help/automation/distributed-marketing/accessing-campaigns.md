@@ -18,10 +18,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '188'
+ht-degree: 90%
 ---
 # キャンペーンへのアクセス{#accessing-campaigns}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 該当するオーダーの詳細に情報が追加され、編集が可能になります。 すべての情報が集約されているダッシュボードを使用して、ローカルレベルでキャンペーンを管理できます。
 
-![](assets/mkg_dist_local_op_edit_new_op1.png)
+ダッシュボードでローカルキャンペーンを開き、配信と配信リンクの追加を表示する![ キャンペーンパッケージリスト ](assets/mkg_dist_local_op_edit_new_op1.png)
 
 キャンペーンには、その後もキャンペーンの概要からアクセスできます。キャンペーンの概要は、ホームページの「**[!UICONTROL キャンペーン]**」リンクから表示できます。
 

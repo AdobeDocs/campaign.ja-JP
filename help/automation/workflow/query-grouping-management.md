@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 78%
 ---
 # グループ管理を使用したクエリ {#querying-using-grouping-management}
 
@@ -50,32 +50,32 @@ ht-degree: 100%
 
 1. **[!UICONTROL 汎用クエリエディター]**&#x200B;を開き、受信者テーブル（**nms:recipient**）を選択します。
 
-   ![](assets/query_editor_02.png)
+   ![受信者（nms）が選択された汎用クエリエディターのドキュメントタイプ画面。](assets/query_editor_02.png)
 
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL メールドメイン]**」フィールドおよび「**[!UICONTROL プライマリキー]**」フィールドを選択します。 「**[!UICONTROL プライマリキー]**」フィールドでカウントを実行します。
 
 1. 「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」ボックスをオンにします。
 
-   ![](assets/query_editor_nveau_29.png)
+   ![電子メールドメインとカウント（プライマリキー）列を含む画面を抽出するデータ、グループ化を処理（GROUP BY + HAVING）をオンにします。](assets/query_editor_nveau_29.png)
 
 1. **[!UICONTROL 並べ替え]**&#x200B;ウィンドウで、メールドメインを降順で並べ替えます。 そのためには、「**[!UICONTROL 降順ソート]**」列で「**[!UICONTROL はい]**」をオンにします。 「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/query_editor_nveau_70.png)
+   ![ メールドメインが並べ替えられた画面の並べ替え。並べ替え列と降順の並べ替え列が表示されます。](assets/query_editor_nveau_70.png)
 
 1. **[!UICONTROL データのフィルター]**&#x200B;で、「**[!UICONTROL フィルター条件]**」を選択します。 **[!UICONTROL ターゲット要素]**&#x200B;ウィンドウに移動し、「**[!UICONTROL 次へ]**」をクリックします。
 1. **[!UICONTROL データのグループ化]**&#x200B;ウィンドウで、「**[!UICONTROL 追加]**」をクリックして「**[!UICONTROL メールドメイン]**」を選択します。
 
    このデータのグループ化ウィンドウは、「**[!UICONTROL グループを処理（GROUP BY + HAVING）]**」ボックスをオンにした場合にのみ表示されます。
 
-   ![](assets/query_editor_blocklist_04.png)
+   ![GROUP BY句のグループ列としてメール ドメイン （@domain）を一覧表示するデータ グループ化画面。](assets/query_editor_blocklist_04.png)
 
 1. 結果で 30 回より多くターゲットとされたメールドメインのみが返される必要があるので、**[!UICONTROL グループ化条件]**&#x200B;ウィンドウで 30 より大きいプライマリキーカウントを指定します。
 
    このウィンドウは、「**[!UICONTROL グループを管理（GROUP BY + HAVING）]**」ボックスをオンにした場合に表示されます。このボックスでは、グループの結果をフィルターします（HAVING）。
 
-   ![](assets/query_editor_blocklist_05.png)
+   HAVING句の![count （プライマリキー）が30を超える条件画面のグループ化。](assets/query_editor_blocklist_05.png)
 
 1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックします。ここでは書式設定は必要ありません。
 1. データのプレビューウィンドウで、「**[!UICONTROL データのプレビューを開始]**」をクリックします。ここでは、ターゲットとされた回数が 30 回を超える 3 つの異なるメールドメインが返されます。
 
-   ![](assets/query_editor_blocklist_06.png)
+   ![ プレビュー開始後、2つの電子メールドメインが返されるデータプレビュー画面。](assets/query_editor_blocklist_06.png)

@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 100%
+source-wordcount: '2366'
+ht-degree: 71%
 ---
 # ローカルキャンペーンの作成{#creating-a-local-campaign}
 
@@ -52,15 +52,15 @@ ht-degree: 100%
 
 新しいローカルテンプレートを作成するには、デフォルトの&#x200B;**[!UICONTROL ローカルキャンペーン（opLocal）]**&#x200B;テンプレートの複製を作成します。
 
-![](assets/mkg_dist_local_op_creation.png)
+![ ローカルキャンペーン（opLocal）のコンテキストメニューと「複製」オプションがハイライト表示されたキャンペーンテンプレートリスト ](assets/mkg_dist_local_op_creation.png)
 
 テンプレートに名前を付け、必要なすべてのフィールドに入力します。
 
-![](assets/mkg_dist_local_op_creation1.png)
+![ ラベル、性質、操作タイプ、メインチャネル、期間、説明フィールドを含む新しいマーケティングキャンペーンダイアログ ](assets/mkg_dist_local_op_creation1.png)
 
 キャンペーンウィンドウで「**[!UICONTROL 編集]**」タブをクリックし、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックします。
 
-![](assets/mkt_distr_4.png)
+![ プロパティセクション ](assets/mkt_distr_4.png)の詳細キャンペーンパラメーターリンクを含む「キャンペーン編集」タブ
 
 ### Web インターフェイス {#web-interface}
 
@@ -70,30 +70,30 @@ Web インターフェイスは、キャンペーンのオーダー時にロー�
 
 このテンプレートをベースとするキャンペーンに適用される、Web インターフェイスのタイプを選択します。
 
-![](assets/mkt_distr_1.png)
+![詳細設定Web インターフェイスの種類リストを含む配布されたマーケティングタブ：プリセット、概要、フォーム別、外部フォーム別](assets/mkt_distr_1.png)
 
 Web インターフェイスには、次の 4 つのタイプがあります。
 
 * **[!UICONTROL 概要]**：ローカルエンティティは、キャンペーンの設定に関する説明を入力します。 オーダーが承認されると、セントラルエンティティがキャンペーン全体を設定および実行します。
 
-  ![](assets/mkt_distr_6.png)
+  ターゲティングとコンテンツの説明フィールドと検証ボタンを備えた簡単なインターフェイスによる![ キャンペーン注文のweb ページ ](assets/mkt_distr_6.png)
 
 * **[!UICONTROL フォーム]**：ローカルエンティティは web フォームにアクセスでき、使用するテンプレートの設定に応じて、コンテンツ、ターゲット、最大サイズを編集できます。また、パーソナライゼーションフィールドを使用して、作成日や抽出日を編集することもできます。 ローカルエンティティは、この web フォームからターゲットを評価したり、コンテンツをプレビューしたりできます。
 
-  ![](assets/mkt_distr_8.png)
+  連絡先日、優先チャネル、年齢セグメント、画像、メッセージフィールド、評価リンクを含む![ キャンペーン注文のweb フォーム ](assets/mkt_distr_8.png)
 
   ローカルエンティティに表示されるフォームは、web アプリケーションで指定します。この web アプリケーションは、テンプレートの「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックしたあと、「**[!UICONTROL Web インターフェイス]**」フィールドのドロップダウンリストで選択する必要があります。 [ローカルキャンペーンの作成（フォーム）](examples.md#creating-a-local-campaign--by-form-)を参照してください。
 
   >[!NOTE]
   >
-  >この例で使用されている Web アプリケーションはサンプルです。 フォームを使用するには、web アプリケーションを作成する必要があります。
+  >この例で使用されている Web アプリケーションはサンプルです。 フォームを使用するには、Web アプリケーションを作成する必要があります。
 
-  ![](assets/mkt_distr_7.png)
+  ![Campaign order personalization](assets/mkt_distr_7.png)などのWeb アプリケーションを一覧表示する詳細設定Web インターフェイス ドロップダウン
 
 * **[!UICONTROL 外部フォーム]**：ローカルエンティティは、エクストラネット（Adobe Campaign 以外）のキャンペーンパラメーターにアクセスできます。 これらのパラメーターは、**ローカルキャンペーン（フォーム）**&#x200B;のパラメーターと同一です。
 * **[!UICONTROL プリセット]**：ローカルエンティティは、デフォルトのフォームを使用し、ローカライズせずにキャンペーンをオーダーします。
 
-  ![](assets/mkt_distr_5.png)
+  ![開始、終了、割り当て先、レビュー担当者1および2および説明フィールド、検証ボタンを含むキャンペーン注文フォーム ](assets/mkt_distr_5.png)
 
 ### デフォルト値 {#default-values}
 
@@ -103,21 +103,21 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 * コンタクト日と抽出日
 * ターゲットの特性（年齢セグメントなど）
 
-![](assets/mkg_dist_local_op_creation2.png)
+![詳細設定デフォルト値テーブル（優先チャネル、連絡日、リクエストされた数量の値を含む） ](assets/mkg_dist_local_op_creation2.png)
 
 「**[!UICONTROL 親マーケティングプログラム]**」と「**[!UICONTROL 請求]**」フィールドに入力します。
 
-![](assets/mkg_dist_local_op_creation3.png)
+![ デフォルト値テーブルの下に、親マーケティングプログラムと請求フィールドを強調表示した詳細設定](assets/mkg_dist_local_op_creation3.png)
 
 ### 承認 {#approvals}
 
 「**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター]**」リンクから、レビュー担当者の最大数を指定できます。
 
-![](assets/s_advuser_mkg_dist_add_valid_op1.png)
+![ レビュー担当者の数とドキュメント数フィールドを含むキャンペーン入力ダイアログの詳細パラメーター](assets/s_advuser_mkg_dist_add_valid_op1.png)
 
 レビュー担当者は、キャンペーンのオーダー時にローカルエンティティによって入力されます。
 
-![](assets/mkt_distr_5.png)
+![開始、終了、割り当て先、レビュー担当者1および2および説明フィールド、検証ボタンを含むキャンペーン注文フォーム ](assets/mkt_distr_5.png)
 
 キャンペーンのレビュー担当者を指名しない場合は、「0」と入力してください。
 
@@ -125,11 +125,11 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 オーダーの作成時に、ローカルエンティティオペレーターに対して、ローカルキャンペーンへのドキュメントのリンク（テキストファイル、スプレッドシート、画像、キャンペーンの説明など）を許可できます 。 「**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター...]**」リンクを使用すると、リンクするドキュメントの数を制限できます。 「**[!UICONTROL ドキュメント数]**」フィールドで、許可する最大数を指定してください。
 
-![](assets/s_advuser_mkg_dist_local_docs.png)
+![文書フィールドの数が2に設定されました。注文の作成時に定義された文書の最大数](assets/s_advuser_mkg_dist_local_docs.png)
 
 キャンペーンパッケージをオーダーする際、フォームでは、テンプレートの「ドキュメント数」フィールドで指定されている数に応じてドキュメントをリンクできます。
 
-![](assets/s_advuser_mkg_dist_add_docs.png)
+ドキュメント 1およびドキュメント 2のファイルアップロードフィールドに加えて、レビュアーおよび予算フィールドを含む![Campaign注文のweb フォーム ](assets/s_advuser_mkg_dist_add_docs.png)
 
 ドキュメントのアップロードフィールドを表示しない場合は、「**[!UICONTROL ドキュメント数]**」フィールドに **[!UICONTROL 0]** を入力してください。
 
@@ -137,43 +137,43 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 >
 >**[!UICONTROL キャンペーンのエントリ用の詳細設定パラメーター]**&#x200B;は、「**[!UICONTROL キャンペーンパラメーターの入力に使用するページを表示しない]**」をオンにすると、無効になります。
 
-![](assets/s_advuser_mkg_dist_disable_op_parameters.png)
+![詳細設定で、「キャンペーンパラメーターの入力に使用したページを表示しない」オプションがオンになっている](assets/s_advuser_mkg_dist_disable_op_parameters.png)
 
 ### ワークフロー {#workflow}
 
 「**[!UICONTROL ターゲティングとワークフロー]**」タブで、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」で指定された&#x200B;**[!UICONTROL デフォルト値]**&#x200B;を収集して配信を作成するキャンペーンワークフローを作成します。
 
-![](assets/mkg_dist_local_op_creation4b.png)
+![ デフォルトのワークフローを持つ「ターゲティングとワークフロー」タブ：クエリ、分割、メール配信、ダイレクトメールによる配信](assets/mkg_dist_local_op_creation4b.png)
 
 **[!UICONTROL クエリ]**&#x200B;アクティビティをダブルクリックし、指定されている&#x200B;**[!UICONTROL デフォルト値]**&#x200B;に従ってクエリを設定します。
 
-![](assets/mkt_dist_local_campaign_localize_query.png)
+![ クエリを編集リンクを使用してクエリ アクティビティを実行すると、フィルターが開き、年齢セグメントが現在の注文の年齢セグメントに等しい](assets/mkt_dist_local_campaign_localize_query.png)
 
 ### 配信 {#delivery}
 
 「**[!UICONTROL 監査]**」タブで、「**[!UICONTROL 詳細...]**」アイコンをクリックして、選択した配信の&#x200B;**[!UICONTROL スケジュール]**&#x200B;を表示します。
 
-![](assets/mkg_dist_local_op_creation4c.png)
+![ スケジュール アイコンがハイライト表示された配信を開く「詳細」ボタンを持つ監査タブ配信リスト ](assets/mkg_dist_local_op_creation4c.png)
 
 「**[!UICONTROL スケジュール設定]**」アイコンをクリックすると、配信のコンタクト日と実行日を設定できます。
 
-![](assets/mkg_dist_local_op_creation4d.png)
+![ スケジュール配信オプションを選択したスケジュール設定ダイアログと、追加フィールドに基づく連絡先日計算](assets/mkg_dist_local_op_creation4d.png)
 
 必要に応じて、配信の最大サイズを設定します。
 
-![](assets/mkg_dist_local_op_creation4e.png)
+「ターゲット除外を選択」タブから開いた、配信制限フィールドを含む![除外設定ダイアログ ](assets/mkg_dist_local_op_creation4e.png)
 
 配信の HTML を特定します。 例えば、**[!UICONTROL 配信／現在のオーダー ID／追加のフィールド]**&#x200B;にある「**[!UICONTROL 年齢セグメント]**」フィールドを使用すると、ターゲットの年齢に応じて配信を特定できます。
 
-![](assets/mkt_dist_local_campaign_localize_html.png)
+メッセージおよびその他](assets/mkt_dist_local_campaign_localize_html.png)を介して挿入されたセグメントコードの追加データフィールドを表示する![ フィールド選択ダイアログ
 
 キャンペーンのテンプレートを保存します。 「**[!UICONTROL 作成]**」ボタンをクリックして、「**[!UICONTROL キャンペーン]**」タブの&#x200B;**[!UICONTROL キャンペーンパッケージ]**&#x200B;ビューから使用できるようになりました。
 
-![](assets/mkt_distr_9.png)
+テンプレートと参照キャンペーンを含むCampaign パッケージダイアログを開く作成ボタン付きの![Campaign パッケージビュー](assets/mkt_distr_9.png)
 
 >[!NOTE]
 >
->キャンペーンテンプレートとその一般的な設定について詳しくは、[このページ](../campaigns/marketing-campaign-templates.md)を参照してください。
+>キャンペーンテンプレートとその一般的な設定について詳しくは、[ マーケティングキャンペーンテンプレート ](../campaigns/marketing-campaign-templates.md)を参照してください。
 
 ## キャンペーンパッケージの作成 {#creating-the-campaign-package}
 
@@ -184,7 +184,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 1. **キャンペーン**&#x200B;ページの&#x200B;**[!UICONTROL ナビゲーション]**&#x200B;セクションで、「**[!UICONTROL キャンペーンパッケージ]**」リンクをクリックします。
 1. 「**[!UICONTROL 作成]**」ボタンをクリックします。
 
-   ![](assets/mkg_dist_add_an_entry.png)
+   テンプレート、参照キャンペーン、ラベル、フォルダー、実行スケジュールのフィールドを含む![ キャンペーンパッケージダイアログ ](assets/mkg_dist_add_an_entry.png)
 
 1. ウィンドウ上に表示されるセクションで、[前述の手順](#creating-a-local-campaign-template)で作成したキャンペーンパッケージのテンプレートを選択します。
 
@@ -204,19 +204,19 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 この情報は、以下の図のように、ローカルエージェントに送信される通知メッセージに記載されます。
 
-![](assets/s_advuser_mkg_dist_local_notif.png)
+![ キャンペーンリンク、パッケージスケジュール、キャンペーンの空き状況を注文する](assets/s_advuser_mkg_dist_local_notif.png)新しいカタログ入力通知メール
 
 ### オーディエンス {#audience}
 
 セントラルエンティティは、「**[!UICONTROL パッケージをローカルエンティティセットに制限]**」をオンにすることで、ローカルキャンペーンを使用するローカルエンティティを指定できます。
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
+「パッケージをローカルエンティティのセットに制限」オプションが強調表示された![ キャンペーンパッケージダイアログ ](assets/s_advuser_mkg_dist_create_mutual_entry3.png)
 
 ### その他の設定 {#additional-settings}
 
 セントラルエンティティは、保存したパッケージを「**[!UICONTROL 編集]**」タブから編集することができます。
 
-![](assets/mkg_dist_edit_kit.png)
+![ キャンペーンパッケージ編集タブの一般セクションと、承認パラメーターリンク、注文オプション、実行スケジュール ](assets/mkg_dist_edit_kit.png)
 
 「**[!UICONTROL 一般]**」タブで、セントラルエンティティは、以下の操作を実行できます。
 
@@ -230,7 +230,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 >   
 >キャンペーンパッケージから複数のローカルキャンペーンを作成できるようにするには、「**[!UICONTROL 複数作成を有効にする]**」オプションをオンにしてください。
 
-![](assets/mkg_dist_local_op_multi_crea.png)
+![複数の作成を有効にするをチェックし、ローカルエンティティのリストを表示したCampaign パッケージ編集タブ ](assets/mkg_dist_local_op_multi_crea.png)
 
 ### 通知 {#notifications}
 
@@ -244,7 +244,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 >
 >キャンペーンパッケージの作成時に特定のローカルエンティティが指定されている場合は、そのローカルエンティティにのみ通知が送信されます。 ローカルエンティティが指定されていない場合は、すべてのローカルエンティティに通知が送信されます。
 
-![](assets/mkg_dist_local_op_notification.png)
+![新しいパッケージを通知する電子メールが利用可能です。キャンペーンのリンクとパッケージのスケジュールの詳細を注文](assets/mkg_dist_local_op_notification.png)
 
 セントラルエンティティによって提供されたキャンペーンを使用するには、ローカルエンティティはキャンペーンをオーダーする必要があります。
 
@@ -256,29 +256,29 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 1. 最初のページで必要な情報（オーダーのラベルとコメント）を入力し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/mkg_dist_subscribe_step1.png)
+   注文番号、ローカルエンティティ、注文ラベルおよび注文コメントフィールドと次のボタンを含む![ キャンペーン注文web ページ ](assets/mkg_dist_subscribe_step1.png)
 
 1. 必要なパラメーターをすべて指定したら、オーダーの承認を受けます。
 
 1. ローカルエンティティが所属する組織エンティティのマネージャーに、オーダーの承認を依頼する通知が送信されます。
 
-   ![](assets/mkg_dist_subscribe_step3.png)
+   ![承認と拒否のオプション、コメントフィールド、承認ボタンを含む注文承認web ページ ](assets/mkg_dist_subscribe_step3.png)
 
 1. 承認の情報が、ローカルエンティティとセントラルエンティティに返されます。 ローカルエンティティには、そのローカルエンティティのオーダーのみが表示されますが、セントラルエンティティには全ローカルエンティティのオーダーがすべて表示されます（以下の図を参照）。
 
-   ![](assets/mkg_dist_subscribe_central_view.png)
+   ![利用可能なステータス、キャンペーン、開始日および終了日を含む4つの夏の販売注文を一覧表示するキャンペーンパッケージ注文タブ ](assets/mkg_dist_subscribe_central_view.png)
 
    オペレーターは、オーダーの詳細を表示できます。
 
-   ![](assets/mkg_dist_local_op_catalog_detail_1.png)
+   ステータス、キャンペーンパッケージ、ローカルエンティティ、キャンペーンの詳細が表示された注文リストから![注文ダッシュボードを開きました](assets/mkg_dist_local_op_catalog_detail_1.png)
 
    「**[!UICONTROL 編集]**」タブには、キャンペーンのオーダー時にローカルエンティティによって入力された情報が表示されます。
 
-   ![](assets/mkg_dist_local_op_catalog_detail_1b.png)
+   ![ ラベル、組織エンティティ、ステータス、およびローカルエンティティが入力したコメントを含む「注文編集」タブ ](assets/mkg_dist_local_op_catalog_detail_1b.png)
 
 1. オーダーが最終処理されるには、セントラルエンティティの承認が必要です。
 
-   ![](assets/mkg_dist_local_op_catalog_detail_3.png)
+   ![保留中の承認ステータスと「サブスクリプションを承認」ボタンを含む注文ダッシュボード ](assets/mkg_dist_local_op_catalog_detail_3.png)
 
    詳しくは、[承認プロセス](#approval-process)の節を参照してください。
 
@@ -286,7 +286,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
    「**[!UICONTROL オーダーを承認してターゲティングを開始]**」オプションを使用すると、ローカルエンティティはオーダーが承認されしだい、すぐにキャンペーンを実行できます。
 
-   ![](assets/mkg_dist_local_op_catalog_use.png)
+   ![Campaign パッケージリスト（「キャンペーン」タブ）に、パブリッシュされたローカルパッケージを使用できます](assets/mkg_dist_local_op_catalog_use.png)
 
 ## オーダーの承認 {#approving-an-order}
 
@@ -304,19 +304,19 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 ローカルエンティティがキャンペーンをオーダーすると、レビュー担当者に以下のようなメールが送信されます。
 
-![](assets/mkg_dist_valid_notif_email.png)
+![承認または却下リンク、注文およびパッケージの詳細と期限を含むキャンペーン注文メールの承認](assets/mkg_dist_valid_notif_email.png)
 
 >[!NOTE]
 >
 >レビュー担当者の選択について詳しくは、[レビュー担当者](#reviewers)の節で説明しています。 レビュー担当者は、オーダーを許可または却下できます。
 
-![](assets/mkg_dist_command_valid_web.png)
+![承認を選択した状態で承認web ページを注文、コメントと承認ボタン ](assets/mkg_dist_command_valid_web.png)
 
 #### クライアントコンソール経由での承認 {#approving-via-the-adobe-campaign-console}
 
 オーダーの承認は、キャンペーンのオーダーの概要で、クライアントコンソールから実行することもできます。 オーダーを承認するには、オーダーを選択して、「**[!UICONTROL オーダーを承認]**」をクリックします。
 
-![](assets/mkg_dist_local_order_valid.png)
+![同意または拒否の承認ダイアログを開く「購読を承認」ボタンを持つコンソールの注文ダッシュボード ](assets/mkg_dist_local_order_valid.png)
 
 >[!NOTE]
 >
@@ -326,7 +326,7 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 キャンペーンのオーダーが承認されると、ローカルエンティティはキャンペーンを設定および実行できるようになります。
 
-![](assets/mkg_dist_mutual_op_created.png)
+![承認、却下、編集中のステータスを含むキャンペーンパッケージリスト。キャンペーンリンクがクリックされています](assets/mkg_dist_mutual_op_created.png)
 
 詳しくは、[キャンペーンへのアクセス](accessing-campaigns.md)を参照してください。
 
@@ -334,17 +334,17 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 承認を担当するオペレーターは、オーダーまたはキャンペーンパッケージを却下できます。
 
-![](assets/mkg_dist_do_not_valid.png)
+![拒否オプションを選択したパッケージダイアログ、コメントフィールド、承認ボタン ](assets/mkg_dist_do_not_valid.png)に対するアクション
 
 レビュー担当者がオーダーを却下すると、影響を受けるローカルエンティティに自動的に通知が送信されます。通知には、承認を却下したオペレーターのコメントが表示されます。
 
 却下の情報は、キャンペーンパッケージのリストのページやキャンペーンのオーダーのページにも表示されます。 Adobe Campaign クライアントコンソールにアクセスできるローカルエンティティは、コンソールで却下の情報を確認できます。
 
-![](assets/mkg_dist_do_not_valid_view.png)
+![Campaign パッケージリスト。ローカルのキャンペーンパッケージで「却下」ステータスのバッジがハイライト表示されている](assets/mkg_dist_do_not_valid_view.png)
 
 キャンペーンパッケージの「**[!UICONTROL 編集]**」タブで、コメントを表示できます。
 
-![](assets/mkg_dist_do_not_valid_tab.png)
+![承認ジャーナルにコメント列](assets/mkg_dist_do_not_valid_tab.png)を含む拒否アクションが表示されたCampaign パッケージ監査タブ
 
 ### レビュー担当者 {#reviewers}
 
@@ -360,6 +360,6 @@ Web インターフェイスには、次の 4 つのタイプがあります。
 
 セントラルエージェントは、オーダーのダッシュボードにある「**[!UICONTROL 削除]**」ボタンを使用して、オーダーをキャンセルできます。
 
-![](assets/mkg_dist_local_op_cancel.png)
+注文のアクションメニューと「削除」オプションがハイライト表示された![ キャンペーンパッケージダッシュボード ](assets/mkg_dist_local_op_cancel.png)
 
 この操作により、**[!UICONTROL キャンペーンのオーダー]**&#x200B;ビューに表示されているキャンペーンがキャンセルされます。

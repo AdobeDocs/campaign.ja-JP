@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 82%
 ---
 # マーケティングリソースの管理{#managing-marketing-resources}
 
@@ -43,9 +43,9 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 1. 「**[!UICONTROL キャンペーン]**」タブを参照し、「**[!UICONTROL マーケティングリソース]**」を選択します。
 
 1. 「**[!UICONTROL 作成]**」ボタンをクリックします。
-   ![](assets/add-a-mkt-resource.png)
+   ![作成ボタンがハイライト表示された「キャンペーン」タブのマーケティングリソースリスト。](assets/add-a-mkt-resource.png)
 1. ファイルをマーケティングリソースウィンドウにドラッグ＆ドロップして、Campaign サーバーにアップロードします。 「**[!UICONTROL サーバーにファイルをアップロード...]**」リンクを使用することもできます。
-   ![](assets/mkt-resource-creation.png)
+   ![ ファイルをサーバーにアップロード リンクしてファイルを追加するマーケティングリソース作成ウィンドウ。](assets/mkt-resource-creation.png)
 
 アップロードが完了すると、使用可能なリソースのリストにリソースが追加され、
 
@@ -53,11 +53,11 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 アップロードが完了すると、すべての Adobe Campaign オペレーターがマーケティングリソースを使用できるようになります。 ファイルを表示したり、コピーを作成して変更したり、サーバー上のファイルを更新したりできます。
 
-![](assets/open-a-marketing-resource.png)
+![ ダッシュボード、編集タブ、プレビュータブ、ステータス、ファイル、割り当て済みオペレーターを含むマーケティングリソースダッシュボード ](assets/open-a-marketing-resource.png)
 
 「**[!UICONTROL 編集]**」タブの&#x200B;**[!UICONTROL 割り当て先]**&#x200B;ドロップダウンリストを使用して、リソースを担当するオペレーターを選択します。
 
-![](assets/assign-a-mkt-resource.png)
+![ オペレーターの「割り当て先」ドロップダウンリストが開いているマーケティングリソースのタブを編集します。](assets/assign-a-mkt-resource.png)
 
 リソースの検証とリソースのパブリケーションを担当するオペレーターまたはオペレーターのグループを選択することもできます。 これらのオプションにアクセスするには、「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックします。
 
@@ -83,18 +83,18 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 リソースをロックするには、リソースのダッシュボードで「**[!UICONTROL ロック]**」ボタンをクリックする必要があります。
 
-![](assets/lock-a-resource.png)
+![ ロックボタンを指す矢印が表示されたマーケティングリソースダッシュボード。](assets/lock-a-resource.png)
 
 
 リソースが更新されたら、リソースダッシュボードの「**[!UICONTROL ロック]**」ボタンをクリックして、すべてのオペレーターが再び使用できるようにします。
 
 オペレーターがアクセスしようとすると、以下のようなメッセージが表示されます。
 
-![](assets/mkt-resource-locked.png)
+![ ファイルがサーバー上にあり、別のオペレーターが編集中であることを示すタブメッセージを編集します。](assets/mkt-resource-locked.png)
 
 「**[!UICONTROL トラッキング]**」タブには、リソースをロックしたオペレーターの名前が表示されます。
 
-![](assets/mkt-resource-audit-tab.png)
+![ プルーフリーダー、利用可能日、所有者、およびジャーナル内のロックエントリを含むマーケティングリソースの「監査」タブ。](assets/mkt-resource-audit-tab.png)
 
 
 >[!NOTE]
@@ -105,7 +105,7 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 各リソースにある「**[!UICONTROL フォーラム]**」タブでは、参加者が情報を共有することができます。
 
-![](assets/mkt-resource-forum.png)
+![件名、メッセージ、オペレーターを含むマーケティングリソースのディスカッションフォーラムダイアログでフィールドに通知する。](assets/mkt-resource-forum.png)
 
 詳しくは、[ディスカッションフォーラム](discussion-forums.md)の節を参照してください。
 
@@ -115,13 +115,13 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 リソースを承認するには、ダッシュボードの「**[!UICONTROL リソースを承認]**」ボタンをクリックします。
 
-![](assets/mkt-resouce-approve.png)
+![ リソースの承認ボタンを指す矢印が表示されたマーケティングリソースダッシュボード。](assets/mkt-resouce-approve.png)
 
 権限のあるオペレーターは、承認または却下できます。 承認または却下するには、送信されたメールメッセージを使用（通知メッセージ内のリンクをクリック）するか、クライアントコンソールを使用（「**[!UICONTROL 承認]**」ボタンをクリック）します。
 
 承認ウィンドウが表示され、コメントを入力できます。
 
-![](assets/mkt-resource-approval-confirmation.png)
+![同意および拒否オプション、コメントフィールド、承認ボタンを使用したリソースダイアログでのアクション。](assets/mkt-resource-approval-confirmation.png)
 
 「**[!UICONTROL トラッキング]**」タブを参照して、承認を確認します。
 
@@ -135,7 +135,7 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 リソースをパブリッシュするには、マーケティングリソースダッシュボードの編集ゾーンにある「**[!UICONTROL パブリッシュ]**」ボタンをクリックします。
 
-![](assets/mkt-resource-publish.png)
+![公開ボタンを指す矢印が付いた承認済みマーケティングリソースダッシュボード。](assets/mkt-resource-publish.png)
 
 ワークフローを使用して自動的にパブリッシュすることもできます。
 
@@ -143,7 +143,7 @@ Adobe Campaign では、管理するマーケティングリソースそれぞ�
 
 Adobe Campaign でパブリッシュするには、適切なワークフローを作成してリソースにリンクする必要があります。 ワークフローを作成するには、リソースの「**[!UICONTROL 詳細設定...]**」ボックスを開き、「**[!UICONTROL 後処理]**」フィールドで適切なワークフローを選択します。
 
-![](assets/mkt-resource-post-processing-wf.png)
+![ リソースの公開の下にある後処理ワークフローフィールドを含む高度なパラメーターダイアログ。](assets/mkt-resource-post-processing-wf.png)
 
 ワークフローを実行します。
 
@@ -160,7 +160,7 @@ Adobe Campaign でパブリッシュするには、適切なワークフロー�
 
 キャンペーンダッシュボードで&#x200B;**[!UICONTROL 編集／ドキュメント／リソース]**&#x200B;タブを参照し、「**[!UICONTROL 追加]**」をクリックしてリソースを選択します。
 
-![](assets/link-a-mkt-resource-to-a-campaign.png)
+![追加ボタンとマーケティングリソース選択ダイアログを含むキャンペーンの「リソース」タブ。](assets/link-a-mkt-resource-to-a-campaign.png)
 
 リソースはステータス別、特性別またはタイプ別にフィルターできます。パーソナライズしたフィルターを適用することもできます。
 
@@ -170,15 +170,15 @@ Adobe Campaign でパブリッシュするには、適切なワークフロー�
 
 マーケティングリソースは、配信の概要を使用して配信と関連付けることができます。
 
-配信概要の詳細については、[こちらの節](../campaigns/marketing-campaign-deliveries.md)を参照してください。
+配信の概要について詳しくは、[ マーケティングキャンペーン配信](../campaigns/marketing-campaign-deliveries.md)を参照してください。
 
 これを行うには、配信の概要を右クリックし、**新規／リソース**&#x200B;を選択します。
 
-![](assets/mkt-resource-add-in-del-outline.png)
+![配信の概要のコンテキストメニューで「新規」と「リソース」オプションが選択されています。](assets/mkt-resource-add-in-del-outline.png)
 
 アセットの名前を入力し、**マーケティングリソース**&#x200B;ドロップダウンリストから選択します。
 
-![](assets/mkt-resource-select-in-del-outline.png)
+![配信の概要マーケティングリソース ドロップダウンリストに、選択できるリソースが表示されています。](assets/mkt-resource-select-in-del-outline.png)
 
 
 ## 在庫管理 {#stock-management}
@@ -188,11 +188,11 @@ Adobe Campaign でパブリッシュするには、適切なワークフロー�
 
 マーケティングリソースを在庫と関連付けるには、次の手順に従います。
 
-1. 在庫を編集するか、新しい在庫を作成します。 在庫について詳しくは、[この節](../campaigns/providers-stocks-and-budgets.md#stock-management)を参照してください。
+1. 在庫を編集するか、新しい在庫を作成します。 [Stock管理](../campaigns/providers-stocks-and-budgets.md#stock-management)のStockについて詳しく説明します。
 
 1. 在庫品目を追加し、対応するマーケティングリソースを選択します。
 
-   ![](assets/mkt-resource-in-a-stock-line.png)
+   ![ マーケティングリソースフィールド、初期在庫、およびアラートレベルを使用した在庫管理ダイアログ。](assets/mkt-resource-in-a-stock-line.png)
 
    リソースを選択した後、リソースの右側にある「**[!UICONTROL リンクを編集]**」アイコンをクリックして選択したリソースを編集できます。
 
