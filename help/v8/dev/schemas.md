@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 91%
+source-wordcount: '1383'
+ht-degree: 86%
 ---
 # スキーマの操作{#gs-ac-schemas}
 
@@ -97,7 +97,7 @@ Campaignの組み込みテーブルとそのインタラクションについて
 >
 >エンティティのルート要素はスキーマと同じ名前を持ちます。
 
-![](assets/schema_and_entity.png)
+![ スキーマは、受信者データのXML構造を定義します。エンティティは、その後に続く特定のレコードです。](assets/schema_and_entity.png)
 
 **`<element>`** タグはエンティティ要素の名前を定義します。 スキーマの **`<attribute>`** タグは、リンク先の **`<element>`** タグの属性の名前を定義します。
 
@@ -137,7 +137,7 @@ Adobe Campaign に存在しないまったく新しいタイプのデータ（�
 
 詳しくは、[新しいスキーマの作成](create-schema.md)を参照してください。
 
-![](assets/schemaextension_1.png)
+![ データスキーマ作成ウィザード、スキーマタイプの手順、新しいテーブルとスキーマオプションの拡張が強調表示されている。](assets/schemaextension_1.png)
 
 
 作業するスキーマを作成または拡張したら、その XML コンテンツ要素を以下に示すのと同じ順序で定義することをお勧めします。
@@ -221,17 +221,17 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーの詳細については、[Campaign データベース マッピング &#x200B;](database-mapping.md)を参照してください。
+キーの詳細については、[Campaign データベース マッピング ](database-mapping.md)を参照してください。
 
 ## 属性（フィールド） {#attributes--fields-}
 
 属性を使用すると、データオブジェクトを構成するフィールドを定義できます。 スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。 詳しくは、[Campaign](create-schema.md)で新しいスキーマを作成するを参照してください。
 
-![](assets/schemaextension_2.png)
+![挿入メニューを開いた状態でスキーマステップを編集して、文字列、ブール値、整数、日付などの属性を追加します。](assets/schemaextension_2.png)
 
 すべての属性のリストについては、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ja#content-model){target="_blank"}の `<attribute>` 要素の節を参照してください。 よく使用される属性には、**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type** などがあります。
 
-各属性について詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"}の属性の説明を参照してください。
+各属性について詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"}の属性の説明を参照してください。
 
 ### 例 {#examples}
 
@@ -311,9 +311,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 変更を完了して保存したらデータベースに適用する必要がありますが、この変更は SQL 構造に影響を与える可能性があります。 データベースに適用するには、データベース更新アシスタントを使用します。
 
-![](assets/schemaextension_3.png)
+![ ツール、スキーマの変更を適用するために「データベース構造を更新」が選択されたコンソールの詳細メニュー。](assets/schemaextension_3.png)
 
-詳しくは、[&#x200B; データベース構造の更新](update-database-structure.md)を参照してください。
+詳しくは、[ データベース構造の更新](update-database-structure.md)を参照してください。
 
 >[!NOTE]
 >

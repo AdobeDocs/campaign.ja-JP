@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Landing pages
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
     internal-label: Email design
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 95%
+source-wordcount: '665'
+ht-degree: 77%
 ---
 # コンテンツエディターのインターフェイス{#content-editor-interface}
 
@@ -38,7 +38,7 @@ ht-degree: 95%
 
 DCE 編集ウィンドウは、3 つの異なるセクションに分類されます。 これらにより、コンテンツのステータスを表示、修正および確認できます。
 
-![](assets/dce_decoupe_window_nb.png)
+![ ステータスメッセージ、コンテンツエリア、右オプションパネルの3つの番号付きセクションを含むDCE編集ウィンドウ ](assets/dce_decoupe_window_nb.png)
 
 1. **上部**&#x200B;のセクションは、ユーザーに対するメッセージの表示領域です。 これらのメッセージは、作成されるWeb アプリケーションまたは配信のステータスと、コンテンツに関連する警告およびエラーメッセージを示します。 詳しくは、[HTML コンテンツのステータス](content-editing-best-practices.md#html-content-statuses)を参照してください。
 1. ウィンドウの&#x200B;**左側**&#x200B;のセクションは、コンテンツを編集するための領域です。 この領域から、ポップアップツールバーを使用して直接コンテンツを操作できます（画像へのリンクの挿入、フォントの変更、フィールドの削除など）。詳しくは、 [フォームの編集](editing-content.md#editing-forms)を参照してください。
@@ -48,17 +48,17 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 エディターの右上のオプションを使用すると、グローバルオプションにアクセスできます。現在作成されているコンテンツを制御できます。
 
-![](assets/dce_global_options.png)
+![ ブロックオプションパネルの上に4つのグローバルオプションアイコンが表示されたエディターの右上](assets/dce_global_options.png)
 
 4 つのアイコンがあります。
 
-![](assets/dce_icons_sidebar.png)
+![ グローバルオプションアイコン：ブロックの表示/非表示、別のコンテンツの選択、テンプレートとして保存、ページのプロパティ ](assets/dce_icons_sidebar.png)
 
 * **ブロックを表示／非表示**&#x200B;アイコンを使用すると、コンテンツブロック（`<div>` HTML タグに対応）の周りに青い枠を表示できます。
 
 * **別のコンテンツを選択**&#x200B;アイコンを使用すると、ユーザーは新しいコンテンツをテンプレート（既存のテンプレートまたは標準のテンプレート）から読み込むことができます。
 
-  ![](assets/dce_popup_templatechoice.png)
+  ![ ファイルからのコンテンツと、連絡先やクリックスルーなどの利用可能なテンプレートを含むコンテンツダイアログを選択](assets/dce_popup_templatechoice.png)
 
   >[!CAUTION]
   >
@@ -66,15 +66,15 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 * **テンプレートとして保存**&#x200B;アイコンを使用すると、現在のコンテンツをテンプレートとして保存できます。 テンプレートのラベルおよび内部名を入力する必要があります。 テンプレートは、**[!UICONTROL リソース／テンプレート／コンテンツテンプレート]**&#x200B;ノードに格納されます。
 
-  ![](assets/dce_popup_savetemplate.png)
+  ![ ラベル、内部名、フォルダーフィールドを含むテンプレートとして保存ダイアログ ](assets/dce_popup_savetemplate.png)
 
   保存すれば、テンプレートは使用でき、新しいコンテンツを作成する際に選択できます。
 
-  ![](assets/dce_create_fromtemplate.png)
+  ![保存されたMusic &amp; Arts テンプレートがコンテンツテンプレートの中に含まれているメール配信のHTML コンテンツタブ ](assets/dce_create_fromtemplate.png)
 
 * **ページのプロパティ**&#x200B;アイコンを使用すると、HTML ページの上部でコンテンツ情報を選択できます。
 
-  ![](assets/dce_popup_headerhtml.png)
+  ![HTML ページヘッダーのタイトル、キーワード、説明フィールドを含むページダイアログのプロパティ ](assets/dce_popup_headerhtml.png)
 
   >[!NOTE]
   >
@@ -86,7 +86,7 @@ DCE 編集ウィンドウは、3 つの異なるセクションに分類され�
 
 エディターの右側のセクションは、コンテンツに作用するメインオプションをグループ化します。 これらのオプションを表示するには、ブロックを選択する必要があります。これらのオプションの特性は、選択したブロックによって異なります。
 
-![](assets/dce_right_section.png)
+![ ブロックオプションを使用したエディターの右側のセクション：表示条件、境界線、背景色](assets/dce_right_section.png)
 
 次の操作をおこなうことができます。
 

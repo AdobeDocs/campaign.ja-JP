@@ -19,16 +19,16 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 93%
+source-wordcount: '144'
+ht-degree: 84%
 ---
 # オンライン調査の設定{#configuring-surveys}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 使用可能なパラメーターについて詳しくは、[このドキュメント](../web/defining-web-forms-properties.md)を参照してください。
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![Kids Event Web アプリケーションの「編集」タブ。ワークフローの上に「プロパティ」ボタンが強調表示されている。](assets/s_ncs_admin_survey_properties_general.png)
 
 ## 調査のデータストレージ {#survey-data-storage}
 

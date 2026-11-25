@@ -31,10 +31,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 94%
+source-wordcount: '1346'
+ht-degree: 72%
 ---
 # ユースケース：概要ページの作成{#use-cases-creating-overviews}
 
@@ -48,13 +48,13 @@ ht-degree: 94%
 * 各リンク編集ツールごとのフィルター（[リンクエディターを使用したフィルターの作成](#creating-a-filter-using-a-link-editor)を参照）
 * 更新リンク（[更新リンクの作成](#creating-a-refresh-link)を参照）
 
-![](assets/s_ncs_configuration_webapp_overview.png)
+![ ラベル付きのWeb アプリケーションの概要ページ：フォルダーフィルター、新しいボタン、リンクエディターフィルター、更新リンク、リスト、詳細](assets/s_ncs_configuration_webapp_overview.png)
 
 ## 単一ページ Web アプリケーションの作成 {#creating-a-single-page-web-application}
 
 1. 単一&#x200B;**[!UICONTROL ページ]** Web アプリケーションを作成し、アウトバウンドトランジションおよび次のページへのトランジションを無効にします。
 
-   ![](assets/s_ncs_configuration_webapp_create.png)
+   ![ ページプロパティ、一般タブ、次のページを無効にするを選択し、アウトバウンドトランジションを有効にするをクリアしました。](assets/s_ncs_configuration_webapp_create.png)
 
 1. ページタイトルを変更します。
 
@@ -62,19 +62,19 @@ ht-degree: 94%
 
 1. Web アプリケーションプロパティで、**[!UICONTROL 単一ページ Web アプリケーション]**&#x200B;テンプレートを選択することで、アプリケーションのレンダリングを修正します。
 
-   ![](assets/s_ncs_configuration_webapp_rendering.png)
+   ![ プロパティ ダイアログ、「レンダリング」タブ、テンプレートリストで単一ページのWeb アプリケーション テンプレートが選択されている。](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. Web アプリケーションの&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティを開いて、リストを開きます（**[!UICONTROL 静的要素／リスト]**）。
 1. リストの「**[!UICONTROL データ]**」タブで、**[!UICONTROL Web アプリケーション]**&#x200B;ドキュメントタイプを選択し、**[!UICONTROL ラベル]**、**[!UICONTROL 作成日]**&#x200B;および&#x200B;**[!UICONTROL アプリケーションのタイプ]**&#x200B;出力列を選択します。
 1. 「**[!UICONTROL フィルター]**」サブタブで、次に示すように、Web アプリケーションのみを表示して、表示からテンプレートを除外するために、次のフィルターを作成します。
 
-   ![](assets/s_ncs_configuration_webapp_filter.png)
+   ![ リストデータタブ、フィルターサブタブ、条件テンプレートが「いいえ」に等しく、プライマリキーが0に等しくない。](assets/s_ncs_configuration_webapp_filter.png)
 
 1. ページの設定ウィンドウを閉じて、「**[!UICONTROL プレビュー]**」をクリックします。
 
    データベースで使用可能な Web アプリケーションのリストが表示されます。
 
-   ![](assets/s_ncs_configuration_webapp_preview.png)
+   ラベル別のWeb アプリケーションのリストを表示するweb アプリケーションの「![ プレビュー」タブ。](assets/s_ncs_configuration_webapp_preview.png)
 
 ## フォルダーに関するフィルターの追加 {#adding-a-filter-on-a-folder}
 
@@ -91,15 +91,15 @@ ht-degree: 94%
 
 1. 変数に **[!UICONTROL XML]** タイプを適用します。
 
-   ![](assets/s_ncs_configuration_webapp_variable_xml.png)
+   ![ ストレージを編集を開いてフォルダー入力を選択し、ブランチを編集して、タイプ XMLのフォルダー変数を表示します。](assets/s_ncs_configuration_webapp_variable_xml.png)
 
 1. **[!UICONTROL ページを更新]**&#x200B;インタラクションを選択します。
 
-   ![](assets/s_ncs_configuration_webapp_variable.png)
+   ![ フォルダーを選択する際に実行するアクションに対して、「ページを更新」アクションが選択されたフォルダー入力。](assets/s_ncs_configuration_webapp_variable.png)
 
 1. リストにカーソルを置いて、「**[!UICONTROL 詳細設定]**」タブで、リストの「**[!UICONTROL フォルダーのフィルター XPath]**」タブで前に作成した変数を参照します。 フォルダーリンクに関係している要素の名前（つまり **folder**）を使用する必要があります。
 
-   ![](assets/s_ncs_configuration_webapp_variable002.png)
+   ![ フォルダーのフィルターXPath フィールドがストレージ / フィルターのフォルダーに設定されている詳細タブを一覧表示します。](assets/s_ncs_configuration_webapp_variable002.png)
 
    >[!NOTE]
    >
@@ -129,7 +129,7 @@ ht-degree: 94%
 
    このスタイルは、前に選択した&#x200B;**[!UICONTROL 単一ページ Web アプリケーション]**&#x200B;テンプレートで参照されます。
 
-   ![](assets/s_ncs_configuration_webapp_link.png)
+   ![新しいweb アプリケーションフォームを開くURLとスタイルフィールドがボタンに設定された新しいリンク要素](assets/s_ncs_configuration_webapp_link.png)
 
 ## リストへの詳細の追加 {#adding-detail-to-a-list}
 
@@ -138,11 +138,11 @@ ht-degree: 94%
 1. 前に作成したリスト要素にカーソルを置きます。
 1. 「**[!UICONTROL 一般]**」タブで、ドロップダウンリストから&#x200B;**[!UICONTROL 列と追加詳細]**&#x200B;表示モードを選択します。
 
-   ![](assets/s_ncs_configuration_webapp_detail.png)
+   ![表示オプションが列と追加の詳細に設定された一般的なタブを一覧表示します。](assets/s_ncs_configuration_webapp_detail.png)
 
 1. 「**[!UICONTROL データ]**」タブで、**[!UICONTROL プライマリキー]**、**[!UICONTROL 内部名]**、**[!UICONTROL 説明]**&#x200B;の列を追加し、それぞれに&#x200B;**[!UICONTROL 非表示フィールド]** オプションを選択します。
 
-   ![](assets/s_ncs_configuration_webapp_detail002.png)
+   ![非表示フィールドとしてマークされたプライマリキー、内部名および説明出力列を含む「データのリスト」タブ。](assets/s_ncs_configuration_webapp_detail002.png)
 
    これで、この情報は、各エントリの詳細にのみ表示されます。
 
@@ -192,7 +192,7 @@ ht-degree: 94%
 1. **[!UICONTROL ページ]**&#x200B;要素にカーソルを置いて、**[!UICONTROL コンテナ／標準]**&#x200B;を選択します。
 1. 列数を &quot;**2**&quot; に設定し、リンクエディターおよびリンクがお互い隣になるようにします。
 
-   ![](assets/s_ncs_configuration_webapp_container.png)
+   ![外観スタイルフィールドがdottedFilterに設定され、2つの列を持つフィルターコンテナ。](assets/s_ncs_configuration_webapp_container.png)
 
    要素レイアウトについて詳しくは、[Web フォームの使用を開始する](about-web-forms.md)を参照してください。
 
@@ -200,14 +200,14 @@ ht-degree: 94%
 
    このスタイルは、前に選択した&#x200B;**[!UICONTROL 単一ページ web アプリケーション]**&#x200B;テンプレートで参照されます。
 
-   ![](assets/s_ncs_configuration_webapp_container002.png)
+   ![外観スタイルフィールドがdottedFilterに設定されたフィルターコンテナの「一般」タブ。](assets/s_ncs_configuration_webapp_container002.png)
 
 ### リンクエディターを使用したフィルターの作成 {#creating-a-filter-using-a-link-editor}
 
 1. 前のステージで作成したコンテナにカーソルを置いて、**[!UICONTROL 高度なコントロール]**&#x200B;メニューからリンクエディターを挿入します。
 1. 自動的に開くストレージウィンドウで、「**[!UICONTROL 変数]**」オプションを選択してから、「**[!UICONTROL 変数を編集]**」リンクをクリックして、データをフィルターするための XML 変数を作成します。
 
-   ![](assets/s_ncs_configuration_webapp_variable003.png)
+   ![ リンクエディター入力：var2 XML変数を作成するストレージの編集、変数の編集および変数ダイアログ。](assets/s_ncs_configuration_webapp_variable003.png)
 
 1. ラベルを修正します。
 
@@ -215,7 +215,7 @@ ht-degree: 94%
 
 1. アプリケーションスキーマとしてオペレーターテーブルを選択します。
 
-   ![](assets/s_ncs_configuration_webapp_linkeditor.png)
+   ![作成者ラベル付きのリンクエディター。変数var2に保存し、演算子アプリケーションスキーマを選択した状態。](assets/s_ncs_configuration_webapp_linkeditor.png)
 
 1. リスト要素にカーソルを置いて、**[!UICONTROL データ／「フィルター」]**&#x200B;タブでフィルターを作成します。
 
@@ -224,7 +224,7 @@ ht-degree: 94%
    * **値：**&#x200B;変数
    * **次の場合に考慮：**&#39;$(var2/@id)&#39;!=&quot;
 
-   ![](assets/s_ncs_configuration_webapp_filter002.png)
+   ![ フィルター条件のリスト（変数と同じリンクで作成されたキーを含む）。var2 IDが設定されている場合にのみ適用されます。](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
 >
@@ -237,13 +237,13 @@ ht-degree: 94%
 1. **[!UICONTROL リスト内のデータを更新]**&#x200B;を選択します。
 1. 前に作成したリストを追加します。
 
-   ![](assets/s_ncs_configuration_webapp_refreshlink.png)
+   ![ リストのアクションでデータを更新してリンクを更新し、リストの下でリスト 1を選択して更新します。](assets/s_ncs_configuration_webapp_refreshlink.png)
 
 1. 「**[!UICONTROL 画像]**」フィールドに更新アイコン **/xtk/img/refresh.png** を追加します。
 1. 次に示すように、並べ替え矢印を使用して、web アプリケーションの様々な要素を認識します。
 
-   ![](assets/s_ncs_configuration_webapp_orderelements.png)
+   ![ リスト 1をフィルター要素の下に移動するために、並べ替え順の矢印がハイライト表示されたページ要素ツリー。](assets/s_ncs_configuration_webapp_orderelements.png)
 
 これで、Web アプリケーションが設定されました。 「**[!UICONTROL プレビュー]**」タブをクリックしてプレビューします。
 
-![](assets/s_ncs_configuration_webapp_result.png)
+![完成したWeb アプリケーションのプレビュー：フォルダーフィルター、新しいリンク、フィルターで作成、リンクとリストを更新](assets/s_ncs_configuration_webapp_result.png)

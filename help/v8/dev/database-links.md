@@ -30,10 +30,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 84%
+source-wordcount: '957'
+ht-degree: 78%
 ---
 # リンク管理 {#links--relation-between-tables}
 
@@ -49,14 +49,14 @@ ht-degree: 84%
 
 キャンペーンテーブル / データベースとの結合関係の場合：
 
-* ![](assets/do-not-localize/join_with_campaign11.png)：一対一のカーディナリティ。 例えば、受信者と現在の注文。 受信者は一度につき、現在の注文テーブルの発生件数 1 回に関連付けることができます
-* ![](assets/do-not-localize/externaljoin11.png)：一対一のカーディナリティ、外部結合。 例えば、受信者と、受信者の居住国。 受信者は、国テーブルの 1 つにのみ関連付けることができます。 国テーブルの内容は保存されません。
-* ![](assets/do-not-localize/join_with_campaign1n.png)：一対多のカーディナリティ。例えば、受信者と購読テーブルなどがあります。 受信者は、購読テーブルの複数のオカレンスに関連付けることができます。
+* 1-1基数リンクの![ アイコン ](assets/do-not-localize/join_with_campaign11.png)：基数1-1。 例えば、受信者と現在の注文。 受信者は一度につき、現在の注文テーブルの発生件数 1 回に関連付けることができます
+* 1-1基数外部結合の![ アイコン ](assets/do-not-localize/externaljoin11.png)：基数1-1、外部結合。 例えば、受信者と、受信者の居住国。 受信者は、国テーブルの 1 つにのみ関連付けることができます。 国テーブルの内容は保存されません。
+* 1-N カーディナリティリンクの![ アイコン ](assets/do-not-localize/join_with_campaign1n.png)：カーディナリティ 1-N。例えば、受信者と購読テーブルの間です。 受信者は、購読テーブルの複数のオカレンスに関連付けることができます。
 
 連合データベースアクセス（FDA）を使用した結合関係の場合：
 
-* ![](assets/do-not-localize/join_fda_11.png)：一対一のカーディナリティ
-* ![](assets/do-not-localize/join_fda_1m.png)：一対多のカーディナリティ
+* 1-1 カーディナリティリンクの![ アイコン ](assets/do-not-localize/join_fda_11.png)：カーディナリティ 1-1
+* 1-N カーディナリティリンクの![ アイコン ](assets/do-not-localize/join_fda_1m.png)：カーディナリティ 1-N
 
 FDA テーブルについて詳しくは、[外部データベースへのアクセス](../connect/fda.md)を参照してください。
 

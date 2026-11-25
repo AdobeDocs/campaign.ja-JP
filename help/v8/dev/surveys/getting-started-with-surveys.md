@@ -21,22 +21,22 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 95%
+source-wordcount: '1292'
+ht-degree: 73%
 ---
 # 調査を作成するための主な手順{#getting-started-with-surveys}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
 ここでは、次のビルトインテンプレートを使用して、簡単な調査を作成するための主な手順の概要を説明します。
 
-![](assets/s_ncs_admin_survey_result.png)
+![調査ページ姓、アカウント番号、電子メールフィールド、メール形式リスト、検証ボタンを含む詳細](assets/s_ncs_admin_survey_result.png)
 
 手順は次のとおりです。
 
@@ -52,13 +52,13 @@ ht-degree: 95%
 
 新しい調査を作成するには、「**[!UICONTROL キャンペーン]**」または「**[!UICONTROL プロファイルとターゲット]**」タブに移動して、**[!UICONTROL Web アプリケーション]**&#x200B;メニューをクリックします。 フォームのリストの上にある「**[!UICONTROL 作成]**」ボタンをクリックします。
 
-![](assets/s_ncs_admin_survey_create.png)
+フォームのリストの上に「作成」ボタンが表示された「キャンペーン」タブの![Web アプリケーションリスト ](assets/s_ncs_admin_survey_create.png)
 
 ## 手順 2 - テンプレートの選択 {#step-2---selecting-the-template}
 
 調査テンプレートを選択し、調査に名前を付けます。 この名前は、エンドユーザーには表示されませんが、Adobe Campaign 内で調査を識別するのに使用されます。 「**[!UICONTROL 保存]**」をクリックして、調査を Web アプリケーションのリストに追加します。
 
-![](assets/s_ncs_admin_survey_wz_00.png)
+![新しい調査テンプレート、ラベル、フォルダー、保存ボタンが選択された新しいWeb アプリケーションダイアログ ](assets/s_ncs_admin_survey_wz_00.png)
 
 ## 手順 3 - 調査の作成 {#step-3---building-the-survey}
 
@@ -70,34 +70,34 @@ ht-degree: 95%
 
 * ページを作成するには、次に示すように、エディターの左側のセクションで「**[!UICONTROL ページ]**」オブジェクトを選択し、中央のセクションに移動させます。
 
-  ![](assets/s_ncs_admin_survey_new_page.png)
+  ![共通リストからダイアグラム領域にページオブジェクトをドラッグしたアンケートエディター](assets/s_ncs_admin_survey_new_page.png)
 
 * 次に、「**[!UICONTROL ストレージ]**」オブジェクトを選択し、ページのアウトバウンドトランジション上に配置します。
 * 最後に、「**[!UICONTROL 終了]**」オブジェクトを選択し、次のダイアグラムのように、ストレージボックスのアウトバウンドトランジションの終わりに配置ます。
 
-  ![](assets/s_ncs_admin_survey_end.png)
+  ![ トランジションによってリンクされたページ、ストレージ ボックス、終了オブジェクトを含む測量図](assets/s_ncs_admin_survey_end.png)
 
 ## 手順 4 - ページコンテンツの作成 {#step-4---creating-the-page-content}
 
 次の例では、**[!UICONTROL ページ（v5 互換）]**&#x200B;タイプのページを使用します。 このタイプのページは、「**[!UICONTROL 編集]**」タブの詳細設定メニューからアクセスします。
 
-![](assets/s_ncs_admin_survey_pagev5.png)
+![ ページ、ストレージ、終了ダイアグラムでページ（v5互換）オブジェクトが選択された編集タブの詳細リスト ](assets/s_ncs_admin_survey_pagev5.png)
 
 * **入力フィールドの追加**
 
   ページのコンテンツを作成するには、ページを編集する必要があります。これを行うには、**[!UICONTROL ページ]**&#x200B;オブジェクトをダブルクリックします。 ツールバーの最初のアイコンをクリックし、フィールド作成アシスタントを開きます。 受信者のプロファイルの一致するフィールドに格納するユーザー名の入力フィールドを作成するには、「**[!UICONTROL 受信者を編集]**」を選択します。
 
-  ![](assets/s_ncs_admin_survey_add_field_menu.png)
+  ![ フォームフィールドを追加するために「受信者を編集」オプションを選択したフィールド作成ウィザード ](assets/s_ncs_admin_survey_add_field_menu.png)
 
   「**[!UICONTROL 次へ]**」ボタンをクリックして、データベースのデータストレージのフィールドを選択します。 この場合、「姓」フィールドです。
 
-  ![](assets/s_ncs_admin_survey_choose_field.png)
+  ![受信者フィールドを一覧表示するフィールド作成ウィザード。入力するフィールドとして姓が選択されています](assets/s_ncs_admin_survey_choose_field.png)
 
   「**[!UICONTROL 完了]**」をクリックして、フィールドの作成を確認します。
 
   デフォルトでは、既にデータベースに存在するフィールドに情報が格納されると、そのフィールドは、選択したフィールドの名前になります（つまり、この例では「姓」）。 このラベルは、次に示すように修正できます。
 
-  ![](assets/s_ncs_admin_survey_change_label.png)
+  ![姓フィールドラベルが自分の名前に変更されたページエディター。データベースフィールド@lastName](assets/s_ncs_admin_survey_change_label.png)に保存されている
 
   次に、ユーザーのアカウント番号用の入力フィールドを作成します。 操作を繰り返して、「アカウント番号」フィールドを選択します。
 
@@ -107,19 +107,19 @@ ht-degree: 95%
 
   質問を作成するには、ツリーの最後の要素を右クリックし、**[!UICONTROL コンテナ／質問]**&#x200B;を選択するか、**[!UICONTROL コンテナ]**&#x200B;アイコンをクリックして&#x200B;**[!UICONTROL 質問]**&#x200B;を選択します。
 
-  ![](assets/s_ncs_admin_survey_add_qu.png)
+  ![ コンテナーメニューを開いて質問を選択したページエディター（名前、アカウント番号、メールフィールドの下） ](assets/s_ncs_admin_survey_add_qu.png)
 
   質問のラベルを入力して、質問のサブ分岐として回答フィールドを挿入します。 これを行うには、回答フィールドを作成する際に、質問にリンクされたノードが選択されている必要があります。 次に示すように、**[!UICONTROL 選択コントロール]** アイコンを使用するか右クリックして、**[!UICONTROL ドロップダウンリスト]**&#x200B;を追加します。
 
-  ![](assets/s_ncs_admin_survey_add_list.png)
+  ![選択コントロールを開き、コンボボックスを強調表示した問題の右クリックメニュー](assets/s_ncs_admin_survey_add_list.png)
 
   ストレージスペースを選択します。列挙フィールドを選択し、値を自動的に取得します（この場合、メールフォーマット）。
 
-  ![](assets/s_ncs_admin_survey_add_itz_list.png)
+  ![受信者を編集を選択したストレージ ダイアログと、メール形式（@emailFormat） データベース フィールド ](assets/s_ncs_admin_survey_add_itz_list.png)
 
   「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL データベースからの値のリストを初期化]**」リンクをクリックします。値のテーブルが自動的に入力されます。
 
-  ![](assets/s_ncs_admin_survey_add_value.png)
+  データベースリンクからの値のリストと入力された値のリストを初期化する![ コンボボックスの「一般」タブ ](assets/s_ncs_admin_survey_add_value.png)
 
   「**[!UICONTROL OK]**」をクリックしてエディターを閉じ、「**[!UICONTROL 保存]**」をクリックして変更を保存します。
 
@@ -129,7 +129,7 @@ ht-degree: 95%
 
   詳細画面で、「**[!UICONTROL プレビュー]**」タブをクリックして、今作成した調査のレンダリングを表示します。
 
-  ![](assets/s_ncs_admin_survey_preview.png)
+  ![名前、アカウント番号、電子メールおよび電子メール形式のフィールドと「検証」ボタンを含む調査ページを表示するプレビュータブ ](assets/s_ncs_admin_survey_preview.png)
 
 ## 手順 5 - 調査データの格納 {#step-5---storing-the-survey-data-}
 
@@ -139,7 +139,7 @@ ht-degree: 95%
 
 次の例では、保存（確認）を実行する際に、フォームに入力したのと同じアカウント番号のプロファイルがデータベースに保存されている場合、そのプロファイルが更新されます。 プロファイルが存在しない場合は、作成されます。
 
-![](assets/s_ncs_admin_survey_save_edit.png)
+![受信者](assets/s_ncs_admin_survey_save_edit.png)の下で紐付けキーとしてアカウント番号フィールドがチェックされたストレージボックスダイアログ
 
 「**[!UICONTROL OK]**」をクリックして確定し、「**[!UICONTROL 保存]**」をクリックしてアンケートを保存します。
 
@@ -150,17 +150,17 @@ ht-degree: 95%
 * 調査ダッシュボードの上にある「**[!UICONTROL パブリッシュ]**」ボタンをクリックします。
 * 「**[!UICONTROL 開始]**」をクリックして、パブリケーションを開始し、アシスタントを閉じます。
 
-  ![](assets/s_ncs_admin_survey_start_publ.png)
+  ![開始ボタンを含むWeb アプリケーション公開ダイアログにつながるダッシュボード公開ボタン ](assets/s_ncs_admin_survey_start_publ.png)
 
   調査のステータスが&#x200B;**オンライン**&#x200B;に変わります。
 
-  ![](assets/survey_published.png)
+  ![ ステータスがオンラインに変更され、公開日と公開URLが表示された調査ダッシュボード ](assets/survey_published.png)
 
 ## 手順 7 - オンライン調査の共有 {#step-7---sharing-your-online-survey}
 
 本番に移行された調査はサーバーでアクセスでき、配信可能となります。 調査にアクセスするための URL は、ダッシュボードに表示されます。
 
-![](assets/survey_url_from_dashboard.png)
+![ オンライン調査の「パブリック URL」フィールドを指す矢印が表示された調査ダッシュボード ](assets/survey_url_from_dashboard.png)
 
 調査を配信するには、例えば、ターゲット母集団へのアクセスリンクを含むメッセージを送信したり、調査のアクセス URL を Web ページに配置したりできます。
 

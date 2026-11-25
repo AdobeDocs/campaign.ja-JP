@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 100%
+source-wordcount: '1606'
+ht-degree: 79%
 ---
 # コンテンツの編集{#editing-content}
 
@@ -43,13 +43,13 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 表示条件を追加するには、ブロックを選択して、式エディターを使用して「**[!UICONTROL 表示条件]**」フィールドに入力します。
 
-![](assets/dce_add_condition.png)
+![右側のブロックオプションパネルで、表示条件フィールドと編集アイコンがハイライト表示されたコンテンツエディター](assets/dce_add_condition.png)
 
 >[!NOTE]
 >
 >高度な式の編集については、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
-![](assets/dce_popup_visibilitycondition.png)
+![使用可能なフィールドリスト、関数のリスト、挿入ボタンを含む式エディターダイアログ ](assets/dce_popup_visibilitycondition.png)
 
 これらの条件は、XTK 式の構文を採用しています（例えば、**ctx.recipient.@email != &quot;&quot;** または **ctx.recipient.@status==&quot;0&quot;**）。 デフォルトでは、すべてのファイルが表示されます。
 
@@ -61,11 +61,11 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 選択したブロックに&#x200B;**境界線**&#x200B;を追加できます。 境界線は、スタイル、サイズおよび色の 3 つのオプションを使用して定義されます。
 
-![](assets/dce_popup_border.png)
+スタイル、サイズ、カラーピッカー、透明、明るい、暗い背景のプレビューを含む![境界線ダイアログ ](assets/dce_popup_border.png)
 
 また、カラーチャートから色を選択することで、**背景色**&#x200B;を定義できます。
 
-![](assets/dce_popup_background.png)
+![ カラーピッカー、不透明度スライダー、透明、明暗のオプションを使用したプレビュー付きの戻るダイアログ ](assets/dce_popup_background.png)
 
 ## フォームの編集 {#editing-forms}
 
@@ -73,7 +73,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 データベースフィールドを入力ゾーン、ラジオボタンまたはチェックボックスタイプのブロックにリンクできます。
 
-![](assets/dce_sidebar_field.png)
+![ フォームデータセクション、フィールドが「データなし」に設定され、必須の「はい/いいえ」トグルが設定された入力ゾーン（テキスト）オプション ](assets/dce_sidebar_field.png)
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 デフォルトでは、提供されたフィールドは、**nms:recipient** テーブルにあります。
 
-![](assets/dce_field_selection.png)
+電子メール、名、姓](assets/dce_field_selection.png)などのnms:recipient フィールドを一覧表示する受信者ダイアログの![ フィールド
 
 **必須フィールド**&#x200B;オプションを使用すると、ユーザーがフィールドに入力した場合にのみページを承認します。 必須フィールドに入力されていない場合、エラーメッセージが表示されます。
 
@@ -95,11 +95,11 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 * **[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
-  ![](assets/dce_sidebar_options.png)
+  ![ フォームデータセクションとその編集アイコンがタイプ、フィールド、必須の設定の上に強調表示されたチェックボックスオプション ](assets/dce_sidebar_options.png)
 
 * 定義済みリストの値（選択されたフィールドで定義される）を「**[!UICONTROL 値]**」フィールドに入力します。
 
-  ![](assets/dce_sidebar_completeoptionradio.png)
+  ![ フォームデータダイアログ。オンの場合は「値」、オフの場合は「値」が強調表示されている](assets/dce_sidebar_completeoptionradio.png)
 
 ### フォームフィールドの変更 {#modifying-form-fields}
 
@@ -111,13 +111,13 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 * **[!UICONTROL 複製]**&#x200B;アイコンを使用して、新しいブロックを作成することで、選択したフィールドを複製します。
 * **[!UICONTROL 編集]**&#x200B;アイコンを使用して、**[!UICONTROL フォームデータ]**&#x200B;ウィンドウを編集し、データベースフィールドをフォームゾーンにリンクします。
 
-  ![](assets/dce_toolbar_formblock_edition.png)
+  ![ フィールドセレクターが「データなし」に設定され、必須の「はい/いいえ」トグルが設定されたフォームデータダイアログ ](assets/dce_toolbar_formblock_edition.png)
 
 ## ボタンへのアクションの追加 {#adding-an-action-to-a-button}
 
 ユーザーがボタンをクリックする際に、関連するアクションを定義できます これをおこなうには、ドロップダウンリストから実行されるアクションを選択します。
 
-![](assets/dce_sidebar_button.png)
+「アクション」ドロップダウンリストを使用した![ ハイパーテキストリンクオプション（定義、なし、更新、次ページ、前の手順](assets/dce_sidebar_button.png)）
 
 利用可能なアクションを次に示します。
 
@@ -137,11 +137,11 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 これをおこなうには、要素を選択してから、ポップアップメニューの最初のアイコンを使用します。
 
-![](assets/dce_insertlink_icon.png)
+![挿入アイコンがハイライト表示されたブロックツールバー。リンクメニューを開くために使用](assets/dce_insertlink_icon.png)
 
 このアイコンを使用すると、利用できるすべてのタイプのリンクにアクセスできます。
 
-![](assets/dce_insertlink_menu.png)
+![Personalization フィールド、Personalization ブロックおよびリンクの種類を含むメニューを挿入：外部URL、アクション、Web アプリケーション ](assets/dce_insertlink_menu.png)
 
 パーソナライゼーションブロックおよびフィールドは、テキストタイプのブロックにのみ挿入されます。
 
@@ -163,7 +163,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 「**外部 URL へのリンク**」オプションを使用すると、ソースコンテンツから任意の URL を開くことができます。
 
-![](assets/dce_toolbar_imgblock_externallink.png)
+![URLとターゲットフィールドを含む外部URLのリンクダイアログを挿入](assets/dce_toolbar_imgblock_externallink.png)
 
 問題になっているリンクアドレスを「**URL**」フィールドに入力します。 URL フィールドは、**https://www.myURL.com** のように入力される必要があります。
 
@@ -171,7 +171,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 「**Web アプリケーションへのリンク**」オプションを使用すると、Adobe Campaign Web アプリケーションにアクセスできます。
 
-![](assets/dce_toolbar_imgblock_appweb.png)
+![Web アプリケーションとターゲット フィールドを含むWeb アプリケーションのリンク ダイアログを挿入](assets/dce_toolbar_imgblock_appweb.png)
 
 対応するフィールドから Web アプリケーションを選択します。
 
@@ -181,7 +181,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 「**アクションを定義するリンク**」オプションを使用すると、ソース要素をクリックする際に、アクションを設定できます。
 
-![](assets/dce_toolbar_imgblock_action.png)
+![ アクションとターゲットフィールドを含むアクションのリンクダイアログを挿入](assets/dce_toolbar_imgblock_action.png)
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 テキスト要素を選択する場合、フォント属性（スタイル、書式設定）を修正できます。
 
-![](assets/dce_toolbar_txt.png)
+![ テキスト ツールバーのボタン：フォント、太字、斜体、下線、整列、背景色およびフォントの色を拡大または縮小](assets/dce_toolbar_txt.png)
 
 利用可能なオプションを次に示します。
 
@@ -235,11 +235,11 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 画像を挿入するには、画像タイプのブロックを選択して、**画像**&#x200B;アイコンをクリックします。
 
-![](assets/dce_insert_image.png)
+![画像を挿入するために画像アイコンがハイライト表示された画像ブロックツールバー](assets/dce_insert_image.png)
 
 ローカルに保存された画像ファイルを選択します。
 
-![](assets/dce_popup_imgupload.png)
+![参照ボタンを使用した画像選択ダイアログで、ローカルの画像ファイルを選択](assets/dce_popup_imgupload.png)
 
 **削除**&#x200B;アイコンは、画像を含む  タグを削除します。
 
@@ -256,7 +256,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 * **キャプション**&#x200B;を使用すると、画像にリンクされたキャプションを定義できます（**alt** HTML 属性に対応）。
 * **サイズ**&#x200B;を使用すると、画像サイズをピクセル単位で指定できます。
 
-  ![](assets/dce_popup_imgsize.png)
+  幅フィールドと高さフィールドをピクセル単位で表示する![ ディメンションダイアログ。両方とも96](assets/dce_popup_imgsize.png)に設定されています
 
 ## パーソナライゼーションコンテンツの追加 {#adding-personalization-content}
 
@@ -264,7 +264,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 挿入アイコン用の「**パーソナライゼーションフィールド**」オプションを使用すると、データベースフィールドをコンテンツに追加できます（受信者の名前など）。 このオプションは、テキストタイプのブロックでのみ使用できます。
 
-![](assets/dce_toolbar_textblock_persofield.png)
+![電子メール、名、姓などの受信者フィールドを一覧表示する要素ダイアログを挿入](assets/dce_toolbar_textblock_persofield.png)
 
 デフォルトでは、提供されたフィールドは、**[!UICONTROL 受信者]**&#x200B;テーブルからのものです。 必要に応じて、Web アプリケーションプロパティを編集して、別のテーブルを選択します。
 
@@ -276,7 +276,7 @@ Web ページ要素の表示条件を指定できます。この要素は、条�
 
 「**パーソナライゼーションブロック**」オプションを使用すると、動的でパーソナライズされたブロックをコンテンツに挿入できます。 例えば、ロゴや挨拶メッセージを追加できます。 これは、テキストタイプのブロックでは使用できません。
 
-![](assets/dce_toolbar_textblock_persoblock.png)
+![挨拶、ロゴの挿入、購読解除リンクなどのパーソナライゼーションブロックを一覧表示する要素ダイアログを挿入](assets/dce_toolbar_textblock_persoblock.png)
 
 挿入後、パーソナライゼーションブロック名がエディターに表示され、黄色でハイライトされます。 パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
 

@@ -25,24 +25,24 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 61%
 ---
 # データベース構造の更新 {#updating-the-database-structure}
 
 スキーマに加えた変更を適用するには、データベース更新ウィザードを起動します。 このアシスタント機能は、**[!UICONTROL ツール／詳細／データベース構造を更新]**&#x200B;から利用できます。 データベースの物理構造が論理的な記述と一致するかどうかを確認し、SQL 更新スクリプトを実行します。
 
-![](assets/schema_update.png)
+![ データベース更新ウィザード次へボタンを使用してパラメーターを更新ページを開き、自動検出プロセスを開始します](assets/schema_update.png)
 
 データベース内のモジュールが自動的に入力され、アクティブ化されます。
 
-![](assets/schema_update_select2.png)
+![ データベース更新ウィザード テーブルを編集ページ テーブルを一覧表示し、CusContracts テーブルを同期に設定](assets/schema_update_select2.png)
 
 手順に従い、データベース更新 SQL スクリプトを表示します。
 
-![](assets/schema_update2.png)
+![ データベース更新ウィザード CusContracts](assets/schema_update2.png)のSQL CREATE TABLE スクリプトを使用したスクリプト ページの更新
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ ht-degree: 100%
 
 次に、データベースの更新を起動します。
 
-![](assets/schema_update3.png)
+![ データベース更新ウィザード更新が100%で完了したことを示すログが表示されたデータベース更新ページの開始](assets/schema_update3.png)

@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 87%
+source-wordcount: '148'
+ht-degree: 68%
 ---
 # テンプレート管理{#template-management}
 
@@ -38,7 +38,7 @@ ht-degree: 87%
 
 ランディングページタイプの Web アプリケーションを作成する場合、ユーザーはこれらのテンプレートのいずれかを選択できます。 また、Adobe Campaign 以外で作成した HTML テンプレートをインポートすることもできます。
 
-![](assets/dce_popup_templatechoice.png)
+![ ファイルから、連絡先、クリックスルー](assets/dce_popup_templatechoice.png)など、利用可能なコンテンツテンプレートを一覧表示するコンテンツダイアログを選択します
 
 テンプレートを追加するには、[グローバルオプション](content-editor-interface.md#global-options)を参照してください。
 
@@ -48,6 +48,6 @@ ht-degree: 87%
 
 「**キャンペーン**」タブで、選択した配信を開きます。 **テンプレートとして保存**&#x200B;ボタンをクリックして、テンプレートに名前を付けてから保存します。
 
-![](assets/dce_save_model.png)
+![右側のツールバーで「テンプレートとして保存」アイコンがハイライト表示されたHTML コンテンツエディター](assets/dce_save_model.png)
 
 新しいテンプレートは、エクスプローラーの&#x200B;**リソース/テンプレート/コンテンツテンプレート** ノードの下に保存されます。

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 86%
+source-wordcount: '740'
+ht-degree: 82%
 ---
 # Web アプリケーショントラッキングのオプトアウト{#web-application-tracking-opt-out}
 
@@ -66,11 +66,11 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 * 「バナーがありません」
 * 「各ページにバナーを手動設定」：このオプションを選択し、各ページのページプロパティでバナーを選択します。
 
-  ![](assets/pageproperties.png)
+  ![ アウトバウンドトランジションを有効にするオプションをオンにしたページプロパティダイアログヘッダー。](assets/pageproperties.png)
 
 * 「自動的にすべてのページにバナーを追加」：Web アプリケーションプロパティで直接バナーを選択します。
 
-  ![](assets/optoutconfig.png)
+  ![ オプトアウトバナーオプションを含むWeb アプリケーションのプロパティ全般タブ：バナーなし、ページごとに手動、または自動です。](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 
 「**ここにメッセージを挿入してください**」の部分をトラッキング情報が含まれるブロックに置き換える必要があります。 この置き換えは、オプトアウトバナーに関する新たなパーソナライゼーションブロック内で実行する必要があります。
 
-バナーは専用の CSS と共に提供されます。 ただし、Web ページを作成して設定する際に、スタイルを上書きできます。 [&#x200B; コンテンツエディターインターフェイス &#x200B;](content-editor-interface.md)を参照してください。
+バナーは専用の CSS と共に提供されます。 ただし、Web ページを作成して設定する際に、スタイルを上書きできます。 [ コンテンツエディターインターフェイス ](content-editor-interface.md)を参照してください。
 
 ## API を使用したオプトアウト cookie の設定 {#setting-the-opt-out-cookie-using-api}
 

@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 91%
+source-wordcount: '439'
+ht-degree: 78%
 ---
 # web アプリケーションの翻訳{#translating-a-web-application}
 
@@ -42,12 +42,12 @@ Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;�
 
 1. DCE で編集されたコンテンツページを Web アプリケーションで開きます。
 
-   ![](assets/dce_translation_3.png)
+   ![ プリロード、ページ、ストレージ、終了フローでページアクティビティがハイライト表示されたWeb アプリケーションエディター](assets/dce_translation_3.png)
 
 1. HTML ブロックを選択します。
 1. 右側のパラメーターブロックで、「**[!UICONTROL ローカライゼーション]**」オプションを使用すると、選択したブロックのコンテンツにフラグを設定できます。 デフォルトでは、ページタイトルのみが翻訳されます。
 
-   ![](assets/dce_translation_1.png)
+   ![ ローカライゼーションセクションとその「はい/いいえ翻訳」トグルが強調表示されたブロックのオプション ](assets/dce_translation_1.png)
 
    >[!NOTE]
    >
@@ -58,11 +58,11 @@ Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;�
    * 選択したブロックに複数の文字列／ブロックが含まれる場合、翻訳する単一の文字列としてフラグされます。 文字列には、このブロック内の要素のHTML コードが含まれます。
    * 複数の文字列を含むブロックにフラグを設定する場合、それらの文字列のうち少なくとも 1 つに既にフラグが設定されていると、警告が表示されます。 独立した文字列からフラグを削除して、ブロック全体にフラグを追加できます。
 
-     ![](assets/dce_translation_4.png)
+     ![ ブロックに既に翻訳対象の2つの要素が含まれていることを確認するグループ化の確認ダイアログ ](assets/dce_translation_4.png)
 
    * 既にフラグが設定されたブロックに含まれている文字列からフラグを削除する場合、文字列翻訳オプションを直接修正することはできません。 ただし、変更するために、文字列を含むブロックにアクセスすることはできます。
 
-     ![](assets/dce_translation_2.png)
+     ![ ローカライゼーションセクションで、要素が既に翻訳されるブロック内にあることを警告し、「ブロックを選択」ボタン ](assets/dce_translation_2.png)
 
 1. 文字列のフラグ設定が終了したら、Web アプリケーションに戻って、「**[!UICONTROL 翻訳]**」タブを選択します。
 1. 「**[!UICONTROL 翻訳する文字列を収集]**」を選択します。 DCE でフラグを設定した文字列は、Web アプリケーションの文字列に追加されます。

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 94%
+source-wordcount: '1571'
+ht-degree: 82%
 ---
 # web フォームの公開{#publishing-a-web-form}
 
@@ -49,7 +49,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 * **[!UICONTROL DES 暗号化]**
 
-  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![IDが設定されていない場合、メソッドがDES暗号化、DES キーフィールド、スキップのプリロードに設定されたID セクション ](assets/s_ncs_admin_survey_preload_methods_001.png)
 
   この暗号化方法は、外部的に提供される識別子（ID）を使用し、Adobe Campaign および外部プロバイダーによって共有されるキーにリンクされます。 **[!UICONTROL DES キー]**&#x200B;フィールドを使用すると、この暗号化キーを入力できます。
 
@@ -57,7 +57,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
   このオプションを使用すると、フォームの現在のコンテキストのフィールドから選択でき、データベースの対応するプロファイルを検索するために使用されます。
 
-  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![ フィールドのリスト メソッドと、識別子として選択された電子メールフィールドを含むID セクションのプリロード ](assets/s_ncs_admin_survey_preload_methods_002.png)
 
   フィールドは、「**[!UICONTROL パラメーター]**」タブを使用してフォームプロパティに追加できます（[パラメーターの追加](defining-web-forms-properties.md#adding-parameters)を参照）。 フォーム URL または入力ゾーンに配置されます。
 
@@ -69,11 +69,11 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
   ユーザーが関連するページに直接アクセスできる場合、URL には、暗号化されていないメールアドレスを含めることができます。
 
-  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![電子メールアドレスを含むWeb フォーム URL。事前入力されたクライアント情報フォームを直接開きます](assets/s_ncs_admin_survey_preload_methods_003.png)
 
   そうでない場合、パスワードが求められます。
 
-  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  電子メールを含まない![Web フォームのURLで、パスワードの入力を求めるパスワード入力ページを開く](assets/s_ncs_admin_survey_preload_methods_004.png)
 
   >[!CAUTION]
   >
@@ -89,7 +89,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 例えば、受信者の性別をプリロードして、テストボックスを使用して適切なページに自動的に導くことができます。
 
-![](assets/s_ncs_admin_survey_preload_ex.png)
+![性別フィールドを読み込むボックスをプリロードし、続いて、一致するページに受信者を送信するテストボックス ](assets/s_ncs_admin_survey_preload_ex.png)
 
 ## Web フォームの配信とトラッキングの管理 {#managing-web-forms-delivery-and-tracking}
 
@@ -137,13 +137,13 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 フォームのパブリッシュステータスがフォームのリストに表示されます。
 
-![](assets/s_ncs_admin_survey_status.png)
+![ オンラインや編集中など、各フォームの公開ステータスを示すWeb アプリケーションリスト ](assets/s_ncs_admin_survey_status.png)
 
 ### フォームの公開 {#publishing-a-form}
 
 フォームの状態を変更するには、パブリッシュする必要があります。 これをおこなうには、Web フォームのリストの上にある「**[!UICONTROL パブリケーション]**」ボタンをクリックして、ドロップダウンボックスで状態を選択します。
 
-![](assets/webapp_publish_webform.png)
+![公開ボタン付きのWeb フォームダッシュボード。開始ボタン付きのWeb アプリケーション公開ダイアログにつながります](assets/webapp_publish_webform.png)
 
 ### オンラインでのフォームの公開 {#making-a-form-available-online}
 
@@ -151,7 +151,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 * 「**[!UICONTROL プロジェクト]**」セクションのフィールドを使用して、フォームの開始および終了日を入力します。
 
-  ![](assets/webapp_availability_date.png)
+  ![ プロジェクト セクションの開始日フィールドと終了日フィールドと終了日カレンダーが開いたプロパティの一般タブ ](assets/webapp_availability_date.png)
 
 * 「**[!UICONTROL フォームが閉じられた場合に表示するメッセージをパーソナライズ...]**」リンクをクリックし、有効となっていないフォームにユーザーがアクセスしようとした場合に表示するエラーメッセージを定義します。
 
@@ -169,21 +169,21 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 この場合、レコードボックスの「**[!UICONTROL プリロードされたレコードを更新]**」オプションをチェックする必要があります。 詳しくは、[Web フォームの回答の保存](web-forms-answers.md#saving-web-forms-answers)を参照してください。
 
-![](assets/s_ncs_admin_survey_save_box_option.png)
+「プリロード済みレコードを更新」オプションがオンになっている![ ストレージボックスダイアログ ](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### 応答をログに記録 {#log-responses}
 
 回答のトラッキングを専用のタブで有効化すると、Web フォームの影響を監視することができます。 これをおこなうには、フォームプロパティウィンドウの「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックして、「**[!UICONTROL 回答をログに記録]**」オプションを選択します。
 
-![](assets/s_ncs_admin_survey_trace.png)
+![返信をログ オプションをオンにした詳細パラメーターダイアログ。フォームのプロパティから開く](assets/s_ncs_admin_survey_trace.png)
 
 「**[!UICONTROL 回答]**」タブが表示され、回答者の ID を表示できます。
 
-![](assets/s_ncs_admin_survey_trace_tab.png)
+各フォーム応答の日付と受信者を一覧表示するWeb フォームの![応答タブ ](assets/s_ncs_admin_survey_trace_tab.png)
 
 受信者を選択し、「**[!UICONTROL 詳細...]**」ボタンをクリックして提供された回答を表示します。
 
-![](assets/s_ncs_admin_survey_trace_edit.png)
+![受信者が入力した回答を含むフォーム応答ウィンドウを開く「応答」タブの「詳細」ボタン ](assets/s_ncs_admin_survey_trace_edit.png)
 
 例えば、リマインダーの送信時に非回答者のみをターゲットにしたり、回答者のみに特別なコミュニケーションを提供したりするために、クエリで提供された回答ログを処理できます。
 
@@ -191,7 +191,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 Web フォームを含むパッケージをインスタンスから別のインスタンスへ（例えば、ステージから実稼動へ）エクスポートおよびインポートする際、新しいインスタンス上の Web フォームのステータスは、いくつかの条件に従って変化する場合があります。 様々なケースを次に示します。
 
-Web フォームのさまざまなステータスについて詳しくは、[&#x200B; フォームのライフサイクル &#x200B;](#life-cycle-of-a-form)を参照してください。
+Web フォームのさまざまなステータスについて詳しくは、[ フォームのライフサイクル ](#life-cycle-of-a-form)を参照してください。
 
 >[!NOTE]
 >

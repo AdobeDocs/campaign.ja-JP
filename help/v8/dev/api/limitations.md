@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1077'
 ht-degree: 1%
 ---
 # 推奨事項と制限事項 {#limitations}
@@ -79,9 +79,9 @@ PKey値の管理は、Campaign Standard v8とCampaign v8で異なります。 Ca
 
 ## フィルタリング
 
-* REST API ペイロードでフィルターを使用するには、Campaign v8でフィルターを編集し、ペイロードで使用する名前を指定する必要があります。 これを行うには、**[!UICONTROL パラメーター]** タブからフィルターの追加パラメーターにアクセスし、REST API **の** フィルター名フィールドに目的の名前を指定します。
+* REST API ペイロードでフィルターを使用するには、Campaign v8でフィルターを編集し、ペイロードで使用する名前を指定する必要があります。 これを行うには、**[!UICONTROL パラメーター]** タブからフィルターの追加パラメーターにアクセスし、REST API ]**の**[!UICONTROL  フィルター名フィールドに目的の名前を指定します。
 
-  ![](assets/api-filtering.png)
+  ![REST API フィールドのフィルター名がbyEmailNotEmpty](assets/api-filtering.png)に設定された定義済みフィルターの詳細パラメーターダイアログ
 
 
 * カスタムフィルターを使用するために必要な「by」プレフィックスは不要になりました。 フィルター名は、リクエストでそのまま使用する必要があります。

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 85%
+source-wordcount: '421'
+ht-degree: 81%
 ---
 # web アプリケーションの新規作成{#creating-a-new-web-application}
 
@@ -43,7 +43,7 @@ ht-degree: 85%
 
 「**キャンペーン**」タブに移動し、**[!UICONTROL web アプリケーション]**&#x200B;メニューを選択します。 「**[!UICONTROL 作成]**」ボタンをクリックします。 使用する web アプリケーションテンプレートを選択します。
 
-![](assets/webapp_create_from_campaign.png)
+![作成ボタンと、新しいランディングページと新しいWeb フォームを含むテンプレートリストを含むWeb アプリケーションリスト ](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >
@@ -61,11 +61,11 @@ ht-degree: 85%
 
 1. ランディングページ
 
-   ランディングページは、web サイト上でコンテンツを利用できる HTML ページで、Adobe Campaign データベースプロファイルに保存される情報をユーザーから受け付けるための場になります。 この種のページのコンテンツは、通常は専門の web 業者によって制作されます。制作されたコンテンツが Adobe Campaign にインポートされ、公開、管理、フォローアップがおこなわれます。 詳しくは、[&#x200B; ランディングページの作成](creating-a-landing-page.md)を参照してください。
+   ランディングページは、web サイト上でコンテンツを利用できる HTML ページで、Adobe Campaign データベースプロファイルに保存される情報をユーザーから受け付けるための場になります。 この種のページのコンテンツは、通常は専門の web 業者によって制作されます。制作されたコンテンツが Adobe Campaign にインポートされ、公開、管理、フォローアップがおこなわれます。 詳しくは、[ ランディングページの作成](creating-a-landing-page.md)を参照してください。
 
 1. 調査
 
-   **調査マネージャー**&#x200B;オプションを使用すると、Adobe Campaign でオンライン調査を設計および管理して、結果を処理することができます。動的なフィールド作成、スコア管理、回答および専用レポートのエクスポートなどをおこなうことができます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
+   **調査マネージャー**&#x200B;オプションを使用すると、Adobe Campaign でオンライン調査を設計および管理して、結果を処理することができます。動的なフィールド作成、スコア管理、回答および専用レポートのエクスポートなどをおこなうことができます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
    >[!CAUTION]
    >
@@ -73,7 +73,7 @@ ht-degree: 85%
 
 1. Facebook アプリケーション
 
-   **Social Marketing** オプションを使用すると、Adobe Campaign で Facebook アプリケーションの個人用コンテンツを公開できます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}を参照してください。
+   **Social Marketing** オプションを使用すると、Adobe Campaign で Facebook アプリケーションの個人用コンテンツを公開できます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}を参照してください。
 
    >[!CAUTION]
    >

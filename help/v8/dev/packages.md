@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f89b58e9c7a87b6526dbbf491db67109418f2006
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2042'
-ht-degree: 85%
+source-wordcount: '2105'
+ht-degree: 83%
 ---
 # データパッケージの使用{#data-packages}
 
@@ -60,7 +60,7 @@ ht-degree: 85%
 
 Campaign データパッケージでは、Adobe Campaign データベースのエンティティがXML ファイルに表示されます。 パッケージでは、各エンティティがそのすべてのデータと共に表されます。
 
-このページでは、作成および管理する&#x200B;**カスタム** データパッケージについて説明します。 Campaign機能を提供するパッケージは&#x200B;**組み込みパッケージ**&#x200B;で、Adobeがインストールおよび管理します。 詳しくは、[組み込みパッケージ &#x200B;](../architecture/built-in-packages.md)を参照してください。
+このページでは、作成および管理する&#x200B;**カスタム** データパッケージについて説明します。 Campaign機能を提供するパッケージは&#x200B;**組み込みパッケージ**&#x200B;で、Adobeがインストールおよび管理します。 詳しくは、[組み込みパッケージ ](../architecture/built-in-packages.md)を参照してください。
 
 **データパッケージ**&#x200B;の原則とは、データの設定をエクスポートして別の Adobe Campaign 環境内に組み込むことです。 この[節](#data-package-best-practices)では、一貫したデータパッケージのセットを維持する方法を説明します。
 
@@ -128,7 +128,7 @@ XML ドキュメントの先頭と末尾には必ず `<package>` 要素を記述
 1. エクスプローラーの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをエクスポート...]** メニュー経由でパッケージエクスポートアシスタントを参照します。
 1. [パッケージのタイプ](#types-of-packages)を選択します。
 
-   ![](assets/package_type.png)
+   ![ ユーザーパッケージ、プラットフォームパッケージおよび管理者パッケージオプションを含むパッケージ書き出しウィザード、ユーザーパッケージが選択されました](assets/package_type.png)
 
 1. 「**追加**」ボタンをクリックして、パッケージとしてエクスポートするエンティティを選択します。
 
@@ -142,7 +142,7 @@ XML ドキュメントの先頭と末尾には必ず `<package>` 要素を記述
 
    >[!NOTE]
    >
-   >クエリエディターは、[&#x200B; クエリを作成](../../automation/workflow/query.md#creating-a-query)に表示されます。
+   >クエリエディターは、[ クエリを作成](../../automation/workflow/query.md#creating-a-query)に表示されます。
 
 1. 「**[!UICONTROL 次へ]**」をクリックし、エクスポートしたデータの並べ替え順序を選択します。
 
@@ -241,7 +241,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 パッケージ定義を作成するには、「**[!UICONTROL 新規]**」ボタンをクリックし、パッケージ定義の一般情報を入力します。
 
-![](assets/packagedefinition_create.png)
+![新しいボタンと「一般」タブのフィールド「ラベル」、「名前」、「ディストリビューター」を含むパッケージ定義フォルダー](assets/packagedefinition_create.png)
 
 その後、パッケージ定義にエンティティを追加し、XML ファイルパッケージにエクスポートします。
 
@@ -253,9 +253,9 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### パッケージ定義へのエンティティの追加 {#add-entities-to-a-package-definition}
 
-「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、パッケージとしてエクスポートするエンティティを選択します。 エンティティを選択する際のベストプラクティスは、[&#x200B; パッケージ内の一連のオブジェクトの書き出し](#export-a-set-of-objects-in-a-package)に記載されています。
+「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、パッケージとしてエクスポートするエンティティを選択します。 エンティティを選択する際のベストプラクティスは、[ パッケージ内の一連のオブジェクトの書き出し](#export-a-set-of-objects-in-a-package)に記載されています。
 
-![](assets/packagedefinition_addentities.png)
+![ エンティティを書き出しダイアログにスキーマが一覧表示されているパッケージ定義の「追加」ボタンを含むコンテンツタブ ](assets/packagedefinition_addentities.png)
 
 エンティティは、インスタンス内の場所から直接パッケージ定義に追加できます。 これをおこなうには、以下の手順に従います。
 
@@ -263,13 +263,13 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 1. **[!UICONTROL パッケージ定義に追加]**&#x200B;を選択し、エンティティを追加するパッケージ定義を選択します。
 
-1. エンティティはパッケージ定義に追加され、パッケージとともに書き出されます（[&#x200B; パッケージ定義からのパッケージの書き出し](#export-packages-from-a-package-definition)を参照）。
+1. エンティティはパッケージ定義に追加され、パッケージとともに書き出されます（[ パッケージ定義からのパッケージの書き出し](#export-packages-from-a-package-definition)を参照）。
 
 ### パッケージ定義の生成の設定 {#configure-package-definitions-generation}
 
 パッケージの生成は、パッケージ定義の「**[!UICONTROL コンテンツ]**」タブで設定できます。 設定をおこなうには、「**[!UICONTROL 生成パラメーター]**」リンクをクリックします。
 
-![](assets/packagedefinition_generationparameters.png)
+![生成パラメーターダイアログで、「定義を含める」、「インストールスクリプトを含める」、「デフォルト値を含める」を選択](assets/packagedefinition_generationparameters.png)
 
 * 「**[!UICONTROL 定義を含める]**」オプションを使用すると、パッケージ定義で現在使用されている定義を含めることができます。
 * 「**[!UICONTROL インストールスクリプトを含める]**」オプションを使用すると、パッケージのインポート時に実行する JavaScript スクリプトを追加できます。 選択すると、パッケージ定義画面に「**[!UICONTROL スクリプト]**」タブが表示されます。
@@ -306,7 +306,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### 組み込みパッケージ {#install-a-standard-package}
 
-Adobeは、組み込みパッケージをCampaign v8にインストールして管理します。 詳しくは、[組み込みパッケージ &#x200B;](../architecture/built-in-packages.md)を参照してください。
+Adobeは、組み込みパッケージをCampaign v8にインストールして管理します。 詳しくは、[組み込みパッケージ ](../architecture/built-in-packages.md)を参照してください。
 
 ## データパッケージのベストプラクティス {#data-package-best-practices}
 

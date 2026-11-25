@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 64%
+source-wordcount: '251'
+ht-degree: 59%
 ---
 # Web アプリケーションと web フォームの概要{#gs-ac-web}
 
@@ -44,7 +44,7 @@ Adobe Campaign では、**web フォーム**&#x200B;を定義して公開する�
 
 [Web フォームの作成と公開の方法について説明します。Web フォームの基本を学ぶ](web/about-web-forms.md)。
 
-![](assets/sample.png)
+![電子メール、名前、国のフィールドと「購読」ボタンを含むメールニュースレター購読のweb フォームの例。](assets/sample.png)
 
 Adobe Campaign では、データベースのデータと接続ユーザーの権限に応じたコンテンツを使用して、動的でインタラクティブな **Web アプリケーション**&#x200B;を作成して公開することができます。
 

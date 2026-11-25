@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 91%
+source-wordcount: '1087'
+ht-degree: 71%
 ---
 # ランディングページの作成{#creating-a-landing-page}
 
@@ -56,20 +56,20 @@ Adobe Campaign でランディングページの設定を開始する前に、HT
 1. 「**[!UICONTROL キャンペーン]**」タブに移動し、「**[!UICONTROL Web アプリケーション]**」リンクをクリックして、「**[!UICONTROL 作成]**」ボタンをクリックします。
 1. **[!UICONTROL 新しいランディングページ]**&#x200B;テンプレートを選択して、ラベルを入力し、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/dce_uc1_newlandingpage.png)
+   ![新しいランディングページテンプレート、ラベル、Web アプリケーションフォルダーを含む新しいWeb アプリケーションダイアログ ](assets/dce_uc1_newlandingpage.png)
 
 1. 「**[!UICONTROL 編集]**」タブをクリックします。
 1. **終了**&#x200B;アクティビティを削除します。
 1. 「**[!UICONTROL ストレージ]**」アクティビティの後に「**[!UICONTROL ページ]**」アクティビティを追加します。
 1. **ページ 2** アクティビティを編集してから、「**[!UICONTROL プロパティ]**」タブの「**[!UICONTROL アウトバウンドトランジションを有効にする]**」オプションのチェックをオフにします。
 
-   ![](assets/dce_uc1_transition.png)
+   ![ アウトバウンドトランジションを有効にするオプションがクリアされたページ 2という名前のページアクティビティプロパティタブ ](assets/dce_uc1_transition.png)
 
 1. 変更を保存します。
 
 その後は、次の順番になります。
 
-![](assets/dce_uc1_edition_activity.png)
+![Web アプリケーション フロー：プリロード、ページ、ストレージ、ページ 2 アクティビティがシーケンスで接続されました](assets/dce_uc1_edition_activity.png)
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Adobe Campaign でランディングページの設定を開始する前に、HT
 1. Web アプリケーションの最初の&#x200B;**[!UICONTROL ページ]**&#x200B;アクティビティを開きます。
 1. 「**[!UICONTROL ファイルから]**」を選択し、コンテンツテンプレートを取得します。
 
-   ![](assets/dce_uc1_selectmodel.png)
+   ![ テンプレートを一覧表示するコンテンツダイアログを選択：ファイルから、連絡先、詳細クリックスルー、クリックスルー、取得](assets/dce_uc1_selectmodel.png)
 
 1. 使用する HTML ファイルを選択します。
 1. 「**開く**」をクリックしてインポートを開始します。
@@ -99,7 +99,7 @@ Adobe Campaign でランディングページの設定を開始する前に、HT
 
    インポートが終了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
 
-   ![](assets/dce_uc1_import.png)
+   ![ アップロードされたCSS、画像およびスクリプトファイルのリソースログを公開しています。100%成功メッセージで終わります](assets/dce_uc1_import.png)
 
    >[!CAUTION]
    >
@@ -108,7 +108,7 @@ Adobe Campaign でランディングページの設定を開始する前に、HT
 1. 「**[!UICONTROL プロパティ]**」タブをクリックします。
 1. 各ページの&#x200B;**ラベル**&#x200B;を入力します（例：1 ページ目 = 収集、2 ページ目 = ありがとうございます）。
 
-   ![](assets/dce_uc1_pagelabel.png)
+   ![ ラベル「コレクション」と「送信トランジションを有効にする」が選択されたページのアクティビティプロパティ タブ ](assets/dce_uc1_pagelabel.png)
 
 Web アプリケーションに挿入された各ページについて、これらの手順を適用します。
 
@@ -120,7 +120,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 ここでは、インポートしたコンテンツを調整し、データベースのフィールドを Web ページのフォームにリンクします。 前に作成した Web アプリケーションを次に示します。
 
-![](assets/dce_uc1_lp_enchainement.png)
+![ プリロード、コレクション、ストレージ、サンキューのアクティビティを順次接続したWeb アプリケーションフロー](assets/dce_uc1_lp_enchainement.png)
 
 ### コンテンツの変更 {#modifying-content}
 
@@ -132,11 +132,11 @@ Web アプリケーションに挿入された各ページについて、これ�
 1. 新しい背景色を選択します。
 1. 「**OK**」をクリックして、変更を確定します。
 
-   ![](assets/dce_uc1_changecolor.png)
+   ![選択したハイパーテキストリンクボタンの背景色を変更するカラーピッカーダイアログ付きのページエディター](assets/dce_uc1_changecolor.png)
 
 1. 同じ処理を適用して、ボタンの色を変更します。
 
-   ![](assets/dce_uc1_finalcolor.png)
+   ![FirstName、Email、Phone、Address フィールドと再配色されたSEND IT ボタンを使用して登録フォーム ページを作成しています](assets/dce_uc1_finalcolor.png)
 
 ### フォームフィールドのリンク {#linking-form-fields}
 
@@ -146,23 +146,23 @@ Web アプリケーションに挿入された各ページについて、これ�
 1. エディターの右側で「**[!UICONTROL フィールド]**」セクションを編集します。
 1. 選択したフィールドにリンクするデータベースフィールドを選択します。
 
-   ![](assets/dce_uc1_mapping.png)
+   入力ゾーンをデータベースフィールドにマッピングするために、名前が選択された受信者ダイアログの![ フィールド ](assets/dce_uc1_mapping.png)
 
 1. ページの各フィールドについて、この処理を繰り返します。
 
 フィールドを必須にできます。例えば、「**[!UICONTROL メール]**」フィールドをクリックして、「**必須**」オプションを有効にします。
 
-![](assets/dce_uc1_fieldmandatory.png)
+![ フォームデータセクションで「必須」オプションが「はい」に設定されたページエディター入力ゾーンの設定](assets/dce_uc1_fieldmandatory.png)
 
 ### 次のページへのリンクの作成 {#creating-a-link-to-the-next-page}
 
 この手順は必須です。これは、web アプリケーションが次の手順の順序を決定できるためです。収集したデータをデータベースに保存し、次のページ（**お礼**&#x200B;のページ）を表示します。
 
-1. コレクションページの「**[!UICONTROL 送信]**」ボタンを選択します **&#x200B;**。
+1. コレクションページの「**[!UICONTROL 送信]**」ボタンを選択します ****。
 1. **[!UICONTROL アクション]**&#x200B;ドロップダウンメニューをクリックします。
 1. **[!UICONTROL 次のページ]**&#x200B;アクションを選択します。
 
-   ![](assets/dce_uc1_actionbouton.png)
+   ![ アクション ドロップダウンを開いて次のページを選択したハイパーテキストリンク設定](assets/dce_uc1_actionbouton.png)
 
 ### パーソナライゼーションフィールドの挿入 {#inserting-a-personalization-field}
 
@@ -173,21 +173,21 @@ Web アプリケーションに挿入された各ページについて、これ�
 1. ツールバーの&#x200B;**[!UICONTROL 挿入]**&#x200B;メニューで、「**[!UICONTROL パーソナライゼーションフィールド]**」を選択します。
 1. 名を選択します。
 
-   ![](assets/dce_uc1_persochamp.png)
+   ![Personalization フィールドを選択し、エレメントを挿入ダイアログで名フィールドを選択した状態で挿入メニュー](assets/dce_uc1_persochamp.png)
 
 パーソナライゼーションフィールドは、エディターで黄色い背景で示されます。
 
-![](assets/dce_uc1_edit_champperso.png)
+![名前のパーソナライゼーションフィールドが黄色で強調表示されたサンキューページの見出し](assets/dce_uc1_edit_champperso.png)
 
 ## 手順 3 - コンテンツの公開 {#step-3---publishing-content}
 
 コンテンツは、Web アプリケーションダッシュボードからパブリッシュされます。 「**[!UICONTROL パブリッシュ]**」ボタンをクリックして、実行します。
 
-![](assets/dce_uc1_pub_dashboard.png)
+![公開ボタンと、アプリケーションを公開する必要があるというメッセージが表示されたWeb アプリケーションダッシュボード ](assets/dce_uc1_pub_dashboard.png)
 
 パブリッシュ中に、ログが表示されます。 パブリッシュシステムは、Web アプリケーションで見つかったすべてのコンテンツを分析します。
 
-![](assets/dce_uc1_pub_dashboard_journal.png)
+![ プロセスが完了（警告あり）で終わるWeb アプリケーション公開ログと「閉じる」ボタン ](assets/dce_uc1_pub_dashboard_journal.png)
 
 >[!NOTE]
 >
