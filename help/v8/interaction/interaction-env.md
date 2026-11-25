@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 96%
+source-wordcount: '519'
+ht-degree: 82%
 ---
 # 環境の操作{#work-with-environments}
 
@@ -41,7 +41,7 @@ ht-degree: 96%
 * **[!UICONTROL デザイン環境]**：編集の対象となる、変更可能なオファーを含んだオファー環境。 これらのオファーは、承認サイクルを経ておらず、コンタクト先には配信されません。
 * **[!UICONTROL ライブ環境]**：コンタクト先に提示される承認済みのオファーを含んだオファー環境。 この環境のオファーは、読み取り専用です。
 
-![](assets/offer_environments_overview_001.png)
+デザインおよびライブのオファー環境を含む![ エクスプローラーツリー。各オファースペースと管理フォルダーが含まれます。](assets/offer_environments_overview_001.png)
 
 各&#x200B;**[!UICONTROL デザイン]**&#x200B;環境は、**[!UICONTROL ライブ]**&#x200B;環境にリンクされています。 オファーの作成が完了すると、そのコンテンツと実施要件ルールは、承認サイクルに進みます。 承認サイクルを完了したオファーは、**[!UICONTROL ライブ]**&#x200B;環境に自動的にデプロイされ、 その瞬間から、配信できるようになります。
 
@@ -51,7 +51,7 @@ ht-degree: 96%
 >
 >受信者テーブルをターゲットにするには、ターゲットマッピングアシスタントを使用して環境を作成する必要があります。 [詳細情報](#creating-an-offer-environment)。
 
-![](assets/offer_environments_overview_002.png)
+![ デザインタイプとそのリンクされたライブ環境フィールドがハイライト表示された「デザイン環境一般」タブ。](assets/offer_environments_overview_002.png)
 
 配信責任者は、**[!UICONTROL ライブ]**&#x200B;環境のみを表示可能で、オファーを活用して配信できます。 オファーマネージャーは、**[!UICONTROL デザイン]**&#x200B;環境を表示および使用したり、**[!UICONTROL ライブ]**&#x200B;環境を表示したりできます。 [詳細情報](interaction-operators.md)
 
@@ -63,11 +63,11 @@ Campaign には、受信者テーブル（識別されたオファー）をタ�
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL Campaign 管理]**／**[!UICONTROL ターゲットマッピング]**&#x200B;を表示し、使用するターゲットマッピングを右クリックして、**[!UICONTROL アクション]**／**[!UICONTROL ターゲティングディメンションのオプションを変更]**&#x200B;を選択します。
 
-   ![](assets/offer_env_anonymous_001.png)
+   「アクション」メニューと「ターゲットディメンションのオプションを変更」が選択された![ ターゲットマッピングリスト。](assets/offer_env_anonymous_001.png)
 
 1. 「**[!UICONTROL 次へ]**」をクリックし、「**[!UICONTROL 提案のストレージスキーマを生成]**」オプションを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/offer_env_anonymous_002.png)
+   提案のストレージスキーマを生成するウィザードの![拡張ステップが選択されました。](assets/offer_env_anonymous_002.png)
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ Campaign には、受信者テーブル（識別されたオファー）をタ�
 
 例えば、受信者環境のオファースペース（識別されたコンタクト先）と訪問者環境に合ったオファースペース（識別されていないコンタクト先）をリンクすると、 このようにして、コンタクト先が識別されているかどうかに応じて、異なるオファーがコンタクト先に提示されます。 詳しくは、[オファースペースの作成](interaction-offer-spaces.md)を参照してください。
 
-![](assets/offer_env_anonymous_003.png)
+![訪問者がデザインおよびライブ環境を行い、受信する匿名インタラクション専用のオプションをオンにします。](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >

@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 97%
+source-wordcount: '1591'
+ht-degree: 88%
 ---
 # Web ページへのオファーの追加{#add-an-offer-in-web}
 
@@ -35,7 +35,7 @@ Web ページでオファーエンジンを呼び出すには、ページに Jav
 
 URL を呼び出すスクリプトは、次のようになります。
 
-```
+```xml
 <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=" type="text/javascript"></script>
 ```
 
@@ -61,13 +61,13 @@ HTML ページには、作成したオファースペースの内部名（&quot;
 
 この例では、@id 属性は、値 &quot;i_SPC12&quot; を受け取ります（「SPC12」が先ほど作成したオファースペースの内部名）。
 
-```
+```xml
 <div id="i_SPC12"></div>
 ```
 
 この例では、スクリプトを呼び出す URL は、次のようになります（「OE3」はライブ環境の内部名）。
 
-```
+```xml
 <script id="interactionProposalScript" src="https://instance.adobe.org:8080/nl/interactionProposal.js?env=OE3" type="text/javascript"></script>
 ```
 
@@ -83,7 +83,7 @@ HTML ページには、作成したオファースペースの内部名（&quot;
 
 オファー表示域のコンテンツが、オファーエンジンによって HTML ページに返されます。
 
-```
+```xml
 <div id="banner_header">
  <div id="i_SPC12">
    <table>
@@ -107,11 +107,11 @@ HTML ページには、作成したオファースペースの内部名（&quot;
 
 ### 識別されたオファーの提示 {#presenting-an-identified-offer}
 
-特定された連絡先にオファーを提示するには、このセクション [&#128279;](#presenting-an-anonymous-offer)のの詳細と同様のプロセスを実行します。
+特定された連絡先にオファーを提示するには、このセクション ](#presenting-an-anonymous-offer)の[の詳細と同様のプロセスを実行します。
 
 Web ページのコンテンツには、オファーエンジンの呼び出し時にコンタクト先を識別する次のスクリプトを追加する必要があります。
 
-```
+```xml
 <script type="text/javascript">
   interactionTarget = <contact_identifier>;
 </script>
@@ -119,7 +119,7 @@ Web ページのコンテンツには、オファーエンジンの呼び出し�
 
 1. Web ページから呼び出されるオファースペースに移動して、「**[!UICONTROL 詳細設定パラメーター]**」をクリックし、1 つまたは複数の識別キーを追加します。
 
-   ![](assets/interaction_htmlmode_001.png)
+   ![高度なパラメーター「ターゲット識別」タブ。キーのパス@emailと姓フィールドが2番目のキーとして追加されている](assets/interaction_htmlmode_001.png)
 
    この例では、識別キーは、メールと受信者名の両方を基にした複合キーです。
 
@@ -127,7 +127,7 @@ Web ページのコンテンツには、オファーエンジンの呼び出し�
 
    次の例では、コンタクト先は既に web サイトにログオンしており、メールアドレスと名前により、オファーエンジンの呼び出し時に認識されました。
 
-   ```
+   ```xml
    <script type="text/javascript">
      interactionTarget = myEmail|myName;
    </script>
@@ -141,7 +141,7 @@ HTML のオファー表示域を自動的に生成するには、レンダリン
 1. 「**[!UICONTROL HTML レンダリング関数をオーバーロード]**」を選択します。
 1. 「**[!UICONTROL HTML レンダリング]**」タブに移動し、オファースペースのオファーコンテンツ用に定義されたフィールドに合致する変数を挿入します。
 
-   ![](assets/interaction_htmlmode_002.png)
+   ![ オファースペースの「関数を編集」ダイアログ、「HTML レンダリング」タブ、「HTML レンダリング関数をオーバーロード」オプションおよびスクリプト ](assets/interaction_htmlmode_002.png)
 
    この例では、オファーは、バナーの形式で Web ページに表示され、オファーコンテンツで定義されたフィールドに合致する、クリック可能な画像とタイトルで構成されます。
 
@@ -153,7 +153,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
 オファーエンジンの呼び出しは、次のようになります。
 
-```
+```xml
 <script type="text/javascript" id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=&cb="></script>
 ```
 
@@ -171,7 +171,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
 返される XML ノードは、次のようになります。
 
-```
+```xml
 <propositions>
  <proposition id="" offer-id="" weight="" rank="" space="" div=""> //proposition identifiers
    ...XML content defined in Adobe Campaign...
@@ -184,9 +184,9 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
 1. **環境とオファースペースを作成**
 
-   環境の作成について詳しくは、[このページ](interaction-env.md)を参照してください
+   環境の作成について詳しくは、[Campaign インタラクション環境の操作](interaction-env.md)を参照してください。
 
-   オファースペースの作成について詳しくは、[このページ](interaction-offer-spaces.md)を参照してください。
+   オファースペースの作成について詳しくは、[ キャンペーンインタラクションオファースペース ](interaction-offer-spaces.md)を参照してください。
 
 1. **オファースキーマを拡張して新しいフィールドを追加**
 
@@ -194,7 +194,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
    この例のスキーマの名前は **cus:offer** です。
 
-   ```
+   ```xml
    <srcSchema _cs="Marketing offers (cus)" created="2013-01-18 17:14:20.762Z" createdBy-id="0"
               desc="" entitySchema="xtk:srcSchema" extendedSchema="nms:offer" img="nms:offer.png"
               label="Marketing offers" labelSingular="Marketing offers" lastModified="2013-01-18 15:20:18.373Z"
@@ -231,7 +231,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
    「Views」セクションに、次の内容を含んだ 2 つの新しいフィールドを挿入します。
 
-   ```
+   ```xml
    <input label="Title 2" margin-right="5" prebuildSubForm="false" type="subFormLink" xpath="title2_jst">
         <form label="Edit title 2" name="editForm" nothingToSave="true">
             <input nolabel="true" toolbarAlign="horizontal" type="jstEdit" xpath="." xpathInsert="/ignored/customizeTitle2">
@@ -256,7 +256,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
    宛先 URL フィールドをコメントアウトします。
 
-   ![](assets/interaction_xmlmode_form_001.png)
+   ![宛先URL入力ブロックを含むオファー表示形式XMLがコメントで表示されます](assets/interaction_xmlmode_form_001.png)
 
    >[!CAUTION]
    >
@@ -264,17 +264,17 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
    オファー表示域フォームのレンダリングは、次のようになります。
 
-   ![](assets/interaction_xmlmode_form.png)
+   ![HTML コンテンツエディターの上に、空のタイトル、宛先URL、画像URL フィールドを含む「オファーのコンテンツ」タブ ](assets/interaction_xmlmode_form.png)
 
    「**[!UICONTROL Title 2]**」および「**[!UICONTROL Price]**」フィールドが追加され、「**[!UICONTROL 宛先 URL]**」フィールドは表示されません。
 
 1. **オファーを作成**
 
-   オファーの作成について詳しくは、[このページ](interaction-offer.md)を参照してください
+   オファーの作成について詳しくは、[ キャンペーンインタラクションオファー](interaction-offer.md)を参照してください。
 
-   次のユースケースでは、オファーは次のように入力されます。
+   この例では、オファーは次のように入力されます。
 
-   ![](assets/interaction_xmlmode_offer.png)
+   ![ タイトル、宛先URL、画像URLが入力されたオファーコンテンツタブと、recipient.firstName](assets/interaction_xmlmode_offer.png)を使用したHTML コンテンツ
 
 1. **オファーを承認**
 
@@ -284,7 +284,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
    HTML ページでのオファーエンジンの呼び出しは、次のようになります。
 
-   ```
+   ```xml
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
    ```
 
@@ -294,7 +294,7 @@ Campaign **インタラクション**&#x200B;モジュールを使用すると�
 
    オファーエンジンから返される XML ノードは、次のようになります。
 
-   ```
+   ```xml
    <propositions>
     <proposition id="a28002" offer-id="10322005" weight="1" rank="1" space="SPC14" div="i_SPC14">
      <xmlOfferView>
@@ -320,14 +320,14 @@ XML レンダリング関数を使用して、オファー表示域を作成で�
 
    関数は、次のようになります。
 
-   ```
+   ```javascript
    function (proposition) {
      delete proposition.@id;
      proposition.@newAttribute = "newValue";
    } 
    ```
 
-![](assets/interaction_xmlmode_001.png)
+![ オファースペースの関数を編集ダイアログ、XML レンダリングタブ、XML レンダリング関数のオーバーロード オプションおよびスクリプト ](assets/interaction_xmlmode_001.png)
 
 ## SOAP 統合のセットアップ
 
@@ -367,7 +367,7 @@ SOAP を使用したオファーの提案の場合、**nms:proposition#Propose**
 
 SOAP 呼び出しのコードの例を次に示します。
 
-```
+```html
 <%
   var space = request.parameters.sp
   var cnx = new HttpSoapConnection(

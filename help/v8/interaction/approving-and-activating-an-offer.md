@@ -21,10 +21,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 98%
+source-wordcount: '887'
+ht-degree: 73%
 ---
 # オファーの承認と有効化{#approving-and-activating-an-offer}
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 オファーダッシュボード上のバナーには、そのオファーについて承認サイクルを実行する必要があるかどうかが示されます。
 
-![](assets/offer_validate_001.png)
+![ オファーが承認待ちであることを示すオファーダッシュボードバナーと「承認」ボタン ](assets/offer_validate_001.png)
 
 ## オファーコンテンツの承認 {#approving-offer-content}
 
@@ -52,15 +52,15 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL 承認]**」ボタンをクリックし、ポップアップで「**[!UICONTROL コンテンツを承認]**」を選択します。
 
-   ![](assets/offer_validate_002.png)
+   ![ コンテンツの承認を選択した承認メニュー。オファーダイアログでアクションを開きます。](assets/offer_validate_002.png)
 
 1. ドロップダウンリストを使用して、編集を続行する表示域を選択するか、ライブ環境にパブリッシュする表示域を選択して「**[!UICONTROL コンテンツの承認]**」をクリックします。
 
-   ![](assets/offer_validate_003.png)
+   ![ オファーダイアログのアクション：「編集を続行」または「有効にする」を選択し、コメントを追加して、「コンテンツの承認」をクリックします。](assets/offer_validate_003.png)
 
    オファーコンテンツが承認されると、オファーダッシュボードの表の情報が更新されます。
 
-   ![](assets/offer_validate_004.png)
+   ![承認後のオファーのダッシュボード：表示域は「有効」を示し、「承認」セクションには「承認済み」を示します。](assets/offer_validate_004.png)
 
    >[!NOTE]
    >
@@ -76,33 +76,33 @@ ht-degree: 98%
 
 * 「**[!UICONTROL スケジュールおよび実施要件ルール]**」をクリックすると、すべてのルールを記載したリストが表示されます。
 
-  ![](assets/offer_validate_005.png)
+  ![重みと日付範囲を含むスケジュールと実施要件ルール リストが、承認ダイアログから開きます。](assets/offer_validate_005.png)
 
 * 実施要件ルールを変更するには、「**[!UICONTROL 却下]**」をクリックし、「**[!UICONTROL 実施要件の承認]**」をクリックします。
 
-  ![](assets/offer_validate_007.png)
+  ![実施要件の承認ダイアログ （選択を拒否、コメント、実施要件の承認ボタン） ](assets/offer_validate_007.png)
 
   オファーダッシュボード上の様々なステータスが更新されます。
 
-  ![](assets/offer_validate_006.png)
+  却下された後の![ ダッシュボード：適格性承認が却下されたバナー、適格性を送信ボタン、適格性が却下されました。](assets/offer_validate_006.png)
 
 * オファーの実施要件を承認するには、「**[!UICONTROL 実施要件を承認]**」をクリックします。
 
-  ![](assets/offer_validate_008.png)
+  ![承認および拒否オプションを含むオファーダイアログのアクションを開く「実施要件を送信」ボタン。](assets/offer_validate_008.png)
 
   実施要件を承認し、必要に応じてコメントを追加してから、「**[!UICONTROL 実施要件の承認]**」をクリックします。
 
-  ![](assets/offer_validate_009.png)
+  ![承認済み、コメントが入力された適格性承認ダイアログ、および適格性承認ボタン ](assets/offer_validate_009.png)
 
   オファーダッシュボード上の様々なステータスが更新されます。
 
-  ![](assets/offer_validate_010.png)
+  適格性が承認され、コンテンツが承認された状態で、ライブ環境へのオファーの保留中のデプロイメントを表示する![ ダッシュボード。](assets/offer_validate_010.png)
 
 ## 承認トラッキング {#approval-tracking}
 
 オファーダッシュボードでは、承認をトラッキングできます。 この機能にアクセスするには、「**[!UICONTROL ログを非表示 / 表示]**」をクリックします。
 
-![](assets/offer_validate_012.png)
+![ ログを非表示/表示をクリックした後、承認ログが表示され、アクション、タイプ、承認者が一覧表示されたオファーダッシュボード。](assets/offer_validate_012.png)
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ ht-degree: 98%
 1. **[!UICONTROL 編集]**&#x200B;ウィンドウが表示されます。再開する承認処理を選択し、「**[!UICONTROL 承認を再初期化して再送信]**」をクリックします。
 1. 「**[!UICONTROL OK]**」をクリックして確定します。
 
-![](assets/offer_validate_013.png)
+![再度送信する承認を再初期化するリンクが付いた編集ウィンドウの承認仕訳帳](assets/offer_validate_013.png)
 
 ## オファーの公開 {#publishing-the-offer}
 
@@ -124,11 +124,11 @@ ht-degree: 98%
 
 デザイン環境で利用可能なオファーのダッシュボードには、ライブ環境の対応するオファーの名前など、パブリッシュに関する情報が含まれます。
 
-![](assets/offer_golive_001.png)
+![ デザインオファーダッシュボード：デプロイメント日バナー、公開済みステータスのオファーオンラインリンク、ライブ表現オンライン ](assets/offer_golive_001.png)
 
 ライブ環境で利用可能なオファーを表示するには、オファーのラベルをクリックします。ライブオファーには、すべての関連情報を含むダッシュボードがあります。
 
-![](assets/offer_golive_002.png)
+![ オンライン状態、その環境、およびスケジュールと実施要件ルールを示すライブオファーダッシュボードにリンクします。](assets/offer_golive_002.png)
 
 ## オファーの無効化 {#disabling-an-offer}
 
@@ -142,4 +142,4 @@ ht-degree: 98%
 >
 >デザイン環境でオファーを削除すると、そのオファーは、リンクされたオンライン環境で自動的に無効化されます。 提案の保持期間が過ぎると、無効化されているオファーはオンライン環境から削除されます。
 
-![](assets/offer_preview_deactivate.png)
+![ オファーのダッシュボードのデプロイメントが保留中で、オファーを無効にするボタンが使用されています。](assets/offer_preview_deactivate.png)

@@ -26,10 +26,10 @@ feature_v2:
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 85%
 ---
 # 拡張の例{#extension-example}
 
@@ -41,12 +41,12 @@ ht-degree: 100%
 
   次の例では、国コードと直近に閲覧したページの基準を追加しています。
 
-  ![](assets/s_ncs_configuration_offer_schemas.png)
+  ![国コードと最後に訪問したページ属性を含むインタラクションデータスキーマが追加されました。](assets/s_ncs_configuration_offer_schemas.png)
 
 * これで、実施要件の基準を定義する際に、以前作成した属性を利用できます。
 
   次の例では、ユーザーの居住国や最後に閲覧した Web ページに基づいてオファーを表示するための実施要件基準を作成しています。
 
-  ![](assets/s_ncs_configuration_offer_context.png)
+  ![国コードと最後に訪問したページのインタラクションフィールドを基準として選択可能な資格クエリエディター。](assets/s_ncs_configuration_offer_context.png)
 
 * SOAP 呼び出しを設定する際に、**context** XML 要素を挿入し、インタラクションスキーマに追加されたコンテキスト情報を参照します。 詳しくは、[SOAP による統合（サーバーサイド）](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"}（Campaign v8 ドキュメント）を参照してください。

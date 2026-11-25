@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 60%
 ---
 # リアルタイムのインタラクション履歴およびレポート
 
@@ -44,15 +44,15 @@ ht-degree: 100%
 
 * オファーのレベルで、「**[!UICONTROL 編集]**」タブの「**[!UICONTROL 提案]**」をクリックします。
 
-  ![](assets/offer_followup_006.png)
+  ![ イベントの日付、スペース、ステータスを含むオファーに対して作成されたオファーのリスト提案の「提案」タブ ](assets/offer_followup_006.png)
 
 * 受信者のプロファイルから、「**[!UICONTROL 提案]**」タブをクリックします。
 
-  ![](assets/offer_followup_002.png)
+  イベントの日付、ステータス、オファースペース、配信を含む受信者プロファイルリストの「![提案」タブ ](assets/offer_followup_002.png)
 
 * オファースペースのレベルで、「**[!UICONTROL 提案]**」タブをクリックします。
 
-  ![](assets/offer_space_prop_001_b.png)
+  ランキング、重み付け、ステータスで作成された提案を一覧表示するオファースペースの「![提案」タブ ](assets/offer_space_prop_001_b.png)
 
 ## オファー分析レポート{#offer-analysis-report}
 
@@ -62,14 +62,14 @@ ht-degree: 100%
 
 * 日付別：
 
-  ![](assets/offer_report_perdate.png)
+  ![ オファー分析レポート、日別統計、提案のカウント、承認済みおよび拒否された率、およびグラフ ](assets/offer_report_perdate.png)
 
 * スペース別：
 
-  ![](assets/offer_report_perspaces.png)
+  ![ オファー分析レポート、スペースごとの統計、チャネル別の承認済み率と拒否された率、および棒グラフ ](assets/offer_report_perspaces.png)
 
 * 配信別：
 
-  ![](assets/offer_report_perdeliveries.png)
+  ![ オファー分析レポート、配信ごとの統計、提案、受け入れ済み数および拒否された数（配信別） ](assets/offer_report_perdeliveries.png)
 
 レポートの上部で使用できる様々な条件に基づいて、データをフィルタリングできます。 目的の基準を選択して、「**[!UICONTROL 更新]**」リンクをクリックすると、レポートに適用されます。

@@ -21,20 +21,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 88%
+source-wordcount: '209'
+ht-degree: 70%
 ---
 # 最適なオファーの提示{#interaction-present-offers}
 
 オファーは、[インバウンドチャネルまたはアウトバウンドチャネル](interaction-architecture.md#interaction-types)を使用して、様々なオファースペースに提示できます。 この章では、インバウンドチャネルに特有の機能について詳しく説明します。
 
-![](assets/inbound-interactions.png)
+![ インバウンドフロー：サイトを参照し、Cookieまたはログインで訪問者を特定すると、Offer Engineはカタログから最適なオファーを選択します](assets/inbound-interactions.png)
 
 オファーがオファーエンジンで選択されるためには、オファーが承認されてライブ環境で使用可能でなければなりません。
 
-詳しくは、[この節](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
+詳しくは、[ オファーコンテンツの承認](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
 
 インバウンドコンタクトのコンテキストでは、ページを閲覧しているユーザーをweb サイトで識別できます。 オファーエンジンは、識別されたプロファイル用と匿名プロファイル用に、異なるオファーを提示します。
 
@@ -44,4 +44,4 @@ ht-degree: 88%
 >
 >インバウンドインタラクションの場合は、1 つまたは複数のオファーを提示および更新するようにオファーエンジンを明確に設定する必要があります。
 >
->また、オファースペースで単一モードを有効にする必要があります。 詳しくは、[このページ](interaction-offer-spaces.md)を参照してください。
+>また、オファースペースで単一モードを有効にする必要があります。 詳しくは、[ キャンペーンインタラクションオファースペース ](interaction-offer-spaces.md)を参照してください。

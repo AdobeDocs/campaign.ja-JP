@@ -23,10 +23,10 @@ feature_v2:
     internal-label: Offers
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 93%
+source-wordcount: '211'
+ht-degree: 76%
 ---
 # オファーテンプレートの管理{#managing-offer-templates}
 
@@ -41,7 +41,7 @@ ht-degree: 93%
 1. **リソース**／**テンプレート**／**オファーテンプレート**&#x200B;に移動します。
 1. **新規**&#x200B;アイコンをクリックします。
 
-   ![](assets/offer_model_001.png)
+   ![新しいボタンが強調表示され、新しいオファーの「一般」タブが表示されたエクスプローラーのオファーテンプレートフォルダー](assets/offer_model_001.png)
 
 1. 通常のオファーと同じプロセスでテンプレートを設定し、「**保存**」をクリックして保存します。
 
@@ -52,10 +52,10 @@ ht-degree: 93%
 1. **リソース／テンプレート／オファーテンプレート**&#x200B;に移動します。
 1. 複製するテンプレートをマウスで右クリックし、ドロップダウンメニューから「**複製**」を選択します。
 
-   ![](assets/offer_model_002.png)
+   ![複製コマンドがハイライト表示されたテンプレートのコンテキストメニュー](assets/offer_model_002.png)
 
 1. 必要に応じて、テンプレートに表示させる内容を設定してから、「**保存**」をクリックしてテンプレートを保存します。
 
 これで、オファーの作成時にこのテンプレートを利用できるようになります。
 
-![](assets/offer_modelcreated_001.png)
+![ オファーテンプレートフォルダーのマーケティングオファー選択ダイアログ。2つのオファーテンプレートが一覧表示されます](assets/offer_modelcreated_001.png)

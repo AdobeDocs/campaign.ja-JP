@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 94%
+source-wordcount: '1655'
+ht-degree: 92%
 ---
 # リアルタイムインタラクションの管理
 
@@ -42,7 +42,7 @@ Campaign には&#x200B;**インタラクション**&#x200B;モジュールが付
 
 インタラクションではオファーのカタログを作成して管理することができ、カタログにリンクされた実施要件ルールとアプリケーションテーマを設定することもできます。 様々なレンダリング関数を活用することで、選択したチャネルに応じてオファーコンテンツをパーソナライズできます。 最後に、シミュレーションモジュールを使用してオファー表示域の影響を計算できます。
 
-![](assets/interaction-cycle.png)
+![ オファーエンジンサイクル：エンジン呼び出し、カタログ呼び出し、選択とパーソナライゼーション、履歴、オファープレゼンテーション ](assets/interaction-cycle.png)
 
 まず、コミュニケーション チャネルを介して顧客と企業の間で連絡先が発生します。web サイト（インバウンドインタラクション）、電子メール、SMS、プッシュ通知（アウトバウンドインタラクション）を選択できます。 [詳細情報](#interaction-types)
 
@@ -76,7 +76,7 @@ Campaign には&#x200B;**インタラクション**&#x200B;モジュールが付
 
 1. 1 つまたは複数のオファーを提示および更新するために、インバウンドインタラクションのオファーエンジンを設定します。
 
-   各種の統合モードについて詳しくは、[この節](interaction-present-offers.md)を参照してください。
+   様々な統合モードについて詳しくは、[ オファーの提示（インバウンドインタラクション） ](interaction-present-offers.md)を参照してください。
 
    >[!NOTE]
    >

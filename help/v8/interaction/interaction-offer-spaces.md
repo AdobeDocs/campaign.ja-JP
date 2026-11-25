@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 95%
+source-wordcount: '1067'
+ht-degree: 78%
 ---
 # オファースペースの作成{#creating-offer-spaces}
 
@@ -37,27 +37,27 @@ ht-degree: 95%
 
 レンダリング関数を使用して、HTML レンダリングが作成されます。 レンダリング関数で定義するフィールドのシーケンスは、コンテンツで設定したシーケンスと同じである必要があります。
 
-![](assets/offer_space_create_009.png)
+![必須フィールドを含むオファースペースのプロパティ画像URL、宛先URL、タイトル、および一致するHTML レンダリング関数](assets/offer_space_create_009.png)
 
 新しいオファースペースを作成するには、次の手順に従います。
 
 1. オファースペースのリストで、「**[!UICONTROL 新規]**」をクリックします。
 
-   ![](assets/offer_space_create_001.png)
+   ![新しいボタンが強調表示され、電子メールオファースペースが選択されたオファースペースリスト ](assets/offer_space_create_001.png)
 
 1. 使用するチャネルを選択して、オファースペースのラベルを変更します。
 
-   ![](assets/offer_space_create_002.png)
+   ![ オファースペースの「プロパティ」タブ。ラベルは「電子メール/クライアント」に、チャネルは「電子メール ](assets/offer_space_create_002.png)」に設定されています
 
 1. 「**[!UICONTROL 単一モードを有効にする]**」オプションをオンにします。
 
 1. **[!UICONTROL コンテンツフィールド]**&#x200B;ウィンドウに移動して、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/offer_space_create_003.png)
+   ![ オファーコンテンツフィールドリストの横にある追加ボタンを使用したオファースペースのプロパティ ](assets/offer_space_create_003.png)
 
 1. **[!UICONTROL コンテンツ]**&#x200B;ノードに移動して、フィールドを「**[!UICONTROL タイトル]**」、「**[!UICONTROL 画像 URL]**」、「**[!UICONTROL HTML コンテンツ]**」、「**[!UICONTROL 宛先 URL]**」の順に選択します。
 
-   ![](assets/offer_space_create_004.png)
+   ![画像URL、テキストコンテンツ、タイトルなど、コンテンツフィールドを一覧表示する式ダイアログを選択](assets/offer_space_create_004.png)
 
 1. 各フィールドを必須にするには、「**[!UICONTROL 必須]**」オプションをオンにします。
 
@@ -65,7 +65,7 @@ ht-degree: 95%
    >
    >このオプションはプレビューで使用され、オファーに必須フィールドが1つ含まれていない場合は、公開時にオファースペースを無効にします。 ただし、既にオファースペース上でオファーがライブになっている場合は、これらの条件は考慮されません。
 
-   ![](assets/offer_space_create_005.png)
+   ![ タイトル、画像URL、HTML コンテンツおよび宛先URLを含むオファーコンテンツフィールドリスト、すべて必須](assets/offer_space_create_005.png)
 
 1. 「**[!UICONTROL 関数を編集]**」をクリックし、レンダリング関数を作成します。
 
@@ -73,12 +73,12 @@ ht-degree: 95%
 
    **注意** - XML 形式は、このバージョンの製品では使用できないインバウンドインタラクションに制限されます。 [詳細情報](../start/v7-to-v8.md#gs-unavailable-features)
 
-   ![](assets/offer_space_create_006.png)_
+   ![ レンダリング関数の下の「関数を編集」リンクが強調表示されたオファースペースのプロパティ ](assets/offer_space_create_006.png)_
 
 1. 「**[!UICONTROL HTML レンダリング]**」タブに移動して、「**[!UICONTROL HTML レンダリング関数をオーバーロード]**」を選択します。
 1. レンダリング関数を挿入します。
 
-   ![](assets/offer_space_create_007.png)
+   ![HTML レンダリング機能のオーバーロード オプションとサンプル関数を含むHTML レンダリング タブ ](assets/offer_space_create_007.png)
 
 ## オファーの提案ステータス {#offer-proposition-statuses}
 
@@ -116,7 +116,7 @@ ht-degree: 95%
 1. 目的のスペースの「**[!UICONTROL ストレージ]**」タブに移動します。
 1. 提案を作成時に提案に適用するステータスを選択します。
 
-   ![](assets/offer_update_status_001.png)
+   ![提案ステータス リストが開き、提示ステータスが選択されているストレージ タブ ](assets/offer_update_status_001.png)
 
 ### 提案承認時のオファーのステータス {#configuring-the-status-when-the-proposition-is-accepted}
 
@@ -127,20 +127,20 @@ ht-degree: 95%
 1. 目的のスペースの「**[!UICONTROL ストレージ]**」タブに移動します。
 1. 提案が承認されたときに提案に適用するステータスを選択します。
 
-   ![](assets/offer_update_status_002.png)
+   ![受け入れ時ステータス リストが開き、受け入れ済みステータスが選択されているストレージ タブ ](assets/offer_update_status_002.png)
 
 
 **インバウンドインタラクション**
 
 「**[!UICONTROL ストレージ]**」タブでは、**提案**&#x200B;および&#x200B;**承認**&#x200B;されたオファーの提案に対してのみステータスを定義できます。 インバウンドインタラクションの場合、オファー提案のステータスは、インターフェイスを介してではなく、オファーエンジンを呼び出すための URL で直接指定する必要があります。 こうすることで、オファーの提案が却下された場合など、その他の場合に適用されるステータスを指定できるようになります。
 
-```
+```xml
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
 例えば、**Neobank** サイトに表示される **Home insurance** オファーに合致する提案（識別子 **40004**）には、次の URL が含まれます。
 
-```
+```xml
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">
 ```
 
@@ -150,13 +150,13 @@ ht-degree: 95%
 >
 >URL で別のステータスを指定する場合（オファーの提案が却下された場合など）は、望ましいステータスに対応する値を使用します。 例：**[!UICONTROL 却下]** = &quot;5&quot;、**[!UICONTROL 提示済み]** = &quot;1&quot; など。
 >
->ステータスとその値は、「**[!UICONTROL オファーの提案（nms）]**」 データスキーマで取得できます。 詳しくは、[このページ](../dev/create-schema.md)を参照してください。
+>ステータスとその値は、「**[!UICONTROL オファーの提案（nms）]**」 データスキーマで取得できます。 詳しくは、「[Campaign](../dev/create-schema.md)で新しいスキーマを作成する」を参照してください。
 
 **アウトバウンドインタラクション**
 
 配信にリンクが含まれる場合は、オファーの提案に&#x200B;**[!UICONTROL 関心あり]**&#x200B;のステータスを自動適用できます。 単に **_urlType=&quot;11&quot;** という値をリンクに付加します。
 
-```
+```xml
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
 ```
 
@@ -164,13 +164,13 @@ ht-degree: 95%
 
 「**[!UICONTROL プレビュー]**」タブで、受信者がそのメソッドでの実施要件を満たすオファーを表示できます。 次の例では、受信者は、メールでのオファーの提案 3 件に対して実施要件を満たしています。
 
-![](assets/offer_space_overview_002.png)
+![ オファースペースの「プレビュー」タブ。3つの実施要件を満たすオファーが重みでランク付けされ、レンダリングされたオファーコンテンツが表示されます](assets/offer_space_overview_002.png)
 
 受信者が実施要件を満たしているオファーがない場合、プレビュー画面は次のように表示されます。
 
-![](assets/offer_space_overview_001.png)
+「![ オファー領域のプレビュー」タブに、「オファーは対象外です」というメッセージが表示されている](assets/offer_space_overview_001.png)
 
 
 プレビューでは、特定のスペースに限定されているコンテキストを無視できます。 これは、インタラクションスキーマを拡張して、インバウンドチャネルを使用してスペースで参照されるフィールドを追加した場合です。
 
-詳しくは、[このセクション &#x200B;](extension-example.md)のこのサンプルを参照してください。
+詳しくは、[拡張機能の例](extension-example.md)のこのサンプルを参照してください。
