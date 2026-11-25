@@ -65,7 +65,7 @@ ht-degree: 81%
 
 1. 調査
 
-   **調査マネージャー**&#x200B;オプションを使用すると、Adobe Campaign でオンライン調査を設計および管理して、結果を処理することができます。動的なフィールド作成、スコア管理、回答および専用レポートのエクスポートなどをおこなうことができます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
+   **調査マネージャー**&#x200B;オプションを使用すると、Adobe Campaign でオンライン調査を設計および管理して、結果を処理することができます。動的なフィールド作成、スコア管理、回答および専用レポートのエクスポートなどをおこなうことができます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"}（Campaign v8 ドキュメント）を参照してください。
 
    >[!CAUTION]
    >
@@ -73,7 +73,7 @@ ht-degree: 81%
 
 1. Facebook アプリケーション
 
-   **Social Marketing** オプションを使用すると、Adobe Campaign で Facebook アプリケーションの個人用コンテンツを公開できます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}を参照してください。
+   **Social Marketing** オプションを使用すると、Adobe Campaign で Facebook アプリケーションの個人用コンテンツを公開できます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}を参照してください。
 
    >[!CAUTION]
    >
