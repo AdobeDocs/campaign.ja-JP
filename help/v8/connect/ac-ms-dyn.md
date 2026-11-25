@@ -173,7 +173,7 @@ ht-degree: 89%
 1. 「**タイプ**」セクションの **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントに選択します。
 1. 認証方法を「**[!UICONTROL CRM O-Auth タイプ]**」ドロップダウンリストで選択します。
 
-   ![ サーバー、アカウント、CRM O-Auth タイプ、パスワードおよびCRM バージョン ](assets/ms-dyn-external-account.png)を持つMicrosoft Dynamics CRM外部アカウント
+   ![&#x200B; サーバー、アカウント、CRM O-Auth タイプ、パスワードおよびCRM バージョン &#x200B;](assets/ms-dyn-external-account.png)を持つMicrosoft Dynamics CRM外部アカウント
 
    1. Microsoft Dynamics CRM 外部アカウントを設定して Adobe Campaign と&#x200B;**パスワード資格情報**&#x200B;を接続するには、次の詳細を入力します。
 
@@ -226,7 +226,7 @@ Adobe Campaign データと Microsoft CRM の間でデータを同期させる�
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-キャンペーン [の列挙管理について詳しくは、このページ ](../config/enumerations.md)を参照してください。
+キャンペーン [の列挙管理について詳しくは、このページ &#x200B;](../config/enumerations.md)を参照してください。
 
 ### サポートされているフィールドデータタイプ {#ms-dyn-supported-types}
 

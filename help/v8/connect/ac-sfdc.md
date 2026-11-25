@@ -59,7 +59,7 @@ Salesforce データを Adobe Campaign にインポートおよびエクスポ�
 1. 「**タイプ**」セクションの **[!UICONTROL Salesforce.com]** 外部アカウントを選択します。
 1. 接続を有効にするための設定を入力します。
 
-   ![ アカウント、パスワード、セキュリティトークン、およびAPI バージョンのフィールドを持つSalesforce CRM外部アカウント ](assets/sfdc-external-account.png)
+   ![&#x200B; アカウント、パスワード、セキュリティトークン、およびAPI バージョンのフィールドを持つSalesforce CRM外部アカウント &#x200B;](assets/sfdc-external-account.png)
 
    Salesforce CRM 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報を提供する必要があります。
 
@@ -107,4 +107,4 @@ Adobe Campaign データと SFDC の間でデータを同期させるには、�
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-キャンペーン [の列挙管理について詳しくは、このページ ](../config/enumerations.md)を参照してください。
+キャンペーン [の列挙管理について詳しくは、このページ &#x200B;](../config/enumerations.md)を参照してください。

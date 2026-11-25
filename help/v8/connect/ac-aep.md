@@ -50,15 +50,15 @@ Adobe Experience Platform オーディエンスを Adobe Campaign に送信し�
   1. オーディエンスにエクスポートする属性を設定します。
   1. フローが設定されると、選択したオーディエンスを Adobe Campaign でのアクティベーションに使用できるようになります。
 
-     同期されたセグメントとオーディエンスの詳細を示すAEP Audiences フォルダーの![Adobe Campaign コンソールのリスト ](assets/aep-destination.png){width="800" align="center"}
+     同期されたセグメントとオーディエンスの詳細を示すAEP Audiences フォルダーの![Adobe Campaign コンソールのリスト &#x200B;](assets/aep-destination.png){width="800" align="center"}
 
-  宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください
+  宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください
 
 * Adobe Campaign Managed Cloud Services **ソース接続**&#x200B;を使用すると、Adobe Campaign の配信ログとトラッキングログを Adobe Experience Platform に送信できます。
 
   これを行うには、Campaign イベントをAdobe Experience Platformに取り込むように新しいAdobe Campaign Managed Cloud Services **Source接続**&#x200B;を設定します。 Campaign インスタンスと使用するスキーマの詳細を指定し、データを取り込むデータセットを選択してから、取得するフィールドを設定します。 [Adobe Campaign Managed Cloud Services ソース接続の作成方法についてはこちらから](https://www.adobe.com/go/sources-campaign-ui-en)
 
-  ![取り込んだレコード、バッチ、および成功ステータスを含むAdobe Campaign トラッキングログデータセットアクティビティページ ](assets/aep-logs.png){width="800" align="center"}
+  ![取り込んだレコード、バッチ、および成功ステータスを含むAdobe Campaign トラッキングログデータセットアクティビティページ &#x200B;](assets/aep-logs.png){width="800" align="center"}
 
 ## Adobe Experience Platform と Adobe Campaign の間でのプロファイル属性の同期 {#profile}
 
@@ -75,10 +75,10 @@ Adobe Experience Platform プロファイル属性を Adobe Campaign と同期�
 1. Adobe Experience Platform 宛先カタログにアクセスし、新しい **[!UICONTROL Adobe Campaign Managed Cloud Services]** 接続を作成します。
 1. 使用する Campaign インスタンスの詳細を指定し、同期タイプとして「**[!UICONTROL プロファイルの同期（更新のみ）]**」を選択します。
 
-   ![Select sync typeがProfile syncに設定されたExperience Platformで新しい宛先ページを設定する（更新のみ） ](assets/aep-profile-sync.png){width="800" align="center"}
+   ![Select sync typeがProfile syncに設定されたExperience Platformで新しい宛先ページを設定する（更新のみ） &#x200B;](assets/aep-profile-sync.png){width="800" align="center"}
 
 1. Adobe Campaign データベースに更新するプロファイルをターゲティングするセグメントを選択します。
 1. Adobe Campaign に更新するプロファイル属性を設定します。
 1. フローが設定されると、選択したプロファイル属性が Adobe Campaign と同期され、宛先に設定されたセグメントのターゲットとなるすべてのプロファイルに対して更新されます。
 
-宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント ](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください
+宛先の設定方法について詳しくは、[Adobe Campaign Managed Cloud Services接続ドキュメント &#x200B;](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}を参照してください
