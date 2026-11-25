@@ -102,7 +102,7 @@ logInfo(strUuid);
 
 その結果、ステージングテーブルが期待どおりに供給されます。
 
-![ ステージング スキーマのサンプル テーブル （ステージング） コンテンツに、テスト列1とテスト列2の値を含む4つのレコードが一覧表示されています](assets/no-reconciliation.png)
+![&#x200B; ステージング スキーマのサンプル テーブル （ステージング） コンテンツに、テスト列1とテスト列2の値を含む4つのレコードが一覧表示されています](assets/no-reconciliation.png)
 
 ### 紐付けして挿入
 
@@ -122,7 +122,7 @@ logInfo(strUuid);
 
 ワークフローが実行されると、ステージングテーブルが期待どおりにフィードされます。
 
-![ ステージング スキーマのサンプル テーブル （ステージング） コンテンツに、ABC12345およびABDCD321](assets/with-reconciliation.png)を含む6つのレコードが一覧表示されるようになりました
+![&#x200B; ステージング スキーマのサンプル テーブル （ステージング） コンテンツに、ABC12345およびABDCD321](assets/with-reconciliation.png)を含む6つのレコードが一覧表示されるようになりました
 
 
 **SOAP 呼び出しから**
@@ -183,7 +183,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ワークフローが実行されると、ステージングテーブルが期待どおりに更新されます。
 
-![ レコード ABC12345にtestValue A （更新）とtestValue B （更新）が表示されるステージング テーブル コンテンツ ](assets/updated-data.png)
+![&#x200B; レコード ABC12345にtestValue A （更新）とtestValue B （更新）が表示されるステージング テーブル コンテンツ &#x200B;](assets/updated-data.png)
 
 **SOAP 呼び出しから**
 

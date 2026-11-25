@@ -105,7 +105,7 @@ Campaign v8 は、スケジュールされたデータレプリケーション�
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
-  パラメーターffdaReplicateStaging -stagingSchema -instance:acc1](assets/nlmodule.png)を持つ![nlserver モジュールアクティビティ
+  パラメーターffdaReplicateStaging -stagingSchema -instance:acc1![&#128279;](assets/nlmodule.png)を持つnlserver モジュールアクティビティ
 
 +++
 
