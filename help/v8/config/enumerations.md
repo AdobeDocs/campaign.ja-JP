@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 85%
+source-wordcount: '877'
+ht-degree: 83%
 ---
 # 列挙の操作 {#enumerations}
 
@@ -42,7 +42,7 @@ ht-degree: 85%
 
 定義すると、値がドロップダウンリストに表示されます。 値は、直接選択するか、予測入力を使用して入力することができます。予測入力では、一致するエントリを提案して完成させます。 一部のフィールドには定義済みリストが含まれており、必要に応じて追加の定義済みリストを作成できます。
 
-![](assets/enum_values.png)
+![言語ドロップダウンが開いている受信者フォーム。列挙値が英語、フランス語、イタリア語、ロシア語、スペイン語で表示されている](assets/enum_values.png)
 
 
 ## 列挙のタイプ {#types-of-enum}

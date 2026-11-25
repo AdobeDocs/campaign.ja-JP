@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 90%
+source-wordcount: '1120'
+ht-degree: 86%
 ---
 # Campaign ユーザーインターフェイスの設定 {#ui-settings}
 
@@ -45,13 +45,13 @@ Adobe Campaign では、有効期間（リソースの有効期間、タスク�
 
 Campaign エクスプローラーにフォルダーを追加したり、ビューを作成したり、権限を割り当てたりできます。
 
-フォルダーとビューを管理する方法については、[このページ](../audiences/folders-and-views.md)を参照してください
+[ フォルダーとビュー](../audiences/folders-and-views.md)でフォルダーとビューを管理する方法について説明します
 
 ## リストの管理とカスタマイズ {#customize-lists}
 
 Campaign クライアントコンソールでは、データはリストに表示されます。 これらのリストは、ニーズに合わせて調整できます。 例えば、列の追加、データのフィルタリング、レコードのカウント、設定の保存と共有を行うことができます。
 
-また、フィルターを作成して保存できます。  フィルターについて詳しくは、[このページ](../audiences/create-filters.md)を参照してください。
+また、フィルターを作成して保存できます。  [Adobe Campaignでのフィルターの操作](../audiences/create-filters.md)のフィルターについて詳しく説明します。
 
 ### レコードの数 {#number-of-records}
 
@@ -107,7 +107,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 
 「**[!UICONTROL 値の配分]**」アイコンを使用し、現在のフォルダーの選択されたフィールドの値の配分を参照できます。
 
-![](assets/value-distribution.png)
+![ サービスとサブスクリプション フォルダーの各タイプとそのカウントとパーセンテージを一覧表示する値の配布ダイアログ ](assets/value-distribution.png)
 
 
 ### 新しい列の作成 {#create-a-new-column}
@@ -145,7 +145,7 @@ Adobe Campaign には、デフォルトで、リストの最初の 200 件のレ
 1. 「**[!UICONTROL 詳細設定]**」をクリックし、「**[!UICONTROL 設定]**」フィールドで名前を指定します。
 1. 「**[!UICONTROL OK]**」をクリックし、「**[!UICONTROL 保存]**」をクリックします。
 
-次に、この設定を同じタイプの別のフォルダーに適用できます。 フォルダーについて詳しくは、[このページ](../audiences/folders-and-views.md)を参照してください。
+次に、この設定を同じタイプの別のフォルダーに適用できます。 [ フォルダーとビュー](../audiences/folders-and-views.md)のフォルダーについて詳しく説明します。
 
 ### リストのエクスポート {#exporting-a-list}
 

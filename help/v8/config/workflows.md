@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 89%
+source-wordcount: '675'
+ht-degree: 85%
 ---
 # ワークフローの基本を学ぶ{#gs-with-workflows}
 
@@ -101,7 +101,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Query your targeted recipients with a **[!UICONTROL Query]** activity.
 
-    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}.
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
 
@@ -109,7 +109,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html?lang=ja){target="_blank"}.
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
 1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database.
 
@@ -126,7 +126,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 ワークフローの&#x200B;**[!UICONTROL プロパティ]**&#x200B;の「**[!UICONTROL 実行]**」タブで、ワークフローをさまざまなウェアハウスにリンクし、ワークロード管理を最適化することができます。 **ウェアハウス**&#x200B;について詳しくは、[Snowflake ドキュメント](https://docs.snowflake.com/ja/user-guide/warehouses-overview.html){target="_blank"}を参照してください。
 
-![](assets/warehouse.png)
+![ ウェアハウス ドロップダウンが開いている「ワークフロープロパティの実行」タブ：デフォルト、キャンペーン、インポート/エクスポート、およびキャンペーンバースト ](assets/warehouse.png)
 
 ワークフローの目的に応じて、「**[!UICONTROL ウェアハウス]**」ドロップダウンから次の 3 つのウェアハウスを選択できます。
 
@@ -151,11 +151,11 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 Campaign トランザクションメッセージを使用すると、情報システムからトリガーされるイベントに基づいて、メッセージを自動的に生成できます。 トランザクションメッセージの例としては、請求書送付、注文確認、発送確認、パスワード変更、商品の在庫切れ通知、取引明細書送付、web サイトのアカウント作成などがあります。 これらのメッセージは、個別に送信することも、メール、SMS、またはプッシュ通知を介してバッチで送信することもできます。
 
-トランザクションメッセージ機能について詳しくは、[この節](../send/transactional.md)を参照してください。
+トランザクションメッセージ機能について詳しくは、[Campaign トランザクションメッセージ ](../send/transactional.md)を参照してください。
 
 Adobe Campaign と Adobe Analytics を接続すると、ユーザーのアクションを取得し、パーソナライズされたメッセージをほぼリアルタイムで送信することができます。
 
-Campaign を他のソリューションと統合する方法については、[この節](../start/connect.md)を参照してください
+Campaignを他のソリューションと統合する方法については、[Campaign v8](../start/connect.md)に接続してください
 
 
 ## ワークフローのエンドツーエンドのユースケース{#end-to-end-uc}
