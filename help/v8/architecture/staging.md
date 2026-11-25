@@ -34,10 +34,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 78%
+source-wordcount: '345'
+ht-degree: 70%
 ---
 # Campaign API のステージングメカニズム
 
@@ -66,7 +66,7 @@ Campaign のステージングメカニズムを特定のテーブルに実装�
 
 1. Campaign クラウドデータベースでサンプルのカスタムスキーマを作成します。 この段階では、ステージングは有効になっていません。
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -79,13 +79,13 @@ Campaign のステージングメカニズムを特定のテーブルに実装�
    </srcSchema>
    ```
 
-   カスタムスキーマの作成について詳しくは、[このページ](../dev/create-schema.md)を参照してください。
+   カスタムスキーマの作成について詳しくは、[Campaign](../dev/create-schema.md)で新しいスキーマを作成してください。
 
 1. データベース構造を保存して更新します。  [詳細情報](../dev/update-database-structure.md)
 
 1. **autoStg=&quot;true&quot;** パラメーターを追加して、スキーマ定義のステージングメカニズムを有効にします。
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -100,6 +100,6 @@ Campaign のステージングメカニズムを特定のテーブルに実装�
 
 1. 変更を保存します。 新しいステージングスキーマが使用可能になります。これは、初期スキーマのローカルコピーです。
 
-   ![](assets/staging-mechanism.png)
+   サンプルテーブル （ステージング）用に生成されたステージングスキーマ dem:sampleTableStgの![XML ソース。初期スキーマ ](assets/staging-mechanism.png)のローカルコピー
 
 1. データベース構造を更新します。 ステージングテーブルが、Campaign ローカルデータベースに作成されます。

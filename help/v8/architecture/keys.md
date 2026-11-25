@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 64%
+source-wordcount: '701'
+ht-degree: 55%
 ---
 # 鍵の管理と単一性 {#key-management}
 
@@ -73,11 +73,11 @@ Unicity Service は専用の&#x200B;**[!UICONTROL 単一性アラート]**&#x200
 
 このワークフローは、すべてのカスタムおよびビルトインスキーマをチェックし、重複した行を検出します。
 
-![](assets/unicity-alerting-wf.png)
+![単一性アラート （ffdaUnicity） ワークフロー：スキーマ チェック、重複行の検出、テスト、アラート、終了、およびクリーンアップ アクティビティ ](assets/unicity-alerting-wf.png)
 
 **[!UICONTROL 単一性アラート]**（ffdaUnicity）ワークフローが重複キーを検出した場合、スキーマ名、キーのタイプ、影響を受ける行数、日付を含む特定の&#x200B;**単一性監査**&#x200B;テーブルに追加されます。 **[!UICONTROL 管理／監査／キー単一性]**&#x200B;ノードの重複したキーにアクセスすることができます。
 
-![](assets/unicity-table.png)
+スキーマ ID、キー定義、キーの種類、重複した値、重複した数、作成日](assets/unicity-table.png)の![ キー単一性リスト
 
 データベース管理者は SQL アクティビティを使用して重複を削除するか、アドビカスタマーケアに詳細をお問い合わせください。
 
@@ -85,7 +85,7 @@ Unicity Service は専用の&#x200B;**[!UICONTROL 単一性アラート]**&#x200
 
 重複したキーが検出された場合、特定の通知が&#x200B;**[!UICONTROL ワークフロースーパーバイザー]**&#x200B;オペレーターグループに送信されます。 このアラートのコンテンツとオーディエンスは、**[!UICONTROL 単一性アラート]**&#x200B;ワークフローの&#x200B;**アラート**&#x200B;アクティビティで変更できます。
 
-![](assets/wf-alert-activity.png)
+![単一性アラートのアラートアクティビティ。重複したキーメッセージを含むワークフロースーパーバイザーグループに割り当てられている](assets/wf-alert-activity.png)
 
 
 ## 追加のガードレール {#duplicates-guardrails}
@@ -94,25 +94,25 @@ Campaignには、[!DNL Snowflake] データベースに重複するキーを挿�
 
 >[!NOTE]
 >
->これらのガードレールは、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](../start/compatibility-matrix.md)を参照してください
+>これらのガードレールは、Campaign v8.3以降で使用できます。 バージョンを確認するには、[Campaign v8互換性マトリックス ](../start/compatibility-matrix.md)を参照してください
 
 ### 配信準備 {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign は、配信の準備中に重複した UUID をオーディエンスから自動的に削除します。 このメカニズムは、配信の準備中にエラーが発生するのを防ぎます。 エンドユーザーは、配信ログでこの情報を確認できます。一部の受信者は、キーが重複しているため、メインターゲットから除外できます。 その際、次の警告が表示されます。`Exclusion of duplicates (based on the primary key or targeted records)`
 
-![](assets/exclusion-duplicates-log.png)
+![矢印でハイライト表示された重複の除外（ターゲットレコードのプライマリキーに基づく）を含む配信ログ ](assets/exclusion-duplicates-log.png)
 
 ### ワークフロー内のデータ更新 {#duplicates-update-data}
 
-[Enterprise （FFDA） デプロイメント &#x200B;](enterprise-deployment.md)のコンテキストでは、ワークフロー内のデータを更新するフィールドとして内部キー（UUID）を選択することはできません。
+[Enterprise （FFDA） デプロイメント ](enterprise-deployment.md)のコンテキストでは、ワークフロー内のデータを更新するフィールドとして内部キー（UUID）を選択することはできません。
 
-![](assets/update-data-no-internal-key.png)
+![受信者（nms:recipient）のフィールドセレクターでデータアクティビティを更新します。内部キーフィールドは選択できません](assets/update-data-no-internal-key.png)
 
 ### 重複を含むスキーマのクエリ {#query-with-duplicates}
 
-ワークフローがスキーマ上でクエリの実行を開始すると、Adobe Campaignは、[監査単一性テーブル &#x200B;](#unicity-wf)に重複したレコードが報告されているかどうかを確認します。 その場合、重複したデータに対するその後の操作がワークフローの結果に影響を与える可能性があるため、ワークフローは警告をログに記録します。
+ワークフローがスキーマ上でクエリの実行を開始すると、Adobe Campaignは、[監査単一性テーブル ](#unicity-wf)に重複したレコードが報告されているかどうかを確認します。 その場合、重複したデータに対するその後の操作がワークフローの結果に影響を与える可能性があるため、ワークフローは警告をログに記録します。
 
-![](assets/query-with-duplicates.png)
+警告の単一性制約を含む![ ワークフローログに違反しました。 スキーマ nms:recipient](assets/query-with-duplicates.png)で重複データが見つかりました
 
 このチェックは、次のワークフローアクティビティで実行されます。
 

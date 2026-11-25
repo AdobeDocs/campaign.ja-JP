@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '869'
+ht-degree: 94%
 ---
 # データレプリケーション {#wf-data-replication}
 
@@ -97,7 +97,7 @@ Campaign v8 は、スケジュールされたデータレプリケーション�
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
-  ![](assets/jscode.png)
+  ![dem:sampleTable](assets/jscode.png)のスクリプト nms.replicationStrategy.StartReplicateStagingDataを使用したJavaScript コード アクティビティ
 
 * 次のコマンドを使用して、特定の **nlmodule** アクティビティを追加する：
 
@@ -105,7 +105,7 @@ Campaign v8 は、スケジュールされたデータレプリケーション�
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
-  ![](assets/nlmodule.png)
+  パラメーターffdaReplicateStaging -stagingSchema -instance:acc1](assets/nlmodule.png)を持つ![nlserver モジュールアクティビティ
 
 +++
 
@@ -147,6 +147,6 @@ var xml = xtk.builder.CopyXxlData(
 
 このビデオでは、Adobe Campaign v8 が使用するデータベース、データがレプリケートされる理由、レプリケートされるデータおよびレプリケーションプロセスの仕組みに関する主な概念について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3417456?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
 Campaign v8 クライアントコンソールに関するその他のチュートリアルについては、[こちら](https://experienceleague.adobe.com/ja/docs/campaign-learn/tutorials/overview)を参照してください。

@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 71%
+source-wordcount: '1176'
+ht-degree: 63%
 ---
 # Campaign アーキテクチャの基本を学ぶ{#gs-ac-archi}
 
@@ -62,7 +62,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 [FDA デプロイメント](fda-deployment.md)では、[!DNL Adobe Campaign] v8 は Federated Data Access 機能を通じて [!DNL Snowflake] に接続し、データにアクセスできます。Adobe Campaign データの構造を変更することなく、[!DNL Snowflake] データベースに保存された外部データおよび情報にアクセスし、処理することができます。 PostgreSQLはプライマリデータベースです。セカンダリデータベースとしてSnowflakeを使用すると、データモデルを拡張し、データをSnowflakeに保存できます。 その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。
 
 
-![](assets/P1-P3-architecture.png){zoomable="yes"}
+![Campaign v8 FDA アーキテクチャ：アプリケーションサーバー、PostgresおよびSnowflake データベース、リアルタイムおよびバッチ配信サーバー](assets/P1-P3-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Campaign は、完全な Campaign 環境を表す各インスタンスを持つ�
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。 この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。 テーブルを作成して、データをコピーし、利用を開始するだけです。 クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-![](assets/P4-architecture.png){zoomable="yes"}
+![Campaign v8 FFDA アーキテクチャ：アプリケーションサーバー、Snowflakeを備えたCloud Database、Postgres レプリケーション、配信サーバー](assets/P4-architecture.png){zoomable="yes"}
 
 
 ## 分割配信の実行 {#split}
@@ -97,7 +97,7 @@ Campaign v8 パッケージに応じて、配信の実行を担当する特定�
 * 分割配信 - iOS（splitDeliveryIOS）
 * 分割配信 - Android（splitDeliveryAndroid）
 
-![](assets/splitted-delivery.png)
+![外部アカウントの分割配信 – メール：ルーティング タイプ、メール チャネル、ミッドソーシング配信モード、名前splitDeliveryEmail](assets/splitted-delivery.png)
 
 >[!IMPORTANT]
 >
@@ -109,11 +109,11 @@ Campaign v8 パッケージに応じて、配信の実行を担当する特定�
 
 1. **[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL 配信テンプレート]**&#x200B;フォルダーに移動して、目的の配信テンプレートを開きます。 この例では、メール配信テンプレートを編集します。
 
-   ![](assets/split-default-list.png)
+   ![ リソース、テンプレート内の配信テンプレートリスト。メール配信テンプレート（メール）が選択されている](assets/split-default-list.png)
 
 1. 「**[!UICONTROL プロパティ]**」ボタンをクリックして、ルーティングプロバイダーを対応する分割配信外部アカウントに変更します。
 
-   ![](assets/split-default-delivery.png)
+   ![ ルーティング フィールドとSplitEmail](assets/split-default-delivery.png)を表示する外部アカウントリストを含む配信プロパティダイアログ
 
 1. 変更内容を保存します。 テンプレートを使用して送信されるすべての配信は、デフォルトで分割ルーティングモードを使用するようになりました。
 
@@ -127,7 +127,7 @@ In addition, you can select split external accounts as the default routing provi
 
 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計された Campaign モジュールです。
 
-トランザクションメッセージの送信方法について詳しくは、[この節](../send/transactional.md)を参照してください。
+[Campaign トランザクションメッセージ ](../send/transactional.md)でトランザクションメッセージを送信する方法について説明します。
 
 Web サイト上の顧客のアクションに応じて、イベントがREST APIを介してCampaignに送信され、メッセージテンプレートにAPI呼び出しを介して提供された情報またはデータが入力され、トランザクションメッセージがリアルタイムで顧客に送信されます。 これらのメッセージはメール、SMS、プッシュ通知などを介して、個別に送信することも、まとめて送信することもできます。
 
@@ -135,7 +135,7 @@ Web サイト上の顧客のアクションに応じて、イベントがREST AP
 
 * **コントロールインスタンス**（またはマーケティングインスタンス）は、マーケターや IT チームがメッセージテンプレートの作成、設定および公開に使用します。 また、イベントの監視と履歴を一元管理できます。
 
-  メッセージテンプレートの作成と公開の方法について詳しくは、[この節](../send/transactional.md)を参照してください。
+  [Campaign トランザクションメッセージ ](../send/transactional.md)でメッセージテンプレートを作成および公開する方法について説明します。
 
 * **実行インスタンス**&#x200B;は、受信イベント（パスワードのリセットやweb サイトからの注文など）を取得し、パーソナライズされたメッセージを送信します。 複数の実行インスタンスを使用して、ロードバランサーを介してメッセージを処理し、処理するイベントの数を拡張して最大限の可用性を確保できます。
 
@@ -143,7 +143,7 @@ Web サイト上の顧客のアクションに応じて、イベントがREST AP
 >
 >コントロールインスタンスおよび実行インスタンスは、異なるマシンにインストールする必要があります。 同じ Campaign インスタンスを共有できなくなります。
 
-![](assets/messagecenter_diagram.png)
+![Message Center: web サイトのイベントが制御インスタンス Pに到達し、実行インスタンス E1がENに到達し、メッセージが送信されます](assets/messagecenter_diagram.png)
 
 ### 認証
 
@@ -156,4 +156,4 @@ AdobeでホストされているMessage Center実行インスタンスと対話�
 * 複数の実行インスタンス
 ロードバランサーの背後に複数の実行インスタンスがあるマルチセル実行アーキテクチャでは、外部アプリケーションによって呼び出されるログオンメソッドがロードバランサーを経由します。そのため、トークンベースの認証は使用できません。 ユーザー／パスワードベースの認証が必要です。
 
-トランザクションメッセージのイベントについて詳しくは、[このページ](../send/event-processing.md)を参照してください。
+トランザクション メッセージ イベントの詳細については、[ イベントの収集と処理](../send/event-processing.md)を参照してください。

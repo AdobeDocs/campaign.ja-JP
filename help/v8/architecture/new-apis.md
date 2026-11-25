@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 72%
+source-wordcount: '492'
+ht-degree: 63%
 ---
 # 特定の FFDA Campaign API{#gs-new-api}
 
@@ -53,7 +53,7 @@ ht-degree: 72%
 
 **Javascript コード**&#x200B;アクティビティで次のコードを使用して、紐付けなしで Cloud データベースにデータを挿入します。
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg
                                 testcol1="testValue1"
                                 testcol2="testValue2"
@@ -70,7 +70,7 @@ logInfo(strUuid);
 1. 認証トークンを取得します。
 1. API のトリガー。 ペイロードは次のとおりです。
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -90,7 +90,7 @@ logInfo(strUuid);
 
 1. UUIDは、SOAPのレスポンスで返されます。
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -102,7 +102,7 @@ logInfo(strUuid);
 
 その結果、ステージングテーブルが期待どおりに供給されます。
 
-![](assets/no-reconciliation.png)
+![ ステージング スキーマのサンプル テーブル （ステージング） コンテンツに、テスト列1とテスト列2の値を含む4つのレコードが一覧表示されています](assets/no-reconciliation.png)
 
 ### 紐付けして挿入
 
@@ -110,7 +110,7 @@ logInfo(strUuid);
 
 **Javascript コード**&#x200B;アクティビティで次のコードを使用し、紐付けを使用して Cloud データベースにデータを挿入します。
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue1"
                               testcol2="testValue2"
@@ -122,7 +122,7 @@ logInfo(strUuid);
 
 ワークフローが実行されると、ステージングテーブルが期待どおりにフィードされます。
 
-![](assets/with-reconciliation.png)
+![ ステージング スキーマのサンプル テーブル （ステージング） コンテンツに、ABC12345およびABDCD321](assets/with-reconciliation.png)を含む6つのレコードが一覧表示されるようになりました
 
 
 **SOAP 呼び出しから**
@@ -130,7 +130,7 @@ logInfo(strUuid);
 1. 認証トークンを取得します。
 1. API のトリガー。 ペイロードは次のとおりです。
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -150,7 +150,7 @@ logInfo(strUuid);
 
 1. この場合、UUIDはペイロードで指定されているため、応答に返されません。 応答は次のとおりです。
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -172,7 +172,7 @@ logInfo(strUuid);
 
 **JavaScript コード**&#x200B;アクティビティで次のコードを使用して、Cloud データベース内のデータを更新します。
 
-```
+```javascript
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue A (updated)"
                               testcol2="testValue B (updated)"
@@ -183,14 +183,14 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ワークフローが実行されると、ステージングテーブルが期待どおりに更新されます。
 
-![](assets/updated-data.png)
+![ レコード ABC12345にtestValue A （更新）とtestValue B （更新）が表示されるステージング テーブル コンテンツ ](assets/updated-data.png)
 
 **SOAP 呼び出しから**
 
 1. 認証トークンを取得します。
 1. API のトリガー。 ペイロードは次のとおりです。
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -210,7 +210,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 1. SOAP 応答は次のとおりです。
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestExtResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default"/>
@@ -222,7 +222,7 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 ## 購読管理 {#sub-apis}
 
-Campaign の購読管理については、[このページ](../start/subscriptions.md)を参照してください。
+Campaignでのサブスクリプション管理については、[Campaignでのサブスクリプションとサブスクリプション解除の管理](../start/subscriptions.md)を参照してください。
 
 購読や購読解除のデータは、Campaign ローカルデータベースの[ステージングメカニズム](staging.md)を使用して挿入されます。 サブスクライバー情報は、一時的にローカルデータベースのステージングテーブルに保存され、同期ワークフローは、このデータをローカルデータベースからクラウドデータベースに送信します。 そのため、購読や購読解除のプロセスは&#x200B;**非同期**&#x200B;でおこなわれます。 オプトインやオプトアウトのリクエストは、特定のテクニカルワークフローによって 1 時間ごとに処理されます。 [詳細情報](replication.md#workflows)
 

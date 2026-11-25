@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 87%
+source-wordcount: '1093'
+ht-degree: 84%
 ---
 # [!DNL Campaign] FFDA デプロイメント {#gs-ac-ffda}
 
@@ -76,11 +76,11 @@ Campaign v8 Enterprise（FFDA）では、ターゲティングから最終的な
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。
 
-ローカルデータベースとクラウドデータベースの間でデータを管理するには、特定の API を使用できます。 これらの新しい API の動作と使い方については、[このページ](new-apis.md)を参照してください。
+ローカルデータベースとクラウドデータベースの間でデータを管理するには、特定の API を使用できます。 これらの新しいAPIの仕組みと使用方法については、[新しいCampaign v8 API](new-apis.md)を参照してください。
 
 サーバーとプロセス間の一般的な通信は、次のスキーマに従って実行されます。
 
-![](assets/architecture.png)
+![SnowflakeおよびPgSQL、Message Centerおよびミッドソーシングインスタンス、コンシューマー、トラッキング、手順1 ～ 4](assets/architecture.png)を含むマーケティングインスタンス
 
 * 実行とバウンスの管理モジュールがインスタンスで無効になっています。
 * アプリケーションは、SOAP 呼び出し（HTTP または HTTPS 経由）を使用して駆動されるリモートの「ミッドソース」サーバーでメッセージを実行するように設定されています。
