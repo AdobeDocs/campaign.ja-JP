@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 85%
+source-wordcount: '2046'
+ht-degree: 83%
 ---
 # プッシュ通知チャネルを設定 {#push-notification-configuration}
 
@@ -61,7 +61,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 1. （オプション）[Adobe Experience Platform Assurance をアプリに](https://developer.adobe.com/client-sdks/documentation/getting-started/validate/){target="_blank"}追加して、実装を検証します。 Adobe Experience Platform Assurance 拡張機能を実装する方法について詳しくは、[このページ](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}を参照してください。
 1. [このページ](#push-service)を参照して、Adobe Campaign で iOS および Android モバイルサービスを設定します。
 1. モバイルプロパティに [Adobe Campaign 拡張機能](#configure-extension)をインストールして設定します。
-1. [Adobe Experience Platform Mobile SDK ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}に従って、アプリでAdobe Experience Platform Mobile SDKを設定します。
+1. [Adobe Experience Platform Mobile SDK ドキュメント ](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}に従って、アプリでAdobe Experience Platform Mobile SDKを設定します。
 
 ## 前提条件 {#before-starting}
 
@@ -71,7 +71,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
 >[!CAUTION]
 >
->プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルとこの実装に関与するペルソナに応じて、権限の完全な設定を単一の製品プロファイルに割り当てるか、アプリ開発者と **Adobe Campaign** 管理者の間で権限を共有する必要がある場合があります。
+>プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルと関連するペルソナに応じて、すべての権限を単一の製品プロファイルに割り当てる必要がある場合があります。 または、アプリ開発者と&#x200B;**Adobe Campaign**&#x200B;管理者の間で権限を共有します。
 
 **プロパティ**&#x200B;および&#x200B;**会社**&#x200B;の権限を割り当てるには、次の手順に従います。
 
@@ -118,7 +118,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 以下のリンクに記載されている実装手順に従います。
 
 * **Apple iOS** の場合：アプリを APN に登録する方法について詳しくは、[Apple のドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}を参照してください。
-* **Google Android**&#x200B;の場合：AndroidでFirebase Cloud Messaging クライアント アプリを設定する方法については、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}を参照してください
+* **Google Android**&#x200B;の場合：AndroidでFirebase Cloud Messaging クライアント アプリを設定する方法については、[Google ドキュメント ](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}を参照してください
 
 <!--
 ## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
@@ -182,7 +182,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 ## Campaign でのモバイルサービスの設定 {#push-service}
 
-モバイルアプリを[!DNL Adobe Experience Platform Data Collection]に設定したら、プッシュ通知を&#x200B;**[!DNL Adobe Campaign]**&#x200B;から送信するには、2つのサービス（iOS デバイス用に1つ、Android デバイス用に1つ）を作成する必要があります。
+モバイルアプリを[!DNL Adobe Experience Platform Data Collection]に設定したら、iOS デバイス用とAndroid デバイス用の2つのサービスを作成します。 これらのサービスを使用すると、**[!DNL Adobe Campaign]**&#x200B;からプッシュ通知を送信できます。
 
 プッシュ通知は、専用のサービスを通じてアプリのユーザーに送信されます。 ユーザーはアプリをインストールすると、このサービスにサブスクライブします。Adobe Campaign は、このサービスを利用して、アプリのサブスクライバーのみをターゲットにします。 このサービスでは、iOS デバイスと Android デバイスで送信するために、iOS アプリと Android アプリを追加する必要があります。
 
@@ -190,13 +190,13 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. **[!UICONTROL プロファイルとターゲット／サービスとサブスクリプション]**&#x200B;タブを参照し、「**[!UICONTROL 作成]**」をクリックします。
 
-   ![&#x200B; モバイルアプリケーションの種類とサブスクライバーアプリケーションのターゲットマッピングを含む新しいサービスダイアログ &#x200B;](assets/new-service-push.png){width="800"}
+   ![ モバイルアプリケーションの種類とサブスクライバーアプリケーションのターゲットマッピングを含む新しいサービスダイアログ ](assets/new-service-push.png){width="800"}
 
 1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を入力し、**[!UICONTROL モバイルアプリケーション]**&#x200B;タイプを選択します。
 
    >[!NOTE]
    >
-   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。 ターゲットマッピングについて詳しくは、[&#x200B; ターゲットマッピングの操作](../audiences/target-mappings.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。 ターゲットマッピングについて詳しくは、[ ターゲットマッピングの操作](../audiences/target-mappings.md)を参照してください。
 
 1. 次に、右側にある「**[!UICONTROL 追加]**」アイコンを使用して、このサービスを使用するモバイルアプリケーションを定義します。
 
@@ -208,7 +208,7 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
 1. 「**[!UICONTROL iOS アプリケーションを作成]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![iOS アプリケーションの作成を選択し、「次へ」ボタンをクリックしたモバイルアプリケーション作成ウィザード &#x200B;](assets/new-ios-app.png){width="600"}
+   ![iOS アプリケーションの作成を選択し、「次へ」ボタンをクリックしたモバイルアプリケーション作成ウィザード ](assets/new-ios-app.png){width="600"}
 
 1. 「**[!UICONTROL ラベル]**」フィールドに、アプリの名前を入力します。
 1. （オプション）**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。 これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
@@ -258,7 +258,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. 「**[!UICONTROL Android アプリケーションを作成]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![Android アプリケーションの作成を選択し、「次へ」ボタンをクリックしたモバイルアプリケーション作成ウィザード &#x200B;](assets/new-android-app.png){width="600"}
+   ![Android アプリケーションの作成を選択し、「次へ」ボタンをクリックしたモバイルアプリケーション作成ウィザード ](assets/new-android-app.png){width="600"}
 
 1. 「**[!UICONTROL ラベル]**」フィールドに、アプリの名前を入力します。
 1. 統合キーは、各アプリケーションに固有です。 これにより、モバイルアプリケーションが Adobe Campaign にリンクされます。
