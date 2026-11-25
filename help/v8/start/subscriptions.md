@@ -34,13 +34,13 @@ ht-degree: 79%
 
 Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。 複数のサービスを並行して定義できます。例えば、web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
 
-情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}を参照してください。
+情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}を参照してください。
 
 プロファイルをサービスに購読（オプトイン）するには、次のオプションを使用できます。
 
 * 受信者のプロファイルにサービスを手動で追加するには、プロファイルの「**[!UICONTROL 購読]**」タブから「 **[!UICONTROL 追加]**」をクリックし、該当する情報サービスを選択します。
 
-  「サービスを選択」ダイアログが追加](assets/subscribe-to-a-service.png)から開いた受信者プロファイルの「![購読」タブ
+  「サービスを選択」ダイアログが追加![&#128279;](assets/subscribe-to-a-service.png)から開いた受信者プロファイルの「購読」タブ
 
   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
 
@@ -50,7 +50,7 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
   該当するサービスを選択し、操作を開始します。
 
-  ![ サービス サブスクリプション ウィザード、サービス選択手順、確認メッセージの送信オプション ](assets/subscribe-confirm.png)
+  ![&#x200B; サービス サブスクリプション ウィザード、サービス選択手順、確認メッセージの送信オプション &#x200B;](assets/subscribe-confirm.png)
 
   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
 
@@ -61,18 +61,18 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 * 受信者がサービスの購読を登録できる Web フォームを使用します。
 
-  ![ ニュースレター購読web アプリケーションのワークフロー：プリロード、購読、ストレージおよび終了](assets/opt-in-webapp.png)
+  ![&#x200B; ニュースレター購読web アプリケーションのワークフロー：プリロード、購読、ストレージおよび終了](assets/opt-in-webapp.png)
 
   Campaign には、オプトインを管理するためのデフォルトの Web フォームが用意されています。 これをパーソナライズし、プロファイルデータをマッピングできます。
 
   ![名前、電子メール、電話、同意チェックボックス、および購読ボタンを含む購読web フォームのページエディター](assets/web-app.png)
 
-  詳しくは、[ ダブルオプトインを使用したサブスクリプションフォームの作成](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
+  詳しくは、[&#x200B; ダブルオプトインを使用したサブスクリプションフォームの作成](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
 
 
 * ターゲティングワークフローを作成し、**[!UICONTROL サブスクリプションサービス]** アクティビティを使用します。
 
-  ![ リストの読み取り、クエリ、ファイルコレクターのフィード重複排除およびサブスクリプションサービスを含むワークフロー](assets/wf-subscription.png)
+  ![&#x200B; リストの読み取り、クエリ、ファイルコレクターのフィード重複排除およびサブスクリプションサービスを含むワークフロー](assets/wf-subscription.png)
 
   詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja){target="_blank"}を参照してください。
 

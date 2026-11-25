@@ -93,7 +93,7 @@ Campaign ユーザーは、Adobe ID 管理システム（IMS）により、Adobe
 
 1. コンソールを起動し、右隅のリンクを参照して、接続設定画面にアクセスします。
 
-   ![ ログイン画面から接続ダイアログが開き、「Adobe IDで接続」オプションが選択されている](assets/connectToCampaign.png)
+   ![&#x200B; ログイン画面から接続ダイアログが開き、「Adobe IDで接続」オプションが選択されている](assets/connectToCampaign.png)
 
 1. ログインする必要がある Campaign インスタンスを選択します。
 
@@ -153,7 +153,7 @@ Campaign v8.6 リリース以降では、中央の[!DNL Adobe CX Enterprise]環�
 >Campaign web ユーザーインターフェイスは、Adobe ID を使用して Adobe Campaign に接続しているユーザーのみが使用できます。 詳しくは、[Adobe ID 管理システム（IMS）](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 >
 
-[!DNL CX Enterprise]に接続し、Adobe Campaign Web インターフェイス [にアクセスする方法については、このページ ](campaign-ui.md#ac-web-ui)を参照してください。
+[!DNL CX Enterprise]に接続し、Adobe Campaign Web インターフェイス [にアクセスする方法については、このページ &#x200B;](campaign-ui.md#ac-web-ui)を参照してください。
 
 詳しくは、[Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/campaign-web-home){target="_blank"}を参照してください。
 

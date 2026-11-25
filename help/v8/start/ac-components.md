@@ -51,7 +51,7 @@ Campaign キー機能の詳細については、[Campaign v8](../start/get-start
 
 Adobe Campaign のコンポーネントとグローバルアーキテクチャは次のとおりです。
 
-![ アーキテクチャ：統合、プレゼンテーション、論理アプリケーションおよび永続性レイヤーに加えて、電子メール、メールおよびSMSの実行](assets/do-not-localize//ac-components.png)
+![&#x200B; アーキテクチャ：統合、プレゼンテーション、論理アプリケーションおよび永続性レイヤーに加えて、電子メール、メールおよびSMSの実行](assets/do-not-localize//ac-components.png)
 
 ### プレゼンテーションレイヤー{#presentation-layer}
 
@@ -87,7 +87,7 @@ Adobe Campaign v8 はマネージドサービスとしてデプロイされま�
 
 Campaign web サーバーは、Campaign web プロセスへのアクセスを制御します。 JavaScript は、コア製品の機能やカスタマイズに使用されるサーバーサイドの言語です。 Tomcat はバックエンドエンジンで、web プロセスの一部として Campaign 製品に埋め込まれます。 JavaScript は、JSP ページや JSSP ページなどで、動的コンテンツをレンダリングするために使用されます。
 
-![ クライアントコンソールおよびその他のアプリケーションは、SQL](assets/do-not-localize/ac-processes.png)を介してデータベースにアクセスするweb サーバーおよびweb プロセスを呼び出します
+![&#x200B; クライアントコンソールおよびその他のアプリケーションは、SQL](assets/do-not-localize/ac-processes.png)を介してデータベースにアクセスするweb サーバーおよびweb プロセスを呼び出します
 
 Campaign クライアントコンソールは、SOAP XML over HTTP を使用して web サーバーに接続します。 Web サーバーはセキュリティ層を提供し、Javascriptを使用してリクエストをアプリケーション層に渡し、Campaignの内部プロセスはSQLを使用してデータベースにアクセスします。
 

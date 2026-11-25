@@ -73,7 +73,7 @@ Adobe Campaign v8 は、企業規模のクロスチャネルキャンペーン�
 
 Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されています。 サービスとプロアクティブな監視およびタイムリーなアラートを組み合わせた&#x200B;**Managed Cloud Service**&#x200B;として利用できます。 Campaign Managed Cloud Services について詳しくは、[この節](#acms-desc)を参照してください。
 
-ようこそメッセージとAdobe Campaign Managed Cloud Services カードが表示された![Campaign クライアントコンソールのホームページ ](assets/home-page.png)
+ようこそメッセージとAdobe Campaign Managed Cloud Services カードが表示された![Campaign クライアントコンソールのホームページ &#x200B;](assets/home-page.png)
 
 ## 主な機能{#key-capabilities}
 
