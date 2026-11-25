@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 90%
+source-wordcount: '1530'
+ht-degree: 79%
 ---
 # 配信の設定と送信 {#configure-delivery}
 
@@ -32,7 +32,7 @@ ht-degree: 90%
 
 配信を送信する前に、配信プロパティの「**[!UICONTROL 配信]**」タブで送信パラメーターを定義できます。
 
-![](assets/delivery-properties-delivery.png)
+![優先度、ウェーブ、再試行、パーソナライゼーションおよびメール形式の設定を含む配信プロパティ配信タブ ](assets/delivery-properties-delivery.png)
 
 ### 配信の優先順位 {#delivery-priority}
 
@@ -54,7 +54,7 @@ ht-degree: 90%
 >
 >* このオプションは、ミッドソーシングで設定しないでください。
 >
->* SMTP サーバー設定の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
+>* SMTP サーバー設定の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
 
 ## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 
@@ -67,7 +67,7 @@ ht-degree: 90%
 1. 配信プロパティを開き、「**[!UICONTROL 配信]**」タブに移動します。
 1. 「**[!UICONTROL 複数のウェーブを使用して送信]**」オプションを有効にし、「**[!UICONTROL ウェーブを定義...]**」リンクをクリックします。
 
-   ![](assets/delivery-define-waves.png)
+   ![複数のウェーブを使用して送信を選択し、「ウェーブを定義」リンクを強調表示した配信タブ ](assets/delivery-define-waves.png)
 
 ### ウェーブの設定 {#config-waves}
 
@@ -81,17 +81,17 @@ ht-degree: 90%
 
   「**[!UICONTROL 期間]**」フィールドで、2 つの連続するウェーブの開始間隔を指定します。 例えば、**[!UICONTROL 2d]** と入力した場合、最初のウェーブは直ちに開始され、2 番目のウェーブは 2 日後に、3 番目のウェーブは 4 日後にといった具合に開始されます。
 
-  ![](assets/delivery-waves-size.png)
+  ![波形の定義ダイアログ。同じサイズの波が30%に設定され、波の間に2dの期間が設定されている](assets/delivery-waves-size.png)
 
 * **各ウェーブを送信するためのカレンダーを定義します**。  例えば、最初のウェーブは、配信に含まれるメッセージ総数の 25％を表しており、ただちに開始されます。 次の 2 つのウェーブで配信が完了しますが、これらのウェーブは、6 時間間隔で開始するように設定されています。
 
   「**[!UICONTROL 開始日]**」列では、2 つの連続するウェーブの開始間隔を指定します。 「**[!UICONTROL サイズ]**」列では、固定の数値または割合を入力します。
 
-  ![](assets/delivery-waves-calendar.png)
+  ![3つのウェーブのカレンダーを含むウェーブ定義ダイアログ：0秒で25%、6時間で50%、6時間で25%](assets/delivery-waves-calendar.png)
 
 ### ウェーブスケジュールの検証 {#check-waves}
 
-特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。 配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定されたキャンペーンタイポロジとそのルールは、[&#x200B; タイポロジルールとタイポロジ &#x200B;](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->に表示されます。
+特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。 配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定されたキャンペーンタイポロジとそのルールは、[ タイポロジルールとタイポロジ ](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->に表示されます。
 
 >[!IMPORTANT]
 >
@@ -103,7 +103,7 @@ ht-degree: 90%
 
 ### ウェーブの監視 {#monitor-waves}
 
-送信状況を監視するには、配信ログを参照してください。 [&#x200B; メールの送信と監視](send.md)を参照してください。
+送信状況を監視するには、配信ログを参照してください。 [ メールの送信と監視](send.md)を参照してください。
 
 処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 
@@ -120,7 +120,7 @@ ht-degree: 90%
 
   そのためには、「**[!UICONTROL カレンダーに従ってウェーブをスケジュール]**」オプションを選択します。 例えば、最初のウェーブを 10％に、2 番目のウェーブを 15％にといった具合に設定します。
 
-  ![](assets/delivery-waves-ex-ramp-up.png)
+  ![ ウェーブ定義カレンダーで、サイズが10%から30%に増加し、12時間間隔で12時間になります](assets/delivery-waves-ex-ramp-up.png)
 
 * **コールセンターが関与するキャンペーン**
 
@@ -130,7 +130,7 @@ ht-degree: 90%
 
   これをおこなうには、「**[!UICONTROL 同じサイズの複数のウェーブをスケジュール]**」オプションを選択します。 ウェーブのサイズとして **[!UICONTROL 20]** を入力し、「**[!UICONTROL 期間]**」フィールドに **[!UICONTROL 1d]** と入力します。
 
-  ![](assets/delivery-waves-ex-call-center.png)
+  ![同じサイズのウェーブが20 メッセージで1d期間のウェーブ定義ダイアログ ](assets/delivery-waves-ex-call-center.png)
 
 ## 配信を確定 {#confirm-delivery}
 
@@ -145,11 +145,11 @@ ht-degree: 90%
 
 1. 「**[!UICONTROL 分析]**」をクリックします。 詳しくは、[配信分析](delivery-analysis.md)を参照してください。
 
-   ![](assets/delivery-send-analyze.png)
+   ![できるだけ早く配信を選択し、「分析」ボタンを強調表示して、メイン配信ターゲットダイアログに送信する](assets/delivery-send-analyze.png)
 
 1. 完了したら、「**[!UICONTROL 配信を確定]**」をクリックし、メッセージの配信を開始します。
 
-   ![](assets/delivery-send-confirm.png)
+   ![分析後にメイン配信ターゲットダイアログに送信し、「配信を確認」ボタンがハイライト表示されている](assets/delivery-send-confirm.png)
 
 1. 配信ウィザードを閉じて、「**[!UICONTROL 配信]**」タブから配信の実行を追跡できます。このタブには、この配信の詳細または配信のリストからアクセスできます。
 
@@ -168,7 +168,7 @@ ht-degree: 90%
 
 1. 「**[!UICONTROL 連絡日]**」フィールドに開始日を入力します。
 
-   ![](assets/delivery-send-postpone.png)
+   ![選択した配信を延期し、連絡先日を入力して、メイン配信ターゲットダイアログに送信](assets/delivery-send-postpone.png)
 
 1. 配信分析を開始し、配信の送信を確定します。 ただし、配信の送信は、「**[!UICONTROL 連絡日]**」フィールドで指定した日付まで開始されません。
 
@@ -176,13 +176,13 @@ ht-degree: 90%
    >
    >分析を開始すると、定義した連絡日が固定されます。 この日付を修正する場合は、修正内容が考慮されるように、分析を再度実行する必要があります。
 
-   ![](assets/delivery-send-scheduled.png)
+   ![配信の準備完了メッセージは、日付にスケジュールされた配信と「配信を確認」ボタンを表示します](assets/delivery-send-scheduled.png)
 
 配信リストには、配信が「**[!UICONTROL 保留中]**」ステータスで表示されます。
 
 スケジュールは、配信の「**[!UICONTROL スケジュール設定]**」ボタンを使用してアップストリーム設定することも可能です。
 
-![](assets/delivery-scheduling-button.png)
+![ スケジュール設定ダイアログがスケジュール ボタンから開き、スケジュール配信（自動実行なし）が選択されている](assets/delivery-scheduling-button.png)
 
 これにより、配信を後の日付まで遅らせたり、暫定カレンダーに配信を保存したりできます。
 
@@ -198,7 +198,7 @@ ht-degree: 90%
 
 例えば、ロンドン時間の 8:00 に配信を自動実行するスケジュールを設定すると、時間は選択したタイムゾーンに自動的に変換されます。
 
-![](assets/delivery-schedule-time-zone.png)
+![連絡先の日付を別のタイムゾーンに変換するために、タイムゾーンドロップダウンリストを開いたスケジュール設定ダイアログ ](assets/delivery-schedule-time-zone.png)
 
 <!--
 ## Adjust delivery failure management {#delivery-failure-management}

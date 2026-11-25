@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 60%
+source-wordcount: '1095'
+ht-degree: 55%
 ---
 # メールパラメーター {#email-parameters}
 
@@ -31,13 +31,13 @@ ht-degree: 60%
 
 ## BCC でのメールの使用 {#email-bcc}
 
-プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。 このオプションについては、[&#x200B; メッセージのコピーをBCC アドレスに送信](email-bcc.md)で詳しく説明しています。
+プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。 このオプションについては、[ メッセージのコピーをBCC アドレスに送信](email-bcc.md)で詳しく説明しています。
 
 ## メッセージ形式の選択 {#selecting-message-formats}
 
 送信されるメールメッセージの形式は変更できます。 変更するには、配信プロパティを編集し、「**[!UICONTROL 配信]**」タブをクリックします。
 
-![](assets/email-message-format.png)
+メール形式セクションがハイライト表示され、3つの形式オプションが表示された配信プロパティの![配信タブ ](assets/email-message-format.png)
 
 ウィンドウ下部のセクションで、メールの形式を選択します。
 
@@ -73,7 +73,7 @@ ht-degree: 60%
 
 そのためには、「**[!UICONTROL 文字エンコーディング]**」セクションの「**[!UICONTROL メッセージに使用されているエンコーディングを強制]**」オプションを選択し、表示されるドロップダウンリストからエンコーディングを選択します。
 
-![](assets/email-smtp-encoding.png)
+![ メッセージに使用するエンコーディングを強制的に選択し、エンコーディングドロップダウンリストを開いた状態のSMTP タブ ](assets/email-smtp-encoding.png)
 
 ## バウンスメールの管理 {#managing-bounce-emails}
 
@@ -83,19 +83,19 @@ ht-degree: 60%
 
 * **[!UICONTROL バウンスアドレス]**：未処理のバウンスメールの転送先となる別のアドレスを定義することもできます。 このアドレスを使用すると、メールがアプリケーションによって自動的に選定されなかった場合のバウンスの理由を調査できます。
 
-各フィールドは、専用のアイコンを使用してパーソナライズできます。 パーソナライゼーションフィールドについて詳しくは、[&#x200B; パーソナライゼーションフィールドを追加](personalization-fields.md)を参照してください。
+各フィールドは、専用のアイコンを使用してパーソナライズできます。 パーソナライゼーションフィールドについて詳しくは、[ パーソナライゼーションフィールドを追加](personalization-fields.md)を参照してください。
 
-![](assets/email-smtp-bounce.png)
+![ バウンスメールのセクションが強調表示されたSMTP タブ：「アドレスにエラー」フィールドと「バウンスアドレス」フィールド ](assets/email-smtp-bounce.png)
 
-バウンスメール管理について詳しくは、[&#x200B; バウンスメールの選定](delivery-failures.md#bounce-mail-qualification)を参照してください。
+バウンスメール管理について詳しくは、[ バウンスメールの選定](delivery-failures.md#bounce-mail-qualification)を参照してください。
 
 ## ワンクリックでリスト登録解除を有効にする {#one-click-list-unsubscribe}
 
-ワンクリックのリスト登録解除URLは、メール送信者情報の横に表示されるリンクまたはボタンです。これにより、受信者は、ワンクリックですばやくメーリングリストをオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}-->
+ワンクリックのリスト登録解除URLは、メール送信者情報の横に表示されるリンクまたはボタンです。これにより、受信者は、ワンクリックですばやくメーリングリストをオプトアウトできます。<!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
 ISPのメールインターフェイスに&#x200B;**登録解除** リンクとして表示されます。 例：
 
-![](assets/email-list-unsubscribe-example.png)
+![送信者アドレスの横に登録解除リンクが表示された電子メールクライアントの送信者行](assets/email-list-unsubscribe-example.png)
 
 最適な配信品質の管理を確保するには、List-Unsubscribeという名前のSMTP ヘッダーを追加する必要があり、「迷惑メールとして報告」アイコンの代わりに使用できます。 実際、この機能を使用することで、苦情率を低減し、レピュテーションの保護に役立ちます。
 
@@ -109,7 +109,7 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 >
 >このオプションは、デフォルトでは有効になっています。
 
-![](assets/email-smtp-list-unsubscribe.png)
+ワンクリックでリストから登録解除セクションと、デフォルトで選択されたヘッダーオプションを含む![SMTP タブ ](assets/email-smtp-list-unsubscribe.png)
 
 <!--
 >[!WARNING]
@@ -131,7 +131,7 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 
 >[!NOTE]
 >
->[One-Click List-Unsubscribe](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}および[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud [配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}を参照してください。
+>[One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}および[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud [配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}を参照してください。
 
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
@@ -148,11 +148,11 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 >
 >スクリプトの構文は、このコンテンツタイプの要件を満たしている必要があります（不要なスペースや空行を含まないなど）。
 
-![](assets/email-smtp-headers.png)
+名前:value形式](assets/email-smtp-headers.png)を使用して、追加のSMTP ヘッダースクリプト領域がハイライト表示された![SMTP タブ
 
 
 ## ミラーページの生成 {#generating-mirror-page}
 
 ミラーページは、web ブラウザーでオンラインアクセス可能な HTML ページです。 そのコンテンツはメールと同一です。 これは、受信者がインボックスでメールを表示しようとする際に、レンダリングの問題や破損した画像が発生した場合に役立ちます。
 
-ミラーページへのリンクを挿入する方法については、[&#x200B; ミラーページへのリンクを追加](mirror-page.md)を参照してください
+ミラーページへのリンクを挿入する方法については、[ ミラーページへのリンクを追加](mirror-page.md)を参照してください

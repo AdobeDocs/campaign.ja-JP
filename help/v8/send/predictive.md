@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 90%
+source-wordcount: '817'
+ht-degree: 88%
 ---
 # 送信時間の最適化と予測エンゲージメントスコアリング{#optimize-message-delivery}
 
@@ -81,7 +81,7 @@ Adobe Campaign は、[予測送信時間最適化](#predictive-send)および[�
 
 予測送信時間最適化は、プロファイルレベルで保存されます。
 
-![](assets/sto-schema.png)
+クリックして開くのに最適な時間を予測する送信時間最適化フィールドを含む![受信者のスキーマ構造](assets/sto-schema.png)
 
 
 >[!NOTE]

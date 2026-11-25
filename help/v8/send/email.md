@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 85%
+source-wordcount: '717'
+ht-degree: 73%
 ---
 # メールのデザインと送信
 
@@ -48,28 +48,28 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
 その他の顧客体験と一貫する、パーソナライズされた関連性の高いメールを作成します。
 
-![](assets/new-email-content.png)
+![件名、HTML コンテンツ、トラッキング対象URLのリストが表示されたメール配信エディター](assets/new-email-content.png)
 
 
 次の例では、パーソナライズされたデータ、外部 URL へのリンク、ミラーページへのリンクを含むメール配信を Adobe Campaign でデザインする手順を説明します。
 
 1. **配信の作成**
 
-   新しい配信を作成するには、「**キャンペーン**」タブで「**配信**」をクリックし、既存の配信一覧の上部の「**作成**」ボタンをクリックします。
+   新しい配信を作成するには、「**Campaign**」タブで「**配信**」、既存の配信リストの上にある「**作成**」ボタンの順にクリックします。
 
-   ![](assets/delivery_step_1.png)
+   ![配信ノードと「作成」ボタンがハイライト表示されたキャンペーン タブの配信リスト ](assets/delivery_step_1.png)
 
 1. **テンプレートの選択**
 
    配信テンプレートを選択して、配信に名前を付けます。 この名前は、Adobe Campaign コンソールのユーザーにのみ表示され、受信者には表示されません。ただし、この見出しは、配信のリストに表示されます。 「**[!UICONTROL 続行]**」をクリックします。
 
-   ![](assets/dce_delivery_model.png)
+   ![ メール配信テンプレートが選択され、ラベルが入力された新しい配信ダイアログ、次に続行](assets/dce_delivery_model.png)
 
 1. **コンテンツの読み込み**
 
    「**ソース**」タブをクリックして、HTML コンテンツを貼り付けます。
 
-   ![](assets/paste-content.png)
+   ![Source タブを開いたメール配信エディターで、貼り付けるHTML コードが表示されている](assets/paste-content.png)
 
    >[!NOTE]
    >
@@ -81,13 +81,13 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
      メッセージの内容に対象のプロファイルの姓名を挿入するには、挿入したい場所にカーソルを置き、ツールバーの最後のアイコンをクリックしてから、「**[!UICONTROL 含める]**」をクリックし「**[!UICONTROL 挨拶]**」を選択します。
 
-     ![](assets/include-greetings.png)
+     電子メールのHTML コンテンツで「含める」から「挨拶」を選択した![Personalization メニュー](assets/include-greetings.png)
 
      「プレビュー」タブで受信者を選択し、パーソナライゼーションを確認します。
 
-     ![](assets/perso-check.png)
+     ![受信者が選択され、パーソナライズされた挨拶がメールのテキストで強調表示されたプレビュータブ ](assets/perso-check.png)
 
-     パーソナライゼーションオプションについて詳しくは、[&#x200B; パーソナライゼーションの基本を学ぶ](personalize.md)を参照してください。
+     パーソナライゼーションオプションについて詳しくは、[ パーソナライゼーションの基本を学ぶ](personalize.md)を参照してください。
 
    * トラッキングリンクの挿入
 
@@ -95,7 +95,7 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
      **https://www.myURL.com** の形式で「**URL**」フィールドにリンクの URL を入力し、確認します。
 
-     ![](assets/add-a-link.png)
+     ![選択したテキストにURLを入力し、「追加」ボタンを押すハイパーテキストリンクダイアログ ](assets/add-a-link.png)
 
    * ミラーページの追加
 
@@ -103,7 +103,7 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
      リンクを挿入したい位置にカーソルを置き、ツールバーの最後のアイコンをクリックして、「**[!UICONTROL 含める]**」をクリックし「**[!UICONTROL ミラーページへのリンク]**」を選択します。
 
-     ミラーページの管理について詳しくは、[&#x200B; ミラーページへのリンクを追加](mirror-page.md#link-to-mirror-page)を参照してください。
+     ミラーページの管理について詳しくは、[ ミラーページへのリンクを追加](mirror-page.md#link-to-mirror-page)を参照してください。
 
 1. BCC アドレスへのメッセージのコピーの送信、メッセージ形式の変更、特定のエンコーディングの設定など、メールに追加のパラメーターを定義できます。詳しくは、[Adobe Campaignの電子メールパラメーター](email-parameters.md)を参照してください。
 
@@ -124,7 +124,7 @@ Adobe Campaign を使用すると、メール配信を作成して、パーソ�
 
 ## メールのテストと検証
 
-Campaign では、メールをオーディエンスに送信する前にテストと検証を実施できる方法がいくつかあります。 [電子メールのプレビューとテスト &#x200B;](../send/preview-and-proof.md)で、電子メールのコンテンツをプレビューおよびテストする方法について説明します。
+Campaign では、メールをオーディエンスに送信する前にテストと検証を実施できる方法がいくつかあります。 [電子メールのプレビューとテスト ](../send/preview-and-proof.md)で、電子メールのコンテンツをプレビューおよびテストする方法について説明します。
 
 以下を行うことができます。
 

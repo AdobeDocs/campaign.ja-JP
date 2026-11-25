@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 99%
+source-wordcount: '1397'
+ht-degree: 79%
 ---
 # メールへのファイルの添付{#attaching-files}
 
@@ -65,21 +65,21 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 1. 「**[!UICONTROL 追加]**」ボタンをクリックします。
 1. 「**[!UICONTROL ファイル…]**」をクリックして、配信に添付するファイルを選択します。
 
-   ![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![添付ファイルを編集ダイアログで、追加メニューを開き、ファイル…を選択してメール配信にファイルを添付します](assets/s_ncs_user_wizard_email_attachement.png)
 
 また、配信の「**[!UICONTROL 添付ファイル]**」フィールドにファイルを直接ドラッグ＆ドロップしたり、配信アシスタントのツールバーから&#x200B;**[!UICONTROL 添付]**&#x200B;アイコンを使用したりできます。
 
-![](assets/s_ncs_user_wizard_add_file_ico.png)
+![配信アシスタントツールバーの「メールパラメーター」セクションの横にある添付アイコン ](assets/s_ncs_user_wizard_add_file_ico.png)
 
 配信の際に利用できるよう、選択したファイルは、ただちにサーバー上へとアップロードされます。 「**[!UICONTROL 添付ファイル]**」フィールドに一覧表示されます。
 
-![](assets/s_ncs_user_wizard_email_attachement_e.png)
+![添付ファイル フィールドにアップロードされたファイルが表示された電子メールパラメーター](assets/s_ncs_user_wizard_email_attachement_e.png)
 
 ## 計算済み添付ファイルの作成 {#creating-a-calculated-attachment}
 
 計算済み添付ファイルを作成する際には、各メッセージの分析または配信時にファイル名を生成させることができ、受信者に応じて異なるファイル名を付けることができます。 また、内容をパーソナライズして PDF に変換することもできます。
 
-![](assets/s_ncs_user_wizard_attachment.png)
+![添付ファイルを編集ダイアログで、追加メニューを開いて添付ファイルを計算…選択](assets/s_ncs_user_wizard_attachment.png)
 
 パーソナライズされた添付ファイルを作成するには、次の手順に従います。
 
@@ -87,7 +87,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 1. 「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL 計算済み添付ファイル]**」を選択します。
 1. **[!UICONTROL タイプ]**&#x200B;ドロップダウンリストから、使用する計算のタイプを選択します。
 
-![](assets/s_ncs_user_wizard_email01_136.png)
+![種類ドロップダウンリストを含む添付ファイル定義ダイアログに、計算された4つの添付ファイルのオプションが表示されている](assets/s_ncs_user_wizard_email01_136.png)
 
 次のオプションを使用できます。
 
@@ -103,11 +103,11 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 1. アップロードするファイルを、「**[!UICONTROL ローカルファイル]**」フィールドで選択します。
 1. 必要な場合はラベルを指定します。 このラベルは、メッセージングシステム上でファイル名の代わりに表示されます。 指定しない場合はデフォルトでファイル名が表示されます。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
+   ![添付ファイルの定義タイプ、ラベル、ローカル ファイル フィールドおよびサーバー上のファイルのアップロード オプション ](assets/s_ncs_user_wizard_email_calc_attachement_02.png)を含む一般タブ
 
 1. 必要に応じて、「**[!UICONTROL ファイルをサーバーにアップロード]**」を選択し、「**[!UICONTROL サーバーで更新]**」をクリックして転送を開始します。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
+   ![ ログメッセージを一覧表示し、100%のサーバーへのファイル転送を示す進行状況ウィンドウをアップロード ](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
 このファイルは、サーバー上で、このテンプレートから作成された別の配信に添付できるようになります。
 
@@ -115,7 +115,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
 「**[!UICONTROL 各メッセージの配信時に、ファイルコンテンツをパーソナライズして PDF 形式に変換します]**」オプションを使用すると、パーソナライゼーションフィールドでファイルを選択できます（対象の受信者の姓と名など）。
 
-![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
+PDF添付ファイルの受信者の名と姓のパーソナライゼーションフィールドを含む![Word プロセッサードキュメント ](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
 このタイプの添付ファイルについては、次の設定手順に従います。
 
@@ -124,13 +124,13 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 1. 「**[!UICONTROL ファイルをサーバーにアップロード]**」を選択し、「**[!UICONTROL サーバーで更新]**」をクリックして転送を開始します。
 1. プレビューを表示するには、 受信者を選択します。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
+   ![添付ファイル定義ダイアログで、プレビューリストから選択した受信者のパーソナライズされたPDFをプレビュー](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
 1. 配信を分析し、開始します。
 
    各受信者に、配信に添付されたパーソナライズ済み PDF が届きます。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
+   ![ パーソナライズされたPDFの添付ファイルを含む電子メールを受信し、受信者の名前を挨拶に表示するために開いた](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
 
 
@@ -149,13 +149,13 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
    >
    >ファイルはサーバー上に置かれている必要があります。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
+   ![配信分析中に、ファイルのパスと名前（日付を含む）を計算するスクリプトを使用した添付ファイル定義](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
 
 1. 配信を分析し、開始します。
 
    ファイル名の処理は分析ログに記録されます。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
+   ![計算された添付ファイル名の結果がハイライト表示された行を含む配信分析ログ ](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
 ### パーソナライズされたファイルの添付 {#attach-a-personalized-file}
 
@@ -168,7 +168,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 1. 添付ファイルに適用するラベルを指定します。
 1. 定義ウィンドウで、ファイルのパスと正確な名前を指定します。 ファイル名をパーソナライズする場合は、パーソナライゼーションフィールドを使用して適切な値を取得できます。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
+   ![受信者ごとに異なるファイルを選択するために、ファイルパスの受信者の姓を使用した添付ファイル定義](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
    >[!IMPORTANT]
    >
@@ -178,21 +178,21 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
    下の例では、結合フィールドを使用して定義されたファイル名に基づいて添付ファイルを選択しています。
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
+   ![受信者の姓](assets/s_ncs_user_wizard_email_calc_attachement_011.png)から名前が作成された1つの添付ファイルを含むメールを受信しました
 
 ### 添付ファイルの設定 {#attachment-settings}
 
 1 番目と 2 番目のオプションについては、「**[!UICONTROL ファイルをサーバーにアップロード]**」を選択し、適切なオプションを設定します。 「**[!UICONTROL サーバーで更新...]**」リンクをクリックすると、アップロードが開始されます。
 
-![](assets/s_ncs_user_wizard_email01_137.png)
+![添付ファイルの一般タブ （選択したサーバー上のファイルをアップロードおよびサーバー上の更新リンクを含む） ](assets/s_ncs_user_wizard_email01_137.png)
 
 ファイルがアップロードされていることを示す、次のようなメッセージが表示されます。
 
-![](assets/s_ncs_user_wizard_email01_1371.png)
+ファイルが既にサーバーメッセージに存在することを示す![添付ファイル定義](assets/s_ncs_user_wizard_email01_1371.png)
 
 ファイルが変更されている場合は、次のような警告メッセージが表示されます。
 
-![](assets/s_ncs_user_wizard_email01_1372.png)
+![ ローカルファイルがサーバー上のファイルと等しくないという警告を表示する添付ファイル定義](assets/s_ncs_user_wizard_email01_1372.png)
 
 「**[!UICONTROL 詳細設定]**」タブでは、添付ファイルについて次のような詳細設定オプションを指定できます。
 
@@ -201,4 +201,4 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
   ウィンドウにテキストを入力し、ドロップダウンリストから使用可能なパーソナライゼーションフィールドを選択します。 次の例では、ファイル名がパーソナライズされ、今日の日付と受信者の名前が含まれています。
 
-  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![添付ファイル名をパーソナライズするスクリプトと、結果の名前を示す電子メールを含む「詳細」タブ ](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

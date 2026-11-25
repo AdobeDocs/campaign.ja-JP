@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 72%
+source-wordcount: '215'
+ht-degree: 61%
 ---
 # 最初の SMS 配信の作成 {#sms-delivery}
 
@@ -37,7 +37,7 @@ ht-degree: 72%
 
 1. 新しい配信を作成し、SMS 送信用に作成した [SMS 配信テンプレート](sms-mid-sourcing.md#sms-delivery-template)を選択します。
 
-   ![](assets/sms_create.png){zoomable="yes"}
+   ![新しい配信の配信テンプレートリスト。SMS テンプレートのモバイルへの送信（SMPP）がハイライト表示されている](assets/sms_create.png){zoomable="yes"}
 
    配信の作成手順については、[最初の配信の作成](../../start/create-message.md)を参照してください。
 
@@ -52,13 +52,13 @@ ht-degree: 72%
 
 1. 「**[!UICONTROL プロパティ]**」ボタンで、すべてが必要に応じて設定されていることを確認できます。 [詳しくは、「SMS」タブを参照してください](sms-delivery-settings.md#sms-tab)
 
-   ![](assets/sms_settings.png){zoomable="yes"}
+   ![一般タブ、ルーティングフィールド、SMS タブがハイライト表示されたSMS配信の配信プロパティ ](assets/sms_settings.png){zoomable="yes"}
 
 1. 配信の[コンテンツを定義します](sms-content.md)。
 
 1. [オーディエンスを選択します](sms-audience.md)。
 
-オーディエンスを定義する手順について詳しくは、[&#x200B; キャンペーンでのプロファイルオーディエンスの作成](../../audiences/create-audiences.md)を参照してください。
+オーディエンスを定義する手順について詳しくは、[ キャンペーンでのプロファイルオーディエンスの作成](../../audiences/create-audiences.md)を参照してください。
 
 ## SMS の検証と送信 {#sms-validate}
 

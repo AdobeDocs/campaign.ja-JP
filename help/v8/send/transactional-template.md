@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 93%
+source-wordcount: '1552'
+ht-degree: 76%
 ---
 # トランザクションメッセージ用のテンプレートの作成と公開{#template-transactional-messages}
 
@@ -50,16 +50,16 @@ ht-degree: 93%
 1. Adobe Campaign のツリーにて、**[!UICONTROL Message Center／トランザクションメッセージテンプレート]**&#x200B;フォルダーに移動します。
 1. トランザクションメッセージテンプレートのリスト内を右クリックし、ドロップダウンメニューで「**[!UICONTROL 新規]**」を選択するか、トランザクションメッセージテンプレートのリストの上部にある「**[!UICONTROL 新規]**」ボタンをクリックします。
 
-   ![](assets/messagecenter_create_model_001.png)
+   ![ トランザクションメッセージテンプレートリストの新しいボタン。メッセージテンプレートの作成に使用](assets/messagecenter_create_model_001.png)
 
 1. 配信ウィンドウで、使用したいチャネルに適した配信テンプレートを選択します。
 
-   ![](assets/messagecenter_create_model_002.png)
+   ![Android、ダイレクトメール、電子メール、iOSおよびモバイルのトランザクションメッセージテンプレートを含む配信テンプレートリスト ](assets/messagecenter_create_model_002.png)
 
 1. 必要に応じて、ラベルを変更します。
 1. 送信したいメッセージに合うイベントのタイプを選択します。 Adobe Campaign が処理するイベントのタイプは、事前に作成する必要があります。 [詳細情報](../send/transactional.md#create-event-types)
 
-   ![](assets/messagecenter_create_model_003.png)
+   新しいトランザクションメッセージ配信ウィンドウの![ イベントタイプ ドロップダウン。購入とコマンドのイベントタイプを一覧表示](assets/messagecenter_create_model_003.png)
 
    >[!CAUTION]
    >
@@ -80,7 +80,7 @@ ht-degree: 93%
 
 メッセージのコンテンツを定義したら、メッセージ本文にイベントの情報を取り入れ、パーソナライズすることができます。 イベントの情報は、パーソナライゼーションタグを使用してテキスト本文に挿入します。
 
-![](assets/messagecenter_create_content.png)
+![ メッセージメニューを開いたHTML コンテンツエディターで、トランザクションメッセージにパーソナライゼーションフィールドを挿入する](assets/messagecenter_create_content.png)
 
 * すべてのパーソナライゼーションフィールドはペイロードから取得されます。
 * トランザクションメッセージ内では、1 つまたは複数のパーソナライゼーションブロックを参照できます。<!--The block content will be added to the delivery content during the publication to the execution instance.-->
@@ -91,11 +91,11 @@ ht-degree: 93%
 1. メッセージの本文を入力します。
 1. テキスト本文に&#x200B;**[!UICONTROL リアルタイムイベント／イベント XML]** メニューを使用してタグを挿入します。
 
-   ![](assets/messagecenter_create_custo_1.png)
+   ![HTML コンテンツにイベントパーソナライゼーションタグを挿入するためにイベント XMLが選択されたリアルタイムイベントメニュー](assets/messagecenter_create_custo_1.png)
 
 1. 下記に示すように、タグの入力には次の構文を利用します。**要素名**.@**属性名**
 
-   ![](assets/messagecenter_create_custo_2.png)
+   ![要素名と属性構文を使用したHTML コンテンツ内のイベントパーソナライゼーションタグ。1つのタグに下線が引かれている](assets/messagecenter_create_custo_2.png)
 
 ## トランザクションメッセージテンプレートのテスト {#test-message-template}
 
@@ -105,23 +105,23 @@ ht-degree: 93%
 
 1. トランザクションメッセージテンプレートで「**[!UICONTROL シードアドレス]**」タブをクリックし、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
-   ![](assets/messagecenter_create_seed_1.png)
+   「追加」ボタンがハイライト表示されたテンプレートの「![ シードアドレス」タブ ](assets/messagecenter_create_seed_1.png)
 
 1. 後で簡単に選択できるようにラベルを割り当て、シードアドレス（通信チャネルに応じてメールまたは携帯電話）を入力します。
 
 1. 外部識別子を入力します。このオプションのフィールドには、web サイト上のすべてのアプリケーションに共通し、プロファイルを識別するのに利用できるビジネスキー（一意の識別子、名前 + メールなど） を入力することができます。 Adobe Campaign マーケティングデータベースにもこのフィールドが存在する場合、データベース内のプロファイルとイベントを紐付けることができます。
 
-   ![](assets/messagecenter_create_seed_2.png)
+   ラベル、電子メール、外部識別子フィールドが](assets/messagecenter_create_seed_2.png)に入力された![ シードアドレスダイアログ
 
-1. テストデータを挿入します。 [Campaign Classic v7 ドキュメントのパーソナライゼーションデータの詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. テストデータを挿入します。 [Campaign Classic v7 ドキュメントのパーソナライゼーションデータの詳細情報](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
-   ![](assets/messagecenter_create_custo_3.png)
+   ![ イベントコンテキストのXMLとして書き込まれた、コンテンツセクションのテストデータを含むシードアドレスダイアログ ](assets/messagecenter_create_custo_3.png)
 
 1. 「**[!UICONTROL OK]**」をクリックして、シードアドレスの作成を確定します。
 
 1. この手順を繰り返して、必要な数のアドレスを作成します。
 
-   ![](assets/messagecenter_create_seed_6.png)
+   ![ シードアドレスのタブには、購入配信テンプレート用に作成された3つのシードアドレスが一覧表示されています](assets/messagecenter_create_seed_6.png)
 
 アドレスを作成したら、プレビューとパーソナライズ機能を利用できます。
 
@@ -150,11 +150,11 @@ This information enables you to personalize message content using personalizatio
 
 1. メッセージテンプレートで「**[!UICONTROL プレビュー]**」タブをクリックし、ドロップダウンリストで「**[!UICONTROL シードアドレス]**」を選択します。
 
-   ![](assets/messagecenter_preview_1.png)
+   ![ パーソナライゼーションのテスト メニューが開き、「シードアドレス」が選択された状態の「プレビュー」タブ ](assets/messagecenter_preview_1.png)
 
 1. 作成済みのシードアドレスを選択してパーソナライズされたメッセージを表示します。
 
-   ![](assets/messagecenter_create_seed_7.png)
+   ![ シードアドレス選択ダイアログと、パーソナライズされたメッセージの内容を表示するプレビュー](assets/messagecenter_create_seed_7.png)
 
 ### 配達確認の送信 {#send-proof}
 
@@ -162,7 +162,7 @@ This information enables you to personalize message content using personalizatio
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-プルーフの詳細については、[&#x200B; プルーフを送信](../send/preview-and-proof.md#proofs-send)してください。
+プルーフの詳細については、[ プルーフを送信](../send/preview-and-proof.md#proofs-send)してください。
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 
@@ -175,15 +175,15 @@ This information enables you to personalize message content using personalizatio
 1. 配信を分析します。
 1. エラーを修正し、配信を確認します。
 
-   ![](assets/messagecenter_send_proof_001.png)
+   ![配信の準備が完了したことを示すプルーフダイアログを送信して、「配信を確認」ボタン ](assets/messagecenter_send_proof_001.png)
 
 1. シードアドレスにメッセージが配信されたこと、およびそのコンテンツが設定どおりであることを確認します。
 
-   ![](assets/messagecenter_send_proof_002.png)
+   ![下線付きのシードアドレスデータからパーソナライゼーション値を含むプルーフメールを受信しました](assets/messagecenter_send_proof_002.png)
 
 配達確認は、各テンプレートの「**[!UICONTROL 監査]**」タブからアクセスできます。
 
-![](assets/messagecenter_send_proof_003.png)
+![送信されたプルーフを一覧表示するテンプレートの「監査」タブ。送信、処理済み、成功数のメッセージが表示されます](assets/messagecenter_send_proof_003.png)
 
 #### [!DNL Campaign Classic] v7 からの移行 {#transition-from-v7}
 
@@ -193,7 +193,7 @@ This information enables you to personalize message content using personalizatio
 
 したがって、トランザクションメッセージテンプレートのプルーフを送信するには、ルーティングを内部メール配信から&#x200B;**ミッドソーシングルーティングアカウント**&#x200B;に変更する必要があります。
 
-![](assets/messagecenter_send_proof_004.png)
+![ ミッドソーシングアカウントを選択したルーティング フィールドと電子メールルーティングを含む配信プロパティの「一般」タブ ](assets/messagecenter_send_proof_004.png)
 
 配達確認を送信したら、トランザクションメッセージテンプレートを公開する前に、ルーティングを内部メール配信に戻す必要があります。
 
@@ -217,11 +217,11 @@ Publication lets you automatically create two message templates on the execution
 1. 公開するテンプレートを選択します。<!--on your execution instances-->
 1. 「**[!UICONTROL 公開]**」をクリックします。
 
-   ![](assets/messagecenter_publish_template.png)
+   ![公開をクリックした後、プロセスが完了し、公開のログが記録されたテンプレートダイアログを公開する](assets/messagecenter_publish_template.png)
 
 公開が完了すると、**[!UICONTROL 管理／実稼働環境／Message Center の実行／デフォルト／トランザクションメッセージテンプレート]**&#x200B;フォルダー内に、バッチおよびリアルタイムタイプのイベントに適用されるメッセージテンプレートの両方が作成されます。
 
-![](assets/messagecenter_deployed_model.png)
+![ リスト内の公開されたテンプレートと、Message Center実行フォルダー内にデプロイされた2つのテンプレート ](assets/messagecenter_deployed_model.png)
 
 テンプレートが公開され、対応するイベントがトリガーされた場合、Adobe Campaign<!--execution instance--> はイベントを受け取り、トランザクションテンプレートにリンクし、対応するトランザクションメッセージを各受信者に送信します。
 
@@ -250,7 +250,7 @@ Publication lets you automatically create two message templates on the execution
 1. 「**[!UICONTROL 非公開にする]**」をクリックします。
 1. 「**[!UICONTROL 開始]**」をクリックします。
 
-![](assets/message-center-unpublish.png)
+![公開されたテンプレートの「非公開」ボタンから開いた「開始」ボタンを使用して、テンプレートダイアログを非公開にする](assets/message-center-unpublish.png)
 
 トランザクションメッセージテンプレートのステータスが「**[!UICONTROL パブリッシュ済み]**」から「**[!UICONTROL 編集中]**」に変わります。
 

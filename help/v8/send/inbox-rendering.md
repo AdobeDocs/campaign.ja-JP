@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 96%
+source-wordcount: '802'
+ht-degree: 83%
 ---
 # インボックスレンダリング{#inbox-rendering}
 
@@ -72,7 +72,7 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 
 使用可能なトークンの残り数は、[受信ボックスレンダリングレポート](#inbox-rendering-report)に表示されます。
 
-![](assets/s_tn_inbox_rendering_tokens.png)
+![月間パッケージのうち使用されたトークン数がハイライト表示された受信トレイのレンダリング結果レポート ](assets/s_tn_inbox_rendering_tokens.png)
 
 通常、受信ボックスレンダリング機能は、新しくデザインされたメールの HTML フレームワークをテストするために使用されます。 各レンダリングには、最大で約 70 トークンが必要です（通常テストされる環境の数による）。 ただし、場合によっては、配信を完全にテストするために、複数の受信ボックスレンダリングレポートが必要なことがあります。 そのため、複数の確認を完了するために、さらにトークンが必要になる可能性があります。
 
@@ -80,24 +80,24 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 
 メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
 
-配信の作成、設計、ターゲティングについて詳しくは、この[&#x200B; ページ &#x200B;](defining-the-email-content.md)を参照してください。
+配信の作成、設計、ターゲティングについて詳しくは、この[ ページ ](defining-the-email-content.md)を参照してください。
 
 
 1. 配信の上部バーで、「**[!UICONTROL 受信ボックスレンダリング]**」ボタンをクリックします。
 
 1. 「**[!UICONTROL 分析]**」を選択してキャプチャプロセスを開始します。
 
-   ![](assets/s_tn_inbox_rendering_button.png)
+   ![配信ツールバーの「受信トレイのレンダリング」ボタンと、受信トレイのレンダリングダイアログの「分析」ボタン ](assets/s_tn_inbox_rendering_button.png)
 
-   配達確認が送信されます。 メール送信後数分で、その配達確認からレンダリングサムネールにアクセスできます。 プルーフの送信について詳しくは、[&#x200B; プルーフの送信](preview-and-proof.md#send-proofs)を参照してください。
+   配達確認が送信されます。 メール送信後数分で、その配達確認からレンダリングサムネールにアクセスできます。 プルーフの送信について詳しくは、[ プルーフの送信](preview-and-proof.md#send-proofs)を参照してください。
 
 1. 送信後、配達確認は配信リストに表示されます。 ダブルクリックします。
 
-   ![](assets/s_tn_inbox_rendering_delivery_list.png)
+   ![送信後にメール配信のプルーフが選択された配信リスト ](assets/s_tn_inbox_rendering_delivery_list.png)
 
 1. 配達確認の「**受信ボックスレンダリング**」タブに移動します。
 
-   ![](assets/s_tn_inbox_rendering_tab.png)
+   ![ プルーフの「受信トレイのレンダリング」タブ。レポートの概要とモバイルのセクションが表示されている](assets/s_tn_inbox_rendering_tab.png)
 
    受信ボックスレンダリングレポートが表示されます。
 
@@ -107,14 +107,14 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 
 一番上のセクションには、受信済みメッセージ、不要なメッセージ（スパム）、未受信のメッセージ、または受信が保留されているメッセージの数の内訳が、色分けされたグラフで表示されます。
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
+![受信トレイ、迷惑メール、未受信および受信待ち、未受信および待機非表示の円グラフ ](assets/s_tn_inbox_rendering_summary.png){width="40%"}
 
 グラフの上にマウスポインターを置くと、各色の詳細が表示されます。 リストの項目をクリックすると、グラフの対応するカテゴリの表示/非表示を切り替えることができます。
 
 レポートの本文は、**[!UICONTROL モバイル]**、**[!UICONTROL デスクトップ]**、**[!UICONTROL Web]** メールの 3 つの部分に分かれています。 レポートを下へスクロールすると、これらの 3 つのカテゴリにグループ化されたすべてのレンダリングが表示されます。
 
-![](assets/s_tn_inbox_rendering_report.png)
+受信トレイのレンダリングレポートの![Web メールのセクション。Web メールとブラウザーの組み合わせごとにカードが表示されている](assets/s_tn_inbox_rendering_report.png)
 
 各レポートの詳細を表示するには、対応するカードをクリックします。 選択した受信方法のレンダリングが表示されます。
 
-![](assets/s_tn_inbox_rendering_example.png)
+![Chrome上のGmailでのメールの詳細なレンダリングが、レポートでカードから開かれました](assets/s_tn_inbox_rendering_example.png)

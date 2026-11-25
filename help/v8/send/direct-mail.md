@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 80%
+source-wordcount: '1041'
+ht-degree: 75%
 ---
 # ダイレクトメール配信の作成
 
@@ -57,7 +57,7 @@ ht-degree: 80%
 1. 新しい配信を作成します（例えば、配信ダッシュボードから）。
 1. **ダイレクトメールで配信（紙）**&#x200B;配信テンプレートを選択します。
 
-   ![](assets/direct_mail.png)
+   ![ リストで選択された「ダイレクトメールで配信（紙）」テンプレートを使用した新しい配信ダイアログ ](assets/direct_mail.png)
 
 1. ラベル、コードおよび説明を設定して配信を識別します。 詳しくは、[配信の作成](../start/create-message.md#create-the-delivery)を参照してください。
 1. 「**続行**」をクリックすると、入力した情報が確定され、メッセージ設定ウィンドウが表示されます。
@@ -70,7 +70,7 @@ ht-degree: 80%
 
 名前、郵便番号、市区町村フィールドが空でない場合、アドレスは完全に入力されているとみなされます。 アドレスが不完全な受信者はダイレクトメールの配信から除外されます。
 
-詳しくは、[&#x200B; ターゲットオーディエンスの定義](../start/create-message.md#target-population)を参照してください。
+詳しくは、[ ターゲットオーディエンスの定義](../start/create-message.md#target-population)を参照してください。
 
 ## ファイルのコンテンツの定義{#defining-the-direct-mail-content}
 
@@ -80,21 +80,21 @@ ht-degree: 80%
 
 抽出ファイルは、デフォルトではサーバー上に作成され、格納されますが、 コンピューター上に保存することもできます。 そのためには、「**[!UICONTROL 配信の分析後に、生成されたファイルをダウンロードする]**」をオンにします。 この場合、ローカルストレージディレクトリのアクセスパスおよびファイル名を指定する必要があります。
 
-![](assets/s_ncs_user_mail_delivery_local_file.png)
+![生成されたファイルのダウンロード オプションをオンにし、ローカルファイルパスを入力した抽出タブ ](assets/s_ncs_user_mail_delivery_local_file.png)
 
 ダイレクトメール配信の場合、抽出するデータのコンテンツは「**[!UICONTROL 抽出ファイルのフォーマットを編集]**」リンクを使用して定義します。
 
-![](assets/s_ncs_user_mail_delivery_format_link.png)
+「抽出ファイル形式を編集」リンクがハイライト表示された![抽出タブ ](assets/s_ncs_user_mail_delivery_format_link.png)
 
 このリンクをクリックすると、抽出アシスタントにアクセスして、出力ファイルにエクスポートする情報（列）を定義できます。
 
-![](assets/s_ncs_user_mail_delivery_format_wz.png)
+![使用可能なフィールドから出力列にドラッグしたフィールドを含むデータ抽出ウィザード ](assets/s_ncs_user_mail_delivery_format_wz.png)
 
 抽出ファイルにパーソナライズされたURLを挿入できます。 詳しくは、[Web フォームの公開](../dev/web/publishing-a-web-form.md)を参照してください。
 
 >[!NOTE]
 >
->このアシスタントには、Adobe Campaign Classic [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=ja){target="_blank"}で説明されている書き出しアシスタントの手順が含まれます。
+>このアシスタントには、Adobe Campaign Classic [ ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}で説明されている書き出しアシスタントの手順が含まれます。
 
 ## 配信の検証{#validating}
 
@@ -104,11 +104,11 @@ ht-degree: 80%
 
 配信を検証する際のグローバルな概念は、[配信の準備と検証](../start/create-message.md#validate-the-delivery)に表示されます。
 
-ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。 ファイルの内容は、選択した出力列によって異なります（この[&#x200B; セクション ファイル &#x200B;](#defining-the-direct-mail-content)を参照）。
+ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。 ファイルの内容は、選択した出力列によって異なります（この[ セクション ファイル ](#defining-the-direct-mail-content)を参照）。
 
 >[!NOTE]
 >
->分析フェーズについて詳しくは、この[&#x200B; セクション &#x200B;](delivery-analysis.md)を参照してください。
+>分析フェーズについて詳しくは、この[ セクション ](delivery-analysis.md)を参照してください。
 
 分析フェーズではファイルが生成されますが、受信者に関する情報（配信ログなど）は更新されません。 したがって、このジョブをキャンセルしても問題は発生しません。
 
@@ -116,7 +116,7 @@ ht-degree: 80%
 
 送信を確認すると、指定したファイルへのデータ抽出が開始されます。
 
-![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
+![保留中ステータスのダイレクトメール配信について、「OK」と「キャンセル」で配信確認ダイアログを開始](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
 その後、アシスタントを閉じて、配信の詳細情報から「**[!UICONTROL 配信]**」タブを開くと、配信ログを参照できます。
 

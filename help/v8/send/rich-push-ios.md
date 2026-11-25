@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 93%
+source-wordcount: '1506'
+ht-degree: 79%
 ---
 # iOS のリッチプッシュ配信の設計 {#rich-push}
 
@@ -56,7 +56,7 @@ ht-degree: 93%
 
 1. **[!UICONTROL 通知タイプ]**&#x200B;ドロップダウンから、「**[!UICONTROL デフォルト]**」を選択します。
 
-   ![](assets/rich_push_ios_default_1.png)
+   ![通知タイプ ドロップダウンリストが表示された「一般」タブ。デフォルト、基本、カルーセル、タイマー](assets/rich_push_ios_default_1.png)
 
 1. 「**[!UICONTROL タイトル]**」フィールドで、通知センターから使用可能な通知のリストに表示するタイトルのラベルを入力します。
 
@@ -66,17 +66,17 @@ ht-degree: 93%
 
 1. ウィザードの「**[!UICONTROL メッセージコンテンツ]**」セクションにメッセージのコンテンツを入力します。
 
-   ![](assets/rich_push_ios_default_2.png)
+   ![ デフォルトの通知タイプ、タイトル、メッセージコンテンツが入力された一般的なタブ ](assets/rich_push_ios_default_2.png)
 
 1. 「**[!UICONTROL サウンドとバッジ]**」タブに移動して、通知のサウンドやバッジのオプションなどの追加設定をカスタマイズします。 [詳細情報](#sound-badge)
 
-   ![](assets/rich_push_ios_default_3.png)
+   「![ クリーン バッジ」をオンにしたサウンドとバッジのタブ、クリティカルアラートモードとサウンド名の設定](assets/rich_push_ios_default_3.png)
 
 1. 「**[!UICONTROL アプリケーション変数]**」タブから、**[!UICONTROL アプリケーション変数]**&#x200B;が自動的に追加されます。 これによって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
 
 1. さらにカスタマイズするには、プッシュ通知で使用できる&#x200B;**[!UICONTROL 詳細オプション]**&#x200B;を確認します。 [詳細情報](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![ スレッド ID、カテゴリ、ターゲットコンテンツ ID、画像の起動および関連性スコアのフィールドを含む詳細タブ ](assets/rich_push_ios_default_4.png)
 
 1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 
@@ -86,13 +86,13 @@ ht-degree: 93%
 
 1. **[!UICONTROL 通知タイプ]**&#x200B;ドロップダウンから、「**[!UICONTROL 基本]**」を選択します。
 
-   ![](assets/rich_push_ios_basic_1.png)
+   ![通知タイプ ドロップダウンで「基本」を選択し、「拡張タイトル」フィールドと「拡張メッセージ」フィールドを追加](assets/rich_push_ios_basic_1.png)
 
 1. メッセージを作成するには、「**[!UICONTROL タイトル]**」、「**[!UICONTROL 拡張されたメッセージ]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 拡張されたメッセージ]**」の各フィールドにテキストを入力します。
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![](assets/rich_push_ios_basic_2.png)
+   ![ タイトル、拡張タイトル、メッセージおよび拡張メッセージのフィールドが](assets/rich_push_ios_basic_2.png)に入力された基本的な通知
 
 1. オプションで、iOS 通知ペイロードの **subtitle** パラメーターに対応する&#x200B;**[!UICONTROL 字幕]**&#x200B;を追加します。
 
@@ -102,11 +102,11 @@ ht-degree: 93%
 
 1. さらにカスタマイズするには、プッシュ通知で使用できる&#x200B;**[!UICONTROL 詳細オプション]**&#x200B;を確認します。 [詳細情報](#push-advanced)
 
-   ![](assets/rich_push_ios_default_4.png)
+   ![ スレッド ID、カテゴリ、ターゲットコンテンツ ID、画像の起動および関連性スコアのフィールドを含む詳細タブ ](assets/rich_push_ios_default_4.png)
 
 1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、「**[!UICONTROL タイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 背景]**」の 16 進数のカラーコードを入力します。
 
-   ![](assets/rich_push_ios_basic_3.png)
+   ![ タイトルカラー、メッセージカラーおよび背景色フィールドを含む「カラーオプション」タブ ](assets/rich_push_ios_basic_3.png)
 
 メッセージのコンテンツを定義したら、テストサブスクライバーを利用して、メッセージをプレビューしテストできます。
 
@@ -116,17 +116,17 @@ ht-degree: 93%
 
 1. **[!UICONTROL 通知タイプ]**&#x200B;ドロップダウンから、「**[!UICONTROL カルーセル]**」を選択します。
 
-   ![](assets/rich_push_ios_carousel_1.png)
+   ![ カルーセルを選択した通知タイプ ドロップダウン、カラーオプションおよびカルーセルオプション タブの追加](assets/rich_push_ios_carousel_1.png)
 
 1. メッセージを作成するには、「**[!UICONTROL タイトル]**」、「**[!UICONTROL 拡張されたタイトル]**」、「**[!UICONTROL メッセージ]**」の各フィールドにテキストを入力します。
 
-   ![](assets/rich_push_ios_carousel_2.png)
+   ![ タイトル、拡張タイトル、メッセージ フィールドが](assets/rich_push_ios_carousel_2.png)に入力されたカルーセル通知
 
 1. 「**[!UICONTROL サウンドとバッジ]**」タブに移動して、通知のサウンドやバッジのオプションなどの追加設定をカスタマイズします。 [詳細情報](#sound-badge)
 
 1. 「**[!UICONTROL アプリケーション変数]**」タブから、**[!UICONTROL アプリケーション変数]**&#x200B;が自動的に追加されます。 これによって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
 
-   ![](assets/rich_push_ios_carousel_4.png)
+   ![ スレッド ID、ターゲットコンテンツ ID、クリックアクションフィールドを含むカルーセル通知の「詳細」タブ ](assets/rich_push_ios_carousel_4.png)
 
 1. さらにカスタマイズするには、プッシュ通知で使用できる&#x200B;**[!UICONTROL 詳細オプション]**&#x200B;を確認します。 [詳細情報](#push-advanced)
 
@@ -141,7 +141,7 @@ ht-degree: 93%
 
    少なくとも 3 つの画像、最大 5 つの画像を含めます。
 
-   ![](assets/rich_push_ios_carousel_3.png)
+   ![手動操作モードの「カルーセルオプション」タブと、アクション URI](assets/rich_push_ios_carousel_3.png)を持つ画像のリスト
 
 メッセージのコンテンツを定義したら、テストサブスクライバーを利用して、メッセージをプレビューしテストできます。
 
@@ -151,13 +151,13 @@ ht-degree: 93%
 
 1. **[!UICONTROL 通知タイプ]**&#x200B;ドロップダウンから、「**[!UICONTROL タイマー]**」を選択します。
 
-   ![](assets/rich_push_ios_timer_1.png)
+   ![通知タイプ ドロップダウンとタイマーを選択した状態で、カラーオプションとタイマーオプションのタブを追加](assets/rich_push_ios_timer_1.png)
 
 1. メッセージを作成するには、**[!UICONTROL タイトル]**、**[!UICONTROL 拡張タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 拡張メッセージ]** フィールドにテキストを入力します。
 
    **[!UICONTROL メッセージ]**&#x200B;テキストは折りたたまれたビューに表示され、通知を拡張すると&#x200B;**[!UICONTROL 拡張されたメッセージ]**&#x200B;が表示されます。
 
-   ![](assets/rich_push_ios_timer_2.png)
+   ![ タイトル、拡張されたタイトルおよびメッセージ フィールドが](assets/rich_push_ios_timer_2.png)に入力されたタイマー通知
 
 1. オプションで、iOS 通知ペイロードの **subtitle** パラメーターに対応する&#x200B;**[!UICONTROL 字幕]**&#x200B;を追加します。
 
@@ -167,15 +167,15 @@ ht-degree: 93%
 
 1. さらにカスタマイズするには、プッシュ通知で使用できる&#x200B;**[!UICONTROL 詳細オプション]**&#x200B;を確認します。 [詳細情報](#push-advanced)
 
-1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、**[!UICONTROL タイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 背景]**&#x200B;の 16 進数のカラーコードを入力します。
+1. **[!UICONTROL カラーオプション]**&#x200B;メニューで、「**[!UICONTROL タイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 背景]**」の 16 進数のカラーコードを入力します。
 
-   ![](assets/rich_push_ios_timer_4.png)
+   ![ タイトルカラー、メッセージカラー、背景色およびタイマーカラーフィールドを含む「カラーオプション」タブ ](assets/rich_push_ios_timer_4.png)
 
 1. 「**[!UICONTROL タイマー]**」タブで、**[!UICONTROL タイマー期間]**&#x200B;を秒単位で設定するか、**[!UICONTROL タイマー終了タイムスタンプ]**&#x200B;を特定のエポックタイムスタンプに設定します。
 
 1. タイマーの有効期限が切れた後に表示されるテキストと画像を「**[!UICONTROL 代替タイトル]**」、「**[!UICONTROL 代替メッセージ]**」、「**[!UICONTROL 代替画像]**」の各フィールドに入力します。
 
-   ![](assets/rich_push_ios_timer_3.png)
+   ![代替タイトル、タイマー期間、代替画像および代替メッセージフィールドを含む「タイマーオプション」タブ ](assets/rich_push_ios_timer_3.png)
 
 メッセージのコンテンツを定義したら、テストサブスクライバーを利用して、メッセージをプレビューしテストできます。
 

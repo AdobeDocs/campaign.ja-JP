@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 98%
+source-wordcount: '1190'
+ht-degree: 88%
 ---
 # 配信テンプレートの操作 {#work-with-delivery-template}
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 * コンテンツ、会社のロゴまたは署名
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#delivery-template-video)
+![ ビデオリンクの再生アイコン ](assets/do-not-localize/how-to-video.png) [ ビデオでこの機能を見つける](#delivery-template-video)
 
 配信テンプレートは、エクスプローラーの&#x200B;**[!UICONTROL リソース／テンプレート／配信テンプレート]**&#x200B;フォルダーに保存されます。 Adobe Campaign では、次の 2 つのタイプのテンプレートを使用できます。
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。 例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。 このコンテキストでは、他のテンプレートは表示されません。 詳しくは、[&#x200B; ターゲットマッピングの操作](../audiences/target-mappings.md)および[&#x200B; サブスクリプションとサブスクリプション解除の管理](../start/subscriptions.md)を参照してください。
+>使用できるテンプレートの種類は、ユーザー自身が持つアクセス権、ユーザーのインスタンス設定およびコンテキストによって異なります。 例えば、情報サービスを作成する際に、確認メッセージ用の配信テンプレートをリンクするとします。その場合にアクセスできるテンプレートは、ターゲットマッピングが購読マッピングであるテンプレートのみです。 このコンテキストでは、他のテンプレートは表示されません。 詳しくは、[ ターゲットマッピングの操作](../audiences/target-mappings.md)および[ サブスクリプションとサブスクリプション解除の管理](../start/subscriptions.md)を参照してください。
 
 
 ## テンプレートの作成 {#create-a-delivery-template}
@@ -88,15 +88,15 @@ Campaign には、各チャネル用の一連のビルトインのテンプレ�
 1. ビルトインの配信テンプレートを選択します。 ビルトインのテンプレートはリスト内で太字で表示されています。
 1. 右クリックして、「**[!UICONTROL 複製]**」を選択します。
 
-   ![](assets/duplicate-built-in-template.png)
+   右クリックメニューを開き、組み込みテンプレートで「複製」を選択した![配信テンプレートリスト ](assets/duplicate-built-in-template.png)
 
 1. テンプレート設定を定義し、新しいテンプレートを保存します。
 
-   ![](assets/delivery-template-new.png)
+   ![ ラベル、送信元アドレス、件名、HTML コンテンツを含む重複した電子メールテンプレートのプロパティ ](assets/delivery-template-new.png)
 
 このテンプレートが配信テンプレートのリストに追加されます。 これで、新しい配信を作成する際にテンプレートを選択できます。
 
-![](assets/select-the-new-template.png)
+![配信テンプレートのドロップダウンリストには、ビルトインテンプレートと新しいカスタムテンプレートのお知らせメール配信](assets/select-the-new-template.png)が表示されます
 
 ### 既存の配信をテンプレートに変換する {#convert-an-existing-delivery}
 
@@ -108,11 +108,11 @@ Campaign には、各チャネル用の一連のビルトインのテンプレ�
 
 1. 右クリックして&#x200B;**[!UICONTROL アクション／テンプレートとして保存]**&#x200B;を選択します。
 
-   ![](assets/save-as-template.png)
+   ![操作とテンプレートとして保存を選択した配信リストの右クリックメニュー](assets/save-as-template.png)
 
 1. 配信プロパティを編集し、（「**[!UICONTROL フォルダー]**」フィールドに）新しいテンプレートを保存する必要があるフォルダーと、（「**[!UICONTROL 実行フォルダー]**」フィールドに）このテンプレートに基づいて作成された配信を作成する必要があるフォルダーを選択します。
 
-   ![](assets/template-select-folders.png)
+   ![新しいテンプレートの実行フォルダー、フォルダー、ルーティング フィールドを含む配信プロパティ ](assets/template-select-folders.png)
 
 ### 新しいテンプレートの作成 {#create-a-new-template}
 
@@ -140,11 +140,11 @@ Campaign には、各チャネル用の一連のビルトインのテンプレ�
 
 既存のテンプレートをベースにして配信を作成するには、利用可能な配信テンプレートのリストからテンプレートを選択します。
 
-![](assets/select-the-new-template.png)
+![配信テンプレートのドロップダウンリストには、ビルトインテンプレートと新しいカスタムテンプレートのお知らせメール配信](assets/select-the-new-template.png)が表示されます
 
 テンプレートが表示されない場合は、フィールドの右にある&#x200B;**[!UICONTROL リンクを選択]**&#x200B;フォルダーをクリックし、Campaign フォルダーを参照します。
 
-![](assets/browse-templates.png)
+配信テンプレートを表示する![ フォルダー選択ダイアログ。配信テンプレートフィールドから開きます](assets/browse-templates.png)
 
 目的のディレクトリを「**[!UICONTROL フォルダー]**」フィールドから選択するか、**[!UICONTROL サブレベルを表示]**&#x200B;アイコンをクリックして現在のディレクトリのサブツリーに含まれるディレクトリのコンテンツを表示します。
 
@@ -160,7 +160,7 @@ Campaign には、各チャネル用の一連のビルトインのテンプレ�
 
    また、**[!UICONTROL ファイル／アクションメニューで「配信テンプレートを実行」]**&#x200B;を選択することもできます。
 
-   ![](assets/execute-delivery-template.png)
+   ![配信テンプレートのリストで、「配信テンプレートを実行」メニューオプションが選択されている](assets/execute-delivery-template.png)
 
 1. 配信パラメーターを入力し、「**[!UICONTROL 送信]**」をクリックします。
 
@@ -172,18 +172,18 @@ Campaign には、各チャネル用の一連のビルトインのテンプレ�
 
 次のビデオでは、アドホック配信用のテンプレートを設定する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3409248?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### 配信テンプレートのプロパティの設定方法
 
 次のビデオでは、配信テンプレートのプロパティを設定する方法と各プロパティの詳細について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443402?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### アドホック配信テンプレートのデプロイ方法
 
 このビデオでは、アドホックメール配信テンプレートを導入する方法と、メール配信と配信ワークフローの違いについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3444958?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
 Campaign に関するその他のハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=ja){target="_blank"}で参照できます。

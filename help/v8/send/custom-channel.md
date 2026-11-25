@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 31%
+source-wordcount: '647'
+ht-degree: 28%
 ---
 # カスタムチャネルの基本を学ぶ {#gs-custom-channel}
 
@@ -36,15 +36,15 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。 ただし、カスタムチャネル設定はクライアントコンソールでのみ実行されます。
 
-カスタムチャネルに基づいて配信を作成および送信する方法については、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"}を参照してください。
+カスタムチャネルに基づいて配信を作成および送信する方法については、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"}を参照してください。
 
 クライアントコンソールで新しいカスタムチャネルを設定する手順は次のとおりです。 次の手順は、カスタム外部チャネルと API チャネルに共通です。
 
-1. スキーマの設定，[&#x200B; スキーマの設定](#configure-schema)
+1. スキーマの設定，[ スキーマの設定](#configure-schema)
 1. 新しい外部アカウントの作成，[新しい外部アカウントの作成](#create-ext-account)
 1. 新しい配信テンプレートの作成，[新しい配信テンプレートの作成](#create-template)
 
-カスタム API チャネルには、追加の設定が必要です。 [&#x200B; カスタム API追加設定](#api-additional)
+カスタム API チャネルには、追加の設定が必要です。 [ カスタム API追加設定](#api-additional)
 
 ## スキーマの設定{#configure-schema}
 
@@ -63,7 +63,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
    </enumeration>
    ```
 
-   ![](assets/cus-schema.png){zoomable="yes"}
+   ![ カスタムチャネルのmessageType列挙が強調表示された配信（cus）ソーススキーマ ](assets/cus-schema.png){zoomable="yes"}
 
 ## 新しい外部アカウントの作成{#create-ext-account}
 
@@ -75,7 +75,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 1. チャネルを選択し、配信モードを変更します。 カスタム外部チャネルには&#x200B;**External**&#x200B;を、カスタム API チャネルには&#x200B;**Bulk**&#x200B;を選択します。
 
-   ![](assets/cus-ext-account.png){zoomable="yes"}
+   ![ カスタム チャネルを選択し、配信モードをExternal](assets/cus-ext-account.png){zoomable="yes"}に設定したルーティング タイプの外部アカウント
 
 ## 新しい配信テンプレートの作成{#create-template}
 
@@ -87,7 +87,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 1. 「**プロパティ**」をクリックし、適切なフォルダーとルーティングを選択します。
 
-   ![](assets/cus-template.png){zoomable="yes"}
+   ![配信テンプレートのプロパティ、一般タブ、カスタムチャネルの外部アカウントに設定されたフォルダーおよびルーティング フィールド ](assets/cus-template.png){zoomable="yes"}
 
 新しいチャネルが使用できるようになりました。 このチャネルに基づいて配信を作成および実行できます。
 
@@ -99,7 +99,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 クライアントコンソールから、カスタムチャネルに必要なすべての追加プロパティを含む&#x200B;**配信** スキーマを拡張します。
 
-スキーマ拡張機能について詳しくは、この[&#x200B; ページ &#x200B;](../dev/extend-schema.md)を参照してください。
+スキーマ拡張機能について詳しくは、この[ ページ ](../dev/extend-schema.md)を参照してください。
 
 ### カスタム画面定義の設定{#api-additional-screen}
 
@@ -107,13 +107,13 @@ Campaign Web UIから、カスタム画面定義を設定します。
 
 1. **配信** スキーマを開き、**Screen edition**&#x200B;をクリックします。
 
-   ![](assets/cus-schema2.png){zoomable="yes"}
+   ![画面編集ボタンが右上にある配信（nms）スキーマページ ](assets/cus-schema2.png){zoomable="yes"}
 
-1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=ja#fields){target="_blank"}を参照してください。
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}を参照してください。
 
-   ![](assets/cus-schema3.png){zoomable="yes"}
+   ![画面定義ダイアログ、カスタムチャネルタブ、ラベル、属性、タイプ、必須オプションを含むカスタムフィールドのリスト ](assets/cus-schema3.png){zoomable="yes"}
 
-1. 「**コンテンツをシミュレートするプレビュー**」セクションで、専用のJSPPを選択します。 これはオプションです。 これにより、配信シミュレーション画面でプレビューがアクティブになります。 [&#x200B; プレビューの設定](#api-additional-preview)
+1. 「**コンテンツをシミュレートするプレビュー**」セクションで、専用のJSPPを選択します。 これはオプションです。 これにより、配信シミュレーション画面でプレビューがアクティブになります。 [ プレビューの設定](#api-additional-preview)
 
 ### プレビューの設定{#api-additional-preview}
 

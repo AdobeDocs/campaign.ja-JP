@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 64%
+source-wordcount: '1481'
+ht-degree: 62%
 ---
 # 強制隔離 {#quarantine-management}
 
@@ -62,7 +62,7 @@ Adobe Campaign は、オンラインチャネル（メール、SMS、プッシ�
 
 >[!NOTE]
 >
->[&quot;mailto&quot; List-Unsubscribe メソッド &#x200B;](https://experienceleague.adobe.com/ja/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}を介した購読解除された受信者は、強制隔離に送信されません。 配信にサービスが定義されていない場合、配信に関連付けられている[&#x200B; サービス &#x200B;](../start/subscriptions.md)から購読を解除されるか、または配信にサービスが定義されていない場合はメールブロックリスト（プロファイルの&#x200B;**[!UICONTROL もう連絡先]** セクションに表示）に送信されます。
+>[&quot;mailto&quot; List-Unsubscribe メソッド ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"}を介した購読解除された受信者は、強制隔離に送信されません。 配信にサービスが定義されていない場合、配信に関連付けられている[ サービス ](../start/subscriptions.md)から購読を解除されるか、または配信にサービスが定義されていない場合はメールブロックリスト（プロファイルの&#x200B;**[!UICONTROL もう連絡先]** セクションに表示）に送信されます。
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -109,7 +109,7 @@ Adobe Campaign では、配信エラーのタイプと理由に応じて強制�
 
 Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x200B;強制隔離されたアドレスのリストを表示するために、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;を参照できます。 このセクションには、**メール**、**SMS** および&#x200B;**プッシュ通知**&#x200B;チャネルの強制隔離された要素のリストが表示されます。
 
-![](assets/tech-quarantine.png)
+![強制隔離ステータス、エラーの理由、エラーテキスト、配信アクションを含む強制隔離されたアドレスレコード ](assets/tech-quarantine.png)
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 さらに、このホームページの&#x200B;**レポート** セクションから入手できる&#x200B;**[!UICONTROL 配信不能件数とバウンス]**&#x200B;の組み込みレポートには、強制隔離のアドレス、発生したエラーの種類、ドメイン別のエラー分類に関する情報が表示されます。 特定の配信のデータをフィルターしたり、必要に応じてこのレポートをカスタマイズしたりできます。
 
-バウンスアドレスについて詳しくは、[配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja){target="_blank"}を参照してください。
+バウンスアドレスについて詳しくは、[配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja){target="_blank"}を参照してください。
 
 ### 強制隔離されたメールアドレス {#quarantined-recipient}
 
@@ -131,7 +131,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 各フォルダーについて、以下のように、**[!UICONTROL 強制隔離されたメールアドレス]**&#x200B;ビルトインのフィルターを使用して、メールアドレスが強制隔離されている受信者のみを表示できます。
 
-![](assets/quarantine-filter.png)
+![強制隔離された電子メールアドレスの組み込みフィルターがハイライト表示された受信者リストフィルターメニュー](assets/quarantine-filter.png)
 
 
 ## 強制隔離アドレスを削除 {#remove-a-quarantined-address}
@@ -143,7 +143,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
 * 「**[!UICONTROL エラーあり]**」ステータスのアドレスは、配信が正常に完了すると、強制隔離リストから削除されます。
-* 「**[!UICONTROL エラーあり]**」ステータスのアドレスは、最後のソフトバウンスが 10 日以上前に発生した場合に、強制隔離リストから削除されます。 ソフトエラー管理について詳しくは、[&#x200B; ソフトエラー管理](#soft-error-management)を参照してください。
+* 「**[!UICONTROL エラーあり]**」ステータスのアドレスは、最後のソフトバウンスが 10 日以上前に発生した場合に、強制隔離リストから削除されます。 ソフトエラー管理について詳しくは、[ ソフトエラー管理](#soft-error-management)を参照してください。
 * 「**[!UICONTROL エラーあり]**」ステータスのアドレスで、**[!UICONTROL メールボックス容量超過]**&#x200B;エラーでバウンスしたアドレスは、30 日後に強制隔離リストから削除されます。
 
 その後、ステータスは「**[!UICONTROL 有効]**」に変わります。
@@ -156,7 +156,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 また、強制隔離リストからアドレスを手動で削除することもできます。 強制隔離からアドレスを手動で削除するには、ステータスを&#x200B;**[!UICONTROL 管理/キャンペーン管理/配信不能管理/配信不能件数とアドレス]** ノードの&#x200B;**[!UICONTROL 有効]**&#x200B;に変更します。
 
-![](assets/tech-quarantine-status.png)
+![ ステータス ドロップダウンリストが開き、有効なステータスが選択されたアドレス レコードが強制隔離から削除されます](assets/tech-quarantine-status.png)
 
 ### 一括更新 {#unquarantine-bulk}
 
@@ -177,5 +177,5 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 * [配信エラーについて](delivery-failures.md) – 様々な種類の配信エラーと、Campaignによるバウンスの処理方法について説明します
 * [配信を監視](delivery-dashboard.md) – 配信ログにアクセスし、配信パフォーマンスを監視します
-* [配信のベストプラクティス &#x200B;](../start/delivery-best-practices.md) – 配信品質を維持し、強制隔離を回避するためのベストプラクティス
+* [配信のベストプラクティス ](../start/delivery-best-practices.md) – 配信品質を維持し、強制隔離を回避するためのベストプラクティス
 

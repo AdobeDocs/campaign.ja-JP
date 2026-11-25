@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 89%
+source-wordcount: '893'
+ht-degree: 80%
 ---
 # 日本の携帯電話向けのメールの送信 {#sending-emails-on-japanese-mobiles}
 
@@ -36,7 +36,7 @@ Adobe Campaign は、日本の携帯電話向けに特化したメールフォ�
 
 これらのフォーマットのいずれかでメッセージが正しく受信されるようにするには、対応するプロファイルで「**[!UICONTROL デコメール（DoCoMo）]**」、「**[!UICONTROL デコレメール（Softbank）]**」または「**[!UICONTROL デコレーションメール（KDDI au）]**」を選択することをお勧めします。
 
-![](assets/deco-mail_03.png)
+![受信者の一般タブ。電子メール形式リストが開いている状態：Unknown、Text、HTML、Deco-mail、Decore Mail、Decore Mail](assets/deco-mail_03.png)
 
 ただし、「**[!UICONTROL メールフォーマット]**」オプションを「**[!UICONTROL 不明]**」、「**[!UICONTROL HTML]**」または「**[!UICONTROL テキスト]**」のままにした場合は、メール送信時に、メッセージが正しく表示されるように日本独自のフォーマットが自動検出されます。
 
@@ -73,7 +73,7 @@ Adobe Campaign では、メッセージのフォーマットが日本の携帯�
 * メッセージに含まれる画像の数がフォーマットの制限を超えていないことのチェック（20 以下）
 * メッセージの合計サイズのチェック（100 KB 未満）
 
-  ![](assets/deco-mail_06.png)
+  ![ サポートされていないタグと100 kBのサイズ制限に関する警告を一覧表示するDeco-mail診断タブを含む結果ウィンドウのプレビュー](assets/deco-mail_06.png)
 
 ### タイポロジルールを実行 {#running-typology-rule}
 
@@ -91,14 +91,14 @@ Adobe Campaign では、メッセージのフォーマットが日本の携帯�
 
 例えば、プロファイルのメールフォーマットが&#x200B;**[!UICONTROL デコレメール（Softbank）]**&#x200B;で事前に定義されている場合は、プロファイルのアドレスを test@softbank.ne.jp に置換してください。
 
-![](assets/deco-mail_05.png)
+![softbank.ne.jp テスト アドレスをプロファイルにマッピングしたアドレス モードの置き換えに、プルーフ ダイアログを送信する](assets/deco-mail_05.png)
 
 ## メッセージの送信 {#sending-messages}
 
 Campaign を使用して日本語メールフォーマットでメールを受信者に送信するには、2 つのオプションがあります。
 
 * 2つの配信を作成します。1つは日本語の受信者に対してのみ、もう1つは他の受信者に対してです。[日本語の形式に対して特定の配信をデザインする](#designing-a-specific-delivery-for-japanese-formats)を参照してください。
-* 1つの配信を作成すると、Adobe Campaignが使用する形式を自動的に検出します。[すべての形式の配信をデザイン &#x200B;](#designing-a-delivery-for-all-formats)します。
+* 1つの配信を作成すると、Adobe Campaignが使用する形式を自動的に検出します。[すべての形式の配信をデザイン ](#designing-a-delivery-for-all-formats)します。
 
 ### 日本独自のフォーマットに対応する配信のデザイン {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -106,9 +106,9 @@ Campaign を使用して日本語メールフォーマットでメールを受�
 
 これを実行するには、ワークフローで&#x200B;**[!UICONTROL 分割]**&#x200B;アクティビティを使用し、フィルター条件として日本独自のメールフォーマット（デコメール、デコレーションメール、デコレメール）を定義します。
 
-![](assets/deco-mail_08.png)
+![3つのメール形式の条件をOrで組み合わせたフィルターダイアログ：Deco-mail、Decore Mail、Decore Mail](assets/deco-mail_08.png)
 
-![](assets/deco-mail_07.png)
+![ ワークフロー：クエリ、重複排除、メール形式による日本語のモバイル配信および標準配信への分割](assets/deco-mail_07.png)
 
 ### すべてのフォーマットに対応する配信のデザイン {#designing-a-delivery-for-all-formats}
 

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '2197'
-ht-degree: 90%
+source-wordcount: '2602'
+ht-degree: 76%
 ---
 # メールコンテンツの定義 {#defining-the-email-content}
 
@@ -39,11 +39,11 @@ ht-degree: 90%
 
 送信するメッセージのヘッダーに表示される送信者の名前とアドレスを定義するには、「**[!UICONTROL 送信者]**」リンクをクリックします。
 
-![](assets/s_ncs_user_wizard_email02.png)
+![送信元リンクからメールヘッダーパラメーターダイアログが開き、送信元フィールドにパーソナライゼーションメニューが表示される](assets/s_ncs_user_wizard_email02.png)
 
 このウィンドウでは、メールのメッセージヘッダーを作成するために必要なすべての情報を入力できます。 この情報はパーソナライズ可能です。 パーソナライズするには、入力フィールドの右にあるボタンを使用してパーソナライゼーションフィールドを挿入します。
 
-パーソナライゼーションフィールドの挿入と使用方法については、[&#x200B; パーソナライゼーションの基本を学ぶ](personalize.md)を参照してください。
+パーソナライゼーションフィールドの挿入と使用方法については、[ パーソナライゼーションの基本を学ぶ](personalize.md)を参照してください。
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 90%
 >
 >メッセージの件名は必須です。
 
-![](assets/s_ncs_user_wizard_email_object.png)
+![受信者でパーソナライゼーションメニューを開いたメッセージ件名を編集ダイアログで、名](assets/s_ncs_user_wizard_email_object.png)を挿入する
 
 フィールドの内容は、メッセージが送信される際に、受信者のプロファイルに含まれる値で置き換えられます。
 
@@ -72,7 +72,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->パーソナライゼーションフィールドの使用については、[&#x200B; パーソナライゼーションの概要](personalize.md)を参照してください。
+>パーソナライゼーションフィールドの使用については、[ パーソナライゼーションの概要](personalize.md)を参照してください。
 
 **[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウを使用して、件名行に顔文字を挿入することもできます。
 
@@ -106,11 +106,11 @@ ht-degree: 90%
 
   ツールバーのボタンでは、標準的なアクションや HTML ページ用の書式設定パラメーターを使用できます。
 
-  ![](assets/s_ncs_user_wizard_email01_138.png)
+  書式設定ツールバーと「ハイパーテキストリンクを挿入」ボタンがハイライト表示された![HTML コンテンツタブ ](assets/s_ncs_user_wizard_email01_138.png)
 
   画像をメッセージに挿入する場合は、ローカルファイルを読み込んで挿入するか、Adobe Campaign の画像ライブラリから挿入できます。 そのためには、**[!UICONTROL 画像]**&#x200B;アイコンをクリックし、適切なオプションを選択します。
 
-  ![](assets/s_ncs_user_wizard_email01_18.png)
+  ![HTML ツールバーの画像ボタンメニュー（「ローカルファイルから」および「ライブラリから」オプションを含む） ](assets/s_ncs_user_wizard_email01_18.png)
 
   ライブラリ画像には、フォルダーツリー内の&#x200B;**[!UICONTROL リソース／オンライン／パブリックリソース]**&#x200B;フォルダーからアクセスできます。 [画像の追加](#adding-images)も参照してください。
 
@@ -118,23 +118,23 @@ ht-degree: 90%
 
   >[!NOTE]
   >
-  >パーソナライゼーションフィールドの使用については、[&#x200B; パーソナライゼーションの概要](personalize.md)を参照してください。
+  >パーソナライゼーションフィールドの使用については、[ パーソナライゼーションの概要](personalize.md)を参照してください。
 
   ページの下部にあるタブでは、作成されるページの HTML コードや、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。 これらを表示するには、「**[!UICONTROL プレビュー]**」をクリックし、ツールバーの&#x200B;**[!UICONTROL パーソナライゼーションをテスト]**&#x200B;ボタンを使用して受信者を選択します。 定義済みターゲットの中から受信者を選択することも、別の受信者を指定することもできます。
 
-  ![](assets/s_ncs_user_wizard_email01_139.png)
+  ![HTML コンテンツタブのプレビュー：受信者、シードアドレス、またはターゲット母集団を選択するためのパーソナライゼーションメニュー](assets/s_ncs_user_wizard_email01_139.png)
 
   HTML メッセージを検証できます。 また、メールヘッダーの内容も確認できます。
 
-  ![](assets/s_ncs_user_wizard_email01_140.png)
+  ![ パーソナライズされた件名とコンテンツ、送信元、件名とサイズのヘッダーを含む、選択した受信者のHTML プレビュー](assets/s_ncs_user_wizard_email01_140.png)
 
 * テキストコンテンツをインポートするには、「**[!UICONTROL 開く]**」ボタンを使用するか、メッセージがテキスト形式で表示される場合のメッセージのコンテンツを「**[!UICONTROL テキストコンテンツ]**」タブで入力します。 ツールバーのボタンを使用して、コンテンツに対するアクションをします。 最後のボタンは、パーソナライゼーションフィールドを挿入するボタンです。
 
-  ![](assets/s_ncs_user_wizard_email01_141.png)
+  ![ プレーンテキストのメッセージソースとパーソナライゼーションフィールドを含むテキストコンテンツタブ ](assets/s_ncs_user_wizard_email01_141.png)
 
   HTML形式については、ページ下部の「**[!UICONTROL プレビュー]**」タブをクリックして、パーソナライズされたメッセージのレンダリングを表示します。
 
-  ![](assets/s_ncs_user_wizard_email01_142.png)
+  ![選択した受信者のテキストコンテンツのプレビュー。パーソナライズされたテキスト、ミラーページ、購読解除ブロック ](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## インタラクティブコンテンツの定義 {#amp-for-email-format}
@@ -147,11 +147,11 @@ Adobe Campaignでは、特定の条件で動的な電子メールを送信でき
 
 配信のコンテンツは、配信アシスタント内から直接コンテンツ管理フォームを使用して定義できます。 そのためには、配信プロパティの「**[!UICONTROL 詳細設定]**」タブで、使用するコンテンツ管理のパブリッシュテンプレートを参照する必要があります。
 
-![](assets/s_ncs_content_in_delivery.png)
+![配信プロパティ「テンプレート」フィールドで公開テンプレートが選択された詳細タブ ](assets/s_ncs_content_in_delivery.png)
 
 追加されたタブにコンテンツを入力すると、コンテンツ管理ルールに基づき、このコンテンツの組み込みと書式設定が自動的におこなわれます。
 
-![](assets/s_ncs_content_in_delivery_edition_tab.png)
+![ コンテンツテンプレートを使用した配信。入力するコンテンツフィールドを含む「編集」タブが表示される](assets/s_ncs_content_in_delivery_edition_tab.png)
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Adobe Campaignでは、特定の条件で動的な電子メールを送信でき
 1. **[!UICONTROL 顔文字を挿入]**&#x200B;アイコンをクリックします。
 1. ポップアップウィンドウから顔文字を選択します。
 
-   ![](assets/emoticon_4.png)
+   ![使用可能な絵文字を一覧表示する絵文字ポップアップウィンドウを挿入し、HTML コンテンツ用に1つ選択しました](assets/emoticon_4.png)
 
 1. 挿入が完了したら、「**[!UICONTROL 閉じる]**」ボタンをクリックします。
 
@@ -196,7 +196,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
 配信アシスタントでは、ローカル環境にある画像またはライブラリに保存されている画像を、メッセージのコンテンツに追加できます。 そのためには、HTML コンテンツツールバーの「**[!UICONTROL 画像]**」ボタンをクリックします。
 
-![](assets/s_ncs_user_image_from_library.png)
+HTML ツールバーの![画像ボタンメニューで「ライブラリから」オプションが選択されている](assets/s_ncs_user_image_from_library.png)
 
 >[!IMPORTANT]
 >
@@ -205,18 +205,18 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 配信アシスタントを使用して画像を管理するには、以下を実行します。
 
 1. ツールバーの「**[!UICONTROL トラッキング＆画像]**」アイコンをクリックします。
-   ![](assets/s_ncs_user_email_del_img_param.png)
+   配信ツールバーで![ トラッキングと画像ボタンがハイライト表示される](assets/s_ncs_user_email_del_img_param.png)
 
 1. 「**[!UICONTROL 画像]**」タブの「**[!UICONTROL 画像をアップロード]**」を選択します。
 1. その画像をメールメッセージに含めるかどうかを選択できます。
-   ![](assets/s_ncs_user_email_del_img_upload.png)
+   ![画像をアップロードが選択された画像タブと、検出された画像のリストが「まだオンラインではありません」ステータス ](assets/s_ncs_user_email_del_img_upload.png)
 
 * 配信分析フェーズを待つことなく、手動で画像をアップロードできます。 そのためには、「**[!UICONTROL 画像をすぐにアップロード...]**」リンクをクリックします。
 * トラッキングサーバー上の画像にアクセスするための、別のパスも指定できます。 そのためには、「**[!UICONTROL 画像の URL]**」フィールドにパスを入力します。 この値を指定すると、インストールアシスタントのパラメーターで指定した値よりも優先されます。
 
 配信アシスタントで、画像を含んだ HTML コンテンツを開くと、配信パラメーターに従ってすぐに画像をアップロードするかどうかを確認するメッセージが表示されます。
 
-![](assets/s_ncs_user_email_del_img_local.png)
+![開いたHTML ファイルの相対イメージを今すぐ公開するかどうかを確認するメッセージが表示されます。ボタンは「はい」と「いいえ」です](assets/s_ncs_user_email_del_img_local.png)
 
 >[!IMPORTANT]
 >
@@ -227,11 +227,11 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
 以下に、4 つの画像を含む配信のサンプルを示します。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_1.png)
+![4枚の画像を指す矢印が表示された配信のHTML コンテンツ ](assets/s_ncs_user_images_in_delivery_wiz_1.png)
 
 これらの画像は、ローカルディレクトリ内または Web サイト上から取得されるものとします。画像のある場所は「**[!UICONTROL ソース]**」タブで確認できます。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_2.png)
+ローカルディレクトリまたはweb サイトの画像パスを表示する配信の「![Source」タブ。矢印で示す](assets/s_ncs_user_images_in_delivery_wiz_2.png)
 
 **[!UICONTROL トラッキングおよび画像]**&#x200B;アイコンをクリックし、次に「**[!UICONTROL 画像]**」タブをクリックして、メッセージに含まれる画像の検出を開始します。
 
@@ -249,7 +249,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
 画像のアップロード作業を早めにしておくと、他の Adobe Campaign オペレーターがそれらを参照でき、 共同作業がスムーズになることがあります。 そのためには、「**[!UICONTROL 画像をすぐにアップロード]**」をクリックし、サーバーに画像をアップロードします。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_3.png)
+![ オンライン状態ではないローカル画像パスを一覧表示する画像タブと、画像をすぐにアップロードするリンク ](assets/s_ncs_user_images_in_delivery_wiz_3.png)
 
 >[!NOTE]
 >
@@ -257,11 +257,11 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
 画像がオンラインになった後、メッセージの「**[!UICONTROL ソース]**」タブを参照すると、画像の名前やパスがどのように変更されたかを確認できます。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_4.png)
+![ アップロード後のSource タブ。画像URLは、矢印でマークされた新しいパスに置き換えられます](assets/s_ncs_user_images_in_delivery_wiz_4.png)
 
 「**[!UICONTROL メールに画像を含める]**」を選択した場合は、対応する列で、含める画像を選択できます。
 
-![](assets/s_ncs_user_images_in_delivery_wiz_5.png)
+![画像タブ。選択した電子メールに画像を含め、画像の「電子メールに埋め込む」オプション ](assets/s_ncs_user_images_in_delivery_wiz_5.png)
 
 >[!NOTE]
 >
@@ -275,7 +275,7 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
 バーコードをメールに挿入するには、表示したいコンテンツ内にカーソルを置いて、パーソナライゼーションボタンをクリックします。 **[!UICONTROL 含める／バーコード]**&#x200B;を選択します。
 
-![](assets/barcode_insert_14.png)
+HTML エディターの![Personalization メニューで「含める」と「バーコード」オプションが選択されている](assets/barcode_insert_14.png)
 
 ニーズに合わせて次の要素を設定します。
 
@@ -285,28 +285,28 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
      1D バーコードの例：
 
-     ![](assets/barcode_insert_08.png)
+     ![数字が以下の1D バーコードの例](assets/barcode_insert_08.png)
 
    * DataMatrix タイプと PDF417 タイプは 2D フォーマットを扱います。
 
      2D バーコードの例：
 
-     ![](assets/barcode_insert_09.png)
+     ![2D DataMatrix バーコードの例](assets/barcode_insert_09.png)
 
    * QR コードを挿入するには、このタイプを選択し、適用する誤り訂正レベルを入力します。 このレベルで、データ量とコードの劣化の許容範囲を定義します。
 
-     ![](assets/barcode_insert_06.png)
+     ![QR コードの種類、パーソナライゼーション フィールドを持つ値、および30%のエラー修正を含むバーコード設定](assets/barcode_insert_06.png)
 
      QR コードの例：
 
-     ![](assets/barcode_insert_12.png)
+     ![QR コードの例](assets/barcode_insert_12.png)
 
 1. メールに挿入したいバーコードのサイズを入力します。縮尺を設定することによって、バーコードのサイズを 1 倍から 10 倍まで拡大または縮小できます。
 1. 「**[!UICONTROL 値]**」フィールドを使用して、バーコードの値を定義できます。 値は特別なオファーと一致し、基準の関数にすることができ、顧客にリンクされたデータベースフィールドの値にすることができます。
 
    次の例は、受信者のアカウント番号が追加された EAN-8 タイプのバーコードを示しています。 このアカウント番号を追加するには、「**[!UICONTROL 値]**」フィールドの右側のパーソナライゼーションボタンをクリックして、**[!UICONTROL 受信者／アカウント番号]**&#x200B;を選択します。
 
-   ![](assets/barcode_insert_15.png)
+   ![受信者とアカウント番号が選択されたバーコード値フィールドのパーソナライゼーションメニュー](assets/barcode_insert_15.png)
 
 1. 「**[!UICONTROL 高さ]**」フィールドを使用すると、それぞれの線の間のスペース量を変更することによって、バーコードの幅を変更することなく、バーコードの高さを設定できます。
 
@@ -322,10 +322,10 @@ Campaign オプションのリストについて詳しくは、[Campaign Classic
 
 これらの要素を設定したら、メールを仕上げて送信できます。 エラーを避けるには、「**[!UICONTROL プレビュー]**」タブをクリックして、配信を実行する前にコンテンツが正しく表示されることを常に確認します。
 
-![](assets/barcode_insert_10.png)
+![ パーソナライズされたメッセージコンテンツの最後にQR コードを挿入した配信プレビュー](assets/barcode_insert_10.png)
 
 >[!NOTE]
 >
 >バーコードの値が正しくない場合、バーコードのビットマップは赤色の×印で消された状態で表示されます。
 
-![](assets/barcode_insert_11.png)
+![無効なバーコード値が表示された電子メールのプレビューで、バーコードが赤で囲まれています](assets/barcode_insert_11.png)

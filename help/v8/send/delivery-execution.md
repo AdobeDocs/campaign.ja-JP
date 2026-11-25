@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 100%
+source-wordcount: '904'
+ht-degree: 95%
 ---
 # トランザクションメッセージの送信と監視 {#delivery-execution}
 
@@ -71,7 +71,7 @@ Adobe Campaign では、実行インスタンスのアクティビティとス�
 
 これらの Message Center レポートは、**コントロールインスタンス**&#x200B;の「**[!UICONTROL レポート]**」タブからアクセスできます。
 
-![](assets/mc-reports.png)
+![3つのメッセージセンターレポートがハイライト表示された「レポート」タブのグローバルレポートページ ](assets/mc-reports.png)
 
 ### Message Center のイベント履歴 {#history-events}
 
@@ -86,7 +86,7 @@ Adobe Campaign では、実行インスタンスのアクティビティとス�
 
 **[!UICONTROL Message Center の処理時間]**&#x200B;レポートには、リアルタイムキューに関する主な指標が表示されます。 このレポートには、コントロールインスタンスの「**[!UICONTROL 監視]**」タブからもアクセスできます。
 
-![](assets/mc-processing-time-report.png)
+チャネル、インスタンス、期間のフィルター、インジケーター、グラフを含む![Message Center処理時間レポート ](assets/mc-processing-time-report.png)
 
 グローバルな統計を表示するか、特定の実行インスタンスに関連する統計を表示するかを選択できます。 チャネル別や、特定の期間でデータをフィルタリングすることもできます。
 
@@ -135,4 +135,4 @@ Adobe Campaign では、実行インスタンスのアクティビティとス�
 1. **実行インスタンス**&#x200B;でデプロイメントウィザードを開き、**[!UICONTROL Message Center]** ページを参照します。
 1. 矢印でしきい値を変更します。
 
-   ![](assets/mc-thresholds.png)
+   実行インスタンス設定と警告およびアラートのしきい値を含む![Message Center設定ウィザード ](assets/mc-thresholds.png)

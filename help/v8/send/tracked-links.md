@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 76%
+source-wordcount: '643'
+ht-degree: 71%
 ---
 # トラッキング対象リンクの設定 {#how-to-configure-tracked-links}
 
@@ -39,17 +39,17 @@ ht-degree: 76%
 
 >[!NOTE]
 >
->パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。 パーソナライズ可能でトラッキングをサポートする電子メールにリンクを追加する方法について詳しくは、[&#x200B; パーソナライズされたリンクを追跡](personalized-links.md)してください。
+>パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。 パーソナライズ可能でトラッキングをサポートする電子メールにリンクを追加する方法について詳しくは、[ パーソナライズされたリンクを追跡](personalized-links.md)してください。
 
 メッセージトラッキングは、デフォルトで有効になっています。 URL のトラッキング方法をパーソナライズするには、以下の手順に従います。
 
 1. 配信アシスタントの下部のセクションで、メッセージコンテンツの下にある「**[!UICONTROL URL を表示]**」オプションを選択します。
 
-   ![](assets/s_ncs_user_email_del_display_urls.png)
+   ![ コンテンツの下に「URLを表示」オプションが表示されていて、まだ選択されていないHTML コンテンツ ](assets/s_ncs_user_email_del_display_urls.png)
 
    トラッキングされる URL のリストから URL を選択すると、ミラーページ内のリンクとデフォルトで提供される購読解除リンクを除いて、配信コンテンツ内でその URL が強調表示されます。
 
-   ![](assets/s_ncs_user_email_del_show_urls.png)
+   ![選択したURLとその一致するリンクが配信コンテンツでハイライト表示されたトラッキング対象URL リスト ](assets/s_ncs_user_email_del_show_urls.png)
 
 1. メッセージの URL ごとに、トラッキングを有効化するかどうかを選択します。
 
@@ -67,7 +67,7 @@ ht-degree: 76%
 
 1. 必要に応じて、トラッキングモードを変更します。それには、次のように、ターゲットとするリンクに対応する&#x200B;**[!UICONTROL トラッキング]**&#x200B;列で新しいモードを選択します。
 
-   ![](assets/s_ncs_user_select_tracking_mode.png)
+   ![有効からミラーページまで、URLのトラッキングモードを一覧表示するトラッキング列ドロップダウン ](assets/s_ncs_user_select_tracking_mode.png)
 
    URL ごとに、トラッキングモードを次のいずれかの値に設定できます。
 
@@ -78,7 +78,7 @@ ht-degree: 76%
    * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
    * **[!UICONTROL ミラーページ]**：このURLはミラーページ URLと見なされます。
 
-1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。 これらのカテゴリは、例えば&#x200B;**[!UICONTROL URLとクリックストリーム]** レポートのように、レポートに表示できます（[URLとクリックストリーム &#x200B;](../reporting/delivery-reports.md#urls-and-click-streams)を参照）。 カテゴリーは、特定の列挙で定義されています：**[!UICONTROL urlCategory]**。 列挙の操作方法について詳しくは、[列挙の管理](../config/enumerations.md)を参照してください。
+1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。 これらのカテゴリは、例えば&#x200B;**[!UICONTROL URLとクリックストリーム]** レポートのように、レポートに表示できます（[URLとクリックストリーム ](../reporting/delivery-reports.md#urls-and-click-streams)を参照）。 カテゴリーは、特定の列挙で定義されています：**[!UICONTROL urlCategory]**。 列挙の操作方法について詳しくは、[列挙の管理](../config/enumerations.md)を参照してください。
 
 ## URL区切り文字のベストプラクティス {#url-delimiters}
 
@@ -88,7 +88,7 @@ ht-degree: 76%
 * 角括弧 [ ]
 * 中括弧 { }
 
-この例では、URL https://www.adobe.com/jp の後にセミコロンが続きます。 セミコロンは、受信者のメールクライアントで、URL の一部として解釈される場合があります。 その結果、リンク切れになる場合があります。 この問題を回避するには、次のいずれかの方法で URL を区切り文字で囲みます。
+この例では、URL https://www.adobe.com の後にセミコロンが続きます。 セミコロンは、受信者のメールクライアントで、URL の一部として解釈される場合があります。 その結果、リンク切れになる場合があります。 この問題を回避するには、次のいずれかの方法で URL を区切り文字で囲みます。
 
 * (https://www.adobe.com/jp);
 * [https://www.adobe.com/jp];

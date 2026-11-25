@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 89%
+source-wordcount: '219'
+ht-degree: 72%
 ---
 # URL トラッキングオプションの設定 {#personalizing-url-tracking}
 
@@ -45,7 +45,7 @@ ht-degree: 89%
 >
 >メール内の画像の管理もこのウィンドウで設定します。 [画像の追加](defining-the-email-content.md#adding-images)を参照してください。
 
-![](assets/s_ncs_user_email_del_tracking_ico.png)
+![ ツールバーでトラッキングと画像アイコンがハイライト表示されたメール配信](assets/s_ncs_user_email_del_tracking_ico.png)
 
 次のトラッキングオプションを設定できます。
 
@@ -57,7 +57,7 @@ ht-degree: 89%
 
 * メッセージ開封のトラッキングを有効化または無効化
 
-![](assets/s_ncs_user_email_del_tracking_param.png)
+![ トラッキングと画像ウィンドウ、「トラッキング」タブ、「トラッキングを有効化」および「トラッキングを開く」オプションとトラッキングされたURL ツリー](assets/s_ncs_user_email_del_tracking_param.png)
 
 トラッキングする URL は、ツリー形式で中央のウィンドウに一覧表示されます。
 
@@ -65,7 +65,7 @@ ht-degree: 89%
 
 「**[!UICONTROL 詳細設定]**」タブで、トラッキングされる URL と開封された URL の計算式をパーソナライズできます。
 
-![](assets/s_ncs_user_email_del_tracking_param_adv.png)
+![ トラッキングと画像ウィンドウ、詳細タブ、トラッキングされたURLとオープン URLの計算式](assets/s_ncs_user_email_del_tracking_param_adv.png)
 
 >[!CAUTION]
 >
