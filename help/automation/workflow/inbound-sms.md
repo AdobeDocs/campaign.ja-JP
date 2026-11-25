@@ -49,7 +49,7 @@ ht-degree: 75%
 1. **[!UICONTROL スクリプト]**
 1. **[!UICONTROL スケジュール]**
 
-   「![ インバウンド SMS スケジュール」タブで、「プラン実行」をオンにし、SMSを受信した後すぐにスケジュールを停止します。](assets/sms_rec_edit_2.png)
+   「![&#x200B; インバウンド SMS スケジュール」タブで、「プラン実行」をオンにし、SMSを受信した後すぐにスケジュールを停止します。](assets/sms_rec_edit_2.png)
 
 1. **[!UICONTROL 有効期限]**
 

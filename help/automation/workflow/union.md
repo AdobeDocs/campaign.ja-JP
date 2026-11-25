@@ -28,11 +28,11 @@ ht-degree: 85%
 
 **[!UICONTROL 和集合]**&#x200B;は、複数のインバウンドアクティビティの結果を 1 つのターゲットにグループ化します。 ターゲットは、受信したすべての結果から作成されます。そのため、すべての先行アクティビティは、和集合が実行される前に完了している必要があります。
 
-![紐付けオプションを使用した和集合アクティビティ。生成された母集団のサイズを制限チェックボックスと結果ラベル ](assets/s_user_segmentation_union.png)
+![紐付けオプションを使用した和集合アクティビティ。生成された母集団のサイズを制限チェックボックスと結果ラベル &#x200B;](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Union]** アクティビティの設定と使用について詳しくは、[複数のターゲットを組み合わせる（Union） ](targeting-workflows.md#combine-several-targets--union-)を参照してください。
+>**[!UICONTROL Union]** アクティビティの設定と使用について詳しくは、[複数のターゲットを組み合わせる（Union） &#x200B;](targeting-workflows.md#combine-several-targets--union-)を参照してください。
 
 ## 和集合の例 {#union-example}
 

@@ -104,7 +104,7 @@ logInfo("Start date: " + task.creationDate)
 
 >[!NOTE]
 >
->ワークフローのその他のユースケースは、[ ワークフローのユースケース ](workflow-use-cases.md)で利用できます。
+>ワークフローのその他のユースケースは、[&#x200B; ワークフローのユースケース &#x200B;](workflow-use-cases.md)で利用できます。
 
 **例 1**
 
@@ -116,7 +116,7 @@ logInfo("Start date: " + task.creationDate)
 
    次に例を示します。`instance.vars.segmentpercent = 10;`
 
-   ![ スクリプト instance.vars.segmentpercent = 10；のJavaScript コード アクティビティがスクリプト フィールドに入力されました。](assets/js_ex1.png)
+   ![&#x200B; スクリプト instance.vars.segmentpercent = 10；のJavaScript コード アクティビティがスクリプト フィールドに入力されました。](assets/js_ex1.png)
 
 1. 必要に応じて、クエリアクティビティを追加し、受信者をターゲットにします。
 
@@ -180,7 +180,7 @@ logInfo("Start date: " + task.creationDate)
 
 1. インスタンス変数を作成し、**[!UICONTROL JavaScript コード]**&#x200B;の **instance.vars.deliveryIN = &quot;DM42&quot;** で配信の内部名を定義します。
 
-   ![ スクリプト instance.vars.deliveryIN = &#39;DM42&#39;をスクリプト フィールドに含むJavaScript コード アクティビティ。](assets/wkf_js_activity_1.png)
+   ![&#x200B; スクリプト instance.vars.deliveryIN = &#39;DM42&#39;をスクリプト フィールドに含むJavaScript コード アクティビティ。](assets/wkf_js_activity_1.png)
 
 1. ターゲティングディメンションとフィルタリングディメンションが受信者のクエリを作成します。 この変数で指定した配信を送信した先の受信者すべてを検索するように条件を指定します。
 

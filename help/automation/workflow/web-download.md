@@ -63,7 +63,7 @@ ht-degree: 86%
 
    「**[!UICONTROL ファイル履歴化設定...]**」リンクを使用して、ファイルのストレージディレクトリとこのディレクトリのパージ頻度を指定できます。
 
-   ![ ストレージディレクトリ、ファイル数、最大サイズ（MB）のパージ設定を含む履歴化設定ダイアログ。](assets/download_web_edit_hist.png)
+   ![&#x200B; ストレージディレクトリ、ファイル数、最大サイズ（MB）のパージ設定を含む履歴化設定ダイアログ。](assets/download_web_edit_hist.png)
 
    次のオプションを使用できます。
 
@@ -85,7 +85,7 @@ ht-degree: 86%
    * **[!UICONTROL HTTP ヘッダーをファイルに追加]**：場合によっては、ファイルに HTTP ヘッダーを追加することが必要になる場合があります。 最も一般的に、これらのヘッダーは、トラブルシューティング目的、[クロスオリジンリソース共有（CORS）](https://developer.mozilla.org/docs/Web/HTTP/CORS)用の追加情報を提供するため、または特定のキャッシュディレクティブを設定するために使用されます。
    * **[!UICONTROL HTTP リターンコードを無視]**：HTTP リターンコード（HTTP ステータスコードとも呼ばれる）は、HTTP リクエストの結果を示します。
 
-   ![ リダイレクトに従う高度なパラメーターダイアログ、HTTP ヘッダーをファイルに追加し、HTTP リターンコードを無視します。](assets/download_web_edit_advanced.png)
+   ![&#x200B; リダイレクトに従う高度なパラメーターダイアログ、HTTP ヘッダーをファイルに追加し、HTTP リターンコードを無視します。](assets/download_web_edit_advanced.png)
 
    「**[!UICONTROL エラーを処理]**」オプションについて詳しくは、[エラーの処理](monitor-workflow-execution.md#processing-errors)を参照してください。
 

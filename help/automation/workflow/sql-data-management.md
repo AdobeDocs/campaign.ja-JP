@@ -52,7 +52,7 @@ ht-degree: 84%
 * 解決策1 - `XtkSecurity_FeatureFlag_SqlSensitive`
 * 解決策2 - `XtkSecurity_SqlSensitive_Methods`
 
-詳細とベストプラクティスについては、[SQL コード ](sql-code-and-javascript-code.md#important-notes)を参照してください。
+詳細とベストプラクティスについては、[SQL コード &#x200B;](sql-code-and-javascript-code.md#important-notes)を参照してください。
 
 ## 「SQL データ管理」アクティビティの設定 {#configuring-the-sql-data-management-activity}
 
@@ -73,7 +73,7 @@ ht-degree: 84%
 
    または、専用の領域に SQL スクリプトを入力するか、コピーして貼り付けます。
 
-   ![送信スキーマ受信者と、受信する移行テーブル名を使用するSQL スクリプトを含むSQL データ管理アクティビティ ](assets/sql_datamanagement.png)
+   ![送信スキーマ受信者と、受信する移行テーブル名を使用するSQL スクリプトを含むSQL データ管理アクティビティ &#x200B;](assets/sql_datamanagement.png)
 
    このアクティビティでは、スクリプト内で次の変数を使用できます。
 

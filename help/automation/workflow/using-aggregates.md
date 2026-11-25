@@ -37,7 +37,7 @@ ht-degree: 91%
 1. 各受信者を、同じスキーマの、集計機能の結果とリンクします。
 1. 編集済みのスキーマで集計をおこない、受信者をフィルタリングします。
 
-![ ワークフロー：受信者とDateMaxのクエリがスキーマの編集アクティビティをフィードし、次に分割アクティビティと終了を入力します。](assets/datamanagement_usecase_1.png)
+![&#x200B; ワークフロー：受信者とDateMaxのクエリがスキーマの編集アクティビティをフィードし、次に分割アクティビティと終了を入力します。](assets/datamanagement_usecase_1.png)
 
 ## 手順 1：集計結果の計算 {#step-1--calculating-the-aggregate-result}
 
@@ -86,7 +86,7 @@ ht-degree: 91%
    * **[!UICONTROL 式]**：`toDate([target/@created])`。
    * **[!UICONTROL 値]**：`toDate([datemax/expr####])`。ここで、expr#### は、集計機能のクエリで指定した集計と関連があります。
 
-   ![ ターゲット要素フィルター：ToDate target/@createdがDateOnly （最大（作成日））と等しい。](assets/datamanagement_usecase_4.png)
+   ![&#x200B; ターゲット要素フィルター：ToDate target/@createdがDateOnly （最大（作成日））と等しい。](assets/datamanagement_usecase_4.png)
 
 この結果、「分割」アクティビティで得られる結果は、最新の既知の作成日付と同じ日付に作成された受信者と関連性があります。
 

@@ -39,10 +39,10 @@ ht-degree: 75%
 * CRM で削除されたオブジェクトのインポート
 * CRM 内のオブジェクトの削除
 
-読み込み、書き出し、削除のオプションとSalesforce CRM アカウントを表示するタイプ リストが開いている![CRM コネクタ アクティビティ ](assets/crm_task_select_op.png)
+読み込み、書き出し、削除のオプションとSalesforce CRM アカウントを表示するタイプ リストが開いている![CRM コネクタ アクティビティ &#x200B;](assets/crm_task_select_op.png)
 
 同期対象とする CRM に対応する外部アカウントを選択し、同期するオブジェクト（アカウント、オポチュニティ、連絡先など）を選択します。
 
-![CRMからの読み込みと、連絡先がハイライト表示されたリモートオブジェクトリストを開いたCRM コネクタアクティビティ ](assets/crm_task_select_obj.png)
+![CRMからの読み込みと、連絡先がハイライト表示されたリモートオブジェクトリストを開いたCRM コネクタアクティビティ &#x200B;](assets/crm_task_select_obj.png)
 
 Adobe Campaign の CRM コネクタについて詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ja){target="_blank"}を参照してください。

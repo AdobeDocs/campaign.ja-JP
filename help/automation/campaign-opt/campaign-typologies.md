@@ -37,7 +37,7 @@ ht-degree: 82%
 
 **キャンペーンの最適化は、配信状況を制御、フィルターおよび監視する Adobe Campaign のモジュールです。** キャンペーン間の競合を回避するために、Adobe Campaign では特定の制限ルールを適用して、様々な組み合わせをテストできます。 このテストにより、企業のコミュニケーションポリシーに準拠し、顧客のニーズと期待に応える最適なメッセージを送信できます。
 
-![ タイポロジビデオの再生ボタンアイコン ](assets/do-not-localize/how-to-video.png) [ ビデオでこの機能を見つける](#typologies-video)
+![&#x200B; タイポロジビデオの再生ボタンアイコン &#x200B;](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を見つける](#typologies-video)
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Campaign には、デフォルトで一連の&#x200B;**フィルター**&#x200B;
 
 配信の準備では、基準を満たした場合に受信者が除外されます。 ログを確認して除外を監視できます。
 
-プレッシャタイポロジルールの使用例のサンプルは、[ プレッシャルールの使用例](pressure-rules.md#use-cases-on-pressure-rules)で入手できます。
+プレッシャタイポロジルールの使用例のサンプルは、[&#x200B; プレッシャルールの使用例](pressure-rules.md#use-cases-on-pressure-rules)で入手できます。
 
 ## チュートリアルビデオ {#typologies-video}
 

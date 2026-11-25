@@ -183,7 +183,7 @@ vars.firstOfMarch = 1;
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 ```
 
-![ タブをテストする3月1日（うるう年ではありません）。実際の条件はvars.currentIsALeapYear == 0 &amp;&amp; vars.firstOfMarch == 1.](assets/birthday-workflow_usecase_4.png)
+![&#x200B; タブをテストする3月1日（うるう年ではありません）。実際の条件はvars.currentIsALeapYear == 0 &amp;&amp; vars.firstOfMarch == 1.](assets/birthday-workflow_usecase_4.png)
 
 ### 手順 3：2 月 29 日生まれの全受信者の選択 {#step-3--select-any-recipients-born-on-february-29th}
 

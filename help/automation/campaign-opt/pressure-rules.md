@@ -77,7 +77,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. 翌日再判別を実行した後もターゲティングを保存する場合は、「**[!UICONTROL 計算パラメーター]**」セクションで頻度を定義します。 [詳細情報](apply-rules.md#adjust-calculation-frequency)。
 1. 「**[!UICONTROL 頻度]**」タブをクリックし、タイポロジルールを適用する期間を選択します。
 
-   ![ スライディング期間セクションと期間タイプリストのリストが表示された「圧力」タブ。グループ化オプションが表示されます。](assets/campaign_opt_create_a_rule_03.png)
+   ![&#x200B; スライディング期間セクションと期間タイプリストのリストが表示された「圧力」タブ。グループ化オプションが表示されます。](assets/campaign_opt_create_a_rule_03.png)
 
    作成するルールは、連絡日がこの期間内に含まれる配信に適用されます。
 
@@ -338,7 +338,7 @@ Adobe Campaign でキャンペーンの判別を設定するには、まずキ�
 1. 頻度ルールを作成します。 [詳細情報](#create-a-pressure-rule)。
 1. 「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL パーソナライゼーションの開始時にルールを再適用]**」オプションを選択します。
 
-   ![ パーソナライゼーションの開始時にルールを再適用オプションが選択された圧力規則の「一般」タブ。](assets/campaign_opt_pressure_example_5.png)
+   ![&#x200B; パーソナライゼーションの開始時にルールを再適用オプションが選択された圧力規則の「一般」タブ。](assets/campaign_opt_pressure_example_5.png)
 
    このオプションは、「**[!UICONTROL 頻度]**」フィールドに定義された値を無視し、パーソナライゼーションフェーズ中にルールを自動的に適用します。 [詳細情報](apply-rules.md#adjust-calculation-frequency)。
 

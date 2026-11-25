@@ -39,7 +39,7 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
 
    以下に S3 外部アカウントの例を示します。
 
-   ![AWS S3、サーバー、AWS アクセスキーIDおよびシークレットアクセスキーのフィールドが入力された外部アカウント作成フォーム ](assets/delivery_loadcontent_filetransfertexamples3.png)
+   ![AWS S3、サーバー、AWS アクセスキーIDおよびシークレットアクセスキーのフィールドが入力された外部アカウント作成フォーム &#x200B;](assets/delivery_loadcontent_filetransfertexamples3.png)
 
 1. **[!UICONTROL プロファイルとターゲット]**／**[!UICONTROL ジョブ]**／**[!UICONTROL ターゲティングワークフロー]**&#x200B;などから、新しいワークフローを作成します。
 1. **[!UICONTROL ファイル転送]**&#x200B;アクティビティをワークフローに追加し、以下を指定して設定します。
@@ -47,7 +47,7 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
    * S3 または（S）FTP サーバーへの接続に使用する外部アカウント。
    * S3 または（S）FTP サーバー上のファイルへのパス。
 
-   ![ ファイル転送アクティビティをファイルのダウンロードに設定し、外部アカウントとHTML ファイルへのサーバーフォルダーパスを使用](assets/delivery_loadcontent_filetransfertexample.png)
+   ![&#x200B; ファイル転送アクティビティをファイルのダウンロードに設定し、外部アカウントとHTML ファイルへのサーバーフォルダーパスを使用](assets/delivery_loadcontent_filetransfertexample.png)
 
 1. **[!UICONTROL 配信]**&#x200B;アクティビティを追加し、**[!UICONTROL ファイル転送]**&#x200B;アクティビティのアウトバウンドトランジションに接続します。 次のように設定します。
 
@@ -56,7 +56,7 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
    * コンテンツ：前のアクティビティでコンテンツをインポート済みであっても、「**[!UICONTROL 配信で指定]**」を選択します。 リモートサーバー上のファイルから直接コンテンツがインポートされるので、ワークフローの処理時には識別子がなく、インバウンドイベントから取得したものとして識別することができません。
    * 実行するアクション：「**[!UICONTROL 保存]**」を選択して配信を保存すると、ワークフローの実行後に&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;から配信にアクセスできるようになります。
 
-   ![ テンプレートから新しい配信を含む配信アクティビティ、配信で指定されたコンテンツ、およびアクションの保存](assets/delivery_loadcontent_activityexample.png)
+   ![&#x200B; テンプレートから新しい配信を含む配信アクティビティ、配信で指定されたコンテンツ、およびアクションの保存](assets/delivery_loadcontent_activityexample.png)
 
 1. **[!UICONTROL 配信]**&#x200B;アクティビティの「**[!UICONTROL スクリプト]**」タブで、次のコマンドを追加して、インポートしたファイルのコンテンツを配信に読み込むようにします。
 
@@ -64,7 +64,7 @@ Amazon S3、FTP または SFTP サーバー上の HTML ファイルに配信コ�
    delivery.content.html.source=loadFile(vars.filename)
    ```
 
-   delivery.content.html.source=loadFile （vars.filename） ](assets/delivery_loadcontent_script.png) コマンドを使用した配信アクティビティの![Script タブ
+   delivery.content.html.source=loadFile （vars.filename） ![&#128279;](assets/delivery_loadcontent_script.png) コマンドを使用した配信アクティビティのScript タブ
 
 1. 保存して、ワークフローを実行します。 読み込まれたコンテンツを含む新しい配信が&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;の下に作成されます。
 

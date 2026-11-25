@@ -39,13 +39,13 @@ ht-degree: 70%
 
 レポート目的で[キューブ](../../v8/reporting/gs-cubes.md)に定義された集計は、特定のアクティビティで更新できます。 集計の設定は、「**[!UICONTROL ワークフロー]**」タブで行います。
 
-キューブと集計の詳細については、[ キューブ内の集計](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates)を参照してください。
+キューブと集計の詳細については、[&#x200B; キューブ内の集計](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates)を参照してください。
 
 集計を更新するには、**[!UICONTROL 集計を更新]**&#x200B;アクティビティを編集し、キューブと更新する集計を選択します。
 
 **完全更新**&#x200B;または&#x200B;**部分更新**&#x200B;を設定できます。
 
-![ キューブおよび集計フィールドと完全更新または部分更新オプションを使用して、集計アクティビティを更新します。](assets/update-aggregate-details.png)
+![&#x200B; キューブおよび集計フィールドと完全更新または部分更新オプションを使用して、集計アクティビティを更新します。](assets/update-aggregate-details.png)
 
 デフォルトでは、各計算時に完全更新が実行されます。 部分更新を有効にするには、オプションを選択し、更新の条件を定義します。
 

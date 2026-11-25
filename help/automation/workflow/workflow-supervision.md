@@ -49,7 +49,7 @@ ht-degree: 82%
 >
 >ワークフローに加え、キャンペーン&#x200B;**ワークフローヒートマップ**&#x200B;を使用することで、現在実行中のワークフローの詳細を分析することができます。 詳しくは、[該当する節](heatmap.md)を参照してください。
 >
->ワークフローの実行を&#x200B;**監視する方法について詳しくは、[ ワークフローの実行を監視](monitor-workflow-execution.md)を参照してください。**
+>ワークフローの実行を&#x200B;**監視する方法について詳しくは、[&#x200B; ワークフローの実行を監視](monitor-workflow-execution.md)を参照してください。**
 
 ## 手順 1：監視ワークフローの作成 {#step-1--creating-the-monitoring-workflow}
 
@@ -59,7 +59,7 @@ ht-degree: 82%
 
 以下のスキーマは、アクティビティのシーケンスを表します。
 
-![ トランジションによってリンクされた開始、JavaScript コード、テスト、配信および待機アクティビティを含む監視ワークフロー](assets/uc_monitoring_workflow_overview.png)
+![&#x200B; トランジションによってリンクされた開始、JavaScript コード、テスト、配信および待機アクティビティを含む監視ワークフロー](assets/uc_monitoring_workflow_overview.png)
 
 このワークフローは次の要素から構成されます。
 
@@ -152,7 +152,7 @@ vars.strWorkflowStop = strStop;
 * **スーパーバイザーのメールアドレス**
 * **パーソナライズされたテキストを挿入するための HTML コンテンツ**
 
-  WF_Stop、WF_Error、WF_Pausedをテキスト変数としてリストしている配信テンプレートの![変数タブ ](assets/uc_monitoring_workflow_variables_diffusion.png)
+  WF_Stop、WF_Error、WF_Pausedをテキスト変数としてリストしている配信テンプレートの![変数タブ &#x200B;](assets/uc_monitoring_workflow_variables_diffusion.png)
 
   宣言する 3 つの変数（WF_Stop、WF_Paused、WF_Error）は、3 つのワークフローイベント変数に相当します。
 
@@ -162,7 +162,7 @@ vars.strWorkflowStop = strStop;
 
   配信テンプレートには次のコンテンツがあります。
 
-  エラー、一時停止、停止のワークフローの見出しとvariables.WF_ タグを含む配信テンプレートの![HTML コンテンツ ](assets/uc_monitoring_workflow_model_diffusion.png)
+  エラー、一時停止、停止のワークフローの見出しとvariables.WF_ タグを含む配信テンプレートの![HTML コンテンツ &#x200B;](assets/uc_monitoring_workflow_model_diffusion.png)
 
 テンプレートが作成され承認されたら、「**配信**」アクティビティを設定して次のことをおこなう必要があります。
 
@@ -180,9 +180,9 @@ vars.strWorkflowStop = strStop;
 
 * 「**配信**」アクティビティの「**スクリプト**」タブに移動し、パーソナライゼーションフィールドメニューから 3 つの&#x200B;**文字列**&#x200B;タイプ変数を追加します。
 
-  パーソナライゼーションメニューが表示された配信アクティビティの![ スクリプトタブ。配信とその他のオプション ](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  パーソナライゼーションメニューが表示された配信アクティビティの![&#x200B; スクリプトタブ。配信とその他のオプション &#x200B;](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-  ![変数が選択され、値（テキスト）フィールドが強調表示された使用可能なフィールドウィンドウ ](assets/uc_monitoring_workflow_linkvariables.png)
+  ![変数が選択され、値（テキスト）フィールドが強調表示された使用可能なフィールドウィンドウ &#x200B;](assets/uc_monitoring_workflow_linkvariables.png)
 
   これらの変数は次のように宣言します。
 

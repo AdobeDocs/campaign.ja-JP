@@ -36,8 +36,8 @@ ht-degree: 85%
 
 ワークフローの&#x200B;**[!UICONTROL ワークテーブル]**&#x200B;を使用すると、データを処理し、ワークフローアクティビティと共有することができます。
 
-デフォルトでは、**[!UICONTROL ワークテーブル]**は、クエリ対象のデータのソースと同じデータベースに作成されます。
-例えば、クラウドデータベースに格納された**[!UICONTROL 受信者]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースにワークフローの&#x200B;**[!UICONTROL ワークテーブル]**&#x200B;が作成されます。
+デフォルトでは、**[!UICONTROL ワークテーブル]**&#x200B;は、クエリ対象のデータのソースと同じデータベースに作成されます。
+例えば、クラウドデータベースに格納された&#x200B;**[!UICONTROL 受信者]**&#x200B;テーブルに対してクエリを実行する場合、同じクラウドデータベースにワークフローの&#x200B;**[!UICONTROL ワークテーブル]**&#x200B;が作成されます。
 
 **[!UICONTROL データソースを変更]**&#x200B;アクティビティを使用すると、**[!UICONTROL ワークテーブル]**&#x200B;に別のデータソースを使用できます。
 
@@ -61,7 +61,7 @@ ht-degree: 85%
 
 1. **[!UICONTROL データソースを変更]**&#x200B;アクティビティを追加します。
 
-   ![開始とクエリを含むワークフロー、およびパレットでハイライト表示された「データを変更」Source アクティビティ ](assets/change-data-source.png)
+   ![開始とクエリを含むワークフロー、およびパレットでハイライト表示された「データを変更」Source アクティビティ &#x200B;](assets/change-data-source.png)
 
 1. **[!UICONTROL データソースを変更]**&#x200B;アクティビティを編集して、「**[!UICONTROL デフォルトのデータソース]**」を選択します。
 
@@ -71,12 +71,12 @@ ht-degree: 85%
 
 1. **[!UICONTROL JavaScript コード]**&#x200B;アクティビティを追加して、ワークテーブルに対して単一操作を実行します。
 
-   **[!UICONTROL JavaScript コード]** アクティビティについて詳しくは、[JavaScript コードと高度なJavaScript コード ](sql-code-and-javascript-code.md#javascript-code)を参照してください。
+   **[!UICONTROL JavaScript コード]** アクティビティについて詳しくは、[JavaScript コードと高度なJavaScript コード &#x200B;](sql-code-and-javascript-code.md#javascript-code)を参照してください。
 
 1. 別の&#x200B;**[!UICONTROL データソースを変更]**&#x200B;アクティビティを追加して、クラウドデータベースに戻ります。
 
 1. このアクティビティを編集し、「**[!UICONTROL アクティブ FDA 外部アカウント]**」および対応する&#x200B;**[!UICONTROL 外部データベース]**&#x200B;外部アカウントを選択します。
 
-   ![ アクティブなFDA外部アカウントを選択し、リストでSnowflakeを強調表示してData Source アクティビティを変更する](assets/change-data-source_3.png)
+   ![&#x200B; アクティブなFDA外部アカウントを選択し、リストでSnowflakeを強調表示してData Source アクティビティを変更する](assets/change-data-source_3.png)
 
 1. これで、ワークフローを開始できます。

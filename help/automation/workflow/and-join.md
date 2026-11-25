@@ -46,4 +46,4 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
->「**AND 結合**」タイプアクティビティの場合、イベント変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。 詳しくは、[ イベント変数](javascript-scripts-and-templates.md#event-variables)を参照してください。
+>「**AND 結合**」タイプアクティビティの場合、イベント変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。 詳しくは、[&#x200B; イベント変数](javascript-scripts-and-templates.md#event-variables)を参照してください。

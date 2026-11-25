@@ -36,7 +36,7 @@ ht-degree: 61%
 
 「**[!UICONTROL SQL コード]**」アクティビティは、SQL スクリプトを実行します。 スクリプトは、JST テンプレートです。
 
-![ ラベル フィールド、SQL スクリプト エディターおよびプロセス エラーのオプションを含むSQL コード アクティビティ ダイアログ ](assets/sql_code.png)
+![&#x200B; ラベル フィールド、SQL スクリプト エディターおよびプロセス エラーのオプションを含むSQL コード アクティビティ ダイアログ &#x200B;](assets/sql_code.png)
 
 * **[!UICONTROL スクリプト]**
 
@@ -79,7 +79,7 @@ ht-degree: 61%
 
 ### JavaScript コード {#js-code-desc}
 
-![ ラベル、実行後の停止、スクリプトフィールド、プロセスエラーオプションを含むJavaScript コードアクティビティダイアログ ](assets/javascript_code.png)
+![&#x200B; ラベル、実行後の停止、スクリプトフィールド、プロセスエラーオプションを含むJavaScript コードアクティビティダイアログ &#x200B;](assets/javascript_code.png)
 
 * **[!UICONTROL スクリプト]**：実行されるスクリプトがエディターの中央部に記述されています。
 
@@ -87,7 +87,7 @@ ht-degree: 61%
 
 ### 高度な JavaScript コード {#adv-js-code-desc}
 
-![最初の呼び出しおよび次の呼び出しスクリプトエディターとOk トランジションを含む高度なJavaScript コードアクティビティ ](assets/advanced_javascript_code.png)
+![最初の呼び出しおよび次の呼び出しスクリプトエディターとOk トランジションを含む高度なJavaScript コードアクティビティ &#x200B;](assets/advanced_javascript_code.png)
 
 * **[!UICONTROL 最初の呼び出し]**：エディターの最初のゾーンには、最初の呼び出し時に実行するスクリプトが含まれます。
 * **[!UICONTROL 次の呼び出し]**：エディターの 2 番目のゾーンには、2 回目以降の呼び出し時に実行するスクリプトが含まれます。
