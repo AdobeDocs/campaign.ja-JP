@@ -43,7 +43,7 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
 * **動的レポート**
 
-  Adobe Dynamic Reportingは、Campaign Web UIで利用でき、マーケティング活動の影響を測定するための、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 [Web UI v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}を参照してください。
+  Adobe Dynamic Reportingは、Campaign Web UIで利用でき、マーケティング活動の影響を測定するための、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 [Web UI v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}を参照してください。
 
 * **キューブ**
 
@@ -63,9 +63,9 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
   これらのレポートにアクセスするには、「**レポート**」タブを使用します。
 
-  ブロードキャスト統計やブラウザーなどの組み込みレポートのグローバルレポートリストを表示する![ レポート タブ ](assets/built-in-reports.png)
+  ブロードキャスト統計やブラウザーなどの組み込みレポートのグローバルレポートリストを表示する![&#x200B; レポート タブ &#x200B;](assets/built-in-reports.png)
 
-  詳しくは、[Adobe Campaignの組み込みレポート ](built-in-reports.md)を参照してください。
+  詳しくは、[Adobe Campaignの組み込みレポート &#x200B;](built-in-reports.md)を参照してください。
 
 * **記述的データ分析**
 
@@ -75,10 +75,10 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
   ![追加後に開いた変数定義ダイアログを使用した記述分析ウィザード テーブルの設定](assets/desc-analysis-report.png)
 
-  キャンペーン記述分析レポートは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}に記載されています。
+  キャンペーン記述分析レポートは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}に記載されています。
 
 * **カスタムレポート**
 
   Adobe Campaign を使用すると、データベース内のデータに関するレポートを作成できます。 作成したレポートは、適切なコンテキストで参照できるようになります。
 
-  レポートを作成する手順については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}を参照してください。 パーソナライズされたレポートの作成は、上級ユーザーが行います。
+  レポートを作成する手順については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}を参照してください。 パーソナライズされたレポートの作成は、上級ユーザーが行います。
