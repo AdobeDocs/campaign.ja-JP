@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 97%
+source-wordcount: '977'
+ht-degree: 94%
 ---
 # パーソナライズされたクーポン{#personalized-coupons}
 
@@ -77,7 +77,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >個人クーポンは、一括でインポートできます。 インポートとエクスポートについて詳しくは、[この節](../start/import.md)を参照してください。
+   >個人クーポンは、一括でインポートできます。 インポートとエクスポートについて詳しくは、[ プロファイルの基本を学ぶ](../start/import.md)を参照してください。
 
 ### 個人クーポンの設定 {#configuring-individual-coupons}
 
@@ -94,7 +94,7 @@ ht-degree: 97%
 
 ## メール配信へのクーポンの挿入 {#inserting-a-coupon-into-an-email-delivery}
 
-次の例では、配信をホームページから作成します。 配信の作成方法について詳しくは、[この節](email.md)を参照してください。
+次の例では、配信をホームページから作成します。 配信の作成方法について詳しくは、[Adobe Campaignを使用したメールの送信](email.md)を参照してください。
 1. **[!UICONTROL Campaigns]** に移動し、「**[!UICONTROL 配信]**」を選択します。
 1. 「**[!UICONTROL 作成]**」をクリックします。
 

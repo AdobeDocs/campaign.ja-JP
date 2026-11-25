@@ -26,14 +26,14 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 84%
+source-wordcount: '265'
+ht-degree: 82%
 ---
 # 製品ガードレール{#guardrails}
 
-使用権限、製品の制限、およびパフォーマンスガードレールは、[Adobe Campaign Managed Cloud Services製品の説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}に記載されています。
+使用権限、製品の制限、およびパフォーマンスガードレールは、[Adobe Campaign Managed Cloud Services製品の説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}に記載されています。
 
 次に、[!DNL Adobe Campaign] を使用する際の追加のガードレールと制限を示します。
 
@@ -47,4 +47,4 @@ ht-degree: 84%
 * [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、購読（オプトイン）および購読解除（オプトアウト）のメカニズムと、モバイル登録は非同期プロセスです。 リクエストは、特定のテクニカルワークフローを通じて 1 時間ごとに処理されます。 [詳細情報](../architecture/replication.md#workflows)
 * [エンタープライズ（FFDA）デプロイメント](../architecture/enterprise-deployment.md)のコンテキストでは、エンドユーザーが重複を手動で処理する必要があります。 [詳細情報](../architecture/keys.md)
 * Adobe Campaign v8 は、API および web アプリケーションでの拡張スループットをサポートしていません。特定のニーズがある場合は、アドビに問い合わせてガイダンスを求めてください。
-* [Enterprise （FFDA） デプロイメント &#x200B;](../architecture/enterprise-deployment.md)のコンテキストでは、Adobe Campaign Optimization モジュールは、プレッシャタイポロジルールでスケジュールされた配信を考慮しません。 詳しくは、[このページ](../../automation/campaign-opt/pressure-rules.md)を参照してください。
+* [Enterprise （FFDA） デプロイメント ](../architecture/enterprise-deployment.md)のコンテキストでは、Adobe Campaign Optimization モジュールは、プレッシャタイポロジルールでスケジュールされた配信を考慮しません。 詳細については、[圧力ルールの設定](../../automation/campaign-opt/pressure-rules.md)を参照してください

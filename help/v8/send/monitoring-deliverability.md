@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 57%
@@ -40,11 +40,11 @@ Adobe Campaignでは、次の配信品質ツールにアクセスできます。
 
 ### 受信ボックスレンダリング {#inbox-rendering-tool}
 
-[受信トレイ レンダリング レポート &#x200B;](inbox-rendering.md)を使用すると、コンテンツとレピュテーションをスキャンするために、主要な電子メールクライアントでメッセージをプレビューできます。
+[受信トレイ レンダリング レポート ](inbox-rendering.md)を使用すると、コンテンツとレピュテーションをスキャンするために、主要な電子メールクライアントでメッセージをプレビューできます。
 
 ### 配信スループット {#throughput-reports}
 
-**[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。 詳しくは、[この節](../reporting/global-reports.md#delivery-throughput)を参照してください。
+**[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。 詳しくは、[配信スループット](../reporting/global-reports.md#delivery-throughput)を参照してください。
 
 ### ブロードキャスト統計 {#broadcast-statistics}
 
@@ -112,12 +112,12 @@ Adobe Campaignでは、次の配信品質ツールにアクセスできます。
 
 ## 関連トピック
 
-[Adobe配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}では、配信品質の戦略、定義、指標、ベストプラクティスに関する包括的なガイダンスを提供しています。
+[Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja){target="_blank"}では、配信品質の戦略、定義、指標、ベストプラクティスに関する包括的なガイダンスを提供しています。
 
 [配信品質とは](about-deliverability.md)では、主要な配信品質の概念と、Campaignで配信品質を向上させる方法について説明します。
 
-[配信エラーとバウンス &#x200B;](delivery-failures.md)は、様々な種類の配信エラーについて説明し、Campaignでの対処方法を説明します。また、一般的な問題に対するトラブルシューティングのガイダンスも含まれます。
+[配信エラーとバウンス ](delivery-failures.md)は、様々な種類の配信エラーについて説明し、Campaignでの対処方法を説明します。また、一般的な問題に対するトラブルシューティングのガイダンスも含まれます。
 
 [強制隔離の管理](quarantines.md)では、Campaignが強制隔離されたアドレスを管理して、送信レピュテーションを保護する方法について説明します。
 
-[&#x200B; メッセージのコンテンツを制御](control-message-content.md)は、コンテンツが配信品質に最適化されていることを確認する方法に関するガイダンスを提供します。
+[ メッセージのコンテンツを制御](control-message-content.md)は、コンテンツが配信品質に最適化されていることを確認する方法に関するガイダンスを提供します。

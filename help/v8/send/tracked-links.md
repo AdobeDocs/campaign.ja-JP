@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 77%
+source-wordcount: '597'
+ht-degree: 76%
 ---
 # トラッキング対象リンクの設定 {#how-to-configure-tracked-links}
 
@@ -39,7 +39,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。 パーソナライズ可能でトラッキングをサポートする電子メールにリンクを追加する方法について詳しくは、[この節](personalized-links.md)を参照してください。
+>パーソナライゼーションを含む電子メールコンテンツ内のリンクは、特定の構文を追跡する必要があります。 パーソナライズ可能でトラッキングをサポートする電子メールにリンクを追加する方法について詳しくは、[ パーソナライズされたリンクを追跡](personalized-links.md)してください。
 
 メッセージトラッキングは、デフォルトで有効になっています。 URL のトラッキング方法をパーソナライズするには、以下の手順に従います。
 
@@ -78,7 +78,7 @@ ht-degree: 77%
    * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
    * **[!UICONTROL ミラーページ]**：このURLはミラーページ URLと見なされます。
 
-1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。 これらのカテゴリは、例えば&#x200B;**[!UICONTROL URLとクリックストリーム]** レポートのように、レポートに表示できます（[このセクション &#x200B;](../reporting/delivery-reports.md#urls-and-click-streams)を参照）。 カテゴリーは、特定の列挙で定義されています：**[!UICONTROL urlCategory]**。 列挙の使用方法について詳しくは、[この節](../config/enumerations.md)を参照してください。
+1. 加えて、**[!UICONTROL カテゴリ]**&#x200B;列のドロップダウンリストで、トラッキングする URL のそれぞれに対してカテゴリを選択できます。 これらのカテゴリは、例えば&#x200B;**[!UICONTROL URLとクリックストリーム]** レポートのように、レポートに表示できます（[URLとクリックストリーム ](../reporting/delivery-reports.md#urls-and-click-streams)を参照）。 カテゴリーは、特定の列挙で定義されています：**[!UICONTROL urlCategory]**。 列挙の操作方法について詳しくは、[列挙の管理](../config/enumerations.md)を参照してください。
 
 ## URL区切り文字のベストプラクティス {#url-delimiters}
 
@@ -88,7 +88,7 @@ ht-degree: 77%
 * 角括弧 [ ]
 * 中括弧 { }
 
-この例では、URL https://www.adobe.com/jp の後にセミコロンが続きます。 セミコロンは、受信者のメールクライアントで、URL の一部として解釈される場合があります。 その結果、リンク切れになる場合があります。 この問題を回避するには、次のいずれかの方法で URL を区切り文字で囲みます。
+この例では、URL https://www.adobe.com の後にセミコロンが続きます。 セミコロンは、受信者のメールクライアントで、URL の一部として解釈される場合があります。 その結果、リンク切れになる場合があります。 この問題を回避するには、次のいずれかの方法で URL を区切り文字で囲みます。
 
 * (https://www.adobe.com/jp);
 * [https://www.adobe.com/jp];

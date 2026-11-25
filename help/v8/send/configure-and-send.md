@@ -19,14 +19,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 95%
+source-wordcount: '1340'
+ht-degree: 90%
 ---
 # 配信の設定と送信 {#configure-delivery}
 
-配信パラメーターにアクセスしてさらに設定を行い、メッセージの送信方法を定義します。 配信の[優先度](#delivery-priority)を定義し、[ウェーブ](#sending-using-multiple-waves)設定し、配信の送信をテストできます。 この設定が完了したら、[この節](#confirm-delivery)の説明に従って送信を確認できます。 その後、メッセージは直ちに送信されるか、配信[スケジュール](#schedule-delivery-sending)に基づいて送信されます。
+配信パラメーターにアクセスしてさらに設定を行い、メッセージの送信方法を定義します。 配信の[優先度](#delivery-priority)を定義し、[ウェーブ](#sending-using-multiple-waves)設定し、配信の送信をテストできます。 この設定が完了したら、[配信の確認](#confirm-delivery)の説明に従って送信を確認できます。 その後、メッセージは直ちに送信されるか、配信[スケジュール](#schedule-delivery-sending)に基づいて送信されます。
 
 ## 追加パラメーターの設定 {#delivery-additional-parameters}
 
@@ -54,7 +54,7 @@ ht-degree: 95%
 >
 >* このオプションは、ミッドソーシングで設定しないでください。
 >
->* SMTP サーバー設定の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
+>* SMTP サーバー設定の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
 
 ## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 
@@ -91,19 +91,19 @@ ht-degree: 95%
 
 ### ウェーブスケジュールの検証 {#check-waves}
 
-特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。 キャンペーンタイポロジとそのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定します。詳しくは、[この節](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->を参照してください。
+特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。 配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定されたキャンペーンタイポロジとそのルールは、[ タイポロジルールとタイポロジ ](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->に表示されます。
 
 >[!IMPORTANT]
 >
->* 最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。 配信期限を過ぎると、一部のメッセージが送信されない場合があります。 配信の有効期間について詳しくは、[この節](delivery-failures.md#valid-period)を参照してください。
+>* 最後の 2 つのウェーブが配信期限を過ぎないことを確認してください。配信期限は、「**[!UICONTROL 有効性]**」タブで定義されています。 配信期限を過ぎると、一部のメッセージが送信されない場合があります。 配信の有効期間について詳しくは、[有効期間](delivery-failures.md#valid-period)を参照してください。
 >
->* また、最後のウェーブを設定するときに、再試行に十分な時間を設定する必要があります。 再試行について詳しくは、[この節](delivery-failures.md#retries)を参照してください。
+>* また、最後のウェーブを設定するときに、再試行に十分な時間を設定する必要があります。 [再試行管理](delivery-failures.md#retries)の再試行について詳しく説明します。
 >
 >* ウェーブは、配信の連絡日からスケジュールされます。 1つ以上のウェーブの予定時刻の後に配信が開始された場合、それらの遅延ウェーブはすべて間隔を空けずに一緒に送信されます。
 
 ### ウェーブの監視 {#monitor-waves}
 
-送信状況を監視するには、配信ログを参照してください。 [このページ](send.md)を参照してください。
+送信状況を監視するには、配信ログを参照してください。 [ メールの送信と監視](send.md)を参照してください。
 
 処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 
@@ -143,7 +143,7 @@ ht-degree: 95%
    * 配信をすぐに送信するには、「**[!UICONTROL 可能な限り早く配信]**」を選択します。
    * 送信を後の日付にスケジュールするには、「**[!UICONTROL 配信を延期]**」を選択します。 [詳細情報](#schedule-delivery-sending)
 
-1. 「**[!UICONTROL 分析]**」をクリックします。 詳しくは、[この節](delivery-analysis.md)を参照してください。
+1. 「**[!UICONTROL 分析]**」をクリックします。 詳しくは、[配信分析](delivery-analysis.md)を参照してください。
 
    ![](assets/delivery-send-analyze.png)
 

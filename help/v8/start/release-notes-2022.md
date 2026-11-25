@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1955'
 ht-degree: 93%
 ---
 # 2022 リリースノート{#2022-rn}
@@ -106,7 +106,7 @@ _2022年9月30日（PT）_
 * この変更は、GET URL にのみ適用されます。 その他のタイプ（POST URL など）は影響を受けません。
 * カスタムコードを使用する場合は、セキュリティトークンが GET URL の securitytoken パラメーターから取得されなくなりました。 次の JSSP コードを使用して新しいセキュリティトークンを生成する必要があります。
 
-  ```
+  ```javascript
   getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);
   ```
 
@@ -254,14 +254,14 @@ _2022年5月18日（PT）_
 
 **改善点**
 
-* Campaign で、POP3 の Microsoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。 [詳細情報](../config/external-accounts.md#bounce-mails-external-account)
+* Campaign で、POP3 の Microsoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。 [ バウンスメール ](../config/external-accounts.md#bounce-mails-external-account)
 * Microsoft Dynamics Connector web API に関する重要な修正が適用されました。
 * rightという名前の新しいOperatorおよびグループスキーマの書き込み（operatorWrite）が追加され、ユーザーがOperators （xtk:operator）およびOperator グループ（xtk:group）のスキーマを挿入、更新、削除できるようになりました。
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * 1 つのミッドソーシングで複数のアクティブな LINE アカウントを設定できるようになりました。
 * Web プロセスのデフォルト接続数が 50 から 150 に増えました。
-* Campaign は、重複したキーが Snowflake データベースに挿入されるのを防ぐための、一連の新しいガードレールを備えています。 [詳細情報](../architecture/keys.md)
+* Campaign は、重複したキーが Snowflake データベースに挿入されるのを防ぐための、一連の新しいガードレールを備えています。 [Campaignでのキー管理](../architecture/keys.md)
 
 **修正点**
 

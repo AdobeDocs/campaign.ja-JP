@@ -21,16 +21,16 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '994'
 ht-degree: 95%
 ---
 # 調査を作成するための主な手順{#getting-started-with-surveys}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -125,7 +125,7 @@ ht-degree: 95%
 
   >[!NOTE]
   >
-  >各フィールドまたは質問では、「**[!UICONTROL 詳細設定]**」タブのオプションを使用して、ニーズに合わせてページレイアウトを適応できます。 アンケート画面のレイアウトについて詳しくは、[この節](../web/about-web-forms.md)を参照してください。
+  >各フィールドまたは質問では、「**[!UICONTROL 詳細設定]**」タブのオプションを使用して、ニーズに合わせてページレイアウトを適応できます。 アンケート画面のレイアウトについて詳しくは、[Web フォームの概要](../web/about-web-forms.md)を参照してください。
 
   詳細画面で、「**[!UICONTROL プレビュー]**」タブをクリックして、今作成した調査のレンダリングを表示します。
 

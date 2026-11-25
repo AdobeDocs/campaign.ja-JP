@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '227'
 ht-degree: 1%
 ---
 # メタデータのメカニズム {#metadata-mechanism}
@@ -47,9 +47,9 @@ GET リクエストで&#x200B;**resourceType**&#x200B;を使用して、リソ�
   * &quot;resType&quot;：これはテクニカルタイプです。
 
     値「link」または「collection」で「type」が完了した場合、resTarget値はリンクの対象となるリソースの名前です。
-    値「列挙」で「type」が完了すると、「values」フィールドが追加され、各列挙値が&#x200B;**values** ノードに詳細に表示されます。
+    値「列挙」で「type」が完了すると、「values」フィールドが追加され、各列挙値が**values** ノードに詳細に表示されます。
 
-* **Filters** ノードは、関連付けられたフィルターを取得するためのURLを返します。 フィルターについて詳しくは、[このセクション &#x200B;](sorting.md#filtering)を参照してください。
+* **Filters** ノードは、関連付けられたフィルターを取得するためのURLを返します。 フィルターについて詳しくは、[ フィルタリング ](sorting.md#filtering)を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!--
@@ -64,7 +64,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien
 
 リソースに対してGET リクエストを実行します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien
 
 プロファイルリソースの完全な説明を返します。
 
-```
+```json
 {
 ...
 "content": {

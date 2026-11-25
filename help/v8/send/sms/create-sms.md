@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 84%
+source-wordcount: '183'
+ht-degree: 72%
 ---
 # 最初の SMS 配信の作成 {#sms-delivery}
 
@@ -39,7 +39,7 @@ ht-degree: 84%
 
    ![](assets/sms_create.png){zoomable="yes"}
 
-   配信の作成手順について詳しくは、[このページ](../../start/create-message.md)を参照してください。
+   配信の作成手順については、[最初の配信の作成](../../start/create-message.md)を参照してください。
 
 <!--
  * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
@@ -58,7 +58,7 @@ ht-degree: 84%
 
 1. [オーディエンスを選択します](sms-audience.md)。
 
-オーディエンスを定義する手順について詳しくは、[こちらのページ](../../audiences/create-audiences.md)を参照してください。
+オーディエンスを定義する手順について詳しくは、[ キャンペーンでのプロファイルオーディエンスの作成](../../audiences/create-audiences.md)を参照してください。
 
 ## SMS の検証と送信 {#sms-validate}
 

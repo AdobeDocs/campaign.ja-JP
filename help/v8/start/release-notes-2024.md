@@ -40,23 +40,23 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 92%
+source-wordcount: '1687'
+ht-degree: 90%
 ---
 # 2024 リリースノート {#2024-rn}
 
-このページには、**Campaign v8 2024 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[このページ &#x200B;](release-notes.md)を参照してください。
+このページには、**Campaign v8 2024 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[Campaign v8 リリースノート ](release-notes.md)を参照してください。
 
-新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース &#x200B;](release-notes.md)をインストールします。
+新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース ](release-notes.md)をインストールします。
 
 
 >[!BEGINSHADEBOX]
 
 **このページの内容**
 
-* Campaign v8.7 - [&#x200B; リリース 8.7.1](#release-8-7-1) | [リリース 8.7.2](#release-8-7-2)
+* Campaign v8.7 - [ リリース 8.7.1](#release-8-7-1) | [リリース 8.7.2](#release-8-7-2)
 * Campaign v8.6 - [リリース 8.6.1](#release-8-6-1) | [リリース 8.6.2](#release-8-6-2) | [リリース 8.6.3](#release-8-6-3)
 * Campaign v8.5 - [リリース 8.5.3](#release-8-5-3)
 
@@ -74,9 +74,9 @@ _2024年9月3日（PT）_
 
 ### 新機能 {#new-8-7-2}
 
-* **新しい SMS 送信コネクタ** - SMS 送信コネクタが最新化および改善され、トランシーバモードの SMPP 接続と永続的な SMPP 接続が有効になり、Adobe Campaign Standard から移行する環境との互換性が向上しました。 すべての新しい SMS 実装で、新しい SMS 外部アカウントが利用できるようになりました。 既存の実装は引き続きサポートされますが、この新しい最新および拡張コネクタに移行することをお勧めします。 [詳細情報](../send/sms/sms.md)
+* **新しい SMS 送信コネクタ** - SMS 送信コネクタが最新化および改善され、トランシーバモードの SMPP 接続と永続的な SMPP 接続が有効になり、Adobe Campaign Standard から移行する環境との互換性が向上しました。 すべての新しい SMS 実装で、新しい SMS 外部アカウントが利用できるようになりました。 既存の実装は引き続きサポートされますが、この新しい最新および拡張コネクタに移行することをお勧めします。 [Adobe CampaignでSMSを送信](../send/sms/sms.md)。
 
-* **リッチプッシュ通知（GA）** - リッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。 このバージョンでは、リッチプッシュ通知用のテンプレートセットが iOS および Android アプリで利用できるようになりました。 [詳細情報](../send/rich-push-android.md)
+* **リッチプッシュ通知（GA）** - リッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。 このバージョンでは、リッチプッシュ通知用のテンプレートセットが iOS および Android アプリで利用できるようになりました。 [Android リッチ プッシュ配信をデザイン ](../send/rich-push-android.md)。
 
 * **ブランディング** - ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで利用できるようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"}
 
@@ -98,13 +98,13 @@ _2024年5月2日（PT）_
 
 ### 新機能 {#new-8-7-1}
 
-* **リッチプッシュ通知テンプレート** - Android を介してリッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。 [詳細情報](../send/rich-push-ios.md)
+* **リッチプッシュ通知テンプレート** - Android を介してリッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。 [iOS リッチ プッシュ配信をデザイン ](../send/rich-push-ios.md)。
 
 * **ブランディング** - Campaign Standard に移行したユーザーとして、技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。 これらのブランドを作成して、メッセージやランディングページにリンクできます。 こうした設定はテンプレートで管理されます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"}
 
-* **Rest API** - Campaign Standard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。 [詳細情報](../dev/api/get-started-apis.md)
+* **Rest API** - Campaign Standard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。 [Campaign REST APIの基本を学ぶ](../dev/api/get-started-apis.md)
 
-* **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ja){target="_blank"}
+* **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}
 
 ### 互換性のアップデート {#comp-8-7-1}
 
@@ -127,7 +127,7 @@ Campaign とのインバウンド統合を実装している場合は、[この�
 
 ### 一般的な改善点 {#improvements-8-7-1}
 
-* いくつかのスキーマが 32 ビットから 64 ビットに変更されました。 これは、Campaign Standard から移行するお客様にのみ該当します。 [詳細情報](../../technotes/upgrades/64-bit-tables.md)
+* いくつかのスキーマが 32 ビットから 64 ビットに変更されました。 これは、Campaign Standard から移行するお客様にのみ該当します。 [64 ビットスキーマ ](../../technotes/upgrades/64-bit-tables.md)
 
 * Campaign テーブルでは、`lastModified` および `created` の属性がサーバーの日時によってデフォルトで入力されるようになりました。 `createdBy-id` 属性値には、デフォルトで現在のログイン ID が入力されるようになりました。 API 呼び出しでユーザーが指定した値は無視されます。<!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
@@ -147,7 +147,7 @@ _2024年7月30日（PT）_
 
 ### 新機能 {#new-8-6-3}
 
-* **リッチプッシュ通知** - リッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。 このバージョンでは、リッチプッシュ通知用のテンプレートセットが iOS および Android アプリで利用できるようになりました。 [詳細情報](../send/rich-push-android.md)
+* **リッチプッシュ通知** - リッチプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。 このバージョンでは、リッチプッシュ通知用のテンプレートセットが iOS および Android アプリで利用できるようになりました。 [Android リッチ プッシュ配信をデザイン ](../send/rich-push-android.md)。
 
 * このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。 [詳細情報](release-notes-2024.md#change-8-7-1)
 
@@ -170,7 +170,7 @@ https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%2
 
 次の変更は 5月にリリースされ、Campaign v8 ユーザーが使用できるようになりました。
 
-* **新しいセキュリティ強化アドオン**：ネットワーク接続をより安全にし、リソースのセキュリティを強化するために、Adobe Campaign では、セキュア CMK 統合とセキュア VPN トンネリングという 2 つの機能を含む新しいセキュリティ強化アドオンを提供しています。 [詳細情報](../config/enhanced-security.md)
+* **新しいセキュリティ強化アドオン**：ネットワーク接続をより安全にし、リソースのセキュリティを強化するために、Adobe Campaign では、セキュア CMK 統合とセキュア VPN トンネリングという 2 つの機能を含む新しいセキュリティ強化アドオンを提供しています。 [Campaign強化セキュリティアドオン ](../config/enhanced-security.md)
 
 ## リリース 8.6.2 {#release-8-6-2}
 
@@ -188,7 +188,7 @@ _2024年2月14日（PT）_
 
 ### 新機能 {#new-8-6-1}
 
-* このリリース以降は、中央の[!DNL Adobe CX Enterprise]環境から利用できる新しい&#x200B;**Campaign Web ユーザーインターフェイス**&#x200B;にアクセスできます。 [!DNL CX Enterprise]は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。 [!DNL CX Enterprise]に接続し、Adobe Campaign Web インターフェイス [にアクセスする方法については、このページ &#x200B;](campaign-ui.md#ac-web-ui)を参照してください。
+* このリリース以降は、中央の[!DNL Adobe CX Enterprise]環境から利用できる新しい&#x200B;**Campaign Web ユーザーインターフェイス**&#x200B;にアクセスできます。 [!DNL CX Enterprise]は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。 [!DNL CX Enterprise]に接続し、Adobe Campaign Web インターフェイス [にアクセスする方法については、このページ ](campaign-ui.md#ac-web-ui)を参照してください。
 
   >[!AVAILABILITY]
   >

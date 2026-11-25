@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 4%
+source-wordcount: '239'
+ht-degree: 0%
 ---
 # APIによるプロファイルの取得 {#retrieving-profiles}
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 その後、フィルター、順序、ページ分割を使用して検索を絞り込むことができます。 詳しくは、[追加操作](sorting.md) セクションを参照してください。
 
-さらに、Campaign Standard APIを使用すると、電子メール、名、姓、または任意のカスタムフィールドのいずれかのフィールドに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
+さらに、Campaign Standard APIを使用すると、電子メール、名、姓、または任意のカスタムフィールドのいずれかのフィールドに基づいてプロファイルを検索できます。 詳しくは、[ フィールドに基づくプロファイルの検索](#searching-field)を参照してください。
 
 <br/>
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 * すべてのプロファイルを取得するためのGET リクエストのサンプル。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -48,7 +48,7 @@ ht-degree: 4%
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -64,7 +64,7 @@ ht-degree: 4%
 
 * 最初の10個のメール値を取得するためのGET リクエストのサンプル。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ ht-degree: 4%
 
   リクエストへの応答。 「next」ノードは、次の10個のメール値にアクセスできるURLを返します。
 
-  ```
+  ```json
   {
   "content": [
       "amy.dakota@mail.com",
@@ -107,7 +107,7 @@ ht-degree: 4%
 
 * 名前に基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 * 姓に基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -127,7 +127,7 @@ ht-degree: 4%
 
 * メールに基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -137,7 +137,7 @@ ht-degree: 4%
 
 * 「Hobby」カスタムフィールドに基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 95%
+source-wordcount: '1373'
+ht-degree: 94%
 ---
 # web フォームの公開{#publishing-a-web-form}
 
@@ -161,7 +161,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 メールで招待状を配信する場合、データの紐付けに「**[!UICONTROL Adobe Campaign の暗号化]**」オプションを使用できます。 これを行うには、配信アシスタントに移動し、次のパラメーターを追加することで、リンクをフォームに適応させます。
 
-```
+```xml
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 
@@ -191,7 +191,7 @@ Web フォームを使用して、データベースに格納されたプロフ�
 
 Web フォームを含むパッケージをインスタンスから別のインスタンスへ（例えば、ステージから実稼動へ）エクスポートおよびインポートする際、新しいインスタンス上の Web フォームのステータスは、いくつかの条件に従って変化する場合があります。 様々なケースを次に示します。
 
-Web フォームの様々なステータスについて詳しくは、[この節](#life-cycle-of-a-form)を参照してください。
+Web フォームのさまざまなステータスについて詳しくは、[ フォームのライフサイクル ](#life-cycle-of-a-form)を参照してください。
 
 >[!NOTE]
 >

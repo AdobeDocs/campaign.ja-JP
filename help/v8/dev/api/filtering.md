@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## フィルターのメタデータの取得
 
-各リソースにフィルターを使用できます。 リソースに関連付けられているフィルターを識別するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[この節](metadata-mechanism.md)を参照してください。
+各リソースにフィルターを使用できます。 リソースに関連付けられているフィルターを識別するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[ メタデータメカニズム ](metadata-mechanism.md)を参照してください。
 
 フィルターのメタデータを識別し、その使用方法を決定するには、以前に返されたURLに対してGET リクエストを実行する必要があります。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 まず、「プロファイル」リソースメタデータに対してGET リクエストを実行します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 フィルターが記述されているURLを返します。
 
-```
+```json
 {
 "filters": {
         "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/<PKEY>/filters/"
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 URLに対してGET リクエストを実行します。 プロファイルリソースのフィルターのリストと、各フィルターに関連付けられたメタデータを返します。
 
-```
+```json
 {
 "birthday": {
         "PKey": "@FL-CbDFXbnHbXcVpeCGWL46VXJLn1LqxLMPagt2vz8sCxQ52lvB15KiUaxXkxJYQw-tZXYrgUWG6K8QcB4gxVY9RKoba5bRFY3294YFshDmorRr8",
@@ -83,7 +83,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 フィルターのメタデータ構造のサンプル：
 
-```
+```json
 "byText": {
         "PKey": "...",
         "category": "99_none",
@@ -111,7 +111,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 * GET リクエストをサンプルして、「email」タイプの「service」リソースを取得します。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -121,7 +121,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -144,7 +144,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 * で「Doe」を含む「プロファイル」リソースを取得するためのGET リクエストのサンプル
 電子メールまたは姓のフィールド（byText フィルターは、電子メールと姓の両方のフィールドを検索します）。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -154,7 +154,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -172,7 +172,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 * GET リクエストをサンプルして、「email」と「sport」というラベルが付いたサービスリソースを取得します。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -182,7 +182,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -210,8 +210,8 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 詳しくは、Campaign Standardのドキュメントを参照してください。
 
-* [&#x200B; フィルター定義の設定](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ja)。
+* [ フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [使用例：複合識別キーを使用してリソースを呼び出す](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
 
 <br/>
 
@@ -219,7 +219,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 トランザクション金額が100$以上の「プロファイル」リソースを取得するためのGET リクエストのサンプル。 「byAmount」フィルターは、最初にAdobe Campaign Standard インターフェイスで定義され、「Transaction」カスタムテーブルにリンクされています。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

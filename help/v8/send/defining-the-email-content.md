@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 93%
+source-wordcount: '2197'
+ht-degree: 90%
 ---
 # メールコンテンツの定義 {#defining-the-email-content}
 
@@ -43,7 +43,7 @@ ht-degree: 93%
 
 このウィンドウでは、メールのメッセージヘッダーを作成するために必要なすべての情報を入力できます。 この情報はパーソナライズ可能です。 パーソナライズするには、入力フィールドの右にあるボタンを使用してパーソナライゼーションフィールドを挿入します。
 
-パーソナライゼーションフィールドの挿入方法および使用方法について詳しくは、[この節](personalize.md)を参照してください。
+パーソナライゼーションフィールドの挿入と使用方法については、[ パーソナライゼーションの基本を学ぶ](personalize.md)を参照してください。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->パーソナライゼーションフィールドの使用方法について詳しくは、[この節](personalize.md)を参照してください。
+>パーソナライゼーションフィールドの使用については、[ パーソナライゼーションの概要](personalize.md)を参照してください。
 
 **[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウを使用して、件名行に顔文字を挿入することもできます。
 
@@ -96,7 +96,7 @@ ht-degree: 93%
 
 * HTML コンテンツを読み込むには、「**[!UICONTROL 開く]**」ボタンを使用します。 「**[!UICONTROL ソース]**」サブタブに直接ソースコードを貼り付けることもできます。
 
-  デジタルコンテンツエディター（DCE）を使用している場合は、[この節](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)を参照してください。
+  デジタルコンテンツエディター（DCE）を使用している場合は、[手順3 - コンテンツの選択](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)を参照してください。
 
   >[!IMPORTANT]
   >
@@ -118,7 +118,7 @@ ht-degree: 93%
 
   >[!NOTE]
   >
-  >パーソナライゼーションフィールドの使用方法について詳しくは、[この節](personalize.md)を参照してください。
+  >パーソナライゼーションフィールドの使用については、[ パーソナライゼーションの概要](personalize.md)を参照してください。
 
   ページの下部にあるタブでは、作成されるページの HTML コードや、メッセージにパーソナライゼーションを含めたレンダリング結果を表示して確認できます。 これらを表示するには、「**[!UICONTROL プレビュー]**」をクリックし、ツールバーの&#x200B;**[!UICONTROL パーソナライゼーションをテスト]**&#x200B;ボタンを使用して受信者を選択します。 定義済みターゲットの中から受信者を選択することも、別の受信者を指定することもできます。
 
@@ -141,7 +141,7 @@ ht-degree: 93%
 
 Adobe Campaignでは、特定の条件で動的な電子メールを送信できる、新しいインタラクティブな[AMP for Email](https://amp.dev/ja/about/email/)形式を試すことができます。
 
-詳しくは、[この節](defining-interactive-content.md)を参照してください。
+詳しくは、[Adobe Campaignでのインタラクティブコンテンツの定義](defining-interactive-content.md)を参照してください。
 
 ## コンテンツ管理の使用 {#using-content-management}
 

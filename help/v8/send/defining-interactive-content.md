@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 92%
+source-wordcount: '1475'
+ht-degree: 91%
 ---
 # インタラクティブコンテンツの定義{#defining-interactive-content}
 
@@ -39,9 +39,9 @@ AMP for Email を使用して、次のことができます。
 * 適切に設定された特定のアドレスに対する AMP メールの配信をテストする
 * 対応するプロバイダーに登録した後、AMP メールを Gmail または Mail.ru アドレスに配信します。
 
-AMP メールのテストと送信について詳しくは、[この節](#targeting-amp-email)を参照してください。
+AMP メールのテストと送信について詳しくは、[AMP メールのターゲット ](#targeting-amp-email)を参照してください。
 
-この機能は、Adobe Campaign の専用パッケージを通じて使用できます。 権限とデプロイメントモデルに応じて、このパッケージをインストールするか、Adobeに連絡してインストールできます。
+この機能は、Adobe Campaign の専用パッケージで使用できます。 権限とデプロイメントモデルに応じて、このパッケージをインストールするか、Adobeに連絡してインストールできます。
 
 ## AMP for Email について {#about-amp-for-email}
 
@@ -67,7 +67,7 @@ Adobe Campaign で AMPメールを正常にテストして送信するには、�
 
    >[!NOTE]
    >
-   >現在、AMP メールを配信できるのは、[特定のメールアドレス &#x200B;](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
+   >現在、AMP メールを配信できるのは、[特定のメールアドレス ](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
 
 1. 通常どおりにメールを送信します。 [AMPメールの送信](#sending-amp-email)を参照してください。
 
@@ -216,4 +216,4 @@ AMP コンテンツとフォールバックの準備が整い、互換性のあ�
 
 ビデオでは、Adobe Campaign で AMP をアクティブ化する方法を説明し、使用法を紹介しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/35081?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)

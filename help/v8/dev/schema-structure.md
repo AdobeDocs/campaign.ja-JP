@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1455'
 ht-degree: 96%
 ---
 # スキーマの構造{#schema-structure}
 
 `<srcschema>` の基本的な構造は次のとおりです。
 
-```
+```xml
 <srcSchema>
     <enumeration>
         ...          //definition of enumerations
@@ -88,7 +88,7 @@ ht-degree: 96%
 
 データスキーマの XML ドキュメントには、スキーマの名前と名前空間を生成する **name** 属性と **namespace** 属性が設定された **`<srcschema>`** ルート要素を含める必要があります。
 
-```
+```xml
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -96,7 +96,7 @@ ht-degree: 96%
 
 次の XML コンテンツを使用して、データスキーマの構造を説明します。
 
-```
+```xml
 <recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -104,7 +104,7 @@ ht-degree: 96%
 
 対応するデータスキーマを使用して、次の操作をおこないます。
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -123,7 +123,7 @@ ht-degree: 96%
 
 この例では、メイン要素を次の行で表しています。
 
-```
+```xml
 <element name="recipient">
 ```
 
@@ -131,7 +131,7 @@ ht-degree: 96%
 
 サンプルスキーマでは、次のようになります。
 
-```
+```xml
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -181,7 +181,7 @@ ht-degree: 96%
 
 次に、入力したタイプのスキーマ例を示します。
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -208,7 +208,7 @@ ht-degree: 96%
 
   **例**：
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
@@ -226,7 +226,7 @@ ht-degree: 96%
 
   **例**：
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   ```
 
@@ -234,7 +234,7 @@ ht-degree: 96%
 
 **default** プロパティを使用すると、コンテンツ作成時にデフォルト値を返す式を定義できます。
 
-値は、XPath 言語に準拠した式である必要があります。 詳しくは、[この節](#reference-with-xpath)を参照してください。
+値は、XPath 言語に準拠した式である必要があります。 詳しくは、[XPath](#reference-with-xpath)を使用した参照を参照してください。
 
 **例**：
 
@@ -285,7 +285,7 @@ ht-degree: 96%
 
 データスキーマの定義済みリスト宣言の例：
 
-```
+```xml
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -323,7 +323,7 @@ ht-degree: 96%
 
 プロパティが設定されたスキーマの例を示します。
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -350,7 +350,7 @@ ht-degree: 96%
 
 **例**：スキーマ内の **`<group>`** コレクション要素の定義。
 
-```
+```xml
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -358,7 +358,7 @@ ht-degree: 96%
 
 XML コンテンツの投影を使用する場合：
 
-```
+```xml
 <group label="Group1"/>
 <group label="Group2"/>
 ```
@@ -412,7 +412,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 **例**：受信者テーブルの文字列を計算します。
 
-```
+```xml
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

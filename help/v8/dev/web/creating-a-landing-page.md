@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 93%
+source-wordcount: '843'
+ht-degree: 91%
 ---
 # ランディングページの作成{#creating-a-landing-page}
 
@@ -73,7 +73,7 @@ Adobe Campaign でランディングページの設定を開始する前に、HT
 
 >[!NOTE]
 >
->Web アプリケーションの作成について詳しくは、[この節](creating-a-new-web-application.md)を参照してください。
+>Web アプリケーションの作成について詳しくは、[新しいWeb アプリケーションの作成](creating-a-new-web-application.md)を参照してください。
 
 ## 手順 1 - テンプレートの選択と読み込み {#step-1---selecting-and-loading-templates}
 
@@ -158,7 +158,7 @@ Web アプリケーションに挿入された各ページについて、これ�
 
 この手順は必須です。これは、web アプリケーションが次の手順の順序を決定できるためです。収集したデータをデータベースに保存し、次のページ（**お礼**&#x200B;のページ）を表示します。
 
-1. コレクションページの「**[!UICONTROL 送信]**」ボタンを選択します **&#x200B;**。
+1. コレクションページの「**[!UICONTROL 送信]**」ボタンを選択します ****。
 1. **[!UICONTROL アクション]**&#x200B;ドロップダウンメニューをクリックします。
 1. **[!UICONTROL 次のページ]**&#x200B;アクションを選択します。
 

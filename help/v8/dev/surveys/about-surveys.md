@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 98%
+source-wordcount: '554'
+ht-degree: 96%
 ---
 # 調査の基本を学ぶ{#about-surveys}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 Adobe Campaign には、web アプリケーションを定義および公開するためのグラフィカルモジュールが含まれています。 これは、エクストラネット上の編集フォームや、テーブル、グラフ、入力フォームなど、データベースのデータを含んだ通知フォームのページを作成するのに使用します。この機能を使用すると、ユーザーが情報を検索または入力できる web ページをデザインし配信できます。
 
@@ -49,7 +49,7 @@ Adobe Campaign には、web アプリケーションを定義および公開す�
 
 この章では、**調査**、フィールドとページの管理、ストレージモードとレコードの作成と管理の方法について詳しく説明します。
 
-初めての調査の作成方法については、[このページ](getting-started-with-surveys.md)を参照してください。
+最初のアンケートの作成方法については、[ アンケートを作成するための主な手順](getting-started-with-surveys.md)を参照してください。
 
 >[!NOTE]
 >

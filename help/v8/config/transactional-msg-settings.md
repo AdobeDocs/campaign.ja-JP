@@ -24,16 +24,16 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 97%
 ---
 # トランザクションメッセージの設定 {#mc-settings}
 
-トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。 トランザクションメッセージについて詳しくは、[この節](../send/transactional.md)を参照してください。
+トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。 トランザクションメッセージについて詳しくは、[Campaign トランザクションメッセージ ](../send/transactional.md)を参照してください。
 
-トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
+[Message Center アーキテクチャ ](../architecture/architecture.md#transac-msg-archi)のトランザクション メッセージ アーキテクチャについて説明します。
 
 
 >[!NOTE]
@@ -82,7 +82,7 @@ Adobe Cloud でホストされる Message Center 実行インスタンスの新�
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com/jp</url>
+                    <url>http://www.adobe.com</url>
                 </ctx>
               </rtEvent>
 

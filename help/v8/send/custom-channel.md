@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 36%
+source-wordcount: '570'
+ht-degree: 31%
 ---
 # カスタムチャネルの基本を学ぶ {#gs-custom-channel}
 
@@ -36,15 +36,15 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 配信の作成と送信は、クライアントコンソールと web UI の両方で実行できます。 ただし、カスタムチャネル設定はクライアントコンソールでのみ実行されます。
 
-カスタムチャネルに基づいて配信を作成および送信する方法については、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"}を参照してください。
+カスタムチャネルに基づいて配信を作成および送信する方法については、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=ja){target="_blank"}を参照してください。
 
 クライアントコンソールで新しいカスタムチャネルを設定する手順は次のとおりです。 次の手順は、カスタム外部チャネルと API チャネルに共通です。
 
-1. スキーマを設定します。[詳細情報](#configure-schema)
-1. 新しい外部アカウントを作成します。[詳細情報](#create-ext-account)
-1. 新しい配信テンプレートを作成します。[詳細情報](#create-template)
+1. スキーマの設定，[ スキーマの設定](#configure-schema)
+1. 新しい外部アカウントの作成，[新しい外部アカウントの作成](#create-ext-account)
+1. 新しい配信テンプレートの作成，[新しい配信テンプレートの作成](#create-template)
 
-カスタム API チャネルには、追加の設定が必要です。 [詳細情報](#api-additional)
+カスタム API チャネルには、追加の設定が必要です。 [ カスタム API追加設定](#api-additional)
 
 ## スキーマの設定{#configure-schema}
 
@@ -56,7 +56,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
    例：
 
-   ```
+   ```xml
    <enumeration basetype="byte" default="mail" label="Channel" name="messageType">
    <value desc="My Webpush" img="ncm:channels.png" label="My Webpush" name="webpush"
           value="122"/>
@@ -99,7 +99,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 クライアントコンソールから、カスタムチャネルに必要なすべての追加プロパティを含む&#x200B;**配信** スキーマを拡張します。
 
-スキーマ拡張機能について詳しくは、この[&#x200B; ページ &#x200B;](../dev/extend-schema.md)を参照してください。
+スキーマ拡張機能について詳しくは、この[ ページ ](../dev/extend-schema.md)を参照してください。
 
 ### カスタム画面定義の設定{#api-additional-screen}
 
@@ -109,11 +109,11 @@ Campaign Web UIから、カスタム画面定義を設定します。
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=ja#fields){target="_blank"}を参照してください。
+1. チャネルに対応するタブを選択し、配信のコンテンツ画面でのフィールドの表示方法を定義します。 画面編集について詳しくは、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}を参照してください。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 
-1. 「**コンテンツをシミュレートするプレビュー**」セクションで、専用のJSPPを選択します。 これはオプションです。 これにより、配信シミュレーション画面でプレビューがアクティブになります。 [詳細情報](#api-additional-preview)
+1. 「**コンテンツをシミュレートするプレビュー**」セクションで、専用のJSPPを選択します。 これはオプションです。 これにより、配信シミュレーション画面でプレビューがアクティブになります。 [ プレビューの設定](#api-additional-preview)
 
 ### プレビューの設定{#api-additional-preview}
 
@@ -128,7 +128,7 @@ Web UIの配信シミュレーション画面で&#x200B;**プレビューを開�
 
 クライアントコンソールで、**管理** > **設定** > **動的JavaScript ページ**&#x200B;を選択し、新しいJSSPを作成します。 取得する必要があるパラメーターの例を次に示します。
 
-```
+```html
 <%@ page import="xtk:shared/nl.js"
 %><%
   NL.require("/nl/core/shared/core.js")

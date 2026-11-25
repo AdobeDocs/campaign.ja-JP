@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 1%
+ht-degree: 0%
 ---
 # トランザクションメッセージの管理 {#managing-transactional-messages}
 
@@ -40,18 +40,18 @@ ht-degree: 1%
 
 例えば、顧客のひとりがカート内の商品を購入する前にweb サイトを離れるたびに、「カート放棄」イベントがトリガーされるようにします。 これを行うには、Web開発者として、REST トランザクションメッセージ APIを使用する必要があります。
 
-1. POST メソッドに従ってリクエストを送信します。これにより、トランザクションイベント [&#128279;](#sending-a-transactional-event)の送信がトリガーされます。
-1. POST リクエストへのレスポンスにはプライマリキーが含まれており、GET リクエストを通じて1つまたは複数のリクエストを送信できます。 次に、[&#x200B; イベントステータス &#x200B;](#transactional-event-status)を取得できます。
+1. POST メソッドに従ってリクエストを送信します。これにより、トランザクションイベント ](#sending-a-transactional-event)の[送信がトリガーされます。
+1. POST リクエストへのレスポンスにはプライマリキーが含まれており、GET リクエストを通じて1つまたは複数のリクエストを送信できます。 次に、[ イベントステータス ](#transactional-event-status)を取得できます。
 
 ## トランザクションイベントの送信 {#sending-a-transactional-event}
 
 トランザクションイベントは、次のURL構造を持つPOST リクエストを通じて送信されます。
 
-```
+```http
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;組織>**：個人組織ID。 [この節](must-read.md)を参照してください。
+* **&lt;組織>**：個人組織ID。 [必読](must-read.md)を参照してください。
 
 * **&lt;transactionalAPI>**: トランザクションメッセージ API エンドポイント。
 
@@ -67,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 文字セット （例：**utf-8**）を追加する必要があります。 この値は、使用しているREST アプリケーションによって異なります。
 
-```
+```bash
 -X POST \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -100,7 +100,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 次の例は、SMS通信がトリガーされるペイロードを示しています。
 
-```
+```bash
 curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
 --header 'Authorization: Bearer <ACCESS_TOKEN>' \
 --header 'Cache-Control: no-cache' \
@@ -135,7 +135,7 @@ POST応答は、作成時のトランザクションイベントステータス�
 
 POST リクエストを使用してイベントを送信します。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -161,7 +161,7 @@ POST リクエストを使用してイベントを送信します。
 
 POST リクエストへの応答。
 
-```
+```json
 {
   "PKey":"<PKEY>",
   "ctx":

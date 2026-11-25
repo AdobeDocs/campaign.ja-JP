@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 87%
 ---
 # スキーマの拡張{#extend-schemas}
 
@@ -54,7 +54,7 @@ Campaign データモデルをカスタマイズする主な手順は次のと�
 >[!CAUTION]
 >ビルトインスキーマは直接変更できません。 ビルトインのスキーマを適合させる必要がある場合は、スキーマを拡張します。
 
-Campaign のビルトインのテーブルとその連係について詳しくは、[このページ](datamodel.md)を参照してください。 [このページ](create-schema.md)で新しいスキーマを作成する際のレコメンデーションも参照してください。
+Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[Campaign データモデルの概要](datamodel.md)を参照してください。 [Campaign](create-schema.md)で新しいスキーマを作成する場合の推奨事項も参照してください。
 
 スキーマを拡張するには、次の手順に従います。
 
@@ -79,7 +79,7 @@ Campaign のビルトインのテーブルとその連係について詳しく�
 
    ![](assets/extend-schema-sample.png)
 
-   ```
+   ```xml
    <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">

@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 71%
+source-wordcount: '545'
+ht-degree: 67%
 ---
 # Campaign でのオーディエンスの使用{#gs-ac-audiences}
 
@@ -44,19 +44,19 @@ ht-degree: 71%
 
 リストは、配信アクションのターゲットにしたり、インポート操作時や別のワークフロー実行時に更新したりできる、連絡先の静的なセットです。 例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 
-リストの作成と管理の方法については、[こちらのページ](../audiences/create-audiences.md)を参照してください。
+[Campaign](../audiences/create-audiences.md)でのプロファイルオーディエンスの作成で、リストを作成および管理する方法について説明します。
 
 ## データベースのフィルター{#filter-the-database}
 
 フィルター設定を使用すると、リストからデータを&#x200B;**[!UICONTROL 動的に]**&#x200B;選択できます。データが変更されると、フィルターされたデータが更新されます。 独自のフィルターを作成することも、ビルトインのフィルターを使用してターゲットオーディエンスを定義することもできます。
 
-フィルターの作成と管理の方法について詳しくは、[こちらのページ](../audiences/create-filters.md)を参照してください。
+[Adobe Campaignでフィルターを作成および管理する方法について説明します。](../audiences/create-filters.md)
 
 ## ワークフローでのオーディエンスの作成
 
 ターゲティングは、ワークフロー内のグラフィカルシーケンスでクエリを組み合わせて作成できます。 要件に応じてターゲットとなるオーディエンスを作成できます。 ワークフローエディターを表示するには、Campaign ダッシュボードで「**[!UICONTROL ターゲティングとワークフロー]**」タブをクリックします。
 
-[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}のキャンペーンワークフローでオーディエンスを構築する方法について説明します。
+[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}のキャンペーンワークフローでオーディエンスを構築する方法について説明します。
 
 
 ## アクティブなプロファイル {#active-profiles}
@@ -78,5 +78,5 @@ ht-degree: 71%
 
 Adobe Campaignは、個人情報や機密データを含む大量のデータを収集および処理するための強力なツールです。 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。 したがって、受信者の同意を得てこれを監視することが重要になります。
 
-プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}を参照してください。
+プライバシーと同意の管理方法については、[Adobe Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja){target="_blank"}を参照してください。
 

@@ -26,10 +26,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 93%
+source-wordcount: '517'
+ht-degree: 83%
 ---
 # 権限の基本を学ぶ{#gs-permissions}
 
@@ -48,12 +48,12 @@ Adobe Campaign では、**オペレーター**&#x200B;および&#x200B;**オペ�
 
 ## 権限を付与するための主な手順{#key-steps-permissions}
 
-製品管理者は、組織のユーザーに権限を付与できます。 権限は、Adobe Admin Console と Campaign クライアントコンソールを通じて付与されます。 ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。 Adobe Campaign に接続する方法については、[このページ](connect.md)を参照してください。
+製品管理者は、組織のユーザーに権限を付与できます。 権限は、Adobe Admin Console と Campaign クライアントコンソールを通じて付与されます。 ユーザーは、Adobe ID を使用して Adobe Campaign にログオンします。 [Campaign v8](connect.md)へのAdobe Campaignへの接続方法について説明します。
 
 主な手順は次のとおりです。
 
 * **手順 1**：Campaign クライアントコンソールで、オペレーターグループを定義して権限を割り当てます。 [詳細情報](manage-permissions.md#create-product-profile)。
-なお、手始めに、ビルトインのオペレーターグループを使用することもできます。 これらのデフォルトグループとその権限については、[この節](manage-permissions.md#ootb-productprofiles)を参照してください。
+なお、手始めに、ビルトインのオペレーターグループを使用することもできます。 これらのデフォルトグループとその権限は、[ デフォルトの製品プロファイルとオペレーターグループ ](manage-permissions.md#ootb-productprofiles)に一覧表示されます。
 * **手順 2**：Adobe Admin Console で、これらのグループと一致する製品プロファイルを作成します。 [詳細情報](manage-permissions.md#create-product-profile)。
 手始めに、ビルトインの製品プロファイルを使用することができます。 [詳細情報](manage-permissions.md#ootb-productprofiles)。
 * **手順 3**：Adobe Admin Console でユーザーを作成して、製品プロファイルに割り当てます。 [詳細情報](manage-permissions.md#add-users)。
@@ -65,7 +65,7 @@ Adobe Admin Console は、組織全体のアドビ製品エンタイトルメン
 
 Admin Console を使用して、ユーザーの追加と製品プロファイル（オペレーターの役割のグループ）の作成および割り当てを行います。
 
-ユーザーを追加する方法については、[このページ](manage-permissions.md#add-users)を参照してください。
+[ ユーザーを追加](manage-permissions.md#add-users)でユーザーを追加する方法について説明します。
 
 ## 製品プロファイルについて{#ootb-product-profiles}
 
@@ -73,10 +73,10 @@ Admin Console を使用して、ユーザーの追加と製品プロファイル
 
 Admin Consoleでは、Campaignの各[!DNL CX Enterprise] **製品プロファイル**&#x200B;は、Campaign クライアントコンソールの&#x200B;**オペレーターグループ**&#x200B;に関連付けられています。
 
-製品プロファイルを作成して割り当てる方法については、[このページ](manage-permissions.md#create-product-profile)を参照してください。
+[製品プロファイルを作成して割り当てる方法について説明します。](manage-permissions.md#create-product-profile)製品プロファイルを作成します。
 
 ## Campaign ネームド権限{#named-rights}
 
 ユーザーは製品プロファイル（オペレーターグループ）のメンバーとして「ネームド権限」と呼ばれる操作を実行する権限を持ち、データに対する読み取り／書き込みアクセス権を持ちます。 1 人のオペレーターは複数のオペレーターグループに所属でき、アクセス権限は追加的に付与されます。
 
-ネームド権限について詳しくは、[この節](manage-permissions.md#use-named-rights)を参照してください。
+[ ネームド権限](manage-permissions.md#use-named-rights)のネームド権限について詳しく説明します。

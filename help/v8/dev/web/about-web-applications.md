@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 75%
+source-wordcount: '887'
+ht-degree: 71%
 ---
 # web アプリケーションの基本を学ぶ{#about-web-applications}
 
@@ -82,26 +82,26 @@ Adobe Campaign の Web アプリケーションでは、次の機能を利用で
 * グラフィカルなページ管理インターフェイス、複数列のページレイアウト。 詳しくは、この[ページ](designing-a-web-application.md)を参照してください。
 * パーソナライゼーションとフィールドの位置のレンダリング。 詳しくは、この[ページ](editing-content.md#adding-personalization-content)を参照してください。
 * 回答に応じた調査フィールドの条件付き表示。 詳しくは、この[ページ](form-rendering.md#defining-fields-conditional-display)を参照してください。
-* 質問のランダム表示。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 質問のランダム表示。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 * 条件付きページ表示。 詳しくは、この[ページ](defining-web-forms-page-sequencing.md#conditional-page-display)を参照してください。
 * 期待されるデータタイプ（数値、メールアドレス、日付など） および必須フィールドに応じた、検証前の情報確認。 詳しくは、この[ページ](form-rendering.md#defining-control-settings)を参照してください。
 * 電子メールの招待状または通知。 詳しくは、この[ページ](publishing-a-web-form.md#delivering-a-form-via-email)を参照してください。
 * エラーおよび終了メッセージのパーソナライゼーション。 詳しくは、この[ページ](defining-web-forms-properties.md#setting-up-an-error-page)を参照してください。
 * 画像、ビデオ、ハイパーテキストリンク、Captcha などの使用について詳しくは、この[ページ](editing-content.md)を参照してください。
-* リアルタイムの応答の監視。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* リアルタイムの応答の監視。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 オプションの&#x200B;**調査**&#x200B;作成モジュールは、次の追加機能を提供します。
 
-* データベースの動的な拡張（最初のデータテンプレートに含まれない応答の作成）。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
-* 専用レポートの生成。 詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* データベースの動的な拡張（最初のデータテンプレートに含まれない応答の作成）。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+* 専用レポートの生成。 詳しくは、この[ ページ ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 Web アプリケーションと比較すると、調査は、シンプルなグラフィカルインターフェイスを備え、編集コントロールが少なくなっています。
 
 >[!NOTE]
 >
->調査の詳細については、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
+>調査の詳細については、[このセクション ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 >
->Adobe Campaign の Web フォームの全体的な機能について詳しくは、[この節](about-web-forms.md)を参照してください。
+>Adobe CampaignのWeb フォームの全体的な機能について詳しくは、[Web フォームの基本を学ぶ](about-web-forms.md)を参照してください。
 
 ## Web アプリケーションの実装 {#web-application-implementation}
 
@@ -109,7 +109,7 @@ Web アプリケーションを作成および投稿するには、次を実行�
 
 1. コンテンツを作成します（フィールド、リスト、テーブル、グラフなど）。
 
-   また、フォームの利用可能なフィールドの詳細を説明するセクションを表示できます。これらすべてのフィールドは、Web アプリケーションでも利用できます。 詳しくは、[このページ](adding-fields-to-a-web-form.md)を参照してください。
+   また、フォームの利用可能なフィールドの詳細を説明するセクションを表示できます。これらすべてのフィールドは、Web アプリケーションでも利用できます。 この情報は、[Web フォームへのフィールドの追加](adding-fields-to-a-web-form.md)で利用できます。
 
 1. 必要に応じて、プリロード、テストおよび保存手順を追加したり、アクセス制御システムを設定したりすることができます（主にエクストラネットに公開するフレームワーク内で）。
 1. Web アプリケーションを公開して、エクストラネットまたはAdobe Campaignで使用できるようにします。
@@ -120,7 +120,7 @@ Web アプリケーションは、**[!UICONTROL キャンペーン]**&#x200B;お
 
 Web アプリケーションは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに格納されます。 設定は、次のフォルダーに分類されます。
 
-* **[!UICONTROL 管理／設定／フォームのレンダリング]**：Web フォームプレゼンテーションのレンダリングテンプレートが含まれます（アプリケーションおよび調査）。 テンプレートを使用すると、フォームを生成できます。 また、CSS スタイルシートを使用します。 このスタイルシートは、テンプレートレベルでオーバーロードできます。 詳しくは、[このページ](form-rendering.md#selecting-the-form-rendering-template)を参照してください。
+* **[!UICONTROL 管理／設定／フォームのレンダリング]**：Web フォームプレゼンテーションのレンダリングテンプレートが含まれます（アプリケーションおよび調査）。 テンプレートを使用すると、フォームを生成できます。 また、CSS スタイルシートを使用します。 このスタイルシートは、テンプレートレベルでオーバーロードできます。 詳しくは、[ フォームレンダリングテンプレートの選択](form-rendering.md#selecting-the-form-rendering-template)を参照してください。
 * **[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**：フォームテンプレートが含まれます。 フォームまたは Web アプリケーションを作成するには、テンプレートから開始する必要があります。
 
 ## Web アプリケーションテンプレート {#web-application-templates}

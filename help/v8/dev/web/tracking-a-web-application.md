@@ -32,10 +32,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 95%
 ---
 # web アプリケーションへの訪問のトラッキング{#tracking-a-web-application}
 
@@ -85,7 +85,7 @@ Web アプリケーションのトラフィックソースを識別するため�
 
 ## デジタルコンテンツエディター（DCE）で設計された web アプリケーション {#web-applications-designed-with-digital-content-editor--dce-}
 
-Web アプリケーションが HTML コンテンツエディター - **デジタルコンテンツエディター（DCE）** - を使用して作成されている場合、トラッキングタグは、エディターの「**[!UICONTROL プロパティ]**」タブで挿入されます。 デジタルコンテンツエディター（DCE）について詳しくは、[この節](about-campaign-html-editor.md)を参照してください。
+Web アプリケーションが HTML コンテンツエディター - **デジタルコンテンツエディター（DCE）** - を使用して作成されている場合、トラッキングタグは、エディターの「**[!UICONTROL プロパティ]**」タブで挿入されます。 デジタルコンテンツエディター（DCE）について詳しくは、[Campaign HTML エディターの基本を学ぶ](about-campaign-html-editor.md)を参照してください。
 
 ![](assets/trackers_2.png)
 

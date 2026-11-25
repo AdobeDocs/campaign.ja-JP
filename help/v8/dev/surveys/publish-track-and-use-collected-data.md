@@ -22,16 +22,16 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 95%
+source-wordcount: '947'
+ht-degree: 90%
 ---
 # 収集したデータの公開、トラッキングおよび使用{#publish-track-and-use-collected-data}
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -39,7 +39,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Adobe Campaign の調査のライフサイクルと、そのパブリッシュおよび配信モードは、Web フォームに似ています。詳しくは、[この節](../web/about-web-forms.md)を参照してください。
+>Adobe Campaignのアンケートのライフサイクルと、その公開モードと配信モードは、Web フォームと似ています。詳しくは、[web フォームの概要](../web/about-web-forms.md)を参照してください。
 
 ## 調査ダッシュボード {#survey-dashboard}
 
@@ -63,13 +63,13 @@ ht-degree: 95%
 
 接触チャネルは、次の文字を追加することで、調査 URL に示されます。
 
-```
+```text
 ?origin=xxx
 ```
 
 調査が編集されている間、その URL にはパラメーター **[!UICONTROL __uuid]** が含まれます。これは、テストフェーズにあり、まだオンラインでないことを示しています。 この URL で調査にアクセスする場合、作成されたレコードは、トラッキング（レポート）で考慮されません。 origin の値は、強制的に **[!UICONTROL Adobe Campaign]** になります。
 
-URL パラメーターについて詳しくは、[このページ](../web/defining-web-forms-properties.md#form-url-parameters)を参照してください。
+URL パラメーターについて詳しくは、[ フォーム URL パラメーター](../web/defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
 ### 調査のレポート {#reports-on-surveys}
 
@@ -103,7 +103,7 @@ URL パラメーターについて詳しくは、[このページ](../web/defini
 
    レポートデータをエクスポートするには、「**[!UICONTROL エクスポート]**」ボタンをクリックして、エクスポート形式を選択します。
 
-   レポートデータのエクスポートについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}を参照してください。
+   レポートデータのエクスポートについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}を参照してください。
 
 1. 回答のエクスポート
 

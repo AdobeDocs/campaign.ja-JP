@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 83%
+source-wordcount: '1558'
+ht-degree: 82%
 ---
 # プッシュ通知設を修正 {#push-notifications-config}
 
@@ -102,7 +102,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
 1. 「**[!UICONTROL プッシュ資格情報]**」をオンにして、資格情報を追加します。
 
-1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法について詳しくは、[Google ドキュメント ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、アプリ設定を作成します。
 
@@ -126,7 +126,7 @@ Campaign v8.5 では、最新の最先端テクノロジーに基づいて作成
 
    >[!NOTE]
    >
-   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。 ターゲットマッピングについて詳しくは、[このページ](../audiences/target-mappings.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。 ターゲットマッピングについて詳しくは、[ ターゲットマッピングの操作](../audiences/target-mappings.md)を参照してください。
 
 1. 次に、右側にある「**[!UICONTROL 追加]**」アイコンを使用して、このサービスを使用するモバイルアプリケーションを定義します。
 
@@ -275,4 +275,4 @@ Adobe Experience Platform Mobile SDKは、モバイルアプリ内の[!DNL Adobe
 
 データ収集でモバイルアプリケーションを正常に設定したら、Adobe Campaign でプッシュ通知を作成して送信できるようになります。
 
-iOS および Android の通知の配信に固有の詳細な要素については、[このページ](push.md#push-create)を参照してください。
+IOSおよびAndroid通知の配信に固有の詳細については、[最初のプッシュ通知を作成する](push.md#push-create)を参照してください。

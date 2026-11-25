@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 97%
+source-wordcount: '782'
+ht-degree: 95%
 ---
 # メッセージコンテンツの制御{#control-message-content}
 
@@ -38,7 +38,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->メールコンテンツの編集について詳しくは、この[&#x200B; ページ &#x200B;](defining-the-email-content.md)を参照してください。
+>メールコンテンツの編集について詳しくは、この[ ページ ](defining-the-email-content.md)を参照してください。
 
 ## 送信者アドレス {#sender-address}
 
@@ -46,13 +46,13 @@ ht-degree: 97%
 
 インスタンスレベル（**[!UICONTROL ツール／詳細設定／デプロイメントウィザード...]**） または最も頻繁に使用されるシナリオで、必ず正しいアドレスを指定する必要があります。
 
-送信者のアドレスの定義について詳しくは、この[&#x200B; ページ &#x200B;](defining-the-email-content.md#sender)を参照してください。
+送信者のアドレスの定義について詳しくは、この[ ページ ](defining-the-email-content.md#sender)を参照してください。
 
 ## パーソナライズ機能 {#personalization}
 
 受信者のエクスペリエンスを向上させ、受信者がメールを開くようにするために、Adobe Campaign ではメッセージをパーソナライズできます。
 
-Adobe Campaign でのパーソナライゼーションフィールドの使用について詳しくは、[この節](personalization-fields.md)を参照してください。
+Adobe Campaignでのパーソナライゼーションフィールドの使用について詳しくは、[ パーソナライゼーションフィールドの追加](personalization-fields.md)を参照してください。
 
 ## オプトアウトリンクとフォーム {#opt-out}
 

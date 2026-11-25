@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 92%
+source-wordcount: '744'
+ht-degree: 82%
 ---
 # [!DNL Campaign Classic] v7 から [!DNL Campaign] v8 への移行{#gs-matrix}
 
@@ -54,7 +54,7 @@ ht-degree: 92%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。 Campaign Managed Cloud Servicesについて詳しくは、[製品説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。 Campaign Managed Cloud Servicesについて詳しくは、[製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
@@ -62,7 +62,7 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 * **サービスエクスペリエンス** - プロアクティブな可用性と処理能力、およびパフォーマンスの監視と対応により、中断を防ぎ、インシデントを迅速に解決し、継続的な改善に向けて定期的にサービスを確認します。
 * **キャンペーンに対する深い専門知識** - 機能、技術、配信品質のニーズに対応し、デプロイメントのリスクを軽減し、変更管理を改善するために、エキスパートである顧客エンジニアリングチームが提供する親和性の高いサービスです。
 
-以前の [!DNL Campaign Classic] ユーザーの場合、[!DNL Campaign Classic] v7 のほとんどの機能は [!DNL Campaign] v8 で利用できます。ただし、[この節](#gs-removed)に記載されている機能を除きます。
+元[!DNL Campaign Classic] ユーザーとして、[ サポートされていない機能](#gs-removed)に記載されている[!DNL Campaign Classic] v7機能のほとんどは[!DNL Campaign] v8で利用できます。ただし、一部の機能は除きます。
 
 >新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。 Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が付属しています。
 
@@ -77,7 +77,7 @@ Campaign v8 は&#x200B;**ハイブリッドアーキテクチャ**&#x200B;に基
 * 配信のステータスは即座に更新されません - マーケティングインスタンスでテクニカルプロセスが実行され、配信ステータスがタイムリーに更新されます。
 
 
-v7 からの移行時にトランザクションメッセージの配達確認の送信について詳しくは、[こちらのページ](../send/transactional-template.md#transition-from-v7)を参照してください。
+[Campaign Classic v7](../send/transactional-template.md#transition-from-v7)からv7に移行する際に、トランザクションメッセージのプルーフを送信する方法について詳しくは、こちらを参照してください。
 
 
 ## [!DNL Campaign] と [!DNL Snowflake] {#ac-gs-snowflake}
@@ -86,20 +86,20 @@ v7 からの移行時にトランザクションメッセージの配達確認�
 
 Campaign v8 Enterprise では、**Full Federated Data Access**（FFDA）の概念が導入されており、すべてのデータがリモートのクラウドデータベース上にあります。 この新しいアーキテクチャにより、Campaign v8 Enterprise（FFDA）デプロイメントではデータ管理を簡素化できます。クラウドデータベースではインデックスは必要ありません。 テーブルを作成してデータをコピーするだけで、利用を開始できます。 クラウドデータベーステクノロジーでは、パフォーマンスレベルを保証するために特別なメンテナンスを行う必要はありません。
 
-[!DNL Campaign] v8 アーキテクチャについて詳しくは、[こちらのページ](../../v8/architecture/architecture.md)を参照してください。
+[!DNL Campaign] v8 アーキテクチャの詳細については、[Campaign アーキテクチャの基本を学ぶ](../../v8/architecture/architecture.md)を参照してください。
 
 
 ## Adobe ID を使用して Campaign に接続{#adobe-id}
 
 Campaign ユーザーは、Adobe ID でのみ接続します。 同じAdobe IDを使用して、すべての[!DNL Adobe CX Enterprise]個のソリューションについて、1つのアカウントに関連付けられたすべてのAdobe プランと製品を保持します。
 
-[!DNL Campaign] に接続する方法について詳しくは、[こちらのページ](connect.md)を参照してください。
+[!DNL Campaign]への接続方法については、[Campaign v8](connect.md)への接続方法を参照してください。
 
 ## キューブを使用したデータの分析{#adobe-reporting}
 
 マーケティング分析モジュールを使用して、データの分析と測定、統計の計算、レポートの作成と計算の簡素化および最適化を行います。 さらに、レポートを作成してターゲット母集団を作成します。特定されると、Adobe Campaign で使用できるリスト（ターゲティング、セグメント化など）に保存されます。
 
-Adobe Campaign キューブレポートは最適化されており、Campaign Classic v8 よりも優れた拡張可能性を提供します。 この特定のデプロイメントモデルでは、キューブに対する以前の制限は Campaign v8 には適用されません。 キューブについて詳しくは、[この節](../../v8/reporting/gs-cubes.md)を参照してください。
+Adobe Campaign キューブレポートは最適化されており、Campaign Classic v8 よりも優れた拡張可能性を提供します。 この特定のデプロイメントモデルでは、キューブに対する以前の制限は Campaign v8 には適用されません。 キューブの詳細については、[Adobe Campaign Analytics レポートの概要](../../v8/reporting/gs-cubes.md)を参照してください。
 
 ## 使用できない機能{#gs-unavailable-features}
 

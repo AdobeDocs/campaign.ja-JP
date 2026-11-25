@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Email marketing
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 88%
+source-wordcount: '350'
+ht-degree: 84%
 ---
 # CRM と Campaign の接続 {#gs-crm}
 
@@ -61,7 +61,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ## 互換性のあるシステム {#compatible-crm-systems-and-limitations}
 
-サポートされているCRMとバージョンについて詳しくは、キャンペーン [互換性マトリックス &#x200B;](../start/compatibility-matrix.md)を参照してください。
+サポートされているCRMとバージョンについて詳しくは、キャンペーン [互換性マトリックス ](../start/compatibility-matrix.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -69,8 +69,8 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ## 実装手順 {#crm-implementation-steps}
 
-CampaignとMicrosoft Dynamicsを接続する手順については、[このページ &#x200B;](ac-ms-dyn.md)を参照してください。
+CampaignとMicrosoft Dynamicsを連携させる手順については、[CampaignとMicrosoft Dynamicsの連携](ac-ms-dyn.md)を参照してください。
 
-CampaignとSalesforce.comを接続する手順については、[このページ &#x200B;](ac-sfdc.md)を参照してください。
+CampaignとSalesforce.comを連携する手順については、[CampaignとSFDCの連携](ac-sfdc.md)を参照してください。
 
-Adobe Campaign と CRM は、専用のワークフローアクティビティでデータを同期します。 Campaign と CRM の同期を自動化するワークフローを作成します。 Microsoft Dynamics 経由で読み込んだ連絡先を、既存の Adobe Campaign データと同期し、重複する連絡先は削除してから、Adobe Campaign のデータベースを更新するワークフローを作成できます。 詳しくは、[このページ](crm-data-sync.md)を参照してください。
+Adobe Campaign と CRM は、専用のワークフローアクティビティでデータを同期します。 Campaign と CRM の同期を自動化するワークフローを作成します。 Microsoft Dynamics 経由で読み込んだ連絡先を、既存の Adobe Campaign データと同期し、重複する連絡先は削除してから、Adobe Campaign のデータベースを更新するワークフローを作成できます。 詳しくは、[CRM Connectors データ同期](crm-data-sync.md)を参照してください。
