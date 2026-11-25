@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 88%
+source-wordcount: '145'
+ht-degree: 57%
 ---
 # プロファイルの手動作成{#create-profiles-manual}
 
@@ -38,15 +38,15 @@ Campaign データベースにデータを入力するには、[プロファイ�
 
 1. 「**[!UICONTROL プロファイルとターゲット]**」タブを参照し、**[!UICONTROL 受信者]** カテゴリを選択します。
 
-   ![](assets/profiles-and-targets.png)
+   ![受信者リストと「作成」ボタンを含むホームページで「プロファイルとターゲット」タブが選択されています。](assets/profiles-and-targets.png)
 
    デフォルトでは、受信者はツリーの&#x200B;**[!UICONTROL プロファイルとターゲット／受信者]**&#x200B;ノードに保存されています。 また、このビューから受信者を作成することもできます。
 
 1. 「**[!UICONTROL 作成]**」ボタンをクリックします。
 1. プロファイルのデータを入力します。
 
-   ![](assets/new-recipient.png)
+   ![一般タブが入力された受信者フォーム：名、姓、電子メール、ステータスおよび送信元、さらに保存とキャンセル ](assets/new-recipient.png)
 
-   受信者のビルトインのフォームについて詳しくは、[このページ](view-profiles.md#edit-a-profiles)を参照してください。
+   受信者の組み込みフォームについて詳しくは、[ プロファイルの編集](view-profiles.md#edit-a-profiles)を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。プロファイルが Campaign のデフォルトの受信者フォルダーに追加されます。

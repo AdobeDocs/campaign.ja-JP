@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 81%
+source-wordcount: '599'
+ht-degree: 62%
 ---
 # 既存のプロファイルの表示 {#view-profiles}
 
@@ -42,11 +42,11 @@ ht-degree: 81%
 
 このページから、[新しい受信者を作成し](create-profiles.md)、既存の受信者を編集し、そのプロファイルの詳細にアクセスできます。
 
-![](assets/profiles-and-targets.png)
+キャンペーンのホームページの「![ プロファイルとターゲット」タブ。作成ボタンを含む受信者リストが表示されている](assets/profiles-and-targets.png)
 
 より高度なプロファイル操作については、Adobe Campaign ホームページの&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;リンクから Campaign ツリーにアクセスしてください。
 
-![](assets/recipients-in-explorer.png)
+![受信者フォルダーが選択されたエクスプローラーツリー、受信者リスト、選択された受信者の詳細](assets/recipients-in-explorer.png)
 
 
 >[!CAUTION]
@@ -58,7 +58,7 @@ ht-degree: 81%
 
 プロファイルを選択して、新しいタブに詳細を表示します。
 
-![](assets/edit-a-profile.png)
+![一般、連絡先情報、その他、購読、配信、トラッキングの各セクションがある受信者プロファイルタブ ](assets/edit-a-profile.png)
 
 プロファイルに関するデータはタブにグループ化されています。 これらのタブとその内容は、特定の設定とインストールされているパッケージに応じて異なります。
 
@@ -66,7 +66,7 @@ ht-degree: 81%
 
 * **[!UICONTROL 一般]**（すべての一般的なプロファイルデータ用）。 特に、姓、名、メールアドレス、メールフォーマットなどが含まれます。
 
-  このタブには、プロファイルの&#x200B;**オプトアウト** フラグも保存されます。「**[!UICONTROL もう連絡先なし（任意のチャネルによる）]**」オプションが選択されている場合、プロファイルはブロックリストに存在します。 例えば、受信者がニュースレターの購読解除リンクをクリックした場合、この情報が連絡先データに追加されます。 このような受信者は、任意のチャネル（電子メール、ダイレクトメールなど）でターゲットにされなくなりました。 詳しくは、[このページ](../send/quarantines.md)を参照してください。
+  このタブには、プロファイルの&#x200B;**オプトアウト** フラグも保存されます。「**[!UICONTROL もう連絡先なし（任意のチャネルによる）]**」オプションが選択されている場合、プロファイルはブロックリストに存在します。 例えば、受信者がニュースレターの購読解除リンクをクリックした場合、この情報が連絡先データに追加されます。 このような受信者は、任意のチャネル（電子メール、ダイレクトメールなど）でターゲットにされなくなりました。 詳しくは、「[ キャンペーンでの強制隔離の管理](../send/quarantines.md)」を参照してください。
 
 * **連絡先情報**：選択したプロファイルのダイレクトメールアドレスが含まれます。
 
@@ -76,15 +76,15 @@ ht-degree: 81%
 
   **[!UICONTROL フィールドのプロパティ…]** コンテキストメニューを使用してフィールドの名前を変更し、形式を定義します。
 
-  ![](assets/other-tab-field-properties.png)
+  ![ ブール値1 フィールドのコンテキストメニューで「フィールドプロパティ」オプションが選択されている受信者のその他のタブ ](assets/other-tab-field-properties.png)
 
   以下のように新しい設定を入力します。
 
-  ![](assets/change-field-properties.png)
+  ![ ラベルフィールドがLuma Gold Programに設定され、説明フィールドが](assets/change-field-properties.png)に入力されたフィールドプロパティダイアログ
 
   UI で次の更新を確認します：
 
-  ![](assets/other-tab-updated.png)
+  ![ ブーリアン 1 フィールドが「はい」または「いいえ」の値を持つLuma ゴールドプログラムとして表示されるようになった受信者のその他のタブ ](assets/other-tab-updated.png)
 
 
   >[!CAUTION]
@@ -94,7 +94,7 @@ ht-degree: 81%
 
 * **購読**：サービスに対するすべてのアクティブな購読用。 「**履歴**」タブを使用して、この連絡先の購読と購読解除の詳細にアクセスします。
 
-  ![](assets/subscription-tab.png)
+  アクティブなサブスクリプションを一覧表示する受信者の「![ サブスクリプション」タブ。アクティブなサブスクリプションと履歴タブ ](assets/subscription-tab.png)
 
   購読について詳しくは、[この節](../start/subscriptions.md)を参照してください。
 

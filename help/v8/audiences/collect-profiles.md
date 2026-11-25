@@ -29,15 +29,15 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 88%
+source-wordcount: '100'
+ht-degree: 69%
 ---
 # Web フォームでのプロファイルの収集と更新
 
 Campaign を使用して web フォームを作成し、プロファイルのデータを簡単かつ効率的に収集および管理します。 これらのフォームは web サイトで共有できるので、連絡先にとっても情報を提供しやすくなります。 データを Campaign に送信すると、プロファイルを作成または更新できます。
 
-![](assets/web-form-page.png)
+![電子メールフィールドと送信ボタンを含むLuma ニュースレターフォームを表示するweb アプリケーションワークフローのページアクティビティ。](assets/web-form-page.png)
 
-[このセクション &#x200B;](../dev/web/about-web-forms.md)でweb フォームを作成する方法について説明します。
+Web フォームの作成方法については、[Web フォームの基本を学ぶ](../dev/web/about-web-forms.md)を参照してください。

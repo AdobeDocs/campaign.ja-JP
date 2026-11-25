@@ -36,10 +36,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 82%
 ---
 # ターゲットマッピングの操作{#gs-target-mappings}
 
@@ -71,7 +71,7 @@ Adobe Campaign には、次のビルトインのターゲットマッピング�
 * カスタム受信者テーブルの使用
 * ターゲットマッピング画面でのビルトインのターゲティングディメンションとは異なるフィルタリングディメンションの設定
 
-カスタム受信者テーブルについて詳しくは、[このページ](../dev/custom-recipient.md)を参照してください。
+カスタム受信者テーブルの詳細については、[ デフォルトの受信者テーブルを変更](../dev/custom-recipient.md)してください。
 
 Adobe Campaign ターゲットマッピング作成ウィザードを使用すると、カスタムターゲットマッピングを使用するために必要なすべてのスキーマを作成できます。
 
@@ -79,16 +79,16 @@ Adobe Campaign ターゲットマッピング作成ウィザードを使用す�
 
 1. 新しいターゲットマッピングを作成し、カスタムスキーマをターゲティングディメンションとして選択します。
 
-   ![](assets/new-target-mapping.png)
+   ![新しいターゲットマッピングウィザードのターゲティングディメンション手順を選択します。ラベルクライアントとターゲティングディメンション契約が含まれます。](assets/new-target-mapping.png)
 
 
 1. プロファイル情報が格納されるフィールド（姓、名、メール、住所など）を指定します。
 
-   ![](assets/wf_new_mapping_define_join.png)
+   ![電子メールなどの各配信先住所フィールドが新しいディメンションのフィールドにリンクされている住所フォームの編集ステップ。](assets/wf_new_mapping_define_join.png)
 
 1. 拡張スキーマを識別しやすくするためのサフィックスなど、情報ストレージのパラメーターを指定します。
 
-   ![](assets/wf_new_mapping_define_names.png)
+   ![名前空間、拡張スキーマのサフィックス、除外とメッセージを保存するための除外オプションを含むストレージ ステップ。](assets/wf_new_mapping_define_names.png)
 
    除外（**excludelog**）をメッセージ付き（**broadlog**）で格納するか、個々のテーブルに格納するかを選択できます。
 
@@ -96,6 +96,6 @@ Adobe Campaign ターゲットマッピング作成ウィザードを使用す�
 
 1. 次に、考慮する拡張を選択します。 拡張機能のタイプは、Campaign の設定とアドオンに応じて異なります。
 
-   ![](assets/wf_new_mapping_define_extensions.png)
+   オファーのエンジンで「![提案のストレージスキーマを生成」オプションを選択した拡張機能ステップ。](assets/wf_new_mapping_define_extensions.png)
 
    「**[!UICONTROL 保存]**」ボタンをクリックし、配信マッピングの作成を開始します。リンクされているすべてのテーブルは、選択したパラメーターに基づいて自動的に作成されます。

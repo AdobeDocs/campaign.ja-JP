@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '2045'
-ht-degree: 85%
+source-wordcount: '2493'
+ht-degree: 70%
 ---
 # フィルターの操作{#create-filters}
 
@@ -62,7 +62,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 デフォルトでは、Adobe Campaignには、オペレーターが読み取り権限を持つすべてのデータベースレコードが表示されます。 ブラウザーウィンドウの上部セクションにあるオプションを使用して、このデータをフィルタリングできます。
 
-![](assets/filter_web_zone.png)
+フィルター領域がハイライト表示された![受信者ダッシュボード：フォルダーアイコン、クイック検索フィールド、並べ替えリスト ](assets/filter_web_zone.png)
 
 表示されるデータをフィルターする方法は複数あります。 必要に応じて、これらを一緒に使用できます。 フィルターオプションについて詳しくは、以下のタブを参照してください。
 
@@ -73,11 +73,11 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 フォルダーに基づいてデータをフィルタリングするには、**[!UICONTROL フォルダー]** アイコンをクリックし、表示するデータを含むフォルダーを選択します。
 
-![](assets/filter_web_select_folder.png)
+プロファイルとターゲットから受信者、クライアント、新規に展開された![ フォルダーメニュー](assets/filter_web_select_folder.png)
 
 フォルダー内のプロファイルのみが表示されます。
 
-![](assets/filter_web_folder_display.png)
+プロファイルとターゲット/受信者/クライアント/新しいフォルダー](assets/filter_web_folder_display.png)でフィルター処理された![受信者リスト
 
 デフォルトの表示モードに戻るには、フォルダー選択フィールドの右側にあるバツ印を使用します。
 
@@ -87,7 +87,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 例えば、配信の場合、次に示すように、完了した配信のみを表示するように選択できます。
 
-![](assets/filter_delivery.png)
+![配信ダッシュボードのステータス ドロップダウンリストすべて、編集中、完了、その他の状態](assets/filter_delivery.png)
 
 >[!TAB 注文者：]
 
@@ -95,13 +95,13 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 例えば、タスクを優先度、作成日またはアルファベット順に並べ替えることができます。
 
-![](assets/order_data_sample.png)
+![ タスクダッシュボードの並べ替えドロップダウン （ラベル：AからZ、新しい順、古い順、優先度別](assets/order_data_sample.png)）
 
 >[!TAB  クイック検索]
 
 検索フィールドを使用して、探している項目にすばやくアクセスできます。表示する項目のラベルまたは内部名に含まれている文字を入力し、確定してページ上のデータに自動フィルターを適用します。
 
-![](assets/filter_search.png)
+![検索フィールドにニュースを入力してフィルタリングされた配信ダッシュボード ](assets/filter_search.png)
 
 再度すべての項目を表示するには、バツ印をクリックして検索フィールドのコンテンツを削除します。
 
@@ -113,7 +113,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 例えば、プロファイルの場合、次のビルトインのフィルターを使用できます。
 
-![](assets/built-in-filters.png)
+![開封したがクリックされていないなどの組み込みフィルターを表示する受信者リストのフィルタードロップダウン ](assets/built-in-filters.png)
 
 フィルターの詳細には、エクスプローラーの&#x200B;**[!UICONTROL プロファイルとターゲット／定義済みフィルター]**&#x200B;ノードでアクセスできます。
 
@@ -123,11 +123,11 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 定義を表示するフィルターを選択します。
 
-![](assets/predefined-filter-list.png)
+![開いたフィルターが選択され、そのフィルター条件が表示されたエクスプローラーの定義済みフィルターノード ](assets/predefined-filter-list.png)
 
 最後のタブを使用すると、フィルターされたデータをプレビューできます。
 
-![](assets/built-in-filter-preview.png)
+![年齢別の事前定義済みフィルターのプレビュータブ。25歳以上45歳以上で、一致する受信者](assets/built-in-filter-preview.png)
 
 
 +++  プロファイル用の事前定義済みフィルターの組み込み
@@ -243,7 +243,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 各リストの上のフィールドでは、このリストに&#x200B;**定義済みの既定のフィルター**&#x200B;を使用できます。 受信者リストの場合、デフォルトで名前とメールアドレスでフィルターできます。
 
-![](assets/filter-recipient-name.png)
+![ デフォルトの姓フィールドでLucasでフィルタリングされた受信者リスト。2つのプロファイルを返す](assets/filter-recipient-name.png)
 
 
 >[!NOTE]
@@ -259,12 +259,12 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 1. デフォルトで使用するフィルターを選択します。
 1. 「**[!UICONTROL パラメーター]**」タブをクリックし、「**[!UICONTROL 関連付けられたドキュメントタイプのデフォルトのフィルター]**」を選択します。
 
-   ![](assets/change-default-filter.png)
+   ![関連付けられたドキュメントタイプのデフォルトフィルターが選択された定義済みフィルターの「パラメーター」タブ ](assets/change-default-filter.png)
 
 1. 現在のデフォルトの定義済みフィルターに対して、同じオプションのチェックを外します。
 1. 「**[!UICONTROL 保存]**」をクリックしてフィルターを適用します。
 1. 受信者フォルダーを参照し、現在のフィルターの右側にある「**[!UICONTROL このフィルターを削除]**」アイコンをクリックします。新しいデフォルトのフィルターが使用可能です。
-   ![](assets/updated-default-filter.png)
+   ![受信者リスト。購読別のデフォルトフィルターとそのサービスフィールドのドロップダウンが表示されている](assets/updated-default-filter.png)
 
 
 ## クイックフィルター{#quick-filters}
@@ -281,36 +281,36 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 1. フィルターするフィールドを右クリックし、「**[!UICONTROL このフィールドでフィルター]**」を選択します。
 
-   ![](assets/quick-filter-on-this-field.png)
+   ![このフィールドのフィルターが強調表示された言語フィールドの右クリックメニュー](assets/quick-filter-on-this-field.png)
 
    デフォルトのフィルターフィールドがリストの上に表示されます。
 
-   ![](assets/quick-filter-above-list.png)
+   ![英語フィルターと同じ言語を持つ受信者リストがリストの上に追加されました](assets/quick-filter-above-list.png)
 
 1. フィルターオプションを選択します。
 1. 必要に応じて、フィルターの右側にあるグレーのアイコンを使用し、フィルターを削除します。
 1. フィルターを組み合わせて絞り込むことができます。
 
-   ![](assets/add-filter-above-the-list.png)
+   ![言語と電子メールのクイックフィルターをリストの上に組み合わせ、電子メールオペレータードロップダウンを開く](assets/add-filter-above-the-list.png)
 
 
 フォームでは使用できないが列にあるフィールドでフィルタリングする必要がある場合は、その列でフィルタリングします。 手順は次のとおりです。
 
 1. **[!UICONTROL リストを設定]**&#x200B;アイコンをクリックします。
 
-   ![](assets/configure-list.png)
+   ![ リストの右下にリストの設定アイコンが表示されている受信者リスト ](assets/configure-list.png)
 
 1. 表示する列（受信者の年齢など）を選択し、「**OK**」をクリックします。
 
-   ![](assets/add-age-column.png)
+   ![出力列に「年齢」フィールドが追加されたリスト設定ダイアログ ](assets/add-age-column.png)
 
 1. 受信者リストで「**年齢**」列を右クリックし、「**[!UICONTROL この列でフィルター]**」を選択します。
 
-   ![](assets/age-filter-on-this-column.png)
+   ![この列のフィルターが強調表示された受信者リストの右クリックメニュー、年齢列が表示されている](assets/age-filter-on-this-column.png)
 
    年齢のフィルターオプションを選択できるようになります。 年齢に別のフィルターを追加して、範囲を定義します。
 
-   ![](assets/filter-on-age.png)
+   ![20より大きく30より小さい2つの年齢フィルターで、4人の受信者が返されます](assets/filter-on-age.png)
 
 ## 詳細フィルター{#advanced-filters}
 
@@ -320,7 +320,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 **詳細フィルター**&#x200B;を作成するには、「**[!UICONTROL フィルター]**」ボタンをクリックして「**[!UICONTROL 詳細フィルター...]**」を選択します。
 
-![](assets/adv-filter.png)
+![詳細フィルターを含む受信者リストのフィルタードロップダウン…下部にハイライト表示されている](assets/adv-filter.png)
 
 データのリストを右クリックして、「**[!UICONTROL 詳細フィルター...]**」を選択することもできます。
 
@@ -328,16 +328,16 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 1. 「**[!UICONTROL 式]**」列の「**[!UICONTROL 式を編集]**」アイコンをクリックします。
 
-   ![](assets/edit-exp.png)
+   ![ エクスプレッション列のエクスプレッションを編集アイコンを含む高度なフィルターダイアログ ](assets/edit-exp.png)
 
 1. フィルターするフィールドを選択します。
 1. 適用するオペレーターをドロップダウンリストから選択します。
 
-   ![](assets/select-operator.png)
+   ![ アカウント #式と演算子ドロップダウンを含む高度なフィルターダイアログが開きます](assets/select-operator.png)
 
 1. 期待される値を「**[!UICONTROL 値]**」列から選択します。 複数のフィルターを組み合わせてクエリを絞り込むことができます。 フィルター条件を追加するには、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/add-an-exp.png)
+   ![ アカウント番号の詳細フィルターダイアログがNLで始まり、新しい「And」行が追加されました](assets/add-an-exp.png)
 
    >[!NOTE]
    >
@@ -345,13 +345,13 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 1. 式を組み合わせる際に使用できる演算子は、**And**、**Or**、**Except** です。 矢印をクリックして「**Or**」に切り替えます。
 
-   ![](assets/select-or-operator.png)
+   ![2番目の市区町村条件で「And」、「Or」、「Except」演算子リストを開いた高度なフィルターダイアログ ](assets/select-or-operator.png)
 
 1. 「**[!UICONTROL OK]**」をクリックしてフィルターを作成し、現在のリストに適用します。
 
 適用されるフィルターがリストの上に表示されます。
 
-![](assets/adv-filter-link.png)
+![ リストの上に青いリンクとして表示される、適用された詳細フィルターを含む受信者リスト ](assets/adv-filter-link.png)
 
 このフィルターを編集または変更するには、リストの上にある青色の説明リンクをクリックします。
 
@@ -365,15 +365,15 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 1. 編集するフィルターの説明をクリックします。
 1. ウィンドウの右上のセクションにある「**[!UICONTROL フィルターとして保存]**」アイコンをクリックします。
 
-   ![](assets/save-as-filter.png)
+   ![ フィルターとして保存アイコンを右上に表示する詳細フィルターダイアログ ](assets/save-as-filter.png)
 
 1. このフィルターの名前を入力して保存します。
 
-   ![](assets/application-filter-save.png)
+   ![ アプリケーションフィルターダイアログ。ラベルが「Paris - LA New Users」とフィルター条件](assets/application-filter-save.png)
 
 フィルターが[定義済みフィルター](#predefined-filters)に追加されます。 このノードから更新できます。
 
-![](assets/added-to-predefined-filters.png)
+![新しいパリ - LA新規ユーザーフィルターのリストを表示する定義済みフィルターノード ](assets/added-to-predefined-filters.png)
 
 >[!NOTE]
 >
@@ -383,7 +383,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 このフィルターは、受信者リストの定義済みフィルターからも使用できます。
 
-![](assets/access-to-new-predefined-filter.png)
+![新しいパリ - LA新規ユーザーフィルターがハイライト表示された受信者リストのフィルタードロップダウン ](assets/access-to-new-predefined-filter.png)
 
 
 
@@ -393,7 +393,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 保存すると、「**[!UICONTROL ユーザーフィルター]**」セクションでメッセージのターゲット母集団を選択するときに詳細フィルターを使用できます。
 
-![](assets/adv-filter-target-type.png)
+![ ユーザーフィルターの下で、保存済みのパリ - LA新規ユーザーフィルターを含むターゲットタイプダイアログ ](assets/adv-filter-target-type.png)
 
 
 >[!NOTE]
@@ -409,7 +409,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 * 単純な受信者属性をターゲットにする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
 * 過去 7 日間に連絡されていない受信者をフィルターする方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=ja){target="_blank"}を参照してください。
-* アクティブなアカウントでフィルタリングできる演算子のリストを[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"}で復元する方法を説明します。
+* アクティブなアカウントでフィルタリングできる演算子のリストを[このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=ja){target="_blank"}で復元する方法を説明します。
 * 誕生日メールのオーディエンスを作成する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=ja){target="_blank"}を参照してください。
 
 
@@ -425,7 +425,7 @@ Adobe Campaign では、次のタイプのフィルターを使用できます�
 
 * フィルター条件を選択するフォームを定義するには、「**[!UICONTROL パラメーター入力フォームを使用する]**」オプションを選択します。 このフォームは、「**[!UICONTROL フォーム]**」タブに XML フォーマットで入力する必要があります。 例えば、受信者リストから使用可能なビルトインの定義済みフィルター「**[!UICONTROL 開封済み]**」では、フィルターの適用の配信を選択できるフィルターフィールドが表示されます。
 
-![](assets/predefined-filters-parameters.png)
+![定義済みフィルターの「パラメーター」タブとその詳細パラメーターダイアログ（「フィルターオプションを制限しない」など） ](assets/predefined-filters-parameters.png)
 
 
 * 「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用すると、追加設定を定義できます。

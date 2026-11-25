@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 96%
+source-wordcount: '1080'
+ht-degree: 79%
 ---
 # リストでのオーディエンスの作成 {#create-segments}
 
@@ -38,13 +38,13 @@ Campaign リストを使用すると、オーディエンスを作成および�
 
 リストの作成と管理は、「**[!UICONTROL プロファイルとターゲット]**」タブの&#x200B;**[!UICONTROL リスト]**&#x200B;リンクを使用して実行します。 これらのリストは、デフォルトのAdobe Campaign プロファイルテーブル（nms:recipient）に基づいています。 [詳細情報](../dev/datamodel.md#ootb-profiles)
 
-![](assets/list-dashboard.png)
+![既存のリストと作成ボタンを表示するプロファイルとターゲットの下のリスト ページ ](assets/list-dashboard.png)
 
 リストを作成するには、ワークフローで&#x200B;**リストを更新**&#x200B;アクティビティを使用します。 このアクティビティは、結果の母集団をリストに格納します。 これを使用すると、新しいリストを作成したり、既存のリストを更新したりできます。 ビルトインのプロファイルテーブル以外のタイプのデータを含むリストを作成するには、ワークフローを実行する必要があります。 例えば、訪問者テーブルでクエリを使用してからリストを更新することによって、訪問者リストを作成できます。 [詳細情報](#create-a-list-wf)。
 
 Adobe Campaign でのリスト管理について詳しくは、このビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426461?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
 ## 連絡先のリストの作成 {#create-a-list-of-contacts}
@@ -53,11 +53,11 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
 1. 「**[!UICONTROL 作成]**」ボタンをクリックし、「**[!UICONTROL 新しいリスト]**」を選択します。
 
-   ![](assets/new-list.png)
+   ![新しいリストオプションを使用してリストページのメニューを作成](assets/new-list.png)
 
 1. リスト作成ウィンドウの「**[!UICONTROL 編集]**」タブで情報を入力します。
 
-   ![](assets/list-details.png)
+   ![ ラベル、内部名、リストタイプ、スキーマおよびフォルダーフィールドを含むリスト作成ウィンドウのタブを編集](assets/list-details.png)
 
    * 「**[!UICONTROL ラベル]**」フィールドにリスト名を入力し、必要に応じて内部名を変更します。
    * このリストの説明を入力します。
@@ -66,7 +66,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
 1. 「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」をクリックし、リストに属するプロファイルを選択します。
 
-   ![](assets/add-profiles-to-a-list.png)
+   ![ データセット フォルダーから選択した複数の受信者を含む受信者をリスト ダイアログに追加](assets/add-profiles-to-a-list.png)
 
    新しいプロファイルを作成し、このウィンドウから直接リストに追加するには、「**[!UICONTROL 作成]**」アイコンを使用します。 プロファイルはデータベースに追加されます。
 
@@ -83,15 +83,15 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
 1. **[!UICONTROL アクション／リストに選択項目を関連付け...]** を選択します。
 
-   ![](assets/add-selection-to-a-list.png)
+   ![選択した受信者のリストオプションを含む選択項目を関連付けるアクションメニュー](assets/add-selection-to-a-list.png)
 
 1. 既存のリストを選択するか、新しいリストを作成して、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/select-the-list.png)
+   ![ リストを選択し、「次へ」ボタンをクリックした受信者とリスト ウィザードのリスト手順を選択](assets/select-the-list.png)
 
 1. 「**[!UICONTROL 開始]**」ボタンをクリックします。
 
-   ![](assets/record-a-list.png)
+   ![ リストを再作成オプションと「開始」ボタンを使用して、ウィザードのリストステップに記録する](assets/record-a-list.png)
 
 「**[!UICONTROL リストを再作成]**」オプションを選択して、リストから既存のコンテンツを削除し、リストの作成を最適化します（プロファイルが既にリストにリンクされているかどうかを確認するためのクエリは必要ありません）。
 
@@ -111,22 +111,22 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 1. 「**[!UICONTROL プロファイルとターゲット]**」および「**[!UICONTROL ターゲティングワークフロー]**」を選択し、「**[!UICONTROL 作成]**」ボタンから新しいワークフローを作成します。
 1. このワークフローのラベル（例： 「25～40 の連絡先」）を入力し、説明を追加して、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/targeting-wf-sample.png)
+   ![25 ～ 40人の連絡先にラベルと説明が入力されたターゲティングワークフローの新しいワークフローダイアログ ](assets/targeting-wf-sample.png)
 
 1. **[!UICONTROL クエリ]**&#x200B;アクティビティを挿入してターゲット母集団を定義し、クエリを編集します。
 
-   ![](assets/targeting-wf-edit-query.png)
+   ![ クエリの編集リンクと、フィルタリング条件を使用したターゲティングおよびフィルタリングディメンションの手順を使用したクエリアクティビティ ](assets/targeting-wf-edit-query.png)
 
 1. 次のように、フィルター条件を定義します。
 
-   ![](assets/targeting-wf-age-filter.png)
+   ![年齢が25歳以上40以下のクエリのフィルターステップ ](assets/targeting-wf-age-filter.png)
 
    ワークフローでクエリを作成する方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=ja){target="_blank"}を参照してください。
 
 1. このクエリのラベルを追加し、変更を保存します。
 1. **[!UICONTROL リスト更新]**&#x200B;アクティビティをを追加し、編集します。
 
-   ![](assets/list-update-activity.png)
+   ![ リストの作成とフォルダーのオプション、および「OK」ボタンを使用して、ワークフローの更新アクティビティ設定を一覧表示する](assets/list-update-activity.png)
 
 1. アクティビティのラベルを入力します。
 1. 「**[!UICONTROL 必要に応じてリストを作成 (名前を自動生成)]**」オプションを選択します。このオプションでは、最初のワークフローの実行時にリストが作成され、その後、ワークフローを実行すると更新されます。
@@ -140,7 +140,7 @@ Adobe Campaign でのリスト管理について詳しくは、このビデオ�
 
    条件に一致する受信者のリストが作成されます。 このリストには、ホームページの&#x200B;**[!UICONTROL Lists]** エントリからアクセスできます。
 
-   ![](assets/access-new-list.png)
+   ![新しい25 ～ 40人の連絡先リストを上部に表示するリスト ページ。リストのエントリからアクセスしました](assets/access-new-list.png)
 
    ワークフローにスケジューラーを追加することで、このワークフローを繰り返し実行できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=ja){target="_blank"}。
 
