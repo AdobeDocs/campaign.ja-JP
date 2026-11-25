@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 73%
+source-wordcount: '463'
+ht-degree: 61%
 ---
 # レポートの概要{#gs-ac-reports}
 
@@ -43,7 +43,7 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
 * **動的レポート**
 
-  Adobe Dynamic Reportingは、Campaign Web UIで利用でき、マーケティング活動の影響を測定するための、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 [Web UI v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=ja){target="_blank"}を参照してください。
+  Adobe Dynamic Reportingは、Campaign Web UIで利用でき、マーケティング活動の影響を測定するための、完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 [Web UI v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}を参照してください。
 
 * **キューブ**
 
@@ -51,11 +51,11 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
   マーケティング分析機能を使用して、データの分析と測定、統計の計算、レポートの作成と計算の簡素化と最適化を実現できます。 レポートを作成し、ターゲット母集団を作成して、リストに保存できます。このリストは、Adobe Campaign でターゲティングやセグメント化のタスクに使用できます。
 
-  ![](assets/create-a-report.png)
+  ![利用可能なキューブテンプレートと受信者テンプレートを選択した新しいレポートページを作成しています](assets/create-a-report.png)
 
   これらのレポートで分析するデータは、クエリ、計算、量などの複雑さに応じて、クエリで収集したり、リスト（データ管理タイプのワークフロー）やキューブ（Marketing Analytics を使用）で事前に集計したりすることができます。 データはピボットテーブルまたはグループリストの形式で表示されます。
 
-  詳しくは、[この節](gs-cubes.md)を参照してください。
+  詳しくは、[Adobe Campaign Analytics レポートの概要](gs-cubes.md)を参照してください。
 
 * **ビルトインレポート**
 
@@ -63,9 +63,9 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
   これらのレポートにアクセスするには、「**レポート**」タブを使用します。
 
-  ![](assets/built-in-reports.png)
+  ブロードキャスト統計やブラウザーなどの組み込みレポートのグローバルレポートリストを表示する![ レポート タブ ](assets/built-in-reports.png)
 
-  詳しくは、[この節](built-in-reports.md)を参照してください。
+  詳しくは、[Adobe Campaignの組み込みレポート ](built-in-reports.md)を参照してください。
 
 * **記述的データ分析**
 
@@ -73,12 +73,12 @@ Adobe Campaign では、このページにリストされている一連のレ�
 
   **[!UICONTROL ツール／記述的分析...]**&#x200B;メニューを使用して、新しいレポートを作成します。
 
-  ![](assets/desc-analysis-report.png)
+  ![追加後に開いた変数定義ダイアログを使用した記述分析ウィザード テーブルの設定](assets/desc-analysis-report.png)
 
-  キャンペーン記述分析レポートは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}に記載されています。
+  キャンペーン記述分析レポートは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}に記載されています。
 
 * **カスタムレポート**
 
   Adobe Campaign を使用すると、データベース内のデータに関するレポートを作成できます。 作成したレポートは、適切なコンテキストで参照できるようになります。
 
-  レポートを作成する手順については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}を参照してください。 パーソナライズされたレポートの作成は、上級ユーザーが行います。
+  レポートを作成する手順については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=ja){target="_blank"}を参照してください。 パーソナライズされたレポートの作成は、上級ユーザーが行います。

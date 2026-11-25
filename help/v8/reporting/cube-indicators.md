@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 95%
+source-wordcount: '1041'
+ht-degree: 71%
 ---
 # キューブの作成{#create-a-cube}
 
@@ -43,7 +43,7 @@ ht-degree: 95%
 
 キューブにアクセスするには、Campaign エクスプローラーから&#x200B;**[!UICONTROL 管理／設定／キューブ]**&#x200B;を参照します。
 
-![](assets/cube-node.png)
+エクスプローラーの管理/設定にある![ キューブノード。キューブのリストと、選択したキューブの詳細](assets/cube-node.png)
 
 キューブを使用すると、次のことが可能です。
 
@@ -51,21 +51,21 @@ ht-degree: 95%
 
   それには、新しいレポートを作成し、使用するキューブを選択します。
 
-  ![](assets/create-new-cube.png)
+  ![使用可能なキューブテンプレートから新しいレポートを作成し、受信者を選択し、作成の前にラベルを入力](assets/create-new-cube.png)
 
   キューブは、作成するレポートの基になるテンプレートのように表示されます。 テンプレートを選択したら、「**[!UICONTROL 作成]**」をクリックして、新規レポートを設定および表示します。
 
   測定の適合化、表示モードの変更またはテーブルの設定を行ってから、メインボタンを使用してレポートを表示できます。
 
-  ![](assets/display-cube-table.png)
+  ![ キューブに基づく新しいレポート。測定、年齢、国/地域のフィールド、ピボットテーブルを表示するボタンが表示されている](assets/display-cube-table.png)
 
 * レポートの「**[!UICONTROL クエリ]**」ボックスでキューブを参照して、その指標を使用します（下図を参照）。
 
-  ![](assets/cube-report-query.png)
+  ![ キューブを使用オプションを選択し、キューブフィールドでキューブを選択したレポートのクエリ活動](assets/cube-report-query.png)
 
 * キューブに基づいたピボットテーブルをレポートの任意のページに挿入します。 それには、該当するページにあるピボットテーブルの「**[!UICONTROL データ]**」タブで、使用するキューブを参照します。
 
-  ![](assets/cube-in-a-report.png)
+  ![ キューブフィールドと年齢と都市のディメンションでキューブが選択されたレポートページのピボットテーブルの「データ」タブ ](assets/cube-in-a-report.png)
 
   詳しくは、[レポートのデータを調べる](cube-tables.md#explore-the-data-in-a-report)を参照してください。
 
@@ -94,14 +94,14 @@ ht-degree: 95%
 
 1. キューブのリストの上の「**[!UICONTROL 新規]**」ボタンをクリックします。
 
-   ![](assets/create-a-cube.png)
+   ![ ファクトソースオプション、ファクトスキーマフィールド、ラベル、保存ボタンを含む新しいキューブダイアログ ](assets/create-a-cube.png)
 
 1. 調査する要素を含んだスキーマ（「ファクトスキーマ」とも呼ばれます）を選択します。 この例では、デフォルトの&#x200B;**受信者**&#x200B;テーブルを選択します。
 1. 「**[!UICONTROL 保存]**」をクリックしてキューブを作成します。作成したキューブはキューブのリストに追加されます。 これで、タブを使用して設定できるようになりました。
 
 1. 「**[!UICONTROL ソースデータをフィルター]**」リンクをクリックして、このキューブの計算結果をデータベースのデータに適用します。
 
-   ![](assets/cube-filter-source.png)
+   ![ フィルターとソースデータリンクを含むキューブ一般タブで、条件Ageが18](assets/cube-filter-source.png)より大きいフィルターを編集ダイアログを開く
 
 ### ディメンションを定義します。 {#define-dimensions}
 
@@ -112,7 +112,7 @@ ht-degree: 95%
 1. キューブの「**[!UICONTROL ディメンション]**」タブを参照し、「**[!UICONTROL 追加]**」ボタンをクリックして新しいディメンションを作成します。
 1. 「**[!UICONTROL 式]**」フィールドで「**[!UICONTROL 式を編集]**」アイコンをクリックして、該当するデータを含んだフィールドを選択します。
 
-   ![](assets/cube-add-dimension.png)
+   ![追加ボタンと新しいディメンション ダイアログを含む「ディメンション」タブ。式を編集アイコンでフィールドが選択されます](assets/cube-add-dimension.png)
 
 1. この例では、受信者の「**年齢**」を選択しています。 このフィールドに対して、ビニングを定義して年齢をグループ化し、情報を読み取りやすくすることができます。 いくつかの独立した値を扱う可能性がある場合は、ビニングを使用することをお勧めします。
 
@@ -121,7 +121,7 @@ ht-degree: 95%
 1. **日付**&#x200B;タイプのディメンションを追加します。 ここでは、受信者プロファイルの作成日を表示します。 それには、「**[!UICONTROL 追加]**」をクリックし、受信者テーブルの「**[!UICONTROL 作成日]**」フィールドを選択します。
 日付の表示モードをカスタマイズできます。 それには、使用する階層と生成するレベルを選択します。
 
-![](assets/cube-date-dimension.png)
+![作成日ディメンションのレベル付きダイアログで、年、四半期、月、日、時間のオプションを作成できます](assets/cube-date-dimension.png)
 
 この例では、年、月、日のみ表示します。 週と学期／月を同時に扱うことはできません。これらのレベルには互換性がありません。
 
@@ -131,11 +131,11 @@ ht-degree: 95%
 
 ドロップダウンリストから列挙を選択します。 この列挙は、**[!UICONTROL ビニング用に予約済み]**&#x200B;として定義する必要があります。
 
-![](assets/cube-dimension-with-enum.png)
+![有効なビニングを持つ市区町村ディメンション。値を列挙および他の値のラベルに動的にリンクします](assets/cube-dimension-with-enum.png)
 
 その列挙の値のみ表示されます。 それ以外は、「**[!UICONTROL 他の値のラベル]**」フィールドで定義したラベルの下にグループ化されます。
 
-詳しくは、[この節](customize-cubes.md#dynamically-manage-bins)を参照してください。
+詳しくは、[ ビンを動的に管理](customize-cubes.md#dynamically-manage-bins)を参照してください。
 
 ### 指標の構築 {#build-indicators}
 
@@ -148,15 +148,15 @@ ht-degree: 95%
 1. 「**[!UICONTROL 測定]**」タブを参照し、「**[!UICONTROL 追加]**」ボタンをクリックします。
 1. 測定のタイプと適用する式を選択します。 この例では、受信者の中から女性の数をカウントしています。 この場合の測定はファクトスキーマに基づいたもので、使用する演算子は&#x200B;**[!UICONTROL カウント]**&#x200B;です。
 
-   ![](assets/cube-new-measure.png)
+   ![ ファクトスキーマ、カウント演算子、および測定データリンクのフィルターを使用して定義された測定を含む新しい測定ダイアログ ](assets/cube-new-measure.png)
 
    「**[!UICONTROL 測定データをフィルター]**」リンクを使用して、女性のみを選択します。 [詳細情報](customize-cubes.md#define-measures)。
 
-   ![](assets/cube-filter-measure-data.png)
+   ![ フィルターを編集ダイアログ。条件Genderが次と等しく、値リストで女性の値が選択されています](assets/cube-filter-measure-data.png)
 
 1. 測定のラベルを入力し、測定を保存します。
 
-   ![](assets/cube-save-measure.png)
+   ![完了した女性は、カウント演算子、女性に等しいフィルターの性別、保存する前のラベル フィールドで測定します](assets/cube-save-measure.png)
 
 1. キューブを保存します。
 

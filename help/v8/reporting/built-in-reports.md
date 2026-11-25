@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 97%
+source-wordcount: '1192'
+ht-degree: 90%
 ---
 # Adobe Campaign のビルトインのレポート {#ootb-reports}
 
@@ -57,32 +57,32 @@ Campaign のビルトインレポートにアクセスするには次の手順�
 
 1. Adobe Campaign インターフェイスの「**[!UICONTROL レポート]**」タブを選択します。
 
-   ![](assets/reporting-access-from-home.png)
+   キャンペーンホームで「![ レポート」タブが強調表示され、組み込みレポートのグローバルレポートリストが表示されます。](assets/reporting-access-from-home.png)
 
 1. 検索フィールドを使用して、表示されるレポートをフィルターします。
 
 1. 次に、表示するレポートをクリックします。
 
-   ![](assets/edit-a-report.png)
+   ![予算上の検索フィールドでグローバル レポート リストがフィルタリングされ、一致するレポートが開かれることが表示されます。](assets/edit-a-report.png)
 
 1. 画面上部の&#x200B;**[!UICONTROL 戻る]** リンクをクリックして、レポートのリストに戻ります。
 
-   ![](assets/back-button.png)
+   ![ レポートのリストに戻るには、「戻る」ボタンが右上に強調表示されたコスト分析レポートを使用します。](assets/back-button.png)
 
 キャンペーンや配信に特有のレポートには、それぞれのダッシュボードからアクセスできます。
 
-![](assets/reporting-on-delivery.png)
+![配信ダッシュボードにレポート リンクが強調表示され、配信レポートが一覧表示されます。](assets/reporting-on-delivery.png)
 
 次に示すように、リスト、サービス、オファーなどについて、原則は同じです。
 
-![](assets/reporting-on-offer.png)
+![ レポート リンクがハイライト表示されたリスト ダッシュボードで、リスト レポートにアクセスできます。](assets/reporting-on-offer.png)
 
 
 ## 配信に関するレポート {#reports-on-deliveries}
 
 次の表に、Adobe Campaign によって提供されるビルトインレポートを示します。
 
-これらのレポートの内容について詳しくは、[この節](delivery-reports.md)を参照してください。
+これらのレポートの内容について詳しくは、[Adobe Campaign ビルトイン配信レポート ](delivery-reports.md)を参照してください。
 
 <table> 
  <tbody> 

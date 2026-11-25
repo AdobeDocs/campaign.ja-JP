@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 91%
+source-wordcount: '716'
+ht-degree: 84%
 ---
 # 監査記録{#audit-trail}
 
@@ -50,7 +50,7 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
 
 * **スキーマ監査記録**：スキーマに行った変更を調べて、変更を行ったユーザーとタイミングを特定できます。
 
-  スキーマについて詳しくは、この[&#x200B; ページ &#x200B;](../dev/schemas.md)を参照してください。
+  スキーマについて詳しくは、この[ ページ ](../dev/schemas.md)を参照してください。
 
 * **ワークフロー監査記録**&#x200B;では、以下を含む、ワークフローに関連するすべてのアクションを追跡します。
 
@@ -105,7 +105,7 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
 
 1. **[!UICONTROL 管理]**&#x200B;メニューで、「**[!UICONTROL 監査]**」、「**[!UICONTROL 監査記録]**」の順に選択します。
 
-   ![](assets/audit-trail-1.png)
+   管理、監査、監査証跡が選択され、監査済みエンティティのリストが表示された![ エクスプローラーツリー](assets/audit-trail-1.png)
 
 1. **[!UICONTROL 監査記録]**&#x200B;ウィンドウが開き、エンティティのリストが表示されます。 Adobe Campaign では、様々なエンティティの作成、編集、削除アクションを監査します。
 
@@ -119,7 +119,7 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
    * **[!UICONTROL アクション]**：このエンティティで最後に実行されたアクション（作成済み、変更済み、削除済み）。
    * **[!UICONTROL 変更日]**：このエンティティで最後に実行されたアクションの日付。
 
-   ![](assets/audit-trail-2.png)
+   ![ タイプ、エンティティ、変更者、アクションおよび変更日を示す監査エンティティの詳細](assets/audit-trail-2.png)
 
 >[!NOTE]
 >
@@ -148,10 +148,10 @@ Adobe Campaign 内の&#x200B;**[!UICONTROL 監査記録]**&#x200B;機能では�
    * 演算子の場合：**[!UICONTROL XtkAudit_Operator]**
    * すべてのエンティティの場合：**[!UICONTROL XtkAudit_Enable_All]**
 
-   ![](assets/audit-trail-3.png)
+   ![管理下のオプション リスト、XtkAudit_Delivery オプションを選択した状態でXtkAudit_でフィルタリングされたプラットフォーム ](assets/audit-trail-3.png)
 
 1. エンティティを有効にする場合は&#x200B;**[!UICONTROL 値]**&#x200B;を 1 に、無効にする場合は 0 に変更します。
 
-   ![](assets/audit-trail-4.png)
+   ![XtkAudit_Delivery オプション。値（整数）フィールドが1に設定され、監査証跡を有効にします](assets/audit-trail-4.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

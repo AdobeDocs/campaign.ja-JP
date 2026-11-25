@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 92%
+source-wordcount: '1873'
+ht-degree: 74%
 ---
 # キューブのカスタマイズ{#cube-custom}
 
@@ -46,7 +46,7 @@ ht-degree: 92%
 
 ビニングを有効にするには、ディメンションの作成時に適切なボックスにチェックを入れます。
 
-![](assets/cube-class.png)
+![Dimension作成ダイアログで、「ビニングを設定」で「ビニングを有効にする」オプションが選択されています。](assets/cube-class.png)
 
 ビンを手動で作成するか、既存の[列挙](../config/enumerations.md)にリンクできます。
 
@@ -56,15 +56,15 @@ Adobe Campaign には自動ビニングのアシスタントも用意されて�
 
 各 bin を個別に作成するには、「**[!UICONTROL 各 bin を定義]**」オプションを選択し、テーブルを使用して様々な bin を作成します。
 
-![](assets/cube-binning.png)
+![Dimensionのビニング設定で「Define each bin」オプションが選択され、空のBins テーブルが表示されている。](assets/cube-binning.png)
 
 「**[!UICONTROL 追加]**」ボタンをクリックすると、新しい bin を作成でき、その bin にグループ化される値を一覧表示できます。
 
-![](assets/cube-add-new-bin.png)
+![新しいbin ダイアログ。値のリスト、フランス語とイタリア語、および追加ボタンを使用すると、より多くの値をリストできます。](assets/cube-add-new-bin.png)
 
 次の例では、言語が 3 つのカテゴリ（英語／ドイツ語／オランダ語、フランス語／イタリア語／スペイン語、その他）にグループ化されています。
 
-![](assets/cube-add-new-bin-2.png)
+![2つのビンを持つ言語ディメンション：フランス語、イタリア語、スペイン語、英語、ドイツ語、オランダ語；その他の値は「その他」のラベルが付いています。](assets/cube-add-new-bin-2.png)
 
 SQL マスクを使用して、複数の値を組み合わせてフィルターにすることができます。 それには、「**[!UICONTROL SQL マスクを使用]**」列で「**[!UICONTROL はい]**」にチェックを入れ、適用する SQL フィルターを「**[!UICONTROL 値または式]**」列に入力します。
 
@@ -79,11 +79,11 @@ SQL マスクを使用して、複数の値を組み合わせてフィルター�
 1. 新しいディメンションを作成し、ビニングを有効にします。
 1. 「**[!UICONTROL 値を列挙に動的にリンク]**」オプションを選択し、対応する列挙を選択します。
 
-   ![](assets/cube-link-to-enum.png)
+   ![使用可能な列挙のリストを開いた状態で、値を列挙オプションに動的にリンクします。](assets/cube-link-to-enum.png)
 
    列挙の値が更新されるたびに、対応する bin がそれに合わせて自動的に変更されます。
 
-   列挙について詳しくは、[このページ](../config/enumerations.md)を参照してください。
+   [列挙の管理](../config/enumerations.md)で列挙について詳しく説明します。
 
 ### 値の範囲の作成 {#create-value-ranges}
 
@@ -115,11 +115,11 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 また、Adobe Campaign には、ドメインに関する列挙も用意されており、それを使用すると、次の例に示すように、データベースに格納されているすべての連絡先のメールドメインのリストを、ISP でグループ化し直して表示できます。
 
-![](assets/nmx_report_sample.png)
+![ISP別にメールドメインがグループ化されたクライアントの送信元とメールドメインのレポート（AOL、無料、Gmail、Microsoft、Yahoo、その他）。](assets/nmx_report_sample.png)
 
 次のテンプレートを使用して構築されています。
 
-![](assets/nmx_enum_domain.png)
+![Domains列挙は、その値（AOL、無料、Gmail、Microsoft、Yahoo）およびドメインエイリアスを使用して、初期設定時に予約済みに設定されています。](assets/nmx_enum_domain.png)
 
 この列挙を使用してレポートを作成するには、**[!UICONTROL メールドメイン]**&#x200B;ディメンションを使用してキューブを作成します。 「**[!UICONTROL ビニングを有効にする]**」オプションを選択してから、「**[!UICONTROL 値を列挙に動的にリンク]**」を選択します。 次に、先ほど示した&#x200B;**ドメイン**&#x200B;列挙を選択します。 エイリアスが指定されていない値はすべて、**その他**&#x200B;というラベルでグループ化し直されます。
 
@@ -127,13 +127,13 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 関係するレポートを更新するには、列挙を変更するだけです。 例えば、**Adobe** という値を作成し、**adobe.com** というエイリアスを追加すると、列挙レベルの Adobe 値でレポートが自動的に更新されます。
 
-![](assets/nmx_add_alias.png)
+![ ドメイン列挙にneolane.com エイリアスを追加すると、レポートにNeolane行が追加されます。](assets/nmx_add_alias.png)
 
 **[!UICONTROL ドメイン]**&#x200B;列挙は、ドメインのリストを表示するビルトインレポートの生成に使用されています。 これらのレポートの内容を調整するには、このリストを編集します。
 
 ビニング用に確保される他の列挙を作成し、それらを他のキューブで使用できます。最初の列挙タブで指定された bin に、すべてのエイリアス値がグループ化し直されます。
 
-列挙について詳しくは、[このページ](../../v8/config/ui-settings.md)を参照してください。
+[Campaign インターフェイス設定](../../v8/config/ui-settings.md)の列挙について詳しく説明します。
 
 ## キューブの集計 {#calculate-and-use-aggregates}
 
@@ -143,7 +143,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 集計は各キューブの関連タブで定義されます。
 
-![](assets/cube-agregate.png)
+![追加ボタンを使用してキューブ集計を一覧表示する、エクスプローラーのキューブの「集計」タブ。](assets/cube-agregate.png)
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 1. ディメンションとレベルを選択します。 ディメンションおよびレベルごとに、この手順を繰り返します。
 1. 「**[!UICONTROL ワークフロー]**」タブをクリックして、集計ワークフローを作成します。
 
-   * **[!UICONTROL スケジューラー]**&#x200B;アクティビティでは、計算の更新の頻度を定義できます。 スケジューラーについて詳しくは、[この節](../../automation/workflow/scheduler.md)を参照してください。
+   * **[!UICONTROL スケジューラー]**&#x200B;アクティビティでは、計算の更新の頻度を定義できます。 スケジューラーについて詳しくは、[ スケジューラーアクティビティの設定](../../automation/workflow/scheduler.md#configuring-scheduler-activity)を参照してください。
    * **[!UICONTROL 集計の更新]**&#x200B;アクティビティでは、適用する更新モード（完全更新または部分的更新）を選択できます。
 
      デフォルトでは、各計算時に完全更新が実行されます。 部分的更新を有効にするには、該当するオプションを選択し、更新の条件を定義します。
@@ -171,15 +171,15 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 1. 測定のリストの上にある「**[!UICONTROL 追加]**」ボタンをクリックし、測定のタイプと計算する式を選択します。
 
-   ![](assets/cube-create-a-measure.png)
+   ![演算子リストを開いた状態で作成ダイアログを測定します。カウント、合計、最小、最大、平均など。](assets/cube-create-a-measure.png)
 
 1. 必要に応じて、および演算子によっては、演算に関係する式を選択します。
 
-   「**[!UICONTROL 詳細選択]**」ボタンをクリックすると、複雑な計算式を作成できます。 詳しくは、[この節](../../automation/workflow/query.md)を参照してください。
+   「**[!UICONTROL 詳細選択]**」ボタンをクリックすると、複雑な計算式を作成できます。 詳しくは、[ クエリ ](../../automation/workflow/query.md)を参照してください。
 
 1. 「**[!UICONTROL 測定データをフィルター]**」リンクをクリックすると、計算フィールドを制限し、データベース内の特定のデータにのみ適用できます。
 
-   ![](assets/cube-create-measure-2.png)
+   ![BasketMusic式で演算子リストが開いているメジャーのフィルター条件。](assets/cube-create-measure-2.png)
 
 1. 測定のラベルを入力し、説明を追加した後、「**[!UICONTROL 完了]**」をクリックして測定を作成します。
 
@@ -197,7 +197,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 行を前後に移動して、表示順序を変更します。 次の例では、フランス語のデータをリストの末尾に移動しています。つまり、最後の列に表示されるようになります。
 
-![](assets/cube-in-report-settings.png)
+![ フランス語測定を末尾にドラッグすると、レポートの最後に列が移動する測定ウィンドウを設定します。](assets/cube-in-report-settings.png)
 
 ### ディスプレイの設定 {#configuring-the-display}
 
@@ -207,17 +207,17 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
   測定のラベルを表示するかどうかを選択できるほか、ラベルのレイアウト（行または列）を設定できます。
 
-![](assets/cube-pivot-table-config-details.png)
+![方向リスト（行、列）、ラベル、整列、キャプションのオプションを含むピボットテーブル設定ダイアログ。](assets/cube-pivot-table-config-details.png)
 
 配色オプションでは、重要な値を強調表示して読みやすくすることができます。
 
-![](assets/cube-pivot-table-color.png)
+![色付けセクションを使用したピボットテーブルの設定：アクティベート、使用される測定、下限、上限およびカラースケール ](assets/cube-pivot-table-color.png)
 
 ### 表示する測定のタイプの変更 {#changing-the-type-of-measure-displayed}
 
 各測定内で、適用する単位とフォーマット設定を定義できます。
 
-![](assets/cube-pivot-table-config-units.png)
+![ メジャーのラベル、書式設定、小数点以下の桁数、単位および単位の配置を含むメジャーウィンドウを設定します。](assets/cube-pivot-table-config-units.png)
 
 ## レポートの共有 {#share-a-report}
 
@@ -225,7 +225,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 それには、「**[!UICONTROL レポートのプロパティを表示]**」アイコンをクリックし、「**[!UICONTROL レポートを共有]**」オプションを有効にします。
 
-![](assets/cube_share_option.png)
+「レポートを共有」オプションが「はい」に設定され、カテゴリと関連性のフィールドが追加された![ レポートのプロパティ ダイアログ。](assets/cube_share_option.png)
 
 レポートのカテゴリと関連度を指定します。<!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
@@ -239,13 +239,13 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 1. 「**[!UICONTROL フィルターを追加]**」アイコンをクリックします。
 
-   ![](assets/cube_add_filter.png)
+   ![会社ごとのクライアント ピボットテーブルの上にフィルターを追加アイコンが強調表示されたレポートツールバー。](assets/cube_add_filter.png)
 
 1. フィルターに関係するディメンションを選択します。
 
 1. フィルターのタイプと精度を選択します。
 
-   ![](assets/cube_ceate_filter.png)
+   ![年齢の範囲など、保持する値の範囲を選択するためのチェックボックス付きフィルターダイアログを追加します。](assets/cube_ceate_filter.png)
 
 1. 作成したフィルターは、レポートの上に表示されます。
 
@@ -253,7 +253,7 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
    フィルターを必要な数だけ組み合わせることができます。それらはすべて、このエリアに表示されます。
 
-   ![](assets/cube_multiple_filters.png)
+   ![市区町村、会社、年齢の3つのフィルターを組み合わせたレポートの上のフィルター領域。](assets/cube_multiple_filters.png)
 
 フィルターを変更（追加、削除、変更）するたびに、レポートを再計算する必要があります。
 
@@ -261,8 +261,8 @@ bin を自動的に生成することもできます。 それには、「**[!UI
 
 行、列またはセルを選択するには、それを左クリックします。 選択を解除するには、もう一度クリックします。
 
-![](assets/cube_create_filter_from_selection.png)
+![ ロンドン行が選択され、選択アイコンのフィルターが強調表示された状態でクライアントのレポートが表示されます。](assets/cube_create_filter_from_selection.png)
 
 フィルターが自動的に適用され、レポートの上のフィルターゾーンに追加されます。
 
-![](assets/cube_create_filter_display.png)
+![ レポートはロンドンでフィルタリングされ、レポートの上のフィルターエリアにCity = London フィルターが表示されます。](assets/cube_create_filter_display.png)

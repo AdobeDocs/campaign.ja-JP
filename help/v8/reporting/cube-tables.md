@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 82ae202007873dab2324bfa4b13a6014efd19887
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 93%
+source-wordcount: '1315'
+ht-degree: 70%
 ---
 # キューブを使用したデータの調査{#use-cubes-to-create-reports}
 
@@ -52,17 +52,17 @@ ht-degree: 93%
 
 1. 「**[!UICONTROL レポート]**」タブの「**[!UICONTROL 作成]**」ボタンをクリックし、作成したキューブを選択します。
 
-   ![](assets/new-report-based-on-cube.png)
+   ![新しいクライアントプロファイルキューブテンプレートと「作成」ボタンを選択して新しいレポートページを作成する](assets/new-report-based-on-cube.png)
 
 1. 「**[!UICONTROL 作成]**」ボタンをクリックして確定します。これにより、レポート設定および表示ページが開きます。
 
    デフォルトでは、使用可能な最初の 2 つのディメンションは行と列で提供されますが、値はテーブルには表示されません。 テーブルを生成するには、メインアイコンをクリックします。
 
-   ![](assets/cube-report-config.png)
+   ![年齢と作成日の軸とピボットテーブルを表示するアイコンを含む新しい顧客プロファイルレポート ](assets/cube-report-config.png)
 
 1. ディメンションの軸を切り替えたり、軸を削除したり、新しいメジャーを追加したりできます。これを行うには、適切なアイコンを使用してください。
 
-   ![](assets/cube-switch-axis.png)
+   ![新規顧客プロファイルレポートで、作成日ディメンションが左軸から年齢の横の上軸にドラッグされました](assets/cube-switch-axis.png)
 
    次に、これらの操作について詳しく説明します。
 
@@ -72,15 +72,15 @@ ht-degree: 93%
 
 各軸の「**[!UICONTROL 追加]**」ボタンを使用すると、ディメンションを追加できます。
 
-![](assets/cube-switch.png)
+![ ディメンションを追加するための新規クライアントプロファイルレポートの行軸にボタンを追加](assets/cube-switch.png)
 
 1. テーブルの行と列に表示するディメンションを選択します。 それには、使用可能なディメンションをドラッグ＆ドロップします。
 1. テーブルに追加するディメンションをリストから選択します。
-   ![](assets/cube-select-dimension.png)
+   ![市区町村、国、最終購入日、購入金額を一覧表示する列ダイアログにディメンションを追加](assets/cube-select-dimension.png)
 
 1. 次に、このディメンションのパラメーターを選択します。
 
-   ![](assets/cube-dimension-param.png)
+   ![市区町村のDimension設定：ラベル、読み込み中に展開、データの並べ替え、表示される行数](assets/cube-dimension-param.png)
 
    これらのパラメーターは、選択したディメンションのデータタイプによって異なります。
 
@@ -88,7 +88,7 @@ ht-degree: 93%
 
    その場合、次のオプションを使用できます。
 
-   ![](assets/cube-config.png)
+   ![ レベル、年、月ごとの日付ディメンション設定（形式：長いディメンションまたは短いディメンションを含む） ](assets/cube-config.png)
 
    次のいずれかが可能です。
 
@@ -102,7 +102,7 @@ ht-degree: 93%
 
    テーブルの上の黄色いバナーは、変更がおこなわれたことを示しています。「**[!UICONTROL 保存]**」ボタンをクリックして、変更内容を保存します。
 
-   ![](assets/cube-in-report.png)
+   ![市区町村が折れ線の軸に追加され、黄色のバナーでレポートの変更を保存するよう求められます](assets/cube-in-report.png)
 
 ### 手順 3 - 表示する測定値を設定 {#step-3---configure-the-measures-to-display}
 
@@ -112,25 +112,25 @@ ht-degree: 93%
 
 1. 「**[!UICONTROL 測定]**」ボタンをクリックします。
 
-   ![](assets/cube-measure-button.png)
+   ラベル、書式設定、単位オプションを使用して測定を設定ダイアログを開く![測定ボタン ](assets/cube-measure-button.png)
 
 1. 「**[!UICONTROL 測定を使用]**」ボタンで、既存の測定のいずれかを選択します。
 
-   ![](assets/cube-add-measure.png)
+   ![ フランス語、ドイツ語、男性および女性を一覧表示するピボットテーブルダイアログに既存のメジャーを追加](assets/cube-add-measure.png)
 
    表示する情報と書式設定オプションを選択します。 オプションのリストは、測定のタイプによって異なります。
 
-   ![](assets/cube-measure-options.png)
+   ![書式オプションの数値と割合を使用した測定ダイアログの設定と動的な測定ボタンの編集](assets/cube-measure-options.png)
 
    測定の全般的な設定は、ヘッダーの「**[!UICONTROL ピボットテーブルの設定を編集]**」アイコンによっても使用できます。
 
-   ![](assets/cube-pivot-table-config.png)
+   ![ レポートツールバーのピボットテーブル設定アイコンを編集](assets/cube-pivot-table-config.png)
 
    次に、測定のラベルを表示するかどうかを選択できます。 [詳細情報](customize-cubes.md#configuring-the-display)。
 
 1. 既存の測定に基づいて新しい測定を作成できます。 それには、「**[!UICONTROL 測定を作成]**」をクリックし、測定を設定します。
 
-   ![](assets/cube-create-new-measure.png)
+   ![測定タイプ、演算子および2つの測定を組み合わせた動的な測定ダイアログの作成](assets/cube-create-new-measure.png)
 
    使用可能な測定のタイプは次のとおりです。
 
@@ -144,7 +144,7 @@ ht-degree: 93%
 
    作成したら、測定がレポートに追加されます。
 
-   ![](assets/cube-display-new-measure.png)
+   ![新しいドイツ語と英語の指標を表示するピボットテーブル（男性と女性の横）、企業別](assets/cube-display-new-measure.png)
 
    測定を作成したら、それを編集し、設定を変更できます。 それには、「**[!UICONTROL 測定]**」ボタンをクリックした後、編集する測定のタブを参照します。
 
@@ -158,31 +158,31 @@ ht-degree: 93%
 
 1. 収集する母集団が格納されているセルをクリックして選択してから、「**[!UICONTROL 買い物かごに追加]**」アイコンをクリックします。
 
-   ![](assets/cube-add-to-cart.png)
+   ![選択したセルを含むCLIENTS ピボットテーブルのツールバーにあるカートに追加アイコン ](assets/cube-add-to-cart.png)
 
    さまざまなプロファイルを収集するために、必要に応じて何度でもこれを行います。
 
 1. エクスポートを実行する前に、「**[!UICONTROL 買い物かごを表示]**」ボタンをクリックして、買い物かごの内容を確認します。
 
-   ![](assets/cube-show-cart.png)
+   ![ カートの詳細ダイアログを開くカート ボタンをカート項目とエクスポート ボタンを表示](assets/cube-show-cart.png)
 
 1. 「**[!UICONTROL エクスポート]**」ボタンを使用すると、買い物かご内の項目をリストにグループ化できます。
 
    リストの名前を入力し、実行するエクスポートのタイプを選択します。
 
-   ![](assets/cube-export-report.png)
+   ![新しいリスト、ラベル、フォルダー、書き出しタイプ、開始ボタンに書き出すカート 1/2 ダイアログを書き出す](assets/cube-export-report.png)
 
    「**[!UICONTROL 開始]**」をクリックして、エクスポートを実行します。
 
 1. エクスポートが完了したら、実行を確認するメッセージおよび処理されたレコードの数が表示されます。
 
-   ![](assets/cube-export-confirm.png)
+   ![ カート 2/2のエクスポート ダイアログで、エクスポートがレコード数で完了し、ボタンを閉じることを確認](assets/cube-export-confirm.png)
 
    買い物かごの内容は、保存することも空にすることもできます。
 
    新しいリストは、「**[!UICONTROL プロファイルとターゲット]**」タブから使用できます。
 
-   ![](assets/cube-list-available.png)
+   ![新しいゴールド受信者リストを表示するプロファイルとターゲットの下のリスト ページ ](assets/cube-list-available.png)
 
 ## レポートにピボットテーブルを挿入する {#insert-a-pivot-table-into-a-report}
 
@@ -190,10 +190,10 @@ ht-degree: 93%
 
 1. 1 ページだけのレポートを新しく作成し、そこにピボットテーブルを挿入します。
 
-   ![](assets/cube-insert-in-report.png)
+   ![ ページアクティビティとツールバーメニューのピボットテーブルオプションを含むレポートエディター](assets/cube-insert-in-report.png)
 
 1. ページの「**[!UICONTROL データ]**」タブでキューブを選択して、そこに格納されているディメンションを処理し、計算された測定を表示します。
 
-   ![](assets/cube-selected-in-report.png)
+   ![ キューブフィールドで新しいクライアントプロファイルキューブが選択されたピボットテーブルの「データ」タブ ](assets/cube-selected-in-report.png)
 
    これで、表示するレポートを作成できます。 詳しくは、[手順 2 - 行と列の選択](#step-2---select-lines-and-columns)を参照してください。

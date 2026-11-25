@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 93%
+source-wordcount: '1215'
+ht-degree: 88%
 ---
 # 配信レポート {#delivery-reports}
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 1. レポートにアクセスする配信の名前をクリックします。
 1. 「**[!UICONTROL 概要]**」タブを選択し、「**[!UICONTROL レポート]**」リンクをクリックして配信に関連するレポートにアクセスします。
 
-   ![](assets/detailed-report-2.png)
+   ![配信の概要タブにレポート リンクが強調表示され、使用可能な配信レポートが一覧表示されます。](assets/detailed-report-2.png)
 
    デフォルトでは、次のレポートが使用可能です。
 
@@ -64,7 +64,7 @@ ht-degree: 93%
 >
 >メッセージの開封数に基づいて計算される値は、テキスト形式のメールに関する誤差があるので、常に推定値です。 「**[!UICONTROL 到達済み母集団のユニーク開封数／到達済み母集団の開封数の合計]**」の指標は、この誤差を考慮したものになっています。 [詳細情報](metrics-calculation.md#tracking-opens-)。
 
-![](assets/tracking-report-synthesis.png)
+![配信統計から生成されたクリックストリームまで、4つの番号付きセクションを含むトラッキング指標レポート。](assets/tracking-report-synthesis.png)
 
 **[!UICONTROL 1. 配信統計]**
 
@@ -101,7 +101,7 @@ ht-degree: 93%
 >
 >このレポートに表示されるドメイン名は、キューブレベルで使用される定義済みリストで定義されます。 デフォルトのドメインの変更、追加、削除をおこなうには、「**[!UICONTROL ドメイン]**」定義済みリストを編集し、値とエイリアスを修正します。 「**[!UICONTROL その他]**」のカテゴリには、定義済みリストのどの値にも属さないドメイン名が含まれます。
 >
->列挙にアクセスして設定する方法については、[このページ](../config/enumerations.md)を参照してください。
+>[列挙の管理](../config/enumerations.md)で、列挙にアクセスして設定する方法について説明します。
 
 
 **[!UICONTROL 4. クリックストリーム]**
@@ -168,7 +168,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 このレポートは、配信に関するすべての主要な情報を表示します。
 
-![](assets/user-report-summary.png)
+![最初のターゲット母集団、除外の原因および配信統計のセクションを含む配信レポートの概要。](assets/user-report-summary.png)
 
 **[!UICONTROL ターゲット母集団]**
 
