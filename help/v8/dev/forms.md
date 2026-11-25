@@ -51,15 +51,15 @@ ht-degree: 85%
 
 クライアントコンソールの&#x200B;**[!UICONTROL 管理]／[!UICONTROL 設定]／[!UICONTROL 入力フォーム]**&#x200B;フォルダーから入力フォームを作成して設定します。
 
-入力フォームフォルダーが選択された設定の下の![ エクスプローラーツリー](assets/form_arbo.png)
+入力フォームフォルダーが選択された設定の下の![&#x200B; エクスプローラーツリー](assets/form_arbo.png)
 
 編集領域を使用して、入力フォームの XML コンテンツを入力できます。
 
-![入力フォームエディターbirthDate、性別、メール入力を含む受信者（cus）フォームのXMLを表示するタブ ](assets/form_edit.png)
+![入力フォームエディターbirthDate、性別、メール入力を含む受信者（cus）フォームのXMLを表示するタブ &#x200B;](assets/form_edit.png)
 
 プレビューで入力フォームを表示できます。
 
-![生年月日、性別、電子メールのフィールドを表示する受信者（cus）フォームの「プレビュー」タブ ](assets/form_preview.png)
+![生年月日、性別、電子メールのフィールドを表示する受信者（cus）フォームの「プレビュー」タブ &#x200B;](assets/form_preview.png)
 
 ## フォームの構造
 
@@ -138,7 +138,7 @@ ht-degree: 85%
 
 コントロールの **colspan** 属性は、値に入力された列数だけコントロールを拡張します。
 
-![電子メールフィールドが両方の列に拡張された2列の入力フォーム ](assets/do-not-localize/form_exemple3.png)
+![電子メールフィールドが両方の列に拡張された2列の入力フォーム &#x200B;](assets/do-not-localize/form_exemple3.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -239,7 +239,7 @@ ht-degree: 85%
 
 このコンテナを使用すると、表示するページを選択できる垂直アイコンバーを表示できます。
 
-![性別、日付、電子メールのフィールドの横に「一般」ページと「場所」ページが表示されている縦のアイコンバー付きの入力フォーム ](assets/do-not-localize/form_exemple8.png)
+![性別、日付、電子メールのフィールドの横に「一般」ページと「場所」ページが表示されている縦のアイコンバー付きの入力フォーム &#x200B;](assets/do-not-localize/form_exemple8.png)
 
 ```xml
 <container type="iconbox">
@@ -308,7 +308,7 @@ ht-degree: 85%
 
 入力フォーム内のリンクの編集コントロールは次のとおりです。
 
-Adobeを選択したリンクのドロップダウン編集コントロールを表示する![会社フィールド ](assets/do-not-localize/form_exemple9.png)
+Adobeを選択したリンクのドロップダウン編集コントロールを表示する![会社フィールド &#x200B;](assets/do-not-localize/form_exemple9.png)
 
 ```xml
 <input xpath="company"/>
@@ -421,7 +421,7 @@ Adobeを選択したリンクのドロップダウン編集コントロールを
 
 この例では、「cus:recipient」スキーマの入力フォームから始めます。 リストは、サービスに対する購読との関連付けを表示し、既存のサービスを選択して購読を追加できるようにする必要があります。
 
-![ サブスクリプションを追加するには、サービス ダイアログ リストのブラック リスト、MobApp、ニュースレター、その他のサービスを選択してください](assets/do-not-localize/form_exemple12.png)
+![&#x200B; サブスクリプションを追加するには、サービス ダイアログ リストのブラック リスト、MobApp、ニュースレター、その他のサービスを選択してください](assets/do-not-localize/form_exemple12.png)
 
 ```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
@@ -522,7 +522,7 @@ Adobeを選択したリンクのドロップダウン編集コントロールを
 
 「性別」フィールドの例：
 
-値がMale](assets/do-not-localize/form_exemple16.png)のドロップダウンとして表示される![Gender フィールド
+値がMale![&#128279;](assets/do-not-localize/form_exemple16.png)のドロップダウンとして表示されるGender フィールド
 
 ```xml
 <value value="@gender"/>
@@ -573,7 +573,7 @@ Adobeを選択したリンクのドロップダウン編集コントロールを
 </input>
 ```
 
-![ テキストフィールドとブール値フィールドグループを使用したツリー編集コントロール。リストにはtext1からtext3とBoolean1からBoolean3](assets/do-not-localize/form_exemple18.png)があります
+![&#x200B; テキストフィールドとブール値フィールドグループを使用したツリー編集コントロール。リストにはtext1からtext3とBoolean1からBoolean3](assets/do-not-localize/form_exemple18.png)があります
 
 ## 式フィールドの追加 {#expression-field}
 

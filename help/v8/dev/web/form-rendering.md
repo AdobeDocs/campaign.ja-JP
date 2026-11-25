@@ -39,17 +39,17 @@ ht-degree: 77%
 
 フォーム設定により、ページ生成に使用するテンプレートを選択できます。 これらにアクセスするには、フォームの詳細ツールバーの「**[!UICONTROL プロパティ]**」ボタンをクリックして、「**[!UICONTROL レンダリング]**」タブを選択します。 デフォルトで、多数のテンプレート（スタイルシート）を使用できます。
 
-![ テンプレートリストを開いた状態でフォームプロパティのレンダリングタブ。標準フォームとテーマ 1からテーマ 7までを表示します。](assets/s_ncs_admin_survey_rendering_select.png)
+![&#x200B; テンプレートリストを開いた状態でフォームプロパティのレンダリングタブ。標準フォームとテーマ 1からテーマ 7までを表示します。](assets/s_ncs_admin_survey_rendering_select.png)
 
 エディターの下部のセクションで、選択したテンプレートのレンダリングを表示できます。
 
 ズーム機能を使用すると、選択したテンプレートを編集できます。
 
-![ ページレイアウトリンクとCSS設定を含むフォーム生成テンプレートテーマ 5 ダイアログ。](assets/s_ncs_admin_survey_render_edit.png)
+![&#x200B; ページレイアウトリンクとCSS設定を含むフォーム生成テンプレートテーマ 5 ダイアログ。](assets/s_ncs_admin_survey_render_edit.png)
 
 これらのテンプレートを修正または上書きできます。 これをおこなうには、「**[!UICONTROL ページレイアウト]**」リンクをクリックして、情報をパーソナライズします。
 
-![ ページレイアウトダイアログ、「プロパティ」タブ、ロゴ画像、幅と高さ、プレビュー画像のパス ](assets/s_ncs_admin_survey_render_edit_param.png)
+![&#x200B; ページレイアウトダイアログ、「プロパティ」タブ、ロゴ画像、幅と高さ、プレビュー画像のパス &#x200B;](assets/s_ncs_admin_survey_render_edit_param.png)
 
 次の操作をおこなうことができます。
 
@@ -58,19 +58,19 @@ ht-degree: 77%
 
 「**[!UICONTROL ヘッダー／フッター]**」タブを使用すると、このテンプレートを使用する各フォームページのヘッダーおよびフッターに表示される情報を変更できます。
 
-![ ページレイアウトダイアログ、「ヘッダー/フッター」タブ、ページヘッダーおよびページフッター行と位置フィールド。](assets/s_ncs_admin_survey_render_edit_header.png)
+![&#x200B; ページレイアウトダイアログ、「ヘッダー/フッター」タブ、ページヘッダーおよびページフッター行と位置フィールド。](assets/s_ncs_admin_survey_render_edit_header.png)
 
 「**[!UICONTROL ページヘッダー]**」および「**[!UICONTROL ページフッター]**」セクションの各行は、HTML ページの各行に対応します。 新しい行を作成するには、「**[!UICONTROL 追加]**」をクリックします。
 
 既存の行を選択して、「**[!UICONTROL 詳細]**」ボタンをクリックしてパーソナライズします。
 
-![ ページレイアウト、境界線およびフォント タブ、左右のゾーン コンテンツを含むページ ヘッダーの詳細ダイアログ。](assets/s_ncs_admin_survey_render_edit_header_detail.png)
+![&#x200B; ページレイアウト、境界線およびフォント タブ、左右のゾーン コンテンツを含むページ ヘッダーの詳細ダイアログ。](assets/s_ncs_admin_survey_render_edit_header_detail.png)
 
 各タブで、行のコンテンツを変更したり、境界線を追加したり、フォント属性を変更したりできます。 「**[!UICONTROL OK]**」をクリックして、これらの変更を確定します。
 
 「**[!UICONTROL 位置]**」フィールドを使用すると、ページヘッダーおよびフッターの要素の位置を定義できます
 
-![ ヘッダー/ フッターのタブ。ヘッダーとフッターの位置リストが表示され、非表示、ページ外、ページ内が表示されます。](assets/s_ncs_admin_survey_render_edit_header_position.png)
+![&#x200B; ヘッダー/ フッターのタブ。ヘッダーとフッターの位置リストが表示され、非表示、ページ外、ページ内が表示されます。](assets/s_ncs_admin_survey_render_edit_header_position.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 77%
 
 これをおこなうには、「**[!UICONTROL 詳細設定]**」タブを使用します。
 
-![ セル数や垂直方向の整列などの表示設定を含むフォーム要素の「詳細」タブ。](assets/s_ncs_admin_survey_advanced_tab.png)
+![&#x200B; セル数や垂直方向の整列などの表示設定を含むフォーム要素の「詳細」タブ。](assets/s_ncs_admin_survey_advanced_tab.png)
 
 次のプロパティを定義できます。
 
@@ -98,7 +98,7 @@ ht-degree: 77%
 * **[!UICONTROL ライン]**：**[!UICONTROL 複数ラインテキスト]**&#x200B;タイプのゾーンのライン数。
 * **[!UICONTROL スタイルインライン]**：CSS スタイルシートを追加の設定でオーバーロードできます。 これらは、次の例のように、**;** 文字を使用して区切られます。
 
-  ![ スタイルのインライン値がfont-size:16ptに設定された詳細タブ。背景：青。](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![&#x200B; スタイルのインライン値がfont-size:16ptに設定された詳細タブ。背景：青。](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### ヘッダーとフッターの定義 {#defining-headers-and-footers}
 
@@ -106,7 +106,7 @@ ht-degree: 77%
 
 ウィンドウのタイトルは、フォームプロパティウィンドウの「**[!UICONTROL ページ]**」タブに入力されている必要があります。 また、ページヘッダーとフッターにセットコンテンツを追加できます（この情報は、すべてのページに表示されます）。 このコンテンツは、次に示すように、「**[!UICONTROL テキスト]**」タブの一致するセクションに入力されます。
 
-![ ウィンドウのタイトル、ページヘッダー、ページフッターの内容を含むフォームプロパティページのタブ。](assets/s_ncs_admin_survey_titles_config.png)
+![&#x200B; ウィンドウのタイトル、ページヘッダー、ページフッターの内容を含むフォームプロパティページのタブ。](assets/s_ncs_admin_survey_titles_config.png)
 
 ### HTML ヘッダーへの要素の追加 {#adding-elements-to-html-header}
 
@@ -128,11 +128,11 @@ ht-degree: 77%
 
 フィールドに入力することなく、ユーザーがこのページを承認すると、次のメッセージが表示されます。
 
-![ デフォルトのエラーメッセージ「姓」を表示するフォームページは必須で、空のフィールドが強調表示されています。](assets/s_ncs_admin_survey_required_default_msg.png)
+![&#x200B; デフォルトのエラーメッセージ「姓」を表示するフォームページは必須で、空のフィールドが強調表示されています。](assets/s_ncs_admin_survey_required_default_msg.png)
 
 「**[!UICONTROL メッセージをパーソナライズ]**」リンクをクリックすることで、このメッセージをパーソナライズできます。
 
-![ メッセージのパーソナライゼーションダイアログが、空の必須フィールドに対するカスタムテキストを含むメッセージのパーソナライズから開きました。](assets/s_ncs_admin_survey_required_custom_msg.png)
+![&#x200B; メッセージのパーソナライゼーションダイアログが、空の必須フィールドに対するカスタムテキストを含むメッセージのパーソナライズから開きました。](assets/s_ncs_admin_survey_required_custom_msg.png)
 
 フィールドに入力することなく、ユーザーがこのページを承認すると、次のメッセージが表示されます。
 
@@ -146,7 +146,7 @@ ht-degree: 77%
 
 例えば、**[!UICONTROL 数値]**&#x200B;チェックを作成してクライアント番号をチェックする場合、次のようになります。
 
-![ クライアント変数に値を格納する数値タイプフィールドで、分岐のストレージと編集ダイアログに整数タイプが表示されている](assets/s_ncs_admin_survey_choose_format.png)。
+![&#x200B; クライアント変数に値を格納する数値タイプフィールドで、分岐のストレージと編集ダイアログに整数タイプが表示されている](assets/s_ncs_admin_survey_choose_format.png)。
 
 ユーザーは、フォームフィールドに整数を入力する必要があります。
 
@@ -190,7 +190,7 @@ ht-degree: 77%
 
 1. インポートするフィールドを含む Web フォームを選択し、インポートするコンテナおよびフィールドを選択します。
 
-   ![ ソース Web アプリケーションと読み込むブロックがオンになっている既存のブロック ダイアログを読み込みます。](assets/s_ncs_admin_survey_import_block_selection.png)
+   ![&#x200B; ソース Web アプリケーションと読み込むブロックがオンになっている既存のブロック ダイアログを読み込みます。](assets/s_ncs_admin_survey_import_block_selection.png)
 
    >[!NOTE]
    >
@@ -198,4 +198,4 @@ ht-degree: 77%
 
 1. 「**[!UICONTROL OK]**」をクリックして、挿入を確定します。
 
-   読み込み後の![ ページツリー。現在、姓、国、アカウント#および電子メールフィールドが含まれています。](assets/s_ncs_admin_survey_import_block_rendering.png)
+   読み込み後の![&#x200B; ページツリー。現在、姓、国、アカウント#および電子メールフィールドが含まれています。](assets/s_ncs_admin_survey_import_block_rendering.png)

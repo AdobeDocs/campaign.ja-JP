@@ -24,7 +24,7 @@ ht-degree: 77%
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -48,7 +48,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 フォームのフィールドは、ユーザーによる情報の入力とオプションの選択を可能にします。 フォームの各ページでは、ツールバーの最初のボタンから&#x200B;**[!UICONTROL アシスタントを使用して追加]**&#x200B;メニューを使用して作成されます。
 
-![ フィールド作成ウィザードが追加から開き、「質問に回答して読み込む」から4つのフィールドオプションが表示されます。](assets/s_ncs_admin_survey_add_field_menu.png)
+![&#x200B; フィールド作成ウィザードが追加から開き、「質問に回答して読み込む」から4つのフィールドオプションが表示されます。](assets/s_ncs_admin_survey_add_field_menu.png)
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 追加するフィールドの特性（ドロップダウンリスト、テキストフィールド、チェックボックスなど）は、選択したストレージモードに適応されます 。 「**[!UICONTROL 一般]**」タブの「**[!UICONTROL タイプ]**」フィールドを使用してフィールドの特性を変更できますが、データタイプの整合性を維持するようにしてください。
 
-![ タイプ リストが開いているページ エディターの「一般」タブ。複数選択、コンボボックス、その他のフィールドタイプが表示されます。](assets/s_ncs_admin_survey_change_type.png)
+![&#x200B; タイプ リストが開いているページ エディターの「一般」タブ。複数選択、コンボボックス、その他のフィールドタイプが表示されます。](assets/s_ncs_admin_survey_change_type.png)
 
 使用可能なフィールドの様々なタイプについて詳しくは、[Web フォームの概要](../web/about-web-forms.md)を参照してください。
 
@@ -128,7 +128,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 上記の例では、レンダリングは次のようになります。
 
-![ フィールド、メール形式ドロップダウン、契約書チェックボックスの質問を含むアンケートページをレンダリングしました。](assets/s_ncs_admin_survey_containers_qu_ex.png)
+![&#x200B; フィールド、メール形式ドロップダウン、契約書チェックボックスの質問を含むアンケートページをレンダリングしました。](assets/s_ncs_admin_survey_containers_qu_ex.png)
 
 >[!NOTE]
 >
@@ -136,11 +136,11 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 Adobe Campaign による質問のランダムな抽選を有効にできます。 次に、設定ウィンドウの下部にあるフィールドに、ページに表示される質問の数を指定します。
 
-![ ランダムに表示をオンにし、表示する質問の数を1.](assets/s_ncs_admin_survey_containers_qu_display.png)に設定したページ一般タブ
+![&#x200B; ランダムに表示をオンにし、表示する質問の数を1.](assets/s_ncs_admin_survey_containers_qu_display.png)に設定したページ一般タブ
 
 レンダリングは、次のようになります。
 
-![ ランダムに選択された2つの質問（質問2と質問3と次のボタン）のみを表示するページをレンダリングしました。](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
+![&#x200B; ランダムに選択された2つの質問（質問2と質問3と次のボタン）のみを表示するページをレンダリングしました。](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
 
 ページが更新されると、表示される質問は異なります。
 

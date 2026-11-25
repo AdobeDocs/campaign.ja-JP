@@ -38,7 +38,7 @@ ht-degree: 68%
 
 ランディングページタイプの Web アプリケーションを作成する場合、ユーザーはこれらのテンプレートのいずれかを選択できます。 また、Adobe Campaign 以外で作成した HTML テンプレートをインポートすることもできます。
 
-![ ファイルから、連絡先、クリックスルー](assets/dce_popup_templatechoice.png)など、利用可能なコンテンツテンプレートを一覧表示するコンテンツダイアログを選択します
+![&#x200B; ファイルから、連絡先、クリックスルー](assets/dce_popup_templatechoice.png)など、利用可能なコンテンツテンプレートを一覧表示するコンテンツダイアログを選択します
 
 テンプレートを追加するには、[グローバルオプション](content-editor-interface.md#global-options)を参照してください。
 

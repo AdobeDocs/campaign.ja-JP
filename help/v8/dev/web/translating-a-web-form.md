@@ -37,7 +37,7 @@ ht-degree: 85%
 
 1 つの Web アプリケーションを多言語にローカライズすることができます。
 
-Adobe Campaign コンソールで直接翻訳を実行したり（[エディターでの翻訳の管理 ](#managing-translations-in-the-editor)を参照）、文字列をエクスポートおよびインポートして外部で翻訳したり（[外部での翻訳](#externalizing-translation)を参照）できます。
+Adobe Campaign コンソールで直接翻訳を実行したり（[エディターでの翻訳の管理 &#x200B;](#managing-translations-in-the-editor)を参照）、文字列をエクスポートおよびインポートして外部で翻訳したり（[外部での翻訳](#externalizing-translation)を参照）できます。
 
 デフォルトで使用可能な翻訳言語のリストは、[フォームの表示言語の変更](#changing-forms-display-language)を参照してください。
 
@@ -57,7 +57,7 @@ Web アプリケーションは、編集言語で設計されます。これは�
 >
 >また、このウィンドウでは、デフォルト言語および編集言語を変更できます。
 
-![ デザインとデフォルト言語および他の言語を含むWeb アプリケーションのプロパティの「ローカライゼーション」タブ。フランス語とスペイン語](assets/s_ncs_admin_survey_add_lang.png)
+![&#x200B; デザインとデフォルト言語および他の言語を含むWeb アプリケーションのプロパティの「ローカライゼーション」タブ。フランス語とスペイン語](assets/s_ncs_admin_survey_add_lang.png)
 
 Web アプリケーションの翻訳言語を追加する場合（またはデフォルト言語と編集言語が異なる場合）、翻訳を管理するための「**[!UICONTROL 翻訳]**」サブタブが「**[!UICONTROL 編集]**」タブに追加されます。
 
@@ -73,7 +73,7 @@ Adobe Campaign には、複数言語の翻訳を実行および管理するた�
 
 Adobe Campaign はフィールドのラベルとすべての静的要素（HTML ブロック、Javascript など）の「**[!UICONTROL テキスト]**」タブで定義された文字列を収集します。静的要素について詳しくは、[web フォームの静的要素](static-elements-in-a-web-form.md)で説明しています。
 
-リンクを翻訳する文字列を収集および翻訳する文字列](assets/s_ncs_admin_survey_trad_tab.png)を含むweb アプリケーションの![翻訳タブ
+リンクを翻訳する文字列を収集および翻訳する文字列![&#128279;](assets/s_ncs_admin_survey_trad_tab.png)を含むweb アプリケーションの翻訳タブ
 
 >[!CAUTION]
 >
@@ -91,7 +91,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。 デフォルトでは、フィルターには、言語とステータスの 2 つがあります。 「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。 また、詳細フィルターを作成することもできます。 フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
 
-![翻訳タブ言語またはステータス別のフィルターメニュー、ステータスが「翻訳先」のフランス語の文字列のフィルタリング ](assets/s_ncs_admin_survey_trad_tab_en.png)
+![翻訳タブ言語またはステータス別のフィルターメニュー、ステータスが「翻訳先」のフランス語の文字列のフィルタリング &#x200B;](assets/s_ncs_admin_survey_trad_tab_en.png)
 
 **[!UICONTROL 言語]**&#x200B;ドロップダウンボックスに移動して、翻訳言語を選択します。
 
@@ -101,7 +101,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 1. 単語を翻訳するには、文字列のリストでその行をダブルクリックします。
 
-   ![ ソース文字列、フランス語翻訳、翻訳承認済みオプションおよび保存を含む翻訳ダイアログ ](assets/s_ncs_admin_survey_trad_tab_add_term.png)
+   ![&#x200B; ソース文字列、フランス語翻訳、翻訳承認済みオプションおよび保存を含む翻訳ダイアログ &#x200B;](assets/s_ncs_admin_survey_trad_tab_add_term.png)
 
    ソース文字列が、ウィンドウの上のセクションに表示されます。
 
@@ -168,7 +168,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 1. インポートするファイルを選択し、「**[!UICONTROL アップロード]**」をクリックします。
 
-   ![読み込み用に選択されたローカルのCSV ファイルとアップロードボタンを使用した翻訳済み文字列の読み込みウィザード ](assets/s_ncs_admin_survey_trad_import_start.png)
+   ![読み込み用に選択されたローカルのCSV ファイルとアップロードボタンを使用した翻訳済み文字列の読み込みウィザード &#x200B;](assets/s_ncs_admin_survey_trad_import_start.png)
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ Web フォームは、Web アプリケーションプロパティの「**[!UICON
 &lang=xx
 ```
 
-URL の言語の前に他のパラメーターがある場合。 例：**https://myserver/webApp/APP34?status=1&amp;lang=en**
+URL の言語の前に他のパラメーターがある場合。 例：**https://myserver/webApp/APP34?status=1&lang=en**
 
 デフォルトで使用できる翻訳言語と辞書を次に示します。
 
@@ -449,7 +449,7 @@ URL の言語の前に他のパラメーターがある場合。 例：**https:/
 >[!NOTE]
 >
 >この Web アプリケーションで他のパラメーターが既に使用されている場合は、**&amp;lang=** を追加します。\
->例：**https://myserver/webApp/APP34?status=1&amp;lang=en**
+>例：**https://myserver/webApp/APP34?status=1&lang=en**
 
 ## 詳細な翻訳設定 {#advanced-translation-configuration}
 
@@ -470,11 +470,11 @@ URL の言語の前に他のパラメーターがある場合。 例：**https:/
 1. Adobe Campaign ツリーに移動して、**[!UICONTROL 管理／設定／グローバル辞書／システム辞書]**&#x200B;をクリックします。
 1. ウィンドウの上部のセクションで、翻訳するシステム文字列を選択して、下部のセクションの「**[!UICONTROL 追加]**」をクリックします。
 
-   buttonPreviousなどの文字列が選択され、追加ボタンが強調表示されたグローバル ディクショナリの下の![ システム ディクショナリ ](assets/s_ncs_admin_survey_trad_system_translation.png)
+   buttonPreviousなどの文字列が選択され、追加ボタンが強調表示されたグローバル ディクショナリの下の![&#x200B; システム ディクショナリ &#x200B;](assets/s_ncs_admin_survey_trad_system_translation.png)
 
 1. 翻訳言語を選択して、その文字列の翻訳を入力します。 翻訳を承認するには、「**[!UICONTROL 翻訳承認済み]**」オプションをオンにします。
 
-   ![ フランス語を選択したbuttonPreviousの翻訳ダイアログ、翻訳されたテキストと翻訳承認済みオプション ](assets/s_ncs_admin_survey_trad_system_translation2.png)
+   ![&#x200B; フランス語を選択したbuttonPreviousの翻訳ダイアログ、翻訳されたテキストと翻訳承認済みオプション &#x200B;](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
    >[!NOTE]
    >
@@ -490,8 +490,8 @@ Web アプリケーションをデフォルト以外の言語に翻訳するに�
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードをクリックし、リストから&#x200B;**[!UICONTROL 翻訳に使用できる言語]**&#x200B;を選択します。 使用できる翻訳のリストが、ウィンドウの下部のセクションに表示されます。
 
-   翻訳に使用できる言語（dictionaryLocale）が選択され、「追加」ボタンがハイライト表示された![列挙リスト ](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
+   翻訳に使用できる言語（dictionaryLocale）が選択され、「追加」ボタンがハイライト表示された![列挙リスト &#x200B;](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
 1. 「**[!UICONTROL 追加]**」ボタンをクリックして、「**[!UICONTROL 内部名]**」、「**[!UICONTROL ラベル]**」および画像の識別子（フラグ）を入力します。 新しい画像を追加するには、管理者にお問い合わせください。
 
-   ![内部名、ラベル ウェールズおよび画像フィールドを持つ新しい言語の列挙値ダイアログ ](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
+   ![内部名、ラベル ウェールズおよび画像フィールドを持つ新しい言語の列挙値ダイアログ &#x200B;](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)

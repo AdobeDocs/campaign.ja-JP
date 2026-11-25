@@ -39,13 +39,13 @@ ht-degree: 74%
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
 この例では、データベースの受信者に競合他社を紹介します。 Web フォームには、回答を入力するセクションを用意し、別のセクションで、メールアドレスを入力することで友達を紹介します。
 
-![識別エリア、ランダムな質問を含むクイズエリア、友人を紹介する招待エリアを含むコンペティションフォーム ](assets/s_ncs_admin_survey_viral_sample_0.png)
+![識別エリア、ランダムな質問を含むクイズエリア、友人を紹介する招待エリアを含むコンペティションフォーム &#x200B;](assets/s_ncs_admin_survey_viral_sample_0.png)
 
 識別ブロックおよび競合他社ブロックは、前に説明した手順で作成されます。
 
@@ -89,13 +89,13 @@ ht-degree: 74%
 
 1. ストレージボックスを使用すると、情報を収集してデータベースに保存できます。
 
-   ![審判を保存する調整オプションで訪問者要素が選択されたストレージ ボックス ダイアログ ](assets/s_ncs_admin_survey_viral_sample_4b.png)
+   ![審判を保存する調整オプションで訪問者要素が選択されたストレージ ボックス ダイアログ &#x200B;](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
 1. 次に、手順 1 で作成した情報サービスにリンクされた配信テンプレートを作成します。 情報サービスの「**[!UICONTROL シナリオを選択]**」フィールドで選択されます。
 
    紹介オファーメッセージを作成するために使用される配信テンプレートには、次の情報が含まれます。
 
-   ![ パーソナライゼーションフィールドを使用する件名とHTML コンテンツを持つフレンド配信テンプレートを招待](assets/s_ncs_admin_survey_viral_sample_7.png)
+   ![&#x200B; パーソナライゼーションフィールドを使用する件名とHTML コンテンツを持つフレンド配信テンプレートを招待](assets/s_ncs_admin_survey_viral_sample_7.png)
 
    このテンプレートには、次のような特徴があります。
 
@@ -105,7 +105,7 @@ ht-degree: 74%
 
    * 被紹介者の連絡先情報および紹介者に関する情報は、訪問者テーブルから取得されます。 パーソナライゼーションボタンを使用して挿入されます。
 
-     配信コンテンツの![Personalization メニュー、訪問者サブメニューリストの姓、名、電子メールおよびリファラーフィールド ](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     配信コンテンツの![Personalization メニュー、訪問者サブメニューリストの姓、名、電子メールおよびリファラーフィールド &#x200B;](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * このテンプレートには、競合他社フォームへのリンクと、被紹介者がニュースレターを購読するための購読リンクが含まれます。
 
@@ -119,7 +119,7 @@ ht-degree: 74%
 
 1. 購読メッセージを配信するための 2 番目のスクリプトを作成します。
 
-   ![ スクリプトボックス紹介者のストレージとメッセージ送信、紹介者への紹介電子メール通知をキューに入れるコード ](assets/s_ncs_admin_survey_viral_sample_7c.png)
+   ![&#x200B; スクリプトボックス紹介者のストレージとメッセージ送信、紹介者への紹介電子メール通知をキューに入れるコード &#x200B;](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
    ```javascript
    // Updtate visitor to have a link to the referrer recipient
@@ -146,7 +146,7 @@ ht-degree: 74%
 
 1. 競合他社フォームをパブリッシュして、初期のターゲットである受信者に招待状を送付します。 受信者の誰かが友達を招待したら、**紹介オファー**&#x200B;テンプレートに基づいた配信が作成されます。
 
-   ![友達を招待セクションを含む完了したクイズ ページと、進行中の配信を示す配信リスト ](assets/s_ncs_admin_survey_viral_sample_8.png)
+   ![友達を招待セクションを含む完了したクイズ ページと、進行中の配信を示す配信リスト &#x200B;](assets/s_ncs_admin_survey_viral_sample_8.png)
 
    被紹介者が&#x200B;**[!UICONTROL 管理／訪問者ノード]**&#x200B;にある訪問者フォルダーに追加されます。
 

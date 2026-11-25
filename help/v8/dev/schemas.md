@@ -97,7 +97,7 @@ Campaignの組み込みテーブルとそのインタラクションについて
 >
 >エンティティのルート要素はスキーマと同じ名前を持ちます。
 
-![ スキーマは、受信者データのXML構造を定義します。エンティティは、その後に続く特定のレコードです。](assets/schema_and_entity.png)
+![&#x200B; スキーマは、受信者データのXML構造を定義します。エンティティは、その後に続く特定のレコードです。](assets/schema_and_entity.png)
 
 **`<element>`** タグはエンティティ要素の名前を定義します。 スキーマの **`<attribute>`** タグは、リンク先の **`<element>`** タグの属性の名前を定義します。
 
@@ -137,7 +137,7 @@ Adobe Campaign に存在しないまったく新しいタイプのデータ（�
 
 詳しくは、[新しいスキーマの作成](create-schema.md)を参照してください。
 
-![ データスキーマ作成ウィザード、スキーマタイプの手順、新しいテーブルとスキーマオプションの拡張が強調表示されている。](assets/schemaextension_1.png)
+![&#x200B; データスキーマ作成ウィザード、スキーマタイプの手順、新しいテーブルとスキーマオプションの拡張が強調表示されている。](assets/schemaextension_1.png)
 
 
 作業するスキーマを作成または拡張したら、その XML コンテンツ要素を以下に示すのと同じ順序で定義することをお勧めします。
@@ -221,7 +221,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーの詳細については、[Campaign データベース マッピング ](database-mapping.md)を参照してください。
+キーの詳細については、[Campaign データベース マッピング &#x200B;](database-mapping.md)を参照してください。
 
 ## 属性（フィールド） {#attributes--fields-}
 
@@ -231,7 +231,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 すべての属性のリストについては、 [Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=ja#content-model){target="_blank"}の `<attribute>` 要素の節を参照してください。 よく使用される属性には、**@advanced**、**@dataPolicy**、**@default**、**@desc**、**@enum**、**@expr**、**@label**、**@length**、**@name**、**@notNull**、**@required**、**@ref**、**@xml**、**@type** などがあります。
 
-各属性について詳しくは、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"}の属性の説明を参照してください。
+各属性について詳しくは、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=ja#configuring-campaign-classic){target="_blank"}の属性の説明を参照してください。
 
 ### 例 {#examples}
 
@@ -311,9 +311,9 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 変更を完了して保存したらデータベースに適用する必要がありますが、この変更は SQL 構造に影響を与える可能性があります。 データベースに適用するには、データベース更新アシスタントを使用します。
 
-![ ツール、スキーマの変更を適用するために「データベース構造を更新」が選択されたコンソールの詳細メニュー。](assets/schemaextension_3.png)
+![&#x200B; ツール、スキーマの変更を適用するために「データベース構造を更新」が選択されたコンソールの詳細メニュー。](assets/schemaextension_3.png)
 
-詳しくは、[ データベース構造の更新](update-database-structure.md)を参照してください。
+詳しくは、[&#x200B; データベース構造の更新](update-database-structure.md)を参照してください。
 
 >[!NOTE]
 >

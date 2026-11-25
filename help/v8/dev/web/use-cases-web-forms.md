@@ -47,7 +47,7 @@ ht-degree: 61%
 
 1. 受信者に提供されるニュースレター購読サービスを作成します。 ニュースレターの作成方法について詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/about-services-and-subscriptions){target="_blank"}を参照してください。
 
-   ラベル、内部名、電子メールの種類、およびモード ニュースレターフィールドを含む週次ニュースレターサービスの![ サービスダイアログ。](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
+   ラベル、内部名、電子メールの種類、およびモード ニュースレターフィールドを含む週次ニュースレターサービスの![&#x200B; サービスダイアログ。](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
 1. 2 番目の情報サービスとして、購読確認メッセージを送信するための配信テンプレートにリンクされた一時的なサービスを作成します。
 
@@ -61,7 +61,7 @@ ht-degree: 61%
 1. 購読確認メッセージを送信するための配信テンプレートを作成します。
 1. 「**[!UICONTROL メールパラメーター]**」の「**[!UICONTROL 宛先]**」ボタンをクリックして、受信者ではなく、購読ターゲットマッピングに配信テンプレートを関連付けます。
 
-   ![ サブスクリプション （nms:subscription）のターゲットマッピングが選択された配信テンプレートのターゲットダイアログを選択します。](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
+   ![&#x200B; サブスクリプション （nms:subscription）のターゲットマッピングが選択された配信テンプレートのターゲットダイアログを選択します。](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
 1. この配信の受信者は、承認を確認していないので、まだデータベースでブロックリストに登録されています。 このコミュニケーションを受け取るには、このテンプレートに基づいて配信を認証し、このテンプレートで受信者をターゲットにする必要があります。
 
@@ -77,7 +77,7 @@ ht-degree: 61%
 
 1. 配信をパーソナライズし、確認リンクをメッセージコンテンツに挿入します。 このリンクをクリックすると、購読確認を記録する Web フォームにアクセスできます。
 
-   ![ ファーストネームのパーソナライゼーションフィールドと「ここをクリック」リンクを含む配信エディターの確認メール。](assets/s_ncs_admin_survey_double-opt-in_sample_1b.png)
+   ![&#x200B; ファーストネームのパーソナライゼーションフィールドと「ここをクリック」リンクを含む配信エディターの確認メール。](assets/s_ncs_admin_survey_double-opt-in_sample_1b.png)
 
 1. DCE で URL を Web フォームにリンクします。 Web フォームはまだ作成していないので、作成したらすぐに値を置き換えます。
 
@@ -85,7 +85,7 @@ ht-degree: 61%
 
 1. 最後に、先ほど作成した一時的なサービスにこのテンプレートをリンクします。
 
-   ![ サブスクリプション フィールドで確認の配信が選択された一時サービス編集タブ。](assets/s_ncs_admin_survey_double-opt-in_sample_3c.png)
+   ![&#x200B; サブスクリプション フィールドで確認の配信が選択された一時サービス編集タブ。](assets/s_ncs_admin_survey_double-opt-in_sample_3c.png)
 
 ### 手順 3 - 購読フォームの作成 {#step-3---creating-the-subscription-form}
 
@@ -99,7 +99,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
 1. Web フォームを作成し、**[!UICONTROL ニュースレターの購読（subNewsletter）]**&#x200B;テンプレートを選択します。
 
-   ![ ニュースレター購読（サブニュースレター）テンプレートを選択した新しいWeb アプリケーションダイアログ。](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
+   ![&#x200B; ニュースレター購読（サブニュースレター）テンプレートを選択した新しいWeb アプリケーションダイアログ。](assets/s_ncs_admin_survey_double-opt-in_sample_5a.png)
 
 1. 購読を希望する受信者宛ての確認メッセージを追加したいので、「**[!UICONTROL 編集]**」タブで、既存のワークフローを設定する必要があります。
 
@@ -111,7 +111,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
 1. 「**[!UICONTROL テスト]**」アクティビティをワークフローに追加します。
 
-   ![ メールで分岐するテストアクティビティを含むWeb フォームワークフローは、サブスクリプション、ストレージ、終了に対して行われます。](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
+   ![&#x200B; メールで分岐するテストアクティビティを含むWeb フォームワークフローは、サブスクリプション、ストレージ、終了に対して行われます。](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
 
    「**[!UICONTROL テスト]**」アクティビティは、受信者のメールに関連付けることができます。 ここでは、次のように設定します。
 
@@ -119,7 +119,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
 1. 2 つの「**[!UICONTROL スクリプト]**」アクティビティをワークフローに追加します。
 
-   ![ テスト アクティビティの各ブランチにスクリプト アクティビティがあるWeb フォーム ワークフロー。](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
+   ![&#x200B; テスト アクティビティの各ブランチにスクリプト アクティビティがあるWeb フォーム ワークフロー。](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
    最初の&#x200B;**[!UICONTROL スクリプト]** アクティビティでは、ニュースレターの購読が確認されるまで、受信者がブロックリストに加えるに追加されます。 このアクティビティの内容は、次のようにする必要があります。
 
@@ -127,7 +127,7 @@ Web フォームのワークフローには、次のアクティビティが含�
    ctx.recipient.@blackList=1
    ```
 
-   ![ スクリプト ctx.recipient.@blackList=1.](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)を含むブロックリストに加えるアクティビティ
+   ![&#x200B; スクリプト ctx.recipient.@blackList=1.](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)を含むブロックリストに加えるアクティビティ
 
    2番目の&#x200B;**[!UICONTROL スクリプト]** アクティビティは、ユーザーへの配信を許可し、ニュースレターに登録します。 スクリプトの最後の2行では、受信者をtemp フォルダーから別のフォルダーに転送し、サブスクリプションを確認するとすぐに既存のプロファイルと照合できます。
 
@@ -142,7 +142,7 @@ Web フォームのワークフローには、次のアクティビティが含�
    >
    >**[!UICONTROL Temp]** パーティションは、ワークフローを使用して定期的にパージすることもできます。
 
-   ![ ブロック解除、購読、フォルダー、購読解除のスクリプト行を含む2番目のスクリプト アクティビティ。](assets/s_ncs_admin_survey_double-opt-in_sample_6b.png)
+   ![&#x200B; ブロック解除、購読、フォルダー、購読解除のスクリプト行を含む2番目のスクリプト アクティビティ。](assets/s_ncs_admin_survey_double-opt-in_sample_6b.png)
 
 1. 「**[!UICONTROL 購読]**」アクティビティをダブルクリックし、購読フォームをパーソナライズして、先ほど作成した一時的なサービスにチェックボックスをリンクします。
 
@@ -162,11 +162,11 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    2 つ目の「**[!UICONTROL 終了]**」ボックスは、購読手続きが完了したときに確認メッセージを表示します。
 
-   ![ サブスクリプションが完了したことを示すメッセージが表示されたアクティビティ ダイアログを終了します。 間もなくニュースレターが届きます。](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
+   ![&#x200B; サブスクリプションが完了したことを示すメッセージが表示されたアクティビティ ダイアログを終了します。 間もなくニュースレターが届きます。](assets/s_ncs_admin_survey_double-opt-in_sample_5h.png)
 
 1. Web フォームを作成し、設定すると、確認メッセージを送信するための配信テンプレートで参照できるようになります。
 
-   ![ ニュースレター購読のダブルオプトイン Web アプリケーションを指す「ここをクリック」リンクを使用した確認配信。](assets/s_ncs_admin_survey_double-opt-in_sample_7b.png)
+   ![&#x200B; ニュースレター購読のダブルオプトイン Web アプリケーションを指す「ここをクリック」リンクを使用した確認配信。](assets/s_ncs_admin_survey_double-opt-in_sample_7b.png)
 
 ### 手順 4 - フォームの公開とテスト {#step-4---publishing-and-testing-the-form}
 
@@ -182,7 +182,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    ブラウザーのメッセージで、リクエストを受け付けたことが通知されます。
 
-   ![ リクエストが登録され、メッセージが送信されることを示すブラウザー終了ページ。](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
+   ![&#x200B; リクエストが登録され、メッセージが送信されることを示すブラウザー終了ページ。](assets/s_ncs_admin_survey_double-opt-in_sample_8d.png)
 
    ユーザーは、Adobe Campaign データベースの **[!UICONTROL Temp]** フォルダーに追加され、プロファイルがブロックリストに登録されます。この登録は、ユーザーがメールによる購読確認を完了するまで続きます。
 
@@ -190,11 +190,11 @@ Web フォームのワークフローには、次のアクティビティが含�
 
 1. 購読を承認するためのリンクに含まれる確認メッセージがユーザーに送信されます。
 
-   ![ ニュースレターの購読を確認するための「ここをクリック」リンク付きの購読確認メール。](assets/s_ncs_admin_survey_double-opt-in_sample_8e.png)
+   ![&#x200B; ニュースレターの購読を確認するための「ここをクリック」リンク付きの購読確認メール。](assets/s_ncs_admin_survey_double-opt-in_sample_8e.png)
 
 1. ユーザーがこのリンクをクリックすると、承認ページがブラウザーに表示されます。
 
-   ![ ブラウザーページ「おめでとうございます！」 サブスクリプションがアクティブであることを確認しています。](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
+   ![&#x200B; ブラウザーページ「おめでとうございます！」 サブスクリプションがアクティブであることを確認しています。](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
 
    Adobe Campaign では、ユーザープロファイルが更新されます。
 
@@ -229,8 +229,8 @@ Web フォームのワークフローには、次のアクティビティが含�
 
 * 自家用車用のフィールドの条件付き表示：
 
-  ![ パーソナルカーコンテナの表示条件：パーソナルカーに等しい車の種類。](assets/s_ncs_admin_survey_condition_config2.png)
+  ![&#x200B; パーソナルカーコンテナの表示条件：パーソナルカーに等しい車の種類。](assets/s_ncs_admin_survey_condition_config2.png)
 
 * 商用車用のフィールドの条件付き表示：
 
-  ![ トラック/バン コンテナの表示条件：移動中のトラックと同じ車の種類。](assets/s_ncs_admin_survey_condition_config3.png)
+  ![&#x200B; トラック/バン コンテナの表示条件：移動中のトラックと同じ車の種類。](assets/s_ncs_admin_survey_condition_config3.png)
