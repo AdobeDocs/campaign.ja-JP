@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 64%
+source-wordcount: '1003'
+ht-degree: 60%
 ---
 # メールパラメーター {#email-parameters}
 
@@ -31,7 +31,7 @@ ht-degree: 64%
 
 ## BCC でのメールの使用 {#email-bcc}
 
-プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。 このオプションについて詳しくは、[このページ](email-bcc.md)を参照してください。
+プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。 このオプションについては、[&#x200B; メッセージのコピーをBCC アドレスに送信](email-bcc.md)で詳しく説明しています。
 
 ## メッセージ形式の選択 {#selecting-message-formats}
 
@@ -83,11 +83,11 @@ ht-degree: 64%
 
 * **[!UICONTROL バウンスアドレス]**：未処理のバウンスメールの転送先となる別のアドレスを定義することもできます。 このアドレスを使用すると、メールがアプリケーションによって自動的に選定されなかった場合のバウンスの理由を調査できます。
 
-各フィールドは、専用のアイコンを使用してパーソナライズできます。 パーソナライゼーションフィールドについて詳しくは、[この節](personalization-fields.md)を参照してください。
+各フィールドは、専用のアイコンを使用してパーソナライズできます。 パーソナライゼーションフィールドについて詳しくは、[&#x200B; パーソナライゼーションフィールドを追加](personalization-fields.md)を参照してください。
 
 ![](assets/email-smtp-bounce.png)
 
-バウンスメールの管理について詳しくは、[この節](delivery-failures.md#bounce-mail-qualification)を参照してください。
+バウンスメール管理について詳しくは、[&#x200B; バウンスメールの選定](delivery-failures.md#bounce-mail-qualification)を参照してください。
 
 ## ワンクリックでリスト登録解除を有効にする {#one-click-list-unsubscribe}
 
@@ -155,4 +155,4 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 
 ミラーページは、web ブラウザーでオンラインアクセス可能な HTML ページです。 そのコンテンツはメールと同一です。 これは、受信者がインボックスでメールを表示しようとする際に、レンダリングの問題や破損した画像が発生した場合に役立ちます。
 
-ミラーページへのリンクを挿入する方法については、[この節](mirror-page.md)を参照してください
+ミラーページへのリンクを挿入する方法については、[&#x200B; ミラーページへのリンクを追加](mirror-page.md)を参照してください

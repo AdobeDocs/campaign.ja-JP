@@ -25,7 +25,7 @@ subfeature_v2:
     internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 89%
@@ -123,7 +123,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    最初の&#x200B;**[!UICONTROL スクリプト]** アクティビティでは、ニュースレターの購読が確認されるまで、受信者がブロックリストに加えるに追加されます。 このアクティビティの内容は、次のようにする必要があります。
 
-   ```
+   ```javascript
    ctx.recipient.@blackList=1
    ```
 
@@ -131,7 +131,7 @@ Web フォームのワークフローには、次のアクティビティが含�
 
    2番目の&#x200B;**[!UICONTROL スクリプト]** アクティビティは、ユーザーへの配信を許可し、ニュースレターに登録します。 スクリプトの最後の2行では、受信者をtemp フォルダーから別のフォルダーに転送し、サブスクリプションを確認するとすぐに既存のプロファイルと照合できます。
 
-   ```
+   ```javascript
    ctx.recipient.@blackList=0
    nms.subscription.Subscribe("INTERNAL_NAME_OF_THE_NEWSLETTER", ctx.recipient, false)
    ctx.recipient.folder = <folder name="nmsRootRecipient"/>

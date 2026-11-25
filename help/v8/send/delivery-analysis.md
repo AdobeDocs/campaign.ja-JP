@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 96%
+source-wordcount: '757'
+ht-degree: 94%
 ---
 # 配信分析 {#analyze-delivery}
 
@@ -45,7 +45,7 @@ ht-degree: 96%
 
 1. 「**[!UICONTROL 分析]**」をクリックして、分析を手動で開始します。 分析の進捗状況がプログレスバーに表示されます。
 
-   配信分析中に、一連のチェックルールが適用されます。 これらのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで選択する&#x200B;**タイポロジ**&#x200B;で定義されます。 タイポロジについて詳しくは、[この節](../../automation/campaign-opt/campaign-typologies.md)を参照してください。
+   配信分析中に、一連のチェックルールが適用されます。 これらのルールは、配信プロパティの「**[!UICONTROL タイポロジ]**」タブで選択する&#x200B;**タイポロジ**&#x200B;で定義されます。 タイポロジについて詳しくは、[&#x200B; キャンペーンタイポロジの基本を学ぶ](../../automation/campaign-opt/campaign-typologies.md)を参照してください。
 
    メールの場合、デフォルトでは、分析には次の点が含まれます。
 

@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3530'
+source-wordcount: '3532'
 ht-degree: 79%
 ---
 # 配信の失敗について {#delivery-failures}
@@ -714,7 +714,7 @@ SMPP コネクタは、返された SR（ステータスレポート）メッセ
 
 生成されるメッセージの例：
 
-```
+```text
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
@@ -750,7 +750,7 @@ SR Generic DELIVRD 000|#MESSAGE#
 
 受信者のメッセージが次の「未到達」エラーで失敗する
 
-```
+```text
 Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
 ```
 
@@ -758,13 +758,13 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **解決策**: ワークフローと配信コンテンツを確認して、問題のテーブルを呼び出そうとしているパーソナライゼーションを具体的に判断します。 次に、HTMLのこのテーブルへの呼び出しを削除するか、配信へのマッピングを修正します。
 
-パーソナライゼーションの詳細については、[このセクション &#x200B;](personalize.md)を参照してください。
+パーソナライゼーションの詳細については、[&#x200B; パーソナライゼーションの基本を学ぶ](personalize.md)を参照してください。
 
 ### 複数のパーソナライゼーション値のエラー {#multiple-values-error}
 
 配信が失敗した場合、次のエラーが配信ログに表示されることがあります。
 
-```
+```text
 DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
 ```
 
@@ -776,7 +776,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 一部の配信は、「未到達」エラーで失敗する可能性があります。
 
-```
+```text
 Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 ```
 

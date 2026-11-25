@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 93%
+source-wordcount: '378'
+ht-degree: 91%
 ---
 # web アプリケーションの翻訳{#translating-a-web-application}
 
@@ -36,7 +36,7 @@ Web アプリケーションの&#x200B;**[!UICONTROL プロパティ]**&#x200B;�
 
 このオプションを使用すると、ブロックコンテンツを翻訳する必要があるかどうかを示すことができます。
 
-翻訳される文字列は、アプリケーションの「**[!UICONTROL 翻訳]**」タブを使用して、Web アプリケーションの他の文字列と同じ方法で収集されます。 詳しくは、[このページ](translating-a-web-form.md)を参照してください。
+翻訳される文字列は、アプリケーションの「**[!UICONTROL 翻訳]**」タブを使用して、Web アプリケーションの他の文字列と同じ方法で収集されます。 詳しくは、[Web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
 翻訳する文字列にフラグを設定するには：
 

@@ -21,10 +21,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 82%
+source-wordcount: '178'
+ht-degree: 74%
 ---
 # 実行設定{#execution-settings}
 
@@ -34,7 +34,7 @@ ht-degree: 82%
 
 実行設定は、後でシミュレーションウィンドウの「**[!UICONTROL 一般]**」タブで変更できます。
 
-![](assets/offer_simulation_008.png)
+![実行設定を含むシミュレーションの一般タブ：低いアクティビティのスケジュール設定、SQLのログ記録および優先度リスト。](assets/offer_simulation_008.png)
 
 * **[!UICONTROL アクティビティが少ない時間の実行をスケジュール]**：選択した優先度（低、平均、高）に基づいてシミュレーションをスケジュールして、Adobe Campaignのパフォーマンスを最適化できます。
 * **[!UICONTROL 優先順位]**：これは、スケジュールするシミュレーションに適用するレベルです。 「**[!UICONTROL 実行スケジュールを低アクティビティの時間に設定]**」オプションがオンになっている場合、アクティビティの少ない時間帯がキャンペーン開始時間として選択されます。

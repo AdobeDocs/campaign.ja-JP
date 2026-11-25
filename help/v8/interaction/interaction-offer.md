@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 92%
+source-wordcount: '1151'
+ht-degree: 72%
 ---
 # オファーの作成
 
@@ -60,7 +60,7 @@ ht-degree: 92%
 
 オファーの「**[!UICONTROL 実施要件]**」タブで、オファーの実施期間を定義します。 ドロップダウンリストを使用して、カレンダーの開始日と終了日を選択します。
 
-![](assets/offer_eligibility_create_002.png)
+![&#x200B; オファーの実施期間の開始日と終了日のドロップダウンカレンダーが表示された「実施要件」タブ。](assets/offer_eligibility_create_002.png)
 
 この期間以外では、オファーは選択されません。 オファーカテゴリの実施要件となる日付も設定している場合は、より厳しい制限期間が適用されます。
 
@@ -70,11 +70,11 @@ ht-degree: 92%
 
 フィルターを適用するには、「**[!UICONTROL クエリを編集]**」リンクをクリックし、適用するフィルターを選択します。
 
-![](assets/offer_eligibility_create_003.png)
+![適格性タブのクエリを編集リンクから開いたターゲティングフィルター条件を選択ウィザード。](assets/offer_eligibility_create_003.png)
 
 定義済みのフィルターが既に作成されている場合は、それをユーザーフィルターのリストから選択できます。 [詳細情報](interaction-predefined-filters.md)
 
-![](assets/offer_eligibility_create_004.png)
+![&#x200B; ターゲティングウィザードのユーザーフィルターリスト。選択したフィルターが適用され、一致する受信者のプレビューが表示されます。](assets/offer_eligibility_create_004.png)
 
 ### オファーの重み付けの設定 {#offer-weight}
 
@@ -92,11 +92,11 @@ ht-degree: 92%
 
 1. オファーの「**[!UICONTROL 実施要件]**」タブで、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/offer_weight_create_001.png)
+   ![実施要件タブで「追加」ボタンを押すと、重み付けダイアログが開き、オファーの重みが作成されます。](assets/offer_weight_create_001.png)
 
 1. ラベルを変更し、重み付けを割り当てます。 デフォルト値は1です。
 
-   ![](assets/offer_weight_create_006.png)
+   ![調整セクションのラベル フィールドと重み値を含む重みダイアログ。](assets/offer_weight_create_006.png)
 
    >[!CAUTION]
    >
@@ -104,19 +104,19 @@ ht-degree: 92%
 
 1. 特定の期間を対象にして重み付けを適用するには、実施日を定義します。
 
-   ![](assets/offer_weight_create_002.png)
+   ![実施期間セクションで開始日と終了日が設定された重み付けダイアログ。](assets/offer_weight_create_002.png)
 
 1. 必要に応じて、重み付けを特定のオファースペースに制限します。
 
-   ![](assets/offer_weight_create_003.png)
+   ![重み付けダイアログに、重み付けを制限できるスペースが一覧表示されているオファースペース ドロップダウンが表示されます。](assets/offer_weight_create_003.png)
 
 1. ターゲットにフィルターを適用します。
 
-   ![](assets/offer_weight_create_004.png)
+   ターゲット上のフィルターでクエリを編集リンクがハイライト表示された![重み付けダイアログ。](assets/offer_weight_create_004.png)
 
 1. 「**[!UICONTROL OK]**」をクリックして重み付けを保存します。
 
-   ![](assets/offer_weight_create_005.png)
+   ![新しいプレミアムの重みとその日付とフィルターを一覧表示する適格性タブの重みテーブル。](assets/offer_weight_create_005.png)
 
    >[!NOTE]
    >
@@ -128,13 +128,13 @@ ht-degree: 92%
 
 概要を表示するには、「**[!UICONTROL スケジュールおよび実施要件ルール]**」リンクをクリックします。
 
-![](assets/offer_eligibility_create_005.png)
+![&#x200B; スケジュールと実施要件ルールのリンクがハイライト表示されたオファーダッシュボード。](assets/offer_eligibility_create_005.png)
 
 ## オファーコンテンツの作成 {#creating-the-offer-content}
 
 「**[!UICONTROL コンテンツ]**」タブでオファーの内容を定義します。
 
-![](assets/offer_content_create_001.png)
+![&#x200B; タイトル、宛先URL、画像URL フィールド、HTML コンテンツエディターを含むオファーの「コンテンツ」タブ。](assets/offer_content_create_001.png)
 
 1. オファーコンテンツの各種パラメーターに値を入力します。
 
@@ -143,7 +143,7 @@ ht-degree: 92%
    * **[!UICONTROL 画像 URL]**：オファーの画像を示す URL またはアクセスパスを指定します。
    * **[!UICONTROL HTML コンテンツ]**／**[!UICONTROL テキストコンテンツ]**：オファーの本文を、目的のタブに入力します。 トラッキングを生成するには、**[!UICONTROL HTML コンテンツ]**&#x200B;が、`<div>` タイプの要素に含めることができる HTML 要素で構成されている必要があります。 例えば、HTML ページの`<table>`要素の結果は次のようになります。
 
-   ```
+   ```xml
       <div> 
        <table>
         <tr>
@@ -158,13 +158,13 @@ ht-degree: 92%
       </div>
    ```
 
-   受け入れ URL を定義する方法については、[この節](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)を参照してください。
+   提案が承認されたときに[&#x200B; オファーのステータス &#x200B;](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)で承認URLを定義する方法について説明します。
 
-   ![](assets/offer_content_create_002.png)
+   ![&#x200B; コンテンツ タブにタイトル、宛先URL、画像URL、およびコンテンツ定義リンクが入力されています。](assets/offer_content_create_002.png)
 
    オファースペースの設定時に定義した必須フィールドを確認するには、「**[!UICONTROL コンテンツ定義]**」リンクをクリックして一覧を表示します。 [詳細情報](interaction-offer-spaces.md)
 
-   ![](assets/offer_content_create_003.png)
+   ![&#x200B; コンテンツ定義ダイアログ リスト、各オファースペースに必要なコンテンツ フィールド。](assets/offer_content_create_003.png)
 
    この例では、オファーには、タイトル、画像、HTML コンテンツ、宛先 URL を含める必要があります。
 
@@ -176,11 +176,11 @@ ht-degree: 92%
 
 1. 「**[!UICONTROL プレビュー]**」タブをクリックします。
 
-   ![](assets/offer_preview_create_001.png)
+   ![&#x200B; オファーの「プレビュー」タブ。各オファースペースのプレビュー表示を一覧表示します。](assets/offer_preview_create_001.png)
 
 1. 表示したいオファーの表示域を選択します。
 
-   ![](assets/offer_preview_create_002.png)
+   ![&#x200B; レンダリングされたオファーコンテンツを表示するために、電子メール/クライアント表現が展開されたプレビュータブが展開されました。](assets/offer_preview_create_002.png)
 
 1. オファーコンテンツがパーソナライズされている場合、パーソナライゼーションを表示するオファーターゲットを選択します。
 
@@ -202,13 +202,13 @@ Creating hypotheses is detailed in [this page](../../automation/response/about-r
 
 オファーを承認して有効化すると、**ライブ**&#x200B;環境で利用できるようになります。
 
-詳しくは、[この節](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
+詳しくは、[&#x200B; オファーコンテンツの承認](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
 
 ## オファープレゼンテーションの管理{#offer-presentation}
 
 Campaign では、プレゼンテーションルールを使用してオファーの提案のフローを制御できます。 Campaign インタラクションに固有のこれらのルールを、「**タイポロジルール**」と呼びます。 タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。 ルールは環境内で参照されます。
 
-詳しくは、[この節](managing-offer-presentation.md)を参照してください。
+詳しくは、[&#x200B; オファープレゼンテーションの管理](managing-offer-presentation.md)を参照してください。
 
 ## オファーのシミュレーション
 
@@ -216,4 +216,4 @@ Campaign では、プレゼンテーションルールを使用してオファ�
 
 シミュレーションでは、オファーやプレゼンテーションルールにあらかじめ適用されているコンテキストと実施要件ルールが考慮されます。 シミュレーションであればターゲットの受信者に影響を与えないので、実際にターゲットにオファーをおこなったり、過剰や過少に勧誘したりしなくても、オファーの提案をさまざまなバージョンでテストして調整できます。
 
-オファーシミュレーションについて詳しくは、[このセクション &#x200B;](about-offers-simulation.md)を参照してください。
+オファーシミュレーションについて詳しくは、[&#x200B; オファーシミュレーションについて](about-offers-simulation.md)を参照してください。

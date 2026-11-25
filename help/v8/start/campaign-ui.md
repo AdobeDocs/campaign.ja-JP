@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 61%
+source-wordcount: '1247'
+ht-degree: 58%
 ---
 # ユーザーインターフェイスの確認 {#ui-client-console}
 
@@ -42,7 +42,7 @@ Adobe Campaignには、クライアントコンソールまたはWeb ユーザ�
 
 * **クライアントコンソール** - クライアントコンソールは、SOAP や HTTP などの標準のインターネットプロトコルを通じて Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションです。 Campaign クライアントコンソールは、すべての機能と設定を一元化しています。また、ローカルキャッシュに依存することで、必要な帯域幅は最小限に抑えられます。 簡単にデプロイできるように設計された Campaign クライアントコンソールは、インターネットブラウザーからデプロイし、自動的に更新できます。発生するトラフィックは HTTP(S) のみであり、特別なネットワーク設定は不要です。 [詳細情報](#ui-access)
 
-  Campaign クライアントコンソールをインストールして設定する方法については、[この節](../start/connect.md)を参照してください。
+  [Campaign v8](../start/connect.md)への接続でCampaign クライアントコンソールをインストールおよび設定する方法について説明します。
 
 * **Web アクセス** - Adobe Campaign web アクセス機能を使用すると、HTML ユーザーインターフェイスを使用して、Web ブラウザーでCampaign機能のサブセットにアクセスできます。 この web インターフェイスを使用して、レポートへのアクセス、メッセージの制御と検証、監視ダッシュボードへのアクセスなどを行います。  Campaign の web アクセスについて詳しくは、[この節](../start/connect.md#web-access)を参照してください。
 
@@ -95,7 +95,7 @@ Campaignに接続すると、リンクとショートカットを使用してAdo
 
 Campaign クライアントコンソールに接続したら、上部セクションのタブを参照して、Campaign キー機能にアクセスします。
 
-![](assets/overview-home.png)
+![&#x200B; キャンペーン、プロファイル、ターゲット、監視およびレポート タブがハイライト表示されたキャンペーンのホームページ &#x200B;](assets/overview-home.png)
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Campaign エクスプローラーを参照して、すべての Adobe Campaign �
 
 このワークスペースでは、エクスプローラーツリーにアクセスして、すべての機能とオプションを参照できます。
 
-* 左側のセクションには Campaign エクスプローラーツリーが表示され、権限に応じて、インスタンスのすべてのコンポーネントと設定を参照できます。 フォルダーの追加やカスタマイズについては、[このページ](../audiences/folders-and-views.md)を参照してください。
+* 左側のセクションには Campaign エクスプローラーツリーが表示され、権限に応じて、インスタンスのすべてのコンポーネントと設定を参照できます。 フォルダーとビュー[の説明に従って、フォルダーを追加およびカスタマイズできます。](../audiences/folders-and-views.md)
 
 * 上部のセクションには、現在のフォルダー内のレコードのリストが表示されます。 これらのリストは完全にカスタマイズ可能です。 [詳細情報](../config/ui-settings.md)
 

@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 95%
@@ -70,7 +70,7 @@ ht-degree: 95%
 1. メールを作成し、ターゲット母集団を選択します。 この例では、表示するバージョンを決定する条件は、受信者のプロファイルの&#x200B;**言語**&#x200B;の値に基づいています。 これらの値は、**EN**、**FR**、**ES** に設定されています。
 1. メールの HTML コンテンツで、「**[!UICONTROL ソース]**」タブをクリックし、次のコードを貼り付けます。
 
-   ```
+   ```html
    <% if (language == "EN" ) { %>
    <DIV id=en-version>Hello <%= recipient.firstName %>,</DIV>
    <DIV>Discover your new offers!</DIV>

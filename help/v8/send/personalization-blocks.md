@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 87%
+source-wordcount: '723'
+ht-degree: 86%
 ---
 # パーソナライゼーションブロックの使用{#personalization-blocks}
 
 パーソナライゼーションブロックは、配信に挿入できる特定のレンダリングが格納されている動的コンテンツです。 例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。
 
-パーソナライズされたコンテンツブロックにアクセスするには、エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードを参照します。 ビルトインのパーソナライゼーションブロックのリストについては、[この節](#ootb-personalization-blocks)を参照してください。
+パーソナライズされたコンテンツブロックにアクセスするには、エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;ノードを参照します。 組み込みのパーソナライゼーションブロックは、[組み込みのパーソナライゼーションブロック &#x200B;](#ootb-personalization-blocks)に一覧表示されます。
 
 また、新しいブロックを定義して、配信のパーソナライゼーションを最適化することもできます。 [詳細情報](#create-custom-personalization-blocks)。
 

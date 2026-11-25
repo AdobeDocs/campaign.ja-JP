@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 87%
+source-wordcount: '251'
+ht-degree: 60%
 ---
 # 定義済みフィルターの作成{#creating-pre-defined-filters}
 
@@ -45,24 +45,24 @@ ht-degree: 87%
 
 1. **[!UICONTROL 管理]**&#x200B;フォルダーで「**[!UICONTROL 定義済みオファーフィルター]**」を選択します。
 
-   ![](assets/offer_filter_create_005.png)
+   ![&#x200B; オファー – 管理](assets/offer_filter_create_005.png)で定義済みオファーフィルターノードが選択されたデザインツリー
 
 1. 「**[!UICONTROL 新規]**」をクリックします。
 
-   ![](assets/offer_filter_create_001.png)
+   ![新しいボタンがハイライト表示され、年齢フィルターがリスト表示された定義済みオファーフィルターリスト &#x200B;](assets/offer_filter_create_001.png)
 
 1. 後でフィルターを識別できるように、ラベルを変更します。
 
-   ![](assets/offer_filter_create_002.png)
+   ![&#x200B; ラベル フィールドが電子メールチャネル &#x200B;](assets/offer_filter_create_002.png)に設定されたアプリケーションフィルターダイアログ
 
 1. フィルター条件が関係するフィールドを選択します。
 
-   ![](assets/offer_filter_create_003.png)
+   ![受信者フィールドから選択した電子メールフィールドを含む式ダイアログを選択](assets/offer_filter_create_003.png)
 
 1. 必要に応じて演算子と値を選択して、クエリを保存します。
 
-   ![](assets/offer_filter_create_004.png)
+   ![演算子がに設定されたメール式のフィルター条件が空ではありません](assets/offer_filter_create_004.png)
 
 1. 「**[!UICONTROL プレビュー]**」をクリックし、フィルターの適用結果を表示します。
 
-   ![](assets/offer_filter_create_006.png)
+   フィルターに一致する受信者を一覧表示する電子メールチャネルフィルターの「![&#x200B; プレビュー」タブ &#x200B;](assets/offer_filter_create_006.png)

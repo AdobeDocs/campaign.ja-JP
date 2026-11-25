@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 93%
+source-wordcount: '587'
+ht-degree: 79%
 ---
 # 購読と購読解除の管理 {#optin-optout}
 
@@ -40,17 +40,17 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 * 受信者のプロファイルにサービスを手動で追加するには、プロファイルの「**[!UICONTROL 購読]**」タブから「 **[!UICONTROL 追加]**」をクリックし、該当する情報サービスを選択します。
 
-  ![](assets/subscribe-to-a-service.png)
+  「サービスを選択」ダイアログが追加![&#128279;](assets/subscribe-to-a-service.png)から開いた受信者プロファイルの「購読」タブ
 
   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
 
 * 受信者のセットを、このサービスに自動的に購読登録します。 受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。 これらの受信者を購読登録するには、プロファイルを選択して右クリックします。 **[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
 
-  ![](assets/subscribe-selection.png)
+  ![選択した受信者のメニューを右クリックし、アクション/サービスに対する選択を購読](assets/subscribe-selection.png)します
 
   該当するサービスを選択し、操作を開始します。
 
-  ![](assets/subscribe-confirm.png)
+  ![&#x200B; サービス サブスクリプション ウィザード、サービス選択手順、確認メッセージの送信オプション &#x200B;](assets/subscribe-confirm.png)
 
   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
 
@@ -61,18 +61,18 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 * 受信者がサービスの購読を登録できる Web フォームを使用します。
 
-  ![](assets/opt-in-webapp.png)
+  ![&#x200B; ニュースレター購読web アプリケーションのワークフロー：プリロード、購読、ストレージおよび終了](assets/opt-in-webapp.png)
 
   Campaign には、オプトインを管理するためのデフォルトの Web フォームが用意されています。 これをパーソナライズし、プロファイルデータをマッピングできます。
 
-  ![](assets/web-app.png)
+  ![名前、電子メール、電話、同意チェックボックス、および購読ボタンを含む購読web フォームのページエディター](assets/web-app.png)
 
-  詳細については、[この節](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
+  詳しくは、[&#x200B; ダブルオプトインを使用したサブスクリプションフォームの作成](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
 
 
 * ターゲティングワークフローを作成し、**[!UICONTROL サブスクリプションサービス]** アクティビティを使用します。
 
-  ![](assets/wf-subscription.png)
+  ![&#x200B; リストの読み取り、クエリ、ファイルコレクターのフィード重複排除およびサブスクリプションサービスを含むワークフロー](assets/wf-subscription.png)
 
   詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja){target="_blank"}を参照してください。
 

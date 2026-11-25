@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 75%
+source-wordcount: '887'
+ht-degree: 71%
 ---
 # web アプリケーションの基本を学ぶ{#about-web-applications}
 
@@ -101,7 +101,7 @@ Web アプリケーションと比較すると、調査は、シンプルなグ�
 >
 >調査の詳細については、[このセクション &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 >
->Adobe Campaign の Web フォームの全体的な機能について詳しくは、[この節](about-web-forms.md)を参照してください。
+>Adobe CampaignのWeb フォームの全体的な機能について詳しくは、[Web フォームの基本を学ぶ](about-web-forms.md)を参照してください。
 
 ## Web アプリケーションの実装 {#web-application-implementation}
 
@@ -109,7 +109,7 @@ Web アプリケーションを作成および投稿するには、次を実行�
 
 1. コンテンツを作成します（フィールド、リスト、テーブル、グラフなど）。
 
-   また、フォームの利用可能なフィールドの詳細を説明するセクションを表示できます。これらすべてのフィールドは、Web アプリケーションでも利用できます。 詳しくは、[このページ](adding-fields-to-a-web-form.md)を参照してください。
+   また、フォームの利用可能なフィールドの詳細を説明するセクションを表示できます。これらすべてのフィールドは、Web アプリケーションでも利用できます。 この情報は、[Web フォームへのフィールドの追加](adding-fields-to-a-web-form.md)で利用できます。
 
 1. 必要に応じて、プリロード、テストおよび保存手順を追加したり、アクセス制御システムを設定したりすることができます（主にエクストラネットに公開するフレームワーク内で）。
 1. Web アプリケーションを公開して、エクストラネットまたはAdobe Campaignで使用できるようにします。
@@ -120,7 +120,7 @@ Web アプリケーションは、**[!UICONTROL キャンペーン]**&#x200B;お
 
 Web アプリケーションは、Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／オンライン／Web アプリケーション]**&#x200B;ノードに格納されます。 設定は、次のフォルダーに分類されます。
 
-* **[!UICONTROL 管理／設定／フォームのレンダリング]**：Web フォームプレゼンテーションのレンダリングテンプレートが含まれます（アプリケーションおよび調査）。 テンプレートを使用すると、フォームを生成できます。 また、CSS スタイルシートを使用します。 このスタイルシートは、テンプレートレベルでオーバーロードできます。 詳しくは、[このページ](form-rendering.md#selecting-the-form-rendering-template)を参照してください。
+* **[!UICONTROL 管理／設定／フォームのレンダリング]**：Web フォームプレゼンテーションのレンダリングテンプレートが含まれます（アプリケーションおよび調査）。 テンプレートを使用すると、フォームを生成できます。 また、CSS スタイルシートを使用します。 このスタイルシートは、テンプレートレベルでオーバーロードできます。 詳しくは、[&#x200B; フォームレンダリングテンプレートの選択](form-rendering.md#selecting-the-form-rendering-template)を参照してください。
 * **[!UICONTROL リソース／テンプレート／Web アプリケーションテンプレート]**：フォームテンプレートが含まれます。 フォームまたは Web アプリケーションを作成するには、テンプレートから開始する必要があります。
 
 ## Web アプリケーションテンプレート {#web-application-templates}

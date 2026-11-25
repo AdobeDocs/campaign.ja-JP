@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 57%
@@ -44,7 +44,7 @@ Adobe Campaignでは、次の配信品質ツールにアクセスできます。
 
 ### 配信スループット {#throughput-reports}
 
-**[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。 詳しくは、[この節](../reporting/global-reports.md#delivery-throughput)を参照してください。
+**[!UICONTROL 配信スループット]**&#x200B;レポートは、一定期間にわたるプラットフォーム全体のスループットの概要を示します。 詳しくは、[配信スループット](../reporting/global-reports.md#delivery-throughput)を参照してください。
 
 ### ブロードキャスト統計 {#broadcast-statistics}
 

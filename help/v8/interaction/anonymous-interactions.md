@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 87%
+source-wordcount: '484'
+ht-degree: 79%
 ---
 # 匿名インタラクション {#anonymous-interactions}
 
@@ -39,7 +39,7 @@ ht-degree: 87%
 
 「**[!UICONTROL 訪問者フォルダー]**」フィールドが表示され、 **[!UICONTROL 訪問者]**&#x200B;フォルダーへのリンクが自動的に入力されます。 このフィールドでは、訪問者プロファイルを格納する場所を選択できます。
 
-![](assets/anonymous_environment_option.png)
+![選択した匿名インタラクションと訪問者フォルダーのフィールドを受信するための環境を含むオファー環境](assets/anonymous_environment_option.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 87%
 
 この分析を実行するには、オファースペースで、「**[!UICONTROL ブラウザー履歴に基づいて個人を暗黙的に推測]**」オプションをオンにします。
 
-![](assets/identification_anonymous_visitors.png)
+![選択したブラウザー履歴オプションに基づいて、個人を暗黙的に識別するスペースを提供する](assets/identification_anonymous_visitors.png)
 
 ## 識別されていない匿名訪問者の処理 {#processing-unidentified-anonymous-visitors}
 
@@ -69,4 +69,4 @@ ht-degree: 87%
 
 それには、「**[!UICONTROL 個人が識別されなかった場合、匿名環境にフォールバックします]**」をオンにして、オファースペースを指定する際に、「**[!UICONTROL リンクされた匿名スペース]**」で識別されない訪問者専用の環境を指定します。
 
-![](assets/anonymous_to_anonymous_environment.png)
+![匿名の環境にフォールバックするオプションを選択し、リンクされた匿名スペース フィールドを使用してスペースを提供する](assets/anonymous_to_anonymous_environment.png)

@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '869'
+ht-degree: 94%
 ---
 # データレプリケーション {#wf-data-replication}
 
@@ -93,19 +93,19 @@ Campaign v8 は、スケジュールされたデータレプリケーション�
 
 * 次のコードを使用して、特定の **JavaScript コード**&#x200B;アクティビティを追加する：
 
-  ```
+  ```javascript
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
-  ![](assets/jscode.png)
+  ![dem:sampleTable](assets/jscode.png)のスクリプト nms.replicationStrategy.StartReplicateStagingDataを使用したJavaScript コード アクティビティ
 
 * 次のコマンドを使用して、特定の **nlmodule** アクティビティを追加する：
 
-  ```
+  ```bash
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
-  ![](assets/nlmodule.png)
+  パラメーターffdaReplicateStaging -stagingSchema -instance:acc1![&#128279;](assets/nlmodule.png)を持つnlserver モジュールアクティビティ
 
 +++
 
@@ -121,7 +121,7 @@ API を使用すると、Campaign のローカルデータベース（PostgreSQL
 
 例：
 
-```
+```javascript
 var dataSource = "nms:extAccount:ffda";
 var xml = xtk.builder.CopyXxlData(
     <params dataSource={dataSource} policy="xs">

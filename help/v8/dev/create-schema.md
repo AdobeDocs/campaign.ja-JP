@@ -34,10 +34,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 97%
 ---
 # 新しいスキーマの作成 {#create-new-schema}
 
@@ -140,4 +140,4 @@ ht-degree: 100%
 
    ![](assets/configuration_structure.png)
 
-1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[この節](update-database-structure.md)を参照してください。
+1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[&#x200B; データベース構造の更新](update-database-structure.md)を参照してください。

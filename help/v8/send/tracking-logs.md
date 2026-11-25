@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '361'
 ht-degree: 18%
 ---
 # トラッキングログへのアクセス {#accessing-the-tracking-logs}
@@ -73,7 +73,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->配信の「**[!UICONTROL トラッキング]**」タブが表示されない場合は、トラッキングが有効化されていないことを意味します。 トラッキングの設定方法については、[この節](tracked-links.md)を参照してください。
+>配信の「**[!UICONTROL トラッキング]**」タブが表示されない場合は、トラッキングが有効化されていないことを意味します。 トラッキングの設定方法については、[&#x200B; トラッキングリンクの設定](tracked-links.md)を参照してください。
 
 ### トラッキングのテクニカルワークフローを確認する {#check-tracking-workflow}
 

@@ -22,10 +22,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 0%
 ---
 # Campaign Standard APIを使用する理由 {#why-using-campaign-standard-apis}
 
@@ -72,7 +72,7 @@ Campaign Standard API リクエストについて理解するのに役立つリ�
 
    ![alt text](assets/postman_collection.png)
 
-1. 「**プロファイルの作成**」リクエストを選択し、POST リクエストと「**ヘッダー**」タブを独自の情報（&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>）で更新します。 詳しくは、[この節](setting-up-api-access.md)を参照してください。
+1. 「**プロファイルの作成**」リクエストを選択し、POST リクエストと「**ヘッダー**」タブを独自の情報（&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>）で更新します。 詳しくは、[API アクセスの設定](setting-up-api-access.md)を参照してください。
 
    ![alt text](assets/postman_uc1.png)
 

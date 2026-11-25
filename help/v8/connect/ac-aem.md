@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 98%
+source-wordcount: '928'
+ht-degree: 77%
 ---
 # Campaign と Adobe Experience Manager の操作 {#ac-aem}
 
@@ -56,35 +56,35 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
 1. [!DNL Adobe Experience Manager] オーサーインスタンスに移動し、ページの左上隅にある「Adobe Experience」をクリックします。 メニューから「**[!UICONTROL Sites]**」を選択します。
 
-   ![](assets/aem_authoring_1.png)
+   ![Adobe Experience Manager ナビゲーションメニューで「サイト」オプションが強調表示されている](assets/aem_authoring_1.png)
 
 1. **[!UICONTROL キャンペーン／ブランド名（ここでは we.Shopping）／メインエリア／メール]**&#x200B;にアクセスします。
 
 1. 「**[!UICONTROL 作成]**」をクリックし、ドロップダウンメニューから「**[!UICONTROL ページ]**」を選択します。
 
-   ![](assets/aem_authoring_2.png)
+   ![作成メニューが開き、ページが選択されたAEM Sites電子メールフォルダー](assets/aem_authoring_2.png)
 
 1. 「**[!UICONTROL Adobe Campaign メール]**」テンプレートを選択し、ニュースレターに名前を付けます。
 
 1. ページが作成されたら、**[!UICONTROL ページ情報]**&#x200B;メニューにアクセスし、「**[!UICONTROL プロパティを開く]**」をクリックします。
 
-   ![](assets/aem_authoring_3.png)
+   ![&#x200B; ページ情報メニューを開き、「プロパティを開く」がハイライト表示されたニュースレターページエディター](assets/aem_authoring_3.png)
 
 1. Adobe Campaign のパーソナライゼーションフィールドなどのコンポーネントを追加してメールコンテンツをカスタマイズします。 詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ja#editing-email-content){target="_blank"}を参照してください。
 
 1. メールの準備が整ったら、**[!UICONTROL ページ情報]**&#x200B;メニューに移動し、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 
-   ![](assets/aem_authoring_4.png)
+   ![&#x200B; ページ情報メニューを開き、「ワークフローを開始」がハイライト表示されたニュースレターページエディター](assets/aem_authoring_4.png)
 
 1. 最初のドロップダウンから、ワークフローモデルとして「**[!UICONTROL Adobe Campaign を承認]**」を選択し、「**[!UICONTROL ワークフローを開始]**」をクリックします。
 
-   ![](assets/aem_authoring_5.png)
+   ![&#x200B; ワークフローモデルとしてAdobe Campaignの承認を選択した状態でワークフローダイアログを開始](assets/aem_authoring_5.png)
 
 1. ページの上部に `This page is subject to the workflow Approve for Adobe Campaign` という免責事項が表示されます。 免責事項の横にある「**[!UICONTROL 完了]**」をクリックしてレビューを確認し、「**[!UICONTROL OK]**」をクリックします。
 
 1. もう一度「**[!UICONTROL 完了]**」をクリックし、**[!UICONTROL 次のステップ]**&#x200B;ドロップダウンで「**[!UICONTROL ニュースレターの承認]**」を選択します。
 
-   ![](assets/aem_authoring_6.png)
+   ![次の手順リストと「OK」ボタンでニュースレターの承認が選択された作業項目を完了ダイアログ &#x200B;](assets/aem_authoring_6.png)
 
 これでニュースレターが準備でき、Adobe Campaign で同期されました。
 
@@ -94,7 +94,7 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
 1. **[!UICONTROL 配信テンプレート]**&#x200B;ドロップダウンメニューから「**[!UICONTROL AEM コンテンツでメール配信（mailAEMContent）]**」テンプレートを選択します。
 
-   ![](assets/aem_authoring_7.png)
+   AEM コンテンツ（mailAEMContent）が選択されたメール配信を含む![&#x200B; キャンペーン配信テンプレートのリスト &#x200B;](assets/aem_authoring_7.png)
 
 1. 配信に&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加し、「**[!UICONTROL 続行]**」をクリックします。
 
@@ -102,15 +102,15 @@ Adobe Campaign と Adobe Experience Manager を統合すると、メール配信
 
    このボタンがインターフェイスに表示されない場合は、「**[!UICONTROL プロパティ]**」ボタンに移動し、「**[!UICONTROL 詳細設定]**」タブにアクセスします。 「**[!UICONTROL コンテンツ編集モード]**」フィールドが **[!UICONTROL AEM]** に設定されていることを確認し、「**[!UICONTROL AEM アカウント]**」フィールドに AEM インスタンスの詳細を入力します。
 
-   ![](assets/aem_authoring_8.png)
+   同期ボタンがハイライト表示された![Campaign メール配信ツールバー](assets/aem_authoring_8.png)
 
 1. [!DNL Adobe Experience Manager] で以前に作成した AEM 配信を選択し、「**[!UICONTROL OK]**」をクリックして確認します。
 
-   ![](assets/aem_authoring_11.png)
+   ![&#x200B; ニュースレター行が選択された承認済みAEM メールを一覧表示するAEM コンテンツダイアログとの同期](assets/aem_authoring_11.png)
 
 1. AEM 配信に変更を行った場合は、「**[!UICONTROL コンテンツを更新]**」ボタンをクリックします。
 
-   ![](assets/aem_authoring_12.png)
+   ![&#x200B; コンテンツを更新ボタンが強調表示され、同期解除ボタンが表示されたメール配信を同期しました](assets/aem_authoring_12.png)
 
 1. Experience Manager と Campaign の間のリンクを削除するには、「**[!UICONTROL 非同期]**」をクリックします。
 
@@ -124,11 +124,11 @@ Adobe Campaign でメールまたはランディングページを編集中に�
 
 1. [!DNL Adobe Experience Manager] オーサーインスタンスに移動し、ページの左上隅にある「Adobe Experience」をクリックします。 メニューから&#x200B;**[!UICONTROL アセット]** `>` **[!UICONTROL ファイル]**&#x200B;を選択します。
 
-   ![](assets/aem_assets_1.png)
+   ![AEM Assetsのナビゲーションメニューで「ファイル」オプションが強調表示されている](assets/aem_assets_1.png)
 
 1. 「**作成**」、「**ファイル**」の順にクリックして、アセットを **Adobe Experience Manager Assets ライブラリ**&#x200B;にインポートします。 詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=ja#uploading-assets){target="_blank"}を参照してください。
 
-   ![](assets/aem_assets_2.png)
+   ![AEM Assets ファイル ビューで「作成」メニューが開き、アセットをアップロードするために「ファイル」が選択されている](assets/aem_assets_2.png)
 
 1. 必要に応じてアセットの名前を変更し、「**アップロード**」を選択します。
 
@@ -138,7 +138,7 @@ Adobe Campaign でメールまたはランディングページを編集中に�
 
 1. Adobe Campaign で、「**Campaign**」タブを参照し、「**配信**」をクリックし、既存の配信のリストの上にある「**作成**」ボタンをクリックして、新しい配信を作成します。
 
-   ![](assets/aem_assets_3.png)
+   「作成」ボタンがハイライト表示された「![&#x200B; キャンペーン配信」タブの「](assets/aem_assets_3.png)」リスト
 
 1. **配信テンプレート**&#x200B;を選択して、配信に名前を付けます。
 
@@ -148,14 +148,14 @@ Adobe Campaign でメールまたはランディングページを編集中に�
 
    **AEM アカウント**&#x200B;を選択し、「**[!UICONTROL 上記の AEM インスタンスを共有アセットライブラリとして使用する]**」オプションを有効にします。
 
-   ![](assets/aem_authoring_9.png)
+   ![配信プロパティ AEM アカウント セットと共有アセットライブラリ オプションが有効になっている「詳細」タブ &#x200B;](assets/aem_authoring_9.png)
 
 1. **画像**&#x200B;アイコンから、**[!UICONTROL 共有アセットを選択]**&#x200B;メニューにアクセスします。
 
-   ![](assets/aem_assets_4.png)
+   共有アセットを選択がハイライト表示された![Campaign メールエディターの画像メニュー](assets/aem_assets_4.png)
 
 1. 選択ウィンドウで、**Adobe xperience Manager Assets ライブラリ**&#x200B;から画像を選択し、「**選択**」をクリックします。
 
-   ![](assets/aem_assets_5.png)
+   ![jogging-newsletter.jpgが選択されたAEM Assets ライブラリファイルを一覧表示する共有アセットウィンドウを選択](assets/aem_assets_5.png)
 
 アセットがメール配信にアップロードされました。 これで、ターゲットオーディエンスを指定し、配信を確認して、送信を続行できるようになります。

@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 71%
+source-wordcount: '545'
+ht-degree: 67%
 ---
 # Campaign でのオーディエンスの使用{#gs-ac-audiences}
 
@@ -44,13 +44,13 @@ ht-degree: 71%
 
 リストは、配信アクションのターゲットにしたり、インポート操作時や別のワークフロー実行時に更新したりできる、連絡先の静的なセットです。 例えば、クエリによってデータベースから抽出した母集団からリストを作成できます。
 
-リストの作成と管理の方法については、[こちらのページ](../audiences/create-audiences.md)を参照してください。
+[Campaign](../audiences/create-audiences.md)でのプロファイルオーディエンスの作成で、リストを作成および管理する方法について説明します。
 
 ## データベースのフィルター{#filter-the-database}
 
 フィルター設定を使用すると、リストからデータを&#x200B;**[!UICONTROL 動的に]**&#x200B;選択できます。データが変更されると、フィルターされたデータが更新されます。 独自のフィルターを作成することも、ビルトインのフィルターを使用してターゲットオーディエンスを定義することもできます。
 
-フィルターの作成と管理の方法について詳しくは、[こちらのページ](../audiences/create-filters.md)を参照してください。
+[Adobe Campaignでフィルターを作成および管理する方法について説明します。](../audiences/create-filters.md)
 
 ## ワークフローでのオーディエンスの作成
 

@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Campaign Standard APIを使用すると、**外部信号** アクティビティ
 
 パラメーターを使用してワークフローを呼び出す場合は、**&quot;parameters&quot;**&#x200B;属性を使用してペイロードに追加します。 構文は、パラメーターの名前とその値で構成されます（次のタイプはサポートされています：**文字列**、**数値**、**ブール値**、**日付/時刻**）。
 
-```
+```bash
   -X POST <TRIGGER_URL>
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
@@ -76,7 +76,7 @@ Campaign Standard APIを使用すると、**外部信号** アクティビティ
 
 ワークフローに対してGET リクエストを実行します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -86,7 +86,7 @@ Campaign Standard APIを使用すると、**外部信号** アクティビティ
 
 ワークフローシグナルのアクティビティと関連するトリガーのURLを返します。
 
-```
+```json
 {
 "PKey": "<PKEY>",
 "activities": {
@@ -105,7 +105,7 @@ Campaign Standard APIを使用すると、**外部信号** アクティビティ
 
 シグナル アクティビティをトリガーするには、「source」を指定してトリガー URLに対してPOST リクエストを実行します。 パラメーターを使用してワークフローを呼び出す場合は、「パラメーター」属性を追加します。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -129,7 +129,7 @@ Campaign Standard APIを使用すると、**外部信号** アクティビティ
 
 外部シグナル アクティビティでパラメーターの1つが宣言されていない場合、POST リクエストは、欠落しているパラメーターを示す以下のエラーを返します。
 
-```
+```text
 RST-360011 An error has occurred - please contact your administrator.
 'contentURL' parameter isn't defined in signal activity.
 XTK-170006 Unable to parse expression 'HandleTrigger(@name, $(source), $({parameters}))'.

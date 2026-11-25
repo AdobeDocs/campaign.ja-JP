@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 94%
+source-wordcount: '867'
+ht-degree: 90%
 ---
 # Adobe Campaign を使用して X（Twitter）でメッセージを投稿 {#post-tw-messages}
 
@@ -40,7 +40,7 @@ Adobe Campaign には、X（旧 Twitter）を介して顧客や見込み客と�
 * プロファイルデータを回収して新しい連絡先を収集します。これにより、キャンペーンのターゲティングを実行し、可能であればクロスチャネル戦略を導入できます。 この操作には、ユーザーの同意が必要です。
 
 
-X アカウントを Adobe Campaign と統合するための設定手順については、[このページ](../connect/ac-tw.md)を参照してください。
+X アカウントをAdobe Campaignと統合するための設定手順については、[CampaignとX （Twitter）の連携](../connect/ac-tw.md)を参照してください。
 
 ## X投稿の作成と公開 {#publish-on-tw}
 
@@ -126,7 +126,7 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
       * 「**[!UICONTROL Twitter 購読者]**」を選択し、フォロワー全員にダイレクトメッセージを送信します。
 
-      * 「**[!UICONTROL フィルター条件]**」を選択し、クエリを定義して結果を表示します。 フィルターを作成する方法については、[こちらの節](../audiences/create-filters.md#advanced-filters)を参照してください。
+      * 「**[!UICONTROL フィルター条件]**」を選択し、クエリを定義して結果を表示します。 [詳細フィルター](../audiences/create-filters.md#advanced-filters)でフィルターを作成する方法について説明します。
 
 1. 「**[!UICONTROL 配達確認のターゲット]**」タブから配達確認のターゲットを選択する：このアカウントは、ダイレクトメッセージの配達確認を受信します。
 
@@ -141,7 +141,7 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
    ![](assets/tw-dm-content.png)
 
-   パーソナライゼーションフィールドは、メール配信と同じ手順で使用可能です。例えば、メッセージの本文にフォロワーの名前を追加できます。 詳しくは、[この節](../send/personalize.md)を参照してください。
+   パーソナライゼーションフィールドは、メール配信と同じ手順で使用可能です。例えば、メッセージの本文にフォロワーの名前を追加できます。 詳細については、[&#x200B; パーソナライゼーションの基本を学ぶ](../send/personalize.md)を参照してください。
 
 1. メッセージのプレビュー
 

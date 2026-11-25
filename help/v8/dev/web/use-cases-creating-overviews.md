@@ -31,10 +31,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 95%
+source-wordcount: '1040'
+ht-degree: 94%
 ---
 # ユースケース：概要ページの作成{#use-cases-creating-overviews}
 
@@ -148,7 +148,7 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL 追加の情報]**」タブで、次のコードを追加します。
 
-   ```
+   ```html
    <div class="detailBox">
      <div class="actionBox">
        <span class="action"><img src="/xtk/img/fileEdit.png"/><a title="Open" class="linkAction" href="xtk://open/?schema=nms:webApp&form=nms:webApp&pk=
@@ -194,7 +194,7 @@ ht-degree: 95%
 
    ![](assets/s_ncs_configuration_webapp_container.png)
 
-   要素のレイアウトについては、[この節](about-web-forms.md)を参照してください。
+   要素レイアウトについて詳しくは、[Web フォームの使用を開始する](about-web-forms.md)を参照してください。
 
 1. **dottedFilter** を適用します。
 

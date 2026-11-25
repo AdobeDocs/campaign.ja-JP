@@ -22,10 +22,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 81%
+source-wordcount: '494'
+ht-degree: 68%
 ---
 # オファーカタログの作成
 
@@ -45,15 +45,15 @@ ht-degree: 81%
 
 1. **[!UICONTROL オファーカタログ]** フォルダーを参照します。
 
-   ![](assets/offer_cat_create_001.png)
+   オファー – デザインと環境 – 受信者![&#128279;](assets/offer_cat_create_001.png)の下でオファーカタログフォルダーが選択された エクスプローラーツリー
 
 1. 右クリックし、ドロップダウンリストから「**[!UICONTROL 新しい「オファーカテゴリ」フォルダーを作成]**」を選択します。
 
-   ![](assets/offer_cat_create_002.png)
+   オファーカタログの![&#x200B; コンテキストメニューで「新しいオファーカテゴリを作成」フォルダーオプションが強調表示されている](assets/offer_cat_create_002.png)
 
 1. カテゴリの名前を変更します。 「**[!UICONTROL 一般]**」タブを使用して、後でラベルを編集することもできます。
 
-   ![](assets/offer_cat_create_003.png)
+   ![Neobankという名前の新しいカテゴリーフォルダー – オファーカタログツリー内の個人用バンキング、名前を変更する準備ができました](assets/offer_cat_create_003.png)
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 81%
 
    * 「**[!UICONTROL 実施要件]**」タブで、実施日を割り当てます。
 
-     ![](assets/offer_cat_create_004.png)
+     ![開始日フィールドと終了日フィールド、カレンダーを開き、ターゲットフィルターのクエリを編集リンクを含む「実施要件」タブ &#x200B;](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL クエリを編集]**&#x200B;して、オファーのターゲットにフィルターを適用します。
 
@@ -83,4 +83,4 @@ ht-degree: 81%
 1. 「**[!UICONTROL 実地要件]**」タブをクリックし、「**[!UICONTROL レコメンデーションにこのカテゴリを常に含める]**」チェックボックスをオンにします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/offer_cat_default_001.png)
+   ![常にこのカテゴリを選択した推奨事項に含めるカテゴリの適格性タブ &#x200B;](assets/offer_cat_default_001.png)

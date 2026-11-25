@@ -29,10 +29,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 64%
+source-wordcount: '204'
+ht-degree: 53%
 ---
 # シミュレーションのトラッキング{#simulation-tracking}
 
@@ -46,10 +46,10 @@ ht-degree: 64%
 
 記述的分析アシスタントについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"}を参照してください。
 
-![](assets/offer_simulation_012.png)
+オファーによる提案の内訳と結果の記述分析リンクを含む![&#x200B; シミュレーション結果タブ &#x200B;](assets/offer_simulation_012.png)
 
 ピボットテーブルを使用すると、オファーのランキングごとの分類をすばやく確認できます。 Adobe Campaign のすべてのレポートと同じように、エクスポート、印刷、アーカイブまたは web ブラウザーでの表示が可能です。
 
 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}を参照してください。
 
-![](assets/offer_simulation_013.png)
+![&#x200B; シミュレーション ダッシュボード、オファーのランク別の内訳レポート、オファーのランキング表、円グラフ、エクスポート ツールバー](assets/offer_simulation_013.png)

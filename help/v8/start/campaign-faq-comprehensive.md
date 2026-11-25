@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '11618'
+source-wordcount: '11620'
 ht-degree: 17%
 ---
 # よくある質問 {#faq}
@@ -102,7 +102,7 @@ Adobe IDを使用したCampaign v8へのアクセスについて[詳細](connect
 
 +++ Campaign ユーザーインターフェイスについて知っておくべき概念は何ですか？
 
-Adobe Campaign ユーザーインターフェイスの基本について詳しくは、[この節](campaign-ui.md)を参照してください。
+Adobe Campaign ユーザーインターフェイスの基本について詳しくは、[Campaign ユーザーインターフェイスの詳細](campaign-ui.md)を参照してください。
 
 Campaign v8.6 リリース以降では、中央の[!DNL CX Enterprise]環境を通じて利用できる新しい&#x200B;**Campaign Web ユーザーインターフェイス**&#x200B;にもアクセスできます。
 

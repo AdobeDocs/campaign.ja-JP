@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 2%
+ht-degree: 1%
 ---
 # 追加操作 {#additional-operations}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 並べ替えは、デフォルトで昇順で使用できます。 降順で並べ替えるには、**%20desc**&#x200B;を&#x200B;**_order** パラメーターの値に追加します。
 
-フィールドを並べ替えることができるかどうかを確認するには、「sortable」パラメーターをリソースメタデータに確認します。 詳しくは、[この節](metadata-mechanism.md)を参照してください。
+フィールドを並べ替えることができるかどうかを確認するには、「sortable」パラメーターをリソースメタデータに確認します。 詳しくは、[&#x200B; メタデータメカニズム &#x200B;](metadata-mechanism.md)を参照してください。
 
 <br/>
 
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 * データベース内の電子メールをアルファベット順に取得するためのGET リクエストのサンプル。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -59,7 +59,7 @@ ht-degree: 2%
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
   "content": [
       "adam@email.com",
@@ -74,7 +74,7 @@ ht-degree: 2%
 
 * GET リクエストをサンプルして、データベース内の電子メールを降順アルファ順で取得します。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -84,7 +84,7 @@ ht-degree: 2%
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
   "content": [
       "tombinder@example.com",
@@ -100,7 +100,7 @@ ht-degree: 2%
 
 ### フィルターのメタデータの取得
 
-各リソースにフィルターを使用できます。 リソースに関連付けられているフィルターを識別するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[この節](metadata-mechanism.md)を参照してください。
+各リソースにフィルターを使用できます。 リソースに関連付けられているフィルターを識別するには、リソースメタデータに対してGET リクエストを実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[&#x200B; メタデータメカニズム &#x200B;](metadata-mechanism.md)を参照してください。
 
 フィルターのメタデータを識別し、その使用方法を決定するには、以前に返されたURLに対してGET リクエストを実行する必要があります。
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 
 以下のペイロードのサンプルは、「profile」リソースの「byText」フィルターメタデータを取得する方法を示しています。 まず、「プロファイル」リソースメタデータに対してGET リクエストを実行します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 フィルターが記述されているURLを返します。
 
-```
+```json
 {
 "filters": {
         "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/<PKEY>/filters/"
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 URLに対してGET リクエストを実行します。 プロファイルリソースのフィルターのリストと、各フィルターに関連付けられたメタデータを返します。
 
-```
+```json
 {
 "birthday": {
         "PKey": "@FL-CbDFXbnHbXcVpeCGWL46VXJLn1LqxLMPagt2vz8sCxQ52lvB15KiUaxXkxJYQw-tZXYrgUWG6K8QcB4gxVY9RKoba5bRFY3294YFshDmorRr8",
@@ -156,7 +156,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 フィルターのメタデータ構造のサンプル：
 
-```
+```json
 "byText": {
         "PKey": "...",
         "category": "99_none",
@@ -184,7 +184,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 * GET リクエストをサンプルして、「email」タイプの「service」リソースを取得します。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -194,7 +194,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -217,7 +217,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 * で「Doe」を含む「プロファイル」リソースを取得するためのGET リクエストのサンプル
 電子メールまたは姓のフィールド（byText フィルターは、電子メールと姓の両方のフィールドを検索します）。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -227,7 +227,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -245,7 +245,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 * GET リクエストをサンプルして、「email」と「sport」というラベルが付いたサービスリソースを取得します。
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -255,7 +255,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
   リクエストへの応答。
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -292,7 +292,7 @@ URLに対してGET リクエストを実行します。 プロファイルリソ
 
 トランザクション金額が100$以上の「プロファイル」リソースを取得するためのGET リクエストのサンプル。 「byAmount」フィルターは、最初にAdobe Campaign Standard インターフェイスで定義され、「Transaction」カスタムテーブルにリンクされています。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -356,7 +356,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 **messageType**&#x200B;の値が「sms」と等しいすべてのサービスをカウントするには、**byChannel** フィルターを使用してGET リクエストを実行します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -366,7 +366,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 フィルターに対応するサービスが返されます。
 
-```
+```json
 {
     "content": [
         {
@@ -387,7 +387,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 **count** ノードのURLに対してGET リクエストを実行し、結果の数を取得します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -397,7 +397,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 レコード数を返します。
 
-```
+```json
 {
     "count": 26
 }
@@ -421,7 +421,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 プロファイルリソースの1つのレコードを表示するGET リクエストのサンプル。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -431,7 +431,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 リクエストに応答し、**next** ノードを使用してページネーションを実行します。
 
-```
+```json
 {
     "content": [
         {
@@ -452,7 +452,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 
 デフォルトでは、大量のデータを含むテーブルを操作する場合、**next** ノードは使用できません。 ページネーションを実行するには、呼び出しURLに&#x200B;**_forcePagination=true** パラメーターを追加する必要があります。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

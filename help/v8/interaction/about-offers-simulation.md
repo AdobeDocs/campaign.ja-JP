@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 74%
 ---
 # オファーのシミュレーションについて{#about-offers-simulation}
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 オファーをシミュレートする方法については、以下の手順を参照してください。
 
-![](assets/how-to-video.png) [このビデオ](https://helpx.adobe.com/jp/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com)もご覧ください。
+![&#x200B; ビデオを再生](assets/how-to-video.png)この[&#x200B; ビデオ &#x200B;](https://helpx.adobe.com/jp/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com)も視聴できます。
 
 ## シミュレーション作成の主な手順 {#main-steps-for-creating-a-simulation}
 
@@ -46,14 +46,14 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL プロファイルとターゲット]**」タブで、「**[!UICONTROL シミュレーション]**」リンクをクリックしたあと、「**[!UICONTROL 作成]**」ボタンをクリックします。
 
-   ![](assets/offer_simulation_001.png)
+   ![&#x200B; テンプレート、ラベル、フォルダーを含む新しいオファーシミュレーションダイアログを開く「作成」ボタンを含むシミュレーションリスト &#x200B;](assets/offer_simulation_001.png)
 
 1. 作成したシミュレーションを保存し、編集します。
 1. 「**[!UICONTROL 編集]**」タブに移動し、実行設定を指定します。
 
    詳しくは、[実行設定](execution-settings.md)を参照してください。
 
-   ![](assets/offer_simulation_003.png)
+   ![&#x200B; シミュレーションの「一般」タブ、実行設定：低いアクティビティのスケジュール設定、SQL ロギングおよび優先度リスト &#x200B;](assets/offer_simulation_003.png)
 
    >[!NOTE]
    >
@@ -63,21 +63,21 @@ ht-degree: 100%
 
    詳しくは、[スコープの定義](simulation-scope.md#definition-of-the-scope)を参照してください。
 
-   ![](assets/offer_simulation_004.png)
+   ![環境、オファースペース、連絡日、提案および素晴らしい旅行者ターゲットのフォルダーを含む「シミュレーション範囲」タブ &#x200B;](assets/offer_simulation_004.png)
 
 1. レポートの軸を追加して、**[!UICONTROL オファーの配分（ランキング別）]**&#x200B;レポートの内容をより充実させます（オプション）。
 
    詳しくは、[レポートの軸の追加](simulation-scope.md#adding-reporting-axes)を参照してください。
 
-   ![](assets/offer_simulation_005.png)
+   ターゲットとオファーのレポート軸と「追加」ボタンを含む「![&#x200B; シミュレーション計算」タブ &#x200B;](assets/offer_simulation_005.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックして、シミュレーションの設定を保存します。
 1. ダッシュボードからシミュレーションを開始します。
 
-   ![](assets/offer_simulation_006.png)
+   ![&#x200B; シミュレーション開始ボタンがハイライト表示されたシミュレーションダッシュボード &#x200B;](assets/offer_simulation_006.png)
 
 1. シミュレーション結果をチェックし、分析レポートを表示します。
 
    詳しくは、[シミュレーションのトラッキング](simulation-tracking.md)を参照してください。
 
-   ![](assets/offer_simulation_007.png)
+   ![&#x200B; オファーランキングテーブルと円グラフを含むランク別オファーの結果タブと内訳](assets/offer_simulation_007.png)

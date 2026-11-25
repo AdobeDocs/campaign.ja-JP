@@ -50,10 +50,10 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 81%
+source-wordcount: '1180'
+ht-degree: 80%
 ---
 # 一般的なアーキテクチャ{#general-architecture}
 
@@ -128,7 +128,7 @@ Adobe Campaign モジュールには 3 つのタイプがあります。
 
 事前定義されたデータベースとスキーマを使用して Adobe Campaign をデプロイできます。この事前定義された環境は、必要に応じて拡張できます。 Adobe Campaign からデータマート内のすべてのデータへは、SQL 呼び出しを介してアクセスします。 Adobe Campaign には、ETL（抽出、変換、ロード）ツールを補完する機能も備わっており、システムとの間でのデータのインポートとエクスポートを実行することができます。
 
-![](assets/data-flow-diagram.png)
+![&#x200B; クライアントコンピューター、トラッキングとMTAを持つフロントサーバー、アプリケーションサーバー、データベース、バウンスメールボックス間のトラフィック &#x200B;](assets/data-flow-diagram.png)
 
 
 >[!CAUTION]

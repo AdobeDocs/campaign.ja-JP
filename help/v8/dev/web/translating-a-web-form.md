@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 98%
@@ -178,13 +178,13 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 Web フォームは、Web アプリケーションプロパティの「**[!UICONTROL ローカライゼーション]**」タブで指定されたデフォルト言語で表示されます。 言語を変更するには、URL の末尾に次の文字列を追加する必要があります（**xx** は、言語のシンボルです）。
 
-```
+```text
 ?lang=xx
 ```
 
 言語が URL の最初または唯一のパラメーターの場合。 例：**https://myserver/webApp/APP34**
 
-```
+```text
 &lang=xx
 ```
 

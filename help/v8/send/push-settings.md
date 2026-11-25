@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 88%
+source-wordcount: '1991'
+ht-degree: 87%
 ---
 # プッシュ通知チャネルを設定 {#push-notification-configuration}
 
@@ -196,7 +196,7 @@ To get the SDKs needed for push notification to work you will need the following
 
    >[!NOTE]
    >
-   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。 ターゲットマッピングについて詳しくは、[このページ](../audiences/target-mappings.md)を参照してください。
+   >デフォルトの「**[!UICONTROL 登録者のアプリケーション（nms:appSubscriptionRcp）]**」ターゲットマッピングが受信者のテーブルにリンクされています。 異なるターゲットマッピングを使用する場合は、新しいターゲットマッピングを作成し、サービスの「**[!UICONTROL ターゲットマッピング]**」フィールドに入力する必要があります。 ターゲットマッピングについて詳しくは、[&#x200B; ターゲットマッピングの操作](../audiences/target-mappings.md)を参照してください。
 
 1. 次に、右側にある「**[!UICONTROL 追加]**」アイコンを使用して、このサービスを使用するモバイルアプリケーションを定義します。
 

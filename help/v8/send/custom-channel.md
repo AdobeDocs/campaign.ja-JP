@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 36%
+source-wordcount: '570'
+ht-degree: 31%
 ---
 # カスタムチャネルの基本を学ぶ {#gs-custom-channel}
 
@@ -40,11 +40,11 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
 クライアントコンソールで新しいカスタムチャネルを設定する手順は次のとおりです。 次の手順は、カスタム外部チャネルと API チャネルに共通です。
 
-1. スキーマを設定します。[詳細情報](#configure-schema)
-1. 新しい外部アカウントを作成します。[詳細情報](#create-ext-account)
-1. 新しい配信テンプレートを作成します。[詳細情報](#create-template)
+1. スキーマの設定，[&#x200B; スキーマの設定](#configure-schema)
+1. 新しい外部アカウントの作成，[新しい外部アカウントの作成](#create-ext-account)
+1. 新しい配信テンプレートの作成，[新しい配信テンプレートの作成](#create-template)
 
-カスタム API チャネルには、追加の設定が必要です。 [詳細情報](#api-additional)
+カスタム API チャネルには、追加の設定が必要です。 [&#x200B; カスタム API追加設定](#api-additional)
 
 ## スキーマの設定{#configure-schema}
 
@@ -56,7 +56,7 @@ Adobe Campaignでは、サードパーティと統合されたカスタム外部
 
    例：
 
-   ```
+   ```xml
    <enumeration basetype="byte" default="mail" label="Channel" name="messageType">
    <value desc="My Webpush" img="ncm:channels.png" label="My Webpush" name="webpush"
           value="122"/>
@@ -113,7 +113,7 @@ Campaign Web UIから、カスタム画面定義を設定します。
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 
-1. 「**コンテンツをシミュレートするプレビュー**」セクションで、専用のJSPPを選択します。 これはオプションです。 これにより、配信シミュレーション画面でプレビューがアクティブになります。 [詳細情報](#api-additional-preview)
+1. 「**コンテンツをシミュレートするプレビュー**」セクションで、専用のJSPPを選択します。 これはオプションです。 これにより、配信シミュレーション画面でプレビューがアクティブになります。 [&#x200B; プレビューの設定](#api-additional-preview)
 
 ### プレビューの設定{#api-additional-preview}
 
@@ -128,7 +128,7 @@ Web UIの配信シミュレーション画面で&#x200B;**プレビューを開�
 
 クライアントコンソールで、**管理** > **設定** > **動的JavaScript ページ**&#x200B;を選択し、新しいJSSPを作成します。 取得する必要があるパラメーターの例を次に示します。
 
-```
+```html
 <%@ page import="xtk:shared/nl.js"
 %><%
   NL.require("/nl/core/shared/core.js")

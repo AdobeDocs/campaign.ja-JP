@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 100%
+source-wordcount: '1623'
+ht-degree: 85%
 ---
 # Campaign と CRM の間のデータ同期 {#data-synchronization}
 
@@ -40,13 +40,13 @@ Adobe Campaign と CRM 間のデータ同期は、**CRM コネクタ**&#x200B;�
 
 Microsoft Dynamics データを Adobe Campaign にインポートするには、次のタイプのワークフローを作成します。
 
-![](assets/ms-dyn-wf.png)
+![MS Dynamics ワークフローの読み込み：CRM コネクタ、エンリッチメント、重複排除、およびデータ アクティビティの更新を順番に行います](assets/ms-dyn-wf.png)
 
 このワークフローでは、Microsoft Dynamics 経由で連絡先がインポートされ、それらが既存の Adobe Campaign データと同期され、重複する連絡先が削除され、Adobe Campaign データベースが更新されます。
 
 **[!UICONTROL CRM コネクタ]**&#x200B;アクティビティは、データを同期するように設定する必要があります。
 
-![](assets/crm-connector-ms-dyn.png)
+![CRM コネクタ アクティビティが、Microsoft Dynamics CRM、連絡先オブジェクト、リモート フィールドを使用してCRMからインポートするように設定されています](assets/crm-connector-ms-dyn.png)
 
 このアクティビティを使用すると、次のことができます。
 
@@ -55,11 +55,11 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 * CRM で削除されたオブジェクトのインポート - [詳細情報](#importing-objects-deleted-in-the-crm)
 * CRM 内のオブジェクトの削除 - [詳細情報](#deleting-objects-in-the-crm)
 
-![](assets/crm-remote-op.png)
+![CRMからのインポート、CRMへのエクスポート、CRMで削除されたオブジェクトのインポートおよびオブジェクトの削除を含むCRM コネクタの種類リスト &#x200B;](assets/crm-remote-op.png)
 
 同期の設定対象となる CRM に対応する外部アカウントを選択し、同期するオブジェクト（アカウント、オポチュニティ、リード、連絡先など）を選択します。
 
-![](assets/crm-remote-obj.png)
+連絡先が選択されたSalesforce CRMの![CRM コネクタ リモート オブジェクト リスト &#x200B;](assets/crm-remote-obj.png)
 
 このアクティビティの設定は、実行するプロセスによって異なります。 次に、様々な設定について詳しく説明します。
 
@@ -67,7 +67,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
 データを CRM 経由で Adobe Campaign にインポートするには、次のタイプのワークフローを作成する必要があります。
 
-![](assets/crm-wf-import.png)
+![&#x200B; ユーザーCRM コネクタを使用したワークフローの読み込み、フォルダーの選択、ユーザーの更新、最後のユーザー更新アクティビティの保存](assets/crm-wf-import.png)
 
 1. 「**[!UICONTROL CRM からインポート]**」操作を選択します。
 1. 「**[!UICONTROL リモートオブジェクト]**」ドロップダウンリストから、インポートするオブジェクトを選択します。 このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
@@ -75,7 +75,7 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
    フィールドを追加するには、ツールバーの「**[!UICONTROL 追加]**」ボタンをクリックし、「**[!UICONTROL 式を編集]**」アイコンをクリックします。
 
-   必要に応じて、「**[!UICONTROL コンバージョン]**」列のドロップダウンリストを使用してデータフォーマットを変更します。 使用可能なコンバージョンタイプについて詳しくは、この[節](#data-format)を参照してください。
+   必要に応じて、「**[!UICONTROL コンバージョン]**」列のドロップダウンリストを使用してデータフォーマットを変更します。 使用可能なコンバージョンタイプについて詳しくは、[データフォーマット](#data-format)を参照してください。
 
    >[!CAUTION]
    >
@@ -87,21 +87,21 @@ Microsoft Dynamics データを Adobe Campaign にインポートするには、
 
    次の例では、2021年11月1日以降にアクティビティが記録された連絡先のみが Adobe Campaign によってインポートされます。
 
-   ![](assets/crm-task-import-filter.png)
+   ![CRM コネクタの読み込みに関して、2021年12月1日以降の最後のアクティビティを条件とするフィルターを編集ダイアログ &#x200B;](assets/crm-task-import-filter.png)
 
    >[!CAUTION]
    >
-   >データのフィルターモードに関連する制限について詳しくは、[この節](#filtering-data)を参照してください。
+   >データフィルタリングモードに関連する制限については、[&#x200B; フィルターデータ &#x200B;](#filtering-data)で詳しく説明しています。
 
 1. 「**[!UICONTROL 自動インデックスを使用...]**」オプションを使用すると、CRM と Adobe Campaign の間の増分オブジェクト同期を、日付と最終変更日に応じて自動的に管理できます。
 
-   詳しくは、[この節](#variable-management)を参照してください。
+   詳しくは、[変数の管理](#variable-management)を参照してください。
 
 ### 変数の管理 {#variable-management}
 
 「**[!UICONTROL 自動インデックス]**」オプションを有効にすると、前回のインポート以降に変更されたオブジェクトのみを収集できます。
 
-![](assets/use-auto-index.png)
+![自動インデックスオプション、オプション名およびインデックスフィールド LastReferencedDate](assets/use-auto-index.png)を使用した自動インデックスダイアログの使用
 
 最後の同期の日付が、設定ウィンドウで指定したオプションに保存されます。デフォルトでは、**LASTIMPORT_&lt;%=instance.internalName%>_&lt;%=activityName%>** です。
 
@@ -149,7 +149,7 @@ Microsoft Dynamics および Salesforce.com では、インポートされるリ
 
 リストでの列の順序が、並べ替え順です。
 
-![](assets/crm-import-order.png)
+![&#x200B; ダイアログによる並べ替えレベル__cの降順で並べ替え、次にMailingCity](assets/crm-import-order.png)
 
 ### レコード識別 {#record-identification}
 
@@ -159,7 +159,7 @@ CRM に含まれる（フィルターされた可能性がある）要素をイ�
 
 次に、インポートするインバウンドの母集団のフィールドを次に示すように選択します。
 
-![](assets/use-population-calc-upstream.png)
+![CRM コネクタ （上流で計算された母集団を使用）が選択され、リモート フィールド AccountIdとId](assets/use-population-calc-upstream.png)
 
 ## CRM へのエクスポート {#exporting-to-the-crm}
 
@@ -167,7 +167,7 @@ Adobe Campaign のデータを CRM にエクスポートして、その内容全
 
 データを CRM にエクスポートするには、次のタイプのワークフローを作成します。
 
-![](assets/crm-export-diagram.png)
+![CRM書き出しワークフロー：スケジューラー、書き出すリードに対するクエリ、リード MsCrm コネクタの書き出しとリードの更新](assets/crm-export-diagram.png)
 
 1. 「**[!UICONTROL CRM にエクスポート]**」操作を選択します。
 1. 「**[!UICONTROL リモートオブジェクト]**」ドロップダウンリストに移動し、エクスポートするオブジェクトを選択します。 このオブジェクトは、コネクタの設定時に Adobe Campaign で作成されたテーブルのいずれかと一致します。
@@ -178,7 +178,7 @@ Adobe Campaign のデータを CRM にエクスポートして、その内容全
 
 1. より高速なエクスポートを実行する必要がある場合は、「**[!UICONTROL バッチでのエクスポート]**」オプションをオンにします。
 
-   ![](assets/crm-export-batch.png)
+   ![CRM コネクタが「バッチで書き出し」オプションを選択して「CRMに書き出し」に設定されています](assets/crm-export-batch.png)
 
 1. 「**[!UICONTROL マッピング]**」セクションで、「**[!UICONTROL 新規]**」をクリックし、エクスポートされるフィールドと CRM でのそれらのマッピングを指定します。
 
@@ -188,7 +188,7 @@ Adobe Campaign のデータを CRM にエクスポートして、その内容全
    >
    >フィールドに一致が定義されていない場合、値は更新できません。これらは CRM に直接挿入されます。
 
-   必要に応じて、「**[!UICONTROL コンバージョン]**」列のドロップダウンリストを使用してデータフォーマットを変更します。 使用可能なコンバージョンタイプについて詳しくは、この[節](#data-format)を参照してください。
+   必要に応じて、「**[!UICONTROL コンバージョン]**」列のドロップダウンリストを使用してデータフォーマットを変更します。 使用可能なコンバージョンタイプについて詳しくは、[データフォーマット](#data-format)を参照してください。
 
    >[!NOTE]
    >
@@ -202,7 +202,7 @@ CRM へのインポートまたは CRM からのインポート中にデータ�
 
 そのためには、適用する変換を対応する列で選択します。
 
-![](assets/crm-task-import.png)
+![&#x200B; コンバージョンリストのリモートフィールド CreatedDate: デフォルト、日付のみ、時間オフセットなし、コピー/ペースト &#x200B;](assets/crm-task-import.png)
 
 「**[!UICONTROL デフォルト]**」モードでは、自動データ変換が適用されます。ほとんどの場合、これはデータのコピー／貼り付けと同じです。 ただし、タイムゾーン管理が適用されます。
 
@@ -216,11 +216,11 @@ CRM へのインポートまたは CRM からのインポート中にデータ�
 
 データのインポートまたはエクスポートのフレームワーク内で、エラーおよび却下に対して特定のプロセスを適用できます。 これを行うには、「**[!UICONTROL 動作]**」タブの「**[!UICONTROL ファイルで却下を保持]**」および「**[!UICONTROL エラーを処理]**」オプションをクリックします。
 
-![](assets/crm-export-options.png)
+ファイル内の拒否を保持し、エラーを処理する![CRM コネクタの動作タブが選択されています](assets/crm-export-options.png)
 
 これらのオプションは、関連する出力トランジションを追加します。
 
-![](assets/crm-export-transitions.png)
+エラー、「OK」、「却下」、「アウトバウンドトランジションを続行」が表示されたワークフローの![CRM コネクタのアクティビティ &#x200B;](assets/crm-export-transitions.png)
 
 次に、関連するアクティビティを挿入して、データを処理します。 例えば、**待機**&#x200B;アクティビティを追加し、エラーの再試行をスケジュールします。
 

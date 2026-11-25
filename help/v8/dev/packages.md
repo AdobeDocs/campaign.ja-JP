@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f89b58e9c7a87b6526dbbf491db67109418f2006
 workflow-type: tm+mt
-source-wordcount: '2028'
-ht-degree: 87%
+source-wordcount: '2042'
+ht-degree: 85%
 ---
 # データパッケージの使用{#data-packages}
 
@@ -142,7 +142,7 @@ XML ドキュメントの先頭と末尾には必ず `<package>` 要素を記述
 
    >[!NOTE]
    >
-   >クエリエディターについては、[この節](../../automation/workflow/query.md)を参照してください。
+   >クエリエディターは、[&#x200B; クエリを作成](../../automation/workflow/query.md#creating-a-query)に表示されます。
 
 1. 「**[!UICONTROL 次へ]**」をクリックし、エクスポートしたデータの並べ替え順序を選択します。
 
@@ -159,7 +159,7 @@ XML ドキュメントの先頭と末尾には必ず `<package>` 要素を記述
 
 >[!NOTE]
 >
->スキーマ要素に関連付けられる整合性タイプの定義については、[このページ](database-links.md)を参照してください。
+>スキーマ要素にリンクされた整合性タイプは、[Campaign スキーマのリンク管理](database-links.md)で定義されています。
 
 #### キャンペーンのエクスポート {#export-a-campaign}
 
@@ -253,7 +253,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 ### パッケージ定義へのエンティティの追加 {#add-entities-to-a-package-definition}
 
-「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、パッケージとしてエクスポートするエンティティを選択します。 エンティティを選択する際のベストプラクティスについては、[この節](#export-a-set-of-objects-in-a-package)で説明しています。
+「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、パッケージとしてエクスポートするエンティティを選択します。 エンティティを選択する際のベストプラクティスは、[&#x200B; パッケージ内の一連のオブジェクトの書き出し](#export-a-set-of-objects-in-a-package)に記載されています。
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -263,7 +263,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 1. **[!UICONTROL パッケージ定義に追加]**&#x200B;を選択し、エンティティを追加するパッケージ定義を選択します。
 
-1. エンティティはパッケージ定義に追加され、パッケージとともに書き出されます（[このセクション &#x200B;](#export-packages-from-a-package-definition)を参照）。
+1. エンティティはパッケージ定義に追加され、パッケージとともに書き出されます（[&#x200B; パッケージ定義からのパッケージの書き出し](#export-packages-from-a-package-definition)を参照）。
 
 ### パッケージ定義の生成の設定 {#configure-package-definitions-generation}
 

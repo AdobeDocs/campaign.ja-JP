@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 87%
+source-wordcount: '462'
+ht-degree: 83%
 ---
 # トランザクションメッセージの概要{#send-transactional-messages}
 
@@ -49,9 +49,9 @@ ht-degree: 87%
 * 顧客のアクションに対する個々のリアルタイムでの応答
 * 宣伝以外のコンテンツ
 
-トランザクションメッセージの設定について詳しくは、[この節](../config/transactional-msg-settings.md)を参照してください。
+トランザクションメッセージの設定については、[Campaign トランザクションメッセージの設定](../config/transactional-msg-settings.md)を参照してください。
 
-トランザクションメッセージのアーキテクチャについては、[このページ](../architecture/architecture.md#transac-msg-archi)を参照してください。
+[Message Center アーキテクチャ &#x200B;](../architecture/architecture.md#transac-msg-archi)のトランザクション メッセージ アーキテクチャについて説明します。
 
 ## トランザクションメッセージの動作原理 {#transactional-messaging-operating-principle}
 

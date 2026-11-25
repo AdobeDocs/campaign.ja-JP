@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 69%
+source-wordcount: '1221'
+ht-degree: 65%
 ---
 # Campaign UIでの配信の監視 {#delivery-dashboard}
 
@@ -90,7 +90,7 @@ ht-degree: 69%
 
 「**[!UICONTROL レポート]**」リンクは、「**[!UICONTROL 概要]**」タブからアクセスでき、一般配信レポート、詳細レポート、配信レポート、失敗したメッセージの配信、開封率、クリック数、トランザクション数などの、配信操作に関連するレポートのセットを確認できます。
 
-このタブの内容は、必要に応じて設定できます。 配信レポートについて詳しくは、[この節](../reporting/delivery-reports.md)を参照してください。
+このタブの内容は、必要に応じて設定できます。 配信レポートについて詳しくは、[Adobe Campaignの組み込み配信レポート &#x200B;](../reporting/delivery-reports.md)を参照してください。
 
 ![](assets/delivery-report.png)
 
@@ -102,7 +102,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->配信ログを表示するリストは、Campaignの任意のリストと同様にカスタマイズできます。 例えば、配信で各メールを送信した IP アドレスを示す列を追加できます。 リストの表示について詳しくは、[この節](../config/ui-settings.md#customize-lists)を参照してください。
+>配信ログを表示するリストは、Campaignの任意のリストと同様にカスタマイズできます。 例えば、配信で各メールを送信した IP アドレスを示す列を追加できます。 リスト表示の設定について詳しくは、[&#x200B; リストの管理とカスタマイズ &#x200B;](../config/ui-settings.md#customize-lists)を参照してください。
 
 ![](assets/s_ncs_user_delivery_delivery_tab.png)
 
@@ -122,7 +122,7 @@ ht-degree: 69%
 
 トラッキング設定は、配信アシスタントの適切なステージで実行されます。 [トラッキングするリンクの設定方法](tracking.md)を参照してください。
 
-**[!UICONTROL トラッキング]**&#x200B;データは、配信レポートに表示されます。 詳しくは、[この節](../reporting/delivery-reports.md)を参照してください。
+**[!UICONTROL トラッキング]**&#x200B;データは、配信レポートに表示されます。 [Adobe Campaign ビルトイン配信レポート &#x200B;](../reporting/delivery-reports.md)を参照してください。
 
 ![](assets/s_ncs_user_delivery_tracking_tab.png)
 
@@ -132,7 +132,7 @@ ht-degree: 69%
 
 これにより、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
 
-受信ボックスレンダリングについて詳しくは、[このページ](inbox-rendering.md)を参照してください。
+受信トレイのレンダリングについて詳しくは、「[&#x200B; キャンペーンでの受信トレイのレンダリング &#x200B;](inbox-rendering.md)」を参照してください
 
 
 ## 配信監査 {#delivery-audit-}
@@ -147,7 +147,7 @@ ht-degree: 69%
 
 ![](assets/s_ncs_user_delivery_log_tab.png)
 
-表示する列を選択することによって、このウィンドウ（および「**[!UICONTROL 配信]**」タブと「**[!UICONTROL トラッキング]**」タブ）に表示される情報を変更できます。 そのためには、右下隅にある&#x200B;**[!UICONTROL リストを設定]**&#x200B;アイコンをクリックします。 リストの表示について詳しくは、[この節](../config/ui-settings.md#customize-lists)を参照してください。
+表示する列を選択することによって、このウィンドウ（および「**[!UICONTROL 配信]**」タブと「**[!UICONTROL トラッキング]**」タブ）に表示される情報を変更できます。 そのためには、右下隅にある&#x200B;**[!UICONTROL リストを設定]**&#x200B;アイコンをクリックします。 リスト表示の設定について詳しくは、[&#x200B; リストの管理とカスタマイズ &#x200B;](../config/ui-settings.md#customize-lists)を参照してください。
 
 ## 配信ダッシュボードの同期 {#delivery-dashboard-synchronization}
 

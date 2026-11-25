@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 84%
@@ -61,7 +61,7 @@ ht-degree: 84%
 
   ここでは、フィルターを使用して、管理権限を持たないオペレーターのスキーマに対する書き込み権限を無効にします。 つまり、このスキーマで記述されたエンティティに対する書き込み権限を持つのは管理者だけです。
 
-  ```
+  ```xml
   <sysFilter name="writeAccess">      
    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
   </sysFilter>
@@ -71,7 +71,7 @@ ht-degree: 84%
 
   ここでは、すべてのオペレーターに対して、スキーマに対する読み取りと書き込みの両方の権限を許可しないためにフィルターを使用しています。 式「$（loginId）!=0」で表される&#x200B;**internal** アカウントのみが、これらの権限を持ちます。
 
-  ```
+  ```xml
   <sysFilter name="readAccess"> 
    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
   </sysFilter>

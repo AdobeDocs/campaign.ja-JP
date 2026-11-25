@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 78%
+source-wordcount: '933'
+ht-degree: 70%
 ---
 # キャンペーンの基本を学ぶ {#gs-ac-campaigns}
 
@@ -42,7 +42,7 @@ Adobe Campaign が提供する一連のソリューションを使用すると�
 
 Adobe Campaign を使用すると、メール、ダイレクトメール、SMS、プッシュ通知などの複数のチャネルで、ターゲットを絞りパーソナライズしたキャンペーンの設計とオーケストレーションを行えます。 1 つのインターフェイスを通して、すべてのキャンペーンとコミュニケーションのスケジュール作成、オーケストレーション、設定、パーソナライズ、自動化、実施、測定などに必要なすべての機能を利用することができます。
 
-![](assets/campaign-tab.png)
+ステータス、日付、作成ボタンを含むマーケティングキャンペーンを一覧表示するホームページの「![&#x200B; キャンペーン」タブ &#x200B;](assets/campaign-tab.png)
 
 ### 主要コンセプト{#ac-core-concepts}
 
@@ -64,7 +64,7 @@ Adobe Campaign を使用すると、メール、ダイレクトメール、SMS�
 
 Adobe Campaign を使用すると、すべてのマーケティングキャンペーンの作成、設定、実施、分析を統合コントロールセンターで行うことができます。
 
-![](assets/calendar.png)
+![&#x200B; キャンペーンと配信をタイムラインに表示するキャンペーン カレンダーと、ロイヤルティプログラムの詳細ポップアップ &#x200B;](assets/calendar.png)
 
 マーケティングキャンペーンにアクセスして実装する方法については、[この節](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=ja){target="_blank"}を参照してください。
 
@@ -88,7 +88,7 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    ワークフロー内にオーディエンスを作成したり、既存のグループを選択したりできます。例えば、受信者の一覧、ニュースレターの購読者、以前の配信の受信者、任意のフィルタリング条件などのオーディエンスグループです。
 
-   ![](assets/campaign-wf.png)
+   ![Campaign ワークフロー：夏のオファー配信、その後の待機とモバイル配信のクエリと読み取りリスト フィード &#x200B;](assets/campaign-wf.png)
 
    メッセージのオーディエンスを定義する方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=ja){target="_blank"}を参照してください。
 
@@ -96,11 +96,11 @@ Adobe Campaign を使用すると、すべてのマーケティングキャン�
 
    チャネルを選択し、メッセージの内容を定義して、配信を開始します。
 
-   ![](assets/campaign-dashboard.png)
+   ステータス、スケジュール、ドキュメント、アクション、およびステータスを含む配信のリストが表示された![&#x200B; キャンペーンダッシュボード &#x200B;](assets/campaign-dashboard.png)
 
-   マーケティングキャンペーン配信を作成し開始する方法について詳しくは、[このページ](../../automation/campaigns/marketing-campaign-deliveries.md)を参照してください。
+   [配信の作成](../../automation/campaigns/marketing-campaign-deliveries.md#create-deliveries)および[配信の開始](../../automation/campaigns/marketing-campaign-deliveries.md#start-a-delivery)でマーケティングキャンペーン配信を作成および開始する方法について説明します。
 
-   レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。関連ドキュメントについて詳しくは、[このページ &#x200B;](../../automation/campaigns/marketing-campaign-assets.md)を参照してください。
+   レポート、写真、web ページ、図など、様々なドキュメントをキャンペーンに関連付けることができます。関連ドキュメントについて詳しくは、[&#x200B; マーケティングキャンペーンアセット、ドキュメント、配信の概要](../../automation/campaigns/marketing-campaign-assets.md)を参照してください。
 
 1. **承認プロセスの設定**
 
@@ -115,7 +115,7 @@ Adobe Campaignでは、中央エンティティ（本社、マーケティング
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[Campaign v8互換性マトリックス &#x200B;](compatibility-matrix.md)を参照してください
 
 [このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}でCampaignの分散型マーケティング機能を設定および使用する方法について説明します。
 
@@ -125,6 +125,6 @@ Adobe Campaign では、マーケティングキャンペーンの成功や収�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[Campaign v8互換性マトリックス &#x200B;](compatibility-matrix.md)を参照してください
 
 [&#128279;](../assets/do-not-localize/book.png) Campaign Response Managerの設定と使用方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=ja){target="_blank"}を参照してください。

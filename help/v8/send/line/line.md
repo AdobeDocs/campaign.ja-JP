@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 89%
+source-wordcount: '1369'
+ht-degree: 88%
 ---
 # LINE 配信の作成
 
@@ -124,13 +124,13 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
    ![](assets/line_message_01.png)
 
-1. **[!UICONTROL ラベル]**、**[!UICONTROL 配信コード]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を設定して配信を識別します。 詳しくは、[この節](../../start/create-message.md#create-the-delivery)を参照してください。
+1. **[!UICONTROL ラベル]**、**[!UICONTROL 配信コード]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を設定して配信を識別します。 詳しくは、[配信の作成](../../start/create-message.md#create-the-delivery)を参照してください。
 
 1. 「**[!UICONTROL 続行]**」をクリックして配信を作成します。
 
 1. 配信エディターで、「**[!UICONTROL 宛先]**」を選択して [!DNL LINE] 配信の受信者をターゲットします。 ターゲティングは、**[!UICONTROL 訪問者サブスクリプション （nms:visitorSub）]**&#x200B;に対して実行されます。
 
-   詳しくは、[このページ](../../audiences/target-mappings.md)を参照してください。
+   詳しくは、[&#x200B; ターゲットマッピングの操作](../../audiences/target-mappings.md)を参照してください。
 
    ![](assets/line_message_08.png)
 

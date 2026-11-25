@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 94%
+source-wordcount: '1265'
+ht-degree: 93%
 ---
 # トランザクションメッセージ用のテンプレートの作成と公開{#template-transactional-messages}
 
@@ -162,7 +162,7 @@ This information enables you to personalize message content using personalizatio
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-配達確認について詳しくは、[この節](../send/preview-and-proof.md#proofs-send)を参照してください。
+プルーフの詳細については、[&#x200B; プルーフを送信](../send/preview-and-proof.md#proofs-send)してください。
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 

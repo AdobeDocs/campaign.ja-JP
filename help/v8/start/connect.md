@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 87%
+source-wordcount: '1186'
+ht-degree: 81%
 ---
 # Adobe Campaign v8 への接続{#gs-ac-connect}
 
@@ -93,7 +93,7 @@ Campaign ユーザーは、Adobe ID 管理システム（IMS）により、Adobe
 
 1. コンソールを起動し、右隅のリンクを参照して、接続設定画面にアクセスします。
 
-   ![](assets/connectToCampaign.png)
+   ![&#x200B; ログイン画面から接続ダイアログが開き、「Adobe IDで接続」オプションが選択されている](assets/connectToCampaign.png)
 
 1. ログインする必要がある Campaign インスタンスを選択します。
 
@@ -101,7 +101,7 @@ Campaign ユーザーは、Adobe ID 管理システム（IMS）により、Adobe
 
 これにより、Adobe ID を使用して Campaign にログインできるようになります。
 
-![](assets/adobeID.png)
+電子メールフィールドと「続行」ボタンを含むCampaign クライアントコンソールの![Adobe ID ログイン画面](assets/adobeID.png)
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Adobe Campaign は、様々なオペレーターに割り当てる一連の権�
 
 Campaign 管理者は、オペレーターを作成し、ユーザーと資格情報を共有する責任があります。
 
-ユーザーの詳細と、ユーザーの権限の定義方法については、[この節](gs-permissions.md)を参照してください。
+ユーザーの詳細と権限の定義方法については、[Campaign v8](gs-permissions.md)の権限の概要を参照してください。
 
 
 ## Web ブラウザーで Campaign にアクセス {#connect-web-ac}
@@ -165,11 +165,11 @@ Web アクセスでは、コンソールと同様のインターフェースを�
 
 例えば、特定のオペレーターの場合、あるキャンペーンをコンソールで確認すると、次のようなオプションが表示されます。
 
-![](assets/campaign-from-console.png)
+クライアントコンソールの![Campaign ダッシュボードで、完全な編集タブとアクションが利用可能](assets/campaign-from-console.png)
 
 一方、Web アクセスで確認すると、次のようなオプションが表示されます。
 
-![](assets/campaign-from-web.png)
+Web アクセスの![Campaign ダッシュボード。主にオプションを表示](assets/campaign-from-web.png)
 
 web アクセスは検証プロセスでも使用されます。オペレーターは、承認リクエストの電子メールをクリックし、web ブラウザーを介してCampaignに接続して、配信コンテンツまたは予算を検証または却下できます。
 

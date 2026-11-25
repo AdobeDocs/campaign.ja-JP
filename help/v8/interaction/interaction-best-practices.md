@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 90%
+source-wordcount: '1273'
+ht-degree: 82%
 ---
 # インタラクションのベストプラクティス {#interaction-best-practices}
 
@@ -77,13 +77,13 @@ Adobe Campaign でオファーを管理するには、効率的に運用する�
 
 **[!UICONTROL 以下の例では、配信で選択されたオファースペースはメール（環境 - 受信者）です。]**
 
-![](assets/Interaction-best-practices-offer-space-selected.png)
+![&#x200B; オファースペース フィールドが電子メール （環境 – 受信者）に設定された配信のオファー選択セクション。](assets/Interaction-best-practices-offer-space-selected.png)
 
 配信で選択したオファースペースに HTML レンダリング関数が設定されていない場合、配信メニューに表示されず、選択できません。 これは、「**エンリッチメント**」アクティビティで選択されたオファースペースとは無関係です。
 
 以下の例では、配信で選択されたオファースペースにレンダリング関数があるので、HTML レンダリング関数をドロップダウンリストで使用できます。
 
-![](assets/Interaction-best-practices-HTML-rendering.png)
+![提案、提案、HTML レンダリングオプションがハイライト表示されたPersonalizationのフィールドメニュー。](assets/Interaction-best-practices-HTML-rendering.png)
 
 この関数は、`<%@ include proposition="targetData.proposition" view="rendering/html" %>` のようなコードを挿入します。
 
@@ -99,7 +99,7 @@ Adobe Campaign でオファーを管理するには、効率的に運用する�
 
 オファースペースには、提案が生成または許可された場合に、提案テーブルにデータを保存する機能があります。
 
-![](assets/Interaction-best-practices-offer-space-storage.png)
+![提案と受け入れ時のステータスとストレージパスの式を含むオファースペースの「ストレージ」タブ。](assets/Interaction-best-practices-offer-space-storage.png)
 
 ただし、これはインバウンドインタラクションにのみ適用されます。
 
@@ -109,15 +109,15 @@ Adobe Campaign でオファーを管理するには、効率的に運用する�
 
 例えば、「**エンリッチメント**」ワークフローアクティビティでオファーを手動（インタラクションなし）で選択する場合、標準フィールドは次のように定義されます。
 
-![](assets/Interaction-best-practices-manual-offer-std-fields.png)
+![手動で選択したオファーの標準フィールドを含むエンリッチメントアクティビティの出力列。](assets/Interaction-best-practices-manual-offer-std-fields.png)
 
 `@rank` フィールドなど、フィールドをさらに追加できます。
 
-![](assets/Interaction-best-practices-manual-offer-add-fields.png)
+![提案にランキングフィールドが追加されたエンリッチメントアクティビティの出力列。](assets/Interaction-best-practices-manual-offer-add-fields.png)
 
 `@rank` という名前の提案テーブルにフィールドがあるので、ワークフローの一時テーブルの値がコピーされます。
 
-提案テーブルへの追加フィールドの格納について詳しくは、[この節](interaction-send-offers.md#storing-offer-rankings-and-weights)を参照してください。
+提案テーブルに追加のフィールドを保存する方法について詳しくは、[&#x200B; オファーのランキングと重みを保存する](interaction-send-offers.md#storing-offer-rankings-and-weights)を参照してください。
 
 インタラクションを含むアウトバウンドオファーの場合、これは、複数のオファーが選択され、メールに表示される順序を記録する場合に役立ちます。
 
@@ -127,7 +127,7 @@ Adobe Campaign でオファーを管理するには、効率的に運用する�
 
 インタラクションを使用して手動でオファーを選択する場合、両方のアプローチを組み合わせることができます。 例えば、手動で選択したオファーの `@rank` フィールドを手動で 1 に設定し、インタラクションから返されるオファーに `"1 + @rank"` などの式を使用できます。 インタラクションが 3 つのオファーを選択すると仮定すると、両方のアプローチで返されるオファーは 1～4 にランキングされます。
 
-![](assets/Interaction-best-practices-manual-offer-combined.png)
+![&#x200B; オファーインタラクションと1 + ランキング式を組み合わせた出力列を使用して、ランクを手動で設定します。](assets/Interaction-best-practices-manual-offer-combined.png)
 
 ### nms:offer スキーマの拡張 {#extending-nms-offer-schema}
 
@@ -135,7 +135,7 @@ nms:offer スキーマを拡張する場合は、既に設定されている標�
 * `<element name="view">` の下にコンテンツストレージ用の新しいフィールドを定義します。
 * それぞれの新しいフィールドは、2 回ずつ定義する必要があります。 1 回は通常の XML フィールドとして、もう 1 回は名前に「_jst」が付いた CDATA XML フィールドとして定義します。 次に例を示します。
 
-  ```
+  ```xml
   <element label="Price" name="price" type="long" xml="true"/>
   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
   ```

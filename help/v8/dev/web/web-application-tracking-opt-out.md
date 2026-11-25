@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '711'
 ht-degree: 86%
 ---
 # Web アプリケーショントラッキングのオプトアウト{#web-application-tracking-opt-out}
@@ -78,7 +78,7 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 
 標準バナーは次の構造になっています。
 
-```
+```xml
 <div onClick="NL.ClientWebTracking.closeOptOutBanner(this);" id="defaultOptOutBanner">
   <p>Please insert your message here
    <a onClick="NL.ClientWebTracking.allow();" class="optout-accept">Accept</a>
@@ -90,7 +90,7 @@ Web トラッキングが有効化されている場合、次の設定ができ�
 
 「**ここにメッセージを挿入してください**」の部分をトラッキング情報が含まれるブロックに置き換える必要があります。 この置き換えは、オプトアウトバナーに関する新たなパーソナライゼーションブロック内で実行する必要があります。
 
-バナーは専用の CSS と共に提供されます。 ただし、Web ページを作成して設定する際に、スタイルを上書きできます。 [このページ](content-editor-interface.md)を参照してください。
+バナーは専用の CSS と共に提供されます。 ただし、Web ページを作成して設定する際に、スタイルを上書きできます。 [&#x200B; コンテンツエディターインターフェイス &#x200B;](content-editor-interface.md)を参照してください。
 
 ## API を使用したオプトアウト cookie の設定 {#setting-the-opt-out-cookie-using-api}
 
@@ -137,7 +137,7 @@ JSSP を記述する必要がある場合、サーバー側 API を利用でき�
 
 JSSP の例：
 
-```
+```html
 <%@ page import="/nl/core/shared/nl.js" %>
 <!doctype html>
 <%

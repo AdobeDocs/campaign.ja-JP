@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 95%
@@ -84,7 +84,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 
 今回の例では、パーソナライゼーションブロックは次のようになります。
 
-```
+```html
 <% if (recipient.country.label == "Germany") { %>
 <draw:frame svg:width="4cm" svg:height="3cm">
 <draw:image xlink:href=https://..../logo_germany.png />

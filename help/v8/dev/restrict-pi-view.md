@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 76%
@@ -58,7 +58,7 @@ ht-degree: 76%
 
 この使用法を示す受信者スキーマ拡張のサンプルを以下に示します。
 
-```
+```xml
 <srcSchema desc="Recipient table (profiles" entitySchema="xtk:srcSchema" extendedSchema="xxl:nmsRecipientXl"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
            name="recipient" namespace="sec" xtkschema="xtk:srcSchema">
@@ -97,7 +97,7 @@ Campaign でこの属性を使用した場合の結果は次のとおりです�
 
 以下に、これを実装するログテーブル拡張のサンプルを示します。
 
-```
+```xml
 <srcSchema entitySchema="xtk:srcSchema" extendedSchema="nms:broadLogRcp" img="nms:broadLog.png"
            label="Recipient delivery logs" labelSingular="Recipient delivery log"
            name="broadLogRcp" namespace="sec" xtkschema="xtk:srcSchema">

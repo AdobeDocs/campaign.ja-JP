@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 93%
+source-wordcount: '402'
+ht-degree: 85%
 ---
 # web アプリケーションの新規作成{#creating-a-new-web-application}
 
@@ -57,11 +57,11 @@ ht-degree: 93%
 
 1. web アプリケーション
 
-   web プラットフォームやエクストラネットなどに公開する web アプリケーションを作成できます。 これにより、データの編集や情報の記録を Adobe Campaign 内でおこなえるようになります。 その際、アクセス制御を適用して認証済みユーザーのみがアクセスできるようにしたり、様々な条件に基づいてデータをあらかじめ読み込む機能を設定したりできます。 詳しくは、[この節](about-web-applications.md)を参照してください。
+   web プラットフォームやエクストラネットなどに公開する web アプリケーションを作成できます。 これにより、データの編集や情報の記録を Adobe Campaign 内でおこなえるようになります。 その際、アクセス制御を適用して認証済みユーザーのみがアクセスできるようにしたり、様々な条件に基づいてデータをあらかじめ読み込む機能を設定したりできます。 詳しくは、[Web アプリケーションの基本を学ぶ](about-web-applications.md)を参照してください。
 
 1. ランディングページ
 
-   ランディングページは、web サイト上でコンテンツを利用できる HTML ページで、Adobe Campaign データベースプロファイルに保存される情報をユーザーから受け付けるための場になります。 この種のページのコンテンツは、通常は専門の web 業者によって制作されます。制作されたコンテンツが Adobe Campaign にインポートされ、公開、管理、フォローアップがおこなわれます。 詳しくは、[このページ](creating-a-landing-page.md)を参照してください。
+   ランディングページは、web サイト上でコンテンツを利用できる HTML ページで、Adobe Campaign データベースプロファイルに保存される情報をユーザーから受け付けるための場になります。 この種のページのコンテンツは、通常は専門の web 業者によって制作されます。制作されたコンテンツが Adobe Campaign にインポートされ、公開、管理、フォローアップがおこなわれます。 詳しくは、[&#x200B; ランディングページの作成](creating-a-landing-page.md)を参照してください。
 
 1. 調査
 
@@ -79,4 +79,4 @@ ht-degree: 93%
    >
    >**Social Marketing** は、オプションの Adobe Campaign モジュールです。 使用許諾契約書を確認してください。
 
-ページ設定モードおよび利用可能な設定は、いくつかの web アプリケーションタイプで同一です。 詳しくは、[この節](about-web-forms.md)を参照してください。
+ページ設定モードおよび利用可能な設定は、いくつかの web アプリケーションタイプで同一です。 詳しくは、[Web フォームの使用を開始する](about-web-forms.md)を参照してください。

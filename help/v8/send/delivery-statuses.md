@@ -35,10 +35,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 66%
+source-wordcount: '566'
+ht-degree: 62%
 ---
 # 配信ステータス {#delivery-statuses}
 
@@ -108,7 +108,7 @@ ht-degree: 66%
  </tbody> 
 </table>
 
-Adobe Campaign のメールの配信品質を最適化する方法について、[この節](about-deliverability.md)を参照してください。 配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
+Adobe Campaign電子メールの配信品質を最適化する方法については、[Campaignでの配信品質の基本を学ぶ](about-deliverability.md)を参照してください。 配信品質の詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください。
 
 ## 保留中ステータス {#pending-status}
 

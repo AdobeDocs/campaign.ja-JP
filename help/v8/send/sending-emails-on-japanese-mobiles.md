@@ -23,16 +23,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 97%
+source-wordcount: '801'
+ht-degree: 89%
 ---
 # 日本の携帯電話向けのメールの送信 {#sending-emails-on-japanese-mobiles}
 
 ## 日本の携帯電話向けのメールフォーマット {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign は、日本の携帯電話向けに特化したメールフォーマットとして、**デコメール**（DoCoMo 携帯）、**デコレメール**（Softbank 携帯）および&#x200B;**デコレーションメール**（KDDI au 携帯）の 3 種を用意しています。 これらのフォーマットには、コーディング、構造、サイズに関する特定の制約事項があります。 制限事項とレコメンデーションについて詳しくは、[この節](#limitations-and-recommendations)を参照してください。
+Adobe Campaign は、日本の携帯電話向けに特化したメールフォーマットとして、**デコメール**（DoCoMo 携帯）、**デコレメール**（Softbank 携帯）および&#x200B;**デコレーションメール**（KDDI au 携帯）の 3 種を用意しています。 これらのフォーマットには、コーディング、構造、サイズに関する特定の制約事項があります。 制限と推奨事項について詳しくは、[制限と推奨事項](#limitations-and-recommendations)を参照してください。
 
 これらのフォーマットのいずれかでメッセージが正しく受信されるようにするには、対応するプロファイルで「**[!UICONTROL デコメール（DoCoMo）]**」、「**[!UICONTROL デコレメール（Softbank）]**」または「**[!UICONTROL デコレーションメール（KDDI au）]**」を選択することをお勧めします。
 
@@ -97,8 +97,8 @@ Adobe Campaign では、メッセージのフォーマットが日本の携帯�
 
 Campaign を使用して日本語メールフォーマットでメールを受信者に送信するには、2 つのオプションがあります。
 
-* 2 つの配信を作成します。1 つは日本人の受信者専用で、もう 1 つは他の受信者用です。[この節](#designing-a-specific-delivery-for-japanese-formats)を参照してください。
-* または、1 つの配信を作成し、使用するフォーマットを Adobe Campaign で自動検出します。[この節](#designing-a-delivery-for-all-formats)を参照してください。
+* 2つの配信を作成します。1つは日本語の受信者に対してのみ、もう1つは他の受信者に対してです。[日本語の形式に対して特定の配信をデザインする](#designing-a-specific-delivery-for-japanese-formats)を参照してください。
+* 1つの配信を作成すると、Adobe Campaignが使用する形式を自動的に検出します。[すべての形式の配信をデザイン &#x200B;](#designing-a-delivery-for-all-formats)します。
 
 ### 日本独自のフォーマットに対応する配信のデザイン {#designing-a-specific-delivery-for-japanese-formats}
 
@@ -118,4 +118,4 @@ Adobe Campaign がドメインに応じてフォーマットを動的に管理�
 
 >[!IMPORTANT]
 >
->日本独自のメールフォーマット（デコメール、デコレーションメール、デコレメール）に関連する特別な機能については注意が必要です。 制限事項について詳しくは、[この節](#limitations-and-recommendations)を参照してください。
+>日本独自のメールフォーマット（デコメール、デコレーションメール、デコレメール）に関連する特別な機能については注意が必要です。 制限について詳しくは、[制限と推奨事項](#limitations-and-recommendations)を参照してください。

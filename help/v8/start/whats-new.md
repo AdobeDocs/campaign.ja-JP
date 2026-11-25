@@ -62,10 +62,10 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 63%
+source-wordcount: '1531'
+ht-degree: 62%
 ---
 # Adobe Campaign v8 の主な機能 {#ac-gs-what-is-new}
 
@@ -73,7 +73,7 @@ Adobe Campaign v8 は、企業規模のクロスチャネルキャンペーン�
 
 Adobe Campaign v8 では、インフラストラクチャ、セキュリティ、配信品質、監視機能が大幅に強化されています。 サービスとプロアクティブな監視およびタイムリーなアラートを組み合わせた&#x200B;**Managed Cloud Service**&#x200B;として利用できます。 Campaign Managed Cloud Services について詳しくは、[この節](#acms-desc)を参照してください。
 
-![](assets/home-page.png)
+ようこそメッセージとAdobe Campaign Managed Cloud Services カードが表示された![Campaign クライアントコンソールのホームページ &#x200B;](assets/home-page.png)
 
 ## 主な機能{#key-capabilities}
 
@@ -231,7 +231,7 @@ Campaign v8 Managed Cloud Servicesは、手動アップグレードの負担を�
 * 様々なタイミングで多様なビジネスニーズに応じて設定できます
 * ニーズに応じて個別にアクセス設定を制御することでセキュリティを強化できます
 
-![](assets/subdomain1.png)
+![設定されたサブドメインを一覧表示するCampaign コントロールパネルサブドメイン管理ページ。新しいサブドメインの設定がハイライト表示されている](assets/subdomain1.png)
 
 [キャンペーンCampaign コントロールパネルの詳細](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 

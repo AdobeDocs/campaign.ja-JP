@@ -28,19 +28,19 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 9%
+source-wordcount: '201'
+ht-degree: 0%
 ---
 # エンドポイント {#endpoints}
 
 Adobe Campaign REST APIで使用できるエンドポイント：
 
 * **/profileAndServices**：標準搭載のフィールドを操作します。 このエンドポイントでは拡張フィールドにアクセスできません。
-* **/profileAndServicesExt**: プロファイルまたはサービスのカスタム リソースの拡張中に追加されたカスタム フィールドを操作します。 カスタムリソースについて詳しくは、[この節](custom-resources.md)を参照してください。
-* **/&lt;transactionalAPI>**: トランザクションメッセージ APIを操作します（トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります）。 詳しくは、[この節](managing-transactional-messages.md)を参照してください。
-* **/ワークフロー/実行**: ワークフローを操作します。 詳しくは、[この節](controlling-a-workflow.md)を参照してください。
+* **/profileAndServicesExt**: プロファイルまたはサービスのカスタム リソースの拡張中に追加されたカスタム フィールドを操作します。 カスタムリソースについて詳しくは、[&#x200B; カスタムリソース &#x200B;](custom-resources.md)を参照してください。
+* **/&lt;transactionalAPI>**: トランザクションメッセージ APIを操作します（トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります）。 詳しくは、[&#x200B; トランザクションメッセージの管理](managing-transactional-messages.md)を参照してください。
+* **/ワークフロー/実行**: ワークフローを操作します。 詳しくは、[&#x200B; ワークフローの制御](controlling-a-workflow.md)を参照してください。
 
 デフォルトでは、**profileAndServices**&#x200B;および&#x200B;**profileAndServicesExt** APIで使用できる主なリソースは次のとおりです。
 

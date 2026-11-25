@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 93%
@@ -101,19 +101,19 @@ ht-degree: 93%
 
 * データベースのフィールドに保存されたコンテンツの場合：
 
-  ```
+  ```html
   <%=ctx.recipient.@field name%
   ```
 
 * ローカル変数に保存されたコンテンツの場合：
 
-  ```
+  ```html
   <%= ctx.vars.variable name %
   ```
 
 * HTML テキストフィールドに保存されているコンテンツの場合：
 
-  ```
+  ```html
   <%== HTML field name %
   ```
 

@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 98%
+source-wordcount: '1289'
+ht-degree: 84%
 ---
 # オファー表示域の管理{#managing-offer-presentation}
 
@@ -42,24 +42,24 @@ ht-degree: 98%
 1. **[!UICONTROL 管理]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL タイポロジ管理]**／**[!UICONTROL タイポロジルール]**&#x200B;ノードに移動します。
 1. タイポロジルールを作成し、「**[!UICONTROL オファーのプレゼンテーション]**」タイプを選択します。
 
-   ![](assets/offer_typology_001.png)
+   ![新しいルールフォームとオファープレゼンテーションを表示するルールタイプリストを含むタイポロジルールノード &#x200B;](assets/offer_typology_001.png)
 
 1. ルールを適用するチャネルを指定します。
 
-   ![](assets/offer_typology_002.png)
+   ![すべてのチャネルがハイライト表示されたタイポロジルールのチャンネルリスト &#x200B;](assets/offer_typology_002.png)
 
 1. ルールの適用条件を設定します。 詳しくは、[プレゼンテーションルールの設定](#presentation-rule-settings)を参照してください。
 1. **[!UICONTROL 管理]**／**[!UICONTROL キャンペーンの実行]**／**[!UICONTROL タイポロジ管理]**／**[!UICONTROL タイポロジ]**&#x200B;ノードに移動し、**[!UICONTROL オファーのプレゼンテーション]**&#x200B;タイプのルールをすべてグループ化するタイポロジを作成します。
 
-   ![](assets/offer_typology_003.png)
+   オファータイポロジが選択され、「一般」タブが表示された![&#x200B; タイポロジノード &#x200B;](assets/offer_typology_003.png)
 
 1. タイポロジを作成したら、タイポロジルールにマウスカーソルを置いて、いま作成したタイポロジにグループ化します。
 
-   ![](assets/offer_typology_004.png)
+   ルールの「![&#x200B; タイポロジ」タブに、オファータイポロジが選択されたタイポロジのリストが表示されているタイポロジを追加](assets/offer_typology_004.png)
 
 1. オファー環境で、ドロップダウンリストを使用してタイポロジを参照します。
 
-   ![](assets/offer_typology_005.png)
+   ![環境の「実施要件」タブ – 訪問者は環境を提供し、オファーと共にプレゼンテーションのタイポロジリストを提供します](assets/offer_typology_005.png)
 
 ## プレゼンテーションルールの設定 {#presentation-rule-settings}
 
@@ -69,13 +69,13 @@ ht-degree: 98%
 
 1. タイポロジルール内で、「**[!UICONTROL ルール適用条件を編集]**」リンクをクリックし、クエリを作成します。
 
-   ![](assets/offer_typology_006.png)
+   ![&#x200B; ルール アプリケーション条件を編集リンクが強調表示されたタイポロジ ルールの「一般」タブ &#x200B;](assets/offer_typology_006.png)
 
 1. クエリウィンドウでは、タイポロジルールを適用するオファーに対してフィルターを適用できます。
 
    例えば、オファーカテゴリを選択できます。
 
-   ![](assets/offer_typology_008.png)
+   ![&#x200B; オファーツリーで選択したオファーカテゴリと同じカテゴリに対するクエリ &#x200B;](assets/offer_typology_008.png)
 
 ### オファーディメンション {#offer-dimensions}
 
@@ -83,7 +83,7 @@ ht-degree: 98%
 
 「**[!UICONTROL ターゲティングディメンション]**」は、オファーの提案を受け取る受信者のテーブル（デフォルトは `nms:recipients`）に一致します。 「**[!UICONTROL ストレージディメンション]**」は、ターゲティングディメンションにリンクした提案履歴のテーブル（デフォルトでは `nms:propositionRcp`）に一致します。
 
-![](assets/offer_typology_009.png)
+ターゲティングディメンションとストレージディメンションのフィールドがハイライト表示された![&#x200B; オファーのプレゼンテーションタブ &#x200B;](assets/offer_typology_009.png)
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ ht-degree: 98%
 
 矢印ボタンを使用して日数を変更するか、期間を直接入力します（例：&quot;2d 6h&quot; で 2 日と 6 時間）。
 
-![](assets/offer_typology_010.png)
+![&#x200B; スライド期間、検討期間フィールドが強調表示されたオファーのプレゼンテーション タブ &#x200B;](assets/offer_typology_010.png)
 
 ### 提案数 {#number-of-propositions}
 
@@ -108,7 +108,7 @@ ht-degree: 98%
 
 オファーの提案回数を変更するには、矢印ボタンを使用します。
 
-![](assets/offer_typology_011.png)
+![提案の最大数、数量フィールドが強調表示されたオファーのプレゼンテーション タブ &#x200B;](assets/offer_typology_011.png)
 
 ## 提案と受信者の定義 {#defining-propositions-and-recipients}
 
@@ -118,7 +118,7 @@ ht-degree: 98%
 
 チャネル、該当するオファーの数、またはそれまでに割り当てられた提案のステータスに基づいて、提案を除外するためのフィルタリング条件を選択できます。
 
-![](assets/offer_typology_014.png)
+![同じチャネルでのみセクションをカウントする提案、オファーと提案のステータス フィルターが強調表示される](assets/offer_typology_014.png)
 
 これらの条件には、プレゼンテーションルールのうち特に適用頻度が高いものが示されます。 その他の条件を使用するには、「**[!UICONTROL 提案を制限]**」リンクを使用してクエリを作成できます。 詳しくは、[提案に関するクエリの作成](#creating-a-query-on-propositions)の節を参照してください。
 
@@ -164,7 +164,7 @@ ht-degree: 98%
 
 受信者を指定するには、「**[!UICONTROL ターゲティングディメンションからクエリを編集...]**」リンクをクリックし、そのルールに関係する受信者を選択します。
 
-![](assets/offer_typology_012.png)
+![&#x200B; フィルタリングクエリウィザードを編集して、ターゲティングディメンションクエリとしてフォルダーに含まれる受信者を選択](assets/offer_typology_012.png)
 
 ### 提案に関するクエリの作成 {#creating-a-query-on-propositions}
 
@@ -172,4 +172,4 @@ ht-degree: 98%
 
 次の例では、**Special offers** カテゴリと **Call center** スペースに属し、重み付けが **20** 未満である提案が、2 回のプレゼンテーションの後にカウント対象となります。
 
-![](assets/offer_typology_013.png)
+![提案クエリの重み、オファースペース、および提案をカウントする20未満の重みを制限](assets/offer_typology_013.png)

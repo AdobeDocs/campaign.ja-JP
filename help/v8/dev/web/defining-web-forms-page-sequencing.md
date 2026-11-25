@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 1. 配信 URL には、次のような、宛先のフォームの内部名を含める必要があります。
 
-   ```
+   ```text
    https://[myserver]/webForm/APP62?&next=APP22
    ```
 

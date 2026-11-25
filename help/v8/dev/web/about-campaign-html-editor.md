@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 78%
+source-wordcount: '353'
+ht-degree: 73%
 ---
 # Campaign の HTML エディターの基礎知識{#about-campaign-html-editor}
 
@@ -74,7 +74,7 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 
 >[!NOTE]
 >
->Web アプリケーションのコンテキストでの完全な実装例については、[こちらの節](creating-a-landing-page.md)を参照してください。
+>Web アプリケーションのコンテキストでの完全な実装サンプルは、[&#x200B; ランディングページの作成](creating-a-landing-page.md)で入手できます。
 
 **メール配信**&#x200B;を作成するには、次の操作が必要です。
 

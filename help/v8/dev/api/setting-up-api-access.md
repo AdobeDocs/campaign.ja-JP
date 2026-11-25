@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 8%
@@ -56,7 +56,7 @@ Adobe Campaign Standard API アクセスは、次の手順で設定します。 
 
 セキュアなサービス間Adobe I/O API セッションを確立するには、Adobe サービスへのあらゆるリクエストに以下の情報をAuthorization ヘッダーに含める必要があります。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -81,7 +81,7 @@ Adobe Campaign Standard API アクセスは、次の手順で設定します。 
 
 AdobeIO統合中に、次のエラーが表示される場合：
 
-```
+```json
 { 
 "code": 502, 
 "message": "Oops. Something went wrong. Check your URI and try again." 

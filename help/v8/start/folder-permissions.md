@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '342'
+ht-degree: 92%
 ---
 # フォルダー権限の管理{#manage-folder-permissions}
 
@@ -40,14 +40,14 @@ ht-degree: 100%
 
 フォルダーに対する権限を使用して、Campaign データへのアクセスを整理および制御します。
 
-フォルダー管理について詳しくは、[このページ](../audiences/folders-and-views.md)を参照してください。
+フォルダー管理の詳細については、[&#x200B; フォルダーとビュー](../audiences/folders-and-views.md)を参照してください。
 
 特定の Campaign フォルダーに対する権限を編集するには、次の手順に従います。
 
 1. フォルダーを右クリックし、「**[!UICONTROL プロパティ]**」を選択します。
 1. 「**[!UICONTROL セキュリティ]**」タブを参照すると、そのフォルダーに設定されている権限が表示されます。
 
-   ![](assets/folder-permissions.png)
+   ![&#x200B; フォルダーのプロパティ演算子またはグループの権限と、データの読み取り、書き込み、削除の権限を持つセキュリティタブ &#x200B;](assets/folder-permissions.png)
 
 * **グループまたはオペレーターのアクセスを許可する**&#x200B;には、「**[!UICONTROL 追加]**」ボタンをクリックし、このフォルダーに対する権限を割り当てるグループまたはオペレーターを選択します。
 * **グループまたはオペレーターのアクセスを禁止する**&#x200B;には、「**[!UICONTROL 削除]**」をクリックし、このフォルダーの認証を削除するグループまたはオペレーターを選択します。

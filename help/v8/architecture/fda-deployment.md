@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 80%
+source-wordcount: '348'
+ht-degree: 76%
 ---
 # [!DNL Campaign] FDA デプロイメント{#gs-fda}
 
@@ -69,6 +69,6 @@ Campaign FDA デプロイメント（デフォルト）では、[!DNL Adobe Camp
 
 サーバーとプロセス間の一般的な通信は、次のスキーマに従って実行されます。
 
-![](assets/fda-architecture.png)
+![FDA データフロー：Campaign マーケティングサーバー、Snowflake、PgSQL、Message Centerおよびミッドソーシングサーバー、番号付き手順1 ～ 5](assets/fda-architecture.png)
 
 PostgreSQL はプライマリデータベースで、Snowflake はセカンダリデータベースとして使用できます。 データモデルを拡張し、データを Snowflake に保存できます。 その後、優れたパフォーマンスを持つ大規模なデータセットに対して ETL、セグメント化、レポートを実行できます。

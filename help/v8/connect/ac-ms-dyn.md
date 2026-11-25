@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 96%
+source-wordcount: '1506'
+ht-degree: 89%
 ---
 # Campaign と Microsoft Dynamics 365 の連携{#crm-ms-dynamics}
 
@@ -102,7 +102,7 @@ ht-degree: 96%
 
 例：
 
-```
+```bash
 - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
 ```
 
@@ -173,7 +173,7 @@ ht-degree: 96%
 1. 「**タイプ**」セクションの **[!UICONTROL Microsoft Dynamics CRM]** 外部アカウントに選択します。
 1. 認証方法を「**[!UICONTROL CRM O-Auth タイプ]**」ドロップダウンリストで選択します。
 
-   ![](assets/ms-dyn-external-account.png)
+   ![&#x200B; サーバー、アカウント、CRM O-Auth タイプ、パスワードおよびCRM バージョン &#x200B;](assets/ms-dyn-external-account.png)を持つMicrosoft Dynamics CRM外部アカウント
 
    1. Microsoft Dynamics CRM 外部アカウントを設定して Adobe Campaign と&#x200B;**パスワード資格情報**&#x200B;を接続するには、次の詳細を入力します。
 
@@ -186,10 +186,10 @@ ht-degree: 96%
    1. Microsoft Dynamics CRM 外部アカウントを、**証明書**&#x200B;を使って Adobe Campaign に接続するには、次の詳細を入力して設定します。
 
       * **サーバー**：Microsoft CRM サーバーの URL。 Microsoft CRM Server URL を見つけるには、Microsoft Dynamics CRM アカウントにアクセスし、Dynamics 365 をクリックしてアプリを選択します。 次に、ブラウザーのアドレスバーに Server URL が表示されます（例：https://myserver.crm.dynamics.com/）。
-      * **秘密鍵**：エンコードされた Base64 で秘密鍵をコピー＆ペーストします。[この節](#config-certificate-key-id)で詳しく説明しています。
-      * **キー ID**：キーはアプリケーションの「**マニフェスト**」タブで利用可能です。詳しくは、[この節](#config-certificate-key-id)で説明しています。
-      * **カスタムキー識別子**：アプリケーションの「**マニフェスト**」タブで使用できる識別子です。詳しくは、[この節](#config-certificate-key-id)で説明しています。
-      * **クライアント識別子**：Microsoft Azure 管理ポータルにあるアプリケーション（クライアント）ID です。詳しくは、[この節](#get-client-id-microsoft)で説明しています。
+      * **秘密鍵**: [Microsoft Dynamics証明書のキーIDとキーIDの生成](#config-certificate-key-id)で説明されているように、エンコードされたbase64で秘密鍵をコピー/ペーストします。
+      * **キーID**: [Microsoft Dynamics証明書のキーIDとキーIDの生成](#config-certificate-key-id)で説明されているように、アプリケーションの「**マニフェスト**」タブで使用できるキー。
+      * **カスタムキー識別子**: [Microsoft Dynamics証明書キー識別子とキーIDの生成](#config-certificate-key-id)で説明されているように、アプリケーションの「**マニフェスト**」タブで使用可能な識別子。
+      * **クライアント ID**: [Dynamics 365 クライアント IDの取得](#get-client-id-microsoft)で説明されているように、Microsoft Azure管理ポータルから見つけることができるアプリケーション （クライアント） ID。
       * **CRM バージョン**：Dynamics CRM 365 CRM バージョンを選択します。
 
 1. 「**有効にする**」オプションを選択して Campaign でアカウントを有効化します。

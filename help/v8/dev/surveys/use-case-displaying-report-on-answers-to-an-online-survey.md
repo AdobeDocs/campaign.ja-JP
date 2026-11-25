@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 90%
+source-wordcount: '529'
+ht-degree: 88%
 ---
 # ユースケース：オンラインサーベイへの回答に関するレポートの表示{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -63,7 +63,7 @@ ht-degree: 90%
 
 調査への回答を収集するには、次の手順に従います。
 
-1. ワークフローを作成し、**[!UICONTROL 調査の回答]**&#x200B;アクティビティを追加します。 このアクティビティの使用について詳しくは、[この節](publish-track-and-use-collected-data.md#using-the-collected-data)を参照してください。
+1. ワークフローを作成し、**[!UICONTROL 調査の回答]**&#x200B;アクティビティを追加します。 このアクティビティの使用について詳しくは、[収集したデータの使用](publish-track-and-use-collected-data.md#using-the-collected-data)を参照してください。
 1. このアクティビティを編集し、分析対象となる回答が得られた調査を選択します。
 1. 「**[!UICONTROL すべての回答データを選択]**」オプションを有効にして、すべての情報を収集します。
 

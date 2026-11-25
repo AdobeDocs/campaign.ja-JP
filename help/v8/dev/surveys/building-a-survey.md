@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 98%
+source-wordcount: '839'
+ht-degree: 95%
 ---
 # 調査の設計{#building-a-survey}
 
@@ -65,13 +65,13 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
    >[!NOTE]
    >
-   >ストレージモードとフィールドインポートについて詳しくは、[この節](managing-answers.md#storing-collected-answers)を参照してください。
+   >ストレージ モードとフィールドの読み込みについて詳しくは、[収集した回答を保存](managing-answers.md#storing-collected-answers)してください。
 
 追加するフィールドの特性（ドロップダウンリスト、テキストフィールド、チェックボックスなど）は、選択したストレージモードに適応されます 。 「**[!UICONTROL 一般]**」タブの「**[!UICONTROL タイプ]**」フィールドを使用してフィールドの特性を変更できますが、データタイプの整合性を維持するようにしてください。
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-利用可能なフィールドの様々なタイプについて詳しくは、[この節](../web/about-web-forms.md)を参照してください。
+使用可能なフィールドの様々なタイプについて詳しくは、[Web フォームの概要](../web/about-web-forms.md)を参照してください。
 
 ## 調査固有の要素 {#survey-specific-elements}
 

@@ -26,12 +26,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 98%
+ht-degree: 96%
 ---
-# 受信ボックスレンダリング{#inbox-rendering}
+# インボックスレンダリング{#inbox-rendering}
 
 ## 受信ボックスレンダリングについて {#about-inbox-rendering}
 
@@ -89,7 +89,7 @@ Adobe Campaign では、クレジットは、使用可能なレンダリング�
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   配達確認が送信されます。 メール送信後数分で、その配達確認からレンダリングサムネールにアクセスできます。 配達確認の送信について詳しくは、[この節](preview-and-proof.md#send-proofs)を参照してください。
+   配達確認が送信されます。 メール送信後数分で、その配達確認からレンダリングサムネールにアクセスできます。 プルーフの送信について詳しくは、[&#x200B; プルーフの送信](preview-and-proof.md#send-proofs)を参照してください。
 
 1. 送信後、配達確認は配信リストに表示されます。 ダブルクリックします。
 

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 79%
+source-wordcount: '472'
+ht-degree: 69%
 ---
 # Campaign をお使いのソリューションと接続する{#gs-ac-connectors}
 
@@ -73,13 +73,13 @@ Adobe Campaign プラットフォームを&#x200B;**サードパーティの CRM
 CRM データをチャネル間通信でアクティブ化します。CRM システムから Adobe Campaign に連絡先を渡し、Adobe Campaign から CRM システムにキャンペーンデータを共有する方法について説明します。
 CRM コネクタを使用すると、すばやく簡単にデータを統合できます。Adobe Campaign に用意されている専用のアシスタントを使用すると、使用可能なテーブルを CRM で収集し、そこから選択することができます。 これにより双方向の同期が確保され、システム全体でデータを常に最新に保つことができます。
 
-CampaignをMicrosoft Dynamics 365およびSalesforce.comと統合する方法については、[このページ &#x200B;](crm.md)を参照してください。
+CampaignをMicrosoft Dynamics 365およびSalesforce.comと統合する方法については、[CampaignおよびCRMの操作](crm.md)を参照してください。
 
 ## Federated Data Access を使用してサードパーティに接続{#gs-fda}
 
 FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign Cloud データベースのデータに影響を与えることなく、外部データベースに格納された情報を処理できます。
 
-詳しくは、[このページ](fda.md)を参照してください。
+詳しくは、[&#x200B; キャンペーンと外部データベースの操作（FDA） &#x200B;](fda.md)を参照してください。
 
 ## ソーシャルメディアの操作{#gs-social}
 
@@ -91,6 +91,6 @@ Adobe Campaign を使用して、X（旧 Twitter）経由で顧客や見込み�
 * X アカウントへの投稿
 * 新しい連絡先の収集
 
-X 統合の設定と使用の方法については、[このページ](../connect/ac-tw.md)を参照してください。
+[CampaignおよびX （Twitter） &#x200B;](../connect/ac-tw.md)でのX統合の設定と使用方法について説明します。
 
-X の投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、[このページ](../send/twitter.md)を参照してください。
+X投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、「[Xにメッセージを投稿する（Twitter）」でAdobe Campaign](../send/twitter.md)をご覧ください。

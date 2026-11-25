@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 94%
+source-wordcount: '759'
+ht-degree: 93%
 ---
 # メールのプレビューとテスト {#preview-test}
 
@@ -81,7 +81,7 @@ ht-degree: 94%
   >
   >シードアドレスはデフォルトの受信者テーブル （nms:recipient）に属していないため、別のテーブルに作成されます。 新しいデータで受信者テーブルを拡張する場合、シードアドレステーブルも同じデータで拡張する必要があります。
 
-  シードアドレスの詳細については、[こちらの節](../audiences/test-profiles.md)を参照してください。
+  シードアドレスの詳細については、[Campaign](../audiences/test-profiles.md)でテストプロファイルを作成してください。
 
 * 「**[!UICONTROL 特定のターゲットとシードアドレス]**」オプションを使用して、シードアドレスと特定のメールアドレスを組み合わせます。 関連する設定は、異なる 2 つのサブタブで定義します。
 

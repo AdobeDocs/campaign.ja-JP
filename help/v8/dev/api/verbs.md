@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 * プロファイルコレクションに対するGET リクエストのサンプル。
 
 
-  ```
+  ```bash
   $curl  
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
@@ -60,7 +60,7 @@ ht-degree: 0%
   プロファイルの配列を返します。
 
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -84,7 +84,7 @@ ht-degree: 0%
 * 特定のプロファイルに対するGET リクエストのサンプル。
 
 
-  ```
+  ```bash
   $curl  
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
@@ -96,7 +96,7 @@ ht-degree: 0%
   リクエストされたプロファイルが返されます。
 
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "firstName": "John",
@@ -110,7 +110,7 @@ ht-degree: 0%
 * プロファイルを作成するためのPOST リクエストのサンプル。
 
 
-  ```
+  ```bash
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -121,7 +121,7 @@ ht-degree: 0%
 
   デフォルトのフィールドを持つプロファイルを返します。
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "firstName": "John",
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 * プロファイルを更新するためのPATCH リクエストのサンプル。
 
-  ```
+  ```bash
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -144,7 +144,7 @@ ht-degree: 0%
 
   更新されたプロファイルを取得するためのPKEYとURLを返します。
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
@@ -153,7 +153,7 @@ ht-degree: 0%
 
 * プロファイルを削除するためのDELETE リクエストのサンプル。
 
-  ```
+  ```bash
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \

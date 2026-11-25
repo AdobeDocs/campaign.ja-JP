@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 1%
@@ -98,7 +98,7 @@ PKey値の管理は、Campaign Standard v8とCampaign v8で異なります。 Ca
 
 次のリクエスト本文フォーマットを使用する場合、「vehicleOwner」は「nms:recipient」へのリンクを表します。
 
-```
+```json
 {
     "vehicleNumber": "20009",
     "vehicleName": "Model E",

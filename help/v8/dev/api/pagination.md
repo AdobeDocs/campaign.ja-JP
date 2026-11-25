@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 プロファイルリソースの1つのレコードを表示するGET リクエストのサンプル。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 リクエストに応答し、**next** ノードを使用してページネーションを実行します。
 
-```
+```json
 {
     "content": [
         {
@@ -72,7 +72,7 @@ ht-degree: 1%
 
 デフォルトでは、大量のデータを含むテーブルを操作する場合、**next** ノードは使用できません。 ページネーションを実行するには、呼び出しURLに&#x200B;**_forcePagination=true** パラメーターを追加する必要があります。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

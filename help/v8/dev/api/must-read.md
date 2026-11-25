@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 ***サンプルをリクエスト***
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 カスタムキーを使用してプロファイルのサブスクリプションを取得するには、カスタムキーに対してGET操作を実行します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -97,7 +97,7 @@ ht-degree: 1%
 
 返された購読URLに対してGET リクエストを実行します。
 
-```
+```bash
 -X GET <SUBSCRIPTION_URL> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 プロファイルの購読のリストを返します。
 
-```
+```json
 "service": {
 "PKey": "<PKEY>",
 "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",

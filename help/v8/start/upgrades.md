@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1780'
-ht-degree: 24%
+source-wordcount: '1796'
+ht-degree: 23%
 ---
 # バージョン、アップグレード、セキュリティ {#upgrades}
 
@@ -43,7 +43,7 @@ Managed Cloud Services ユーザーとして：
 
 * Campaign サーバーインスタンスは、新しいバージョンごとにAdobeによって自動的にアップグレードされ、ユーザー側での操作は必要ありません。
 * お客様の環境に影響を与えるアップグレードの前に、Adobe担当者から連絡を取ります。
-* **クライアントコンソールは、現在の機能を維持する1つのコンポーネントです。** Campaign サーバーと同じバージョンにアップグレードする必要があります。 クライアントコンソールのアップグレード方法について詳しくは、[このページ](../start/connect.md#upgrade-ac-console)を参照してください。
+* **クライアントコンソールは、現在の機能を維持する1つのコンポーネントです。** Campaign サーバーと同じバージョンにアップグレードする必要があります。 クライアントコンソールのアップグレード方法については、[&#x200B; クライアントコンソールのアップグレード &#x200B;](../start/connect.md#upgrade-ac-console)を参照してください。
 
 また、[互換性マトリックス](compatibility-matrix.md)にリストされているシステムのサポートされている最新バージョンを使用していることも確認してください。
 
@@ -92,7 +92,7 @@ Campaign Managed Servicesをご利用のお客様は、新しいCampaign バー�
 
 Campaign のバージョンを確認するには、クライアントコンソールから&#x200B;**ヘルプ／バージョン情報…**&#x200B;メニューにアクセスします。
 
-![](assets/ac-version.png)
+![&#x200B; クライアントコンソールとアプリケーションサーバーのバージョンを表示するクライアントコンソールの概要ダイアログ &#x200B;](assets/ac-version.png)
 
 次の情報にアクセスします。
 

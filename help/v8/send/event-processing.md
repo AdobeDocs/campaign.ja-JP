@@ -26,14 +26,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 90%
+source-wordcount: '703'
+ht-degree: 87%
 ---
 # イベントの処理 {#event-processing}
 
-トランザクションメッセージのコンテキストでは、イベントは外部の情報システムによって生成され、**[!UICONTROL PushEvent]** および **[!UICONTROL PushEvents]** メソッドを介して Adobe Campaign に送信されます。 これらのメソッドについては、[この節](event-description.md)を参照してください。
+トランザクションメッセージのコンテキストでは、イベントは外部の情報システムによって生成され、**[!UICONTROL PushEvent]** および **[!UICONTROL PushEvents]** メソッドを介して Adobe Campaign に送信されます。 これらのメソッドについては、[&#x200B; イベントの説明の理解](event-description.md)で説明しています。
 
 このイベントには、次のようなイベントにリンクされたデータが含まれます。
 
@@ -69,7 +69,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->実行インスタンス上では、**[!UICONTROL リアルタイムイベント]**&#x200B;フォルダーまたは&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーをビューとして設定しないでください。アクセス権の問題が発生するおそれがあるからです。 フォルダーをビューとして設定する方法について詳しくは、[この節](../audiences/folders-and-views.md#turn-a-folder-to-a-view)を参照してください。
+>実行インスタンス上では、**[!UICONTROL リアルタイムイベント]**&#x200B;フォルダーまたは&#x200B;**[!UICONTROL バッチイベント]**&#x200B;フォルダーをビューとして設定しないでください。アクセス権の問題が発生するおそれがあるからです。 フォルダーをビューとして設定する方法について詳しくは、[&#x200B; フォルダーをビューに切り替える](../audiences/folders-and-views.md#turn-a-folder-to-a-view)を参照してください。
 
 ## テンプレートへのイベントの転送 {#event-to-template}
 

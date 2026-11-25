@@ -39,10 +39,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 89%
+source-wordcount: '825'
+ht-degree: 76%
 ---
 # フォルダーとビューの管理 {#folders-and-views}
 
@@ -74,13 +74,13 @@ Campaign フォルダーは、エクスプローラーツリー内のノード�
 
 選択したフォルダーと同じタイプのフォルダーを作成するには、コンテキストメニューの最初のオプションを選択します。 例えば、受信者フォルダーから、「**[!UICONTROL 新しい「受信者」フォルダーを作成]**」を選択します。
 
-![](assets/create-recipient-folder.png)
+![新しい「受信者」フォルダーを作成オプションが強調表示された受信者フォルダーのコンテキストメニュー](assets/create-recipient-folder.png)
 
 新しいフォルダーをドラッグ＆ドロップして、必要に応じて Campaign エクスプローラーツリーを整理できます。
 
 別のタイプのフォルダーを作成するには、既存のフォルダーを右クリックし、「**[!UICONTROL 新しいフォルダーを追加]**」を選択します。 格納するデータに応じて、すべてのタイプのフォルダーを作成できます。
 
-![](assets/add-new-folder.png)
+![&#x200B; リストのフォルダータイプが選択されたデータベース サブメニューを表示する新しいフォルダーメニューを追加](assets/add-new-folder.png)
 
 >[!CAUTION]
 >
@@ -109,15 +109,15 @@ Campaign フォルダーは、エクスプローラーツリー内のノード�
 1. このフォルダーを右クリックし、「**[!UICONTROL プロパティ]**」を選択します。
 1. 「**[!UICONTROL 制限]**」タブで、「**[!UICONTROL フォルダーのビュー化]**」を選択します。 データベース内にあるすべての配信データが表示されます。
 
-   ![](assets/this-folder-is-a-view.png)
+   このフォルダーを含むUS配信の![&#x200B; フォルダープロパティは、「制限」タブで選択された表示オプションです](assets/this-folder-is-a-view.png)
 
 1. ウィンドウ中央部のセクションにあるクエリエディターで、フィルター条件を定義します。フィルターに対応する配信のみがフォルダーに表示されます。
 
-   ![](assets/filter-view.png)
+   ![内部名がUS](assets/filter-view.png)で始まるビューを定義する制限タブフィルター条件
 
    >[!NOTE]
    >
-   >クエリをデザインする方法については、[このページ](create-filters.md#advanced-filters)を参照してください
+   >[詳細フィルター](create-filters.md#advanced-filters)でクエリをデザインする方法について説明します
 
 
 >[!CAUTION]
@@ -132,7 +132,7 @@ Campaign フォルダーは、エクスプローラーツリー内のノード�
 
 右側の矢印を使用してフォルダーを移動するか、「**[!UICONTROL サブフォルダーをアルファベット順に並べ替える]**」オプションを使用して自動的に並べ替えることができます。
 
-![](assets/sort-folders.png)
+![下向き矢印とアルファベット順に並べ替えオプションを含むフォルダープロパティの「サブフォルダー」タブ &#x200B;](assets/sort-folders.png)
 
 
 ## フォルダー内のデータのフィルタリング{#filter-data-in-a-folder}
@@ -141,9 +141,9 @@ Campaign フォルダーは、エクスプローラーツリー内のノード�
 
 例えば、以下のフォルダーには、メールアドレスを持ち、接触チャネルが「外部」としてフラグされていない、または空の連絡先のみが含まれます。
 
-![](assets/add-a-filter-to-a-folder.png)
+内部名でフィルタリングされたUS Deliveries フォルダーのプロパティの![制限タブがUS](assets/add-a-filter-to-a-folder.png)で始まります
 
 
 ## フォルダーへのアクセスを制限する{#restrict-access-to-a-folder}
 
-フォルダーに対する権限を使用して、Campaign データへのアクセスを整理および制御します。 フォルダーの権限について詳しくは、[この節](../start/folder-permissions.md)を参照してください。
+フォルダーに対する権限を使用して、Campaign データへのアクセスを整理および制御します。 フォルダーに対する権限について詳しくは、[Campaign フォルダーに対する権限の付与と制限](../start/folder-permissions.md)を参照してください。

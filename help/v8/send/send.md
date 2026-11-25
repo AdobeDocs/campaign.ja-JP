@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 92%
+source-wordcount: '875'
+ht-degree: 88%
 ---
 # メールの送信と監視  {#send-and-monitor-emails}
 
@@ -77,7 +77,7 @@ MTA は SMTP バウンスを選定し、その選定結果を Campaign バウン
 >
 >現在、**非同期**&#x200B;バウンスは、**[!UICONTROL 受信メール]**&#x200B;ルールを通じて inMail プロセスによって検証されています。
 
-配信エラーについて詳しくは、[この節](delivery-failures.md)を参照してください。
+配信エラーについて詳しくは、[Campaign](delivery-failures.md)の配信エラーを参照してください。
 
 
 ### 特定の MX ルール
@@ -112,9 +112,9 @@ MTA からハードバウンスメッセージが報告されると、ログの�
 
 >[!NOTE]
 >
->ハードバウンスとソフトバウンスについて詳しくは、[この節](delivery-failures.md#delivery-failure-reasons)を参照してください。
+>ハードバウンスとソフトバウンスについて詳しくは、[&#x200B; メッセージ配信が失敗した理由](delivery-failures.md#delivery-failure-reasons)を参照してください。
 >
->一時的な配信エラー後の再試行について詳しくは、[この節](delivery-failures.md#retries)を参照してください。
+>配信の一時的なエラー後の再試行について詳しくは、[再試行管理](delivery-failures.md#retries)を参照してください。
 
 次の表に、送信プロセスの各手順で KPI と送信ログのステータスがどのように更新されるかを示します。
 

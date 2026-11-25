@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 0%
 ---
 # API トラブルシューティング {#troubleshooting}
@@ -32,7 +32,7 @@ API キーを作成できるのは、管理対象の組織のみです。 この
 詳細を確認するには、トークンを使用してIMS APIを呼び出し、IMS プロファイルがどのように表示されるかを確認します。リクエストをルーティングするには、organization_idがAdobe.ioのURLに入力したものと同じprodCtxが必要です。
 IMS プロビジョニングが見つからない場合は、修正する必要があります。
 
-```
+```bash
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -42,13 +42,13 @@ IMS プロビジョニングが見つからない場合は、修正する必要�
 
 次のエラーが返されます。
 
-```
+```json
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
 このリクエストでIMS プロファイルを確認します。
 
-```
+```bash
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -58,7 +58,7 @@ IMS プロビジョニングが見つからない場合は、修正する必要�
 
 応答では、最初のGET リクエストでORGANIZATION_IDの値が同じである必要があります。
 
-```
+```json
 {
   "countryCode": "FR",
   "mrktPermEmail": null,
@@ -91,7 +91,7 @@ Adobe.ioが無効なURIを宣言しています。おそらく、リクエスト
 
 * **作成後にプロファイルが表示されない**
 
-インスタンス設定に応じて、作成したプロファイルを&#x200B;**orgUnit**&#x200B;に関連付ける必要があります。 このフィールドを作成に追加する方法については、[このセクション &#x200B;](creating-profiles-api.md)を参照してください。
+インスタンス設定に応じて、作成したプロファイルを&#x200B;**orgUnit**&#x200B;に関連付ける必要があります。 このフィールドを作成に追加する方法については、[APIを使用したプロファイルの作成](creating-profiles-api.md)を参照してください。
 
 <!--
  * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)

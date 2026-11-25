@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 92%
+source-wordcount: '1475'
+ht-degree: 91%
 ---
 # インタラクティブコンテンツの定義{#defining-interactive-content}
 
@@ -39,9 +39,9 @@ AMP for Email を使用して、次のことができます。
 * 適切に設定された特定のアドレスに対する AMP メールの配信をテストする
 * 対応するプロバイダーに登録した後、AMP メールを Gmail または Mail.ru アドレスに配信します。
 
-AMP メールのテストと送信について詳しくは、[この節](#targeting-amp-email)を参照してください。
+AMP メールのテストと送信について詳しくは、[AMP メールのターゲット &#x200B;](#targeting-amp-email)を参照してください。
 
-この機能は、Adobe Campaign の専用パッケージを通じて使用できます。 権限とデプロイメントモデルに応じて、このパッケージをインストールするか、Adobeに連絡してインストールできます。
+この機能は、Adobe Campaign の専用パッケージで使用できます。 権限とデプロイメントモデルに応じて、このパッケージをインストールするか、Adobeに連絡してインストールできます。
 
 ## AMP for Email について {#about-amp-for-email}
 

@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 ---
 # プッシュ通知の作成と送信{#push-notifications-create}
 
@@ -194,9 +194,9 @@ Android デバイスで通知を送信するには、次の手順に従います
 
 配達確認や最終配信を送信するには、他の配信と同じプロセスを使用します。
 
-配信を検証する方法について詳しくは、[このページ](preview-and-proof.md)を参照してください。
+配信を検証する方法については、[電子メールをプレビューしてテストする](preview-and-proof.md)を参照してください。
 
-配信を確認して送信する方法について詳しくは、[このページ](send.md)を参照してください
+[&#x200B; メールの送信と監視](send.md)で配信を確認および送信する方法について説明します
 
-メッセージを送信した後は、配信を監視およびトラッキングできます。 プッシュ通知配信の失敗理由について詳しくは、[このページ](delivery-failures.md#push-error-types)を参照してください。
+メッセージを送信した後は、配信を監視およびトラッキングできます。 プッシュ通知の配信失敗の理由について詳しくは、[&#x200B; プッシュ通知のエラータイプ &#x200B;](delivery-failures.md#push-error-types)を参照してください。
 

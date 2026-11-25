@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 66%
+source-wordcount: '1435'
+ht-degree: 64%
 ---
 # 強制隔離 {#quarantine-management}
 
@@ -103,7 +103,7 @@ Adobe Campaign では、配信エラーのタイプと理由に応じて強制�
 * 配信分析時に強制隔離されたアドレス数
 * 配信アクション後に強制隔離されたアドレス数
 
-配信レポートについて詳しくは、[この節](../reporting/gs-reporting.md)を参照してください。
+配信レポートについて詳しくは、[Adobe Campaign レポートツールの基本を学ぶ](../reporting/gs-reporting.md)を参照してください。
 
 ### 配信不能アドレスとバウンスアドレス{#non-deliverable-bounces}
 
@@ -143,7 +143,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
 * 「**[!UICONTROL エラーあり]**」ステータスのアドレスは、配信が正常に完了すると、強制隔離リストから削除されます。
-* 「**[!UICONTROL エラーあり]**」ステータスのアドレスは、最後のソフトバウンスが 10 日以上前に発生した場合に、強制隔離リストから削除されます。 ソフトエラー管理について詳しくは、[この節](#soft-error-management)を参照してください。
+* 「**[!UICONTROL エラーあり]**」ステータスのアドレスは、最後のソフトバウンスが 10 日以上前に発生した場合に、強制隔離リストから削除されます。 ソフトエラー管理について詳しくは、[&#x200B; ソフトエラー管理](#soft-error-management)を参照してください。
 * 「**[!UICONTROL エラーあり]**」ステータスのアドレスで、**[!UICONTROL メールボックス容量超過]**&#x200B;エラーでバウンスしたアドレスは、30 日後に強制隔離リストから削除されます。
 
 その後、ステータスは「**[!UICONTROL 有効]**」に変わります。

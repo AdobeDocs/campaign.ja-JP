@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 94%
+source-wordcount: '1313'
+ht-degree: 91%
 ---
 # スキーマの操作{#gs-ac-schemas}
 
@@ -69,7 +69,7 @@ Adobe Campaign では、次の目的でデータスキーマを使用してい�
 * Campaign アプリケーション内での異なるデータオブジェクト間リンクの定義
 * 各オブジェクトに含まれている個々のフィールドの定義と記述
 
-Adobe Campaign キャンペーンのビルトインテーブルとそのやり取りについて詳しくは、[この節](datamodel.md)を参照してください。
+Campaignの組み込みテーブルとそのインタラクションについて詳しくは、[Campaign データモデルの概要](datamodel.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -81,7 +81,7 @@ Adobe Campaign キャンペーンのビルトインテーブルとそのやり�
 
 最初の **`<element>`** サブ要素は、エンティティのルートに一致します。
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">  
     <attribute name="lastName"/>
@@ -221,11 +221,11 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 >
 >スキーマを新しく作成するときや、スキーマを拡張するときは、スキーマ全体で同じプライマリキーのシーケンス値（@pkSequence）を保持する必要があります。
 
-キーについて詳しくは、[この節](database-mapping.md)を参照してください。
+キーの詳細については、[Campaign データベース マッピング &#x200B;](database-mapping.md)を参照してください。
 
 ## 属性（フィールド） {#attributes--fields-}
 
-属性を使用すると、データオブジェクトを構成するフィールドを定義できます。 スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。 詳細については、[この節](create-schema.md)を参照してください。
+属性を使用すると、データオブジェクトを構成するフィールドを定義できます。 スキーマエディションのツールバーの「**[!UICONTROL 挿入]**」ボタンを使用すると、カーソルのある XML に空の属性テンプレートをドロップできます。 詳しくは、[Campaign](create-schema.md)で新しいスキーマを作成するを参照してください。
 
 ![](assets/schemaextension_2.png)
 
@@ -313,7 +313,7 @@ For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-f
 
 ![](assets/schemaextension_3.png)
 
-詳しくは、[この節](update-database-structure.md)を参照してください。
+詳しくは、[&#x200B; データベース構造の更新](update-database-structure.md)を参照してください。
 
 >[!NOTE]
 >

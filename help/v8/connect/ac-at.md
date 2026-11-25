@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 93%
+source-wordcount: '1299'
+ht-degree: 75%
 ---
 # Campaign と Adobe Target の連携
 
@@ -66,7 +66,7 @@ Adobe Target では、次の種類のデータを使用できます。
 * メールが米国で開かれている。
 * どちらの条件にも該当しない場合、デフォルトの画像が表示される。
 
-![](assets/target_4.png)
+![電子メールのバリエーションをオーディエンス別に表示：デフォルトでは、飛行機、フランス語のエッフェル塔、アメリカの自由の女神像](assets/target_4.png)
 
 Adobe CampaignとAdobe Targetでは、次の手順を実行する必要があります。
 
@@ -86,11 +86,11 @@ Adobe Campaign では、2 通りの方法で Target からメールに動的イ�
 
 * デジタルコンテンツエディターを使用している場合は、既存の画像を選択して、ツールバーで&#x200B;**[!UICONTROL 挿入]**／**[!UICONTROL Adobe Target からの動的画像]**&#x200B;を選択します。
 
-  ![](assets/target_5.png)
+  ![画像ツールバーメニューでAdobe Targetが提供する動的な画像を含むデジタルコンテンツエディター](assets/target_5.png)
 
 * 標準のエディターを使用している場合は、画像を挿入する場所にカーソルを移動し、パーソナライゼーションドロップダウンメニューから&#x200B;**[!UICONTROL 含める]**／**[!UICONTROL Adobe Target からの動的画像]**&#x200B;を選択します。
 
-  ![](assets/target_12.png)
+  ![&#x200B; パーソナライゼーションメニューで選択したAdobe Targetが提供する動的な画像を含める標準エディター](assets/target_12.png)
 
 次に、画像のパラメーターを定義します。
 
@@ -101,7 +101,7 @@ Adobe Campaign では、2 通りの方法で Target からメールに動的イ�
 
 Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。 Target Enterprise権限について詳しくは、[Adobe Target ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target/using/administer/manage-users/enterprise/properties-overview#administer){target="_blank"}を参照してください。
 
-![](assets/target_13.png)
+![&#x200B; デフォルトの画像、ターゲットの場所、ランディングページ、決定パラメーターを含むAdobe Target ダイアログで提供される画像を挿入する](assets/target_13.png)
 
 ### リダイレクトオファーの作成 {#create-redirect-offers}
 
@@ -113,11 +113,11 @@ Adobe Target では、オファーのさまざまなバージョンを作成で�
 
 1. 「**[!UICONTROL 作成]**」、「**[!UICONTROL リダイレクトオファー]**」の順にクリックします。
 
-   ![](assets/target_9.png)
+   ![Adobe Targetの「オファー」タブ、「コードのオファー」で、「作成」メニューが開き、「オファーをリダイレクト」がハイライト表示されている](assets/target_9.png)
 
 1. オファーの名前と画像の URL を入力します。
 
-   ![](assets/target_6.png)
+   ![Adobe Targetの「名前」フィールドがフランス語オーディエンスに設定され、「リダイレクト URL」フィールドが設定されたリダイレクトオファーフォームを作成](assets/target_6.png)
 
 1. 残りのリダイレクトオファーについても同じ手順を繰り返します。 詳しくは、この[Adobe Target ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja#experiences){target="_blank"}を参照してください。
 
@@ -127,11 +127,11 @@ Adobe Target では、2 つのオーディエンスを作成する必要があ�
 
 1. Target で新しいオーディエンスを作成するには、「**[!UICONTROL オーディエンス]**」タブで「**[!UICONTROL オーディエンスを作成]**」をクリックします。
 
-   ![](assets/audiences_1.png)
+   「オーディエンスを作成」ボタンが強調表示された![Adobe Target オーディエンス タブ &#x200B;](assets/audiences_1.png)
 
 1. オーディエンスに名前を追加します。
 
-   ![](assets/audiences_2.png)
+   「オーディエンス名」フィールドと「ルールを追加」ボタンを含む![Adobe Targetの新しいオーディエンスダイアログ &#x200B;](assets/audiences_2.png)
 
 1. 「**[!UICONTROL ルールを追加]**」をクリックして、カテゴリを選択します。 このルールでは、特定の条件を使用して訪問者をターゲティングしています。 条件を追加したり、他のカテゴリに新しいルールを作成したりしてルールを調整できます。
 
@@ -145,17 +145,17 @@ Adobe Target では、「エクスペリエンスのターゲット設定」ア�
 
 1. エクスペリエンスのターゲット設定アクティビティを作成するには、「**[!UICONTROL アクティビティ]**」タブで、「**[!UICONTROL アクティビティを作成]**」をクリックし、「**[!UICONTROL エクスペリエンスのターゲット設定]**」をクリックします。
 
-   ![](assets/target_10.png)
+   ![&#x200B; アクティビティを作成メニューが開き、エクスペリエンスのターゲット設定がハイライト表示された「](assets/target_10.png) Adobe Target アクティビティ」タブ
 
 1. **[!UICONTROL Experience Composer]** として「**[!UICONTROL フォーム]**」を選択します。
 
 1. 「**[!UICONTROL オーディエンスを変更]**」ボタンをクリックして、オーディエンスを選択します。
 
-   ![](assets/target_10_2.png)
+   ![すべての訪問者オーディエンスメニューで「オーディエンスを変更」を選択した新しいアクティビティエクスペリエンスステップ &#x200B;](assets/target_10_2.png)
 
 1. 前の手順で作成したオーディエンスを選択します。
 
-   ![](assets/target_10_3.png)
+   ![すべての訪問者とその他のオーディエンスを含むオーディエンスライブラリを一覧表示するオーディエンスを選択ダイアログ &#x200B;](assets/target_10_3.png)
 
 1. 「**[!UICONTROL エクスペリエンスのターゲット設定を追加]**」をクリックして、別のエクスペリエンスを作成します。
 
@@ -163,27 +163,27 @@ Adobe Target では、「エクスペリエンスのターゲット設定」ア�
 
 1. Adobe Campaign でダイナミックオファーを挿入する際に選択した場所名を選択します。
 
-   ![](assets/target_15.png)
+   ![場所を選択リストでv_rawboxの場所が選択されたエクスペリエンスのターゲット設定アクティビティ &#x200B;](assets/target_15.png)
 
 1. ドロップダウンボタンをクリックして、「**[!UICONTROL リダイレクトオファーを変更]**」を選択します。
 
-   ![](assets/target_content.png)
+   リダイレクトの変更オファーがハイライト表示されたアクティビティの![&#x200B; コンテンツメニュー](assets/target_content.png)
 
 1. 前の手順で作成したリダイレクトオファーを選択します。
 
-   ![](assets/target_content_2.png)
+   ![&#x200B; フランスのオーディエンスオファーを選択し、保存ボタンをクリックした状態で、リダイレクトオファーダイアログを選択](assets/target_content_2.png)
 
 1. 2 番目のエクスペリエンスについても同じ手順を繰り返します。
 
 **[!UICONTROL ターゲット]**&#x200B;ウィンドウに、アクティビティの概要が表示されます。 必要に応じて、他のエクスペリエンスを追加できます。
 
-![](assets/target_experience.png)
+![&#x200B; エクスペリエンスを追加したエクスペリエンス Aとしてのフランス人オーディエンスとエクスペリエンス Bとしてのアメリカ人オーディエンスを一覧表示するターゲットステップ &#x200B;](assets/target_experience.png)
 
 **[!UICONTROL 目標と設定]**&#x200B;ウィンドウでは、優先度、目標、期間を設定して、アクティビティをパーソナライズできます。
 
 「**[!UICONTROL レポート設定]**」セクションでは、アクションを選択し、目標達成を判別するためのパラメーターを編集できます。
 
-![](assets/target_experience_2.png)
+目標の指標をコンバージョンに設定し、v6_rawbox![&#128279;](assets/target_experience_2.png)のmboxを表示した目標と設定ステップ
 
 ## メッセージのプレビューと送信 {#preview-send-email}
 
@@ -193,4 +193,4 @@ Adobe Campaign では、メールをプレビューして、様々な受信者�
 
 これで、Target からの動的なオファーを含んだメールを送信する準備が整いました。
 
-![](assets/target_20.png)
+![Adobe Targetがフランスのオーディエンスに提供したエッフェル塔の画像を示すMarie Dupontのメールのプレビュー](assets/target_20.png)

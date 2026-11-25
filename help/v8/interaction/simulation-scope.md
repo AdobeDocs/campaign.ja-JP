@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 100%
+source-wordcount: '274'
+ht-degree: 87%
 ---
 # シミュレーションの範囲{#simulation-scope}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
   受信者は、この多くの提案を受け取ります。 例えば、5 と入力すると、各受信者が受け取るオファーの提案の数は最大 5 件になります。
 
-  ![](assets/offer_simulation_009.png)
+  ![連絡先の日付、提案数、および素晴らしい旅行者のターゲットクエリを含む「シミュレーション範囲」タブ &#x200B;](assets/offer_simulation_009.png)
 
 シミュレーションについて考慮に入れるようにオファーを調整するために、1 つまたは複数のテーマ（事前にカテゴリで指定されたもの）を追加できます。
 
@@ -66,4 +66,4 @@ ht-degree: 100%
 
 それには、「**[!UICONTROL 追加]**」ボタンをクリックし、適切なフィールドを選択します。 軸は、シミュレーションの計算に使用され、分析レポートに表示されます。 詳しくは、[シミュレーションのトラッキング](simulation-tracking.md)を参照してください。
 
-![](assets/offer_simulation_011.png)
+![&#x200B; オファーのレポート軸を追加する終了日を選択する式を選択ダイアログを含む「計算」タブ &#x200B;](assets/offer_simulation_011.png)

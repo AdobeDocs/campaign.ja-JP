@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 プロファイルを取得するためのGET リクエストのサンプル。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -52,7 +52,7 @@ ht-degree: 2%
 
 リクエストへの応答。
 
-```
+```json
 {
     "content": [
         {
@@ -68,7 +68,7 @@ ht-degree: 2%
 
 PATCHは、「phone」属性の更新をリクエストします。
 
-```
+```bash
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -79,7 +79,7 @@ PATCHは、「phone」属性の更新をリクエストします。
 
 更新されたプロファイルを取得するためのPKEYとURLを返します。
 
-```
+```json
 {
     "PKey": "<PKEY>",
     "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/@2v1dr3ZKJveMDhAdh0MPnh9hNQQ93qb7AW6BNVVKknjwXvTZRBAgUqz1SNcB4ZndgjqOofx3BwBZYBftlmObISoM3rs"

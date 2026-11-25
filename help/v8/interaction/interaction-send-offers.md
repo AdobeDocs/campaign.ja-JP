@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 94%
+source-wordcount: '1643'
+ht-degree: 78%
 ---
 # オファーの送信{#send}
 
@@ -41,37 +41,37 @@ ht-degree: 94%
 
 1. 配信ウィンドウで、**オファー**&#x200B;アイコンをクリックします。
 
-   ![](assets/offer_delivery_001.png)
+   ![&#x200B; オファーボタンを使用したメール配信。空のオファースペース フィールドを使用してオファー管理ダイアログを開く](assets/offer_delivery_001.png)
 
 1. オファー環境に合致するスペースを選択します。
 
-   ![](assets/offer_delivery_002.png)
+   ![使用可能な電子メールオファースペースのリストを表示するオファー管理ダイアログのオファースペース ドロップダウン &#x200B;](assets/offer_delivery_002.png)
 
 1. エンジンによるオファー選択を調整するには、提示するオファーが含まれるカテゴリを選択するか、1 つまたは複数のテーマを選択します。 制限のオーバーロードを避けるために、これらのフィールドは一度に 1 つのみ使用することをお勧めします。
 
-   ![](assets/offer_delivery_003.png)
+   ![&#x200B; オファーカタログのカテゴリを一覧表示するカテゴリ ドロップダウンを含むオファー管理ダイアログ &#x200B;](assets/offer_delivery_003.png)
 
-   ![](assets/offer_delivery_004.png)
+   ![&#x200B; テーマ フィールドが入力されたオファー管理ダイアログ &#x200B;](assets/offer_delivery_004.png)
 
 1. 配信の本文に挿入するオファーの数を指定します。
 
-   ![](assets/offer_delivery_005.png)
+   メッセージ フィールドあたりの提案数が2![&#128279;](assets/offer_delivery_005.png)に設定された オファー管理ダイアログ
 
 1. 必要に応じて、「**[!UICONTROL 不適格な受信者を除外]**」オプションを選択します。 [詳細情報](#parameters-for-calling-offer-engine)
 
-   ![](assets/offer_delivery_006.png)
+   ![対象外の受信者を除外オプションが選択されたオファー管理ダイアログ &#x200B;](assets/offer_delivery_006.png)
 
 1. 必要に応じて「**[!UICONTROL 選択されているオファーがない場合は表示しない]**」オプションを選択します。 [詳細情報](#parameters-for-calling-offer-engine)
 
-   ![](assets/offer_delivery_007.png)
+   「オファーが選択されていない場合は何も表示しない」オプションを含む![&#x200B; オファー管理ダイアログ &#x200B;](assets/offer_delivery_007.png)
 
 1. 結合フィールドを使用して、プロパティを配信コンテンツに挿入します。 使用可能な提案の数は、エンジンの呼び出しがどのように設定されているかによって異なります。また、提案の順序は、オファーの優先度によって異なります。
 
-   ![](assets/offer_delivery_008.png)
+   ![配信コンテンツメニューパス提案、提案2、レンダリング関数、HTML レンダリング &#x200B;](assets/offer_delivery_008.png)
 
 1. コンテンツを完成させ、配信をテストして送信します。
 
-   ![](assets/offer_delivery_010.png)
+   ![2つの提案を含むメール配信コンテンツには、スクリプトと「送信」ボタンが強調表示されています](assets/offer_delivery_010.png)
 
 
 ### オファーエンジンのパラメーター {#parameters-for-calling-offer-engine}
@@ -97,7 +97,7 @@ ht-degree: 94%
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
-![](assets/int_enrichment_offer1.png)
+![結果トランジションによってリンクされたクエリ、エンリッチメント、およびダイレクトメール配信アクティビティを含むワークフロー](assets/int_enrichment_offer1.png)
 
 オファー提案を指定するには、2 つの方法があります。
 
@@ -112,18 +112,18 @@ ht-degree: 94%
 1. 「**[!UICONTROL エンリッチメント]**」タブで、「**[!UICONTROL データを追加]**」を選択します。
 1. 追加するデータタイプで「**[!UICONTROL オファーの提案]**」を選択します。
 
-   ![](assets/int_enrichment_offer2.png)
+   ![&#x200B; オファー提案オプションを選択した追加データウィザード &#x200B;](assets/int_enrichment_offer2.png)
 
 1. 追加される提案の識別子とラベルを指定します。
 1. オファーの選択を指定します。 これには、次の 2 つのオプションを使用できます。
 
    * **[!UICONTROL カテゴリ内で最適なオファーを検索]**：このオプションをオンにする場合は、オファーエンジン呼び出しのパラメーター（オファースペース、カテゴリまたはテーマ、コンタクト日、保持するオファーの数）を指定します。 エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。 「**[!UICONTROL カテゴリ]**」フィールドと「**[!UICONTROL テーマ]**」フィールドは、両方同時には使用せず、どちらか一方のみ入力することをお勧めします。
 
-     ![](assets/int_enrichment_offer3.png)
+     ![&#x200B; オファーの提案ステップを設定して、カテゴリ内の最適なオファーを検索し、スペース、カテゴリ、オファーを保持する](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL 事前定義済みオファー]**：このオプションをオンにする場合は、オファースペース、特定のオファーおよびコンタクト日を指定して、オファーエンジンを呼び出さずに、追加するオファーを直接設定します。
 
-     ![](assets/int_enrichment_offer4.png)
+     ![&#x200B; オファー提案ステップが、スペースとオファーのフィールドを含む事前定義されたオファーに設定されています](assets/int_enrichment_offer4.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 [詳細情報](#offer-into-a-delivery)
 
@@ -141,11 +141,11 @@ ht-degree: 94%
 1. 追加するデータのタイプを選択するウィンドウで、「**[!UICONTROL リンク]**」を選択します。
 1. 設定するリンクのタイプとターゲットを選択します。 この場合、ターゲットはオファースキーマです。
 
-   ![](assets/int_enrichment_link1.png)
+   ![常にターゲットが使用可能で、マーケティングオファーのスキーマがターゲット &#x200B;](assets/int_enrichment_link1.png)であるリンクの定義ステップ
 
 1. エンリッチメントアクティビティのインバウンドテーブルデータ（ここでは受信者テーブル）とオファーテーブルとの結合を指定します。 例えば、オファーコードを受信者にリンクできます。
 
-   ![](assets/int_enrichment_link2.png)
+   ![暗号化されたId ソース フィールドとターゲット コード フィールドに一致するリンク定義結合条件](assets/int_enrichment_link2.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 [詳細情報](#offer-into-a-delivery)
 
@@ -166,11 +166,11 @@ ht-degree: 94%
 1. 「クエリ」アクティビティの後、配信アクティビティの前に配置された「エンリッチメント」アクティビティで、オファーエンジンの呼び出しを作成します。 [詳細情報](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   「追加データを編集」リンクが強調表示され、提案データが一覧表示された![&#x200B; エンリッチメントアクティビティ &#x200B;](assets/ita_enrichment_rankweight_1.png)
 
 1. ランキング用に「**[!UICONTROL @rank]**」列を追加し、オファーの重み付け用に「**[!UICONTROL @weight]**」列を追加します。
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![提案の下に「重み」と「ランキング」の出力列が追加された追加の列を選択ダイアログ &#x200B;](assets/ita_enrichment_rankweight_2.png)
 
 1. 追加を確認し、ワークフローを保存します。
 
@@ -184,7 +184,7 @@ ht-degree: 94%
 
 このアクティビティは、**エンリッチメント**&#x200B;アクティビティと同じ原則でエンジン呼び出しによって作動します。つまり、配信前にエンジンで計算したオファーでインバウンド母集団のデータを強化します。
 
-![](assets/int_offerengine_activity2.png)
+![&#x200B; クエリ、オファーエンジン、および結果遷移によってリンクされたダイレクトメール配信アクティビティを含むワークフロー](assets/int_offerengine_activity2.png)
 
 **クエリ**&#x200B;アクティビティを設定した後：
 
@@ -195,7 +195,7 @@ ht-degree: 94%
    >
    >このアクティビティを使用する場合、配信に使用されたオファーの提案のみが格納されます。
 
-   ![](assets/int_offerengine_activity1.png)
+   ![&#x200B; オファースペース、オファーカテゴリ、計算する提案数](assets/int_offerengine_activity1.png)を含むオファーエンジンアクティビティ
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 [詳細情報](#inserting-an-offer-proposition-into-a-delivery)
 
@@ -214,7 +214,7 @@ ht-degree: 94%
    * 適用可能なフィルタリングおよび制限ルールを使用して、サブセットの母集団を指定します。
    * サブセットに提示するオファーを選択します。 利用できるオファーは、前の手順で選択したオファー環境で実施要件を満たすオファーです。
 
-     ![](assets/int_offer_per_cell1.png)
+     ![電子メールオファースペースと、利用可能なオファーのリストを示すオファードロップダウンリストを含むサブセットアクティビティ &#x200B;](assets/int_offer_per_cell1.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。
 

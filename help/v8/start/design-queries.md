@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 29%
+source-wordcount: '1180'
+ht-degree: 22%
 ---
 # Query Campaign データベース
 
@@ -52,7 +52,7 @@ Adobe Campaign でクエリを作成する手順は次のとおりです。
 
 Campaign データベースをクエリするには、**[汎用クエリエディター](query-editor.md)**&#x200B;を開き、**[!UICONTROL ドキュメントタイプ]** ウィンドウで、クエリするデータを含むテーブルを選択します。
 
-![](assets/query_editor_nveau_21.png)
+![汎用クエリエディターでドキュメントタイプウィンドウを開き、リストに受信者スキーマを含むツールメニュー](assets/query_editor_nveau_21.png)
 
 必要に応じて、フィルターフィールドまたは&#x200B;**[!UICONTROL フィルター]** ボタンを使用してデータをフィルタリングします。
 
@@ -62,19 +62,19 @@ Campaign データベースをクエリするには、**[汎用クエリエデ�
 
 例えば、**[!UICONTROL Age]**、**[!UICONTROL プライマリキー]**、**[!UICONTROL メールドメイン]**、**[!UICONTROL City]**&#x200B;を選択できます。 出力は、この選択に従って構造化されます。 列の順序を調整するには、ウィンドウの右側にある青い矢印を使用します。
 
-![](assets/query_editor_nveau_01.png)
+![年齢、プライマリキー、電子メールドメイン、および市区町村を含む手順を抽出するデータが出力列リストに追加されました。](assets/query_editor_nveau_01.png)
 
 式を変更するには、式を追加するか、プロセスを集計関数に適用します。 式を編集するには、**[!UICONTROL 式]**&#x200B;列フィールドをクリックし、**[!UICONTROL 式を編集]**&#x200B;を選択します。
 
-![](assets/query_editor_nveau_97.png)
+![式を編集ボタンがハイライト表示された出力列の式カラム フィールド。](assets/query_editor_nveau_97.png)
 
-出力列に表示されるデータをグループ化できます。 これを行うには、**[!UICONTROL データから]** ウィンドウを抽出する&#x200B;**[!UICONTROL グループ]**&#x200B;列の&#x200B;**[!UICONTROL Yes]**&#x200B;を選択します。 その後、選択したグループ化軸に基づいて結果が集計されます。 グループ化を使用したクエリの例については、[このセクション &#x200B;](../../automation/workflow/query-delivery-info.md)を参照してください。
+出力列に表示されるデータをグループ化できます。 これを行うには、**[!UICONTROL データから]** ウィンドウを抽出する&#x200B;**[!UICONTROL グループ]**&#x200B;列の&#x200B;**[!UICONTROL Yes]**&#x200B;を選択します。 その後、選択したグループ化軸に基づいて結果が集計されます。 グループ化を使用したクエリの例については、[配信情報のクエリ &#x200B;](../../automation/workflow/query-delivery-info.md)を参照してください。
 
-![](assets/query_editor_nveau_56.png)
+![&#x200B; グループ列がハイライト表示された状態で手順を抽出するデータ。各出力列に対して「いいえ」に設定します。](assets/query_editor_nveau_56.png)
 
 * **[!UICONTROL グループ化を処理（GROUP BY + HAVING）]** オプションを使用すると、結果をグループ化し、それらのグループに条件を適用できます。 出力列のすべてのフィールドに適用されます。 例えば、出力列の値をグループ化し、結果をフィルタリングして、35 ～ 50歳の受信者などの特定の情報のみを取得できます。
 
-  詳しくは、[この節](../../automation/workflow/query-grouping-management.md)を参照してください。
+  詳しくは、「[&#x200B; グループ化管理を使用したクエリ &#x200B;](../../automation/workflow/query-grouping-management.md)」を参照してください。
 
 **[!UICONTROL 重複行を削除（DISTINCT）]** オプションを使用すると、出力（重複排除）から同じ行が削除されます。 例えば、**姓**、**名**、**電子メール**&#x200B;を出力列として選択した場合、3つのフィールドすべてで同じ値を持つレコードは重複とみなされます。 結果には1つのインスタンスのみが保持され、各コンタクトが1回だけ表示されます。
 
@@ -87,13 +87,13 @@ Campaign データベースをクエリするには、**[汎用クエリエデ�
 
 この例では、データは受信者の年齢に基づいて昇順で並べ替えられています。
 
-![](assets/query_editor_nveau_57.png)
+![並べ替え手順リストの年齢、プライマリキー、電子メールドメインおよび市区町村で、並べ替え列と降順の並べ替え列がNo.](assets/query_editor_nveau_57.png)に設定されている
 
 ## 手順 4 - データのフィルタリング {#step-4---filter-data}
 
 クエリエディターでは、データをフィルタリングして結果を絞り込むことができます。 使用可能なフィルターは、クエリするテーブルによって異なります。
 
-![](assets/query_editor_nveau_09.png)
+![制限フィルターと以下のユーザーフィルターのリストでフィルター条件を選択したデータフィルタリングステップ。](assets/query_editor_nveau_09.png)
 
 **[!UICONTROL フィルター条件]**&#x200B;を選択すると、**[!UICONTROL ターゲット要素]** セクションが開きます。 ここでは、収集するデータをフィルタリングするためのルールを定義できます。
 
@@ -101,7 +101,7 @@ Campaign データベースをクエリするには、**[汎用クエリエデ�
 
 * 既存のフィルターを再利用するには、**[!UICONTROL 追加]** ボタンをクリックし、**[!UICONTROL 定義済みフィルター]**&#x200B;を選択して、必要なフィルターを選択します。
 
-  ![](assets/query_editor_15.png)
+  ![定義済みフィルターを開いたTarget要素ステップのメニューを追加し、ブラックリストに登録された電子メールアドレスやその他のフィルターを一覧表示します。](assets/query_editor_15.png)
 
 **[!UICONTROL 汎用クエリエディター]**&#x200B;で作成されたフィルターは、他のクエリアプリケーションで再利用でき、逆も同様です。 後で使用するためにフィルターを保存するには、**[!UICONTROL 保存]** アイコンをクリックします。
 
@@ -111,7 +111,7 @@ Campaign データベースをクエリするには、**[汎用クエリエデ�
 
 次の例に示すように、英語を話す受信者全員を取得するには、「受信者の言語が英語&#x200B;**と等しい**」を選択します。
 
-![](assets/query_editor_nveau_89.png)
+![条件を選択した後、条件LanguageがENに等しいTarget要素をフィルタリングします。](assets/query_editor_nveau_89.png)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ Campaign データベースをクエリするには、**[汎用クエリエデ�
 
 フィルター条件の結果を表示するには、「**[!UICONTROL プレビュー]**」タブをクリックします。 この例では、英語を話すすべての受信者の姓、名およびメールアドレスが表示されます。
 
-![](assets/query_editor_nveau_98.png)
+フィルターに一致する受信者を一覧表示するTarget要素ステップの「![&#x200B; プレビュー」タブ。](assets/query_editor_nveau_98.png)
 
 SQL 言語を理解しているユーザーは、「**[!UICONTROL 生成された SQL クエリ]**」をクリックして SQL クエリを表示できます。
 
-![](assets/query_editor_nveau_99.png)
+![言語がENと等しい場合に、フィルターから生成されたネイティブ SQL クエリを開く生成されたSQL クエリ リンク。](assets/query_editor_nveau_99.png)
 
 ## 手順 5 - データのフォーマット {#step-5---format-data}
 
@@ -135,7 +135,7 @@ SQL 言語を理解しているユーザーは、「**[!UICONTROL 生成され�
 
 チェックされていない列は、データプレビューウィンドウで非表示になります。
 
-![](assets/query_editor_nveau_10.png)
+![年齢、プライマリキー、メールドメインおよび市区町村を一覧表示するデータ形式の手順。メールドメイン列はオフになっています。](assets/query_editor_nveau_10.png)
 
 「**[!UICONTROL 変換]**」列では、列ラベルを大文字または小文字に変更できます。 列を選択し、「**[!UICONTROL 変換]**」列をクリックします。 次を選択できます。
 
@@ -143,7 +143,7 @@ SQL 言語を理解しているユーザーは、「**[!UICONTROL 生成され�
 * 「**[!UICONTROL 大文字に切り替え]**」
 * 「**[!UICONTROL 最初の文字は大文字]**」
 
-![](assets/query_editor_nveau_42.png)
+![変換ドロップダウン （なし）、小文字に切り替え、大文字に切り替え、大文字に最初の文字を大文字に変更](assets/query_editor_nveau_42.png)
 
 ## 手順 6 - データのプレビュー {#step-6---preview-data}
 
@@ -151,7 +151,7 @@ SQL 言語を理解しているユーザーは、「**[!UICONTROL 生成され�
 
 この例では、データは受信者の年齢に基づいて昇順で並べ替えられています。
 
-![](assets/query_editor_nveau_11.png)
+![&#x200B; データのプレビュー手順：データのプレビューを開始すると、年齢、プライマリキー、市区町村の値のテーブルが入力されます。](assets/query_editor_nveau_11.png)
 
 >[!NOTE]
 >

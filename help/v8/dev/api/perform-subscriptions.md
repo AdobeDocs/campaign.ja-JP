@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 GET リクエストを実行してプロファイルを取得します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -40,7 +40,7 @@ GET リクエストを実行してプロファイルを取得します。
 
 プロファイルの購読URLを返します。
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -54,7 +54,7 @@ GET リクエストを実行してプロファイルを取得します。
 
 ペイロード内の目的のサービスプライマリキーを使用して、サブスクリプション URLに対してPOST リクエストを実行します。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -66,7 +66,7 @@ GET リクエストを実行してプロファイルを取得します。
 
 サービスノードが完了した状態で、更新されたプロファイルを返します。
 
-```
+```json
 {
   ...
   "service": {
@@ -83,7 +83,7 @@ GET リクエストを実行してプロファイルを取得します。
 
 GET リクエストを実行してサービスを取得します。
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -93,7 +93,7 @@ GET リクエストを実行してサービスを取得します。
 
 サービスの購読URLを返します。
 
-```
+```json
   {
     ...
     "messageType": "email",
@@ -107,7 +107,7 @@ GET リクエストを実行してサービスを取得します。
 
 ペイロード内の目的のプロファイルプライマリキーを使用して、サブスクリプション URLに対してPOST リクエストを実行します。
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -119,7 +119,7 @@ GET リクエストを実行してサービスを取得します。
 
 サブスクライバーノードが完了した状態で、更新されたサービスを返します。
 
-```
+```json
 {
   ...
   "service": ...,

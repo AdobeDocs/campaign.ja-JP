@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 94%
+source-wordcount: '177'
+ht-degree: 89%
 ---
 # URL トラッキングオプションの設定 {#personalizing-url-tracking}
 
@@ -61,7 +61,7 @@ ht-degree: 94%
 
 トラッキングする URL は、ツリー形式で中央のウィンドウに一覧表示されます。
 
-メッセージの URL ごとに個別にトラッキングを有効化または無効化できます。 詳しくは、[この節](tracked-links.md)を参照してください。
+メッセージの URL ごとに個別にトラッキングを有効化または無効化できます。 詳しくは、[追跡リンクの設定](tracked-links.md)を参照してください。
 
 「**[!UICONTROL 詳細設定]**」タブで、トラッキングされる URL と開封された URL の計算式をパーソナライズできます。
 

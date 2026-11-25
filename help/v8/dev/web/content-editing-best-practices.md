@@ -28,7 +28,7 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 93%
@@ -45,7 +45,7 @@ ht-degree: 93%
 
   テンプレート内の HTML コードの例：
 
-  ```
+  ```xml
   <input id="email" type="email" name="email"/>
   ```
 
