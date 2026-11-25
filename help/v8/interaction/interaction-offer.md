@@ -60,7 +60,7 @@ ht-degree: 72%
 
 オファーの「**[!UICONTROL 実施要件]**」タブで、オファーの実施期間を定義します。 ドロップダウンリストを使用して、カレンダーの開始日と終了日を選択します。
 
-![ オファーの実施期間の開始日と終了日のドロップダウンカレンダーが表示された「実施要件」タブ。](assets/offer_eligibility_create_002.png)
+![&#x200B; オファーの実施期間の開始日と終了日のドロップダウンカレンダーが表示された「実施要件」タブ。](assets/offer_eligibility_create_002.png)
 
 この期間以外では、オファーは選択されません。 オファーカテゴリの実施要件となる日付も設定している場合は、より厳しい制限期間が適用されます。
 
@@ -74,7 +74,7 @@ ht-degree: 72%
 
 定義済みのフィルターが既に作成されている場合は、それをユーザーフィルターのリストから選択できます。 [詳細情報](interaction-predefined-filters.md)
 
-![ ターゲティングウィザードのユーザーフィルターリスト。選択したフィルターが適用され、一致する受信者のプレビューが表示されます。](assets/offer_eligibility_create_004.png)
+![&#x200B; ターゲティングウィザードのユーザーフィルターリスト。選択したフィルターが適用され、一致する受信者のプレビューが表示されます。](assets/offer_eligibility_create_004.png)
 
 ### オファーの重み付けの設定 {#offer-weight}
 
@@ -128,13 +128,13 @@ ht-degree: 72%
 
 概要を表示するには、「**[!UICONTROL スケジュールおよび実施要件ルール]**」リンクをクリックします。
 
-![ スケジュールと実施要件ルールのリンクがハイライト表示されたオファーダッシュボード。](assets/offer_eligibility_create_005.png)
+![&#x200B; スケジュールと実施要件ルールのリンクがハイライト表示されたオファーダッシュボード。](assets/offer_eligibility_create_005.png)
 
 ## オファーコンテンツの作成 {#creating-the-offer-content}
 
 「**[!UICONTROL コンテンツ]**」タブでオファーの内容を定義します。
 
-![ タイトル、宛先URL、画像URL フィールド、HTML コンテンツエディターを含むオファーの「コンテンツ」タブ。](assets/offer_content_create_001.png)
+![&#x200B; タイトル、宛先URL、画像URL フィールド、HTML コンテンツエディターを含むオファーの「コンテンツ」タブ。](assets/offer_content_create_001.png)
 
 1. オファーコンテンツの各種パラメーターに値を入力します。
 
@@ -158,13 +158,13 @@ ht-degree: 72%
       </div>
    ```
 
-   提案が承認されたときに[ オファーのステータス ](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)で承認URLを定義する方法について説明します。
+   提案が承認されたときに[&#x200B; オファーのステータス &#x200B;](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted)で承認URLを定義する方法について説明します。
 
-   ![ コンテンツ タブにタイトル、宛先URL、画像URL、およびコンテンツ定義リンクが入力されています。](assets/offer_content_create_002.png)
+   ![&#x200B; コンテンツ タブにタイトル、宛先URL、画像URL、およびコンテンツ定義リンクが入力されています。](assets/offer_content_create_002.png)
 
    オファースペースの設定時に定義した必須フィールドを確認するには、「**[!UICONTROL コンテンツ定義]**」リンクをクリックして一覧を表示します。 [詳細情報](interaction-offer-spaces.md)
 
-   ![ コンテンツ定義ダイアログ リスト、各オファースペースに必要なコンテンツ フィールド。](assets/offer_content_create_003.png)
+   ![&#x200B; コンテンツ定義ダイアログ リスト、各オファースペースに必要なコンテンツ フィールド。](assets/offer_content_create_003.png)
 
    この例では、オファーには、タイトル、画像、HTML コンテンツ、宛先 URL を含める必要があります。
 
@@ -176,11 +176,11 @@ ht-degree: 72%
 
 1. 「**[!UICONTROL プレビュー]**」タブをクリックします。
 
-   ![ オファーの「プレビュー」タブ。各オファースペースのプレビュー表示を一覧表示します。](assets/offer_preview_create_001.png)
+   ![&#x200B; オファーの「プレビュー」タブ。各オファースペースのプレビュー表示を一覧表示します。](assets/offer_preview_create_001.png)
 
 1. 表示したいオファーの表示域を選択します。
 
-   ![ レンダリングされたオファーコンテンツを表示するために、電子メール/クライアント表現が展開されたプレビュータブが展開されました。](assets/offer_preview_create_002.png)
+   ![&#x200B; レンダリングされたオファーコンテンツを表示するために、電子メール/クライアント表現が展開されたプレビュータブが展開されました。](assets/offer_preview_create_002.png)
 
 1. オファーコンテンツがパーソナライズされている場合、パーソナライゼーションを表示するオファーターゲットを選択します。
 
@@ -202,13 +202,13 @@ Creating hypotheses is detailed in [this page](../../automation/response/about-r
 
 オファーを承認して有効化すると、**ライブ**&#x200B;環境で利用できるようになります。
 
-詳しくは、[ オファーコンテンツの承認](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
+詳しくは、[&#x200B; オファーコンテンツの承認](approving-and-activating-an-offer.md#approving-offer-content)を参照してください。
 
 ## オファープレゼンテーションの管理{#offer-presentation}
 
 Campaign では、プレゼンテーションルールを使用してオファーの提案のフローを制御できます。 Campaign インタラクションに固有のこれらのルールを、「**タイポロジルール**」と呼びます。 タイポロジルールを利用すると、既に受信者に送信された提案の履歴に基づいてオファーを除外できます。 ルールは環境内で参照されます。
 
-詳しくは、[ オファープレゼンテーションの管理](managing-offer-presentation.md)を参照してください。
+詳しくは、[&#x200B; オファープレゼンテーションの管理](managing-offer-presentation.md)を参照してください。
 
 ## オファーのシミュレーション
 
@@ -216,4 +216,4 @@ Campaign では、プレゼンテーションルールを使用してオファ�
 
 シミュレーションでは、オファーやプレゼンテーションルールにあらかじめ適用されているコンテキストと実施要件ルールが考慮されます。 シミュレーションであればターゲットの受信者に影響を与えないので、実際にターゲットにオファーをおこなったり、過剰や過少に勧誘したりしなくても、オファーの提案をさまざまなバージョンでテストして調整できます。
 
-オファーシミュレーションについて詳しくは、[ オファーシミュレーションについて](about-offers-simulation.md)を参照してください。
+オファーシミュレーションについて詳しくは、[&#x200B; オファーシミュレーションについて](about-offers-simulation.md)を参照してください。
