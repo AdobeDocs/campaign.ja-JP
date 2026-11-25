@@ -61,6 +61,6 @@ Adobe Campaign には、一般的なインポート機能が用意されてい�
 
 一般的なインポートは、Adobe Campaign ホームページの&#x200B;**[!UICONTROL プロファイルとターゲット／ジョブ]**&#x200B;メニューから管理されます。
 
-プロファイルとターゲットの下の![ ジョブリストを作成メニューで開き、新規インポートと新規エクスポートを選択します。](assets/new-import-job.png)
+プロファイルとターゲットの下の![&#x200B; ジョブリストを作成メニューで開き、新規インポートと新規エクスポートを選択します。](assets/new-import-job.png)
 
-汎用インポートを実行する手順については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}を参照してください。
+汎用インポートを実行する手順については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=ja){target="_blank"}を参照してください。
