@@ -147,7 +147,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 ### Web サイト上の Web オファースペースの設定 {#configure-the-web-offer-space-on-the-website}
 
-設定したばかりのオファーをweb サイトに表示するには、サイトのHTML ページにJavaScript コードを挿入してインタラクションエンジンを呼び出します（詳しくは、[ インバウンドチャネルについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照）。
+設定したばかりのオファーをweb サイトに表示するには、サイトのHTML ページにJavaScript コードを挿入してインタラクションエンジンを呼び出します（詳しくは、[&#x200B; インバウンドチャネルについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照）。
 
 1. HTML ページに移動して、@id 属性を挿入し、先ほど作成した匿名オファースペース（[匿名オファースペースの作成](#creating-anonymous-offer-spaces)を参照）の内部名にプレフィックス **i_** を付加した値を指定します。
 
