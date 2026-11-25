@@ -44,12 +44,12 @@ ht-degree: 53%
 
 必要に応じて、結果の記述的分析を作成することで、シミュレーションの結果を保存してエクスポートできます。 それには、結果ウィンドウで適切なリンクをクリックします。
 
-記述的分析アシスタントについて詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"}を参照してください。
+記述的分析アシスタントについて詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"}を参照してください。
 
 オファーによる提案の内訳と結果の記述分析リンクを含む![&#x200B; シミュレーション結果タブ &#x200B;](assets/offer_simulation_012.png)
 
 ピボットテーブルを使用すると、オファーのランキングごとの分類をすばやく確認できます。 Adobe Campaign のすべてのレポートと同じように、エクスポート、印刷、アーカイブまたは web ブラウザーでの表示が可能です。
 
-詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}を参照してください。
+詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}を参照してください。
 
 ![&#x200B; シミュレーション ダッシュボード、オファーのランク別の内訳レポート、オファーのランキング表、円グラフ、エクスポート ツールバー](assets/offer_simulation_013.png)
