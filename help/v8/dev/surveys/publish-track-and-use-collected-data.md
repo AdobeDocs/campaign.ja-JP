@@ -31,7 +31,7 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->調査は、[Campaign FFDA デプロイメント ](../../architecture/enterprise-deployment.md)では利用できません。
+>調査は、[Campaign FFDA デプロイメント &#x200B;](../../architecture/enterprise-deployment.md)では利用できません。
 
 
 
@@ -69,7 +69,7 @@ ht-degree: 90%
 
 調査が編集されている間、その URL にはパラメーター **[!UICONTROL __uuid]** が含まれます。これは、テストフェーズにあり、まだオンラインでないことを示しています。 この URL で調査にアクセスする場合、作成されたレコードは、トラッキング（レポート）で考慮されません。 origin の値は、強制的に **[!UICONTROL Adobe Campaign]** になります。
 
-URL パラメーターについて詳しくは、[ フォーム URL パラメーター](../web/defining-web-forms-properties.md#form-url-parameters)を参照してください。
+URL パラメーターについて詳しくは、[&#x200B; フォーム URL パラメーター](../web/defining-web-forms-properties.md#form-url-parameters)を参照してください。
 
 ### 調査のレポート {#reports-on-surveys}
 

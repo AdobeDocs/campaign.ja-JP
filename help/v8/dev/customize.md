@@ -65,7 +65,7 @@ Adobe Campaign はデータスキーマを利用して次のことを行いま�
 
 * インターフェースで&#x200B;**新しいフィールド**&#x200B;アシスタントを使用する
 
-  Campaignで新しいフィールドをすばやく追加する方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic){target="_blank"}を参照してください
+  Campaignで新しいフィールドをすばやく追加する方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=ja#configuring-campaign-classic){target="_blank"}を参照してください
 
 * スキーマを拡張することにより、プログラミングで行います。 [Campaign スキーマを拡張](../dev/extend-schema.md)で既存のスキーマを拡張する方法について説明します。
 
@@ -75,16 +75,16 @@ Adobe Campaign にあらかじめ用意されていないまったく新しい�
 
 **関連トピック**
 
-[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic){target="_blank"}のスキーマ編集の例
+[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#configuring-campaign-classic){target="_blank"}のスキーマ編集の例
 
-ユースケース：[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target="_blank"}の既存の参照テーブルにフィールドをリンクする
+ユースケース：[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=ja#uc-link){target="_blank"}の既存の参照テーブルにフィールドをリンクする
 
 
 ## 入力フォームの変更
 
 キャンペーン入力フォームは、自社の実装に合わせて調整できます。 XML コンテンツを変更して、フォームフィールドを追加または削除できます。
 
-[Campaign入力フォーム ](../dev/forms.md)で、既存の入力フォームを変更するか、新しいフォームを作成する方法について説明します。
+[Campaign入力フォーム &#x200B;](../dev/forms.md)で、既存の入力フォームを変更するか、新しいフォームを作成する方法について説明します。
 
 ## ダッシュボードのカスタマイズ{#gs-custom-dashboards}
 
@@ -101,7 +101,7 @@ Campaignで概要ページを作成する方法については、[単一ペー�
 
 Adobe Campaign エクスプローラーのツリー内を移動すると、データベースに含まれているデータがリストに表示されます。 これらのリストのフィルタリング、検索の実行、情報の追加、データのフィルタリングと並べ替えなどを行うことができます。
 
-リストを設定し、リスト設定を保存する方法については、[Campaign ユーザーインターフェイス ](../start/campaign-ui.md)を参照してください。
+リストを設定し、リスト設定を保存する方法については、[Campaign ユーザーインターフェイス &#x200B;](../start/campaign-ui.md)を参照してください。
 
 これらのリストにフィルターを適用して、オペレーターが必要とするデータのみを表示できます。 その後、フィルタリングされたデータに対してアクションを実行できます。 フィルター設定を使用すると、リストから動的にデータを選択できます。 データが変更されると、フィルターされたデータは更新されます。
 

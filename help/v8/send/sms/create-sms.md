@@ -58,7 +58,7 @@ ht-degree: 72%
 
 1. [オーディエンスを選択します](sms-audience.md)。
 
-オーディエンスを定義する手順について詳しくは、[ キャンペーンでのプロファイルオーディエンスの作成](../../audiences/create-audiences.md)を参照してください。
+オーディエンスを定義する手順について詳しくは、[&#x200B; キャンペーンでのプロファイルオーディエンスの作成](../../audiences/create-audiences.md)を参照してください。
 
 ## SMS の検証と送信 {#sms-validate}
 

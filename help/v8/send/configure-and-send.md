@@ -54,7 +54,7 @@ ht-degree: 90%
 >
 >* このオプションは、ミッドソーシングで設定しないでください。
 >
->* SMTP サーバー設定の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
+>* SMTP サーバー設定の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=ja#smtp-relay){target="_blank"}を参照してください。
 
 ## 複数のウェーブを使用して送信 {#sending-using-multiple-waves}
 
@@ -91,7 +91,7 @@ ht-degree: 90%
 
 ### ウェーブスケジュールの検証 {#check-waves}
 
-特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。 配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定されたキャンペーンタイポロジとそのルールは、[ タイポロジルールとタイポロジ ](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->に表示されます。
+特別なタイポロジルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。 配信プロパティの「**[!UICONTROL タイポロジ]**」タブで設定されたキャンペーンタイポロジとそのルールは、[&#x200B; タイポロジルールとタイポロジ &#x200B;](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->に表示されます。
 
 >[!IMPORTANT]
 >
@@ -103,7 +103,7 @@ ht-degree: 90%
 
 ### ウェーブの監視 {#monitor-waves}
 
-送信状況を監視するには、配信ログを参照してください。 [ メールの送信と監視](send.md)を参照してください。
+送信状況を監視するには、配信ログを参照してください。 [&#x200B; メールの送信と監視](send.md)を参照してください。
 
 処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 

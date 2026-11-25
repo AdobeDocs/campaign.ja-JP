@@ -39,7 +39,7 @@ AMP for Email を使用して、次のことができます。
 * 適切に設定された特定のアドレスに対する AMP メールの配信をテストする
 * 対応するプロバイダーに登録した後、AMP メールを Gmail または Mail.ru アドレスに配信します。
 
-AMP メールのテストと送信について詳しくは、[AMP メールのターゲット ](#targeting-amp-email)を参照してください。
+AMP メールのテストと送信について詳しくは、[AMP メールのターゲット &#x200B;](#targeting-amp-email)を参照してください。
 
 この機能は、Adobe Campaign の専用パッケージで使用できます。 権限とデプロイメントモデルに応じて、このパッケージをインストールするか、Adobeに連絡してインストールできます。
 
@@ -67,7 +67,7 @@ Adobe Campaign で AMPメールを正常にテストして送信するには、�
 
    >[!NOTE]
    >
-   >現在、AMP メールを配信できるのは、[特定のメールアドレス ](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
+   >現在、AMP メールを配信できるのは、[特定のメールアドレス &#x200B;](#testing-amp-delivery-for-selected-addresses) （テスト目的）またはサポートされているメールクライアントとの[登録](#delivering-amp-emails-by-registering)以降のみです。
 
 1. 通常どおりにメールを送信します。 [AMPメールの送信](#sending-amp-email)を参照してください。
 

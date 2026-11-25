@@ -54,7 +54,7 @@ ht-degree: 82%
 
 Adobe Campaign v8 は、**Managed Cloud Service** として利用可能です。
 
-Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。 Campaign Managed Cloud Servicesについて詳しくは、[製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
+Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマーエクスペリエンスを設計するための Managed Cloud Services プラットフォームとして、視覚的なキャンペーンオーケストレーション、リアルタイムインタラクション管理、クロスチャネル実行のための環境を提供します。 Campaign Managed Cloud Servicesについて詳しくは、[製品説明ページ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}を参照してください。
 
 この新しい製品は、クラス最高のサービスと、先を見越した監視とタイムリーな警告を組み合わせており、次の 3 つの領域に焦点を当てています。
 
@@ -62,7 +62,7 @@ Adobe Campaign Managed Cloud Services は、クロスチャネルのカスタマ
 * **サービスエクスペリエンス** - プロアクティブな可用性と処理能力、およびパフォーマンスの監視と対応により、中断を防ぎ、インシデントを迅速に解決し、継続的な改善に向けて定期的にサービスを確認します。
 * **キャンペーンに対する深い専門知識** - 機能、技術、配信品質のニーズに対応し、デプロイメントのリスクを軽減し、変更管理を改善するために、エキスパートである顧客エンジニアリングチームが提供する親和性の高いサービスです。
 
-元[!DNL Campaign Classic] ユーザーとして、[ サポートされていない機能](#gs-removed)に記載されている[!DNL Campaign Classic] v7機能のほとんどは[!DNL Campaign] v8で利用できます。ただし、一部の機能は除きます。
+元[!DNL Campaign Classic] ユーザーとして、[&#x200B; サポートされていない機能](#gs-removed)に記載されている[!DNL Campaign Classic] v7機能のほとんどは[!DNL Campaign] v8で利用できます。ただし、一部の機能は除きます。
 
 >新しいクラウドアーキテクチャにより、Campaign ではプロセスの効率化、コストの削減、リスクの管理およびデータセキュリティの向上が可能になります。 Campaign v8 環境には、事前設定済みの専用の仮想プライベートクラウド（VPC）が付属しています。
 

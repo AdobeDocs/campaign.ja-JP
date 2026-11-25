@@ -42,8 +42,8 @@ ht-degree: 47%
 ---
 # カスタム受信者テーブルの使用{#gs-ac-custom-recipient}
 
-Adobe Campaign には、ビルトインのプロファイルテーブル **nmsRecipient** が付属しています。 このテーブルには、拡張が容易な定義済みのフィールドとテーブルが多数含まれています。 このテーブルについて詳しくは、[組み込みプロファイルテーブル ](datamodel.md#ootb-profiles)を参照してください。
+Adobe Campaign には、ビルトインのプロファイルテーブル **nmsRecipient** が付属しています。 このテーブルには、拡張が容易な定義済みのフィールドとテーブルが多数含まれています。 このテーブルについて詳しくは、[組み込みプロファイルテーブル &#x200B;](datamodel.md#ootb-profiles)を参照してください。
 
 組み込みのテーブル拡張機能は柔軟性を提供しますが、未使用のフィールドやリンクを削除することはできません。 その結果、Campaignの組み込み受信者テーブル構造とデータモデルが大きく異なる場合や、多数のプロファイルがある場合は、カスタム受信者テーブルを使用することをお勧めします。  ただし、この方法を実装する際には注意が必要です。
 
-カスタム受信者テーブルを使用するようにインスタンスを設定する方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=ja){target="_blank"}を参照してください。
+カスタム受信者テーブルを使用するようにインスタンスを設定する方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html?lang=ja){target="_blank"}を参照してください。

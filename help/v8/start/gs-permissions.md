@@ -53,7 +53,7 @@ Adobe Campaign では、**オペレーター**&#x200B;および&#x200B;**オペ�
 主な手順は次のとおりです。
 
 * **手順 1**：Campaign クライアントコンソールで、オペレーターグループを定義して権限を割り当てます。 [詳細情報](manage-permissions.md#create-product-profile)。
-なお、手始めに、ビルトインのオペレーターグループを使用することもできます。 これらのデフォルトグループとその権限は、[ デフォルトの製品プロファイルとオペレーターグループ ](manage-permissions.md#ootb-productprofiles)に一覧表示されます。
+なお、手始めに、ビルトインのオペレーターグループを使用することもできます。 これらのデフォルトグループとその権限は、[&#x200B; デフォルトの製品プロファイルとオペレーターグループ &#x200B;](manage-permissions.md#ootb-productprofiles)に一覧表示されます。
 * **手順 2**：Adobe Admin Console で、これらのグループと一致する製品プロファイルを作成します。 [詳細情報](manage-permissions.md#create-product-profile)。
 手始めに、ビルトインの製品プロファイルを使用することができます。 [詳細情報](manage-permissions.md#ootb-productprofiles)。
 * **手順 3**：Adobe Admin Console でユーザーを作成して、製品プロファイルに割り当てます。 [詳細情報](manage-permissions.md#add-users)。
@@ -65,7 +65,7 @@ Adobe Admin Console は、組織全体のアドビ製品エンタイトルメン
 
 Admin Console を使用して、ユーザーの追加と製品プロファイル（オペレーターの役割のグループ）の作成および割り当てを行います。
 
-[ ユーザーを追加](manage-permissions.md#add-users)でユーザーを追加する方法について説明します。
+[&#x200B; ユーザーを追加](manage-permissions.md#add-users)でユーザーを追加する方法について説明します。
 
 ## 製品プロファイルについて{#ootb-product-profiles}
 
@@ -79,4 +79,4 @@ Admin Consoleでは、Campaignの各[!DNL CX Enterprise] **製品プロファイ
 
 ユーザーは製品プロファイル（オペレーターグループ）のメンバーとして「ネームド権限」と呼ばれる操作を実行する権限を持ち、データに対する読み取り／書き込みアクセス権を持ちます。 1 人のオペレーターは複数のオペレーターグループに所属でき、アクセス権限は追加的に付与されます。
 
-[ ネームド権限](manage-permissions.md#use-named-rights)のネームド権限について詳しく説明します。
+[&#x200B; ネームド権限](manage-permissions.md#use-named-rights)のネームド権限について詳しく説明します。

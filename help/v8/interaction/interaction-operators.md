@@ -44,7 +44,7 @@ Campaign インタラクションを利用できるオペレーターには、**
 1. オペレーターを作成します。 [詳細情報](../start/manage-permissions.md#add-users)
 1. **[!UICONTROL グループとネームド権限]**&#x200B;ウィンドウを参照して、「**[!UICONTROL 追加]**」をクリックし、「**[!UICONTROL オファーマネージャー]**」グループを選択します。
 
-オファーマネージャーに関連付けられている権限については、[ デフォルトの製品プロファイルとオペレーターグループ ](../start/manage-permissions.md#ootb-productprofiles)を参照してください。
+オファーマネージャーに関連付けられている権限については、[&#x200B; デフォルトの製品プロファイルとオペレーターグループ &#x200B;](../start/manage-permissions.md#ootb-productprofiles)を参照してください。
 
 ## 配信マネージャーオペレーターの作成 {#delivery-manager}
 

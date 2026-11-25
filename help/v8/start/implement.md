@@ -75,7 +75,7 @@ Adobe Campaignには、適用されるデータプライバシー法および受
 
 * **ユーザーの同意とデータ保持**：ユーザーの同意を得て、ダブルオプトインの購読メカニズムを設定し、オプトアウトを容易にして、データ保持を設定する必要があります。
 
-  詳しくは、[Campaign Classic v7 プライバシードキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target="_blank"}を参照してください
+  詳しくは、[Campaign Classic v7 プライバシードキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#consent){target="_blank"}を参照してください
 
 * **プライバシーとデータ保護に関する規制**: プライバシー要件に関する情報、およびこれらの規制が組織とAdobe Campaignに与える影響については、[Campaign](privacy.md)でのプライバシー要求の管理を参照してください。
 
@@ -118,9 +118,9 @@ Adobe Campaignにユーザーを追加する方法については、[Campaign v8
 
    キャンペーンテンプレートの使用方法については、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja){target="_blank"}を参照してください。
 
-   [このページ ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}でワークフローテンプレートを設定する方法について説明します。
+   [このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=ja){target="_blank"}でワークフローテンプレートを設定する方法について説明します。
 
-   メールテンプレートの詳細については、この[ ページ ](../send/create-templates.md)を参照してください。
+   メールテンプレートの詳細については、この[&#x200B; ページ &#x200B;](../send/create-templates.md)を参照してください。
 
 
 1. **タイポロジルールの設定**
@@ -145,17 +145,17 @@ Campaign の様々な領域や機能をカスタマイズできます。 ほと�
 
    [Campaign のビルトインのデータモデル](../dev/datamodel.md)について詳しくは、この節を参照してください。
 
-   既存のスキーマを拡張したり、新しいスキーマをゼロから作成したりできます。 詳しくは、[ インスタンスのカスタマイズ ](../dev/customize.md)を参照してください。
+   既存のスキーマを拡張したり、新しいスキーマをゼロから作成したりできます。 詳しくは、[&#x200B; インスタンスのカスタマイズ &#x200B;](../dev/customize.md)を参照してください。
 
 1. **ダッシュボードとリスト**
 
    リストの設定、フィールドの追加と削除、列のカスタマイズなどを簡単に行えます。
 
-   Campaignでフィルターとリストを管理する方法については、[ リストをカスタマイズしてフィルターを作成](../dev/customize.md#gs-lists-and-filters)を参照してください。
+   Campaignでフィルターとリストを管理する方法については、[&#x200B; リストをカスタマイズしてフィルターを作成](../dev/customize.md#gs-lists-and-filters)を参照してください。
 
    新しいダッシュボードを作成して、要件に応じて Campaign データを表示することもできます。
 
-   詳しくは、[ ダッシュボードのカスタマイズ ](../dev/customize.md#gs-custom-dashboards)を参照してください。
+   詳しくは、[&#x200B; ダッシュボードのカスタマイズ &#x200B;](../dev/customize.md#gs-custom-dashboards)を参照してください。
 
 1. **レポート**
 
@@ -195,7 +195,7 @@ Campaign の様々な領域や機能をカスタマイズできます。 ほと�
 
 シングルサインオン（SSO）のみを使用して Campaign に接続できます。 詳しくは、[Campaign v8](connect.md)への接続を参照してください。
 
-Adobe Campaign [と統合可能なAdobe ソリューションの一覧については、このページ ](../connect/integration.md)を参照してください。
+Adobe Campaign [と統合可能なAdobe ソリューションの一覧については、このページ &#x200B;](../connect/integration.md)を参照してください。
 
 ### コネクタ{#implementation-connectors}
 
@@ -213,4 +213,4 @@ Adobe Campaign プラットフォームを CRM サードパーティシステム
 
 Federated Data Access（FDA）モジュールを通じて、Campaign クラウドデータベースを外部システムに接続できます。
 
-[ サードパーティとFederated Data Accessを接続](../connect/integration.md#gs-fda)する際にアクセスパラメーターを定義するようにCampaign FDA モジュールを設定する方法について説明します
+[&#x200B; サードパーティとFederated Data Accessを接続](../connect/integration.md#gs-fda)する際にアクセスパラメーターを定義するようにCampaign FDA モジュールを設定する方法について説明します

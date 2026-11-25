@@ -45,9 +45,9 @@ ht-degree: 31%
 ---
 # 2025 リリースノート {#2025-rn}
 
-このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[Campaign v8 リリースノート ](release-notes.md)を参照してください。
+このページには、**Campaign v8 2025 リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 最新リリースについては、[Campaign v8 リリースノート &#x200B;](release-notes.md)を参照してください。
 
-新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース ](release-notes.md)をインストールします。
+新しい実装または既存の環境へのアップグレードを行う場合は、[最新リリース &#x200B;](release-notes.md)をインストールします。
 
 >[!BEGINSHADEBOX]
 
@@ -72,14 +72,14 @@ _2025年10月9日_
 
 ### 新機能 {#features-8-8-2}
 
-**新しいSMS送信コネクタ**&#x200B;が、[Campaign FFDA デプロイメント ](../architecture/enterprise-deployment.md)で利用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
+**新しいSMS送信コネクタ**&#x200B;が、[Campaign FFDA デプロイメント &#x200B;](../architecture/enterprise-deployment.md)で利用できるようになりました。 [詳細ドキュメント](../send/sms/sms.md)を参照してください。
 
 このリリースには、Campaign Web ユーザーインターフェイスで使用できる一連の機能も搭載されています。
 
-* [ トランザクションメッセージのプロファイルエンリッチメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [&#x200B; トランザクションメッセージのプロファイルエンリッチメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
 * [トランザクションメッセージ、プッシュ通知、SMS用の多言語機能](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
-Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
+Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### 修正点 {#fixes-8-8-2}
 
@@ -116,7 +116,7 @@ _2025年7月9日（PT）_
 
   >[!NOTE]
   >
-  >この機能は、[Campaign FFDA デプロイメント ](../architecture/enterprise-deployment.md)で利用できる&#x200B;**not**&#x200B;です。
+  >この機能は、[Campaign FFDA デプロイメント &#x200B;](../architecture/enterprise-deployment.md)で利用できる&#x200B;**not**&#x200B;です。
 
 <!-- (from ACC rn, aleady in the product, to remove?) -->
 
@@ -173,9 +173,9 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 
   >[!NOTE]
   >
-  >この機能は、[Campaign FFDA デプロイメント ](../architecture/enterprise-deployment.md)で利用できる&#x200B;**not**&#x200B;です。
+  >この機能は、[Campaign FFDA デプロイメント &#x200B;](../architecture/enterprise-deployment.md)で利用できる&#x200B;**not**&#x200B;です。
 
-* **ワンクリックリスト – 登録解除** – 送信者がワンクリックですばやくオプトアウトできる状態を送信者に求める主要ISPでは、メールテンプレートまたは配信プロパティから直接、ユーザーインターフェイスでワンクリックリスト – 登録解除ヘッダーを有効にできるようになりました。 このオプションは、デフォルトでは有効になっています。 [ ワンクリックでリストの登録解除を有効にする](../send/email-parameters.md#one-click-list-unsubscribe)
+* **ワンクリックリスト – 登録解除** – 送信者がワンクリックですばやくオプトアウトできる状態を送信者に求める主要ISPでは、メールテンプレートまたは配信プロパティから直接、ユーザーインターフェイスでワンクリックリスト – 登録解除ヘッダーを有効にできるようになりました。 このオプションは、デフォルトでは有効になっています。 [&#x200B; ワンクリックでリストの登録解除を有効にする](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
@@ -190,16 +190,16 @@ ACC * **Transactional messaging REST APIs** - Event-based Transactional APIs are
 * [配信アラート](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-alerting/delivery-alerting.html){target="_blank"}
 * [ランディングページの改善](https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/get-started-lp.html){target="_blank"}
 * [Dynamic Reporting](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"} （オンデマンド）
-* [一元化されたブランディング ](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"} （オンデマンド、新しい実装）
+* [一元化されたブランディング &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=ja){target="_blank"} （オンデマンド、新しい実装）
 
-Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
+Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### 一般的な改善点 {#improvements-8-8-1}
 
-* Microsoft Fabricsは、Adobe Campaign Federated Data Access （FDA）を使用した外部データベースとしてサポートされるようになりました。 [ データ外部アカウントの転送](../config/external-accounts.md#transfer-data-external-accounts)
-* Campaign v8では、プッシュ通知でAndroid 15とiOS 18がサポートされるようになりました。 [ モバイル SDK](../start/compatibility-matrix.md#MobileSDK)
-* セキュアな仮想プライベート ネットワーク トンネリング用のオンプレミス データベースに加えて、クラウドデータベースもサポートされるようになりました。 [ サポートされているデータベースとデバイス ](../config/enhanced-security.md#vpn-databases)
-* SMS 2.0 コネクタの「受信トラフィック」セクションに、新しい「プロバイダーID」フィールドのセットが追加されました。 [着信トラフィック ](../send/sms/smpp-external-account.md#incoming-traffic)
+* Microsoft Fabricsは、Adobe Campaign Federated Data Access （FDA）を使用した外部データベースとしてサポートされるようになりました。 [&#x200B; データ外部アカウントの転送](../config/external-accounts.md#transfer-data-external-accounts)
+* Campaign v8では、プッシュ通知でAndroid 15とiOS 18がサポートされるようになりました。 [&#x200B; モバイル SDK](../start/compatibility-matrix.md#MobileSDK)
+* セキュアな仮想プライベート ネットワーク トンネリング用のオンプレミス データベースに加えて、クラウドデータベースもサポートされるようになりました。 [&#x200B; サポートされているデータベースとデバイス &#x200B;](../config/enhanced-security.md#vpn-databases)
+* SMS 2.0 コネクタの「受信トラフィック」セクションに、新しい「プロバイダーID」フィールドのセットが追加されました。 [着信トラフィック &#x200B;](../send/sms/smpp-external-account.md#incoming-traffic)
 * 「mailto」リストの購読解除メソッドを使用して購読解除した受信者は、強制隔離に送信されなくなりました。 配信に関連付けられたサービスの購読を解除するか、配信にサービスが定義されていない場合は、配信ブロックリスト（プロファイルの「もう連絡なし」セクション）に送信されます。 キャンペーンの[強制隔離の管理](../send/quarantines.md)
 * 新しいバージョンのインボックスレンダリングレポートが、Adobe Campaign クライアントコンソールで使用できるようになりました。
 * `setup-client.exe` ファイルは`ac-client.msi` ファイルに置き換えられました。管理者がユーザーの介入なしに一括アップグレードを実行する簡単な方法を提供します。
@@ -380,7 +380,7 @@ _2025年1月15日（PT）_
 
 * [エンタープライズ（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)のコンテキストにおける配信分析中の Campaign アプリケーションの安定性が向上しました。
 * このリリースには、キー管理、ステージング、データレプリケーションなどの改善および強化された FFDA アーキテクチャメカニズムが付属しています。
-* [エンタープライズ（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)に新しいテクニカルワークフローが導入されました。 これらのワークフローでは、対応するテーブルで並列レプリケーションリクエストを一元化することで、配信と関連データをレプリケートします。 これらのワークフローは`Replicate nms`で始まります。 [ データレプリケーション ](../architecture/replication.md)
+* [エンタープライズ（FFDA）デプロイメント](../../v8/architecture/enterprise-deployment.md)に新しいテクニカルワークフローが導入されました。 これらのワークフローでは、対応するテーブルで並列レプリケーションリクエストを一元化することで、配信と関連データをレプリケートします。 これらのワークフローは`Replicate nms`で始まります。 [&#x200B; データレプリケーション &#x200B;](../architecture/replication.md)
 * ワークフロープロパティで、新しい「**監視スーパーバイザーを有効にしてワークフローを永続的に引き続き実行します**」オプションが使用できるようになりました。 このオプションが有効になっている場合、エラーが発生した後にワークフローが自動的に再開されます。 ワークフローが引き続きエラー状態になっている場合、デフォルトでは 30 秒ごとに再開が行われます。 この間隔を調整するには、新しい `XtkWorkflow_WatchdogRestartTimerTimeout` オプションを作成し、整数データタイプを設定して新しい遅延を指定します。 このオプションは、テクニカルワークフローでのみ有効にする必要があります。 [実行](../../automation/workflow/workflow-properties.md#execution)
 
 ### セキュリティの強化 {#security-8-6-4}

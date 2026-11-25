@@ -130,7 +130,7 @@ LINE は、無料のインスタントメッセージ、音声およびビデオ
 
 1. 配信エディターで、「**[!UICONTROL 宛先]**」を選択して [!DNL LINE] 配信の受信者をターゲットします。 ターゲティングは、**[!UICONTROL 訪問者サブスクリプション （nms:visitorSub）]**&#x200B;に対して実行されます。
 
-   詳しくは、[ ターゲットマッピングの操作](../../audiences/target-mappings.md)を参照してください。
+   詳しくは、[&#x200B; ターゲットマッピングの操作](../../audiences/target-mappings.md)を参照してください。
 
    ![](assets/line_message_08.png)
 

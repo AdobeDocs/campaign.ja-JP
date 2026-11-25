@@ -57,9 +57,9 @@ Campaign v8 では、次のアドビソリューションと接続できます�
 
 また、[!DNL CX Enterprise]個のソリューションの&#x200B;**オーディエンス**&#x200B;と&#x200B;**アセット**&#x200B;を、アセット共有機能とオーディエンス共有機能と組み合わせることもできます。
 
-Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
+Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**オーディエンス共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
-Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
+Campaign ソリューションと[!DNL CX Enterprise] ソリューション間の&#x200B;**アセット共有**&#x200B;の詳細については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=ja#integrating-with-adobe-experience-cloud){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ CampaignをMicrosoft Dynamics 365およびSalesforce.comと統合する方法に
 
 FDA（Federated Data Access）コネクタを使用すると、Campaign を 1 つ以上の&#x200B;**外部データベース**&#x200B;に接続して、Campaign Cloud データベースのデータに影響を与えることなく、外部データベースに格納された情報を処理できます。
 
-詳しくは、[ キャンペーンと外部データベースの操作（FDA） ](fda.md)を参照してください。
+詳しくは、[&#x200B; キャンペーンと外部データベースの操作（FDA） &#x200B;](fda.md)を参照してください。
 
 ## ソーシャルメディアの操作{#gs-social}
 
@@ -91,6 +91,6 @@ Adobe Campaign を使用して、X（旧 Twitter）経由で顧客や見込み�
 * X アカウントへの投稿
 * 新しい連絡先の収集
 
-[CampaignおよびX （Twitter） ](../connect/ac-tw.md)でのX統合の設定と使用方法について説明します。
+[CampaignおよびX （Twitter） &#x200B;](../connect/ac-tw.md)でのX統合の設定と使用方法について説明します。
 
 X投稿を作成し、フォロワーにダイレクトメッセージを送信する方法については、「[Xにメッセージを投稿する（Twitter）」でAdobe Campaign](../send/twitter.md)をご覧ください。

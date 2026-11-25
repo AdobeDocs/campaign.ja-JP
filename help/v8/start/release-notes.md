@@ -33,7 +33,7 @@ ht-degree: 12%
 ---
 # 最新リリース {#latest-release}
 
-このページには、Campaign v8（コンソール）**最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 キャンペーンのリリース、バージョン、アップグレードについて詳しくは、[ キャンペーンのバージョン、アップグレード、セキュリティ ](upgrades.md)を参照してください。 その他のリリースは、このドキュメントの以前のリリースの節に記載されています。
+このページには、Campaign v8（コンソール）**最新リリース**&#x200B;の新機能、改善点およびバグ修正が記載されています。 キャンペーンのリリース、バージョン、アップグレードについて詳しくは、[&#x200B; キャンペーンのバージョン、アップグレード、セキュリティ &#x200B;](upgrades.md)を参照してください。 その他のリリースは、このドキュメントの以前のリリースの節に記載されています。
 
 ## リリース 8.9.4 {#release-8-9-4}
 
@@ -77,11 +77,11 @@ Campaign 管理者として、コントロールパネルを使用し、現在�
 
 ### Adobe Analytics コネクタがAnalytics 2.0 APIにアップグレードされました {#analytics-2-0-8-9-3}
 
-Adobe Analytics 1.4 APIは[提供終了に達しています](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}。そのため、[Web Analytics コネクタ ](../connect/ac-aa.md)は、このリリースの一部としてAnalytics 2.0 APIにアップグレードされました。 Adobeでは、ホスト型のお客様がこの移行を管理します。お客様の側で設定は必要ありません。
+Adobe Analytics 1.4 APIは[提供終了に達しています](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}。そのため、[Web Analytics コネクタ &#x200B;](../connect/ac-aa.md)は、このリリースの一部としてAnalytics 2.0 APIにアップグレードされました。 Adobeでは、ホスト型のお客様がこの移行を管理します。お客様の側で設定は必要ありません。
 
 +++ Analytics 2.0のアップグレードについて詳しく見る
 
-[Web Analytics コネクタ ](../connect/ac-aa.md)は、キャンペーン指標と分類データをAdobe Analyticsに送信し、リマーケティングフローをサポートし、新しいレポートスイートの設定に使用されます。 アップグレードでは、コネクター（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;および&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）の機能を強化する組み込みのテクニカルワークフローが再インポートされ、組み込みのAnalytics JavaScript ファイルが更新されます。そのため、これらのワークフローのいずれかをカスタマイズするか、これらのファイルを参照するカスタムワークフローを構築した場合は、そのカスタマイズが上書きされたり壊れたりするため、アップグレード後に適用されます。 ベストプラクティスとして、組み込みのワークフローを直接変更することは避けてください。代わりに別のカスタムワークフローでカスタマイズを構築して、今後のアップグレードで上書きしないようにします。 アップグレードが完了したら、利用しているAdobe Analyticsのユースケース（指標の書き出し、分類の書き出し、リマーケティングが可能な場合）を検証し、データが期待どおりに流れることを確認します。
+[Web Analytics コネクタ &#x200B;](../connect/ac-aa.md)は、キャンペーン指標と分類データをAdobe Analyticsに送信し、リマーケティングフローをサポートし、新しいレポートスイートの設定に使用されます。 アップグレードでは、コネクター（**[!UICONTROL webAnalyticsSendMetrics]**&#x200B;および&#x200B;**[!UICONTROL webAnalyticsGetWebEvents]**）の機能を強化する組み込みのテクニカルワークフローが再インポートされ、組み込みのAnalytics JavaScript ファイルが更新されます。そのため、これらのワークフローのいずれかをカスタマイズするか、これらのファイルを参照するカスタムワークフローを構築した場合は、そのカスタマイズが上書きされたり壊れたりするため、アップグレード後に適用されます。 ベストプラクティスとして、組み込みのワークフローを直接変更することは避けてください。代わりに別のカスタムワークフローでカスタマイズを構築して、今後のアップグレードで上書きしないようにします。 アップグレードが完了したら、利用しているAdobe Analyticsのユースケース（指標の書き出し、分類の書き出し、リマーケティングが可能な場合）を検証し、データが期待どおりに流れることを確認します。
 
 +++
 
@@ -101,7 +101,7 @@ _2026年5月3日_
 
 >[!NOTE]
 >
-> 以下に示す修正は、連続する8.9.2 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/バージョン情報]** [ メニュー](upgrades.md#version)に移動して、最新の8.9.2 （11d1c68）ビルドがインストールされていることを確認します。 詳細については、アドビ担当者にお問い合わせください。
+> 以下に示す修正は、連続する8.9.2 ビルドで段階的にロールアウトされています。 **[!UICONTROL ヘルプ/バージョン情報]** [&#x200B; メニュー](upgrades.md#version)に移動して、最新の8.9.2 （11d1c68）ビルドがインストールされていることを確認します。 詳細については、アドビ担当者にお問い合わせください。
 
 * データタイプの変換の問題により、トランザクションイベントのイベント日付が誤って設定され、動的レポートで日付が正しく設定されない問題を修正しました。 （NEO-93923）
 * タイトルと本文のフィールドが空の場合、配信準備中にAndroidとiOSのサイレントプッシュ通知が失敗する問題を修正しました。 （NEO-93739）
@@ -142,8 +142,8 @@ _2026年1月27日（PT）_
 
 ### セキュリティの強化 {#security-8-9-1}
 
-* Snowflakeの外部アカウントは、OAuth2認証をサポートするようになり、連合データアクセス接続に最新かつ安全な認証方法を提供します。 （NEO-87013） [Snowflake外部アカウント ](../config/external-accounts.md#snowflake-external-accounts)
-* Databricks外部アカウントは、サービスプリンシパル（非インタラクティブなクライアント資格情報フロー）を介したOAuth2認証をサポートするようになり、連合データアクセス接続に安全な認証方法を提供します。 インタラクティブ OAuth2認証は、今後のリリースで利用できるようになります。 （NEO-87422） [Databricks外部アカウント ](../config/external-accounts.md#databricks-external-accounts)
+* Snowflakeの外部アカウントは、OAuth2認証をサポートするようになり、連合データアクセス接続に最新かつ安全な認証方法を提供します。 （NEO-87013） [Snowflake外部アカウント &#x200B;](../config/external-accounts.md#snowflake-external-accounts)
+* Databricks外部アカウントは、サービスプリンシパル（非インタラクティブなクライアント資格情報フロー）を介したOAuth2認証をサポートするようになり、連合データアクセス接続に安全な認証方法を提供します。 インタラクティブ OAuth2認証は、今後のリリースで利用できるようになります。 （NEO-87422） [Databricks外部アカウント &#x200B;](../config/external-accounts.md#databricks-external-accounts)
 * 承認されたディレクトリへの操作を制限し、不正アクセスや潜在的なリモートコード実行を防止することで、ワークフローファイルアクセスの脆弱性を修正しました。 （NEO-88460）
 * ワークフローのJavaScript コードアクティビティにFTP URLの許可リストに加える制御を追加し、承認済みアドレスに対してのみ送信FTP接続を制限しました。 （NEO-89083）
 * アプリケーションのサービス拒否を引き起こす可能性があるセキュリティの問題を修正しました。 （NEO-89984）
@@ -161,14 +161,14 @@ _2026年1月27日（PT）_
 * [連続配信アクティビティ](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
 * [キャンペーン承認管理](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
-Campaign Web UI [ リリースノート ](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
+Campaign Web UI [&#x200B; リリースノート &#x200B;](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja){target="_blank"}を参照してください
 
 ### その他の変更 {#changes-8-9-1}
 
 * インテリジェントなワークフロー再起動機能と重要ではないプロセス用のメモリガードレールにより、高いメモリ環境下での自動ワークフロースロットリングを実装することで、コンテナメモリ管理を改善しました。 （NEO-89041）
 * Campaign ワークフローでの非対称暗号化および復号化機能のサポートを追加しました。 （NEO-80257）
 * FFDA デプロイメントでの大規模なデータアップロードに対するレプリケーションエージェントのパフォーマンスとメモリの回復力の強化。 （NEO-88430）
-* **[!UICONTROL SQL コード]**&#x200B;と&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLが実行される際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 詳細とベストプラクティスについては、[SQL データ管理](../../automation/workflow/sql-data-management.md#important-notes)および[SQL コード ](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。 （NEO-86540）
+* **[!UICONTROL SQL コード]**&#x200B;と&#x200B;**[!UICONTROL SQL データ管理]**&#x200B;のワークフローアクティビティが改善され、Campaignからカスタム SQLが実行される際に、PostgreSQL データベースをより適切に保護し、ワークフローをスムーズに実行できるようになりました。 詳細とベストプラクティスについては、[SQL データ管理](../../automation/workflow/sql-data-management.md#important-notes)および[SQL コード &#x200B;](../../automation/workflow/sql-code-and-javascript-code.md#important-notes)を参照してください。 （NEO-86540）
 
 ### 修正点 {#fixes-8-9-1}
 

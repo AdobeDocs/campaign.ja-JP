@@ -98,7 +98,7 @@ Adobe Campaign では、メッセージのフォーマットが日本の携帯�
 Campaign を使用して日本語メールフォーマットでメールを受信者に送信するには、2 つのオプションがあります。
 
 * 2つの配信を作成します。1つは日本語の受信者に対してのみ、もう1つは他の受信者に対してです。[日本語の形式に対して特定の配信をデザインする](#designing-a-specific-delivery-for-japanese-formats)を参照してください。
-* 1つの配信を作成すると、Adobe Campaignが使用する形式を自動的に検出します。[すべての形式の配信をデザイン ](#designing-a-delivery-for-all-formats)します。
+* 1つの配信を作成すると、Adobe Campaignが使用する形式を自動的に検出します。[すべての形式の配信をデザイン &#x200B;](#designing-a-delivery-for-all-formats)します。
 
 ### 日本独自のフォーマットに対応する配信のデザイン {#designing-a-specific-delivery-for-japanese-formats}
 

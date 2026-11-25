@@ -31,9 +31,9 @@ ht-degree: 97%
 ---
 # トランザクションメッセージの設定 {#mc-settings}
 
-トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。 トランザクションメッセージについて詳しくは、[Campaign トランザクションメッセージ ](../send/transactional.md)を参照してください。
+トランザクションメッセージ（Message Center）は、トリガーメッセージを管理するために設計されたキャンペーンモジュールです。 トランザクションメッセージについて詳しくは、[Campaign トランザクションメッセージ &#x200B;](../send/transactional.md)を参照してください。
 
-[Message Center アーキテクチャ ](../architecture/architecture.md#transac-msg-archi)のトランザクション メッセージ アーキテクチャについて説明します。
+[Message Center アーキテクチャ &#x200B;](../architecture/architecture.md#transac-msg-archi)のトランザクション メッセージ アーキテクチャについて説明します。
 
 
 >[!NOTE]

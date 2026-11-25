@@ -34,24 +34,24 @@ ht-degree: 80%
 
 ## 2026年6月 {#june-2026}
 
-メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign 機能のページを追加しました。 [ メールトラッキングピクセルに関するガイダンス ](cnil-pixel-tracking.md)
+メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign 機能のページを追加しました。 [&#x200B; メールトラッキングピクセルに関するガイダンス &#x200B;](cnil-pixel-tracking.md)
 
 ## 2025年4月 {#april-2025}
 
-**[!UICONTROL スケジューラー]**&#x200B;アクティビティのスケジュールされた時間を変更した後、ワークフローを再開して、更新されたスケジュールに従って実行されるようにするためのベストプラクティスが追加されました。 [ スケジューラーのベストプラクティス ](../../automation/workflow/scheduler.md#best-practices)
+**[!UICONTROL スケジューラー]**&#x200B;アクティビティのスケジュールされた時間を変更した後、ワークフローを再開して、更新されたスケジュールに従って実行されるようにするためのベストプラクティスが追加されました。 [&#x200B; スケジューラーのベストプラクティス &#x200B;](../../automation/workflow/scheduler.md#best-practices)
 
 ## 2025年1月 {#january-2025}
 
-FFDA デプロイメントのデータレプリケーションに関するページが再編成され、新しい情報で強化されました。 [ データレプリケーション ](../architecture/replication.md)
+FFDA デプロイメントのデータレプリケーションに関するページが再編成され、新しい情報で強化されました。 [&#x200B; データレプリケーション &#x200B;](../architecture/replication.md)
 
 ## 2024年11月 {#october-2024}
 
 * **ffdaUnsubscribe** ワークフローがテクニカルワークフローのリストに追加されました。 [テクニカルワークフロー](../../automation/workflow/technical-workflows.md)
-* Campaign のバージョンおよびアップグレードに関するページが改善されました。 [ キャンペーンのバージョン、アップグレード、セキュリティ ](upgrades.md)
+* Campaign のバージョンおよびアップグレードに関するページが改善されました。 [&#x200B; キャンペーンのバージョン、アップグレード、セキュリティ &#x200B;](upgrades.md)
 
 ## 2024年6月 {#june-2024}
 
-ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [ ワークフローを開始](../../automation/workflow/start-a-workflow.md)
+ワークフローを再開する際にインスタンス変数をクリアする方法を指定するメモが追加されました。 [&#x200B; ワークフローを開始](../../automation/workflow/start-a-workflow.md)
 
 ## 2024年5月 {#may-2024}
 
@@ -61,8 +61,8 @@ FFDA デプロイメントのデータレプリケーションに関するペー
 
 ## 2024年2月 {#feb-2024}
 
-* [!DNL Campaign] v8.6 リリースに含まれているすべての新機能、変更、機能強化について詳しくは、ドキュメントを参照してください。 [Campaign v8 リリースノート ](release-notes.md)
-* Campaign v8 のバージョン管理とアップグレードのメカニズムについて詳しくは、専用ページを参照してください。 [ キャンペーンのバージョン、アップグレード、セキュリティ ](upgrades.md)
+* [!DNL Campaign] v8.6 リリースに含まれているすべての新機能、変更、機能強化について詳しくは、ドキュメントを参照してください。 [Campaign v8 リリースノート &#x200B;](release-notes.md)
+* Campaign v8 のバージョン管理とアップグレードのメカニズムについて詳しくは、専用ページを参照してください。 [&#x200B; キャンペーンのバージョン、アップグレード、セキュリティ &#x200B;](upgrades.md)
 * Adobe Campaign + Adobe Workfront の統合に関するページを追加しました。 [Adobe CampaignおよびAdobe Workfrontの操作](../connect/ac-workfront.md)
 
 ## 2024年1月 {#jan-2024}

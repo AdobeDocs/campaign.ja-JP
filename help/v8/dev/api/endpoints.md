@@ -38,14 +38,14 @@ ht-degree: 0%
 Adobe Campaign REST APIで使用できるエンドポイント：
 
 * **/profileAndServices**：標準搭載のフィールドを操作します。 このエンドポイントでは拡張フィールドにアクセスできません。
-* **/profileAndServicesExt**: プロファイルまたはサービスのカスタム リソースの拡張中に追加されたカスタム フィールドを操作します。 カスタムリソースについて詳しくは、[ カスタムリソース ](custom-resources.md)を参照してください。
-* **/&lt;transactionalAPI>**: トランザクションメッセージ APIを操作します（トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります）。 詳しくは、[ トランザクションメッセージの管理](managing-transactional-messages.md)を参照してください。
-* **/ワークフロー/実行**: ワークフローを操作します。 詳しくは、[ ワークフローの制御](controlling-a-workflow.md)を参照してください。
+* **/profileAndServicesExt**: プロファイルまたはサービスのカスタム リソースの拡張中に追加されたカスタム フィールドを操作します。 カスタムリソースについて詳しくは、[&#x200B; カスタムリソース &#x200B;](custom-resources.md)を参照してください。
+* **/&lt;transactionalAPI>**: トランザクションメッセージ APIを操作します（トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります）。 詳しくは、[&#x200B; トランザクションメッセージの管理](managing-transactional-messages.md)を参照してください。
+* **/ワークフロー/実行**: ワークフローを操作します。 詳しくは、[&#x200B; ワークフローの制御](controlling-a-workflow.md)を参照してください。
 
 デフォルトでは、**profileAndServices**&#x200B;および&#x200B;**profileAndServicesExt** APIで使用できる主なリソースは次のとおりです。
 
-* **/プロファイル**: Campaign データベースのプロファイルを操作します。 プロファイルをサービスに追加するには、**/service** エンドポイントを使用します。 Campaignのプロファイルについて詳しくは、[Campaign ドキュメント ](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)を参照してください。
-* **/サービス**：購読サービスを管理します。 Campaignのサービスについて詳しくは、[Campaign ドキュメント ](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)を参照してください。
+* **/プロファイル**: Campaign データベースのプロファイルを操作します。 プロファイルをサービスに追加するには、**/service** エンドポイントを使用します。 Campaignのプロファイルについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)を参照してください。
+* **/サービス**：購読サービスを管理します。 Campaignのサービスについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)を参照してください。
 
 >[!NOTE]
 >

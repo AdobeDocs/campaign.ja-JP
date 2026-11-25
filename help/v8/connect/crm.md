@@ -61,7 +61,7 @@ Adobe Campaign では、Adobe Campaign プラットフォームをサードパ�
 
 ## 互換性のあるシステム {#compatible-crm-systems-and-limitations}
 
-サポートされているCRMとバージョンについて詳しくは、キャンペーン [互換性マトリックス ](../start/compatibility-matrix.md)を参照してください。
+サポートされているCRMとバージョンについて詳しくは、キャンペーン [互換性マトリックス &#x200B;](../start/compatibility-matrix.md)を参照してください。
 
 >[!CAUTION]
 >

@@ -70,7 +70,7 @@ ht-degree: 80%
 
 名前、郵便番号、市区町村フィールドが空でない場合、アドレスは完全に入力されているとみなされます。 アドレスが不完全な受信者はダイレクトメールの配信から除外されます。
 
-詳しくは、[ ターゲットオーディエンスの定義](../start/create-message.md#target-population)を参照してください。
+詳しくは、[&#x200B; ターゲットオーディエンスの定義](../start/create-message.md#target-population)を参照してください。
 
 ## ファイルのコンテンツの定義{#defining-the-direct-mail-content}
 
@@ -94,7 +94,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->このアシスタントには、Adobe Campaign Classic [ ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}で説明されている書き出しアシスタントの手順が含まれます。
+>このアシスタントには、Adobe Campaign Classic [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}で説明されている書き出しアシスタントの手順が含まれます。
 
 ## 配信の検証{#validating}
 
@@ -104,11 +104,11 @@ ht-degree: 80%
 
 配信を検証する際のグローバルな概念は、[配信の準備と検証](../start/create-message.md#validate-the-delivery)に表示されます。
 
-ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。 ファイルの内容は、選択した出力列によって異なります（この[ セクション ファイル ](#defining-the-direct-mail-content)を参照）。
+ダイレクトメール配信の出力ファイルは、配信分析中に生成されます。 ファイルの内容は、選択した出力列によって異なります（この[&#x200B; セクション ファイル &#x200B;](#defining-the-direct-mail-content)を参照）。
 
 >[!NOTE]
 >
->分析フェーズについて詳しくは、この[ セクション ](delivery-analysis.md)を参照してください。
+>分析フェーズについて詳しくは、この[&#x200B; セクション &#x200B;](delivery-analysis.md)を参照してください。
 
 分析フェーズではファイルが生成されますが、受信者に関する情報（配信ログなど）は更新されません。 したがって、このジョブをキャンセルしても問題は発生しません。
 

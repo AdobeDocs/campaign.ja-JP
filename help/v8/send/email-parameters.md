@@ -31,7 +31,7 @@ ht-degree: 60%
 
 ## BCC でのメールの使用 {#email-bcc}
 
-プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。 このオプションについては、[ メッセージのコピーをBCC アドレスに送信](email-bcc.md)で詳しく説明しています。
+プラットフォームから送信されたメールのコピーを保持するように Adobe Campaign を設定できます。 このオプションについては、[&#x200B; メッセージのコピーをBCC アドレスに送信](email-bcc.md)で詳しく説明しています。
 
 ## メッセージ形式の選択 {#selecting-message-formats}
 
@@ -83,11 +83,11 @@ ht-degree: 60%
 
 * **[!UICONTROL バウンスアドレス]**：未処理のバウンスメールの転送先となる別のアドレスを定義することもできます。 このアドレスを使用すると、メールがアプリケーションによって自動的に選定されなかった場合のバウンスの理由を調査できます。
 
-各フィールドは、専用のアイコンを使用してパーソナライズできます。 パーソナライゼーションフィールドについて詳しくは、[ パーソナライゼーションフィールドを追加](personalization-fields.md)を参照してください。
+各フィールドは、専用のアイコンを使用してパーソナライズできます。 パーソナライゼーションフィールドについて詳しくは、[&#x200B; パーソナライゼーションフィールドを追加](personalization-fields.md)を参照してください。
 
 ![](assets/email-smtp-bounce.png)
 
-バウンスメール管理について詳しくは、[ バウンスメールの選定](delivery-failures.md#bounce-mail-qualification)を参照してください。
+バウンスメール管理について詳しくは、[&#x200B; バウンスメールの選定](delivery-failures.md#bounce-mail-qualification)を参照してください。
 
 ## ワンクリックでリスト登録解除を有効にする {#one-click-list-unsubscribe}
 
@@ -131,7 +131,7 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 
 >[!NOTE]
 >
->[One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}および[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud [配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}を参照してください。
+>[One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"}および[&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"} メソッドを手動で設定することもできます。 詳細な手順については、Experience Cloud [配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=ja#list-unsubscribe){target="_blank"}を参照してください。
 
 
 ## SMTP ヘッダーの追加 {#adding-smtp-headers}
@@ -155,4 +155,4 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 
 ミラーページは、web ブラウザーでオンラインアクセス可能な HTML ページです。 そのコンテンツはメールと同一です。 これは、受信者がインボックスでメールを表示しようとする際に、レンダリングの問題や破損した画像が発生した場合に役立ちます。
 
-ミラーページへのリンクを挿入する方法については、[ ミラーページへのリンクを追加](mirror-page.md)を参照してください
+ミラーページへのリンクを挿入する方法については、[&#x200B; ミラーページへのリンクを追加](mirror-page.md)を参照してください

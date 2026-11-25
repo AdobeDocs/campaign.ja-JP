@@ -140,4 +140,4 @@ ht-degree: 97%
 
    ![](assets/configuration_structure.png)
 
-1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[ データベース構造の更新](update-database-structure.md)を参照してください。
+1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[&#x200B; データベース構造の更新](update-database-structure.md)を参照してください。

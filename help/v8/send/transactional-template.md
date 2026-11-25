@@ -162,7 +162,7 @@ This information enables you to personalize message content using personalizatio
 
 配達確認の送信は、配信の場合と同じプロセスでおこないます。
 
-プルーフの詳細については、[ プルーフを送信](../send/preview-and-proof.md#proofs-send)してください。
+プルーフの詳細については、[&#x200B; プルーフを送信](../send/preview-and-proof.md#proofs-send)してください。
 
 ただし、トランザクションメッセージの配達確認を送信するためには、次の操作が必要です。
 

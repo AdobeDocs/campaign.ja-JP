@@ -74,12 +74,12 @@ DCE を使用すると、ページ要素の挿入や書式設定、HTML ペー�
 
 >[!NOTE]
 >
->Web アプリケーションのコンテキストでの完全な実装サンプルは、[ ランディングページの作成](creating-a-landing-page.md)で入手できます。
+>Web アプリケーションのコンテキストでの完全な実装サンプルは、[&#x200B; ランディングページの作成](creating-a-landing-page.md)で入手できます。
 
 **メール配信**&#x200B;を作成するには、次の操作が必要です。
 
 1. DCE テンプレートから配信を作成します（[詳細情報](use-case-creating-an-email-delivery.md)）
-1. 既存のコンテンツを選択するか、[標準テンプレート ](template-management.md)からコンテンツを作成します
+1. 既存のコンテンツを選択するか、[標準テンプレート &#x200B;](template-management.md)からコンテンツを作成します
 1. オンラインコンテンツの編集と設定をおこないます
 1. 配信を送信します（詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=ja){target="_blank"}を参照してください）。
 

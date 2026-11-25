@@ -254,7 +254,7 @@ _2022年5月18日（PT）_
 
 **改善点**
 
-* Campaign で、POP3 の Microsoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。 [ バウンスメール ](../config/external-accounts.md#bounce-mails-external-account)
+* Campaign で、POP3 の Microsoft Exchange Online OAuth 2.0 認証がサポートされるようになりました。 [&#x200B; バウンスメール &#x200B;](../config/external-accounts.md#bounce-mails-external-account)
 * Microsoft Dynamics Connector web API に関する重要な修正が適用されました。
 * rightという名前の新しいOperatorおよびグループスキーマの書き込み（operatorWrite）が追加され、ユーザーがOperators （xtk:operator）およびOperator グループ（xtk:group）のスキーマを挿入、更新、削除できるようになりました。
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
