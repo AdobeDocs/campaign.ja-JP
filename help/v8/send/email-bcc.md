@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 81%
+source-wordcount: '398'
+ht-degree: 78%
 ---
 # BCC アドレスに対するメッセージのコピーの送信 {#bcc}
 
@@ -62,7 +62,7 @@ Adobe Campaign 自体はアーカイブされたファイルを管理しませ�
 1. 「**[!UICONTROL プロパティ]**」ボタンをクリックします。
 1. 「**[!UICONTROL 配信]**」タブで、「**[!UICONTROL 強化されたMTA]**&#x200B;を使用したBCCの電子メール」オプションを確認します。
 
-   ![](assets/email-bcc.png)
+   ![強化されたMomentum オプションがハイライト表示されたメール BCCの配信プロパティ配信タブ &#x200B;](assets/email-bcc.png)
 
 1. 「**[!UICONTROL OK]**」をクリックして確定します。
 

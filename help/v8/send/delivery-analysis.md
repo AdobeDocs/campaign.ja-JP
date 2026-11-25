@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 94%
+source-wordcount: '809'
+ht-degree: 88%
 ---
 # 配信分析 {#analyze-delivery}
 
@@ -41,7 +41,7 @@ ht-degree: 94%
 1. 配信ウィンドウで、「**[!UICONTROL 送信]**」ボタンをクリックします。
 1. 「**[!UICONTROL できるだけ早く配信]**」を選択すると、オーディエンス数の計算と、即時に送信するコンテンツの準備が行われます。 また、後日まで配信を延期したり、コンテンツを準備せずに母集団の推定数を取得したりすることもできます。
 
-   ![](assets/delivery-analysis-start.png)
+   ![できるだけ早く配信を選択したメイン配信ターゲットダイアログに送信し、「分析」ボタンを追加します](assets/delivery-analysis-start.png)
 
 1. 「**[!UICONTROL 分析]**」をクリックして、分析を手動で開始します。 分析の進捗状況がプログレスバーに表示されます。
 
@@ -72,7 +72,7 @@ ht-degree: 94%
    * 黄色のアイコンは、重大ではない処理エラーを示します。
    * 赤色のアイコンは、配信の送信を妨げる重大なエラーを示します。
 
-   ![](assets/delivery-analysis-results.png){width="800"}
+   ![分析結果：準備完了、送信するメッセージ 22個、警告を含むログ、配信の確認ボタン &#x200B;](assets/delivery-analysis-results.png){width="800"}
 
 1. 「**[!UICONTROL 閉じる]**」をクリックし、該当する場合はエラーを修正します。 変更を行った後、「**[!UICONTROL 分析]**」をクリックして分析を再開します。
 
@@ -88,7 +88,7 @@ ht-degree: 94%
 
 配信プロパティの「**[!UICONTROL 分析]**」タブを参照して、分析フェーズでのメッセージの準備に関する設定を定義します。
 
-![](assets/delivery-properties-analysis-tab.png){width="800"}
+![&#x200B; ラベルとコードオプション、承認モードを手動に設定、FFDA設定を含む「配信プロパティ分析」タブ &#x200B;](assets/delivery-properties-analysis-tab.png){width="800"}
 
 このタブで設定できるオプションを次に示します。
 

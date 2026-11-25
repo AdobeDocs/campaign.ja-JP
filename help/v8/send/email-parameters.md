@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 60%
+source-wordcount: '1095'
+ht-degree: 55%
 ---
 # メールパラメーター {#email-parameters}
 
@@ -37,7 +37,7 @@ ht-degree: 60%
 
 送信されるメールメッセージの形式は変更できます。 変更するには、配信プロパティを編集し、「**[!UICONTROL 配信]**」タブをクリックします。
 
-![](assets/email-message-format.png)
+メール形式セクションがハイライト表示され、3つの形式オプションが表示された配信プロパティの![配信タブ &#x200B;](assets/email-message-format.png)
 
 ウィンドウ下部のセクションで、メールの形式を選択します。
 
@@ -73,7 +73,7 @@ ht-degree: 60%
 
 そのためには、「**[!UICONTROL 文字エンコーディング]**」セクションの「**[!UICONTROL メッセージに使用されているエンコーディングを強制]**」オプションを選択し、表示されるドロップダウンリストからエンコーディングを選択します。
 
-![](assets/email-smtp-encoding.png)
+![&#x200B; メッセージに使用するエンコーディングを強制的に選択し、エンコーディングドロップダウンリストを開いた状態のSMTP タブ &#x200B;](assets/email-smtp-encoding.png)
 
 ## バウンスメールの管理 {#managing-bounce-emails}
 
@@ -85,7 +85,7 @@ ht-degree: 60%
 
 各フィールドは、専用のアイコンを使用してパーソナライズできます。 パーソナライゼーションフィールドについて詳しくは、[&#x200B; パーソナライゼーションフィールドを追加](personalization-fields.md)を参照してください。
 
-![](assets/email-smtp-bounce.png)
+![&#x200B; バウンスメールのセクションが強調表示されたSMTP タブ：「アドレスにエラー」フィールドと「バウンスアドレス」フィールド &#x200B;](assets/email-smtp-bounce.png)
 
 バウンスメール管理について詳しくは、[&#x200B; バウンスメールの選定](delivery-failures.md#bounce-mail-qualification)を参照してください。
 
@@ -95,7 +95,7 @@ ht-degree: 60%
 
 ISPのメールインターフェイスに&#x200B;**登録解除** リンクとして表示されます。 例：
 
-![](assets/email-list-unsubscribe-example.png)
+![送信者アドレスの横に登録解除リンクが表示された電子メールクライアントの送信者行](assets/email-list-unsubscribe-example.png)
 
 最適な配信品質の管理を確保するには、List-Unsubscribeという名前のSMTP ヘッダーを追加する必要があり、「迷惑メールとして報告」アイコンの代わりに使用できます。 実際、この機能を使用することで、苦情率を低減し、レピュテーションの保護に役立ちます。
 
@@ -109,7 +109,7 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 >
 >このオプションは、デフォルトでは有効になっています。
 
-![](assets/email-smtp-list-unsubscribe.png)
+ワンクリックでリストから登録解除セクションと、デフォルトで選択されたヘッダーオプションを含む![SMTP タブ &#x200B;](assets/email-smtp-list-unsubscribe.png)
 
 <!--
 >[!WARNING]
@@ -148,7 +148,7 @@ ISPのメールインターフェイスに&#x200B;**登録解除** リンクと�
 >
 >スクリプトの構文は、このコンテンツタイプの要件を満たしている必要があります（不要なスペースや空行を含まないなど）。
 
-![](assets/email-smtp-headers.png)
+名前:value形式![&#128279;](assets/email-smtp-headers.png)を使用して、追加のSMTP ヘッダースクリプト領域がハイライト表示されたSMTP タブ
 
 
 ## ミラーページの生成 {#generating-mirror-page}

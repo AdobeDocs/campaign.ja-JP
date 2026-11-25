@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 65%
+source-wordcount: '1329'
+ht-degree: 60%
 ---
 # Campaign UIでの配信の監視 {#delivery-dashboard}
 
@@ -46,7 +46,7 @@ ht-degree: 65%
 
 配信には、配信リストからアクセスします。配信リストには、ツリーの&#x200B;**[!UICONTROL キャンペーン管理／配信]**&#x200B;ノードからアクセスします。
 
-![](assets/deliveries-list.png)
+![&#x200B; ステータスとメッセージ数を含むキャンペーン管理の下の配信リスト、および選択した配信ダッシュボードは以下のとおりです](assets/deliveries-list.png)
 
 デフォルトでは、配信のリストには、選択したノードで作成された配信の名前とステータスが含まれます。 送信するメッセージ数、処理されたメッセージ数および送信が成功したメッセージ数も表示されます。
 
@@ -73,7 +73,7 @@ ht-degree: 65%
 * [配信レンダリング](#delivery-rendering)
 * [配信監査](#delivery-audit-)
 
-![](assets/s_ncs_user_del_details.png)
+![配信ダッシュボードの概要タブに、送信、処理済み、成功数、ステータス、メール設定](assets/s_ncs_user_del_details.png)が表示されます
 
 **関連トピック：**
 
@@ -92,7 +92,7 @@ ht-degree: 65%
 
 このタブの内容は、必要に応じて設定できます。 配信レポートについて詳しくは、[Adobe Campaignの組み込み配信レポート &#x200B;](../reporting/delivery-reports.md)を参照してください。
 
-![](assets/delivery-report.png)
+![使用可能な配信レポートを一覧表示する「配信の概要」タブのレポートビュー](assets/delivery-report.png)
 
 ## 配信ログ、履歴および除外 {#delivery-logs-and-history}
 
@@ -104,13 +104,13 @@ ht-degree: 65%
 >
 >配信ログを表示するリストは、Campaignの任意のリストと同様にカスタマイズできます。 例えば、配信で各メールを送信した IP アドレスを示す列を追加できます。 リスト表示の設定について詳しくは、[&#x200B; リストの管理とカスタマイズ &#x200B;](../config/ui-settings.md#customize-lists)を参照してください。
 
-![](assets/s_ncs_user_delivery_delivery_tab.png)
+![配信タブ配信ログのステータスを一覧表示するステータスフィルターのドロップダウンを含むサブタブ &#x200B;](assets/s_ncs_user_delivery_delivery_tab.png)
 
 「**[!UICONTROL このメッセージのミラーページを表示]**」リンクを使用して、リストから選択した配信のコンテンツのミラーページを新しいウィンドウに表示できます。
 
 ミラーページは、HTML コンテンツが定義済みの配信に対してのみ表示できます。 詳しくは、[&#x200B; ミラーページへのリンク &#x200B;](mirror-page.md)を参照してください。
 
-![](assets/s_ncs_user_wizard_miror_page_link.png)
+![このメッセージリンクの「ミラーページを表示」がハイライト表示された配信ログのリスト &#x200B;](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## 配信トラッキングのログと履歴 {#tracking-logs}
 
@@ -124,7 +124,7 @@ ht-degree: 65%
 
 **[!UICONTROL トラッキング]**&#x200B;データは、配信レポートに表示されます。 [Adobe Campaign ビルトイン配信レポート &#x200B;](../reporting/delivery-reports.md)を参照してください。
 
-![](assets/s_ncs_user_delivery_tracking_tab.png)
+![日付、ラベル、種類、受信者を含む開封数とクリック数を追跡するトラッキングタブのログのサブタブ &#x200B;](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## 受信ボックスレンダリング {#delivery-rendering}
 
@@ -145,7 +145,7 @@ ht-degree: 65%
 
 「**[!UICONTROL 配達確認]**」サブタブには、送信済みの配達確認のリストが表示されます。
 
-![](assets/s_ncs_user_delivery_log_tab.png)
+![送信、処理済み、成功のメッセージを含む配信に送信されたプルーフを一覧表示する「監査」タブの「プルーフ」サブタブ &#x200B;](assets/s_ncs_user_delivery_log_tab.png)
 
 表示する列を選択することによって、このウィンドウ（および「**[!UICONTROL 配信]**」タブと「**[!UICONTROL トラッキング]**」タブ）に表示される情報を変更できます。 そのためには、右下隅にある&#x200B;**[!UICONTROL リストを設定]**&#x200B;アイコンをクリックします。 リスト表示の設定について詳しくは、[&#x200B; リストの管理とカスタマイズ &#x200B;](../config/ui-settings.md#customize-lists)を参照してください。
 

@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f89b58e9c7a87b6526dbbf491db67109418f2006
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2042'
-ht-degree: 85%
+source-wordcount: '2105'
+ht-degree: 83%
 ---
 # データパッケージの使用{#data-packages}
 
@@ -128,7 +128,7 @@ XML ドキュメントの先頭と末尾には必ず `<package>` 要素を記述
 1. エクスプローラーの&#x200B;**[!UICONTROL ツール／詳細設定／パッケージをエクスポート...]** メニュー経由でパッケージエクスポートアシスタントを参照します。
 1. [パッケージのタイプ](#types-of-packages)を選択します。
 
-   ![](assets/package_type.png)
+   ![&#x200B; ユーザーパッケージ、プラットフォームパッケージおよび管理者パッケージオプションを含むパッケージ書き出しウィザード、ユーザーパッケージが選択されました](assets/package_type.png)
 
 1. 「**追加**」ボタンをクリックして、パッケージとしてエクスポートするエンティティを選択します。
 
@@ -241,7 +241,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 パッケージ定義を作成するには、「**[!UICONTROL 新規]**」ボタンをクリックし、パッケージ定義の一般情報を入力します。
 
-![](assets/packagedefinition_create.png)
+![新しいボタンと「一般」タブのフィールド「ラベル」、「名前」、「ディストリビューター」を含むパッケージ定義フォルダー](assets/packagedefinition_create.png)
 
 その後、パッケージ定義にエンティティを追加し、XML ファイルパッケージにエクスポートします。
 
@@ -255,7 +255,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 「**[!UICONTROL コンテンツ]**」タブで「**[!UICONTROL 追加]**」ボタンをクリックし、パッケージとしてエクスポートするエンティティを選択します。 エンティティを選択する際のベストプラクティスは、[&#x200B; パッケージ内の一連のオブジェクトの書き出し](#export-a-set-of-objects-in-a-package)に記載されています。
 
-![](assets/packagedefinition_addentities.png)
+![&#x200B; エンティティを書き出しダイアログにスキーマが一覧表示されているパッケージ定義の「追加」ボタンを含むコンテンツタブ &#x200B;](assets/packagedefinition_addentities.png)
 
 エンティティは、インスタンス内の場所から直接パッケージ定義に追加できます。 これをおこなうには、以下の手順に従います。
 
@@ -269,7 +269,7 @@ template="xtk:folder" pkgAdmin="@id != 0">
 
 パッケージの生成は、パッケージ定義の「**[!UICONTROL コンテンツ]**」タブで設定できます。 設定をおこなうには、「**[!UICONTROL 生成パラメーター]**」リンクをクリックします。
 
-![](assets/packagedefinition_generationparameters.png)
+![生成パラメーターダイアログで、「定義を含める」、「インストールスクリプトを含める」、「デフォルト値を含める」を選択](assets/packagedefinition_generationparameters.png)
 
 * 「**[!UICONTROL 定義を含める]**」オプションを使用すると、パッケージ定義で現在使用されている定義を含めることができます。
 * 「**[!UICONTROL インストールスクリプトを含める]**」オプションを使用すると、パッケージのインポート時に実行する JavaScript スクリプトを追加できます。 選択すると、パッケージ定義画面に「**[!UICONTROL スクリプト]**」タブが表示されます。

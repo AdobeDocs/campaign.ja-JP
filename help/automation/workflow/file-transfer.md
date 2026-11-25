@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 83%
 ---
 # ファイル転送{#file-transfer}
 
@@ -42,7 +42,7 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
 「**[!UICONTROL アクション]**」フィールドのドロップダウンリストで、アクティビティのアクションを選択します。
 
-![](assets/file_transfert_action.png)
+![&#x200B; ファイル転送アクティビティのアクション ドロップダウン：ファイルのダウンロード、ファイルのアップロード、ファイルが存在するかどうかをテスト、ファイルのリスト &#x200B;](assets/file_transfert_action.png)
 
 設定は、選択したアクションによって異なります。
 
@@ -50,11 +50,11 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
    リモートサーバーからファイルをダウンロードするには、「**[!UICONTROL アクション]**」フィールドの「**[!UICONTROL ファイルのダウンロード]**」を選択します。 URL を該当するフィールドに入力する必要があります。
 
-   ![](assets/file_transfert_edit.png)
+   ![&#x200B; アクションが「ファイルのダウンロード」に設定され、リモートサーバーセクション &#x200B;](assets/file_transfert_edit.png)のURL フィールドが設定されたファイル転送アクティビティ
 
    「**[!UICONTROL 外部アカウントを使用]**」のチェックボックスをオンにして、ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／外部アカウント]**&#x200B;ノードに設定されている Azure Blob storage アカウント、S3 アカウント、FTP アカウントまたは SFTP アカウントからアカウントを選択します。 次に、ダウンロードするファイルが含まれているサーバーのディレクトリを指定します。
 
-   ![](assets/file_transfert_edit_external.png)
+   ![外部アカウントの使用チェック、外部アカウントの選択、サーバーフォルダーを含むリモートサーバーセクション &#x200B;](assets/file_transfert_edit_external.png)
 
 1. **ファイル転送**
 
@@ -62,11 +62,11 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
    送信するファイルは、前のアクティビティのものを指定できます。 その場合には、「**[!UICONTROL 前のアクティビティで生成されたファイルを使用]**」オプションを選択する必要があります。
 
-   ![](assets/file_transfert_edit_send.png)
+   ![&#x200B; ファイルのアップロードアクションで、以前にチェックしたアクティビティによって生成されたファイルとリモートサーバーのURLを使用](assets/file_transfert_edit_send.png)
 
    また、このオプションは、その他のファイルを対象とする場合があります。 具体的にファイルを指定するには、このオプションを選択解除し、「**[!UICONTROL 挿入]**」をクリックします。 送信するファイルのパスを指定します。 さらにファイルを追加する場合は、もう一度「**[!UICONTROL 挿入]**」をクリックします。 これで各ファイルにそれぞれタブが作成されます。
 
-   ![](assets/file_transfert_source.png)
+   ![以前のアクティビティのオプションがオフになっているSource セクション、追加ボタン、送信するファイルのパスを示すタブ &#x200B;](assets/file_transfert_source.png)
 
    矢印を使用してタブの順序を変更します。 これでファイルの送信順序を決められます。
 
@@ -76,7 +76,7 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
    サーバー上のファイルの有無を確認するには、「**[!UICONTROL アクション]**」フィールドの「**[!UICONTROL ファイルが存在するかどうかをテスト]**」オプションを選択します。 リモートサーバーの設定は、ファイルのダウンロードの設定と同じです。 詳しくは、この[節](#properties)を参照してください。
 
-   ![](assets/file_transfert_edit_test.png)
+   ![&#x200B; ファイル転送アクティビティ。ファイルが存在するか、外部アカウントとサーバーフォルダーが存在するかをテストするように設定されています](assets/file_transfert_edit_test.png)
 
 1. **ファイルの表示**
 
@@ -91,7 +91,7 @@ S3、Azure Blob Storage、SFTP 接続のいずれかを使用すると、Adobe �
 
 「**[!UICONTROL 詳細設定パラメーター]**」リンクを使用して、次のオプションにアクセスできます。
 
-![](assets/file_transfert_advanced.png)
+![高度なパラメーターダイアログ：転送後にソースファイルを削除する、セッションログを表示する、パッシブモードを無効にする](assets/file_transfert_advanced.png)
 
 * **[!UICONTROL 転送後にソースファイルを削除]**
 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 96%
+source-wordcount: '1774'
+ht-degree: 78%
 ---
 # web フォームプロパティの定義{#defining-web-forms-properties}
 
@@ -39,13 +39,13 @@ Web フォームの設定とパーソナライズを完全に行い、要件を�
 
 プロパティウィンドウは、Web フォームのツールバーにある「**[!UICONTROL プロパティ]**」ボタンを使用してアクセスできます。 このウィンドウを使用すると、Web フォームに特有の様々な設定にアクセスできます。 一部の設定は、テンプレートの設定に由来することがあります。
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![&#x200B; フォームプロパティウィンドウを開く「プロパティ」ボタンを備えたWeb アプリケーションエディターが、ツールバーでハイライト表示されている](assets/s_ncs_admin_survey_properties_general.png)
 
 ## 全般的なフォームプロパティ {#overall-form-properties}
 
 プロパティウィンドウの「**[!UICONTROL 一般]**」タブで、フォームの&#x200B;**ラベル**&#x200B;を修正できます。 **内部名**&#x200B;は変更しないことを強くお勧めします。
 
-![](assets/s_ncs_admin_survey_properties_general_tab.png)
+![&#x200B; ラベル、内部名、性質、ステータス、開始日と終了日、アクセス制御](assets/s_ncs_admin_survey_properties_general_tab.png)を含むフォームプロパティウィンドウの「一般」タブ
 
 フォームテンプレートは、フォームの作成中に選択されます。 後から変更することはできません。 フォームテンプレートの作成と管理について詳しくは、[Web フォームテンプレートの使用](using-a-web-form-template.md)を参照してください。
 
@@ -63,11 +63,11 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 デフォルトでは、次の情報が表示されます。
 
-![](assets/s_ncs_admin_survey_default_error_page.png)
+既定のエラーメッセージを表示する![&#x200B; ブラウザーページ：エラーが発生しました。 この問題が解決しない場合は、管理者にお問い合わせください](assets/s_ncs_admin_survey_default_error_page.png)
 
 表示される文字列の内容は、プロパティウィンドウの「**[!UICONTROL エラーページ]**」タブで定義されます。 「**[!UICONTROL HTML]**」タブにレンダリングが表示され、「**[!UICONTROL テキスト]**」タブを使用して、テキスト文字列を修正し、必要に応じて一部のテキストを追加できます。
 
-![](assets/s_ncs_admin_survey_error_page.png)
+![&#x200B; プロパティの「エラーページ」タブ。エラーメッセージのline1とline2の文字列が一覧表示された「テキスト」タブ &#x200B;](assets/s_ncs_admin_survey_error_page.png)
 
 ## フォームのローカライゼーション {#form-localization}
 
@@ -81,7 +81,7 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 リンクまたはボタンを使用したナビゲートを選択できます。
 
-![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
+![&#x200B; ナビゲーションオプション：次のボタンと次のリンク、フォームページ間を移動する2つの方法](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
 ボタンは、デフォルトのナビゲーション要素です。 次のアクションを実行できます。
 
@@ -101,7 +101,7 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 プロパティウィンドウの下の部分にレンダリングのサンプルが表示されます。 **[!UICONTROL リンクを編集]**&#x200B;アイコンを使用すると、選択したテーマの設定が表示されます。
 
-![](assets/s_ncs_admin_survey_properties_render.png)
+![使用ボタンまたは使用リンク、ラベルの位置、およびリンクを編集アイコンを使用したテンプレートのプレビューを含むプロパティのタブのレンダリング &#x200B;](assets/s_ncs_admin_survey_properties_render.png)
 
 ## フォーム内のロゴ {#logo-in-the-form}
 
@@ -109,15 +109,15 @@ Web フォームのフィールドは、デフォルトで、受信者テーブ�
 
 Web アプリの&#x200B;**[!UICONTROL プロパティ]**&#x200B;内の「**[!UICONTROL レンダリング]**」タブで、テンプレートのガラスアイコンをクリックします。
 
-![](assets/logo_glass.png)
+![&#x200B; テンプレートを開くために、「テンプレート」フィールドの横にある拡大鏡アイコンがハイライト表示されたプロパティの「レンダリング」タブ &#x200B;](assets/logo_glass.png)
 
 新しいウィンドウで、**[!UICONTROL ページレイアウト]** リンクをクリックします。
 
-![](assets/logo_pagelayout.png)
+![&#x200B; ページレイアウトリンクが強調表示されたフォーム生成テンプレートウィンドウ &#x200B;](assets/logo_pagelayout.png)
 
 ここでロゴ画像のパスを変更することができます。
 
-![](assets/logo_path.png)
+![&#x200B; ロゴの下の画像フィールドがハイライト表示されたページレイアウトウィンドウ。ロゴ画像のパスを保持](assets/logo_path.png)
 
 使用可能な画像は、**[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL 画像]**&#x200B;にあります。 ここにロゴを追加できます。
 
@@ -141,7 +141,7 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 
 有効期間は、**[!UICONTROL 開始]**&#x200B;日から&#x200B;**[!UICONTROL 終了日]**&#x200B;までです。 これらのフィールドに日付が指定されていない場合、フォームは永続的に有効です。
 
-![](assets/s_ncs_admin_survey_properties_date.png)
+![終了日カレンダーが開いているプロパティの「一般」タブで、フォームの有効期限を選択します](assets/s_ncs_admin_survey_properties_date.png)
 
 >[!NOTE]
 >
@@ -153,17 +153,17 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 
 例えば、イントラネットサイトにフォームを配信する際に、ユーザーを認証するために、フォームの表示に対するアクセス制限を有効にできます。 これをおこなうには、次に示すように、関連するフォームの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ウィンドウを表示して、「**[!UICONTROL アクセス制御を有効にする]**」オプションをクリックします。
 
-![](assets/s_ncs_admin_survey_access_ctrl.png)
+![&#x200B; アクセス制御の下で「アクセス制御を有効にする」オプションが選択されたプロパティの「一般」タブ &#x200B;](assets/s_ncs_admin_survey_access_ctrl.png)
 
 ページにアクセスすると、次の認証フォームが表示されます。
 
-![](assets/s_ncs_admin_survey_access_login.png)
+![&#x200B; ログインとパスワードのフィールドとログインボタンを持つ認証フォーム。アクセス制御が有効になっている場合に表示されます](assets/s_ncs_admin_survey_access_login.png)
 
 ログインおよびパスワードは、Adobe Campaign オペレーターによって使用されるものです。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}を参照してください。
 
 「**[!UICONTROL 特定のアカウントを使用]**」オプションを使用すると、フォームにアクセスするオペレーターの読み取りまたは書き込み権限を制限できます。 ドロップダウンボックスを使用して、これらの権限の付与を担当するオペレーターまたはオペレーターグループを選択します。
 
-![](assets/s_ncs_admin_survey_access_op_select.png)
+![特定のアカウントオプションを選択し、オペレータードロップダウンリスト演算子を使用して](assets/s_ncs_admin_survey_access_op_select.png)から選択します
 
 ## フォームの URL パラメーター {#form-url-parameters}
 
@@ -194,7 +194,7 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 
 パラメーターは、フォームのプロパティウィンドウの「**[!UICONTROL パラメーター]**」タブを使用して追加できます。 それらは、次に示すように、必須に設定できます。
 
-![](assets/s_ncs_admin_survey_properties_param.png)
+![会社、性別、ステータスを一覧表示する「パラメーター」タブ。ステータスに「必須」パラメーターオプションがチェックされている](assets/s_ncs_admin_survey_properties_param.png)
 
 パラメーターの値が取得されるストレージの場所を指定する必要があります。 これをおこなうには、いずれかのストレージオプションを選択し、「**[!UICONTROL ストレージ]**」タブをクリックして、関連するフィールドまたは変数を選択します。 ストレージオプションについて詳しくは、[回答ストレージフィールド](web-forms-answers.md#response-storage-fields)を参照してください。
 
@@ -202,20 +202,20 @@ Web フォームは、**[!UICONTROL オンライン]**&#x200B;の状態で、現
 
 1. 顧客向けのホームページ（**status=1**）:
 
-   ![](assets/s_ncs_admin_survey_test_client.png)
+   ![&#x200B; フォームのクライアントホームページ。URL パラメーターのstatus=1とID フィールドで開きます](assets/s_ncs_admin_survey_test_client.png)
 
 1. 見込み客向けのホームページ（**status=0**）:
 
-   ![](assets/s_ncs_admin_survey_test_prospect.png)
+   ![見込み客のホームページ。URL パラメーターのstatus=0と名前、メールおよびCaptcha フィールドで開きます](assets/s_ncs_admin_survey_test_prospect.png)
 
 1. その他のプロファイル向けのホームページ（例：**status=12**）:
 
-   ![](assets/s_ncs_admin_survey_test_other.png)
+   ![&#x200B; フォームのホームページにお問い合わせください。URL パラメーターのstatus=12、名前、電子メール、メッセージのフィールドで開きます](assets/s_ncs_admin_survey_test_other.png)
 
 このフォームを設定するには、次に示すように、テストボックスを作成し、ダイアグラムの最初に配置します。
 
-![](assets/s_ncs_admin_survey_test.png)
+![顧客/見込み顧客/連絡先テストボックスが見込み顧客、顧客、連絡先のホームページに分岐するフォーム図](assets/s_ncs_admin_survey_test.png)
 
 テストボックスを使用すると、ページの並び順の条件を設定できます。
 
-![](assets/s_ncs_admin_survey_test_box.png)
+![&#x200B; ステータスで定義されたブランチを含むテストボックスダイアログ。ステータス変数はコンテキストフィールドから選択されます](assets/s_ncs_admin_survey_test_box.png)

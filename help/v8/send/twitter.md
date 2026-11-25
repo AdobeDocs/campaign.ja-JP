@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 90%
+source-wordcount: '972'
+ht-degree: 80%
 ---
 # Adobe Campaign を使用して X（Twitter）でメッセージを投稿 {#post-tw-messages}
 
@@ -50,13 +50,13 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
    「**[!UICONTROL ツイート（Twitter）]**」配信テンプレートに基づいて新しい配信を作成します。
 
-   ![](assets/tw-new-delivery.png)
+   ![&#x200B; テンプレートリストでツイート（twitter）配信テンプレートが選択された新しい配信ダイアログ &#x200B;](assets/tw-new-delivery.png)
 
 1. メインターゲットの選択
 
    投稿の送信先アカウントを選択します。
 
-   ![](assets/tw-define-target.png)
+   ![Twitter アカウントのターゲットと「追加」ボタンがハイライト表示されたメインのターゲットタブのターゲットダイアログを選択](assets/tw-define-target.png)
 
    1. 「**[!UICONTROL 宛先]**」リンクをクリックします。
    1. 「**[!UICONTROL 追加]**」ボタンをクリックします。
@@ -77,7 +77,7 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
    「**[!UICONTROL コンテンツ]**」タブに投稿の内容を入力します。
 
-   ![](assets/tw-delivery-content.png)
+   投稿テキストとパーソナライゼーションフィールドが入力されたツイート配信の![&#x200B; コンテンツタブ &#x200B;](assets/tw-delivery-content.png)
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
    「**[!UICONTROL プレビュー]**」タブを参照して、投稿のレンダリングを確認します。
 
-   ![](assets/tw-delivery-preview.png)
+   ![&#x200B; ツイート配信の「プレビュー」タブ。サービス名](assets/tw-delivery-preview.png)でレンダリングされた投稿テキストが表示されている
 
    1. 「**[!UICONTROL プレビュー]**」タブをクリックします。
    1. 「**[!UICONTROL パーソナライゼーションをテスト]**」ドロップダウンメニューをクリックし、「**[!UICONTROL サービス]**」を選択します。
@@ -118,7 +118,7 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
 1. メインターゲットの選択
 
-   ![](assets/tw-dm-define-target.png)
+   ![訪問者の購読マッピングとダイレクトメッセージ用にハイライト表示された「追加」ボタンを含むターゲットダイアログを選択](assets/tw-dm-define-target.png)
 
    1. **[!UICONTROL 宛先]**&#x200B;リンクと「**[!UICONTROL 追加]** 」ボタンを選択します。
 
@@ -139,7 +139,7 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
 1. 「**[!UICONTROL コンテンツ]**」タブにメッセージの内容を入力します。
 
-   ![](assets/tw-dm-content.png)
+   パーソナライズされたメッセージテキストを含むTwitter ダイレクトメッセージ配信の![&#x200B; コンテンツタブ &#x200B;](assets/tw-dm-content.png)
 
    パーソナライゼーションフィールドは、メール配信と同じ手順で使用可能です。例えば、メッセージの本文にフォロワーの名前を追加できます。 詳細については、[&#x200B; パーソナライゼーションの基本を学ぶ](../send/personalize.md)を参照してください。
 
@@ -147,7 +147,7 @@ X アカウントでメッセージを投稿するには、次の手順に従い
 
    「**[!UICONTROL プレビュー]**」タブを参照して、投稿のレンダリングを確認します。
 
-   ![](assets/tw-dm-preview.png)
+   ![選択した購読者のパーソナライズされたテキストを表示するTwitter ダイレクトメッセージの「プレビュー」タブ &#x200B;](assets/tw-dm-preview.png)
 
    1. 「**[!UICONTROL プレビュー]**」タブをクリックします。
    1. 「**[!UICONTROL パーソナライゼーションをテスト]**」ドロップダウンメニューをクリックし、「**[!UICONTROL 訪問者の購読]**」を選択します。

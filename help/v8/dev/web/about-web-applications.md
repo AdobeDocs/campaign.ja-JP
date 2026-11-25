@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 71%
+source-wordcount: '914'
+ht-degree: 69%
 ---
 # web アプリケーションの基本を学ぶ{#about-web-applications}
 
@@ -61,7 +61,7 @@ Adobe Campaign では、データベースのデータを使用して動的で�
 
 例えば、以下に示されているような、Adobe Campaign データベース内の情報をあらかじめ読み込んだ状態の購読フォームなどを作成できます。
 
-![](assets/webapp_form_sample.png)
+![購読ボタン付きのメール、名前、国が事前に読み込まれた購読フォーム。](assets/webapp_form_sample.png)
 
 この章では、Web アプリケーションの管理方法の概要について説明します。
 
@@ -135,7 +135,7 @@ Adobe Campaign ツリーの&#x200B;**[!UICONTROL リソース／テンプレー�
 
 以下に示すように、作成アシスタントを使用して、有効にするオプションを選択できます。
 
-![](assets/webapp_create_template.png)
+![調査および高度なweb サイト （エクストラネット）オプションを使用して有効にする新しいWeb アプリケーション ダイアログ。](assets/webapp_create_template.png)
 
 >[!CAUTION]
 >

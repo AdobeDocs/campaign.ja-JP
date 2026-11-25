@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 88%
+source-wordcount: '686'
+ht-degree: 68%
 ---
 # ユースケース：オンラインサーベイへの回答に関するレポートの表示{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -67,23 +67,23 @@ ht-degree: 88%
 1. このアクティビティを編集し、分析対象となる回答が得られた調査を選択します。
 1. 「**[!UICONTROL すべての回答データを選択]**」オプションを有効にして、すべての情報を収集します。
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![&#x200B; オンライン調査ワークフローのアンケート回答アクティビティで、アンケートを選択し、すべての回答データを選択を有効にします。](assets/reporting_usecase_1_01.png)
 
 1. 抽出する列を選択します（この場合は、すべてのアーカイブされたフィールドを選択します）。 これらが、回答が含まれるフィールドになります。
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![&#x200B; アーカイブされたフィールドを選択して出力列に追加するための追加の列を選択ダイアログを選択します。](assets/reporting_usecase_1_02.png)
 
 1. 回答収集ボックスを設定したら、データを保存するための&#x200B;**[!UICONTROL リスト更新]**&#x200B;タイプのアクティビティを追加します。
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![&#x200B; リスト更新アクティビティに結果の移行によってリンクされたアンケート回答アクティビティを含むワークフロー。](assets/reporting_usecase_1_04.png)
 
    このアクティビティで、更新するリストを指定し、「**[!UICONTROL 存在する場合、リストをパージして再利用 (存在しない場合、リストに追加)]**」オプションのチェックをオフにします。回答は既存のテーブルに追加されます。 このオプションを選択すると、キューブ内のリストを参照できるようになります。 このリストにリンクされたスキーマは、更新のたびに再生成されることはありません。これにより、このリストを使用しているキューブの整合性が保証されます。
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![&#x200B; リストの更新ダイアログで「削除」を選択し、リストが存在する場合はリストを再利用して消去し、回答をリストに追加します。](assets/reporting_usecase_1_03.png)
 
 1. ワークフローを開始して、その設定を確認します。
 
-   ![](assets/reporting_usecase_1_05.png)
+   リストの更新にアンケート回答が接続された![&#x200B; オンライン調査ワークフロー図。開始する準備ができました。](assets/reporting_usecase_1_05.png)
 
    指定されたリストが作成され、その中に、調査への回答のスキーマが格納されています。
 
@@ -97,11 +97,11 @@ ht-degree: 88%
 
 この例では、キューブは、先ほど作成したワークフローから提供されるリスト内のデータに基づいています。
 
-![](assets/reporting_usecase_2_01.png)
+![&#x200B; キューブダイアログは、「リストを使用」を選択し、「WEB REP リスト」をファクトリストとして使用してオンライン調査に回答します。](assets/reporting_usecase_2_01.png)
 
 ディメンションと、レポートに表示する測定を定義します。 ここでは、回答者の契約日と国名を表示します。
 
-![](assets/reporting_usecase_2_02.png)
+![国と部署を含むキューブディメンションのタブ、および回答された2016年の契約と2017年の契約を含む測定のタブ。](assets/reporting_usecase_2_02.png)
 
 「**[!UICONTROL プレビュー]**」タブでは、レポートのレンダリングを制御できます。
 
@@ -109,8 +109,8 @@ ht-degree: 88%
 
 次に、このキューブに基づくレポートを作成し、データと情報を処理します。
 
-![](assets/reporting_usecase_3_01.png)
+![回答オンラインアンケートキューブテンプレートと「作成」ボタンを選択して、新しいレポートページを作成します。](assets/reporting_usecase_3_01.png)
 
 表示する情報を必要に応じて調整します。
 
-![](assets/reporting_usecase_3_02.png)
+![2016年と2017年のオンライン調査レポートの国別の契約数の表。国別ディメンションが行に表示されます。](assets/reporting_usecase_3_02.png)

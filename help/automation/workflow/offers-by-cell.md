@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 85%
 ---
 # オファー（セル別）{#offers-by-cell}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 「**[!UICONTROL オファー（セル別）]**」アクティビティでは、インバウンド母集団（例：クエリから）を複数のセグメントに分散させ、それらの各セグメントに提示するオファーを指定できます。
 
-このアクティビティは、「**インタラクション**」と一緒の場合のみ使用できます。 オファー管理について詳しくは、[この節](../../v8/interaction/interaction.md)を参照してください。
+このアクティビティは、「**インタラクション**」と一緒の場合のみ使用できます。 オファー管理について詳しくは、[Campaign インタラクション – オファー管理](../../v8/interaction/interaction.md)を参照してください。
 
 手順は次のとおりです。
 
@@ -47,6 +47,6 @@ ht-degree: 100%
    * 適用可能なフィルタリングおよび制限ルールを使用して、サブセットの母集団を指定します。
    * 次に、サブセットに提案するオファーを選択します。 選択できるオファーは、前の手順で選択したオファースペースに適合するオファーです。
 
-     ![](assets/int_offer_per_cell1.png)
+     ![&#x200B; セル別のオファーのサブセットウィンドウ：フィルタリングとレコードの制限オプション、オファースペース、オファーリスト &#x200B;](assets/int_offer_per_cell1.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 [クロスチャネル配信](cross-channel-deliveries.md)を参照してください。

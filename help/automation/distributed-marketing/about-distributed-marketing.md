@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 98%
+source-wordcount: '1248'
+ht-degree: 93%
 ---
 # 分散型マーケティングの基本を学ぶ{#about-distributed-marketing}
 
@@ -103,7 +103,7 @@ Adobe Campaign では、セントラルエンティティ（本社、マーケ�
 
 キャンペーンパッケージのリストには、「**キャンペーン** 」タブからアクセスできます。「**[!UICONTROL キャンペーンパッケージ]**」リンクをクリックします。
 
-![](assets/mkg_dist_home_local_op.png)
+![&#x200B; キャンペーン タブ：参照メニューでキャンペーンパッケージをクリックすると、キャンペーンパッケージのリストが開きます。](assets/mkg_dist_home_local_op.png)
 
 ローカルオペレーターには、ローカルエージェントが使用できるキャンペーンが表示されます。
 
@@ -113,7 +113,7 @@ Adobe Campaign では、セントラルエンティティ（本社、マーケ�
 
 まず、**[!UICONTROL アクセス管理]**&#x200B;フォルダーで、セントラルエンティティおよびローカルエンティティのオペレーターを指定します。
 
-![](assets/s_advuser_mkg_dist_tree.png)
+管理/アクセス管理が展開された![&#x200B; エクスプローラーツリーが展開され、オペレーターと組織エンティティが表示されます。](assets/s_advuser_mkg_dist_tree.png)
 
 ### オペレーター {#operators}
 
@@ -123,13 +123,13 @@ Adobe Campaign では、セントラルエンティティ（本社、マーケ�
 
 ローカルオペレーターは、**[!UICONTROL ローカル管理]**&#x200B;オペレーターグループに属しているか、**[!UICONTROL ローカル処理]**&#x200B;のネームド権限を有している必要があります。 また、ローカルオペレーターは、ローカルエンティティに関連付けられている必要があります。
 
-![](assets/s_advuser_mkg_dist_local_create.png)
+![&#x200B; ローカル管理と中央管理のセキュリティ グループを一覧表示するオペレーターのアクセス権タブ。](assets/s_advuser_mkg_dist_local_create.png)
 
 ### 組織エンティティ {#organizational-entities}
 
 組織単位を作成するには、**[!UICONTROL 管理／アクセス管理／組織単位]**&#x200B;フォルダーをクリックし、エンティティのリストの上にある「**[!UICONTROL 新規]**」アイコンをクリックします。
 
-![](assets/s_advuser_mkg_dist_local_list.png)
+![&#x200B; エンティティのリストの上に新しいアイコンが強調表示された組織エンティティフォルダー。](assets/s_advuser_mkg_dist_local_list.png)
 
 各組織エンティティには、識別情報（ラベル、内部名、連絡先情報など）が含まれます。 発注承認プロセスに関与するグループなどです。 これらの情報は、「**[!UICONTROL 一般]**」タブの「**[!UICONTROL 通知と承認]**」セクションで定義されます。
 
@@ -152,7 +152,7 @@ Adobe Campaign では、セントラルエンティティ（本社、マーケ�
 1. ローカルエンティティを作成します。
 1. ローカルエンティティを管理するオペレーターに受信者をリンクします。
 
-   ![](assets/mkg_dist_local_entity_association.png)
+   ![送信元フィールドがハイライト表示された受信者フォーム。受信者をローカルエンティティにリンクします。](assets/mkg_dist_local_entity_association.png)
 
 1. ローカルエンティティの権限と参照ルールを指定します。
 1. キャンペーンのローカライゼーションで使用される次の情報を指定します。

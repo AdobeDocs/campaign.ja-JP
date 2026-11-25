@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 65%
+source-wordcount: '125'
+ht-degree: 56%
 ---
 # 時間制限{#time-constraint}
 
@@ -30,4 +30,4 @@ ht-degree: 65%
 
 「**[!UICONTROL 実行期間外の場合は後で再試行]**」オプションが選択されている場合、実行期間外でも、タスクを再起動できます。 停止期間の後で、ワークフローのアクションを完全に中止する場合、このオプションの選択を解除します。
 
-![](assets/s_user_scheduled_wait.png)
+![開始時間と終了時間を含む時間制約アクティビティ。実行期間外の場合は、後でもう一度試してください。](assets/s_user_scheduled_wait.png)

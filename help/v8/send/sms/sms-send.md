@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 79%
 ---
 # オーディエンスへの SMS 配信の送信 {#sms-send-audience}
 
@@ -40,10 +40,10 @@ SMS が検証されると、オーディエンスに送信できるようにな�
 
    以下の例では、「**[!UICONTROL 可能な限り早く配信]**」を選択すると、「**[!UICONTROL 分析]**」ボタンが表示されます。 その「**[!UICONTROL 分析]**」ボタンをクリックします。
 
-   ![](assets/send_action.png){zoomable="yes"}
+   ![できるだけ早く配信を選択し、分析を強調表示したメイン配信ターゲットダイアログに送信する](assets/send_action.png){zoomable="yes"}
 
    Adobe Campaign では、配達確認の送信を検証する前にすべてのコントロールを実行します。 実際のオーディエンスのボリュームがそこに表示されます。 分析の最後に表示される「**[!UICONTROL 配信を確定]**」ボタンがクリックできるようになります。
 
-   ![](assets/send_analyze.png){zoomable="yes"}
+   ![送信するメッセージ数と「配信を確認」ボタンを表示する配信分析を完了しました](assets/send_analyze.png){zoomable="yes"}
 
 1. オーディエンスに SMS 配信を送信するには、「**[!UICONTROL 配信を確定]**」ボタンをクリックします。

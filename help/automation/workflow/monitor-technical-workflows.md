@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 92%
 ---
 # テクニカルワークフローの監視 {#monitoring-technical-workflows}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 インスタンス監視ダッシュボードには、「**[!UICONTROL 監視]**」タブからアクセスできます。
 
-![](assets/monitoring_technical_workflows1.png)
+![&#x200B; プロセスリスト、失敗したワークフローと配信、システム指標リンクを含むインスタンス監視ダッシュボード &#x200B;](assets/monitoring_technical_workflows1.png)
 
 システム指標およびコアファイルの下で、赤でハイライト表示された指標がないことを確認します。 ある場合は、次のことをおこないます。
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
 **[!UICONTROL ワークフロースーパーバイザー]**&#x200B;グループは、必ず失敗を知らせる必要があり、時間内に対処できるオペレーターを含む必要があります。
 
-![](assets/monitoring_technical_workflows3.png)
+![&#x200B; ワークフロープロパティの「一般」タブ。ワークフロースーパーバイザーがスーパーバイザーのフィールドで選択されている](assets/monitoring_technical_workflows3.png)
 
 問題が発生した場合、アラートが生成され、適切なグループに送信される必要があります。
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 * 監視を担当するオペレーター。
 * エラー時の処理に関する指示。
 
-![](assets/monitoring_technical_workflows4.png)
+![各ワークフローの頻度、開始、期間、フォルダー、名前、重要度、依存関係を一覧表示するメンテナンスワークシート &#x200B;](assets/monitoring_technical_workflows4.png)
 
 ## 監視の計画と自動化 {#planning-and-automation-of-monitoring}
 

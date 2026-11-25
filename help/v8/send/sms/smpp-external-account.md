@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '3642'
-ht-degree: 92%
+source-wordcount: '3734'
+ht-degree: 89%
 ---
 # SMPP 外部アカウント設定 {#smpp-external-account}
 
@@ -53,7 +53,7 @@ SMS サービスプロバイダー側のネットワーク機器は、SMSC と�
 
 ## 接続設定 {#smpp-connection-settings}
 
-![](assets/smpp_connection_settings.png){zoomable="yes"}
+![SMPP外部アカウントの「接続設定」タブ：サーバー、ポート、アカウント、パスワード、接続モード &#x200B;](assets/smpp_connection_settings.png){zoomable="yes"}
 
 接続設定に必要なパラメーターとその役割は次のとおりです。
 
@@ -94,7 +94,7 @@ Adobe Campaign v8.7.2以降では、このオプションを常に有効にす�
 
 ## SMPP チャネル設定 {#smpp-channel-settings}
 
-![](assets/smpp_channel_settings.png){zoomable="yes"}
+![SMPP チャネル設定タブ：変換オプション、ソース番号、ソースおよび宛先TON/NPI、サービスの種類](assets/smpp_channel_settings.png){zoomable="yes"}
 
 ### 文字の表記変換を許可 {#smpp-transliteration}
 
@@ -124,7 +124,7 @@ Adobe Campaign v8.7.2以降では、このオプションを常に有効にす�
 
 ## スループットと遅延 {#smpp-delays}
 
-![](assets/smpp_throughput.png){zoomable="yes"}
+![&#x200B; スループットと遅延タブ：送信ウィンドウ、最大MT スループット、再接続、有効期限、バインドタイムアウト、inquire_link](assets/smpp_throughput.png){zoomable="yes"}
 
 これらの設定は、SMPP チャネルのすべてのタイミングを制御します。 一部のプロバイダーでは、メッセージレート、ウィンドウ、再試行タイミングを非常に正確に制御する必要があるので、これらの設定は、プロバイダーの処理能力と契約で示される条件に一致する値に設定する必要があります。
 
@@ -134,7 +134,7 @@ Adobe Campaign v8.7.2以降では、このオプションを常に有効にす�
 
 最大ウィンドウ数が 4 の送信例：
 
-![](assets/sms_sending_window.png){zoomable="yes"}
+![CampaignとSMSC間のシーケンス：SUBMIT_SM リクエストとSUBMIT_SM_RESPは、4](assets/sms_sending_window.png){zoomable="yes"}のウィンドウで応答します
 
 送信ウィンドウは、ネットワークリンクの待ち時間が長い場合のスループットを向上させるのに役立ちます。 ウィンドウの値は、SMS の数にリンクの待ち時間（秒単位）を掛けた値よりも大きくする必要があり、これによって、コネクタは SUBMIT_SM_RESP を待たずに次のメッセージを送信できるようになります。
 
@@ -199,7 +199,7 @@ UCS-2 は、Campaign でサポートされるすべての文字をエンコー�
 
 ## SMSC 特異性 {#smsc-specificities}
 
-![](assets/smsc_specificities.png){zoomable="yes"}
+message_payload、Bind TON/NPI、ステータス正規表現、ID形式およびTLS オプションを含む![SMSCの詳細タブ &#x200B;](assets/smsc_specificities.png){zoomable="yes"}
 
 ### message_payload を有効化
 
@@ -347,7 +347,7 @@ SR フィールドに含まれている ID の抽出正規表現が十分に具�
 
 ## 受信トラフィック {#incoming-traffic}
 
-![](assets/incoming_traffic.png){zoomable="yes"}
+![着信トラフィック タブ：MOのオプション SMPP パラメーター（TLV）とMO](assets/incoming_traffic.png){zoomable="yes"}の自動返信テーブル
 
 ### MO のオプション SMPP パラメーター (TLV)
 

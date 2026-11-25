@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 87%
+source-wordcount: '760'
+ht-degree: 80%
 ---
 # イベントの処理 {#event-processing}
 
@@ -43,7 +43,7 @@ ht-degree: 87%
 
 イベントデータの例：
 
-![](assets/mc-event-request.png)
+![&#x200B; イベント XMLの例：ctx要素のイベントデータ属性（タイプ、電子メール、オリジン）とパーソナライズされたイベントデータ &#x200B;](assets/mc-event-request.png)
 
 トランザクションメッセージのイベントを処理するには、次の手順を実行インスタンスに適用します。
 
@@ -65,7 +65,7 @@ ht-degree: 87%
 
 収集したイベントは、テクニカルワークフローによって実行インスタンスのリアルタイムキューとバッチキューに分別され、[メッセージテンプレート](transactional-template.md)にリンクされるのを待つことになります。
 
-![](assets/mc-event-queues.png)
+実行インスタンス上の![Message Center フォルダー：デフォルト フォルダーの下のリアルタイム イベントとバッチ イベント &#x200B;](assets/mc-event-queues.png)
 
 >[!NOTE]
 >
@@ -79,11 +79,11 @@ ht-degree: 87%
 
 * イベント自体のプロパティで指定されたイベントタイプ。
 
-  ![](assets/event-type-sample.png)
+  ![&#x200B; イベントタイプ属性がpurchase_order](assets/event-type-sample.png)に設定されたバッチイベント XML
 
 * メッセージテンプレートのプロパティで指定されたイベントタイプ。
 
-  ![](assets/event-type-select.png)
+  購入とpurchase_def![&#128279;](assets/event-type-select.png)を示すイベントタイプリストを含む メッセージテンプレートウィザード
 
 デフォルトでは、ルーティングは次の情報に基づいておこなわれます。
 

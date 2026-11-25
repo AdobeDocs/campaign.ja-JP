@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '910'
+ht-degree: 80%
 ---
 # マーケティングキャンペーン配信 {#marketing-campaign-deliveries}
 
@@ -44,13 +44,13 @@ ht-degree: 100%
 
 * キャンペーンダッシュボードの「**[!UICONTROL 配信を追加]**」リンクから。
 
-  ![](assets/campaign_op_add_delivery.png)
+  テンプレートとラベルを選択するための「配信を追加」リンクと新しい配信ウィンドウを含む![Campaign ダッシュボード。](assets/campaign_op_add_delivery.png)
 
   保存すると、配信がキャンペーンダッシュボードに追加されます。
 
 * キャンペーンワークフローから。「**[!UICONTROL ターゲティングとワークフロー]**」タブで、配信を追加します。
 
-  ![](assets/campaign-wf-delivery.png)
+  ![配信パレットとワークフローが配信アクティビティで終わる「ターゲティングとワークフロー」タブ。](assets/campaign-wf-delivery.png)
 
   ワークフローが開始されると、配信がキャンペーンダッシュボードに追加されます。
 
@@ -60,23 +60,23 @@ ht-degree: 100%
 
 すべての承認が得られたら、配信を送信できます。 配信の実行プロセスは、チャネルによって異なります。
 
-* メールまたはモバイルチャネル配信については、[この節](#start-an-online-delivery)を参照してください。
+* 電子メールまたはモバイルチャネルの配信については、[電子メールまたはモバイル配信の開始](#start-an-online-delivery)を参照してください。
 
-* ダイレクトメール配信については、[この節](#start-an-offline-delivery)を参照してください。
+* ダイレクトメール配信については、[&#x200B; ダイレクトメール配信の開始](#start-an-offline-delivery)を参照してください
 
 ### メールまたはモバイル配信の開始 {#start-an-online-delivery}
 
 すべての承認リクエストが許可されたら、配信ステータスが&#x200B;**[!UICONTROL 確認保留]**&#x200B;に変わり、配信を開始できるようになります。 配信を開始できるレビュー担当者には、配信を開始する準備が整ったことが通知されます。
 
-![](assets/confirm-delivery.png)
+![すべての承認が付与され、ステータスが保留中になると、「配信を確認」ボタンで配信の概要が表示されます。](assets/confirm-delivery.png)
 
 情報はキャンペーンダッシュボードにも表示されます。 「**[!UICONTROL 配信を確定]**」リンクを使用して、配信を開始できます。
 
-![](assets/confirm-delivery-from-dashboard.png)
+確認が保留中の配信に対する配信の確認リンクを含む![Campaign ダッシュボード。](assets/confirm-delivery-from-dashboard.png)
 
 配信の確認は、管理者と、配信プロパティまたはキャンペーンプロパティで明示的に言及されているオペレーターまたはオペレーターのグループだけが行えます。 オペレーターが指定されていない場合は、管理者とキャンペーン所有者が承認できます。
 
-![](assets/select-delivery-reviewers.png)
+![配信プロパティの「承認」タブには、各承認のレビュー担当者と配信の開始のレビュー担当者が表示されます。](assets/select-delivery-reviewers.png)
 
 ただし、配信プロパティまたはキャンペーンプロパティで特定のレビュー担当者が定義されている場合でも、キャンペーン所有者に送信の確認を任せることもできます。 それには、管理者として「**NmsCampaign_Activate_OwnerConfirmation**」オプションを作成して「**1**」に設定します。 これらのオプションは、Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL プラットフォーム]**／**[!UICONTROL オプション]**&#x200B;フォルダーから管理します。
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
    この手順は、キャンペーンの詳細パラメーターの「**[!UICONTROL 承認]** 」タブで「**[!UICONTROL 配達確認の送信と検証を有効にする (ダイレクトメール)]**」オプションが有効になっている場合にのみ使用できます。
 
-   ![](assets/enable-proof-validation.png)
+   ![&#x200B; プルーフの検証ウィンドウ。プルーフの送信と検証を有効にする（ダイレクトメール）とプルーフグループを選択しました。](assets/enable-proof-validation.png)
 
 1. 「**[!UICONTROL 配達確認を送信]**」ボタンをクリックして、配達確認を作成します。
 
@@ -115,17 +115,17 @@ ht-degree: 100%
 
 * 「**[!UICONTROL 予算]**」タブを使用して、キャンペーンの予算を管理できます。 コストエントリの合計が、キャンペーンのメインタブとキャンペーンが属するプログラムの「**[!UICONTROL 計算されたコスト]**」フィールドに表示されます。 この金額は、キャンペーン予算にも反映されます。
 
-  ![](assets/campaign-budget-tab.png)
+  関連する予算、計算されたコスト、配信ごとのコスト明細行のリストを表示する![&#x200B; キャンペーン予算タブ。](assets/campaign-budget-tab.png)
 
   実際のコストは、発送担当が提供する情報から最終的に計算されます。 実際に送信されたメッセージのみが請求対象です。
 
 * 在庫は、ツリーの&#x200B;**[!UICONTROL 管理／キャンペーン管理／在庫]**&#x200B;ノードで設定します。
 
-  ![](assets/campaign-stocks.png)
+  ![&#x200B; セールスチラシのストックダッシュボードとそのストックラインを含むCampaign エクスプローラーのストックノード。](assets/campaign-stocks.png)
 
   コスト構造は、**[!UICONTROL 管理／キャンペーン管理／サービスプロバイダー]**&#x200B;ノードで設定します。
 
-  ![](assets/campaign-service-providers.png)
+  ![&#x200B; ブループリントプロバイダーとそのサービスのリストを含むCampaign エクスプローラーのサービスプロバイダーノード。](assets/campaign-service-providers.png)
 
   在庫品目は「在庫」セクションに表示されます。 初期在庫を定義するには、在庫品目を開きます。 配信が実行されるたびに在庫は減少します。 アラートレベルと通知を定義できます。
 

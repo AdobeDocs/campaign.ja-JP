@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 98%
+source-wordcount: '1356'
+ht-degree: 84%
 ---
 # ワークフローヒートマップ {#workflow-heatmap}
 
@@ -64,7 +64,7 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 
 1. **[!UICONTROL 監視]**&#x200B;に移動し、「**[!UICONTROL ワークフローヒートマップ]**」リンクをクリックして「**[!UICONTROL キャンペーンワークフローヒートマップ]**」ページを表示します。
 
-   ![](assets/wkf_monitoring_path.png)
+   ![&#x200B; ワークフローヒートマップリンクを選択した状態での監視タブ。Campaign ワークフローヒートマップグリッドを開きます。](assets/wkf_monitoring_path.png)
 
 1. カレンダーをクリックして日付を選択します。
 
@@ -76,15 +76,15 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 
 1. 「**[!UICONTROL フィルター]**」ボタンをクリックします。
 
-   ![](assets/wkf_monitoring_filters.png)
+   ![Campaign ワークフローヒートマップページで、「ヘルプとデータの読み込み」の横にある「フィルター」ボタンが強調表示されている。](assets/wkf_monitoring_filters.png)
 
 1. スライダーを使用して、最低持続時間を 0 秒から 1 時間までの値に設定します。 これにより、一定の秒数または分数を超えて実行されたワークフローのみを検索できます。
 
-   ![](assets/wkf_monitoring_filters_duration.png)
+   ワークフローとワークフロータイプのフィールドの上で、最小期間スライダーが30分に設定された![HeatMap フィルターパネル。](assets/wkf_monitoring_filters_duration.png)
 
 1. 「**[!UICONTROL ワークフロー]**」ドロップダウンリストから特定のワークフローを選択することもできます。
 
-   ![](assets/wkf_monitoring_filters_workflows.png)
+   ヒートマップ フィルターの![&#x200B; ワークフローのドロップダウンリストには、すべて、データベースのクリーンアップ、予測およびその他のワークフローが表示されます。](assets/wkf_monitoring_filters_workflows.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 
 カラーコード適用の仕組みおよびヒートマップのナビゲーション方法を確認するには、「**[!UICONTROL ヘルプ]**」ボタンをクリックします。
 
-![](assets/wkf_monitoring_legend.png)
+![HeatMap ヘルプパネルに、キーボードコントロールと、1つのワークフローの緑から50の赤までのカラー凡例が一覧表示されています。](assets/wkf_monitoring_legend.png)
 
 各行が 1 日のうちの 1 時間を表し、各セルがその 1 時間の内の 5 分間を表します。
 
@@ -116,11 +116,11 @@ Campaign ワークフローヒートマップは、現在実行中のすべて�
 
 次の例では、午前8時から午前8時5分の間に、3つのワークフローが実行されています（個々の期間に関係なく）。
 
-![](assets/wkf_monitoring_ex_8am.png)
+08h行の00m列のセルがハイライト表示された![HeatMap グリッド。午前8時から午前8時5分までの間に3つのワークフローが実行されていることを示します。](assets/wkf_monitoring_ex_8am.png)
 
 1. 色付きのセルをクリックすると、その期間中に実行されたすべての並列ワークフローの詳細が表示されます。
 
-   ![](assets/wkf_monitoring_details.png)
+   08h セルを選択した![HeatMapと、アクティビティと期間を含む3つの同時ワークフローのリストを示すテーブル。](assets/wkf_monitoring_details.png)
 
    各ワークフローおいて、ワークフローに含まれるすべてのアクティビティが持続時間と合わせて表示されます。
 
@@ -139,7 +139,7 @@ Campaign ワークフローヒートマップは主に 2 つの場合に役立�
 1. 持続時間を、数秒または数分に設定します。
 1. 持続時間フィルターを引き上げて、重要でない最短のワークフローを除外します。
 
-   ![](assets/wkf_monitoring_short_duration.png)
+   ![HeatMap フィルターで、最短のワークフローを除外するために最短の時間スライダーを3分（189秒）に設定します。](assets/wkf_monitoring_short_duration.png)
 
 1. 結果を調べてインスタンスの負荷を把握し、適切なアクションを起こします。
 
@@ -153,7 +153,7 @@ Campaign ワークフローヒートマップは主に 2 つの場合に役立�
 1. 「**[!UICONTROL キャンペーンワークフローヒートマップ]**」ビューで、「**[!UICONTROL フィルター]**」ボタンをクリックします。
 1. 持続時間を 1 時間に設定します。
 
-   ![](assets/wkf_monitoring_long_duration.png)
+   ![HeatMap フィルターで、デュレーションの最小値スライダーが最大1時間（3600秒）に設定されています。](assets/wkf_monitoring_long_duration.png)
 
 1. 「**[!UICONTROL 最低持続時間]**」フィルターを引き下げれば、より多くの結果を得られます。
 1. 結果を調べて最長のワークフローを見つけます。こうしたワークフローは、サーバーおよびデータベースのリソース（CPU、RAM、ネットワーク、IOPS など）に多大な影響を与える可能性があります。
@@ -173,7 +173,7 @@ Campaign ワークフローヒートマップは主に 2 つの場合に役立�
 1. 「**[!UICONTROL ワークフロータイプ]**」フィルターを「**[!UICONTROL マーケティング]**」に設定します。
 1. ヒートマップグリッドから、次のことが分かります。
 
-   ![](assets/wkf_monitoring_without.png)
+   期間フィルターを使用しない![HeatMap グリッド。ピークは10h行に50 ワークフロー、14h後に少数のセルです。](assets/wkf_monitoring_without.png)
 
    * 午前 10 時に、50 個の長時間（5 分以上）かかるキャンペーンワークフローが実行されている
    * 大半は保留中の状態になっている（デフォルトの同時実行制限は 20 に設定）
@@ -184,7 +184,7 @@ Campaign ワークフローヒートマップは主に 2 つの場合に役立�
 1. 「**[!UICONTROL キャンペーンワークフローヒートマップ]**」ページに戻り、「**[!UICONTROL データを再読み込み]**」ボタンをクリックします。
 1. 次の点がわかります。
 
-   ![](assets/wkf_monitoring_with.png)
+   ![時間フィルターが適用されたHeatMap グリッド。ピークが18 ワークフローに減少した別の分布が表示されます。](assets/wkf_monitoring_with.png)
 
    * 18 個の長時間かかるキャンペーンワークフローが、まだ午前 10 時に実行されている
    * 保留中の状態のワークフローはない（同時実行制限は引き続き 20 に設定されたまま）

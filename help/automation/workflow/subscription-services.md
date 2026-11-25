@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Targeting Activity
   - id: 2454f09c-f028-5647-8fef-1e986ec2d4e5
     internal-label: Subscription Services Activity
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 94%
 ---
 # 購読サービス{#subscription-services}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 購読サービスを設定するには、次の例に示すように、アクティビティを編集してラベルを入力します。その後、実行するアクション（購読または購読解除）と該当するサービスを選択します。
 
-![](assets/edit_service_inscription.png)
+![登録または購読解除を含むサブスクリプションサービスのアクティビティ、確認メッセージオプションおよびサービスリスト &#x200B;](assets/edit_service_inscription.png)
 
 1. アクティビティのラベルを入力します。
 1. 実行の最後にトランジションを作成する場合は、「**[!UICONTROL アウトバウンドトランジションを生成]**」を選択します。
@@ -56,7 +56,7 @@ ht-degree: 100%
 >
 >手動で受信者をサービスに登録する前に、これらの受信者がメッセージを受けることを承諾していることを確認してください。
 
-![](assets/subscription_services_example.png)
+![3つのクエリが積集合をフィードし、リストの更新とサブスクリプション サービス アクティビティ &#x200B;](assets/subscription_services_example.png)
 
 1. 次の 3 つのクエリを追加します。
 

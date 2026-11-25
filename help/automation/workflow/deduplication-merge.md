@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '765'
+ht-degree: 78%
 ---
 # 重複排除アクティビティの結合機能の使用 {#deduplication-merge}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 このユースケースでは、「**[!UICONTROL 重複排除]**」アクティビティで&#x200B;**[!UICONTROL 結合]**&#x200B;機能を使用する方法を説明します。
 
-この機能について詳しくは、[この節](deduplication.md#merging-fields-into-single-record)を参照してください。
+この機能について詳しくは、[&#x200B; フィールドを単一のデータレコードに結合](deduplication.md#merging-fields-into-single-record)を参照してください。
 
 **[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティは、データセットから重複行を削除するために使用します。 この使用例では、次のデータがメールフィールドに基づいて複製されます。
 
@@ -57,11 +57,11 @@ ht-degree: 100%
 
 1. 重複排除 - 重複に使用する紐付けフィールドを選択し、「**[!UICONTROL 次へ]**」をクリックします。 この例では、メールフィールドに基づいて重複除外を行います。
 
-   ![](assets/uc_merge_edit.png)
+   ![受信者が選択され、メール紐付けフィールドが選択された重複排除ターゲティングディメンションウィンドウ。](assets/uc_merge_edit.png)
 
 1. 「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックし、「**[!UICONTROL レコードを結合]**」および「**[!UICONTROL 複数レコードの結合条件を使用]**」オプションを有効にします。
 
-   ![](assets/uc_merge_advanced_parameters.png)
+   ![&#x200B; レコードを結合し、複数のレコード結合条件オプションを使用する重複排除パラメーターダイアログがチェックされました。](assets/uc_merge_advanced_parameters.png)
 
 1. 「**[!UICONTROL 結合]**」タブが&#x200B;**[!UICONTROL 重複排除 - 重複]**&#x200B;設定画面に追加されます。 このタブを使用して、重複排除 - 重複の実行時に結合するデータを指定します。
 
@@ -78,31 +78,31 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 結合]**」タブを開き、「**[!UICONTROL 追加]**」ボタンをクリックします。
 
-   ![](assets/uc_merge_add.png)
+   ![重複排除アクティビティの「結合」タブ。結合されたデータの空のリストの上に「追加」ボタンがあります。](assets/uc_merge_add.png)
 
 1. 結合するフィールドのグループの識別子とラベルを指定します。
 
-   ![](assets/uc_merge_identifier.png)
+   ![識別子名とラベル名を入力した、結合するデータを選択ウィザードの識別子とラベルの手順](assets/uc_merge_identifier.png)
 
 1. 考慮するレコードを選択する条件を指定します。
 
-   ![](assets/uc_merge_filter.png)
+   ![条件「名」を持つフィルターステップが空ではなく、結合するレコードを選択するための「姓」が空ではありません。](assets/uc_merge_filter.png)
 
 1. 最新の名前を選択するために、最終変更日に並べ替えます。
 
-   ![](assets/uc_merge_sort.png)
+   ![変更日の並べ替えステップを降順で並べ替えて、最新のレコードを選択します。](assets/uc_merge_sort.png)
 
 1. 結合するフィールドを選択します。 この例では、姓と名のフィールドを保持します。
 
-   ![](assets/uc_merge_keep.png)
+   ![名と姓を出力列として選択した状態で手順を維持するフィールド。](assets/uc_merge_keep.png)
 
 1. 結合するデータのセットにフィールドが追加され、新しい要素がワークフロースキーマに追加されます。
 
    以下の手順を繰り返して、携帯電話および電話のフィールドを設定します。
 
-   ![](assets/dedup8.png)
+   ![結合されたグループの名前、モバイル、および電話とそのエイリアスおよびenabled-if条件を一覧表示する結合タブ。](assets/dedup8.png)
 
-   ![](assets/dedup9.png)
+   ![&#x200B; モバイルノード、名前ノード、電話ノードを使用した重複排除の生成されたデータ構造を示す「スキーマ」タブ。](assets/dedup9.png)
 
 ## 結果 {#results}
 

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 92%
+source-wordcount: '814'
+ht-degree: 90%
 ---
 # SMS 配信設定 {#sms-settings}
 
@@ -46,7 +46,7 @@ SMS配信の作成ごとに設定を行わないようにするために、こ�
 
 ## 「SMS」タブの設定 {#sms-tab}
 
-![](assets/send_settings.png){zoomable="yes"}
+一般的なパラメーターとオプションのSMPP パラメーター（TLV） テーブルを含む配信プロパティの![SMS タブ &#x200B;](assets/send_settings.png){zoomable="yes"}
 
 フォームに入力する必要のある情報は次のとおりです。 各フィールドについては、以下で説明します。
 

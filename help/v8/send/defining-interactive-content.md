@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 91%
+source-wordcount: '1565'
+ht-degree: 85%
 ---
 # インタラクティブコンテンツの定義{#defining-interactive-content}
 
@@ -56,7 +56,7 @@ AMP for Email は、既存のメールと互換性があります。 メッセ�
 
 AMP 用メールフォーマット、仕様および要件について詳しくは、[AMP 開発者向けドキュメント](https://amp.dev/ja/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#amp-email-video)
+![電子メール用AMP ビデオの再生アイコン &#x200B;](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を見つける](#amp-email-video)
 
 ## Adobe Campaign で AMP for Email を使用するための主要な手順 {#key-steps-to-use-amp}
 
@@ -87,7 +87,7 @@ AMP フォーマットを使用してメールを作成するには、以下の�
 
 1. 「**[!UICONTROL AMP コンテンツ]**」タブをクリックします。
 
-   ![](assets/amp_tab.png)
+   ![AMP コンテンツ タブが強調表示され、AMP ソースコードが表示されたメール配信](assets/amp_tab.png)
 
 1. 必要に応じて AMP コンテンツを編集します。
 
@@ -99,7 +99,7 @@ AMP フォーマットを使用してメールを作成するには、以下の�
 
 1. 必要に応じて AMP コンテンツをパーソナライズします。通常、Adobe Campaign で HTML フォーマットに対しておこなう場合と同様に、パーソナライゼーションフィールドとパーソナライゼーションブロックを使用します。
 
-   ![](assets/amp_tab_perso.png)
+   ![&#x200B; コードで受信者の名のパーソナライゼーションフィールドが強調表示されたAMP コンテンツエディター](assets/amp_tab_perso.png)
 
 1. 編集が完了したら、AMP コンテンツ全体を選択して、[AMP Web ベースのバリデーター](https://validator.ampproject.org)または類似の Web サイトにコピー＆ペーストします。
 
@@ -107,7 +107,7 @@ AMP フォーマットを使用してメールを作成するには、以下の�
    >
    >画面の上部にあるドロップダウンリストから **AMP4 EMAIL** を選択していることを確認します。
 
-   ![](assets/amp_validator.png)
+   AMP4EMAIL形式が選択され、検証ステータスがFAILのリストに表示されている![AMP バリデーターは、相対URLを許可していません](assets/amp_validator.png)
 
    エラーにはインラインでフラグが付けられます。
 
@@ -117,7 +117,7 @@ AMP フォーマットを使用してメールを作成するには、以下の�
 
 1. AMP コンテンツが検証に合格するまで、必要に応じて修正を加えます。
 
-   ![](assets/amp_validator_pass.png)
+   AMP4EMAIL形式が選択され、検証ステータス：PASSが強調表示された![AMP バリデーター](assets/amp_validator_pass.png)
 
 1. コンテンツをプレビューするには、検証済みのコンテンツをコピーして [AMP Playground](https://playground.amp.dev) または類似の web サイトに貼り付けます。
 
@@ -125,7 +125,7 @@ AMP フォーマットを使用してメールを作成するには、以下の�
    >
    >画面の上部にあるドロップダウンリストから **AMP for Email** を選択していることを確認します。
 
-   ![](assets/amp_playground.png)
+   ![AMP Playground with AMP for Emailが選択され、右側にメールのレンダリングされたプレビュー](assets/amp_playground.png)
 
    >[!NOTE]
    >
@@ -178,7 +178,7 @@ Gmail の場合、まずはターゲットにする Gmail アカウント用に 
 
 詳しくは、[Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email) 開発者向けドキュメントを参照してください。
 
-![](assets/amp_from_field.png)
+![AMP コンテンツタブの上に「送信元」フィールドがハイライト表示された電子メールパラメーター](assets/amp_from_field.png)
 
 Mail.ru アドレスへの AMPメールの送信をテストするには、[Mail.ru 開発者向けドキュメント](https://postmaster.mail.ru/amp/#howto)（**ユーザーの場合**&#x200B;の節）の手順に従います。
 

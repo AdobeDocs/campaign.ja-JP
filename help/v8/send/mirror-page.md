@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 90%
+source-wordcount: '515'
+ht-degree: 82%
 ---
 # ミラーページへのリンク {#mirror-page}
 
@@ -51,7 +51,7 @@ Adobe Campaign で生成されるミラーページには、すべてのパー�
 
 Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブロック**&#x200B;を使用して、メールのコンテンツにミラーページへのリンクを挿入できます。 ビルトインの「**ミラーページへのリンク**」パーソナライゼーションブロックでは、`<%@ include view='MirrorPage' %>` コードをメールのコンテンツに挿入します。
 
-![](assets/mirror-page-insert.png){width="800"}
+![追加してミラーページへのリンクを選択したメールエディターのパーソナライゼーションメニュー](assets/mirror-page-insert.png){width="800"}
 
 
 パーソナライゼーションコンテンツブロックの挿入について詳しくは、[パーソナライゼーションブロック](personalization-blocks.md)を参照してください。
@@ -65,7 +65,7 @@ Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブ�
 1. メールプロパティの「**[!UICONTROL 有効性]**」タブを参照します。
 1. 「**ミラーページの管理**」セクションで、「**[!UICONTROL モード]**」ドロップダウンリストを確認します。
 
-![](assets/mirror-page-generation.png){width="800"}
+![&#x200B; ミラーページ管理モードのドロップダウンリストに4つの生成オプションが表示された「有効性」タブ &#x200B;](assets/mirror-page-generation.png){width="800"}
 
 デフォルトモードのほかに、次のオプションを選択できます。
 
@@ -83,6 +83,6 @@ Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブ�
 
 1. 受信者を選択し、「**[!UICONTROL このメッセージのミラーページを表示…]**」リンクをクリックします。
 
-   ![](assets/mirror-page-display.png){width="800"}
+   ![&#x200B; ログが選択され、左下の「このメッセージリンクのミラーページを表示」が表示された配信ログ &#x200B;](assets/mirror-page-display.png){width="800"}
 
    ミラーページは、選択した受信者のパーソナライゼーションデータと共に、専用の画面に表示されます。

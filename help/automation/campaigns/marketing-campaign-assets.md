@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 95%
+source-wordcount: '908'
+ht-degree: 75%
 ---
 # アセットとドキュメントの管理 {#manage-assets-documents}
 
@@ -54,19 +54,19 @@ ht-degree: 95%
 
 ドキュメントは、**[!UICONTROL 編集／「ドキュメント」]**&#x200B;タブからプログラムまたはキャンペーンにリンクされます。
 
-![](assets/op_add_document.png)
+![&#x200B; キャンペーン編集タブ、「ドキュメント」サブタブ：追加、削除、詳細ボタン付きの添付ドキュメントリスト &#x200B;](assets/op_add_document.png)
 
 ダッシュボードの専用リンクからキャンペーンにドキュメントを追加することもできます。
 
-![](assets/add_a_document_in_op.png)
+ドキュメントを追加リンクと、ファイルをアップロードするためのマーケティングドキュメントのダイアログを含む![Campaign ダッシュボード。](assets/add_a_document_in_op.png)
 
 「**[!UICONTROL 詳細...]**」アイコンをクリックすると、ファイルの内容が表示され、情報を追加できます。
 
-![](assets/add_document_details.png)
+詳細：ラベル、バージョン、性質、アップロードされたファイルのリンクと説明から![文書ダイアログを開きました。](assets/add_document_details.png)
 
 次の例に示すように、キャンペーンに関連付けられたドキュメントは、ダッシュボードの「**[!UICONTROL ドキュメント]**」セクションにまとめられます。
 
-![](assets/edit_documents.png)
+![&#x200B; キャンペーンに添付されたドキュメントを強調表示するドキュメント セクションを含むキャンペーン ダッシュボード。](assets/edit_documents.png)
 
 このビューからドキュメントを編集および変更することもできます。
 
@@ -86,7 +86,7 @@ ht-degree: 95%
 
 配信の概要を作成するには、対象となるキャンペーンの&#x200B;**[!UICONTROL 編集／「ドキュメント」]**&#x200B;タブで「**[!UICONTROL 配信の概要]**」サブタブをクリックします。
 
-![](assets/add-a-delivery-outline.png)
+![配信アウトラインを追加リンク付きの「キャンペーン編集」タブ、「ドキュメント」、「配信アウトライン」サブタブ。](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
@@ -98,33 +98,33 @@ ht-degree: 95%
 1. ツリーのルートを右クリックし、**[!UICONTROL 新規／配信の概要]**&#x200B;を選択します。
 1. 作成した概要を右クリックし、**[!UICONTROL 新規／項目]**&#x200B;または&#x200B;**[!UICONTROL 新規／パーソナライゼーションフィールド]**&#x200B;を選択します。
 
-![](assets/del-outline-add-new-item.png)
+![配信の概要ツリーと右クリックメニュー：新規/項目、パーソナライゼーションフィールドまたはオファー](assets/del-outline-add-new-item.png)
 
 概要には、項目、パーソナライゼーションフィールドおよびオファーを含めることができます。
 
 * 項目には、ここで参照および記述し、配信に添付する物理的なドキュメントなどを指定できます。
 * パーソナライゼーションフィールドを使用して、受信者ではなく配信に関連したパーソナライゼーション要素を作成できます。 これにより、特定のターゲットに対する配信で使用される値（ウェルカムオファー、割引など）を作成できます。 これらは Adobe Campaign で作成され、「**[!UICONTROL パーソナライゼーションフィールドをインポート...]**」リンクを介して概要にインポートされます。
 
-  ![](assets/del-outline-perso-field.png)
+  ![&#x200B; パーソナライゼーションフィールドの読み込みから開いたパック、ゴールドおよびプレミアムのリストからパーソナライゼーションフィールドを選択します。](assets/del-outline-perso-field.png)
 
   は、リスト領域の右側の&#x200B;**[!UICONTROL 追加]**&#x200B;アイコンをクリックして、概要内で直接作成することもできます。
 
-  ![](assets/add-del-outline-button.png)
+  ![値が入力され、リストの右側にある「追加」アイコンが表示されている配信アウトラインのパーソナライゼーションフィールドリスト。](assets/add-del-outline-button.png)
 
 
 ### アウトラインの選択 {#select-an-outline}
 
 次の例に示すように、配信ごとに、抽出の概要専用のセクションから関連付ける概要を選択できます。
 
-![](assets/select-delivery-outline.png)
+![配信概要を選択ダイアログに表示された配信の「ダイレクトメール」タブ。ユニット B、ユニット C、ユニット Aが一覧表示されています。](assets/select-delivery-outline.png)
 
 選択された概要が、ウィンドウの下部セクションに表示されます。 この概要は、フィールドの右側のアイコンを使用して編集したり、ドロップダウンリストを使用して変更したりできます。
 
-![](assets/delivery-outline-selected.png)
+![配信概要フィールドが強調表示され、ユニット C.](assets/delivery-outline-selected.png)が表示されている配信の「ダイレクトメール」タブ
 
 配信の「**[!UICONTROL 概要]**」タブにもこの情報が表示されます。
 
-![](assets/delivery-outline-in-dashboard.png)
+![配信の概要タブ。配信の概要の値を指す矢印が付いています。単位C.](assets/delivery-outline-in-dashboard.png)
 
 ### 抽出結果 {#extraction-result}
 
@@ -132,6 +132,6 @@ ht-degree: 95%
 
 次の例では、配信に関連付けられた概要のラベル、推定コスト、説明が抽出ファイルに追加されます。
 
-![](assets/campaign-export-template.png)
+![&#x200B; ラベル（配信/配信アウトライン）出力列がハイライト表示された書き出しテンプレートの手順を抽出するデータ。](assets/campaign-export-template.png)
 
 エクスポートモデルは、該当する配信用に選択されたサービスプロバイダーに関連付ける必要があります。 [この節](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures)を参照してください。

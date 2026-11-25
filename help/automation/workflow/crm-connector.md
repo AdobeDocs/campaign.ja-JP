@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '138'
+ht-degree: 75%
 ---
 # CRM コネクタ{#crm-connector}
 
@@ -39,10 +39,10 @@ ht-degree: 100%
 * CRM で削除されたオブジェクトのインポート
 * CRM 内のオブジェクトの削除
 
-![](assets/crm_task_select_op.png)
+読み込み、書き出し、削除のオプションとSalesforce CRM アカウントを表示するタイプ リストが開いている![CRM コネクタ アクティビティ &#x200B;](assets/crm_task_select_op.png)
 
 同期対象とする CRM に対応する外部アカウントを選択し、同期するオブジェクト（アカウント、オポチュニティ、連絡先など）を選択します。
 
-![](assets/crm_task_select_obj.png)
+![CRMからの読み込みと、連絡先がハイライト表示されたリモートオブジェクトリストを開いたCRM コネクタアクティビティ &#x200B;](assets/crm_task_select_obj.png)
 
 Adobe Campaign の CRM コネクタについて詳しくは、[この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=ja){target="_blank"}を参照してください。

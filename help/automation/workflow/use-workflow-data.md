@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 79%
 ---
 # ワークフローデータの使用{#how-to-use-workflow-data}
 
 ワークフローアクティビティを使用すると、複数のタスクを実行できます。 リストの作成によるデータベースの更新、購読の管理、ワークフローを介したメッセージの送信、配信とオーディエンスのエンリッチメントなどの使用例を以下に示します。
 
-ワークフローの一連のユースケースについては、[この節](workflow-use-cases.md)を参照してください。
+ワークフローのユースケースのセットは、[&#x200B; ワークフローのユースケース &#x200B;](workflow-use-cases.md)で利用できます。
 
 ## データのライフサイクル {#data-life-cycle}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 このデータは、適切なトランジションを右クリックすることで、表示して分析することができます。
 
-![](assets/wf-right-click-analyze.png)
+![&#x200B; ターゲットの表示とターゲットオプションの分析を表示するトランジションの右クリックメニューを含むワークフロー](assets/wf-right-click-analyze.png)
 
 これを実行するには、該当するメニューを選択します。
 
@@ -50,13 +50,13 @@ ht-degree: 100%
 
   このメニューには、ターゲット母集団に関して使用可能なデータが表示されます。
 
-  ![](assets/wf-right-click-display.png)
+  ![&#x200B; フィールドを含むターゲットのレコードのリストを表示する母集団ウィンドウの「データ」タブ。](assets/wf-right-click-display.png)
 
   ワークテーブルの構造にアクセスするには、「**[!UICONTROL スキーマ]**」タブをクリックします。
 
-  ![](assets/wf-right-click-schema.png)
+  ![&#x200B; テンプレートテーブルとそのフィールドの構造を表示する母集団ウィンドウ、「スキーマ」タブを表示します。](assets/wf-right-click-schema.png):enrich
 
-  詳しくは、[この節](monitor-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
+  詳しくは、[ワークテーブルとワークフローのスキーマ](monitor-workflow-execution.md#worktables-and-workflow-schema)を参照してください。
 
 * **[!UICONTROL ターゲットを分析...]**
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 ワークフローが実行されると、ターゲットデータはパージされます。 最後のワークテーブルだけにアクセスできます。 ワークフローを設定し、すべてのワークテーブルをアクセス可能なまま維持することもできます。それには、「**[!UICONTROL 2 つの実行間の中間母集団の結果を保存]**」オプションを選択します。
 
-![](assets/wf-purge-data-option.png)
+「2つの実行の間の中間母集団の結果を保持」オプションをオンにした![&#x200B; ワークフローのプロパティ。](assets/wf-purge-data-option.png)
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 1. 情報を収集するワークフローを作成し、既にデータベース内にあるデータと紐付けをおこなってから、配信を開始します。
 
-   ![](assets/wf-targetdata-sample-1.png)
+   ![&#x200B; データの読み込み（ファイル）、エンリッチメントおよび配信アクティビティを順次接続したワークフロー。](assets/wf-targetdata-sample-1.png)
 
 1. この例では、ファイルの内容は次のようになります。
 
@@ -105,15 +105,15 @@ ht-degree: 100%
 
    ファイルを読み込むには、**[!UICONTROL データ読み込み (ファイル)]** アクティビティを次のように設定します。
 
-   ![](assets/wf-targetdata-sample-2.png)
+   ![&#x200B; サンプルのCSV ファイルを含むデータ読み込み（ファイル）アクティビティ、列のプレビュー、ローカルマシンからのファイルのアップロード &#x200B;](assets/wf-targetdata-sample-2.png)
 
 1. **[!UICONTROL エンリッチメント]**&#x200B;アクティビティを設定して、収集したデータを、既に Adobe Campaign データベース内にあるデータと紐付けます。 ここでは、紐付けキーがアカウント番号です。
 
-   ![](assets/wf-targetdata-sample-3.png)
+   ![&#x200B; エンリッチメントアクティビティ、「紐付け」タブ。ソース式「アカウント」が宛先@accountに一致しました。](assets/wf-targetdata-sample-3.png)
 
 1. 次に、テンプレートに基づいて作成され、インバウンドトランジションによって受信者が指定された「**[!UICONTROL 配信]**」を設定します。
 
-   ![](assets/wf-targetdata-sample-4.png)
+   ![&#x200B; インバウンドイベントと準備アクションで指定された受信者を含む、テンプレートから作成された配信アクティビティ。](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
@@ -123,13 +123,13 @@ ht-degree: 100%
 
    それには、「**[!UICONTROL ターゲット式]**」タイプのパーソナライゼーションフィールドを挿入します。
 
-   ![](assets/wf-targetdata-sample-5.png)
+   ![Target拡張機能を使用した配信エディターのパーソナライゼーションメニューが開き、音楽、アカウント、カードなどのフィールドが一覧表示されます。](assets/wf-targetdata-sample-5.png)
 
    ここでは、ワークフローで収集されたファイル内に記述された顧客の好きな音楽ジャンルとメディアタイプ（CD または DVD）を挿入します。
 
    さらに、ロイヤルティのあるカード所有者（例えば Card の値が 1 と等しい受信者）にクーポンを追加します。
 
-   ![](assets/wf-targetdata-sample-6.png)
+   ![targetData.Cardが1に等しく、targetData.Musicがパーソナライズされている場合に10% オフになるスクリプトを含む配信コンテンツ。](assets/wf-targetdata-sample-6.png)
 
    「**[!UICONTROL ターゲット式]**」（targetData）タイプのデータが、すべてのパーソナライゼーションフィールドと同じ特性を使用して、配信に挿入されます。 これらのデータは、本文、リンクラベル、またはリンク自体に使用されます。
 
@@ -146,7 +146,7 @@ Adobe Campaign データベースのデータおよび既存のリストは、2 
 
   既存のリストを選択するか、新規リストを作成することができます。 ここでは、名前が自動生成されます（場合によってはレコードフォルダーも）。
 
-  ![](assets/s_user_create_list.png)
+  ![明示的に指定されたリストを含む更新アクティビティをリストし、独自のテーブルを含むターゲティングディメンション データベースに保存します。](assets/s_user_create_list.png)
 
   [リストの更新](list-update.md)を参照してください。
 

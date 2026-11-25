@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 100%
+source-wordcount: '975'
+ht-degree: 76%
 ---
 # web フォームページの順番の定義{#defining-web-forms-page-sequencing}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 各ページで、「**[!UICONTROL 次へ]**」または「**[!UICONTROL 前へ]**」ボタンを削除できます。 これをおこなうには、関連するページを選択し、「**[!UICONTROL 次のページを無効にする]**」または「**[!UICONTROL 前のページに戻ることを許可しない]**」オプションを選択します。
 
-![](assets/s_ncs_admin_survey_no_next_page.png)
+![&#x200B; ページプロパティ、一般タブ、ナビゲーションセクションで「次のページを無効にする」オプションが選択されている。](assets/s_ncs_admin_survey_no_next_page.png)
 
 これらのボタンをリンクに置き換えることができます。 [HTML コンテンツの挿入](static-elements-in-a-web-form.md#inserting-html-content)を参照してください。
 
@@ -48,19 +48,19 @@ ht-degree: 100%
 
 * フォームの別のページ。 これをおこなうには、次のように、「**[!UICONTROL 内部アクティビティ]**」を選択し、目的のページを指定します。
 
-  ![](assets/s_ncs_admin_jump_param1.png)
+  ![内部アクティビティが選択され、ジャンプ先のフォームページが表示されるアクティビティリストを含むジャンプダイアログ。](assets/s_ncs_admin_jump_param1.png)
 
 * 別のフォーム。 これをおこなうには、「**[!UICONTROL 手動で指定]**」オプションを選択し、ジャンプ先のフォームを指定します。
 
-  ![](assets/s_ncs_admin_jump_param2.png)
+  ![明示的に選択されたジャンプ ダイアログと、ターゲット Web アプリケーション フィールドで選択された宛先フォーム &#x200B;](assets/s_ncs_admin_jump_param2.png)
 
 * ジャンプ先は変数に格納できます。 この場合、次に示すように、ドロップダウンリストから選択します。
 
-  ![](assets/s_ncs_admin_jump_param3.png)
+  ![選択した変数に保存され、ローカル変数ドロップダウンリストが開いているジャンプ ダイアログ。](assets/s_ncs_admin_jump_param3.png)
 
 * 「**[!UICONTROL コメント]**」タブを使用すると、オペレーターがダイアグラムのオブジェクトをクリックする際に表示される情報を入力できます。
 
-  ![](assets/s_ncs_admin_survey_jump_comment.png)
+  ![&#x200B; ジャンプ ダイアログの「コメント」タブ。このテキストは、フォーム ダイアグラムのジャンプ オブジェクトにツールチップとして表示されます。](assets/s_ncs_admin_survey_jump_comment.png)
 
 ## 例：URL のパラメーターに基づいた別のフォームへのアクセス {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
@@ -68,15 +68,15 @@ ht-degree: 100%
 
 1. フォームの最後にジャンプを挿入します。これには、**[!UICONTROL 終了]**&#x200B;ボックスを置き換えます。
 
-   ![](assets/s_ncs_admin_survey_jump_sample1.png)
+   ![&#x200B; フォームの末尾にストレージの後に挿入されたジャンプ オブジェクトを含むフォーム ダイアグラム。終了ボックスを置き換えます。](assets/s_ncs_admin_survey_jump_sample1.png)
 
 1. フォームプロパティで、ローカル変数（**next**）に格納されたパラメーター（**next**）を追加します。 ローカル変数について詳しくは、[ローカル変数へのデータの格納](web-forms-answers.md#storing-data-in-a-local-variable)で説明しています。
 
-   ![](assets/s_ncs_admin_survey_jump_sample2.png)
+   ![次のパラメーターを追加するフォームプロパティパラメータータブ。次のローカル変数に保存されます。](assets/s_ncs_admin_survey_jump_sample2.png)
 
 1. **[!UICONTROL ジャンプ]**&#x200B;オブジェクトを編集し、「**[!UICONTROL 変数に保存済み]**」オプションを選択して、ドロップダウンボックスから **next** 変数を選択します。
 
-   ![](assets/s_ncs_admin_survey_jump_sample3.png)
+   ![選択した変数に保存され、ローカル変数リストで次の変数が選択された状態でダイアログをジャンプします。](assets/s_ncs_admin_survey_jump_sample3.png)
 
 1. 配信 URL には、次のような、宛先のフォームの内部名を含める必要があります。
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 例えば、既にオンラインで注文した顧客に異なるページを表示したり、10 を超える注文をした顧客に別のページを表示したりできます。 これをおこなうには、フォームの最初のページで、ユーザーがこれまでにおこなった注文数を提示するために、**[!UICONTROL 数値]**&#x200B;タイプの入力フィールドを挿入します。
 
-![](assets/s_ncs_admin_survey_test_ex0.png)
+![&#x200B; フォームページ タイトル、名前、電子メールフィールド、およびWeb質問で注文する頻度を含む詳細と注文。](assets/s_ncs_admin_survey_test_ex0.png)
 
 この情報をデータベースのフィールドに格納するか、ローカル変数を使用できます。
 
@@ -108,17 +108,17 @@ ht-degree: 100%
 
 この例では、変数を使用します。
 
-![](assets/s_ncs_admin_survey_test_ex1.png)
+![&#x200B; ストレージが「変数」オプションに設定され、変数「注文」が選択されたページの注文数フィールド。](assets/s_ncs_admin_survey_test_ex1.png)
 
 フォームのダイアグラムで、条件を定義するためにテストボックスを挿入します。 各条件について、テストボックスの出力時に、新しい分岐が追加されます。
 
-![](assets/s_ncs_admin_survey_test_ex2.png)
+![注文+10および注文1—>9のブランチと、その条件を定義するブランチを編集ダイアログを使用して、ダイアログをテストします。](assets/s_ncs_admin_survey_test_ex2.png)
 
 「**[!UICONTROL デフォルト分岐を有効化]**」オプションを選択して、どの条件も true でない場合のためのトランジションを追加します。 このオプションは、定義した条件によってすべての可能性がカバーされている場合は、不要です。
 
 次に、例えば次のように、いずれかの条件が true である場合のページの順番を定義します。
 
-![](assets/s_ncs_admin_survey_test_ex3.png)
+![&#x200B; フォームダイアグラム：注文？ テストを行うと、新規、標準、またはゴールドのページが作成され、すべてストレージと終了に至ります。](assets/s_ncs_admin_survey_test_ex3.png)
 
 ### パラメーターに応じた表示 {#display-based-on-parameters}
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 このページをパーソナライズするには、「**[!UICONTROL 終了]**」をダブルクリックして、中央のエディターにページのコンテンツを入力します。
 
-![](assets/s_ncs_admin_survey_end_page_edit.png)
+![終了ページのタイトルとコンテンツエディターでダイアログを終了し、アンケートを完了するための感謝メッセージを表示します。](assets/s_ncs_admin_survey_end_page_edit.png)
 
 * 既存の HTML コンテンツをコピー＆ペーストできます。 これをおこなうには、**[!UICONTROL ソースコードを表示]**&#x200B;をクリックして、HTML コードを挿入します。
 * 外部 URL を使用できます。これをおこなうには、対応するオプションを選択し、表示するページの URL を入力します。

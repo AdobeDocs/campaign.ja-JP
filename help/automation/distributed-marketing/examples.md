@@ -20,10 +20,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 100%
+source-wordcount: '1704'
+ht-degree: 80%
 ---
 # 分散型マーケティングのサンプル{#distributed-marketing-samples}
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 キャンペーンテンプレートの作成時に、「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクの「**[!UICONTROL Web インターフェイス]**」オプションにある「**[!UICONTROL ズーム]**」アイコンをクリックして、web アプリケーションの詳細にアクセスします。
 
-![](assets/mkg_dist_local_op_form1.png)
+![詳細設定、分散型マーケティングタブ：編集リンクアイコンがハイライト表示されたWeb インターフェイスフィールド。](assets/mkg_dist_local_op_form1.png)
 
 >[!NOTE]
 >
@@ -46,21 +46,21 @@ ht-degree: 100%
 
 「**[!UICONTROL 編集]**」タブで、**キャンペーンのオーダー**&#x200B;アクティビティを選択して開き、内容を表示します。
 
-![](assets/mkg_dist_web_app1.png)
+![Campaign注文ページアクティビティを含むWeb アプリケーションワークフローが開き、そのコンテンツが表示されます。](assets/mkg_dist_web_app1.png)
 
 この例では、**キャンペーンのオーダー**&#x200B;アクティビティに以下の内容が含まれています。
 
 * オーダー時にローカルエンティティによって入力されるフィールド
 
-  ![](assets/mkg_dist_web_app2.png)
+  ![&#x200B; キャンペーン注文ページのフィールド（連絡日、優先チャネル、年齢セグメント、画像、メッセージ）とweb フォーム &#x200B;](assets/mkg_dist_web_app2.png)
 
 * ローカルエンティティがキャンペーン（ターゲット、予算、コンテンツなど）を評価するためのリンク
 
-  ![](assets/mkg_dist_web_app3.png)
+  ![&#x200B; ページおよびweb フォームのターゲティングの評価、予算の評価、コンテンツ リンクの評価を行います。](assets/mkg_dist_web_app3.png)
 
 * 評価の結果を計算および表示するスクリプト
 
-  ![](assets/mkg_dist_web_app4.png)
+  ターゲティング結果、予算結果、コンテンツ結果項目がハイライト表示された![&#x200B; ページツリー。](assets/mkg_dist_web_app4.png)
 
 この例では、次の API が使用されています。
 
@@ -113,15 +113,15 @@ ht-degree: 100%
 
 1. キャンペーンの参加者として指定されているローカルエンティティにメール通知が届きます。
 
-   ![](assets/mkg_dist_use_case_target_valid8.png)
+   ![連絡先リストへのアクセスとターゲティングの承認リンクを含むターゲット承認メール。](assets/mkg_dist_use_case_target_valid8.png)
 
 1. 「**[!UICONTROL 連絡先リストにアクセスしてターゲティングを承認]**」リンクをクリックすると、キャンペーン用に選択されている顧客のリストにローカルエンティティが Web ブラウザーでアクセスできるようになります。
 
-   ![](assets/mkg_dist_use_case_target_valid9.png)
+   ![&#x200B; チェックボックスと「ターゲットを承認」ボタンを使用して、ターゲットとする連絡先を一覧表示するターゲット承認web ページ。](assets/mkg_dist_use_case_target_valid9.png)
 
 1. ローカルエンティティは、今年の 1 月以降に類似したオファーを既に提供している連絡先のチェックを外して、リストから除きます。
 
-   ![](assets/mkg_dist_use_case_target_valid10.png)
+   ![3人の連絡先をオフにし、削除について説明するコメントを含むターゲット承認ページ。](assets/mkg_dist_use_case_target_valid10.png)
 
 連絡先の確認が終了すると、キャンペーンは自動的に開始されます。
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
 1. 協調キャンペーン（ターゲット承認）をセットアップするには、まず&#x200B;**[!UICONTROL データ配信アクティビティ]**&#x200B;を作成する必要があります。 Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／データ配信]**&#x200B;フォルダーにある「**[!UICONTROL 新規]**」アイコンをクリックします。
 
-   ![](assets/mkg_dist_use_case_target_valid3.png)
+   ![&#x200B; データ配信一般タブ：ターゲティングディメンション、配信フィールドの生成元、割り当てタイプのローカルエンティティ。](assets/mkg_dist_use_case_target_valid3.png)
 
 1. 「**[!UICONTROL 一般]**」タブで、次の項目を指定します。
 
@@ -147,7 +147,7 @@ ht-degree: 100%
    * **[!UICONTROL ラベル]**：ローカルエンティティのラベル
    * **[!UICONTROL サイズ]**（固定または割合）： **デフォルト値の 0** を指定すると、ローカルエンティティにリンクされているすべての受信者が選択されます。
 
-   ![](assets/mkg_dist_use_case_target_valid4.png)
+   ![&#x200B; データ配布の「分類」タブには、東、北、南、西の配分値とローカルエンティティが一覧表示されます。](assets/mkg_dist_use_case_target_valid4.png)
 
 1. 新しいデータ配分を保存します。
 
@@ -156,7 +156,7 @@ ht-degree: 100%
 1. Campaign エクスプローラーの&#x200B;**[!UICONTROL キャンペーン管理／キャンペーン]**&#x200B;フォルダーで、新しい&#x200B;**[!UICONTROL 協調キャンペーン（ターゲット承認）]**&#x200B;を作成します。
 1. 「**[!UICONTROL ターゲティングとワークフロー]**」タブで、キャンペーンのワークフローを作成します。 ワークフローには、**分割**&#x200B;アクティビティを含める必要があります。分割アクティビティの「**[!UICONTROL レコード数の制限]**」は、**[!UICONTROL データ配分]**&#x200B;アクティビティによって定義します。
 
-   ![](assets/mkg_dist_use_case_target_valid5.png)
+   ![分割アクティビティ レコード数の制限は、ローカル エンティティ配布を使用して、データ配布ごとに設定されます。](assets/mkg_dist_use_case_target_valid5.png)
 
 1. **[!UICONTROL ローカルの承認]**&#x200B;アクションを追加して、次の項目を指定します。
 
@@ -164,7 +164,7 @@ ht-degree: 100%
    * 承認のリマインダー
    * キャンペーンの想定される処理
 
-   ![](assets/mkg_dist_use_case_target_valid7.png)
+   ![&#x200B; ローカル承認アクティビティ：ローカル エンティティのターゲット承認通知、承認タイプ、テンプレートおよび説明。](assets/mkg_dist_use_case_target_valid7.png)
 
 1. レコードを保存します。
 
@@ -177,15 +177,15 @@ ht-degree: 100%
    * **手動**&#x200B;モード：ローカルエンティティは、セントラルエンティティの招待を受け入れて、キャンペーンに参加します。 ローカルエンティティは必要に応じて、あらかじめ選択されている連絡先を削除できます。キャンペーンへの参加を確定するには、マネージャーの承認が必要です。
    * **自動**&#x200B;モード：ローカルエンティティは、自分で登録を解除しない限り、キャンペーンに参加することが求められます。 ローカルエンティティは、承認を受けずに連絡先を削除することができます。
 
-   ![](assets/mkg_dist_use_case_target_valid.png)
+   参照キャンペーンと承認モードフィールドが手動に設定された![&#x200B; キャンペーンパッケージ作成ダイアログ。](assets/mkg_dist_use_case_target_valid.png)
 
 1. 「**[!UICONTROL 説明]**」タブでは、キャンペーンの説明を入力し、ローカルエンティティに送信するドキュメントを追加できます。
 
-   ![](assets/mkg_dist_use_case_target_valid1.png)
+   パッケージの説明と添付ドキュメントのリストが表示された![&#x200B; キャンペーンパッケージの説明タブ。](assets/mkg_dist_use_case_target_valid1.png)
 
 1. キャンペーンパッケージを承認します。ワークフローを開始して、パッケージをパブリッシュし、パッケージのリストですべてのローカルエンティティが使用できるようにします。
 
-   ![](assets/mkg_dist_use_case_target_valid2.png)
+   ![&#x200B; パッケージ ダッシュボードに「パッケージを承認」ボタンが表示され、ステータスが「編集中」と表示されます。](assets/mkg_dist_use_case_target_valid2.png)
 
 ## 共同キャンペーンの作成（フォームを使用） {#creating-a-collaborative-campaign--by-form-}
 
@@ -221,7 +221,7 @@ ht-degree: 100%
 
 1. キャンペーンの参加者として選択されているローカルエンティティに、キャンペーンへの参加を通知するメールが送信されます。
 
-   ![](assets/mkg_dist_use_case_form_7.png)
+   ![&#x200B; ローカルエンティティのキャンペーンリンクの登録を含むキャンペーンメールの登録。](assets/mkg_dist_use_case_form_7.png)
 
 1. ローカルエンティティは、パーソナライゼーションのフォームを完成させ、次の操作を実行します。
 
@@ -229,35 +229,35 @@ ht-degree: 100%
    * 配信コンテンツをプレビューします。
    * 参加を承認します。
 
-     ![](assets/mkg_dist_use_case_form_8.png)
+     評価リンク、画像プレビュー、検証ボタンを含む![Campaign注文のweb フォーム。](assets/mkg_dist_use_case_form_8.png)
 
 1. オーダーの検証を担当するオペレーターが、参加を承認します。
 
-   ![](assets/mkg_dist_use_case_form_9.png)
+   注文の詳細、注文コメント、検証ボタンが表示された![&#x200B; キャンペーンの注文承認ページ。](assets/mkg_dist_use_case_form_9.png)
 
 ### セントラルエンティティ側 {#central-entity-side-1}
 
 1. 協調キャンペーン（フォームによる）を実装するには、**協調キャンペーン (フォームによる)** テンプレートを使用して、キャンペーンを作成する必要があります。
 
-   ![](assets/mkg_dist_use_case_form_1.png)
+   ![共同作業キャンペーン（フォーム別）テンプレートを使用した新しいマーケティングキャンペーンダイアログ。](assets/mkg_dist_use_case_form_1.png)
 
 1. キャンペーンの「**[!UICONTROL 編集]**」タブで「**[!UICONTROL キャンペーンの詳細パラメーター...]**」リンクをクリックして、ローカルキャンペーンと同様に設定を行います。 [ローカルキャンペーン（フォーム）の作成](#creating-a-local-campaign--by-form-)を参照してください。
 
-   ![](assets/mkg_dist_use_case_form_2.png)
+   ![詳細設定、分散型マーケティングタブ：共同レベル、フォームで設定可能、デフォルト値](assets/mkg_dist_use_case_form_2.png)
 
 1. キャンペーンワークフローと Web フォームを設定します。 [ローカルキャンペーン（フォーム）の作成](#creating-a-local-campaign--by-form-)を参照してください。
 1. 実行スケジュールおよび参加するローカルエンティティを指定して、キャンペーンパッケージを作成します。
 
-   ![](assets/mkg_dist_use_case_form_3.png)
+   参照キャンペーン、実行スケジュール、期限、ローカルエンティティのリストを含む![&#x200B; キャンペーンパッケージダイアログ。](assets/mkg_dist_use_case_form_3.png)
 
 1. 「**[!UICONTROL 編集]**」タブで承認モードを選択して、パッケージの設定を完了します。
 
-   ![](assets/mkg_dist_use_case_form_4.png)
+   手動および自動を提供する![承認モードのドロップダウン。](assets/mkg_dist_use_case_form_4.png)
 
 1. 「**[!UICONTROL 説明]**」タブでは、キャンペーンパッケージの説明とパッケージのパブリッシュ時にローカルエンティティに送信する通知メッセージを入力したり、参考となるドキュメントをキャンペーンパッケージに添付したりできます。
 
-   ![](assets/mkg_dist_use_case_form_5.png)
+   ![通知の電子メールオプション、ローカルエンティティのメッセージ、および添付ドキュメントを含む「パッケージの説明」タブ。](assets/mkg_dist_use_case_form_5.png)
 
 1. パッケージを承認し、パブリッシュします。
 
-   ![](assets/mkg_dist_use_case_form_6.png)
+   ![受け入れオプションと拒否オプションを使用して、パッケージのアクション ダイアログを開くパッケージ ボタンを承認します。](assets/mkg_dist_use_case_form_6.png)

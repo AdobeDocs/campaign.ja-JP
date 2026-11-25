@@ -39,10 +39,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 96%
+source-wordcount: '1530'
+ht-degree: 91%
 ---
 # スキーマの構造{#schema-structure}
 
@@ -214,7 +214,7 @@ ht-degree: 96%
 
   ラベルは、Adobe Campaign クライアントコンソールの入力フォームから確認できます。
 
-  ![](assets/schema_label.png)
+  ![&#x200B; コンソールの「電子メール入力」フィールド。電子メールアドレスが入力されたラベルが付いています。](assets/schema_label.png)
 
 * **desc** プロパティを使用すると、詳細な説明を入力できます。
 
@@ -267,7 +267,7 @@ ht-degree: 96%
 
 これらの値が、入力フォームのドロップダウンリストに表示されます。
 
-![](assets/schema_user_enum.png)
+ユーザー列挙からの値のドロップダウンリストを表示する入力フォームの![市区町村フィールド。](assets/schema_user_enum.png)
 
 >[!NOTE]
 >
@@ -281,7 +281,7 @@ ht-degree: 96%
 
 定義済みリストを使用すると、通常の入力フィールドに値を入力する代わりに、ドロップダウンリストから値を選択できるようになります。
 
-![](assets/schema_enum.png)
+![性別ドロップダウンリストに、指定された値なし、男性と女性が表示されています。](assets/schema_enum.png)
 
 データスキーマの定義済みリスト宣言の例：
 
@@ -317,7 +317,7 @@ ht-degree: 96%
 
   この定義済みリストは、キャンペーンの特性を指定する場合などに使用します。
 
-  ![](assets/schema_dbenum.png)
+  ![自然ドロップダウンを開いた新しいマーケティングキャンペーンダイアログが表示され、「なし」が指定され、再マーケティングが表示されます。](assets/schema_dbenum.png)
 
 ### 例 {#example}
 
@@ -396,7 +396,7 @@ XPath は、XML ドキュメントのツリー内にノードを配置するた�
 
 使用可能な関数のリストについては、Adobe Campaign クライアントコンソールの任意の式エディターを参照してください。
 
-![](assets/schema_function.png)
+![Abs、Ceil、Roundなどの集計、文字列、日付、数値グループを含む式エディター関数ツリー。](assets/schema_function.png)
 
 **例**：
 

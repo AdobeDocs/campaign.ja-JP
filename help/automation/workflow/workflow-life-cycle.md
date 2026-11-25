@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 89%
 ---
 # ワークフローのライフサイクル {#workflow-life-cycle}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 例えば、次のワークフローでは、「**開始**」アクティビティと「**配信**」アクティビティには青色の輪郭が表示されるのに対して、「**承認**」アクティビティは点滅します。
 
-![](assets/new-workflow-6.png)
+![開始アクティビティと配信アクティビティの概要が表示され、承認アクティビティが実行されているワークフロー、次に配信コントロールと終了](assets/new-workflow-6.png)
 
 つまり、最初の 2 つのアクティビティの実行は成功し、承認アクティビティは進行中です（作成されたが、まだ完了していないなど）。
 
@@ -50,4 +50,4 @@ ht-degree: 100%
 
 ワークフローは開始され、「**承認**」アクティビティ内に指定されたグループに属するオペレーターが意思決定するのを待機しています。 グループに属しているオペレーターが、メールアドレスまたはモバイル番号を登録している場合、通知が届きます。
 
-ワークフローの監視方法について詳しくは、[この節](monitor-workflow-execution.md)を参照してください。
+ワークフローの監視方法について詳しくは、[&#x200B; ワークフロー実行の監視](monitor-workflow-execution.md)を参照してください。

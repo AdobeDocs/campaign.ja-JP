@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 95%
+source-wordcount: '1034'
+ht-degree: 77%
 ---
 # 調査の設計{#building-a-survey}
 
@@ -36,7 +36,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 調査テンプレートを選択します（デフォルトは **[!UICONTROL newSurvey]**）。
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![調査またはWeb フォームのテンプレートを選択するためのテンプレートリストを開いた新しいWeb アプリケーション ダイアログ。](assets/s_ncs_admin_survey_select_template.png)
 
 フォームのページは、（テキスト）入力フィールド、選択フィールド（リスト、チェックボックスなど）および静的要素（画像、HTML コンテンツなど）を定義および設定できる、特別なエディターを使用して作成されます 。 「コンテナ」に収集し、要件に応じてレイアウトすることができます。 [詳細情報](#adding-questions)。
 
@@ -48,7 +48,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 フォームのフィールドは、ユーザーによる情報の入力とオプションの選択を可能にします。 フォームの各ページでは、ツールバーの最初のボタンから&#x200B;**[!UICONTROL アシスタントを使用して追加]**&#x200B;メニューを使用して作成されます。
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![&#x200B; フィールド作成ウィザードが追加から開き、「質問に回答して読み込む」から4つのフィールドオプションが表示されます。](assets/s_ncs_admin_survey_add_field_menu.png)
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 追加するフィールドの特性（ドロップダウンリスト、テキストフィールド、チェックボックスなど）は、選択したストレージモードに適応されます 。 「**[!UICONTROL 一般]**」タブの「**[!UICONTROL タイプ]**」フィールドを使用してフィールドの特性を変更できますが、データタイプの整合性を維持するようにしてください。
 
-![](assets/s_ncs_admin_survey_change_type.png)
+![&#x200B; タイプ リストが開いているページ エディターの「一般」タブ。複数選択、コンボボックス、その他のフィールドタイプが表示されます。](assets/s_ncs_admin_survey_change_type.png)
 
 使用可能なフィールドの様々なタイプについて詳しくは、[Web フォームの概要](../web/about-web-forms.md)を参照してください。
 
@@ -81,11 +81,11 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 **[!UICONTROL 複数選択]**&#x200B;タイプのコントロールについて、選択肢の最小数および最大数を定義できます。 例えば、このオプションを使用すると、利用可能なオプションから、少なくとも **2** つの値、最大でも **4** つの値の選択を強制できます。
 
-![](assets/s_ncs_admin_survey_multichoice_ex1.png)
+![調査ページ チェックボックスを使用して、3 ～ 4つのオプションを選択して、興味を選択してください。](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
 選択肢の数が多すぎるか少なすぎる場合、適切なメッセージが表示されます。
 
-![](assets/s_ncs_admin_survey_multichoice_ex2.png)
+エラーメッセージが表示されている![興味関心の調査ページ。4つ以上の興味関心を選択しないでください。](assets/s_ncs_admin_survey_multichoice_ex2.png)
 
 >[!NOTE]
 >
@@ -93,11 +93,11 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 対応する設定は次のようになります。
 
-![](assets/s_ncs_admin_survey_multichoice_ex3.png)
+![複数選択フィールドが設定され、複数の選択が許可されます。2つの選択が必要で、4つの選択が許可されています。](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
 さらに、この入力フィールドのストレージの場所は、**[!UICONTROL 複数値]**&#x200B;タイプの&#x200B;**アーカイブされたフィールド**&#x200B;である必要があります。
 
-![](assets/s_ncs_admin_survey_multiple_values_field.png)
+![関心フィールドに「複数の値」オプションをオンにした新しいアーカイブされたフィールドを作成ダイアログ。](assets/s_ncs_admin_survey_multiple_values_field.png)
 
 >[!CAUTION]
 >
@@ -114,7 +114,7 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 >
 >**質問**&#x200B;コンテナを別の&#x200B;**質問**&#x200B;コンテナの下の階層に挿入しないでください。
 
-![](assets/s_ncs_admin_question_label.png)
+![HTML形式でタイトルを入力オプションがオンになり、HTML エディターが表示された質問コンテナの「一般」タブ。](assets/s_ncs_admin_question_label.png)
 
 質問のラベルは、ラベルフィールドに入力されます。 この場合、フォームのスタイルシートからのスタイルが適用されます。 「**[!UICONTROL HTML 形式でタイトルを入力]**」オプションを選択してパーソナライズします。 これにより、HTML エディターにアクセスできるようになります。
 
@@ -124,11 +124,11 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 次に例を示します。
 
-![](assets/s_ncs_admin_survey_containers_qu_arbo.png)
+![電子メール形式と契約書の質問コンテナ、およびページの「一般」タブ設定を含むページツリー](assets/s_ncs_admin_survey_containers_qu_arbo.png)
 
 上記の例では、レンダリングは次のようになります。
 
-![](assets/s_ncs_admin_survey_containers_qu_ex.png)
+![&#x200B; フィールド、メール形式ドロップダウン、契約書チェックボックスの質問を含むアンケートページをレンダリングしました。](assets/s_ncs_admin_survey_containers_qu_ex.png)
 
 >[!NOTE]
 >
@@ -136,11 +136,11 @@ Web フォームは、ツリーの&#x200B;**[!UICONTROL リソース／オンラ
 
 Adobe Campaign による質問のランダムな抽選を有効にできます。 次に、設定ウィンドウの下部にあるフィールドに、ページに表示される質問の数を指定します。
 
-![](assets/s_ncs_admin_survey_containers_qu_display.png)
+![&#x200B; ランダムに表示をオンにし、表示する質問の数を1.](assets/s_ncs_admin_survey_containers_qu_display.png)に設定したページ一般タブ
 
 レンダリングは、次のようになります。
 
-![](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
+![&#x200B; ランダムに選択された2つの質問（質問2と質問3と次のボタン）のみを表示するページをレンダリングしました。](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
 
 ページが更新されると、表示される質問は異なります。
 

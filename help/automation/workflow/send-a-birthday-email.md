@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 100%
+source-wordcount: '1088'
+ht-degree: 79%
 ---
 # 誕生日メールの送信{#sending-a-birthday-email}
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 この使用例を設定するうえで、以下のターゲティングワークフローを作成しました。
 
-![](assets/birthday-workflow_usecase_1.png)
+![誕生日ワークフロー：スケジューラー、クエリ、3月1日のテスト、うるう年クエリを含むフォーク、和集合、配信。](assets/birthday-workflow_usecase_1.png)
 
 この（日々実行される）ワークフローでは、現在の日付が誕生日であるすべての受信者を選択します。
 
@@ -48,20 +48,20 @@ ht-degree: 100%
 1. ワークフローに「**[!UICONTROL クエリ]**」アクティビティをドラッグ＆ドロップし、ダブルクリックします。
 1. 「**クエリを編集**」リンクをクリックし、「**[!UICONTROL フィルター条件]**」を選択します。
 
-   ![](assets/s_ncs_user_create_exp_exple00.png)
+   ![受信者が選択され、フィルター条件がハイライト表示されたターゲティングとフィルタリングディメンションのウィンドウ。](assets/s_ncs_user_create_exp_exple00.png)
 
 1. 「**[!UICONTROL 式]**」列の最初のセルをクリックし、**[!UICONTROL 式を編集]**&#x200B;をクリックして式エディターを開きます。
 
-   ![](assets/s_ncs_user_create_exp_exple.png)
+   ![空の式セルと「式を編集」ボタンが表示されたフィルター条件エディター。](assets/s_ncs_user_create_exp_exple.png)
 
 1. 「**[!UICONTROL 詳細選択]**」をクリックして、フィルターモードを選択します。
 
-   ![](assets/s_ncs_user_create_exp_exple_a.png)
+   ![詳細選択ボタンがハイライト表示された、受信者フィールドを一覧表示するウィンドウを選択するフィールド。](assets/s_ncs_user_create_exp_exple_a.png)
 
 1. 「**[!UICONTROL 式を使用して数式を編集]**」を選択し、「**[!UICONTROL 次へ]**」をクリックして式エディターを表示します。
 1. 関数のリストで、「**[!UICONTROL 日付]**」ノードからアクセスできる「**[!UICONTROL 日]**」をダブルクリックします。 この関数は、パラメーターとして渡された日付に対応する日を表す数値を返します。
 
-   ![](assets/s_ncs_user_create_exp_exple01.png)
+   ![編集ゾーンのDay （）と関数のリストで選択されたDay関数を使用して、式ウィンドウを編集します。](assets/s_ncs_user_create_exp_exple01.png)
 
 1. 使用可能フィールドのリストで、「**[!UICONTROL 生年月日]**」をダブルクリックします。 エディターの上部セクションに、次の数式が表示されます。
 
@@ -73,13 +73,13 @@ ht-degree: 100%
 
 1. クエリエディターで、「**[!UICONTROL 演算子]**」列の最初のセルで「**[!UICONTROL 次と等しい]**」を選択します。
 
-   ![](assets/s_ncs_user_create_exp_exple02.png)
+   ![生年月日を式とし、演算子ドロップダウンを選択した値と等しい値で開いた条件をフィルターします。](assets/s_ncs_user_create_exp_exple02.png)
 
 1. 次に、2 番目の列（「**[!UICONTROL 値]**」）の最初のセルをクリックし、**[!UICONTROL 式を編集]**&#x200B;をクリックして式エディターを開きます。
 1. 関数のリストで、「**[!UICONTROL 日付]**」ノードからアクセスできる「**[!UICONTROL 日]**」をダブルクリックします。
 1. 「**[!UICONTROL GetDate]**」関数をダブルクリックして現在の日付を取得します。
 
-   ![](assets/s_ncs_user_create_exp_exple04.png)
+   ![Day （GetDate （））を表示する式ウィンドウを編集し、関数リストでDay関数とGetDate関数を強調表示します。](assets/s_ncs_user_create_exp_exple04.png)
 
    エディターの上部セクションに、次の数式が表示されます。
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
    完成したクエリは次のようになります。
 
-   ![](assets/s_ncs_user_create_exp_exple03.png)
+   ![完全なクエリ：生年月日が現在の日付の日に等しく、生年月日が現在の日付の月に等しい。](assets/s_ncs_user_create_exp_exple03.png)
 
 「**[!UICONTROL クエリ]**」アクティビティの結果を、「**[!UICONTROL メール配信]**」アクティビティにリンクし、リストに記載されている受信者全員に誕生日のメールを送信します。
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 >
 >今年が閏年の場合、2 月 29 日生まれの受信者すべてが自動的に対象になります。
 
-![](assets/birthday-workflow_usecase_2.png)
+![月+生年月日という名前のクエリ アクティビティ フィルターは、現在の日付と同じで、生年月日と生年月日が今日と一致します。](assets/birthday-workflow_usecase_2.png)
 
 現在の日付に対応する誕生日を持つ受信者の選択については、[その日が誕生日の受信者の識別](#identifying-recipients-whose-birthday-it-is)の節で説明しています。
 
@@ -175,7 +175,7 @@ vars.firstOfMarch = 1;
 }
 ```
 
-![](assets/birthday-workflow_usecase_3.png)
+![isLeapYear関数を定義する初期化スクリプトを含むテスト アクティビティの「詳細」タブ。](assets/birthday-workflow_usecase_3.png)
 
 「**[!UICONTROL 条件付き分岐]**」セクションで以下の条件を追加します。
 
@@ -183,7 +183,7 @@ vars.firstOfMarch = 1;
 vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 ```
 
-![](assets/birthday-workflow_usecase_4.png)
+![&#x200B; タブをテストする3月1日（うるう年ではありません）。実際の条件はvars.currentIsALeapYear == 0 &amp;&amp; vars.firstOfMarch == 1.](assets/birthday-workflow_usecase_4.png)
 
 ### 手順 3：2 月 29 日生まれの全受信者の選択 {#step-3--select-any-recipients-born-on-february-29th}
 
@@ -191,7 +191,7 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 
 このクエリで、誕生日が 2 月 29 日の受信者すべてを選択します。
 
-![](assets/birthday-workflow_usecase_5.png)
+![2月29日に生まれた受信者を選択するクエリ：生年月日が2に等しく、生年月日が29に等しい](assets/birthday-workflow_usecase_5.png)
 
 得られた結果を「**[!UICONTROL 和集合]**」アクティビティと結合します。
 
@@ -207,4 +207,4 @@ vars.currentIsALeapYear == 0 && vars.firstOfMarch == 1
 >
 >キャンペーンに対して承認手順が有効になっている場合は、これらの手順が確認された後でのみ配信されます。 詳しくは、「ワークフロー内での承認プロセスの作成」の節を参照してください。
 
-![](assets/birthday-workflow_usecase_1.png)
+![誕生日ワークフロー：スケジューラー、クエリ、3月1日のテスト、うるう年クエリを含むフォーク、和集合、配信。](assets/birthday-workflow_usecase_1.png)

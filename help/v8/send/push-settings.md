@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 87%
+source-wordcount: '2046'
+ht-degree: 83%
 ---
 # プッシュ通知チャネルを設定 {#push-notification-configuration}
 
@@ -71,7 +71,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
 >[!CAUTION]
 >
->プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルとこの実装に関与するペルソナに応じて、権限の完全な設定を単一の製品プロファイルに割り当てるか、アプリ開発者と **Adobe Campaign** 管理者の間で権限を共有する必要がある場合があります。
+>プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルと関連するペルソナに応じて、すべての権限を単一の製品プロファイルに割り当てる必要がある場合があります。 または、アプリ開発者と&#x200B;**Adobe Campaign**&#x200B;管理者の間で権限を共有します。
 
 **プロパティ**&#x200B;および&#x200B;**会社**&#x200B;の権限を割り当てるには、次の手順に従います。
 
@@ -182,7 +182,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 ## Campaign でのモバイルサービスの設定 {#push-service}
 
-モバイルアプリを[!DNL Adobe Experience Platform Data Collection]に設定したら、プッシュ通知を&#x200B;**[!DNL Adobe Campaign]**&#x200B;から送信するには、2つのサービス（iOS デバイス用に1つ、Android デバイス用に1つ）を作成する必要があります。
+モバイルアプリを[!DNL Adobe Experience Platform Data Collection]に設定したら、iOS デバイス用とAndroid デバイス用の2つのサービスを作成します。 これらのサービスを使用すると、**[!DNL Adobe Campaign]**&#x200B;からプッシュ通知を送信できます。
 
 プッシュ通知は、専用のサービスを通じてアプリのユーザーに送信されます。 ユーザーはアプリをインストールすると、このサービスにサブスクライブします。Adobe Campaign は、このサービスを利用して、アプリのサブスクライバーのみをターゲットにします。 このサービスでは、iOS デバイスと Android デバイスで送信するために、iOS アプリと Android アプリを追加する必要があります。
 
@@ -190,7 +190,7 @@ To get the SDKs needed for push notification to work you will need the following
 
 1. **[!UICONTROL プロファイルとターゲット／サービスとサブスクリプション]**&#x200B;タブを参照し、「**[!UICONTROL 作成]**」をクリックします。
 
-   ![](assets/new-service-push.png){width="800"}
+   ![&#x200B; モバイルアプリケーションの種類とサブスクライバーアプリケーションのターゲットマッピングを含む新しいサービスダイアログ &#x200B;](assets/new-service-push.png){width="800"}
 
 1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 内部名]**&#x200B;を入力し、**[!UICONTROL モバイルアプリケーション]**&#x200B;タイプを選択します。
 
@@ -208,14 +208,14 @@ iOS デバイス用のアプリを作成するには、次の手順に従いま�
 
 1. 「**[!UICONTROL iOS アプリケーションを作成]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/new-ios-app.png){width="600"}
+   ![iOS アプリケーションの作成を選択し、「次へ」ボタンをクリックしたモバイルアプリケーション作成ウィザード &#x200B;](assets/new-ios-app.png){width="600"}
 
 1. 「**[!UICONTROL ラベル]**」フィールドに、アプリの名前を入力します。
 1. （オプション）**[!UICONTROL アプリケーション変数]**&#x200B;を使用してプッシュメッセージのコンテンツを強化できます。 これらは完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部です。
 
    次の例では、**mediaURl**&#x200B;変数と&#x200B;**mediaExt**&#x200B;変数を追加してリッチプッシュ通知を作成し、アプリケーションに画像を提供して通知内に表示します。
 
-   ![](assets/ios-app-parameters.png){width="600"}
+   ![iOS アプリウィザードの一般的なパラメーターステップで、mediaURLとmediaExtがアプリケーション変数としてリストされている](assets/ios-app-parameters.png){width="600"}
 
 1. **[!UICONTROL サブスクリプションパラメーター]** タブを参照して、**[!UICONTROL サブスクライバーアプリケーション （nms:appsubscriptionRcp）]** スキーマの拡張機能を使用したマッピングを定義します。
 
@@ -258,7 +258,7 @@ Android デバイス用のアプリを作成するには、次の手順に従い
 
 1. 「**[!UICONTROL Android アプリケーションを作成]**」を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/new-android-app.png){width="600"}
+   ![Android アプリケーションの作成を選択し、「次へ」ボタンをクリックしたモバイルアプリケーション作成ウィザード &#x200B;](assets/new-android-app.png){width="600"}
 
 1. 「**[!UICONTROL ラベル]**」フィールドに、アプリの名前を入力します。
 1. 統合キーは、各アプリケーションに固有です。 これにより、モバイルアプリケーションが Adobe Campaign にリンクされます。

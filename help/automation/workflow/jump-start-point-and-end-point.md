@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 100%
+source-wordcount: '154'
+ht-degree: 77%
 ---
 # ジャンプ（開始点と終了点）{#jump-start-point-and-end-point}
 
@@ -36,12 +36,12 @@ ht-degree: 100%
 
 ジャンプは、1 つのアクティビティから別のアクティビティに、以下の図のように移動します。
 
-![](assets/s_user_segmentation_jump_sample.png)
+![開始ポイント ジャンプが長いトランジションを置き換えるワークフローを、2つの終了ポイント ジャンプがユニオンと重複排除をフィードする位置に置き換えます。](assets/s_user_segmentation_jump_sample.png)
 
 「開始点」タイプのトランジションごとに、それぞれ「終了点」タイプのトランジションを配置する必要があります。
 
 同じワークフロー内に、ジャンプする開始点と終了点を複数挿入できます。 各ポイントは、パラメーターに必ず入力される番号によって識別されます。
 
-![](assets/s_user_segmentation_jump_in.png)
+![&#x200B; ラベル フィールドとジャンプ番号フィールドが1.](assets/s_user_segmentation_jump_in.png)に設定されたジャンプ（開始点）アクティビティ
 
 ダイアグラムの可読性を向上させるには、ジャンプに関連付けられた画像に、そのジャンプの番号が表示されるように変更します。 [アクティビティ画像の変更](change-activity-images.md)を参照してください。

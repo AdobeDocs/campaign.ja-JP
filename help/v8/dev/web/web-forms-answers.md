@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 93%
+source-wordcount: '1101'
+ht-degree: 77%
 ---
 # Web フォームの回答{#web-forms-answers}
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 
 フォームの各入力フィールドについて、次のストレージオプションを使用できます。
 
-![](assets/s_ncs_admin_survey_select_storage.png)
+![&#x200B; ストレージを編集リンクと、ストレージ ダイアログに「受信者を編集」オプションと「変数」オプションが表示されている姓の入力フィールド。](assets/s_ncs_admin_survey_select_storage.png)
 
 * **[!UICONTROL 受信者を編集]**
 
@@ -49,7 +49,7 @@ ht-degree: 93%
 
 データベースの既存のフィールドにデータを保存するには、**[!UICONTROL 式を編集]**&#x200B;アイコンをクリックして、利用可能なフィールドのリストから選択します。
 
-![](assets/s_ncs_admin_survey_storage_type1.png)
+![&#x200B; フィールド セレクターを開く式を編集するストレージ ダイアログ。姓（@lastName）が選択されています。](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
@@ -61,15 +61,15 @@ ht-degree: 93%
 
 これは、未保存のフィールドの値を使用して、ページ上のオプションのグループの表示を承認できることを意味します。 次のページでは、車両のタイプはデータベースに格納されていません。
 
-![](assets/s_ncs_admin_survey_no_storage_variable.png)
+![&#x200B; ストレージが変数typeVに設定され、ストレージを編集リンクが設定されている車のコンボボックスのタイプ。](assets/s_ncs_admin_survey_no_storage_variable.png)
 
 ドロップダウンボックスが作成される際に選択される必要がある変数か、「**[!UICONTROL ストレージを編集]**」リンクを使用して格納されます。
 
-![](assets/s_ncs_admin_survey_no_storage_variable2.png)
+![変数オプションとドロップダウンリストを含む保存ダイアログ車の種類、移動中のトラックと個人用車](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
 既存の変数を表示して、「**[!UICONTROL 変数を編集]**」リンクから新しい変数を作成できます。 「**[!UICONTROL 追加]**」ボタンをクリックして、新しい変数を作成します。
 
-![](assets/s_ncs_admin_survey_add_a_variable.png)
+![変数リストと変数ダイアログを編集し、Car Energy ラベルと名前を入力してテキストと入力し、変数を追加します。](assets/s_ncs_admin_survey_add_a_variable.png)
 
 追加された変数は、ページの入力フィールドが作成される際に、ローカル変数のリストで使用できます。
 
@@ -81,19 +81,19 @@ ht-degree: 93%
 
 上記の例では、自家用車の関するデータを含むコンテナは、表示条件で示されたように、ドロップダウンリストから **[!UICONTROL Private]** オプションが選択されている場合にのみ表示されます。
 
-![](assets/s_ncs_admin_survey_add_a_condition.png)
+![個人用カーコンテナの表示条件：個人用と同じ車の種類。](assets/s_ncs_admin_survey_add_a_condition.png)
 
 ユーザーが自家用車を選択すると、Web フォームは次のオプションを提供します。
 
-![](assets/s_ncs_admin_survey_no_storage_conda.png)
+![車の予約フォームページに、Select、Compact、Intermediate、Standardの車の種類ドロップダウンリストが表示されています。](assets/s_ncs_admin_survey_no_storage_conda.png)
 
 商用車に関するデータを保持するコンテナは、表示条件に表されるように、Professional オプションが選択された場合に表示されます。
 
-![](assets/s_ncs_admin_survey_view_a_condition.png)
+![&#x200B; トラック/バン コンテナの表示条件：発信元がトラックと等しい。](assets/s_ncs_admin_survey_view_a_condition.png)
 
 つまり、ユーザーが商用車を選択すると、フォームは次のオプションを提供します。
 
-![](assets/s_ncs_admin_survey_no_storage_condb.png)
+![移動中のトラックを選択した車予約フォームと、ミニバス、ピックアップ、カーゴバン、20 トラックのクラスドロップダウンリストが表示されています。](assets/s_ncs_admin_survey_no_storage_condb.png)
 
 ## 収集された情報の使用 {#using-collected-information}
 
@@ -125,7 +125,7 @@ ht-degree: 93%
 
 フォームのページで収集した情報を保存するには、ダイアグラムにストレージボックスを配置する必要があります。
 
-![](assets/s_ncs_admin_survey_save_box.png)
+ようこそページ、購読、ストレージおよび終了アクティビティを含む![Web フォーム図。ストレージ ボックスがハイライト表示されています。](assets/s_ncs_admin_survey_save_box.png)
 
 このボックスを使用するには、次の 2 つの方法があります。
 
@@ -139,13 +139,13 @@ ht-degree: 93%
 
 * データベースの受信者のデータをエンリッチメントするには、ストレージボックスを編集して、紐付けキーを選択します。 内部使用の場合（通常、イントラネットシステム）、または、例えば新しいプロファイルを作成するために使用されるフォームの場合、紐付けフィールドを選択できます。 このボックスは、Web アプリケーションの様々なページで使用されるデータベースのすべてのフィールドを提供します。
 
-  ![](assets/s_ncs_admin_survey_save_box_edit.png)
+  ![受信者フィールドと検索フォルダーフィールドの紐付けオプションツリーを含むストレージアクティビティダイアログ。](assets/s_ncs_admin_survey_save_box_edit.png)
 
 デフォルトでは、データは&#x200B;**[!UICONTROL 更新または挿入]**&#x200B;操作によってデータベースにインポートされます。データがデータベースに存在する場合、その要素は更新されます（例えば、選択したニュースレターや入力したメールアドレスなど）。 存在しない場合、情報は追加されます。
 
 ただし、この動作を変更できます。 これをおこなうには、要素のルートを選択して、ドロップダウンリストから実行する操作を選択します。
 
-![](assets/s_ncs_admin_survey_save_operation.png)
+![&#x200B; ストレージアクティビティ操作リスト：紐付けのみ、更新または挿入、挿入、更新および削除](assets/s_ncs_admin_survey_save_operation.png)
 
 紐付けについて検索フォルダーを選択したり、新しいプロファイルについて作成フォルダーを選択したりできます。 これらのフィールドが空の場合、プロファイルについてオペレーターのデフォルトフォルダーを検索したり、そこにプロファイルを作成したりします。
 

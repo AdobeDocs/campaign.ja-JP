@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 100%
+source-wordcount: '3121'
+ht-degree: 79%
 ---
 # コスト管理{#controlling-costs}
 
@@ -40,7 +40,7 @@ Adobe Campaign では、マーケティングリソース管理モジュール�
 
 予算の管理とトラッキングは、Adobe Campaign ツリーの専用のノードで一元管理できます。 このため、すべての予算の割り当て済み、予約済み、コミット済みおよび支出済みの金額を 1 つのビューから監視できます。
 
-![](assets/s_ncs_user_budget_node_02.png)
+金額と費用のカテゴリがe マーケティング予算に表示されたキャンペーン管理ツリーの![予算ノード。](assets/s_ncs_user_budget_node_02.png)
 
 MRM を使用して予算管理を実装するには、次の手順に従います。
 
@@ -62,11 +62,11 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 1. 開始日と終了日を入力して、有効期間を定義します。 この情報は単なる目安です。
 1. キャンペーンやタスクなどの予算に割り当てられたコストのリンク先費用カテゴリを作成します。 [詳細情報](#expense-categories)。
 
-![](assets/s_ncs_user_budget_create_and_save.png)
+![&#x200B; ラベル、スケジュール、割り当て済み金額、およびデザイン、リソース、データ費用のカテゴリを含む新しい予算フォーム。](assets/s_ncs_user_budget_create_and_save.png)
 
 >[!NOTE]
 >
->関連予算を選択できます。 詳しくは、[この節](#linking-a-budget-to-another)を参照してください。
+>関連予算を選択できます。 詳しくは、[予算を別の](#linking-a-budget-to-another)にリンクするを参照してください。
 >
 
 ### 金額の計算 {#calculating-amounts}
@@ -79,7 +79,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 キャンペーンの場合、コミットメントレベルに応じて、将来のアクション用にコストを計画、コミットまたは予約できます。
 
-![](assets/s_user_cost_op_engaged.png)
+「予定」、「予約済み」、「コミット済み」が表示されているコミットメント レベルのリストが開いている![&#x200B; キャンペーン予算セクション。](assets/s_user_cost_op_engaged.png)
 
 >[!CAUTION]
 >
@@ -89,11 +89,11 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 例えば、Web キャンペーンの概算暫定コストが 45,000 ユーロだとします。
 
-![](assets/s_user_edit_budget_node_impact_0.png)
+![予測された暫定コストが45,000のキャンペーン予算セクション。計画レベルでWeb予算に請求されます。](assets/s_user_edit_budget_node_impact_0.png)
 
 このキャンペーンで、予算作成ステータスを「**[!UICONTROL 定義済み]**」に設定すると、キャンペーンの実際のコスト（実際のコストがない場合は計算されたコスト）が予算の合計に使用されます。
 
-![](assets/s_user_budget_in_op_a.png)
+![処理状況フィールドが「定義済み」に設定されたキャンペーン予算セクションで、コストが実行時に統合されます。](assets/s_user_budget_in_op_a.png)
 
 キャンペーン予算のコミットメントレベルに応じ、「**[!UICONTROL 計画済み]**」、「**[!UICONTROL 予約済み]**」または「**[!UICONTROL コミット済み]**」フィールドに金額が入力されます。
 
@@ -102,15 +102,15 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 * **キャンペーン**&#x200B;レベルで変更する場合は、「**[!UICONTROL 編集]**」タブにある&#x200B;**[!UICONTROL 予算]**&#x200B;ウィンドウ。 予算、コストおよび費用はここで設定します。
 * **タスク**&#x200B;レベルで変更する場合は、**[!UICONTROL 費用と売上高]**&#x200B;ウィンドウ。
 
-![](assets/s_user_op_engagement_level_costs.png)
+「費用」タブの上に費用ラインが表示され、コミットメント レベルのリストが開いている![&#x200B; キャンペーン予算セクション。](assets/s_user_op_engagement_level_costs.png)
 
 予算が「**[!UICONTROL 予約済み]**」の場合、請求された予算が自動的に更新されます。
 
-![](assets/s_user_edit_budget_node_impact_2.png)
+![&#x200B; キャンペーンコミットメントレベルが予約済みに設定された後、予約済み金額が45,000を示す予算フォーム。](assets/s_user_edit_budget_node_impact_2.png)
 
 タスクレベルでも手順は同様です。
 
-![](assets/s_user_edit_budget_node_impact_task.png)
+![&#x200B; コミット レベルのリストが開き、「計画」、「予約済み」、「コミット済み」が表示されたタスクの費用と収益ウィンドウ。](assets/s_user_edit_budget_node_impact_task.png)
 
 支出により請求書が発行され、請求額が支払われると、その金額が「**[!UICONTROL 請求済み]**」フィールドに入力されます。
 
@@ -120,7 +120,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 カテゴリを追加するには、ウィンドウ下部にある「**[!UICONTROL 追加]**」ボタンをクリックします。
 
-![](assets/s_user_budget_category.png)
+デザイン、印刷、Web カテゴリの費用カテゴリ リストの「追加」ボタンを使用した![予算フォーム。](assets/s_user_budget_category.png)
 
 既存のカテゴリを選択することも、フィールドに直接入力して新しいカテゴリを定義することもできます。 入力を確認すると表示される確認メッセージで、既存のカテゴリのリストにカテゴリを追加し、必要に応じて「特性」と関連付けることができます。 この情報は予算レポートに使用されます。
 
@@ -128,11 +128,11 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 予算をメイン予算にリンクすることができます。 リンクするには、セカンダリ予算の「**[!UICONTROL 関連予算]**」フィールドでメイン予算を選択します。
 
-![](assets/budget_link.png)
+![関連予算フィールドがメインのe マーケティング予算に設定されたセカンダリ予算フォーム。](assets/budget_link.png)
 
 メイン予算にタブが追加され、関連予算のリストが表示されます。
 
-![](assets/budget_link_new_tab.png)
+![&#x200B; リンクされた予算を一覧表示する「予算」タブが追加されたメイン予算。](assets/budget_link_new_tab.png)
 
 この情報は予算レポートでも使用されます。
 
@@ -140,7 +140,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 費用ラインは予算に自動的に追加されます。 費用ラインは、配信分析中およびタスクの完了時に作成します。
 
-![](assets/s_ncs_user_budget_line_edit.png)
+![予算の費用タブ。詳細ボタンが表示され、キャンペーン、配信、コスト カテゴリが分割された経費明細行が開きます。](assets/s_ncs_user_budget_line_edit.png)
 
 各キャンペーン、配信またはタスクで、請求先の予算の費用ラインに発生したコストがグループ化されます。 これらの費用ラインは、関係するサービスプロバイダーのコストラインに応じて作成され、関連するコスト構造を使用して計算されます。
 
@@ -156,15 +156,15 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 この配信の場合、関係するサービスプロバイダーに選択したコストカテゴリに基づいてコストが計算されます。
 
-![](assets/s_user_edit_del_supplier_costs.png)
+![直接電子メール タブにサービスプロバイダーのコスト カテゴリが一覧表示されている配信にリンクされた費用明細行。](assets/s_user_edit_del_supplier_costs.png)
 
 選択したコストカテゴリに応じて、対応するコスト構造が適用され、コストラインが計算されます。 この例では、関係するサービスプロバイダーに対し、以下に示すようなコスト構造が適用されます。
 
-![](assets/s_user_edit_node_supplier_costs.png)
+![&#x200B; グラフィック - 01 コスト構造の詳細が表示された「サービスコスト構造」タブ：ダイレクトメールチャネル、メッセージごと、線形](assets/s_user_edit_node_supplier_costs.png)
 
 >[!NOTE]
 >
->コストカテゴリとコスト構造について詳しくは、[このページ](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)を参照してください。
+>コスト カテゴリと構造は、[&#x200B; サービス プロバイダーとそのコスト カテゴリの作成](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)に表示されます
 
 ## コストのコミット、計算および請求 {#cost-commitment--calculation-and-charging}
 
@@ -180,7 +180,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
    金額は手動で入力します。複数の費用カテゴリに内訳を入力することもできます。 コストの分類を入力するには、「**[!UICONTROL 分類...]**」リンクをクリックし、「**[!UICONTROL 追加]**」ボタンをクリックして新しい金額を定義します。
 
-   ![](assets/s_user_edit_budget_tab_ventil.png)
+   ![見積もり暫定コスト分類リンクからコスト分類ウィンドウを編集し、コストをカテゴリ別に分割します。](assets/s_user_edit_budget_tab_ventil.png)
 
    各コストをカテゴリに関連付けると、後で費用カテゴリ別のコストの分類を関連予算および予算レポートで確認できます。
 
@@ -223,29 +223,29 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 「**[!UICONTROL 金額]**」セクションの「**[!UICONTROL 割り当て済み]**」フィールドで 10,000 ユーロの予算を定義します。 ウィンドウ下部で費用カテゴリを 2 つ追加します。
 
-![](assets/s_user_cost_mgmt_sample_1.png)
+![10,000が割り当てられ、1番目のカテゴリと2番目のカテゴリの2つの費用カテゴリを持つ予算フォーム。](assets/s_user_cost_mgmt_sample_1.png)
 
 #### 手順 2 - サービスプロバイダーの設定とコスト構造の定義 {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. **[!UICONTROL 管理／キャンペーン]**&#x200B;ノードで、サービスプロバイダーとサービステンプレートおよびそのコスト構造を作成します。 詳しくは、[この節](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)を参照してください。
+1. **[!UICONTROL 管理／キャンペーン]**&#x200B;ノードで、サービスプロバイダーとサービステンプレートおよびそのコスト構造を作成します。 詳しくは、[サービスプロバイダーとそのコストカテゴリの作成](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)を参照してください。
 
    ダイレクトメール配信に、コストカテゴリ「**[!UICONTROL 封筒]**」（タイプ 114 x 229 と 162 x 229）、「**[!UICONTROL 送料]**」および「**[!UICONTROL 印刷]**」（タイプ A3 と A4）を作成します。 以下のコスト構造を作成します。
 
-   ![](assets/s_user_cost_mgmt_sample_2.png)
+   ![&#x200B; コスト構造封筒 – 114x229、郵送物 – 標準および印刷 – A4：ダイレクトメール、メッセージごと、リニア金額](assets/s_user_cost_mgmt_sample_2.png)
 
 1. （コストカテゴリで）固定コストを追加します。（対応するコスト構造で）計算は固定を指定し、金額は各配信に個別に指定するので空白のままにします。
 
-   ![](assets/s_user_cost_mgmt_sample_5.png)
+   ![&#x200B; コスト構造固定コスト – ダイレクトメールチャネル、固定計算、および空白の金額でデザインします。](assets/s_user_cost_mgmt_sample_5.png)
 
    タスクに以下の 2 つのコストカテゴリを作成します。
 
    * 「**[!UICONTROL 部屋の予約]**」（小部屋と大部屋）：**固定**&#x200B;コスト構造の金額に 300 ユーロと 500 ユーロを指定します。
 
-   ![](assets/s_user_cost_mgmt_sample_6.png)
+   ![&#x200B; コスト構造部屋予約 – 固定計算と500の金額を含むタスクチャネルの場合は大きい。](assets/s_user_cost_mgmt_sample_6.png)
 
    * 「**[!UICONTROL 作成]**」（**コンテンツテンプレート**&#x200B;タイプ）：**日次**&#x200B;コスト構造に 300 ユーロを指定します。
 
-   ![](assets/s_user_cost_mgmt_sample_7.png)
+   ![&#x200B; コスト構造設計 – 1日当たりの計算が300で、タスクチャネルのコンテンツテンプレート。](assets/s_user_cost_mgmt_sample_7.png)
 
 #### 手順 3 - キャンペーンでの予算請求 {#step-3---charging-the-budget-in-the-campaign}
 
@@ -255,11 +255,11 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
    >
    >デフォルトでは、プログラムに予算を選択すると、プログラム内のすべてのキャンペーンに適用されます。
 
-   ![](assets/s_user_cost_mgmt_sample_4.png)
+   特別運営、e マーケティング、ナーチャリングプログラムが表示された課金リストが開いている![&#x200B; キャンペーン予算セクション。](assets/s_user_cost_mgmt_sample_4.png)
 
 1. 概算暫定コストを指定し、以下のように分類を指定します。
 
-   ![](assets/s_user_cost_mgmt_sample_9.png)
+   ![見積もられた暫定コスト 3,000は、「コストを編集」ウィンドウの1番目のカテゴリと2番目のカテゴリで分類されます。](assets/s_user_cost_mgmt_sample_9.png)
 
 1. 「**[!UICONTROL OK]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックして情報を確認します。 計算されたコストが概算暫定コストで更新されます。
 
@@ -271,7 +271,7 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 封筒のコストを上書きし、固定コストを追加します。 これらのコストに関連するカテゴリも選択します。
 
-   ![](assets/s_user_cost_mgmt_sample_3.png)
+   ![560の固定コストを含む、サービスプロバイダーのコストカテゴリを含むワークフローでのカタログ配信。](assets/s_user_cost_mgmt_sample_3.png)
 
    >[!NOTE]
    >
@@ -279,19 +279,19 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 作成したワークフローを開始し、分析を開始してコストを計算します。
 
-   ![](assets/s_user_cost_mgmt_sample_10.png)
+   ![分析を実行してコストを計算するために、「開始」ボタンを選択したターゲティングワークフローツールバー。](assets/s_user_cost_mgmt_sample_10.png)
 
 1. キャンペーンで予算の承認が有効になっている場合は、ダッシュボードから予算を承認します。 コストカテゴリの承認を確認できます。
 
-   ![](assets/s_user_cost_mgmt_sample_10b.png)
+   ![予算を承認する配達承認メニューで、コスト分割と予算の承認を含む配達に関するアクション ダイアログを開きます。](assets/s_user_cost_mgmt_sample_10b.png)
 
 キャンペーンの「**[!UICONTROL 編集／予算]**」タブに配信の費用ラインが追加されます。 編集して計算の詳細を確認します。
 
-![](assets/s_user_cost_mgmt_sample_11.png)
+![配信費用明細とそのコスト分割を開く「詳細」ボタンを含むキャンペーン予算費用タブ。](assets/s_user_cost_mgmt_sample_11.png)
 
 配信の計算されたコストがこの情報で更新されます。
 
-![](assets/s_user_cost_mgmt_sample_12.png)
+![&#x200B; コスト構造から計算されたコストが22,844の配達費用と収益ウィンドウ。](assets/s_user_cost_mgmt_sample_12.png)
 
 計算されたコストを編集すると、コストの分類、およびコスト計算のステータスと日付を確認できます。
 
@@ -305,11 +305,11 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 「**[!UICONTROL プロパティ]**」タブで、サービスおよび対応するコストカテゴリを選択します。
 
-   ![](assets/s_user_cost_mgmt_sample_14.png)
+   ![&#x200B; ルームの予約コスト カテゴリの種類リストが開いているタスクのプロパティ ウィンドウで、大、Medium、小が表示されています。](assets/s_user_cost_mgmt_sample_14.png)
 
 1. 次に、タスクの&#x200B;**[!UICONTROL 費用と売上高]**&#x200B;アイコンをクリックし、概算暫定コストを指定します。
 
-   ![](assets/s_user_cost_mgmt_sample_15.png)
+   ![特別作戦用に見積もられた5,500の暫定コストを含むタスク費用と収益ウィンドウ。](assets/s_user_cost_mgmt_sample_15.png)
 
    タスクを保存すると、計算されたコストは概算暫定コストに入力した値になります。
 
@@ -317,23 +317,23 @@ MRM を使用して予算管理を実装するには、次の手順に従いま�
 
 1. 次に、同様の手順で 2 番目のタスクを作成します。スケジュールを 5 日間、コスト構造には上記で作成したコスト構造を指定します。
 
-   ![](assets/s_user_cost_mgmt_sample_16.png)
+   ![2番目のタスク コンテンツ作成。そのタスクのプロパティ ウィンドウには、コスト カテゴリ タイプ リストが開いています。](assets/s_user_cost_mgmt_sample_16.png)
 
    タスクが完了すると、計算されたコストは関連するコスト構造の値になります。この例では、1,500 ユーロになります（300 ユーロ x 5 日）。
 
-   ![](assets/s_user_cost_mgmt_sample_17.png)
+   ![費用と収益ウィンドウで、計算されたコストが1,500のコンテンツ作成タスクを完了しました。](assets/s_user_cost_mgmt_sample_17.png)
 
 #### 手順 6 - キャンペーン予算のステータスの更新 {#step-6---update-the-campaign-budget-status}
 
 キャンペーンを設定すると、キャンペーンのステータスを「**[!UICONTROL 定義済み]**」に設定して更新できます。 キャンペーンの計算されたコストに、キャンペーンの配信とタスクの計算されたコストの合計が表示されます。
 
-![](assets/s_user_cost_mgmt_sample_18.png)
+プロセス ステータス リストが開いている![&#x200B; キャンペーン予算セクション：編集中、定義中、実施中、コスト明細行を超えています。](assets/s_user_cost_mgmt_sample_18.png)
 
 #### 予算の承認 {#budget-approval}
 
 承認が有効になっている場合、キャンペーンダッシュボードに表示される専用のリンクを使用して予算を承認することができます。 このリンクは、ターゲティングワークフローが開始され、ダイレクトメール配信の承認が必要になったときに表示されます。
 
-![](assets/s_user_cost_mgmt_sample_19.png)
+![配信の承認メニューの「予算を承認」オプションを選択し、「同意」、「却下」、「予算の承認」で配信に対するアクションを開きます。](assets/s_user_cost_mgmt_sample_19.png)
 
 その次に、リンクをクリックして承認または拒否することができます。また、このキャンペーンで通知が有効になっている場合は、通知メールのリンクを使用することもできます。
 
@@ -349,7 +349,7 @@ MRM のコンテキストでは、サービスプロバイダーの情報を含�
 
 オーダー番号、サービスプロバイダーおよびオーダーの合計金額を指定します。
 
-![](assets/s_user_cost_create_order.png)
+![注文のリストと、番号、サービスプロバイダー、金額を示す注文フォームが表示されたMRMの下の注文ノード。](assets/s_user_cost_create_order.png)
 
 ### 請求書の発行と追跡 {#issuing-and-tracking-invoices}
 
@@ -357,15 +357,15 @@ MRM のコンテキストでは、サービスプロバイダーの情報を含�
 
 請求書は、Adobe Campaign ツリーの **[!UICONTROL MRM／請求書]**&#x200B;ノードで作成、保存します。
 
-![](assets/s_user_cost_create_invoice.png)
+![MRMの下の請求書ノードで、請求書フォームに番号、サービスプロバイダー、予算、金額、ステータスが表示されている。](assets/s_user_cost_create_invoice.png)
 
 請求書には、請求書ラインがあります。請求書ラインの合計では、金額が自動的に計算されます。 これらのラインは、「**[!UICONTROL 請求書ライン]**」タブで手動で作成します。 ラインをオーダーに関連付けると、情報がオーダーにアップロードされます。
 
-![](assets/s_user_cost_invoice_add_line.png)
+「![請求書明細」タブ（「追加」ボタン）をクリックすると、注文、金額、決済済みオプションを含む請求書明細フォームが開きます。](assets/s_user_cost_invoice_add_line.png)
 
 各サービスプロバイダーの請求書は、プロファイルの「**[!UICONTROL 請求書]**」タブに表示されます。
 
-![](assets/s_ncs_user_invoice_from_supplier.png)
+![選択したサービス プロバイダーの請求書を一覧表示する「請求書」タブを含むサービス プロバイダーのノード。](assets/s_ncs_user_invoice_from_supplier.png)
 
 「**[!UICONTROL 詳細]**」タブでは、請求書の内容を表示できます。
 

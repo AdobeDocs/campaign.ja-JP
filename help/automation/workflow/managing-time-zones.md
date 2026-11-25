@@ -29,10 +29,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
+source-wordcount: '299'
+ht-degree: 93%
 ---
 # タイムゾーンの管理{#managing-time-zones}
 
@@ -46,7 +46,7 @@ Adobe Campaign では、関係するさまざまな国の間のタイムラグ�
 
 スケジュール対象のすべてのタスク、すなわち、スケジュール設定オプションのあるアクティビティすべてについて、適用するタイムゾーンが選択できます。 タイムゾーンは、関係するアクティビティの「**[!UICONTROL 詳細設定]**」タブで選択します。
 
-![](assets/wf-timezone-in-a-box.png)
+![&#x200B; タイムゾーン ドロップダウンが開いている「スケジューラーの詳細」タブ。デフォルト、サーバー、オペレーター、データベースのタイムゾーンが一覧表示されます。](assets/wf-timezone-in-a-box.png)
 
 次のような値を選択できます。
 

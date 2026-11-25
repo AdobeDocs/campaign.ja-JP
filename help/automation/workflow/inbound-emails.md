@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 90%
 ---
 # インバウンドメール{#inbound-emails}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 「**インバウンドメール**」アクティビティでは、POP3 メールサーバーからメールメッセージをダウンロードして処理できます。
 
-![](assets/email_rec_edit_1.png)
+![POP3 サーバー、外部アカウント、スクリプトフィールドを使用した受信メールのアクティビティダイアログ &#x200B;](assets/email_rec_edit_1.png)
 
 「**インバウンドメール**」アクティビティの最初のタブで、POP3 サーバーのパラメーターとメール受信時に実行するスクリプトを入力できます。 2 番目のタブではアクティビティのスケジュールを設定でき、3 番目のタブではアクティビティの有効期限を設定できます。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
      このオプションを選択しない場合は、次のパラメーターを指定する必要があります。
 
-     ![](assets/email_rec_edit_1b.png)
+     POP3 サーバー、POP3 アカウント、パスワードおよびポートのフィールドを含む![POP3 サーバーセクション &#x200B;](assets/email_rec_edit_1b.png)
 
      * **[!UICONTROL POP3 サーバー]**
 
@@ -91,6 +91,6 @@ ht-degree: 100%
 
    「**[!UICONTROL 有効期限]**」タブで、有効期限の延長を設定できます。
 
-   ![](assets/email_rec_edit_3.png)
+   ![有効期限の種類リストに遅延と有効期限のオプションが表示された「受信メールの有効期限」タブ &#x200B;](assets/email_rec_edit_3.png)
 
    有効期限の設定は、スケジュール設定アクティビティの場合と同じです。 [有効期限](define-approvals.md)を参照してください。

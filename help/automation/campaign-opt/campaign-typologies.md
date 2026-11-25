@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 90%
+source-wordcount: '514'
+ht-degree: 82%
 ---
 # キャンペーンタイポロジの概要{#about-campaign-typologies}
 
 **キャンペーンの最適化は、配信状況を制御、フィルターおよび監視する Adobe Campaign のモジュールです。** キャンペーン間の競合を回避するために、Adobe Campaign では特定の制限ルールを適用して、様々な組み合わせをテストできます。 このテストにより、企業のコミュニケーションポリシーに準拠し、顧客のニーズと期待に応える最適なメッセージを送信できます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#typologies-video)
+![&#x200B; タイポロジビデオの再生ボタンアイコン &#x200B;](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでこの機能を見つける](#typologies-video)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Campaign には、デフォルトでビルトインのタイポロジとタイ�
 
 タイポロジごとに「**[!UICONTROL ルール]**」タブで、適用するタイポロジルールを追加、削除または表示できます。
 
-![](assets/campaign_opt_rules_tab.png)
+![1つのタイポロジを選択したタイポロジ リストとそのルール タブに、適用するタイポロジルールが一覧表示されます](assets/campaign_opt_rules_tab.png)
 
 作成されたタイポロジルールは、キャンペーン&#x200B;**タイポロジ**&#x200B;でグループ化され、配信で参照されます。 [詳細情報](#apply-typologies)。
 
@@ -93,7 +93,7 @@ Campaign には、デフォルトで一連の&#x200B;**フィルター**&#x200B;
 
 配信の準備では、基準を満たした場合に受信者が除外されます。 ログを確認して除外を監視できます。
 
-頻度タイポロジルールのユースケースについては、[このページ](pressure-rules.md#use-cases-on-pressure-rules)を参照してください。
+プレッシャタイポロジルールの使用例のサンプルは、[&#x200B; プレッシャルールの使用例](pressure-rules.md#use-cases-on-pressure-rules)で入手できます。
 
 ## チュートリアルビデオ {#typologies-video}
 

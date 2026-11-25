@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 82%
+source-wordcount: '1322'
+ht-degree: 80%
 ---
 # SMPP コネクタの説明 {#smpp-connector-desc}
 
@@ -41,7 +41,7 @@ ht-degree: 82%
 
 SMS プロセスと環境とのやり取りをまとめた、大まかなブロックダイアグラムを次に示します。
 
-![](assets/smsv2_highlevel.png){zoomable="yes"}
+Campaign データベースとSMPP プロバイダーにリンクされたSMPP コネクタとSR調整を持つ![SMS プロセス &#x200B;](assets/smsv2_highlevel.png){zoomable="yes"}
 
 SMS プロセスでは、SMPP プロバイダーとの通信を処理する SMPP コネクタ自体と、SR 紐付けのためのバックグラウンドタスクという 2 つの重要なコンポーネントをホストします。
 
@@ -91,7 +91,7 @@ SMS プロセスはnms:extAccountをポーリングし、各アカウントの�
 
 次のダイアグラムは、プロセス全体を表しています。
 
-![](assets/message_processing.png){zoomable="yes"}
+![&#x200B; ブロード ログ、providerMsgId、providerMsgStatus、SMPP コネクタおよびプロバイダーの3つのフェーズのシーケンス図](assets/message_processing.png){zoomable="yes"}
 
 **フェーズ 1**
 

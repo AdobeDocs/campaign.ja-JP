@@ -30,24 +30,24 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 71%
 ---
 # セル{#cells}
 
 **[!UICONTROL セル]**&#x200B;アクティビティでは、各種のサブセットをデータ列として表示します。 このアクティビティは、サブセットの操作を容易にし、パーソナライゼーション機能を活用できるように設計されています。
 
-![](assets/wf_split_cells.png)
+フィルター、制限、除外、セグメントコード列を含むサブセット 1から3を一覧表示するセル アクティビティの![&#x200B; セル タブ。](assets/wf_split_cells.png)
 
 ユーザーのニーズに基づく特定のパラメーターを入力して、このアクティビティを設定できます。 各サブセットの詳細は、デフォルトでは、「**[!UICONTROL セル]**」タブと「**[!UICONTROL 詳細設定]**」タブを通じて専用ウィンドウに表示されます。
 
-![](assets/wf_split_cells_with_customization.png)
+選択したサブセットの詳細を開くために、詳細ボタンがハイライト表示された![&#x200B; セル タブ。](assets/wf_split_cells_with_customization.png)
 
 以下の例では、入力フォームは変更されています。各サブセットのオファーと優先度レベルの関連付けを有効にする「**[!UICONTROL データ]**」タブが追加されています。
 
-![](assets/cells-activity-sample.png)
+![&#x200B; セグメントコード、優先順位、セル識別子、オファーフィールドを保持するカスタムデータタブを持つサブセットの詳細。](assets/cells-activity-sample.png)
 
 この設定では、Adobe Campaign エクスプローラーの&#x200B;**[!UICONTROL 管理／設定／入力フォーム]**&#x200B;ノードで、次の情報がワークフローのフォームに追加されています。
 

@@ -30,25 +30,25 @@ topic_v2:
     internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 70%
 ---
 # 集計の更新{#update-aggregate}
 
 レポート目的で[キューブ](../../v8/reporting/gs-cubes.md)に定義された集計は、特定のアクティビティで更新できます。 集計の設定は、「**[!UICONTROL ワークフロー]**」タブで行います。
 
-キューブと集計について詳しくは、[この節](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates)を参照してください。
+キューブと集計の詳細については、[&#x200B; キューブ内の集計](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates)を参照してください。
 
 集計を更新するには、**[!UICONTROL 集計を更新]**&#x200B;アクティビティを編集し、キューブと更新する集計を選択します。
 
 **完全更新**&#x200B;または&#x200B;**部分更新**&#x200B;を設定できます。
 
-![](assets/update-aggregate-details.png)
+![&#x200B; キューブおよび集計フィールドと完全更新または部分更新オプションを使用して、集計アクティビティを更新します。](assets/update-aggregate-details.png)
 
 デフォルトでは、各計算時に完全更新が実行されます。 部分更新を有効にするには、オプションを選択し、更新の条件を定義します。
 
-![](assets/update-aggregate-partial.png)
+![現在の日付から1か月を差し引いた後の作成日にフィルターを使用して、更新条件ウィンドウを編集しています。](assets/update-aggregate-partial.png)
 
 **[!UICONTROL スケジューラー]**&#x200B;アクティビティを追加して、計算の更新頻度を設定することをお勧めします。

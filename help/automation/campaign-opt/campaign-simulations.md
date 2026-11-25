@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 100%
+source-wordcount: '1636'
+ht-degree: 82%
 ---
 # キャンペーンシミュレーション{#campaign-simulations}
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 配信モードは、配信プロパティの「**[!UICONTROL タイポロジ]**」サブタブで選択します。
 
-![](assets/simu_campaign_select_delivery_mode.png)
+![配信モードドロップダウンリストの3つのモードを含む「配信プロパティのタイポロジ」タブ。](assets/simu_campaign_select_delivery_mode.png)
 
 
 ### シミュレーションの作成 {#create-a-simulation}
@@ -52,19 +52,19 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL キャンペーン]**」タブを開き、「**[!UICONTROL 作成]**」セクション内の「**[!UICONTROL その他]**」リンクをクリックして、「**[!UICONTROL シミュレーション]**」オプションを選択します。
 
-   ![](assets/simu_campaign_opti_01.png)
+   ![Campaign カレンダーのホームページで、「開いてシミュレーションを作成」の下の「その他」メニューがハイライト表示されている。](assets/simu_campaign_opti_01.png)
 
 1. テンプレートおよびシミュレーションの名前を入力します。 「**[!UICONTROL 保存]**」をクリックして、シミュレーションを作成します。
 
-   ![](assets/simu_campaign_opti_02.png)
+   ![&#x200B; シミュレーション テンプレートとラベル フィールドが強調表示され、保存ボタンが表示されたシミュレーション作成ダイアログ。](assets/simu_campaign_opti_02.png)
 
 1. 「**[!UICONTROL 編集]**」タブをクリックして、シミュレーションを設定します。
 
-   ![](assets/simu_campaign_opti_edit.png)
+   ![一般、スコープ、計算、監査の各セクションと実行設定を含むシミュレーションのタブを編集します。](assets/simu_campaign_opti_edit.png)
 
 1. 「**[!UICONTROL スコープ]**」タブで、このシミュレーションで考慮する配信を指定します。 「**[!UICONTROL 追加]**」ボタンをクリックし、考慮する配信の選択モードを指定します。
 
-   ![](assets/simu_campaign_opti_edit_scope.png)
+   配信の選択方法を選択するための「追加」ボタンと「シミュレーション項目」ダイアログを含む![範囲セクション。](assets/simu_campaign_opti_edit_scope.png)
 
    配信は、1 つずつ選択するか、キャンペーン、プログラムまたはプラン別に並べ替えることができます。
 
@@ -74,17 +74,17 @@ ht-degree: 100%
    >  
    >このオプションがオンになっていない場合、シミュレーション作成の時点でプラン、プログラムまたはキャンペーンに含まれていない配信は考慮されなくなります。後で追加された配信はすべて無視されます。
 
-   ![](assets/simu_campaign_opti_edit_scope_update.png)
+   ![1つ以上のプログラムのすべての配信と「選択を更新」オプションをオンにしたシミュレーション項目ダイアログ。](assets/simu_campaign_opti_edit_scope_update.png)
 
 1. シミュレーションのスコープに含める要素を選択します。 複数の要素を選択する場合は、Shift キーや Ctrl キーを使用できます。
 
-   ![](assets/simu_campaign_opti_edit_scope_select.png)
+   ![複数の配信がハイライト表示され、「完了」ボタンが表示された配信の選択ダイアログ。](assets/simu_campaign_opti_edit_scope_select.png)
 
    「**[!UICONTROL 完了]**」をクリックして、選択を承認します。
 
    選択した配信とプラン、プログラムまたはキャンペーンに属する配信を手動で組み合わせることもできます。
 
-   ![](assets/simu_campaign_opti_edit_scope_save.png)
+   ![&#x200B; プログラム、キャンペーン、プランを混在させたスコープリスト。保存ボタンと動的条件の編集リンクが表示されます。](assets/simu_campaign_opti_edit_scope_save.png)
 
    必要であれば、「**[!UICONTROL 動的条件を編集...]**」リンクから、動的条件を使用することができます。
 
@@ -96,11 +96,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 計算]**」タブで、例えば受信者スキーマなど分析ディメンションを選択します。
 
-   ![](assets/simu_campaign_opti_dimension.png)
+   ![&#x200B; スキーマ選択ダイアログが開き、分析ディメンションとして受信者（nms）が選択された計算セクション。](assets/simu_campaign_opti_dimension.png)
 
 1. その後、式を追加できます。
 
-   ![](assets/simu_campaign_opti_dimension_02.png)
+   ![分析ディメンションとして受信者（nms）を含む計算セクション、およびアカウントとステータスのレポート軸がリストされています。](assets/simu_campaign_opti_dimension_02.png)
 
 ### 実行設定 {#execution-settings}
 
@@ -118,11 +118,11 @@ ht-degree: 100%
 
 シミュレーションのダッシュボードを開き、「**[!UICONTROL シミュレーションを開始]**」をクリックしてください。
 
-![](assets/simu_campaign_opti_start.png)
+![&#x200B; シミュレーション開始ボタン付きのシミュレーション ダッシュボード。](assets/simu_campaign_opti_start.png)
 
 実行が完了したら、シミュレーションを開き、「**[!UICONTROL 結果]**」タブをクリックして、配信ごとに計算されたターゲットを表示できます。
 
-![](assets/simu_campaign_opti_results.png)
+![結果タブ。各配信の初期数と最終数を一覧表示する配信サブタブ。](assets/simu_campaign_opti_results.png)
 
 1. 「**[!UICONTROL 配信]**」サブタブには、シミュレーションで考慮されたすべての配信の一覧が表示されます。 この一覧には、2 つのカウントが含まれます。
 
@@ -135,12 +135,12 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 除外]**」サブタブでは、除外の分類を表示できます。
 
-   ![](assets/simu_campaign_opti_14.png)
+   ![結果タブ、配信およびルールごとの除外カウントを表示する除外サブタブ。](assets/simu_campaign_opti_14.png)
 
 1. 「**[!UICONTROL 警告]**」サブタブでは、シミュレーション中に生成されたすべてのアラートメッセージがグループごとに表示されます。 アラートメッセージは、処理能力を超える場合（ターゲット受信者の数が処理能力を上回る場合など）に送信できます。
 1. 「**[!UICONTROL 除外を調査]**」サブタブでは、結果の分析テーブルを作成できます。 テーブルを作成する場合は、横軸と縦軸の変数を指定する必要があります。
 
-   分析テーブルの作成例について詳しくは、[この節](#explore-results)の最後の部分を参照してください。
+   分析テーブルの作成例については、[結果を探す](#explore-results)の最後を参照してください。
 
 ### 結果の表示 {#view-results}
 
@@ -148,7 +148,7 @@ ht-degree: 100%
 
 「**[!UICONTROL 監査]**」タブでは、シミュレーションの実行を監視できます。 「**[!UICONTROL SQL ログ]**」サブタブには、エキスパートユーザーに役立つ情報が含まれます。 SQL 形式で実行ログの一覧を表示できます。 それらのログを表示するには、シミュレーションを実行する前に「**[!UICONTROL 一般]**」タブで「**[!UICONTROL SQL クエリをログに記録]**」オプションが選択されている必要があります。
 
-![](assets/simu_campaign_opti_11.png)
+![監査セクションにJournalとSQL ログのサブタブが表示され、SQL ログに実行クエリが表示されます。](assets/simu_campaign_opti_11.png)
 
 #### 結果を調べる {#explore-results}
 
@@ -180,7 +180,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 レポートにアクセスするには、ダッシュボードから対象のシミュレーションの「**[!UICONTROL レポート]**」リンクをクリックします。
 
-![](assets/campaign_opt_reporting_edit_from_board.png)
+![&#x200B; シミュレーション ダッシュボード レポートには、シミュレーション除外の詳細などのレポート タイルが一覧表示されます。](assets/campaign_opt_reporting_edit_from_board.png)
 
 また、シミュレーションのダッシュボードからアクセスできる「**[!UICONTROL レポート]**」リンクを使用して、レポートを編集することもできます。
 
@@ -196,12 +196,12 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 1. 「**[!UICONTROL レポート]**」タブで、「**[!UICONTROL シミュレーションの除外の詳細]**」など、使用できるレポートを 1 つ選択し、編集します。
 1. レポート上部の右にあるセクションで、アイコンをクリックして、新しい履歴を作成します。
 
-   ![](assets/campaign_opt_reporting_create_hist.png)
+   ![新しい履歴アイコンがツールバーに強調表示されたシミュレーション除外レポートの詳細](assets/campaign_opt_reporting_create_hist.png)
 
 1. シミュレーションを閉じ、タイポロジ **A** の設定を変更します。
 1. 再度シミュレーションを実行し、今回の結果とレポート履歴に保存されている先回の結果を比較します。
 
-   ![](assets/campaign_opt_reporting_edit_hist.png)
+   ![使用可能な履歴アイコンから開いた保存履歴と比較したシミュレーション除外レポートの詳細](assets/campaign_opt_reporting_edit_hist.png)
 
    レポート履歴は必要に応じて、いくつでも保存することができます。
 
@@ -221,7 +221,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 1. レポート軸を定義するには、「**[!UICONTROL 分析ディメンション]**」フィールドで、処理する情報が格納されているテーブルを選択します。 この情報は必須です。
 1. 受信者テーブルの「ステータス」フィールドを選択します。
 
-   ![](assets/simu_campaign_opti_09.png)
+   ![受信者（nms）を分析ディメンションとし、@statusに基づくステータスレポート軸を持つ計算セクション。](assets/simu_campaign_opti_09.png)
 
 1. 次のオプションを使用できます。
 
@@ -241,7 +241,7 @@ Descriptive analysis is detailed in [this section](../../reporting/using/about-a
 
 配信ターゲットの重複とは、ターゲット受信者がシミュレーションの 2 つ以上の配信に含まれていることを指します。
 
-![](assets/simu_campaign_opti_13.png)
+![結果タブ、各配信、その同時配信、および重複数を一覧表示するサブタブの重なり](assets/simu_campaign_opti_13.png)
 
 >[!NOTE]
 >

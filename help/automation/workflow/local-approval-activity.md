@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 100%
+source-wordcount: '1798'
+ht-degree: 80%
 ---
 # ローカルの承認アクティビティを使用{#using-the-local-approval-activity}
 
@@ -38,13 +38,13 @@ ht-degree: 100%
 
 この使用例を設定するうえで、以下のターゲティングワークフローを作成しました。
 
-![](assets/local_validation_workflow.png)
+![&#x200B; ターゲティングワークフロー：2つのクエリ、積集合、分割、承認通知、配信、待機、フィードバック通知、終了](assets/local_validation_workflow.png)
 
 ローカルの承認プロセスの主な手順は次のとおりです。
 
 1. データ配分モデルを使用する「**[!UICONTROL 分割]**」タイプのアクティビティにより、ターゲティングによって生じる母集団の数を制限します。
 
-   ![](assets/local_validation_intro_1.png)
+   ![&#x200B; データ配布リスト （ドメインごとに10%）。ワークフローの分割出力を3,332人から333人に制限](assets/local_validation_intro_1.png)
 
 1. 「**[!UICONTROL ローカルの承認]**」アクティビティは通知メールを引き継ぎ、ローカルの個々のスーパーバイザーに送信します。 ローカルの個々のスーパーバイザーが各自に割り当てられた受信者を承認するまでは、アクティビティは保留されます。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
    >
    >承認の期限を過ぎると、受信者を承認することはできなくなり、ターゲティングから除外されます。
 
-   ![](assets/local_validation_intro_6.png)
+   ![検証通知の後、待機アクティビティの前に、配信アクティビティがハイライト表示されたワークフロー](assets/local_validation_intro_6.png)
 
 1. 数日が経過した後、2 番目の「**[!UICONTROL ローカルの承認]**」アクティビティがローカルの各スーパーバイザーに通知メールを送信します。このメールには、各受信者がおこなったアクションの概要（クリック、開封など）が記載されています。
 
@@ -66,18 +66,18 @@ ht-degree: 100%
 
 1. データ配分テンプレートを作成するには、**[!UICONTROL リソース／キャンペーン管理／データ配分]**&#x200B;の順にノードを移動し、「**[!UICONTROL 新規]**」をクリックします。
 
-   ![](assets/local_validation_data_distribution_1.png)
+   リソース/キャンペーン管理/新しいボタンがハイライト表示されたデータ配布の![&#x200B; エクスプローラーツリー](assets/local_validation_data_distribution_1.png)
 
 1. 「**[!UICONTROL 一般]**」タブを選択します。
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![&#x200B; ラベル、ターゲティングディメンション、配布フィールドとタイプ、承認ストレージを含むデータ配布一般タブ &#x200B;](assets/local_validation_data_distribution_2.png)
 
 1. 「**[!UICONTROL ラベル]**」と「**[!UICONTROL 配分のコンテキスト]**」の内容を入力します。 この例では、配分フィールドとして、「**[!UICONTROL 受信者]**」ターゲティングスキーマと「**[!UICONTROL メールドメイン]**」フィールドを選択しています。 受信者のリストが、ドメインごとに分割されます。
 1. 「**[!UICONTROL 配分]**」タブの「**[!UICONTROL 配分タイプ]**」フィールドで、ターゲットの制限値の表示形式を選択します。 ここでは「**[!UICONTROL 割合]**」を選択します。
 1. 「**[!UICONTROL 承認ストレージ]**」フィールドに、使用中のターゲティングスキーマと一致する承認のストレージスキーマを入力します。 ここでは、デフォルトのストレージスキーマである、「**[!UICONTROL 受信者のローカル承認]**」を使用します。
 1. 「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックします。
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![高度なパラメーター：ターゲットメッセージ、配信ラベル、グループ化フィールドを承認し、ターゲットメッセージを編集](assets/local_validation_data_distribution_3.png)
 
 1. 承認対象の受信者のリストからすべての受信者が事前に選択されるよう、「**[!UICONTROL ターゲティングされたメッセージを承認]**」オプションはチェックしたままにします。
 1. 「**[!UICONTROL 配信ラベル]**」フィールドで、式をデフォルト（配信文字列の計算）のままにします。 フィードバックの通知には、標準の配信ラベルを使用します。
@@ -85,7 +85,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL ターゲットメッセージを編集]**」セクションで、「**[!UICONTROL 受信者を編集]**」Web アプリケーションと「**[!UICONTROL recipientId]**」パラメーターを選択します。 承認およびフィードバックの通知で受信者をクリックできるようになります。受信者は、Web アプリケーションの URL をポイントします。 追加の URL パラメーターは、**[!UICONTROL recipientId]** になります。
 1. 「**[!UICONTROL 配分]**」タブをクリックします。 各ドメインについて、以下のフィールドの内容を入力します。
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![割り当てられた割合、ラベル、グループまたは演算子を含む各ドメインを一覧表示する分類タブ &#x200B;](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL 値]**：ドメイン名の値を入力します。
    * **[!UICONTROL 割合／固定]**：各ドメインについて、配信対象の受信者の最大数を入力します 。 この例では、ドメインあたりの配信を 10% に制限します。
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 この使用例を設定するうえで、以下のターゲティングワークフローを作成しました。
 
-![](assets/local_validation_workflow.png)
+![&#x200B; ターゲティングワークフロー：2つのクエリ、積集合、分割、承認通知、配信、待機、フィードバック通知、終了](assets/local_validation_workflow.png)
 
 以下のアクティビティを追加します。
 
@@ -123,23 +123,23 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL レコード数の制限]**」セクションで「**[!UICONTROL 選択レコード数の制限]**」オプションを選択し、「**[!UICONTROL 編集]**」リンクをクリックします。
 
-   ![](assets/local_validation_split_1.png)
+   ![選択したレコードの制限オプションとレコード数の制限の編集リンクを選択したサブセットの分割タブ &#x200B;](assets/local_validation_split_1.png)
 
 1. 「**[!UICONTROL 並べ替えの後に最初のレコードのみ保持]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/local_validation_split_1bis.png)
+   ![選択した並べ替え後の最初のレコードのみを保持する制限手順のタイプ &#x200B;](assets/local_validation_split_1bis.png)
 
 1. 「**[!UICONTROL 列を並べ替え]**」セクションで、並べ替えを適用するフィールドを追加します。 ここでは、「**[!UICONTROL メール]**」フィールドを選択します。 「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/local_validation_split_2.png)
+   ![並べ替え列と「次へ」ボタンにメール列が追加された並べ替え手順](assets/local_validation_split_2.png)
 
 1. 「**[!UICONTROL データ配分別]**」オプションで、前に作成した配分テンプレート（[手順 1：データ配分テンプレートの作成](#step-1--creating-the-data-distribution-template-)を参照）を選択し、「**[!UICONTROL 終了]**」をクリックします。
 
-   ![](assets/local_validation_split_3.png)
+   ![&#x200B; データ配布を選択し、配布を受信者に適用する手順を制限するテンプレートを選択](assets/local_validation_split_3.png)
 
 ワークフローに表示される値と一致するよう、配分テンプレートで、グループ値別の母集団を 10% に制限します（340 の入力に対して出力が 34 になります）。
 
-![](assets/local_validation_intro_1.png)
+![&#x200B; データ配布リスト （ドメインごとに10%）。ワークフローの分割出力を3,332人から333人に制限](assets/local_validation_intro_1.png)
 
 ### 承認通知 {#approval-notification}
 
@@ -147,7 +147,7 @@ ht-degree: 100%
 
 「**[!UICONTROL ローカルの承認]**」アクティビティの設定について詳しくは、[ローカルの承認](local-approval.md)を参照してください。
 
-![](assets/local_validation_workflow_2.png)
+![&#x200B; ローカル承認アクティビティがターゲット承認通知に設定されました。移行で指定され、3D遅延とリマインダー](assets/local_validation_workflow_2.png)
 
 以下のフィールドの内容を入力する必要があります。
 
@@ -165,13 +165,13 @@ ht-degree: 100%
 
 「待機」アクティビティを使用すると、フィードバック通知を配信する 2 つ目の「ローカルの承認」アクティビティの開始を延期することができます。 「**[!UICONTROL 待機期間]**」フィールドで、値「**[!UICONTROL 5d]**」（5 日）を入力します。 配信後の 5 日間に受信者がおこなったアクションがフィードバック通知に記載されます。
 
-![](assets/local_validation_workflow_3.png)
+![期間フィールドが5d](assets/local_validation_workflow_3.png)に設定されたアクティビティを待ちます
 
 ### フィードバック通知 {#feedback-notification}
 
 2 つ目の「**[!UICONTROL ローカルの承認]**」アクティビティでは、ローカルの個々のスーパーバイザーにフィードバック通知を送信できます。
 
-![](assets/local_validation_workflow_4.png)
+![移行で指定された配信で、配信フィードバックレポートに設定されたローカル承認アクティビティ &#x200B;](assets/local_validation_workflow_4.png)
 
 以下のフィールドの内容を入力する必要があります。
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 
 「待機」アクティビティで設定した期限を経過すると、2 つ目の「**[!UICONTROL ローカルの承認]**」アクティビティはローカルの個々のスーパーバイザーに、
 
-![](assets/local_validation_intro_3.png)
+![性別とステータス別の受信者の配信フィードバックリストを含むローカル検証web ページ：送信、開封、クリック &#x200B;](assets/local_validation_intro_3.png)
 
 ### 管理者による承認トラッキング {#approval-tracking-by-the-administrator}
 
@@ -189,15 +189,15 @@ ht-degree: 100%
 
 キャンペーンのターゲティングワークフローに移動して、「**[!UICONTROL ローカルの承認タスク]**」タブをクリックします。
 
-![](assets/local_validation_admin_1.png)
+タスク、承認期限、ワークフローおよびキャンペーンを一覧表示するキャンペーンワークフローの「![&#x200B; ローカル承認タスク」タブ &#x200B;](assets/local_validation_admin_1.png)
 
 「データ配分」テンプレートの「**[!UICONTROL 承認タスク]**」タブからは、ローカルの承認タスクのリストにアクセスすることができます。
 
-![](assets/local_validation_admin_2.png)
+ローカル承認タスクとそのターゲット メッセージを一覧表示するデータ配布テンプレートの「![承認タスク」タブ &#x200B;](assets/local_validation_admin_2.png)
 
 監視するタスクを選択し、「**[!UICONTROL 詳細]**」ボタンをクリックします。 ローカルの承認タスクの「**[!UICONTROL 一般]**」タブでは、タスクに関する情報を確認できます。 必要に応じて、承認の日付やリマインダーの日付を変更することもできます。
 
-![](assets/local_validation_admin_3.png)
+![&#x200B; ラベル、ID、配布、ワークフロー、キャンペーン、承認およびリマインダーの日付が表示された「ローカル承認タスク一般」タブ &#x200B;](assets/local_validation_admin_3.png)
 
 このタブには、以下の情報が表示されます。
 
@@ -209,11 +209,11 @@ ht-degree: 100%
 
 タスクの「**[!UICONTROL 配分]**」タブでは、承認ログとそのステータス、ターゲットメッセージの数、承認日のほか、配信を承認したオペレーターを確認することができます。
 
-![](assets/local_validation_admin_4.png)
+![&#x200B; ステータス、ターゲットされたメッセージ、検証日、承認者を含むローカル承認ログを一覧表示するタスクの内訳タブ &#x200B;](assets/local_validation_admin_4.png)
 
 承認ログを選択し、「**[!UICONTROL 詳細]**」ボタンをクリックして、詳細情報を表示します。 ローカル承認ログの「**[!UICONTROL 一般]**」タブでは、ログの一般的な情報を表示できます。 ここでは、承認ステータスを変更することもできます。
 
-![](assets/local_validation_admin_5.png)
+![承認タスク、ステータス、承認者、承認日、およびターゲット設定と承認済みのメッセージが表示された「承認ログ一般」タブ &#x200B;](assets/local_validation_admin_5.png)
 
 このタブには、以下の情報が表示されます。
 
@@ -225,4 +225,4 @@ ht-degree: 100%
 
 承認ログの「**[!UICONTROL ターゲット]**」タブには、ターゲットの受信者とその承認ステータスが一覧表示されます。 このステータスは必要に応じて変更できます。
 
-![](assets/local_validation_admin_6.png)
+![承認ログ編集可能な承認を持つターゲット受信者を一覧表示する「ターゲット設定」タブ「はい」または「いいえ」チェックボックス &#x200B;](assets/local_validation_admin_6.png)

@@ -19,10 +19,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 92%
+source-wordcount: '326'
+ht-degree: 78%
 ---
 # SpamAssassin{#spamassassin}
 
@@ -52,7 +52,7 @@ SpamAssassin は、次のような様々なスパム検出技法を活用しま�
 1. 「**[!UICONTROL プレビュー]**」タブに移動します。
 1. 配信をプレビューする受信者を選択します。
 
-   ![](assets/s_tn_del_preview_spamassassin_recipient.png)
+   ![受信者リストが開いている「配信プレビュー」タブで、迷惑メール対策チェック用の受信者を選択](assets/s_tn_del_preview_spamassassin_recipient.png)
 
    >[!NOTE]
    >
@@ -60,13 +60,13 @@ SpamAssassin は、次のような様々なスパム検出技法を活用しま�
 
 1. テストの結果が警告メッセージとして表示されます。 高レベルのリスクが検出された場合、次の警告メッセージが表示されます。
 
-   ![](assets/s_tn_del_preview_spamassassin_ko.png)
+   ![&#x200B; タブのプレビュー警告：迷惑メール対策チェックにより、このメールの高いリスクが検出されました。詳細リンク &#x200B;](assets/s_tn_del_preview_spamassassin_ko.png)
 
 1. 警告の隣にある&#x200B;**[!UICONTROL 詳細...]** リンクをクリックします。
 1. 「**[!UICONTROL スパム対策チェック]**」タブを選択します。
 1. 「**[!UICONTROL ポイント / ルール / 説明]**」セクションに移動して、このリスクの原因を表示します。
 
-   ![](assets/s_tn_del_msg_spamassassin_ko.png)
+   ![&#x200B; スパムスコア、最大承認スコア、およびポイント/ルール/説明リストを含むスパム対策チェックタブ &#x200B;](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >

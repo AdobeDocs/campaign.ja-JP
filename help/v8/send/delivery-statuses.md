@@ -35,16 +35,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 62%
+source-wordcount: '580'
+ht-degree: 61%
 ---
 # 配信ステータス {#delivery-statuses}
 
 配信の送信が完了すると、配信ダッシュボードにステータスが表示され、送信が成功したかどうかを監視できます。 可能なステータスについては、次の節で詳しく説明します。
 
-![](assets/delivery-status.png)
+![&#x200B; ステータス フィールドがハイライト表示され、完了と終了日が表示された配信ダッシュボードの概要](assets/delivery-status.png)
 
 様々な配信エラーの詳細と解決方法については、[配信エラーについて](delivery-failures.md)を参照してください。
 

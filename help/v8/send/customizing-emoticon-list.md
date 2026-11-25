@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 91%
+source-wordcount: '568'
+ht-degree: 79%
 ---
 # 顔文字リストのカスタマイズ {#customize-emoticons}
 
@@ -55,7 +55,7 @@ ht-degree: 91%
    >
    >標準の列挙は、Adobe Campaign Classic コンソールの管理者のみが管理できます。
 
-   ![](assets/emoticon_1.png)
+   ![管理、プラットフォーム、および列挙を選択したエクスプローラーと、絵文字リストの列挙が強調表示されています](assets/emoticon_1.png)
 
 1. 「**[!UICONTROL 追加]**」をクリックします。
 
@@ -66,7 +66,7 @@ ht-degree: 91%
 
    * **[!UICONTROL ラベル]**：新しい顔文字のラベル。
 
-   ![](assets/emoticon_5.png)
+   ![新しい絵文字のU+ コードとラベル フィールドを含む列挙値ダイアログ &#x200B;](assets/emoticon_5.png)
 
 1. 設定が完了したら、「**[!UICONTROL OK]**」をクリックし、「**[!UICONTROL 保存]**」をクリックします。
 新しい顔文字が自動的にストアに配置されます。
@@ -77,7 +77,7 @@ ht-degree: 91%
 
    <br>この例では、表示順番 61 を選択します。つまり、既にこの順序が設定されているエントリは自動的にストアに移動され、列挙リストで新しいエントリに置き換えられます。
 
-   ![](assets/emoticon_2.png)
+   ![U+ コード、ラベル、表示順序フィールドが61](assets/emoticon_2.png)に設定された列挙値ダイアログ
 
 1. これで、新しい顔文字が&#x200B;**[!UICONTROL 顔文字を挿入リスト]**（標準の列挙）に追加されました。 **[!UICONTROL 表示順]**&#x200B;はいつでも変更できます。また、不要になった顔文字はストアに移動できます。
 
@@ -85,8 +85,8 @@ ht-degree: 91%
 
 1. 新しい顔文字は、前の手順で設定したように、配信の&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウの 61 番目の位置で確認できます。 配信で絵文字を使用する方法について詳しくは、この[&#x200B; セクション &#x200B;](defining-the-email-content.md#inserting-emoticons)を参照してください。
 
-   ![](assets/emoticon_4.png)
+   ![最後の位置に新しい絵文字を追加した絵文字ポップアップウィンドウを挿入](assets/emoticon_4.png)
 
 1. 次の顔文字が&#x200B;**[!UICONTROL 顔文字を挿入]**&#x200B;ポップアップウィンドウに表示される場合は、設定が正しくありません。 **[!UICONTROL 顔文字リスト]**&#x200B;で、**[!UICONTROL U+]** コードまたは&#x200B;**[!UICONTROL 表示順]**&#x200B;が正しいかどうかを確認します。
 
-   ![](assets/emoticon_6.png)
+   ![誤って設定された顔文字を示す2つの赤い十字アイコンを含む顔文字ポップアップウィンドウを挿入](assets/emoticon_6.png)

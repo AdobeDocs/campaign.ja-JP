@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 83%
 ---
 # データ更新の調整{#coordinating-data-updates}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 この目的は、別の更新操作を実行する前に、更新プロセスが終了していることを確認することです。 そのためには、インスタンス変数を設定し、インスタンスが実行中かどうかワークフローに確認させて、ワークフローの実行を継続し、更新をおこなうべきか決定します。
 
-![](assets/uc_dataupdate_wkf.png)
+![&#x200B; ワークフロー：スケジューラー、実行中ですか？ テストの終了日は「はい」、または「クエリ、データの更新」と「終了日2」は「いいえ」 &#x200B;](assets/uc_dataupdate_wkf.png)
 
 このワークフローは次の要素から構成されます。
 
@@ -55,19 +55,19 @@ ht-degree: 100%
    >
    >「isRunning」は、この例のために選択したインスタンス変数名です。 これは、ビルトイン変数ではありません。
 
-   ![](assets/uc_dataupdate_test.png)
+   ![実行中ですか？ yes条件instance.vars.isRunningおよびNo.](assets/uc_dataupdate_test.png)というラベルのデフォルトブランチを使用してアクティビティをテストします
 
 1. 「**いいえ**」の分岐に&#x200B;**終了**&#x200B;アクティビティを追加します。 これにより、既にワークフローが実行している場合は、何も実行されません。
 1. 「**はい**」の分岐に、必要なアクティビティを追加します。 この例では、**クエリ**&#x200B;アクティビティおよび&#x200B;**データを更新**&#x200B;アクティビティです。
 1. 最初のアクティビティを開き、「**[!UICONTROL 詳細設定]**」タブで **instance.vars.isRunning = true** コマンドを追加します。 これにより、インスタンス変数が実行中に設定されます。
 
-   ![](assets/uc_dataupdate_query.png)
+   ![初期化スクリプト instance.vars.isRunning = trueのクエリ アクティビティの詳細タブ。](assets/uc_dataupdate_query.png)
 
 1. **終了**&#x200B;アクティビティを「**[!UICONTROL はい]**」の分岐の最後に追加し、「**[!UICONTROL 詳細設定]**」タブで **instance.vars.isRunning = false** コマンドを追加します。
 
    これにより、ワークフローが実行している間は、何も実行されません。
 
-   ![](assets/uc_dataupdate_end.png)
+   初期化スクリプト instance.vars.isRunning = falseのEnd 2 アクティビティの![詳細タブ。](assets/uc_dataupdate_end.png)
 
 **関連トピック：**
 

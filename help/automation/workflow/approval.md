@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '631'
+ht-degree: 90%
 ---
 # 承認{#approval}
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 * 1 人のオペレーターを選択するには、「**[!UICONTROL 割り当てタイプ]**」フィールドで「**[!UICONTROL オペレーター]**」値を選択し、「**[!UICONTROL 担当者]**」フィールドのドロップダウンリストから該当するオペレーターを選択します。
 
-  ![](assets/s_advuser_validation_box_assign.png)
+  ![割り当てタイプ リストを開き、オペレーターが強調表示された承認アクティビティ &#x200B;](assets/s_advuser_validation_box_assign.png)
 
   >[!CAUTION]
   >
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 * 承認オペレーターをフィルターするクエリを定義できます。 それには、下図の例に示すように、「**[!UICONTROL 割り当てタイプ]**」フィールドで「**[!UICONTROL フィルター]**」値を選択し、「**[!UICONTROL 詳細設定パラメーター...]**」リンクをクリックして、フィルター条件を定義します。
 
-  ![](assets/s_advuser_validation_box_filter.png)
+  ![承認アクティビティがフィルターに設定され、詳細パラメーターのフィルター条件で、部署が値に等しい](assets/s_advuser_validation_box_filter.png)
 
 単独承認の場合は、オペレーターの選択に対応するトランジションが有効化され、タスクが完了します。他のオペレーターは回答できません。
 
@@ -69,13 +69,13 @@ ht-degree: 100%
 
 **承認**&#x200B;タイプのタスクは、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認保留]**&#x200B;ノードからアクセス可能です。オペレーターは、このビューから直接承認フォームにアクセスできます。
 
-![](assets/s_advuser_validation_from_console.png)
+![&#x200B; タスク承認ウィンドウにメッセージ「はい」または「いいえ」と「承認」ボタンが表示された承認保留中のリスト &#x200B;](assets/s_advuser_validation_from_console.png)
 
 ## プロパティ {#properties}
 
 カスタマイズ変数は、レビュー担当者に送信するメッセージに使用でき、 メッセージのタイトルまたは本文に挿入できます。
 
-![](assets/edit_validation.png)
+![&#x200B; アクティビティとイベント変数をタイトルフィールドに挿入するために使用されるパーソナライゼーションメニューを含む承認アクティビティ &#x200B;](assets/edit_validation.png)
 
 この「**[!UICONTROL タイトル]**」フィールドには、メッセージのタイトルが含まれます。これは、送信されたメールメッセージの件名です。 タイトルおよびメッセージの本文は JavaScript テンプレートになっているので、ワークフローの状況に応じて計算される値が含まれます。
 

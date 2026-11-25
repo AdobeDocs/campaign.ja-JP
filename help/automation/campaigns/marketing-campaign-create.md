@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 91%
+source-wordcount: '1550'
+ht-degree: 76%
 ---
 # プログラムとキャンペーンを作成{#create-programs-and-campaigns}
 
@@ -36,9 +36,9 @@ ht-degree: 91%
 
 マーケティングプログラムは、配信やリソースなどで構成されるキャンペーンで構成されます。配信、予算、レビュー担当者、リンクされたドキュメントに関するすべての情報は、キャンペーンにグループ化されます。
 
-![](assets/campaigns-create-from-home.png)
+マーケティングキャンペーンリスト、作成ボタン、キャンペーンカレンダーメニューが表示された![&#x200B; キャンペーンのホームページ &#x200B;](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでプログラムとキャンペーンを確認する](#video)
+![&#x200B; プログラムとキャンペーンに関するビデオの再生アイコン &#x200B;](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでのプログラムとキャンペーンの検索](#video)
 
 ## プログラムとプランの操作{#work-with-plan-and-program}
 
@@ -52,18 +52,18 @@ ht-degree: 91%
 1. プランの作成場所とするフォルダーを右クリックします。
 1. **新規フォルダーを追加／キャンペーン管理／プラン**&#x200B;を選択します。
 
-   ![](assets/create-new-plan-folder.png)
+   ![&#x200B; キャンペーン管理/プランを選択した状態で、エクスプローラーの新しいフォルダーメニューを追加](assets/create-new-plan-folder.png)
 
 1. プランの名前を変更します。
 1. 作成したプランを右クリックし、「**プロパティ**」を選択します。
 1. 「**一般**」タブで、パッケージエクスポート時の重複を避けるために「**内部名**」を変更します。
 
-   ![](assets/plan-properties.png)
+   ![&#x200B; フォルダープロパティダイアログ、一般タブ、ラベルおよび内部名フィールドと保存ボタン &#x200B;](assets/plan-properties.png)
 
 1. 「**保存**」をクリックします。
 1. 作成したプランを右クリックし、「**新しい「プログラム」フォルダーを作成**」を選択します。
 
-   ![](assets/program-folder.png)
+   ![新しい「プログラム」フォルダーを作成を選択したプランフォルダーのメニューを右クリック &#x200B;](assets/program-folder.png)
 
 1. 以上の手順を繰り返して、新しいプログラムフォルダーの名前および内部名を変更します。
 
@@ -76,7 +76,7 @@ ht-degree: 91%
 
 * 「**編集**」タブを使用して、名前、開始日と終了日、予算、リンクされたドキュメントなど、プログラムをパーソナライズできます。
 
-  ![](assets/new-program-edit-tab.png)
+  ![&#x200B; ラベル、内部名、スケジュール日、関連する予算と目的を含むプログラム編集タブ &#x200B;](assets/new-program-edit-tab.png)
 
 ## キャンペーンの操作{#work-with-campaigns}
 
@@ -86,7 +86,7 @@ ht-degree: 91%
 
 「**[!UICONTROL プログラム]**」フィールドを使用して、キャンペーンを関連付けるプログラムを選択できます。 この情報は必須です。
 
-![](assets/new-campaign-settings.png)
+![&#x200B; テンプレート、ラベル、プログラムのフィールド、OK ボタンを含む新しいマーケティングキャンペーンダイアログ &#x200B;](assets/new-campaign-settings.png)
 
 キャンペーンは、キャンペーンカレンダーまたはプログラムカレンダーから作成することもできます。 [詳細情報](#campaign-calendar)
 
@@ -102,7 +102,7 @@ ht-degree: 91%
 
 これらのアクションを実行すると、キャンペーンダッシュボードに移動します。
 
-![](assets/campaigns-dashboard-approve.png)
+コンテンツの承認とターゲティングの承認を提供する配信の承認メニューを含む![&#x200B; キャンペーンダッシュボード &#x200B;](assets/campaigns-dashboard-approve.png)
 
 キャンペーンの設定方法については、次の節を参照してください。
 
@@ -133,17 +133,17 @@ ht-degree: 91%
 
 キャンペーンごとに、ジョブ、リソースおよび配信をダッシュボードで一元管理します。 このインターフェイスでは、マーケティングアクションを管理および調整できます。
 
-Adobe Campaignでは、予算、目標、コンテンツの承認など、キャンペーンのさまざまなステップを作成および承認するための共同作業プロセスを設定できます。このオーケストレーションについて詳しくは、[このセクション &#x200B;](marketing-campaign-approval.md)を参照してください。
+Adobe Campaignでは、予算、目標、コンテンツの承認など、キャンペーンのさまざまなステップを作成および承認するための共同作業プロセスを設定できます。このオーケストレーションについて詳しくは、[承認プロセスの設定と管理](marketing-campaign-approval.md)を参照してください。
 
-![](assets/campaigns-dashboard-approval-tab.png)
+承認メニュー、コンテンツ、ターゲティングステータスが表示されたキャンペーンダッシュボードの![配信パネル &#x200B;](assets/campaigns-dashboard-approval-tab.png)
 
 >[!NOTE]
 >
->キャンペーンで使用できるコンポーネントは、そのテンプレートに応じて異なります。 キャンペーンテンプレートの設定については、[この節](marketing-campaign-templates.md#campaign-templates)を参照してください。
+>キャンペーンで使用できるコンポーネントは、そのテンプレートに応じて異なります。 キャンペーンテンプレート設定は、[&#x200B; キャンペーンテンプレートの作成と設定](marketing-campaign-templates.md#campaign-templates)に表示されます。
 
 キャンペーンを実施した後は、「**[!UICONTROL レポート]**」リンクをクリックすると、キャンペーンレポートにアクセスできます。
 
-![](assets/campaigns-reports-dashboard.png)
+![&#x200B; キャンペーンダッシュボードレポート タブには、キャンペーン費用や配信の概要](assets/campaigns-reports-dashboard.png)などのキャンペーンレポートが一覧表示されます
 
 ## Campaign カレンダー {#campaign-calendar}
 
@@ -151,11 +151,11 @@ Adobe Campaignでは、予算、目標、コンテンツの承認など、キャ
 
 プラン、プログラム、キャンペーンまたは配信を編集するには、カレンダー内でその名前をクリックして「**[!UICONTROL 開く]**」をクリックします。 すると、次のように新しいタブに表示されます。
 
-![](assets/campaign-calendar.png)
+開封リンク、スケジュール、ステータスを表示するキャンペーンのポップアップが表示された![&#x200B; キャンペーンカレンダー](assets/campaign-calendar.png)
 
 キャンペーンカレンダーに表示する情報をフィルタリングできます。 フィルタリングするには、「**[!UICONTROL フィルター]**」リンクをクリックして、フィルタリング条件を選択します。
 
-![](assets/campaign_planning_filter.png)
+キャンペーン、配信、タスク、およびプログラムのフィルターオプションを展開する![&#x200B; キャンペーンカレンダーフィルターリンク &#x200B;](assets/campaign_planning_filter.png)
 
 >[!NOTE]
 >
@@ -167,11 +167,11 @@ Adobe Campaignでは、予算、目標、コンテンツの承認など、キャ
 
 表示するキャンペーンをフィルタリングするには、「**[!UICONTROL フィルター]**」リンクをクリックして、表示するキャンペーンのステータスを選択します。
 
-![](assets/calendar-filter-options.png)
+![&#x200B; タスクドロップダウンリストのステータス（「編集中」、「開始」、「完了」など）を含むキャンペーンカレンダーフィルター](assets/calendar-filter-options.png)
 
 カレンダーを参照する際に、プログラムやキャンペーンを作成することもできます。
 
-![](assets/campaign-create-from-calendar.png)
+![&#x200B; プログラムのスケジュール タブと、プログラムの追加とキャンペーンの追加を提供する追加メニュー](assets/campaign-create-from-calendar.png)
 
 プログラムの「**[!UICONTROL スケジュール]**」タブからキャンペーンを作成すると、関連するプログラムに自動的にリンクされます。 この場合、「**[!UICONTROL プログラム]**」フィールドは非表示になります。
 
@@ -183,7 +183,7 @@ Adobe Campaignでは、予算、目標、コンテンツの承認など、キャ
 1. https://`<your instance>:<port>/view/home` から通常どおりにログオンします。
 1. メニューを使用して概要にアクセスします。
 
-   ![](assets/web-access-campaigns.png)
+   ![&#x200B; キャンペーンステータスとアクションメニューを含むweb インターフェイスのマーケティングキャンペーンリスト &#x200B;](assets/web-access-campaigns.png)
 
 キャンペーン全体を移動して表示する以外に、次のタイプのタスクを実行できます。
 
@@ -216,9 +216,9 @@ Adobe Campaignでは、予算、目標、コンテンツの承認など、キャ
 
 ターゲットや配信コンテンツの承認は、web アクセスで実行できます。
 
-![](assets/web-access-approval.png)
+![同意および拒否オプションとコメントフィールドを含むweb インターフェイスの配信ダイアログに対するアクション &#x200B;](assets/web-access-approval.png)
 
-通知メッセージに含まれるリンクを使用することもできます。 詳しくは、[この節](marketing-campaign-approval.md#review-and-approve-deliveries)を参照してください。
+通知メッセージに含まれるリンクを使用することもできます。 詳しくは、[配信のレビューと承認](marketing-campaign-approval.md#review-and-approve-deliveries)を参照してください。
 
 
 ## チュートリアルビデオ {#video}

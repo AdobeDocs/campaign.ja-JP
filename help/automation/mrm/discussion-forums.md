@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '626'
+ht-degree: 93%
 ---
 # ディスカッションフォーラム{#discussion-forums}
 
@@ -43,13 +43,13 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
 フォーラムにアクセスするには、ダッシュボードを参照し、右上隅にある「**[!UICONTROL フォーラム]**」リンクをクリックします。
 
-![](assets/mrm-forum-icon.png)
+![&#x200B; フォーラム リンクとディスカッションのリストを指す矢印が表示されたキャンペーン ダッシュボード。](assets/mrm-forum-icon.png)
 
 メッセージとメッセージへの回答は、新しい順に表示されます。
 
 新しいスレッドを開始するには、右上隅にある「**[!UICONTROL ディスカッションを追加]**」ボタンをクリックします。 「**[!UICONTROL ディスカッションフォーラム]**」ボックスが表示されます（下の図を参照）。
 
-![](assets/mrm-forum-new-thread.png)
+![件名、メッセージ、オペレーターを含むディスカッションフォーラムのダイアログで、通知、ドキュメントの添付、メッセージの作成を行います。](assets/mrm-forum-new-thread.png)
 
 
 「**[!UICONTROL メッセージ]**」フィールドにテキストを、「**[!UICONTROL 件名]**」フィールドにディスカッションのタイトルを入力します。
@@ -85,7 +85,7 @@ Adobe Campaign のオペレーターは、ディスカッションフォーラ�
 
 * 個人用ダッシュボードに、購読済みのフォーラムのリストが表示されます。 「**[!UICONTROL ディスカッションフォーラムの購読]**」リンクをクリックしてリストを表示し、関心がある項目をクリックしてフォーラムにアクセスします。
 
-  ![](assets/forum-subscribed.png)
+  ![&#x200B; ディスカッションフォーラムへの購読リストがハイライト表示されたオペレーターダッシュボード。](assets/forum-subscribed.png)
 
 
 ## 通知配信のトラブルシューティング {#checking-notification-delivery}

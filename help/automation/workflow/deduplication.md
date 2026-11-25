@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 100%
+source-wordcount: '1390'
+ht-degree: 83%
 ---
 # 重複排除{#deduplication}
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 * 各インバウンドフローを統合する「**和集合**」アクティビティを作成します。
 * 「**和集合**」アクティビティの後に、「**重複排除**」アクティビティを作成します。
 
-![](assets/dedup-best-practice.png)
+![2つのクエリが結合され、その後、重複排除アクティビティとリスト更新](assets/dedup-best-practice.png)が続きます
 
 ## 設定 {#configuration}
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 設定を編集...]**」リンクをクリックし、データの重複排除モードを定義します。
 
-   ![](assets/s_user_segmentation_dedup_param.png)
+   ![重複排除パラメーターの設定を編集リンクを含む重複排除アクティビティウィンドウ &#x200B;](assets/s_user_segmentation_dedup_param.png)
 
 1. このアクティビティのターゲットのタイプ（デフォルトでは重複排除 - 重複は受信者にリンクされます）と使用する条件（つまり、同じ値を使用して重複を識別できるフィールド）を選択します。
 
@@ -84,30 +84,30 @@ ht-degree: 100%
    >
    >次の手順で、「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 
-   ![](assets/s_user_segmentation_dedup_param2.png)
+   ![電子メール、SMS、電話、ファックス、郵便アドレス、その他のオプションを使用したディメンションのターゲティングステップ &#x200B;](assets/s_user_segmentation_dedup_param2.png)
 
 1. 値が同じ場合は、次の手順で「**[!UICONTROL その他]**」オプションで使用される基準または条件を選択できます。
 
-   ![](assets/s_user_segmentation_dedup_param3.png)
+   ![式を選択ウィンドウと生年月日フィールドを選択した重複ステップの識別](assets/s_user_segmentation_dedup_param3.png)
 
 1. ドロップダウンリストから、使用する重複排除メソッドを選択し、保持する重複の数を入力します。
 
-   ![](assets/s_user_segmentation_dedup_param4.png)
+   ![重複排除メソッドの手順をダブルスで保持し、メソッド リストに4つのメソッドが表示される](assets/s_user_segmentation_dedup_param4.png)
 
    次のメソッドを使用できます。
 
    * **[!UICONTROL 自動選択]**：保持するレコードが重複からランダムに選択されます。
    * **[!UICONTROL 値のリストの使用]**：1 つまたは複数のフィールドの優先度の値を定義します。 優先度の値を定義するには、フィールドを選択するか式を作成し、適切なフィールドに値を追加します。 新しいフィールドを定義するには、値のリストの上の「**[!UICONTROL 新規]**」ボタンをクリックします。
 
-     ![](assets/s_user_segmentation_dedup_param5.png)
+     ![優先度リストとその他の値オプションで、英語とフランス語の値メソッドのリストを作成する](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL 空でない値]**：選択した式の値が空でないレコードを優先して保持できます。
 
-     ![](assets/s_user_segmentation_dedup_param6.png)
+     ![式フィールドとアカウント番号フィールドが選択されている空でない値メソッド &#x200B;](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL 式の使用]**：所定の式の値が、最小（または最大）であるレコードを保持します。
 
-     ![](assets/s_user_segmentation_dedup_param7.png)
+     ![Statusを式として使用する式メソッドを使用し、選択された最大値を持つレコードを保持](assets/s_user_segmentation_dedup_param7.png)
 
    >[!NOTE]
    >
@@ -119,11 +119,11 @@ ht-degree: 100%
 
    アクティビティエディターの下側で、グラフィカルオブジェクトのアウトバウンドトラジションのラベルを変更し、アクティビティの結果に関連するセグメントコードを入力できます。 このコードは後の手順で、ターゲティング条件として使用できます。
 
-   ![](assets/s_user_segmentation_dedup_param8.png)
+   ![結果ラベル「Target」、「セグメントコード PRO」および「補集合を生成」をオンにした重複排除アクティビティ &#x200B;](assets/s_user_segmentation_dedup_param8.png)
 
 1. 残りの母集団を利用するには、「**[!UICONTROL 補集合を生成]**」オプションをチェックします。 補集合はすべての重複から構成されます。 その後、次の図のように、追加のトランジションがアクティビティに追加されます。
 
-   ![](assets/s_user_segmentation_dedup_param9.png)
+   ![重複排除をフィードする3つのプロファイルクエリ。重複およびターゲット出力が2つのリスト更新アクティビティに送信される](assets/s_user_segmentation_dedup_param9.png)
 
 ## 例：配信前の重複の特定 {#example--identify-the-duplicates-before-a-delivery}
 
@@ -133,7 +133,7 @@ ht-degree: 100%
 
 さらに、特定された重複は、必要に応じて再利用できるように、専用の重複リストにまとめられます。
 
-![](assets/deduplication_example.png)
+![3つのプロファイルクエリ、重複排除、配信、補完遷移に関するリストの更新を含むワークフロー](assets/deduplication_example.png)
 
 1. 上の図に示すように、ワークフローの操作に必要な各種アクティビティを追加してリンクします。
 
@@ -157,23 +157,23 @@ ht-degree: 100%
 
 例えば、一連の重複レコードでは、最も古い電話番号または最新の名前を保持するように選択できます。
 
-この機能を利用する使用例については、[この節](deduplication-merge.md)を参照してください。
+この機能を活用するユースケースは、[重複排除アクティビティの結合機能の使用](deduplication-merge.md)で利用できます。
 
 それをおこなうには、次の手順に従います。
 
 1. **[!UICONTROL 重複排除 - 重複方法]**&#x200B;の選択手順で、**[!UICONTROL 詳細設定パラメーター]**&#x200B;リンクをクリックします。
 
-   ![](assets/dedup1.png)
+   詳細パラメーターリンクがハイライト表示された![重複排除メソッドの手順](assets/dedup1.png)
 
 1. 「**[!UICONTROL レコードを結合]**」オプションを選択して、機能を有効にします。
 
    各結合条件で複数のデータフィールドをグループ化する場合は、「**[!UICONTROL 複数のレコード結合条件を使用]**」オプションを有効にします。
 
-   ![](assets/dedup2.png)
+   ![&#x200B; レコードを結合し、複数のレコード結合条件を使用するオプションをオンにした高度なパラメーター](assets/dedup2.png)
 
 1. 機能を有効化した後、「**[!UICONTROL 結合]**」タブが&#x200B;**[!UICONTROL 重複排除 - 重複]**&#x200B;アクティビティに追加されます。 結合するフィールドのグループと、それらに関連付けられたルールを定義できます。
 
-   詳しくは、[この節](deduplication-merge.md)で詳しく説明している使用事例を参照してください。
+   詳しくは、[重複排除アクティビティの結合機能の使用](deduplication-merge.md)で利用できる専用ユースケースを参照してください。
 
 ## 入力パラメーター {#input-parameters}
 

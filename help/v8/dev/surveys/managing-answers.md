@@ -19,10 +19,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 99%
+source-wordcount: '1224'
+ht-degree: 74%
 ---
 # 回答の管理{#managing-answers}
 
@@ -44,7 +44,7 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 調査で提供された回答を保存するための新しいストレージスペースを追加することで、データテンプレートを簡単に拡張できます。 これをおこなうには、入力フィールドを作成する際に、「**[!UICONTROL 質問に対する回答を保存]**」オプションを選択します。 「**[!UICONTROL 新しいフィールド]**」リンクをクリックして、プロパティを指定します。
 
-![](assets/s_ncs_admin_survey_new_space.png)
+![選択した質問に対する回答を保存する保存ダイアログと、契約フィールドの「新しいアーカイブされたフィールドを作成」ダイアログ &#x200B;](assets/s_ncs_admin_survey_new_space.png)
 
 フィールドのラベルと名前を入力し、フィールドのタイプ（テキスト、ブール値、整数または 10 進数、日付など）を選択します。
 
@@ -62,15 +62,15 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 例えば、ユーザーが母国語を選択するためのドロップダウンリストを作成することができます。 対応するアーカイブされたフィールドは、言語のリストを含む&#x200B;**言語**&#x200B;の列挙と関連付けることができます。
 
-![](assets/s_ncs_admin_survey_database_values_2b.png)
+![言語の列挙が選択され、リンクを編集アイコンがハイライト表示された新しいアーカイブされたフィールドを作成ダイアログ。](assets/s_ncs_admin_survey_database_values_2b.png)
 
 フィールドの右側にある&#x200B;**[!UICONTROL リンクを編集]**&#x200B;アイコンを使用すると、この列挙のコンテンツを編集できます。
 
-![](assets/s_ncs_admin_survey_database_values_2c.png)
+![英語、フランス語、ドイツ語の値を一覧表示する列挙言語（言語）エディター。](assets/s_ncs_admin_survey_database_values_2c.png)
 
 フィールドの「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL データベースからの値のリストを初期化]**」リンクを使用すると、提供されるラベルのリストを自動的に入力できます。
 
-![](assets/s_ncs_admin_survey_database_values_2.png)
+![&#x200B; ドロップダウンフィールドの「一般」タブ。言語ラベルを入力するデータベースリンクから値のリストを初期化します。](assets/s_ncs_admin_survey_database_values_2.png)
 
 **例**：受信者の契約を 1 つのフィールドに格納します。
 
@@ -78,31 +78,31 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 「**[!UICONTROL 新しいフィールド]**」リンクをクリックして、フィールドプロパティを入力します。 「**[!UICONTROL 複数値]**」オプションを選択して、複数の値の格納を有効にします。
 
-![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
+![複数の値オプションを選択した契約の新しいアーカイブ フィールドを作成ダイアログ。](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
 他の契約用の入力フィールドを作成し、同じアーカイブされたフィールドにデータを格納します。
 
-![](assets/s_ncs_admin_survey_storage_multi_ex2.png)
+![入力フィールドを契約アーカイブ フィールドにリンクするストレージ ダイアログとフィールド セレクター。](assets/s_ncs_admin_survey_storage_multi_ex2.png)
 
 ユーザーが調査を承認すると、その回答が「**[!UICONTROL 契約]**」フィールドに格納されます。
 
 この例では、次の回答が格納されます。
 
-![](assets/s_ncs_admin_survey_storage_multi_ex3.png)
+![値M、L、T、Vが入力された4つの契約フィールドを含む調査ページを契約します。](assets/s_ncs_admin_survey_storage_multi_ex3.png)
 
 回答者のプロファイルには、入力された 4 つの契約が含まれます。
 
 それらは、関連する列を表示することで、調査の「**[!UICONTROL 回答]**」タブで表示できます。
 
-![](assets/s_ncs_admin_survey_storage_multi_ex4.png)
+![複数値の回答の値を示すContrat_1からContrat_4列の回答を一覧表示する回答タブ。](assets/s_ncs_admin_survey_storage_multi_ex4.png)
 
 また、回答に基づいて受信者をフィルターして、関心のあるユーザーのみを表示できます。 これをおこなうには、ターゲティングワークフローを作成し、「**[!UICONTROL 調査の回答]**」ボックスを使用します。
 
-![](assets/s_ncs_admin_survey_read_responses_wf.png)
+![&#x200B; アンケート回答アクティビティを含むターゲティングワークフローが、ターゲティングパレットからダイアグラムにドラッグされました。](assets/s_ncs_admin_survey_read_responses_wf.png)
 
 復元するプロファイルに基づいてクエリを作成します。 次の例では、クエリによって、A タイプの契約を含む、少なくとも 2 つの契約のあるプロファイルを選択できます。
 
-![](assets/s_ncs_admin_survey_read_responses_edit.png)
+![&#x200B; アンケート回答アクティビティと、Contract_1に対するクエリ ダイアログのフィルタリングは、EとContract_2に対してRと等しい](assets/s_ncs_admin_survey_read_responses_edit.png)
 
 各フォームについて、提供された回答は、フィールドまたはラベルで利用できます。 アーカイブされたフィールドに格納された契約に対して、次の構文を使用します。
 
@@ -127,17 +127,17 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 * 「**[!UICONTROL 編集]**」タブの「**[!UICONTROL プロパティ]**」ボタンをクリックして、調査プロパティを編集します。
 * 「**[!UICONTROL 詳細設定パラメーター]**」リンクをクリックして、「**[!UICONTROL 生の回答のコピーを保存]**」オプションをチェックします。
 
-![](assets/s_ncs_admin_survey_xml_archive_option.png)
+![生の回答のコピーを保存オプションを選択したWeb アプリケーションの詳細パラメーターダイアログ。](assets/s_ncs_admin_survey_xml_archive_option.png)
 
 すべての調査に対して、デフォルトで有効にできます（このオプションは、調査がパブリッシュされると適用されます）。 これをおこなうには、次に示すように、**[!UICONTROL NmsWebApp_XmlBackup]** オプションを作成して、それに値 &quot;**[!UICONTROL 1]**&quot; を割り当てます。
 
-![](assets/s_ncs_admin_survey_xml_global_option.png)
+値1で作成されたNmsWebApp_XmlBackup オプションを持つPlatformの管理の![&#x200B; オプション ノード。](assets/s_ncs_admin_survey_xml_global_option.png)
 
 ## スコア管理 {#score-management}
 
 フォームのページで提供されたオプションにスコアを割り当てることができます。 スコアは、非公開の質問（チェックボックス、ドロップダウンリストからの値、購読など）にのみリンクされていることがあります。
 
-![](assets/s_ncs_admin_survey_score_create.png)
+![&#x200B; コンボボックスフィールド「一般」タブに、2.00から10.00までのスコア列を持つVIPに対するロイヤルティカードの標準値が一覧表示されます。](assets/s_ncs_admin_survey_score_create.png)
 
 スコアは、ページが確認されると（つまり、ユーザーが「**[!UICONTROL 次へ]**」または「**[!UICONTROL 完了]**」ボタンをクリックすると）、サーバー側に蓄積および保存されます。
 
@@ -153,7 +153,7 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 * スコアをテストで使用するには、次に示すように、テストの計算式の「**[!UICONTROL スコア]**」フィールドを使用します。
 
-  ![](assets/s_ncs_admin_survey_score_in_a_test.png)
+  ![&#x200B; スコアが6より大きい条件でアクティビティをテストし、コンテキストドキュメントから「スコア」フィールドを選択します。](assets/s_ncs_admin_survey_score_in_a_test.png)
 
 * スコアをスクリプトで使用できます。
 
@@ -161,18 +161,18 @@ Adobe Campaign のすべての Web フォームで共通の標準ストレージ
 
 * 調査で、次のページを使用すると、ドロップダウンリストで選択した値に応じて、異なるスコアをユーザーに割り当てることができます。
 
-  ![](assets/s_ncs_admin_survey_score_exa.png)
+  ![&#x200B; クラスレベルのドロップダウンフィールド、就学前から大学まで、スコアは2.00から7.00です。](assets/s_ncs_admin_survey_score_exa.png)
 
 * 選択したオプションに応じて、このスコアを 2 番目の値と組み合わせることができます。
 
-  ![](assets/s_ncs_admin_survey_score_exb.png)
+  ![複数選択フィールドです。親が7.00、学生が2.00と評価されています。](assets/s_ncs_admin_survey_score_exb.png)
 
 * ユーザーが「**[!UICONTROL 次へ]**」ボタンをクリックすると、2 つの値が加算されます。
 
-  ![](assets/s_ncs_admin_survey_score_exe.png)
+  ![ようこそページ。レベル リストでジュニア高が選択され、ステータスで親オプションが選択されています。](assets/s_ncs_admin_survey_score_exe.png)
 
 * 条件は、スコアに応じて、表示されるページに適用できます。 これは、次のように設定します。
 
-  ![](assets/s_ncs_admin_survey_score_exd.png)
+  ![&#x200B; ブランチの編集条件を使用してアクティビティをテスト：スコアが7.00を超えています。](assets/s_ncs_admin_survey_score_exd.png)
 
-  ![](assets/s_ncs_admin_survey_score_exg.png)
+  ![&#x200B; スコアが7未満の場合はレベル 1に、7と等しい場合はレベル 2に、7より上のレベル 3にアクティビティルートをテストします。](assets/s_ncs_admin_survey_score_exg.png)

@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 7%
+source-wordcount: '727'
+ht-degree: 6%
 ---
 # メッセージトラッキングのテスト {#testing-tracking}
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 1. 追跡したいリンクを含むメールコンテンツをデザインします。 [電子メールコンテンツデザインの詳細](defining-the-email-content.md)
 1. メールコンテンツにミラーページのパーソナライゼーションブロックを追加します。 [&#x200B; パーソナライゼーションブロックについて詳しく見る](personalization-blocks.md)
 
-   ![](assets/mirror-page-insert.png)
+   メールコンテンツエディターで「含める」と「ミラーページへのリンク」を選択した![Personalization メニュー](assets/mirror-page-insert.png)
 
 1. メールを受信するユーザーを指定します。 このユーザーは電子メールを開き、含まれるリンクをクリックする必要があるので、必ず制御するテスト受信者アドレスを選択してください。 [&#x200B; テストプロファイルについて学ぶ](../audiences/test-profiles.md)
 
@@ -71,7 +71,7 @@ ht-degree: 7%
    * 「**[!UICONTROL トラッキングをアクティブ化]**」がオンになっていることを確認します
    * 開封数を追跡する場合は、**[!UICONTROL 開封数の追跡]**&#x200B;がオンになっていることを確認してください
 
-   ![](assets/s_ncs_user_email_del_tracking_param.png)
+   「トラッキングを有効にし、トラッキングを開く」がチェックされ、トラッキングされたURL リストが表示された![&#x200B; トラッキングと画像ダイアログ &#x200B;](assets/s_ncs_user_email_del_tracking_param.png)
 
    [URL トラッキングオプションについて詳しく見る](url-tracking.md)
 
@@ -92,7 +92,7 @@ ht-degree: 7%
    * 「**[!UICONTROL トラッキング]**」タブを選択します
    * クリックしたURLやその他のトラッキングイベントと共にトラッキングログのリストが表示されることを確認します
 
-   ![](assets/s_ncs_user_delivery_tracking_tab.png)
+   ラベル、クリックして開くタイプ、受信者を示すトラッキングログのリストが表示された![配信トラッキングタブ &#x200B;](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## 手順4:「受信者の追跡」タブを確認する {#check-recipient-tracking}
 
@@ -101,7 +101,7 @@ ht-degree: 7%
 
 1. 「**[!UICONTROL トラッキング]**」タブを選択します。 [&#x200B; トラッキングログの詳細](tracking-logs.md)
 
-   ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+   ![日付、ラベル、種類、配信を含むトラッキングログを一覧表示する受信者プロファイルの「トラッキング」タブ &#x200B;](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 1. トラッキングレコードが次のように表示されることを確認します。
    * **[!UICONTROL Type]**&#x200B;列の&#x200B;**[!UICONTROL ミラーページ]**&#x200B;の値

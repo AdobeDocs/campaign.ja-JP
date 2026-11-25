@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 91%
 ---
 # 配信コントロール{#delivery-control}
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 これは、トランジション内で指定された配信、明示的に選択された配信、またはスクリプトで自動生成された配信です。 詳しくは、[配信](delivery.md)を参照してください。
 
-![](assets/edit_diffusion_act.png)
+![移行で指定された配信、アクションの開始と送信の移行の生成を含む配信制御アクティビティ &#x200B;](assets/edit_diffusion_act.png)
 
 「**[!UICONTROL 開始]**」を選択した場合、アクティビティは配信の開始に必要なすべての手順を実行します（ターゲットの計算、コンテンツの準備、配信）。 これらの手順の一部が、先行のワークフローアクティビティによって実行されている場合、再度実行されることはありません。 例えば、ターゲットの推定が「**[!UICONTROL 配信]**」タイプアクティビティによって既に実行されている場合（[配信](delivery.md)を参照）、「**[!UICONTROL 配信に基づくアクション]**」アクティビティが残りの手順を開始します（コンテンツの準備と配信）。
 

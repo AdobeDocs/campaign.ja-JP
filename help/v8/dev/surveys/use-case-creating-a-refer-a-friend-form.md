@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 95%
+source-wordcount: '825'
+ht-degree: 74%
 ---
 # ユースケース：リファラルフォームの作成{#use-case-creating-a-refer-a-friend-form}
 
@@ -45,7 +45,7 @@ ht-degree: 95%
 
 この例では、データベースの受信者に競合他社を紹介します。 Web フォームには、回答を入力するセクションを用意し、別のセクションで、メールアドレスを入力することで友達を紹介します。
 
-![](assets/s_ncs_admin_survey_viral_sample_0.png)
+![識別エリア、ランダムな質問を含むクイズエリア、友人を紹介する招待エリアを含むコンペティションフォーム &#x200B;](assets/s_ncs_admin_survey_viral_sample_0.png)
 
 識別ブロックおよび競合他社ブロックは、前に説明した手順で作成されます。
 
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 1. 次に示すように、質問および友達の連絡先情報を入力するフィールドを備えた競合他社 Web フォームを作成します。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_2.png)
+   ![識別、ゲーム、友人連絡先フィールドを含む紹介セクションを含む競合フォーム構造](assets/s_ncs_admin_survey_viral_sample_2.png)
 
    「**メッセージ**」フィールドを使用して、被紹介者にメッセージを入力できます。 また、紹介者は、**姓**、**名**&#x200B;およびメール&#x200B;**を入力する必要があります。**
 
@@ -65,7 +65,7 @@ ht-degree: 95%
    >
    >この例では、受信者をターゲットにして、紹介者に勧められた競合他社になるよう提案します。 ただし、このメッセージでは、情報サービスのいずれかの購読もオファーします。 購読する場合、データベースに格納できます。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_5.png)
+   ![友だちを参照セクションで「姓」フィールドが選択されたフォーム構造](assets/s_ncs_admin_survey_viral_sample_5.png)
 
    被紹介者に関係するフィールドのコンテンツは、プロファイル作成スクリプトおよび被紹介者に送信されるメッセージで使用されます。
 
@@ -73,7 +73,7 @@ ht-degree: 95%
 
    スクリプトには、次の命令が含まれます。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4.png)
+   ![参照者情報スクリプトボックスが開いているフォームダイアグラム。訪問者ID、転送URL、およびリファラーフィールドを設定します](assets/s_ncs_admin_survey_viral_sample_4.png)
 
    ```javascript
    ctx.recipient.visitor.@id = xtk.session.GetNewIds(1)
@@ -89,23 +89,23 @@ ht-degree: 95%
 
 1. ストレージボックスを使用すると、情報を収集してデータベースに保存できます。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
+   ![審判を保存する調整オプションで訪問者要素が選択されたストレージ ボックス ダイアログ &#x200B;](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
 1. 次に、手順 1 で作成した情報サービスにリンクされた配信テンプレートを作成します。 情報サービスの「**[!UICONTROL シナリオを選択]**」フィールドで選択されます。
 
    紹介オファーメッセージを作成するために使用される配信テンプレートには、次の情報が含まれます。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7.png)
+   ![&#x200B; パーソナライゼーションフィールドを使用する件名とHTML コンテンツを持つフレンド配信テンプレートを招待](assets/s_ncs_admin_survey_viral_sample_7.png)
 
    このテンプレートには、次のような特徴があります。
 
    * ターゲットマッピングとして訪問者テーブルを選択します。
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+     ![配信のターゲットマッピングとして訪問者（nms:visitor）が選択されたターゲットダイアログを選択](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
    * 被紹介者の連絡先情報および紹介者に関する情報は、訪問者テーブルから取得されます。 パーソナライゼーションボタンを使用して挿入されます。
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     配信コンテンツの![Personalization メニュー、訪問者サブメニューリストの姓、名、電子メールおよびリファラーフィールド &#x200B;](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * このテンプレートには、競合他社フォームへのリンクと、被紹介者がニュースレターを購読するための購読リンクが含まれます。
 
@@ -119,7 +119,7 @@ ht-degree: 95%
 
 1. 購読メッセージを配信するための 2 番目のスクリプトを作成します。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7c.png)
+   ![&#x200B; スクリプトボックス紹介者のストレージとメッセージ送信、紹介者への紹介電子メール通知をキューに入れるコード &#x200B;](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
    ```javascript
    // Updtate visitor to have a link to the referrer recipient
@@ -146,10 +146,10 @@ ht-degree: 95%
 
 1. 競合他社フォームをパブリッシュして、初期のターゲットである受信者に招待状を送付します。 受信者の誰かが友達を招待したら、**紹介オファー**&#x200B;テンプレートに基づいた配信が作成されます。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_8.png)
+   ![友達を招待セクションを含む完了したクイズ ページと、進行中の配信を示す配信リスト &#x200B;](assets/s_ncs_admin_survey_viral_sample_8.png)
 
    被紹介者が&#x200B;**[!UICONTROL 管理／訪問者ノード]**&#x200B;にある訪問者フォルダーに追加されます。
 
-   ![](assets/s_ncs_admin_survey_viral_sample_9.png)
+   ![訪問者フォルダーにレフリーが一覧表示され、訪問者の「一般」タブに名前、メール、リファラーが表示されている](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    被紹介者のプロファイルには、紹介者によって入力された情報が含まれます。 被紹介者のプロファイルは、フォームスクリプトに入力された設定に基づいて格納されます。 被紹介者がニュースレターを購読することに決めると、受信者テーブルに保存されます。

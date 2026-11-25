@@ -34,10 +34,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 97%
+source-wordcount: '540'
+ht-degree: 79%
 ---
 # 新しいスキーマの作成 {#create-new-schema}
 
@@ -47,11 +47,11 @@ ht-degree: 97%
 >
 >ビルトインデータスキーマは、Adobe Campaign コンソールの管理者のみが削除できます。
 
-![](assets/schema_navtree.png)
+管理、設定、およびデータスキーマノードがハイライト表示された![&#x200B; エクスプローラーツリー。](assets/schema_navtree.png)
 
 「**[!UICONTROL 編集]**」タブには、スキーマの XML コンテンツが表示されます。
 
-![](assets/schema_edition.png)
+![Source スキーマエディター、「編集」タブ。名前とラベルのフィールドとスキーマ XML コンテンツが表示されます。](assets/schema_edition.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 97%
 
 「**[!UICONTROL プレビュー]**」タブでは、次のように拡張スキーマが自動的に生成されます。
 
-![](assets/schema_edition2.png)
+![Source スキーマエディター、「プレビュー」タブ。生成された拡張スキーマ XMLが表示されます。](assets/schema_edition2.png)
 
 >[!NOTE]
 >
@@ -76,11 +76,11 @@ ht-degree: 97%
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／設定／データスキーマ]**&#x200B;ノードを編集し、「**[!UICONTROL 新規]**」をクリックします。
 1. 「**[!UICONTROL データテンプレートに新しいテーブルを作成]**」オプションを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/create_new_schema.png)
+   選択したデータテンプレートに新しいテーブルを作成するデータスキーマウィザードの![&#x200B; スキーマタイプページ。](assets/create_new_schema.png)
 
 1. テーブル名と名前空間を指定します。
 
-   ![](assets/create_new_param.png)
+   ![名前空間のケース、名前契約、ラベル、ラベル （単数）および説明が入力されたスキーマ パラメーターのページ。](assets/create_new_param.png)
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ ht-degree: 97%
 
 1. テーブルの内容を作成します。 設定の見落としがないように、専用のアシスタントを使用することをお勧めします。 それには、「**[!UICONTROL 挿入]**」ボタンをクリックし、追加する設定のタイプを選択します。
 
-   ![](assets/create_new_content.png)
+   ![挿入メニューを開いた状態でスキーマページを編集し、文字列や整数などの属性タイプを表示します。](assets/create_new_content.png)
 
 1. 契約テーブルの設定を定義します。
 
@@ -138,6 +138,6 @@ ht-degree: 97%
 
 1. スキーマを保存し、「**[!UICONTROL 構造]**」タブをクリックして構造を生成します。
 
-   ![](assets/configuration_structure.png)
+   ![契約スキーマのリスト所有者、共同所有者、契約番号、およびサブスクリプション日付属性の「構造」タブ。](assets/configuration_structure.png)
 
 1. データベース構造を更新して、スキーマのリンク先となるテーブルを作成します。 詳しくは、[&#x200B; データベース構造の更新](update-database-structure.md)を参照してください。

@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 83%
+source-wordcount: '476'
+ht-degree: 81%
 ---
 # トランザクションメッセージの概要{#send-transactional-messages}
 
@@ -86,7 +86,7 @@ Adobe Campaign で処理されるイベントタイプを作成するには、�
 1. リストから&#x200B;**[!UICONTROL イベントタイプ]**&#x200B;列挙を選択します。
 1. 「**[!UICONTROL 追加]**」をクリックして、列挙の値を作成します。 注文の確認、パスワードの変更、注文の配送変更などがイベントタイプとして考えられます。
 
-   ![](assets/messagecenter_eventtype_enum_001.png)
+   ![管理/プラットフォーム/列挙の下のイベントタイプ列挙、追加および列挙値ダイアログ &#x200B;](assets/messagecenter_eventtype_enum_001.png)
 
    >[!CAUTION]
    >

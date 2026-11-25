@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 77%
+source-wordcount: '314'
+ht-degree: 58%
 ---
 # フィルターの作成 {#creating-a-filter}
 
@@ -41,19 +41,19 @@ Adobe Campaignで使用可能なフィルターは、[&#x200B; クエリエデ�
 
 例えば、オペレーターのリストを「**[!UICONTROL アクティブなアカウント]**」でフィルターできます。
 
-![](assets/query_editor_filter_sample_1.png)
+![&#x200B; フィルターメニューを開き、アクティブなアカウントフィルターを選択したオペレーターリスト &#x200B;](assets/query_editor_filter_sample_1.png)
 
 対応するフィルターには、「**[!UICONTROL オペレーター]**」スキーマの「**[!UICONTROL 無効なアカウント]**」の値に対するクエリが含まれています。
 
-![](assets/query_editor_filter_sample_2.png)
+![&#x200B; ログイン別またはラベル別フィルターを選択した定義済みフィルターリスト。ラベル、内部名、ドキュメントタイプが表示されます](assets/query_editor_filter_sample_2.png)
 
 同じリストで、「**[!UICONTROL ログインまたはラベル別]**」フィルターを使用して、フィルターフィールドに入力した値に基づいてリストのデータをフィルターできます。
 
-![](assets/query_editor_filter_sample_3.png)
+![&#x200B; ログインまたはラベルに「含まれる」フィールドに入力された代理店でフィルタリングされたオペレーターリスト。1つのオペレーターを返す](assets/query_editor_filter_sample_3.png)
 
 このフィルターは次のように設計されています。
 
-![](assets/query_editor_filter_sample_4.png)
+![&#x200B; ログインまたはラベル フィルター定義で、ラベル、名前、説明に3つのフィルター条件を使用](assets/query_editor_filter_sample_4.png)
 
 フィルター条件に一致するには、オペレーターアカウントは次のいずれかの条件を満たしている必要があります。
 
@@ -67,7 +67,7 @@ Adobe Campaignで使用可能なフィルターは、[&#x200B; クエリエデ�
 
 「**[!UICONTROL 次の場合に考慮]**」列では、これらのフィルター条件の適用基準を定義できます。 ここでは、文字 **$(/tmp/@text)** は、フィルターにリンクされた入力フィールドの内容を表します。
 
-![](assets/query_editor_filter_sample_5.png)
+![&#x200B; ログインまたはラベルにエージェンシーが入力されたオペレーターリストが「次を含む」フィールドを含み、ロンドンのエージェンシー](assets/query_editor_filter_sample_5.png)を返します
 
 ここでは、**$(/tmp/@text)=&#39;代理店&#39;** となっています。
 

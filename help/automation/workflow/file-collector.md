@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '600'
+ht-degree: 94%
 ---
 # ファイルコレクター{#file-collector}
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 「**[!UICONTROL ファイルコレクター]**」アクティビティの最初のタブで、ソースディレクトリを選択し、必要に応じて、収集したファイルをフィルターします。 他のタブ（「**[!UICONTROL スケジュール]**」タブおよび「**[!UICONTROL 期日]**」タブ）については、[インバウンドメール](inbound-emails.md)を参照してください。
 
-![](assets/file_collect_edit.png)
+![&#x200B; ファイルが処理されるとすぐに、「ディレクトリ」、「フィルター」および「停止」を含むファイルコレクターディレクトリタブのオプション &#x200B;](assets/file_collect_edit.png)
 
 1. **ファイルのダウンロード**
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 ファイルを処理する順序は指定できません。 複数のファイルを順番に処理するには、「**[!UICONTROL ファイルが処理されたらすぐに停止します]**」オプションを設定し、反復処理をおこないます。 このようにすると、ファイルはアルファベット順に処理されます。 「**[!UICONTROL プロセスファイルなし]**」を設定すると、この反復処理を終了できます。
 
-![](assets/file_collect_loop.png)
+![&#x200B; ファイルなし移行に関するアラートアクティビティを使用して、「ファイルに戻る読み込み」コレクターからワークフローをループする](assets/file_collect_loop.png)
 
 ## 出力パラメーター {#output-parameters}
 

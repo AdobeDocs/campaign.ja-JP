@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '531'
+ht-degree: 84%
 ---
 # サブワークフロー{#sub-workflow}
 
@@ -30,13 +30,13 @@ ht-degree: 100%
 
 1 つのワークフローで複数のサブワークフローを呼び出すことができます。 サブワークフローは、同期して実行されます。
 
-以下の例では、プライマリワークフローが、ジャンプを使用してサブワークフローを呼び出しています。 ジャンプタイプのグラフィカルオブジェクトについて詳しくは、[この節](jump-start-point-and-end-point.md)を参照してください。
+以下の例では、プライマリワークフローが、ジャンプを使用してサブワークフローを呼び出しています。 ジャンプ型のグラフィカル オブジェクトについて詳しくは、[&#x200B; ジャンプ （開始点と終了点） &#x200B;](jump-start-point-and-end-point.md)を参照してください。
 
 1. 別のワークフローでサブワークフローとして使用するワークフローを作成します。
 1. ワークフローの最初に、優先度が 1 の&#x200B;**[!UICONTROL ジャンプ (終了点)]** アクティビティを挿入します。 「終了点」タイプのジャンプが複数ある場合、Adobe Campaign は一番小さい数の「終了点」ジャンプを使用します。
 1. ワークフローの最後に、優先度が 2 の&#x200B;**[!UICONTROL ジャンプ (開始点)]** アクティビティを挿入します。 「開始点」タイプのジャンプが複数ある場合、Adobe Campaign は一番大きい数の「開始点」ジャンプを使用します。
 
-   ![](assets/subworkflow_jumps.png)
+   ![&#x200B; サブワークフロー図は、ジャンプ （エンドポイント） 1で始まり、クエリと和集合の周囲のジャンプ （開始点） 2で終わります。](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
@@ -49,12 +49,12 @@ ht-degree: 100%
 1. **[!UICONTROL サブワークフロー]**&#x200B;アクティビティを挿入して開きます。
 1. **[!UICONTROL ワークフローテンプレート]**&#x200B;ドロップダウンリストから、使用するワークフローを選択します。
 
-   ![](assets/subworkflow_selection.png)
+   ![&#x200B; ワークフローテンプレートのドロップダウンリストが利用可能なワークフロー、サブワークフロー（WKF55）を選択したサブワークフローアクティビティ。](assets/subworkflow_selection.png)
 
 1. さらに、参照先ワークフローを変更するための設定スクリプトを追加することもできます。
 1. 「**[!UICONTROL OK]**」をクリックします。 これにより、選択したワークフローから、**[!UICONTROL ジャンプ (開始点)]** アクティビティラベルのついたアウトバウンドトランジションを自動的に作成します。
 
-   ![](assets/subworkflow_outbound.png)
+   ![呼び出しサブワークフローとジャンプ （開始点）のラベルが付いたアウトバウンドトランジションを含むプライマリワークフロー2.](assets/subworkflow_outbound.png)
 
 1. ワークフローを実行します。
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 * 中間母集団の数は表示できません。
 * サブワークフローのログは、プライマリワークフローに表示されます。
 
-  ![](assets/subworkflow_logs.png)
+  ![結果クエリのサブワークフローログメッセージを表示するプライマリワークフローの「監査」タブ。](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 69%
+source-wordcount: '474'
+ht-degree: 61%
 ---
 # SQL コードと JavaScript コード{#sql-code-and-javascript-code}
 
@@ -36,7 +36,7 @@ ht-degree: 69%
 
 「**[!UICONTROL SQL コード]**」アクティビティは、SQL スクリプトを実行します。 スクリプトは、JST テンプレートです。
 
-![](assets/sql_code.png)
+![&#x200B; ラベル フィールド、SQL スクリプト エディターおよびプロセス エラーのオプションを含むSQL コード アクティビティ ダイアログ &#x200B;](assets/sql_code.png)
 
 * **[!UICONTROL スクリプト]**
 
@@ -79,7 +79,7 @@ ht-degree: 69%
 
 ### JavaScript コード {#js-code-desc}
 
-![](assets/javascript_code.png)
+![&#x200B; ラベル、実行後の停止、スクリプトフィールド、プロセスエラーオプションを含むJavaScript コードアクティビティダイアログ &#x200B;](assets/javascript_code.png)
 
 * **[!UICONTROL スクリプト]**：実行されるスクリプトがエディターの中央部に記述されています。
 
@@ -87,7 +87,7 @@ ht-degree: 69%
 
 ### 高度な JavaScript コード {#adv-js-code-desc}
 
-![](assets/advanced_javascript_code.png)
+![最初の呼び出しおよび次の呼び出しスクリプトエディターとOk トランジションを含む高度なJavaScript コードアクティビティ &#x200B;](assets/advanced_javascript_code.png)
 
 * **[!UICONTROL 最初の呼び出し]**：エディターの最初のゾーンには、最初の呼び出し時に実行するスクリプトが含まれます。
 * **[!UICONTROL 次の呼び出し]**：エディターの 2 番目のゾーンには、2 回目以降の呼び出し時に実行するスクリプトが含まれます。

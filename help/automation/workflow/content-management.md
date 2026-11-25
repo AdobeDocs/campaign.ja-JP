@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 84%
 ---
 # コンテンツ管理{#content-management}
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 * **コンテンツの更新**：コンテンツの件名を変更するか、すべての XML コンテンツをインポートします。
 * **アクション**：生成されるコンテンツを保存または生成できます。
 
-  ![](assets/content_mgmt_edit.png)
+  ![&#x200B; コンテンツを含むコンテンツ管理アクティビティ、セクションとアウトバウンドトランジションを実行するコンテンツとアクションの更新](assets/content_mgmt_edit.png)
 
 1. **コンテンツ**
 
@@ -59,19 +59,19 @@ ht-degree: 100%
 
      「**[!UICONTROL コンテンツ]**」フィールドで、作成済みのコンテンツを選択できます。 このフィールドは「**[!UICONTROL 明示]**」オプションを選択した場合にのみ表示されます。
 
-     ![](assets/content_mgmt_explicit.png)
+     明示的オプションが選択され、コンテンツフィールドが既存のコンテンツに設定された![&#x200B; コンテンツセクション &#x200B;](assets/content_mgmt_explicit.png)
 
    * **[!UICONTROL スクリプトで計算]**
 
      コンテンツ ID がスクリプトによって自動生成されます。 「**[!UICONTROL 分割]**」フィールドに、コンテンツの ID（プライマリキー）を評価する JavaScript テンプレートを定義できます。 このフィールドは「**[!UICONTROL スクリプトで計算]**」オプションを選択した場合にのみ表示されます。
 
-     ![](assets/content_mgmt_script.png)
+     ![&#x200B; スクリプトによって計算されたコンテンツセクションが選択され、スクリプトフィールドが表示されます](assets/content_mgmt_script.png)
 
    * **[!UICONTROL 新規（パブリッシュテンプレートから作成）]**
 
      パブリッシュテンプレートを使用して、新しいコンテンツを作成します。 「**[!UICONTROL 文字列]**」フィールドで指定されたファイルに新しいコンテンツが格納されます。 「**[!UICONTROL テンプレート]**」フィールドで、コンテンツの作成に使用されるパブリッシュテンプレートを指定します。
 
-     ![](assets/content_mgmt_new.png)
+     ![新しいコンテンツセクション。選択した公開テンプレートから作成され、「テンプレート」フィールドと「チャネル」フィールド &#x200B;](assets/content_mgmt_new.png)
 
 1. **コンテンツを更新**
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
      XSL スタイルシート経由でダウンロードした XML ドキュメントからコンテンツを構築できます。 このオプションが選択されている場合、「**[!UICONTROL URL]**」フィールドは XML コンテンツのダウンロード URL を指定します。 「**[!UICONTROL XSL スタイルシート]**」では、ダウンロードした XML ドキュメントの変換に使用されるスタイルシートを指定できます。 このプロパティはオプションです。
 
-     ![](assets/content_mgmt_xmlcontent.png)
+     ![XML フィードからのデータへのアクセスがチェックされたコンテンツセクションを更新し、URLとXSL スタイルシートのフィールドを表示](assets/content_mgmt_xmlcontent.png)
 
 1. **実行するアクション**
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
      「ファイル」タイプのパブリッシュによって、コンテンツを保存し、変換テンプレートごとに出力ファイルを生成します。
 
-     ![](assets/content_mgmt_generate.png)
+     ![生成が選択され、公開フォルダーフィールドが表示されたセクションを実行するアクション &#x200B;](assets/content_mgmt_generate.png)
 
      生成されたファイルごとにアウトバウンドトランジションが有効化され、コンテンツ ID がパラメーターとして変数 **[!UICONTROL contentId]** に、ファイル名は変数 **[!UICONTROL filename]** に保存されます。
 

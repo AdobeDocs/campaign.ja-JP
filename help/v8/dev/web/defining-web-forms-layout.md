@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 96%
+source-wordcount: '708'
+ht-degree: 72%
 ---
 # web フォームレイアウトの定義{#defining-web-forms-layout}
 
@@ -36,19 +36,19 @@ ht-degree: 96%
 
 フォームの各ページで、ツールバーの&#x200B;**[!UICONTROL コンテナ]**&#x200B;ボタンを使用してコンテナを作成します。
 
-![](assets/s_ncs_admin_survey_containers_add.png)
+![&#x200B; コンテナーツールバーボタンを開いたWeb フォームページエディター。標準コンテナーオプションを提供](assets/s_ncs_admin_survey_containers_add.png)
 
 コンテナを使用して、最終レンダリングにラベルを追加せずに、ページの要素をグループ化します。 要素は、コンテナサブツリーにグループ化されます。 標準コンテナを使用すると、レイアウトを管理できます。
 
 次に例を示します。
 
-![](assets/s_ncs_admin_survey_containers_std_arbo.png)
+![2つのコンテナ、一般情報と契約書、およびそれらのフォームフィールドのツリーを含むページプロパティ &#x200B;](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
 ラベルの位置は、階層のコンテナの下に配置された要素に適用されます。 必要に応じて、各要素についてオーバーロードできます。 列を追加または削除して、レイアウトを変更します。 [ページへのフィールドの配置](#positioning-the-fields-on-the-page)を参照してください。
 
 上記の例では、レンダリングは次のようになります。
 
-![](assets/s_ncs_admin_survey_containers_std_ex.png)
+![2つのコンテナを含むレンダリングされたフォームページ：個人情報フィールドと契約チェックボックスリスト、および検証ボタン &#x200B;](assets/s_ncs_admin_survey_containers_std_ex.png)
 
 ## ページへのフィールドの配置 {#positioning-the-fields-on-the-page}
 
@@ -58,33 +58,33 @@ Web フォームのレイアウトは、各コンテナでページごとに定�
 
 デフォルトでは、ページは単一の列で構築され、各要素が 1 つのセルを占有します。 これは、次に示すように、フィールドが別のフィールドの下に表示され、各フィールドが行全体を占めることを意味します。
 
-![](assets/s_ncs_admin_survey_container_ex.png)
+![性別、名前、名、電子メールのフィールドが別々の行に積み重ねられた1列のフォームページをレンダリングしました](assets/s_ncs_admin_survey_container_ex.png)
 
 次の例では、デフォルトの設定が維持されています。 ページは、4 つのコンテナを含む単一の列を占有します。
 
-![](assets/s_ncs_admin_survey_container_ex0.png)
+![4つのコンテナと列数が1つのハイライト表示されたページのプロパティ &#x200B;](assets/s_ncs_admin_survey_container_ex0.png)
 
 各コンテナは 1 列を占有し、各要素は 1 つのセルを占有します。
 
-![](assets/s_ncs_admin_survey_container_ex0a.png)
+![表示設定でセル数が1に設定された情報要素のプロパティ &#x200B;](assets/s_ncs_admin_survey_container_ex0a.png)
 
 レンダリングは次のようになります。
 
-![](assets/s_ncs_admin_survey_container_ex0_rend.png)
+![4つのコンテナを持つ1列のページレンダリング。各1列は垂直方向に積み重ねられます](assets/s_ncs_admin_survey_container_ex0_rend.png)
 
 表示パラメーターを適応させて、次のようなレンダリングを取得できます。
 
-![](assets/s_ncs_admin_survey_container_ex1_rend.png)
+![&#x200B; コンテナ 1と3が左側の列に配置され、コンテナ 2と4が右側に配置される2列のページレンダリング &#x200B;](assets/s_ncs_admin_survey_container_ex1_rend.png)
 
 このレンダリングの例では、各入力フィールド、タイトルおよび画像は、コンテナの列の 1 つのセルを占有します。
 
 各コンテナの書式設定を修正できます。 この例では、コンテナ 4 のコンテンツを 2 列に広げて、要素を分配します。
 
-![](assets/s_ncs_admin_survey_container_ex2_rend.png)
+![2列のコンテナ 4: タイトルとコンボボックスはそれぞれ1つのセルを取り、チェックボックスは2つのセルにまたがっています](assets/s_ncs_admin_survey_container_ex2_rend.png)
 
 タイトルとリストは、それぞれ 1 つのセル（つまりコンテナの行全体）を占有し、チェックボックスは 2 つのセルをまたがっています。 入力フィールドに属するセルの数は、フィールドのタイプに従って、「**[!UICONTROL 一般]**」タブまたは「**[!UICONTROL 詳細設定]**」タブで定義されます。
 
-![](assets/s_ncs_admin_survey_container_ex2.png)
+![表示設定](assets/s_ncs_admin_survey_container_ex2.png)でセル数が2に設定されたチェックボックス要素の「詳細」タブ
 
 ## ラベルの位置の定義 {#defining-the-position-of-labels}
 
@@ -94,7 +94,7 @@ Web フォームのレイアウトは、各コンテナでページごとに定�
 
 フォーム全体のグローバルな表示パラメーターは、フォームプロパティボックスで指定されます。 「**[!UICONTROL レンダリング]**」タブを使用すると、ラベルの位置を選択できます。
 
-![](assets/s_ncs_admin_survey_label_position.png)
+![Web フォームのプロパティ ダイアログ、「レンダリング」タブ、「ラベルの位置」リストが継承、左、右、上、下、非表示](assets/s_ncs_admin_survey_label_position.png)
 
 この位置は、「**[!UICONTROL 詳細設定]**」タブで、各ページ、各コンテナおよび各フィールドに対してオーバーロードできます。
 

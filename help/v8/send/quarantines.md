@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 64%
+source-wordcount: '1481'
+ht-degree: 62%
 ---
 # 強制隔離 {#quarantine-management}
 
@@ -109,7 +109,7 @@ Adobe Campaign では、配信エラーのタイプと理由に応じて強制�
 
 Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x200B;強制隔離されたアドレスのリストを表示するために、**[!UICONTROL 管理／キャンペーン管理／配信不能件数の管理／配信不能件数およびアドレス]**&#x200B;を参照できます。 このセクションには、**メール**、**SMS** および&#x200B;**プッシュ通知**&#x200B;チャネルの強制隔離された要素のリストが表示されます。
 
-![](assets/tech-quarantine.png)
+![強制隔離ステータス、エラーの理由、エラーテキスト、配信アクションを含む強制隔離されたアドレスレコード &#x200B;](assets/tech-quarantine.png)
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 各フォルダーについて、以下のように、**[!UICONTROL 強制隔離されたメールアドレス]**&#x200B;ビルトインのフィルターを使用して、メールアドレスが強制隔離されている受信者のみを表示できます。
 
-![](assets/quarantine-filter.png)
+![強制隔離された電子メールアドレスの組み込みフィルターがハイライト表示された受信者リストフィルターメニュー](assets/quarantine-filter.png)
 
 
 ## 強制隔離アドレスを削除 {#remove-a-quarantined-address}
@@ -156,7 +156,7 @@ Campaign 管理者は&#x200B;**プラットフォーム全体に対して**&#x20
 
 また、強制隔離リストからアドレスを手動で削除することもできます。 強制隔離からアドレスを手動で削除するには、ステータスを&#x200B;**[!UICONTROL 管理/キャンペーン管理/配信不能管理/配信不能件数とアドレス]** ノードの&#x200B;**[!UICONTROL 有効]**&#x200B;に変更します。
 
-![](assets/tech-quarantine-status.png)
+![&#x200B; ステータス ドロップダウンリストが開き、有効なステータスが選択されたアドレス レコードが強制隔離から削除されます](assets/tech-quarantine-status.png)
 
 ### 一括更新 {#unquarantine-bulk}
 

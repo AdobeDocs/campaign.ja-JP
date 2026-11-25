@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 96%
+source-wordcount: '3245'
+ht-degree: 74%
 ---
 # web フォームへのフィールドの追加{#adding-fields-to-a-web-form}
 
@@ -39,7 +39,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 アシスタントを使用してフィールドを追加する場合、フィールドタイプは、選択したフィールドまたはストレージ変数に基づいて自動的に検出されます。 「**[!UICONTROL 一般]**」タブの&#x200B;**[!UICONTROL タイプ]**&#x200B;ドロップダウンボックスを使用して編集できます。
 
-![](assets/s_ncs_admin_webform_change_type.png)
+![&#x200B; ページダイアログ、一般タブ、種類ドロップダウンを開いた状態でフィールドをコンボボックスから別の種類に変更](assets/s_ncs_admin_webform_change_type.png)
 
 ツールバーのボタンを使用する場合、追加するフィールドのタイプを選択します。
 
@@ -66,23 +66,23 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 フォームの各ページで、ツールバーの最初のボタンを使用してフィールドを追加できます。 これを行うには、**[!UICONTROL アシスタントを使用して追加]**&#x200B;メニューに移動します。
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![質問への回答、受信者の編集、変数の追加、既存の質問の読み込みを提供するフィールド作成ウィザード &#x200B;](assets/s_ncs_admin_survey_add_field_menu.png)
 
 作成するフィールドのタイプを選択します。データベースのフィールドを追加する方法、変数を追加する方法、または別のフォームで作成してコンテナに収集されたフィールドグループをインポートする方法から選択できます。
 
 「**[!UICONTROL 次へ]**」をクリックし、ストレージフィールド、変数、またはインポートするコンテナを選択します。
 
-![](assets/s_ncs_admin_webform_wz_confirm_db.png)
+![&#x200B; フィールド作成ウィザード、プロファイルの編集ステップ、完了をクリックする前にSalutation データベース フィールドを選択した状態](assets/s_ncs_admin_webform_wz_confirm_db.png)
 
 「**[!UICONTROL 完了]**」をクリックして、選択したフィールドをページに挿入します。
 
-![](assets/s_ncs_admin_webform_wz_insert_field.png)
+![&#x200B; ウィザードの後にウェルカムページに挿入された挨拶コンボボボックスフィールドを表示するページダイアログ &#x200B;](assets/s_ncs_admin_webform_wz_insert_field.png)
 
 ## 入力フィールドの追加 {#adding-input-fields}
 
 入力フィールドを追加するには、「**[!UICONTROL 入力コントロール]**」ボタンをクリックし、追加するフィールドのタイプを選択します。
 
-![](assets/s_ncs_admin_webform_select_field.png)
+![&#x200B; テキスト、数字、パスワード、複数行のテキストおよびHTMLのテキストフィールドの種類を一覧表示する入力制御メニュー](assets/s_ncs_admin_webform_select_field.png)
 
 ### 入力フィールドのタイプ {#types-of-input-fields}
 
@@ -90,7 +90,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 * **テキスト**：ユーザーは1行のテキストを入力できます。
 
-  ![](assets/s_ncs_admin_survey_txt_ex.png)
+  ![1行の値を含む姓のラベルが付いたレンダリングされたテキストフィールド &#x200B;](assets/s_ncs_admin_survey_txt_ex.png)
 
 * **数値**：ユーザーは 1 行に数値を入力できます。 詳しくは、[数値の追加](#adding-numbers)を参照してください。
 
@@ -98,7 +98,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 * **パスワード**：ユーザーは 1 行にテキストを入力できます。 テキスト入力中、文字はピリオドで置き換えられます。
 
-  ![](assets/s_ncs_admin_survey_passwd_ex.png)
+  ![入力された文字がドットでマスクされたパスワードのラベルが付いたパスワードフィールドをレンダリングしました](assets/s_ncs_admin_survey_passwd_ex.png)
 
   >[!CAUTION]
   >
@@ -106,7 +106,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 * **複数ラインテキスト**：ユーザーは複数行にテキストを入力できます。
 
-  ![](assets/s_ncs_admin_survey_txtmulti_ex.png)
+  ![&#x200B; スクロールバーとサンプルテキストで「メッセージ」のラベルが付いた複数行のテキストフィールドをレンダリング &#x200B;](assets/s_ncs_admin_survey_txtmulti_ex.png)
 
   >[!CAUTION]
   >
@@ -115,21 +115,21 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 * **エンリッチメントされた複数ラインテキスト**：ユーザーは HTML 形式で格納されるレイアウトを使用してテキストを入力できます。
 
-  ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
+  ![書式設定ツールバー、太字、リンク、挿入された画像を含む強化されたテキストエディターのレンダリング &#x200B;](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
   ユーザーに提供されるエディターのタイプを選択できます。 これをおこなうには、「**[!UICONTROL 詳細設定]**」タブにある「**[!UICONTROL HTML エディター]**」フィールドのドロップダウンボックスを使用します。
 
-  ![](assets/webapp_enrich_text_type.png)
+  ![HTML エディターのドロップダウンリストの詳細タブ（ミニマリスト、基本、中級、高度） &#x200B;](assets/webapp_enrich_text_type.png)
 
   表示されるアイコンの数は、エディターのタイプによって異なります。 **[!UICONTROL 詳細設定]**&#x200B;エディターの場合のレンダリングを次に示します。
 
-  ![](assets/webapp_enrich_text_max.png)
+  ![完全なツールバーとフォントサイズ ドロップダウンを含むフォームページ上の高度なHTML エディターを開く](assets/webapp_enrich_text_max.png)
 
 ### 入力フィールドの設定 {#configure-input-fields}
 
 入力フィールドは、次のオプションを使用して、すべて同じモードに基づいて設定されます。
 
-![](assets/s_ncs_admin_survey_txt_param.png)
+![&#x200B; ラベル、必須、ストレージ、ストレージリンクの編集およびデフォルト値を含むテキスト入力フィールドの「一般」タブ &#x200B;](assets/s_ncs_admin_survey_txt_param.png)
 
 「**[!UICONTROL 一般]**」タブを使用すると、フィールドの名前を入力でき、必要に応じてデフォルト値にすることができます。
 
@@ -145,17 +145,17 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 調査ページにドロップダウンリストを挿入できます。 これにより、ユーザーは、ドロップダウンメニューで提供される値を選択できます。
 
-![](assets/s_ncs_admin_survey_dropdown_sample.png)
+![&#x200B; タイトルが「ミスター、マダム、ミス」とラベル付きのドロップダウンリストをレンダリングしました](assets/s_ncs_admin_survey_dropdown_sample.png)
 
 ドロップダウンボックスをフォームページに追加するには、ページエディターのツールバーで、**[!UICONTROL 選択コントロール／ドロップダウンリスト]**&#x200B;ボタンをクリックします。
 
-![](assets/s_ncs_admin_survey_create_dropdown.png)
+![&#x200B; ページエディターのツールバーメニューの選択コントロール （コンボボックス、チェックボックス、ラジオボタン、複数選択、日付、グリッド &#x200B;](assets/s_ncs_admin_survey_create_dropdown.png)）
 
 回答ストレージモードを選択して、選択内容を確認します。
 
 「**[!UICONTROL 一般]**」タブの下のセクションで、リストのラベルおよび値を定義します。 情報がデータベースの既存のフィールドに格納されており、列挙フィールドである場合、次に示すように、「**[!UICONTROL データベースから取得した値のリストを初期化]**」をクリックすることで、値を自動的に入力できます。
 
-![](assets/s_ncs_admin_survey_database_values.png)
+データベースリンクと塗りつぶされたリストからの値のリストを初期化する![&#x200B; コンボボックスの「一般」タブ &#x200B;](assets/s_ncs_admin_survey_database_values.png)
 
 >[!NOTE]
 >
@@ -163,11 +163,11 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 リンクされたテーブルにデータが格納されている場合、リストに候補として提示される値が保存されたフィールドを選択できます。 例えば、国のテーブルを選択する場合、「**[!UICONTROL データベースから取得した値のリストを初期化]**」をクリックして、目的のフィールドを選択します。
 
-![](assets/s_ncs_admin_survey_preload_values.png)
+![Web アプリケーションダイアログで、国テーブルからラベル フィールドを選択し、式を選択ダイアログ &#x200B;](assets/s_ncs_admin_survey_preload_values.png)を表示します
 
 次に、「**[!UICONTROL 読み込み]**」リンクをクリックして値を取得します。
 
-![](assets/s_ncs_admin_survey_load_button.png)
+「読み込み」をクリックした後の![Web アプリケーションダイアログ。国ラベルと値のプレビューリストが表示される](assets/s_ncs_admin_survey_load_button.png)
 
 >[!CAUTION]
 >
@@ -177,7 +177,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ユーザーがオプションを選択するには、チェックボックスを使用する必要があります。
 
-![](assets/s_ncs_admin_survey_check_box.png)
+「![&#x200B; レンダリング済み」チェックボックスをオンにして、ニュースレターを受け取るラベルを付けます](assets/s_ncs_admin_survey_check_box.png)
 
 チェックボックスをフォームに追加するには、ページエディターのツールバーで、**[!UICONTROL 選択コントロール／チェックボックス]**&#x200B;アイコンをクリックします。
 
@@ -185,33 +185,33 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 「**[!UICONTROL 一般]**」タブの「**[!UICONTROL ラベル]**」フィールドにボックスのラベルを入力します。
 
-![](assets/s_ncs_admin_survey_check_box_edit.png)
+![&#x200B; ラベル、ストレージ、デフォルトで選択済み、値フィールドと空の値フィールドを含む「一般」タブ &#x200B;](assets/s_ncs_admin_survey_check_box_edit.png)
 
 チェックボックスを使用すると、ボックスがチェックされているかどうかに応じて、ストレージフィールド（または値）に値を割り当てることができます。 「**[!UICONTROL 値]**」セクションを使用すると、ボックスがチェックされている場合に割り当てる値（「**[!UICONTROL 値]**」フィールド）と、チェックされていない場合に割り当てる値（「**[!UICONTROL 空の値]**」フィールド）を入力できます。 これらの値は、データストレージ形式によって異なります。
 
 ストレージフィールド（または変数）がブール値の場合、ボックスがチェックされていない場合に割り当てる値は、自動的に推測されます。 この場合、次に示すように、「**[!UICONTROL チェックされている場合の値]**」フィールドのみが提供されます。
 
-![](assets/s_ncs_admin_survey_check_box_enum.png)
+![&#x200B; ブール値フィールドの「一般」タブ。チェックされたドロップダウンで「はい」と「いいえ」が表示された場合のみ](assets/s_ncs_admin_survey_check_box_enum.png)
 
 ## 例：ボックスがチェックされている場合のフィールドへの値の割り当て {#example--assign-a-value-to-a-field-if-a-box-is-checked}
 
 次に示すように、メンテナンスリクエストを送信するために、フォームにチェックボックスを挿入します。
 
-![](assets/s_ncs_admin_survey_check_box_ex.png)
+![製品ドロップダウン、発送日フィールド、チェックされたメンテナンス必須ボックスを含むレンダリングされたフォームページ &#x200B;](assets/s_ncs_admin_survey_check_box_ex.png)
 
 データベースおよび既存のフィールドに対して、情報が更新されます（この場合、「**[!UICONTROL コメント]**」フィールド）。
 
-![](assets/s_ncs_admin_survey_check_box_ex_list.png)
+![&#x200B; コメント列に「メンテナンスが必要」または「メンテナンスが不要」と表示されている受信者リスト &#x200B;](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
 「メンテナンスが必要」ボックスがチェックされている場合、「**[!UICONTROL コメント]**」列に「メンテナンスが必要」が格納されます ボックスがチェックされていない場合、この列には「メンテナンスは不要」と表示されます。 この結果を得るには、フォームページ上のチェックボックスに対して、次の設定を適用します。
 
-![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
+![値と空の値のテキストを含むコメントフィールドに保存されている必要なメンテナンスのチェックボックス &#x200B;](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
 ## ラジオボタンの追加 {#adding-radio-buttons}
 
 ラジオボタンを使用すると、一連の排他的な選択オプションをユーザーに提供できます。 同じフィールドに異なる値があります。
 
-![](assets/s_ncs_admin_survey_radio_button.png)
+![&#x200B; ラジオボタン「Mister, Madam and Miss」をレンダリングし、Madamを選択](assets/s_ncs_admin_survey_radio_button.png)
 
 ラジオボタンを個別に作成することも（単一ボタン）、複数選択リストを使用して作成することもできますが、ラジオボタンで重要なのはいずれか 1 つのオプションを選択することなので、単一ボタンのみではなく、常に少なくとも 1 組のラジオボタンを作成します。
 
@@ -223,7 +223,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ラジオボタンをフォームページに追加するには、ページエディターのツールバーで、**[!UICONTROL 選択コントロール／ラジオボタン]**&#x200B;メニューに移動し、ストレージモードを選択します。
 
-![](assets/s_ncs_admin_survey_radio_button_sample.png)
+![&#x200B; ラベルオプション 1、変数ストレージ、デフォルトで選択済みおよび値](assets/s_ncs_admin_survey_radio_button_sample.png)を含むラジオボタンフィールドの「一般」タブ
 
 ラジオボタンは、チェックボックスと同じ方法で設定されます（[チェックボックスの追加](#adding-checkboxes)を参照）。 ただし、オプションが選択されていない場合、値は割り当てられません。 いくつかのボタンを相互依存させるには、つまり、1 つを選択することでその他を自動的に選択解除するには、同じフィールドに格納する必要があります。 データベースに格納されていない場合、一時的なストレージとして同じローカル変数が使用される必要があります。 [回答ストレージフィールド](web-forms-answers.md#response-storage-fields)を参照してください。
 
@@ -231,7 +231,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 リストを使用してラジオボタンを追加するには、ページエディターのツールバーで、**[!UICONTROL 選択コントロール／複数選択]**&#x200B;メニューに移動します。
 
-![](assets/s_ncs_admin_survey_radio_button_sample2.png)
+![複数の選択肢フィールドの一般タブ リスト オプション 1からオプション 3の値、選択済み列とスコア列](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
 ラベルと同じ数のラジオボタンを追加します。 この機能の利点は、既存のフィールドから値を読み込むことができ（項目別フィールドの場合）、ユーザーが1つのオプションを選択できることです。 ただし、ボタンのレイアウトにはあまり柔軟性がありません。
 
@@ -244,15 +244,15 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 グリッドは、Web アプリケーションの投票ページをデザインするために使用されます。 これにより、次に示すように、調査または評価タイプの Web フォームに回答するためのラジオボタンのリストを提供できます。
 
-![](assets/s_ncs_admin_survey_vote_param.png)
+![&#x200B; ビデオ 1からビデオ 3行、ラジオボタンを1つの不良から5つの良好な状態にレンダリングした評価グリッド &#x200B;](assets/s_ncs_admin_survey_vote_param.png)
 
 このタイプの要素をフォームで使用するには、シンプルグリッドを作成して、評価される各要素のための線を追加します。
 
-![](assets/s_ncs_admin_survey_vote_sample.png)
+![&#x200B; ノートのシンプルなグリッドと3つのグリッド線、ビデオ 1からビデオ 3へのレート値1 ～ 5](assets/s_ncs_admin_survey_vote_sample.png)を含むページエディター
 
 グリッドの各線のラジオボタンの数は、シンプルグリッドで定義された値に一致します。
 
-![](assets/s_ncs_admin_survey_vote_ex.png)
+![単純なグリッドヘッダー行1 ～ 5と3つのグリッド線でグリッドをレンダリングしました。1つのラジオボタンが行ごとに選択されました](assets/s_ncs_admin_survey_vote_ex.png)
 
 グリッド線あたり 1 つのオプションのみ選択できます。
 
@@ -266,17 +266,17 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ### 日付の追加 {#adding-dates}
 
-![](assets/s_ncs_admin_survey_date_calendar.png)
+![&#x200B; カレンダーピッカーが2017年1月に開き、日が選択された日付フィールド &#x200B;](assets/s_ncs_admin_survey_date_calendar.png)
 
 ユーザーがフォームページに日付を入力できるようにするには、入力フィールドを追加し、「**[!UICONTROL 日付]**」タイプを選択します。
 
 フィールドのラベルを入力し、データストレージモードを設定します。
 
-![](assets/s_ncs_admin_survey_date_edit.png)
+![日付タイプの生年月日フィールドの「一般」タブ。日付の形式と時刻の形式のドロップダウンが表示されます](assets/s_ncs_admin_survey_date_edit.png)
 
 ウィンドウの下部のセクションでは、このフィールドに格納される値の日付および時間の形式を選択できます。
 
-![](assets/s_ncs_admin_survey_date_edit_values.png)
+![日付形式ドロップダウンリストの形式（2012年12月12日、12月31日、2012年12月31日、2012年12月31日など） &#x200B;](assets/s_ncs_admin_survey_date_edit_values.png)
 
 また、日付（または時間）を表示しないように選択することもできます。
 
@@ -288,37 +288,37 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ただし、（例えば誕生日の入力など）場合によっては、ドロップダウンリストを使用するほうが簡単なことがあります。
 
-![](assets/s_ncs_admin_survey_date_list_select.png)
+![日、月、年の3つのドロップダウンリストを使用して、生年月日フィールドをレンダリング &#x200B;](assets/s_ncs_admin_survey_date_list_select.png)
 
 これをおこなうには、「**[!UICONTROL 詳細設定]**」タブをクリックして、**[!UICONTROL ドロップダウンリスト]**&#x200B;を使用する入力モードを選択します。
 
-![](assets/s_ncs_admin_survey_date_selection.png)
+![&#x200B; カレンダーまたはドロップダウンリストを使用して日付入力を選択するように設定された入力モードのドロップダウンを含む「詳細」タブ &#x200B;](assets/s_ncs_admin_survey_date_selection.png)
 
 次に、リストに提供される値に対する制限を設定できます。
 
-![](assets/s_ncs_admin_survey_date_first_last_y.png)
+![&#x200B; リストで提供される年を制限する最初の年と最後の年のボックスを含む日付フィールドの「一般」タブ &#x200B;](assets/s_ncs_admin_survey_date_first_last_y.png)
 
 ### 数値の追加 {#adding-numbers}
 
 数値の入力に適したフィールドを作成できます。
 
-![](assets/s_ncs_admin_survey_number.png)
+![値2 500](assets/s_ncs_admin_survey_number.png)を含む「ポイント」というラベルの付いた数値フィールドをレンダリングしました
 
 数値フィールドでは、ユーザーは数値のみ入力できます。 ページが承認されると、入力コントロールが自動的に適用されます。
 
 データがデータベースに格納されているフィールドに応じて、特別な書式設定または特定の制限が適用されることがあります。 また、最大値および最小値を指定することもできます。 このタイプのフィールドは、次のように設定されます。
 
-![](assets/s_ncs_admin_survey_number_edit.png)
+![&#x200B; デフォルト値、最小値、最大値承認オプションを含む数値フィールドの「一般」タブ &#x200B;](assets/s_ncs_admin_survey_number_edit.png)
 
 デフォルト値は、フォームがパブリッシュされる際にフィールドに表示される値です。 ユーザーはデフォルト値を変更できます。
 
 次に示すように、「**[!UICONTROL 詳細設定]**」タブを使用して、数値フィールドに接頭辞およびサフィックスを追加できます。
 
-![](assets/s_ncs_admin_survey_number_ex_conf.png)
+![接頭辞が「自分」に設定され、接尾辞が「ポイント」に設定された数値フィールドの「詳細」タブ &#x200B;](assets/s_ncs_admin_survey_number_ex_conf.png)
 
 フォームでは、レンダリングは次のようになります。
 
-![](assets/s_ncs_admin_survey_number_ex.png)
+![自分が持つ接頭辞、値10、接尾辞ポイントを示す数値フィールドをレンダリングしました](assets/s_ncs_admin_survey_number_ex.png)
 
 ## 購読チェックボックス {#subscription-checkboxes}
 
@@ -326,7 +326,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 購読チェックボックスを作成するには、**[!UICONTROL 高度なコントロール／購読]**&#x200B;をクリックします。
 
-![](assets/s_ncs_admin_survey_subscription_edit.png)
+![&#x200B; サブスクリプションフィールドの「一般」タブ。選択するサービスのドロップダウンリスト情報サービス &#x200B;](assets/s_ncs_admin_survey_subscription_edit.png)
 
 チェックボックスラベルを示し、**[!UICONTROL サービス]**&#x200B;ドロップダウンボックスを使用して関連する情報サービスを選択します。
 
@@ -336,7 +336,7 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 ユーザーは、関連するオプションをチェックして、サービスを購読します。
 
-![](assets/s_ncs_admin_survey_subscribe.png)
+![&#x200B; ニュースレターのチェックボックスと「検証」ボタンが表示されたプロフィールのレンダリングとニュースレターフォームの選択](assets/s_ncs_admin_survey_subscribe.png)
 
 >[!CAUTION]
 >
@@ -352,11 +352,11 @@ Web フォームのフィールドは、ユーザーによる情報の入力と�
 
 Captchaをフォームに挿入するには、ツールバーの最初のボタンをクリックし、**[!UICONTROL 詳細コントロール >Captcha]**&#x200B;を選択します。
 
-![](assets/s_ncs_admin_survey_add_captcha.png)
+![Captchaがハイライト表示された状態で、ファイル、サブスクリプション、定数、Captchaを一覧表示する高度なコントロール ツールバーのメニュー](assets/s_ncs_admin_survey_add_captcha.png)
 
 フィールドのラベルを入力します。 このラベルは、Captcha 表示領域の前に表示されます。 「**[!UICONTROL 詳細設定]**」タブで、このラベルの位置を変更できます。
 
-![](assets/s_ncs_admin_survey_captcha_adv.png)
+![&#x200B; ラベルの位置ドロップダウンが表示されたCaptchaの「詳細」タブには、「継承」、「左」、「右」、「上」、「下」、「非表示」が表示されています](assets/s_ncs_admin_survey_captcha_adv.png)
 
 >[!NOTE]
 >
@@ -364,15 +364,15 @@ Captchaをフォームに挿入するには、ツールバーの最初のボタ�
 
 Captcha は、ビジュアルの下に配置された入力フィールドでページに挿入されます。 これらの 2 つの要素は、分離できず、ページレイアウトのための単一の項目とみなされます（これらは単一のセルを占有します）。
 
-![](assets/s_ncs_admin_survey_captcha_sample.png)
+![ゆがんだ文字のキャプチャイメージと入力フィールドを含むフォームページをレンダリング &#x200B;](assets/s_ncs_admin_survey_captcha_sample.png)
 
 ページが確認される際に、Captcha のコンテンツが適切に入力されなかった場合、入力フィールドが赤で表示されます。
 
-![](assets/s_ncs_admin_survey_captcha_error.png)
+入力した文字がCaptcha画像と一致する必要があるという赤いエラーメッセージが表示される![&#x200B; フォームページ &#x200B;](assets/s_ncs_admin_survey_captcha_error.png)
 
 表示するエラーメッセージを作成できます。 これをおこなうには、「**[!UICONTROL 一般]**」タブの「**[!UICONTROL メッセージをパーソナライズ]**」リンクを使用します。
 
-![](assets/s_ncs_admin_survey_captcha_error_msg.png)
+メッセージのパーソナライゼーション ダイアログを開くメッセージのパーソナライズ リンクが表示された![Captcha General タブ &#x200B;](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
 >[!NOTE]
 >
@@ -382,7 +382,7 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 
 アップロードフィールドをページに追加できます。 この機能は、イントラネットのファイル共有などに便利です。
 
-![](assets/s_ncs_admin_survey_download_file.png)
+「![参照ボタンを使用して画像をアップロードする」というラベルの付いたレンダリングされたアップロードフィールド &#x200B;](assets/s_ncs_admin_survey_download_file.png)
 
 アップロードフィールドをフォームページに挿入するには、ページエディターのツールバーで、**[!UICONTROL 高度なコントロール／ファイル]**&#x200B;メニューを選択します。
 
@@ -408,4 +408,4 @@ Captcha は、ビジュアルの下に配置された入力フィールドでペ
 
 次の例では、ユーザーがこのページを承認するたびに、受信者プロファイルの「**起源**」フィールドに自動的に値が入力されます。 定数は、このページには表示されません。
 
-![](assets/s_ncs_admin_survey_constante.png)
+![Originという名前の定数フィールド。Origin データベース フィールドに格納され、Value External](assets/s_ncs_admin_survey_constante.png)が付いています

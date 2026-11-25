@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 95%
+source-wordcount: '555'
+ht-degree: 92%
 ---
 # パーソナライズされた PDF ドキュメントの生成{#generating-personalized-pdf-documents}
 
@@ -75,7 +75,7 @@ Adobe Campaign では、LibreOffice や Microsoft Word ドキュメントから�
 * 「My_Logo」を内部名に持つ新しい「My Logo」パーソナライゼーションブロックを作成します。
 * 「**[!UICONTROL 詳細設定...]**」リンクをクリックして、「**[!UICONTROL ブロックは次に含まれるオプションで「添付ファイル」をオンにします]**」オプションをオンにします。 これにより、パーソナライゼーションブロックの定義を直接 OpenOffice ファイルのコンテンツにコピーできます。
 
-  ![](assets/s_ncs_pdf_bloc_option.png)
+  ![&#x200B; コンテンツタイプとエディター内のOpenOffice XML定義を含むMy Logo パーソナライゼーションブロック &#x200B;](assets/s_ncs_pdf_bloc_option.png)
 
   パーソナライゼーションブロック内の 2 つのタイプの宣言を区別する必要があります。
 

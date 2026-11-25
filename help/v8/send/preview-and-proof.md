@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 93%
+source-wordcount: '878'
+ht-degree: 80%
 ---
 # メールのプレビューとテスト {#preview-test}
 
@@ -41,11 +41,11 @@ ht-degree: 93%
 1. 配信の「**プレビュー**」タブを参照します。
 1. 「**[!UICONTROL パーソナライゼーションをテスト]**」ボタンをクリックして、パーソナライゼーションデータを入力するプロファイルを選択します。 データベース内の特定の受信者（シードアドレス）を選択することも、ターゲット母集団からプロファイルを選択することもできます（既に定義されている場合）。 また、パーソナライゼーションなしでコンテンツを確認することもできます。
 
-   ![](assets/test-personalization.png)
+   ![&#x200B; プレビュータブのパーソナライゼーションメニューのテスト：受信者、シードアドレス、配信ターゲット母集団、パーソナライゼーションなし](assets/test-personalization.png)
 
 1. プレビューが生成され、メッセージのレンダリングを確認できます。 メッセージプレビューでは、パーソナライズされた要素が、選択したテストプロファイルデータに置き換えられます。
 
-   ![](assets/test-personalization-with-a-recipient.png)
+   ![件名と見出しを選択したテストプロファイル名でパーソナライズしたメールのプレビュー](assets/test-personalization-with-a-recipient.png)
 
 1. 他のテストプロファイルを選択して、メッセージの各バリアントに対するメールのレンダリングをプレビューします。
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 配達確認のターゲットは、配信テンプレート内で定義することも、配信に固有のターゲットとして定義することもできます。 どちらの場合も、**[!UICONTROL 宛先]**&#x200B;リンクからターゲット定義画面を参照し、「**[!UICONTROL 配達確認ターゲット]**」タブを選択します。
 
-![](assets/target-of-proofs.png)
+![&#x200B; ターゲットダイアログ、プルーフタブの「ターゲット」を選択し、ターゲティングモードのドロップダウンと「追加」ボタン &#x200B;](assets/target-of-proofs.png)
 
 配達確認ターゲットのタイプは、**[!UICONTROL ターゲティングモード]**&#x200B;のドロップダウンリストから選択します。
 
@@ -68,11 +68,11 @@ ht-degree: 93%
 
   デフォルトでは、代用はランダムに実行されますが、「**[!UICONTROL 詳細]**」アイコンを使用して、メインターゲットから特定の受信者を選択することもできます。
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800"}
+  ![特定のプロファイルの選択に使用される詳細アイコンを使用した、プルーフ アドレスをリストするアドレス モードの置換](assets/target-of-proofs-substitution-details.png){width="800"}
 
   「**[!UICONTROL プロファイルを選択 (ターゲットに含める必要があります)]**」オプションを選択し、受信者を選択します。
 
-  ![](assets/target-of-proofs-substitution.png){width="800"}
+  「プロファイルを選択」オプションとリストから選択した受信者を含む![&#x200B; スタンドインのプルーフ受信者ダイアログ &#x200B;](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * 「**[!UICONTROL シードアドレス]**」オプションを使用して、シードアドレスを配達確認ターゲットとして使用します。 これらのアドレスは、ファイルからインポートするか、手動で入力できます。
@@ -93,7 +93,7 @@ ht-degree: 93%
 1. 「**[!UICONTROL 配達確認を送信]**」ウィンドウで、配達確認の受信者を確認します。
 1. 「**[!UICONTROL 分析]**」をクリックし、配達確認メッセージの準備を開始します。
 
-   ![](assets/send-proof-analyze.png){width="800"}
+   ![分析](assets/send-proof-analyze.png){width="800"}をクリックした後、代替アドレスと配信分析ログが実行されているプルーフウィンドウを送信する
 
 1. 配信の準備が完了したら、「**[!UICONTROL 配信を確定]**」を使用して、配達確認メッセージの送信を開始します。
 
@@ -115,7 +115,7 @@ ht-degree: 93%
 
 デフォルトでは、配達確認メッセージは件名の `Proof #N` メンション（`N` は配達確認番号）によって識別されます。 この番号は、配達確認配信分析のたびに増分されます。 必要に応じて、`proof` の接頭辞を変更できます。
 
-![](assets/proof-parameters.png){width="800"}
+プルーフオプションとラベル接頭辞フィールドがプルーフ ![&#128279;](assets/proof-parameters.png){width="800"}に設定された詳細タブの プルーフプロパティダイアログ
 
 
 ## チュートリアルビデオ {#video-proof}

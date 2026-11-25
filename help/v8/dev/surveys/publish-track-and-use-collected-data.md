@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 90%
+source-wordcount: '1198'
+ht-degree: 71%
 ---
 # 収集したデータの公開、トラッキングおよび使用{#publish-track-and-use-collected-data}
 
@@ -47,7 +47,7 @@ ht-degree: 90%
 
 調査の公開 URL は、ダッシュボードに表示されます。
 
-![](assets/survey_public_url.png)
+![&#x200B; オンライン状態と、アンケートへのアクセスに使用したパブリック URLを指す矢印を示す調査ダッシュボード &#x200B;](assets/survey_public_url.png)
 
 ## 回答のトラッキング {#response-tracking}
 
@@ -57,7 +57,7 @@ ht-degree: 90%
 
 配信された各調査について、「**[!UICONTROL ログ]**」タブで回答をトラッキングできます。 このタブには、調査を完了したユーザーとその接触チャネルのリストが表示されます。
 
-![](assets/s_ncs_admin_survey_logs.png)
+![各回答の日付、受信者および送信元を一覧表示するアンケートの「回答」タブ &#x200B;](assets/s_ncs_admin_survey_logs.png)
 
 行をダブルクリックして、回答者が入力した調査フォームを表示します。 すべての調査を参照して、すべての回答にアクセスできます。 これらは、外部ファイルにエクスポートできます。 詳しくは、[回答のエクスポート](#exporting-answers)を参照してください。
 
@@ -75,7 +75,7 @@ URL パラメーターについて詳しくは、[&#x200B; フォーム URL パ�
 
 「ダッシュボード」タブを使用すると、調査レポートにアクセスできます。 レポート名をクリックすると、表示されます。
 
-![](assets/s_ncs_admin_survey_report_doc.png)
+![回答、一般、ドキュメント、マイクロサイトの分析レポートの内訳が表示された調査ダッシュボードのレポートビュー](assets/s_ncs_admin_survey_report_doc.png)
 
 調査の構造は、**[!UICONTROL ドキュメント]**&#x200B;レポートに表示されます。
 
@@ -87,13 +87,13 @@ URL パラメーターについて詳しくは、[&#x200B; フォーム URL パ�
 
   一般レポートの例：
 
-  ![](assets/s_ncs_admin_survey_report_0.png)
+  ![開始日、回答数、時間の経過に伴う回答数を示す一般的なレポート &#x200B;](assets/s_ncs_admin_survey_report_0.png)
 
 * 回答の分類
 
   このレポートには、各質問に関する回答の分類が表示されます。 この分類は、**[!UICONTROL 質問]**&#x200B;タイプのコンテナに格納されたフィールドに提供された回答でのみ利用できます。 選択コントロールに対してのみ有効です（例えば、テキストフィールドは分類されません）。
 
-  ![](assets/s_ncs_admin_survey_report_2.png)
+  ![回答数の内訳レポート。質問に対する各回答の数と割合](assets/s_ncs_admin_survey_report_2.png)
 
 ## 回答のエクスポート {#exporting-answers}
 
@@ -109,7 +109,7 @@ URL パラメーターについて詳しくは、[&#x200B; フォーム URL パ�
 
    回答をエクスポートするには、調査の「**[!UICONTROL 回答]**」タブをクリックして、右クリックします。 「**[!UICONTROL エクスポート]**」をクリックします。
 
-   ![](assets/s_ncs_admin_survey_logs_export_menu.png)
+   ![すべての回答を選択した状態で応答タブを開き、右クリックメニューに「書き出し」オプションが表示されている](assets/s_ncs_admin_survey_logs_export_menu.png)
 
    次に、エクスポートする情報およびストレージファイルを入力します。
 
@@ -123,7 +123,7 @@ URL パラメーターについて詳しくは、[&#x200B; フォーム URL パ�
 
    エクスポートする調査にいくつかの「**[!UICONTROL 複数ラインテキスト]**」または「**[!UICONTROL HTML テキスト]**」フィールドが含まれている場合、**[!UICONTROL XML]** 形式でエクスポートする必要があります。 これをおこなうには、次に示すように、**[!UICONTROL 出力フォーマット]**&#x200B;ドロップダウンリストで、この形式を選択します。
 
-   ![](assets/s_ncs_admin_survey_logs_export_xml.png)
+   ![出力フォーマット ドロップダウンを開き、XMLを選択したリストの書き出しウィザード &#x200B;](assets/s_ncs_admin_survey_logs_export_xml.png)
 
    「**[!UICONTROL 開始]**」をクリックして、エクスポートを実行します。
 
@@ -137,25 +137,25 @@ URL パラメーターについて詳しくは、[&#x200B; フォーム URL パ�
 
 次の例では、少なくとも 2 人の子供を含む、オンライン調査で最高スコアを獲得した 5 人の受信者に特別に Web オファーを実行します。 この回答の調査は、次のようになります。
 
-![](assets/s_ncs_admin_survey_responses_wf_box_4.png)
+![&#x200B; スコア、子どもの数、連絡先のタイプが記載された各回答者を一覧表示するアンケートの回答タブ &#x200B;](assets/s_ncs_admin_survey_responses_wf_box_4.png)
 
 ターゲティングワークフローで、**[!UICONTROL 調査の回答]**&#x200B;は、次のように設定されます。
 
-![](assets/s_ncs_admin_survey_responses_wf_box_1.png)
+ターゲティングワークフローの![&#x200B; アンケート回答ボックス。アンケートが選択され、抽出する列を選択するリンクが表示されている](assets/s_ncs_admin_survey_responses_wf_box_1.png)
 
 最初に、関連する調査を選択してから、ウィンドウの中央のセクションで、抽出するデータを選択します。 この場合、5 つの最高スコアを復元するために分割ボックスで使用するので、少なくともスコア列を抽出する必要があります。
 
 「**[!UICONTROL クエリを編集]**」リンクをクリックして、回答のフィルター条件を示します。
 
-![](assets/s_ncs_admin_survey_responses_wf_box_2.png)
+![子の数とスコアが50](assets/s_ncs_admin_survey_responses_wf_box_2.png)を超えるクエリ フィルター応答を含むアンケート応答ボックス
 
 ターゲティングワークフローを開始します。 このクエリは、8 人の受信者を復元します。
 
-![](assets/s_ncs_admin_survey_responses_wf_box_5.png)
+「ターゲットを表示」オプションがハイライト表示された![&#x200B; ワークフロー結果の移行ショートカットメニュー](assets/s_ncs_admin_survey_responses_wf_box_5.png)
 
 コレクションボックスのアウトバウンドトランジションを右クリックして、表示します。
 
-![](assets/s_ncs_admin_survey_responses_wf_box_6.png)
+![&#x200B; アンケート回答クエリから返された8人の受信者とそのスコアを一覧表示する母集団ウィンドウ &#x200B;](assets/s_ncs_admin_survey_responses_wf_box_6.png)
 
 次に、分割ボックスをワークフローに配置して、最高スコアの 5 人の受信者を復元します。
 
@@ -163,19 +163,19 @@ URL パラメーターについて詳しくは、[&#x200B; フォーム URL パ�
 
 * 最初に、「**[!UICONTROL 一般]**」タブで適切なスキーマを選択して、次にサブセットを設定します。
 
-  ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
+  ![&#x200B; アンケート回答ボックス &#x200B;](assets/s_ncs_admin_survey_responses_wf_box_6b.png)の後に、「追加データのみを使用」を選択したボックス「一般」タブを分割する
 
 * 「**[!UICONTROL サブセット]**」タブに移動して、「**[!UICONTROL 選択レコード数の制限]**」オプションを選択し、「**[!UICONTROL 編集]**」リンクをクリックします。
 
-  ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
+  ![選択したレコードの制限オプションと編集リンクを含む「サブセットを分割」タブ &#x200B;](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
 * 「**[!UICONTROL 並べ替えの後に最初のレコードのみ保持]**」オプションを選択して、並べ替える列を選択します。 「**[!UICONTROL 降順で並べ替え]**」オプションをチェックします。
 
-  ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
+  ![並べ替え後の最初のレコードのみを保持し、スコア &#x200B;](assets/s_ncs_admin_survey_responses_wf_box_8.png)で降順の並べ替えを行うレコード数制限ウィザード
 
 * 「**[!UICONTROL 次へ]**」ボタンをクリックして、レコードの数を 5 に制限します。
 
-  ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
+  ![最大サイズが5に設定され、終了ボタンが設定されているレコード数の制限ステップ &#x200B;](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
 * 「**[!UICONTROL 完了]**」をクリックしてから、ワークフローを再起動してターゲティングを承認します。
 

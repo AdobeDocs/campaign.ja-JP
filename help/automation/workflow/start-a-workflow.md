@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 100%
+source-wordcount: '1260'
+ht-degree: 97%
 ---
 # ワークフローの開始、一時停止、停止 {#starting-a-workflow}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ツールバーの「**[!UICONTROL アクション]**」ボタンを使用すると、選択したワークフローの追加の実行オプションにアクセスできます。 または、**[!UICONTROL ファイル／アクション]**&#x200B;メニューを選択するか、ワークフローを右クリックして「**[!UICONTROL アクション]**」を選択することもできます。
 
-![](assets/purge_historique.png)
+「アクション」メニューが開き、「開始」、「一時停止」、「停止」、「再起動」オプションでパージ履歴がハイライト表示された![&#x200B; ワークフローリスト。](assets/purge_historique.png)
 
 * **[!UICONTROL 開始]**
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 1 つまたは複数のワークフローアクティビティが選択されている場合、右クリックすることで選択したものを操作できます。
 
-![](assets/contextual_menu.png)
+![表示ログがハイライト表示されたワークフローアクティビティの右クリックメニューに加えて、「開く」、「カット」、「コピー」、「削除」および「保存」オプションが表示されます。](assets/contextual_menu.png)
 
 右クリックメニューでは、次のオプションを使用できます。
 

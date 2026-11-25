@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 83%
 ---
 # web アプリケーションの設計{#designing-a-web-application}
 
@@ -47,21 +47,21 @@ Web アプリケーションは、[web フォーム](about-web-forms.md)と同�
 
 Web アプリケーションにグラフを含めることができます。 そのためには、ツールバーにあるグラフのドロップダウンリストを使用して、挿入するグラフのタイプを選択します。
 
-![](assets/s_ncs_admin_webapps_bar_graph.png)
+![&#x200B; ページエディターのツールバーチャートのドロップダウンリスト ヒストグラム、円、レーダー、領域、カーブ、Funnel](assets/s_ncs_admin_webapps_bar_graph.png)
 
 また、**[!UICONTROL グラフを追加]**&#x200B;メニューを選択することもできます。
 
-![](assets/s_ncs_admin_webapps_graph.png)
+![&#x200B; ヒストグラム、円、レーダー、領域、曲線、Funnelを一覧表示するグラフ サブメニューを追加したページのコンテキストメニュー](assets/s_ncs_admin_webapps_graph.png)
 
 ## Web アプリケーションへのテーブルの挿入 {#inserting-tables-in-a-web-application}
 
 テーブルを追加するには、ツールバーにあるテーブルのドロップダウンリストを使用して、使用するテーブルのタイプを選択します。
 
-![](assets/s_ncs_admin_webapps_bar_table.png)
+![&#x200B; ページエディターのツールバーテーブルのドロップダウンリスト ピボットテーブル、グループと配布を含むリスト。](assets/s_ncs_admin_webapps_bar_table.png)
 
 また、ドロップダウンメニューでテーブルのタイプを選択することもできます。
 
-![](assets/s_ncs_admin_webapps_table.png)
+![&#x200B; ピボットテーブルを一覧表示するテーブル サブメニューを追加するページのコンテキストメニュー、グループと配布を含むリスト &#x200B;](assets/s_ncs_admin_webapps_table.png)
 
 ## 概要タイプの Web アプリケーション {#overview-type-web-applications}
 

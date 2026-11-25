@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 98%
+source-wordcount: '1920'
+ht-degree: 85%
 ---
 # web フォームの翻訳{#translating-a-web-form}
 
@@ -57,7 +57,7 @@ Web アプリケーションは、編集言語で設計されます。これは�
 >
 >また、このウィンドウでは、デフォルト言語および編集言語を変更できます。
 
-![](assets/s_ncs_admin_survey_add_lang.png)
+![&#x200B; デザインとデフォルト言語および他の言語を含むWeb アプリケーションのプロパティの「ローカライゼーション」タブ。フランス語とスペイン語](assets/s_ncs_admin_survey_add_lang.png)
 
 Web アプリケーションの翻訳言語を追加する場合（またはデフォルト言語と編集言語が異なる場合）、翻訳を管理するための「**[!UICONTROL 翻訳]**」サブタブが「**[!UICONTROL 編集]**」タブに追加されます。
 
@@ -73,7 +73,7 @@ Adobe Campaign には、複数言語の翻訳を実行および管理するた�
 
 Adobe Campaign はフィールドのラベルとすべての静的要素（HTML ブロック、Javascript など）の「**[!UICONTROL テキスト]**」タブで定義された文字列を収集します。静的要素について詳しくは、[web フォームの静的要素](static-elements-in-a-web-form.md)で説明しています。
 
-![](assets/s_ncs_admin_survey_trad_tab.png)
+リンクを翻訳する文字列を収集および翻訳する文字列![&#128279;](assets/s_ncs_admin_survey_trad_tab.png)を含むweb アプリケーションの翻訳タブ
 
 >[!CAUTION]
 >
@@ -91,7 +91,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 デフォルトでは、Web アプリケーションの各翻訳言語が表示されます。 デフォルトでは、フィルターには、言語とステータスの 2 つがあります。 「**[!UICONTROL フィルター]**」ボタンをクリックし、「**[!UICONTROL 言語別またはステータス別]**」をクリックして、ドロップダウンボックスに一致するものを表示します。 また、詳細フィルターを作成することもできます。 フィルターについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-filters){target=_blank}を参照してください。
 
-![](assets/s_ncs_admin_survey_trad_tab_en.png)
+![翻訳タブ言語またはステータス別のフィルターメニュー、ステータスが「翻訳先」のフランス語の文字列のフィルタリング &#x200B;](assets/s_ncs_admin_survey_trad_tab_en.png)
 
 **[!UICONTROL 言語]**&#x200B;ドロップダウンボックスに移動して、翻訳言語を選択します。
 
@@ -101,7 +101,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 1. 単語を翻訳するには、文字列のリストでその行をダブルクリックします。
 
-   ![](assets/s_ncs_admin_survey_trad_tab_add_term.png)
+   ![&#x200B; ソース文字列、フランス語翻訳、翻訳承認済みオプションおよび保存を含む翻訳ダイアログ &#x200B;](assets/s_ncs_admin_survey_trad_tab_add_term.png)
 
    ソース文字列が、ウィンドウの上のセクションに表示されます。
 
@@ -125,7 +125,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 
 1. 文字列をエクスポートする Web アプリケーションを選択し、右クリックして、**[!UICONTROL アクション／翻訳の文字列をエクスポート...]**&#x200B;を選択します。
 
-   ![](assets/s_ncs_admin_survey_trad_export.png)
+   ![翻訳用の文字列を書き出しがハイライト表示された右クリックのアクションメニュー](assets/s_ncs_admin_survey_trad_export.png)Web アプリケーションのリスト
 
 1. 「**[!UICONTROL エクスポート戦略]**」を選択します。
 
@@ -146,7 +146,7 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
 1. 次に、ファイルを記録する&#x200B;**[!UICONTROL ターゲットフォルダー]**&#x200B;を選択します。
 1. ファイル形式（**[!UICONTROL CSV]** または **[!UICONTROL XLIFF]**）を選択して、「**[!UICONTROL 開始]**」をクリックします。
 
-![](assets/s_ncs_admin_survey_trad_export_start.png)
+![言語ごとに1つのファイル、ターゲットフォルダー、CSVまたはXLIFF形式およびStart](assets/s_ncs_admin_survey_trad_export_start.png)を使用して、翻訳ウィザード用に文字列を書き出す
 
 >[!NOTE]
 >
@@ -164,11 +164,11 @@ Adobe Campaign はフィールドのラベルとすべての静的要素（HTML 
    >
    >翻訳に関係する Web アプリケーションを選択する必要はありません。 Web アプリケーションのリスト上にマウスポインターを置きます。
 
-   ![](assets/s_ncs_admin_survey_trad_import.png)
+   ![翻訳済み文字列の読み込みがハイライト表示された右クリックのアクションメニュー](assets/s_ncs_admin_survey_trad_import.png)Web アプリケーションのリスト
 
 1. インポートするファイルを選択し、「**[!UICONTROL アップロード]**」をクリックします。
 
-   ![](assets/s_ncs_admin_survey_trad_import_start.png)
+   ![読み込み用に選択されたローカルのCSV ファイルとアップロードボタンを使用した翻訳済み文字列の読み込みウィザード &#x200B;](assets/s_ncs_admin_survey_trad_import_start.png)
 
 >[!NOTE]
 >
@@ -434,7 +434,7 @@ URL の言語の前に他のパラメーターがある場合。 例：**https:/
 
 次の Web フォームは、英語、フランス語、ドイツ語、スペイン語の 4 つの言語で使用できます。 文字列は、すべて Web フォームの「**[!UICONTROL 翻訳]**」タブで翻訳されています。 デフォルト言語が英語なので、調査がパブリッシュされる際には、英語で表示するための標準 URL が使用されます。
 
-![](assets/s_ncs_admin_survey_trad_sample_fr.png)
+![Web フォームようこそページが英語で表示され、タイトル、名前、電子メール、電話番号、住所のフィールドと「次へ」ボタンが表示されている](assets/s_ncs_admin_survey_trad_sample_fr.png)
 
 フランス語で表示するには、URL の末尾に **?lang=fr** を追加します。
 
@@ -442,7 +442,7 @@ URL の言語の前に他のパラメーターがある場合。 例：**https:/
 >
 >各言語のシンボルのリストについて詳しくは、[フォームの表示言語の変更](#changing-forms-display-language)を参照してください。
 
-![](assets/s_ncs_admin_survey_trad_sample_en.png)
+![同じウェルカムページがURLにlang=frを追加した後、フランス語で表示され、lang パラメーターが強調表示されている](assets/s_ncs_admin_survey_trad_sample_en.png)
 
 **?lang=es** または **?lang=de** を追加して、スペイン語またはドイツ語で表示することができます。
 
@@ -463,18 +463,18 @@ URL の言語の前に他のパラメーターがある場合。 例：**https:/
 
 システム辞書が翻訳されていない言語に Web アプリケーションを翻訳する場合、一部の翻訳が見つからないことを知らせる警告メッセージが表示されます。
 
-![](assets/s_ncs_admin_survey_trad_error.png)
+![翻訳タブで警告が表示されます。システム ディクショナリ内の言語esとfrに対する翻訳が見つからない場合は27個あります](assets/s_ncs_admin_survey_trad_error.png)
 
 言語を追加するには、次の手順に従います。
 
 1. Adobe Campaign ツリーに移動して、**[!UICONTROL 管理／設定／グローバル辞書／システム辞書]**&#x200B;をクリックします。
 1. ウィンドウの上部のセクションで、翻訳するシステム文字列を選択して、下部のセクションの「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/s_ncs_admin_survey_trad_system_translation.png)
+   buttonPreviousなどの文字列が選択され、追加ボタンが強調表示されたグローバル ディクショナリの下の![&#x200B; システム ディクショナリ &#x200B;](assets/s_ncs_admin_survey_trad_system_translation.png)
 
 1. 翻訳言語を選択して、その文字列の翻訳を入力します。 翻訳を承認するには、「**[!UICONTROL 翻訳承認済み]**」オプションをオンにします。
 
-   ![](assets/s_ncs_admin_survey_trad_system_translation2.png)
+   ![&#x200B; フランス語を選択したbuttonPreviousの翻訳ダイアログ、翻訳されたテキストと翻訳承認済みオプション &#x200B;](assets/s_ncs_admin_survey_trad_system_translation2.png)
 
    >[!NOTE]
    >
@@ -490,8 +490,8 @@ Web アプリケーションをデフォルト以外の言語に翻訳するに�
 
 1. Adobe Campaign ツリーの&#x200B;**[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードをクリックし、リストから&#x200B;**[!UICONTROL 翻訳に使用できる言語]**&#x200B;を選択します。 使用できる翻訳のリストが、ウィンドウの下部のセクションに表示されます。
 
-   ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
+   翻訳に使用できる言語（dictionaryLocale）が選択され、「追加」ボタンがハイライト表示された![列挙リスト &#x200B;](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
 1. 「**[!UICONTROL 追加]**」ボタンをクリックして、「**[!UICONTROL 内部名]**」、「**[!UICONTROL ラベル]**」および画像の識別子（フラグ）を入力します。 新しい画像を追加するには、管理者にお問い合わせください。
 
-   ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)
+   ![内部名、ラベル ウェールズおよび画像フィールドを持つ新しい言語の列挙値ダイアログ &#x200B;](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)

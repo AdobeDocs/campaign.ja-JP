@@ -15,10 +15,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 97%
+source-wordcount: '1767'
+ht-degree: 88%
 ---
 # Adobe Developer Console への Campaign テクニカルオペレーターの移行 {#migrate-tech-users-to-ims}
 
@@ -73,7 +73,7 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 
 新しいプロジェクトを作成するには、Adobe Developer Console のメイン画面で「**新しいプロジェクトを作成**」をクリックします。
 
-![](assets/New-Project.png)
+![新しいプロジェクトのクイックスタートを作成オプションがハイライト表示されたAdobe Developer Console ホームページ。](assets/New-Project.png)
 
 「**プロジェクトを編集**」ボタンを使用すると、このプロジェクトの名前を変更できます。
 
@@ -85,16 +85,16 @@ For this migration, you must add below APIs in your project: **I/O Management AP
 プロジェクトに API を追加するには、次の手順に従います。
 
 1. 「**API を追加**」をクリックして、プロジェクトに追加する API を選択します。
-   ![](assets/do-not-localize/ims-updates-01.png)
+   ![Adobe Developer Consoleの新しい空のプロジェクトページ。Add API、Add Event、Add Plugin オプションを使用します。](assets/do-not-localize/ims-updates-01.png)
 1. Adobe Campaign カードにポインタを合わせると表示される Adobe Campaign カードの右上隅にあるチェックボックスをオンして、Adobe Campaign API を選択してプロジェクトに追加します
-   ![](assets/do-not-localize/ims-updates-02.png)
+   ![Experience Cloudと「次へ」ボタンで選択したAdobe Campaign カードを使用して、API画面を追加します。](assets/do-not-localize/ims-updates-02.png)
 1. 画面の下部にある「**次へ**」をクリックします。
 
 ### 手順 3 - 認証タイプを選択  {#ims-migration-step-3}
 
 **API を設定**&#x200B;画面で、必要な認証タイプを選択します。 このプロジェクトには **OAuth サーバー間**&#x200B;認証が必要です。 選択されていることを確認し、画面の下部にある「**次へ**」をクリックします。
 
-![](assets/do-not-localize/ims-updates-03.png)
+![OAuth サーバー間のAPI画面を選択し、資格情報名フィールドと「次へ」ボタンを設定します。](assets/do-not-localize/ims-updates-03.png)
 
 <!--
 Once your project is created in the Adobe Developer Console, add an API that uses Server-to-Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
@@ -129,17 +129,17 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 プロジェクト画面で「**[!UICONTROL + プロジェクトに追加]**」をクリックし、画面左上の「**[!UICONTROL API]**」を選択して、I/O Management API をこのプロジェクトに追加できるようにします。
 
-![](assets/do-not-localize/ims-updates-04.png)
+「プロジェクトに追加」メニューが開いたAdobe Campaign API ページで、![API、イベント、プラグインが表示されます。](assets/do-not-localize/ims-updates-04.png)
 
 **API を追加**&#x200B;画面で、下にスクロールして **I/O Management API** カードを見つけます。 これを選択するには、カードにポインタを合わせると表示されるチェックボックスをクリックします。 次に、画面の下部にある「**次へ**」をクリックします。
 
-![](assets/do-not-localize/ims-updates-05.png)
+![I/O管理API カードを選択し、次へボタンをクリックしてAPI画面を追加します。](assets/do-not-localize/ims-updates-05.png)
 
 
 **API を設定**&#x200B;画面では、OAuth サーバー間認証が既に存在しています。 画面の下部にある「**設定済み API を保存**」をクリックします。
 
 
-![](assets/do-not-localize/ims-updates-06.png)
+![既存のOAuth サーバー間の資格情報と「設定済みAPIを保存」ボタンを表示するAPI画面を構成します。](assets/do-not-localize/ims-updates-06.png)
 
 これにより、新しく作成したプロジェクトの I/O Management API 内のプロジェクト画面に戻ります。 画面上部のパンくずリストのプロジェクト名をクリックすると、メインのプロジェクトの詳細ページに戻ります。
 
@@ -148,7 +148,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 プロジェクトを確認して、「製品とサービス」セクションに **I/O Management API** と **Adobe Campaign API** が表示され、「資格情報」セクションに **OAuth サーバー間**&#x200B;が表示され、以下のようになっていることを確認します。
 
-![](assets/do-not-localize/ims-updates-07.png)
+![製品とサービスの下にI/O Management APIとAdobe Campaign、さらにOAuth Server-to-Serverを示すプロジェクトの概要](assets/do-not-localize/ims-updates-07.png)
 
 
 ### 手順 7 - 設定を検証 {#ims-migration-step-7}
@@ -163,7 +163,7 @@ You can now add your Campaign product profile to the project, as detailed below:
 
 サードパーティシステムの移行前と移行後のサンプル SOAP 呼び出しを以下に示します。
 
-Adobe Identity Management System（IMS）認証を使用する際、WSDL ファイルを生成するには、Postman 呼び出しに `Authorization: Bearer <IMS_Technical_Token_Token>` を追加する必要があります。
+Adobe ID 管理システム（IMS）認証を使用する際、WSDL ファイルを生成するには、Postman 呼び出しに `Authorization: Bearer <IMS_Technical_Token_Token>` を追加する必要があります。
 
 ```
 curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
@@ -228,11 +228,11 @@ curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?sch
 
    このメールアドレスを見つけるには、プロジェクトの「**資格情報**」セクションにある「**OAuth サーバー間**」見出しをクリックします。
 
-   ![](assets/do-not-localize/ims-updates-07.png)
+   ![資格情報セクションで選択するOAuth サーバー間の資格情報を含むプロジェクトの概要](assets/do-not-localize/ims-updates-07.png)
 
    資格情報画面で、下にスクロールして **テクニカルアカウントのメール** を見つけて、「**コピー**」ボタンをクリックします。
 
-   ![](assets/do-not-localize/ims-updates-08.png)
+   「アクセストークンを生成」ボタン、クライアント ID、およびクライアント秘密鍵を使用した![OAuth サーバー間の資格情報の詳細。](assets/do-not-localize/ims-updates-08.png)
 
 1. ここで、Adobe Campaign クライアントコンソールで新しく作成したテクニカルオペレーターを更新する必要があります。 既存のテクニカルオペレーターフォルダーの権限を新しいテクニカルオペレーターに適用する必要があります。
 

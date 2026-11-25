@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 86%
+source-wordcount: '773'
+ht-degree: 80%
 ---
 # パーソナライゼーションブロックの使用{#personalization-blocks}
 
@@ -44,7 +44,7 @@ ht-degree: 86%
 1. 配信ウィザードのコンテンツエディターで、パーソナライゼーションアイコンをクリックし、**[!UICONTROL 含める]**&#x200B;メニューを選択します。
 1. リストからパーソナライゼーションブロックを選択するか、 **[!UICONTROL その他…]**&#x200B;メニューをクリックして完全なリストにアクセスします。
 
-   ![](assets/perso-content-block.png)
+   ![&#x200B; ミラーページへのリンクなどのブロックをリストするパーソナライゼーションメニューのサブメニューを、その他の…を末尾に含める](assets/perso-content-block.png)
 
 1. パーソナライゼーションブロックがスクリプトとして挿入されます。 パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
 1. 「**[!UICONTROL プレビュー]**」タブを参照し、特定の受信者に関するこのブロックのコンテンツを表示する受信者を選択します。
@@ -82,11 +82,11 @@ ht-degree: 86%
 1. Campaign エクスプローラーの&#x200B;**[!UICONTROL リソース／キャンペーン管理／パーソナライゼーションブロック]**&#x200B;フォルダーを参照します。
 1. ビルトインのブロックのリストの上にある「**[!UICONTROL 新規]**」をクリックします。
 
-   ![](assets/perso-new-block.png)
+   ![Campaign エクスプローラーのパーソナライゼーションブロックリストと新しいボタンの矢印](assets/perso-new-block.png)
 
 1. 次のように、パーソナライゼーションブロックの設定に入力します。
 
-   ![](assets/perso-custom-block.png)
+   ![&#x200B; オプトアウトリンク用のラベル、内部名、コンテンツタイプ、スクリプトコンテンツを含む新しいパーソナライゼーションブロックフォーム &#x200B;](assets/perso-custom-block.png)
 
    * ブロックのラベルを入力します。 このラベルは、パーソナライゼーションフィールドの挿入ウィンドウに表示されます。
    * **配信**&#x200B;コンテンツタイプを選択します。

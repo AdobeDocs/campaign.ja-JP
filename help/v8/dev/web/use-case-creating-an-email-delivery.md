@@ -34,10 +34,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 89%
+source-wordcount: '915'
+ht-degree: 79%
 ---
 # ユースケース：メール配信の作成{#use-case-creating-an-email-delivery}
 
@@ -62,13 +62,13 @@ ht-degree: 89%
 
 新しい配信を作成するには、カーソルを「**キャンペーン**」タブに置いて、「**配信**」をクリックします。 次に、既存の配信のリストの上にある「**作成**」ボタンをクリックします。 配信の作成について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}を参照してください。
 
-![](assets/delivery_step_1.png)
+![新しい配信を開始するために使用される「作成」ボタンを含む「キャンペーン」タブの配信リスト。](assets/delivery_step_1.png)
 
 ## 手順 2 - テンプレートの選択 {#step-2---selecting-a-template}
 
 配信テンプレートを選択して、配信に名前を付けます。 この名前は、Adobe Campaign コンソールのユーザーにのみ表示され、受信者には表示されません。ただし、この見出しは配信のリストに表示されます。 「**[!UICONTROL 続行]**」をクリックします。
 
-![](assets/dce_delivery_model.png)
+![&#x200B; メール配信テンプレート、ラベルフィールド、続行ボタンを含む配信作成ダイアログ。](assets/dce_delivery_model.png)
 
 ## 手順3 - コンテンツの選択 {#step-3---selecting-a-content}
 
@@ -76,11 +76,11 @@ ht-degree: 89%
 
 使用するコンテンツテンプレートを選択したら、「**[!UICONTROL 選択したコンテンツで開始]**」ボタンをクリックして、作成した配信にテンプレートを表示します。
 
-![](assets/dce_select_model.png)
+![選択したコンテンツで開始ボタンを含むコンテンツテンプレートを一覧表示するコンテンツ配信ステップ。](assets/dce_select_model.png)
 
 Adobe Campaign以外で作成されたHTML コンテンツを読み込むには、「**[!UICONTROL ファイルから]**」を選択します。
 
-![](assets/dce_select_from_file_template.png)
+「ファイルから」オプションがハイライト表示された![利用可能なコンテンツテンプレート。](assets/dce_select_from_file_template.png)
 
 このコンテンツをテンプレートとして保存し、後で利用することもできます。 パーソナライズされたコンテンツテンプレートを作成すると、テンプレートのリストからプレビューできるようになります。 詳しくは、[テンプレート管理](template-management.md)を参照してください。
 
@@ -94,13 +94,13 @@ Adobe Campaign以外で作成されたHTML コンテンツを読み込むには�
 
   受信者の氏名を配信のテキストフィールドに挿入するには、選択したテキストフィールドをクリックして、表示する場所にマウスポインターを置きます。 ポップアップツールバーの最初のアイコンをクリックし、**[!UICONTROL パーソナライゼーションブロック]**&#x200B;をクリックします。 「**[!UICONTROL 挨拶]**」を選択し、「**[!UICONTROL OK]**」をクリックします。
 
-  ![](assets/dce_personalizationblock_greetings.png)
+  ![&#x200B; ツールバーメニューから開いた「挨拶」パーソナライゼーションブロックを選択したエレメントダイアログを挿入します。](assets/dce_personalizationblock_greetings.png)
 
 * リンクを画像に挿入します。
 
   画像を使用して配信の受信者を外部アドレスに導くには、関連する画像をクリックしてポップアップツールバーを表示し、最初のアイコン上にマウスポインターを置いて、**[!UICONTROL 外部 URL へのリンク]**&#x200B;をクリックします。 詳しくは、[リンクの追加](editing-content.md#adding-a-link)を参照してください。
 
-  ![](assets/dce_externalpage.png)
+  ![外部URLへのリンク オプションが選択された画像ツールバーメニュー。](assets/dce_externalpage.png)
 
   **https://www.myURL.com** という形式で「**URL**」フィールドにリンクの URL を入力して、確認します。
 
@@ -122,7 +122,7 @@ Adobe Campaign以外で作成されたHTML コンテンツを読み込むには�
 
   投稿したリンクを表示するテキストフィールドをクリックします。 ポップアップツールバーの最初のアイコンをクリックして、**[!UICONTROL パーソナライゼーションブロック]**&#x200B;を選択し、**[!UICONTROL ミラーページへのリンク（MirrorPage）]**&#x200B;を選択します。 「**[!UICONTROL 保存]**」をクリックして確定します。
 
-  ![](assets/dce_mirrorpage.png)
+  Personalization ブロック オプションを選択した状態で、テキストエディタの![&#x200B; ツールバーメニューを表示します。](assets/dce_mirrorpage.png)
 
   >[!CAUTION]
   >
@@ -134,7 +134,7 @@ Adobe Campaign以外で作成されたHTML コンテンツを読み込むには�
 
   Web アプリケーションへのリンクのテキストフィールドを選択して、最初のアイコンをクリックします。 **[!UICONTROL Web アプリケーションへのリンク]**&#x200B;を選択し、「**Web アプリケーション**」フィールドの末尾にあるアイコンをクリックして、目的のアプリケーションを選択します。
 
-  ![](assets/dce_webapp.png)
+  ![&#x200B; ラベルおよびWeb アプリケーション フィールドとOK ボタンを含むリンク ダイアログを挿入します。](assets/dce_webapp.png)
 
   「**保存**」をクリックして確定します。
 

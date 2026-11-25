@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 88%
+source-wordcount: '468'
+ht-degree: 84%
 ---
 # SQL データ管理{#sql-data-management}
 
@@ -73,7 +73,7 @@ ht-degree: 88%
 
    または、専用の領域に SQL スクリプトを入力するか、コピーして貼り付けます。
 
-   ![](assets/sql_datamanagement.png)
+   ![送信スキーマ受信者と、受信する移行テーブル名を使用するSQL スクリプトを含むSQL データ管理アクティビティ &#x200B;](assets/sql_datamanagement.png)
 
    このアクティビティでは、スクリプト内で次の変数を使用できます。
 

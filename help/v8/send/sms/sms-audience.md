@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 78%
+source-wordcount: '598'
+ht-degree: 69%
 ---
 # SMS 配信のオーディエンスの選択 {#sms-audience}
 
@@ -45,7 +45,7 @@ ht-degree: 78%
 
 1. オーディエンスはAdobe Campaign データベースに保存されているので、「**[!UICONTROL Main target]**」タブで「**[!UICONTROL Defined in the database]**」オプションを選択します。
 
-   ![](assets/audience_to.png){zoomable="yes"}
+   ![&#x200B; データベースで定義されたオプションを選択したターゲットダイアログを選択し、宛先リンクから開く](assets/audience_to.png){zoomable="yes"}
 
 1. ドロップダウンリストで「**[!UICONTROL ターゲットマッピング]**」を選択します。 Adobe Campaignのデフォルトのターゲットマッピングは、**[!UICONTROL nms:recipient]** スキーマに基づく受信者です。
 
@@ -55,7 +55,7 @@ ht-degree: 78%
 
    次に、適用するフィルターのタイプを選択します。
 
-   ![](assets/audience_filters.png){zoomable="yes"}
+   ![選択するターゲットの種類とユーザーフィルターを一覧表示するターゲット要素を選択ダイアログ &#x200B;](assets/audience_filters.png){zoomable="yes"}
 
    使用するターゲットタイプを選択し、「**[!UICONTROL 次へ]**」ボタンをクリックします。
 
@@ -74,7 +74,7 @@ ht-degree: 78%
 
 1. ラベル フィールドにオーディエンスの名前を入力し、**[!UICONTROL 終了]** ボタンをクリックして、オーディエンスを検証します。
 
-   ![](assets/audience_finish.png){zoomable="yes"}
+   ![&#x200B; ラベル mobileを持つターゲット要素定義が空ではなく、Mobile上のフィルターが表示され、ハイライト表示されます](assets/audience_finish.png){zoomable="yes"}
 
    **[!UICONTROL 追加]** ボタンをもう一度クリックすると、必要な数のターゲット母集団を追加できます。 また、ラベルの後にある「X」をクリックして、一部のラベルを削除することもできます。
 
@@ -88,7 +88,7 @@ Adobe Campaignを使用して、データベースではなく、外部ファイ
 
 1. 「**[!UICONTROL 外部ファイルで定義]**」オプションを選択します。
 
-   ![](assets/audience_externalfile.png){zoomable="yes"}
+   ![外部ファイルで定義されたオプションとファイル形式の定義リンクを選択したターゲットダイアログを選択](assets/audience_externalfile.png){zoomable="yes"}
 
 1. デフォルトでは、受信者はデータベースにインポートされます。 この場合は、「**[!UICONTROL ターゲットマッピング]**」を選択する必要があります。 ターゲットマッピングについて詳しくは、[ターゲットマッピングの操作](../../audiences/target-mappings.md)を参照してください。
 

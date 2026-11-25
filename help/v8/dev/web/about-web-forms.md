@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 98%
+source-wordcount: '637'
+ht-degree: 79%
 ---
 # Web フォームの基本を学ぶ{#about-web-forms}
 
@@ -55,19 +55,19 @@ Web フォームには、「**キャンペーン**」タブの Web アプリケ�
 
 Web フォームを作成するには、Web アプリケーションのリストの上の「**[!UICONTROL 作成]**」ボタンをクリックします。
 
-![](assets/webapp_create_new.png)
+新しいweb フォームを開始するために、「作成」ボタンがハイライト表示されたキャンペーンの下の![Web アプリケーションリスト。](assets/webapp_create_new.png)
 
 Web フォームテンプレートを選択します（デフォルトは **[!UICONTROL newWebForm]**）。
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![新しいWeb フォーム （newWebForm） テンプレートがテンプレートリストで選択された新しいWeb アプリケーションダイアログ。](assets/s_ncs_admin_survey_select_template.png)
 
 これにより、フォームのダッシュボードが表示されます。
 
-![](assets/webapp_empty_dashboard.png)
+ステータス、スキーマ、フォルダー、公開URL、公開ボタンを表示する新しいweb フォームの![&#x200B; ダッシュボードタブ。](assets/webapp_empty_dashboard.png)
 
 「**[!UICONTROL 編集]**」タブを使用すると、コンテンツを作成できます。
 
-![](assets/webapp_edit_tab.png)
+![&#x200B; アクティビティの図（開始、ページ、テスト、ストレージ、終了）とアクティビティパレットを表示するweb フォームのタブを編集します。](assets/webapp_edit_tab.png)
 
 Web フォームの設定とコンテンツを定義するには、次の手順に従います。
 
@@ -104,12 +104,12 @@ Web フォームの設定とコンテンツを定義するには、次の手順�
 
 ツールバーのアイコンまたは右クリックを使用して入力ゾーンを挿入することもできます。
 
-![](assets/s_ncs_admin_webform_add_selection.png)
+![入力フィールドを追加するためのページエディターのツールバーメニュー：コンボボックス、チェックボックス、ラジオボタン、複数選択、日付、グリッド &#x200B;](assets/s_ncs_admin_webform_add_selection.png)
 
 この場合、まず追加するフィールドのタイプを選択してから、回答ストレージモードを選択します。
 
-![](assets/s_ncs_admin_webform_select_storage.png)
+![&#x200B; ストレージ ダイアログ：「受信者または変数を編集」を選択し、「式を編集」で「データベース」フィールドを選択します。](assets/s_ncs_admin_webform_select_storage.png)
 
 「**[!UICONTROL OK]**」をクリックして、選択を承認します。
 
-![](assets/s_ncs_admin_webform_confirm_storage.png)
+![式の選択で「挨拶」フィールドを選択すると、ストレージ ダイアログの「データベース」フィールドに入力されます。「OK」をクリックします。](assets/s_ncs_admin_webform_confirm_storage.png)

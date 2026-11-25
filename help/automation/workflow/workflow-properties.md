@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 94%
 ---
 # ワークフローのプロパティ{#workflow-properties}
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ワークフローの&#x200B;**[!UICONTROL プロパティ]**&#x200B;ウィンドウの「**[!UICONTROL 実行]**」タブは次の 3 つのセクションに分かれています。
 
-![](assets/wf_execution_tab.png)
+ワークフロープロパティの「![実行」タブ。スケジューラー、実行、エラー管理の各セクション。](assets/wf_execution_tab.png)
 
 ### スケジューラー {#scheduler}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
   このオプションが有効な場合、キャンペーンワークフローを除くワークフローや「**[!UICONTROL プロパティ]**」アクティビティに追加される「**[!UICONTROL SQL ログ]**」タブに、クエリが表示されます。 「**[!UICONTROL 監査]**」タブには、SQL クエリが含まれます。
 
-  ![](assets/wf_tab_log_sql.png)
+  「ダイアグラム」タブと「監査」タブの横に「SQL ログ」タブが強調表示された![&#x200B; ワークフローウィンドウ。](assets/wf_tab_log_sql.png)
 
 * **[!UICONTROL エンジン内で実行]**
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 
   該当するオペレーターには、プロファイルにメールアドレスが記入されている場合、メールで通知されます。 ワークフロースーパーバイザーを定義するには、プロパティ（「**[!UICONTROL 一般]**」タブ）の「**[!UICONTROL スーパーバイザー]**」フィールドに移動します。
 
-  ![](assets/wf-properties_select-supervisors.png)
+  ![&#x200B; スーパーバイザーのドロップダウンリストが開き、ワークフロースーパーバイザーがハイライト表示された「一般」タブ。](assets/wf-properties_select-supervisors.png)
 
   ログオン後に受信者が問題の解決にあたれるよう、「**[!UICONTROL ワークフロースーパーバイザーへの通知]**」デフォルトテンプレートには、Web 経由で Adobe Campaign クライアントコンソールにアクセスするためのリンクがあります。
 

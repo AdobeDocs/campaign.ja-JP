@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 89%
+source-wordcount: '1237'
+ht-degree: 76%
 ---
 # プッシュ通知の作成と送信{#push-notifications-create}
 
@@ -59,7 +59,7 @@ Adobe Campaign でプッシュ通知の送信を開始する前に、モバイ�
 
 新しい配信を作成するには、「**[!UICONTROL Campaign]**」タブで「**[!UICONTROL 配信]**」、既存の配信リストの上にある「**[!UICONTROL 作成]**」ボタンの順にクリックします。
 
-![](assets/delivery_step_1.png)
+![配信リンクがハイライト表示され、作成ボタンに矢印が表示されたキャンペーン タブの配信リスト &#x200B;](assets/delivery_step_1.png)
 
 
 デフォルトでは、Adobe Campaign には 2 つの配信テンプレート（iOS 用と Android 用）が用意されています。 これらを複製して、独自の設定を定義できます。 以下に、これらのテンプレートに基づいてプッシュ配信を設定する手順を説明します。
@@ -72,19 +72,19 @@ iOS デバイスで通知を送信するには、次の手順に従います。
 
 1. 「**[!UICONTROL iOS 配信]**」配信テンプレートを選択します。
 
-   ![](assets/push_ios_1.png)
+   ![続行](assets/push_ios_1.png)をクリックする前に、iOS（ios）で配信を選択した配信テンプレートリスト
 
 1. 通知のターゲットを定義するには、**[!UICONTROL 宛先]**&#x200B;リンク／**[!UICONTROL 追加]**&#x200B;をクリックします。
 
-   ![](assets/push_ios_2.png)
+   ![配信ターゲット母集団のサブスクライバーのアプリケーション マッピングと「追加」ボタンを使用したターゲットダイアログを選択](assets/push_ios_2.png)
 
 1. 「**[!UICONTROL iOS モバイルアプリケーション (iPhone、iPad) の購読者]**」を選択してモバイルアプリケーションに関連するサービス、アプリケーションの iOS バージョンの順に選択します。
 
-   ![](assets/push_ios_3.png)
+   ![iOS モバイルアプリケーション（iPhone、iPad）のサブスクライバーが選択されたTarget Type ステップ &#x200B;](assets/push_ios_3.png)
 
 1. **[!UICONTROL 一般的な通知（アラート、サウンド、バッジ）]**&#x200B;または&#x200B;**[!UICONTROL サイレント通知]**&#x200B;から&#x200B;**[!UICONTROL 通知タイプ]**&#x200B;を選択します。
 
-   ![](assets/push_ios_4.png)
+   ![通知タイプの「一般」タブ：一般通知（アラート、サウンド、バッジ）またはサイレント通知](assets/push_ios_4.png)
 
    >[!NOTE]
    >
@@ -112,10 +112,10 @@ iOS デバイスで通知を送信するには、次の手順に従います。
 
      >[!NOTE]
      > 
-     >サウンドは、アプリケーションに含まれている必要があり、サービスが作成されたときに定義される必要があります。
+     >サウンドは、アプリケーションに組み込まれている必要があり、サービスの作成時に定義される必要があります。
      >
 
-   ![](assets/push_ios_5.png)
+   バッジ値、クリーンバッジ、クリティカルアラートモード、サウンド名の設定を含む![&#x200B; サウンドとバッジのタブ &#x200B;](assets/push_ios_5.png)
 
 1. 「**[!UICONTROL アプリケーション変数]**」タブから、**[!UICONTROL アプリケーション変数]**&#x200B;が自動的に追加されます。 これによって、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに特定のアプリケーション画面が表示されるように設定できます。
 
@@ -127,7 +127,7 @@ iOS デバイスで通知を送信するには、次の手順に従います。
 
    * **[!UICONTROL カテゴリ]**：アクションボタンを表示するカテゴリ ID の名前。 これらの通知により、ユーザーは、アプリケーションを開いたりアプリケーション内を移動したりせずに、通知に応じて様々なタスクをより迅速に実行できます。
 
-   ![](assets/push_ios_6.png)
+   ![可変コンテンツ、スレッド IDおよびカテゴリフィールドがハイライト表示された詳細タブ &#x200B;](assets/push_ios_6.png)
 
 1. 時間依存通知の場合、次のオプションを指定できます。
 
@@ -147,11 +147,11 @@ iOS デバイスで通知を送信するには、次の手順に従います。
 
    * **[!UICONTROL 関連性スコア]**：関連性スコアを 0 から 100 に設定します。 通知の概要で通知を並べ替える場合にシステムが使用します。
 
-   ![](assets/push_ios_7.png)
+   ![&#x200B; ターゲットコンテンツ ID、ローンチ画像、中断レベルおよび関連性スコアが入力された詳細タブ &#x200B;](assets/push_ios_7.png)
 
 1. 通知を設定したら、「**[!UICONTROL プレビュー]**」タブをクリックして通知をプレビューします。
 
-   ![](assets/push-ios-preview.png)
+   ![電話モックアップにiOS プッシュ通知のタイトルとメッセージを表示する「プレビュー」タブ &#x200B;](assets/push-ios-preview.png)
 
 
 >[!TAB Android]
@@ -160,7 +160,7 @@ Android デバイスで通知を送信するには、次の手順に従います
 
 1. 「**[!UICONTROL Android 配信（android）]**」配信テンプレートを選択します。
 
-   ![](assets/push-template-android.png)
+   ![続行](assets/push-template-android.png)をクリックする前に、「Androidで配信」（android）が選択された配信テンプレートリスト
 
    >[!NOTE]
    > 
@@ -169,15 +169,15 @@ Android デバイスで通知を送信するには、次の手順に従います
 
 1. 通知のターゲットを定義するには、**[!UICONTROL 宛先]**&#x200B;リンク／**[!UICONTROL 追加]**&#x200B;をクリックします。
 
-   ![](assets/push-android-select-target.png)
+   ![購読者アプリケーションのマッピングとAndroid配信の「追加」ボタンを含むターゲットダイアログを選択](assets/push-android-select-target.png)
 
 1. 「**[!UICONTROL Android モバイルアプリケーションの購読者]**」を選択してモバイルアプリケーション（この場合は Neotrips）に関連するサービスを選択し、アプリケーションの Android バージョンを選択します。
 
-   ![](assets/push-android-subscribers.png)
+   ![Android モバイルアプリケーションのサブスクライバーが選択されたTarget Type ステップ &#x200B;](assets/push-android-subscribers.png)
 
 1. 次に通知の内容を入力します。
 
-   ![](assets/push-android-content.png)
+   ![&#x200B; メッセージの種類オプション、メッセージテキストおよびアプリケーション変数テーブルを含む「Android配信コンテンツ」タブ &#x200B;](assets/push-android-content.png)
 
 1. 「**[!UICONTROL 顔文字を挿入]**」アイコンをクリックして、プッシュ通知に顔文字を挿入します。
 

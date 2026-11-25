@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2590'
-ht-degree: 94%
+source-wordcount: '2842'
+ht-degree: 85%
 ---
 # 入力フォームの概要 {#gs-ac-forms}
 
@@ -51,15 +51,15 @@ ht-degree: 94%
 
 クライアントコンソールの&#x200B;**[!UICONTROL 管理]／[!UICONTROL 設定]／[!UICONTROL 入力フォーム]**&#x200B;フォルダーから入力フォームを作成して設定します。
 
-![](assets/form_arbo.png)
+入力フォームフォルダーが選択された設定の下の![&#x200B; エクスプローラーツリー](assets/form_arbo.png)
 
-編集ゾーンを使用すると、入力フォームの XML コンテンツを入力できます。
+編集領域を使用して、入力フォームの XML コンテンツを入力できます。
 
-![](assets/form_edit.png)
+![入力フォームエディターbirthDate、性別、メール入力を含む受信者（cus）フォームのXMLを表示するタブ &#x200B;](assets/form_edit.png)
 
 プレビューで入力フォームを表示できます。
 
-![](assets/form_preview.png)
+![生年月日、性別、電子メールのフィールドを表示する受信者（cus）フォームの「プレビュー」タブ &#x200B;](assets/form_preview.png)
 
 ## フォームの構造
 
@@ -93,7 +93,7 @@ ht-degree: 94%
 
 サンプルスキーマに基づく入力フォーム：
 
-![](assets/do-not-localize/form_exemple1.png)
+![性別、生年月日、メールを3つの積み重ねフィールドとしてレンダリングするフォームを入力](assets/do-not-localize/form_exemple1.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -122,7 +122,7 @@ ht-degree: 94%
 
 上記の例のコントロールを 2 つの列に表示するには、次の設定を行います。
 
-![](assets/do-not-localize/form_exemple2.png)
+![性別と生年月日が並んだ入力フォームを2列に並べ、下にメールを配置](assets/do-not-localize/form_exemple2.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -138,7 +138,7 @@ ht-degree: 94%
 
 コントロールの **colspan** 属性は、値に入力された列数だけコントロールを拡張します。
 
-![](assets/do-not-localize/form_exemple3.png)
+![電子メールフィールドが両方の列に拡張された2列の入力フォーム &#x200B;](assets/do-not-localize/form_exemple3.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -152,7 +152,7 @@ ht-degree: 94%
 
 **type=&quot;frame&quot;** 属性を設定すると、コンテナは、**label** 属性に含まれるラベルを持つ子コントロールの周囲にフレームを追加します。
 
-![](assets/do-not-localize/form_exemple4.png)
+![性別、生年月日、全幅の電子メールフィールドを含む2列の入力フォーム。表示フレームなし](assets/do-not-localize/form_exemple4.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -166,7 +166,7 @@ ht-degree: 94%
 
 **`<static>`** 要素を使用して、入力フォームの形式を設定できます。
 
-![](assets/do-not-localize/form_exemple5.png)
+![性別、日付、電子メールのフィールドと、その下に静的なヘルプテキスト行を含むフォームを入力](assets/do-not-localize/form_exemple5.png)
 
 ```xml
 <form name="recipient" namespace="cus">
@@ -212,7 +212,7 @@ ht-degree: 94%
 
 **notebook** コンテナを使用して、タブからアクセス可能なページのデータの形式を設定します。
 
-![](assets/do-not-localize/form_exemple6.png)
+![性別、日付、電子メールの各フィールドの上に「一般」タブと「場所」タブを配置したフォームを入力](assets/do-not-localize/form_exemple6.png)
 
 ```xml
 <container type="notebook">
@@ -231,7 +231,7 @@ ht-degree: 94%
 
 **style=&quot;down&quot;** 属性を追加して、タブラベルをコントロールの真下に配置します。 この属性はオプションです。 デフォルト値は、**&quot;up&quot;** です。
 
-![](assets/do-not-localize/form_exemple7.png)
+![性別、日付、電子メールの各フィールドの下に「一般」タブと「場所」タブのラベルを配置したフォームを入力](assets/do-not-localize/form_exemple7.png)
 
 `<container style="down" type="notebook">  ... </container>`
 
@@ -239,7 +239,7 @@ ht-degree: 94%
 
 このコンテナを使用すると、表示するページを選択できる垂直アイコンバーを表示できます。
 
-![](assets/do-not-localize/form_exemple8.png)
+![性別、日付、電子メールのフィールドの横に「一般」ページと「場所」ページが表示されている縦のアイコンバー付きの入力フォーム &#x200B;](assets/do-not-localize/form_exemple8.png)
 
 ```xml
 <container type="iconbox">
@@ -308,7 +308,7 @@ ht-degree: 94%
 
 入力フォーム内のリンクの編集コントロールは次のとおりです。
 
-![](assets/do-not-localize/form_exemple9.png)
+Adobeを選択したリンクのドロップダウン編集コントロールを表示する![会社フィールド &#x200B;](assets/do-not-localize/form_exemple9.png)
 
 ```xml
 <input xpath="company"/>
@@ -421,7 +421,7 @@ ht-degree: 94%
 
 この例では、「cus:recipient」スキーマの入力フォームから始めます。 リストは、サービスに対する購読との関連付けを表示し、既存のサービスを選択して購読を追加できるようにする必要があります。
 
-![](assets/do-not-localize/form_exemple12.png)
+![&#x200B; サブスクリプションを追加するには、サービス ダイアログ リストのブラック リスト、MobApp、ニュースレター、その他のサービスを選択してください](assets/do-not-localize/form_exemple12.png)
 
 ```xml
 <input type="linklist" xpath="subscription" xpathChoiceTarget="service" xpathEditTarget="service" zoom="true">
@@ -522,7 +522,7 @@ ht-degree: 94%
 
 「性別」フィールドの例：
 
-![](assets/do-not-localize/form_exemple16.png)
+値がMale![&#128279;](assets/do-not-localize/form_exemple16.png)のドロップダウンとして表示されるGender フィールド
 
 ```xml
 <value value="@gender"/>
@@ -541,7 +541,7 @@ ht-degree: 94%
 <input type="RadioButton" xpath="@gender" checkedValue="2" label="Choice 3"/>
 ```
 
-![](assets/do-not-localize/form_exemple17.png)
+![性別フィールドがラジオボタン「選択肢1」、「選択肢2」、「選択肢3」として表示され、選択肢1が選択されている](assets/do-not-localize/form_exemple17.png)
 
 ## チェックボックスの追加 {#checkbox}
 
@@ -552,7 +552,7 @@ ht-degree: 94%
 <input xpath="@field1" type="checkbox" checkedValue="Y"/>
 ```
 
-![](assets/do-not-localize/form_exemple20.png)
+![Boolean1とfield1](assets/do-not-localize/form_exemple20.png)のラベルが付いた2つのチェック ボックス
 
 ## ナビゲーション階層の編集 {#navigation-hierarchy-edit}
 
@@ -573,7 +573,7 @@ ht-degree: 94%
 </input>
 ```
 
-![](assets/do-not-localize/form_exemple18.png)
+![&#x200B; テキストフィールドとブール値フィールドグループを使用したツリー編集コントロール。リストにはtext1からtext3とBoolean1からBoolean3](assets/do-not-localize/form_exemple18.png)があります
 
 ## 式フィールドの追加 {#expression-field}
 

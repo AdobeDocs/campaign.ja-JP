@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 87%
+source-wordcount: '368'
+ht-degree: 67%
 ---
 # スキーマの拡張{#extend-schemas}
 
@@ -61,23 +61,23 @@ Campaignの組み込みテーブルとそのインタラクションについて
 1. エクスプローラーの&#x200B;**[!UICONTROL 管理／設定／データスキーマー]**&#x200B;フォルダーに移動します。
 1. 「**新規**」ボタンをクリックし、「**[!UICONTROL 拡張スキーマを使用してテーブルのデータを拡張する]**」を選択します。
 
-   ![](assets/extend-schema-option.png)
+   選択した拡張スキーマを使用してテーブル内のデータを拡張する![&#x200B; スキーマタイプの手順](assets/extend-schema-option.png)
 
 1. 拡張するビルトインスキーマを特定し、選択します。
 
-   ![](assets/extend-schema-select.png)
+   ![受信者（nms）が選択された状態で、受信者でフィルタリングされたSource スキーマ選択ダイアログ &#x200B;](assets/extend-schema-select.png)
 
    慣例に従い、拡張スキーマにビルトインスキーマと同じ名前を付け、カスタム名前空間を使用します。  一部の名前空間は社内専用であることに注意してください。 [詳細情報](schemas.md#reserved-namespaces)
 
-   ![](assets/extend-schema-validate.png)
+   名前空間のケース、名前の受信者、ラベルの受信者![&#128279;](assets/extend-schema-validate.png)を含む拡張スキーマの スキーマパラメーターステップ
 
 1. スキーマエディタで、コンテキストメニューを使用して必要な要素を追加し、保存します。
 
-   ![](assets/extend-schema-edit.png)
+   ![属性で挿入メニューを開いたスキーマエディター。文字列、ブール値、整数、日付およびその他の種類が一覧表示されます](assets/extend-schema-edit.png)
 
    以下の例では、**MembershipYear** 属性を追加し、姓の長さの制限を設定して（この制限はデフォルト値を上書きします）、ビルトインスキーマから生年月日を削除します。
 
-   ![](assets/extend-schema-sample.png)
+   ![拡張スキーマ XMLがMembershipYear、50文字のlastName長を追加し、birthDate](assets/extend-schema-sample.png)を削除しています
 
    ```xml
    <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
@@ -93,7 +93,7 @@ Campaignの組み込みテーブルとそのインタラクションについて
 
 1. Campaign への接続を一旦解除してから再接続し、「**[!UICONTROL 構造]**」タブのスキーマ構造が更新されることを確認します。
 
-   ![](assets/extend-schema-structure.png)
+   cus:recipient スキーマの![構造タブに、新しいメンバーを含むフィールドが一覧表示されます。フィールドは](assets/extend-schema-structure.png)
 
 1. データベース構造を更新して、変更を適用します。 [詳細情報](update-database-structure.md)
 

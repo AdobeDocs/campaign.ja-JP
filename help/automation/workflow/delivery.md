@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1252'
+ht-degree: 83%
 ---
 # 配信{#delivery}
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 設定するには、アクティビティを編集して、配信オプションを入力します。
 
-![](assets/edit_diffusion.png)
+![配信、受信者、コンテンツ、およびセクションとアウトバウンドトランジションを実行するアクションを含む配信アクティビティウィンドウ &#x200B;](assets/edit_diffusion.png)
 
 1. **配信**
 
@@ -53,27 +53,27 @@ ht-degree: 100%
 
      次の例では、初回の配信が作成されます。 母集団とコンテンツは、後から定義されます。 次に、これらの 3 つの要素の情報は、インバウンドトランジションを使用する新しい配信アクティビティに再入力され、送信できるようになります。
 
-     ![](assets/specified_transition_option_exemple.png)
+     ![配信アクティビティを作成するワークフローは、2番目の配信アクティビティをトランジションで指定に設定しました](assets/specified_transition_option_exemple.png)
 
    * 対象の配信を直接選択します。 それには、「**[!UICONTROL 明示]**」オプションを選択して、「**[!UICONTROL 配信]**」フィールドのドロップダウンリストから配信を選択します。
 
      このリストには、デフォルトで、「**配信**」フォルダー内にある終了していない配信が表示されます。 その他のキャンペーンにアクセスするには、「**[!UICONTROL リンクを選択]**」アイコンをクリックします。
 
-     ![](assets/diffusion_edit_1.png)
+     明示的に選択された![配信セクションと、配信フィールドの横にあるリンクを選択アイコン &#x200B;](assets/diffusion_edit_1.png)
 
      「**[!UICONTROL フォルダー]**」フィールドのドロップダウンリストからキャンペーンを選択するか、「**[!UICONTROL サブレベルを表示]**」をクリックしてサブフォルダー内に含まれているすべての配信を表示します。
 
-     ![](assets/diffusion_edit_2.png)
+     ![配信の選択ウィンドウ。フォルダーのフィールドが「配信」に設定され、サブレベルの表示アイコン &#x200B;](assets/diffusion_edit_2.png)
 
      配信アクションを選択した後で、「**[!UICONTROL リンクを編集]**」アイコンをクリックして、コンテンツを表示できます。
 
    * 配信を自動生成するスクリプトを作成します。 それには、「**[!UICONTROL スクリプトで処理]**」オプションを選択し、スクリプトを入力します。 「**[!UICONTROL 編集...]**」オプションをクリックして、入力ウィンドウを開きます。 次の例では、配信の ID を収集します。
 
-     ![](assets/diffusion_edit_3.png)
+     ![式vars.deliveryId](assets/diffusion_edit_3.png)を表示する「スクリプトを編集」ウィンドウで、スクリプトオプションで計算しました
 
    * 新しい配信を作成します。 それには、「**[!UICONTROL 新規（テンプレートから作成）]**」オプションを選択し、配信のベースとなる配信テンプレートを選択します。
 
-     ![](assets/diffusion_edit_4.png)
+     ![新規、配信テンプレートを選択したテンプレートオプションとリンクを編集アイコン &#x200B;](assets/diffusion_edit_4.png)から作成
 
      選択したテンプレートのコンテンツを確認するには、「**[!UICONTROL リンクを選択]**」アイコンをクリックしてフォルダーを参照し、「**[!UICONTROL リンクを編集]**」アイコンをクリックします。
 
@@ -81,19 +81,19 @@ ht-degree: 100%
 
    受信者は、ファイルインポート後のイベントや、配信アクションで指定されたイベントなど、インバウンドイベントによって指定できます。 また、受信者は、1 つまたは複数のファイルに保存できます。
 
-   ![](assets/diffusion_edit_5.png)
+   ![受信者セクション。受信イベントで指定されたオプション、配信で指定されたオプションおよび指定されたファイル &#x200B;](assets/diffusion_edit_5.png)
 
 1. **コンテンツ**
 
    メッセージのコンテンツは、配信内またはインバウンドイベント内に定義できます。
 
-   ![](assets/diffusion_edit_6.png)
+   インバウンドイベントによって指定され、配信オプションで指定された![&#x200B; コンテンツセクション &#x200B;](assets/diffusion_edit_6.png)
 
 1. **実行するアクション**
 
    配信を作成して、準備して開始し、ターゲットを推定したり、配達確認を送信することができます。
 
-   ![](assets/diffusion_edit_7.png)
+   ![保存から準備と開始のオプションを実行するためのアクション、およびアウトバウンドトランジションの生成オプション &#x200B;](assets/diffusion_edit_7.png)
 
    実行するアクションのタイプを選択します。
 
@@ -121,13 +121,13 @@ ht-degree: 100%
 
    「**スクリプト**」タブで、配信パラメーターを編集できます。
 
-   ![](assets/edit_diffusion_fil_script.png)
+   配信ラベルを設定する配信オブジェクト変更スクリプトを含む配信アクティビティの「![&#x200B; スクリプト」タブ &#x200B;](assets/edit_diffusion_fil_script.png)
 
 ## 例：配信ワークフロー {#example--delivery-workflow}
 
 新しいワークフローを作成し、次の図に示すようにアクティビティを追加します。
 
-![](assets/new-workflow-5.png)
+![開始、配信および承認アクティビティを含むワークフロー、次に「はい」と「終了」を含む配信の制御](assets/new-workflow-5.png)
 
 「**配信**」アクティビティを開き、次の手順でプロパティを定義します。
 
@@ -135,7 +135,7 @@ ht-degree: 100%
 * 「**[!UICONTROL 受信者]**」セクションで、「**[!UICONTROL 配信テンプレートで指定]**」を選択します。
 * 「**[!UICONTROL 実行するアクション]**」セクションで、「**[!UICONTROL 準備]**」オプションを選択したままにします。
 
-![](assets/new-workflow-param-delivery.png)
+![新しい配信アクティビティ、テンプレートから作成、配信受信者で指定、選択済みの準備](assets/new-workflow-param-delivery.png)を使用
 
 「**[!UICONTROL OK]**」をクリックしてプロパティウィンドウを閉じます。 以上で、新しい配信の作成と準備から成るアクティビティが設定されました。新しい配信は、配信ターゲットが指定される配信テンプレートに基づきます。
 
@@ -150,7 +150,7 @@ ht-degree: 100%
 
    これは JavaScript で記述された式を含むメッセージです。**[!UICONTROL vars.recCount]** は、前のタスクの配信のターゲットとなった受信者数を表します。 JavaScript 式について詳しくは、[JavaScript のスクリプトとテンプレート](javascript-scripts-and-templates.md)を参照してください。
 
-   ![](assets/new-workflow-param-validation.png)
+   ![&#x200B; グループ割り当てタイプと、ターゲットの承認を求めるvars.recCountを使用したメッセージを含む承認アクティビティ &#x200B;](assets/new-workflow-param-validation.png)
 
    承認タスクについて詳しくは、[承認](approval.md)を参照してください。
 

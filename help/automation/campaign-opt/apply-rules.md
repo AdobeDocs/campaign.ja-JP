@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 99%
+source-wordcount: '1123'
+ht-degree: 90%
 ---
 # タイポロジルールの適用{#applying-rules}
 
@@ -45,14 +45,14 @@ ht-degree: 99%
 
 1. 「**[!UICONTROL ルール]**」タブに移動し、「**[!UICONTROL 追加]**」ボタンをクリックして、このタイポロジによって適用するルールを選択します。
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![&#x200B; タイポロジルール タブ。追加ボタンと、選択するタイポロジルールを一覧表示するルールを追加ダイアログ &#x200B;](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. タイポロジを保存して、既存のタイポロジのリストに追加します。
 1. このルールを適用する配信を開きます。
 1. 配信プロパティを参照し、「**[!UICONTROL タイポロジ]**」タブを開きます。
 1. ドロップダウンリストからタイポロジを選択します。
 
-   ![](assets/campaign_opt_pressure_sample_1_7.png)
+   ![配信プロパティ、Typology タブ、Typology ドロップダウンリストのClients/Prospects Pressure](assets/campaign_opt_pressure_sample_1_7.png)
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ ht-degree: 99%
 
 次に、[&#x200B; クエリエディター](../../v8/start/query-editor.md)を使用して、フィルタリング条件を定義します。 以下の図では、ラベルに「offer」という語が含まれる配信または現在の日付以降に作成された配信のみに、処理能力ルールが適用されます。
 
-![](assets/campaign_opt_create_capacity_criterion.png)
+![&#x200B; ラベルのアプリケーション条件クエリが含まれている「キャパシティルール一般」タブには、オファーと作成日が含まれています](assets/campaign_opt_create_capacity_criterion.png)
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ ht-degree: 99%
 
 **[!UICONTROL コントロール]**&#x200B;ルールの場合は、配信ライフサイクルのどの時点でルールを適用するかを指定することができます（ターゲティングの前または後、パーソナライゼーションの開始時、分析の終了時）。 タイポロジルールの「**[!UICONTROL 一般]**」タブにある「**[!UICONTROL フェーズ]**」フィールドで、適用する値をドロップダウンリストから選択してください。
 
-![](assets/campaign_opt_define_control_phase.png)
+![4つのアプリケーションフェーズが一覧表示されたフェーズ ドロップダウンを使用して、タイポロジルールの「一般」タブを制御する](assets/campaign_opt_define_control_phase.png)
 
 次のような値を選択できます。
 
@@ -147,7 +147,7 @@ ht-degree: 99%
 
 必要に応じて、「**[!UICONTROL IP アドレスを使用したアフィニティの管理]**」フィールドを使用して、アフィニティを管理する配信サーバー（MTA）と配信を関連付けることができます。 この設定により、コンピューターや出力アドレスに配信されるメールの数を制限できます。
 
-![](assets/campaign_opt_select_ip_affinity.png)
+![IP アドレスを持つ親和性の管理の下にある親和性フィールドを持つタイポロジ一般タブ &#x200B;](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
@@ -161,9 +161,9 @@ ht-degree: 99%
 
 「**[!UICONTROL 分散型マーケティング]**」タブでは、共有キャンペーンがオーダーまたは予約されているときに適用されるタイポロジまたはタイポロジルールの再マッピングを定義できます。 分散型マーケティングでは、ローカルエンティティのタイポロジ／ルール（セントラルエンティティ向けに定義されたタイポロジ／ルールにリンクされる）によって、セントラルエンティティのタイポロジ／ルールが置換されます。 再マッピングすると、キャンペーンをオーダーするローカルエンティティに応じて、セントラルエンティティのルールを調整することができます。
 
-![](assets/simu_campaign_opti_distrib_mkg.png)
+![組織エンティティと関連する中央タイポロジフィールドを含むタイポロジ分散マーケティングタブ &#x200B;](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
 >ライセンスに分散型マーケティングのオプションが含まれていれば、タイポロジおよびタイポロジルールに「**[!UICONTROL 分散型マーケティング]**」タブが追加されます。オプションの有無については、ライセンス契約をお確かめください。\
->分散型マーケティングについて詳しくは、[この節](../distributed-marketing/about-distributed-marketing.md)を参照してください。
+>分散型マーケティングについて詳しくは、[分散型マーケティングの基本を学ぶ](../distributed-marketing/about-distributed-marketing.md)を参照してください。

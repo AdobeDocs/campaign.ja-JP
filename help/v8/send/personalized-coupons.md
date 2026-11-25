@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 94%
+source-wordcount: '1241'
+ht-degree: 74%
 ---
 # パーソナライズされたクーポン{#personalized-coupons}
 
@@ -55,12 +55,12 @@ ht-degree: 94%
 
 1. Campaign ツリーで、**[!UICONTROL リソース／キャンペーン管理／クーポン]**&#x200B;に移動します。
 
-   ![](assets/deliv_coup_01.png)
+   ![&#x200B; リソースを含むキャンペーンツリー、キャンペーン管理が展開され、クーポンノードが選択されました](assets/deliv_coup_01.png)
 
 1. 「**[!UICONTROL 新規]**」ボタンをクリックします。
 1. **[!UICONTROL ラベル]** フィールドにクーポンの名前を入力します。 「**[!UICONTROL クーポンコード]**」に一意のコードが自動的に入力されます。 コードをそのまま使用するか、新しいコードを入力することができます。
 
-   ![](assets/deliv_coup_02.png)
+   ![&#x200B; ラベル、クーポンコード、クーポンタイプ、開始日および終了日フィールドを含むクーポンのクーポンリストと一般タブ &#x200B;](assets/deliv_coup_02.png)
 
 1. 「**[!UICONTROL 開始日]**」および「**[!UICONTROL 終了日]**」を選択して、クーポンが有効な期間を設定します。
 1. 「**[!UICONTROL クーポンタイプ]**」で、「匿名」または「個人」を選択します。
@@ -81,7 +81,7 @@ ht-degree: 94%
 
 ### 個人クーポンの設定 {#configuring-individual-coupons}
 
-![](assets/deliv_coup_03.png)
+個別のクーポンコードを一覧表示するクーポンの「![&#x200B; クーポン」タブ。それぞれに利用可能なステータス &#x200B;](assets/deliv_coup_03.png)
 
 「クーポン」タブは、個人クーポンでのみ使用できます。 クーポンを配信に関連付けると、「クーポン」タブに次の詳細が表示されます。
 
@@ -98,60 +98,60 @@ ht-degree: 94%
 1. **[!UICONTROL Campaigns]** に移動し、「**[!UICONTROL 配信]**」を選択します。
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-   ![](assets/deliv_coup_04.png)
+   ![作成ボタンがハイライト表示されたキャンペーン タブの配信リスト &#x200B;](assets/deliv_coup_04.png)
 
 1. 「**[!UICONTROL ラベル]**」に名前を入力し、「**[!UICONTROL 続行]**」をクリックします。
 1. 「**[!UICONTROL 宛先]**」をクリックして受信者を追加します。
 1. 「**[!UICONTROL 追加]**」をクリックして、配信の受信者を選択します。 受信者を選択したら、「**[!UICONTROL OK]**」をクリックして配信に戻ります。
 
-   ![](assets/deliv_coup_05.png)
+   ![追加ボタンがハイライト表示されたメインターゲットタブのターゲットダイアログを選択](assets/deliv_coup_05.png)
 
 1. 件名を入力し、メッセージにコンテンツを追加します。
 
-   ![](assets/deliv_coup_06.png)
+   ![&#x200B; クーポン電子メールの件名とHTML コンテンツを含む配信エディター](assets/deliv_coup_06.png)
 
 1. ツールバーで、「**[!UICONTROL プロパティ]**」をクリックし、「**[!UICONTROL 詳細設定]**」タブを選択します。
 1. 「**[!UICONTROL クーポン管理]**」のフォルダーアイコンをクリックします。
 
-   ![](assets/deliv_coup_07.png)
+   ![&#x200B; クーポン管理で「クーポン」フィールドの横にフォルダーアイコンが表示された配信プロパティの「詳細」タブ &#x200B;](assets/deliv_coup_07.png)
 
 1. クーポンを選択し、「**[!UICONTROL OK]**」をクリックします。 もう一度「**[!UICONTROL OK]**」をクリックします。
 
-   ![](assets/deliv_coup_08.png)
+   ![&#x200B; サッカークーポンを選択したクーポンドキュメントを一覧表示するクーポン選択ダイアログ &#x200B;](assets/deliv_coup_08.png)
 
 1. メッセージをクリックして、クーポンを配置する場所を選択します。
 
-   ![](assets/deliv_coup_09.png)
+   ![&#x200B; クーポンコードを挿入する場所にカーソルが置かれたHTML コンテンツエディター](assets/deliv_coup_09.png)
 
 1. パーソナライゼーションアイコンをクリックして、クーポンのタイプに基づいて次のどちらかを選択します。
 
    * 匿名クーポン：**[!UICONTROL クーポン／クーポンコード]**
 
-     ![](assets/deliv_coup_10.png)
+     ![匿名のクーポンに対して、クーポンとクーポンコードが選択されたPersonalization メニュー](assets/deliv_coup_10.png)
 
    * 個人クーポン：**[!UICONTROL クーポン値／クーポンコード]**
 
-     ![](assets/deliv_coup_11.png)
+     個別のクーポンの場合、クーポン値が選択された![Personalization メニューからクーポンコードが選択された](assets/deliv_coup_11.png)
 
      クーポンは、割り当てた名前ではなくコードとしてメッセージに挿入されます。 このコードは、Campaign 標準データモデル内で使用されます。
 
-   ![](assets/deliv_coup_12.png)
+   ![&#x200B; クーポン コード スクリプト、couponValue.couponCodeが挿入されたメール コンテンツ、強調表示](assets/deliv_coup_12.png)
 
 1. テストを実行して、クーポンに割り当てた名前を確認します。 「**[!UICONTROL プレビュー]**」タブに移動し、「**[!UICONTROL パーソナライゼーションをテスト]**」をクリックします。 テストする受信者を選択します。
 
-   ![](assets/deliv_coup_13.png)
+   ![&#x200B; パーソナライゼーションのテスト メニューが開き、「受信者」オプションがハイライト表示されたプレビュータブ &#x200B;](assets/deliv_coup_13.png)
 
    テストに続いて、コードではなく割り当てた名前でクーポンが表示されます。
 
-   ![](assets/deliv_coup_14.png)
+   ![&#x200B; クーポンコードが記載されたメールのプレビューが、メッセージ本文に表示されるようになりました](assets/deliv_coup_14.png)
 
 1. ツールバーで、「**[!UICONTROL 送信]**」（左上）をクリックし、配信の送信方法を選択します。
 
-   ![](assets/deliv_coup_15.png)
+   ![できるだけ早く配信オプションと「分析」ボタンを使用して、メイン配信ターゲットダイアログに送信する](assets/deliv_coup_15.png)
 
 1. 「**[!UICONTROL 分析]**」をクリックします。 分析ログですべての受信者に対して十分なクーポンがあることを確認したら、「**[!UICONTROL 配信を確定]**」をクリックして送信します。
 
-   ![](assets/deliv_coup_16.png)
+   ![再利用された2つのクーポンと「配達確認」ボタンが使用可能であることを示す配達分析ログ &#x200B;](assets/deliv_coup_16.png)
 
 >[!NOTE]
 >
@@ -162,7 +162,7 @@ ht-degree: 94%
 1. **[!UICONTROL エクスプローラー／リソース／キャンペーン管理／クーポン]**&#x200B;に移動します。
 1. 「**[!UICONTROL 配信]**」タブをクリックします。
 
-   ![](assets/deliv_coup_17.png)
+   ![&#x200B; クーポンの「配信」タブには、それを使用する配信とそのステータスおよびメッセージ数が表示されます](assets/deliv_coup_17.png)
 
    配信に成功している場合、ステータスに&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。
 
@@ -180,12 +180,12 @@ ht-degree: 94%
 1. 「**[!UICONTROL 宛先]**」をクリックします。
 1. 「**[!UICONTROL ターゲットを選択]**」で、「**[!UICONTROL 除外]**」タブに移動します。
 
-   ![](assets/deliv_coup_18.png)
+   ![除外タブがハイライト表示され、除外の設定に対する編集リンクが表示されたターゲットダイアログを選択](assets/deliv_coup_18.png)
 
 1. 「除外設定」セクションで、「**[!UICONTROL 編集]**」をクリックします。
 1. 「**[!UICONTROL 配信数上限...メッセージ]**」に送信するメッセージの数を入力し、「**[!UICONTROL OK]**」をクリックします。 配信を送信できます。
 
-   ![](assets/deliv_coup_19.png)
+   「配信制限」フィールドが20件のメッセージがハイライト表示された![除外設定ダイアログ &#x200B;](assets/deliv_coup_19.png)
 
 >[!NOTE]
 >

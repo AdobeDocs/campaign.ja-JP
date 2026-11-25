@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 100%
+source-wordcount: '291'
+ht-degree: 84%
 ---
 # 集計計算の実行 {#performing-aggregate-computing}
 
@@ -46,22 +46,22 @@ ht-degree: 100%
 
 この例を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。 出力列に「**[!UICONTROL 性別]**」フィールドを追加します。 「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**** これにより、受信者は性別でグループ化されます。
+1. **[!UICONTROL 抽出するデータ]**&#x200B;で、（前の例で示したように）プライマリキーのカウントを定義します。 出力列に「**[!UICONTROL 性別]**」フィールドを追加します。 「**[!UICONTROL 「性別]**」列で、「グループ」オプションをオンにします。**&#x200B;** これにより、受信者は性別でグループ化されます。
 
-   ![](assets/query_editor_nveau_27.png)
+   ![&#x200B; カウント（プライマリキー）と性別の列で抽出するデータ、および性別に対して「グループ」を「はい」に設定](assets/query_editor_nveau_27.png)
 
 1. **[!UICONTROL 並べ替え]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックします。ここでは並べ替えは必要ありません。
 1. データのフィルターを設定します。 ここでは、横浜市に住んでいる連絡先に選択を制限します。
 
-   ![](assets/query_editor_22.png)
+   ![&#x200B; ターゲット要素フィルター：クエリーの概要がハイライト表示された、ロンドンに等しい都市（場所/@city）。](assets/query_editor_22.png)
 
    >[!NOTE]
    >
-   >値では大文字と小文字が区別されます。 条件に、大文字を使用せずに値 &quot;london&quot; を入力し、受信者のリストに大文字を使用した「London」という単語が含まれている場合、クエリは失敗します。
+   >値では大文字と小文字を区別します。 条件に、大文字を使用せずに値 &quot;london&quot; を入力し、受信者のリストに大文字を使用した「London」という単語が含まれている場合、クエリは失敗します。
 
 1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックします。この例では書式設定は必要ありません。
 1. プレビューウィンドウで、「**[!UICONTROL データのプレビューを開始]**」をクリックします。
 
    性別での並べ替えには、次の 3 つの異なる値があります。**2** は女性、**1** は男性 、**0** は性別が不明の場合です。 この例では、リストに女性が 10 人、男性が 16 人、性別不明が 2 人含まれています。
 
-   ![](assets/query_editor_agregat_04.png)
+   ![性別の値2、1および0に対するカウント 10、16および2を表示するデータ プレビュー。](assets/query_editor_agregat_04.png)

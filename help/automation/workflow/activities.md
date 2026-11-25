@@ -26,26 +26,26 @@ topic_v2:
     internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 67%
 ---
 # ワークフローアクティビティ{#wf-activities}
 
 ワークフローアクティビティは、4 つの異なるタブで、カテゴリ別にグループ化されます。
 
-![](assets/wf-activity-tabs.png)
+![4つのカテゴリタブがハイライト表示され、ターゲティングアクティビティが一覧表示されたアクティビティパレット。](assets/wf-activity-tabs.png)
 
 ユーザーの権限、実装環境、ワークフローが設計されたコンテキストに応じて、使用可能なアクティビティは異なる場合があります。
 
 例えば、キャンペーンで作成されたワークフローでは、特定の「**配信**」タブにすべてのチャネルが表示されます。 このタブは、[テクニカルワークフロー](technical-workflows.md)では表示されません。
 
-![](assets/campaign-wf-activities.png)
+![&#x200B; キャンペーンワークフローの「配信」タブ：電子メール、ダイレクトメール、モバイル、iOS、Android、その他、定期的な配信](assets/campaign-wf-activities.png)
 
 テクニカルワークフローでは、[キャンペーンワークフロー](campaign-workflows.md)には表示されない特定の「**イベント**」タブが表示されます。
 
-![](assets/tech-wf-activities.png)
+テクニカルワークフローの「![&#x200B; イベント」タブ：ファイルコレクター、ファイル転送、Web ダウンロード、インバウンドメールおよびインバウンド SMS。](assets/tech-wf-activities.png)
 
 すべてのアクティビティについて、以下の節で詳しく説明します。
 

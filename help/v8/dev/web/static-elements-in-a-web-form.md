@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1407'
+ht-degree: 76%
 ---
 # Web フォームの静的要素{#static-elements-in-a-web-form}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ユーザーインタラクションのない要素をフォームのページに含めることができます。これらは、画像、HTML コンテンツ、横棒グラフまたはハイパーリンクなどの静的要素です。 これらの要素は、ツールバーの最初のボタンで「**[!UICONTROL 静的要素]**」を選択して作成します。
 
-![](assets/s_ncs_admin_survey_add_static_element.png)
+静的要素の![&#x200B; ページツールバーメニュー：値、リンク、HTML、画像、横棒、トラッキングタグおよびスクリプト &#x200B;](assets/s_ncs_admin_survey_add_static_element.png)
 
 次のフィールドのタイプを使用できます。
 
@@ -58,11 +58,11 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 コンテンツを直接入力および書式設定したり、ソースコードウィンドウを表示して、一部の外部コンテンツを貼り付けたりできます。 「ソースコード」モードに切り替えるには、ツールバーの最初のアイコンをクリックします。
 
-![](assets/s_ncs_admin_survey_html_editor.png)
+「ソースコードを表示」ボタンが強調表示され、HTML ソースが表示されているページの![HTML エディター](assets/s_ncs_admin_survey_html_editor.png)
 
 データベースフィールドを挿入するには、パーソナライゼーションボタンを使用します。
 
-![](assets/webapp_perso_button_in_html.png)
+![HTML エディターのパーソナライゼーションメニューでは、名、姓、プライマリキーなどの受信者フィールドが表示されます](assets/webapp_perso_button_in_html.png)
 
 >[!NOTE]
 >
@@ -74,14 +74,14 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 ハイパーリンクを追加するには、**[!UICONTROL 静的要素]**／**[!UICONTROL リンク]**&#x200B;に移動します。
 
-![](assets/s_ncs_admin_survey_add_link.png)
+![&#x200B; リンクプロパティ：ラベル、アクションをURLに設定、メール送信先URL、ウィンドウ、ツールヒント、表示設定](assets/s_ncs_admin_survey_add_link.png)
 
 * 「**[!UICONTROL ラベル]**」は、フォームページに表示されるハイパーリンクの内容です。
 * 「**[!UICONTROL URL]**」は、目的のアドレス（例：Web サイトの場合は [https://www.adobe.com/jp](https://www.adobe.com/jp)、メッセージを送信したい場合には [info@adobe.com](mailto:info@adobe.com)）です。
 * 「**[!UICONTROL ウィンドウ]**」フィールドを使用すると、サイトの場合のリンクの表示モードを選択できます。 リンクを新しいウィンドウで開いたり、現在のウィンドウで開いたり、別のウィンドウで開いたりできます。
 * 次に示すように、ツールチップを追加できます。
 
-  ![](assets/s_ncs_admin_survey_send_an_email.png)
+  ![&#x200B; ツールヒントを使用してメッセージリンクを送信をレンダリングこちらをクリックしてメールを送信してください](assets/s_ncs_admin_survey_send_an_email.png)
 
 * リンクをボタンとして表示するか、画像として表示するかを選択できます。 これをおこなうには、「**[!UICONTROL タイプ]**」フィールドで表示のタイプを選択します。
 
@@ -89,7 +89,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 デフォルトでは、リンクは、リンク先アドレスが「URL」フィールドに入力できるように、URL タイプのアクションに関連付けられています。
 
-![](assets/s_ncs_admin_survey_link_url.png)
+![&#x200B; プロパティをメールのURLとリンクし、「ウィンドウ」フィールドを「新しいウィンドウを作成」に設定し、ツールヒント &#x200B;](assets/s_ncs_admin_survey_link_url.png)
 
 ユーザーがリンクをクリックして次のアクションをおこなえるように、リンクに別のアクションを定義できます。
 
@@ -97,33 +97,33 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
   これをおこなうには、「**[!UICONTROL アクション]**」フィールドのドロップダウンボックスで、「**[!UICONTROL ページを更新]**」オプションを選択します。
 
-  ![](assets/s_ncs_admin_survey_link_refresh.png)
+  ![&#x200B; リンクアクションドロップダウンに「なし」、「URL」、「表示」、「ページを更新」、「次のページ」、「トランジションを有効にする」が表示され、更新ページが選択されている](assets/s_ncs_admin_survey_link_refresh.png)
 
 * 次／前のページの表示
 
   これをおこなうには、「**[!UICONTROL アクション]**」フィールドのドロップダウンボックスで、「**[!UICONTROL 次のページ]**」または「**[!UICONTROL 前のページ]**」オプションを選択します。
 
-  ![](assets/s_ncs_admin_survey_link_next.png)
+  ![次ページのラベルが付いたリンクに対して次ページを選択したリンク アクション ドロップダウン &#x200B;](assets/s_ncs_admin_survey_link_next.png)
 
   リンクで置き換える場合は、「**[!UICONTROL 次へ]**」および「**[!UICONTROL 戻る]**」ボタンを非表示することができます。 この[ページ](defining-web-forms-page-sequencing.md)を参照してください。
 
   リンクは、デフォルトで使用される「**[!UICONTROL 次へ]**」ボタンを置き換えます。
 
-  ![](assets/s_ncs_admin_survey_link_next_ex.png)
+  ![名、姓およびパスワードのフィールドと、検証ツールチップを表示する次のリンクを含むフォームページ &#x200B;](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * 別のページの表示
 
   「**[!UICONTROL トランジションを有効にする]**」オプションを使用すると、「**[!UICONTROL トランジション]**」フィールドで選択されたアウトバウンドトランジションに関連付けられた特定のページを表示できます。
 
-  ![](assets/s_ncs_admin_survey_link_viral.png)
+  ![移行を有効にするアクションが設定されたリンクと、次へ送信する機能と友達に送信する機能を提供する移行リスト &#x200B;](assets/s_ncs_admin_survey_link_viral.png)
 
   デフォルトでは、ページには 1 つのアウトバウンドトランジションのみがあります。 新しいトランジションを作成するには、ページを選択して、次に示すように、「**[!UICONTROL アウトバウンドトランジション]**」セクションの&#x200B;**[!UICONTROL 追加]**&#x200B;ボタンをクリックします。
 
-  ![](assets/s_ncs_admin_survey_add_transition.png)
+  ![&#x200B; アウトバウンドトランジションが有効になっているウェルカムページプロパティ、次とバイラル（友達に送信）、および追加ボタン &#x200B;](assets/s_ncs_admin_survey_add_transition.png)
 
   ダイアグラムでは、この追加は次のように表示されます。
 
-  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+  ![あなたの契約があなたのアカウントに導く、またはスポンサーに友達に送る経由で導くWeb フォームのフロー、保管と終了](assets/s_ncs_admin_survey_add_transition_graph.png)
 
   >[!NOTE]
   >
@@ -133,7 +133,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 フォームページの HTML コンテンツを前のページで記録したデータでパーソナライズできます。 例えば、自動車保険の Web フォームを作成して、最初のページで連絡先情報および自動車のブランドを提供できます。
 
-![](assets/s_ncs_admin_survey_tag_ctx_1.png)
+![&#x200B; タイトル、名前、電子メール、ID、車のブランドを尋ねる2 ページ中1 ページに次のボタンを表示](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
 パーソナライゼーションフィールドを使用して、ユーザー名と選択したブランドを次のページに再挿入できます。 使用する構文は、情報ストレージモードによって異なります。 詳しくは、[収集された情報の使用](web-forms-answers.md#using-collected-information)を参照してください。
 
@@ -143,7 +143,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 この例では、受信者の姓と名がデータベースのフィールドに格納され、自動車のブランドが変数に格納されます。 ページ 2 でパーソナライズされたメッセージの構文は、次のようになります。
 
-![](assets/webapp_perso_vars_include.png)
+![受信者の名前、姓、およびタグ構文を使用して挿入された車のブランド変数を含むパーソナライズされたメッセージ HTML](assets/webapp_perso_vars_include.png)
 
 ```xml
 <P>Welcome <%= ctx.recipient.@firstName %> <%= ctx.recipient.@lastName %>,</P>
@@ -152,7 +152,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 これにより、次のような結果が導かれます。
 
-![](assets/s_ncs_admin_survey_tag_ctx_2.png)
+![&#x200B; フォームページ 2/2、名前とブランドで受信者に挨拶、モデルと車の年を選択](assets/s_ncs_admin_survey_tag_ctx_2.png)
 
 ### テキスト変数の使用 {#using-text-variables}
 
@@ -167,11 +167,11 @@ HTML エディターを使用すると、フォームページに挿入するコ
 1. **[!UICONTROL 識別子]**&#x200B;列に、変数名を入力します。
 1. **[!UICONTROL テキスト]**&#x200B;列に、デフォルト値を入力します。
 
-   ![](assets/s_ncs_admin_survey_html_text.png)
+   ![HTMLのエレメントテキストのタブには、国と日付形式の識別子がテキスト値と共に表示されます](assets/s_ncs_admin_survey_html_text.png)
 
 1. HTML コンテンツでは、**&lt;%= $(Contact) %>** 構文を使用してこのテキスト変数を挿入できます。
 
-   ![](assets/s_ncs_admin_survey_html_content.png)
+   ![最終変更日フィールドの横に連絡先テキスト識別子が挿入されたHTML コンテンツエディター](assets/s_ncs_admin_survey_html_content.png)
 
    >[!CAUTION]
    >
@@ -179,7 +179,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 1. フォームの&#x200B;**[!UICONTROL プレビュー]**&#x200B;ラベルを開いて、HTML に入力した値を表示します。
 
-   ![](assets/s_ncs_admin_survey_html_content_preview.png)
+   ![翻訳されたテキスト識別子を持つ最後の連絡先の日付を表示する2/2のフォームページ &#x200B;](assets/s_ncs_admin_survey_html_content_preview.png)
 
 この操作モードでは、Web フォームのテキストを 1 回だけ定義でき、統合翻訳ツールを使用して翻訳を管理できます。 詳しくは、[web フォームの翻訳](translating-a-web-form.md)を参照してください。
 
@@ -191,7 +191,7 @@ HTML エディターを使用すると、フォームページに挿入するコ
 
 挿入する画像のソースを選択します。パブリックリソースライブラリから取得したり、外部からアクセス可能なサーバーに保存したりできます。
 
-![](assets/s_ncs_admin_survey_add_img.png)
+![&#x200B; ロゴの画像要素プロパティ。画像ソースリストにライブラリと外部](assets/s_ncs_admin_survey_add_img.png)が含まれる
 
 ライブラリからの画像の場合、フィールドのコンボボックスで選択します。外部ファイルにある場合、アクセスパスを入力します。 ラベルは、画像にマウスポインターを重ねるか、画像が表示されない場合に表示されます（HTML の ALT フィールドと同じ）。
 

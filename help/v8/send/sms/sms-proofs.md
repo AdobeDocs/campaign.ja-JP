@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 93%
+source-wordcount: '337'
+ht-degree: 78%
 ---
 # SMS 配信の配達確認の送信 {#sms-proof}
 
@@ -39,7 +39,7 @@ SMS 配信の配達確認を送信して、検証できます。
 
 1. 「**[!UICONTROL 配達確認を送信]**」ボタンをクリックすると、ウィンドウが開きます
 
-   ![](assets/proof_targeting.png){zoomable="yes"}
+   ![&#x200B; ターゲティングモードのリストを含むプルーフダイアログを送信する：特定のプルーフターゲット、アドレス置換、シードアドレス、またはその両方](assets/proof_targeting.png){zoomable="yes"}
 
    配達確認を送信するには、次の複数のモードがあります。
 
@@ -53,12 +53,12 @@ SMS 配信の配達確認を送信して、検証できます。
 
    次の例では、「**[!UICONTROL 特定の配達確認ターゲットの定義]**」を選択し、受信者を追加します。
 
-   ![](assets/proof_recipient.png){zoomable="yes"}
+   ![受信者1人が追加され、分析ボタンが表示された特定のプルーフターゲットモードの定義で、プルーフダイアログを送信する](assets/proof_recipient.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 分析]**」ボタンをクリックします。
 Adobe Campaign では、配達確認の送信を検証する前にすべてのコントロールを実行します。 分析の最後に表示される「**[!UICONTROL 配信を確定]**」ボタンがクリックできるようになります。
 
-   ![](assets/proof_analyze.png){zoomable="yes"}
+   ![分析後にプルーフダイアログを送信：準備完了、送信する1つのメッセージ、分析ログ、配信の確認ボタン &#x200B;](assets/proof_analyze.png){zoomable="yes"}
 
 1. SMS 配信の配達確認を送信するには、「**[!UICONTROL 配信を確定]**」ボタンをクリックします。
 

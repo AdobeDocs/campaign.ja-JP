@@ -28,10 +28,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 71%
+source-wordcount: '317'
+ht-degree: 52%
 ---
 # SMSの監視と追跡
 
@@ -47,25 +47,25 @@ ht-degree: 71%
 
 「**[!UICONTROL 概要]**」タブには、処理されたメッセージの数や成功の数などの主なデータが表示されます。
 
-![](assets/sms_summary.png){zoomable="yes"}
+![SMS配信ダッシュボードの概要タブ。送信、処理済み、成功率、配信ステータス &#x200B;](assets/sms_summary.png){zoomable="yes"}に関するメッセージが表示されている
 
 SMS の送信後は、配信のコンテンツに関する「**[!UICONTROL SMS]**」タブにアクセスして変更することはできなくなります。
 
 「**[!UICONTROL 配信]**」タブには、配信ログに関する情報が表示されます。 連絡先アドレスごとに、SMS が送信されたかどうかを確認できます
 
-![](assets/sms_deliverylogs.png){zoomable="yes"}
+![配信タブのログ リストは、連絡を受けたアドレスごとに、SMSが送信されたかどうかを示し、ステータスと理由を示します](assets/sms_deliverylogs.png){zoomable="yes"}
 
 「**[!UICONTROL 除外]**」タブでは、一部のアドレスがターゲットから除外される理由の詳細を確認できます。
 
-![](assets/sms_exclusions.png){zoomable="yes"}
+![配信タブの「除外」タブに、理由が無視されたアドレス（「アドレスをブロックリストに加える」や「ダブル」など）が表示される](assets/sms_exclusions.png){zoomable="yes"}
 
 「**[!UICONTROL トラッキング]**」タブには、トラッキングに関する情報が表示されます。 以下は、SMS コンテンツで追跡されるURLの例です。
 
-![](assets/sms_trackinglogs.png){zoomable="yes"}
+![SMS コンテンツからトラッキングされたURLをラベル、タイプ、ソース URLと共に表示するトラッキングタブ URLのリスト &#x200B;](assets/sms_trackinglogs.png){zoomable="yes"}
 
 最後に、配信のローンチ中の詳細がすべて表示される「**[!UICONTROL 監査]**」タブを以下に示します。
 
-![](assets/sms_audit.png){zoomable="yes"}
+![配信開始時に記録されたメッセージを一覧表示する監査タブのログ。日付とメッセージの列](assets/sms_audit.png){zoomable="yes"}
 
 ## SMS のエラーについて
 

@@ -28,16 +28,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 100%
+source-wordcount: '879'
+ht-degree: 80%
 ---
 # ローカルの承認{#local-approval}
 
 ターゲティングワークフローに統合する場合、「**[!UICONTROL ローカルの承認]**」アクティビティでは、配信が送信される前に受信者の承認プロセスを設定できます。
 
-![](assets/local_validation_0.png)
+![Target承認通知アクション、承認管理および補集合の生成オプションを使用したローカル承認アクティビティ。](assets/local_validation_0.png)
 
 >[!CAUTION]
 >
@@ -47,23 +47,23 @@ ht-degree: 100%
 
 まず、アクティビティのラベルを入力し、「**[!UICONTROL 実行するアクション]**」フィールドを指定します。
 
-![](assets/local_validation_1.png)
+![&#x200B; ローカル承認アクティビティのラベルと実行するアクション：ターゲット承認通知または配信フィードバックレポート。](assets/local_validation_1.png)
 
 * 「**[!UICONTROL ターゲットの承認通知]**」オプションを選択し、配信前にローカルのスーパーバイザーに通知メールを送信し、それらのスーパーバイザーに割り当てられている受信者の承認を依頼します。
 
 * **増分処理クエリ**：クエリを実行し、実行を計画します。 [増分処理クエリ](incremental-query.md)の節を参照してください。
 
-  ![](assets/local_validation_intro_3.png)
+  ![性別とステータス別の受信者の配信フィードバックリストを含むローカル検証web ページ：送信、開封、クリック &#x200B;](assets/local_validation_intro_3.png)
 
 ## ターゲットの承認通知 {#target-approval-notification}
 
 この例では、「**[!UICONTROL ローカルの承認]**」アクティビティは、アップストリームターゲティングと配信の間に配置されています。
 
-![](assets/local_validation_2.png)
+![&#x200B; クエリ 1と配信の間にローカル検証アクティビティが配置されたワークフロー。](assets/local_validation_2.png)
 
 ターゲットの承認通知のために、以下のようにフィールドに入力します。
 
-![](assets/local_validation_3.png)
+![&#x200B; ターゲット承認通知のローカル承認フィールド：配布コンテキスト、承認タイプ、テンプレート、リマインダー](assets/local_validation_3.png)
 
 * **[!UICONTROL 配分のコンテキスト]**：「**[!UICONTROL 分割]**」タイプアクティビティを使用してターゲット母集団を限定する場合、「**[!UICONTROL トランジションで指定]**」オプションを選択します。 この場合、配分テンプレートは分割アクティビティに入力されます。 ターゲット母集団を限定しない場合、ここで「**[!UICONTROL 手動で指定]**」オプションを選択し、「**[!UICONTROL データ配分]**」フィールドに配分テンプレートを入力します。
 
@@ -90,11 +90,11 @@ ht-degree: 100%
 
 この例では、「**[!UICONTROL ローカルの承認]**」アクティビティは、配信の後に配置されています。
 
-![](assets/local_validation_4.png)
+![配信アクティビティの後に、待機およびローカル検証2 アクティビティを含むワークフローが配置されました。](assets/local_validation_4.png)
 
 配信のフィードバックレポートの場合、次のフィールドに入力する必要があります。
 
-![](assets/local_validation_workflow_4.png)
+![&#x200B; ローカル承認が配信フィードバックレポートに設定され、トランジション配信オプションとテンプレートで指定されています。](assets/local_validation_workflow_4.png)
 
 * 配信が先行アクティビティ中に入力された場合「**[!UICONTROL トランジションで指定]**」オプションを選択します。 「**[!UICONTROL 手動で指定]**」を選択して、「ローカルの承認」アクティビティでの配信を指定します。
 * 配信テンプレートと、通知メールのオブジェクトを選択します。 デフォルトテンプレートの「**[!UICONTROL ローカルの承認通知]**」を選択します。
@@ -111,22 +111,22 @@ ht-degree: 100%
 
   配信を承認するには、該当するリンクをクリックし、Adobe Campaign クライアントコンソールにログオンします。
 
-  ![](assets/new-workflow-valid-webaccess.png)
+  ![574人の受信者を承認するかどうかを確認する承認依頼メールに、「ここをクリックして返信する」リンクが付いています。](assets/new-workflow-valid-webaccess.png)
 
   承認するかどうかを選択して、「**[!UICONTROL 送信]**」をクリックします。
 
-  ![](assets/new-workflow-valid-webaccess-confirm.png)
+  ![注釈フィールドを含む承認web ページ、「はい」と「いいえ」の選択および「送信」ボタン。](assets/new-workflow-valid-webaccess-confirm.png)
 
 * クライアントコンソールからの承認
 
   ツリー構造の、**[!UICONTROL 管理／プロダクション／自動作成オブジェクト／承認保留]**&#x200B;ノードに、現在接続中のオペレーターから承認されたタスクのリストが含まれています。 このリストは、1 行で表示されます。 応答するには、この行をダブルクリックします。 次のウィンドウが表示されます。
 
-![](assets/new-workflow-7.png)
+![&#x200B; クライアントコンソールの承認保留中のノードと、「はい」を選択し、「承認」ボタンを選択したタスク承認ウィンドウ。](assets/new-workflow-7.png)
 
 「**はい**」を選択し、「**[!UICONTROL 承認]**」をクリックします。 応答が記録されたことを通知するメッセージが表示されます。
 
 ワークフロー画面に戻ります。10 秒ほど経過すると、ダイアグラムの表示が以下のようになります。
 
-![](assets/new-workflow-8.png)
+![承認後のワークフロー図：配信、承認、配信制御および終了。はい分岐が続きます。](assets/new-workflow-8.png)
 
 ワークフローによって「**[!UICONTROL 配信コントロール]**」タスクが実行されます。ここでは、以前に作成された配信を開始します。 ワークフローは、エラーを生成せずに完了しました。

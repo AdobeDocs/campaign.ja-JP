@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 18%
+source-wordcount: '392'
+ht-degree: 17%
 ---
 # トラッキングログへのアクセス {#accessing-the-tracking-logs}
 
@@ -45,7 +45,7 @@ ht-degree: 18%
 
 次の例に示すように、この情報は、配信のターゲットとなっている受信者のプロファイルの「**[!UICONTROL トラッキング]**」タブに表示されます。
 
-![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+![日付、ラベル、種類、配信を含むクリック数と開封数を追跡した受信者プロファイルの「トラッキング」タブ &#x200B;](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 このタブには、受信者によって追跡およびクリックされたすべてのURLが表示されます。次の項目を含みます。
 
@@ -60,7 +60,7 @@ ht-degree: 18%
 
 トラッキング情報には、配信の「**[!UICONTROL トラッキング]**」タブからもアクセスできます。
 
-![](assets/s_ncs_user_select_tracking_tab_from_del.png)
+日付、ラベル、タイプ、受信者を含む配信リストのトラッキングログの![&#x200B; トラッキングタブ &#x200B;](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 このタブでは、次を表示できます。
 

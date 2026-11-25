@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 93%
+source-wordcount: '599'
+ht-degree: 87%
 ---
 # コンテンツ編集のベストプラクティス{#content-editing-best-practices}
 
@@ -51,13 +51,13 @@ ht-degree: 93%
 
   「**type**」属性は、次のフォームのインターフェイスに表示されます。
 
-  ![](assets/dce_sidebar_inputtypechanges.png)
+  ![&#x200B; フォームデータセクション、フィールドセレクター、必須の「はい」または「いいえ」の切り替えスイッチを備えた入力ゾーン（メール）サイドバーパネル &#x200B;](assets/dce_sidebar_inputtypechanges.png)
 
   「type」属性の公式なリストについては、[この Web サイト](https://www.w3schools.com/tags/att_input_type.asp)を参照してください。
 
 * DCEを使用して終了ページをシミュレートする手順：
 
-  ![](assets/dce_enchainement.png)
+  ![&#x200B; プリロード、ページ、ストレージ、ページ 2の各ボックスを順番に表示し、終了ページをシミュレートするフォーム図](assets/dce_enchainement.png)
 
 * ページに 1 組の `<body> </body>` のみ存在することを確認してください。
 * CSSまたはJS ファイルをアップロードする場合、.zip ファイル内に含まれる画像はアップロードされません。 したがって、CSS に存在するこれらの画像への参照は更新されません。

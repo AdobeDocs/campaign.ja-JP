@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '3052'
-ht-degree: 69%
+source-wordcount: '3055'
+ht-degree: 65%
 ---
 # インバウンドチャネルのオファー{#offers-on-an-inbound-channel}
 
@@ -147,7 +147,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
 ### Web サイト上の Web オファースペースの設定 {#configure-the-web-offer-space-on-the-website}
 
-設定したばかりのオファーをweb サイトに表示するには、サイトのHTML ページにJavaScript コードを挿入してインタラクションエンジンを呼び出します（詳しくは、[&#x200B; インバウンドチャネルについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照）。
+設定したオファーをweb サイトで表示するには、サイトのHTML ページにJavaScript コードを挿入します。 このコードは、インタラクションエンジンを呼び出します。 詳しくは、[&#x200B; インバウンドチャネルについて](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} （Campaign v8 ドキュメント）を参照してください。
 
 1. HTML ページに移動して、@id 属性を挿入し、先ほど作成した匿名オファースペース（[匿名オファースペースの作成](#creating-anonymous-offer-spaces)を参照）の内部名にプレフィックス **i_** を付加した値を指定します。
 
@@ -157,7 +157,7 @@ Neobank という会社のサイトで、ページを閲覧した匿名訪問者
 
    env=liveVisitorおよびth=financing パラメーターがハイライト表示されたinteractionProposal.jsへの![HTML スクリプト呼び出し](assets/offer_inbound_anonymous_example_020.png)
 
-   上のコード中の URL について、青色の囲みで示した部分は、インスタンス名、環境の内部名（[匿名環境の作成](#creating-an-anonymous-environment)を参照）、カテゴリにリンクされたテーマ（[オファーカテゴリとテーマの作成](#creating-an-offer-category-and-a-theme)）を表しています。 テーマの指定はオプションです。
+   上の青いURL ボックスは、インスタンス名、環境の内部名、およびカテゴリにリンクされたテーマに対応しています。 これらの詳細については、[匿名環境の作成](#creating-an-anonymous-environment)および[&#x200B; オファーカテゴリとテーマの作成](#creating-an-offer-category-and-a-theme)を参照してください。 テーマはオプションです。
 
 この Web サイトの訪問者がホームページにアクセスすると、HTML ページに設定されたとおりに、「**financing**」のテーマに属するオファーが表示されます。
 
@@ -409,7 +409,7 @@ Neobank の Web サイトにはオファー用のスペースが 3 つありま�
 
    ![interactionTarget変数は、ページスクリプト &#x200B;](assets/offer_inbound_fallback_example_043.png)でログインするユーザーの電子メールに設定されています
 
-   ユーザーの識別手段としては、ブラウザーの Cookie、URL 内の読み取りパラメーター、メール、ユーザー自身の本人確認情報などが使用できます。 受信者テーブルに含まれる情報のうち、プライマリキー以外のフィールドを使用する場合は、スペースの詳細設定パラメーターに定義する必要があります（[識別されたオファースペースの詳細設定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)を参照）。
+   ユーザーの識別手段としては、ブラウザーの Cookie、URL 内の読み取りパラメーター、メール、ユーザー自身の本人確認情報などが使用できます。 プライマリキー以外の受信者テーブルのフィールドを使用する場合は、スペースの詳細パラメーターで定義します。 詳しくは、[識別されたオファースペースの詳細設定の指定](#specifying-the-advanced-settings-of-the-identified-offer-spaces)を参照してください。
 
 1. 呼び出し URL を挿入します。
 
@@ -419,6 +419,6 @@ Neobank の Web サイトにはオファー用のスペースが 3 つありま�
 
 Web ページを開くと、スクリプトを使用してインタラクションエンジンを呼び出し、Web ページの関連するスペースにオファーのコンテンツを表示できます。 Adobe Campaign サーバーに対する 1 回の呼び出しのみで、エンジンは、選択する環境、オファースペース、カテゴリを認識します。
 
-この例では、識別された環境（**EnvNeobankIdnRecip**）をエンジンが認識します。 また、Web ページに含まれる第 1、第 2 のオファースペースについては「**OSWebBestOfferIdentified**」オファースペースおよび「**Best Offer**」カテゴリ（**CatBestOffer**）を認識し、第 3 のオファースペースについては「**OSWebPartnerIdentified**」オファースペースおよび「**Partner**」カテゴリ（**CatPartner**）を認識します。
+この例では、識別された環境（**EnvNeobankIdnRecip**）をエンジンが認識します。 Web ページ上の1番目と2番目のオファースペースのオファースペース（**OSWebBestOfferIdentified**）と&#x200B;**Best Offer** カテゴリ（**CatBestOffer**）を識別します。 3つ目のオファースペースでは、オファースペース （**OSWebPartnerIdentified**）と&#x200B;**パートナー** カテゴリ （**CatPartner**）が識別されます。
 
 エンジンが受信者を識別できない場合は、識別されたオファースペースから参照されている匿名オファースペースへの切り替えがおこなわれ、スクリプトの指定どおり、匿名カテゴリ（「**CatPartner**」および「**CatPartnerAnonym**」）が使用されます。

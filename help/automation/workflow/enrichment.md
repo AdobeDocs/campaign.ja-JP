@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 76%
 ---
 # エンリッチメント{#enrichment}
 
@@ -36,24 +36,24 @@ ht-degree: 100%
 
 「**[!UICONTROL エンリッチメント]**」アクティビティでは、プロファイルリストに情報を追加し、リンクを既存のテーブルに追加できます（新しい結合を作成）。 データベース内のプロファイルと紐付ける条件も定義できます。
 
-![](assets/enrichment_design.png)
+![上位1000 アクティビティをフィードする、3つのニュースレターやラベルサービスなどのエンリッチメントアクティビティを含むワークフロー図。](assets/enrichment_design.png)
 
 ## 定義 {#definitions}
 
 エンリッチメントアクティビティを使用するには、データを追加する際に選択できる様々なオプションについて熟知している必要があります。
 
-![](assets/enrichment_edit.png)
+![&#x200B; エンリッチメントアクティビティ追加データリンクを開き、追加する5種類のデータを含む追加データウィザードを開きます。](assets/enrichment_edit.png)
 
 「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」オプションで、次の設定が可能になります。
 
 * フィルタリングディメンションのデータ：ワークテーブルのデータへのアクセス
 * フィルタリングディメンションに関係付けられたデータ：ワークテーブルに関係付けられたデータへのアクセス
 
-![](assets/wf_enrich_linkoptions.png)
+![&#x200B; フィルタリングディメンションのデータと、フィルタリングディメンションのオプションにリンクされたデータを含むページを追加するフィールドを選択します。](assets/wf_enrich_linkoptions.png)
 
 「**[!UICONTROL リンク]**」オプションにより、データベースのどのテーブルにも結合を作成できます。
 
-![](assets/wf_enrich_linkstype.png)
+![&#x200B; リンク定義ページ。4つのリンクタイプが一覧表示され、コレクションの定義が選択されています。また、「リンクのターゲット」セクションも表示されています。](assets/wf_enrich_linkstype.png)
 
 次の 4 つのタイプのリンクがあります。
 
@@ -83,27 +83,27 @@ ht-degree: 100%
 
 「**[!UICONTROL データを追加]**」リンクをクリックして、追加するデータのタイプを選択します。 オファーされるデータタイプのリストの内容は、プラットフォームにインストールしたモジュールとオプションによって異なります。 最小構成の場合、いつでもフィルタリングディメンションとリンクへ関係付けられたデータを追加できます。
 
-![](assets/enrichment_edit.png)
+![&#x200B; エンリッチメントアクティビティ追加データリンクを開き、追加する5種類のデータを含む追加データウィザードを開きます。](assets/enrichment_edit.png)
 
 以下の例では、アウトバウンドトラジションは、ターゲットプロファイルの年齢に関する情報でエンリッチメントされています。
 
-![](assets/enrichment_add_data.png)
+![&#x200B; ターゲティングディメンションで選択され、出力列にリストされている年齢フィールドを含むページを追加するデータ。](assets/enrichment_add_data.png)
 
 エンリッチメントのステージに移行する前に、エンリッチメントアクティビティのインバウンドトラジションを右クリックしてデータを確認します。
 
-![](assets/enrichment_content_before.png)
+「ターゲットを表示」オプションがハイライト表示された、和集合2の後のトランジションの![&#x200B; コンテキストメニュー。](assets/enrichment_content_before.png)
 
 ワークテーブルには、次のデータと関連付けられたスキーマが含まれています。
 
-![](assets/enrichment_content_before_a.png)
+![&#x200B; エンリッチメント前の作業テーブルデータと、そのスキーマを含む母集団を、プライマリキーとターゲティングディメンションで表示します。](assets/enrichment_content_before_a.png)
 
 エンリッチメントステージの出力でこの操作を繰り返します。
 
-![](assets/enrichment_content_after.png)
+「ターゲットを表示」オプションがハイライト表示されたエンリッチメント 3 アクティビティの後のトランジションの![&#x200B; コンテキストメニュー。](assets/enrichment_content_after.png)
 
 年齢プロファイルに関係付けられたデータが追加されているのを確認できます。
 
-![](assets/enrichment_content_after_a.png)
+![追加された年齢列と、年齢、プライマリキー、ターゲティングディメンションを含むエンリッチメントされたスキーマを含む母集団を表示します。](assets/enrichment_content_after_a.png)
 
 一致するスキーマもエンリッチメントされています。
 
@@ -111,11 +111,11 @@ ht-degree: 100%
 
 以前に定義した追加データを保持する必要がない場合は、「**[!UICONTROL メインセットからのすべての追加データを維持]**」オプションの選択を解除します。 この場合、エンリッチメントアクティビティで選択した追加の列のみが、送信用ワークテーブルに追加されます。 アクティビティのアップストリームに追加された追加情報は保存されません。
 
-![](assets/enrichment_edit_without_additional.png)
+![&#x200B; エンリッチメントタブ。メインセットのすべての追加データをクリアし、年齢（ターゲティングディメンション）のみを一覧表示します。](assets/enrichment_edit_without_additional.png)
 
 エンリッチメントステージ出力のデータとスキーマは次のようになります。
 
-![](assets/enrichment_content_after_without_additional.png)
+![&#x200B; メインセットの追加データを含まない、エンリッチメント後の年齢列とそのスキーマを含む母集団ウィンドウを表示します。](assets/enrichment_content_after_without_additional.png)
 
 ## リンクの作成 {#creating-a-link}
 
@@ -140,19 +140,19 @@ ht-degree: 100%
 
 1. エンリッチメントアクティビティを編集し、「**データを追加...**」リンクをクリックして、国テーブルとの結合を作成します。
 
-   ![](assets/enrichment_edit_after_file_box.png)
+   ![&#x200B; ファイル コレクター、データ読み込み（ファイル）およびエンリッチメントを含むワークフロー。エンリッチメント アクティビティの「データを追加」リンクを含む。](assets/enrichment_edit_after_file_box.png)
 
 1. 「**[!UICONTROL リンクの定義]**」オプションを選択し、「**[!UICONTROL 次へ]**」ボタンをクリックします。 作成されるリンクのタイプを指定します。 この例では、ファイルの受信者の国を、データベースの専用テーブル内の使用可能な国のリストにある国と紐付けします。 「**[!UICONTROL 複数のオプションで参照を検索してリンクを定義]**」オプションを選択します。 「**[!UICONTROL ターゲットスキーマ]**」フィールドで国テーブルを選択します。
 
-   ![](assets/enrichment_add_a_link_select_option4.png)
+   ![複数のオプションと国（nms）ターゲットの中から参照を検索して、リンクを定義するリンク定義。](assets/enrichment_add_a_link_select_option4.png)
 
 1. 最後に、データベース内でソースファイル値のリンク先となるフィールドを選択します。
 
-   ![](assets/enrichment_add_a_link_select_join.png)
+   ![&#x200B; リンク定義の結合条件は、ソースの国を国スキーマの英語ラベル フィールドにマッピングします。](assets/enrichment_add_a_link_select_join.png)
 
 このエンリッチメントアクティビティの出力で、一時スキーマには国テーブルへのリンクが含まれます。
 
-![](assets/enrichment_external_link_schema.png)
+![結果ウィンドウの「スキーマ」タブには、外部キーと国リンクとそのフィールドを含む生成された構造が表示されます。](assets/enrichment_external_link_schema.png)
 
 ## データの紐付け {#data-reconciliation}
 
@@ -162,7 +162,7 @@ ht-degree: 100%
 
 1 つまたは複数の紐付け条件を使用できます。
 
-![](assets/enrichment_reconciliations_tab_01.png)
+「![紐付け」タブ。作業中のデータとソースおよび宛先の式からドキュメントを識別します。](assets/enrichment_reconciliations_tab_01.png)
 
 複数の結合条件が指定される場合、データを相互にリンクさせるには、すべての条件が検証される必要があります。
 
@@ -174,7 +174,7 @@ ht-degree: 100%
 
 例えば、配信の前に受信者クエリ用のデータをエンリッチメントできます。
 
-![](assets/int_enrichment_offer1.png)
+![&#x200B; クエリアクティビティ、エンリッチメントアクティビティ、およびダイレクトメール配信アクティビティが順次接続されたワークフロー](assets/int_enrichment_offer1.png)
 
 クエリを設定した後におこなう作業（この[節](query.md)を参照）：
 
@@ -182,18 +182,18 @@ ht-degree: 100%
 1. 「**[!UICONTROL エンリッチメント]**」タブで、「**[!UICONTROL データを追加]**」を選択します。
 1. 追加するデータタイプで「**[!UICONTROL オファーの提案]**」を選択します。
 
-   ![](assets/int_enrichment_offer2.png)
+   ![&#x200B; オファーの提案が選択されたページを追加するデータのタイプを選択します。](assets/int_enrichment_offer2.png)
 
 1. 追加される提案の識別子とラベルを指定します。
 1. オファーの選択を指定します。 これには、次の 2 つのオプションを使用できます。
 
    * **[!UICONTROL カテゴリ内で最適なオファーを検索]**：このオプションをオンにして、オファーエンジン呼び出しパラメーター（オファースペース、カテゴリまたはテーマ、連絡日、保持するオファーの数）を指定します。 エンジンは、これらのパラメーターに基づいて、追加するオファーを自動的に計算します。 「**[!UICONTROL カテゴリ]**」フィールドと「**[!UICONTROL テーマ]**」フィールドは、両方同時には使用せず、どちらか一方のみ入力することをお勧めします。
 
-     ![](assets/int_enrichment_offer3.png)
+     ![&#x200B; オファーの検索に最適な識別子、ラベル、スペース、オファーカテゴリおよび連絡先日付フィールドを含むオファーの提案ページ。](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL 事前定義済みオファー]**：このオプションをオンにして、オファースペース、特定のオファーおよび連絡日を指定し、オファーエンジンを呼び出すことなく、追加するオファーを直接設定します。
 
-     ![](assets/int_enrichment_offer4.png)
+     ![定義済みオファーの識別子、ラベル、スペース、特定のオファーおよび連絡先日付が含まれるオファー提案ページ。](assets/int_enrichment_offer4.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 [クロスチャネル配信](cross-channel-deliveries.md)を参照してください。
 
@@ -211,11 +211,11 @@ ht-degree: 100%
 1. 追加するデータのタイプを選択するウィンドウで、「**[!UICONTROL リンク]**」を選択します。
 1. 設定するリンクのタイプとターゲットを選択します。 この場合、ターゲットはオファースキーマです。
 
-   ![](assets/int_enrichment_link1.png)
+   ![常にターゲットが利用可能で、マーケティングオファー（nms）がターゲットスキーマであるリンクの定義ページ。](assets/int_enrichment_link1.png)
 
 1. エンリッチメントアクティビティのインバウンドテーブルデータ（ここでは受信者テーブル）とオファーテーブルとの結合を指定します。 例えば、オファーコードを受信者にリンクできます。
 
-   ![](assets/int_enrichment_link2.png)
+   ![識別子オファーを含む、ソース cryptedIdをオファーコードにリンクするリンク定義結合条件。](assets/int_enrichment_link2.png)
 
 1. 次に、選択したチャネルに対応する配信アクティビティを設定します。 [クロスチャネル配信](cross-channel-deliveries.md)を参照してください。
 
@@ -234,11 +234,11 @@ ht-degree: 100%
 1. クエリアクティビティの後かつ配信アクティビティの前に配置されたエンリッチメントアクティビティにオファーエンジンの呼び出しを作成します。
 1. アクティビティのメインウィンドウで「**[!UICONTROL 追加データを編集...]**」を選択します。
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![&#x200B; オファーの提案列を一覧表示するエンリッチメントタブ。追加データを編集リンクがハイライト表示されている。](assets/ita_enrichment_rankweight_1.png)
 
 1. ランキング用に「**[!UICONTROL @rank]**」列を追加し、オファーの重み付け用に「**[!UICONTROL @weight]**」列を追加します。
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![&#x200B; サブアイテムの追加を使用して、提案に追加された重み列とランキング列を含む追加の列ウィンドウを選択します。](assets/ita_enrichment_rankweight_2.png)
 
 1. 追加を確認し、ワークフローを保存します。
 

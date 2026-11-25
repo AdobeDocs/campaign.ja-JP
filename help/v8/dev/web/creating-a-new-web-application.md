@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 85%
+source-wordcount: '421'
+ht-degree: 81%
 ---
 # web アプリケーションの新規作成{#creating-a-new-web-application}
 
@@ -43,7 +43,7 @@ ht-degree: 85%
 
 「**キャンペーン**」タブに移動し、**[!UICONTROL web アプリケーション]**&#x200B;メニューを選択します。 「**[!UICONTROL 作成]**」ボタンをクリックします。 使用する web アプリケーションテンプレートを選択します。
 
-![](assets/webapp_create_from_campaign.png)
+![作成ボタンと、新しいランディングページと新しいWeb フォームを含むテンプレートリストを含むWeb アプリケーションリスト &#x200B;](assets/webapp_create_from_campaign.png)
 
 >[!NOTE]
 >

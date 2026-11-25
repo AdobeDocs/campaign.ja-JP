@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 77%
 ---
 # 多対多の関係を使用したクエリ {#querying-using-a-many-to-many-relationship}
 
@@ -53,36 +53,36 @@ ht-degree: 100%
 1. 汎用クエリエディターを開き、受信者テーブル&#x200B;**[!UICONTROL （nms:recipient）]**&#x200B;を選択します。
 1. **[!UICONTROL 抽出するデータ]**&#x200B;ウィンドウで、「**[!UICONTROL プライマリキー]**」、「**[!UICONTROL 名]**」、「**[!UICONTROL 姓]**」および「**[!UICONTROL メール]**」を選択します。
 
-   ![](assets/query_editor_nveau_33.png)
+   ![プライマリキー、名、姓、および電子メールを出力列として表示したウィンドウを抽出するデータ &#x200B;](assets/query_editor_nveau_33.png)
 
 1. 並べ替えウィンドウで、名前をアルファベット順で並べ替えます。
 
-   ![](assets/query_editor_nveau_34.png)
+   ![姓の列の並べ替えオプションが「はい」に設定された並べ替えウィンドウ &#x200B;](assets/query_editor_nveau_34.png)
 
 1. **[!UICONTROL データのフィルター]**&#x200B;ウィンドウで、「**[!UICONTROL フィルター条件]**」を選択します。
 1. **[!UICONTROL ターゲット要素]**&#x200B;ウィンドウで、過去 7 日間トラッキングログがないプロファイルを抽出するためのフィルター条件には、2 つの手順が必要です。 選択する必要がある要素は多対多のリンクです。
 
    * まず、最初の「**[!UICONTROL 式]**」列に対して、**[!UICONTROL 受信者配信ログ（broadlog）]**&#x200B;コレクション要素（オレンジ色のノード）を選択します。
 
-     ![](assets/query_editor_nveau_67.png)
+     ![受信者配信ログ （broadLog） コレクション要素を選択したウィンドウを選択するフィールド &#x200B;](assets/query_editor_nveau_67.png)
 
      「**[!UICONTROL 次の場合には存在しません]**」演算子を選択します。 このラインで 2 番目の値を選択する必要はありません。
 
    * 2 番目のフィルター条件の内容は、最初のフィルター条件によって異なります。 ここでは、**[!UICONTROL 受信者配信ログ]**&#x200B;テーブルへのリンクがあるので、このテーブルの「**[!UICONTROL イベントの日付]**」フィールドが直接提供されます。
 
-     ![](assets/query_editor_nveau_36.png)
+     ![受信者配信ログ フィールドを一覧表示するウィンドウを選択するフィールド。イベント日（@eventDate）がハイライト表示されている](assets/query_editor_nveau_36.png)
 
      「**[!UICONTROL イベントの日付]**」を「**[!UICONTROL 以降]**」演算子とともに選択します。 **[!UICONTROL DaysAgo（7）]**&#x200B;の値を選択します。 そのためには、「**[!UICONTROL 値]**」フィールドで&#x200B;**[!UICONTROL 式を編集]**&#x200B;をクリックします。 **[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで「**[!UICONTROL 日付で処理]**」および「**[!UICONTROL 現在の日付 - n 日]**」を選択し、値に &quot;7&quot; を指定します。
 
-     ![](assets/query_editor_nveau_37.png)
+     ![日付と現在の日付から日付を引いた日付が7](assets/query_editor_nveau_37.png)に設定された数式タイプ ウィンドウ
 
      フィルター条件が設定されました。
 
-     ![](assets/query_editor_nveau_38.png)
+     ![&#x200B; フィルターを含むターゲット要素ウィンドウ：配信ログが存在しません。イベント日は、7日前または7日後](assets/query_editor_nveau_38.png)です
 
-1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。 次のステップに進みます。************
+1. **[!UICONTROL データフォーマット]**&#x200B;ウィンドウで、列の変換はおこなう必要はありません。 次のステップに進みます。**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
-   ![](assets/query_editor_nveau_39.png)
+   ![姓の変換リストを含むデータ形式ウィンドウ、大文字に切り替えオプションが強調表示されている](assets/query_editor_nveau_39.png)
 
 1. **[!UICONTROL 計算フィールドを追加]**&#x200B;機能を使用して、列をデータのプレビューウィンドウに追加します。
 
@@ -93,7 +93,7 @@ ht-degree: 100%
    return rep
    ```
 
-   ![](assets/query_editor_nveau_40.png)
+   ![名のJavaScript式エディター – 両方のフィールドを連結するスクリプトを含む姓の列](assets/query_editor_nveau_40.png)
 
    「**[!UICONTROL OK]**」をクリックします。 **[!UICONTROL データフォーマット]**&#x200B;ウィンドウが設定されました。
 
@@ -101,4 +101,4 @@ ht-degree: 100%
 
 1. **[!UICONTROL データのプレビュー]**&#x200B;ウィンドウに結果が表示されます。 過去7日間連絡されていない受信者がアルファベット順に表示されます。 名と姓の列が作成されました。
 
-   ![](assets/query_editor_nveau_41.png)
+   ![名 – 姓の列](assets/query_editor_nveau_41.png)が追加された受信者を一覧表示するデータプレビューウィンドウ

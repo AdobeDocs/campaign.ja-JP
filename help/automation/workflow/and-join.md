@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 87%
 ---
 # AND 結合{#and-join}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 例えば、コンテンツの作成と配信の自動送信のコンテキストで AND 結合アクティビティを使用して、ターゲットのクエリとコンテンツの更新手順が完了した後にのみ配信が開始されるようにできます。 専用のユースケースについては、こちらを参照してください
 
-![](assets/and-join-usage.png)
+![分岐がクエリとコンテンツ管理を並行して実行し、配信の前にAND結合するワークフロー。](assets/and-join-usage.png)
 
 >[!NOTE]
 >
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->「**AND 結合**」タイプアクティビティの場合、イベント変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。 詳しくは、[この節](javascript-scripts-and-templates.md#event-variables)を参照してください。
+>「**AND 結合**」タイプアクティビティの場合、イベント変数は結合されますが、同じ変数を 2 回定義した場合、競合が生じ、値が未確定になります。 詳しくは、[&#x200B; イベント変数](javascript-scripts-and-templates.md#event-variables)を参照してください。

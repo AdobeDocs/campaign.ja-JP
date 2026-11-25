@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 75%
 ---
 # インバウンド SMS{#inbound-sms}
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## プロパティ {#properties}
 
-![](assets/sms_rec_edit.png)
+![外部アカウントフィールド、リンクを処理するフィルターメッセージ、スクリプトエリアを含む受信SMS アクティビティ。](assets/sms_rec_edit.png)
 
 「**インバウンド SMS**」アクティビティの最初のタブで SMS メッセージのルーティングのパラメーターを入力し、メッセージの受信時に実行するスクリプトを入力します。 2 番目のタブではアクティビティのスケジュールを設定でき、3 番目のタブではアクティビティの有効期限を設定できます。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 1. **[!UICONTROL スクリプト]**
 1. **[!UICONTROL スケジュール]**
 
-   ![](assets/sms_rec_edit_2.png)
+   「![&#x200B; インバウンド SMS スケジュール」タブで、「プラン実行」をオンにし、SMSを受信した後すぐにスケジュールを停止します。](assets/sms_rec_edit_2.png)
 
 1. **[!UICONTROL 有効期限]**
 

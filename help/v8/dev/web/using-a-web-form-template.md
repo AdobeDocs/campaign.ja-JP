@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 83%
 ---
 # web フォームテンプレートの使用{#using-a-web-form-template}
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 フォームは、テンプレートに変更して、その設定を再利用できます。 これをおこなうには、フォームを選択し、右クリックして&#x200B;**[!UICONTROL アクション／テンプレートとして保存]**&#x200B;を選択します。
 
-![](assets/s_ncs_admin_survey_saveastemplate.png)
+右クリックのアクションメニューが開き、「テンプレートとして保存」がハイライト表示された![Web アプリケーションリスト &#x200B;](assets/s_ncs_admin_survey_saveastemplate.png)
 
 このアクションにより、Web アプリケーションを作成するウィンドウが開きます。 テンプレートの名前と説明を入力し、保存先のフォルダーを選択できます。
 
@@ -46,11 +46,11 @@ ht-degree: 100%
 
 Web フォームテンプレートを作成するには、Web アプリケーションテンプレートのリストを右クリックして、**[!UICONTROL 新規]**&#x200B;をクリックします。 また、テンプレートのリストの上にある&#x200B;**[!UICONTROL 新規]**&#x200B;ボタンを使用することもできます。
 
-![](assets/s_ncs_admin_survey_createtemplate.png)
+![&#x200B; エクスプローラーのWeb アプリケーションテンプレートフォルダーに、テンプレートの作成に使用される「新規」ボタン &#x200B;](assets/s_ncs_admin_survey_createtemplate.png)
 
 テンプレートの名前を入力します。 「**[!UICONTROL インスタンスフォルダー]**」フィールドで、このテンプレートに基づいて作成された Web フォームが保存されるフォルダーを選択します。 「**[!UICONTROL 特性]**」フィールドを使用すると、説明情報を追加して、様々な Web アプリケーションテンプレートを並べ替えたり、フィルターしたりできます。
 
-![](assets/s_ncs_admin_survey_createtemplate_details.png)
+![&#x200B; ラベル、調査、および高度なweb サイトのオプション、NatureおよびInstances フォルダーのフィールドを含む新しいWeb アプリケーションダイアログ &#x200B;](assets/s_ncs_admin_survey_createtemplate_details.png)
 
 「**[!UICONTROL 保存]**」ボタンをクリックしてテンプレートを作成し、このテンプレートのコンテンツを作成して、パラメーターを定義します。
 

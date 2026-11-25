@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 77%
 ---
 # スキーマの編集{#edit-schema}
 
@@ -38,10 +38,10 @@ ht-degree: 100%
 
 このアクティビティはワークテーブルのデータを変更せずに、スキーマのみ（データの論理ビューなど）を変更します。
 
-![](assets/wf_manipulation_box.png)
+![出力列と式を含むスキーマアクティビティを編集します。平均注文列は平均](assets/wf_manipulation_box.png)で計算されます
 
 また、「**[!UICONTROL リンク]**」タブを使用して、他のワークテーブルとの結合を作成できます。
 
-![](assets/wf_manipulation_box_link_tab.png)
+ターゲットスキーマと結合条件を表示するリンク定義ダイアログを含むスキーマを編集の![&#x200B; リンクタブ &#x200B;](assets/wf_manipulation_box_link_tab.png)
 
 下部のセクションでは、2 つのテーブルからのデータを紐付けするのに使用する条件など、結合条件のリストを設定できます。

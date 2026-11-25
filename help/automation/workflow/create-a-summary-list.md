@@ -24,20 +24,20 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1332'
+ht-degree: 78%
 ---
 # 概要リストの作成{#creating-a-summary-list}
 
 この使用例では、ファイルや以下に示すいくつかのエンリッチメントの収集後にサマリーリストを作成できるワークフローについて、作成の手順を詳しく説明します。 この例では、店舗で購入をおこなった顧客の連絡先のリストをベースにします。
 
-![](assets/uc2_enrich_overview.png)
+![&#x200B; ワークフロー図：ファイルコレクター、データ読み込み（ファイル）、エンリッチメント、データ更新、エンリッチメント 2、リスト更新、待機](assets/uc2_enrich_overview.png)
 
 次のデータ構造が使用されます。
 
-![](assets/uc2_enrich_data.png)
+![&#x200B; データ構造：購入テーブルと連絡先テーブルがリンクされ、refStoreNameとzipCodeRefを含む個別のストアテーブル &#x200B;](assets/uc2_enrich_data.png)
 
 目的は次のとおりです。
 
@@ -73,21 +73,21 @@ Phone;500;London 5
 
    「**ファイルコレクター**」アクティビティを使用することで、Adobe Campaign サーバーの間で、ファイルの収集、送信をおこなうことができます。
 
-   一方、「**データの読み込み（ファイル）**」アクティビティでは、収集したデータでワークフローのワークテーブルをエンリッチメントすることが可能です。 このアクティビティについて詳しくは、[このページ](data-loading-file.md)を参照してください。
+   一方、「**データの読み込み（ファイル）**」アクティビティでは、収集したデータでワークフローのワークテーブルをエンリッチメントすることが可能です。 このアクティビティについて詳しくは、[&#x200B; データの読み込み（ファイル） &#x200B;](data-loading-file.md)を参照してください。
 
 1. 「**ファイルコレクター**」アクティビティを設定し、選択したディレクトリからテキスト（&#42;.txt）タイプのファイルを収集します。
 
-   ![](assets/uc2_enrich_collecteur.png)
+   ![&#x200B; ファイルコレクターアクティビティ：*.txt フィルターとProcess file nonexistence オプションがオンになっているディレクトリタブ。](assets/uc2_enrich_collecteur.png)
 
    「**ファイルコレクター**」アクティビティを使用すると、ソースディレクトリにファイルの不足がないかを管理することができます。 これをおこなうには、「**[!UICONTROL プロセスファイルなし]**」オプションのチェックボックスをオンにします。 このワークフローでは、収集の際にデータがディレクトリから失われている場合に別のファイルを収集するよう、「**待機**」アクティビティを追加しています。
 
 1. インポートするデータと同じ形式のサンプルファイルを利用して、「**データの読み込み（ファイル）**」アクティビティを設定します。
 
-   ![](assets/uc2_enrich_chargement1.png)
+   ![&#x200B; サンプルファイルとしてPurchases.txtを使用したデータ読み込み（ファイル）アクティビティと、productName、productPrice、storeNameのプレビュー](assets/uc2_enrich_chargement1.png)
 
    「**[!UICONTROL ファイルフォーマットを変更するには、ここをクリック...]**」リンクをクリックし、「購入品」テーブルの内部名とラベルを使用して、列の名前を変更します。
 
-   ![](assets/uc2_enrich_chargement2.png)
+   ![列productName、productPriceおよびstoreName、セミコロン区切り記号および最初の行をヘッダーとするファイル形式ウィンドウ。](assets/uc2_enrich_chargement2.png)
 
 データがインポートされたら、「店舗」のスキーマと一致する参照テーブルへのリンクを作成して、エンリッチメントをおこないます。
 
@@ -95,22 +95,22 @@ Phone;500;London 5
 
 1. 「**データの読み込み（ファイル）**」アクティビティのデータから構成されるメインセットを選択します。
 
-   ![](assets/uc2_enrich_enrich1.png)
+   ![&#x200B; データの読み込み（ファイル）をプライマリセットとして使用するエンリッチメントアクティビティに加えて、「データを追加」および「追加のデータリンクを編集」を追加します。](assets/uc2_enrich_enrich1.png)
 
 1. 「**[!UICONTROL データを追加]**」をクリックし、「**[!UICONTROL リンク]**」オプションを選択します。
 
-   ![](assets/uc2_enrich_enrich2.png)
+   ![A リンク オプションを選択したウィンドウを追加するデータのタイプを選択します。](assets/uc2_enrich_enrich2.png)
 
 1. 「**[!UICONTROL コレクションを定義]**」オプションを選択します。
 1. ターゲットとして「店舗」スキーマを選択します。
 
-   ![](assets/uc2_enrich_enrich3.png)
+   ![&#x200B; リンク定義：ストアスキーマをターゲットスキーマとして、リンクタイプとして選択したコレクションを定義します。](assets/uc2_enrich_enrich3.png)
 
 各種リンクについて詳しくは、[データのエンリッチメントと変更](targeting-workflows.md#enrich-and-modify-data)を参照してください。
 
 以下のウィンドウで、（メインセットにある）ソースフィールドと、ターゲットフィールド（「店舗」スキーマに属する）を選択して結合条件を作成し、データの紐付けを設定する必要があります。
 
-![](assets/uc2_enrich_enrich4.png)
+![&#x200B; ソース フィールド storeNameとターゲット フィールド refStoreNameに一致する定義結合条件をリンクします。](assets/uc2_enrich_enrich4.png)
 
 リンクが作成できたら、「店舗」スキーマのワークフローのワークテーブルに「郵便番号の参照」フィールドの列を追加します。
 
@@ -118,11 +118,11 @@ Phone;500;London 5
 1. 「**[!UICONTROL 追加データを編集]**」をクリックします。
 1. 「郵便番号の参照」フィールドを&#x200B;**[!UICONTROL 出力列]**&#x200B;に追加します。
 
-![](assets/uc2_enrich_enrich5.png)
+![&#x200B; エンリッチメントの出力列に追加された「ストア」リンクの「郵便番号コード参照」フィールド。](assets/uc2_enrich_enrich5.png)
 
 このエンリッチメントが完了すると、ワークフローのワークテーブルのデータは次のようになります。
 
-![](assets/uc2_enrich_population1.png)
+![&#x200B; エンリッチメント後の作業テーブルデータ。productName、productPrice、storeNameの横にZip Code Reference列があります。](assets/uc2_enrich_population1.png)
 
 ## 手順 2：「購入品」テーブルへのエンリッチデータの書き込み {#step-2--writing-enriched-data-to-the--purchases--table}
 
@@ -136,7 +136,7 @@ Phone;500;London 5
 1. 「購入品」テーブルのデータについて、「宛先の式」を選択します。このケースでは、「storename」フィールドを選択します。
 1. 「**[!UICONTROL ワークテーブルからの紐付けられていないデータを保存]**」オプションのチェックボックスをオンにします。
 
-![](assets/uc2_enrich_reconciliation.png)
+![購入ターゲットディメンションとstoreNameが一致する紐付けタブ@storeName](assets/uc2_enrich_reconciliation.png)
 
 「**データを更新**」アクティビティで、以下の設定作業をおこなう必要があります。
 
@@ -160,23 +160,23 @@ Phone;500;London 5
 1. **[!UICONTROL 追加するフィールドを選択]**&#x200B;ウィンドウで、「**[!UICONTROL フィルタリングディメンションにリンクされたデータ]**」オプションをクリックします。
 1. 「**[!UICONTROL 購入]**」ノードを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/uc2_enrich_enrich9.png)
+   ![選択したフィルタリングディメンションにリンクされたデータを含むウィンドウを追加するフィールドを選択し、「購入」ノードを強調表示します。](assets/uc2_enrich_enrich9.png)
 
 1. 「**[!UICONTROL 集計]**」オプションを選択して、「**[!UICONTROL 収集されたデータ]**」フィールドを変更します。
 
-   ![](assets/uc2_enrich_enrich10.png)
+   ![収集されたデータ フィールドが集計に設定された購入コレクションの一般的なパラメーター。](assets/uc2_enrich_enrich10.png)
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 1. 「Sum(@prodprice)」の式を追加して、各連絡先ごとの購入品の総数を計算します。
 
-   ![](assets/uc2_enrich_enrich6.png)
+   ![購入総額に対する出力列として定義された式「合計（製品価格）」を含むウィンドウを追加するデータ。](assets/uc2_enrich_enrich6.png)
 
 サマリーリストを準備するには、「購入品」フィールドのフィールドと、1 番目のエンリッチメントのフィールドである「郵便番号の参照」フィールドを追加する必要があります。
 
 1. 「エンリッチメント」アクティビティの「**[!UICONTROL 追加データを編集...]**」リンクをクリックします。
 1. 「店舗名」、「購入品／郵便番号の参照」フィールドを追加します。
 
-   ![](assets/uc2_enrich_enrich7.png)
+   ![&#x200B; エンリッチメント 2の出力列：「購入」リンク、Sum （productPrice）、storeName、および「郵便番号リファレンス」フィールド &#x200B;](assets/uc2_enrich_enrich7.png)
 
 1. 「**[!UICONTROL プロパティ]**」タブをクリックします。
 1. 1 つの行だけを作成するよう、2 つ目のリンクを変更します。
@@ -196,4 +196,4 @@ Phone;500;London 5
 * 「店舗名」の列
 * 店舗参照スキーマに含まれるすべての店舗について入力する「郵便番号の参照」列
 
-![](assets/uc2_enrich_listfinal.png)
+![連絡先、合計（productPrice）、ストア名、郵便番号の列を含む最終リストコンテンツ。](assets/uc2_enrich_listfinal.png)

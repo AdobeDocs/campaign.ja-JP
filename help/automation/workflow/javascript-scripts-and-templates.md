@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 100%
+source-wordcount: '1398'
+ht-degree: 90%
 ---
 # JavaScript のスクリプトとテンプレート{#javascript-scripts-and-templates}
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 * 「テスト」アクティビティでは、JavaScript の式を評価して、適切なトランジションを有効化します。
 * ほとんどのテキストフィールドは、JavaScript テンプレートになっています。JavaScript の式は、&lt;%= と %> の間に記述します。 これらのフィールドにはドロップダウンリストを開くボタンがあり、式を簡単に入力できるようになっています。
 
-  ![](assets/script-button.png)
+  ![式で使用可能なプロパティをリストするテキストフィールドの右側にドロップダウン矢印が表示されたボタン。](assets/script-button.png)
 
 ## 公開されるオブジェクト {#objects-exposed}
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 この例と以降の例では、以下のダイアグラムに示すような、「**JavaScript コード**」アクティビティと「**終了**」アクティビティを含むワークフローを作成します。
 
-![](assets/script-1.png)
+![OK トランジションによって終了アクティビティに接続されたJavaScript コードアクティビティを含むワークフロー。](assets/script-1.png)
 
 「**JavaScript コード**」アクティビティをダブルクリックして、以下のスクリプトを挿入します。
 
@@ -104,7 +104,7 @@ logInfo("Start date: " + task.creationDate)
 
 >[!NOTE]
 >
->その他のワークフローユースケースについては、[この節](workflow-use-cases.md)を参照してください。
+>ワークフローのその他のユースケースは、[&#x200B; ワークフローのユースケース &#x200B;](workflow-use-cases.md)で利用できます。
 
 **例 1**
 
@@ -116,7 +116,7 @@ logInfo("Start date: " + task.creationDate)
 
    次に例を示します。`instance.vars.segmentpercent = 10;`
 
-   ![](assets/js_ex1.png)
+   ![&#x200B; スクリプト instance.vars.segmentpercent = 10；のJavaScript コード アクティビティがスクリプト フィールドに入力されました。](assets/js_ex1.png)
 
 1. 必要に応じて、クエリアクティビティを追加し、受信者をターゲットにします。
 
@@ -124,7 +124,7 @@ logInfo("Start date: " + task.creationDate)
 
    この割合は、前に定義したインスタンス変数によって動的に更新されます。
 
-   ![](assets/js_ex2.png)
+   ![選択したレコードの制限を有効にし、ランダムサンプリングを50 %に制限したアクティビティサブセットの分割タブ。](assets/js_ex2.png)
 
 1. 分割アクティビティの「詳細設定」タブの「初期化スクリプト」セクション内で、JS 条件を定義します。 JS 条件は、分割アクティビティから発生する最初のトランジションのランダムサンプリング率を選択し、前に作成したインスタンス変数によって設定された値に更新します。
 
@@ -132,13 +132,13 @@ logInfo("Start date: " + task.creationDate)
    activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
    ```
 
-   ![](assets/js_ex3.png)
+   ![初期化スクリプトの設定リミッターを使用してアクティビティの詳細タブを分割します。%からinstance.vars.segmentpercentへ](assets/js_ex3.png)
 
 1. 分割アクティビティの個別のトランジションで補集合が生成され、各アウトバウンドトランジションの後に終了アクティビティが追加されることを確認します。
 
 1. 保存して、ワークフローを実行します。 インスタンス変数に応じて動的サンプリングが適用されます。
 
-   ![](assets/js_ex4.png)
+   ![JavaScript コード、クエリ、分割を含むワークフロー。最初のセットと補集合が2つの終了アクティビティに移行します。](assets/js_ex4.png)
 
 **例 2**
 
@@ -180,7 +180,7 @@ logInfo("Start date: " + task.creationDate)
 
 1. インスタンス変数を作成し、**[!UICONTROL JavaScript コード]**&#x200B;の **instance.vars.deliveryIN = &quot;DM42&quot;** で配信の内部名を定義します。
 
-   ![](assets/wkf_js_activity_1.png)
+   ![&#x200B; スクリプト instance.vars.deliveryIN = &#39;DM42&#39;をスクリプト フィールドに含むJavaScript コード アクティビティ。](assets/wkf_js_activity_1.png)
 
 1. ターゲティングディメンションとフィルタリングディメンションが受信者のクエリを作成します。 この変数で指定した配信を送信した先の受信者すべてを検索するように条件を指定します。
 
@@ -190,7 +190,7 @@ logInfo("Start date: " + task.creationDate)
 
    ワークフローは DM42 配信の受信者を返します。
 
-   ![](assets/wkf_var_in_query.png)
+   ![配信内部名がinstance/vars/deliveryINの値に等しい受信者配信ログのクエリフィルター。](assets/wkf_var_in_query.png)
 
 ## 高度な関数 {#advanced-functions}
 
