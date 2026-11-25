@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 97%
+source-wordcount: '432'
+ht-degree: 86%
 ---
 # Campaign と SFDC の連携{#crm-sfdc}
 
@@ -59,7 +59,7 @@ Salesforce データを Adobe Campaign にインポートおよびエクスポ�
 1. 「**タイプ**」セクションの **[!UICONTROL Salesforce.com]** 外部アカウントを選択します。
 1. 接続を有効にするための設定を入力します。
 
-   ![](assets/sfdc-external-account.png)
+   ![ アカウント、パスワード、セキュリティトークン、およびAPI バージョンのフィールドを持つSalesforce CRM外部アカウント ](assets/sfdc-external-account.png)
 
    Salesforce CRM 外部アカウントを Adobe Campaign で使用できるように設定するには、次の情報を提供する必要があります。
 
@@ -85,7 +85,7 @@ Salesforce データを Adobe Campaign にインポートおよびエクスポ�
 
    Campaign にインポートされた **Salesforce** のスキーマの例：
 
-   ![](assets/sfdc-schemas.png)
+   インポートされたSalesforce CRM ソース スキーマを表示する![Salesforceでデータ スキーマ リストがフィルタリングされました](assets/sfdc-schemas.png)
 
 ## 列挙の同期{#sfdc-enum-sync}
 
@@ -95,11 +95,11 @@ Salesforce データを Adobe Campaign にインポートおよびエクスポ�
 1. Salesforce 列挙に対応する Adobe Campaign 列挙を選択します。
 Adobe Campaign の列挙のすべての値を CRM の値に置き換えることができます。そのためには、**[!UICONTROL 置換]**&#x200B;列の「**[!UICONTROL はい]**」を選択します。
 
-   ![](assets/sfdc-enum.png)
+   ![列を置き換える](assets/sfdc-enum.png)を使用してCRM列挙をCampaign列挙にマッピングする列挙ダイアログを同期する
 
 1. 「**[!UICONTROL 次へ]**」をクリックしてから「**[!UICONTROL 開始]**」をクリックし、列挙のインポートを開始します。
 
-1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、インポートされた値を確認します。 列挙について詳しくは、[このページ](../config/ui-settings.md)を参照してください。
+1. **[!UICONTROL 管理／プラットフォーム／列挙]**&#x200B;ノードを参照し、インポートされた値を確認します。 [Campaign インターフェイス設定](../config/ui-settings.md)の列挙について詳しく説明します。
 
 これで Adobe Campaign と Salesforce.com が接続されました。 2 つのシステム間にデータの同期を設定できます。
 
@@ -107,4 +107,4 @@ Adobe Campaign データと SFDC の間でデータを同期させるには、�
 
 データの同期について詳しくは、[このページ](crm-data-sync.md)を参照してください。
 
-キャンペーン [の列挙管理について詳しくは、このページ &#x200B;](../config/enumerations.md)を参照してください。
+キャンペーン [の列挙管理について詳しくは、このページ ](../config/enumerations.md)を参照してください。

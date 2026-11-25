@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 91%
+source-wordcount: '1195'
+ht-degree: 81%
 ---
 # Adobe Campaign ランディングページからの Adobe Experience Platform プロファイルの更新 {#ac-aep-lp}
 
@@ -69,7 +69,7 @@ Adobe Cloud Platform API では、認証と承認に OAuth 2.0 プロトコル�
    * `CLIENT SECRET`
    * `ORGANIZATION ID`
 
-   ![](assets/ac-lp-oauth.png){width="70%"}
+   ![Experience Platform APIとOAuth サーバー間の資格情報を含むAdobe Developer Console プロジェクト ](assets/ac-lp-oauth.png){width="70%"}
 
 OAuth接続が設定されたので、新しい&#x200B;**[!UICONTROL HTTP API]** Source接続を作成して設定し、Adobe CampaignとAdobe Experience Platformをリンクします。
 
@@ -79,21 +79,21 @@ OAuth 接続を設定したら、次の手順では Adobe Experience Platform �
 
 1. Adobe Experience Platform **[!UICONTROL ソース]**&#x200B;に移動し、**[!UICONTROL HTTP API]** ソースを検索して、「**[!UICONTROL データを追加]**」をクリックします。
 
-   ![](assets/ac-lp-source.png){width="70%"}
+   ![Experience Platform ソース カタログがHTTPを検索し、HTTP API ソースの「データを追加」ボタン ](assets/ac-lp-source.png){width="70%"}が表示された
 
 1. 必要に応じて、接続を設定します。 HTTP API 接続の設定方法について詳しくは、[Adobe Experience Platform ソースドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=ja){target="_blank"}を参照してください。
 
    **[!UICONTROL 認証]** ステップで、**[!UICONTROL 認証を有効にする]** オプションを切り替えて、OAuth統合を通じて以前に生成されたアクセストークンを使用して認証します。
 
-   ![](assets/ac-lp-source-authentication.png){width="70%"}
+   ![認証を有効にする切り替えをオンにしたHTTP API アカウントの接続手順](assets/ac-lp-source-authentication.png){width="70%"}
 
 1. ソース接続を設定すると、ストリーミングエンドポイントが表示されます。 このエンドポイントは、Adobe Experience Platform にデータを取り込むために必要です。
 
-   ![](assets/ac-lp-endpoint.png){width="70%"}
+   ストリーミングエンドポイントフィールドがハイライト表示された![HTTP API ソースの詳細ページ ](assets/ac-lp-endpoint.png){width="70%"}
 
    また、「**[!UICONTROL データフロー]**」タブから新しく作成したデータフローを開いて、Adobe Experience Platform に取り込まれたデータ形式のサンプルにアクセスすることもできます。
 
-   ![](assets/ac-lp-schema.png){width="70%"}
+   「スキーマペイロードをコピー」オプションがハイライト表示された![HTTP API データフローページ ](assets/ac-lp-schema.png){width="70%"}
 
 HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプションを追加して、Adobe Experience Platform への接続を有効にする必要があります。
 
@@ -115,7 +115,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
    * IMS_ORG_ID = ORGANIZATION ID
    * IMS_CLIENT_API_KEY = cryptString(CLIENT ID)
 
-   ![](assets/ac-lp-xtk.png){width="70%"}
+   IMS_CLIENT_API_KEY、IMS_CLIENT_ID、IMS_CLIENT_SECRETおよびIMS_ORG_IDが選択された![ キャンペーンオプションリスト ](assets/ac-lp-xtk.png){width="70%"}
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ HTTP API ソース接続を設定したら、Adobe Campaign に特定のオプ�
 
 >[!TAB JavaScript コードアクティビティを使用してオプションを追加]
 
-ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。 [詳しくは、JavaScript コードアクティビティの設定方法を参照してください](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
+ランディングページワークフローの実行時にこれらのオプションを自動的に設定するには、以下のコードを使用して、**[!UICONTROL JavaScript コード]**&#x200B;アクティビティをワークフローに追加します。 [詳しくは、JavaScript コードアクティビティの設定方法を参照してください](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}。
 
 ワークフローの実行時に、指定された値を使用してオプションが Campaign コンソールに自動的に作成されます。
 
@@ -157,7 +157,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
    >
    >アクセストークンと認証データは、以前に設定したオプションから自動的に取得されます。
 
-   ![](assets/ac-lp-script.png){width="70%"}
+   ![Campaign JavaScript コード リストと、AEPのプロファイルを更新するカスタム aepAPI コード ](assets/ac-lp-script.png){width="70%"}
 
    +++  スクリプト 1 - Experience Platform からプロファイル属性を読み込む
 
@@ -358,13 +358,13 @@ Adobe Campaign に追加した JavaScript コードを、**[!UICONTROL JavaScrip
 
 ランディングページの前後で JavaScript コードアクティビティを使用するサンプルワークフローを以下に示します。
 
-![](assets/ac-lp-wkf.png){width="70%"}
+![ ランディングページワークフロー：プリロード、AEPからのプロファイル詳細の読み込み、オプトアウト/イン Web ページ、プロファイルの更新、終了](assets/ac-lp-wkf.png){width="70%"}
 
 Adobe Experience Platform でプロファイル属性を更新するように設定したランディングページと JavaScript コードアクティビティの例を以下に示します。
 
-![](assets/ac-lp-example.png){width="70%"}
+![電子メール、SMS、プッシュ通知からのオプトアウトと送信ボタンを使用したランディングページのプレビュー](assets/ac-lp-example.png){width="70%"}
 
-![](assets/ac-lp-code.png){width="70%" zoomable="yes"}
+![ プロファイルオプトアウト値をExperience Platformに送信するコードを使用して、プロファイルスクリプトアクティビティを更新](assets/ac-lp-code.png){width="70%" zoomable="yes"}
 
 ### 詳細情報
 

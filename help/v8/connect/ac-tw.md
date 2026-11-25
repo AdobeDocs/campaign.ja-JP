@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 87%
+source-wordcount: '1228'
+ht-degree: 80%
 ---
 # Campaign と X（Twitter）の連携 {#tw-ac-ovv}
 
@@ -67,7 +67,7 @@ X アカウントにツイートを投稿するように Adobe Campaign を設�
 
 ## X 開発者アカウント {#dev-account}
 
-この統合を開始するには、[Xの開発者アカウント &#x200B;](https://developer.twitter.com){target="_blank"}にサインアップする必要があります。
+この統合を開始するには、[Xの開発者アカウント ](https://developer.twitter.com){target="_blank"}にサインアップする必要があります。
 
 Campaign は、X API の 1.1 バージョンを使用します。 これを使用するには、開発者ポータル経由で管理者特権でのアクセス権を申請する必要があります。 X の昇格アクセスについて詳しくは、[このページ](https://developer.twitter.com/en/portal/products/elevated){target="_blank"}を参照してください。
 
@@ -81,15 +81,15 @@ Campaign は、X API の 1.1 バージョンを使用します。 これを使�
 1. X アシスタントの指示に従ってプロセスを進めます。
 1. Adobe Campaignがアカウントに投稿を作成できるようにするには、アプリの「ユーザー認証の設定」セクションで&#x200B;**アプリの権限**&#x200B;を編集します。 「**読み取り、書き込み、ダイレクトメッセージ**」を選択します。
 
-   ![](assets/tw-permissions.png)
+   読み取りと書き込みおよびダイレクトメッセージを選択した![ アプリの権限](assets/tw-permissions.png)
 
 1. 「**アプリのタイプ**」セクションで、「**Web アプリ、自動アプリまたはボット**」を選択します。 「**コールバック URL**」フィールドを空のままにして、設定を保存できます。
 
-   ![](assets/tw-app-type.png)
+   ![Web アプリ、自動アプリまたはボットを機密クライアントとして選択したアプリの種類](assets/tw-app-type.png)
 
 1. アプリのダッシュボードに戻り、アプリを選択し、「**キーとトークン**」タブを参照します。 **アクセストークンと秘密鍵**&#x200B;の下に、**読み取り、書き込み、ダイレクト メッセージ**&#x200B;権限が記載されていない場合は、アプリのトークンと秘密鍵を再生成する必要があります。 すべてのキーとトークンは、作成時に保存する必要があります。 これらは、Campaign の Twitter サービスを設定するために必要になります。
 
-   ![](assets/tw-permissions-check.png)
+   ![読み取り、書き込み、ダイレクトメッセージの権限で作成されたアクセストークンと秘密鍵を示す認証トークン ](assets/tw-permissions-check.png)
 
 
 >[!NOTE]
@@ -122,7 +122,7 @@ Campaign インスタンスを X アカウントにリンクするには、**Twi
 
 1. デフォルトでは、フォロワーは&#x200B;**[!UICONTROL 訪問者]**&#x200B;フォルダーに保存されます。 「**[!UICONTROL 訪問者フォルダー]**」フィールドから別の場所を選択します。 [詳細情報](../send/twitter.md#direct-tw-messages)
 
-   ![](assets/tw-service-in-ac.png)
+   ![ ラベル、電子メールの種類、訪問者フォルダー、OAuth コンシューマーおよびアクセストークンのフィールドを含む、利用可能な新しいオファーのサービス提供フォーム ](assets/tw-service-in-ac.png)
 
    >[!NOTE]
    >
@@ -138,7 +138,7 @@ Campaign インスタンスを X アカウントにリンクするには、**Twi
 
 * 作成したばかりの **Twitter** サービスを編集します。
 * 「**[!UICONTROL Twitter ページ]**」タブを参照します。Twitter アカウントが表示されます。
-  ![](assets/tw-page.png)
+  リンクされたJane Marge アカウントを表示するAdobe Campaign コンソールの「サービス」の「![Twitter ページ」タブ ](assets/tw-page.png)
 
 ## X アカウントの同期 {#synchro-tw-accounts}
 
@@ -148,7 +148,7 @@ Campaign と X 間の同期は、専用のテクニカルワークフローで�
 
 **[!UICONTROL Twitter アカウントの同期]**&#x200B;テクニカルワークフローは、Adobe Campaign で X アカウントを同期します。 このワークフローは、X のフォロワーのリストを復元して、ダイレクトメッセージを送信できるようにします。 [詳細情報](../send/twitter.md#direct-tw-messages)
 
-デフォルトでは、このワークフローは毎週木曜日の午前7:30にトリガーされます。 「**[!UICONTROL 保留中のタスクを今すぐ実行]**」オプションを使用して、この統合の実装時にいつでもワークフローを開始できます。  スケジューラーを編集して、ワークフローのトリガー頻度を変更することもできます。 詳しくは、[このページ](../../automation/workflow/scheduler.md)を参照してください。
+デフォルトでは、このワークフローは毎週木曜日の午前7:30にトリガーされます。 「**[!UICONTROL 保留中のタスクを今すぐ実行]**」オプションを使用して、この統合の実装時にいつでもワークフローを開始できます。  スケジューラーを編集して、ワークフローのトリガー頻度を変更することもできます。 詳しくは、[ スケジューラーアクティビティの設定](../../automation/workflow/scheduler.md#configuring-scheduler-activity)を参照してください。
 
 >[!CAUTION]
 >
@@ -169,12 +169,12 @@ Adobe Campaign は、各フォロワーについて以下の情報を格納し�
 
 ## X でのテストアカウントの作成 {#tw-test-account}
 
-X アカウントに加えて、[&#x200B; ツイートプルーフ &#x200B;](../send/twitter.md)の送信に使用できるプライベート X アカウントを作成します。 これを行うには、次の手順に従います。
+X アカウントに加えて、[ ツイートプルーフ ](../send/twitter.md)の送信に使用できるプライベート X アカウントを作成します。 これを行うには、次の手順に従います。
 
 1. 新しい X アカウントを作成します。
 1. そのアカウントの&#x200B;**設定**&#x200B;にアクセスします。
 1. 「**プライバシーと安全性**」および「**オーディエンスとタグ付け**」を参照し、「**投稿を保護**」オプションをオンにします。 投稿やその他のアカウント情報は、フォロワーにのみ表示されます。
 
-![](assets/do-not-localize/social_tw_test_page.png)
+![X設定「投稿を保護」オプションを選択したオーディエンス、メディア、およびタグ付けページ ](assets/do-not-localize/social_tw_test_page.png)
 
 前述のように、このテストアカウントで動作するよう X アプリと Campaign サービスを設定します。
