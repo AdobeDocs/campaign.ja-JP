@@ -25,32 +25,32 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 93%
+source-wordcount: '587'
+ht-degree: 79%
 ---
 # 購読と購読解除の管理 {#optin-optout}
 
 Adobe Campaign を使用すると、ニュースレターなどの情報サービスの作成と監視を行い、これらのサービスの購読／購読解除を管理できます。 複数のサービスを並行して定義できます。例えば、web サイトの特定の商品カテゴリ、テーマまたは分野に関する専門家向けのニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
 
-情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法については、[Campaign Classic v7 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}を参照してください。
+情報サービスの作成、ニュースレターの送信、オプトインとオプトアウトの管理の方法については、[Campaign Classic v7 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=ja){target="_blank"}を参照してください。
 
 プロファイルをサービスに購読（オプトイン）するには、次のオプションを使用できます。
 
 * 受信者のプロファイルにサービスを手動で追加するには、プロファイルの「**[!UICONTROL 購読]**」タブから「 **[!UICONTROL 追加]**」をクリックし、該当する情報サービスを選択します。
 
-  ![](assets/subscribe-to-a-service.png)
+  「サービスを選択」ダイアログが追加](assets/subscribe-to-a-service.png)から開いた受信者プロファイルの「![購読」タブ
 
   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
 
 * 受信者のセットを、このサービスに自動的に購読登録します。 受信者のリストは、フィルタリング操作、グループ、フォルダー、読み込み、手動での直接選択などの方法で取得できます。 これらの受信者を購読登録するには、プロファイルを選択して右クリックします。 **[!UICONTROL アクション／サービスの購読選択...]**&#x200B;を選択します。
 
-  ![](assets/subscribe-selection.png)
+  ![選択した受信者のメニューを右クリックし、アクション/サービスに対する選択を購読](assets/subscribe-selection.png)します
 
   該当するサービスを選択し、操作を開始します。
 
-  ![](assets/subscribe-confirm.png)
+  ![ サービス サブスクリプション ウィザード、サービス選択手順、確認メッセージの送信オプション ](assets/subscribe-confirm.png)
 
   詳細については、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=ja#deliveries-tab){target="_blank"}を参照してください
 
@@ -61,18 +61,18 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 
 * 受信者がサービスの購読を登録できる Web フォームを使用します。
 
-  ![](assets/opt-in-webapp.png)
+  ![ ニュースレター購読web アプリケーションのワークフロー：プリロード、購読、ストレージおよび終了](assets/opt-in-webapp.png)
 
   Campaign には、オプトインを管理するためのデフォルトの Web フォームが用意されています。 これをパーソナライズし、プロファイルデータをマッピングできます。
 
-  ![](assets/web-app.png)
+  ![名前、電子メール、電話、同意チェックボックス、および購読ボタンを含む購読web フォームのページエディター](assets/web-app.png)
 
-  詳細については、[この節](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
+  詳しくは、[ ダブルオプトインを使用したサブスクリプションフォームの作成](../dev/web/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in)を参照してください。
 
 
 * ターゲティングワークフローを作成し、**[!UICONTROL サブスクリプションサービス]** アクティビティを使用します。
 
-  ![](assets/wf-subscription.png)
+  ![ リストの読み取り、クエリ、ファイルコレクターのフィード重複排除およびサブスクリプションサービスを含むワークフロー](assets/wf-subscription.png)
 
   詳しくは、[このページ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html?lang=ja){target="_blank"}を参照してください。
 
@@ -99,5 +99,5 @@ Adobe Campaign を使用すると、ニュースレターなどの情報サー�
 <!--
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages.
 
-For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=ja#viral-marketing--forward-to-a-friend){target="_blank"}
+For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend){target="_blank"}
 -->

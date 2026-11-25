@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 88%
+source-wordcount: '1154'
+ht-degree: 86%
 ---
 # Campaign でのプライバシーリクエストの管理 {#privacy}
 
@@ -52,7 +52,7 @@ Campaignでプライバシーリクエストを管理するには、まず[名�
 
 >[!NOTE]
 >
->この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[このセクション &#x200B;](compatibility-matrix.md)を参照してください
+>この機能は、Campaign v8.3以降で使用できます。 バージョンを確認するには、[Campaign v8互換性マトリックス ](compatibility-matrix.md)を参照してください
 
 ## 名前空間を定義 {#namespaces}
 
@@ -75,9 +75,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. [ID 名前空間サービス](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}で名前空間を作成します。
 
-1. 組織で使用可能なID名前空間[&#128279;](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}を リストアップすると、次のような名前空間の詳細が表示されます。例：
+1. 組織で使用可能なID名前空間](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"}を[ リストアップすると、次のような名前空間の詳細が表示されます。例：
 
-   ```
+   ```json
    {
            "updateTime": 1632903236731,
            "code": "lumanamespace",
@@ -94,7 +94,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Adobe Campaign で、**[!UICONTROL 管理]**／**[!UICONTROL Platform]**／**[!UICONTROL 名前空間]**&#x200B;を参照し、**[!UICONTROL 新規]**&#x200B;を選択します。
 
-   ![](assets/privacy-namespaces-new.png)
+   ![ エクスプローラーのパス管理/プラットフォーム/名前空間（新しいボタンがハイライト表示されている） ](assets/privacy-namespaces-new.png)
 
 1. **[!UICONTROL ラベル]**&#x200B;を入力します。
 
@@ -104,7 +104,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
    * **[!UICONTROL 内部名]**&#x200B;は、「code」属性に一致する必要があります。
    * **[!UICONTROL 紐付けキー]**&#x200B;は、「idType」属性に一致する必要があります。
 
-   ![](assets/privacy-namespaces-details.png)
+   ![AEC名前空間ID、内部名および紐付けキーフィールドがハイライト表示された新しい名前空間フォーム ](assets/privacy-namespaces-details.png)
 
    **[!UICONTROL 紐付けキー]**&#x200B;フィールドは、Adobe Campaign データベースでデータ主体を識別するために使用します。
 

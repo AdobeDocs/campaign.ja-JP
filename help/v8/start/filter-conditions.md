@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '3509'
-ht-degree: 98%
+source-wordcount: '3872'
+ht-degree: 88%
 ---
 # フィルター条件の定義{#filter-conditions}
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 フィルター条件内で、演算子を使用して 2 つの値をリンクする必要があります。
 
-![](assets/query_editor_nveau_96.png)
+![演算子ドロップダウンを開いたターゲット要素ステップ。リストは次と等しく、次より大きく、次より小さい、およびその他の演算子です。](assets/query_editor_nveau_96.png)
 
 次に、使用可能な演算子のリストを示します。
 
@@ -143,24 +143,24 @@ ht-degree: 98%
 
 デフォルトで表示されている「**[!UICONTROL および]**」をクリックし、ドロップダウンリストから選択します。
 
-![](assets/query_condition_modif_01.png)
+![条件の下にあるドロップダウンの「電子メール ドメイン」がorange.co.ukに等しい場合は、「Or」および「Except」のリンク オプションが表示されます。](assets/query_condition_modif_01.png)
 
 * **[!UICONTROL および]**：条件を追加し、オーバーフィルターが可能です。
 * **[!UICONTROL または]**：条件を追加し、オーバーフィルターが可能です。
 
   次の例では、メールドメインに「orange.co.jp」が含まれているか、郵便番号が「123」で始まる受信者を検索できます。
 
-  ![](assets/query_condition_modif_02.png)
+  ![Orによってリンクされた2つの条件：orange.co.ukまたはZip/Postcodeに等しい電子メールドメインは、NWで始まります。](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL 例外]**：2 つのフィルターがあり、最初のフィルターで値が返されない場合、このタイプのリンクでは例外が作成されます。
 
   次の例では、メールドメインに「orange.co.jp」が含まれている受信者が返されますが、受信者の姓が「田中」である場合を除きます。
 
-  ![](assets/query_condition_modif_03.png)
+  ![Exceptによってリンクされた2つの条件：Email domainはorange.co.ukに等しいが、Last nameはSmithに等しい。](assets/query_condition_modif_03.png)
 
 次の例のフィルターでは、スペイン語を話す受信者、またはモバイル番号がある女性、またはアカウント番号がない受信者、および会社名が「N」の文字で始まる受信者が表示されます。
 
-![](assets/query_editor_nveau_31.png)
+![N.](assets/query_editor_nveau_31.png)で始まる会社の言語スペイン語、携帯電話番号を持つ女性、アカウント番号を持たない組み合わせフィルター
 
 ## 条件の優先順位の設定 {#prioritizing-conditions}
 
@@ -169,7 +169,7 @@ ht-degree: 98%
 * 右向き矢印を使用して、括弧レベルをフィルターに追加できます。
 * 左向き矢印を使用して、選択した括弧レベルをフィルターから削除できます。
 
-  ![](assets/query_condition_modif_04.png)
+  ![左右括弧矢印と上下矢印がハイライト表示されたクエリエディターツールバー](assets/query_condition_modif_04.png)
 
 * 上下矢印を使用して、条件を移動することで実行順序を変更できます。
 
@@ -177,7 +177,7 @@ ht-degree: 98%
 
 **[!UICONTROL 性別（@gender）が男性と等しい]**&#x200B;フィルター条件にカーソルを置き、**[!UICONTROL 括弧レベルを削除]**&#x200B;矢印をクリックします。
 
-![](assets/query_editor_nveau_32.png)
+![括弧のレベルを削除する前と後：男性と等しい性別は、ロンドンと等しい都市と同じレベルに移動します。](assets/query_editor_nveau_32.png)
 
 「**[!UICONTROL 性別（@gender）が男性と等しい]**」条件が括弧の外に出されます。 この条件は、「市区町村が横浜市と等しい」条件と同じレベルに移動しました。 これらの条件は、「**[!UICONTROL および]**」でリンクされます。
 
@@ -187,7 +187,7 @@ ht-degree: 98%
 
 選択したフィールドの詳細は、ウィンドウの下部に表示されます。 例えば、「**[!UICONTROL メールドメイン]**」フィールドは「**[!UICONTROL SQL 計算フィールド]**」であり、拡張は&#x200B;**[!UICONTROL （@domain）]**&#x200B;です。
 
-![](assets/query_editor_nveau_59.png)
+![電子メールドメインを選択した状態で手順を抽出するデータ。以下の詳細は、SQL計算フィールド （@domain）を読み取ります。](assets/query_editor_nveau_59.png)
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ ht-degree: 98%
 
 出力列に追加するには、使用可能フィールドをダブルクリックします。 クエリの最後に、選択した各フィールドに&#x200B;**[!UICONTROL データのプレビュー]**&#x200B;ウィンドウで列が作成されます。
 
-![](assets/query_editor_nveau_01.png)
+![年齢、プライマリキー、電子メールドメイン、および市区町村を含む手順を抽出するデータが出力列リストに追加されました。](assets/query_editor_nveau_01.png)
 
 詳細フィールドはデフォルトでは表示されません。 すべてを表示するには、使用可能フィールドの右下隅で&#x200B;**[!UICONTROL 詳細フィールドを表示]**&#x200B;をクリックします。 前のビューに戻るには、再度クリックします。
 
@@ -203,7 +203,7 @@ ht-degree: 98%
 
 次の例は、受信者テーブルの使用可能フィールドを示しています。
 
-![](assets/query_editor_nveau_53.png)
+![詳細フィールドがハイライト表示され、右下の「詳細フィールドを表示」ボタンが表示されている使用可能なフィールドリスト。](assets/query_editor_nveau_53.png)
 
 フィールドの各種カテゴリ：
 
@@ -275,7 +275,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->* 式を編集する出力列を追加するには、**[!UICONTROL 追加]**&#x200B;ボタン（サイドアイコンバーの上部）を使用します。 式の編集について詳しくは、[この節](#building-expressions)を参照してください。
+>* 式を編集する出力列を追加するには、**[!UICONTROL 追加]**&#x200B;ボタン（サイドアイコンバーの上部）を使用します。 式の編集について詳しくは、[式の作成](#building-expressions)を参照してください。
 >* 出力列を削除するには、赤い「x」（**削除**）をクリックします。
 >* 出力列の順序を変更するには、矢印を使用します。
 >* **[!UICONTROL 値の配分]**&#x200B;は、選択したフィールドの値の配分を表示する方法として機能します（例えば、受信者の市区町村、受信者の言語などにリンクした配信）。
@@ -284,29 +284,29 @@ ht-degree: 98%
 
 必要に応じて、データフォーマット中に列を追加します。 計算フィールドによって、データのプレビューセクションに列が追加されます。 **[!UICONTROL 計算フィールドを追加]**&#x200B;をクリックします。
 
-![](assets/query_editor_nveau_43.png)
+![計算フィールドを追加ボタンと計算フィールド定義ダイアログをタイプ ](assets/query_editor_nveau_43.png)で開いたデータの書式設定手順
 
 次の 4 つのタイプの計算フィールドがあります。
 
 * **[!UICONTROL 固定文字列]**：一連の文字列を追加できます。
 
-  ![](assets/query_editor_nveau_60.png)
+  ![固定文字列の種類と入力したテキストを含む計算フィールド定義ダイアログをエクスポートします。](assets/query_editor_nveau_60.png)
 
 * **[!UICONTROL JavaScript タグを含む文字列]**：一連の文字列と JavaScript ディレクティブを組み合わせた計算フィールドの値。
 
-  ![](assets/query_editor_nveau_61.png)
+  ![ エディターでJavaScript タグとスクリプトタグを含む文字列型の計算フィールド定義ダイアログを書き出します。](assets/query_editor_nveau_61.png)
 
 * **[!UICONTROL JavaScript 式]**：計算フィールドの値は JavaScript 関数評価の結果です。 返される値はタイプ指定できます（数値、日付など）。
 
-  ![](assets/query_editor_nveau_62.png)
+  ![JavaScript式の型と、AまたはBを返すif-else スクリプトを含む計算フィールド定義ダイアログをエクスポートします。](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL 列挙]**：このタイプのフィールドでは、いずれかの出力列の内容を新しい列で使用または変更できます。
 
   列のソース値を使用し、宛先値を割り当てることができます。 この宛先値は新しい出力列に表示されます。
 
-  「**[!UICONTROL 列挙]**」タイプ計算フィールドを追加する例は、[この節](../../automation/workflow/adding-enumeration-type-calculated-field.md)で確認できます。
+  計算フィールドタイプ **[!UICONTROL 列挙]**&#x200B;の追加例については、[列挙タイプ計算フィールドの追加](../../automation/workflow/adding-enumeration-type-calculated-field.md)を参照してください。
 
-  ![](assets/query_editor_nveau_63.png)
+  ![Source列リストとその他のケースの4つのオプションを含む列挙計算フィールド ダイアログ。](assets/query_editor_nveau_63.png)
 
   「**[!UICONTROL 列挙]**」タイプ計算フィールドには、次の 4 つの条件を含めることができます。
 
@@ -319,7 +319,7 @@ ht-degree: 98%
 
 この計算フィールドを削除するには、**[!UICONTROL 計算フィールドを削除]**&#x200B;のバツ印をクリックします。
 
-![](assets/query_editor_nveau_58.png)
+![計算フィールド「新規」を選択し、「計算フィールドの詳細」ボタンを強調表示したデータ書式設定手順](assets/query_editor_nveau_58.png)
 
 ## 式の作成 {#building-expressions}
 
@@ -335,17 +335,17 @@ ht-degree: 98%
 
    「**[!UICONTROL 集計関数のプロセス]**」および「**[!UICONTROL カウント]**」を選択します。 「**[!UICONTROL 次へ]**」をクリックします。
 
-   ![](assets/query_editor_nveau_54.png)
+   ![抽出するデータの手順：追加で、式を編集ボタンがハイライト表示された式フィールドが開きます。](assets/query_editor_nveau_54.png)
 
 1. プライマリキーが計算されます。
 
-   ![](assets/query_editor_nveau_88.png)
+   ![ カウント（プライマリキー）式が追加され、強調表示された出力列リスト。](assets/query_editor_nveau_88.png)
 
 次に、**[!UICONTROL 数式のタイプ]**&#x200B;ウィンドウで使用可能な選択肢の詳細な表示を示します。
 
-![](assets/query_editor_nveau_05.png)
+![集計関数のプロセスが選択され、カウント オプションが選択された数式タイプ ウィンドウ。](assets/query_editor_nveau_05.png)
 
-1. 「**[!UICONTROL 「フィールドのみ]**&#x200B;**[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
+1. 「**[!UICONTROL 「フィールドのみ]****[!UICONTROL 」では、選択するフィールドウィンドウに戻ることができます。]**
 1. 「**[!UICONTROL 集計]**」（「集計関数のプロセス」）。 使用する集計の例は次のとおりです。
 
    * 「**[!UICONTROL カウント]**」では、プライマリキーカウントを実行できます。
@@ -358,7 +358,7 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL 式]**」では、**[!UICONTROL 式を編集]**&#x200B;ウィンドウを開きます。 これにより、数字が非常に多く、入力エラーを起こしやすい電話番号を検出できます。
 
-   ![](assets/query_editor_nveau_71.png)
+   ![電話番号の長さ式を含む式ウィンドウを編集し、10より大きいフィルターPhoneを生成します。](assets/query_editor_nveau_71.png)
 
    使用可能なすべての関数のリストについては、[関数のリスト](#list-of-functions)を参照してください。
 
@@ -368,7 +368,7 @@ ht-degree: 98%
 
 式エディターは次のように表示されます。
 
-![](assets/filter-define-expression.png)
+![使用可能なフィールドと、集計や文字列などのカテゴリを持つ関数のリストを含む式ウィンドウを編集します。](assets/filter-define-expression.png)
 
 式エディターではデータベーステーブルのフィールドを選択し、高度な関数を追加できます。 次の関数を使用できます。
 

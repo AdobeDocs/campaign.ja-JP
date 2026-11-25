@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 96%
+source-wordcount: '1057'
+ht-degree: 86%
 ---
 # メッセージの基本を学ぶ {#gs-ac-msg}
 
@@ -60,21 +60,21 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダ�
 
 >[!NOTE]
 >
->配信を作成する際は、テンプレートを選択する必要があります。 各チャネルには、デフォルトのテンプレートが用意されています。 配信テンプレートについて詳しくは、[このページ](../send/create-templates.md)を参照してください。
+>配信を作成する際は、テンプレートを選択する必要があります。 各チャネルには、デフォルトのテンプレートが用意されています。 配信テンプレートについて詳しくは、[配信テンプレートの操作](../send/create-templates.md)を参照してください。
 
-1. **1 回限りのメッセージ** - オーディエンスに1 回限りのメッセージを送信できます。 最初のメッセージを送信する方法について詳しくは、[この節](create-message.md)を参照してください。
+1. **1 回限りのメッセージ** - オーディエンスに1 回限りのメッセージを送信できます。 [最初の配信を作成](create-message.md)で、最初のメッセージを送信する方法について説明します。
 
-   ![](assets/send-email.png)
+   ![差出人、宛先、件名フィールド、HTML コンテンツおよび送信ボタンを含むメール配信エディター](assets/send-email.png)
 
-1. **マーケティングキャンペーンのメッセージ** - [マーケティングキャンペーン](campaigns.md)のコンテキストでメッセージを送信し、承認プロセスを定義し、統合ダッシュボードでメッセージを送信および追跡できます。 詳しくは、[この節](../../automation/campaigns/marketing-campaign-deliveries.md)を参照してください。
+1. **マーケティングキャンペーンのメッセージ** - [マーケティングキャンペーン](campaigns.md)のコンテキストでメッセージを送信し、承認プロセスを定義し、統合ダッシュボードでメッセージを送信および追跡できます。 方法については、[ マーケティングキャンペーン配信](../../automation/campaigns/marketing-campaign-deliveries.md)を参照してください。
 
-   ![](assets/deliveries-in-a-campaign.png)
+   ![承認や送信などの承認ステータスを含む配信を一覧表示するキャンペーンダッシュボード ](assets/deliveries-in-a-campaign.png)
 
-1. **ワークフローのメッセージ** - [ワークフロー](../config/workflows.md)を通じてメッセージを送信し、配信を自動化できます。 詳しくは、[このページ](../../automation/workflow/delivery.md)を参照してください。
+1. **ワークフローのメッセージ** - [ワークフロー](../config/workflows.md)を通じてメッセージを送信し、配信を自動化できます。 方法については、[配信](../../automation/workflow/delivery.md)で説明します。
 
-   ![](assets/send-in-a-wf.png)
+   ![夏のオファー配信、待機およびモバイル配信を受け取るクエリと読み取りリストを含むキャンペーンワークフロー](assets/send-in-a-wf.png)
 
-1. **トリガーされたメッセージ** - イベントから[メッセージをトリガー](../send/transactional.md)できます。 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理する目的で設計された Campaign モジュールです。 トランザクションメッセージの設定と送信の手順について詳しくは、[このページ](../send/transactional.md)を参照してください。
+1. **トリガーされたメッセージ** - イベントから[メッセージをトリガー](../send/transactional.md)できます。 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理する目的で設計された Campaign モジュールです。 トランザクションメッセージを設定および送信する手順については、[Campaign トランザクションメッセージ ](../send/transactional.md)を参照してください。
 
 ## 通信チャネル {#gs-channel}
 
@@ -111,7 +111,7 @@ Campaign には 3 つのタイプの配信オブジェクトがあります。
 
 配信は、配信リストから作成したり、ワークフロー内で[配信](../../automation/workflow/delivery.md)アクティビティを介して作成したりできます。
 
-ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。 これらのアクティビティについて詳しくは、[この節](../../automation/workflow/cross-channel-deliveries.md)を参照してください。
+ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。 これらのアクティビティについて詳しくは、[ クロスチャネル配信](../../automation/workflow/cross-channel-deliveries.md)を参照してください。
 
 ### 繰り返し配信 {#recurring-delivery}
 

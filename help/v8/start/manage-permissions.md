@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1850'
-ht-degree: 89%
+source-wordcount: '1933'
+ht-degree: 81%
 ---
 # ユーザー権限の管理{#manage-permissions}
 
@@ -62,16 +62,16 @@ ht-degree: 89%
 
 1. [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} ホームページで、「**ユーザーを追加**」を選択します。
 
-   ![](assets/add-a-user.png)
+   ![ ユーザーを追加のクイックリンクがハイライト表示されたAdmin Console ホームページ ](assets/add-a-user.png)
 
 1. ユーザーのメールアドレスを入力します。
 1. 「+」記号を使用して、ユーザーに割り当てる製品プロファイルまたはユーザーグループを選択します。
 
-   ![](assets/add-a-product-profile.png)
+   ![Adobe Campaign製品プロファイルリストを含むユーザーフォームを追加して、ユーザー](assets/add-a-product-profile.png)を選択します
 
-   Campaign のビルトインの製品プロファイルのリストについては、[この節](#ootb-productprofiles)を参照してください。
+   Campaignの組み込み製品プロファイルは、[ デフォルトの製品プロファイルとオペレーターグループ ](#ootb-productprofiles)にリストされています。
 
-   ユーザーグループを作成する方法については、[この節](#user-groups)を参照してください。
+   [ ユーザーグループの作成方法について説明します。ユーザーグループの操作](#user-groups)
 
 1. 「**保存**」をクリックします。 ユーザーが追加され、ユーザーリストに表示されます。 管理者の役割または製品プロファイルをユーザーに割り当てると、ユーザーにメール通知が届きます。 ユーザーは、リンクをたどって自分のプロファイルを完成させる必要があります。
 
@@ -109,21 +109,21 @@ Campaign - テスト - 配信
 
 1. Campaign に接続し、エクスプローラーを開いて、**[!UICONTROL 管理／アクセス管理／オペレーターグループ]**&#x200B;を参照します。
 1. 「**[!UICONTROL 新規]**」をクリックし、オペレーターグループの名前を定義し、その内部名（「レビュー担当者」）を設定します。
-   ![](assets/new-op-group.png)
-1. ネームド権限を選択して、関連する権限を定義します。 ネームド権限について詳しくは、[この節](#use-named-rights)を参照してください。
+   ![新しいReviewers オペレーターグループが作成されているエクスプローラーのオペレーターグループ リスト ](assets/new-op-group.png)
+1. ネームド権限を選択して、関連する権限を定義します。 名前付き権限については、[名前付き権限](#use-named-rights)で詳しく説明しています
 1. 新しいオペレーターグループを保存します。
 
 #### Admin Console での製品プロファイルの作成{#create-profile-in-admin-console}
 
 1. [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} に接続します。
 1. ホームページの「**製品とサービス**」セクションで、Campaign 製品を開きます。
-1. 「**新規プロファイル**」をクリックし、作成する製品プロファイルの名前を入力します。正確な構文については、[こちら](#product-profiles)を参照してください。 この例では、次のように入力します。Campaign - `<your-instance-name>` - レビュー担当者
+1. **新しいプロファイル**&#x200B;をクリックし、作成する製品プロファイルの名前を入力します。正確な構文は、[製品プロファイルの操作](#product-profiles)に従います。 この例では、次のように入力します。Campaign - `<your-instance-name>` - レビュー担当者
 
-   ![](assets/new-product-profile-ui.png)
+   ![製品プロファイル名フィールドが](assets/new-product-profile-ui.png)に入力された新しい製品プロファイルページを作成
 
 1. 変更内容を保存します。
 
-この新しい製品プロファイルにユーザーを追加できるようになりました。詳しくは、[この節](#add-users)を参照してください。
+[ ユーザーを追加](#add-users)で説明したように、この新しい製品プロファイルにユーザーを追加できるようになりました。
 
 ベストプラクティスは、製品プロファイルをユーザーグループに割り当てることです。 ユーザーによる権限の管理は、持続可能なモデルではありません。
 
@@ -132,7 +132,7 @@ Campaign - テスト - 配信
 
 Adobe Campaign にはビルトインの&#x200B;**製品プロファイル**&#x200B;が付属しており、アドビが環境を有効にするときに定義されます。
 
-![](assets/ootb-product-profiles.png)
+管理者や操作などの組み込みのCampaign製品プロファイルを一覧表示する![Admin Console製品プロファイル タブ ](assets/ootb-product-profiles.png)
 
 これらの製品プロファイルは、Campaign の&#x200B;**オペレーターグループ**&#x200B;と一致します。 デフォルトのオペレーターグループとその[ネームド権限](#use-named-rights)を次に示します。
 
@@ -213,7 +213,7 @@ Adobe Campaign にはビルトインの&#x200B;**製品プロファイル**&#x20
    >
    >**オファーマネージャー**&#x200B;は、レビュー担当者が指定されていない場合、またはオファーテンプレートで自身がレビュー担当者として設定されている場合にのみ、オファーを承認します。
 
-   環境ごとのオファーマネージャー権限マトリックスについては、[このページ](../interaction/interaction-operators.md#recap-of-rights-according-to-operator)を参照してください。
+   環境ごとのオファー管理者権限マトリックスは、[ インタラクションオペレーターごとの権限マトリックス ](../interaction/interaction-operators.md#recap-of-rights-according-to-operator)で利用できます。
 
 ## ユーザーグループの操作{#user-groups}
 
@@ -230,7 +230,7 @@ Adobe Campaign には、ユーザーとユーザーのグループに割り当�
 ネームド権限では、次の権限を付与します。
 
 * 操作の実行
-例えば、配信エディターの&#x200B;**分析** ボタンは、**配信を準備**&#x200B;という名前付き権限を持つ&#x200B;**配信オペレーター** グループのメンバーに対してアクティブ化されます
+例えば、配信エディターの**分析** ボタンは、**配信を準備**&#x200B;という名前付き権限を持つ&#x200B;**配信オペレーター** グループのメンバーに対してアクティブ化されます
 
 * フォルダーへのアクセス
 オペレーターグループのメンバーシップは、フォルダーのセキュリティ設定を変更することで、フォルダーへのアクセス権を付与または制限できます。 [詳細情報](folder-permissions.md#restrict-access-to-a-folder)。

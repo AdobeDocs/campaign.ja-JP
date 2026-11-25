@@ -51,10 +51,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 81%
+source-wordcount: '1099'
+ht-degree: 71%
 ---
 # Adobe Campaign の概要{#gs-ac-v8}
 
@@ -70,7 +70,7 @@ Campaign を使用すると、次のことを行えます。
 * メール、モバイル、オンライン、オフラインの各チャネルをカスタマージャーニーに&#x200B;**統合**
 * 有意義でタイムリーなメッセージやオファーの配信を&#x200B;**自動化**
 
-![](assets/do-not-localize/ac-capabilities.png)
+![顧客プロファイルおよびセグメント化から、オーケストレーション、電子メールおよびモバイル、レポート作成に至るまで、キャンペーン機能](assets/do-not-localize/ac-capabilities.png)
 
 
 >[!AVAILABILITY]
@@ -85,23 +85,23 @@ Campaign を使用すると、次のことを行えます。
 
 Adobe Campaign では、受信者は配信（メール、SMS など）の送信先となるデフォルトプロファイルです。 データベースに格納された受信者データを活用して、任意の配信のターゲットを絞り込み、配信コンテンツにパーソナライゼーションデータを追加することができます。 データベースには、他のタイプのプロファイルも含まれています。 それらのプロファイルは用途が異なります。 例えば、シードプロファイルは、配信を最終的なターゲットに送信する前のテスト用に作成されます。
 
-プロファイル管理の基本事項については、[この節](audiences.md)で説明します。
+プロファイル管理の基本については、[Campaignでのオーディエンスの操作](audiences.md)で説明しています。
 
-Campaign にプロファイルを追加する方法については、[この節](import.md)を参照してください。
+プロファイルをCampaignに追加する方法については、[ プロファイルの基本を学ぶ](import.md)を参照してください。
 
 ## ターゲティングされたセグメント化 {#targeted-segmentation}
 
-Adobe Campaign には強力で使いやすいセグメント化機能とターゲティング機能が備わっており、高度にターゲティングされた最適なオファーを作成できます。 記述分析機能を使用すると、マーケティングキャンペーンの上流および下流の情報を分析できます。また、[&#x200B; フィルター管理](../audiences/create-filters.md)機能とグラフィック [&#x200B; クエリエディター](query-editor.md)機能を使用すると、購読者の母集団をフィルタリングし、無制限の条件に基づいてターゲットグループをサンプリングまたは作成できます。
+Adobe Campaign には強力で使いやすいセグメント化機能とターゲティング機能が備わっており、高度にターゲティングされた最適なオファーを作成できます。 記述分析機能を使用すると、マーケティングキャンペーンの上流および下流の情報を分析できます。また、[ フィルター管理](../audiences/create-filters.md)機能とグラフィック [ クエリエディター](query-editor.md)機能を使用すると、購読者の母集団をフィルタリングし、無制限の条件に基づいてターゲットグループをサンプリングまたは作成できます。
 
 高度なデータ管理機能は、データ処理機能を拡張します。 データマートにモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化します。
 
-セグメント化とオーディエンスの作成について詳しくは、[この節](audiences.md)を参照してください。
+セグメント化とオーディエンスの作成について詳しくは、[ キャンペーンでのオーディエンスの操作](audiences.md)を参照してください。
 
 ## クロスチャネルキャンペーンのオーケストレーション {#cross-channel-campaign-orchestration}
 
 Adobe Campaign を使用すると、メール、ダイレクトメール、SMS、プッシュ通知などの複数のチャネルで、ターゲットを絞りパーソナライズしたキャンペーンの設計とオーケストレーションを行えます。 1 つのインターフェイスを通して、すべてのキャンペーンとコミュニケーションのスケジュール作成、オーケストレーション、設定、パーソナライズ、自動化、実施、測定などに必要なすべての機能を利用することができます。
 
-キャンペーンの設計、スケジュール設定および実行の方法については、[この節](campaigns.md)を参照してください。
+キャンペーンの設計、スケジュール、実行方法については、[ キャンペーンの基本を学ぶ](campaigns.md)を参照してください。
 
 ## ワークフロー {#wf-gsv8}
 
@@ -116,7 +116,7 @@ Adobe Campaignは、セグメンテーション、キャンペーンの実行、
 * Campaign データベースへのデータの読み込み。
 * データベースのクリーンアップ、トラッキング情報の復元などの技術的プロセス。
 
-ワークフローを設計および実行する方法については、[この節](../config/workflows.md)を参照してください。
+[Adobe Campaign ワークフローを使用してプロセスを管理および自動化](../config/workflows.md)で、ワークフローを設計および実行する方法について説明します。
 
 ## レポートと分析 {#analysis-and-reporting}
 
@@ -127,19 +127,19 @@ Adobe Campaign では、すぐに使える強力なレポートテンプレー�
 キャンペーンレポート機能により、動的レポートの作成が容易になります。 ドラッグ＆ドロップ変数を使用して、レポートをカスタマイズしたり、キャンペーンが成功するかどうかを分析したりできます。 クエリや計算の複雑さに応じて、データをリスト表示に集計したり、マーケティング分析レポートを簡単に生成できる形式でデータにアクセスしたりできます。
 
 
-レポート機能とトラッキング機能について詳しくは、[この節](../reporting/gs-reporting.md)を参照してください。
+レポート機能と追跡機能について詳しくは、[Adobe Campaign レポートツールの基本を学ぶ](../reporting/gs-reporting.md)を参照してください。
 
 ## [!DNL Adobe CX Enterprise]統合 {#adobe-experience-cloud-integrations}
 
 Adobe Campaign の配信機能と高度なキャンペーン管理機能を、ユーザーエクスペリエンスをパーソナライズできるよう作成された一連のソリューション（Adobe Experience Manager、Adobe Analytics、Adobe Target、Adobe Experience Cloud トリガーなど）と組み合わせることができます。
 
-アドビサービスおよびソリューションとの統合方法については、[この節](../connect/integration.md)を参照してください。
+[CampaignのAdobe サービスとソリューションをソリューションと連携させる](../connect/integration.md)方法について説明します。
 
 ## Campaign 機能の詳細 {#core-capabilities-and-add-ons}
 
 Adobe Campaign は、ニーズとアーキテクチャに応じて対話型マーケティング機能を実装し、最適化するための一連の機能を提供します。 これらの機能には、コア機能と、インストールしたパッケージおよび設定によって使える機能があります。 詳細な製品説明については、[Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)を参照してください。
 
-Campaign Classic に精通している方であれば、 Campaign Classic と Campaign v8 の主な違いについては、[このページ](v7-to-v8.md)を参照してください。
+Campaign Classic に精通している方であれば、 [Campaign Classic v7からCampaign v8](v7-to-v8.md)への移行で、Campaign ClassicとCampaign v8の主な相違点について説明します。
 
 **関連項目**
 
