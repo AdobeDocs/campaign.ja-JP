@@ -30,16 +30,27 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
+source-git-commit: 765af3342eb29f27dafa12f72634f5d91361bed5
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 77%
+source-wordcount: '1061'
+ht-degree: 67%
 ---
 # Campaign と Adobe Experience Manager の操作 {#ac-aem}
 
 Adobe Campaign と Adobe Experience Manager を統合すると、メール配信のコンテンツとフォームを Adobe Experience Manager で直接管理できます。
 
-[Campaign web インターフェイス内で Adobe Experience Manager as a Cloud Service コンテンツを編集する方法について詳しく見る](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=ja){target="_blank"}。
+## Campaign Web ユーザーインターフェイスでのAdobe Experience Manager as a Cloud Serviceの使用 {#aem-cs-web-ui}
+
+Campaign Web ユーザーインターフェイスを使用すると、Adobe Experience Manager as a Cloud Service環境を接続してコンテンツを一元化できます。 アセットとテンプレートに関する信頼できる唯一の情報源により、チャネルをまたいで電子メールの一貫性を維持し、ふたつのソリューション間でコンテンツが重複するのを防ぐことができます。
+
+* **Assets**: Adobe Experience Manager Assetsでアセットを管理し、電子メールコンテンツで直接再利用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/integrations/aem-assets){target="_blank"}
+* **テンプレート**: Adobe Experience Manager as a Cloud Serviceで電子メールテンプレートを作成および承認してから、配信のコンテンツテンプレートとして使用します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/integrations/aem-content){target="_blank"}
+
+この接続は、クライアントコンソールで設定された&#x200B;**[!UICONTROL AEM]**&#x200B;外部アカウントに依存しています。 [外部アカウント &#x200B;](../config/external-accounts.md)を参照してください。
+
+## クライアントコンソールでのAdobe Experience Managerの使用 {#aem-console}
+
+以下の節では、Campaign クライアントコンソールでの統合について説明します。
 
 [このドキュメントの Adobe Experience Manager の詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=ja#aem-and-adobe-campaign-integration-workflow){target="_blank"}。
 

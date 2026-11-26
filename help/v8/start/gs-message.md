@@ -43,14 +43,14 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 86%
+source-wordcount: '1059'
+ht-degree: 84%
 ---
 # メッセージの基本を学ぶ {#gs-ac-msg}
 
-Adobe Campaign を使用すると、メール、SMS、プッシュ通知、ダイレクトメールなどのクロスチャネルキャンペーンを送信し、各種の専用レポートを使用してキャンペーンの有効性を評価できます。 これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズできます。
+Adobe Campaignなら、電子メールやSMS、LINE メッセージ、プッシュ通知、ダイレクトメールなどのクロスチャネルキャンペーンをさまざまな専用レポートを利用して実施し、その効果を測定できます。 これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズできます。
 
 コア機能には、ターゲティング、メッセージの定義とパーソナライゼーション、通信の実行、関連する運用可能なレポートなどがあります。
 

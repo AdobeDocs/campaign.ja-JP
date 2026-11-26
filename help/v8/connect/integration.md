@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
+source-git-commit: 765af3342eb29f27dafa12f72634f5d91361bed5
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 69%
+source-wordcount: '489'
+ht-degree: 66%
 ---
 # Campaign をお使いのソリューションと接続する{#gs-ac-connectors}
 
@@ -49,7 +49,7 @@ Campaign v8 では、次のアドビソリューションと接続できます�
 
 * Adobe Analytics。 [詳細情報](../connect/ac-aa.md)
 * Adobe Experience Cloud トリガー。 [詳細情報](../connect/ac-triggers.md)
-* Adobe Experience Manager。 [詳細情報](../connect/ac-aem.md)
+* Adobe Experience Manager（Campaign Web ユーザーインターフェイスのAdobe Experience Manager as a Cloud Service アセットとテンプレートを含む）。 [詳細情報](../connect/ac-aem.md)
 * Adobe Experience Platform。 [詳細情報](../connect/ac-aep.md)
 * Adobe Journey Optimizer。 [詳細情報](../connect/ac-ajo.md)
 * Adobe Target。 [詳細情報](../connect/ac-at.md)

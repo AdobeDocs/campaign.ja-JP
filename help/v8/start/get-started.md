@@ -51,10 +51,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 7d3481d1a8453d0663d67765c664c60ed988aee6
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 71%
+source-wordcount: '1103'
+ht-degree: 68%
 ---
 # Adobe Campaign の概要{#gs-ac-v8}
 
@@ -99,7 +99,7 @@ Adobe Campaign には強力で使いやすいセグメント化機能とター�
 
 ## クロスチャネルキャンペーンのオーケストレーション {#cross-channel-campaign-orchestration}
 
-Adobe Campaign を使用すると、メール、ダイレクトメール、SMS、プッシュ通知などの複数のチャネルで、ターゲットを絞りパーソナライズしたキャンペーンの設計とオーケストレーションを行えます。 1 つのインターフェイスを通して、すべてのキャンペーンとコミュニケーションのスケジュール作成、オーケストレーション、設定、パーソナライズ、自動化、実施、測定などに必要なすべての機能を利用することができます。
+Adobe Campaignなら、電子メールやダイレクトメール、SMS、プッシュ通知、LINE、カスタムチャネルなど、複数のチャネルを通じてターゲットを絞り、パーソナライズされたキャンペーンを設計し、編成できます。 1 つのインターフェイスを通して、すべてのキャンペーンとコミュニケーションのスケジュール作成、オーケストレーション、設定、パーソナライズ、自動化、実施、測定などに必要なすべての機能を利用することができます。
 
 キャンペーンの設計、スケジュール、実行方法については、[&#x200B; キャンペーンの基本を学ぶ](campaigns.md)を参照してください。
 
