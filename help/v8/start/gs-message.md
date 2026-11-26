@@ -66,15 +66,15 @@ Adobe Campaignなら、電子メールやSMS、LINE メッセージ、プッシ�
 
    ![差出人、宛先、件名フィールド、HTML コンテンツおよび送信ボタンを含むメール配信エディター](assets/send-email.png)
 
-1. **マーケティングキャンペーンのメッセージ** - [マーケティングキャンペーン](campaigns.md)のコンテキストでメッセージを送信し、承認プロセスを定義し、統合ダッシュボードでメッセージを送信および追跡できます。 方法については、[ マーケティングキャンペーン配信](../../automation/campaigns/marketing-campaign-deliveries.md)を参照してください。
+1. **マーケティングキャンペーンのメッセージ** - [マーケティングキャンペーン](campaigns.md)のコンテキストでメッセージを送信し、承認プロセスを定義し、統合ダッシュボードでメッセージを送信および追跡できます。 方法については、[&#x200B; マーケティングキャンペーン配信](../../automation/campaigns/marketing-campaign-deliveries.md)を参照してください。
 
-   ![承認や送信などの承認ステータスを含む配信を一覧表示するキャンペーンダッシュボード ](assets/deliveries-in-a-campaign.png)
+   ![承認や送信などの承認ステータスを含む配信を一覧表示するキャンペーンダッシュボード &#x200B;](assets/deliveries-in-a-campaign.png)
 
 1. **ワークフローのメッセージ** - [ワークフロー](../config/workflows.md)を通じてメッセージを送信し、配信を自動化できます。 方法については、[配信](../../automation/workflow/delivery.md)で説明します。
 
    ![夏のオファー配信、待機およびモバイル配信を受け取るクエリと読み取りリストを含むキャンペーンワークフロー](assets/send-in-a-wf.png)
 
-1. **トリガーされたメッセージ** - イベントから[メッセージをトリガー](../send/transactional.md)できます。 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理する目的で設計された Campaign モジュールです。 トランザクションメッセージを設定および送信する手順については、[Campaign トランザクションメッセージ ](../send/transactional.md)を参照してください。
+1. **トリガーされたメッセージ** - イベントから[メッセージをトリガー](../send/transactional.md)できます。 トランザクションメッセージ（Message Center）は、トリガーメッセージを管理する目的で設計された Campaign モジュールです。 トランザクションメッセージを設定および送信する手順については、[Campaign トランザクションメッセージ &#x200B;](../send/transactional.md)を参照してください。
 
 ## 通信チャネル {#gs-channel}
 
@@ -111,7 +111,7 @@ Campaign には 3 つのタイプの配信オブジェクトがあります。
 
 配信は、配信リストから作成したり、ワークフロー内で[配信](../../automation/workflow/delivery.md)アクティビティを介して作成したりできます。
 
-ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。 これらのアクティビティについて詳しくは、[ クロスチャネル配信](../../automation/workflow/cross-channel-deliveries.md)を参照してください。
+ワークフローには、使用するチャネルのタイプに応じた特定の配信アクティビティも用意されています。 これらのアクティビティについて詳しくは、[&#x200B; クロスチャネル配信](../../automation/workflow/cross-channel-deliveries.md)を参照してください。
 
 ### 繰り返し配信 {#recurring-delivery}
 
